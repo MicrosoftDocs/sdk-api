@@ -12,6 +12,8 @@ ms.keywords: RollbackComplete, RollbackComplete function [Files], fs.rollbackcom
 ms.topic: function
 f1_keywords: 
  - "ktmw32/RollbackComplete"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

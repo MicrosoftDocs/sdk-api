@@ -12,6 +12,8 @@ ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/PtInRegion"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArr
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INamespaceWalk.GetIDArrayResult"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

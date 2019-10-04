@@ -12,6 +12,8 @@ ms.keywords: UiaWindowClosedEventArgs, UiaWindowClosedEventArgs structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaWindowClosedEventArgs"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MonthCal_HitTest, MonthCal_HitTest macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_HitTest"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows 
 ms.topic: function
 f1_keywords:
 - prsht/CreatePropertySheetPage
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCachedSupportedViews, GetCachedSupportedViews method [Windows Ac
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationMultipleViewPattern.GetCachedSupportedViews"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

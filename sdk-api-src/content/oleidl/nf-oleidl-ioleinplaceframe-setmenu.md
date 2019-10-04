@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceFrame interface [COM],SetMenu method, IOleInPlaceFrame.S
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceFrame.SetMenu"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

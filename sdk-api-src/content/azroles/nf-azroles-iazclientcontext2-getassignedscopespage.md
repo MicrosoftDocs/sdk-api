@@ -12,6 +12,8 @@ ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssign
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext2.GetAssignedScopesPage"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

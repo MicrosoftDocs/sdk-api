@@ -12,6 +12,8 @@ ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_PRESERVEDKEY"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

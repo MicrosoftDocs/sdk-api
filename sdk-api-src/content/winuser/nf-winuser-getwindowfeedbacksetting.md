@@ -12,6 +12,8 @@ ms.keywords: GetWindowFeedbackSetting, GetWindowFeedbackSetting function, input_
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowFeedbackSetting"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

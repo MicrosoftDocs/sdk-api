@@ -12,6 +12,8 @@ ms.keywords: 3ec86a63-120a-f1df-c229-bbdd165c6650, GetGeometryShader, GetGeometr
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderVariable.GetGeometryShader"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

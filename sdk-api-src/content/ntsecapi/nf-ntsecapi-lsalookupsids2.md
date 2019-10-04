@@ -12,6 +12,8 @@ ms.keywords: LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID, LSA_LOOKUP_PREF
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupSids2
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

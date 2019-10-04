@@ -12,6 +12,8 @@ ms.keywords: IVdsPack interface [VDS],Recover method, IVdsPack.Recover, IVdsPack
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsPack.Recover"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

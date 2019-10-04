@@ -12,6 +12,8 @@ ms.keywords: LoadResource, LoadResource function [Menus and Other Resources], _w
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/LoadResource"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

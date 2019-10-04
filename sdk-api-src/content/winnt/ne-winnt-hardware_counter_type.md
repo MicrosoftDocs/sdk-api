@@ -12,6 +12,8 @@ ms.keywords: '*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_T
 ms.topic: enum
 f1_keywords:
 - winnt/HARDWARE_COUNTER_TYPE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

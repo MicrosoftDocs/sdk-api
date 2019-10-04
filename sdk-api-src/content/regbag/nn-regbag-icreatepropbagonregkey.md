@@ -12,6 +12,8 @@ ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "regbag/ICreatePropBagOnRegKey"
+dev_langs:
+ - c++
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows

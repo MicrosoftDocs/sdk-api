@@ -12,6 +12,8 @@ ms.keywords: MFNETSOURCE_CACHE_ACTIVE_COMPLETE, MFNETSOURCE_CACHE_ACTIVE_WRITING
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNETSOURCE_CACHE_STATE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelForm
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetPixelFormat"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

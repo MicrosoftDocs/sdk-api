@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetText method, 
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP2.SetText"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

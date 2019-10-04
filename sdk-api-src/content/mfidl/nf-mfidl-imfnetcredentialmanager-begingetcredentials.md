@@ -12,6 +12,8 @@ ms.keywords: BeginGetCredentials, BeginGetCredentials method [Media Foundation],
 ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCredentialManager.BeginGetCredentials
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

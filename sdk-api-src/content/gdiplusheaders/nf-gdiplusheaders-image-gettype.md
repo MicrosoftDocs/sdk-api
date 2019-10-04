@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],Image class, 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetType"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

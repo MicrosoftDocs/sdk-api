@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IB
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.SwitchToForeground"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

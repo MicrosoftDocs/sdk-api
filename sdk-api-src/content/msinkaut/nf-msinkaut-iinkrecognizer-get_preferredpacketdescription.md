@@ -12,6 +12,8 @@ ms.keywords: 3486f667-a050-4063-99bf-09865d6edbda, IInkRecognizer interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizer.PreferredPacketDescription"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

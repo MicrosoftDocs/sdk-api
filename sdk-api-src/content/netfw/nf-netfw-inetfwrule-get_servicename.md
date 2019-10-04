@@ -12,6 +12,8 @@ ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.Ser
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.ServiceName"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

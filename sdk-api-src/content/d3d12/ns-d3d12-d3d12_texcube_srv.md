@@ -12,6 +12,8 @@ ms.keywords: D3D12_TEXCUBE_SRV, D3D12_TEXCUBE_SRV structure, d3d12/D3D12_TEXCUBE
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_TEXCUBE_SRV"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

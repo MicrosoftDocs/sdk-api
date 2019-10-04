@@ -12,6 +12,8 @@ ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncResult.SetStatus"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

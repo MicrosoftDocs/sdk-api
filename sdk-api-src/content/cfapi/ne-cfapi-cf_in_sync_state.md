@@ -12,6 +12,8 @@ ms.keywords: CF_IN_SYNC_STATE, CF_IN_SYNC_STATE enumeration, CF_IN_SYNC_STATE_IN
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_IN_SYNC_STATE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEOUTCAPSW, *NPWAVEOUTCAPSW, *PWAVEOUTCAPSW, WAVEOUTCAPS, WAV
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/WAVEOUTCAPS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

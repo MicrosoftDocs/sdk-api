@@ -12,6 +12,8 @@ ms.keywords: DrawSvgDocument, DrawSvgDocument method [Direct2D], DrawSvgDocument
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1DeviceContext5.DrawSvgDocument"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

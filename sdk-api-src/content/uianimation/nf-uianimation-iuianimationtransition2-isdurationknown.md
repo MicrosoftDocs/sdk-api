@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTransition2 interface [Windows Animation],IsDurationKno
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransition2.IsDurationKnown"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

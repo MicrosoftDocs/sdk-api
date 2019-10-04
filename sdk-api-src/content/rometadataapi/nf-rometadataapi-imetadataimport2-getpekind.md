@@ -12,6 +12,8 @@ ms.keywords: GetPEKind, GetPEKind method [Windows Runtime], GetPEKind method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport2.GetPEKind"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionRectangleClip.SetBottomLeftRadiusY, IDCompositionRecta
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionRectangleClip::SetBottomLeftRadiusY"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

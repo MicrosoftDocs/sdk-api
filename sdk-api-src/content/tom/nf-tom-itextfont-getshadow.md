@@ -12,6 +12,8 @@ ms.keywords: GetShadow, GetShadow method [Windows Controls], GetShadow method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetShadow"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

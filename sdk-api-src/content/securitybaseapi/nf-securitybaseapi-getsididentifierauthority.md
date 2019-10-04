@@ -12,6 +12,8 @@ ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Secu
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSidIdentifierAuthority
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

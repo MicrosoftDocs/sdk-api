@@ -12,6 +12,8 @@ ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInst
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComInstanceEvents.OnObjectCreate"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

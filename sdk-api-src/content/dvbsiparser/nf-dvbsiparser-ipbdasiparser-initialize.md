@@ -12,6 +12,8 @@ ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize meth
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDASiParser.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITraceDataCollector interface [PLA],PreallocateFile property, ITrac
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.PreallocateFile"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

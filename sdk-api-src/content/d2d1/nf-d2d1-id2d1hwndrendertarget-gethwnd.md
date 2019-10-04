@@ -12,6 +12,8 @@ ms.keywords: GetHwnd, GetHwnd method [Direct2D], GetHwnd method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1HwndRenderTarget.GetHwnd"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

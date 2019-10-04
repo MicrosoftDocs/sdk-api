@@ -12,6 +12,8 @@ ms.keywords: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA, MFCONTENTPROTECTIOND
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

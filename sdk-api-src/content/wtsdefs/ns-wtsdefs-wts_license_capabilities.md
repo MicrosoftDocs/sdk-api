@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES, PWRDS_LICE
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_LICENSE_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

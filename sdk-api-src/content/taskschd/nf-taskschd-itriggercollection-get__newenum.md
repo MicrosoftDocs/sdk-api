@@ -12,6 +12,8 @@ ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, IT
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITriggerCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

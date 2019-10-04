@@ -12,6 +12,8 @@ ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTVTuner.put_InputType"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

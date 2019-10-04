@@ -12,6 +12,8 @@ ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetStartTime"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutGetID, mmeapi/waveOutGetID, multimedia.waveoutgetid,
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutGetID"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

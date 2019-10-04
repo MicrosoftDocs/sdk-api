@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],MouseIcon property, IInkEdit.MouseIc
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.MouseIcon"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

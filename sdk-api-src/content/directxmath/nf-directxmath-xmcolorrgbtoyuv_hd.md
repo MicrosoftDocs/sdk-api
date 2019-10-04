@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorRGBToYUV_HD, XMColorRGBToYUV_HD, XMColorRGBToYU
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorRGBToYUV_HD"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

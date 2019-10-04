@@ -12,6 +12,8 @@ ms.keywords: 3e9ed365-9e14-baae-7c23-80439c5771f7, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.VSGetShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

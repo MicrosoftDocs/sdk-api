@@ -12,6 +12,8 @@ ms.keywords: CachedZoomMaximum property [Windows Accessibility], CachedZoomMaxim
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMaximum"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

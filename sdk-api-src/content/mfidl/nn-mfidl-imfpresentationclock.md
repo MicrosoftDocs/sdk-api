@@ -12,6 +12,8 @@ ms.keywords: 979c4f77-cbee-468c-8f6b-e68442d89025, IMFPresentationClock, IMFPres
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFPresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

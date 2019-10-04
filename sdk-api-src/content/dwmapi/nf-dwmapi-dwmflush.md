@@ -12,6 +12,8 @@ ms.keywords: DwmFlush, DwmFlush function [Desktop Window Manager], _udwm_dwmflus
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmFlush"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

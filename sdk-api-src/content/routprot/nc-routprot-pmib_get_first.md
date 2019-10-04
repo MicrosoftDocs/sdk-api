@@ -12,6 +12,8 @@ ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, P
 ms.topic: callback
 f1_keywords: 
  - "routprot/MibGetFirst"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

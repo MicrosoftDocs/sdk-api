@@ -12,6 +12,8 @@ ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoMa
 ms.topic: interface
 f1_keywords: 
  - "proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager"
+dev_langs:
+ - c++
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 
 req.target-type: Windows

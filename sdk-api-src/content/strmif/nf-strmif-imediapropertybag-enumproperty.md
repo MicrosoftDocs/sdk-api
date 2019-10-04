@@ -12,6 +12,8 @@ ms.keywords: EnumProperty, EnumProperty method [DirectShow], EnumProperty method
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaPropertyBag.EnumProperty"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

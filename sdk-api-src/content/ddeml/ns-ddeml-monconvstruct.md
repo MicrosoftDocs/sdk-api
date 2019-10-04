@@ -12,6 +12,8 @@ ms.keywords: "*PMONCONVSTRUCT, MONCONVSTRUCT, MONCONVSTRUCT structure [Data Exch
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONCONVSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

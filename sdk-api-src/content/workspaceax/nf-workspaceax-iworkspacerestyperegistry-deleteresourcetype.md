@@ -12,6 +12,8 @@ ms.keywords: DeleteResourceType, DeleteResourceType method [Remote Desktop Servi
 ms.topic: method
 f1_keywords: 
  - "workspaceax/IWorkspaceResTypeRegistry.DeleteResourceType"
+dev_langs:
+ - c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

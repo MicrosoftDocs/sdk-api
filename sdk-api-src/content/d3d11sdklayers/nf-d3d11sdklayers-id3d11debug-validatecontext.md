@@ -12,6 +12,8 @@ ms.keywords: 4ee713bf-94e0-0a30-fb72-d6e8a2216e88, ID3D11Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.ValidateContext"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

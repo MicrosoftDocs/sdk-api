@@ -12,6 +12,8 @@ ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise func
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/SetSystemTimeAdjustmentPrecise"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows

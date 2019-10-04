@@ -12,6 +12,8 @@ ms.keywords: CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_F
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptDecodeObject"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

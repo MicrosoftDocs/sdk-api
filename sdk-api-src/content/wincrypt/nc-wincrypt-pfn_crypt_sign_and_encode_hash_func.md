@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC, PFN_CRYPT_SIGN_AND_ENCODE_HASH
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_model_desc, PWINML_MODEL_DESC, PWINML_MODEL_D
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_MODEL_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

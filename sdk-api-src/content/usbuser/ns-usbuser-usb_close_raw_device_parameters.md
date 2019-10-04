@@ -12,6 +12,8 @@ ms.keywords: "*PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETER
 ms.topic: struct
 f1_keywords: 
  - "usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

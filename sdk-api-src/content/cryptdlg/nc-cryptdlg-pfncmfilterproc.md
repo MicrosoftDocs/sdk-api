@@ -12,6 +12,8 @@ ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback
 ms.topic: callback
 f1_keywords:
 - cryptdlg/PFNCMFILTERPROC
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], 
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuString"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

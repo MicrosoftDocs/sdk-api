@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow
 ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.GetNumberOfCapabilities
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPMENUBARINFO, *PMENUBARINFO, MENUBARINFO, MENUBARINFO structure 
 ms.topic: struct
 f1_keywords: 
  - "winuser/MENUBARINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

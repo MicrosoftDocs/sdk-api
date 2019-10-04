@@ -12,6 +12,8 @@ ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, 
 ms.topic: enum
 f1_keywords:
 - webservices/WS_VALUE_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

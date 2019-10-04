@@ -12,6 +12,8 @@ ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.CoverPageType"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

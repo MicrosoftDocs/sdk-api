@@ -12,6 +12,8 @@ ms.keywords: BeginUpdatingAudioObjects, BeginUpdatingAudioObjects method [Core A
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

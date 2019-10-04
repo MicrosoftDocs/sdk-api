@@ -12,6 +12,8 @@ ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], Enum
 ms.topic: function
 f1_keywords:
 - winuser/EnumDisplayDevices
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

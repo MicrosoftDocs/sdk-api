@@ -12,6 +12,8 @@ ms.keywords: DrawCachedBitmap, DrawCachedBitmap method [GDI+], DrawCachedBitmap 
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawCachedBitmap"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DRIVE_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

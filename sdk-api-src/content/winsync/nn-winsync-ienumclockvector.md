@@ -12,6 +12,8 @@ ms.keywords: IEnumClockVector, IEnumClockVector interface [Windows Sync], IEnumC
 ms.topic: interface
 f1_keywords: 
  - "winsync/IEnumClockVector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

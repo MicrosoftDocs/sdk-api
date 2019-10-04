@@ -12,6 +12,8 @@ ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePower
 ms.topic: interface
 f1_keywords: 
  - "mmc/IConsolePowerSink"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

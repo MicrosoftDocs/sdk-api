@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Windows Accessibility], Cancel method [Windo
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISynchronizedInputProvider.Cancel"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

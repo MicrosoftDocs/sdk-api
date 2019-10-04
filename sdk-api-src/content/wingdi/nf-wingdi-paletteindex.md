@@ -12,6 +12,8 @@ ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX
 ms.topic: macro
 f1_keywords: 
  - "wingdi/PALETTEINDEX"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

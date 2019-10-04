@@ -12,6 +12,8 @@ ms.keywords: IWMPCore interface [Windows Media Player],launchURL method, IWMPCor
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCore.launchURL"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

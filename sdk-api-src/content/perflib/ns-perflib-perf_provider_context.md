@@ -12,6 +12,8 @@ ms.keywords: "*PPERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONT
 ms.topic: struct
 f1_keywords: 
  - "perflib/PERF_PROVIDER_CONTEXT"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

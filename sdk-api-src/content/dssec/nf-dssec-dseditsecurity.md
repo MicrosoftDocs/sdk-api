@@ -12,6 +12,8 @@ ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSec
 ms.topic: function
 f1_keywords: 
  - "dssec/DSEditSecurity"
+dev_langs:
+ - c++
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBasePnPID, GetBasePnPID method [IMAPI], GetBasePnPID method [IMA
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.GetBasePnPID"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

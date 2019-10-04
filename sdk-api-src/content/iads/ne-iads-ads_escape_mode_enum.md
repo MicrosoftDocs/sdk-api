@@ -12,6 +12,8 @@ ms.keywords: ADS_ESCAPEDMODE_DEFAULT, ADS_ESCAPEDMODE_OFF, ADS_ESCAPEDMODE_OFF_E
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_ESCAPE_MODE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

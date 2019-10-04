@@ -12,6 +12,8 @@ ms.keywords: IPrint interface [COM],SetInitialPageNum method, IPrint.SetInitialP
 ms.topic: method
 f1_keywords: 
  - "docobj/IPrint.SetInitialPageNum"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

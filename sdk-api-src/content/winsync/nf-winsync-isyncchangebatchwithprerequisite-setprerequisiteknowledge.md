@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrereq
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

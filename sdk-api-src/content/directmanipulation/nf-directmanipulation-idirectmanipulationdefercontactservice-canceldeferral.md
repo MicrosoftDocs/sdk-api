@@ -12,6 +12,8 @@ ms.keywords: CancelDeferral, CancelDeferral method [Direct Manipulation], Cancel
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationDeferContactService.CancelDeferral"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

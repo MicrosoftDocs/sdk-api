@@ -12,6 +12,8 @@ ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions 
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventControl.GetSubscriptions"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

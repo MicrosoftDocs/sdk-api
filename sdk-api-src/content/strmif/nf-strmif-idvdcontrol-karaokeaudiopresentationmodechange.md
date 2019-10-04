@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChan
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.KaraokeAudioPresentationModeChange"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

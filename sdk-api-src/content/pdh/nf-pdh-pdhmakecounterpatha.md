@@ -12,6 +12,8 @@ ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, P
 ms.topic: function
 f1_keywords:
 - pdh/PdhMakeCounterPath
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

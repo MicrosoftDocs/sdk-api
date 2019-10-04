@@ -12,6 +12,8 @@ ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAcces
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IAccessibilityDockingService.DockWindow"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

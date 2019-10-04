@@ -12,6 +12,8 @@ ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRouting.GetMethods"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

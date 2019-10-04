@@ -12,6 +12,8 @@ ms.keywords: "*LPVIDEOMEMORY, LPVIDEOMEMORY, LPVIDEOMEMORY structure pointer [Di
 ms.topic: struct
 f1_keywords: 
  - "ddrawint/VIDEOMEMORY"
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue met
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_NameValueService.GetValue"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

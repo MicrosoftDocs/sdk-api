@@ -12,6 +12,8 @@ ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceIns
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardListReadersWithDeviceInstanceId"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LegacyIAccessiblePattern_Select, LegacyIAccessiblePattern_Select fu
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/LegacyIAccessiblePattern_Select"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGe
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetProviderId"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

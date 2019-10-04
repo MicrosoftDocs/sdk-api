@@ -12,6 +12,8 @@ ms.keywords: 0009e4c5-6ad8-a897-de23-d289a78f9671, GetDeviceRemovedReason, GetDe
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GetDeviceRemovedReason"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY, WS_XML_SECURITY_TOKEN_PROPERTY stru
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_XML_SECURITY_TOKEN_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

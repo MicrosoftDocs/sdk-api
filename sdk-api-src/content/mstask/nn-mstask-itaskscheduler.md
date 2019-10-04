@@ -12,6 +12,8 @@ ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskSch
 ms.topic: interface
 f1_keywords: 
  - "mstask/ITaskScheduler"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

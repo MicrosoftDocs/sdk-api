@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_GreaterThan, FLOATOBJ_GreaterThan function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_GreaterThan
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: DoCallback, DoCallback method [COM+], DoCallback method [COM+],IApp
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IAppDomainHelper.DoCallback"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

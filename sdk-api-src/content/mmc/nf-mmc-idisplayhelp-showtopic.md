@@ -12,6 +12,8 @@ ms.keywords: IDisplayHelp interface [MMC],ShowTopic method, IDisplayHelp.ShowTop
 ms.topic: method
 f1_keywords: 
  - "mmc/IDisplayHelp.ShowTopic"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

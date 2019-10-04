@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [WPF Bitmap Effects], GetIndex method [WP
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectorInfo.GetIndex"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

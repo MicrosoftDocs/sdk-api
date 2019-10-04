@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_FRAME_STATISTICS, DCOMPOSITION_FRAME_STATISTICS struct
 ms.topic: struct
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_FRAME_STATISTICS"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows

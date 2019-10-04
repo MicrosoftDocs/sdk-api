@@ -12,6 +12,8 @@ ms.keywords: RTM_ENTITY_EXPORT_METHOD, RTM_ENTITY_EXPORT_METHOD callback functio
 ms.topic: callback
 f1_keywords:
 - rtmv2/RTM_ENTITY_EXPORT_METHOD
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1Multithread interface [Direct2D],Leave method, ID2D1Multithrea
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Multithread.Leave"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSiParser2.GetLDT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

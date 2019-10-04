@@ -12,6 +12,8 @@ ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardE
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardEstablishContext"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

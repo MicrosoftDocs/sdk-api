@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_CREATE_CONTEXT_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

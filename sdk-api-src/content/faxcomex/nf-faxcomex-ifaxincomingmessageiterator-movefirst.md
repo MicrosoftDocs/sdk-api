@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],MoveFirst metho
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessageIterator.MoveFirst"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

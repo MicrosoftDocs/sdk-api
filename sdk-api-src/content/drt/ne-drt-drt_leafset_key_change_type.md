@@ -12,6 +12,8 @@ ms.keywords: DRT_LEAFSET_KEY_ADDED, DRT_LEAFSET_KEY_CHANGE_TYPE, DRT_LEAFSET_KEY
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_LEAFSET_KEY_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

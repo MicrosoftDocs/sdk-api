@@ -12,6 +12,8 @@ ms.keywords: WINBIO_FRAMEWORK_CHANGE_UNIT, WinBioAsyncMonitorFrameworkChanges, W
 ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncMonitorFrameworkChanges
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

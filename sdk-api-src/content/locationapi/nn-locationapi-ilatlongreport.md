@@ -12,6 +12,8 @@ ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongRep
 ms.topic: interface
 f1_keywords: 
  - "locationapi/ILatLongReport"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

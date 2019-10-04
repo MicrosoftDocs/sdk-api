@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISw
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGISwapChain2.SetMatrixTransform"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

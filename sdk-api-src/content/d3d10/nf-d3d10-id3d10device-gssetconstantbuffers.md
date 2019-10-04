@@ -12,6 +12,8 @@ ms.keywords: 4a93383e-8523-3db8-9e49-217d1cf3ff2b, GSSetConstantBuffers, GSSetCo
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GSSetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

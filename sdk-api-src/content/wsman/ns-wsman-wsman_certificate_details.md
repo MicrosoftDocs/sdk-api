@@ -12,6 +12,8 @@ ms.keywords: WSMAN_CERTIFICATE_DETAILS, WSMAN_CERTIFICATE_DETAILS structure [Win
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_CERTIFICATE_DETAILS"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

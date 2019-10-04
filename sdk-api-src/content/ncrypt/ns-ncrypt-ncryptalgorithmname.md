@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, NCRYPT_ASYMMETRIC_ENCRYPTIO
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCryptAlgorithmName"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeinterlacePref9_BOB, DeinterlacePref9_Mask, DeinterlacePref9_NextB
 ms.topic: enum
 f1_keywords: 
  - "vmr9/VMR9DeinterlacePrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

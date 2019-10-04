@@ -12,6 +12,8 @@ ms.keywords: SetupDiOpenClassRegKey, SetupDiOpenClassRegKey function [Device and
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiOpenClassRegKey"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Open_Class_Key

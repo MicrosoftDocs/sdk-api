@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TR
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/Lsa
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/LsaClose"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

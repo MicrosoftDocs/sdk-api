@@ -12,6 +12,8 @@ ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IAudioClient2"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

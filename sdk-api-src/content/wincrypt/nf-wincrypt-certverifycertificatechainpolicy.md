@@ -12,6 +12,8 @@ ms.keywords: CERT_CHAIN_POLICY_AUTHENTICODE, CERT_CHAIN_POLICY_AUTHENTICODE_TS, 
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyCertificateChainPolicy
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

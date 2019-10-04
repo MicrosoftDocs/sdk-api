@@ -12,6 +12,8 @@ ms.keywords: PRINTACTION_DOCUMENTDEFAULTS, PRINTACTION_NETINSTALL, PRINTACTION_N
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHInvokePrinterCommand"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

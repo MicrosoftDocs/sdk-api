@@ -12,6 +12,8 @@ ms.keywords: APPX_PACKAGE_WRITER_PAYLOAD_STREAM, APPX_PACKAGE_WRITER_PAYLOAD_STR
 ms.topic: struct
 f1_keywords: 
  - "appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

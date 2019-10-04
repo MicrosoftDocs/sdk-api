@@ -12,6 +12,8 @@ ms.keywords: '*PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE enumer
 ms.topic: enum
 f1_keywords:
 - mstask/TASK_TRIGGER_TYPE
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetReplicaKey, GetReplicaKey method [Windows Sync], GetReplicaKey m
 ms.topic: method
 f1_keywords: 
  - "winsync/IClockVectorElement.GetReplicaKey"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

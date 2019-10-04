@@ -12,6 +12,8 @@ ms.keywords: 2116312d-356e-9f01-4cdf-78e47d9a4ae8, ID3D10SamplerState, ID3D10Sam
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10SamplerState"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

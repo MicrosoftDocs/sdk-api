@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAcces
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetSize"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

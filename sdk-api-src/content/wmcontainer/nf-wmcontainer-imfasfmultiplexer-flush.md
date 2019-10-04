@@ -12,6 +12,8 @@ ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.Flush"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

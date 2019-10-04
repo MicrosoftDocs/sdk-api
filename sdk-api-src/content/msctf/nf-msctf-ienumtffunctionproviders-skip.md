@@ -12,6 +12,8 @@ ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Skip m
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfFunctionProviders.Skip"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

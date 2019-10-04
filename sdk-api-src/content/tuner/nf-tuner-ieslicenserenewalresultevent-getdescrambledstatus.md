@@ -12,6 +12,8 @@ ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetDescrambledStatus"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

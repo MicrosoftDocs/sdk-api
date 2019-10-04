@@ -12,6 +12,8 @@ ms.keywords: BaseTrust, FullTrust, PartialTrust, RegisteredTrustLevel, TrustLeve
 ms.topic: enum
 f1_keywords: 
  - "inspectable/TrustLevel"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

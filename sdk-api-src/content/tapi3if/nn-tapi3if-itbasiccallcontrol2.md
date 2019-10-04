@@ -12,6 +12,8 @@ ms.keywords: ITBasicCallControl2, ITBasicCallControl2 interface [TAPI 2.2], ITBa
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITBasicCallControl2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

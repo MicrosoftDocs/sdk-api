@@ -12,6 +12,8 @@ ms.keywords: '*PLM_OWF_PASSWORD, *PNT_OWF_PASSWORD, LM_OWF_PASSWORD, LM_OWF_PASS
 ms.topic: struct
 f1_keywords:
 - mschapp/LM_OWF_PASSWORD
+dev_langs:
+ - c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

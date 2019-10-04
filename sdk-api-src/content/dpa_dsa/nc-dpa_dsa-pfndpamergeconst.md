@@ -12,6 +12,8 @@ ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAME
 ms.topic: callback
 f1_keywords: 
  - "dpa_dsa/PFNDPAMERGECONST"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

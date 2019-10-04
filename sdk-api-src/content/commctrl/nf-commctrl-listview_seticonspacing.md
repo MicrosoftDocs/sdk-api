@@ -12,6 +12,8 @@ ms.keywords: ListView_SetIconSpacing, ListView_SetIconSpacing macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetIconSpacing"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSubItemCount, GetSubItemCount method [Picture Acquisition], GetS
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.GetSubItemCount"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

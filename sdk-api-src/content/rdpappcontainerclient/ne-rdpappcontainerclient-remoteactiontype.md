@@ -12,6 +12,8 @@ ms.keywords: RemoteActionAppSwitch, RemoteActionAppbar, RemoteActionCharms, Remo
 ms.topic: enum
 f1_keywords: 
  - "rdpappcontainerclient/RemoteActionType"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

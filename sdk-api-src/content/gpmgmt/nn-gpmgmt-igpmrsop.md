@@ -12,6 +12,8 @@ ms.keywords: GPMRSOP, IGPMRSOP, IGPMRSOP interface [GPMC], IGPMRSOP interface [G
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMRSOP"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Brush, Brush class [GDI+], Brush class [GDI+],described, _gdiplus_C
 ms.topic: class
 f1_keywords: 
  - "gdiplusbrush/Brush"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

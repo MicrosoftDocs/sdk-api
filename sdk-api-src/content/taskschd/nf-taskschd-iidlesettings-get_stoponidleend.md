@@ -12,6 +12,8 @@ ms.keywords: IIdleSettings interface [Task Scheduler],StopOnIdleEnd property, II
 ms.topic: method
 f1_keywords: 
  - "taskschd/IIdleSettings.StopOnIdleEnd"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

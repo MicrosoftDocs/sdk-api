@@ -12,6 +12,8 @@ ms.keywords: IMtsEvents interface [COM+],PostEvent method, IMtsEvents.PostEvent,
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEvents.PostEvent"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

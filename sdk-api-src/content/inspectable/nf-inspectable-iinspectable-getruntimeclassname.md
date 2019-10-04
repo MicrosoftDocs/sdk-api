@@ -12,6 +12,8 @@ ms.keywords: GetRuntimeClassName, GetRuntimeClassName method [Windows Runtime], 
 ms.topic: method
 f1_keywords: 
  - "inspectable/IInspectable.GetRuntimeClassName"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

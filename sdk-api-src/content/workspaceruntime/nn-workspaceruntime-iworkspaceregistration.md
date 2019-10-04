@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceRegistration, IWorkspaceRegistration interface [Remote De
 ms.topic: interface
 f1_keywords: 
  - "workspaceruntime/IWorkspaceRegistration"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

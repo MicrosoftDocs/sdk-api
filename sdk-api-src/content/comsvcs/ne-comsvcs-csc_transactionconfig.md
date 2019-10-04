@@ -12,6 +12,8 @@ ms.keywords: CSC_CreateTransactionIfNecessary, CSC_IfContainerIsTransactional, C
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_TransactionConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

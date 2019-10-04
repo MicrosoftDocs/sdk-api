@@ -12,6 +12,8 @@ ms.keywords: IClosable, IClosable interface [Windows Runtime], IClosable interfa
 ms.topic: interface
 f1_keywords: 
  - "windows.foundation/IClosable"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

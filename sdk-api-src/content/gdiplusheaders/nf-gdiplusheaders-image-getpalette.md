@@ -12,6 +12,8 @@ ms.keywords: GetPalette, GetPalette method [GDI+], GetPalette method [GDI+],Imag
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetPalette"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShel
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHCreateShellItemArrayFromShellItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

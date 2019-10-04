@@ -12,6 +12,8 @@ ms.keywords: WSD_SCOPES, WSD_SCOPES structure, ncd.wsd_scopes_struct, wsdtypes/W
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SCOPES
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

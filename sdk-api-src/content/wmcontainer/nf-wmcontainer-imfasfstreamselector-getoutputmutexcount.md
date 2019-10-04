@@ -12,6 +12,8 @@ ms.keywords: GetOutputMutexCount, GetOutputMutexCount method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetOutputMutexCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

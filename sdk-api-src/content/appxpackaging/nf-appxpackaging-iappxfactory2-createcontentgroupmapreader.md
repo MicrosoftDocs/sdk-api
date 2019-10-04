@@ -12,6 +12,8 @@ ms.keywords: CreateContentGroupMapReader, CreateContentGroupMapReader method [Ap
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFactory2.CreateContentGroupMapReader"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

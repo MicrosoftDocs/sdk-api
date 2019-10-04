@@ -12,6 +12,8 @@ ms.keywords: IComActivityEvents interface [COM+],OnActivityCreate method, IComAc
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComActivityEvents.OnActivityCreate"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

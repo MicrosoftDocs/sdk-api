@@ -12,6 +12,8 @@ ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IContex
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextProperties.EnumNames"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ImageList_LoadBitmap"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

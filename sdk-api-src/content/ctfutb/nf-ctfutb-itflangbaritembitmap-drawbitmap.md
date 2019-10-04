@@ -12,6 +12,8 @@ ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmap.DrawBitmap"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

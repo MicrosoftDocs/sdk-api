@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_NODE_ID, CLFS_NODE_ID, CLFS_NODE_ID structure [Files], PCLF
 ms.topic: struct
 f1_keywords: 
  - "clfs/CLFS_NODE_ID"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FsrmReportScheduler class [File Server Resource Manager],VerifyName
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportScheduler.VerifyNamespaces"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

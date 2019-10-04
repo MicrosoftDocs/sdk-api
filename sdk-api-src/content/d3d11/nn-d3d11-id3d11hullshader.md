@@ -12,6 +12,8 @@ ms.keywords: 47a9bf26-6dd1-87f4-4259-36e6163908d8, ID3D11HullShader, ID3D11HullS
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11HullShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

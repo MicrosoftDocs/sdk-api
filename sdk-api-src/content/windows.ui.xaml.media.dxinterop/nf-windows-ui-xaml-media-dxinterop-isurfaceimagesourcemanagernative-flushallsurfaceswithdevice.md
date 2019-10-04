@@ -12,6 +12,8 @@ ms.keywords: FlushAllSurfacesWithDevice, FlushAllSurfacesWithDevice method [Wind
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

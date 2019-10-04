@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation3, ISecurityInformation3 interface [Security], 
 ms.topic: interface
 f1_keywords: 
  - "aclui/ISecurityInformation3"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

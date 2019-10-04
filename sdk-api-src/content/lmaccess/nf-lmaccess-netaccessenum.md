@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAccessEnum"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

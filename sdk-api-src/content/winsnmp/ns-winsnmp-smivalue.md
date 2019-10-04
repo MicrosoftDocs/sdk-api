@@ -12,6 +12,8 @@ ms.keywords: "*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_E
 ms.topic: struct
 f1_keywords: 
  - "winsnmp/smiVALUE"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

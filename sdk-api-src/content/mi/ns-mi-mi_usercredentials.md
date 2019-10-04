@@ -12,6 +12,8 @@ ms.keywords: MI_AUTH_TYPE_BASIC, MI_AUTH_TYPE_CLIENT_CERTS, MI_AUTH_TYPE_CREDSSP
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_UserCredentials"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets m
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLunIscsi.AssociateTargets"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

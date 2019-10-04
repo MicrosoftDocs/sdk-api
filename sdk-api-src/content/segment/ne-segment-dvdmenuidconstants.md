@@ -12,6 +12,8 @@ ms.keywords: DVDMenuID Constants, DVDMenuIDConstants, DVDMenuIDConstants enumera
 ms.topic: enum
 f1_keywords: 
  - "segment/DVDMenuIDConstants"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

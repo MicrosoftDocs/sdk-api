@@ -12,6 +12,8 @@ ms.keywords: "?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?Set
 ms.topic: method
 f1_keywords: 
  - "methodco/MethodContext.SetStatusObject"
+dev_langs:
+ - c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows

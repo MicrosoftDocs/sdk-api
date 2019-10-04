@@ -12,6 +12,8 @@ ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.CollectionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

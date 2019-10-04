@@ -12,6 +12,8 @@ ms.keywords: WinBioVerify, WinBioVerify function [Windows Biometric Framework AP
 ms.topic: function
 f1_keywords:
 - winbio/WinBioVerify
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propsys/PSRefreshPropertySchema"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PRADIUS_EXTENSION_PROCESS_EX, PRADIUS_EXTENSION_PROCESS_EX callback
 ms.topic: callback
 f1_keywords:
 - authif/PRADIUS_EXTENSION_PROCESS_EX
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

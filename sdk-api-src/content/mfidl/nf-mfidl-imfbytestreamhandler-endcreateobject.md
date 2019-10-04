@@ -12,6 +12,8 @@ ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObj
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamHandler.EndCreateObject"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

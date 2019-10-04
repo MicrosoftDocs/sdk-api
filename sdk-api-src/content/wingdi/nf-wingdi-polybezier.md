@@ -12,6 +12,8 @@ ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/PolyBezier"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],RotateFlip method, Image.RotateFlip, Image::Rota
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.RotateFlip"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

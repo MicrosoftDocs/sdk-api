@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCR
 ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_INTERFACE_REG
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

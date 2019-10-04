@@ -12,6 +12,8 @@ ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_
 ms.topic: enum
 f1_keywords: 
  - "wtsapi32/WTS_VIRTUAL_CLASS"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

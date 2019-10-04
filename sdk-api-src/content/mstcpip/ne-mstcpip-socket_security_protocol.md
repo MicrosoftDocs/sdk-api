@@ -12,6 +12,8 @@ ms.keywords: SOCKET_SECURITY_PROTOCOL, SOCKET_SECURITY_PROTOCOL enumeration [Win
 ms.topic: enum
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_PROTOCOL
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

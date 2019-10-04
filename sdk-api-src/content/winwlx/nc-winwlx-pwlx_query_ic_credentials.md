@@ -12,6 +12,8 @@ ms.keywords: PWLX_QUERY_IC_CREDENTIALS, PWLX_QUERY_IC_CREDENTIALS callback, WlxQ
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryInetConnectorCredentials
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

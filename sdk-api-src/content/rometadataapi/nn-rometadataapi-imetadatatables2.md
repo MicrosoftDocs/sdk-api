@@ -12,6 +12,8 @@ ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMe
 ms.topic: interface
 f1_keywords: 
  - "rometadataapi/IMetaDataTables2"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO struc
 ms.topic: struct
 f1_keywords:
 - http/HTTP_FLOWRATE_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

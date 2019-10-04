@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_MEMORY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows

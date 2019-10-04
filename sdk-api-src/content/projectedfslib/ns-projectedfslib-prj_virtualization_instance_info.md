@@ -12,6 +12,8 @@ ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO 
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

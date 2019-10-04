@@ -12,6 +12,8 @@ ms.keywords: IProgressDialog, IProgressDialog interface [Windows Shell], IProgre
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IProgressDialog"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evt
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtNextPublisherId"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

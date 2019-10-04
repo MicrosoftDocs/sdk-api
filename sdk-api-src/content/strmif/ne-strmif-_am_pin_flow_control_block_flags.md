@@ -12,6 +12,8 @@ ms.keywords: AM_PIN_CONNECTION_BLOCK_FLAGSEnumeration, AM_PIN_FLOW_CONTROL_BLOCK
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

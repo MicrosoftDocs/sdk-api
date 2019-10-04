@@ -12,6 +12,8 @@ ms.keywords: IAppxManifestMainPackageDependenciesEnumerator interface [App packa
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestMainPackageDependenciesEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

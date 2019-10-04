@@ -12,6 +12,8 @@ ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph int
 ms.topic: interface
 f1_keywords: 
  - "strmif/IFilterGraph"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

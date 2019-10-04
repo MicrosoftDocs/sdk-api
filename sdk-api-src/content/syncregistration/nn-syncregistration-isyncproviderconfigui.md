@@ -12,6 +12,8 @@ ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Syn
 ms.topic: interface
 f1_keywords: 
  - "syncregistration/ISyncProviderConfigUI"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

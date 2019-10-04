@@ -12,6 +12,8 @@ ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Run
 ms.topic: interface
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

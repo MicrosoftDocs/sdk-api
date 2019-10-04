@@ -12,6 +12,8 @@ ms.keywords: 16a23b17-fc5e-3839-422e-8dec8dda3e55, D3D11_TESSELLATOR_PARTITIONIN
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D11_TESSELLATOR_PARTITIONING
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

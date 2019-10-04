@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameCount method, ICert
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeCRLDistInfo.SetNameCount"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

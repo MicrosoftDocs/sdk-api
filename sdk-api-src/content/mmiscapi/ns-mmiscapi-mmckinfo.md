@@ -12,6 +12,8 @@ ms.keywords: "*LPMMCKINFO, *NPMMCKINFO, *PMMCKINFO, MMCKINFO, MMCKINFO structure
 ms.topic: struct
 f1_keywords: 
  - "mmiscapi/MMCKINFO"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Windows.h
 req.target-type: Windows

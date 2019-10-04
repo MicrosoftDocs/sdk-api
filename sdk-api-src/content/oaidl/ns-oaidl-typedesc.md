@@ -12,6 +12,8 @@ ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.
 ms.topic: struct
 f1_keywords: 
  - "oaidl/TYPEDESC"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

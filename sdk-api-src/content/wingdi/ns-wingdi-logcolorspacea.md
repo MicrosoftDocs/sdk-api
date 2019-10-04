@@ -12,6 +12,8 @@ ms.keywords: "*LPLOGCOLORSPACEA, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "wingdi/LOGCOLORSPACE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

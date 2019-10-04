@@ -12,6 +12,8 @@ ms.keywords: OPMGetVideoOutputsFromIDirect3DDevice9Object, OPMGetVideoOutputsFro
 ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputsFromIDirect3DDevice9Object
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

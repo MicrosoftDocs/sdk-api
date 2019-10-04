@@ -12,6 +12,8 @@ ms.keywords: DhcpDeleteFilterV4, DhcpDeleteFilterV4 function [DHCP], dhcp.dhcpde
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDeleteFilterV4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

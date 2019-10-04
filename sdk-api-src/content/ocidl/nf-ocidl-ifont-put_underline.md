@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IF
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Underline"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

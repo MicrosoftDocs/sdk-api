@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectItem method, I
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual.SelectItem"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

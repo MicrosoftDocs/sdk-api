@@ -12,6 +12,8 @@ ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Call method, ITCal
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallNotificationEvent.get_Call"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

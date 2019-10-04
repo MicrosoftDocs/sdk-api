@@ -12,6 +12,8 @@ ms.keywords: TF_PROPERTYVAL, TF_PROPERTYVAL structure [Text Services Framework],
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_PROPERTYVAL"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

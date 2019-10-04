@@ -12,6 +12,8 @@ ms.keywords: "*PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAG
 ms.topic: struct
 f1_keywords: 
  - "wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

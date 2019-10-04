@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

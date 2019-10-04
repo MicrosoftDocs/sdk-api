@@ -12,6 +12,8 @@ ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Sto
 ms.topic: struct
 f1_keywords: 
  - "propidlbase/PROPVARIANT"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

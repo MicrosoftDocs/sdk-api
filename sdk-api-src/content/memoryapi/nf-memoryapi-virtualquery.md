@@ -12,6 +12,8 @@ ms.keywords: VirtualQuery, VirtualQuery function, _win32_virtualquery, base.virt
 ms.topic: function
 f1_keywords:
 - memoryapi/VirtualQuery
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

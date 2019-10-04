@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows 
 ms.topic: function
 f1_keywords: 
  - "msacm/acmDriverAdd"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

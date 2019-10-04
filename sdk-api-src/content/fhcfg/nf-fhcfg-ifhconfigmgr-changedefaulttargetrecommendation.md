@@ -12,6 +12,8 @@ ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendatio
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhConfigMgr.ChangeDefaultTargetRecommendation"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

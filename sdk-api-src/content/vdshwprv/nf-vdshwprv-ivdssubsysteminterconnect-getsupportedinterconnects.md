@@ -12,6 +12,8 @@ ms.keywords: GetSupportedInterconnects, GetSupportedInterconnects method, GetSup
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystemInterconnect.GetSupportedInterconnects
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

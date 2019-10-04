@@ -12,6 +12,8 @@ ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync meth
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIKeyedMutex.AcquireSync"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

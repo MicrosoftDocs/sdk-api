@@ -12,6 +12,8 @@ ms.keywords: IEventSubscription interface [COM+],SubscriptionName property, IEve
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.SubscriptionName"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

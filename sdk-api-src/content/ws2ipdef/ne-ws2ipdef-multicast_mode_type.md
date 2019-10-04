@@ -12,6 +12,8 @@ ms.keywords: MCAST_EXCLUDE, MCAST_INCLUDE, MULTICAST_MODE_TYPE, MULTICAST_MODE_T
 ms.topic: enum
 f1_keywords: 
  - "ws2ipdef/MULTICAST_MODE_TYPE"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: 
 req.target-type: Windows

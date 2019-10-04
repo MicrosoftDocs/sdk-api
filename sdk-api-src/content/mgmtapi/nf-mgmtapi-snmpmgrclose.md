@@ -12,6 +12,8 @@ ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgm
 ms.topic: function
 f1_keywords: 
  - "mgmtapi/SnmpMgrClose"
+dev_langs:
+ - c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

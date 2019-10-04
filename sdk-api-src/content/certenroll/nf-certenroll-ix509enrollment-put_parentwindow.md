@@ -12,6 +12,8 @@ ms.keywords: IX509Enrollment interface [Security],ParentWindow property, IX509En
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Enrollment.ParentWindow"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IGridItemProvider interface [Windows Accessibility],Row property, I
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IGridItemProvider.Row"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

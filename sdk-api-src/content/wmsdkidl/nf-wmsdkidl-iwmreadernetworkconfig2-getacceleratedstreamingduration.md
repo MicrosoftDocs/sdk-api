@@ -12,6 +12,8 @@ ms.keywords: GetAcceleratedStreamingDuration, GetAcceleratedStreamingDuration me
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

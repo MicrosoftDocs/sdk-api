@@ -12,6 +12,8 @@ ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 functi
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmSubLayerSubscriptionsGet0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

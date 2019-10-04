@@ -12,6 +12,8 @@ ms.keywords: ComboBox_Dir, ComboBox_Dir macro [Windows Controls], _win32_ComboBo
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_Dir"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

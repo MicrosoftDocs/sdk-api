@@ -12,6 +12,8 @@ ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentDateTime"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

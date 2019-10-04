@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ, FONTOBJ structure [Display Devices], display.fontobj, grst
 ms.topic: struct
 f1_keywords:
 - winddi/FONTOBJ
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

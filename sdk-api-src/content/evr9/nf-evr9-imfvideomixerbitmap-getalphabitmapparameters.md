@@ -12,6 +12,8 @@ ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, Get
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoMixerBitmap.GetAlphaBitmapParameters"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

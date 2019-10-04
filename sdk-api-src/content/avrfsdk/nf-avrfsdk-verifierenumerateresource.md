@@ -12,6 +12,8 @@ ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_
 ms.topic: function
 f1_keywords: 
  - "avrfsdk/VerifierEnumerateResource"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

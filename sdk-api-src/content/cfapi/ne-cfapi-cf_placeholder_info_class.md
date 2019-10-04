@@ -12,6 +12,8 @@ ms.keywords: CF_PLACEHOLDER_INFO_BASIC, CF_PLACEHOLDER_INFO_CLASS, CF_PLACEHOLDE
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_PLACEHOLDER_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_linePark, TSPI_linePark function [TAPI 2.2], _tspi_tspi_linepa
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_linePark"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

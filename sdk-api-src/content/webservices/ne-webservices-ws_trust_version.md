@@ -12,6 +12,8 @@ ms.keywords: WS_TRUST_VERSION, WS_TRUST_VERSION enumeration [Web Services for Wi
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_TRUST_VERSION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

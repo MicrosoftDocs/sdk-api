@@ -12,6 +12,8 @@ ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailabl
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBitsPeer.IsAvailable"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

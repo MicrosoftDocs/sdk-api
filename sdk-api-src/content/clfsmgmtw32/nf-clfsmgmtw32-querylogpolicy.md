@@ -12,6 +12,8 @@ ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryL
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/QueryLogPolicy
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, 
 ms.topic: function
 f1_keywords: 
  - "avrt/AvQuerySystemResponsiveness"
+dev_langs:
+ - c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

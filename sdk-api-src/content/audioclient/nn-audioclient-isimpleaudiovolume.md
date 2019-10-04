@@ -12,6 +12,8 @@ ms.keywords: ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], ISim
 ms.topic: interface
 f1_keywords: 
  - "audioclient/ISimpleAudioVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

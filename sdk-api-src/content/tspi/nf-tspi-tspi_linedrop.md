@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineDrop, TSPI_lineDrop function [TAPI 2.2], _tspi_tspi_linedr
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineDrop"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

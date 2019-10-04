@@ -12,6 +12,8 @@ ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAtta
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetAttachedSurface"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

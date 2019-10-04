@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO, CRYPT_SM
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_SMART_CARD_ROOT_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

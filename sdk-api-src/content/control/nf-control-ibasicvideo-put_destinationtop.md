@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],put_DestinationTop method, IBasi
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.put_DestinationTop"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

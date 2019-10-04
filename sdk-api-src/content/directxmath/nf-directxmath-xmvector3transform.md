@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector3Transform, XMVector3Transform, XMVector3Trans
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector3Transform"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

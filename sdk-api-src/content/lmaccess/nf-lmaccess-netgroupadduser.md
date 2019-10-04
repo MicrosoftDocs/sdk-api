@@ -12,6 +12,8 @@ ms.keywords: NetGroupAddUser, NetGroupAddUser function [Network Management], _wi
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGroupAddUser"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

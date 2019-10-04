@@ -12,6 +12,8 @@ ms.keywords: WS_ENCODER_END_CALLBACK, WS_ENCODER_END_CALLBACK callback, WS_ENCOD
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_ENCODER_END_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

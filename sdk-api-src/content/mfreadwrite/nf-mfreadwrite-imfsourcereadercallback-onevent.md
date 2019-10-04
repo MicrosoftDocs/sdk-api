@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnEvent method
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderCallback.OnEvent"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

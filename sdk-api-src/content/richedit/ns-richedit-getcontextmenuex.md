@@ -12,6 +12,8 @@ ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCON
 ms.topic: struct
 f1_keywords: 
  - "richedit/GETCONTEXTMENUEX"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

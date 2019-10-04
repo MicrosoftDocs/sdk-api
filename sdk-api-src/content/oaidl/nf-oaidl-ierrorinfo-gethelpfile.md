@@ -12,6 +12,8 @@ ms.keywords: GetHelpFile, GetHelpFile method [Automation], GetHelpFile method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/IErrorInfo.GetHelpFile"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

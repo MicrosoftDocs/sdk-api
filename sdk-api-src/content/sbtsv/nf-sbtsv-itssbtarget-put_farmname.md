@@ -12,6 +12,8 @@ ms.keywords: FarmName property [Remote Desktop Services], FarmName property [Rem
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTarget.FarmName"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

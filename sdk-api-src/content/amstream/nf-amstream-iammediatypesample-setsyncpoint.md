@@ -12,6 +12,8 @@ ms.keywords: IAMMediaTypeSample interface [DirectShow],SetSyncPoint method, IAMM
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.SetSyncPoint"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

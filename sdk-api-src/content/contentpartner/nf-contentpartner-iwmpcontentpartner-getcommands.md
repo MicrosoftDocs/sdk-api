@@ -12,6 +12,8 @@ ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetCommands"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

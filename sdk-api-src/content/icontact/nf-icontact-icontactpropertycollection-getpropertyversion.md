@@ -12,6 +12,8 @@ ms.keywords: GetPropertyVersion, GetPropertyVersion method [Windows Contacts], G
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactPropertyCollection.GetPropertyVersion"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

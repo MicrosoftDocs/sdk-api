@@ -12,6 +12,8 @@ ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID,
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGetHashParam"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

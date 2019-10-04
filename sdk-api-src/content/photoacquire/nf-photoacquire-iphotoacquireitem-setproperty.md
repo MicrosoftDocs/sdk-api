@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireItem interface [Picture Acquisition],SetProperty metho
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.SetProperty"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

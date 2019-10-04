@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Se
 ms.topic: interface
 f1_keywords: 
  - "faxcom/IFaxDoc"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

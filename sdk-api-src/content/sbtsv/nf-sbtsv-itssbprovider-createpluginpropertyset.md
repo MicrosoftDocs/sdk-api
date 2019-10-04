@@ -12,6 +12,8 @@ ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Des
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.CreatePluginPropertySet"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

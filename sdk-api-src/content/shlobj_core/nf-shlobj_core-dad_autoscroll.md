@@ -12,6 +12,8 @@ ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/DAD_AutoScroll"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

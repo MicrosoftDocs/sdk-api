@@ -12,6 +12,8 @@ ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Di
 ms.topic: function
 f1_keywords:
 - winddi/XFORMOBJ_iGetFloatObjXform
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: 55b0aa32-53af-4f19-9d99-9885c1e28588, MFT_MESSAGE_COMMAND_DRAIN, MF
 ms.topic: enum
 f1_keywords: 
  - "mftransform/MFT_MESSAGE_TYPE"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

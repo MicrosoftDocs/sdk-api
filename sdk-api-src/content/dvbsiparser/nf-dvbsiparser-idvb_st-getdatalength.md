@@ -12,6 +12,8 @@ ms.keywords: GetDataLength, GetDataLength method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_ST.GetDataLength"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

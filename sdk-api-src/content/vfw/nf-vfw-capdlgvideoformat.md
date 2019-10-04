@@ -12,6 +12,8 @@ ms.keywords: "_win32_capDlgVideoFormat, capDlgVideoFormat, capDlgVideoFormat mac
 ms.topic: macro
 f1_keywords: 
  - "vfw/capDlgVideoFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

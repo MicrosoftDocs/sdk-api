@@ -12,6 +12,8 @@ ms.keywords: GetId, GetId method [Windows Shell], GetId method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IKnownFolder.GetId"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

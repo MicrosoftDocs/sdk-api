@@ -12,6 +12,8 @@ ms.keywords: "*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCO
 ms.topic: struct
 f1_keywords: 
  - "setupapi/INFCONTEXT"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

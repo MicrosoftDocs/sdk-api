@@ -12,6 +12,8 @@ ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAH
 ms.topic: interface
 f1_keywords: 
  - "dxvahd/IDXVAHD_Device"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

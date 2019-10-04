@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice1 interface [DXGI],SetMaximumFrameLatency method, IDXGID
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice1.SetMaximumFrameLatency"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

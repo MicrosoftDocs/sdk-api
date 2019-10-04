@@ -12,6 +12,8 @@ ms.keywords: CCertConfig object [Security],Reset method, ICertConfig interface [
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertConfig2.Reset"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

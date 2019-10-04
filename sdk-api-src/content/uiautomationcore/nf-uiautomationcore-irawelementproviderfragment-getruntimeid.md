@@ -12,6 +12,8 @@ ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRunti
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderFragment.GetRuntimeId"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

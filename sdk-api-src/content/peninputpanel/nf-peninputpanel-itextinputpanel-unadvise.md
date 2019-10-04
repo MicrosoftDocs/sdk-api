@@ -12,6 +12,8 @@ ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.Unadvise"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

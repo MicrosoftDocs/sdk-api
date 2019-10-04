@@ -12,6 +12,8 @@ ms.keywords: ActivateAs, ActivateAs method [Windows Controls], ActivateAs method
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.ActivateAs"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

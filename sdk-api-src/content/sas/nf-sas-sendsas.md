@@ -12,6 +12,8 @@ ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.topic: function
 f1_keywords: 
  - "sas/SendSAS"
+dev_langs:
+ - c++
 req.header: sas.h
 req.include-header: Windows.h
 req.target-type: Windows

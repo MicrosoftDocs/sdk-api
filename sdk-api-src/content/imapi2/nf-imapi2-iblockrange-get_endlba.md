@@ -12,6 +12,8 @@ ms.keywords: IBlockRange interface [IMAPI],get_EndLba method, IBlockRange.get_En
 ms.topic: method
 f1_keywords: 
  - "imapi2/IBlockRange.get_EndLba"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

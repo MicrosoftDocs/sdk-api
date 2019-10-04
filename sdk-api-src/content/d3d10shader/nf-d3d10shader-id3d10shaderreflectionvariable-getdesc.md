@@ -12,6 +12,8 @@ ms.keywords: 805411f1-db1c-6558-e717-3629cfc7d811, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords:
 - d3d10shader/ID3D10ShaderReflectionVariable.GetDesc
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

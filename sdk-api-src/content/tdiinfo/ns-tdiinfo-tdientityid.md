@@ -12,6 +12,8 @@ ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, 
 ms.topic: struct
 f1_keywords: 
  - "tdiinfo/TDIEntityID"
+dev_langs:
+ - c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows

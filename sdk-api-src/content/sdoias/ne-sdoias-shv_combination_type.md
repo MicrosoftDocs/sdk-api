@@ -12,6 +12,8 @@ ms.keywords: SHV_COMBINATION_TYPE, SHV_COMBINATION_TYPE enumeration [Network Pol
 ms.topic: enum
 f1_keywords:
 - sdoias/SHV_COMBINATION_TYPE
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.GetNode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

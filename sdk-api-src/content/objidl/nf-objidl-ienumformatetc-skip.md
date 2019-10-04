@@ -12,6 +12,8 @@ ms.keywords: IEnumFORMATETC interface [COM],Skip method, IEnumFORMATETC.Skip, IE
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumFORMATETC.Skip"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.put_SymbolRate"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

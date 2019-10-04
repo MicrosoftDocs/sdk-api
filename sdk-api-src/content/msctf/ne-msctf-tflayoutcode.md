@@ -12,6 +12,8 @@ ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCo
 ms.topic: enum
 f1_keywords: 
  - "msctf/TfLayoutCode"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

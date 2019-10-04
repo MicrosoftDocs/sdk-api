@@ -9,6 +9,8 @@ ms.keywords: operator>
 ms.topic: language-reference
 f1_keywords: 
  - "chstring/operator>"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -8,6 +8,10 @@ ms.assetid: 5caab68c-7bdb-4344-beab-ca09341459a1
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_CONFIGURATION
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_CONFIGURATION, D3D12_VIDEO_DECODE_CONFIGURATION, 
 req.header: d3d12video.h
 req.include-header:

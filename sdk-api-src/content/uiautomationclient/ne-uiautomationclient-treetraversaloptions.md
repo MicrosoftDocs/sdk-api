@@ -12,6 +12,8 @@ ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Acc
 ms.topic: enum
 f1_keywords: 
  - "uiautomationclient/TreeTraversalOptions"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows

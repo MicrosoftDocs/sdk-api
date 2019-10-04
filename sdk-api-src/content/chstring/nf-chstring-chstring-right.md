@@ -12,6 +12,8 @@ ms.keywords: "?Right@CHString@@QBE?AV1@H@Z, ?Right@CHString@@QEBA?AV1@H@Z, CHStr
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Right"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

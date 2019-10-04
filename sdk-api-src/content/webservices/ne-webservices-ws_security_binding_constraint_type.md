@@ -12,6 +12,8 @@ ms.keywords: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE, WS_HTTP_HEADER_AU
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_BINDING_CONSTRAINT_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

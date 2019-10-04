@@ -12,6 +12,8 @@ ms.keywords: ListView_SetItem, ListView_SetItem macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

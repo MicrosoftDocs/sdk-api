@@ -12,6 +12,8 @@ ms.keywords: ICrmLogControl interface [COM+],WriteLogRecord method, ICrmLogContr
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmLogControl.WriteLogRecord"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

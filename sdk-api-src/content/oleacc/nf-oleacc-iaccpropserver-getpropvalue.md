@@ -12,6 +12,8 @@ ms.keywords: GetPropValue, GetPropValue method [Windows Accessibility], GetPropV
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServer.GetPropValue"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

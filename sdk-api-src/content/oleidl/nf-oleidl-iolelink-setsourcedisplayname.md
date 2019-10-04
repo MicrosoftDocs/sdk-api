@@ -12,6 +12,8 @@ ms.keywords: IOleLink interface [COM],SetSourceDisplayName method, IOleLink.SetS
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.SetSourceDisplayName"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

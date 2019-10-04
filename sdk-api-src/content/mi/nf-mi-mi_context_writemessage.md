@@ -12,6 +12,8 @@ ms.keywords: MI_Context_WriteMessage, MI_Context_WriteMessage function [Windows 
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_WriteMessage
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

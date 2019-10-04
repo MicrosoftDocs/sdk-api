@@ -12,6 +12,8 @@ ms.keywords: IConfigAsfWriter interface [DirectShow],SetIndexMode method, IConfi
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter.SetIndexMode"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

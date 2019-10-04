@@ -12,6 +12,8 @@ ms.keywords: "*PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO, PUMS_SC
 ms.topic: struct
 f1_keywords: 
  - "winbase/UMS_SCHEDULER_STARTUP_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

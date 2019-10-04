@@ -12,6 +12,8 @@ ms.keywords: CachedKeyboardShortcut property [Windows Accessibility], CachedKeyb
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

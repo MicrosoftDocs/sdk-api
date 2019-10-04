@@ -12,6 +12,8 @@ ms.keywords: CreateStream, CreateStream method [Side-by-side Assemblies], Create
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyCacheItem.CreateStream"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

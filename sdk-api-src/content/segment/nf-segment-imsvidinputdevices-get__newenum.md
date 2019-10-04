@@ -12,6 +12,8 @@ ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get__NewEn
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidInputDevices.get__NewEnum"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

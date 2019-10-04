@@ -12,6 +12,8 @@ ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerf
 ms.topic: function
 f1_keywords:
 - psapi/GetPerformanceInfo
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

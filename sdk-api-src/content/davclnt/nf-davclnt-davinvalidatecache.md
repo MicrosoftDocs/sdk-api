@@ -12,6 +12,8 @@ ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/D
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavInvalidateCache"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

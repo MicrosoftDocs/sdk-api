@@ -12,6 +12,8 @@ ms.keywords: 2e717137-eb31-02da-bc07-a90f0bfe6795, D3D11_TEXTURE_ADDRESS_BORDER,
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_TEXTURE_ADDRESS_MODE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

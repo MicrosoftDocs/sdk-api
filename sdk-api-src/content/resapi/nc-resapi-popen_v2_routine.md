@@ -12,6 +12,8 @@ ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, Op
 ms.topic: callback
 f1_keywords: 
  - "resapi/OpenV2 callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

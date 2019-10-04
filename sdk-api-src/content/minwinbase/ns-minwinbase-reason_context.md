@@ -12,6 +12,8 @@ ms.keywords: "*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQ
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/REASON_CONTEXT"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

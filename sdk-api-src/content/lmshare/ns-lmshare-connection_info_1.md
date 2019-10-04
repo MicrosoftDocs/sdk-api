@@ -12,6 +12,8 @@ ms.keywords: "*LPCONNECTION_INFO_1, *PCONNECTION_INFO_1, CONNECTION_INFO_1, CONN
 ms.topic: struct
 f1_keywords: 
  - "lmshare/CONNECTION_INFO_1"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

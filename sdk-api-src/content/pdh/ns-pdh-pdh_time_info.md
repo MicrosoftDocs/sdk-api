@@ -12,6 +12,8 @@ ms.keywords: "*PPDH_TIME_INFO, PDH_TIME_INFO, PDH_TIME_INFO structure [Perf], PP
 ms.topic: struct
 f1_keywords: 
  - "pdh/PDH_TIME_INFO"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

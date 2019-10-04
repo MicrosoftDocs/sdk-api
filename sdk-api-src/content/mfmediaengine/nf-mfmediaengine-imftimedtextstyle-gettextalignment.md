@@ -12,6 +12,8 @@ ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTe
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetTextAlignment"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

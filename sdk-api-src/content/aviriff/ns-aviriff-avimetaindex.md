@@ -12,6 +12,8 @@ ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DAT
 ms.topic: struct
 f1_keywords:
 - aviriff/AVIMETAINDEX
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

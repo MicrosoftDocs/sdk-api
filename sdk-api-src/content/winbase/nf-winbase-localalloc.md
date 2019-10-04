@@ -12,6 +12,8 @@ ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, L
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalAlloc"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

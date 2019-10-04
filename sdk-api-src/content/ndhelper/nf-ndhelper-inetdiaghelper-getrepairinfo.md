@@ -12,6 +12,8 @@ ms.keywords: GetRepairInfo, GetRepairInfo method [NDF], GetRepairInfo method [ND
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetRepairInfo"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

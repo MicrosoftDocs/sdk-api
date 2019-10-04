@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure po
 ms.topic: struct
 f1_keywords:
 - vss/VSS_OBJECT_PROP
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

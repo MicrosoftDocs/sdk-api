@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Text Services Framework], GetPrope
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.GetProperty"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],WaitForServiceReady method, IVdsService
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.WaitForServiceReady"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

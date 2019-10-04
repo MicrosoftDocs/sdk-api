@@ -12,6 +12,8 @@ ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.S
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.SetRect"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

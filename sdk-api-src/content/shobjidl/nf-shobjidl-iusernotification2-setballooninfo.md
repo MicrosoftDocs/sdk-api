@@ -12,6 +12,8 @@ ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonInfo method,
 ms.topic: method
 f1_keywords:
 - shobjidl/IUserNotification2.SetBalloonInfo
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

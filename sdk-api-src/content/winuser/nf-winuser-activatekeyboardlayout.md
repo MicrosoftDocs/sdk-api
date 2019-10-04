@@ -12,6 +12,8 @@ ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard a
 ms.topic: function
 f1_keywords: 
  - "winuser/ActivateKeyboardLayout"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

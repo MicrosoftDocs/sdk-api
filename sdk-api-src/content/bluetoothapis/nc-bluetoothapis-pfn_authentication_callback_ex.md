@@ -12,6 +12,8 @@ ms.keywords: PFN_AUTHENTICATION_CALLBACK_EX, PFN_AUTHENTICATION_CALLBACK_EX call
 ms.topic: callback
 f1_keywords: 
  - "bluetoothapis/PFN_AUTHENTICATION_CALLBACK_EX"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

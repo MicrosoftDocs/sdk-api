@@ -12,6 +12,8 @@ ms.keywords: ConvertStyle, ConvertStyle method [VDS], ConvertStyle method [VDS],
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.ConvertStyle
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

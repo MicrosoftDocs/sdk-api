@@ -12,6 +12,8 @@ ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],
 ms.topic: interface
 f1_keywords: 
  - "mmc/IImageList"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

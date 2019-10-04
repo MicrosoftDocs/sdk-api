@@ -12,6 +12,8 @@ ms.keywords: GetGeometryLocal, GetGeometryLocal method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.GetGeometryLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

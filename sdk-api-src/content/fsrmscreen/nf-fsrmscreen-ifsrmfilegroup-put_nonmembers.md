@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],NonMembers 
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroup.NonMembers"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

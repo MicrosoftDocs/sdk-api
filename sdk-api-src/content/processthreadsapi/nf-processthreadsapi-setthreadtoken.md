@@ -12,6 +12,8 @@ ms.keywords: SetThreadToken, SetThreadToken function [Security], _win32_setthrea
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/SetThreadToken"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

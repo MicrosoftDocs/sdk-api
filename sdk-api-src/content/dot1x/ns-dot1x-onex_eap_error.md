@@ -12,6 +12,8 @@ ms.keywords: '*PONEX_EAP_ERROR, EAP_E_AUTHENTICATION_FAILED, EAP_E_CERT_STORE_IN
 ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_EAP_ERROR
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

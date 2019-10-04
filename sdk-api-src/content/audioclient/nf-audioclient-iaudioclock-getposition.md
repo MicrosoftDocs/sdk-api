@@ -12,6 +12,8 @@ ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [C
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClock.GetPosition"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

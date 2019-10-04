@@ -12,6 +12,8 @@ ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataCompl
 ms.topic: method
 f1_keywords: 
  - "winsync/IDataRetrieverCallback.LoadChangeDataComplete"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/QualAppFlowSpec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

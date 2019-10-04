@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPa
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IUIAutomationRegistrar.RegisterPattern"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

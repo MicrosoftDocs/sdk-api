@@ -12,6 +12,8 @@ ms.keywords: GetBkColor, GetBkColor function [Windows GDI], _win32_GetBkColor, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetBkColor"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

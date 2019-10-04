@@ -12,6 +12,8 @@ ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio M
 ms.topic: struct
 f1_keywords: 
  - "xapofx/FXREVERB_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

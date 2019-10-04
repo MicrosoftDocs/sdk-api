@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyn
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerInfo.IsActive"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

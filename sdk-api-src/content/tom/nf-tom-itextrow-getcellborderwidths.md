@@ -12,6 +12,8 @@ ms.keywords: GetCellBorderWidths, GetCellBorderWidths method [Windows Controls],
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellBorderWidths"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

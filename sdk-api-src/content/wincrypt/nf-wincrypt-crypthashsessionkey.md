@@ -12,6 +12,8 @@ ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey funct
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptHashSessionKey"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

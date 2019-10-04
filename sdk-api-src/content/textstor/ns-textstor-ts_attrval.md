@@ -12,6 +12,8 @@ ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_ATTRVAL"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [W
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.BeginWrite"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

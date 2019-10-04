@@ -12,6 +12,8 @@ ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndSaveDialog"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

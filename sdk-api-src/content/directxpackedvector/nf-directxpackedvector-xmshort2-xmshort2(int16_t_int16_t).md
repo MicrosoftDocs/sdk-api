@@ -12,6 +12,8 @@ ms.keywords: XMSHORT2, XMSHORT2 constructor [DirectX Math Support APIs], XMSHORT
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMSHORT2.XMSHORT2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

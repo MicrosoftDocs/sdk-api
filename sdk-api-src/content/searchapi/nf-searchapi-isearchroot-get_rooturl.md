@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],get_RootURL method, ISearchRoot.get_
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.get_RootURL"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

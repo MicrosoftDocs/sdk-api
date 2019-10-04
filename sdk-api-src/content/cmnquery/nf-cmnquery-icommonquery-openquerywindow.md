@@ -12,6 +12,8 @@ ms.keywords: CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, IComm
 ms.topic: method
 f1_keywords: 
  - "cmnquery/ICommonQuery.OpenQueryWindow"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokes 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.Clip"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

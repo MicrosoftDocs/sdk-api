@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFrom
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.InitFromData"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

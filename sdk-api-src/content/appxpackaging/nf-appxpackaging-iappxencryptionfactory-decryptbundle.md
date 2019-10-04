@@ -12,6 +12,8 @@ ms.keywords: DecryptBundle, DecryptBundle method [App packaging and management],
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxEncryptionFactory.DecryptBundle"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BindToStream, BindToStream method [search], BindToStream method [se
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.BindToStream"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

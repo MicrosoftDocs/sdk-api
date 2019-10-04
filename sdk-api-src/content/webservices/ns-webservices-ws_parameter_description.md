@@ -12,6 +12,8 @@ ms.keywords: WS_PARAMETER_DESCRIPTION, WS_PARAMETER_DESCRIPTION structure [Web S
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_PARAMETER_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

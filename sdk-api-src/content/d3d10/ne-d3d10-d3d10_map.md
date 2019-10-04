@@ -12,6 +12,8 @@ ms.keywords: 851d7498-d47c-94c7-f2ce-7635689c4642, D3D10_MAP, D3D10_MAP enumerat
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_MAP"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

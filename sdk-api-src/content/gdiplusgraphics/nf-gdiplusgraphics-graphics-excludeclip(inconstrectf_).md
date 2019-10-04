@@ -9,6 +9,8 @@ ms.keywords: Graphics::ExcludeClip
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusgraphics/Graphics::ExcludeClip"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

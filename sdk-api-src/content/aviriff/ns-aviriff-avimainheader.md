@@ -12,6 +12,8 @@ ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEIN
 ms.topic: struct
 f1_keywords: 
  - "aviriff/AVIMAINHEADER"
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

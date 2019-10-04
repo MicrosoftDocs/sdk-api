@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_M
 ms.topic: struct
 f1_keywords: 
  - "cryptuiapi/CRYPTUI_CERT_MGR_STRUCT"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

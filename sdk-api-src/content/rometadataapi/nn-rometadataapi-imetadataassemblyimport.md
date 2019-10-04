@@ -12,6 +12,8 @@ ms.keywords: IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

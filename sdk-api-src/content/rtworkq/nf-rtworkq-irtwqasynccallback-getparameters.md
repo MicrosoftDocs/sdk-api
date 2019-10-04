@@ -12,6 +12,8 @@ ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyn
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncCallback.GetParameters"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

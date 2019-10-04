@@ -12,6 +12,8 @@ ms.keywords: GetOutputFromStream, GetOutputFromStream method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetOutputFromStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

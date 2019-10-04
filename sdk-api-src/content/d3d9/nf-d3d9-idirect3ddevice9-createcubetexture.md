@@ -12,6 +12,8 @@ ms.keywords: 0b1afd24-65fb-4a7c-77ef-c3b832e6d5f1, CreateCubeTexture, CreateCube
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.CreateCubeTexture"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

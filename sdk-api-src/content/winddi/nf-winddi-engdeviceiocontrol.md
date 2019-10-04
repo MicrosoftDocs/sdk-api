@@ -12,6 +12,8 @@ ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], 
 ms.topic: function
 f1_keywords: 
  - "winddi/EngDeviceIoControl"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

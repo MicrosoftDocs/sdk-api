@@ -12,6 +12,8 @@ ms.keywords: IInkLineInfo interface [Tablet PC],Recognize method, IInkLineInfo.R
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.Recognize"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

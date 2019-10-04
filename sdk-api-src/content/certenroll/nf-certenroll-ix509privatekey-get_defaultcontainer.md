@@ -12,6 +12,8 @@ ms.keywords: DefaultContainer property [Security], DefaultContainer property [Se
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.DefaultContainer"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

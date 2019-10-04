@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerE
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayerCallback.OnMediaPlayerEvent"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

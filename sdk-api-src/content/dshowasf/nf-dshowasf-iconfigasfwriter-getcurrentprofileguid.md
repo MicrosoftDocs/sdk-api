@@ -12,6 +12,8 @@ ms.keywords: GetCurrentProfileGuid, GetCurrentProfileGuid method [DirectShow], G
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter.GetCurrentProfileGuid"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

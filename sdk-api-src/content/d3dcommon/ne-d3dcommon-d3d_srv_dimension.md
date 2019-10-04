@@ -12,6 +12,8 @@ ms.keywords: D3D10_1_SRV_DIMENSION_BUFFER, D3D10_1_SRV_DIMENSION_TEXTURE1D, D3D1
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SRV_DIMENSION
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Matrix4x4F interface [Direct2D],SkewX method, Matrix4x4F.SkewX, Mat
 ms.topic: method
 f1_keywords: 
  - "d2d1_1helper/Matrix4x4F.SkewX"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Header_CreateDragImage, Header_CreateDragImage macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_CreateDragImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MPEG_DATE_AND_TIME, MPEG_DATE_AND_TIME structure [Microsoft TV Tech
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_DATE_AND_TIME"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

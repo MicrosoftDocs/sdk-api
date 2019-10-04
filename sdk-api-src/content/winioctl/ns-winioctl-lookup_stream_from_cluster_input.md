@@ -12,6 +12,8 @@ ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INP
 ms.topic: struct
 f1_keywords: 
  - "winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

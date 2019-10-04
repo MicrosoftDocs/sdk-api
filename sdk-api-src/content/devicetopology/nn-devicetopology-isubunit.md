@@ -12,6 +12,8 @@ ms.keywords: ISubunit, ISubunit interface [Core Audio], ISubunit interface [Core
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/ISubunit"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

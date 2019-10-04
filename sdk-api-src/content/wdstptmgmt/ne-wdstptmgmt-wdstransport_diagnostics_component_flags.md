@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, WDSTRANSPORT_DIAGNOSTI
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

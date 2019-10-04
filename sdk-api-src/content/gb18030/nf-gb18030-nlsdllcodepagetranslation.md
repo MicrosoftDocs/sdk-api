@@ -12,6 +12,8 @@ ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslat
 ms.topic: function
 f1_keywords:
 - gb18030/NlsDllCodePageTranslation
+dev_langs:
+ - c++
 req.header: gb18030.h
 req.include-header: 
 req.target-type: Windows

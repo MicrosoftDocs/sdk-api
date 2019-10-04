@@ -12,6 +12,8 @@ ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security],
 ms.topic: function
 f1_keywords:
 - winwlx/WlxNetworkProviderLoad
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

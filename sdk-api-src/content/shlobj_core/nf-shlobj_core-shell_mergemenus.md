@@ -12,6 +12,8 @@ ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_Merge
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/Shell_MergeMenus"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

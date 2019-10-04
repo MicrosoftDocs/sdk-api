@@ -12,6 +12,8 @@ ms.keywords: EnumGroups, EnumGroups method [BITS], EnumGroups method [BITS],IBac
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyQMgr.EnumGroups"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

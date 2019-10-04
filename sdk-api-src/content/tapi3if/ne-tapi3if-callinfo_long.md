@@ -12,6 +12,8 @@ ms.keywords: CALLINFO_LONG, CALLINFO_LONG enumeration [TAPI 2.2], CIL_APPSPECIFI
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLINFO_LONG"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

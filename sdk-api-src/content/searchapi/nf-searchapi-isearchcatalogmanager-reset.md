@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],Reset method, ISearchCatal
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.Reset"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

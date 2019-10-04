@@ -12,6 +12,8 @@ ms.keywords: EngFindImageProcAddress, EngFindImageProcAddress function [Display 
 ms.topic: macro
 f1_keywords: 
  - "winddi/EngFindImageProcAddress"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

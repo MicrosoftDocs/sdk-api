@@ -12,6 +12,8 @@ ms.keywords: ISearchProtocol, ISearchProtocol interface [search], ISearchProtoco
 ms.topic: interface
 f1_keywords: 
  - "searchapi/ISearchProtocol"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

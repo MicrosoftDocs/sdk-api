@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],Logout method, IAMTuner.Logout, IAM
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.Logout"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumDMO interface [DirectShow],Skip method, IEnumDMO.Skip, IEnumDM
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IEnumDMO.Skip"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

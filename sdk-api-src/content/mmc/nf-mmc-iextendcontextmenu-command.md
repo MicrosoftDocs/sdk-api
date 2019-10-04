@@ -12,6 +12,8 @@ ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextM
 ms.topic: method
 f1_keywords:
 - mmc/IExtendContextMenu.Command
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

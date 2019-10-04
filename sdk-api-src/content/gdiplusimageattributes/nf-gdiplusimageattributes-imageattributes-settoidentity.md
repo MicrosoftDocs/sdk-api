@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetToIdentity method, ImageAttributes.
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetToIdentity"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

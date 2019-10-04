@@ -12,6 +12,8 @@ ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IV
 ms.topic: method
 f1_keywords:
 - vds/IVdsDiskOnline.Offline
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

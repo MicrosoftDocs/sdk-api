@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSyncErrorInfo, IOfflineFilesSyncErrorInfo interface [O
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorInfo"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

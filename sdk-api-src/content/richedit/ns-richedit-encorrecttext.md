@@ -12,6 +12,8 @@ ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULT
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENCORRECTTEXT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

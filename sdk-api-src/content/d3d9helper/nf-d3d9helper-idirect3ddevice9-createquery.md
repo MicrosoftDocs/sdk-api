@@ -12,6 +12,8 @@ ms.keywords: 10c37273-2f16-3b39-a1ff-6d476ef75dd7, CreateQuery, CreateQuery meth
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.CreateQuery"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

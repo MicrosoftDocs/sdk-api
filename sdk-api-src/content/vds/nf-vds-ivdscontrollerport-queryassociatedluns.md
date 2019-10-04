@@ -12,6 +12,8 @@ ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVds
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsControllerPort.QueryAssociatedLuns"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

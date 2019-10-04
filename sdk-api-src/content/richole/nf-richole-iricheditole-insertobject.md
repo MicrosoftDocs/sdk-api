@@ -12,6 +12,8 @@ ms.keywords: IRichEditOle interface [Windows Controls],InsertObject method, IRic
 ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.InsertObject
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

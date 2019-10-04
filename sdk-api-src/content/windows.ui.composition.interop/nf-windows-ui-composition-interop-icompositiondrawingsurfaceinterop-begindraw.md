@@ -12,6 +12,8 @@ ms.keywords: BeginDraw, BeginDraw method, BeginDraw method,ICompositionDrawingSu
 ms.topic: method
 f1_keywords: 
  - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.BeginDraw"
+dev_langs:
+ - c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPTRIVERTEX, *PTRIVERTEX, PTRIVERTEX, PTRIVERTEX structure pointe
 ms.topic: struct
 f1_keywords: 
  - "wingdi/TRIVERTEX"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

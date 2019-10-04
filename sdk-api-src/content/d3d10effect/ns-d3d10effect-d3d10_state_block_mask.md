@@ -12,6 +12,8 @@ ms.keywords: D3D10_STATE_BLOCK_MASK, D3D10_STATE_BLOCK_MASK structure [Direct3D 
 ms.topic: struct
 f1_keywords: 
  - "d3d10effect/D3D10_STATE_BLOCK_MASK"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

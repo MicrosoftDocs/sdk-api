@@ -12,6 +12,8 @@ ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT
 ms.topic: function
 f1_keywords:
 - lmalert/NetAlertRaiseEx
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RM_FILTER_TRIGGER, RM_FILTER_TRIGGER enumeration [Restart Mgr], RmF
 ms.topic: enum
 f1_keywords:
 - restartmanager/RM_FILTER_TRIGGER
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

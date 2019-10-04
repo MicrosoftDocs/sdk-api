@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRES
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

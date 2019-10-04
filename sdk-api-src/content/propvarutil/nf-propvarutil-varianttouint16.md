@@ -12,6 +12,8 @@ ms.keywords: VariantToUInt16, VariantToUInt16 function [Windows Properties], _sh
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToUInt16"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

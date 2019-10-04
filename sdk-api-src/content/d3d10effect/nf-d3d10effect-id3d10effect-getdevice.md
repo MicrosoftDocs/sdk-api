@@ -12,6 +12,8 @@ ms.keywords: 92eb984e-62b3-6a6f-ab2b-93b561a93fc3, GetDevice, GetDevice method [
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

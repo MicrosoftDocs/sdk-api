@@ -12,6 +12,8 @@ ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetDestSize method, IDXGIDeco
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIDecodeSwapChain.SetDestSize"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

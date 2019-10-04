@@ -12,6 +12,8 @@ ms.keywords: VSS_WRE_ALWAYS, VSS_WRE_IF_REPLACE_FAILS, VSS_WRE_NEVER, VSS_WRE_UN
 ms.topic: enum
 f1_keywords: 
  - "vswriter/VSS_WRITERRESTORE_ENUM"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FWPM_CONNECTION_SUBSCRIPTION0, FWPM_CONNECTION_SUBSCRIPTION0 struct
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

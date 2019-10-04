@@ -12,6 +12,8 @@ ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback fu
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIDeleteMail"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMF
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

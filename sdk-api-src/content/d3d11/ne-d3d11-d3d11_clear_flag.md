@@ -12,6 +12,8 @@ ms.keywords: 88ebcd50-b0dd-e04e-4b30-028ca4147553, D3D11_CLEAR_DEPTH, D3D11_CLEA
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_CLEAR_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

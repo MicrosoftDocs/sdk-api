@@ -12,6 +12,8 @@ ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeStr
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSearcher.EscapeString"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

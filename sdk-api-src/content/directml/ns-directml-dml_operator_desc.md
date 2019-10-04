@@ -12,6 +12,8 @@ ms.keywords: DML_OPERATOR_DESC, DML_OPERATOR_DESC structure, direct3d12.dml_oper
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

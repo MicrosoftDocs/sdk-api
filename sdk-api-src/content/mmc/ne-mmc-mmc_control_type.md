@@ -12,6 +12,8 @@ ms.keywords: COMBOBOXBAR, MENUBUTTON, MMC_CONTROL_TYPE, MMC_CONTROL_TYPE enumera
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_CONTROL_TYPE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

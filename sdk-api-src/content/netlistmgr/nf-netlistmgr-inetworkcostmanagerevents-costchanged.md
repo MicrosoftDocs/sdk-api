@@ -12,6 +12,8 @@ ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged me
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkCostManagerEvents.CostChanged"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

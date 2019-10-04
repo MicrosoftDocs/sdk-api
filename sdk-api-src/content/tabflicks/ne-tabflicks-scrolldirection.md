@@ -12,6 +12,8 @@ ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECT
 ms.topic: enum
 f1_keywords: 
  - "tabflicks/SCROLLDIRECTION"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

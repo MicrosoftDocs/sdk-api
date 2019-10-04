@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TE
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_TEMPERATURE"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

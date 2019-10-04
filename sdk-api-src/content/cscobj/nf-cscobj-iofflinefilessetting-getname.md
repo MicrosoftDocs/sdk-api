@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Fi
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSetting.GetName"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBPCSatelliteTuner interface [DirectShow],get_DefaultSubChannelType
 ms.topic: method
 f1_keywords: 
  - "strmif/IBPCSatelliteTuner.get_DefaultSubChannelTypes"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

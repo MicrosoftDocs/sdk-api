@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Remote Desktop Services], Disconnect
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.Disconnect"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

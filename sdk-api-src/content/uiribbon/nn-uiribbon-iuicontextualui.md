@@ -12,6 +12,8 @@ ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUICon
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUIContextualUI"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

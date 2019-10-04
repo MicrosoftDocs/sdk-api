@@ -12,6 +12,8 @@ ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADD
 ms.topic: struct
 f1_keywords: 
  - "winsock2/IN_ADDR"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

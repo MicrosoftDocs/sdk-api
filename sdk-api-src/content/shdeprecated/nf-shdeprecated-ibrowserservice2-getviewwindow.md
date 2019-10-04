@@ -12,6 +12,8 @@ ms.keywords: GetViewWindow, GetViewWindow method [Windows Shell], GetViewWindow 
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.GetViewWindow"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

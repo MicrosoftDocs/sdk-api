@@ -12,6 +12,8 @@ ms.keywords: IWICProgressiveLevelControl interface [Windows Imaging Component],S
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICProgressiveLevelControl.SetCurrentLevel"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

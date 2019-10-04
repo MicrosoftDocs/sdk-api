@@ -12,6 +12,8 @@ ms.keywords: GetModWidthSpace, GetModWidthSpace method [Windows Controls], GetMo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetModWidthSpace"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

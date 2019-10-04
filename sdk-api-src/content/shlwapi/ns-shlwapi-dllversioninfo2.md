@@ -12,6 +12,8 @@ ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _win32_
 ms.topic: struct
 f1_keywords:
 - shlwapi/DLLVERSIONINFO2
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

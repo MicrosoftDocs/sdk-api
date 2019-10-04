@@ -12,6 +12,8 @@ ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate me
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.GetCandidate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

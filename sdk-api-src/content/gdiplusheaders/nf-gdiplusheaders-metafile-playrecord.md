@@ -12,6 +12,8 @@ ms.keywords: Metafile class [GDI+],PlayRecord method, Metafile.PlayRecord, Metaf
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Metafile.PlayRecord"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERV
 ms.topic: callback
 f1_keywords:
 - stm/IsService
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

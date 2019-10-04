@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber fu
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetNumber
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMClientSideExtension object [GPMC],IsUserEnabled method, IGPMClie
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMClientSideExtension.IsUserEnabled"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

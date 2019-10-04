@@ -12,6 +12,8 @@ ms.keywords: "*LPDDCAPS, *LPDDCAPS_DX5, DDCAPS, DDCAPS structure [DirectDraw], D
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDCAPS"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

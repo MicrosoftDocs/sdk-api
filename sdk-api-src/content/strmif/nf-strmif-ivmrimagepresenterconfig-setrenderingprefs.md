@@ -12,6 +12,8 @@ ms.keywords: IVMRImagePresenterConfig interface [DirectShow],SetRenderingPrefs m
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRImagePresenterConfig.SetRenderingPrefs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

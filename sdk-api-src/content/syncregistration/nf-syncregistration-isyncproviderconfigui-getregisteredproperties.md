@@ -12,6 +12,8 @@ ms.keywords: GetRegisteredProperties, GetRegisteredProperties method [Windows Sy
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderConfigUI.GetRegisteredProperties"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

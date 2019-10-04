@@ -12,6 +12,8 @@ ms.keywords: NetScheduleJobGetInfo, NetScheduleJobGetInfo function [Network Mana
 ms.topic: function
 f1_keywords:
 - lmat/NetScheduleJobGetInfo
+dev_langs:
+ - c++
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

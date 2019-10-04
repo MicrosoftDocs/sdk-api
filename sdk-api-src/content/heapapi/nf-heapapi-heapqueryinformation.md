@@ -12,6 +12,8 @@ ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInform
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapQueryInformation"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

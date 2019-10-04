@@ -12,6 +12,8 @@ ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Co
 ms.topic: function
 f1_keywords:
 - uxtheme/BeginBufferedAnimation
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

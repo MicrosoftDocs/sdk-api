@@ -12,6 +12,8 @@ ms.keywords: DhcpEnumSubnets, DhcpEnumSubnets function [DHCP], dhcp.dhcpenumsubn
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumSubnets
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

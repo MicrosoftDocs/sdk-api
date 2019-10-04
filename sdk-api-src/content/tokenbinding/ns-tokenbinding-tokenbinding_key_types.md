@@ -12,6 +12,8 @@ ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security]
 ms.topic: struct
 f1_keywords: 
  - "tokenbinding/TOKENBINDING_KEY_TYPES"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

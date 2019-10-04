@@ -12,6 +12,8 @@ ms.keywords: CreateTokenEx, CreateTokenEx callback function [Security], LSA_CREA
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateTokenEx
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

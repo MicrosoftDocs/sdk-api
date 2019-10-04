@@ -12,6 +12,8 @@ ms.keywords: FilterInstanceFindClose, FilterInstanceFindClose function [Installa
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterInstanceFindClose"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptProcessMultiOperations
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

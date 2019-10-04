@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetMessageNameGetInfo, NetMessageNameGetInfo function [Networ
 ms.topic: function
 f1_keywords:
 - lmmsg/NetMessageNameGetInfo
+dev_langs:
+ - c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

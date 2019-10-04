@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue i
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyValue.Clear"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

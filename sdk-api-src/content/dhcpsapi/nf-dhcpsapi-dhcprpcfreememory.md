@@ -12,6 +12,8 @@ ms.keywords: DhcpRpcFreeMemory, DhcpRpcFreeMemory function [DHCP], dhcp.dhcprpcf
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpRpcFreeMemory"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

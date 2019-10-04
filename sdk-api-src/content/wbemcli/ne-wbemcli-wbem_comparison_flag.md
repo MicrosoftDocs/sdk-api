@@ -12,6 +12,8 @@ ms.keywords: WBEM_COMPARISON_FLAG, WBEM_COMPARISON_FLAG enumeration [Windows Man
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_COMPARISON_FLAG"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

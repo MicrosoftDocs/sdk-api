@@ -12,6 +12,8 @@ ms.keywords: AtomicCopyBufferUINT64, AtomicCopyBufferUINT64 method, AtomicCopyBu
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

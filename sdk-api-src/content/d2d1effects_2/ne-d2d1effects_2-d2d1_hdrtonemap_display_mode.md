@@ -11,6 +11,8 @@ ms.keywords: D2D1_HDRTONEMAP_DISPLAY_MODE, D2D1_HDRTONEMAP_DISPLAY_MODE enumerat
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE"
+dev_langs:
+ - c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IActionCollection interface [Task Scheduler],_NewEnum property, IAc
 ms.topic: method
 f1_keywords: 
  - "taskschd/IActionCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

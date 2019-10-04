@@ -12,6 +12,8 @@ ms.keywords: BlindTransfer, BlindTransfer method [TAPI 2.2], BlindTransfer metho
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITBasicCallControl.BlindTransfer"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

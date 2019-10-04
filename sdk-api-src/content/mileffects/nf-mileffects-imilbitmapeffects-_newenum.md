@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, I
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffects._NewEnum"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

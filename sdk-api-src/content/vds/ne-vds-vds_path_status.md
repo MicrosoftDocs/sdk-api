@@ -12,6 +12,8 @@ ms.keywords: VDS_MPS_FAILED, VDS_MPS_ONLINE, VDS_MPS_STANDBY, VDS_MPS_UNKNOWN, V
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_PATH_STATUS"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

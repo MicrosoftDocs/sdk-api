@@ -12,6 +12,8 @@ ms.keywords: 44004772-851a-9ebf-10ab-60178c7e35c5, DXGI_MAPPED_RECT, DXGI_MAPPED
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_MAPPED_RECT"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

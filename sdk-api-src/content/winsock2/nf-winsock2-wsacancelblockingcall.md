@@ -12,6 +12,8 @@ ms.keywords: WSACancelBlockingCall, WSACancelBlockingCall function [Winsock], _w
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSACancelBlockingCall"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

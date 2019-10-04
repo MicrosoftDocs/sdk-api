@@ -12,6 +12,8 @@ ms.keywords: 650a5f7f-609f-477b-8834-ff66ca3a9ca3, GetDouble, GetDouble method [
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetDouble
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

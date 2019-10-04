@@ -12,6 +12,8 @@ ms.keywords: CTRL_LEVEL, CTRL_LEVEL enumeration [RDP], CTRL_LEVEL_INTERACTIVE, C
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/CTRL_LEVEL"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

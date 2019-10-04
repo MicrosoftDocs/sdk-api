@@ -12,6 +12,8 @@ ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSu
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITSubStreamControl.get_SubStreams"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

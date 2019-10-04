@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFIC
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_NOTIFICATIONS_VERSION"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

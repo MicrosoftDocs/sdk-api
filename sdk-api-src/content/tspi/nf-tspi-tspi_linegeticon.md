@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetIcon, TSPI_lineGetIcon function [TAPI 2.2], _tspi_tspi_
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetIcon"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

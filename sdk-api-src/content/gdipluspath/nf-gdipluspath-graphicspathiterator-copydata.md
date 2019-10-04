@@ -12,6 +12,8 @@ ms.keywords: CopyData, CopyData method [GDI+], CopyData method [GDI+],GraphicsPa
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator.CopyData"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

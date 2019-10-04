@@ -12,6 +12,8 @@ ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32
 ms.topic: function
 f1_keywords:
 - errhandlingapi/UnhandledExceptionFilter
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

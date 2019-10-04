@@ -12,6 +12,8 @@ ms.keywords: GetLastEpisodeNumber, GetLastEpisodeNumber method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSeriesDescriptor.GetLastEpisodeNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

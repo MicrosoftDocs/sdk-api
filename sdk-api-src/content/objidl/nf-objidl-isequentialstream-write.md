@@ -12,6 +12,8 @@ ms.keywords: ISequentialStream interface [Structured Storage],Write method, ISeq
 ms.topic: method
 f1_keywords: 
  - "objidl/ISequentialStream.Write"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

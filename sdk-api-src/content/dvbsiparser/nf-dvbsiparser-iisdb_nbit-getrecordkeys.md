@@ -12,6 +12,8 @@ ms.keywords: GetRecordKeys, GetRecordKeys method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT.GetRecordKeys"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

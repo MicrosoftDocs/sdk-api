@@ -12,6 +12,8 @@ ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataA
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataAdviseHolder.EnumAdvise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

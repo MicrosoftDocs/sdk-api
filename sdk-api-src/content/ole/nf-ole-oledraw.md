@@ -12,6 +12,8 @@ ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/Ole
 ms.topic: function
 f1_keywords: 
  - "ole/OleDraw"
+dev_langs:
+ - c++
 req.header: ole.h
 req.include-header: Ole2.h
 req.target-type: Windows

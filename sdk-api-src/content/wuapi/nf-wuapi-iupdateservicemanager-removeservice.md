@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveServic
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceManager.RemoveService"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParent, GetParent function [Windows and Messages], _win32_GetPar
 ms.topic: function
 f1_keywords: 
  - "winuser/GetParent"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

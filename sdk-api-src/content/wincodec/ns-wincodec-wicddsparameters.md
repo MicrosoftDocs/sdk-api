@@ -12,6 +12,8 @@ ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Ima
 ms.topic: struct
 f1_keywords: 
  - "wincodec/WICDdsParameters"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

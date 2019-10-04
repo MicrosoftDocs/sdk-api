@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], IDiscFormat
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IDiscFormat2Erase"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12_FORMAT_SUPPORT2, D3D12_FORMAT_SUPPORT2 enumeration, D3D12_FOR
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_FORMAT_SUPPORT2"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

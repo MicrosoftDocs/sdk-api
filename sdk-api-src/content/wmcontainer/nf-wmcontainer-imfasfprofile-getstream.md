@@ -12,6 +12,8 @@ ms.keywords: 918f6534-811e-42f6-9836-1c77816007fa, GetStream, GetStream method [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.GetStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

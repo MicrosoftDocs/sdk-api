@@ -12,6 +12,8 @@ ms.keywords: IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface 
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DVertexDeclaration9"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

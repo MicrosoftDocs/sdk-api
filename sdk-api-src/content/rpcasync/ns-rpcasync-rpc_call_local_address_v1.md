@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS, RPC_CALL_LOCA
 ms.topic: struct
 f1_keywords: 
  - "rpcasync/RPC_CALL_LOCAL_ADDRESS_V1"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

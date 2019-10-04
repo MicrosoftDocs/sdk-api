@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],Schedules property, IDataCollecto
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.Schedules"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

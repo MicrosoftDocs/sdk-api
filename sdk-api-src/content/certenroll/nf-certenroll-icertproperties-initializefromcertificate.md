@@ -12,6 +12,8 @@ ms.keywords: ICertProperties interface [Security],InitializeFromCertificate meth
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertProperties.InitializeFromCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

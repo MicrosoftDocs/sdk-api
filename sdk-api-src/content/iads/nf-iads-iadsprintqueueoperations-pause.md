@@ -12,6 +12,8 @@ ms.keywords: IADsPrintQueueOperations interface [ADSI],Pause method, IADsPrintQu
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPrintQueueOperations.Pause"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

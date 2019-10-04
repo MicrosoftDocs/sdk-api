@@ -12,6 +12,8 @@ ms.keywords: AddMasked, AddMasked method [Windows Controls], AddMasked method [W
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.AddMasked"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

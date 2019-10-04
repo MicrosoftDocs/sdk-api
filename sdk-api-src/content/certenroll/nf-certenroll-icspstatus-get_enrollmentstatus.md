@@ -12,6 +12,8 @@ ms.keywords: EnrollmentStatus property [Security], EnrollmentStatus property [Se
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspStatus.EnrollmentStatus"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

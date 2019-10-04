@@ -12,6 +12,8 @@ ms.keywords: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6, EventMask, EventMask enumerat
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/EventMask"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

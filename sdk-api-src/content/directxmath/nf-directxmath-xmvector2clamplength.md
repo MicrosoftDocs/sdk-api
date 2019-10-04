@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector2ClampLength, XMVector2ClampLength, XMVector2C
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector2ClampLength"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

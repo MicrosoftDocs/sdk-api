@@ -12,6 +12,8 @@ ms.keywords: GetPreferredClsid, GetPreferredClsid method [DirectShow], GetPrefer
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMPluginControl.GetPreferredClsid"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

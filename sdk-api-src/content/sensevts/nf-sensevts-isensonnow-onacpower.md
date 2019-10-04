@@ -12,6 +12,8 @@ ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower,
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensOnNow.OnACPower"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

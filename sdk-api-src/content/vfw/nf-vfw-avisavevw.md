@@ -12,6 +12,8 @@ ms.keywords: AVISaveV, AVISaveV function [Windows Multimedia], AVISaveVA, AVISav
 ms.topic: function
 f1_keywords: 
  - "vfw/AVISaveV"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

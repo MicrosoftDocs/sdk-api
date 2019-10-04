@@ -6,6 +6,8 @@ ms.keywords: _WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE
 ms.topic: language-reference
 f1_keywords: 
  - "wlanapi/_WLAN_ADHOC_NETWORK_STATE"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

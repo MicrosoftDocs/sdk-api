@@ -12,6 +12,8 @@ ms.keywords: RtwqPutWorkItem, RtwqPutWorkItem function, base.rtwqputworkitem, rt
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqPutWorkItem"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

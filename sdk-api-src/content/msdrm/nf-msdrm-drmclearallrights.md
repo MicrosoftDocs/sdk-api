@@ -12,6 +12,8 @@ ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rig
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMClearAllRights"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

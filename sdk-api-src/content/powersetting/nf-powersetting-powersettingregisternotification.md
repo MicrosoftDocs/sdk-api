@@ -12,6 +12,8 @@ ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingR
 ms.topic: function
 f1_keywords: 
  - "powersetting/PowerSettingRegisterNotification"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

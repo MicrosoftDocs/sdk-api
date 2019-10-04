@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetLineJoin method, Pen.SetLineJoin, Pen::SetLineJ
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetLineJoin"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

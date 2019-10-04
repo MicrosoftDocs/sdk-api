@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_CONTEXT_SUBSCRIPTION0, IPSEC_SA_CONTEXT_SUBSCRIPTION0 stru
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

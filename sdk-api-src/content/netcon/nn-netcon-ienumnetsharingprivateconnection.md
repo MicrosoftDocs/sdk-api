@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection 
 ms.topic: interface
 f1_keywords: 
  - "netcon/IEnumNetSharingPrivateConnection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

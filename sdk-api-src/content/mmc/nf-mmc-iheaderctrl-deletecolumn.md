@@ -12,6 +12,8 @@ ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl.DeleteColumn"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

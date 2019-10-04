@@ -12,6 +12,8 @@ ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], F
 ms.topic: struct
 f1_keywords: 
  - "shlobj/FVSHOWINFO"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

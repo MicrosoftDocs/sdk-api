@@ -12,6 +12,8 @@ ms.keywords: '*PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_GUID_PRE
 ms.topic: struct
 f1_keywords:
 - dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

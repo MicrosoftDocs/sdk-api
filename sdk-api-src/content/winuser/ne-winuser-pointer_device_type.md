@@ -12,6 +12,8 @@ ms.keywords: POINTER_DEVICE_TYPE, POINTER_DEVICE_TYPE enumeration, POINTER_DEVIC
 ms.topic: enum
 f1_keywords: 
  - "winuser/POINTER_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

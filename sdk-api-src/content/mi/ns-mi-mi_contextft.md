@@ -12,6 +12,8 @@ ms.keywords: MI_ContextFT, MI_ContextFT structure [Windows Management Infrastruc
 ms.topic: struct
 f1_keywords:
 - mi/MI_ContextFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

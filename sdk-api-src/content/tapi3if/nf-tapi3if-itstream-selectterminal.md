@@ -12,6 +12,8 @@ ms.keywords: ITStream interface [TAPI 2.2],SelectTerminal method, ITStream.Selec
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITStream.SelectTerminal"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

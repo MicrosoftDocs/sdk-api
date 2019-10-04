@@ -12,6 +12,8 @@ ms.keywords: CreateTexture3D, CreateTexture3D method [Direct3D 11], CreateTextur
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateTexture3D"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

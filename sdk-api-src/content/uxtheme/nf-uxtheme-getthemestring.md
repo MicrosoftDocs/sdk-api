@@ -12,6 +12,8 @@ ms.keywords: GetThemeString, GetThemeString function [Windows Controls], control
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeString"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

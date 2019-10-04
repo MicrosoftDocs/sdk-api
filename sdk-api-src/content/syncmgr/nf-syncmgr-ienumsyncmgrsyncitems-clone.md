@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrSyncItems.Clone"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CONFIRM_CONFLICT_ITEM, CONFIRM_CONFLICT_ITEM structure [Windows She
 ms.topic: struct
 f1_keywords: 
  - "syncmgr/CONFIRM_CONFLICT_ITEM"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

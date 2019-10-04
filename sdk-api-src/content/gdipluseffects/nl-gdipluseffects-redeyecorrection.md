@@ -12,6 +12,8 @@ ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+], RedEyeCorrection c
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/RedEyeCorrection"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

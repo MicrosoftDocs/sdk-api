@@ -12,6 +12,8 @@ ms.keywords: VSS_USAGE_TYPE, VSS_USAGE_TYPE enumeration [VSS], VSS_UT_BOOTABLESY
 ms.topic: enum
 f1_keywords:
 - vswriter/VSS_USAGE_TYPE
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

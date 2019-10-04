@@ -12,6 +12,8 @@ ms.keywords: '*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORD
 ms.topic: struct
 f1_keywords:
 - shlobj_core/SHChangeDWORDAsIDList
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

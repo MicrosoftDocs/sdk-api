@@ -12,6 +12,8 @@ ms.keywords: ID2D1EffectContext interface [Direct2D],LoadPixelShader method, ID2
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1EffectContext.LoadPixelShader"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF, GetFVF method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetFVF"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

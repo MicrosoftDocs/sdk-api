@@ -12,6 +12,8 @@ ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Decrypt meth
 ms.topic: method
 f1_keywords: 
  - "wmsecure/IWMSecureChannel.WMSC_Decrypt"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

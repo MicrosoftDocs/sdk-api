@@ -12,6 +12,8 @@ ms.keywords: IPSEC_ESP_DROP_PACKET_STATISTICS0, IPSEC_ESP_DROP_PACKET_STATISTICS
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

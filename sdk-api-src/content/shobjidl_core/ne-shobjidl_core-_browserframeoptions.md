@@ -12,6 +12,8 @@ ms.keywords: BFO_ADD_IE_TOCAPTIONBAR, BFO_BOTH_OPTIONS, BFO_BROWSER_PERSIST_SETT
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/BROWSERFRAMEOPTIONS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

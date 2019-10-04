@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetMonthCalColor, DateTime_GetMonthCalColor macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetMonthCalColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

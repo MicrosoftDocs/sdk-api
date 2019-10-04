@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapDecoderInfo, IWICBitmapDecoderInfo interface [Windows Ima
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapDecoderInfo"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

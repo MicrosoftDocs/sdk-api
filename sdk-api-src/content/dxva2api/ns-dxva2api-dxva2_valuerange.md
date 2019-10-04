@@ -12,6 +12,8 @@ ms.keywords: DXVA2_ValueRange, DXVA2_ValueRange structure [Media Foundation], dx
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_ValueRange
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

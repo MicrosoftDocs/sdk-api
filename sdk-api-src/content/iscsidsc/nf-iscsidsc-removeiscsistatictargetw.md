@@ -12,6 +12,8 @@ ms.keywords: RemoveIScsiStaticTargetW, RemoveIscsiStaticTarget, RemoveIscsiStati
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/RemoveIscsiStaticTarget"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

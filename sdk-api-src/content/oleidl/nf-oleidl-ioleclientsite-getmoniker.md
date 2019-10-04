@@ -12,6 +12,8 @@ ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleCl
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.GetMoniker"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

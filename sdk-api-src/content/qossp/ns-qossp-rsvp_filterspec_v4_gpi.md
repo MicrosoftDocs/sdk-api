@@ -12,6 +12,8 @@ ms.keywords: '*LPRSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI structure [QO
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_FILTERSPEC_V4_GPI
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

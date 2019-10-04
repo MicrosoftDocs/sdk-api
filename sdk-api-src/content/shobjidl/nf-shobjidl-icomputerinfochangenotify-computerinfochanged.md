@@ -12,6 +12,8 @@ ms.keywords: ComputerInfoChanged, ComputerInfoChanged method [Windows Shell], Co
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IComputerInfoChangeNotify.ComputerInfoChanged"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

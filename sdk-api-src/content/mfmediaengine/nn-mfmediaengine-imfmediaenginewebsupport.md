@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineWebSupport"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

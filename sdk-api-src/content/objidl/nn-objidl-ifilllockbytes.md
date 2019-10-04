@@ -12,6 +12,8 @@ ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFil
 ms.topic: interface
 f1_keywords: 
  - "objidl/IFillLockBytes"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents a
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMImageResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFastRundown, IFastRundown interface [COM], IFastRundown interface 
 ms.topic: interface
 f1_keywords: 
  - "objidl/IFastRundown"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

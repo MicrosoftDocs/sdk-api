@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginGetOperationParameters
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

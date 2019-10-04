@@ -12,6 +12,8 @@ ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscanda
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpScanDatabase
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

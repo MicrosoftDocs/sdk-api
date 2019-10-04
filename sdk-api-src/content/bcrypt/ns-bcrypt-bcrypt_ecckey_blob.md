@@ -12,6 +12,8 @@ ms.keywords: '*PBCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB struc
 ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_ECCKEY_BLOB
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

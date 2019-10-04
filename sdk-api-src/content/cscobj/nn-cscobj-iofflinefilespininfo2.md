@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Fil
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IOfflineFilesPinInfo2"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

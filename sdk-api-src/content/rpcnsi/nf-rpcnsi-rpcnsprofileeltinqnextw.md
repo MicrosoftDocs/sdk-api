@@ -12,6 +12,8 @@ ms.keywords: RpcNsProfileEltInqNext, RpcNsProfileEltInqNext function [RPC], RpcN
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsProfileEltInqNext"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

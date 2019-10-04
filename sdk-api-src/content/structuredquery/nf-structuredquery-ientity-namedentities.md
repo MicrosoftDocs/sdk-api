@@ -12,6 +12,8 @@ ms.keywords: IEntity interface [search],NamedEntities method, IEntity.NamedEntit
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IEntity.NamedEntities"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported func
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptIsAlgSupported"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

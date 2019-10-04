@@ -12,6 +12,8 @@ ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortP
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetAbortProc"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

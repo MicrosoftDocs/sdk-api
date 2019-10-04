@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInUnprepareHeader, mmeapi/waveInUnprepareHeader, multim
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInUnprepareHeader"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

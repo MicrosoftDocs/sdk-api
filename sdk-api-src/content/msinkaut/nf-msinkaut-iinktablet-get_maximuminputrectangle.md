@@ -12,6 +12,8 @@ ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet.MaximumInputRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

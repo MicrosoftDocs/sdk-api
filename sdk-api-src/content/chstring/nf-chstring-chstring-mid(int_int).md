@@ -10,6 +10,8 @@ ms.keywords: CHString::Mid
 ms.topic: language-reference
 f1_keywords: 
  - "chstring/CHString::Mid"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

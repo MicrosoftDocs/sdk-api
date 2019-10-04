@@ -12,6 +12,8 @@ ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [CO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.GetMiscStatus"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

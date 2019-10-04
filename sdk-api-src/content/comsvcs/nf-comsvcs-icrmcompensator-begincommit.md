@@ -12,6 +12,8 @@ ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.BeginCommit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

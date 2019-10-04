@@ -12,6 +12,8 @@ ms.keywords: SHChangeNotification_Unlock, SHChangeNotification_Unlock function [
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHChangeNotification_Unlock"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

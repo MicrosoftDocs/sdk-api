@@ -12,6 +12,8 @@ ms.keywords: "*PSP_REGISTER_CONTROL_STATUSA, PSP_REGISTER_CONTROL_STATUS, PSP_RE
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_REGISTER_CONTROL_STATUS"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

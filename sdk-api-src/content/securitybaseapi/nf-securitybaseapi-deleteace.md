@@ -12,6 +12,8 @@ ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, securit
 ms.topic: function
 f1_keywords:
 - securitybaseapi/DeleteAce
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

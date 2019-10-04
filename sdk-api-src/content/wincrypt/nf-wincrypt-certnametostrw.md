@@ -12,6 +12,8 @@ ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_
 ms.topic: function
 f1_keywords:
 - wincrypt/CertNameToStr
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

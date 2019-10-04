@@ -12,6 +12,8 @@ ms.keywords: ListBox_AddString, ListBox_AddString macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_AddString"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

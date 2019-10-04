@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLun
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsLun.QueryMaxLunExtendSize"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

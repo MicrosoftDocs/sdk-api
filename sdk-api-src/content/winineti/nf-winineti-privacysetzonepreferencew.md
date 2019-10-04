@@ -12,6 +12,8 @@ ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinI
 ms.topic: function
 f1_keywords: 
  - "winineti/PrivacySetZonePreferenceW"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

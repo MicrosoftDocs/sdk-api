@@ -12,6 +12,8 @@ ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 
 ms.topic: struct
 f1_keywords: 
  - "dxva2api/DXVA2_Fixed32"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

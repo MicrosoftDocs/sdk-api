@@ -12,6 +12,8 @@ ms.keywords: GetGrayscaleEnhancedContrast, GetGrayscaleEnhancedContrast method [
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteRenderingParams1.GetGrayscaleEnhancedContrast"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

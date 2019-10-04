@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities me
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking.get_ExSeekCapabilities"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

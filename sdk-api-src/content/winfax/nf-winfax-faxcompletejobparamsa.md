@@ -12,6 +12,8 @@ ms.keywords: FaxCompleteJobParams, FaxCompleteJobParams function [Fax Service], 
 ms.topic: function
 f1_keywords:
 - winfax/FaxCompleteJobParams
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

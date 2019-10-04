@@ -12,6 +12,8 @@ ms.keywords: IRowsetEvents, IRowsetEvents interface [search], IRowsetEvents inte
 ms.topic: interface
 f1_keywords: 
  - "searchapi/IRowsetEvents"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCON
 ms.topic: function
 f1_keywords:
 - http/HttpSendResponseEntityBody
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

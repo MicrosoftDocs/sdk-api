@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], bcrypt/BCRYP
 ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_KEY_BLOB
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

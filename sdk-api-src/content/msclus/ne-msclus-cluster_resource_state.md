@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_STATE, CLUSTER_RESOURCE_STATE enumeration [Failove
 ms.topic: enum
 f1_keywords:
 - msclus/CLUSTER_RESOURCE_STATE
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

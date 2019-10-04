@@ -12,6 +12,8 @@ ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServi
 ms.topic: function
 f1_keywords:
 - winsvc/QueryServiceLockStatus
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

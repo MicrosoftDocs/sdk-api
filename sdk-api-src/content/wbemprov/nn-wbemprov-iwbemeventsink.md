@@ -12,6 +12,8 @@ ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instru
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemEventSink"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

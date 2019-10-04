@@ -12,6 +12,8 @@ ms.keywords: WindowsTrimStringStart, WindowsTrimStringStart function [Windows Ru
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsTrimStringStart"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

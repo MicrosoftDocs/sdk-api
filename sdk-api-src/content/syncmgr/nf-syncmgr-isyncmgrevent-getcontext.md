@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [Windows Shell], GetContext method [W
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetContext"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

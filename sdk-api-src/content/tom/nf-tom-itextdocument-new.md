@@ -12,6 +12,8 @@ ms.keywords: ITextDocument interface [Windows Controls],New method, ITextDocumen
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.New"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

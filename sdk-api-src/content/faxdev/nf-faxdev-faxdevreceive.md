@@ -12,6 +12,8 @@ ms.keywords: FaxDevReceive, FaxDevReceive function [Fax Service], _mfax_faxdevre
 ms.topic: function
 f1_keywords:
 - faxdev/FaxDevReceive
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

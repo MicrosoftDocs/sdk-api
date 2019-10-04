@@ -12,6 +12,8 @@ ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegiste
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoRegisterPSClsid"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

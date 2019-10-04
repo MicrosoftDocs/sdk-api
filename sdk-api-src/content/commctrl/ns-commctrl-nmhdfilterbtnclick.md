@@ -12,6 +12,8 @@ ms.keywords: '*LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMHDFILTERBTNCLICK
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

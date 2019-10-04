@@ -12,6 +12,8 @@ ms.keywords: LWA_ALPHA, LWA_COLORKEY, SetLayeredWindowAttributes, SetLayeredWind
 ms.topic: function
 f1_keywords:
 - winuser/SetLayeredWindowAttributes
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

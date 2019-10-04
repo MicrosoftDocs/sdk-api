@@ -12,6 +12,8 @@ ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API
 ms.topic: interface
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

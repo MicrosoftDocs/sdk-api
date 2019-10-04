@@ -12,6 +12,8 @@ ms.keywords: 6d6aa14b-f1f5-460a-b37a-5187022ad301, IRealTimeStylus interface [Ta
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.RemoveAllStylusSyncPlugins"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

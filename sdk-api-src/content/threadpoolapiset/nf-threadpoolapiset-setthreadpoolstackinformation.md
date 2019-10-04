@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolStackInformation, SetThreadpoolStackInformation functi
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/SetThreadpoolStackInformation"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

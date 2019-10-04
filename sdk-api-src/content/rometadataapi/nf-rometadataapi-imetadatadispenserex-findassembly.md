@@ -12,6 +12,8 @@ ms.keywords: FindAssembly, FindAssembly method [Windows Runtime], FindAssembly m
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx.FindAssembly"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

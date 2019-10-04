@@ -12,6 +12,8 @@ ms.keywords: FindFirst, FindFirst method [Windows Accessibility], FindFirst meth
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.FindFirst"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

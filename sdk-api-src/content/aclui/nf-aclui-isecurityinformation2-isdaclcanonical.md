@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation2 interface [Security],IsDaclCanonical method, 
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation2.IsDaclCanonical
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

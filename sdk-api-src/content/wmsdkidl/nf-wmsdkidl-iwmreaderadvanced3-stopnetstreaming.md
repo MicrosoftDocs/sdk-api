@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StopNetStreamin
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced3.StopNetStreaming"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmar
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssWalkMarkerFree"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

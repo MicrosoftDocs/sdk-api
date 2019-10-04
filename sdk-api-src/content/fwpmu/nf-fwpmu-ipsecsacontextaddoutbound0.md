@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextAddOutbound0, IPsecSaContextAddOutbound0 function [Fi
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextAddOutbound0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

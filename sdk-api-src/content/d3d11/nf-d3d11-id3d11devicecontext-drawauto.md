@@ -12,6 +12,8 @@ ms.keywords: DrawAuto, DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DrawAuto"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

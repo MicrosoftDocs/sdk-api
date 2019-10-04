@@ -12,6 +12,8 @@ ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize 
 ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
+dev_langs:
+ - c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

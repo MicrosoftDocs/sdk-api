@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumerat
 ms.topic: enum
 f1_keywords: 
  - "clfs/CLFS_CONTEXT_MODE"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

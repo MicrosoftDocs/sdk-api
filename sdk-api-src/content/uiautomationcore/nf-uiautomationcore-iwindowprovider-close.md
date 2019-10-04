@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IWindowProvider.Close"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

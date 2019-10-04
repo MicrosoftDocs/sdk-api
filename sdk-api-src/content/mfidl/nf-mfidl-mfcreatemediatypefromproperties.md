@@ -12,6 +12,8 @@ ms.keywords: MFCreateMediaTypeFromProperties, MFCreateMediaTypeFromProperties fu
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateMediaTypeFromProperties"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

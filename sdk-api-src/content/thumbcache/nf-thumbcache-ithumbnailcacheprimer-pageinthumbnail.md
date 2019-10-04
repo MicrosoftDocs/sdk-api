@@ -12,6 +12,8 @@ ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail met
 ms.topic: method
 f1_keywords: 
  - "thumbcache/IThumbnailCachePrimer.PageInThumbnail"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
 req.target-type: Windows

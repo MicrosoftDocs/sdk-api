@@ -12,6 +12,8 @@ ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], En
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbGlobalStore.EnumerateFarms"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

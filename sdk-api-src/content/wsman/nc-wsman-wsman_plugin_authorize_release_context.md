@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT, WSMAN_PLUGIN_AUTHORIZE_RELE
 ms.topic: callback
 f1_keywords: 
  - "wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

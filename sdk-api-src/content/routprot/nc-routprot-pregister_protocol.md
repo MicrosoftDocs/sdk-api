@@ -12,6 +12,8 @@ ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, 
 ms.topic: callback
 f1_keywords:
 - routprot/RegisterProtocol
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

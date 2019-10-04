@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_S
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Size"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

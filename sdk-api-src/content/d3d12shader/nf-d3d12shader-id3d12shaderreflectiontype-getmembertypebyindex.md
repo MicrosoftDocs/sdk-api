@@ -12,6 +12,8 @@ ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByI
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

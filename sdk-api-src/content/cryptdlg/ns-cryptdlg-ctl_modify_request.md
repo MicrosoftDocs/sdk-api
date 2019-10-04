@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST struc
 ms.topic: struct
 f1_keywords:
 - cryptdlg/CTL_MODIFY_REQUEST
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

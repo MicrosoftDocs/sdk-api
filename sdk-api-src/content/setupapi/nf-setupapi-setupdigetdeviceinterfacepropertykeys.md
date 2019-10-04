@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDeviceInterfacePropertyKeys, SetupDiGetDeviceInterfacePro
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInterfacePropertyKeys
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Device_Interface_Property_Keys

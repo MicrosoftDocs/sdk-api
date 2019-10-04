@@ -12,6 +12,8 @@ ms.keywords: EventLogging property [Fax Service], EventLogging property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxLoggingOptions.EventLogging"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

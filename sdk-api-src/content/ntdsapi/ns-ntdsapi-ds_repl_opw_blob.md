@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_OPW_BLOB
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

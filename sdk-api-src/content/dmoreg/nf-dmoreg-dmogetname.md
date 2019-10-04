@@ -12,6 +12,8 @@ ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, ds
 ms.topic: function
 f1_keywords: 
  - "dmoreg/DMOGetName"
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

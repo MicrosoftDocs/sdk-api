@@ -12,6 +12,8 @@ ms.keywords: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, ADS_GROUP_TYPE_ENUM, ADS_GROUP_T
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_GROUP_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

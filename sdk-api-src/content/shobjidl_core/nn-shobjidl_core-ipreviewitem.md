@@ -12,6 +12,8 @@ ms.keywords: IPreviewItem, IPreviewItem interface [Windows Shell], IPreviewItem 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPreviewItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

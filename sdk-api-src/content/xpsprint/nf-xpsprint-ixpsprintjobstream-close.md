@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsP
 ms.topic: method
 f1_keywords: 
  - "xpsprint/IXpsPrintJobStream.Close"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

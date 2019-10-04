@@ -12,6 +12,8 @@ ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOS
 ms.topic: struct
 f1_keywords: 
  - "amvideo/TRUECOLORINFO"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

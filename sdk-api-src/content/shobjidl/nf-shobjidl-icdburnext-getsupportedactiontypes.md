@@ -12,6 +12,8 @@ ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionT
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ICDBurnExt.GetSupportedActionTypes"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

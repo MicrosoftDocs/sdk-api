@@ -12,6 +12,8 @@ ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CR
 ms.topic: function
 f1_keywords: 
  - "dpapi/CryptUnprotectMemory"
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

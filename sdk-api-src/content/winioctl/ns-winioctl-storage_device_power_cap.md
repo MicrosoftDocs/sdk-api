@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DE
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_DEVICE_POWER_CAP
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

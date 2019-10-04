@@ -12,6 +12,8 @@ ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Mi
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT.GetRecordCountOfDescriptors"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

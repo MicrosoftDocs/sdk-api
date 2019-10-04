@@ -12,6 +12,8 @@ ms.keywords: GetAltitude, GetAltitude method [WinLocation], GetAltitude method [
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILatLongReport.GetAltitude"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYP
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_KEY_INFO_ITEM
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

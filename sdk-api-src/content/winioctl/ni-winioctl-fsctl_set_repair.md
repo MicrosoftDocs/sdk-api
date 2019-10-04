@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_REPAIR, FSCTL_SET_REPAIR control, FSCTL_SET_REPAIR contro
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_SET_REPAIR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

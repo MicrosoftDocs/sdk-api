@@ -12,6 +12,8 @@ ms.keywords: GetDataBlockSize, GetDataBlockSize method [IMAPI], GetDataBlockSize
 ms.topic: method
 f1_keywords: 
  - "imapi/IJolietDiscMaster.GetDataBlockSize"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

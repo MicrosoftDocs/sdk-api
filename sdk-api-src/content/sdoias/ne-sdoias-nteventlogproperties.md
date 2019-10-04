@@ -12,6 +12,8 @@ ms.keywords: NTEVENTLOGPROPERTIES, NTEVENTLOGPROPERTIES enumeration [Network Pol
 ms.topic: enum
 f1_keywords: 
  - "sdoias/NTEVENTLOGPROPERTIES"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

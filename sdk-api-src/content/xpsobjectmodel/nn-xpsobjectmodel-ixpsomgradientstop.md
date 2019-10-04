@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientStop"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

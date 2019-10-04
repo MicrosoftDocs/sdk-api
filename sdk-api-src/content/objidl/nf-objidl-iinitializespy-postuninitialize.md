@@ -12,6 +12,8 @@ ms.keywords: IInitializeSpy interface [COM],PostUninitialize method, IInitialize
 ms.topic: method
 f1_keywords: 
  - "objidl/IInitializeSpy.PostUninitialize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

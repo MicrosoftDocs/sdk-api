@@ -12,6 +12,8 @@ ms.keywords: ReportIScsiPersistentLoginsW, ReportIscsiPersistentLogins, ReportIs
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/ReportIscsiPersistentLogins"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxSender interface [Fax Service],OfficePhone property, IFaxSender
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.OfficePhone"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

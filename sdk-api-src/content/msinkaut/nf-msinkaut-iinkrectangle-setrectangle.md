@@ -12,6 +12,8 @@ ms.keywords: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf, IInkRectangle interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRectangle.SetRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

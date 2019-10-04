@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAA, DNS_MX_DATA, DNS_MX_DATA structure 
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_MX_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

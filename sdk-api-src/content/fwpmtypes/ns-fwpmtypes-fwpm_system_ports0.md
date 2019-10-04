@@ -12,6 +12,8 @@ ms.keywords: FWPM_SYSTEM_PORTS0, FWPM_SYSTEM_PORTS0 structure [Filtering], fwp.f
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_SYSTEM_PORTS0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

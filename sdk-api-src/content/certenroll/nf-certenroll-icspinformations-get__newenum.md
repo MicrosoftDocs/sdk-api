@@ -12,6 +12,8 @@ ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInform
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformations._NewEnum"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

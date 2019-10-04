@@ -12,6 +12,8 @@ ms.keywords: GetRenderingMode1, GetRenderingMode1 method [Direct Write], GetRend
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteRenderingParams3.GetRenderingMode1"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

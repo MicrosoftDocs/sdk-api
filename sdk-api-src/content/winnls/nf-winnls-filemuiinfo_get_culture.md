@@ -12,6 +12,8 @@ ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internation
 ms.topic: macro
 f1_keywords:
 - winnls/FILEMUIINFO_GET_CULTURE
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

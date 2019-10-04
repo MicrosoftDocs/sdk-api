@@ -12,6 +12,8 @@ ms.keywords: 54532c0e-772b-45b6-95a3-5959023b9bc8, EndCreateObjectFromByteStream
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSourceResolver.EndCreateObjectFromByteStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

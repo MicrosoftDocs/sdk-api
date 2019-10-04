@@ -12,6 +12,8 @@ ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRat
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFRateSupport"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer inte
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStreamBuffer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

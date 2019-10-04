@@ -12,6 +12,8 @@ ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHAN
 ms.topic: callback
 f1_keywords:
 - networkisolation/PAC_CHANGES_CALLBACK_FN
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

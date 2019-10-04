@@ -12,6 +12,8 @@ ms.keywords: '*PRESULT_VIEW_TYPE_INFO, MMC_VIEW_TYPE_HTML, MMC_VIEW_TYPE_LIST, M
 ms.topic: struct
 f1_keywords:
 - mmc/RESULT_VIEW_TYPE_INFO
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

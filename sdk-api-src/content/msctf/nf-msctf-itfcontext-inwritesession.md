@@ -12,6 +12,8 @@ ms.keywords: ITfContext interface [Text Services Framework],InWriteSession metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.InWriteSession"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

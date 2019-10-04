@@ -12,6 +12,8 @@ ms.keywords: GetCompressedSize, GetCompressedSize method [App packaging and mana
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBlockMapBlock.GetCompressedSize"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

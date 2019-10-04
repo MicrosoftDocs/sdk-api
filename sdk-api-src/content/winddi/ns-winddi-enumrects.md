@@ -12,6 +12,8 @@ ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], display.enumrects
 ms.topic: struct
 f1_keywords:
 - winddi/ENUMRECTS
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

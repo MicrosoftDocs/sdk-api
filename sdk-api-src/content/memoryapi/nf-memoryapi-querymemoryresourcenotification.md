@@ -12,6 +12,8 @@ ms.keywords: QueryMemoryResourceNotification, QueryMemoryResourceNotification fu
 ms.topic: function
 f1_keywords: 
  - "memoryapi/QueryMemoryResourceNotification"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

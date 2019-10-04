@@ -12,6 +12,8 @@ ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreate
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOption
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

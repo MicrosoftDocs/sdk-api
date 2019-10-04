@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTBSAVE, LPNMTBSAVE, LPNMTBSAVE structure pointer [Windows Con
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBSAVE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [COM], GetDescription method 
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoUnit.GetDescription"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

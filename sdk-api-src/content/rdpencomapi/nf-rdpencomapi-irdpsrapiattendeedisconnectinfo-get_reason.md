@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Reason property, IR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo.Reason"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCreateInboundIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

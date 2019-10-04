@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPER
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PROPERTY_QUERY
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DynamicDisconnect, DynamicDisconnect method [DirectShow], DynamicDi
 ms.topic: method
 f1_keywords: 
  - "strmif/IPinConnection.DynamicDisconnect"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

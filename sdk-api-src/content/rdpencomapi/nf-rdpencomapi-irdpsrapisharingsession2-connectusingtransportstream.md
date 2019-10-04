@@ -12,6 +12,8 @@ ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RD
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.ConnectUsingTransportStream"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

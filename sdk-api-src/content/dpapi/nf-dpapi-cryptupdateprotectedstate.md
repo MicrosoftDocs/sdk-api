@@ -12,6 +12,8 @@ ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Secu
 ms.topic: function
 f1_keywords:
 - dpapi/CryptUpdateProtectedState
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

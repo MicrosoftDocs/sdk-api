@@ -12,6 +12,8 @@ ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdes
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapDestroy"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

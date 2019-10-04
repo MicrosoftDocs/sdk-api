@@ -12,6 +12,8 @@ ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingSt
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMarshalingStream"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

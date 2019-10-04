@@ -12,6 +12,8 @@ ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System]
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/PrimaryJabColors"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

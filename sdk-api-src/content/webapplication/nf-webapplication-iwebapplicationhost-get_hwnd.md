@@ -12,6 +12,8 @@ ms.keywords: HWND property [Debugging Windows Store apps], HWND property [Debugg
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationHost.HWND"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

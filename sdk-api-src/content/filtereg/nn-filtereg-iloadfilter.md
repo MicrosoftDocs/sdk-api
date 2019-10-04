@@ -12,6 +12,8 @@ ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface 
 ms.topic: interface
 f1_keywords:
 - filtereg/ILoadFilter
+dev_langs:
+ - c++
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows

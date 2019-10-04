@@ -12,6 +12,8 @@ ms.keywords: '*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO st
 ms.topic: struct
 f1_keywords:
 - winioctl/DISK_PARTITION_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

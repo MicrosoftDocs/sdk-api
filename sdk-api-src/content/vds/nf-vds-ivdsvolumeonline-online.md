@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeOnline interface,Online method, IVdsVolumeOnline.Online, 
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeOnline.Online"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

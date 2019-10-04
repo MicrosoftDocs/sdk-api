@@ -12,6 +12,8 @@ ms.keywords: AllocateUserPhysicalPages, AllocateUserPhysicalPages function, _win
 ms.topic: function
 f1_keywords: 
  - "memoryapi/AllocateUserPhysicalPages"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

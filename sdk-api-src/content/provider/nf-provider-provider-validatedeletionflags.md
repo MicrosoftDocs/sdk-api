@@ -12,6 +12,8 @@ ms.keywords: "?ValidateDeletionFlags@Provider@@MAEJJ@Z, ?ValidateDeletionFlags@P
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.ValidateDeletionFlags"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BI
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawPalette.GetCaps
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

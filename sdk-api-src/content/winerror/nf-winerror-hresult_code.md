@@ -12,6 +12,8 @@ ms.keywords: HRESULT_CODE, HRESULT_CODE macro [COM], _com_HRESULT_CODE, com.hres
 ms.topic: macro
 f1_keywords: 
  - "winerror/HRESULT_CODE"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

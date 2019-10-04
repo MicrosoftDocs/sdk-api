@@ -12,6 +12,8 @@ ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interf
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystem2.GetDrive2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

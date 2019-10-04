@@ -12,6 +12,8 @@ ms.keywords: CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC constructor [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

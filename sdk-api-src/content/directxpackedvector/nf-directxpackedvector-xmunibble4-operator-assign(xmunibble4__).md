@@ -12,6 +12,8 @@ ms.keywords: XMUNIBBLE4 structure [DirectX Math Support APIs],operator = method,
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUNIBBLE4.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

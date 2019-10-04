@@ -12,6 +12,8 @@ ms.keywords: IEnumDiskQuotaUsers interface [Files],Next method, IEnumDiskQuotaUs
 ms.topic: method
 f1_keywords: 
  - "dskquota/IEnumDiskQuotaUsers.Next"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

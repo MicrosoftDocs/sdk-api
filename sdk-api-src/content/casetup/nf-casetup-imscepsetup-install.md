@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup interface [Security],Install method, IMSCEPSetup.Instal
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.Install"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

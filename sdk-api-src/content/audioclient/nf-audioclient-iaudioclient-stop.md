@@ -12,6 +12,8 @@ ms.keywords: IAudioClient interface [Core Audio],Stop method, IAudioClient.Stop,
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.Stop"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

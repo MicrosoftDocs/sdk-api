@@ -12,6 +12,8 @@ ms.keywords: "*LPSYSTEMTIME, *PSYSTEMTIME, PSYSTEMTIME, PSYSTEMTIME structure po
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/SYSTEMTIME"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

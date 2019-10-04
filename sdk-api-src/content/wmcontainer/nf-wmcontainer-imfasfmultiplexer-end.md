@@ -12,6 +12,8 @@ ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.End"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTI
 ms.topic: struct
 f1_keywords:
 - ntsecpkg/ENCRYPTED_CREDENTIALW
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

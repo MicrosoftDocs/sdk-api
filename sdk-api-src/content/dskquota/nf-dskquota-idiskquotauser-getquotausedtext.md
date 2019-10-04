@@ -12,6 +12,8 @@ ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetQuotaUsedText"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

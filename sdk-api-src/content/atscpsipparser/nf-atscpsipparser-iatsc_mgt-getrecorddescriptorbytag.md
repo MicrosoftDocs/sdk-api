@@ -12,6 +12,8 @@ ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsof
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT.GetRecordDescriptorByTag"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

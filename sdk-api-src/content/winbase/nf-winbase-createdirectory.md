@@ -12,6 +12,8 @@ ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateDirectory"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closet
 ms.topic: function
 f1_keywords: 
  - "evntrace/CloseTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

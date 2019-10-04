@@ -12,6 +12,8 @@ ms.keywords: 5efee8e5-417a-75e5-2f53-291d2450fa5f, D3D10_COMPARISON_ALWAYS, D3D1
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_COMPARISON_FUNC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtGetLogInfo, EvtGetLogInfo function [EventLog], wes.evtgetloginfo
 ms.topic: function
 f1_keywords:
 - winevt/EvtGetLogInfo
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

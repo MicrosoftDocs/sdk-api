@@ -12,6 +12,8 @@ ms.keywords: "*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure 
 ms.topic: struct
 f1_keywords: 
  - "nspapi/CSADDR_INFO"
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: Nspapi.h
 req.target-type: Windows

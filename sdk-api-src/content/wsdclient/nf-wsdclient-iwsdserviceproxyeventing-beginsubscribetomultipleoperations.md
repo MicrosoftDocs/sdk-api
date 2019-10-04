@@ -12,6 +12,8 @@ ms.keywords: BeginSubscribeToMultipleOperations, BeginSubscribeToMultipleOperati
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ShowWindowAsync, ShowWindowAsync function [Windows and Messages], _
 ms.topic: function
 f1_keywords: 
  - "winuser/ShowWindowAsync"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

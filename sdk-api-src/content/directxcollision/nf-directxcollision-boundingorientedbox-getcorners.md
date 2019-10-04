@@ -12,6 +12,8 @@ ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],GetCorner
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingOrientedBox.GetCorners"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

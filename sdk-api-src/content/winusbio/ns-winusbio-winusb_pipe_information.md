@@ -12,6 +12,8 @@ ms.keywords: "*PWINUSB_PIPE_INFORMATION, PWINUSB_PIPE_INFORMATION, PWINUSB_PIPE_
 ms.topic: struct
 f1_keywords: 
  - "winusbio/WINUSB_PIPE_INFORMATION"
+dev_langs:
+ - c++
 req.header: winusbio.h
 req.include-header: Winusbio.h
 req.target-type: Windows

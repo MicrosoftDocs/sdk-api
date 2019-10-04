@@ -12,6 +12,8 @@ ms.keywords: GetProcessGroupAffinity, GetProcessGroupAffinity function, base.get
 ms.topic: function
 f1_keywords: 
  - "processtopologyapi/GetProcessGroupAffinity"
+dev_langs:
+ - c++
 req.header: processtopologyapi.h
 req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

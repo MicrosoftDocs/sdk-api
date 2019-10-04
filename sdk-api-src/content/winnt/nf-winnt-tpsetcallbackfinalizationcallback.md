@@ -12,6 +12,8 @@ ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallbac
 ms.topic: function
 f1_keywords: 
  - "winnt/TpSetCallbackFinalizationCallback"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],DeletePolicyReaderName method, DeletePoli
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.DeletePolicyReaderName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 1ef0bd38-23d3-fa53-cf27-ff502bb674f2, ID3D10InfoQueue, ID3D10InfoQu
 ms.topic: interface
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FSCTL_RECALL_FILE, FSCTL_RECALL_FILE control, FSCTL_RECALL_FILE con
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_RECALL_FILE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

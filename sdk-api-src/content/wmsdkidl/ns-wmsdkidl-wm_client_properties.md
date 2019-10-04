@@ -12,6 +12,8 @@ ms.keywords: WM_CLIENT_PROPERTIES, WM_CLIENT_PROPERTIES structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_CLIENT_PROPERTIES"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

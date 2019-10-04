@@ -12,6 +12,8 @@ ms.keywords: ListView_GetStringWidth, ListView_GetStringWidth macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetStringWidth"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

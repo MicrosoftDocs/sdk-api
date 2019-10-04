@@ -12,6 +12,8 @@ ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLo
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteRemoteFontFileLoader.GetLocalityFromKey"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

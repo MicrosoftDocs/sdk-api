@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneGetExtensionID, TSPI_phoneGetExtensionID function [TAPI 2
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneGetExtensionID"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base
 ms.topic: function
 f1_keywords: 
  - "winnt/TpSetCallbackCleanupGroup"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

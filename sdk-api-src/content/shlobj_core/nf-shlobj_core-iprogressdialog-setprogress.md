@@ -12,6 +12,8 @@ ms.keywords: IProgressDialog interface [Windows Shell],SetProgress method, IProg
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IProgressDialog.SetProgress"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMon
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.Hash"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

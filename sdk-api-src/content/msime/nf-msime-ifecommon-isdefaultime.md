@@ -12,6 +12,8 @@ ms.keywords: IFECommon interface [Internationalization for Windows Applications]
 ms.topic: method
 f1_keywords: 
  - "msime/IFECommon.IsDefaultIME"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

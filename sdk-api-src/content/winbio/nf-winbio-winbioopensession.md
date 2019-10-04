@@ -12,6 +12,8 @@ ms.keywords: WINBIO_DB_BOOTSTRAP, WINBIO_DB_DEFAULT, WINBIO_DB_ONCHIP, WINBIO_FL
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioOpenSession"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

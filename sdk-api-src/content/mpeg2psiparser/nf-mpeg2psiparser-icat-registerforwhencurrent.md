@@ -12,6 +12,8 @@ ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForWhenCurrent m
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/ICAT.RegisterForWhenCurrent"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

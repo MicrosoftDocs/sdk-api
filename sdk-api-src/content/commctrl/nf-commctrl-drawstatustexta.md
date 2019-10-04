@@ -12,6 +12,8 @@ ms.keywords: DrawStatusText, DrawStatusText function [Windows Controls], DrawSta
 ms.topic: function
 f1_keywords: 
  - "commctrl/DrawStatusText"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FilterInstanceFindNext, FilterInstanceFindNext function [Installabl
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterInstanceFindNext"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMask
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

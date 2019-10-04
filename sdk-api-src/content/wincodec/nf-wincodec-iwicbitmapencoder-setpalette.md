@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPalette 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapEncoder.SetPalette"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

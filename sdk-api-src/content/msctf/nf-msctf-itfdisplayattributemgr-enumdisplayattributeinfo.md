@@ -12,6 +12,8 @@ ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Ser
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDisplayAttributeMgr.EnumDisplayAttributeInfo"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

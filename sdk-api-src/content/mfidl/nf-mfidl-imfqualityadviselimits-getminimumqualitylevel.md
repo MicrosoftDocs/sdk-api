@@ -12,6 +12,8 @@ ms.keywords: GetMinimumQualityLevel, GetMinimumQualityLevel method [Media Founda
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdviseLimits.GetMinimumQualityLevel
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

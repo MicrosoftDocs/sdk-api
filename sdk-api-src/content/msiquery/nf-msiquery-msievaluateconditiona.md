@@ -12,6 +12,8 @@ ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateCon
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiEvaluateCondition"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

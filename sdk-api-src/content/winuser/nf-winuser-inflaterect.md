@@ -12,6 +12,8 @@ ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect
 ms.topic: function
 f1_keywords: 
  - "winuser/InflateRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

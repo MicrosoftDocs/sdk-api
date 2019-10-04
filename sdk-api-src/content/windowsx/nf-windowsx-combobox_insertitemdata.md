@@ -12,6 +12,8 @@ ms.keywords: ComboBox_InsertItemData, ComboBox_InsertItemData macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_InsertItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

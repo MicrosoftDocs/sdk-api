@@ -12,6 +12,8 @@ ms.keywords: SetParent, SetParent function [Windows and Messages], _win32_SetPar
 ms.topic: function
 f1_keywords: 
  - "winuser/SetParent"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

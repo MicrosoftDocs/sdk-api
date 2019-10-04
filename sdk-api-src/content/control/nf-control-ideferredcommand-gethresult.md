@@ -12,6 +12,8 @@ ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [Dire
 ms.topic: method
 f1_keywords: 
  - "control/IDeferredCommand.GetHResult"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

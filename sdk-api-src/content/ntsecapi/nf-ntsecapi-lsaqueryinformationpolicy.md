@@ -12,6 +12,8 @@ ms.keywords: LsaQueryInformationPolicy, LsaQueryInformationPolicy function [Secu
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaQueryInformationPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

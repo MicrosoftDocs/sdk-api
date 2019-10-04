@@ -12,6 +12,8 @@ ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObje
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.DUnadvise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

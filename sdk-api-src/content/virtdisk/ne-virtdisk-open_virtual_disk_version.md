@@ -12,6 +12,8 @@ ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [V
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/OPEN_VIRTUAL_DISK_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_UPDATE_FLAGS, CF_UPDATE_FLAGS enumeration, CF_UPDATE_FLAG_CLEAR_
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_UPDATE_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

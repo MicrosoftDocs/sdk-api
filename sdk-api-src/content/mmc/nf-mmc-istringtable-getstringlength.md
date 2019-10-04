@@ -12,6 +12,8 @@ ms.keywords: GetStringLength, GetStringLength method [MMC], GetStringLength meth
 ms.topic: method
 f1_keywords: 
  - "mmc/IStringTable.GetStringLength"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

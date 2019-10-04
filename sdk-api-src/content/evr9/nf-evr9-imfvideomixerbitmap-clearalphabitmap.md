@@ -12,6 +12,8 @@ ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaB
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoMixerBitmap.ClearAlphaBitmap"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

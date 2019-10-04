@@ -12,6 +12,8 @@ ms.keywords: PdhIsRealTimeQuery, PdhIsRealTimeQuery function [Perf], _win32_pdhi
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhIsRealTimeQuery"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

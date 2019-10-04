@@ -12,6 +12,8 @@ ms.keywords: HTTP_AUTHENTICATION_HARDENING_LEVELS, HTTP_AUTHENTICATION_HARDENING
 ms.topic: enum
 f1_keywords: 
  - "http/HTTP_AUTHENTICATION_HARDENING_LEVELS"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

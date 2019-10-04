@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GP
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.GetDomain"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 845ced1c-0b30-f73c-38de-69cd6425f139, ID3D11InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.SetMuteDebugOutput"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

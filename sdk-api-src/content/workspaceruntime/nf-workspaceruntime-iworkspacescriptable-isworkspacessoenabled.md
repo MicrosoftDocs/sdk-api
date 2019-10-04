@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspac
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable.IsWorkspaceSSOEnabled"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

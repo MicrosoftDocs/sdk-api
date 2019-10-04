@@ -12,6 +12,8 @@ ms.keywords: DeletePersonalDesktopAssignment, DeletePersonalDesktopAssignment me
 ms.topic: method
 f1_keywords: 
  - "tspubplugin2com/ItsPubPlugin2.DeletePersonalDesktopAssignment"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

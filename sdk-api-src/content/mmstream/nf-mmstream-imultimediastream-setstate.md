@@ -12,6 +12,8 @@ ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMed
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.SetState"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

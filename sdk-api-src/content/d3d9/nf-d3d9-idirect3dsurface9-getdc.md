@@ -12,6 +12,8 @@ ms.keywords: 945f6e77-19f2-e9bf-18a4-09747a9990f3, GetDC, GetDC method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DSurface9.GetDC"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

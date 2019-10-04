@@ -12,6 +12,8 @@ ms.keywords: IRpcChannelBuffer interface [COM],IsConnected method, IRpcChannelBu
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcChannelBuffer.IsConnected"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

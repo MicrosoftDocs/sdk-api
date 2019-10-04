@@ -12,6 +12,8 @@ ms.keywords: Brush class [GDI+],GetLastStatus method, Brush.GetLastStatus, Brush
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/Brush.GetLastStatus"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

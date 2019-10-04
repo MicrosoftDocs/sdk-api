@@ -12,6 +12,8 @@ ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_durati
 ms.topic: struct
 f1_keywords: 
  - "wsdxml/WSD_DURATION"
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

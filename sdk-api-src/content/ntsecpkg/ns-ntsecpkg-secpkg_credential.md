@@ -12,6 +12,8 @@ ms.keywords: '*PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL struct
 ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_CREDENTIAL
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

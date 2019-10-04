@@ -12,6 +12,8 @@ ms.keywords: CreateAction, CreateAction method [File Server Resource Manager], C
 ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenBase.CreateAction
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

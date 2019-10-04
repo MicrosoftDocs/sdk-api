@@ -12,6 +12,8 @@ ms.keywords: AddPrimaryExtensionItems, AddPrimaryExtensionItems method [MMC], Ad
 ms.topic: method
 f1_keywords: 
  - "mmc/IContextMenuProvider.AddPrimaryExtensionItems"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

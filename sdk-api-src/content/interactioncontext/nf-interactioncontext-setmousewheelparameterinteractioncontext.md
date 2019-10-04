@@ -12,6 +12,8 @@ ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInt
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/SetMouseWheelParameterInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

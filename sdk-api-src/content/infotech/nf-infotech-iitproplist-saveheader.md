@@ -12,6 +12,8 @@ ms.keywords: IITPropList interface [HTML Help Workshop],SaveHeader method, IITPr
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.SaveHeader"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HomePhone property [Fax Service], HomePhone property [Fax Service],
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.HomePhone"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

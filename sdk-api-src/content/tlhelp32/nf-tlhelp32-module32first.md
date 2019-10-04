@@ -12,6 +12,8 @@ ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Module32First"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

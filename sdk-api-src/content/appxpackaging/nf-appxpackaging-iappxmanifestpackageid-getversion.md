@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVe
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestPackageId.GetVersion"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

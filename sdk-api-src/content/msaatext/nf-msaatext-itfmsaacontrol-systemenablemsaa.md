@@ -12,6 +12,8 @@ ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemEnableMSAA
 ms.topic: method
 f1_keywords: 
  - "msaatext/ITfMSAAControl.SystemEnableMSAA"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

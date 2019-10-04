@@ -12,6 +12,8 @@ ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel metho
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyChannel.CloseChannel"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

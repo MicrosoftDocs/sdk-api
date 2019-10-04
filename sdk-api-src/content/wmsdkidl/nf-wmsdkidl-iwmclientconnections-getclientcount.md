@@ -12,6 +12,8 @@ ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetCl
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMClientConnections.GetClientCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

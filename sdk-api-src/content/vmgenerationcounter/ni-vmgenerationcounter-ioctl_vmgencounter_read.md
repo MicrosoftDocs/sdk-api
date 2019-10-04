@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMG
 ms.topic: ioctl
 f1_keywords:
 - vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
+dev_langs:
+ - c++
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities metho
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionGenerator.RecognizeNamedEntities"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

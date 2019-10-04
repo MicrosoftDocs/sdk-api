@@ -12,6 +12,8 @@ ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_S
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogRadioTuningSpace.get_Step"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

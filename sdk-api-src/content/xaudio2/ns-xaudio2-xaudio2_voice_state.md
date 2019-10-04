@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_VOICE_STATE, XAUDIO2_VOICE_STATE structure [XAudio2 Audio M
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_VOICE_STATE"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XInputGetDSoundAudioDeviceGuids, XInputGetDSoundAudioDeviceGuids fu
 ms.topic: function
 f1_keywords: 
  - "xinput/XInputGetDSoundAudioDeviceGuids"
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

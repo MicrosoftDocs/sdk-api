@@ -12,6 +12,8 @@ ms.keywords: AdjustableArrowCap class [GDI+],GetHeight method, AdjustableArrowCa
 ms.topic: method
 f1_keywords: 
  - "gdipluslinecaps/AdjustableArrowCap.GetHeight"
+dev_langs:
+ - c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

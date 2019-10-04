@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProvider interface [PLA],SetSecurity method, ITraceDataPr
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.SetSecurity"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

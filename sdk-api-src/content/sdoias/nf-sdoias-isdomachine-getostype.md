@@ -12,6 +12,8 @@ ms.keywords: GetOSType, GetOSType method [Network Policy Server], GetOSType meth
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoMachine.GetOSType
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

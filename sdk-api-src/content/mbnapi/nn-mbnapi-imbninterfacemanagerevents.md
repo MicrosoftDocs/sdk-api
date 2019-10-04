@@ -12,6 +12,8 @@ ms.keywords: IMbnInterfaceManagerEvents, IMbnInterfaceManagerEvents interface [M
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnInterfaceManagerEvents"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

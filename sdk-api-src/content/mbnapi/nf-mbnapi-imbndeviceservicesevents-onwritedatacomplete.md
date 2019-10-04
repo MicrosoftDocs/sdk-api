@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],O
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceServicesEvents.OnWriteDataComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

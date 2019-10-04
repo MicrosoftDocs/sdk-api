@@ -12,6 +12,8 @@ ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscMasterFormat method, IDi
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.SetActiveDiscMasterFormat"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

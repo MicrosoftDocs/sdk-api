@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS, PRESUTIL_SET_RESOUR
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetResourceServiceStartParameters"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

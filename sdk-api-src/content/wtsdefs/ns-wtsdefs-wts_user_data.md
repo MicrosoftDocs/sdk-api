@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_USER_DATA, PWTS_USER_DATA, PWTS_USER_DATA structure pointer 
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_USER_DATA
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader, CreateHullS
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateHullShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

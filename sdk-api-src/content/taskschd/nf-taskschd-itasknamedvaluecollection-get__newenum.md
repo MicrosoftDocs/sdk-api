@@ -12,6 +12,8 @@ ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],_NewEnum prope
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskNamedValueCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

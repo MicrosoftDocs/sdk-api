@@ -12,6 +12,8 @@ ms.keywords: 1ef110f5-f95f-ec17-1f56-6f491a0ffac4, CreateGeometryShaderWithStrea
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateGeometryShaderWithStreamOutput"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

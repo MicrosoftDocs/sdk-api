@@ -12,6 +12,8 @@ ms.keywords: HandleEventWithHWND, HandleEventWithHWND method [Windows Shell], Ha
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IHWEventHandler2.HandleEventWithHWND"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_PROVIDER_STATUS_CLEAR_FLAGS, CF_PROVIDER_STATUS_CONNECTIVITY_LOS
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_SYNC_PROVIDER_STATUS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

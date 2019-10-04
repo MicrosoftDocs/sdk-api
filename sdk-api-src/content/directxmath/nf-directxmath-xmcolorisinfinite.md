@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorIsInfinite, XMColorIsInfinite, XMColorIsInfinit
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorIsInfinite"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

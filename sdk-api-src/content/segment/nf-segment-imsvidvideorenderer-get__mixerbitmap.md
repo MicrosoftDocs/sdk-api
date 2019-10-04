@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__Mixe
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer.get__MixerBitmap"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsertEmb
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.QueryInsertEmbedded"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

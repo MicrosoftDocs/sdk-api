@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetName"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

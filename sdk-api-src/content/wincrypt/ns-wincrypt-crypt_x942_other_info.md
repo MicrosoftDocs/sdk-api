@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_I
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_X942_OTHER_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

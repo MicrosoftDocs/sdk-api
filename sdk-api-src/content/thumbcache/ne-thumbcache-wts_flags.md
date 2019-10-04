@@ -12,6 +12,8 @@ ms.keywords: WTS_APPSTYLE, WTS_CROPTOSQUARE, WTS_EXTRACT, WTS_EXTRACTDONOTCACHE,
 ms.topic: enum
 f1_keywords: 
  - "thumbcache/WTS_FLAGS"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

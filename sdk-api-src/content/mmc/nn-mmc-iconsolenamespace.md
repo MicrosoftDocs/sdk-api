@@ -12,6 +12,8 @@ ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameS
 ms.topic: interface
 f1_keywords: 
  - "mmc/IConsoleNameSpace"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

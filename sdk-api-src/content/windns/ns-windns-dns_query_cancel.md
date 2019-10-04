@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [
 ms.topic: struct
 f1_keywords:
 - windns/DNS_QUERY_CANCEL
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

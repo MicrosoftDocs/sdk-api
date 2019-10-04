@@ -12,6 +12,8 @@ ms.keywords: TAPI_TONEMODE, TAPI_TONEMODE enumeration [TAPI 2.2], TTM_BEEP, TTM_
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TAPI_TONEMODE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

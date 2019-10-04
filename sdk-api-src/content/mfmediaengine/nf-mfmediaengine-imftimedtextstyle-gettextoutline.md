@@ -12,6 +12,8 @@ ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOu
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextStyle.GetTextOutline
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

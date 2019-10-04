@@ -12,6 +12,8 @@ ms.keywords: 37b4ce30-bd10-e500-268b-fcbfc22464f2, GetTypeName, GetTypeName meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ClassInstance.GetTypeName"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

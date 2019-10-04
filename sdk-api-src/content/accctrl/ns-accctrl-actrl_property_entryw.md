@@ -12,6 +12,8 @@ ms.keywords: "*PACTRL_PROPERTY_ENTRYW, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_EN
 ms.topic: struct
 f1_keywords: 
  - "accctrl/ACTRL_PROPERTY_ENTRY"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

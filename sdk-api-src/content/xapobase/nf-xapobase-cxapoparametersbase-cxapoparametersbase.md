@@ -12,6 +12,8 @@ ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio M
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOParametersBase.CXAPOParametersBase"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

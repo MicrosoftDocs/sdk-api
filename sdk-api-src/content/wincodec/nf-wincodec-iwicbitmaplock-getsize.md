@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapLock.GetSize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

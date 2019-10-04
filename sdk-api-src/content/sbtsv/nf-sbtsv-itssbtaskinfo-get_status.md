@@ -12,6 +12,8 @@ ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Status property, 
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskInfo.Status"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

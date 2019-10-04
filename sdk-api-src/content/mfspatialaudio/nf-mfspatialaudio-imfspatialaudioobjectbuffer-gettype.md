@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer.GetType"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

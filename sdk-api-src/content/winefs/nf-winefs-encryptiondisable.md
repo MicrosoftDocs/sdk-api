@@ -12,6 +12,8 @@ ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encry
 ms.topic: function
 f1_keywords: 
  - "winefs/EncryptionDisable"
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],Sto
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolShadowCallback.StopShadow"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

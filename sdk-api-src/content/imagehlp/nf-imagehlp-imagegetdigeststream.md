@@ -12,6 +12,8 @@ ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_IN
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageGetDigestStream"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

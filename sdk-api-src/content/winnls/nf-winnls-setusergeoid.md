@@ -12,6 +12,8 @@ ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windo
 ms.topic: function
 f1_keywords: 
  - "winnls/SetUserGeoID"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

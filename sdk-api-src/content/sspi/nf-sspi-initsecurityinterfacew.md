@@ -12,6 +12,8 @@ ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], I
 ms.topic: function
 f1_keywords: 
  - "sspi/InitSecurityInterface"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

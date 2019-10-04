@@ -12,6 +12,8 @@ ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfi
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupConfigureWmiFromInfSection"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

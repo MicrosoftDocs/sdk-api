@@ -12,6 +12,8 @@ ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT structure [Direct3D 11], d3d11/CD3
 ms.topic: struct
 f1_keywords: 
  - "d3d11/CD3D11_VIEWPORT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

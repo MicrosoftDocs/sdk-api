@@ -12,6 +12,8 @@ ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrStubCall2
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

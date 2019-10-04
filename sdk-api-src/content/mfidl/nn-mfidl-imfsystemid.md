@@ -12,6 +12,8 @@ ms.keywords: IMFSystemId, IMFSystemId interface [Media Foundation], IMFSystemId 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSystemId"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

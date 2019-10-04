@@ -12,6 +12,8 @@ ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocument
 ms.topic: method
 f1_keywords: 
  - "docobj/IEnumOleDocumentViews.Next"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

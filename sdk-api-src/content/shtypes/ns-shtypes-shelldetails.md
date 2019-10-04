@@ -12,6 +12,8 @@ ms.keywords: '*LPSHELLDETAILS, LPSHELLDETAILS, LPSHELLDETAILS structure pointer 
 ms.topic: struct
 f1_keywords:
 - shtypes/SHELLDETAILS
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

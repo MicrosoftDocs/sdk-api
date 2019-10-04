@@ -12,6 +12,8 @@ ms.keywords: DAV_AUTHN_SCHEME_BASIC, DAV_AUTHN_SCHEME_CERT, DAV_AUTHN_SCHEME_DIG
 ms.topic: callback
 f1_keywords:
 - davclnt/DavAuthCallback
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

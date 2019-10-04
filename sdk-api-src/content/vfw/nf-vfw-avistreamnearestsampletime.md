@@ -12,6 +12,8 @@ ms.keywords: AVIStreamNearestSampleTime, AVIStreamNearestSampleTime macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamNearestSampleTime"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

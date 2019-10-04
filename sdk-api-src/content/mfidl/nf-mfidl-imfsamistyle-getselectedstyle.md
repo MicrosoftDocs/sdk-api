@@ -12,6 +12,8 @@ ms.keywords: 7501a4d5-eb5f-4f62-ae55-96ee999e561c, GetSelectedStyle, GetSelected
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSAMIStyle.GetSelectedStyle"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

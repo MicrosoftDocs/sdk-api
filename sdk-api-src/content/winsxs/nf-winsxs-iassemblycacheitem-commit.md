@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Side-by-side Assemblies], Commit method [Sid
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyCacheItem.Commit"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

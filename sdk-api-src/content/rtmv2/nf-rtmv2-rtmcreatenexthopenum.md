@@ -12,6 +12,8 @@ ms.keywords: RTM_ENUM_NEXT, RTM_ENUM_RANGE, RTM_ENUM_START, RtmCreateNextHopEnum
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmCreateNextHopEnum
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

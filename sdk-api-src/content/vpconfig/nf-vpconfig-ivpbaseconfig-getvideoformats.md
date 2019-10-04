@@ -12,6 +12,8 @@ ms.keywords: GetVideoFormats, GetVideoFormats method [DirectShow], GetVideoForma
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPBaseConfig.GetVideoFormats"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

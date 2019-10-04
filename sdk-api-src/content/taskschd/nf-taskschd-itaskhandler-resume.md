@@ -12,6 +12,8 @@ ms.keywords: ITaskHandler interface [Task Scheduler],Resume method, ITaskHandler
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskHandler.Resume"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetResourceFilter.OnRedirect"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

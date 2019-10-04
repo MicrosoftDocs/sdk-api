@@ -12,6 +12,8 @@ ms.keywords: "*PCONVINFO, CONVINFO, CONVINFO structure [Data Exchange], PCONVINF
 ms.topic: struct
 f1_keywords: 
  - "ddeml/CONVINFO"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

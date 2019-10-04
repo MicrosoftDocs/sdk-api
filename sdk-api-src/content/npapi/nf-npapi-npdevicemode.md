@@ -12,6 +12,8 @@ ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, 
 ms.topic: function
 f1_keywords: 
  - "npapi/NPDeviceMode"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

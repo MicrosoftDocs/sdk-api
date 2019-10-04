@@ -12,6 +12,8 @@ ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTS
 ms.topic: function
 f1_keywords: 
  - "wtshintapi/WTSSetRenderHint"
+dev_langs:
+ - c++
 req.header: wtshintapi.h
 req.include-header: 
 req.target-type: Windows

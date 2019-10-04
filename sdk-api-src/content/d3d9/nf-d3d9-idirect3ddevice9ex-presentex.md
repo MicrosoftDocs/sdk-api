@@ -12,6 +12,8 @@ ms.keywords: 8af2bbce-d370-576f-a879-e996430d3295, IDirect3DDevice9Ex interface 
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9Ex.PresentEx
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

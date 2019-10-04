@@ -12,6 +12,8 @@ ms.keywords: 61b0771c-e26b-3275-edc2-79e49d2f26f0, ID3D11InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.SetBreakOnID"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

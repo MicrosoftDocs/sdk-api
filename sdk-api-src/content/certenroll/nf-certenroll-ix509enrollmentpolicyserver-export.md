@@ -12,6 +12,8 @@ ms.keywords: Export, Export method [Security], Export method [Security],IX509Enr
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.Export"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

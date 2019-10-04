@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceIscsi interface [VDS],SetIpsecGroupPresharedKey method, 
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceIscsi.SetIpsecGroupPresharedKey"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

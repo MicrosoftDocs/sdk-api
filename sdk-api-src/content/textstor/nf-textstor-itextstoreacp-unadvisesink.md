@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACP interface [Text Services Framework],UnadviseSink meth
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP.UnadviseSink"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

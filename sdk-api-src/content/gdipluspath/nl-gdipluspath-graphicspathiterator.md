@@ -12,6 +12,8 @@ ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPa
 ms.topic: class
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows

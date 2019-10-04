@@ -12,6 +12,8 @@ ms.keywords: IPBDA_Services interface [Microsoft TV Technologies],Initialize met
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDA_Services.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

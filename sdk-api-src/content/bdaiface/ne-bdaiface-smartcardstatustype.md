@@ -12,6 +12,8 @@ ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, Card
 ms.topic: enum
 f1_keywords: 
  - "bdaiface/SmartCardStatusType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

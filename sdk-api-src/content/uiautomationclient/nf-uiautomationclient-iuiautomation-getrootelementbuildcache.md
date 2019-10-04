@@ -12,6 +12,8 @@ ms.keywords: GetRootElementBuildCache, GetRootElementBuildCache method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.GetRootElementBuildCache"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

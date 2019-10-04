@@ -12,6 +12,8 @@ ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY_EX, PWLX_CHANGE_PASSWORD_NOTIFY_EX call
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxChangePasswordNotifyEx
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

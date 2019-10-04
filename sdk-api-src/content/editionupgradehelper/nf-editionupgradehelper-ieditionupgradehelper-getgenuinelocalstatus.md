@@ -12,6 +12,8 @@ ms.keywords: GetGenuineLocalStatus, GetGenuineLocalStatus method [Windows API], 
 ms.topic: method
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper.GetGenuineLocalStatus"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method,
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComThreadEvents.OnThreadUnassignApartment"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

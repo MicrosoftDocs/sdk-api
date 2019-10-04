@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest3 interface [XMLHttpRequest2],SetClientCertificate m
 ms.topic: method
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest3.SetClientCertificate"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

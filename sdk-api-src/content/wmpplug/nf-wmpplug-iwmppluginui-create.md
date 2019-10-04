@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Windows Media Player], Create method [Window
 ms.topic: method
 f1_keywords: 
  - "wmpplug/IWMPPluginUI.Create"
+dev_langs:
+ - c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

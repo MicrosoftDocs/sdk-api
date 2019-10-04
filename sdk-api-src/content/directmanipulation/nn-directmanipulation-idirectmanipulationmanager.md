@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [D
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

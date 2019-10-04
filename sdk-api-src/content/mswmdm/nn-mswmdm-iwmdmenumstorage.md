@@ -12,6 +12,8 @@ ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device 
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMEnumStorage"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

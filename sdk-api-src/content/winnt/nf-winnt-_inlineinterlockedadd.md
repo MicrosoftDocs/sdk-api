@@ -12,6 +12,8 @@ ms.keywords: InterlockedAddAcquire, InterlockedAddAcquire function, _InlineInter
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedAddAcquire"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

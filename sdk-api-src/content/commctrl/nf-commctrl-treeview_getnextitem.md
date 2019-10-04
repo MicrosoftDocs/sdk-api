@@ -12,6 +12,8 @@ ms.keywords: TVGN_CARET, TVGN_CHILD, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TVGN_NE
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetNextItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

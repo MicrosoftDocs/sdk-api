@@ -12,6 +12,8 @@ ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [T
 ms.topic: enum
 f1_keywords: 
  - "inked/MouseButton"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

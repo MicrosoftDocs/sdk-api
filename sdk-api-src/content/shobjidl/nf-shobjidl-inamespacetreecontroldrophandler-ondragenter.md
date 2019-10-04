@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragEn
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlDropHandler.OnDragEnter"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

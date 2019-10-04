@@ -12,6 +12,8 @@ ms.keywords: '*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INT
 ms.topic: struct
 f1_keywords:
 - ifdef/NDIS_INTERFACE_INFORMATION
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Ndis.h
 req.target-type: Windows

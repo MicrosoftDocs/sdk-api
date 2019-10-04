@@ -12,6 +12,8 @@ ms.keywords: AM_DVD_STREAM_AUDIO, AM_DVD_STREAM_FLAGS, AM_DVD_STREAM_FLAGS , AM_
 ms.topic: enum
 f1_keywords: 
  - "strmif/AM_DVD_STREAM_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

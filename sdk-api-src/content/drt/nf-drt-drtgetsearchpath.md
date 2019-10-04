@@ -12,6 +12,8 @@ ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/
 ms.topic: function
 f1_keywords:
 - drt/DrtGetSearchPath
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

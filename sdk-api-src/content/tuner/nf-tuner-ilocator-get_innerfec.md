@@ -12,6 +12,8 @@ ms.keywords: IDigitalLocatorget_InnerFEC, ILocator interface [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.get_InnerFEC"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

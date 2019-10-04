@@ -12,6 +12,8 @@ ms.keywords: DVD_SPType_Language, DVD_SPType_NotSpecified, DVD_SPType_Other, DVD
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_SUBPICTURE_TYPE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

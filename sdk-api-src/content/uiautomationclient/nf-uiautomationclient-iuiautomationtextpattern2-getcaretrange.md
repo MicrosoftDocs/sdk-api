@@ -12,6 +12,8 @@ ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCar
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextPattern2.GetCaretRange"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNotificatio
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.SetNotificationCallback"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

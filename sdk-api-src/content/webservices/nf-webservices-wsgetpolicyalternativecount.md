@@ -12,6 +12,8 @@ ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetPolicyAlternativeCount"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

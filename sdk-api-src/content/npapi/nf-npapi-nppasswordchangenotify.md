@@ -12,6 +12,8 @@ ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security],
 ms.topic: function
 f1_keywords:
 - npapi/NPPasswordChangeNotify
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

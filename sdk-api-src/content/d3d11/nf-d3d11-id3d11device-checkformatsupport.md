@@ -12,6 +12,8 @@ ms.keywords: 2d26cce0-cf41-b6fc-ed00-e69b3d5ba58f, CheckFormatSupport, CheckForm
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CheckFormatSupport"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

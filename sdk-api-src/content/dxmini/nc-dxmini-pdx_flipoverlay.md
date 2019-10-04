@@ -12,6 +12,8 @@ ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], P
 ms.topic: callback
 f1_keywords:
 - dxmini/DxFlipOverlay
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

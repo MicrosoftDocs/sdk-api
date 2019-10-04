@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],GetLineSpacing method, FontFamily.GetLineSp
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.GetLineSpacing"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

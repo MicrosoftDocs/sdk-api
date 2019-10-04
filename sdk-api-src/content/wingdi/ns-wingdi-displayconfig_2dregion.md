@@ -12,6 +12,8 @@ ms.keywords: CCD_Structures_3e3c709d-4dda-4a28-9aaa-2e0c54247601.xml, DISPLAYCON
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_2DREGION"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

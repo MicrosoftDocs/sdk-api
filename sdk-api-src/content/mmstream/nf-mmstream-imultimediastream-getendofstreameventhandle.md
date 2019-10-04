@@ -12,6 +12,8 @@ ms.keywords: GetEndOfStreamEventHandle, GetEndOfStreamEventHandle method [Direct
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.GetEndOfStreamEventHandle"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

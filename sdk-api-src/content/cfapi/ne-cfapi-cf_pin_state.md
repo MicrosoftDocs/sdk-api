@@ -12,6 +12,8 @@ ms.keywords: CF_PIN_STATE, CF_PIN_STATE enumeration, CF_PIN_STATE_EXCLUDED, CF_P
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_PIN_STATE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

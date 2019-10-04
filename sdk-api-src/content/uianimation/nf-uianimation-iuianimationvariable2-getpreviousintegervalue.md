@@ -12,6 +12,8 @@ ms.keywords: GetPreviousIntegerValue, GetPreviousIntegerValue method [Windows An
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetPreviousIntegerValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

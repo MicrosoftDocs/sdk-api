@@ -12,6 +12,8 @@ ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization f
 ms.topic: function
 f1_keywords: 
  - "winnls/LocaleNameToLCID"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

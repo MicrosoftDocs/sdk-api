@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Stop method, IUPnPDeviceP
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPDeviceProvider.Stop"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CONDITION_CREATION_DEFAULT, CONDITION_CREATION_NONE, CONDITION_CREA
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/CONDITION_CREATION_OPTIONS"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HTTP_LESS_VERSION, HTTP_LESS_VERSION macro [HTTP], _http_http_less_
 ms.topic: macro
 f1_keywords:
 - http/HTTP_LESS_VERSION
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

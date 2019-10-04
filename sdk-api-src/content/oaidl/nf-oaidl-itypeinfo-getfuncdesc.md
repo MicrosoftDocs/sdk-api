@@ -12,6 +12,8 @@ ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetFuncDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisplayName property [PLA], DisplayName property [PLA],ITraceDataPr
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.DisplayName"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

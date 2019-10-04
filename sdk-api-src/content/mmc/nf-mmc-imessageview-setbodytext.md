@@ -12,6 +12,8 @@ ms.keywords: IMessageView interface [MMC],SetBodyText method, IMessageView.SetBo
 ms.topic: method
 f1_keywords: 
  - "mmc/IMessageView.SetBodyText"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ComboBox_LimitText, ComboBox_LimitText macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_LimitText"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

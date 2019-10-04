@@ -12,6 +12,8 @@ ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], Pdh
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhBindInputDataSource"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

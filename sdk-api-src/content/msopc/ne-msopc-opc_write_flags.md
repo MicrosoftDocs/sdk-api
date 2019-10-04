@@ -12,6 +12,8 @@ ms.keywords: OPC_WRITE_DEFAULT, OPC_WRITE_FLAGS, OPC_WRITE_FLAGS enumeration [Op
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_WRITE_FLAGS"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

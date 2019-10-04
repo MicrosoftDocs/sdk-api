@@ -12,6 +12,8 @@ ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsLi
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioSystemEffects2.GetEffectsList"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Desktop

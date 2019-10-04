@@ -12,6 +12,8 @@ ms.keywords: AppPolicyShowDeveloperDiagnostic, AppPolicyShowDeveloperDiagnostic 
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyShowDeveloperDiagnostic"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

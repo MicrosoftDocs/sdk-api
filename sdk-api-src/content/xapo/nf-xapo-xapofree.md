@@ -12,6 +12,8 @@ ms.keywords: XAPOFree, XAPOFree macro [XAudio2 Audio Mixing APIs], xapo/XAPOFree
 ms.topic: macro
 f1_keywords: 
  - "xapo/XAPOFree"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, Ht
 ms.topic: function
 f1_keywords:
 - http/HttpSetServerSessionProperty
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

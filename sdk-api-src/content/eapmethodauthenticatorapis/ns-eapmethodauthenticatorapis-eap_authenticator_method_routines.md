@@ -12,6 +12,8 @@ ms.keywords: '*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUT
 ms.topic: struct
 f1_keywords:
 - eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES
+dev_langs:
+ - c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

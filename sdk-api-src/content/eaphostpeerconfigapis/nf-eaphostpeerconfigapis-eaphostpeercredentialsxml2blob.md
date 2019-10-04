@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob func
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
+dev_langs:
+ - c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

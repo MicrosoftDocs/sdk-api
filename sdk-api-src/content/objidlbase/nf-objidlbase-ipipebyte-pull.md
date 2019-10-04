@@ -12,6 +12,8 @@ ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::P
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IPipeByte.Pull"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

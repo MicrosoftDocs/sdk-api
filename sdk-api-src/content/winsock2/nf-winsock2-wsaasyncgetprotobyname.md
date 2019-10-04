@@ -12,6 +12,8 @@ ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], 
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAAsyncGetProtoByName"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

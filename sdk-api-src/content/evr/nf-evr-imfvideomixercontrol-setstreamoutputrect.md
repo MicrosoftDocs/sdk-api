@@ -12,6 +12,8 @@ ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interfac
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoMixerControl.SetStreamOutputRect"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

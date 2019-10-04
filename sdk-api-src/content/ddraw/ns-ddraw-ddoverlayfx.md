@@ -12,6 +12,8 @@ ms.keywords: "*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, 
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDOVERLAYFX"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

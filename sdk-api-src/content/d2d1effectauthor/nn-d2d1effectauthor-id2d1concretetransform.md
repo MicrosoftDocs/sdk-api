@@ -12,6 +12,8 @@ ms.keywords: ID2D1ConcreteTransform, ID2D1ConcreteTransform interface [Direct2D]
 ms.topic: interface
 f1_keywords: 
  - "d2d1effectauthor/ID2D1ConcreteTransform"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

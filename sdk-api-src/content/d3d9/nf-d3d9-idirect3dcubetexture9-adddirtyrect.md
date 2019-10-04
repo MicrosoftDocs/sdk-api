@@ -12,6 +12,8 @@ ms.keywords: AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DCubeTexture9.AddDirtyRect"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

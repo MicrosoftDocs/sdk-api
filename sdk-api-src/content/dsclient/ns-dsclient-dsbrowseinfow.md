@@ -12,6 +12,8 @@ ms.keywords: "*PDSBROWSEINFOW, DSBI_CHECKBOXES, DSBI_DONTSIGNSEAL, DSBI_ENTIREDI
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSBROWSEINFOW"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

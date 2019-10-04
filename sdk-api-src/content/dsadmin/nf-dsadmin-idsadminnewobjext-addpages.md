@@ -12,6 +12,8 @@ ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Acti
 ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminNewObjExt.AddPages
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

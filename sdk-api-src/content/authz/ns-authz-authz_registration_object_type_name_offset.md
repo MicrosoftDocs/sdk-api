@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_O
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_
 ms.topic: function
 f1_keywords:
 - npapi/NPGetResourceParent
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

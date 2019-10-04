@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Windows Media Player], GetType method [Win
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainer.GetType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

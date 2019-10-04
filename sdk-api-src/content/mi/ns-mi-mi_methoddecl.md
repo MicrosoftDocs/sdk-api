@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl struct
 ms.topic: struct
 f1_keywords:
 - mi/MI_MethodDecl
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

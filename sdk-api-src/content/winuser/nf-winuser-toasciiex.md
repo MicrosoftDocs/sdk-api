@@ -12,6 +12,8 @@ ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_To
 ms.topic: function
 f1_keywords: 
  - "winuser/ToAsciiEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

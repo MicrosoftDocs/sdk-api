@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectS
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMExtTransport.GetStatus"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

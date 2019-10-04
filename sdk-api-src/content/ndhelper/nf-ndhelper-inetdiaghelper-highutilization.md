@@ -12,6 +12,8 @@ ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization meth
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.HighUtilization"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

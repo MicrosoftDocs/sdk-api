@@ -12,6 +12,8 @@ ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged meth
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollectionChangedEvent.OnChanged"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoalesceEventsOptions, CoalesceEventsOptions enumeration [Windows A
 ms.topic: enum
 f1_keywords: 
  - "uiautomationclient/CoalesceEventsOptions"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

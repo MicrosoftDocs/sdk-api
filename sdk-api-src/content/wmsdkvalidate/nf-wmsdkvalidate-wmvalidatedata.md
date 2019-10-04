@@ -12,6 +12,8 @@ ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmf
 ms.topic: function
 f1_keywords: 
  - "wmsdkvalidate/WMValidateData"
+dev_langs:
+ - c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

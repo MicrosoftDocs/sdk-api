@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structu
 ms.topic: struct
 f1_keywords:
 - http/HTTP_CONNECTION_LIMIT_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

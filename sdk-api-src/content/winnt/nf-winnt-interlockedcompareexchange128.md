@@ -12,6 +12,8 @@ ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 functi
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedCompareExchange128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

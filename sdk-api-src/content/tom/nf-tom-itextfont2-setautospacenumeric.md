@@ -12,6 +12,8 @@ ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceNumeric method,
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.SetAutospaceNumeric"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

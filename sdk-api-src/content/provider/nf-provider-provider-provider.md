@@ -12,6 +12,8 @@ ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Prov
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.Provider"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

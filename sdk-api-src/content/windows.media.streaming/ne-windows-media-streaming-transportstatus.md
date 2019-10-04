@@ -12,6 +12,8 @@ ms.keywords: ErrorOccurred, Last, Ok, TransportStatus, TransportStatus enumerati
 ms.topic: enum
 f1_keywords: 
  - "windows.media.streaming/TransportStatus"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

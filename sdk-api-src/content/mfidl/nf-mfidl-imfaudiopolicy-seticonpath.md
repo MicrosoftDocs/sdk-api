@@ -12,6 +12,8 @@ ms.keywords: 098ad6ae-b1fe-4e74-b494-572770906b14, IMFAudioPolicy interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.SetIconPath"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

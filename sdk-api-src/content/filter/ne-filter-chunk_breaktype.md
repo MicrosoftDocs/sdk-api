@@ -12,6 +12,8 @@ ms.keywords: CHUNK_BREAKTYPE, CHUNK_BREAKTYPE enumeration [Indexing Service], CH
 ms.topic: enum
 f1_keywords: 
  - "filter/CHUNK_BREAKTYPE"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

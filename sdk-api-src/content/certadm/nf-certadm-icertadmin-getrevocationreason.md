@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin object [Security],GetRevocationReason method, GetRevocat
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetRevocationReason"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

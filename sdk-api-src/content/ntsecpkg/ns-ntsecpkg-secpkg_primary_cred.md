@@ -12,6 +12,8 @@ ms.keywords: '*PSECPKG_PRIMARY_CRED, PRIMARY_CRED_CACHED_LOGON, PRIMARY_CRED_CLE
 ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_PRIMARY_CRED
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

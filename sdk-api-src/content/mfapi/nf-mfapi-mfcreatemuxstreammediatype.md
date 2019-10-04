@@ -12,6 +12,8 @@ ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Me
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMuxStreamMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

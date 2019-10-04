@@ -12,6 +12,8 @@ ms.keywords: FindAssemblyModule, FindAssemblyModule method [Windows Runtime], Fi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx.FindAssemblyModule"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

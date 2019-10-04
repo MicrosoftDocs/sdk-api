@@ -12,6 +12,8 @@ ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IA
 ms.topic: interface
 f1_keywords: 
  - "amsi/IAmsiStream"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

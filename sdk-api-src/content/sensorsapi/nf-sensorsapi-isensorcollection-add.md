@@ -12,6 +12,8 @@ ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCol
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorCollection.Add"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

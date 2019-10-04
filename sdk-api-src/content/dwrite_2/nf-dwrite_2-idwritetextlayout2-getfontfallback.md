@@ -12,6 +12,8 @@ ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFall
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteTextLayout2.GetFontFallback"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

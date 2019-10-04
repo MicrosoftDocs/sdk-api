@@ -12,6 +12,8 @@ ms.keywords: Description property [Windows Accessibility], Description property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.Description"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

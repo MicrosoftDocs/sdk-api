@@ -12,6 +12,8 @@ ms.keywords: CreateLinearTransferEffect, CreateLinearTransferEffect method [Dire
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateLinearTransferEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

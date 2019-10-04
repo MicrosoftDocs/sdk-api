@@ -12,6 +12,8 @@ ms.keywords: '*PNETLOGON_LOGON_IDENTITY_INFO, CLEARTEXT_PASSWORD_ALLOWED, NETLOG
 ms.topic: struct
 f1_keywords:
 - subauth/NETLOGON_LOGON_IDENTITY_INFO
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

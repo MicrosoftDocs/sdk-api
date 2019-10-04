@@ -12,6 +12,8 @@ ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media 
 ms.topic: function
 f1_keywords: 
  - "wmsdkidl/WMIsContentProtected"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

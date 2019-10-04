@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE enum
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_FAILOVER_MODE
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

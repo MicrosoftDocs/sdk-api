@@ -12,6 +12,8 @@ ms.keywords: ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IK
 ms.topic: function
 f1_keywords:
 - iscsidsc/LoginIscsiTarget
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

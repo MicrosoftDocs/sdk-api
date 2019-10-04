@@ -12,6 +12,8 @@ ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4EnumSubnetReservations
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

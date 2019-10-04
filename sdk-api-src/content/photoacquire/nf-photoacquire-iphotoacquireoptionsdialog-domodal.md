@@ -12,6 +12,8 @@ ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Pict
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireOptionsDialog.DoModal"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

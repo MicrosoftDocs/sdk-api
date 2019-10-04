@@ -12,6 +12,8 @@ ms.keywords: VDS_HBAPORT_STATUS, VDS_HBAPORT_STATUS enumeration [VDS], VDS_HPS_B
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_HBAPORT_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty me
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPPropertyCollection.CreateProperty"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

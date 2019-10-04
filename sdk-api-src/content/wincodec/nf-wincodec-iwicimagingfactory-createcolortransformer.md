@@ -12,6 +12,8 @@ ms.keywords: CreateColorTransformer, CreateColorTransformer method [Windows Imag
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateColorTransformer"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

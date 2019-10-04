@@ -12,6 +12,8 @@ ms.keywords: 706d28c3-fc5d-496a-a957-daf5ba8d47ca, Guide property [Tablet PC], G
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.Guide"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

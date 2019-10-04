@@ -12,6 +12,8 @@ ms.keywords: Levels, Levels class [GDI+], Levels class [GDI+],described, _gdiplu
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/Levels"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

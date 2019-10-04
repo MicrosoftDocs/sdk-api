@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMStoreUInt3, XMStoreUInt3, XMStoreUInt3 method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMStoreUInt3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

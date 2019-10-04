@@ -12,6 +12,8 @@ ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliFreeStringArray"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

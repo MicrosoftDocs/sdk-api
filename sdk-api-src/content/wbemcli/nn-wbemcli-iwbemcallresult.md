@@ -12,6 +12,8 @@ ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Inst
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemCallResult"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

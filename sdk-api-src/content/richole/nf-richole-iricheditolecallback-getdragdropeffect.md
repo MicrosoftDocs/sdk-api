@@ -12,6 +12,8 @@ ms.keywords: GetDragDropEffect, GetDragDropEffect method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.GetDragDropEffect"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

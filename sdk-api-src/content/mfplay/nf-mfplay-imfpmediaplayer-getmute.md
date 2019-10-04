@@ -12,6 +12,8 @@ ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetMute"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

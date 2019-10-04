@@ -12,6 +12,8 @@ ms.keywords: FAX_JOB_EXTENDED_STATUS_ENUM, FAX_JOB_EXTENDED_STATUS_ENUM enumerat
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_JOB_EXTENDED_STATUS_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

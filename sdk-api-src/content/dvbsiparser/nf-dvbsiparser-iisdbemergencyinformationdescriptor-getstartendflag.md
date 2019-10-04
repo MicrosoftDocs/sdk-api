@@ -12,6 +12,8 @@ ms.keywords: GetStartEndFlag, GetStartEndFlag method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetStartEndFlag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

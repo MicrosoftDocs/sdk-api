@@ -12,6 +12,8 @@ ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Wind
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaRaiseNotificationEvent"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

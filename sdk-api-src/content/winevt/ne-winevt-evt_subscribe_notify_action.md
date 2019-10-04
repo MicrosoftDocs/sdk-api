@@ -12,6 +12,8 @@ ms.keywords: EVT_SUBSCRIBE_NOTIFY_ACTION, EVT_SUBSCRIBE_NOTIFY_ACTION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_SUBSCRIBE_NOTIFY_ACTION"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

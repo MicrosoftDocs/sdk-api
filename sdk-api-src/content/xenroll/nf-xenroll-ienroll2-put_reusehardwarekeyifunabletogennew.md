@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],ReuseHardwareKeyIfUnableToGenNew prop
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.ReuseHardwareKeyIfUnableToGenNew"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

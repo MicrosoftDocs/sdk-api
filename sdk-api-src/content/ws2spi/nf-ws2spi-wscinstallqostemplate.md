@@ -12,6 +12,8 @@ ms.keywords: WSCInstallQOSTemplate, WSCInstallQOSTemplate function [Winsock], wi
 ms.topic: function
 f1_keywords: 
  - "ws2spi/WSCInstallQOSTemplate"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

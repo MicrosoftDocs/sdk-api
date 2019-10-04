@@ -12,6 +12,8 @@ ms.keywords: IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 inte
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage2"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _win32_ENPRO
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENPROTECTED"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

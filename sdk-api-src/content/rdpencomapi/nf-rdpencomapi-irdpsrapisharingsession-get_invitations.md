@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPISharingSession interface [RDP],Invitations property, IRDPS
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.Invitations"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSegments, GetSegments method [Direct2D], GetSegments method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1Ink.GetSegments"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

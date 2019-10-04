@@ -12,6 +12,8 @@ ms.keywords: ICredentialProviderSetUserArray interface [Windows Shell],SetUserAr
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderSetUserArray.SetUserArray"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

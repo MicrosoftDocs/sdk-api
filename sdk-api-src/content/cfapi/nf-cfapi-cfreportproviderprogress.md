@@ -12,6 +12,8 @@ ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfReportProviderProgress"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

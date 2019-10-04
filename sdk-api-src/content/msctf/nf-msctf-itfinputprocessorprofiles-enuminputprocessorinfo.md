@@ -12,6 +12,8 @@ ms.keywords: EnumInputProcessorInfo, EnumInputProcessorInfo method [Text Service
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.EnumInputProcessorInfo"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

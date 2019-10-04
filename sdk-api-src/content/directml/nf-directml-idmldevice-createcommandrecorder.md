@@ -12,6 +12,8 @@ ms.keywords: CreateCommandRecorder, CreateCommandRecorder method, CreateCommandR
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.CreateCommandRecorder"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

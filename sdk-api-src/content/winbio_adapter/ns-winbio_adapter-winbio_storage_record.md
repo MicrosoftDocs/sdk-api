@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_R
 ms.topic: struct
 f1_keywords: 
  - "winbio_adapter/WINBIO_STORAGE_RECORD"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

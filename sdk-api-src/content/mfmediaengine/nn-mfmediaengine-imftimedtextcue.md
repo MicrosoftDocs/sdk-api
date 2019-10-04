@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFT
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

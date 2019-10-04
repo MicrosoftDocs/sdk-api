@@ -12,6 +12,8 @@ ms.keywords: GetThemeEnumValue, GetThemeEnumValue function [Windows Controls], c
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeEnumValue"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

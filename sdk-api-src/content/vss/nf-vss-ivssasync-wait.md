@@ -12,6 +12,8 @@ ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::W
 ms.topic: method
 f1_keywords: 
  - "vss/IVssAsync.Wait"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

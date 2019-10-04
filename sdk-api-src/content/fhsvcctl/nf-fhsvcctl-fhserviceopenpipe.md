@@ -12,6 +12,8 @@ ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcc
 ms.topic: function
 f1_keywords: 
  - "fhsvcctl/FhServiceOpenPipe"
+dev_langs:
+ - c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

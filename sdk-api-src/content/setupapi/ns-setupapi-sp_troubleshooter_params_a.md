@@ -12,6 +12,8 @@ ms.keywords: '*PSP_TROUBLESHOOTER_PARAMS_A, PSP_TROUBLESHOOTER_PARAMS, PSP_TROUB
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_TROUBLESHOOTER_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

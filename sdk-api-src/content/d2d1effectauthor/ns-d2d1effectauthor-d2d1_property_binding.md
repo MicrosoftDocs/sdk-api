@@ -12,6 +12,8 @@ ms.keywords: D2D1_PROPERTY_BINDING, D2D1_PROPERTY_BINDING structure [Direct2D], 
 ms.topic: struct
 f1_keywords: 
  - "d2d1effectauthor/D2D1_PROPERTY_BINDING"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

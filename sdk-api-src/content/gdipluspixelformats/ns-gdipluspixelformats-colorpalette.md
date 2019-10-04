@@ -12,6 +12,8 @@ ms.keywords: ColorPalette, ColorPalette structure [GDI+], _gdiplus_STRUC_ColorPa
 ms.topic: struct
 f1_keywords: 
  - "gdipluspixelformats/ColorPalette"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

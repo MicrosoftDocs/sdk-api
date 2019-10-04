@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS struc
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVUI_FUNCS
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

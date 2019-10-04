@@ -8,6 +8,10 @@ ms.assetid: 7f25af81-344c-4a70-9d58-9eed1604c11a
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS, D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS, 
 req.header: d3d12video.h
 req.include-header:

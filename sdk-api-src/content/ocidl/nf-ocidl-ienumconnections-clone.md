@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnections inte
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumConnections.Clone"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

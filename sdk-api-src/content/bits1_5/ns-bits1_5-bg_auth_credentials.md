@@ -12,6 +12,8 @@ ms.keywords: "*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS st
 ms.topic: struct
 f1_keywords: 
  - "bits1_5/BG_AUTH_CREDENTIALS"
+dev_langs:
+ - c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProvider interface [VDS],Refresh method, IVdsHwProvider.Refre
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsHwProvider.Refresh"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

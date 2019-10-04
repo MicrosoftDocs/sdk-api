@@ -12,6 +12,8 @@ ms.keywords: "*LPLINECALLSTATUS, LINECALLSTATE_BUSY, LINECALLSTATE_CONNECTED, LI
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINECALLSTATUS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

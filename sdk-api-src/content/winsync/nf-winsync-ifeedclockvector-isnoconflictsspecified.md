@@ -12,6 +12,8 @@ ms.keywords: IFeedClockVector interface [Windows Sync],IsNoConflictsSpecified me
 ms.topic: method
 f1_keywords: 
  - "winsync/IFeedClockVector.IsNoConflictsSpecified"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

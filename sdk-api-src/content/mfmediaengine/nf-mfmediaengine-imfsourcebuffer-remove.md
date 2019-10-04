@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBuffer interface [Media Foundation],Remove method, IMFSour
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.Remove"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

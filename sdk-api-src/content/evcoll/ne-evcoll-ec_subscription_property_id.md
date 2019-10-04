@@ -12,6 +12,8 @@ ms.keywords: EC_SUBSCRIPTION_PROPERTY_ID, EC_SUBSCRIPTION_PROPERTY_ID enumeratio
 ms.topic: enum
 f1_keywords:
 - evcoll/EC_SUBSCRIPTION_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

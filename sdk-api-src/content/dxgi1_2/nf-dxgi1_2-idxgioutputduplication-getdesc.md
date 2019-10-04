@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutputDu
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIOutputDuplication.GetDesc"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCLUSPROP_SYNTAX, CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, 
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUSPROP_SYNTAX
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

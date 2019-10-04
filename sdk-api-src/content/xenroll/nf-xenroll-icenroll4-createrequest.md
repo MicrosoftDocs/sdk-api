@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],createRequest method, ICEnroll4 interface
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.createRequest"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPEXTLOGFONTW, *NPEXTLOGFONTW, *PEXTLOGFONTW, EXTLOGFONT, EXTLOGF
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EXTLOGFONT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

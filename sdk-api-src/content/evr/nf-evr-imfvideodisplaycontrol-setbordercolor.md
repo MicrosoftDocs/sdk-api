@@ -12,6 +12,8 @@ ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interf
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.SetBorderColor"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

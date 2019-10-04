@@ -12,6 +12,8 @@ ms.keywords: ISensorDataReport, ISensorDataReport interface [WinSensors], ISenso
 ms.topic: interface
 f1_keywords: 
  - "sensorsapi/ISensorDataReport"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

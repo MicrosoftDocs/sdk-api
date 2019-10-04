@@ -12,6 +12,8 @@ ms.keywords: CreateTuneRequestEx, CreateTuneRequestEx method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "tuner/IBDACreateTuneRequestEx.CreateTuneRequestEx"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

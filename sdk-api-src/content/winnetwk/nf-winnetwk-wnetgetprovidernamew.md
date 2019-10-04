@@ -12,6 +12,8 @@ ms.keywords: WNetGetProviderName, WNetGetProviderName function [Windows Networki
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetGetProviderName"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

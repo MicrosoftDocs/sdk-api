@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],SenderHomePhone property, IFaxDoc.S
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.SenderHomePhone"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.
 ms.topic: struct
 f1_keywords: 
  - "ocidl/DVASPECTINFO"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

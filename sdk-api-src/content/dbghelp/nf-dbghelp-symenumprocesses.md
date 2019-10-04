@@ -12,6 +12,8 @@ ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses,
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymEnumProcesses"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

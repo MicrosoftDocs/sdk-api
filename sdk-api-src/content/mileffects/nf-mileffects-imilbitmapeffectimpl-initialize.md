@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],Initialize meth
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectImpl.Initialize"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

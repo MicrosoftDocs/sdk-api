@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE, ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABL
 ms.topic: struct
 f1_keywords: 
  - "ntenclv/ENCLAVE_IDENTITY"
+dev_langs:
+ - c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

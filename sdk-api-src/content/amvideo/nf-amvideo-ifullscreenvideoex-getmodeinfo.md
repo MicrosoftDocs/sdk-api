@@ -12,6 +12,8 @@ ms.keywords: GetModeInfo, GetModeInfo method [DirectShow], GetModeInfo method [D
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.GetModeInfo"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

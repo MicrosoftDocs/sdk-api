@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICMetadataQueryWriter"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

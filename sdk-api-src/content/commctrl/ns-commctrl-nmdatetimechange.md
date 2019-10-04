@@ -12,6 +12,8 @@ ms.keywords: '*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNM
 ms.topic: struct
 f1_keywords:
 - commctrl/NMDATETIMECHANGE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

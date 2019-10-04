@@ -12,6 +12,8 @@ ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsGetDcSiteCoverage"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

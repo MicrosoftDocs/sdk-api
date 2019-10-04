@@ -12,6 +12,8 @@ ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtform
 ms.topic: function
 f1_keywords:
 - winevt/EvtFormatMessage
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

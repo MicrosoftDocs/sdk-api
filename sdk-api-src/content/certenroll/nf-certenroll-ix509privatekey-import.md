@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, IX509PrivateKey interface [Security],Impor
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Import"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

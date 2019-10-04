@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_value_free_len"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

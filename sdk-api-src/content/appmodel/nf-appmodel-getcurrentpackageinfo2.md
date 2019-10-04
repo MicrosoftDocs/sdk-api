@@ -8,6 +8,8 @@ ms.keywords: GetCurrentPackageInfo2
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetCurrentPackageInfo2"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

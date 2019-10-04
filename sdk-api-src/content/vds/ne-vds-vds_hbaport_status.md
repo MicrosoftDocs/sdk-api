@@ -12,6 +12,8 @@ ms.keywords: VDS_HBAPORT_STATUS, VDS_HBAPORT_STATUS enumeration [VDS], VDS_HPS_B
 ms.topic: enum
 f1_keywords:
 - vds/VDS_HBAPORT_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

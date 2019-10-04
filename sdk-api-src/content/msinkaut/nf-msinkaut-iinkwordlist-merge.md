@@ -12,6 +12,8 @@ ms.keywords: 81c013c3-c033-4dc8-a828-95fcc810e608, IInkWordList, IInkWordList in
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkWordList.Merge"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorReciprocalEst, XMVectorReciprocalEst, XMVector
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorReciprocalEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

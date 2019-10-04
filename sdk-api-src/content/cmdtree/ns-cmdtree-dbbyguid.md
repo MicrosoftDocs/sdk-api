@@ -12,6 +12,8 @@ ms.keywords: DBBYGUID, DBBYGUID structure [Indexing Service], _idxs_DBBYGUID, cm
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBBYGUID"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

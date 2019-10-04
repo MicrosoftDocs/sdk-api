@@ -12,6 +12,8 @@ ms.keywords: '*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Netw
 ms.topic: struct
 f1_keywords:
 - pnrpdef/PNRP_CLOUD_ID
+dev_langs:
+ - c++
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows

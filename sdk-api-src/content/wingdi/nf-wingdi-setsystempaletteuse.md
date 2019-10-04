@@ -12,6 +12,8 @@ ms.keywords: SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, SYSPAL_STATIC, SetSystemPalett
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetSystemPaletteUse"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

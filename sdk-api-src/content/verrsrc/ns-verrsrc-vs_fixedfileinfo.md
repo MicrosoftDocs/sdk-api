@@ -12,6 +12,8 @@ ms.keywords: VFT2_DRV_COMM, VFT2_DRV_DISPLAY, VFT2_DRV_INSTALLABLE, VFT2_DRV_KEY
 ms.topic: struct
 f1_keywords: 
  - "verrsrc/VS_FIXEDFILEINFO"
+dev_langs:
+ - c++
 req.header: verrsrc.h
 req.include-header: Windows.h
 req.target-type: Windows

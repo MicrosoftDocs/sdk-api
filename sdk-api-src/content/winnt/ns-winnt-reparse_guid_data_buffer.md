@@ -12,6 +12,8 @@ ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GU
 ms.topic: struct
 f1_keywords: 
  - "winnt/REPARSE_GUID_DATA_BUFFER"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

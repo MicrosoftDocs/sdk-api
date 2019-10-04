@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallF
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.Invoke"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

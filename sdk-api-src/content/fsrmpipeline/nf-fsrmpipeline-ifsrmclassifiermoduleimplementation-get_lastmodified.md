@@ -12,6 +12,8 @@ ms.keywords: FsrmAlwaysModified, FsrmNeverModified, IFsrmClassifierModuleImpleme
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassifierModuleImplementation.LastModified"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

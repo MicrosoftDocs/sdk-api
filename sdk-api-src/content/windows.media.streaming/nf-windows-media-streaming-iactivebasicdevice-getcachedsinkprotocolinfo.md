@@ -12,6 +12,8 @@ ms.keywords: GetCachedSinkProtocolInfo, GetCachedSinkProtocolInfo method [Media 
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDevice.GetCachedSinkProtocolInfo"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

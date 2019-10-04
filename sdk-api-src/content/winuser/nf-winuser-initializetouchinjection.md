@@ -12,6 +12,8 @@ ms.keywords: InitializeTouchInjection, InitializeTouchInjection function [Window
 ms.topic: function
 f1_keywords: 
  - "winuser/InitializeTouchInjection"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES function [Failov
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilEnumProperties"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

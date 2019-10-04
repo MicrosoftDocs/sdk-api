@@ -12,6 +12,8 @@ ms.keywords: 0, GetEvent, GetEvent method [Media Foundation], GetEvent method [M
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventGenerator.GetEvent"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

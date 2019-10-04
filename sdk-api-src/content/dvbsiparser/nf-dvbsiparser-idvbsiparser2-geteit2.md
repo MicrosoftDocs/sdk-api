@@ -12,6 +12,8 @@ ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Mic
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser2.GetEIT2"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

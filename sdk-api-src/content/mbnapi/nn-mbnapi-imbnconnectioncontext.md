@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft B
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnConnectionContext"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

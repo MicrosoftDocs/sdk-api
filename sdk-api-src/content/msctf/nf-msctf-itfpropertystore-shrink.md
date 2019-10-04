@@ -12,6 +12,8 @@ ms.keywords: ITfPropertyStore interface [Text Services Framework],Shrink method,
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPropertyStore.Shrink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

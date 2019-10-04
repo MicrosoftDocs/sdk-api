@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutDestroyEnumHandle0, FwpmCalloutDestroyEnumHandle0 functi
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmCalloutDestroyEnumHandle0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

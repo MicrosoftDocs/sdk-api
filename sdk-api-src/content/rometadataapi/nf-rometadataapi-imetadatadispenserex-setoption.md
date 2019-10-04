@@ -12,6 +12,8 @@ ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, 
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx.SetOption"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

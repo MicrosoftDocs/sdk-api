@@ -12,6 +12,8 @@ ms.keywords: DrawEscape, DrawEscape function [Windows GDI], _win32_DrawEscape, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/DrawEscape"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

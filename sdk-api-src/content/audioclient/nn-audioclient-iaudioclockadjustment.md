@@ -12,6 +12,8 @@ ms.keywords: IAudioClockAdjustment, IAudioClockAdjustment interface [Core Audio]
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IAudioClockAdjustment"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

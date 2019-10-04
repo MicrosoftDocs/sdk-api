@@ -12,6 +12,8 @@ ms.keywords: ID3D11Device3 interface [Direct3D 11],ReadFromSubresource method, I
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11Device3.ReadFromSubresource"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

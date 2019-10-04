@@ -12,6 +12,8 @@ ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], we
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_UNIQUE_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

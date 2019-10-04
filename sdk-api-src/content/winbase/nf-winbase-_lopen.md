@@ -12,6 +12,8 @@ ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lo
 ms.topic: function
 f1_keywords: 
  - "winbase/_lopen"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

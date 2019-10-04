@@ -12,6 +12,8 @@ ms.keywords: NetAddAlternateComputerName, NetAddAlternateComputerName function [
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetAddAlternateComputerName"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

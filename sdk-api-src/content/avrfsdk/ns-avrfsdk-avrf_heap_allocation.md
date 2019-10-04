@@ -12,6 +12,8 @@ ms.keywords: '*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION
 ms.topic: struct
 f1_keywords:
 - avrfsdk/AVRF_HEAP_ALLOCATION
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

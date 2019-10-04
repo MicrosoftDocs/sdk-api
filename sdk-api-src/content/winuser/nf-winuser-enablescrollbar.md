@@ -12,6 +12,8 @@ ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_L
 ms.topic: function
 f1_keywords: 
  - "winuser/EnableScrollBar"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

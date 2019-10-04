@@ -12,6 +12,8 @@ ms.keywords: CreateComparator, CreateComparator method [Remote Differential Comp
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcLibrary.CreateComparator"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW met
 ms.topic: method
 f1_keywords:
 - exdisp/IShellWindows.FindWindowSW
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

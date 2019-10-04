@@ -12,6 +12,8 @@ ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], G
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectInteriorInputConnector.GetInputConnector"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

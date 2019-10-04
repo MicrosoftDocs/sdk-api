@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure 
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_MULTI_HASH_OPERATION"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

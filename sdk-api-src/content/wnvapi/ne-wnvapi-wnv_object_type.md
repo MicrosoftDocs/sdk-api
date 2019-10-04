@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE enumeration 
 ms.topic: enum
 f1_keywords:
 - wnvapi/WNV_OBJECT_TYPE
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

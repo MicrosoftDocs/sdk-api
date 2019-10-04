@@ -12,6 +12,8 @@ ms.keywords: "*PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4, PWLX_DISPAT
 ms.topic: struct
 f1_keywords: 
  - "winwlx/WLX_DISPATCH_VERSION_1_4"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

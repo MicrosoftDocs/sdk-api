@@ -12,6 +12,8 @@ ms.keywords: EnumFilters, EnumFilters method [DirectShow], EnumFilters method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterGraph.EnumFilters"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

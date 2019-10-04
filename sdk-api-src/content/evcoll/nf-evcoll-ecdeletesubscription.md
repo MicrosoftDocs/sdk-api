@@ -12,6 +12,8 @@ ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDelet
 ms.topic: function
 f1_keywords: 
  - "evcoll/EcDeleteSubscription"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

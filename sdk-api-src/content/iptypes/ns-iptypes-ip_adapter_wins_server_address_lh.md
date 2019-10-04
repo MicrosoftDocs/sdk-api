@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_WINS_SERVER_ADDRESS, *PIP_ADAPTER_WINS_SERVER_ADDRESS
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

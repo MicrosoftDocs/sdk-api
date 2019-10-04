@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_OBJECT_ID, FSCTL_SET_OBJECT_ID control, FSCTL_SET_OBJECT_
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_OBJECT_ID
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

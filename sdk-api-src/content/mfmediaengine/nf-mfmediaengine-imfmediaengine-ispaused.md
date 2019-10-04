@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],IsPaused method, IMFMed
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.IsPaused"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

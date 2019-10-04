@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHt
 ms.topic: interface
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest3Callback"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

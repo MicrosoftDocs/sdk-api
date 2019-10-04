@@ -12,6 +12,8 @@ ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCr
 ms.topic: function
 f1_keywords: 
  - "ole2/OleCreateLinkToFile"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

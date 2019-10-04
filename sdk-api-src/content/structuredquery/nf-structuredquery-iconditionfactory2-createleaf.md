@@ -12,6 +12,8 @@ ms.keywords: CreateLeaf, CreateLeaf method [search], CreateLeaf method [search],
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.CreateLeaf"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

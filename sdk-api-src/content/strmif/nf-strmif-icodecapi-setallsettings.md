@@ -12,6 +12,8 @@ ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.S
 ms.topic: method
 f1_keywords: 
  - "strmif/ICodecAPI.SetAllSettings"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

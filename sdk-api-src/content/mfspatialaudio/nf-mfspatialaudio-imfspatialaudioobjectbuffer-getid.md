@@ -12,6 +12,8 @@ ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer.GetID"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

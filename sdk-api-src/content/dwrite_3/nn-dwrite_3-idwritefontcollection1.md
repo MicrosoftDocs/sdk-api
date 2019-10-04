@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontCollection1, IDWriteFontCollection1 interface [Direct Wr
 ms.topic: interface
 f1_keywords: 
  - "dwrite_3/IDWriteFontCollection1"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

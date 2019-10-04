@@ -12,6 +12,8 @@ ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumenta
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.MakeLocalPath"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

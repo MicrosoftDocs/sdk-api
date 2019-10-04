@@ -12,6 +12,8 @@ ms.keywords: '*PETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT struc
 ms.topic: struct
 f1_keywords:
 - evntrace/ETW_BUFFER_CONTEXT
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: Evntrace.h
 req.target-type: Windows

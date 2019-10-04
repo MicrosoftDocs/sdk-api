@@ -12,6 +12,8 @@ ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.GetVideoSize"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, co
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoFileTimeNow"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

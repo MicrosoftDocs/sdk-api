@@ -12,6 +12,8 @@ ms.keywords: GetCredentialsEx2, GetCredentialsEx2 method [windows Media Format],
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.GetCredentialsEx2"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAccountOptions, GetAccountOptions method [Windows Shell], GetAcc
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUserArray.GetAccountOptions"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

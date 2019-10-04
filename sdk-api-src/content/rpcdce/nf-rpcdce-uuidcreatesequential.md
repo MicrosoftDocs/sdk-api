@@ -12,6 +12,8 @@ ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uui
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidCreateSequential"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

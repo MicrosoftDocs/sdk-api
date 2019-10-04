@@ -12,6 +12,8 @@ ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_GUIDE"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

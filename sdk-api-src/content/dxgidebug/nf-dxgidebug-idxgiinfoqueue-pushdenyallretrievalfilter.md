@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllRetrievalFilter method, 
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.PushDenyAllRetrievalFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

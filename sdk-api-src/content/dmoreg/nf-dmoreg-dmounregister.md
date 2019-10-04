@@ -12,6 +12,8 @@ ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnreg
 ms.topic: function
 f1_keywords: 
  - "dmoreg/DMOUnregister"
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

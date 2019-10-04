@@ -12,6 +12,8 @@ ms.keywords: CheckCryptoKeyExchange, CheckCryptoKeyExchange method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoDevice.CheckCryptoKeyExchange"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

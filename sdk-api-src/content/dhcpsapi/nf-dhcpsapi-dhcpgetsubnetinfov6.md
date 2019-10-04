@@ -12,6 +12,8 @@ ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpGetSubnetInfoV6"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

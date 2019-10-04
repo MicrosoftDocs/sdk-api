@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remo
 ms.topic: function
 f1_keywords: 
  - "inspectable/HSTRING_UserFree"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

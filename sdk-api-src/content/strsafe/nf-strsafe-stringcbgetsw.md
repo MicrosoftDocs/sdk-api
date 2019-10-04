@@ -12,6 +12,8 @@ ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], St
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCbGets"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

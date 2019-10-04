@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReader.ReadSample"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

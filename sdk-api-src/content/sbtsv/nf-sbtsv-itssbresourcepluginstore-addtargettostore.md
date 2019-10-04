@@ -12,6 +12,8 @@ ms.keywords: AddTargetToStore, AddTargetToStore method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.AddTargetToStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

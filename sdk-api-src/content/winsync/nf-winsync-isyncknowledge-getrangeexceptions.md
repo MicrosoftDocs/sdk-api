@@ -12,6 +12,8 @@ ms.keywords: GetRangeExceptions, GetRangeExceptions method [Windows Sync], GetRa
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetRangeExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

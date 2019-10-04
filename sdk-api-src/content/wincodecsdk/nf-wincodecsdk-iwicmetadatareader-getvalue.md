@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue met
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReader.GetValue"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

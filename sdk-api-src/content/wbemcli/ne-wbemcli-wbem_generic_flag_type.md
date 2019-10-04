@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_DONT_SEND
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_GENERIC_FLAG_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchQueryHelper interface [search],get_QuerySorting method, ISea
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchQueryHelper.get_QuerySorting"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

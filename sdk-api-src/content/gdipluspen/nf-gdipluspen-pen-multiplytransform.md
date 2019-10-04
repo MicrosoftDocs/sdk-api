@@ -12,6 +12,8 @@ ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransfo
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.MultiplyTransform"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

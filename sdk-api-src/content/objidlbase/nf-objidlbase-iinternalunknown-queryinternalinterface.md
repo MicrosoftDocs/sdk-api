@@ -12,6 +12,8 @@ ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IIn
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IInternalUnknown.QueryInternalInterface"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

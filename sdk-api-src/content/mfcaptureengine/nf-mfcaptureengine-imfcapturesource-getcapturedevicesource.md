@@ -12,6 +12,8 @@ ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.GetCaptureDeviceSource"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

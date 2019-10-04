@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA enumer
 ms.topic: enum
 f1_keywords:
 - vss/VSS_BACKUP_SCHEMA
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

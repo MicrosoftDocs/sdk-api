@@ -12,6 +12,8 @@ ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interfac
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3D9ExOverlayExtension"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

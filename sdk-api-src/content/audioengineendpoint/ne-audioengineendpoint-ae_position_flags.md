@@ -12,6 +12,8 @@ ms.keywords: AE_POSITION_FLAGS, AE_POSITION_FLAGS enumeration [Remote Desktop Se
 ms.topic: enum
 f1_keywords: 
  - "audioengineendpoint/AE_POSITION_FLAGS"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

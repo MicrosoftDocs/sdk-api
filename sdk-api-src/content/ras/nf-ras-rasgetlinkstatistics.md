@@ -12,6 +12,8 @@ ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_ras
 ms.topic: function
 f1_keywords:
 - ras/RasGetLinkStatistics
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

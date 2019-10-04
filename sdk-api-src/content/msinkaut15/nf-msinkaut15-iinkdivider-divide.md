@@ -12,6 +12,8 @@ ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDi
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivider.Divide"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

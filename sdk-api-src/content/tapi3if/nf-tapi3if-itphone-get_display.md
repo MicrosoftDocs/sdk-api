@@ -12,6 +12,8 @@ ms.keywords: ITPhone interface [TAPI 2.2],get_Display method, ITPhone.get_Displa
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITPhone.get_Display"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

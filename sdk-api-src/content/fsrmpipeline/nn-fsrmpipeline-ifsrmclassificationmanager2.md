@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface 
 ms.topic: interface
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager2"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

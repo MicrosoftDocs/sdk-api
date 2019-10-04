@@ -12,6 +12,8 @@ ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgo
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPAdmin.GetHashAlgorithms"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetHashWindowSize, GetHashWindowSize method [Remote Differential Co
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGeneratorFilterMaxParameters.GetHashWindowSize"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

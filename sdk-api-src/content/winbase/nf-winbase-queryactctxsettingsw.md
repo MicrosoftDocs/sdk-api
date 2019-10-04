@@ -12,6 +12,8 @@ ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side A
 ms.topic: function
 f1_keywords: 
  - "winbase/QueryActCtxSettingsW"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

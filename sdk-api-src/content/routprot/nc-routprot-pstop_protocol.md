@@ -12,6 +12,8 @@ ms.keywords: PSTOP_PROTOCOL, PSTOP_PROTOCOL callback, StopProtocol, StopProtocol
 ms.topic: callback
 f1_keywords: 
  - "routprot/StopProtocol"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

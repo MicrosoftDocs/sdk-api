@@ -12,6 +12,8 @@ ms.keywords: FDTF_DEFAULT, FDTF_LONGDATE, FDTF_LONGTIME, FDTF_LTRDATE, FDTF_NOAU
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHFormatDateTime"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

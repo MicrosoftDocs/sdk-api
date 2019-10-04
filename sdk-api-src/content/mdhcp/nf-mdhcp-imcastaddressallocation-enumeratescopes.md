@@ -12,6 +12,8 @@ ms.keywords: EnumerateScopes, EnumerateScopes method [TAPI 2.2], EnumerateScopes
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.EnumerateScopes"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, ShowScrollBar, ShowScrollBar fun
 ms.topic: function
 f1_keywords: 
  - "winuser/ShowScrollBar"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

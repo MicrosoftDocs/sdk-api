@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, I
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.accLocation"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

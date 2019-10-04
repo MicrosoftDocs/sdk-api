@@ -12,6 +12,8 @@ ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],Rect cl
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.GetBottom"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

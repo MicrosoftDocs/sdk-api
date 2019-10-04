@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_DeleteItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

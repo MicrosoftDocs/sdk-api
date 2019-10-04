@@ -12,6 +12,8 @@ ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, St
 ms.topic: function
 f1_keywords:
 - shlwapi/StrRetToStr
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

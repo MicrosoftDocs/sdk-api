@@ -12,6 +12,8 @@ ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IDr
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IDragProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

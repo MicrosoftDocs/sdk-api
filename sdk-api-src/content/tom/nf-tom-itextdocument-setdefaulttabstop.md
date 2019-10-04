@@ -12,6 +12,8 @@ ms.keywords: ITextDocument interface [Windows Controls],SetDefaultTabStop method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.SetDefaultTabStop"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

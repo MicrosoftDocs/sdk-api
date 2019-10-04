@@ -12,6 +12,8 @@ ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorith
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithm.MinLength"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

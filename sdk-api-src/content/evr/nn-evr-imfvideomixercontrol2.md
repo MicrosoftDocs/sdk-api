@@ -12,6 +12,8 @@ ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoMixerControl2"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

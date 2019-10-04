@@ -12,6 +12,8 @@ ms.keywords: '*LPNSPV2_ROUTINE, *PNSPV2_ROUTINE, NSPV2_ROUTINE, NSPV2_ROUTINE st
 ms.topic: struct
 f1_keywords:
 - ws2spi/NSPV2_ROUTINE
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

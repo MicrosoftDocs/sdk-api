@@ -12,6 +12,8 @@ ms.keywords: INewMenuClient interface [Windows Shell],IncludeItems method, INewM
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INewMenuClient.IncludeItems"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRequestedSigner, GetRequestedSigner method [XPS Documents and Pa
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.GetRequestedSigner"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_VERB, HTTP_VERB, HTTP_VERB enumeration [HTTP], HttpVerbCONN
 ms.topic: enum
 f1_keywords: 
  - "http/HTTP_VERB"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

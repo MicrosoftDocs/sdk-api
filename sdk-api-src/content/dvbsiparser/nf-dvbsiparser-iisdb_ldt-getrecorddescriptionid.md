@@ -12,6 +12,8 @@ ms.keywords: GetRecordDescriptionId, GetRecordDescriptionId method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_LDT.GetRecordDescriptionId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

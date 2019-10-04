@@ -12,6 +12,8 @@ ms.keywords: IX509NameValuePairs interface [Security],_NewEnum property, IX509Na
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509NameValuePairs._NewEnum"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

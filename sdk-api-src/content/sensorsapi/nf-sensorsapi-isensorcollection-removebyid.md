@@ -12,6 +12,8 @@ ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.Re
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorCollection.RemoveByID"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

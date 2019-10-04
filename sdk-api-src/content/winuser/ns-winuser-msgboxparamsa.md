@@ -12,6 +12,8 @@ ms.keywords: "*LPMSGBOXPARAMSA, *PMSGBOXPARAMSA, MSGBOXPARAMS, MSGBOXPARAMS stru
 ms.topic: struct
 f1_keywords: 
  - "winuser/MSGBOXPARAMS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

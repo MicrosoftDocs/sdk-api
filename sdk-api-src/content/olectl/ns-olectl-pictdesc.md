@@ -12,6 +12,8 @@ ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTD
 ms.topic: struct
 f1_keywords: 
  - "olectl/PICTDESC"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

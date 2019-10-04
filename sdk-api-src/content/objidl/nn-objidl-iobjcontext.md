@@ -12,6 +12,8 @@ ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [CO
 ms.topic: interface
 f1_keywords: 
  - "objidl/IObjContext"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

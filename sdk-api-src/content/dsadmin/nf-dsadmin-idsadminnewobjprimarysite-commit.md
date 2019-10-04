@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Dir
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjPrimarySite.Commit"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

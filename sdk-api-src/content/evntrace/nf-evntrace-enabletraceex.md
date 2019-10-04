@@ -12,6 +12,8 @@ ms.keywords: EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_TS_ID, EnableTrace
 ms.topic: function
 f1_keywords:
 - evntrace/EnableTraceEx
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

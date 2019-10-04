@@ -12,6 +12,8 @@ ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DRM.GetDRMPairingStatus"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

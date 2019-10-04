@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMe
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.OpenModule"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ReadLogNotification, ReadLogNotification function [Files], clfsmgmt
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/ReadLogNotification
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: COINIT, COINIT enumeration [COM], COINIT_APARTMENTTHREADED, COINIT_
 ms.topic: enum
 f1_keywords: 
  - "objbase/COINIT"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

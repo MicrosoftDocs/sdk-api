@@ -12,6 +12,8 @@ ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callb
 ms.topic: callback
 f1_keywords:
 - winnt/VectoredHandler
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

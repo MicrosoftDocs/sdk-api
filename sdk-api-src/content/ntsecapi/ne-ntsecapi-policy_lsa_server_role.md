@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVE
 ms.topic: enum
 f1_keywords:
 - ntsecapi/POLICY_LSA_SERVER_ROLE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

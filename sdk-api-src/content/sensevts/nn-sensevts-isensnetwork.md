@@ -12,6 +12,8 @@ ms.keywords: ISensNetwork, ISensNetwork interface [SENS], ISensNetwork interface
 ms.topic: interface
 f1_keywords: 
  - "sensevts/ISensNetwork"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

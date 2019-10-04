@@ -12,6 +12,8 @@ ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], bi
 ms.topic: struct
 f1_keywords: 
  - "bits5_0/BITS_FILE_PROPERTY_VALUE"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

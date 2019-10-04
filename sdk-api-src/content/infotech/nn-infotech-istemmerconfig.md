@@ -12,6 +12,8 @@ ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], ISte
 ms.topic: interface
 f1_keywords: 
  - "infotech/IStemmerConfig"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

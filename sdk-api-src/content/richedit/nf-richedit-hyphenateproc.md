@@ -12,6 +12,8 @@ ms.keywords: HyphenateProc, HyphenateProc callback, HyphenateProc callback funct
 ms.topic: function
 f1_keywords: 
  - "richedit/HyphenateProc"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_PROCESS_INFO_EXW, PWTS_PROCESS_INFO_EX, PWTS_PROCESS_INFO_EX
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTS_PROCESS_INFO_EX
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

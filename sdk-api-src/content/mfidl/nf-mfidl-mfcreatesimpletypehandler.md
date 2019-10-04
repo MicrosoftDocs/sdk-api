@@ -12,6 +12,8 @@ ms.keywords: 441bd03d-b314-4f26-ad67-e6997e5edc9d, MFCreateSimpleTypeHandler, MF
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSimpleTypeHandler"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

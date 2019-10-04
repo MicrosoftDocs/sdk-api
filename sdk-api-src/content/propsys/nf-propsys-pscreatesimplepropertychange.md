@@ -12,6 +12,8 @@ ms.keywords: PSCreateSimplePropertyChange, PSCreateSimplePropertyChange function
 ms.topic: function
 f1_keywords:
 - propsys/PSCreateSimplePropertyChange
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

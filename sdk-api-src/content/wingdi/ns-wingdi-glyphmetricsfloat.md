@@ -12,6 +12,8 @@ ms.keywords: '*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYP
 ms.topic: struct
 f1_keywords:
 - wingdi/GLYPHMETRICSFLOAT
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

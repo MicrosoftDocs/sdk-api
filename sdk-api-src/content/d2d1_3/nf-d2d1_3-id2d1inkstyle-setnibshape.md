@@ -12,6 +12,8 @@ ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibShape method, ID2D1InkStyl
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1InkStyle.SetNibShape"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

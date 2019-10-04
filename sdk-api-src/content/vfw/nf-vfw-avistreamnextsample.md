@@ -12,6 +12,8 @@ ms.keywords: AVIStreamNextSample, AVIStreamNextSample macro [Windows Multimedia]
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamNextSample"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

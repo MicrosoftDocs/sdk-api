@@ -12,6 +12,8 @@ ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream 
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistServerPublishAddToStream"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], Get
 ms.topic: function
 f1_keywords: 
  - "aclapi/GetInheritanceSource"
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

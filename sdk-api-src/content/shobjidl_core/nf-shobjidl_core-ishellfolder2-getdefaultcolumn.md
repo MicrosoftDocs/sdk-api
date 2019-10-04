@@ -12,6 +12,8 @@ ms.keywords: GetDefaultColumn, GetDefaultColumn method [Windows Shell], GetDefau
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellFolder2.GetDefaultColumn"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

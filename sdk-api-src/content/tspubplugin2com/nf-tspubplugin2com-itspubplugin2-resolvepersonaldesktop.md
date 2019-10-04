@@ -12,6 +12,8 @@ ms.keywords: ItsPubPlugin2 interface [Remote Desktop Services],ResolvePersonalDe
 ms.topic: method
 f1_keywords: 
  - "tspubplugin2com/ItsPubPlugin2.ResolvePersonalDesktop"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

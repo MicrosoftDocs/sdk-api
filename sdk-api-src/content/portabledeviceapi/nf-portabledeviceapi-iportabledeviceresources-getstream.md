@@ -12,6 +12,8 @@ ms.keywords: GetStream, GetStream method [Windows Portable Devices SDK], GetStre
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceResources.GetStream"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

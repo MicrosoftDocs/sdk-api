@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_ASPECT_SCALING, D2D1_SVG_ASPECT_SCALING enumeration [Direc
 ms.topic: enum
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_ASPECT_SCALING"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

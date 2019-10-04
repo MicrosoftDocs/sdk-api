@@ -12,6 +12,8 @@ ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaError.GetExtendedErrorCode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

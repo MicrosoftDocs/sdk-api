@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImageNamespace"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

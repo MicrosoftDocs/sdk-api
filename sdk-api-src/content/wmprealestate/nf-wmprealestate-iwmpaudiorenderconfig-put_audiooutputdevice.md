@@ -12,6 +12,8 @@ ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOut
 ms.topic: method
 f1_keywords: 
  - "wmprealestate/IWMPAudioRenderConfig.put_audioOutputDevice"
+dev_langs:
+ - c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

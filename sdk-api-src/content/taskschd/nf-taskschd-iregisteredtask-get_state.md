@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTask interface [Task Scheduler],State property, IRegiste
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTask.State"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "imm/ImmIsUIMessage"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

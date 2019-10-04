@@ -12,6 +12,8 @@ ms.keywords: GetColumn, GetColumn method [COM+], GetColumn method [COM+],ICrmFor
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmFormatLogRecords.GetColumn"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

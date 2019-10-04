@@ -12,6 +12,8 @@ ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Gr
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGPEInformation.GetType"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

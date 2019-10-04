@@ -12,6 +12,8 @@ ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], wins
 ms.topic: function
 f1_keywords:
 - ws2tcpip/WSASetSocketSecurity
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

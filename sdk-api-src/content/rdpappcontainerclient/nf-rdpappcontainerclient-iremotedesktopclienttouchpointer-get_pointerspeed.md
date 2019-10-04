@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClientTouchPointer interface [Remote Desktop Services
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer.PointerSpeed"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

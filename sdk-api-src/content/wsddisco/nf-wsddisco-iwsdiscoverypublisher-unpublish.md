@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryPublisher interface,UnPublish method, IWSDiscoveryPubli
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.UnPublish
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

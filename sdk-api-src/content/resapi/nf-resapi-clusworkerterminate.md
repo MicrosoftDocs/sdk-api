@@ -10,6 +10,8 @@ ms.topic: language-reference
 targetos: Windows
 f1_keywords: 
  - "resapi/ClusWorkerTerminate"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: D3D11_ENCRYPTED_BLOCK_INFO, D3D11_ENCRYPTED_BLOCK_INFO structure [M
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_ENCRYPTED_BLOCK_INFO"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

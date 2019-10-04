@@ -12,6 +12,8 @@ ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncode
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidEncoder.get_VideoEncoderInterface"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

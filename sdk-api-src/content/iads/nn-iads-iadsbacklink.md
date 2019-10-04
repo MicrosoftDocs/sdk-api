@@ -12,6 +12,8 @@ ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsBackLink"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

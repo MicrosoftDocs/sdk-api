@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interf
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorCollection.GetCount"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

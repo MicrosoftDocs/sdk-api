@@ -12,6 +12,8 @@ ms.keywords: TASK_STATE, TASK_STATE enumeration [Task Scheduler], TASK_STATE_DIS
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_STATE"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

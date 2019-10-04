@@ -12,6 +12,8 @@ ms.keywords: CSC_InheritSxs, CSC_NewSxs, CSC_NoSxs, CSC_SxsConfig, CSC_SxsConfig
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_SxsConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

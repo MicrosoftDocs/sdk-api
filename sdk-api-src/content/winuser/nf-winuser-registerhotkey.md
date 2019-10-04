@@ -12,6 +12,8 @@ ms.keywords: MOD_ALT, MOD_CONTROL, MOD_NOREPEAT, MOD_SHIFT, MOD_WIN, RegisterHot
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterHotKey"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

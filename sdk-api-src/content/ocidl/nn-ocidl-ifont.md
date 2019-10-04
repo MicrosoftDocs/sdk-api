@@ -12,6 +12,8 @@ ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctr
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IFont"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

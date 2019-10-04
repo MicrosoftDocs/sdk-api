@@ -12,6 +12,8 @@ ms.keywords: CF_PLACEHOLDER_CREATE_FLAGS, CF_PLACEHOLDER_CREATE_FLAGS enumeratio
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_PLACEHOLDER_CREATE_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

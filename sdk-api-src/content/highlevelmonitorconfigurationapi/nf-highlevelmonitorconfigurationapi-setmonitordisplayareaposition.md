@@ -12,6 +12,8 @@ ms.keywords: SetMonitorDisplayAreaPosition, SetMonitorDisplayAreaPosition functi
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

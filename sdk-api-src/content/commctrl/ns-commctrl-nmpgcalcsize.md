@@ -12,6 +12,8 @@ ms.keywords: '*LPNMPGCALCSIZE, LPNMPGCALCSIZE, LPNMPGCALCSIZE structure pointer 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMPGCALCSIZE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

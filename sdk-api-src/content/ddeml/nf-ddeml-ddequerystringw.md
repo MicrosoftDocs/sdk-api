@@ -12,6 +12,8 @@ ms.keywords: DdeQueryString, DdeQueryString function [Data Exchange], DdeQuerySt
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeQueryString"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

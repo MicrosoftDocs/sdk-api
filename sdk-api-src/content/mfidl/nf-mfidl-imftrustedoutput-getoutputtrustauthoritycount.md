@@ -12,6 +12,8 @@ ms.keywords: 3aae6859-0b32-4705-9045-b98d0bbf43a6, GetOutputTrustAuthorityCount,
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTrustedOutput.GetOutputTrustAuthorityCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMDEC4 structure [DirectX Math Support APIs],operator = method, XMD
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMDEC4.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

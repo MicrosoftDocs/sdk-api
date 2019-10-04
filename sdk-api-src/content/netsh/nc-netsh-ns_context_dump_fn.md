@@ -12,6 +12,8 @@ ms.keywords: NS_CONTEXT_DUMP_FN, NS_CONTEXT_DUMP_FN callback, NS_CONTEXT_DUMP_FN
 ms.topic: callback
 f1_keywords:
 - netsh/NS_CONTEXT_DUMP_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICoreFragmentInspector, ICoreFragmentInspector interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "winsync/ICoreFragmentInspector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],get_Sub
 ms.topic: method
 f1_keywords: 
  - "bdaiface/ICCSubStreamFiltering.get_SubstreamTypes"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsc
 ms.topic: function
 f1_keywords: 
  - "windowsceip/CeipIsOptedIn"
+dev_langs:
+ - c++
 req.header: windowsceip.h
 req.include-header: 
 req.target-type: Windows

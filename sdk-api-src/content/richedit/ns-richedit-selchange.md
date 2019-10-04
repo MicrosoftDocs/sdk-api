@@ -12,6 +12,8 @@ ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, S
 ms.topic: struct
 f1_keywords: 
  - "richedit/SELCHANGE"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

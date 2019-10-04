@@ -12,6 +12,8 @@ ms.keywords: PPROCESS_PROTECTION_LEVEL_INFORMATION, PPROCESS_PROTECTION_LEVEL_IN
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

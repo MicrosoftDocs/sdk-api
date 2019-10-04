@@ -12,6 +12,8 @@ ms.keywords: PWSMAN_SHELL_DISCONNECT_INFO, PWSMAN_SHELL_DISCONNECT_INFO structur
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_SHELL_DISCONNECT_INFO
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

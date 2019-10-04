@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPC
 ms.topic: struct
 f1_keywords: 
  - "dhcpcsdk/DHCPCAPI_CLASSID"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX, PPROCES
 ms.topic: struct
 f1_keywords: 
  - "psapi/PROCESS_MEMORY_COUNTERS_EX"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

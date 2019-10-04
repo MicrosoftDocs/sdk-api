@@ -12,6 +12,8 @@ ms.keywords: CachedValue property [Windows Accessibility], CachedValue property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationValuePattern.CachedValue"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

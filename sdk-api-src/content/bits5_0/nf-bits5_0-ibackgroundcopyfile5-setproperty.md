@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgrou
 ms.topic: method
 f1_keywords: 
  - "bits5_0/IBackgroundCopyFile5.SetProperty"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

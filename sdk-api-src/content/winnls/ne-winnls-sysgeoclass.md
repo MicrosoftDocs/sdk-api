@@ -12,6 +12,8 @@ ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEO
 ms.topic: enum
 f1_keywords: 
  - "winnls/SYSGEOCLASS"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

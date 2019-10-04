@@ -12,6 +12,8 @@ ms.keywords: ITAddress2, ITAddress2 interface [TAPI 2.2], ITAddress2 interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITAddress2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

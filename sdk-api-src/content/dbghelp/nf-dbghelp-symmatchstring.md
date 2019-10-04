@@ -12,6 +12,8 @@ ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symm
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymMatchString"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

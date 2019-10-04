@@ -12,6 +12,8 @@ ms.keywords: MaxTraceSetInfoClass, TRACE_INFO_CLASS, TRACE_INFO_CLASS enumeratio
 ms.topic: enum
 f1_keywords: 
  - "evntrace/TRACE_INFO_CLASS, TRACE_QUERY_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

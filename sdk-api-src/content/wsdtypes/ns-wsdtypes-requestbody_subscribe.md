@@ -12,6 +12,8 @@ ms.keywords: REQUESTBODY_Subscribe, REQUESTBODY_Subscribe structure, ncd.request
 ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_Subscribe
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

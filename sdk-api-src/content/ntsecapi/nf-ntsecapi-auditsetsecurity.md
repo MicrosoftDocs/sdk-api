@@ -12,6 +12,8 @@ ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/Au
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetSecurity
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

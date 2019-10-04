@@ -12,6 +12,8 @@ ms.keywords: AddMappings, AddMappings method [Direct Write], AddMappings method 
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFallbackBuilder.AddMappings"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

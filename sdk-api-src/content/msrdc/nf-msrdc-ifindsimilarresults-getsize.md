@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Remote Differential Compression], GetSize 
 ms.topic: method
 f1_keywords: 
  - "msrdc/IFindSimilarResults.GetSize"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

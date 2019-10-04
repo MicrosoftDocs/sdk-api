@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSI
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STORAGE_SPEC_VERSION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

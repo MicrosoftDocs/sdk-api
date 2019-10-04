@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager in
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.Enable"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

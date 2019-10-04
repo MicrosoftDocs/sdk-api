@@ -12,6 +12,8 @@ ms.keywords: Edit_Undo, Edit_Undo macro [Windows Controls], _win32_Edit_Undo, _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_Undo"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

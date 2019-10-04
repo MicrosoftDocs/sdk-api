@@ -12,6 +12,8 @@ ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUse
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetUserInfo"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

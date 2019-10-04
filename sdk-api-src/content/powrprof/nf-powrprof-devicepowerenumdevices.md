@@ -12,6 +12,8 @@ ms.keywords: DEVICEPOWER_AND_OPERATION, DEVICEPOWER_FILTER_DEVICES_PRESENT, DEVI
 ms.topic: function
 f1_keywords: 
  - "powrprof/DevicePowerEnumDevices"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

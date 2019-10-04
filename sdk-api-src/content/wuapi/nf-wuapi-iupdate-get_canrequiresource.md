@@ -12,6 +12,8 @@ ms.keywords: CanRequireSource property [Windows Update Agent], CanRequireSource 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.CanRequireSource"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

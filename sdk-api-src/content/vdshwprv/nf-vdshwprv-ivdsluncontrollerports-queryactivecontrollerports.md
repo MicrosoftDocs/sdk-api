@@ -12,6 +12,8 @@ ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method,
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLunControllerPorts.QueryActiveControllerPorts"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

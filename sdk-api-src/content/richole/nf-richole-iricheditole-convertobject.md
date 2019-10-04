@@ -12,6 +12,8 @@ ms.keywords: ConvertObject, ConvertObject method [Windows Controls], ConvertObje
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.ConvertObject"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

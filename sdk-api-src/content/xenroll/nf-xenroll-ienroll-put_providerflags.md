@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.Provid
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.ProviderFlags"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

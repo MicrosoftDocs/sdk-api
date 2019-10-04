@@ -12,6 +12,8 @@ ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHLoadLibraryFromItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

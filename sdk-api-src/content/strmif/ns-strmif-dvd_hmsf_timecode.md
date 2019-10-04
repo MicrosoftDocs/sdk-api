@@ -12,6 +12,8 @@ ms.keywords: DVD_HMSF_TIMECODE, DVD_HMSF_TIMECODE structure [DirectShow], DVD_HM
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_HMSF_TIMECODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvSaveScreenBits, DrvSaveScreenBits function [Display Devices], dd
 ms.topic: function
 f1_keywords:
 - winddi/DrvSaveScreenBits
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

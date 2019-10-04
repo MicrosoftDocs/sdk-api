@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_TOKEN_PRINCIPAL"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

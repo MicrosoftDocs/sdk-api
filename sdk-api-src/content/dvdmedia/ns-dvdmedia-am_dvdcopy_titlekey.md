@@ -12,6 +12,8 @@ ms.keywords: "*PAM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY st
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/AM_DVDCOPY_TITLEKEY"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

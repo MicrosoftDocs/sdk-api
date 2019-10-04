@@ -12,6 +12,8 @@ ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchMan
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager.get_BypassList"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

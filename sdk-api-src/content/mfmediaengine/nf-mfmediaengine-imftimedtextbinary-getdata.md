@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextBinary.GetData"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

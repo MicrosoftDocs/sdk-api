@@ -12,6 +12,8 @@ ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTIO
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHMessageBoxCheck"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

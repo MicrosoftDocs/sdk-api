@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextSetSpi0, IPsecSaContextSetSpi0 function [Filtering], 
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextSetSpi0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

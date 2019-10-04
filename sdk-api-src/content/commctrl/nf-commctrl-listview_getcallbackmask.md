@@ -12,6 +12,8 @@ ms.keywords: ListView_GetCallbackMask, ListView_GetCallbackMask macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetCallbackMask"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

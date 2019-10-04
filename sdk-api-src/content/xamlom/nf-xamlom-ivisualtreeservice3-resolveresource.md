@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService3 interface,ResolveResource method, IVisualTreeSe
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService3.ResolveResource"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

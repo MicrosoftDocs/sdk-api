@@ -12,6 +12,8 @@ ms.keywords: Description property [File Server Resource Manager], Description pr
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinitionValue.Description"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

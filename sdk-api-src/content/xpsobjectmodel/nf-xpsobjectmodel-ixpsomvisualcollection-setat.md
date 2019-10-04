@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],SetA
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisualCollection.SetAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

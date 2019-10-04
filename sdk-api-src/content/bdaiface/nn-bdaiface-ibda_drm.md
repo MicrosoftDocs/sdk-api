@@ -12,6 +12,8 @@ ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM 
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_DRM"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

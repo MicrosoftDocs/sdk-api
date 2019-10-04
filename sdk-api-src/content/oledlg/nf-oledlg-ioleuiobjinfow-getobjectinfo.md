@@ -12,6 +12,8 @@ ms.keywords: GetObjectInfo, GetObjectInfo method [COM], GetObjectInfo method [CO
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUIObjInfo.GetObjectInfo"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

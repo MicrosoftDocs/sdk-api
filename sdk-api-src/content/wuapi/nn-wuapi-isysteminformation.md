@@ -12,6 +12,8 @@ ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Ag
 ms.topic: interface
 f1_keywords: 
  - "wuapi/ISystemInformation"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

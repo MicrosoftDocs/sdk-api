@@ -12,6 +12,8 @@ ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interf
 ms.topic: interface
 f1_keywords: 
  - "austream/IMemoryData"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

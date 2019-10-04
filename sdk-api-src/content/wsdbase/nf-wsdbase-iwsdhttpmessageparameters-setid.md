@@ -12,6 +12,8 @@ ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessagePa
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpMessageParameters.SetID"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

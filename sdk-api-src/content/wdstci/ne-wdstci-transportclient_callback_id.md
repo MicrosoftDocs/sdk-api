@@ -12,6 +12,8 @@ ms.keywords: "*PTRANSPORTCLIENT_CALLBACK_ID, TRANSPORTCLIENT_CALLBACK_ID, TRANSP
 ms.topic: enum
 f1_keywords: 
  - "wdstci/TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

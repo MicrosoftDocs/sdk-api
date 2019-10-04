@@ -12,6 +12,8 @@ ms.keywords: "*PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES, PUM
 ms.topic: struct
 f1_keywords: 
  - "winnt/UMS_CREATE_THREAD_ATTRIBUTES"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAnchor, IAnchor interface [Text Services Framework], IAnchor inter
 ms.topic: interface
 f1_keywords: 
  - "textstor/IAnchor"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

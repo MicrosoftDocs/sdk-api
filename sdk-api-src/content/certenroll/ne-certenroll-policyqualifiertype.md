@@ -12,6 +12,8 @@ ms.keywords: PolicyQualifierType, PolicyQualifierType enumeration [Security], Po
 ms.topic: enum
 f1_keywords: 
  - "certenroll/PolicyQualifierType"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

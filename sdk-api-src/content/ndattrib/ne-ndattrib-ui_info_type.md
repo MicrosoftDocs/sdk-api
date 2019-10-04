@@ -12,6 +12,8 @@ ms.keywords: UIT_DUI, UIT_HELP_PANE, UIT_NONE, UIT_SHELL_COMMAND, UI_INFO_TYPE, 
 ms.topic: enum
 f1_keywords: 
  - "ndattrib/UI_INFO_TYPE"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

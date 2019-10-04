@@ -12,6 +12,8 @@ ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakpro
 ms.topic: function
 f1_keywords: 
  - "winbase/DebugBreakProcess"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

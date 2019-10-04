@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory7 interface [DXGI],RegisterAdaptersChangedEvent method,
 ms.topic: method
 f1_keywords: 
  - "dxgi1_6/IDXGIFactory7.RegisterAdaptersChangedEvent"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

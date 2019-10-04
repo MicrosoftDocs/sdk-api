@@ -12,6 +12,8 @@ ms.keywords: Configure, Configure method [Media Foundation], Configure method [M
 ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.Configure
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

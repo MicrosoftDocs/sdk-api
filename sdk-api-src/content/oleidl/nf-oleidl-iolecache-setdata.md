@@ -12,6 +12,8 @@ ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCa
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCache.SetData"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

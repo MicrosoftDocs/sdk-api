@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnThaw method, CVssWriter.OnThaw, CVssWr
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnThaw"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media F
 ms.topic: struct
 f1_keywords: 
  - "d3d11_1/D3D11_VIDEO_SAMPLE_DESC"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

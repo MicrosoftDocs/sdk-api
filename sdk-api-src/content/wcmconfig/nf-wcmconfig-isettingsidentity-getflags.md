@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [SMI], GetFlags method [SMI],ISettingsIde
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsIdentity.GetFlags"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], w
 ms.topic: struct
 f1_keywords: 
  - "windows.data.pdf.interop/PDF_RENDER_PARAMS"
+dev_langs:
+ - c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

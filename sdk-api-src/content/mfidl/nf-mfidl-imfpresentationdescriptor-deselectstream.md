@@ -12,6 +12,8 @@ ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStrea
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationDescriptor.DeselectStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

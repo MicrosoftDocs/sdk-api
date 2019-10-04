@@ -12,6 +12,8 @@ ms.keywords: DrvStretchBlt, DrvStretchBlt function [Display Devices], ddifncs_7d
 ms.topic: function
 f1_keywords:
 - winddi/DrvStretchBlt
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

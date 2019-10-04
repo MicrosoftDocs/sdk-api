@@ -12,6 +12,8 @@ ms.keywords: Configuration property [Fax Service], Configuration property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer2.Configuration"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

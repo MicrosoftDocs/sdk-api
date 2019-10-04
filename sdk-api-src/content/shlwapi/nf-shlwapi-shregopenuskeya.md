@@ -12,6 +12,8 @@ ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenU
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegOpenUSKey"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

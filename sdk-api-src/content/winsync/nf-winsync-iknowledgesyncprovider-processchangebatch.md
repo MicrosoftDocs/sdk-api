@@ -12,6 +12,8 @@ ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessChangeBatch 
 ms.topic: method
 f1_keywords: 
  - "winsync/IKnowledgeSyncProvider.ProcessChangeBatch"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

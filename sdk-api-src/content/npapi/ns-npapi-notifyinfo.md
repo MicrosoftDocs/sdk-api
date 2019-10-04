@@ -12,6 +12,8 @@ ms.keywords: "*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Secur
 ms.topic: struct
 f1_keywords: 
  - "npapi/NOTIFYINFO"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

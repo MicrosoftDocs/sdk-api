@@ -12,6 +12,8 @@ ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],des
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsAsync"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

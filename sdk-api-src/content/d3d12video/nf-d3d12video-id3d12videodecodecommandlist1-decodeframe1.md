@@ -8,6 +8,10 @@ ms.assetid: 46d35b8a-ae2d-4df8-ad68-eaf840369cca
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList1::DecodeFrame1
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList1::DecodeFrame1, DecodeFrame1, ID3D12VideoDecodeCommandList1.DecodeFrame1, ID3D12VideoDecodeCommandList1::DecodeFrame1, ID3D12VideoDecodeCommandList1.DecodeFrame1
 req.header: d3d12video.h
 req.include-header:

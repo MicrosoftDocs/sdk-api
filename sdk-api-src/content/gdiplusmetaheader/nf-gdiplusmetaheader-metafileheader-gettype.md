@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeade
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetType"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

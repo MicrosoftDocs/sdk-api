@@ -12,6 +12,8 @@ ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], b
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDeriveKeyPBKDF2"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

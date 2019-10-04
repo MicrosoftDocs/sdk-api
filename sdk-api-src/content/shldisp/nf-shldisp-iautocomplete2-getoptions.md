@@ -12,6 +12,8 @@ ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [W
 ms.topic: method
 f1_keywords:
 - shldisp/IAutoComplete2.GetOptions
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

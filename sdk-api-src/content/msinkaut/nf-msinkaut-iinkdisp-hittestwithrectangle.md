@@ -12,6 +12,8 @@ ms.keywords: 401c4f62-a406-49ac-9911-91f815cde9c8, HitTestWithRectangle, HitTest
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.HitTestWithRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

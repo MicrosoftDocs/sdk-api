@@ -8,6 +8,10 @@ ms.assetid: 2d8a7a37-32b4-4fb0-b8db-d8460624aa63
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::Close
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::Close, Close, ID3D12VideoProcessCommandList.Close, ID3D12VideoProcessCommandList::Close, ID3D12VideoProcessCommandList.Close
 req.header: d3d12video.h
 req.include-header:

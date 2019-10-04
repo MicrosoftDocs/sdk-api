@@ -12,6 +12,8 @@ ms.keywords: "*LPLVITEMA, I_GROUPIDCALLBACK, I_GROUPIDNONE, LPLVITEM, LPLVITEM s
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

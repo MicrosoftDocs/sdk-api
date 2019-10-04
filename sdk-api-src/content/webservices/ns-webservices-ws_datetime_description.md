@@ -12,6 +12,8 @@ ms.keywords: WS_DATETIME_DESCRIPTION, WS_DATETIME_DESCRIPTION structure [Web Ser
 ms.topic: struct
 f1_keywords:
 - webservices/WS_DATETIME_DESCRIPTION
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumerat
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_ROUTER_DISCOVERY_BEHAVIOR"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

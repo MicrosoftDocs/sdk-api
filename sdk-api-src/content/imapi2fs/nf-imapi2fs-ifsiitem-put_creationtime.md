@@ -12,6 +12,8 @@ ms.keywords: IFsiItem interface [IMAPI],put_CreationTime method, IFsiItem.put_Cr
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.put_CreationTime"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

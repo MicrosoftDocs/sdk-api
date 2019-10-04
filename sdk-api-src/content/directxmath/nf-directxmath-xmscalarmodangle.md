@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMScalarModAngle, XMScalarModAngle, XMScalarModAngle m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMScalarModAngle"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

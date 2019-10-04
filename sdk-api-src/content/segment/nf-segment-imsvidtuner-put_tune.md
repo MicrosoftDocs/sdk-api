@@ -12,6 +12,8 @@ ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidTuner.put_Tune"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_SESSION_INFOW, PWTS_SESSION_INFO, PWTS_SESSION_INFO structur
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTS_SESSION_INFO
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

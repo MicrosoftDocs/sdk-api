@@ -12,6 +12,8 @@ ms.keywords: "*PEXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT
 ms.topic: enum
 f1_keywords: 
  - "secext/EXTENDED_NAME_FORMAT"
+dev_langs:
+ - c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

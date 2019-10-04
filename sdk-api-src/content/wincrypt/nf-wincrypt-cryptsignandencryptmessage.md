@@ -12,6 +12,8 @@ ms.keywords: CryptSignAndEncryptMessage, CryptSignAndEncryptMessage function [Se
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptSignAndEncryptMessage
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

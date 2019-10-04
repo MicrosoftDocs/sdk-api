@@ -12,6 +12,8 @@ ms.keywords: GetTickCount, GetTickCount function, _win32_gettickcount, base.gett
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetTickCount"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

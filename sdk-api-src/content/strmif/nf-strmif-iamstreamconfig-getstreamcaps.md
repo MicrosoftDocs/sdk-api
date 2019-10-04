@@ -12,6 +12,8 @@ ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps met
 ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.GetStreamCaps
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

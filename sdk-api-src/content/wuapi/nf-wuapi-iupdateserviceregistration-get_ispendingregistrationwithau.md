@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],IsPendi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceRegistration.IsPendingRegistrationWithAU"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

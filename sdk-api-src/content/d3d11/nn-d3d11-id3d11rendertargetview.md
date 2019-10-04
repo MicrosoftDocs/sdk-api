@@ -12,6 +12,8 @@ ms.keywords: ID3D11RenderTargetView, ID3D11RenderTargetView interface [Direct3D 
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11RenderTargetView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

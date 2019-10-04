@@ -12,6 +12,8 @@ ms.keywords: AddSourceBuffer, AddSourceBuffer method [Media Foundation], AddSour
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

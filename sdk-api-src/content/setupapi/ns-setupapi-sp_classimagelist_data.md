@@ -12,6 +12,8 @@ ms.keywords: "*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGEL
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_CLASSIMAGELIST_DATA"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

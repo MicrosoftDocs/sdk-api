@@ -12,6 +12,8 @@ ms.keywords: '*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, P
 ms.topic: struct
 f1_keywords:
 - winioctl/TXFS_WRITE_BACKUP_INFORMATION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

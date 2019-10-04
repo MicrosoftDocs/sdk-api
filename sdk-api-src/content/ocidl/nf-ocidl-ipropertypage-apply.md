@@ -12,6 +12,8 @@ ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interfa
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Apply"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

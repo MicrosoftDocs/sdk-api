@@ -12,6 +12,8 @@ ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interf
 ms.topic: interface
 f1_keywords: 
  - "activationregistration/IActivatableClassRegistration"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

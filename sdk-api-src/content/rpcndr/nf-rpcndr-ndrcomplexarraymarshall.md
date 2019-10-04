@@ -12,6 +12,8 @@ ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows 
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrComplexArrayMarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

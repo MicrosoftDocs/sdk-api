@@ -12,6 +12,8 @@ ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem meth
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.CreateChildItem"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

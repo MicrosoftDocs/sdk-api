@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_EAP_AUTHENTICATION0, IKEEXT_EAP_AUTHENTICATION0 structure [F
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_EAP_AUTHENTICATION0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

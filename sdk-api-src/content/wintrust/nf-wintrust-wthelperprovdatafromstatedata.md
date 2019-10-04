@@ -12,6 +12,8 @@ ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData functi
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperProvDataFromStateData
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

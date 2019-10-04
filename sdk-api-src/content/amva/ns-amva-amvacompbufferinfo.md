@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo stru
 ms.topic: struct
 f1_keywords: 
  - "amva/AMVACompBufferInfo"
+dev_langs:
+ - c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

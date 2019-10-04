@@ -12,6 +12,8 @@ ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_M
 ms.topic: function
 f1_keywords: 
  - "objbase/MonikerRelativePathTo"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

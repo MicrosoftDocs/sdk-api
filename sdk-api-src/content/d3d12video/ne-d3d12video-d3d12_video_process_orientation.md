@@ -8,6 +8,10 @@ ms.assetid: 1196949a-a9d4-4a82-8300-d84b5960f6ef
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_ORIENTATION
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_ORIENTATION, D3D12_VIDEO_PROCESS_ORIENTATION, 
 req.header: d3d12video.h
 req.include-header:

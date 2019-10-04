@@ -12,6 +12,8 @@ ms.keywords: CryptMsgClose, CryptMsgClose function [Security], _crypto2_cryptmsg
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptMsgClose"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

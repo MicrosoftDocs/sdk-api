@@ -12,6 +12,8 @@ ms.keywords: WS_HTTPS_URL, WS_HTTPS_URL structure [Web Services for Windows], we
 ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTPS_URL
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

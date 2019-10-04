@@ -12,6 +12,8 @@ ms.keywords: ICoCreatedLocally interface [Windows Accessibility],LocalInit metho
 ms.topic: method
 f1_keywords: 
  - "msaatext/ICoCreatedLocally.LocalInit"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISensOnNow interface [SENS],OnBatteryPower method, ISensOnNow.OnBat
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensOnNow.OnBatteryPower"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

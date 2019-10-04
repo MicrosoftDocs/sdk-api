@@ -12,6 +12,8 @@ ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_i
 ms.topic: function
 f1_keywords: 
  - "winbase/IsSystemResumeAutomatic"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

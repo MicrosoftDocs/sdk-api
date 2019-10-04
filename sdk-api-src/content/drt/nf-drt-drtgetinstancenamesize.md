@@ -12,6 +12,8 @@ ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Netwo
 ms.topic: function
 f1_keywords: 
  - "drt/DrtGetInstanceNameSize"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

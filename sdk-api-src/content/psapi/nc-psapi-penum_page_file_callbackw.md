@@ -12,6 +12,8 @@ ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback, EnumPageFilesProc ca
 ms.topic: callback
 f1_keywords:
 - psapi/EnumPageFilesProc
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

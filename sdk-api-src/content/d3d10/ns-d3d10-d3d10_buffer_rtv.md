@@ -12,6 +12,8 @@ ms.keywords: 4eb8f5a5-bb65-b551-7e42-ac051b09f97c, D3D10_BUFFER_RTV, D3D10_BUFFE
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_BUFFER_RTV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

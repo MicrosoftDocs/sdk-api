@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_ALLOC_PARA, NCRYPT_ALLOC_PARA structure [Security], PNCRYPT_
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCRYPT_ALLOC_PARA"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

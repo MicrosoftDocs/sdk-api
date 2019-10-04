@@ -12,6 +12,8 @@ ms.keywords: HasChildScopeRule, HasChildScopeRule method [search], HasChildScope
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.HasChildScopeRule"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

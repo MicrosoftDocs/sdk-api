@@ -12,6 +12,8 @@ ms.keywords: BCLASS_SET_INFORMATION_CALLBACK, BCLASS_SET_INFORMATION_CALLBACK ca
 ms.topic: callback
 f1_keywords: 
  - "batclass/BatteryMiniSetInformation"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

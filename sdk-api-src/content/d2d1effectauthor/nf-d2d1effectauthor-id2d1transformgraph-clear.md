@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1Transf
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1TransformGraph.Clear"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

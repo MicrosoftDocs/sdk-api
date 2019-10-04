@@ -12,6 +12,8 @@ ms.keywords: IMixerPinConfig interface [DirectShow],SetStreamTransparent method,
 ms.topic: method
 f1_keywords: 
  - "mpconfig/IMixerPinConfig.SetStreamTransparent"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

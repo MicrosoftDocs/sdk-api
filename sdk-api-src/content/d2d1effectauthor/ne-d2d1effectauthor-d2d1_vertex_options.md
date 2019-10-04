@@ -12,6 +12,8 @@ ms.keywords: D2D1_VERTEX_OPTIONS, D2D1_VERTEX_OPTIONS enumeration [Direct2D], D2
 ms.topic: enum
 f1_keywords: 
  - "d2d1effectauthor/D2D1_VERTEX_OPTIONS"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

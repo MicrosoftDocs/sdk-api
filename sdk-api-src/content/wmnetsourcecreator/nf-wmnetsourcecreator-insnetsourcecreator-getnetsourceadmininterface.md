@@ -12,6 +12,8 @@ ms.keywords: GetNetSourceAdminInterface, GetNetSourceAdminInterface method [wind
 ms.topic: method
 f1_keywords: 
  - "wmnetsourcecreator/INSNetSourceCreator.GetNetSourceAdminInterface"
+dev_langs:
+ - c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows

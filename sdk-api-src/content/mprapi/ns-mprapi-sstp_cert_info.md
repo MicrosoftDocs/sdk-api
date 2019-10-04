@@ -12,6 +12,8 @@ ms.keywords: '*PSSTP_CERT_INFO, SSTP_CERT_INFO, SSTP_CERT_INFO structure [RAS], 
 ms.topic: struct
 f1_keywords:
 - mprapi/SSTP_CERT_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

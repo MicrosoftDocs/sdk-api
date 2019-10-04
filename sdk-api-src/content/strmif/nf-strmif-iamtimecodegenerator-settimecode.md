@@ -12,6 +12,8 @@ ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTimecode method, IAM
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTimecodeGenerator.SetTimecode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

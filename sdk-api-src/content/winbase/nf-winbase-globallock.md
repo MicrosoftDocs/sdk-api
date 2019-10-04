@@ -12,6 +12,8 @@ ms.keywords: GlobalLock, GlobalLock function, _win32_globallock, base.globallock
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalLock"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

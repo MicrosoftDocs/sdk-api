@@ -12,6 +12,8 @@ ms.keywords: 83077387-5c62-f840-c94a-b5edcab58593, IAGetPrimitiveTopology, IAGet
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.IAGetPrimitiveTopology"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

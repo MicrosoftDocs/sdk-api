@@ -12,6 +12,8 @@ ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueue
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

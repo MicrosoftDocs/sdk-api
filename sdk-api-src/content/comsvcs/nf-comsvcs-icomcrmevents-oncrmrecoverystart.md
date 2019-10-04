@@ -12,6 +12,8 @@ ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryStart method, IComCRMEv
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComCRMEvents.OnCRMRecoveryStart"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

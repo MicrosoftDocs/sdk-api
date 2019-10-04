@@ -12,6 +12,8 @@ ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.
 ms.topic: function
 f1_keywords:
 - clfsw32/ValidateLog
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

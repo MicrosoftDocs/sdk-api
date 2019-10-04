@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorASin, XMVectorASin, XMVectorASin method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorASin"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

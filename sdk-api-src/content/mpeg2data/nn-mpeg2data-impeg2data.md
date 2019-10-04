@@ -12,6 +12,8 @@ ms.keywords: IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], IMpeg
 ms.topic: interface
 f1_keywords: 
  - "mpeg2data/IMpeg2Data"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgOpenPropStg"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows

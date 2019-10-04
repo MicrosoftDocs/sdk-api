@@ -12,6 +12,8 @@ ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION st
 ms.topic: struct
 f1_keywords:
 - memoryapi/WIN32_MEMORY_REGION_INFORMATION
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

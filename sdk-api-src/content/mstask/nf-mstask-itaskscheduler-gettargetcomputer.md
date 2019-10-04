@@ -12,6 +12,8 @@ ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTa
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.GetTargetComputer"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

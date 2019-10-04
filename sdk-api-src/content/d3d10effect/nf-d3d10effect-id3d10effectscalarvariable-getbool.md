@@ -12,6 +12,8 @@ ms.keywords: GetBool, GetBool method [Direct3D 10], GetBool method [Direct3D 10]
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.GetBool"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

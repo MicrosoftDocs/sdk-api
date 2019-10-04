@@ -12,6 +12,8 @@ ms.keywords: GetGamma, GetGamma method [Windows Imaging Component], GetGamma met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetGamma"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

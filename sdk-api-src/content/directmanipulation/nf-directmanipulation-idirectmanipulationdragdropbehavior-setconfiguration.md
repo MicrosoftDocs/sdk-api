@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationDragDropBehavior interface [Direct Manipulation]
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationDragDropBehavior.SetConfiguration"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

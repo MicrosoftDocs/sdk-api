@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceContent2 interface [Windows Portable Devices SDK],Up
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceContent2.UpdateObjectWithPropertiesAndData"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StopWatchFlush, StopWatchFlush function [Windows Shell], _win32_Sto
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StopWatchFlush"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

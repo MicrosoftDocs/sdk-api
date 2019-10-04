@@ -12,6 +12,8 @@ ms.keywords: IsTokenRestricted, IsTokenRestricted function [Security], _win32_is
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/IsTokenRestricted"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],Save method, ISce
 ms.topic: method
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentPersistInfo.Save"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

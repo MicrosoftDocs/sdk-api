@@ -12,6 +12,8 @@ ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTRO
 ms.topic: struct
 f1_keywords: 
  - "ocidl/CONTROLINFO"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextPara interface [Windows Controls],SetNoLineNumber method, ITex
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.SetNoLineNumber"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

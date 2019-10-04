@@ -12,6 +12,8 @@ ms.keywords: 3ae03219-f0f0-843c-5eb9-caae0782e153, D3D11_RTV_DIMENSION, D3D11_RT
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_RTV_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

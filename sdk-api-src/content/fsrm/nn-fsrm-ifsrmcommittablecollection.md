@@ -12,6 +12,8 @@ ms.keywords: IFsrmCommittableCollection, IFsrmCommittableCollection interface [F
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmCommittableCollection"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

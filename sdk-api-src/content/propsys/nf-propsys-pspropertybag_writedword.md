@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Window
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_WriteDWORD"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

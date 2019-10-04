@@ -12,6 +12,8 @@ ms.keywords: IVideoFrameStep interface [DirectShow],Step method, IVideoFrameStep
 ms.topic: method
 f1_keywords: 
  - "strmif/IVideoFrameStep.Step"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

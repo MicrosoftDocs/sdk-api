@@ -12,6 +12,8 @@ ms.keywords: GetAtomName, GetAtomName function [Data Exchange], GetAtomNameA, Ge
 ms.topic: function
 f1_keywords: 
  - "winbase/GetAtomName"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

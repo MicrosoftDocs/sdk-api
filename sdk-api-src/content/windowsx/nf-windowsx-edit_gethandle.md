@@ -12,6 +12,8 @@ ms.keywords: Edit_GetHandle, Edit_GetHandle macro [Windows Controls], _win32_Edi
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetHandle"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

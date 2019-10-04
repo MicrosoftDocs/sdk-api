@@ -12,6 +12,8 @@ ms.keywords: ISearchResult interface [Windows Update Agent],Updates property, IS
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISearchResult.Updates"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

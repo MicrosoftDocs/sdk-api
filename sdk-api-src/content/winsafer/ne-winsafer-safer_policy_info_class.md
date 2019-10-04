@@ -12,6 +12,8 @@ ms.keywords: SAFER_POLICY_INFO_CLASS, SAFER_POLICY_INFO_CLASS enumeration [Secur
 ms.topic: enum
 f1_keywords: 
  - "winsafer/SAFER_POLICY_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

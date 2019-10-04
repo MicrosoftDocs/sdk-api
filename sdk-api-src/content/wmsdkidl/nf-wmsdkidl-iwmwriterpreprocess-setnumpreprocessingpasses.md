@@ -12,6 +12,8 @@ ms.keywords: IWMWriterPreprocess interface [windows Media Format],SetNumPreproce
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterPreprocess.SetNumPreprocessingPasses"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

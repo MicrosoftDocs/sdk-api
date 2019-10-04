@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortGetLine, DdVideoPortGetLine callback function [Display D
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetLine
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: GetSigningTime, GetSigningTime method [XPS Documents and Packaging]
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignature.GetSigningTime"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

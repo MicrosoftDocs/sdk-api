@@ -12,6 +12,8 @@ ms.keywords: IX509EnrollmentPolicyServer interface [Security],Validate method, I
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.Validate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumD
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.EnumDisplayModes"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSD_OPERATION, WSD_OPERATION structure, ncd.wsd_operation_struct, w
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_OPERATION
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

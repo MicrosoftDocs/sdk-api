@@ -12,6 +12,8 @@ ms.keywords: 77c659f3-f151-78f6-bab6-8322bc1851c9, HSSetConstantBuffers, HSSetCo
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.HSSetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

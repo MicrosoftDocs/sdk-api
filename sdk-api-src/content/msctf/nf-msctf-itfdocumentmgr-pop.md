@@ -12,6 +12,8 @@ ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfD
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDocumentMgr.Pop"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

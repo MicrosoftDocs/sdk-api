@@ -12,6 +12,8 @@ ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interf
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfCleanupContextDurationSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

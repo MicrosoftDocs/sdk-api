@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents3 interface [Windows Media Player],StringCollectionChange
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents3.StringCollectionChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

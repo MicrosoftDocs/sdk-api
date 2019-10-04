@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.tracelog
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingBinary"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIAENGINE_KEYERR_CLIENT, MF_MEDIAENGINE_KEYERR_DOMAIN, MF_MEDI
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_KEYERR"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

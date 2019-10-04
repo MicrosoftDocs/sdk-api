@@ -12,6 +12,8 @@ ms.keywords: CreateEmptyMetadataObject, CreateEmptyMetadataObject method [window
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage3.CreateEmptyMetadataObject"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

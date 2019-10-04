@@ -12,6 +12,8 @@ ms.keywords: SYNCMGRSTATUS, SYNCMGRSTATUS enumeration [Windows Shell], SYNCMGRST
 ms.topic: enum
 f1_keywords: 
  - "mobsync/SYNCMGRSTATUS"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

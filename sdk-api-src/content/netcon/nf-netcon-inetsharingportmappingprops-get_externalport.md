@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_ExternalPort me
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMappingProps.get_ExternalPort"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

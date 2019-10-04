@@ -12,6 +12,8 @@ ms.keywords: PropVariantToDoubleVectorAlloc, PropVariantToDoubleVectorAlloc func
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToDoubleVectorAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

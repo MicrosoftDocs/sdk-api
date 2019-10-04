@@ -12,6 +12,8 @@ ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],I
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.BltFast"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

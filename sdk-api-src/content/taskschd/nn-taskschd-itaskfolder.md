@@ -12,6 +12,8 @@ ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder in
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskFolder"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

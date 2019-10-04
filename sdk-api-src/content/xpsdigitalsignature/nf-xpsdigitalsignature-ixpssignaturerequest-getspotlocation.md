@@ -12,6 +12,8 @@ ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.GetSpotLocation"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

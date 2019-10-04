@@ -12,6 +12,8 @@ ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], IMFColle
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFCollection"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

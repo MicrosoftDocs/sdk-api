@@ -12,6 +12,8 @@ ms.keywords: SEEK_CUR, SEEK_END, SEEK_SET, _win32_mmioSeek, mmioSeek, mmioSeek f
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioSeek"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory inte
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFByteStreamProxyClassFactory"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCategory, GetCategory method, GetCategory method,ISensor interfa
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetCategory"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

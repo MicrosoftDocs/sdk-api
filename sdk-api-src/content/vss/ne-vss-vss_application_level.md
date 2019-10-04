@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_APPLICATION_LEVEL"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

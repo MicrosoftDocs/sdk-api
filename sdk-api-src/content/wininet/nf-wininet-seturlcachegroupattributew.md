@@ -12,6 +12,8 @@ ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinI
 ms.topic: function
 f1_keywords:
 - wininet/SetUrlCacheGroupAttribute
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf functi
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupUninstallOEMInf"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

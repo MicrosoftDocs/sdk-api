@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_PROPERTY_VALUE_STRING, EAP_METHOD_PROPERTY_VALUE_STRING 
 ms.topic: struct
 f1_keywords: 
  - "eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING"
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

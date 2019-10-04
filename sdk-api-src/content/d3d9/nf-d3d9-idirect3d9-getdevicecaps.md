@@ -12,6 +12,8 @@ ms.keywords: 87e98d3f-7bf9-d2ba-4731-1b08cb375732, GetDeviceCaps, GetDeviceCaps 
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3D9.GetDeviceCaps
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

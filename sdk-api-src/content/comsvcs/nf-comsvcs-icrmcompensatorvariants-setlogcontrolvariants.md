@@ -12,6 +12,8 @@ ms.keywords: ICrmCompensatorVariants interface [COM+],SetLogControlVariants meth
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensatorVariants.SetLogControlVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

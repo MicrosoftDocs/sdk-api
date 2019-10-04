@@ -12,6 +12,8 @@ ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, 
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.Unfreeze"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

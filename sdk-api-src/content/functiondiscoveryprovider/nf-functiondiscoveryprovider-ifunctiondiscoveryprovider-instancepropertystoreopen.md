@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreOpen meth
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreOpen"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

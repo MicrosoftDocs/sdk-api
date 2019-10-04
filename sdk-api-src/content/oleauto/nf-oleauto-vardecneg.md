@@ -12,6 +12,8 @@ ms.keywords: VarDecNeg, VarDecNeg function [Automation], _oa96_VarDecNeg, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecNeg"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRa
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumRangeExceptions.Reset"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

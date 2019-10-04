@@ -12,6 +12,8 @@ ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_
 ms.topic: struct
 f1_keywords:
 - wsdtypes/RESPONSEBODY_Renew
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

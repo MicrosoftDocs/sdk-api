@@ -12,6 +12,8 @@ ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName 
 ms.topic: method
 f1_keywords: 
  - "control/IAMStats.GetValueByName"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

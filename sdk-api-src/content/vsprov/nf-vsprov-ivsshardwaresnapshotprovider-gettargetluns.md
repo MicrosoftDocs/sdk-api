@@ -12,6 +12,8 @@ ms.keywords: GetTargetLuns, GetTargetLuns method [VSS], GetTargetLuns method [VS
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.GetTargetLuns
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

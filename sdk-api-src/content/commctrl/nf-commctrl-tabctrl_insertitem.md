@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_InsertItem, TabCtrl_InsertItem macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_InsertItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

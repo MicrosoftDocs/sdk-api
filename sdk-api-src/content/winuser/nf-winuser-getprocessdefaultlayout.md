@@ -12,6 +12,8 @@ ms.keywords: GetProcessDefaultLayout, GetProcessDefaultLayout function [Windows 
 ms.topic: function
 f1_keywords: 
  - "winuser/GetProcessDefaultLayout"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

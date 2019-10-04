@@ -12,6 +12,8 @@ ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnete
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpNetEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

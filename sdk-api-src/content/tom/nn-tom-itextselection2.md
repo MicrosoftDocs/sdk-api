@@ -12,6 +12,8 @@ ms.keywords: ITextSelection2, ITextSelection2 interface [Windows Controls], ITex
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextSelection2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

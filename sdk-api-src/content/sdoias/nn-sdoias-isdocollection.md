@@ -12,6 +12,8 @@ ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], I
 ms.topic: interface
 f1_keywords: 
  - "sdoias/ISdoCollection"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

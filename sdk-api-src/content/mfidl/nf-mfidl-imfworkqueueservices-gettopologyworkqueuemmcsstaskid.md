@@ -12,6 +12,8 @@ ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTask
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

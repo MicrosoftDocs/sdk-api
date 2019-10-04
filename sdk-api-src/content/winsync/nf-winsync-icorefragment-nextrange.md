@@ -12,6 +12,8 @@ ms.keywords: ICoreFragment interface [Windows Sync],NextRange method, ICoreFragm
 ms.topic: method
 f1_keywords: 
  - "winsync/ICoreFragment.NextRange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

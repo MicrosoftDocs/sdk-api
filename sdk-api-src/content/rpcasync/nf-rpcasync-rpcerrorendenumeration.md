@@ -12,6 +12,8 @@ ms.keywords: RpcErrorEndEnumeration, RpcErrorEndEnumeration function [RPC], _rpc
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcErrorEndEnumeration"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

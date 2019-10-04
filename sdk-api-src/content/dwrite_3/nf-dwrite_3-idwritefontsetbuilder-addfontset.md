@@ -12,6 +12,8 @@ ms.keywords: AddFontSet, AddFontSet method [Direct Write], AddFontSet method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSetBuilder.AddFontSet"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

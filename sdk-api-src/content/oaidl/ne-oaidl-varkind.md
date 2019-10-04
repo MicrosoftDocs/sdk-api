@@ -12,6 +12,8 @@ ms.keywords: VARKIND, VARKIND enumeration [Automation], VAR_CONST, VAR_DISPATCH,
 ms.topic: enum
 f1_keywords: 
  - "oaidl/VARKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

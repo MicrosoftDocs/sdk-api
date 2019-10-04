@@ -12,6 +12,8 @@ ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.EnumerateTargets"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

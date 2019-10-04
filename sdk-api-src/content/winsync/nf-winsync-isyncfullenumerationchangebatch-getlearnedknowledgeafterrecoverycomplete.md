@@ -12,6 +12,8 @@ ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterR
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

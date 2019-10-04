@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_ALPHA_FILL_MODE, DXVAHD_ALPHA_FILL_MODE enumeration [Media F
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_ALPHA_FILL_MODE
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

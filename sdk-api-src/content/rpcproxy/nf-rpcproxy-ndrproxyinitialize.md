@@ -12,6 +12,8 @@ ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxy
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrProxyInitialize
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

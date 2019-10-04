@@ -12,6 +12,8 @@ ms.keywords: DMO_REGISTERF_IS_KEYED, DMO_REGISTER_FLAGS, DMO_REGISTER_FLAGS enum
 ms.topic: enum
 f1_keywords: 
  - "dmoreg/DMO_REGISTER_FLAGS"
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows

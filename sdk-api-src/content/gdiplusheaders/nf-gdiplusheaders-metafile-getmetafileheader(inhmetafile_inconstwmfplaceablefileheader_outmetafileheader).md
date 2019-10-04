@@ -9,6 +9,8 @@ ms.keywords: Metafile::GetMetafileHeader
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Metafile::GetMetafileHeader"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

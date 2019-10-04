@@ -12,6 +12,8 @@ ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapReAlloc"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

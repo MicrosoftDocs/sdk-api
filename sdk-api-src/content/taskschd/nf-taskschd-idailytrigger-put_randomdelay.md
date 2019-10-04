@@ -12,6 +12,8 @@ ms.keywords: IDailyTrigger interface [Task Scheduler],RandomDelay property, IDai
 ms.topic: method
 f1_keywords: 
  - "taskschd/IDailyTrigger.RandomDelay"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

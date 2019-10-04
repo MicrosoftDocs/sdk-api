@@ -12,6 +12,8 @@ ms.keywords: DML_TENSOR_DESC, DML_TENSOR_DESC structure, direct3d12.dml_tensor_d
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_TENSOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

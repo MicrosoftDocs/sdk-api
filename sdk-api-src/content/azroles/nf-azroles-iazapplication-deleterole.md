@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],DeleteRole method, DeleteRole, Dele
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.DeleteRole"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExte
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSetExtendedOption"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings interface [Task Scheduler],WakeToRun property, ITaskS
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings.WakeToRun"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

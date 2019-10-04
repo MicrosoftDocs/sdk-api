@@ -12,6 +12,8 @@ ms.keywords: GetDetailsEx, GetDetailsEx method [Windows Shell], GetDetailsEx met
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder2.GetDetailsEx
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

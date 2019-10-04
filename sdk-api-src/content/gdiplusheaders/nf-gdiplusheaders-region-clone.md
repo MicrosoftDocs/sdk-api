@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Regio
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

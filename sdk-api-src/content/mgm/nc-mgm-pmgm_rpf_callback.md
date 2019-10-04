@@ -12,6 +12,8 @@ ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM
 ms.topic: callback
 f1_keywords:
 - mgm/PMGM_RPF_CALLBACK
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPADDRINFOEXA, *PADDRINFOEXA, ADDRINFOEX, ADDRINFOEX structure [W
 ms.topic: struct
 f1_keywords: 
  - "ws2def/ADDRINFOEX"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Windows Server 2012, Windows 7  Windows Server 2008 R2
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditEnumeratePerUserPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

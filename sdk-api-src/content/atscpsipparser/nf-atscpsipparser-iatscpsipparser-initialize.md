@@ -12,6 +12,8 @@ ms.keywords: IAtscPsipParser interface [Microsoft TV Technologies],Initialize me
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.Initialize"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

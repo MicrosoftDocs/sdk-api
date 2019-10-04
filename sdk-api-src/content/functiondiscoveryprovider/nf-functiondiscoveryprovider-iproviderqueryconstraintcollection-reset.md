@@ -12,6 +12,8 @@ ms.keywords: IProviderQueryConstraintCollection interface,Reset method, IProvide
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Reset"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_RENDER_TARGET_BLEND_DESC1, D3D11_RENDER_TARGET_BLEND_DESC1 st
 ms.topic: struct
 f1_keywords: 
  - "d3d11_1/D3D11_RENDER_TARGET_BLEND_DESC1"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

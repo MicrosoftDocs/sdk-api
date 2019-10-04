@@ -12,6 +12,8 @@ ms.keywords: INamedPropertyStore interface [Windows Shell],SetNamedValue method,
 ms.topic: method
 f1_keywords: 
  - "propsys/INamedPropertyStore.SetNamedValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

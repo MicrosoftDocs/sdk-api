@@ -12,6 +12,8 @@ ms.keywords: IComTransaction2Events interface [COM+],OnTransactionPrepare2 metho
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComTransaction2Events.OnTransactionPrepare2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

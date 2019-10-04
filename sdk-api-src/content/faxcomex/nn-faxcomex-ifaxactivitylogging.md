@@ -12,6 +12,8 @@ ms.keywords: IFaxActivityLogging, IFaxActivityLogging interface [Fax Service], I
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxActivityLogging"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

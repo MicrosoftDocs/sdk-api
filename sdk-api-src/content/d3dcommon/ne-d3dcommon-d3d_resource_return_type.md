@@ -12,6 +12,8 @@ ms.keywords: 59063810-740f-d058-3bed-3f66c58da731, D3D11_RESOURCE_RETURN_TYPE, D
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D11_RESOURCE_RETURN_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

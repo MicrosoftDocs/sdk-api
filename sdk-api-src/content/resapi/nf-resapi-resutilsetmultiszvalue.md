@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_MULTI_SZ_VALUE, PRESUTIL_SET_MULTI_SZ_VALUE function [
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetMultiSzValue"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

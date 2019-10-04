@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX func
 ms.topic: function
 f1_keywords: 
  - "clusapi/PauseClusterNodeEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO st
 ms.topic: struct
 f1_keywords: 
  - "winuser/TITLEBARINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

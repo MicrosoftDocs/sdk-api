@@ -12,6 +12,8 @@ ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback
 ms.topic: callback
 f1_keywords:
 - prsht/LPFNPSPCALLBACK
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

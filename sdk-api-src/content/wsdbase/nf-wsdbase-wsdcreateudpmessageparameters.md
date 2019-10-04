@@ -12,6 +12,8 @@ ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters functi
 ms.topic: function
 f1_keywords: 
  - "wsdbase/WSDCreateUdpMessageParameters"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_X509DATA, CRYPT_XML_X509DATA structure [Security], PCRYPT
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_X509DATA
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

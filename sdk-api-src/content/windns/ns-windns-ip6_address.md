@@ -12,6 +12,8 @@ ms.keywords: "*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADD
 ms.topic: struct
 f1_keywords: 
  - "windns/IP6_ADDRESS"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

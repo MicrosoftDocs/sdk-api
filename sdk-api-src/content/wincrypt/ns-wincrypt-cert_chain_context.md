@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT struc
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_CHAIN_CONTEXT
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

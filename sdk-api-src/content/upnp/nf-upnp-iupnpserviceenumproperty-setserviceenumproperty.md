@@ -12,6 +12,8 @@ ms.keywords: IUPnPServiceEnumProperty interface [UPnP APIs],SetServiceEnumProper
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceEnumProperty.SetServiceEnumProperty"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

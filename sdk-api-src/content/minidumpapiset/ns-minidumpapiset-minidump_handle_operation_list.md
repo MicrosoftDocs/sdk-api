@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST, 
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfil
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofWimEnumFiles"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

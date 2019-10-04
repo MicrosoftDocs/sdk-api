@@ -12,6 +12,8 @@ ms.keywords: 9bbf55a2-225d-7084-43ca-8305b06faa0d, D3D10_BLEND_OP, D3D10_BLEND_O
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_BLEND_OP"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

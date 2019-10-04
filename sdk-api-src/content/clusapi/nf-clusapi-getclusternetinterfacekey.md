@@ -12,6 +12,8 @@ ms.keywords: GetClusterNetInterfaceKey, GetClusterNetInterfaceKey function [Fail
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterNetInterfaceKey"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

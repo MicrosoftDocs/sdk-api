@@ -12,6 +12,8 @@ ms.keywords: GetIconInfo, GetIconInfo function [Menus and Other Resources], IDC_
 ms.topic: function
 f1_keywords:
 - winuser/GetIconInfo
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

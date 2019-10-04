@@ -12,6 +12,8 @@ ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTri
 ms.topic: method
 f1_keywords: 
  - "taskschd/ILogonTrigger.UserId"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

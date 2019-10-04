@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS 
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_SETTING_STATUS
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

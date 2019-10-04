@@ -12,6 +12,8 @@ ms.keywords: GetEnum, GetEnum method [Windows Shell], GetEnum method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shlwapi/IQueryAssociations.GetEnum"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

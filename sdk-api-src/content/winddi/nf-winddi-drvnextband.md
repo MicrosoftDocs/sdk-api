@@ -12,6 +12,8 @@ ms.keywords: DrvNextBand, DrvNextBand function [Display Devices], ddifncs_dc66e1
 ms.topic: function
 f1_keywords:
 - winddi/DrvNextBand
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

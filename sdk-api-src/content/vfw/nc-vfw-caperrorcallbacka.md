@@ -12,6 +12,8 @@ ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capE
 ms.topic: callback
 f1_keywords: 
  - "vfw/capErrorCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

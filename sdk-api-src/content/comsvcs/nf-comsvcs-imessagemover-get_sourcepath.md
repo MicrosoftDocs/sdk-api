@@ -12,6 +12,8 @@ ms.keywords: IMessageMover interface [COM+],get_SourcePath method, IMessageMover
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMessageMover.get_SourcePath"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

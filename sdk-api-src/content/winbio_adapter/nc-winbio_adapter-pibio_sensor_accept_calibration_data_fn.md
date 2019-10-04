@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, PIBIO_SENSOR_ACCEPT_CALIBR
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterAcceptCalibrationData
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteUrlCacheContainer, DeleteUrlCacheContainer function [WinINet]
 ms.topic: function
 f1_keywords: 
  - "winineti/DeleteUrlCacheContainer"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

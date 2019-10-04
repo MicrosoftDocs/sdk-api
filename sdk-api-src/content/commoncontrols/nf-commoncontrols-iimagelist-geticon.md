@@ -12,6 +12,8 @@ ms.keywords: GetIcon, GetIcon method [Windows Controls], GetIcon method [Windows
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetIcon"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

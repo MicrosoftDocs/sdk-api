@@ -12,6 +12,8 @@ ms.keywords: PROCESSENUMPROC, PROCESSENUMPROC callback, PROCESSENUMPROC callback
 ms.topic: callback
 f1_keywords: 
  - "vdmdbg/PROCESSENUMPROC"
+dev_langs:
+ - c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

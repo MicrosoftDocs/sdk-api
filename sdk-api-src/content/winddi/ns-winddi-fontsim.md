@@ -12,6 +12,8 @@ ms.keywords: FONTSIM, FONTSIM structure [Display Devices], display.fontsim, grst
 ms.topic: struct
 f1_keywords:
 - winddi/FONTSIM
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

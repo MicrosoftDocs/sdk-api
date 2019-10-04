@@ -12,6 +12,8 @@ ms.keywords: '*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Wi
 ms.topic: struct
 f1_keywords:
 - mobsync/SYNCMGRITEM
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

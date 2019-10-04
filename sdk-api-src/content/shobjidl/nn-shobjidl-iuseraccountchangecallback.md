@@ -12,6 +12,8 @@ ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [W
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IUserAccountChangeCallback"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

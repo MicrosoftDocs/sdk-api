@@ -12,6 +12,8 @@ ms.keywords: PropSheet_RestartWindows, PropSheet_RestartWindows macro [Windows C
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_RestartWindows
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

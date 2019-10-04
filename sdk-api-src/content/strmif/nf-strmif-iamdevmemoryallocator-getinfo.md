@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMDevMemoryAllocator.GetInfo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator inte
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessorEnumerator"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIE
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElementSink.EndUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

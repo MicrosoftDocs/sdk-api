@@ -12,6 +12,8 @@ ms.keywords: PFXIsPFXBlob, PFXIsPFXBlob function [Security], _crypto2_pfxispfxbl
 ms.topic: function
 f1_keywords: 
  - "wincrypt/PFXIsPFXBlob"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 931a126d-863e-dd0f-39ba-9205662592db, AddStorageFilterEntries, AddS
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.AddStorageFilterEntries"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

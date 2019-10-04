@@ -12,6 +12,8 @@ ms.keywords: ImageType, ImageType enumeration [GDI+], ImageTypeBitmap, ImageType
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/ImageType"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

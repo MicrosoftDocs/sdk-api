@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnEndLabelEdi
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlEvents.OnEndLabelEdit"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

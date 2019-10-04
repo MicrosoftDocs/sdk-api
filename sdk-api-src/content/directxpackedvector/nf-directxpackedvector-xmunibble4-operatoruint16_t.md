@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMUNIBBLE4.operator uint16_t, DirectX::Packed
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUNIBBLE4.operator uint16_t"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

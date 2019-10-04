@@ -12,6 +12,8 @@ ms.keywords: AddCredential, AddCredential callback function [Security], LSA_ADD_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/AddCredential
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

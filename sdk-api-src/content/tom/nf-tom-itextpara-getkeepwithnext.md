@@ -12,6 +12,8 @@ ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeep
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetKeepWithNext"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

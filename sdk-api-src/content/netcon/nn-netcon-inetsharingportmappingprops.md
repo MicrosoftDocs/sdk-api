@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface 
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingPortMappingProps"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

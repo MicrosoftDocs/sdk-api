@@ -12,6 +12,8 @@ ms.keywords: ACTCTX_REQUESTED_RUN_LEVEL, ACTCTX_REQUESTED_RUN_LEVEL enumeration 
 ms.topic: enum
 f1_keywords: 
  - "winnt/ACTCTX_REQUESTED_RUN_LEVEL"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

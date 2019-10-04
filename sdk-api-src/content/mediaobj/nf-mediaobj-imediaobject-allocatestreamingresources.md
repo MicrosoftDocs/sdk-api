@@ -12,6 +12,8 @@ ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [Dire
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.AllocateStreamingResources"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

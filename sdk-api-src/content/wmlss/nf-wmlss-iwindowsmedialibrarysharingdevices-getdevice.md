@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method [Windows Media Library Sharing Services
 ms.topic: method
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingDevices.GetDevice"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

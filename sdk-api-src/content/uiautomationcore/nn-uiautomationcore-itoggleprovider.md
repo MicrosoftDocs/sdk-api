@@ -12,6 +12,8 @@ ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility],
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IToggleProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

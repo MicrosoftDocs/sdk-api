@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfApps, GetNumberOfApps method [Windows Shell], GetNumberO
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IAppPublisher.GetNumberOfApps"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

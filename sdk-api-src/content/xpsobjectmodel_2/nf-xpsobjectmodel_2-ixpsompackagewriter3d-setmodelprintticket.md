@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPackageWriter3D interface [XPS Documents and Packaging],SetMo
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsOMPackageWriter3D.SetModelPrintTicket"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

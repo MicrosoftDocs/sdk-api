@@ -12,6 +12,8 @@ ms.keywords: WSASetBlockingHook, WSASetBlockingHook function [Winsock], _win32_w
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSASetBlockingHook"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

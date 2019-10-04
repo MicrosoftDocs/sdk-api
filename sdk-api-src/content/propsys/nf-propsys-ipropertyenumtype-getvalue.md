@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Windows Properties], GetValue method [Wi
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType.GetValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

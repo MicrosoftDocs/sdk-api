@@ -12,6 +12,8 @@ ms.keywords: SetupDiCallClassInstaller, SetupDiCallClassInstaller function [Devi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCallClassInstaller
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

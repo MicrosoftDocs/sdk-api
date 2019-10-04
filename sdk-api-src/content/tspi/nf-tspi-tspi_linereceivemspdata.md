@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineReceiveMSPData, TSPI_lineReceiveMSPData function [TAPI 2.2
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineReceiveMSPData"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

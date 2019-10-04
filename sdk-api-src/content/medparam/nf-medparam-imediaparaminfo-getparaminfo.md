@@ -12,6 +12,8 @@ ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method
 ms.topic: method
 f1_keywords:
 - medparam/IMediaParamInfo.GetParamInfo
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

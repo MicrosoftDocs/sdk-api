@@ -12,6 +12,8 @@ ms.keywords: IWSDUdpMessageParameters interface,SetRetransmitParams method, IWSD
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpMessageParameters.SetRetransmitParams
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows

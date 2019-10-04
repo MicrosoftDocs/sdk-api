@@ -12,6 +12,8 @@ ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback
 ms.topic: callback
 f1_keywords: 
  - "routprot/MibGet"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

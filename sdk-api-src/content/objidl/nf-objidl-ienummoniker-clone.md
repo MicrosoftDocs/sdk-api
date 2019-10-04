@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interfac
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumMoniker.Clone"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

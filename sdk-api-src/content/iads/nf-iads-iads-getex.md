@@ -12,6 +12,8 @@ ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADs interface, IAD
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.GetEx"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_XML_NODE_POSITION, WS_XML_NODE_POSITION structure [Web Services 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_XML_NODE_POSITION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

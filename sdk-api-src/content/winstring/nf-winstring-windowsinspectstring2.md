@@ -12,6 +12,8 @@ ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runt
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsInspectString2"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

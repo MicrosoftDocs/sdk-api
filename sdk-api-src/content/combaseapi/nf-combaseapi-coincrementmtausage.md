@@ -12,6 +12,8 @@ ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincr
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoIncrementMTAUsage"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

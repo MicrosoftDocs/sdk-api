@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],SelLength property, IInkEdit.SelLeng
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelLength"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

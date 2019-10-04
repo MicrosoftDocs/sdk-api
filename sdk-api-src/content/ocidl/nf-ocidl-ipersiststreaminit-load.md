@@ -12,6 +12,8 @@ ms.keywords: IPersistStreamInit interface [COM],Load method, IPersistStreamInit.
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPersistStreamInit.Load"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

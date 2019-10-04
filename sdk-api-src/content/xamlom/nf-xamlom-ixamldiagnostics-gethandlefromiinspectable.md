@@ -12,6 +12,8 @@ ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHan
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.GetHandleFromIInspectable"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

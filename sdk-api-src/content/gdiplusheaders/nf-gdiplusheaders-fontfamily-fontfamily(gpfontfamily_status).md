@@ -12,6 +12,8 @@ ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.FontFamily"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

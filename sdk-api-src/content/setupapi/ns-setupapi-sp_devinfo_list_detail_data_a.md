@@ -12,6 +12,8 @@ ms.keywords: "*PSP_DEVINFO_LIST_DETAIL_DATA_A, PSP_DEVINFO_LIST_DETAIL_DATA, PSP
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_DEVINFO_LIST_DETAIL_DATA"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

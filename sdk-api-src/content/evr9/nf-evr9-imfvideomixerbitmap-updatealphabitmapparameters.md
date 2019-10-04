@@ -12,6 +12,8 @@ ms.keywords: 369bf934-b0a0-44b2-bea2-e8575404d36d, IMFVideoMixerBitmap interface
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoMixerBitmap.UpdateAlphaBitmapParameters"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

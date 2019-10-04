@@ -12,6 +12,8 @@ ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.rem
 ms.topic: function
 f1_keywords: 
  - "wsdevlicensing/RemoveDeveloperLicense"
+dev_langs:
+ - c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows

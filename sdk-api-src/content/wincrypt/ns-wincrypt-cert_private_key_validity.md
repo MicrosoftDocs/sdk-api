@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY, CERT_PRIVA
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_PRIVATE_KEY_VALIDITY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DestroyEffect, DestroyEffect method [Human Input Devices], DestroyE
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.DestroyEffect"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

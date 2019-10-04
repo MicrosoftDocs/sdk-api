@@ -12,6 +12,8 @@ ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], dav
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavGetHTTPFromUNCPath"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

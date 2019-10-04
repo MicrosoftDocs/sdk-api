@@ -12,6 +12,8 @@ ms.keywords: 0f1e36bb-cb67-6e39-ddb2-784ed615c5bb, D3D10_QUERY_DATA_PIPELINE_STA
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

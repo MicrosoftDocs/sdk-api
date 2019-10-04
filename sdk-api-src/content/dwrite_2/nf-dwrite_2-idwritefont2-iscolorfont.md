@@ -12,6 +12,8 @@ ms.keywords: IDWriteFont2 interface [Direct Write],IsColorFont method, IDWriteFo
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFont2.IsColorFont"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_In
 ms.topic: function
 f1_keywords: 
  - "atlthunk/AtlThunk_InitData"
+dev_langs:
+ - c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

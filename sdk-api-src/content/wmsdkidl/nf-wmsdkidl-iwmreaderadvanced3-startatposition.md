@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced3.StartAtPosition
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

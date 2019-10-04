@@ -12,6 +12,8 @@ ms.keywords: GetStyles, GetStyles method [Media Foundation], GetStyles method [M
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSAMIStyle.GetStyles"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

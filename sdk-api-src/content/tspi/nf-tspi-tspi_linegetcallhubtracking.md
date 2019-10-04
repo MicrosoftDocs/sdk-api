@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetCallHubTracking, TSPI_lineGetCallHubTracking function [
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetCallHubTracking"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

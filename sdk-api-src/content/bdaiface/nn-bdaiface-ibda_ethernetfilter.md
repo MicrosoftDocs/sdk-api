@@ -12,6 +12,8 @@ ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_EthernetFilter"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

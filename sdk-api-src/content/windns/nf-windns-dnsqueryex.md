@@ -12,6 +12,8 @@ ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQu
 ms.topic: function
 f1_keywords:
 - windns/DnsQueryEx
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

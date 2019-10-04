@@ -12,6 +12,8 @@ ms.keywords: AddElement, AddElement method [Media Foundation], AddElement method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineSrcElements.AddElement"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

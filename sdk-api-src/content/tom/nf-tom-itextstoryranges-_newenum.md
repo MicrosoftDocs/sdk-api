@@ -12,6 +12,8 @@ ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITex
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStoryRanges._NewEnum"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

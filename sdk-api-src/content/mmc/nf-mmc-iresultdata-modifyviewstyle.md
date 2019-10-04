@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],ModifyViewStyle method, IResultData.Mod
 ms.topic: method
 f1_keywords:
 - mmc/IResultData.ModifyViewStyle
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

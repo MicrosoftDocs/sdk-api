@@ -12,6 +12,8 @@ ms.keywords: CopySid, CopySid function [Security], _win32_copysid, security.copy
 ms.topic: function
 f1_keywords:
 - securitybaseapi/CopySid
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

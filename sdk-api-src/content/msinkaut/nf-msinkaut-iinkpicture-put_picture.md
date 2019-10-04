@@ -12,6 +12,8 @@ ms.keywords: IInkPicture interface [Tablet PC],Picture property, IInkPicture.Pic
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.Picture"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

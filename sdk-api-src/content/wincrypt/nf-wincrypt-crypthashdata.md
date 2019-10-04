@@ -12,6 +12,8 @@ ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashDat
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptHashData"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

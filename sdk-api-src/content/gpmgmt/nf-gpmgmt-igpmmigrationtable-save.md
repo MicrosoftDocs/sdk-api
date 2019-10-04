@@ -12,6 +12,8 @@ ms.keywords: GPMMigrationTable class [GPMC],Save method, IGPMMigrationTable inte
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable.Save"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

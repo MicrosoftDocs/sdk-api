@@ -12,6 +12,8 @@ ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media F
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_ATTR_IMAGETYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

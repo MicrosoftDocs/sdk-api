@@ -12,6 +12,8 @@ ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnu
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.EndEnumeration"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

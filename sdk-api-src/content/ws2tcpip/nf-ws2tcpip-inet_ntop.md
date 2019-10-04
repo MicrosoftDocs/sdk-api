@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/InetNtop"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

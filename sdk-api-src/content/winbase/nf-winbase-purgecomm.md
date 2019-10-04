@@ -12,6 +12,8 @@ ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeCo
 ms.topic: function
 f1_keywords: 
  - "winbase/PurgeComm"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

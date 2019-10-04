@@ -12,6 +12,8 @@ ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITA
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgentSession.get_AverageTalkTime"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

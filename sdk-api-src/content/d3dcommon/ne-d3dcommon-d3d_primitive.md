@@ -12,6 +12,8 @@ ms.keywords: 99cc5cf0-144a-fb34-6910-4f605a726d2c, D3D11_PRIMITIVE, D3D11_PRIMIT
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D11_PRIMITIVE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

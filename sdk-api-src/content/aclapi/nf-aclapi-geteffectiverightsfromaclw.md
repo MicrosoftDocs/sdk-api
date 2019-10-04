@@ -12,6 +12,8 @@ ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Secu
 ms.topic: function
 f1_keywords:
 - aclapi/GetEffectiveRightsFromAcl
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

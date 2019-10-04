@@ -12,6 +12,8 @@ ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Stop me
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMDeviceControl.Stop"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

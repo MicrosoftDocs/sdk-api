@@ -12,6 +12,8 @@ ms.keywords: DeleteItem, DeleteItem method [Media Foundation], DeleteItem method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.DeleteItem"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

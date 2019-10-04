@@ -12,6 +12,8 @@ ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFun
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstance.GetID"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

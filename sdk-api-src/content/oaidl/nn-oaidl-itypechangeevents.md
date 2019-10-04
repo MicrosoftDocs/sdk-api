@@ -12,6 +12,8 @@ ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeC
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ITypeChangeEvents"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

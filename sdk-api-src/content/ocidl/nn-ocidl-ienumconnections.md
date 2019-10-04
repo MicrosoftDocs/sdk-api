@@ -12,6 +12,8 @@ ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnection
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IEnumConnections"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

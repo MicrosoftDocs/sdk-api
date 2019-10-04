@@ -12,6 +12,8 @@ ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for W
 ms.topic: function
 f1_keywords:
 - winnls/GetFileMUIInfo
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

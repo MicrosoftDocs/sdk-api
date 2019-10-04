@@ -12,6 +12,8 @@ ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTAL
 ms.topic: function
 f1_keywords: 
  - "msi/MsiEnumClientsEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

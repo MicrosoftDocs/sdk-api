@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFSourceBufferNotify"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

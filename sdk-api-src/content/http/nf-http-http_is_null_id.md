@@ -12,6 +12,8 @@ ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id
 ms.topic: macro
 f1_keywords: 
  - "http/HTTP_IS_NULL_ID"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

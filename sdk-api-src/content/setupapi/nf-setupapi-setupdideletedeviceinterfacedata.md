@@ -12,6 +12,8 @@ ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData 
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDeleteDeviceInterfaceData
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

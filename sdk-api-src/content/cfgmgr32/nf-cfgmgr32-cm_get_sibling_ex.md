@@ -12,6 +12,8 @@ ms.keywords: CM_Get_Sibling_Ex, CM_Get_Sibling_Ex function [Device and Driver In
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Sibling_Ex"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

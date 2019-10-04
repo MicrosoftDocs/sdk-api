@@ -12,6 +12,8 @@ ms.keywords: 8cf5f5f3-a3ad-4745-87e8-764ed118477a, GetShutdownStatus, GetShutdow
 ms.topic: method
 f1_keywords:
 - mfidl/IMFShutdown.GetShutdownStatus
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymCleanup"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

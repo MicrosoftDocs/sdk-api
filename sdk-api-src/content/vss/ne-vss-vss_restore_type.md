@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE enumerati
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_RESTORE_TYPE"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

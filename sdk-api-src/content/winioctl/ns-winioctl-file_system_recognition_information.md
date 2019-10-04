@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INF
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now
 ms.topic: interface
 f1_keywords: 
  - "wcndevice/IWCNConnectNotify"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

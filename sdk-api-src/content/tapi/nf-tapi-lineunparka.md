@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lin
 ms.topic: function
 f1_keywords: 
  - "tapi/lineUnpark"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

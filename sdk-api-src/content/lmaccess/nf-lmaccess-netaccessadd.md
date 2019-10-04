@@ -12,6 +12,8 @@ ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAccessAdd"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

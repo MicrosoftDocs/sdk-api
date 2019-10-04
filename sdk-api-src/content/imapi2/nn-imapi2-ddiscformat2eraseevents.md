@@ -12,6 +12,8 @@ ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI],
 ms.topic: interface
 f1_keywords: 
  - "imapi2/DDiscFormat2EraseEvents"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

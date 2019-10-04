@@ -12,6 +12,8 @@ ms.keywords: ActivateHandler, ActivateHandler method [Windows Shell], ActivateHa
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.ActivateHandler"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

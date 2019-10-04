@@ -12,6 +12,8 @@ ms.keywords: FAX_LOG_LEVEL_ENUM, FAX_LOG_LEVEL_ENUM enumeration [Fax Service], _
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_LOG_LEVEL_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

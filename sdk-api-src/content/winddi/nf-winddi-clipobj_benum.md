@@ -12,6 +12,8 @@ ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.cl
 ms.topic: function
 f1_keywords:
 - winddi/CLIPOBJ_bEnum
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

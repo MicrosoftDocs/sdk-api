@@ -12,6 +12,8 @@ ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority metho
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.GetPriority"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

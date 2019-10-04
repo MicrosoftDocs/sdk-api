@@ -12,6 +12,8 @@ ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecisio
 ms.topic: function
 f1_keywords: 
  - "winineti/InternetEnumPerSiteCookieDecision"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserFree64, HSTRING_UserFree64 function [Windows Runtime], 
 ms.topic: function
 f1_keywords: 
  - "inspectable/HSTRING_UserFree64"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

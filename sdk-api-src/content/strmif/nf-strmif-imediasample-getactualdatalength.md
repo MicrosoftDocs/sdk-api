@@ -12,6 +12,8 @@ ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetAc
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.GetActualDataLength"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

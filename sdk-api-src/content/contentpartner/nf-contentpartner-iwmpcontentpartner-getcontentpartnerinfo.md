@@ -12,6 +12,8 @@ ms.keywords: GetContentPartnerInfo, GetContentPartnerInfo method [Windows Media 
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetContentPartnerInfo"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

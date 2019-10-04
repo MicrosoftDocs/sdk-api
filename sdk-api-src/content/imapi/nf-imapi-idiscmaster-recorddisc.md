@@ -12,6 +12,8 @@ ms.keywords: IDiscMaster interface [IMAPI],RecordDisc method, IDiscMaster.Record
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.RecordDisc"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

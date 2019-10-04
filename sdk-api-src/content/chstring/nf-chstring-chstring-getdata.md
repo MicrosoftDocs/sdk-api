@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],GetData met
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.GetData"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

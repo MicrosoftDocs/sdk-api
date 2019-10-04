@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceQueryUpdateResult, MprAdminInterfaceQueryUpdateRes
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminInterfaceQueryUpdateResult"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

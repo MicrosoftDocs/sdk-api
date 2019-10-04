@@ -12,6 +12,8 @@ ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecon
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpFreeContext"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D]
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1CommandSink.DrawImage"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lr
 ms.topic: function
 f1_keywords: 
  - "winbase/_lread"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

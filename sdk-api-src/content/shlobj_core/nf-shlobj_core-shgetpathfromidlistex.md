@@ -12,6 +12,8 @@ ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDL
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetPathFromIDListEx"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

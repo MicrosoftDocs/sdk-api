@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecur
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.MapGeneric
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

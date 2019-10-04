@@ -12,6 +12,8 @@ ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qo
 ms.topic: function
 f1_keywords: 
  - "qos2/QOSRemoveSocketFromFlow"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "??0CHString@@QAE@PBE@Z, ??0CHString@@QEAA@PEBE@Z, CHString, CHStri
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.CHString"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

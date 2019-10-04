@@ -12,6 +12,8 @@ ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TransformPattern_Rotate"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

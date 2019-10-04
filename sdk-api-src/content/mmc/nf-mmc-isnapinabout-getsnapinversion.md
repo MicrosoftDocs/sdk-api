@@ -12,6 +12,8 @@ ms.keywords: GetSnapinVersion, GetSnapinVersion method [MMC], GetSnapinVersion m
 ms.topic: method
 f1_keywords: 
  - "mmc/ISnapinAbout.GetSnapinVersion"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

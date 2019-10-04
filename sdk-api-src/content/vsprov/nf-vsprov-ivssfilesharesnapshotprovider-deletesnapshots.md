@@ -12,6 +12,8 @@ ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots meth
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssFileShareSnapshotProvider.DeleteSnapshots"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

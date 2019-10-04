@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInGetID, mmeapi/waveInGetID, multimedia.waveingetid, wa
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInGetID"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

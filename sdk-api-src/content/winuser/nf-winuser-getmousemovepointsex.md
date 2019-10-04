@@ -12,6 +12,8 @@ ms.keywords: GMMP_USE_DISPLAY_POINTS, GMMP_USE_HIGH_RESOLUTION_POINTS, GetMouseM
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMouseMovePointsEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

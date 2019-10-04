@@ -12,6 +12,8 @@ ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVI
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

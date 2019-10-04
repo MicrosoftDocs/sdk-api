@@ -12,6 +12,8 @@ ms.keywords: DeviceSyncStateChange, DeviceSyncStateChange method [Windows Media 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents2.DeviceSyncStateChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

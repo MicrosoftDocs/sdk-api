@@ -12,6 +12,8 @@ ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.GetDefaultFileSystemForImport"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

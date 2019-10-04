@@ -12,6 +12,8 @@ ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID met
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDeviceID.GetDeviceID"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

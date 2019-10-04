@@ -12,6 +12,8 @@ ms.keywords: DateTime property [Windows Accessibility], DateTime property [Windo
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAnnotationProvider.DateTime"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

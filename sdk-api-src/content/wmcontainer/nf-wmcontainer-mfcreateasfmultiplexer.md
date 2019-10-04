@@ -12,6 +12,8 @@ ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCre
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFMultiplexer"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

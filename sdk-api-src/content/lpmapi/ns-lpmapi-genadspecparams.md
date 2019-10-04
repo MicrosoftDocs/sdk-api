@@ -12,6 +12,8 @@ ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecP
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/GenAdspecParams"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

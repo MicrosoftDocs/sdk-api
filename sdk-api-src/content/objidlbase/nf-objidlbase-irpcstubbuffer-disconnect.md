@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcSt
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcStubBuffer.Disconnect"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

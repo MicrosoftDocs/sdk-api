@@ -12,6 +12,8 @@ ms.keywords: WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_1, WLX_DISPATCH_VE
 ms.topic: function
 f1_keywords:
 - winwlx/WlxInitialize
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

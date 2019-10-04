@@ -12,6 +12,8 @@ ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.CopyAllItems"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

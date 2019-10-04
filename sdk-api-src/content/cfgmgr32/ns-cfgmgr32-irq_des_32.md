@@ -12,6 +12,8 @@ ms.keywords: "*PIRQ_DES_32, IRQ_DES, IRQ_DES structure [Device and Driver Instal
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/IRQ_DES"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

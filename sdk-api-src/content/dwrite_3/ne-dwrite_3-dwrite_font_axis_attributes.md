@@ -10,6 +10,8 @@ ms.keywords: DWRITE_FONT_AXIS_ATTRIBUTES, DWRITE_FONT_AXIS_ATTRIBUTES enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES"
+dev_langs:
+ - c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 

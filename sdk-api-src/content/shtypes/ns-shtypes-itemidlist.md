@@ -12,6 +12,8 @@ ms.keywords: '*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHIL
 ms.topic: struct
 f1_keywords:
 - shtypes/ITEMIDLIST
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

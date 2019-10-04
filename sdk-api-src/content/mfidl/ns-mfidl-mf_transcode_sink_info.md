@@ -12,6 +12,8 @@ ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Fou
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MF_TRANSCODE_SINK_INFO"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

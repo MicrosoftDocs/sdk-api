@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_LOGON_TYPE, Batch, CachedInteractive, CachedRemoteInter
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/SECURITY_LOGON_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

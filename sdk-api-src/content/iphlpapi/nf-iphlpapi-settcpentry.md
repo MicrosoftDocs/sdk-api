@@ -12,6 +12,8 @@ ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, 
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetTcpEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

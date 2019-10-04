@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiPortalGroup interface [VDS],QueryAssociatedPortals method,
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsIscsiPortalGroup.QueryAssociatedPortals"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

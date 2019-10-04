@@ -12,6 +12,8 @@ ms.keywords: DeleteThreshold, DeleteThreshold method [File Server Resource Manag
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaBase.DeleteThreshold"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

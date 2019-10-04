@@ -12,6 +12,8 @@ ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_AIA_URL_RETRIEVED_PROP_ID, CERT_ARC
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSetCertificateContextProperty
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

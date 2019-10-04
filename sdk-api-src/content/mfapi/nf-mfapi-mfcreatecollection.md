@@ -12,6 +12,8 @@ ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateC
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateCollection"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

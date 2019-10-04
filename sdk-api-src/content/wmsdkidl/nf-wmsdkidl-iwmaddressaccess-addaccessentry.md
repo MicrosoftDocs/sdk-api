@@ -12,6 +12,8 @@ ms.keywords: AddAccessEntry, AddAccessEntry method [windows Media Format], AddAc
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMAddressAccess.AddAccessEntry"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

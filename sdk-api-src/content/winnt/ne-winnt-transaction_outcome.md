@@ -12,6 +12,8 @@ ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Files], Trans
 ms.topic: enum
 f1_keywords: 
  - "winnt/TRANSACTION_OUTCOME"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

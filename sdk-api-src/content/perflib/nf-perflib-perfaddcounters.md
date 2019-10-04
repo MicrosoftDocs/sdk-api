@@ -12,6 +12,8 @@ ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcount
 ms.topic: function
 f1_keywords:
 - perflib/PerfAddCounters
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

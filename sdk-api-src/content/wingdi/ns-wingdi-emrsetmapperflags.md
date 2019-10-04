@@ -12,6 +12,8 @@ ms.keywords: "*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structur
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSETMAPPERFLAGS"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

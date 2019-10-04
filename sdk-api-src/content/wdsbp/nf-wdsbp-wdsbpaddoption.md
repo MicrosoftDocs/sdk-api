@@ -12,6 +12,8 @@ ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Service
 ms.topic: function
 f1_keywords: 
  - "wdsbp/WdsBpAddOption"
+dev_langs:
+ - c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

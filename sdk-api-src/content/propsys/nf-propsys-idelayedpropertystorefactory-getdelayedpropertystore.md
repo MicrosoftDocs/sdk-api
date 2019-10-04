@@ -12,6 +12,8 @@ ms.keywords: GetDelayedPropertyStore, GetDelayedPropertyStore method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "propsys/IDelayedPropertyStoreFactory.GetDelayedPropertyStore"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

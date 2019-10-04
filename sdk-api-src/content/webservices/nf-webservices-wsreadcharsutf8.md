@@ -12,6 +12,8 @@ ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows
 ms.topic: function
 f1_keywords: 
  - "webservices/WsReadCharsUtf8"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

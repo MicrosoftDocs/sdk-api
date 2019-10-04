@@ -12,6 +12,8 @@ ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IA
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext2.AddRoles"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOpti
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxSetOption
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

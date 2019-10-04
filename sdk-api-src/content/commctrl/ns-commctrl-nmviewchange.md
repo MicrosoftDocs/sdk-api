@@ -12,6 +12,8 @@ ms.keywords: '*LPNMVIEWCHANGE, LPNMVIEWCHANGE, LPNMVIEWCHANGE structure pointer 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMVIEWCHANGE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

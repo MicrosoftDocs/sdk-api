@@ -12,6 +12,8 @@ ms.keywords: ID3D12InfoQueue interface,PushEmptyRetrievalFilter method, ID3D12In
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12InfoQueue.PushEmptyRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

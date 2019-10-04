@@ -12,6 +12,8 @@ ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope met
 ms.topic: method
 f1_keywords: 
  - "medparam/IMediaParams.FlushEnvelope"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

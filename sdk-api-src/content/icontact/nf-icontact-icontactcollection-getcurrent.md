@@ -12,6 +12,8 @@ ms.keywords: GetCurrent, GetCurrent method [Windows Contacts], GetCurrent method
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactCollection.GetCurrent"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

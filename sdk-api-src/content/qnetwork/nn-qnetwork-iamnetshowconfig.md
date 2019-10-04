@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetSh
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

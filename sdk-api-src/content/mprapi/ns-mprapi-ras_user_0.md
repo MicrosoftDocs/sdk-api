@@ -12,6 +12,8 @@ ms.keywords: '*PRAS_USER_0, PRAS_USER_0, PRAS_USER_0 structure pointer [RAS], RA
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_USER_0
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

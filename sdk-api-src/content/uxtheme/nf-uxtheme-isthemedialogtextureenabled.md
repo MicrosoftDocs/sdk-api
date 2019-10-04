@@ -12,6 +12,8 @@ ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [
 ms.topic: function
 f1_keywords: 
  - "uxtheme/IsThemeDialogTextureEnabled"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

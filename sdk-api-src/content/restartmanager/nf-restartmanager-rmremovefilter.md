@@ -12,6 +12,8 @@ ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanag
 ms.topic: function
 f1_keywords:
 - restartmanager/RmRemoveFilter
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

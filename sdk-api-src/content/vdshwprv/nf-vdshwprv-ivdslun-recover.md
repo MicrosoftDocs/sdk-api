@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],Recover method, IVdsLun.Recover, IVdsLun::R
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.Recover"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

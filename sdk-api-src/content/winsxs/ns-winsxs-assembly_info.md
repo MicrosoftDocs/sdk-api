@@ -12,6 +12,8 @@ ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure
 ms.topic: struct
 f1_keywords: 
  - "winsxs/ASSEMBLY_INFO"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

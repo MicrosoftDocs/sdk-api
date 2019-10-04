@@ -12,6 +12,8 @@ ms.keywords: PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_WAIT, 
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/SetNamedPipeHandleState"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

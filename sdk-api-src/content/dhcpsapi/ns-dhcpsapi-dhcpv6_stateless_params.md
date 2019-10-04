@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, DHCPV6_STAT
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCPV6_STATELESS_PARAMS"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 234bd2fb-b886-b634-e4ec-4301f8dd951d, GetData, GetData method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.GetData"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

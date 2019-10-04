@@ -12,6 +12,8 @@ ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmsbuffer/IWMSBufferAllocator"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

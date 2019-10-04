@@ -12,6 +12,8 @@ ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, Im
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmNotifyIME"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcBindingInqAuthClient, RpcBindingInqAuthClient function [RPC], Rp
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingInqAuthClient"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation],
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributeSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 78a5ebad-c705-e895-65b2-37612b0e204e, CreateRenderTargetEx, CreateR
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.CreateRenderTargetEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

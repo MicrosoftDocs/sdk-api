@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSuspend.SuspendRoot"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

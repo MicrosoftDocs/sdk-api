@@ -12,6 +12,8 @@ ms.keywords: QueryDosDevice, QueryDosDevice function [Files], QueryDosDeviceA, Q
 ms.topic: function
 f1_keywords: 
  - "fileapi/QueryDosDevice"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

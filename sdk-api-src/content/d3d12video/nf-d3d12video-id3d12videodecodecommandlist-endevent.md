@@ -8,6 +8,10 @@ ms.assetid: 726e14bf-a98a-4554-8ad9-3bd931bc9fd9
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::EndEvent
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList::EndEvent, EndEvent, ID3D12VideoDecodeCommandList.EndEvent, ID3D12VideoDecodeCommandList::EndEvent, ID3D12VideoDecodeCommandList.EndEvent
 req.header: d3d12video.h
 req.include-header:

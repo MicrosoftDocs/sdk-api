@@ -12,6 +12,8 @@ ms.keywords: RasValidateEntryName, RasValidateEntryName function [RAS], RasValid
 ms.topic: function
 f1_keywords: 
  - "ras/RasValidateEntryName"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

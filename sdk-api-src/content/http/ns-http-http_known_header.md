@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER structur
 ms.topic: struct
 f1_keywords:
 - http/HTTP_KNOWN_HEADER
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

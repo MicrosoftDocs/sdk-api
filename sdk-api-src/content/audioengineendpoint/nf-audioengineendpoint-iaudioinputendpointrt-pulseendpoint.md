@@ -12,6 +12,8 @@ ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],PulseEndp
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioInputEndpointRT.PulseEndpoint"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

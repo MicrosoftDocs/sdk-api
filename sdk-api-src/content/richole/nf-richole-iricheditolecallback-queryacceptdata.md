@@ -12,6 +12,8 @@ ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData m
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.QueryAcceptData"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Members pro
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroup.Members"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

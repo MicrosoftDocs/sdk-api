@@ -12,6 +12,8 @@ ms.keywords: D3D12_SHADER_VERSION_TYPE, D3D12_SHADER_VERSION_TYPE enumeration, D
 ms.topic: enum
 f1_keywords:
 - d3d12shader/D3D12_SHADER_VERSION_TYPE
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

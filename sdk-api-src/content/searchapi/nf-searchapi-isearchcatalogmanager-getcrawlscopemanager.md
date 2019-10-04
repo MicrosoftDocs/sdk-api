@@ -12,6 +12,8 @@ ms.keywords: GetCrawlScopeManager, GetCrawlScopeManager method [search], GetCraw
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.GetCrawlScopeManager"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

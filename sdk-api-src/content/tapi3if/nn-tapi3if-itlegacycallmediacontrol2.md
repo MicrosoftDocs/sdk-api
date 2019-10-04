@@ -12,6 +12,8 @@ ms.keywords: ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAP
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

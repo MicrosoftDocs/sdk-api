@@ -12,6 +12,8 @@ ms.keywords: DeleteAtom, DeleteAtom function [Data Exchange], _win32_DeleteAtom,
 ms.topic: function
 f1_keywords: 
  - "winbase/DeleteAtom"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

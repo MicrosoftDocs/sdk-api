@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevel m
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.SetChannelVolumeLevel"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

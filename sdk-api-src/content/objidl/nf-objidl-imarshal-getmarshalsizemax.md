@@ -12,6 +12,8 @@ ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMa
 ms.topic: method
 f1_keywords: 
  - "objidl/IMarshal.GetMarshalSizeMax"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynthSink interface [Audio Devices],Init method, IDirec
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynthSink.Init"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

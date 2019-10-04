@@ -12,6 +12,8 @@ ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, URL_UNESCAPE_AS_UTF8, URL_UNESCAPE_IN
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlUnescape"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

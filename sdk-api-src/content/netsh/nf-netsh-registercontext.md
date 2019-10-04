@@ -12,6 +12,8 @@ ms.keywords: RegisterContext, RegisterContext function [NetShell], _netsh_regist
 ms.topic: function
 f1_keywords:
 - netsh/RegisterContext
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

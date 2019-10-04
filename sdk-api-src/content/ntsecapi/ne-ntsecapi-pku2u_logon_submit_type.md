@@ -12,6 +12,8 @@ ms.keywords: '*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SU
 ms.topic: enum
 f1_keywords:
 - ntsecapi/PKU2U_LOGON_SUBMIT_TYPE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

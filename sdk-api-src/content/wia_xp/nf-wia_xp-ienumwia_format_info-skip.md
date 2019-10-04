@@ -12,6 +12,8 @@ ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Skip method, IEnumWIA_FORMAT_I
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWIA_FORMAT_INFO.Skip"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

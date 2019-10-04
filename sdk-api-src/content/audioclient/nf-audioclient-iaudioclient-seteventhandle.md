@@ -12,6 +12,8 @@ ms.keywords: IAudioClient interface [Core Audio],SetEventHandle method, IAudioCl
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.SetEventHandle"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

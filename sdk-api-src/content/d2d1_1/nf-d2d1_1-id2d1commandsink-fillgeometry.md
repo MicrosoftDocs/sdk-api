@@ -12,6 +12,8 @@ ms.keywords: FillGeometry, FillGeometry method [Direct2D], FillGeometry method [
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1CommandSink.FillGeometry"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

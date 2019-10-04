@@ -12,6 +12,8 @@ ms.keywords: ADS_SECURITY_INFO_DACL, ADS_SECURITY_INFO_ENUM, ADS_SECURITY_INFO_E
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SECURITY_INFO_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

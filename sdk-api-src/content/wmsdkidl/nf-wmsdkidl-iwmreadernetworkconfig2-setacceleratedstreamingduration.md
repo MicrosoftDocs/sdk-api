@@ -12,6 +12,8 @@ ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAcceler
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

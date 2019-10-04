@@ -12,6 +12,8 @@ ms.keywords: WMT_CREDENTIAL_CLEAR_TEXT, WMT_CREDENTIAL_DONT_CACHE, WMT_CREDENTIA
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_CREDENTIAL_FLAGS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

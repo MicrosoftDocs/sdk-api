@@ -12,6 +12,8 @@ ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dc
 ms.topic: function
 f1_keywords: 
  - "dciman/DCIOpenProvider"
+dev_langs:
+ - c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

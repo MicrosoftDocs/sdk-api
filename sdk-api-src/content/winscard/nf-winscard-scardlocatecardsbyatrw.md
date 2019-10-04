@@ -12,6 +12,8 @@ ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], S
 ms.topic: function
 f1_keywords:
 - winscard/SCardLocateCardsByATR
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

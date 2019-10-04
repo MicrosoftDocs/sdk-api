@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents interface [Windows Media Player],KeyPress method, IWMPEv
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.KeyPress"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

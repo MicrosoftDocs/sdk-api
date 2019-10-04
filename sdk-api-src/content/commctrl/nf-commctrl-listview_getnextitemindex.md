@@ -12,6 +12,8 @@ ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetNextItemIndex"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

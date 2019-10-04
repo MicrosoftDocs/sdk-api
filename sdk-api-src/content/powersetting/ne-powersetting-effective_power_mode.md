@@ -12,6 +12,8 @@ ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePo
 ms.topic: enum
 f1_keywords: 
  - "powersetting/EFFECTIVE_POWER_MODE"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

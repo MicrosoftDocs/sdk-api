@@ -12,6 +12,8 @@ ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCo
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorCollection.CreateDataCollector"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

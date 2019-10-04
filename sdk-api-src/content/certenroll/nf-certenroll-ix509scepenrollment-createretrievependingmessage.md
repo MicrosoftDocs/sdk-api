@@ -12,6 +12,8 @@ ms.keywords: CreateRetrievePendingMessage, CreateRetrievePendingMessage method [
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509SCEPEnrollment.CreateRetrievePendingMessage"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

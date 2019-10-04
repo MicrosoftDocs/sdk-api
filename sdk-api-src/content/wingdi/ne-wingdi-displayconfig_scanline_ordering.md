@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_e6c7a4af-750c-4a3c-a89d-562448487abc.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_SCANLINE_ORDERING"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

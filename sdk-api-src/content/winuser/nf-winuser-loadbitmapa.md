@@ -12,6 +12,8 @@ ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBit
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadBitmap"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

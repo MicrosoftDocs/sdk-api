@@ -12,6 +12,8 @@ ms.keywords: SSIZETSub, SSIZETSub function [Windows Shell], intsafe/SSIZETSub, s
 ms.topic: function
 f1_keywords: 
  - "intsafe/SSIZETSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

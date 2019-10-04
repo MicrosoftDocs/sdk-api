@@ -12,6 +12,8 @@ ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUT
 ms.topic: method
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCache2.InitializeEx"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iu
 ms.topic: function
 f1_keywords: 
  - "unknwnbase/IUnknown_AddRef_Proxy"
+dev_langs:
+ - c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

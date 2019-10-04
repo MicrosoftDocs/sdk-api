@@ -12,6 +12,8 @@ ms.keywords: IPSEC_PFS_1, IPSEC_PFS_14, IPSEC_PFS_2, IPSEC_PFS_2048, IPSEC_PFS_2
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_PFS_GROUP"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

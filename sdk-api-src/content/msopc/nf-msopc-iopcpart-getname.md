@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName metho
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPart.GetName"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

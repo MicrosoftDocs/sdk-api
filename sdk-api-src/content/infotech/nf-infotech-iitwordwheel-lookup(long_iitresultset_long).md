@@ -12,6 +12,8 @@ ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordW
 ms.topic: method
 f1_keywords: 
  - "infotech/IITWordWheel.Lookup"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

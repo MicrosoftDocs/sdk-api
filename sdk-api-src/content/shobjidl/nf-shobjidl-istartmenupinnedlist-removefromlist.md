@@ -12,6 +12,8 @@ ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList metho
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IStartMenuPinnedList.RemoveFromList"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

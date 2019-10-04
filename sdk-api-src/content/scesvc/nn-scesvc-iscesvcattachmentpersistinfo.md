@@ -12,6 +12,8 @@ ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interfac
 ms.topic: interface
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentPersistInfo"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

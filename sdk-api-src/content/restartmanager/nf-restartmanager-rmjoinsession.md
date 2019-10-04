@@ -12,6 +12,8 @@ ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager
 ms.topic: function
 f1_keywords: 
  - "restartmanager/RmJoinSession"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

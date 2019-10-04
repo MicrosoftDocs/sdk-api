@@ -12,6 +12,8 @@ ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCO
 ms.topic: function
 f1_keywords: 
  - "intshcut/TranslateURL"
+dev_langs:
+ - c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union 
 ms.topic: struct
 f1_keywords: 
  - "spatialaudiohrtf/SpatialAudioHrtfDistanceDecay"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

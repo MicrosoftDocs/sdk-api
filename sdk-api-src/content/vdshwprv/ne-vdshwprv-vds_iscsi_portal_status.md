@@ -12,6 +12,8 @@ ms.keywords: VDS_IPS_FAILED, VDS_IPS_NOT_READY, VDS_IPS_OFFLINE, VDS_IPS_ONLINE,
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_ISCSI_PORTAL_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

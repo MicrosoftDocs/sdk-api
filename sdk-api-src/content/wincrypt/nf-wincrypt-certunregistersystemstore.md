@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregi
 ms.topic: function
 f1_keywords:
 - wincrypt/CertUnregisterSystemStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

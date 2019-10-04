@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Act
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_REPL_QUEUE_STATISTICSW"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

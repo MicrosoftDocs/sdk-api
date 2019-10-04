@@ -12,6 +12,8 @@ ms.keywords: CreateGuid, CreateGuid method [Windows Runtime], CreateGuid method 
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateGuid"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _d
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsO"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manage
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IMDSPStorage2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

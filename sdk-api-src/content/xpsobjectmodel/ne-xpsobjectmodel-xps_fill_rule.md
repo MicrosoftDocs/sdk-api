@@ -12,6 +12,8 @@ ms.keywords: XPS_FILL_RULE, XPS_FILL_RULE enumeration [XPS Documents and Packagi
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_FILL_RULE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

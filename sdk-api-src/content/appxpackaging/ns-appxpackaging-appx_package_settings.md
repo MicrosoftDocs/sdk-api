@@ -12,6 +12,8 @@ ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packagi
 ms.topic: struct
 f1_keywords: 
  - "appxpackaging/APPX_PACKAGE_SETTINGS"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

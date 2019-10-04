@@ -12,6 +12,8 @@ ms.keywords: GetStreamNumber, GetStreamNumber method [Media Foundation], GetStre
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.GetStreamNumber"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

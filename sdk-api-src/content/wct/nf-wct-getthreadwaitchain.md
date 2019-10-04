@@ -12,6 +12,8 @@ ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_CO
 ms.topic: function
 f1_keywords:
 - wct/GetThreadWaitChain
+dev_langs:
+ - c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

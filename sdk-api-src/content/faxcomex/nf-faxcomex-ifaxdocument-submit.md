@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],Submit method, IFaxDocument.Su
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.Submit"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

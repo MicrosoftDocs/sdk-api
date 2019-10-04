@@ -12,6 +12,8 @@ ms.keywords: INET_FIREWALL_AC_CHANGE_CREATE, INET_FIREWALL_AC_CHANGE_DELETE, INE
 ms.topic: enum
 f1_keywords:
 - netfw/INET_FIREWALL_AC_CHANGE_TYPE
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

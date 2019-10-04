@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IRunningO
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunningObjectTable.GetObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

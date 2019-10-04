@@ -12,6 +12,8 @@ ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Componen
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetColorContexts"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

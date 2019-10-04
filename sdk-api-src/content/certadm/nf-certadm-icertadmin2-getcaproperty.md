@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin object [Security],GetCAProperty method, CR_PROP_ADVANCED
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetCAProperty"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

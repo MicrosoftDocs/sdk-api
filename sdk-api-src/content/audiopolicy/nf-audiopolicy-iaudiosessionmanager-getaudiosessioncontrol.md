@@ -12,6 +12,8 @@ ms.keywords: GetAudioSessionControl, GetAudioSessionControl method [Core Audio],
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionManager.GetAudioSessionControl"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

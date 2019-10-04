@@ -12,6 +12,8 @@ ms.keywords: GetStreamCount, GetStreamCount method [Streaming Media Devices], Ge
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetStreamCount"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

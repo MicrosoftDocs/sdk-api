@@ -12,6 +12,8 @@ ms.keywords: IQueryParserManager interface [search],SetOption method, IQueryPars
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParserManager.SetOption"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick me
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemButton.OnClick"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

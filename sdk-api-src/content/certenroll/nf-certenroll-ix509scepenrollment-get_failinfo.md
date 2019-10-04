@@ -12,6 +12,8 @@ ms.keywords: FailInfo property [Security], FailInfo property [Security],IX509SCE
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509SCEPEnrollment.FailInfo"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

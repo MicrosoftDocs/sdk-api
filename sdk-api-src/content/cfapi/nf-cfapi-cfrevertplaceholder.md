@@ -12,6 +12,8 @@ ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPl
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfRevertPlaceholder"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

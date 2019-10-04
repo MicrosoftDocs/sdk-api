@@ -12,6 +12,8 @@ ms.keywords: GLYPHDATA, GLYPHDATA structure [Display Devices], display.glyphdata
 ms.topic: struct
 f1_keywords:
 - winddi/GLYPHDATA
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

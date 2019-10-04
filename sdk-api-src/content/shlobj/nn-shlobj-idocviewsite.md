@@ -12,6 +12,8 @@ ms.keywords: IDocViewSite, IDocViewSite interface [Windows Shell], IDocViewSite 
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IDocViewSite"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

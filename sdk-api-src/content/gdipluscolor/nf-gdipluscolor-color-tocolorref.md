@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],ToCOLORREF method, Color.ToCOLORREF, Color::ToCO
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.ToCOLORREF"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

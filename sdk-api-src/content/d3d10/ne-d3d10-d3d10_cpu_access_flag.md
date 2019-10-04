@@ -12,6 +12,8 @@ ms.keywords: 9751a6d6-e112-7fe3-72df-bf449b5579c2, D3D10_CPU_ACCESS_FLAG, D3D10_
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_CPU_ACCESS_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

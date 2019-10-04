@@ -12,6 +12,8 @@ ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BI
 ms.topic: enum
 f1_keywords: 
  - "bits5_0/BITS_FILE_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows

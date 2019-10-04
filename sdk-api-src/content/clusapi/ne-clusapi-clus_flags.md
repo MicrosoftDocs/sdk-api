@@ -12,6 +12,8 @@ ms.keywords: CLUS_FLAGS, CLUS_FLAGS enumeration [Failover Cluster], CLUS_FLAG_CO
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUS_FLAGS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3fab7f1b-b88c-a91c-065b-b66a46ea0606, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11UnorderedAccessView.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

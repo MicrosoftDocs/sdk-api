@@ -12,6 +12,8 @@ ms.keywords: GetParentEffect, GetParentEffect method [WPF Bitmap Effects], GetPa
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffect.GetParentEffect"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

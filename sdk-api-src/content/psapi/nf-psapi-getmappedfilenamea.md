@@ -12,6 +12,8 @@ ms.keywords: GetMappedFileName, GetMappedFileName function [PSAPI], GetMappedFil
 ms.topic: function
 f1_keywords: 
  - "psapi/GetMappedFileName"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

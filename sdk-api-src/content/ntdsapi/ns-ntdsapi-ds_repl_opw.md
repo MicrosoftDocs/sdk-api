@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_OP, DS_REPL_OP structure [Active Directory], DS_REPL_OPW, D
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_OP
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

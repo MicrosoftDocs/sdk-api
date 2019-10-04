@@ -12,6 +12,8 @@ ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetContrast me
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.SetContrast"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

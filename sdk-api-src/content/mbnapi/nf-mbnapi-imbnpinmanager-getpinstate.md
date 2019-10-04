@@ -12,6 +12,8 @@ ms.keywords: GetPinState, GetPinState method [Microsoft Broadband Networks], Get
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPinManager.GetPinState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

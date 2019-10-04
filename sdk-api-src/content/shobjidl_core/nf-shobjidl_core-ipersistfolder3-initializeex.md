@@ -12,6 +12,8 @@ ms.keywords: IPersistFolder3 interface [Windows Shell],InitializeEx method, IPer
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPersistFolder3.InitializeEx"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

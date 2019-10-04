@@ -12,6 +12,8 @@ ms.keywords: 1, NetLocalGroupGetInfo, NetLocalGroupGetInfo function [Network Man
 ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupGetInfo
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

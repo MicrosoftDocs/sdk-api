@@ -12,6 +12,8 @@ ms.keywords: CoQueryClientBlanket, CoQueryClientBlanket function [COM], _com_CoQ
 ms.topic: function
 f1_keywords:
 - combaseapi/CoQueryClientBlanket
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

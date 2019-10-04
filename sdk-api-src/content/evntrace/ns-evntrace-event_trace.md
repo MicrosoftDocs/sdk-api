@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TR
 ms.topic: struct
 f1_keywords:
 - evntrace/EVENT_TRACE
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

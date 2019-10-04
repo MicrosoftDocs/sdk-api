@@ -12,6 +12,8 @@ ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsPathname"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

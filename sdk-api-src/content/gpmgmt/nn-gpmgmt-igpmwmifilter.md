@@ -12,6 +12,8 @@ ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWM
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMWMIFilter"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioFlush, mmioFlush, mmioFlush function [Windows Multimedi
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioFlush"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

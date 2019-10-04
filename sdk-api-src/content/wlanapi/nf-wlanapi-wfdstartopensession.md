@@ -12,6 +12,8 @@ ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwi
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDStartOpenSession"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

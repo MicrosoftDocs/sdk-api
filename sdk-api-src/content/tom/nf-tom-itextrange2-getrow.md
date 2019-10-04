@@ -12,6 +12,8 @@ ms.keywords: GetRow, GetRow method [Windows Controls], GetRow method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetRow"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

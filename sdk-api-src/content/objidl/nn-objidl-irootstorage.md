@@ -12,6 +12,8 @@ ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootSto
 ms.topic: interface
 f1_keywords: 
  - "objidl/IRootStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

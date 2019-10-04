@@ -12,6 +12,8 @@ ms.keywords: WS_DNS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOI
 ms.topic: enum
 f1_keywords:
 - webservices/WS_ENDPOINT_IDENTITY_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

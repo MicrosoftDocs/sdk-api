@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],Servi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsConfiguration.ServiceCenterAddress"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
 req.target-type: Windows

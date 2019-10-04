@@ -12,6 +12,8 @@ ms.keywords: IMDSPDevice interface [windows Media Device Manager],SendOpaqueComm
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice.SendOpaqueCommand"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

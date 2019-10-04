@@ -12,6 +12,8 @@ ms.keywords: "_win32_getpeername_2, getpeername, getpeername function [Winsock],
 ms.topic: function
 f1_keywords: 
  - "winsock2/getpeername"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

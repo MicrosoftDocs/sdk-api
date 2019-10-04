@@ -12,6 +12,8 @@ ms.keywords: WMPNotifyPluginAddRemove_Subscriptions, WMPNotifySubscriptionPlugin
 ms.topic: function
 f1_keywords: 
  - "subscriptionservices/WMPNotifySubscriptionPluginAddRemove"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: Subscriptionservices.h
 req.target-type: Windows

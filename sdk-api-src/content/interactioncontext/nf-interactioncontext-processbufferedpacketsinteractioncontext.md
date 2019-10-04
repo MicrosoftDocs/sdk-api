@@ -12,6 +12,8 @@ ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInt
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/ProcessBufferedPacketsInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

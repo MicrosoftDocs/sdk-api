@@ -12,6 +12,8 @@ ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], Get
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteBitmapRenderTarget.GetCurrentTransform"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

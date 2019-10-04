@@ -12,6 +12,8 @@ ms.keywords: ITransportParameters, ITransportParameters interface [Media Streami
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/ITransportParameters"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

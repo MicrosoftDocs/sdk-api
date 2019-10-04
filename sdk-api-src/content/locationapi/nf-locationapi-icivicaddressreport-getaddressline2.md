@@ -12,6 +12,8 @@ ms.keywords: GetAddressLine2, GetAddressLine2 method [WinLocation], GetAddressLi
 ms.topic: method
 f1_keywords: 
  - "locationapi/ICivicAddressReport.GetAddressLine2"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

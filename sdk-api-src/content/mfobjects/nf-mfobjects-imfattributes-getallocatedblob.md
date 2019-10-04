@@ -12,6 +12,8 @@ ms.keywords: 380e0e3a-b5c5-4d31-8793-417262377fef, GetAllocatedBlob, GetAllocate
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetAllocatedBlob
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

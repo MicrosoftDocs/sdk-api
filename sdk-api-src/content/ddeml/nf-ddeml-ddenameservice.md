@@ -12,6 +12,8 @@ ms.keywords: DNS_FILTEROFF, DNS_FILTERON, DNS_REGISTER, DNS_UNREGISTER, DdeNameS
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeNameService"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

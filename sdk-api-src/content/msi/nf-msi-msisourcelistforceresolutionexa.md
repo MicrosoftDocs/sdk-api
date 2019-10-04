@@ -12,6 +12,8 @@ ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTA
 ms.topic: function
 f1_keywords: 
  - "msi/MsiSourceListForceResolutionEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

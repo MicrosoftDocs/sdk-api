@@ -12,6 +12,8 @@ ms.keywords: SHShellFolderView_Message, SHShellFolderView_Message function [Wind
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHShellFolderView_Message"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

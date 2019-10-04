@@ -12,6 +12,8 @@ ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],SetBuffer 
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioDeviceEndpoint.SetBuffer"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

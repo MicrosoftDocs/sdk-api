@@ -12,6 +12,8 @@ ms.keywords: '*LPNMKEY, LPNMKEY, LPNMKEY structure pointer [Windows Controls], N
 ms.topic: struct
 f1_keywords:
 - commctrl/NMKEY
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDisk
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupAddInstallSectionToDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

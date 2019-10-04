@@ -12,6 +12,8 @@ ms.keywords: '*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_P
 ms.topic: struct
 f1_keywords:
 - mstcpip/INET_PORT_RESERVATION_TOKEN
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

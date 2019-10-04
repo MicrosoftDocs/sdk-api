@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],LockBits method, Bitmap.LockBits, Bitmap::LockB
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.LockBits"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

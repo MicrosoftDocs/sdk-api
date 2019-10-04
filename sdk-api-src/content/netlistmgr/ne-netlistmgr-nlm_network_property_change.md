@@ -12,6 +12,8 @@ ms.keywords: NLM_NETWORK_PROPERTY_CHANGE, NLM_NETWORK_PROPERTY_CHANGE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_NETWORK_PROPERTY_CHANGE"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

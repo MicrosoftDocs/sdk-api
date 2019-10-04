@@ -12,6 +12,8 @@ ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx functi
 ms.topic: function
 f1_keywords: 
  - "realtimeapiset/QueryIdleProcessorCycleTimeEx"
+dev_langs:
+ - c++
 req.header: realtimeapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

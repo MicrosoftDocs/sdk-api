@@ -12,6 +12,8 @@ ms.keywords: CM_ENUM_ALL, CM_ENUM_FLAGS, CM_ENUM_FLAGS enumeration [Windows Shel
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CM_ENUM_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddResourceType, AddResourceType method [Remote Desktop Services], 
 ms.topic: method
 f1_keywords: 
  - "workspaceax/IWorkspaceResTypeRegistry.AddResourceType"
+dev_langs:
+ - c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

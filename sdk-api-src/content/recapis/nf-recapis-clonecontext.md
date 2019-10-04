@@ -12,6 +12,8 @@ ms.keywords: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d, CloneContext, CloneContext fu
 ms.topic: function
 f1_keywords: 
  - "recapis/CloneContext"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

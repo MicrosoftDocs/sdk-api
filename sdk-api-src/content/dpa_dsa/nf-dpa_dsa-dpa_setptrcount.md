@@ -12,6 +12,8 @@ ms.keywords: DPA_SetPtrCount, DPA_SetPtrCount macro [Windows Controls], _shell_D
 ms.topic: macro
 f1_keywords: 
  - "dpa_dsa/DPA_SetPtrCount"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

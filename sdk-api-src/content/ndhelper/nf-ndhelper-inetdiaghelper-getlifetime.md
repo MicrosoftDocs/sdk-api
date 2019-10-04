@@ -12,6 +12,8 @@ ms.keywords: GetLifeTime, GetLifeTime method [NDF], GetLifeTime method [NDF],INe
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetLifeTime"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

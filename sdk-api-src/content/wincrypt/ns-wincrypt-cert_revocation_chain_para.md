@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CER
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_REVOCATION_CHAIN_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

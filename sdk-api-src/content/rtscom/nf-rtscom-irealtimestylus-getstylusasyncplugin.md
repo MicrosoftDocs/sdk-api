@@ -12,6 +12,8 @@ ms.keywords: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f, GetStylusAsyncPlugin, GetStyl
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetStylusAsyncPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer 
 ms.topic: struct
 f1_keywords:
 - uiribbon/UI_EVENTPARAMS_COMMAND
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

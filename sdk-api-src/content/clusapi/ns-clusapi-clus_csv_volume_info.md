@@ -12,6 +12,8 @@ ms.keywords: '*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUS_CSV_VOLUME_INFO
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

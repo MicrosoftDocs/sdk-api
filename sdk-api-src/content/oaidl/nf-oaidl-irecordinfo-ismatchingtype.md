@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordIn
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.IsMatchingType"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

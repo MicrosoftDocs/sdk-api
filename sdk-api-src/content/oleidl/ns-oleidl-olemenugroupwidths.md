@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS 
 ms.topic: struct
 f1_keywords: 
  - "oleidl/OLEMENUGROUPWIDTHS"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

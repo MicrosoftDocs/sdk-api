@@ -12,6 +12,8 @@ ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Found
 ms.topic: struct
 f1_keywords: 
  - "mfcaptureengine/MFVideoNormalizedRect"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: Mfcaptureengine.h, Mfmediaengine.h
 req.target-type: Windows

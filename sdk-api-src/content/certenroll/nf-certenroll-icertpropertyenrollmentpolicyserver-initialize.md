@@ -12,6 +12,8 @@ ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServ
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollmentPolicyServer.Initialize"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

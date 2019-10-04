@@ -12,6 +12,8 @@ ms.keywords: EXPORTLISTOPTIONS, ExportListOptions, ExportListOptions enumeration
 ms.topic: enum
 f1_keywords: 
  - "mmcobj/_ExportListOptions"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

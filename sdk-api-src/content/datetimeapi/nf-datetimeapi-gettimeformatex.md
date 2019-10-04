@@ -12,6 +12,8 @@ ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "datetimeapi/GetTimeFormatEx"
+dev_langs:
+ - c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows

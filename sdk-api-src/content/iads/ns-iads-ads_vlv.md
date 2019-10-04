@@ -12,6 +12,8 @@ ms.keywords: "*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ds_ads_vlv, adsi.ad
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_VLV"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

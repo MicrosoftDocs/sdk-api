@@ -12,6 +12,8 @@ ms.keywords: "*PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, PTOUCH_HIT_TESTING_PROXI
 ms.topic: struct
 f1_keywords: 
  - "winuser/TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

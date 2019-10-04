@@ -12,6 +12,8 @@ ms.keywords: MFCreateWMVEncoderActivate, MFCreateWMVEncoderActivate function [Me
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateWMVEncoderActivate"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

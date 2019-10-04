@@ -12,6 +12,8 @@ ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallHub method, ITCallInfo.get_
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallInfo.get_CallHub"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

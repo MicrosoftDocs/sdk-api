@@ -12,6 +12,8 @@ ms.keywords: GetEventDrivenCapable, GetEventDrivenCapable method [Remote Desktop
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioDeviceEndpoint.GetEventDrivenCapable"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

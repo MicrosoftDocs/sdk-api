@@ -12,6 +12,8 @@ ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Contro
 ms.topic: function
 f1_keywords: 
  - "commctrl/InitCommonControlsEx"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

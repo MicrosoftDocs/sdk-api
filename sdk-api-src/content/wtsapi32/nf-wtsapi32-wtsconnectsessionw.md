@@ -12,6 +12,8 @@ ms.keywords: WTSConnectSession, WTSConnectSession function [Remote Desktop Servi
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSConnectSession"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

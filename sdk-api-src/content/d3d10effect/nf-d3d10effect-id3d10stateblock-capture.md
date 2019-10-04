@@ -12,6 +12,8 @@ ms.keywords: 9484ba4e-87ec-bd46-89ed-f4dc19c3d6e2, Capture, Capture method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10StateBlock.Capture"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

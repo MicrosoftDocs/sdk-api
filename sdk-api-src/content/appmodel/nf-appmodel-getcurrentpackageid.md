@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPackageId, GetCurrentPackageId function [App packaging an
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetCurrentPackageId"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncCallback.CanContinue"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface 
 ms.topic: interface
 f1_keywords: 
  - "identityprovider/IAssociatedIdentityProvider"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

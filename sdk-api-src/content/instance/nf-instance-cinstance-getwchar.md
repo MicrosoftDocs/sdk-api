@@ -12,6 +12,8 @@ ms.keywords: CInstance interface [Windows Management Instrumentation],GetWCHAR m
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetWCHAR"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

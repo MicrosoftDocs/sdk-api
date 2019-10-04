@@ -12,6 +12,8 @@ ms.keywords: GetSmallCaps, GetSmallCaps method [Windows Controls], GetSmallCaps 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetSmallCaps"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

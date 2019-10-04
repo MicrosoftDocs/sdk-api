@@ -12,6 +12,8 @@ ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mi
 ms.topic: function
 f1_keywords: 
  - "xaudio2fx/XAudio2CreateReverb"
+dev_langs:
+ - c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

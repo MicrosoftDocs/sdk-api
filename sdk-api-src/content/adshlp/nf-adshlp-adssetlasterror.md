@@ -12,6 +12,8 @@ ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterr
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsSetLastError"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

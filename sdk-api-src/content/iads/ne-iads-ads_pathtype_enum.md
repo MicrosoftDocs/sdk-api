@@ -12,6 +12,8 @@ ms.keywords: ADS_PATHTYPE_ENUM, ADS_PATHTYPE_ENUM enumeration [ADSI], ADS_PATH_F
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_PATHTYPE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

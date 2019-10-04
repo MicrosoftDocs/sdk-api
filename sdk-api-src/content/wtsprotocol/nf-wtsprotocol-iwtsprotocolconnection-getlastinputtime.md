@@ -12,6 +12,8 @@ ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolConnection.GetLastInputTime"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

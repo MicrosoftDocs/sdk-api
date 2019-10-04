@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_Q
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE, D3D12_ROOT_DESCRIPTOR_TABLE structure,
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_ROOT_DESCRIPTOR_TABLE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

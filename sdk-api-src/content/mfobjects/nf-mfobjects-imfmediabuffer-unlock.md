@@ -12,6 +12,8 @@ ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer.Unlock"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

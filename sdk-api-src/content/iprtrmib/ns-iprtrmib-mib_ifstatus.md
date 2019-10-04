@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IFSTATUS, MIB_IFSTATUS, MIB_IFSTATUS structure [MIB], PMIB_I
 ms.topic: struct
 f1_keywords:
 - iprtrmib/MIB_IFSTATUS
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

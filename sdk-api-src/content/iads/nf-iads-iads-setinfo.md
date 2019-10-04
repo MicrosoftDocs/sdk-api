@@ -12,6 +12,8 @@ ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, 
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.SetInfo"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

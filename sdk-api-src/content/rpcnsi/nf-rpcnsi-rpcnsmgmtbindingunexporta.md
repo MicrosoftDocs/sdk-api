@@ -12,6 +12,8 @@ ms.keywords: RPC_C_VERS_ALL, RPC_C_VERS_EXACT, RPC_C_VERS_IF_ID, RPC_C_VERS_MAJO
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsMgmtBindingUnexport"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

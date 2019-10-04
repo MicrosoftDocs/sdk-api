@@ -12,6 +12,8 @@ ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winp
 ms.topic: function
 f1_keywords: 
  - "fci/FCIDestroy"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

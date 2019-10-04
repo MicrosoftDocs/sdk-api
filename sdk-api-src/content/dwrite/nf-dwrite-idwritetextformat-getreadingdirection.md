@@ -12,6 +12,8 @@ ms.keywords: GetReadingDirection, GetReadingDirection method [Direct Write], Get
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetReadingDirection"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

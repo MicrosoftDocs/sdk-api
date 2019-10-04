@@ -12,6 +12,8 @@ ms.keywords: 7f45df8f-0b5b-32e5-034b-617be140be7c, D3D11_SHADER_VERSION_TYPE, D3
 ms.topic: enum
 f1_keywords: 
  - "d3d11shader/D3D11_SHADER_VERSION_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

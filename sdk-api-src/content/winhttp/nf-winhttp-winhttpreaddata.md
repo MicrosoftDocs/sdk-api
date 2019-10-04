@@ -12,6 +12,8 @@ ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpre
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpReadData"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

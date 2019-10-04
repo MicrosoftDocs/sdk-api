@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestPkcs10 interface [Security],ReuseKey propert
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestPkcs10.ReuseKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

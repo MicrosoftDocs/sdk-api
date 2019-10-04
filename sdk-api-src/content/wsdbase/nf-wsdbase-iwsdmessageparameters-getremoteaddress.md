@@ -12,6 +12,8 @@ ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDMessageParameters.GetRemoteAddress"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

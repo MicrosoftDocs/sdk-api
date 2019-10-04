@@ -12,6 +12,8 @@ ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [W
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.CompareIDs
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

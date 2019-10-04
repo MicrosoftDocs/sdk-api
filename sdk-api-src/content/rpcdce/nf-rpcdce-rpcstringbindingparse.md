@@ -12,6 +12,8 @@ ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStr
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcStringBindingParse"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

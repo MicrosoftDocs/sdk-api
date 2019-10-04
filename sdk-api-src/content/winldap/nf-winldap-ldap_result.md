@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_resul
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_result"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

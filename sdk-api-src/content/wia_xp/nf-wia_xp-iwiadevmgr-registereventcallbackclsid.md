@@ -12,6 +12,8 @@ ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaD
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDevMgr.RegisterEventCallbackCLSID
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

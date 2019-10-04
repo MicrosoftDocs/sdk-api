@@ -12,6 +12,8 @@ ms.keywords: '*LPDDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA,
 ms.topic: struct
 f1_keywords:
 - ddrawi/DDHAL_WAITFORVERTICALBLANKDATA
+dev_langs:
+ - c++
 req.header: ddrawi.h
 req.include-header: Winddi.h, Ddrawi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

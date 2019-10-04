@@ -12,6 +12,8 @@ ms.keywords: ITsSbTarget interface [Remote Desktop Services],NumPendingConnectio
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTarget.NumPendingConnections"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

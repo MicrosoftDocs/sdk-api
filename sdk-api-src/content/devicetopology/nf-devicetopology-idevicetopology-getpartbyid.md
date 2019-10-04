@@ -12,6 +12,8 @@ ms.keywords: GetPartById, GetPartById method [Core Audio], GetPartById method [C
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceTopology.GetPartById"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_CO
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_SNAPSHOT_COMPATIBILITY"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

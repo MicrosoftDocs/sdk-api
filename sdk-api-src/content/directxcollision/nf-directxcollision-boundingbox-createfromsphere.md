@@ -12,6 +12,8 @@ ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateFromSphere 
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingBox.CreateFromSphere"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

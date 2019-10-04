@@ -12,6 +12,8 @@ ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback, PFN_WdsC
 ms.topic: callback
 f1_keywords: 
  - "wdsclientapi/PFN_WdsCliTraceFunction"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

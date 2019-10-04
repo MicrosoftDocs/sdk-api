@@ -12,6 +12,8 @@ ms.keywords: DhcpSetOptionInfo, DhcpSetOptionInfo function [DHCP], dhcp.dhcpseto
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetOptionInfo
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

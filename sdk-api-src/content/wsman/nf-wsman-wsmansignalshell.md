@@ -12,6 +12,8 @@ ms.keywords: WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C,
 ms.topic: function
 f1_keywords:
 - wsman/WSManSignalShell
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

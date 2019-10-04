@@ -12,6 +12,8 @@ ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Role p
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.Role"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

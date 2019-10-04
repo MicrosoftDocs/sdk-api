@@ -12,6 +12,8 @@ ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageCo
 ms.topic: callback
 f1_keywords: 
  - "imagehlp/StatusRoutine"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

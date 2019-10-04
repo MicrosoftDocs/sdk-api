@@ -12,6 +12,8 @@ ms.keywords: '*PJOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_I
 ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

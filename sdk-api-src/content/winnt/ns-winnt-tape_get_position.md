@@ -12,6 +12,8 @@ ms.keywords: "*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION struct
 ms.topic: struct
 f1_keywords: 
  - "winnt/TAPE_GET_POSITION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

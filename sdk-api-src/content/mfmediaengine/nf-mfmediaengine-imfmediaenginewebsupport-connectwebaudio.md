@@ -12,6 +12,8 @@ ms.keywords: ConnectWebAudio, ConnectWebAudio method [Media Foundation], Connect
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineWebSupport.ConnectWebAudio"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

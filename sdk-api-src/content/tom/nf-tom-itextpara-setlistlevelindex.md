@@ -12,6 +12,8 @@ ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, IT
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.SetListLevelIndex"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

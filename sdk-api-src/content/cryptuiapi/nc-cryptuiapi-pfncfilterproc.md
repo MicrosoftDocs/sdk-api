@@ -12,6 +12,8 @@ ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback fu
 ms.topic: callback
 f1_keywords:
 - cryptuiapi/PFNCFILTERPROC
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

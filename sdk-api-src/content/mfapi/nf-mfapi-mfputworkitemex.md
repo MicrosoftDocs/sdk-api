@@ -12,6 +12,8 @@ ms.keywords: 67b4f7c6-0d49-4ed0-9bc3-e583451884af, MFPutWorkItemEx, MFPutWorkIte
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFPutWorkItemEx"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

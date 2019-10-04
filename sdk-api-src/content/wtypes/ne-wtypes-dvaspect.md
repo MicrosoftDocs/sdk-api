@@ -12,6 +12,8 @@ ms.keywords: DVASPECT, DVASPECT enumeration [COM], DVASPECT_CONTENT, DVASPECT_DO
 ms.topic: enum
 f1_keywords: 
  - "wtypes/DVASPECT"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDMLCompiledOperator, IDMLCompiledOperator interface, IDMLCompiledO
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLCompiledOperator"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

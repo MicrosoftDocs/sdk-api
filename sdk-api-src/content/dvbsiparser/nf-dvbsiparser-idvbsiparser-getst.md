@@ -12,6 +12,8 @@ ms.keywords: GetST, GetST method [Microsoft TV Technologies], GetST method [Micr
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetST"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

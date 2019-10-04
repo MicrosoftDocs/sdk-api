@@ -12,6 +12,8 @@ ms.keywords: ConvertInterfaceLuidToGuid, ConvertInterfaceLuidToGuid function [IP
 ms.topic: function
 f1_keywords: 
  - "netioapi/ConvertInterfaceLuidToGuid"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], Del
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.DeleteVarDescByMemId"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

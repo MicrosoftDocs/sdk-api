@@ -12,6 +12,8 @@ ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDD
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDCOLORKEY"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupSe
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2LookupServiceNextEx
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

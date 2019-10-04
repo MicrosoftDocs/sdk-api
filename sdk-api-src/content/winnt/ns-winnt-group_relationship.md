@@ -12,6 +12,8 @@ ms.keywords: '*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP struc
 ms.topic: struct
 f1_keywords:
 - winnt/GROUP_RELATIONSHIP
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

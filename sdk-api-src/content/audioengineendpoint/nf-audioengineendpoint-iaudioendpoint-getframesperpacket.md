@@ -12,6 +12,8 @@ ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Servi
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpoint.GetFramesPerPacket"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

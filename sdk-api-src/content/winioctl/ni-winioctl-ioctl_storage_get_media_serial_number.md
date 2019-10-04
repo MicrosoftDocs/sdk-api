@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERI
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

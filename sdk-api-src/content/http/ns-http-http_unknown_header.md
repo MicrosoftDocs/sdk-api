@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER st
 ms.topic: struct
 f1_keywords:
 - http/HTTP_UNKNOWN_HEADER
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

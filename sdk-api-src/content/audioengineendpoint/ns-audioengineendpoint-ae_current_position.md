@@ -12,6 +12,8 @@ ms.keywords: "*PAE_CURRENT_POSITION, AE_CURRENT_POSITION, AE_CURRENT_POSITION st
 ms.topic: struct
 f1_keywords: 
  - "audioengineendpoint/AE_CURRENT_POSITION"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

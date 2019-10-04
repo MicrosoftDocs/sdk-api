@@ -12,6 +12,8 @@ ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDE
 ms.topic: struct
 f1_keywords: 
  - "amvideo/ANALOGVIDEOINFO"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

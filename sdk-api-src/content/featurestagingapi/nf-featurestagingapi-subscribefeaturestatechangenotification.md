@@ -12,6 +12,8 @@ ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChang
 ms.topic: function
 f1_keywords: 
  - "featurestagingapi/SubscribeFeatureStateChangeNotification"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

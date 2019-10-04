@@ -12,6 +12,8 @@ ms.keywords: SCardListInterfaces, SCardListInterfaces function [Security], SCard
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardListInterfaces"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

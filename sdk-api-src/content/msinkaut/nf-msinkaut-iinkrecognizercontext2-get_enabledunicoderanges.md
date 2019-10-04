@@ -12,6 +12,8 @@ ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges pro
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext2.EnabledUnicodeRanges"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

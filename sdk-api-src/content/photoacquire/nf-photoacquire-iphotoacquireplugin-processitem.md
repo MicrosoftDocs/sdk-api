@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem met
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquirePlugin.ProcessItem"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

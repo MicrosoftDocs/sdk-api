@@ -12,6 +12,8 @@ ms.keywords: GetProcessCount, GetProcessCount method [Media Foundation], GetProc
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorActivityReport.GetProcessCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

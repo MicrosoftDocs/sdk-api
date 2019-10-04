@@ -12,6 +12,8 @@ ms.keywords: PerfSetULongCounterValue, PerfSetULongCounterValue function [Perf],
 ms.topic: function
 f1_keywords:
 - perflib/PerfSetULongCounterValue
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

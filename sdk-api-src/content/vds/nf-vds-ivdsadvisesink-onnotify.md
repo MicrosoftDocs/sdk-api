@@ -12,6 +12,8 @@ ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNo
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdviseSink.OnNotify
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

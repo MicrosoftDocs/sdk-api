@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManage
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

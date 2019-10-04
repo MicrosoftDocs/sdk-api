@@ -12,6 +12,8 @@ ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_in
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/ResetInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

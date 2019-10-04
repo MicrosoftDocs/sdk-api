@@ -12,6 +12,8 @@ ms.keywords: NET_INTERFACE_CONTEXT_TABLE, NET_INTERFACE_CONTEXT_TABLE structure 
 ms.topic: struct
 f1_keywords: 
  - "ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE"
+dev_langs:
+ - c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

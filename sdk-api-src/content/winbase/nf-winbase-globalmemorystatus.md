@@ -12,6 +12,8 @@ ms.keywords: GlobalMemoryStatus, GlobalMemoryStatus function, _win32_globalmemor
 ms.topic: function
 f1_keywords:
 - winbase/GlobalMemoryStatus
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

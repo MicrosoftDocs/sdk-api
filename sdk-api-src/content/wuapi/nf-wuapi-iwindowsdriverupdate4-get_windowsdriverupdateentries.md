@@ -12,6 +12,8 @@ ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],WindowsDrive
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate4.WindowsDriverUpdateEntries"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

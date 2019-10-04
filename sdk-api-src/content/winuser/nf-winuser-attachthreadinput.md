@@ -12,6 +12,8 @@ ms.keywords: AttachThreadInput, AttachThreadInput function, _win32_attachthreadi
 ms.topic: function
 f1_keywords: 
  - "winuser/AttachThreadInput"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetComponentGroupType, GetComponentGroupType method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbComponentGroupDescriptor.GetComponentGroupType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

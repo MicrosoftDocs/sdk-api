@@ -12,6 +12,8 @@ ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBru
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.GetImage"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

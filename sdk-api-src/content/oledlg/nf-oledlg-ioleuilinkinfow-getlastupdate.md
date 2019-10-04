@@ -12,6 +12,8 @@ ms.keywords: GetLastUpdate, GetLastUpdate method [COM], GetLastUpdate method [CO
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkInfo.GetLastUpdate"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

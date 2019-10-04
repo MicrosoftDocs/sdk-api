@@ -12,6 +12,8 @@ ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITrace
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.BuffersWritten"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

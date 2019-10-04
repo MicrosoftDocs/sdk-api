@@ -12,6 +12,8 @@ ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _slate_rdcompare, mmc.rdcompa
 ms.topic: struct
 f1_keywords: 
  - "mmc/RDCOMPARE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

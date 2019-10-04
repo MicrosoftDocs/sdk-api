@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server R
 ms.topic: interface
 f1_keywords: 
  - "fsrmreports/IFsrmReportScheduler"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

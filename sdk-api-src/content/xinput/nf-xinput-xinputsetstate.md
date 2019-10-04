@@ -12,6 +12,8 @@ ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller API
 ms.topic: function
 f1_keywords:
 - xinput/XInputSetState
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

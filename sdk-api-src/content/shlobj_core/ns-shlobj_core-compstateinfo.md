@@ -12,6 +12,8 @@ ms.keywords: "*LPCOMPSTATEINFO, COMPSTATEINFO, COMPSTATEINFO structure [Windows 
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/COMPSTATEINFO"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, GetHelperTokenFlags, GetHelp
 ms.topic: method
 f1_keywords: 
  - "bits4_0/IBitsTokenOptions.GetHelperTokenFlags"
+dev_langs:
+ - c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

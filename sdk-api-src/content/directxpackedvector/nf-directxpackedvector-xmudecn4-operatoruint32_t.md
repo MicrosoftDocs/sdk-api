@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMUDECN4.operator uint32_t, DirectX::PackedVe
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUDECN4.operator uint32_t"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

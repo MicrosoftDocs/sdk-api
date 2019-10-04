@@ -12,6 +12,8 @@ ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVE
 ms.topic: enum
 f1_keywords: 
  - "ocidl/DVEXTENTMODE"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

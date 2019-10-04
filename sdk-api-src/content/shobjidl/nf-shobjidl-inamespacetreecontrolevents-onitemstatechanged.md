@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemStateCh
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlEvents.OnItemStateChanged"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

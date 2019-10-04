@@ -12,6 +12,8 @@ ms.keywords: ITextDocument2 interface [Windows Controls],SysBeep method, ITextDo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.SysBeep"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

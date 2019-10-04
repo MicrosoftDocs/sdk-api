@@ -12,6 +12,8 @@ ms.keywords: FreeParam, FreeParam method [COM], FreeParam method [COM],ICallFram
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.FreeParam"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

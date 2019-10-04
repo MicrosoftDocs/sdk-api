@@ -12,6 +12,8 @@ ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR4, VarBstrFromR4 function [Autom
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBstrFromR4"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVAN
 ms.topic: enum
 f1_keywords: 
  - "wsrm/eWINDOW_ADVANCE_METHOD"
+dev_langs:
+ - c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

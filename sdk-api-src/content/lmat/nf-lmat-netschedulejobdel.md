@@ -12,6 +12,8 @@ ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management],
 ms.topic: function
 f1_keywords: 
  - "lmat/NetScheduleJobDel"
+dev_langs:
+ - c++
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],CanBeDelegated property, CanBeDelegated p
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.CanBeDelegated"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

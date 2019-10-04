@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],SetRatio method, IFont.SetRatio, IFont::SetRa
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.SetRatio"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

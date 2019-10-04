@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2uf
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_dn2ufn"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

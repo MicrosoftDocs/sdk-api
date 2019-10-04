@@ -12,6 +12,8 @@ ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFi
 ms.topic: function
 f1_keywords: 
  - "memoryapi/OpenFileMapping"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

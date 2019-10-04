@@ -12,6 +12,8 @@ ms.keywords: DnsNameCompare, DnsNameCompare function [DNS], DnsNameCompare_A, Dn
 ms.topic: macro
 f1_keywords: 
  - "windns/DnsNameCompare"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

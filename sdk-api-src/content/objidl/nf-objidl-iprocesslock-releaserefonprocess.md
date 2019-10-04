@@ -12,6 +12,8 @@ ms.keywords: IProcessLock interface [COM],ReleaseRefOnProcess method, IProcessLo
 ms.topic: method
 f1_keywords: 
  - "objidl/IProcessLock.ReleaseRefOnProcess"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

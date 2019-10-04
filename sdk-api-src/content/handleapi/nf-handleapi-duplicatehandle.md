@@ -12,6 +12,8 @@ ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, Dup
 ms.topic: function
 f1_keywords: 
  - "handleapi/DuplicateHandle"
+dev_langs:
+ - c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

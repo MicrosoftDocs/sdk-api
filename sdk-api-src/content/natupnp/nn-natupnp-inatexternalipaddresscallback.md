@@ -12,6 +12,8 @@ ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interf
 ms.topic: interface
 f1_keywords: 
  - "natupnp/INATExternalIPAddressCallback"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

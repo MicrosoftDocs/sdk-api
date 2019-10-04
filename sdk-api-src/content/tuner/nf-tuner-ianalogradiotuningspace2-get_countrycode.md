@@ -12,6 +12,8 @@ ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],get_
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogRadioTuningSpace2.get_CountryCode"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

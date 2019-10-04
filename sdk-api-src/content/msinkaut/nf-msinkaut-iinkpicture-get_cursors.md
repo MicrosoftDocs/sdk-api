@@ -12,6 +12,8 @@ ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPict
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.Cursors"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordComponentRef, GetRecordComponentRef method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDataContentDescriptor.GetRecordComponentRef"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

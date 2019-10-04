@@ -12,6 +12,8 @@ ms.keywords: WS_ASYNC_FUNCTION, WS_ASYNC_FUNCTION callback, WS_ASYNC_FUNCTION ca
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_ASYNC_FUNCTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

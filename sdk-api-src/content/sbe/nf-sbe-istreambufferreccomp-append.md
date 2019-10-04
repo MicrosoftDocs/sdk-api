@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Microsoft TV Technologies], Append method [M
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferRecComp.Append"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

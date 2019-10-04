@@ -12,6 +12,8 @@ ms.keywords: CANOF_PARSE_DISPLAY_NAME, CANOF_SET_DEFAULT_VALUES, CREATE_ASM_NAME
 ms.topic: enum
 f1_keywords: 
  - "winsxs/CREATE_ASM_NAME_OBJ_FLAGS"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

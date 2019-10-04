@@ -12,6 +12,8 @@ ms.keywords: WBEM_LIMITS, WBEM_LIMITS enumeration [Windows Management Instrument
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_LIMITS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

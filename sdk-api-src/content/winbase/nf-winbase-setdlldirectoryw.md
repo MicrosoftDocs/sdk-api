@@ -12,6 +12,8 @@ ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDll
 ms.topic: function
 f1_keywords: 
  - "winbase/SetDllDirectory"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

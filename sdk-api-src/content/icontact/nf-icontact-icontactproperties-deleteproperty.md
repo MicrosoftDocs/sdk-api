@@ -12,6 +12,8 @@ ms.keywords: DeleteProperty, DeleteProperty method [Windows Contacts], DeletePro
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.DeleteProperty"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

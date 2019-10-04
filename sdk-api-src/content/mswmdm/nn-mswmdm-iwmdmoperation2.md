@@ -12,6 +12,8 @@ ms.keywords: IWMDMOperation2, IWMDMOperation2 interface [windows Media Device Ma
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMOperation2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

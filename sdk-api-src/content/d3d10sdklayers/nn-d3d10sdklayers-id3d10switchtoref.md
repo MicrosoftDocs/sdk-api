@@ -12,6 +12,8 @@ ms.keywords: ID3D10SwitchToRef, ID3D10SwitchToRef interface [Direct3D 10], ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d10sdklayers/ID3D10SwitchToRef"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

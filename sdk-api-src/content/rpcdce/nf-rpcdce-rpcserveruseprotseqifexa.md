@@ -12,6 +12,8 @@ ms.keywords: RpcServerUseProtseqIfEx, RpcServerUseProtseqIfEx function [RPC], Rp
 ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerUseProtseqIfEx
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

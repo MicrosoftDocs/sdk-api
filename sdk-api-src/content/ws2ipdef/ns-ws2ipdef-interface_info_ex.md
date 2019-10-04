@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERFACE_INFO_EX, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, 
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

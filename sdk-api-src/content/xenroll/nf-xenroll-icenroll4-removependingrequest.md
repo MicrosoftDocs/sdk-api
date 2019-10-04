@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 in
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.removePendingRequest"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

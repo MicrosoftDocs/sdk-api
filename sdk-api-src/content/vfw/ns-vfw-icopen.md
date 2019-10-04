@@ -12,6 +12,8 @@ ms.keywords: ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_QUERY, ICOP
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICOPEN"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

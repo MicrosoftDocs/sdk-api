@@ -12,6 +12,8 @@ ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateSample"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtGetChannelConfigProperty, EvtGetChannelConfigProperty function [
 ms.topic: function
 f1_keywords:
 - winevt/EvtGetChannelConfigProperty
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

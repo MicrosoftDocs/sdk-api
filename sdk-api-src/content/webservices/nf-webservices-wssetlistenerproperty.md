@@ -12,6 +12,8 @@ ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services
 ms.topic: function
 f1_keywords: 
  - "webservices/WsSetListenerProperty"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

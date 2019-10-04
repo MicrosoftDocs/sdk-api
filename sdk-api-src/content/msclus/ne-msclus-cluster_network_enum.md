@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cl
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_NETWORK_ENUM"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

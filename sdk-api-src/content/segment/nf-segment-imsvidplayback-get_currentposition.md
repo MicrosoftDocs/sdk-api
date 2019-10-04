@@ -12,6 +12,8 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CurrentPos
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlayback.get_CurrentPosition"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr in
 ms.topic: interface
 f1_keywords: 
  - "fhcfg/IFhConfigMgr"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

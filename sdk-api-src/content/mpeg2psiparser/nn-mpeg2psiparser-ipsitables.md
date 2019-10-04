@@ -12,6 +12,8 @@ ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSIT
 ms.topic: interface
 f1_keywords: 
  - "mpeg2psiparser/IPSITables"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
 req.target-type: Windows

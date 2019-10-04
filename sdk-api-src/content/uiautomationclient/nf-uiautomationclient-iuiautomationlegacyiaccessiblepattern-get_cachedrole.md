@@ -12,6 +12,8 @@ ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [W
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedRole"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddAuthenticatedAttributesToPKCS7Request, AddAuthenticatedAttribute
 ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.AddAuthenticatedAttributesToPKCS7Request
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

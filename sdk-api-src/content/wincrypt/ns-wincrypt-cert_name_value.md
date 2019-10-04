@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Sec
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_NAME_VALUE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

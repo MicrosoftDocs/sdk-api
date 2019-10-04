@@ -12,6 +12,8 @@ ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_a
 ms.topic: function
 f1_keywords: 
  - "baseaudioprocessingobject/AERT_Allocate"
+dev_langs:
+ - c++
 req.header: baseaudioprocessingobject.h
 req.include-header: 
 req.target-type: Universal

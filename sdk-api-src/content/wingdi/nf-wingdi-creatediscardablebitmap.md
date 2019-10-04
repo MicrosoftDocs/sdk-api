@@ -12,6 +12,8 @@ ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateDiscardableBitmap"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

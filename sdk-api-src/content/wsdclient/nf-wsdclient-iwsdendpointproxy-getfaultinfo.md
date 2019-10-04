@@ -12,6 +12,8 @@ ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpoint
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDEndpointProxy.GetFaultInfo
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

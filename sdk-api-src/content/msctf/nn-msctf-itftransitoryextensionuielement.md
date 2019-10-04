@@ -12,6 +12,8 @@ ms.keywords: ITfTransitoryExtensionUIElement, ITfTransitoryExtensionUIElement in
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfTransitoryExtensionUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

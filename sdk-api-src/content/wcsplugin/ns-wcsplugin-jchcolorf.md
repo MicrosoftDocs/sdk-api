@@ -12,6 +12,8 @@ ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolor
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/JChColorF"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

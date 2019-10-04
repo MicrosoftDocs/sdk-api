@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MO
 ms.topic: enum
 f1_keywords:
 - wlanapi/WLAN_CONNECTION_MODE
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

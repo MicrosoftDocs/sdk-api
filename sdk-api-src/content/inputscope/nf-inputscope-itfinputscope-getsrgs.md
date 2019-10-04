@@ -12,6 +12,8 @@ ms.keywords: GetSRGS, GetSRGS method [Text Services Framework], GetSRGS method [
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope.GetSRGS"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

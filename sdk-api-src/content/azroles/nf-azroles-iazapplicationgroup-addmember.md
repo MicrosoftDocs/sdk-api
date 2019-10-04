@@ -12,6 +12,8 @@ ms.keywords: AddMember, AddMember method [Security], AddMember method [Security]
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.AddMember"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

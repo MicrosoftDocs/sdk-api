@@ -12,6 +12,8 @@ ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVer
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.SetVersion"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

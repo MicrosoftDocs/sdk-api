@@ -12,6 +12,8 @@ ms.keywords: BindConstantBufferByName, BindConstantBufferByName method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ModuleInstance.BindConstantBufferByName"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdm
 ms.topic: interface
 f1_keywords: 
  - "dsadmin/IDsAdminNewObj"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

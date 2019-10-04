@@ -12,6 +12,8 @@ ms.keywords: IOleClientSite interface [COM],RequestNewObjectLayout method, IOleC
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.RequestNewObjectLayout"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA,
 ms.topic: macro
 f1_keywords: 
  - "shlwapi/UrlIsFileUrl"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_delete_ext, ldap.ldap__delete__ext, ldap.ldap_delete_ex
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_delete_ext"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

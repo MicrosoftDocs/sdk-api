@@ -12,6 +12,8 @@ ms.keywords: EngDeleteSurface, EngDeleteSurface function [Display Devices], disp
 ms.topic: function
 f1_keywords: 
  - "winddi/EngDeleteSurface"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IAudioTreble, IAudioTreble interface [Core Audio], IAudioTreble int
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioTreble"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionLengthSq, XMQuaternionLengthSq, XMQuaterni
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionLengthSq"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],ReceiptAddress propert
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage2.ReceiptAddress"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateDownloadContent2 interface [Windows Update Agent],IsDeltaCom
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloadContent2.IsDeltaCompressedContent"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

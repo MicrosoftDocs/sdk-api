@@ -12,6 +12,8 @@ ms.keywords: D3DCAPS9, D3DCAPS9 structure [Direct3D 9], D3DCAPS_OVERLAY, D3DCAPS
 ms.topic: struct
 f1_keywords:
 - d3d9caps/D3DCAPS9
+dev_langs:
+ - c++
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows

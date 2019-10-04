@@ -12,6 +12,8 @@ ms.keywords: BrightnessContrast class [GDI+],GetParameters method, BrightnessCon
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/BrightnessContrast.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

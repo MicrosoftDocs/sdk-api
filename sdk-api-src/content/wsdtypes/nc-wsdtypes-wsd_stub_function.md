@@ -12,6 +12,8 @@ ms.keywords: WSD_STUB_FUNCTION, WSD_STUB_FUNCTION callback, WSD_STUB_FUNCTION ca
 ms.topic: callback
 f1_keywords:
 - wsdtypes/WSD_STUB_FUNCTION
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

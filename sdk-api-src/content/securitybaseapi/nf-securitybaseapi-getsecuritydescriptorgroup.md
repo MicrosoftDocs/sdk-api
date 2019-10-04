@@ -12,6 +12,8 @@ ms.keywords: GetSecurityDescriptorGroup, GetSecurityDescriptorGroup function [Se
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSecurityDescriptorGroup
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

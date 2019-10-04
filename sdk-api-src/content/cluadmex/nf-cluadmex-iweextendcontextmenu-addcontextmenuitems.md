@@ -12,6 +12,8 @@ ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster],
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWEExtendContextMenu.AddContextMenuItems"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

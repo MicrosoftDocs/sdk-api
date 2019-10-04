@@ -12,6 +12,8 @@ ms.keywords: "*PMENUGETOBJECTINFO, MENUGETOBJECTINFO, MENUGETOBJECTINFO structur
 ms.topic: struct
 f1_keywords: 
  - "winuser/MENUGETOBJECTINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

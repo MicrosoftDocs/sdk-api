@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBER
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRole.AddPropertyItem"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

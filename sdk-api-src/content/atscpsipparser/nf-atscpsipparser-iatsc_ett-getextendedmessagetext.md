@@ -12,6 +12,8 @@ ms.keywords: GetExtendedMessageText, GetExtendedMessageText method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_ETT.GetExtendedMessageText"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

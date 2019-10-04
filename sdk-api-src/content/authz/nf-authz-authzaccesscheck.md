@@ -12,6 +12,8 @@ ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCh
 ms.topic: function
 f1_keywords:
 - authz/AuthzAccessCheck
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

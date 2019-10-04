@@ -12,6 +12,8 @@ ms.keywords: IEnroll2, IEnroll2 interface [Security], IEnroll2 interface [Securi
 ms.topic: interface
 f1_keywords: 
  - "xenroll/IEnroll2"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

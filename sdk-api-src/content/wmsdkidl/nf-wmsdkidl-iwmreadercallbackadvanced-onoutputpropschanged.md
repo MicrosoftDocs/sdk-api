@@ -12,6 +12,8 @@ ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnOutput
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderCallbackAdvanced.OnOutputPropsChanged"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetStyle"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

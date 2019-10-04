@@ -12,6 +12,8 @@ ms.keywords: GetPreviousRow, GetPreviousRow method [ADSI], GetPreviousRow method
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.GetPreviousRow"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

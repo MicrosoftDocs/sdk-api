@@ -12,6 +12,8 @@ ms.keywords: 618275d7-1a22-b2cf-581b-9cf2495dc642, IDirect3DVertexBuffer9, IDire
 ms.topic: interface
 f1_keywords: 
  - "d3d9helper/IDirect3DVertexBuffer9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

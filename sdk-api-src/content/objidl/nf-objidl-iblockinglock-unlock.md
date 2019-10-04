@@ -12,6 +12,8 @@ ms.keywords: IBlockingLock interface [COM],Unlock method, IBlockingLock.Unlock, 
 ms.topic: method
 f1_keywords: 
  - "objidl/IBlockingLock.Unlock"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Tech
 ms.topic: struct
 f1_keywords: 
  - "bdaiface_enums/EALocationCodeType"
+dev_langs:
+ - c++
 req.header: bdaiface_enums.h
 req.include-header: Bdaiface.h
 req.target-type: Windows

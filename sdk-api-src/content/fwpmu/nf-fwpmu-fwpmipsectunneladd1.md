@@ -12,6 +12,8 @@ ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POIN
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmIpsecTunnelAdd1
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

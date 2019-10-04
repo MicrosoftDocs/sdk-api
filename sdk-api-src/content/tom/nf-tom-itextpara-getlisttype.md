@@ -12,6 +12,8 @@ ms.keywords: GetListType, GetListType method [Windows Controls], GetListType met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetListType"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NTMS_BARCODESTATE_OK, NTMS_BARCODESTATE_UNREADABLE, NTMS_MEDIASTATE
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_PMIDINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

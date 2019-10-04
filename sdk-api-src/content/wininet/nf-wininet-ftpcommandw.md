@@ -12,6 +12,8 @@ ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FtpCommand, FtpC
 ms.topic: function
 f1_keywords: 
  - "wininet/FtpCommand"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

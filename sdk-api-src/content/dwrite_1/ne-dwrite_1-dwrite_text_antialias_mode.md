@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TEXT_ANTIALIAS_MODE, DWRITE_TEXT_ANTIALIAS_MODE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

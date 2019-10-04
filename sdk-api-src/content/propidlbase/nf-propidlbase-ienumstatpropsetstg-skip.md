@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Skip method, IEn
 ms.topic: method
 f1_keywords: 
  - "propidlbase/IEnumSTATPROPSETSTG.Skip"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

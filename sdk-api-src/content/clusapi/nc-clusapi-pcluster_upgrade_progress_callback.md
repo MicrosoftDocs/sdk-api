@@ -12,6 +12,8 @@ ms.keywords: ClusterUpgradeProgressCallback, ClusterUpgradeProgressCallback call
 ms.topic: callback
 f1_keywords:
 - clusapi/ClusterUpgradeProgressCallback
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: CluAPI.h
 req.target-type: Windows

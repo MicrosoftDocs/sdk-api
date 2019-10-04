@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 1002, NetLocalGroupSetInfo, NetLocalGroupSetInfo function [Ne
 ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupSetInfo
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

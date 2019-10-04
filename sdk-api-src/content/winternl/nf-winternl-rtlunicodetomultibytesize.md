@@ -12,6 +12,8 @@ ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize function [Wind
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlUnicodeToMultiByteSize"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

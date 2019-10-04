@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS, CERT_X942_DH_P
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_X942_DH_PARAMETERS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

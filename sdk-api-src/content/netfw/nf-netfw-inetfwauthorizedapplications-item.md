@@ -12,6 +12,8 @@ ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetF
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwAuthorizedApplications.Item"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

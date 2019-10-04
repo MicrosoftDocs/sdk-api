@@ -12,6 +12,8 @@ ms.keywords: GetDecoderBuffer, GetDecoderBuffer method [Media Foundation], GetDe
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoContext.GetDecoderBuffer"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIRibbon interface [Windows Ribbon],LoadSettingsFromStream method,
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIRibbon.LoadSettingsFromStream"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], P
 ms.topic: callback
 f1_keywords: 
  - "stm/DeleteStaticService"
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

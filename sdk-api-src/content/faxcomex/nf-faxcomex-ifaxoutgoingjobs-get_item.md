@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJobs.get_Item"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDefaultLanguageProfile, GetDefaultLanguageProfile method [Text S
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.GetDefaultLanguageProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

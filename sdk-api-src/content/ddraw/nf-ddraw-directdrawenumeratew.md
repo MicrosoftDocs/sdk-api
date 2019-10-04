@@ -12,6 +12,8 @@ ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], Dir
 ms.topic: function
 f1_keywords: 
  - "ddraw/DirectDrawEnumerate"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

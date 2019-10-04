@@ -12,6 +12,8 @@ ms.keywords: SetupGetLineText, SetupGetLineText function [Setup API], SetupGetLi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupGetLineText
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

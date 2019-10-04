@@ -12,6 +12,8 @@ ms.keywords: HasFocusIO, HasFocusIO method [Windows Shell], HasFocusIO method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IInputObject.HasFocusIO"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

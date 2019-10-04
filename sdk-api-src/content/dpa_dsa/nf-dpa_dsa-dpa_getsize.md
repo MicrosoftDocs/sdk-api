@@ -12,6 +12,8 @@ ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_Ge
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_GetSize"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

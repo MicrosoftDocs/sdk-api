@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_PROPERTY_ADDRESSING_VERSION, WS_CHANNEL_PROPERTY_ALLOW_U
 ms.topic: enum
 f1_keywords:
 - webservices/WS_CHANNEL_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

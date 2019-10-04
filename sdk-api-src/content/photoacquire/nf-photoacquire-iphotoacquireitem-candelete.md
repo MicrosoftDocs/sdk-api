@@ -12,6 +12,8 @@ ms.keywords: CanDelete, CanDelete method [Picture Acquisition], CanDelete method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.CanDelete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackg
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyJobs1.GetCount"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

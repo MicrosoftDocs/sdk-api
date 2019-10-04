@@ -12,6 +12,8 @@ ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/GetNameInfoW"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

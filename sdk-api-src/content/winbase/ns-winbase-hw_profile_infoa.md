@@ -12,6 +12,8 @@ ms.keywords: "*LPHW_PROFILE_INFOA, DOCKINFO_DOCKED, DOCKINFO_UNDOCKED, DOCKINFO_
 ms.topic: struct
 f1_keywords: 
  - "winbase/HW_PROFILE_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

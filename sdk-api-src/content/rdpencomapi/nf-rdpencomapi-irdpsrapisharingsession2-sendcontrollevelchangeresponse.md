@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPISharingSession2 interface [RDP],SendControlLevelChangeResp
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.SendControlLevelChangeResponse"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

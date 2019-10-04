@@ -12,6 +12,8 @@ ms.keywords: GetBase, GetBase method [Text Services Framework], GetBase method [
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDocumentMgr.GetBase"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DllRegisterServer, DllRegisterServer function [COM], _com_DllRegist
 ms.topic: function
 f1_keywords: 
  - "olectl/DllRegisterServer"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

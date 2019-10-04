@@ -12,6 +12,8 @@ ms.keywords: IWTSPlugin interface [Remote Desktop Services],Initialize method, I
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSPlugin.Initialize"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

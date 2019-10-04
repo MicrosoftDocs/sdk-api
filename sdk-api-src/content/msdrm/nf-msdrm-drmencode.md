@@ -12,6 +12,8 @@ ms.keywords: DRMEncode, DRMEncode function [Active Directory Rights Management S
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMEncode"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

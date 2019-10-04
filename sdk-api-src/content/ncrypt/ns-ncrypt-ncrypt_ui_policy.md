@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PRO
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCRYPT_UI_POLICY"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

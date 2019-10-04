@@ -12,6 +12,8 @@ ms.keywords: ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],On
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

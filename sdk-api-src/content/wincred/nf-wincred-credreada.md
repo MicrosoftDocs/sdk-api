@@ -12,6 +12,8 @@ ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred
 ms.topic: function
 f1_keywords:
 - wincred/CredRead
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeContr
 ms.topic: interface
 f1_keywords: 
  - "vidcap/IKsNodeControl"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_HWnd method, I
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidRect.put_HWnd"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

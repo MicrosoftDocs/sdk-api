@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.MakeReverse"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

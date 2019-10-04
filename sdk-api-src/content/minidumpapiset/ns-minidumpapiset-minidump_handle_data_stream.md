@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM, MINIDU
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

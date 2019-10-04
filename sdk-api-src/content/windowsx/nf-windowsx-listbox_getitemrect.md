@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetItemRect"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

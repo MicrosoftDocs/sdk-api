@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media
 ms.topic: struct
 f1_keywords: 
  - "dxvahd/DXVAHD_FILTER_RANGE_DATA"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Dep
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

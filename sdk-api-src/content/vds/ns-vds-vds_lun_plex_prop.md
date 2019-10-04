@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_LUN_PLEX_PROP, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_
 ms.topic: struct
 f1_keywords:
 - vds/VDS_LUN_PLEX_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

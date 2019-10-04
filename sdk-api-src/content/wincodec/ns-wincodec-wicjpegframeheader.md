@@ -12,6 +12,8 @@ ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging C
 ms.topic: struct
 f1_keywords: 
  - "wincodec/WICJpegFrameHeader"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

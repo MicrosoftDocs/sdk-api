@@ -12,6 +12,8 @@ ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], ITrackS
 ms.topic: interface
 f1_keywords: 
  - "shdeprecated/ITrackShellMenu"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

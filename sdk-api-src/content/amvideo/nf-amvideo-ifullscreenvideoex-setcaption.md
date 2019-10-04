@@ -12,6 +12,8 @@ ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullS
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.SetCaption"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

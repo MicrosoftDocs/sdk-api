@@ -12,6 +12,8 @@ ms.keywords: ADS_RIGHTS_ENUM, ADS_RIGHTS_ENUM enumeration [ADSI], ADS_RIGHT_ACCE
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_RIGHTS_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

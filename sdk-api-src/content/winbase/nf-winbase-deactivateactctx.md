@@ -12,6 +12,8 @@ ms.keywords: 0, DEACTIVATE_ACTCTX_FLAG_FORCE_EARLY_DEACTIVATION, DeactivateActCt
 ms.topic: function
 f1_keywords: 
  - "winbase/DeactivateActCtx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

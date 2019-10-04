@@ -12,6 +12,8 @@ ms.keywords: GDTR_MAX, GDTR_MIN, MonthCal_SetRange, MonthCal_SetRange macro [Win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetRange"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

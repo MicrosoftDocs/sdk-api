@@ -12,6 +12,8 @@ ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmReleaseContext"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

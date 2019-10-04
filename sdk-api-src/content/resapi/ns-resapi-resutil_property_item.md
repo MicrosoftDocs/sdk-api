@@ -12,6 +12,8 @@ ms.keywords: "*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESUTIL_PROPERTY_ITEM"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

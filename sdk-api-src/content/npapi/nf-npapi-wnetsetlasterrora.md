@@ -12,6 +12,8 @@ ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLast
 ms.topic: function
 f1_keywords: 
  - "npapi/WNetSetLastError"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHA
 ms.topic: struct
 f1_keywords:
 - avifmt/AVISTREAMHEADER
+dev_langs:
+ - c++
 req.header: avifmt.h
 req.include-header: Aviriff.h
 req.target-type: Windows

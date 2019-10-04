@@ -12,6 +12,8 @@ ms.keywords: MI_Session_GetInstance, MI_Session_GetInstance function [Windows Ma
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_GetInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

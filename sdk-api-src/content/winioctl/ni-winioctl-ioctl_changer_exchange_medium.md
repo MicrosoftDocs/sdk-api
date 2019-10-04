@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

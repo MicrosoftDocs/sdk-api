@@ -12,6 +12,8 @@ ms.keywords: ISensLogon interface [SENS],Logoff method, ISensLogon.Logoff, ISens
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon.Logoff"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

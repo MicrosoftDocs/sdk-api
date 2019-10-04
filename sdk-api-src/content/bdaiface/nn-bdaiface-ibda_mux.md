@@ -12,6 +12,8 @@ ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], IBDA_MUX 
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_MUX"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

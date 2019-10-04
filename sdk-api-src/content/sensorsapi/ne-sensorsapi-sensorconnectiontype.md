@@ -12,6 +12,8 @@ ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTER
 ms.topic: enum
 f1_keywords: 
  - "sensorsapi/SensorConnectionType"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

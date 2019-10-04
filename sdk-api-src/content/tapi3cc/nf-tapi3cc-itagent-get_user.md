@@ -12,6 +12,8 @@ ms.keywords: ITAgent interface [TAPI 2.2],get_User method, ITAgent.get_User, ITA
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgent.get_User"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

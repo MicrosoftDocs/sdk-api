@@ -12,6 +12,8 @@ ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interf
 ms.topic: interface
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

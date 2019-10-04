@@ -12,6 +12,8 @@ ms.keywords: DwmGetTransportAttributes, DwmGetTransportAttributes function [Desk
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmGetTransportAttributes"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

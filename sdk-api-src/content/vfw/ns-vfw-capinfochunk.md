@@ -12,6 +12,8 @@ ms.keywords: "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK struct
 ms.topic: struct
 f1_keywords: 
  - "vfw/CAPINFOCHUNK"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

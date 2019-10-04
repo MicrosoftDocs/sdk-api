@@ -12,6 +12,8 @@ ms.keywords: AddPartialFile, AddPartialFile method [VSS], AddPartialFile method 
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.AddPartialFile"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

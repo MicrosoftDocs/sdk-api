@@ -12,6 +12,8 @@ ms.keywords: ldap.ldap_cleanup, ldap_cleanup, ldap_cleanup function [LDAP], winl
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_cleanup"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

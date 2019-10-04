@@ -12,6 +12,8 @@ ms.keywords: CloseAudioTrack, CloseAudioTrack method [IMAPI], CloseAudioTrack me
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.CloseAudioTrack"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

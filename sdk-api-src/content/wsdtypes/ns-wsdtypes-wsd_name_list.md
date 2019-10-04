@@ -12,6 +12,8 @@ ms.keywords: WSD_NAME_LIST, WSD_NAME_LIST structure, ncd.wsd_name_list_struct, w
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_NAME_LIST"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition metho
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.SetOverlayPosition"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

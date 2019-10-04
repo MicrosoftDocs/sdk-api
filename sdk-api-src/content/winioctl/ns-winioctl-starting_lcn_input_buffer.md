@@ -12,6 +12,8 @@ ms.keywords: "*PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER, PSTARTING
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STARTING_LCN_INPUT_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

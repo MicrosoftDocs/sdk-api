@@ -12,6 +12,8 @@ ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudio
 ms.topic: interface
 f1_keywords: 
  - "austream/IAudioMediaStream"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

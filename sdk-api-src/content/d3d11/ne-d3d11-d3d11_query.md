@@ -12,6 +12,8 @@ ms.keywords: 846a075c-6f8e-9009-e75c-0c3b32d97453, D3D11_QUERY, D3D11_QUERY enum
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_QUERY"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

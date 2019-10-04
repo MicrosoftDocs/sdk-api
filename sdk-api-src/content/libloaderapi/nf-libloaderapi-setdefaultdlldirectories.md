@@ -12,6 +12,8 @@ ms.keywords: LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DI
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/SetDefaultDllDirectories"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

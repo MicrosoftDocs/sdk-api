@@ -12,6 +12,8 @@ ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig interface 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.SetStreamNumber"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

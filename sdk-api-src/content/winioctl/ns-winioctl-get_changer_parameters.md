@@ -12,6 +12,8 @@ ms.keywords: '*PGET_CHANGER_PARAMETERS, CHANGER_BAR_CODE_SCANNER_INSTALLED, CHAN
 ms.topic: struct
 f1_keywords:
 - winioctl/GET_CHANGER_PARAMETERS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPositionInformationAsync, GetPositionInformationAsync method [Me
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer.GetPositionInformationAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

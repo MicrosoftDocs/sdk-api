@@ -12,6 +12,8 @@ ms.keywords: MIL_2DPOINTD, MIL_2DPOINTD structure [WPF Bitmap Effects], MilPoint
 ms.topic: struct
 f1_keywords: 
  - "mileffects/MIL_2DPOINTD"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

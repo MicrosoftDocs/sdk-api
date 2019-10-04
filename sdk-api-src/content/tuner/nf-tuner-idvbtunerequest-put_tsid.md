@@ -12,6 +12,8 @@ ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_TSID meth
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTuneRequest.put_TSID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

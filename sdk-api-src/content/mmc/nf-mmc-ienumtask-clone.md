@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [MMC], Clone method [MMC],IEnumTASK interface, 
 ms.topic: method
 f1_keywords: 
  - "mmc/IEnumTASK.Clone"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES,
 ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaGetInfo
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

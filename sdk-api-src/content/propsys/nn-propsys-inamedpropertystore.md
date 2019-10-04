@@ -12,6 +12,8 @@ ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell],
 ms.topic: interface
 f1_keywords: 
  - "propsys/INamedPropertyStore"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFileProps, GetFileProps method [Windows Runtime], GetFileProps m
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.GetFileProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

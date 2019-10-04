@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMeta
 ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.SetMetadata
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

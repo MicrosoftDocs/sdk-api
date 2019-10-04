@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_I
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_DISK_NUMBER_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

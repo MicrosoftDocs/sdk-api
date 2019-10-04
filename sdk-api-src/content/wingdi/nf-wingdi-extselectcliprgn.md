@@ -12,6 +12,8 @@ ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND,
 ms.topic: function
 f1_keywords: 
  - "wingdi/ExtSelectClipRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

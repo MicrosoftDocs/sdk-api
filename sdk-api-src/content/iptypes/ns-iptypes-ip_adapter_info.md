@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_INFO, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, 
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_INFO"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

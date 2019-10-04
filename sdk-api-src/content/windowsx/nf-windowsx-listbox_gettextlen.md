@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetTextLen, ListBox_GetTextLen macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetTextLen"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

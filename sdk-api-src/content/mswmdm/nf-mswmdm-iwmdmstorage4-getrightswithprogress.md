@@ -12,6 +12,8 @@ ms.keywords: GetRightsWithProgress, GetRightsWithProgress method [windows Media 
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage4.GetRightsWithProgress"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

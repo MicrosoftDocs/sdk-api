@@ -12,6 +12,8 @@ ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF
 ms.topic: struct
 f1_keywords: 
  - "mswsockdef/RIO_BUF"
+dev_langs:
+ - c++
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows

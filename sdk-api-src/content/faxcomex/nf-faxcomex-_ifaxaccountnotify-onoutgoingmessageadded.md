@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountNotify.OnOutgoingMessageAdded, OnOutgoingMessageAdded, O
 ms.topic: method
 f1_keywords: 
  - "faxcomex/_IFaxAccountNotify.OnOutgoingMessageAdded"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

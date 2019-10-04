@@ -12,6 +12,8 @@ ms.keywords: MI_ConstInstanceField, MI_ConstInstanceField structure [Windows Man
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstInstanceField
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

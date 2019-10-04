@@ -12,6 +12,8 @@ ms.keywords: ITTAPI2 interface [TAPI 2.2],get_Phones method, ITTAPI2.get_Phones,
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTAPI2.get_Phones"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

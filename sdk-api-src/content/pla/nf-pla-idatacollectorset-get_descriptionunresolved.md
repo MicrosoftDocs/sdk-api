@@ -12,6 +12,8 @@ ms.keywords: DescriptionUnresolved property [PLA], DescriptionUnresolved propert
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.DescriptionUnresolved"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

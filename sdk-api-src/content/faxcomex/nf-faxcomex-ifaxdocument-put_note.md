@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],Note property, IFaxDocument.No
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.Note"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

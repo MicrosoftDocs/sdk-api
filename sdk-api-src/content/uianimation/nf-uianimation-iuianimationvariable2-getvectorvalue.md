@@ -12,6 +12,8 @@ ms.keywords: GetVectorValue, GetVectorValue method [Windows Animation], GetVecto
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetVectorValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

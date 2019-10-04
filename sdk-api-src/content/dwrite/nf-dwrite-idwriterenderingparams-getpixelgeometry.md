@@ -12,6 +12,8 @@ ms.keywords: GetPixelGeometry, GetPixelGeometry method [Direct Write], GetPixelG
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteRenderingParams.GetPixelGeometry"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

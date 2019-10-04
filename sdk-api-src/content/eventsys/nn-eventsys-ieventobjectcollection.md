@@ -12,6 +12,8 @@ ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IE
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IEventObjectCollection"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

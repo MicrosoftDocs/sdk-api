@@ -12,6 +12,8 @@ ms.keywords: IWiaEventCallback interface [WIA],ImageEventCallback method, IWiaEv
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaEventCallback.ImageEventCallback"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

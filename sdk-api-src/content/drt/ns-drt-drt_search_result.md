@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_SEARCH_RESULT, DRT_SEARCH_RESULT, DRT_SEARCH_RESULT structur
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_SEARCH_RESULT"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0, PROUT
 ms.topic: struct
 f1_keywords: 
  - "mprapi/ROUTER_CUSTOM_IKEv2_POLICY0"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

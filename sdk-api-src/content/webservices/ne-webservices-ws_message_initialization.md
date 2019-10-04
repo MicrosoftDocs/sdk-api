@@ -12,6 +12,8 @@ ms.keywords: WS_BLANK_MESSAGE, WS_DUPLICATE_MESSAGE, WS_FAULT_MESSAGE, WS_MESSAG
 ms.topic: enum
 f1_keywords:
 - webservices/WS_MESSAGE_INITIALIZATION
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

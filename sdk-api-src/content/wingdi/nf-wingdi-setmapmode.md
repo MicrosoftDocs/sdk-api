@@ -12,6 +12,8 @@ ms.keywords: MM_ANISOTROPIC, MM_HIENGLISH, MM_HIMETRIC, MM_ISOTROPIC, MM_LOENGLI
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetMapMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

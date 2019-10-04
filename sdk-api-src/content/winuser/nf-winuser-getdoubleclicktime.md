@@ -12,6 +12,8 @@ ms.keywords: GetDoubleClickTime, GetDoubleClickTime function [Keyboard and Mouse
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDoubleClickTime"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

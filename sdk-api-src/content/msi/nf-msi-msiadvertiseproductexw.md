@@ -12,6 +12,8 @@ ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MSIADVERTI
 ms.topic: function
 f1_keywords: 
  - "msi/MsiAdvertiseProductEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

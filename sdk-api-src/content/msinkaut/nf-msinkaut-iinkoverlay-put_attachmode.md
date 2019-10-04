@@ -12,6 +12,8 @@ ms.keywords: 638da0e4-10cc-47e7-91ad-807be3ff8c2d, AttachMode property [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.AttachMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

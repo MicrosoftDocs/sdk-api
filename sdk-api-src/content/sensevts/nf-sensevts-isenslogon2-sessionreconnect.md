@@ -12,6 +12,8 @@ ms.keywords: ISensLogon2 interface [SENS],SessionReconnect method, ISensLogon2.S
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon2.SessionReconnect"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

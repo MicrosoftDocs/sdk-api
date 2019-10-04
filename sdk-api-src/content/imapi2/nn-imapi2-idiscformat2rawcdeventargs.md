@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [I
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IDiscFormat2RawCDEventArgs"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D10GetInputAndOutputSignatureBlob, D3D10GetInputAndOutputSignatur
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10GetInputAndOutputSignatureBlob"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

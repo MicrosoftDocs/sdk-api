@@ -12,6 +12,8 @@ ms.keywords: AddAutomaticFile, AddAutomaticFile method [App packaging and manage
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxContentGroupMapWriter.AddAutomaticFile"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

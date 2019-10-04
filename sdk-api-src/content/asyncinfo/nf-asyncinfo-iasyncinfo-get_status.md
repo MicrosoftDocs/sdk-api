@@ -12,6 +12,8 @@ ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.
 ms.topic: method
 f1_keywords: 
  - "asyncinfo/IAsyncInfo.Status"
+dev_langs:
+ - c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetType me
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer.SetType"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

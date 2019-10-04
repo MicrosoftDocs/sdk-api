@@ -12,6 +12,8 @@ ms.keywords: BindPersistentResource, BindPersistentResource method, BindPersiste
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLBindingTable.BindPersistentResource"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

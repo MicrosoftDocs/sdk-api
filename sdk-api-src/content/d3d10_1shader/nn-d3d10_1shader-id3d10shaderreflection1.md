@@ -12,6 +12,8 @@ ms.keywords: ID3D10ShaderReflection1, ID3D10ShaderReflection1 interface [Direct3
 ms.topic: interface
 f1_keywords: 
  - "d3d10_1shader/ID3D10ShaderReflection1"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

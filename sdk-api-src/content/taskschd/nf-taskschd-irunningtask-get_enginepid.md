@@ -12,6 +12,8 @@ ms.keywords: EnginePID property [Task Scheduler], EnginePID property [Task Sched
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.EnginePID"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

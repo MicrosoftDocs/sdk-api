@@ -12,6 +12,8 @@ ms.keywords: WBEMTimeSpan, WBEMTimeSpan class [Windows Management Instrumentatio
 ms.topic: class
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwr
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_TRIMMING"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

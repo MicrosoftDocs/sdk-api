@@ -12,6 +12,8 @@ ms.keywords: IOverlay interface [DirectShow],Unadvise method, IOverlay.Unadvise,
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlay.Unadvise"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

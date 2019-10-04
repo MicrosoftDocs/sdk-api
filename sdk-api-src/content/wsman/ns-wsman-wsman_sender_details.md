@@ -12,6 +12,8 @@ ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remot
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_SENDER_DETAILS
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

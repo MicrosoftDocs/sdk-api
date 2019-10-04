@@ -12,6 +12,8 @@ ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor.GetElementLanguageCode"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

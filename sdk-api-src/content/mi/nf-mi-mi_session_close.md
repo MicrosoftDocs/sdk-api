@@ -12,6 +12,8 @@ ms.keywords: MI_Session_Close, MI_Session_Close function [Windows Management Inf
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_Close
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

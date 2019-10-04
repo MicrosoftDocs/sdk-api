@@ -12,6 +12,8 @@ ms.keywords: OPM_HDCP_KEY_SELECTION_VECTOR, OPM_HDCP_KEY_SELECTION_VECTOR struct
 ms.topic: struct
 f1_keywords: 
  - "opmapi/OPM_HDCP_KEY_SELECTION_VECTOR"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

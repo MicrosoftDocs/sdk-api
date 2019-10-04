@@ -12,6 +12,8 @@ ms.keywords: DisableCommandLine property [File Server Resource Manager], Disable
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmSetting.DisableCommandLine"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoUninitialize, CoUninitialize function [COM], _com_CoUninitialize,
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoUninitialize"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

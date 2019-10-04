@@ -12,6 +12,8 @@ ms.keywords: GetRendererStatistics, GetRendererStatistics method [Remote Desktop
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRenderer.GetRendererStatistics"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

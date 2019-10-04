@@ -12,6 +12,8 @@ ms.keywords: ActionVariables property [File Server Resource Manager], ActionVari
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager.ActionVariables"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

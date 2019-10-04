@@ -12,6 +12,8 @@ ms.keywords: ColorMatrixFlags, ColorMatrixFlags enumeration [GDI+], ColorMatrixF
 ms.topic: enum
 f1_keywords: 
  - "gdipluscolormatrix/ColorMatrixFlags"
+dev_langs:
+ - c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

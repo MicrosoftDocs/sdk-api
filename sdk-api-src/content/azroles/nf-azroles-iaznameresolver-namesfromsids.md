@@ -12,6 +12,8 @@ ms.keywords: IAzNameResolver interface [Security],NamesFromSids method, IAzNameR
 ms.topic: method
 f1_keywords:
 - azroles/IAzNameResolver.NamesFromSids
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

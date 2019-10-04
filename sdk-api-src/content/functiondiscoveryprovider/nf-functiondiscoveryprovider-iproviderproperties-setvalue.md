@@ -12,6 +12,8 @@ ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderProperties.SetValue"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty 
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceRegistryProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property

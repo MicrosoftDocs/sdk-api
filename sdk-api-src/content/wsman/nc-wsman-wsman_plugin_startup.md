@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_STARTUP, WSMAN_PLUGIN_STARTUP callback, WSMAN_PLUGIN_S
 ms.topic: callback
 f1_keywords: 
  - "wsman/WSMAN_PLUGIN_STARTUP"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Pac
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMImageBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

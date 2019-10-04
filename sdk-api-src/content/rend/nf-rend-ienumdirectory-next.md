@@ -12,6 +12,8 @@ ms.keywords: IEnumDirectory interface [TAPI 2.2],Next method, IEnumDirectory.Nex
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDirectory.Next"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

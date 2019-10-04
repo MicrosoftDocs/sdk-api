@@ -12,6 +12,8 @@ ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaForm
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentType.put__MediaFormatType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

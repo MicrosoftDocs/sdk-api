@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_STREAM_STATE, DXVAHD_STREAM_STATE enumeration [Media Foundat
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

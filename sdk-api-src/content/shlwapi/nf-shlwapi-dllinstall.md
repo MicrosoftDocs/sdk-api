@@ -12,6 +12,8 @@ ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall,
 ms.topic: function
 f1_keywords: 
  - "shlwapi/DllInstall"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

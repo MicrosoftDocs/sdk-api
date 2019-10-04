@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],WriteCertToCSP property, IEnroll.Write
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.WriteCertToCSP"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

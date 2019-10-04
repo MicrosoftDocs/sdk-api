@@ -12,6 +12,8 @@ ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIWRITE"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

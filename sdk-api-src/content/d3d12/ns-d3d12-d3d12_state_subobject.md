@@ -12,6 +12,8 @@ ms.keywords: D3D12_STATE_SUBOBJECT, D3D12_STATE_SUBOBJECT structure, PD3D12_STAT
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_STATE_SUBOBJECT"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCookie, GetCookie method [Windows Controls], GetCookie method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetCookie"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

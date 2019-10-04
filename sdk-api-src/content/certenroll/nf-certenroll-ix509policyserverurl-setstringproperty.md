@@ -12,6 +12,8 @@ ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method,
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PolicyServerUrl.SetStringProperty"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

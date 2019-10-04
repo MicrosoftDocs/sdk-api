@@ -12,6 +12,8 @@ ms.keywords: GetLine, GetLine method [Media Foundation], GetLine method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetLine"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnTextUpdate me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnAdviseText.OnTextUpdate"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

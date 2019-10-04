@@ -12,6 +12,8 @@ ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_D
 ms.topic: function
 f1_keywords: 
  - "fontsub/MergeFontPackage"
+dev_langs:
+ - c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

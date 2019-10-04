@@ -12,6 +12,8 @@ ms.keywords: GetEffects2, GetEffects2 method [Windows Controls], GetEffects2 met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetEffects2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

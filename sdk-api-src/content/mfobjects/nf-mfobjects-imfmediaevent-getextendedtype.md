@@ -12,6 +12,8 @@ ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType, GetExtendedT
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEvent.GetExtendedType"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw in
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlCustomDraw"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

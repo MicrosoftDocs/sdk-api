@@ -12,6 +12,8 @@ ms.keywords: '*LPSHFILEOPSTRUCTA, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY
 ms.topic: struct
 f1_keywords:
 - shellapi/SHFILEOPSTRUCT
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

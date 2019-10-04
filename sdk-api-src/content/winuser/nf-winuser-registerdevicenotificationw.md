@@ -12,6 +12,8 @@ ms.keywords: DEVICE_NOTIFY_ALL_INTERFACE_CLASSES, DEVICE_NOTIFY_SERVICE_HANDLE, 
 ms.topic: function
 f1_keywords:
 - winuser/RegisterDeviceNotification
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

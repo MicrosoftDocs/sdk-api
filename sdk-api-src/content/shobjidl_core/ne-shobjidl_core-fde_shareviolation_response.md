@@ -12,6 +12,8 @@ ms.keywords: FDESVR_ACCEPT, FDESVR_DEFAULT, FDESVR_REFUSE, FDE_SHAREVIOLATION_RE
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FDE_SHAREVIOLATION_RESPONSE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

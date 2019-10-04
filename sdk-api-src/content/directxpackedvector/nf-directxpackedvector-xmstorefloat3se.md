@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreFloat3SE, XMStoreFloat3SE, XMStoreFloa
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreFloat3SE"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

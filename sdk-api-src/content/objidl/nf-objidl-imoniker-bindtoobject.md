@@ -12,6 +12,8 @@ ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.BindToObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

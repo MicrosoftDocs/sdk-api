@@ -12,6 +12,8 @@ ms.keywords: FSCTL_READ_FROM_PLEX, FSCTL_READ_FROM_PLEX control, FSCTL_READ_FROM
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_READ_FROM_PLEX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

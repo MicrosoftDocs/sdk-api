@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Fil
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IOfflineFilesFileItem"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

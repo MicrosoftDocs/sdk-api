@@ -12,6 +12,8 @@ ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreading
 ms.topic: interface
 f1_keywords: 
  - "objidl/IComThreadingInfo"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

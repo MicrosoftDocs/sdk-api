@@ -12,6 +12,8 @@ ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetGfxState method,
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase.SetGfxState"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

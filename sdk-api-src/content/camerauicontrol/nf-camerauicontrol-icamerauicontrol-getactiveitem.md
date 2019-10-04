@@ -12,6 +12,8 @@ ms.keywords: GetActiveItem, GetActiveItem method [Windows API], GetActiveItem me
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.GetActiveItem"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

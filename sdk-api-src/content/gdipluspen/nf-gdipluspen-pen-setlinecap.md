@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetLineCap method, Pen.SetLineCap, Pen::SetLineCap
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetLineCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

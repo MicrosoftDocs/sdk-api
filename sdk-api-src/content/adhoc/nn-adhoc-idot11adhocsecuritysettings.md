@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface 
 ms.topic: interface
 f1_keywords: 
  - "adhoc/IDot11AdHocSecuritySettings"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

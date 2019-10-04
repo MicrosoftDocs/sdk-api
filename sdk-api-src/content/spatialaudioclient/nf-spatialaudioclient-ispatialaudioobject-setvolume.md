@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpati
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObject.SetVolume"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

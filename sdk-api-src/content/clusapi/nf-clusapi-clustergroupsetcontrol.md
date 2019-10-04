@@ -12,6 +12,8 @@ ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover C
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterGroupSetControl"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMCreateReader, WMCreateReader function [windows Media Format], wmf
 ms.topic: function
 f1_keywords: 
  - "wmsdkidl/WMCreateReader"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

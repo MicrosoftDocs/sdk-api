@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_NODE_STATE, CLUSTER_NODE_STATE enumeration [Failover Cluste
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_NODE_STATE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

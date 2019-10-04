@@ -12,6 +12,8 @@ ms.keywords: "*LPRID_DEVICE_INFO, *PRID_DEVICE_INFO, LPRID_DEVICE_INFO, LPRID_DE
 ms.topic: struct
 f1_keywords: 
  - "winuser/RID_DEVICE_INFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

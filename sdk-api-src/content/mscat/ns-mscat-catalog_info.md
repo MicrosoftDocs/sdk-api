@@ -12,6 +12,8 @@ ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], mscat/CATALOG_INFO
 ms.topic: struct
 f1_keywords: 
  - "mscat/CATALOG_INFO"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

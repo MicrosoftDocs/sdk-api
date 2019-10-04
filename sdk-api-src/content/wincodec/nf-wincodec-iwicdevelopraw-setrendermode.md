@@ -12,6 +12,8 @@ ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRenderMode 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.SetRenderMode"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

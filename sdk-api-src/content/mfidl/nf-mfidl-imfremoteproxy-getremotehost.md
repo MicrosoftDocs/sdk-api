@@ -12,6 +12,8 @@ ms.keywords: GetRemoteHost, GetRemoteHost method [Media Foundation], GetRemoteHo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRemoteProxy.GetRemoteHost"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

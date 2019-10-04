@@ -12,6 +12,8 @@ ms.keywords: CloseFile, CloseFile method [Windows Shell], CloseFile method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileIsInUse.CloseFile"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

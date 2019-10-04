@@ -12,6 +12,8 @@ ms.keywords: Edit_GetHilite, Edit_GetHilite macro [Windows Controls], _shell_Edi
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetHilite"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

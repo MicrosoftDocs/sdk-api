@@ -12,6 +12,8 @@ ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Wind
 ms.topic: macro
 f1_keywords: 
  - "winnt/SORTIDFROMLCID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProvider interface [Fax Service],TapiProviderName propert
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProvider.TapiProviderName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

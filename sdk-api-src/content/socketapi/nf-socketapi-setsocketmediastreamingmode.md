@@ -12,6 +12,8 @@ ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [
 ms.topic: function
 f1_keywords: 
  - "socketapi/SetSocketMediaStreamingMode"
+dev_langs:
+ - c++
 req.header: socketapi.h
 req.include-header: 
 req.target-type: Windows

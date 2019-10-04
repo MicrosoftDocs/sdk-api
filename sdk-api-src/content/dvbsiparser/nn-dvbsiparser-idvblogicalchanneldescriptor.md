@@ -12,6 +12,8 @@ ms.keywords: IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interfac
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannelDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

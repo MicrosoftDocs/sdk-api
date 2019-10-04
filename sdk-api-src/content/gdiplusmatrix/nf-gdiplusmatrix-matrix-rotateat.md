@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],RotateAt method, Matrix.RotateAt, Matrix::Rotat
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.RotateAt"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

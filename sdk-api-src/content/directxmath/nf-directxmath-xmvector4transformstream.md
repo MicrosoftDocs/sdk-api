@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4TransformStream, XMVector4TransformStream, XM
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4TransformStream"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

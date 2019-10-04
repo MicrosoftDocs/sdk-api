@@ -12,6 +12,8 @@ ms.keywords: GetBlocks, GetBlocks method [App packaging and management], GetBloc
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBlockMapFile.GetBlocks"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

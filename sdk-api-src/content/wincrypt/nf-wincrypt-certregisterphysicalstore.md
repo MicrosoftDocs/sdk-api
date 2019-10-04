@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRe
 ms.topic: function
 f1_keywords:
 - wincrypt/CertRegisterPhysicalStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

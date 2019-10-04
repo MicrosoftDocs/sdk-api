@@ -12,6 +12,8 @@ ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaF
 ms.topic: function
 f1_keywords: 
  - "wingdi/PlayMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

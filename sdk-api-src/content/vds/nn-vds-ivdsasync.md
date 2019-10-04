@@ -12,6 +12,8 @@ ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],des
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsAsync"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

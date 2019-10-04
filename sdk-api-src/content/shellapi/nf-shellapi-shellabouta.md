@@ -12,6 +12,8 @@ ms.keywords: ShellAbout, ShellAbout function [Windows Shell], ShellAboutA, Shell
 ms.topic: function
 f1_keywords: 
  - "shellapi/ShellAbout"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog
 ms.topic: struct
 f1_keywords: 
  - "tcpioctl/IFEntry"
+dev_langs:
+ - c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

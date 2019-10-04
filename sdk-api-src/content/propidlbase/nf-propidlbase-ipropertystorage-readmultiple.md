@@ -12,6 +12,8 @@ ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interf
 ms.topic: method
 f1_keywords: 
  - "propidlbase/IPropertyStorage.ReadMultiple"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

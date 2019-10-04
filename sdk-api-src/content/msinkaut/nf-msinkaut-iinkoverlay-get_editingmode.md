@@ -12,6 +12,8 @@ ms.keywords: 3b734da3-5784-4504-b22e-b86844d42f4e, EditingMode property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.EditingMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

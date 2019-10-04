@@ -12,6 +12,8 @@ ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentPositionT
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPControls3.put_currentPositionTimecode"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

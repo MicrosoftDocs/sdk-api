@@ -12,6 +12,8 @@ ms.keywords: PathRemoveFileSpec, PathRemoveFileSpec function [Windows Shell], Pa
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathRemoveFileSpec"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

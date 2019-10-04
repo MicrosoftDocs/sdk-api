@@ -12,6 +12,8 @@ ms.keywords: SHChangeNotifyEntry, SHChangeNotifyEntry structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SHChangeNotifyEntry"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

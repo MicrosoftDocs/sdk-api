@@ -12,6 +12,8 @@ ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStrin
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhTarget.GetStringProperty
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

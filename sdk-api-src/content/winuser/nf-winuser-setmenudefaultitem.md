@@ -12,6 +12,8 @@ ms.keywords: SetMenuDefaultItem, SetMenuDefaultItem function [Menus and Other Re
 ms.topic: function
 f1_keywords: 
  - "winuser/SetMenuDefaultItem"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

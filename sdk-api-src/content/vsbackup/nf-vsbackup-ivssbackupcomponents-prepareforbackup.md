@@ -12,6 +12,8 @@ ms.keywords: IVssBackupComponents interface [VSS],PrepareForBackup method, IVssB
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponents.PrepareForBackup"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

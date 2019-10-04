@@ -12,6 +12,8 @@ ms.keywords: GetCallersId, GetCallersId method [DirectShow], GetCallersId method
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetCallersId"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

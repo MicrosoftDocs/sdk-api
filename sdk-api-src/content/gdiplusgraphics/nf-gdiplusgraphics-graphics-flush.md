@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [GDI+], Flush method [GDI+],Graphics class, Gra
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.Flush"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

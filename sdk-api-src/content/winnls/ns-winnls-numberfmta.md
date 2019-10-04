@@ -12,6 +12,8 @@ ms.keywords: "*LPNUMBERFMTA, LPNUMBERFMT, LPNUMBERFMT structure pointer [Interna
 ms.topic: struct
 f1_keywords: 
  - "winnls/NUMBERFMT"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

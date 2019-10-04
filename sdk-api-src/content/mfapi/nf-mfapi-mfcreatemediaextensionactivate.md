@@ -12,6 +12,8 @@ ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate func
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMediaExtensionActivate"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

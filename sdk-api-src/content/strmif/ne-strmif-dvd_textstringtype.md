@@ -12,6 +12,8 @@ ms.keywords: DVD_Channel_Audio, DVD_General_Comments, DVD_General_Name, DVD_Othe
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_TextStringType"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

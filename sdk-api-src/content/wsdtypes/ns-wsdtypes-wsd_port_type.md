@@ -12,6 +12,8 @@ ms.keywords: WSD_PORT_TYPE, WSD_PORT_TYPE structure, ncd.wsd_port_type_struct, w
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_PORT_TYPE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FXECHO_INITDATA, FXECHO_INITDATA structure [XAudio2 Audio Mixing AP
 ms.topic: struct
 f1_keywords: 
  - "xapofx/FXECHO_INITDATA"
+dev_langs:
+ - c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

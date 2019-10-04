@@ -12,6 +12,8 @@ ms.keywords: FilterVolumeFindFirst, FilterVolumeFindFirst function [Installable 
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterVolumeFindFirst"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

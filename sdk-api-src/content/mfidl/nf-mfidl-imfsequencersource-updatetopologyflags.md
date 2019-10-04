@@ -12,6 +12,8 @@ ms.keywords: IMFSequencerSource interface [Media Foundation],UpdateTopologyFlags
 ms.topic: method
 f1_keywords:
 - mfidl/IMFSequencerSource.UpdateTopologyFlags
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

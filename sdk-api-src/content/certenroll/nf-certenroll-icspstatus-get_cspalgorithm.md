@@ -12,6 +12,8 @@ ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspStatus.CspAlgorithm"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

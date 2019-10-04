@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],Notify 
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.Notify"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

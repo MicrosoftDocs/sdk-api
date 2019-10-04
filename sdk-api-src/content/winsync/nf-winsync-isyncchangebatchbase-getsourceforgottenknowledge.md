@@ -12,6 +12,8 @@ ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Wi
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.GetSourceForgottenKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

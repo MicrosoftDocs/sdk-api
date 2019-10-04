@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFram
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleInPlaceFrame"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

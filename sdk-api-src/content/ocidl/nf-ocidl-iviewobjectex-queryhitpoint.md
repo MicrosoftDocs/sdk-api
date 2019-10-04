@@ -12,6 +12,8 @@ ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.Q
 ms.topic: method
 f1_keywords: 
  - "ocidl/IViewObjectEx.QueryHitPoint"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

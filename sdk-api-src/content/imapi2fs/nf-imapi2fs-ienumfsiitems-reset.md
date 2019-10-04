@@ -12,6 +12,8 @@ ms.keywords: IEnumFsiItems interface [IMAPI],Reset method, IEnumFsiItems.Reset, 
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IEnumFsiItems.Reset"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

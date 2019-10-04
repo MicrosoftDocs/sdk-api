@@ -12,6 +12,8 @@ ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

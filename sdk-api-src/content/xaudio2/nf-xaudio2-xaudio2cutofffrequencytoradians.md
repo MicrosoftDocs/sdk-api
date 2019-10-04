@@ -12,6 +12,8 @@ ms.keywords: XAudio2CutoffFrequencyToRadians, XAudio2CutoffFrequencyToRadians fu
 ms.topic: function
 f1_keywords: 
  - "xaudio2/XAudio2CutoffFrequencyToRadians"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

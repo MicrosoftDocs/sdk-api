@@ -12,6 +12,8 @@ ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],desc
 ms.topic: interface
 f1_keywords: 
  - "strmif/IPin"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

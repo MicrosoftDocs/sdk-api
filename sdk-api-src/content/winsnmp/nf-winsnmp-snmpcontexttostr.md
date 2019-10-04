@@ -12,6 +12,8 @@ ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpconte
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpContextToStr"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

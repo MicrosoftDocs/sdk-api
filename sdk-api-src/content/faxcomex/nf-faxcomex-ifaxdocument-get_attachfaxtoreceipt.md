@@ -12,6 +12,8 @@ ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt prope
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.AttachFaxToReceipt"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

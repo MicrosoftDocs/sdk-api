@@ -12,6 +12,8 @@ ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade fu
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpWebSocketCompleteUpgrade"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

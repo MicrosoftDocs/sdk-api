@@ -12,6 +12,8 @@ ms.keywords: '*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POL
 ms.topic: struct
 f1_keywords:
 - ntlsa/CENTRAL_ACCESS_POLICY
+dev_langs:
+ - c++
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

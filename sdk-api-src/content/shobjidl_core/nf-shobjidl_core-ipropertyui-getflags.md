@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Wi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPropertyUI.GetFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

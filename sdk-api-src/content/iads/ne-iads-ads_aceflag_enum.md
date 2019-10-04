@@ -12,6 +12,8 @@ ms.keywords: ADS_ACEFLAG_ENUM, ADS_ACEFLAG_ENUM enumeration [ADSI], ADS_ACEFLAG_
 ms.topic: enum
 f1_keywords:
 - iads/ADS_ACEFLAG_ENUM
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

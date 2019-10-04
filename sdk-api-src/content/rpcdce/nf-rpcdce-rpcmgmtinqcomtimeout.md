@@ -12,6 +12,8 @@ ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpc
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtInqComTimeout"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

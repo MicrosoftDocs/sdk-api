@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGI
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterPushDataToEngine
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

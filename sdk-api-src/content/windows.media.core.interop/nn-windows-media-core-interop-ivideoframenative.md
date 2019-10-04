@@ -12,6 +12,8 @@ ms.keywords: IVideoFrameNative, IVideoFrameNative interface [Windows Runtime], I
 ms.topic: interface
 f1_keywords: 
  - "windows.media.core.interop/IVideoFrameNative"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

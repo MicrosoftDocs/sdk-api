@@ -12,6 +12,8 @@ ms.keywords: GetSystemTime, GetSystemTime method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_STT.GetSystemTime"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_CUE_EVENT, MF_TIMED_TEXT_CUE_EVENT enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_CUE_EVENT"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

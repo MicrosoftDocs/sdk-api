@@ -12,6 +12,8 @@ ms.keywords: ITocParser interface [Media Foundation],Init method, ITocParser.Ini
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocParser.Init"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

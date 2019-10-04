@@ -12,6 +12,8 @@ ms.keywords: '*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPAD
 ms.topic: struct
 f1_keywords:
 - iads/ADSVALUE
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

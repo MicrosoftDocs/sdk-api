@@ -12,6 +12,8 @@ ms.keywords: 7665f23b-5b1b-14d0-93b2-1c24ed09a978, ID3D11ShaderResourceView, ID3
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11ShaderResourceView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

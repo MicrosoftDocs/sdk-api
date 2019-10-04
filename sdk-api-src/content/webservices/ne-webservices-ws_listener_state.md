@@ -12,6 +12,8 @@ ms.keywords: WS_LISTENER_STATE, WS_LISTENER_STATE enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_LISTENER_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

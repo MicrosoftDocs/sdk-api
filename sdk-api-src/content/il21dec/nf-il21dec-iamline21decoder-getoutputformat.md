@@ -12,6 +12,8 @@ ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputForm
 ms.topic: method
 f1_keywords: 
  - "il21dec/IAMLine21Decoder.GetOutputFormat"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

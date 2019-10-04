@@ -12,6 +12,8 @@ ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistan
 ms.topic: method
 f1_keywords: 
  - "rendezvoussession/IRendezvousSession.Flags"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMDomain object [GPMC],SearchWMIFilters method, IGPMDomain interfa
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain.SearchWMIFilters"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

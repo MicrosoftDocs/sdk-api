@@ -12,6 +12,8 @@ ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject functi
 ms.topic: function
 f1_keywords: 
  - "wingdi/SelectObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

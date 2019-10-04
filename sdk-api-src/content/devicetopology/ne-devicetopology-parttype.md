@@ -12,6 +12,8 @@ ms.keywords: Connector, PartType, PartType , PartType enumeration [Core Audio], 
 ms.topic: enum
 f1_keywords: 
  - "devicetopology/PartType"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

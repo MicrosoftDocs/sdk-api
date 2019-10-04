@@ -12,6 +12,8 @@ ms.keywords: "?BeginRead@CThreadBase@@QAEHK@Z, BeginRead, BeginRead method [Wind
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.BeginRead"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

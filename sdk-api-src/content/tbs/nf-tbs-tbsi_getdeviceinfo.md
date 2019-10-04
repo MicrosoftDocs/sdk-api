@@ -12,6 +12,8 @@ ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_get
 ms.topic: function
 f1_keywords:
 - tbs/Tbsi_GetDeviceInfo
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_QUADRATIC_BEZIER_SEGMENT, D2D1_QUADRATIC_BEZIER_SEGMENT struct
 ms.topic: struct
 f1_keywords: 
  - "d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

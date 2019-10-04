@@ -12,6 +12,8 @@ ms.keywords: AddString, AddString method [MMC], AddString method [MMC],IStringTa
 ms.topic: method
 f1_keywords: 
  - "mmc/IStringTable.AddString"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

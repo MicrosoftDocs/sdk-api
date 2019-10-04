@@ -12,6 +12,8 @@ ms.keywords: GetFillMode, GetFillMode method [GDI+], GetFillMode method [GDI+],G
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.GetFillMode"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

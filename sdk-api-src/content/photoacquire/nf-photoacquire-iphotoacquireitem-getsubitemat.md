@@ -12,6 +12,8 @@ ms.keywords: GetSubItemAt, GetSubItemAt method [Picture Acquisition], GetSubItem
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.GetSubItemAt"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface 
 ms.topic: interface
 f1_keywords: 
  - "mmc/IStringTable"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

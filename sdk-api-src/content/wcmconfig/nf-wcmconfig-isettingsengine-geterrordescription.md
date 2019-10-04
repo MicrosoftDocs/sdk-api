@@ -12,6 +12,8 @@ ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDesc
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.GetErrorDescription"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

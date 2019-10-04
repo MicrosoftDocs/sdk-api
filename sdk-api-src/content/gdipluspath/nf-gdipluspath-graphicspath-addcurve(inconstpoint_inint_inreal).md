@@ -12,6 +12,8 @@ ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPa
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddCurve"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

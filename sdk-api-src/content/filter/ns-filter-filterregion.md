@@ -12,6 +12,8 @@ ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILT
 ms.topic: struct
 f1_keywords: 
  - "filter/FILTERREGION"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

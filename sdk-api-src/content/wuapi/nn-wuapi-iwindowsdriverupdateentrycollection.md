@@ -12,6 +12,8 @@ ms.keywords: IWindowsDriverUpdateEntryCollection, IWindowsDriverUpdateEntryColle
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdateEntryCollection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

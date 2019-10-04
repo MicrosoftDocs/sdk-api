@@ -12,6 +12,8 @@ ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, en
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/LoadEnclaveData"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

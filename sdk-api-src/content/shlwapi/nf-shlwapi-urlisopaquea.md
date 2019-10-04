@@ -12,6 +12,8 @@ ms.keywords: UrlIsOpaque, UrlIsOpaque function [Windows Shell], UrlIsOpaqueA, Ur
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlIsOpaque"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

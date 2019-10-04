@@ -12,6 +12,8 @@ ms.keywords: CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_D
 ms.topic: method
 f1_keywords:
 - vds/IVdsVdProvider.CreateVDisk
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

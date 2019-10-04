@@ -12,6 +12,8 @@ ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audi
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IKsJackSinkInformation"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

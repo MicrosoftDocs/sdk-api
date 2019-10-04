@@ -12,6 +12,8 @@ ms.keywords: STROBJ_bGetAdvanceWidths, STROBJ_bGetAdvanceWidths function [Displa
 ms.topic: function
 f1_keywords:
 - winddi/STROBJ_bGetAdvanceWidths
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

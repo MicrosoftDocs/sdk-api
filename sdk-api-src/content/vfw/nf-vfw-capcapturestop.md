@@ -12,6 +12,8 @@ ms.keywords: "_win32_capCaptureStop, capCaptureStop, capCaptureStop macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "vfw/capCaptureStop"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

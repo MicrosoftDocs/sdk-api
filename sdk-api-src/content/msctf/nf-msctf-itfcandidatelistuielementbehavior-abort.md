@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [Text Services Framework], Abort method [Text S
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElementBehavior.Abort"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

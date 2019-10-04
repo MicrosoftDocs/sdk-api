@@ -12,6 +12,8 @@ ms.keywords: RoUninitialize, RoUninitialize function [Windows Runtime], WinRTUni
 ms.topic: function
 f1_keywords: 
  - "roapi/RoUninitialize"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

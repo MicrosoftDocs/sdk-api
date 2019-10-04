@@ -12,6 +12,8 @@ ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (
 ms.topic: struct
 f1_keywords:
 - mi/MI_Server
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

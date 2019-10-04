@@ -12,6 +12,8 @@ ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NC
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptVerifyClaim"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

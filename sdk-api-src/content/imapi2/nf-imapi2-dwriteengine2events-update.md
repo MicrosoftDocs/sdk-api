@@ -12,6 +12,8 @@ ms.keywords: DWriteEngine2Events interface [IMAPI],Update method, DWriteEngine2E
 ms.topic: method
 f1_keywords: 
  - "imapi2/DWriteEngine2Events.Update"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

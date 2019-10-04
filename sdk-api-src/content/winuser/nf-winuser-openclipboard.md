@@ -12,6 +12,8 @@ ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenC
 ms.topic: function
 f1_keywords: 
  - "winuser/OpenClipboard"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

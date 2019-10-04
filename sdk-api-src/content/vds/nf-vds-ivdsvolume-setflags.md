@@ -12,6 +12,8 @@ ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IV
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.SetFlags
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, 
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSwitchDesktopToUser"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

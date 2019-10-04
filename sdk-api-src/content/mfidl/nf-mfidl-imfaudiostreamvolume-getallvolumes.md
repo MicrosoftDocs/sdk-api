@@ -12,6 +12,8 @@ ms.keywords: GetAllVolumes, GetAllVolumes method [Media Foundation], GetAllVolum
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioStreamVolume.GetAllVolumes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

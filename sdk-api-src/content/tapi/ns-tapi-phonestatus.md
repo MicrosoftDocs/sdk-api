@@ -12,6 +12,8 @@ ms.keywords: "*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi/PHONESTATUS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

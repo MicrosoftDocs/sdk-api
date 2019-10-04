@@ -12,6 +12,8 @@ ms.keywords: EmfToWmfBitsFlags, EmfToWmfBitsFlags enumeration [GDI+], EmfToWmfBi
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/EmfToWmfBitsFlags"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

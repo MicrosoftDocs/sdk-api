@@ -12,6 +12,8 @@ ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetCon
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkConnection.GetConnectionId"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

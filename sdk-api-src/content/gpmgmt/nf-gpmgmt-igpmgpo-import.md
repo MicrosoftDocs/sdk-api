@@ -12,6 +12,8 @@ ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.Import"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

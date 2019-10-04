@@ -12,6 +12,8 @@ ms.keywords: CM_Get_HW_Prof_Flags, CM_Get_HW_Prof_Flags function [Device and Dri
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_HW_Prof_Flags"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

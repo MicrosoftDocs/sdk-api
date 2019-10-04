@@ -12,6 +12,8 @@ ms.keywords: 0d2ee7c3-9da3-12e6-8b1c-f54bd03625e1, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Texture3D.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

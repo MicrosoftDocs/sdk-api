@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT
 ms.topic: struct
 f1_keywords: 
  - "ipexport/TCP_RESERVE_PORT_RANGE"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: 
 req.target-type: Windows

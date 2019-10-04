@@ -12,6 +12,8 @@ ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialPr
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbClientConnection.InitialProgram"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMemb
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/CloseThreadpoolCleanupGroupMembers"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

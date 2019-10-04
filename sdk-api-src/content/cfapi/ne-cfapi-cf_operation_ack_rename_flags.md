@@ -12,6 +12,8 @@ ms.keywords: CF_OPERATION_ACK_RENAME_FLAGS, CF_OPERATION_ACK_RENAME_FLAGS enumer
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_OPERATION_ACK_RENAME_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

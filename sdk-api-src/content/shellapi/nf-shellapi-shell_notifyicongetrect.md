@@ -12,6 +12,8 @@ ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows 
 ms.topic: function
 f1_keywords:
 - shellapi/Shell_NotifyIconGetRect
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

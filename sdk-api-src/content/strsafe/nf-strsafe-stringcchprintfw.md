@@ -12,6 +12,8 @@ ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resource
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCchPrintf"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetWorkEstimateForBat
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.SetWorkEstimateForBatch"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

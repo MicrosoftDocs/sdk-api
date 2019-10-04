@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows 
 ms.topic: method
 f1_keywords: 
  - "wsbapp/IWsbApplicationAsync.Abort"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

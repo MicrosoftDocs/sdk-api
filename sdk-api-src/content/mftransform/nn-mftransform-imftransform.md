@@ -12,6 +12,8 @@ ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform in
 ms.topic: interface
 f1_keywords: 
  - "mftransform/IMFTransform"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

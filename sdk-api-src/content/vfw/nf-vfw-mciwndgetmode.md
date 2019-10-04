@@ -12,6 +12,8 @@ ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCI
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndGetMode"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_auxOutMessage, auxOutMessage, auxOutMessage function [Windo
 ms.topic: function
 f1_keywords: 
  - "mmeapi/auxOutMessage"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

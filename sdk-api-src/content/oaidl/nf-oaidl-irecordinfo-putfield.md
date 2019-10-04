@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo interface [Automation],PutField method, IRecordInfo.Put
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.PutField"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 38db0d8e-a6db-42fa-8269-69254d38cba8, IMF_Left, IMF_Middle, IMF_Rig
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkMouseButton"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1GdiMetafileSink1 interface [Direct2D],ProcessRecord method, ID
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1GdiMetafileSink1.ProcessRecord"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

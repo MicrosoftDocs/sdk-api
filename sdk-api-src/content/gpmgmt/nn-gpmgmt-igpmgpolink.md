@@ -12,6 +12,8 @@ ms.keywords: GPMGPOLink, IGPMGPOLink, IGPMGPOLink interface [GPMC], IGPMGPOLink 
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMGPOLink"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

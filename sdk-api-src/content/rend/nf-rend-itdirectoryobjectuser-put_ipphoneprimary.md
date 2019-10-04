@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary metho
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObjectUser.put_IPPhonePrimary"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, F
 ms.topic: function
 f1_keywords: 
  - "fileapi/FindNextVolume"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

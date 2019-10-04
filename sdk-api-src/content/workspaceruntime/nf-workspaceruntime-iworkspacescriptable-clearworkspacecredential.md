@@ -12,6 +12,8 @@ ms.keywords: ClearWorkspaceCredential, ClearWorkspaceCredential method [Remote D
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable.ClearWorkspaceCredential"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

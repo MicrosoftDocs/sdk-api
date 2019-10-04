@@ -12,6 +12,8 @@ ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], Cr
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannelManager.CreateListener"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

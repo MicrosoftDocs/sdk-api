@@ -12,6 +12,8 @@ ms.keywords: CanEdit, CanEdit method [Windows Controls], CanEdit method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.CanEdit"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

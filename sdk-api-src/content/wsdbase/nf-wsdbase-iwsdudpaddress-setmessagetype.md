@@ -12,6 +12,8 @@ ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetM
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpAddress.SetMessageType
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

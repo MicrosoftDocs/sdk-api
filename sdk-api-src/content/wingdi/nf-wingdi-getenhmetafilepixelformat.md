@@ -12,6 +12,8 @@ ms.keywords: GetEnhMetaFilePixelFormat, GetEnhMetaFilePixelFormat function [Open
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetEnhMetaFilePixelFormat"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

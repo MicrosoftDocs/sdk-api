@@ -12,6 +12,8 @@ ms.keywords: TextRange_AddToSelection, TextRange_AddToSelection function [Window
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_AddToSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

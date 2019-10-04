@@ -12,6 +12,8 @@ ms.keywords: ChangeAccountPassword, ChangeAccountPassword function [Security], C
 ms.topic: function
 f1_keywords:
 - sspi/ChangeAccountPassword
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

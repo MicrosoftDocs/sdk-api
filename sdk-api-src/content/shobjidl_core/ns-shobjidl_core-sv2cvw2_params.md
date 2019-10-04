@@ -12,6 +12,8 @@ ms.keywords: "*LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS structure po
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/SV2CVW2_PARAMS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

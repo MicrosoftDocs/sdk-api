@@ -11,6 +11,8 @@ ms.keywords: CurrentIsDialog property [Windows Accessibility], CurrentIsDialog p
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement9.CurrentIsDialog"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

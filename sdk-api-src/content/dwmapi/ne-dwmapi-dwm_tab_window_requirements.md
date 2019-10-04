@@ -12,6 +12,8 @@ ms.keywords: DWMTWR_IMPLEMENTED_BY_SYSTEM, DWMTWR_NONE, DWMTWR_TABBING_ENABLED, 
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWM_TAB_WINDOW_REQUIREMENTS"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: Dwmmapi.h
 req.target-type: Windows

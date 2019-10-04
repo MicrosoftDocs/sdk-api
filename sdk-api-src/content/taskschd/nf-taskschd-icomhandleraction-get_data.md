@@ -12,6 +12,8 @@ ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],ICom
 ms.topic: method
 f1_keywords: 
  - "taskschd/IComHandlerAction.Data"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

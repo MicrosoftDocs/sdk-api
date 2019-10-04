@@ -12,6 +12,8 @@ ms.keywords: PSS_THREAD_FLAGS, PSS_THREAD_FLAGS enumeration, PSS_THREAD_FLAGS_NO
 ms.topic: enum
 f1_keywords: 
  - "processsnapshot/PSS_THREAD_FLAGS"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

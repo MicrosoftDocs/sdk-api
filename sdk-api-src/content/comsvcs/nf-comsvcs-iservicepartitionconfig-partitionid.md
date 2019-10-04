@@ -12,6 +12,8 @@ ms.keywords: IServicePartitionConfig interface [COM+],PartitionID method, IServi
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServicePartitionConfig.PartitionID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

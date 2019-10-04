@@ -12,6 +12,8 @@ ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressAddRef method, CMSPAddre
 ms.topic: method
 f1_keywords: 
  - "mspaddr/CMSPAddress.MSPAddressAddRef"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

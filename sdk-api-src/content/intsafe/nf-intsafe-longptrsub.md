@@ -12,6 +12,8 @@ ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongPtrSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

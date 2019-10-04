@@ -12,6 +12,8 @@ ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface
 ms.topic: interface
 f1_keywords: 
  - "strmif/IVPManager"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

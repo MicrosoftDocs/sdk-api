@@ -12,6 +12,8 @@ ms.keywords: ITextHost interface [Windows Controls],TxActivate method, ITextHost
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxActivate"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

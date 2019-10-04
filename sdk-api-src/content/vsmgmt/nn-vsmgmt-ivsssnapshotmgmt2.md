@@ -12,6 +12,8 @@ ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapsho
 ms.topic: interface
 f1_keywords: 
  - "vsmgmt/IVssSnapshotMgmt2"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

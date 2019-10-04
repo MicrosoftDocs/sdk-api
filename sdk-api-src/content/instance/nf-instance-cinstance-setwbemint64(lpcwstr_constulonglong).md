@@ -12,6 +12,8 @@ ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetWBEMINT64"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

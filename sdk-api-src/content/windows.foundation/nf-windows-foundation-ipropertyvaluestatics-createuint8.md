@@ -12,6 +12,8 @@ ms.keywords: CreateUInt8, CreateUInt8 method [Windows Runtime], CreateUInt8 meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateUInt8"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

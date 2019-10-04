@@ -12,6 +12,8 @@ ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmDeleteGroupMembershipEnt
 ms.topic: function
 f1_keywords: 
  - "mgm/MgmDeleteGroupMembershipEntry"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Invert, Invert method [GDI+], Invert method [GDI+],Matrix class, Ma
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Invert"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

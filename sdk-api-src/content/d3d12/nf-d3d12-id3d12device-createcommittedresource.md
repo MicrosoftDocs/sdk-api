@@ -12,6 +12,8 @@ ms.keywords: CreateCommittedResource, CreateCommittedResource method, CreateComm
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device.CreateCommittedResource"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

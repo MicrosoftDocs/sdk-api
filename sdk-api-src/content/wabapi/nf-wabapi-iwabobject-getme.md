@@ -12,6 +12,8 @@ ms.keywords: AB_NO_DIALOG, GetMe, GetMe method [Windows Address Book], GetMe met
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.GetMe"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

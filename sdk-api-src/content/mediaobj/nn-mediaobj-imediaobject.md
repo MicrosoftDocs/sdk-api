@@ -12,6 +12,8 @@ ms.keywords: IMediaObject, IMediaObject interface [DirectShow], IMediaObject int
 ms.topic: interface
 f1_keywords: 
  - "mediaobj/IMediaObject"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

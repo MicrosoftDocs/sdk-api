@@ -7,6 +7,8 @@ ms.keywords: DnsServiceFreeInstance
 ms.topic: language-reference
 f1_keywords: 
  - "windns/DnsServiceFreeInstance"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

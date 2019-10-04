@@ -12,6 +12,8 @@ ms.keywords: IInkTransform interface [Tablet PC],Reflect method, IInkTransform.R
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.Reflect"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

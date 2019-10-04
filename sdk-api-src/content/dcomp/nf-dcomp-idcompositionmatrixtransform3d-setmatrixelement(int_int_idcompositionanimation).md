@@ -12,6 +12,8 @@ ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMat
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionMatrixTransform3D.SetMatrixElement"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

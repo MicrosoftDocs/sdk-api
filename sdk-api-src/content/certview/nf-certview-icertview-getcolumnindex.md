@@ -12,6 +12,8 @@ ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK
 ms.topic: method
 f1_keywords: 
  - "certview/ICertView2.GetColumnIndex"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

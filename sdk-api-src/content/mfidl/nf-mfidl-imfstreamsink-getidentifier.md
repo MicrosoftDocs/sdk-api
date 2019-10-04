@@ -12,6 +12,8 @@ ms.keywords: GetIdentifier, GetIdentifier method [Media Foundation], GetIdentifi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamSink.GetIdentifier"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

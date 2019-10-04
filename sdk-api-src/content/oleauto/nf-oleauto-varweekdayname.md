@@ -12,6 +12,8 @@ ms.keywords: VarWeekdayName, VarWeekdayName function [Automation], _oa96_VarWeek
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarWeekdayName"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

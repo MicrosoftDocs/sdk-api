@@ -12,6 +12,8 @@ ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_HighOsci
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSTuningSpace.put_HighOscillator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

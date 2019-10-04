@@ -12,6 +12,8 @@ ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnButtonClicked 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFileDialogControlEvents.OnButtonClicked"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

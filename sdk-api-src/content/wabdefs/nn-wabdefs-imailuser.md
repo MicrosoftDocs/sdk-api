@@ -12,6 +12,8 @@ ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser in
 ms.topic: interface
 f1_keywords: 
  - "wabdefs/IMailUser"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix, GetMatrix method [
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectMatrixVariable.GetMatrix"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

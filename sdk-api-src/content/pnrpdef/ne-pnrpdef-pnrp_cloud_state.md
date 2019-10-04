@@ -12,6 +12,8 @@ ms.keywords: PNRP_CLOUD_STATE, PNRP_CLOUD_STATE enumeration [Peer Networking], P
 ms.topic: enum
 f1_keywords:
 - pnrpdef/PNRP_CLOUD_STATE
+dev_langs:
+ - c++
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows

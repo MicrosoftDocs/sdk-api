@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_ClearElement, MI_Instance_ClearElement function [Window
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_ClearElement
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

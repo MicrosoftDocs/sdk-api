@@ -12,6 +12,8 @@ ms.keywords: "*PCREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA, CREATE_USN_JOU
 ms.topic: struct
 f1_keywords: 
  - "winioctl/CREATE_USN_JOURNAL_DATA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

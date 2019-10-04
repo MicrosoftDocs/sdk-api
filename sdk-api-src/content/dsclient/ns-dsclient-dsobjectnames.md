@@ -12,6 +12,8 @@ ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active D
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSOBJECTNAMES"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

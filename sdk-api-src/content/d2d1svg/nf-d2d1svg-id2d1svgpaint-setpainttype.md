@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgPaint interface [Direct2D],SetPaintType method, ID2D1SvgPai
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPaint.SetPaintType"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

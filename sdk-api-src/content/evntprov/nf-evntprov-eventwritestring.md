@@ -12,6 +12,8 @@ ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwrites
 ms.topic: function
 f1_keywords: 
  - "evntprov/EventWriteString"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

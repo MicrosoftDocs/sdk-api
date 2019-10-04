@@ -12,6 +12,8 @@ ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassO
 ms.topic: function
 f1_keywords:
 - combaseapi/CoGetClassObject
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

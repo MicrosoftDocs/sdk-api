@@ -12,6 +12,8 @@ ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structur
 ms.topic: struct
 f1_keywords: 
  - "notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA"
+dev_langs:
+ - c++
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows

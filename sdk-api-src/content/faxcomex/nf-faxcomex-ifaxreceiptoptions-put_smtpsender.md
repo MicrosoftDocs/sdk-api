@@ -12,6 +12,8 @@ ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPSender property, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxReceiptOptions.SMTPSender"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 7cc93751-4477-4649-b09e-53f519fb1acb, IMFMediaSinkPreroll, IMFMedia
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaSinkPreroll"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

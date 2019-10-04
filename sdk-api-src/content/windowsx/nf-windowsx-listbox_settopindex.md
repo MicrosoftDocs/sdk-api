@@ -12,6 +12,8 @@ ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_SetTopIndex"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

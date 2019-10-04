@@ -12,6 +12,8 @@ ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAll
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHAllocShared"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

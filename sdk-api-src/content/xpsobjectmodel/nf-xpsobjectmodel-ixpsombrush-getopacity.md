@@ -12,6 +12,8 @@ ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpa
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMBrush.GetOpacity"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

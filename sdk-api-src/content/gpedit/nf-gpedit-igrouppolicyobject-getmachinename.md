@@ -12,6 +12,8 @@ ms.keywords: GetMachineName, GetMachineName method [Group Policy], GetMachineNam
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetMachineName"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

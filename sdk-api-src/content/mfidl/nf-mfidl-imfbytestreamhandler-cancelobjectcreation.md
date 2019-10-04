@@ -12,6 +12,8 @@ ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelO
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamHandler.CancelObjectCreation"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

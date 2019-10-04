@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineSetLineDevStatus"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

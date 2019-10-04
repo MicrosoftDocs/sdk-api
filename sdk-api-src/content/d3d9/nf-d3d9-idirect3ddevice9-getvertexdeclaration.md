@@ -12,6 +12,8 @@ ms.keywords: 8b909692-06a8-7089-4aa2-4693ff481d81, GetVertexDeclaration, GetVert
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetVertexDeclaration"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUBYTE2.XMUBYTE2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

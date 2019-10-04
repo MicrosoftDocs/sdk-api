@@ -12,6 +12,8 @@ ms.keywords: ITrigger interface [Task Scheduler],Type property, ITrigger.Type, I
 ms.topic: method
 f1_keywords:
 - taskschd/ITrigger.Type
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

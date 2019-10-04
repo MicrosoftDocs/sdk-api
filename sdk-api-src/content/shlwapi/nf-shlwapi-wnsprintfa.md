@@ -12,6 +12,8 @@ ms.keywords: "_win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsp
 ms.topic: function
 f1_keywords: 
  - "shlwapi/wnsprintf"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

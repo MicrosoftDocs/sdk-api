@@ -12,6 +12,8 @@ ms.keywords: IGPMStarterGPO interface [GPMC],Save method, IGPMStarterGPO.Save, I
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPO.Save"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

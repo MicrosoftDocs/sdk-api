@@ -12,6 +12,8 @@ ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStr
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICStream.InitializeFromIStreamRegion"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

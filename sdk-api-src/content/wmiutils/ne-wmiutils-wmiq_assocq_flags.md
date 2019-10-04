@@ -12,6 +12,8 @@ ms.keywords: WMIQ_ASSOCQ_ASSOCCLASS, WMIQ_ASSOCQ_ASSOCIATORS, WMIQ_ASSOCQ_CLASSD
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/WMIQ_ASSOCQ_FLAGS"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

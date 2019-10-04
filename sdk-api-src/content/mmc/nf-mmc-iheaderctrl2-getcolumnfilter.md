@@ -12,6 +12,8 @@ ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter meth
 ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl2.GetColumnFilter
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

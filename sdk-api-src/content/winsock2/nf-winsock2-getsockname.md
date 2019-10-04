@@ -12,6 +12,8 @@ ms.keywords: "_win32_getsockname_2, getsockname, getsockname function [Winsock],
 ms.topic: function
 f1_keywords: 
  - "winsock2/getsockname"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2cb6a5ae-315f-4de2-8817-da9d41db14b8, MFUnwrapMediaType, MFUnwrapMe
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFUnwrapMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

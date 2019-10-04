@@ -12,6 +12,8 @@ ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, 
 ms.topic: function
 f1_keywords: 
  - "winbase/OpenEventLog"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

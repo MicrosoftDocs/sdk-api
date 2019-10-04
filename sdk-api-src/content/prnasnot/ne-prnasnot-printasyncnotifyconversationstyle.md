@@ -12,6 +12,8 @@ ms.keywords: PrintAsyncNotifyConversationStyle, PrintAsyncNotifyConversationStyl
 ms.topic: enum
 f1_keywords: 
  - "prnasnot/PrintAsyncNotifyConversationStyle"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

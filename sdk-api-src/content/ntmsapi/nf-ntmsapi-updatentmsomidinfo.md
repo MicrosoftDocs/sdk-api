@@ -12,6 +12,8 @@ ms.keywords: NTMS_OMID_TYPE_FILESYSTEM_INFO, NTMS_OMID_TYPE_RAW_LABEL, UpdateNtm
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/UpdateNtmsOmidInfo"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

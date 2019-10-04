@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_cou
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_count_entries"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

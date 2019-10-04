@@ -12,6 +12,8 @@ ms.keywords: IRelationship interface [search],MetaData method, IRelationship.Met
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IRelationship.MetaData"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

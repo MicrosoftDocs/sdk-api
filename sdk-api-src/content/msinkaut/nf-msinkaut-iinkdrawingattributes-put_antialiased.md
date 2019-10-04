@@ -12,6 +12,8 @@ ms.keywords: 3536cd42-372d-4bd7-ac69-ef8d6c07f7fd, AntiAliased property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.AntiAliased"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Collapse, Collapse method [Windows Accessibility], Collapse method 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationExpandCollapsePattern.Collapse"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "winioctl/CSV_NAMESPACE_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxReceiptOptions interface [Fax Service],UseForInboundRouting pro
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxReceiptOptions.UseForInboundRouting"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

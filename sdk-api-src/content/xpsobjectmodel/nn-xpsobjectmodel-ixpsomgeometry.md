@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packagi
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometry"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

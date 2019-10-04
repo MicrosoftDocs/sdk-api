@@ -12,6 +12,8 @@ ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW func
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsMergeForestTrustInformationW"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

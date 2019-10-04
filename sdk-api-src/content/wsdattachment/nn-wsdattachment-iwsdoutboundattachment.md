@@ -12,6 +12,8 @@ ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutbo
 ms.topic: interface
 f1_keywords: 
  - "wsdattachment/IWSDOutboundAttachment"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

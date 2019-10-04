@@ -12,6 +12,8 @@ ms.keywords: 411c8228-de78-2b45-6754-17ebcd3ef8de, CreateClassLinkage, CreateCla
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateClassLinkage"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

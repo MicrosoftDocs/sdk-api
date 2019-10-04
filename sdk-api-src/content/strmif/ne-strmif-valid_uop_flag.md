@@ -12,6 +12,8 @@ ms.keywords: UOP_FLAG_Pause_On, UOP_FLAG_PlayNext_Chapter, UOP_FLAG_PlayPrev_Or_
 ms.topic: enum
 f1_keywords: 
  - "strmif/VALID_UOP_FLAG"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

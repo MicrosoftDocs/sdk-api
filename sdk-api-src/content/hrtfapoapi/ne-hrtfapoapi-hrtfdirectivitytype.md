@@ -12,6 +12,8 @@ ms.keywords: Cardioid, Cone, HrtfDirectivityType, HrtfDirectivityType enumeratio
 ms.topic: enum
 f1_keywords: 
  - "hrtfapoapi/HrtfDirectivityType"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

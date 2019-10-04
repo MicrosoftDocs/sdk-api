@@ -12,6 +12,8 @@ ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NS
 ms.topic: struct
 f1_keywords: 
  - "shobjidl/NSTCCUSTOMDRAW"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

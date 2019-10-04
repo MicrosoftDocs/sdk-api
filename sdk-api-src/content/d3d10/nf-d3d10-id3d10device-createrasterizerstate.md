@@ -12,6 +12,8 @@ ms.keywords: CreateRasterizerState, CreateRasterizerState method [Direct3D 10], 
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateRasterizerState"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

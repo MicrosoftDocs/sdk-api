@@ -12,6 +12,8 @@ ms.keywords: "*LPTOOLBARITEM, LPTOOLBARITEM, LPTOOLBARITEM structure pointer [Wi
 ms.topic: struct
 f1_keywords: 
  - "shdeprecated/TOOLBARITEM"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_OBJECT_TYPE
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

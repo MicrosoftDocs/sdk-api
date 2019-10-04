@@ -12,6 +12,8 @@ ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMAsyncProgress.Status"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

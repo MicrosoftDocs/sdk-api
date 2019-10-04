@@ -12,6 +12,8 @@ ms.keywords: MONTHLYDOW, MONTHLYDOW structure [Task Scheduler], TASK_APRIL, TASK
 ms.topic: struct
 f1_keywords:
 - mstask/MONTHLYDOW
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

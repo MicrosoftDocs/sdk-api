@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Security
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_USER
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

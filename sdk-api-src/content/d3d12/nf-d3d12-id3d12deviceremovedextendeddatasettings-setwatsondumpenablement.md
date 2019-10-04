@@ -11,6 +11,8 @@ ms.keywords: SetWatsonDumpEnablement, SetWatsonDumpEnablement method, ID3D12Devi
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement"
+dev_langs:
+ - c++
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

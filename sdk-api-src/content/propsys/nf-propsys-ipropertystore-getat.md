@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt (IPropertyStore), GetAt method [Audio Devices], GetAt 
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyStore.GetAt"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStru
 ms.topic: struct
 f1_keywords: 
  - "strmif/VMRFrequency"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

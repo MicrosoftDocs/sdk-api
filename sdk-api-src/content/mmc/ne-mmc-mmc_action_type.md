@@ -12,6 +12,8 @@ ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_ACTION_TYPE,
 ms.topic: enum
 f1_keywords:
 - mmc/MMC_ACTION_TYPE
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

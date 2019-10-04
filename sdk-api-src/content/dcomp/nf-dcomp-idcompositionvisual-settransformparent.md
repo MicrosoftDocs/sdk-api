@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransformParen
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisual.SetTransformParent"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDot11CipherAlgorithm, GetDot11CipherAlgorithm method [NativeWIFI
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

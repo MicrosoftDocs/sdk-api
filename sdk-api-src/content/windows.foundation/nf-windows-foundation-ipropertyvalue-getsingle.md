@@ -12,6 +12,8 @@ ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Wi
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetSingle"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

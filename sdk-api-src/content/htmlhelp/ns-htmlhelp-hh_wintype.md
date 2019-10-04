@@ -12,6 +12,8 @@ ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HH_WINTYPE"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

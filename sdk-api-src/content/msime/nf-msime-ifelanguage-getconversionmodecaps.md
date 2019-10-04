@@ -12,6 +12,8 @@ ms.keywords: FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMO
 ms.topic: method
 f1_keywords: 
  - "msime/IFELanguage.GetConversionModeCaps"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAG_NO_FLAVORS, WBEM_TEXT_FLAG_TYPE, WBEM_TEXT_FLAG_TYPE enum
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_TEXT_FLAG_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

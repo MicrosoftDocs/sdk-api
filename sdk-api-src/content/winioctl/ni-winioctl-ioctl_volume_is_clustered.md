@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_VOLUME_IS_CLUSTERED"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

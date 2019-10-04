@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],ReceiptType property, IFaxDocu
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.ReceiptType"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

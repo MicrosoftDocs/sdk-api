@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],SetInterpolationColors method, Lin
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.SetInterpolationColors"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

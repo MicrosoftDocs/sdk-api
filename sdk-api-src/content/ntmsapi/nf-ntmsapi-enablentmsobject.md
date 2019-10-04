@@ -12,6 +12,8 @@ ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NT
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EnableNtmsObject"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

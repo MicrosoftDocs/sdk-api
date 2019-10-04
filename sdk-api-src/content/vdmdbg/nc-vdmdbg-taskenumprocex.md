@@ -12,6 +12,8 @@ ms.keywords: TASKENUMPROCEX, TASKENUMPROCEX callback, TASKENUMPROCEX callback fu
 ms.topic: callback
 f1_keywords: 
  - "vdmdbg/TASKENUMPROCEX"
+dev_langs:
+ - c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

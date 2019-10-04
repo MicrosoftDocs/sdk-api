@@ -12,6 +12,8 @@ ms.keywords: CreateMemoryResourceNotification, CreateMemoryResourceNotification 
 ms.topic: function
 f1_keywords: 
  - "memoryapi/CreateMemoryResourceNotification"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

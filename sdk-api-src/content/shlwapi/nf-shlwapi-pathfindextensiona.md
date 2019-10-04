@@ -12,6 +12,8 @@ ms.keywords: PathFindExtension, PathFindExtension function [Windows Shell], Path
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathFindExtension"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

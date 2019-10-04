@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN, PIBIO_SENSOR_EXPORT_SENSOR_DATA
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterExportSensorData
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

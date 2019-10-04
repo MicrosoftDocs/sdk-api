@@ -12,6 +12,8 @@ ms.keywords: GetMathProperties, GetMathProperties method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetMathProperties"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

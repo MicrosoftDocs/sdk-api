@@ -12,6 +12,8 @@ ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.EnableTimeUpdateTimer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

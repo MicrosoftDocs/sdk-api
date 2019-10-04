@@ -12,6 +12,8 @@ ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName meth
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionConstantBuffer.GetVariableByName"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

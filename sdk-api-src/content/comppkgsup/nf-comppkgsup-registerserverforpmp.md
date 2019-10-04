@@ -12,6 +12,8 @@ ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], 
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/RegisterServerForPMP"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

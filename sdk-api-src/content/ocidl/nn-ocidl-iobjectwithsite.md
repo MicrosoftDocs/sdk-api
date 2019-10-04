@@ -12,6 +12,8 @@ ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite i
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IObjectWithSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

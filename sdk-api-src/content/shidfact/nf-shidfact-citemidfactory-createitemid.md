@@ -12,6 +12,8 @@ ms.keywords: CItemIDFactory interface [Windows Shell],CreateItemID method, CItem
 ms.topic: method
 f1_keywords:
 - shidfact/CItemIDFactory.CreateItemID
+dev_langs:
+ - c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PQOS_SHAPING, PQOS_SHAPING, PQOS_SHAPING enumeration pointer [QOS
 ms.topic: enum
 f1_keywords:
 - qos2/QOS_SHAPING
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

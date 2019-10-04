@@ -12,6 +12,8 @@ ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],Negotia
 ms.topic: method
 f1_keywords: 
  - "wmdxva/IWMCodecAMVideoAccelerator.NegotiateConnection"
+dev_langs:
+ - c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

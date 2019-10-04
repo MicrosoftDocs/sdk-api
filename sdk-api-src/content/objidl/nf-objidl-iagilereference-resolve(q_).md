@@ -12,6 +12,8 @@ ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileR
 ms.topic: method
 f1_keywords: 
  - "objidl/IAgileReference.Resolve"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

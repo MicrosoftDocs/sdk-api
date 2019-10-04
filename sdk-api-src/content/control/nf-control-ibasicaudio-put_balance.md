@@ -12,6 +12,8 @@ ms.keywords: IBasicAudio interface [DirectShow],put_Balance method, IBasicAudio.
 ms.topic: method
 f1_keywords: 
  - "control/IBasicAudio.put_Balance"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

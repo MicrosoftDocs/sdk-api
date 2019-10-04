@@ -12,6 +12,8 @@ ms.keywords: GETPROPERTYSTOREFLAGS, GETPROPERTYSTOREFLAGS enumeration [Windows P
 ms.topic: enum
 f1_keywords: 
  - "propsys/GETPROPERTYSTOREFLAGS"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

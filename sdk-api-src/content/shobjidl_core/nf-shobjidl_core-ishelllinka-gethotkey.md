@@ -12,6 +12,8 @@ ms.keywords: GetHotkey, GetHotkey method [Windows Shell], GetHotkey method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.GetHotkey"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

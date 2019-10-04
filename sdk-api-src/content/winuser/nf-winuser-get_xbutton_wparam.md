@@ -12,6 +12,8 @@ ms.keywords: GET_XBUTTON_WPARAM, GET_XBUTTON_WPARAM macro [Keyboard and Mouse In
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_XBUTTON_WPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

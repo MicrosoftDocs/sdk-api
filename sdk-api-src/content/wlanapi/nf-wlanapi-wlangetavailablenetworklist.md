@@ -12,6 +12,8 @@ ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_N
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetAvailableNetworkList
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

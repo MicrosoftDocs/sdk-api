@@ -12,6 +12,8 @@ ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NE
 ms.topic: function
 f1_keywords:
 - winsock2/WSALookupServiceBegin
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

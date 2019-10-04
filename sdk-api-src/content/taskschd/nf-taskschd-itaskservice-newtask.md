@@ -12,6 +12,8 @@ ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskServic
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskService.NewTask"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

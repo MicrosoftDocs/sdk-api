@@ -12,6 +12,8 @@ ms.keywords: GPMTrustee, IGPMTrustee, IGPMTrustee interface [GPMC], IGPMTrustee 
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMTrustee"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

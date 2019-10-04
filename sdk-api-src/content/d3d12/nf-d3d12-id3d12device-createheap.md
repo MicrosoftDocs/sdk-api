@@ -12,6 +12,8 @@ ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device inter
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device.CreateHeap"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internat
 ms.topic: function
 f1_keywords: 
  - "msime/CreateIFECommonInstance"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyNam
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCryptKeyName"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

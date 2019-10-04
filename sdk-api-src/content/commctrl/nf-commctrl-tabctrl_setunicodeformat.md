@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetUnicodeFormat, TabCtrl_SetUnicodeFormat macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetUnicodeFormat"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

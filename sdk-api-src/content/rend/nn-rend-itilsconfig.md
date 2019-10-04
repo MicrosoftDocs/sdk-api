@@ -12,6 +12,8 @@ ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], ITILSConfig interfac
 ms.topic: interface
 f1_keywords: 
  - "rend/ITILSConfig"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

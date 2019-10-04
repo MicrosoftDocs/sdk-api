@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionLn, XMQuaternionLn, XMQuaternionLn method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionLn"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

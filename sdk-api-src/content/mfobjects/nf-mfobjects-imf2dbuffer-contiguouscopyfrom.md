@@ -12,6 +12,8 @@ ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, Contiguou
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.ContiguousCopyFrom"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

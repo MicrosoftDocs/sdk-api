@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_BLT_STATE, DXVAHD_BLT_STATE enumeration [Media Foundation], 
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_BLT_STATE
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

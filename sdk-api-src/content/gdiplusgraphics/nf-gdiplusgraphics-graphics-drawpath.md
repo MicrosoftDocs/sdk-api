@@ -12,6 +12,8 @@ ms.keywords: DrawPath, DrawPath method [GDI+], DrawPath method [GDI+],Graphics c
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawPath"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

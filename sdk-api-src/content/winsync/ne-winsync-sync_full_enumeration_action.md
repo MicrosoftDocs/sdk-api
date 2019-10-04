@@ -12,6 +12,8 @@ ms.keywords: SFEA_ABORT, SFEA_FULL_ENUMERATION, SFEA_PARTIAL_SYNC, SYNC_FULL_ENU
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_FULL_ENUMERATION_ACTION"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Skip method, IEnumS
 ms.topic: method
 f1_keywords: 
  - "syncregistration/IEnumSyncProviderInfos.Skip"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

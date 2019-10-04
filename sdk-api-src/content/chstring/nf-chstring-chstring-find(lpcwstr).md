@@ -12,6 +12,8 @@ ms.keywords: "?Find@CHString@@QBEHPBG@Z, ?Find@CHString@@QEBAHPEBG@Z, CHString i
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Find"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

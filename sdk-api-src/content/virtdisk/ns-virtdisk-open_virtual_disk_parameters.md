@@ -12,6 +12,8 @@ ms.keywords: "*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

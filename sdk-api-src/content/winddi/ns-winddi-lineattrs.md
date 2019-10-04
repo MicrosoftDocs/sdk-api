@@ -12,6 +12,8 @@ ms.keywords: "*PLINEATTRS, LINEATTRS, LINEATTRS structure [Display Devices], PLI
 ms.topic: struct
 f1_keywords: 
  - "winddi/LINEATTRS"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

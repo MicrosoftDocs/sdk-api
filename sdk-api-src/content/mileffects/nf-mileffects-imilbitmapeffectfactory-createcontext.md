@@ -12,6 +12,8 @@ ms.keywords: CreateContext, CreateContext method [WPF Bitmap Effects], CreateCon
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectFactory.CreateContext"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

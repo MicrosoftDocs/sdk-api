@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_ST
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_MFE_STATS
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

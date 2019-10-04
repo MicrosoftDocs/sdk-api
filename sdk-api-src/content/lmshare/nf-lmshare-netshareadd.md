@@ -12,6 +12,8 @@ ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_nets
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareAdd
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

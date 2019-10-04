@@ -12,6 +12,8 @@ ms.keywords: GetFormatFlags, GetFormatFlags method [GDI+], GetFormatFlags method
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetFormatFlags"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FALSE, IAnchor interface [Text Services Framework],ShiftRegion meth
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.ShiftRegion"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWor
 ms.topic: interface
 f1_keywords: 
  - "mstask/IEnumWorkItems"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

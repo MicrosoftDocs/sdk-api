@@ -12,6 +12,8 @@ ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeN
 ms.topic: function
 f1_keywords: 
  - "powerbase/PowerRegisterSuspendResumeNotification"
+dev_langs:
+ - c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

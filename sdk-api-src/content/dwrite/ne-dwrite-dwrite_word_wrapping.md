@@ -12,6 +12,8 @@ ms.keywords: DWRITE_WORD_WRAPPING, DWRITE_WORD_WRAPPING enumeration [Direct Writ
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_WORD_WRAPPING"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

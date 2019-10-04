@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoColorPrimaries, codecapi/eAVEncVideoColorPrimar
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoColorPrimaries"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

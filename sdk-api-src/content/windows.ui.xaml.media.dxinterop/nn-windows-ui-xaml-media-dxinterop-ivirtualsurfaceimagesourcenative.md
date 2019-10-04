@@ -12,6 +12,8 @@ ms.keywords: IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative 
 ms.topic: interface
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

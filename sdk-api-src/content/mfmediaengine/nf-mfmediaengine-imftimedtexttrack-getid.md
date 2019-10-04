@@ -12,6 +12,8 @@ ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetId"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

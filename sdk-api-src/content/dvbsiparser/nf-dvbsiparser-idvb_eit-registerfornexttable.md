@@ -12,6 +12,8 @@ ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForNextTable
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT.RegisterForNextTable"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

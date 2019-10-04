@@ -12,6 +12,8 @@ ms.keywords: IntMult, IntMult function [Windows Shell], intsafe/IntMult, shell.I
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

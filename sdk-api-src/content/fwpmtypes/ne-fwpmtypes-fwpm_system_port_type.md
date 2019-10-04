@@ -12,6 +12,8 @@ ms.keywords: FWPM_SYSTEM_PORT_IPHTTPS_IN, FWPM_SYSTEM_PORT_IPHTTPS_OUT, FWPM_SYS
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_SYSTEM_PORT_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

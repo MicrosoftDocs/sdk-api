@@ -12,6 +12,8 @@ ms.keywords: IUPnPNAT interface [ICS/ICF],get_NATEventManager method, IUPnPNAT.g
 ms.topic: method
 f1_keywords: 
  - "natupnp/IUPnPNAT.get_NATEventManager"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

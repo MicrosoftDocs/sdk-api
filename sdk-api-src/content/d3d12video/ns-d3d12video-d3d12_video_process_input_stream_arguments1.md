@@ -5,6 +5,10 @@ description: Specifies input stream arguments for an input stream passed to ID3D
 ms.date: 4/26/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 ms.topic: language-reference
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

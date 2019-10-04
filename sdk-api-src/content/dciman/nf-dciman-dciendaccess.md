@@ -12,6 +12,8 @@ ms.keywords: DCIEndAccess, DCIEndAccess function [Windows API], _dciman_dciendac
 ms.topic: function
 f1_keywords: 
  - "dciman/DCIEndAccess"
+dev_langs:
+ - c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

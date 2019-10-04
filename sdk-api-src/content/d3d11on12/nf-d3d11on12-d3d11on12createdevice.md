@@ -12,6 +12,8 @@ ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3
 ms.topic: function
 f1_keywords: 
  - "d3d11on12/D3D11On12CreateDevice"
+dev_langs:
+ - c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRoot, GetRoot method [Direct2D], GetRoot method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgDocument.GetRoot"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

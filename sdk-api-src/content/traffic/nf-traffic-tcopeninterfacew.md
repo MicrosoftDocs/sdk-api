@@ -12,6 +12,8 @@ ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, 
 ms.topic: function
 f1_keywords: 
  - "traffic/TcOpenInterface"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

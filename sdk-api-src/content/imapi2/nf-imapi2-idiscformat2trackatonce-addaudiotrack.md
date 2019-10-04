@@ -12,6 +12,8 @@ ms.keywords: AddAudioTrack, AddAudioTrack method [IMAPI], AddAudioTrack method [
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2TrackAtOnce.AddAudioTrack"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

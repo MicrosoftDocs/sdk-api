@@ -12,6 +12,8 @@ ms.keywords: GetFullResourceName, GetFullResourceName method [Security], GetFull
 ms.topic: method
 f1_keywords: 
  - "aclui/ISecurityInformation3.GetFullResourceName"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

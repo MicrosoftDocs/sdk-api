@@ -12,6 +12,8 @@ ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionB
 ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.DecryptionBlt
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows 
 ms.topic: function
 f1_keywords: 
  - "werapi/WerRegisterAppLocalDump"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

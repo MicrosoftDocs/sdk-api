@@ -12,6 +12,8 @@ ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStre
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPServices.GetStreamTime"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

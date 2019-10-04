@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],put_Si
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink.put_SinkName"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

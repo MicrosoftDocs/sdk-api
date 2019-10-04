@@ -12,6 +12,8 @@ ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.preprep
 ms.topic: function
 f1_keywords: 
  - "ktmw32/PrePrepareComplete"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

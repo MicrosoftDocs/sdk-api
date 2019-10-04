@@ -12,6 +12,8 @@ ms.keywords: PTRANSLATE_ADDRESS_ROUTINE, PTRANSLATE_ADDRESS_ROUTINE64, Translate
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/TranslateAddressProc64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

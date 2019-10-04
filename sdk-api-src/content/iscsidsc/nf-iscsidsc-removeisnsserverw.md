@@ -12,6 +12,8 @@ ms.keywords: RemoveISNSServerW, RemoveIsnsServer, RemoveIsnsServer function [iSC
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/RemoveIsnsServer"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

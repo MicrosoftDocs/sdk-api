@@ -12,6 +12,8 @@ ms.keywords: FaxAccessCheckA, FaxAccessCheckW, PFAXACCESSCHECK, PFAXACCESSCHECK 
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAXACCESSCHECK"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

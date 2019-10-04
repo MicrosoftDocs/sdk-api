@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAtt
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.RemoteName"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

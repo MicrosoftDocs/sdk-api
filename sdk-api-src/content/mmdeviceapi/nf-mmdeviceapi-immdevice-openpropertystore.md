@@ -12,6 +12,8 @@ ms.keywords: IMMDevice interface [Core Audio],OpenPropertyStore method, IMMDevic
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDevice.OpenPropertyStore"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

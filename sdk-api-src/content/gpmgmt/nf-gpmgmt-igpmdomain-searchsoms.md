@@ -12,6 +12,8 @@ ms.keywords: GPMDomain object [GPMC],SearchSOMs method, IGPMDomain interface [GP
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain.SearchSOMs"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

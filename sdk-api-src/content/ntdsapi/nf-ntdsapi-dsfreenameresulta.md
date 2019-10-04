@@ -12,6 +12,8 @@ ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsF
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsFreeNameResult"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

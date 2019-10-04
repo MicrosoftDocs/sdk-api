@@ -12,6 +12,8 @@ ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetRectRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

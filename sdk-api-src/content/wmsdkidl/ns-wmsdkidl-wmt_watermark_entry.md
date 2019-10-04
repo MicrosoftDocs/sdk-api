@@ -12,6 +12,8 @@ ms.keywords: WMT_WATERMARK_ENTRY, WMT_WATERMARK_ENTRY structure [windows Media F
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMT_WATERMARK_ENTRY"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCALE_CHANGE_FLAGS, SCALE_CHANGE_FLAGS enumeration [Windows Shell],
 ms.topic: enum
 f1_keywords: 
  - "shellscalingapi/SCALE_CHANGE_FLAGS"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

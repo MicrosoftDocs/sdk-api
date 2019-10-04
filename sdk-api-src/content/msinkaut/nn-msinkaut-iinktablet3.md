@@ -12,6 +12,8 @@ ms.keywords: IInkTablet3, IInkTablet3 Interface, IInkTablet3 Interface interface
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkTablet3 Interface"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

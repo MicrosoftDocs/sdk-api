@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOUR
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterResourceTypeEnum"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

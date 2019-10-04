@@ -12,6 +12,8 @@ ms.keywords: DhcpServerQueryAttributes, DhcpServerQueryAttributes function [DHCP
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerQueryAttributes
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

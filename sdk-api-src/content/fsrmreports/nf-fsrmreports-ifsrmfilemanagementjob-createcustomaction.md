@@ -12,6 +12,8 @@ ms.keywords: CreateCustomAction, CreateCustomAction method [File Server Resource
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.CreateCustomAction"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

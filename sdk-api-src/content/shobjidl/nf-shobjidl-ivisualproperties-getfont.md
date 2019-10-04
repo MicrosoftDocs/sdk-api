@@ -12,6 +12,8 @@ ms.keywords: GetFont, GetFont method [Windows Shell], GetFont method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IVisualProperties.GetFont"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

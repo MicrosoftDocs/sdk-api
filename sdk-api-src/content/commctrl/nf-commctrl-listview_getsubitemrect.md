@@ -12,6 +12,8 @@ ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListVi
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetSubItemRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

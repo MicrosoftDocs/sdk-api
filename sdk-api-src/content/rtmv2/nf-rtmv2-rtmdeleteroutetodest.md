@@ -12,6 +12,8 @@ ms.keywords: RtmDeleteRouteToDest, RtmDeleteRouteToDest function [RAS], _rtmv2re
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmDeleteRouteToDest"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneGetStatus, TSPI_phoneGetStatus function [TAPI 2.2], _tspi
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneGetStatus"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

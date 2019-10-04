@@ -12,6 +12,8 @@ ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsec
 ms.topic: function
 f1_keywords:
 - aclapi/GetSecurityInfo
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

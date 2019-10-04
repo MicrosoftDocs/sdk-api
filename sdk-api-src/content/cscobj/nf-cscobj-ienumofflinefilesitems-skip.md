@@ -12,6 +12,8 @@ ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Skip method, IEnum
 ms.topic: method
 f1_keywords: 
  - "cscobj/IEnumOfflineFilesItems.Skip"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

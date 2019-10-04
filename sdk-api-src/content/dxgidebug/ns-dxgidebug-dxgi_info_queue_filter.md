@@ -12,6 +12,8 @@ ms.keywords: DXGI_INFO_QUEUE_FILTER, DXGI_INFO_QUEUE_FILTER structure [DXGI], di
 ms.topic: struct
 f1_keywords: 
  - "dxgidebug/DXGI_INFO_QUEUE_FILTER"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

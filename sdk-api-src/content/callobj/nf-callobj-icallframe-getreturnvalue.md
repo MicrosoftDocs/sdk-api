@@ -12,6 +12,8 @@ ms.keywords: GetReturnValue, GetReturnValue method [COM], GetReturnValue method 
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetReturnValue"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

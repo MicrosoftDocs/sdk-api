@@ -12,6 +12,8 @@ ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],GetFileGr
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroupManager.GetFileGroup"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

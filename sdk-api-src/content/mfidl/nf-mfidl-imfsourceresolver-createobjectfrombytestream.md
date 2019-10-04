@@ -12,6 +12,8 @@ ms.keywords: CreateObjectFromByteStream, CreateObjectFromByteStream method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSourceResolver.CreateObjectFromByteStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

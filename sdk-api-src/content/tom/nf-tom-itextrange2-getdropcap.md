@@ -12,6 +12,8 @@ ms.keywords: GetDropCap, GetDropCap method [Windows Controls], GetDropCap method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetDropCap"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

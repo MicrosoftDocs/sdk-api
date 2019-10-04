@@ -12,6 +12,8 @@ ms.keywords: ID3D10ShaderReflection1 interface [Direct3D 10],IsLevel9Shader meth
 ms.topic: method
 f1_keywords: 
  - "d3d10_1shader/ID3D10ShaderReflection1.IsLevel9Shader"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

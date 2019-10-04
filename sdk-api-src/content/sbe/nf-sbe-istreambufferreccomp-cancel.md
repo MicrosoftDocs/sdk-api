@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Microsoft TV Technologies], Cancel method [M
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferRecComp.Cancel"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

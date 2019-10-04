@@ -12,6 +12,8 @@ ms.keywords: CALLHUB_STATE, CALLHUB_STATE enumeration [TAPI 2.2], CHS_ACTIVE, CH
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLHUB_STATE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

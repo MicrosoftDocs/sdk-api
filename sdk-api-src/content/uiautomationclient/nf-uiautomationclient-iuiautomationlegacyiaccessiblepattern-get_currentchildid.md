@@ -12,6 +12,8 @@ ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentChildId"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

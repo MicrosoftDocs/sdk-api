@@ -12,6 +12,8 @@ ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAudioRendererStats.GetStatParam"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

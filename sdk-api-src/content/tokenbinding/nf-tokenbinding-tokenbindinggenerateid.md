@@ -12,6 +12,8 @@ ms.keywords: TokenBindingGenerateID, TokenBindingGenerateID function [Security],
 ms.topic: function
 f1_keywords: 
  - "tokenbinding/TokenBindingGenerateID"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

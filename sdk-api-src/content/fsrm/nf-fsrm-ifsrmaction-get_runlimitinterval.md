@@ -12,6 +12,8 @@ ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterv
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmAction.RunLimitInterval"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnif
 ms.topic: struct
 f1_keywords: 
  - "magnification/MAGCOLOREFFECT"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_
 ms.topic: struct
 f1_keywords: 
  - "ntddmou/MOUSE_UNIT_ID_PARAMETER"
+dev_langs:
+ - c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XPS_SIGN_POLICY, XPS_SIGN_POLICY enumeration [XPS Documents and Pac
 ms.topic: enum
 f1_keywords: 
  - "xpsdigitalsignature/XPS_SIGN_POLICY"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSimpleAudioVolume interface [Media Foundation],SetMute method, I
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSimpleAudioVolume.SetMute"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

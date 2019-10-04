@@ -12,6 +12,8 @@ ms.keywords: CreateTextServices, CreateTextServices function [Windows Controls],
 ms.topic: function
 f1_keywords: 
  - "textserv/CreateTextServices"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

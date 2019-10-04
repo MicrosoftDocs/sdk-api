@@ -12,6 +12,8 @@ ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderHurryup"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

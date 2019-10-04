@@ -12,6 +12,8 @@ ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpen
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIFileOpen"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

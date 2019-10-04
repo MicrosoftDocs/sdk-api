@@ -12,6 +12,8 @@ ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell
 ms.topic: struct
 f1_keywords: 
  - "commoncontrols/IMAGELISTSTATS"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

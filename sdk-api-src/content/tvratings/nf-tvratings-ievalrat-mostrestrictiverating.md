@@ -12,6 +12,8 @@ ms.keywords: IEvalRat interface [Microsoft TV Technologies],MostRestrictiveRatin
 ms.topic: method
 f1_keywords: 
  - "tvratings/IEvalRat.MostRestrictiveRating"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

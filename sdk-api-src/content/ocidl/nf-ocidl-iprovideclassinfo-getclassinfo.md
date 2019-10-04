@@ -12,6 +12,8 @@ ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],
 ms.topic: method
 f1_keywords: 
  - "ocidl/IProvideClassInfo.GetClassInfo"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

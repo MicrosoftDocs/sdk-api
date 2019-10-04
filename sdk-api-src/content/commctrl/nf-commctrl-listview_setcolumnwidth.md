@@ -12,6 +12,8 @@ ms.keywords: LVSCW_AUTOSIZE, LVSCW_AUTOSIZE_USEHEADER, ListView_SetColumnWidth, 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetColumnWidth"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

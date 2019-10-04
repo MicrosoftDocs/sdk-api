@@ -12,6 +12,8 @@ ms.keywords: PathGradientBrush class [GDI+],SetSurroundColors method, PathGradie
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.SetSurroundColors"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

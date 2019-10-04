@@ -12,6 +12,8 @@ ms.keywords: ContinueDebugEvent, ContinueDebugEvent function, DBG_CONTINUE, DBG_
 ms.topic: function
 f1_keywords: 
  - "debugapi/ContinueDebugEvent"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

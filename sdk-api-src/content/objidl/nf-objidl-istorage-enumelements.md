@@ -12,6 +12,8 @@ ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElement
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.EnumElements"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

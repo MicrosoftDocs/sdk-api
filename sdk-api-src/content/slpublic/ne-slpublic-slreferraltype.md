@@ -12,6 +12,8 @@ ms.keywords: SLREFERRALTYPE, SLREFERRALTYPE enumeration [Security], SL_REFERRALT
 ms.topic: enum
 f1_keywords: 
  - "slpublic/SLREFERRALTYPE"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

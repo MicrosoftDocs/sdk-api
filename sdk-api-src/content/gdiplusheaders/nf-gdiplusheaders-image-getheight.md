@@ -12,6 +12,8 @@ ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image c
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetHeight"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

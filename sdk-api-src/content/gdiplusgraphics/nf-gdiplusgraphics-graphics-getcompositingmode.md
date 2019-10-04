@@ -12,6 +12,8 @@ ms.keywords: GetCompositingMode, GetCompositingMode method [GDI+], GetCompositin
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetCompositingMode"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

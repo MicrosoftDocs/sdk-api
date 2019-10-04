@@ -12,6 +12,8 @@ ms.keywords: "*LPSYSTEM_INFO, PROCESSOR_AMD_X8664, PROCESSOR_ARCHITECTURE_AMD64,
 ms.topic: struct
 f1_keywords: 
  - "sysinfoapi/SYSTEM_INFO"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

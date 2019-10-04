@@ -12,6 +12,8 @@ ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersivepr
 ms.topic: function
 f1_keywords: 
  - "winuser/IsImmersiveProcess"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

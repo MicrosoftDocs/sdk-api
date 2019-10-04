@@ -12,6 +12,8 @@ ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFB
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxMessageBox"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

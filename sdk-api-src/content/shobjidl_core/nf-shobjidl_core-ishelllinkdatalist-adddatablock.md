@@ -12,6 +12,8 @@ ms.keywords: AddDataBlock, AddDataBlock method [Windows Shell], AddDataBlock met
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLinkDataList.AddDataBlock"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

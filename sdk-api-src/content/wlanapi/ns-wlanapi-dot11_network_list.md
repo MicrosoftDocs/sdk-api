@@ -12,6 +12,8 @@ ms.keywords: '*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST struc
 ms.topic: struct
 f1_keywords:
 - wlanapi/DOT11_NETWORK_LIST
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

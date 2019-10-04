@@ -12,6 +12,8 @@ ms.keywords: WS_CALL_PROPERTY_CALL_ID, WS_CALL_PROPERTY_CHECK_MUST_UNDERSTAND, W
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_CALL_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

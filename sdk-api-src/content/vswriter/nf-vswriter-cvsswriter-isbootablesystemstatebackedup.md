@@ -12,6 +12,8 @@ ms.keywords: CVssWriter class [VSS],IsBootableSystemStateBackedUp method, CVssWr
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.IsBootableSystemStateBackedUp"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler 
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFRegisterLocalByteStreamHandler"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

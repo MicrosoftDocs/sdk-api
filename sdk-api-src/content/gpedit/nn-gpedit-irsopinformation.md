@@ -12,6 +12,8 @@ ms.keywords: IRSOPInformation, IRSOPInformation interface [Group Policy], IRSOPI
 ms.topic: interface
 f1_keywords: 
  - "gpedit/IRSOPInformation"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMaxQueuedRequests, GetMaxQueuedRequests method [COM+], GetMaxQue
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IThreadPoolKnobs.GetMaxQueuedRequests"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

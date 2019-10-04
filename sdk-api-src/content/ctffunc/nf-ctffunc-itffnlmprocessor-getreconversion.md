@@ -12,6 +12,8 @@ ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnLMProcessor.GetReconversion"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcs
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcServerRegisterIf3"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkWordList2"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

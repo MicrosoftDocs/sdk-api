@@ -12,6 +12,8 @@ ms.keywords: EncryptionOn, EncryptionOn method [Microsoft TV Technologies], Encr
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSinkEvent2.EncryptionOn"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

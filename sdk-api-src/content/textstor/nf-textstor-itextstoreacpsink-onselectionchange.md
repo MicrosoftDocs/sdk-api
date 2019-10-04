@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionCh
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACPSink.OnSelectionChange"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

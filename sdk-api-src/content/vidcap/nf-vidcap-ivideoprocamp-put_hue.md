@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],put_Hue method, IVideoProcAmp.
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.put_Hue"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

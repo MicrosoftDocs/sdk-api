@@ -12,6 +12,8 @@ ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_LATTICE_ELEMENT"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

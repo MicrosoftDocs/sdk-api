@@ -12,6 +12,8 @@ ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvid
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATVisuals.get_Bitmap"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

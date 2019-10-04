@@ -12,6 +12,8 @@ ms.keywords: IAudioClient interface [Core Audio],Reset method, IAudioClient.Rese
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.Reset"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

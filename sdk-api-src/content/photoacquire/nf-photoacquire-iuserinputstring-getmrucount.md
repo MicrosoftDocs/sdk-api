@@ -12,6 +12,8 @@ ms.keywords: GetMruCount, GetMruCount method [Picture Acquisition], GetMruCount 
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetMruCount"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

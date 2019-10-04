@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboardEventHandler2, IUIAnimationStoryboardEventHan
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboardEventHandler2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

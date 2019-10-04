@@ -12,6 +12,8 @@ ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnLangProfileUtil"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

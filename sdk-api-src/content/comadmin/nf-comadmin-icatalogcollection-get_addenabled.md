@@ -12,6 +12,8 @@ ms.keywords: AddEnabled property [COM+], AddEnabled property [COM+],ICatalogColl
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.AddEnabled"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

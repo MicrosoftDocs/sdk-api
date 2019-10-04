@@ -12,6 +12,8 @@ ms.keywords: VarI2FromDisp, VarI2FromDisp function [Automation], _oa96_VarI2From
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarI2FromDisp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

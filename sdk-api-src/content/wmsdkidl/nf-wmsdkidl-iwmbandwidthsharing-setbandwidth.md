@@ -12,6 +12,8 @@ ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetBandwidth m
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMBandwidthSharing.SetBandwidth"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

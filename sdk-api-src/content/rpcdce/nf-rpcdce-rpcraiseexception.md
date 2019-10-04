@@ -12,6 +12,8 @@ ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraisee
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcRaiseException"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

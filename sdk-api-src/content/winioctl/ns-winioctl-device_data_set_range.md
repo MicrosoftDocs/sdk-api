@@ -12,6 +12,8 @@ ms.keywords: "*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DEVICE_DATA_SET_RANGE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

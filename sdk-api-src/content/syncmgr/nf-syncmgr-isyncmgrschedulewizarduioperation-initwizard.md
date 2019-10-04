@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrScheduleWizardUIOperation interface [Windows Shell],InitWiz
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrScheduleWizardUIOperation.InitWizard"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

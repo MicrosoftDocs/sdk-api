@@ -12,6 +12,8 @@ ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains meth
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingFrustum.Contains"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

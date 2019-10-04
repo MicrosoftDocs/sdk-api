@@ -12,6 +12,8 @@ ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundatio
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMCodecLeakyBucket"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

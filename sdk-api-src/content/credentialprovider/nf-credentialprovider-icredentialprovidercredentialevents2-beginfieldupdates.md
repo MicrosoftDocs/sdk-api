@@ -12,6 +12,8 @@ ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginF
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents2.BeginFieldUpdates"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

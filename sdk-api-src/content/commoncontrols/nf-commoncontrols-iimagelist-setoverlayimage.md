@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [Windows Controls],SetOverlayImage method, IIm
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.SetOverlayImage"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

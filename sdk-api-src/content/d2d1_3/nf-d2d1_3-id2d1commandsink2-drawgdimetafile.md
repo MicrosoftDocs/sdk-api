@@ -12,6 +12,8 @@ ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1CommandSink2.DrawGdiMetafile"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

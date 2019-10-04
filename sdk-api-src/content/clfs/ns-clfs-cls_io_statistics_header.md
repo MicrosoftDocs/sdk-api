@@ -12,6 +12,8 @@ ms.keywords: '*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_S
 ms.topic: struct
 f1_keywords:
 - clfs/CLFS_IO_STATISTICS_HEADER
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

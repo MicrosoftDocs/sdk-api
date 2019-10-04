@@ -12,6 +12,8 @@ ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Fail
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterRegCreateReadBatch"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RP
 ms.topic: struct
 f1_keywords:
 - rpcdce/SEC_WINNT_AUTH_IDENTITY
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

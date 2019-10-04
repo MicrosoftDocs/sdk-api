@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEn
 ms.topic: method
 f1_keywords: 
  - "syncregistration/IEnumSyncProviderInfos.Clone"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

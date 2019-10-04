@@ -12,6 +12,8 @@ ms.keywords: TextRange_Select, TextRange_Select function [Windows Accessibility]
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_Select"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

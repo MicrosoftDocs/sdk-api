@@ -12,6 +12,8 @@ ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 inter
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.LockDevice"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

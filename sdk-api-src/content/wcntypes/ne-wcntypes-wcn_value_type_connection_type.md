@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_CT_ESS, WCN_VALUE_CT_IBSS, WCN_VALUE_TYPE_CONNECTION_TYPE
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_CONNECTION_TYPE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

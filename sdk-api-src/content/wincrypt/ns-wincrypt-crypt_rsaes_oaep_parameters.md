@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_RSAES_OAEP_PARAMETERS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

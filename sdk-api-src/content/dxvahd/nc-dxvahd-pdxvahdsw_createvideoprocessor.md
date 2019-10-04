@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_CreateVideoProcessor, PDXVAHDSW_CreateVideoProcessor call
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_CreateVideoProcessor
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

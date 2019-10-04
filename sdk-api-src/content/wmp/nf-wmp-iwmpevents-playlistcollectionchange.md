@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionChang
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.PlaylistCollectionChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

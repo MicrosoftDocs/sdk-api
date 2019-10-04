@@ -12,6 +12,8 @@ ms.keywords: "*PMONCBSTRUCT, MONCBSTRUCT, MONCBSTRUCT structure [Data Exchange],
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONCBSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

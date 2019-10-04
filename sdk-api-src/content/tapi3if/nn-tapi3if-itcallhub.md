@@ -12,6 +12,8 @@ ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAP
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITCallHub"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

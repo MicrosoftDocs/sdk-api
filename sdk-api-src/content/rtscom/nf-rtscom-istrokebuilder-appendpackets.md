@@ -12,6 +12,8 @@ ms.keywords: 7b53a9b2-11da-4063-aac3-a85e52abeb52, AppendPackets, AppendPackets 
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStrokeBuilder.AppendPackets"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

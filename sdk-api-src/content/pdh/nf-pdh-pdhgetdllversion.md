@@ -12,6 +12,8 @@ ms.keywords: PDH_CVERSION_WIN50, PDH_VERSION, PdhGetDllVersion, PdhGetDllVersion
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhGetDllVersion"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IReconcileInitiator, IReconcileInitiator interface [Legacy Windows 
 ms.topic: interface
 f1_keywords: 
  - "reconcil/IReconcileInitiator"
+dev_langs:
+ - c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

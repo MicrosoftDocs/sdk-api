@@ -12,6 +12,8 @@ ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetInterpolationColorCount"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

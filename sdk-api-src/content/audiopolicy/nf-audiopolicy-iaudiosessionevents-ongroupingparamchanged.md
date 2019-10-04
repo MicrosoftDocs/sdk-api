@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEvents interface [Core Audio],OnGroupingParamChanged m
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionEvents.OnGroupingParamChanged"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

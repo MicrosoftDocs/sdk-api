@@ -12,6 +12,8 @@ ms.keywords: EnumSystemLanguageGroups, EnumSystemLanguageGroups function [Intern
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumSystemLanguageGroups"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

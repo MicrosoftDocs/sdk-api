@@ -12,6 +12,8 @@ ms.keywords: GetReconstructedVideoFrameSize, GetReconstructedVideoFrameSize meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

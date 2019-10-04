@@ -12,6 +12,8 @@ ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfsharingengine/IPlayToSourceClassFactory"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

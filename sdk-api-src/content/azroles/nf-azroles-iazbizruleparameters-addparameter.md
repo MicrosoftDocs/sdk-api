@@ -12,6 +12,8 @@ ms.keywords: AddParameter, AddParameter method [Security], AddParameter method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleParameters.AddParameter"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

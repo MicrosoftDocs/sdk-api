@@ -12,6 +12,8 @@ ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDa
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.ExtendedModes"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

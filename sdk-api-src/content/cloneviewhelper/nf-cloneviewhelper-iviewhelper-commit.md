@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Display Devices], Commit method [Display Dev
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.Commit"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

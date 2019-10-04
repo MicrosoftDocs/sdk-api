@@ -12,6 +12,8 @@ ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOC
 ms.topic: enum
 f1_keywords:
 - shlwapi/ASSOCKEY
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

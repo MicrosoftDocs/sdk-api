@@ -12,6 +12,8 @@ ms.keywords: ICallIndirect, ICallIndirect interface [COM], ICallIndirect interfa
 ms.topic: interface
 f1_keywords: 
  - "callobj/ICallIndirect"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo.GetProfile"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

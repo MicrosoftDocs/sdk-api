@@ -12,6 +12,8 @@ ms.keywords: PROXY_ACCESS, PROXY_ACCESS enumeration [search], PROXY_ACCESS_DIREC
 ms.topic: enum
 f1_keywords: 
  - "searchapi/PROXY_ACCESS"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

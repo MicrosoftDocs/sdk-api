@@ -12,6 +12,8 @@ ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpSe
 ms.topic: function
 f1_keywords:
 - http/HttpSetServiceConfiguration
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

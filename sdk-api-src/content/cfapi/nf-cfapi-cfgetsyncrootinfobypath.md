@@ -12,6 +12,8 @@ ms.keywords: CfGetSyncRootInfoByPath, CfGetSyncRootInfoByPath function, cfapi/Cf
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetSyncRootInfoByPath"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

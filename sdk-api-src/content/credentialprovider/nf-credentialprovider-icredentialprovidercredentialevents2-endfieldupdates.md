@@ -12,6 +12,8 @@ ms.keywords: EndFieldUpdates, EndFieldUpdates method [Windows Shell], EndFieldUp
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents2.EndFieldUpdates"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

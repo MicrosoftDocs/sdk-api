@@ -12,6 +12,8 @@ ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsa
 ms.topic: function
 f1_keywords: 
  - "intsafe/SizeTSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

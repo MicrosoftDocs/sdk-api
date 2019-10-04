@@ -12,6 +12,8 @@ ms.keywords: DRMAddLicense, DRMAddLicense function [Active Directory Rights Mana
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMAddLicense"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

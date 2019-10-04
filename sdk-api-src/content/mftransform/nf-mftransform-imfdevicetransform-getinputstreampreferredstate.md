@@ -12,6 +12,8 @@ ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetInputStreamPreferredState"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

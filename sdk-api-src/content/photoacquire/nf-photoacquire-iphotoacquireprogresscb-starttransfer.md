@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartTransf
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.StartTransfer"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

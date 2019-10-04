@@ -12,6 +12,8 @@ ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, 
 ms.topic: function
 f1_keywords: 
  - "winternl/NtOpenFile"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDC, GetDC method [Direct2D], GetDC method [Direct2D],ID2D1GdiInt
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1GdiInteropRenderTarget.GetDC"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

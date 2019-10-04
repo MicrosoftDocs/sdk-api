@@ -12,6 +12,8 @@ ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISenso
 ms.topic: interface
 f1_keywords: 
  - "sensorsapi/ISensorCollection"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

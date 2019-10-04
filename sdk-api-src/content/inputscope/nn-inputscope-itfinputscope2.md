@@ -12,6 +12,8 @@ ms.keywords: ITfInputScope2, ITfInputScope2 interface [Text Services Framework],
 ms.topic: interface
 f1_keywords: 
  - "inputscope/ITfInputScope2"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

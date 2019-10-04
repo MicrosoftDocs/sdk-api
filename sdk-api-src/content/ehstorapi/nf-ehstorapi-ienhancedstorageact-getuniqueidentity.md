@@ -12,6 +12,8 @@ ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], Get
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT.GetUniqueIdentity"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

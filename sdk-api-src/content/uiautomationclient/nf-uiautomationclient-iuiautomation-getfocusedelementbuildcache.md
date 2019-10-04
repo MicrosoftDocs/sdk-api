@@ -12,6 +12,8 @@ ms.keywords: GetFocusedElementBuildCache, GetFocusedElementBuildCache method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.GetFocusedElementBuildCache"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

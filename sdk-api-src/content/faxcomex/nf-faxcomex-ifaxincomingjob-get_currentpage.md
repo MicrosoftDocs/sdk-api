@@ -12,6 +12,8 @@ ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingJob.CurrentPage"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVisual interface [DirectComposition],SetBitmapInterpol
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisual.SetBitmapInterpolationMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

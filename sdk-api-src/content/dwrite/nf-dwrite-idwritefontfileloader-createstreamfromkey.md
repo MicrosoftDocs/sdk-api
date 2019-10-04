@@ -12,6 +12,8 @@ ms.keywords: CreateStreamFromKey, CreateStreamFromKey method [Direct Write], Cre
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFileLoader.CreateStreamFromKey"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

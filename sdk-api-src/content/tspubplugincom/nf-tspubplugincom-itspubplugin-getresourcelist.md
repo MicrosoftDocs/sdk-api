@@ -12,6 +12,8 @@ ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], 
 ms.topic: method
 f1_keywords: 
  - "tspubplugincom/ItsPubPlugin.GetResourceList"
+dev_langs:
+ - c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

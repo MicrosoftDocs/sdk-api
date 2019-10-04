@@ -12,6 +12,8 @@ ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderHandle 
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePreviewSink.SetRenderHandle"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

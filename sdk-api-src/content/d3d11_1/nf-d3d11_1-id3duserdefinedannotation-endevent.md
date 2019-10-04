@@ -12,6 +12,8 @@ ms.keywords: EndEvent, EndEvent method [Direct3D 11], EndEvent method [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3DUserDefinedAnnotation.EndEvent"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

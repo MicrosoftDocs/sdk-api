@@ -12,6 +12,8 @@ ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Leve
 ms.topic: enum
 f1_keywords: 
  - "dvdmedia/AM_MPEG2Level"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, 
 ms.topic: function
 f1_keywords: 
  - "winsvc/GetServiceKeyName"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

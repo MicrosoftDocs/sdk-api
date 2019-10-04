@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO st
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_SIGNATURE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

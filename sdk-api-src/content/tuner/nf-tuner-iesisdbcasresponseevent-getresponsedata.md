@@ -12,6 +12,8 @@ ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseDa
 ms.topic: method
 f1_keywords: 
  - "tuner/IESIsdbCasResponseEvent.GetResponseData"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

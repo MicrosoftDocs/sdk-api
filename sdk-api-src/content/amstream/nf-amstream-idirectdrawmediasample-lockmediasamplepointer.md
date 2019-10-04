@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointe
 ms.topic: method
 f1_keywords: 
  - "amstream/IDirectDrawMediaSample.LockMediaSamplePointer"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

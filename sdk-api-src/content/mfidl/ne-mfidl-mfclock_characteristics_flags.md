@@ -12,6 +12,8 @@ ms.keywords: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54, MFCLOCK_CHARACTERISTICS_FLAGS
 ms.topic: enum
 f1_keywords:
 - mfidl/MFCLOCK_CHARACTERISTICS_FLAGS
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

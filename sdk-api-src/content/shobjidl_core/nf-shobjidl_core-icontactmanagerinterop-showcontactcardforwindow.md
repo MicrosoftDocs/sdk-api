@@ -12,6 +12,8 @@ ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerI
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IContactManagerInterop.ShowContactCardForWindow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

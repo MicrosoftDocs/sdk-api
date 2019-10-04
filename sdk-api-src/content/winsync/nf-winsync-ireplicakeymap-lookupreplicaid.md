@@ -12,6 +12,8 @@ ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaId method, IRe
 ms.topic: method
 f1_keywords: 
  - "winsync/IReplicaKeyMap.LookupReplicaId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

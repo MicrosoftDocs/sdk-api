@@ -12,6 +12,8 @@ ms.keywords: IMDSPObject interface [windows Media Device Manager],Write method, 
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPObject.Write"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateLockdown interface [Windows Update Agent],Lockdown method, I
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateLockdown.Lockdown"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

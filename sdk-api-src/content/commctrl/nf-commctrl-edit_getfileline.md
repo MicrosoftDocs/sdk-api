@@ -12,6 +12,8 @@ ms.keywords: Edit_GetFileLine, Edit_GetFileLine macro [Windows Controls], commct
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetFileLine"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

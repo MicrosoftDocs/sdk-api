@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetMinReqRect, MonthCal_GetMinReqRect macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetMinReqRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_E
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IPBDA_EIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

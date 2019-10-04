@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerConfig"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

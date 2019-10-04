@@ -12,6 +12,8 @@ ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], s
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiIsPromptingNeeded"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

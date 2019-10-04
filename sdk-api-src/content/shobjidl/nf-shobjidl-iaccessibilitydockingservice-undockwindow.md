@@ -12,6 +12,8 @@ ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, I
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IAccessibilityDockingService.UndockWindow"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

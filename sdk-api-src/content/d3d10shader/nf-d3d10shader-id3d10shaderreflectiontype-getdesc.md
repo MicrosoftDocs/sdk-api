@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10]
 ms.topic: method
 f1_keywords:
 - d3d10shader/ID3D10ShaderReflectionType.GetDesc
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

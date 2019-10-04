@@ -12,6 +12,8 @@ ms.keywords: DisconnectClient, DisconnectClient method [Windows Deployment Servi
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServer.DisconnectClient"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

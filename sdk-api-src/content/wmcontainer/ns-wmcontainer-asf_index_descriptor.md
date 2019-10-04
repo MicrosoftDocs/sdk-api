@@ -12,6 +12,8 @@ ms.keywords: 2a540aef-068d-4465-b0ed-64aed828af01, ASF_INDEX_DESCRIPTOR, ASF_IND
 ms.topic: struct
 f1_keywords:
 - wmcontainer/ASF_INDEX_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

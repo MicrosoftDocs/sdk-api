@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],LogError meth
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronizeCallback.LogError
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3a55fe0a-90a0-6ccb-7720-5039c4fbf12b, D3D10_CREATE_DEVICE_ALLOW_NUL
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_CREATE_DEVICE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

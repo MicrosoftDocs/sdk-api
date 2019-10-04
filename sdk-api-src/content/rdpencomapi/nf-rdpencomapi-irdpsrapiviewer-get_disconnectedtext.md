@@ -12,6 +12,8 @@ ms.keywords: DisconnectedText property [RDP], DisconnectedText property [RDP],IR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.DisconnectedText"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

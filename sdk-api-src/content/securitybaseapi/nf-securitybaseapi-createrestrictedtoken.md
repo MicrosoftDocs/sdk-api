@@ -12,6 +12,8 @@ ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], D
 ms.topic: function
 f1_keywords:
 - securitybaseapi/CreateRestrictedToken
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

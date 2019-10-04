@@ -12,6 +12,8 @@ ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs in
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.GetInfoEx"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

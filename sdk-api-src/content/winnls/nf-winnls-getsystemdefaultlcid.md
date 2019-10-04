@@ -12,6 +12,8 @@ ms.keywords: GetSystemDefaultLCID, GetSystemDefaultLCID function [Internationali
 ms.topic: function
 f1_keywords: 
  - "winnls/GetSystemDefaultLCID"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

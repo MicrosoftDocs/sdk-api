@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEvent.GetType"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

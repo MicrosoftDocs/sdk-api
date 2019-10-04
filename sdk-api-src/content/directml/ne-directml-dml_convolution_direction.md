@@ -12,6 +12,8 @@ ms.keywords: DML_CONVOLUTION_DIRECTION, DML_CONVOLUTION_DIRECTION enumeration, D
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_CONVOLUTION_DIRECTION"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

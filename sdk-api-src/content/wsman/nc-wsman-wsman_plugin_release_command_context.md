@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT, WSMAN_PLUGIN_RELEASE_COMMAND_
 ms.topic: callback
 f1_keywords: 
  - "wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

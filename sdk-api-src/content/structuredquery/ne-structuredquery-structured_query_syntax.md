@@ -12,6 +12,8 @@ ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX,
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/STRUCTURED_QUERY_SYNTAX"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

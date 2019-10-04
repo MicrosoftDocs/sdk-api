@@ -12,6 +12,8 @@ ms.keywords: FindNextItem, FindNextItem method [GDI+], FindNextItem method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.FindNextItem"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

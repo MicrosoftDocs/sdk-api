@@ -12,6 +12,8 @@ ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text S
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarMgr.GetInputProcessorProfiles"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

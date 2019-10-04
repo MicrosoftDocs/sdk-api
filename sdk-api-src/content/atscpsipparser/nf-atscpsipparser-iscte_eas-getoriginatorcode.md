@@ -12,6 +12,8 @@ ms.keywords: GetOriginatorCode, GetOriginatorCode method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetOriginatorCode"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

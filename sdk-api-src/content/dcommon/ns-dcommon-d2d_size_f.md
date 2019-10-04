@@ -12,6 +12,8 @@ ms.keywords: D2D1_SIZE_F, D2D_SIZE_F, D2D_SIZE_F structure [Direct2D], dcommon/D
 ms.topic: struct
 f1_keywords: 
  - "dcommon/D2D_SIZE_F"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInstallationJob interface [Windows Update Agent],Updates property,
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationJob.Updates"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UIAutomationPropertyInfo"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

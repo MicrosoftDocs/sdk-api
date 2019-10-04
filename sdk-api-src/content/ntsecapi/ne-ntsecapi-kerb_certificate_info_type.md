@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_
 ms.topic: enum
 f1_keywords:
 - ntsecapi/KERB_CERTIFICATE_INFO_TYPE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

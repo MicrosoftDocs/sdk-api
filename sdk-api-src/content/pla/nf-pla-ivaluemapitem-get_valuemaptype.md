@@ -12,6 +12,8 @@ ms.keywords: IValueMapItem interface [PLA],ValueMapType property, IValueMapItem.
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMapItem.ValueMapType"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateAttribute, CreateAttribute method [Network Policy Server], Cr
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoDictionaryOld.CreateAttribute
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

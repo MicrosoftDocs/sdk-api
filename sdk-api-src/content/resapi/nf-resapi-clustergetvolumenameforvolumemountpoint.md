@@ -12,6 +12,8 @@ ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVol
 ms.topic: function
 f1_keywords: 
  - "resapi/ClusterGetVolumeNameForVolumeMountPoint"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

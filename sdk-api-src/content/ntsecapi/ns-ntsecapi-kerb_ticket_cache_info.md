@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO, KERB_TICKET_CACH
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_TICKET_CACHE_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

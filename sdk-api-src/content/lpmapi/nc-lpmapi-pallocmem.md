@@ -12,6 +12,8 @@ ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _
 ms.topic: callback
 f1_keywords: 
  - "lpmapi/PALLOCMEM"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

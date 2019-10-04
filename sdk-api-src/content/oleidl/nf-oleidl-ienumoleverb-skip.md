@@ -12,6 +12,8 @@ ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnumOLEVERB.Skip"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

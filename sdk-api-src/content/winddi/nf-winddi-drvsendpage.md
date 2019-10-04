@@ -12,6 +12,8 @@ ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c2
 ms.topic: function
 f1_keywords:
 - winddi/DrvSendPage
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method,
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawClipper.IsClipListChanged"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

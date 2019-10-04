@@ -12,6 +12,8 @@ ms.keywords: PRIORITIZE_FLAGS, PRIORITIZE_FLAGS enumeration [search], PRIORITIZE
 ms.topic: enum
 f1_keywords: 
  - "searchapi/PRIORITIZE_FLAGS"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

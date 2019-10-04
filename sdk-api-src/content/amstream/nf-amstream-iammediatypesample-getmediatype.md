@@ -12,6 +12,8 @@ ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.GetMediaType"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

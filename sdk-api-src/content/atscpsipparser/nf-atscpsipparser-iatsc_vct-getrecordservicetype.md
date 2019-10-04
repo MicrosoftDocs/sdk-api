@@ -12,6 +12,8 @@ ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordServiceType"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

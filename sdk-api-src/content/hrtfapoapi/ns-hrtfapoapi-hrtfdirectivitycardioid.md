@@ -12,6 +12,8 @@ ms.keywords: HrtfDirectivityCardioid, HrtfDirectivityCardioid structure [XAudio2
 ms.topic: struct
 f1_keywords: 
  - "hrtfapoapi/HrtfDirectivityCardioid"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_GetItemCount, TabCtrl_GetItemCount macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_GetItemCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

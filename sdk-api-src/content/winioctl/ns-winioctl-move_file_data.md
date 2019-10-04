@@ -12,6 +12,8 @@ ms.keywords: "*PMOVE_FILE_DATA, MOVE_FILE_DATA, MOVE_FILE_DATA structure [Files]
 ms.topic: struct
 f1_keywords: 
  - "winioctl/MOVE_FILE_DATA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

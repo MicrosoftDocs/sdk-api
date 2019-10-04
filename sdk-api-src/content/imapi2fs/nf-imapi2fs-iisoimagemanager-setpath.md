@@ -12,6 +12,8 @@ ms.keywords: IIsoImageManager interface [IMAPI],SetPath method, IIsoImageManager
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IIsoImageManager.SetPath"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

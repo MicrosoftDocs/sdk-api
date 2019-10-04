@@ -12,6 +12,8 @@ ms.keywords: CurrentAction property [Task Scheduler], CurrentAction property [Ta
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.CurrentAction"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

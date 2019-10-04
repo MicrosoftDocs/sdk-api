@@ -12,6 +12,8 @@ ms.keywords: GetInt64, GetInt64 method [Windows Runtime], GetInt64 method [Windo
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetInt64"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

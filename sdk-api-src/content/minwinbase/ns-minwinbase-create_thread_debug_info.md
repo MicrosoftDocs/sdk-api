@@ -12,6 +12,8 @@ ms.keywords: "*LPCREATE_THREAD_DEBUG_INFO, CREATE_THREAD_DEBUG_INFO, CREATE_THRE
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/CREATE_THREAD_DEBUG_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

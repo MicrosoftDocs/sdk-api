@@ -12,6 +12,8 @@ ms.keywords: GetDataForNewHardwareKey, GetDataForNewHardwareKey method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3D11VideoContext1.GetDataForNewHardwareKey"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

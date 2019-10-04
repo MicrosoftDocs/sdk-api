@@ -12,6 +12,8 @@ ms.keywords: GrantAccessRights, GrantAccessRights method [COM], GrantAccessRight
 ms.topic: method
 f1_keywords: 
  - "iaccess/IAccessControl.GrantAccessRights"
+dev_langs:
+ - c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

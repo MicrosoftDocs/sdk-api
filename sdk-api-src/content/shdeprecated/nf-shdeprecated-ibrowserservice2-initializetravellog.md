@@ -12,6 +12,8 @@ ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog meth
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.InitializeTravelLog"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

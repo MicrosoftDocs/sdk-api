@@ -12,6 +12,8 @@ ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Tex
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

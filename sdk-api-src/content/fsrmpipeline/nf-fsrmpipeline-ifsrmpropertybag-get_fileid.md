@@ -12,6 +12,8 @@ ms.keywords: FileId property [File Server Resource Manager], FileId property [Fi
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.FileId"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

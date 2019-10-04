@@ -12,6 +12,8 @@ ms.keywords: GetDeviceRemovedReason, GetDeviceRemovedReason method, GetDeviceRem
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.GetDeviceRemovedReason"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

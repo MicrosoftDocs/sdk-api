@@ -12,6 +12,8 @@ ms.keywords: "*PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFF
 ms.topic: struct
 f1_keywords: 
  - "winioctl/VOLUME_BITMAP_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

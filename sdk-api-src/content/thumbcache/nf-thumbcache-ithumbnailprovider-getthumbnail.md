@@ -12,6 +12,8 @@ ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail met
 ms.topic: method
 f1_keywords: 
  - "thumbcache/IThumbnailProvider.GetThumbnail"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

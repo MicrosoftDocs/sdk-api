@@ -12,6 +12,8 @@ ms.keywords: WsReadBytes, WsReadBytes function [Web Services for Windows], webse
 ms.topic: function
 f1_keywords: 
  - "webservices/WsReadBytes"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

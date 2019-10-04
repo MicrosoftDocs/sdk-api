@@ -12,6 +12,8 @@ ms.keywords: GetDependency, GetDependency method [VSS], GetDependency method [VS
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssWMComponent.GetDependency
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

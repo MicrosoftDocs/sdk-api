@@ -12,6 +12,8 @@ ms.keywords: CopyFromBitmap, CopyFromBitmap method [Direct2D], CopyFromBitmap me
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Bitmap.CopyFromBitmap"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

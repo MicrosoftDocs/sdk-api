@@ -12,6 +12,8 @@ ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidLi
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_MUX.GetPidList"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

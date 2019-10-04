@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVs
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.OnLunEmpty
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

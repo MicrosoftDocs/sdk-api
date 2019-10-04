@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],SenderFax property, IFaxDoc.SenderF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.SenderFax"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

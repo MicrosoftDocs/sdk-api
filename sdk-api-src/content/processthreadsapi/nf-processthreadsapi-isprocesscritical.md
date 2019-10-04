@@ -12,6 +12,8 @@ ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritic
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/IsProcessCritical"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

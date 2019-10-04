@@ -12,6 +12,8 @@ ms.keywords: GetRatingRegionCount, GetRatingRegionCount method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

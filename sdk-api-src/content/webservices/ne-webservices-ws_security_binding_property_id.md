@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, WS_SECURI
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_BINDING_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

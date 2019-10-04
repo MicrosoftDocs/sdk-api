@@ -12,6 +12,8 @@ ms.keywords: GetStatistics, GetStatistics method [Windows Controls], GetStatisti
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.GetStatistics"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

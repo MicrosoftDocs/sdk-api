@@ -12,6 +12,8 @@ ms.keywords: '*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, BLUETOOTH_GATT_
 ms.topic: struct
 f1_keywords:
 - bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION
+dev_langs:
+ - c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

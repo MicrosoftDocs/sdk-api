@@ -12,6 +12,8 @@ ms.keywords: FaxRegisterRoutingExtension, FaxRegisterRoutingExtension function [
 ms.topic: function
 f1_keywords: 
  - "winfax/FaxRegisterRoutingExtension"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

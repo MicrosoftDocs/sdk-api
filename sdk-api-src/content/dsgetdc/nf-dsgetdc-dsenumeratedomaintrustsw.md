@@ -12,6 +12,8 @@ ms.keywords: DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_F
 ms.topic: function
 f1_keywords:
 - dsgetdc/DsEnumerateDomainTrusts
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

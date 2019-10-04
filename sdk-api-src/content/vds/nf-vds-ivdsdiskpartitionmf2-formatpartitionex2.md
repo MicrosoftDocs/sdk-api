@@ -12,6 +12,8 @@ ms.keywords: FormatPartitionEx2, FormatPartitionEx2 method, FormatPartitionEx2 m
 ms.topic: method
 f1_keywords:
 - vds/IVdsDiskPartitionMF2.FormatPartitionEx2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

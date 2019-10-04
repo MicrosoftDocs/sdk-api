@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate
 ms.topic: method
 f1_keywords: 
  - "wsdhost/IWSDDeviceHost.Terminate"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInf
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/FindDebugInfoFileProc"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

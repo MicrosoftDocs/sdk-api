@@ -12,6 +12,8 @@ ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElem
 ms.topic: method
 f1_keywords: 
  - "msxml/IXMLElementCollection.item"
+dev_langs:
+ - c++
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows

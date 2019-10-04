@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shr
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.Shrink"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

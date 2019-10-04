@@ -12,6 +12,8 @@ ms.keywords: IWbemEventProvider, IWbemEventProvider interface [Windows Managemen
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemEventProvider"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRdcComparator interface [Remote Differential Compression],Process 
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcComparator.Process"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

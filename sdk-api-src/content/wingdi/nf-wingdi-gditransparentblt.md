@@ -12,6 +12,8 @@ ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gd
 ms.topic: function
 f1_keywords: 
  - "wingdi/GdiTransparentBlt"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUT
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/HTTPSPolicyCallbackData"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

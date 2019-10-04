@@ -12,6 +12,8 @@ ms.keywords: '*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLO
 ms.topic: struct
 f1_keywords:
 - qos/FLOWSPEC
+dev_langs:
+ - c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

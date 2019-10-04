@@ -12,6 +12,8 @@ ms.keywords: 5f2e6561-a389-e8e8-0b80-96db66f58139, D3D_DRIVER_TYPE, D3D_DRIVER_T
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_DRIVER_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

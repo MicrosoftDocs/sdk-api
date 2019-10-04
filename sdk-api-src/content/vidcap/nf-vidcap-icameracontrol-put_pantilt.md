@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],put_PanTilt method, ICameraCo
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.put_PanTilt"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

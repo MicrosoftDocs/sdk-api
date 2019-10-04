@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],put_PanTiltRelative method, I
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.put_PanTiltRelative"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

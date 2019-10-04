@@ -12,6 +12,8 @@ ms.keywords: RpcNsGroupMbrInqDone, RpcNsGroupMbrInqDone function [RPC], _rpc_rpc
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsGroupMbrInqDone"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

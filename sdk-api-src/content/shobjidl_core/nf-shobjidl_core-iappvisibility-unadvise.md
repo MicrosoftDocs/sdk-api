@@ -12,6 +12,8 @@ ms.keywords: IAppVisibility interface [Windows Shell],Unadvise method, IAppVisib
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAppVisibility.Unadvise"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

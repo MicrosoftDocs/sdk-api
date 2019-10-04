@@ -12,6 +12,8 @@ ms.keywords: FSCTL_OPBATCH_ACK_CLOSE_PENDING, FSCTL_OPBATCH_ACK_CLOSE_PENDING co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

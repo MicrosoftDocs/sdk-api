@@ -12,6 +12,8 @@ ms.keywords: '*PKEYBOARD_INDICATOR_TRANSLATION, KEYBOARD_INDICATOR_TRANSLATION, 
 ms.topic: struct
 f1_keywords:
 - ntddkbd/KEYBOARD_INDICATOR_TRANSLATION
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

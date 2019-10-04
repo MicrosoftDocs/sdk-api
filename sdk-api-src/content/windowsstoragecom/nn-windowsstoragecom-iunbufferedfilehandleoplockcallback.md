@@ -12,6 +12,8 @@ ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCal
 ms.topic: interface
 f1_keywords: 
  - "windowsstoragecom/IUnbufferedFileHandleOplockCallback"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

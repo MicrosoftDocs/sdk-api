@@ -12,6 +12,8 @@ ms.keywords: MBN_CTRL_CAPS, MBN_CTRL_CAPS enumeration [Microsoft Broadband Netwo
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_CTRL_CAPS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_DATA
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

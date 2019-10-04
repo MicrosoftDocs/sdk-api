@@ -12,6 +12,8 @@ ms.keywords: IPSEC_V4_UDP_ENCAPSULATION0, IPSEC_V4_UDP_ENCAPSULATION0 structure 
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

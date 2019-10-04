@@ -12,6 +12,8 @@ ms.keywords: Deactivate, Deactivate method [Legacy Windows Environment Features]
 ms.topic: method
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCache.Deactivate"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

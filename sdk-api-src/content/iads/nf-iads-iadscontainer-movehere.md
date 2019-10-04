@@ -12,6 +12,8 @@ ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveH
 ms.topic: method
 f1_keywords: 
  - "iads/IADsContainer.MoveHere"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

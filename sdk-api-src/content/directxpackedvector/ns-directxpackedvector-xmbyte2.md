@@ -12,6 +12,8 @@ ms.keywords: XMBYTE2, XMBYTE2 structure [DirectX Math Support APIs], XMBYTE2 str
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMBYTE2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

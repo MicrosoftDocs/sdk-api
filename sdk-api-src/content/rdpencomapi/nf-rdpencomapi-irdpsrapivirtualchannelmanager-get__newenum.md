@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],_NewEnum property, I
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIVirtualChannelManager._NewEnum"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

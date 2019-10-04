@@ -12,6 +12,8 @@ ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], ITextS
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextSelection"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

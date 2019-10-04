@@ -12,6 +12,8 @@ ms.keywords: CoRegisterMessageFilter, CoRegisterMessageFilter function [COM], _c
 ms.topic: function
 f1_keywords: 
  - "objbase/CoRegisterMessageFilter"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Microsoft TV Technologies], Close method [Micr
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferRecComp.Close"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

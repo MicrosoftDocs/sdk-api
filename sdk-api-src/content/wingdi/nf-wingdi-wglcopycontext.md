@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCop
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglCopyContext"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

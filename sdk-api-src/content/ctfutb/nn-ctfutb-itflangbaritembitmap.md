@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmap"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

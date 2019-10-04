@@ -12,6 +12,8 @@ ms.keywords: '*PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFIC
 ms.topic: struct
 f1_keywords:
 - ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+dev_langs:
+ - c++
 req.header: ktmtypes.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2ececb4a-9516-4066-bf01-0924252f93ee, MFASF_STREAMSELECTOR_DISABLE_
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/MFASF_STREAMSELECTOR_FLAGS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DHPUBKEY, DHPUBKEY structure [Security], DSSPUBKEY, KEAPUBKEY, TEKP
 ms.topic: struct
 f1_keywords:
 - wincrypt/DHPUBKEY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

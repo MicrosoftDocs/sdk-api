@@ -12,6 +12,8 @@ ms.keywords: NdfCreateWebIncident, NdfCreateWebIncident function [NDF], ndf.ndfc
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCreateWebIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

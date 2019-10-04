@@ -12,6 +12,8 @@ ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocator9.AdviseNotify"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

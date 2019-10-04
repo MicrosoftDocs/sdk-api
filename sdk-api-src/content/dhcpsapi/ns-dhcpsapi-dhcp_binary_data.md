@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure 
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_BINARY_DATA"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

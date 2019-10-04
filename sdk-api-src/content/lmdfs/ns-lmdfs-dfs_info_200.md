@@ -12,6 +12,8 @@ ms.keywords: "*LPDFS_INFO_200, *PDFS_INFO_200, DFS_INFO_200, DFS_INFO_200 struct
 ms.topic: struct
 f1_keywords: 
  - "lmdfs/DFS_INFO_200"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

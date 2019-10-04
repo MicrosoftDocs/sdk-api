@@ -12,6 +12,8 @@ ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDll
 ms.topic: function
 f1_keywords: 
  - "winbase/GetDllDirectory"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

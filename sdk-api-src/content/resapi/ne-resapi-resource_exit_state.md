@@ -12,6 +12,8 @@ ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Clus
 ms.topic: enum
 f1_keywords: 
  - "resapi/RESOURCE_EXIT_STATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

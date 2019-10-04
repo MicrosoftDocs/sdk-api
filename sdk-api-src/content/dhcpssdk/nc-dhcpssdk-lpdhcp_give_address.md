@@ -12,6 +12,8 @@ ms.keywords: DHCP_CLIENT_BOOTP, DHCP_CLIENT_DHCP, DhcpAddressOfferHook, DhcpAddr
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpAddressOfferHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

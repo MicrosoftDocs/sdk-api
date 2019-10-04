@@ -12,6 +12,8 @@ ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, Propert
 ms.topic: struct
 f1_keywords: 
  - "xamlom/PropertyChainValue"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

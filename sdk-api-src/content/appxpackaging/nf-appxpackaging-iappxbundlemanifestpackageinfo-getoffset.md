@@ -12,6 +12,8 @@ ms.keywords: GetOffset, GetOffset method [App packaging and management], GetOffs
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestPackageInfo.GetOffset"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

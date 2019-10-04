@@ -12,6 +12,8 @@ ms.keywords: IColumnData interface [MMC],SetColumnSortData method, IColumnData.S
 ms.topic: method
 f1_keywords:
 - mmc/IColumnData.SetColumnSortData
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

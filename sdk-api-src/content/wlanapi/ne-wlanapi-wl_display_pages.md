@@ -12,6 +12,8 @@ ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumerati
 ms.topic: enum
 f1_keywords: 
  - "wlanapi/WL_DISPLAY_PAGES"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOpe
 ms.topic: method
 f1_keywords: 
  - "iads/IADsServiceOperations.Start"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

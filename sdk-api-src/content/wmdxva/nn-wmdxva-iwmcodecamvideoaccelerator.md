@@ -12,6 +12,8 @@ ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [w
 ms.topic: interface
 f1_keywords: 
  - "wmdxva/IWMCodecAMVideoAccelerator"
+dev_langs:
+ - c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

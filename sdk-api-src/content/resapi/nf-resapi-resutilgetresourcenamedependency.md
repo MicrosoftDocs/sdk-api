@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, PRESUTIL_GET_RESOURCE_NAME_D
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetResourceNameDependency"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

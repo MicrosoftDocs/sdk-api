@@ -12,6 +12,8 @@ ms.keywords: SetCurrentDirectory, SetCurrentDirectory function [Files], SetCurre
 ms.topic: function
 f1_keywords: 
  - "winbase/SetCurrentDirectory"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2b30a615-97cf-d010-fc84-3802da398aee, CreatePredicate, CreatePredic
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreatePredicate"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

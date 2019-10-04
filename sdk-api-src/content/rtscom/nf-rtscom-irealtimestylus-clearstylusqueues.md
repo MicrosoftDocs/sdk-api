@@ -12,6 +12,8 @@ ms.keywords: 28270403-9d6d-4e57-9ec5-0d697f4df185, ClearStylusQueues, ClearStylu
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.ClearStylusQueues"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

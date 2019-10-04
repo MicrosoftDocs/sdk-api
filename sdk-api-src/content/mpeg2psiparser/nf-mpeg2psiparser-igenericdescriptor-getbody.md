@@ -12,6 +12,8 @@ ms.keywords: GetBody, GetBody method [Microsoft TV Technologies], GetBody method
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IGenericDescriptor.GetBody"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

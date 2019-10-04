@@ -12,6 +12,8 @@ ms.keywords: Pager_SetChild, Pager_SetChild macro [Windows Controls], _win32_Pag
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_SetChild"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interfac
 ms.topic: interface
 f1_keywords: 
  - "wpcapi/IWindowsParentalControlsCore"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

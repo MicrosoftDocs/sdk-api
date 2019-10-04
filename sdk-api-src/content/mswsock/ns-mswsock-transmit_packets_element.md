@@ -12,6 +12,8 @@ ms.keywords: "*LPTRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, TP_ELEMEN
 ms.topic: struct
 f1_keywords: 
  - "mswsock/TRANSMIT_PACKETS_ELEMENT"
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

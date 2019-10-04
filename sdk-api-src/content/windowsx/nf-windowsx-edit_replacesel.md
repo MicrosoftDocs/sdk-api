@@ -12,6 +12,8 @@ ms.keywords: Edit_ReplaceSel, Edit_ReplaceSel macro [Windows Controls], _win32_E
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_ReplaceSel"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

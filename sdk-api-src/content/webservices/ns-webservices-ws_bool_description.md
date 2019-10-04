@@ -12,6 +12,8 @@ ms.keywords: WS_BOOL_DESCRIPTION, WS_BOOL_DESCRIPTION structure [Web Services fo
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_BOOL_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

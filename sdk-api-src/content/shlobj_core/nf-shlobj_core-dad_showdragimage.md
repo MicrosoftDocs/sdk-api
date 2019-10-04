@@ -12,6 +12,8 @@ ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALS
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/DAD_ShowDragImage"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

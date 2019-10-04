@@ -12,6 +12,8 @@ ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfquer
 ms.topic: function
 f1_keywords:
 - perflib/PerfQueryInstance
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

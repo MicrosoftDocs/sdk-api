@@ -12,6 +12,8 @@ ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQu
 ms.topic: method
 f1_keywords: 
  - "control/IQueueCommand.InvokeAtStreamTime"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDvdControl2 interface [DirectShow],SelectRelativeButton method, ID
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl2.SelectRelativeButton"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

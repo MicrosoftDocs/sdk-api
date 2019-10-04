@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],PolicyAdministrators property, IAzScope i
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.PolicyAdministrators"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

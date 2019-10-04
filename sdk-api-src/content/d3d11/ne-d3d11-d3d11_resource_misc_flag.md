@@ -12,6 +12,8 @@ ms.keywords: 47ca3aa9-52f4-d1e0-6da2-56bc4682c9ee, D3D11_RESOURCE_MISC_BUFFER_AL
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_RESOURCE_MISC_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

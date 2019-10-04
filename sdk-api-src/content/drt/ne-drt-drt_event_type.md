@@ -12,6 +12,8 @@ ms.keywords: DRT_EVENT_LEAFSET_KEY_CHANGED, DRT_EVENT_REGISTRATION_STATE_CHANGED
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

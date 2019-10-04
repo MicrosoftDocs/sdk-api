@@ -12,6 +12,8 @@ ms.keywords: Header_ClearAllFilters, Header_ClearAllFilters macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_ClearAllFilters"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

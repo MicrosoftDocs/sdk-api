@@ -12,6 +12,8 @@ ms.keywords: GetPortCaps, GetPortCaps method [Audio Devices], GetPortCaps method
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.GetPortCaps"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

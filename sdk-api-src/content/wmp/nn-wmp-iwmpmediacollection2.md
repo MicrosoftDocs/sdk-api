@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPMediaCollection2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

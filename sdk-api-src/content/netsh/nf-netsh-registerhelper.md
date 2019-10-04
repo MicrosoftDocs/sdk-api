@@ -12,6 +12,8 @@ ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_register
 ms.topic: function
 f1_keywords: 
  - "netsh/RegisterHelper"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

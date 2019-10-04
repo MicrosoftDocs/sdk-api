@@ -12,6 +12,8 @@ ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Manage
 ms.topic: function
 f1_keywords: 
  - "lmmsg/NetMessageBufferSend"
+dev_langs:
+ - c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

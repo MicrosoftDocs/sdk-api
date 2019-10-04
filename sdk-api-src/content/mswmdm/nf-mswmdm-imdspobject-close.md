@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [windows Media Device Manager], Close method [w
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPObject.Close"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

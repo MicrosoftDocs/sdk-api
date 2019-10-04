@@ -12,6 +12,8 @@ ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Netw
 ms.topic: function
 f1_keywords: 
  - "lmremutl/NetRemoteComputerSupports"
+dev_langs:
+ - c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

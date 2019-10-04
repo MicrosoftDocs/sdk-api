@@ -12,6 +12,8 @@ ms.keywords: GetWorkEstimate, GetWorkEstimate method [Windows Sync], GetWorkEsti
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.GetWorkEstimate"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

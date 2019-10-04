@@ -12,6 +12,8 @@ ms.keywords: DBCONTENT, DBCONTENT structure [Indexing Service], _idxs_DBCONTENT,
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBCONTENT"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld fu
 ms.topic: function
 f1_keywords: 
  - "aux_ulib/AuxUlibIsDLLSynchronizationHeld"
+dev_langs:
+ - c++
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

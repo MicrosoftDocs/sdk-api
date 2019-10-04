@@ -12,6 +12,8 @@ ms.keywords: PathIsPrefix, PathIsPrefix function [Windows Shell], PathIsPrefixA,
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsPrefix"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

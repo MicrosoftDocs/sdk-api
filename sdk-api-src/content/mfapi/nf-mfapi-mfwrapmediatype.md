@@ -12,6 +12,8 @@ ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd7
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFWrapMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

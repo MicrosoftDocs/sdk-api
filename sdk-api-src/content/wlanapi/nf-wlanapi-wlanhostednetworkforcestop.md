@@ -12,6 +12,8 @@ ms.keywords: WlanHostedNetworkForceStop, WlanHostedNetworkForceStop function [Na
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkForceStop
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

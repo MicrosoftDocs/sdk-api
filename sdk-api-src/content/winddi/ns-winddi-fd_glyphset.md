@@ -12,6 +12,8 @@ ms.keywords: '*PFD_GLYPHSET, FD_GLYPHSET, FD_GLYPHSET structure [Display Devices
 ms.topic: struct
 f1_keywords:
 - winddi/FD_GLYPHSET
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

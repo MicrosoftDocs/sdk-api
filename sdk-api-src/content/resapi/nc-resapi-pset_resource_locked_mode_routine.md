@@ -12,6 +12,8 @@ ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTIN
 ms.topic: callback
 f1_keywords: 
  - "resapi/SetResourceLockedMode"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

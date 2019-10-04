@@ -12,6 +12,8 @@ ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows C
 ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_BILLING_CYCLE_INFO
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

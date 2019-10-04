@@ -12,6 +12,8 @@ ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Matrix class, Ma
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Equals"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

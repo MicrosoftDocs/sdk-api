@@ -12,6 +12,8 @@ ms.keywords: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80, GetPayloadExtensionCount, Get
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.GetPayloadExtensionCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90,
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxCreateCaret"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

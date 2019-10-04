@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorEqualInt, XMVectorEqualInt, XMVectorEqualInt m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorEqualInt"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

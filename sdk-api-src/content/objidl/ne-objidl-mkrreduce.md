@@ -12,6 +12,8 @@ ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ON
 ms.topic: enum
 f1_keywords: 
  - "objidl/MKRREDUCE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IA
 ms.topic: interface
 f1_keywords: 
  - "audiopolicy/IAudioSessionEvents"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

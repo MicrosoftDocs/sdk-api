@@ -12,6 +12,8 @@ ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE stru
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

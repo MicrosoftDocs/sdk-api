@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector3TransformCoordStream, XMVector3TransformCoord
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector3TransformCoordStream"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

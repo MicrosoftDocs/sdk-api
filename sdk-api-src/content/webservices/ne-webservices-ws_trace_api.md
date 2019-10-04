@@ -12,6 +12,8 @@ ms.keywords: WS_TRACE_API, WS_TRACE_API enumeration [Web Services for Windows], 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_TRACE_API"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

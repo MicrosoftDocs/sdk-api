@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPO i
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPO.Delete"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

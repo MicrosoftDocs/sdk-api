@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, I
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_STORAGE_READ_CAPACITY"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

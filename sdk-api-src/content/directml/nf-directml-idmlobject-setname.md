@@ -12,6 +12,8 @@ ms.keywords: IDMLObject interface,SetName method, IDMLObject.SetName, IDMLObject
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLObject.SetName"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

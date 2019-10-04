@@ -12,6 +12,8 @@ ms.keywords: Edit_SetRect, Edit_SetRect macro [Windows Controls], _win32_Edit_Se
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetRect"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

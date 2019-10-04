@@ -12,6 +12,8 @@ ms.keywords: CreateSpellCheckProvider, CreateSpellCheckProvider method [Internat
 ms.topic: method
 f1_keywords: 
  - "spellcheckprovider/ISpellCheckProviderFactory.CreateSpellCheckProvider"
+dev_langs:
+ - c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ILog interface [COM],SetAccessPolicyHint method, ILog.SetAccessPoli
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.SetAccessPolicyHint"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

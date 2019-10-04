@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_IN
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVER_AUTHENTICATION_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

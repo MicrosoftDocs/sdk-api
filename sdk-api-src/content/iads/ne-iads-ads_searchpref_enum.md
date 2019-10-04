@@ -12,6 +12,8 @@ ms.keywords: ADS_SEARCHPREF, ADS_SEARCHPREF_ASYNCHRONOUS, ADS_SEARCHPREF_ATTRIBT
 ms.topic: enum
 f1_keywords:
 - iads/ADS_SEARCHPREF_ENUM
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

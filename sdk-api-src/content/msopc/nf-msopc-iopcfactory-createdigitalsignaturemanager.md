@@ -12,6 +12,8 @@ ms.keywords: CreateDigitalSignatureManager, CreateDigitalSignatureManager method
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcFactory.CreateDigitalSignatureManager"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

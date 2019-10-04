@@ -12,6 +12,8 @@ ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.InkInsertMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

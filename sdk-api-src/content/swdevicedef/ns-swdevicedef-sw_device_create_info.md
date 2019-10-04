@@ -12,6 +12,8 @@ ms.keywords: '*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE
 ms.topic: struct
 f1_keywords:
 - swdevicedef/SW_DEVICE_CREATE_INFO
+dev_langs:
+ - c++
 req.header: swdevicedef.h
 req.include-header: Swdevice.h
 req.target-type: Windows

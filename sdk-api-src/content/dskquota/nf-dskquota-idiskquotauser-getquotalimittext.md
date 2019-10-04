@@ -12,6 +12,8 @@ ms.keywords: GetQuotaLimitText, GetQuotaLimitText method [Files], GetQuotaLimitT
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetQuotaLimitText"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

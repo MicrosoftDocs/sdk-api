@@ -12,6 +12,8 @@ ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLu
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunPlex.ApplyHints
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

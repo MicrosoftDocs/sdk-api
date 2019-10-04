@@ -12,6 +12,8 @@ ms.keywords: MI_Session_Invoke, MI_Session_Invoke function [Windows Management I
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_Invoke
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

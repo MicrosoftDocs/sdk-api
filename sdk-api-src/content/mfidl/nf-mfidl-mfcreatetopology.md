@@ -12,6 +12,8 @@ ms.keywords: 9811eca7-e822-4ff7-93e4-2eb6245d4490, MFCreateTopology, MFCreateTop
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCustomObjects, GetCustomObjects method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetCustomObjects"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

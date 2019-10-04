@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_WriteStream, PSPropertyBag_WriteStream function [Wind
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_WriteStream"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],IsMandatory property, IUpd
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.IsMandatory"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

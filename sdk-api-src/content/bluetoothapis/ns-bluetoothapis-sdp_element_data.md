@@ -12,6 +12,8 @@ ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/SDP_ELEMENT_DATA"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

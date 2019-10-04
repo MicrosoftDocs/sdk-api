@@ -12,6 +12,8 @@ ms.keywords: TreeView_ShowInfoTip, TreeView_ShowInfoTip macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_ShowInfoTip"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

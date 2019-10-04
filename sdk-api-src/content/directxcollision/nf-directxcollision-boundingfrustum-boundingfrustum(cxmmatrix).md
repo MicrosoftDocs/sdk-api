@@ -12,6 +12,8 @@ ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support 
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingFrustum.BoundingFrustum"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

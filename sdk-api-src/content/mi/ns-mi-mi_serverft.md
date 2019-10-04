@@ -12,6 +12,8 @@ ms.keywords: MI_ServerFT, MI_ServerFT structure [Windows Management Infrastructu
 ms.topic: struct
 f1_keywords:
 - mi/MI_ServerFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

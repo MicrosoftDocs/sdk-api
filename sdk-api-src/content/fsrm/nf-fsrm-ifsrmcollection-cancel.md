@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmCollection.Cancel"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

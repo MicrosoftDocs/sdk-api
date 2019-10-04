@@ -12,6 +12,8 @@ ms.keywords: GetChannelCount, GetChannelCount method [Windows Imaging Component]
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPixelFormatInfo.GetChannelCount"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

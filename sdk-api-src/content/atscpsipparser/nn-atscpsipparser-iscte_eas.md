@@ -12,6 +12,8 @@ ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_E
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

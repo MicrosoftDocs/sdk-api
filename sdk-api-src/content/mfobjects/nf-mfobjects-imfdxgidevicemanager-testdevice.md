@@ -12,6 +12,8 @@ ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],TestDevice method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFDXGIDeviceManager.TestDevice"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

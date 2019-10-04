@@ -12,6 +12,8 @@ ms.keywords: DrawDriverString, DrawDriverString method [GDI+], DrawDriverString 
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawDriverString"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

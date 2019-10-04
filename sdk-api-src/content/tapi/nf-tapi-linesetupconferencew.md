@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetupconference, lineSetupConference, lineSetupConferen
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetupConference"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

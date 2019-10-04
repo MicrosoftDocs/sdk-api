@@ -12,6 +12,8 @@ ms.keywords: SNMP_ERRORSTATUS_AUTHORIZATIONERROR, SNMP_ERRORSTATUS_BADVALUE, SNM
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpExtensionQueryEx"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

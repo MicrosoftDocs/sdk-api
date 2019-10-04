@@ -12,6 +12,8 @@ ms.keywords: 89459212-6bc9-40e6-1512-0b759d4b5126, D3DX11_SCAN_OPCODE, D3DX11_SC
 ms.topic: enum
 f1_keywords: 
  - "d3dcsx/D3DX11_SCAN_OPCODE"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

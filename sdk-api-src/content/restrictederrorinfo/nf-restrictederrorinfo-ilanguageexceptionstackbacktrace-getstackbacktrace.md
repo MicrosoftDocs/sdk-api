@@ -12,6 +12,8 @@ ms.keywords: GetStackBackTrace, GetStackBackTrace method [Windows Runtime], GetS
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionStackBackTrace.GetStackBackTrace"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

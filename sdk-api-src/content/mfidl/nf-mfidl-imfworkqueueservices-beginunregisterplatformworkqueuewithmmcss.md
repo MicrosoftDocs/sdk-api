@@ -12,6 +12,8 @@ ms.keywords: BeginUnregisterPlatformWorkQueueWithMMCSS, BeginUnregisterPlatformW
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

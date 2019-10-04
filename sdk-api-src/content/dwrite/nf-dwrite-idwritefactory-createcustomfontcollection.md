@@ -12,6 +12,8 @@ ms.keywords: CreateCustomFontCollection, CreateCustomFontCollection method [Dire
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.CreateCustomFontCollection"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

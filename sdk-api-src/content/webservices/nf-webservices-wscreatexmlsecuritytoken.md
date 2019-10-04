@@ -12,6 +12,8 @@ ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Se
 ms.topic: function
 f1_keywords: 
  - "webservices/WsCreateXmlSecurityToken"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

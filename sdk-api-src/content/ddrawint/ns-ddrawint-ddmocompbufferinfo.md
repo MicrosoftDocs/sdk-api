@@ -12,6 +12,8 @@ ms.keywords: '*LPDDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO stru
 ms.topic: struct
 f1_keywords:
 - ddrawint/DDMOCOMPBUFFERINFO
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

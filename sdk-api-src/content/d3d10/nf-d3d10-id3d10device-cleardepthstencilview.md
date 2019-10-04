@@ -12,6 +12,8 @@ ms.keywords: 35b5c5f1-9875-7367-51bd-ef0f9a3ea798, ClearDepthStencilView, ClearD
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.ClearDepthStencilView"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

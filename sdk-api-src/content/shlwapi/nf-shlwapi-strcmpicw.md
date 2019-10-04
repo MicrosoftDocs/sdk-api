@@ -12,6 +12,8 @@ ms.keywords: StrCmpIC, StrCmpIC function [Windows Shell], StrCmpICA, StrCmpICW, 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrCmpIC"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

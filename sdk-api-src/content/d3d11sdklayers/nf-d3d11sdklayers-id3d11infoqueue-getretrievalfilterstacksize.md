@@ -12,6 +12,8 @@ ms.keywords: 9f3ac790-1077-265b-3ff1-a7b8249fe6ae, GetRetrievalFilterStackSize, 
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetRetrievalFilterStackSize"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

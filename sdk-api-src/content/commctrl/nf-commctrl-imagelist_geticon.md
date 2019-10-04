@@ -12,6 +12,8 @@ ms.keywords: ImageList_GetIcon, ImageList_GetIcon function [Windows Controls], _
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_GetIcon"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

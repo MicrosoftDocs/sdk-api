@@ -12,6 +12,8 @@ ms.keywords: MFCreateMFByteStreamOnStream, MFCreateMFByteStreamOnStream function
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateMFByteStreamOnStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

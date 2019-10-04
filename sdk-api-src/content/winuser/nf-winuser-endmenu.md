@@ -12,6 +12,8 @@ ms.keywords: EndMenu, EndMenu function [Menus and Other Resources], _win32_EndMe
 ms.topic: function
 f1_keywords: 
  - "winuser/EndMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

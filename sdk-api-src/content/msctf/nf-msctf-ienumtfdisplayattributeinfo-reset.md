@@ -12,6 +12,8 @@ ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Res
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfDisplayAttributeInfo.Reset"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetDfsSetFtContainerSecurity, NetDfsSetFtContainerSecurity function
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetFtContainerSecurity
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

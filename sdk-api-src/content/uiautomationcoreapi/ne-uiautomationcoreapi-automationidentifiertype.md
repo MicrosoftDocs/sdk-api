@@ -12,6 +12,8 @@ ms.keywords: AutomationIdentifierType, AutomationIdentifierType enumeration [Win
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/AutomationIdentifierType"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

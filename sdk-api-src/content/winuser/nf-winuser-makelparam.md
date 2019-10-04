@@ -12,6 +12,8 @@ ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPA
 ms.topic: macro
 f1_keywords: 
  - "winuser/MAKELPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

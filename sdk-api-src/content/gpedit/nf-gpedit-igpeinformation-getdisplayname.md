@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayNam
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGPEInformation.GetDisplayName"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CMS_SIGNER_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

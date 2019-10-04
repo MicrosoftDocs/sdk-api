@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [Direct Write], GetIndex method [Direct W
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.GetIndex"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

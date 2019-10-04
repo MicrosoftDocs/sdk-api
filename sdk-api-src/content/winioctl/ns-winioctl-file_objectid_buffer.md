@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_OBJECTID_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

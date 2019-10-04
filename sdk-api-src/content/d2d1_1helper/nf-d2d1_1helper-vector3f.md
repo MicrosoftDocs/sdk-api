@@ -12,6 +12,8 @@ ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, dire
 ms.topic: function
 f1_keywords: 
  - "d2d1_1helper/Vector3F"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

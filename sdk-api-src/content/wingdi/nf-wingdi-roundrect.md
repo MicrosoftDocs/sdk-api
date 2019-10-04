@@ -12,6 +12,8 @@ ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/RoundRect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

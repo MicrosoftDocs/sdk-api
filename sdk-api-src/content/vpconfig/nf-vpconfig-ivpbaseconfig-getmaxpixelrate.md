@@ -12,6 +12,8 @@ ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRa
 ms.topic: method
 f1_keywords:
 - vpconfig/IVPBaseConfig.GetMaxPixelRate
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

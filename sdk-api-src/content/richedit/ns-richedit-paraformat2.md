@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 32, 4, 5, 6, 64, 7, 8, 9, P
 ms.topic: struct
 f1_keywords: 
  - "richedit/PARAFORMAT2"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

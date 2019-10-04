@@ -12,6 +12,8 @@ ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], IMe
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirect
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSetHomeDirectory"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

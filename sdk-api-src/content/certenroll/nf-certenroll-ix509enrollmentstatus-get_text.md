@@ -12,6 +12,8 @@ ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509Enro
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentStatus.Text"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

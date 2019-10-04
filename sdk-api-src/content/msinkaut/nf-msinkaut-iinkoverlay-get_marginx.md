@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],MarginX property, IInkOverlay.Mar
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.MarginX"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

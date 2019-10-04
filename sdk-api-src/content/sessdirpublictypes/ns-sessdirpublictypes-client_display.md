@@ -12,6 +12,8 @@ ms.keywords: '*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote
 ms.topic: struct
 f1_keywords:
 - sessdirpublictypes/CLIENT_DISPLAY
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

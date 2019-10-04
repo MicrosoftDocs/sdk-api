@@ -12,6 +12,8 @@ ms.keywords: "?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CIns
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetCHString"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

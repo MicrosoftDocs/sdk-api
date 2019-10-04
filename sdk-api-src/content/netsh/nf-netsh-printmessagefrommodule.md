@@ -12,6 +12,8 @@ ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell],
 ms.topic: function
 f1_keywords: 
  - "netsh/PrintMessageFromModule"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

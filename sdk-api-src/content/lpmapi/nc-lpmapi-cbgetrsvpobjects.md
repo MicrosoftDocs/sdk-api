@@ -12,6 +12,8 @@ ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_c
 ms.topic: callback
 f1_keywords: 
  - "lpmapi/CBGETRSVPOBJECTS"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

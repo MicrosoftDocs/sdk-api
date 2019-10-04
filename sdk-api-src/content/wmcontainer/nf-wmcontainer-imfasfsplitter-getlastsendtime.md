@@ -12,6 +12,8 @@ ms.keywords: 59a6c53c-2cdf-4677-a5a3-4138f107f721, GetLastSendTime, GetLastSendT
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.GetLastSendTime"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

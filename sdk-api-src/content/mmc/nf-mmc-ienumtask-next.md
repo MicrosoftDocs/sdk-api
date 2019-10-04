@@ -12,6 +12,8 @@ ms.keywords: IEnumTASK interface [MMC],Next method, IEnumTASK.Next, IEnumTASK::N
 ms.topic: method
 f1_keywords:
 - mmc/IEnumTASK.Next
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

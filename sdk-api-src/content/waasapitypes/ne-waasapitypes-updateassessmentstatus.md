@@ -12,6 +12,8 @@ ms.keywords: UpdateAssessmentStatus, UpdateAssessmentStatus enumeration, UpdateA
 ms.topic: enum
 f1_keywords: 
  - "waasapitypes/UpdateAssessmentStatus"
+dev_langs:
+ - c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows

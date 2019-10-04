@@ -12,6 +12,8 @@ ms.keywords: SetTrimming, SetTrimming method [GDI+], SetTrimming method [GDI+],S
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.SetTrimming"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

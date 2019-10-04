@@ -6,6 +6,8 @@ ms.keywords: tagCY, CY
 ms.topic: language-reference
 f1_keywords: 
  - "wtypes/tagCY"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

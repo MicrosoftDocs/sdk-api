@@ -12,6 +12,8 @@ ms.keywords: '*PCLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE, 
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

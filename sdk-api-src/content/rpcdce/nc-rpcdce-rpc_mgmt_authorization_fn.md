@@ -12,6 +12,8 @@ ms.keywords: RPC_MGMT_AUTHORIZATION_FN, RPC_MGMT_AUTHORIZATION_FN callback, RPC_
 ms.topic: callback
 f1_keywords: 
  - "rpcdce/RPC_MGMT_AUTHORIZATION_FN"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_find
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/FindFirstFreeAce"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

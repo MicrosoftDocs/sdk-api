@@ -12,6 +12,8 @@ ms.keywords: DrvPaint, DrvPaint function [Display Devices], ddifncs_34ade16d-3f7
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvPaint"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

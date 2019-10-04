@@ -12,6 +12,8 @@ ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPDVD.get_domain"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

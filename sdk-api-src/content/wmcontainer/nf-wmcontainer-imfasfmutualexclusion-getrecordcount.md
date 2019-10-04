@@ -12,6 +12,8 @@ ms.keywords: 8dbd883e-4ae3-422d-bb2e-087a9e311558, GetRecordCount, GetRecordCoun
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion.GetRecordCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

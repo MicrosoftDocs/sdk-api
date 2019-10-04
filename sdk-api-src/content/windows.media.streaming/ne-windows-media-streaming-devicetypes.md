@@ -12,6 +12,8 @@ ms.keywords: DeviceTypes, DeviceTypes enumeration [Media Streaming API], Digital
 ms.topic: enum
 f1_keywords: 
  - "windows.media.streaming/DeviceTypes"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

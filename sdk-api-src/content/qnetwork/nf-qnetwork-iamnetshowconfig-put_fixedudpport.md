@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],put_FixedUDPPort method, IA
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.put_FixedUDPPort"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VirtualLock, VirtualLock function, _win32_virtuallock, base.virtual
 ms.topic: function
 f1_keywords: 
  - "memoryapi/VirtualLock"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

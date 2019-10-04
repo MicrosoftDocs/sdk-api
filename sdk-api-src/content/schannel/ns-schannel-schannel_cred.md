@@ -12,6 +12,8 @@ ms.keywords: '*PSCHANNEL_CRED, PSCHANNEL_CRED, PSCHANNEL_CRED structure pointer 
 ms.topic: struct
 f1_keywords:
 - schannel/SCHANNEL_CRED
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

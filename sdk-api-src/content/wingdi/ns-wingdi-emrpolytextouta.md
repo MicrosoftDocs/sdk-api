@@ -12,6 +12,8 @@ ms.keywords: "*PEMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA, EMRPOLYTEXT
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRPOLYTEXTOUTA"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

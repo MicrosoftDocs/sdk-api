@@ -12,6 +12,8 @@ ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardBeginTransaction"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

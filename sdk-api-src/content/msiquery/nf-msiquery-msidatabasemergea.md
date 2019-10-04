@@ -12,6 +12,8 @@ ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, Msi
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDatabaseMerge"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

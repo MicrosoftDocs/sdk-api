@@ -12,6 +12,8 @@ ms.keywords: 7c5c6bc1-57d6-90b3-4715-5f6dbe8653c2, ID3D11DeviceChild interface [
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceChild.SetPrivateDataInterface"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

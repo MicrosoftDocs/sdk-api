@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICreateWithTipTransactionEx.CreateInstance"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows
 ms.topic: method
 f1_keywords: 
  - "objectarray/IObjectArray.GetCount"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

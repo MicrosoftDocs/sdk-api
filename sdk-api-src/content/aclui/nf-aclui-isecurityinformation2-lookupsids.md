@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation2 interface [Security],LookupSids method, ISecu
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation2.LookupSids
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

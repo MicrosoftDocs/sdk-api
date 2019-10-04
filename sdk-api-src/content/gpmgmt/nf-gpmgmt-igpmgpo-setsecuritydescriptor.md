@@ -12,6 +12,8 @@ ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC],SetSecurityDescripto
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.SetSecurityDescriptor"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

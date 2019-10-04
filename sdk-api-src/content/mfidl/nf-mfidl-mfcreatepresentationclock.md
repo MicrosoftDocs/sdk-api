@@ -12,6 +12,8 @@ ms.keywords: MFCreatePresentationClock, MFCreatePresentationClock function [Medi
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreatePresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

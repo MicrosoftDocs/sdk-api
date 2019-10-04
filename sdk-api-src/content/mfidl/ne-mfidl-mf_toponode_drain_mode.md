@@ -12,6 +12,8 @@ ms.keywords: 7f84fd12-40c3-4201-8986-a2883ba2f53d, MF_TOPONODE_DRAIN_ALWAYS, MF_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TOPONODE_DRAIN_MODE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

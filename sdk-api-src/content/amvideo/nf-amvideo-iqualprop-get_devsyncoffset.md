@@ -12,6 +12,8 @@ ms.keywords: IQualProp interface [DirectShow],get_DevSyncOffset method, IQualPro
 ms.topic: method
 f1_keywords: 
  - "amvideo/IQualProp.get_DevSyncOffset"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

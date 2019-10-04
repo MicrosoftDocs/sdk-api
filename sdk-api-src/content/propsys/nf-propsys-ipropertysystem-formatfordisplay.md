@@ -12,6 +12,8 @@ ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], For
 ms.topic: method
 f1_keywords:
 - propsys/IPropertySystem.FormatForDisplay
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

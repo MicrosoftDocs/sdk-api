@@ -12,6 +12,8 @@ ms.keywords: CoGetPSClsid, CoGetPSClsid function [COM], _com_CoGetPSClsid, com.c
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetPSClsid"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

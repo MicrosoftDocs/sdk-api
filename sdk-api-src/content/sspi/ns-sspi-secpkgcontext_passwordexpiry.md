@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSe
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgContext_PasswordExpiry"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

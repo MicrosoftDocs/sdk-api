@@ -12,6 +12,8 @@ ms.keywords: "*PHTTPAPI_VERSION, HTTPAPI_VERSION, HTTPAPI_VERSION structure [HTT
 ms.topic: struct
 f1_keywords: 
  - "http/HTTPAPI_VERSION"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

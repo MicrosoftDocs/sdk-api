@@ -12,6 +12,8 @@ ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbSubtitlingDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

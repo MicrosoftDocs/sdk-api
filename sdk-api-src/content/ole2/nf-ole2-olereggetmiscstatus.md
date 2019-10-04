@@ -12,6 +12,8 @@ ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRe
 ms.topic: function
 f1_keywords: 
  - "ole2/OleRegGetMiscStatus"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 67fcf19a-a864-40de-987f-406f18726a9f, IHandWrittenTextInsertion, IH
 ms.topic: interface
 f1_keywords: 
  - "peninputpanel/IHandWrittenTextInsertion"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

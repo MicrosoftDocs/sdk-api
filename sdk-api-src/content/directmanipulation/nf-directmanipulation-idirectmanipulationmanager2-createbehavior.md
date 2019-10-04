@@ -12,6 +12,8 @@ ms.keywords: CreateBehavior, CreateBehavior method [Direct Manipulation], Create
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager2.CreateBehavior"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

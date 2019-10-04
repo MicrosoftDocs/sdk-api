@@ -12,6 +12,8 @@ ms.keywords: INewShortcutHook interface [Windows Shell],SetReferent method, INew
 ms.topic: method
 f1_keywords: 
  - "shlobj/INewShortcutHookA.SetReferent"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

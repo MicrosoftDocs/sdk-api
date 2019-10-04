@@ -12,6 +12,8 @@ ms.keywords: PWSC_PROVIDER_AUDIT_INFO, PWSC_PROVIDER_AUDIT_INFO structure pointe
 ms.topic: struct
 f1_keywords:
 - ws2spi/WSC_PROVIDER_AUDIT_INFO
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

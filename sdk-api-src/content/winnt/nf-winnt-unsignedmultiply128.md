@@ -12,6 +12,8 @@ ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], wi
 ms.topic: function
 f1_keywords: 
  - "winnt/UnsignedMultiply128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

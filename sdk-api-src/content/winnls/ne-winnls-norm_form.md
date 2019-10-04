@@ -12,6 +12,8 @@ ms.keywords: NORM_FORM, NORM_FORM enumeration [Internationalization for Windows 
 ms.topic: enum
 f1_keywords: 
  - "winnls/NORM_FORM"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

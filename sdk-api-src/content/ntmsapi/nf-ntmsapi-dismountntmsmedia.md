@@ -12,6 +12,8 @@ ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUN
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DismountNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

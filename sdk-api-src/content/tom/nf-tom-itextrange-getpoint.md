@@ -12,6 +12,8 @@ ms.keywords: GetPoint, GetPoint method [Windows Controls], GetPoint method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetPoint"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

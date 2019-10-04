@@ -12,6 +12,8 @@ ms.keywords: TRANSFER_SOURCE_FLAGS, TRANSFER_SOURCE_FLAGS enumeration [Windows S
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/TRANSFER_SOURCE_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

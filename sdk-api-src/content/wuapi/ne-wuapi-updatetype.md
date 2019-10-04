@@ -12,6 +12,8 @@ ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], utDriver
 ms.topic: enum
 f1_keywords: 
  - "wuapi/UpdateType"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

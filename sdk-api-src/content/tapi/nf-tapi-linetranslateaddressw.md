@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAd
 ms.topic: function
 f1_keywords: 
  - "tapi/lineTranslateAddress"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

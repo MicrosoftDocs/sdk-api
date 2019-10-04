@@ -12,6 +12,8 @@ ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method 
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IWordBreaker.ComposePhrase"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

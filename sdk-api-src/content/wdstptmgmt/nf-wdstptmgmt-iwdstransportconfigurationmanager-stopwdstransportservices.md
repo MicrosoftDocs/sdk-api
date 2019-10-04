@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Ser
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager.StopWdsTransportServices"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMSIPATCHSEQUENCEINFOW, MSIPATCHSEQUENCEINFO, MSIPATCHSEQUENCEINF
 ms.topic: struct
 f1_keywords: 
  - "msi/MSIPATCHSEQUENCEINFO"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

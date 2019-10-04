@@ -12,6 +12,8 @@ ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], ba
 ms.topic: enum
 f1_keywords: 
  - "isysmon/DisplayTypeConstants"
+dev_langs:
+ - c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

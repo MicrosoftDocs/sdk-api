@@ -12,6 +12,8 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, I
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlayback.Step"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

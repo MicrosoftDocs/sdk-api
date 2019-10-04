@@ -12,6 +12,8 @@ ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_NOT_REGISTERED, E_MBN_PIN_REQUIR
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsEvents.OnSmsSendComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

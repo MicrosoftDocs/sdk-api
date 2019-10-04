@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [VDS], Clone method [VDS],IEnumVdsObject interf
 ms.topic: method
 f1_keywords: 
  - "vds/IEnumVdsObject.Clone"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

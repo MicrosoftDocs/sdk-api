@@ -12,6 +12,8 @@ ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySet
 ms.topic: interface
 f1_keywords: 
  - "propidl/IPropertySetStorage"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows

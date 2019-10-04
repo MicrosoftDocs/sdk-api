@@ -12,6 +12,8 @@ ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.
 ms.topic: function
 f1_keywords: 
  - "uxtheme/EnableTheming"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

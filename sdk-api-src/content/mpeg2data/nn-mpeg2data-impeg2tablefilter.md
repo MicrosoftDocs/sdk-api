@@ -12,6 +12,8 @@ ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "mpeg2data/IMpeg2TableFilter"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

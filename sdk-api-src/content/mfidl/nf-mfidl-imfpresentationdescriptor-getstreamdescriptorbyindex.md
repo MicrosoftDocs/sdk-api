@@ -12,6 +12,8 @@ ms.keywords: 1db28049-cd62-4b1b-932b-b4d4e12fd671, GetStreamDescriptorByIndex, G
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationDescriptor.GetStreamDescriptorByIndex"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

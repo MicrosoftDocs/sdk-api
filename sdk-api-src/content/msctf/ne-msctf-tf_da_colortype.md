@@ -12,6 +12,8 @@ ms.keywords: TF_CT_COLORREF, TF_CT_NONE, TF_CT_SYSCOLOR, TF_DA_COLORTYPE, TF_DA_
 ms.topic: enum
 f1_keywords: 
  - "msctf/TF_DA_COLORTYPE"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStr
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStream.SetFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

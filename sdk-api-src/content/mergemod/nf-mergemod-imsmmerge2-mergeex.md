@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge2.MergeEx"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

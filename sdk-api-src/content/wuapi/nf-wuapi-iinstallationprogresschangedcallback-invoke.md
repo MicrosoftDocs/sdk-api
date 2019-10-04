@@ -12,6 +12,8 @@ ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agen
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationProgressChangedCallback.Invoke"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

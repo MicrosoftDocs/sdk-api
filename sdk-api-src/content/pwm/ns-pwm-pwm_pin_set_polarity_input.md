@@ -12,6 +12,8 @@ ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, b
 ms.topic: struct
 f1_keywords:
 - pwm/PWM_PIN_SET_POLARITY_INPUT
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

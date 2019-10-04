@@ -12,6 +12,8 @@ ms.keywords: TrySubmitThreadpoolCallback, TrySubmitThreadpoolCallback function, 
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/TrySubmitThreadpoolCallback"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

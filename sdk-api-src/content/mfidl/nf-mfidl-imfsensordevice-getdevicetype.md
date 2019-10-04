@@ -12,6 +12,8 @@ ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceTy
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorDevice.GetDeviceType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

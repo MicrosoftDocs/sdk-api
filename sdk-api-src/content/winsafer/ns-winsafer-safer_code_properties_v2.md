@@ -12,6 +12,8 @@ ms.keywords: '*PSAFER_CODE_PROPERTIES, *PSAFER_CODE_PROPERTIES_V2, PSAFER_CODE_P
 ms.topic: struct
 f1_keywords:
 - winsafer/SAFER_CODE_PROPERTIES
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

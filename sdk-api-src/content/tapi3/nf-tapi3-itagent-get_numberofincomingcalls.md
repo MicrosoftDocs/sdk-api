@@ -12,6 +12,8 @@ ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfIncomingCalls method, ITAg
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAgent.get_NumberOfIncomingCalls"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

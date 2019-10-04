@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecod
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

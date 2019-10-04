@@ -12,6 +12,8 @@ ms.keywords: BG_ERROR_CONTEXT, BG_ERROR_CONTEXT enumeration [BITS], BG_ERROR_CON
 ms.topic: enum
 f1_keywords: 
  - "bits/BG_ERROR_CONTEXT"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFP_STOP_EVENT, MFP_STOP_EVENT structure [Media Foundation], mf.mfp
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_STOP_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

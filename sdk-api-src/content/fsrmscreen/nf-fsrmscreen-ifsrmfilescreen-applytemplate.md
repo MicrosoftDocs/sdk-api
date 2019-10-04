@@ -12,6 +12,8 @@ ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager],
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreen.ApplyTemplate"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

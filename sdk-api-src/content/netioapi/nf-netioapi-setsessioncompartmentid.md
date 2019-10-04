@@ -12,6 +12,8 @@ ms.keywords: SetSessionCompartmentId, SetSessionCompartmentId function [Network 
 ms.topic: function
 f1_keywords: 
  - "netioapi/SetSessionCompartmentId"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

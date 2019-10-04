@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Remote Desktop Services], Enabled property [Remot
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer.Enabled"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

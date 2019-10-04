@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWN
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPTABLE_OWNER_PID
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

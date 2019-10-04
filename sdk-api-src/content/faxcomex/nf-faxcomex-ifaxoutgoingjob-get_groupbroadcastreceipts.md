@@ -12,6 +12,8 @@ ms.keywords: False, GroupBroadcastReceipts property [Fax Service], GroupBroadcas
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.GroupBroadcastReceipts"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

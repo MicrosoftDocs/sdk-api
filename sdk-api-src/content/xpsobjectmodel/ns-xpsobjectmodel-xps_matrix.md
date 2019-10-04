@@ -12,6 +12,8 @@ ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_MATRIX"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

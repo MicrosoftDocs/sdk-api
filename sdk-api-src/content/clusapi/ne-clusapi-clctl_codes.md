@@ -12,6 +12,8 @@ ms.keywords: CLCTL_ADD_CRYPTO_CHECKPOINT, CLCTL_ADD_CRYPTO_CHECKPOINT_EX, CLCTL_
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLCTL_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

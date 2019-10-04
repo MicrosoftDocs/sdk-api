@@ -12,6 +12,8 @@ ms.keywords: 74cee983-e084-458b-b615-5447cca9abbc, MFPOLICYMANAGER_ACTION, MFPOL
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFPOLICYMANAGER_ACTION"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

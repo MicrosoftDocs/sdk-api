@@ -12,6 +12,8 @@ ms.keywords: ITfFnLMProcessor interface [Text Services Framework],Reconvert meth
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnLMProcessor.Reconvert"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEW
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpNewPktHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

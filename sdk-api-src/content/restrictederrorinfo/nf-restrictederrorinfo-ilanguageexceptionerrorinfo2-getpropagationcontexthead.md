@@ -12,6 +12,8 @@ ms.keywords: GetPropagationContextHead, GetPropagationContextHead method [Window
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPropagationContextHead"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetActiveWindow, GetActiveWindow function [Keyboard and Mouse Input
 ms.topic: function
 f1_keywords: 
  - "winuser/GetActiveWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ ms.keywords: _VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
 ms.topic: language-reference
 f1_keywords: 
  - "virtdisk/_VIRTUAL_DISK_ACCESS_MASK"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

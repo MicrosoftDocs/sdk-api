@@ -12,6 +12,8 @@ ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc,
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoTaskMemAlloc"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

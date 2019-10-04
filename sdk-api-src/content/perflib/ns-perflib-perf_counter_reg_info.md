@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_COUNTER_REG_INFO, PERF_100NSEC_MULTI_TIMER, PERF_100NSEC_MU
 ms.topic: struct
 f1_keywords:
 - perflib/PERF_COUNTER_REG_INFO
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

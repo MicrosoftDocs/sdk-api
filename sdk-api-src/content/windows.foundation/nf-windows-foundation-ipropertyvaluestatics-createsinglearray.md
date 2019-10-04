@@ -12,6 +12,8 @@ ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], Crea
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateSingleArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

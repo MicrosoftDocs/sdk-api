@@ -12,6 +12,8 @@ ms.keywords: WinUsb_AbortPipe, WinUsb_AbortPipe function [Buses], buses.winusb_a
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_AbortPipe"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

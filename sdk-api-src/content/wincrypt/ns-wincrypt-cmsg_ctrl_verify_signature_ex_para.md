@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_E
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

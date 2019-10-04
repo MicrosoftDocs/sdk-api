@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET, HT
 ms.topic: struct
 f1_keywords: 
  - "http/HTTP_SERVICE_CONFIG_CACHE_SET"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active D
 ms.topic: struct
 f1_keywords: 
  - "dsquery/DSQUERYPARAMS"
+dev_langs:
+ - c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

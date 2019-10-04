@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Open Packaging Conventions], Create method [
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureRelationshipReferenceSet.Create"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

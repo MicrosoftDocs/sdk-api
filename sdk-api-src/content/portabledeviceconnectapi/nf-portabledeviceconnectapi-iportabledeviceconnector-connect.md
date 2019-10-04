@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Windows Portable Devices SDK], Connect met
 ms.topic: method
 f1_keywords: 
  - "portabledeviceconnectapi/IPortableDeviceConnector.Connect"
+dev_langs:
+ - c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFEndCreateFile, MFEndCreateFile function [Media Foundation], daa92
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFEndCreateFile"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

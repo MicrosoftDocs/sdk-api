@@ -12,6 +12,8 @@ ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-
 ms.topic: function
 f1_keywords:
 - winddi/DrvFree
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

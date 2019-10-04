@@ -12,6 +12,8 @@ ms.keywords: GetShadowConnection, GetShadowConnection method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.GetShadowConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

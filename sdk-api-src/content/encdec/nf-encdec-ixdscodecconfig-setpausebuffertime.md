@@ -12,6 +12,8 @@ ms.keywords: IXDSCodecConfig interface [Microsoft TV Technologies],SetPauseBuffe
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodecConfig.SetPauseBufferTime"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

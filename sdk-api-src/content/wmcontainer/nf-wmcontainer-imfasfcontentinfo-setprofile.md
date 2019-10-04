@@ -12,6 +12,8 @@ ms.keywords: 7e7e062d-9507-400a-8cc2-5355c12017f5, IMFASFContentInfo interface [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo.SetProfile"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

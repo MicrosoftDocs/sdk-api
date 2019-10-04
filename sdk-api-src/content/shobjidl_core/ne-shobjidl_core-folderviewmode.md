@@ -12,6 +12,8 @@ ms.keywords: FOLDERVIEWMODE, FOLDERVIEWMODE enumeration [Windows Shell], FVM_AUT
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FOLDERVIEWMODE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

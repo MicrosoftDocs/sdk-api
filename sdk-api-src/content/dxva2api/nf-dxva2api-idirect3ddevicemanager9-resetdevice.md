@@ -12,6 +12,8 @@ ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9 inter
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.ResetDevice"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

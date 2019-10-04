@@ -12,6 +12,8 @@ ms.keywords: GetTimecodeRangeCount, GetTimecodeRangeCount method [windows Media 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderTimecode.GetTimecodeRangeCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDXGIOutput2 interface [DXGI],SupportsOverlays method, IDXGIOutput2
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIOutput2.SupportsOverlays"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

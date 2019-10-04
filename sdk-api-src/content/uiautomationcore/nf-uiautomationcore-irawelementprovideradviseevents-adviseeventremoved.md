@@ -12,6 +12,8 @@ ms.keywords: AdviseEventRemoved, AdviseEventRemoved method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderAdviseEvents.AdviseEventRemoved"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

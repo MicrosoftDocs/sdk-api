@@ -12,6 +12,8 @@ ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallb
 ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportServerRegisterCallback
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

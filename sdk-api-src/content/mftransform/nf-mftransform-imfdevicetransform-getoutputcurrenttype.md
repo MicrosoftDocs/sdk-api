@@ -12,6 +12,8 @@ ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [Streaming Media 
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetOutputCurrentType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

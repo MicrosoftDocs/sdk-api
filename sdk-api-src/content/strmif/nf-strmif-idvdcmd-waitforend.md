@@ -12,6 +12,8 @@ ms.keywords: IDvdCmd interface [DirectShow],WaitForEnd method, IDvdCmd.WaitForEn
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdCmd.WaitForEnd"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

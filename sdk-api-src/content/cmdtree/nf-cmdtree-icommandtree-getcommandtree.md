@@ -12,6 +12,8 @@ ms.keywords: GetCommandTree, GetCommandTree method [Indexing Service], GetComman
 ms.topic: method
 f1_keywords: 
  - "cmdtree/ICommandTree.GetCommandTree"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

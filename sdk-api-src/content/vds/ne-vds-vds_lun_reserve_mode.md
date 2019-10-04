@@ -12,6 +12,8 @@ ms.keywords: VDS_LRM_EXCLUSIVE_RO, VDS_LRM_EXCLUSIVE_RW, VDS_LRM_NONE, VDS_LRM_S
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_LUN_RESERVE_MODE"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

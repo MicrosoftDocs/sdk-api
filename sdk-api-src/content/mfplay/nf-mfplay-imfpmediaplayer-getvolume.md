@@ -12,6 +12,8 @@ ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [M
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetVolume"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

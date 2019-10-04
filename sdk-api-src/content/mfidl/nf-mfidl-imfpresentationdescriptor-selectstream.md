@@ -12,6 +12,8 @@ ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor int
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationDescriptor.SelectStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

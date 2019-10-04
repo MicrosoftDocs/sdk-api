@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],getROOTHStore method, IEnroll.getROOTH
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.getROOTHStore"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

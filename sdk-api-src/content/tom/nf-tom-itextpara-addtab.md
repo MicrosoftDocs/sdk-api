@@ -12,6 +12,8 @@ ms.keywords: AddTab, AddTab method [Windows Controls], AddTab method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.AddTab"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

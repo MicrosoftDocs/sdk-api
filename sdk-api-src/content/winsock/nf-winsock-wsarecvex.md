@@ -12,6 +12,8 @@ ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsoc
 ms.topic: function
 f1_keywords: 
  - "winsock/WSARecvEx"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

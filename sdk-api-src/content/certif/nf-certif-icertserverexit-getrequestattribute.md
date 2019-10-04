@@ -12,6 +12,8 @@ ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRe
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerExit.GetRequestAttribute"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

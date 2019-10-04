@@ -12,6 +12,8 @@ ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], winsync.sync_time, w
 ms.topic: struct
 f1_keywords: 
  - "winsync/SYNC_TIME"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

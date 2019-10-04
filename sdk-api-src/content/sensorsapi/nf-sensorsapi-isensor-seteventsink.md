@@ -12,6 +12,8 @@ ms.keywords: ISensor interface,SetEventSink method, ISensor.SetEventSink, ISenso
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.SetEventSink"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

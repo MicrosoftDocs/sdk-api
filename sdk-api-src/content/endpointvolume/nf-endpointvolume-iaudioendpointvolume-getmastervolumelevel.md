@@ -12,6 +12,8 @@ ms.keywords: GetMasterVolumeLevel, GetMasterVolumeLevel method [Core Audio], Get
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.GetMasterVolumeLevel"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

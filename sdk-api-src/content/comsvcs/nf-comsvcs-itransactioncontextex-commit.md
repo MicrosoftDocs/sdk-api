@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionCont
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionContextEx.Commit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

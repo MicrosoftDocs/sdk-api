@@ -12,6 +12,8 @@ ms.keywords: Enter, Enter method [Microsoft Broadband Networks], Enter method [M
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPin.Enter"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

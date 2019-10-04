@@ -12,6 +12,8 @@ ms.keywords: DECIMATION_DEFAULT, DECIMATION_LEGACY, DECIMATION_USAGE, DECIMATION
 ms.topic: enum
 f1_keywords: 
  - "strmif/DECIMATION_USAGE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

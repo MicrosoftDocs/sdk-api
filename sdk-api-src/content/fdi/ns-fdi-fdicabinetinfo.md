@@ -12,6 +12,8 @@ ms.keywords: "*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETI
 ms.topic: struct
 f1_keywords: 
  - "fdi/FDICABINETINFO FAR *PFDICABINETINFO"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

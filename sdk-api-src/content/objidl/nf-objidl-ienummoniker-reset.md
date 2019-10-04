@@ -12,6 +12,8 @@ ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnu
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumMoniker.Reset"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

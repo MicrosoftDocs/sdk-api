@@ -12,6 +12,8 @@ ms.keywords: CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CO
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgCalculateEncodedLength
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

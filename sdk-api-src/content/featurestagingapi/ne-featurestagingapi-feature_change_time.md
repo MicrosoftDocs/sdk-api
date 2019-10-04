@@ -12,6 +12,8 @@ ms.keywords: FEATURE_CHANGE_TIME, FEATURE_CHANGE_TIME enumeration [Windows API],
 ms.topic: enum
 f1_keywords: 
  - "featurestagingapi/FEATURE_CHANGE_TIME"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RAS_PORT_AUTHENTICATED, RAS_PORT_AUTHENTICATING, RAS_PORT_CALLING_B
 ms.topic: enum
 f1_keywords: 
  - "mprapi/RAS_PORT_CONDITION"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

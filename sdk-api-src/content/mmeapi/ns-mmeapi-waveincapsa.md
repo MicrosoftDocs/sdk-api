@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEINCAPSA, *NPWAVEINCAPSA, *PWAVEINCAPSA, WAVEINCAPS, WAVEINC
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/WAVEINCAPS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

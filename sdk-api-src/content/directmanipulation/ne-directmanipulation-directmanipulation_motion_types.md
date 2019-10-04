@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_MOTION_ALL, DIRECTMANIPULATION_MOTION_CENTERX, D
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_MOTION_TYPES"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

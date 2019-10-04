@@ -12,6 +12,8 @@ ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.ls
 ms.topic: function
 f1_keywords:
 - clfs/LsnLess
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

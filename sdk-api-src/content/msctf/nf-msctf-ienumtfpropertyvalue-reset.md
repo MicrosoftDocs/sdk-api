@@ -12,6 +12,8 @@ ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Reset meth
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfPropertyValue.Reset"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

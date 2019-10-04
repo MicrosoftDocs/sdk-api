@@ -12,6 +12,8 @@ ms.keywords: PSCreateMemoryPropertyStore, PSCreateMemoryPropertyStore function [
 ms.topic: function
 f1_keywords: 
  - "propsys/PSCreateMemoryPropertyStore"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

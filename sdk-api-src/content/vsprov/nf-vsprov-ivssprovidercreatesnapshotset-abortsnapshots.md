@@ -12,6 +12,8 @@ ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method 
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssProviderCreateSnapshotSet.AbortSnapshots"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

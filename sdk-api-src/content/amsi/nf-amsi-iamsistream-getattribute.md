@@ -12,6 +12,8 @@ ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], Get
 ms.topic: method
 f1_keywords: 
  - "amsi/IAmsiStream.GetAttribute"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

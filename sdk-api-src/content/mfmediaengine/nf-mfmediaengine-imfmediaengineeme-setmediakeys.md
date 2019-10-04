@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method,
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEME.SetMediaKeys"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

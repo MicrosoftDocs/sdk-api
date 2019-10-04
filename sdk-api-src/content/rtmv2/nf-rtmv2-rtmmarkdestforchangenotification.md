@@ -12,6 +12,8 @@ ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification 
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmMarkDestForChangeNotification"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

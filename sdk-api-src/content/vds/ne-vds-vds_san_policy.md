@@ -12,6 +12,8 @@ ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_SAN_POLICY"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

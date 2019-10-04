@@ -12,6 +12,8 @@ ms.keywords: '*PISCSI_SESSION_INFOA, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO stru
 ms.topic: struct
 f1_keywords:
 - iscsidsc/ISCSI_SESSION_INFO
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

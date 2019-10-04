@@ -12,6 +12,8 @@ ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmA
 ms.topic: function
 f1_keywords:
 - restartmanager/RmAddFilter
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

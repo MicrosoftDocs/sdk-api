@@ -12,6 +12,8 @@ ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType me
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.GetRecorderType"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunct
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_MGMT_POINT_TYPE, CLUSTER_MGMT_POINT_TYPE enumeration [Failo
 ms.topic: enum
 f1_keywords:
 - msclus/CLUSTER_MGMT_POINT_TYPE
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

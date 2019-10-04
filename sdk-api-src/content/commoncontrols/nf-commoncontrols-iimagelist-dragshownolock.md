@@ -12,6 +12,8 @@ ms.keywords: DragShowNolock, DragShowNolock method [Windows Controls], DragShowN
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.DragShowNolock"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

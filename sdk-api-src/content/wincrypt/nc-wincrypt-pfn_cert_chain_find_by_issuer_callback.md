@@ -12,6 +12,8 @@ ms.keywords: CertChainFindByIssuerCallback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBA
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

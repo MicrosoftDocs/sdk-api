@@ -12,6 +12,8 @@ ms.keywords: "*PSP_INF_SIGNER_INFO_V1_A, PSP_INF_SIGNER_INFO, PSP_INF_SIGNER_INF
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_INF_SIGNER_INFO"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetDashCap method, Pen.SetDashCap, Pen::SetDashCap
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetDashCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

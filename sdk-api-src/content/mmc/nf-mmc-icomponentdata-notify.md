@@ -12,6 +12,8 @@ ms.keywords: IComponentData interface [MMC],Notify method, IComponentData.Notify
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponentData.Notify"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

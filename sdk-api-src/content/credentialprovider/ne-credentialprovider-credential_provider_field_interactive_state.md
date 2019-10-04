@@ -12,6 +12,8 @@ ms.keywords: CPFIS_DISABLED, CPFIS_FOCUSED, CPFIS_NONE, CPFIS_READONLY, CREDENTI
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

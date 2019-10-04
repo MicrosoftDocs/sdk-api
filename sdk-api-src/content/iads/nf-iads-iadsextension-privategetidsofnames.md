@@ -12,6 +12,8 @@ ms.keywords: IADsExtension interface [ADSI],PrivateGetIDsOfNames method, IADsExt
 ms.topic: method
 f1_keywords: 
  - "iads/IADsExtension.PrivateGetIDsOfNames"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxJob interface [Fax Service],PageCount property, IFaxJob.PageCou
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.PageCount"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea,
 ms.topic: function
 f1_keywords:
 - clfsw32/WriteLogRestartArea
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

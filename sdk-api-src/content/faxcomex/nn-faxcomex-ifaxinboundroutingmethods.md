@@ -12,6 +12,8 @@ ms.keywords: IFaxInboundRoutingMethods, IFaxInboundRoutingMethods interface [Fax
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethods"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, Ho
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/HotkeyPrefix"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], 
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_5/DXGI_HDR_METADATA_HDR10"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

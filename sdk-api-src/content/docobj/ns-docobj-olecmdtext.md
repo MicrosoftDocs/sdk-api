@@ -12,6 +12,8 @@ ms.keywords: OLECMDTEXT, OLECMDTEXT structure [COM], _ole_OLECMDTEXT, com.olecmd
 ms.topic: struct
 f1_keywords: 
  - "docobj/OLECMDTEXT"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

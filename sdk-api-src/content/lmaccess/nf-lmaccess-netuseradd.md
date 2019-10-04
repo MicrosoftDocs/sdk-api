@@ -12,6 +12,8 @@ ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserAdd
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

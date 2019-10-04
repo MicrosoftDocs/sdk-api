@@ -12,6 +12,8 @@ ms.keywords: ITextServices interface [Windows Controls],TxGetCurTargetX method, 
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextServices.TxGetCurTargetX"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

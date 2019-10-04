@@ -12,6 +12,8 @@ ms.keywords: IAMTuner, IAMTuner interface [DirectShow], IAMTuner interface [Dire
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMTuner"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PO_CLASS, PO_GLOBAL, PO_NOTFOUND, PO_PART, PO_STATE, PROPERTYORIGIN
 ms.topic: enum
 f1_keywords: 
  - "uxtheme/PROPERTYORIGIN"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

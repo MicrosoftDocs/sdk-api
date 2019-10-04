@@ -12,6 +12,8 @@ ms.keywords: "_win32_capDriverConnect, capDriverConnect, capDriverConnect macro 
 ms.topic: macro
 f1_keywords: 
  - "vfw/capDriverConnect"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

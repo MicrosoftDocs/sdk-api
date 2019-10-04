@@ -12,6 +12,8 @@ ms.keywords: VarDateFromI4, VarDateFromI4 function [Automation], _oa96_VarDateFr
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDateFromI4"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

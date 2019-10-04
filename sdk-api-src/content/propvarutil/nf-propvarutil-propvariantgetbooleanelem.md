@@ -12,6 +12,8 @@ ms.keywords: PropVariantGetBooleanElem, PropVariantGetBooleanElem function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantGetBooleanElem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPreferredClsid, GetPreferredClsid method [Media Foundation], Get
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFPluginControl.GetPreferredClsid
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

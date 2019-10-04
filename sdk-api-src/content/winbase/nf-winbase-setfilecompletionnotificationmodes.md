@@ -12,6 +12,8 @@ ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE
 ms.topic: function
 f1_keywords:
 - winbase/SetFileCompletionNotificationModes
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

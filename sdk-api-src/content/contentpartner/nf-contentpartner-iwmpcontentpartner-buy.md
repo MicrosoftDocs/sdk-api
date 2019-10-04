@@ -12,6 +12,8 @@ ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media P
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.Buy"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

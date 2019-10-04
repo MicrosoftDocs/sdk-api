@@ -12,6 +12,8 @@ ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_EnsureVisible"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

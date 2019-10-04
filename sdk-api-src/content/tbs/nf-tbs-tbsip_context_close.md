@@ -12,6 +12,8 @@ ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsip_Context_Close"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

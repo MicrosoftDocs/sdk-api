@@ -12,6 +12,8 @@ ms.keywords: "*PSIP_CAP_SET_V2, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Se
 ms.topic: struct
 f1_keywords: 
  - "mssip/SIP_CAP_SET"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

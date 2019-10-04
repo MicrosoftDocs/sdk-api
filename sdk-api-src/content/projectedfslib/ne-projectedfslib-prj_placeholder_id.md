@@ -12,6 +12,8 @@ ms.keywords: PRJ_PLACEHOLDER_ID, PRJ_PLACEHOLDER_ID enumeration, PRJ_PLACEHOLDER
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_PLACEHOLDER_ID"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

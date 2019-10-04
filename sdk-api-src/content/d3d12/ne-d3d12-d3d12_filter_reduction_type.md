@@ -12,6 +12,8 @@ ms.keywords: D3D12_FILTER_REDUCTION_TYPE, D3D12_FILTER_REDUCTION_TYPE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_FILTER_REDUCTION_TYPE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

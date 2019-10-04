@@ -12,6 +12,8 @@ ms.keywords: TCPSTATE, TCPSTATE enumeration [Winsock], TCPSTATE_CLOSED, TCPSTATE
 ms.topic: enum
 f1_keywords:
 - mstcpip/TCPSTATE
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

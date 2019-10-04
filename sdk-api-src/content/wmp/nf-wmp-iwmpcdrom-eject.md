@@ -12,6 +12,8 @@ ms.keywords: IWMPCdrom interface [Windows Media Player],eject method, IWMPCdrom.
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdrom.eject"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

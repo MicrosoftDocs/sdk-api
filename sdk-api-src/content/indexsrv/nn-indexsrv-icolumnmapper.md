@@ -12,6 +12,8 @@ ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper inte
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/IColumnMapper"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

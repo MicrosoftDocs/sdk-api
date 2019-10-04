@@ -12,6 +12,8 @@ ms.keywords: CreateVoter, CreateVoter method [COM+], CreateVoter method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionProxy.CreateVoter"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

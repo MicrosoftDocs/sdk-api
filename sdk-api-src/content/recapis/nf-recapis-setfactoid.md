@@ -12,6 +12,8 @@ ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda
 ms.topic: function
 f1_keywords: 
  - "recapis/SetFactoid"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

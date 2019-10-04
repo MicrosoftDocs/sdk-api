@@ -12,6 +12,8 @@ ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.P
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IPhraseSink.PutSmallPhrase"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

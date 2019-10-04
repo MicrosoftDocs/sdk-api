@@ -12,6 +12,8 @@ ms.keywords: TextRange_MoveEndpointByRange, TextRange_MoveEndpointByRange functi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_MoveEndpointByRange"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

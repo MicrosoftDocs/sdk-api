@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreenTemplateImported interface [File Server Resource Man
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenTemplateImported.OverwriteOnCommit"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

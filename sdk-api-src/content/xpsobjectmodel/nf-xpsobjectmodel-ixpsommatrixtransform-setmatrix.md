@@ -12,6 +12,8 @@ ms.keywords: IXpsOMMatrixTransform interface [XPS Documents and Packaging],SetMa
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMMatrixTransform.SetMatrix"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

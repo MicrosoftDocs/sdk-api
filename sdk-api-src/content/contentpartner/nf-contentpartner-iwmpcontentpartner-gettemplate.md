@@ -12,6 +12,8 @@ ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetTemplate"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

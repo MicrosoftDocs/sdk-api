@@ -12,6 +12,8 @@ ms.keywords: GetDefaultMenuText, GetDefaultMenuText method [Windows Shell], GetD
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser2.GetDefaultMenuText"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IStreamAsync interface [Windows Shell],OverlappedResult method, ISt
 ms.topic: method
 f1_keywords:
 - shobjidl/IStreamAsync.OverlappedResult
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

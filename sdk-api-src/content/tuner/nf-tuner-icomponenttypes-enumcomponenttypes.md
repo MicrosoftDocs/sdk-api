@@ -12,6 +12,8 @@ ms.keywords: EnumComponentTypes, EnumComponentTypes method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentTypes.EnumComponentTypes"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

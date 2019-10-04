@@ -12,6 +12,8 @@ ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Deskt
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSVirtualChannelRead"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

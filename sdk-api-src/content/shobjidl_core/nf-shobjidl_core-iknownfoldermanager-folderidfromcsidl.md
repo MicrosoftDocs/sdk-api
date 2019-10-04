@@ -12,6 +12,8 @@ ms.keywords: FolderIdFromCsidl, FolderIdFromCsidl method [Windows Shell], Folder
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IKnownFolderManager.FolderIdFromCsidl"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameA
 ms.topic: enum
 f1_keywords: 
  - "ntsecpkg/SECPKG_NAME_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

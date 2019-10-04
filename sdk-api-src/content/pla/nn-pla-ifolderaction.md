@@ -12,6 +12,8 @@ ms.keywords: IFolderAction, IFolderAction interface [PLA], IFolderAction interfa
 ms.topic: interface
 f1_keywords: 
  - "pla/IFolderAction"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

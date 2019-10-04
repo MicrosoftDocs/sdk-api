@@ -12,6 +12,8 @@ ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft B
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnServiceActivation"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrus
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetBrushOrgEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

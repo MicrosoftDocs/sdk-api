@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_INVITATION_INFO, PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEM
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_INVITATION_INFO"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

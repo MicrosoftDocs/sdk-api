@@ -12,6 +12,8 @@ ms.keywords: FwpmFilterGetSecurityInfoByKey0, FwpmFilterGetSecurityInfoByKey0 fu
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterGetSecurityInfoByKey0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

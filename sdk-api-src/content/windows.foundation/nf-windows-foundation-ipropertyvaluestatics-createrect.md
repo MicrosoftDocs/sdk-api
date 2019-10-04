@@ -12,6 +12,8 @@ ms.keywords: CreateRect, CreateRect method [Windows Runtime], CreateRect method 
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateRect"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

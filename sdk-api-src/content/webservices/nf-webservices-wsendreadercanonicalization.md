@@ -12,6 +12,8 @@ ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [
 ms.topic: function
 f1_keywords: 
  - "webservices/WsEndReaderCanonicalization"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLinkedTopics, GetLinkedTopics method [MMC], GetLinkedTopics meth
 ms.topic: method
 f1_keywords: 
  - "mmc/ISnapinHelp2.GetLinkedTopics"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/Cal
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/CallEnclave"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

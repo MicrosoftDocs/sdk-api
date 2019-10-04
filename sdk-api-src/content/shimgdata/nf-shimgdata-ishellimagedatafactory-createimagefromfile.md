@@ -12,6 +12,8 @@ ms.keywords: CreateImageFromFile, CreateImageFromFile method [Windows Shell], Cr
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageDataFactory.CreateImageFromFile"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAppletIIDList, GetAppletIIDList method [Internationalization for
 ms.topic: method
 f1_keywords: 
  - "imepad/IImeSpecifyApplets.GetAppletIIDList"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

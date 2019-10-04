@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure 
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_ALGORITHM_IDENTIFIER"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

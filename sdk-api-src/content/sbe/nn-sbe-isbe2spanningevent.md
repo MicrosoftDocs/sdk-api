@@ -12,6 +12,8 @@ ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "sbe/ISBE2SpanningEvent"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

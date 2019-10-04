@@ -12,6 +12,8 @@ ms.keywords: Header_GetImageList, Header_GetImageList macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

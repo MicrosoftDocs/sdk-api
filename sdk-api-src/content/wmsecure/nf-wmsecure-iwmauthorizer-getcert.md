@@ -12,6 +12,8 @@ ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [win
 ms.topic: method
 f1_keywords: 
  - "wmsecure/IWMAuthorizer.GetCert"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

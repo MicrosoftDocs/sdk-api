@@ -12,6 +12,8 @@ ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _gl
 ms.topic: function
 f1_keywords: 
  - "dsrole/DsRoleFreeMemory"
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

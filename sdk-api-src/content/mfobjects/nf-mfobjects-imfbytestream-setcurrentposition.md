@@ -12,6 +12,8 @@ ms.keywords: 20518fed-4083-413b-b9b1-e54c4c5630d4, IMFByteStream interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.SetCurrentPosition"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

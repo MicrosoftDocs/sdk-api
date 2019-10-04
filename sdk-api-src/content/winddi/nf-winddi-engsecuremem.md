@@ -12,6 +12,8 @@ ms.keywords: EngSecureMem, EngSecureMem function [Display Devices], display.engs
 ms.topic: function
 f1_keywords: 
  - "winddi/EngSecureMem"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

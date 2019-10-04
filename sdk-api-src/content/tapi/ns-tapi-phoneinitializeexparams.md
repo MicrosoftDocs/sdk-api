@@ -12,6 +12,8 @@ ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINIT
 ms.topic: struct
 f1_keywords: 
  - "tapi/PHONEINITIALIZEEXPARAMS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

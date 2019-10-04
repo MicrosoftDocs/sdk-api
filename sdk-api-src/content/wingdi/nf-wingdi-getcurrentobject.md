@@ -12,6 +12,8 @@ ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITM
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetCurrentObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

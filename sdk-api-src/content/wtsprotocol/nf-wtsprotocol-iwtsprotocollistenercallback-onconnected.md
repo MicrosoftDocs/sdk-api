@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolListenerCallback interface [Remote Desktop Services],On
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolListenerCallback.OnConnected"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

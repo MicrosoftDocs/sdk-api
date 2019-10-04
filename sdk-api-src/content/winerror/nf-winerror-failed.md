@@ -12,6 +12,8 @@ ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_mac
 ms.topic: macro
 f1_keywords: 
  - "winerror/FAILED"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroun
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetTimes
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AdviseKeyEventSink, AdviseKeyEventSink method [Text Services Framew
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeystrokeMgr.AdviseKeyEventSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

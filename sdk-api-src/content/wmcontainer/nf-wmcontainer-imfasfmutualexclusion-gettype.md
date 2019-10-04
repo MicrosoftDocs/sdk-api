@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media F
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion.GetType"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

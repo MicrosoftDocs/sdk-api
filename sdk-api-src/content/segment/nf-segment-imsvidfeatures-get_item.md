@@ -12,6 +12,8 @@ ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Item metho
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidFeatures.get_Item"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

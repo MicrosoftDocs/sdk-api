@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_SetFloat
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

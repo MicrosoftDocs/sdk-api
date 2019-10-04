@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [App packaging and management],
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestReader.GetProperties"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

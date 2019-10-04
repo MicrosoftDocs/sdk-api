@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSelect, XMVectorSelect, XMVectorSelect method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSelect"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

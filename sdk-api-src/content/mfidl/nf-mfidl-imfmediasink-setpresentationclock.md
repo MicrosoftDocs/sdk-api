@@ -12,6 +12,8 @@ ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSink.SetPresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

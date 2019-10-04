@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPISharingSessi
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.Close"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

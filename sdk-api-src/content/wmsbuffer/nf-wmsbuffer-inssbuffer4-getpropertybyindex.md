@@ -12,6 +12,8 @@ ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer4.GetPropertyByIndex"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

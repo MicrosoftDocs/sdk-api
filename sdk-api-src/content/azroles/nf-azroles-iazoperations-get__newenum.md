@@ -12,6 +12,8 @@ ms.keywords: AzOperations object [Security],_NewEnum property, IAzOperations int
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzOperations._NewEnum"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

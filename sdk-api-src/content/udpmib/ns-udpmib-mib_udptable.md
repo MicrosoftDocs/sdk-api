@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_UDPTABLE, MIB_UDPTABLE, MIB_UDPTABLE structure [MIB], PMIB_U
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPTABLE
+dev_langs:
+ - c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgr
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.GetStatus"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

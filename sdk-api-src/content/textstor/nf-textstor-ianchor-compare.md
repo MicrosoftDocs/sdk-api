@@ -12,6 +12,8 @@ ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Comp
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.Compare"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

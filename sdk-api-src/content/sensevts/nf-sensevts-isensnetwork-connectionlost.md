@@ -12,6 +12,8 @@ ms.keywords: CONNECTION_LAN, CONNECTION_WAN, ConnectionLost, ConnectionLost meth
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensNetwork.ConnectionLost"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: Sensevts.h, Sens.h
 req.target-type: Windows

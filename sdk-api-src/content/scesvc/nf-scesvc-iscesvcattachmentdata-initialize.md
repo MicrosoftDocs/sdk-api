@@ -12,6 +12,8 @@ ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceS
 ms.topic: method
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentData.Initialize"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteAccessPath, DeleteAccessPath method [VDS], DeleteAccessPath m
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF.DeleteAccessPath"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

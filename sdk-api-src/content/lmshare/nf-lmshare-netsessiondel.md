@@ -12,6 +12,8 @@ ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel
 ms.topic: function
 f1_keywords: 
  - "lmshare/NetSessionDel"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

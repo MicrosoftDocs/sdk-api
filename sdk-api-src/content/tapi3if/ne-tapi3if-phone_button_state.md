@@ -12,6 +12,8 @@ ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHO
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONE_BUTTON_STATE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

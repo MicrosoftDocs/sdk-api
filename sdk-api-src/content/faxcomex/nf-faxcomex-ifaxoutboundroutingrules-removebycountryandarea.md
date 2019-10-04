@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],RemoveByCountryAnd
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRules.RemoveByCountryAndArea"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

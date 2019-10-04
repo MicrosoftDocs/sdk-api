@@ -12,6 +12,8 @@ ms.keywords: 8e3681a7-c5be-4104-b740-9f23d141f6cb, IInkDrawingAttributes interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.RasterOperation"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

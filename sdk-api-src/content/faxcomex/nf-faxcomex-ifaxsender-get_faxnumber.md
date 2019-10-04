@@ -12,6 +12,8 @@ ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.FaxNumber"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

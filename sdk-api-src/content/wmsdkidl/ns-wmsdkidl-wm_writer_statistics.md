@@ -12,6 +12,8 @@ ms.keywords: WM_WRITER_STATISTICS, WM_WRITER_STATISTICS structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_WRITER_STATISTICS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

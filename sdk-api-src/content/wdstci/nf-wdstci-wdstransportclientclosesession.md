@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession func
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientCloseSession"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

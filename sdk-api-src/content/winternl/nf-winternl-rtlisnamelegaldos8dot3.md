@@ -12,6 +12,8 @@ ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 function [Windows AP
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlIsNameLegalDOS8Dot3"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

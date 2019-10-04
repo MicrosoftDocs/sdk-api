@@ -12,6 +12,8 @@ ms.keywords: "*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, 
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/QCMINFO"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

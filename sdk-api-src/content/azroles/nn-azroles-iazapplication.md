@@ -12,6 +12,8 @@ ms.keywords: IAzApplication, IAzApplication interface [Security], IAzApplication
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzApplication"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

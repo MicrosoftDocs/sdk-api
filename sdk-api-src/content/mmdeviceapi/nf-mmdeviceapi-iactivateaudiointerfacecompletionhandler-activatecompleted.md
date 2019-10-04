@@ -12,6 +12,8 @@ ms.keywords: ActivateCompleted, ActivateCompleted method [Core Audio], ActivateC
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IActivateAudioInterfaceCompletionHandler.ActivateCompleted"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

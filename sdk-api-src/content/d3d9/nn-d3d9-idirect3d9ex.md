@@ -12,6 +12,8 @@ ms.keywords: 88878a9a-f85c-f0f1-6268-c5b3e11bb875, IDirect3D9Ex, IDirect3D9Ex in
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3D9Ex"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

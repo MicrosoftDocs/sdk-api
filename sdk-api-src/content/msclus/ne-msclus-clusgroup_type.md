@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSGROUP_TYPE, CLUSGROUP_TYPE, CLUSGROUP_TYPE enumeration [Fail
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSGROUP_TYPE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

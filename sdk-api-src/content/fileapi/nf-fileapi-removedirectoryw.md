@@ -12,6 +12,8 @@ ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA
 ms.topic: function
 f1_keywords: 
  - "fileapi/RemoveDirectory"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

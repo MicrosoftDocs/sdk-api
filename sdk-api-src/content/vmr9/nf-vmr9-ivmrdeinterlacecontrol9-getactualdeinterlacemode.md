@@ -12,6 +12,8 @@ ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectSh
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRDeinterlaceControl9.GetActualDeinterlaceMode"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSManEx2, IWSManEx2 interface [Windows Remote Management], IWSManE
 ms.topic: interface
 f1_keywords: 
  - "wsmandisp/IWSManEx2"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MagUninitialize, MagUninitialize function [Magnification API], maga
 ms.topic: function
 f1_keywords: 
  - "magnification/MagUninitialize"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAttributeID, GetAttributeID method [Network Policy Server], GetA
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoDictionaryOld.GetAttributeID
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

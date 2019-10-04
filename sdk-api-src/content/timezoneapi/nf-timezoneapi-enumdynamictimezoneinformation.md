@@ -12,6 +12,8 @@ ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation func
 ms.topic: function
 f1_keywords: 
  - "timezoneapi/EnumDynamicTimeZoneInformation"
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IReferenceClock interface [DirectShow],Unadvise method, IReferenceC
 ms.topic: method
 f1_keywords: 
  - "strmif/IReferenceClock.Unadvise"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPL
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEMESSAGE"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

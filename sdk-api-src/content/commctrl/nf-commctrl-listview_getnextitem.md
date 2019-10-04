@@ -12,6 +12,8 @@ ms.keywords: ListView_GetNextItem, ListView_GetNextItem macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetNextItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

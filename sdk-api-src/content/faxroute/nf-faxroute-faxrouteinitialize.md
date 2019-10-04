@@ -12,6 +12,8 @@ ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfa
 ms.topic: function
 f1_keywords:
 - faxroute/FaxRouteInitialize
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

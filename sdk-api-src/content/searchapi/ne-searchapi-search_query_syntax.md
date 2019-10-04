@@ -12,6 +12,8 @@ ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_N
 ms.topic: enum
 f1_keywords: 
  - "searchapi/SEARCH_QUERY_SYNTAX"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

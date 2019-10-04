@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR, EVENT_FILTER_D
 ms.topic: struct
 f1_keywords:
 - evntprov/EVENT_FILTER_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], a
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayReleaseData"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

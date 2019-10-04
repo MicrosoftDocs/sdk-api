@@ -12,6 +12,8 @@ ms.keywords: DVD_SP_EXT_CC_Big, DVD_SP_EXT_CC_Children, DVD_SP_EXT_CC_Normal, DV
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_SUBPICTURE_LANG_EXT"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

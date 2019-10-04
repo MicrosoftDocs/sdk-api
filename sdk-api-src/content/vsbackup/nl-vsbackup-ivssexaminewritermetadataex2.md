@@ -12,6 +12,8 @@ ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interfac
 ms.topic: class
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadataEx2"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

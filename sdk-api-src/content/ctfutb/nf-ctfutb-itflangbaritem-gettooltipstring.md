@@ -12,6 +12,8 @@ ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework]
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItem.GetTooltipString"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

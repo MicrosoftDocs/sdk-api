@@ -12,6 +12,8 @@ ms.keywords: SetIScsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddress, Se
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/SetIscsiTunnelModeOuterAddress"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

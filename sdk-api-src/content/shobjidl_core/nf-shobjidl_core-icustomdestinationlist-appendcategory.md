@@ -12,6 +12,8 @@ ms.keywords: AppendCategory, AppendCategory method [Windows Shell], AppendCatego
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICustomDestinationList.AppendCategory"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

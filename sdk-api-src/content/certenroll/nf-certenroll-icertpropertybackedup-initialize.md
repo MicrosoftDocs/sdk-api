@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyBackedUp interface [Security],Initialize method, ICert
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyBackedUp.Initialize"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

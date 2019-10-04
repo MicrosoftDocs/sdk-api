@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_CONNECTION_INFOW, ISCSI_CONNECTION_INFO, ISCSI_CONNECTION_
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_CONNECTION_INFO"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

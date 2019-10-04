@@ -12,6 +12,8 @@ ms.keywords: GetAtEndOfPayload, GetAtEndOfPayload method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.GetAtEndOfPayload"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

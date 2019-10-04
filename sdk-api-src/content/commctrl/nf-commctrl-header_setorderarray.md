@@ -12,6 +12,8 @@ ms.keywords: Header_SetOrderArray, Header_SetOrderArray macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_SetOrderArray"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

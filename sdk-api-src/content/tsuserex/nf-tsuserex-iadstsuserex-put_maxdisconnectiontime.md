@@ -12,6 +12,8 @@ ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTi
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.MaxDisconnectionTime"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

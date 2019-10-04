@@ -12,6 +12,8 @@ ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, I
 ms.topic: method
 f1_keywords: 
  - "objidl/IFillLockBytes.SetFillSize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

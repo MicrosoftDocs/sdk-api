@@ -12,6 +12,8 @@ ms.keywords: IVMRMonitorConfig interface [DirectShow],SetDefaultMonitor method, 
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRMonitorConfig.SetDefaultMonitor"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

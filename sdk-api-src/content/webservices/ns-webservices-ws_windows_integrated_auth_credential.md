@@ -12,6 +12,8 @@ ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_WINDOWS_INTEGRATED_AUTH_C
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

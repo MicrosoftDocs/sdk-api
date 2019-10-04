@@ -12,6 +12,8 @@ ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_R
 ms.topic: struct
 f1_keywords: 
  - "clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

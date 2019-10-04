@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_ID, INTERACTION_ID enumeration, INTERACTION_ID_CROSS_SL
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INTERACTION_ID"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

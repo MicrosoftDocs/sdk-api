@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO
 ms.topic: struct
 f1_keywords: 
  - "wincred/CERT_CREDENTIAL_INFO"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

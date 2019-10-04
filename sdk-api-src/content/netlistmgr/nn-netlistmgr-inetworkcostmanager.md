@@ -12,6 +12,8 @@ ms.keywords: INetworkCostManager, INetworkCostManager interface [Network Awarene
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/INetworkCostManager"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

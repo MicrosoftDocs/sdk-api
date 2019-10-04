@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLU
 ms.topic: struct
 f1_keywords:
 - vsmgmt/VSS_VOLUME_PROTECTION_INFO
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

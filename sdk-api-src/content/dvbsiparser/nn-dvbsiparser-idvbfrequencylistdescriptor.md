@@ -12,6 +12,8 @@ ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface 
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbFrequencyListDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

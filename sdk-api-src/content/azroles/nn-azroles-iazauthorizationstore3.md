@@ -12,6 +12,8 @@ ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security]
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzAuthorizationStore3"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

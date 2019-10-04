@@ -8,6 +8,10 @@ ms.assetid: 9386573a-29f0-478e-9803-3773d93eea4a
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDevice::CheckFeatureSupport
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDevice::CheckFeatureSupport, CheckFeatureSupport, ID3D12VideoDevice.CheckFeatureSupport, ID3D12VideoDevice::CheckFeatureSupport, ID3D12VideoDevice.CheckFeatureSupport
 req.header: d3d12video.h
 req.include-header:

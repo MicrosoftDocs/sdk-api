@@ -12,6 +12,8 @@ ms.keywords: "*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCE
 ms.topic: struct
 f1_keywords: 
  - "winnt/OBJECT_TYPE_LIST"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

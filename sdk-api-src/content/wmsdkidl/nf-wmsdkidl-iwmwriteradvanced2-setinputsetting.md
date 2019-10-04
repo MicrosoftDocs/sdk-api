@@ -12,6 +12,8 @@ ms.keywords: IWMWriterAdvanced2 interface [windows Media Format],SetInputSetting
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced2.SetInputSetting"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

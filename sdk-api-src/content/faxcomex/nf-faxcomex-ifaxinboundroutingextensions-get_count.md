@@ -12,6 +12,8 @@ ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxInbo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingExtensions.Count"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

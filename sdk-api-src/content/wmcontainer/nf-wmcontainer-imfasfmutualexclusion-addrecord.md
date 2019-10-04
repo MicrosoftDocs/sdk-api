@@ -12,6 +12,8 @@ ms.keywords: AddRecord, AddRecord method [Media Foundation], AddRecord method [M
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion.AddRecord"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

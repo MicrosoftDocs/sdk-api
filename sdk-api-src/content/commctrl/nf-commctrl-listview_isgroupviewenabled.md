@@ -12,6 +12,8 @@ ms.keywords: ListView_IsGroupViewEnabled, ListView_IsGroupViewEnabled macro [Win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_IsGroupViewEnabled"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

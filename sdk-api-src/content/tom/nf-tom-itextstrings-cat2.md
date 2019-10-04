@@ -12,6 +12,8 @@ ms.keywords: Cat2, Cat2 method [Windows Controls], Cat2 method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.Cat2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

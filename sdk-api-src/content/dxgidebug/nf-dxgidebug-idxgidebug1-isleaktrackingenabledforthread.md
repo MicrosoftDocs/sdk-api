@@ -12,6 +12,8 @@ ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method,
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIDebug1.IsLeakTrackingEnabledForThread"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

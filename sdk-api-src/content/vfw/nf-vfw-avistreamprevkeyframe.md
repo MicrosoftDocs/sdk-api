@@ -12,6 +12,8 @@ ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multime
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamPrevKeyFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

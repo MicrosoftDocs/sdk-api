@@ -12,6 +12,8 @@ ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto
 ms.topic: function
 f1_keywords: 
  - "winsock2/sendto"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

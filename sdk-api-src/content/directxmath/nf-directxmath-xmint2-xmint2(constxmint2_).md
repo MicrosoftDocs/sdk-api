@@ -12,6 +12,8 @@ ms.keywords: XMINT2, XMINT2 constructor [DirectX Math Support APIs], XMINT2 cons
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMINT2.XMINT2"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

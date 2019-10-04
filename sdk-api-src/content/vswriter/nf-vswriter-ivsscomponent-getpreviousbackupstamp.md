@@ -12,6 +12,8 @@ ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPre
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetPreviousBackupStamp"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

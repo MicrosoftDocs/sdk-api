@@ -12,6 +12,8 @@ ms.keywords: IEventSystem interface [COM+],Query method, IEventSystem.Query, IEv
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSystem.Query"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

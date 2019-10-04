@@ -12,6 +12,8 @@ ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive
 ms.topic: function
 f1_keywords: 
  - "sensapi/IsNetworkAlive"
+dev_langs:
+ - c++
 req.header: sensapi.h
 req.include-header: 
 req.target-type: Windows

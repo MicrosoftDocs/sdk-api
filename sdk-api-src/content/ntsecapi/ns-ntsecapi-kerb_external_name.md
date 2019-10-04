@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME struc
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_EXTERNAL_NAME
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

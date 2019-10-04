@@ -12,6 +12,8 @@ ms.keywords: FilterFindFirst, FilterFindFirst function [Installable File System 
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterFindFirst"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

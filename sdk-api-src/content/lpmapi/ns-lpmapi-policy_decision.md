@@ -12,6 +12,8 @@ ms.keywords: POLICY_DECISION, POLICY_DECISION structure [QOS], lpmapi/POLICY_DEC
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/POLICY_DECISION"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deplo
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServer2"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

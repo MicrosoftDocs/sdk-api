@@ -12,6 +12,8 @@ ms.keywords: IS_ERROR, IS_ERROR macro [COM], _com_IS_ERROR, com.is_error, com.is
 ms.topic: macro
 f1_keywords: 
  - "winerror/IS_ERROR"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows She
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrSyncItems"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

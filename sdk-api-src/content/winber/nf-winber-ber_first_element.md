@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element func
 ms.topic: function
 f1_keywords: 
  - "winber/ber_first_element"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

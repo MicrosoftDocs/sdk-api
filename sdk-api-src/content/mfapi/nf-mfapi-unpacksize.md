@@ -12,6 +12,8 @@ ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, 
 ms.topic: function
 f1_keywords: 
  - "mfapi/UnpackSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

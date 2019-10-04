@@ -12,6 +12,8 @@ ms.keywords: IAVIFile interface [Windows Multimedia],WriteData method, IAVIFile.
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIFile.WriteData"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

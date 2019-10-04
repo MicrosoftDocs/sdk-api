@@ -12,6 +12,8 @@ ms.keywords: LongToUShort, LongToUShort function [Windows Shell], LongToWord, _s
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongToUShort"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_IMPORT_ALLOW_CE
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CryptUIWizImport"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation5 interface [Windows Accessibility],RemoveNotification
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation5.RemoveNotificationEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

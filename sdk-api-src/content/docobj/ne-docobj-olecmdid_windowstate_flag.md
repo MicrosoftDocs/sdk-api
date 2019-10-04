@@ -12,6 +12,8 @@ ms.keywords: OLECMDIDF_WINDOWSTATE_ENABLED, OLECMDIDF_WINDOWSTATE_ENABLED_VALID,
 ms.topic: enum
 f1_keywords: 
  - "docobj/OLECMDID_WINDOWSTATE_FLAG"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

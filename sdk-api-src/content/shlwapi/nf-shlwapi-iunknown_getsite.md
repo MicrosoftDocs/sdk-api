@@ -12,6 +12,8 @@ ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IUnknown_GetSite"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

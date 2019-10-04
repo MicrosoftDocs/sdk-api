@@ -12,6 +12,8 @@ ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [W
 ms.topic: interface
 f1_keywords: 
  - "shldisp/IDataObjectAsyncCapability"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

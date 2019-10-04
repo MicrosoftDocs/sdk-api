@@ -12,6 +12,8 @@ ms.keywords: DRMGetIssuanceLicenseInfo, DRMGetIssuanceLicenseInfo function [Acti
 ms.topic: function
 f1_keywords:
 - msdrm/DRMGetIssuanceLicenseInfo
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

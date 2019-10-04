@@ -12,6 +12,8 @@ ms.keywords: PERF_REG_COUNTERSET_ENGLISH_NAME, PERF_REG_COUNTERSET_HELP_STRING, 
 ms.topic: enum
 f1_keywords:
 - perflib/PerfRegInfoType
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

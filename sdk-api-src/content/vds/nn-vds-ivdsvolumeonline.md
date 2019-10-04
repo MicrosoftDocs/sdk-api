@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline inte
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsVolumeOnline"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

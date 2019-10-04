@@ -12,6 +12,8 @@ ms.keywords: '*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_D
 ms.topic: struct
 f1_keywords:
 - traffic/ADDRESS_LIST_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

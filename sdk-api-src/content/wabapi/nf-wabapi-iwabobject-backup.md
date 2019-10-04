@@ -12,6 +12,8 @@ ms.keywords: Backup, Backup method [Windows Address Book], Backup method [Window
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.Backup"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

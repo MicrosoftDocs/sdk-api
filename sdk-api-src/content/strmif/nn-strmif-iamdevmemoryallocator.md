@@ -12,6 +12,8 @@ ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow]
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMDevMemoryAllocator"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

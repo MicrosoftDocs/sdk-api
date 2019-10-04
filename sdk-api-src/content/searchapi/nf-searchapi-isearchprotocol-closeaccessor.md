@@ -12,6 +12,8 @@ ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method 
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchProtocol.CloseAccessor"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

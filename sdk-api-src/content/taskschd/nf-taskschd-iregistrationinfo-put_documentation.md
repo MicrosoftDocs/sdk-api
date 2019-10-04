@@ -12,6 +12,8 @@ ms.keywords: Documentation property [Task Scheduler], Documentation property [Ta
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegistrationInfo.Documentation"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

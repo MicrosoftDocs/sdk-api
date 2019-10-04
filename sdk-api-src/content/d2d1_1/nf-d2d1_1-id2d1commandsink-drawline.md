@@ -12,6 +12,8 @@ ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1CommandSink.DrawLine"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

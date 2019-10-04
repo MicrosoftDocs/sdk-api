@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [W
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/IConnectableCredentialProviderCredential.Disconnect"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

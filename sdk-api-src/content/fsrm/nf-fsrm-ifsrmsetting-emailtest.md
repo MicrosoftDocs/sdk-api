@@ -12,6 +12,8 @@ ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTe
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmSetting.EmailTest"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

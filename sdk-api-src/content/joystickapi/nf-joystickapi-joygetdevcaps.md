@@ -12,6 +12,8 @@ ms.keywords: "_win32_joyGetDevCaps, joGetDevCapsA, joyGetDevCaps, joyGetDevCaps 
 ms.topic: function
 f1_keywords: 
  - "joystickapi/joyGetDevCaps"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

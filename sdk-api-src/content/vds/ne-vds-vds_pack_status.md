@@ -12,6 +12,8 @@ ms.keywords: VDS_PACK_STATUS, VDS_PACK_STATUS enumeration [VDS], VDS_PS_OFFLINE,
 ms.topic: enum
 f1_keywords:
 - vds/VDS_PACK_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

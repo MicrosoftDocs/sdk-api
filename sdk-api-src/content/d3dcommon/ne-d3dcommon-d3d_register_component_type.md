@@ -12,6 +12,8 @@ ms.keywords: D3D10_REGISTER_COMPONENT_FLOAT32, D3D10_REGISTER_COMPONENT_SINT32, 
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_REGISTER_COMPONENT_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddBitmap, AddBitmap method [MMC], AddBitmap method [MMC],IToolbar 
 ms.topic: method
 f1_keywords: 
  - "mmc/IToolbar.AddBitmap"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

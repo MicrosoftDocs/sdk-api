@@ -12,6 +12,8 @@ ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _slate_mm
 ms.topic: struct
 f1_keywords:
 - mmcobj/MMC_SNAPIN_PROPERTY
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

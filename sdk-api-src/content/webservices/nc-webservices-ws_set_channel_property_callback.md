@@ -12,6 +12,8 @@ ms.keywords: WS_SET_CHANNEL_PROPERTY_CALLBACK, WS_SET_CHANNEL_PROPERTY_CALLBACK 
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPERFORMANCE_DATA, PERFORMANCE_DATA, PERFORMANCE_DATA structure [
 ms.topic: struct
 f1_keywords:
 - winnt/PERFORMANCE_DATA
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

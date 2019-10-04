@@ -12,6 +12,8 @@ ms.keywords: IUpdateException interface [Windows Update Agent],Message property,
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateException.Message"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

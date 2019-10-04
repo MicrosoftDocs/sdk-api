@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncInputVideoSystem, codecapi/eAVEncInputVideoSystem_Co
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncInputVideoSystem"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

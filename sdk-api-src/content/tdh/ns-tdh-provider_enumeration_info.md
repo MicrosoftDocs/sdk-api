@@ -12,6 +12,8 @@ ms.keywords: '*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_E
 ms.topic: struct
 f1_keywords:
 - tdh/PROVIDER_ENUMERATION_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

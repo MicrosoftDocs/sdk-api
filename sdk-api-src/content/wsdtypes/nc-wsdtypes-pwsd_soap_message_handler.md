@@ -12,6 +12,8 @@ ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD
 ms.topic: callback
 f1_keywords:
 - wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

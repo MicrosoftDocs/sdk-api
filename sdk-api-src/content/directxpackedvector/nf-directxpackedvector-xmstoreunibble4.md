@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreUNibble4, XMStoreUNibble4, XMStoreUNib
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreUNibble4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

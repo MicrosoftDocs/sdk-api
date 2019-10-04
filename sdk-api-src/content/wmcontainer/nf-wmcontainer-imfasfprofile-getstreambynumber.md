@@ -12,6 +12,8 @@ ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamB
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.GetStreamByNumber"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

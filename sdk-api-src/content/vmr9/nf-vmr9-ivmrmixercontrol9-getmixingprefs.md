@@ -12,6 +12,8 @@ ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs 
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRMixerControl9.GetMixingPrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

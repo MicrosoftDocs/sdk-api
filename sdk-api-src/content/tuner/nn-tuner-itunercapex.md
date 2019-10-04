@@ -12,6 +12,8 @@ ms.keywords: ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], ITu
 ms.topic: interface
 f1_keywords: 
  - "tuner/ITunerCapEx"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

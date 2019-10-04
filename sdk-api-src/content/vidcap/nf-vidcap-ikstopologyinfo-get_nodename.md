@@ -12,6 +12,8 @@ ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopo
 ms.topic: method
 f1_keywords: 
  - "vidcap/IKsTopologyInfo.get_NodeName"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

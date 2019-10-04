@@ -12,6 +12,8 @@ ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.ReleasePrimaryBufferInterface"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

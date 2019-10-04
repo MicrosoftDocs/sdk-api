@@ -12,6 +12,8 @@ ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, I
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSystemBindData.SetFindData
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

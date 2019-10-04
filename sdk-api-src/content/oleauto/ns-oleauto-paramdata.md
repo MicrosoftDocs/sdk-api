@@ -12,6 +12,8 @@ ms.keywords: "*LPPARAMDATA, LPPARAMDATA, LPPARAMDATA structure pointer [Automati
 ms.topic: struct
 f1_keywords: 
  - "oleauto/PARAMDATA"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

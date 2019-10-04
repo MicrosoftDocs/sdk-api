@@ -12,6 +12,8 @@ ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOS
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/NETCONNECTINFOSTRUCT"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

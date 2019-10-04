@@ -8,6 +8,10 @@ ms.assetid: 6919b1be-e7eb-4b9a-ab51-d5c912803c3f
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::EndQuery
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList::EndQuery, EndQuery, ID3D12VideoDecodeCommandList.EndQuery, ID3D12VideoDecodeCommandList::EndQuery, ID3D12VideoDecodeCommandList.EndQuery
 req.header: d3d12video.h
 req.include-header:

@@ -12,6 +12,8 @@ ms.keywords: 7cc09321-049c-23b4-3867-f1b76d332515, CopyResource, CopyResource me
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CopyResource"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

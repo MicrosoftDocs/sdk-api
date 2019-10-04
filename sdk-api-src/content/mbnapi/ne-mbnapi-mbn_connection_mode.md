@@ -12,6 +12,8 @@ ms.keywords: MBN_CONNECTION_MODE, MBN_CONNECTION_MODE enumeration [Microsoft Bro
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_CONNECTION_MODE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

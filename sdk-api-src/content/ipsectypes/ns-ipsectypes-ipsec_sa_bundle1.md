@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_BUNDLE1, IPSEC_SA_BUNDLE1 structure [Filtering], IPSEC_SA_
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_BUNDLE1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

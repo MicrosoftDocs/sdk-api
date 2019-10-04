@@ -12,6 +12,8 @@ ms.keywords: FWPM_CALLOUT_SUBSCRIPTION0, FWPM_CALLOUT_SUBSCRIPTION0 structure [F
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CALLOUT_SUBSCRIPTION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

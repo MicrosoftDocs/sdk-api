@@ -12,6 +12,8 @@ ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover C
 ms.topic: function
 f1_keywords: 
  - "resapi/FreeClusterHealthFault"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media F
 ms.topic: interface
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderCallback"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

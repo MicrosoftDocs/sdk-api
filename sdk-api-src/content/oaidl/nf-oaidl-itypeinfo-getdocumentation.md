@@ -12,6 +12,8 @@ ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocument
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetDocumentation"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

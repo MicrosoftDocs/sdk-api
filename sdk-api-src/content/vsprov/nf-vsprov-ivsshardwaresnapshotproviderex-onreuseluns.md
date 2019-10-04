@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProviderEx interface,OnReuseLuns method, IVssHa
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssHardwareSnapshotProviderEx.OnReuseLuns"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

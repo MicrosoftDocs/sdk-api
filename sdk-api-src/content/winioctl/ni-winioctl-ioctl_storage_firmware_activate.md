@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

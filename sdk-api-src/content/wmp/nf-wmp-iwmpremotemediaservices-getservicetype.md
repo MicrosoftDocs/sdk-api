@@ -12,6 +12,8 @@ ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetSe
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPRemoteMediaServices.GetServiceType"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

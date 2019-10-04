@@ -12,6 +12,8 @@ ms.keywords: D3DOVERLAYCAPS, D3DOVERLAYCAPS structure [Media Foundation], D3DOVE
 ms.topic: struct
 f1_keywords: 
  - "d3d9caps/D3DOVERLAYCAPS"
+dev_langs:
+ - c++
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows

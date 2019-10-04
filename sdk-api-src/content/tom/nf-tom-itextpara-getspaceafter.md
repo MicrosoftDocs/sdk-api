@@ -12,6 +12,8 @@ ms.keywords: GetSpaceAfter, GetSpaceAfter method [Windows Controls], GetSpaceAft
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetSpaceAfter"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

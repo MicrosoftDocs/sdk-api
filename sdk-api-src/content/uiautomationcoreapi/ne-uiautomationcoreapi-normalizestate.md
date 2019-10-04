@@ -12,6 +12,8 @@ ms.keywords: NormalizeState, NormalizeState enumeration [Windows Accessibility],
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/NormalizeState"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

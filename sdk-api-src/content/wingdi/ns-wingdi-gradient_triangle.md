@@ -12,6 +12,8 @@ ms.keywords: '*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRAD
 ms.topic: struct
 f1_keywords:
 - wingdi/GRADIENT_TRIANGLE
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

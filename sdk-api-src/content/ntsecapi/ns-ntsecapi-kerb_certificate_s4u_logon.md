@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CER
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_CERTIFICATE_S4U_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime]
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsConcatString"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

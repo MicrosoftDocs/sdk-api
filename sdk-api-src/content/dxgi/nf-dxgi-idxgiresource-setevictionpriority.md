@@ -12,6 +12,8 @@ ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIResource.SetEvictionPriority"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

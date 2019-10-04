@@ -12,6 +12,8 @@ ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IA
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioInputSelector"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

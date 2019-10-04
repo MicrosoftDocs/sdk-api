@@ -12,6 +12,8 @@ ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationJob.GetProgress"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

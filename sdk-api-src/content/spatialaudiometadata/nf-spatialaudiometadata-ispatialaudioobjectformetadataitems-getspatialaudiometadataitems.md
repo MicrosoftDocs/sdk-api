@@ -12,6 +12,8 @@ ms.keywords: GetSpatialAudioMetadataItems, GetSpatialAudioMetadataItems method [
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInputSource, GetInputSource method [WPF Bitmap Effects], GetInpu
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectImpl.GetInputSource"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

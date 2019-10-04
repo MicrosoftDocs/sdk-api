@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_GetCertCACheck, MI_DestinationOptions_GetCert
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetCertCACheck
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

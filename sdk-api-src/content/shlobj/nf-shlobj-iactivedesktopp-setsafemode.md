@@ -12,6 +12,8 @@ ms.keywords: IActiveDesktopP interface [Legacy Windows Environment Features],Set
 ms.topic: method
 f1_keywords: 
  - "shlobj/IActiveDesktopP.SetSafeMode"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

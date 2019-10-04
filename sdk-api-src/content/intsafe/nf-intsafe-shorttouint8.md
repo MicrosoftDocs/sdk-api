@@ -12,6 +12,8 @@ ms.keywords: ShortToByte, ShortToUInt8, ShortToUInt8 function [Windows Shell], i
 ms.topic: function
 f1_keywords: 
  - "intsafe/ShortToUInt8"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

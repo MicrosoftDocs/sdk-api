@@ -12,6 +12,8 @@ ms.keywords: "*PNETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS, NETS
 ms.topic: struct
 f1_keywords: 
  - "lmjoin/NETSETUP_PROVISIONING_PARAMS"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

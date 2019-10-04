@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetDroppedControlRect, ComboBox_GetDroppedControlRect macr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetDroppedControlRect"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

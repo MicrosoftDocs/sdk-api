@@ -12,6 +12,8 @@ ms.keywords: 85bdbad9-3499-5766-c623-04b46be2a80a, IDXGIOutput interface [DXGI],
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.ReleaseOwnership"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

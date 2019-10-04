@@ -12,6 +12,8 @@ ms.keywords: FireEx, FireEx method [Microsoft TV Technologies], FireEx method [M
 ms.topic: method
 f1_keywords: 
  - "tuner/IBroadcastEventEx.FireEx"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Inter
 ms.topic: callback
 f1_keywords: 
  - "immdev/EnumRegisterWordProc"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

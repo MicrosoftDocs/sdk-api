@@ -12,6 +12,8 @@ ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTA
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDatabaseApplyTransform"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

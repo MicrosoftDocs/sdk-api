@@ -12,6 +12,8 @@ ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedBitrate
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDevice.SetCachedBitrateMeasurement"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

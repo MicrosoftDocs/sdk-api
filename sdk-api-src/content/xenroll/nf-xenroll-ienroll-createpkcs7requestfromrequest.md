@@ -12,6 +12,8 @@ ms.keywords: CreatePKCS7RequestFromRequest, CreatePKCS7RequestFromRequest method
 ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.CreatePKCS7RequestFromRequest
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

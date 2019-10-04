@@ -12,6 +12,8 @@ ms.keywords: DeleteItem, DeleteItem method [WIA], DeleteItem method [WIA],IWiaIt
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.DeleteItem"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

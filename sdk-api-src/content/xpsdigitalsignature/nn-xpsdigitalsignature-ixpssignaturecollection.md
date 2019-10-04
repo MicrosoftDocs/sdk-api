@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Doc
 ms.topic: interface
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureCollection"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

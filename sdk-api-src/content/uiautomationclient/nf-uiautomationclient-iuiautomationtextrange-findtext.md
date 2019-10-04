@@ -12,6 +12,8 @@ ms.keywords: FindText, FindText method [Windows Accessibility], FindText method 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange.FindText"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

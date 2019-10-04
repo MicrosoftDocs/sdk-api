@@ -12,6 +12,8 @@ ms.keywords: GetLowerHypotheses, GetLowerHypotheses method [NDF], GetLowerHypoth
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetLowerHypotheses"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRowsetEvents interface [search],OnDeletedItem method, IRowsetEvent
 ms.topic: method
 f1_keywords: 
  - "searchapi/IRowsetEvents.OnDeletedItem"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StringFormatFlags, StringFormatFlags enumeration [GDI+], StringForm
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/StringFormatFlags"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

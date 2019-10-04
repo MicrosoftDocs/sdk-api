@@ -12,6 +12,8 @@ ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts func
 ms.topic: function
 f1_keywords: 
  - "winnls/GetStringScripts"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getPlaylistBy
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMediaCollection2.getPlaylistByQuery"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

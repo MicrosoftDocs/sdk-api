@@ -12,6 +12,8 @@ ms.keywords: EnumEnhMetaFile, EnumEnhMetaFile function [Windows GDI], _win32_Enu
 ms.topic: function
 f1_keywords: 
  - "wingdi/EnumEnhMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

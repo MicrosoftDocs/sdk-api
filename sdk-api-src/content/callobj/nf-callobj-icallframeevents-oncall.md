@@ -12,6 +12,8 @@ ms.keywords: ICallFrameEvents interface [COM],OnCall method, ICallFrameEvents.On
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrameEvents.OnCall"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

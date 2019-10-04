@@ -12,6 +12,8 @@ ms.keywords: INetFwServices interface [ICS/ICF],_NewEnum property, INetFwService
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwServices._NewEnum"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatia
 ms.topic: struct
 f1_keywords: 
  - "spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

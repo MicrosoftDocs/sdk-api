@@ -12,6 +12,8 @@ ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED,
 ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetDcName
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

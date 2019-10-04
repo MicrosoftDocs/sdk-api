@@ -12,6 +12,8 @@ ms.keywords: ISyncSessionState interface [Windows Sync],IsCanceled method, ISync
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncSessionState.IsCanceled"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

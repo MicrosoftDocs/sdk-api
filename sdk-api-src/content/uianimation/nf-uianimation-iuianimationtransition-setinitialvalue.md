@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialValu
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransition.SetInitialValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Ta
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.EndInkInput"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

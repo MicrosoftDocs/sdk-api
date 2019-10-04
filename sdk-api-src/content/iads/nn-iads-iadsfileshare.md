@@ -12,6 +12,8 @@ ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsFileShare"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

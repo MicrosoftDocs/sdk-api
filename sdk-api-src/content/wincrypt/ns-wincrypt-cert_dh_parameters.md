@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_DH_PARAMETERS, CERT_DH_PARAMETERS, CERT_DH_PARAMETERS struc
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_DH_PARAMETERS"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

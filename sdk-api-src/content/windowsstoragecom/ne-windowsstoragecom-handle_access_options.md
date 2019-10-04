@@ -12,6 +12,8 @@ ms.keywords: HANDLE_ACCESS_OPTIONS, HANDLE_ACCESS_OPTIONS enumeration [Windows R
 ms.topic: enum
 f1_keywords: 
  - "windowsstoragecom/HANDLE_ACCESS_OPTIONS"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

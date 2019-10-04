@@ -12,6 +12,8 @@ ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],G
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJobManager.GetFileManagementJob"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

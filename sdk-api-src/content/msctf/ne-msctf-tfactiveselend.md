@@ -12,6 +12,8 @@ ms.keywords: TF_AE_END, TF_AE_NONE, TF_AE_START, TfActiveSelEnd, TfActiveSelEnd 
 ms.topic: enum
 f1_keywords: 
  - "msctf/TfActiveSelEnd"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

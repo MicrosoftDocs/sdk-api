@@ -12,6 +12,8 @@ ms.keywords: IMFSSLCertificateManager interface [Media Foundation],OnServerCerti
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSSLCertificateManager.OnServerCertificate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Fi
 ms.topic: function
 f1_keywords:
 - winbase/FindFirstStreamTransactedW
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

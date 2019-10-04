@@ -12,6 +12,8 @@ ms.keywords: IMFDeviceTransformCallback interface [Streaming Media Devices],OnBu
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransformCallback.OnBufferSent"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

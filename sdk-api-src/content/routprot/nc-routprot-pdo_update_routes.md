@@ -12,6 +12,8 @@ ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_
 ms.topic: callback
 f1_keywords: 
  - "routprot/DoUpdateRoutes"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

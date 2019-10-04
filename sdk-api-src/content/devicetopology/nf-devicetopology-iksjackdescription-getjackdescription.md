@@ -12,6 +12,8 @@ ms.keywords: GetJackDescription, GetJackDescription method [Core Audio], GetJack
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IKsJackDescription.GetJackDescription"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

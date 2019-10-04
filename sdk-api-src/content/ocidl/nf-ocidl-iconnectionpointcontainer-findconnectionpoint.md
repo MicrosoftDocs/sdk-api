@@ -12,6 +12,8 @@ ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnecti
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPointContainer.FindConnectionPoint"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

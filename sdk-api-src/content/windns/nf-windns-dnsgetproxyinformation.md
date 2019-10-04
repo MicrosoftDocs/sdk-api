@@ -12,6 +12,8 @@ ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.
 ms.topic: function
 f1_keywords: 
  - "windns/DnsGetProxyInformation"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

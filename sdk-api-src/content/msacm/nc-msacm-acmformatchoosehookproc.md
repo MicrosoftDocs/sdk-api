@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormat
 ms.topic: callback
 f1_keywords: 
  - "msacm/acmFormatChooseHookProc"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

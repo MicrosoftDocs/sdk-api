@@ -12,6 +12,8 @@ ms.keywords: GetElements, GetElements method [GDI+], GetElements method [GDI+],M
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.GetElements"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFileName, GetFileName method [search], GetFileName method [searc
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetFileName"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

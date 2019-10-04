@@ -12,6 +12,8 @@ ms.keywords: IWTSListener, IWTSListener interface [Remote Desktop Services], IWT
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSListener"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

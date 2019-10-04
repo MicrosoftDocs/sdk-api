@@ -12,6 +12,8 @@ ms.keywords: SI_PAGE_ADVPERM, SI_PAGE_AUDIT, SI_PAGE_EFFECTIVE, SI_PAGE_OWNER, S
 ms.topic: enum
 f1_keywords: 
  - "aclui/SI_PAGE_TYPE"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

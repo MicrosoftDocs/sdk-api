@@ -12,6 +12,8 @@ ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, ISecurityInf
 ms.topic: method
 f1_keywords: 
  - "aclui/ISecurityInformation.SetSecurity"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

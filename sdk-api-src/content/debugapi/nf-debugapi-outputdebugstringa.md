@@ -12,6 +12,8 @@ ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, 
 ms.topic: function
 f1_keywords: 
  - "debugapi/OutputDebugString"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

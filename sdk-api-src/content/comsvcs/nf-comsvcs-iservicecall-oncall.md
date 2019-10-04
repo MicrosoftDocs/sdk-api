@@ -12,6 +12,8 @@ ms.keywords: IServiceCall interface [COM+],OnCall method, IServiceCall.OnCall, I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceCall.OnCall"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

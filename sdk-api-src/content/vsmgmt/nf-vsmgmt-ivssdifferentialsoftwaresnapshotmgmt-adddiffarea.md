@@ -12,6 +12,8 @@ ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVs
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

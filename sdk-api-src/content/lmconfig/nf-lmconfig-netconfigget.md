@@ -12,6 +12,8 @@ ms.keywords: NetConfigGet, NetConfigGet function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords: 
  - "lmconfig/NetConfigGet"
+dev_langs:
+ - c++
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows

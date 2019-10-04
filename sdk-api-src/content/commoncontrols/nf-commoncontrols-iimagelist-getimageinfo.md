@@ -12,6 +12,8 @@ ms.keywords: GetImageInfo, GetImageInfo method [Windows Controls], GetImageInfo 
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetImageInfo"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSyste
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystem.GetDrive
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

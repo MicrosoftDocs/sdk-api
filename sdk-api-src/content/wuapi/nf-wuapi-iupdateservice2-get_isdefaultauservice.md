@@ -12,6 +12,8 @@ ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService2.IsDefaultAUService"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

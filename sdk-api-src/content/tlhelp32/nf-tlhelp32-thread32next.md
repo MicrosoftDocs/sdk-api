@@ -12,6 +12,8 @@ ms.keywords: Thread32Next, Thread32Next function [ToolHelp], _win32_thread32next
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Thread32Next"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

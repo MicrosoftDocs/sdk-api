@@ -12,6 +12,8 @@ ms.keywords: "*PMANAGEDAPPLICATION, MANAGEDAPPLICATION, MANAGEDAPPLICATION struc
 ms.topic: struct
 f1_keywords: 
  - "appmgmt/MANAGEDAPPLICATION"
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

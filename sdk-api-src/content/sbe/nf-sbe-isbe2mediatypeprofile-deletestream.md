@@ -12,6 +12,8 @@ ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], Dele
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2MediaTypeProfile.DeleteStream"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

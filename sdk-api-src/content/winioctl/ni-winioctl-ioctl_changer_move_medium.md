@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_MOVE_MEDIUM
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

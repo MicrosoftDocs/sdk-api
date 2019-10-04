@@ -12,6 +12,8 @@ ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalLNBSwitchO
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSLocator2.LocalLNBSwitchOverride"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

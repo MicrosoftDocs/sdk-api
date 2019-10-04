@@ -12,6 +12,8 @@ ms.keywords: MFVideoARMode_Mask, MFVideoARMode_NonLinearStretch, MFVideoARMode_N
 ms.topic: enum
 f1_keywords: 
  - "evr/MFVideoAspectRatioMode"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

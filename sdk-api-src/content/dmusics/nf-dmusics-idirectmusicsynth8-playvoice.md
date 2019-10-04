@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDir
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth8.PlayVoice"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

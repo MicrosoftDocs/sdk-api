@@ -12,6 +12,8 @@ ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base
 ms.topic: function
 f1_keywords: 
  - "versionhelpers/IsWindows8Point1OrGreater"
+dev_langs:
+ - c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_TrackMouseEvent, _TrackMouseEvent function [Keyboard and Mouse In
 ms.topic: function
 f1_keywords: 
  - "commctrl/_TrackMouseEvent"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

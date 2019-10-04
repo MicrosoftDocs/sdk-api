@@ -12,6 +12,8 @@ ms.keywords: IBDA_DRIDRMService interface [DirectShow],SetDRM method, IBDA_DRIDR
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DRIDRMService.SetDRM"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

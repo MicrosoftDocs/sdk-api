@@ -12,6 +12,8 @@ ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtual
 ms.topic: function
 f1_keywords: 
  - "memoryapi/VirtualProtectFromApp"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

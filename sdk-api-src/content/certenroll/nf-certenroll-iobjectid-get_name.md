@@ -12,6 +12,8 @@ ms.keywords: IObjectId interface [Security],Name property, IObjectId.Name, IObje
 ms.topic: method
 f1_keywords: 
  - "certenroll/IObjectId.Name"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],I
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetMops"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, 
 ms.topic: function
 f1_keywords: 
  - "winternl/NtRenameKey"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

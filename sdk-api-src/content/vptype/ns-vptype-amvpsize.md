@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZESt
 ms.topic: struct
 f1_keywords: 
  - "vptype/AMVPSIZE"
+dev_langs:
+ - c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

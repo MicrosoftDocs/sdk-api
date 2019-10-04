@@ -12,6 +12,8 @@ ms.keywords: CloseDriver, CloseDriver function [Windows Multimedia], _win32_Clos
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/CloseDriver"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

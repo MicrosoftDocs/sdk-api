@@ -12,6 +12,8 @@ ms.keywords: RADIUS_CODE, RADIUS_CODE enumeration [Network Policy Server], _ias_
 ms.topic: enum
 f1_keywords:
 - authif/RADIUS_CODE
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

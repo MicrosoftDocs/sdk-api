@@ -12,6 +12,8 @@ ms.keywords: GetInputProps, GetInputProps method [windows Media Format], GetInpu
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriter.GetInputProps"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

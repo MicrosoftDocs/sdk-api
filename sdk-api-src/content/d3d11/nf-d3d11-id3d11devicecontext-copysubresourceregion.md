@@ -12,6 +12,8 @@ ms.keywords: 4fcc18c3-ca99-b51e-9162-bb8b4121db03, CopySubresourceRegion, CopySu
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CopySubresourceRegion"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

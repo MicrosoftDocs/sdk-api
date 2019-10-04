@@ -12,6 +12,8 @@ ms.keywords: EnumTypeRefs, EnumTypeRefs method [Windows Runtime], EnumTypeRefs m
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumTypeRefs"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

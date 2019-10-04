@@ -12,6 +12,8 @@ ms.keywords: FhConfigMgr class [Windows API],SaveConfiguration method, IFhConfig
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhConfigMgr.SaveConfiguration"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

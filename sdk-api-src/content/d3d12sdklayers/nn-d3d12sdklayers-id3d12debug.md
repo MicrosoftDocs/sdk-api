@@ -12,6 +12,8 @@ ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described
 ms.topic: interface
 f1_keywords: 
  - "d3d12sdklayers/ID3D12Debug"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TreeView_EditLabel, TreeView_EditLabel macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_EditLabel"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

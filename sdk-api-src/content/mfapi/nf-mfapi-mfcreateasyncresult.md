@@ -12,6 +12,8 @@ ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreate
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateAsyncResult"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

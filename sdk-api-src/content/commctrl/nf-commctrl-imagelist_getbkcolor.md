@@ -12,6 +12,8 @@ ms.keywords: ImageList_GetBkColor, ImageList_GetBkColor function [Windows Contro
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_GetBkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

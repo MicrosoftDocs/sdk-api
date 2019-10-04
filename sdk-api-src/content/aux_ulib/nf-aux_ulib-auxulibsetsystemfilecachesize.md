@@ -12,6 +12,8 @@ ms.keywords: AuxUlibSetSystemFileCacheSize, AuxUlibSetSystemFileCacheSize functi
 ms.topic: function
 f1_keywords: 
  - "aux_ulib/AuxUlibSetSystemFileCacheSize"
+dev_langs:
+ - c++
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

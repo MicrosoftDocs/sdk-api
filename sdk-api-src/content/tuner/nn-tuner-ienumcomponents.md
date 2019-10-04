@@ -12,6 +12,8 @@ ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologi
 ms.topic: interface
 f1_keywords: 
  - "tuner/IEnumComponents"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

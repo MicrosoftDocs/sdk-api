@@ -12,6 +12,8 @@ ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32
 ms.topic: function
 f1_keywords: 
  - "sfc/SfcIsFileProtected"
+dev_langs:
+ - c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows

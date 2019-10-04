@@ -12,6 +12,8 @@ ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, St
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/Str_SetPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

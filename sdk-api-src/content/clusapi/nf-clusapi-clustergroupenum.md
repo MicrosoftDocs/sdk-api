@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroup
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterGroupEnum"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_OFFLINE_REASON, OFFLINEFILES_OFFLINE_REASON enumeratio
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_OFFLINE_REASON"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

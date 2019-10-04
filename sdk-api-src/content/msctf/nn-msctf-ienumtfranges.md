@@ -12,6 +12,8 @@ ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], I
 ms.topic: interface
 f1_keywords: 
  - "msctf/IEnumTfRanges"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

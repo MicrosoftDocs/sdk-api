@@ -12,6 +12,8 @@ ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method,
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig.SetBitrate"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

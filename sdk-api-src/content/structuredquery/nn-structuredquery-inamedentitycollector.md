@@ -12,6 +12,8 @@ ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], IN
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/INamedEntityCollector"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImmGetCompositionWindow, ImmGetCompositionWindow function [Internat
 ms.topic: function
 f1_keywords: 
  - "imm/ImmGetCompositionWindow"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMPermissionType, GPMPermissionType enumeration [GPMC], gpmc.gpmpe
 ms.topic: enum
 f1_keywords: 
  - "gpmgmt/GPMPermissionType"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

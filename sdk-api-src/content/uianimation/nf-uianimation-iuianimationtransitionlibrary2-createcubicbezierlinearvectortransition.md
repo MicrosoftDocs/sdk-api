@@ -12,6 +12,8 @@ ms.keywords: CreateCubicBezierLinearVectorTransition, CreateCubicBezierLinearVec
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

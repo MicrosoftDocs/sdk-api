@@ -12,6 +12,8 @@ ms.keywords: DdeDisconnect, DdeDisconnect function [Data Exchange], _win32_DdeDi
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeDisconnect"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

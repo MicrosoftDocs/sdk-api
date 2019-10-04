@@ -12,6 +12,8 @@ ms.keywords: IMFQualityAdvise2 interface [Media Foundation],NotifyQualityEvent m
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise2.NotifyQualityEvent
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

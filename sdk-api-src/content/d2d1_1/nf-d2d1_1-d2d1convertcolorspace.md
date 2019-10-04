@@ -12,6 +12,8 @@ ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d
 ms.topic: function
 f1_keywords: 
  - "d2d1_1/D2D1ConvertColorSpace"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

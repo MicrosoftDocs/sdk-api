@@ -12,6 +12,8 @@ ms.keywords: RADIUS_REJECT_REASON_CODE, RADIUS_REJECT_REASON_CODE enumeration [N
 ms.topic: enum
 f1_keywords: 
  - "authif/RADIUS_REJECT_REASON_CODE"
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

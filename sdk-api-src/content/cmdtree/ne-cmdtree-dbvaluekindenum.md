@@ -12,6 +12,8 @@ ms.keywords: DBVALUEKINDENUM, DBVALUEKINDENUM enumeration [Indexing Service], Se
 ms.topic: enum
 f1_keywords: 
  - "cmdtree/DBVALUEKINDENUM"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSou
 ms.topic: function
 f1_keywords: 
  - "winbase/RegisterEventSource"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints inte
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509ExtensionBasicConstraints"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

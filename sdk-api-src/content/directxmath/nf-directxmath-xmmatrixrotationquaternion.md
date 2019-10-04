@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixRotationQuaternion, XMMatrixRotationQuaternion
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixRotationQuaternion"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

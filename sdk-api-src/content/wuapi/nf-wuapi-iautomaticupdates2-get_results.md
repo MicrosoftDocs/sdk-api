@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdates2 interface [Windows Update Agent],get_Results met
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdates2.get_Results"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

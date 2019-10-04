@@ -12,6 +12,8 @@ ms.keywords: 02715db5-c01a-06db-fe93-51594d87921b, CreateRenderTargetView, Creat
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateRenderTargetView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

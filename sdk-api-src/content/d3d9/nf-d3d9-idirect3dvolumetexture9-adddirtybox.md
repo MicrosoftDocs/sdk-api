@@ -12,6 +12,8 @@ ms.keywords: 30c24ae6-fb69-6d6d-b5db-8af47fa9f97c, AddDirtyBox, AddDirtyBox meth
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DVolumeTexture9.AddDirtyBox"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

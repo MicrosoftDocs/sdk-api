@@ -12,6 +12,8 @@ ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmTargetMode"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

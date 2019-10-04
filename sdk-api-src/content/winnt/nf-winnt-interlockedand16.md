@@ -12,6 +12,8 @@ ms.keywords: InterlockedAnd16, InterlockedAnd16 function, base.interlockedand16,
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedAnd16"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DOT11_ADHOC_NETWORK_CONNECTION_STATUS, DOT11_ADHOC_NETWORK_CONNECTI
 ms.topic: enum
 f1_keywords: 
  - "adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke meth
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStrokeBuilder.BeginStroke"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISensor interface,SupportsEvent method, ISensor.SupportsEvent, ISen
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.SupportsEvent"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

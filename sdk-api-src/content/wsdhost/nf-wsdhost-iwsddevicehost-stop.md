@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDevi
 ms.topic: method
 f1_keywords: 
  - "wsdhost/IWSDDeviceHost.Stop"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

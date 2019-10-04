@@ -12,6 +12,8 @@ ms.keywords: Arguments property [File Server Resource Manager], Arguments proper
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionCommand.Arguments"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified m
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetLastModified"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

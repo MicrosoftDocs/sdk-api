@@ -12,6 +12,8 @@ ms.keywords: IEditionUpgradeHelper interface [Windows API],ShowProductKeyUI meth
 ms.topic: method
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper.ShowProductKeyUI"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

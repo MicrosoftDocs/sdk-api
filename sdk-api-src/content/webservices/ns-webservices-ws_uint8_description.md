@@ -12,6 +12,8 @@ ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_UINT8_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

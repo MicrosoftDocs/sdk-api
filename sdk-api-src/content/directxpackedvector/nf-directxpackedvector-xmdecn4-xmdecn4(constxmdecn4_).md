@@ -12,6 +12,8 @@ ms.keywords: XMDECN4, XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 c
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMDECN4.XMDECN4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

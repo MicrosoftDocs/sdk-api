@@ -12,6 +12,8 @@ ms.keywords: _ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutli
 ms.topic: function
 f1_keywords:
 - wingdi/wglUseFontOutlines
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

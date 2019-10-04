@@ -12,6 +12,8 @@ ms.keywords: WSMAN_AUTHZ_QUOTA, WSMAN_AUTHZ_QUOTA structure [Windows Remote Mana
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_AUTHZ_QUOTA"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

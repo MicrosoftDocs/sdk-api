@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SetError
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolConnection.SetErrorInfo"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

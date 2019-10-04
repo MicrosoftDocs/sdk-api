@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEnc
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPALayer"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPRECONVERTSTRING, *NPRECONVERTSTRING, *PRECONVERTSTRING, PRECONV
 ms.topic: struct
 f1_keywords: 
  - "imm/RECONVERTSTRING"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

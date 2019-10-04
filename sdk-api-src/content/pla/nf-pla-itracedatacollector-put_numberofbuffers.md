@@ -12,6 +12,8 @@ ms.keywords: ITraceDataCollector interface [PLA],NumberOfBuffers property, ITrac
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.NumberOfBuffers"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

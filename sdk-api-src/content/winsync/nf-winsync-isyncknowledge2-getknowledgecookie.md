@@ -12,6 +12,8 @@ ms.keywords: GetKnowledgeCookie, GetKnowledgeCookie method [Windows Sync], GetKn
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.GetKnowledgeCookie"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

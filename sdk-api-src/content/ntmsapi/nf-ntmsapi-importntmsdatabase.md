@@ -12,6 +12,8 @@ ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_impor
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/ImportNtmsDatabase"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

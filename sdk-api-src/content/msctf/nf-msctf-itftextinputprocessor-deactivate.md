@@ -12,6 +12,8 @@ ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfTextInputProcessor.Deactivate"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IExtendPropertySheet, IExtendPropertySheet interface [MMC], IExtend
 ms.topic: interface
 f1_keywords: 
  - "mmc/IExtendPropertySheet"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_ASPECT_ALIGN, D2D1_SVG_ASPECT_ALIGN enumeration [Direct2D]
 ms.topic: enum
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_ASPECT_ALIGN"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

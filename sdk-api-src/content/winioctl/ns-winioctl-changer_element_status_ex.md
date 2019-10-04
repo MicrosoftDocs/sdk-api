@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, CHANGER_EL
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_ELEMENT_STATUS_EX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

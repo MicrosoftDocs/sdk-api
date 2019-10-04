@@ -12,6 +12,8 @@ ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIEventingManager.SetEventLogger"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted meth
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwServiceRestriction.ServiceRestricted"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

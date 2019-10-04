@@ -12,6 +12,8 @@ ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITSubStream.StopSubStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetManager, GetManager method [Media Foundation], GetManager method
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFDXGIDeviceManagerSource.GetManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

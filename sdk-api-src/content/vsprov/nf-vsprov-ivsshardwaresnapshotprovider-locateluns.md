@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVs
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.LocateLuns
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

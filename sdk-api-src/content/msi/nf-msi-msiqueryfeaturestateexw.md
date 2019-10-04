@@ -12,6 +12,8 @@ ms.keywords: INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, M
 ms.topic: function
 f1_keywords: 
  - "msi/MsiQueryFeatureStateEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback fu
 ms.topic: callback
 f1_keywords:
 - cmnquery/LPCQADDPAGESPROC
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateRemoteDictionaryResource, CreateRemoteDictionaryResource meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateRemoteDictionaryResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

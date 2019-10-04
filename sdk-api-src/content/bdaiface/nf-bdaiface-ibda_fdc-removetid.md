@@ -12,6 +12,8 @@ ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemoveTid method, IB
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_FDC.RemoveTid"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

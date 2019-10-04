@@ -12,6 +12,8 @@ ms.keywords: SHValidateUNC, SHValidateUNC function [Windows Shell], VALIDATEUNC_
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHValidateUNC"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

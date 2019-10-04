@@ -12,6 +12,8 @@ ms.keywords: GetItemsChangedSink, GetItemsChangedSink method [search], GetItemsC
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.GetItemsChangedSink"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

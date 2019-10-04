@@ -12,6 +12,8 @@ ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.p
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjWritePlaceholderInfo"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

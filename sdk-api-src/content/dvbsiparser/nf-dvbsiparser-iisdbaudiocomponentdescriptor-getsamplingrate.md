@@ -12,6 +12,8 @@ ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor.GetSamplingRate"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

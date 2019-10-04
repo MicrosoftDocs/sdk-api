@@ -12,6 +12,8 @@ ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, S
 ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_QUERY_INFO
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

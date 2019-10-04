@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx interface,GetIdentifyInformation method, CVssWriterEx.
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx.GetIdentifyInformation"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

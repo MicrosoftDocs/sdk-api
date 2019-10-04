@@ -12,6 +12,8 @@ ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, Sy
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetModuleInfo64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

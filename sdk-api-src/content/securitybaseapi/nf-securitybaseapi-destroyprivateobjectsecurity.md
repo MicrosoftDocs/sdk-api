@@ -12,6 +12,8 @@ ms.keywords: DestroyPrivateObjectSecurity, DestroyPrivateObjectSecurity function
 ms.topic: function
 f1_keywords:
 - securitybaseapi/DestroyPrivateObjectSecurity
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

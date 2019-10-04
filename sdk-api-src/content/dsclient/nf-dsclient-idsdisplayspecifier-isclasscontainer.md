@@ -12,6 +12,8 @@ ms.keywords: DSICCF_IGNORETREATASLEAF, IDsDisplaySpecifier interface [Active Dir
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.IsClassContainer"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

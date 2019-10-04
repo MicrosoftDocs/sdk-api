@@ -12,6 +12,8 @@ ms.keywords: GetSessionCompartmentId, GetSessionCompartmentId function [Network 
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetSessionCompartmentId"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

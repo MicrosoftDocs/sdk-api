@@ -12,6 +12,8 @@ ms.keywords: GetRecordRatingValue, GetRecordRatingValue method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingValue"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

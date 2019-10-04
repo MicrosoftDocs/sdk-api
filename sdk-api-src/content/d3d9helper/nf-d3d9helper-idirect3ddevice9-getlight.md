@@ -12,6 +12,8 @@ ms.keywords: 63c42786-98b1-2b46-00cc-ad05ab2594f4, GetLight, GetLight method [Di
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.GetLight
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateMesh, CreateMesh method [Direct2D], CreateMesh method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget.CreateMesh"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

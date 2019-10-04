@@ -12,6 +12,8 @@ ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ISchemaProvider.LookupAuthoredNamedEntity"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

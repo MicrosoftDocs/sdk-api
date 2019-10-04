@@ -12,6 +12,8 @@ ms.keywords: ICDRAWSUGGEST, ICDRAWSUGGEST structure [Windows Multimedia], _win32
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICDRAWSUGGEST"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

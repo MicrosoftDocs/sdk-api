@@ -12,6 +12,8 @@ ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], wi
 ms.topic: function
 f1_keywords: 
  - "windows.data.pdf.interop/PdfCreateRenderer"
+dev_langs:
+ - c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

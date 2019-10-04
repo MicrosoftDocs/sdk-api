@@ -12,6 +12,8 @@ ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMS
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidTuner"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

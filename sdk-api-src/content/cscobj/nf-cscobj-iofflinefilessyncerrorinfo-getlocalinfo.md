@@ -12,6 +12,8 @@ ms.keywords: GetLocalInfo, GetLocalInfo method [Offline Files], GetLocalInfo met
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorInfo.GetLocalInfo"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

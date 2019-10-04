@@ -12,6 +12,8 @@ ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMC
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMCodecStrings"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

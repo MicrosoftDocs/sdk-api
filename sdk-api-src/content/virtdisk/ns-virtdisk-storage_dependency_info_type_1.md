@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_1, PSTORAGE_DEPENDENCY_INFO_TYPE_1,
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_1"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

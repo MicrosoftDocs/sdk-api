@@ -12,6 +12,8 @@ ms.keywords: IEnumQueue interface [TAPI 2.2],Reset method, IEnumQueue.Reset, IEn
 ms.topic: method
 f1_keywords: 
  - "tapi3/IEnumQueue.Reset"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

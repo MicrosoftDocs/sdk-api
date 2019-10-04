@@ -12,6 +12,8 @@ ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalClass method, ITTermina
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTerminal.get_TerminalClass"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

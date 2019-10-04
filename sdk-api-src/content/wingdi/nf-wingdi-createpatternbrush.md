@@ -12,6 +12,8 @@ ms.keywords: CreatePatternBrush, CreatePatternBrush function [Windows GDI], _win
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreatePatternBrush"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

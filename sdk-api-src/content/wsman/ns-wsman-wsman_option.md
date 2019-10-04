@@ -12,6 +12,8 @@ ms.keywords: WSMAN_OPTION, WSMAN_OPTION structure [Windows Remote Management], w
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_OPTION"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

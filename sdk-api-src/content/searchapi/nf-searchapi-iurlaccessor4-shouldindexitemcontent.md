@@ -12,6 +12,8 @@ ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUr
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor4.ShouldIndexItemContent"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

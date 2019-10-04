@@ -12,6 +12,8 @@ ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITf
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnBalloon"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

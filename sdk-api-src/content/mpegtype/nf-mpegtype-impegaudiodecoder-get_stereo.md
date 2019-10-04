@@ -12,6 +12,8 @@ ms.keywords: IMpegAudioDecoder interface [DirectShow],get_Stereo method, IMpegAu
 ms.topic: method
 f1_keywords: 
  - "mpegtype/IMpegAudioDecoder.get_Stereo"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

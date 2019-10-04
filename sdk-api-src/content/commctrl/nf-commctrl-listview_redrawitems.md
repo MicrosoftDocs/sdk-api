@@ -12,6 +12,8 @@ ms.keywords: ListView_RedrawItems, ListView_RedrawItems macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_RedrawItems"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

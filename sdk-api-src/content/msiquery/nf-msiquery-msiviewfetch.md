@@ -12,6 +12,8 @@ ms.keywords: MsiViewFetch, MsiViewFetch function, _msi_msiviewfetch, msiquery/Ms
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiViewFetch"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

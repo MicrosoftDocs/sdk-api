@@ -12,6 +12,8 @@ ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS],
 ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHU
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHUnlockShared"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

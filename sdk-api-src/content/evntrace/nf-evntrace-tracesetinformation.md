@@ -12,6 +12,8 @@ ms.keywords: TraceSetInformation, TraceSetInformation function [ETW], etw.traces
 ms.topic: function
 f1_keywords: 
  - "evntrace/TraceSetInformation"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

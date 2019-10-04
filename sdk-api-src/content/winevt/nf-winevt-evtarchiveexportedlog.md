@@ -12,6 +12,8 @@ ms.keywords: EvtArchiveExportedLog, EvtArchiveExportedLog function [EventLog], w
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtArchiveExportedLog"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

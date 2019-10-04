@@ -12,6 +12,8 @@ ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiap
 ms.topic: function
 f1_keywords:
 - cryptuiapi/CryptUIDlgCertMgr
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

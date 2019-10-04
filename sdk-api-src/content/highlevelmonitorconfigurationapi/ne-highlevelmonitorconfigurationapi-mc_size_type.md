@@ -12,6 +12,8 @@ ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [M
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_SIZE_TYPE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

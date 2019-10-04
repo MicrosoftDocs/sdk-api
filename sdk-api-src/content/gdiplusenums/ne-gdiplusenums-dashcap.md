@@ -12,6 +12,8 @@ ms.keywords: DashCap, DashCap enumeration [GDI+], DashCapFlat, DashCapRound, Das
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/DashCap"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 7228ab65-d7b2-7a27-b076-d7bdec0f0e33, GenerateMipSubLevels, Generat
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DBaseTexture9.GenerateMipSubLevels"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

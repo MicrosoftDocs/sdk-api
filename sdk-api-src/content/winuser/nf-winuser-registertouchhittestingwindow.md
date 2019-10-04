@@ -12,6 +12,8 @@ ms.keywords: RegisterTouchHitTestingWindow, RegisterTouchHitTestingWindow functi
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterTouchHitTestingWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

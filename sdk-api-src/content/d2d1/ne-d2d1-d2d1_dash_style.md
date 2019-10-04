@@ -12,6 +12,8 @@ ms.keywords: D2D1_DASH_STYLE, D2D1_DASH_STYLE enumeration [Direct2D], D2D1_DASH_
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_DASH_STYLE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

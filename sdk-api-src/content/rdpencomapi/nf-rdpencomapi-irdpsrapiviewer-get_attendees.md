@@ -12,6 +12,8 @@ ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPIViewer 
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.Attendees"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilMemFree, SnmpUtilMemFree function [SNMP], _snmp_snmputilmem
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilMemFree"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

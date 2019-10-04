@@ -12,6 +12,8 @@ ms.keywords: 6f00bddb-2778-cf66-6ca7-e2d2fe7b3c5a, D3D10_CLEAR_DEPTH, D3D10_CLEA
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_CLEAR_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

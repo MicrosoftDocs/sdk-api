@@ -12,6 +12,8 @@ ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],
 ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignatureManager.Sign
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

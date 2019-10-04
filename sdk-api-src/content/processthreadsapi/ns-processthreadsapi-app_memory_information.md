@@ -12,6 +12,8 @@ ms.keywords: "*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFOR
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/APP_MEMORY_INFORMATION"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

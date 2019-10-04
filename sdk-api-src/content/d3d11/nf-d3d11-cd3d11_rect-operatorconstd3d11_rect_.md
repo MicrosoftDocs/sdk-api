@@ -12,6 +12,8 @@ ms.keywords: CD3D11_RECT interface [Direct3D 11],operator const D3D11_RECT& meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_RECT.operator const D3D11_RECT&"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

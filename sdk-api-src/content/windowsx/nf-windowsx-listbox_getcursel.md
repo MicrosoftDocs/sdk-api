@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetCurSel, ListBox_GetCurSel macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetCurSel"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

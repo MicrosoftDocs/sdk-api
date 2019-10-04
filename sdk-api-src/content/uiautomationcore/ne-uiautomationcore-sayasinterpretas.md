@@ -12,6 +12,8 @@ ms.keywords: SayAsInterpretAs, SayAsInterpretAs enumeration [Windows Accessibili
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/SayAsInterpretAs"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

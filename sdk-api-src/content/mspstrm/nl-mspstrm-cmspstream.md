@@ -12,6 +12,8 @@ ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2
 ms.topic: class
 f1_keywords: 
  - "mspstrm/CMSPStream"
+dev_langs:
+ - c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

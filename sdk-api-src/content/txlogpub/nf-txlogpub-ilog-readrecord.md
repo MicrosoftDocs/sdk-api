@@ -12,6 +12,8 @@ ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::Read
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.ReadRecord"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

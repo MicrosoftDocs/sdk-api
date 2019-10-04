@@ -12,6 +12,8 @@ ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDec
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecFromStr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

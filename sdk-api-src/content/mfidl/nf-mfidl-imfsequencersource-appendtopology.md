@@ -12,6 +12,8 @@ ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopolog
 ms.topic: method
 f1_keywords:
 - mfidl/IMFSequencerSource.AppendTopology
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

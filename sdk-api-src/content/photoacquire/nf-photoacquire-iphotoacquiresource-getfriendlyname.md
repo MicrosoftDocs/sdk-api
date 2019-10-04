@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyName, GetFriendlyName method [Picture Acquisition], GetF
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.GetFriendlyName"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

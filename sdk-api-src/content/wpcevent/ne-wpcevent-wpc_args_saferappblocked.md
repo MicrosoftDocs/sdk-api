@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_SAFERAPPBLOCKED, WPC_ARGS_SAFERAPPBLOCKED enumeration, WPC
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_SAFERAPPBLOCKED"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 613a6a7b-3b6f-b565-1f3a-2b5322844deb, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.TestCooperativeLevel"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

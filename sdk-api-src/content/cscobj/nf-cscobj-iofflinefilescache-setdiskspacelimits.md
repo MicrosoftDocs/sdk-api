@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesCache interface [Offline Files],SetDiskSpaceLimits met
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.SetDiskSpaceLimits"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForI
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetStylusForId"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation]
 ms.topic: interface
 f1_keywords: 
  - "evr/IEVRFilterConfigEx"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

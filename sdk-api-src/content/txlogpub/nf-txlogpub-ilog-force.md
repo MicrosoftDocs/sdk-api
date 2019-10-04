@@ -12,6 +12,8 @@ ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog 
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.Force"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

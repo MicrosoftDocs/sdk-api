@@ -12,6 +12,8 @@ ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeys.get_KeySystem"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

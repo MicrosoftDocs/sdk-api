@@ -12,6 +12,8 @@ ms.keywords: FindComposition, FindComposition method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextComposition.FindComposition"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

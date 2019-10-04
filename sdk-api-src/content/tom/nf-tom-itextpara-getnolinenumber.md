@@ -12,6 +12,8 @@ ms.keywords: GetNoLineNumber, GetNoLineNumber method [Windows Controls], GetNoLi
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetNoLineNumber"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

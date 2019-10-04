@@ -12,6 +12,8 @@ ms.keywords: CryptGetKeyParam, CryptGetKeyParam function [Security], KP_ALGID, K
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGetKeyParam"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

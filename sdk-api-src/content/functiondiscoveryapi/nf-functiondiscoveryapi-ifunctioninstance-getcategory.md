@@ -12,6 +12,8 @@ ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstan
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstance.GetCategory"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

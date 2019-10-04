@@ -12,6 +12,8 @@ ms.keywords: "*LPSESSION_INFO_10, *PSESSION_INFO_10, LPSESSION_INFO_10, LPSESSIO
 ms.topic: struct
 f1_keywords: 
  - "lmshare/SESSION_INFO_10"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

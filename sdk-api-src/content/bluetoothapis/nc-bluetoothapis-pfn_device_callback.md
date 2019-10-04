@@ -12,6 +12,8 @@ ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLB
 ms.topic: callback
 f1_keywords: 
  - "bluetoothapis/PFN_DEVICE_CALLBACK"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

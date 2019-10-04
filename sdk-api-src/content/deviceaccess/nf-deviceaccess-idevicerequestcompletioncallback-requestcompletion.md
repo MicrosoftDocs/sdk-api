@@ -12,6 +12,8 @@ ms.keywords: IDeviceRequestCompletionCallback interface [Device Access Broker AP
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/IDeviceRequestCompletionCallback.RequestCompletion"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

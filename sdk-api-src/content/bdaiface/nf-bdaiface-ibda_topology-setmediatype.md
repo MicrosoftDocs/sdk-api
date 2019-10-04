@@ -12,6 +12,8 @@ ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMediaType me
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.SetMediaType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

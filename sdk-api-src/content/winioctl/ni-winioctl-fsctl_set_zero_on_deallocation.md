@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_ZERO_ON_DEALLOCATION, FSCTL_SET_ZERO_ON_DEALLOCATION cont
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

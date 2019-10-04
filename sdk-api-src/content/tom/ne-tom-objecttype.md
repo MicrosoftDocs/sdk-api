@@ -12,6 +12,8 @@ ms.keywords: OBJECTTYPE, OBJECTTYPE enumeration [Windows Controls], controls.obj
 ms.topic: enum
 f1_keywords: 
  - "tom/OBJECTTYPE"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

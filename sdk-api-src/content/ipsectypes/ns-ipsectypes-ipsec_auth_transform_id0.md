@@ -12,6 +12,8 @@ ms.keywords: IPSEC_AUTH_CONFIG_GCM_AES_128, IPSEC_AUTH_CONFIG_GCM_AES_192, IPSEC
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymGetFileLineOffsets64, SymGetFileLineOffsets64 function, base.sym
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetFileLineOffsets64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

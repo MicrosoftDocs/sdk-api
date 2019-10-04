@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_4/IDXGISwapChain3"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

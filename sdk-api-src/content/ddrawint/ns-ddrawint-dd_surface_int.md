@@ -12,6 +12,8 @@ ms.keywords: '*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Displa
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACE_INT
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

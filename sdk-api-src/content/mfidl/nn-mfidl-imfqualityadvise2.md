@@ -12,6 +12,8 @@ ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFQualityAdvise2"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EVT_EXPORTLOG_FLAGS, EVT_EXPORTLOG_FLAGS enumeration [EventLog], Ev
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_EXPORTLOG_FLAGS"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

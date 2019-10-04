@@ -12,6 +12,8 @@ ms.keywords: EnumInputContext, EnumInputContext callback function [International
 ms.topic: callback
 f1_keywords: 
  - "imm/EnumInputContext"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

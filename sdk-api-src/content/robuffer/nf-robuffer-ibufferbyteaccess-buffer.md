@@ -12,6 +12,8 @@ ms.keywords: Buffer, Buffer method [Windows Runtime], Buffer method [Windows Run
 ms.topic: method
 f1_keywords: 
  - "robuffer/IBufferByteAccess.Buffer"
+dev_langs:
+ - c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

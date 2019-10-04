@@ -12,6 +12,8 @@ ms.keywords: GetSubType, GetSubType method [Core Audio], GetSubType method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.GetSubType"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

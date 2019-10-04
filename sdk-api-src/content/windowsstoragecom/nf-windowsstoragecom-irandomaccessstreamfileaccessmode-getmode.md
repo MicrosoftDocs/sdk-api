@@ -12,6 +12,8 @@ ms.keywords: GetMode, GetMode method [Windows Runtime], GetMode method [Windows 
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IRandomAccessStreamFileAccessMode.GetMode"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

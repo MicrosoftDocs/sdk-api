@@ -12,6 +12,8 @@ ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Sto
 ms.topic: function
 f1_keywords: 
  - "combaseapi/GetHGlobalFromStream"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

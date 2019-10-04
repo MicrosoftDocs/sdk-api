@@ -12,6 +12,8 @@ ms.keywords: WinEventProc, WinEventProc callback, WinEventProc callback function
 ms.topic: callback
 f1_keywords: 
  - "winuser/WinEventProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, 
 ms.topic: function
 f1_keywords: 
  - "winreg/RegDeleteKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

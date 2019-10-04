@@ -12,6 +12,8 @@ ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTab
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmError.get_ModuleTable"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

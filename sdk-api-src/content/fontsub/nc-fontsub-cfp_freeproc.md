@@ -12,6 +12,8 @@ ms.keywords: CFP_FREEPROC, CFP_FREEPROC callback, CFP_FREEPROC callback function
 ms.topic: callback
 f1_keywords: 
  - "fontsub/CFP_FREEPROC"
+dev_langs:
+ - c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

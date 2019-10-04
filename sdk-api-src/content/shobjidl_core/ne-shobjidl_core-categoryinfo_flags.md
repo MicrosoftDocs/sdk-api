@@ -12,6 +12,8 @@ ms.keywords: CATEGORYINFO_FLAGS, CATEGORYINFO_FLAGS enumeration [Windows Shell],
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CATEGORYINFO_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

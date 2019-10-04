@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_GET_METADATA_INFO, FSCTL_TXFS_GET_METADATA_INFO control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_GET_METADATA_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

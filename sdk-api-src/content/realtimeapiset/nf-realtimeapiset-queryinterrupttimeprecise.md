@@ -12,6 +12,8 @@ ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base
 ms.topic: function
 f1_keywords: 
  - "realtimeapiset/QueryInterruptTimePrecise"
+dev_langs:
+ - c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CVssWriter class [VSS],IsPartialFileSupportEnabled method, CVssWrit
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.IsPartialFileSupportEnabled"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

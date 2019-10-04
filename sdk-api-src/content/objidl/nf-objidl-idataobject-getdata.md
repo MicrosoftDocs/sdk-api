@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject int
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.GetData"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Find, Find method [Windows Controls], Find method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.Find"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

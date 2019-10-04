@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface 
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

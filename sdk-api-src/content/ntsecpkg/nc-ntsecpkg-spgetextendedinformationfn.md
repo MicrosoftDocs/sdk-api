@@ -12,6 +12,8 @@ ms.keywords: SpGetExtendedInformation, SpGetExtendedInformation callback functio
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetExtendedInformation
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

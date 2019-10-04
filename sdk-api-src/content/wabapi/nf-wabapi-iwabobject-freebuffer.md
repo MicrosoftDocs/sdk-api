@@ -12,6 +12,8 @@ ms.keywords: FreeBuffer, FreeBuffer method [Windows Address Book], FreeBuffer me
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.FreeBuffer"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

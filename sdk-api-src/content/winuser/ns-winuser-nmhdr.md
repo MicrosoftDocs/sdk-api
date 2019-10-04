@@ -12,6 +12,8 @@ ms.keywords: "*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_
 ms.topic: struct
 f1_keywords: 
  - "winuser/NMHDR"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Winuser.h
 req.target-type: Windows

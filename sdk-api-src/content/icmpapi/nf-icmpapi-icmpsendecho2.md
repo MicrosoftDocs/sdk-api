@@ -12,6 +12,8 @@ ms.keywords: IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsende
 ms.topic: function
 f1_keywords: 
  - "icmpapi/IcmpSendEcho2"
+dev_langs:
+ - c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterf
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

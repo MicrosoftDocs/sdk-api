@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDl
 ms.topic: callback
 f1_keywords: 
  - "cryptxml/CryptXmlDllCloseDigest"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

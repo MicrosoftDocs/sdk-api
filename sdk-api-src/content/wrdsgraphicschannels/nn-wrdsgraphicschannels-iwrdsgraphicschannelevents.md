@@ -12,6 +12,8 @@ ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [R
 ms.topic: interface
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

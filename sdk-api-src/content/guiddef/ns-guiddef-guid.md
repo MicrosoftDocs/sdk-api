@@ -4,6 +4,10 @@ title: GUID
 ms.date: 4/26/2019
 ms.keywords: _GUID, GUID
 ms.topic: language-reference
+f1_keywords:
+ - _GUID
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.EndFrame
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

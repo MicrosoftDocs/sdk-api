@@ -12,6 +12,8 @@ ms.keywords: AO_DESIGNMODE, AO_NOERRORUI, AO_NONE, AO_NOSPLASHSCREEN, AO_PRELAUN
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationActivationManager.ActivateApplication"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

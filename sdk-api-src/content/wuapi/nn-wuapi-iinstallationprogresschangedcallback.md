@@ -12,6 +12,8 @@ ms.keywords: IInstallationProgressChangedCallback, IInstallationProgressChangedC
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IInstallationProgressChangedCallback"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

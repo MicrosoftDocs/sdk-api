@@ -12,6 +12,8 @@ ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDestroyDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

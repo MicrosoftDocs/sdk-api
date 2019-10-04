@@ -12,6 +12,8 @@ ms.keywords: "*PENG_TIME_FIELDS, ENG_TIME_FIELDS, ENG_TIME_FIELDS structure [Dis
 ms.topic: struct
 f1_keywords: 
  - "winddi/ENG_TIME_FIELDS"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

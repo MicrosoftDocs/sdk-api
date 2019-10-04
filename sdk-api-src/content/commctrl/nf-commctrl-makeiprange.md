@@ -12,6 +12,8 @@ ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRAN
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MAKEIPRANGE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPT_OID_DISABLE_SEARCH_DS_FLAG, CRYPT_OID_INFO_ALGID_KEY, CRYPT_O
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptFindOIDInfo
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

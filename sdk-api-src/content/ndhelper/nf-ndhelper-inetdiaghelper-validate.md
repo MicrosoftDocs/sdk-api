@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Vali
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.Validate"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

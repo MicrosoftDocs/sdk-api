@@ -12,6 +12,8 @@ ms.keywords: D3D12_SUBRESOURCE_INFO, D3D12_SUBRESOURCE_INFO structure, d3d12/D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_SUBRESOURCE_INFO"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

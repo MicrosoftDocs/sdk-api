@@ -6,6 +6,8 @@ ms.keywords: _WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE
 ms.topic: language-reference
 f1_keywords: 
  - "wlanapi/_WLAN_IHV_CONTROL_TYPE"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

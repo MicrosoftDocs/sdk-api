@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remot
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_PLUGIN_REQUEST
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

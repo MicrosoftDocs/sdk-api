@@ -12,6 +12,8 @@ ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyCon
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollectionQuery.AddPropertyConstraint"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

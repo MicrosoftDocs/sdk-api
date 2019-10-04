@@ -12,6 +12,8 @@ ms.keywords: DeviceToColorimetricColors, DeviceToColorimetricColors method [Wind
 ms.topic: method
 f1_keywords: 
  - "wcsplugin/IDeviceModelPlugIn.DeviceToColorimetricColors"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

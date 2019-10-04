@@ -12,6 +12,8 @@ ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_R
 ms.topic: function
 f1_keywords:
 - winbase/SetCommMask
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

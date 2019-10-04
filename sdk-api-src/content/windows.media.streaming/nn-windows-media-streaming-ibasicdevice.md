@@ -12,6 +12,8 @@ ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicD
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IBasicDevice"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

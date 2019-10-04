@@ -12,6 +12,8 @@ ms.keywords: GetStreamConfigurationCount, GetStreamConfigurationCount method [Me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

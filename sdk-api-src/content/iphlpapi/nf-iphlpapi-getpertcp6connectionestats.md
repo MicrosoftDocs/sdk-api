@@ -12,6 +12,8 @@ ms.keywords: GetPerTcp6ConnectionEStats, GetPerTcp6ConnectionEStats function [IP
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetPerTcp6ConnectionEStats
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

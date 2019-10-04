@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVABUFFERINFO, AMVABUFFERINFO, AMVABUFFERINFO structure [Direc
 ms.topic: struct
 f1_keywords: 
  - "amva/AMVABUFFERINFO"
+dev_langs:
+ - c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

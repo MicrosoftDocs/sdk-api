@@ -12,6 +12,8 @@ ms.keywords: GetFileFragmentLocality, GetFileFragmentLocality method [Direct Wri
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteRemoteFontFileStream.GetFileFragmentLocality"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

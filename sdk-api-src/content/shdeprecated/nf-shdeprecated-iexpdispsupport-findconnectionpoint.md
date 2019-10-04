@@ -12,6 +12,8 @@ ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoin
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IExpDispSupport.FindConnectionPoint"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

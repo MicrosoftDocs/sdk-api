@@ -12,6 +12,8 @@ ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _sh
 ms.topic: function
 f1_keywords: 
  - "propidl/PropVariantCopy"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

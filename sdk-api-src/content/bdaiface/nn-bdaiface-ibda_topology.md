@@ -12,6 +12,8 @@ ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies],
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_Topology"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

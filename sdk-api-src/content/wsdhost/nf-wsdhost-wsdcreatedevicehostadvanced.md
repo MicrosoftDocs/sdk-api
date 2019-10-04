@@ -12,6 +12,8 @@ ms.keywords: WSDCreateDeviceHostAdvanced, WSDCreateDeviceHostAdvanced function, 
 ms.topic: function
 f1_keywords: 
  - "wsdhost/WSDCreateDeviceHostAdvanced"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

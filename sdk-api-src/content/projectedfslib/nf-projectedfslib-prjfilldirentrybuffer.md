@@ -12,6 +12,8 @@ ms.keywords: PrjFillDirEntryBuffer, PrjFillDirEntryBuffer function, ProjFS.prjfi
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjFillDirEntryBuffer"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

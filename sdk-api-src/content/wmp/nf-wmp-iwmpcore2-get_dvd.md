@@ -12,6 +12,8 @@ ms.keywords: IWMPCore2 interface [Windows Media Player],get_dvd method, IWMPCore
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCore2.get_dvd"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

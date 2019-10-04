@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath function [Windows GDI], PT_BEZIERTO, PT_CLOSEFIGUR
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

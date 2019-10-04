@@ -12,6 +12,8 @@ ms.keywords: Button_SetImageList, Button_SetImageList macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_SetImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

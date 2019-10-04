@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],Delete method, Delete, Delet
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.Delete"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PROI_AREA, PROI_AREA, PROI_AREA structure pointer [Media Foundati
 ms.topic: struct
 f1_keywords: 
  - "mfapi/ROI_AREA"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

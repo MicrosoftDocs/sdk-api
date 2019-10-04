@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_SetUseMachineID, MI_OperationOptions_SetUseMach
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetUseMachineID
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

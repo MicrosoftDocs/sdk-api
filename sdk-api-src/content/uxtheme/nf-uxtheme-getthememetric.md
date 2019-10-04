@@ -12,6 +12,8 @@ ms.keywords: GetThemeMetric, GetThemeMetric function [Windows Controls], TMT_ALP
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeMetric"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

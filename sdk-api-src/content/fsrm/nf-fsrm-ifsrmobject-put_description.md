@@ -12,6 +12,8 @@ ms.keywords: Description property [File Server Resource Manager], Description pr
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmObject.Description"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

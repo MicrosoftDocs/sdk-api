@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGet
 ms.topic: function
 f1_keywords: 
  - "tapi/tapiGetLocationInfo"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

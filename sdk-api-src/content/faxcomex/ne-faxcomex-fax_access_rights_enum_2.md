@@ -12,6 +12,8 @@ ms.keywords: FAX_ACCESS_RIGHTS_ENUM_2, FAX_ACCESS_RIGHTS_ENUM_2 enumeration [Fax
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_ACCESS_RIGHTS_ENUM_2"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

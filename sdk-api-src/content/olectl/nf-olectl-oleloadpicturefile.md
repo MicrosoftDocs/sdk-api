@@ -12,6 +12,8 @@ ms.keywords: OleLoadPictureFile, OleLoadPictureFile function [Automation], _oa96
 ms.topic: function
 f1_keywords: 
  - "olectl/OleLoadPictureFile"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

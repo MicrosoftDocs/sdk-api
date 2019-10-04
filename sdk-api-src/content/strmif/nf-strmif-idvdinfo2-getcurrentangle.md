@@ -12,6 +12,8 @@ ms.keywords: GetCurrentAngle, GetCurrentAngle method [DirectShow], GetCurrentAng
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo2.GetCurrentAngle"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

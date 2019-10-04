@@ -12,6 +12,8 @@ ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelI
 ms.topic: enum
 f1_keywords: 
  - "certenroll/InnerRequestLevel"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

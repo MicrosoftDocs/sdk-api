@@ -12,6 +12,8 @@ ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelp
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IAppDomainHelper.Initialize"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

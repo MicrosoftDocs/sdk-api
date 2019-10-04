@@ -12,6 +12,8 @@ ms.keywords: E_MBN_ACTIVE_CONNECTION, E_MBN_INVALID_ACCESS_STRING, E_MBN_MAX_ACT
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionEvents.OnConnectComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

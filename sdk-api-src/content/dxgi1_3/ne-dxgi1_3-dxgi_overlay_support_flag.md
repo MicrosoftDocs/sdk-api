@@ -12,6 +12,8 @@ ms.keywords: DXGI_OVERLAY_SUPPORT_FLAG, DXGI_OVERLAY_SUPPORT_FLAG enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

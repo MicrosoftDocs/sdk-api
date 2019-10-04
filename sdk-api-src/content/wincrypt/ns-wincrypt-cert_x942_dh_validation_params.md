@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_X942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS, C
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_942_DH_VALIDATION_PARAMS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

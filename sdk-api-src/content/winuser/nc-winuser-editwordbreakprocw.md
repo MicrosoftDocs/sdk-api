@@ -12,6 +12,8 @@ ms.keywords: EDITWORDBREAKPROCA, EDITWORDBREAKPROCW, EditWordBreakProc, EditWord
 ms.topic: callback
 f1_keywords: 
  - "winuser/EditWordBreakProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

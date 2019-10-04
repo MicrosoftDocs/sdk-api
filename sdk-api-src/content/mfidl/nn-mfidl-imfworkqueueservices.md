@@ -12,6 +12,8 @@ ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWork
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

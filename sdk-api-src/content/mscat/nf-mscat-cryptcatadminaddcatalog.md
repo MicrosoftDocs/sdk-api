@@ -12,6 +12,8 @@ ms.keywords: CryptCATAdminAddCatalog, CryptCATAdminAddCatalog function [Security
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATAdminAddCatalog"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertPropertySHA1Hash, ICertPropertySHA1Hash interface [Security], 
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertPropertySHA1Hash"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

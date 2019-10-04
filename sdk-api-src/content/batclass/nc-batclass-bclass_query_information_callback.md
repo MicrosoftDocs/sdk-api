@@ -12,6 +12,8 @@ ms.keywords: BCLASS_QUERY_INFORMATION_CALLBACK, BCLASS_QUERY_INFORMATION_CALLBAC
 ms.topic: callback
 f1_keywords: 
  - "batclass/BatteryMiniQueryInformation"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: 62bac8ef-4d59-ca5c-1bf7-3993d5ecf42e, GetType, GetType method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Resource.GetType"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

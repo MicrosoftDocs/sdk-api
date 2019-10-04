@@ -12,6 +12,8 @@ ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSou
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityObjectTypeInfo.GetInheritSource
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

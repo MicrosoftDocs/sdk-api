@@ -12,6 +12,8 @@ ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights M
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMATTESTTYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

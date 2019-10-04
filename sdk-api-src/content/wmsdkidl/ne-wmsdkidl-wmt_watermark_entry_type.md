@@ -12,6 +12,8 @@ ms.keywords: WMT_WATERMARK_ENTRY_TYPE, WMT_WATERMARK_ENTRY_TYPE enumeration [win
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_WATERMARK_ENTRY_TYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

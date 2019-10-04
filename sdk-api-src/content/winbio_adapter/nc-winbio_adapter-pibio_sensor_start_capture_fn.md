@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_START_CAPTURE_FN, PIBIO_SENSOR_START_CAPTURE_FN callba
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterStartCapture
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

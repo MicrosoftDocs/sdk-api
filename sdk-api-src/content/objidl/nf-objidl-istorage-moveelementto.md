@@ -12,6 +12,8 @@ ms.keywords: IStorage interface [Structured Storage],MoveElementTo method, IStor
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.MoveElementTo"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

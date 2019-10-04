@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA st
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_FIND_USAGE_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

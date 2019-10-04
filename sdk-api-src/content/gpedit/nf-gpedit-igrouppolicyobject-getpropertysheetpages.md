@@ -12,6 +12,8 @@ ms.keywords: GetPropertySheetPages, GetPropertySheetPages method [Group Policy],
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetPropertySheetPages"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGroupName, GetGroupName method [windows Media Format], GetGroupN
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMInputMediaProps.GetGroupName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

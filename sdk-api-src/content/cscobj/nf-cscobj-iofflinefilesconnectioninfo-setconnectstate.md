@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],SetConnectSta
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesConnectionInfo.SetConnectState"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

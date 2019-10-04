@@ -12,6 +12,8 @@ ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

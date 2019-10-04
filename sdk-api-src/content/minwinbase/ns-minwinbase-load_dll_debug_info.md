@@ -12,6 +12,8 @@ ms.keywords: "*LPLOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO s
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/LOAD_DLL_DEBUG_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

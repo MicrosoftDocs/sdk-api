@@ -12,6 +12,8 @@ ms.keywords: ACCOUNTINGPROPERTIES, ACCOUNTINGPROPERTIES enumeration [Network Pol
 ms.topic: enum
 f1_keywords:
 - sdoias/ACCOUNTINGPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

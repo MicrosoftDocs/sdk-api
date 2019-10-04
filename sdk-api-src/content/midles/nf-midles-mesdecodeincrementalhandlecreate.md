@@ -12,6 +12,8 @@ ms.keywords: MesDecodeIncrementalHandleCreate, MesDecodeIncrementalHandleCreate 
 ms.topic: function
 f1_keywords: 
  - "midles/MesDecodeIncrementalHandleCreate"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

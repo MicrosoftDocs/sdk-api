@@ -12,6 +12,8 @@ ms.keywords: IADsProperty interface [ADSI],Qualifiers method, IADsProperty.Quali
 ms.topic: method
 f1_keywords: 
  - "iads/IADsProperty.Qualifiers"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

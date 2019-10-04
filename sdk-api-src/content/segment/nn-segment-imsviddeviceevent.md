@@ -12,6 +12,8 @@ ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidDeviceEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

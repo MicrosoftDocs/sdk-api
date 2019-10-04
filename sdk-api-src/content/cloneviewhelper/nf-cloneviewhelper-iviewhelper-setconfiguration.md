@@ -12,6 +12,8 @@ ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IV
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.SetConfiguration"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

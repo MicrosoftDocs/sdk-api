@@ -12,6 +12,8 @@ ms.keywords: RmGetFilterList, RmGetFilterList function [Restart Mgr], restartman
 ms.topic: function
 f1_keywords: 
  - "restartmanager/RmGetFilterList"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

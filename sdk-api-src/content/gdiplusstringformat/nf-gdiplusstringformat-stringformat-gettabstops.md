@@ -12,6 +12,8 @@ ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],S
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetTabStops"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MBN_PROVIDER_STATE, MBN_PROVIDER_STATE enumeration [Microsoft Broad
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_PROVIDER_STATE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

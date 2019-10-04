@@ -12,6 +12,8 @@ ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult inte
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetXuid"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

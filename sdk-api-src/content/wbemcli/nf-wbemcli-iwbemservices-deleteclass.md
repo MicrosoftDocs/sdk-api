@@ -12,6 +12,8 @@ ms.keywords: DeleteClass, DeleteClass method [Windows Management Instrumentation
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemServices.DeleteClass"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

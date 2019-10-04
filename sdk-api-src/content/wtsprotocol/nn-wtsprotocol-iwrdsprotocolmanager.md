@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Deskto
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolManager"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

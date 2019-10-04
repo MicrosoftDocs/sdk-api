@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_OID_LIST, BCRYPT_OID_LIST structure [Security], bcrypt/BCRYP
 ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_OID_LIST
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

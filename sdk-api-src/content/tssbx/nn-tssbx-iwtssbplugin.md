@@ -12,6 +12,8 @@ ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], IWT
 ms.topic: interface
 f1_keywords: 
  - "tssbx/IWTSSBPlugin"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

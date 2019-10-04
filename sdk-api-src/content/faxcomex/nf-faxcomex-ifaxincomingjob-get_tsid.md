@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingJob interface [Fax Service],TSID property, IFaxIncoming
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingJob.TSID"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

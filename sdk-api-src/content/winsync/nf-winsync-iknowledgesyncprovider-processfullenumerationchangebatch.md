@@ -12,6 +12,8 @@ ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessFullEnumerat
 ms.topic: method
 f1_keywords:
 - winsync/IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

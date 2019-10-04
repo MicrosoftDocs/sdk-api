@@ -12,6 +12,8 @@ ms.keywords: FwpmSystemPortsGet0, FwpmSystemPortsGet0 function [Filtering], fwp.
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmSystemPortsGet0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

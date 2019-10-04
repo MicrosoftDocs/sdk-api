@@ -12,6 +12,8 @@ ms.keywords: DRMSetNameAndDescription, DRMSetNameAndDescription function [Active
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMSetNameAndDescription"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPDH_RAW_COUNTER_ITEM_W, PDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_IT
 ms.topic: struct
 f1_keywords:
 - pdh/PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

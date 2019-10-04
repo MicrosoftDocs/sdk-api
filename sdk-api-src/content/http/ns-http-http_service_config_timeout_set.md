@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_S
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_TIMEOUT_SET
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmRule interface [File Server Resource Manager],NamespaceRoots p
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmRule.NamespaceRoots"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

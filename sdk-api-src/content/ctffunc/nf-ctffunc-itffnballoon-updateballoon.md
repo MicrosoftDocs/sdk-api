@@ -12,6 +12,8 @@ ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon meth
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnBalloon.UpdateBalloon"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SLInstallProofOfPurchaseEx, SLInstallProofOfPurchaseEx function [Se
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLInstallProofOfPurchaseEx"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDeleteAfterAcquire, GetDeleteAfterAcquire method [Picture Acquis
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.GetDeleteAfterAcquire"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

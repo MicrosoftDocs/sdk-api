@@ -12,6 +12,8 @@ ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], nts
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetSystemPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

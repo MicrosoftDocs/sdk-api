@@ -12,6 +12,8 @@ ms.keywords: INetFwRules, INetFwRules interface [ICS/ICF], INetFwRules interface
 ms.topic: interface
 f1_keywords: 
  - "netfw/INetFwRules"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

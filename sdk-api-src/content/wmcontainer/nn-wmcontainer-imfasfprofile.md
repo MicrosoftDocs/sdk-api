@@ -12,6 +12,8 @@ ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFPr
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFProfile"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AdrClientFlags, AdrClientFlags enumeration [File Server Resource Ma
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/AdrClientFlags"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

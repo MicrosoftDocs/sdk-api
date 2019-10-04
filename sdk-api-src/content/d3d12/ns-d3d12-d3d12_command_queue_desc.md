@@ -12,6 +12,8 @@ ms.keywords: D3D12_COMMAND_QUEUE_DESC, D3D12_COMMAND_QUEUE_DESC structure, d3d12
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_COMMAND_QUEUE_DESC"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbProvider interface [Remote Desktop Services],RegisterForNotifi
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.RegisterForNotification"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Cont
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVSETINFOTIP"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

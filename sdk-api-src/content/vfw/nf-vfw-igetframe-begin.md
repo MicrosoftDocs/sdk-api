@@ -12,6 +12,8 @@ ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Mul
 ms.topic: method
 f1_keywords: 
  - "vfw/IGetFrame.Begin"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

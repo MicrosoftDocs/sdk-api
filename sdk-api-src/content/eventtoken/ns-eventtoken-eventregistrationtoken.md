@@ -12,6 +12,8 @@ ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows R
 ms.topic: struct
 f1_keywords: 
  - "eventtoken/EventRegistrationToken"
+dev_langs:
+ - c++
 req.header: eventtoken.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.TakePicture"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMT_STORAGE_FORMAT, WMT_STORAGE_FORMAT enumeration [windows Media F
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_STORAGE_FORMAT"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

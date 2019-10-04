@@ -12,6 +12,8 @@ ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/F
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/FILTER_SPEC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

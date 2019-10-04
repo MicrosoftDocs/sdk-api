@@ -12,6 +12,8 @@ ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveMo
 ms.topic: function
 f1_keywords: 
  - "srpapi/SrpDisablePermissiveModeFileEncryption"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

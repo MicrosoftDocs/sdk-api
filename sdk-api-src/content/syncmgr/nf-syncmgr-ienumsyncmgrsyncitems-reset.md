@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnum
 ms.topic: method
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrSyncItems.Reset"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

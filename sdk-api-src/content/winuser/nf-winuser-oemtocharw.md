@@ -12,6 +12,8 @@ ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCha
 ms.topic: function
 f1_keywords: 
  - "winuser/OemToChar"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

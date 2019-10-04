@@ -12,6 +12,8 @@ ms.keywords: "*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADD
 ms.topic: struct
 f1_keywords: 
  - "ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStorageFilter, GetStorageFilter method [DXGI], GetStorageFilter 
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetStorageFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

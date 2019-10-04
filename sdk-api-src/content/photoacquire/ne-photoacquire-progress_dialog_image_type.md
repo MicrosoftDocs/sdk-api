@@ -12,6 +12,8 @@ ms.keywords: PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGR
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/PROGRESS_DIALOG_IMAGE_TYPE"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

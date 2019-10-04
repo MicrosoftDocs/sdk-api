@@ -12,6 +12,8 @@ ms.keywords: ITraceDataCollector interface [PLA],RealTimeBuffersLost property, I
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.RealTimeBuffersLost"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

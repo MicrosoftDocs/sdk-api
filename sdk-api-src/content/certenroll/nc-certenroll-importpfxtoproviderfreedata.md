@@ -12,6 +12,8 @@ ms.keywords: "ImportPFXToProviderFreeData, (FNIMPORTPFXTOPROVIDERFREEDATA), (FNI
 ms.topic: callback
 f1_keywords: 
  - "certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA)"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

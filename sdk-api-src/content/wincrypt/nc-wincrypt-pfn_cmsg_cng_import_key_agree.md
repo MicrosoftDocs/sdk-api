@@ -12,6 +12,8 @@ ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_AGREE, PFN_CMSG_CNG_IMPORT_KEY_AGREE callba
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

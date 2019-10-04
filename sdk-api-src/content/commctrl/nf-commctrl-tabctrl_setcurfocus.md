@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetCurFocus, TabCtrl_SetCurFocus macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetCurFocus"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

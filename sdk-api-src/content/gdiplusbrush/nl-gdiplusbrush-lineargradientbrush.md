@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+], LinearGradie
 ms.topic: class
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

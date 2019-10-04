@@ -12,6 +12,8 @@ ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Convent
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSigningOptions.GetCertificateSet"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

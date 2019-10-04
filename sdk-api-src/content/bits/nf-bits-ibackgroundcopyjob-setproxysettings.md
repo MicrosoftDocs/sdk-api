@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackg
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.SetProxySettings"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

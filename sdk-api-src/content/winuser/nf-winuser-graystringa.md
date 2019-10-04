@@ -12,6 +12,8 @@ ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStr
 ms.topic: function
 f1_keywords: 
  - "winuser/GrayString"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

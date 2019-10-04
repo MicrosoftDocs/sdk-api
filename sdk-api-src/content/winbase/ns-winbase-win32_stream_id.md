@@ -12,6 +12,8 @@ ms.keywords: "*LPWIN32_STREAM_ID, BACKUP_ALTERNATE_DATA, BACKUP_DATA, BACKUP_EA_
 ms.topic: struct
 f1_keywords: 
  - "winbase/WIN32_STREAM_ID"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

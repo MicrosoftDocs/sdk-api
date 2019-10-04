@@ -12,6 +12,8 @@ ms.keywords: DhcpGetClientInfoV4, DhcpGetClientInfoV4 function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientInfoV4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

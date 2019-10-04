@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interfac
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport2"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

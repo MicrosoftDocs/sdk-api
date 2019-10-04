@@ -12,6 +12,8 @@ ms.keywords: GetTopWindow, GetTopWindow function [Windows and Messages], _win32_
 ms.topic: function
 f1_keywords: 
  - "winuser/GetTopWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_PROPERTY_ID, DWRITE_FONT_PROPERTY_ID enumeration [Direc
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

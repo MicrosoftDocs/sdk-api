@@ -12,6 +12,8 @@ ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOE
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.EnumSurfaces"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

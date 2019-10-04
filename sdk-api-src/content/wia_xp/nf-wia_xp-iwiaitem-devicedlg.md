@@ -12,6 +12,8 @@ ms.keywords: DeviceDlg, DeviceDlg method [WIA], DeviceDlg method [WIA],IWiaItem 
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.DeviceDlg"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

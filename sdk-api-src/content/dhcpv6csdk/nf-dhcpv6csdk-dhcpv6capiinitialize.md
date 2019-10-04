@@ -12,6 +12,8 @@ ms.keywords: Dhcpv6CApiInitialize, Dhcpv6CApiInitialize function [DHCP], dhcp.dh
 ms.topic: function
 f1_keywords: 
  - "dhcpv6csdk/Dhcpv6CApiInitialize"
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

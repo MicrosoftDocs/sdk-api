@@ -12,6 +12,8 @@ ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSn
 ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.Query
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

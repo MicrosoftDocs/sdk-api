@@ -12,6 +12,8 @@ ms.keywords: 0, ITextStoreAnchorSink interface [Text Services Framework],OnTextC
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchorSink.OnTextChange"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

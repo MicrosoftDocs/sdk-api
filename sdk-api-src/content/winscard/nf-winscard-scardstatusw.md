@@ -12,6 +12,8 @@ ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardStatus"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

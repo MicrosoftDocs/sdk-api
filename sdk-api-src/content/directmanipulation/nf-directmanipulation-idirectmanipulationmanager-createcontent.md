@@ -12,6 +12,8 @@ ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateCo
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.CreateContent"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

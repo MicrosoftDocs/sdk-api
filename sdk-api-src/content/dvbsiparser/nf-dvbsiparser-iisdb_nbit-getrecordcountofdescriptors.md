@@ -12,6 +12,8 @@ ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Mi
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT.GetRecordCountOfDescriptors"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

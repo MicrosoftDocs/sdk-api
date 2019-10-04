@@ -12,6 +12,8 @@ ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArran
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.GetAutoArrange"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

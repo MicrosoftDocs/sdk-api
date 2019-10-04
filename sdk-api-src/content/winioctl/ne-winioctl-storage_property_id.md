@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID 
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

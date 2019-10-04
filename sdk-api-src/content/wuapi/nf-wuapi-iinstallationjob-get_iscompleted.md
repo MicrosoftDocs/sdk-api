@@ -12,6 +12,8 @@ ms.keywords: IInstallationJob interface [Windows Update Agent],IsCompleted prope
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationJob.IsCompleted"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

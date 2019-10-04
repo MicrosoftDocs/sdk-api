@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE
 ms.topic: struct
 f1_keywords: 
  - "rpcdcep/RPC_CLIENT_INTERFACE"
+dev_langs:
+ - c++
 req.header: rpcdcep.h
 req.include-header: 
 req.target-type: Windows

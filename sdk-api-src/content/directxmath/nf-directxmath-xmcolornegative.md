@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorNegative, XMColorNegative, XMColorNegative meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorNegative"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

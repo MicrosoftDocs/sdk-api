@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILA
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

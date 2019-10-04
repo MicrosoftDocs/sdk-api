@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigurableItem interface,get_DefaultValue method, IMsmConfigu
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmConfigurableItem.get_DefaultValue"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

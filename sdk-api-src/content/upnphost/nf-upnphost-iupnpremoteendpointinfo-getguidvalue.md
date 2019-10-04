@@ -12,6 +12,8 @@ ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method 
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRemoteEndpointInfo.GetGuidValue"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

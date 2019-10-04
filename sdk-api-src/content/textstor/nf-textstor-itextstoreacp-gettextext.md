@@ -12,6 +12,8 @@ ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP.GetTextExt"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

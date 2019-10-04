@@ -12,6 +12,8 @@ ms.keywords: Age property [PLA], Age property [PLA],IFolderAction interface, IFo
 ms.topic: method
 f1_keywords: 
  - "pla/IFolderAction.Age"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

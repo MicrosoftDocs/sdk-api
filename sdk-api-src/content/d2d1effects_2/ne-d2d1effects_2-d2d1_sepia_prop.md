@@ -12,6 +12,8 @@ ms.keywords: D2D1_SEPIA_PROP, D2D1_SEPIA_PROP enumeration [Direct2D], D2D1_SEPIA
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects_2/D2D1_SEPIA_PROP"
+dev_langs:
+ - c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

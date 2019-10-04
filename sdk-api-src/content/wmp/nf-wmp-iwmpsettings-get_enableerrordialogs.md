@@ -12,6 +12,8 @@ ms.keywords: IWMPSettings interface [Windows Media Player],get_enableErrorDialog
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSettings.get_enableErrorDialogs"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

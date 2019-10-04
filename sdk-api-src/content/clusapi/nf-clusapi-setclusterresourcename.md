@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_N
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetClusterResourceName"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

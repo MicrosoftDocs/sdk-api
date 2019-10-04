@@ -12,6 +12,8 @@ ms.keywords: "*PMFCARD_RESOURCE, MFCARD_RESOURCE, MFCARD_RESOURCE structure [Dev
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/MFCARD_RESOURCE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPart, GetPart method [Open Packaging Conventions], GetPart metho
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartSet.GetPart"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

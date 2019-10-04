@@ -12,6 +12,8 @@ ms.keywords: IMFSensorProfile interface [Media Foundation],IsMediaTypeSupported 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorProfile.IsMediaTypeSupported"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRawDataFormat, GetRawDataFormat method [Windows Shell], GetRawDa
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetRawDataFormat"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

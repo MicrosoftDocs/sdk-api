@@ -12,6 +12,8 @@ ms.keywords: DXGI_SCALING, DXGI_SCALING enumeration [DXGI], DXGI_SCALING_ASPECT_
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_SCALING"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

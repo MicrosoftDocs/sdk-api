@@ -12,6 +12,8 @@ ms.keywords: GetItemIDList, GetItemIDList method [Windows Shell], GetItemIDList 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IRelatedItem.GetItemIDList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

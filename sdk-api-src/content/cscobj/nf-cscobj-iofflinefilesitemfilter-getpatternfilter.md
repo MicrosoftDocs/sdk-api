@@ -12,6 +12,8 @@ ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatte
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItemFilter.GetPatternFilter"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

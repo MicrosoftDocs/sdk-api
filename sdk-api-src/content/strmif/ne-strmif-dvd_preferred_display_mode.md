@@ -12,6 +12,8 @@ ms.keywords: DISPLAY_16x9, DISPLAY_4x3_LETTERBOX_PREFERRED, DISPLAY_4x3_PANSCAN_
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_PREFERRED_DISPLAY_MODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinBioCloseFramework, WinBioCloseFramework function [Windows Biomet
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioCloseFramework"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

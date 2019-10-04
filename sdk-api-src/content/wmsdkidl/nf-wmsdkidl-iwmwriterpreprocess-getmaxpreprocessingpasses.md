@@ -12,6 +12,8 @@ ms.keywords: GetMaxPreprocessingPasses, GetMaxPreprocessingPasses method [window
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterPreprocess.GetMaxPreprocessingPasses"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, I
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateVideoSampleAllocatorEx"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

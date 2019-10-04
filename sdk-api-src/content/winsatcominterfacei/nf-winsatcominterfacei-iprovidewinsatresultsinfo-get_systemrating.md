@@ -12,6 +12,8 @@ ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property,
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo.SystemRating"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

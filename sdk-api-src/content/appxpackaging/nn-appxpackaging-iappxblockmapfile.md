@@ -12,6 +12,8 @@ ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and m
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBlockMapFile"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

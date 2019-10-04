@@ -12,6 +12,8 @@ ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnabl
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunnableObject.SetContainedObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

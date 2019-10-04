@@ -12,6 +12,8 @@ ms.keywords: FF_INDEXCOMPLEXURLS, FF_SUPPRESSINDEXING, FOLLOW_FLAGS, FOLLOW_FLAG
 ms.topic: enum
 f1_keywords: 
  - "searchapi/FOLLOW_FLAGS"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

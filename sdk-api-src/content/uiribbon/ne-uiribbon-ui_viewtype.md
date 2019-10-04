@@ -12,6 +12,8 @@ ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_VIEWTYPE"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

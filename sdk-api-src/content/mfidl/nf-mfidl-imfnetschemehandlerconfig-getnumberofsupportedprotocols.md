@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfSupportedProtocols, GetNumberOfSupportedProtocols method
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.EnumerateSessions"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

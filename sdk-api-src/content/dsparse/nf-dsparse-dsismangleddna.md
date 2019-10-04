@@ -12,6 +12,8 @@ ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangl
 ms.topic: function
 f1_keywords:
 - dsparse/DsIsMangledDn
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

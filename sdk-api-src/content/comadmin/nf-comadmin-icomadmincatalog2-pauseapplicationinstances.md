@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog2 interface [COM+],PauseApplicationInstances method
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.PauseApplicationInstances"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
