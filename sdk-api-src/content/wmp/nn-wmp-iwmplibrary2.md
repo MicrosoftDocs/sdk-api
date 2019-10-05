@@ -12,6 +12,8 @@ ms.keywords: IWMPLibrary2, IWMPLibrary2 interface [Windows Media Player], IWMPLi
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPLibrary2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

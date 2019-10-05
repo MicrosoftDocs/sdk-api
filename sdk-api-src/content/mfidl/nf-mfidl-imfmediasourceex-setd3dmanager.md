@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSourceEx interface [Media Foundation],SetD3DManager method,
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSourceEx.SetD3DManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

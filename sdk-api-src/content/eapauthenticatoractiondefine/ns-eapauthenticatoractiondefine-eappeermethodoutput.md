@@ -12,6 +12,8 @@ ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapau
 ms.topic: struct
 f1_keywords: 
  - "eapauthenticatoractiondefine/EapPeerMethodOutput"
+dev_langs:
+ - c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

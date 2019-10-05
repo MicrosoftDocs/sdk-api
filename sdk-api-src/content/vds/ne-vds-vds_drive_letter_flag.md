@@ -12,6 +12,8 @@ ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLA
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DRIVE_LETTER_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

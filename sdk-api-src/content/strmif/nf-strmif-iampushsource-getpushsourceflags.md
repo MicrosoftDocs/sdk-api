@@ -12,6 +12,8 @@ ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPush
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMPushSource.GetPushSourceFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

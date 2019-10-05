@@ -12,6 +12,8 @@ ms.keywords: WS_PROXY_MESSAGE_CALLBACK, WS_PROXY_MESSAGE_CALLBACK callback, WS_P
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_PROXY_MESSAGE_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

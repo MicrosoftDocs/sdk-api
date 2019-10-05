@@ -12,6 +12,8 @@ ms.keywords: GetSupportedLbPolicies, GetSupportedLbPolicies method [VDS], GetSup
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunMpio.GetSupportedLbPolicies
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

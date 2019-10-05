@@ -12,6 +12,8 @@ ms.keywords: FaxDevEndJob, FaxDevEndJob function [Fax Service], _mfax_faxdevendj
 ms.topic: function
 f1_keywords: 
  - "faxdev/FaxDevEndJob"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

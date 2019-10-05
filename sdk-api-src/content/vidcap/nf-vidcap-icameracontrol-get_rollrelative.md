@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],get_RollRelative method, ICam
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.get_RollRelative"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CON
 ms.topic: struct
 f1_keywords:
 - clusapi/CREATE_CLUSTER_CONFIG
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

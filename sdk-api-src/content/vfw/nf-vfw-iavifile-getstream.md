@@ -12,6 +12,8 @@ ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method 
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIFile.GetStream"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckMultisampleQualityLevels1, CheckMultisampleQualityLevels1 meth
 ms.topic: method
 f1_keywords: 
  - "d3d11_2/ID3D11Device2.CheckMultisampleQualityLevels1"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

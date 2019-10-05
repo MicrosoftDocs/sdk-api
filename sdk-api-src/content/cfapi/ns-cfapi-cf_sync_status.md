@@ -12,6 +12,8 @@ ms.keywords: CF_SYNC_STATUS, CF_SYNC_STATUS structure, PCF_SYNC_STATUS, PCF_SYNC
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_SYNC_STATUS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

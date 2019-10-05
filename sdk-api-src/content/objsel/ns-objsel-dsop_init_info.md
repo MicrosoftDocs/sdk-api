@@ -12,6 +12,8 @@ ms.keywords: '*PDSOP_INIT_INFO, DSOP_FLAG_MULTISELECT, DSOP_FLAG_SKIP_TARGET_COM
 ms.topic: struct
 f1_keywords:
 - objsel/DSOP_INIT_INFO
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

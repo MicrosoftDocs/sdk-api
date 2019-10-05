@@ -12,6 +12,8 @@ ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],Render metho
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRenderer.Render"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

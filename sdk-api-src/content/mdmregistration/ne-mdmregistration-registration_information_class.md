@@ -12,6 +12,8 @@ ms.keywords: "*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REG
 ms.topic: enum
 f1_keywords: 
  - "mdmregistration/REGISTRATION_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

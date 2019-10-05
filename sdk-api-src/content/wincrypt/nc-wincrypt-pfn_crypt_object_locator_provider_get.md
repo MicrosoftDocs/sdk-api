@@ -12,6 +12,8 @@ ms.keywords: CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LO
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

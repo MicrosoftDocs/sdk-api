@@ -12,6 +12,8 @@ ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],RectF clas
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.GetRight"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertAlgIdToOID, CertAlgIdToOID function [Security], _crypto2_certal
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertAlgIdToOID"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

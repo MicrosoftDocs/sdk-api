@@ -12,6 +12,8 @@ ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChain
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

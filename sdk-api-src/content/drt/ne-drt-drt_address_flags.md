@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_ADDRESS_FLAGS, DRT_ADDRESS_FLAGS, DRT_ADDRESS_FLAGS enumerat
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_ADDRESS_FLAGS"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

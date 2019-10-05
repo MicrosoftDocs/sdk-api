@@ -9,6 +9,8 @@ ms.keywords: Region::IsVisible
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Region::IsVisible"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

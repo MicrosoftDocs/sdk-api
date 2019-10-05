@@ -12,6 +12,8 @@ ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDial
 ms.topic: callback
 f1_keywords: 
  - "ras/RasCustomDial"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

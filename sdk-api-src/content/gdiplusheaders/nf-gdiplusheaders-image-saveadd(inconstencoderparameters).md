@@ -9,6 +9,8 @@ ms.keywords: Image::SaveAdd
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Image::SaveAdd"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: 50a81e8b-9aa8-484c-afb7-950068feefc4, GetClockCharacteristics, GetC
 ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetClockCharacteristics
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

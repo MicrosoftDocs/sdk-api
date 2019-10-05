@@ -12,6 +12,8 @@ ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.R
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWIA_DEV_CAPS.Reset"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

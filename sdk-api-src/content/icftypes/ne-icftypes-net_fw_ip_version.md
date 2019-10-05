@@ -12,6 +12,8 @@ ms.keywords: NET_FW_IP_VERSION, NET_FW_IP_VERSION enumeration [ICS/ICF], NET_FW_
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_IP_VERSION"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

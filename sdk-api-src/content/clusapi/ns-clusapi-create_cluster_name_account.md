@@ -12,6 +12,8 @@ ms.keywords: "*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CREATE_CLUSTER_NAME_ACCOUNT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

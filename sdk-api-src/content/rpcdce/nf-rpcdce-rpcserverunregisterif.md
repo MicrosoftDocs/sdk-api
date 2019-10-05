@@ -12,6 +12,8 @@ ms.keywords: RpcServerUnregisterIf, RpcServerUnregisterIf function [RPC], _rpc_r
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcServerUnregisterIf"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

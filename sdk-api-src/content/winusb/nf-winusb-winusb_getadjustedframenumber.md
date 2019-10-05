@@ -12,6 +12,8 @@ ms.keywords: WinUsb_GetAdjustedFrameNumber, WinUsb_GetAdjustedFrameNumber functi
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_GetAdjustedFrameNumber"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

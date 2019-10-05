@@ -12,6 +12,8 @@ ms.keywords: 66d07292-3bfe-4e68-b26f-890996262b98, IMFMediaStream, IMFMediaStrea
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

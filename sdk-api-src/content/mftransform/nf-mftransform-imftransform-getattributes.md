@@ -12,6 +12,8 @@ ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttribut
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetAttributes"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

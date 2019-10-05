@@ -12,6 +12,8 @@ ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptio
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpSetThreadOptions"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

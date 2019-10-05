@@ -12,6 +12,8 @@ ms.keywords: "*PRASPPP_PROJECTION_INFO, RASCCPCA_MPPC, RASCCPCA_STAC, RASCCPO_CO
 ms.topic: struct
 f1_keywords: 
  - "ras/RASPPP_PROJECTION_INFO"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

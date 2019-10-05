@@ -12,6 +12,8 @@ ms.keywords: DPA_DeleteAllPtrs, DPA_DeleteAllPtrs function [Windows Controls], _
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_DeleteAllPtrs"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime],
 ms.topic: interface
 f1_keywords: 
  - "objidl/IApartmentShutdown"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

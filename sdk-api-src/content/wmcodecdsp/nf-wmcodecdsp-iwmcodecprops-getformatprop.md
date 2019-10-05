@@ -12,6 +12,8 @@ ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatPr
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecProps.GetFormatProp"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FContinuePrinting, FContinuePrinting method [COM], FContinuePrintin
 ms.topic: method
 f1_keywords: 
  - "docobj/IContinueCallback.FContinuePrinting"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

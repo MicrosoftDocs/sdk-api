@@ -12,6 +12,8 @@ ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetl
 ms.topic: function
 f1_keywords: 
  - "winsock/WSAGetLastError"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

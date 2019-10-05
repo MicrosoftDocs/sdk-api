@@ -12,6 +12,8 @@ ms.keywords: Complete, Complete method [Windows Touch], Complete method [Windows
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.Complete"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

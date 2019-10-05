@@ -12,6 +12,8 @@ ms.keywords: DeleteScope2, DeleteScope2 method [Security], DeleteScope2 method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication3.DeleteScope2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

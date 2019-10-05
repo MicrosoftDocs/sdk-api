@@ -12,6 +12,8 @@ ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], IDvdCmd interface [DirectS
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDvdCmd"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

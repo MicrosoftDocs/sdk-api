@@ -12,6 +12,8 @@ ms.keywords: 6253f4d6-0436-c772-ce0d-4feca20bce47, D3D10_SHADER_DEBUG_REGTYPE, D
 ms.topic: enum
 f1_keywords:
 - d3d10_1shader/D3D10_SHADER_DEBUG_REGTYPE
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

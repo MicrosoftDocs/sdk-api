@@ -12,6 +12,8 @@ ms.keywords: GetMaxLength, GetMaxLength method [DirectShow], GetMaxLength method
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaBuffer.GetMaxLength"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

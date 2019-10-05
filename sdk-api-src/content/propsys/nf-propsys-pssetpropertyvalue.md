@@ -12,6 +12,8 @@ ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties
 ms.topic: function
 f1_keywords:
 - propsys/PSSetPropertyValue
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

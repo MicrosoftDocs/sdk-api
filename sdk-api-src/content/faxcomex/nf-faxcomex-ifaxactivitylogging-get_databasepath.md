@@ -12,6 +12,8 @@ ms.keywords: DatabasePath property [Fax Service], DatabasePath property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxActivityLogging.DatabasePath"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

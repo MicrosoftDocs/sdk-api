@@ -12,6 +12,8 @@ ms.keywords: IconIdentifier, IconIdentifier enumeration [MMC], Icon_Error, Icon_
 ms.topic: enum
 f1_keywords: 
  - "mmc/IconIdentifier"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

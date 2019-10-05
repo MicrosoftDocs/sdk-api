@@ -12,6 +12,8 @@ ms.keywords: CAConfigString property [Security], CAConfigString property [Securi
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Enrollment.CAConfigString"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

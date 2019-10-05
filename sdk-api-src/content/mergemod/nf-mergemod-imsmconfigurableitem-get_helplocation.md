@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigurableItem interface,get_HelpLocation method, IMsmConfigu
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmConfigurableItem.get_HelpLocation"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

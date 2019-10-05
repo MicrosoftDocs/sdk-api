@@ -12,6 +12,8 @@ ms.keywords: MILMatrixF, MILMatrixF structure [WPF Bitmap Effects], _wibe_milmat
 ms.topic: struct
 f1_keywords: 
  - "mileffects/MILMatrixF"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

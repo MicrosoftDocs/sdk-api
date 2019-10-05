@@ -12,6 +12,8 @@ ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWo
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IWordBreaker.BreakText"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

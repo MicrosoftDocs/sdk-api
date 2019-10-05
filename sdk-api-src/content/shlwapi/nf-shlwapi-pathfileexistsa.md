@@ -12,6 +12,8 @@ ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileEx
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathFileExists"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

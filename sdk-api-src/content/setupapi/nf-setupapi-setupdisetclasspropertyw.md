@@ -12,6 +12,8 @@ ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device a
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Class_Property

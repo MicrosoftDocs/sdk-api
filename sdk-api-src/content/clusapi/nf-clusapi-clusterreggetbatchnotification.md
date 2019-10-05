@@ -12,6 +12,8 @@ ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification func
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterRegGetBatchNotification"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THRE
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_OPM_ACP_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

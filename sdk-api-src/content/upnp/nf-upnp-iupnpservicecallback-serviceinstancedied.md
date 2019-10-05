@@ -12,6 +12,8 @@ ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied meth
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceCallback.ServiceInstanceDied"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

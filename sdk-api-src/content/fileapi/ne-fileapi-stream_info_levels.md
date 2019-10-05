@@ -12,6 +12,8 @@ ms.keywords: FindStreamInfoMaxInfoLevel, FindStreamInfoStandard, STREAM_INFO_LEV
 ms.topic: enum
 f1_keywords:
 - fileapi/STREAM_INFO_LEVELS
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

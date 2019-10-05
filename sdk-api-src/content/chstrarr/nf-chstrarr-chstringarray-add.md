@@ -12,6 +12,8 @@ ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Ad
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.Add"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

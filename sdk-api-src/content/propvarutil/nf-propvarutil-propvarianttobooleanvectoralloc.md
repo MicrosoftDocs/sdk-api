@@ -12,6 +12,8 @@ ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc fu
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToBooleanVectorAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

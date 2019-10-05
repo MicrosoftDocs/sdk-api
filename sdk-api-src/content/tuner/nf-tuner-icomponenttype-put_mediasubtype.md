@@ -12,6 +12,8 @@ ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaSubTy
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentType.put_MediaSubType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

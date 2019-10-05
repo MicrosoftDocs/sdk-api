@@ -12,6 +12,8 @@ ms.keywords: '*PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SEC
 ms.topic: struct
 f1_keywords:
 - schannel/SCH_CRED_SECRET_PRIVKEY
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

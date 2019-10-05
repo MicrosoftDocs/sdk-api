@@ -12,6 +12,8 @@ ms.keywords: ConnectTo, ConnectTo method [WPF Bitmap Effects], ConnectTo method 
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectInputConnector.ConnectTo"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

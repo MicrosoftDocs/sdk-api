@@ -12,6 +12,8 @@ ms.keywords: TreeView_Expand, TreeView_Expand macro [Windows Controls], _win32_T
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_Expand"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

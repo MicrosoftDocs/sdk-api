@@ -12,6 +12,8 @@ ms.keywords: 7de89d7b-e322-173f-aed7-4b318336eadc, ID3D11InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.PushEmptyRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

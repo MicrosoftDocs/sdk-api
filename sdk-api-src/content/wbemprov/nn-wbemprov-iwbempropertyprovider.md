@@ -12,6 +12,8 @@ ms.keywords: IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Man
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemPropertyProvider"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UIA_IAFP_DEFAULT, UIA_IAFP_UNWRAP_BRIDGE, UiaIAccessibleFromProvide
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaIAccessibleFromProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

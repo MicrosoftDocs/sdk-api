@@ -12,6 +12,8 @@ ms.keywords: CreateAcceleratorTable, CreateAcceleratorTable function [Menus and 
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateAcceleratorTable"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

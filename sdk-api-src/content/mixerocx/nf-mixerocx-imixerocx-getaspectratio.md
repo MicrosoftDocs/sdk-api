@@ -12,6 +12,8 @@ ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio 
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.GetAspectRatio"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_SetDataLocale, MI_DestinationOptions_SetDataL
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetDataLocale
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

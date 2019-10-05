@@ -12,6 +12,8 @@ ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRe
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFRemoteDesktopPlugin"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

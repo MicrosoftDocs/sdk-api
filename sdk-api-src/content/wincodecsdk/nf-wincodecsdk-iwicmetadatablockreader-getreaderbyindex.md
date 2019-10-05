@@ -12,6 +12,8 @@ ms.keywords: GetReaderByIndex, GetReaderByIndex method [Windows Imaging Componen
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataBlockReader.GetReaderByIndex"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

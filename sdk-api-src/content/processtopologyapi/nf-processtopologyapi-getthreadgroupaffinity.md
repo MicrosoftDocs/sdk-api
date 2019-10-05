@@ -12,6 +12,8 @@ ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getth
 ms.topic: function
 f1_keywords: 
  - "processtopologyapi/GetThreadGroupAffinity"
+dev_langs:
+ - c++
 req.header: processtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

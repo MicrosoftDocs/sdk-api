@@ -12,6 +12,8 @@ ms.keywords: '*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _wa
 ms.topic: struct
 f1_keywords:
 - wabdefs/SRowSet
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMetadataQueryReader, GetMetadataQueryReader method [Windows Imag
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetMetadataQueryReader"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertClose
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertCloseStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

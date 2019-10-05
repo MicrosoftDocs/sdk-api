@@ -12,6 +12,8 @@ ms.keywords: CountModes, CountModes method [DirectShow], CountModes method [Dire
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.CountModes"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

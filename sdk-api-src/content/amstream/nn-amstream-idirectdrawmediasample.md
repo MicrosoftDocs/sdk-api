@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectSho
 ms.topic: interface
 f1_keywords: 
  - "amstream/IDirectDrawMediaSample"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

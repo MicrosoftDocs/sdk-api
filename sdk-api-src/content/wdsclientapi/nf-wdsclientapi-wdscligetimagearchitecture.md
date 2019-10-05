@@ -12,6 +12,8 @@ ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSO
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImageArchitecture"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

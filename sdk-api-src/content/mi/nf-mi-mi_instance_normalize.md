@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_Normalize, MI_Instance_Normalize function [Windows Mana
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_Normalize
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

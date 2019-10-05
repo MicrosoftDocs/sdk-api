@@ -12,6 +12,8 @@ ms.keywords: IntToUInt, IntToUInt function [Windows Shell], _shell_IntToUInt, in
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntToUInt"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

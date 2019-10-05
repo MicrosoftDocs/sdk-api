@@ -12,6 +12,8 @@ ms.keywords: GetSnapToGrid, GetSnapToGrid method [Windows Controls], GetSnapToGr
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.GetSnapToGrid"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

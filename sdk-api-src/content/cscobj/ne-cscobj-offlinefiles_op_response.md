@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_OP_ABORT, OFFLINEFILES_OP_CONTINUE, OFFLINEFILES_OP_RE
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_OP_RESPONSE"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise m
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDevice.Unadvise"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

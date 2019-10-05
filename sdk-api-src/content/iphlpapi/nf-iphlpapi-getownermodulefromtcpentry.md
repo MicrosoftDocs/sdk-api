@@ -12,6 +12,8 @@ ms.keywords: GetOwnerModuleFromTcpEntry, GetOwnerModuleFromTcpEntry function [IP
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetOwnerModuleFromTcpEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

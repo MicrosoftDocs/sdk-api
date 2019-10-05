@@ -12,6 +12,8 @@ ms.keywords: GetPrivateKeyArchiveCertificate, GetPrivateKeyArchiveCertificate me
 ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.GetPrivateKeyArchiveCertificate
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

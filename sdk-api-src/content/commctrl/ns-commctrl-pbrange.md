@@ -12,6 +12,8 @@ ms.keywords: "*PPBRANGE, PBRANGE, PBRANGE structure [Windows Controls], PPBRANGE
 ms.topic: struct
 f1_keywords: 
  - "commctrl/PBRANGE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

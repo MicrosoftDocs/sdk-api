@@ -12,6 +12,8 @@ ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler
 ms.topic: interface
 f1_keywords: 
  - "tapi3cc/ITAgentHandler"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

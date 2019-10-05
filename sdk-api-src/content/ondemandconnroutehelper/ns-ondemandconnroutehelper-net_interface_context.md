@@ -12,6 +12,8 @@ ms.keywords: NET_INTERFACE_CONTEXT, NET_INTERFACE_CONTEXT structure [Network Awa
 ms.topic: struct
 f1_keywords: 
  - "ondemandconnroutehelper/NET_INTERFACE_CONTEXT"
+dev_langs:
+ - c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

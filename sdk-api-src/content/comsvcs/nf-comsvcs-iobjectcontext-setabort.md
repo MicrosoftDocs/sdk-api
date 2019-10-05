@@ -12,6 +12,8 @@ ms.keywords: IObjectContext interface [COM+],SetAbort method, IObjectContext.Set
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContext.SetAbort"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

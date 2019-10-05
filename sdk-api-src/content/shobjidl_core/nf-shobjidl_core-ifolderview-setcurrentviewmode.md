@@ -12,6 +12,8 @@ ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView.SetCurrentViewMode"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

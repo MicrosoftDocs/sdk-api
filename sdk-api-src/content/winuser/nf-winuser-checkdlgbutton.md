@@ -12,6 +12,8 @@ ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, Chec
 ms.topic: function
 f1_keywords: 
  - "winuser/CheckDlgButton"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

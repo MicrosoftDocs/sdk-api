@@ -12,6 +12,8 @@ ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetIdealVideoSize"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

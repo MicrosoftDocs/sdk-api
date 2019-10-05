@@ -12,6 +12,8 @@ ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsAddRootTarget
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

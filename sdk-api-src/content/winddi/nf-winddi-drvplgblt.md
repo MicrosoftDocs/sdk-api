@@ -12,6 +12,8 @@ ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c
 ms.topic: function
 f1_keywords:
 - winddi/DrvPlgBlt
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

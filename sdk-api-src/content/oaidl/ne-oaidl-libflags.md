@@ -12,6 +12,8 @@ ms.keywords: LIBFLAGS, LIBFLAGS enumeration [Automation], LIBFLAG_FCONTROL, LIBF
 ms.topic: enum
 f1_keywords: 
  - "oaidl/LIBFLAGS"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

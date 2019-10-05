@@ -12,6 +12,8 @@ ms.keywords: D3D10_TEXTURE_ADDRESS_BORDER, D3D10_TEXTURE_ADDRESS_CLAMP, D3D10_TE
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_TEXTURE_ADDRESS_MODE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

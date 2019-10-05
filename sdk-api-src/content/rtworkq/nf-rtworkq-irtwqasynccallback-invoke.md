@@ -12,6 +12,8 @@ ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invo
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncCallback.Invoke"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

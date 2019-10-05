@@ -12,6 +12,8 @@ ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IM
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFNetSchemeHandlerConfig"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

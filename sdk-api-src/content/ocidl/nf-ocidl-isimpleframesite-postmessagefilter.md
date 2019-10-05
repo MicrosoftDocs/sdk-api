@@ -12,6 +12,8 @@ ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleF
 ms.topic: method
 f1_keywords: 
  - "ocidl/ISimpleFrameSite.PostMessageFilter"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

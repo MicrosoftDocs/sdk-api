@@ -12,6 +12,8 @@ ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConn
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetConnectStatus"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

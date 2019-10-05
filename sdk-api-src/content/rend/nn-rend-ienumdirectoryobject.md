@@ -12,6 +12,8 @@ ms.keywords: IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], IE
 ms.topic: interface
 f1_keywords: 
  - "rend/IEnumDirectoryObject"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

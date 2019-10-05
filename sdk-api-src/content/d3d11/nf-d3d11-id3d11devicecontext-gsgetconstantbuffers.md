@@ -12,6 +12,8 @@ ms.keywords: 90cf0266-e4b2-8106-f337-5c65752dd7d8, GSGetConstantBuffers, GSGetCo
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.GSGetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

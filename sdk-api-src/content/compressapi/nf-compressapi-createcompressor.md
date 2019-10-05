@@ -12,6 +12,8 @@ ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORIT
 ms.topic: function
 f1_keywords: 
  - "compressapi/CreateCompressor"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

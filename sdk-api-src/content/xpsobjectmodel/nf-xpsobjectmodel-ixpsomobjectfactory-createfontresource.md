@@ -12,6 +12,8 @@ ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Pa
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateFontResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],PrivateKey property, ISigne
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.PrivateKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

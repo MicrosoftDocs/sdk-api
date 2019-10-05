@@ -12,6 +12,8 @@ ms.keywords: GetResourceDisplayName, GetResourceDisplayName method [Remote Deskt
 ms.topic: method
 f1_keywords: 
  - "workspaceruntimeclientext/IWorkspaceClientExt.GetResourceDisplayName"
+dev_langs:
+ - c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

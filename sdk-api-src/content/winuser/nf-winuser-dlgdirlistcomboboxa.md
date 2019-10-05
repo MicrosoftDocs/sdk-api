@@ -12,6 +12,8 @@ ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, 
 ms.topic: function
 f1_keywords: 
  - "winuser/DlgDirListComboBox"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

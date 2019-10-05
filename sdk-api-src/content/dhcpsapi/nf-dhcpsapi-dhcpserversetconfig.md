@@ -12,6 +12,8 @@ ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIPr
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerSetConfig
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

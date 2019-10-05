@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.GetState"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

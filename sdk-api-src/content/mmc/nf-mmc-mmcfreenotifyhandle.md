@@ -12,6 +12,8 @@ ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHan
 ms.topic: function
 f1_keywords: 
  - "mmc/MMCFreeNotifyHandle"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

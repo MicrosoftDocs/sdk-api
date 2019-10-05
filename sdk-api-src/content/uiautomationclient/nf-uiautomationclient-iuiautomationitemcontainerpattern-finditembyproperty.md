@@ -12,6 +12,8 @@ ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationItemContainerPattern.FindItemByProperty"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

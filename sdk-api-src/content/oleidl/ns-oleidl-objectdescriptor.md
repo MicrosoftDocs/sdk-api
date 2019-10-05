@@ -12,6 +12,8 @@ ms.keywords: "*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *P
 ms.topic: struct
 f1_keywords: 
  - "oleidl/OBJECTDESCRIPTOR"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

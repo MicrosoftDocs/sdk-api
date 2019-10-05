@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_PARAMETERS, PSECPKG_EVENT_D
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_PARAMETERS"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

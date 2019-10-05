@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ListCon
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.ListContentsComplete"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

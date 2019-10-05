@@ -12,6 +12,8 @@ ms.keywords: ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_EXTENDED_ERROR
 ms.topic: function
 f1_keywords:
 - sspi/SaslInitializeSecurityContext
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

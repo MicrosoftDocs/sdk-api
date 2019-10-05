@@ -12,6 +12,8 @@ ms.keywords: GetUserSummary, GetUserSummary method, GetUserSummary method,IWPCPr
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderConfig.GetUserSummary"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

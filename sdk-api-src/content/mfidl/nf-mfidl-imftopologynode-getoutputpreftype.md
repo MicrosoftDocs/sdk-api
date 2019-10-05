@@ -12,6 +12,8 @@ ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputP
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetOutputPrefType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

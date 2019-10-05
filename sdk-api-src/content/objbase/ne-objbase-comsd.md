@@ -12,6 +12,8 @@ ms.keywords: COMSD, COMSD enumeration [COM], SD_ACCESSPERMISSIONS, SD_ACCESSREST
 ms.topic: enum
 f1_keywords: 
  - "objbase/COMSD"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

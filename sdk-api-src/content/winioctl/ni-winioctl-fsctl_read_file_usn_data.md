@@ -12,6 +12,8 @@ ms.keywords: FSCTL_READ_FILE_USN_DATA, FSCTL_READ_FILE_USN_DATA control, FSCTL_R
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_READ_FILE_USN_DATA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

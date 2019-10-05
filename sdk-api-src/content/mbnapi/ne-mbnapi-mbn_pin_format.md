@@ -12,6 +12,8 @@ ms.keywords: MBN_PIN_FORMAT, MBN_PIN_FORMAT enumeration [Microsoft Broadband Net
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_PIN_FORMAT"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

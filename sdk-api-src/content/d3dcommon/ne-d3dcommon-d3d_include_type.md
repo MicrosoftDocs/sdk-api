@@ -12,6 +12,8 @@ ms.keywords: D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D_INCLUDE_FORCE_DWORD,
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_INCLUDE_TYPE
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

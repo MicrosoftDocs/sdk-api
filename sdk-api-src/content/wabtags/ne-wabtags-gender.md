@@ -12,6 +12,8 @@ ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, gen
 ms.topic: enum
 f1_keywords: 
  - "wabtags/Gender"
+dev_langs:
+ - c++
 req.header: wabtags.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetPare
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage4.GetParent"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

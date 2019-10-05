@@ -12,6 +12,8 @@ ms.keywords: "*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/DSMCC_SECTION"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LongPtrToUInt, LongPtrToUInt function [Windows Shell], SSIZETToUInt
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongPtrToUInt"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

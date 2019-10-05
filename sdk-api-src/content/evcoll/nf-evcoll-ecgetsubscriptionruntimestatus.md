@@ -12,6 +12,8 @@ ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus func
 ms.topic: function
 f1_keywords: 
  - "evcoll/EcGetSubscriptionRunTimeStatus"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

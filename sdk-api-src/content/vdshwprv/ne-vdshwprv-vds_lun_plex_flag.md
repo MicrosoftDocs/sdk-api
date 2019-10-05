@@ -12,6 +12,8 @@ ms.keywords: VDS_LPF_LBN_REMAP_ENABLED, VDS_LUN_PLEX_FLAG, VDS_LUN_PLEX_FLAG enu
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_LUN_PLEX_FLAG
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

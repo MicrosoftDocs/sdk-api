@@ -12,6 +12,8 @@ ms.keywords: "*LPDIEFFESCAPE, DIEFFESCAPE, DIEFFESCAPE structure [Human Input De
 ms.topic: struct
 f1_keywords: 
  - "dinput/DIEFFESCAPE, *LPDIEFFESCAPE"
+dev_langs:
+ - c++
 req.header: dinput.h
 req.include-header: 
 req.target-type: Windows

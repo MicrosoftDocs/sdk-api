@@ -12,6 +12,8 @@ ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, En
 ms.topic: function
 f1_keywords:
 - nspapi/EnumProtocols
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

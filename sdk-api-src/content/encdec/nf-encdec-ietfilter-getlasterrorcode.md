@@ -12,6 +12,8 @@ ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "encdec/IETFilter.GetLastErrorCode"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

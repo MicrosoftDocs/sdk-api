@@ -12,6 +12,8 @@ ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItem.GetParentItem"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

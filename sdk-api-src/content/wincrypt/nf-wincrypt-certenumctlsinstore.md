@@ -12,6 +12,8 @@ ms.keywords: CertEnumCTLsInStore, CertEnumCTLsInStore function [Security], _cryp
 ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumCTLsInStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDat
 ms.topic: function
 f1_keywords: 
  - "uxtheme/OpenThemeDataEx"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

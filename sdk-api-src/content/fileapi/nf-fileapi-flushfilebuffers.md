@@ -12,6 +12,8 @@ ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfi
 ms.topic: function
 f1_keywords: 
  - "fileapi/FlushFileBuffers"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

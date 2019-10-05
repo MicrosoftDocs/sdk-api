@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurfaceKernel interface [Display Devices],ReleaseKernelH
 ms.topic: method
 f1_keywords: 
  - "ddkernel/IDirectDrawSurfaceKernel.ReleaseKernelHandle"
+dev_langs:
+ - c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop

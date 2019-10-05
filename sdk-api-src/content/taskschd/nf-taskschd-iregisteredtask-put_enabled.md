@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTask.Enabled"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

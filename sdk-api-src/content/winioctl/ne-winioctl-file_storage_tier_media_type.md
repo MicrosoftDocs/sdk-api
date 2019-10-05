@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE
 ms.topic: enum
 f1_keywords: 
  - "winioctl/FILE_STORAGE_TIER_MEDIA_TYPE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

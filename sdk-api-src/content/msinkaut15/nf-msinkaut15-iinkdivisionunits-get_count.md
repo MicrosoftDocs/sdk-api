@@ -12,6 +12,8 @@ ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivision
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivisionUnits.Count"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

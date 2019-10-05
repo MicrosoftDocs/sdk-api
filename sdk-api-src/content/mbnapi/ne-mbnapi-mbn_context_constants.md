@@ -12,6 +12,8 @@ ms.keywords: MBN_ACCESSSTRING_LEN, MBN_CONTEXT_CONSTANTS, MBN_CONTEXT_CONSTANTS 
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_CONTEXT_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

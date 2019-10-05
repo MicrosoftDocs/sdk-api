@@ -12,6 +12,8 @@ ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStr
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

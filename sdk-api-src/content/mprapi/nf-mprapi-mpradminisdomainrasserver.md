@@ -12,6 +12,8 @@ ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS]
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminIsDomainRasServer"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIconPath, GetIconPath method [Media Foundation], GetIconPath met
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.GetIconPath"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

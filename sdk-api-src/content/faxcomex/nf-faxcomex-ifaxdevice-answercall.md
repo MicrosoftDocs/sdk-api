@@ -12,6 +12,8 @@ ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDevice.AnswerCall"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

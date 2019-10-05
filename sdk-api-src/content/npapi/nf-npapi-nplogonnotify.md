@@ -12,6 +12,8 @@ ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0,
 ms.topic: function
 f1_keywords:
 - npapi/NPLogonNotify
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

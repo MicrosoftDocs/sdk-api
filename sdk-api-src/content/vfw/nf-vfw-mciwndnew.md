@@ -12,6 +12,8 @@ ms.keywords: MCIWndNew, MCIWndNew macro [Windows Multimedia], _win32_MCIWndNew, 
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndNew"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

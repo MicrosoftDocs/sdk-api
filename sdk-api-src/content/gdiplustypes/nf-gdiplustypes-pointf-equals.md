@@ -12,6 +12,8 @@ ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],PointF class, Po
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/PointF.Equals"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

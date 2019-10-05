@@ -12,6 +12,8 @@ ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], d
 ms.topic: function
 f1_keywords: 
  - "dwrite/DWriteCreateFactory"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

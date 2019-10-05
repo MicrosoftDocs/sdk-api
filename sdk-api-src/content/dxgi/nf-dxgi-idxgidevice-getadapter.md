@@ -12,6 +12,8 @@ ms.keywords: 3bbfc03f-4bda-05eb-f6de-6f2c4564fa75, GetAdapter, GetAdapter method
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice.GetAdapter"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

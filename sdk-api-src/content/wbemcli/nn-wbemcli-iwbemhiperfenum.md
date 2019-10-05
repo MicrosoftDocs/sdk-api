@@ -12,6 +12,8 @@ ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Inst
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemHiPerfEnum"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

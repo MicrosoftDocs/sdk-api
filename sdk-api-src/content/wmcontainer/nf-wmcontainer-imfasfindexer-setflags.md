@@ -12,6 +12,8 @@ ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Medi
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.SetFlags"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

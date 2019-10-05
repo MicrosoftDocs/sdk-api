@@ -12,6 +12,8 @@ ms.keywords: UnregisterTouchWindow, UnregisterTouchWindow function [Windows Touc
 ms.topic: function
 f1_keywords: 
  - "winuser/UnregisterTouchWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

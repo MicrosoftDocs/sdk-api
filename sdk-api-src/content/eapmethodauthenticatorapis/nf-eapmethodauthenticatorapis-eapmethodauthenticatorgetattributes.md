@@ -12,6 +12,8 @@ ms.keywords: EapMethodAuthenticatorGetAttributes, EapMethodAuthenticatorGetAttri
 ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
+dev_langs:
+ - c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

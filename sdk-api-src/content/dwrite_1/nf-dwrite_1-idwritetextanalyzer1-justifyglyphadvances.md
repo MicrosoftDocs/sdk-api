@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalyzer1 interface [Direct Write],JustifyGlyphAdvances 
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.JustifyGlyphAdvances"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

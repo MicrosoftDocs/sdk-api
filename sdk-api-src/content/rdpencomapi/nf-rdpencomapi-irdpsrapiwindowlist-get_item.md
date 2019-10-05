@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIWindowList interface [RDP],Item property, IRDPSRAPIWindowL
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIWindowList.Item"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

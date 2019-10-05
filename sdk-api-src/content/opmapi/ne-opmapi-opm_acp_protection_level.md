@@ -12,6 +12,8 @@ ms.keywords: OPM_ACP_FORCE_ULONG, OPM_ACP_LEVEL_ONE, OPM_ACP_LEVEL_THREE, OPM_AC
 ms.topic: enum
 f1_keywords: 
  - "opmapi/OPM_ACP_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

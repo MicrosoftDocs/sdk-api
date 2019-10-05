@@ -12,6 +12,8 @@ ms.keywords: CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY, CRYPTUI_WIZ_EXPORT_PRIVAT
 ms.topic: function
 f1_keywords:
 - cryptuiapi/CryptUIWizExport
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

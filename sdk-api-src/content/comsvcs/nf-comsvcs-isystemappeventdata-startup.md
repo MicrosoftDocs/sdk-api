@@ -12,6 +12,8 @@ ms.keywords: ISystemAppEventData interface [COM+],Startup method, ISystemAppEven
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISystemAppEventData.Startup"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

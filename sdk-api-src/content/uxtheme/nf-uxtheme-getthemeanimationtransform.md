@@ -12,6 +12,8 @@ ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Wi
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeAnimationTransform"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [Windows Shell], Destroy method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerBrowser.Destroy"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

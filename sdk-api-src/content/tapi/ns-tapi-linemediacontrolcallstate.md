@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE, LINEMEDIA
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEMEDIACONTROLCALLSTATE"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

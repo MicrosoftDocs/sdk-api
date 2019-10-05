@@ -12,6 +12,8 @@ ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO 
 ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

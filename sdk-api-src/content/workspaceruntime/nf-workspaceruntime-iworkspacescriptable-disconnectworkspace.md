@@ -12,6 +12,8 @@ ms.keywords: DisconnectWorkspace, DisconnectWorkspace method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable.DisconnectWorkspace"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

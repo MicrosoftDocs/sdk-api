@@ -12,6 +12,8 @@ ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumreso
 ms.topic: function
 f1_keywords:
 - npapi/NPEnumResource
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

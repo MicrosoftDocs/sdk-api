@@ -12,6 +12,8 @@ ms.keywords: DdUnlock, DdUnlock callback function [Display Devices], PDD_SURFCB_
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdUnlock
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

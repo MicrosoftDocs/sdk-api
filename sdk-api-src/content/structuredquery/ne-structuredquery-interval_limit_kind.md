@@ -12,6 +12,8 @@ ms.keywords: ILK_EXPLICIT_EXCLUDED, ILK_EXPLICIT_INCLUDED, ILK_NEGATIVE_INFINITY
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/INTERVAL_LIMIT_KIND"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

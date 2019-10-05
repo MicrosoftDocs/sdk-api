@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutGetVolume, mmeapi/waveOutGetVolume, multimedia.waveo
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutGetVolume"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

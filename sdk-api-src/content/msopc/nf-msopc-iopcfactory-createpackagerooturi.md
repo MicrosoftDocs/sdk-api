@@ -12,6 +12,8 @@ ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging C
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcFactory.CreatePackageRootUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

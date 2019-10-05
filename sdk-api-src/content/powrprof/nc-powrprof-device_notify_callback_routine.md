@@ -12,6 +12,8 @@ ms.keywords: DEVICE_NOTIFY_CALLBACK_ROUTINE, DEVICE_NOTIFY_CALLBACK_ROUTINE call
 ms.topic: callback
 f1_keywords: 
  - "powrprof/DEVICE_NOTIFY_CALLBACK_ROUTINE"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

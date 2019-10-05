@@ -12,6 +12,8 @@ ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByDat
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfileManager.LoadProfileByData"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

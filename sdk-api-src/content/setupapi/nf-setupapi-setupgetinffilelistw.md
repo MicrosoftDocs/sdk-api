@@ -12,6 +12,8 @@ ms.keywords: SetupGetInfFileList, SetupGetInfFileList function [Setup API], Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetInfFileList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

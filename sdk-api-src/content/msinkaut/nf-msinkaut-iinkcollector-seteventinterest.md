@@ -12,6 +12,8 @@ ms.keywords: IInkCollector interface [Tablet PC],SetEventInterest method, IInkCo
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.SetEventInterest"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

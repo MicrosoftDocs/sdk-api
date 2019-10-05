@@ -12,6 +12,8 @@ ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsStoragePool.GetProvider"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

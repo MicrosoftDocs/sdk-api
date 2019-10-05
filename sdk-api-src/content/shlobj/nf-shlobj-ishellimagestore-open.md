@@ -12,6 +12,8 @@ ms.keywords: IShellImageStore interface [Windows Shell],Open method, IShellImage
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellImageStore.Open"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

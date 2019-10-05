@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],GetEmHeight method, FontFamily.GetEmHeight,
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.GetEmHeight"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

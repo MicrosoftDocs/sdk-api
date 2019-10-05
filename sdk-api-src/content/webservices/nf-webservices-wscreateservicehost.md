@@ -12,6 +12,8 @@ ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateServiceHost
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

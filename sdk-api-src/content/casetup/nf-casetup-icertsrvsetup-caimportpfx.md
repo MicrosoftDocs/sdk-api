@@ -12,6 +12,8 @@ ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Sec
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetup.CAImportPFX"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

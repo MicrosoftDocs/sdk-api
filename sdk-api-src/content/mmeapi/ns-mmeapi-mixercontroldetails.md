@@ -12,6 +12,8 @@ ms.keywords: "*LPMIXERCONTROLDETAILS, *PMIXERCONTROLDETAILS, 0, 1, MIXERCONTROL 
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIXERCONTROLDETAILS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

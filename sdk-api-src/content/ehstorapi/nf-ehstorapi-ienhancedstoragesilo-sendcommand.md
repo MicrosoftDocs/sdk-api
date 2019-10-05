@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand metho
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSilo.SendCommand"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

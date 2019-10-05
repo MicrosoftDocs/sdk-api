@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_D
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_DATA"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

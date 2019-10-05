@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, 4, GIL_FORSHELL, GIL_OPENICON, GetIconOf, GetIconOf met
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellIcon.GetIconOf
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

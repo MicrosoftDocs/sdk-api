@@ -12,6 +12,8 @@ ms.keywords: '*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT
 ms.topic: struct
 f1_keywords:
 - winevt/EVT_VARIANT
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

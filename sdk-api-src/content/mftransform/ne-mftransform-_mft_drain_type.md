@@ -12,6 +12,8 @@ ms.keywords: 8243b154-be93-4a81-9990-f022dc8cb736, MFT_DRAIN_NO_TAILS, MFT_DRAIN
 ms.topic: enum
 f1_keywords:
 - mftransform/_MFT_DRAIN_TYPE
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

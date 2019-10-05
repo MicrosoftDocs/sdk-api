@@ -12,6 +12,8 @@ ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetID meth
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer.SetID"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

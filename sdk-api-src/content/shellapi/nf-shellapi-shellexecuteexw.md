@@ -12,6 +12,8 @@ ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecu
 ms.topic: function
 f1_keywords:
 - shellapi/ShellExecuteEx
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDesc
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFDeserializePresentationDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

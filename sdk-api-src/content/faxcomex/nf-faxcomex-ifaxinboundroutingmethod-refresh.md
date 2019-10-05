@@ -12,6 +12,8 @@ ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Refresh method, IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethod.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplet
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquirePlugin.TransferComplete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

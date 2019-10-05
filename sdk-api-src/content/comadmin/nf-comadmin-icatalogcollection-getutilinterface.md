@@ -12,6 +12,8 @@ ms.keywords: GetUtilInterface, GetUtilInterface method [COM+], GetUtilInterface 
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.GetUtilInterface"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SLDATATYPE, SLDATATYPE enumeration [Security], SL_DATA_BINARY, SL_D
 ms.topic: enum
 f1_keywords: 
  - "slpublic/SLDATATYPE"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

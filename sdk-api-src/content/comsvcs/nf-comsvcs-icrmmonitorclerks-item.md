@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitorClerks interface [COM+],Item method, ICrmMonitorClerks.I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorClerks.Item"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

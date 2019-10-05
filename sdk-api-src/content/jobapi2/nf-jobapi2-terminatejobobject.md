@@ -12,6 +12,8 @@ ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejo
 ms.topic: function
 f1_keywords: 
  - "jobapi2/TerminateJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

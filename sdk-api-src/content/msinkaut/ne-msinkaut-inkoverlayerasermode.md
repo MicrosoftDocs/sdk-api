@@ -12,6 +12,8 @@ ms.keywords: IOERM_PointErase, IOERM_StrokeErase, InkOverlayEraserMode, InkOverl
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkOverlayEraserMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

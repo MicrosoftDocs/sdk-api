@@ -12,6 +12,8 @@ ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTDeleteEmbeddedFont"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

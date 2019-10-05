@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass functi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInfoListClass
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

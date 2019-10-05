@@ -12,6 +12,8 @@ ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Window
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVGROUPMETRICS"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

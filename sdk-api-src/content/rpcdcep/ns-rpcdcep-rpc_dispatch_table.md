@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE struc
 ms.topic: struct
 f1_keywords: 
  - "rpcdcep/RPC_DISPATCH_TABLE"
+dev_langs:
+ - c++
 req.header: rpcdcep.h
 req.include-header: 
 req.target-type: Windows

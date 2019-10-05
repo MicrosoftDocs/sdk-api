@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_DECODER_CONFIG, D3D11_VIDEO_DECODER_CONFIG structure [M
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_DECODER_CONFIG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

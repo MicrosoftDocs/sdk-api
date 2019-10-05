@@ -12,6 +12,8 @@ ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTimer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Button_SetTextMargin, Button_SetTextMargin macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_SetTextMargin"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

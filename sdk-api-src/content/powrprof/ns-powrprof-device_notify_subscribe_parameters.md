@@ -12,6 +12,8 @@ ms.keywords: "*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARA
 ms.topic: struct
 f1_keywords: 
  - "powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

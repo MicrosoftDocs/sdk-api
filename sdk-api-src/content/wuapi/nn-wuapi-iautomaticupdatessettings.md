@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Win
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

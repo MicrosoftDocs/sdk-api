@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyn
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.UpdateEvents"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

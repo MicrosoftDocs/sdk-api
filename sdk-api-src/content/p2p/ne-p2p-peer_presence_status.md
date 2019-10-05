@@ -12,6 +12,8 @@ ms.keywords: PEER_PRESENCE_AWAY, PEER_PRESENCE_BE_RIGHT_BACK, PEER_PRESENCE_BUSY
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_PRESENCE_STATUS"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

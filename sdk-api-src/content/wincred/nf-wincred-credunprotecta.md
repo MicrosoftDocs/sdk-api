@@ -12,6 +12,8 @@ ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, C
 ms.topic: function
 f1_keywords: 
  - "wincred/CredUnprotect"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

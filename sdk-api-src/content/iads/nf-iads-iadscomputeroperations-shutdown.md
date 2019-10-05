@@ -12,6 +12,8 @@ ms.keywords: IADsComputerOperations interface [ADSI],Shutdown method, IADsComput
 ms.topic: method
 f1_keywords: 
  - "iads/IADsComputerOperations.Shutdown"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

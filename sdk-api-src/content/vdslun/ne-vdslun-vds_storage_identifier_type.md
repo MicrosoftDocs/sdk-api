@@ -12,6 +12,8 @@ ms.keywords: VDSStorageIdTypeEUI64, VDSStorageIdTypeFCPHName, VDSStorageIdTypePo
 ms.topic: enum
 f1_keywords:
 - vdslun/VDS_STORAGE_IDENTIFIER_TYPE
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

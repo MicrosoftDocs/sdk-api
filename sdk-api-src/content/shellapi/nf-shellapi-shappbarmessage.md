@@ -12,6 +12,8 @@ ms.keywords: ABM_ACTIVATE, ABM_GETAUTOHIDEBAR, ABM_GETAUTOHIDEBAREX, ABM_GETSTAT
 ms.topic: function
 f1_keywords:
 - shellapi/SHAppBarMessage
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

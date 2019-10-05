@@ -12,6 +12,8 @@ ms.keywords: 0861be4c-0489-4fcd-3850-ea56ac9584c3, D3D11_BLEND, D3D11_BLEND enum
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_BLEND"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

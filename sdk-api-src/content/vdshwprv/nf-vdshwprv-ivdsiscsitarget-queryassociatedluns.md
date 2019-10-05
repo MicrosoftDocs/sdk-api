@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIsc
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsIscsiTarget.QueryAssociatedLuns"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

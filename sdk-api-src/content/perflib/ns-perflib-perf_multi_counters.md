@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS st
 ms.topic: struct
 f1_keywords:
 - perflib/PERF_MULTI_COUNTERS
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

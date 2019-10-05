@@ -12,6 +12,8 @@ ms.keywords: GetExtension, GetExtension method [Windows Shell], GetExtension met
 ms.topic: method
 f1_keywords: 
  - "shlobj/INewShortcutHook.GetExtension"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

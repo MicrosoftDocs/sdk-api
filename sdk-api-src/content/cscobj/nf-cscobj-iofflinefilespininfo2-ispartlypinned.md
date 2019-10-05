@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesPinInfo2 interface [Offline Files],IsPartlyPinned meth
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesPinInfo2.IsPartlyPinned"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

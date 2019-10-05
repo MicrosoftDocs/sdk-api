@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],ICertPropertie
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertProperties.Count"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

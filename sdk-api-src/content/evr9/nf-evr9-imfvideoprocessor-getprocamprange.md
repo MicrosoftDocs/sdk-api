@@ -12,6 +12,8 @@ ms.keywords: 03894bfe-020a-4478-af6f-88521d4bbb6d, GetProcAmpRange, GetProcAmpRa
 ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.GetProcAmpRange
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

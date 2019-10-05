@@ -12,6 +12,8 @@ ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_P
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor.GetPCR_PID"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer func
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsClientMakeSpnForTargetServer"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

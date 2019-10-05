@@ -12,6 +12,8 @@ ms.keywords: AVIStreamEnd, AVIStreamEnd macro [Windows Multimedia], _win32_AVISt
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamEnd"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

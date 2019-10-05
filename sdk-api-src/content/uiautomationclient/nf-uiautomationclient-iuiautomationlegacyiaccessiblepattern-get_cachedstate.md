@@ -12,6 +12,8 @@ ms.keywords: CachedState property [Windows Accessibility], CachedState property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedState"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

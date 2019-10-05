@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, 
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetKey2, GetKey2 method [Windows Management Instrumentation], GetKe
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPathKeyList.GetKey2"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

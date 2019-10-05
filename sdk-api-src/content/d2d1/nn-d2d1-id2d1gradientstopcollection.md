@@ -12,6 +12,8 @@ ms.keywords: ID2D1GradientStopCollection, ID2D1GradientStopCollection interface 
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1GradientStopCollection"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],SetCellVerticalText method, I
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.SetCellVerticalText"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

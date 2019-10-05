@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "objectarray/IObjectArray.GetAt"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

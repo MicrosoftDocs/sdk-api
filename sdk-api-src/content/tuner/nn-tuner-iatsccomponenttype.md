@@ -12,6 +12,8 @@ ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "tuner/IATSCComponentType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

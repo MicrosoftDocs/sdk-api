@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation4 interface [Windows Accessibility],RemoveChangesEvent
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation4.RemoveChangesEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable met
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPSITables.GetTable"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2psiparser.idl
 req.target-type: Windows

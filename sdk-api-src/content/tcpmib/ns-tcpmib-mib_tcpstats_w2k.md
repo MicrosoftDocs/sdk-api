@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCPSTATS, *PMIB_TCPSTATS_W2K, MIB_TCPSTATS, MIB_TCPSTATS str
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPSTATS
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

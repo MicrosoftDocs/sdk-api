@@ -12,6 +12,8 @@ ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject inte
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IEnumVdsObject"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

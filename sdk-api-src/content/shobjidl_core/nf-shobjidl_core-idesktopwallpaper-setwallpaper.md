@@ -12,6 +12,8 @@ ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, ID
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDesktopWallpaper.SetWallpaper"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

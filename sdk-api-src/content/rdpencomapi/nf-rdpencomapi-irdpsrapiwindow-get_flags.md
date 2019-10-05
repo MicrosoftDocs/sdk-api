@@ -12,6 +12,8 @@ ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interfac
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIWindow.Flags"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

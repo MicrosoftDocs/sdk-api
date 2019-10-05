@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF],
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingPortMapping"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

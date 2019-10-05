@@ -12,6 +12,8 @@ ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync
 ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchBase.AddItemMetadataToGroup
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

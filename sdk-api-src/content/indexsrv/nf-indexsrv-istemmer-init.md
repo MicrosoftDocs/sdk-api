@@ -12,6 +12,8 @@ ms.keywords: IStemmer interface [search],Init method, IStemmer.Init, IStemmer::I
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IStemmer.Init"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

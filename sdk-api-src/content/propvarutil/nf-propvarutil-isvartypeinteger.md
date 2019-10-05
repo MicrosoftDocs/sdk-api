@@ -12,6 +12,8 @@ ms.keywords: IsVarTypeInteger, IsVarTypeInteger function [Windows Properties], _
 ms.topic: function
 f1_keywords: 
  - "propvarutil/IsVarTypeInteger"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SSL_CLIENT_CERT_INFO, CERT_E_CN_NO_MATCH, CERT_E_EXPIRED, C
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SSL_CLIENT_CERT_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

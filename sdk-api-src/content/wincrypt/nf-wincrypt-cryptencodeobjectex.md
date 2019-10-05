@@ -12,6 +12,8 @@ ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_U
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptEncodeObjectEx
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

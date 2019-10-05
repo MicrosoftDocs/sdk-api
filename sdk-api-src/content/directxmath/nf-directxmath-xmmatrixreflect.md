@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixReflect, XMMatrixReflect, XMMatrixReflect meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixReflect"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

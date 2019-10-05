@@ -12,6 +12,8 @@ ms.keywords: DRT_ACTIVE, DRT_ALONE, DRT_FAULTED, DRT_NO_NETWORK, DRT_STATUS, DRT
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_STATUS"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

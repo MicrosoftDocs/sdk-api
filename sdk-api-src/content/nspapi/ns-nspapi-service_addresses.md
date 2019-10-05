@@ -12,6 +12,8 @@ ms.keywords: '*LPSERVICE_ADDRESSES, *PSERVICE_ADDRESSES, SERVICE_ADDRESSES, SERV
 ms.topic: struct
 f1_keywords:
 - nspapi/SERVICE_ADDRESSES
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

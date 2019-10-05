@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_
 ms.topic: struct
 f1_keywords:
 - dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

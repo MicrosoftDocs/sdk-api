@@ -12,6 +12,8 @@ ms.keywords: AddUserScopeRule, AddUserScopeRule method [search], AddUserScopeRul
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.AddUserScopeRule
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

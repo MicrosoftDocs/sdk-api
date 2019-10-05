@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_DHCID_DATA, DNS_DHCID_DATA, DNS_DHCID_DATA structure [DNS], 
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_DHCID_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

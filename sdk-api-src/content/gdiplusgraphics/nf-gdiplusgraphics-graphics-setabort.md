@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],SetAbort method, Graphics.SetAbort, Graphics:
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.SetAbort"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

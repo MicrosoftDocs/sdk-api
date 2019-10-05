@@ -12,6 +12,8 @@ ms.keywords: CF_OPERATION_PARAMETERS, CF_OPERATION_PARAMETERS structure, cfapi/C
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_OPERATION_PARAMETERS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

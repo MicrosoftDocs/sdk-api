@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountSet interface [Fax Service],RemoveAccount method, IFaxAc
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountSet.RemoveAccount"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

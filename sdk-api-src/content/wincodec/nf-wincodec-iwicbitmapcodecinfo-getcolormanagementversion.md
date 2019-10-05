@@ -12,6 +12,8 @@ ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Window
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapCodecInfo.GetColorManagementVersion"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

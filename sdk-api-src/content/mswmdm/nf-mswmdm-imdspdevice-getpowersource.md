@@ -12,6 +12,8 @@ ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice.GetPowerSource"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

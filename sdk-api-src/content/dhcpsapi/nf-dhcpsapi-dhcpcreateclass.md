@@ -12,6 +12,8 @@ ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreatecl
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateClass
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

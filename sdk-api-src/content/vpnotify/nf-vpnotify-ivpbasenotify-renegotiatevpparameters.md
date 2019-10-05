@@ -12,6 +12,8 @@ ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method
 ms.topic: method
 f1_keywords: 
  - "vpnotify/IVPBaseNotify.RenegotiateVPParameters"
+dev_langs:
+ - c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

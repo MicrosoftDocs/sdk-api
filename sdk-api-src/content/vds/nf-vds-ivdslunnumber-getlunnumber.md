@@ -12,6 +12,8 @@ ms.keywords: GetLunNumber, GetLunNumber method, GetLunNumber method,IVdsLunNumbe
 ms.topic: method
 f1_keywords:
 - vds/IVdsLunNumber.GetLunNumber
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Ani
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_OpenEx"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

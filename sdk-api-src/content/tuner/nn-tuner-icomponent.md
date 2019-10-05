@@ -12,6 +12,8 @@ ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], IComp
 ms.topic: interface
 f1_keywords: 
  - "tuner/IComponent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

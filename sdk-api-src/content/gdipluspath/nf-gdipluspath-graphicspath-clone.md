@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class,
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.Clone"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

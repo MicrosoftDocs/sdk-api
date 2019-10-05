@@ -12,6 +12,8 @@ ms.keywords: TOC_POS_INHEADER, TOC_POS_TOPLEVELOBJECT, TOC_POS_TYPE, TOC_POS_TYP
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/TOC_POS_TYPE"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

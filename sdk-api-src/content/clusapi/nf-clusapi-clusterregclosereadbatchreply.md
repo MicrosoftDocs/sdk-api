@@ -12,6 +12,8 @@ ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply functi
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterRegCloseReadBatchReply"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

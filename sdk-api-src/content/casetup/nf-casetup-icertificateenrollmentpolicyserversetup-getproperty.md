@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Sec
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertificateEnrollmentPolicyServerSetup.GetProperty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeletePIDs, DeletePIDs method [Microsoft TV Technologies], DeletePI
 ms.topic: method
 f1_keywords: 
  - "bdatif/IMPEG2_TIF_CONTROL.DeletePIDs"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

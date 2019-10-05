@@ -12,6 +12,8 @@ ms.keywords: AUDCLNT_SHAREMODE, AUDCLNT_SHAREMODE , AUDCLNT_SHAREMODE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "audiosessiontypes/AUDCLNT_SHAREMODE"
+dev_langs:
+ - c++
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows

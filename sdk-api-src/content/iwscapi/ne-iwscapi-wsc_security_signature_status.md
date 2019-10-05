@@ -12,6 +12,8 @@ ms.keywords: WSC_SECURITY_PRODUCT_OUT_OF_DATE, WSC_SECURITY_PRODUCT_UP_TO_DATE, 
 ms.topic: enum
 f1_keywords: 
  - "iwscapi/WSC_SECURITY_SIGNATURE_STATUS"
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

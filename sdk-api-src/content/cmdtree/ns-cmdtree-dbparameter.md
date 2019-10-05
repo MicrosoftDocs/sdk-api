@@ -12,6 +12,8 @@ ms.keywords: DBPARAMETER, DBPARAMETER structure [Indexing Service], _idxs_DBPARA
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBPARAMETER"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

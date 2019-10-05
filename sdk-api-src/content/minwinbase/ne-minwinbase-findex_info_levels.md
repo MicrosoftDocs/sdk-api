@@ -12,6 +12,8 @@ ms.keywords: FINDEX_INFO_LEVELS, FINDEX_INFO_LEVELS enumeration [Files], FindExI
 ms.topic: enum
 f1_keywords:
 - minwinbase/FINDEX_INFO_LEVELS
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

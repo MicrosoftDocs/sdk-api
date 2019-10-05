@@ -12,6 +12,8 @@ ms.keywords: CountRefs, CountRefs method [COM], CountRefs method [COM],IRpcStubB
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcStubBuffer.CountRefs"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

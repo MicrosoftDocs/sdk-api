@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX struc
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_ICMP_EX
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

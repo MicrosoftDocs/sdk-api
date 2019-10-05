@@ -12,6 +12,8 @@ ms.keywords: TSPUB_PLUGIN_PD_QUERY_EXISTING, TSPUB_PLUGIN_PD_QUERY_OR_CREATE, TS
 ms.topic: enum
 f1_keywords: 
  - "tspubplugin2com/TSPUB_PLUGIN_PD_RESOLUTION_TYPE"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

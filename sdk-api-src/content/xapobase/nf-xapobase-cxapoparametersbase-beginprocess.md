@@ -12,6 +12,8 @@ ms.keywords: BeginProcess, BeginProcess method [XAudio2 Audio Mixing APIs], Begi
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOParametersBase.BeginProcess"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

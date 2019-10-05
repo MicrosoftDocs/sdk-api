@@ -12,6 +12,8 @@ ms.keywords: BSTR_UserMarshal, BSTR_UserMarshal function [Automation], _oa96_BST
 ms.topic: function
 f1_keywords: 
  - "oaidl/BSTR_UserMarshal"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

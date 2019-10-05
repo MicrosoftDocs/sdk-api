@@ -12,6 +12,8 @@ ms.keywords: GetPointerFrameTouchInfo, GetPointerFrameTouchInfo function [Input 
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerFrameTouchInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

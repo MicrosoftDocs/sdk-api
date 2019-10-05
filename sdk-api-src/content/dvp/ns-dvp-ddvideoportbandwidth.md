@@ -12,6 +12,8 @@ ms.keywords: '*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDT
 ms.topic: struct
 f1_keywords:
 - dvp/DDVIDEOPORTBANDWIDTH
+dev_langs:
+ - c++
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

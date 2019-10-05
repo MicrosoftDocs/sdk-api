@@ -12,6 +12,8 @@ ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalS
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSignalEvents.OnSignalStateChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

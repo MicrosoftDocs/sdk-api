@@ -12,6 +12,8 @@ ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _win32_E
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENOLEOPFAILED"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

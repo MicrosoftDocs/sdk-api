@@ -12,6 +12,8 @@ ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManage
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IManagedActivationEvents.DestroyManagedStub"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

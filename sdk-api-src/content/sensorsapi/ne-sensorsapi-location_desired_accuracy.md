@@ -12,6 +12,8 @@ ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [S
 ms.topic: enum
 f1_keywords: 
  - "sensorsapi/LOCATION_DESIRED_ACCURACY"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Ser
 ms.topic: function
 f1_keywords: 
  - "wdsbp/WdsBpCloseHandle"
+dev_langs:
+ - c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

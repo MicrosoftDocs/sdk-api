@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Active Directory], Clear method [Active Direct
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IPersistQuery.Clear"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

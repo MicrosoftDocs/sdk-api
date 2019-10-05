@@ -12,6 +12,8 @@ ms.keywords: 675fd28c-3c3f-013f-f9c3-8c82054eae00, GetType, GetType method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetType"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

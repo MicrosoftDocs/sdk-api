@@ -12,6 +12,8 @@ ms.keywords: '*LPLINECALLPARAMS, LINECALLPARAMS, LINECALLPARAMS structure [TAPI 
 ms.topic: struct
 f1_keywords:
 - tapi/LINECALLPARAMS
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

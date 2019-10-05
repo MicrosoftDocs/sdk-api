@@ -12,6 +12,8 @@ ms.keywords: GetEnableFastCache, GetEnableFastCache method [windows Media Format
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig2.GetEnableFastCache"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

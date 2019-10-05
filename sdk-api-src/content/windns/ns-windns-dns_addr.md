@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_AD
 ms.topic: struct
 f1_keywords:
 - windns/DNS_ADDR
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

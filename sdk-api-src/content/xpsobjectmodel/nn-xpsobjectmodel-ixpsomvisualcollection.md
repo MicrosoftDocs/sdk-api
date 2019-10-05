@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Docum
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisualCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

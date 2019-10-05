@@ -12,6 +12,8 @@ ms.keywords: DWRITE_NUMBER_SUBSTITUTION_METHOD, DWRITE_NUMBER_SUBSTITUTION_METHO
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

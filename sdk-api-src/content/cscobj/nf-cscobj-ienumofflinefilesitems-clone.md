@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],I
 ms.topic: method
 f1_keywords: 
  - "cscobj/IEnumOfflineFilesItems.Clone"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

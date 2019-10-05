@@ -12,6 +12,8 @@ ms.keywords: GetViewInfo, GetViewInfo method [COM], GetViewInfo method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUIObjInfo.GetViewInfo"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

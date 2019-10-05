@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceServiceMethodCallback interface [Windows Portable De
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceMethodCallback.OnComplete"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

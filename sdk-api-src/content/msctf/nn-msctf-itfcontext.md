@@ -12,6 +12,8 @@ ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfCont
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfContext"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

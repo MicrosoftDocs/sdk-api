@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserUnmarshal64, VARIANT_UserUnmarshal64 function [Automati
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserUnmarshal64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQu
 ms.topic: function
 f1_keywords:
 - shellapi/SHQueryRecycleBin
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

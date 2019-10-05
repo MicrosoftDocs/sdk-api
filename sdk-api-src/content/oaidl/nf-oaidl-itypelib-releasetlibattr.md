@@ -12,6 +12,8 @@ ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.Re
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeLib.ReleaseTLibAttr"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

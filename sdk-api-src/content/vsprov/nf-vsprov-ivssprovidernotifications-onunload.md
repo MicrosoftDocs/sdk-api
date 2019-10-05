@@ -12,6 +12,8 @@ ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProv
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssProviderNotifications.OnUnload"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

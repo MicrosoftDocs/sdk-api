@@ -12,6 +12,8 @@ ms.keywords: GetPropertySize, GetPropertySize method [GDI+], GetPropertySize met
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetPropertySize"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

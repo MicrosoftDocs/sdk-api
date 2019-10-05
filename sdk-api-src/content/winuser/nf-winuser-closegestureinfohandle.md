@@ -12,6 +12,8 @@ ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows To
 ms.topic: function
 f1_keywords: 
  - "winuser/CloseGestureInfoHandle"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

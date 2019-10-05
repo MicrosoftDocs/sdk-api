@@ -12,6 +12,8 @@ ms.keywords: CF_POPULATION_POLICY_MODIFIER, CF_POPULATION_POLICY_MODIFIER enumer
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_POPULATION_POLICY_MODIFIER"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

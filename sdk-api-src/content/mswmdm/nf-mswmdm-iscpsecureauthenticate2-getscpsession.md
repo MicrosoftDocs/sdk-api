@@ -12,6 +12,8 @@ ms.keywords: GetSCPSession, GetSCPSession method [windows Media Device Manager],
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureAuthenticate2.GetSCPSession"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

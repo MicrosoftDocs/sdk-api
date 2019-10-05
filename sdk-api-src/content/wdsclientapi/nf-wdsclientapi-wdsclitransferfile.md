@@ -12,6 +12,8 @@ ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFi
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliTransferFile"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed fu
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/IsManagementRegistrationAllowed"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

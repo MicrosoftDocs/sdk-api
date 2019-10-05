@@ -12,6 +12,8 @@ ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc met
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.DeleteVarDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

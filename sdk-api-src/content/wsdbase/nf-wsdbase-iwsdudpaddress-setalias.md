@@ -12,6 +12,8 @@ ms.keywords: IWSDUdpAddress interface,SetAlias method, IWSDUdpAddress.SetAlias, 
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDUdpAddress.SetAlias"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

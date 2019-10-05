@@ -12,6 +12,8 @@ ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Win
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard2.Conclude"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

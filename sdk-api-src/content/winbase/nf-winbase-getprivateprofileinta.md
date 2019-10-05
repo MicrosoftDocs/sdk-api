@@ -12,6 +12,8 @@ ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProf
 ms.topic: function
 f1_keywords: 
  - "winbase/GetPrivateProfileInt"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

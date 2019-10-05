@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RANGE_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

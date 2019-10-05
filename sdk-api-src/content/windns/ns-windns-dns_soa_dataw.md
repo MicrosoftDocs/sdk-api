@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_SOA_DATA, *PDNS_SOA_DATAW, DNS_SOA_DATA, DNS_SOA_DATA struct
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_SOA_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

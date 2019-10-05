@@ -12,6 +12,8 @@ ms.keywords: STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/STROBJ_fxBreakExtra
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

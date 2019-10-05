@@ -12,6 +12,8 @@ ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyn
 ms.topic: interface
 f1_keywords: 
  - "syncregistration/ISyncProviderInfo"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

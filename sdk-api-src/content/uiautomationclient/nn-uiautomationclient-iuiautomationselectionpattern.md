@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interf
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

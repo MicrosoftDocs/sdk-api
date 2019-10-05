@@ -12,6 +12,8 @@ ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [W
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.DragEnter"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsDiskOnline"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

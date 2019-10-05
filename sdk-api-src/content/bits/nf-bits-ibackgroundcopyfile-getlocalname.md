@@ -12,6 +12,8 @@ ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyFile.GetLocalName"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

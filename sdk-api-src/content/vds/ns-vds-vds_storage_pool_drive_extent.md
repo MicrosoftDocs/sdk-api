@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT, P
 ms.topic: struct
 f1_keywords:
 - vds/VDS_STORAGE_POOL_DRIVE_EXTENT
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

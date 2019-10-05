@@ -12,6 +12,8 @@ ms.keywords: DsFreeSpnArray, DsFreeSpnArray function [Active Directory], DsFreeS
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsFreeSpnArray"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

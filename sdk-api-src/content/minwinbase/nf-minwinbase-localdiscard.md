@@ -12,6 +12,8 @@ ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdi
 ms.topic: macro
 f1_keywords: 
  - "minwinbase/LocalDiscard"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Context_NewDynamicInstance, MI_Context_NewDynamicInstance functi
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Context_NewDynamicInstance"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

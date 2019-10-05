@@ -12,6 +12,8 @@ ms.keywords: VMRMode, VMRMode enumeration [DirectShow], VMRModeEnumeration, VMRM
 ms.topic: enum
 f1_keywords: 
  - "strmif/VMRMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITa
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.GetProperty"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

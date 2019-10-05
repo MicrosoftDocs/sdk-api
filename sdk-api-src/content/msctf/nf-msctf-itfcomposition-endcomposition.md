@@ -12,6 +12,8 @@ ms.keywords: EndComposition, EndComposition method [Text Services Framework], En
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfComposition.EndComposition"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

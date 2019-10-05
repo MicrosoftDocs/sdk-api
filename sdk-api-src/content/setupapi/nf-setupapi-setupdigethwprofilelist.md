@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetHwProfileList, SetupDiGetHwProfileList function [Device a
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiGetHwProfileList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

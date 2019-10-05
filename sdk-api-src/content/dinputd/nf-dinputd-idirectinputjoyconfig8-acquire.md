@@ -12,6 +12,8 @@ ms.keywords: Acquire, Acquire method [Human Input Devices], Acquire method [Huma
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.Acquire"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

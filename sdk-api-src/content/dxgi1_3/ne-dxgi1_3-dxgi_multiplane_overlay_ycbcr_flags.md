@@ -12,6 +12,8 @@ ms.keywords: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_MULTIPLANE_OVERLAY_YCbCr_
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: D3D12_DRED_VERSION, D3D12_DRED_VERSION enumeration, D3D12_DRED_VERS
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DRED_VERSION"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

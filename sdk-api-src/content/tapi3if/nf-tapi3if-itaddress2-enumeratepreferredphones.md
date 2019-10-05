@@ -12,6 +12,8 @@ ms.keywords: EnumeratePreferredPhones, EnumeratePreferredPhones method [TAPI 2.2
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddress2.EnumeratePreferredPhones"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

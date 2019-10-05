@@ -12,6 +12,8 @@ ms.keywords: GetOffset, GetOffset method [XPS Documents and Packaging], GetOffse
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientStop.GetOffset"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

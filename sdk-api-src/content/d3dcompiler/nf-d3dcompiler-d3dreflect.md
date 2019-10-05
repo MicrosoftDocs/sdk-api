@@ -12,6 +12,8 @@ ms.keywords: 3df99cee-b0b6-2f29-2bd1-7eb53e907191, D3DReflect, D3DReflect functi
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DReflect"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

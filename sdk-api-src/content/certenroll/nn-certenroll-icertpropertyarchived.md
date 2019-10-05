@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], 
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertPropertyArchived"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

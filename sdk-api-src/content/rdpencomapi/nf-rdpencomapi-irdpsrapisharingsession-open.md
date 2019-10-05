@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPISharingSession interface [RDP],Open method, IRDPSRAPIShari
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.Open"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

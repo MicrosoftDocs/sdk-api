@@ -12,6 +12,8 @@ ms.keywords: DRMTIMETYPE, DRMTIMETYPE enumeration [Active Directory Rights Manag
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMTIMETYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

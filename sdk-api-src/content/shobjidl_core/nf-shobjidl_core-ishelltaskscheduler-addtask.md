@@ -12,6 +12,8 @@ ms.keywords: AddTask, AddTask method [Windows Shell], AddTask method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellTaskScheduler.AddTask"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

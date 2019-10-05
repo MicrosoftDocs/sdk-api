@@ -12,6 +12,8 @@ ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Securi
 ms.topic: method
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentData.FreeBuffer"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

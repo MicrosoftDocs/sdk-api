@@ -12,6 +12,8 @@ ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntry.GetDescriptionData"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

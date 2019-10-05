@@ -12,6 +12,8 @@ ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ER
 ms.topic: callback
 f1_keywords: 
  - "ras/RasDialFunc2"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE
 ms.topic: enum
 f1_keywords:
 - http/HTTP_DATA_CHUNK_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

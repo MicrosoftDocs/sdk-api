@@ -12,6 +12,8 @@ ms.keywords: '*PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_ROOT_PROGRAM_FLAG_LSC, C
 ms.topic: struct
 f1_keywords:
 - wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_STATUS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FWPM_CLASSIFY_OPTIONS0, FWPM_CLASSIFY_OPTIONS0 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CLASSIFY_OPTIONS0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

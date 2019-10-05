@@ -12,6 +12,8 @@ ms.keywords: "*PNET_IF_CONNECTION_TYPE, NET_IF_CONNECTION_DEDICATED, NET_IF_CONN
 ms.topic: enum
 f1_keywords: 
  - "ifdef/NET_IF_CONNECTION_TYPE"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

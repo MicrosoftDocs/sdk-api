@@ -12,6 +12,8 @@ ms.keywords: UuidCompare, UuidCompare function [RPC], _rpc_uuidcompare, rpc.uuid
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidCompare"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

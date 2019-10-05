@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmCalloutSubscriptionsGet0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

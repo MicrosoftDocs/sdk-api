@@ -12,6 +12,8 @@ ms.keywords: EnumFileScreenExceptions, EnumFileScreenExceptions method [File Ser
 ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenManager.EnumFileScreenExceptions
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

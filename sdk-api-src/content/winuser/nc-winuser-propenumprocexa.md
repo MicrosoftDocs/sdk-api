@@ -12,6 +12,8 @@ ms.keywords: PropEnumProcEx, PropEnumProcEx callback, PropEnumProcEx callback fu
 ms.topic: callback
 f1_keywords: 
  - "winuser/PropEnumProcEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

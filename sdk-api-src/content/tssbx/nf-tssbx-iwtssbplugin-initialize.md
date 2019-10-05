@@ -12,6 +12,8 @@ ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Initialize method,
 ms.topic: method
 f1_keywords: 
  - "tssbx/IWTSSBPlugin.Initialize"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

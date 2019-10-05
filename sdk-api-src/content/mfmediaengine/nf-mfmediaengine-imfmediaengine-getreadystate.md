@@ -12,6 +12,8 @@ ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadySta
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetReadyState"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

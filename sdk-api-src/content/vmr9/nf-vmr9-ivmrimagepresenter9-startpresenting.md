@@ -12,6 +12,8 @@ ms.keywords: IVMRImagePresenter9 interface [DirectShow],StartPresenting method, 
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRImagePresenter9.StartPresenting"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.GetCch"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

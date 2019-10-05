@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOU
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetResourceDependentIPAddressProps"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

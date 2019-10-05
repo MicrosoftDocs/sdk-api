@@ -12,6 +12,8 @@ ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method 
 ms.topic: method
 f1_keywords:
 - winsync/IFeedClockVectorElement.GetSyncTime
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

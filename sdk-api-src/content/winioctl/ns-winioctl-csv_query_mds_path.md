@@ -12,6 +12,8 @@ ms.keywords: '*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH struc
 ms.topic: struct
 f1_keywords:
 - winioctl/CSV_QUERY_MDS_PATH
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

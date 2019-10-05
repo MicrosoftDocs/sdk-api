@@ -12,6 +12,8 @@ ms.keywords: GetExportedTypeProps, GetExportedTypeProps method [Windows Runtime]
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.GetExportedTypeProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

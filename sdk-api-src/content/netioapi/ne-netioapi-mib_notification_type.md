@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_T
 ms.topic: enum
 f1_keywords: 
  - "netioapi/MIB_NOTIFICATION_TYPE"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

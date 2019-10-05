@@ -12,6 +12,8 @@ ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back,
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPDVD.back"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanRegisterWithAU property [Windows Update Agent], CanRegisterWithA
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.CanRegisterWithAU"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

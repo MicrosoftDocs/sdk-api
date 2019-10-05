@@ -12,6 +12,8 @@ ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_Draw
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibTime"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

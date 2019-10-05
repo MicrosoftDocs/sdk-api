@@ -12,6 +12,8 @@ ms.keywords: FLICKACTION_COMMANDCODE, FLICKACTION_COMMANDCODE enumeration [Table
 ms.topic: enum
 f1_keywords: 
  - "tabflicks/FLICKACTION_COMMANDCODE"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

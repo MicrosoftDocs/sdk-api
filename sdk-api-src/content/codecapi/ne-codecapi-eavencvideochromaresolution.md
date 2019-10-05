@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoChromaResolution, codecapi/eAVEncVideoChromaRes
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoChromaResolution"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

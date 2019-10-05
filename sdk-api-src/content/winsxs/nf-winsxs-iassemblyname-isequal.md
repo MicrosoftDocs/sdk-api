@@ -12,6 +12,8 @@ ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, I
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyName.IsEqual"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

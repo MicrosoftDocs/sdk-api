@@ -12,6 +12,8 @@ ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableD
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.DisableDebugging"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

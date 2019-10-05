@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.Offline
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF3.OfflineVolume"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVMRMonitorConfig9, IVMRMonitorConfig9 interface [DirectShow], IVMR
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRMonitorConfig9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

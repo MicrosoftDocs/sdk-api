@@ -12,6 +12,8 @@ ms.keywords: AddAccessAllowedAceEx, AddAccessAllowedAceEx function [Security], C
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddAccessAllowedAceEx
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

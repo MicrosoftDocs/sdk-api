@@ -12,6 +12,8 @@ ms.keywords: IWbemProviderIdentity interface [Windows Management Instrumentation
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemProviderIdentity.SetRegistrationObject"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

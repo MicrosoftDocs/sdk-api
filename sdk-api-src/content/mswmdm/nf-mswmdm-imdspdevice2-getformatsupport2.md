@@ -12,6 +12,8 @@ ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device M
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice2.GetFormatSupport2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

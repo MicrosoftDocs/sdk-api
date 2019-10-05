@@ -12,6 +12,8 @@ ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_NIT.GetTableDescriptorByIndex"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateNegation, CreateNegation method [search], CreateNegation meth
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.CreateNegation"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

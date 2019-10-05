@@ -12,6 +12,8 @@ ms.keywords: "*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover C
 ms.topic: enum
 f1_keywords: 
  - "resapi/FAILURE_TYPE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

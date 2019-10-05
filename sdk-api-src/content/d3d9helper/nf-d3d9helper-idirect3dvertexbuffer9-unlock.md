@@ -12,6 +12,8 @@ ms.keywords: 5a3902da-98ea-e009-1f97-f26c26aa9113, IDirect3DVertexBuffer9 interf
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVertexBuffer9.Unlock"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

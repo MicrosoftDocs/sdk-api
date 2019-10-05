@@ -12,6 +12,8 @@ ms.keywords: 62425c21-62fb-4a29-b024-8d5dc237b430, IStylusPlugin interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.RealTimeStylusDisabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

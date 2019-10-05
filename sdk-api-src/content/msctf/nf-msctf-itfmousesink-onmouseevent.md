@@ -12,6 +12,8 @@ ms.keywords: ITfMouseSink interface [Text Services Framework],OnMouseEvent metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfMouseSink.OnMouseEvent"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

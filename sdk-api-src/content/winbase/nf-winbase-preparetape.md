@@ -12,6 +12,8 @@ ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD,
 ms.topic: function
 f1_keywords: 
  - "winbase/PrepareTape"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

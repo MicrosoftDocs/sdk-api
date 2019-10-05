@@ -12,6 +12,8 @@ ms.keywords: ID2D1Geometry interface [Direct2D],Simplify method, ID2D1Geometry.S
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Geometry.Simplify"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

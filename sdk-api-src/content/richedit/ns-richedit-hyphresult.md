@@ -12,6 +12,8 @@ ms.keywords: HYPHRESULT, HYPHRESULT structure [Windows Controls], _win32_HYPHRES
 ms.topic: struct
 f1_keywords: 
  - "richedit/HYPHRESULT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAdapterDisplayModeEx, GetAdapterDisplayModeEx method [Direct3D 9
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9Ex.GetAdapterDisplayModeEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

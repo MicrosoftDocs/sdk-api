@@ -12,6 +12,8 @@ ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetInfoVQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

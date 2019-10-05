@@ -12,6 +12,8 @@ ms.keywords: UnregisterAuthoringClientFunctionType, UnregisterAuthoringClientFun
 ms.topic: callback
 f1_keywords: 
  - "webapplication/UnregisterAuthoringClientFunctionType"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPARSEDURLW, PARSEDURL, PARSEDURL structure [Windows Shell], PARS
 ms.topic: struct
 f1_keywords: 
  - "shlwapi/PARSEDURL"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

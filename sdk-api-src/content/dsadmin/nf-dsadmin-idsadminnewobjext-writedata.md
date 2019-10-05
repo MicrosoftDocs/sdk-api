@@ -12,6 +12,8 @@ ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_P
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjExt.WriteData"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

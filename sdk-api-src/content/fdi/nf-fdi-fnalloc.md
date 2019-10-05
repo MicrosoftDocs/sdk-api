@@ -12,6 +12,8 @@ ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNALLOC"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

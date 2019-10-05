@@ -12,6 +12,8 @@ ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_C
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeRegisterCallback"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

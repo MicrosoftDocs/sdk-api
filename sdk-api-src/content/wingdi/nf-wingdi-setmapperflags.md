@@ -12,6 +12,8 @@ ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMa
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetMapperFlags"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

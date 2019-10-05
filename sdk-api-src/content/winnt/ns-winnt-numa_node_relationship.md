@@ -12,6 +12,8 @@ ms.keywords: '*PNUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATI
 ms.topic: struct
 f1_keywords:
 - winnt/NUMA_NODE_RELATIONSHIP
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

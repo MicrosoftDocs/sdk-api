@@ -12,6 +12,8 @@ ms.keywords: IAMGraphStreams interface [DirectShow],SyncUsingStreamOffset method
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMGraphStreams.SyncUsingStreamOffset"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

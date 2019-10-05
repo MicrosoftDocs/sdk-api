@@ -12,6 +12,8 @@ ms.keywords: MBN_REGISTER_MODE, MBN_REGISTER_MODE enumeration [Microsoft Broadba
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_REGISTER_MODE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

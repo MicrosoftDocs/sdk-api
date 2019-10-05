@@ -12,6 +12,8 @@ ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/XLATEOBJ_cGetPalette
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: MappingDoAction, MappingDoAction function [Internationalization for
 ms.topic: function
 f1_keywords:
 - elscore/MappingDoAction
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

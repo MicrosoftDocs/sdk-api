@@ -12,6 +12,8 @@ ms.keywords: CERT_NAME_STR_COMMA_FLAG, CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DI
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertStrToName"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

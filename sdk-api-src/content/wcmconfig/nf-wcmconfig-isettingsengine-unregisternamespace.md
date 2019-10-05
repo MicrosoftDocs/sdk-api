@@ -12,6 +12,8 @@ ms.keywords: ISettingsEngine interface [SMI],UnregisterNamespace method, ISettin
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.UnregisterNamespace"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

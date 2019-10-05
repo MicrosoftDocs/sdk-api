@@ -12,6 +12,8 @@ ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IWP
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCSettings.GetRestrictions"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

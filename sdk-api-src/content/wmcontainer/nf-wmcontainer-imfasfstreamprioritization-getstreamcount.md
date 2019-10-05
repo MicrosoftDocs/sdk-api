@@ -12,6 +12,8 @@ ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCoun
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamPrioritization.GetStreamCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

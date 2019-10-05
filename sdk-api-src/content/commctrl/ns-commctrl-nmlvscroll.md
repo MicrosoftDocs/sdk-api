@@ -12,6 +12,8 @@ ms.keywords: '*LPNMLVSCROLL, LPNMLVSCROLL, LPNMLVSCROLL structure pointer [Windo
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVSCROLL
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

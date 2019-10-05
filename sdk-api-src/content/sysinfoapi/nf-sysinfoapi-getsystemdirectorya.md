@@ -12,6 +12,8 @@ ms.keywords: GetSystemDirectory, GetSystemDirectory function, GetSystemDirectory
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetSystemDirectory"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PostFree method, IMallocSpy.PostFree, IM
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PostFree"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOS
 ms.topic: function
 f1_keywords:
 - qos2/QOSSetFlow
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

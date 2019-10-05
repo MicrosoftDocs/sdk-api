@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_VERSION_DATA, PEER_VERSION_DATA, PEER_VERSION_DATA structur
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_VERSION_DATA"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

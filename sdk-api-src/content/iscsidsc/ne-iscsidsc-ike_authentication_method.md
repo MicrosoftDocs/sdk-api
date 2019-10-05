@@ -12,6 +12,8 @@ ms.keywords: "*PIKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD, IKE_AUTHEN
 ms.topic: enum
 f1_keywords: 
  - "iscsidsc/IKE_AUTHENTICATION_METHOD"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

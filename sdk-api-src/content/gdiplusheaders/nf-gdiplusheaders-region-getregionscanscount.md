@@ -12,6 +12,8 @@ ms.keywords: GetRegionScansCount, GetRegionScansCount method [GDI+], GetRegionSc
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.GetRegionScansCount"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

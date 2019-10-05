@@ -12,6 +12,8 @@ ms.keywords: 5922d4df-f6ec-4fce-1a94-3779ba7e2830, CheckInterfaceSupport, CheckI
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIAdapter.CheckInterfaceSupport"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

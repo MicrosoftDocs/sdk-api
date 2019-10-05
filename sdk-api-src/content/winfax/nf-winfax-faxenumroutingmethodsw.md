@@ -12,6 +12,8 @@ ms.keywords: FaxEnumRoutingMethods, FaxEnumRoutingMethods function [Fax Service]
 ms.topic: function
 f1_keywords:
 - winfax/FaxEnumRoutingMethods
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

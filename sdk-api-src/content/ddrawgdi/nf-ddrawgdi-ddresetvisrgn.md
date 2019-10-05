@@ -12,6 +12,8 @@ ms.keywords: DdResetVisrgn, DdResetVisrgn function [Windows API], GdiEntry6, _dx
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdResetVisrgn"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientShutdown, WdsTransportClientShutdown function [Wi
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientShutdown"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

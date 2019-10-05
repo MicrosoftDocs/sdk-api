@@ -12,6 +12,8 @@ ms.keywords: GPMSOMCollection, IGPMSOMCollection, IGPMSOMCollection interface [G
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMSOMCollection"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

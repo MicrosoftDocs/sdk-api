@@ -12,6 +12,8 @@ ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey, GetRegistryK
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetRegistryKey"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

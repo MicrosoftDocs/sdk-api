@@ -12,6 +12,8 @@ ms.keywords: CachedExpandCollapseState property [Windows Accessibility], CachedE
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationExpandCollapsePattern.CachedExpandCollapseState"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framewo
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfQueryEmbedded"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

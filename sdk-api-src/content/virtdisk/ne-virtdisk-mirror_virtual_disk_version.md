@@ -12,6 +12,8 @@ ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/MIRROR_VIRTUAL_DISK_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

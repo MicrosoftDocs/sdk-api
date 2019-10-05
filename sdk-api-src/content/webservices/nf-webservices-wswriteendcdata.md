@@ -12,6 +12,8 @@ ms.keywords: WsWriteEndCData, WsWriteEndCData function [Web Services for Windows
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteEndCData"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

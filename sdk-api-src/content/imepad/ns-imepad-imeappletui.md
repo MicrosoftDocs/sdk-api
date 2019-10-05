@@ -12,6 +12,8 @@ ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationali
 ms.topic: struct
 f1_keywords: 
  - "imepad/IMEAPPLETUI"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

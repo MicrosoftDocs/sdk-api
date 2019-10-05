@@ -12,6 +12,8 @@ ms.keywords: _ldap_ldap_bind, ldap.ldap__bind, ldap.ldap_bind, ldap_bind, ldap_b
 ms.topic: function
 f1_keywords:
 - winldap/ldap_bind
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

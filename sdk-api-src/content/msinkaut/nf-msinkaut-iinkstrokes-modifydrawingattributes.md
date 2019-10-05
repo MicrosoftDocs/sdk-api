@@ -12,6 +12,8 @@ ms.keywords: IInkStrokes interface [Tablet PC],ModifyDrawingAttributes method, I
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.ModifyDrawingAttributes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

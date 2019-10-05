@@ -12,6 +12,8 @@ ms.keywords: CF_POPULATION_POLICY, CF_POPULATION_POLICY structure, cfapi/CF_POPU
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_POPULATION_POLICY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

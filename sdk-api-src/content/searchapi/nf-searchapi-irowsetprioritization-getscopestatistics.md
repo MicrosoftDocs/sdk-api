@@ -12,6 +12,8 @@ ms.keywords: GetScopeStatistics, GetScopeStatistics method [search], GetScopeSta
 ms.topic: method
 f1_keywords: 
  - "searchapi/IRowsetPrioritization.GetScopeStatistics"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D10GetGeometryShaderProfile, D3D10GetGeometryShaderProfile functi
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10GetGeometryShaderProfile"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

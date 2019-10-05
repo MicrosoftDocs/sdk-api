@@ -10,6 +10,8 @@ ms.keywords: DWRITE_AUTOMATIC_FONT_AXES, DWRITE_AUTOMATIC_FONT_AXES enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_AUTOMATIC_FONT_AXES"
+dev_langs:
+ - c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 

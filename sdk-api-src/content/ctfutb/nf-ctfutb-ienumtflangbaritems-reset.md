@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset metho
 ms.topic: method
 f1_keywords: 
  - "ctfutb/IEnumTfLangBarItems.Reset"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

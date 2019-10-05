@@ -12,6 +12,8 @@ ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribu
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Attribute.ObjectId"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

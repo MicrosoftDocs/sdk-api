@@ -12,6 +12,8 @@ ms.keywords: ListView_SetItemPosition32, ListView_SetItemPosition32 macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetItemPosition32"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PulseEvent, PulseEvent function, _win32_pulseevent, base.pulseevent
 ms.topic: function
 f1_keywords: 
  - "winbase/PulseEvent"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

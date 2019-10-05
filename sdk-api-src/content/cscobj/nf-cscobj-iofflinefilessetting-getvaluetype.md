@@ -12,6 +12,8 @@ ms.keywords: GetValueType, GetValueType method [Offline Files], GetValueType met
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSetting.GetValueType"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

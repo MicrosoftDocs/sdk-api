@@ -12,6 +12,8 @@ ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSigningOptions.GetCustomReferenceSet"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

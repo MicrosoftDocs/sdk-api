@@ -12,6 +12,8 @@ ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SE
 ms.topic: function
 f1_keywords: 
  - "imm/ImmGetProperty"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

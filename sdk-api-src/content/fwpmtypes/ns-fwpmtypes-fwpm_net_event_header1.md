@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT_HEADER1"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

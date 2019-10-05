@@ -12,6 +12,8 @@ ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackD
 ms.topic: function
 f1_keywords: 
  - "dde/PackDDElParam"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

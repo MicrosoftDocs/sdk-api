@@ -12,6 +12,8 @@ ms.keywords: '*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA, DD_UPDATEN
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_UPDATENONLOCALHEAPDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

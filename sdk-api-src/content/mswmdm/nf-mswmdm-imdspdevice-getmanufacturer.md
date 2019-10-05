@@ -12,6 +12,8 @@ ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manag
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice.GetManufacturer"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

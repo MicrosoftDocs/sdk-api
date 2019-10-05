@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

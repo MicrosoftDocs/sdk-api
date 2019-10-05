@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_PROPERTY_VALUE
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

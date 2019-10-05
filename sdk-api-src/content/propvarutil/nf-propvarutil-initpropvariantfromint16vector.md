@@ -12,6 +12,8 @@ ms.keywords: InitPropVariantFromInt16Vector, InitPropVariantFromInt16Vector func
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitPropVariantFromInt16Vector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

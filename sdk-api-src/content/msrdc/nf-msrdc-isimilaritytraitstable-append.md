@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Remote Differential Compression], Append met
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsTable.Append"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

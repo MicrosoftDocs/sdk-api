@@ -12,6 +12,8 @@ ms.keywords: FSCTL_DELETE_USN_JOURNAL, FSCTL_DELETE_USN_JOURNAL control, FSCTL_D
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_DELETE_USN_JOURNAL
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

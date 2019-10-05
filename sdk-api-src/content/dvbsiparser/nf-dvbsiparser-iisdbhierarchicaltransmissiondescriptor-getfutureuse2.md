@@ -12,6 +12,8 @@ ms.keywords: GetFutureUse2, GetFutureUse2 method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

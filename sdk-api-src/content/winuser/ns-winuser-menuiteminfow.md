@@ -12,6 +12,8 @@ ms.keywords: "*LPMENUITEMINFOW, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MB
 ms.topic: struct
 f1_keywords: 
  - "winuser/MENUITEMINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

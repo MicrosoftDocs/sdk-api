@@ -12,6 +12,8 @@ ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertRecognitionRe
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IHandWrittenTextInsertion.InsertRecognitionResultsArray"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

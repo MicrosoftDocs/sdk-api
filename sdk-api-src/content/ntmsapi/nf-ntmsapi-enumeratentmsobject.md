@@ -12,6 +12,8 @@ ms.keywords: EnumerateNtmsObject, EnumerateNtmsObject function [Files], NTMS_CHA
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EnumerateNtmsObject"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

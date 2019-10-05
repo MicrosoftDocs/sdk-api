@@ -12,6 +12,8 @@ ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface 
 ms.topic: interface
 f1_keywords: 
  - "objidl/IAgileObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

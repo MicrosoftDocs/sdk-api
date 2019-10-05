@@ -12,6 +12,8 @@ ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumera
 ms.topic: enum
 f1_keywords: 
  - "avrfsdk/eHeapEnumerationLevel"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

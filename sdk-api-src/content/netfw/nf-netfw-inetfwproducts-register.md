@@ -12,6 +12,8 @@ ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwProducts.Register"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

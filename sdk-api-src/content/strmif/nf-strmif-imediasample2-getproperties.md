@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties met
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample2.GetProperties"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

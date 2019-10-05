@@ -12,6 +12,8 @@ ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_C
 ms.topic: struct
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

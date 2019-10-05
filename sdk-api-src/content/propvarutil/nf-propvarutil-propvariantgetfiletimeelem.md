@@ -12,6 +12,8 @@ ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Wi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantGetFileTimeElem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

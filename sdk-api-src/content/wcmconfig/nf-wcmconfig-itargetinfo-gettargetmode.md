@@ -12,6 +12,8 @@ ms.keywords: GetTargetMode, GetTargetMode method [SMI], GetTargetMode method [SM
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.GetTargetMode"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPQOS_DESTADDR, LPQOS_DESTADDR, LPQOS_DESTADDR structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "qossp/QOS_DESTADDR"
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

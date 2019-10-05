@@ -12,6 +12,8 @@ ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHA
 ms.topic: function
 f1_keywords:
 - mschapp/MSChapSrvChangePassword2
+dev_langs:
+ - c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

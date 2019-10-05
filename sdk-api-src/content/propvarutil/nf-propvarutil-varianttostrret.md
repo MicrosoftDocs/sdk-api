@@ -12,6 +12,8 @@ ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _sh
 ms.topic: function
 f1_keywords:
 - propvarutil/VariantToStrRet
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

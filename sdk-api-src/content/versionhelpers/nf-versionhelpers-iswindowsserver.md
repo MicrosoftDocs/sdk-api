@@ -12,6 +12,8 @@ ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, ve
 ms.topic: function
 f1_keywords: 
  - "versionhelpers/IsWindowsServer"
+dev_langs:
+ - c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

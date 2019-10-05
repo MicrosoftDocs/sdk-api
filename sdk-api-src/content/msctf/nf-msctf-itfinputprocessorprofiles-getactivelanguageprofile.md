@@ -12,6 +12,8 @@ ms.keywords: GetActiveLanguageProfile, GetActiveLanguageProfile method [Text Ser
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.GetActiveLanguageProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

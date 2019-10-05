@@ -12,6 +12,8 @@ ms.keywords: IShellImageData interface [Windows Shell],RegisterAbort method, ISh
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.RegisterAbort"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

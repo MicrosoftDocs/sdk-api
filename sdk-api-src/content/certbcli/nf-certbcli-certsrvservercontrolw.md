@@ -12,6 +12,8 @@ ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl func
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvServerControl"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

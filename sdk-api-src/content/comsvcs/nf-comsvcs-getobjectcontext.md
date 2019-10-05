@@ -12,6 +12,8 @@ ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectC
 ms.topic: macro
 f1_keywords: 
  - "comsvcs/GetObjectContext"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

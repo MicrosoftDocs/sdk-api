@@ -12,6 +12,8 @@ ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlock.GetDocumentName"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

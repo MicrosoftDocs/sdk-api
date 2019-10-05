@@ -12,6 +12,8 @@ ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeX method, ID
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1BorderTransform.SetExtendModeX"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

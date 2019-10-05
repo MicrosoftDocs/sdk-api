@@ -12,6 +12,8 @@ ms.keywords: '*PNET_DISPLAY_GROUP, NET_DISPLAY_GROUP, NET_DISPLAY_GROUP structur
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_DISPLAY_GROUP
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

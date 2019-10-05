@@ -12,6 +12,8 @@ ms.keywords: CreateDIBSection, CreateDIBSection function [Windows GDI], DIB_PAL_
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateDIBSection"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown functi
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFShutdown"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

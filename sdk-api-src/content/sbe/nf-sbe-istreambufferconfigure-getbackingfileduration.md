@@ -12,6 +12,8 @@ ms.keywords: GetBackingFileDuration, GetBackingFileDuration method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure.GetBackingFileDuration"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

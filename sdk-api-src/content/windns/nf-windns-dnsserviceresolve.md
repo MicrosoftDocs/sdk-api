@@ -7,6 +7,8 @@ ms.keywords: DnsServiceResolve
 ms.topic: language-reference
 f1_keywords: 
  - "windns/DnsServiceResolve"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

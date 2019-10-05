@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGrap
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDvdGraphBuilder"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

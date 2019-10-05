@@ -12,6 +12,8 @@ ms.keywords: GlobalFree, GlobalFree function, _win32_globalfree, base.globalfree
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalFree"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmCollection interface [File Server Resource Manager],Item prope
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmCollection.Item"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

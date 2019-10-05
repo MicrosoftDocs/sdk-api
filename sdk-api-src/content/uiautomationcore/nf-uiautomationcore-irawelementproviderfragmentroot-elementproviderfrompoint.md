@@ -12,6 +12,8 @@ ms.keywords: ElementProviderFromPoint, ElementProviderFromPoint method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderFragmentRoot.ElementProviderFromPoint"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

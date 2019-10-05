@@ -12,6 +12,8 @@ ms.keywords: ContainerName property [Security], ContainerName property [Security
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformation.ContainerName"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

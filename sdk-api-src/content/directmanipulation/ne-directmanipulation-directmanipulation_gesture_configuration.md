@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_GESTURE_CONFIGURATION, DIRECTMANIPULATION_GESTUR
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

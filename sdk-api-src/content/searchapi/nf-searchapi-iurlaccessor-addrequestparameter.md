@@ -12,6 +12,8 @@ ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddReques
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.AddRequestParameter"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

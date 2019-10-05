@@ -12,6 +12,8 @@ ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/RevertToSelf"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

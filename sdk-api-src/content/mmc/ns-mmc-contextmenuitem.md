@@ -12,6 +12,8 @@ ms.keywords: "*LPCONTEXTMENUITEM, 0 (zero), CCM_COMMANDID_MASK_RESERVED = 0xFFFF
 ms.topic: struct
 f1_keywords: 
  - "mmc/CONTEXTMENUITEM"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

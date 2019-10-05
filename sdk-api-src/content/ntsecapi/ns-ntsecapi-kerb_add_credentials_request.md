@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST, KERB
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_ADD_CREDENTIALS_REQUEST
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

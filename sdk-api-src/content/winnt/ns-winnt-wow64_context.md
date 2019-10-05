@@ -12,6 +12,8 @@ ms.keywords: '*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer,
 ms.topic: struct
 f1_keywords:
 - winnt/WOW64_CONTEXT
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

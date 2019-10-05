@@ -10,6 +10,8 @@ ms.keywords: '*PUNICODE_STRING, PUNICODE_STRING, PUNICODE_STRING structure point
 ms.topic: struct
 f1_keywords:
 - ntdef/- UNICODE_STRING
+dev_langs:
+ - c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], co
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoAllowUnmarshalerCLSID"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

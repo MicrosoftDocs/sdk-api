@@ -12,6 +12,8 @@ ms.keywords: WS_REQUEST_SECURITY_TOKEN_ACTION, WS_REQUEST_SECURITY_TOKEN_ACTION 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_REQUEST_SECURITY_TOKEN_ACTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

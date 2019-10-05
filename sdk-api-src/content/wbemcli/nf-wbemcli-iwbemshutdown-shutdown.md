@@ -12,6 +12,8 @@ ms.keywords: IWbemShutdown interface [Windows Management Instrumentation],Shutdo
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemShutdown.Shutdown"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

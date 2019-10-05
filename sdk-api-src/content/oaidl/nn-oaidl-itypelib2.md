@@ -12,6 +12,8 @@ ms.keywords: ITypeLib2, ITypeLib2 interface [Automation], ITypeLib2 interface [A
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ITypeLib2"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

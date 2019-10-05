@@ -12,6 +12,8 @@ ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContent
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFContentEnabler"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

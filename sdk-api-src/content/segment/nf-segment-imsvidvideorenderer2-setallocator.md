@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],SetAlloc
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer2.SetAllocator"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

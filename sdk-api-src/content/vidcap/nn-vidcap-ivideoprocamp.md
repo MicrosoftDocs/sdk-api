@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], IVideoProcAmp 
 ms.topic: interface
 f1_keywords: 
  - "vidcap/IVideoProcAmp"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

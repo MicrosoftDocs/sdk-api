@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOLEVERB interfac
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnumOLEVERB.Clone"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

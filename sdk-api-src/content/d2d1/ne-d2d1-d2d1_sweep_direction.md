@@ -12,6 +12,8 @@ ms.keywords: D2D1_SWEEP_DIRECTION, D2D1_SWEEP_DIRECTION enumeration [Direct2D], 
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_SWEEP_DIRECTION"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

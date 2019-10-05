@@ -12,6 +12,8 @@ ms.keywords: ICINFO, ICINFO structure [Windows Multimedia], VIDCF_COMPRESSFRAMES
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICINFO"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

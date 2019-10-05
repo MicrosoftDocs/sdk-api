@@ -12,6 +12,8 @@ ms.keywords: ISearchScopeRule interface [search],get_FollowFlags method, ISearch
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchScopeRule.get_FollowFlags"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

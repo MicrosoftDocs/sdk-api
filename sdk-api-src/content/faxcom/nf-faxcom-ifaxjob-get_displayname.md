@@ -12,6 +12,8 @@ ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.DisplayName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

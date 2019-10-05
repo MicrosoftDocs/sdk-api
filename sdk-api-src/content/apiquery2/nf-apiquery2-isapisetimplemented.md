@@ -12,6 +12,8 @@ ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], ap
 ms.topic: function
 f1_keywords: 
  - "apiquery2/IsApiSetImplemented"
+dev_langs:
+ - c++
 req.header: apiquery2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursors.Item"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

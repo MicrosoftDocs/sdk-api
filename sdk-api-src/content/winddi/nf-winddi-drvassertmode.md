@@ -12,6 +12,8 @@ ms.keywords: DrvAssertMode, DrvAssertMode function [Display Devices], ddifncs_2f
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvAssertMode"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

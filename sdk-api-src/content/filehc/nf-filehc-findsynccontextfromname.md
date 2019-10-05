@@ -12,6 +12,8 @@ ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows 
 ms.topic: function
 f1_keywords: 
  - "filehc/FindSyncContextFromName"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

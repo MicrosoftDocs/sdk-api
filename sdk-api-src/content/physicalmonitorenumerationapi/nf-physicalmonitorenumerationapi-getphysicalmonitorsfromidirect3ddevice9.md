@@ -12,6 +12,8 @@ ms.keywords: GetPhysicalMonitorsFromIDirect3DDevice9, GetPhysicalMonitorsFromIDi
 ms.topic: function
 f1_keywords: 
  - "physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9"
+dev_langs:
+ - c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12CreateDevice, D3D12CreateDevice function, d3d12/D3D12CreateDev
 ms.topic: function
 f1_keywords: 
  - "d3d12/D3D12CreateDevice"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateColorMatrixEffect, CreateColorMatrixEffect method [DirectComp
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateColorMatrixEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

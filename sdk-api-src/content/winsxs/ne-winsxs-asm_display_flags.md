@@ -12,6 +12,8 @@ ms.keywords: ASM_DISPLAYF_CULTURE, ASM_DISPLAYF_CUSTOM, ASM_DISPLAYF_LANGUAGEID,
 ms.topic: enum
 f1_keywords: 
  - "winsxs/ASM_DISPLAY_FLAGS"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

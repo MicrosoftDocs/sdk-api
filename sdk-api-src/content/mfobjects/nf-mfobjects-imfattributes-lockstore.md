@@ -12,6 +12,8 @@ ms.keywords: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7, IMFAttributes interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.LockStore"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

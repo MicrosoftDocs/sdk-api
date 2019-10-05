@@ -12,6 +12,8 @@ ms.keywords: IBootOptions interface [IMAPI],put_PlatformId method, IBootOptions.
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IBootOptions.put_PlatformId"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

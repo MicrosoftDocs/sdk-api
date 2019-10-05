@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerFreeDialogInstance, TSPI_providerFreeDialogInstance fu
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerFreeDialogInstance"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

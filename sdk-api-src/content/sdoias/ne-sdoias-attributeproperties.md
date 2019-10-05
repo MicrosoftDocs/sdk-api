@@ -12,6 +12,8 @@ ms.keywords: ATTRIBUTEPROPERTIES, ATTRIBUTEPROPERTIES enumeration [Network Polic
 ms.topic: enum
 f1_keywords:
 - sdoias/ATTRIBUTEPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

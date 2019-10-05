@@ -12,6 +12,8 @@ ms.keywords: "*LPDATABLOCK_HEADER, *LPDBLIST, DATABLOCK_HEADER, DATABLOCK_HEADER
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/DATABLOCK_HEADER"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

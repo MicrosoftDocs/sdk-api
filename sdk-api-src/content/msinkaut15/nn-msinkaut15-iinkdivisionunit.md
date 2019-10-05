@@ -12,6 +12,8 @@ ms.keywords: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7, IInkDivisionUnit, IInkDivisio
 ms.topic: interface
 f1_keywords: 
  - "msinkaut15/IInkDivisionUnit"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

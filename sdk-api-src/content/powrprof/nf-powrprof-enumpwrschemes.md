@@ -12,6 +12,8 @@ ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, bas
 ms.topic: function
 f1_keywords:
 - powrprof/EnumPwrSchemes
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

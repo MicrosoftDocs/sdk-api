@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_HASHED_URL, CERT_HASHED_URL, CERT_HASHED_URL structure [Sec
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_HASHED_URL
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

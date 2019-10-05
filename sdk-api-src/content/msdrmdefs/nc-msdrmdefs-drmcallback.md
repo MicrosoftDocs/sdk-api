@@ -12,6 +12,8 @@ ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Di
 ms.topic: callback
 f1_keywords:
 - msdrmdefs/DRMCallback
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

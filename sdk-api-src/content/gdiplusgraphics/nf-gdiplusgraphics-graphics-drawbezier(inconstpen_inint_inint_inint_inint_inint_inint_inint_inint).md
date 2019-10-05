@@ -12,6 +12,8 @@ ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Grap
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawBezier"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

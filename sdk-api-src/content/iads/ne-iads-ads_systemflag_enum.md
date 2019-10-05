@@ -12,6 +12,8 @@ ms.keywords: ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED, ADS_SYSTEMFLAG_ATTR_NOT_REPLICA
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SYSTEMFLAG_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

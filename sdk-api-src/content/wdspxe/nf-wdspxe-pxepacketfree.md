@@ -12,6 +12,8 @@ ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services]
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxePacketFree"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

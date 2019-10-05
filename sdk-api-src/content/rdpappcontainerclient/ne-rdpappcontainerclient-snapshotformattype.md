@@ -12,6 +12,8 @@ ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotF
 ms.topic: enum
 f1_keywords: 
  - "rdpappcontainerclient/SnapshotFormatType"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

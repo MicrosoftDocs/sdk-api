@@ -12,6 +12,8 @@ ms.keywords: EventDescCreate, EventDescCreate function [ETW], base.eventdesccrea
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescCreate
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

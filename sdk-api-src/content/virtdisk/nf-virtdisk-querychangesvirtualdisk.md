@@ -12,6 +12,8 @@ ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vd
 ms.topic: function
 f1_keywords: 
  - "virtdisk/QueryChangesVirtualDisk"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

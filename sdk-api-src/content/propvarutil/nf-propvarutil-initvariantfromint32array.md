@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromInt32Array, InitVariantFromInt32Array function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromInt32Array"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

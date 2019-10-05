@@ -12,6 +12,8 @@ ms.keywords: "*PSCSI_LUN_LIST, PSCSI_LUN_LIST, PSCSI_LUN_LIST structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/SCSI_LUN_LIST"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

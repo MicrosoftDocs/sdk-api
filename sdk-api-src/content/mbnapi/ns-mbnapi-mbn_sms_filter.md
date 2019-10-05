@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_FILTER, MBN_SMS_FILTER structure [Microsoft Broadband Netwo
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_SMS_FILTER"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

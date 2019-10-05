@@ -12,6 +12,8 @@ ms.keywords: CONFIRM_CONFLICT_RESULT_INFO, CONFIRM_CONFLICT_RESULT_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "syncmgr/CONFIRM_CONFLICT_RESULT_INFO"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

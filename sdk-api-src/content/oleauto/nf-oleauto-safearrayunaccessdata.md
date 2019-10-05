@@ -12,6 +12,8 @@ ms.keywords: SafeArrayUnaccessData, SafeArrayUnaccessData function [Automation],
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayUnaccessData"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

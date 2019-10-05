@@ -12,6 +12,8 @@ ms.keywords: 5f085107-f205-47ab-acb5-d45a881ce76c, GetStreamType, GetStreamType 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.GetStreamType"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

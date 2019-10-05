@@ -12,6 +12,8 @@ ms.keywords: '*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [
 ms.topic: struct
 f1_keywords:
 - winioctl/DISK_GEOMETRY_EX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

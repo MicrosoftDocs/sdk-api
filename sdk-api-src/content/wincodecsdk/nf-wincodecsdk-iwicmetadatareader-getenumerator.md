@@ -12,6 +12,8 @@ ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], Ge
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReader.GetEnumerator"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

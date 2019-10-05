@@ -12,6 +12,8 @@ ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSink.GetOutputMediaType"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

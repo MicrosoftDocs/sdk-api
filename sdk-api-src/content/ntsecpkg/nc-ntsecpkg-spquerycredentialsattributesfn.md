@@ -12,6 +12,8 @@ ms.keywords: SECPKG_ATTR_CIPHER_STRENGTHS, SECPKG_ATTR_SUPPORTED_ALGS, SECPKG_AT
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpQueryCredentialsAttributes
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRS_InkAddedFailed, IRS_Interrupted, IRS_NoError, IRS_ProcessFailed
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognitionStatus"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

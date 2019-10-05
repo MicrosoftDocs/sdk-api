@@ -12,6 +12,8 @@ ms.keywords: "*LPX3DAUDIO_CONE, LPX3DAUDIO_CONE, LPX3DAUDIO_CONE structure point
 ms.topic: struct
 f1_keywords: 
  - "x3daudio/X3DAUDIO_CONE"
+dev_langs:
+ - c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],SetTransform method, Graphics.SetTransform, G
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.SetTransform"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

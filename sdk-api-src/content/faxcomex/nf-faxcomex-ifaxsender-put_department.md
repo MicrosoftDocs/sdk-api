@@ -12,6 +12,8 @@ ms.keywords: Department property [Fax Service], Department property [Fax Service
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.Department"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

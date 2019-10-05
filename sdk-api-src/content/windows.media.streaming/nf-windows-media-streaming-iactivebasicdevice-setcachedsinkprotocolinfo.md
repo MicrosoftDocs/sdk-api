@@ -12,6 +12,8 @@ ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedSinkPro
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDevice.SetCachedSinkProtocolInfo"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

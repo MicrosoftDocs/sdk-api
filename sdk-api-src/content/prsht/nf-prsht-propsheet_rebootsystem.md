@@ -12,6 +12,8 @@ ms.keywords: PropSheet_RebootSystem, PropSheet_RebootSystem macro [Windows Contr
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_RebootSystem
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

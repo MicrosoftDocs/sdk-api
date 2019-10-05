@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFE
 ms.topic: struct
 f1_keywords:
 - lsalookup/LSA_REFERENCED_DOMAIN_LIST
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

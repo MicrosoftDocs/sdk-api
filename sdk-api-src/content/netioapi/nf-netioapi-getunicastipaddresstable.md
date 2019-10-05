@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetUnicastIpAddressTable, GetUnicastI
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetUnicastIpAddressTable"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteCredentialsEx, DeleteCredentialsEx method [windows Media Form
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.DeleteCredentialsEx"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

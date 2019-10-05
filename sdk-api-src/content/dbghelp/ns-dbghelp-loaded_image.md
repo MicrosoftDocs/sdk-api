@@ -12,6 +12,8 @@ ms.keywords: '*PLOADED_IMAGE, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_
 ms.topic: struct
 f1_keywords:
 - dbghelp/LOADED_IMAGE
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

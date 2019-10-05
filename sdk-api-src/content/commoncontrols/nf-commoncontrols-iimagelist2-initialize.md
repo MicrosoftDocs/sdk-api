@@ -12,6 +12,8 @@ ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageL
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.Initialize"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

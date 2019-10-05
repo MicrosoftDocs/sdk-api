@@ -12,6 +12,8 @@ ms.keywords: ICertView, ICertView interface [Security], ICertView interface [Sec
 ms.topic: interface
 f1_keywords: 
  - "certview/ICertView"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

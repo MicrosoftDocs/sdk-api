@@ -12,6 +12,8 @@ ms.keywords: 3de20b27-6ffa-11bb-e9a5-d1af96f798ac, GetDisplayModeEx, GetDisplayM
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.GetDisplayModeEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

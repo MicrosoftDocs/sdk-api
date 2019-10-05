@@ -12,6 +12,8 @@ ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectSho
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_DISC_SIDE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interfac
 ms.topic: interface
 f1_keywords: 
  - "casetup/IMSCEPSetup"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

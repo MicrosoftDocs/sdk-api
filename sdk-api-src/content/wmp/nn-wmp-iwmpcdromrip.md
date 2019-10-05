@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCd
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPCdromRip"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

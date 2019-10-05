@@ -12,6 +12,8 @@ ms.keywords: PlayerState, PlayerState enumeration [Windows Media Player], effect
 ms.topic: enum
 f1_keywords: 
  - "effects/PlayerState"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

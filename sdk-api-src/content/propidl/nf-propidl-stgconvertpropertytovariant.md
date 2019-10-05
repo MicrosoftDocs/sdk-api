@@ -12,6 +12,8 @@ ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [
 ms.topic: function
 f1_keywords: 
  - "propidl/StgConvertPropertyToVariant"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

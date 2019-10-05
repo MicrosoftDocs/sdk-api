@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPITransportStr
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStream.Close"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

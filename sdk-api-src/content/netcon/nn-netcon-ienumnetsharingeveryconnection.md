@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection inte
 ms.topic: interface
 f1_keywords: 
  - "netcon/IEnumNetSharingEveryConnection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

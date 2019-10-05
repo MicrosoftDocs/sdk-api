@@ -12,6 +12,8 @@ ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMig
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.CreateMigrationTable"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

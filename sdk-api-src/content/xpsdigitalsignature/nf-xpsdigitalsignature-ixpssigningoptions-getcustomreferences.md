@@ -12,6 +12,8 @@ ms.keywords: GetCustomReferences, GetCustomReferences method [XPS Documents and 
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetCustomReferences"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadCompletedCallback.Invoke"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

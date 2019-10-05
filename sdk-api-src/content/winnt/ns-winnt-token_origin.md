@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Se
 ms.topic: struct
 f1_keywords: 
  - "winnt/TOKEN_ORIGIN"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

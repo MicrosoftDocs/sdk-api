@@ -12,6 +12,8 @@ ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [Dire
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateTranslateTransform3D"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

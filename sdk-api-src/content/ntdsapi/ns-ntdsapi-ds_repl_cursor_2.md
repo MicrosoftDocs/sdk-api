@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_CURSOR_2, DS_REPL_CURSOR_2 structure [Active Directory], ad
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_CURSOR_2
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

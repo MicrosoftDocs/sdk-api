@@ -12,6 +12,8 @@ ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.U
 ms.topic: method
 f1_keywords: 
  - "mmstream/IStreamSample.Update"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

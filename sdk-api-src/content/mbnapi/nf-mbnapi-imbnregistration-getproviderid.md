@@ -12,6 +12,8 @@ ms.keywords: GetProviderID, GetProviderID method [Microsoft Broadband Networks],
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetProviderID"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

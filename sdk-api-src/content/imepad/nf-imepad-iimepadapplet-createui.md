@@ -12,6 +12,8 @@ ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applica
 ms.topic: method
 f1_keywords: 
  - "imepad/IImePadApplet.CreateUI"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

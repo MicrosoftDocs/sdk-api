@@ -12,6 +12,8 @@ ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP],
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpServerBackupDatabase"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

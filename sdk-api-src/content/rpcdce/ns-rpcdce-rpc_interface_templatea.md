@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_INTERFACE_TEMPLATEA, PRPC_INTERFACE_TEMPLATE, PRPC_INTERFACE
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_INTERFACE_TEMPLATE"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

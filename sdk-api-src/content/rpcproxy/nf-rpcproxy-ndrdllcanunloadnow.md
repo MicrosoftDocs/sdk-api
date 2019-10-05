@@ -12,6 +12,8 @@ ms.keywords: NdrDllCanUnloadNow, NdrDllCanUnloadNow function [RPC], rpc.ndrdllca
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/NdrDllCanUnloadNow"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

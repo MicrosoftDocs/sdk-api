@@ -12,6 +12,8 @@ ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHI
 ms.topic: function
 f1_keywords:
 - dbghelp/StackWalkEx
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

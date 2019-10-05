@@ -12,6 +12,8 @@ ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS 
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo2.GetCurrentUOPS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

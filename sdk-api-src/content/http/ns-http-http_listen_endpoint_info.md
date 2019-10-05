@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTE
 ms.topic: struct
 f1_keywords:
 - http/HTTP_LISTEN_ENDPOINT_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

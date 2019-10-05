@@ -12,6 +12,8 @@ ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interf
 ms.topic: interface
 f1_keywords: 
  - "tuner/ITuner"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

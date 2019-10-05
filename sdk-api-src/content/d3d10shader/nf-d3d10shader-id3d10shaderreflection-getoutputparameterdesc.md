@@ -12,6 +12,8 @@ ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method [Direct3D 10]
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflection.GetOutputParameterDesc"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

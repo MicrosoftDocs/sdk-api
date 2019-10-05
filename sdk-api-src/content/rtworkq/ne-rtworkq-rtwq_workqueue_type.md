@@ -12,6 +12,8 @@ ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_
 ms.topic: enum
 f1_keywords: 
  - "rtworkq/RTWQ_WORKQUEUE_TYPE"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

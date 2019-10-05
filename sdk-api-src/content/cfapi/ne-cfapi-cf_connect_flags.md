@@ -12,6 +12,8 @@ ms.keywords: CF_CONNECT_FLAGS, CF_CONNECT_FLAGS enumeration, CF_CONNECT_FLAG_BLO
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CONNECT_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

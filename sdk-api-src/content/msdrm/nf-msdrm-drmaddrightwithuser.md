@@ -12,6 +12,8 @@ ms.keywords: DRMAddRightWithUser, DRMAddRightWithUser function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMAddRightWithUser"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

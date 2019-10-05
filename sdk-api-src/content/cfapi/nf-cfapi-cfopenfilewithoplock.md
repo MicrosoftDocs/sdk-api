@@ -12,6 +12,8 @@ ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFi
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfOpenFileWithOplock"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF2DBuffer_LockFlags, MF2DBuffer_LockFlags enumeration [Media Found
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF2DBuffer_LockFlags"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfobjects.h, Mfidl.h
 req.target-type: Windows

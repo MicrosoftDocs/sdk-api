@@ -12,6 +12,8 @@ ms.keywords: 236589f8-a6ae-4db3-8be4-68c5babeb9f0, Error, Error method [Tablet P
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.Error"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

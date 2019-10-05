@@ -12,6 +12,8 @@ ms.keywords: GetCommConfig, GetCommConfig function, _win32_getcommconfig, base.g
 ms.topic: function
 f1_keywords:
 - winbase/GetCommConfig
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

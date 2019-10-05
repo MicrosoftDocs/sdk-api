@@ -12,6 +12,8 @@ ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardExtension.AddPages
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

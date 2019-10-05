@@ -12,6 +12,8 @@ ms.keywords: FrameBuffer property [RDP], FrameBuffer property [RDP],IRDPSRAPISha
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.FrameBuffer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

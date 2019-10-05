@@ -12,6 +12,8 @@ ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNot
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptUnregisterConfigChangeNotify"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

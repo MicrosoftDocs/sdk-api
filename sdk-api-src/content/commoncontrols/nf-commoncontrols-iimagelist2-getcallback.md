@@ -12,6 +12,8 @@ ms.keywords: GetCallback, GetCallback method [Windows Controls], GetCallback met
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.GetCallback"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

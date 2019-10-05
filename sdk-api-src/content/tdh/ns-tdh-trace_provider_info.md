@@ -12,6 +12,8 @@ ms.keywords: '*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO st
 ms.topic: struct
 f1_keywords:
 - tdh/TRACE_PROVIDER_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

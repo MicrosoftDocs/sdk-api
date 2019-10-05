@@ -12,6 +12,8 @@ ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredS
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFDesiredSample"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

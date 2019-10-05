@@ -12,6 +12,8 @@ ms.keywords: "*PENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION, ENUM_PAG
 ms.topic: struct
 f1_keywords: 
  - "psapi/ENUM_PAGE_FILE_INFORMATION"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

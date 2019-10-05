@@ -12,6 +12,8 @@ ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetSeekable"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

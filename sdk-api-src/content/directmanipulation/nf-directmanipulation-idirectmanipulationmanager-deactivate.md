@@ -12,6 +12,8 @@ ms.keywords: Deactivate, Deactivate method [Direct Manipulation], Deactivate met
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.Deactivate"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

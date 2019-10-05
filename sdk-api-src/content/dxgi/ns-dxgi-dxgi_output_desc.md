@@ -12,6 +12,8 @@ ms.keywords: DXGI_OUTPUT_DESC, DXGI_OUTPUT_DESC structure [DXGI], d70793ef-13c9-
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_OUTPUT_DESC"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FreeMemory, FreeMemory method [Windows Management Instrumentation],
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemQuery.FreeMemory"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

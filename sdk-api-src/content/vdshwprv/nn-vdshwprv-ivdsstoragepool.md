@@ -12,6 +12,8 @@ ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interfa
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsStoragePool"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

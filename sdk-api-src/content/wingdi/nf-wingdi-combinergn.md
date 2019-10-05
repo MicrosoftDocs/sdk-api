@@ -12,6 +12,8 @@ ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, R
 ms.topic: function
 f1_keywords: 
  - "wingdi/CombineRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

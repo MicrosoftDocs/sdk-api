@@ -12,6 +12,8 @@ ms.keywords: DdeAbandonTransaction, DdeAbandonTransaction function [Data Exchang
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeAbandonTransaction"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

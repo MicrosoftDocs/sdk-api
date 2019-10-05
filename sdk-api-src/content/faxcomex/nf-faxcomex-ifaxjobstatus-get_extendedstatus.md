@@ -12,6 +12,8 @@ ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxJobStatus.ExtendedStatus"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

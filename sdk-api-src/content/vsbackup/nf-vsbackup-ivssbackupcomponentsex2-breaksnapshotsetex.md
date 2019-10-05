@@ -12,6 +12,8 @@ ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx m
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx2.BreakSnapshotSetEx
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHAD
 ms.topic: struct
 f1_keywords: 
  - "d3d10shader/D3D10_SHADER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

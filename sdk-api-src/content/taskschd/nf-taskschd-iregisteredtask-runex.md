@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegistere
 ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.RunEx
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

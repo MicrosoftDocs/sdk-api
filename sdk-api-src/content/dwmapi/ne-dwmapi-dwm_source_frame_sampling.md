@@ -12,6 +12,8 @@ ms.keywords: DWM_SOURCE_FRAME_SAMPLING, DWM_SOURCE_FRAME_SAMPLING enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWM_SOURCE_FRAME_SAMPLING"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

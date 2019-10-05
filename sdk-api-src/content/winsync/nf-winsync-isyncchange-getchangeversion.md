@@ -12,6 +12,8 @@ ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChange
 ms.topic: method
 f1_keywords:
 - winsync/ISyncChange.GetChangeVersion
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

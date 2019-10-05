@@ -12,6 +12,8 @@ ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], dir
 ms.topic: struct
 f1_keywords: 
  - "directxcollision/BoundingBox"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

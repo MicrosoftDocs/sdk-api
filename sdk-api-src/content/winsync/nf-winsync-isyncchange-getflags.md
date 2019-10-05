@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows 
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.GetFlags"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

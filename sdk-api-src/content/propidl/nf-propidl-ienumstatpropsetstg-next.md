@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEn
 ms.topic: method
 f1_keywords: 
  - "propidl/IEnumSTATPROPSETSTG.Next"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

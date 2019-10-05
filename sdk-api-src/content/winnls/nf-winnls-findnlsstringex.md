@@ -12,6 +12,8 @@ ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindN
 ms.topic: function
 f1_keywords: 
  - "winnls/FindNLSStringEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

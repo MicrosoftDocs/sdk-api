@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KE
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_PRIVATE_KEY_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

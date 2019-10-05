@@ -12,6 +12,8 @@ ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFor
 ms.topic: interface
 f1_keywords: 
  - "tapi3ds/ITAMMediaFormat"
+dev_langs:
+ - c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows

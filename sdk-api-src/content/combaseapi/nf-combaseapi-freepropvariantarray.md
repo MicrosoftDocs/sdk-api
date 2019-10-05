@@ -12,6 +12,8 @@ ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Sto
 ms.topic: function
 f1_keywords: 
  - "combaseapi/FreePropVariantArray"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_s
 ms.topic: macro
 f1_keywords: 
  - "evntrace/StopTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

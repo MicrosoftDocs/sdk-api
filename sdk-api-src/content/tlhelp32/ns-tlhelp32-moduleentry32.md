@@ -12,6 +12,8 @@ ms.keywords: "*LPMODULEENTRY32, *PMODULEENTRY32, MODULEENTRY32, MODULEENTRY32 st
 ms.topic: struct
 f1_keywords: 
  - "tlhelp32/MODULEENTRY32"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

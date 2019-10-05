@@ -12,6 +12,8 @@ ms.keywords: ID3D10Debug interface [Direct3D 10],Validate method, ID3D10Debug.Va
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.Validate"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

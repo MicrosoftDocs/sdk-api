@@ -12,6 +12,8 @@ ms.keywords: GetGroupType, GetGroupType method [Microsoft TV Technologies], GetG
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbEventGroupDescriptor.GetGroupType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

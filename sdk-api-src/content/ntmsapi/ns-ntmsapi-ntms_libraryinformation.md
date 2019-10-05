@@ -12,6 +12,8 @@ ms.keywords: NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, NTMS
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_LIBRARYINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

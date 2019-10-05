@@ -12,6 +12,8 @@ ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertEnumSystemStoreLocation"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

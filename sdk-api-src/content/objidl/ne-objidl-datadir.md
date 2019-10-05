@@ -12,6 +12,8 @@ ms.keywords: DATADIR, DATADIR enumeration [COM], DATADIR_GET, DATADIR_SET, _ole_
 ms.topic: enum
 f1_keywords: 
  - "objidl/DATADIR"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

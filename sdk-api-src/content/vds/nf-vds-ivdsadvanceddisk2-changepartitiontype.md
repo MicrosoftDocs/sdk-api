@@ -12,6 +12,8 @@ ms.keywords: ChangePartitionType, ChangePartitionType method, ChangePartitionTyp
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk2.ChangePartitionType
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

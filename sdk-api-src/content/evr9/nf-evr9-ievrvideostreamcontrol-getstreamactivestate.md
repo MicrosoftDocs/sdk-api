@@ -12,6 +12,8 @@ ms.keywords: GetStreamActiveState, GetStreamActiveState method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "evr9/IEVRVideoStreamControl.GetStreamActiveState"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

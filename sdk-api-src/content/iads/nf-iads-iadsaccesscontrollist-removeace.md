@@ -12,6 +12,8 @@ ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccess
 ms.topic: method
 f1_keywords: 
  - "iads/IADsAccessControlList.RemoveAce"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance i
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsMaintenance"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

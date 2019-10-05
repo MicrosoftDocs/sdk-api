@@ -12,6 +12,8 @@ ms.keywords: ControlLevel property [RDP], ControlLevel property [RDP],IRDPSRAPIA
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.ControlLevel"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

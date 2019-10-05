@@ -12,6 +12,8 @@ ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDE
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHGetViewStatePropertyBag"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

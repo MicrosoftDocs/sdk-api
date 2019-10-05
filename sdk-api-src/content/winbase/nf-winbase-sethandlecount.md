@@ -5,6 +5,10 @@ ms.date: 4/26/2019
 ms.keywords: SetHandleCount
 ms.topic: language-reference
 f1_keywords:
+ - SetHandleCount
+dev_langs:
+ - c++
+f1_keywords:
  - "winbase/SetHandleCount"
 targetos: Windows
 product: Windows

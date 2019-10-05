@@ -12,6 +12,8 @@ ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl
 ms.topic: function
 f1_keywords: 
  - "http/HttpPrepareUrl"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

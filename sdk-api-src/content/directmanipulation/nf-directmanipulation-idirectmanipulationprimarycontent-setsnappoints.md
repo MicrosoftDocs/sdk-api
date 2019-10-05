@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],S
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationPrimaryContent.SetSnapPoints"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

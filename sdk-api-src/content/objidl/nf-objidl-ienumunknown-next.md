@@ -12,6 +12,8 @@ ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumU
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumUnknown.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

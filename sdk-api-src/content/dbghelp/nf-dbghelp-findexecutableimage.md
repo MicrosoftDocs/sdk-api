@@ -12,6 +12,8 @@ ms.keywords: FindExecutableImage, FindExecutableImage function, _win32_findexecu
 ms.topic: function
 f1_keywords: 
  - "dbghelp/FindExecutableImage"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

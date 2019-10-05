@@ -12,6 +12,8 @@ ms.keywords: 5804c163-148c-f385-7d81-0260f741a050, GetViewport, GetViewport meth
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetViewport"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

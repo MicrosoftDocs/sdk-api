@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_OBJECT
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

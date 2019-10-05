@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBack
 ms.topic: method
 f1_keywords:
 - bits1_5/IBackgroundCopyJob2.SetReplyFileName
+dev_langs:
+ - c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

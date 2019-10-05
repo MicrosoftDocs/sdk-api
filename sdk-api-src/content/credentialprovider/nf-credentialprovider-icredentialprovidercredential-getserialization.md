@@ -12,6 +12,8 @@ ms.keywords: GetSerialization, GetSerialization method [Windows Shell], GetSeria
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredential.GetSerialization"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

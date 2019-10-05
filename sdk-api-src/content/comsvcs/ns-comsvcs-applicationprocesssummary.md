@@ -12,6 +12,8 @@ ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/ApplicationProcessSummary"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

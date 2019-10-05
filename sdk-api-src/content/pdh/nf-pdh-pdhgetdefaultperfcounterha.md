@@ -12,6 +12,8 @@ ms.keywords: PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhGetDefaultPerfCounterH"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

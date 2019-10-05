@@ -12,6 +12,8 @@ ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred met
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBackgroundCopyCallback2.FileTransferred"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

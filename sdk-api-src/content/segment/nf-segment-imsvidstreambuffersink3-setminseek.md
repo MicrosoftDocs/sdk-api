@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],SetMi
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink3.SetMinSeek"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

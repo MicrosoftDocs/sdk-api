@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_Width"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

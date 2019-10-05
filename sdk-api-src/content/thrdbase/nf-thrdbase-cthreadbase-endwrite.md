@@ -12,6 +12,8 @@ ms.keywords: "?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Managemen
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.EndWrite"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

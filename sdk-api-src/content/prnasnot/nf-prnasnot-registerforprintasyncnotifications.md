@@ -12,6 +12,8 @@ ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotificati
 ms.topic: function
 f1_keywords: 
  - "prnasnot/RegisterForPrintAsyncNotifications"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

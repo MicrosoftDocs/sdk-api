@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Start method, IUPnPDevice
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPDeviceProvider.Start"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

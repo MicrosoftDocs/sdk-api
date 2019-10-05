@@ -12,6 +12,8 @@ ms.keywords: AD_CLOCKWISE, AD_COUNTERCLOCKWISE, SetArcDirection, SetArcDirection
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetArcDirection"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

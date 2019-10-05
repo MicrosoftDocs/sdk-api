@@ -12,6 +12,8 @@ ms.keywords: WICGifApplicationExtensionApplication, WICGifApplicationExtensionDa
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICGifApplicationExtensionProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

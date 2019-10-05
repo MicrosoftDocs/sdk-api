@@ -12,6 +12,8 @@ ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreat
 ms.topic: function
 f1_keywords: 
  - "comsvcs/MTSCreateActivity"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

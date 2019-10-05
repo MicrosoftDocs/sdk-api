@@ -12,6 +12,8 @@ ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes met
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioStreamVolume.GetAllVolumes"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnec
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetConnect"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

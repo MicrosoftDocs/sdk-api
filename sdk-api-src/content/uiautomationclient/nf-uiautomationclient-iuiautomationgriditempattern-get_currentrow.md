@@ -12,6 +12,8 @@ ms.keywords: CurrentRow property [Windows Accessibility], CurrentRow property [W
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CurrentRow"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

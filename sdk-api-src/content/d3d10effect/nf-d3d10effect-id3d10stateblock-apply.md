@@ -12,6 +12,8 @@ ms.keywords: 8047c555-4a3e-a6b4-9733-42350b374f15, Apply, Apply method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10StateBlock.Apply"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingWriteStop, TraceLoggingWriteStop macro, tracelogging.tr
 ms.topic: macro
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingWriteStart"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

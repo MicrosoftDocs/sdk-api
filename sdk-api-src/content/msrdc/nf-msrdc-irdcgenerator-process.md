@@ -12,6 +12,8 @@ ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process m
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGenerator.Process"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

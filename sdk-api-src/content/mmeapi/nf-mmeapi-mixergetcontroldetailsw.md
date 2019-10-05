@@ -12,6 +12,8 @@ ms.keywords: "_win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetCon
 ms.topic: function
 f1_keywords: 
  - "mmeapi/mixerGetControlDetails"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h
 req.target-type: Windows

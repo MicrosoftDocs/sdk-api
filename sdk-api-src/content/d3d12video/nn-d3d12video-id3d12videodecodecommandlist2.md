@@ -4,6 +4,10 @@ title: ID3D12VideoDecodeCommandList2
 ms.date: 6/7/2019
 ms.keywords: ID3D12VideoDecodeCommandList2
 ms.topic: language-reference
+f1_keywords:
+ - ID3D12VideoDecodeCommandList2
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

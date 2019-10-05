@@ -12,6 +12,8 @@ ms.keywords: INewWindowManager, INewWindowManager interface [Windows Shell], INe
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/INewWindowManager"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

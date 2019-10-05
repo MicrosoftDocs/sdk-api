@@ -12,6 +12,8 @@ ms.keywords: RegInstallA, RegInstallA function [Windows API], advpub/RegInstallA
 ms.topic: function
 f1_keywords: 
  - "advpub/RegInstallA"
+dev_langs:
+ - c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

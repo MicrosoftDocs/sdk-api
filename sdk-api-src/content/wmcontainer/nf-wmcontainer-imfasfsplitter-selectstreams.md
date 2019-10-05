@@ -12,6 +12,8 @@ ms.keywords: IMFASFSplitter interface [Media Foundation],SelectStreams method, I
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.SelectStreams"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

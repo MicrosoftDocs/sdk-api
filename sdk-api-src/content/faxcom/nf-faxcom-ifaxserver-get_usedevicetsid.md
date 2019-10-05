@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],UseDeviceTsid property, IFaxServ
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.UseDeviceTsid"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

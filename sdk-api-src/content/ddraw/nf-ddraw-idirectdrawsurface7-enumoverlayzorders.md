@@ -12,6 +12,8 @@ ms.keywords: DDENUMOVERLAYZ_BACKTOFRONT, DDENUMOVERLAYZ_FRONTTOBACK, EnumOverlay
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.EnumOverlayZOrders"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

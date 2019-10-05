@@ -12,6 +12,8 @@ ms.keywords: 100, 101, 102, NetWkstaGetInfo, NetWkstaGetInfo function [Network M
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaGetInfo
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter inte
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMessageFilter"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

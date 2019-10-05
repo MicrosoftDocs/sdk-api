@@ -12,6 +12,8 @@ ms.keywords: GetListAlignment, GetListAlignment method [Windows Controls], GetLi
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetListAlignment"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

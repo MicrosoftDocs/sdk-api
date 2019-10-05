@@ -12,6 +12,8 @@ ms.keywords: "*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD s
 ms.topic: struct
 f1_keywords: 
  - "mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
+dev_langs:
+ - c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

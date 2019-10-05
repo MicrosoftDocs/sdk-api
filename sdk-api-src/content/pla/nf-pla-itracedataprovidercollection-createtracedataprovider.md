@@ -12,6 +12,8 @@ ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], Crea
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProviderCollection.CreateTraceDataProvider"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

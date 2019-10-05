@@ -12,6 +12,8 @@ ms.keywords: IMFMediaType interface [Media Foundation],IsCompressedFormat method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaType.IsCompressedFormat"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

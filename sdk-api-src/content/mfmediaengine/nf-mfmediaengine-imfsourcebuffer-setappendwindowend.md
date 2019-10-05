@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.SetAppendWindowEnd"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

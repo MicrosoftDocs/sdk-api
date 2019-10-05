@@ -12,6 +12,8 @@ ms.keywords: "*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVIC
 ms.topic: struct
 f1_keywords: 
  - "elscore/MAPPING_SERVICE_INFO"
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

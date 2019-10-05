@@ -12,6 +12,8 @@ ms.keywords: WSD_SERVICE_METADATA_LIST, WSD_SERVICE_METADATA_LIST structure, ncd
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SERVICE_METADATA_LIST
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

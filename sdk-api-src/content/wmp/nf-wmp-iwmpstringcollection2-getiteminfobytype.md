@@ -12,6 +12,8 @@ ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfoB
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPStringCollection2.getItemInfoByType"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMWriterPreprocess"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface
 ms.topic: function
 f1_keywords: 
  - "amsi/AmsiScanBuffer"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

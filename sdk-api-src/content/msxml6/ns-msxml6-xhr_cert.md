@@ -12,6 +12,8 @@ ms.keywords: PXHR_CERT, PXHR_CERT structure pointer [XMLHttpRequest2], XHR_CERT,
 ms.topic: struct
 f1_keywords: 
  - "msxml6/XHR_CERT"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

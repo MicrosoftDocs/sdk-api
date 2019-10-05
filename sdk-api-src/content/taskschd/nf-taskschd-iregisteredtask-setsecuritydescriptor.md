@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTask interface [Task Scheduler],SetSecurityDescriptor me
 ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.SetSecurityDescriptor
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

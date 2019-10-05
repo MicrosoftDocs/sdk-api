@@ -12,6 +12,8 @@ ms.keywords: NetAuditClear, NetAuditClear function [Network Management], _win32_
 ms.topic: function
 f1_keywords: 
  - "lmaudit/NetAuditClear"
+dev_langs:
+ - c++
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

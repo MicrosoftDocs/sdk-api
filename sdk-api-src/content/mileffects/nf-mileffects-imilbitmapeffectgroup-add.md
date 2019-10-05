@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [WPF Bitmap Effects], Add method [WPF Bitmap Effect
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectGroup.Add"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

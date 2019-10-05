@@ -12,6 +12,8 @@ ms.keywords: ID3D10Device interface [Direct3D 10],PSGetConstantBuffers method, I
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.PSGetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

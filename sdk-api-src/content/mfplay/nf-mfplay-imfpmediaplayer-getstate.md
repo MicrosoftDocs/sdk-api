@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [Media Foundation], GetState method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetState"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

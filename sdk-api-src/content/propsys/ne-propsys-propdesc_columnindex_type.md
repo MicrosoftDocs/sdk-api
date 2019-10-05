@@ -12,6 +12,8 @@ ms.keywords: PDCIT_INMEMORY, PDCIT_NONE, PDCIT_ONDEMAND, PDCIT_ONDISK, PDCIT_OND
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_COLUMNINDEX_TYPE"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

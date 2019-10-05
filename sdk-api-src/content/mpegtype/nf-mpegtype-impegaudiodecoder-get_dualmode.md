@@ -12,6 +12,8 @@ ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DualMode method, IMpeg
 ms.topic: method
 f1_keywords: 
  - "mpegtype/IMpegAudioDecoder.get_DualMode"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

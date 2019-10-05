@@ -12,6 +12,8 @@ ms.keywords: DVD_Assignment_LR, DVD_Assignment_LR1, DVD_Assignment_LR12, DVD_Ass
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_KARAOKE_ASSIGNMENT"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

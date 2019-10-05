@@ -12,6 +12,8 @@ ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, 
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIPromptUser"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WbemComparisonFlagEnum, WbemComparisonFlagEnum enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemComparisonFlagEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage2, IPropertyPage2 interface [COM], IPropertyPage2 inte
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IPropertyPage2"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

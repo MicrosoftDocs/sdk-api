@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_SEEK_MODE, MF_MEDIA_ENGINE_SEEK_MODE enumeration [M
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

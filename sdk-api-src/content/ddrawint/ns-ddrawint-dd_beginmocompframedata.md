@@ -12,6 +12,8 @@ ms.keywords: '*PDD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMP
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_BEGINMOCOMPFRAMEDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

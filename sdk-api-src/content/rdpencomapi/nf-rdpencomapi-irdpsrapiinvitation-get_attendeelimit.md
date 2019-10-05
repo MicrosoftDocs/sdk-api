@@ -12,6 +12,8 @@ ms.keywords: AttendeeLimit property [RDP], AttendeeLimit property [RDP],IRDPSRAP
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitation.AttendeeLimit"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

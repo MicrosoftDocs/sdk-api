@@ -12,6 +12,8 @@ ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NO
 ms.topic: function
 f1_keywords:
 - winbase/ReadDirectoryChangesW
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

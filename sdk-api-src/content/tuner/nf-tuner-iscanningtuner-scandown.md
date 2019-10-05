@@ -12,6 +12,8 @@ ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanDown metho
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTuner.ScanDown"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

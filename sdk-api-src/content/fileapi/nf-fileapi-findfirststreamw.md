@@ -12,6 +12,8 @@ ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfo
 ms.topic: function
 f1_keywords:
 - fileapi/FindFirstStreamW
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

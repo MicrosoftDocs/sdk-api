@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_TRUST_STATUS, CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID, CERT_T
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_TRUST_STATUS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

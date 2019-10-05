@@ -12,6 +12,8 @@ ms.keywords: MFCreateMPEG4MediaSink, MFCreateMPEG4MediaSink function [Media Foun
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateMPEG4MediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

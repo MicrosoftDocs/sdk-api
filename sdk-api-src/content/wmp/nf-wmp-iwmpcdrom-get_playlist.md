@@ -12,6 +12,8 @@ ms.keywords: IWMPCdrom interface [Windows Media Player],get_playlist method, IWM
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdrom.get_playlist"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

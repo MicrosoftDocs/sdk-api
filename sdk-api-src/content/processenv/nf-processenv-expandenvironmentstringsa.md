@@ -12,6 +12,8 @@ ms.keywords: ExpandEnvironmentStrings, ExpandEnvironmentStrings function, Expand
 ms.topic: function
 f1_keywords: 
  - "processenv/ExpandEnvironmentStrings"
+dev_langs:
+ - c++
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows

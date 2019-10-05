@@ -12,6 +12,8 @@ ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Wri
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFont.GetInformationalStrings"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PEER_COLLAB_EVENT_TYPE, PEER_COLLAB_EVENT_TYPE enumeration [Peer Ne
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_COLLAB_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

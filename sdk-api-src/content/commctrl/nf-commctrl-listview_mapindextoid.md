@@ -12,6 +12,8 @@ ms.keywords: ListView_MapIndexToID, ListView_MapIndexToID macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_MapIndexToID"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

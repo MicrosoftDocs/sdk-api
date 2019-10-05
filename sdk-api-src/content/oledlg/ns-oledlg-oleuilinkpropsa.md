@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUILINKPROPSA, *POLEUILINKPROPSA, LPOLEUILINKPROPS, LPOLEUILI
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUILINKPROPS"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_BINDING_TYPE, DML_BINDING_TYPE enumeration, DML_BINDING_TYPE_BU
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_BINDING_TYPE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

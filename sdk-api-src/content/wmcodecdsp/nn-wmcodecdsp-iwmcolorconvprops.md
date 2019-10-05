@@ -12,6 +12,8 @@ ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMColorConvProps"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

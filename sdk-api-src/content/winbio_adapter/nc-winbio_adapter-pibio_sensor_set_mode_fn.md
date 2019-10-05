@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_SET_MODE_FN, PIBIO_SENSOR_SET_MODE_FN callback, Sensor
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterSetMode
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

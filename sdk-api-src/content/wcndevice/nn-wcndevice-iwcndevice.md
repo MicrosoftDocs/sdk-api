@@ -12,6 +12,8 @@ ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], IWCNDevice 
 ms.topic: interface
 f1_keywords: 
  - "wcndevice/IWCNDevice"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.CollectingInk"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetActivateResult, GetActivateResult method [Core Audio], GetActiva
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IActivateAudioInterfaceAsyncOperation.GetActivateResult"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

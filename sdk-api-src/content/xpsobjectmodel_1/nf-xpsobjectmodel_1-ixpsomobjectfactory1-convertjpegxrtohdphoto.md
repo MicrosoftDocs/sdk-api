@@ -12,6 +12,8 @@ ms.keywords: ConvertJpegXRToHDPhoto, ConvertJpegXRToHDPhoto method [XPS Document
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

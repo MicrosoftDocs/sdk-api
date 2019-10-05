@@ -12,6 +12,8 @@ ms.keywords: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31, IMFRealTimeClient interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRealTimeClient.RegisterThreads"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

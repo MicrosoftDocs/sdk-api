@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO cont
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

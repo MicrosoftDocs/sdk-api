@@ -12,6 +12,8 @@ ms.keywords: '*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structur
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_SCOPE_ENTRY
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

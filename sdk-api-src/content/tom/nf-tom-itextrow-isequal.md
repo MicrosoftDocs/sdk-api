@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],IsEqual method, ITextRow.IsEq
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.IsEqual"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

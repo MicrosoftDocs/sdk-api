@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],SaveAsFile method, IPicture.SaveAsFile, IP
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.SaveAsFile"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

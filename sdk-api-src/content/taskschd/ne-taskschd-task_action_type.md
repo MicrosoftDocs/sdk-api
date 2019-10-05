@@ -12,6 +12,8 @@ ms.keywords: TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, 
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_ACTION_TYPE"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

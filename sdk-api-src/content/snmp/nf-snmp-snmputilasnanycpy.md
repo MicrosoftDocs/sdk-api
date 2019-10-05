@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputi
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilAsnAnyCpy"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexs
 ms.topic: function
 f1_keywords:
 - ntquery/CIState
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

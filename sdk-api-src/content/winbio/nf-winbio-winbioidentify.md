@@ -12,6 +12,8 @@ ms.keywords: WinBioIdentify, WinBioIdentify function [Windows Biometric Framewor
 ms.topic: function
 f1_keywords:
 - winbio/WinBioIdentify
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

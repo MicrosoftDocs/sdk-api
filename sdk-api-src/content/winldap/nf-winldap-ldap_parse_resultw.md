@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_parse_result, ldap.ldap__parse__result, ldap.ldap_parse
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_parse_result"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

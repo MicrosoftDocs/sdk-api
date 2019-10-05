@@ -12,6 +12,8 @@ ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], winsync.sync_range
 ms.topic: struct
 f1_keywords: 
  - "winsync/SYNC_RANGE"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

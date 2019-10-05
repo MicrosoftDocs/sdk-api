@@ -12,6 +12,8 @@ ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.IsStringSupported"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

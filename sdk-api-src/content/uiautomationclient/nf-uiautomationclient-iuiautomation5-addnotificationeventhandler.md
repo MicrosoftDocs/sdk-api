@@ -12,6 +12,8 @@ ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation5.AddNotificationEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

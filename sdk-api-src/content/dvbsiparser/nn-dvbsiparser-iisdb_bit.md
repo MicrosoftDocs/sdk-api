@@ -12,6 +12,8 @@ ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_B
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IISDB_BIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

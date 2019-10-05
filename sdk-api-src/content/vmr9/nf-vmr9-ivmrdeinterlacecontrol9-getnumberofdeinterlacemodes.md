@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [Di
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

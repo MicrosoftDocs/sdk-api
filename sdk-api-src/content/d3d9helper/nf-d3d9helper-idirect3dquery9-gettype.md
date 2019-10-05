@@ -12,6 +12,8 @@ ms.keywords: 581f12d8-a07f-3bef-8285-25360f8d6b4c, GetType, GetType method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DQuery9.GetType"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

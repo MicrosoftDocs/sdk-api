@@ -12,6 +12,8 @@ ms.keywords: PEER_GROUP_STATUS, PEER_GROUP_STATUS enumeration [Peer Networking],
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_GROUP_STATUS"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

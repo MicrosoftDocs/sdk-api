@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method,
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.RemoveCapturedItem"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

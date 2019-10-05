@@ -12,6 +12,8 @@ ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel functi
 ms.topic: function
 f1_keywords: 
  - "prnasnot/CreatePrintAsyncNotifyChannel"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

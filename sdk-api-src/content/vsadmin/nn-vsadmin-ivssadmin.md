@@ -12,6 +12,8 @@ ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],des
 ms.topic: interface
 f1_keywords: 
  - "vsadmin/IVssAdmin"
+dev_langs:
+ - c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

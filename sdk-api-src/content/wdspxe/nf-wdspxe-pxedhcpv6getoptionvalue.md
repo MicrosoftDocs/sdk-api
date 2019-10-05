@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpv6GetOptionValue, PxeDhcpv6GetOptionValue function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6GetOptionValue"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

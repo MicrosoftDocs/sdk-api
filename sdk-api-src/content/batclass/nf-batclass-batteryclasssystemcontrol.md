@@ -12,6 +12,8 @@ ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Batte
 ms.topic: function
 f1_keywords: 
  - "batclass/BatteryClassSystemControl"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

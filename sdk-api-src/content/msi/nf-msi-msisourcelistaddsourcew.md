@@ -12,6 +12,8 @@ ms.keywords: MsiSourceListAddSource, MsiSourceListAddSource function, MsiSourceL
 ms.topic: function
 f1_keywords: 
  - "msi/MsiSourceListAddSource"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

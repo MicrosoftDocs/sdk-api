@@ -12,6 +12,8 @@ ms.keywords: GetNumberInputs, GetNumberInputs method [WPF Bitmap Effects], GetNu
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectionsInfo.GetNumberInputs"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

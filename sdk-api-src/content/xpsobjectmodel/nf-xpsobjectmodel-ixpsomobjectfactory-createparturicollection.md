@@ -12,6 +12,8 @@ ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Docume
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreatePartUriCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

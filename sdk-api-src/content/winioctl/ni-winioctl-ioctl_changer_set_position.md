@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOC
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_SET_POSITION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

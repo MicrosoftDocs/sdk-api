@@ -12,6 +12,8 @@ ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPAT.GetTransportStreamId"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

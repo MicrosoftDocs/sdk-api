@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "control/IMediaControl.GetState"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

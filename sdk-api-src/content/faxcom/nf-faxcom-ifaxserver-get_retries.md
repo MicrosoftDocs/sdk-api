@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],Retries property, IFaxServer.Ret
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.Retries"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

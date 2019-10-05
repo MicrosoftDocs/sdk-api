@@ -12,6 +12,8 @@ ms.keywords: 21e68151-38c9-414f-840c-c2687a05aea4, CreateStrokes, CreateStrokes 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.CreateStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

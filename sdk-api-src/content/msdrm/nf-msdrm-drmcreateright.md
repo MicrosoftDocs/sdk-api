@@ -12,6 +12,8 @@ ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Ma
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCreateRight"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

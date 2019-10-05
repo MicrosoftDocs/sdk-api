@@ -12,6 +12,8 @@ ms.keywords: NormalizeString, NormalizeString function [Internationalization for
 ms.topic: function
 f1_keywords:
 - winnls/NormalizeString
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

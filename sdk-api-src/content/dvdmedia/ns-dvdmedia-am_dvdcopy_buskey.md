@@ -12,6 +12,8 @@ ms.keywords: "*PAM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY structur
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/AM_DVDCOPY_BUSKEY"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

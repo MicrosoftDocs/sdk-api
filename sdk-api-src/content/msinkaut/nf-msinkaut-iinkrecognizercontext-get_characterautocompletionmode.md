@@ -12,6 +12,8 @@ ms.keywords: 8cb3e41f-803f-4f88-81bb-b2222c070610, CharacterAutoCompletionMode p
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.CharacterAutoCompletionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

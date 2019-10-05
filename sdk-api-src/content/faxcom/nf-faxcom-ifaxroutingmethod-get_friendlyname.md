@@ -12,6 +12,8 @@ ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.FriendlyName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST,
 ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_BANDWIDTH_INFO_REQUEST
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

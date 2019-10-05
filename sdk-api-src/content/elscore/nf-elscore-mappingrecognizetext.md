@@ -12,6 +12,8 @@ ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationali
 ms.topic: function
 f1_keywords:
 - elscore/MappingRecognizeText
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

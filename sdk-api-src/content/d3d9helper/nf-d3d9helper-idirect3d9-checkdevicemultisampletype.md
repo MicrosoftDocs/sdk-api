@@ -12,6 +12,8 @@ ms.keywords: 38d1da74-ccb7-0331-69f5-3bcd3ba4721c, CheckDeviceMultiSampleType, C
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3D9.CheckDeviceMultiSampleType"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

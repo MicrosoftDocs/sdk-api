@@ -12,6 +12,8 @@ ms.keywords: "*PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_SSL_F1
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

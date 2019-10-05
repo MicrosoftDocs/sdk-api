@@ -12,6 +12,8 @@ ms.keywords: "*PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION, P
 ms.topic: struct
 f1_keywords: 
  - "winbase/UMS_SYSTEM_THREAD_INFORMATION"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

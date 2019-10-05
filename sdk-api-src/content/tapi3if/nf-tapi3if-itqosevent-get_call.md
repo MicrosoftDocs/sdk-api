@@ -12,6 +12,8 @@ ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Call method, ITQOSEvent.get_Cal
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITQOSEvent.get_Call"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

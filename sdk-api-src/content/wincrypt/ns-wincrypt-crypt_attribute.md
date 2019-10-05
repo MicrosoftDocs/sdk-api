@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Sec
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ATTRIBUTE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

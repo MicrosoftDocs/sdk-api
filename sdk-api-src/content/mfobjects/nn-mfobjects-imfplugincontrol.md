@@ -12,6 +12,8 @@ ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IM
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFPluginControl"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

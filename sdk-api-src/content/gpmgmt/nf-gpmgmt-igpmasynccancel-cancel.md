@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [GPMC], Cancel method [GPMC],IGPMAsyncCancel 
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMAsyncCancel.Cancel"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransform
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometry.SetTransformLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

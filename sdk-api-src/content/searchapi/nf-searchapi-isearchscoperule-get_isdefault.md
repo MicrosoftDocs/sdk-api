@@ -12,6 +12,8 @@ ms.keywords: ISearchScopeRule interface [search],get_IsDefault method, ISearchSc
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchScopeRule.get_IsDefault"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

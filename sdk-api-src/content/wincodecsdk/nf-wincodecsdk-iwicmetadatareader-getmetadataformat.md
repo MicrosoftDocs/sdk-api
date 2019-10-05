@@ -12,6 +12,8 @@ ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Compon
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReader.GetMetadataFormat"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

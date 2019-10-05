@@ -12,6 +12,8 @@ ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterFileSink2.GetFileSize"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

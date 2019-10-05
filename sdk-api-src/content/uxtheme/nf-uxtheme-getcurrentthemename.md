@@ -12,6 +12,8 @@ ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetCurrentThemeName"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

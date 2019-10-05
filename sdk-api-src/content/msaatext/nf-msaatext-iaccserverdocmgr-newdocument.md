@@ -12,6 +12,8 @@ ms.keywords: IAccServerDocMgr interface [Windows Accessibility],NewDocument meth
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccServerDocMgr.NewDocument"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

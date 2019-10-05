@@ -12,6 +12,8 @@ ms.keywords: IAG_AllGestures, IAG_ArrowDown, IAG_ArrowLeft, IAG_ArrowRight, IAG_
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkApplicationGesture"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

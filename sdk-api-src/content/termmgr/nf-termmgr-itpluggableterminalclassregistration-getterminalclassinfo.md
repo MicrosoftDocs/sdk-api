@@ -12,6 +12,8 @@ ms.keywords: GetTerminalClassInfo, GetTerminalClassInfo method [TAPI 2.2], GetTe
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalClassRegistration.GetTerminalClassInfo"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

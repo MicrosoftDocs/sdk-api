@@ -12,6 +12,8 @@ ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_sa
 ms.topic: function
 f1_keywords:
 - winsafer/SaferIdentifyLevel
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

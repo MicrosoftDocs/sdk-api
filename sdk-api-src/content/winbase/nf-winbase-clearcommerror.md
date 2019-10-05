@@ -12,6 +12,8 @@ ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommEr
 ms.topic: function
 f1_keywords:
 - winbase/ClearCommError
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

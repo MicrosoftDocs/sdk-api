@@ -12,6 +12,8 @@ ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [
 ms.topic: enum
 f1_keywords: 
  - "textstor/TsShiftDir"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

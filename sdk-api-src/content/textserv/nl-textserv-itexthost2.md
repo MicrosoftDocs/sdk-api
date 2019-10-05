@@ -12,6 +12,8 @@ ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 int
 ms.topic: class
 f1_keywords: 
  - "textserv/ITextHost2"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

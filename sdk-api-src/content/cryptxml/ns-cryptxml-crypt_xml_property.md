@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY struc
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_PROPERTY"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

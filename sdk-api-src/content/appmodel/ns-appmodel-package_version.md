@@ -12,6 +12,8 @@ ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and manag
 ms.topic: struct
 f1_keywords: 
  - "appmodel/PACKAGE_VERSION"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

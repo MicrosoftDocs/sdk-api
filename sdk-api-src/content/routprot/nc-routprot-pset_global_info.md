@@ -12,6 +12,8 @@ ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callb
 ms.topic: callback
 f1_keywords: 
  - "routprot/PSET_GLOBAL_INFO"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

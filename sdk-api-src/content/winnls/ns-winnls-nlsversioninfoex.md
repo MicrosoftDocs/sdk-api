@@ -12,6 +12,8 @@ ms.keywords: "*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX struct
 ms.topic: struct
 f1_keywords: 
  - "winnls/NLSVERSIONINFOEX"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

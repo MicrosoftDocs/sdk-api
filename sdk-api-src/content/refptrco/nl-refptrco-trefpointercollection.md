@@ -12,6 +12,8 @@ ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Managem
 ms.topic: class
 f1_keywords: 
  - "refptrco/TRefPointerCollection"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

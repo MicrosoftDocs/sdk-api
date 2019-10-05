@@ -12,6 +12,8 @@ ms.keywords: EnumTypes, EnumTypes method [Human Input Devices], EnumTypes method
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.EnumTypes"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

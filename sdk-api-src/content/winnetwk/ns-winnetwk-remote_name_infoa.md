@@ -12,6 +12,8 @@ ms.keywords: "*LPREMOTE_NAME_INFOA, LPREMOTE_NAME_INFO, LPREMOTE_NAME_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/REMOTE_NAME_INFO"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

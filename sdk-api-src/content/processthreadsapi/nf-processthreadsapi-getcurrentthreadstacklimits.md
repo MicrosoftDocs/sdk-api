@@ -12,6 +12,8 @@ ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, 
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetCurrentThreadStackLimits"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

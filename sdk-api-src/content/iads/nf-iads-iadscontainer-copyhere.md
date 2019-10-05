@@ -12,6 +12,8 @@ ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContai
 ms.topic: method
 f1_keywords: 
  - "iads/IADsContainer.CopyHere"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IVisualProperties.GetColor"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

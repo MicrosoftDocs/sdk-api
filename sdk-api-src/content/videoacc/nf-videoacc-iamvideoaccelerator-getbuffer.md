@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectS
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetBuffer
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpQueryContextAttributes, SpQueryContextAttributes callback functio
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpQueryContextAttributes
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

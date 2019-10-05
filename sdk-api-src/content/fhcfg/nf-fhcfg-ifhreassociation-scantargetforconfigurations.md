@@ -12,6 +12,8 @@ ms.keywords: FhReassociation class [Windows API],ScanTargetForConfigurations met
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhReassociation.ScanTargetForConfigurations"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

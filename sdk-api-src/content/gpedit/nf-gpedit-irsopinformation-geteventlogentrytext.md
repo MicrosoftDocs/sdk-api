@@ -12,6 +12,8 @@ ms.keywords: GetEventLogEntryText, GetEventLogEntryText method [Group Policy], G
 ms.topic: method
 f1_keywords: 
  - "gpedit/IRSOPInformation.GetEventLogEntryText"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

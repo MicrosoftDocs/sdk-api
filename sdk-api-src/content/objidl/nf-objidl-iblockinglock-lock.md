@@ -12,6 +12,8 @@ ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlo
 ms.topic: method
 f1_keywords: 
  - "objidl/IBlockingLock.Lock"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

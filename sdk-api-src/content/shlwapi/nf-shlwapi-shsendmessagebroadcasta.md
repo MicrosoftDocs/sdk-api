@@ -12,6 +12,8 @@ ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHSendMessageBroadcast"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

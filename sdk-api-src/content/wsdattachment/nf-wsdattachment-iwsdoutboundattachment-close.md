@@ -12,6 +12,8 @@ ms.keywords: Close, Close method, Close method,IWSDOutboundAttachment interface,
 ms.topic: method
 f1_keywords: 
  - "wsdattachment/IWSDOutboundAttachment.Close"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

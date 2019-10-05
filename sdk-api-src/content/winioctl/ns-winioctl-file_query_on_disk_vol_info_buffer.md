@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

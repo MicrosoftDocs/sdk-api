@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification m
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyChannel.SendNotification"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

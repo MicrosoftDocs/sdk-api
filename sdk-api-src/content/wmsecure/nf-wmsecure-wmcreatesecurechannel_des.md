@@ -12,6 +12,8 @@ ms.keywords: WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [wind
 ms.topic: function
 f1_keywords: 
  - "wmsecure/WMCreateSecureChannel_DES"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_PIPELINE_CLEANUP_FN, PIBIO_STORAGE_PIPELINE_CLEANUP_F
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterPipelineCleanup
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

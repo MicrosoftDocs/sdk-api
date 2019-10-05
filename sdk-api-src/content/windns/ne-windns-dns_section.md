@@ -12,6 +12,8 @@ ms.keywords: DNS_SECTION, DNS_SECTION enumeration [DNS], DnsSectionAddtional, Dn
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_SECTION"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

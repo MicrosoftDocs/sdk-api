@@ -12,6 +12,8 @@ ms.keywords: IATSCLocator interface [Microsoft TV Technologies],get_PhysicalChan
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCLocator.get_PhysicalChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

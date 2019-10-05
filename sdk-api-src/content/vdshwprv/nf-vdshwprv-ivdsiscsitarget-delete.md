@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget in
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.Delete
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

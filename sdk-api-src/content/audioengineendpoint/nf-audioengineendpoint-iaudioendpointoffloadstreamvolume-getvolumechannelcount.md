@@ -12,6 +12,8 @@ ms.keywords: GetVolumeChannelCount, GetVolumeChannelCount method [Core Audio], G
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUd
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpAddress.GetMessageType
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

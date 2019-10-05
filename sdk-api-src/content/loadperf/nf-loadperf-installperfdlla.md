@@ -12,6 +12,8 @@ ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfD
 ms.topic: function
 f1_keywords: 
  - "loadperf/InstallPerfDll"
+dev_langs:
+ - c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows

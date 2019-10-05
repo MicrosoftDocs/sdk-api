@@ -12,6 +12,8 @@ ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetBoundLicenseAttribute"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

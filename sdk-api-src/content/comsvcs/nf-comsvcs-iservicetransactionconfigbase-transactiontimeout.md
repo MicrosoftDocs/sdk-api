@@ -12,6 +12,8 @@ ms.keywords: IServiceTransactionConfigBase interface [COM+],TransactionTimeout m
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceTransactionConfigBase.TransactionTimeout"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

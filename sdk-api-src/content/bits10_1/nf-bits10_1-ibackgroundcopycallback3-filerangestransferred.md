@@ -12,6 +12,8 @@ ms.keywords: FileRangesTransferred, FileRangesTransferred method [BITS], FileRan
 ms.topic: method
 f1_keywords: 
  - "bits10_1/IBackgroundCopyCallback3.FileRangesTransferred"
+dev_langs:
+ - c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

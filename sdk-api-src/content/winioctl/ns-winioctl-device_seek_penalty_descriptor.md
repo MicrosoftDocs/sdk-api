@@ -12,6 +12,8 @@ ms.keywords: "*PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, 
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DEVICE_SEEK_PENALTY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

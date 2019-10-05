@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_DELETE_RECORD_FN, PIBIO_STORAGE_DELETE_RECORD_FN call
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterDeleteRecord
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

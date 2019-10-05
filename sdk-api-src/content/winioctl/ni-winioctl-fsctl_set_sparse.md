@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_SPARSE, FSCTL_SET_SPARSE control, FSCTL_SET_SPARSE contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_SPARSE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

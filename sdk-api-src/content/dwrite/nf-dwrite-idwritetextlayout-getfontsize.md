@@ -12,6 +12,8 @@ ms.keywords: GetFontSize, GetFontSize method [Direct Write], GetFontSize method 
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetFontSize"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

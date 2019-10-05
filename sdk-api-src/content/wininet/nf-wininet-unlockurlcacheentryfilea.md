@@ -12,6 +12,8 @@ ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet]
 ms.topic: function
 f1_keywords: 
  - "wininet/UnlockUrlCacheEntryFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

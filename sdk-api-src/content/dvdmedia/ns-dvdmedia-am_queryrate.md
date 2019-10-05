@@ -12,6 +12,8 @@ ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStru
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/AM_QueryRate"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

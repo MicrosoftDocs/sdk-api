@@ -12,6 +12,8 @@ ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IResultsFolder.AddItem"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

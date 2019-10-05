@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_SUBAUTH_LOGON, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_SUBAUTH_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

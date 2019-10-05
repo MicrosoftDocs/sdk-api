@@ -12,6 +12,8 @@ ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo
 ms.topic: callback
 f1_keywords: 
  - "routprot/SetInterfaceInfo"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace3.GetRecommendedRenderingMode"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

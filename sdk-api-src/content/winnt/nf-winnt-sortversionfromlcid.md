@@ -12,6 +12,8 @@ ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalizatio
 ms.topic: macro
 f1_keywords: 
  - "winnt/SORTVERSIONFROMLCID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

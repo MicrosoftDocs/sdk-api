@@ -12,6 +12,8 @@ ms.keywords: '*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure 
 ms.topic: struct
 f1_keywords:
 - winsock2/WSAVERSION
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

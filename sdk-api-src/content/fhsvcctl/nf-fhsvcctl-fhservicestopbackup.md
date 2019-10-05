@@ -12,6 +12,8 @@ ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fh
 ms.topic: function
 f1_keywords: 
  - "fhsvcctl/FhServiceStopBackup"
+dev_langs:
+ - c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

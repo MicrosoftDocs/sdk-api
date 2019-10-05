@@ -12,6 +12,8 @@ ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility
 ms.topic: interface
 f1_keywords: 
  - "oleacc/IAccPropServices"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

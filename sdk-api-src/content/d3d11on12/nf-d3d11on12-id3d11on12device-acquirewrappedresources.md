@@ -12,6 +12,8 @@ ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWra
 ms.topic: method
 f1_keywords: 
  - "d3d11on12/ID3D11On12Device.AcquireWrappedResources"
+dev_langs:
+ - c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows

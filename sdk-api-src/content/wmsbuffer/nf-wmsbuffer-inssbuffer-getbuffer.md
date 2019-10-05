@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [windows Media Format], GetBuffer metho
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer.GetBuffer"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFP_POSITION_SET_EVENT, MFP_POSITION_SET_EVENT structure [Media Fou
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_POSITION_SET_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_READ_CALLBACK, WS_READ_CALLBACK callback, WS_READ_CALLBACK callb
 ms.topic: callback
 f1_keywords:
 - webservices/WS_READ_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

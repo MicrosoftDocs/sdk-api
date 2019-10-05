@@ -12,6 +12,8 @@ ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSE
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegSetUSValue"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_POLICY_DATA, 1, 2, 3, 4, 5, PWTS_POLICY_DATA, PWTS_POLICY_DA
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_POLICY_DATA"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

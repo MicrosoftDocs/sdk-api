@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC, BCRYPT_DSA_PARAMETER_HEADER, BCRYPT_DS
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_DSA_PARAMETER_HEADER"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

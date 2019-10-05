@@ -12,6 +12,8 @@ ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdFlip
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEnt
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.GetTravelEntry"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

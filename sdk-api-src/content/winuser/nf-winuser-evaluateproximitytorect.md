@@ -12,6 +12,8 @@ ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_to
 ms.topic: function
 f1_keywords: 
  - "winuser/EvaluateProximityToRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

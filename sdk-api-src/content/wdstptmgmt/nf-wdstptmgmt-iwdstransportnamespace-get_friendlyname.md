@@ -12,6 +12,8 @@ ms.keywords: FriendlyName property [Windows Deployment Services], FriendlyName p
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespace.FriendlyName"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

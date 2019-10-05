@@ -12,6 +12,8 @@ ms.keywords: 40c9d24c-baf1-aaaf-5f7b-a462b05b36b5, D3DCURSOR_IMMEDIATE_UPDATE, I
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.SetCursorPosition"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

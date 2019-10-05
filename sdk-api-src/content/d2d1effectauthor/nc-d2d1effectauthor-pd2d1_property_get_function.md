@@ -12,6 +12,8 @@ ms.keywords: PD2D1_PROPERTY_GET_FUNCTION, PD2D1_PROPERTY_GET_FUNCTION function, 
 ms.topic: callback
 f1_keywords: 
  - "d2d1effectauthor/PD2D1_PROPERTY_GET_FUNCTION"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

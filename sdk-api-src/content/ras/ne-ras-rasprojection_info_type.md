@@ -12,6 +12,8 @@ ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION
 ms.topic: enum
 f1_keywords:
 - ras/RASPROJECTION_INFO_TYPE
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

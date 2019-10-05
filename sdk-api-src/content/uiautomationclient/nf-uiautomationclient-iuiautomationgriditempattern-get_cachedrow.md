@@ -12,6 +12,8 @@ ms.keywords: CachedRow property [Windows Accessibility], CachedRow property [Win
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CachedRow"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

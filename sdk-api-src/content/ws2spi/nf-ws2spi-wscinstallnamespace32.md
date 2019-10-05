@@ -12,6 +12,8 @@ ms.keywords: WSCInstallNameSpace32, WSCInstallNamespace32, WSCInstallNamespace32
 ms.topic: function
 f1_keywords: 
  - "ws2spi/WSCInstallNamespace32"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroun
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.EnumJobs"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

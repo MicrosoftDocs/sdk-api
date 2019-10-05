@@ -12,6 +12,8 @@ ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make
 ms.topic: macro
 f1_keywords: 
  - "dmerror/MAKE_HRESULT"
+dev_langs:
+ - c++
 req.header: dmerror.h
 req.include-header: Winerror.h, Ddrawi.h, Ddrawint.h, Winerror.h, Ddrawi.h, Ddrawint.h
 req.target-type: Windows

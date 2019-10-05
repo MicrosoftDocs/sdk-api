@@ -12,6 +12,8 @@ ms.keywords: ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCl
 ms.topic: callback
 f1_keywords:
 - clusapi/ClusterSetupProgressCallback callback
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_C
 ms.topic: struct
 f1_keywords: 
  - "mssip/MS_ADDINFO_CATALOGMEMBER"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

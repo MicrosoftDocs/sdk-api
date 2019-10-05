@@ -12,6 +12,8 @@ ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShel
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IShellItemFilter"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

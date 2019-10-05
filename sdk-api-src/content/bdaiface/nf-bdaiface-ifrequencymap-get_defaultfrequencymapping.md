@@ -12,6 +12,8 @@ ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_DefaultFreq
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IFrequencyMap.get_DefaultFrequencyMapping"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WTSEnumerateServers, WTSEnumerateServers function [Remote Desktop S
 ms.topic: function
 f1_keywords:
 - wtsapi32/WTSEnumerateServers
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

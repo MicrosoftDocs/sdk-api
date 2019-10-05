@@ -12,6 +12,8 @@ ms.keywords: ACMDRIVERENUMCB, ACMDRIVERENUMCB callback, ACMDRIVERENUMCB callback
 ms.topic: callback
 f1_keywords: 
  - "msacm/ACMDRIVERENUMCB"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

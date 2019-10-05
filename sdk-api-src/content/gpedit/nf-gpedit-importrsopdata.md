@@ -12,6 +12,8 @@ ms.keywords: ImportRSoPData, ImportRSoPData function [Group Policy], _win32_impo
 ms.topic: function
 f1_keywords: 
  - "gpedit/ImportRSoPData"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

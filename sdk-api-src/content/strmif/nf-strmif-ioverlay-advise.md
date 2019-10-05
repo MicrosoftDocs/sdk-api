@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOve
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlay.Advise"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

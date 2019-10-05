@@ -12,6 +12,8 @@ ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/
 ms.topic: macro
 f1_keywords: 
  - "webservices/WsCountOf"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

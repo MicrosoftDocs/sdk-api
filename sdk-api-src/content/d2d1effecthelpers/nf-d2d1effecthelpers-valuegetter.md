@@ -12,6 +12,8 @@ ms.keywords: ValueGetter, ValueGetter function [Direct2D], d2d1effecthelpers/Val
 ms.topic: function
 f1_keywords: 
  - "d2d1effecthelpers/ValueGetter"
+dev_langs:
+ - c++
 req.header: d2d1effecthelpers.h
 req.include-header: 
 req.target-type: Windows

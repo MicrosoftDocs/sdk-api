@@ -12,6 +12,8 @@ ms.keywords: "*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EX
 ms.topic: enum
 f1_keywords: 
  - "winnt/MEM_EXTENDED_PARAMETER_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

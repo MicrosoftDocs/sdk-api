@@ -12,6 +12,8 @@ ms.keywords: BorderStyle property [Tablet PC], BorderStyle property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.BorderStyle"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

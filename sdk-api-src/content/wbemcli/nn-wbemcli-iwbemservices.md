@@ -12,6 +12,8 @@ ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrume
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemServices"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Te
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPE_ELEMENT"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WICPlanarOptions, WICPlanarOptions enumeration [Windows Imaging Com
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPlanarOptions"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structur
 ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_PROPERTY_SPHLI
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

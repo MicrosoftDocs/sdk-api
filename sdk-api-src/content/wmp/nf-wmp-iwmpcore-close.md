@@ -12,6 +12,8 @@ ms.keywords: IWMPCore interface [Windows Media Player],close method, IWMPCore.cl
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCore.close"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

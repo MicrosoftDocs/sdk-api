@@ -12,6 +12,8 @@ ms.keywords: GetMetadataItems, GetMetadataItems method [Media Foundation], GetMe
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer.GetMetadataItems"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

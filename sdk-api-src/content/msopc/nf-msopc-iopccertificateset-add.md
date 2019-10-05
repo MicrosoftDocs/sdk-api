@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Pack
 ms.topic: method
 f1_keywords:
 - msopc/IOpcCertificateSet.Add
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

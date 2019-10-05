@@ -12,6 +12,8 @@ ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_G
 ms.topic: function
 f1_keywords:
 - wintrust/WintrustLoadFunctionPointers
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

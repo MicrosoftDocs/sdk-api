@@ -12,6 +12,8 @@ ms.keywords: "??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Manag
 ms.topic: class
 f1_keywords: 
  - "chptrarr/CHPtrArray"
+dev_langs:
+ - c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

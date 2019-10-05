@@ -12,6 +12,8 @@ ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MFASYNCRESULT"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

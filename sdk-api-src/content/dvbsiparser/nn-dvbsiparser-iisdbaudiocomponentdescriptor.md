@@ -12,6 +12,8 @@ ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interf
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

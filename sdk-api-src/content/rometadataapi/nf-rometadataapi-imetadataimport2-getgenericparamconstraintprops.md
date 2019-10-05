@@ -12,6 +12,8 @@ ms.keywords: GetGenericParamConstraintProps, GetGenericParamConstraintProps meth
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport2.GetGenericParamConstraintProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

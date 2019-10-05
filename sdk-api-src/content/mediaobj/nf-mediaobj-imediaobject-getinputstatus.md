@@ -12,6 +12,8 @@ ms.keywords: GetInputStatus, GetInputStatus method [DirectShow], GetInputStatus 
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.GetInputStatus"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

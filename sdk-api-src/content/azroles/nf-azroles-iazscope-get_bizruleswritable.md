@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],BizrulesWritable property, BizrulesWritab
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.BizrulesWritable"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

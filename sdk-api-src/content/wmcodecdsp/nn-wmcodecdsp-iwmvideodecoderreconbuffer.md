@@ -12,6 +12,8 @@ ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [M
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderReconBuffer"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSer
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSeriesDescriptor.GetSeriesId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

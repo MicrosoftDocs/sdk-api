@@ -12,6 +12,8 @@ ms.keywords: 4237e481-1c5a-7131-becc-969cb6271e8e, GetNumStoredMessagesAllowedBy
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

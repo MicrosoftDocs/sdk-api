@@ -12,6 +12,8 @@ ms.keywords: GetAdvisoryPageDimensions, GetAdvisoryPageDimensions method [XPS Do
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference.GetAdvisoryPageDimensions"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

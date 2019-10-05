@@ -12,6 +12,8 @@ ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM,
 ms.topic: macro
 f1_keywords: 
  - "winbase/MAKEINTATOM"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

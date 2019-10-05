@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKET_ADDRESS, *PSOCKET_ADDRESS, PSOCKET_ADDRESS, PSOCKET_ADDR
 ms.topic: struct
 f1_keywords: 
  - "ws2def/SOCKET_ADDRESS"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStyle, GetStyle method [Direct Write], GetStyle method [Direct W
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace3.GetStyle"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

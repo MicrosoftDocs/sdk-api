@@ -12,6 +12,8 @@ ms.keywords: EapPeerEndSession, EapPeerEndSession function [EAPHost], eaphost.ea
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerEndSession
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

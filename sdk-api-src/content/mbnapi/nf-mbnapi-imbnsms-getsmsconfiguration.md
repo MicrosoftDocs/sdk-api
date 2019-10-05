@@ -12,6 +12,8 @@ ms.keywords: GetSmsConfiguration, GetSmsConfiguration method [Microsoft Broadban
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSms.GetSmsConfiguration"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

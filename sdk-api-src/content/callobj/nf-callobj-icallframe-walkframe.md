@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],WalkFrame method, ICallFrame.WalkFrame, 
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.WalkFrame"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

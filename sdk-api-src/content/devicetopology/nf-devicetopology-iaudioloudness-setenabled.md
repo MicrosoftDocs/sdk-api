@@ -12,6 +12,8 @@ ms.keywords: IAudioLoudness interface [Core Audio],SetEnabled method, IAudioLoud
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioLoudness.SetEnabled"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

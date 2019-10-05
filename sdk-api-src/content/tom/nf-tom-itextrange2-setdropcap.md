@@ -12,6 +12,8 @@ ms.keywords: ITextRange2 interface [Windows Controls],SetDropCap method, ITextRa
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.SetDropCap"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

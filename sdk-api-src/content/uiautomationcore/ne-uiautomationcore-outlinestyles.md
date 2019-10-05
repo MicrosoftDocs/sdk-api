@@ -12,6 +12,8 @@ ms.keywords: OutlineStyles, OutlineStyles enumeration [Windows Accessibility], O
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/OutlineStyles"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

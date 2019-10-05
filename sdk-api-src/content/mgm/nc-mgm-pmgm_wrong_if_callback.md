@@ -12,6 +12,8 @@ ms.keywords: MgmWrongIfCallback, PMGM_WRONG_IF_CALLBACK, PMGM_WRONG_IF_CALLBACK 
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_WRONG_IF_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

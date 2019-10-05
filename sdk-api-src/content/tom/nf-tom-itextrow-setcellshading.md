@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextR
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.SetCellShading"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

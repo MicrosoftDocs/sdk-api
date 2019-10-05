@@ -12,6 +12,8 @@ ms.keywords: DEDUP_CONTAINER_EXTENT, DEDUP_CONTAINER_EXTENT structure [Data Dedu
 ms.topic: struct
 f1_keywords: 
  - "ddpbackup/DEDUP_CONTAINER_EXTENT"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing S
 ms.topic: function
 f1_keywords: 
  - "ntquery/BindIFilterFromStorage"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

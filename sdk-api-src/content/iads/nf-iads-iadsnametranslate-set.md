@@ -12,6 +12,8 @@ ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Se
 ms.topic: method
 f1_keywords: 
  - "iads/IADsNameTranslate.Set"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

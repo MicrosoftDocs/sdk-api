@@ -12,6 +12,8 @@ ms.keywords: D3D10_QUERY_DATA_TIMESTAMP_DISJOINT, D3D10_QUERY_DATA_TIMESTAMP_DIS
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_QUERY_DATA_TIMESTAMP_DISJOINT"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

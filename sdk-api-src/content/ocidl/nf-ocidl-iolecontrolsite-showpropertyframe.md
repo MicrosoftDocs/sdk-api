@@ -12,6 +12,8 @@ ms.keywords: IOleControlSite interface [COM],ShowPropertyFrame method, IOleContr
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControlSite.ShowPropertyFrame"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

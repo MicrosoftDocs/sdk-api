@@ -12,6 +12,8 @@ ms.keywords: CreateRuntime, CreateRuntime method, CreateRuntime method,IWinMLRun
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLRuntimeFactory.CreateRuntime"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], base.vds_
 ms.topic: struct
 f1_keywords:
 - vdslun/VDS_LUN_INFORMATION
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

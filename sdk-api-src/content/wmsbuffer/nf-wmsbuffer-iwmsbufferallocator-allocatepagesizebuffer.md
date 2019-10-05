@@ -12,6 +12,8 @@ ms.keywords: AllocatePageSizeBuffer, AllocatePageSizeBuffer method [windows Medi
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/IWMSBufferAllocator.AllocatePageSizeBuffer"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

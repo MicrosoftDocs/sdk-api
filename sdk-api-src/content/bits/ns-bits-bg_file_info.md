@@ -12,6 +12,8 @@ ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _drz_bg_file_info, bit
 ms.topic: struct
 f1_keywords: 
  - "bits/BG_FILE_INFO"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HashEquivalent, HashEquivalent method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "tuner/IBDAComparable.HashEquivalent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

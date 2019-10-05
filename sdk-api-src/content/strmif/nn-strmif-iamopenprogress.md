@@ -12,6 +12,8 @@ ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenPro
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMOpenProgress"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

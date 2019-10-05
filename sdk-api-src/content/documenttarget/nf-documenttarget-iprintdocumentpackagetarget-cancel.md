@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [XPS Documents and Packaging], Cancel method 
 ms.topic: method
 f1_keywords: 
  - "documenttarget/IPrintDocumentPackageTarget.Cancel"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

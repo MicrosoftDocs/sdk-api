@@ -12,6 +12,8 @@ ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IA
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsComputerOperations"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

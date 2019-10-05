@@ -12,6 +12,8 @@ ms.keywords: D3D11_FEATURE_DATA_D3D9_OPTIONS, D3D11_FEATURE_DATA_D3D9_OPTIONS st
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_FEATURE_DATA_D3D9_OPTIONS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

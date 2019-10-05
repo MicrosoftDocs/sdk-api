@@ -12,6 +12,8 @@ ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_ASYNC_OUTPUT
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

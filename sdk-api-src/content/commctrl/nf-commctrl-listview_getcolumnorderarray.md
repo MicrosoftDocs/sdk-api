@@ -12,6 +12,8 @@ ms.keywords: ListView_GetColumnOrderArray, ListView_GetColumnOrderArray macro [W
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetColumnOrderArray"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

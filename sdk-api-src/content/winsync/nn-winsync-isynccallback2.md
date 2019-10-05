@@ -12,6 +12,8 @@ ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallb
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncCallback2"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

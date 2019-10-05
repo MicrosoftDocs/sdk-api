@@ -12,6 +12,8 @@ ms.keywords: GetRecordEITPresentFollowingFlag, GetRecordEITPresentFollowingFlag 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SDT.GetRecordEITPresentFollowingFlag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

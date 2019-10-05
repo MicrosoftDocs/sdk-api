@@ -12,6 +12,8 @@ ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInf
 ms.topic: method
 f1_keywords:
 - winsxs/IAssemblyCache.QueryAssemblyInfo
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

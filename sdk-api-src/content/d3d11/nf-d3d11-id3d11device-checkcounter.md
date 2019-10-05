@@ -12,6 +12,8 @@ ms.keywords: 6fe48914-c164-b2f3-ada5-6ebc529a69a9, CheckCounter, CheckCounter me
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CheckCounter"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

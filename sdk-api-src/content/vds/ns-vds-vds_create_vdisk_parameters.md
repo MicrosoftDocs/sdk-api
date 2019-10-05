@@ -12,6 +12,8 @@ ms.keywords: "*PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS, PVDS_
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_CREATE_VDISK_PARAMETERS"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

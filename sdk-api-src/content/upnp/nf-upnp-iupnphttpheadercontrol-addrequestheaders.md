@@ -12,6 +12,8 @@ ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequest
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPHttpHeaderControl.AddRequestHeaders"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

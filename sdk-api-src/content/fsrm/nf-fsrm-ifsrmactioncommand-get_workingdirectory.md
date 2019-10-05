@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],Working
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionCommand.WorkingDirectory"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

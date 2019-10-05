@@ -12,6 +12,8 @@ ms.keywords: CreateRequest, CreateRequest method [XPS Documents and Packaging], 
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlock.CreateRequest"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

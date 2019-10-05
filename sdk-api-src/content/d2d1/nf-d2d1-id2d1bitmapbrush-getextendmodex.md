@@ -12,6 +12,8 @@ ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX me
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1BitmapBrush.GetExtendModeX"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestCertificate interface [Security],SignerCerti
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCertificate.SignerCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

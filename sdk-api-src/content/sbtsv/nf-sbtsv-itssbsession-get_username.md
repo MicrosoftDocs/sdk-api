@@ -12,6 +12,8 @@ ms.keywords: ITsSbSession interface [Remote Desktop Services],Username property,
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbSession.Username"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLCTL_ADD_CRYPTO_CHECKPOINT, CLCTL_ADD_CRYPTO_CHECKPOINT_EX, CLCTL_
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLCTL_CODES"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

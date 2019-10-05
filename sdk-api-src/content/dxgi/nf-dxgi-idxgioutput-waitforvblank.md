@@ -12,6 +12,8 @@ ms.keywords: 66e3ebb7-4b8b-3ceb-15fe-6d9cfdb9cb90, IDXGIOutput interface [DXGI],
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.WaitForVBlank"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

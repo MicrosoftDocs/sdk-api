@@ -12,6 +12,8 @@ ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_SetRange"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

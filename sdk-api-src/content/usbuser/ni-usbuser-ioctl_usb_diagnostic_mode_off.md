@@ -12,6 +12,8 @@ ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_OFF, IOCTL_USB_DIAGNOSTIC_MODE_OFF contro
 ms.topic: ioctl
 f1_keywords: 
  - "usbuser/IOCTL_USB_DIAGNOSTIC_MODE_OFF"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

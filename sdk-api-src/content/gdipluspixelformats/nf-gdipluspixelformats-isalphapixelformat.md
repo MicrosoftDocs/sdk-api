@@ -12,6 +12,8 @@ ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FU
 ms.topic: function
 f1_keywords: 
  - "gdipluspixelformats/IsAlphaPixelFormat"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

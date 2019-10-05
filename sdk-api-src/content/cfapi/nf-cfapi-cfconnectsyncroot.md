@@ -12,6 +12,8 @@ ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncR
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfConnectSyncRoot"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

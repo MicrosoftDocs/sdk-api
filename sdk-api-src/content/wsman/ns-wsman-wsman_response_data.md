@@ -12,6 +12,8 @@ ms.keywords: WSMAN_RESPONSE_DATA, WSMAN_RESPONSE_DATA union [Windows Remote Mana
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_RESPONSE_DATA"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 99914ded-1b9a-4373-9974-e1d1b1abd4e2, EndGetCredentials, EndGetCred
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredentialManager.EndGetCredentials"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

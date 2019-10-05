@@ -12,6 +12,8 @@ ms.keywords: GetIfEntry2, GetIfEntry2 function [IP Helper], iphlp.getifentry2, n
 ms.topic: function
 f1_keywords:
 - netioapi/GetIfEntry2
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

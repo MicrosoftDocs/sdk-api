@@ -12,6 +12,8 @@ ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCod
 ms.topic: interface
 f1_keywords: 
  - "encdec/IXDSCodec"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

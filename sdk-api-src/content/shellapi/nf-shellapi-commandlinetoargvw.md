@@ -12,6 +12,8 @@ ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _s
 ms.topic: function
 f1_keywords: 
  - "shellapi/CommandLineToArgvW"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

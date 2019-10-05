@@ -12,6 +12,8 @@ ms.keywords: '*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB struc
 ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_VARIABLE_BLOB
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

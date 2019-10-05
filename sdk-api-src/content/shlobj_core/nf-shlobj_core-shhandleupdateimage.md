@@ -12,6 +12,8 @@ ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHHandleUpdateImage"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

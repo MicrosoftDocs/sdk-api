@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem2.GetProperty
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

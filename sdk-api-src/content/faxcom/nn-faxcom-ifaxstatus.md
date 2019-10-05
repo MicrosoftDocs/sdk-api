@@ -12,6 +12,8 @@ ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interfac
 ms.topic: interface
 f1_keywords: 
  - "faxcom/IFaxStatus"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

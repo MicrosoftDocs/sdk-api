@@ -12,6 +12,8 @@ ms.keywords: 6f2fff53-b73d-3404-2005-37078d5f283b, CreateShaderResourceView, Cre
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateShaderResourceView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

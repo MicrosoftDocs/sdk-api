@@ -12,6 +12,8 @@ ms.keywords: ImageFlags, ImageFlags enumeration [GDI+], ImageFlagsCaching, Image
 ms.topic: enum
 f1_keywords: 
  - "gdiplusimaging/ImageFlags"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

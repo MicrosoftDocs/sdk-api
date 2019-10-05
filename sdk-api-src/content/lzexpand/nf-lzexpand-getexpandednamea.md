@@ -12,6 +12,8 @@ ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA
 ms.topic: function
 f1_keywords: 
  - "lzexpand/GetExpandedName"
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

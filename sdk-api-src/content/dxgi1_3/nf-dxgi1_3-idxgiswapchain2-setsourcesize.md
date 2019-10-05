@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain2 interface [DXGI],SetSourceSize method, IDXGISwapCha
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGISwapChain2.SetSourceSize"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

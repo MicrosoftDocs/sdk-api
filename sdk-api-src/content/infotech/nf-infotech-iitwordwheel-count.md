@@ -12,6 +12,8 @@ ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help W
 ms.topic: method
 f1_keywords: 
  - "infotech/IITWordWheel.Count"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

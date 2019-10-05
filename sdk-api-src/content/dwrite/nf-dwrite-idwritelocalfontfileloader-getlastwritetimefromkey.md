@@ -12,6 +12,8 @@ ms.keywords: GetLastWriteTimeFromKey, GetLastWriteTimeFromKey method [Direct Wri
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

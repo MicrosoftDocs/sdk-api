@@ -12,6 +12,8 @@ ms.keywords: DXGI_OFFER_RESOURCE_FLAGS, DXGI_OFFER_RESOURCE_FLAGS enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

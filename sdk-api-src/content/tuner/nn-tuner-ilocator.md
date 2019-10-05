@@ -12,6 +12,8 @@ ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator 
 ms.topic: interface
 f1_keywords: 
  - "tuner/ILocator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

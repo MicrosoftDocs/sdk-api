@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration interface [Fax Service],IncomingFaxesArePublic pr
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.IncomingFaxesArePublic"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

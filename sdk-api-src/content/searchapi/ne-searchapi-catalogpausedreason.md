@@ -12,6 +12,8 @@ ms.keywords: CATALOG_PAUSED_REASON_DELAYED_RECOVERY, CATALOG_PAUSED_REASON_EXTER
 ms.topic: enum
 f1_keywords: 
  - "searchapi/CatalogPausedReason"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

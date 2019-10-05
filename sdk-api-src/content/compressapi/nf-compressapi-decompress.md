@@ -12,6 +12,8 @@ ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompres
 ms.topic: function
 f1_keywords: 
  - "compressapi/Decompress"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

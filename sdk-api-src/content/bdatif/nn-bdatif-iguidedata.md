@@ -12,6 +12,8 @@ ms.keywords: IGuideData, IGuideData interface [Microsoft TV Technologies], IGuid
 ms.topic: interface
 f1_keywords: 
  - "bdatif/IGuideData"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

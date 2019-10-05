@@ -12,6 +12,8 @@ ms.keywords: FiringInterfaceID property [COM+], FiringInterfaceID property [COM+
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass.FiringInterfaceID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

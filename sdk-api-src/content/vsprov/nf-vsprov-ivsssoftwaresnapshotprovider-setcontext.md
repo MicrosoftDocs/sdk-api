@@ -12,6 +12,8 @@ ms.keywords: IVssSoftwareSnapshotProvider interface,SetContext method, IVssSoftw
 ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.SetContext
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

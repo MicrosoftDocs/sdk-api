@@ -12,6 +12,8 @@ ms.keywords: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176, IMFInputTrustAuthority interf
 ms.topic: method
 f1_keywords:
 - mfidl/IMFInputTrustAuthority.UpdateAccess
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

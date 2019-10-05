@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch 
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetHookSwitch"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

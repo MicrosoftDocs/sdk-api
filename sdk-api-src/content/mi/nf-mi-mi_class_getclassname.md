@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetClassName, MI_Class_GetClassName function [Windows Mana
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetClassName"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

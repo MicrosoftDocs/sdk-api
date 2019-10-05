@@ -12,6 +12,8 @@ ms.keywords: 225224fa-54a2-8903-494c-754ad030e0af, CreateCounter, CreateCounter 
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateCounter"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

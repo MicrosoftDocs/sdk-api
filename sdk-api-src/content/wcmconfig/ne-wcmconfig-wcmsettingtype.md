@@ -12,6 +12,8 @@ ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], settingTypeComple
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmSettingType"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

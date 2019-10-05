@@ -12,6 +12,8 @@ ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

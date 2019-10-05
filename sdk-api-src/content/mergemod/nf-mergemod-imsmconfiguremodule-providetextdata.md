@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigureModule interface,ProvideTextData method, IMsmConfigure
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmConfigureModule.ProvideTextData"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

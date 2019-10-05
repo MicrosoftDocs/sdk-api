@@ -12,6 +12,8 @@ ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrup
 ms.topic: function
 f1_keywords: 
  - "realtimeapiset/QueryInterruptTime"
+dev_langs:
+ - c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

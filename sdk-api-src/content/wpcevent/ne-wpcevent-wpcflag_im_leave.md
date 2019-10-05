@@ -12,6 +12,8 @@ ms.keywords: WPCFLAG_IM_LEAVE, WPCFLAG_IM_LEAVE enumeration, WPCFLAG_IM_LEAVE_CO
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPCFLAG_IM_LEAVE"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

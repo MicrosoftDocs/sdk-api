@@ -12,6 +12,8 @@ ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct 
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.GetTag"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

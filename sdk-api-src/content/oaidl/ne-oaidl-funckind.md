@@ -12,6 +12,8 @@ ms.keywords: FUNCKIND, FUNCKIND enumeration [Automation], FUNC_DISPATCH, FUNC_NO
 ms.topic: enum
 f1_keywords: 
  - "oaidl/FUNCKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: OleAuto.h
 req.target-type: Windows

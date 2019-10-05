@@ -12,6 +12,8 @@ ms.keywords: IAMTimecodeReader interface [DirectShow],get_VITCLine method, IAMTi
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTimecodeReader.get_VITCLine"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

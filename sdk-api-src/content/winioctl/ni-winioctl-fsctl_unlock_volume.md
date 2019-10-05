@@ -12,6 +12,8 @@ ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLU
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_UNLOCK_VOLUME"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

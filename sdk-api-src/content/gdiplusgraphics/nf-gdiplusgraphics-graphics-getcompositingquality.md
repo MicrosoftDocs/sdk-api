@@ -12,6 +12,8 @@ ms.keywords: GetCompositingQuality, GetCompositingQuality method [GDI+], GetComp
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetCompositingQuality"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

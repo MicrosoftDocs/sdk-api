@@ -12,6 +12,8 @@ ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 inte
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DAuthenticatedChannel9"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

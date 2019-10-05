@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interf
 ms.topic: interface
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJobManager"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1.Matrix3x2F.IsIdentity, D2D1::Matrix3x2F::IsIdentity, IsIdentit
 ms.topic: method
 f1_keywords: 
  - "d2d1helper/Matrix3x2F.IsIdentity"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

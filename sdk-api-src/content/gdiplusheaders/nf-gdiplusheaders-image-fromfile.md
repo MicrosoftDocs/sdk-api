@@ -12,6 +12,8 @@ ms.keywords: FromFile, FromFile method [GDI+], FromFile method [GDI+],Image clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.FromFile"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

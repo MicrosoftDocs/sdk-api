@@ -12,6 +12,8 @@ ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory met
 ms.topic: method
 f1_keywords: 
  - "shlobj/ICurrentWorkingDirectory.GetDirectory"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

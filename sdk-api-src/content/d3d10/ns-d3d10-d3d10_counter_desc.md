@@ -12,6 +12,8 @@ ms.keywords: 5a8f3ccd-0cb9-a3e0-7e55-eb5c1dfe5252, D3D10_COUNTER_DESC, D3D10_COU
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_COUNTER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

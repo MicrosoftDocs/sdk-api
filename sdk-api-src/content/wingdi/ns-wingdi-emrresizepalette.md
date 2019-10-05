@@ -12,6 +12,8 @@ ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRRESIZEPALETTE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

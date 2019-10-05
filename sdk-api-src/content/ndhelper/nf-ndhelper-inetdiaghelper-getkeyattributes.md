@@ -12,6 +12,8 @@ ms.keywords: GetKeyAttributes, GetKeyAttributes method [NDF], GetKeyAttributes m
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetKeyAttributes"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

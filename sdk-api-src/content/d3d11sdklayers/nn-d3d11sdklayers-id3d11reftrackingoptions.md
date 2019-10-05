@@ -12,6 +12,8 @@ ms.keywords: ID3D11RefTrackingOptions, ID3D11RefTrackingOptions interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "d3d11sdklayers/ID3D11RefTrackingOptions"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

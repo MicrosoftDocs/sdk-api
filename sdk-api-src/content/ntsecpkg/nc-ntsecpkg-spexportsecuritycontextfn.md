@@ -12,6 +12,8 @@ ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpExportSecurityContext
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

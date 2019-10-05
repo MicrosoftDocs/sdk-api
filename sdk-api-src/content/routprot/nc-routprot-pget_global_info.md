@@ -12,6 +12,8 @@ ms.keywords: GetGlobalInfo, GetGlobalInfo callback function [RAS], PGET_GLOBAL_I
 ms.topic: callback
 f1_keywords: 
  - "routprot/GetGlobalInfo"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOptimalFormat, GetOptimalFormat method [WPF Bitmap Effects], Get
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectorInfo.GetOptimalFormat"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddProperty, AddProperty method [Windows Accessibility], AddPropert
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationCacheRequest.AddProperty"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, Ht
 ms.topic: function
 f1_keywords:
 - http/HttpReceiveClientCertificate
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Mana
 ms.topic: interface
 f1_keywords: 
  - "fsrmreports/IFsrmReportJob"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

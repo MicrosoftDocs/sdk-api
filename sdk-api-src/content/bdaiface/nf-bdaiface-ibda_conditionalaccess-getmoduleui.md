@@ -12,6 +12,8 @@ ms.keywords: GetModuleUI, GetModuleUI method [Microsoft TV Technologies], GetMod
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_ConditionalAccess.GetModuleUI"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

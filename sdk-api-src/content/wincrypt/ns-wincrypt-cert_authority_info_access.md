@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_AUTHORITY_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS, CERT_AUT
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_AUTHORITY_INFO_ACCESS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

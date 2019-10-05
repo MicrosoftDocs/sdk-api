@@ -12,6 +12,8 @@ ms.keywords: GetColorPaletteCount, GetColorPaletteCount method [Direct Write], G
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFace2.GetColorPaletteCount"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

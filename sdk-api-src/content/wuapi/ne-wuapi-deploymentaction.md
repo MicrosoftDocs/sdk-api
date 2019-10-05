@@ -12,6 +12,8 @@ ms.keywords: DeploymentAction, DeploymentAction enumeration [Windows Update Agen
 ms.topic: enum
 f1_keywords: 
  - "wuapi/DeploymentAction"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

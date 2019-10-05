@@ -12,6 +12,8 @@ ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface,
 ms.topic: method
 f1_keywords: 
  - "pla/ISchedule.EndDate"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

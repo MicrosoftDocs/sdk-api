@@ -12,6 +12,8 @@ ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legac
 ms.topic: method
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCacheCallBack.ScanProgress"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

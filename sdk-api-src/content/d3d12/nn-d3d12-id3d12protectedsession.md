@@ -12,6 +12,8 @@ ms.keywords: ID3D12ProtectedSession, ID3D12ProtectedSession interface, ID3D12Pro
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12ProtectedSession"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

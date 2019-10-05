@@ -12,6 +12,8 @@ ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "winnls/GetLocaleInfoEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

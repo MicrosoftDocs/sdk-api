@@ -12,6 +12,8 @@ ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBind
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsUnBind"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUser.GetSid"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

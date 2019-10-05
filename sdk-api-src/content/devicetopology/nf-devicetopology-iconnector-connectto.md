@@ -12,6 +12,8 @@ ms.keywords: ConnectTo, ConnectTo method [Core Audio], ConnectTo method [Core Au
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.ConnectTo"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

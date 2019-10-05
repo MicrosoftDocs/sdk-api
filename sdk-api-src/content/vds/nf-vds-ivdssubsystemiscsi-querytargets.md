@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSyst
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsSubSystemIscsi.QueryTargets"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

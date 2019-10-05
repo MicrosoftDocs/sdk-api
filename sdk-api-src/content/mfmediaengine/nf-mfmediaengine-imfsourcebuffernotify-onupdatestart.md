@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart me
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBufferNotify.OnUpdateStart"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

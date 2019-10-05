@@ -12,6 +12,8 @@ ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/F
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIGETNEXTCABINET"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

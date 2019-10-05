@@ -12,6 +12,8 @@ ms.keywords: MI_Value, MI_Value structure [Windows Management Infrastructure (MI
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Value"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

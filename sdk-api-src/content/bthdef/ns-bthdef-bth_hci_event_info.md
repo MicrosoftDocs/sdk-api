@@ -12,6 +12,8 @@ ms.keywords: "*PBTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO structure [Bluetooth], 
 ms.topic: struct
 f1_keywords: 
  - "bthdef/BTH_HCI_EVENT_INFO"
+dev_langs:
+ - c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

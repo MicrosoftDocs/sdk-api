@@ -12,6 +12,8 @@ ms.keywords: ITQOSEvent, ITQOSEvent interface [TAPI 2.2], ITQOSEvent interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITQOSEvent"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

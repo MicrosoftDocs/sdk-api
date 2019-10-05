@@ -12,6 +12,8 @@ ms.keywords: "*PCOMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

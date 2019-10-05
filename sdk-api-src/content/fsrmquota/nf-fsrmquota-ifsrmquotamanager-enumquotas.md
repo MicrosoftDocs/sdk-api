@@ -12,6 +12,8 @@ ms.keywords: EnumQuotas, EnumQuotas method [File Server Resource Manager], EnumQ
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaManager.EnumQuotas
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

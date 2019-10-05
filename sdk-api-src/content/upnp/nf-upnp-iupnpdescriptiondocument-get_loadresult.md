@@ -12,6 +12,8 @@ ms.keywords: E_FAIL, E_PENDING, E_UNEXPECTED, IUPnPDescriptionDocument interface
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.get_LoadResult"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

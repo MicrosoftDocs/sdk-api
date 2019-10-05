@@ -12,6 +12,8 @@ ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, I
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509SCEPEnrollment.OldCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

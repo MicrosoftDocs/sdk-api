@@ -12,6 +12,8 @@ ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Wind
 ms.topic: function
 f1_keywords: 
  - "uxtheme/DrawThemeParentBackground"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

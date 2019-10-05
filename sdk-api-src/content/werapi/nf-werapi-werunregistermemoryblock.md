@@ -12,6 +12,8 @@ ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Window
 ms.topic: function
 f1_keywords: 
  - "werapi/WerUnregisterMemoryBlock"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

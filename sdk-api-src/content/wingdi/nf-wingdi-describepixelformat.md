@@ -12,6 +12,8 @@ ms.keywords: DescribePixelFormat, DescribePixelFormat function [OpenGL], _ogl_De
 ms.topic: function
 f1_keywords: 
  - "wingdi/DescribePixelFormat"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

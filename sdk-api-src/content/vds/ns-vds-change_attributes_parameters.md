@@ -12,6 +12,8 @@ ms.keywords: CHANGE_ATTRIBUTES_PARAMETERS, CHANGE_ATTRIBUTES_PARAMETERS structur
 ms.topic: struct
 f1_keywords: 
  - "vds/CHANGE_ATTRIBUTES_PARAMETERS"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

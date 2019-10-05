@@ -12,6 +12,8 @@ ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentState"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

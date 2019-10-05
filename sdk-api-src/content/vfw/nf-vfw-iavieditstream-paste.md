@@ -12,6 +12,8 @@ ms.keywords: IAVIEditStream interface [Windows Multimedia],Paste method, IAVIEdi
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIEditStream.Paste"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

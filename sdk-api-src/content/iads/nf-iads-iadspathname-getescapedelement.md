@@ -12,6 +12,8 @@ ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedEleme
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.GetEscapedElement"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

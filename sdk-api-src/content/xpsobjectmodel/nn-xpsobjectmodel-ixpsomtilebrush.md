@@ -12,6 +12,8 @@ ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packa
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMTileBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUn
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymUnloadModule64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

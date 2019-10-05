@@ -12,6 +12,8 @@ ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.ChildId"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

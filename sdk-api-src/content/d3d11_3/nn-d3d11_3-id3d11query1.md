@@ -12,6 +12,8 @@ ms.keywords: ID3D11Query1, ID3D11Query1 interface [Direct3D 11], ID3D11Query1 in
 ms.topic: interface
 f1_keywords: 
  - "d3d11_3/ID3D11Query1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

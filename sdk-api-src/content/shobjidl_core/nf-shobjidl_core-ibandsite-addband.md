@@ -12,6 +12,8 @@ ms.keywords: AddBand, AddBand method [Windows Shell], AddBand method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IBandSite.AddBand"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

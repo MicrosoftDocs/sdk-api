@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSet
 ms.topic: method
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

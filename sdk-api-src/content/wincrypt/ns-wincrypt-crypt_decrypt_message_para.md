@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DE
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_DECRYPT_MESSAGE_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

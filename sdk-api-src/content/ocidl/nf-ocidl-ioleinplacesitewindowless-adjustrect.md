@@ -12,6 +12,8 @@ ms.keywords: AdjustRect, AdjustRect method [COM], AdjustRect method [COM],IOleIn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleInPlaceSiteWindowless.AdjustRect"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

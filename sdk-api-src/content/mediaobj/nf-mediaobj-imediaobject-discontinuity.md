@@ -12,6 +12,8 @@ ms.keywords: Discontinuity, Discontinuity method [DirectShow], Discontinuity met
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.Discontinuity"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

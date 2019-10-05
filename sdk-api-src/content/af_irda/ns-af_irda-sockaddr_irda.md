@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKADDR_IRDA, *PSOCKADDR_IRDA, LPSOCKADDR_IRDA, LPSOCKADDR_IRD
 ms.topic: struct
 f1_keywords: 
  - "af_irda/SOCKADDR_IRDA"
+dev_langs:
+ - c++
 req.header: af_irda.h
 req.include-header: 
 req.target-type: Windows

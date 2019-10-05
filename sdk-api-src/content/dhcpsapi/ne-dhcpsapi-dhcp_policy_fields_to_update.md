@@ -12,6 +12,8 @@ ms.keywords: DHCP_POLICY_FIELDS_TO_UPDATE, DHCP_POLICY_FIELDS_TO_UPDATE enumerat
 ms.topic: enum
 f1_keywords: 
  - "dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGetSettings, SHGetSettings function [Windows Shell], SSF_DESKTOPH
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetSettings"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

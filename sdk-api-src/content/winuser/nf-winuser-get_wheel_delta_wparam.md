@@ -12,6 +12,8 @@ ms.keywords: GET_WHEEL_DELTA_WPARAM, GET_WHEEL_DELTA_WPARAM macro [Keyboard and 
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_WHEEL_DELTA_WPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

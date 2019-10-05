@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],LastDeploymentChangeTime p
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.LastDeploymentChangeTime"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

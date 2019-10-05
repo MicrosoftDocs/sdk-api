@@ -12,6 +12,8 @@ ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaul
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRMonitorConfig9.GetDefaultMonitor"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

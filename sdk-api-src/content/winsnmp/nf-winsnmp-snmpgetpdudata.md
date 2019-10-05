@@ -12,6 +12,8 @@ ms.keywords: SNMP_ERROR_AUTHORIZATIONERROR, SNMP_ERROR_BADVALUE, SNMP_ERROR_COMM
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpGetPduData"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

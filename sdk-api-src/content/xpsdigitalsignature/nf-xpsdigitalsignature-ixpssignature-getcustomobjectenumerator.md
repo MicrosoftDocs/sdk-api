@@ -12,6 +12,8 @@ ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Do
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignature.GetCustomObjectEnumerator"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

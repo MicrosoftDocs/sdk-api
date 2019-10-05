@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsH
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsHwProviderPrivate"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

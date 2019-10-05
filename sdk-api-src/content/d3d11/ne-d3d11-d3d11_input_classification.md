@@ -12,6 +12,8 @@ ms.keywords: 1ba65aec-2e16-5faf-79f0-b9d032823fb7, D3D11_INPUT_CLASSIFICATION, D
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_INPUT_CLASSIFICATION"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

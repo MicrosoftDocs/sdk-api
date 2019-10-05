@@ -12,6 +12,8 @@ ms.keywords: UShortAdd, UShortAdd function [Windows Shell], WordAdd, _shell_USho
 ms.topic: function
 f1_keywords: 
  - "intsafe/UShortAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

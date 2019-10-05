@@ -12,6 +12,8 @@ ms.keywords: IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], I
 ms.topic: interface
 f1_keywords: 
  - "inputpaneinterop/IInputPaneInterop"
+dev_langs:
+ - c++
 req.header: inputpaneinterop.h
 req.include-header: 
 req.target-type: Windows

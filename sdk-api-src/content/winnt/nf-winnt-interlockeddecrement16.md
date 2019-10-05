@@ -12,6 +12,8 @@ ms.keywords: InterlockedDecrement16, InterlockedDecrement16 function, base.inter
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedDecrement16"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

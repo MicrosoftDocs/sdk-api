@@ -12,6 +12,8 @@ ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemA
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ISystemAppEventData"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], For
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPropertyUI.FormatForDisplay"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

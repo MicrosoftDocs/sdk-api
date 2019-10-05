@@ -12,6 +12,8 @@ ms.keywords: 0355d9db-4456-4051-b611-dcb63657a0c7, IInkExtendedProperties interf
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkExtendedProperties.Item"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

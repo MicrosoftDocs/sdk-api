@@ -12,6 +12,8 @@ ms.keywords: FilterReplyMessage, FilterReplyMessage function [Installable File S
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterReplyMessage"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

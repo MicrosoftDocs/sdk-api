@@ -12,6 +12,8 @@ ms.keywords: MF_TRANSCODE_TOPOLOGYMODE_FLAGS, MF_TRANSCODE_TOPOLOGYMODE_FLAGS en
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

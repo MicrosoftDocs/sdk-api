@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate metho
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceActiveObject.OnFrameWindowActivate"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

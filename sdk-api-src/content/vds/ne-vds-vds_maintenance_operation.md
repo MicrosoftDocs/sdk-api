@@ -12,6 +12,8 @@ ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPER
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_MAINTENANCE_OPERATION"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

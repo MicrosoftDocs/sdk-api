@@ -12,6 +12,8 @@ ms.keywords: D3D11_SHADER_TRACKING_RESOURCE_TYPE, D3D11_SHADER_TRACKING_RESOURCE
 ms.topic: enum
 f1_keywords: 
  - "d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

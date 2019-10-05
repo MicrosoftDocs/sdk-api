@@ -12,6 +12,8 @@ ms.keywords: Decompose, Decompose method [Microsoft TV Technologies], Decompose 
 ms.topic: method
 f1_keywords: 
  - "msvidctl/IMSVidCtl.Decompose"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportServerFreeBuffer"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

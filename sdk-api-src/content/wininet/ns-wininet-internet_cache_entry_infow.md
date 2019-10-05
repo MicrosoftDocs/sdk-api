@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_CACHE_ENTRY_INFOW, COOKIE_CACHE_ENTRY, EDITED_CACHE_EN
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_CACHE_ENTRY_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

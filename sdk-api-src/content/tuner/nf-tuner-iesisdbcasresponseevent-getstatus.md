@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectS
 ms.topic: method
 f1_keywords: 
  - "tuner/IESIsdbCasResponseEvent.GetStatus"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

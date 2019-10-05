@@ -12,6 +12,8 @@ ms.keywords: CONST_ATTENDEE_ID_DEFAULT, IRDPSRAPIAttendee interface [RDP],Id pro
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.Id"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

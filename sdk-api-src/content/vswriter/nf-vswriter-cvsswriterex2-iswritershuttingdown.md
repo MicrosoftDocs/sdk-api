@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx2 interface,IsWriterShuttingDown method, CVssWriterEx2.
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx2.IsWriterShuttingDown"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

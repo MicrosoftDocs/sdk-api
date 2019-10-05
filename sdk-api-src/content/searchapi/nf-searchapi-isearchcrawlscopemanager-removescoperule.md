@@ -12,6 +12,8 @@ ms.keywords: ISearchCrawlScopeManager interface [search],RemoveScopeRule method,
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.RemoveScopeRule"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

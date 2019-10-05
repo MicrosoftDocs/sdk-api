@@ -12,6 +12,8 @@ ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, LIST_ENTRY structure [Kernel-Mode Driver
 ms.topic: struct
 f1_keywords: 
  - "ntdef/LIST_ENTRY"
+dev_langs:
+ - c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows

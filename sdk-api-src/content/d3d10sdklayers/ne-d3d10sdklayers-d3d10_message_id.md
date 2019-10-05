@@ -12,6 +12,8 @@ ms.keywords: D3D10_MESSAGE_ID, D3D10_MESSAGE_ID enumeration [Direct3D 10], D3D10
 ms.topic: enum
 f1_keywords: 
  - "d3d10sdklayers/D3D10_MESSAGE_ID"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

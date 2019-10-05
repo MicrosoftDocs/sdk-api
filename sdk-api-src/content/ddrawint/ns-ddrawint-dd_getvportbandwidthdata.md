@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTB
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTBANDWIDTHDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

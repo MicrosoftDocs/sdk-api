@@ -12,6 +12,8 @@ ms.keywords: "*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover 
 ms.topic: struct
 f1_keywords: 
  - "resapi/MONITOR_STATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

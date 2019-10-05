@@ -12,6 +12,8 @@ ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [W
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncFullEnumerationChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

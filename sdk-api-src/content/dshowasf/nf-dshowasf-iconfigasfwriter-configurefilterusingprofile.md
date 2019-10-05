@@ -12,6 +12,8 @@ ms.keywords: ConfigureFilterUsingProfile, ConfigureFilterUsingProfile method [Di
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfile"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

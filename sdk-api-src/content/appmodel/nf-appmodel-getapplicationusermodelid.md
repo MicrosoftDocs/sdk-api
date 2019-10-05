@@ -12,6 +12,8 @@ ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App 
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetApplicationUserModelId"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

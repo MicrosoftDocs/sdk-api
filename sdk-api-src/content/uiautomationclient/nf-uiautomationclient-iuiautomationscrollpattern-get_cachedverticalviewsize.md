@@ -12,6 +12,8 @@ ms.keywords: CachedVerticalViewSize property [Windows Accessibility], CachedVert
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationScrollPattern.CachedVerticalViewSize"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

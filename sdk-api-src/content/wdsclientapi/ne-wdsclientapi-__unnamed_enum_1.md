@@ -12,6 +12,8 @@ ms.keywords: WDS_LOG_TYPE_CLIENT, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TY
 ms.topic: enum
 f1_keywords: 
  - "wdsclientapi/WDS_LOG_TYPE_CLIENT"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

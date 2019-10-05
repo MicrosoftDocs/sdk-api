@@ -11,6 +11,8 @@ ms.keywords: GetPageFaultAllocationOutput, GetPageFaultAllocationOutput method, 
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput"
+dev_langs:
+ - c++
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

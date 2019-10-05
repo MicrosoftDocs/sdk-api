@@ -12,6 +12,8 @@ ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncI
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItemContainer.GetSyncItemCount"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

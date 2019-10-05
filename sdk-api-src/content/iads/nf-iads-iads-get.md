@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs inte
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.Get"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

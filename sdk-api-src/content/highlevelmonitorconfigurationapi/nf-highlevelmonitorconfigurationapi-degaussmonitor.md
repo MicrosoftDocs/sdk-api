@@ -12,6 +12,8 @@ ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], hi
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/DegaussMonitor"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

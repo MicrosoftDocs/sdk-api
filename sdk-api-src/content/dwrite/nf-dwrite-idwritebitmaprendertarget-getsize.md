@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Direct Write], GetSize method [Direct Writ
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteBitmapRenderTarget.GetSize"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

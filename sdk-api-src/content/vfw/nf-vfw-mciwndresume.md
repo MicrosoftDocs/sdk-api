@@ -12,6 +12,8 @@ ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWn
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndResume"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderFilter.Filter"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

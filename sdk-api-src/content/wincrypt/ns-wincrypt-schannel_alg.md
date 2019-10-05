@@ -12,6 +12,8 @@ ms.keywords: "*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Se
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/SCHANNEL_ALG"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsageT
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuota.QuotaPeakUsageTime"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Rev
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.Revert"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6afd45da-6dfb-8e93-0007-ccacda13bbb7, Begin, Begin method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Asynchronous.Begin"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

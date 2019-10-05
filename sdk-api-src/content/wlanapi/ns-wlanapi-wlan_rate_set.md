@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_RATE_SET, PWLAN_RATE_SET, PWLAN_RATE_SET structure pointer 
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_RATE_SET
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

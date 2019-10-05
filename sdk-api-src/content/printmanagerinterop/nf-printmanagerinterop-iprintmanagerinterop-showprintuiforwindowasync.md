@@ -12,6 +12,8 @@ ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWind
 ms.topic: method
 f1_keywords: 
  - "printmanagerinterop/IPrintManagerInterop.ShowPrintUIForWindowAsync"
+dev_langs:
+ - c++
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

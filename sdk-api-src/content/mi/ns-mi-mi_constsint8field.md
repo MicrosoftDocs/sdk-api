@@ -12,6 +12,8 @@ ms.keywords: MI_ConstSint8Field, MI_ConstSint8Field structure [Windows Managemen
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstSint8Field
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

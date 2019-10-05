@@ -12,6 +12,8 @@ ms.keywords: MFNominalRange, MFNominalRange enumeration [Media Foundation], MFNo
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFNominalRange
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

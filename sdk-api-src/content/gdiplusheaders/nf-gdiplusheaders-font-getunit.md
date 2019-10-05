@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],GetUnit method, Font.GetUnit, Font::GetUnit, GetU
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.GetUnit"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAppName, GetAppName method [Windows Shell], GetAppName method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileIsInUse.GetAppName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

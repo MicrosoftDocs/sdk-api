@@ -12,6 +12,8 @@ ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, 
 ms.topic: function
 f1_keywords: 
  - "winuser/MessageBoxEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

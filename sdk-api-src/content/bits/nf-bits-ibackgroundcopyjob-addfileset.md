@@ -12,6 +12,8 @@ ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBac
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.AddFileSet
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

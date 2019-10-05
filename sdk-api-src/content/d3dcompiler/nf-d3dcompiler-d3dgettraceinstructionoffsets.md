@@ -12,6 +12,8 @@ ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets functi
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DGetTraceInstructionOffsets"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

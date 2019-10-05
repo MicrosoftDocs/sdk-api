@@ -12,6 +12,8 @@ ms.keywords: AddCubic, AddCubic method [DirectComposition], AddCubic method [Dir
 ms.topic: method
 f1_keywords: 
  - "dcompanimation/IDCompositionAnimation.AddCubic"
+dev_langs:
+ - c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

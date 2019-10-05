@@ -12,6 +12,8 @@ ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize method, IFsiFileItem.ge
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem.get_DataSize"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

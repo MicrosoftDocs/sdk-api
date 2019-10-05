@@ -12,6 +12,8 @@ ms.keywords: DeliverTime, DeliverTime method [windows Media Format], DeliverTime
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced.DeliverTime"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

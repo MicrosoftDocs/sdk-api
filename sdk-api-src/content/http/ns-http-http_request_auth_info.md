@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP
 ms.topic: struct
 f1_keywords:
 - http/HTTP_REQUEST_AUTH_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBrowserService2 interface [Windows Shell],_SendChildren method, IB
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2._SendChildren"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

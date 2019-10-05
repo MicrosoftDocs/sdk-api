@@ -12,6 +12,8 @@ ms.keywords: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44, MFASF_MULTIPLEXERFLAGS, MFASF
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/MFASF_MULTIPLEXERFLAGS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

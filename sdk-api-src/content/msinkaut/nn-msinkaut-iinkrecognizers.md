@@ -12,6 +12,8 @@ ms.keywords: IInkRecognizers, IInkRecognizers interface [Tablet PC], IInkRecogni
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkRecognizers"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

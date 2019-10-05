@@ -12,6 +12,8 @@ ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],Info property, IQue
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IQueryRecentWinSATAssessment.Info"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._se
 ms.topic: struct
 f1_keywords: 
  - "structuredquery/HITRANGE"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

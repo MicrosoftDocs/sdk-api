@@ -12,6 +12,8 @@ ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOp
 ms.topic: interface
 f1_keywords: 
  - "bits4_0/IBitsTokenOptions"
+dev_langs:
+ - c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

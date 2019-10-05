@@ -12,6 +12,8 @@ ms.keywords: EncryptionStrength property [Security], EncryptionStrength property
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCmc.EncryptionStrength"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

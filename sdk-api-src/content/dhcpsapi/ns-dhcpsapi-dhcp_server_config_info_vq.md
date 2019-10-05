@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_VQ, DEBUG_ADDRESS, DEBUG_ALLOC, DEBUG_A
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

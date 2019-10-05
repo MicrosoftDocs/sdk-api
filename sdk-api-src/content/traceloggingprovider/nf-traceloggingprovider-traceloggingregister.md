@@ -4,6 +4,10 @@ title: TraceLoggingRegister
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingRegister
 ms.topic: language-reference
+f1_keywords:
+ - TraceLoggingRegister
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

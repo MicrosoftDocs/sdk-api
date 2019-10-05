@@ -12,6 +12,8 @@ ms.keywords: "*PCRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE
 ms.topic: enum
 f1_keywords: 
  - "wincred/CRED_PROTECTION_TYPE"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

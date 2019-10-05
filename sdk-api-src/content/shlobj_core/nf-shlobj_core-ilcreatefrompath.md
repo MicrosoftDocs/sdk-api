@@ -12,6 +12,8 @@ ms.keywords: ILCreateFromPath, ILCreateFromPath function [Windows Shell], ILCrea
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILCreateFromPath
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h
 req.target-type: Windows

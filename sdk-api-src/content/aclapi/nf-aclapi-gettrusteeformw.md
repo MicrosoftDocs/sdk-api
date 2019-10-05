@@ -12,6 +12,8 @@ ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA
 ms.topic: function
 f1_keywords:
 - aclapi/GetTrusteeForm
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

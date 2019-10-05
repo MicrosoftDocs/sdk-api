@@ -12,6 +12,8 @@ ms.keywords: CharNext, CharNext function [Menus and Other Resources], CharNextA,
 ms.topic: function
 f1_keywords: 
  - "winuser/CharNext"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

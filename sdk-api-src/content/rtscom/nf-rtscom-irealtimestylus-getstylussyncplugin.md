@@ -12,6 +12,8 @@ ms.keywords: GetStylusSyncPlugin, GetStylusSyncPlugin method [Tablet PC], GetSty
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetStylusSyncPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

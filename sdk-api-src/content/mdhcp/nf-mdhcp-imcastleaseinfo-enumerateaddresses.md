@@ -12,6 +12,8 @@ ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], Enumerate
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastLeaseInfo.EnumerateAddresses"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

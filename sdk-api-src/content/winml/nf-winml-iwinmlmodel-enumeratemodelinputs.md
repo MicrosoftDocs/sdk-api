@@ -12,6 +12,8 @@ ms.keywords: EnumerateModelInputs, EnumerateModelInputs method, EnumerateModelIn
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLModel.EnumerateModelInputs"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

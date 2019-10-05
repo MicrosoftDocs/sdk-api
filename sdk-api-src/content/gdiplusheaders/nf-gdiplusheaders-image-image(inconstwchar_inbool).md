@@ -12,6 +12,8 @@ ms.keywords: FALSE, Image, Image class [GDI+],Image constructor, Image construct
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.Image"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

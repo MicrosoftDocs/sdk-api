@@ -12,6 +12,8 @@ ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLog
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCSettings.IsLoggingRequired"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

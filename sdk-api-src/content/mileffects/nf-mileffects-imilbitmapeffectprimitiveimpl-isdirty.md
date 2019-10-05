@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],IsDirt
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitiveImpl.IsDirty"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

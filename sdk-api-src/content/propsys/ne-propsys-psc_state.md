@@ -12,6 +12,8 @@ ms.keywords: PSC_DIRTY, PSC_NORMAL, PSC_NOTINSOURCE, PSC_STATE, PSC_STATE enumer
 ms.topic: enum
 f1_keywords: 
  - "propsys/PSC_STATE"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

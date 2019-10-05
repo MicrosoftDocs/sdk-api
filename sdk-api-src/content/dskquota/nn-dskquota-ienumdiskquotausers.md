@@ -12,6 +12,8 @@ ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDi
 ms.topic: interface
 f1_keywords: 
  - "dskquota/IEnumDiskQuotaUsers"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

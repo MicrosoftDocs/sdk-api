@@ -12,6 +12,8 @@ ms.keywords: MF_CAPTURE_ENGINE_STREAM_CATEGORY, MF_CAPTURE_ENGINE_STREAM_CATEGOR
 ms.topic: enum
 f1_keywords: 
  - "mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

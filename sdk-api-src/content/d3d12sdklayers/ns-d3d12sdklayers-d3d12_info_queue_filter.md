@@ -12,6 +12,8 @@ ms.keywords: D3D12_INFO_QUEUE_FILTER, D3D12_INFO_QUEUE_FILTER structure, d3d12sd
 ms.topic: struct
 f1_keywords: 
  - "d3d12sdklayers/D3D12_INFO_QUEUE_FILTER"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],addAttributeToRequest method, ICEnroll4 i
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.addAttributeToRequest"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

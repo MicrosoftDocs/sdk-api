@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_SERVER_SET_CONFIG_EX1, MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2,
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_SERVER_SET_CONFIG_EX
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

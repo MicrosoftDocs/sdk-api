@@ -12,6 +12,8 @@ ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface 
 ms.topic: interface
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

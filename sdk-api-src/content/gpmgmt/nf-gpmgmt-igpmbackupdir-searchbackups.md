@@ -12,6 +12,8 @@ ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir inte
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackupDir.SearchBackups"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

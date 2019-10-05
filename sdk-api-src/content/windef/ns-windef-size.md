@@ -12,6 +12,8 @@ ms.keywords: '*LPSIZE, *PSIZE, *PSIZEL, LPSIZE, LPSIZE structure pointer [Displa
 ms.topic: struct
 f1_keywords:
 - windef/SIZE
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEventStore.GetEvent"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

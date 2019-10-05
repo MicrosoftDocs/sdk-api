@@ -12,6 +12,8 @@ ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictItems.GetItem"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

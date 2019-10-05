@@ -12,6 +12,8 @@ ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Next method, IEn
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumSingleItemExceptions.Next"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

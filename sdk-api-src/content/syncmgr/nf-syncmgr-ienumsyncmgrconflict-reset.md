@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Reset method, IEnumS
 ms.topic: method
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrConflict.Reset"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

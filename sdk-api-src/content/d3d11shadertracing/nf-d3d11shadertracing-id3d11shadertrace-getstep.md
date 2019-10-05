@@ -12,6 +12,8 @@ ms.keywords: GetStep, GetStep method [Direct3D 11], GetStep method [Direct3D 11]
 ms.topic: method
 f1_keywords: 
  - "d3d11shadertracing/ID3D11ShaderTrace.GetStep"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

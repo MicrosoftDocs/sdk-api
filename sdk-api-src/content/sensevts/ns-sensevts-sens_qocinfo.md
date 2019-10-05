@@ -12,6 +12,8 @@ ms.keywords: "*LPSENS_QOCINFO, SENS_QOCINFO, SENS_QOCINFO structure [SENS], _zaw
 ms.topic: struct
 f1_keywords: 
  - "sensevts/SENS_QOCINFO"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operato
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan.operator<"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssd
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssDuplicateSnapshot"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

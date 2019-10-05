@@ -12,6 +12,8 @@ ms.keywords: GetRecorderDriveLetter, GetRecorderDriveLetter method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ICDBurn.GetRecorderDriveLetter"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

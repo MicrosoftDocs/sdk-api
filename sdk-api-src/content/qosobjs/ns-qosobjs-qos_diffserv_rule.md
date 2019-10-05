@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE str
 ms.topic: struct
 f1_keywords:
 - qosobjs/QOS_DIFFSERV_RULE
+dev_langs:
+ - c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

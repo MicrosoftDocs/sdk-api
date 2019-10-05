@@ -12,6 +12,8 @@ ms.keywords: COMPUTER_NAME_FORMAT, COMPUTER_NAME_FORMAT enumeration, ComputerNam
 ms.topic: enum
 f1_keywords: 
  - "sysinfoapi/COMPUTER_NAME_FORMAT"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

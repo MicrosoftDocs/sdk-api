@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface 
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessageIterator"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

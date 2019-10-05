@@ -12,6 +12,8 @@ ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString fu
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitPropVariantFromGUIDAsString"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

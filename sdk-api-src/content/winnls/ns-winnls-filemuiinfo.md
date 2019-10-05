@@ -12,6 +12,8 @@ ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationaliz
 ms.topic: struct
 f1_keywords: 
  - "winnls/FILEMUIINFO"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

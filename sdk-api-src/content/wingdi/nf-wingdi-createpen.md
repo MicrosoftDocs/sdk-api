@@ -12,6 +12,8 @@ ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, P
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreatePen"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

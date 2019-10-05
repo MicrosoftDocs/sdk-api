@@ -12,6 +12,8 @@ ms.keywords: WindowPattern_SetWindowVisualState, WindowPattern_SetWindowVisualSt
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/WindowPattern_SetWindowVisualState"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

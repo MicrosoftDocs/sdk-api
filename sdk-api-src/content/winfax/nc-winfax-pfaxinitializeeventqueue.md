@@ -12,6 +12,8 @@ ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEE
 ms.topic: callback
 f1_keywords:
 - winfax/PFAXINITIALIZEEVENTQUEUE
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

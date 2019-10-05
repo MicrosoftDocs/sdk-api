@@ -12,6 +12,8 @@ ms.keywords: INewMenuClient interface [Windows Shell],SelectAndEditItem method, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INewMenuClient.SelectAndEditItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

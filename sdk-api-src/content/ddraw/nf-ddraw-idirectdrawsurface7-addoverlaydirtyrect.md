@@ -12,6 +12,8 @@ ms.keywords: AddOverlayDirtyRect, AddOverlayDirtyRect method [DirectDraw], AddOv
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.AddOverlayDirtyRect"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

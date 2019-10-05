@@ -12,6 +12,8 @@ ms.keywords: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e, IInkTransform interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.Rotate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

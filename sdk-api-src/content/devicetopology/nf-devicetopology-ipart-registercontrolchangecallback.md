@@ -12,6 +12,8 @@ ms.keywords: IPart interface [Core Audio],RegisterControlChangeCallback method, 
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.RegisterControlChangeCallback"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

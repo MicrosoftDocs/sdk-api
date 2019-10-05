@@ -12,6 +12,8 @@ ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster],
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterResourceInfo.GetResourceTypeName"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

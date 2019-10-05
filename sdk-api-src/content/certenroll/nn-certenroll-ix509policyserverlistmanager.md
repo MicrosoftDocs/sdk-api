@@ -12,6 +12,8 @@ ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interfac
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509PolicyServerListManager"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

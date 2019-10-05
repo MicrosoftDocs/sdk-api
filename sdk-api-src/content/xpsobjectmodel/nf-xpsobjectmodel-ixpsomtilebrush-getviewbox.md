@@ -12,6 +12,8 @@ ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetVie
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMTileBrush.GetViewbox"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

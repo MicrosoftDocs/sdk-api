@@ -12,6 +12,8 @@ ms.keywords: GetPropertyStorageBuffer, GetPropertyStorageBuffer method [Windows 
 ms.topic: method
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage2.GetPropertyStorageBuffer"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

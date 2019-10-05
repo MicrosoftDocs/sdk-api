@@ -12,6 +12,8 @@ ms.keywords: DeletePartition, DeletePartition method [VDS], DeletePartition meth
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsAdvancedDisk.DeletePartition"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

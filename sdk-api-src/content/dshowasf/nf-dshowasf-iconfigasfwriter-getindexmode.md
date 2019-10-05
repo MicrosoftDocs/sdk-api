@@ -12,6 +12,8 @@ ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter.GetIndexMode"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

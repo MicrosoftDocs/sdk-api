@@ -12,6 +12,8 @@ ms.keywords: XPS_COLOR_INTERPOLATION, XPS_COLOR_INTERPOLATION enumeration [XPS D
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_COLOR_INTERPOLATION"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

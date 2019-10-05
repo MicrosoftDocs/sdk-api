@@ -12,6 +12,8 @@ ms.keywords: TERMINAL_MEDIA_STATE, TERMINAL_MEDIA_STATE enumeration [TAPI 2.2], 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TERMINAL_MEDIA_STATE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

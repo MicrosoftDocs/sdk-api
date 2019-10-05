@@ -12,6 +12,8 @@ ms.keywords: VDS_OBJECT_TYPE, VDS_OBJECT_TYPE enumeration [VDS], VDS_OT_ASYNC, V
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

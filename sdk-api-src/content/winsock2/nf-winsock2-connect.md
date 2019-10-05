@@ -12,6 +12,8 @@ ms.keywords: "_win32_connect_2, connect, connect function [Winsock], winsock.con
 ms.topic: function
 f1_keywords: 
  - "winsock2/connect"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

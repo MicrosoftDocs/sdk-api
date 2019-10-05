@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequest interface [Security],ResetForEncode method,
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequest.ResetForEncode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

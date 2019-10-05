@@ -12,6 +12,8 @@ ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], IS
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/ISimpleCommandCreator"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

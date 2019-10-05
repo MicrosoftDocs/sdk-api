@@ -12,6 +12,8 @@ ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "tuner/IAnalogAudioComponentType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

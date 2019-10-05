@@ -12,6 +12,8 @@ ms.keywords: "*LPFONTSIGNATURE, *PFONTSIGNATURE, FONTSIGNATURE, FONTSIGNATURE st
 ms.topic: struct
 f1_keywords: 
  - "wingdi/FONTSIGNATURE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

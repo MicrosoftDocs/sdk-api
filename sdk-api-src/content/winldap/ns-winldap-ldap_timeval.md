@@ -12,6 +12,8 @@ ms.keywords: "*PLDAP_TIMEVAL, LDAP_TIMEVAL, LDAP_TIMEVAL structure [LDAP], PLDAP
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAP_TIMEVAL"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

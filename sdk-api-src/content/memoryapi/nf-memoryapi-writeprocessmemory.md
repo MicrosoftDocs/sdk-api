@@ -12,6 +12,8 @@ ms.keywords: WriteProcessMemory, WriteProcessMemory function, _win32_writeproces
 ms.topic: function
 f1_keywords: 
  - "memoryapi/WriteProcessMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

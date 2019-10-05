@@ -12,6 +12,8 @@ ms.keywords: IMFRealTimeClientEx interface [Media Foundation],RegisterThreadsEx 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRealTimeClientEx.RegisterThreadsEx"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

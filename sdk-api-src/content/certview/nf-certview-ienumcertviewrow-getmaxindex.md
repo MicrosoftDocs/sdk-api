@@ -12,6 +12,8 @@ ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Sec
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWROW.GetMaxIndex"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

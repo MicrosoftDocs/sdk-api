@@ -12,6 +12,8 @@ ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowl
 ms.topic: function
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/SetVCPFeature"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

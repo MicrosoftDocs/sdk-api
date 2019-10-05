@@ -12,6 +12,8 @@ ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval, MI_Subscri
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

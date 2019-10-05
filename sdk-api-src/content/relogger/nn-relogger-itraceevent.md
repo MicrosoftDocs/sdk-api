@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ET
 ms.topic: interface
 f1_keywords: 
  - "relogger/ITraceEvent"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

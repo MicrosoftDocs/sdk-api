@@ -12,6 +12,8 @@ ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propidl/FreePropVariantArray"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

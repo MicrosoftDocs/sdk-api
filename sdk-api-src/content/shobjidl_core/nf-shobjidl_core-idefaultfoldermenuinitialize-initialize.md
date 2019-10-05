@@ -12,6 +12,8 @@ ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],Initialize m
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDefaultFolderMenuInitialize.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumb
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRFilterConfig9.GetNumberOfStreams"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

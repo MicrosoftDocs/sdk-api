@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceDocumentAccessEx, IUPnPDeviceDocumentAccessEx interface 
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPDeviceDocumentAccessEx"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

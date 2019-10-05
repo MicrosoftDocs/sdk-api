@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],ScaleTransform method, Graphics.ScaleTransfor
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.ScaleTransform"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

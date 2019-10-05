@@ -12,6 +12,8 @@ ms.keywords: Count, Count method [COM+], Count method [COM+],IGetContextProperti
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IGetContextProperties.Count"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

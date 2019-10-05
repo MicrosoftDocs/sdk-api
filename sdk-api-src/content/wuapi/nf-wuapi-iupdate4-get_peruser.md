@@ -12,6 +12,8 @@ ms.keywords: IUpdate4 interface [Windows Update Agent],PerUser property, IUpdate
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate4.PerUser"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

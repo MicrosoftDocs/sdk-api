@@ -12,6 +12,8 @@ ms.keywords: GetWsChanges, GetWsChanges function [PSAPI], K32GetWsChanges, _win3
 ms.topic: function
 f1_keywords:
 - psapi/GetWsChanges
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AutoProgram, AutoProgram method [Microsoft TV Technologies], AutoPr
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTuner.AutoProgram"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

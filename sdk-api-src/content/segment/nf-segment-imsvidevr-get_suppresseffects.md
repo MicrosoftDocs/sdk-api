@@ -12,6 +12,8 @@ ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidEVR.get_SuppressEffects"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

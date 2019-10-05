@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIO
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_HARDWARE_OPTIONS"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IShellRunDll.Run"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

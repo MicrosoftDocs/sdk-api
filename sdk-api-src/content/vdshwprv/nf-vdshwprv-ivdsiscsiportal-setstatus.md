@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.S
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiPortal.SetStatus
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

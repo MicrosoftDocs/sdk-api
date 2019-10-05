@@ -12,6 +12,8 @@ ms.keywords: GetTasks, GetTasks method [Security], GetTasks method [Security],IA
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext3.GetTasks"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

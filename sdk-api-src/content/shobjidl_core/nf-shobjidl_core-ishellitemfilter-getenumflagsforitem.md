@@ -12,6 +12,8 @@ ms.keywords: GetEnumFlagsForItem, GetEnumFlagsForItem method [Windows Shell], Ge
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemFilter.GetEnumFlagsForItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEAPProviderConfig interface [EAP],Uninitialize method, IEAPProvide
 ms.topic: method
 f1_keywords: 
  - "rrascfg/IEAPProviderConfig.Uninitialize"
+dev_langs:
+ - c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows

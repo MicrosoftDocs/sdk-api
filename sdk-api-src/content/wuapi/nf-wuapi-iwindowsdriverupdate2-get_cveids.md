@@ -12,6 +12,8 @@ ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Up
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate2.CveIDs"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

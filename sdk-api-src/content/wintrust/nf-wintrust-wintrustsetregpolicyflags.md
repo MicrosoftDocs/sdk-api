@@ -12,6 +12,8 @@ ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIO
 ms.topic: function
 f1_keywords: 
  - "wintrust/WintrustSetRegPolicyFlags"
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

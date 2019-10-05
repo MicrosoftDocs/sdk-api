@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MOD
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

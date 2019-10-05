@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrEventStore"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

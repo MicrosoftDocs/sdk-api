@@ -12,6 +12,8 @@ ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Factoid"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

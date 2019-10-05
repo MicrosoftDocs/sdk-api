@@ -12,6 +12,8 @@ ms.keywords: IContextMenuCallback2, IContextMenuCallback2 interface [MMC], ICont
 ms.topic: interface
 f1_keywords: 
  - "mmc/IContextMenuCallback2"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

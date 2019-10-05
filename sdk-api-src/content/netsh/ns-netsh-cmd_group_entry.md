@@ -12,6 +12,8 @@ ms.keywords: '*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [Net
 ms.topic: struct
 f1_keywords:
 - netsh/CMD_GROUP_ENTRY
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

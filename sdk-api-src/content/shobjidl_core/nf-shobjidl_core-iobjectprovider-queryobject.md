@@ -12,6 +12,8 @@ ms.keywords: IObjectProvider interface [Windows Shell],QueryObject method, IObje
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IObjectProvider.QueryObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

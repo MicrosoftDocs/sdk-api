@@ -12,6 +12,8 @@ ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.ToString"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

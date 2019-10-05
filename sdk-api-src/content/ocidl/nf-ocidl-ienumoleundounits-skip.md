@@ -12,6 +12,8 @@ ms.keywords: IEnumOleUndoUnits interface [COM],Skip method, IEnumOleUndoUnits.Sk
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumOleUndoUnits.Skip"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

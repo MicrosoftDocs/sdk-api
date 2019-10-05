@@ -12,6 +12,8 @@ ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPro
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IPerPropertyBrowsing"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDSOBJECT, DSOBJECT, DSOBJECT structure [Active Directory], DSOB
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSOBJECT"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

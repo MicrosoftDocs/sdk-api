@@ -12,6 +12,8 @@ ms.keywords: GetQueryConstraints, GetQueryConstraints method, GetQueryConstraint
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.GetQueryConstraints"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleClientSite interface [COM],ShowObject method, IOleClientSite.Sh
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.ShowObject"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

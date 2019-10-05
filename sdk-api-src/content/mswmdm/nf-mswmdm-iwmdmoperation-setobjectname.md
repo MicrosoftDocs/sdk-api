@@ -12,6 +12,8 @@ ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectNa
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation.SetObjectName"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

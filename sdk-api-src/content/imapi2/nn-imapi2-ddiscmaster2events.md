@@ -12,6 +12,8 @@ ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], DDiscMast
 ms.topic: interface
 f1_keywords: 
  - "imapi2/DDiscMaster2Events"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

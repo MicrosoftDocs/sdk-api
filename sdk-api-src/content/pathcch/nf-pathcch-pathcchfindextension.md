@@ -12,6 +12,8 @@ ms.keywords: PathCchFindExtension, PathCchFindExtension function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchFindExtension"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

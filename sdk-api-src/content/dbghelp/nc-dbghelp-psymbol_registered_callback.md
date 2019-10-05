@@ -12,6 +12,8 @@ ms.keywords: CBA_DEBUG_INFO, CBA_DEFERRED_SYMBOL_LOAD_CANCEL, CBA_DEFERRED_SYMBO
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymRegisterCallbackProc64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

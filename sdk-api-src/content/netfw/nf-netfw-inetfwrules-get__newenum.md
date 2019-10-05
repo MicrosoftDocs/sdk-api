@@ -12,6 +12,8 @@ ms.keywords: INetFwRules interface [ICS/ICF],_NewEnum property, INetFwRules._New
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRules._NewEnum"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPosition, GetCurrentPosition method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.GetCurrentPosition"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

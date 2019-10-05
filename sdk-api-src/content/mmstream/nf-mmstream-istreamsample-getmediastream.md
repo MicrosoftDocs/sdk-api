@@ -12,6 +12,8 @@ ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream 
 ms.topic: method
 f1_keywords: 
  - "mmstream/IStreamSample.GetMediaStream"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

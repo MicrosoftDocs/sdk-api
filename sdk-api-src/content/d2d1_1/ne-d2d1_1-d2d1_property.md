@@ -12,6 +12,8 @@ ms.keywords: D2D1_PROPERTY, D2D1_PROPERTY , D2D1_PROPERTY enumeration [Direct2D]
 ms.topic: enum
 f1_keywords: 
  - "d2d1_1/D2D1_PROPERTY"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

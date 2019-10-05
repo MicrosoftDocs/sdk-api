@@ -12,6 +12,8 @@ ms.keywords: IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackag
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestPackageInfoEnumerator"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

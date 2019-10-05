@@ -12,6 +12,8 @@ ms.keywords: GetStartStopPosition, GetStartStopPosition method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetStartStopPosition"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

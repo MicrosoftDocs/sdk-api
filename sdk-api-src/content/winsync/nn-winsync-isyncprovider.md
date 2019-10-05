@@ -12,6 +12,8 @@ ms.keywords: ISyncProvider, ISyncProvider interface [Windows Sync], ISyncProvide
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncProvider"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

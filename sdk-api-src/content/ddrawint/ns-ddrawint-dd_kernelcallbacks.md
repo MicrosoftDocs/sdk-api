@@ -12,6 +12,8 @@ ms.keywords: '*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS struc
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_KERNELCALLBACKS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

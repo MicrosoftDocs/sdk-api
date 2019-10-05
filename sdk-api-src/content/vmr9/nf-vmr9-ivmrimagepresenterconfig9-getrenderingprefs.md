@@ -12,6 +12,8 @@ ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRender
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRImagePresenterConfig9.GetRenderingPrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

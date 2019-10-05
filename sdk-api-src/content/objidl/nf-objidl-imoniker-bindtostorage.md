@@ -12,6 +12,8 @@ ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [CO
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.BindToStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

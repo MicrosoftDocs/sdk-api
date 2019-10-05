@@ -12,6 +12,8 @@ ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService 
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetXAddrs
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

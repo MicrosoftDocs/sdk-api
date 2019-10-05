@@ -12,6 +12,8 @@ ms.keywords: CreateMediaKeys, CreateMediaKeys method [Media Foundation], CreateM
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaKeys"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

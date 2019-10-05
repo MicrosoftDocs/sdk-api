@@ -12,6 +12,8 @@ ms.keywords: GetErrorIndex, GetErrorIndex method [Text Services Framework], GetE
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReadingInformationUIElement.GetErrorIndex"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

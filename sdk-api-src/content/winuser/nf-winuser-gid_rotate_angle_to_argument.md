@@ -12,6 +12,8 @@ ms.keywords: GID_ROTATE_ANGLE_TO_ARGUMENT, GID_ROTATE_ANGLE_TO_ARGUMENT macro [W
 ms.topic: macro
 f1_keywords: 
  - "winuser/GID_ROTATE_ANGLE_TO_ARGUMENT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

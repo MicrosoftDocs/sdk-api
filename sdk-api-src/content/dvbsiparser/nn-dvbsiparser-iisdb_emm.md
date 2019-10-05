@@ -12,6 +12,8 @@ ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_E
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IISDB_EMM"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

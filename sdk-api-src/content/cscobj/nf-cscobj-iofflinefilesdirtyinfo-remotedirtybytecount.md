@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],RemoteDirtyByteCou
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesDirtyInfo.RemoteDirtyByteCount"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

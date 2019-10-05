@@ -12,6 +12,8 @@ ms.keywords: GetTabStopCount, GetTabStopCount method [GDI+], GetTabStopCount met
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetTabStopCount"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

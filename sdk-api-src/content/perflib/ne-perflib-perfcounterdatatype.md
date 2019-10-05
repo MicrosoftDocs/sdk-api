@@ -12,6 +12,8 @@ ms.keywords: PERF_COUNTERSET, PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MU
 ms.topic: enum
 f1_keywords:
 - perflib/PerfCounterDataType
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

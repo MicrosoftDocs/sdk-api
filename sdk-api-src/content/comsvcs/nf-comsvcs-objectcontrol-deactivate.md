@@ -12,6 +12,8 @@ ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],Obje
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ObjectControl.Deactivate"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

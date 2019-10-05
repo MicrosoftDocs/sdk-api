@@ -12,6 +12,8 @@ ms.keywords: ISdo interface [Network Policy Server],get__NewEnum method, ISdo.ge
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdo.get__NewEnum"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

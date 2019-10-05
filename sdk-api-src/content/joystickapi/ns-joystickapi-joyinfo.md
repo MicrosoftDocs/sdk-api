@@ -12,6 +12,8 @@ ms.keywords: "*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Win
 ms.topic: struct
 f1_keywords: 
  - "joystickapi/JOYINFO"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RtlDeleteGrowableFunctionTable, RtlDeleteGrowableFunctionTable func
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlDeleteGrowableFunctionTable"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetoot
 ms.topic: struct
 f1_keywords: 
  - "bthdef/BTH_L2CAP_EVENT_INFO"
+dev_langs:
+ - c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

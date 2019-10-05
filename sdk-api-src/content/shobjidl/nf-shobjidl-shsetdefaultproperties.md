@@ -12,6 +12,8 @@ ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shobjidl/SHSetDefaultProperties"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

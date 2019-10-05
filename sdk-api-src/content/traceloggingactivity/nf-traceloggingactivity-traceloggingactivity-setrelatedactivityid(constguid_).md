@@ -12,6 +12,8 @@ ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivi
 ms.topic: method
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingActivity.SetRelatedActivityId"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

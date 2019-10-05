@@ -12,6 +12,8 @@ ms.keywords: DBTEXT, DBTEXT structure [Indexing Service], _idxs_DBTEXT, cmdtree/
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBTEXT"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

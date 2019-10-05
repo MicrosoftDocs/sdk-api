@@ -12,6 +12,8 @@ ms.keywords: ISdo interface [Network Policy Server],PutProperty method, ISdo.Put
 ms.topic: method
 f1_keywords:
 - sdoias/ISdo.PutProperty
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

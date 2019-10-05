@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetUnico
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.SetUnicodeString"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

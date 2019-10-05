@@ -12,6 +12,8 @@ ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_get
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterKey"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

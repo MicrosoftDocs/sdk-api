@@ -12,6 +12,8 @@ ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],
 ms.topic: method
 f1_keywords: 
  - "vbinterf/IGetOleObject.GetOleObject"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

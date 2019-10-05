@@ -12,6 +12,8 @@ ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Wi
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager.DisableWdsTransportServices"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

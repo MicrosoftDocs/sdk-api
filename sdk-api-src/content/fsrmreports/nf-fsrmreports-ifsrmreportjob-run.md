@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Run method,
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportJob.Run
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security],
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPRemoveProvider"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

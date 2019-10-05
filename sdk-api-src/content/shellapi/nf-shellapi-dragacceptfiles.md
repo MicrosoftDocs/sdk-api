@@ -12,6 +12,8 @@ ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_D
 ms.topic: function
 f1_keywords: 
  - "shellapi/DragAcceptFiles"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 48eba170-eeed-4edf-b8d3-2f4541637129, FindFirstProxy, FindFirstProx
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetProxyLocator.FindFirstProxy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

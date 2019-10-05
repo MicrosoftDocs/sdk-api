@@ -12,6 +12,8 @@ ms.keywords: D2D1_COLOR_CONTEXT_TYPE, D2D1_COLOR_CONTEXT_TYPE enumeration [Direc
 ms.topic: enum
 f1_keywords: 
  - "d2d1_3/D2D1_COLOR_CONTEXT_TYPE"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

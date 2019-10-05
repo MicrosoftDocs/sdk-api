@@ -12,6 +12,8 @@ ms.keywords: RpcSmDestroyClientContext, RpcSmDestroyClientContext function [RPC]
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSmDestroyClientContext"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

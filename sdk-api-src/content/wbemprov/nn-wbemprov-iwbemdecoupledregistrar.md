@@ -12,6 +12,8 @@ ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemDecoupledRegistrar"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

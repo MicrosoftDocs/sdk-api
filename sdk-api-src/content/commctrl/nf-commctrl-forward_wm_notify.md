@@ -12,6 +12,8 @@ ms.keywords: FORWARD_WM_NOTIFY, FORWARD_WM_NOTIFY macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords:
 - commctrl/FORWARD_WM_NOTIFY
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

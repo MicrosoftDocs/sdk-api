@@ -12,6 +12,8 @@ ms.keywords: IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemD
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

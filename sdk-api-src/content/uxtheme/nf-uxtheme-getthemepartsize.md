@@ -12,6 +12,8 @@ ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], con
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemePartSize"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

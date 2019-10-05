@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_EapPrfInfo, EAP-FAST Keying Material, EAP-TTLSv0 C
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_EapPrfInfo"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMemberTypeBySemantic, GetMemberTypeBySemantic method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType.GetMemberTypeBySemantic"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

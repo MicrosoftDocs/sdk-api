@@ -12,6 +12,8 @@ ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVID
 ms.topic: function
 f1_keywords:
 - evntrace/EnableTraceEx2
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

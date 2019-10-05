@@ -12,6 +12,8 @@ ms.keywords: CharPrev, CharPrev function [Menus and Other Resources], CharPrevA,
 ms.topic: function
 f1_keywords: 
  - "winuser/CharPrev"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

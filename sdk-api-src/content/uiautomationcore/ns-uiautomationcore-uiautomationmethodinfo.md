@@ -12,6 +12,8 @@ ms.keywords: UIAutomationMethodInfo, UIAutomationMethodInfo structure [Windows A
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UIAutomationMethodInfo"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

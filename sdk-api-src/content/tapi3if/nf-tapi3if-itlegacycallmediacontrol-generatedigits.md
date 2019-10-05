@@ -12,6 +12,8 @@ ms.keywords: GenerateDigits, GenerateDigits method [TAPI 2.2], GenerateDigits me
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl.GenerateDigits"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

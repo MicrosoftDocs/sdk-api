@@ -12,6 +12,8 @@ ms.keywords: 89e8a772-b143-38e2-89a4-4b72b0a4b1c5, CreateRasterizerState, Create
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateRasterizerState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

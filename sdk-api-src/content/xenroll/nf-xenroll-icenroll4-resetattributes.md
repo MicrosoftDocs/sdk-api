@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],resetAttributes method, ICEnroll4 interfa
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.resetAttributes"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

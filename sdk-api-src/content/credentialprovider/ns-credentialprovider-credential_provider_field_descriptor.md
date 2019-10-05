@@ -12,6 +12,8 @@ ms.keywords: CPFG_CREDENTIAL_PROVIDER_LABEL, CPFG_CREDENTIAL_PROVIDER_LOGO, CPFG
 ms.topic: struct
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

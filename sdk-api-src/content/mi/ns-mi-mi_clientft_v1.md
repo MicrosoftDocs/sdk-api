@@ -12,6 +12,8 @@ ms.keywords: MI_ClientFT_V1, MI_ClientFT_V1 structure [Windows Management Infras
 ms.topic: struct
 f1_keywords:
 - mi/MI_ClientFT_V1
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

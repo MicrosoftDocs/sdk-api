@@ -12,6 +12,8 @@ ms.keywords: FilterUnload, FilterUnload function [Installable File System Driver
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterUnload"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

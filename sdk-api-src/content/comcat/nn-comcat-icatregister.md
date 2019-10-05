@@ -12,6 +12,8 @@ ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface 
 ms.topic: interface
 f1_keywords: 
  - "comcat/ICatRegister"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

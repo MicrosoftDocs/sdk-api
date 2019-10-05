@@ -12,6 +12,8 @@ ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], Cre
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalManager.CreateDynamicTerminal"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

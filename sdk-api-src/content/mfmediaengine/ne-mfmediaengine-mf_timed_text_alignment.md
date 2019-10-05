@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_ALIGNMENT, MF_TIMED_TEXT_ALIGNMENT enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_ALIGNMENT"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

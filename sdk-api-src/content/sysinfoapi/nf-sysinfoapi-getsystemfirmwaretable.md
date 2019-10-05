@@ -12,6 +12,8 @@ ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsy
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetSystemFirmwareTable"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

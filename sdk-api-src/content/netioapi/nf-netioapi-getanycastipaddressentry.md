@@ -12,6 +12,8 @@ ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Hel
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetAnycastIpAddressEntry"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

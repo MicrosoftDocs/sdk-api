@@ -12,6 +12,8 @@ ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSequence"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

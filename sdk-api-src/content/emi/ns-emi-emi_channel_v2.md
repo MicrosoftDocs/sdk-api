@@ -12,6 +12,8 @@ ms.keywords: EMI_CHANNEL_V2, EMI_CHANNEL_V2 structure [Power Metering and Budget
 ms.topic: struct
 f1_keywords: 
  - "emi/EMI_CHANNEL_V2"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: 
 req.target-type: Windows

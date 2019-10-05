@@ -12,6 +12,8 @@ ms.keywords: ICertRequest3, ICertRequest3 interface [Security], ICertRequest3 in
 ms.topic: interface
 f1_keywords: 
  - "certcli/ICertRequest3"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

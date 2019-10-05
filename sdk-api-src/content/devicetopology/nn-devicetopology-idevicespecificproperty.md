@@ -12,6 +12,8 @@ ms.keywords: IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Au
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IDeviceSpecificProperty"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

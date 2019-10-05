@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneGetDevCaps, TSPI_phoneGetDevCaps function [TAPI 2.2], _ts
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneGetDevCaps"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

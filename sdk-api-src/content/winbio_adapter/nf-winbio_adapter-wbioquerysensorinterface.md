@@ -12,6 +12,8 @@ ms.keywords: WbioQuerySensorInterface, WbioQuerySensorInterface function [Window
 ms.topic: function
 f1_keywords: 
  - "winbio_adapter/WbioQuerySensorInterface"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

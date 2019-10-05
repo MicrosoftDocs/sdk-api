@@ -12,6 +12,8 @@ ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _
 ms.topic: function
 f1_keywords: 
  - "tspi/TUISPI_providerRemove"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

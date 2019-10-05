@@ -12,6 +12,8 @@ ms.keywords: RCD_Logon, RasCustomDialDlg, RasCustomDialDlg callback function [RA
 ms.topic: callback
 f1_keywords: 
  - "rasdlg/RasCustomDialDlg"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

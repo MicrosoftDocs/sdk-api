@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WA
 ms.topic: struct
 f1_keywords: 
  - "mmreg/WAVEFORMATEX"
+dev_langs:
+ - c++
 req.header: mmreg.h
 req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
 req.target-type: Windows

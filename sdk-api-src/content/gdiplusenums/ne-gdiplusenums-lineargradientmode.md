@@ -12,6 +12,8 @@ ms.keywords: LinearGradientMode, LinearGradientMode enumeration [GDI+], LinearGr
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/LinearGradientMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

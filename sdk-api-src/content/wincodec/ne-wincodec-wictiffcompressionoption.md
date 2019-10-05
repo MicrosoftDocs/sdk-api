@@ -12,6 +12,8 @@ ms.keywords: WICTiffCompressionCCITT3, WICTiffCompressionCCITT4, WICTiffCompress
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICTiffCompressionOption"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

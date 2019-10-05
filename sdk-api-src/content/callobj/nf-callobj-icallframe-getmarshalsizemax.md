@@ -12,6 +12,8 @@ ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMa
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetMarshalSizeMax"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

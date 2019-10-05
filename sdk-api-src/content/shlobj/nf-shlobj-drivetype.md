@@ -12,6 +12,8 @@ ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, sh
 ms.topic: function
 f1_keywords: 
  - "shlobj/DriveType"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: Shlobj.h
 req.target-type: Windows

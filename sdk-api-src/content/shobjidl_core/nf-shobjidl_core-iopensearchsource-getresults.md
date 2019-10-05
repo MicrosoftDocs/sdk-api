@@ -12,6 +12,8 @@ ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IOpenSearchSource.GetResults"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

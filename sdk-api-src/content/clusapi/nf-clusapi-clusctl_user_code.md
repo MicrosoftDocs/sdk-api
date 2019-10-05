@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Clust
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSCTL_USER_CODE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

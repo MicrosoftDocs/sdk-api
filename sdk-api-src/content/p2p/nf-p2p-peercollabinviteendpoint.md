@@ -12,6 +12,8 @@ ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer N
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerCollabInviteEndpoint"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsAdvancedDisk interface [VDS],QueryPartitions method, IVdsAdvanc
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.QueryPartitions
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

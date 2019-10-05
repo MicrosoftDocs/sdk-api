@@ -12,6 +12,8 @@ ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics inte
 ms.topic: interface
 f1_keywords: 
  - "xamlom/IXamlDiagnostics"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

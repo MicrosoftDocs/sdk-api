@@ -12,6 +12,8 @@ ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _cr
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertGetStoreProperty"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

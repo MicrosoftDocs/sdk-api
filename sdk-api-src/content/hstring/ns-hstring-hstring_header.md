@@ -12,6 +12,8 @@ ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring
 ms.topic: struct
 f1_keywords: 
  - "hstring/HSTRING_HEADER"
+dev_langs:
+ - c++
 req.header: hstring.h
 req.include-header: 
 req.target-type: Windows

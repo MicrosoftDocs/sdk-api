@@ -12,6 +12,8 @@ ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdma method
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSms.SmsSendCdma"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 7b8a132d-2a68-b9bc-338e-0378d33147cd, GetUseRef, GetUseRef method [
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10SwitchToRef.GetUseRef"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

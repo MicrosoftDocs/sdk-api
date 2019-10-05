@@ -12,6 +12,8 @@ ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataError
 ms.topic: method
 f1_keywords: 
  - "winsync/IDataRetrieverCallback.LoadChangeDataError"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

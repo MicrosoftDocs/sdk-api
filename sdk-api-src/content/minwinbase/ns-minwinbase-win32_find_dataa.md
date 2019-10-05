@@ -12,6 +12,8 @@ ms.keywords: "*LPWIN32_FIND_DATAA, *PWIN32_FIND_DATAA, IO_REPARSE_TAG_CSV, IO_RE
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/WIN32_FIND_DATA"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

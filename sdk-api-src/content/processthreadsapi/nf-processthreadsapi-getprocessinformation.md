@@ -12,6 +12,8 @@ ms.keywords: GetProcessInformation, GetProcessInformation function, base.getproc
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetProcessInformation"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

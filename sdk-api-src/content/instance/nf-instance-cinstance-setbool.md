@@ -12,6 +12,8 @@ ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.Setbool"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

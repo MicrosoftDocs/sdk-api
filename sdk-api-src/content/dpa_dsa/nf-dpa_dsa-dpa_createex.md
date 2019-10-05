@@ -12,6 +12,8 @@ ms.keywords: DPA_CreateEx, DPA_CreateEx function [Windows Controls], _shell_DPA_
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_CreateEx"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

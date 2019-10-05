@@ -12,6 +12,8 @@ ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Rem
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskInfo.Deadline"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

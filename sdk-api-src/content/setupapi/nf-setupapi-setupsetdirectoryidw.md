@@ -12,6 +12,8 @@ ms.keywords: SetupSetDirectoryId, SetupSetDirectoryId function [Setup API], Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupSetDirectoryId"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

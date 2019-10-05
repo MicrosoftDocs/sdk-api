@@ -12,6 +12,8 @@ ms.keywords: VDS_SERVICE_FLAG, VDS_SERVICE_FLAG enumeration [VDS], VDS_SVF_AUTO_
 ms.topic: enum
 f1_keywords:
 - vds/VDS_SERVICE_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

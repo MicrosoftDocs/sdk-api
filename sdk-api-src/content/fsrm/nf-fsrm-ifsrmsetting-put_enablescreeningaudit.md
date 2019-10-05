@@ -12,6 +12,8 @@ ms.keywords: EnableScreeningAudit property [File Server Resource Manager], Enabl
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmSetting.EnableScreeningAudit"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

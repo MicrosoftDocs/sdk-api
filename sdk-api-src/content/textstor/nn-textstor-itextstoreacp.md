@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], I
 ms.topic: interface
 f1_keywords: 
  - "textstor/ITextStoreACP"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [COM+], Connect method [COM+],ICOMAdminCata
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.Connect"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

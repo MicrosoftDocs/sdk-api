@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscov
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProviderNotify.SearchFailed"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -11,6 +11,8 @@ ms.keywords: interop::CreateDirect3DDevice
 ms.topic: function
 f1_keywords: 
  - "windows.graphics.directx.direct3d11.interop/interop::CreateDirect3DDevice"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

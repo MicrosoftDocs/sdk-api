@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalInitialization, ITPluggableTerminalInitializatio
 ms.topic: interface
 f1_keywords: 
  - "termmgr/ITPluggableTerminalInitialization"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

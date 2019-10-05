@@ -12,6 +12,8 @@ ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcse
 ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerTestCancel
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

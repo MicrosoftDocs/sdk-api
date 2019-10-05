@@ -12,6 +12,8 @@ ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, P
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_COMPLETE_COMMAND_TYPE"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

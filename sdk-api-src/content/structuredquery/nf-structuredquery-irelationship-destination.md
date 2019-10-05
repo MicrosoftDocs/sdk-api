@@ -12,6 +12,8 @@ ms.keywords: Destination, Destination method [search], Destination method [searc
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IRelationship.Destination"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSegmentTypes, GetSegmentTypes method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentTypes"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

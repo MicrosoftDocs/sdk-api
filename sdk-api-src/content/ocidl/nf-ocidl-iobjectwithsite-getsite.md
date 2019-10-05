@@ -12,6 +12,8 @@ ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite
 ms.topic: method
 f1_keywords: 
  - "ocidl/IObjectWithSite.GetSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

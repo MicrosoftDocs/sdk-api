@@ -12,6 +12,8 @@ ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows 
 ms.topic: function
 f1_keywords:
 - uxtheme/SetWindowThemeAttribute
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

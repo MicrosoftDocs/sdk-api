@@ -12,6 +12,8 @@ ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS struct
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_ATTRS"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

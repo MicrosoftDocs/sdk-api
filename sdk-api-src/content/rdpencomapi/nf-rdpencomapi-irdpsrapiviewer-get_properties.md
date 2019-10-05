@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIViewer interface [RDP],Properties property, IRDPSRAPIViewe
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.Properties"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

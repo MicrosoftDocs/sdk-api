@@ -12,6 +12,8 @@ ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion prop
 ms.topic: method
 f1_keywords: 
  - "tspubplugincom/ItsPubPlugin.pluginVersion"
+dev_langs:
+ - c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

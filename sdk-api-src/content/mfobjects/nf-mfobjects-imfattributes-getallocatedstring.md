@@ -12,6 +12,8 @@ ms.keywords: 550a3035-ea16-4784-8f69-9522259bb338, GetAllocatedString, GetAlloca
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetAllocatedString
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

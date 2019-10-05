@@ -12,6 +12,8 @@ ms.keywords: 99af3767-5bc9-43e3-9413-5886f057cb85, IPenInputPanel interface [Tab
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Left"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

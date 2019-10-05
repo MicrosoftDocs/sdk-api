@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnPostRestore method, CVssWriter.OnPostR
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnPostRestore"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

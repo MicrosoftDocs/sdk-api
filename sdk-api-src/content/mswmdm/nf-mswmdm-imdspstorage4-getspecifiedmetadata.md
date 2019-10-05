@@ -12,6 +12,8 @@ ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media De
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage4.GetSpecifiedMetadata"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

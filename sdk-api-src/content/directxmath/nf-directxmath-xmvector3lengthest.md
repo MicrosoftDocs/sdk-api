@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector3LengthEst, XMVector3LengthEst, XMVector3Lengt
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector3LengthEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR
 ms.topic: function
 f1_keywords: 
  - "clusapi/CreateClusterResource"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

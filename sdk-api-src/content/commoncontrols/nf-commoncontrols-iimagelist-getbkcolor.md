@@ -12,6 +12,8 @@ ms.keywords: GetBkColor, GetBkColor method [Windows Controls], GetBkColor method
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetBkColor"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

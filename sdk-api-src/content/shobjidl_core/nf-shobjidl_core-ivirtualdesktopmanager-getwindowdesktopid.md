@@ -12,6 +12,8 @@ ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetW
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IVirtualDesktopManager.GetWindowDesktopId"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMe
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.Connect"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

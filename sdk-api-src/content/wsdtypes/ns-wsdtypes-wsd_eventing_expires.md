@@ -12,6 +12,8 @@ ms.keywords: WSD_EVENTING_EXPIRES, WSD_EVENTING_EXPIRES structure, ncd.wsd_event
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENTING_EXPIRES
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

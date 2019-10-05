@@ -12,6 +12,8 @@ ms.keywords: Definition property [Task Scheduler], Definition property [Task Sch
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTask.Definition"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

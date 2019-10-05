@@ -12,6 +12,8 @@ ms.keywords: "*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, 
 ms.topic: struct
 f1_keywords: 
  - "wsdbase/WSD_CONFIG_PARAM"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

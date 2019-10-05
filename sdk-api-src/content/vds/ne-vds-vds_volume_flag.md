@@ -12,6 +12,8 @@ ms.keywords: VDS_VF_ACTIVE, VDS_VF_BOOT_VOLUME, VDS_VF_CAN_EXTEND, VDS_VF_CAN_SH
 ms.topic: enum
 f1_keywords:
 - vds/VDS_VOLUME_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

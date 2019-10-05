@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectOutputConnectorImpl.RemoveBackLink"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

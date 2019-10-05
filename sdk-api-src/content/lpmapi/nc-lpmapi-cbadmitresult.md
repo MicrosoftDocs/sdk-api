@@ -12,6 +12,8 @@ ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, 
 ms.topic: callback
 f1_keywords: 
  - "lpmapi/CBADMITRESULT"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

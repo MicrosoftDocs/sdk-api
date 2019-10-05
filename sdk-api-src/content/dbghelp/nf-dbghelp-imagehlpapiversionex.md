@@ -12,6 +12,8 @@ ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehl
 ms.topic: function
 f1_keywords: 
  - "dbghelp/ImagehlpApiVersionEx"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

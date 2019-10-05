@@ -12,6 +12,8 @@ ms.keywords: EndAbort, EndAbort method [COM+], EndAbort method [COM+],ICrmCompen
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.EndAbort"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

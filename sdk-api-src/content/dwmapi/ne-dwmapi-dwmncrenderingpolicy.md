@@ -12,6 +12,8 @@ ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Win
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWMNCRENDERINGPOLICY"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

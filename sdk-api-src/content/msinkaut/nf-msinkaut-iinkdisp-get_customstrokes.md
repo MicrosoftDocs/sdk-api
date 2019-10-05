@@ -12,6 +12,8 @@ ms.keywords: 33425e5b-2ba0-4026-ab19-33579e7bb9f5, CustomStrokes property [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.CustomStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

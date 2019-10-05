@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Mul
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiConnect"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

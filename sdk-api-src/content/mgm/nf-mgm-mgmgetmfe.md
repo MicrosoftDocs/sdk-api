@@ -12,6 +12,8 @@ ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe,
 ms.topic: function
 f1_keywords:
 - mgm/MgmGetMfe
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

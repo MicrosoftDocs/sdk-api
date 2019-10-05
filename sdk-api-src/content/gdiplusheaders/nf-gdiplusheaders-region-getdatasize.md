@@ -12,6 +12,8 @@ ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],R
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.GetDataSize"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepUp method, IA
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.VolumeStepUp"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

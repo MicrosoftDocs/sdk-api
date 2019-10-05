@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CHANGE_QUORUM_ALL_V2, CLUSTER_CHANGE_QUORUM_STATE_V2, CLUST
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_CHANGE_QUORUM_V2"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

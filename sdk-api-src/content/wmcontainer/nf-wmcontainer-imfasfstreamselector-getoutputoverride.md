@@ -12,6 +12,8 @@ ms.keywords: 64413669-bcb9-47fa-9362-b3f6831e55fb, GetOutputOverride, GetOutputO
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetOutputOverride"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

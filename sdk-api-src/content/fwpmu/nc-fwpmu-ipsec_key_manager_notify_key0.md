@@ -12,6 +12,8 @@ ms.keywords: IPSEC_KEY_MANAGER_NOTIFY_KEY0, IPSEC_KEY_MANAGER_NOTIFY_KEY0 functi
 ms.topic: callback
 f1_keywords: 
  - "fwpmu/IPSEC_KEY_MANAGER_NOTIFY_KEY0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

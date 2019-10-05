@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_USAGE_MATCH, CTL_USAGE_MATCH, CTL_USAGE_MATCH structure [Sec
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_USAGE_MATCH
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

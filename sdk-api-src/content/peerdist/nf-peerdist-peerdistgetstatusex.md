@@ -12,6 +12,8 @@ ms.keywords: PeerDistGetStatusEx, PeerDistGetStatusEx function [Peer Networking]
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistGetStatusEx"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT_CLASSIFY_ALLOW0, FWPM_NET_EVENT_CLASSIFY_ALLOW0 stru
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT_CLASSIFY_ALLOW0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

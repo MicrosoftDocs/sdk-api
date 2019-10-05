@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMedi
 ms.topic: interface
 f1_keywords: 
  - "mfplay/IMFPMediaItem"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

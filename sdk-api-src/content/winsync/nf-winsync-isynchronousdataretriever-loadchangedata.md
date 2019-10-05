@@ -12,6 +12,8 @@ ms.keywords: ISynchronousDataRetriever interface [Windows Sync],LoadChangeData m
 ms.topic: method
 f1_keywords: 
  - "winsync/ISynchronousDataRetriever.LoadChangeData"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

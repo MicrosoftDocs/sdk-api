@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_SetNameSpace, MI_Instance_SetNameSpace function [Window
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_SetNameSpace
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

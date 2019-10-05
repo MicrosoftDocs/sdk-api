@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4Less, XMVector4Less, XMVector4Less method [Di
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4Less"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetPathFromIDList"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

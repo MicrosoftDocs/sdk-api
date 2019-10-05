@@ -12,6 +12,8 @@ ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remot
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_OPERATION_INFO
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], IWMPPlugin
 ms.topic: interface
 f1_keywords: 
  - "wmpservices/IWMPPlugin"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

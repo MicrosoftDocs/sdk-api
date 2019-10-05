@@ -12,6 +12,8 @@ ms.keywords: IComThreadEvents interface [COM+],OnThreadUnBind method, IComThread
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComThreadEvents.OnThreadUnBind"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

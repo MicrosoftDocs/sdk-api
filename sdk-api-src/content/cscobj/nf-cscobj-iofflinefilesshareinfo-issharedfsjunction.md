@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesShareInfo.IsShareDfsJunction"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 71b92702-79a0-4c18-bb56-5e7c9e49cad2, MFVP_MESSAGE_BEGINSTREAMING, 
 ms.topic: enum
 f1_keywords: 
  - "evr/MFVP_MESSAGE_TYPE"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

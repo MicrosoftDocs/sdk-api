@@ -12,6 +12,8 @@ ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType prope
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbSession.ProtocolType"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

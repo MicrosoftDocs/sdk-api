@@ -12,6 +12,8 @@ ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelec
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.GetSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

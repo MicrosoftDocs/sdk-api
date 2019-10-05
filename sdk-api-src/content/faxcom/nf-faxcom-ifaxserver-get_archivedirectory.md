@@ -12,6 +12,8 @@ ms.keywords: ArchiveDirectory property [Fax Service], ArchiveDirectory property 
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.ArchiveDirectory"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

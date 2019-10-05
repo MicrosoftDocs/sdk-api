@@ -12,6 +12,8 @@ ms.keywords: EditWordBreakProcEx, EditWordBreakProcEx callback, EditWordBreakPro
 ms.topic: callback
 f1_keywords: 
  - "richedit/EditWordBreakProcEx"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

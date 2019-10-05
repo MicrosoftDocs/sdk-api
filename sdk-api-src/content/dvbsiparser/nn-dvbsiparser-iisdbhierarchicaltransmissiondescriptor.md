@@ -12,6 +12,8 @@ ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmiss
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

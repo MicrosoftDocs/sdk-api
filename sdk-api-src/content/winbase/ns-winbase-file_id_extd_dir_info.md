@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_ID_EXTD_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_CO
 ms.topic: struct
 f1_keywords:
 - winbase/FILE_ID_EXTD_DIR_INFO
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

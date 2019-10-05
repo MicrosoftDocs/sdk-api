@@ -12,6 +12,8 @@ ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER
 ms.topic: struct
 f1_keywords: 
  - "pwm/PWM_CONTROLLER_INFO"
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

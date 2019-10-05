@@ -12,6 +12,8 @@ ms.keywords: GetEffectiveBandwidth, GetEffectiveBandwidth method [Media Streamin
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

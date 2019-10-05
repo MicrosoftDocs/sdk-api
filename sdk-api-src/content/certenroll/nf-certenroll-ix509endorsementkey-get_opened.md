@@ -12,6 +12,8 @@ ms.keywords: IX509EndorsementKey interface [Security],Opened property, IX509Endo
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EndorsementKey.Opened"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

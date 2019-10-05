@@ -12,6 +12,8 @@ ms.keywords: IXAPOHrtfParameters, IXAPOHrtfParameters interface [XAudio2 Audio M
 ms.topic: interface
 f1_keywords: 
  - "hrtfapoapi/IXAPOHrtfParameters"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

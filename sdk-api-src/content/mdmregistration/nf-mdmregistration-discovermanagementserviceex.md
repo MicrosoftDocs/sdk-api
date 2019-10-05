@@ -12,6 +12,8 @@ ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/DiscoverManagementServiceEx"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.EnableSharing"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

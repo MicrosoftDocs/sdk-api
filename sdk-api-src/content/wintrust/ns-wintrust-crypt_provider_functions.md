@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVID
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_FUNCTIONS
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

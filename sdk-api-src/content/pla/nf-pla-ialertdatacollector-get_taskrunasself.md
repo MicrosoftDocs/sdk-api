@@ -12,6 +12,8 @@ ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertD
 ms.topic: method
 f1_keywords: 
  - "pla/IAlertDataCollector.TaskRunAsSelf"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

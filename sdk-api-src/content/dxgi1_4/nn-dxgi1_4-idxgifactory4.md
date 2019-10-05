@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interf
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_4/IDXGIFactory4"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

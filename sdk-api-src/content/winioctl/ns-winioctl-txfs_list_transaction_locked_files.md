@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

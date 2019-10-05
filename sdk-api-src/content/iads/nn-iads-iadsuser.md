@@ -12,6 +12,8 @@ ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],desc
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsUser"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

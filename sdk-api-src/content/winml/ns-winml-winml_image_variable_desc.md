@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_image_variable_desc, PWINML_IMAGE_VARIABLE_DE
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_IMAGE_VARIABLE_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

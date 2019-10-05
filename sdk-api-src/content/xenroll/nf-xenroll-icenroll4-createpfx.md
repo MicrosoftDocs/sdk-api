@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],createPFX method, ICEnroll4 interface [Se
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.createPFX"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

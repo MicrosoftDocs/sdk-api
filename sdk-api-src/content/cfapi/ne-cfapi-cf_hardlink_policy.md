@@ -12,6 +12,8 @@ ms.keywords: CF_HARDLINK_POLICY, CF_HARDLINK_POLICY enumeration, CF_HARDLINK_POL
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_HARDLINK_POLICY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

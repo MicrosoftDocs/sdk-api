@@ -12,6 +12,8 @@ ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAttachmentExecute.Execute"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

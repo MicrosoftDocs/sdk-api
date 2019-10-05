@@ -12,6 +12,8 @@ ms.keywords: GetHashAlgorithmList, GetHashAlgorithmList method [Security], GetHa
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetup.GetHashAlgorithmList"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

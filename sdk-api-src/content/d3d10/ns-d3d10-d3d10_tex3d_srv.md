@@ -12,6 +12,8 @@ ms.keywords: 6c240905-b0f0-7728-4889-f56dacbd91a5, D3D10_TEX3D_SRV, D3D10_TEX3D_
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX3D_SRV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

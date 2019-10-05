@@ -12,6 +12,8 @@ ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextCo
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetTextColor"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

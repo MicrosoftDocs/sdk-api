@@ -12,6 +12,8 @@ ms.keywords: IADsExtension, IADsExtension interface [ADSI], IADsExtension interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsExtension"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

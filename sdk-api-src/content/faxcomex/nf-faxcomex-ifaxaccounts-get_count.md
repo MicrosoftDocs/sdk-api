@@ -12,6 +12,8 @@ ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxAcco
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccounts.Count"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

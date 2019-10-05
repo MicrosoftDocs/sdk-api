@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserSetInfo
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

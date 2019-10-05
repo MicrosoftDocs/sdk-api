@@ -12,6 +12,8 @@ ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake functi
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketBeginServerHandshake
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

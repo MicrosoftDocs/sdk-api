@@ -12,6 +12,8 @@ ms.keywords: IOleClientSite interface [COM],SaveObject method, IOleClientSite.Sa
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.SaveObject"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

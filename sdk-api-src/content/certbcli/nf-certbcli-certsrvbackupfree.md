@@ -12,6 +12,8 @@ ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupFree"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

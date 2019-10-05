@@ -12,6 +12,8 @@ ms.keywords: IDigitalLocatorget_InnerFECRate, ILocator interface [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.get_InnerFECRate"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

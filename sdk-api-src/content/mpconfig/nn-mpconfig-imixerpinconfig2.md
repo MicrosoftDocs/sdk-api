@@ -12,6 +12,8 @@ ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], IMixerPi
 ms.topic: interface
 f1_keywords: 
  - "mpconfig/IMixerPinConfig2"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

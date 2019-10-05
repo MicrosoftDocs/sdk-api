@@ -12,6 +12,8 @@ ms.keywords: 944856ef-d7fa-07b3-e7de-3d7d604ff3e0, GetInputParameterDesc, GetInp
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflection.GetInputParameterDesc"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

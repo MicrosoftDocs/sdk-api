@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN call
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterClearContext
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

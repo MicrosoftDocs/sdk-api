@@ -12,6 +12,8 @@ ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.FindClockVectorForChangeUnit"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

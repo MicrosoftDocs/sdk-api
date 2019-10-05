@@ -12,6 +12,8 @@ ms.keywords: GetBlendingParameter, GetBlendingParameter method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "mpconfig/IMixerPinConfig.GetBlendingParameter"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

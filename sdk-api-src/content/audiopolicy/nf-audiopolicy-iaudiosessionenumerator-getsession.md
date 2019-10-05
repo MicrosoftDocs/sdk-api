@@ -12,6 +12,8 @@ ms.keywords: GetSession, GetSession method [Core Audio], GetSession method [Core
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionEnumerator.GetSession"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Oth
 ms.topic: function
 f1_keywords: 
  - "winver/VerFindFile"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

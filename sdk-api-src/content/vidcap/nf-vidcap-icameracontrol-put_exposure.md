@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],put_Exposure method, ICameraC
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.put_Exposure"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

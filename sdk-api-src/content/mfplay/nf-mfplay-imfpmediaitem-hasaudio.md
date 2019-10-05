@@ -12,6 +12,8 @@ ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.HasAudio"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

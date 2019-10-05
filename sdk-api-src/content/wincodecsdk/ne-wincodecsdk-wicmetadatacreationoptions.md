@@ -12,6 +12,8 @@ ms.keywords: WICMetadataCreationAllowUnknown, WICMetadataCreationDefault, WICMet
 ms.topic: enum
 f1_keywords: 
  - "wincodecsdk/WICMetadataCreationOptions"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

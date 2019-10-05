@@ -12,6 +12,8 @@ ms.keywords: GetRecordTitleText, GetRecordTitleText method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_EIT.GetRecordTitleText"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

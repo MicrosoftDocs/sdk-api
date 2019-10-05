@@ -12,6 +12,8 @@ ms.keywords: GetToken, GetToken method [search], GetToken method [search],IToken
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ITokenCollection.GetToken"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

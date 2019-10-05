@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.IsSubcategoryQuery"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

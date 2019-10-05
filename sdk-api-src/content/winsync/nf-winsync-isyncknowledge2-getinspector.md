@@ -12,6 +12,8 @@ ms.keywords: GetInspector, GetInspector method [Windows Sync], GetInspector meth
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.GetInspector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

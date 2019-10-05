@@ -12,6 +12,8 @@ ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], Cl
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServices.ClearHmenuProps"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

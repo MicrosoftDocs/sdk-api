@@ -12,6 +12,8 @@ ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interf
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFSample"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

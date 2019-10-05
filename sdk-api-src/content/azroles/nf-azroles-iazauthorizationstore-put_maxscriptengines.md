@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],MaxScriptEngines property, I
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore.MaxScriptEngines"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

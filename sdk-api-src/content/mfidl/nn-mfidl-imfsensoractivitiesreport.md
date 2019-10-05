@@ -12,6 +12,8 @@ ms.keywords: IMFSensorActivitiesReport, IMFSensorActivitiesReport interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSensorActivitiesReport"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

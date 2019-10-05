@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHC
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_SCAN_FLAG
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

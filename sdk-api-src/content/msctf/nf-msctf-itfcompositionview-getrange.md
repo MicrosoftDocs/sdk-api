@@ -12,6 +12,8 @@ ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompositionView.GetRange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

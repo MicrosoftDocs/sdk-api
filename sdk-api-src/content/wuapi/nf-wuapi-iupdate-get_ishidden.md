@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],IsHidden property, IUpdate
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.IsHidden"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

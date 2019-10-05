@@ -12,6 +12,8 @@ ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivatio
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPointerInactive.GetActivationPolicy"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

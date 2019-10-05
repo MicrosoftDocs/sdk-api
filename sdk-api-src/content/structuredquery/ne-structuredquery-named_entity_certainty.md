@@ -12,6 +12,8 @@ ms.keywords: NAMED_ENTITY_CERTAINTY, NAMED_ENTITY_CERTAINTY enumeration [search]
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/NAMED_ENTITY_CERTAINTY"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

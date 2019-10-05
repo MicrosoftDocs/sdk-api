@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilPropertyListFromParameterBlock"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

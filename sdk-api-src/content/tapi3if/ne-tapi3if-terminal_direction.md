@@ -12,6 +12,8 @@ ms.keywords: TD_BIDIRECTIONAL, TD_CAPTURE, TD_MULTITRACK_MIXED, TD_NONE, TD_REND
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TERMINAL_DIRECTION"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

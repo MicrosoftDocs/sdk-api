@@ -12,6 +12,8 @@ ms.keywords: 38205573-be63-f56a-8e33-466b9154f1a9, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.RSSetViewports"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

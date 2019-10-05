@@ -12,6 +12,8 @@ ms.keywords: CreateFromWin32Handle, CreateFromWin32Handle method [AllJoyn API], 
 ms.topic: method
 f1_keywords: 
  - "windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle"
+dev_langs:
+ - c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows

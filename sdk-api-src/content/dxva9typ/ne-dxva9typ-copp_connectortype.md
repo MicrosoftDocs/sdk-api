@@ -12,6 +12,8 @@ ms.keywords: COPP_ConnectorType, COPP_ConnectorType , COPP_ConnectorType enumera
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_ConnectorType"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

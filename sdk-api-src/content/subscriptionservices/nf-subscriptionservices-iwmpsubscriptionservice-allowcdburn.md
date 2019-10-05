@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBur
 ms.topic: method
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionService.allowCDBurn"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

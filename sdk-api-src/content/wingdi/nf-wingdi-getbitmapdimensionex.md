@@ -12,6 +12,8 @@ ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], 
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetBitmapDimensionEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

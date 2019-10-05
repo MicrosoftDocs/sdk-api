@@ -12,6 +12,8 @@ ms.keywords: "*LPDEBUGHOOKINFO, *NPDEBUGHOOKINFO, *PDEBUGHOOKINFO, DEBUGHOOKINFO
 ms.topic: struct
 f1_keywords: 
  - "winuser/DEBUGHOOKINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

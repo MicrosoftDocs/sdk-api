@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOC
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_LENGTH_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

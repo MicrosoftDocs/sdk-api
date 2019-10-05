@@ -12,6 +12,8 @@ ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncod
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetEncoderParams"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

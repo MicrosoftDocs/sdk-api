@@ -12,6 +12,8 @@ ms.keywords: "*PAUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION, AUDIT_POLICY
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/AUDIT_POLICY_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

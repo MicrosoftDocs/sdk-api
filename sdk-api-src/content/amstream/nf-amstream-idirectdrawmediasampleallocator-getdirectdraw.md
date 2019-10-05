@@ -12,6 +12,8 @@ ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw met
 ms.topic: method
 f1_keywords: 
  - "amstream/IDirectDrawMediaSampleAllocator.GetDirectDraw"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

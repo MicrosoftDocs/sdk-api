@@ -12,6 +12,8 @@ ms.keywords: '*PEFS_HASH_BLOB, EFS_HASH_BLOB, EFS_HASH_BLOB structure [Files], P
 ms.topic: struct
 f1_keywords:
 - winefs/EFS_HASH_BLOB
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

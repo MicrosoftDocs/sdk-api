@@ -12,6 +12,8 @@ ms.keywords: 4956e003-7f52-40af-8f6b-b1b73ba2a897, MFNETSOURCE_AVGBANDWIDTHBPS_I
 ms.topic: enum
 f1_keywords:
 - mfidl/MFNETSOURCE_STATISTICS_IDS
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Wait method, ID3D11Dev
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11DeviceContext4.Wait"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

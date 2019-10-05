@@ -12,6 +12,8 @@ ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Start meth
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_VoidTransform.Start"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

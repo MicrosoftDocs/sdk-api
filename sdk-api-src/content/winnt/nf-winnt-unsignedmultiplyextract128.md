@@ -12,6 +12,8 @@ ms.keywords: UnsignedMultiplyExtract128, UnsignedMultiplyExtract128 function [Wi
 ms.topic: function
 f1_keywords: 
  - "winnt/UnsignedMultiplyExtract128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

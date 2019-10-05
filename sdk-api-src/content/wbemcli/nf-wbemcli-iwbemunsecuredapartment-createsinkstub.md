@@ -12,6 +12,8 @@ ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumen
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemUnsecuredApartment.CreateSinkStub"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

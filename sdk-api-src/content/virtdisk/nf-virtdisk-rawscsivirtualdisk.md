@@ -12,6 +12,8 @@ ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSC
 ms.topic: function
 f1_keywords: 
  - "virtdisk/RawSCSIVirtualDisk"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

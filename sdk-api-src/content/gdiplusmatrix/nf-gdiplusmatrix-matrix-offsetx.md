@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],OffsetX method, Matrix.OffsetX, Matrix::OffsetX
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.OffsetX"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

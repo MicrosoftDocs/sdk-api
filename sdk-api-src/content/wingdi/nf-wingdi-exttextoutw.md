@@ -12,6 +12,8 @@ ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN
 ms.topic: function
 f1_keywords: 
  - "wingdi/ExtTextOut"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

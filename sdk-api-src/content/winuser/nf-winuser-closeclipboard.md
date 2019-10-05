@@ -12,6 +12,8 @@ ms.keywords: CloseClipboard, CloseClipboard function [Data Exchange], _win32_Clo
 ms.topic: function
 f1_keywords: 
  - "winuser/CloseClipboard"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

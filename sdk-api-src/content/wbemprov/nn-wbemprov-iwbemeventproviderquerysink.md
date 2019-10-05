@@ -12,6 +12,8 @@ ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface 
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemEventProviderQuerySink"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

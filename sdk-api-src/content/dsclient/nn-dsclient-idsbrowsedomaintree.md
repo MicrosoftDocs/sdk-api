@@ -12,6 +12,8 @@ ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Director
 ms.topic: interface
 f1_keywords: 
  - "dsclient/IDsBrowseDomainTree"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

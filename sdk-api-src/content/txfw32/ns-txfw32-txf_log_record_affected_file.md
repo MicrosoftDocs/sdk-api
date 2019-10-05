@@ -12,6 +12,8 @@ ms.keywords: '*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTX
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_LOG_RECORD_AFFECTED_FILE
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

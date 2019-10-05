@@ -12,6 +12,8 @@ ms.keywords: AE_BUSY_ACD, AE_BUSY_INCOMING, AE_BUSY_OUTGOING, AE_NOT_READY, AE_R
 ms.topic: enum
 f1_keywords: 
  - "tapi3/AGENT_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

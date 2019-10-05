@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob interface [BITS],TakeOwnership method, IBackgrou
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.TakeOwnership"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

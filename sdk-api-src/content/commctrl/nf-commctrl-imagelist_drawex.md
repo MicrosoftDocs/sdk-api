@@ -12,6 +12,8 @@ ms.keywords: CLR_DEFAULT, CLR_NONE, ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOC
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_DrawEx"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

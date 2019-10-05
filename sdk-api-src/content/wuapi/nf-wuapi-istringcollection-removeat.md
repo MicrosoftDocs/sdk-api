@@ -12,6 +12,8 @@ ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method,
 ms.topic: method
 f1_keywords: 
  - "wuapi/IStringCollection.RemoveAt"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

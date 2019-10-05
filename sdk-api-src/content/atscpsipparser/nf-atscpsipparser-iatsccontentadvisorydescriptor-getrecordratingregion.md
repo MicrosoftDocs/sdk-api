@@ -12,6 +12,8 @@ ms.keywords: GetRecordRatingRegion, GetRecordRatingRegion method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingRegion"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

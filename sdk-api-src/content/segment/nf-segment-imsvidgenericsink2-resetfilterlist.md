@@ -12,6 +12,8 @@ ms.keywords: IMSVidGenericSink2 interface [Microsoft TV Technologies],ResetFilte
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidGenericSink2.ResetFilterList"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

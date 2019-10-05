@@ -12,6 +12,8 @@ ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString, GetString method [
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectStringVariable.GetString"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

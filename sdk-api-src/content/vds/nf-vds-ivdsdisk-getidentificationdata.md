@@ -12,6 +12,8 @@ ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdent
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.GetIdentificationData
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

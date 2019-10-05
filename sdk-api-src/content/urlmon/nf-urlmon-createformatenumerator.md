@@ -12,6 +12,8 @@ ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole
 ms.topic: function
 f1_keywords: 
  - "urlmon/CreateFormatEnumerator"
+dev_langs:
+ - c++
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows

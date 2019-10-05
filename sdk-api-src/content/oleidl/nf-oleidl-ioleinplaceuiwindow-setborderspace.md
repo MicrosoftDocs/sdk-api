@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceUIWindow interface [COM],SetBorderSpace method, IOleInPl
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceUIWindow.SetBorderSpace"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

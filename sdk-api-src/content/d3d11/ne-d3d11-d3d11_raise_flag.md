@@ -12,6 +12,8 @@ ms.keywords: 629223d9-c558-e5d3-12db-bfbc10b77ade, D3D11_RAISE_FLAG, D3D11_RAISE
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_RAISE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

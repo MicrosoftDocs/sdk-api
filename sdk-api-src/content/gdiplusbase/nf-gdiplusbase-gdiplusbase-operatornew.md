@@ -12,6 +12,8 @@ ms.keywords: GdiplusBase class [GDI+],operator new method, GdiplusBase.operator 
 ms.topic: method
 f1_keywords: 
  - "gdiplusbase/GdiplusBase.operator new"
+dev_langs:
+ - c++
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

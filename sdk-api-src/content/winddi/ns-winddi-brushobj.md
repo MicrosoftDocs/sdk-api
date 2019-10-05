@@ -12,6 +12,8 @@ ms.keywords: BRUSHOBJ, BRUSHOBJ structure [Display Devices], display.brushobj, g
 ms.topic: struct
 f1_keywords: 
  - "winddi/BRUSHOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RPCNOTIFICATION_ROUTINE, RPCNOTIFICATION_ROUTINE callback, RPCNOTIF
 ms.topic: callback
 f1_keywords:
 - rpcasync/RPCNOTIFICATION_ROUTINE
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: 
 req.target-type: Windows

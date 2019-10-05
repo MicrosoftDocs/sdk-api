@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_FLAGS, INTERACTION_FLAGS enumeration, INTERACTION_FLAG_
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INTERACTION_FLAGS"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

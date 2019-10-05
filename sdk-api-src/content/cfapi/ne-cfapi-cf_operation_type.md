@@ -12,6 +12,8 @@ ms.keywords: CF_OPERATION_TYPE, CF_OPERATION_TYPE enumeration, CF_OPERATION_TYPE
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_OPERATION_TYPE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 c
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMBYTE4.XMBYTE4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

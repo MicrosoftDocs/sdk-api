@@ -12,6 +12,8 @@ ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP,
 ms.topic: macro
 f1_keywords: 
  - "prsht/PropSheet_PressButton"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

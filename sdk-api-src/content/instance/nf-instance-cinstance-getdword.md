@@ -12,6 +12,8 @@ ms.keywords: "?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEB
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetDWORD"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

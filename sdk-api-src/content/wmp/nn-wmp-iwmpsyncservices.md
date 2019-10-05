@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player]
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPSyncServices"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

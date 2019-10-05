@@ -12,6 +12,8 @@ ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationPendin
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerBrowserEvents.OnNavigationPending"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure
 ms.topic: struct
 f1_keywords: 
  - "winnt/TAPE_WRITE_MARKS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

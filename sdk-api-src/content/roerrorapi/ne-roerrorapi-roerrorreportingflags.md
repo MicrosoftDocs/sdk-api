@@ -9,6 +9,8 @@ ms.keywords: RoErrorReportingFlags
 ms.topic: language-reference
 f1_keywords: 
  - "roerrorapi/RoErrorReportingFlags"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

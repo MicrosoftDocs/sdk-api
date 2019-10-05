@@ -12,6 +12,8 @@ ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPip
 ms.topic: function
 f1_keywords: 
  - "winbase/CallNamedPipe"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

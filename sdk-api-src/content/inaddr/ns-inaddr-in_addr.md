@@ -12,6 +12,8 @@ ms.keywords: "*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helpe
 ms.topic: struct
 f1_keywords: 
  - "inaddr/IPAddr"
+dev_langs:
+ - c++
 req.header: inaddr.h
 req.include-header: Ipexport.h
 req.target-type: Windows

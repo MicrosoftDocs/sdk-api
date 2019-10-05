@@ -12,6 +12,8 @@ ms.keywords: RegisterTypeLibForUser, RegisterTypeLibForUser function [Automation
 ms.topic: function
 f1_keywords: 
  - "oleauto/RegisterTypeLibForUser"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstaller3 interface [Windows Update Agent],put_AttemptClose
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller3.put_AttemptCloseAppsIfNecessary"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

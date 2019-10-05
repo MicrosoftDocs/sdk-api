@@ -12,6 +12,8 @@ ms.keywords: GetMailslotInfo, GetMailslotInfo function, MAILSLOT_NO_MESSAGE, _wi
 ms.topic: function
 f1_keywords: 
  - "winbase/GetMailslotInfo"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FoldString, FoldString function [Internationalization for Windows A
 ms.topic: function
 f1_keywords: 
  - "winnls/FoldString"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

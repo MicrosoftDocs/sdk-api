@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageCreator interface [IMAPI],put_ResultingImageType method,
 ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.put_ResultingImageType
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

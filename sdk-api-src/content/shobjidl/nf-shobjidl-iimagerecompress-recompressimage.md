@@ -12,6 +12,8 @@ ms.keywords: IImageRecompress interface [Windows Shell],RecompressImage method, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IImageRecompress.RecompressImage"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

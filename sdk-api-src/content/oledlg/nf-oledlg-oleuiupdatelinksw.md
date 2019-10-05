@@ -12,6 +12,8 @@ ms.keywords: OleUIUpdateLinks, OleUIUpdateLinks function [COM], OleUIUpdateLinks
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIUpdateLinks"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

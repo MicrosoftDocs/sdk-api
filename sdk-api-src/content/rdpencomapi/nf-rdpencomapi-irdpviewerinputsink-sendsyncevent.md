@@ -12,6 +12,8 @@ ms.keywords: IRDPViewerInputSink interface [RDP],SendSyncEvent method, IRDPViewe
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPViewerInputSink.SendSyncEvent"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

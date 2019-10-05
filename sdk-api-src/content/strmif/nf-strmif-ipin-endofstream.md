@@ -12,6 +12,8 @@ ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IPin.EndOfStream"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

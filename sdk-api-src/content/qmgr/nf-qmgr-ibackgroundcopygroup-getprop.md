@@ -12,6 +12,8 @@ ms.keywords: GetProp, GetProp method [BITS], GetProp method [BITS],IBackgroundCo
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.GetProp"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumDAdvise, EnumDAdvise method [COM], EnumDAdvise method [COM],IDa
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.EnumDAdvise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

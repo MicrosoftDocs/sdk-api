@@ -12,6 +12,8 @@ ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10Effec
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectPass"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

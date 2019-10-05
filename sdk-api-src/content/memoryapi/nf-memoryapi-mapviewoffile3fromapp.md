@@ -12,6 +12,8 @@ ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFil
 ms.topic: function
 f1_keywords:
 - memoryapi/MapViewOfFile3FromApp
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

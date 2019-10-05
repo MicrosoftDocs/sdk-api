@@ -12,6 +12,8 @@ ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_InsertItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

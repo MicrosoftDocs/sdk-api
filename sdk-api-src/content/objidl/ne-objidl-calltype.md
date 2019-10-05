@@ -12,6 +12,8 @@ ms.keywords: CALLTYPE, CALLTYPE enumeration [COM], CALLTYPE_ASYNC, CALLTYPE_ASYN
 ms.topic: enum
 f1_keywords: 
  - "objidl/CALLTYPE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

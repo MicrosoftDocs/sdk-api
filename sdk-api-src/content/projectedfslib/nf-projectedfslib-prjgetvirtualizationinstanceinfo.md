@@ -12,6 +12,8 @@ ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo 
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjGetVirtualizationInstanceInfo"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

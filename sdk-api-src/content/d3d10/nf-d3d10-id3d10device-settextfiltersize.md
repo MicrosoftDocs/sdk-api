@@ -12,6 +12,8 @@ ms.keywords: 212dab36-4bb8-c796-336c-b8a6e4d0b9e4, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.SetTextFilterSize"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

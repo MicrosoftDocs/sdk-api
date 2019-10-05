@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_SYNTAX_DISK_GUID, CLUSPROP_SYNTAX_DISK_NUMBER, CLUSPROP_SY
 ms.topic: enum
 f1_keywords:
 - msclus/CLUSTER_PROPERTY_SYNTAX
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

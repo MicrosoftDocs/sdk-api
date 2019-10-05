@@ -12,6 +12,8 @@ ms.keywords: "*PKERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMI
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/KERB_LOGON_SUBMIT_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

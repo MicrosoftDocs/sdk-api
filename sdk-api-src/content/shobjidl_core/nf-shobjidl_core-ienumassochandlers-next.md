@@ -12,6 +12,8 @@ ms.keywords: IEnumAssocHandlers interface [Windows Shell],Next method, IEnumAsso
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IEnumAssocHandlers.Next"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

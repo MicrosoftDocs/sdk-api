@@ -12,6 +12,8 @@ ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA, EMI_MEASUREMENT
 ms.topic: struct
 f1_keywords: 
  - "emi/EMI_MEASUREMENT_DATA"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

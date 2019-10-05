@@ -12,6 +12,8 @@ ms.keywords: 1290bc45-fcac-4379-b26c-e67ef678f193, GetItemByIndex, GetItemByInde
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.GetItemByIndex"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

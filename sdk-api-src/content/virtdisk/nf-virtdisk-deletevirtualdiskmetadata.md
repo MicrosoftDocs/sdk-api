@@ -12,6 +12,8 @@ ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virt
 ms.topic: function
 f1_keywords: 
  - "virtdisk/DeleteVirtualDiskMetadata"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

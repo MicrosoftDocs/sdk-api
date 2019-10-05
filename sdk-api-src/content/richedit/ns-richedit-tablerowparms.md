@@ -12,6 +12,8 @@ ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS struc
 ms.topic: struct
 f1_keywords:
 - richedit/TABLEROWPARMS
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AttachmentFileListSize property [File Server Resource Manager], Att
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionEmail2.AttachmentFileListSize"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

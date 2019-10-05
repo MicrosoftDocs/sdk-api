@@ -12,6 +12,8 @@ ms.keywords: DeleteTrigger, DeleteTrigger method [Task Scheduler], DeleteTrigger
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.DeleteTrigger"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security],
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/CheckTokenMembershipEx"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

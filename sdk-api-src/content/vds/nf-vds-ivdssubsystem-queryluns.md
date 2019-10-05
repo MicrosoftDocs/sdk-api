@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.Query
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsSubSystem.QueryLuns"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

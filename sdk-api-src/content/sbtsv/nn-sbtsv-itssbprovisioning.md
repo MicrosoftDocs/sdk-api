@@ -12,6 +12,8 @@ ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Serv
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbProvisioning"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreatePrintControl, CreatePrintControl method [Direct2D], CreatePri
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Device.CreatePrintControl"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

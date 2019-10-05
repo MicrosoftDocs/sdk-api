@@ -12,6 +12,8 @@ ms.keywords: 63311052-f01b-4d77-afac-1cc89166f754, GetAvailableSurfaceTypeByInde
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

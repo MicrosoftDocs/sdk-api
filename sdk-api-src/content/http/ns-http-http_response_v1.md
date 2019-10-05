@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_
 ms.topic: struct
 f1_keywords:
 - http/HTTP_RESPONSE_V1
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

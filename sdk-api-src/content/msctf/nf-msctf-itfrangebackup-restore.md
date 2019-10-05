@@ -12,6 +12,8 @@ ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRangeBackup.Restore"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

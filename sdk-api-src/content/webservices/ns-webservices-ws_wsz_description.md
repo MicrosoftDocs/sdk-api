@@ -12,6 +12,8 @@ ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_WSZ_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

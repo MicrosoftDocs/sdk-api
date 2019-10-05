@@ -12,6 +12,8 @@ ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Pola
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_FrequencyFilter.put_Polarity"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

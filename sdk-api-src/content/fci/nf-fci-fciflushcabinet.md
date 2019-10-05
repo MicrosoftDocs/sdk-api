@@ -12,6 +12,8 @@ ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlu
 ms.topic: function
 f1_keywords: 
  - "fci/FCIFlushCabinet"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

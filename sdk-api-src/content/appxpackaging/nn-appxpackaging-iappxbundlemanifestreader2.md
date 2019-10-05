@@ -12,6 +12,8 @@ ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [A
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestReader2"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

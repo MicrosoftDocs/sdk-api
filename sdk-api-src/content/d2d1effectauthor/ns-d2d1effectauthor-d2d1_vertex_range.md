@@ -12,6 +12,8 @@ ms.keywords: D2D1_VERTEX_RANGE, D2D1_VERTEX_RANGE structure [Direct2D], d2d1effe
 ms.topic: struct
 f1_keywords: 
  - "d2d1effectauthor/D2D1_VERTEX_RANGE"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

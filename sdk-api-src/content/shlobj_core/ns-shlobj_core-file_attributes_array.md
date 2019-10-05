@@ -12,6 +12,8 @@ ms.keywords: FILE_ATTRIBUTES_ARRAY, FILE_ATTRIBUTES_ARRAY structure [Windows She
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/FILE_ATTRIBUTES_ARRAY"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

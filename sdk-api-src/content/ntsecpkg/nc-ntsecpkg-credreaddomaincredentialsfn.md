@@ -12,6 +12,8 @@ ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CrediReadDomainCredentials
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

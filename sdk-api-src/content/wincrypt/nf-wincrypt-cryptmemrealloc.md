@@ -12,6 +12,8 @@ ms.keywords: CryptMemRealloc, CryptMemRealloc function [Security], _crypto2_cryp
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptMemRealloc"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

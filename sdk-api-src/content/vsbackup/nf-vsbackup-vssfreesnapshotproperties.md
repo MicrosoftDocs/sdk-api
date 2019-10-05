@@ -12,6 +12,8 @@ ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS]
 ms.topic: function
 f1_keywords:
 - vsbackup/VssFreeSnapshotProperties
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

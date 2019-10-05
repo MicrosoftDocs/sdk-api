@@ -12,6 +12,8 @@ ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, 
 ms.topic: function
 f1_keywords: 
  - "powrprof/SetSuspendState"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

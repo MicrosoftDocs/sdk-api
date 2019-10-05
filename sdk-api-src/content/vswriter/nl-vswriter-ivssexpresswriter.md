@@ -12,6 +12,8 @@ ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter i
 ms.topic: class
 f1_keywords: 
  - "vswriter/IVssExpressWriter"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

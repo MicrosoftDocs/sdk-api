@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreByte2, XMStoreByte2, XMStoreByte2 meth
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreByte2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

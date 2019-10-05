@@ -12,6 +12,8 @@ ms.keywords: GetMedia, GetMedia method [Media Foundation], GetMedia method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineSrcElements.GetMedia"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

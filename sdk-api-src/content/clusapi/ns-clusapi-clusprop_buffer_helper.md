@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_BUFFER_HELPER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

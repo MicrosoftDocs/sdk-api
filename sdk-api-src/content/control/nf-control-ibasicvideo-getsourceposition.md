@@ -12,6 +12,8 @@ ms.keywords: GetSourcePosition, GetSourcePosition method [DirectShow], GetSource
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.GetSourcePosition"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote 
 ms.topic: interface
 f1_keywords: 
  - "workspaceruntime/IWorkspaceReportMessage"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

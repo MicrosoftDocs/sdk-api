@@ -12,6 +12,8 @@ ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResource1 method, I
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3D11Device1.OpenSharedResource1"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

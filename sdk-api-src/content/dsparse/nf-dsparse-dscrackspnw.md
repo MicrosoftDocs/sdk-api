@@ -12,6 +12,8 @@ ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, Ds
 ms.topic: function
 f1_keywords: 
  - "dsparse/DsCrackSpn"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

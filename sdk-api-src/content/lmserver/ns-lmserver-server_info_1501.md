@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVER_INFO_1501, *PSERVER_INFO_1501, LPSERVER_INFO_1501, LPSER
 ms.topic: struct
 f1_keywords: 
  - "lmserver/SERVER_INFO_1501"
+dev_langs:
+ - c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

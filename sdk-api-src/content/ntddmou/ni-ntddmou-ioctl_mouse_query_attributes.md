@@ -12,6 +12,8 @@ ms.keywords: IOCTL_MOUSE_QUERY_ATTRIBUTES, IOCTL_MOUSE_QUERY_ATTRIBUTES control,
 ms.topic: ioctl
 f1_keywords:
 - ntddmou/IOCTL_MOUSE_QUERY_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows

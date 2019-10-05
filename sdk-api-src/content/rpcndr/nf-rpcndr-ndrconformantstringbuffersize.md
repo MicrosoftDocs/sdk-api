@@ -12,6 +12,8 @@ ms.keywords: NdrConformantStringBufferSize, NdrConformantStringBufferSize functi
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrConformantStringBufferSize
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

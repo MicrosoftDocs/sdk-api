@@ -12,6 +12,8 @@ ms.keywords: RPC_NOTIFICATION_TYPES, RPC_NOTIFICATION_TYPES enumeration [RPC], R
 ms.topic: enum
 f1_keywords: 
  - "rpcasync/RPC_NOTIFICATION_TYPES"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

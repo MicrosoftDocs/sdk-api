@@ -12,6 +12,8 @@ ms.keywords: 6cba076e-6392-4f0a-a80d-3df903d0ba13, IInkCollector interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.MarginY"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

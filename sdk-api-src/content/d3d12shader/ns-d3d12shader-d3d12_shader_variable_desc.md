@@ -12,6 +12,8 @@ ms.keywords: D3D12_SHADER_VARIABLE_DESC, D3D12_SHADER_VARIABLE_DESC structure, d
 ms.topic: struct
 f1_keywords:
 - d3d12shader/D3D12_SHADER_VARIABLE_DESC
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeO
 ms.topic: method
 f1_keywords: 
  - "objidl/IBindCtx.RevokeObjectParam"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IADsGroup interface [ADSI],IsMember method, IADsGroup.IsMember, IAD
 ms.topic: method
 f1_keywords: 
  - "iads/IADsGroup.IsMember"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

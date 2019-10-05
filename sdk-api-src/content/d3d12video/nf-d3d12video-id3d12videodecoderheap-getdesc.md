@@ -8,6 +8,10 @@ ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecoderHeap::GetDesc
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecoderHeap::GetDesc, GetDesc, ID3D12VideoDecoderHeap.GetDesc, ID3D12VideoDecoderHeap::GetDesc, ID3D12VideoDecoderHeap.GetDesc
 req.header: d3d12video.h
 req.include-header:

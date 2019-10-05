@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMConvertToDegrees, XMConvertToDegrees, XMConvertToDeg
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMConvertToDegrees"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

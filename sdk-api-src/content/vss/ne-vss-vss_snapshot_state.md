@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE enu
 ms.topic: enum
 f1_keywords:
 - vss/VSS_SNAPSHOT_STATE
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

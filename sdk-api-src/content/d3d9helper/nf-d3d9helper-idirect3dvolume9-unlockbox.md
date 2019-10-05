@@ -12,6 +12,8 @@ ms.keywords: 69485f47-b13d-cd47-c467-bbbd1e9f6113, IDirect3DVolume9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVolume9.UnlockBox"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

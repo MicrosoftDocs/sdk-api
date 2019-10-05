@@ -12,6 +12,8 @@ ms.keywords: "*LPUSE_INFO_0, *PUSE_INFO_0, LPUSE_INFO_0, LPUSE_INFO_0 structure 
 ms.topic: struct
 f1_keywords: 
  - "lmuse/USE_INFO_0"
+dev_langs:
+ - c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMaxDynamicObjectCount, GetMaxDynamicObjectCount method [Core Aud
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.GetMaxDynamicObjectCount"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

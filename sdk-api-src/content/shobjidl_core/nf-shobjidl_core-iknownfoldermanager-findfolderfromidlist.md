@@ -12,6 +12,8 @@ ms.keywords: FindFolderFromIDList, FindFolderFromIDList method [Windows Shell], 
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.FindFolderFromIDList
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

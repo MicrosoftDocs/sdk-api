@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY function [
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilFindLongProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

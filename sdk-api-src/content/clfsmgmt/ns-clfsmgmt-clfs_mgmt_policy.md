@@ -12,6 +12,8 @@ ms.keywords: '*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [
 ms.topic: struct
 f1_keywords:
 - clfsmgmt/CLFS_MGMT_POLICY
+dev_langs:
+ - c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows

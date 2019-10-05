@@ -12,6 +12,8 @@ ms.keywords: MapGenericMask, MapGenericMask function [Security], _win32_mapgener
 ms.topic: function
 f1_keywords:
 - securitybaseapi/MapGenericMask
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

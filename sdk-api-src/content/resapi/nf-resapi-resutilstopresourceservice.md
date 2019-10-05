@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_STOP_RESOURCE_SERVICE, PRESUTIL_STOP_RESOURCE_SERVICE func
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilStopResourceService"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP,
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetCardTypeProviderName"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

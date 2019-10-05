@@ -12,6 +12,8 @@ ms.keywords: AllowedReceipts property [Fax Service], AllowedReceipts property [F
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxReceiptOptions.AllowedReceipts"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

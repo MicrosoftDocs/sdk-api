@@ -12,6 +12,8 @@ ms.keywords: VarBoolFromUI8, VarBoolFromUI8 function [Automation], _oa96_VarBool
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBoolFromUI8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

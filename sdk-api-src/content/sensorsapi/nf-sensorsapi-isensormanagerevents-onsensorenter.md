@@ -12,6 +12,8 @@ ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManager
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorManagerEvents.OnSensorEnter"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

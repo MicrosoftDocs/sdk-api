@@ -12,6 +12,8 @@ ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1
 ms.topic: struct
 f1_keywords: 
  - "d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

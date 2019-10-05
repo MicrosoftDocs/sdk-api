@@ -12,6 +12,8 @@ ms.keywords: AM_OVERLAY_NOTIFY_DEST_CHANGE, AM_OVERLAY_NOTIFY_FLAGS, AM_OVERLAY_
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_OVERLAY_NOTIFY_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

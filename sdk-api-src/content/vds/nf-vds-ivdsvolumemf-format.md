@@ -12,6 +12,8 @@ ms.keywords: Format, Format method [VDS], Format method [VDS],IVdsVolumeMF inter
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.Format
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

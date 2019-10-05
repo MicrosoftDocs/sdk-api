@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreXDec4, XMStoreXDec4, XMStoreXDec4 meth
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreXDec4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

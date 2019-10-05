@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

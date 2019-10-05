@@ -12,6 +12,8 @@ ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude inter
 ms.topic: interface
 f1_keywords: 
  - "d3dcommon/ID3DInclude"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

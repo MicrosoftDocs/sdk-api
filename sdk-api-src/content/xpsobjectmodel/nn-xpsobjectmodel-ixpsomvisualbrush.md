@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and P
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisualBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 82c6ea47-878e-a6aa-0990-a6dfce382da6, GetFloat, GetFloat method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.GetFloat"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITFileTerminalEvent, ITFileTerminalEvent interface [TAPI 2.2], ITFi
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITFileTerminalEvent"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

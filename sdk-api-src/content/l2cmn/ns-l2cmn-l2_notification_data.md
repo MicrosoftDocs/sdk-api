@@ -12,6 +12,8 @@ ms.keywords: '*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA
 ms.topic: struct
 f1_keywords:
 - l2cmn/L2_NOTIFICATION_DATA
+dev_langs:
+ - c++
 req.header: l2cmn.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

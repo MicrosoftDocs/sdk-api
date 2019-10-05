@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmObject.Commit"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

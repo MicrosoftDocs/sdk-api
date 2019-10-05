@@ -12,6 +12,8 @@ ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelEntry.Invoke"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

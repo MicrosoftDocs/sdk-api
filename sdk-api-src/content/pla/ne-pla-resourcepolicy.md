@@ -12,6 +12,8 @@ ms.keywords: ResourcePolicy, ResourcePolicy enumeration [PLA], base.resourcepoli
 ms.topic: enum
 f1_keywords: 
  - "pla/ResourcePolicy"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

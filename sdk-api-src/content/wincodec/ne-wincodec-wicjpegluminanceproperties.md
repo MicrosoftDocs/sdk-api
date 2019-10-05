@@ -12,6 +12,8 @@ ms.keywords: WICJpegLuminanceProperties, WICJpegLuminanceProperties enumeration 
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICJpegLuminanceProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

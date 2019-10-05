@@ -12,6 +12,8 @@ ms.keywords: GetRequiredProtections, GetRequiredProtections method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineProtectedContent.GetRequiredProtections"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

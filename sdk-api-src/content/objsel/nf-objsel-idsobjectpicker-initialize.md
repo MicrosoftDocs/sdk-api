@@ -12,6 +12,8 @@ ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDs
 ms.topic: method
 f1_keywords:
 - objsel/IDsObjectPicker.Initialize
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

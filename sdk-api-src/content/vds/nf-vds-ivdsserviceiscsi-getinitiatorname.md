@@ -12,6 +12,8 @@ ms.keywords: GetInitiatorName, GetInitiatorName method [VDS], GetInitiatorName m
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceIscsi.GetInitiatorName"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

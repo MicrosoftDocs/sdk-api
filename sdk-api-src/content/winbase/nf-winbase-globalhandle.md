@@ -12,6 +12,8 @@ ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.glob
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalHandle"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

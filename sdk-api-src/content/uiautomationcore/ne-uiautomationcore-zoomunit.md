@@ -12,6 +12,8 @@ ms.keywords: ZoomUnit, ZoomUnit enumeration [Windows Accessibility], ZoomUnit_La
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/ZoomUnit"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

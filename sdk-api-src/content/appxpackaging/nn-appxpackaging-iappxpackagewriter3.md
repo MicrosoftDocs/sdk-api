@@ -12,6 +12,8 @@ ms.keywords: IAppxPackageWriter3, IAppxPackageWriter3 interface [App packaging a
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxPackageWriter3"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 213c8a44-1313-47cf-8703-3e9ed5e36d33, ISG_DoubleTap, ISG_Drag, ISG_
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkSystemGesture"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

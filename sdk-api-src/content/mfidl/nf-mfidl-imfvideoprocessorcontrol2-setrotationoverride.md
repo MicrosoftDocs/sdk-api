@@ -12,6 +12,8 @@ ms.keywords: IMFVideoProcessorControl2 interface [Media Foundation],SetRotationO
 ms.topic: method
 f1_keywords:
 - mfidl/IMFVideoProcessorControl2.SetRotationOverride
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

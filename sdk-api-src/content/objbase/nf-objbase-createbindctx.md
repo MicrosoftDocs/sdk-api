@@ -12,6 +12,8 @@ ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, co
 ms.topic: function
 f1_keywords: 
  - "objbase/CreateBindCtx"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

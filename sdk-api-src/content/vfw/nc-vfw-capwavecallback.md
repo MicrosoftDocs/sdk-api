@@ -12,6 +12,8 @@ ms.keywords: CAPWAVECALLBACK, _win32_capWaveStreamCallback, capWaveStreamCallbac
 ms.topic: callback
 f1_keywords: 
  - "vfw/capWaveStreamCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

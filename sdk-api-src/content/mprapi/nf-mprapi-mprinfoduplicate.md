@@ -12,6 +12,8 @@ ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfodupl
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprInfoDuplicate"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

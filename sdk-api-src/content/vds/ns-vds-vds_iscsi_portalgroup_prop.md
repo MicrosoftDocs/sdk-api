@@ -12,6 +12,8 @@ ms.keywords: "*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCS
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_ISCSI_PORTALGROUP_PROP"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Offset, Offset methods [GDI+], Rect.Offset, Rect::Offset, _gdiplus_
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Offset"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

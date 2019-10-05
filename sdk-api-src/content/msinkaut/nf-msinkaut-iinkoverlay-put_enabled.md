@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOver
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.Enabled"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

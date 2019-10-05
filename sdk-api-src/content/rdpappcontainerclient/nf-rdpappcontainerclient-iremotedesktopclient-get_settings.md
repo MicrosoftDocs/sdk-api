@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],Settings p
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.Settings"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

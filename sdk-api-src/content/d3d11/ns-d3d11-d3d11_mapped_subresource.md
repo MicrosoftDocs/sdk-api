@@ -12,6 +12,8 @@ ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_MAPPED_SUBRESOURCE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

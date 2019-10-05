@@ -12,6 +12,8 @@ ms.keywords: MSI_INVALID_HASH_IS_FATAL, MsiGetFileSignatureInformation, MsiGetFi
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetFileSignatureInformation"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

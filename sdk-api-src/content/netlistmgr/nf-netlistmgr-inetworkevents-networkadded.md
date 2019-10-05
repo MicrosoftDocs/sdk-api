@@ -12,6 +12,8 @@ ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, I
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkEvents.NetworkAdded"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509EndorsementKey interface [Security],ProviderName property, IX5
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EndorsementKey.ProviderName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

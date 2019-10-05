@@ -12,6 +12,8 @@ ms.keywords: LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_
 ms.topic: callback
 f1_keywords: 
  - "ws2spi/WSPJoinLeaf"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

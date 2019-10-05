@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_MODE, UI_ANIMATION_MODE enumeration [Windows Animation
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_MODE"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

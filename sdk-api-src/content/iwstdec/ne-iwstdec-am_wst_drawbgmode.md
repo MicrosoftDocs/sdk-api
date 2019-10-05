@@ -12,6 +12,8 @@ ms.keywords: "*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST
 ms.topic: enum
 f1_keywords: 
  - "iwstdec/AM_WST_DRAWBGMODE"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxServer2 interface [Fax Service],Security2 property, IFaxServer2
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer2.Security2"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

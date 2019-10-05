@@ -12,6 +12,8 @@ ms.keywords: FindTypeDefByName, FindTypeDefByName method [Windows Runtime], Find
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.FindTypeDefByName"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

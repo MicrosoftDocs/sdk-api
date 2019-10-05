@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], IRDPSRAPIViewer i
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

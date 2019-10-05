@@ -12,6 +12,8 @@ ms.keywords: '*PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS 
 ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_DATAPLAN_STATUS
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolCallbackPool, SetThreadpoolCallbackPool function, base
 ms.topic: function
 f1_keywords: 
  - "winbase/SetThreadpoolCallbackPool"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

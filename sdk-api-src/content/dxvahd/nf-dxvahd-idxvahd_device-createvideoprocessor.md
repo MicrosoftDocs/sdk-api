@@ -12,6 +12,8 @@ ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_Device.CreateVideoProcessor
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

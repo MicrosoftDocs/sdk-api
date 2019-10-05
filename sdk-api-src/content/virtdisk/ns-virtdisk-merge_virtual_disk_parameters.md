@@ -12,6 +12,8 @@ ms.keywords: "*PMERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS, ME
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

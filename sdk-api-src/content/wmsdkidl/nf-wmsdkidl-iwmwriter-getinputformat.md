@@ -12,6 +12,8 @@ ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetIn
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriter.GetInputFormat"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

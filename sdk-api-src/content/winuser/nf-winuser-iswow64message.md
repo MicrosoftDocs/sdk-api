@@ -12,6 +12,8 @@ ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winus
 ms.topic: function
 f1_keywords: 
  - "winuser/IsWow64Message"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

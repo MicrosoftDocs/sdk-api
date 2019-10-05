@@ -12,6 +12,8 @@ ms.keywords: HandleEventWithContent, HandleEventWithContent method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IHWEventHandler.HandleEventWithContent"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

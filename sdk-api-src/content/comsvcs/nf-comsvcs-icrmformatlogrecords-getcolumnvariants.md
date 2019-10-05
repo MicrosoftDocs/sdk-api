@@ -12,6 +12,8 @@ ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVarian
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmFormatLogRecords.GetColumnVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

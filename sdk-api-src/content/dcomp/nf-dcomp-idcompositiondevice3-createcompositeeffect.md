@@ -12,6 +12,8 @@ ms.keywords: CreateCompositeEffect, CreateCompositeEffect method [DirectComposit
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateCompositeEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformati
 ms.topic: function
 f1_keywords: 
  - "jobapi2/QueryIoRateControlInformationJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows

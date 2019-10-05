@@ -12,6 +12,8 @@ ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString meth
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

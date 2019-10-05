@@ -12,6 +12,8 @@ ms.keywords: WS_CERT_CREDENTIAL_TYPE, WS_CERT_CREDENTIAL_TYPE enumeration [Web S
 ms.topic: enum
 f1_keywords:
 - webservices/WS_CERT_CREDENTIAL_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

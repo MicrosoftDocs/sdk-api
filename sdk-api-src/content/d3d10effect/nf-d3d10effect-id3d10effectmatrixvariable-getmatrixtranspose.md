@@ -12,6 +12,8 @@ ms.keywords: 417baa18-036a-1c79-9d4f-9e61637c5308, GetMatrixTranspose, GetMatrix
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectMatrixVariable.GetMatrixTranspose"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

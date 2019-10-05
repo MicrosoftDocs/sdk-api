@@ -12,6 +12,8 @@ ms.keywords: MPEG_REQUEST_TYPE, MPEG_REQUEST_TYPE enumeration [Microsoft TV Tech
 ms.topic: enum
 f1_keywords: 
  - "mpeg2structs/MPEG_REQUEST_TYPE"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

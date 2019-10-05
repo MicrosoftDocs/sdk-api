@@ -12,6 +12,8 @@ ms.keywords: 6205dc1a-f209-49aa-8632-837783ef5f04, GetInputStatus, GetInputStatu
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetInputStatus"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

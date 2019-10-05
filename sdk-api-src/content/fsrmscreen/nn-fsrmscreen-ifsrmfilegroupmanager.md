@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server
 ms.topic: interface
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroupManager"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

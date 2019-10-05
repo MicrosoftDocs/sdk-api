@@ -12,6 +12,8 @@ ms.keywords: 4fecc980-501f-804d-d212-782bd9df73d4, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.SetVertexShader"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

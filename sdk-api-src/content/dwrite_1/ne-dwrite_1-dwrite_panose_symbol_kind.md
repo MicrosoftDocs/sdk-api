@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PANOSE_SYMBOL_KIND, DWRITE_PANOSE_SYMBOL_KIND enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_PANOSE_SYMBOL_KIND"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

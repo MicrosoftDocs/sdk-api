@@ -12,6 +12,8 @@ ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgset
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgSetTimes"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

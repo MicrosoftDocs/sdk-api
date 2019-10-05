@@ -12,6 +12,8 @@ ms.keywords: IS_SPECIAL_DATAOBJECT, IS_SPECIAL_DATAOBJECT macro [MMC], _slate_is
 ms.topic: macro
 f1_keywords: 
  - "mmc/IS_SPECIAL_DATAOBJECT"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

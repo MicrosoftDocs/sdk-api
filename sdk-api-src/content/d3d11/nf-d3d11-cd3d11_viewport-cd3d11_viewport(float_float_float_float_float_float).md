@@ -12,6 +12,8 @@ ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT constructor [Direct3D 11], CD3D11_
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_VIEWPORT.CD3D11_VIEWPORT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

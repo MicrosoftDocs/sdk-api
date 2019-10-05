@@ -12,6 +12,8 @@ ms.keywords: SMTO_ABORTIFHUNG, SMTO_BLOCK, SMTO_ERRORONEXIT, SMTO_NORMAL, SMTO_N
 ms.topic: function
 f1_keywords: 
  - "winuser/SendMessageTimeout"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

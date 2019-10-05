@@ -12,6 +12,8 @@ ms.keywords: VarDecAbs, VarDecAbs function [Automation], _oa96_VarDecAbs, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecAbs"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

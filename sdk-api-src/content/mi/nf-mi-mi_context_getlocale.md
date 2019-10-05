@@ -12,6 +12,8 @@ ms.keywords: MI_Context_GetLocale, MI_Context_GetLocale function [Windows Manage
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_GetLocale
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

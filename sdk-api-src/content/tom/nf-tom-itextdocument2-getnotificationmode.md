@@ -12,6 +12,8 @@ ms.keywords: GetNotificationMode, GetNotificationMode method [Windows Controls],
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetNotificationMode"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

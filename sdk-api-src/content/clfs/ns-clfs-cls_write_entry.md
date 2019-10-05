@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRIT
 ms.topic: struct
 f1_keywords: 
  - "clfs/CLFS_WRITE_ENTRY"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

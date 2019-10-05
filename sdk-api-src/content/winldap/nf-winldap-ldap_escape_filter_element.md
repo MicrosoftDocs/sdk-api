@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__eleme
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_escape_filter_element"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

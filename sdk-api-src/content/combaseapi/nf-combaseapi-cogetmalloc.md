@@ -12,6 +12,8 @@ ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.coge
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetMalloc"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

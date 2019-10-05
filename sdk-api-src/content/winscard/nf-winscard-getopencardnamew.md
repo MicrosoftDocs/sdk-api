@@ -12,6 +12,8 @@ ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNa
 ms.topic: function
 f1_keywords: 
  - "winscard/GetOpenCardName"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

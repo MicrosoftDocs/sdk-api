@@ -12,6 +12,8 @@ ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorN
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IAsyncErrorNotify"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

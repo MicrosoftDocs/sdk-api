@@ -12,6 +12,8 @@ ms.keywords: D3D12_FEATURE_DATA_ROOT_SIGNATURE, D3D12_FEATURE_DATA_ROOT_SIGNATUR
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_FEATURE_DATA_ROOT_SIGNATURE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

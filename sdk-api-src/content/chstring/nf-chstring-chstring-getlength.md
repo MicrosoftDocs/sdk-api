@@ -12,6 +12,8 @@ ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHStrin
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.GetLength"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], 
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_USER_WEB_URL"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

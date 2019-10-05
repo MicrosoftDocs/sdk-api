@@ -12,6 +12,8 @@ ms.keywords: GetVideoSwapchainHandle, GetVideoSwapchainHandle method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetVideoSwapchainHandle"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

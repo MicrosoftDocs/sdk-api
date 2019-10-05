@@ -12,6 +12,8 @@ ms.keywords: "?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z, ?GetSYSTEMTIME@WB
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetSYSTEMTIME"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

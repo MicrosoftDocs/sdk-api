@@ -12,6 +12,8 @@ ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and ma
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxPackageEditor.CreateDeltaPackage"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIO
 ms.topic: struct
 f1_keywords:
 - nb30/ADAPTER_STATUS
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

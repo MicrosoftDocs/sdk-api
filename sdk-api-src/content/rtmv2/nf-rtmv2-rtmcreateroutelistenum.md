@@ -12,6 +12,8 @@ ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtm
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmCreateRouteListEnum"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

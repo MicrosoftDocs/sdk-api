@@ -12,6 +12,8 @@ ms.keywords: NdrInterfacePointerFree, NdrInterfacePointerFree function [RPC], rp
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrInterfacePointerFree
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

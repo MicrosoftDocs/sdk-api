@@ -12,6 +12,8 @@ ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFiles
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymEnumSourceFiles"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

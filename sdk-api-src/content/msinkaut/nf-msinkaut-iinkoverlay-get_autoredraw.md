@@ -12,6 +12,8 @@ ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],II
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.AutoRedraw"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

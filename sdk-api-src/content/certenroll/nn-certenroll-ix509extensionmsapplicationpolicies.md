@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPol
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509ExtensionMSApplicationPolicies"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

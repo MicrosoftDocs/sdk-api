@@ -12,6 +12,8 @@ ms.keywords: CurrentUpdateDownloadPhase property [Windows Update Agent], Current
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadProgress.CurrentUpdateDownloadPhase"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

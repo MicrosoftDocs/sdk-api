@@ -12,6 +12,8 @@ ms.keywords: GetUInt32, GetUInt32 method [Windows Runtime], GetUInt32 method [Wi
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetUInt32"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

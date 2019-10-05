@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSurface, IDCompositionSurface interface [DirectComposi
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionSurface"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

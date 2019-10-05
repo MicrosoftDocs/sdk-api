@@ -12,6 +12,8 @@ ms.keywords: NdrSimpleStructMarshall, NdrSimpleStructMarshall function [Windows 
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrSimpleStructMarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

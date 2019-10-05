@@ -12,6 +12,8 @@ ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForNextTable me
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/ITSDT.RegisterForNextTable"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

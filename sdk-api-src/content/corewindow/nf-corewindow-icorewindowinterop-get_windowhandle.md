@@ -12,6 +12,8 @@ ms.keywords: ICoreWindowInterop interface [Windows Runtime],WindowHandle propert
 ms.topic: method
 f1_keywords: 
  - "corewindow/ICoreWindowInterop.WindowHandle"
+dev_langs:
+ - c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

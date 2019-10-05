@@ -12,6 +12,8 @@ ms.keywords: 28026545-0d38-beff-91cf-a929caef1657, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.RSSetScissorRects"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

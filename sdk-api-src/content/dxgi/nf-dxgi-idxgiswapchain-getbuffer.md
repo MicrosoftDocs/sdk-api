@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISw
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.GetBuffer"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

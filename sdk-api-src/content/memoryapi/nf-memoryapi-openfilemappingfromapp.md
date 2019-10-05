@@ -12,6 +12,8 @@ ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openf
 ms.topic: function
 f1_keywords: 
  - "memoryapi/OpenFileMappingFromApp"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

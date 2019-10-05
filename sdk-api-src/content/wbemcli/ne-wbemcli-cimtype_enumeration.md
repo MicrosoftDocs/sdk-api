@@ -12,6 +12,8 @@ ms.keywords: CIMTYPE_ENUMERATION, CIMTYPE_ENUMERATION enumeration [Windows Manag
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/CIMTYPE_ENUMERATION"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

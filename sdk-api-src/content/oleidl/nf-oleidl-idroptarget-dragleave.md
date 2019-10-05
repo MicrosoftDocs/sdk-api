@@ -12,6 +12,8 @@ ms.keywords: DragLeave, DragLeave method [COM], DragLeave method [COM],IDropTarg
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropTarget.DragLeave"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

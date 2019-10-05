@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_KEY_CONTEXT
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

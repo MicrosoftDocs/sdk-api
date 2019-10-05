@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage2 interface [Fax Service],SenderName property, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage2.SenderName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

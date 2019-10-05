@@ -12,6 +12,8 @@ ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellN
 ms.topic: function
 f1_keywords: 
  - "icwcfg/SetShellNext"
+dev_langs:
+ - c++
 req.header: icwcfg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_RESPONSE_INFO, OCSP_INTERNAL_ERROR_RESPONSE, OCSP_MALFORMED
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_RESPONSE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

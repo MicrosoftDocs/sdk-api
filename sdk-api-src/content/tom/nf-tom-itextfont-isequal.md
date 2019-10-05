@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.Is
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.IsEqual"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

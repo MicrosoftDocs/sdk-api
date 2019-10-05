@@ -12,6 +12,8 @@ ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbCAServiceDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

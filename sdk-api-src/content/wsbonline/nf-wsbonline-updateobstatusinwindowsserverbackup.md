@@ -12,6 +12,8 @@ ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerB
 ms.topic: function
 f1_keywords:
 - wsbonline/UpdateOBStatusInWindowsServerBackup
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

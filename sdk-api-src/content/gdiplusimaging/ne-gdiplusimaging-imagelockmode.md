@@ -12,6 +12,8 @@ ms.keywords: ImageLockMode, ImageLockMode enumeration [GDI+], ImageLockModeRead,
 ms.topic: enum
 f1_keywords: 
  - "gdiplusimaging/ImageLockMode"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

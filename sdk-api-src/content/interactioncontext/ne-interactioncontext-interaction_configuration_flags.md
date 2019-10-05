@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_CONFIGURATION_FLAGS, INTERACTION_CONFIGURATION_FLAGS en
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INTERACTION_CONFIGURATION_FLAGS"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_CUSTOM_RATE_DATA, DXVAHD_CUSTOM_RATE_DATA structure [Media F
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_CUSTOM_RATE_DATA
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

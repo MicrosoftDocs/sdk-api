@@ -12,6 +12,8 @@ ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizeP
 ms.topic: function
 f1_keywords: 
  - "wingdi/ResizePalette"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method [Windows Runtime], GetDevice method [Wi
 ms.topic: method
 f1_keywords: 
  - "windows.media.core.interop/IVideoFrameNative.GetDevice"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

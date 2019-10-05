@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/WAVEFORMAT"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Mmreg.h
 req.target-type: Windows

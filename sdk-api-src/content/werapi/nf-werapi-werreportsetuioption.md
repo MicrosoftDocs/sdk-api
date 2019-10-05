@@ -12,6 +12,8 @@ ms.keywords: WerReportSetUIOption, WerReportSetUIOption function [Windows Error 
 ms.topic: function
 f1_keywords: 
  - "werapi/WerReportSetUIOption"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

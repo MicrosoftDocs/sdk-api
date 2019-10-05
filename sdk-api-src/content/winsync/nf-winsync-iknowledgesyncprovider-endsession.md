@@ -12,6 +12,8 @@ ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Wi
 ms.topic: method
 f1_keywords: 
  - "winsync/IKnowledgeSyncProvider.EndSession"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

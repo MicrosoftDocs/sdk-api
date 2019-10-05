@@ -12,6 +12,8 @@ ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING, WS_USERNAME_MESSAGE_SECURITY_
 ms.topic: struct
 f1_keywords:
 - webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

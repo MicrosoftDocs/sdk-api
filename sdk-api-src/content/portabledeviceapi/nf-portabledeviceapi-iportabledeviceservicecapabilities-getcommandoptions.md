@@ -12,6 +12,8 @@ ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devic
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetCommandOptions"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

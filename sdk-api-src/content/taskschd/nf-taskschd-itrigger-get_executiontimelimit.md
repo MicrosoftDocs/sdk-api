@@ -12,6 +12,8 @@ ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit pr
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITrigger.ExecutionTimeLimit"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

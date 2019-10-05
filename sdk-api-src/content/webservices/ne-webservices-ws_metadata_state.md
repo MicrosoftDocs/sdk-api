@@ -12,6 +12,8 @@ ms.keywords: WS_METADATA_STATE, WS_METADATA_STATE enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_METADATA_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

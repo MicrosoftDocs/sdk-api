@@ -12,6 +12,8 @@ ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interfa
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.Extend
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

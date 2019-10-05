@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],MousePointer property, IInkEdit.Mous
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.MousePointer"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

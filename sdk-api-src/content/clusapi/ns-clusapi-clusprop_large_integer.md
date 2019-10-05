@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_I
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_LARGE_INTEGER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnu
 ms.topic: function
 f1_keywords:
 - winbase/GetNumaProcessorNodeEx
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

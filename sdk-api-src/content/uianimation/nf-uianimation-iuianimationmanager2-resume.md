@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager2 interface [Windows Animation],Resume method, I
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager2.Resume"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

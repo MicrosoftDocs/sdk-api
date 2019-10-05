@@ -12,6 +12,8 @@ ms.keywords: TSSD_ADDR_IPv4, TSSD_ADDR_IPv6, TSSD_ADDR_UNDEFINED, TSSD_AddrV46Ty
 ms.topic: enum
 f1_keywords: 
  - "sessdirpublictypes/TSSD_AddrV46Type"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

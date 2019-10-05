@@ -12,6 +12,8 @@ ms.keywords: "*PFIRMWARE_TYPE, FIRMWARE_TYPE, FIRMWARE_TYPE enumeration, Firmwar
 ms.topic: enum
 f1_keywords: 
  - "winnt/FIRMWARE_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

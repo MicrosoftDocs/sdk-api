@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_NETINTERFACE_CODES, CLUSCTL_NETINTERFACE_CODES enumeration 
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_NETINTERFACE_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

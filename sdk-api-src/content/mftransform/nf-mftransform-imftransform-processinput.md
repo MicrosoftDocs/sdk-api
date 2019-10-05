@@ -12,6 +12,8 @@ ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFT
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.ProcessInput"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

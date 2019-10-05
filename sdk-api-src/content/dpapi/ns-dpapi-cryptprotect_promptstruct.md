@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTE
 ms.topic: struct
 f1_keywords: 
  - "dpapi/CRYPTPROTECT_PROMPTSTRUCT"
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

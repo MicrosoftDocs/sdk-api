@@ -12,6 +12,8 @@ ms.keywords: "?TrimLeft@CHString@@QAEXXZ, ?TrimLeft@CHString@@QEAAXXZ, CHString 
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.TrimLeft"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

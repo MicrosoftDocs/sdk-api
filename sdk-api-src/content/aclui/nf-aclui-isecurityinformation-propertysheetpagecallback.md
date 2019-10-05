@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation interface [Security],PropertySheetPageCallback
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.PropertySheetPageCallback
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

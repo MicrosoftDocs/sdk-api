@@ -12,6 +12,8 @@ ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket functi
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTMergeAndValidatePrintTicket"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFo
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ICrmFormatLogRecords"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

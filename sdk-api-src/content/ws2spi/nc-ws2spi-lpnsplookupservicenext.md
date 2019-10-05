@@ -12,6 +12,8 @@ ms.keywords: LPNSPLOOKUPSERVICENEXT, NSPLookupServiceNext, NSPLookupServiceNext 
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPLookupServiceNext
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

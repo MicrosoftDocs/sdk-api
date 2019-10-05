@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBU
 ms.topic: struct
 f1_keywords:
 - lsalookup/LSA_OBJECT_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

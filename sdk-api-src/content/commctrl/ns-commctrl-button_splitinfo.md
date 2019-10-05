@@ -12,6 +12,8 @@ ms.keywords: "*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_ST
 ms.topic: struct
 f1_keywords: 
  - "commctrl/BUTTON_SPLITINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

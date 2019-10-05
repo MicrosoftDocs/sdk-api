@@ -12,6 +12,8 @@ ms.keywords: '*PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUT
 ms.topic: struct
 f1_keywords:
 - qos2/QOS_FLOWRATE_OUTGOING
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

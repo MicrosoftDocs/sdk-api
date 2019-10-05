@@ -12,6 +12,8 @@ ms.keywords: WMP_MDRT_FLAGS_UNREPORTED_ADDED_ITEMS, WMP_MDRT_FLAGS_UNREPORTED_DE
 ms.topic: struct
 f1_keywords: 
  - "wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC"
+dev_langs:
+ - c++
 req.header: wmpdevices.h
 req.include-header: 
 req.target-type: Windows

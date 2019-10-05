@@ -12,6 +12,8 @@ ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnStrea
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2VoiceCallback.OnStreamEnd"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

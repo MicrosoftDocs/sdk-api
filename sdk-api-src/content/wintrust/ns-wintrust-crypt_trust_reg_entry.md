@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_EN
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_TRUST_REG_ENTRY
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

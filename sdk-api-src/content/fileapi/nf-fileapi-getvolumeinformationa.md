@@ -12,6 +12,8 @@ ms.keywords: FILE_CASE_PRESERVED_NAMES, FILE_CASE_SENSITIVE_SEARCH, FILE_DAX_VOL
 ms.topic: function
 f1_keywords:
 - fileapi/GetVolumeInformation
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

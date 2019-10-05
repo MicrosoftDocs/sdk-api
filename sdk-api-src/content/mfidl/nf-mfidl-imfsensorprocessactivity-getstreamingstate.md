@@ -12,6 +12,8 @@ ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorProcessActivity.GetStreamingState"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

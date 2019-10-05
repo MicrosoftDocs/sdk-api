@@ -12,6 +12,8 @@ ms.keywords: IWICPixelFormatInfo2 interface [Windows Imaging Component],Supports
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPixelFormatInfo2.SupportsTransparency"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files]
 ms.topic: function
 f1_keywords: 
  - "clfsmgmtw32/SetLogFileSizeWithPolicy"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

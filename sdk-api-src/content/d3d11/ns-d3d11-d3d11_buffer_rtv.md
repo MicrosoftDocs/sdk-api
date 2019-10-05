@@ -12,6 +12,8 @@ ms.keywords: 89ee8333-dedf-139c-e1a8-05365866ee34, D3D11_BUFFER_RTV, D3D11_BUFFE
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_BUFFER_RTV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

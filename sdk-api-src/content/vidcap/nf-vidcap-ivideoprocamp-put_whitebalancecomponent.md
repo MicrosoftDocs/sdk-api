@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalanceComponent meth
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.put_WhiteBalanceComponent"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

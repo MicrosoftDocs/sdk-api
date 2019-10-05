@@ -12,6 +12,8 @@ ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback
 ms.topic: callback
 f1_keywords: 
  - "resapi/RaiseResTypeNotification callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

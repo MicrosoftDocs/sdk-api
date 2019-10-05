@@ -12,6 +12,8 @@ ms.keywords: "*LPEXP_DARWIN_LINK, EXP_DARWIN_ID_SIG, EXP_DARWIN_LINK, EXP_DARWIN
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/EXP_DARWIN_LINK"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

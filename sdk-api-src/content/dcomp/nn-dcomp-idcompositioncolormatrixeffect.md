@@ -12,6 +12,8 @@ ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect inte
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionColorMatrixEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

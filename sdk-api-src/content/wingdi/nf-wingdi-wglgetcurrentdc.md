@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglGetCurrentDC, opengl.wglgetcurrentdc, wglGetCurrentDC, wgl
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglGetCurrentDC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

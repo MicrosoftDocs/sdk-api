@@ -12,6 +12,8 @@ ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/Sh
 ms.topic: function
 f1_keywords: 
  - "intsafe/ShortToUIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

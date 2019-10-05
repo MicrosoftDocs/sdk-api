@@ -12,6 +12,8 @@ ms.keywords: GetPointerPenInfo, GetPointerPenInfo function [Input Messages and N
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerPenInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

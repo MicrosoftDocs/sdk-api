@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_STATE_CHANGE_REASON, CLUSTER_RESOURCE_STATE_CHANGE
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_RESOURCE_STATE_CHANGE_REASON"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

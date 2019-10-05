@@ -12,6 +12,8 @@ ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book
 ms.topic: struct
 f1_keywords: 
  - "wabdefs/ENTRYLIST"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

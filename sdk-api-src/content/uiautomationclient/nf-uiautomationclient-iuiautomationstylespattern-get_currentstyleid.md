@@ -12,6 +12,8 @@ ms.keywords: CurrentStyleId property [Windows Accessibility], CurrentStyleId pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationStylesPattern.CurrentStyleId"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

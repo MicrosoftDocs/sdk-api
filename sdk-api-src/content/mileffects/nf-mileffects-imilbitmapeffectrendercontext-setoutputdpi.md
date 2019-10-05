@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetOut
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContext.SetOutputDPI"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

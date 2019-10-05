@@ -12,6 +12,8 @@ ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INam
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INamespaceWalkCB.LeaveFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

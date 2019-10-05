@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE struc
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_OR_CRL_BUNDLE"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

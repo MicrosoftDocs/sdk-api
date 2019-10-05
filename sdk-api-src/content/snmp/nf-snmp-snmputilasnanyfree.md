@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmpu
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilAsnAnyFree"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

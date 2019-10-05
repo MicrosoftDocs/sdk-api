@@ -12,6 +12,8 @@ ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation]
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_RATE_SET_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

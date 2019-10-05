@@ -12,6 +12,8 @@ ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSee
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.SetPositions"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

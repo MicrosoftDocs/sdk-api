@@ -12,6 +12,8 @@ ms.keywords: 52f9cfc5-67e6-4666-f34d-8344cdf131f0, ID3D10ShaderResourceView, ID3
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10ShaderResourceView"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

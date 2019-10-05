@@ -12,6 +12,8 @@ ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],P
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetWrapMode"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

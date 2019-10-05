@@ -12,6 +12,8 @@ ms.keywords: "*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER str
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/IP_MSFILTER"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

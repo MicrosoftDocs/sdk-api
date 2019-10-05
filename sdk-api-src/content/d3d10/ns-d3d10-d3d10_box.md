@@ -12,6 +12,8 @@ ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_BOX"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

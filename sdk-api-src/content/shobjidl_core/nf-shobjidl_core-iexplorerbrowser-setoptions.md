@@ -12,6 +12,8 @@ ms.keywords: IExplorerBrowser interface [Windows Shell],SetOptions method, IExpl
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerBrowser.SetOptions"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

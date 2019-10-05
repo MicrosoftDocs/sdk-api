@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_AS_ASSOCIATION_FAILURE, WCN_VALUE_AS_CONFIGURATION_FAILUR
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

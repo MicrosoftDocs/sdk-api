@@ -12,6 +12,8 @@ ms.keywords: GetDC, GetDC method [DirectDraw], GetDC method [DirectDraw],IDirect
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetDC"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

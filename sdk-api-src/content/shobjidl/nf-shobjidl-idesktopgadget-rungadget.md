@@ -12,6 +12,8 @@ ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktop
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IDesktopGadget.RunGadget"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

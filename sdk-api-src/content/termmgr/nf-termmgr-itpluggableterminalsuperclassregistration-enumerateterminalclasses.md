@@ -12,6 +12,8 @@ ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

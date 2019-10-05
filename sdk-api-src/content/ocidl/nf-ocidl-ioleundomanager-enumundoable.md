@@ -12,6 +12,8 @@ ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.EnumUndoable"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

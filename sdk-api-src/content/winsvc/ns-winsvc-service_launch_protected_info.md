@@ -12,6 +12,8 @@ ms.keywords: "*PSERVICE_LAUNCH_PROTECTED_INFO, PSERVICE_LAUNCH_PROTECTED_INFO, P
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_LAUNCH_PROTECTED_INFO"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

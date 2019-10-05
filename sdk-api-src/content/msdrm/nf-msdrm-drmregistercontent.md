@@ -12,6 +12,8 @@ ms.keywords: DRMRegisterContent, DRMRegisterContent function [Active Directory R
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMRegisterContent"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

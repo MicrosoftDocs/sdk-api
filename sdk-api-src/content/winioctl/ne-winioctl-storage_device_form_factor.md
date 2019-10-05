@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, Fo
 ms.topic: enum
 f1_keywords: 
  - "winioctl/STORAGE_DEVICE_FORM_FACTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

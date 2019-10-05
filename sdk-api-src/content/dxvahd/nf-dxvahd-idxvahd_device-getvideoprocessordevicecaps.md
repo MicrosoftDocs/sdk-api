@@ -12,6 +12,8 @@ ms.keywords: GetVideoProcessorDeviceCaps, GetVideoProcessorDeviceCaps method [Me
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_Device.GetVideoProcessorDeviceCaps
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CStdStubBuffer_DebugServerRelease, CStdStubBuffer_DebugServerReleas
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdStubBuffer_DebugServerRelease"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLSCTX, CLSCTX enumeration [COM], CLSCTX_ACTIVATE_32_BIT_SERVER, CL
 ms.topic: enum
 f1_keywords:
 - wtypesbase/CLSCTX
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: 
 req.target-type: Windows

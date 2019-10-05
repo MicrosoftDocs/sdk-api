@@ -12,6 +12,8 @@ ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTSInformationDescriptor.GetLength"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

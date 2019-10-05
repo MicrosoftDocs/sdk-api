@@ -12,6 +12,8 @@ ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IPicture"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

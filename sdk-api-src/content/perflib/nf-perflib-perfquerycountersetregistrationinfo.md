@@ -12,6 +12,8 @@ ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistratio
 ms.topic: function
 f1_keywords:
 - perflib/PerfQueryCounterSetRegistrationInfo
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

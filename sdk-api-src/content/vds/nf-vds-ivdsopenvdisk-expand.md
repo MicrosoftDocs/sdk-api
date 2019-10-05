@@ -12,6 +12,8 @@ ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsO
 ms.topic: method
 f1_keywords:
 - vds/IVdsOpenVDisk.Expand
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

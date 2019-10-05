@@ -12,6 +12,8 @@ ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap
 ms.topic: struct
 f1_keywords: 
  - "naptypes/SystemHealthAgentState"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGammaRamp, GetGammaRamp method [DirectDraw], GetGammaRamp method
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawGammaControl.GetGammaRamp
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

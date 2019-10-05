@@ -12,6 +12,8 @@ ms.keywords: GetPointerType, GetPointerType function [Input Messages and Notific
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerType"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

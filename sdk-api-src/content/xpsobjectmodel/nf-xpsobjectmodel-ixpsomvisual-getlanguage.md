@@ -12,6 +12,8 @@ ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetL
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.GetLanguage"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

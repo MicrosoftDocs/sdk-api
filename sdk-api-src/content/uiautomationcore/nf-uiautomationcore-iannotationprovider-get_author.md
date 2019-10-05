@@ -12,6 +12,8 @@ ms.keywords: Author property [Windows Accessibility], Author property [Windows A
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAnnotationProvider.Author"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

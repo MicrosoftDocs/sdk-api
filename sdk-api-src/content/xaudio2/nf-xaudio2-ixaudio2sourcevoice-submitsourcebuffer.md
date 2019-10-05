@@ -12,6 +12,8 @@ ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSou
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2SourceVoice.SubmitSourceBuffer"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

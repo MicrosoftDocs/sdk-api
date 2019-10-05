@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_GetLong, FLOATOBJ_GetLong function [Display Devices], disp
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_GetLong
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

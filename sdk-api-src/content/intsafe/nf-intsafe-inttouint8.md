@@ -12,6 +12,8 @@ ms.keywords: IntToByte, IntToUInt8, IntToUInt8 function [Windows Shell], intsafe
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntToUInt8"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_D
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

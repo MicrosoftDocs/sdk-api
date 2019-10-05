@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixOrthographicRH, XMMatrixOrthographicRH, XMMatr
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixOrthographicRH"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

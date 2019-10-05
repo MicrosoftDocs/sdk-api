@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2Erase interface [IMAPI],put_ClientName method, IDiscFor
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2Erase.put_ClientName"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

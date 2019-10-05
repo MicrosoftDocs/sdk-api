@@ -12,6 +12,8 @@ ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], p
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetCurrentThreadToken"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

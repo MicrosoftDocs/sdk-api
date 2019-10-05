@@ -12,6 +12,8 @@ ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisua
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IVisualProperties.SetColor"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

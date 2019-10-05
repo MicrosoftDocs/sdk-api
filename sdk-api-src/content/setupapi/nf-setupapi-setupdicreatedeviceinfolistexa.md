@@ -12,6 +12,8 @@ ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx functi
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiCreateDeviceInfoListEx"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

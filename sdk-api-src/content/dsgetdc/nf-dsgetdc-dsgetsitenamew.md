@@ -12,6 +12,8 @@ ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSite
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsGetSiteName"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

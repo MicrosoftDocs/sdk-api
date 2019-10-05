@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_SetVideoProcessBltState, PDXVAHDSW_SetVideoProcessBltStat
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_SetVideoProcessBltState
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

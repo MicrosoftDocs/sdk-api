@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Microsoft Broadband Networks], Activate 
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnServiceActivation.Activate"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

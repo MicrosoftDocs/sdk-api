@@ -12,6 +12,8 @@ ms.keywords: IMFMediaKeys interface [Media Foundation],Shutdown method, IMFMedia
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeys.Shutdown"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

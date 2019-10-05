@@ -12,6 +12,8 @@ ms.keywords: GetGlyphs, GetGlyphs method [Direct Write], GetGlyphs method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalyzer.GetGlyphs"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z, CInstance interf
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetVariant"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

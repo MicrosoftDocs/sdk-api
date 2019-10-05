@@ -12,6 +12,8 @@ ms.keywords: GetGdiInterop, GetGdiInterop method [Direct Write], GetGdiInterop m
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.GetGdiInterop"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

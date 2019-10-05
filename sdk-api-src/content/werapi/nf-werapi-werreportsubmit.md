@@ -12,6 +12,8 @@ ms.keywords: WER_SUBMIT_ADD_REGISTERED_DATA, WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY,
 ms.topic: function
 f1_keywords: 
  - "werapi/WerReportSubmit"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

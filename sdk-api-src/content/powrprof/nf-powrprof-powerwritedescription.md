@@ -12,6 +12,8 @@ ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerWriteDescription"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

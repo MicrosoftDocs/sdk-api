@@ -12,6 +12,8 @@ ms.keywords: MFP_FRAME_STEP_EVENT, MFP_FRAME_STEP_EVENT structure [Media Foundat
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_FRAME_STEP_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

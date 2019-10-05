@@ -12,6 +12,8 @@ ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function
 ms.topic: function
 f1_keywords:
 - aclapi/GetAuditedPermissionsFromAcl
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

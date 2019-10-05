@@ -12,6 +12,8 @@ ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseC
 ms.topic: function
 f1_keywords:
 - pdh/PdhParseCounterPath
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

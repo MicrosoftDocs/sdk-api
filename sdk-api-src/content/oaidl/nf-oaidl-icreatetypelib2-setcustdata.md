@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib2 interface [Automation],SetCustData method, ICreateT
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib2.SetCustData"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

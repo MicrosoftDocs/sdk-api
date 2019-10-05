@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_stretchToFit metho
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayer2.get_stretchToFit"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

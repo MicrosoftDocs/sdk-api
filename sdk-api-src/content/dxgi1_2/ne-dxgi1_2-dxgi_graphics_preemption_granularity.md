@@ -12,6 +12,8 @@ ms.keywords: DXGI_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, DXGI_GRAPHICS_PREEMPT
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_GRAPHICS_PREEMPTION_GRANULARITY"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

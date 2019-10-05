@@ -12,6 +12,8 @@ ms.keywords: ReadOnlyAccess, ReadWriteAccess, WcmNamespaceAccess, WcmNamespaceAc
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmNamespaceAccess"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

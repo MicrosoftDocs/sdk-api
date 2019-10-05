@@ -12,6 +12,8 @@ ms.keywords: 59daf614-be34-5946-a8e4-10a976e15345, DrawInstanced, DrawInstanced 
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.DrawInstanced"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

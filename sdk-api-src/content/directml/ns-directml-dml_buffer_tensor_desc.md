@@ -12,6 +12,8 @@ ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d1
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_BUFFER_TENSOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

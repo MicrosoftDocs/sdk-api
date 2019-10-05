@@ -12,6 +12,8 @@ ms.keywords: FileNamePattern property [File Server Resource Manager], FileNamePa
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.FileNamePattern"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

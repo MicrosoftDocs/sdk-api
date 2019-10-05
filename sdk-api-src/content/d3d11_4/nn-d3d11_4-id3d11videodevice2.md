@@ -5,6 +5,10 @@ description: Provides the video decoding and video processing capabilities of a 
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2
 ms.topic: language-reference
+f1_keywords:
+ - ID3D11VideoDevice2
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

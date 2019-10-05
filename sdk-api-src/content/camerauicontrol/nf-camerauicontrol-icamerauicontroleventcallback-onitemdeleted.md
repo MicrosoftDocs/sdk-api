@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemDeleted
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControlEventCallback.OnItemDeleted"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

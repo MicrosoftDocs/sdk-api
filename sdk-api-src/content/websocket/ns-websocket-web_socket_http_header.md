@@ -12,6 +12,8 @@ ms.keywords: "*PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTT
 ms.topic: struct
 f1_keywords: 
  - "websocket/WEB_SOCKET_HTTP_HEADER"
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

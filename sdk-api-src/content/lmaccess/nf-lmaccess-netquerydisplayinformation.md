@@ -12,6 +12,8 @@ ms.keywords: 1, 2, 3, NetQueryDisplayInformation, NetQueryDisplayInformation fun
 ms.topic: function
 f1_keywords:
 - lmaccess/NetQueryDisplayInformation
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

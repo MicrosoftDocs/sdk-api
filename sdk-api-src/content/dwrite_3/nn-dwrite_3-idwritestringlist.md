@@ -12,6 +12,8 @@ ms.keywords: IDWriteStringList, IDWriteStringList interface [Direct Write], IDWr
 ms.topic: interface
 f1_keywords: 
  - "dwrite_3/IDWriteStringList"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

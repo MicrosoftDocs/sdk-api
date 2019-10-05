@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX, CLUSPROP
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_PARTITION_INFO_EX"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

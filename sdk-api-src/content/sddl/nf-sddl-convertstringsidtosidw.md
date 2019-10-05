@@ -12,6 +12,8 @@ ms.keywords: ConvertStringSidToSid, ConvertStringSidToSid function [Security], C
 ms.topic: function
 f1_keywords:
 - sddl/ConvertStringSidToSid
+dev_langs:
+ - c++
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows

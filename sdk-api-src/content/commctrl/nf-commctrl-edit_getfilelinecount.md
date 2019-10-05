@@ -12,6 +12,8 @@ ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetFileLineCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

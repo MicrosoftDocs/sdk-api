@@ -12,6 +12,8 @@ ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes 
 ms.topic: method
 f1_keywords: 
  - "strmif/IPin.EnumMediaTypes"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

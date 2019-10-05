@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4LengthSq, XMVector4LengthSq, XMVector4LengthS
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4LengthSq"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

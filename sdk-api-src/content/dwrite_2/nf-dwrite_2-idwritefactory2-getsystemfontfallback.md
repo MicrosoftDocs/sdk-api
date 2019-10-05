@@ -12,6 +12,8 @@ ms.keywords: GetSystemFontFallback, GetSystemFontFallback method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFactory2.GetSystemFontFallback"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

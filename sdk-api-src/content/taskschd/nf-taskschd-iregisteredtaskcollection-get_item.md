@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTaskCollection interface [Task Scheduler],Item property,
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTaskCollection.Item"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IReg
 ms.topic: method
 f1_keywords: 
  - "syncregistration/IRegisteredSyncProvider.Reset"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

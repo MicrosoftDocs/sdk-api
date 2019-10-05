@@ -12,6 +12,8 @@ ms.keywords: Edit_GetLineCount, Edit_GetLineCount macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetLineCount"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

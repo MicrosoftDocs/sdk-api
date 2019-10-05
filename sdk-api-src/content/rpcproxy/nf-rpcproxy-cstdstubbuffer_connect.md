@@ -12,6 +12,8 @@ ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdStubBuffer_Connect"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface 
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICProgressiveLevelControl"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

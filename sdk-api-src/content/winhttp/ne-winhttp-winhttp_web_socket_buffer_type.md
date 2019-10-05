@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WINHTTP_WEB_SOCKET_
 ms.topic: enum
 f1_keywords: 
  - "winhttp/WINHTTP_WEB_SOCKET_BUFFER_TYPE"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

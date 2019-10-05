@@ -12,6 +12,8 @@ ms.keywords: CancelClassification, CancelClassification method [File Server Reso
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager.CancelClassification"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

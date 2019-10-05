@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [I
 ms.topic: interface
 f1_keywords: 
  - "netcon/IEnumNetSharingPortMapping"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

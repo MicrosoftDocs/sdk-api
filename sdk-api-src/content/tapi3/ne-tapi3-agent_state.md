@@ -12,6 +12,8 @@ ms.keywords: AGENT_STATE, AGENT_STATE enumeration [TAPI 2.2], AS_BUSY_ACD, AS_BU
 ms.topic: enum
 f1_keywords: 
  - "tapi3/AGENT_STATE"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

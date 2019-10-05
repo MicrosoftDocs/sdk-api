@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_BINDING, WS_CHANNEL_BINDING enumeration [Web Services fo
 ms.topic: enum
 f1_keywords:
 - webservices/WS_CHANNEL_BINDING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

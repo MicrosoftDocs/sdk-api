@@ -12,6 +12,8 @@ ms.keywords: GAMING_DEVICE_VENDOR_ID, GAMING_DEVICE_VENDOR_ID enumeration, GAMIN
 ms.topic: enum
 f1_keywords: 
  - "gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID"
+dev_langs:
+ - c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT struc
 ms.topic: struct
 f1_keywords: 
  - "winuser/CHANGEFILTERSTRUCT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

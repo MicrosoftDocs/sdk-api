@@ -12,6 +12,8 @@ ms.keywords: ENUM_CATYPES, ENUM_CATYPES enumeration [Security], ENUM_ENTERPRISE_
 ms.topic: enum
 f1_keywords: 
  - "certsrv/ENUM_CATYPES"
+dev_langs:
+ - c++
 req.header: certsrv.h
 req.include-header: 
 req.target-type: Windows

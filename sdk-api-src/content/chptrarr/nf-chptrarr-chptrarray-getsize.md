@@ -12,6 +12,8 @@ ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Managem
 ms.topic: method
 f1_keywords: 
  - "chptrarr/CHPtrArray.GetSize"
+dev_langs:
+ - c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorXYZToRGB, XMColorXYZToRGB, XMColorXYZToRGB meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorXYZToRGB"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_SOFT_ERROR, TCP_SOFT_ERROR, TCP_SOFT_ERROR enumeration [IP H
 ms.topic: enum
 f1_keywords: 
  - "tcpestats/TCP_SOFT_ERROR"
+dev_langs:
+ - c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows

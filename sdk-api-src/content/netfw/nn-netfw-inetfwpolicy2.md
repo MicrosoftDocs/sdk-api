@@ -12,6 +12,8 @@ ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 int
 ms.topic: interface
 f1_keywords: 
  - "netfw/INetFwPolicy2"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

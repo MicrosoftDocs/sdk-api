@@ -12,6 +12,8 @@ ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown,
 ms.topic: function
 f1_keywords: 
  - "ntquery/CIShutdown"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

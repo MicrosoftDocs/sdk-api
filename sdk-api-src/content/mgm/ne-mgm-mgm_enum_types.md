@@ -12,6 +12,8 @@ ms.keywords: ALL_SOURCES, ANY_SOURCE, MGM_ENUM_TYPES, MGM_ENUM_TYPES enumeration
 ms.topic: enum
 f1_keywords: 
  - "mgm/MGM_ENUM_TYPES"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

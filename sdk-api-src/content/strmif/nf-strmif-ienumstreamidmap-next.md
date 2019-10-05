@@ -12,6 +12,8 @@ ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdM
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumStreamIdMap.Next"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

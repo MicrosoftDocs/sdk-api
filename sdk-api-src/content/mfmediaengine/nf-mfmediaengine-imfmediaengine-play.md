@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEn
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.Play"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

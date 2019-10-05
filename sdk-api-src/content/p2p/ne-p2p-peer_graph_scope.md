@@ -12,6 +12,8 @@ ms.keywords: PEER_GRAPH_SCOPE, PEER_GRAPH_SCOPE enumeration [Peer Networking], P
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_GRAPH_SCOPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

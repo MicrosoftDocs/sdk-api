@@ -12,6 +12,8 @@ ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _e
 ms.topic: function
 f1_keywords: 
  - "evntrace/StartTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

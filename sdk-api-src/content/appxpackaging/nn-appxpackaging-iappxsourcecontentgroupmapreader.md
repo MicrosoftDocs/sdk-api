@@ -12,6 +12,8 @@ ms.keywords: IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader 
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxSourceContentGroupMapReader"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

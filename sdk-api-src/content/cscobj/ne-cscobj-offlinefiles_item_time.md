@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_ITEM_TIME, OFFLINEFILES_ITEM_TIME enumeration [Offline
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_ITEM_TIME"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

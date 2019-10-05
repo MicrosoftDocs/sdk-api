@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_SEQUENCE_OF_ANY"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

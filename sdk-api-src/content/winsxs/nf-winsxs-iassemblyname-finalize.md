@@ -12,6 +12,8 @@ ms.keywords: Finalize, Finalize method [Side-by-side Assemblies], Finalize metho
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyName.Finalize"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

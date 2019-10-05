@@ -12,6 +12,8 @@ ms.keywords: GetHandlerEnumerator, GetHandlerEnumerator method [Windows Shell], 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerCollection.GetHandlerEnumerator"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

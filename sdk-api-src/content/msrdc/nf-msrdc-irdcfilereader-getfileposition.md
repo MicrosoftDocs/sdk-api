@@ -12,6 +12,8 @@ ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compre
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcFileReader.GetFilePosition"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

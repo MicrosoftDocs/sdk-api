@@ -12,6 +12,8 @@ ms.keywords: CopyScan, CopyScan method [Windows Imaging Component], CopyScan met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICJpegFrameDecode.CopyScan"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

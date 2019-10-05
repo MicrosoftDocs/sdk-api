@@ -12,6 +12,8 @@ ms.keywords: GetCurve, GetCurve method [Windows Animation], GetCurve method [Win
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetCurve"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

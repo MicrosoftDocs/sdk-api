@@ -12,6 +12,8 @@ ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete func
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvRestoreRegisterComplete"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: KCCR_COOKIE_KNOWLEDGE_CONTAINED, KCCR_COOKIE_KNOWLEDGE_CONTAINS, KC
 ms.topic: enum
 f1_keywords: 
  - "winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

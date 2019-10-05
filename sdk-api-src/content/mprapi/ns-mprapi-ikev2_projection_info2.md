@@ -12,6 +12,8 @@ ms.keywords: "*PIKEV2_PROJECTION_INFO2, IKEV2_PROJECTION_INFO2, IKEV2_PROJECTION
 ms.topic: struct
 f1_keywords: 
  - "mprapi/IKEV2_PROJECTION_INFO2"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

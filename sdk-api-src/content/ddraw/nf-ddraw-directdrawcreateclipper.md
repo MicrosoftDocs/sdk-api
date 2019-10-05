@@ -12,6 +12,8 @@ ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDr
 ms.topic: function
 f1_keywords: 
  - "ddraw/DirectDrawCreateClipper"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

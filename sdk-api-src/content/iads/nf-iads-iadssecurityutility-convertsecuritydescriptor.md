@@ -12,6 +12,8 @@ ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, Conv
 ms.topic: method
 f1_keywords:
 - iads/IADsSecurityUtility.ConvertSecurityDescriptor
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

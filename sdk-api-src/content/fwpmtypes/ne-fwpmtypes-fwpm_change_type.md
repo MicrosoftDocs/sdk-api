@@ -12,6 +12,8 @@ ms.keywords: FWPM_CHANGE_ADD, FWPM_CHANGE_DELETE, FWPM_CHANGE_TYPE, FWPM_CHANGE_
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

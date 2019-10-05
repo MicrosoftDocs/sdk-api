@@ -12,6 +12,8 @@ ms.keywords: ITextStory interface [Windows Controls],SetFormattedText method, IT
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.SetFormattedText"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

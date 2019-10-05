@@ -12,6 +12,8 @@ ms.keywords: GetCatalogStatus, GetCatalogStatus method [search], GetCatalogStatu
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.GetCatalogStatus
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

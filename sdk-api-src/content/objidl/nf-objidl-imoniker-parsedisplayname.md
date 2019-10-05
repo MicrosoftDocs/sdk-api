@@ -12,6 +12,8 @@ ms.keywords: IMoniker interface [COM],ParseDisplayName method, IMoniker.ParseDis
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.ParseDisplayName"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

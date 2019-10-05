@@ -12,6 +12,8 @@ ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEv
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqPlatformEvents.ShutdownStart"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

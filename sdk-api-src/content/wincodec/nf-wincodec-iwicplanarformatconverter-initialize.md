@@ -12,6 +12,8 @@ ms.keywords: IWICPlanarFormatConverter interface [Windows Imaging Component],Ini
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPlanarFormatConverter.Initialize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

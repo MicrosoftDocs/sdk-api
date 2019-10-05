@@ -12,6 +12,8 @@ ms.keywords: WSAEnumNameSpaceProvidersEx, WSAEnumNameSpaceProvidersEx function [
 ms.topic: function
 f1_keywords:
 - winsock2/WSAEnumNameSpaceProvidersEx
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

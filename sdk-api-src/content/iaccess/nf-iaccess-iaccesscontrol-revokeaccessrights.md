@@ -12,6 +12,8 @@ ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessCo
 ms.topic: method
 f1_keywords: 
  - "iaccess/IAccessControl.RevokeAccessRights"
+dev_langs:
+ - c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

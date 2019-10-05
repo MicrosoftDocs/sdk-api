@@ -12,6 +12,8 @@ ms.keywords: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f, GetCurrentImage, GetCurrentIm
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetCurrentImage"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

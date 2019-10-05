@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Remov
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.RemoveLanguageProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

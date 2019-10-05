@@ -12,6 +12,8 @@ ms.keywords: BackgroundSyncBegin, BackgroundSyncBegin method [Offline Files], Ba
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents2.BackgroundSyncBegin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

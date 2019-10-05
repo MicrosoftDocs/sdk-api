@@ -12,6 +12,8 @@ ms.keywords: IComResourceEvents interface [COM+],OnResourceAllocate method, ICom
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComResourceEvents.OnResourceAllocate"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

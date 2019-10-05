@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method, GetProperty method,IGraphicsEffect
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetProperty"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

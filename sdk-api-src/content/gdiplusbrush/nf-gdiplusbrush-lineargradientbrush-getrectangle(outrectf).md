@@ -12,6 +12,8 @@ ms.keywords: GetRectangle, GetRectangle methods [GDI+], LinearGradientBrush.GetR
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetRectangle"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 50bc345c-ee44-4174-9b1a-e406041096b5, IMFVideoDisplayControl interf
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.SetVideoWindow"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

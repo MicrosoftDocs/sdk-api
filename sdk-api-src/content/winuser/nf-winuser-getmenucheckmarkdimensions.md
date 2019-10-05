@@ -12,6 +12,8 @@ ms.keywords: GetMenuCheckMarkDimensions, GetMenuCheckMarkDimensions function [Me
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuCheckMarkDimensions"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSP_DRVINFO_DATA_V2_A, PSP_DRVINFO_DATA, PSP_DRVINFO_DATA structu
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_DRVINFO_DATA"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

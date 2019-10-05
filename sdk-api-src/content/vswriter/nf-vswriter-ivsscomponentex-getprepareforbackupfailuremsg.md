@@ -12,6 +12,8 @@ ms.keywords: GetPrepareForBackupFailureMsg, GetPrepareForBackupFailureMsg method
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponentEx.GetPrepareForBackupFailureMsg"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6263770e-741d-4b4f-b33f-f808b7816622, ExtendedProperties property [
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.ExtendedProperties"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

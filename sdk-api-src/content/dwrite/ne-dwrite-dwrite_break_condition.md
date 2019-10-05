@@ -12,6 +12,8 @@ ms.keywords: DWRITE_BREAK_CONDITION, DWRITE_BREAK_CONDITION enumeration [Direct 
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_BREAK_CONDITION"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

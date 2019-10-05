@@ -12,6 +12,8 @@ ms.keywords: EffectsGetTitle, GetTitle, GetTitle method [Windows Media Player], 
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.GetTitle"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlg
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDlgItemInt"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

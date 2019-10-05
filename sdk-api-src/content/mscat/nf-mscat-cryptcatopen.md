@@ -12,6 +12,8 @@ ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, 
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATOpen"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

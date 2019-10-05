@@ -12,6 +12,8 @@ ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Deskt
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.GetResourcePluginStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

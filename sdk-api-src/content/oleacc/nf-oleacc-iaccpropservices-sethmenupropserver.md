@@ -12,6 +12,8 @@ ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuPropServ
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServices.SetHmenuPropServer"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

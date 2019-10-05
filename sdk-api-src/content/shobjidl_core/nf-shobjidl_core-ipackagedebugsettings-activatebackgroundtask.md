@@ -12,6 +12,8 @@ ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

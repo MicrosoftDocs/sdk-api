@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_IS_RESOURCE_CLASS_EQUAL, PRESUTIL_IS_RESOURCE_CLASS_EQUAL 
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilIsResourceClassEqual"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

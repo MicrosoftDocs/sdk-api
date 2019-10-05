@@ -12,6 +12,8 @@ ms.keywords: IMediaObject interface [DirectShow],SetInputMaxLatency method, IMed
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.SetInputMaxLatency"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

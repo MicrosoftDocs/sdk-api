@@ -12,6 +12,8 @@ ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.m
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_ERROR_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

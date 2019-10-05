@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger int
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.Cancel"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

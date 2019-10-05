@@ -12,6 +12,8 @@ ms.keywords: "*PDDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDGETPOLARITYOUTINFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

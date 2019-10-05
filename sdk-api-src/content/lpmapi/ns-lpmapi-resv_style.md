@@ -12,6 +12,8 @@ ms.keywords: RESV_STYLE, RESV_STYLE structure [QOS], STYLE_FF, STYLE_SE, STYLE_W
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/RESV_STYLE"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

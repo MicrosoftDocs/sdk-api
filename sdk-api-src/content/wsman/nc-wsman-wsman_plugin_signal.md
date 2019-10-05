@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_SIGNAL, WSMAN_PLUGIN_SIGNAL callback, WSMAN_PLUGIN_SIG
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_SIGNAL
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

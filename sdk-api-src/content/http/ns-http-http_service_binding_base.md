@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_BINDING_BASE, HTTP_SERVICE_BINDING_BASE, HTTP_SERVI
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_BINDING_BASE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

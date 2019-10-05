@@ -4,6 +4,10 @@ title: IsCharLowerW
 ms.date: 4/26/2019
 ms.keywords: IsCharLowerW
 ms.topic: language-reference
+f1_keywords:
+ - IsCharLowerW
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

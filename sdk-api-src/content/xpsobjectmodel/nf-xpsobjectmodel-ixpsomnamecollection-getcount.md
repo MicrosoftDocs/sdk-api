@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMNameCollection.GetCount"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

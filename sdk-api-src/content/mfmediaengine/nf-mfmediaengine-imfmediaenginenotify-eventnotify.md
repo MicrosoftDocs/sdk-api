@@ -12,6 +12,8 @@ ms.keywords: EventNotify, EventNotify method [Media Foundation], EventNotify met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineNotify.EventNotify"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

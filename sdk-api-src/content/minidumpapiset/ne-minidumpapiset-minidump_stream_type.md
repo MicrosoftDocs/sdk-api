@@ -12,6 +12,8 @@ ms.keywords: CommentStreamA, CommentStreamW, ExceptionStream, FunctionTableStrea
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_STREAM_TYPE
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifn
 ms.topic: function
 f1_keywords: 
  - "winddi/EngSort"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

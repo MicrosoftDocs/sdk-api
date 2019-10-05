@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Pict
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoProgressDialog.Destroy"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

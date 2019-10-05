@@ -12,6 +12,8 @@ ms.keywords: IUnknown_Set, IUnknown_Set function [Windows Shell], _win32_IUnknow
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IUnknown_Set"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

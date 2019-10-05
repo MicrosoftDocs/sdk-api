@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_FLAG, VDS_DRF_ASSIGNED, VDS_DRF_HOTSPARE, VDS_DRF_HOTS
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DRIVE_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

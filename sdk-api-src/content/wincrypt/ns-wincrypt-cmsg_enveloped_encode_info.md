@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_ENVELOPED_ENCODE_INFO, All other encryption algorithms, CAL
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_ENVELOPED_ENCODE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

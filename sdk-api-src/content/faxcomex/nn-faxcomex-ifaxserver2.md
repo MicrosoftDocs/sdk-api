@@ -12,6 +12,8 @@ ms.keywords: IFaxServer2, IFaxServer2 interface [Fax Service], IFaxServer2 inter
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxServer2"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

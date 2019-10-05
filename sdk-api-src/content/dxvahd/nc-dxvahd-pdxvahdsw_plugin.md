@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_Plugin, PDXVAHDSW_Plugin callback, PDXVAHDSW_Plugin callb
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_Plugin
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

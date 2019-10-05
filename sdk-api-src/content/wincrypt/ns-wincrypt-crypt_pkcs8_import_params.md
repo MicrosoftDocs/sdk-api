@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, 
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_PKCS8_IMPORT_PARAMS"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

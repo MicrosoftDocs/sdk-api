@@ -12,6 +12,8 @@ ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.Move"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

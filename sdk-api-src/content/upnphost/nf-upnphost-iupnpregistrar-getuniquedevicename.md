@@ -12,6 +12,8 @@ ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUni
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRegistrar.GetUniqueDeviceName"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

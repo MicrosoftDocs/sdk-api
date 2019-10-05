@@ -12,6 +12,8 @@ ms.keywords: ITfContext interface [Text Services Framework],TrackProperties meth
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.TrackProperties"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

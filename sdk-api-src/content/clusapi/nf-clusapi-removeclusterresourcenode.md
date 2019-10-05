@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, PCLUSAPI_REMOVE_CLUSTER_RESO
 ms.topic: function
 f1_keywords: 
  - "clusapi/RemoveClusterResourceNode"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormat
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFInitMediaTypeFromWaveFormatEx"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

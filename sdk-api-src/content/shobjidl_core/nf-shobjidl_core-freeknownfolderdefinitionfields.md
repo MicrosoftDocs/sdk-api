@@ -12,6 +12,8 @@ ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields fu
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/FreeKnownFolderDefinitionFields"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

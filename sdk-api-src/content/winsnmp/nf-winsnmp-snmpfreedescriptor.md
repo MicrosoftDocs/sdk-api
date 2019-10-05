@@ -12,6 +12,8 @@ ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpf
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpFreeDescriptor"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

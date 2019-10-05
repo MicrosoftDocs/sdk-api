@@ -12,6 +12,8 @@ ms.keywords: "*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCC
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/SRCCODEINFO"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

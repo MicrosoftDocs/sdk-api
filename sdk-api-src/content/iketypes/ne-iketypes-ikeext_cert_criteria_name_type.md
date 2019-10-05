@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CERT_CRITERIA_CN, IKEEXT_CERT_CRITERIA_DC, IKEEXT_CERT_CRITE
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

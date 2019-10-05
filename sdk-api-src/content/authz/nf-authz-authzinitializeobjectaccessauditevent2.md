@@ -12,6 +12,8 @@ ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AU
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzInitializeObjectAccessAuditEvent2"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

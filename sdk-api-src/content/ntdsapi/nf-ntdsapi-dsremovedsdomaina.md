@@ -12,6 +12,8 @@ ms.keywords: DsRemoveDsDomain, DsRemoveDsDomain function [Active Directory], DsR
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsRemoveDsDomain"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

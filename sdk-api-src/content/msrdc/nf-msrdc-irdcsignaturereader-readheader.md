@@ -12,6 +12,8 @@ ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],Rea
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcSignatureReader.ReadHeader"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Animation, BaseValueSource, BaseValueSource enumeration, BaseValueS
 ms.topic: enum
 f1_keywords: 
  - "xamlom/BaseValueSource"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

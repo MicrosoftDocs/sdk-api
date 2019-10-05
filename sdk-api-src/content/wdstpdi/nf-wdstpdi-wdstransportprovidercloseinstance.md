@@ -12,6 +12,8 @@ ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstanc
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportProviderCloseInstance"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

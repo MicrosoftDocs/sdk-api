@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProviderEx interface,OnLunStateChange method, I
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProviderEx.OnLunStateChange
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFTOPOLOGY_DXVA_DEFAULT, MFTOPOLOGY_DXVA_FULL, MFTOPOLOGY_DXVA_MODE
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFTOPOLOGY_DXVA_MODE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

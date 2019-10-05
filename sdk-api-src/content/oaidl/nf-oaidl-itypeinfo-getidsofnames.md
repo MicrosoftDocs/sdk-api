@@ -12,6 +12,8 @@ ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames met
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetIDsOfNames"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

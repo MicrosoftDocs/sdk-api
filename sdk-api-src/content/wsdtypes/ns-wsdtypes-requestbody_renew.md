@@ -12,6 +12,8 @@ ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_ren
 ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_Renew
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

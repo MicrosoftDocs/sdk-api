@@ -12,6 +12,8 @@ ms.keywords: GetChar, GetChar method [Windows Controls], GetChar method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetChar"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

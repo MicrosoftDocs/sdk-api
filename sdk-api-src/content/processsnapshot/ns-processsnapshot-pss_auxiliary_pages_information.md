@@ -12,6 +12,8 @@ ms.keywords: PSS_AUXILIARY_PAGES_INFORMATION, PSS_AUXILIARY_PAGES_INFORMATION st
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

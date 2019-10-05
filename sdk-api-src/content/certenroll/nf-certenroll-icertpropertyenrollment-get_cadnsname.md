@@ -12,6 +12,8 @@ ms.keywords: CADnsName property [Security], CADnsName property [Security],ICertP
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollment.CADnsName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CMSG_ATTR_CERT_COUNT_PARAM, CMSG_ATTR_CERT_PARAM, CMSG_BARE_CONTENT
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgGetParam
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

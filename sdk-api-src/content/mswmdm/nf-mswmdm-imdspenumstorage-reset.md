@@ -12,6 +12,8 @@ ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Reset met
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPEnumStorage.Reset"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

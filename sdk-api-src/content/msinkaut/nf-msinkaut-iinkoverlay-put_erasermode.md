@@ -12,6 +12,8 @@ ms.keywords: 87dfd750-254a-4829-b5a2-04aee9890dd0, EraserMode property [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.EraserMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

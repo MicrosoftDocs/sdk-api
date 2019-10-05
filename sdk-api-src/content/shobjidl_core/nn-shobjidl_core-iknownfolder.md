@@ -12,6 +12,8 @@ ms.keywords: IKnownFolder, IKnownFolder interface [Windows Shell], IKnownFolder 
 ms.topic: interface
 f1_keywords:
 - shobjidl_core/IKnownFolder
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

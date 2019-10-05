@@ -12,6 +12,8 @@ ms.keywords: AdjustWindowRectEx, AdjustWindowRectEx function [Windows and Messag
 ms.topic: function
 f1_keywords: 
  - "winuser/AdjustWindowRectEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

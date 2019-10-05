@@ -12,6 +12,8 @@ ms.keywords: CreateAssemblyCacheItem, CreateAssemblyCacheItem method [Side-by-si
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyCache.CreateAssemblyCacheItem"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

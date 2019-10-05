@@ -12,6 +12,8 @@ ms.keywords: GetPropertyInfo, GetPropertyInfo method [Windows Controls], GetProp
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetPropertyInfo"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

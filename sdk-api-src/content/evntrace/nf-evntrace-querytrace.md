@@ -12,6 +12,8 @@ ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _e
 ms.topic: macro
 f1_keywords: 
  - "evntrace/QueryTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

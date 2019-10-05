@@ -12,6 +12,8 @@ ms.keywords: CALLFRAME_WALK, CALLFRAME_WALK enumeration [COM], CALLFRAME_WALK_IN
 ms.topic: enum
 f1_keywords: 
  - "callobj/CALLFRAME_WALK"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

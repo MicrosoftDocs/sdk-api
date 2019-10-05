@@ -12,6 +12,8 @@ ms.keywords: CreateBooleanArray, CreateBooleanArray method [Windows Runtime], Cr
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateBooleanArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

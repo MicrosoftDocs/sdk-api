@@ -12,6 +12,8 @@ ms.keywords: WinUsb_GetOverlappedResult, WinUsb_GetOverlappedResult function [Bu
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_GetOverlappedResult"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

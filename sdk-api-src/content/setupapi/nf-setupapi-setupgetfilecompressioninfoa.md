@@ -12,6 +12,8 @@ ms.keywords: SetupGetFileCompressionInfo, SetupGetFileCompressionInfo function [
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetFileCompressionInfo"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

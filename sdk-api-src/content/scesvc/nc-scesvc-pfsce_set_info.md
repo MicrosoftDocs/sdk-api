@@ -12,6 +12,8 @@ ms.keywords: FALSE, PFSCE_SET_INFO, PFSCE_SET_INFO callback, PFSCE_SET_INFO call
 ms.topic: callback
 f1_keywords: 
  - "scesvc/PFSCE_SET_INFO"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

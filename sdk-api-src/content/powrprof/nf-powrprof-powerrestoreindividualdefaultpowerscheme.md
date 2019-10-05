@@ -12,6 +12,8 @@ ms.keywords: PowerRestoreIndividualDefaultPowerScheme, PowerRestoreIndividualDef
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerRestoreIndividualDefaultPowerScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

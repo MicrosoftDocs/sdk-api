@@ -12,6 +12,8 @@ ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DB
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer2.Lock2DSize"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

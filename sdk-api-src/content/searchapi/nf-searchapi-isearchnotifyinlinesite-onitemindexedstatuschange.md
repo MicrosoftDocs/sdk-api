@@ -12,6 +12,8 @@ ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChang
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchNotifyInlineSite.OnItemIndexedStatusChange
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

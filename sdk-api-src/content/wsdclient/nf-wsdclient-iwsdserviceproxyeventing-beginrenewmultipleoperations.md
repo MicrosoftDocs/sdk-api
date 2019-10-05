@@ -12,6 +12,8 @@ ms.keywords: BeginRenewMultipleOperations, BeginRenewMultipleOperations method, 
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginRenewMultipleOperations
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

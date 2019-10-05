@@ -12,6 +12,8 @@ ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Te
 ms.topic: enum
 f1_keywords: 
  - "textstor/TsGravity"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

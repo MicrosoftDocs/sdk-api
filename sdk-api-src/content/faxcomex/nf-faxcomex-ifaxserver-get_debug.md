@@ -12,6 +12,8 @@ ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxServ
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.Debug"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

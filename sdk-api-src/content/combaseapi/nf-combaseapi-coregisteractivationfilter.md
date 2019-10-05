@@ -12,6 +12,8 @@ ms.keywords: CoRegisterActivationFilter, CoRegisterActivationFilter function [CO
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoRegisterActivationFilter"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

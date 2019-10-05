@@ -12,6 +12,8 @@ ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUICanConvertOrActivateAs"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

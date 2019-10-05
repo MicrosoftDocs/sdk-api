@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, 
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptGenRandom"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

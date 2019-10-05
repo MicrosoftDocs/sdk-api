@@ -12,6 +12,8 @@ ms.keywords: GetAllAccessRights, GetAllAccessRights method [COM], GetAllAccessRi
 ms.topic: method
 f1_keywords: 
  - "iaccess/IAccessControl.GetAllAccessRights"
+dev_langs:
+ - c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

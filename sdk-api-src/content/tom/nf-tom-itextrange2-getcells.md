@@ -12,6 +12,8 @@ ms.keywords: GetCells, GetCells method [Windows Controls], GetCells method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetCells"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSu
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetSubEntryHandle"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

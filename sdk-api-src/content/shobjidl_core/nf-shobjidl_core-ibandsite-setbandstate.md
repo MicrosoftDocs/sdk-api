@@ -12,6 +12,8 @@ ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IBandSite.SetBandState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

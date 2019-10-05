@@ -12,6 +12,8 @@ ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], G
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetEditInvitation"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ASSOC_FILTER_NONE, ASSOC_FILTER_RECOMMENDED, SHAssocEnumHandlers, S
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHAssocEnumHandlers"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

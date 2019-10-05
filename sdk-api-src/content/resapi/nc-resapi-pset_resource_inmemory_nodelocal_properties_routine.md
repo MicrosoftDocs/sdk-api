@@ -12,6 +12,8 @@ ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_
 ms.topic: callback
 f1_keywords: 
  - "resapi/SetResourceInMemoryNodeLocalProperties callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

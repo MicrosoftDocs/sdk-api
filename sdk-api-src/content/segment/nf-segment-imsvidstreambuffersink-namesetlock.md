@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],NameSe
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink.NameSetLock"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

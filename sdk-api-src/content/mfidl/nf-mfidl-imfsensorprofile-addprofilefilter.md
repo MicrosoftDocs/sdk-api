@@ -12,6 +12,8 @@ ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddPr
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorProfile.AddProfileFilter"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

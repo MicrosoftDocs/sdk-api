@@ -12,6 +12,8 @@ ms.keywords: IMultipleViewProvider, IMultipleViewProvider interface [Windows Acc
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IMultipleViewProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

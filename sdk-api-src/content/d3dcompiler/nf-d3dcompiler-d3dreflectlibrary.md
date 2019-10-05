@@ -12,6 +12,8 @@ ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DReflectLibrary"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

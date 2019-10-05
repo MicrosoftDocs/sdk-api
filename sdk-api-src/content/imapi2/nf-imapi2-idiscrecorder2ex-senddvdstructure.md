@@ -12,6 +12,8 @@ ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendDvdStructure method, IDiscRe
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscRecorder2Ex.SendDvdStructure"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

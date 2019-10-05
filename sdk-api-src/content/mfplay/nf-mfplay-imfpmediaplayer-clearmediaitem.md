@@ -12,6 +12,8 @@ ms.keywords: ClearMediaItem, ClearMediaItem method [Media Foundation], ClearMedi
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.ClearMediaItem"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

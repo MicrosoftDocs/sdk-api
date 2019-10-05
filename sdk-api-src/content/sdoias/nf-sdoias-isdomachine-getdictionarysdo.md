@@ -12,6 +12,8 @@ ms.keywords: GetDictionarySDO, GetDictionarySDO method [Network Policy Server], 
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoMachine.GetDictionarySDO"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

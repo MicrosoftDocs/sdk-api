@@ -12,6 +12,8 @@ ms.keywords: "*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structu
 ms.topic: struct
 f1_keywords: 
  - "strmif/AMCOPPStatusInput"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

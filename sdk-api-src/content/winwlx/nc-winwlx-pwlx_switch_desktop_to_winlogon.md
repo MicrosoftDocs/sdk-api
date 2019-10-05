@@ -12,6 +12,8 @@ ms.keywords: PWLX_SWITCH_DESKTOP_TO_WINLOGON, PWLX_SWITCH_DESKTOP_TO_WINLOGON ca
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSwitchDesktopToWinlogon"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

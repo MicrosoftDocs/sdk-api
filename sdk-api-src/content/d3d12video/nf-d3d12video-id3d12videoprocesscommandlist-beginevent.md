@@ -8,6 +8,10 @@ ms.assetid: 4993454e-904d-4de8-9bc7-41b1b9ba77ea
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::BeginEvent
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::BeginEvent, BeginEvent, ID3D12VideoProcessCommandList.BeginEvent, ID3D12VideoProcessCommandList::BeginEvent, ID3D12VideoProcessCommandList.BeginEvent
 req.header: d3d12video.h
 req.include-header:

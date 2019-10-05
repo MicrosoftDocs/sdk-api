@@ -12,6 +12,8 @@ ms.keywords: Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetFileLineFromChar"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

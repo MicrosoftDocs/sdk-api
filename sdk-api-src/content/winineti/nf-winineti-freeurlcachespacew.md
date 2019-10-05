@@ -12,6 +12,8 @@ ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCac
 ms.topic: function
 f1_keywords: 
  - "winineti/FreeUrlCacheSpace"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

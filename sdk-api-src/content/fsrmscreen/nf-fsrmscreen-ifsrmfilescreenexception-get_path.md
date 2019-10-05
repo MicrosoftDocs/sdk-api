@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreenException interface [File Server Resource Manager],P
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenException.Path"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setth
 ms.topic: function
 f1_keywords: 
  - "winbase/SetThreadAffinityMask"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

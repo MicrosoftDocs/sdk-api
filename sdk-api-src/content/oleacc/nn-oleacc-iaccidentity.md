@@ -12,6 +12,8 @@ ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccI
 ms.topic: interface
 f1_keywords: 
  - "oleacc/IAccIdentity"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

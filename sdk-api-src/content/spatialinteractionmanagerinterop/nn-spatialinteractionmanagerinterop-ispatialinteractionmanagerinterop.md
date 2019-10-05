@@ -12,6 +12,8 @@ ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerIntero
 ms.topic: interface
 f1_keywords: 
  - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop"
+dev_langs:
+ - c++
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

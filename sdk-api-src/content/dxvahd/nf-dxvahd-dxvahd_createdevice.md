@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation
 ms.topic: function
 f1_keywords:
 - dxvahd/DXVAHD_CreateDevice
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

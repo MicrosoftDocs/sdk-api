@@ -12,6 +12,8 @@ ms.keywords: D3D11_PIXEL_SHADER_TRACE_DESC, D3D11_PIXEL_SHADER_TRACE_DESC struct
 ms.topic: struct
 f1_keywords: 
  - "d3d11shadertracing/D3D11_PIXEL_SHADER_TRACE_DESC"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

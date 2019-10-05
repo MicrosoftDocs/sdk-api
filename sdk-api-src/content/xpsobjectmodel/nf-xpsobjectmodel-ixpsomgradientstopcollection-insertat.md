@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientStopCollection.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

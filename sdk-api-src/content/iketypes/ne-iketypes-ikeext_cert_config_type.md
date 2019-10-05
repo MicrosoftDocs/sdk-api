@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CERT_CONFIG_ENTERPRISE_STORE, IKEEXT_CERT_CONFIG_EXPLICIT_TR
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_CERT_CONFIG_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

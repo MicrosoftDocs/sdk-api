@@ -12,6 +12,8 @@ ms.keywords: ScrollAmount, ScrollAmount enumeration [Windows Accessibility], Scr
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/ScrollAmount"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

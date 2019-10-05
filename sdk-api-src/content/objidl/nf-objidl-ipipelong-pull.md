@@ -12,6 +12,8 @@ ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::P
 ms.topic: method
 f1_keywords: 
  - "objidl/IPipeLong.Pull"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Static_SetIcon, Static_SetIcon macro [Windows Controls], _win32_Sta
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Static_SetIcon"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

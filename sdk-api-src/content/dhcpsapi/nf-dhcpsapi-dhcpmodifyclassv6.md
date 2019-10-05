@@ -12,6 +12,8 @@ ms.keywords: DhcpModifyClassV6, DhcpModifyClassV6 function [DHCP], dhcp.dhcpmodi
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpModifyClassV6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

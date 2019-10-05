@@ -12,6 +12,8 @@ ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _w
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedExchangePointer"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

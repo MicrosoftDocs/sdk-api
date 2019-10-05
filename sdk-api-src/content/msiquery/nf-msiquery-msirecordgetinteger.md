@@ -12,6 +12,8 @@ ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordge
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordGetInteger"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], INetC
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetConnectionProps"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

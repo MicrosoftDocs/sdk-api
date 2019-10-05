@@ -12,6 +12,8 @@ ms.keywords: 42016aa0-7cc4-43d5-a055-7007a4bf9f07, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.PacketSize"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

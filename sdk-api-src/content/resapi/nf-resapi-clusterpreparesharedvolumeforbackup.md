@@ -12,6 +12,8 @@ ms.keywords: ClusterPrepareSharedVolumeForBackup, ClusterPrepareSharedVolumeForB
 ms.topic: function
 f1_keywords: 
  - "resapi/ClusterPrepareSharedVolumeForBackup"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

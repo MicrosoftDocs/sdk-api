@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToStrea
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMPackage1.WriteToStream1"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

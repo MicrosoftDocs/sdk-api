@@ -12,6 +12,8 @@ ms.keywords: PTQuerySchemaVersionSupport, PTQuerySchemaVersionSupport function [
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTQuerySchemaVersionSupport"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

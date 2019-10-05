@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended meth
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSuspendInfo.IsSuspended"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

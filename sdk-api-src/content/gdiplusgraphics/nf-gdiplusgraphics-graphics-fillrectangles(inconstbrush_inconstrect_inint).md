@@ -12,6 +12,8 @@ ms.keywords: FillRectangles, FillRectangles method [GDI+], FillRectangles method
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FillRectangles"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

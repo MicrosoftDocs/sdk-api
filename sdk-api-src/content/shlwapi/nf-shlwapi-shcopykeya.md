@@ -12,6 +12,8 @@ ms.keywords: SHCopyKey, SHCopyKey function [Windows Shell], SHCopyKeyA, SHCopyKe
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHCopyKey"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PenType, PenType enumeration [GDI+], PenTypeHatchFill, PenTypeLinea
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/PenType"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

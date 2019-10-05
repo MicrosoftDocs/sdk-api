@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_SortColumns met
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual3.put_SortColumns"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

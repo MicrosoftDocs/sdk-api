@@ -12,6 +12,8 @@ ms.keywords: DrawString, DrawString method [GDI+], DrawString method [GDI+],Grap
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawString"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

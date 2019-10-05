@@ -12,6 +12,8 @@ ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer func
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsPreallocateStringBuffer"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

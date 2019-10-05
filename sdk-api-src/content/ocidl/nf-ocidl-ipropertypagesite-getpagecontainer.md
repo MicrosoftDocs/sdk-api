@@ -12,6 +12,8 @@ ms.keywords: GetPageContainer, GetPageContainer method [COM], GetPageContainer m
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPageSite.GetPageContainer"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

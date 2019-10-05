@@ -12,6 +12,8 @@ ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMC
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMColorConvProps.SetMode"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

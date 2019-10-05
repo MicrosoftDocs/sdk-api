@@ -12,6 +12,8 @@ ms.keywords: GetDesignGlyphAdvances, GetDesignGlyphAdvances method [Direct Write
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFontFace1.GetDesignGlyphAdvances"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

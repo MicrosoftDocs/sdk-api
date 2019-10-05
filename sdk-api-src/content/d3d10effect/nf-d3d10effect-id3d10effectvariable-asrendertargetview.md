@@ -12,6 +12,8 @@ ms.keywords: 4e1e798b-0790-d8d7-5dc5-8b7d7e7de483, AsRenderTargetView, AsRenderT
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsRenderTargetView"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

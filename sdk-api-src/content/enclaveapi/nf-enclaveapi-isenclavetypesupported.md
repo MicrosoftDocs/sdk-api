@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEncla
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/IsEnclaveTypeSupported"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

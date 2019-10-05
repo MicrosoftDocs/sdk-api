@@ -12,6 +12,8 @@ ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue fu
 ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTSetDescriptorValue
+dev_langs:
+ - c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

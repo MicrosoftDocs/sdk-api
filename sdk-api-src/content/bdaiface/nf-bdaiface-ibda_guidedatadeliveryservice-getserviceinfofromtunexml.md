@@ -12,6 +12,8 @@ ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Micros
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

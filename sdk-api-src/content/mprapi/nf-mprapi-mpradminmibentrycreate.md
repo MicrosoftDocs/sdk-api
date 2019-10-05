@@ -12,6 +12,8 @@ ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminMIBEntryCreate"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

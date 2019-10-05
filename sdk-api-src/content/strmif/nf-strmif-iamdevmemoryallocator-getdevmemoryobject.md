@@ -12,6 +12,8 @@ ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevM
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMDevMemoryAllocator.GetDevMemoryObject"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

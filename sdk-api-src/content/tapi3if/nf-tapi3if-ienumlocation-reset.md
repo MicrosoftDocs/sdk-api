@@ -12,6 +12,8 @@ ms.keywords: IEnumLocation interface [TAPI 2.2],Reset method, IEnumLocation.Rese
 ms.topic: method
 f1_keywords: 
  - "tapi3if/IEnumLocation.Reset"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

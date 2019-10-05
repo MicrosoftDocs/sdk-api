@@ -12,6 +12,8 @@ ms.keywords: FELANG_CLMN_FIXD, FELANG_CLMN_FIXR, FELANG_CLMN_NOPBREAK, FELANG_CL
 ms.topic: method
 f1_keywords: 
  - "msime/IFELanguage.GetJMorphResult"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

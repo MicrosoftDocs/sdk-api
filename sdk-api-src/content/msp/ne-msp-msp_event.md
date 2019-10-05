@@ -12,6 +12,8 @@ ms.keywords: ME_ADDRESS_EVENT, ME_CALL_EVENT, ME_PRIVATE_EVENT, ME_TSP_DATA, MSP
 ms.topic: enum
 f1_keywords: 
  - "msp/MSP_EVENT"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

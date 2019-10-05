@@ -12,6 +12,8 @@ ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, wi
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalSize"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

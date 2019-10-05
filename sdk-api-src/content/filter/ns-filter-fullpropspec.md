@@ -12,6 +12,8 @@ ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULL
 ms.topic: struct
 f1_keywords: 
  - "filter/FULLPROPSPEC"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

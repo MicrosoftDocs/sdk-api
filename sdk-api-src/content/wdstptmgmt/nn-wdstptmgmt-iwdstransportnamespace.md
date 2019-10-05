@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows D
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespace"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

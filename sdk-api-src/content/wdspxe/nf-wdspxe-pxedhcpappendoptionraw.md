@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows De
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpAppendOptionRaw"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

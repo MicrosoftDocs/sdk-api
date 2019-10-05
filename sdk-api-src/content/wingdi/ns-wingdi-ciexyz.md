@@ -12,6 +12,8 @@ ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ stru
 ms.topic: struct
 f1_keywords: 
  - "wingdi/CIEXYZ"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

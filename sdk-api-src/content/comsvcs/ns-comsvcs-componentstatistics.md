@@ -12,6 +12,8 @@ ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], comsvcs/
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/ComponentStatistics"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideo
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFValidateMediaTypeSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

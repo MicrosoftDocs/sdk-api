@@ -12,6 +12,8 @@ ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.
 ms.topic: struct
 f1_keywords: 
  - "ocidl/DVEXTENTINFO"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

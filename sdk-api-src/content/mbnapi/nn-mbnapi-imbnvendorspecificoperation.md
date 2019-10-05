@@ -12,6 +12,8 @@ ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface 
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnVendorSpecificOperation"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

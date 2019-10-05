@@ -12,6 +12,8 @@ ms.keywords: 31dffadd-4a5a-4306-80e9-9002782f092c, BeginCreateObject, BeginCreat
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamHandler.BeginCreateObject"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

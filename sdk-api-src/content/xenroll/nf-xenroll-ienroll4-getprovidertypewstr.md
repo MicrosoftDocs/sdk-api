@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],getProviderTypeWStr method, IEnroll4.
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.getProviderTypeWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

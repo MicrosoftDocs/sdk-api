@@ -12,6 +12,8 @@ ms.keywords: "??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Man
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.CHString"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], eaphost
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_INFO_EX
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

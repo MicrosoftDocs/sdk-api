@@ -12,6 +12,8 @@ ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCrea
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineExtension.EndCreateObject"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

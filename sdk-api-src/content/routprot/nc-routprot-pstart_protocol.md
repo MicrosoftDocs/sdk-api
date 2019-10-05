@@ -12,6 +12,8 @@ ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProt
 ms.topic: callback
 f1_keywords:
 - routprot/StartProtocol
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

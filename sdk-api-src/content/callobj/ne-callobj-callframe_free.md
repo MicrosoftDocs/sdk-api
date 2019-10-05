@@ -12,6 +12,8 @@ ms.keywords: CALLFRAME_FREE, CALLFRAME_FREE enumeration [COM], CALLFRAME_FREE_AL
 ms.topic: enum
 f1_keywords: 
  - "callobj/CALLFRAME_FREE"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

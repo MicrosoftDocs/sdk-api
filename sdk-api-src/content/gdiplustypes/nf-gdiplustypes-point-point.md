@@ -12,6 +12,8 @@ ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Point.Point"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

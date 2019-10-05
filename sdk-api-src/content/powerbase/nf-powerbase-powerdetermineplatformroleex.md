@@ -12,6 +12,8 @@ ms.keywords: POWER_PLATFORM_ROLE_V1, POWER_PLATFORM_ROLE_V2, POWER_PLATFORM_ROLE
 ms.topic: function
 f1_keywords:
 - powerbase/PowerDeterminePlatformRoleEx
+dev_langs:
+ - c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

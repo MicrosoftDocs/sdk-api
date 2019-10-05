@@ -12,6 +12,8 @@ ms.keywords: GetSelectionMarkedItem, GetSelectionMarkedItem method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView.GetSelectionMarkedItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

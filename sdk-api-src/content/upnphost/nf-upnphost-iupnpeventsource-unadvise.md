@@ -12,6 +12,8 @@ ms.keywords: IUPnPEventSource interface [UPnP APIs],Unadvise method, IUPnPEventS
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPEventSource.Unadvise"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

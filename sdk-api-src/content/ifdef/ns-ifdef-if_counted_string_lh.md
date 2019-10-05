@@ -12,6 +12,8 @@ ms.keywords: "*PIF_COUNTED_STRING, *PIF_COUNTED_STRING_LH, IF_COUNTED_STRING, IF
 ms.topic: struct
 f1_keywords: 
  - "ifdef/IF_COUNTED_STRING"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Ntddndis.h
 req.target-type: Windows

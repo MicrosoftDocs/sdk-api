@@ -12,6 +12,8 @@ ms.keywords: DdMoCompGetGuids, DdMoCompGetGuids callback function [Display Devic
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompGetGuids
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

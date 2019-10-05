@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutUnprepareHeader, mmeapi/waveOutUnprepareHeader, mult
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutUnprepareHeader"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

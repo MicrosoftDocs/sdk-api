@@ -12,6 +12,8 @@ ms.keywords: GetStatusFence, GetStatusFence method, GetStatusFence method,ID3D12
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12ProtectedSession.GetStatusFence"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

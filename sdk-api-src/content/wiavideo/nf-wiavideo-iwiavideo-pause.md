@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo interface [WIA],Pause method, IWiaVideo.Pause, IWiaVideo:
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.Pause"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

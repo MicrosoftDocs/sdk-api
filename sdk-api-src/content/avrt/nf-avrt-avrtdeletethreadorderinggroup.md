@@ -12,6 +12,8 @@ ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup functi
 ms.topic: function
 f1_keywords: 
  - "avrt/AvRtDeleteThreadOrderingGroup"
+dev_langs:
+ - c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

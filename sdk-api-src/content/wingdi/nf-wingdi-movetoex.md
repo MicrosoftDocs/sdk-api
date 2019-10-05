@@ -12,6 +12,8 @@ ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.mov
 ms.topic: function
 f1_keywords: 
  - "wingdi/MoveToEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

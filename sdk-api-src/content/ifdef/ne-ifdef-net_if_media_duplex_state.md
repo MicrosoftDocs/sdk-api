@@ -12,6 +12,8 @@ ms.keywords: "*PNET_IF_MEDIA_DUPLEX_STATE, MediaDuplexStateFull, MediaDuplexStat
 ms.topic: enum
 f1_keywords: 
  - "ifdef/NET_IF_MEDIA_DUPLEX_STATE"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MIBICMPINFO, MIBICMPINFO structure [MIB], _mpr_mibicmpinfo, ipmib/M
 ms.topic: struct
 f1_keywords:
 - ipmib/MIBICMPINFO
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

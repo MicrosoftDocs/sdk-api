@@ -12,6 +12,8 @@ ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [W
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.CloneFrame"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

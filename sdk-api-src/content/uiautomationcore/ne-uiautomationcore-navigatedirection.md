@@ -12,6 +12,8 @@ ms.keywords: NavigateDirection, NavigateDirection enumeration [Windows Accessibi
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/NavigateDirection"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

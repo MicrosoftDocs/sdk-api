@@ -12,6 +12,8 @@ ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEna
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.AutomaticEnable"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

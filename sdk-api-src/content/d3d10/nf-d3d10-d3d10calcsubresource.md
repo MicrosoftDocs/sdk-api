@@ -12,6 +12,8 @@ ms.keywords: 91f92116-0ae9-0407-3cba-2a8ff2762095, D3D10CalcSubresource, D3D10Ca
 ms.topic: function
 f1_keywords: 
  - "d3d10/D3D10CalcSubresource"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

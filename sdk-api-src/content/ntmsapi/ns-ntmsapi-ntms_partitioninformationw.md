@@ -12,6 +12,8 @@ ms.keywords: NTMS_PARTITIONINFORMATION, NTMS_PARTITIONINFORMATION structure [Fil
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_PARTITIONINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

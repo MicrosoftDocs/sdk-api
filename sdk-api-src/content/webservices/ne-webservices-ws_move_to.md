@@ -12,6 +12,8 @@ ms.keywords: WS_MOVE_TO, WS_MOVE_TO enumeration [Web Services for Windows], WS_M
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_MOVE_TO"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

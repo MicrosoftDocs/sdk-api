@@ -12,6 +12,8 @@ ms.keywords: Description property [Windows Update Agent], Description property [
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry.Description"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

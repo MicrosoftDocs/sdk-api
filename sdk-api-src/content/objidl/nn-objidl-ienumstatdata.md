@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interfa
 ms.topic: interface
 f1_keywords: 
  - "objidl/IEnumSTATDATA"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

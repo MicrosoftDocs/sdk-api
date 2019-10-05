@@ -12,6 +12,8 @@ ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayNam
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.GetDisplayName"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

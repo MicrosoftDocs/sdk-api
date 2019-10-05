@@ -12,6 +12,8 @@ ms.keywords: GetBackColor, GetBackColor method [Windows Controls], GetBackColor 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetBackColor"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

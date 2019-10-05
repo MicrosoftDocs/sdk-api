@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_EXCEPTION, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_EXCEPTION"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Win
 ms.topic: function
 f1_keywords: 
  - "webservices/WsOpenServiceHost"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

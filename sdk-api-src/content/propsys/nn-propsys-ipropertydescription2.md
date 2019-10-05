@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescription2, IPropertyDescription2 interface [Windows Pro
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyDescription2"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

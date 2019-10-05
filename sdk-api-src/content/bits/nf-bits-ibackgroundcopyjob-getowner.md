@@ -12,6 +12,8 @@ ms.keywords: GetOwner, GetOwner method [BITS], GetOwner method [BITS],IBackgroun
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetOwner"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

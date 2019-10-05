@@ -12,6 +12,8 @@ ms.keywords: DHCP_POL_LOGIC_OPER, DHCP_POL_LOGIC_OPER enumeration [DHCP], DhcpLo
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_POL_LOGIC_OPER
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

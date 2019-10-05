@@ -12,6 +12,8 @@ ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetGroupRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 94c3a863-4c8a-4471-be1b-b4d5f8ded374, IES_Collecting, IES_Idle, IES
 ms.topic: enum
 f1_keywords: 
  - "inked/InkEditStatus"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_HT
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

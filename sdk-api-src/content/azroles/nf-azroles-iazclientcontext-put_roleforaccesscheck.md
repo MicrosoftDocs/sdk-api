@@ -12,6 +12,8 @@ ms.keywords: AzClientContext object [Security],RoleForAccessCheck property, IAzC
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.RoleForAccessCheck"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

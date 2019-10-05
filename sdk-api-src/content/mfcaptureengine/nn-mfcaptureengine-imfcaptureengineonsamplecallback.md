@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback 
 ms.topic: interface
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngineOnSampleCallback"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

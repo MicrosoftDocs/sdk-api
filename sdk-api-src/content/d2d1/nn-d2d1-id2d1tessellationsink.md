@@ -12,6 +12,8 @@ ms.keywords: ID2D1TessellationSink, ID2D1TessellationSink interface [Direct2D], 
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1TessellationSink"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [Windows Controls],SetDragCursorImage method, 
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.SetDragCursorImage"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

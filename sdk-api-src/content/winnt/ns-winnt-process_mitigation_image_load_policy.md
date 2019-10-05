@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

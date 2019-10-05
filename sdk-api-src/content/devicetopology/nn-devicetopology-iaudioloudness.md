@@ -12,6 +12,8 @@ ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudne
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioLoudness"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMtsEventInfo interface [COM+],get_Value method, IMtsEventInfo.get_
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEventInfo.get_Value"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LOG_FULL_HANDLER_CALLBACK, LOG_FULL_HANDLER_CALLBACK callback funct
 ms.topic: callback
 f1_keywords: 
  - "clfsmgmtw32/LOG_FULL_HANDLER_CALLBACK"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

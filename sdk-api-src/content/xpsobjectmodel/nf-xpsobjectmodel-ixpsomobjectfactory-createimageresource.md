@@ -12,6 +12,8 @@ ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateImageResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

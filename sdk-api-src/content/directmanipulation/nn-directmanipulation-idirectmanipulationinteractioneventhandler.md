@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationInteractionEventHandler, IDirectManipulationInte
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationInteractionEventHandler"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

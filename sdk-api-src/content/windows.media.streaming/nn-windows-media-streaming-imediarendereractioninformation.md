@@ -12,6 +12,8 @@ ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation in
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IMediaRendererActionInformation"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

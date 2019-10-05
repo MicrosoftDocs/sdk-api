@@ -10,6 +10,8 @@ ms.keywords: IDWriteFactory6 interface [Direct Write],GetSystemFontSet method, I
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory6.GetSystemFontSet"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

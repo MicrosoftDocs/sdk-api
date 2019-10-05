@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVerifyCPUSupport, XMVerifyCPUSupport, XMVerifyCPUSup
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVerifyCPUSupport"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

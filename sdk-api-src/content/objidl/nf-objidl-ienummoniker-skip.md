@@ -12,6 +12,8 @@ ms.keywords: IEnumMoniker interface [COM],Skip method, IEnumMoniker.Skip, IEnumM
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumMoniker.Skip"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

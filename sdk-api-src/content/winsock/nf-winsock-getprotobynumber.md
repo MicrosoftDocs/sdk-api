@@ -12,6 +12,8 @@ ms.keywords: "_win32_getprotobynumber_2, getprotobynumber, getprotobynumber func
 ms.topic: function
 f1_keywords: 
  - "winsock/getprotobynumber"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

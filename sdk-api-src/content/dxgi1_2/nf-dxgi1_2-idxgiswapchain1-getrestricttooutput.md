@@ -12,6 +12,8 @@ ms.keywords: GetRestrictToOutput, GetRestrictToOutput method [DXGI], GetRestrict
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGISwapChain1.GetRestrictToOutput"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

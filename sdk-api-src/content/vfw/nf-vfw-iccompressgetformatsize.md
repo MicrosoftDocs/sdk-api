@@ -12,6 +12,8 @@ ms.keywords: ICCompressGetFormatSize, ICCompressGetFormatSize macro [Windows Mul
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICCompressGetFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

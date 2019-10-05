@@ -12,6 +12,8 @@ ms.keywords: IVssComponent interface [VSS],IsSelectedForRestore method, IVssComp
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.IsSelectedForRestore"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

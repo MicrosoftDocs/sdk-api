@@ -12,6 +12,8 @@ ms.keywords: '*LPNMHDDISPINFOW, HDI_DI_SETITEM, HDI_IMAGE, HDI_LPARAM, HDI_TEXT,
 ms.topic: struct
 f1_keywords:
 - commctrl/NMHDDISPINFO
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

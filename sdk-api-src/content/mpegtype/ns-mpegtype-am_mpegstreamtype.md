@@ -12,6 +12,8 @@ ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.
 ms.topic: struct
 f1_keywords: 
  - "mpegtype/AM_MPEGSTREAMTYPE"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: Dshow.h
 req.target-type: Windows

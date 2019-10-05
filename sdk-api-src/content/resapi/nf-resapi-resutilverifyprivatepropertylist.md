@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, PRESUTIL_VERIFY_PRIVATE_PROP
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilVerifyPrivatePropertyList"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

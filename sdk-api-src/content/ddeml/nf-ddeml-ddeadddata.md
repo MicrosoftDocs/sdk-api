@@ -12,6 +12,8 @@ ms.keywords: DdeAddData, DdeAddData function [Data Exchange], _win32_DdeAddData,
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeAddData"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

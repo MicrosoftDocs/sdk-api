@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function 
 ms.topic: function
 f1_keywords: 
  - "msacm/acmFormatChoose"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

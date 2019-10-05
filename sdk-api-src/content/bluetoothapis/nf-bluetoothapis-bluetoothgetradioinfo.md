@@ -12,6 +12,8 @@ ms.keywords: BluetoothGetRadioInfo, BluetoothGetRadioInfo function [Bluetooth], 
 ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothGetRadioInfo
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

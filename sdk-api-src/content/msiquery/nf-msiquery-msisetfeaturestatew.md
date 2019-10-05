@@ -12,6 +12,8 @@ ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, I
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSetFeatureState"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],TimeSeek method,
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamTimeSeek.TimeSeek"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

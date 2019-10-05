@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],Pr
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryEntry.ProxyFactory"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

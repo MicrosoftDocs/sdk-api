@@ -12,6 +12,8 @@ ms.keywords: ISimilarityReportProgress interface [Remote Differential Compressio
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityReportProgress.ReportProgress"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

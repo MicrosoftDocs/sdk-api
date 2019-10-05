@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Text Services Framework], GetCount metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement.GetCount"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

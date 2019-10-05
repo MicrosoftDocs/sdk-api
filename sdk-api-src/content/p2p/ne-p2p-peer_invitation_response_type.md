@@ -12,6 +12,8 @@ ms.keywords: PEER_INVITATION_RESPONSE_ACCEPTED, PEER_INVITATION_RESPONSE_DECLINE
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_INVITATION_RESPONSE_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

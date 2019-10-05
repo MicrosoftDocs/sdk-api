@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_LUN_FLAG, VDS_LF_CONSISTENCY_CHECK_ENABLED, VDS_LF_HARDWARE_
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_LUN_FLAG
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

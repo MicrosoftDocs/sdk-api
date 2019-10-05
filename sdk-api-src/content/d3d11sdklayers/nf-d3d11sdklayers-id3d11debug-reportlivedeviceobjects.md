@@ -12,6 +12,8 @@ ms.keywords: 734af011-a2b7-a89f-361d-01350006a197, ID3D11Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.ReportLiveDeviceObjects"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

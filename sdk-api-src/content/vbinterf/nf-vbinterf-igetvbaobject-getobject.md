@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAOb
 ms.topic: method
 f1_keywords: 
  - "vbinterf/IGetVBAObject.GetObject"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

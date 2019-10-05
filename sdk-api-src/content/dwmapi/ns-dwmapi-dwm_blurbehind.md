@@ -12,6 +12,8 @@ ms.keywords: "*PDWM_BLURBEHIND, DWM_BLURBEHIND, DWM_BLURBEHIND structure [Deskto
 ms.topic: struct
 f1_keywords: 
  - "dwmapi/DWM_BLURBEHIND"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

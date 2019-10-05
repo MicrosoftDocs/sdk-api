@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompartment.GetValue"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

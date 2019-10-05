@@ -12,6 +12,8 @@ ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetPa
 ms.topic: method
 f1_keywords: 
  - "amparse/IAMParse.SetParseTime"
+dev_langs:
+ - c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

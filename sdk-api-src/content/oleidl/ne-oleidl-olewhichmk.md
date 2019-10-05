@@ -12,6 +12,8 @@ ms.keywords: OLEWHICHMK, OLEWHICHMK enumeration [COM], OLEWHICHMK_CONTAINER, OLE
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLEWHICHMK"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Manag
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMSPECTYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

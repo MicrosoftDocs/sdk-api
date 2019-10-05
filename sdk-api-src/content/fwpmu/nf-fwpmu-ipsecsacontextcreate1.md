@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextCreate1, IPsecSaContextCreate1 function [Filtering], 
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextCreate1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

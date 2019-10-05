@@ -12,6 +12,8 @@ ms.keywords: IConditionFactory2 interface [search],ResolveCondition method, ICon
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.ResolveCondition"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

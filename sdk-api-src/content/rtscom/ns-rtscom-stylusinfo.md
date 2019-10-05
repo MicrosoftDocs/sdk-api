@@ -12,6 +12,8 @@ ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b0
 ms.topic: struct
 f1_keywords: 
  - "rtscom/StylusInfo"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

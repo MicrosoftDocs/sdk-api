@@ -12,6 +12,8 @@ ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprAddV4PolicyCondition
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

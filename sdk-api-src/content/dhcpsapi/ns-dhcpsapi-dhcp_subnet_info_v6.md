@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_INFO_V6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

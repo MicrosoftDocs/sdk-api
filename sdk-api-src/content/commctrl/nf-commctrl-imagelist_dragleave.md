@@ -12,6 +12,8 @@ ms.keywords: ImageList_DragLeave, ImageList_DragLeave function [Windows Controls
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_DragLeave"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

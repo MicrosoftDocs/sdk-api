@@ -12,6 +12,8 @@ ms.keywords: PopulationCount64, PopulationCount64 function [Windows API], winnt/
 ms.topic: function
 f1_keywords: 
  - "winnt/PopulationCount64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

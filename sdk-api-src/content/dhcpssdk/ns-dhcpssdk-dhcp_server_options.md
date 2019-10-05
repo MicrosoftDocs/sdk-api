@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS structure [DHCP], D
 ms.topic: struct
 f1_keywords: 
  - "dhcpssdk/DHCP_SERVER_OPTIONS"
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intco
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/CROSS_SLIDE_PARAMETER"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

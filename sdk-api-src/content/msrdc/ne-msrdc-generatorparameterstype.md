@@ -12,6 +12,8 @@ ms.keywords: GeneratorParametersType, GeneratorParametersType enumeration [Remot
 ms.topic: enum
 f1_keywords: 
  - "msrdc/GeneratorParametersType"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,10 @@ title: CryptSetAsyncParam
 ms.date: 4/26/2019
 ms.keywords: CryptSetAsyncParam
 ms.topic: language-reference
+f1_keywords:
+ - CryptSetAsyncParam
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

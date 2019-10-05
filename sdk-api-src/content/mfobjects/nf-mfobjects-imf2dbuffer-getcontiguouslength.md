@@ -12,6 +12,8 @@ ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength, GetConti
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.GetContiguousLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

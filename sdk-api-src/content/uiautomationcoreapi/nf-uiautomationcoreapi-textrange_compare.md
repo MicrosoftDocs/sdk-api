@@ -12,6 +12,8 @@ ms.keywords: TextRange_Compare, TextRange_Compare function [Windows Accessibilit
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_Compare"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

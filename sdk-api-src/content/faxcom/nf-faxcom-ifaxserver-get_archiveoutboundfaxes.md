@@ -12,6 +12,8 @@ ms.keywords: ArchiveOutboundFaxes property [Fax Service], ArchiveOutboundFaxes p
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.ArchiveOutboundFaxes"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

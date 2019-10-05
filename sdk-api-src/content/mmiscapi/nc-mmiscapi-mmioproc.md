@@ -12,6 +12,8 @@ ms.keywords: MMIOProc, MMIOProc callback, MMIOProc callback function [Windows Mu
 ms.topic: callback
 f1_keywords: 
  - "mmiscapi/MMIOProc"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymb
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorDevice.GetSymbolicLink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

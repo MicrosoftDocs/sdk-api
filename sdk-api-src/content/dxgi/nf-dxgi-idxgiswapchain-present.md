@@ -12,6 +12,8 @@ ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain interface [DXG
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.Present"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

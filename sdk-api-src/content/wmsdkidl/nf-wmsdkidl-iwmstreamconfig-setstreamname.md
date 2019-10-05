@@ -12,6 +12,8 @@ ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamName meth
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig.SetStreamName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

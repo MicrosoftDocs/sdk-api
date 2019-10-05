@@ -12,6 +12,8 @@ ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_comp
 ms.topic: function
 f1_keywords:
 - sspi/CompleteAuthToken
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

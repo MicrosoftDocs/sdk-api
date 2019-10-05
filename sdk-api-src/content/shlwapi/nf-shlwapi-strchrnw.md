@@ -12,6 +12,8 @@ ms.keywords: StrChrNW, StrChrNW function [Windows Shell], _win32_StrChrNW, shell
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrChrNW"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

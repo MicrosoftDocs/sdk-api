@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO, PEER_PNRP_CLOUD_INFO
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_PNRP_CLOUD_INFO"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

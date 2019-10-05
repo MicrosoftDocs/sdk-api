@@ -12,6 +12,8 @@ ms.keywords: ILog interface [COM],TruncatePrefix method, ILog.TruncatePrefix, IL
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.TruncatePrefix"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

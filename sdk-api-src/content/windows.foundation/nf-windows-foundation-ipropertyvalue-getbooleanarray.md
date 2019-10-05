@@ -12,6 +12,8 @@ ms.keywords: GetBooleanArray, GetBooleanArray method [Windows Runtime], GetBoole
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetBooleanArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

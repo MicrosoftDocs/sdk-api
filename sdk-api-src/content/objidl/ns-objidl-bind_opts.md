@@ -12,6 +12,8 @@ ms.keywords: "*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, L
 ms.topic: struct
 f1_keywords: 
  - "objidl/BIND_OPTS"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

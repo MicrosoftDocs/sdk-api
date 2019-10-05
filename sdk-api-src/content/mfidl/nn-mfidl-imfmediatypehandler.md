@@ -12,6 +12,8 @@ ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMedia
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaTypeHandler"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

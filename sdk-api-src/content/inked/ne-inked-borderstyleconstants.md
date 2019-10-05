@@ -12,6 +12,8 @@ ms.keywords: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520, BorderStyleConstants, BorderS
 ms.topic: enum
 f1_keywords: 
  - "inked/BorderStyleConstants"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

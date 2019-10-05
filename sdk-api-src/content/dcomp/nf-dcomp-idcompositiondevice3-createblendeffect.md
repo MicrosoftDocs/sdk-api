@@ -12,6 +12,8 @@ ms.keywords: CreateBlendEffect, CreateBlendEffect method [DirectComposition], Cr
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateBlendEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

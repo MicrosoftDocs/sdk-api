@@ -12,6 +12,8 @@ ms.keywords: DeferContact, DeferContact method [Direct Manipulation], DeferConta
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationDeferContactService.DeferContact"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

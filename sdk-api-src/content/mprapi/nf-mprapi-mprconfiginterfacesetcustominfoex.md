@@ -12,6 +12,8 @@ ms.keywords: MprConfigInterfaceSetCustomInfoEx, MprConfigInterfaceSetCustomInfoE
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceSetCustomInfoEx
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

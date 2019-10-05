@@ -12,6 +12,8 @@ ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiR
 ms.topic: function
 f1_keywords: 
  - "tapi/tapiRequestDrop"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

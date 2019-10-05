@@ -12,6 +12,8 @@ ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_ConditionalAccessEx.CheckEntitlementToken"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

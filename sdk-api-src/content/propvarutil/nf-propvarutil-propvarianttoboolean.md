@@ -12,6 +12,8 @@ ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToBoolean"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

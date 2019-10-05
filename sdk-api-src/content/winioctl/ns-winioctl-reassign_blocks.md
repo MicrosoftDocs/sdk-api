@@ -12,6 +12,8 @@ ms.keywords: '*PREASSIGN_BLOCKS, REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Fil
 ms.topic: struct
 f1_keywords:
 - winioctl/REASSIGN_BLOCKS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

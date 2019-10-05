@@ -12,6 +12,8 @@ ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [D
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDVRGB219"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

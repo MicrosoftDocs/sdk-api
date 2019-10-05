@@ -12,6 +12,8 @@ ms.keywords: BitrateToStepNumber, BitrateToStepNumber method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.BitrateToStepNumber"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumCATEGORYINFO int
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumCATEGORYINFO.Clone"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

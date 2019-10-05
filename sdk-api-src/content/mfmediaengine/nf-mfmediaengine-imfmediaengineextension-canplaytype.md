@@ -12,6 +12,8 @@ ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineExtension.CanPlayType"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], C
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertOpenSystemStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings in
 ms.topic: interface
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocSecuritySettings"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

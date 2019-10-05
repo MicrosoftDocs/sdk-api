@@ -12,6 +12,8 @@ ms.keywords: D3D10CreateEffectFromMemory, D3D10CreateEffectFromMemory function [
 ms.topic: function
 f1_keywords: 
  - "d3d10effect/D3D10CreateEffectFromMemory"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

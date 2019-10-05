@@ -12,6 +12,8 @@ ms.keywords: IFaxJobStatus interface [Fax Service],Pages property, IFaxJobStatus
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxJobStatus.Pages"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

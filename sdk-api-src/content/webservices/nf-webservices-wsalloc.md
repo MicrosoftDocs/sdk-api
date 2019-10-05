@@ -12,6 +12,8 @@ ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/W
 ms.topic: function
 f1_keywords: 
  - "webservices/WsAlloc"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

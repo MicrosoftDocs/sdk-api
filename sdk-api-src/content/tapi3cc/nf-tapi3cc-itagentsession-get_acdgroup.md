@@ -12,6 +12,8 @@ ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDGroup method, ITAgentSes
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgentSession.get_ACDGroup"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

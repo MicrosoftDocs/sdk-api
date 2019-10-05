@@ -12,6 +12,8 @@ ms.keywords: GetUInt64Array, GetUInt64Array method [Windows Runtime], GetUInt64A
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetUInt64Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

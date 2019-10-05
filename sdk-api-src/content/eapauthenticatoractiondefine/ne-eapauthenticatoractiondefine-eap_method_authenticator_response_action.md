@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION, EAP_METHOD_AUTHENTICATOR_
 ms.topic: enum
 f1_keywords: 
  - "eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION"
+dev_langs:
+ - c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

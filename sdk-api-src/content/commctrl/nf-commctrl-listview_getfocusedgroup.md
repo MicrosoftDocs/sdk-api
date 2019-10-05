@@ -12,6 +12,8 @@ ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetFocusedGroup"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

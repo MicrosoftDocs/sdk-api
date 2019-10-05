@@ -12,6 +12,8 @@ ms.keywords: NapNotifyType, NapNotifyType enumeration [NAP], nap.napnotifytype, 
 ms.topic: enum
 f1_keywords: 
  - "naptypes/NapNotifyType"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

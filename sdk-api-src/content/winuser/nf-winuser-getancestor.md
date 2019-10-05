@@ -12,6 +12,8 @@ ms.keywords: GA_PARENT, GA_ROOT, GA_ROOTOWNER, GetAncestor, GetAncestor function
 ms.topic: function
 f1_keywords: 
  - "winuser/GetAncestor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

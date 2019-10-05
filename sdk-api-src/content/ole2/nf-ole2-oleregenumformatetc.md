@@ -12,6 +12,8 @@ ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRe
 ms.topic: function
 f1_keywords: 
  - "ole2/OleRegEnumFormatEtc"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

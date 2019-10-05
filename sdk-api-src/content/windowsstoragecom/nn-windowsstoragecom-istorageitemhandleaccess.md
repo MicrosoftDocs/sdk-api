@@ -12,6 +12,8 @@ ms.keywords: IStorageHandleAccess, IStorageItemHandleAccess, IStorageItemHandleA
 ms.topic: interface
 f1_keywords: 
  - "windowsstoragecom/IStorageItemHandleAccess"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

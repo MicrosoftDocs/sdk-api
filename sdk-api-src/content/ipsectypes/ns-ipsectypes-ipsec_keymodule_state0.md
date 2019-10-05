@@ -12,6 +12,8 @@ ms.keywords: IPSEC_KEYMODULE_STATE0, IPSEC_KEYMODULE_STATE0 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_KEYMODULE_STATE0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

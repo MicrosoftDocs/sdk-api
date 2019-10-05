@@ -12,6 +12,8 @@ ms.keywords: SetSystemTimeAdjustment, SetSystemTimeAdjustment function, _win32_s
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/SetSystemTimeAdjustment"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

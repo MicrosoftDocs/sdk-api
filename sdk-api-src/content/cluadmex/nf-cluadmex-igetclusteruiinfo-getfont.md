@@ -12,6 +12,8 @@ ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failove
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterUIInfo.GetFont"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

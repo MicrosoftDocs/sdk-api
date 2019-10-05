@@ -12,6 +12,8 @@ ms.keywords: IPSEC_AUTH_AES_128, IPSEC_AUTH_AES_192, IPSEC_AUTH_AES_256, IPSEC_A
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_AUTH_TYPE"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

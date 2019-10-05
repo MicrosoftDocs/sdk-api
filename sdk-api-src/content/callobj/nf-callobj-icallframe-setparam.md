@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],SetParam method, ICallFrame.SetParam, IC
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.SetParam"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

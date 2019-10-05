@@ -12,6 +12,8 @@ ms.keywords: "*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWO
 ms.topic: struct
 f1_keywords: 
  - "wofapi/WOF_FILE_COMPRESSION_INFO_V1"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure.GetBackingFileCount"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

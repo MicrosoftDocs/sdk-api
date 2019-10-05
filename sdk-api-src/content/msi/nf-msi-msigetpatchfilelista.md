@@ -12,6 +12,8 @@ ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileL
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetPatchFileList"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

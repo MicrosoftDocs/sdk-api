@@ -12,6 +12,8 @@ ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationServ
 ms.topic: interface
 f1_keywords: 
  - "dxva2api/IDirectXVideoAccelerationService"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

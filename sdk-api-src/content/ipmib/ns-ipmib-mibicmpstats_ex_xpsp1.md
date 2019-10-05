@@ -12,6 +12,8 @@ ms.keywords: '*PMIBICMPSTATS_EX, *PMIBICMPSTATS_EX_XPSP1, MIBICMPSTATS_EX, MIBIC
 ms.topic: struct
 f1_keywords:
 - ipmib/MIBICMPSTATS_EX
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

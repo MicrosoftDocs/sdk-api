@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEM
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_ENDPOINT_TEMPLATE"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

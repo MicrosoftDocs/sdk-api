@@ -12,6 +12,8 @@ ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Mult
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamOpenFromFile"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

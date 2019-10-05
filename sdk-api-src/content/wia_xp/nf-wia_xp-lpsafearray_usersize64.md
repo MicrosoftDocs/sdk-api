@@ -12,6 +12,8 @@ ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation
 ms.topic: function
 f1_keywords: 
  - "wia_xp/LPSAFEARRAY_UserSize64"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

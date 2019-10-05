@@ -12,6 +12,8 @@ ms.keywords: SnmpOidCopy, SnmpOidCopy function [SNMP], _snmp_snmpoidcopy, snmp.s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpOidCopy"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExamineData, ExamineData method [windows Media Device Manager], Exa
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureQuery.ExamineData"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock, GetClock method [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.GetClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

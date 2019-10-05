@@ -12,6 +12,8 @@ ms.keywords: Capture, Capture method [Microsoft TV Technologies], Capture method
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer.Capture"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

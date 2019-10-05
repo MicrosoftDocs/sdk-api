@@ -12,6 +12,8 @@ ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], 
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetAutodialHangup"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

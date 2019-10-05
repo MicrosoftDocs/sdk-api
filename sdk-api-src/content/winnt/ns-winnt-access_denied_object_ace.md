@@ -12,6 +12,8 @@ ms.keywords: '*PACCESS_DENIED_OBJECT_ACE, 0, ACCESS_DENIED_OBJECT_ACE, ACCESS_DE
 ms.topic: struct
 f1_keywords:
 - winnt/ACCESS_DENIED_OBJECT_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

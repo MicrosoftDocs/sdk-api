@@ -12,6 +12,8 @@ ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTA
 ms.topic: struct
 f1_keywords: 
  - "richedit/BIDIOPTIONS"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

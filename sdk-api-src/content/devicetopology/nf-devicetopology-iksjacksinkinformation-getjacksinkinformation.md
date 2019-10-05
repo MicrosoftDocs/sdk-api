@@ -12,6 +12,8 @@ ms.keywords: GetJackSinkInformation, GetJackSinkInformation method [Core Audio],
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IKsJackSinkInformation.GetJackSinkInformation"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

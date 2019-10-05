@@ -12,6 +12,8 @@ ms.keywords: DwmGetCompositionTimingInfo, DwmGetCompositionTimingInfo function [
 ms.topic: function
 f1_keywords:
 - dwmapi/DwmGetCompositionTimingInfo
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

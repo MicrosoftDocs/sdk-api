@@ -12,6 +12,8 @@ ms.keywords: GetImage, GetImage method [Picture Acquisition], GetImage method [P
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetImage"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

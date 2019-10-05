@@ -12,6 +12,8 @@ ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method,
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IWebWizardExtension.SetInitialURL"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

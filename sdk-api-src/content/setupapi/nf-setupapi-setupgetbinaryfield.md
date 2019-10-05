@@ -12,6 +12,8 @@ ms.keywords: SetupGetBinaryField, SetupGetBinaryField function [Setup API], _set
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetBinaryField"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

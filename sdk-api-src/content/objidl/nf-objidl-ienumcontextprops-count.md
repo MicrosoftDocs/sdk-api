@@ -12,6 +12,8 @@ ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps int
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumContextProps.Count"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

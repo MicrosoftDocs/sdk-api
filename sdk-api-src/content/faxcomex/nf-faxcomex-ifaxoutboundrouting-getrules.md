@@ -12,6 +12,8 @@ ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRouting.GetRules"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

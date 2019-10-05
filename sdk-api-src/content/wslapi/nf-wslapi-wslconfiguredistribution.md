@@ -12,6 +12,8 @@ ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.ws
 ms.topic: function
 f1_keywords: 
  - "wslapi/WslConfigureDistribution"
+dev_langs:
+ - c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

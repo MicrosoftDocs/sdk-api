@@ -12,6 +12,8 @@ ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISe
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetKeyValue"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

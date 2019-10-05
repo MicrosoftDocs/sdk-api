@@ -12,6 +12,8 @@ ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Stora
 ms.topic: function
 f1_keywords: 
  - "ole2/WriteFmtUserTypeStg"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

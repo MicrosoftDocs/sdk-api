@@ -12,6 +12,8 @@ ms.keywords: MFBeginUnregisterWorkQueueWithMMCSS, MFBeginUnregisterWorkQueueWith
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFBeginUnregisterWorkQueueWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

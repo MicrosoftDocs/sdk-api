@@ -12,6 +12,8 @@ ms.keywords: GetShellWindow, GetShellWindow function [Windows and Messages], _wi
 ms.topic: function
 f1_keywords: 
  - "winuser/GetShellWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnvironmentName property [Remote Desktop Services], EnvironmentName
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTarget.EnvironmentName"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluste
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IGetClusterDataInfo"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

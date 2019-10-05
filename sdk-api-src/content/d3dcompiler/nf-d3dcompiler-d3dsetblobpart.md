@@ -12,6 +12,8 @@ ms.keywords: D3DSetBlobPart, D3DSetBlobPart function [HLSL], d3dcompiler/D3DSetB
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DSetBlobPart"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

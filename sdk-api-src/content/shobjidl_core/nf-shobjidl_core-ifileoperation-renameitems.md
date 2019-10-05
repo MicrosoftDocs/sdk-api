@@ -12,6 +12,8 @@ ms.keywords: IFileOperation interface [Windows Shell],RenameItems method, IFileO
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileOperation.RenameItems"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMUSHORTN2, XMUSHORTN2 structure [DirectX Math Support APIs], direc
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMUSHORTN2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

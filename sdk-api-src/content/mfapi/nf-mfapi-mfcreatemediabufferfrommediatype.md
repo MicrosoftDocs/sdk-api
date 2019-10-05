@@ -12,6 +12,8 @@ ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType 
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMediaBufferFromMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

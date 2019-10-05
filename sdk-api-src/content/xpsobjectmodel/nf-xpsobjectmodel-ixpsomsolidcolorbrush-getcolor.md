@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMSolidColorBrush.GetColor"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

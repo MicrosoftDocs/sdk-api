@@ -12,6 +12,8 @@ ms.keywords: GetPropertyValues, GetPropertyValues method [Direct Write], GetProp
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSet.GetPropertyValues"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

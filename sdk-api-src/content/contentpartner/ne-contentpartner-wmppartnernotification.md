@@ -12,6 +12,8 @@ ms.keywords: WMPPartnerNotification, WMPPartnerNotification enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPPartnerNotification"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

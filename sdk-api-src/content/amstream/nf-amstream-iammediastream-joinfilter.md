@@ -12,6 +12,8 @@ ms.keywords: IAMMediaStream interface [DirectShow],JoinFilter method, IAMMediaSt
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaStream.JoinFilter"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionO
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationRule.ExecutionOption"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

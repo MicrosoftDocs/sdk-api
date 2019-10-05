@@ -12,6 +12,8 @@ ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio 
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptExportKey
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

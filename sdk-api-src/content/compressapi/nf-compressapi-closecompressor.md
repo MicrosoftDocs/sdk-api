@@ -12,6 +12,8 @@ ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi
 ms.topic: function
 f1_keywords: 
  - "compressapi/CloseCompressor"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

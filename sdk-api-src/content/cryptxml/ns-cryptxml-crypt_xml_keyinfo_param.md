@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Securit
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_KEYINFO_PARAM"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

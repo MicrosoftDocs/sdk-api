@@ -12,6 +12,8 @@ ms.keywords: 6ccc753f-e147-47f4-ab95-17687729404a, GetStringLength, GetStringLen
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetStringLength
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PRM_FILTER_INFO, PRM_FILTER_INFO, PRM_FILTER_INFO structure point
 ms.topic: struct
 f1_keywords:
 - restartmanager/RM_FILTER_INFO
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

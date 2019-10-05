@@ -12,6 +12,8 @@ ms.keywords: QualTspec, QualTspec structure [QOS], lpmapi/QualTspec, qos.qualtsp
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/QualTspec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

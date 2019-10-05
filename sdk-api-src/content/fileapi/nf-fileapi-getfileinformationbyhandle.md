@@ -12,6 +12,8 @@ ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Fi
 ms.topic: function
 f1_keywords:
 - fileapi/GetFileInformationByHandle
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

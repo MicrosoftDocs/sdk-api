@@ -12,6 +12,8 @@ ms.keywords: CurrentDefaultAction property [Windows Accessibility], CurrentDefau
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

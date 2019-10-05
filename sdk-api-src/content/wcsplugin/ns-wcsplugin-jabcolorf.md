@@ -12,6 +12,8 @@ ms.keywords: JabColorF, JabColorF structure [Windows Color System], wcs.jabcolor
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/JabColorF"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Application_Initialize, MI_Application_Initialize function [Wind
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_InitializeV1
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

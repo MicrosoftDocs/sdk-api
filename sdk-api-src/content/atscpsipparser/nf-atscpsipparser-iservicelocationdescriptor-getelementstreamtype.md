@@ -12,6 +12,8 @@ ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor.GetElementStreamType"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

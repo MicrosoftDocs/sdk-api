@@ -12,6 +12,8 @@ ms.keywords: MI_Context_PostIndication, MI_Context_PostIndication function [Wind
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_PostIndication
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDrawi
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.Clone"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

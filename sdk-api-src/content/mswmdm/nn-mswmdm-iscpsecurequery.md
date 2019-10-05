@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureQuery, ISCPSecureQuery interface [windows Media Device Ma
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/ISCPSecureQuery"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

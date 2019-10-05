@@ -12,6 +12,8 @@ ms.keywords: PROGRESS_DIALOG_CHECKBOX_ID, PROGRESS_DIALOG_CHECKBOX_ID enumeratio
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/PROGRESS_DIALOG_CHECKBOX_ID"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

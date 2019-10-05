@@ -12,6 +12,8 @@ ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetoo
 ms.topic: enum
 f1_keywords: 
  - "bthledef/BTH_LE_GATT_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

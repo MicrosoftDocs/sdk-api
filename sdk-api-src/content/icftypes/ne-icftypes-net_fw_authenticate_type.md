@@ -12,6 +12,8 @@ ms.keywords: NET_FW_AUTHENTICATE_AND_ENCRYPT, NET_FW_AUTHENTICATE_AND_NEGOTIATE_
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_AUTHENTICATE_TYPE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

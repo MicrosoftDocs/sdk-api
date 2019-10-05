@@ -12,6 +12,8 @@ ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifnc
 ms.topic: function
 f1_keywords:
 - winddi/DrvEnableDriver
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

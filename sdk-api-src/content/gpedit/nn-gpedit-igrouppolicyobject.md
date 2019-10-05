@@ -12,6 +12,8 @@ ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IG
 ms.topic: interface
 f1_keywords: 
  - "gpedit/IGroupPolicyObject"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

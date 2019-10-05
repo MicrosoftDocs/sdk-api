@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_BYTE_RANGE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

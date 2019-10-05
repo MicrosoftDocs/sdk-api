@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Direct Write], GetString method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteLocalizedStrings.GetString"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

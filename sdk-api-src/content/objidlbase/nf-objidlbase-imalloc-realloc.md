@@ -12,6 +12,8 @@ ms.keywords: IMalloc interface [COM],Realloc method, IMalloc.Realloc, IMalloc::R
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMalloc.Realloc"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

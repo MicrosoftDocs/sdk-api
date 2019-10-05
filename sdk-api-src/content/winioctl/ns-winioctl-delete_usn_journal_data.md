@@ -12,6 +12,8 @@ ms.keywords: "*PDELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA, DELETE_USN_JOU
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DELETE_USN_JOURNAL_DATA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

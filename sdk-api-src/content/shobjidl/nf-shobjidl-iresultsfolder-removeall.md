@@ -12,6 +12,8 @@ ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResults
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IResultsFolder.RemoveAll"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

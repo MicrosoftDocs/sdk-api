@@ -12,6 +12,8 @@ ms.keywords: GetDeviceProperty, GetDeviceProperty method [Windows Portable Devic
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager.GetDeviceProperty"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

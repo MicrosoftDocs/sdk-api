@@ -12,6 +12,8 @@ ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamSampleManager.GetStreamConfiguration"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

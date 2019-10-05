@@ -12,6 +12,8 @@ ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_S
 ms.topic: struct
 f1_keywords:
 - medparam/MP_ENVELOPE_SEGMENT
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

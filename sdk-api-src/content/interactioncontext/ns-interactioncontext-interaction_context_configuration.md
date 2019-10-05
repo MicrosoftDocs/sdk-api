@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATIO
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/INTERACTION_CONTEXT_CONFIGURATION"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

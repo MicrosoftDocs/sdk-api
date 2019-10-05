@@ -12,6 +12,8 @@ ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_
 ms.topic: struct
 f1_keywords: 
  - "msp/MSP_EVENT_INFO"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

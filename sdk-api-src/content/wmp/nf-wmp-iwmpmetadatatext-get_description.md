@@ -12,6 +12,8 @@ ms.keywords: IWMPMetadataText interface [Windows Media Player],get_description m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMetadataText.get_description"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

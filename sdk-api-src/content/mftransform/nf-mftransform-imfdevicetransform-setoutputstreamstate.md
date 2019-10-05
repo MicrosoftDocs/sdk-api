@@ -12,6 +12,8 @@ ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetOutputStr
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.SetOutputStreamState"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

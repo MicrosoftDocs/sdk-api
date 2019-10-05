@@ -12,6 +12,8 @@ ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/IsPropVariantVector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d, Collecting, IInkEdit interfac
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Status"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

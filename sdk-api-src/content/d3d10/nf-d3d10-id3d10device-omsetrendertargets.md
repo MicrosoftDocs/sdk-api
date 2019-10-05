@@ -12,6 +12,8 @@ ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.OMSetRenderTargets"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFVideoAlphaBitmapFlags, MFVideoAlphaBitmapFlags enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "evr9/MFVideoAlphaBitmapFlags"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

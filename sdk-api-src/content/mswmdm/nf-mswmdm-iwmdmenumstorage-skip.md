@@ -12,6 +12,8 @@ ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Skip meth
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMEnumStorage.Skip"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

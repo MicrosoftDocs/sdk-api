@@ -12,6 +12,8 @@ ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface 
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IMultiInterfaceEventControl"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

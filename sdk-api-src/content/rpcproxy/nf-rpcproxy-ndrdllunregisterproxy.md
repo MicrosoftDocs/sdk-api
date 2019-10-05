@@ -12,6 +12,8 @@ ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.nd
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/NdrDllUnregisterProxy"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

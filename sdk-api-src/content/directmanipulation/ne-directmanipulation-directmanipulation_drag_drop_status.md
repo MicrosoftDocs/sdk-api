@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CANCELLED, DIRECTMANIPULATION_DRAG_DRO
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

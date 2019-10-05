@@ -12,6 +12,8 @@ ms.keywords: '*PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_ALTPLATFORM_INFO_V1
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

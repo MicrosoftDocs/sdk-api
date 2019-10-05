@@ -12,6 +12,8 @@ ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordi
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoPositionMapper.MapOutputCoordinateToInputStream"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

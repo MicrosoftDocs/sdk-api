@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent interface [DirectShow],get_BaseURL method, IAMMedia
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent.get_BaseURL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

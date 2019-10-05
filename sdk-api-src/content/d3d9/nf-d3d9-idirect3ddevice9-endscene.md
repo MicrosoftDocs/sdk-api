@@ -12,6 +12,8 @@ ms.keywords: 5a0213d4-1bba-e7fc-0a90-704668833b85, EndScene, EndScene method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.EndScene"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

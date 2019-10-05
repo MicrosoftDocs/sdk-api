@@ -12,6 +12,8 @@ ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POI
 ms.topic: struct
 f1_keywords: 
  - "ocidl/POINTF"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitLow method, IFsiFil
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem.get_DataSize32BitLow"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

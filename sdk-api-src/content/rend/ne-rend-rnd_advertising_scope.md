@@ -12,6 +12,8 @@ ms.keywords: RAS_LOCAL, RAS_REGION, RAS_SITE, RAS_WORLD, RND_ADVERTISING_SCOPE, 
 ms.topic: enum
 f1_keywords: 
  - "rend/RND_ADVERTISING_SCOPE"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

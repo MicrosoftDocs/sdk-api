@@ -12,6 +12,8 @@ ms.keywords: GetPropertyName, GetPropertyName method [Windows Contacts], GetProp
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactPropertyCollection.GetPropertyName"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

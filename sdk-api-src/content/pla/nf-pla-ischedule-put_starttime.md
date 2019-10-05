@@ -12,6 +12,8 @@ ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, 
 ms.topic: method
 f1_keywords: 
  - "pla/ISchedule.StartTime"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

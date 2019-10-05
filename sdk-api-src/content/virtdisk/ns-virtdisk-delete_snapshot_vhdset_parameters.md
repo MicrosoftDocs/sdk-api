@@ -12,6 +12,8 @@ ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAME
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/DELETE_SNAPSHOT_VHDSET_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

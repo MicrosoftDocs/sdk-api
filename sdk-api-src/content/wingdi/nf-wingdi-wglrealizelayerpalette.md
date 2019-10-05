@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglRealizeLayerPalette, opengl.wglrealizelayerpalette, wglRea
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglRealizeLayerPalette"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

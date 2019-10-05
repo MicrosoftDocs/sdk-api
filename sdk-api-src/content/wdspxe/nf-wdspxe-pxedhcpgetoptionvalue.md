@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpGetOptionValue, PxeDhcpGetOptionValue function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpGetOptionValue"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

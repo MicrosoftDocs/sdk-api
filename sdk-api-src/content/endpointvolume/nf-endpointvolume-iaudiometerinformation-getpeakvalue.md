@@ -12,6 +12,8 @@ ms.keywords: GetPeakValue, GetPeakValue method [Core Audio], GetPeakValue method
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioMeterInformation.GetPeakValue"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

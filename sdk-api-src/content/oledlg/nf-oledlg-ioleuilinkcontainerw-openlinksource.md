@@ -12,6 +12,8 @@ ms.keywords: IOleUILinkContainer interface [COM],OpenLinkSource method, IOleUILi
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.OpenLinkSource"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

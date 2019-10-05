@@ -12,6 +12,8 @@ ms.keywords: '*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

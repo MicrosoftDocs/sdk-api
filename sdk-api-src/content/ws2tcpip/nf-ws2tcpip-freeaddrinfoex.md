@@ -12,6 +12,8 @@ ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW,
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/FreeAddrInfoEx"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

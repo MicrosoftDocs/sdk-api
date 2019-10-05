@@ -12,6 +12,8 @@ ms.keywords: RDCMAPPING_ReadOnly, RDCMAPPING_ReadWrite, RDCMAPPING_Undefined, Rd
 ms.topic: enum
 f1_keywords: 
  - "msrdc/RdcMappingAccessMode"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

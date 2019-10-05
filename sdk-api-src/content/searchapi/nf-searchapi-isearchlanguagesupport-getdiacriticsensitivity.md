@@ -12,6 +12,8 @@ ms.keywords: GetDiacriticSensitivity, GetDiacriticSensitivity method [search], G
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchLanguageSupport.GetDiacriticSensitivity"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

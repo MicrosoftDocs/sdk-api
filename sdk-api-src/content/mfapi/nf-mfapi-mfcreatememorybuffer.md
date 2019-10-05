@@ -12,6 +12,8 @@ ms.keywords: 1f79d057-7ef7-4662-9f82-ceadc23276f0, MFCreateMemoryBuffer, MFCreat
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMemoryBuffer"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

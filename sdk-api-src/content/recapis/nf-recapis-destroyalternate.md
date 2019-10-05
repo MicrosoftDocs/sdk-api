@@ -12,6 +12,8 @@ ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2
 ms.topic: function
 f1_keywords: 
  - "recapis/DestroyAlternate"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

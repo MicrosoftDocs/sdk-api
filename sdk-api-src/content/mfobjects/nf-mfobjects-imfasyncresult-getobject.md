@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [M
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncResult.GetObject"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.Close"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

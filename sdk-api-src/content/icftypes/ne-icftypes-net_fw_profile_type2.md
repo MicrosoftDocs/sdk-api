@@ -12,6 +12,8 @@ ms.keywords: NET_FW_PROFILE2_ALL, NET_FW_PROFILE2_DOMAIN, NET_FW_PROFILE2_PRIVAT
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_PROFILE_TYPE2"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0bdc03a8-a01d-453b-92b9-b39d8028b314, CreateProxyLocator, CreatePro
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetProxyLocatorFactory.CreateProxyLocator"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

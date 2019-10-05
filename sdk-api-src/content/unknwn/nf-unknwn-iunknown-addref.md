@@ -12,6 +12,8 @@ ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface
 ms.topic: method
 f1_keywords: 
  - "unknwn/IUnknown.AddRef"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

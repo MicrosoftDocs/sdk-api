@@ -12,6 +12,8 @@ ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback fu
 ms.topic: function
 f1_keywords:
 - lpmapi/LPM_CommitResv
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

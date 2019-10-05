@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP cont
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_STORAGE_DEVICE_POWER_CAP"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

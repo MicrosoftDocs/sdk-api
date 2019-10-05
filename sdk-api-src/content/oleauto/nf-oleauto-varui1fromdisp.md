@@ -12,6 +12,8 @@ ms.keywords: VarUI1FromDisp, VarUI1FromDisp function [Automation], _oa96_VarUI1F
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarUI1FromDisp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

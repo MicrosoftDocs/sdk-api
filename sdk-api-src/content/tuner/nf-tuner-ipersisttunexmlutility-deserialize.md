@@ -12,6 +12,8 @@ ms.keywords: Deserialize, Deserialize method [Microsoft TV Technologies], Deseri
 ms.topic: method
 f1_keywords: 
  - "tuner/IPersistTuneXmlUtility.Deserialize"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

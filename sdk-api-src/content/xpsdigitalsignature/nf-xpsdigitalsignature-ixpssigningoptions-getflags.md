@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags m
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetFlags"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

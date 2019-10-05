@@ -12,6 +12,8 @@ ms.keywords: '*PCREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT, CREDUI
 ms.topic: struct
 f1_keywords:
 - sspi/CREDUIWIN_MARSHALED_CONTEXT
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

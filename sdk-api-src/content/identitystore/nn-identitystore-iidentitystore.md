@@ -12,6 +12,8 @@ ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore
 ms.topic: interface
 f1_keywords: 
  - "identitystore/IIdentityStore"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

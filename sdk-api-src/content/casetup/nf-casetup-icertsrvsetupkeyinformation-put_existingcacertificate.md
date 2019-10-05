@@ -12,6 +12,8 @@ ms.keywords: ExistingCACertificate property [Security], ExistingCACertificate pr
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformation.ExistingCACertificate"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

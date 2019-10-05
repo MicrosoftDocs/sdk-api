@@ -12,6 +12,8 @@ ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interfac
 ms.topic: interface
 f1_keywords: 
  - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory"
+dev_langs:
+ - c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

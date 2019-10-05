@@ -12,6 +12,8 @@ ms.keywords: IEffectivePermission2, IEffectivePermission2 interface [Security], 
 ms.topic: interface
 f1_keywords:
 - aclui/IEffectivePermission2
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

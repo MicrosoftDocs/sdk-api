@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_A_DATA, DNS_A_DATA, DNS_A_DATA structure [DNS], PDNS_A_DATA,
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_A_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

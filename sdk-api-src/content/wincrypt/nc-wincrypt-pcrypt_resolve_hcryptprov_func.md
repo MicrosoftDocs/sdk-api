@@ -12,6 +12,8 @@ ms.keywords: PCRYPT_RESOLVE_HCRYPTPROV_FUNC, PCRYPT_RESOLVE_HCRYPTPROV_FUNC call
 ms.topic: callback
 f1_keywords:
 - wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

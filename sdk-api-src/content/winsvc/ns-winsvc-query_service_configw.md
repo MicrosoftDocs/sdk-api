@@ -12,6 +12,8 @@ ms.keywords: "*LPQUERY_SERVICE_CONFIGW, LPQUERY_SERVICE_CONFIG, LPQUERY_SERVICE_
 ms.topic: struct
 f1_keywords: 
  - "winsvc/QUERY_SERVICE_CONFIG"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

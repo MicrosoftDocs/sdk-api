@@ -12,6 +12,8 @@ ms.keywords: 23f9d59f-d37d-7bdf-874c-f23d35773bb5, GetBlendState, GetBlendState 
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectBlendVariable.GetBlendState"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

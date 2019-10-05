@@ -12,6 +12,8 @@ ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptp
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptStreamUpdate"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

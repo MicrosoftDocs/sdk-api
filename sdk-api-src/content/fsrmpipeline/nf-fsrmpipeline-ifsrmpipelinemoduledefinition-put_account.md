@@ -12,6 +12,8 @@ ms.keywords: Account property [File Server Resource Manager], Account property [
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleDefinition.Account"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

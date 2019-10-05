@@ -12,6 +12,8 @@ ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDL
 ms.topic: callback
 f1_keywords:
 - winsvc/HandlerEx
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

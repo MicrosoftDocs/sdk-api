@@ -12,6 +12,8 @@ ms.keywords: '*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHE
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_PROPSHEETPAGE_REQUEST
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

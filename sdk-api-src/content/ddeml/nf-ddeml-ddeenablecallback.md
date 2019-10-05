@@ -12,6 +12,8 @@ ms.keywords: DdeEnableCallback, DdeEnableCallback function [Data Exchange], EC_D
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeEnableCallback"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEI
 ms.topic: struct
 f1_keywords: 
  - "winuser/DELETEITEMSTRUCT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

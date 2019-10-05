@@ -12,6 +12,8 @@ ms.keywords: WICJpegChrominanceProperties, WICJpegChrominanceProperties enumerat
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICJpegChrominanceProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

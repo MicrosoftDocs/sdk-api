@@ -12,6 +12,8 @@ ms.keywords: "*PIF_LUID, *PNET_LUID, *PNET_LUID_LH, IF_LUID, IF_TYPE_ATM, IF_TYP
 ms.topic: struct
 f1_keywords: 
  - "ifdef/NET_LUID"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: 
 req.target-type: Windows

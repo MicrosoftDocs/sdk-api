@@ -12,6 +12,8 @@ ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetReal
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetRealTimeMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

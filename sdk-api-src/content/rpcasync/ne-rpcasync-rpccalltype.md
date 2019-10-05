@@ -12,6 +12,8 @@ ms.keywords: RpcCallType, RpcCallType enumeration [RPC], rctGuaranteed, rctInval
 ms.topic: enum
 f1_keywords: 
  - "rpcasync/RpcCallType"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

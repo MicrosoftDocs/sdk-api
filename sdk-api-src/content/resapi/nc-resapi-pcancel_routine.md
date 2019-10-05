@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster
 ms.topic: callback
 f1_keywords: 
  - "resapi/Cancel"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

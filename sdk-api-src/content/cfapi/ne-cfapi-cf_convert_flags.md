@@ -12,6 +12,8 @@ ms.keywords: CF_CONVERT_FLAGS, CF_CONVERT_FLAGS enumeration, CF_CONVERT_FLAG_DEH
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CONVERT_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

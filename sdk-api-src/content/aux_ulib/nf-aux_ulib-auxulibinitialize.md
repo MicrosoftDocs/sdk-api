@@ -12,6 +12,8 @@ ms.keywords: AuxUlibInitialize, AuxUlibInitialize function [Windows API], aux_ul
 ms.topic: function
 f1_keywords: 
  - "aux_ulib/AuxUlibInitialize"
+dev_langs:
+ - c++
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

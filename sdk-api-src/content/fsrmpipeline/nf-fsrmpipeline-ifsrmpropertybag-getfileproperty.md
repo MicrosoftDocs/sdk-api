@@ -12,6 +12,8 @@ ms.keywords: GetFileProperty, GetFileProperty method [File Server Resource Manag
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.GetFileProperty"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

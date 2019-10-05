@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED str
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTOOLTIPSCREATED
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

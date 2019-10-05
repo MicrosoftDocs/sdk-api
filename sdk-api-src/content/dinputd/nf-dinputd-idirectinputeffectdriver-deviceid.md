@@ -12,6 +12,8 @@ ms.keywords: DeviceID, DeviceID method [Human Input Devices], DeviceID method [H
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.DeviceID"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

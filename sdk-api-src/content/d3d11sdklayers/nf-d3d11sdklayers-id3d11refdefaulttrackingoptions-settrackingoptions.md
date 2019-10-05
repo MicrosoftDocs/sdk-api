@@ -12,6 +12,8 @@ ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTracking
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11RefDefaultTrackingOptions.SetTrackingOptions"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

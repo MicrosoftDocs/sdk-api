@@ -12,6 +12,8 @@ ms.keywords: 024cefe8-f34c-33c0-a0f9-773160473fbb, ClearRetrievalFilter, ClearRe
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.ClearRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

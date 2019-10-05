@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESC
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

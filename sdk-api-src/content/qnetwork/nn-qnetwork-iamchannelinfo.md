@@ -12,6 +12,8 @@ ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelIn
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IAMChannelInfo"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

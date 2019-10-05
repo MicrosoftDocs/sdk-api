@@ -12,6 +12,8 @@ ms.keywords: "*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "vfw/VIDEOHDR"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D10_DEPTH_STENCIL_VIEW_DESC, D3D10_DEPTH_STENCIL_VIEW_DESC struct
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

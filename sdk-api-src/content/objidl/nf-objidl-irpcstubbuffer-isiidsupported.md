@@ -12,6 +12,8 @@ ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffe
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcStubBuffer.IsIIDSupported"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetThemeSysColorBrush, GetThemeSysColorBrush function [Windows Cont
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeSysColorBrush"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

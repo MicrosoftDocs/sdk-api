@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevision method, IFileSys
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.get_UDFRevision"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

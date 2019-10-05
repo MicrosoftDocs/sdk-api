@@ -12,6 +12,8 @@ ms.keywords: '*PPACKET_PROPERTY, PACKET_PROPERTY, PACKET_PROPERTY structure [Tab
 ms.topic: struct
 f1_keywords:
 - tpcshrd/PACKET_PROPERTY
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: 
 req.target-type: Windows

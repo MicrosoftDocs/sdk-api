@@ -12,6 +12,8 @@ ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remo
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

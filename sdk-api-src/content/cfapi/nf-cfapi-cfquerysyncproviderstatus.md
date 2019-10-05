@@ -12,6 +12,8 @@ ms.keywords: CfQuerySyncProviderStatus, CfQuerySyncProviderStatus function, cfap
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfQuerySyncProviderStatus"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

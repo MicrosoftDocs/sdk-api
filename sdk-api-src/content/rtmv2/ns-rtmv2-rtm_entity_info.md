@@ -12,6 +12,8 @@ ms.keywords: '*PRTM_ENTITY_INFO, PRTM_ENTITY_INFO, PRTM_ENTITY_INFO structure po
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_ENTITY_INFO
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

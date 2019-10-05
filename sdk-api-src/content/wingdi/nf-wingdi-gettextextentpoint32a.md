@@ -12,6 +12,8 @@ ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], 
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetTextExtentPoint32"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

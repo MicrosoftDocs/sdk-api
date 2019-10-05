@@ -12,6 +12,8 @@ ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext m
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.GetWindowContext"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

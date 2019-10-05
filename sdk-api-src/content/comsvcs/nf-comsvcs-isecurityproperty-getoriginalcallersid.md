@@ -12,6 +12,8 @@ ms.keywords: GetOriginalCallerSID, GetOriginalCallerSID method [COM+], GetOrigin
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityProperty.GetOriginalCallerSID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

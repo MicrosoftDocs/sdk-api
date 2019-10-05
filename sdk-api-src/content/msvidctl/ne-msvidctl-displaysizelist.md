@@ -12,6 +12,8 @@ ms.keywords: DisplaySizeList, DisplaySizeList enumeration [Microsoft TV Technolo
 ms.topic: enum
 f1_keywords: 
  - "msvidctl/DisplaySizeList"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: Dshow.h
 req.target-type: Windows

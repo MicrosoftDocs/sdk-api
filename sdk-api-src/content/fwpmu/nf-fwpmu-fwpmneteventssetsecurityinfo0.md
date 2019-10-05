@@ -12,6 +12,8 @@ ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 functi
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmNetEventsSetSecurityInfo0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

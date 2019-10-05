@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO, LSA_
 ms.topic: struct
 f1_keywords:
 - ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

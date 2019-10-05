@@ -12,6 +12,8 @@ ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote M
 ms.topic: function
 f1_keywords: 
  - "wsman/WSManCloseOperation"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

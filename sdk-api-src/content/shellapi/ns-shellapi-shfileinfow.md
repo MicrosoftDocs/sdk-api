@@ -12,6 +12,8 @@ ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _win
 ms.topic: struct
 f1_keywords: 
  - "shellapi/SHFILEINFO"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

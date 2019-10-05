@@ -12,6 +12,8 @@ ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings functi
 ms.topic: function
 f1_keywords: 
  - "tokenbinding/TokenBindingDeleteAllBindings"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

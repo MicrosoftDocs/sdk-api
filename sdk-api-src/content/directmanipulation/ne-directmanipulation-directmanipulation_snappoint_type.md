@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_SNAPPOINT_MANDATORY, DIRECTMANIPULATION_SNAPPOIN
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_SNAPPOINT_TYPE"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

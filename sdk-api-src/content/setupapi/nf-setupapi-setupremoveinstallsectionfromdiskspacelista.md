@@ -12,6 +12,8 @@ ms.keywords: SetupRemoveInstallSectionFromDiskSpaceList, SetupRemoveInstallSecti
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupRemoveInstallSectionFromDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

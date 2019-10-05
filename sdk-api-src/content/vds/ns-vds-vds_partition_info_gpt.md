@@ -12,6 +12,8 @@ ms.keywords: VDS_PARTITION_INFO_GPT, VDS_PARTITION_INFO_GPT structure [VDS], bas
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PARTITION_INFO_GPT
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

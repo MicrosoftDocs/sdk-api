@@ -12,6 +12,8 @@ ms.keywords: AddFile, AddFile method [BITS], AddFile method [BITS],IBackgroundCo
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.AddFile
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

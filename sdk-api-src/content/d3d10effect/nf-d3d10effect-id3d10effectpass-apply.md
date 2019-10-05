@@ -12,6 +12,8 @@ ms.keywords: Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D1
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectPass.Apply"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

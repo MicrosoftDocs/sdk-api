@@ -12,6 +12,8 @@ ms.keywords: ExtensionImageName property [Fax Service], ExtensionImageName prope
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethod.ExtensionImageName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

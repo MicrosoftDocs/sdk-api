@@ -12,6 +12,8 @@ ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, S
 ms.topic: function
 f1_keywords: 
  - "schannel/SslEmptyCache"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

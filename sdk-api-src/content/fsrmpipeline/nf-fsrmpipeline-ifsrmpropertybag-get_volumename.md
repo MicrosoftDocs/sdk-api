@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeNam
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.VolumeName"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

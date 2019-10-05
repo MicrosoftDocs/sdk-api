@@ -12,6 +12,8 @@ ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButt
 ms.topic: method
 f1_keywords: 
  - "mmc/IMenuButton.AddButton"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

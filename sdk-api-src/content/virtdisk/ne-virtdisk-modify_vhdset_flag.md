@@ -12,6 +12,8 @@ ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enume
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/MODIFY_VHDSET_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

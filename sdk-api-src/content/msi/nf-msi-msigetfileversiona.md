@@ -12,6 +12,8 @@ ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, 
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetFileVersion"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

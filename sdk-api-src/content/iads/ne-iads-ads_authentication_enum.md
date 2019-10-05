@@ -12,6 +12,8 @@ ms.keywords: ADS_AUTHENTICATION_ENUM, ADS_AUTHENTICATION_ENUM enumeration [ADSI]
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_AUTHENTICATION_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

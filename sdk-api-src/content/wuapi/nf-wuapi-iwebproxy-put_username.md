@@ -12,6 +12,8 @@ ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebP
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.UserName"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

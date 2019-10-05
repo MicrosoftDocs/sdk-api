@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, traceloggi
 ms.topic: function
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingRegisterEx"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EulaText property [Windows Update Agent], EulaText property [Window
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.EulaText"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

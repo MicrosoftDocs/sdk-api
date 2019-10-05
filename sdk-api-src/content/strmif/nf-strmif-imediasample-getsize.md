@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.GetSize"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

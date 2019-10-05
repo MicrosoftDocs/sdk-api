@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Manageme
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserSetGroups
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

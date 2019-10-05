@@ -12,6 +12,8 @@ ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQuery
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IQueryParserManager"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

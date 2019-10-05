@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_IDLE_TIMEOUT0, IPSEC_SA_IDLE_TIMEOUT0 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_IDLE_TIMEOUT0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_ANY_ATTRIBUTES_TYPE, WS_BOOL_TYPE, WS_BYTES_TYPE, WS_BYTE_ARRAY_
 ms.topic: enum
 f1_keywords:
 - webservices/WS_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

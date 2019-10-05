@@ -12,6 +12,8 @@ ms.keywords: GetCPInfo, GetCPInfo function [Internationalization for Windows App
 ms.topic: function
 f1_keywords:
 - winnls/GetCPInfo
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

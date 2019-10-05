@@ -12,6 +12,8 @@ ms.keywords: DS_NAME_ERROR, DS_NAME_ERROR enumeration [Active Directory], DS_NAM
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_NAME_ERROR"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

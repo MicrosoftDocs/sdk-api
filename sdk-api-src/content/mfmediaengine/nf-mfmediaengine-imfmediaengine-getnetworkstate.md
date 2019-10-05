@@ -12,6 +12,8 @@ ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetw
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetNetworkState"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

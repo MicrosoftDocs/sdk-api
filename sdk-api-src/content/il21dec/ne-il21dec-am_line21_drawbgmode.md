@@ -12,6 +12,8 @@ ms.keywords: "*PAM_LINE21_DRAWBGMODE, AM_L21_DRAWBGMODE_Opaque, AM_L21_DRAWBGMOD
 ms.topic: enum
 f1_keywords: 
  - "il21dec/AM_LINE21_DRAWBGMODE"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

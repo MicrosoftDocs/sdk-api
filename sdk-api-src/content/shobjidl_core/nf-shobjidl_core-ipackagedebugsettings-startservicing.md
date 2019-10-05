@@ -12,6 +12,8 @@ ms.keywords: IPackageDebugSettings interface [Windows Shell],StartServicing meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.StartServicing"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

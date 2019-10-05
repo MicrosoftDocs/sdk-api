@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescri
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSiloAction.GetDescription"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_HIJRI, VAR_DATEVALUEONLY, VAR_T
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDateFromStr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

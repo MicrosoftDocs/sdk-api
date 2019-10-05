@@ -12,6 +12,8 @@ ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Fra
 ms.topic: struct
 f1_keywords: 
  - "ctfutb/TF_LANGBARITEMINFO"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

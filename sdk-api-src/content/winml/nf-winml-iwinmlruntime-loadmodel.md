@@ -12,6 +12,8 @@ ms.keywords: IWinMLRuntime interface,LoadModel method, IWinMLRuntime.LoadModel, 
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLRuntime.LoadModel"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

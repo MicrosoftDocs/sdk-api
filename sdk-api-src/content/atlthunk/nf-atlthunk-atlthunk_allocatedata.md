@@ -12,6 +12,8 @@ ms.keywords: AtlThunk_AllocateData, AtlThunk_AllocateData function, atlthunk/Atl
 ms.topic: function
 f1_keywords: 
  - "atlthunk/AtlThunk_AllocateData"
+dev_langs:
+ - c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

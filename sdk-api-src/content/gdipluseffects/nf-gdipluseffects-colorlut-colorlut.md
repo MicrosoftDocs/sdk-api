@@ -12,6 +12,8 @@ ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT cons
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorLUT.ColorLUT"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DestroyResourceIndexer, DestroyResourceIndexer function [Menus and 
 ms.topic: function
 f1_keywords: 
  - "resourceindexer/DestroyResourceIndexer"
+dev_langs:
+ - c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

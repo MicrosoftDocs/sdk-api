@@ -12,6 +12,8 @@ ms.keywords: File, File share, IADsSecurityUtility interface [ADSI],SetSecurityD
 ms.topic: method
 f1_keywords: 
  - "iads/IADsSecurityUtility.SetSecurityDescriptor"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

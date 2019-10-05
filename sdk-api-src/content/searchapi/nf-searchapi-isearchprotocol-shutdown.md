@@ -12,6 +12,8 @@ ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchProtocol.ShutDown"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

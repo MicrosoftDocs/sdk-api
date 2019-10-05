@@ -12,6 +12,8 @@ ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnexts
 ms.topic: function
 f1_keywords:
 - fileapi/FindNextStreamW
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

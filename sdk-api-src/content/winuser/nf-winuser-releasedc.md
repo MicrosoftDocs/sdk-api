@@ -12,6 +12,8 @@ ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.
 ms.topic: function
 f1_keywords: 
  - "winuser/ReleaseDC"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

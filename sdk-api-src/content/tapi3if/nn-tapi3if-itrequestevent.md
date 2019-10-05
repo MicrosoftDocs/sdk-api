@@ -12,6 +12,8 @@ ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITRequestEvent"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

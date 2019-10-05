@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP1, FWPM_NET_EVENT_CLASSIFY_DROP1 struct
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP1"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

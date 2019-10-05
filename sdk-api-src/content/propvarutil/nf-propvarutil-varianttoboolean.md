@@ -12,6 +12,8 @@ ms.keywords: VariantToBoolean, VariantToBoolean function [Windows Properties], _
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToBoolean"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

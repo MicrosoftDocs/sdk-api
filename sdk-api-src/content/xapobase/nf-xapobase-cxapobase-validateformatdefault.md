@@ -12,6 +12,8 @@ ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatDefau
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOBase.ValidateFormatDefault"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], Creat
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope2.CreateRoleAssignment"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

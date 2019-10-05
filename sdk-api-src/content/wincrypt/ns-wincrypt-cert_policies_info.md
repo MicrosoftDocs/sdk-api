@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_POLICIES_INFO, CERT_POLICIES_INFO, CERT_POLICIES_INFO struc
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_POLICIES_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

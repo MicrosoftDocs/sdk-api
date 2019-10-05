@@ -12,6 +12,8 @@ ms.keywords: SystemTimeToFileTime, SystemTimeToFileTime function, _win32_systemt
 ms.topic: function
 f1_keywords: 
  - "timezoneapi/SystemTimeToFileTime"
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

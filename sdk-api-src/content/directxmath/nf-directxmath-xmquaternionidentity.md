@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionIdentity, XMQuaternionIdentity, XMQuaterni
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionIdentity"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

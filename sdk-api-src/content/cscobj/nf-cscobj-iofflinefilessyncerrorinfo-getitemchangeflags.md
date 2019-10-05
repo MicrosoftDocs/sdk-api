@@ -12,6 +12,8 @@ ms.keywords: GetItemChangeFlags, GetItemChangeFlags method [Offline Files], GetI
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorInfo.GetItemChangeFlags"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

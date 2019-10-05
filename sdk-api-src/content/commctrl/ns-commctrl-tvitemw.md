@@ -12,6 +12,8 @@ ms.keywords: "*LPTVITEMW, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEM, LPTVITEM
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TVITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

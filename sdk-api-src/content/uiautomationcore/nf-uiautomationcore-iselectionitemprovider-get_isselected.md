@@ -12,6 +12,8 @@ ms.keywords: ISelectionItemProvider interface [Windows Accessibility],IsSelected
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISelectionItemProvider.IsSelected"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

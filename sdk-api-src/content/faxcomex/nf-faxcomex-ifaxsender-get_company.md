@@ -12,6 +12,8 @@ ms.keywords: Company property [Fax Service], Company property [Fax Service],IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.Company"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

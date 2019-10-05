@@ -12,6 +12,8 @@ ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFO
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFOutputTrustAuthority"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

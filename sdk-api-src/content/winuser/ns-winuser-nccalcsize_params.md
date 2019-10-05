@@ -12,6 +12,8 @@ ms.keywords: "*LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS str
 ms.topic: struct
 f1_keywords: 
  - "winuser/NCCALCSIZE_PARAMS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

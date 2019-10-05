@@ -12,6 +12,8 @@ ms.keywords: AzTask object [Security],Tasks property, IAzTask interface [Securit
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.Tasks"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICDRAWBEGIN, ICDRAWBEGIN structure [Windows Multimedia], ICDRAW_ANI
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICDRAWBEGIN"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

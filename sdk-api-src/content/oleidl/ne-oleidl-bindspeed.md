@@ -12,6 +12,8 @@ ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSP
 ms.topic: enum
 f1_keywords: 
  - "oleidl/BINDSPEED"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

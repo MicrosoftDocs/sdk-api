@@ -12,6 +12,8 @@ ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/I
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwProfile.FirewallEnabled"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

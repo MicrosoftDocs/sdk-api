@@ -12,6 +12,8 @@ ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn
 ms.topic: function
 f1_keywords: 
  - "winuser/ValidateRgn"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

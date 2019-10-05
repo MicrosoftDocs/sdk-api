@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarMgr interface [Text Services Framework],UnadviseEventSink
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarMgr.UnadviseEventSink"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

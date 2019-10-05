@@ -12,6 +12,8 @@ ms.keywords: CurrentContainingGrid property [Windows Accessibility], CurrentCont
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CurrentContainingGrid"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

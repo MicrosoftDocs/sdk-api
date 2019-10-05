@@ -12,6 +12,8 @@ ms.keywords: IEnumTASK interface [MMC],Reset method, IEnumTASK.Reset, IEnumTASK:
 ms.topic: method
 f1_keywords: 
  - "mmc/IEnumTASK.Reset"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

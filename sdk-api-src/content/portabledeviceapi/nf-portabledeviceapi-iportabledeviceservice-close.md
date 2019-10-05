@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [W
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceService.Close"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_HITTEST_TYPE, DIRECTMANIPULATION_HITTEST_TYPE en
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_HITTEST_TYPE"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

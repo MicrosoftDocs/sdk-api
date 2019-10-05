@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineEME interface [Media Foundation],get_Keys method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEME.get_Keys"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCOMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT, CO
 ms.topic: struct
 f1_keywords:
 - winnt/COMPATIBILITY_CONTEXT_ELEMENT
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

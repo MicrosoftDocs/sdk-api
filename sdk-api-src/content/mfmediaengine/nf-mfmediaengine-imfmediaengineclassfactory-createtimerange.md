@@ -12,6 +12,8 @@ ms.keywords: CreateTimeRange, CreateTimeRange method [Media Foundation], CreateT
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineClassFactory.CreateTimeRange"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PICMPV6_ECHO_REPLY, *PICMPV6_ECHO_REPLY_LH, ICMPV6_ECHO_REPLY, IC
 ms.topic: struct
 f1_keywords: 
  - "ipexport/ICMPV6_ECHO_REPLY"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

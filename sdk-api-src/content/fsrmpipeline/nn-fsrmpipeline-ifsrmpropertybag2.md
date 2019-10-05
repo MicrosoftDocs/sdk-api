@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resourc
 ms.topic: interface
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag2"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetPAT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

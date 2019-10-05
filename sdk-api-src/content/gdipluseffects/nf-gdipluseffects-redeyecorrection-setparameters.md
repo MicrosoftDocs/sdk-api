@@ -12,6 +12,8 @@ ms.keywords: RedEyeCorrection class [GDI+],SetParameters method, RedEyeCorrectio
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/RedEyeCorrection.SetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

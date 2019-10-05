@@ -12,6 +12,8 @@ ms.keywords: ID2D1RadialGradientBrush, ID2D1RadialGradientBrush interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1RadialGradientBrush"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply fu
 ms.topic: function
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

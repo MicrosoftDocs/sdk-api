@@ -12,6 +12,8 @@ ms.keywords: IPSM_AutoSize, IPSM_CenterImage, IPSM_Normal, IPSM_StretchImage, In
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkPictureSizeMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

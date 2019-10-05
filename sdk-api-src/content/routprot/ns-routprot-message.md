@@ -12,6 +12,8 @@ ms.keywords: '*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE st
 ms.topic: struct
 f1_keywords:
 - routprot/MESSAGE
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHResolveFolderPathInLibrary, SHResolveFolderPathInLibrary function
 ms.topic: function
 f1_keywords: 
  - "shobjidl/SHResolveFolderPathInLibrary"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method 
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponent.CompareObjects"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [A
 ms.topic: method
 f1_keywords: 
  - "iads/IADsADSystemInfo.GetDCSiteName"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

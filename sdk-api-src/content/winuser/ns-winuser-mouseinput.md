@@ -12,6 +12,8 @@ ms.keywords: "*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWH
 ms.topic: struct
 f1_keywords: 
  - "winuser/MOUSEINPUT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

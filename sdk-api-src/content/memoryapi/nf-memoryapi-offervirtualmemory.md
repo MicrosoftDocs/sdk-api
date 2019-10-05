@@ -12,6 +12,8 @@ ms.keywords: OfferVirtualMemory, OfferVirtualMemory function, VMOfferPriorityBel
 ms.topic: function
 f1_keywords: 
  - "memoryapi/OfferVirtualMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

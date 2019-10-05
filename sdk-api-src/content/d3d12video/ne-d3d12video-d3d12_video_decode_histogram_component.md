@@ -8,6 +8,10 @@ ms.assetid: e503a4a5-9a6d-4c2d-8f6e-1fe0e2e24c22
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT, D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT, 
 req.header: d3d12video.h
 req.include-header:

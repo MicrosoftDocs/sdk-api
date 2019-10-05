@@ -12,6 +12,8 @@ ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain
 ms.topic: function
 f1_keywords: 
  - "d3d11/D3D11CreateDeviceAndSwapChain"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

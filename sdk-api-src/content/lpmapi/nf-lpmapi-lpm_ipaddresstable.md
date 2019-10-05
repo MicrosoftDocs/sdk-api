@@ -12,6 +12,8 @@ ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable
 ms.topic: function
 f1_keywords: 
  - "lpmapi/LPM_IpAddressTable"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Fo
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFPluginControl.GetPreferredClsidByIndex
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

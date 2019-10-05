@@ -12,6 +12,8 @@ ms.keywords: GetSinkInfo, GetSinkInfo method [Media Foundation], GetSinkInfo met
 ms.topic: method
 f1_keywords:
 - mfidl/IMFTranscodeSinkInfoProvider.GetSinkInfo
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

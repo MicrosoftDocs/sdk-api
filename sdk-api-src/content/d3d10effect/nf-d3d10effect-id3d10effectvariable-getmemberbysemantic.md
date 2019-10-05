@@ -12,6 +12,8 @@ ms.keywords: 39fcf4c4-6072-0377-d1b8-ca11cc848a0c, GetMemberBySemantic, GetMembe
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetMemberBySemantic"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

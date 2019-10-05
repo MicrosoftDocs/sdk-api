@@ -12,6 +12,8 @@ ms.keywords: GetCenterColor, GetCenterColor method [GDI+], GetCenterColor method
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetCenterColor"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

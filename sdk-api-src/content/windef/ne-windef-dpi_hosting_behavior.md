@@ -12,6 +12,8 @@ ms.keywords: DPI_HOSTING_BEHAVIOR, DPI_HOSTING_BEHAVIOR_DEFAULT, DPI_HOSTING_BEH
 ms.topic: enum
 f1_keywords: 
  - "windef/_DPI_HOSTING_BEHAVIOR"
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: 
 req.target-type: Windows

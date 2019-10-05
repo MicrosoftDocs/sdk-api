@@ -12,6 +12,8 @@ ms.keywords: MI_ParameterSetFT, MI_ParameterSetFT structure [Windows Management 
 ms.topic: struct
 f1_keywords:
 - mi/MI_ParameterSetFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

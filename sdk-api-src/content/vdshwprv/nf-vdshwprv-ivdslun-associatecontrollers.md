@@ -12,6 +12,8 @@ ms.keywords: AssociateControllers, AssociateControllers method [VDS], AssociateC
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.AssociateControllers"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

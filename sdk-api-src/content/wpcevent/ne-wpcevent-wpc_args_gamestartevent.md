@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_GAMESTARTEVENT, WPC_ARGS_GAMESTARTEVENT enumeration, WPC_A
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_GAMESTARTEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

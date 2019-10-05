@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutEnum0, FwpmCalloutEnum0 function [Filtering], fwp.fwpmca
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmCalloutEnum0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

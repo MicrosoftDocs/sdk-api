@@ -12,6 +12,8 @@ ms.keywords: "*PPDH_BROWSE_DLG_CONFIG_HW, PDH_BROWSE_DLG_CONFIG_H, PDH_BROWSE_DL
 ms.topic: struct
 f1_keywords: 
  - "pdh/PDH_BROWSE_DLG_CONFIG_H"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

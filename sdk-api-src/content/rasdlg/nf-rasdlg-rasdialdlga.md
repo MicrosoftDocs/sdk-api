@@ -12,6 +12,8 @@ ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _r
 ms.topic: function
 f1_keywords: 
  - "rasdlg/RasDialDlg"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindTextStart, FindTextStart method [Windows Controls], FindTextSta
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.FindTextStart"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

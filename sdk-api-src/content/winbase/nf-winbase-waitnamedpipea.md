@@ -12,6 +12,8 @@ ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, Wait
 ms.topic: function
 f1_keywords: 
  - "winbase/WaitNamedPipe"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

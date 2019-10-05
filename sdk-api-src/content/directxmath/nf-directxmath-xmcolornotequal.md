@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorNotEqual, XMColorNotEqual, XMColorNotEqual meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorNotEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

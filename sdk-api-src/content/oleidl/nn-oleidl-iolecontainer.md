@@ -12,6 +12,8 @@ ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interfa
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleContainer"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

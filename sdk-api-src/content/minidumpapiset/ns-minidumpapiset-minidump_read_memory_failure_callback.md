@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAIL
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFI
 ms.topic: struct
 f1_keywords: 
  - "strmif/VIDEO_STREAM_CONFIG_CAPS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

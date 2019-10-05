@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],QueryMaskedDisks method, IVdsService.Qu
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.QueryMaskedDisks"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

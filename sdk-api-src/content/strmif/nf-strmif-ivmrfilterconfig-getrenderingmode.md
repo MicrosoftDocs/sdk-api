@@ -12,6 +12,8 @@ ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderin
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRFilterConfig.GetRenderingMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UpdateLockdownOption, UpdateLockdownOption enumeration [Windows Upd
 ms.topic: enum
 f1_keywords: 
  - "wuapi/UpdateLockdownOption"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

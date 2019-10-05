@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audi
 ms.topic: interface
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolumeEx"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

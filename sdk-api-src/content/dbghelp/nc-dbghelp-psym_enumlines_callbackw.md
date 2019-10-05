@@ -12,6 +12,8 @@ ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumLinesProc
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Button_SetState, Button_SetState macro [Windows Controls], _win32_B
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_SetState"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

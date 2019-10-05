@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_DEV_STATUS, FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Se
 ms.topic: struct
 f1_keywords: 
  - "faxdev/FAX_DEV_STATUS"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

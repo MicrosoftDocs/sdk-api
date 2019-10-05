@@ -12,6 +12,8 @@ ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME con
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_LOCK_VOLUME"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

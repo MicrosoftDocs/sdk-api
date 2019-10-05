@@ -12,6 +12,8 @@ ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.GetMaxIdealImageSize"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

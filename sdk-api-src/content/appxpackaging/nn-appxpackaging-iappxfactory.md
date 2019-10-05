@@ -12,6 +12,8 @@ ms.keywords: IAppxFactory, IAppxFactory interface [App packaging and management]
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxFactory"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

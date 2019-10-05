@@ -12,6 +12,8 @@ ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Wind
 ms.topic: function
 f1_keywords: 
  - "userenv/DeleteAppContainerProfile"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

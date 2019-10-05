@@ -12,6 +12,8 @@ ms.keywords: GetMediaSource, GetMediaSource method [Media Foundation], GetMediaS
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaStream.GetMediaSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

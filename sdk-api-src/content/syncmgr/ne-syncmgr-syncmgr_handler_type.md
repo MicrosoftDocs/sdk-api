@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_HANDLER_TYPE, SYNCMGR_HANDLER_TYPE enumeration [Windows She
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_HANDLER_TYPE"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

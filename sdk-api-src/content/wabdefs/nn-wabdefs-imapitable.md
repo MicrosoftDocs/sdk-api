@@ -12,6 +12,8 @@ ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable
 ms.topic: interface
 f1_keywords: 
  - "wabdefs/IMAPITable"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

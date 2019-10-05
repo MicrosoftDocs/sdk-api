@@ -12,6 +12,8 @@ ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP]
 ms.topic: function
 f1_keywords:
 - winhttp/WinHttpWebSocketReceive
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

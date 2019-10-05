@@ -12,6 +12,8 @@ ms.keywords: MBN_COMPRESSION, MBN_COMPRESSION enumeration [Microsoft Broadband N
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_COMPRESSION"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

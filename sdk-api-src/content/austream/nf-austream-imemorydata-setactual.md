@@ -12,6 +12,8 @@ ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.Se
 ms.topic: method
 f1_keywords: 
  - "austream/IMemoryData.SetActual"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

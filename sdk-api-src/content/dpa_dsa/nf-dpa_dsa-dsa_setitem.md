@@ -12,6 +12,8 @@ ms.keywords: DSA_SetItem, DSA_SetItem function [Windows Controls], _shell_DSA_Se
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_SetItem"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

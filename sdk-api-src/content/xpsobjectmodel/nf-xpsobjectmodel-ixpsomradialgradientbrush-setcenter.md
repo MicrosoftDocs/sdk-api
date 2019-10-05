@@ -12,6 +12,8 @@ ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],S
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMRadialGradientBrush.SetCenter"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

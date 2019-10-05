@@ -12,6 +12,8 @@ ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shel
 ms.topic: function
 f1_keywords: 
  - "intsafe/SizeTMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

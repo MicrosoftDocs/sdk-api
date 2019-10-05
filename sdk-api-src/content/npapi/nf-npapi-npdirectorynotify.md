@@ -12,6 +12,8 @@ ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDI
 ms.topic: function
 f1_keywords: 
  - "npapi/NPDirectoryNotify"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

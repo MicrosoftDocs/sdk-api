@@ -12,6 +12,8 @@ ms.keywords: Complement, Complement method [Windows Sync], Complement method [Wi
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.Complement"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

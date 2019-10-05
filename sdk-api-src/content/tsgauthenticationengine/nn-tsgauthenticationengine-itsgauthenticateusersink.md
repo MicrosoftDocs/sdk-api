@@ -12,6 +12,8 @@ ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remot
 ms.topic: interface
 f1_keywords: 
  - "tsgauthenticationengine/ITSGAuthenticateUserSink"
+dev_langs:
+ - c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

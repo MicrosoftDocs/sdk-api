@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISig
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.ParentWindow"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

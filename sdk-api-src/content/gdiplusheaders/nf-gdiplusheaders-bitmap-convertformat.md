@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],ConvertFormat method, Bitmap.ConvertFormat, Bit
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.ConvertFormat"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

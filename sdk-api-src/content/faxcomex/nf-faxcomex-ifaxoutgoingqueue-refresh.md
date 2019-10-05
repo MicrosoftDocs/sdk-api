@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingQueue interface [Fax Service],Refresh method, IFaxOutgo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingQueue.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

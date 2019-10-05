@@ -12,6 +12,8 @@ ms.keywords: DebugActiveProcessStop, DebugActiveProcessStop function, _win32_deb
 ms.topic: function
 f1_keywords: 
  - "debugapi/DebugActiveProcessStop"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

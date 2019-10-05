@@ -12,6 +12,8 @@ ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispe
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IDispenserManager.RegisterDispenser"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

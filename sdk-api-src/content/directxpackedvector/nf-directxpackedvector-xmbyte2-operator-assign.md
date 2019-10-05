@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMBYTE2.operator =, DirectX::PackedVector::XM
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMBYTE2.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

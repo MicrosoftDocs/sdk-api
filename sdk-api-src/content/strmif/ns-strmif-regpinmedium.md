@@ -12,6 +12,8 @@ ms.keywords: REGPINMEDIUM, REGPINMEDIUM structure [DirectShow], REGPINMEDIUMStru
 ms.topic: struct
 f1_keywords: 
  - "strmif/REGPINMEDIUM"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

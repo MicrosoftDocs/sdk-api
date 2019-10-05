@@ -12,6 +12,8 @@ ms.keywords: Formats property [File Server Resource Manager], Formats property [
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.Formats"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

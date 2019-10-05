@@ -12,6 +12,8 @@ ms.keywords: GetCodecInstalled, GetCodecInstalled method [DirectShow], GetCodecI
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowExProps.GetCodecInstalled"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

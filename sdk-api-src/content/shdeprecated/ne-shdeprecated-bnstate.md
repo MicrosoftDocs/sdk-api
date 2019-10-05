@@ -12,6 +12,8 @@ ms.keywords: BNSTATE, BNSTATE enumeration [Windows Shell], BNS_BEGIN_NAVIGATE, B
 ms.topic: enum
 f1_keywords: 
  - "shdeprecated/BNSTATE"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

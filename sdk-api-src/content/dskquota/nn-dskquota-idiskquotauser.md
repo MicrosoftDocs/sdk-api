@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser in
 ms.topic: interface
 f1_keywords: 
  - "dskquota/IDiskQuotaUser"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

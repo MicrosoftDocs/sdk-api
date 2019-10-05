@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStrea
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

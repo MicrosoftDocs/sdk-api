@@ -12,6 +12,8 @@ ms.keywords: IEventControl interface [COM+],SetPublisherFilter method, IEventCon
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventControl.SetPublisherFilter"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

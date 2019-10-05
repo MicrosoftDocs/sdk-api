@@ -12,6 +12,8 @@ ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Servi
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDisplayAttributeMgr.GetDisplayAttributeInfo"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

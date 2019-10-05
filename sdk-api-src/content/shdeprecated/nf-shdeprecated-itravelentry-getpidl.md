@@ -12,6 +12,8 @@ ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelEntry.GetPidl"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

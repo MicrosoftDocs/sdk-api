@@ -12,6 +12,8 @@ ms.keywords: '*PNET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_BAD_PASSWORD_COUNT, 
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_PERSISTED_FIELDS
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

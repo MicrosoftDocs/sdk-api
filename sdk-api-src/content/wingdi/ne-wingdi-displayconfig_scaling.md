@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_67f71fcc-f83c-4a11-94d4-169ab6d55f7c.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_SCALING"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

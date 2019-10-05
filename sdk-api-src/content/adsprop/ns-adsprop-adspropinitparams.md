@@ -12,6 +12,8 @@ ms.keywords: '*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structur
 ms.topic: struct
 f1_keywords:
 - adsprop/ADSPROPINITPARAMS
+dev_langs:
+ - c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

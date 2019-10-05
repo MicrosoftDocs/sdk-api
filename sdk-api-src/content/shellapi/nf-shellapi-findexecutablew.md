@@ -12,6 +12,8 @@ ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecut
 ms.topic: function
 f1_keywords: 
  - "shellapi/FindExecutable"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

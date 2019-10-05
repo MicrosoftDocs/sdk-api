@@ -12,6 +12,8 @@ ms.keywords: AddStream, AddStream method [windows Media Format], AddStream metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamList.AddStream"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

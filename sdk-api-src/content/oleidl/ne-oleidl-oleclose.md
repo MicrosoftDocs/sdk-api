@@ -12,6 +12,8 @@ ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PRO
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLECLOSE"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

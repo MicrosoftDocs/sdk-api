@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMINT3.operator =, Use DirectX::::XMINT3::operator =, 
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMINT3.operator ="
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

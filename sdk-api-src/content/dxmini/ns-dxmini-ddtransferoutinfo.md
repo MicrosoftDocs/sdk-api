@@ -12,6 +12,8 @@ ms.keywords: "*PDDTRANSFEROUTINFO, DDTRANSFEROUTINFO, DDTRANSFEROUTINFO structur
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDTRANSFEROUTINFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

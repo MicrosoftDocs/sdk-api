@@ -12,6 +12,8 @@ ms.keywords: CSC_MTAThreadPool, CSC_STAThreadPool, CSC_ThreadPool, CSC_ThreadPoo
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_ThreadPool"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment S
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpInitialize"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

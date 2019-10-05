@@ -12,6 +12,8 @@ ms.keywords: HttpReadFragmentFromCache, HttpReadFragmentFromCache function [HTTP
 ms.topic: function
 f1_keywords:
 - http/HttpReadFragmentFromCache
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

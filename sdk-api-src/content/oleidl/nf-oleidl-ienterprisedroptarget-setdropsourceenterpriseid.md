@@ -12,6 +12,8 @@ ms.keywords: IEnterpriseDropTarget interface [COM],SetDropSourceEnterpriseId met
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnterpriseDropTarget.SetDropSourceEnterpriseId"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RO_INIT_MULTITHREADED, RO_INIT_TYPE, RO_INIT_TYPE enumeration [Wind
 ms.topic: enum
 f1_keywords: 
  - "roapi/RO_INIT_TYPE"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

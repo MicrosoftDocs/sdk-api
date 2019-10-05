@@ -12,6 +12,8 @@ ms.keywords: LPFN_RIOSEND
 ms.topic: language-reference
 f1_keywords: 
  - "mswsock/LPFN_RIOSEND"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: IOleCacheControl interface [COM],OnStop method, IOleCacheControl.On
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCacheControl.OnStop"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

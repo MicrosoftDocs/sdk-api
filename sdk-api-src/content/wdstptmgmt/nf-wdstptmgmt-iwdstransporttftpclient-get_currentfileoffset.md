@@ -12,6 +12,8 @@ ms.keywords: CurrentFileOffset property [Windows Deployment Services], CurrentFi
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient.CurrentFileOffset"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

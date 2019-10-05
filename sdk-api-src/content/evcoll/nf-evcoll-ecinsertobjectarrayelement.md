@@ -12,6 +12,8 @@ ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, ev
 ms.topic: function
 f1_keywords: 
  - "evcoll/EcInsertObjectArrayElement"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

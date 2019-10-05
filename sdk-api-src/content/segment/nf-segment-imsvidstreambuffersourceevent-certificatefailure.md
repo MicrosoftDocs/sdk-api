@@ -12,6 +12,8 @@ ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent.CertificateFailure"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

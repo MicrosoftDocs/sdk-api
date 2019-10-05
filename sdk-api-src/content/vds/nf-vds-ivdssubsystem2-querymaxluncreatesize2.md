@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem2 interface,QueryMaxLunCreateSize2 method, IVdsSubSyst
 ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem2.QueryMaxLunCreateSize2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

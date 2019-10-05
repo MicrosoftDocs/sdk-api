@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and
 ms.topic: interface
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlock"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

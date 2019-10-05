@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_B
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_BASIC_RESPONSE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

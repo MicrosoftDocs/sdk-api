@@ -12,6 +12,8 @@ ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peer
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerEnumGroups"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

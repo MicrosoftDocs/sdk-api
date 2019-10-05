@@ -12,6 +12,8 @@ ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], I
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfEditRecord"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

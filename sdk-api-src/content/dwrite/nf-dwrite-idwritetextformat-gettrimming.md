@@ -12,6 +12,8 @@ ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method 
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetTrimming"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, f
 ms.topic: function
 f1_keywords:
 - clfs/LsnEqual
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

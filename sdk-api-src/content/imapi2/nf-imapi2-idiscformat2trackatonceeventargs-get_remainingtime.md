@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_RemainingTim
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

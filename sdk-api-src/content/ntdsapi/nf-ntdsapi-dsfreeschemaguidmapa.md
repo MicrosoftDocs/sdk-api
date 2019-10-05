@@ -12,6 +12,8 @@ ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsFreeSchemaGuidMap"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

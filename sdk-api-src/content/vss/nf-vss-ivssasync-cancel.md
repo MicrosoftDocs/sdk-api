@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [VSS], Cancel method [VSS],IVssAsync interfac
 ms.topic: method
 f1_keywords: 
  - "vss/IVssAsync.Cancel"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

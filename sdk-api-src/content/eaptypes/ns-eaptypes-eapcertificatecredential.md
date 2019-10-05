@@ -12,6 +12,8 @@ ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHo
 ms.topic: struct
 f1_keywords:
 - eaptypes/EapCertificateCredential
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

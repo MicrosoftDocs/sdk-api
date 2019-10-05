@@ -12,6 +12,8 @@ ms.keywords: '*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [
 ms.topic: struct
 f1_keywords:
 - winddi/FD_DEVICEMETRICS
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10GetPixelShaderProfile"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

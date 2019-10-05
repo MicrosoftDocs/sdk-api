@@ -12,6 +12,8 @@ ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web S
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_OPERATION_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], m
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetValueEx"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

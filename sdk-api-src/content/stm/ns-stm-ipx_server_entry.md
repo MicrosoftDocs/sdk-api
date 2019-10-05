@@ -12,6 +12,8 @@ ms.keywords: '*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [
 ms.topic: struct
 f1_keywords:
 - stm/IPX_SERVER_ENTRY
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

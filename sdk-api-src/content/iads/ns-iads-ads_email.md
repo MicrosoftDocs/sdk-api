@@ -12,6 +12,8 @@ ms.keywords: "*PADS_EMAIL, ADS_EMAIL, ADS_EMAIL structure [ADSI], PADS_EMAIL, PA
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_EMAIL"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

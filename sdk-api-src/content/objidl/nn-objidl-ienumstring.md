@@ -12,6 +12,8 @@ ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [CO
 ms.topic: interface
 f1_keywords: 
  - "objidl/IEnumString"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

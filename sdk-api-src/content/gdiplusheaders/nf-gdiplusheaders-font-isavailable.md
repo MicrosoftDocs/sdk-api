@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],IsAvailable method, Font.IsAvailable, Font::IsAva
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.IsAvailable"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

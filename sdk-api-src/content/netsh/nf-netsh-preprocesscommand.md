@@ -12,6 +12,8 @@ ms.keywords: PreprocessCommand, PreprocessCommand function [NetShell], _netsh_pr
 ms.topic: function
 f1_keywords: 
  - "netsh/PreprocessCommand"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

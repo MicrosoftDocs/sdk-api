@@ -12,6 +12,8 @@ ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPAddProvider"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

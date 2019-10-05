@@ -12,6 +12,8 @@ ms.keywords: GetHistoryObject, GetHistoryObject method [Windows Shell], GetHisto
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetHistoryObject"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

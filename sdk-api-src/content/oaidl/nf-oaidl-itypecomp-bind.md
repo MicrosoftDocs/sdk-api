@@ -12,6 +12,8 @@ ms.keywords: Bind, Bind method [Automation], Bind method [Automation],ITypeComp 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeComp.Bind"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

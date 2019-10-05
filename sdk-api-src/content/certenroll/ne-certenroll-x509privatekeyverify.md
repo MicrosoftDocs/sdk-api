@@ -12,6 +12,8 @@ ms.keywords: VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, Verif
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509PrivateKeyVerify"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

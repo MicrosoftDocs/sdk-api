@@ -12,6 +12,8 @@ ms.keywords: PrjFileNameCompare, PrjFileNameCompare function, ProjFS.prjfilename
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjFileNameCompare"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

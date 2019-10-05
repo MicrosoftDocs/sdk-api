@@ -12,6 +12,8 @@ ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interfac
 ms.topic: interface
 f1_keywords: 
  - "msimeapi/IImePlugInDictDictionaryList"
+dev_langs:
+ - c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows

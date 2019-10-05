@@ -12,6 +12,8 @@ ms.keywords: IPMT interface [Microsoft TV Technologies],Initialize method, IPMT.
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.Initialize"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

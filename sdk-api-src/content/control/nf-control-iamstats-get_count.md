@@ -12,6 +12,8 @@ ms.keywords: IAMStats interface [DirectShow],get_Count method, IAMStats.get_Coun
 ms.topic: method
 f1_keywords: 
  - "control/IAMStats.get_Count"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

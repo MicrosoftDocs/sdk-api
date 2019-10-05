@@ -12,6 +12,8 @@ ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetPermissionSetProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

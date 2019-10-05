@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_BIOMETRIC_EXT_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

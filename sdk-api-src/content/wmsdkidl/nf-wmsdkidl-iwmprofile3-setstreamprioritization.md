@@ -12,6 +12,8 @@ ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritizatio
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile3.SetStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

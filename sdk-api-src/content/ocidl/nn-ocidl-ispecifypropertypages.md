@@ -12,6 +12,8 @@ ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpec
 ms.topic: interface
 f1_keywords: 
  - "ocidl/ISpecifyPropertyPages"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

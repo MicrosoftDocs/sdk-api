@@ -12,6 +12,8 @@ ms.keywords: FSCTL_REQUEST_OPLOCK, FSCTL_REQUEST_OPLOCK control, FSCTL_REQUEST_O
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_REQUEST_OPLOCK
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

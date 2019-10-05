@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSplatX, XMVectorSplatX, XMVectorSplatX method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSplatX"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

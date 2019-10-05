@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],get_Count method, IShellWin
 ms.topic: method
 f1_keywords: 
  - "exdisp/IShellWindows.get_Count"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

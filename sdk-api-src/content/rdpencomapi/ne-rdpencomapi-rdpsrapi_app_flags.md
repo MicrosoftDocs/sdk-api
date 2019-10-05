@@ -12,6 +12,8 @@ ms.keywords: APP_FLAG_PRIVILEGED, RDPSRAPI_APP_FLAGS, RDPSRAPI_APP_FLAGS enumera
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPSRAPI_APP_FLAGS"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

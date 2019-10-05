@@ -12,6 +12,8 @@ ms.keywords: D3D10_SIT_CBUFFER, D3D10_SIT_SAMPLER, D3D10_SIT_TBUFFER, D3D10_SIT_
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_SHADER_INPUT_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

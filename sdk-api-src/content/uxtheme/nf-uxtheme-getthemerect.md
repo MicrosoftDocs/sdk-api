@@ -12,6 +12,8 @@ ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.Ge
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeRect"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

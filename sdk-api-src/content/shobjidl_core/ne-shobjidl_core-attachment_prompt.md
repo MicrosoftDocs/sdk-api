@@ -12,6 +12,8 @@ ms.keywords: ATTACHMENT_PROMPT, ATTACHMENT_PROMPT enumeration [Windows Shell], A
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/ATTACHMENT_PROMPT"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

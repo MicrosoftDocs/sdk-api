@@ -12,6 +12,8 @@ ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureS
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.GetGestureStatus"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

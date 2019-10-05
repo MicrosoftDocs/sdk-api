@@ -12,6 +12,8 @@ ms.keywords: "*PEMRPOLYBEZIER16, *PEMRPOLYBEZIERTO16, *PEMRPOLYGON16, *PEMRPOLYL
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRPOLYLINE16"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

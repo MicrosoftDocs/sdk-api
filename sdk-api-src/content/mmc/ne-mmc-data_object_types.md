@@ -12,6 +12,8 @@ ms.keywords: CCT_RESULT, CCT_SCOPE, CCT_SNAPIN_MANAGER, CCT_UNINITIALIZED, DATA_
 ms.topic: enum
 f1_keywords: 
  - "mmc/DATA_OBJECT_TYPES"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

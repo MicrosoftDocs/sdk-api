@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task S
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetFlags"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],InsertItem method, IResultData.InsertIt
 ms.topic: method
 f1_keywords:
 - mmc/IResultData.InsertItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

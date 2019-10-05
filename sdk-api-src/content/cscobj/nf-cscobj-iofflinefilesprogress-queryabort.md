@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesProgress interface [Offline Files],QueryAbort method, 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesProgress.QueryAbort"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

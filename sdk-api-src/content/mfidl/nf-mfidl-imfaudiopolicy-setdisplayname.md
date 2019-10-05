@@ -12,6 +12,8 @@ ms.keywords: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8, IMFAudioPolicy interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.SetDisplayName"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CAL
 ms.topic: callback
 f1_keywords:
 - webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

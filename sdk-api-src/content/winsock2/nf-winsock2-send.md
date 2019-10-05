@@ -12,6 +12,8 @@ ms.keywords: MSG_DONTROUTE, MSG_OOB, _win32_send_2, send, send function [Winsock
 ms.topic: function
 f1_keywords: 
  - "winsock2/send"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

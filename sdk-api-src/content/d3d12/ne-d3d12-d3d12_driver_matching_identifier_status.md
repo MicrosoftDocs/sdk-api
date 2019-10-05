@@ -12,6 +12,8 @@ ms.keywords: D3D12_DRIVER_MATCHING_IDENTIFIER_COMPATIBLE_WITH_DEVICE, D3D12_DRIV
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

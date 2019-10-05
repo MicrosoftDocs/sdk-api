@@ -12,6 +12,8 @@ ms.keywords: ISearchQueryHelper interface [search],put_QueryMaxResults method, I
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchQueryHelper.put_QueryMaxResults"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQue
 ms.topic: function
 f1_keywords:
 - winevt/EvtQuery
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegisterTraceGuids, RegisterTraceGuids function [ETW], RegisterTrac
 ms.topic: function
 f1_keywords: 
  - "evntrace/RegisterTraceGuids"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

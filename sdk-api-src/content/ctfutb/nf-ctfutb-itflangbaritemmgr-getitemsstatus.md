@@ -12,6 +12,8 @@ ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.GetItemsStatus"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

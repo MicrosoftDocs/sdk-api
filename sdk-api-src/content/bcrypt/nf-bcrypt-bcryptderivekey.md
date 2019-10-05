@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYP
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDeriveKey"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DAT
 ms.topic: struct
 f1_keywords:
 - winternl/PEB_LDR_DATA
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

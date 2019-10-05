@@ -12,6 +12,8 @@ ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, 
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiBuildDriverInfoList
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

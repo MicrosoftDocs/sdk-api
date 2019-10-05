@@ -12,6 +12,8 @@ ms.keywords: D3D10_SVF_USED, D3D10_SVF_USERPACKED, D3D11_SVF_INTERFACE_PARAMETER
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SHADER_VARIABLE_FLAGS
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

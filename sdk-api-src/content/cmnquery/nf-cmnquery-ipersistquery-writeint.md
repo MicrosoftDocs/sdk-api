@@ -12,6 +12,8 @@ ms.keywords: IPersistQuery interface [Active Directory],WriteInt method, IPersis
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IPersistQuery.WriteInt"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

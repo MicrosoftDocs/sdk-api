@@ -12,6 +12,8 @@ ms.keywords: NPOpenEnum, NPOpenEnum function [Security], RESOURCETYPE_DISK, RESO
 ms.topic: function
 f1_keywords:
 - npapi/NPOpenEnum
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMasterVolumeLevelScalar, GetMasterVolumeLevelScalar method [Core
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.GetMasterVolumeLevelScalar"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

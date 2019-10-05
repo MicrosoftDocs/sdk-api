@@ -12,6 +12,8 @@ ms.keywords: 08a05ee8-b053-4480-b7f9-6d96e541ccd9, MFVideoTransferMatrix, MFVide
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoTransferMatrix
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibi
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ISelectionProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

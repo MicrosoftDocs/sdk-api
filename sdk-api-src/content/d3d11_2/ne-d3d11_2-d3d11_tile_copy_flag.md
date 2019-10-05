@@ -12,6 +12,8 @@ ms.keywords: D3D11_TILE_COPY_FLAG, D3D11_TILE_COPY_FLAG enumeration [Direct3D 11
 ms.topic: enum
 f1_keywords: 
  - "d3d11_2/D3D11_TILE_COPY_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

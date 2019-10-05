@@ -12,6 +12,8 @@ ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreate
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DCreateBlob"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

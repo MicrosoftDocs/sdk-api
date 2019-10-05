@@ -12,6 +12,8 @@ ms.keywords: Pager_ForwardMouse, Pager_ForwardMouse macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_ForwardMouse"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

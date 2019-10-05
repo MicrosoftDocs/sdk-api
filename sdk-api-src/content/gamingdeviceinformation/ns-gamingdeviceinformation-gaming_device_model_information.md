@@ -12,6 +12,8 @@ ms.keywords: GAMING_DEVICE_MODEL_INFORMATION, GAMING_DEVICE_MODEL_INFORMATION st
 ms.topic: struct
 f1_keywords: 
  - "gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION"
+dev_langs:
+ - c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixRotationZ, XMMatrixRotationZ, XMMatrixRotation
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixRotationZ"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

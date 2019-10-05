@@ -12,6 +12,8 @@ ms.keywords: WMT_ACQUIRE_LICENSE, WMT_BACKUPRESTORE_BEGIN, WMT_BACKUPRESTORE_CON
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_STATUS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

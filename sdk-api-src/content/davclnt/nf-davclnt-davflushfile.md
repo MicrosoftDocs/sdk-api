@@ -12,6 +12,8 @@ ms.keywords: DavFlushFile, DavFlushFile function [WebDAV], davclnt/DavFlushFile,
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavFlushFile"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

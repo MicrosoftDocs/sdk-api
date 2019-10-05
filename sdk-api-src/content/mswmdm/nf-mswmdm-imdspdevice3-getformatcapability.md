@@ -12,6 +12,8 @@ ms.keywords: GetFormatCapability, GetFormatCapability method [windows Media Devi
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice3.GetFormatCapability"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

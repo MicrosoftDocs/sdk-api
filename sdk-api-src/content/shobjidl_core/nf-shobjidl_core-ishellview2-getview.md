@@ -12,6 +12,8 @@ ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellView2.GetView"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

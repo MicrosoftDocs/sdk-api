@@ -12,6 +12,8 @@ ms.keywords: GetThisDeviceMetadata, GetThisDeviceMetadata method, GetThisDeviceM
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetThisDeviceMetadata
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

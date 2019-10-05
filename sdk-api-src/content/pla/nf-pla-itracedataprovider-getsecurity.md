@@ -12,6 +12,8 @@ ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITr
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.GetSecurity"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

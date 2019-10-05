@@ -12,6 +12,8 @@ ms.keywords: WS_URL, WS_URL structure [Web Services for Windows], webservices/WS
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_URL"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

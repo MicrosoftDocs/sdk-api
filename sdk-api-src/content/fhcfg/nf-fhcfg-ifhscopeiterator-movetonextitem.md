@@ -12,6 +12,8 @@ ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFh
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhScopeIterator.MoveToNextItem"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDiInstallDriverFiles, SetupDiInstallDriverFiles function [Devi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallDriverFiles
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

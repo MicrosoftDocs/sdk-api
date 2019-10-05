@@ -12,6 +12,8 @@ ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVER
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLEVERBATTRIB"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

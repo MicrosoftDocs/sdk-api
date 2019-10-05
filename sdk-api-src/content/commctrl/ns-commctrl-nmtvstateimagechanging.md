@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIM
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTVSTATEIMAGECHANGING
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

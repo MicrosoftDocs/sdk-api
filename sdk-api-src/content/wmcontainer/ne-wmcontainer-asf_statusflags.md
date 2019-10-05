@@ -12,6 +12,8 @@ ms.keywords: ASF_STATUSFLAGS, ASF_STATUSFLAGS enumeration [Media Foundation], AS
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/ASF_STATUSFLAGS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

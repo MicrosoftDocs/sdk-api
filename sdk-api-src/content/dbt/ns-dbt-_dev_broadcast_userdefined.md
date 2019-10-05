@@ -12,6 +12,8 @@ ms.keywords: _DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _
 ms.topic: struct
 f1_keywords:
 - dbt/_DEV_BROADCAST_USERDEFINED
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

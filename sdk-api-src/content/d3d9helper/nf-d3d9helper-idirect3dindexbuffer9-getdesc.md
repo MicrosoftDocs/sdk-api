@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],I
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DIndexBuffer9.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

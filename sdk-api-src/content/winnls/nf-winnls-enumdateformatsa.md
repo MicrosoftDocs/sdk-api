@@ -12,6 +12,8 @@ ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumDateFormats"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

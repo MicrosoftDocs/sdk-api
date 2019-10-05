@@ -12,6 +12,8 @@ ms.keywords: MgmLocalLeaveCallback, PMGM_LOCAL_LEAVE_CALLBACK, PMGM_LOCAL_LEAVE_
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_LOCAL_LEAVE_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

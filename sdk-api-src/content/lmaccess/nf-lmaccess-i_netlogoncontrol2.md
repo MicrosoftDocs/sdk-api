@@ -12,6 +12,8 @@ ms.keywords: I_NetLogonControl2, I_NetLogonControl2 function [Windows API], NETL
 ms.topic: function
 f1_keywords:
 - lmaccess/I_NetLogonControl2
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

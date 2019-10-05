@@ -12,6 +12,8 @@ ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndUseFrames"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

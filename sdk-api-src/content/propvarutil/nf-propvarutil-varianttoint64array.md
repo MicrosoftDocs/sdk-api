@@ -12,6 +12,8 @@ ms.keywords: VariantToInt64Array, VariantToInt64Array function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToInt64Array"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

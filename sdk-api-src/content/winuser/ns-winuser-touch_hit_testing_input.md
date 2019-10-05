@@ -12,6 +12,8 @@ ms.keywords: "*PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TE
 ms.topic: struct
 f1_keywords: 
  - "winuser/TOUCH_HIT_TESTING_INPUT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

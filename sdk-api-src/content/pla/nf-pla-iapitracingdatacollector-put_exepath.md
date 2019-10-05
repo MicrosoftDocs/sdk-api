@@ -12,6 +12,8 @@ ms.keywords: ExePath property [PLA], ExePath property [PLA],IApiTracingDataColle
 ms.topic: method
 f1_keywords: 
  - "pla/IApiTracingDataCollector.ExePath"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

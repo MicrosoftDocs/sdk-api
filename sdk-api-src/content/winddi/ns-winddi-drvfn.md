@@ -12,6 +12,8 @@ ms.keywords: "*PDRVFN, DRVFN, DRVFN structure [Display Devices], PDRVFN, PDRVFN 
 ms.topic: struct
 f1_keywords: 
  - "winddi/DRVFN"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

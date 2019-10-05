@@ -12,6 +12,8 @@ ms.keywords: PWLX_ASSIGN_SHELL_PROTECTION, PWLX_ASSIGN_SHELL_PROTECTION callback
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxAssignShellProtection"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

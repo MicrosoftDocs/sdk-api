@@ -12,6 +12,8 @@ ms.keywords: IFolderAction interface [PLA],Size property, IFolderAction.Size, IF
 ms.topic: method
 f1_keywords: 
  - "pla/IFolderAction.Size"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

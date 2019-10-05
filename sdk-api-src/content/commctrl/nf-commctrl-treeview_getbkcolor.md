@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetBkColor, TreeView_GetBkColor macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetBkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

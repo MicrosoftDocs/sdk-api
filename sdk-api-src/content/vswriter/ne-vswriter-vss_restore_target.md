@@ -12,6 +12,8 @@ ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_AL
 ms.topic: enum
 f1_keywords: 
  - "vswriter/VSS_RESTORE_TARGET"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

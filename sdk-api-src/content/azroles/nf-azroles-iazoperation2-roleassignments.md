@@ -12,6 +12,8 @@ ms.keywords: IAzOperation2 interface [Security],RoleAssignments method, IAzOpera
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzOperation2.RoleAssignments"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

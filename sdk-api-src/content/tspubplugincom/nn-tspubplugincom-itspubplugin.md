@@ -12,6 +12,8 @@ ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], Its
 ms.topic: interface
 f1_keywords: 
  - "tspubplugincom/ItsPubPlugin"
+dev_langs:
+ - c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [M
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFDXGIDeviceManagerSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAU
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

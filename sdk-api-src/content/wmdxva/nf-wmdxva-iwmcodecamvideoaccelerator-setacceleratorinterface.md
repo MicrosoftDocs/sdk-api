@@ -12,6 +12,8 @@ ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetAcce
 ms.topic: method
 f1_keywords: 
  - "wmdxva/IWMCodecAMVideoAccelerator.SetAcceleratorInterface"
+dev_langs:
+ - c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

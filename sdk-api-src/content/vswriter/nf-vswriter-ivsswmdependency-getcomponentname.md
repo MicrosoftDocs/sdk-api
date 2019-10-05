@@ -12,6 +12,8 @@ ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName m
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMDependency.GetComponentName"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

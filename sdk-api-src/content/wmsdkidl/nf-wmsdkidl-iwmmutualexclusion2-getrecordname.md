@@ -12,6 +12,8 @@ ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetReco
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMMutualExclusion2.GetRecordName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

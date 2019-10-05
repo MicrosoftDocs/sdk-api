@@ -12,6 +12,8 @@ ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPo
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMapping.EditInternalPort"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

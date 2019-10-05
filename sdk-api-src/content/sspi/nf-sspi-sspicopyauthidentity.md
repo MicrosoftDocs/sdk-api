@@ -12,6 +12,8 @@ ms.keywords: SspiCopyAuthIdentity, SspiCopyAuthIdentity function [Security], sec
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiCopyAuthIdentity"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

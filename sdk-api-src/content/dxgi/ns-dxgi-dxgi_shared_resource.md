@@ -12,6 +12,8 @@ ms.keywords: DXGI_SHARED_RESOURCE, DXGI_SHARED_RESOURCE structure [DXGI], aa3179
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_SHARED_RESOURCE"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_REPDEL_ASYNCHRONOUS_OPERATION, DS_REPDEL_IGNORE_ERRORS, DS_REPDE
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsReplicaDel"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

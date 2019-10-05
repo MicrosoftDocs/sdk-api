@@ -12,6 +12,8 @@ ms.keywords: AddMutualExclusion, AddMutualExclusion method [Media Foundation], A
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.AddMutualExclusion"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

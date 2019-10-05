@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaCollection interface [Windows Media Player],add method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMediaCollection.add"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

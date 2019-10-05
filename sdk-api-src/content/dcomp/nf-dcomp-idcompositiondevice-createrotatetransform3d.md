@@ -12,6 +12,8 @@ ms.keywords: CreateRotateTransform3D, CreateRotateTransform3D method [DirectComp
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice.CreateRotateTransform3D"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

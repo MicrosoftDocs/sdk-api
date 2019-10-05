@@ -12,6 +12,8 @@ ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMax prope
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPin.PinLengthMax"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

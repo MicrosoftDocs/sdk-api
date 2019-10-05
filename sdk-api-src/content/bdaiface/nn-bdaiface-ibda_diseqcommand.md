@@ -12,6 +12,8 @@ ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_DiseqCommand"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

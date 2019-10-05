@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_RECORD, *PDNS_RECORDA, DNS_RECORD, DNS_RECORD structure [DNS
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_RECORD"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

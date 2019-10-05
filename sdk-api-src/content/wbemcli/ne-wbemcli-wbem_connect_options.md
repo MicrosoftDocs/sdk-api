@@ -12,6 +12,8 @@ ms.keywords: WBEM_CONNECT_OPTIONS, WBEM_CONNECT_OPTIONS enumeration [Windows Man
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_CONNECT_OPTIONS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

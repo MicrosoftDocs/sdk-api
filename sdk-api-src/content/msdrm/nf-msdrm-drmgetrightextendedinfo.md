@@ -12,6 +12,8 @@ ms.keywords: DRMGetRightExtendedInfo, DRMGetRightExtendedInfo function [Active D
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetRightExtendedInfo"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

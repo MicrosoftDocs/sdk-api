@@ -12,6 +12,8 @@ ms.keywords: 756bea1e-80cb-6163-33a9-bbedb02e57da, ID3D10DepthStencilState, ID3D
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10DepthStencilState"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

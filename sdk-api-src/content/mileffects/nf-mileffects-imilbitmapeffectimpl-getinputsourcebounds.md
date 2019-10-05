@@ -12,6 +12,8 @@ ms.keywords: GetInputSourceBounds, GetInputSourceBounds method [WPF Bitmap Effec
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectImpl.GetInputSourceBounds"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

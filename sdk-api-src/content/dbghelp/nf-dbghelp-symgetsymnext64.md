@@ -12,6 +12,8 @@ ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNe
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSymNext64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

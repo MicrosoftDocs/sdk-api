@@ -12,6 +12,8 @@ ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_i
 ms.topic: struct
 f1_keywords: 
  - "rpcasync/RPC_EE_INFO_PARAM"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

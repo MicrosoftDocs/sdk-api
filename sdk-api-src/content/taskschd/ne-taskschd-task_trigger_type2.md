@@ -12,6 +12,8 @@ ms.keywords: TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRI
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_TRIGGER_TYPE2"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

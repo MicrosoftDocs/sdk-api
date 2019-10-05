@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],QueryPlexes method, IVdsLun.QueryPlexes, IV
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.QueryPlexes"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSizeOfDataModule, GetSizeOfDataModule method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_CDT.GetSizeOfDataModule"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

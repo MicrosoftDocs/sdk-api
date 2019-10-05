@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Act
 ms.topic: interface
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjPrimarySite"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

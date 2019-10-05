@@ -12,6 +12,8 @@ ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedIt
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISelectionProvider2.FirstSelectedItem"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

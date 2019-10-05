@@ -12,6 +12,8 @@ ms.keywords: CurrentView property [Windows Accessibility], CurrentView property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IMultipleViewProvider.CurrentView"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

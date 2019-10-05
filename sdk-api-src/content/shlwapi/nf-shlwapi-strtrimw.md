@@ -12,6 +12,8 @@ ms.keywords: StrTrim, StrTrim function [Windows Shell], StrTrimA, StrTrimW, _win
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrTrim"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

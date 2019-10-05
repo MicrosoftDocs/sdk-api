@@ -12,6 +12,8 @@ ms.keywords: CInstance interface [Windows Management Instrumentation],GetDOUBLE 
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetDOUBLE"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

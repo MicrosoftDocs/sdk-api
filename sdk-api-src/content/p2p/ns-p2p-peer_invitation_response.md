@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE, PCPEER_INV
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_INVITATION_RESPONSE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

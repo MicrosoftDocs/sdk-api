@@ -12,6 +12,8 @@ ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_lda
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_search_ext_s"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

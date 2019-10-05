@@ -12,6 +12,8 @@ ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.SelectTrack"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

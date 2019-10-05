@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetDevConfig"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

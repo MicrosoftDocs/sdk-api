@@ -12,6 +12,8 @@ ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IA
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAccelerator.ReleaseBuffer"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

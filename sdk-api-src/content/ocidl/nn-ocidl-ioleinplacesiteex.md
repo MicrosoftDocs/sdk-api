@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], IOleInPlaceSi
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleInPlaceSiteEx"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByTo
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditComputeEffectivePolicyByToken
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

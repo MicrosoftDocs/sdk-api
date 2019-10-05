@@ -12,6 +12,8 @@ ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapa
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IPlayToControlWithCapabilities.GetCapabilities"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

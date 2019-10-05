@@ -12,6 +12,8 @@ ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Wind
 ms.topic: function
 f1_keywords: 
  - "werapi/WerUnregisterAppLocalDump"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

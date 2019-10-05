@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.GetProperties"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

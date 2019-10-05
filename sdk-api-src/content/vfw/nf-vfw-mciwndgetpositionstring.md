@@ -12,6 +12,8 @@ ms.keywords: MCIWndGetPositionString, MCIWndGetPositionString macro [Windows Mul
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndGetPositionString"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

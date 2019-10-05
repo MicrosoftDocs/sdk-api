@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO, FILE_IO_
 ms.topic: struct
 f1_keywords:
 - winbase/FILE_IO_PRIORITY_HINT_INFO
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

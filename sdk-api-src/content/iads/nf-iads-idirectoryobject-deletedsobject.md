@@ -12,6 +12,8 @@ ms.keywords: DeleteDSObject, DeleteDSObject method [ADSI], DeleteDSObject method
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectoryObject.DeleteDSObject"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

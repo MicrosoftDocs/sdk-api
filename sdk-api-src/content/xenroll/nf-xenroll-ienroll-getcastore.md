@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],getCAStore method, IEnroll.getCAStore,
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.getCAStore"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enab
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_Enable"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STAT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_REQUEST_CHANNEL_BIND_STATUS
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

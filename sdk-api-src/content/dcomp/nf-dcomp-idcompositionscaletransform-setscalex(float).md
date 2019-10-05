@@ -12,6 +12,8 @@ ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleX
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionScaleTransform.SetScaleX"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

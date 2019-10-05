@@ -12,6 +12,8 @@ ms.keywords: 9122c231-edb3-12f1-7535-16f793aee59d, ID3D10EffectPass interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectPass.IsValid"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

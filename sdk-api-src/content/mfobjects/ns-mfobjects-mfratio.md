@@ -12,6 +12,8 @@ ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [M
 ms.topic: struct
 f1_keywords: 
  - "mfobjects/MFRatio"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

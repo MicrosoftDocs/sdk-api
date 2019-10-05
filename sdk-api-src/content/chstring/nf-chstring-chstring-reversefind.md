@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.ReverseFind"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount, GetCount method [Me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.GetCount"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

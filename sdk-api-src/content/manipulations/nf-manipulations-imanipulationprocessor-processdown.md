@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDown method
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.ProcessDown"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

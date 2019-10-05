@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [MMC], GetProperty method [MMC],INo
 ms.topic: method
 f1_keywords: 
  - "mmc/INodeProperties.GetProperty"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

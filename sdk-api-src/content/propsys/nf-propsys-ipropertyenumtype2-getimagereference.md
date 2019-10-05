@@ -12,6 +12,8 @@ ms.keywords: GetImageReference, GetImageReference method [Windows Properties], G
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType2.GetImageReference"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

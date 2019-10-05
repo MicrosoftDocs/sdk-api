@@ -12,6 +12,8 @@ ms.keywords: IPSEC_VIRTUAL_IF_TUNNEL_INFO0, IPSEC_VIRTUAL_IF_TUNNEL_INFO0 struct
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: Ipsectypes.h
 req.target-type: Windows

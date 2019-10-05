@@ -12,6 +12,8 @@ ms.keywords: GetMemberProps, GetMemberProps method [Windows Runtime], GetMemberP
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetMemberProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

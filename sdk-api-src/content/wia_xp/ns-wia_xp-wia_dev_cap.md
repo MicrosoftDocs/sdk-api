@@ -12,6 +12,8 @@ ms.keywords: "*PWIA_DEV_CAP, *PWIA_EVENT_HANDLER, PWIA_DEV_CAP, PWIA_DEV_CAP str
 ms.topic: struct
 f1_keywords: 
  - "wia_xp/WIA_DEV_CAP"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

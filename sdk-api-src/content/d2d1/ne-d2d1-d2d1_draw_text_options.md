@@ -12,6 +12,8 @@ ms.keywords: D2D1_DRAW_TEXT_OPTIONS, D2D1_DRAW_TEXT_OPTIONS enumeration [Direct2
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_DRAW_TEXT_OPTIONS"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ATM_ADDRESS, ATM_ADDRESS structure [Winsock], ATM_CALLED_PARTY_NUMB
 ms.topic: struct
 f1_keywords: 
  - "ws2atm/ATM_ADDRESS"
+dev_langs:
+ - c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows

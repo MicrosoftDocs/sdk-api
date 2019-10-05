@@ -12,6 +12,8 @@ ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API]
 ms.topic: function
 f1_keywords: 
  - "icwcfg/CheckConnectionWizard"
+dev_langs:
+ - c++
 req.header: icwcfg.h
 req.include-header: 
 req.target-type: Windows

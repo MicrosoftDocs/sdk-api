@@ -12,6 +12,8 @@ ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions],
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcUri.GetRelativeUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain3 interface [DXGI],SetColorSpace1 method, IDXGISwapCh
 ms.topic: method
 f1_keywords: 
  - "dxgi1_4/IDXGISwapChain3.SetColorSpace1"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

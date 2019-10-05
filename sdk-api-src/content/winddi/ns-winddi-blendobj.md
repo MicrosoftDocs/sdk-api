@@ -12,6 +12,8 @@ ms.keywords: "*PBLENDOBJ, BLENDOBJ, BLENDOBJ structure [Display Devices], PBLEND
 ms.topic: struct
 f1_keywords: 
  - "winddi/BLENDOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

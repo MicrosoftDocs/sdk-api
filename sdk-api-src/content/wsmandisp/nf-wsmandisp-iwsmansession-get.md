@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Re
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Get"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],Name property, IDataCollectorSet.
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.Name"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

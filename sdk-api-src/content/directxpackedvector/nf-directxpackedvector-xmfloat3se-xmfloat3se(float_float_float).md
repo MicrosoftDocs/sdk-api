@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMF
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMFLOAT3SE.XMFLOAT3SE"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

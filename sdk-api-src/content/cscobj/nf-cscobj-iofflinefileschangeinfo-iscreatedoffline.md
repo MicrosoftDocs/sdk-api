@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesChangeInfo.IsCreatedOffline"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

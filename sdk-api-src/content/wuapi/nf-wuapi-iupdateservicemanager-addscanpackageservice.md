@@ -12,6 +12,8 @@ ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceManager.AddScanPackageService"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

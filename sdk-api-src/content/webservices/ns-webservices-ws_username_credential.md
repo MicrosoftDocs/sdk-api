@@ -12,6 +12,8 @@ ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Servi
 ms.topic: struct
 f1_keywords:
 - webservices/WS_USERNAME_CREDENTIAL
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

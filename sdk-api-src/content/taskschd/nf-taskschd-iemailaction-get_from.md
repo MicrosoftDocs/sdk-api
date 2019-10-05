@@ -12,6 +12,8 @@ ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEma
 ms.topic: method
 f1_keywords: 
  - "taskschd/IEmailAction.From"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

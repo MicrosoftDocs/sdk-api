@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [DirectShow], Abort method [DirectShow],IGraphB
 ms.topic: method
 f1_keywords: 
  - "strmif/IGraphBuilder.Abort"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

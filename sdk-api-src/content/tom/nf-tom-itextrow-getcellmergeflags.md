@@ -12,6 +12,8 @@ ms.keywords: GetCellMergeFlags, GetCellMergeFlags method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellMergeFlags"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

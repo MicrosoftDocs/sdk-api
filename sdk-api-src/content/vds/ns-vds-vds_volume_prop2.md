@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2 structure
 ms.topic: struct
 f1_keywords:
 - vds/VDS_VOLUME_PROP2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

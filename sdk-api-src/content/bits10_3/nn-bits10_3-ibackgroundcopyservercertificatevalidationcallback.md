@@ -11,6 +11,8 @@ ms.date: 05/09/2019
 ms.topic: interface
 f1_keywords: 
  - "bits10_3/IBackgroundCopyServerCertificateValidationCallback"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

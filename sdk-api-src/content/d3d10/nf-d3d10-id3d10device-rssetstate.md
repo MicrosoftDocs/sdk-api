@@ -12,6 +12,8 @@ ms.keywords: ID3D10Device interface [Direct3D 10],RSSetState method, ID3D10Devic
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.RSSetState"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

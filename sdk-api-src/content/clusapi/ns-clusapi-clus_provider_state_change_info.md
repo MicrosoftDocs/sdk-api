@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

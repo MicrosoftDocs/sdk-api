@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuper
 ms.topic: interface
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

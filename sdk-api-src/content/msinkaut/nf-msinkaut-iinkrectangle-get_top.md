@@ -12,6 +12,8 @@ ms.keywords: IInkRectangle interface [Tablet PC],Top property, IInkRectangle.Top
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRectangle.Top"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

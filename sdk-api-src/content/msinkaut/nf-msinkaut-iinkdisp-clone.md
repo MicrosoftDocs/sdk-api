@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDisp 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.Clone"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

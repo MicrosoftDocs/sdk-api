@@ -12,6 +12,8 @@ ms.keywords: IEnumWorkItems interface [Task Scheduler],Skip method, IEnumWorkIte
 ms.topic: method
 f1_keywords: 
  - "mstask/IEnumWorkItems.Skip"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

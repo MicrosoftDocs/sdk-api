@@ -12,6 +12,8 @@ ms.keywords: IEventProperty interface [COM],Value property, IEventProperty.Value
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventProperty.Value"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_PADDING_MODE, DML_PADDING_MODE enumeration, DML_PADDING_MODE_CO
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_PADDING_MODE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

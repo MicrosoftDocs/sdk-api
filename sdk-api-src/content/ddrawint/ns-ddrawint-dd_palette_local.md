@@ -12,6 +12,8 @@ ms.keywords: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [
 ms.topic: struct
 f1_keywords: 
  - "ddrawint/DD_PALETTE_LOCAL"
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

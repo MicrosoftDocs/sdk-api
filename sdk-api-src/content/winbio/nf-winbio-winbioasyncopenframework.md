@@ -12,6 +12,8 @@ ms.keywords: WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MESSAGE, WinBioAs
 ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncOpenFramework
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

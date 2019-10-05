@@ -12,6 +12,8 @@ ms.keywords: OPC_CACHE_ON_ACCESS, OPC_READ_DEFAULT, OPC_READ_FLAGS, OPC_READ_FLA
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_READ_FLAGS"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

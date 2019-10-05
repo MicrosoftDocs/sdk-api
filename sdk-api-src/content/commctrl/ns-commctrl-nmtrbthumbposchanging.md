@@ -12,6 +12,8 @@ ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Con
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTRBTHUMBPOSCHANGING
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

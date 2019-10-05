@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],GenKeyFlags property, GenKeyFlags propert
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.GenKeyFlags"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

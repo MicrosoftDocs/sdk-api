@@ -12,6 +12,8 @@ ms.keywords: FWP_BYTE_ARRAY16_TYPE, FWP_BYTE_ARRAY6_TYPE, FWP_BYTE_BLOB_TYPE, FW
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_DATA_TYPE"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

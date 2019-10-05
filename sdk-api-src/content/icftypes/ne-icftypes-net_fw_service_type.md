@@ -12,6 +12,8 @@ ms.keywords: NET_FW_SERVICE_FILE_AND_PRINT, NET_FW_SERVICE_NONE, NET_FW_SERVICE_
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_SERVICE_TYPE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

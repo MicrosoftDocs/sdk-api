@@ -12,6 +12,8 @@ ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface 
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsLunIscsi"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

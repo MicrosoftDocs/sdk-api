@@ -12,6 +12,8 @@ ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface
 ms.topic: function
 f1_keywords: 
  - "traffic/TcSetInterface"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

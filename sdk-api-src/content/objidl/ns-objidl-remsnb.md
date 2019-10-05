@@ -12,6 +12,8 @@ ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB 
 ms.topic: struct
 f1_keywords: 
  - "objidl/RemSNB"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

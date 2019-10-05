@@ -12,6 +12,8 @@ ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animat
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager2.AbandonAllStoryboards"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

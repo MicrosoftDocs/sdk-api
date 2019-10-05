@@ -12,6 +12,8 @@ ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.FunctionName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

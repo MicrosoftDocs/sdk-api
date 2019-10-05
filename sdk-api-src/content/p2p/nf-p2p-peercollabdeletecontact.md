@@ -12,6 +12,8 @@ ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Net
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerCollabDeleteContact"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

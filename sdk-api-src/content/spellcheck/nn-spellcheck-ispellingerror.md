@@ -12,6 +12,8 @@ ms.keywords: ISpellingError, ISpellingError interface [Internationalization for 
 ms.topic: interface
 f1_keywords: 
  - "spellcheck/ISpellingError"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

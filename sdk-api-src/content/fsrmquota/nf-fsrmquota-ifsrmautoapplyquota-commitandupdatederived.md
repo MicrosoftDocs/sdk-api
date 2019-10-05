@@ -12,6 +12,8 @@ ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server 
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

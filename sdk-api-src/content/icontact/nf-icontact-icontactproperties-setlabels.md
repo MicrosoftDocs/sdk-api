@@ -12,6 +12,8 @@ ms.keywords: IContactProperties interface [Windows Contacts],SetLabels method, I
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.SetLabels"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2Data interface [IMAPI],get_ClientName method, IDiscForm
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2Data.get_ClientName"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

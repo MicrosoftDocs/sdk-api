@@ -12,6 +12,8 @@ ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateC
 ms.topic: function
 f1_keywords: 
  - "ntquery/LocateCatalogs"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinUsb_SetPowerPolicy, WinUsb_SetPowerPolicy function [Buses], buse
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_SetPowerPolicy"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

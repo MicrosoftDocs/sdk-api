@@ -12,6 +12,8 @@ ms.keywords: CreateEnvironmentObject, CreateEnvironmentObject method [Remote Des
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.CreateEnvironmentObject"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

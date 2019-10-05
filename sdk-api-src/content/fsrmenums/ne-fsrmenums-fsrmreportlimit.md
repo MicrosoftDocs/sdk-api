@@ -12,6 +12,8 @@ ms.keywords: FsrmReportLimit, FsrmReportLimit enumeration [File Server Resource 
 ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmReportLimit
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

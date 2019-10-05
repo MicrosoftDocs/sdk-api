@@ -12,6 +12,8 @@ ms.keywords: GetStride, GetStride method [Windows Imaging Component], GetStride 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapLock.GetStride"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

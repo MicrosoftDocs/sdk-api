@@ -12,6 +12,8 @@ ms.keywords: InitializeProcThreadAttributeList, InitializeProcThreadAttributeLis
 ms.topic: function
 f1_keywords:
 - processthreadsapi/InitializeProcThreadAttributeList
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

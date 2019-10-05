@@ -12,6 +12,8 @@ ms.keywords: MBN_PIN_STATE, MBN_PIN_STATE enumeration [Microsoft Broadband Netwo
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_PIN_STATE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink2, IMSVidStreamBufferSink2 interface [Microso
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

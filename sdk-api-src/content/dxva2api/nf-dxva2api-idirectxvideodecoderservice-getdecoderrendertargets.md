@@ -12,6 +12,8 @@ ms.keywords: GetDecoderRenderTargets, GetDecoderRenderTargets method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoderService.GetDecoderRenderTargets"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFeedClockVector, IFeedClockVector interface [Windows Sync], IFeedC
 ms.topic: interface
 f1_keywords: 
  - "winsync/IFeedClockVector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

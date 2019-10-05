@@ -12,6 +12,8 @@ ms.keywords: EnumFileProperties, EnumFileProperties method [File Server Resource
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassificationManager.EnumFileProperties
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

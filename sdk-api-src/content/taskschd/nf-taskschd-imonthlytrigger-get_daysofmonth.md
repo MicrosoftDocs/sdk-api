@@ -12,6 +12,8 @@ ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task S
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMonthlyTrigger.DaysOfMonth"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

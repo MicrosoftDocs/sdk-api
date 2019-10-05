@@ -12,6 +12,8 @@ ms.keywords: IsWindowEnabled, IsWindowEnabled function [Keyboard and Mouse Input
 ms.topic: function
 f1_keywords: 
  - "winuser/IsWindowEnabled"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

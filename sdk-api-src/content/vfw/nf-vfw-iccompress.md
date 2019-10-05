@@ -12,6 +12,8 @@ ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress functio
 ms.topic: function
 f1_keywords: 
  - "vfw/ICCompress"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

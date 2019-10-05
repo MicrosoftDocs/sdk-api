@@ -12,6 +12,8 @@ ms.keywords: IFolderViewOptions interface [Windows Shell],SetFolderViewOptions m
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFolderViewOptions.SetFolderViewOptions"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

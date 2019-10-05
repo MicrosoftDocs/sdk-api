@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerIP property, IRDPSRA
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITcpConnectionInfo.PeerIP"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

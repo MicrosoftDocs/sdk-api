@@ -12,6 +12,8 @@ ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, I
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView2.IsMoveInSameFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

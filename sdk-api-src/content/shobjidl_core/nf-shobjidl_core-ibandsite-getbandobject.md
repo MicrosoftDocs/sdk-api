@@ -12,6 +12,8 @@ ms.keywords: GetBandObject, GetBandObject method [Windows Shell], GetBandObject 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IBandSite.GetBandObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE struc
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/LSA_DISPATCH_TABLE"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

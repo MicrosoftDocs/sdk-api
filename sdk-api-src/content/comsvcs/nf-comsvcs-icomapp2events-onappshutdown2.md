@@ -12,6 +12,8 @@ ms.keywords: IComApp2Events interface [COM+],OnAppShutdown2 method, IComApp2Even
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComApp2Events.OnAppShutdown2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

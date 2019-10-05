@@ -12,6 +12,8 @@ ms.keywords: INamespaceWalk interface [Windows Shell],Walk method, INamespaceWal
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INamespaceWalk.Walk"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

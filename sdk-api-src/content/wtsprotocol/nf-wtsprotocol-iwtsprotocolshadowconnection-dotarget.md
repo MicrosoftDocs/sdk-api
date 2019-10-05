@@ -12,6 +12,8 @@ ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget metho
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolShadowConnection.DoTarget"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

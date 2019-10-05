@@ -12,6 +12,8 @@ ms.keywords: K32QueryWorkingSetEx, QueryWorkingSetEx, QueryWorkingSetEx function
 ms.topic: function
 f1_keywords:
 - psapi/QueryWorkingSetEx
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

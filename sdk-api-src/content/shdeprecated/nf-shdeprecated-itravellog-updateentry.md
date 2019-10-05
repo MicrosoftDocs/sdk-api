@@ -12,6 +12,8 @@ ms.keywords: FALSE, ITravelLog interface [Windows Shell],UpdateEntry method, ITr
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.UpdateEntry"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

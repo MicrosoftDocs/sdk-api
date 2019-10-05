@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],ReceiptAddress property, IFaxD
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.ReceiptAddress"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

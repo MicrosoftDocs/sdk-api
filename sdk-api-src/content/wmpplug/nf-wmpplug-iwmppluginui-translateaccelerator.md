@@ -12,6 +12,8 @@ ms.keywords: IWMPPluginUI interface [Windows Media Player],TranslateAccelerator 
 ms.topic: method
 f1_keywords: 
  - "wmpplug/IWMPPluginUI.TranslateAccelerator"
+dev_langs:
+ - c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

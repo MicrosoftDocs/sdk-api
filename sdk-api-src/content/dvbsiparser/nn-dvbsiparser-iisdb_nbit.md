@@ -12,6 +12,8 @@ ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], IISDB
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

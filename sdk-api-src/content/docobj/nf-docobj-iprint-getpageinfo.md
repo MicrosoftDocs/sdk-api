@@ -12,6 +12,8 @@ ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPr
 ms.topic: method
 f1_keywords: 
  - "docobj/IPrint.GetPageInfo"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

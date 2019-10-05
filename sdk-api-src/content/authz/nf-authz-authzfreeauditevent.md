@@ -12,6 +12,8 @@ ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win3
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzFreeAuditEvent"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

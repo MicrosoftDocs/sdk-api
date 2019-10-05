@@ -12,6 +12,8 @@ ms.keywords: "*lpMapiFileDescW, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDescW, MapiFi
 ms.topic: struct
 f1_keywords: 
  - "mapi/MapiFileDescW"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

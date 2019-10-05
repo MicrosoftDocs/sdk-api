@@ -12,6 +12,8 @@ ms.keywords: WSD_THIS_DEVICE_METADATA, WSD_THIS_DEVICE_METADATA structure, ncd.w
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_THIS_DEVICE_METADATA
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

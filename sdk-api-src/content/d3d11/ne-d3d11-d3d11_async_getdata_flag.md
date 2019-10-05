@@ -12,6 +12,8 @@ ms.keywords: D3D11_ASYNC_GETDATA_DONOTFLUSH, D3D11_ASYNC_GETDATA_FLAG, D3D11_ASY
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_ASYNC_GETDATA_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

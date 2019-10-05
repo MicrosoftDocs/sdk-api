@@ -12,6 +12,8 @@ ms.keywords: PT_Default, PT_Handwriting, PT_Inactive, PT_Keyboard, PanelType, Pa
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/PanelType"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

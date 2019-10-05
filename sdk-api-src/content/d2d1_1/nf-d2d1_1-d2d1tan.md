@@ -12,6 +12,8 @@ ms.keywords: D2D1Tan, D2D1Tan function [Direct2D], d2d1_1/D2D1Tan, direct2d.d2d1
 ms.topic: function
 f1_keywords: 
  - "d2d1_1/D2D1Tan"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

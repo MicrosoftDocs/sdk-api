@@ -12,6 +12,8 @@ ms.keywords: GetNibShape, GetNibShape method [Direct2D], GetNibShape method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1InkStyle.GetNibShape"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

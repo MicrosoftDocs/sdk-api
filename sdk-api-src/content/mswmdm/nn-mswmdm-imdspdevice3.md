@@ -12,6 +12,8 @@ ms.keywords: IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager]
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IMDSPDevice3"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service]
 ms.topic: function
 f1_keywords: 
  - "fxsutility/CanSendToFaxRecipient"
+dev_langs:
+ - c++
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows

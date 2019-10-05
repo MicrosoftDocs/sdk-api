@@ -12,6 +12,8 @@ ms.keywords: GetCORSystemDirectory, GetCORSystemDirectory method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx.GetCORSystemDirectory"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

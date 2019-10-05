@@ -12,6 +12,8 @@ ms.keywords: IFILTER_INIT, IFILTER_INIT enumeration [Indexing Service], IFILTER_
 ms.topic: enum
 f1_keywords: 
  - "filter/IFILTER_INIT"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

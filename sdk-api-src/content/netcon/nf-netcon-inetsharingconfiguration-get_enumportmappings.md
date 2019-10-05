@@ -12,6 +12,8 @@ ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_EnumPortMappings m
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.get_EnumPortMappings"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

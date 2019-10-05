@@ -12,6 +12,8 @@ ms.keywords: '*PPACKET_DESCRIPTION, 6823f2c6-2c99-4b9a-8208-041fc1f7bf82, PACKET
 ms.topic: struct
 f1_keywords:
 - tpcshrd/PACKET_DESCRIPTION
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: 
 req.target-type: Windows

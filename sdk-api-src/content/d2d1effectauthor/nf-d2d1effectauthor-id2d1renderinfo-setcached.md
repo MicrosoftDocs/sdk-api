@@ -12,6 +12,8 @@ ms.keywords: ID2D1RenderInfo interface [Direct2D],SetCached method, ID2D1RenderI
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1RenderInfo.SetCached"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

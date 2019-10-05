@@ -12,6 +12,8 @@ ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_Cop
 ms.topic: function
 f1_keywords: 
  - "winuser/CopyIcon"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

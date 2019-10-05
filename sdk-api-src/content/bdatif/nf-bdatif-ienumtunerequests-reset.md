@@ -12,6 +12,8 @@ ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Reset metho
 ms.topic: method
 f1_keywords: 
  - "bdatif/IEnumTuneRequests.Reset"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

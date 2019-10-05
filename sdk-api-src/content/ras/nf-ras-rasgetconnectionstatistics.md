@@ -12,6 +12,8 @@ ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RA
 ms.topic: function
 f1_keywords:
 - ras/RasGetConnectionStatistics
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

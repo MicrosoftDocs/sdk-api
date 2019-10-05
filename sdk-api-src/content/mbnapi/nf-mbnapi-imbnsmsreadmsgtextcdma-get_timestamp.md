@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Tim
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgTextCdma.Timestamp"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

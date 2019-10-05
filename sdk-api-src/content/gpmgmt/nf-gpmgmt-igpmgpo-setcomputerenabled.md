@@ -12,6 +12,8 @@ ms.keywords: GPMGPO class [GPMC],SetComputerEnabled method, IGPMGPO interface [G
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.SetComputerEnabled"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

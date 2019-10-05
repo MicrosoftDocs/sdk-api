@@ -12,6 +12,8 @@ ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Upd
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IInstallationBehavior"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

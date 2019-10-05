@@ -12,6 +12,8 @@ ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoPr
 ms.topic: interface
 f1_keywords: 
  - "evr9/IMFVideoProcessor"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

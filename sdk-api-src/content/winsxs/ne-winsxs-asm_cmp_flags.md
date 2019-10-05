@@ -12,6 +12,8 @@ ms.keywords: ASM_CMPF_ALL, ASM_CMPF_BUILD_NUMBER, ASM_CMPF_CULTURE, ASM_CMPF_CUS
 ms.topic: enum
 f1_keywords: 
  - "winsxs/ASM_CMP_FLAGS"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

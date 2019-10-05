@@ -12,6 +12,8 @@ ms.keywords: GetCandidateNum, GetCandidateNum method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfCandidateList.GetCandidateNum"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots meth
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.EnumerateRoots"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

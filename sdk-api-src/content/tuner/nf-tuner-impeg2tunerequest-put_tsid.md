@@ -12,6 +12,8 @@ ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_TSID me
 ms.topic: method
 f1_keywords: 
  - "tuner/IMPEG2TuneRequest.put_TSID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

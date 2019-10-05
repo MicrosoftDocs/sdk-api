@@ -12,6 +12,8 @@ ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorCollection.Remove"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

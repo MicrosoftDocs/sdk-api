@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],GetPixel method, Bitmap.GetPixel, Bitmap::GetPi
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.GetPixel"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

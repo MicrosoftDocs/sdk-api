@@ -12,6 +12,8 @@ ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGet
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetMarshalSizeMax"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

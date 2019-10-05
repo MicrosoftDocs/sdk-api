@@ -12,6 +12,8 @@ ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], aviriff/AVISUP
 ms.topic: struct
 f1_keywords: 
  - "aviriff/AVISUPERINDEX"
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetStatus
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

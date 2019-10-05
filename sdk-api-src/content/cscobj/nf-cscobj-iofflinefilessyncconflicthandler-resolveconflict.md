@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveC
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncConflictHandler.ResolveConflict"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

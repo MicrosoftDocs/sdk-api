@@ -12,6 +12,8 @@ ms.keywords: GetNextLink, GetNextLink method [COM], GetNextLink method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.GetNextLink"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

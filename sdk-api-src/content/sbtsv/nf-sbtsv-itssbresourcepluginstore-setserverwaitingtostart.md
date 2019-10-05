@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetSer
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.SetServerWaitingToStart"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

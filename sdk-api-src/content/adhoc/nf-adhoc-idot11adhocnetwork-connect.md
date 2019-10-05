@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],I
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.Connect"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

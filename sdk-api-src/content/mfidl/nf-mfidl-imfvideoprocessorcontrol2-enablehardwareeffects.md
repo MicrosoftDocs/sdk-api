@@ -12,6 +12,8 @@ ms.keywords: EnableHardwareEffects, EnableHardwareEffects method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoProcessorControl2.EnableHardwareEffects"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

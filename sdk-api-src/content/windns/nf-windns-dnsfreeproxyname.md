@@ -12,6 +12,8 @@ ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxy
 ms.topic: function
 f1_keywords: 
  - "windns/DnsFreeProxyName"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

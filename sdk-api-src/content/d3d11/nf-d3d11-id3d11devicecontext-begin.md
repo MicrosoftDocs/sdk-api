@@ -12,6 +12,8 @@ ms.keywords: Begin, Begin method [Direct3D 11], Begin method [Direct3D 11],ID3D1
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.Begin"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

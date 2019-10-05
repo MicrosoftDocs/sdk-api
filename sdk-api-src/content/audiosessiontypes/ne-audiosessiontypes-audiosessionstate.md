@@ -12,6 +12,8 @@ ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeratio
 ms.topic: enum
 f1_keywords: 
  - "audiosessiontypes/AudioSessionState"
+dev_langs:
+ - c++
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows

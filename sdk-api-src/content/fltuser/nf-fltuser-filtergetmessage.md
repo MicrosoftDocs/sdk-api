@@ -12,6 +12,8 @@ ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File Syste
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterGetMessage"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

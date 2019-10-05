@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STO
 ms.topic: struct
 f1_keywords: 
  - "winbio_adapter/WINBIO_STORAGE_INTERFACE"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

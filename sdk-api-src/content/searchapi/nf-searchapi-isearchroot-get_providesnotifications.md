@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],get_ProvidesNotifications method, IS
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.get_ProvidesNotifications"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

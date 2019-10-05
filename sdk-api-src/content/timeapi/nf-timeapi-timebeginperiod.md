@@ -12,6 +12,8 @@ ms.keywords: "_win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timeb
 ms.topic: function
 f1_keywords: 
  - "timeapi/timeBeginPeriod"
+dev_langs:
+ - c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

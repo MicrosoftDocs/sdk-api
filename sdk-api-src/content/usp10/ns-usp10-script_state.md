@@ -12,6 +12,8 @@ ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization f
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_STATE"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSDCreateDiscoveryPublisher, WSDCreateDiscoveryPublisher function, 
 ms.topic: function
 f1_keywords: 
  - "wsddisco/WSDCreateDiscoveryPublisher"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MMCN_ACTIVATE, MMCN_ADD_IMAGES, MMCN_BTN_CLICK, MMCN_CANPASTE_OUTOF
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_NOTIFY_TYPE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, 
 ms.topic: function
 f1_keywords: 
  - "fileapi/DeleteFile"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

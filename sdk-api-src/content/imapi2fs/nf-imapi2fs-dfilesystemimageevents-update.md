@@ -12,6 +12,8 @@ ms.keywords: DFileSystemImageEvents interface [IMAPI],Update method, DFileSystem
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/DFileSystemImageEvents.Update"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEn
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemConfigureRefresher.AddEnum"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

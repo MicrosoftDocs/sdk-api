@@ -12,6 +12,8 @@ ms.keywords: GPMDomain object [GPMC],GetGPO method, GetGPO, GetGPO method [GPMC]
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain.GetGPO"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

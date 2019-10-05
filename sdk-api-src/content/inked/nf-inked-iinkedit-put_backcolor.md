@@ -12,6 +12,8 @@ ms.keywords: BackColor property [Tablet PC], BackColor property [Tablet PC],IInk
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.BackColor"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

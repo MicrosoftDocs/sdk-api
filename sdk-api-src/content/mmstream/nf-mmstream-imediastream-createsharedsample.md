@@ -12,6 +12,8 @@ ms.keywords: CreateSharedSample, CreateSharedSample method [DirectShow], CreateS
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMediaStream.CreateSharedSample"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

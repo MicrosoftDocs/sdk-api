@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Direct Write], GetType method [Direct Writ
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.GetType"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

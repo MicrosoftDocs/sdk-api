@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],UseExistingKeySet property, ICEnroll inte
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.UseExistingKeySet"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRelativePosition, GetRelativePosition method [DirectShow], GetRe
 ms.topic: method
 f1_keywords: 
  - "mpconfig/IMixerPinConfig.GetRelativePosition"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFileMUIPath, GetFileMUIPath function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "winnls/GetFileMUIPath"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

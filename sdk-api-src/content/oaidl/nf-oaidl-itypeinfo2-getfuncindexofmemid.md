@@ -12,6 +12,8 @@ ms.keywords: GetFuncIndexOfMemId, GetFuncIndexOfMemId method [Automation], GetFu
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo2.GetFuncIndexOfMemId"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

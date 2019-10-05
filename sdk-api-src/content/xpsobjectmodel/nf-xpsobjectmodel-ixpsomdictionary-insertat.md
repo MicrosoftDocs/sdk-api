@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDictionary.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

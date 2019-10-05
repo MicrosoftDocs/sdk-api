@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscRecorder int
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.Close"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

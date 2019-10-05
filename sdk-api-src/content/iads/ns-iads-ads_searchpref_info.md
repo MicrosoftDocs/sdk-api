@@ -12,6 +12,8 @@ ms.keywords: '*LPADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO
 ms.topic: struct
 f1_keywords:
 - iads/ADS_SEARCHPREF_INFO
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

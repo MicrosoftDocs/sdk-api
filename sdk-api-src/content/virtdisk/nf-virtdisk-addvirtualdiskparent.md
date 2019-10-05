@@ -12,6 +12,8 @@ ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storag
 ms.topic: function
 f1_keywords: 
  - "virtdisk/AddVirtualDiskParent"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

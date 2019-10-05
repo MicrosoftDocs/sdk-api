@@ -12,6 +12,8 @@ ms.keywords: IUpdateSession interface [Windows Update Agent],ReadOnly property, 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSession.ReadOnly"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

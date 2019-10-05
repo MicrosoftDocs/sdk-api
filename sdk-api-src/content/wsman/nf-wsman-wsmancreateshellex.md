@@ -12,6 +12,8 @@ ms.keywords: WSManCreateShellEx, WSManCreateShellEx function [Windows Remote Man
 ms.topic: function
 f1_keywords:
 - wsman/WSManCreateShellEx
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback
 ms.topic: function
 f1_keywords: 
  - "mmc/MMCPropertyHelp"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

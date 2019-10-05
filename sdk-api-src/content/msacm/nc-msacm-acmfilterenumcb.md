@@ -12,6 +12,8 @@ ms.keywords: ACMFILTERENUMCB, ACMFILTERENUMCB callback, ACMFILTERENUMCB callback
 ms.topic: callback
 f1_keywords: 
  - "msacm/ACMFILTERENUMCB"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

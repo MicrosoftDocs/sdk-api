@@ -12,6 +12,8 @@ ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Me
 ms.topic: function
 f1_keywords:
 - mfapi/MFMapDXGIFormatToDX9Format
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

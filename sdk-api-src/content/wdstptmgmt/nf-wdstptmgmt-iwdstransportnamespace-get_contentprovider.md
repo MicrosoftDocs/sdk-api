@@ -12,6 +12,8 @@ ms.keywords: ContentProvider property [Windows Deployment Services], ContentProv
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespace.ContentProvider"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

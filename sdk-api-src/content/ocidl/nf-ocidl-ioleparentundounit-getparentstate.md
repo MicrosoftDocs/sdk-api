@@ -12,6 +12,8 @@ ms.keywords: GetParentState, GetParentState method [COM], GetParentState method 
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleParentUndoUnit.GetParentState"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 63b970df-266a-f05f-9db6-cec5c9ae14a6, D3D10_RESOURCE_DIMENSION, D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_RESOURCE_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

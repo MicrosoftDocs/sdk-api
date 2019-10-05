@@ -12,6 +12,8 @@ ms.keywords: XPS_GLYPH_INDEX, XPS_GLYPH_INDEX structure [XPS Documents and Packa
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_GLYPH_INDEX"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

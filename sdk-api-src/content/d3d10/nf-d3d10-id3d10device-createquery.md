@@ -12,6 +12,8 @@ ms.keywords: CreateQuery, CreateQuery method [Direct3D 10], CreateQuery method [
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateQuery"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConve
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPlanarFormatConverter.CanConvert"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

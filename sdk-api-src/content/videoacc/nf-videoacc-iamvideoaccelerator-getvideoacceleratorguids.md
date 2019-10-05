@@ -12,6 +12,8 @@ ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectSh
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

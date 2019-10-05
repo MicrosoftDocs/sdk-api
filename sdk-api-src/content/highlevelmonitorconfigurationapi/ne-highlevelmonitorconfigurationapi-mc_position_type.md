@@ -12,6 +12,8 @@ ms.keywords: MC_HORIZONTAL_POSITION, MC_POSITION_TYPE, MC_POSITION_TYPE , MC_POS
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_POSITION_TYPE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

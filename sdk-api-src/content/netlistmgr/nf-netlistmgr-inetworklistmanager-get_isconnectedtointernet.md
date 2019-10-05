@@ -12,6 +12,8 @@ ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnectedTo
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkListManager.get_IsConnectedToInternet"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

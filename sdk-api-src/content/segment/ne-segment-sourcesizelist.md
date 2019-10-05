@@ -12,6 +12,8 @@ ms.keywords: MSVidCtlSourceSizeListEnumeration, SourceSizeList, SourceSizeList e
 ms.topic: enum
 f1_keywords: 
  - "segment/SourceSizeList"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionDot, XMQuaternionDot, XMQuaternionDot meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionDot"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

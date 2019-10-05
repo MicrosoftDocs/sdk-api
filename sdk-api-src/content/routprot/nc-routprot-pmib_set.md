@@ -12,6 +12,8 @@ ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RA
 ms.topic: callback
 f1_keywords: 
  - "routprot/PMIB_SET"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

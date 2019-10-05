@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC, PFN_CRYPT_VERIFY_ENCODED_S
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

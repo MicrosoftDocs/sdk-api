@@ -12,6 +12,8 @@ ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UpdateLayered
 ms.topic: function
 f1_keywords:
 - winuser/UpdateLayeredWindow
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

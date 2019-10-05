@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [search], GetData method [search],IRichChun
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/IRichChunk.GetData"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

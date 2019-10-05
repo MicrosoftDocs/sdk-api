@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBa
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyCallback.JobTransferred"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

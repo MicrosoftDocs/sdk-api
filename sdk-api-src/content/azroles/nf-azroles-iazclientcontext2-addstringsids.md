@@ -12,6 +12,8 @@ ms.keywords: AddStringSids, AddStringSids method [Security], AddStringSids metho
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext2.AddStringSids"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

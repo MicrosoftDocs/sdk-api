@@ -12,6 +12,8 @@ ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateDat
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIObject.GetPrivateData"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

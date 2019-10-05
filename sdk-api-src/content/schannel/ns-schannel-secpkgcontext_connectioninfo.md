@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_ConnectionInfo, 0 (Zero), CALG_3DES, CALG_AES_128,
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_ConnectionInfo"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

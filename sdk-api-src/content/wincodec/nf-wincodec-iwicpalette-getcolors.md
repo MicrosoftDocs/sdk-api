@@ -12,6 +12,8 @@ ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPalette.GetColors"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

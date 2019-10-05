@@ -12,6 +12,8 @@ ms.keywords: WSD_EVENTING_DELIVERY_MODE, WSD_EVENTING_DELIVERY_MODE structure, h
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_EVENTING_DELIVERY_MODE"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

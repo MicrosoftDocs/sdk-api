@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_AUTHENTICATION_METHOD0, IKEEXT_AUTHENTICATION_METHOD0 struct
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_AUTHENTICATION_METHOD0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

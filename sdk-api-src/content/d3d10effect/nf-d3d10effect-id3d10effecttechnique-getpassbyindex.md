@@ -12,6 +12,8 @@ ms.keywords: GetPassByIndex, GetPassByIndex method [Direct3D 10], GetPassByIndex
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectTechnique.GetPassByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

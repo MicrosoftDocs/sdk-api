@@ -12,6 +12,8 @@ ms.keywords: QueryCompressorInformation, QueryCompressorInformation function [Co
 ms.topic: function
 f1_keywords: 
  - "compressapi/QueryCompressorInformation"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

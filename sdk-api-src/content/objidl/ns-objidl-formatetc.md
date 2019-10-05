@@ -12,6 +12,8 @@ ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, L
 ms.topic: struct
 f1_keywords: 
  - "objidl/FORMATETC"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

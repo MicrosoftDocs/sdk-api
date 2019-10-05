@@ -12,6 +12,8 @@ ms.keywords: WS_XML_TEXT, WS_XML_TEXT structure [Web Services for Windows], webs
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_XML_TEXT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

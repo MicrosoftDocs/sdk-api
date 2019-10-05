@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_S
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_SCOPE_INFO6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, IT
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.SetInlineObject"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

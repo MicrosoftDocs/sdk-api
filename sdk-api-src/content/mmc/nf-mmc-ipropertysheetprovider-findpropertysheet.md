@@ -12,6 +12,8 @@ ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertyShee
 ms.topic: method
 f1_keywords: 
  - "mmc/IPropertySheetProvider.FindPropertySheet"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

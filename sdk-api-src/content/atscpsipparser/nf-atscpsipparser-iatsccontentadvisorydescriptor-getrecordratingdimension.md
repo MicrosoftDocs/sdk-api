@@ -12,6 +12,8 @@ ms.keywords: GetRecordRatingDimension, GetRecordRatingDimension method [Microsof
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingDimension"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

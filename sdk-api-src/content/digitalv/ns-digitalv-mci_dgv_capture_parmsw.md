@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_CAPTURE_PARMSW, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_CAPTURE_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

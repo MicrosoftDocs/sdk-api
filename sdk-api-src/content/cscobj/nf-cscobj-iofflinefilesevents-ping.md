@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesEvents interface [Offline Files],Ping method, IOffline
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents.Ping"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

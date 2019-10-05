@@ -12,6 +12,8 @@ ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFCdmSuspendNotify.Begin"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

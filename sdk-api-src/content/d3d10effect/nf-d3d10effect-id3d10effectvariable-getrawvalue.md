@@ -12,6 +12,8 @@ ms.keywords: 18ba7994-4337-bf43-0492-e591b629b77d, GetRawValue, GetRawValue meth
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetRawValue"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

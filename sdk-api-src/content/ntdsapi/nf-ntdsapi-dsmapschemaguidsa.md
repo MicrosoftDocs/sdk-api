@@ -12,6 +12,8 @@ ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsM
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsMapSchemaGuids"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

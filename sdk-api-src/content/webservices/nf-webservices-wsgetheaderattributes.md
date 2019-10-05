@@ -12,6 +12,8 @@ ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetHeaderAttributes"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

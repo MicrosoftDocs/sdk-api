@@ -12,6 +12,8 @@ ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCo
 ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyJob1.GetFile
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID functi
 ms.topic: function
 f1_keywords: 
  - "rpcdcep/I_RpcBindingInqLocalClientPID"
+dev_langs:
+ - c++
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows

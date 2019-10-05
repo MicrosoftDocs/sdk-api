@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Skip method
 ms.topic: method
 f1_keywords: 
  - "ctfutb/IEnumTfLangBarItems.Skip"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

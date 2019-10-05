@@ -12,6 +12,8 @@ ms.keywords: "*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure po
 ms.topic: struct
 f1_keywords: 
  - "wabapi/WABIMPORTPARAM"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

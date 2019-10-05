@@ -12,6 +12,8 @@ ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _w
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/PathMakeUniqueName"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

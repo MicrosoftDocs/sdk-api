@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationManager interface [Direct Manipulation],Register
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.RegisterHitTestTarget"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

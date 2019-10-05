@@ -12,6 +12,8 @@ ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortPropertie
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsController.GetPortProperties
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

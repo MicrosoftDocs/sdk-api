@@ -12,6 +12,8 @@ ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failove
 ms.topic: callback
 f1_keywords: 
  - "resapi/Arbitrate"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

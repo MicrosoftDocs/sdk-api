@@ -12,6 +12,8 @@ ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnp
 ms.topic: function
 f1_keywords:
 - dpapi/CryptUnprotectData
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

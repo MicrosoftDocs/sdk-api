@@ -12,6 +12,8 @@ ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntquer
 ms.topic: function
 f1_keywords: 
  - "winternl/NtQueryObject"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

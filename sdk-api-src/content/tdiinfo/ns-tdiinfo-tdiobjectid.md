@@ -12,6 +12,8 @@ ms.keywords: ENTITY_LIST_ID, ENTITY_TYPE_ID, IF_MIB_STATS_ID, INFO_CLASS_GENERIC
 ms.topic: struct
 f1_keywords: 
  - "tdiinfo/TDIObjectID"
+dev_langs:
+ - c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows

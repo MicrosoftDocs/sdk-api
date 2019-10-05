@@ -12,6 +12,8 @@ ms.keywords: NdrPointerMarshall, NdrPointerMarshall function [RPC], rpc.ndrpoint
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrPointerMarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

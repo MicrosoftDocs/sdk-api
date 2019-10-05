@@ -12,6 +12,8 @@ ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization f
 ms.topic: function
 f1_keywords: 
  - "imm/ImmCreateContext"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

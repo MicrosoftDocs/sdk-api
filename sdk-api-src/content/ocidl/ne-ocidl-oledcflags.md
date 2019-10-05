@@ -12,6 +12,8 @@ ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSC
 ms.topic: enum
 f1_keywords: 
  - "ocidl/OLEDCFLAGS"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

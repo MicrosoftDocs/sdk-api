@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_INFO_ARRAY, EAP_METHOD_INFO_ARRAY structure [EAPHost], P
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_INFO_ARRAY
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

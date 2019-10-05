@@ -12,6 +12,8 @@ ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_C
 ms.topic: function
 f1_keywords: 
  - "oleauto/CreateStdDispatch"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

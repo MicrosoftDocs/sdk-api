@@ -12,6 +12,8 @@ ms.keywords: McastGenUID, McastGenUID function [MADCAP], _mdhcp_mcastgenuid, mad
 ms.topic: function
 f1_keywords:
 - madcapcl/McastGenUID
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

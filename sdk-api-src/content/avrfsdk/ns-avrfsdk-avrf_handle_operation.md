@@ -12,6 +12,8 @@ ms.keywords: '*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERAT
 ms.topic: struct
 f1_keywords:
 - avrfsdk/AVRF_HANDLE_OPERATION
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

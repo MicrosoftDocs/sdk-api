@@ -12,6 +12,8 @@ ms.keywords: SnapshotEncodingDataUri, SnapshotEncodingType, SnapshotEncodingType
 ms.topic: enum
 f1_keywords: 
  - "rdpappcontainerclient/SnapshotEncodingType"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

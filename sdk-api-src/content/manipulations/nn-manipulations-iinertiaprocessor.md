@@ -12,6 +12,8 @@ ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IIn
 ms.topic: interface
 f1_keywords: 
  - "manipulations/IInertiaProcessor"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

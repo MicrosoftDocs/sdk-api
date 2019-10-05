@@ -12,6 +12,8 @@ ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthT
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetErrorCode"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 71a948e7-b358-d717-cbee-71a3647b9ce1, IASetPrimitiveTopology, IASet
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.IASetPrimitiveTopology"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

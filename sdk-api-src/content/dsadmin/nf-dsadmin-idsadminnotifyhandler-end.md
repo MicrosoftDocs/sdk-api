@@ -12,6 +12,8 @@ ms.keywords: End, End method [Active Directory], End method [Active Directory],I
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNotifyHandler.End"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

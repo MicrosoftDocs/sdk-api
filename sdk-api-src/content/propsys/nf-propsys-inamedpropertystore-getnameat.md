@@ -12,6 +12,8 @@ ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Wind
 ms.topic: method
 f1_keywords: 
  - "propsys/INamedPropertyStore.GetNameAt"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

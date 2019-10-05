@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_W2K, MIB_IPMCAST_OIF, MIB_IPM
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_OIF
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

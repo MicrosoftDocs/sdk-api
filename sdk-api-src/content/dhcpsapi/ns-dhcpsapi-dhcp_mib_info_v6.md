@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6 structure 
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_MIB_INFO_V6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

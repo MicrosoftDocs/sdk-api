@@ -12,6 +12,8 @@ ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipTe
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.GetToolTipText"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

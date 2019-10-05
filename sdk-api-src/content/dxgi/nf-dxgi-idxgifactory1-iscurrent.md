@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory1 interface [DXGI],IsCurrent method, IDXGIFactory1.IsCu
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory1.IsCurrent"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

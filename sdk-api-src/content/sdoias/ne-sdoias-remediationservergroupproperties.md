@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_REMEDIATIONSERVERGROUP_SERVERS_COLLECTION, REMEDIATIONSERV
 ms.topic: enum
 f1_keywords:
 - sdoias/REMEDIATIONSERVERGROUPPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

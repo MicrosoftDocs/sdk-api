@@ -12,6 +12,8 @@ ms.keywords: VarR4CmpR8, VarR4CmpR8 function [Automation], _oa96_VarR4CmpR8, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarR4CmpR8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

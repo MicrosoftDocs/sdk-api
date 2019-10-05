@@ -12,6 +12,8 @@ ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHis
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlIsNoHistory"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

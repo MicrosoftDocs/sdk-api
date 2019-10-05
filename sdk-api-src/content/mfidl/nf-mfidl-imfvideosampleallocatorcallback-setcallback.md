@@ -12,6 +12,8 @@ ms.keywords: IMFVideoSampleAllocatorCallback interface [Media Foundation],SetCal
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocatorCallback.SetCallback"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

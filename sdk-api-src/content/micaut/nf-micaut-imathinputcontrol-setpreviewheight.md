@@ -12,6 +12,8 @@ ms.keywords: IMathInputControl interface [Tablet PC],SetPreviewHeight method, IM
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.SetPreviewHeight"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

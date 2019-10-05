@@ -12,6 +12,8 @@ ms.keywords: GetDefaultPropertyCollection, GetDefaultPropertyCollection method [
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventPublisher.GetDefaultPropertyCollection"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonth
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IMonthlyTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

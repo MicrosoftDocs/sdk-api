@@ -12,6 +12,8 @@ ms.keywords: XHR_CRED_PROMPT, XHR_CRED_PROMPT enumeration [XMLHttpRequest2], XHR
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_CRED_PROMPT"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

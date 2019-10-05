@@ -12,6 +12,8 @@ ms.keywords: GetSensorGroupAttributes, GetSensorGroupAttributes method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorGroup.GetSensorGroupAttributes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

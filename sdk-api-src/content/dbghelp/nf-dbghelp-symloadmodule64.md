@@ -12,6 +12,8 @@ ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModu
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymLoadModule64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMe
 ms.topic: function
 f1_keywords: 
  - "memoryapi/ReadProcessMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

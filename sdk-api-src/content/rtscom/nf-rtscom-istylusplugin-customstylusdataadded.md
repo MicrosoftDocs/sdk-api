@@ -12,6 +12,8 @@ ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded, Custom
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.CustomStylusDataAdded"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

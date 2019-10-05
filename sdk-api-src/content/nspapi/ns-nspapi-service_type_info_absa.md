@@ -12,6 +12,8 @@ ms.keywords: '*LPSERVICE_TYPE_INFO_ABSA, *PSERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_
 ms.topic: struct
 f1_keywords:
 - nspapi/SERVICE_TYPE_INFO_ABS
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

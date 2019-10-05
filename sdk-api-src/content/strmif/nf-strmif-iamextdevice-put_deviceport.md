@@ -12,6 +12,8 @@ ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePort method, IAMExtDe
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMExtDevice.put_DevicePort"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

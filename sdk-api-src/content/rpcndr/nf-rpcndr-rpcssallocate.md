@@ -12,6 +12,8 @@ ms.keywords: RpcSsAllocate, RpcSsAllocate function [RPC], _rpc_rpcssallocate, rp
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSsAllocate"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

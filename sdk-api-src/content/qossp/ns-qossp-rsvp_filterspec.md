@@ -12,6 +12,8 @@ ms.keywords: '*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTE
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_FILTERSPEC
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

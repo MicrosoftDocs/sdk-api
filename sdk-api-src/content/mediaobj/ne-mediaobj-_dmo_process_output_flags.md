@@ -12,6 +12,8 @@ ms.keywords: DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, DMO_PROCESS_OUTPUT_FLAGS
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_PROCESS_OUTPUT_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PRAS_SECURITY_INFO, PENDING, PRAS_SECURITY_INFO, PRAS_SECURITY_IN
 ms.topic: struct
 f1_keywords: 
  - "rasshost/RAS_SECURITY_INFO"
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

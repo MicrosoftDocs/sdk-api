@@ -12,6 +12,8 @@ ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security],
 ms.topic: method
 f1_keywords: 
  - "tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextRow"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

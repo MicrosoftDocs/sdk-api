@@ -12,6 +12,8 @@ ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DSurface9.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

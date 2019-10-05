@@ -12,6 +12,8 @@ ms.keywords: GetSample, GetSample method [Media Foundation], GetSample method [M
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamSampleManager.GetSample"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefi
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRoleDefinition.AddRoleDefinition"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

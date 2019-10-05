@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_COMPARE, OFFLINEFILES_COMPARE enumeration [Offline Fil
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_COMPARE"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

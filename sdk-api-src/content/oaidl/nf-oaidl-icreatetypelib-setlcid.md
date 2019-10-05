@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib interface [Automation],SetLcid method, ICreateTypeLi
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib.SetLcid"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

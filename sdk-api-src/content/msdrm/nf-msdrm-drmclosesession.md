@@ -12,6 +12,8 @@ ms.keywords: DRMCloseSession, DRMCloseSession function [Active Directory Rights 
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCloseSession"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

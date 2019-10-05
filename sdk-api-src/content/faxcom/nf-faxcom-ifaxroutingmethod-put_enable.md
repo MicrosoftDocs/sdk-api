@@ -12,6 +12,8 @@ ms.keywords: Enable property [Fax Service], Enable property [Fax Service],IFaxRo
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.Enable"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateNetwork, CreateNetwork method [NativeWIFI], CreateNetwork met
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocManager.CreateNetwork"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

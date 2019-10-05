@@ -12,6 +12,8 @@ ms.keywords: IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote 
 ms.topic: interface
 f1_keywords: 
  - "msrdc/IRdcSimilarityGenerator"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

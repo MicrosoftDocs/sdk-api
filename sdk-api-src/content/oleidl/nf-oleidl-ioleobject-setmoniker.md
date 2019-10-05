@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],SetMoniker method, IOleObject.SetMoniker
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.SetMoniker"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

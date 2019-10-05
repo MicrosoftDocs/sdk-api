@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],GenericMonospace method, FontFamily.Generic
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.GenericMonospace"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

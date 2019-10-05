@@ -12,6 +12,8 @@ ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayMode
 ms.topic: function
 f1_keywords: 
  - "winbase/PowerClearRequest"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND
 ms.topic: function
 f1_keywords: 
  - "commctrl/LoadIconWithScaleDown"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

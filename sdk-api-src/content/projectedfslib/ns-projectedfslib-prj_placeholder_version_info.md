@@ -12,6 +12,8 @@ ms.keywords: PRJ_PLACEHOLDER_VERSION_INFO, PRJ_PLACEHOLDER_VERSION_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

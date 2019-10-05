@@ -12,6 +12,8 @@ ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablet interface [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet.IsPacketPropertySupported"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

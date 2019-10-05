@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enu
 ms.topic: enum
 f1_keywords:
 - winnt/SYSTEM_POWER_STATE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

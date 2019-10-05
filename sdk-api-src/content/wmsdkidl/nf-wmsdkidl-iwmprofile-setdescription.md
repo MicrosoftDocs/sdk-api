@@ -12,6 +12,8 @@ ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile.SetDescription"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

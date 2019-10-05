@@ -12,6 +12,8 @@ ms.keywords: DiRollbackDriver, DiRollbackDriver function [Device and Driver Inst
 ms.topic: function
 f1_keywords:
 - newdev/DiRollbackDriver
+dev_langs:
+ - c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

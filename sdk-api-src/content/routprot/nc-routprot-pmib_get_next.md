@@ -12,6 +12,8 @@ ms.keywords: MibGetNext, MibGetNext callback function [RAS], PMIB_GET_NEXT, PMIB
 ms.topic: callback
 f1_keywords: 
  - "routprot/MibGetNext"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

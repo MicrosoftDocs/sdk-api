@@ -12,6 +12,8 @@ ms.keywords: GetCompatiblityDescriptorLength, GetCompatiblityDescriptorLength me
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

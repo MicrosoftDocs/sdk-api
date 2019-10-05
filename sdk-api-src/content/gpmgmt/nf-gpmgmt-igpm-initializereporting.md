@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],InitializeReporting method, IGPM interface [GPMC]
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.InitializeReporting"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

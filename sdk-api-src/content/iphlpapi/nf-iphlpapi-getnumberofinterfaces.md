@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], 
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/GetNumberOfInterfaces"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

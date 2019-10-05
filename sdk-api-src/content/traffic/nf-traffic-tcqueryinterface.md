@@ -12,6 +12,8 @@ ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryint
 ms.topic: function
 f1_keywords: 
  - "traffic/TcQueryInterface"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

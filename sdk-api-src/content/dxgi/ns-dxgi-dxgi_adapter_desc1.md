@@ -12,6 +12,8 @@ ms.keywords: 44e46590-c7af-e371-28b4-890028cf955b, DXGI_ADAPTER_DESC1, DXGI_ADAP
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_ADAPTER_DESC1"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

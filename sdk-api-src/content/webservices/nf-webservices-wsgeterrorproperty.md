@@ -12,6 +12,8 @@ ms.keywords: WsGetErrorProperty, WsGetErrorProperty function [Web Services for W
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetErrorProperty"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

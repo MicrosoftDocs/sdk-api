@@ -12,6 +12,8 @@ ms.keywords: CFP_ALLOCPROC, CFP_ALLOCPROC callback, CFP_ALLOCPROC callback funct
 ms.topic: callback
 f1_keywords: 
  - "fontsub/CFP_ALLOCPROC"
+dev_langs:
+ - c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteSavedCredentials, DeleteSavedCredentials method [Remote Deskt
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.DeleteSavedCredentials"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

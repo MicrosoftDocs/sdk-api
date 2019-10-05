@@ -12,6 +12,8 @@ ms.keywords: PWLX_CREATE_USER_DESKTOP, PWLX_CREATE_USER_DESKTOP callback, WLX_CR
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxCreateUserDesktop
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

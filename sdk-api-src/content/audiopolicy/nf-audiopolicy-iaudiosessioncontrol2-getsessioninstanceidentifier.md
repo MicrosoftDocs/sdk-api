@@ -12,6 +12,8 @@ ms.keywords: GetSessionInstanceIdentifier, GetSessionInstanceIdentifier method [
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl2.GetSessionInstanceIdentifier"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

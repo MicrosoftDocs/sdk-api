@@ -12,6 +12,8 @@ ms.keywords: EnumAttributes, EnumAttributes method [Network Policy Server], Enum
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoDictionaryOld.EnumAttributes"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

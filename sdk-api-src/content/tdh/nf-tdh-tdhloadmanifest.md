@@ -12,6 +12,8 @@ ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifes
 ms.topic: function
 f1_keywords: 
  - "tdh/TdhLoadManifest"
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

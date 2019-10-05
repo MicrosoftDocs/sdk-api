@@ -12,6 +12,8 @@ ms.keywords: 8b5abcbf-002c-c104-ad3f-1b179ff1df50, IAGetVertexBuffers, IAGetVert
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IAGetVertexBuffers"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

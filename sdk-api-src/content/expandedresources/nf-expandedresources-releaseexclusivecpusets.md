@@ -12,6 +12,8 @@ ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expanded
 ms.topic: function
 f1_keywords: 
  - "expandedresources/ReleaseExclusiveCpuSets"
+dev_langs:
+ - c++
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows

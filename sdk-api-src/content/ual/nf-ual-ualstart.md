@@ -12,6 +12,8 @@ ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ua
 ms.topic: function
 f1_keywords: 
  - "ual/UalStart"
+dev_langs:
+ - c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

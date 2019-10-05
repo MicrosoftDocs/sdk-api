@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PANOSE_ASPECT, DWRITE_PANOSE_ASPECT enumeration [Direct Writ
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_PANOSE_ASPECT"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

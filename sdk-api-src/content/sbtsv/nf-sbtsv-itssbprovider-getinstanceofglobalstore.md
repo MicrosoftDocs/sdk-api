@@ -12,6 +12,8 @@ ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote D
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.GetInstanceOfGlobalStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

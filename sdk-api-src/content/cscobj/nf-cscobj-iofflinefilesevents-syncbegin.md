@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncBegin method, IOf
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents.SyncBegin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

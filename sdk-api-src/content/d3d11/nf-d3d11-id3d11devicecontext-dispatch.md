@@ -12,6 +12,8 @@ ms.keywords: 4643b8d4-3b6b-6d21-52bd-96e849a3eba7, Dispatch, Dispatch method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.Dispatch"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PDEF_ALL, PDEF_COLUMN, PDEF_INFULLTEXTQUERY, PDEF_NONSYSTEM, PDEF_Q
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_ENUMFILTER"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

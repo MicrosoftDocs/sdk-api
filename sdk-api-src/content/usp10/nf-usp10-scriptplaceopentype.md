@@ -12,6 +12,8 @@ ms.keywords: ScriptPlaceOpenType, ScriptPlaceOpenType function [Internationaliza
 ms.topic: function
 f1_keywords:
 - usp10/ScriptPlaceOpenType
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

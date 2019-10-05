@@ -12,6 +12,8 @@ ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], 
 ms.topic: function
 f1_keywords: 
  - "hrtfapoapi/CreateHrtfApo"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

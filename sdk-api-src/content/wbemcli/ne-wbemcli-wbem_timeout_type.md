@@ -12,6 +12,8 @@ ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE e
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_TIMEOUT_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Gra
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.IsClipEmpty"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

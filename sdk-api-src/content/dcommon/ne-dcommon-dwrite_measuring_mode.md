@@ -12,6 +12,8 @@ ms.keywords: DWRITE_MEASURING_MODE, DWRITE_MEASURING_MODE enumeration [Direct Wr
 ms.topic: enum
 f1_keywords: 
  - "dcommon/DWRITE_MEASURING_MODE"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: Dwrite.h
 req.target-type: Windows

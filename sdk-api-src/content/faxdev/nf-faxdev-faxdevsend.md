@@ -12,6 +12,8 @@ ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fa
 ms.topic: function
 f1_keywords:
 - faxdev/FaxDevSend
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

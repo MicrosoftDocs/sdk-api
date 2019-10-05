@@ -12,6 +12,8 @@ ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Attributes.Remove"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

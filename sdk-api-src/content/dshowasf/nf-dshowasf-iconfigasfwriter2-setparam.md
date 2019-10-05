@@ -12,6 +12,8 @@ ms.keywords: IConfigAsfWriter2 interface [DirectShow],SetParam method, IConfigAs
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter2.SetParam"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

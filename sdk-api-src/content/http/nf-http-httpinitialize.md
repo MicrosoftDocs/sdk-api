@@ -12,6 +12,8 @@ ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpInitialize, Htt
 ms.topic: function
 f1_keywords:
 - http/HttpInitialize
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

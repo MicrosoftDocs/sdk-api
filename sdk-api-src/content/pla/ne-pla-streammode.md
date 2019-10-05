@@ -12,6 +12,8 @@ ms.keywords: StreamMode, StreamMode enumeration [PLA], base.streammode, pla.stre
 ms.topic: enum
 f1_keywords: 
  - "pla/StreamMode"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

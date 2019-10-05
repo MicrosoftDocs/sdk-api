@@ -12,6 +12,8 @@ ms.keywords: Multiply128, Multiply128 function [Windows API], winnt/Multiply128,
 ms.topic: function
 f1_keywords: 
  - "winnt/Multiply128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FWP_BYTE_ARRAY16, FWP_BYTE_ARRAY16 structure [Filtering], fwp.fwp_b
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWP_BYTE_ARRAY16"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

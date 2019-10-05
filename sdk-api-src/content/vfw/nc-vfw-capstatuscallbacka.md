@@ -12,6 +12,8 @@ ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, c
 ms.topic: callback
 f1_keywords: 
  - "vfw/capStatusCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

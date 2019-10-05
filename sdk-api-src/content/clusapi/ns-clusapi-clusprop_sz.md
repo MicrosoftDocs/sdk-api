@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_MULTI_SZ, *PCLUSPROP_PROPERTY_NAME, *PCLUSPROP_SZ, CLUS
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_MULTI_SZ"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Get, Get method, Get method,IProviderQueryConstraintCollection inte
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Get"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

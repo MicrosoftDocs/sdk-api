@@ -12,6 +12,8 @@ ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlter
 ms.topic: method
 f1_keywords: 
  - "certenroll/IAlternativeNames.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

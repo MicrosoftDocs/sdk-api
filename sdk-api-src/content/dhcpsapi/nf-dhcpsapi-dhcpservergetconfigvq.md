@@ -12,6 +12,8 @@ ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerGetConfigVQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

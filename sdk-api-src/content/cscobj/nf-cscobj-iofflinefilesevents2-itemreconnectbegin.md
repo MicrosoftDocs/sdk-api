@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectBegin m
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents2.ItemReconnectBegin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

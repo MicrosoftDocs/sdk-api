@@ -12,6 +12,8 @@ ms.keywords: IWMPErrorItem2 interface [Windows Media Player],get_condition metho
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPErrorItem2.get_condition"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

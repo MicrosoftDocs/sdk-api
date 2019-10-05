@@ -12,6 +12,8 @@ ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo in
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkLineInfo"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

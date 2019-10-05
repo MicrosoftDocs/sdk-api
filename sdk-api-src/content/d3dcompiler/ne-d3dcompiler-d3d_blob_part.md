@@ -12,6 +12,8 @@ ms.keywords: D3D_BLOB_ALL_SIGNATURE_BLOB, D3D_BLOB_DEBUG_INFO, D3D_BLOB_DEBUG_NA
 ms.topic: enum
 f1_keywords: 
  - "d3dcompiler/D3D_BLOB_PART"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

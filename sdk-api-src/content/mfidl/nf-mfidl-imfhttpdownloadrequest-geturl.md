@@ -12,6 +12,8 @@ ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.GetURL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

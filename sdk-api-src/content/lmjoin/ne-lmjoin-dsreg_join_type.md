@@ -12,6 +12,8 @@ ms.keywords: "*PDSREG_JOIN_TYPE, DSREG_DEVICE_JOIN, DSREG_JOIN_TYPE, DSREG_JOIN_
 ms.topic: enum
 f1_keywords: 
  - "lmjoin/DSREG_JOIN_TYPE"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows

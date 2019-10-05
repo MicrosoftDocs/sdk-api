@@ -12,6 +12,8 @@ ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctio
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr2.GetFunctionProvider"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

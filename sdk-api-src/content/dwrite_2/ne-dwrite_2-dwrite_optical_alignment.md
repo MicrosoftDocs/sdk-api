@@ -12,6 +12,8 @@ ms.keywords: DWRITE_OPTICAL_ALIGNMENT, DWRITE_OPTICAL_ALIGNMENT enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "dwrite_2/DWRITE_OPTICAL_ALIGNMENT"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

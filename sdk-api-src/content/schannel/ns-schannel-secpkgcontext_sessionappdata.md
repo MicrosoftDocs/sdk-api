@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecP
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_SessionAppData"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

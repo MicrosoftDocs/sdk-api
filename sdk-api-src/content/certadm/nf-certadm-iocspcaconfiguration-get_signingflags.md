@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IO
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.SigningFlags"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

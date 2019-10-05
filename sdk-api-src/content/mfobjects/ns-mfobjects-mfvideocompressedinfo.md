@@ -12,6 +12,8 @@ ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Found
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoCompressedInfo
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

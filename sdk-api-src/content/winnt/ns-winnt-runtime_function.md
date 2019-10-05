@@ -12,6 +12,8 @@ ms.keywords: "*PRUNTIME_FUNCTION, *_PIMAGE_RUNTIME_FUNCTION_ENTRY, IMAGE_IA64_RU
 ms.topic: struct
 f1_keywords: 
  - "winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

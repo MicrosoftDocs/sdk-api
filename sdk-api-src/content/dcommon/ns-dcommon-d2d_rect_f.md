@@ -12,6 +12,8 @@ ms.keywords: D2D1_RECT_F, D2D_RECT_F, D2D_RECT_F structure [Direct2D], dcommon/D
 ms.topic: struct
 f1_keywords: 
  - "dcommon/D2D_RECT_F"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

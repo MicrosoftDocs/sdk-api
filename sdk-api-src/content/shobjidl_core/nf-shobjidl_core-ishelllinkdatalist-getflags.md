@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLinkDataList.GetFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

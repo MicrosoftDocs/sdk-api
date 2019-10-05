@@ -12,6 +12,8 @@ ms.keywords: UrlCreateFromPath, UrlCreateFromPath function [Windows Shell], UrlC
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlCreateFromPath"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

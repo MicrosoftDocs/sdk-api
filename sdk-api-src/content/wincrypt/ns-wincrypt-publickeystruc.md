@@ -12,6 +12,8 @@ ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security],
 ms.topic: struct
 f1_keywords:
 - wincrypt/BLOBHEADER
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

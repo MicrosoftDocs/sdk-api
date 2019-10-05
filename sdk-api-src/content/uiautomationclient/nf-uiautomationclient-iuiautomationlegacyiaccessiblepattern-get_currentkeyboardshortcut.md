@@ -12,6 +12,8 @@ ms.keywords: CurrentKeyboardShortcut property [Windows Accessibility], CurrentKe
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

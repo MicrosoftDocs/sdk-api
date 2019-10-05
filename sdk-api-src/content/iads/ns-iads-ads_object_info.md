@@ -12,6 +12,8 @@ ms.keywords: "*PADS_OBJECT_INFO, ADS_OBJECT_INFO, ADS_OBJECT_INFO structure [ADS
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_OBJECT_INFO"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

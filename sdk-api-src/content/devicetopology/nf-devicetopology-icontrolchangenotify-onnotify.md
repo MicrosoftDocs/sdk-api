@@ -12,6 +12,8 @@ ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IContr
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IControlChangeNotify.OnNotify"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

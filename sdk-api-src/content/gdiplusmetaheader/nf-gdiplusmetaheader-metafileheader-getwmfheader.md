@@ -12,6 +12,8 @@ ms.keywords: GetWmfHeader, GetWmfHeader method [GDI+], GetWmfHeader method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetWmfHeader"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

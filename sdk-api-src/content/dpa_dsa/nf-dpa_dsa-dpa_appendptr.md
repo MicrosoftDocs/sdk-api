@@ -12,6 +12,8 @@ ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_A
 ms.topic: macro
 f1_keywords: 
  - "dpa_dsa/DPA_AppendPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

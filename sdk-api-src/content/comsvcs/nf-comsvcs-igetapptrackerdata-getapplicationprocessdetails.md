@@ -12,6 +12,8 @@ ms.keywords: GetApplicationProcessDetails, GetApplicationProcessDetails method [
 ms.topic: method
 f1_keywords:
 - comsvcs/IGetAppTrackerData.GetApplicationProcessDetails
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

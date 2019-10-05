@@ -12,6 +12,8 @@ ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult inte
 ms.topic: interface
 f1_keywords: 
  - "rtworkq/IRtwqAsyncResult"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

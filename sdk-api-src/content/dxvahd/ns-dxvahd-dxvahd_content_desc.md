@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundatio
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_CONTENT_DESC
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

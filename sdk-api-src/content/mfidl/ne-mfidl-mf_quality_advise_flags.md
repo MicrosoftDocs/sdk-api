@@ -12,6 +12,8 @@ ms.keywords: MF_QUALITY_ADVISE_FLAGS, MF_QUALITY_ADVISE_FLAGS enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_QUALITY_ADVISE_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],QueryAbilities 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrResolutionHandler.QueryAbilities"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7, IPenInputPanel interface [Tab
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Visible"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

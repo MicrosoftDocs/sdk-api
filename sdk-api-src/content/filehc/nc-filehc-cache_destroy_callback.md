@@ -12,6 +12,8 @@ ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DEST
 ms.topic: callback
 f1_keywords: 
  - "filehc/CACHE_DESTROY_CALLBACK"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

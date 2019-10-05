@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, 
 ms.topic: callback
 f1_keywords:
 - cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

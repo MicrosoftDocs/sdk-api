@@ -12,6 +12,8 @@ ms.keywords: IOpcSignatureRelationshipReference, IOpcSignatureRelationshipRefere
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcSignatureRelationshipReference"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

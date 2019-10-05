@@ -12,6 +12,8 @@ ms.keywords: FindVolumeClose, FindVolumeClose function [Files], _win32_findvolum
 ms.topic: function
 f1_keywords: 
  - "fileapi/FindVolumeClose"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

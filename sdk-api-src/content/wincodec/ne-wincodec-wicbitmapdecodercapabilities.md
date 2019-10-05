@@ -12,6 +12,8 @@ ms.keywords: WICBitmapDecoderCapabilities, WICBitmapDecoderCapabilities enumerat
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICBitmapDecoderCapabilities"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

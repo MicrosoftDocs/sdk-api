@@ -12,6 +12,8 @@ ms.keywords: CreateClusterNotifyPortV2, CreateClusterNotifyPortV2 function [Fail
 ms.topic: function
 f1_keywords:
 - clusapi/CreateClusterNotifyPortV2
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

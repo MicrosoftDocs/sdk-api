@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo interface [WIA],ResizeVideo method, IWiaVideo.ResizeVideo
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.ResizeVideo"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

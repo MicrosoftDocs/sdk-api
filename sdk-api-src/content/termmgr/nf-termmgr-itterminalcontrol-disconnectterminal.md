@@ -12,6 +12,8 @@ ms.keywords: DisconnectTerminal, DisconnectTerminal method [TAPI 2.2], Disconnec
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalControl.DisconnectTerminal"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

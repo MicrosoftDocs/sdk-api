@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx,
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_IssuerListInfoEx"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

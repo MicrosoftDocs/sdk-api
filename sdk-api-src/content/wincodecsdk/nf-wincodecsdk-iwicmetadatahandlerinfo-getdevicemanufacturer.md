@@ -12,6 +12,8 @@ ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imagin
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataHandlerInfo.GetDeviceManufacturer"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

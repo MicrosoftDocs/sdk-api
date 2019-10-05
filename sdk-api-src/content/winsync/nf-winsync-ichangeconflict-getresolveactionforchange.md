@@ -12,6 +12,8 @@ ms.keywords: GetResolveActionForChange, GetResolveActionForChange method [Window
 ms.topic: method
 f1_keywords: 
  - "winsync/IChangeConflict.GetResolveActionForChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

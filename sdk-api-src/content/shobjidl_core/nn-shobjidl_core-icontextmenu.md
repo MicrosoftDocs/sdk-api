@@ -12,6 +12,8 @@ ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IContextMenu"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

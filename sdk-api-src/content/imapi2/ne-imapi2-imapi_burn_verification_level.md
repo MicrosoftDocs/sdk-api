@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMA
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_BURN_VERIFICATION_LEVEL"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

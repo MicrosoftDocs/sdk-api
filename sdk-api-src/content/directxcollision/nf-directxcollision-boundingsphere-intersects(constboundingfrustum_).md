@@ -12,6 +12,8 @@ ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Intersects met
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingSphere.Intersects"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

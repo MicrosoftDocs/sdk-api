@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemArray.GetCount"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

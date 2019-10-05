@@ -12,6 +12,8 @@ ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintou
 ms.topic: function
 f1_keywords: 
  - "winuser/SetGestureConfig"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

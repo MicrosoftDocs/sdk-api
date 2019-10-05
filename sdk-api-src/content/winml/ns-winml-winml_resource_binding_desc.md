@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_resource_binding_desc, PWINML_RESOURCE_BINDIN
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_RESOURCE_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

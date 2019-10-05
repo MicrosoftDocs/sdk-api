@@ -12,6 +12,8 @@ ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetSt
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPServices.GetStreamState"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

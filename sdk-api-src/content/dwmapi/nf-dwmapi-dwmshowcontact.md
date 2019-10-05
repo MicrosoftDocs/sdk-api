@@ -12,6 +12,8 @@ ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PE
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmShowContact"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure
 ms.topic: struct
 f1_keywords: 
  - "wdspxe/PXE_DHCP_MESSAGE"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

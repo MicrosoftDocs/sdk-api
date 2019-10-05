@@ -12,6 +12,8 @@ ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.de
 ms.topic: function
 f1_keywords: 
  - "netioapi/DeleteIpNetEntry2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Man
 ms.topic: function
 f1_keywords:
 - wcmapi/WcmQueryProperty
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

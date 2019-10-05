@@ -12,6 +12,8 @@ ms.keywords: WFDCloseSession, WFDCloseSession function [NativeWIFI], nwifi.wfdcl
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDCloseSession"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

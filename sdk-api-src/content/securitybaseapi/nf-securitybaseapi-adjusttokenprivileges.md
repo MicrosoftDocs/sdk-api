@@ -12,6 +12,8 @@ ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], N
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AdjustTokenPrivileges
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

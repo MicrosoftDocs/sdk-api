@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount met
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReader.GetCount"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

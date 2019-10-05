@@ -12,6 +12,8 @@ ms.keywords: D2D1_GEOMETRY_RELATION, D2D1_GEOMETRY_RELATION enumeration [Direct2
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_GEOMETRY_RELATION"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

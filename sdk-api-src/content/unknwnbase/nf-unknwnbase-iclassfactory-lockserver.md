@@ -12,6 +12,8 @@ ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.Lock
 ms.topic: method
 f1_keywords: 
  - "unknwnbase/IClassFactory.LockServer"
+dev_langs:
+ - c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

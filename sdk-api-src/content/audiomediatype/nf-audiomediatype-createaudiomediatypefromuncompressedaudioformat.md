@@ -12,6 +12,8 @@ ms.keywords: CreateAudioMediaTypeFromUncompressedAudioFormat, CreateAudioMediaTy
 ms.topic: function
 f1_keywords:
 - audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: 4857cd25-dfeb-1e69-b487-b93977115d85, Apply, Apply method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DStateBlock9.Apply"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

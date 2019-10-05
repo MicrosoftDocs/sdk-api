@@ -12,6 +12,8 @@ ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMetho
 ms.topic: enum
 f1_keywords: 
  - "eapauthenticatoractiondefine/EapPeerMethodResultReason"
+dev_langs:
+ - c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

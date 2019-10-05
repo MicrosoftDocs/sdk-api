@@ -12,6 +12,8 @@ ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock]
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCInstallProvider64_32
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

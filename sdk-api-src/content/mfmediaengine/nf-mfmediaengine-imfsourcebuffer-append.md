@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Media Foundation], Append method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.Append"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

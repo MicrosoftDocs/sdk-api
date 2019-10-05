@@ -12,6 +12,8 @@ ms.keywords: "*LPPRINTPAGERANGE, LPPRINTPAGERANGE, LPPRINTPAGERANGE structure po
 ms.topic: struct
 f1_keywords: 
  - "commdlg/PRINTPAGERANGE"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

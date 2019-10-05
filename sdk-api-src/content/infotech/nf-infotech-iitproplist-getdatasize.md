@@ -12,6 +12,8 @@ ms.keywords: GetDataSize, GetDataSize method [HTML Help Workshop], GetDataSize m
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.GetDataSize"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

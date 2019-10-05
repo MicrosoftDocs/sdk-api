@@ -12,6 +12,8 @@ ms.keywords: BrokenConnectionAction property [Remote Desktop Services], BrokenCo
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.BrokenConnectionAction"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.IsOk"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

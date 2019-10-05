@@ -12,6 +12,8 @@ ms.keywords: IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], IPro
 ms.topic: interface
 f1_keywords: 
  - "mstask/IProvideTaskPage"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

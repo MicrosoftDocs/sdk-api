@@ -12,6 +12,8 @@ ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerU
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcServerUseProtseq"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

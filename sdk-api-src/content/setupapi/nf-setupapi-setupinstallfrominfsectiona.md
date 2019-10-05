@@ -12,6 +12,8 @@ ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Se
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupInstallFromInfSection"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

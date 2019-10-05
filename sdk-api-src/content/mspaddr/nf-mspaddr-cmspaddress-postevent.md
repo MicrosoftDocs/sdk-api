@@ -12,6 +12,8 @@ ms.keywords: CMSPAddress interface [TAPI 2.2],PostEvent method, CMSPAddress.Post
 ms.topic: method
 f1_keywords: 
  - "mspaddr/CMSPAddress.PostEvent"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

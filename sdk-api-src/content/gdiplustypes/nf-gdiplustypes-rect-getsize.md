@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],Rect class, R
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.GetSize"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

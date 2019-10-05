@@ -12,6 +12,8 @@ ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_
 ms.topic: function
 f1_keywords: 
  - "winuser/keybd_event"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

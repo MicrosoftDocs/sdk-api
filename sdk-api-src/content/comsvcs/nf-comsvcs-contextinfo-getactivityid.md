@@ -12,6 +12,8 @@ ms.keywords: ContextInfo interface [COM+],GetActivityId method, ContextInfo.GetA
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ContextInfo.GetActivityId"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_VOLUME_STATUS, VDS_VOLUME_STATUS enumeration [VDS], VDS_VS_FAIL
 ms.topic: enum
 f1_keywords:
 - vds/VDS_VOLUME_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

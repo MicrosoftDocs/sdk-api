@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, PCLUSAPI_REMO
 ms.topic: function
 f1_keywords: 
  - "clusapi/RemoveResourceFromClusterSharedVolumes"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

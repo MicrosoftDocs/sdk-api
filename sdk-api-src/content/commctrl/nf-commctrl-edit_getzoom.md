@@ -12,6 +12,8 @@ ms.keywords: Edit_GetZoom, Edit_GetZoom macro [Windows Controls], commctrl/Edit_
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetZoom"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DBID Command Flags, DBID_BANDINFOCHANGED, DBID_MAXIMIZEBAND, DBID_P
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/tagDESKBANDCID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

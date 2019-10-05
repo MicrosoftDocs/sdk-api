@@ -12,6 +12,8 @@ ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFoc
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawFocusRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

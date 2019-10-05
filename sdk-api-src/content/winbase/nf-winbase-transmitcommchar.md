@@ -12,6 +12,8 @@ ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommcha
 ms.topic: function
 f1_keywords: 
  - "winbase/TransmitCommChar"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

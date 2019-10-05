@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorReplicateInt, XMVectorReplicateInt, XMVectorRe
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorReplicateInt"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

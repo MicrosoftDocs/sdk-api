@@ -12,6 +12,8 @@ ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuth
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBitsPeer.IsAuthenticated"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

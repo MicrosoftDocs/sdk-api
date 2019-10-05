@@ -12,6 +12,8 @@ ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate met
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage.GetDate"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

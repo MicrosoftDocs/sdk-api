@@ -12,6 +12,8 @@ ms.keywords: "*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set struc
 ms.topic: struct
 f1_keywords: 
  - "winsock/fd_set"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

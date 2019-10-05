@@ -12,6 +12,8 @@ ms.keywords: 5141e937-00ce-e7e4-cf38-b06ad4222cd4, DSSetSamplers, DSSetSamplers 
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DSSetSamplers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

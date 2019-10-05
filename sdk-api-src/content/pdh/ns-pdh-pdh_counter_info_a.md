@@ -12,6 +12,8 @@ ms.keywords: '*PPDH_COUNTER_INFO_A, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure
 ms.topic: struct
 f1_keywords:
 - pdh/PDH_COUNTER_INFO
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

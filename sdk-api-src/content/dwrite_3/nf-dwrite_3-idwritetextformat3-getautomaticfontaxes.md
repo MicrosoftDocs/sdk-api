@@ -10,6 +10,8 @@ ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes me
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteTextFormat3.GetAutomaticFontAxes"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

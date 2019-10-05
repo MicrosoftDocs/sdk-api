@@ -12,6 +12,8 @@ ms.keywords: GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchi
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSet.GetMatchingFonts"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

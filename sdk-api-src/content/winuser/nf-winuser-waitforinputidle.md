@@ -12,6 +12,8 @@ ms.keywords: WaitForInputIdle, WaitForInputIdle function, _win32_waitforinputidl
 ms.topic: function
 f1_keywords: 
  - "winuser/WaitForInputIdle"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

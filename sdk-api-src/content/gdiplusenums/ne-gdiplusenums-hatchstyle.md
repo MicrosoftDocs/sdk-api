@@ -12,6 +12,8 @@ ms.keywords: HatchStyle, HatchStyle enumeration [GDI+], HatchStyle05Percent, Hat
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/HatchStyle"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

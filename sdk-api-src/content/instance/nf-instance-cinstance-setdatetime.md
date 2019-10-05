@@ -12,6 +12,8 @@ ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CIns
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetDateTime"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, I
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPerChannelDbLevel.SetLevelUniform"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

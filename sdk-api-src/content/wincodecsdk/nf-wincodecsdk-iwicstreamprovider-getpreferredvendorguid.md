@@ -12,6 +12,8 @@ ms.keywords: GetPreferredVendorGUID, GetPreferredVendorGUID method [Windows Imag
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICStreamProvider.GetPreferredVendorGUID"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

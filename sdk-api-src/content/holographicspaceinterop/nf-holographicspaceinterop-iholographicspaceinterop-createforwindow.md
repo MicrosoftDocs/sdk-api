@@ -12,6 +12,8 @@ ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHo
 ms.topic: method
 f1_keywords: 
  - "holographicspaceinterop/IHolographicSpaceInterop.CreateForWindow"
+dev_langs:
+ - c++
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows

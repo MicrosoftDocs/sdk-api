@@ -12,6 +12,8 @@ ms.keywords: ECHUIM_DESKTOP, ECHUIM_IMMERSIVE, ECHUIM_SYSTEM_LAUNCHER, GetUIMode
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExecuteCommandHost.GetUIMode"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

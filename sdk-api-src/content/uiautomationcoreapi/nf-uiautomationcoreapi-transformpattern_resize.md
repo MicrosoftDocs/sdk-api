@@ -12,6 +12,8 @@ ms.keywords: TransformPattern_Resize, TransformPattern_Resize function [Windows 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TransformPattern_Resize"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

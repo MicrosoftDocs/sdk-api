@@ -12,6 +12,8 @@ ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSignal.GetSignalError"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

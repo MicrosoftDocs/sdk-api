@@ -12,6 +12,8 @@ ms.keywords: EVT_RPC_LOGIN, EVT_RPC_LOGIN structure [EventLog], wes.evt_rpc_logi
 ms.topic: struct
 f1_keywords:
 - winevt/EVT_RPC_LOGIN
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

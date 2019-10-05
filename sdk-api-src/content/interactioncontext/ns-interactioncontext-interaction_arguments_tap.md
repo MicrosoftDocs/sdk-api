@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_ARGUMENTS_TAP, INTERACTION_ARGUMENTS_TAP structure, inp
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/INTERACTION_ARGUMENTS_TAP"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

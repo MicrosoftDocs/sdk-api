@@ -12,6 +12,8 @@ ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType 
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.GetSurfaceType"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

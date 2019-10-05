@@ -12,6 +12,8 @@ ms.keywords: '*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Res
 ms.topic: struct
 f1_keywords:
 - restartmanager/RM_PROCESS_INFO
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

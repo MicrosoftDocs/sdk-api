@@ -12,6 +12,8 @@ ms.keywords: GetEffectivePermission, GetEffectivePermission method [Security], G
 ms.topic: method
 f1_keywords:
 - aclui/IEffectivePermission.GetEffectivePermission
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

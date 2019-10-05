@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/InetPton"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

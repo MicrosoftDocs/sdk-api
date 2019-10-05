@@ -12,6 +12,8 @@ ms.keywords: '*LPSERVICE_FAILURE_ACTIONSA, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_FAILURE_ACTIONS
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDo
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloader.BeginDownload"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

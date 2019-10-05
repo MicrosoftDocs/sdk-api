@@ -12,6 +12,8 @@ ms.keywords: ISchemaProvider interface [search],SaveBinary method, ISchemaProvid
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ISchemaProvider.SaveBinary"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

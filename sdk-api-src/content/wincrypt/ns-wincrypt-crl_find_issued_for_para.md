@@ -12,6 +12,8 @@ ms.keywords: "*PCRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISS
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRL_FIND_ISSUED_FOR_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

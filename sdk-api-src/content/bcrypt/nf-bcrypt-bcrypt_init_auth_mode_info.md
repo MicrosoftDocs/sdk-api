@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Secur
 ms.topic: macro
 f1_keywords: 
  - "bcrypt/BCRYPT_INIT_AUTH_MODE_INFO"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

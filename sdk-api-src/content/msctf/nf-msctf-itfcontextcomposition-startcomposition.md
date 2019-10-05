@@ -12,6 +12,8 @@ ms.keywords: ITfContextComposition interface [Text Services Framework],StartComp
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextComposition.StartComposition"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

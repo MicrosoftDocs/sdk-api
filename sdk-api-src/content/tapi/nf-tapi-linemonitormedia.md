@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineMonitorMedia"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

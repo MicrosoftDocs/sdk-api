@@ -12,6 +12,8 @@ ms.keywords: 74b8e3dc-7bea-4188-bd0d-681e4661828c, IInkEdit interface [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Refresh"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

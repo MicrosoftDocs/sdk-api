@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4Dot, XMVector4Dot, XMVector4Dot method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4Dot"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_SELECT_STRUCT_W, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT str
 ms.topic: struct
 f1_keywords:
 - cryptdlg/CERT_SELECT_STRUCT
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

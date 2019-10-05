@@ -12,6 +12,8 @@ ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],des
 ms.topic: class
 f1_keywords: 
  - "gdiplusbase/GdiplusBase"
+dev_langs:
+ - c++
 req.header: gdiplusbase.h
 req.include-header: 
 req.target-type: Windows

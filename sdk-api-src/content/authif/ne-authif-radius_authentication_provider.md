@@ -12,6 +12,8 @@ ms.keywords: RADIUS_AUTHENTICATION_PROVIDER, RADIUS_AUTHENTICATION_PROVIDER enum
 ms.topic: enum
 f1_keywords:
 - authif/RADIUS_AUTHENTICATION_PROVIDER
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

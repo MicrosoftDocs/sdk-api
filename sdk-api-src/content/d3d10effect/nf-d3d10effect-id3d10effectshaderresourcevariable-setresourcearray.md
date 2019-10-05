@@ -12,6 +12,8 @@ ms.keywords: ID3D10EffectShaderResourceVariable interface [Direct3D 10],SetResou
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderResourceVariable.SetResourceArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

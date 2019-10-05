@@ -12,6 +12,8 @@ ms.keywords: 6697dbf5-60e9-3ccc-6423-5ef98be8d001, GetEvictionPriority, GetEvict
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Resource.GetEvictionPriority"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddSprites, AddSprites method [Direct2D], AddSprites method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SpriteBatch.AddSprites"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

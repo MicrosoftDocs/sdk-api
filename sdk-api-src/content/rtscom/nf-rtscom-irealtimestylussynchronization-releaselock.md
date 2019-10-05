@@ -12,6 +12,8 @@ ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronizatio
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylusSynchronization.ReleaseLock"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

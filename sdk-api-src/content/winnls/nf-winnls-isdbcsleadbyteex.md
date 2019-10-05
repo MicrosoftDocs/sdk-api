@@ -12,6 +12,8 @@ ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, IsDBCSLeadByteEx, IsDBCS
 ms.topic: function
 f1_keywords: 
  - "winnls/IsDBCSLeadByteEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

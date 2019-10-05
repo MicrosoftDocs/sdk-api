@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDire
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.SetClipper"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

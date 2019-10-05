@@ -12,6 +12,8 @@ ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_IN
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

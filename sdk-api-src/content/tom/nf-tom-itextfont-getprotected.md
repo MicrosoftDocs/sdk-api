@@ -12,6 +12,8 @@ ms.keywords: GetProtected, GetProtected method [Windows Controls], GetProtected 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetProtected"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

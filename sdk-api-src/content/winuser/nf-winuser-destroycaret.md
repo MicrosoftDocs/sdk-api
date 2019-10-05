@@ -12,6 +12,8 @@ ms.keywords: DestroyCaret, DestroyCaret function [Menus and Other Resources], _w
 ms.topic: function
 f1_keywords: 
  - "winuser/DestroyCaret"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFolderView, IFolderView interface [Windows Shell], IFolderView int
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IFolderView"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

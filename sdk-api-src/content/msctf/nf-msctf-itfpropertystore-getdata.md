@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [Text Services Framework], GetData method [
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPropertyStore.GetData"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_DA_COLOR"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

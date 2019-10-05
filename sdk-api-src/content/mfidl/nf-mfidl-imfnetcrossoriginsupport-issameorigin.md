@@ -12,6 +12,8 @@ ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCrossOriginSupport::IsSameOrigin"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

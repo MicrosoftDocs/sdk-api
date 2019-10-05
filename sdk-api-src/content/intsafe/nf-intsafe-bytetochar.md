@@ -12,6 +12,8 @@ ms.keywords: ByteToChar, ByteToChar function [Windows Shell], intsafe/ByteToChar
 ms.topic: function
 f1_keywords: 
  - "intsafe/ByteToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

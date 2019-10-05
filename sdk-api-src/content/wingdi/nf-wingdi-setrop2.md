@@ -12,6 +12,8 @@ ms.keywords: R2_BLACK, R2_COPYPEN, R2_MASKNOTPEN, R2_MASKPEN, R2_MASKPENNOT, R2_
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetROP2"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

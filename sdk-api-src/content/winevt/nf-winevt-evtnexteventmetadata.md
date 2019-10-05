@@ -12,6 +12,8 @@ ms.keywords: EvtNextEventMetadata, EvtNextEventMetadata function [EventLog], wes
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtNextEventMetadata"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

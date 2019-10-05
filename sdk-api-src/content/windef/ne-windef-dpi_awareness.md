@@ -12,6 +12,8 @@ ms.keywords: DPI_AWARENESS, DPI_AWARENESS enumeration, DPI_AWARENESS enumeration
 ms.topic: enum
 f1_keywords: 
  - "windef/DPI_AWARENESS"
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: 
 req.target-type: Windows

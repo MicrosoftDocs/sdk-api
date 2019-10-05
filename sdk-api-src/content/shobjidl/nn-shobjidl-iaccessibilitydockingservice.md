@@ -12,6 +12,8 @@ ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interfac
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IAccessibilityDockingService"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

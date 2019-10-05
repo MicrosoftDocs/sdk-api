@@ -12,6 +12,8 @@ ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnSetPres
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleGrabberSinkCallback.OnSetPresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

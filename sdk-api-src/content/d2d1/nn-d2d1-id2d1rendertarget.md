@@ -12,6 +12,8 @@ ms.keywords: ID2D1RenderTarget, ID2D1RenderTarget interface [Direct2D], ID2D1Ren
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ACCESS_INDIVIDUAL_SETTING, ACCESS_SCHEME, ACCESS_SUBGROUP, GUID_BAT
 ms.topic: function
 f1_keywords:
 - powrprof/PowerEnumerate
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

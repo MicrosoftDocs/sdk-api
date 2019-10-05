@@ -12,6 +12,8 @@ ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], IM
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMpeg2Demultiplexer"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

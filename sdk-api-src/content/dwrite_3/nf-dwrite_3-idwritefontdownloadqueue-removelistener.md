@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener me
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontDownloadQueue.RemoveListener"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

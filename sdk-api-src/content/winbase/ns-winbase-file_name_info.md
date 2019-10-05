@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_NAME_INFO, FILE_NAME_INFO, FILE_NAME_INFO structure [Files]
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_NAME_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

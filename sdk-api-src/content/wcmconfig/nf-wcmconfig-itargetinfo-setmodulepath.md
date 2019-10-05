@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetMo
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.SetModulePath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

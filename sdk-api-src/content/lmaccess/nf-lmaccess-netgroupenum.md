@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, NetGroupEnum, NetGroupEnum function [Network Management
 ms.topic: function
 f1_keywords:
 - lmaccess/NetGroupEnum
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

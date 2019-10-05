@@ -12,6 +12,8 @@ ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberN
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.AddNonMemberName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e, GetCapabilities, GetCapabilit
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.GetCapabilities"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

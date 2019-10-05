@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveR
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

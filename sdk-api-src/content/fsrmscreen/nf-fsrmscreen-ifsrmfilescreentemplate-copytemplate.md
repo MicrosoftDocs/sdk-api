@@ -12,6 +12,8 @@ ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], C
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenTemplate.CopyTemplate"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

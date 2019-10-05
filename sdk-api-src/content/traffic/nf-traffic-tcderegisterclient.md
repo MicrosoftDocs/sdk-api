@@ -12,6 +12,8 @@ ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcdere
 ms.topic: function
 f1_keywords: 
  - "traffic/TcDeregisterClient"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

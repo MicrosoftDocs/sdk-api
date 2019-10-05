@@ -12,6 +12,8 @@ ms.keywords: NtQuerySystemTime, NtQuerySystemTime function, base.ntquerysystemti
 ms.topic: function
 f1_keywords: 
  - "winternl/NtQuerySystemTime"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

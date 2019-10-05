@@ -12,6 +12,8 @@ ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_set
 ms.topic: function
 f1_keywords:
 - timezoneapi/SetTimeZoneInformation
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration interface [Fax Service],UseDeviceTSID property, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.UseDeviceTSID"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SOCKADDR, PWRDS_SOCKADDR, PWRDS_SOCKADDR structure pointer [
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_SOCKADDR"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

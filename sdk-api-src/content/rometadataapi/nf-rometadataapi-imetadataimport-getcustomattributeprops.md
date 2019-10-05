@@ -12,6 +12,8 @@ ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Ru
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetCustomAttributeProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

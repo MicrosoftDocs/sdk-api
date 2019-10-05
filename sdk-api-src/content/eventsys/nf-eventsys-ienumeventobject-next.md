@@ -12,6 +12,8 @@ ms.keywords: IEnumEventObject interface [COM+],Next method, IEnumEventObject.Nex
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEnumEventObject.Next"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

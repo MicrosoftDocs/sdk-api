@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice3 interface [DXGI],Trim method, IDXGIDevice3.Trim, IDXGI
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIDevice3.Trim"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

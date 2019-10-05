@@ -12,6 +12,8 @@ ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTimecodeDisplay.SetTCDisplayEnable"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

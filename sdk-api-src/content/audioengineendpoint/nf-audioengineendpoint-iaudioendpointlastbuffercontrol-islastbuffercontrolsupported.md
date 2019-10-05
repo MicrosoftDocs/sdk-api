@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],IsLastBuffer
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointLastBufferControl.IsLastBufferControlSupported"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

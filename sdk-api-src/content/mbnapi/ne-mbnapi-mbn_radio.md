@@ -12,6 +12,8 @@ ms.keywords: MBN_RADIO, MBN_RADIO enumeration [Microsoft Broadband Networks], MB
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_RADIO"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

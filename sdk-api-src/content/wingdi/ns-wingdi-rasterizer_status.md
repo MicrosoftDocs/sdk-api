@@ -12,6 +12,8 @@ ms.keywords: "*LPRASTERIZER_STATUS, LPRASTERIZER_STATUS, LPRASTERIZER_STATUS str
 ms.topic: struct
 f1_keywords: 
  - "wingdi/RASTERIZER_STATUS"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

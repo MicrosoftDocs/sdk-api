@@ -12,6 +12,8 @@ ms.keywords: 1e5f1635-51fe-4394-8a25-dcee3f55c711, GetFilteringRange, GetFilteri
 ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.GetFilteringRange
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

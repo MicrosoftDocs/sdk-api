@@ -12,6 +12,8 @@ ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction in
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IExecAction"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

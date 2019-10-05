@@ -12,6 +12,8 @@ ms.keywords: GetProcAddress, GetProcAddress function, _win32_getprocaddress, bas
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/GetProcAddress"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

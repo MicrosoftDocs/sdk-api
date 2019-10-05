@@ -12,6 +12,8 @@ ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync
 ms.topic: method
 f1_keywords: 
  - "winsync/IKnowledgeSyncProvider.GetSyncBatchParameters"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

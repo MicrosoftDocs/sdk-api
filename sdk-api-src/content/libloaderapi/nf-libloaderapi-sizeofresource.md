@@ -12,6 +12,8 @@ ms.keywords: SizeofResource, SizeofResource function [Menus and Other Resources]
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/SizeofResource"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

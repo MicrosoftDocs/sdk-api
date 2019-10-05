@@ -12,6 +12,8 @@ ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows AP
 ms.topic: function
 f1_keywords: 
  - "featurestagingapi/GetFeatureEnabledState"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

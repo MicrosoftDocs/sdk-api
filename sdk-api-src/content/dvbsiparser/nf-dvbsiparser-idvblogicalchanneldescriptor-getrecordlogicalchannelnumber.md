@@ -12,6 +12,8 @@ ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

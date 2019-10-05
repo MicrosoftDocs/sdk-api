@@ -12,6 +12,8 @@ ms.keywords: RDCNEED_SEED, RDCNEED_SEED_MAX, RDCNEED_SOURCE, RDCNEED_TARGET, Rdc
 ms.topic: enum
 f1_keywords: 
  - "msrdc/RdcNeedType"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

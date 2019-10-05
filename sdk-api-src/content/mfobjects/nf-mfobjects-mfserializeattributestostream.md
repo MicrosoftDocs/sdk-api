@@ -12,6 +12,8 @@ ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream functi
 ms.topic: function
 f1_keywords: 
  - "mfobjects/MFSerializeAttributesToStream"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

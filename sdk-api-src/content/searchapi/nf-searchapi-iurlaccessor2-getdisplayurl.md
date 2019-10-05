@@ -12,6 +12,8 @@ ms.keywords: GetDisplayUrl, GetDisplayUrl method [search], GetDisplayUrl method 
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor2.GetDisplayUrl"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpaci
 ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.GetItemSpacing
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

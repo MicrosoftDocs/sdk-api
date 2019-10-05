@@ -12,6 +12,8 @@ ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.inter
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedIncrement16"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateString, CreateString method [Windows Runtime], CreateString m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateString"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

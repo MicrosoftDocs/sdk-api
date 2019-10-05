@@ -12,6 +12,8 @@ ms.keywords: RpcSmClientFree, RpcSmClientFree function [RPC], _rpc_rpcsmclientfr
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSmClientFree"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

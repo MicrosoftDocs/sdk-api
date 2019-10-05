@@ -12,6 +12,8 @@ ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [
 ms.topic: function
 f1_keywords: 
  - "faxdev/FaxDevVirtualDeviceCreation"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

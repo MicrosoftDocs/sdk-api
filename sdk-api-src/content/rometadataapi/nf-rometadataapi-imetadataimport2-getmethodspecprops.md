@@ -12,6 +12,8 @@ ms.keywords: GetMethodSpecProps, GetMethodSpecProps method [Windows Runtime], Ge
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport2.GetMethodSpecProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

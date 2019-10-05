@@ -12,6 +12,8 @@ ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxg
 ms.topic: function
 f1_keywords: 
  - "npapi/NPFMXGetPermCaps"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

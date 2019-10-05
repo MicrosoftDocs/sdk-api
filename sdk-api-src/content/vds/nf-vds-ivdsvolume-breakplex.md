@@ -12,6 +12,8 @@ ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolum
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.BreakPlex
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

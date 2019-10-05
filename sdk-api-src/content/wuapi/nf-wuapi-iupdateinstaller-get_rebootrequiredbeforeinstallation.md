@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstaller interface [Windows Update Agent],RebootRequiredBef
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.RebootRequiredBeforeInstallation"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

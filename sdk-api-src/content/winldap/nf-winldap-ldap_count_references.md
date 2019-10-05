@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_count_references, ldap.ldap__count__references, ldap.ld
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_count_references"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDisplayText, GetDisplayText method [Windows Properties], GetDisp
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType.GetDisplayText"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

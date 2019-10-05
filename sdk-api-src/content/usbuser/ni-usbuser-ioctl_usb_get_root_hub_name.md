@@ -12,6 +12,8 @@ ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, I
 ms.topic: ioctl
 f1_keywords: 
  - "usbuser/IOCTL_USB_GET_ROOT_HUB_NAME"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

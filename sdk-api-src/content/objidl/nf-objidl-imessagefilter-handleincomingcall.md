@@ -12,6 +12,8 @@ ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComing
 ms.topic: method
 f1_keywords: 
  - "objidl/IMessageFilter.HandleInComingCall"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

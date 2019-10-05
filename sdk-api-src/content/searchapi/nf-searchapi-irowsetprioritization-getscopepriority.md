@@ -12,6 +12,8 @@ ms.keywords: GetScopePriority, GetScopePriority method [search], GetScopePriorit
 ms.topic: method
 f1_keywords: 
  - "searchapi/IRowsetPrioritization.GetScopePriority"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

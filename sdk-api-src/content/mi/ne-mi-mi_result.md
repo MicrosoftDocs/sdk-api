@@ -12,6 +12,8 @@ ms.keywords: MI_RESULT_ACCESS_DENIED, MI_RESULT_ALREADY_EXISTS, MI_RESULT_CLASS_
 ms.topic: enum
 f1_keywords:
 - mi/_MI_Result
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

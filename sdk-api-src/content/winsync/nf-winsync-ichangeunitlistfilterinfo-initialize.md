@@ -12,6 +12,8 @@ ms.keywords: IChangeUnitListFilterInfo interface [Windows Sync],Initialize metho
 ms.topic: method
 f1_keywords: 
  - "winsync/IChangeUnitListFilterInfo.Initialize"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

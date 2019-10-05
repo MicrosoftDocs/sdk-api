@@ -12,6 +12,8 @@ ms.keywords: RtlAddFunctionTable, RtlAddFunctionTable function, base.rtladdfunct
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlAddFunctionTable"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

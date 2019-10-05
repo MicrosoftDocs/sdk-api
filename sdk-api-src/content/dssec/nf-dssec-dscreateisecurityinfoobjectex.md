@@ -12,6 +12,8 @@ ms.keywords: DSCreateISecurityInfoObjectEx, DSCreateISecurityInfoObjectEx functi
 ms.topic: function
 f1_keywords: 
  - "dssec/DSCreateISecurityInfoObjectEx"
+dev_langs:
+ - c++
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows

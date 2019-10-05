@@ -12,6 +12,8 @@ ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Priority property,
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethod.Priority"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTAG_TYPE, NS_REQ_ALLOW_MULTIPLE, NS_REQ_ONE_OR_MORE, NS_REQ_PRES
 ms.topic: struct
 f1_keywords: 
  - "netsh/TAG_TYPE"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

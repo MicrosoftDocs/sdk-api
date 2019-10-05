@@ -12,6 +12,8 @@ ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method [Direct3D 11], GetMin
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetMinFeatureLevel"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

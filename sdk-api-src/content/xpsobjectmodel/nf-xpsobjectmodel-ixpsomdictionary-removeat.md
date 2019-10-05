@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],RemoveAt m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDictionary.RemoveAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

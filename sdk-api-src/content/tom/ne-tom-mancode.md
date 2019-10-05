@@ -12,6 +12,8 @@ ms.keywords: MANCODE, MANCODE enumeration [Windows Controls], MBOLD, MFRAK, MGRE
 ms.topic: enum
 f1_keywords: 
  - "tom/MANCODE"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

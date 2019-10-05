@@ -12,6 +12,8 @@ ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structur
 ms.topic: method
 f1_keywords: 
  - "objidl/IFillLockBytes.FillAt"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

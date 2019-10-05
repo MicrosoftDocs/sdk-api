@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure 
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEPROXYREQUEST"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

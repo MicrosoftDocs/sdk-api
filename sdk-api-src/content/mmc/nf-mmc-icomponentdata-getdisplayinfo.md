@@ -12,6 +12,8 @@ ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method 
 ms.topic: method
 f1_keywords:
 - mmc/IComponentData.GetDisplayInfo
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

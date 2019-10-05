@@ -12,6 +12,8 @@ ms.keywords: GetControlStyle, GetControlStyle method [Windows Shell], GetControl
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControl2.GetControlStyle"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

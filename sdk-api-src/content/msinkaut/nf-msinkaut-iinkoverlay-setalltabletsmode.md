@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOve
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.SetAllTabletsMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

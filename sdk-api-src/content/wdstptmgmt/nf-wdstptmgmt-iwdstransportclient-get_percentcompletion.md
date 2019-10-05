@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Percent
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportClient.PercentCompletion"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

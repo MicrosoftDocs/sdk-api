@@ -12,6 +12,8 @@ ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop S
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioOutputEndpointRT.GetOutputDataPointer"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

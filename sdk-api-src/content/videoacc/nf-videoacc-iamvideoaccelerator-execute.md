@@ -12,6 +12,8 @@ ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],I
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.Execute
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

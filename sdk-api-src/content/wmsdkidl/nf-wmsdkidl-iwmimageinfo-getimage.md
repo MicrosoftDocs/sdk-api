@@ -12,6 +12,8 @@ ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMImageInfo.GetImage"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DdSwapTextureHandles, DdSwapTextureHandles function [Windows API], 
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdSwapTextureHandles"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

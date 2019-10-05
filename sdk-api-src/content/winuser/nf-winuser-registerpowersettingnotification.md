@@ -12,6 +12,8 @@ ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, Register
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterPowerSettingNotification"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

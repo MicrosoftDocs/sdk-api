@@ -12,6 +12,8 @@ ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [Dire
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.GetPointer"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

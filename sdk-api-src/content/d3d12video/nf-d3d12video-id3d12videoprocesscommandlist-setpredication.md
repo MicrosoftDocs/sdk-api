@@ -8,6 +8,10 @@ ms.assetid: 0ac39382-e939-4f20-b99d-0b3d9eac1ddc
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::SetPredication
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::SetPredication, SetPredication, ID3D12VideoProcessCommandList.SetPredication, ID3D12VideoProcessCommandList::SetPredication, ID3D12VideoProcessCommandList.SetPredication
 req.header: d3d12video.h
 req.include-header:

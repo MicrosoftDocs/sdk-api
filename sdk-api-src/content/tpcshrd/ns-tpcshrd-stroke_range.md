@@ -12,6 +12,8 @@ ms.keywords: STROKE_RANGE, STROKE_RANGE structure [Tablet PC], cae64877-2ea4-45a
 ms.topic: struct
 f1_keywords: 
  - "tpcshrd/STROKE_RANGE"
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: Tcpshrd.h
 req.target-type: Windows

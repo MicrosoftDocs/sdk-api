@@ -12,6 +12,8 @@ ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindowStyles method, I
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost2.TxGetWindowStyles"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

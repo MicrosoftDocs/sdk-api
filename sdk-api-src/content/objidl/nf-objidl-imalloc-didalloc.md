@@ -12,6 +12,8 @@ ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc inte
 ms.topic: method
 f1_keywords: 
  - "objidl/IMalloc.DidAlloc"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

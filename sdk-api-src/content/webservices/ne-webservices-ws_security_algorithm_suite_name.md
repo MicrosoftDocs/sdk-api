@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_ALGORITHM_SUITE_NAME, WS_SECURITY_ALGORITHM_SUITE_NAME 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_ALGORITHM_SUITE_NAME"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

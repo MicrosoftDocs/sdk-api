@@ -12,6 +12,8 @@ ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],
 ms.topic: method
 f1_keywords: 
  - "tuner/IESEventServiceConfiguration.RemoveGraph"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

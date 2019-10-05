@@ -12,6 +12,8 @@ ms.keywords: "*PWTSLISTENERCONFIGA, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTE
 ms.topic: struct
 f1_keywords: 
  - "wtsapi32/WTSLISTENERCONFIG"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

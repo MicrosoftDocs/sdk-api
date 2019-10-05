@@ -12,6 +12,8 @@ ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTER
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_INTERFACE_VERSION"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

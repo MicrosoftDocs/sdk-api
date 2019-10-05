@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IM
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.OpenDatabase"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

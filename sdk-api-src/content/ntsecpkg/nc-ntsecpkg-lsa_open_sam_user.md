@@ -12,6 +12,8 @@ ms.keywords: FALSE, LSA_OPEN_SAM_USER, LSA_OPEN_SAM_USER callback, OpenSamUser, 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/OpenSamUser
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

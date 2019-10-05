@@ -12,6 +12,8 @@ ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoveren
 ms.topic: function
 f1_keywords: 
  - "ktmw32/RecoverEnlistment"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeActio
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.EndInvokeAction"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

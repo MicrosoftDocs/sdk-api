@@ -12,6 +12,8 @@ ms.keywords: GetItemsArray, GetItemsArray method [Windows Shell], GetItemsArray 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflict.GetItemsArray"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

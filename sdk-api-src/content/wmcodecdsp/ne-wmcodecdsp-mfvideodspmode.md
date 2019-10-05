@@ -12,6 +12,8 @@ ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVi
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/MFVideoDSPMode"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

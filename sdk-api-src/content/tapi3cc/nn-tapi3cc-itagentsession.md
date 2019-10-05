@@ -12,6 +12,8 @@ ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession
 ms.topic: interface
 f1_keywords: 
  - "tapi3cc/ITAgentSession"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

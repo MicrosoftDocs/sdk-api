@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_AES_128_KEY_STATE"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

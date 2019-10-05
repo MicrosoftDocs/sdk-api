@@ -12,6 +12,8 @@ ms.keywords: CAStoreTypeWStr property [Security], CAStoreTypeWStr property [Secu
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.CAStoreTypeWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

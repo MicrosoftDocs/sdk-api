@@ -12,6 +12,8 @@ ms.keywords: IProviderPublishing, IProviderPublishing interface, IProviderPublis
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPublishing"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

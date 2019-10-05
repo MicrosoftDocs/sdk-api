@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData func
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerGenericDialogData"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

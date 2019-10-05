@@ -12,6 +12,8 @@ ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SH
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegDeleteUSValue"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

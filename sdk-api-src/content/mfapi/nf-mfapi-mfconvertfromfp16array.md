@@ -12,6 +12,8 @@ ms.keywords: 5cc11d32-8dcd-491d-b3df-c0b061233038, MFConvertFromFP16Array, MFCon
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFConvertFromFP16Array"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWbemBackupRestore interface [Windows Management Instrumentation],R
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemBackupRestore.Restore"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

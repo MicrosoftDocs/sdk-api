@@ -12,6 +12,8 @@ ms.keywords: NdrAsyncServerCall, NdrAsyncServerCall function [RPC], rpc.ndrasync
 ms.topic: function
 f1_keywords: 
  - "rpcndr/NdrAsyncServerCall"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Devi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiRegisterDeviceInfo
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

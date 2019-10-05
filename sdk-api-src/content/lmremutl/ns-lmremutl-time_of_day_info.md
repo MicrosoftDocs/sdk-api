@@ -12,6 +12,8 @@ ms.keywords: "*LPTIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO, LPTIM
 ms.topic: struct
 f1_keywords: 
  - "lmremutl/TIME_OF_DAY_INFO"
+dev_langs:
+ - c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

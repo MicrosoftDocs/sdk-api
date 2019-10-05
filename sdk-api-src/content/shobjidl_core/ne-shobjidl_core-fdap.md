@@ -12,6 +12,8 @@ ms.keywords: FDAP, FDAP enumeration [Windows Shell], FDAP_BOTTOM, FDAP_TOP, _she
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FDAP"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

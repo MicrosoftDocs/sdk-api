@@ -12,6 +12,8 @@ ms.keywords: GetIDSelectorBytes, GetIDSelectorBytes method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

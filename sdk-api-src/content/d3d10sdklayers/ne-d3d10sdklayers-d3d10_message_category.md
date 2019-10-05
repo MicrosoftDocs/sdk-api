@@ -12,6 +12,8 @@ ms.keywords: 6e6b50e6-ab2a-be66-c2cd-8a6cb8f2e2a4, D3D10_MESSAGE_CATEGORY, D3D10
 ms.topic: enum
 f1_keywords: 
  - "d3d10sdklayers/D3D10_MESSAGE_CATEGORY"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

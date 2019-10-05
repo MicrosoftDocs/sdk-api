@@ -12,6 +12,8 @@ ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservi
 ms.topic: function
 f1_keywords: 
  - "winsvc/LockServiceDatabase"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

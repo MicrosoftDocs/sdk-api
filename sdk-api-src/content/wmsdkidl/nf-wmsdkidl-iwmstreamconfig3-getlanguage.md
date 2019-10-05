@@ -12,6 +12,8 @@ ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig3.GetLanguage"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

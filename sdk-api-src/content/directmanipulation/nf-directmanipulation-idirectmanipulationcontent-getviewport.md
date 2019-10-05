@@ -12,6 +12,8 @@ ms.keywords: GetViewport, GetViewport method [Direct Manipulation], GetViewport 
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationContent.GetViewport"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

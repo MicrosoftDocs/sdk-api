@@ -12,6 +12,8 @@ ms.keywords: VariantToInt16WithDefault, VariantToInt16WithDefault function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToInt16WithDefault"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

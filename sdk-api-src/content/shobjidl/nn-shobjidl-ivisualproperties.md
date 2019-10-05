@@ -12,6 +12,8 @@ ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVi
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IVisualProperties"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

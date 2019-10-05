@@ -12,6 +12,8 @@ ms.keywords: IAS_LOGGING_DAILY, IAS_LOGGING_MONTHLY, IAS_LOGGING_UNLIMITED_SIZE,
 ms.topic: enum
 f1_keywords:
 - sdoias/NEW_LOG_FILE_FREQUENCY
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

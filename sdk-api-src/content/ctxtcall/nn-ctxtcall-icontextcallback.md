@@ -12,6 +12,8 @@ ms.keywords: IContextCallback, IContextCallback interface [COM], IContextCallbac
 ms.topic: interface
 f1_keywords: 
  - "ctxtcall/IContextCallback"
+dev_langs:
+ - c++
 req.header: ctxtcall.h
 req.include-header: 
 req.target-type: Windows

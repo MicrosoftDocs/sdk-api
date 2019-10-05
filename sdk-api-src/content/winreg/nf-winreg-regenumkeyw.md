@@ -12,6 +12,8 @@ ms.keywords: RegEnumKey, RegEnumKey function, RegEnumKeyA, RegEnumKeyW, _win32_r
 ms.topic: function
 f1_keywords: 
  - "winreg/RegEnumKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ErrorCode, ErrorCode method [GPMC], ErrorCode method [GPMC],GPMStat
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStatusMessage.ErrorCode"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB
 ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_RSAKEY_BLOB
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

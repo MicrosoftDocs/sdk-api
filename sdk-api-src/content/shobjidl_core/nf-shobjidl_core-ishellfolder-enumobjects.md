@@ -12,6 +12,8 @@ ms.keywords: EnumObjects, EnumObjects method [Windows Shell], EnumObjects method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellFolder.EnumObjects"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

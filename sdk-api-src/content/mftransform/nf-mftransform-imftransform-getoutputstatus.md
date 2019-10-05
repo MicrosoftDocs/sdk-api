@@ -12,6 +12,8 @@ ms.keywords: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d, GetOutputStatus, GetOutputSta
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetOutputStatus"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

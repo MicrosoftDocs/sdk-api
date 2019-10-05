@@ -12,6 +12,8 @@ ms.keywords: GetAdjustedPalette, GetAdjustedPalette method [GDI+], GetAdjustedPa
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.GetAdjustedPalette"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

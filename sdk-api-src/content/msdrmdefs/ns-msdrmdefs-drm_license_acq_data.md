@@ -12,6 +12,8 @@ ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Direct
 ms.topic: struct
 f1_keywords: 
  - "msdrmdefs/DRM_LICENSE_ACQ_DATA"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

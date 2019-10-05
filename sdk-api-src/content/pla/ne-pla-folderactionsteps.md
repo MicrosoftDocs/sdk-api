@@ -12,6 +12,8 @@ ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], __MIDL___MI
 ms.topic: enum
 f1_keywords: 
  - "pla/FolderActionSteps"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

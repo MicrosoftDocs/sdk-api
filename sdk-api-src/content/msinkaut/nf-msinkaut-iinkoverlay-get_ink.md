@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],Ink property, IInkOverlay.Ink, II
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.Ink"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

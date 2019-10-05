@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice
 ms.topic: method
 f1_keywords:
 - dxgi1_5/IDXGIDevice4.ReclaimResources1
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

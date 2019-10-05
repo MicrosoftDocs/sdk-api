@@ -12,6 +12,8 @@ ms.keywords: PathIsUNCEx, PathIsUNCEx function [Windows Shell], pathcch/PathIsUN
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathIsUNCEx"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

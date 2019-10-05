@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumQueue 
 ms.topic: method
 f1_keywords: 
  - "tapi3/IEnumQueue.Clone"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

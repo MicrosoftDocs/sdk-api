@@ -12,6 +12,8 @@ ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions],
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartUri.ComparePartUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

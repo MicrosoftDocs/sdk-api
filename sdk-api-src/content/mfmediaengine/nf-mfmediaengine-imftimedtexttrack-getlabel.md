@@ -12,6 +12,8 @@ ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetLabel"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

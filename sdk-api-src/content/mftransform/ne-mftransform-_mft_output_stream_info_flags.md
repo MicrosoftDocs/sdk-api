@@ -12,6 +12,8 @@ ms.keywords: MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES, MFT_OUTPUT_STREAM_DISCARDABL
 ms.topic: enum
 f1_keywords:
 - mftransform/_MFT_OUTPUT_STREAM_INFO_FLAGS
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

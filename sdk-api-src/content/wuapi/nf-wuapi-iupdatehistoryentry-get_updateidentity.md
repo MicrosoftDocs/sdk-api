@@ -12,6 +12,8 @@ ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry.UpdateIdentity"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSy
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsSubSystem.SetControllerStatus"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

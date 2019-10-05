@@ -12,6 +12,8 @@ ms.keywords: '*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure po
 ms.topic: struct
 f1_keywords:
 - sspi/SECURITY_STRING
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

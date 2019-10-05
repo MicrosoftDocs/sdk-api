@@ -12,6 +12,8 @@ ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator inter
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocator.UninitializeSampleAllocator"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgPaint, ID2D1SvgPaint interface [Direct2D], ID2D1SvgPaint in
 ms.topic: interface
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPaint"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

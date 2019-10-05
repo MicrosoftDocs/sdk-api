@@ -12,6 +12,8 @@ ms.keywords: BACK, FRONT, INTERSECTING, PlaneIntersectionType, PlaneIntersection
 ms.topic: enum
 f1_keywords: 
  - "directxcollision/PlaneIntersectionType"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetServerName, MI_Class_GetServerName function [Windows Ma
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetServerName"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

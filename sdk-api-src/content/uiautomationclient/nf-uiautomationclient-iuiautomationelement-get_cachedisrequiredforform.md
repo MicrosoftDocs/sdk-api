@@ -12,6 +12,8 @@ ms.keywords: CachedIsRequiredForForm property [Windows Accessibility], CachedIsR
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedIsRequiredForForm"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

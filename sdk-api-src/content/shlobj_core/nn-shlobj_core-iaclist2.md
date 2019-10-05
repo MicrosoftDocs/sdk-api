@@ -12,6 +12,8 @@ ms.keywords: IACList2, IACList2 interface [Windows Shell], IACList2 interface [W
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IACList2"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

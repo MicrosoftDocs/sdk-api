@@ -12,6 +12,8 @@ ms.keywords: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_SUBOBJECT_TO_EXPORTS_
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

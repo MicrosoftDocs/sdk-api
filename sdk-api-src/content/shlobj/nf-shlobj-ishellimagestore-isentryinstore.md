@@ -12,6 +12,8 @@ ms.keywords: IShellImageStore interface [Windows Shell],IsEntryInStore method, I
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellImageStore.IsEntryInStore"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

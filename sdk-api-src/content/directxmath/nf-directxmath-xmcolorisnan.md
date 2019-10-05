@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorIsNaN, XMColorIsNaN, XMColorIsNaN method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorIsNaN"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

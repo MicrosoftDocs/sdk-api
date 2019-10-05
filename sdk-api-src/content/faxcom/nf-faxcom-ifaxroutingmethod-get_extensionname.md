@@ -12,6 +12,8 @@ ms.keywords: ExtensionName property [Fax Service], ExtensionName property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.ExtensionName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

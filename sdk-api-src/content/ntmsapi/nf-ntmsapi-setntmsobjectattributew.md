@@ -12,6 +12,8 @@ ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], Se
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SetNtmsObjectAttribute"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateR
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateRectRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

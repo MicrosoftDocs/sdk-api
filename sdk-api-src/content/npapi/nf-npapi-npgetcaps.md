@@ -12,6 +12,8 @@ ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTI
 ms.topic: function
 f1_keywords: 
  - "npapi/NPGetCaps"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

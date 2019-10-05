@@ -12,6 +12,8 @@ ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], P
 ms.topic: struct
 f1_keywords: 
  - "credssp/CREDSSP_CRED"
+dev_langs:
+ - c++
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDS_FAIL_CHECK_MEMBER, IDS_FAIL_DETECT_READ_ACCESS, IDS_FAIL_FIND_C
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.MSCEPErrorId"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

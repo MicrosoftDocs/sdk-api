@@ -12,6 +12,8 @@ ms.keywords: HT_ComputeRGBGammaTable, HT_ComputeRGBGammaTable function [Display 
 ms.topic: function
 f1_keywords: 
  - "winddi/HT_ComputeRGBGammaTable"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

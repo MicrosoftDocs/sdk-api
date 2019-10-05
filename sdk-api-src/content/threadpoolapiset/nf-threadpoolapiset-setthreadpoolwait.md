@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwa
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/SetThreadpoolWait"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

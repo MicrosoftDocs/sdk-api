@@ -12,6 +12,8 @@ ms.keywords: GetLocale, GetLocale method [Failover Cluster], GetLocale method [F
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterUIInfo.GetLocale"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

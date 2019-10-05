@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDis
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisherNotify.ResolveHandler
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

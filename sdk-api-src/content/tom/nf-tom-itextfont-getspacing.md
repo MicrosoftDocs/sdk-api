@@ -12,6 +12,8 @@ ms.keywords: GetSpacing, GetSpacing method [Windows Controls], GetSpacing method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetSpacing"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

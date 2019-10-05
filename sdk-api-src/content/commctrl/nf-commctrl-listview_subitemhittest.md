@@ -12,6 +12,8 @@ ms.keywords: ListView_SubItemHitTest, ListView_SubItemHitTest macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SubItemHitTest"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuditLogon, AuditLogon callback function [Security], LSA_AUDIT_LOGO
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/AuditLogon
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

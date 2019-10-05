@@ -12,6 +12,8 @@ ms.keywords: FireESEvent, FireESEvent method [Microsoft TV Technologies], FireES
 ms.topic: method
 f1_keywords: 
  - "tuner/IESEventService.FireESEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

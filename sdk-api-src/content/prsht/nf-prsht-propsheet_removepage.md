@@ -12,6 +12,8 @@ ms.keywords: PropSheet_RemovePage, PropSheet_RemovePage macro [Windows Controls]
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_RemovePage
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

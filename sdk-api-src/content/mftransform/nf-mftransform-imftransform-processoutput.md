@@ -12,6 +12,8 @@ ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMF
 ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.ProcessOutput
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

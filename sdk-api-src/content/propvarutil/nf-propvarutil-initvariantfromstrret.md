@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromStrRet, InitVariantFromStrRet function [Windows Prop
 ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromStrRet
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

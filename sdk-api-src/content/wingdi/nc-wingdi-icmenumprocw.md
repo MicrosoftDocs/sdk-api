@@ -12,6 +12,8 @@ ms.keywords: ICMENUMPROC, ICMENUMPROC callback, ICMENUMPROC callback function [W
 ms.topic: callback
 f1_keywords: 
  - "wingdi/ICMENUMPROC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

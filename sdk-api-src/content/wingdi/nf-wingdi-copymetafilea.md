@@ -12,6 +12,8 @@ ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, C
 ms.topic: function
 f1_keywords: 
  - "wingdi/CopyMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

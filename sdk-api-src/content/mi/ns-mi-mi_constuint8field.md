@@ -12,6 +12,8 @@ ms.keywords: MI_ConstUint8Field, MI_ConstUint8Field structure [Windows Managemen
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstUint8Field
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

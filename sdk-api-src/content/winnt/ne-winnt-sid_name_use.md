@@ -12,6 +12,8 @@ ms.keywords: "*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [
 ms.topic: enum
 f1_keywords: 
  - "winnt/SID_NAME_USE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

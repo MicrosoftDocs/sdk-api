@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSy
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsSubSystemNaming"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

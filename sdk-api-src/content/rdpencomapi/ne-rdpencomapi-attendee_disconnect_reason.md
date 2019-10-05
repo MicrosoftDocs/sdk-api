@@ -12,6 +12,8 @@ ms.keywords: ATTENDEE_DISCONNECT_REASON, ATTENDEE_DISCONNECT_REASON enumeration 
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/ATTENDEE_DISCONNECT_REASON"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

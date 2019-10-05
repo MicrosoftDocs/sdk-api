@@ -12,6 +12,8 @@ ms.keywords: '*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERM
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_FREEDRIVERMEMORYDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

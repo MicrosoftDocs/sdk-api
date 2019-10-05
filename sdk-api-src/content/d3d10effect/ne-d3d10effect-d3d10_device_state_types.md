@@ -12,6 +12,8 @@ ms.keywords: D3D10_DEVICE_STATE_TYPES, D3D10_DEVICE_STATE_TYPES enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "d3d10effect/D3D10_DEVICE_STATE_TYPES"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

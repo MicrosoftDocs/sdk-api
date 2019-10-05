@@ -12,6 +12,8 @@ ms.keywords: StrSpn, StrSpn function [Windows Shell], StrSpnA, StrSpnW, _win32_S
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrSpn"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

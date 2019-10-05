@@ -12,6 +12,8 @@ ms.keywords: "*LPSCROLLBARINFO, *PSCROLLBARINFO, LPSCROLLBARINFO, LPSCROLLBARINF
 ms.topic: struct
 f1_keywords: 
  - "winuser/SCROLLBARINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

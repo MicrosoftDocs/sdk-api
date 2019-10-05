@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], IADsPropertyLi
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsPropertyList"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

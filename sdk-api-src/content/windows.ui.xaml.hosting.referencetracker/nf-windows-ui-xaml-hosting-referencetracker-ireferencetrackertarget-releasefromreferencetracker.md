@@ -12,6 +12,8 @@ ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],ReleaseFromRefe
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.ReleaseFromReferenceTracker"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

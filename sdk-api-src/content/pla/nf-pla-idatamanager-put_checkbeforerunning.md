@@ -12,6 +12,8 @@ ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.CheckBeforeRunning"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

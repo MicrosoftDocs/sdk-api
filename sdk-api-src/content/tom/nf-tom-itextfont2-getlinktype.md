@@ -12,6 +12,8 @@ ms.keywords: GetLinkType, GetLinkType method [Windows Controls], GetLinkType met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetLinkType"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

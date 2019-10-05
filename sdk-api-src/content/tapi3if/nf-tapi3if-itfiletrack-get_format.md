@@ -12,6 +12,8 @@ ms.keywords: ITFileTrack interface [TAPI 2.2],get_Format method, ITFileTrack.get
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITFileTrack.get_Format"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

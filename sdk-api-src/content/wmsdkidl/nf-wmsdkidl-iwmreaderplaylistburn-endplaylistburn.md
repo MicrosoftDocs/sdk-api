@@ -12,6 +12,8 @@ ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], End
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

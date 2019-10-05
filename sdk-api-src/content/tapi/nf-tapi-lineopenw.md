@@ -12,6 +12,8 @@ ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2]
 ms.topic: function
 f1_keywords: 
  - "tapi/lineOpen"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

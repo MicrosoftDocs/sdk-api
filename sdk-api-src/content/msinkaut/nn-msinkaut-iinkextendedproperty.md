@@ -12,6 +12,8 @@ ms.keywords: 53146f37-343a-4886-a0bb-d76d50ca96ba, IInkExtendedProperty, IInkExt
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkExtendedProperty"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

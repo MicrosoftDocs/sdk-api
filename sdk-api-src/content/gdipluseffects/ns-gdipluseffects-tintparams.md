@@ -12,6 +12,8 @@ ms.keywords: TintParams, TintParams structure [GDI+], _gdiplus_STRUC_TintParams,
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/TintParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

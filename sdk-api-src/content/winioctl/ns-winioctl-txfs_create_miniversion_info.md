@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO, PTX
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_CREATE_MINIVERSION_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

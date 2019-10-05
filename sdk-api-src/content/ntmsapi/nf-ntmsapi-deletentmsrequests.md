@@ -12,6 +12,8 @@ ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBRE
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DeleteNtmsRequests"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

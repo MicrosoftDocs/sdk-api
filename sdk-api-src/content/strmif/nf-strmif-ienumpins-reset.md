@@ -12,6 +12,8 @@ ms.keywords: IEnumPins interface [DirectShow],Reset method, IEnumPins.Reset, IEn
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumPins.Reset"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

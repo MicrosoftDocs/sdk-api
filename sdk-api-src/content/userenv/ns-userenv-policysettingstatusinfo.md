@@ -12,6 +12,8 @@ ms.keywords: "*LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO, LPPOLICYSET
 ms.topic: struct
 f1_keywords: 
  - "userenv/POLICYSETTINGSTATUSINFO"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

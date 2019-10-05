@@ -12,6 +12,8 @@ ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructu
 ms.topic: struct
 f1_keywords:
 - mi/MI_FilterFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPropertyOrigin, GetPropertyOrigin method [Windows Management Ins
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.GetPropertyOrigin"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

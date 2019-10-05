@@ -12,6 +12,8 @@ ms.keywords: ICspInformation interface [Security],LegacyCsp property, ICspInform
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformation.LegacyCsp"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

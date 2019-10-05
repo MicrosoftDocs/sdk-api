@@ -12,6 +12,8 @@ ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IV
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.OpenDatabase"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

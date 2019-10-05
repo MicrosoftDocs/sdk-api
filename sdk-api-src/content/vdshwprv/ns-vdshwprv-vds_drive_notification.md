@@ -12,6 +12,8 @@ ms.keywords: VDS_DRIVE_NOTIFICATION, VDS_DRIVE_NOTIFICATION structure [VDS], VDS
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_DRIVE_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

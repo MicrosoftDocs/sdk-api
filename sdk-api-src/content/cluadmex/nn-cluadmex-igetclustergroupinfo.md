@@ -12,6 +12,8 @@ ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Clus
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IGetClusterGroupInfo"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

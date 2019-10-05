@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMStoreFloat2, XMStoreFloat2, XMStoreFloat2 method [Di
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMStoreFloat2"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

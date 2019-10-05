@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL0, IKEEXT_CERTIFICATE_CREDENTIAL0 stru
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

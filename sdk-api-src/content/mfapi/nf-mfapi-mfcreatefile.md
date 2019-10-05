@@ -12,6 +12,8 @@ ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile fu
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateFile"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

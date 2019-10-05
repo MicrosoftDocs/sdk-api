@@ -12,6 +12,8 @@ ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interfac
 ms.topic: interface
 f1_keywords: 
  - "certpol/INDESPolicy"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

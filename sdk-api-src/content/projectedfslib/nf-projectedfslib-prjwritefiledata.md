@@ -12,6 +12,8 @@ ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledat
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjWriteFileData"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DispCallFunc, DispCallFunc function [Automation], _oa96_DispCallFun
 ms.topic: function
 f1_keywords: 
  - "oleauto/DispCallFunc"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

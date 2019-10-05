@@ -12,6 +12,8 @@ ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winba
 ms.topic: function
 f1_keywords: 
  - "winbase/UmsThreadYield"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

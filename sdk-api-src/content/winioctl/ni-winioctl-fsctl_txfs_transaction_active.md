@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_TRANSACTION_ACTIVE, FSCTL_TXFS_TRANSACTION_ACTIVE contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

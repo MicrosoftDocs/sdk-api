@@ -7,6 +7,8 @@ ms.keywords: MDNS_QUERY_CALLBACK
 ms.topic: language-reference
 f1_keywords: 
  - "windns/MDNS_QUERY_CALLBACK"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

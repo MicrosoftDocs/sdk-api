@@ -12,6 +12,8 @@ ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Form
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo3.GetAttributeCountEx"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

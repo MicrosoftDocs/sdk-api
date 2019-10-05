@@ -12,6 +12,8 @@ ms.keywords: 285d6ce3-f7f9-48b0-aaa2-d9ff8db732eb, DoesPropertyExist, DoesProper
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkExtendedProperties.DoesPropertyExist"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

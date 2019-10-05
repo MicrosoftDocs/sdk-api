@@ -12,6 +12,8 @@ ms.keywords: ILIsParent, ILIsParent function [Windows Shell], _win32_ILIsParent,
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsParent
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

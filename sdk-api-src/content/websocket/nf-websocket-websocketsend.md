@@ -12,6 +12,8 @@ ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketSend
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

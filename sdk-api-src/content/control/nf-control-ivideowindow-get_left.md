@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_Left method, IVideoWindow.g
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_Left"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

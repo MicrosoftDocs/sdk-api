@@ -12,6 +12,8 @@ ms.keywords: IFaxStatus interface [Fax Service],Tsid property, IFaxStatus.Tsid, 
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.Tsid"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

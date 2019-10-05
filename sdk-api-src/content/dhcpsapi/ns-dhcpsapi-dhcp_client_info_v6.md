@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_CLIENT_INFO_V6, ADDRESS_TYPE_IANA, ADDRESS_TYPE_IATA, DHCP
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_INFO_V6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WPCFLAG_IM_FEATURE, WPCFLAG_IM_FEATURE enumeration, WPCFLAG_IM_FEAT
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPCFLAG_IM_FEATURE"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

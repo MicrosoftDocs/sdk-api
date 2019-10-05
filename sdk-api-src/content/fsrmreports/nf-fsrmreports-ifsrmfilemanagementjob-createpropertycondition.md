@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Serve
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.CreatePropertyCondition"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMIQ_RPN_CONST, WMIQ_RPN_CONST2, WMIQ_RPN_FROM_CLASS_LIST, WMIQ_RPN
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/WMIQ_RPN_TOKEN_FLAGS"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

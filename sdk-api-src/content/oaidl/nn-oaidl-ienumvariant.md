@@ -12,6 +12,8 @@ ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT int
 ms.topic: interface
 f1_keywords: 
  - "oaidl/IEnumVARIANT"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

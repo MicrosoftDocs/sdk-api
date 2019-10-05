@@ -12,6 +12,8 @@ ms.keywords: "*LPOLERENDER, LPOLERENDER, LPOLERENDER enumeration pointer [COM], 
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLERENDER"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathIsDirectory, PathIsDirectory function [Windows Shell], PathIsDi
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsDirectory"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WM_CLIENT_PROPERTIES_EX, WM_CLIENT_PROPERTIES_EX structure [windows
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_CLIENT_PROPERTIES_EX"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

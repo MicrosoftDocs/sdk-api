@@ -12,6 +12,8 @@ ms.keywords: PathIsRelative, PathIsRelative function [Windows Shell], PathIsRela
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsRelative"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

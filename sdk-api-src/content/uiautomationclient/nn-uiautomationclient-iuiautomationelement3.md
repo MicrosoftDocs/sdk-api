@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationElement3, IUIAutomationElement3 interface [Windows Acc
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement3"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

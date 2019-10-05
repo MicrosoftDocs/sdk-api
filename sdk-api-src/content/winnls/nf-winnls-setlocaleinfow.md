@@ -12,6 +12,8 @@ ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Win
 ms.topic: function
 f1_keywords: 
  - "winnls/SetLocaleInfo"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

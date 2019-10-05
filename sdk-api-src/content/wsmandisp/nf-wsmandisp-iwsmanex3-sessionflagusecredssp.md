@@ -12,6 +12,8 @@ ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredS
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx3.SessionFlagUseCredSsp"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

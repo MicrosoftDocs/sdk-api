@@ -12,6 +12,8 @@ ms.keywords: 097621da-c273-d44e-6290-2a460f910e16, ClearStorageFilter, ClearStor
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.ClearStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

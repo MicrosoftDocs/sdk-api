@@ -12,6 +12,8 @@ ms.keywords: '*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer 
 ms.topic: struct
 f1_keywords:
 - sspi/SecBufferDesc
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

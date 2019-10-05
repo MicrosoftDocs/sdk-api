@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],get_Contrast method, IVideoPro
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.get_Contrast"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

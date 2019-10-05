@@ -12,6 +12,8 @@ ms.keywords: '*LPNTMS_OBJECTINFORMATIONW, LPNTMS_OBJECTINFORMATION, LPNTMS_OBJEC
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_OBJECTINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

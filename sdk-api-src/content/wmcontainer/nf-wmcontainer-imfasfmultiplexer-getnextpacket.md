@@ -12,6 +12,8 @@ ms.keywords: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7, GetNextPacket, GetNextPacket 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.GetNextPacket"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropVariantToDouble, PropVariantToDouble function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToDouble"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

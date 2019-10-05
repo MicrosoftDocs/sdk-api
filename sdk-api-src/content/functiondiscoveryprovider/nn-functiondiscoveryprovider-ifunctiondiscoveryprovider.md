@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, I
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProvider"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

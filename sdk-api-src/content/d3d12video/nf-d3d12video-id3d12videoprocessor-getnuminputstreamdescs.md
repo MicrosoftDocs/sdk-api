@@ -8,6 +8,10 @@ ms.assetid: 3e749d39-ade5-4d52-9d91-4a98ca5650b6
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessor::GetNumInputStreamDescs
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessor::GetNumInputStreamDescs, GetNumInputStreamDescs, ID3D12VideoProcessor.GetNumInputStreamDescs, ID3D12VideoProcessor::GetNumInputStreamDescs, ID3D12VideoProcessor.GetNumInputStreamDescs
 req.header: d3d12video.h
 req.include-header:

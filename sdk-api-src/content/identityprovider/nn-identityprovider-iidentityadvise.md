@@ -12,6 +12,8 @@ ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdv
 ms.topic: interface
 f1_keywords: 
  - "identityprovider/IIdentityAdvise"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

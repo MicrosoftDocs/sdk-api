@@ -12,6 +12,8 @@ ms.keywords: 30fa2907-7b07-b99a-b9b6-50d38166ea7d, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.SetTexture
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

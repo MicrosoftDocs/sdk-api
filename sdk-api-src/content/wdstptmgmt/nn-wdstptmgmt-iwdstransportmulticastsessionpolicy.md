@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionP
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportMulticastSessionPolicy"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

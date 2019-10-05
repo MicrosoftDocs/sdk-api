@@ -12,6 +12,8 @@ ms.keywords: IObjectCollection interface [Windows Shell],RemoveObjectAt method, 
 ms.topic: method
 f1_keywords: 
  - "objectarray/IObjectCollection.RemoveObjectAt"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClipGeometryLocal, GetClipGeometryLocal method [XPS Documents an
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.GetClipGeometryLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

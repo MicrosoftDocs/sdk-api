@@ -12,6 +12,8 @@ ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrM
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongPtrMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

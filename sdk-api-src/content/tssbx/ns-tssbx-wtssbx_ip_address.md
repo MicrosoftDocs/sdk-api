@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_IP_ADDRESS, WTSSBX_IP_ADDRESS structure [Remote Desktop Serv
 ms.topic: struct
 f1_keywords: 
  - "tssbx/WTSSBX_IP_ADDRESS"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer 
 ms.topic: interface
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchQueryHelper interface [search],get_QueryKeywordLocale method
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchQueryHelper.get_QueryKeywordLocale"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

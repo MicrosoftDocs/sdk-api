@@ -12,6 +12,8 @@ ms.keywords: NotificationKind, NotificationKind enumeration [Windows Accessibili
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/NotificationKind"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows

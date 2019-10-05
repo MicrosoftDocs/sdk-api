@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER, FILE_M
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_MAKE_COMPATIBLE_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

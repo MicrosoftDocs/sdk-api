@@ -12,6 +12,8 @@ ms.keywords: IMFSignedLibrary, IMFSignedLibrary interface [Media Foundation], IM
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSignedLibrary"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

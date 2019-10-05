@@ -12,6 +12,8 @@ ms.keywords: '*PNMCOMBOBOXEXW, NMCOMBOBOXEX, NMCOMBOBOXEX structure [Windows Con
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCOMBOBOXEX
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnInte
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterfaceEvents.OnInterfaceCapabilityAvailable"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

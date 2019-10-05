@@ -12,6 +12,8 @@ ms.keywords: "*PBLUETOOTH_AUTHENTICATION_METHOD, BLUETOOTH_AUTHENTICATION_METHOD
 ms.topic: enum
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

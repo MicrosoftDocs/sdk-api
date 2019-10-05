@@ -12,6 +12,8 @@ ms.keywords: EndItemTransfer, EndItemTransfer method [Picture Acquisition], EndI
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.EndItemTransfer"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

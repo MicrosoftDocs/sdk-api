@@ -12,6 +12,8 @@ ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/Ini
 ms.topic: function
 f1_keywords: 
  - "filehc/InitializeCache"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

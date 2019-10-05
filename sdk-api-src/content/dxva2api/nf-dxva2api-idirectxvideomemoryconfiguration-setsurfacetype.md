@@ -12,6 +12,8 @@ ms.keywords: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7, IDirectXVideoMemoryConfigurat
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoMemoryConfiguration.SetSurfaceType"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

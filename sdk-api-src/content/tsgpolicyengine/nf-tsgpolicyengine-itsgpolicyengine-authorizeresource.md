@@ -12,6 +12,8 @@ ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

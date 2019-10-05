@@ -12,6 +12,8 @@ ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.EvaluateMode"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

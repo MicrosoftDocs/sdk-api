@@ -12,6 +12,8 @@ ms.keywords: TreeView_SetIndent, TreeView_SetIndent macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_SetIndent"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDashStyle, GetDashStyle method [GDI+], GetDashStyle method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetDashStyle"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

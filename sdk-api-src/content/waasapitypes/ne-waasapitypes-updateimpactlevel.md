@@ -12,6 +12,8 @@ ms.keywords: UpdateImpactLevel, UpdateImpactLevel enumeration, UpdateImpactLevel
 ms.topic: enum
 f1_keywords: 
  - "waasapitypes/UpdateImpactLevel"
+dev_langs:
+ - c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows

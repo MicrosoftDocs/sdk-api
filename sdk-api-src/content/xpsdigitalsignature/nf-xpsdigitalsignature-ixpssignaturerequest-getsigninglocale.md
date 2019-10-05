@@ -12,6 +12,8 @@ ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.GetSigningLocale"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

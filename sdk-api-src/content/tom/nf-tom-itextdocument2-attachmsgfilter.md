@@ -12,6 +12,8 @@ ms.keywords: AttachMsgFilter, AttachMsgFilter method [Windows Controls], AttachM
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.AttachMsgFilter"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

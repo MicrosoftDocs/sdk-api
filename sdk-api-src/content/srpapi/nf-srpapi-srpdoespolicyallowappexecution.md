@@ -12,6 +12,8 @@ ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution
 ms.topic: function
 f1_keywords: 
  - "srpapi/SrpDoesPolicyAllowAppExecution"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

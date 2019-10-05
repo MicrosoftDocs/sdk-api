@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits fun
 ms.topic: function
 f1_keywords: 
  - "tapi/lineMonitorDigits"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEP
 ms.topic: struct
 f1_keywords: 
  - "oaidl/EXCEPINFO"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

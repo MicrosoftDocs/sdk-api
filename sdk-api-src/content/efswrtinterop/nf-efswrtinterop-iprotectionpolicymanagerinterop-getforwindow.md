@@ -12,6 +12,8 @@ ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWind
 ms.topic: method
 f1_keywords: 
  - "efswrtinterop/IProtectionPolicyManagerInterop.GetForWindow"
+dev_langs:
+ - c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

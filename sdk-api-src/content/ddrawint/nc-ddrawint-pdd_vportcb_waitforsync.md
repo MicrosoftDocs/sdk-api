@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortWaitForSync, DdVideoPortWaitForSync callback function [D
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortWaitForSync
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

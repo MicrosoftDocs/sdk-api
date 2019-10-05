@@ -12,6 +12,8 @@ ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegA
 ms.topic: interface
 f1_keywords: 
  - "mpegtype/IMpegAudioDecoder"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

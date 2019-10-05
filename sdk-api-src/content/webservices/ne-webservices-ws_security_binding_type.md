@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE, WS_KERBEROS_APREQ_MESSAG
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_BINDING_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

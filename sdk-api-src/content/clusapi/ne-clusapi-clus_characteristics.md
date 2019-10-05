@@ -12,6 +12,8 @@ ms.keywords: CLUS_CHARACTERISTICS, CLUS_CHARACTERISTICS enumeration [Failover Cl
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUS_CHARACTERISTICS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

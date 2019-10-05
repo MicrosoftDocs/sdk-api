@@ -12,6 +12,8 @@ ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterGraph2.RenderEx"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

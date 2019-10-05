@@ -12,6 +12,8 @@ ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ITs
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbSession"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEventOptions, GetEventOptions method [Windows Portable Devices S
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceCapabilities.GetEventOptions"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

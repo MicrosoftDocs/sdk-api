@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineremoveprovider, lineRemoveProvider, lineRemoveProvider 
 ms.topic: function
 f1_keywords: 
  - "tapi/lineRemoveProvider"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

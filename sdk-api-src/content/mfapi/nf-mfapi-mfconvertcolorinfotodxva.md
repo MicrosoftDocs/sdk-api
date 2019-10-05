@@ -12,6 +12,8 @@ ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFC
 ms.topic: function
 f1_keywords:
 - mfapi/MFConvertColorInfoToDXVA
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

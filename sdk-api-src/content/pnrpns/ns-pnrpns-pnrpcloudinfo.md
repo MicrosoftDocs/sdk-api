@@ -12,6 +12,8 @@ ms.keywords: '*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Netw
 ms.topic: struct
 f1_keywords:
 - pnrpns/PNRPCLOUDINFO
+dev_langs:
+ - c++
 req.header: pnrpns.h
 req.include-header: 
 req.target-type: Windows

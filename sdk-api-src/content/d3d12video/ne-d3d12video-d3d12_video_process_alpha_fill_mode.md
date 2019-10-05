@@ -8,6 +8,10 @@ ms.assetid: 828e0cbe-17ff-4830-8c95-997a6d53a994
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE, D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE, 
 req.header: d3d12video.h
 req.include-header:

@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationUIEvents, IWebApplicationUIEvents interface [Debuggi
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationUIEvents"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

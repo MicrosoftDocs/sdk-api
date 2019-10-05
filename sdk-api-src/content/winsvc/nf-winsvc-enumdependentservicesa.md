@@ -12,6 +12,8 @@ ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependen
 ms.topic: function
 f1_keywords:
 - winsvc/EnumDependentServices
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

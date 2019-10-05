@@ -12,6 +12,8 @@ ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceLis
 ms.topic: function
 f1_keywords: 
  - "msi/MsiSourceListClearAll"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

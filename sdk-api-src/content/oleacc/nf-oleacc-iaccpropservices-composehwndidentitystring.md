@@ -12,6 +12,8 @@ ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Window
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServices.ComposeHwndIdentityString"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

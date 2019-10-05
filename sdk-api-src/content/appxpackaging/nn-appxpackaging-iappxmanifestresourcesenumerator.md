@@ -12,6 +12,8 @@ ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator 
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxManifestResourcesEnumerator"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

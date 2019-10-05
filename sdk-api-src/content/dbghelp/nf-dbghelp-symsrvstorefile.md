@@ -12,6 +12,8 @@ ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EX
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSrvStoreFile"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

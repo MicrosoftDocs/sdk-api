@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],GetConstants method, GetConstants, GetConstants m
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.GetConstants"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

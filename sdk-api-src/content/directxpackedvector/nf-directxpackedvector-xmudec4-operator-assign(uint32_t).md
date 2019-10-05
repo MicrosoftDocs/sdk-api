@@ -9,6 +9,8 @@ ms.keywords: XMUDEC4::operator=
 ms.topic: language-reference
 f1_keywords: 
  - "directxpackedvector/XMUDEC4::operator="
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

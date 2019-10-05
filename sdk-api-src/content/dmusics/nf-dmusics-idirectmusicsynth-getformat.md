@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audi
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.GetFormat"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

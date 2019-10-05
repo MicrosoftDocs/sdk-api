@@ -12,6 +12,8 @@ ms.keywords: XInputGetBatteryInformation, XInputGetBatteryInformation function [
 ms.topic: function
 f1_keywords:
 - xinput/XInputGetBatteryInformation
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

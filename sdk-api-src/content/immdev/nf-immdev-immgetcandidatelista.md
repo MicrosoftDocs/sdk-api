@@ -12,6 +12,8 @@ ms.keywords: ImmGetCandidateList, ImmGetCandidateList function [Internationaliza
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmGetCandidateList"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

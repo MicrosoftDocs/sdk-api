@@ -12,6 +12,8 @@ ms.keywords: 320cc215-e4e5-4196-8e1b-ca0a30d01d37, DesiredPacketDescription prop
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.DesiredPacketDescription"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxePr
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeProviderRegister"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

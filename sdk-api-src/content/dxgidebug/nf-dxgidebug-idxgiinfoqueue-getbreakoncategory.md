@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [DXGI], GetBreakOnCat
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetBreakOnCategory"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

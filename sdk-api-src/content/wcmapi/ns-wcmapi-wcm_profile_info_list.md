@@ -12,6 +12,8 @@ ms.keywords: '*PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO
 ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_PROFILE_INFO_LIST
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

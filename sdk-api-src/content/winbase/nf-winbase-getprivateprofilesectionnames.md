@@ -12,6 +12,8 @@ ms.keywords: GetPrivateProfileSectionNames, GetPrivateProfileSectionNames functi
 ms.topic: function
 f1_keywords: 
  - "winbase/GetPrivateProfileSectionNames"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

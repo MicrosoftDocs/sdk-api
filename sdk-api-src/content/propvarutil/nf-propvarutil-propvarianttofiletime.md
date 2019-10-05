@@ -12,6 +12,8 @@ ms.keywords: PSTF_LOCAL, PSTF_UTC, PropVariantToFileTime, PropVariantToFileTime 
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToFileTime"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecVideoSoftwareDeinterlaceMode, codecapi/eAVDecVideoSo
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecVideoSoftwareDeinterlaceMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTracki
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComTrackingInfoObject.GetValue"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

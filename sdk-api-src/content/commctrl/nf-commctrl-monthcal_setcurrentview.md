@@ -12,6 +12,8 @@ ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurre
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetCurrentView"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBaseClass, GetBaseClass method, GetBaseClass method,ID3D12Shader
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionType.GetBaseClass"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

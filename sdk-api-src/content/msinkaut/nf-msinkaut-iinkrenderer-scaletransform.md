@@ -12,6 +12,8 @@ ms.keywords: 63a7d5f7-2c93-4f45-ad8d-aa3f75f78eff, IInkRenderer interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.ScaleTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

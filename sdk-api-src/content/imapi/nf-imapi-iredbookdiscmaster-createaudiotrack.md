@@ -12,6 +12,8 @@ ms.keywords: CreateAudioTrack, CreateAudioTrack method [IMAPI], CreateAudioTrack
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.CreateAudioTrack"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

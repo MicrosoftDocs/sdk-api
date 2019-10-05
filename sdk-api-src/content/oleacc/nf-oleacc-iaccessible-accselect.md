@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAc
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.accSelect"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

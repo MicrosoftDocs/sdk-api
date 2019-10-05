@@ -12,6 +12,8 @@ ms.keywords: ISearchItemsChangedSink interface [search],StoppedMonitoringScope m
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchItemsChangedSink.StoppedMonitoringScope"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

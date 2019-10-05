@@ -12,6 +12,8 @@ ms.keywords: GPMSOM class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSec
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSOM.GetSecurityInfo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

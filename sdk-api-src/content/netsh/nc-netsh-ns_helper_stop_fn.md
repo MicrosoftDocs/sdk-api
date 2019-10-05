@@ -12,6 +12,8 @@ ms.keywords: NS_HELPER_STOP_FN, NS_HELPER_STOP_FN callback, NS_HELPER_STOP_FN ca
 ms.topic: callback
 f1_keywords:
 - netsh/NS_HELPER_STOP_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

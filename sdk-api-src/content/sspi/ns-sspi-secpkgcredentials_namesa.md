@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgCredentials_NamesA, PSecPkgCredentials_Names, PSecPkgCrede
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgCredentials_Names"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

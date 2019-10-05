@@ -12,6 +12,8 @@ ms.keywords: DeleteUser, DeleteUser method [Files], DeleteUser method [Files],ID
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.DeleteUser"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

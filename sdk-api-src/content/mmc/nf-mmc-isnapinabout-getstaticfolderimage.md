@@ -12,6 +12,8 @@ ms.keywords: GetStaticFolderImage, GetStaticFolderImage method [MMC], GetStaticF
 ms.topic: method
 f1_keywords: 
  - "mmc/ISnapinAbout.GetStaticFolderImage"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

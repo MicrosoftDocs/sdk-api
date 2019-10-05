@@ -12,6 +12,8 @@ ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferenced
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetDifferencedFile"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

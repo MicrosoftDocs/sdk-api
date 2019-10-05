@@ -12,6 +12,8 @@ ms.keywords: BeginPrepareVariants, BeginPrepareVariants method [COM+], BeginPrep
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensatorVariants.BeginPrepareVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

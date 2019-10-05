@@ -12,6 +12,8 @@ ms.keywords: "*PMPEG_HEADER_BITS, MPEG_HEADER_BITS, MPEG_HEADER_BITS structure [
 ms.topic: struct
 f1_keywords: 
  - "mpeg2bits/MPEG_HEADER_BITS"
+dev_langs:
+ - c++
 req.header: mpeg2bits.h
 req.include-header: Mpeg2Structs.h
 req.target-type: Windows

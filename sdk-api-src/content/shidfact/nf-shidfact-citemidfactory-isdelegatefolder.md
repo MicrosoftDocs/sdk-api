@@ -12,6 +12,8 @@ ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, C
 ms.topic: method
 f1_keywords: 
  - "shidfact/CItemIDFactory.IsDelegateFolder"
+dev_langs:
+ - c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTarge
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbOrchestration.PrepareTargetForConnect"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

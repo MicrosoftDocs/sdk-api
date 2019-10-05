@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAppVisibility.Advise"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

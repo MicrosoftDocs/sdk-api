@@ -12,6 +12,8 @@ ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig interface [M
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRFilterConfig.SetNumberOfStreams"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

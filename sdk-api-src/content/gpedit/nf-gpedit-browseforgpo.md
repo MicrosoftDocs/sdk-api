@@ -12,6 +12,8 @@ ms.keywords: BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browsefo
 ms.topic: function
 f1_keywords: 
  - "gpedit/BrowseForGPO"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

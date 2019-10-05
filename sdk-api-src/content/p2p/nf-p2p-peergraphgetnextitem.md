@@ -12,6 +12,8 @@ ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networkin
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGraphGetNextItem"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

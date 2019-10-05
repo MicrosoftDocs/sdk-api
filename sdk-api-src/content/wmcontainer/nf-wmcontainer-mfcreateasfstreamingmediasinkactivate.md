@@ -12,6 +12,8 @@ ms.keywords: MFCreateASFStreamingMediaSinkActivate, MFCreateASFStreamingMediaSin
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFStreamingMediaSinkActivate"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9f4cc882-c25f-4862-8b78-4db108d0b5d4, GetTabletContextIdFromTablet,
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetTabletContextIdFromTablet"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

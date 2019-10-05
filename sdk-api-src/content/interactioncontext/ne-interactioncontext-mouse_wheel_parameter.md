@@ -12,6 +12,8 @@ ms.keywords: MOUSE_WHEEL_PARAMETER, MOUSE_WHEEL_PARAMETER enumeration, MOUSE_WHE
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/MOUSE_WHEEL_PARAMETER"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

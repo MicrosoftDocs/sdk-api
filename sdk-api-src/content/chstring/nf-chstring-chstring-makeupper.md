@@ -12,6 +12,8 @@ ms.keywords: "?MakeUpper@CHString@@QAEXXZ, ?MakeUpper@CHString@@QEAAXXZ, CHStrin
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.MakeUpper"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

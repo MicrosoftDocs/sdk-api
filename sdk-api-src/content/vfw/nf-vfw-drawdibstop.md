@@ -12,6 +12,8 @@ ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_Draw
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibStop"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

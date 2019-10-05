@@ -12,6 +12,8 @@ ms.keywords: DRM_MSG_ACQUIRE_ADVISORY, DRM_MSG_ACQUIRE_CLIENTLICENSOR, DRM_MSG_A
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRM_STATUS_MSG"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

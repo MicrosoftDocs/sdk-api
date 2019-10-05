@@ -12,6 +12,8 @@ ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetLevel"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

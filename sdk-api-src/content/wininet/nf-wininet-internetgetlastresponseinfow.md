@@ -12,6 +12,8 @@ ms.keywords: InternetGetLastResponseInfo, InternetGetLastResponseInfo function [
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetGetLastResponseInfo"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

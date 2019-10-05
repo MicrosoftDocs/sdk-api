@@ -12,6 +12,8 @@ ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM
 ms.topic: function
 f1_keywords: 
  - "winternl/NtQuerySystemInformation"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

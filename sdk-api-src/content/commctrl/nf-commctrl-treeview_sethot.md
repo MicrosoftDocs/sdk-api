@@ -12,6 +12,8 @@ ms.keywords: TreeView_SetHot, TreeView_SetHot macro [Windows Controls], _win32_T
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_SetHot"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

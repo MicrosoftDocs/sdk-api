@@ -12,6 +12,8 @@ ms.keywords: GetTargetInfo, GetTargetInfo method [SMI], GetTargetInfo method [SM
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.GetTargetInfo"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

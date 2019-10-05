@@ -12,6 +12,8 @@ ms.keywords: IWSManResourceLocator, IWSManResourceLocator interface [Windows Rem
 ms.topic: interface
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFQualityAdvise.DropTime"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

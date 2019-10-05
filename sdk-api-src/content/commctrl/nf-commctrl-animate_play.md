@@ -12,6 +12,8 @@ ms.keywords: Animate_Play, Animate_Play macro [Windows Controls], _win32_Animate
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_Play"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

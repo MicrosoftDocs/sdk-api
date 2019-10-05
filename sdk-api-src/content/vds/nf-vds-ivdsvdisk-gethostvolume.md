@@ -12,6 +12,8 @@ ms.keywords: GetHostVolume, GetHostVolume method, GetHostVolume method,IVdsVDisk
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVDisk.GetHostVolume"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

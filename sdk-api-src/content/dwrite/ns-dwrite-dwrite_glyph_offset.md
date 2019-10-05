@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GLYPH_OFFSET, DWRITE_GLYPH_OFFSET structure [Direct Write], 
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_GLYPH_OFFSET"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

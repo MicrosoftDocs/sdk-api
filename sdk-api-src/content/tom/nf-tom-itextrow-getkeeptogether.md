@@ -12,6 +12,8 @@ ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeep
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetKeepTogether"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

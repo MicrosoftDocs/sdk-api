@@ -12,6 +12,8 @@ ms.keywords: UiaPropertyCondition, UiaPropertyCondition structure [Windows Acces
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaPropertyCondition"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

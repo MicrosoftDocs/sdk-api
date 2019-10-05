@@ -12,6 +12,8 @@ ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method 
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetSettingType"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

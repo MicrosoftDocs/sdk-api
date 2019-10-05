@@ -12,6 +12,8 @@ ms.keywords: COMGLB_UNMARSHALING_POLICY_HYBRID, COMGLB_UNMARSHALING_POLICY_NORMA
 ms.topic: enum
 f1_keywords: 
  - "objidlbase/GLOBALOPT_UNMARSHALING_POLICY_VALUES"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

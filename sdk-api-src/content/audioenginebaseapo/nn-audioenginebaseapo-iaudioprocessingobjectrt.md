@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObjectRT, IAudioProcessingObjectRT interface [Audio
 ms.topic: interface
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObjectRT"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

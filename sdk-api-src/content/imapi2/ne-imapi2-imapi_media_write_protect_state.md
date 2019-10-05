@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_MEDIA_WRITE_PROTECT_STATE, IMAPI_MEDIA_WRITE_PROTECT_STATE
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_MEDIA_WRITE_PROTECT_STATE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

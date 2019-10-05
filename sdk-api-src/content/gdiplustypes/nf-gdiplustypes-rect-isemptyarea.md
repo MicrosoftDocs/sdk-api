@@ -12,6 +12,8 @@ ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],R
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.IsEmptyArea"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

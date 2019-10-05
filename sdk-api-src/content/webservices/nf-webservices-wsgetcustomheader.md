@@ -12,6 +12,8 @@ ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Win
 ms.topic: function
 f1_keywords:
 - webservices/WsGetCustomHeader
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

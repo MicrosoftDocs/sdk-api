@@ -12,6 +12,8 @@ ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging 
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackageFamilyName"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

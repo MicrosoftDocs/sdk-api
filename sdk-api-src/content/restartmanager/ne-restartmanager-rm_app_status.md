@@ -12,6 +12,8 @@ ms.keywords: RM_APP_STATUS, RmStatusErrorOnRestart, RmStatusErrorOnStop, RmStatu
 ms.topic: enum
 f1_keywords:
 - restartmanager/RM_APP_STATUS
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

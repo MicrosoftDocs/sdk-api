@@ -12,6 +12,8 @@ ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],Mo
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleConnector.ModuleImplementation"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

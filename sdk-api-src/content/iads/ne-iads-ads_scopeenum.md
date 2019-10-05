@@ -12,6 +12,8 @@ ms.keywords: ADS_SCOPEENUM, ADS_SCOPEENUM enumeration [ADSI], ADS_SCOPE_BASE, AD
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SCOPEENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FlowDirections, FlowDirections enumeration [Windows Accessibility],
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/FlowDirections"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

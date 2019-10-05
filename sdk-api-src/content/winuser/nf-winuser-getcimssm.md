@@ -12,6 +12,8 @@ ms.keywords: GetCIMSSM, GetCIMSSM function, input_sourceid.getcimssm, winuser/Ge
 ms.topic: function
 f1_keywords: 
  - "winuser/GetCIMSSM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

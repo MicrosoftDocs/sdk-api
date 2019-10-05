@@ -12,6 +12,8 @@ ms.keywords: ImmSetConversionStatus, ImmSetConversionStatus function [Internatio
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmSetConversionStatus"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

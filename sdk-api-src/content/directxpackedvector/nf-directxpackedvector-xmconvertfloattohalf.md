@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMConvertFloatToHalf, XMConvertFloatToHalf, X
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMConvertFloatToHalf"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

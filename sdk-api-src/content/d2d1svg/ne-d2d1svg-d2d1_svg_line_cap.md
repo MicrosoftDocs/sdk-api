@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_LINE_CAP, D2D1_SVG_LINE_CAP enumeration [Direct2D], D2D1_S
 ms.topic: enum
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_LINE_CAP"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

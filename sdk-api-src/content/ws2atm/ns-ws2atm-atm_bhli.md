@@ -12,6 +12,8 @@ ms.keywords: ATM_BHLI, ATM_BHLI structure [Winsock], ATM_BHLI_IE, _win32_atm_bhl
 ms.topic: struct
 f1_keywords: 
  - "ws2atm/ATM_BHLI"
+dev_langs:
+ - c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows

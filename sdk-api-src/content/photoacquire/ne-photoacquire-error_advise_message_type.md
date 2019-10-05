@@ -12,6 +12,8 @@ ms.keywords: ERROR_ADVISE_MESSAGE_TYPE, ERROR_ADVISE_MESSAGE_TYPE enumeration [P
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/ERROR_ADVISE_MESSAGE_TYPE"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

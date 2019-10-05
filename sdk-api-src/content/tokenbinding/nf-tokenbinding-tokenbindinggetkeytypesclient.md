@@ -12,6 +12,8 @@ ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient functi
 ms.topic: function
 f1_keywords: 
  - "tokenbinding/TokenBindingGetKeyTypesClient"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

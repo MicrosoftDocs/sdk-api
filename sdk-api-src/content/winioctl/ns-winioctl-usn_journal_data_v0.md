@@ -12,6 +12,8 @@ ms.keywords: "*PUSN_JOURNAL_DATA, *PUSN_JOURNAL_DATA_V0, PUSN_JOURNAL_DATA, PUSN
 ms.topic: struct
 f1_keywords: 
  - "winioctl/USN_JOURNAL_DATA_V0"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

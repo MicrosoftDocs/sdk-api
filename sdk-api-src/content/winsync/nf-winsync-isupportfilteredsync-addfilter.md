@@ -12,6 +12,8 @@ ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windo
 ms.topic: method
 f1_keywords: 
  - "winsync/ISupportFilteredSync.AddFilter"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

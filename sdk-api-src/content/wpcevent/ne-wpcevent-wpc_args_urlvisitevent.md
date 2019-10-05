@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_URLVISITEVENT, WPC_ARGS_URLVISITEVENT enumeration, WPC_ARG
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_URLVISITEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

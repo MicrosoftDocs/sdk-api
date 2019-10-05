@@ -12,6 +12,8 @@ ms.keywords: Pen, Pen class [GDI+], Pen class [GDI+],described, _gdiplus_CLASS_P
 ms.topic: class
 f1_keywords: 
  - "gdipluspen/Pen"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: 
 req.target-type: Windows

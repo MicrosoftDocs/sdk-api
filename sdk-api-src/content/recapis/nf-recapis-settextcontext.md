@@ -12,6 +12,8 @@ ms.keywords: SetTextContext, SetTextContext function [Tablet PC], f5461326-3def-
 ms.topic: function
 f1_keywords: 
  - "recapis/SetTextContext"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

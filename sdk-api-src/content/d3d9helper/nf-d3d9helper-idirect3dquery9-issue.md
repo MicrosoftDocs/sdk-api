@@ -12,6 +12,8 @@ ms.keywords: 7cfc335e-94a2-b744-65d5-5e6014ce4ff5, IDirect3DQuery9 interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DQuery9.Issue"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

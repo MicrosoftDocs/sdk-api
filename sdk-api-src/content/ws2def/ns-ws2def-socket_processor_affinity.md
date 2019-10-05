@@ -12,6 +12,8 @@ ms.keywords: '*PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY, PSOCKET_P
 ms.topic: struct
 f1_keywords:
 - ws2def/SOCKET_PROCESSOR_AFFINITY
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PICMP4_TYPE, ICMP4_DST_UNREACH, ICMP4_ECHO_REPLY, ICMP4_ECHO_REQU
 ms.topic: enum
 f1_keywords: 
  - "ipmib/ICMP4_TYPE"
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll metho
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronizeInvoke.UpdateAll"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

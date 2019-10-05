@@ -12,6 +12,8 @@ ms.keywords: AutomationElementMode, AutomationElementMode enumeration [Windows A
 ms.topic: enum
 f1_keywords: 
  - "uiautomationclient/AutomationElementMode"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows

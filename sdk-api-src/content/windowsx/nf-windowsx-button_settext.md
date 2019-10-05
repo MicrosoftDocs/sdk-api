@@ -12,6 +12,8 @@ ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_But
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_SetText"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

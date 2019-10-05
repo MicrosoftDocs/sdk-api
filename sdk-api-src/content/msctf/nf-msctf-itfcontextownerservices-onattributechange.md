@@ -12,6 +12,8 @@ ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnAttri
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwnerServices.OnAttributeChange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

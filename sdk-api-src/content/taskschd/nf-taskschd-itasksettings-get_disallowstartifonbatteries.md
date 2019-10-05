@@ -12,6 +12,8 @@ ms.keywords: DisallowStartIfOnBatteries property [Task Scheduler], DisallowStart
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings.DisallowStartIfOnBatteries"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

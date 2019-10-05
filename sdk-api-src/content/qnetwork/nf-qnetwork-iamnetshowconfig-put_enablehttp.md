@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableHTTP method, IAMN
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.put_EnableHTTP"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

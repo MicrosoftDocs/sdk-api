@@ -12,6 +12,8 @@ ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRA
 ms.topic: callback
 f1_keywords:
 - dxmini/DxTransfer
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

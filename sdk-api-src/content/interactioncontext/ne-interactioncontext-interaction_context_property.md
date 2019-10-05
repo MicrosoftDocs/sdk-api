@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_CONTEXT_PROPERTY, INTERACTION_CONTEXT_PROPERTY enumerat
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INTERACTION_CONTEXT_PROPERTY"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

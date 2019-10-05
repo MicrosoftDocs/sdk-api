@@ -12,6 +12,8 @@ ms.keywords: ITextDocument interface [Windows Controls],SetSaved method, ITextDo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.SetSaved"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

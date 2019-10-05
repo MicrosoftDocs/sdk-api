@@ -12,6 +12,8 @@ ms.keywords: ConfidenceLevel, GetPropertyValue, GetPropertyValue method [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.GetPropertyValue"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

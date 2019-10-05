@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetEngrave method, ITextFont
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetEngrave"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

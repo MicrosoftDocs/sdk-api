@@ -12,6 +12,8 @@ ms.keywords: 0, NetWkstaTransportAdd, NetWkstaTransportAdd function [Network Man
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaTransportAdd
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumW
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWiaItem.Skip"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

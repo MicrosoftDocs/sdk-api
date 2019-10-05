@@ -12,6 +12,8 @@ ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_L
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_LOCAL_JOIN_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

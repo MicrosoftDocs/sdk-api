@@ -12,6 +12,8 @@ ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlaylistCollection.newPlaylist"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

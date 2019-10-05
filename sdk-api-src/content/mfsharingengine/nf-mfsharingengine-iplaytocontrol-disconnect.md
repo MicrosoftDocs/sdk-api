@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IPlayToControl.Disconnect"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

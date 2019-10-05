@@ -12,6 +12,8 @@ ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslis
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNextUmsListItem"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComCRMEvents interface [COM+],OnCRMCheckpoint method, IComCRMEvent
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComCRMEvents.OnCRMCheckpoint"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

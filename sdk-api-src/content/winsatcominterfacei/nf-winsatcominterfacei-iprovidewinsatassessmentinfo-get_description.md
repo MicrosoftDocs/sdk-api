@@ -12,6 +12,8 @@ ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvi
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATAssessmentInfo.Description"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

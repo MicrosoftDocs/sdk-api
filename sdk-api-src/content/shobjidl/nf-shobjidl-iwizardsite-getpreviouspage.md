@@ -12,6 +12,8 @@ ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviou
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardSite.GetPreviousPage
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helpe
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetInvertedIfStackTable"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

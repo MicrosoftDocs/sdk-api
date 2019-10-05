@@ -12,6 +12,8 @@ ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDepre
 ms.topic: enum
 f1_keywords: 
  - "nldef/IP_DAD_STATE"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
 req.target-type: Windows

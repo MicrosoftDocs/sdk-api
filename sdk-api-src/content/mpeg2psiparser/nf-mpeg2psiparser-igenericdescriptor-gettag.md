@@ -12,6 +12,8 @@ ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [M
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IGenericDescriptor.GetTag"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

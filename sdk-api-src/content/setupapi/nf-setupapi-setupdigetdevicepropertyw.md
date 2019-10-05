@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDeviceProperty, SetupDiGetDeviceProperty function [Device
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property

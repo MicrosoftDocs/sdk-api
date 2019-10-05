@@ -12,6 +12,8 @@ ms.keywords: ColorCorrectPalette, ColorCorrectPalette function [Windows Color Sy
 ms.topic: function
 f1_keywords: 
  - "wingdi/ColorCorrectPalette"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

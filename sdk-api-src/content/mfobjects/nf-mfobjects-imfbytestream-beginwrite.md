@@ -12,6 +12,8 @@ ms.keywords: 078a8ffe-7b4f-487e-8655-fe5ea14ba306, BeginWrite, BeginWrite method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.BeginWrite"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTag, GetTag method [DirectShow], GetTag method [DirectShow],IDvb
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannelDescriptor.GetTag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

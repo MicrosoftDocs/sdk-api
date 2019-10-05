@@ -12,6 +12,8 @@ ms.keywords: OpenNtmsNotification, OpenNtmsNotification function [Files], _zaw_o
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/OpenNtmsNotification"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

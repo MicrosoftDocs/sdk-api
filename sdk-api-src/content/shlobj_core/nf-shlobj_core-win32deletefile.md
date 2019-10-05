@@ -12,6 +12,8 @@ ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_W
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/Win32DeleteFile"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

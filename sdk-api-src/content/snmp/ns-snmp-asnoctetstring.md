@@ -12,6 +12,8 @@ ms.keywords: AsnBits, AsnDisplayString, AsnIPAddress, AsnImplicitSequence, AsnNe
 ms.topic: struct
 f1_keywords: 
  - "snmp/AsnOctetString"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: McastEnumerateScopes, McastEnumerateScopes function [MADCAP], _mdhc
 ms.topic: function
 f1_keywords:
 - madcapcl/McastEnumerateScopes
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

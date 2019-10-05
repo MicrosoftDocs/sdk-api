@@ -12,6 +12,8 @@ ms.keywords: CpuUtilization property [Windows Deployment Services], CpuUtilizati
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportClient.CpuUtilization"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

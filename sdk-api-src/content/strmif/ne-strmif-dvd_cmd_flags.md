@@ -12,6 +12,8 @@ ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectSho
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_CMD_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

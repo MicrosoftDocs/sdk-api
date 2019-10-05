@@ -12,6 +12,8 @@ ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_C
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoRegisterClassObject"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

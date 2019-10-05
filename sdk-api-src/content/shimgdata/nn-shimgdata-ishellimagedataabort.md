@@ -12,6 +12,8 @@ ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell
 ms.topic: interface
 f1_keywords: 
  - "shimgdata/IShellImageDataAbort"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

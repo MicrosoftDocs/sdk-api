@@ -12,6 +12,8 @@ ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoDecodeProxy"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

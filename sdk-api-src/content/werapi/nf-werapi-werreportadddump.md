@@ -12,6 +12,8 @@ ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump,
 ms.topic: function
 f1_keywords:
 - werapi/WerReportAddDump
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData met
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace4.ReleaseGlyphImageData"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

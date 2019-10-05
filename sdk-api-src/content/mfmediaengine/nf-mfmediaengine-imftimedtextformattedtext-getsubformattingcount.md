@@ -12,6 +12,8 @@ ms.keywords: GetSubformattingCount, GetSubformattingCount method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextFormattedText.GetSubformattingCount"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

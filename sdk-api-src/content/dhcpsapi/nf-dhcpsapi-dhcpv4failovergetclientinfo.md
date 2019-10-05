@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverGetClientInfo, DhcpV4FailoverGetClientInfo function [
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverGetClientInfo
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

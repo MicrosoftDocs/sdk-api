@@ -12,6 +12,8 @@ ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsEmail"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Clust
 ms.topic: function
 f1_keywords: 
  - "clusapi/OpenClusterNetworkEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

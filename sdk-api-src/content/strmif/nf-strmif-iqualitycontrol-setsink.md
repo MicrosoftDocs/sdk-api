@@ -12,6 +12,8 @@ ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityCont
 ms.topic: method
 f1_keywords: 
  - "strmif/IQualityControl.SetSink"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

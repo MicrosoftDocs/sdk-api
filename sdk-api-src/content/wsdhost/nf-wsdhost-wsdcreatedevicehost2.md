@@ -12,6 +12,8 @@ ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreated
 ms.topic: function
 f1_keywords:
 - wsdhost/WSDCreateDeviceHost2
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSC_SECURITY_PRODUCT_STATE, WSC_SECURITY_PRODUCT_STATE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "iwscapi/WSC_SECURITY_PRODUCT_STATE"
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

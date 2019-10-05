@@ -12,6 +12,8 @@ ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPr
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSymPrev64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

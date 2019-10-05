@@ -12,6 +12,8 @@ ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], 
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_2/DXGI_PRESENT_PARAMETERS"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

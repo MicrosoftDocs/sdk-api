@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionServiceCallback interface [Windows Media Player],on
 ms.topic: method
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionServiceCallback.onComplete"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTra
 ms.topic: function
 f1_keywords: 
  - "tapi/lineCompleteTransfer"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

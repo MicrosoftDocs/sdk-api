@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shlobj/INewShortcutHook.GetName"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleCache2 interface [COM],UpdateCache method, IOleCache2.UpdateCac
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCache2.UpdateCache"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

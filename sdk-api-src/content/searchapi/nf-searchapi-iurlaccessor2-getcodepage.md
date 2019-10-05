@@ -12,6 +12,8 @@ ms.keywords: GetCodePage, GetCodePage method [search], GetCodePage method [searc
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor2.GetCodePage"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_INSYNC_POLICY, CF_INSYNC_POLICY enumeration, CF_INSYNC_POLICY_DE
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_INSYNC_POLICY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

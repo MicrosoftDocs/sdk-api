@@ -12,6 +12,8 @@ ms.keywords: IWMPacketSize, IWMPacketSize interface [windows Media Format], IWMP
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMPacketSize"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

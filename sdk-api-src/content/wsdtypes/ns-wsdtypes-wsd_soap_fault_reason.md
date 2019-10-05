@@ -12,6 +12,8 @@ ms.keywords: WSD_SOAP_FAULT_REASON, WSD_SOAP_FAULT_REASON structure, ncd.wsd_soa
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SOAP_FAULT_REASON
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

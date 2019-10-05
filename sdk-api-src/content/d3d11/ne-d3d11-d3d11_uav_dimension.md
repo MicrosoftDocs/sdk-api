@@ -12,6 +12,8 @@ ms.keywords: 9c59cfb3-b1fd-ce9f-e9c6-64b74c033e21, D3D11_UAV_DIMENSION, D3D11_UA
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_UAV_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

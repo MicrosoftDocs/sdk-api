@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO, CLUS_NETNAME_V
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_NETNAME_VS_TOKEN_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

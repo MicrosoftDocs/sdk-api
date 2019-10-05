@@ -12,6 +12,8 @@ ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged met
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceCallback.StateVariableChanged"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

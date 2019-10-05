@@ -12,6 +12,8 @@ ms.keywords: CreateCustomFontFileReference, CreateCustomFontFileReference method
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.CreateCustomFontFileReference"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

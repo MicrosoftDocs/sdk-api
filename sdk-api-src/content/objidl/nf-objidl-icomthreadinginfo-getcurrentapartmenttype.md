@@ -12,6 +12,8 @@ ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetC
 ms.topic: method
 f1_keywords:
 - objidl/IComThreadingInfo.GetCurrentApartmentType
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Format, Format method [COM], Format method [COM],IVBFormat interfac
 ms.topic: method
 f1_keywords: 
  - "vbinterf/IVBFormat.Format"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAPHOST_AUTH_STATUS, EAPHOST_AUTH_STATUS enumeration [EAPHost], Eap
 ms.topic: enum
 f1_keywords: 
  - "eaphostpeertypes/EAPHOST_AUTH_STATUS"
+dev_langs:
+ - c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWiaDataCallback, IWiaDataCallback interface [WIA], IWiaDataCallbac
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaDataCallback"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_NAMESPACE_CAPABILITY_A
 ms.topic: struct
 f1_keywords: 
  - "lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

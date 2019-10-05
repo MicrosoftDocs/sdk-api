@@ -12,6 +12,8 @@ ms.keywords: PropSheet_IndexToPage, PropSheet_IndexToPage macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "prsht/PropSheet_IndexToPage"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

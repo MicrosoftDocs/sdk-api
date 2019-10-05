@@ -12,6 +12,8 @@ ms.keywords: GetFill, GetFill method [Direct2D], GetFill method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SvgGlyphStyle.GetFill"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

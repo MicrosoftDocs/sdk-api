@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface 
 ms.topic: interface
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataCopier"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

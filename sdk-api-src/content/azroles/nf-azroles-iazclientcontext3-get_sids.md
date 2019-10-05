@@ -12,6 +12,8 @@ ms.keywords: IAzClientContext3 interface [Security],Sids property, IAzClientCont
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext3.Sids"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

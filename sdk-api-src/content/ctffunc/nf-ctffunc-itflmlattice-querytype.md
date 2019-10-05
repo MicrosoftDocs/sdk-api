@@ -12,6 +12,8 @@ ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, 
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfLMLattice.QueryType"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

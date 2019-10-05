@@ -12,6 +12,8 @@ ms.keywords: GetAllocateBuffers, GetAllocateBuffers method [TAPI 2.2], GetAlloca
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAllocatorProperties.GetAllocateBuffers"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

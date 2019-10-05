@@ -12,6 +12,8 @@ ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, 
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardConnect"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

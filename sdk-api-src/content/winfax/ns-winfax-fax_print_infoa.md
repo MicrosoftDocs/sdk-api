@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_PRINT_INFOA, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax S
 ms.topic: struct
 f1_keywords:
 - winfax/FAX_PRINT_INFO
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

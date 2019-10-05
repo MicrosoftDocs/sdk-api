@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog2 interface [COM+],MoveComponents method, ICOMAdmin
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.MoveComponents"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

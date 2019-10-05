@@ -12,6 +12,8 @@ ms.keywords: FreeReturnBuffer, FreeReturnBuffer callback function [Security], LS
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/FreeReturnBuffer
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

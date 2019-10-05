@@ -12,6 +12,8 @@ ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_S
 ms.topic: function
 f1_keywords: 
  - "winbase/SetSearchPathMode"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

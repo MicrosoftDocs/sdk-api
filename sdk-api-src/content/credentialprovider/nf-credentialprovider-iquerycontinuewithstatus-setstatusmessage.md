@@ -12,6 +12,8 @@ ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/IQueryContinueWithStatus.SetStatusMessage"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

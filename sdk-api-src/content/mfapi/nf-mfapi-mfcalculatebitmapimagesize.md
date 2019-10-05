@@ -12,6 +12,8 @@ ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, M
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCalculateBitmapImageSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

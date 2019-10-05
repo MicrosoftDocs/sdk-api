@@ -12,6 +12,8 @@ ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Spa
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.SpawnDerivedClass"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

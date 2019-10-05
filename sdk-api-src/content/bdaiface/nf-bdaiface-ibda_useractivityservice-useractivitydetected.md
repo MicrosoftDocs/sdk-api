@@ -12,6 +12,8 @@ ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],User
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_UserActivityService.UserActivityDetected"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

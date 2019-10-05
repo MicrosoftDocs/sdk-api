@@ -12,6 +12,8 @@ ms.keywords: FALSE, SCRIPT_VISATTR, SCRIPT_VISATTR structure [Internationalizati
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_VISATTR"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

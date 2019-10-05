@@ -12,6 +12,8 @@ ms.keywords: Header_GetBitmapMargin, Header_GetBitmapMargin macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetBitmapMargin"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

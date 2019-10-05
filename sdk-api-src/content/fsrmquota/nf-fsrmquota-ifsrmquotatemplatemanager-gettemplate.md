@@ -12,6 +12,8 @@ ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],GetTe
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaTemplateManager.GetTemplate"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

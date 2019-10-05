@@ -12,6 +12,8 @@ ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetO
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.GetOutputNodeCollection"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

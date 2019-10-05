@@ -12,6 +12,8 @@ ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Servic
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbGlobalStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

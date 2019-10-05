@@ -12,6 +12,8 @@ ms.keywords: "*LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO, CLUSTERVERSIONINFO, C
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSTERVERSIONINFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

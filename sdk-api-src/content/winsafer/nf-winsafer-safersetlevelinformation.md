@@ -12,6 +12,8 @@ ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId
 ms.topic: function
 f1_keywords:
 - winsafer/SaferSetLevelInformation
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

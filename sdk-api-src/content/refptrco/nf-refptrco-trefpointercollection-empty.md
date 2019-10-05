@@ -12,6 +12,8 @@ ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty met
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.Empty"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

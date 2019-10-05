@@ -12,6 +12,8 @@ ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMoniker"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

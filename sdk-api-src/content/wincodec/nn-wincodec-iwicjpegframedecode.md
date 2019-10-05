@@ -12,6 +12,8 @@ ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICJpegFrameDecode"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

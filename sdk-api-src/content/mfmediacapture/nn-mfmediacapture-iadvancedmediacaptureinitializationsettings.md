@@ -12,6 +12,8 @@ ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureI
 ms.topic: interface
 f1_keywords: 
  - "mfmediacapture/IAdvancedMediaCaptureInitializationSettings"
+dev_langs:
+ - c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPTCATATTRIBUTE, CRYPTCATATTRIBUTE structure [Security], CRYPTCAT
 ms.topic: struct
 f1_keywords: 
  - "mscat/CRYPTCATATTRIBUTE"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

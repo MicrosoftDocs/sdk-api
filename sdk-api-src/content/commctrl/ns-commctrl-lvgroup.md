@@ -12,6 +12,8 @@ ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROU
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVGROUP"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

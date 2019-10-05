@@ -12,6 +12,8 @@ ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallbac
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcServerCompleteSecurityCallback"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

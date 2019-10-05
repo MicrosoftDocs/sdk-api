@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGenerateTone"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

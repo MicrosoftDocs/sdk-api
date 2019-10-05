@@ -12,6 +12,8 @@ ms.keywords: IAuxInTuningSpace2 interface [Microsoft TV Technologies],get_Countr
 ms.topic: method
 f1_keywords: 
  - "tuner/IAuxInTuningSpace2.get_CountryCode"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

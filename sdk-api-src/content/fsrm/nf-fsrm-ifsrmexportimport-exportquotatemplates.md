@@ -12,6 +12,8 @@ ms.keywords: ExportQuotaTemplates, ExportQuotaTemplates method [File Server Reso
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmExportImport.ExportQuotaTemplates"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

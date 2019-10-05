@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS, WINHTTP_WEB_SOCKET_CLOSE_S
 ms.topic: enum
 f1_keywords: 
  - "winhttp/WINHTTP_WEB_SOCKET_CLOSE_STATUS"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

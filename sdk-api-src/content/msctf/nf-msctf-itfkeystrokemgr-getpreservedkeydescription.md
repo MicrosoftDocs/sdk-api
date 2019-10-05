@@ -12,6 +12,8 @@ ms.keywords: GetPreservedKeyDescription, GetPreservedKeyDescription method [Text
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeystrokeMgr.GetPreservedKeyDescription"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

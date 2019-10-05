@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.Connect"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

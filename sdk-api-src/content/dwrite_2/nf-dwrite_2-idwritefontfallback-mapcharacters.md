@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFallback interface [Direct Write],MapCharacters method, 
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFallback.MapCharacters"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

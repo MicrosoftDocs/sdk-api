@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SUPER_SCOPE_TABLE_ENTRY, DHCP_SUPER_SCOPE_TABLE_ENTRY, DHC
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUPER_SCOPE_TABLE_ENTRY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

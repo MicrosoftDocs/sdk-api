@@ -12,6 +12,8 @@ ms.keywords: EnumPermissionSets, EnumPermissionSets method [Windows Runtime], En
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumPermissionSets"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Ne
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumOleUndoUnits.Next"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

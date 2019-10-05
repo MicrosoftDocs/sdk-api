@@ -12,6 +12,8 @@ ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], IMSVi
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidVMR9"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.GetNativeStaticObjectTypeMask"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

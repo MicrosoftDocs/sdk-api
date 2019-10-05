@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnDeviceServicesContext"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

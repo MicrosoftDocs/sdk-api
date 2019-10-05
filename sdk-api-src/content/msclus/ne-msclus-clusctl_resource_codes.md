@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_CLOUD_WITNESS_RESOURCE_UPDATE_KEY, CLUSCTL_CLOUD_WITNESS_RE
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSCTL_RESOURCE_CODES"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

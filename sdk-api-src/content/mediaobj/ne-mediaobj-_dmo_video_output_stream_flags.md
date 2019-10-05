@@ -12,6 +12,8 @@ ms.keywords: DMO_VIDEO_OUTPUT_STREAM_FLAGS , DMO_VIDEO_OUTPUT_STREAM_FLAGSEnumer
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_VIDEO_OUTPUT_STREAM_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

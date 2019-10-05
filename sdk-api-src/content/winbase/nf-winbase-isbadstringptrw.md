@@ -12,6 +12,8 @@ ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStri
 ms.topic: function
 f1_keywords: 
  - "winbase/IsBadStringPtr"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

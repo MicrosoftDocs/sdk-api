@@ -12,6 +12,8 @@ ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite 
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetParentSite"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

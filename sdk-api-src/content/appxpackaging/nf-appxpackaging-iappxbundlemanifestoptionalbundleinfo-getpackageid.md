@@ -12,6 +12,8 @@ ms.keywords: GetPackageId, GetPackageId method [App packaging and management], G
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageId"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

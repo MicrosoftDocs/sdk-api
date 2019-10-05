@@ -12,6 +12,8 @@ ms.keywords: CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG, CRYPT_DEFAULT_CONTEXT_CERT
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptInstallDefaultContext"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

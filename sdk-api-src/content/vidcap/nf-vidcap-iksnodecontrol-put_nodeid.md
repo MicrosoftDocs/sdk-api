@@ -12,6 +12,8 @@ ms.keywords: IKsNodeControl interface [DirectShow],put_NodeId method, IKsNodeCon
 ms.topic: method
 f1_keywords: 
  - "vidcap/IKsNodeControl.put_NodeId"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MonthCal_SetMonthDelta, MonthCal_SetMonthDelta macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetMonthDelta"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

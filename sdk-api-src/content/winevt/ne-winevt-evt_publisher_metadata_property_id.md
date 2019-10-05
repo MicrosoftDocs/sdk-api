@@ -12,6 +12,8 @@ ms.keywords: EVT_PUBLISHER_METADATA_PROPERTY_ID, EVT_PUBLISHER_METADATA_PROPERTY
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_PUBLISHER_METADATA_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

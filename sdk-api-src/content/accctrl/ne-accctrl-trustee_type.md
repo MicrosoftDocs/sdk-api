@@ -12,6 +12,8 @@ ms.keywords: TRUSTEE_IS_ALIAS, TRUSTEE_IS_COMPUTER, TRUSTEE_IS_DELETED, TRUSTEE_
 ms.topic: enum
 f1_keywords: 
  - "accctrl/TRUSTEE_TYPE"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

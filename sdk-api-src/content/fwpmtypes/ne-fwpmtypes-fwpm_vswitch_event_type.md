@@ -12,6 +12,8 @@ ms.keywords: FWPM_VSWITCH_EVENT_DISABLED_FOR_INSPECTION, FWPM_VSWITCH_EVENT_ENAB
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_VSWITCH_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, nets
 ms.topic: function
 f1_keywords: 
  - "netsh/PrintError"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

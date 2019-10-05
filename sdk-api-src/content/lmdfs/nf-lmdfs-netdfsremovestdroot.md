@@ -12,6 +12,8 @@ ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File
 ms.topic: function
 f1_keywords: 
  - "lmdfs/NetDfsRemoveStdRoot"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

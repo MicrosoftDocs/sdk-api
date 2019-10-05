@@ -12,6 +12,8 @@ ms.keywords: TS_AE_END, TS_AE_NONE, TS_AE_START, TsActiveSelEnd, TsActiveSelEnd 
 ms.topic: enum
 f1_keywords: 
  - "textstor/TsActiveSelEnd"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

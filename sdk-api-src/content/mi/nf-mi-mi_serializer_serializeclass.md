@@ -12,6 +12,8 @@ ms.keywords: MI_Serializer_SerializeClass, MI_Serializer_SerializeClass function
 ms.topic: function
 f1_keywords:
 - mi/MI_Serializer_SerializeClass
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

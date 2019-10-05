@@ -12,6 +12,8 @@ ms.keywords: ITDirectory interface [TAPI 2.2],get_DefaultObjectTTL method, ITDir
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.get_DefaultObjectTTL"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

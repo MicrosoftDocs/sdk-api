@@ -12,6 +12,8 @@ ms.keywords: GetVideoService, GetVideoService method [Media Foundation], GetVide
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFDXGIDeviceManager.GetVideoService"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

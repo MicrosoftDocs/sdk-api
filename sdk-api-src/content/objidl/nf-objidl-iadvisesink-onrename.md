@@ -12,6 +12,8 @@ ms.keywords: IAdviseSink interface [COM],OnRename method, IAdviseSink.OnRename, 
 ms.topic: method
 f1_keywords: 
  - "objidl/IAdviseSink.OnRename"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

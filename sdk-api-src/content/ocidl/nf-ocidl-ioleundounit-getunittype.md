@@ -12,6 +12,8 @@ ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoUnit.GetUnitType"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

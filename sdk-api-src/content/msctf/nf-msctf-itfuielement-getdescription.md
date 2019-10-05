@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElement.GetDescription"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

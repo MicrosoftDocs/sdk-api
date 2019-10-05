@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValu
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataWriter.RemoveValue"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventI
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.CreateEventInstance"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

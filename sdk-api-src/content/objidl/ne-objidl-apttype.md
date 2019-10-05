@@ -12,6 +12,8 @@ ms.keywords: APTTYPE, APTTYPE enumeration [COM], APTTYPE_CURRENT, APTTYPE_MAINST
 ms.topic: enum
 f1_keywords: 
  - "objidl/APTTYPE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

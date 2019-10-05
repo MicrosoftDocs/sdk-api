@@ -12,6 +12,8 @@ ms.keywords: AZ_AZSTORE_DEFAULT_DOMAIN_TIMEOUT, AZ_AZSTORE_DEFAULT_MAX_SCRIPT_EN
 ms.topic: enum
 f1_keywords: 
  - "azroles/AZ_PROP_CONSTANTS"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

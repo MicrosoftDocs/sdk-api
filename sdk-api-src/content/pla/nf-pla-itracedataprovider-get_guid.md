@@ -12,6 +12,8 @@ ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataProvider interfa
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.Guid"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

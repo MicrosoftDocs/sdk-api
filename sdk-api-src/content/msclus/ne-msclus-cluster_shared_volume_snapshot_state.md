@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHO
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

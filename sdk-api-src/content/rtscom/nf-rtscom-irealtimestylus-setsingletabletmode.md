@@ -12,6 +12,8 @@ ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Ta
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.SetSingleTabletMode"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

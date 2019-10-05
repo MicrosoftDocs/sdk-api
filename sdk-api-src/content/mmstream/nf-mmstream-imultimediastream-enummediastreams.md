@@ -12,6 +12,8 @@ ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaSt
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.EnumMediaStreams"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

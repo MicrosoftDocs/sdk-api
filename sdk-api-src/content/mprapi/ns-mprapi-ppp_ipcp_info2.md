@@ -12,6 +12,8 @@ ms.keywords: PPP_IPCP_INFO2, PPP_IPCP_INFO2 structure [RAS], _mpr_ppp_ipcp_info2
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_IPCP_INFO2
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

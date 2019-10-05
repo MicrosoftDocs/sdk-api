@@ -12,6 +12,8 @@ ms.keywords: WdsCliFlagEnumFilterVersion, WdsCliGetEnumerationFlags, WdsCliGetEn
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetEnumerationFlags"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: WdsClientAPI.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplaySt
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentDisplayStatus"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

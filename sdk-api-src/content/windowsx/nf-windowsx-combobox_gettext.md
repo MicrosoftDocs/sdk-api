@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetText, ComboBox_GetText macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetText"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

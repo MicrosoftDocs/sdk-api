@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_CONTEXT_INFOA, FAX_CONTEXT_INFO, FAX_CONTEXT_INFO structure 
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_CONTEXT_INFO"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

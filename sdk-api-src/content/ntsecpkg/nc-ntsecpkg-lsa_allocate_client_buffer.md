@@ -12,6 +12,8 @@ ms.keywords: AllocateClientBuffer, AllocateClientBuffer callback function [Secur
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/AllocateClientBuffer
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

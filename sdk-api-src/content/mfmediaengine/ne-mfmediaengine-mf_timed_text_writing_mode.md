@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_WRITING_MODE, MF_TIMED_TEXT_WRITING_MODE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_WRITING_MODE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

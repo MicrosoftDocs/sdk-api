@@ -12,6 +12,8 @@ ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCrea
 ms.topic: function
 f1_keywords: 
  - "d3d9helper/Direct3DCreate9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

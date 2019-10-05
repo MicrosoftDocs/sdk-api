@@ -12,6 +12,8 @@ ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPControls.get_currentPosition"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

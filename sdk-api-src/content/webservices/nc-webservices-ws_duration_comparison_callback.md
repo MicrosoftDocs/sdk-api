@@ -12,6 +12,8 @@ ms.keywords: WS_DURATION_COMPARISON_CALLBACK, WS_DURATION_COMPARISON_CALLBACK ca
 ms.topic: callback
 f1_keywords:
 - webservices/WS_DURATION_COMPARISON_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

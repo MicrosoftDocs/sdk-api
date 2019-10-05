@@ -12,6 +12,8 @@ ms.keywords: AnnotationTypeId property [Windows Accessibility], AnnotationTypeId
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAnnotationProvider.AnnotationTypeId"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

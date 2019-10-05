@@ -12,6 +12,8 @@ ms.keywords: APPX_ENCRYPTED_EXEMPTIONS, APPX_ENCRYPTED_EXEMPTIONS structure [App
 ms.topic: struct
 f1_keywords: 
  - "appxpackaging/APPX_ENCRYPTED_EXEMPTIONS"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

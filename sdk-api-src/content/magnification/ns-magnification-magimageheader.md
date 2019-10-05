@@ -12,6 +12,8 @@ ms.keywords: "*PMAGIMAGEHEADER, MAGIMAGEHEADER, MAGIMAGEHEADER structure [Magnif
 ms.topic: struct
 f1_keywords: 
  - "magnification/MAGIMAGEHEADER"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

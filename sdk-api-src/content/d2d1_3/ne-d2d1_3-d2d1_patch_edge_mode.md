@@ -12,6 +12,8 @@ ms.keywords: D2D1_PATCH_EDGE_MODE, D2D1_PATCH_EDGE_MODE enumeration [Direct2D], 
 ms.topic: enum
 f1_keywords: 
  - "d2d1_3/D2D1_PATCH_EDGE_MODE"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

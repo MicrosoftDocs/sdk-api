@@ -12,6 +12,8 @@ ms.keywords: SetDialogControlDpiChangeBehavior, SetDialogResizeBehavior, SetDial
 ms.topic: function
 f1_keywords: 
  - "winuser/SetDialogResizeBehavior"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

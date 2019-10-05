@@ -12,6 +12,8 @@ ms.keywords: MI_ParameterSet_GetParameter, MI_ParameterSet_GetParameter function
 ms.topic: function
 f1_keywords:
 - mi/MI_ParameterSet_GetParameter
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

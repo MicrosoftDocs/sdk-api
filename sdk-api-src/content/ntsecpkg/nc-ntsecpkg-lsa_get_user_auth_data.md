@@ -12,6 +12,8 @@ ms.keywords: GetUserAuthData, GetUserAuthData callback function [Security], LSA_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetUserAuthData
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

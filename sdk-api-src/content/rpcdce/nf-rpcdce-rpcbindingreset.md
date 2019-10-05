@@ -12,6 +12,8 @@ ms.keywords: RpcBindingReset, RpcBindingReset function [RPC], _rpc_rpcbindingres
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingReset"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpImportSecurityContext, SpImportSecurityContext callback function 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpImportSecurityContext
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9c0e5be9-6481-4132-ad5b-9db13fb07391, GetTopoNodeID, GetTopoNodeID 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetTopoNodeID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

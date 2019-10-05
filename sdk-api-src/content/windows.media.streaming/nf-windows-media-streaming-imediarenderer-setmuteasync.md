@@ -12,6 +12,8 @@ ms.keywords: IMediaRenderer interface [Media Streaming API],SetMuteAsync method,
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer.SetMuteAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

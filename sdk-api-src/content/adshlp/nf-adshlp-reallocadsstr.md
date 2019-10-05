@@ -12,6 +12,8 @@ ms.keywords: ReallocADsStr, ReallocADsStr function [ADSI], _ds_reallocadsstr, ad
 ms.topic: function
 f1_keywords: 
  - "adshlp/ReallocADsStr"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

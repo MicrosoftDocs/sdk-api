@@ -12,6 +12,8 @@ ms.keywords: FWPM_ENGINE_COLLECT_NET_EVENTS, FWPM_ENGINE_MONITOR_IPSEC_CONNECTIO
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_ENGINE_OPTION"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

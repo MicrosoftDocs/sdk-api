@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], dxva
 ms.topic: struct
 f1_keywords: 
  - "dxvahd/DXVAHD_RATIONAL"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_get
 ms.topic: function
 f1_keywords: 
  - "winbase/GetProcessAffinityMask"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

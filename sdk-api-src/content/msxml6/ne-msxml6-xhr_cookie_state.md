@@ -12,6 +12,8 @@ ms.keywords: XHR_COOKIE_STATE, XHR_COOKIE_STATE enumeration [XMLHttpRequest2], X
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_COOKIE_STATE"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

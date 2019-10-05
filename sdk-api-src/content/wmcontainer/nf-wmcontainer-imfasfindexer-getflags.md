@@ -12,6 +12,8 @@ ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags, GetFlags method [Me
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.GetFlags"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

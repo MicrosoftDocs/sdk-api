@@ -12,6 +12,8 @@ ms.keywords: "*LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION, LPN
 ms.topic: struct
 f1_keywords: 
  - "ntmsapi/NTMS_ALLOCATION_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

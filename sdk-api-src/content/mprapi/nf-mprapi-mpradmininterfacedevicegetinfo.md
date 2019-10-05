@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo func
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceDeviceGetInfo
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.
 ms.topic: struct
 f1_keywords:
 - vds/VDS_IPADDRESS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

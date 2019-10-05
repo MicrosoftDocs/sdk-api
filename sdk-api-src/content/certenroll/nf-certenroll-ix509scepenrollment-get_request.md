@@ -12,6 +12,8 @@ ms.keywords: IX509SCEPEnrollment interface [Security],Request property, IX509SCE
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509SCEPEnrollment.Request"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

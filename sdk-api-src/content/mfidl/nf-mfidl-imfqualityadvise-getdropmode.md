@@ -12,6 +12,8 @@ ms.keywords: GetDropMode, GetDropMode method [Media Foundation], GetDropMode met
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise.GetDropMode
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

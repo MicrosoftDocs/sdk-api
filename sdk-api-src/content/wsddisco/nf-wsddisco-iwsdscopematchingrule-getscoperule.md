@@ -12,6 +12,8 @@ ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMat
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDScopeMatchingRule.GetScopeRule"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

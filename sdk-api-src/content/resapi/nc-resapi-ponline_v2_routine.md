@@ -12,6 +12,8 @@ ms.keywords: CLUS_RESDLL_ONLINE_IGNORE_NETWORK_CONNECTIVITY, CLUS_RESDLL_ONLINE_
 ms.topic: callback
 f1_keywords: 
  - "resapi/OnlineV2"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

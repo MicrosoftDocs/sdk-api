@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IB
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.get_DestinationHeight"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

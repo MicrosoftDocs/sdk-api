@@ -12,6 +12,8 @@ ms.keywords: MBN_VOICE_CLASS, MBN_VOICE_CLASS enumeration [Microsoft Broadband N
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_VOICE_CLASS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

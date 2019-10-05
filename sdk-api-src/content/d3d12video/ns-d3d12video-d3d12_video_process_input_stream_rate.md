@@ -8,6 +8,10 @@ ms.assetid: 42b631e5-a80c-409e-a16e-276e355798e3
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE, D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE, 
 req.header: d3d12video.h
 req.include-header:

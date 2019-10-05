@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE stru
 ms.topic: struct
 f1_keywords: 
  - "dhcpssdk/DHCP_CALLOUT_TABLE"
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

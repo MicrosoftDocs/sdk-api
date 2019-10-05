@@ -12,6 +12,8 @@ ms.keywords: CreateLayer, CreateLayer method [Direct2D], CreateLayer method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget.CreateLayer"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

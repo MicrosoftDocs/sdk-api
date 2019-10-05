@@ -12,6 +12,8 @@ ms.keywords: IAMTVTuner interface [DirectShow],get_TVFormat method, IAMTVTuner.g
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTVTuner.get_TVFormat"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

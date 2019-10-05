@@ -8,6 +8,10 @@ ms.assetid: 19381358-07c5-4244-a28b-52b568da3b7c
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_FEATURE_VIDEO
+dev_langs:
+ - c++
 ms.keywords: D3D12_FEATURE_VIDEO, D3D12_FEATURE_VIDEO, 
 req.header: d3d12video.h
 req.include-header:

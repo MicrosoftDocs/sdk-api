@@ -12,6 +12,8 @@ ms.keywords: ColorCurve, ColorCurve class [GDI+],ColorCurve constructor, ColorCu
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorCurve.ColorCurve"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

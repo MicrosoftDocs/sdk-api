@@ -12,6 +12,8 @@ ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [XPS Documents 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateMatrixTransform"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

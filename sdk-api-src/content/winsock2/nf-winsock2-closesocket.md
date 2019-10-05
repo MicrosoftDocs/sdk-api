@@ -12,6 +12,8 @@ ms.keywords: _win32_closesocket_2, closesocket, closesocket function [Winsock], 
 ms.topic: function
 f1_keywords:
 - winsock2/closesocket
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

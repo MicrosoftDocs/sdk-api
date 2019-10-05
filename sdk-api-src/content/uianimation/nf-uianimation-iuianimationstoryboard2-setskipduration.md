@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetSkipDurati
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard2.SetSkipDuration"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

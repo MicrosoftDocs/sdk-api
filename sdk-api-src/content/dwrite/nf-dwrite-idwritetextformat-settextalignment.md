@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextFormat interface [Direct Write],SetTextAlignment method,
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.SetTextAlignment"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 11e10b9f-fd98-44f2-a829-d9ed3a5be189, GetUser, GetUser method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredential.GetUser"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

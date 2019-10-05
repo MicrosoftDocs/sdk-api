@@ -12,6 +12,8 @@ ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmap
 ms.topic: function
 f1_keywords: 
  - "winddi/EngMapEvent"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

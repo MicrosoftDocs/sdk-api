@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_I
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_PROFILE_INFO_LIST
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

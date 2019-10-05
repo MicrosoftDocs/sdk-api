@@ -12,6 +12,8 @@ ms.keywords: Attachments property [Task Scheduler], Attachments property [Task S
 ms.topic: method
 f1_keywords: 
  - "taskschd/IEmailAction.Attachments"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

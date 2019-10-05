@@ -12,6 +12,8 @@ ms.keywords: ControlViewWalker property [Windows Accessibility], ControlViewWalk
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.ControlViewWalker"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

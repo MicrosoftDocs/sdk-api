@@ -12,6 +12,8 @@ ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, 
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpAddress.SetPath"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

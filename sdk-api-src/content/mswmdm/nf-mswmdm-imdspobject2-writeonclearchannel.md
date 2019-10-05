@@ -12,6 +12,8 @@ ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearC
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPObject2.WriteOnClearChannel"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

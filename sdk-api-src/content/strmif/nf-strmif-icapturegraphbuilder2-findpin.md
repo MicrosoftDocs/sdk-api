@@ -12,6 +12,8 @@ ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder2.FindPin"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_
 ms.topic: enum
 f1_keywords: 
  - "ocidl/GUIDKIND"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

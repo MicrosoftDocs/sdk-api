@@ -12,6 +12,8 @@ ms.keywords: GetDateStamp, GetDateStamp method [Windows Shell], GetDateStamp met
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExtractImage2.GetDateStamp"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

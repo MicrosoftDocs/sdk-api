@@ -12,6 +12,8 @@ ms.keywords: GetNeutralAxis, GetNeutralAxis method [Windows Color System], GetNe
 ms.topic: method
 f1_keywords:
 - wcsplugin/IDeviceModelPlugIn.GetNeutralAxis
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

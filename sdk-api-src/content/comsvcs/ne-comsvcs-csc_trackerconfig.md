@@ -12,6 +12,8 @@ ms.keywords: CSC_DontUseTracker, CSC_TrackerConfig, CSC_TrackerConfig enumeratio
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_TrackerConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkC
 ms.topic: interface
 f1_keywords: 
  - "inkpresenterdesktop/IInkCommitRequestHandler"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

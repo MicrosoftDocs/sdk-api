@@ -12,6 +12,8 @@ ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, R
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_STATS_VECTOR"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

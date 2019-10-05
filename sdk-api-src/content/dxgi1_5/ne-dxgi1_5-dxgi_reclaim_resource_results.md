@@ -12,6 +12,8 @@ ms.keywords: DXGI_RECLAIM_RESOURCE_RESULTS, DXGI_RECLAIM_RESOURCE_RESULTS enumer
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

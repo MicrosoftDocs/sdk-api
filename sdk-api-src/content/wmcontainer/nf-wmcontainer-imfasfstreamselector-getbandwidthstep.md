@@ -12,6 +12,8 @@ ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep, GetBandwidt
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetBandwidthStep"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClearChildren, ClearChildren method, ClearChildren method,IVisualTr
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.ClearChildren"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

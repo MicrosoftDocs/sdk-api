@@ -12,6 +12,8 @@ ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], Clo
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin object [Security],DeleteRow method, CDR_EXPIRED, CDR_REQ
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.DeleteRow"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

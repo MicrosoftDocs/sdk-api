@@ -12,6 +12,8 @@ ms.keywords: "*PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGE
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESUTIL_ULARGEINT_DATA"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

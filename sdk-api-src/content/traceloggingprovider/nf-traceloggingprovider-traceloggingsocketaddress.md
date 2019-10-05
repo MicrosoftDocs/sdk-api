@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelo
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingSocketAddress"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

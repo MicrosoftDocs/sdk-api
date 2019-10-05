@@ -12,6 +12,8 @@ ms.keywords: SymSetParentWindow, SymSetParentWindow function, _win32_symsetparen
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSetParentWindow"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

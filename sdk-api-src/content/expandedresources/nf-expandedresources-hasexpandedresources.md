@@ -12,6 +12,8 @@ ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresour
 ms.topic: function
 f1_keywords: 
  - "expandedresources/HasExpandedResources"
+dev_langs:
+ - c++
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows

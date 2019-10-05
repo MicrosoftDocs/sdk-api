@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Fax Service], Disconnect method [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.Disconnect"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

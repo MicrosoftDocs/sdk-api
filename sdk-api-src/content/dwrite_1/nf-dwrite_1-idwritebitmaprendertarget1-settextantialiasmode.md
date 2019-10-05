@@ -12,6 +12,8 @@ ms.keywords: IDWriteBitmapRenderTarget1 interface [Direct Write],SetTextAntialia
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteBitmapRenderTarget1.SetTextAntialiasMode"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

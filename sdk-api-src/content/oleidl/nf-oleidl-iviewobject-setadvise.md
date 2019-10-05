@@ -12,6 +12,8 @@ ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvi
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.SetAdvise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

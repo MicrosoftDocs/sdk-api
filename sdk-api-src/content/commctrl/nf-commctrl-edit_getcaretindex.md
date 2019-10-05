@@ -12,6 +12,8 @@ ms.keywords: Edit_GetCaretIndex, Edit_GetCaretIndex macro [Windows Controls], co
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetCaretIndex"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

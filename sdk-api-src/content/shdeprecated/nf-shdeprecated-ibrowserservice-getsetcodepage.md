@@ -12,6 +12,8 @@ ms.keywords: GetSetCodePage, GetSetCodePage method [Windows Shell], GetSetCodePa
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetSetCodePage"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLVBKIMAGEW, LPLVBKIMAGE, LPLVBKIMAGE structure pointer [Windows
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVBKIMAGE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

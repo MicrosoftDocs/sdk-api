@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, 
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIWindow.Show"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

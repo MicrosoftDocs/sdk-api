@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.Set
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.SetHStoreRequest"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

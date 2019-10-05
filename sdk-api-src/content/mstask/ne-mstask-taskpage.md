@@ -12,6 +12,8 @@ ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE,
 ms.topic: enum
 f1_keywords:
 - mstask/TASKPAGE
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RES
 ms.topic: function
 f1_keywords: 
  - "winreg/RegCreateKeyTransacted"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_capYieldCallback, capYieldCallback, capYieldCallback callba
 ms.topic: callback
 f1_keywords: 
  - "vfw/capYieldCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

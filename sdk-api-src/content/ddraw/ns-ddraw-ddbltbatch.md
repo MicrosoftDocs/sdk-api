@@ -12,6 +12,8 @@ ms.keywords: '*LPDDBLTBATCH, DDBLTBATCH, DDBLTBATCH structure [DirectDraw], DDBL
 ms.topic: struct
 f1_keywords:
 - ddraw/DDBLTBATCH
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

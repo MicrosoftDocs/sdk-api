@@ -12,6 +12,8 @@ ms.keywords: GetFiberData, GetFiberData function, _win32_getfiberdata, base.getf
 ms.topic: function
 f1_keywords: 
  - "winnt/GetFiberData"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

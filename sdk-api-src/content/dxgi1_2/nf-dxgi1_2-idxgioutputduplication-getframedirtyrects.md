@@ -12,6 +12,8 @@ ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirty
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIOutputDuplication.GetFrameDirtyRects"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

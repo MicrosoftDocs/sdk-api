@@ -12,6 +12,8 @@ ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage]
 ms.topic: interface
 f1_keywords: 
  - "objidl/ISequentialStream"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

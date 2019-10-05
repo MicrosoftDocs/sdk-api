@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportServer2 interface [Windows Deployment Services],TftpMa
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServer2.TftpManager"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

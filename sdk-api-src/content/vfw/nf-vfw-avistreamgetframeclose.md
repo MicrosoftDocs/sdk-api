@@ -12,6 +12,8 @@ ms.keywords: AVIStreamGetFrameClose, AVIStreamGetFrameClose function [Windows Mu
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamGetFrameClose"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

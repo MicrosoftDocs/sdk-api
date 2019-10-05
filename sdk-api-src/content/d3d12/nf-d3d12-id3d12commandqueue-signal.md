@@ -12,6 +12,8 @@ ms.keywords: ID3D12CommandQueue interface,Signal method, ID3D12CommandQueue.Sign
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12CommandQueue.Signal"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

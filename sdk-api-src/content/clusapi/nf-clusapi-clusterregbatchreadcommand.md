@@ -12,6 +12,8 @@ ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Fa
 ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegBatchReadCommand
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

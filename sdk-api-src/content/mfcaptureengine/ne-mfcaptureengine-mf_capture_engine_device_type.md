@@ -12,6 +12,8 @@ ms.keywords: MF_CAPTURE_ENGINE_DEVICE_TYPE, MF_CAPTURE_ENGINE_DEVICE_TYPE enumer
 ms.topic: enum
 f1_keywords: 
  - "mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

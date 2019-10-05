@@ -12,6 +12,8 @@ ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdin
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNFDINOTIFY"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddSinusoidal, AddSinusoidal method [DirectComposition], AddSinusoi
 ms.topic: method
 f1_keywords: 
  - "dcompanimation/IDCompositionAnimation.AddSinusoidal"
+dev_langs:
+ - c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

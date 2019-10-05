@@ -12,6 +12,8 @@ ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_CALLBACK_REGISTRATION"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

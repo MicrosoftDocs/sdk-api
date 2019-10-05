@@ -12,6 +12,8 @@ ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProv
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPropertyConstraintCollection.Reset"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

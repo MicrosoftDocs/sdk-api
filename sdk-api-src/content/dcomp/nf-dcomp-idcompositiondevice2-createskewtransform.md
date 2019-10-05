@@ -12,6 +12,8 @@ ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition]
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateSkewTransform"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RP
 ms.topic: struct
 f1_keywords: 
  - "authz/AUTHZ_RPC_INIT_INFO_CLIENT"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

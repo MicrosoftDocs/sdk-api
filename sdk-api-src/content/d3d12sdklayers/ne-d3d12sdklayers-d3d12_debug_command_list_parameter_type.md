@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

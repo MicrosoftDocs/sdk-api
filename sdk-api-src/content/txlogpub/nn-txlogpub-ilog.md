@@ -12,6 +12,8 @@ ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_il
 ms.topic: interface
 f1_keywords: 
  - "txlogpub/ILog"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

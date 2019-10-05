@@ -12,6 +12,8 @@ ms.keywords: "*PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CO
 ms.topic: struct
 f1_keywords: 
  - "syncmgr/SYNCMGR_CONFLICT_ID_INFO"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

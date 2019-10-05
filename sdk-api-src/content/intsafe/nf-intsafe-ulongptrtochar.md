@@ -12,6 +12,8 @@ ms.keywords: ULongPtrToChar, ULongPtrToChar function [Windows Shell], intsafe/UL
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongPtrToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

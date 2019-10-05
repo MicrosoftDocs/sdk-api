@@ -12,6 +12,8 @@ ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, Tr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_Select"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

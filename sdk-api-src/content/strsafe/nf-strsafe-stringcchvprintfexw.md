@@ -12,6 +12,8 @@ ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_N
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCchVPrintfEx"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

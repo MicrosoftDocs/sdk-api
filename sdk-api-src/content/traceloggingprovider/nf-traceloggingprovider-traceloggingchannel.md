@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingChannel, TraceLoggingChannel macro, tracelogging.tracel
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingChannel"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

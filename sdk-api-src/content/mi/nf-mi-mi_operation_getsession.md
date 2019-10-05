@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_GetSession, MI_Operation_GetSession function [Windows 
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Operation_GetSession"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

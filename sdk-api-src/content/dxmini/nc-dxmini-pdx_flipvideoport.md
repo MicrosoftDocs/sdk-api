@@ -12,6 +12,8 @@ ms.keywords: DxFlipVideoPort, DxFlipVideoPort callback function [Display Devices
 ms.topic: callback
 f1_keywords:
 - dxmini/DxFlipVideoPort
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

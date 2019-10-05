@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult inte
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncResult.GetObject"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

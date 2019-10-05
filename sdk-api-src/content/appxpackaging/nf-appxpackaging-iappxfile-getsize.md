@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [App packaging and management], GetSize met
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFile.GetSize"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

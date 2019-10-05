@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob interface [BITS],Resume method, IBackgroundCopyJ
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.Resume"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

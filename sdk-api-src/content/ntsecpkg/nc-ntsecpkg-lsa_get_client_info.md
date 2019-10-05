@@ -12,6 +12,8 @@ ms.keywords: GetClientInfo, GetClientInfo callback function [Security], LSA_GET_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetClientInfo
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

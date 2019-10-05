@@ -12,6 +12,8 @@ ms.keywords: CanBuySilent, CanBuySilent method [Windows Media Player], CanBuySil
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.CanBuySilent"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

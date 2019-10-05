@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstallationResult, IUpdateInstallationResult interface [Win
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateInstallationResult"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_Close, MI_Operation_Close function [Windows Management
 ms.topic: function
 f1_keywords:
 - mi/MI_Operation_Close
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

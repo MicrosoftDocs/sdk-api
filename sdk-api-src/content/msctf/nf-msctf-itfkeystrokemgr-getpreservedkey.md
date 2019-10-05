@@ -12,6 +12,8 @@ ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeystrokeMgr.GetPreservedKey"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

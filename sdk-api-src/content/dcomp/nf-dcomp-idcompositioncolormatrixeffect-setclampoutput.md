@@ -12,6 +12,8 @@ ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetCla
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionColorMatrixEffect.SetClampOutput"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

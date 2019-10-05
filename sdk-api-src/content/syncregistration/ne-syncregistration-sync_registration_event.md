@@ -12,6 +12,8 @@ ms.keywords: SRE_CONFIGUI_ADDED, SRE_CONFIGUI_REMOVED, SRE_CONFIGUI_UPDATED, SRE
 ms.topic: enum
 f1_keywords: 
  - "syncregistration/SYNC_REGISTRATION_EVENT"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetInitialVa
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationInterpolator.SetInitialValueAndVelocity"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

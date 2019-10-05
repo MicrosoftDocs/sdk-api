@@ -12,6 +12,8 @@ ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastruc
 ms.topic: struct
 f1_keywords:
 - mi/MI_Qualifier
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

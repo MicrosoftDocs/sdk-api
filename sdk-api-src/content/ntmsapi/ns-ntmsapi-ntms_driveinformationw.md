@@ -12,6 +12,8 @@ ms.keywords: NTMS_DRIVEINFORMATION, NTMS_DRIVEINFORMATION structure [Files], NTM
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_DRIVEINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

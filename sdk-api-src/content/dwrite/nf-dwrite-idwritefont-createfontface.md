@@ -12,6 +12,8 @@ ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFac
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFont.CreateFontFace"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

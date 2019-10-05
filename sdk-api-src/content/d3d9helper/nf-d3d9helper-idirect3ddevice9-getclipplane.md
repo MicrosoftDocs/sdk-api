@@ -12,6 +12,8 @@ ms.keywords: 4ee4abff-6964-013c-ead5-e1d4da1fe84b, GetClipPlane, GetClipPlane me
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetClipPlane"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

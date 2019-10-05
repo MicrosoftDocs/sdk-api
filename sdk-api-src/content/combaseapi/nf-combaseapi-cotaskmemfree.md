@@ -12,6 +12,8 @@ ms.keywords: CoTaskMemFree, CoTaskMemFree function [COM], _com_CoTaskMemFree, co
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoTaskMemFree"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

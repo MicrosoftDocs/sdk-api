@@ -12,6 +12,8 @@ ms.keywords: 9738cc0b-0925-52a9-bcc7-e3e76bec3278, CreateClassInstance, CreateCl
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ClassLinkage.CreateClassInstance"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

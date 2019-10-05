@@ -12,6 +12,8 @@ ms.keywords: '*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directo
 ms.topic: struct
 f1_keywords:
 - schedule/SCHEDULE
+dev_langs:
+ - c++
 req.header: schedule.h
 req.include-header: 
 req.target-type: Windows

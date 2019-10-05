@@ -12,6 +12,8 @@ ms.keywords: EnumTypeDefs, EnumTypeDefs method [Windows Runtime], EnumTypeDefs m
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumTypeDefs"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

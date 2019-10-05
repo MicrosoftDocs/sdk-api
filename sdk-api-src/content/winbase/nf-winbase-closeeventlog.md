@@ -12,6 +12,8 @@ ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.c
 ms.topic: function
 f1_keywords: 
  - "winbase/CloseEventLog"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

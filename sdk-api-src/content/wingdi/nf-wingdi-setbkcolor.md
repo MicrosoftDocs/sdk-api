@@ -12,6 +12,8 @@ ms.keywords: SetBkColor, SetBkColor function [Windows GDI], _win32_SetBkColor, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetBkColor"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

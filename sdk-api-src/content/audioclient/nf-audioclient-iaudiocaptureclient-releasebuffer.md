@@ -12,6 +12,8 @@ ms.keywords: IAudioCaptureClient interface [Core Audio],ReleaseBuffer method, IA
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioCaptureClient.ReleaseBuffer"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

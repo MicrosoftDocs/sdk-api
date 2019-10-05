@@ -12,6 +12,8 @@ ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR func
 ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputsFromHMONITOR
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

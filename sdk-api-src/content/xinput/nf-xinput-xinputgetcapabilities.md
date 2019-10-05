@@ -12,6 +12,8 @@ ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game 
 ms.topic: function
 f1_keywords:
 - xinput/XInputGetCapabilities
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

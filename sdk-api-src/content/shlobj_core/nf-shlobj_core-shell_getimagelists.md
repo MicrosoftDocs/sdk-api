@@ -12,6 +12,8 @@ ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/Shell_GetImageLists"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

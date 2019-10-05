@@ -12,6 +12,8 @@ ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.DefaultInputArea"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

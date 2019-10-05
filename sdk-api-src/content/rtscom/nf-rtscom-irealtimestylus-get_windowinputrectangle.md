@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.WindowInputRectangle"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

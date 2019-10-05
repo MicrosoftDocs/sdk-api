@@ -12,6 +12,8 @@ ms.keywords: BSTR_UserUnmarshal64, BSTR_UserUnmarshal64 function [Automation], a
 ms.topic: function
 f1_keywords: 
  - "oaidl/BSTR_UserUnmarshal64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

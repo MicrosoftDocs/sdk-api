@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICA
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

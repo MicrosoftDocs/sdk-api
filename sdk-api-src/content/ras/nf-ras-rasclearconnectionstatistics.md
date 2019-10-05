@@ -12,6 +12,8 @@ ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function
 ms.topic: function
 f1_keywords:
 - ras/RasClearConnectionStatistics
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

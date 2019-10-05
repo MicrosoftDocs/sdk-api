@@ -12,6 +12,8 @@ ms.keywords: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG, DXGI_OVERLAY_COLOR_SPACE_SUP
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

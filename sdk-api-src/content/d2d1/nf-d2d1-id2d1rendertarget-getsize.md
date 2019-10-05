@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Direct2D], GetSize method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget.GetSize"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

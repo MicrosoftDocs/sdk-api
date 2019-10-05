@@ -12,6 +12,8 @@ ms.keywords: AVIStreamNearestKeyFrameTime, AVIStreamNearestKeyFrameTime macro [W
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamNearestKeyFrameTime"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

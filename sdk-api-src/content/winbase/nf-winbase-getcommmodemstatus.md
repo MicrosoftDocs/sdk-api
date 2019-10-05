@@ -12,6 +12,8 @@ ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_
 ms.topic: function
 f1_keywords: 
  - "winbase/GetCommModemStatus"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

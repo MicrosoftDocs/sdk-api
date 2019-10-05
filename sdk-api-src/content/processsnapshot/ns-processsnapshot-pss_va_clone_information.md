@@ -12,6 +12,8 @@ ms.keywords: PSS_VA_CLONE_INFORMATION, PSS_VA_CLONE_INFORMATION structure, proc_
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_VA_CLONE_INFORMATION"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

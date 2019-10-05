@@ -12,6 +12,8 @@ ms.keywords: D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, GetContentProt
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9Video.GetContentProtectionCaps
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

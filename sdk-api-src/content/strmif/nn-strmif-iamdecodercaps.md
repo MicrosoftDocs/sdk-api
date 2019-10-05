@@ -12,6 +12,8 @@ ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCa
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMDecoderCaps"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

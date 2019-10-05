@@ -12,6 +12,8 @@ ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTrustedInput.GetInputTrustAuthority"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

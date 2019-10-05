@@ -12,6 +12,8 @@ ms.keywords: ITMediaControl interface [TAPI 2.2],get_MediaState method, ITMediaC
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITMediaControl.get_MediaState"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

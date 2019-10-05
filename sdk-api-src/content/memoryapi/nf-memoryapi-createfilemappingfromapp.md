@@ -12,6 +12,8 @@ ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_R
 ms.topic: function
 f1_keywords: 
  - "memoryapi/CreateFileMappingFromApp"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

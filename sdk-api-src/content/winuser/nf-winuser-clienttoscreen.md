@@ -12,6 +12,8 @@ ms.keywords: ClientToScreen, ClientToScreen function [Windows GDI], _win32_Clien
 ms.topic: function
 f1_keywords: 
  - "winuser/ClientToScreen"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

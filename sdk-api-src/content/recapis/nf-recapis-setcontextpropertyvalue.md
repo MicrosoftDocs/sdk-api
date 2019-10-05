@@ -12,6 +12,8 @@ ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetC
 ms.topic: function
 f1_keywords: 
  - "recapis/SetContextPropertyValue"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

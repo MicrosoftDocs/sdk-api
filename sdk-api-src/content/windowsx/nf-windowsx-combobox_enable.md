@@ -12,6 +12,8 @@ ms.keywords: ComboBox_Enable, ComboBox_Enable macro [Windows Controls], _win32_C
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_Enable"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

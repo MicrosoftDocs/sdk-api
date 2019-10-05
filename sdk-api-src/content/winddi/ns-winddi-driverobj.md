@@ -12,6 +12,8 @@ ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], display.driverobj
 ms.topic: struct
 f1_keywords: 
  - "winddi/DRIVEROBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

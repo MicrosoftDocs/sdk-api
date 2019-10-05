@@ -12,6 +12,8 @@ ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], 
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceCreate
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

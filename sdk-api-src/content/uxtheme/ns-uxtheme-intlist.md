@@ -12,6 +12,8 @@ ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST
 ms.topic: struct
 f1_keywords: 
  - "uxtheme/INTLIST"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

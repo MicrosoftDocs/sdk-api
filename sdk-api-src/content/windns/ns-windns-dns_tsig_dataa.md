@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_TSIG_DATA, *PDNS_TSIG_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BAD
 ms.topic: struct
 f1_keywords:
 - windns/DNS_TSIG_DATA
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

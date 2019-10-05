@@ -12,6 +12,8 @@ ms.keywords: GetPartialFile, GetPartialFile method [VSS], GetPartialFile method 
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetPartialFile"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

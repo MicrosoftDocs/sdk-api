@@ -12,6 +12,8 @@ ms.keywords: Deadline property [Task Scheduler], Deadline property [Task Schedul
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMaintenanceSettings.Deadline"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

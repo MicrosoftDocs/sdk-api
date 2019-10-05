@@ -12,6 +12,8 @@ ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializ
 ms.topic: function
 f1_keywords: 
  - "interlockedapi/InitializeSListHead"
+dev_langs:
+ - c++
 req.header: interlockedapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

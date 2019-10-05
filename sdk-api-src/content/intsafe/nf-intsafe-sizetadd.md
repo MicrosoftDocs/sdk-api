@@ -12,6 +12,8 @@ ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsa
 ms.topic: function
 f1_keywords: 
  - "intsafe/SizeTAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

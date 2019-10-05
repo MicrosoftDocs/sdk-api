@@ -12,6 +12,8 @@ ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _sh
 ms.topic: struct
 f1_keywords: 
  - "dimm/LOGFONT"
+dev_langs:
+ - c++
 req.header: dimm.h
 req.include-header: Shtypes.h, Dimm.h
 req.target-type: Windows

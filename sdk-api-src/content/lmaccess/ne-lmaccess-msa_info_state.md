@@ -12,6 +12,8 @@ ms.keywords: '*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Secu
 ms.topic: enum
 f1_keywords:
 - lmaccess/MSA_INFO_STATE
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

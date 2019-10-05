@@ -12,6 +12,8 @@ ms.keywords: '*PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_WINNT_AUTH_IDENTITY_EX2
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

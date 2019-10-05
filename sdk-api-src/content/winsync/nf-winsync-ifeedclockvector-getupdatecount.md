@@ -12,6 +12,8 @@ ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCoun
 ms.topic: method
 f1_keywords: 
  - "winsync/IFeedClockVector.GetUpdateCount"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

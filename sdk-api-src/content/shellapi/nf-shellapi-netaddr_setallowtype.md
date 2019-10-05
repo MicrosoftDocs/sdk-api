@@ -12,6 +12,8 @@ ms.keywords: NetAddr_SetAllowType, NetAddr_SetAllowType macro [Windows Shell], _
 ms.topic: macro
 f1_keywords: 
  - "shellapi/NetAddr_SetAllowType"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

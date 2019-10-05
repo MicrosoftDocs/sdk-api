@@ -12,6 +12,8 @@ ms.keywords: WER_FAULT_REPORTING_ALWAYS_SHOW_UI, WER_FAULT_REPORTING_FLAG_DISABL
 ms.topic: function
 f1_keywords: 
  - "werapi/WerGetFlags"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

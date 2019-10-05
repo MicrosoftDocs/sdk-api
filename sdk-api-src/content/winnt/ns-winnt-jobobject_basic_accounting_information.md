@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_ACCOUNTI
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

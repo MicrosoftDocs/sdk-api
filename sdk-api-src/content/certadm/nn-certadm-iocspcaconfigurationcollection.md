@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection inte
 ms.topic: interface
 f1_keywords: 
  - "certadm/IOCSPCAConfigurationCollection"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

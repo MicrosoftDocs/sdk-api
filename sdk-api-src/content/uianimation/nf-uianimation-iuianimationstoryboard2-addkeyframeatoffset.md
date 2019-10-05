@@ -12,6 +12,8 @@ ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation]
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard2.AddKeyframeAtOffset"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

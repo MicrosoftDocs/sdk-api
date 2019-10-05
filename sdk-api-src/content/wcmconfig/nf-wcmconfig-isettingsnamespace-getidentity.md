@@ -12,6 +12,8 @@ ms.keywords: GetIdentity, GetIdentity method [SMI], GetIdentity method [SMI],ISe
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsNamespace.GetIdentity"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

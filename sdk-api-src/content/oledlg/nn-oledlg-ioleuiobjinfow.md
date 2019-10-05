@@ -12,6 +12,8 @@ ms.keywords: IOleUIObjInfo, IOleUIObjInfo interface [COM], IOleUIObjInfo interfa
 ms.topic: interface
 f1_keywords: 
  - "oledlg/IOleUIObjInfo"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

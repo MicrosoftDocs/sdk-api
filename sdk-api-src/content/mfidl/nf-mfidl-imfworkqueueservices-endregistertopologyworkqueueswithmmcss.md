@@ -12,6 +12,8 @@ ms.keywords: 42eb1a1c-3287-4dee-ab95-fd047a16e345, EndRegisterTopologyWorkQueues
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

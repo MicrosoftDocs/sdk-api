@@ -12,6 +12,8 @@ ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog
 ms.topic: function
 f1_keywords: 
  - "fci/FCICreate"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

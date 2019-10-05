@@ -12,6 +12,8 @@ ms.keywords: IBindCtx interface [COM],ReleaseBoundObjects method, IBindCtx.Relea
 ms.topic: method
 f1_keywords: 
  - "objidl/IBindCtx.ReleaseBoundObjects"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

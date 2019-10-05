@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Unlock method, IDirectDr
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.Unlock"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

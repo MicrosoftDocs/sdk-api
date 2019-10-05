@@ -12,6 +12,8 @@ ms.keywords: "*LPSESSION_INFO_502, *PSESSION_INFO_502, DOS LM 1.0, DOS LM 2.0, L
 ms.topic: struct
 f1_keywords: 
  - "lmshare/SESSION_INFO_502"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

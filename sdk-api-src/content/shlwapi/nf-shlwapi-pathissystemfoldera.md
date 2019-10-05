@@ -12,6 +12,8 @@ ms.keywords: PathIsSystemFolder, PathIsSystemFolder function [Windows Shell], Pa
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsSystemFolder"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

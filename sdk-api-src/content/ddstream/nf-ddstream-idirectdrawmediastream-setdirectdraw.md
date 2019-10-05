@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetDirectDraw method,
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawMediaStream.SetDirectDraw"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

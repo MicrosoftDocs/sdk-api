@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enum
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.enumProvidersWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

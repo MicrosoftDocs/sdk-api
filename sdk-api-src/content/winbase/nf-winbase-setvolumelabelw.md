@@ -12,6 +12,8 @@ ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, S
 ms.topic: function
 f1_keywords: 
  - "winbase/SetVolumeLabel"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

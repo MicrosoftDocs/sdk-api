@@ -12,6 +12,8 @@ ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_IC
 ms.topic: function
 f1_keywords: 
  - "vfw/ICDecompress"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

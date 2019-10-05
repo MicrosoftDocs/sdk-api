@@ -12,6 +12,8 @@ ms.keywords: GetFloatArray, GetFloatArray method [Direct3D 10], GetFloatArray me
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.GetFloatArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

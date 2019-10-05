@@ -12,6 +12,8 @@ ms.keywords: CreateDevicesOnMatchingNetworkAsync, CreateDevicesOnMatchingNetwork
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

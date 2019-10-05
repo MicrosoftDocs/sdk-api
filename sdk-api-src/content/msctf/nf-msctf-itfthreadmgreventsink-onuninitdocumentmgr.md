@@ -12,6 +12,8 @@ ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnUninitD
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgrEventSink.OnUninitDocumentMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

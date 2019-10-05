@@ -12,6 +12,8 @@ ms.keywords: 08a5f659-609d-4a86-a24e-b30bb7f9e835, GetScanline0AndPitch, GetScan
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.GetScanline0AndPitch"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Window
 ms.topic: interface
 f1_keywords: 
  - "msime/IFELanguage"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

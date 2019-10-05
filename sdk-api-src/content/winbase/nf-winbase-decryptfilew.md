@@ -12,6 +12,8 @@ ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFil
 ms.topic: function
 f1_keywords: 
  - "winbase/DecryptFile"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

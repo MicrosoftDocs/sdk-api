@@ -12,6 +12,8 @@ ms.keywords: NET_FW_EDGE_TRAVERSAL_TYPE, NET_FW_EDGE_TRAVERSAL_TYPE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_EDGE_TRAVERSAL_TYPE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

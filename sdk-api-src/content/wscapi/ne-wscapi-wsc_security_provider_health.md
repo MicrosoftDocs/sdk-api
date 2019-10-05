@@ -12,6 +12,8 @@ ms.keywords: "*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH, WSC_
 ms.topic: enum
 f1_keywords: 
  - "wscapi/WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH"
+dev_langs:
+ - c++
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows

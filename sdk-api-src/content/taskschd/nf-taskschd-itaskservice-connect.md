@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Sche
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskService.Connect"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo2 interface [Automation],SetImplTypeCustData method,
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.SetImplTypeCustData"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

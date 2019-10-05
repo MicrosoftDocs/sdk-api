@@ -12,6 +12,8 @@ ms.keywords: SnmpDecodeMsg, SnmpDecodeMsg function [SNMP], _snmp_snmpdecodemsg, 
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpDecodeMsg"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

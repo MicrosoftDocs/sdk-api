@@ -12,6 +12,8 @@ ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaT
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/RequireNetworkDuringMediaTaskCompletion"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internation
 ms.topic: struct
 f1_keywords: 
  - "imepad/APPLETIDLIST"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

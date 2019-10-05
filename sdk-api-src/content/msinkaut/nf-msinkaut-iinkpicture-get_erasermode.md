@@ -12,6 +12,8 @@ ms.keywords: EraserMode property [Tablet PC], EraserMode property [Tablet PC],II
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.EraserMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

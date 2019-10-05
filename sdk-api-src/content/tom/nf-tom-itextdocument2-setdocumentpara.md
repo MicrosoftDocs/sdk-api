@@ -12,6 +12,8 @@ ms.keywords: ITextDocument2 interface [Windows Controls],SetDocumentPara method,
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.SetDocumentPara"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

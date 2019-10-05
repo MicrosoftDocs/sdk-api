@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgro
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.SuspendGroup"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

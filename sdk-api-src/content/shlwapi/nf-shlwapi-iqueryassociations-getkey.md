@@ -12,6 +12,8 @@ ms.keywords: GetKey, GetKey method [Windows Shell], GetKey method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shlwapi/IQueryAssociations.GetKey"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

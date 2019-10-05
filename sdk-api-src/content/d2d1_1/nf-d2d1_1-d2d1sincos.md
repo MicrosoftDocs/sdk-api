@@ -12,6 +12,8 @@ ms.keywords: D2D1SinCos, D2D1SinCos function [Direct2D], d2d1_1/D2D1SinCos, dire
 ms.topic: function
 f1_keywords: 
  - "d2d1_1/D2D1SinCos"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

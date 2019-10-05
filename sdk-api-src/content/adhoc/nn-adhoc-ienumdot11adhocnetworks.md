@@ -12,6 +12,8 @@ ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeW
 ms.topic: interface
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocNetworks"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

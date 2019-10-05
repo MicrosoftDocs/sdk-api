@@ -12,6 +12,8 @@ ms.keywords: "*PICMP6_TYPE, ICMP6_DST_UNREACH, ICMP6_ECHO_REPLY, ICMP6_ECHO_REQU
 ms.topic: enum
 f1_keywords: 
  - "ipmib/ICMP6_TYPE"
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

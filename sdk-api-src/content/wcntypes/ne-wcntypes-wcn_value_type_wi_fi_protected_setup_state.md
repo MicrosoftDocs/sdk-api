@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_SS_CONFIGURED, WCN_VALUE_SS_NOT_CONFIGURED, WCN_VALUE_SS_
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

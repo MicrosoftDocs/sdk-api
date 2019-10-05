@@ -12,6 +12,8 @@ ms.keywords: GetBinary, GetBinary method [Windows Contacts], GetBinary method [W
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.GetBinary"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

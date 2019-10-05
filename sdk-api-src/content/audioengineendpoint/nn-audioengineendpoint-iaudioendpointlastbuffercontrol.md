@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl in
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointLastBufferControl"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

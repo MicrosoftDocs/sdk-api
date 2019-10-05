@@ -12,6 +12,8 @@ ms.keywords: '*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, w
 ms.topic: struct
 f1_keywords:
 - winsock2/BLOB
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Wtypes.h, Nspapi.h, Winsock2.h, Wtypes.h, Nspapi.h, Winsock2.h
 req.target-type: Windows

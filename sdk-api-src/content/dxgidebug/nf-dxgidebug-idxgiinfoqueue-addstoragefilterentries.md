@@ -12,6 +12,8 @@ ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method [DXGI], Add
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.AddStorageFilterEntries"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

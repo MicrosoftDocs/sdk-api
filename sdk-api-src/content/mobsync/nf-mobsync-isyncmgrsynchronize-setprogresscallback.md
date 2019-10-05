@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback m
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronize.SetProgressCallback"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

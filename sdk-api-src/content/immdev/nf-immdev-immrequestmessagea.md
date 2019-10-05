@@ -12,6 +12,8 @@ ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmRequestMessage"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: 
 req.target-type: Windows

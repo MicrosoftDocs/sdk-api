@@ -12,6 +12,8 @@ ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],d
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IPart"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

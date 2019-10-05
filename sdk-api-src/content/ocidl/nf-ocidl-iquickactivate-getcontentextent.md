@@ -12,6 +12,8 @@ ms.keywords: GetContentExtent, GetContentExtent method [COM], GetContentExtent m
 ms.topic: method
 f1_keywords: 
  - "ocidl/IQuickActivate.GetContentExtent"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

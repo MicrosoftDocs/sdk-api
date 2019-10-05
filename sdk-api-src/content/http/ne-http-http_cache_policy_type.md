@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLIC
 ms.topic: enum
 f1_keywords:
 - http/HTTP_CACHE_POLICY_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

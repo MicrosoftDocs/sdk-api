@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO, FILE_COMPRESSION_I
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_COMPRESSION_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

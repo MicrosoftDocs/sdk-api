@@ -12,6 +12,8 @@ ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCo
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathCommonPrefix"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

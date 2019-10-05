@@ -12,6 +12,8 @@ ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersis
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPersistFolder3"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

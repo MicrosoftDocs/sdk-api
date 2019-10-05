@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_CONFIGURATIONA, FAX_CONFIGURATION, FAX_CONFIGURATION structu
 ms.topic: struct
 f1_keywords:
 - winfax/FAX_CONFIGURATION
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

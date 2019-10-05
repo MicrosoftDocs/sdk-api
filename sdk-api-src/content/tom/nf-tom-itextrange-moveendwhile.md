@@ -12,6 +12,8 @@ ms.keywords: ITextRange interface [Windows Controls],MoveEndWhile method, ITextR
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.MoveEndWhile"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

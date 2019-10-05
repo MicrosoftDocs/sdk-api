@@ -12,6 +12,8 @@ ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBalloon.GetBalloonInfo"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

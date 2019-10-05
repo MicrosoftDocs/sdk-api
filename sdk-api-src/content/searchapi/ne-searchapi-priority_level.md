@@ -12,6 +12,8 @@ ms.keywords: PRIORITY_LEVEL, PRIORITY_LEVEL enumeration [search], PRIORITY_LEVEL
 ms.topic: enum
 f1_keywords: 
  - "searchapi/PRIORITY_LEVEL"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

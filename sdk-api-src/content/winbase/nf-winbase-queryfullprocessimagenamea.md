@@ -12,6 +12,8 @@ ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessIma
 ms.topic: function
 f1_keywords: 
  - "winbase/QueryFullProcessImageName"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

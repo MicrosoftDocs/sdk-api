@@ -12,6 +12,8 @@ ms.keywords: IEnumWIA_FORMAT_INFO, IEnumWIA_FORMAT_INFO interface [WIA], IEnumWI
 ms.topic: interface
 f1_keywords:
 - wia_xp/IEnumWIA_FORMAT_INFO
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interf
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolShadowConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityX proper
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.InitialVelocityX"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display D
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDLOCKOUTINFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

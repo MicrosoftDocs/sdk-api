@@ -12,6 +12,8 @@ ms.keywords: RTSDI_AllData, RTSDI_CustomStylusDataAdded, RTSDI_DefaultEvents, RT
 ms.topic: enum
 f1_keywords: 
  - "rtscom/RealTimeStylusDataInterest"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

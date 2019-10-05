@@ -12,6 +12,8 @@ ms.keywords: NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DR
 ms.topic: enum
 f1_keywords: 
  - "ntmsapi/NtmsObjectsTypes"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

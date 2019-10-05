@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filter
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextSubscribe0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

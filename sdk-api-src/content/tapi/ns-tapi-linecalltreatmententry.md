@@ -12,6 +12,8 @@ ms.keywords: "*LPLINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY, LINECALLTREATME
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINECALLTREATMENTENTRY"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IGPM2, IGPM2 interface [GPMC], IGPM2 interface [GPMC],described, gp
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPM2"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

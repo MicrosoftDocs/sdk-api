@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolumeCallback.OnNotify"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

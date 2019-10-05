@@ -12,6 +12,8 @@ ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement4.CachedLevel"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMak
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglMakeCurrent"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

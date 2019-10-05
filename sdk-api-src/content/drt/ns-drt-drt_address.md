@@ -12,6 +12,8 @@ ms.keywords: '*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking
 ms.topic: struct
 f1_keywords:
 - drt/DRT_ADDRESS
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

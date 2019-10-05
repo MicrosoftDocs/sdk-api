@@ -12,6 +12,8 @@ ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy,
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingCopy"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

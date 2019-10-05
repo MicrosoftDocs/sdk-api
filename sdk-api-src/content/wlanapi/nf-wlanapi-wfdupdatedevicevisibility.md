@@ -12,6 +12,8 @@ ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [Nati
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDUpdateDeviceVisibility"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

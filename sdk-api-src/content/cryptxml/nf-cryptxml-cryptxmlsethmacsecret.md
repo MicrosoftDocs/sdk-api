@@ -12,6 +12,8 @@ ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], c
 ms.topic: function
 f1_keywords: 
  - "cryptxml/CryptXmlSetHMACSecret"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

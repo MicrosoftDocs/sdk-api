@@ -12,6 +12,8 @@ ms.keywords: IAMCrossbar interface [DirectShow],get_IsRoutedTo method, IAMCrossb
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMCrossbar.get_IsRoutedTo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSignature, GetSignature method, GetSignature method,IXblIdpAuthT
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetSignature"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

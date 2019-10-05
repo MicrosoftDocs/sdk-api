@@ -12,6 +12,8 @@ ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser 
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IPBDASiParser"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 st
 ms.topic: struct
 f1_keywords:
 - lsalookup/LSA_TRANSLATED_SID2
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

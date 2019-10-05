@@ -12,6 +12,8 @@ ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LO
 ms.topic: callback
 f1_keywords: 
  - "routprot/AddInterface"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

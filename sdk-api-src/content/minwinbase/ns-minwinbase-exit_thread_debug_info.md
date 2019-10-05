@@ -12,6 +12,8 @@ ms.keywords: "*LPEXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEB
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/EXIT_THREAD_DEBUG_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

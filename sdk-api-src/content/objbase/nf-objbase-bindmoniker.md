@@ -12,6 +12,8 @@ ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bind
 ms.topic: function
 f1_keywords: 
  - "objbase/BindMoniker"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

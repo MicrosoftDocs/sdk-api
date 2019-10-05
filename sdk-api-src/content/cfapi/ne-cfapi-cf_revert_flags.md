@@ -12,6 +12,8 @@ ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, 
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_REVERT_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

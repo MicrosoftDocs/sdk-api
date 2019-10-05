@@ -12,6 +12,8 @@ ms.keywords: 453b6ede-999a-d914-5698-e6749585c82e, End, End method [Direct3D 10]
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Asynchronous.End"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGpsUtcOffset, GetGpsUtcOffset method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_STT.GetGpsUtcOffset"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

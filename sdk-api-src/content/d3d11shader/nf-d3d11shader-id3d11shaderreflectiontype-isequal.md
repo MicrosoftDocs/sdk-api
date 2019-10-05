@@ -12,6 +12,8 @@ ms.keywords: 5ed95f14-be4b-bff2-83ce-cbf5f239bf3b, ID3D11ShaderReflectionType in
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.IsEqual"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_CIT_DELETED, SYNCMGR_CIT_UPDATED, SYNCMGR_CONFLICT_ITEM_TYP
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [
 ms.topic: function
 f1_keywords: 
  - "msime/CreateIFEDictionaryInstance"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

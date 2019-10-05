@@ -12,6 +12,8 @@ ms.keywords: CF_PLACEHOLDER_CREATE_INFO, CF_PLACEHOLDER_CREATE_INFO structure, c
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_PLACEHOLDER_CREATE_INFO"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

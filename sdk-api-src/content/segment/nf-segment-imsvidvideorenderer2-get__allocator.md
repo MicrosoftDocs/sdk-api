@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__All
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer2.get__Allocator"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

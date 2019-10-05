@@ -12,6 +12,8 @@ ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], Get
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainer.GetContentPrice"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

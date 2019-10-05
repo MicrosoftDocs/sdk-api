@@ -12,6 +12,8 @@ ms.keywords: 9a51f87c-558e-0e06-6372-a3753ac70d17, IDirect3DBaseTexture9, IDirec
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DBaseTexture9"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

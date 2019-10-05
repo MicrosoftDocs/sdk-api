@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],put_TuningSpace method, IAMTuner.pu
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.put_TuningSpace"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration interface [Fax Service],LowQuotaWaterMark propert
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.LowQuotaWaterMark"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

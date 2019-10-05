@@ -12,6 +12,8 @@ ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology, DeleteTopolog
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSequencerSource.DeleteTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

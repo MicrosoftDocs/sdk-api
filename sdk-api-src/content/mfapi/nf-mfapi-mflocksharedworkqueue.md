@@ -12,6 +12,8 @@ ms.keywords: MFLockSharedWorkQueue, MFLockSharedWorkQueue function [Media Founda
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFLockSharedWorkQueue"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PHONE_HOOK_SWITCH_STATE, PHONE_HOOK_SWITCH_STATE enumeration [TAPI 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONE_HOOK_SWITCH_STATE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

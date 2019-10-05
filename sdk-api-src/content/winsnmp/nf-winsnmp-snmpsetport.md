@@ -12,6 +12,8 @@ ms.keywords: SnmpSetPort, SnmpSetPort function [SNMP], _snmp_snmpsetport, snmp.s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpSetPort"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

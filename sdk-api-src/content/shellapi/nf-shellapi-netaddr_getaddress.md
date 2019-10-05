@@ -12,6 +12,8 @@ ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shel
 ms.topic: macro
 f1_keywords: 
  - "shellapi/NetAddr_GetAddress"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

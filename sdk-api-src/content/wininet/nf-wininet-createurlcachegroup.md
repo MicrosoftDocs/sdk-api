@@ -12,6 +12,8 @@ ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_
 ms.topic: function
 f1_keywords: 
  - "wininet/CreateUrlCacheGroup"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

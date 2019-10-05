@@ -12,6 +12,8 @@ ms.keywords: IsIdentity, IsIdentity method [GDI+], IsIdentity method [GDI+],Matr
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.IsIdentity"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

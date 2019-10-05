@@ -12,6 +12,8 @@ ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method,
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.LoadPolicy"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

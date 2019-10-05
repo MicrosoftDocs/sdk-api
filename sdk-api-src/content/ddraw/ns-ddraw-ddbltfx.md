@@ -12,6 +12,8 @@ ms.keywords: '*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITH
 ms.topic: struct
 f1_keywords:
 - ddraw/DDBLTFX
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

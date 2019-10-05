@@ -12,6 +12,8 @@ ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsLun interfa
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.AddPlex"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

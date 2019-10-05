@@ -12,6 +12,8 @@ ms.keywords: GetPageCount, GetPageCount method [Windows Shell], GetPageCount met
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetPageCount"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

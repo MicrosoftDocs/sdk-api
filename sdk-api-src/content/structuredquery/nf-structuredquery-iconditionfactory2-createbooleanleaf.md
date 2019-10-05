@@ -12,6 +12,8 @@ ms.keywords: CreateBooleanLeaf, CreateBooleanLeaf method [search], CreateBoolean
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.CreateBooleanLeaf"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

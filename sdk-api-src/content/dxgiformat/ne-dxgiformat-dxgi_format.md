@@ -12,6 +12,8 @@ ms.keywords: DXGI_FORMAT, DXGI_FORMAT enumeration [DXGI], DXGI_FORMAT_420_OPAQUE
 ms.topic: enum
 f1_keywords: 
  - "dxgiformat/DXGI_FORMAT"
+dev_langs:
+ - c++
 req.header: dxgiformat.h
 req.include-header: 
 req.target-type: Windows

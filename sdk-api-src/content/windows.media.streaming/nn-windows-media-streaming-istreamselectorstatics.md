@@ -12,6 +12,8 @@ ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Str
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IStreamSelectorStatics"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

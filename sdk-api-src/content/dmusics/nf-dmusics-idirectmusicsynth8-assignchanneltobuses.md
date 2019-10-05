@@ -12,6 +12,8 @@ ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], 
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth8.AssignChannelToBuses"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

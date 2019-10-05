@@ -12,6 +12,8 @@ ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, Col
 ms.topic: function
 f1_keywords: 
  - "wingdi/ColorMatchToTarget"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

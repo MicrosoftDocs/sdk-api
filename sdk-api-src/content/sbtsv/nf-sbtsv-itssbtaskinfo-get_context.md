@@ -12,6 +12,8 @@ ms.keywords: Context property [Remote Desktop Services], Context property [Remot
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskInfo.Context"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIterationInfo, GetIterationInfo method [Windows Shell], GetItera
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

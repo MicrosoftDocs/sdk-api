@@ -12,6 +12,8 @@ ms.keywords: NS_DEFAULT, NS_DNS, NS_NDS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TC
 ms.topic: function
 f1_keywords:
 - nspapi/SetService
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

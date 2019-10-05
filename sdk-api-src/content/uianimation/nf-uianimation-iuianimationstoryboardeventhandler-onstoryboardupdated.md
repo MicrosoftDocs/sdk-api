@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],On
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardUpdated"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

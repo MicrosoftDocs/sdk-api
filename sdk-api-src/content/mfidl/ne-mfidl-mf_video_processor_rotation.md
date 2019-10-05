@@ -12,6 +12,8 @@ ms.keywords: MF_VIDEO_PROCESSOR_ROTATION, MF_VIDEO_PROCESSOR_ROTATION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_VIDEO_PROCESSOR_ROTATION"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

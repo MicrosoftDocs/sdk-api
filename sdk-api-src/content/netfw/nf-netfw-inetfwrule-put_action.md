@@ -12,6 +12,8 @@ ms.keywords: Action property [ICS/ICF], Action property [ICS/ICF],INetFwRule int
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.Action"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

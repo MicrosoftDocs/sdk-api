@@ -12,6 +12,8 @@ ms.keywords: GetIncludedEvents, GetIncludedEvents method [Offline Files], GetInc
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEventsFilter.GetIncludedEvents"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

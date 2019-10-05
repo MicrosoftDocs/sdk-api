@@ -12,6 +12,8 @@ ms.keywords: RegistrationScope, RegistrationScope enumeration [Windows Runtime],
 ms.topic: enum
 f1_keywords: 
  - "activationregistration/RegistrationScope"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

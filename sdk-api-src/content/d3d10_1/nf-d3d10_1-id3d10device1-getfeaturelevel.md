@@ -12,6 +12,8 @@ ms.keywords: GetFeatureLevel, GetFeatureLevel method [Direct3D 10], GetFeatureLe
 ms.topic: method
 f1_keywords: 
  - "d3d10_1/ID3D10Device1.GetFeatureLevel"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

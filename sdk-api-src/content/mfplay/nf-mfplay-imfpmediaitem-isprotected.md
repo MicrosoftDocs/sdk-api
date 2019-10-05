@@ -12,6 +12,8 @@ ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected metho
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.IsProtected"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

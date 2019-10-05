@@ -12,6 +12,8 @@ ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IM
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFClockConsumer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

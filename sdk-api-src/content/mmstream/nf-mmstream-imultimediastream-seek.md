@@ -12,6 +12,8 @@ ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaSt
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.Seek"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

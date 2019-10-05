@@ -12,6 +12,8 @@ ms.keywords: VkKeyScanEx, VkKeyScanEx function [Keyboard and Mouse Input], VkKey
 ms.topic: function
 f1_keywords: 
  - "winuser/VkKeyScanEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

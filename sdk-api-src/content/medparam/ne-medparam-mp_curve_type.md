@@ -12,6 +12,8 @@ ms.keywords: MP_CURVE_INVSQUARE, MP_CURVE_JUMP, MP_CURVE_LINEAR, MP_CURVE_SINE, 
 ms.topic: enum
 f1_keywords:
 - medparam/MP_CURVE_TYPE
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

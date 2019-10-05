@@ -12,6 +12,8 @@ ms.keywords: IDWriteInlineObject, IDWriteInlineObject interface [Direct Write], 
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteInlineObject"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

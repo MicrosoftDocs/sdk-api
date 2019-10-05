@@ -12,6 +12,8 @@ ms.keywords: JobObjectAssociateCompletionPortInformation, JobObjectBasicLimitInf
 ms.topic: function
 f1_keywords:
 - jobapi2/SetInformationJobObject
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows

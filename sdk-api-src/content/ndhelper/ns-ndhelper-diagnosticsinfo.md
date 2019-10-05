@@ -12,6 +12,8 @@ ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF
 ms.topic: struct
 f1_keywords: 
  - "ndhelper/DiagnosticsInfo, *PDiagnosticsInfo"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

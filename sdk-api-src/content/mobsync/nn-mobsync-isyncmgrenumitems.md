@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISy
 ms.topic: interface
 f1_keywords:
 - mobsync/ISyncMgrEnumItems
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

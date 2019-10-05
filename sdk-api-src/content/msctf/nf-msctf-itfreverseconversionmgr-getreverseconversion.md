@@ -12,6 +12,8 @@ ms.keywords: GetReverseConversion, GetReverseConversion method [Text Services Fr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReverseConversionMgr.GetReverseConversion"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

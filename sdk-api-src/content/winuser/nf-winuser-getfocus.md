@@ -12,6 +12,8 @@ ms.keywords: GetFocus, GetFocus function [Keyboard and Mouse Input], _win32_GetF
 ms.topic: function
 f1_keywords: 
  - "winuser/GetFocus"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

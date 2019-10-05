@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_DRIVE_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

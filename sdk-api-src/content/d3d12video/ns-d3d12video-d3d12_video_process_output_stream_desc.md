@@ -8,6 +8,10 @@ ms.assetid: 45a8af3d-5e67-4bc0-a38b-f5b45298aea9
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC, D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC, 
 req.header: d3d12video.h
 req.include-header:

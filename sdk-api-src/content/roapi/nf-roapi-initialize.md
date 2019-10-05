@@ -12,6 +12,8 @@ ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initia
 ms.topic: function
 f1_keywords: 
  - "roapi/Initialize"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

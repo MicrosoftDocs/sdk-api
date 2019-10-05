@@ -12,6 +12,8 @@ ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], 
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRImageCompositor9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurre
 ms.topic: function
 f1_keywords: 
  - "winbase/GetCurrentDirectory"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

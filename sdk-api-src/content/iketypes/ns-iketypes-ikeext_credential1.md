@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CREDENTIAL1, IKEEXT_CREDENTIAL1 structure [Filtering], fwp.i
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CREDENTIAL1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

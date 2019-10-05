@@ -12,6 +12,8 @@ ms.keywords: CWMO_DEFAULT, CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CW
 ms.topic: enum
 f1_keywords: 
  - "combaseapi/CWMO_FLAGS"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

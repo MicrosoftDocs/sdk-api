@@ -12,6 +12,8 @@ ms.keywords: GetOutputDPI, GetOutputDPI method [WPF Bitmap Effects], GetOutputDP
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContext.GetOutputDPI"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

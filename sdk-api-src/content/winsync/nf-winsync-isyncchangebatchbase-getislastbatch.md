@@ -12,6 +12,8 @@ ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatc
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.GetIsLastBatch"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

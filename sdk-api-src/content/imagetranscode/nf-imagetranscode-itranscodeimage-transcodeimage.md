@@ -12,6 +12,8 @@ ms.keywords: ITranscodeImage interface [Windows Shell],TranscodeImage method, IT
 ms.topic: method
 f1_keywords: 
  - "imagetranscode/ITranscodeImage.TranscodeImage"
+dev_langs:
+ - c++
 req.header: imagetranscode.h
 req.include-header: 
 req.target-type: Windows

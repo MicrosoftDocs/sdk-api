@@ -12,6 +12,8 @@ ms.keywords: IWiaLogEx interface [WIA],hResult method, IWiaLogEx.hResult, IWiaLo
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaLogEx.hResult"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetElement, MI_Class_GetElement function [Windows Manageme
 ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetElement
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

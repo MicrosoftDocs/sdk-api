@@ -12,6 +12,8 @@ ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], callobj/CAL
 ms.topic: struct
 f1_keywords: 
  - "callobj/CALLFRAMEPARAMINFO"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

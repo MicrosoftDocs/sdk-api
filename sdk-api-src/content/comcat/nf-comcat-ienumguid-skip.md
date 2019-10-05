@@ -12,6 +12,8 @@ ms.keywords: IEnumGUID interface [COM],Skip method, IEnumGUID.Skip, IEnumGUID::S
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumGUID.Skip"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

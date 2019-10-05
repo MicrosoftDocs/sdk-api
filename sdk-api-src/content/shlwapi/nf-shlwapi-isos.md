@@ -12,6 +12,8 @@ ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwa
 ms.topic: function
 f1_keywords:
 - shlwapi/IsOS
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

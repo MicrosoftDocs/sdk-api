@@ -12,6 +12,8 @@ ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedi
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStreaming.End"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

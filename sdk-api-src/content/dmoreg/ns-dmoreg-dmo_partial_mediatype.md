@@ -12,6 +12,8 @@ ms.keywords: "*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIAT
 ms.topic: struct
 f1_keywords: 
  - "dmoreg/DMO_PARTIAL_MEDIATYPE"
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows

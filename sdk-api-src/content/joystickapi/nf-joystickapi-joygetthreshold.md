@@ -12,6 +12,8 @@ ms.keywords: "_win32_joyGetThreshold, joyGetThreshold, joyGetThreshold function 
 ms.topic: function
 f1_keywords: 
  - "joystickapi/joyGetThreshold"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

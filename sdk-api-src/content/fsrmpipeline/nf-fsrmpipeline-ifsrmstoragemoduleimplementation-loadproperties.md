@@ -12,6 +12,8 @@ ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Ma
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmStorageModuleImplementation.LoadProperties"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], 
 ms.topic: interface
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

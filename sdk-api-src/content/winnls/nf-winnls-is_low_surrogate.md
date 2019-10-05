@@ -12,6 +12,8 @@ ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for 
 ms.topic: macro
 f1_keywords: 
  - "winnls/IS_LOW_SURROGATE"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

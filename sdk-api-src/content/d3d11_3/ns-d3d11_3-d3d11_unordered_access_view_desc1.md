@@ -12,6 +12,8 @@ ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DES
 ms.topic: struct
 f1_keywords: 
  - "d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

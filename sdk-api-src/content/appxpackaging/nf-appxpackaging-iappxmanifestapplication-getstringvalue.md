@@ -12,6 +12,8 @@ ms.keywords: GetStringValue, GetStringValue method [App packaging and management
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestApplication.GetStringValue"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

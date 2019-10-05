@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _wi
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareEnum
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

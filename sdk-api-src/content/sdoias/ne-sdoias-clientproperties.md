@@ -12,6 +12,8 @@ ms.keywords: CLIENTPROPERTIES, CLIENTPROPERTIES enumeration [Network Policy Serv
 ms.topic: enum
 f1_keywords:
 - sdoias/CLIENTPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

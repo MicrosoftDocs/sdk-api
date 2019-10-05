@@ -12,6 +12,8 @@ ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_ad
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AdjustTokenGroups
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

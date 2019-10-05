@@ -12,6 +12,8 @@ ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession in
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.Start"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_dateti
 ms.topic: struct
 f1_keywords: 
  - "wsdxml/WSD_DATETIME"
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

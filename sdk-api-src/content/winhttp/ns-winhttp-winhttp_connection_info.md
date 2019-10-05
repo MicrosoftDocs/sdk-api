@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_CONNECTION_INFO, WINHTTP_CONNECTION_INFO structure [HTTP], 
 ms.topic: struct
 f1_keywords: 
  - "winhttp/WINHTTP_CONNECTION_INFO"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

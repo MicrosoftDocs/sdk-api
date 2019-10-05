@@ -12,6 +12,8 @@ ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DS
 ms.topic: interface
 f1_keywords: 
  - "d3d9helper/IDirect3DSurface9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

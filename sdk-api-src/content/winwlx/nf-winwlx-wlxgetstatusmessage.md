@@ -12,6 +12,8 @@ ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxGetStatusMessage"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPL
 ms.topic: struct
 f1_keywords: 
  - "cpl/CPLINFO"
+dev_langs:
+ - c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

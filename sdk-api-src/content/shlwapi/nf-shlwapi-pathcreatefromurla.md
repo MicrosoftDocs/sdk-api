@@ -12,6 +12,8 @@ ms.keywords: PathCreateFromUrl, PathCreateFromUrl function [Windows Shell], Path
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathCreateFromUrl"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS struc
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_D3DBUFCALLBACKS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

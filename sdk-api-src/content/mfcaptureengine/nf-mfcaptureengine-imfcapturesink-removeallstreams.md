@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSink.RemoveAllStreams"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

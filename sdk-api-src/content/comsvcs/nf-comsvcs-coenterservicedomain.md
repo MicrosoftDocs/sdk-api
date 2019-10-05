@@ -12,6 +12,8 @@ ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_Co
 ms.topic: function
 f1_keywords: 
  - "comsvcs/CoEnterServiceDomain"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

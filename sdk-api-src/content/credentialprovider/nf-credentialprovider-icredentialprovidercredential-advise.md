@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredential.Advise"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

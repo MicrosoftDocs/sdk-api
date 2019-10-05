@@ -12,6 +12,8 @@ ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/Pro
 ms.topic: function
 f1_keywords: 
  - "gamingtcui/ProcessPendingGameUI"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

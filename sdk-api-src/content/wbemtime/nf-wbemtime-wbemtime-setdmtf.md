@@ -12,6 +12,8 @@ ms.keywords: "?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Man
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.SetDMTF"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interfac
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDAsyncResult.GetEvent
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

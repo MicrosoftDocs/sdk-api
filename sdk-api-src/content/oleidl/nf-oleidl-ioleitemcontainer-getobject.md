@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IOleItemC
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleItemContainer.GetObject"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

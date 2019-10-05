@@ -12,6 +12,8 @@ ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installa
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Sibling"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

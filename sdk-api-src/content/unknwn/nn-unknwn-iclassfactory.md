@@ -12,6 +12,8 @@ ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interfa
 ms.topic: interface
 f1_keywords: 
  - "unknwn/IClassFactory"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows

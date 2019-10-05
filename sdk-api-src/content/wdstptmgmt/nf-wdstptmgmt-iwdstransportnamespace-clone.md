@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Wi
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespace.Clone"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

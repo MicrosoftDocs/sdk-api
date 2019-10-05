@@ -12,6 +12,8 @@ ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter2.ResetMultiPassState"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

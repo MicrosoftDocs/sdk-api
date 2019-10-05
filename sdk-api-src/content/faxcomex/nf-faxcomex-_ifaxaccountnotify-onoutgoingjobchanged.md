@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountNotify.OnOutgoingJobChanged, OnOutgoingJobChanged, OnOut
 ms.topic: method
 f1_keywords: 
  - "faxcomex/_IFaxAccountNotify.OnOutgoingJobChanged"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

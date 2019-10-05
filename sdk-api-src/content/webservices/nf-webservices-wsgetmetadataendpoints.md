@@ -12,6 +12,8 @@ ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Servic
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetMetadataEndpoints"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

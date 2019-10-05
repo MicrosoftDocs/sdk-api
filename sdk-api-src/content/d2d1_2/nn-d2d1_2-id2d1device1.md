@@ -12,6 +12,8 @@ ms.keywords: ID2D1Device1, ID2D1Device1 interface [Direct2D], ID2D1Device1 inter
 ms.topic: interface
 f1_keywords: 
  - "d2d1_2/ID2D1Device1"
+dev_langs:
+ - c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

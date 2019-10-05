@@ -12,6 +12,8 @@ ms.keywords: DiagnosticsPolicy property [Windows Deployment Services], Diagnosti
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager.DiagnosticsPolicy"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

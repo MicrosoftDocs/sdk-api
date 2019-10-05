@@ -12,6 +12,8 @@ ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItem.GetItemInfo"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

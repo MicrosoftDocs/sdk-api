@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSyncDevice.createPartnership"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

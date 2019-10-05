@@ -12,6 +12,8 @@ ms.keywords: D3D10_PASS_SHADER_DESC, D3D10_PASS_SHADER_DESC structure [Direct3D 
 ms.topic: struct
 f1_keywords: 
  - "d3d10effect/D3D10_PASS_SHADER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

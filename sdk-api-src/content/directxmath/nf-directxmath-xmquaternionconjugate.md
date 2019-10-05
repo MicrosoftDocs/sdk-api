@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionConjugate, XMQuaternionConjugate, XMQuater
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionConjugate"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class,
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Exclude"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_BUNDLE_UPDATE_FLAGS, IPSEC_SA_BUNDLE_UPDATE_KEY_MODULE_STA
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextUpdate0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

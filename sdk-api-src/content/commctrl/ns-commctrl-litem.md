@@ -12,6 +12,8 @@ ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiator
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

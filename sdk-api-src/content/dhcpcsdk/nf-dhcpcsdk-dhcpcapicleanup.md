@@ -12,6 +12,8 @@ ms.keywords: DhcpCApiCleanup, DhcpCApiCleanup function [DHCP], _dhcp_dhcpcapicle
 ms.topic: function
 f1_keywords: 
  - "dhcpcsdk/DhcpCApiCleanup"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

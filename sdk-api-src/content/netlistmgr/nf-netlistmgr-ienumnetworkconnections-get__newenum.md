@@ -12,6 +12,8 @@ ms.keywords: IEnumNetworkConnections interface [Network Awareness],get__NewEnum 
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/IEnumNetworkConnections.get__NewEnum"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

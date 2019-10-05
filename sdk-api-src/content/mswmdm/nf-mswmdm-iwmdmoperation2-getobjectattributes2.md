@@ -12,6 +12,8 @@ ms.keywords: GetObjectAttributes2, GetObjectAttributes2 method [windows Media De
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation2.GetObjectAttributes2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

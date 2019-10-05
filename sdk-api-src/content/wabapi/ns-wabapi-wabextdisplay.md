@@ -12,6 +12,8 @@ ms.keywords: '*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure point
 ms.topic: struct
 f1_keywords:
 - wabapi/WABEXTDISPLAY
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxDevice interface [Fax Service],PoweredOff property, IFaxDevice.
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDevice.PoweredOff"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

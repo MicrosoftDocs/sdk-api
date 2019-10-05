@@ -12,6 +12,8 @@ ms.keywords: AM_INTF_SEARCH_FILTER, AM_INTF_SEARCH_FLAGS, AM_INTF_SEARCH_FLAGSEn
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_INTF_SEARCH_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

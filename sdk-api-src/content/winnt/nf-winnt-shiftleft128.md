@@ -12,6 +12,8 @@ ms.keywords: ShiftLeft128, ShiftLeft128 function [Windows API], winnt/ShiftLeft1
 ms.topic: function
 f1_keywords: 
  - "winnt/ShiftLeft128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

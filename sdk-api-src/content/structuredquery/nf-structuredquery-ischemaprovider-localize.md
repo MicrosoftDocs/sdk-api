@@ -12,6 +12,8 @@ ms.keywords: ISchemaProvider interface [search],Localize method, ISchemaProvider
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ISchemaProvider.Localize"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

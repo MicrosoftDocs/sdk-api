@@ -12,6 +12,8 @@ ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

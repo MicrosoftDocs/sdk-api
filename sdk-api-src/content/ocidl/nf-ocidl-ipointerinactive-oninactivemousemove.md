@@ -12,6 +12,8 @@ ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPoint
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPointerInactive.OnInactiveMouseMove"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

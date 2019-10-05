@@ -12,6 +12,8 @@ ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT 
 ms.topic: callback
 f1_keywords:
 - winnt/UmsSchedulerProc
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: WinBase.h, Windows.h
 req.target-type: Windows

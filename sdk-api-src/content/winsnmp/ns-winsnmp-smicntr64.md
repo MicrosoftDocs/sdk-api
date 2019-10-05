@@ -12,6 +12,8 @@ ms.keywords: "*smiLPCNTR64, _snmp_smicntr64_str, smiCNTR64, smiCNTR64 structure 
 ms.topic: struct
 f1_keywords: 
  - "winsnmp/smiCNTR64"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

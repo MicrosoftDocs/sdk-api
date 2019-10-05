@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item prop
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceCollection.Item"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

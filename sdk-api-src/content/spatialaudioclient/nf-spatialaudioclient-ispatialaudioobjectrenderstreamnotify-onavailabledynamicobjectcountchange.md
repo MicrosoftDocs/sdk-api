@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectRenderStreamNotify interface [Core Audio],OnAvai
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

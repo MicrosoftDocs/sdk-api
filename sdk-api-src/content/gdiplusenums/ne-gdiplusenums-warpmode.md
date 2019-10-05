@@ -12,6 +12,8 @@ ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePe
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/WarpMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

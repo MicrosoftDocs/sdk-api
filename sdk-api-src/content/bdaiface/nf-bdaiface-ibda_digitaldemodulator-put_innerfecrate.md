@@ -12,6 +12,8 @@ ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_I
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DigitalDemodulator.put_InnerFECRate"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

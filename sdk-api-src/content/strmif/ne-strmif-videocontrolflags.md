@@ -12,6 +12,8 @@ ms.keywords: VideoControlFlag_ExternalTriggerEnable, VideoControlFlag_FlipHorizo
 ms.topic: enum
 f1_keywords: 
  - "strmif/VideoControlFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

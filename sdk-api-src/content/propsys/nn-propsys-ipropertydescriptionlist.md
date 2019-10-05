@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyDescriptionList"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

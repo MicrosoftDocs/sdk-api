@@ -12,6 +12,8 @@ ms.keywords: NetLocalGroupDelMember, NetLocalGroupDelMember function [Network Ma
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetLocalGroupDelMember"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

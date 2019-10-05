@@ -12,6 +12,8 @@ ms.keywords: CoCreateLocally, CoCreateLocally method [Windows Accessibility], Co
 ms.topic: method
 f1_keywords: 
  - "msaatext/ICoCreateLocally.CoCreateLocally"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

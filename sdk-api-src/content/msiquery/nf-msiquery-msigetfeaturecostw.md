@@ -12,6 +12,8 @@ ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INST
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetFeatureCost"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

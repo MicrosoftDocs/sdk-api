@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryConten
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationPrimaryContent"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

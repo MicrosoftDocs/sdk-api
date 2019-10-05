@@ -12,6 +12,8 @@ ms.keywords: ILocator interface [Microsoft TV Technologies],get_Modulation metho
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.get_Modulation"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

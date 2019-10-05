@@ -12,6 +12,8 @@ ms.keywords: GetSinkCount, GetSinkCount method [windows Media Format], GetSinkCo
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced.GetSinkCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

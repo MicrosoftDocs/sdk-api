@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_NAS_VENDOR_ID, VENDORPROPERTIES, VENDORPROPERTIES enumerat
 ms.topic: enum
 f1_keywords:
 - sdoias/VENDORPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

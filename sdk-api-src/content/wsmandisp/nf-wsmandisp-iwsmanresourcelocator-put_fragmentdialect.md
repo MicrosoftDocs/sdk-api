@@ -12,6 +12,8 @@ ms.keywords: FragmentDialect property [Windows Remote Management], FragmentDiale
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator.FragmentDialect"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled pro
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer.EventsEnabled"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: Rdpappcontainerclient.h
 req.target-type: Windows

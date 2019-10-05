@@ -12,6 +12,8 @@ ms.keywords: EnumRanges, EnumRanges method [Text Services Framework], EnumRanges
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReadOnlyProperty.EnumRanges"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

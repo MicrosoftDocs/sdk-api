@@ -12,6 +12,8 @@ ms.keywords: DragMove, DragMove method [Windows Controls], DragMove method [Wind
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.DragMove"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

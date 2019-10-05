@@ -12,6 +12,8 @@ ms.keywords: NdrMesProcEncodeDecode2, NdrMesProcEncodeDecode2 function [RPC], mi
 ms.topic: function
 f1_keywords: 
  - "midles/NdrMesProcEncodeDecode2"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: 
 req.target-type: Windows

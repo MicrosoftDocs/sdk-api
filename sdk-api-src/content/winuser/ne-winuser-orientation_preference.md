@@ -12,6 +12,8 @@ ms.keywords: ORIENTATION_PREFERENCE, ORIENTATION_PREFERENCE enumeration, ORIENTA
 ms.topic: enum
 f1_keywords: 
  - "winuser/ORIENTATION_PREFERENCE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

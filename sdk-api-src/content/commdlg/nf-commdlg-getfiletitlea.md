@@ -12,6 +12,8 @@ ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, 
 ms.topic: function
 f1_keywords: 
  - "commdlg/GetFileTitle"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

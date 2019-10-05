@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote
 ms.topic: method
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannel.Close"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

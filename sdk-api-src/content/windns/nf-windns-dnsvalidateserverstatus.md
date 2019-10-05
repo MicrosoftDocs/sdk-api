@@ -12,6 +12,8 @@ ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_V
 ms.topic: function
 f1_keywords: 
  - "windns/DnsValidateServerStatus"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

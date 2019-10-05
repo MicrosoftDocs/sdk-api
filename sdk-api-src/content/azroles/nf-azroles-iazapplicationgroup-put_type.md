@@ -12,6 +12,8 @@ ms.keywords: AZ_GROUPTYPE_BASIC, AZ_GROUPTYPE_LDAP_QUERY, AzApplicationGroup obj
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.Type"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

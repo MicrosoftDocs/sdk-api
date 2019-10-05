@@ -12,6 +12,8 @@ ms.keywords: ADS_SD_FORMAT_ENUM, ADS_SD_FORMAT_ENUM enumeration [ADSI], ADS_SD_F
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SD_FORMAT_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropVariantGetUInt16Elem, PropVariantGetUInt16Elem function [Window
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantGetUInt16Elem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

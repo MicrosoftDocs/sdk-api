@@ -12,6 +12,8 @@ ms.keywords: AddButtons, AddButtons method [MMC], AddButtons method [MMC],IToolb
 ms.topic: method
 f1_keywords:
 - mmc/IToolbar.AddButtons
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Pa
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.GetFillBrushLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

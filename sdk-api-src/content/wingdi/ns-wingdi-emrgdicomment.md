@@ -12,6 +12,8 @@ ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows G
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRGDICOMMENT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

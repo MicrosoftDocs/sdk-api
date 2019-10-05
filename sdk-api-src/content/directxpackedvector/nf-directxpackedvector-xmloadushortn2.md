@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMLoadUShortN2, XMLoadUShortN2, XMLoadUShortN2 method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadUShortN2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

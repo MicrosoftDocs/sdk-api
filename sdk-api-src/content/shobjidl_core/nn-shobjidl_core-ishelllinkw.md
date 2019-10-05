@@ -12,6 +12,8 @@ ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interf
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IShellLink"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

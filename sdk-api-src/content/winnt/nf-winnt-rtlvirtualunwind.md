@@ -12,6 +12,8 @@ ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UN
 ms.topic: function
 f1_keywords:
 - winnt/RtlVirtualUnwind
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

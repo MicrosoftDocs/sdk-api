@@ -12,6 +12,8 @@ ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PROVIDER_NOT_VISIBLE, HRESULT_FROM_WIN3
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrierEvents.OnSetHomeProviderComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

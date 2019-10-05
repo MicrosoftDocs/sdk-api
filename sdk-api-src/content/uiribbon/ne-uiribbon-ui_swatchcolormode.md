@@ -12,6 +12,8 @@ ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon]
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_SWATCHCOLORMODE"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

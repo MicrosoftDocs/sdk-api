@@ -12,6 +12,8 @@ ms.keywords: NSTCSTYLE, NSTCSTYLE enumeration [Windows Shell], NSTCS_ALLOWJUNCTI
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/NSTCSTYLE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMappedView.Flush"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_D
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_FORMAT_TRACKS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

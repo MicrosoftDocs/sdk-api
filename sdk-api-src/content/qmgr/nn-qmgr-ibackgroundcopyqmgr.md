@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgro
 ms.topic: interface
 f1_keywords: 
  - "qmgr/IBackgroundCopyQMgr"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

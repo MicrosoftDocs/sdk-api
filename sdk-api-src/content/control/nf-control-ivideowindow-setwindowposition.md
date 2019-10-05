@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],SetWindowPosition method, IVide
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.SetWindowPosition"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

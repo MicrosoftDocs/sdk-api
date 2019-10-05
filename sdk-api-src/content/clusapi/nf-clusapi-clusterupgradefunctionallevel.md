@@ -12,6 +12,8 @@ ms.keywords: ClusterUpgradeFunctionalLevel, ClusterUpgradeFunctionalLevel functi
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterUpgradeFunctionalLevel"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

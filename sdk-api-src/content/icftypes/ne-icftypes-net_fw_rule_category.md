@@ -12,6 +12,8 @@ ms.keywords: NET_FW_RULE_CATEGORY, NET_FW_RULE_CATEGORY enumeration [ICS/ICF], N
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_RULE_CATEGORY"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

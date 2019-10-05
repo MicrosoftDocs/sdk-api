@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY 
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_EVENT_NOTIFY"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

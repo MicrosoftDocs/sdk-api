@@ -12,6 +12,8 @@ ms.keywords: 3d8b7892-a120-452a-b83c-474df9be5f52, DrawStroke, DrawStroke method
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.DrawStroke"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

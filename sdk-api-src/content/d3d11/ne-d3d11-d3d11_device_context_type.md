@@ -12,6 +12,8 @@ ms.keywords: 04cb26d8-2f58-6bc4-0362-f5112e175882, D3D11_DEVICE_CONTEXT_DEFERRED
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_DEVICE_CONTEXT_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

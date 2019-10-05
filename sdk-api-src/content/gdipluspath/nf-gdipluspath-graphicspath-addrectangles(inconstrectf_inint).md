@@ -9,6 +9,8 @@ ms.keywords: GraphicsPath::AddRectangles
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPath::AddRectangles"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

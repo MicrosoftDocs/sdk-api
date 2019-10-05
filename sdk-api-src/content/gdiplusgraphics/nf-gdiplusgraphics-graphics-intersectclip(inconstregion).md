@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],IntersectClip method, Graphics.IntersectClip,
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.IntersectClip"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

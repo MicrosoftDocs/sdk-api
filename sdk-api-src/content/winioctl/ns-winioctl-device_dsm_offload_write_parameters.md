@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PA
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

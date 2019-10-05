@@ -12,6 +12,8 @@ ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsPack.QueryVolumes"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

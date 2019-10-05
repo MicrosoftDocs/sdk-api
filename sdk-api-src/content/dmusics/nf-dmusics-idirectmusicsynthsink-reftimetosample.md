@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynthSink interface [Audio Devices],RefTimeToSample met
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynthSink.RefTimeToSample"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

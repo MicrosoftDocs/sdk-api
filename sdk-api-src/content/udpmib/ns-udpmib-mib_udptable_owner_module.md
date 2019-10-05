@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE, MIB_UDPTAB
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPTABLE_OWNER_MODULE
+dev_langs:
+ - c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

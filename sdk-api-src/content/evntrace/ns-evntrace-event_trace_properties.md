@@ -12,6 +12,8 @@ ms.keywords: "*PEVENT_TRACE_PROPERTIES, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_
 ms.topic: struct
 f1_keywords: 
  - "evntrace/EVENT_TRACE_PROPERTIES"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

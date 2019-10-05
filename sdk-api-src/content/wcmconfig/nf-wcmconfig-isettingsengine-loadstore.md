@@ -12,6 +12,8 @@ ms.keywords: ISettingsEngine interface [SMI],LoadStore method, ISettingsEngine.L
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.LoadStore"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

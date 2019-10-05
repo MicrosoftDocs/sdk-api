@@ -12,6 +12,8 @@ ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetMirrorState m
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePreviewSink.SetMirrorState"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

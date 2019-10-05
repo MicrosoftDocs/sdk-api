@@ -12,6 +12,8 @@ ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress inter
 ms.topic: interface
 f1_keywords: 
  - "msp/ITMSPAddress"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PRTM_NET_ADDRESS, PRTM_NET_ADDRESS, PRTM_NET_ADDRESS structure po
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_NET_ADDRESS
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

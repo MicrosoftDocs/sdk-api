@@ -12,6 +12,8 @@ ms.keywords: IAccDictionary interface [Windows Accessibility],LookupMnemonicTerm
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccDictionary.LookupMnemonicTerm"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Fai
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_FTSET_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

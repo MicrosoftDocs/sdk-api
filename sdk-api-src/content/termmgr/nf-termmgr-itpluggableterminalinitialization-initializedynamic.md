@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalInitialization interface [TAPI 2.2],InitializeDy
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalInitialization.InitializeDynamic"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

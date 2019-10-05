@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE, CLUSTE
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_SHARED_VOLUME_STATE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

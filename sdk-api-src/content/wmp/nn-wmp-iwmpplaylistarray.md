@@ -12,6 +12,8 @@ ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Playe
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPPlaylistArray"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

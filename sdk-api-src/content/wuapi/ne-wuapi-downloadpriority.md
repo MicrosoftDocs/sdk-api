@@ -12,6 +12,8 @@ ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agen
 ms.topic: enum
 f1_keywords: 
  - "wuapi/DownloadPriority"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

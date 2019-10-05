@@ -12,6 +12,8 @@ ms.keywords: Copy2DTo, Copy2DTo method [Media Foundation], Copy2DTo method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer2.Copy2DTo"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

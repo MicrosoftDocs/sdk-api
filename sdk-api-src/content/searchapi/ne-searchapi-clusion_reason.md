@@ -12,6 +12,8 @@ ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNK
 ms.topic: enum
 f1_keywords: 
  - "searchapi/CLUSION_REASON"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

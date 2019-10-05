@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.
 ms.topic: function
 f1_keywords: 
  - "winber/ber_alloc_t"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

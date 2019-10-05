@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILUR
 ms.topic: struct
 f1_keywords: 
  - "clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

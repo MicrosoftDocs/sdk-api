@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireOptionsDialog.Create"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

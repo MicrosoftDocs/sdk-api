@@ -12,6 +12,8 @@ ms.keywords: WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION, WSMAN_RECEIVE_STATE_INPUT
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginReceiveResult
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

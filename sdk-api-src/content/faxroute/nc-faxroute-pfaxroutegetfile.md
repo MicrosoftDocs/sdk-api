@@ -12,6 +12,8 @@ ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], P
 ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteGetFile
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

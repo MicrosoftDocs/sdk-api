@@ -12,6 +12,8 @@ ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR struct
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DESIGNVECTOR"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

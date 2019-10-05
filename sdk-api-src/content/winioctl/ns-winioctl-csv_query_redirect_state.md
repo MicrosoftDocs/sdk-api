@@ -12,6 +12,8 @@ ms.keywords: '*PCSV_QUERY_REDIRECT_STATE, CSV_QUERY_REDIRECT_STATE, CSV_QUERY_RE
 ms.topic: struct
 f1_keywords:
 - winioctl/CSV_QUERY_REDIRECT_STATE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9554e39b-9d14-4b7f-862c-a1ffcf84543c, MFCreateAudioRenderer, MFCrea
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateAudioRenderer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

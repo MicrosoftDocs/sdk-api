@@ -12,6 +12,8 @@ ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQ
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IPolicyQualifiers"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamMediaTypeManager.AddStreamConfiguration"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

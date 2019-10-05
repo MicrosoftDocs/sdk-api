@@ -12,6 +12,8 @@ ms.keywords: ID2D1DeviceContext interface [Direct2D],SetTarget method, ID2D1Devi
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1DeviceContext.SetTarget"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media
 ms.topic: struct
 f1_keywords:
 - d3d9caps/D3DCONTENTPROTECTIONCAPS
+dev_langs:
+ - c++
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows

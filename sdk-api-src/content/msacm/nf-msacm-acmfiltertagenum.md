@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmFilterTagEnum, acmFilterTagEnum, acmFilterTagEnum functi
 ms.topic: function
 f1_keywords: 
  - "msacm/acmFilterTagEnum"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

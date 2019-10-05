@@ -12,6 +12,8 @@ ms.keywords: EndDraw, EndDraw method, EndDraw method,ICompositionDrawingSurfaceI
 ms.topic: method
 f1_keywords: 
  - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.EndDraw"
+dev_langs:
+ - c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

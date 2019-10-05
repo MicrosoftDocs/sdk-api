@@ -12,6 +12,8 @@ ms.keywords: CreateFromWICBitmap, CreateFromWICBitmap method [Windows Runtime], 
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromWICBitmap"
+dev_langs:
+ - c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

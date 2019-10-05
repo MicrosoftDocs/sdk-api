@@ -12,6 +12,8 @@ ms.keywords: COLOR_3DDKSHADOW, COLOR_3DFACE, COLOR_3DHIGHLIGHT, COLOR_3DHILIGHT,
 ms.topic: function
 f1_keywords: 
  - "winuser/GetSysColor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

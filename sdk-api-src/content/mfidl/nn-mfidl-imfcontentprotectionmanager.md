@@ -12,6 +12,8 @@ ms.keywords: 0dba0384-eac7-456a-af9f-86eb944cdb2e, IMFContentProtectionManager, 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFContentProtectionManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMatchingVolume, GetMatchingVolume method [Enhanced Storage], Get
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT.GetMatchingVolume"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

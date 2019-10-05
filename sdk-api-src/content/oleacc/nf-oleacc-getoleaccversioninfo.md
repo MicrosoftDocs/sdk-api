@@ -12,6 +12,8 @@ ms.keywords: GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Access
 ms.topic: function
 f1_keywords: 
  - "oleacc/GetOleaccVersionInfo"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

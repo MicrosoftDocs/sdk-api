@@ -12,6 +12,8 @@ ms.keywords: "*LPURL_COMPONENTSA, LPURL_COMPONENTS, LPURL_COMPONENTS structure p
 ms.topic: struct
 f1_keywords: 
  - "wininet/URL_COMPONENTS"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

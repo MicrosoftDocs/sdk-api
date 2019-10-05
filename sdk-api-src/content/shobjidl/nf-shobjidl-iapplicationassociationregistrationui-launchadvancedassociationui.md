@@ -12,6 +12,8 @@ ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],Lau
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellFolderView interface [Windows Shell],SetItemPos method, IShel
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.SetItemPos"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

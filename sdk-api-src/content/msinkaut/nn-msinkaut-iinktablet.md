@@ -12,6 +12,8 @@ ms.keywords: 9a945740-b191-41f5-8b3d-49b7e2d1e463, IInkTablet, IInkTablet interf
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkTablet"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

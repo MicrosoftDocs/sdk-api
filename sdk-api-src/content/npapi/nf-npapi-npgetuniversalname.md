@@ -12,6 +12,8 @@ ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_
 ms.topic: function
 f1_keywords:
 - npapi/NPGetUniversalName
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

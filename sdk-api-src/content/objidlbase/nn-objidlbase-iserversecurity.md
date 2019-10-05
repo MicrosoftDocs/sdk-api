@@ -12,6 +12,8 @@ ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity i
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IServerSecurity"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

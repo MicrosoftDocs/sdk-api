@@ -12,6 +12,8 @@ ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetColumn"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

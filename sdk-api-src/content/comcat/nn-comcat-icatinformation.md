@@ -12,6 +12,8 @@ ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation i
 ms.topic: interface
 f1_keywords: 
  - "comcat/ICatInformation"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

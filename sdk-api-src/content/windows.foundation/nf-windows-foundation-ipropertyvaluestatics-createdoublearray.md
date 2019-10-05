@@ -12,6 +12,8 @@ ms.keywords: CreateDoubleArray, CreateDoubleArray method [Windows Runtime], Crea
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateDoubleArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

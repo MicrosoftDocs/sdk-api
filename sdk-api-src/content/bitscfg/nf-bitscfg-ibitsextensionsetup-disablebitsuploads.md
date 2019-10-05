@@ -12,6 +12,8 @@ ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUp
 ms.topic: method
 f1_keywords: 
  - "bitscfg/IBITSExtensionSetup.DisableBITSUploads"
+dev_langs:
+ - c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

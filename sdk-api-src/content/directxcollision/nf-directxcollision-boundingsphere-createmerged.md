@@ -12,6 +12,8 @@ ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateMerged m
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingSphere.CreateMerged"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

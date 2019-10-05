@@ -12,6 +12,8 @@ ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.CurrentFormula"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

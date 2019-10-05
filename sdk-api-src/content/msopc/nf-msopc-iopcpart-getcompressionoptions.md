@@ -12,6 +12,8 @@ ms.keywords: GetCompressionOptions, GetCompressionOptions method [Open Packaging
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPart.GetCompressionOptions"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

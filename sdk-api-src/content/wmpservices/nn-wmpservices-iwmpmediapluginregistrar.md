@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "wmpservices/IWMPMediaPluginRegistrar"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

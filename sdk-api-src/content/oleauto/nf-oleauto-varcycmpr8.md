@@ -12,6 +12,8 @@ ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyCmpR8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BRUSHOBJ_pvGetRbrush, BRUSHOBJ_pvGetRbrush function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/BRUSHOBJ_pvGetRbrush
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

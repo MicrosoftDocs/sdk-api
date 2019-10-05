@@ -12,6 +12,8 @@ ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], c
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetDocContext
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

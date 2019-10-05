@@ -12,6 +12,8 @@ ms.keywords: IReferenceTrackerHost interface [Windows Runtime],RemoveMemoryPress
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.RemoveMemoryPressure"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

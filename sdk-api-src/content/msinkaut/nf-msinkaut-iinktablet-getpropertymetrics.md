@@ -12,6 +12,8 @@ ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetProper
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet.GetPropertyMetrics"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

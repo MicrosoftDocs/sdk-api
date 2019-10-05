@@ -12,6 +12,8 @@ ms.keywords: IWSManSession interface [Windows Remote Management],Timeout propert
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Timeout"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

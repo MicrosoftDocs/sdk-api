@@ -12,6 +12,8 @@ ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToInt64Ex, StrToInt64Ex function
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrToInt64Ex"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

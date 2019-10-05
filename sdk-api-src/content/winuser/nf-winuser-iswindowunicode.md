@@ -12,6 +12,8 @@ ms.keywords: IsWindowUnicode, IsWindowUnicode function [Windows and Messages], _
 ms.topic: function
 f1_keywords: 
  - "winuser/IsWindowUnicode"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

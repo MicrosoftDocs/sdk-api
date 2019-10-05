@@ -12,6 +12,8 @@ ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.CloseEnum"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

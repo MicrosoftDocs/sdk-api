@@ -12,6 +12,8 @@ ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordre
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordReadStream"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

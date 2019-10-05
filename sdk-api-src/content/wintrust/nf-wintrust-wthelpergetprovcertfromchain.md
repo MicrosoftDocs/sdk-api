@@ -12,6 +12,8 @@ ms.keywords: WTHelperGetProvCertFromChain, WTHelperGetProvCertFromChain function
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperGetProvCertFromChain
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

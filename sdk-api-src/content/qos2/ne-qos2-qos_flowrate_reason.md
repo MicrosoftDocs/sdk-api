@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON 
 ms.topic: enum
 f1_keywords: 
  - "qos2/QOS_FLOWRATE_REASON"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DDCKEY_COLORSPACE, DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBL
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.SetColorKey
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

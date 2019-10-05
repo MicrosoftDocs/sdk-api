@@ -12,6 +12,8 @@ ms.keywords: Metafile, Metafile class [GDI+], Metafile class [GDI+],described, _
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/Metafile"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

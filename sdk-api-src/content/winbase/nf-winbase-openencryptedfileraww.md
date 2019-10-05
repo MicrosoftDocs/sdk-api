@@ -12,6 +12,8 @@ ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedF
 ms.topic: function
 f1_keywords: 
  - "winbase/OpenEncryptedFileRaw"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

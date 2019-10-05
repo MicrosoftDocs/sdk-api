@@ -12,6 +12,8 @@ ms.keywords: DVD_AppMode_Karaoke, DVD_AppMode_Not_Specified, DVD_AppMode_Other, 
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_TITLE_APPMODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

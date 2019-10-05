@@ -12,6 +12,8 @@ ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Mana
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetGetJoinInformation"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DestroyPhysicalMonitors, DestroyPhysicalMonitors function [Monitor 
 ms.topic: function
 f1_keywords: 
  - "physicalmonitorenumerationapi/DestroyPhysicalMonitors"
+dev_langs:
+ - c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

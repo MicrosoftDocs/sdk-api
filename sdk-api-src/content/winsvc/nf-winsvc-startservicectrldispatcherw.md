@@ -12,6 +12,8 @@ ms.keywords: StartServiceCtrlDispatcher, StartServiceCtrlDispatcher function, St
 ms.topic: function
 f1_keywords:
 - winsvc/StartServiceCtrlDispatcher
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

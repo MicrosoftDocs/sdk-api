@@ -12,6 +12,8 @@ ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjge
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjGetOnDiskFileState"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

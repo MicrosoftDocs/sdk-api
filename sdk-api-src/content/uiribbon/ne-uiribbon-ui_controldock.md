@@ -12,6 +12,8 @@ ms.keywords: UI_CONTROLDOCK, UI_CONTROLDOCK enumeration [Windows Ribbon], UI_CON
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_CONTROLDOCK"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

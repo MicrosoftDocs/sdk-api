@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WRDS_SETTING
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

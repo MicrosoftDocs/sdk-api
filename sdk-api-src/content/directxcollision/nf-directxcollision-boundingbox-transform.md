@@ -8,6 +8,8 @@ ms.keywords: BoundingBox::Transform
 ms.topic: language-reference
 f1_keywords: 
  - "directxcollision/BoundingBox::Transform"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

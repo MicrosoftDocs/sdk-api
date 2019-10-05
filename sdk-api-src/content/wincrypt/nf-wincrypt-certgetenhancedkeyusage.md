@@ -12,6 +12,8 @@ ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_US
 ms.topic: function
 f1_keywords:
 - wincrypt/CertGetEnhancedKeyUsage
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

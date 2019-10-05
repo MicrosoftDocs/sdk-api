@@ -12,6 +12,8 @@ ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVd
 ms.topic: method
 f1_keywords:
 - vds/IVdsLunMpio.GetPathInfo
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

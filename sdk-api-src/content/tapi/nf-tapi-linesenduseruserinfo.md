@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUse
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSendUserUserInfo"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

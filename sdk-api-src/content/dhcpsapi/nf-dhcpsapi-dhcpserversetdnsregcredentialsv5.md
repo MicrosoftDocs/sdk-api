@@ -12,6 +12,8 @@ ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpServerSetDnsRegCredentialsV5"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

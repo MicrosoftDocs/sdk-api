@@ -12,6 +12,8 @@ ms.keywords: GetSubscriberInformation, GetSubscriberInformation method [Microsof
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterface.GetSubscriberInformation"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

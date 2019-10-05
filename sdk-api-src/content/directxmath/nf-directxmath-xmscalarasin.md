@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMScalarASin, XMScalarASin, XMScalarASin method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMScalarASin"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

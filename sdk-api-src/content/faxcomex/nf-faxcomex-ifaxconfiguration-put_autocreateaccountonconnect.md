@@ -12,6 +12,8 @@ ms.keywords: AutoCreateAccountOnConnect property [Fax Service], AutoCreateAccoun
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.AutoCreateAccountOnConnect"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

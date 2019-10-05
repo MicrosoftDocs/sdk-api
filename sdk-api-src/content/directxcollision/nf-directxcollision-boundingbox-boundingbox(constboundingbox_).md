@@ -12,6 +12,8 @@ ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], B
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingBox.BoundingBox"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

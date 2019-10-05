@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Security], Clear method [Security],ISmimeCapab
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISmimeCapabilities.Clear"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

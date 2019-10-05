@@ -12,6 +12,8 @@ ms.keywords: '*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLA
 ms.topic: struct
 f1_keywords:
 - qossp/AD_GENERAL_PARAMS
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

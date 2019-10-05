@@ -12,6 +12,8 @@ ms.keywords: 887a7394-9fe0-473a-825b-f095b01626c4, IMF2DBuffer interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.Lock2D"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

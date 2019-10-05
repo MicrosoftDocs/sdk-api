@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [Windows Management Instrumentation], G
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemServices.GetObject"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

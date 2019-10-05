@@ -12,6 +12,8 @@ ms.keywords: ContentValidationCert property [Windows Update Agent], ContentValid
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.ContentValidationCert"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

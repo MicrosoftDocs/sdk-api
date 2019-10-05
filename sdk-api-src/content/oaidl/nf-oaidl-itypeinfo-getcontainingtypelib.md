@@ -12,6 +12,8 @@ ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], Get
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetContainingTypeLib"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

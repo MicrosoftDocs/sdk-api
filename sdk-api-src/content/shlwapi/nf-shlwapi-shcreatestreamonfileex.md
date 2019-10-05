@@ -12,6 +12,8 @@ ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHCreateStreamOnFileEx"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

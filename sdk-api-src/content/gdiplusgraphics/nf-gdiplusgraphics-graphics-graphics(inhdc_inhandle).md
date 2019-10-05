@@ -12,6 +12,8 @@ ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics cons
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.Graphics"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

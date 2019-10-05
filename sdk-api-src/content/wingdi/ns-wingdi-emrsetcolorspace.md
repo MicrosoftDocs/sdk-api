@@ -12,6 +12,8 @@ ms.keywords: "*PEMRDELETECOLORSPACE, *PEMRSELECTCOLORSPACE, *PEMRSETCOLORSPACE, 
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSETCOLORSPACE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

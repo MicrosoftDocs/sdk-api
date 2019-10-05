@@ -12,6 +12,8 @@ ms.keywords: OpenClusterGroup, OpenClusterGroup function [Failover Cluster], PCL
 ms.topic: function
 f1_keywords: 
  - "clusapi/OpenClusterGroup"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSuppor
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.CheckFeatureSupport"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

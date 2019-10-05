@@ -12,6 +12,8 @@ ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtRegisterForEvents, FaxExtReg
 ms.topic: function
 f1_keywords: 
  - "faxext/FaxExtRegisterForEvents"
+dev_langs:
+ - c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

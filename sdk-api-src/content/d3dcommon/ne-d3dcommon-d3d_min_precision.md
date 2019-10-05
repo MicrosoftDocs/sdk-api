@@ -12,6 +12,8 @@ ms.keywords: D3D_MIN_PRECISION, D3D_MIN_PRECISION enumeration [Direct3D 11], D3D
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_MIN_PRECISION"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

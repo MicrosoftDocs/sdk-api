@@ -12,6 +12,8 @@ ms.keywords: '*POBJECTS_AND_SID, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_T
 ms.topic: struct
 f1_keywords:
 - accctrl/OBJECTS_AND_SID
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

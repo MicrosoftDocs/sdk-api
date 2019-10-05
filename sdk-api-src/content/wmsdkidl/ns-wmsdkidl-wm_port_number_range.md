@@ -12,6 +12,8 @@ ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_PORT_NUMBER_RANGE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClo
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtClose"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddClusterResourceDependency, AddClusterResourceDependency function
 ms.topic: function
 f1_keywords: 
  - "clusapi/AddClusterResourceDependency"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

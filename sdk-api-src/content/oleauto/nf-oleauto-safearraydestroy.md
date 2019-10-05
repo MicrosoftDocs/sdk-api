@@ -12,6 +12,8 @@ ms.keywords: SafeArrayDestroy, SafeArrayDestroy function [Automation], _oa96_Saf
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayDestroy"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

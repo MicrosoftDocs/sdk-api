@@ -12,6 +12,8 @@ ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetN
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.GetNextTable"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedi
 ms.topic: function
 f1_keywords: 
  - "mmeapi/mixerOpen"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

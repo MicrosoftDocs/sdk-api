@@ -12,6 +12,8 @@ ms.keywords: SHOP_FILEPATH, SHOP_PRINTERNAME, SHOP_VOLUMEGUID, SHObjectPropertie
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHObjectProperties"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

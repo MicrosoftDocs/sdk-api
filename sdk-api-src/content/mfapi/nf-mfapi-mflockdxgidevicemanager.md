@@ -12,6 +12,8 @@ ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Fo
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFLockDXGIDeviceManager"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [CO
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IPipeDouble"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

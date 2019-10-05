@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],TaskRunAsSelf property, IDataColl
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.TaskRunAsSelf"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

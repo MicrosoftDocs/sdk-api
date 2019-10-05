@@ -12,6 +12,8 @@ ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio
 ms.topic: function
 f1_keywords: 
  - "ioapiset/CancelIo"
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

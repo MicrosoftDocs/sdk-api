@@ -12,6 +12,8 @@ ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxG
 ms.topic: function
 f1_keywords:
 - winfax/FaxGetDeviceStatus
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

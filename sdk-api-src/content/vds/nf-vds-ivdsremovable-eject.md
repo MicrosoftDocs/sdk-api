@@ -12,6 +12,8 @@ ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interfa
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsRemovable.Eject"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_APP_LAUNCH_INFO, PCPEER_APP_LAUNCH_INFO, PCPEER_APP_LAUNCH_
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_APP_LAUNCH_INFO"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

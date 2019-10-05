@@ -12,6 +12,8 @@ ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpol
 ms.topic: function
 f1_keywords:
 - certpoleng/PstGetCertificates
+dev_langs:
+ - c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

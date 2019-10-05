@@ -12,6 +12,8 @@ ms.keywords: StrRStrI, StrRStrI function [Windows Shell], StrRStrIA, StrRStrIW, 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrRStrI"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

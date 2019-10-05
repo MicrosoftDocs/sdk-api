@@ -12,6 +12,8 @@ ms.keywords: Point2U, Point2U function [Direct2D], d2d1helper/Point2U, direct2d.
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/Point2U"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

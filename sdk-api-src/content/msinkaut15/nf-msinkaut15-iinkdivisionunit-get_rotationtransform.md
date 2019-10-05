@@ -12,6 +12,8 @@ ms.keywords: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8, IInkDivisionUnit interface [T
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivisionUnit.RotationTransform"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

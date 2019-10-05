@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],MakeARGB method, Color.MakeARGB, Color::MakeARGB
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.MakeARGB"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

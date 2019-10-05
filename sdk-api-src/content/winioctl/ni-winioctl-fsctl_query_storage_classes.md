@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_STORAGE_CLASSES, FSCTL_QUERY_STORAGE_CLASSES control, F
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_QUERY_STORAGE_CLASSES"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

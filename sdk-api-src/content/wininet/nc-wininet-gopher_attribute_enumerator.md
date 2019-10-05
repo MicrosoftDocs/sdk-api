@@ -12,6 +12,8 @@ ms.keywords: GOPHER_ATTRIBUTE_ENUMERATOR, GOPHER_ATTRIBUTE_ENUMERATOR callback, 
 ms.topic: callback
 f1_keywords: 
  - "wininet/GOPHER_ATTRIBUTE_ENUMERATOR"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

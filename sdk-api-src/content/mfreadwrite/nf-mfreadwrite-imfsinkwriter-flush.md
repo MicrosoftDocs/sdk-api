@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.Flush"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

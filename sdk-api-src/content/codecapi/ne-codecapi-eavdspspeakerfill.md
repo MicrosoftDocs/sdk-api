@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDSPSpeakerFill, codecapi/eAVDSPSpeakerFill_AUTO, codeca
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDSPSpeakerFill"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

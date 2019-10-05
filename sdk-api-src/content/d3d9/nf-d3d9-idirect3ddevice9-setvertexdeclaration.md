@@ -12,6 +12,8 @@ ms.keywords: 12796c02-d1b4-5f9d-8414-04b978887c2a, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.SetVertexDeclaration"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/Ass
 ms.topic: function
 f1_keywords: 
  - "filehc/AssociateFileEx"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

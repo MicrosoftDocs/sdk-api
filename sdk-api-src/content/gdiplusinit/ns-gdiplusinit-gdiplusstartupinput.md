@@ -12,6 +12,8 @@ ms.keywords: GdiplusStartupInput, GdiplusStartupInput structure [GDI+], _gdiplus
 ms.topic: struct
 f1_keywords: 
  - "gdiplusinit/GdiplusStartupInput"
+dev_langs:
+ - c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

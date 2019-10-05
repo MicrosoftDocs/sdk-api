@@ -12,6 +12,8 @@ ms.keywords: CanCheckBaseClass property [Windows Accessibility], CanCheckBaseCla
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryEntry.CanCheckBaseClass"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecogniz
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizers.Count"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

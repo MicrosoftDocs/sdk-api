@@ -12,6 +12,8 @@ ms.keywords: RTM_ROUTE_CHANGE_BEST, RTM_ROUTE_CHANGE_FIRST, RTM_ROUTE_CHANGE_NEW
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmAddRouteToDest
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Char16Field, MI_Char16Field structure [Windows Management Infras
 ms.topic: struct
 f1_keywords:
 - mi/MI_Char16Field
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

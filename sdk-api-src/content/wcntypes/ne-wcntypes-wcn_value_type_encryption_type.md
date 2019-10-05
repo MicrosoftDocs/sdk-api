@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_ET_AES, WCN_VALUE_ET_NONE, WCN_VALUE_ET_TKIP, WCN_VALUE_E
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

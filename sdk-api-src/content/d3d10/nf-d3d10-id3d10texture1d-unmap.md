@@ -12,6 +12,8 @@ ms.keywords: 19252c0c-8539-ab86-d402-c4d9d235f30e, ID3D10Texture1D interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Texture1D.Unmap"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

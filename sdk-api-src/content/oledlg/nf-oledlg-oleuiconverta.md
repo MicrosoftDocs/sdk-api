@@ -12,6 +12,8 @@ ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConv
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIConvert"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 23f5f0df-e2cc-4593-8c3e-dca3638161e2, GenerateRequiredSchemas, Gene
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputPolicy.GenerateRequiredSchemas"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTE
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_TRANSITION_STATE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

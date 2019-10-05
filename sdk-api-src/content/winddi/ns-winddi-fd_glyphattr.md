@@ -12,6 +12,8 @@ ms.keywords: "*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devi
 ms.topic: struct
 f1_keywords: 
  - "winddi/FD_GLYPHATTR"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

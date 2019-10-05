@@ -12,6 +12,8 @@ ms.keywords: CreateTransform3DGroup, CreateTransform3DGroup method [DirectCompos
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateTransform3DGroup"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

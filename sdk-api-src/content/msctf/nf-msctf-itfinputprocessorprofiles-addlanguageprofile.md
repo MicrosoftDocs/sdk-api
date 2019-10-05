@@ -12,6 +12,8 @@ ms.keywords: AddLanguageProfile, AddLanguageProfile method [Text Services Framew
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.AddLanguageProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

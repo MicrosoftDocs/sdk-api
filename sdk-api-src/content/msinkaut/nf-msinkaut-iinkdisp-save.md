@@ -12,6 +12,8 @@ ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerialize
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.Save"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

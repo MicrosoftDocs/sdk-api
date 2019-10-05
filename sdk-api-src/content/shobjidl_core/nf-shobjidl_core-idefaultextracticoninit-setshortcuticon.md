@@ -12,6 +12,8 @@ ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetShortcutIcon m
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDefaultExtractIconInit.SetShortcutIcon"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

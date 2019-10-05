@@ -12,6 +12,8 @@ ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqo
 ms.topic: callback
 f1_keywords: 
  - "lpmapi/PFREEMEM"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

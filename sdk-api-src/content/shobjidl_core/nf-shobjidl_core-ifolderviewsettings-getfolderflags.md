@@ -12,6 +12,8 @@ ms.keywords: GetFolderFlags, GetFolderFlags method [Windows Shell], GetFolderFla
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderViewSettings.GetFolderFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

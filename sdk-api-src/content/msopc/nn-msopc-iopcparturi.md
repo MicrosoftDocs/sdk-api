@@ -12,6 +12,8 @@ ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IO
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcPartUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

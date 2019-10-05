@@ -12,6 +12,8 @@ ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _z
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/ReleaseNtmsCleanerSlot"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], 
 ms.topic: struct
 f1_keywords:
 - restartmanager/RM_UNIQUE_PROCESS
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

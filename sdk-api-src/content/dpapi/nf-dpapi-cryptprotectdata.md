@@ -12,6 +12,8 @@ ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FOR
 ms.topic: function
 f1_keywords:
 - dpapi/CryptProtectData
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

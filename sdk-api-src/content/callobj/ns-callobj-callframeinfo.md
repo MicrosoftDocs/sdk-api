@@ -12,6 +12,8 @@ ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], callobj/CALLFRAMEINFO
 ms.topic: struct
 f1_keywords: 
  - "callobj/CALLFRAMEINFO"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

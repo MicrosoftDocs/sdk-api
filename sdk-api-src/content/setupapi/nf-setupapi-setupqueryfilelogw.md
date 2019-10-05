@@ -12,6 +12,8 @@ ms.keywords: SetupFileLogChecksum, SetupFileLogDiskDescription, SetupFileLogDisk
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupQueryFileLog"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

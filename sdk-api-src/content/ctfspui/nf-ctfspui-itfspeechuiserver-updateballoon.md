@@ -12,6 +12,8 @@ ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon
 ms.topic: method
 f1_keywords: 
  - "ctfspui/ITfSpeechUIServer.UpdateBalloon"
+dev_langs:
+ - c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows

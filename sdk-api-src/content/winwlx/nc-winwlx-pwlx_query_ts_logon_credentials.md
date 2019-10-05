@@ -12,6 +12,8 @@ ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS ca
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryTsLogonCredentials
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

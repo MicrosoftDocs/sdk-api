@@ -12,6 +12,8 @@ ms.keywords: EnrollmentTemplateProperty, EnrollmentTemplateProperty enumeration 
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentTemplateProperty"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

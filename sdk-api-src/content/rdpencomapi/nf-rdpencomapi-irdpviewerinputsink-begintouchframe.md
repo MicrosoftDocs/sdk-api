@@ -12,6 +12,8 @@ ms.keywords: BeginTouchFrame, BeginTouchFrame method [RDP], BeginTouchFrame meth
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPViewerInputSink.BeginTouchFrame"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

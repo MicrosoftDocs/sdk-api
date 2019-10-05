@@ -12,6 +12,8 @@ ms.keywords: 9b0e159b-0d15-0249-35fe-c610c699f1ba, GetElement, GetElement method
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetElement"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

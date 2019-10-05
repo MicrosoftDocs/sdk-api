@@ -12,6 +12,8 @@ ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RP
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingServerFromClient"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStream
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSelection"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

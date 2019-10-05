@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog2 interface [COM+],Is64BitCatalogServer property, I
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.Is64BitCatalogServer"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

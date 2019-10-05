@@ -11,6 +11,8 @@ ms.keywords: IFileViewerA::Show
 ms.topic: language-reference
 f1_keywords: 
  - "shlobj/IFileViewerA::Show"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

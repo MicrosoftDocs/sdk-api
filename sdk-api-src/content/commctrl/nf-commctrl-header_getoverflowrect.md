@@ -12,6 +12,8 @@ ms.keywords: Header_GetOverflowRect, Header_GetOverflowRect macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetOverflowRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

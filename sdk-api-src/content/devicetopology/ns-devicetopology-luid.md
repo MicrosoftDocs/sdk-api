@@ -12,6 +12,8 @@ ms.keywords: "*PLUID, LUID, LUID structure [Core Audio], PLUID, PLUID structure 
 ms.topic: struct
 f1_keywords: 
  - "devicetopology/LUID"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

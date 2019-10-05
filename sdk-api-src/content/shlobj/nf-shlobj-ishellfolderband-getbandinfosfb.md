@@ -12,6 +12,8 @@ ms.keywords: GetBandInfoSFB, GetBandInfoSFB method [Windows Shell], GetBandInfoS
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellFolderBand.GetBandInfoSFB"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

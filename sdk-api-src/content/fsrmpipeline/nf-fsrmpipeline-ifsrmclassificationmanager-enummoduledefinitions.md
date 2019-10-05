@@ -12,6 +12,8 @@ ms.keywords: EnumModuleDefinitions, EnumModuleDefinitions method [File Server Re
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassificationManager.EnumModuleDefinitions
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

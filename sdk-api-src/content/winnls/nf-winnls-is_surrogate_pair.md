@@ -12,6 +12,8 @@ ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization fo
 ms.topic: macro
 f1_keywords: 
  - "winnls/IS_SURROGATE_PAIR"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, GPT_BASIC_DATA_ATTRIBUTE_
 ms.topic: struct
 f1_keywords: 
  - "winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

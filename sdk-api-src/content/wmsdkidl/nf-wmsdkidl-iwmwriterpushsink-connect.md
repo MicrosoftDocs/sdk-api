@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [windows Media Format], Connect method [win
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterPushSink.Connect"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

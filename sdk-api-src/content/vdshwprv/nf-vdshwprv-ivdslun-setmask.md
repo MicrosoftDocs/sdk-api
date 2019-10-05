@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::S
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun.SetMask
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

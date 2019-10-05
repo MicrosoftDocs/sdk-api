@@ -12,6 +12,8 @@ ms.keywords: Base, Base method [search], Base method [search],IEntity interface,
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IEntity.Base"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

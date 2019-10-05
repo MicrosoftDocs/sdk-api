@@ -12,6 +12,8 @@ ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui
 ms.topic: function
 f1_keywords: 
  - "gamingtcui/TryCancelPendingGameUI"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

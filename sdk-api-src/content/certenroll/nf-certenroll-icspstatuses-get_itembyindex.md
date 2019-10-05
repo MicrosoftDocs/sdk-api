@@ -12,6 +12,8 @@ ms.keywords: ICspStatuses interface [Security],ItemByIndex property, ICspStatuse
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspStatuses.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

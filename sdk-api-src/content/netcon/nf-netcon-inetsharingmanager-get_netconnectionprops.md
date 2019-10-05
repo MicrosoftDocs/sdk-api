@@ -12,6 +12,8 @@ ms.keywords: INetSharingManager interface [ICS/ICF],get_NetConnectionProps metho
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingManager.get_NetConnectionProps"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

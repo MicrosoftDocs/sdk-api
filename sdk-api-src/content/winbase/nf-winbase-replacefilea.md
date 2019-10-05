@@ -12,6 +12,8 @@ ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REP
 ms.topic: function
 f1_keywords: 
  - "winbase/ReplaceFile"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

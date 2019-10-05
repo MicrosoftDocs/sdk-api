@@ -12,6 +12,8 @@ ms.keywords: 0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6, MF_FILE_OPENMODE, MF_FILE_OPE
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_FILE_OPENMODE"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

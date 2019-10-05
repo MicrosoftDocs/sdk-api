@@ -12,6 +12,8 @@ ms.keywords: End, End method [Windows Shell], End method [Windows Shell],IAction
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IActionProgress.End"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

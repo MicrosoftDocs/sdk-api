@@ -12,6 +12,8 @@ ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services F
 ms.topic: interface
 f1_keywords: 
  - "msctf/IEnumTfContextViews"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

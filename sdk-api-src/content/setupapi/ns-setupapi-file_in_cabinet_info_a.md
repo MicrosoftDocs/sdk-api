@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_IN
 ms.topic: struct
 f1_keywords:
 - setupapi/FILE_IN_CABINET_INFO
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

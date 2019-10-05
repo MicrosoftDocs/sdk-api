@@ -12,6 +12,8 @@ ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStri
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHStripMneumonic"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

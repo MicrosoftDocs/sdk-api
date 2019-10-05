@@ -12,6 +12,8 @@ ms.keywords: '*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_
 ms.topic: struct
 f1_keywords:
 - powrprof/GLOBAL_USER_POWER_POLICY
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

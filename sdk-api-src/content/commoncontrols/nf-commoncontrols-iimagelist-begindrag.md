@@ -12,6 +12,8 @@ ms.keywords: BeginDrag, BeginDrag method [Windows Controls], BeginDrag method [W
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.BeginDrag"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

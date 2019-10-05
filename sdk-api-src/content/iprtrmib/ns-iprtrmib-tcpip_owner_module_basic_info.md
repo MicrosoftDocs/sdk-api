@@ -12,6 +12,8 @@ ms.keywords: "*PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO, P
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: 
 req.target-type: Windows

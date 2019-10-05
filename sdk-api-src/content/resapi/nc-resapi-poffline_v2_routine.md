@@ -12,6 +12,8 @@ ms.keywords: CLUS_RESDLL_OFFLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUS_RESDLL_OFF
 ms.topic: callback
 f1_keywords: 
  - "resapi/OfflineV2"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

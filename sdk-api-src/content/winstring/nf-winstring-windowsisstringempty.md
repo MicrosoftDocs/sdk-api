@@ -12,6 +12,8 @@ ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsIsStringEmpty"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

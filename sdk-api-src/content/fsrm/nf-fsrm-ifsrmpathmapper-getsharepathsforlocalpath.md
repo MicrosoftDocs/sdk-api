@@ -12,6 +12,8 @@ ms.keywords: FsrmPathMapper class [File Server Resource Manager],GetSharePathsFo
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmPathMapper.GetSharePathsForLocalPath"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

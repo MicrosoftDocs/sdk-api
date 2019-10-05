@@ -12,6 +12,8 @@ ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Rect"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

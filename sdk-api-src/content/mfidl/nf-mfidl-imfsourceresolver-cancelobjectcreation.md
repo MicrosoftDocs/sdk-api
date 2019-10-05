@@ -12,6 +12,8 @@ ms.keywords: 6a30ac92-a281-4293-8975-987fa25a5318, CancelObjectCreation, CancelO
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSourceResolver.CancelObjectCreation"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

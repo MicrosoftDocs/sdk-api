@@ -12,6 +12,8 @@ ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.DestroyVideo"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

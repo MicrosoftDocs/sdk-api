@@ -12,6 +12,8 @@ ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStat
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.GetHttpStatus"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

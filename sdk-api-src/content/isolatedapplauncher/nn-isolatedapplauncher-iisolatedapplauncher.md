@@ -12,6 +12,8 @@ ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API],
 ms.topic: interface
 f1_keywords: 
  - "isolatedapplauncher/IIsolatedAppLauncher"
+dev_langs:
+ - c++
 req.header: isolatedapplauncher.h
 req.include-header: 
 req.target-type: Windows

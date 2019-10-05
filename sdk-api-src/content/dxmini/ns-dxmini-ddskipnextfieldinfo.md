@@ -12,6 +12,8 @@ ms.keywords: "*PDDSKIPNEXTFIELDINFO, DDSKIPNEXTFIELDINFO, DDSKIPNEXTFIELDINFO st
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDSKIPNEXTFIELDINFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

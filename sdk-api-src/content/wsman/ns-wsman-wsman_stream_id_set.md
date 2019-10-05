@@ -12,6 +12,8 @@ ms.keywords: WSMAN_STREAM_ID_SET, WSMAN_STREAM_ID_SET structure [Windows Remote 
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_STREAM_ID_SET"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

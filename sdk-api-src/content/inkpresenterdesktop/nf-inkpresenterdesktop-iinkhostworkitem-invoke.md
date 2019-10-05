@@ -12,6 +12,8 @@ ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, 
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkHostWorkItem.Invoke"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

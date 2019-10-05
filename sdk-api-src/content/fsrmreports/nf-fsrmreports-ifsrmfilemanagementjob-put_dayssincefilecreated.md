@@ -12,6 +12,8 @@ ms.keywords: DaysSinceFileCreated property [File Server Resource Manager], DaysS
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileCreated"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

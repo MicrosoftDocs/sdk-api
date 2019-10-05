@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalysisSink1 interface [Direct Write],SetGlyphOrientati
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalysisSink1.SetGlyphOrientation"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

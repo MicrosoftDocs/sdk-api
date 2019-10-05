@@ -12,6 +12,8 @@ ms.keywords: TextPattern_GetSelection, TextPattern_GetSelection function [Window
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextPattern_GetSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

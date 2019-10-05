@@ -12,6 +12,8 @@ ms.keywords: MI_Deserializer, MI_Deserializer structure [Windows Management Infr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Deserializer"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

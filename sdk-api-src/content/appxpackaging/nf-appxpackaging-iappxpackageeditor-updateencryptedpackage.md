@@ -12,6 +12,8 @@ ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateE
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],put_M
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCChannelTuneRequest.put_MinorChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

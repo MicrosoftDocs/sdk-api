@@ -12,6 +12,8 @@ ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Managem
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IUnsecuredApartment"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

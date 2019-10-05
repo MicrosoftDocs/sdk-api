@@ -12,6 +12,8 @@ ms.keywords: GetContentIDsInLibrary, GetContentIDsInLibrary method [Windows Medi
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.GetContentIDsInLibrary"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

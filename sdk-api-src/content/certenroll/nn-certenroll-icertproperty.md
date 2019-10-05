@@ -12,6 +12,8 @@ ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty in
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertProperty"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

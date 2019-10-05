@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGEHLP_DEFERRED_SYMBOL_LOADW64, DSLFLAG_MISMATCHED_DBG, DSLFLA
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

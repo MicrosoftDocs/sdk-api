@@ -12,6 +12,8 @@ ms.keywords: DWordToChar, ULongToChar, ULongToChar function [Windows Shell], _sh
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

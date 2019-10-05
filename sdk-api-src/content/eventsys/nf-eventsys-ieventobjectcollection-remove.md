@@ -12,6 +12,8 @@ ms.keywords: IEventObjectCollection interface [COM+],Remove method, IEventObject
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectCollection.Remove"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

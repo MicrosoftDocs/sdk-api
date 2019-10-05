@@ -12,6 +12,8 @@ ms.keywords: "*PCTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_P
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CTL_VERIFY_USAGE_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

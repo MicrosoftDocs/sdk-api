@@ -12,6 +12,8 @@ ms.keywords: '*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Window
 ms.topic: struct
 f1_keywords:
 - shobjidl_core/DELEGATEITEMID
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

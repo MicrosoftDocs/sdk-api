@@ -12,6 +12,8 @@ ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_FormatTag method, 
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITScriptableAudioFormat.put_FormatTag"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

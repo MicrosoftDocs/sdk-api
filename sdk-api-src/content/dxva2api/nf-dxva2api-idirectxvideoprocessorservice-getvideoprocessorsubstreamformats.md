@@ -12,6 +12,8 @@ ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFor
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

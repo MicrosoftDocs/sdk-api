@@ -12,6 +12,8 @@ ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaStream.RequestSample"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDispatcher, GetDispatcher method, GetDispatcher method,IXamlDiag
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.GetDispatcher"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

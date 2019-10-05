@@ -12,6 +12,8 @@ ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, CLAIM_SECURITY_ATTR
 ms.topic: struct
 f1_keywords: 
  - "winnt/CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

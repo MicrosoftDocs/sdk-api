@@ -12,6 +12,8 @@ ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], Manipu
 ms.topic: method
 f1_keywords: 
  - "manipulations/_IManipulationEvents.ManipulationDelta"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

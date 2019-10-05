@@ -12,6 +12,8 @@ ms.keywords: GetCompBufferInfo, GetCompBufferInfo method [DirectShow], GetCompBu
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetCompBufferInfo
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

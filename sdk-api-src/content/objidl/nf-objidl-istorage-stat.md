@@ -12,6 +12,8 @@ ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat,
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.Stat"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

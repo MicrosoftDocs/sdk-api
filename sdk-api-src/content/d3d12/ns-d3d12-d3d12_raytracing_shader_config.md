@@ -12,6 +12,8 @@ ms.keywords: D3D12_RAYTRACING_SHADER_CONFIG, D3D12_RAYTRACING_SHADER_CONFIG stru
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_RAYTRACING_SHADER_CONFIG"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

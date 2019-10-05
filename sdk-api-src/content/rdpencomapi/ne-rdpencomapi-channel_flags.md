@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_FLAGS, CHANNEL_FLAGS enumeration [RDP], CHANNEL_FLAGS_LEGAC
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/CHANNEL_FLAGS"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

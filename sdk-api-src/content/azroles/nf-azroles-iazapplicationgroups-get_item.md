@@ -12,6 +12,8 @@ ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplication
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroups.Item"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

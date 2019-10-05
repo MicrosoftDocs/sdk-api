@@ -12,6 +12,8 @@ ms.keywords: OLECMDF, OLECMDF enumeration [COM], OLECMDF_DEFHIDEONCTXTMENU, OLEC
 ms.topic: enum
 f1_keywords:
 - docobj/OLECMDF
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServic
 ms.topic: function
 f1_keywords: 
  - "winsvc/CreateService"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

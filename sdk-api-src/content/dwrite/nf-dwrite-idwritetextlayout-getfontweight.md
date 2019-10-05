@@ -12,6 +12,8 @@ ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight m
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetFontWeight"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

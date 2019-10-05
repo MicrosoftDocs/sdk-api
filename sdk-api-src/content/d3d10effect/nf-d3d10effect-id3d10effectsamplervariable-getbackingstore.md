@@ -12,6 +12,8 @@ ms.keywords: 4dc77fe0-2533-5324-1a51-b4e1cde4e16d, GetBackingStore, GetBackingSt
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectSamplerVariable.GetBackingStore"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

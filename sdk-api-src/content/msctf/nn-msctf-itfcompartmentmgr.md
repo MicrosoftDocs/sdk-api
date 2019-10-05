@@ -12,6 +12,8 @@ ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfCompartmentMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [NativeWIFI], Disconnect method [Nati
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.Disconnect"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

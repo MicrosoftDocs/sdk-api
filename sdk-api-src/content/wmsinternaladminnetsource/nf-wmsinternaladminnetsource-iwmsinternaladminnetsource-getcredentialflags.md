@@ -12,6 +12,8 @@ ms.keywords: GetCredentialFlags, GetCredentialFlags method [windows Media Format
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.GetCredentialFlags"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

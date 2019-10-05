@@ -12,6 +12,8 @@ ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritin
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetWritingMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

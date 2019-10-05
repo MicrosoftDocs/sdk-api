@@ -12,6 +12,8 @@ ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [D
 ms.topic: struct
 f1_keywords:
 - dxva9typ/DXVA_COPPStatusHDCPKeyData
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],InboundRouting property, IFaxSer
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.InboundRouting"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

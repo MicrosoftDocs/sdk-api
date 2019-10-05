@@ -12,6 +12,8 @@ ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf me
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellIconOverlayIdentifier.IsMemberOf"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

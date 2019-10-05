@@ -12,6 +12,8 @@ ms.keywords: VMRVIDEOSTREAMINFO, VMRVIDEOSTREAMINFO structure [DirectShow], VMRV
 ms.topic: struct
 f1_keywords: 
  - "strmif/VMRVIDEOSTREAMINFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

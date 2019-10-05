@@ -12,6 +12,8 @@ ms.keywords: IMemInputPin interface [DirectShow],NotifyAllocator method, IMemInp
 ms.topic: method
 f1_keywords: 
  - "strmif/IMemInputPin.NotifyAllocator"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

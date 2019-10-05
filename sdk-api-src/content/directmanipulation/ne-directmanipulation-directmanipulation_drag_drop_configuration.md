@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION, DIRECTMANIPULATION_DRAG
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

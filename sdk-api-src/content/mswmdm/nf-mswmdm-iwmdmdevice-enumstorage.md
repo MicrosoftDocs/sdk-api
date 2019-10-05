@@ -12,6 +12,8 @@ ms.keywords: EnumStorage, EnumStorage method [windows Media Device Manager], Enu
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMDevice.EnumStorage"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _search_ITEM_INFO, search.
 ms.topic: struct
 f1_keywords: 
  - "searchapi/ITEM_INFO"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

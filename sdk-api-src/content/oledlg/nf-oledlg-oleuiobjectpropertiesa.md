@@ -12,6 +12,8 @@ ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIO
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIObjectProperties"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

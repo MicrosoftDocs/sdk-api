@@ -12,6 +12,8 @@ ms.keywords: IX509AttributeOSVersion interface [Security],InitializeDecode metho
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeOSVersion.InitializeDecode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

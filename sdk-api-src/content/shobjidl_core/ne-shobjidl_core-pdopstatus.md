@@ -12,6 +12,8 @@ ms.keywords: PDOPSTATUS, PDOPSTATUS enumeration [Windows Properties], PDOPS_CANC
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/PDOPSTATUS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountOutgoingArchive.GetMessages"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Win
 ms.topic: interface
 f1_keywords: 
  - "winsync/IEnumSingleItemExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

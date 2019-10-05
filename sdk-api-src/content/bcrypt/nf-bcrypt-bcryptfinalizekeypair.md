@@ -12,6 +12,8 @@ ms.keywords: BCryptFinalizeKeyPair, BCryptFinalizeKeyPair function [Security], b
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptFinalizeKeyPair"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

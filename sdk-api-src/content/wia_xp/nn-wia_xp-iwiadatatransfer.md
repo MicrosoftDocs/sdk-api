@@ -12,6 +12,8 @@ ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfe
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaDataTransfer"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

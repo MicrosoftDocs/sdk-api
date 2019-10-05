@@ -12,6 +12,8 @@ ms.keywords: LPSERVICE_MAIN_FUNCTION, LPSERVICE_MAIN_FUNCTION callback, LPSERVIC
 ms.topic: callback
 f1_keywords:
 - winsvc/LPSERVICE_MAIN_FUNCTION
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

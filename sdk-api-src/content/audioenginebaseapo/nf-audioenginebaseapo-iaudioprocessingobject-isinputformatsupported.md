@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObject interface [Audio Devices],IsInputFormatSuppo
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObject.IsInputFormatSupported"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

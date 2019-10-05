@@ -12,6 +12,8 @@ ms.keywords: AHE_DESKTOP, AHE_IMMERSIVE, GetValue, GetValue method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExecuteCommandApplicationHostEnvironment.GetValue"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

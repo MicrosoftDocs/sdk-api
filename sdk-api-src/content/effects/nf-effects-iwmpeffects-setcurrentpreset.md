@@ -12,6 +12,8 @@ ms.keywords: EffectsSetCurrentPreset, IWMPEffects interface [Windows Media Playe
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.SetCurrentPreset"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6704f537-4e72-4fb1-e408-561e7971fd8f, GetCubeMapSurface, GetCubeMap
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DCubeTexture9.GetCubeMapSurface"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

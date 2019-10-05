@@ -12,6 +12,8 @@ ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxDisplayStatusMessage"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

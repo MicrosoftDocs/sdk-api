@@ -12,6 +12,8 @@ ms.keywords: IVMRMixerBitmap9, IVMRMixerBitmap9 interface [DirectShow], IVMRMixe
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRMixerBitmap9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

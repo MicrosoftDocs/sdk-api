@@ -12,6 +12,8 @@ ms.keywords: ValueMapType, ValueMapType enumeration [PLA], base.valuemaptype, pl
 ms.topic: enum
 f1_keywords: 
  - "pla/ValueMapType"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Header_SetStateImageList, Header_SetStateImageList macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_SetStateImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

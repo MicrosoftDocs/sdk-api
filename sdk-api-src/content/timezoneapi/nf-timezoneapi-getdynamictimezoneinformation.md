@@ -12,6 +12,8 @@ ms.keywords: GetDynamicTimeZoneInformation, GetDynamicTimeZoneInformation functi
 ms.topic: function
 f1_keywords: 
  - "timezoneapi/GetDynamicTimeZoneInformation"
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

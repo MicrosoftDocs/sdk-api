@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus me
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwner.GetStatus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

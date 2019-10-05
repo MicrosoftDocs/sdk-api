@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],Clone method, Bitmap.Clone, Bitmap.Clone(IN con
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

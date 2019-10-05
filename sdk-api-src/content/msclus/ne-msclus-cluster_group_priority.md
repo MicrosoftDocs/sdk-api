@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_GROUP_PRIORITY, CLUSTER_GROUP_PRIORITY enumeration [Failove
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_GROUP_PRIORITY"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

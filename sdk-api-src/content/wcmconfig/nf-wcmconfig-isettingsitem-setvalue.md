@@ -12,6 +12,8 @@ ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetVal
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.SetValue"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

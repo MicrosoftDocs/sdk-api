@@ -12,6 +12,8 @@ ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.DeleteImplType"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

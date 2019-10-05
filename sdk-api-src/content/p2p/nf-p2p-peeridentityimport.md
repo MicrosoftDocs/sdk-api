@@ -12,6 +12,8 @@ ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], 
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerIdentityImport"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

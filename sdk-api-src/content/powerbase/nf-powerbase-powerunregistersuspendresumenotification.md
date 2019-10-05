@@ -12,6 +12,8 @@ ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendRes
 ms.topic: function
 f1_keywords: 
  - "powerbase/PowerUnregisterSuspendResumeNotification"
+dev_langs:
+ - c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

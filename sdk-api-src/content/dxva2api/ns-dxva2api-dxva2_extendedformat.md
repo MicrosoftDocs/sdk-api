@@ -12,6 +12,8 @@ ms.keywords: DXVA2_ExtendedFormat, DXVA2_ExtendedFormat structure [Media Foundat
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_ExtendedFormat
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

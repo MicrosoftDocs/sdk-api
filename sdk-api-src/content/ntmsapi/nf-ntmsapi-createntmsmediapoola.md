@@ -12,6 +12,8 @@ ms.keywords: CreateNtmsMediaPool, CreateNtmsMediaPool function [Files], CreateNt
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/CreateNtmsMediaPool"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

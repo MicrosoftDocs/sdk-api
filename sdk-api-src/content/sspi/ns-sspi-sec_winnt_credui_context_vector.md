@@ -12,6 +12,8 @@ ms.keywords: '*PSEC_WINNT_CREDUI_CONTEXT_VECTOR, PSEC_WINNT_CREDUI_CONTEXT_VECTO
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_WINNT_CREDUI_CONTEXT_VECTOR
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

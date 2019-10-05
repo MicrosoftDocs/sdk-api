@@ -12,6 +12,8 @@ ms.keywords: LongPtrAdd, LongPtrAdd function [Windows Shell], intsafe/LongPtrAdd
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongPtrAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

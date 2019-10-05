@@ -12,6 +12,8 @@ ms.keywords: IDirect3DResource9 interface [Direct3D 9],PreLoad method, IDirect3D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DResource9.PreLoad"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3d9.h
 req.target-type: Windows

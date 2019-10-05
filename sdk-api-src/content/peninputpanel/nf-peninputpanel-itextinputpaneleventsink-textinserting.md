@@ -12,6 +12,8 @@ ms.keywords: 8e2ca5e2-a407-44cd-b489-c118401ca21b, ITextInputPanelEventSink inte
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink.TextInserting"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

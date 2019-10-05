@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT_TYPE, FWPM_NET_EVENT_TYPE enumeration [Filtering], F
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

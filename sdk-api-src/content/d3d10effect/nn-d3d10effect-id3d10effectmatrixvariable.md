@@ -12,6 +12,8 @@ ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, I
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectMatrixVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

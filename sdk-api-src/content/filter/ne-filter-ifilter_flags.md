@@ -12,6 +12,8 @@ ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTE
 ms.topic: enum
 f1_keywords: 
  - "filter/IFILTER_FLAGS"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

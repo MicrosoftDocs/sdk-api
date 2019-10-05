@@ -12,6 +12,8 @@ ms.keywords: SERVICE_TYPE, SERVICE_TYPE enumeration [Network Policy Server], SER
 ms.topic: enum
 f1_keywords: 
  - "sdoias/SERVICE_TYPE"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

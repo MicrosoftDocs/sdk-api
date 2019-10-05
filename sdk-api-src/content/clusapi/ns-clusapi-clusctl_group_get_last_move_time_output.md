@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

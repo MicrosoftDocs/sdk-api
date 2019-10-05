@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BIT
 ms.topic: interface
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyGroups"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

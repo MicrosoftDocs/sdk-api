@@ -12,6 +12,8 @@ ms.keywords: GetSubConditions, GetSubConditions method [search], GetSubCondition
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetSubConditions"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, Advis
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataAdviseHolder.Advise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

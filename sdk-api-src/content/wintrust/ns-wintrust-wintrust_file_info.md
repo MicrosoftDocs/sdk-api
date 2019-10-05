@@ -12,6 +12,8 @@ ms.keywords: "*PWINTRUST_FILE_INFO, PWINTRUCT_FILE_INFO, PWINTRUCT_FILE_INFO str
 ms.topic: struct
 f1_keywords: 
  - "wintrust/WINTRUST_FILE_INFO"
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

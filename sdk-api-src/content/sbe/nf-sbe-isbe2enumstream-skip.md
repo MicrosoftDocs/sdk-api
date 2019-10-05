@@ -12,6 +12,8 @@ ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, 
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2EnumStream.Skip"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

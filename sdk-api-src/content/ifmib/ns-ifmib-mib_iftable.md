@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTA
 ms.topic: struct
 f1_keywords:
 - ifmib/MIB_IFTABLE
+dev_langs:
+ - c++
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

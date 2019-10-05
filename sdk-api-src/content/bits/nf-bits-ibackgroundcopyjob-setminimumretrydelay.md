@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob interface [BITS],SetMinimumRetryDelay method, IB
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.SetMinimumRetryDelay"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

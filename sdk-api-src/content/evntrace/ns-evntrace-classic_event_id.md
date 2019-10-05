@@ -12,6 +12,8 @@ ms.keywords: "*PCLASSIC_EVENT_ID, CLASSIC_EVENT_ID, CLASSIC_EVENT_ID structure [
 ms.topic: struct
 f1_keywords: 
  - "evntrace/CLASSIC_EVENT_ID"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

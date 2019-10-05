@@ -12,6 +12,8 @@ ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtension.GetActiveSourceBuffers"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

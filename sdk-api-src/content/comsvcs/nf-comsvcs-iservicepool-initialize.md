@@ -12,6 +12,8 @@ ms.keywords: IServicePool interface [COM+],Initialize method, IServicePool.Initi
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServicePool.Initialize"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

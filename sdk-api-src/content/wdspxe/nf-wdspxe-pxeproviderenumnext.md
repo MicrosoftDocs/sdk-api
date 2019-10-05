@@ -12,6 +12,8 @@ ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeProviderEnumNext"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

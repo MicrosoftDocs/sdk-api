@@ -12,6 +12,8 @@ ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interf
 ms.topic: method
 f1_keywords: 
  - "mmc/IControlbar.Detach"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

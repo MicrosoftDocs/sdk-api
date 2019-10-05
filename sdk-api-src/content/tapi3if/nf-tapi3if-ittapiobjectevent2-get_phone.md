@@ -12,6 +12,8 @@ ms.keywords: ITTAPIObjectEvent2 interface [TAPI 2.2],get_Phone method, ITTAPIObj
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTAPIObjectEvent2.get_Phone"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

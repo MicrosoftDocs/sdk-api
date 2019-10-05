@@ -12,6 +12,8 @@ ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Se
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptImportPublicKeyInfoEx
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

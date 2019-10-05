@@ -12,6 +12,8 @@ ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation]
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_OUTPUT_ID_DATA
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

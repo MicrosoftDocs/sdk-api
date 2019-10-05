@@ -12,6 +12,8 @@ ms.keywords: PlayMetaFileRecord, PlayMetaFileRecord function [Windows GDI], _win
 ms.topic: function
 f1_keywords: 
  - "wingdi/PlayMetaFileRecord"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

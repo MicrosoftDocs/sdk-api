@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID struc
 ms.topic: struct
 f1_keywords:
 - ntsecapi/LSA_TRANSLATED_SID
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

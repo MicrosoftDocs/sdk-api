@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaTemplate interface [File Server Resource Manager],Name pr
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaTemplate.Name"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

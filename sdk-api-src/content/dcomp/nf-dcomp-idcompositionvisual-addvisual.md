@@ -12,6 +12,8 @@ ms.keywords: AddVisual, AddVisual method [DirectComposition], AddVisual method [
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisual.AddVisual"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

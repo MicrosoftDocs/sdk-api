@@ -12,6 +12,8 @@ ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu inter
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfMenu"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

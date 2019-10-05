@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetcalltreatment, lineSetCallTreatment, lineSetCallTrea
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetCallTreatment"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

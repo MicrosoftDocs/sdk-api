@@ -12,6 +12,8 @@ ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Wi
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.GetCapabilities"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioClient interface [Core Audio],IsFormatSupported method, IAudi
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.IsFormatSupported"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

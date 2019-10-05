@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmStreamMessage, acmStreamMessage, acmStreamMessage functi
 ms.topic: function
 f1_keywords: 
  - "msacm/acmStreamMessage"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], ba
 ms.topic: function
 f1_keywords: 
  - "winternl/NtSetInformationKey"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

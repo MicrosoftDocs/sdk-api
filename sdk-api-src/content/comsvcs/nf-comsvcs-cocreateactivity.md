@@ -12,6 +12,8 @@ ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateAc
 ms.topic: function
 f1_keywords: 
  - "comsvcs/CoCreateActivity"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

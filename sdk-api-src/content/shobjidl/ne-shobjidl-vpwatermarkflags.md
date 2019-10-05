@@ -12,6 +12,8 @@ ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPW
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/VPWATERMARKFLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

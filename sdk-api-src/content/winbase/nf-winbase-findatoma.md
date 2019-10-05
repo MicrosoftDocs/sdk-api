@@ -12,6 +12,8 @@ ms.keywords: FindAtom, FindAtom function [Data Exchange], FindAtomA, FindAtomW, 
 ms.topic: function
 f1_keywords: 
  - "winbase/FindAtom"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

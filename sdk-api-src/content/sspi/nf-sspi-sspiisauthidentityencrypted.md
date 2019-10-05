@@ -12,6 +12,8 @@ ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiIsAuthIdentityEncrypted"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

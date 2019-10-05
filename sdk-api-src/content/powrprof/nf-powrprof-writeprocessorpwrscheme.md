@@ -12,6 +12,8 @@ ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_w
 ms.topic: function
 f1_keywords:
 - powrprof/WriteProcessorPwrScheme
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

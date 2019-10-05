@@ -12,6 +12,8 @@ ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/Ad
 ms.topic: function
 f1_keywords:
 - clfsw32/AddLogContainerSet
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

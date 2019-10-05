@@ -12,6 +12,8 @@ ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefau
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

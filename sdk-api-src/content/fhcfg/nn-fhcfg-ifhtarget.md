@@ -12,6 +12,8 @@ ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [
 ms.topic: interface
 f1_keywords: 
  - "fhcfg/IFhTarget"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

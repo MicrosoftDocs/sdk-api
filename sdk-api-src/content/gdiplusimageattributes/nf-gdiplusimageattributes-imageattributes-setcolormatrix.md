@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetColorMatrix method, ImageAttributes
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetColorMatrix"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

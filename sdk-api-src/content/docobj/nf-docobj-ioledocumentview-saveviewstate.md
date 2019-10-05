@@ -12,6 +12,8 @@ ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocument
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.SaveViewState"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

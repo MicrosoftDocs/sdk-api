@@ -12,6 +12,8 @@ ms.keywords: Attributes property [File Server Resource Manager], Attributes prop
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.Attributes
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

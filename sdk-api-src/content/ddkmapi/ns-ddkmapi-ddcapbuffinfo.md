@@ -12,6 +12,8 @@ ms.keywords: '*LPDDCAPBUFFINFO, DDCAPBUFFINFO, DDCAPBUFFINFO structure [Display 
 ms.topic: struct
 f1_keywords:
 - ddkmapi/DDCAPBUFFINFO
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

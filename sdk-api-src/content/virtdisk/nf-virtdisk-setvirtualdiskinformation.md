@@ -12,6 +12,8 @@ ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD]
 ms.topic: function
 f1_keywords: 
  - "virtdisk/SetVirtualDiskInformation"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRenderersA
 ms.topic: method
 f1_keywords: 
  - "msvidctl/IMSVidCtl.get_AudioRenderersAvailable"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

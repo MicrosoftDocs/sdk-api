@@ -12,6 +12,8 @@ ms.keywords: MFTIMER_FLAGS, MFTIMER_FLAGS enumeration [Media Foundation], MFTIME
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFTIMER_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

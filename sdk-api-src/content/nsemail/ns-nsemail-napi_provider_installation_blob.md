@@ -12,6 +12,8 @@ ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB st
 ms.topic: struct
 f1_keywords: 
  - "nsemail/NAPI_PROVIDER_INSTALLATION_BLOB"
+dev_langs:
+ - c++
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

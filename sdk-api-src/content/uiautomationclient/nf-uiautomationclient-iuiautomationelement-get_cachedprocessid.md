@@ -12,6 +12,8 @@ ms.keywords: CachedProcessId property [Windows Accessibility], CachedProcessId p
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedProcessId"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

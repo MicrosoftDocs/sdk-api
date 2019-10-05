@@ -12,6 +12,8 @@ ms.keywords: ITfTextLayoutSink interface [Text Services Framework],OnLayoutChang
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfTextLayoutSink.OnLayoutChange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

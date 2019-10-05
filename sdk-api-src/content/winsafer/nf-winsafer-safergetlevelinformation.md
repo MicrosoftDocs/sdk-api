@@ -12,6 +12,8 @@ ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Securi
 ms.topic: function
 f1_keywords: 
  - "winsafer/SaferGetLevelInformation"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

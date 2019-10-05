@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_vGetInfo, FONTOBJ_vGetInfo function [Display Devices], disp
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_vGetInfo
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

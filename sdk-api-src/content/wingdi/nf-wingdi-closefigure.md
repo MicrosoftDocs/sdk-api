@@ -12,6 +12,8 @@ ms.keywords: CloseFigure, CloseFigure function [Windows GDI], _win32_CloseFigure
 ms.topic: function
 f1_keywords: 
  - "wingdi/CloseFigure"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

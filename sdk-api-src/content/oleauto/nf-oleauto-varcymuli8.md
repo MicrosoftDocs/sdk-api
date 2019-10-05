@@ -12,6 +12,8 @@ ms.keywords: VarCyMulI8, VarCyMulI8 function [Automation], _oa96_VarCyMulI8, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyMulI8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinInactive
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointRT.SetPinInactive"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

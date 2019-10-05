@@ -12,6 +12,8 @@ ms.keywords: MI_ConstReferenceField, MI_ConstReferenceField structure [Windows M
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReferenceField
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

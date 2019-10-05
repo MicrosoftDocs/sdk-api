@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineMSPIdentify, TSPI_lineMSPIdentify function [TAPI 2.2], _ts
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineMSPIdentify"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

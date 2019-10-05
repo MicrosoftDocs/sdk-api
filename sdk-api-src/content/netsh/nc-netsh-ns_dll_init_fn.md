@@ -12,6 +12,8 @@ ms.keywords: InitHelperDll, NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, NS_DLL_INIT
 ms.topic: callback
 f1_keywords:
 - netsh/NS_DLL_INIT_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

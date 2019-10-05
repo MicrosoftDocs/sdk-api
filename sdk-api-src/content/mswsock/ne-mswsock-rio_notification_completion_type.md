@@ -12,6 +12,8 @@ ms.keywords: '*PRIO_NOTIFICATION_COMPLETION_TYPE, RIO_EVENT_COMPLETION, RIO_IOCP
 ms.topic: enum
 f1_keywords:
 - mswsock/RIO_NOTIFICATION_COMPLETION_TYPE
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

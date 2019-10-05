@@ -12,6 +12,8 @@ ms.keywords: PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpol
 ms.topic: function
 f1_keywords:
 - certpoleng/PstGetTrustAnchors
+dev_langs:
+ - c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

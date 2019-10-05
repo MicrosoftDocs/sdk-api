@@ -12,6 +12,8 @@ ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffec
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IDropTargetProvider.DropTargetEffects"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

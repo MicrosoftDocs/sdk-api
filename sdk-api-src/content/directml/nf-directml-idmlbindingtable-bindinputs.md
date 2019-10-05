@@ -12,6 +12,8 @@ ms.keywords: BindInputs, BindInputs method, BindInputs method,IDMLBindingTable i
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLBindingTable.BindInputs"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

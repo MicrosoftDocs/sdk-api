@@ -12,6 +12,8 @@ ms.keywords: StgGetIFillLockBytesOnFile, StgGetIFillLockBytesOnFile function [St
 ms.topic: function
 f1_keywords: 
  - "objbase/StgGetIFillLockBytesOnFile"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

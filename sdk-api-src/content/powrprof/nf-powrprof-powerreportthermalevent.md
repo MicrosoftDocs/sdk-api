@@ -12,6 +12,8 @@ ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.pow
 ms.topic: function
 f1_keywords:
 - powrprof/PowerReportThermalEvent
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

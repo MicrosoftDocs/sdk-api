@@ -12,6 +12,8 @@ ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent, EndEnableCo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentProtectionManager.EndEnableContent"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

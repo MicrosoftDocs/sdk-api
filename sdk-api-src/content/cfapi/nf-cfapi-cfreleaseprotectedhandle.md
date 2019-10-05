@@ -12,6 +12,8 @@ ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfReleaseProtectedHandle"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

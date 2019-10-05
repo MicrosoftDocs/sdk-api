@@ -12,6 +12,8 @@ ms.keywords: "*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEER
 ms.topic: struct
 f1_keywords: 
  - "peerdist/PEERDIST_PUBLICATION_OPTIONS"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE struc
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/BUSNUMBER_RESOURCE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

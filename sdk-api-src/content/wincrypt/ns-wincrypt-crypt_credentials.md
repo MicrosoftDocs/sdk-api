@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CR
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_CREDENTIALS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

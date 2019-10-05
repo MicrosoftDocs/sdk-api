@@ -12,6 +12,8 @@ ms.keywords: '*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], etw.tdh_c
 ms.topic: struct
 f1_keywords:
 - tdh/TDH_CONTEXT
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

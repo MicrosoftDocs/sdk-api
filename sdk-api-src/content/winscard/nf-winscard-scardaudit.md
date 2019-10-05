@@ -12,6 +12,8 @@ ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCard
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardAudit"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

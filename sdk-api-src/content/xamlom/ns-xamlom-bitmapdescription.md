@@ -12,6 +12,8 @@ ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription,
 ms.topic: struct
 f1_keywords: 
  - "xamlom/BitmapDescription"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

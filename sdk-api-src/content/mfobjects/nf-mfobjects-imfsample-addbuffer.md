@@ -12,6 +12,8 @@ ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.AddBuffer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

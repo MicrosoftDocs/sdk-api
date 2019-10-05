@@ -12,6 +12,8 @@ ms.keywords: GetAudioObjectType, GetAudioObjectType method [Core Audio], GetAudi
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectBase.GetAudioObjectType"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

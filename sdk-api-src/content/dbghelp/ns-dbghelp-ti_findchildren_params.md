@@ -12,6 +12,8 @@ ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDC
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/TI_FINDCHILDREN_PARAMS"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

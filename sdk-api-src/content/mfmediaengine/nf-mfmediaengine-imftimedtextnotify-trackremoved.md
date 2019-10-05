@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackRemoved method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextNotify.TrackRemoved"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

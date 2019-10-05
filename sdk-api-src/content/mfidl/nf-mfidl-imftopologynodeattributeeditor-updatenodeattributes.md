@@ -12,6 +12,8 @@ ms.keywords: IMFTopologyNodeAttributeEditor interface [Media Foundation],UpdateN
 ms.topic: method
 f1_keywords:
 - mfidl/IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

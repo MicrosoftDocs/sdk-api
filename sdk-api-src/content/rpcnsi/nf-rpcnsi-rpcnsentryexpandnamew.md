@@ -12,6 +12,8 @@ ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEnt
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsEntryExpandName"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

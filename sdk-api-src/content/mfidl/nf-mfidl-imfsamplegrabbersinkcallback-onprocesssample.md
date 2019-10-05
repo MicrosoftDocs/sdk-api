@@ -12,6 +12,8 @@ ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleGrabberSinkCallback.OnProcessSample"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

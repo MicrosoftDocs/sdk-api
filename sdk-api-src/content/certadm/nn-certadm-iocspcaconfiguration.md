@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IO
 ms.topic: interface
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

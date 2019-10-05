@@ -12,6 +12,8 @@ ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [wind
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMProgress2.End2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

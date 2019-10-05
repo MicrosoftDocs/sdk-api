@@ -12,6 +12,8 @@ ms.keywords: PropVariantToBSTR, PropVariantToBSTR function [Windows Properties],
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToBSTR"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

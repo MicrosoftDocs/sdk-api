@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],RegisterViewForNotificatio
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.RegisterViewForNotification"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

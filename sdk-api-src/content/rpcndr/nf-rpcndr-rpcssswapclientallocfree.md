@@ -12,6 +12,8 @@ ms.keywords: RpcSsSwapClientAllocFree, RpcSsSwapClientAllocFree function [RPC], 
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSsSwapClientAllocFree"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

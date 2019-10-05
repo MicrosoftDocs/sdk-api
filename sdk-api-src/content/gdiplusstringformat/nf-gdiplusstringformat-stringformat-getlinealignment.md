@@ -12,6 +12,8 @@ ms.keywords: GetLineAlignment, GetLineAlignment method [GDI+], GetLineAlignment 
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetLineAlignment"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

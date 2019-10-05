@@ -12,6 +12,8 @@ ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Sh
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetKnownFolderIDList
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webserv
 ms.topic: function
 f1_keywords:
 - webservices/WsReadBody
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

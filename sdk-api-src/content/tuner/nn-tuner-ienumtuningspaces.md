@@ -12,6 +12,8 @@ ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "tuner/IEnumTuningSpaces"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

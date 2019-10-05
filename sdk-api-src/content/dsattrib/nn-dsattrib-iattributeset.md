@@ -12,6 +12,8 @@ ms.keywords: IAttributeSet, IAttributeSet interface [Microsoft TV Technologies],
 ms.topic: interface
 f1_keywords: 
  - "dsattrib/IAttributeSet"
+dev_langs:
+ - c++
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

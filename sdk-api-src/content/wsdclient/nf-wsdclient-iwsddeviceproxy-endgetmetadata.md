@@ -12,6 +12,8 @@ ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDDe
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDDeviceProxy.EndGetMetadata"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

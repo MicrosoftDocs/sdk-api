@@ -12,6 +12,8 @@ ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoin
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IConnectionPoint"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

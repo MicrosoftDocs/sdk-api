@@ -12,6 +12,8 @@ ms.keywords: 12ddda89-a649-ce2c-648b-278f711c1808, AsScalar, AsScalar method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsScalar"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

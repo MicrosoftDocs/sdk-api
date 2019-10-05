@@ -12,6 +12,8 @@ ms.keywords: CustomLineCap, CustomLineCap class [GDI+], CustomLineCap class [GDI
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

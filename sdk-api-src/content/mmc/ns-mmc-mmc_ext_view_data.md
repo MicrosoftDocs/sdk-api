@@ -12,6 +12,8 @@ ms.keywords: "*PMMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA structur
 ms.topic: struct
 f1_keywords: 
  - "mmc/MMC_EXT_VIEW_DATA"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

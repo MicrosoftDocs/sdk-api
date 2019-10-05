@@ -12,6 +12,8 @@ ms.keywords: ILClone, ILClone function [Windows Shell], _win32_ILClone, shell.IL
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILClone
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

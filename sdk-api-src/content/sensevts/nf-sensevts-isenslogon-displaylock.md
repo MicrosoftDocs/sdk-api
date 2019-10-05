@@ -12,6 +12,8 @@ ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],I
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon.DisplayLock"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

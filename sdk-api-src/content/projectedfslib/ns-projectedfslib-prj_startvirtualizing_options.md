@@ -12,6 +12,8 @@ ms.keywords: PRJ_STARTVIRTUALIZING_OPTIONS, PRJ_STARTVIRTUALIZING_OPTIONS struct
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

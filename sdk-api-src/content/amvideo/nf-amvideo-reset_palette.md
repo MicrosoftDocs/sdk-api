@@ -12,6 +12,8 @@ ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALE
 ms.topic: macro
 f1_keywords: 
  - "amvideo/RESET_PALETTE"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

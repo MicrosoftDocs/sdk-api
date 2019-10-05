@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRD
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.RequestColorDepthChange"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

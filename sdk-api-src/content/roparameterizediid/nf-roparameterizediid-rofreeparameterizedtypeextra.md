@@ -12,6 +12,8 @@ ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function
 ms.topic: function
 f1_keywords: 
  - "roparameterizediid/RoFreeParameterizedTypeExtra"
+dev_langs:
+ - c++
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h
 req.target-type: Windows

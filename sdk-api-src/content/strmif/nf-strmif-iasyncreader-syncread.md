@@ -12,6 +12,8 @@ ms.keywords: IAsyncReader interface [DirectShow],SyncRead method, IAsyncReader.S
 ms.topic: method
 f1_keywords: 
  - "strmif/IAsyncReader.SyncRead"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

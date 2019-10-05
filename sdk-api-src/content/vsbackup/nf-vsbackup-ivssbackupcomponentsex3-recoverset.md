@@ -12,6 +12,8 @@ ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComp
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx3.RecoverSet
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

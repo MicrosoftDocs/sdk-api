@@ -12,6 +12,8 @@ ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState, GetState method [Me
 ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetState
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetAlignment"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

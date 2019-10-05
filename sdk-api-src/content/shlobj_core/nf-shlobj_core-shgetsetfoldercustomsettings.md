@@ -12,6 +12,8 @@ ms.keywords: FCS_FORCEWRITE, FCS_READ, FCS_WRITE, SHGetSetFolderCustomSettings, 
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetSetFolderCustomSettings"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION, CLUSAPI_RESOURCE_O
 ms.topic: function
 f1_keywords: 
  - "clusapi/OfflineClusterResourceEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

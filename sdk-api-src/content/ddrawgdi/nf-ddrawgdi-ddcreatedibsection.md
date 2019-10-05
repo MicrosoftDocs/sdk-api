@@ -12,6 +12,8 @@ ms.keywords: DdCreateDIBSection, DdCreateDIBSection function [Windows API], GdiE
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdCreateDIBSection"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

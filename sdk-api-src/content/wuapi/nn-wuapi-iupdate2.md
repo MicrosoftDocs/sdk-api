@@ -12,6 +12,8 @@ ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 inter
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdate2"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

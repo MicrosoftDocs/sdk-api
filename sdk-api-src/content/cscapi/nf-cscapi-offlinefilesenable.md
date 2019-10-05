@@ -12,6 +12,8 @@ ms.keywords: OfflineFilesEnable, OfflineFilesEnable function [Offline Files], cs
 ms.topic: function
 f1_keywords: 
  - "cscapi/OfflineFilesEnable"
+dev_langs:
+ - c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

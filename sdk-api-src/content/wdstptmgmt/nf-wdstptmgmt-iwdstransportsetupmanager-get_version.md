@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],V
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSetupManager.Version"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

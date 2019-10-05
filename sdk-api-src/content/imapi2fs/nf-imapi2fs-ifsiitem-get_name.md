@@ -12,6 +12,8 @@ ms.keywords: IFsiItem interface [IMAPI],get_Name method, IFsiItem.get_Name, IFsi
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.get_Name"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

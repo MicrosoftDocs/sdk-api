@@ -12,6 +12,8 @@ ms.keywords: ITextRange2 interface [Windows Controls],InsertImage method, ITextR
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.InsertImage"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

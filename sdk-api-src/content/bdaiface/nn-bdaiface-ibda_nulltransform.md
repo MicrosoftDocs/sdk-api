@@ -12,6 +12,8 @@ ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_NullTransform"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

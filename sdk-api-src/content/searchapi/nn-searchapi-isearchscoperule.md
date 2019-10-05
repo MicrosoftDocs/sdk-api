@@ -12,6 +12,8 @@ ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScope
 ms.topic: interface
 f1_keywords: 
  - "searchapi/ISearchScopeRule"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

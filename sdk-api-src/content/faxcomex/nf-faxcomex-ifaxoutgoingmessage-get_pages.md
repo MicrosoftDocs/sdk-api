@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage interface [Fax Service],Pages property, IFaxOut
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.Pages"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

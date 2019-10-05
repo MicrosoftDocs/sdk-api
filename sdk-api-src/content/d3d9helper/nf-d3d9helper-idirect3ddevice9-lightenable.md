@@ -12,6 +12,8 @@ ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.LightEnable"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

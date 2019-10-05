@@ -12,6 +12,8 @@ ms.keywords: GetContainerCount, GetContainerCount method [Windows Media Player],
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainerList.GetContainerCount"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

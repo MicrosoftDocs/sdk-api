@@ -12,6 +12,8 @@ ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions inte
 ms.topic: interface
 f1_keywords: 
  - "objidl/IGlobalOptions"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

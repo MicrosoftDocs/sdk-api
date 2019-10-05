@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_NON_INHERI
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_SECURITY_ATTRIBUTE_V1
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

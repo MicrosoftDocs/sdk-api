@@ -12,6 +12,8 @@ ms.keywords: GetTempPath, GetTempPath function [Files], GetTempPathA, GetTempPat
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetTempPath"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

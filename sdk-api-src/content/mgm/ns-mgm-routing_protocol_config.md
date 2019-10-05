@@ -12,6 +12,8 @@ ms.keywords: "*PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG, PROUTING_PROT
 ms.topic: struct
 f1_keywords: 
  - "mgm/ROUTING_PROTOCOL_CONFIG"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

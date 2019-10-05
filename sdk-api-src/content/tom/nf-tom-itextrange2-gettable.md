@@ -12,6 +12,8 @@ ms.keywords: GetTable, GetTable method [Windows Controls], GetTable method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetTable"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

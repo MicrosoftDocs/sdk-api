@@ -12,6 +12,8 @@ ms.keywords: GetPnPID, GetPnPID method [Windows Portable Devices SDK], GetPnPID 
 ms.topic: method
 f1_keywords: 
  - "portabledeviceconnectapi/IPortableDeviceConnector.GetPnPID"
+dev_langs:
+ - c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

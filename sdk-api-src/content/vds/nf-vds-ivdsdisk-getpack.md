@@ -12,6 +12,8 @@ ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsDisk interf
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsDisk.GetPack"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

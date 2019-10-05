@@ -12,6 +12,8 @@ ms.keywords: MULTIPLE_TRUSTEE_OPERATION, MULTIPLE_TRUSTEE_OPERATION enumeration 
 ms.topic: enum
 f1_keywords: 
  - "accctrl/MULTIPLE_TRUSTEE_OPERATION"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

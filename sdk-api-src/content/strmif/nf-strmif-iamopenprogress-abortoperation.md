@@ -12,6 +12,8 @@ ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation 
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMOpenProgress.AbortOperation"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

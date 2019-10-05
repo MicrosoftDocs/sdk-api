@@ -12,6 +12,8 @@ ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionP
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionProxy.IsReusable"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

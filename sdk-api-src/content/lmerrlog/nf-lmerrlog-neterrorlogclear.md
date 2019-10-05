@@ -12,6 +12,8 @@ ms.keywords: NetErrorLogClear, NetErrorLogClear function [Network Management], _
 ms.topic: function
 f1_keywords: 
  - "lmerrlog/NetErrorLogClear"
+dev_langs:
+ - c++
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows

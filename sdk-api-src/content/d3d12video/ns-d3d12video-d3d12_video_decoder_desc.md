@@ -8,6 +8,10 @@ ms.assetid: 0e50bf0f-f160-4214-98da-80b4badb4989
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODER_DESC
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODER_DESC, D3D12_VIDEO_DECODER_DESC, 
 req.header: d3d12video.h
 req.include-header:

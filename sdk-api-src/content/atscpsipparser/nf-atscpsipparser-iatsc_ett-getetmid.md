@@ -12,6 +12,8 @@ ms.keywords: GetEtmId, GetEtmId method [Microsoft TV Technologies], GetEtmId met
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_ETT.GetEtmId"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

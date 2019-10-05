@@ -12,6 +12,8 @@ ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFil
 ms.topic: function
 f1_keywords: 
  - "shellapi/DragQueryFile"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

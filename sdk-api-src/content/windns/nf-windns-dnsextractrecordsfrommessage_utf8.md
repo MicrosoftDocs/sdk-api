@@ -12,6 +12,8 @@ ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, Dn
 ms.topic: function
 f1_keywords:
 - windns/DnsExtractRecordsFromMessage_W
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

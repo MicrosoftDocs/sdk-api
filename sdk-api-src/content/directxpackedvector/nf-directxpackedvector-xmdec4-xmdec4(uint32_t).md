@@ -12,6 +12,8 @@ ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 cons
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMDEC4.XMDEC4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

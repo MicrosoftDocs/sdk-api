@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_FONT_STYLE, MF_TIMED_TEXT_FONT_STYLE enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_FONT_STYLE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

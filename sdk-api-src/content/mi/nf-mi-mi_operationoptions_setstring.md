@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_SetString, MI_OperationOptions_SetString functi
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetString
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

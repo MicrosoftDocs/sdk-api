@@ -12,6 +12,8 @@ ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interf
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetID"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

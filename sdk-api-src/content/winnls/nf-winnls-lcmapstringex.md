@@ -12,6 +12,8 @@ ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LC
 ms.topic: function
 f1_keywords:
 - winnls/LCMapStringEx
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

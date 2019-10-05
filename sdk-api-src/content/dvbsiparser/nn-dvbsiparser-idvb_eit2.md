@@ -12,6 +12,8 @@ ms.keywords: IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], IDVB_EI
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT2"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

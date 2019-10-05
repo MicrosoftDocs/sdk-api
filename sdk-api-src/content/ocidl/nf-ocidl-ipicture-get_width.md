@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],get_Width method, IPicture.get_Width, IPic
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.get_Width"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

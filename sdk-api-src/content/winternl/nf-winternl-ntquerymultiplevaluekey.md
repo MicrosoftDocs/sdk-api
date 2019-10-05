@@ -12,6 +12,8 @@ ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows 
 ms.topic: function
 f1_keywords: 
  - "winternl/NtQueryMultipleValueKey"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

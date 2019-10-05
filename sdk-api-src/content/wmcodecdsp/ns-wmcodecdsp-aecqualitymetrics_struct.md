@@ -12,6 +12,8 @@ ms.keywords: AecQualityMetrics_Struct, AecQualityMetrics_Struct structure [Media
 ms.topic: struct
 f1_keywords: 
  - "wmcodecdsp/AecQualityMetrics_Struct"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

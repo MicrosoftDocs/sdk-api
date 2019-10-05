@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection inte
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigureCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

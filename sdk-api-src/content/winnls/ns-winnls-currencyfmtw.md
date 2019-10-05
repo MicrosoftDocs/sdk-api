@@ -12,6 +12,8 @@ ms.keywords: "*LPCURRENCYFMTW, CURRENCYFMT, CURRENCYFMT structure [International
 ms.topic: struct
 f1_keywords: 
  - "winnls/CURRENCYFMT"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused m
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccClientDocMgr.GetFocused"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

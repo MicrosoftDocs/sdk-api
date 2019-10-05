@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_GLOBAL_ROUTING_INFOW, FAX_GLOBAL_ROUTING_INFO, FAX_GLOBAL_RO
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_GLOBAL_ROUTING_INFO"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

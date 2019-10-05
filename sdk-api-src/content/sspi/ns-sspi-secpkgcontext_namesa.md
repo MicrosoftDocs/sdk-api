@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_NamesA, SecPkgContext_Names, SecPkgContext_Names s
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgContext_Names"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

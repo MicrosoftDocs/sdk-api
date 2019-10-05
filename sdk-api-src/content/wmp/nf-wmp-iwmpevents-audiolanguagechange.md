@@ -12,6 +12,8 @@ ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Play
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.AudioLanguageChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOutputBounds, GetOutputBounds method [WPF Bitmap Effects], GetOu
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContextImpl.GetOutputBounds"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

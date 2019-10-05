@@ -12,6 +12,8 @@ ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Fr
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope.GetRegularExpression"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

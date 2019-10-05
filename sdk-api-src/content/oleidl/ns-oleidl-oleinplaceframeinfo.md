@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEIN
 ms.topic: struct
 f1_keywords: 
  - "oleidl/OLEINPLACEFRAMEINFO"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

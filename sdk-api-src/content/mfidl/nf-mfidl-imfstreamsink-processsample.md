@@ -12,6 +12,8 @@ ms.keywords: 30e2bdb5-a99d-4a2e-ab36-7b4e383c645f, IMFStreamSink interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamSink.ProcessSample"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

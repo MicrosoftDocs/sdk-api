@@ -12,6 +12,8 @@ ms.keywords: DnsFree, DnsFree function [DNS], dns.dnsfree, windns/DnsFree
 ms.topic: function
 f1_keywords: 
  - "windns/DnsFree"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

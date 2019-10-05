@@ -12,6 +12,8 @@ ms.keywords: FillMode, FillMode enumeration [GDI+], FillModeAlternate, FillModeW
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/FillMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

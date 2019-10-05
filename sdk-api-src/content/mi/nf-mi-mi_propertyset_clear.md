@@ -12,6 +12,8 @@ ms.keywords: MI_PropertySet_Clear, MI_PropertySet_Clear function [Windows Manage
 ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_Clear
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

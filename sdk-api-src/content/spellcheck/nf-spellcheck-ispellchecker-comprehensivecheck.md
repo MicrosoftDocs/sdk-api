@@ -12,6 +12,8 @@ ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.ComprehensiveCheck"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_SUBAUTH_RESPONSE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

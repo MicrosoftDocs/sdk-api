@@ -12,6 +12,8 @@ ms.keywords: 1fc9daa5-ee34-409b-b977-0d39b23d422e, IInkEdit interface [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SetGestureStatus"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],
 ms.topic: class
 f1_keywords: 
  - "gdipluspath/GraphicsPath"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows

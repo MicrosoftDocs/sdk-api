@@ -12,6 +12,8 @@ ms.keywords: FsrmClassificationManager class [File Server Resource Manager],SetF
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager.SetFileProperty"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

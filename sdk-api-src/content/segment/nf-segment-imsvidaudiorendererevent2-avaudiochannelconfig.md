@@ -12,6 +12,8 @@ ms.keywords: AVAudioChannelConfig, AVAudioChannelConfig method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2.AVAudioChannelConfig"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM
 ms.topic: struct
 f1_keywords:
 - strmif/AM_DVD_RENDERSTATUS
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

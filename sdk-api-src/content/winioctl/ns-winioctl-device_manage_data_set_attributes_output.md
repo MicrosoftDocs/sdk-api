@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, D
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 156d7844-9096-dc1b-d77b-cafba490af86, D3D10_RENDER_TARGET_BLEND_DES
 ms.topic: struct
 f1_keywords: 
  - "d3d10_1/D3D10_RENDER_TARGET_BLEND_DESC1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: D3D10.h
 req.target-type: Windows

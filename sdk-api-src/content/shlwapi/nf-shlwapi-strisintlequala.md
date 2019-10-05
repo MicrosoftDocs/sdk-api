@@ -12,6 +12,8 @@ ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlE
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrIsIntlEqual"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

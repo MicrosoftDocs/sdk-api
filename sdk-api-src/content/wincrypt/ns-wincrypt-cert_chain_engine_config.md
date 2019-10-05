@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_CHAIN_ENGINE_CONFIG
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

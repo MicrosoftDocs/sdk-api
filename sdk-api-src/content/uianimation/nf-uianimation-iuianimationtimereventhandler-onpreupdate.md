@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUp
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimerEventHandler.OnPreUpdate"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

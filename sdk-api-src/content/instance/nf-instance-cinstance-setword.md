@@ -12,6 +12,8 @@ ms.keywords: "?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetWORD"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

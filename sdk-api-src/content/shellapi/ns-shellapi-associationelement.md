@@ -12,6 +12,8 @@ ms.keywords: ASSOCCLASS_APP_KEY, ASSOCCLASS_APP_STR, ASSOCCLASS_CLSID_KEY, ASSOC
 ms.topic: struct
 f1_keywords: 
  - "shellapi/ASSOCIATIONELEMENT"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

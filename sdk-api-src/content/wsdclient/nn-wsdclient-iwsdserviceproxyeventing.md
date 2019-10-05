@@ -12,6 +12,8 @@ ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDS
 ms.topic: interface
 f1_keywords: 
  - "wsdclient/IWSDServiceProxyEventing"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

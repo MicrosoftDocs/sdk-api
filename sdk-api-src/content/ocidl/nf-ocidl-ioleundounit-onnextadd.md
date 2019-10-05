@@ -12,6 +12,8 @@ ms.keywords: IOleUndoUnit interface [COM],OnNextAdd method, IOleUndoUnit.OnNextA
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoUnit.OnNextAdd"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

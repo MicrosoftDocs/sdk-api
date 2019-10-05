@@ -12,6 +12,8 @@ ms.keywords: SETTEXTEX, SETTEXTEX structure [Windows Controls], ST_DEFAULT, ST_K
 ms.topic: struct
 f1_keywords: 
  - "richedit/SETTEXTEX"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

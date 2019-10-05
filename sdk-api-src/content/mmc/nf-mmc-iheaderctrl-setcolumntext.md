@@ -12,6 +12,8 @@ ms.keywords: IHeaderCtrl interface [MMC],SetColumnText method, IHeaderCtrl.SetCo
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl.SetColumnText"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

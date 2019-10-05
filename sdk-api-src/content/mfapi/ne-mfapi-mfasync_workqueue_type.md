@@ -12,6 +12,8 @@ ms.keywords: MFASYNC_WORKQUEUE_TYPE, MFASYNC_WORKQUEUE_TYPE enumeration [Media F
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFASYNC_WORKQUEUE_TYPE"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

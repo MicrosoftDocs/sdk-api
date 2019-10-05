@@ -12,6 +12,8 @@ ms.keywords: '*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoB
 ms.topic: enum
 f1_keywords:
 - peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

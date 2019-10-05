@@ -12,6 +12,8 @@ ms.keywords: DISKQUOTA_FILESTATE_INCOMPLETE, DISKQUOTA_FILESTATE_REBUILDING, DIS
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.GetQuotaState"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

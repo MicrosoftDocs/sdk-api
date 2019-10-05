@@ -12,6 +12,8 @@ ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderLogical
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ISearchFolderItemFactory.SetFolderLogicalViewMode"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

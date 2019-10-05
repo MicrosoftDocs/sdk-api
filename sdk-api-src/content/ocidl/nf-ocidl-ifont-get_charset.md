@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],get_Charset method, IFont.get_Charset, IFont:
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.get_Charset"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

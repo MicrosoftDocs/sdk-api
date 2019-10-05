@@ -12,6 +12,8 @@ ms.keywords: CreateAudioMediaType, CreateAudioMediaType function [Audio Devices]
 ms.topic: function
 f1_keywords: 
  - "audiomediatype/CreateAudioMediaType"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

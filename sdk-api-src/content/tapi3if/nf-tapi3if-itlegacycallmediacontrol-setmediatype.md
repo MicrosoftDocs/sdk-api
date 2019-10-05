@@ -12,6 +12,8 @@ ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],SetMediaType method, 
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl.SetMediaType"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

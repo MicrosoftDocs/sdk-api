@@ -12,6 +12,8 @@ ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeext
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IkeextSaGetById0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

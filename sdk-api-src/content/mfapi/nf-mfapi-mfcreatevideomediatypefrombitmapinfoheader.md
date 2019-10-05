@@ -12,6 +12,8 @@ ms.keywords: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640, MFCreateVideoMediaTypeFromBit
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

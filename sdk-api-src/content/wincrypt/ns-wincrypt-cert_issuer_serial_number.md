@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUE
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_ISSUER_SERIAL_NUMBER"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

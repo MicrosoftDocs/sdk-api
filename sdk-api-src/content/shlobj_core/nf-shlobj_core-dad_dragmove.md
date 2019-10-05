@@ -12,6 +12,8 @@ ms.keywords: DAD_DragMove, DAD_DragMove function [Windows Shell], shell.DAD_Drag
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/DAD_DragMove"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

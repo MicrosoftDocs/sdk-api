@@ -12,6 +12,8 @@ ms.keywords: MSHLFLAGS, MSHLFLAGS enumeration [COM], MSHLFLAGS_NOPING, MSHLFLAGS
 ms.topic: enum
 f1_keywords: 
  - "wtypesbase/MSHLFLAGS"
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

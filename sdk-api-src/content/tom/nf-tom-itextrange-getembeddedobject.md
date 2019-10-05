@@ -12,6 +12,8 @@ ms.keywords: GetEmbeddedObject, GetEmbeddedObject method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetEmbeddedObject"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

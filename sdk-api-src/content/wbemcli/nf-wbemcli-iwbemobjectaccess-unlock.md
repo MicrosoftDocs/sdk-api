@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Un
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemObjectAccess.Unlock"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

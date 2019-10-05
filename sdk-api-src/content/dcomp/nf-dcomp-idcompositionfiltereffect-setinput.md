@@ -12,6 +12,8 @@ ms.keywords: IDCompositionFilterEffect interface [DirectComposition],SetInput me
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionFilterEffect.SetInput"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 32601c9d-0f76-a5ab-559a-a11064280174, Draw, Draw method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.Draw"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

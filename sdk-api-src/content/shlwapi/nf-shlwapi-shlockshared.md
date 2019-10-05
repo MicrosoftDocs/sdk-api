@@ -12,6 +12,8 @@ ms.keywords: SHLockShared, SHLockShared function [Windows Shell], _win32_SHLockS
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHLockShared"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

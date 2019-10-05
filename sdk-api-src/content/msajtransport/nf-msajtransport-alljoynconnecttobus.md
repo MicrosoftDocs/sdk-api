@@ -12,6 +12,8 @@ ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], al
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynConnectToBus"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

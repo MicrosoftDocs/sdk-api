@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMapping interface [ICS/ICF],get_Properties method, I
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMapping.get_Properties"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

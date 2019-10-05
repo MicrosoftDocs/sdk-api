@@ -12,6 +12,8 @@ ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService inter
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.AddChild"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

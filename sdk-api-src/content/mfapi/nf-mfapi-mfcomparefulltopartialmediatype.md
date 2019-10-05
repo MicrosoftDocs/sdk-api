@@ -12,6 +12,8 @@ ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaTy
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCompareFullToPartialMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

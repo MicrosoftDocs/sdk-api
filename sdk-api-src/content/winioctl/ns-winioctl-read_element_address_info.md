@@ -12,6 +12,8 @@ ms.keywords: '*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELE
 ms.topic: struct
 f1_keywords:
 - winioctl/READ_ELEMENT_ADDRESS_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

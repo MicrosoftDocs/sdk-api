@@ -12,6 +12,8 @@ ms.keywords: '*PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEAD
 ms.topic: struct
 f1_keywords:
 - evntrace/TRACE_LOGFILE_HEADER
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

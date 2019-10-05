@@ -12,6 +12,8 @@ ms.keywords: IUPnPServices interface [UPnP APIs],get_Item method, IUPnPServices.
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServices.get_Item"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

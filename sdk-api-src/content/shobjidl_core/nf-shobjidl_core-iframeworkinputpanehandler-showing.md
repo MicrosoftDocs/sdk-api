@@ -12,6 +12,8 @@ ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFrameworkInputPaneHandler.Showing"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

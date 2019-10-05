@@ -12,6 +12,8 @@ ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTa
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IRunnableTask"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

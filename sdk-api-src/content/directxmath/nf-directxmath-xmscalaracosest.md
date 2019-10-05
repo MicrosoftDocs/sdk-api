@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMScalarACosEst, XMScalarACosEst, XMScalarACosEst meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMScalarACosEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

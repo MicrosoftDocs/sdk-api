@@ -12,6 +12,8 @@ ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageWriterOnFile1"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

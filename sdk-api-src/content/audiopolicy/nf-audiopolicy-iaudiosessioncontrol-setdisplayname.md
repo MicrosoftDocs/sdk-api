@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, 
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.SetDisplayName"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

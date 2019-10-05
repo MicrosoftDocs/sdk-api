@@ -12,6 +12,8 @@ ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Scope_list_ipv4"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

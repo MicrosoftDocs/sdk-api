@@ -12,6 +12,8 @@ ms.keywords: DdAttachSurface, DdAttachSurface function [Windows API], GdiEntry11
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdAttachSurface"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

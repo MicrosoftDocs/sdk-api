@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_PIFLAGS, CLUSPROP_PIFLAGS enumeration [Failover Cluster], 
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSPROP_PIFLAGS"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

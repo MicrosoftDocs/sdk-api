@@ -12,6 +12,8 @@ ms.keywords: WICGifImageDescriptorHeight, WICGifImageDescriptorInterlaceFlag, WI
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICGifImageDescriptorProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

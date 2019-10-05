@@ -12,6 +12,8 @@ ms.keywords: VSS_SOURCE_TYPE, VSS_SOURCE_TYPE enumeration [VSS], VSS_ST_NONTRANS
 ms.topic: enum
 f1_keywords:
 - vswriter/VSS_SOURCE_TYPE
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

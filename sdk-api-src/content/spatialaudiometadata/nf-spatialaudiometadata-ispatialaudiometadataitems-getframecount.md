@@ -12,6 +12,8 @@ ms.keywords: GetFrameCount, GetFrameCount method [Core Audio], GetFrameCount met
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItems.GetFrameCount"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

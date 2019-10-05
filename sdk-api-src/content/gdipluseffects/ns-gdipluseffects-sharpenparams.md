@@ -12,6 +12,8 @@ ms.keywords: SharpenParams, SharpenParams structure [GDI+], _gdiplus_STRUC_Sharp
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/SharpenParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderi
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetRenderingPrefs"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

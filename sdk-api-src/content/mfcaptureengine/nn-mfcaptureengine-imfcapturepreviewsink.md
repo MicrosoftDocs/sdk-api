@@ -12,6 +12,8 @@ ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePreviewSink"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

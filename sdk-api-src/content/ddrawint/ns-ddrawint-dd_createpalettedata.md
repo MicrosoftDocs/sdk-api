@@ -12,6 +12,8 @@ ms.keywords: '*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATEPALETTEDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

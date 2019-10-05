@@ -12,6 +12,8 @@ ms.keywords: Associate, Associate method, Associate method,IPNPXDeviceAssociatio
 ms.topic: method
 f1_keywords: 
  - "pnpxassoc/IPNPXDeviceAssociation.Associate"
+dev_langs:
+ - c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

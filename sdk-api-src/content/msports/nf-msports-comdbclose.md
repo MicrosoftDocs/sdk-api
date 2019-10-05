@@ -12,6 +12,8 @@ ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBClose"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

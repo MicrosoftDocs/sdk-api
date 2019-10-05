@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],getRange_IrisRelative method,
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.getRange_IrisRelative"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellView interface [Windows Shell],SaveViewState method, IShellVi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellView.SaveViewState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

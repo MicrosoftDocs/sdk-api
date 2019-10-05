@@ -12,6 +12,8 @@ ms.keywords: EapPeerQueryCredentialInputFields, EapPeerQueryCredentialInputField
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerQueryCredentialInputFields
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

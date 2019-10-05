@@ -12,6 +12,8 @@ ms.keywords: DdGetScanLine, DdGetScanLine callback function [Display Devices], P
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdGetScanLine
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

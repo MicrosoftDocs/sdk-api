@@ -12,6 +12,8 @@ ms.keywords: HWND property [Windows API], HWND property [Windows API],IWebBrowse
 ms.topic: method
 f1_keywords: 
  - "exdisp/IWebBrowserApp.HWND"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd
 ms.topic: function
 f1_keywords: 
  - "virtdisk/ModifyVhdSet"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

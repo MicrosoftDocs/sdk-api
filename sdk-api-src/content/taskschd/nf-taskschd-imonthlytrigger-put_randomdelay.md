@@ -12,6 +12,8 @@ ms.keywords: IMonthlyTrigger interface [Task Scheduler],RandomDelay property, IM
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMonthlyTrigger.RandomDelay"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

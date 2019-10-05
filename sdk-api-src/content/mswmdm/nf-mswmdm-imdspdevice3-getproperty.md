@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], Get
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDevice3.GetProperty"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

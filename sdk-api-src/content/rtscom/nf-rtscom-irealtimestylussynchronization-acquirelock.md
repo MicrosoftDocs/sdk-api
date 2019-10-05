@@ -12,6 +12,8 @@ ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock meth
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylusSynchronization.AcquireLock"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

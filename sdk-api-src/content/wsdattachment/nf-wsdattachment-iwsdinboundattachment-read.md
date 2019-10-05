@@ -12,6 +12,8 @@ ms.keywords: IWSDInboundAttachment interface,Read method, IWSDInboundAttachment.
 ms.topic: method
 f1_keywords: 
  - "wsdattachment/IWSDInboundAttachment.Read"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

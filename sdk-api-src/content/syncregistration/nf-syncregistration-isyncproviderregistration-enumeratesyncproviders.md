@@ -12,6 +12,8 @@ ms.keywords: EnumerateSyncProviders, EnumerateSyncProviders method [Windows Sync
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderRegistration.EnumerateSyncProviders"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

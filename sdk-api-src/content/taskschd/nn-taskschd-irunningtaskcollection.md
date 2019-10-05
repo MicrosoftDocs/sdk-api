@@ -12,6 +12,8 @@ ms.keywords: IRunningTaskCollection, IRunningTaskCollection interface [Task Sche
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IRunningTaskCollection"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, Create
 ms.topic: function
 f1_keywords: 
  - "jobapi2/CreateJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

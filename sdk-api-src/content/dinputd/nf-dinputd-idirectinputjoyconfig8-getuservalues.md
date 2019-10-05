@@ -12,6 +12,8 @@ ms.keywords: GetUserValues, GetUserValues method [Human Input Devices], GetUserV
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.GetUserValues"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

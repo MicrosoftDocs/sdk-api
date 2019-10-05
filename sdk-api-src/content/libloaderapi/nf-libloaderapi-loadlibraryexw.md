@@ -12,6 +12,8 @@ ms.keywords: DONT_RESOLVE_DLL_REFERENCES, LDR_IS_DATAFILE, LDR_IS_IMAGEMAPPING, 
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/LoadLibraryEx"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

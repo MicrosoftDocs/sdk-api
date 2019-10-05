@@ -12,6 +12,8 @@ ms.keywords: GetGroups, GetGroups method [Fax Service], GetGroups method [Fax Se
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRouting.GetGroups"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

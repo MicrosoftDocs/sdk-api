@@ -12,6 +12,8 @@ ms.keywords: D3D12_TEX2D_DSV, D3D12_TEX2D_DSV structure, d3d12/D3D12_TEX2D_DSV, 
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_TEX2D_DSV"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

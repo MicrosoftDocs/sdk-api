@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetLBTextLen, ComboBox_GetLBTextLen macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetLBTextLen"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

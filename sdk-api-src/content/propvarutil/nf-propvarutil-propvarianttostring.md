@@ -12,6 +12,8 @@ ms.keywords: PropVariantToString, PropVariantToString function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToString"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

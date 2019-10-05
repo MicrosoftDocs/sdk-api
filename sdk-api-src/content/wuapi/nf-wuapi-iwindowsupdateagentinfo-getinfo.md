@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Win
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsUpdateAgentInfo.GetInfo"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

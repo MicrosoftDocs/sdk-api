@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetTe
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetText"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

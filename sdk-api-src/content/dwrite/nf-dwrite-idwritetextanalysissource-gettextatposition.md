@@ -12,6 +12,8 @@ ms.keywords: GetTextAtPosition, GetTextAtPosition method [Direct Write], GetText
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalysisSource.GetTextAtPosition"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationScriptEvents.ScriptError"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

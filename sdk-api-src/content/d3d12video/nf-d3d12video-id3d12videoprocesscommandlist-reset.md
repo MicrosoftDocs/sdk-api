@@ -8,6 +8,10 @@ ms.assetid: 95ddb93d-313e-48a3-ac09-e4675b4a1cad
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::Reset
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::Reset, Reset, ID3D12VideoProcessCommandList.Reset, ID3D12VideoProcessCommandList::Reset, ID3D12VideoProcessCommandList.Reset
 req.header: d3d12video.h
 req.include-header:

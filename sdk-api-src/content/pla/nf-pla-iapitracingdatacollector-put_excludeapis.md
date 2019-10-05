@@ -12,6 +12,8 @@ ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingD
 ms.topic: method
 f1_keywords: 
  - "pla/IApiTracingDataCollector.ExcludeApis"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

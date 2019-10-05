@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioClient interface [Core Audio],IsAudioObjectFormatSuppo
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.IsAudioObjectFormatSupported"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

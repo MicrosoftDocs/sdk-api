@@ -12,6 +12,8 @@ ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS e
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_KARAOKE_CONTENTS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

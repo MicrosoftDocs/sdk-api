@@ -12,6 +12,8 @@ ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IPBDAAttributesDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

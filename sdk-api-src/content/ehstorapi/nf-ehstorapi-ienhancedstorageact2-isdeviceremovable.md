@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageACT2 interface [Enhanced Storage],IsDeviceRemovable
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT2.IsDeviceRemovable"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method,
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtGetExtendedTransferInfo
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

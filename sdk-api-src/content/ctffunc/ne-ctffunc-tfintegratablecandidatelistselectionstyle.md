@@ -12,6 +12,8 @@ ms.keywords: STYLE_ACTIVE_SELECTION, STYLE_IMPLIED_SELECTION, TfIntegratableCand
 ms.topic: enum
 f1_keywords: 
  - "ctffunc/TfIntegratableCandidateListSelectionStyle"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

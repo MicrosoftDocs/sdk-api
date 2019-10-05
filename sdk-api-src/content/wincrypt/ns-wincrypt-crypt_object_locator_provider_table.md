@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVID
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

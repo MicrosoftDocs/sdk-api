@@ -12,6 +12,8 @@ ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and D
 ms.topic: function
 f1_keywords: 
  - "winuser/GetThreadDesktop"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

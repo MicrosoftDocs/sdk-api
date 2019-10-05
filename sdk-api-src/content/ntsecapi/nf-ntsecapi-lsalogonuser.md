@@ -12,6 +12,8 @@ ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICAT
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLogonUser
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

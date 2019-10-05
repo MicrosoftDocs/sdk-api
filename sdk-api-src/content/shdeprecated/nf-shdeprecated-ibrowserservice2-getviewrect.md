@@ -12,6 +12,8 @@ ms.keywords: GetViewRect, GetViewRect method [Windows Shell], GetViewRect method
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.GetViewRect"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

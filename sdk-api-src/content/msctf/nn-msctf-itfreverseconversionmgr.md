@@ -12,6 +12,8 @@ ms.keywords: ITfReverseConversionMgr, ITfReverseConversionMgr interface [Text Se
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfReverseConversionMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

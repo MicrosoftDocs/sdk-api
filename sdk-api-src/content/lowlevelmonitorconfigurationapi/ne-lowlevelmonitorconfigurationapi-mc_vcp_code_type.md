@@ -12,6 +12,8 @@ ms.keywords: "*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumer
 ms.topic: enum
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

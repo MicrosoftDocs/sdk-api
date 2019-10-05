@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_result2error"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

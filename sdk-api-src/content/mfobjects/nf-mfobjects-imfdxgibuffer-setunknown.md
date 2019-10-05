@@ -12,6 +12,8 @@ ms.keywords: IMFDXGIBuffer interface [Media Foundation],SetUnknown method, IMFDX
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFDXGIBuffer.SetUnknown"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Dis
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DXAPI_INTERFACE"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

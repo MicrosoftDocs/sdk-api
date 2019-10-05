@@ -12,6 +12,8 @@ ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Wind
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetItemID"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

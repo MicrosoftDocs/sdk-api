@@ -12,6 +12,8 @@ ms.keywords: 0d9bef66-554d-4515-e088-ddeeef8f07b9, BeginScene, BeginScene method
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.BeginScene"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

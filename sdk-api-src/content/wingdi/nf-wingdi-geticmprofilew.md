@@ -12,6 +12,8 @@ ms.keywords: GetICMProfile, GetICMProfile function [Windows Color System], GetIC
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetICMProfile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

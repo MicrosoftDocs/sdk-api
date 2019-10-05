@@ -12,6 +12,8 @@ ms.keywords: "*PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, GET_LENGTH_INFOR
 ms.topic: struct
 f1_keywords: 
  - "winioctl/GET_LENGTH_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

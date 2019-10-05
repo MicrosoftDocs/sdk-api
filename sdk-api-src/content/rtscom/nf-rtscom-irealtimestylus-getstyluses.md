@@ -12,6 +12,8 @@ ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses, GetStyluses meth
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetStyluses"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

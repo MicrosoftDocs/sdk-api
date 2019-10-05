@@ -12,6 +12,8 @@ ms.keywords: TextDecorationLineStyle, TextDecorationLineStyle enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/TextDecorationLineStyle"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

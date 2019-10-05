@@ -12,6 +12,8 @@ ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Securit
 ms.topic: interface
 f1_keywords: 
  - "certadm/IOCSPPropertyCollection"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

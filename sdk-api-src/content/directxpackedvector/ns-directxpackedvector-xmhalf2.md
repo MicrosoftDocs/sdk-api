@@ -12,6 +12,8 @@ ms.keywords: XMHALF2, XMHALF2 structure [DirectX Math Support APIs], directxpack
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMHALF2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

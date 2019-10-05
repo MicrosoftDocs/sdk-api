@@ -12,6 +12,8 @@ ms.keywords: GetChangeWithRecoverableError, GetChangeWithRecoverableError method
 ms.topic: method
 f1_keywords: 
  - "winsync/IRecoverableError.GetChangeWithRecoverableError"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

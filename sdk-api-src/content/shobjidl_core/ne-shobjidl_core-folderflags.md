@@ -12,6 +12,8 @@ ms.keywords: FOLDERFLAGS, FOLDERFLAGS enumeration [Windows Shell], FWF_ABBREVIAT
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FOLDERFLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPER
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_MAINTENANCE_OPERATION"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

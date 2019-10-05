@@ -12,6 +12,8 @@ ms.keywords: GetEndACP, GetEndACP method [Text Services Framework], GetEndACP me
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP.GetEndACP"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

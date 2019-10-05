@@ -12,6 +12,8 @@ ms.keywords: IWPCWebSettings interface,RequestURLOverride method, IWPCWebSetting
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCWebSettings.RequestURLOverride"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

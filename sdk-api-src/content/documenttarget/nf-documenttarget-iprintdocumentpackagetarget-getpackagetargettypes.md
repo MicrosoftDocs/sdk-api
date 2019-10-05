@@ -12,6 +12,8 @@ ms.keywords: GetPackageTargetTypes, GetPackageTargetTypes method [XPS Documents 
 ms.topic: method
 f1_keywords: 
  - "documenttarget/IPrintDocumentPackageTarget.GetPackageTargetTypes"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

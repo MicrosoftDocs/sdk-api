@@ -12,6 +12,8 @@ ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus
 ms.topic: struct
 f1_keywords: 
  - "resourceindexer/IndexedResourceQualifier"
+dev_langs:
+ - c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

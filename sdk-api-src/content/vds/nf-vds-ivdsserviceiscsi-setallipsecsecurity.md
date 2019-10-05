@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecSecurity method, IVdsSe
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceIscsi.SetAllIpsecSecurity"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

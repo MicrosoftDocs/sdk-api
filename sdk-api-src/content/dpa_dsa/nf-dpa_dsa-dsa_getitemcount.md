@@ -12,6 +12,8 @@ ms.keywords: DSA_GetItemCount, DSA_GetItemCount macro [Windows Controls], _shell
 ms.topic: macro
 f1_keywords: 
  - "dpa_dsa/DSA_GetItemCount"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

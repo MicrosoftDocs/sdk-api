@@ -12,6 +12,8 @@ ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_i
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageGetCertificateData"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

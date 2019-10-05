@@ -12,6 +12,8 @@ ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win
 ms.topic: function
 f1_keywords: 
  - "winbase/GetUserName"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

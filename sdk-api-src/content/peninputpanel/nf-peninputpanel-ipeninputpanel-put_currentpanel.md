@@ -12,6 +12,8 @@ ms.keywords: 536ba874-b9f9-45c9-bf9a-a64679afc861, CurrentPanel property [Tablet
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.CurrentPanel"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

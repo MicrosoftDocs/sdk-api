@@ -12,6 +12,8 @@ ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INF
 ms.topic: function
 f1_keywords:
 - sspi/SetContextAttributes
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

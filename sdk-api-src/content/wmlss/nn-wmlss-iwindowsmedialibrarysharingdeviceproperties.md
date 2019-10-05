@@ -12,6 +12,8 @@ ms.keywords: IWindowsMediaLibrarySharingDeviceProperties, IWindowsMediaLibrarySh
 ms.topic: interface
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingDeviceProperties"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

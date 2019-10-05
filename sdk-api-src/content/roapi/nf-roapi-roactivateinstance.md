@@ -12,6 +12,8 @@ ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], 
 ms.topic: function
 f1_keywords: 
  - "roapi/RoActivateInstance"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

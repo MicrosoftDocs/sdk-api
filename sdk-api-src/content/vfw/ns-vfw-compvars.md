@@ -12,6 +12,8 @@ ms.keywords: "*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICM
 ms.topic: struct
 f1_keywords: 
  - "vfw/COMPVARS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

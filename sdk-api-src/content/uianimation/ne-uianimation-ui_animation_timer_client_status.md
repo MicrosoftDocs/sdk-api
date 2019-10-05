@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

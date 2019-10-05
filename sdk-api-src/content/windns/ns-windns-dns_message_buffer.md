@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER struc
 ms.topic: struct
 f1_keywords:
 - windns/DNS_MESSAGE_BUFFER
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

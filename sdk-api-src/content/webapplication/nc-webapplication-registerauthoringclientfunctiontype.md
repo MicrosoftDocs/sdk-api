@@ -12,6 +12,8 @@ ms.keywords: RegisterAuthoringClientFunctionType, RegisterAuthoringClientFunctio
 ms.topic: callback
 f1_keywords: 
  - "webapplication/RegisterAuthoringClientFunctionType"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

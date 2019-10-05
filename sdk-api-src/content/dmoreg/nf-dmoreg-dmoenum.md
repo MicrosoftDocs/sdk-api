@@ -12,6 +12,8 @@ ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoen
 ms.topic: function
 f1_keywords:
 - dmoreg/DMOEnum
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

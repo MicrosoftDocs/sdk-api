@@ -12,6 +12,8 @@ ms.keywords: FUNCFLAGS, FUNCFLAGS enumeration [Automation], FUNCFLAG_FBINDABLE, 
 ms.topic: enum
 f1_keywords: 
  - "oaidl/FUNCFLAGS"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: X509ProviderType, X509ProviderType enumeration [Security], XCN_PROV
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509ProviderType"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

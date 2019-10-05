@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_ANYCAST_ADDRESS, *PIP_ADAPTER_ANYCAST_ADDRESS_XP, IP_
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_ANYCAST_ADDRESS"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRelationship, IRelationship interface [search], IRelationship inte
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IRelationship"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

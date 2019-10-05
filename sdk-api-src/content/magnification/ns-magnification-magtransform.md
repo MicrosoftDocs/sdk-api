@@ -12,6 +12,8 @@ ms.keywords: "*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnificatio
 ms.topic: struct
 f1_keywords: 
  - "magnification/MAGTRANSFORM"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextCreateEnumHandle0, FwpmProviderContextCreateEnum
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderContextCreateEnumHandle0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDFS_NAMESPACE_VERSION_ORIGIN, DFS_NAMESPACE_VERSION_ORIGIN, DFS_
 ms.topic: enum
 f1_keywords:
 - lmdfs/DFS_NAMESPACE_VERSION_ORIGIN
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

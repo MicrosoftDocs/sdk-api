@@ -12,6 +12,8 @@ ms.keywords: EnableHorizontalMirrorMode, EnableHorizontalMirrorMode method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.EnableHorizontalMirrorMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RSVP_MSG_OBJS, RSVP_MSG_OBJS structure [QOS], lpmapi/RSVP_MSG_OBJS,
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/RSVP_MSG_OBJS"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

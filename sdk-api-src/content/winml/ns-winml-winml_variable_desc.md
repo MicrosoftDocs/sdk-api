@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_variable_desc, PWINML_VARIABLE_DESC, PWINML_V
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_VARIABLE_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

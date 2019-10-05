@@ -12,6 +12,8 @@ ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetItemDropDownRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

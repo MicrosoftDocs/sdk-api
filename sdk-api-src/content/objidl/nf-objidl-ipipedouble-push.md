@@ -12,6 +12,8 @@ ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDou
 ms.topic: method
 f1_keywords: 
  - "objidl/IPipeDouble.Push"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

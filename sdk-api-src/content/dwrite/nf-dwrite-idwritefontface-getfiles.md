@@ -12,6 +12,8 @@ ms.keywords: GetFiles, GetFiles method [Direct Write], GetFiles method [Direct W
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.GetFiles"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

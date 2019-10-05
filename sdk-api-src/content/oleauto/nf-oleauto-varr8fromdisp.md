@@ -12,6 +12,8 @@ ms.keywords: VarR8FromDisp, VarR8FromDisp function [Automation], _oa96_VarR8From
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarR8FromDisp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],W
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPlanarBitmapFrameEncode.WritePixels"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

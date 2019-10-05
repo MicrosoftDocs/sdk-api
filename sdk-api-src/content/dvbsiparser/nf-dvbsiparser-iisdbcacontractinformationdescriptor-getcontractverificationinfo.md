@@ -12,6 +12,8 @@ ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Mi
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfo"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

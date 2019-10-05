@@ -12,6 +12,8 @@ ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IVa
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.CloseCUB"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

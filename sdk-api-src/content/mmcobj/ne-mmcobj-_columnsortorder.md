@@ -12,6 +12,8 @@ ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumera
 ms.topic: enum
 f1_keywords: 
  - "mmcobj/ColumnSortOrder"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

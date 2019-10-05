@@ -12,6 +12,8 @@ ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [Direc
 ms.topic: struct
 f1_keywords: 
  - "strmif/AUDIO_STREAM_CONFIG_CAPS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

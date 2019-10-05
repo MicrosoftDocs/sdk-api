@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO structur
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_RC2_AUX_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

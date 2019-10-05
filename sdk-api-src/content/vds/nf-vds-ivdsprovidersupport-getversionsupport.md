@@ -12,6 +12,8 @@ ms.keywords: GetVersionSupport, GetVersionSupport method, GetVersionSupport meth
 ms.topic: method
 f1_keywords:
 - vds/IVdsProviderSupport.GetVersionSupport
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

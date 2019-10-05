@@ -12,6 +12,8 @@ ms.keywords: DXGI_HDR_METADATA_TYPE, DXGI_HDR_METADATA_TYPE enumeration [DXGI], 
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_5/DXGI_HDR_METADATA_TYPE"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_PORT_INFOW, FAX_PORT_INFO, FAX_PORT_INFO structure [Fax Serv
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_PORT_INFO"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

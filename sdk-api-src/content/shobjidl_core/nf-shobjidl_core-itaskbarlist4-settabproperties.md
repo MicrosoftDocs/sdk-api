@@ -12,6 +12,8 @@ ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, IT
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITaskbarList4.SetTabProperties"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

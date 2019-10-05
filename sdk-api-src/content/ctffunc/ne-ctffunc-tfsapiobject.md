@@ -12,6 +12,8 @@ ms.keywords: GETIF_DICTGRAM, GETIF_RECOCONTEXT, GETIF_RECOGNIZER, GETIF_RECOGNIZ
 ms.topic: enum
 f1_keywords: 
  - "ctffunc/TfSapiObject"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

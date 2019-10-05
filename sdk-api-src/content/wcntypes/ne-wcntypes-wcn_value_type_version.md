@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_TYPE_VERSION, WCN_VALUE_TYPE_VERSION enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_VERSION"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

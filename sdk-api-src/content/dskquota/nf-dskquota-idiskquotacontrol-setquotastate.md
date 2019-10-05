@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaControl interface [Files],SetQuotaState method, IDiskQuot
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.SetQuotaState"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

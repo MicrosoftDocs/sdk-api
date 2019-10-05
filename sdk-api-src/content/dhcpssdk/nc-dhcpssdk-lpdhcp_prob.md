@@ -12,6 +12,8 @@ ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LP
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpAddressDelHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

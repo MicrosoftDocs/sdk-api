@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIF
 ms.topic: struct
 f1_keywords:
 - ntsecapi/POLICY_MODIFICATION_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

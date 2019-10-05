@@ -12,6 +12,8 @@ ms.keywords: IFaxFolders interface [Fax Service],OutgoingArchive property, IFaxF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxFolders.OutgoingArchive"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

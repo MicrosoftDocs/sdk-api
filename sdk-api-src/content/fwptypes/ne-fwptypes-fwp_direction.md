@@ -12,6 +12,8 @@ ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Filtering], FWP_DIRECTION
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_DIRECTION"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],RectF class, 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.GetLeft"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

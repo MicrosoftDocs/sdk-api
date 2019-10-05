@@ -12,6 +12,8 @@ ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurit
 ms.topic: function
 f1_keywords:
 - sddl/ConvertSecurityDescriptorToStringSecurityDescriptor
+dev_langs:
+ - c++
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows

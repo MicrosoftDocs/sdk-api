@@ -12,6 +12,8 @@ ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoad
 ms.topic: method
 f1_keywords: 
  - "filtereg/ILoadFilter.LoadIFilterFromStorage"
+dev_langs:
+ - c++
 req.header: filtereg.h
 req.include-header: Filtereg.h
 req.target-type: Windows

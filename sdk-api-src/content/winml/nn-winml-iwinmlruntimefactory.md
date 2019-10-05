@@ -12,6 +12,8 @@ ms.keywords: IWinMLRuntimeFactory, IWinMLRuntimeFactory interface, IWinMLRuntime
 ms.topic: interface
 f1_keywords: 
  - "winml/IWinMLRuntimeFactory"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

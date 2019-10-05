@@ -12,6 +12,8 @@ ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],O
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCleanupContextDurationSink.OnStartCleanupContext"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

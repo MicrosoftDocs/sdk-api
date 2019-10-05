@@ -12,6 +12,8 @@ ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docob
 ms.topic: struct
 f1_keywords: 
  - "docobj/PAGESET"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

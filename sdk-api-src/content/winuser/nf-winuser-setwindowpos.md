@@ -12,6 +12,8 @@ ms.keywords: HWND_BOTTOM, HWND_NOTOPMOST, HWND_TOP, HWND_TOPMOST, SWP_ASYNCWINDO
 ms.topic: function
 f1_keywords: 
  - "winuser/SetWindowPos"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

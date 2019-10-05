@@ -12,6 +12,8 @@ ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.ope
 ms.topic: function
 f1_keywords:
 - winbase/OperationEnd
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

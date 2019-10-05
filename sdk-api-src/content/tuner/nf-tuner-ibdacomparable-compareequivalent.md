@@ -12,6 +12,8 @@ ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "tuner/IBDAComparable.CompareEquivalent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_cGetAllGlyphHandles, FONTOBJ_cGetAllGlyphHandles function [
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_cGetAllGlyphHandles
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

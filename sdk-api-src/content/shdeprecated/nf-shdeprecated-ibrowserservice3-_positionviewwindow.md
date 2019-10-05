@@ -12,6 +12,8 @@ ms.keywords: IBrowserService3 interface [Windows Shell],_PositionViewWindow meth
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService3._PositionViewWindow"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_FLAG, MBN_SMS_FLAG enumeration [Microsoft Broadband Network
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SMS_FLAG"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

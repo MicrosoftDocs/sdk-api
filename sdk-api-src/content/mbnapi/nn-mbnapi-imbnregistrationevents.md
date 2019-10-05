@@ -12,6 +12,8 @@ ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnRegistrationEvents"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

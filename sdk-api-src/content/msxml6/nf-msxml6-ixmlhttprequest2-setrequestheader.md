@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetRequestHeader metho
 ms.topic: method
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest2.SetRequestHeader"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

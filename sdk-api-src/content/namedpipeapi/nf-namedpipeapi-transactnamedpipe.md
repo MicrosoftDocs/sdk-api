@@ -12,6 +12,8 @@ ms.keywords: TransactNamedPipe, TransactNamedPipe function, _win32_transactnamed
 ms.topic: function
 f1_keywords:
 - namedpipeapi/TransactNamedPipe
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

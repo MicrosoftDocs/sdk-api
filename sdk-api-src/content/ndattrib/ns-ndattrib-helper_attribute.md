@@ -12,6 +12,8 @@ ms.keywords: "*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/HELPER_ATTRIBUTE"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

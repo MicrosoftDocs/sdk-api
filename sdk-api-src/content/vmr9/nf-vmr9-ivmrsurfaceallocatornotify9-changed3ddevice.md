@@ -12,6 +12,8 @@ ms.keywords: ChangeD3DDevice, ChangeD3DDevice method [DirectShow], ChangeD3DDevi
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocatorNotify9.ChangeD3DDevice"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

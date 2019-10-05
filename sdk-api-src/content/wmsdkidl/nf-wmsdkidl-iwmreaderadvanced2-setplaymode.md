@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode met
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced2.SetPlayMode"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

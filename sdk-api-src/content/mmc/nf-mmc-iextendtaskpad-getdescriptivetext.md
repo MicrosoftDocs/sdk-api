@@ -12,6 +12,8 @@ ms.keywords: GetDescriptiveText, GetDescriptiveText method [MMC], GetDescriptive
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendTaskPad.GetDescriptiveText"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

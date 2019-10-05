@@ -12,6 +12,8 @@ ms.keywords: MCIWndSetSpeed, MCIWndSetSpeed macro [Windows Multimedia], _win32_M
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndSetSpeed"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

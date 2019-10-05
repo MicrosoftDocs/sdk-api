@@ -12,6 +12,8 @@ ms.keywords: MAPIReadMail, MAPIReadMail callback, MAPIReadMail callback function
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIReadMail"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

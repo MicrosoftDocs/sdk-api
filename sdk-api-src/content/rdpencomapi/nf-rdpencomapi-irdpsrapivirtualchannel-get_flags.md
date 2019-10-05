@@ -12,6 +12,8 @@ ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel 
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIVirtualChannel.Flags"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

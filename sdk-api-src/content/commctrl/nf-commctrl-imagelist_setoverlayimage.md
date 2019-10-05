@@ -12,6 +12,8 @@ ms.keywords: ImageList_SetOverlayImage, ImageList_SetOverlayImage function [Wind
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_SetOverlayImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

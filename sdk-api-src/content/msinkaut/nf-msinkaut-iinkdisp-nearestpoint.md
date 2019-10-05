@@ -12,6 +12,8 @@ ms.keywords: IInkDisp interface [Tablet PC],NearestPoint method, IInkDisp.Neares
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.NearestPoint"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

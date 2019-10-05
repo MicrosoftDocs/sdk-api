@@ -12,6 +12,8 @@ ms.keywords: MI_Context_PostCimError, MI_Context_PostCimError function [Windows 
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_PostCimError
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

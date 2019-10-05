@@ -12,6 +12,8 @@ ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_
 ms.topic: function
 f1_keywords:
 - madcapcl/McastRequestAddress
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

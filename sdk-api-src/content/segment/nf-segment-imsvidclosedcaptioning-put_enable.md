@@ -12,6 +12,8 @@ ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],put_En
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidClosedCaptioning.put_Enable"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

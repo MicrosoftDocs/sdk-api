@@ -12,6 +12,8 @@ ms.keywords: WsMoveWriter, WsMoveWriter function [Web Services for Windows], web
 ms.topic: function
 f1_keywords: 
  - "webservices/WsMoveWriter"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

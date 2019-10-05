@@ -12,6 +12,8 @@ ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthToke
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetRedirect"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

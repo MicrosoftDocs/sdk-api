@@ -12,6 +12,8 @@ ms.keywords: EnumUILanguagesProc, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callb
 ms.topic: callback
 f1_keywords: 
  - "winnls/UILANGUAGE_ENUMPROC"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

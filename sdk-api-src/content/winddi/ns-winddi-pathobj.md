@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], display.pathobj, grst
 ms.topic: struct
 f1_keywords: 
  - "winddi/PATHOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

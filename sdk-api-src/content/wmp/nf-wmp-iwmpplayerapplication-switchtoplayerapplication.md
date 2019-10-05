@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToPlay
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayerApplication.switchToPlayerApplication"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

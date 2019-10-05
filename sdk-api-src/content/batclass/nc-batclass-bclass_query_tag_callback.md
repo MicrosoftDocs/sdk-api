@@ -12,6 +12,8 @@ ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, Batt
 ms.topic: callback
 f1_keywords: 
  - "batclass/BatteryMiniQueryTag"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

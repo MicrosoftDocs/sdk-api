@@ -12,6 +12,8 @@ ms.keywords: SafeRef, SafeRef function [COM+], _cos_SafeRef, comsvcs/SafeRef, co
 ms.topic: function
 f1_keywords: 
  - "comsvcs/SafeRef"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

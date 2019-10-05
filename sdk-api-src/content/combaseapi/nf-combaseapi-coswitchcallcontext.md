@@ -12,6 +12,8 @@ ms.keywords: CoSwitchCallContext, CoSwitchCallContext function [COM], _com_CoSwi
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoSwitchCallContext"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

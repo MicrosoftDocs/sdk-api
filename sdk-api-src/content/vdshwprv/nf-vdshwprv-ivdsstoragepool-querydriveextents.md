@@ -12,6 +12,8 @@ ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsStoragePool.QueryDriveExtents
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

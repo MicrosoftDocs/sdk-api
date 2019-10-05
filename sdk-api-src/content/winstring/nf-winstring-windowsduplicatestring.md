@@ -12,6 +12,8 @@ ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Ru
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsDuplicateString"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

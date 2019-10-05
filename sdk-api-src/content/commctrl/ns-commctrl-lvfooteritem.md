@@ -12,6 +12,8 @@ ms.keywords: "*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVFOOTERITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

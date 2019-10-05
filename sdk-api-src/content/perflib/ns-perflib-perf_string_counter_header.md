@@ -12,6 +12,8 @@ ms.keywords: "*PPERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER, PERF_STR
 ms.topic: struct
 f1_keywords: 
  - "perflib/PERF_STRING_COUNTER_HEADER"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

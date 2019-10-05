@@ -12,6 +12,8 @@ ms.keywords: ForwardViewMsg, ForwardViewMsg method [Windows Shell], ForwardViewM
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.ForwardViewMsg"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

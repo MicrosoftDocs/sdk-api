@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetConnec
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.Delete"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

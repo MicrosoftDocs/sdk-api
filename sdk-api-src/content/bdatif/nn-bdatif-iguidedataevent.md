@@ -12,6 +12,8 @@ ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologi
 ms.topic: interface
 f1_keywords: 
  - "bdatif/IGuideDataEvent"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

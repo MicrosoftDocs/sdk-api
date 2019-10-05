@@ -12,6 +12,8 @@ ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet]
 ms.topic: function
 f1_keywords: 
  - "winineti/CreateUrlCacheContainer"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

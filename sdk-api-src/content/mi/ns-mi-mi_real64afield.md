@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, 
 ms.topic: struct
 f1_keywords:
 - mi/MI_Real64AField
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

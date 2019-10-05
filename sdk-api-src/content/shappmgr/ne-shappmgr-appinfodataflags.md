@@ -12,6 +12,8 @@ ms.keywords: AIM_COMMENTS, AIM_CONTACT, AIM_DISPLAYNAME, AIM_HELPLINK, AIM_IMAGE
 ms.topic: enum
 f1_keywords:
 - shappmgr/APPINFODATAFLAGS
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AutoShow property [Tablet PC], AutoShow property [Tablet PC],IPenIn
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.AutoShow"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

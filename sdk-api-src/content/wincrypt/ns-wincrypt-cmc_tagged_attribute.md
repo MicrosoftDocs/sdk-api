@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_TAGGED_ATTRIBUTE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

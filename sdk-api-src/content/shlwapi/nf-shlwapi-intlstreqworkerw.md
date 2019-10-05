@@ -12,6 +12,8 @@ ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrE
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IntlStrEqWorker"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

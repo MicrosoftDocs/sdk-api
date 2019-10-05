@@ -12,6 +12,8 @@ ms.keywords: REGFILTERPINS2, REGFILTERPINS2 structure [DirectShow], REGFILTERPIN
 ms.topic: struct
 f1_keywords: 
  - "strmif/REGFILTERPINS2"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

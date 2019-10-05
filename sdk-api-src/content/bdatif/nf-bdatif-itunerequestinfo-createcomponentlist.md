@@ -12,6 +12,8 @@ ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.CreateComponentList"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

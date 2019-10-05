@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],RecipientCountry property, IFaxDoc.
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.RecipientCountry"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

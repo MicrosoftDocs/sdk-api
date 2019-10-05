@@ -12,6 +12,8 @@ ms.keywords: ImmDestroyContext, ImmDestroyContext function [Internationalization
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmDestroyContext"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

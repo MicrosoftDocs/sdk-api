@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer interface, IInkD2DRe
 ms.topic: method
 f1_keywords: 
  - "inkrenderer/IInkD2DRenderer.Draw"
+dev_langs:
+ - c++
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows

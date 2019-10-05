@@ -12,6 +12,8 @@ ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive func
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupQuerySpaceRequiredOnDrive"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

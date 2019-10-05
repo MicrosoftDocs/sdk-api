@@ -12,6 +12,8 @@ ms.keywords: 1363de75-ecbe-4dfc-a09c-6cb809f2a5cf, IDXGIOutput interface [DXGI],
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.SetGammaControl"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

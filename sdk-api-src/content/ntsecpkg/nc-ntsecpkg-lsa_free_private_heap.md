@@ -12,6 +12,8 @@ ms.keywords: FreePrivateHeap, FreePrivateHeap callback function [Security], LSA_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/FreePrivateHeap
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

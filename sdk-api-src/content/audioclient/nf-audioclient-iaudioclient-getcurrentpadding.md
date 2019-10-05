@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPadding, GetCurrentPadding method [Core Audio], GetCurren
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.GetCurrentPadding"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

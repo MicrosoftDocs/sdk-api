@@ -12,6 +12,8 @@ ms.keywords: '*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Con
 ms.topic: struct
 f1_keywords:
 - commctrl/NMUPDOWN
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntToUIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

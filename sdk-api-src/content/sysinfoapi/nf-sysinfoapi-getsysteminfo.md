@@ -12,6 +12,8 @@ ms.keywords: GetSystemInfo, GetSystemInfo function, _win32_getsysteminfo, base.g
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetSystemInfo
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

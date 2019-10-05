@@ -12,6 +12,8 @@ ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method,
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVideoCompression.get_KeyFrameRate"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

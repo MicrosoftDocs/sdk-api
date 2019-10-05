@@ -12,6 +12,8 @@ ms.keywords: DRMDuplicateHandle, DRMDuplicateHandle function [Active Directory R
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDuplicateHandle"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

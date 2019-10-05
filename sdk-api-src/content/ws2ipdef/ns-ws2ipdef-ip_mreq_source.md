@@ -12,6 +12,8 @@ ms.keywords: "*PIP_MREQ_SOURCE, IP_MREQ_SOURCE, IP_MREQ_SOURCE [Winsock], IP_MRE
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/IP_MREQ_SOURCE"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

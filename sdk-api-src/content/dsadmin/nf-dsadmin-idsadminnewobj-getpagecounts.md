@@ -12,6 +12,8 @@ ms.keywords: GetPageCounts, GetPageCounts method [Active Directory], GetPageCoun
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObj.GetPageCounts"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

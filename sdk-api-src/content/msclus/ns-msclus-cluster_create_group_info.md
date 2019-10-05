@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTER_CREATE_GROUP_INFO, CLUSTER_CREATE_GROUP_INFO, CLUSTER_CR
 ms.topic: struct
 f1_keywords: 
  - "msclus/CLUSTER_CREATE_GROUP_INFO"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

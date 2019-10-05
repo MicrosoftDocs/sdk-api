@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerOperationType, KeyCredentialManagerOperationTyp
 ms.topic: enum
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerOperationType"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

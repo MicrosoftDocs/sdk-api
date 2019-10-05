@@ -12,6 +12,8 @@ ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEventsFilter.GetPathFilter"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

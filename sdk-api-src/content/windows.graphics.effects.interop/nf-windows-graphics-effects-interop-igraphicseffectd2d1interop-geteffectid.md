@@ -12,6 +12,8 @@ ms.keywords: GetEffectId, GetEffectId method, GetEffectId method,IGraphicsEffect
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetEffectId"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

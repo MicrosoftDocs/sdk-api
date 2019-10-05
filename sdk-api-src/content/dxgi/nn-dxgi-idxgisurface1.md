@@ -12,6 +12,8 @@ ms.keywords: 3c2c6548-026c-d082-91b7-abb986ff3a00, IDXGISurface1, IDXGISurface1 
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGISurface1"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

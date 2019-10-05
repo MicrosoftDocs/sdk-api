@@ -12,6 +12,8 @@ ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc func
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToUInt16VectorAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetKey method, ID
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDefaultExtractIconInit.SetKey"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

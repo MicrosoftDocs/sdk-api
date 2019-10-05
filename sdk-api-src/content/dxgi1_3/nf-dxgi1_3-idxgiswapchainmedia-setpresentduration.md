@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChainMedia interface [DXGI],SetPresentDuration method, IDX
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGISwapChainMedia.SetPresentDuration"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

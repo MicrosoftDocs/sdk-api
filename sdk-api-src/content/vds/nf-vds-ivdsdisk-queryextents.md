@@ -12,6 +12,8 @@ ms.keywords: IVdsDisk interface [VDS],QueryExtents method, IVdsDisk.QueryExtents
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.QueryExtents
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

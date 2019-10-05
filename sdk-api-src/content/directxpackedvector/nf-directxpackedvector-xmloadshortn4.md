@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadShortN4, XMLoadShortN4, XMLoadShortN4 m
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadShortN4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

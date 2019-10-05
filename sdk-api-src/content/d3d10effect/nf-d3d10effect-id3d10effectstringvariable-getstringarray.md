@@ -12,6 +12,8 @@ ms.keywords: 3a4b3089-4ba1-9479-73b6-84f4d49b52d8, GetStringArray, GetStringArra
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectStringVariable.GetStringArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

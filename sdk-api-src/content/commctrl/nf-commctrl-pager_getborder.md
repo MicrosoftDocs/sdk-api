@@ -12,6 +12,8 @@ ms.keywords: Pager_GetBorder, Pager_GetBorder macro [Windows Controls], _win32_P
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_GetBorder"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DavCancelConnectionsToServer, DavCancelConnectionsToServer function
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavCancelConnectionsToServer"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

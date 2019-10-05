@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyAttributeName, GetFriendlyAttributeName method [Active D
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.GetFriendlyAttributeName"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

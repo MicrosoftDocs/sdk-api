@@ -12,6 +12,8 @@ ms.keywords: ITCallInfo interface [TAPI 2.2],ReleaseUserUserInfo method, ITCallI
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallInfo.ReleaseUserUserInfo"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

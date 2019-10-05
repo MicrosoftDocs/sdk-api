@@ -12,6 +12,8 @@ ms.keywords: "*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_F
 ms.topic: struct
 f1_keywords: 
  - "mprapi/MPR_FILTER_0"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

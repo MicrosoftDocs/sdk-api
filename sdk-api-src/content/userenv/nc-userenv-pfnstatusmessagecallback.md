@@ -12,6 +12,8 @@ ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTA
 ms.topic: callback
 f1_keywords: 
  - "userenv/PFNSTATUSMESSAGECALLBACK"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

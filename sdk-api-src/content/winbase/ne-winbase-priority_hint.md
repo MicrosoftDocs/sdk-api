@@ -12,6 +12,8 @@ ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, Max
 ms.topic: enum
 f1_keywords:
 - winbase/PRIORITY_HINT
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

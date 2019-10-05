@@ -12,6 +12,8 @@ ms.keywords: D3D10_SUBRESOURCE_DATA, D3D10_SUBRESOURCE_DATA structure [Direct3D 
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_SUBRESOURCE_DATA"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

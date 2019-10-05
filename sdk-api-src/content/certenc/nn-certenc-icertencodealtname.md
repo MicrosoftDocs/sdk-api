@@ -12,6 +12,8 @@ ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertE
 ms.topic: interface
 f1_keywords: 
  - "certenc/ICertEncodeAltName"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpRecvMsg"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

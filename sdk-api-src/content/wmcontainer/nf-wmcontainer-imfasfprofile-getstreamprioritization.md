@@ -12,6 +12,8 @@ ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetS
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.GetStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

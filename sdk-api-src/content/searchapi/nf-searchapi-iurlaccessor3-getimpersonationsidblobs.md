@@ -12,6 +12,8 @@ ms.keywords: GetImpersonationSidBlobs, GetImpersonationSidBlobs method [search],
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor3.GetImpersonationSidBlobs"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

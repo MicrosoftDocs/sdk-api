@@ -12,6 +12,8 @@ ms.keywords: IEventSubscription interface [COM+],PutSubscriberProperty method, I
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.PutSubscriberProperty"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

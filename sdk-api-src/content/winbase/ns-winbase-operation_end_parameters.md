@@ -12,6 +12,8 @@ ms.keywords: '*POPERATION_END_PARAMETERS, OPERATION_API_VERSION, OPERATION_END_D
 ms.topic: struct
 f1_keywords:
 - winbase/OPERATION_END_PARAMETERS
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

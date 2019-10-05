@@ -12,6 +12,8 @@ ms.keywords: "*LPSHCOLUMNDATA, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED
 ms.topic: struct
 f1_keywords: 
  - "shlobj/SHCOLUMNDATA"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

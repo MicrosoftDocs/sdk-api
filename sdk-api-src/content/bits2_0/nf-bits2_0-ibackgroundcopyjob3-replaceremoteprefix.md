@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IB
 ms.topic: method
 f1_keywords: 
  - "bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix"
+dev_langs:
+ - c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

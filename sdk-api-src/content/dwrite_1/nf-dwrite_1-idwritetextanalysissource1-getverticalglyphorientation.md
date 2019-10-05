@@ -12,6 +12,8 @@ ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalysisSource1.GetVerticalGlyphOrientation"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

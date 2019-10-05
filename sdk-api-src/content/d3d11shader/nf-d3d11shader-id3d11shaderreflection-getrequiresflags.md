@@ -12,6 +12,8 @@ ms.keywords: GetRequiresFlags, GetRequiresFlags method [Direct3D 11], GetRequire
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetRequiresFlags"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

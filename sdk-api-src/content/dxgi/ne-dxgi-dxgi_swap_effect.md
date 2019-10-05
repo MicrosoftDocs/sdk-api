@@ -12,6 +12,8 @@ ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EF
 ms.topic: enum
 f1_keywords: 
  - "dxgi/DXGI_SWAP_EFFECT"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

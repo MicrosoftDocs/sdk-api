@@ -12,6 +12,8 @@ ms.keywords: GetUnderline, GetUnderline method [Direct Write], GetUnderline meth
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetUnderline"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 63c13b99-0d2a-c3b3-f07f-5f244586124a, D3D11_FILTER_TYPE, D3D11_FILT
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_FILTER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

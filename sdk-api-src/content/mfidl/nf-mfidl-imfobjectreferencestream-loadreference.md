@@ -12,6 +12,8 @@ ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFObjectReferenceStream.LoadReference"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOl
 ms.topic: function
 f1_keywords: 
  - "rpcndr/NdrOleFree"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

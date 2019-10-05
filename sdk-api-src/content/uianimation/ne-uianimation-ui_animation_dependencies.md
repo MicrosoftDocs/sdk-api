@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_DEPENDENCIES, UI_ANIMATION_DEPENDENCIES enumeration [W
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_DEPENDENCIES"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

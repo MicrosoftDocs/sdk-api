@@ -12,6 +12,8 @@ ms.keywords: "*PCS_RESOURCE, CS_RESOURCE, CS_RESOURCE structure [Device and Driv
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/CS_RESOURCE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

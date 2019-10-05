@@ -12,6 +12,8 @@ ms.keywords: CALLINFOCHANGE_CAUSE, CALLINFOCHANGE_CAUSE enumeration [TAPI 2.2], 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLINFOCHANGE_CAUSE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

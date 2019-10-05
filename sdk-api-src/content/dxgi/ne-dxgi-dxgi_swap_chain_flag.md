@@ -12,6 +12,8 @@ ms.keywords: DXGI_SWAP_CHAIN_FLAG, DXGI_SWAP_CHAIN_FLAG enumeration [DXGI], DXGI
 ms.topic: enum
 f1_keywords: 
  - "dxgi/DXGI_SWAP_CHAIN_FLAG"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method,
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.RunWizard"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDMLObject interface,SetPrivateData method, IDMLObject.SetPrivateDa
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLObject.SetPrivateData"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

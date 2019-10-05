@@ -12,6 +12,8 @@ ms.keywords: FindTrackerTargets, FindTrackerTargets method [Windows Runtime], Fi
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.FindTrackerTargets"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

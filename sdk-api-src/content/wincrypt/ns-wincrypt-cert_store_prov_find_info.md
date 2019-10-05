@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO, CCERT_STO
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_STORE_PROV_FIND_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

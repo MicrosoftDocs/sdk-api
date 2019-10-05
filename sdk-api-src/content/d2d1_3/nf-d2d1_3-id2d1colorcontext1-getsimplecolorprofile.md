@@ -12,6 +12,8 @@ ms.keywords: GetSimpleColorProfile, GetSimpleColorProfile method [Direct2D], Get
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1ColorContext1.GetSimpleColorProfile"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

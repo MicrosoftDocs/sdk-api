@@ -12,6 +12,8 @@ ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App 
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Med
 ms.topic: interface
 f1_keywords: 
  - "wmprealestate/IWMPAudioRenderConfig"
+dev_langs:
+ - c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

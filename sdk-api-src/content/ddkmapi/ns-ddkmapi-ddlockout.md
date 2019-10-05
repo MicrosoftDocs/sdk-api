@@ -12,6 +12,8 @@ ms.keywords: "*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LP
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDLOCKOUT"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

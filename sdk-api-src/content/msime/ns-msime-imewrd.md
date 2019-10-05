@@ -12,6 +12,8 @@ ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windo
 ms.topic: struct
 f1_keywords: 
  - "msime/IMEWRD"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

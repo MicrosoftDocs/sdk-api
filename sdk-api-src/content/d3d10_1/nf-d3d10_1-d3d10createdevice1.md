@@ -12,6 +12,8 @@ ms.keywords: 5003cfd5-5629-9760-cb48-9a25e0a1a3d8, D3D10CreateDevice1, D3D10Crea
 ms.topic: function
 f1_keywords: 
  - "d3d10_1/D3D10CreateDevice1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

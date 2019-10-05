@@ -12,6 +12,8 @@ ms.keywords: IComponent2 interface [MMC],RestoreResultView method, IComponent2.R
 ms.topic: method
 f1_keywords:
 - mmc/IComponent2.RestoreResultView
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

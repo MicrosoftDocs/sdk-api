@@ -12,6 +12,8 @@ ms.keywords: IFaxTiff interface [Fax Service],Image property, IFaxTiff.Image, IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxTiff.Image"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

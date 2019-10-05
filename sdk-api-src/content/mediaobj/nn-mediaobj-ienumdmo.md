@@ -12,6 +12,8 @@ ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [Dire
 ms.topic: interface
 f1_keywords: 
  - "mediaobj/IEnumDMO"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

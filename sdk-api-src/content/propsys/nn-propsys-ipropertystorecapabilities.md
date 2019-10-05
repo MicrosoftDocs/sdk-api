@@ -12,6 +12,8 @@ ms.keywords: IPropertyStoreCapabilities, IPropertyStoreCapabilities interface [W
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyStoreCapabilities"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

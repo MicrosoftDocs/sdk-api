@@ -12,6 +12,8 @@ ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CON
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetUseConnection"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

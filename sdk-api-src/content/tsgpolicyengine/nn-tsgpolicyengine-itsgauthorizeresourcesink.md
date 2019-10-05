@@ -12,6 +12,8 @@ ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "tsgpolicyengine/ITSGAuthorizeResourceSink"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

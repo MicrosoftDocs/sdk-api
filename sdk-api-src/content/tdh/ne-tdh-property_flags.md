@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustom
 ms.topic: enum
 f1_keywords:
 - tdh/PROPERTY_FLAGS
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

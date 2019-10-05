@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],GenericSerif method, FontFamily.GenericSeri
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.GenericSerif"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

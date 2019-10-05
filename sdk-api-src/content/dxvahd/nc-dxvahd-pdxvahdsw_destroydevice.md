@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDS
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_DestroyDevice
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

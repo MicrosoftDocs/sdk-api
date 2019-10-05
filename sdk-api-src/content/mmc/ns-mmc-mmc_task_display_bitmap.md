@@ -12,6 +12,8 @@ ms.keywords: MMC_TASK_DISPLAY_BITMAP, MMC_TASK_DISPLAY_BITMAP structure [MMC], _
 ms.topic: struct
 f1_keywords:
 - mmc/MMC_TASK_DISPLAY_BITMAP
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

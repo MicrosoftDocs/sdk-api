@@ -12,6 +12,8 @@ ms.keywords: "*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, 
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMREXCLUDECLIPRECT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

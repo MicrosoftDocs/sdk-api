@@ -12,6 +12,8 @@ ms.keywords: DMUS_VOICE_STATE, DMUS_VOICE_STATE structure [Audio Devices], audio
 ms.topic: struct
 f1_keywords: 
  - "dmusics/DMUS_VOICE_STATE"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

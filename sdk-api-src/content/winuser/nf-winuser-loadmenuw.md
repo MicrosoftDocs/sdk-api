@@ -12,6 +12,8 @@ ms.keywords: LoadMenu, LoadMenu function [Menus and Other Resources], LoadMenuA,
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

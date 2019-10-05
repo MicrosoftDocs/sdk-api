@@ -12,6 +12,8 @@ ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFIsFormatYUV"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

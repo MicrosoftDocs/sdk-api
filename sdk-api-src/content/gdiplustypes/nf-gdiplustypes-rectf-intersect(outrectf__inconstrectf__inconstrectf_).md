@@ -12,6 +12,8 @@ ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],RectF c
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.Intersect"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

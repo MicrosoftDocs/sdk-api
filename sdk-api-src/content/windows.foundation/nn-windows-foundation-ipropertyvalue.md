@@ -12,6 +12,8 @@ ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IProper
 ms.topic: interface
 f1_keywords: 
  - "windows.foundation/IPropertyValue"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

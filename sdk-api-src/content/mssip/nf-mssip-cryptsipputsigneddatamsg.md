@@ -12,6 +12,8 @@ ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Securi
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPPutSignedDataMsg"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

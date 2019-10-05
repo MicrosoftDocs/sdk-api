@@ -12,6 +12,8 @@ ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [A
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxContentGroupMapWriter"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Click, Click method [Windows Media Player], Click method [Windows M
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.Click"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

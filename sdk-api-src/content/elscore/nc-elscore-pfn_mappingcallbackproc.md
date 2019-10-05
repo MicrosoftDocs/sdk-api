@@ -12,6 +12,8 @@ ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Interna
 ms.topic: callback
 f1_keywords:
 - elscore/MappingCallbackProc
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

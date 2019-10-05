@@ -12,6 +12,8 @@ ms.keywords: GetCurrentLocator, GetCurrentLocator method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTunerEx.GetCurrentLocator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

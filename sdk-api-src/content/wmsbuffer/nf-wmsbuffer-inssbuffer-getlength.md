@@ -12,6 +12,8 @@ ms.keywords: GetLength, GetLength method [windows Media Format], GetLength metho
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer.GetLength"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

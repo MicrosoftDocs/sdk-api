@@ -12,6 +12,8 @@ ms.keywords: PACKAGE_INFO, PACKAGE_INFO structure [App packaging and management]
 ms.topic: struct
 f1_keywords: 
  - "appmodel/PACKAGE_INFO"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISnapinProperties interface [MMC],Initialize method, ISnapinPropert
 ms.topic: method
 f1_keywords: 
  - "mmcobj/ISnapinProperties.Initialize"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

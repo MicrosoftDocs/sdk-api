@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecVideoInputScanType, codecapi/eAVDecVideoInputScan_In
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecVideoInputScanType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

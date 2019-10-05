@@ -12,6 +12,8 @@ ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, n
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENTING_FILTER_ACTION
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

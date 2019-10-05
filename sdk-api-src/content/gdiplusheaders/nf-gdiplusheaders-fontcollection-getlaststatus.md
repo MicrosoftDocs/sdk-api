@@ -12,6 +12,8 @@ ms.keywords: FontCollection class [GDI+],GetLastStatus method, FontCollection.Ge
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontCollection.GetLastStatus"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

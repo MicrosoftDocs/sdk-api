@@ -12,6 +12,8 @@ ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR4F
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarR4FromStr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BindResource, BindResource method [Direct3D 11], BindResource metho
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ModuleInstance.BindResource"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HrtfEnvironment, HrtfEnvironment enumeration [XAudio2 Audio Mixing 
 ms.topic: enum
 f1_keywords: 
  - "hrtfapoapi/HrtfEnvironment"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

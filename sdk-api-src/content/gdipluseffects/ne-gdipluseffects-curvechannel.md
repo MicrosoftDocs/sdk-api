@@ -12,6 +12,8 @@ ms.keywords: CurveChannel, CurveChannel enumeration [GDI+], CurveChannelAll, Cur
 ms.topic: enum
 f1_keywords: 
  - "gdipluseffects/CurveChannel"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

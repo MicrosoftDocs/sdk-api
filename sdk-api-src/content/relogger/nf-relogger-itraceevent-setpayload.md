@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent interface [ETW],SetPayload method, ITraceEvent.SetPaylo
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEvent.SetPayload"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

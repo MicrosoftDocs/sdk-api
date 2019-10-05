@@ -12,6 +12,8 @@ ms.keywords: Int64ShllMod32, Int64ShllMod32 macro [Windows API], _win32_int64shl
 ms.topic: macro
 f1_keywords: 
  - "winnt/Int64ShllMod32"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

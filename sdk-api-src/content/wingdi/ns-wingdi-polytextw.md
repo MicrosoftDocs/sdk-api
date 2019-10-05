@@ -12,6 +12,8 @@ ms.keywords: "*LPPOLYTEXTW, *NPPOLYTEXTW, *PPOLYTEXTW, POLYTEXT, POLYTEXT struct
 ms.topic: struct
 f1_keywords: 
  - "wingdi/POLYTEXT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

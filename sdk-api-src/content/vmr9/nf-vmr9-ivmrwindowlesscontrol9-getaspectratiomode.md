@@ -12,6 +12,8 @@ ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspe
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRWindowlessControl9.GetAspectRatioMode"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

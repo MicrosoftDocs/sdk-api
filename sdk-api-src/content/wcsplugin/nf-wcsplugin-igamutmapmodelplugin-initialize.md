@@ -12,6 +12,8 @@ ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],Initialize me
 ms.topic: method
 f1_keywords:
 - wcsplugin/IGamutMapModelPlugIn.Initialize
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], IOPM
 ms.topic: interface
 f1_keywords: 
  - "opmapi/IOPMVideoOutput"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

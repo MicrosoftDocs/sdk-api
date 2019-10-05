@@ -12,6 +12,8 @@ ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMA
 ms.topic: interface
 f1_keywords: 
  - "imapi/IDiscMasterProgressEvents"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

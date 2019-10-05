@@ -12,6 +12,8 @@ ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management],
 ms.topic: function
 f1_keywords: 
  - "lmmsg/NetMessageNameAdd"
+dev_langs:
+ - c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

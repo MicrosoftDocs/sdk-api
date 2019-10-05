@@ -12,6 +12,8 @@ ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rp
 ms.topic: function
 f1_keywords: 
  - "rpcndr/Ndr64AsyncServerCallAll"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

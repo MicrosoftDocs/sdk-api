@@ -12,6 +12,8 @@ ms.keywords: DhcpDeleteClientInfo, DhcpDeleteClientInfo function [DHCP], dhcp.dh
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpDeleteClientInfo"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

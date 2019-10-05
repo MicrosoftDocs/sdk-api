@@ -12,6 +12,8 @@ ms.keywords: SNMP_OUTPUT_TO_CONSOLE, SNMP_OUTPUT_TO_DEBUGGER, SNMP_OUTPUT_TO_LOG
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpSvcSetLogType"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

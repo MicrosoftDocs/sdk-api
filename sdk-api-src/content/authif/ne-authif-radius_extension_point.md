@@ -12,6 +12,8 @@ ms.keywords: RADIUS_EXTENSION_POINT, RADIUS_EXTENSION_POINT enumeration [Network
 ms.topic: enum
 f1_keywords:
 - authif/RADIUS_EXTENSION_POINT
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

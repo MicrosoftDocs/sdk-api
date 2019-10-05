@@ -12,6 +12,8 @@ ms.keywords: EnumerateMetadata, EnumerateMetadata method, EnumerateMetadata meth
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLModel.EnumerateMetadata"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

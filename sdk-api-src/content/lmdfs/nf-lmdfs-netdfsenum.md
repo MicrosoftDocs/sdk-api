@@ -12,6 +12,8 @@ ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsEnum
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

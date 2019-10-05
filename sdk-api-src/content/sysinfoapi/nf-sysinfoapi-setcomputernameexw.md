@@ -12,6 +12,8 @@ ms.keywords: ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsHostname, Com
 ms.topic: function
 f1_keywords:
 - sysinfoapi/SetComputerNameEx
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

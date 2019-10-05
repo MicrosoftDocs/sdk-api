@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_POLICY, 0, PRPC_POLICY, PRPC_POLICY structure pointer [RPC],
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_POLICY"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

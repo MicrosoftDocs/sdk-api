@@ -12,6 +12,8 @@ ms.keywords: BluetoothGATTSetCharacteristicValue, BluetoothGATTSetCharacteristic
 ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTSetCharacteristicValue
+dev_langs:
+ - c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and P
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_GLYPH_MAPPING"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

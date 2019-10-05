@@ -12,6 +12,8 @@ ms.keywords: PropVariantToUInt16Vector, PropVariantToUInt16Vector function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToUInt16Vector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

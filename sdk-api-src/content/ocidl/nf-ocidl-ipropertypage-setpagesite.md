@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage interface [COM],SetPageSite method, IPropertyPage.Set
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.SetPageSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

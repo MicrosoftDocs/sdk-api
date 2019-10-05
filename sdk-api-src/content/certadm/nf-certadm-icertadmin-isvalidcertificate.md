@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin object [Security],IsValidCertificate method, ICertAdmin 
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.IsValidCertificate"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

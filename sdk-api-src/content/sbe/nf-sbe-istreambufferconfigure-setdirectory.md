@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDir
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure.SetDirectory"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

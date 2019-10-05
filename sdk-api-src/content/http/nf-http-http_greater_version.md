@@ -12,6 +12,8 @@ ms.keywords: HTTP_GREATER_VERSION, HTTP_GREATER_VERSION macro [HTTP], _http_http
 ms.topic: macro
 f1_keywords:
 - http/HTTP_GREATER_VERSION
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

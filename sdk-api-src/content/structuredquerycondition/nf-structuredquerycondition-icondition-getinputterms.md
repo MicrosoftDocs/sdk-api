@@ -12,6 +12,8 @@ ms.keywords: GetInputTerms, GetInputTerms method [search], GetInputTerms method 
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetInputTerms"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

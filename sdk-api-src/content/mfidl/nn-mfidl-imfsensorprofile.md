@@ -12,6 +12,8 @@ ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IM
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSensorProfile"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

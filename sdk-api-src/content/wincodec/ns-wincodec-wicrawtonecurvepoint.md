@@ -12,6 +12,8 @@ ms.keywords: WICRawToneCurvePoint, WICRawToneCurvePoint structure [Windows Imagi
 ms.topic: struct
 f1_keywords: 
  - "wincodec/WICRawToneCurvePoint"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

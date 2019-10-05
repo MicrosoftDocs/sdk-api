@@ -12,6 +12,8 @@ ms.keywords: ColorMatrix, ColorMatrix structure [GDI+], _gdiplus_STRUC_ColorMatr
 ms.topic: struct
 f1_keywords: 
  - "gdipluscolormatrix/ColorMatrix"
+dev_langs:
+ - c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

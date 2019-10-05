@@ -12,6 +12,8 @@ ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSy
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfRegisterSyncRoot"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

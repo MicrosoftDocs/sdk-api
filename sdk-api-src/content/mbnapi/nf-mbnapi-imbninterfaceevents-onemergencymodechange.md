@@ -12,6 +12,8 @@ ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmer
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterfaceEvents.OnEmergencyModeChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

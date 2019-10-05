@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CREDENTIALS0, IKEEXT_CREDENTIALS0 structure [Filtering], fwp
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CREDENTIALS0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

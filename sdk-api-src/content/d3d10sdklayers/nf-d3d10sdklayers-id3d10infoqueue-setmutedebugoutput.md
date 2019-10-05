@@ -12,6 +12,8 @@ ms.keywords: ID3D10InfoQueue interface [Direct3D 10],SetMuteDebugOutput method, 
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.SetMuteDebugOutput"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

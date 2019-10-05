@@ -12,6 +12,8 @@ ms.keywords: GetInputSetting, GetInputSetting method [windows Media Format], Get
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced2.GetInputSetting"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDAddress, IWSDAddress interface, IWSDAddress interface,described
 ms.topic: interface
 f1_keywords: 
  - "wsdbase/IWSDAddress"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

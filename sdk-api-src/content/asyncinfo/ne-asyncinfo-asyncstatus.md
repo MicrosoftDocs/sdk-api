@@ -12,6 +12,8 @@ ms.keywords: AsyncStatus, AsyncStatus enumeration [Windows Runtime], Cancelled, 
 ms.topic: enum
 f1_keywords: 
  - "asyncinfo/AsyncStatus"
+dev_langs:
+ - c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

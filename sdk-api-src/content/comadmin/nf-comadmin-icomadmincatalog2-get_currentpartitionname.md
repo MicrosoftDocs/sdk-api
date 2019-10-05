@@ -12,6 +12,8 @@ ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.CurrentPartitionName"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

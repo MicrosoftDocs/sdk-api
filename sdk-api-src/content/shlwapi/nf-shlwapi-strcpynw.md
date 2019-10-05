@@ -12,6 +12,8 @@ ms.keywords: StrCpyN, StrCpyN function [Windows Shell], StrCpyNW, _win32_StrCpyN
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrCpyN"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

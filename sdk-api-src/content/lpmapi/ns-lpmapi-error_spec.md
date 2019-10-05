@@ -12,6 +12,8 @@ ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.erro
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/ERROR_SPEC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

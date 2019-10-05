@@ -12,6 +12,8 @@ ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d
 ms.topic: function
 f1_keywords: 
  - "recapis/CreateRecognizer"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

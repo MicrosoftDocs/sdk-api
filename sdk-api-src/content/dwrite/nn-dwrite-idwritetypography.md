@@ -12,6 +12,8 @@ ms.keywords: IDWriteTypography, IDWriteTypography interface [Direct Write], IDWr
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteTypography"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

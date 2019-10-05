@@ -12,6 +12,8 @@ ms.keywords: IOCTL_EMI_GET_VERSION, IOCTL_EMI_GET_VERSION control, IOCTL_EMI_GET
 ms.topic: ioctl
 f1_keywords: 
  - "emi/IOCTL_EMI_GET_VERSION"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

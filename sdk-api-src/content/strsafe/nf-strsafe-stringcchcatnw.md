@@ -12,6 +12,8 @@ ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], 
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCchCatN"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

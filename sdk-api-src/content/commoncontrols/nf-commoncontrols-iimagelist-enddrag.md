@@ -12,6 +12,8 @@ ms.keywords: EndDrag, EndDrag method [Windows Controls], EndDrag method [Windows
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.EndDrag"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

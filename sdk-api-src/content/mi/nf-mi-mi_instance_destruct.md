@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_Destruct, MI_Instance_Destruct function [Windows Manage
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_Destruct
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

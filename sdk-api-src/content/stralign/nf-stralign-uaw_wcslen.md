@@ -12,6 +12,8 @@ ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API],
 ms.topic: function
 f1_keywords: 
  - "stralign/uaw_wcslen"
+dev_langs:
+ - c++
 req.header: stralign.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [Direct Manipulation], Flush method [Direct Man
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationCompositor.Flush"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Anima
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationManager2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

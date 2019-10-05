@@ -12,6 +12,8 @@ ms.keywords: GetMeContact, GetMeContact method [Windows Contacts], GetMeContact 
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactManager.GetMeContact"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

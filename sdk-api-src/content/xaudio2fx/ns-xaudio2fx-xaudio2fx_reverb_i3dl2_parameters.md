@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2FX_REVERB_I3DL2_PARAMETERS, XAUDIO2FX_REVERB_I3DL2_PARAMETER
 ms.topic: struct
 f1_keywords: 
  - "xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

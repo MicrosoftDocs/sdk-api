@@ -12,6 +12,8 @@ ms.keywords: SimilarityDumpData, SimilarityDumpData structure [Remote Differenti
 ms.topic: struct
 f1_keywords: 
  - "msrdc/SimilarityDumpData"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

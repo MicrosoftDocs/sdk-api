@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetTextColor, TreeView_GetTextColor macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetTextColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

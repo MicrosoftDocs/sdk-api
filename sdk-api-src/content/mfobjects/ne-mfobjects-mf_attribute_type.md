@@ -12,6 +12,8 @@ ms.keywords: 1844fbe2-0a07-4c0c-9ffe-4c59fc01f793, MF_ATTRIBUTE_BLOB, MF_ATTRIBU
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_ATTRIBUTE_TYPE"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

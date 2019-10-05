@@ -12,6 +12,8 @@ ms.keywords: IParseAndCreateItem interface [Windows Shell],SetItem method, IPars
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IParseAndCreateItem.SetItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

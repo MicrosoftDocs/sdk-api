@@ -12,6 +12,8 @@ ms.keywords: GetParam, GetParam method [COM], GetParam method [COM],ICallFrame i
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetParam"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

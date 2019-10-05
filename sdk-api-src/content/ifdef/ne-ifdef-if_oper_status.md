@@ -12,6 +12,8 @@ ms.keywords: IF_OPER_STATUS, IF_OPER_STATUS enumeration [IP Helper], IfOperStatu
 ms.topic: enum
 f1_keywords: 
  - "ifdef/IF_OPER_STATUS"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: 
 req.target-type: Windows

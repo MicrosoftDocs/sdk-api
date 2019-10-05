@@ -12,6 +12,8 @@ ms.keywords: WlxGetConsoleSwitchCredentials, WlxGetConsoleSwitchCredentials func
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxGetConsoleSwitchCredentials"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

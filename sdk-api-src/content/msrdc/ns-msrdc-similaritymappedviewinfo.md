@@ -12,6 +12,8 @@ ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remot
 ms.topic: struct
 f1_keywords: 
  - "msrdc/SimilarityMappedViewInfo"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

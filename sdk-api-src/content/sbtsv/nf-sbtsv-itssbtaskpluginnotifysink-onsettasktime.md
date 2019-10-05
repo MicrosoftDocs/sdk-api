@@ -12,6 +12,8 @@ ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSet
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskPluginNotifySink.OnSetTaskTime"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE, KERB_RET
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_RETRIEVE_TKT_RESPONSE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

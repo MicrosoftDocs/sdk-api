@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_LOCATE_SENSOR_CALLBACK, PWINBIO_LOCATE_SENSOR_CALLBACK call
 ms.topic: callback
 f1_keywords:
 - winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

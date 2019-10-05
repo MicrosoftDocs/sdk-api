@@ -12,6 +12,8 @@ ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser fu
 ms.topic: function
 f1_keywords: 
  - "userenv/ExpandEnvironmentStringsForUser"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

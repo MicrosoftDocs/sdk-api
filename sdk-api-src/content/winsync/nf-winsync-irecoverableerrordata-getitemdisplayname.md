@@ -12,6 +12,8 @@ ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetIt
 ms.topic: method
 f1_keywords: 
  - "winsync/IRecoverableErrorData.GetItemDisplayName"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

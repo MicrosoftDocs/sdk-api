@@ -12,6 +12,8 @@ ms.keywords: 8b95cc96-2219-8855-744f-f4663f6c19b8, D3D10_STENCIL_OP, D3D10_STENC
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_STENCIL_OP"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

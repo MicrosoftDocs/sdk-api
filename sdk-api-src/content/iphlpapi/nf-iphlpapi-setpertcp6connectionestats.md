@@ -12,6 +12,8 @@ ms.keywords: SetPerTcp6ConnectionEStats, SetPerTcp6ConnectionEStats function [IP
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetPerTcp6ConnectionEStats
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

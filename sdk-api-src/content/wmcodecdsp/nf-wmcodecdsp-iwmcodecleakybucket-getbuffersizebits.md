@@ -12,6 +12,8 @@ ms.keywords: GetBufferSizeBits, GetBufferSizeBits method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecLeakyBucket.GetBufferSizeBits"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

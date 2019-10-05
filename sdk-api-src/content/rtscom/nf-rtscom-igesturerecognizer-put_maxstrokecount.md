@@ -12,6 +12,8 @@ ms.keywords: IGestureRecognizer interface [Tablet PC],MaxStrokeCount property, I
 ms.topic: method
 f1_keywords: 
  - "rtscom/IGestureRecognizer.MaxStrokeCount"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

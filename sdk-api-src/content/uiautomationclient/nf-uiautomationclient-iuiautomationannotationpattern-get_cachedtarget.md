@@ -12,6 +12,8 @@ ms.keywords: CachedTarget property [Windows Accessibility], CachedTarget propert
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationAnnotationPattern.CachedTarget"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

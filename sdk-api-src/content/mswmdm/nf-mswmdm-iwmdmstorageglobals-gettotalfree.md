@@ -12,6 +12,8 @@ ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], G
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorageGlobals.GetTotalFree"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

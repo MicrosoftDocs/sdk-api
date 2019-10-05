@@ -12,6 +12,8 @@ ms.keywords: IX509PrivateKey interface [Security],UIContextMessage property, IX5
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.UIContextMessage"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

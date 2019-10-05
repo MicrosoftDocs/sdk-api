@@ -12,6 +12,8 @@ ms.keywords: WinUsb_StartTrackingForTimeSync, WinUsb_StartTrackingForTimeSync fu
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_StartTrackingForTimeSync"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Initialize method, IXAP
 ms.topic: method
 f1_keywords: 
  - "xapo/IXAPO.Initialize"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

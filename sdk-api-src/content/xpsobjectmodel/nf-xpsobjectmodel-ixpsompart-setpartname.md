@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPart interface [XPS Documents and Packaging],SetPartName meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPart.SetPartName"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

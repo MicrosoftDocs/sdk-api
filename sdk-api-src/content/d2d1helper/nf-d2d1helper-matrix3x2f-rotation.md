@@ -12,6 +12,8 @@ ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F in
 ms.topic: method
 f1_keywords: 
  - "d2d1helper/Matrix3x2F.Rotation"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

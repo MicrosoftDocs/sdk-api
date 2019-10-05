@@ -12,6 +12,8 @@ ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_D
 ms.topic: struct
 f1_keywords:
 - winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

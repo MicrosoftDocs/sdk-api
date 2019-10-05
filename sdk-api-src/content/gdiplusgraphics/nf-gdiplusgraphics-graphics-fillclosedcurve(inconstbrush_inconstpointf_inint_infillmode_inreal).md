@@ -12,6 +12,8 @@ ms.keywords: FillClosedCurve, FillClosedCurve method [GDI+], FillClosedCurve met
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FillClosedCurve"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

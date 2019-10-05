@@ -12,6 +12,8 @@ ms.keywords: '*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTo
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_LastClientTokenStatus
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetElement, GetElement method [Windows Accessibility], GetElement m
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRangeArray.GetElement"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

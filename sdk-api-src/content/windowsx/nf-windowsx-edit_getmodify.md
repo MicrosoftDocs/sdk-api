@@ -12,6 +12,8 @@ ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edi
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetModify"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

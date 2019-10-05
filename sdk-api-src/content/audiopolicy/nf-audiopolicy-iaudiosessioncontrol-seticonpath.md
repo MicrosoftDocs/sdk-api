@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionControl interface [Core Audio],SetIconPath method, IAu
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.SetIconPath"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

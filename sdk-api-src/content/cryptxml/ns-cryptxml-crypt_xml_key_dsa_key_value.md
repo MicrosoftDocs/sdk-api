@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_KEY_DSA_KEY_VALUE, CRYPT_XML_KEY_DSA_KEY_VALUE structure 
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

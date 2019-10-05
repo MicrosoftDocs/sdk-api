@@ -12,6 +12,8 @@ ms.keywords: GetBackgroundColor, GetBackgroundColor method [GDI+], GetBackground
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/HatchBrush.GetBackgroundColor"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

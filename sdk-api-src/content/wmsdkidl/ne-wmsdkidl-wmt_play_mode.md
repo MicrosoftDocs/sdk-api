@@ -12,6 +12,8 @@ ms.keywords: WMT_PLAY_MODE, WMT_PLAY_MODE enumeration [windows Media Format], WM
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_PLAY_MODE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ 
 ms.topic: callback
 f1_keywords: 
  - "cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

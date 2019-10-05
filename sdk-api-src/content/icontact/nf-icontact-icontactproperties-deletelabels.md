@@ -12,6 +12,8 @@ ms.keywords: DeleteLabels, DeleteLabels method [Windows Contacts], DeleteLabels 
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.DeleteLabels"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxStatus interface [Fax Service],Receive property, IFaxStatus.Rec
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.Receive"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

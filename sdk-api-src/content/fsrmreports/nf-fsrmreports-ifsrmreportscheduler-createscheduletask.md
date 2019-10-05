@@ -12,6 +12,8 @@ ms.keywords: CreateScheduleTask, CreateScheduleTask method [File Server Resource
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportScheduler.CreateScheduleTask"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPSEC_KEYING_POLICY1, IPSEC_KEYING_POLICY1 structure [Filtering], I
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_KEYING_POLICY1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

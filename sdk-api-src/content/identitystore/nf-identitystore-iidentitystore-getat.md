@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentitySt
 ms.topic: method
 f1_keywords: 
  - "identitystore/IIdentityStore.GetAt"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

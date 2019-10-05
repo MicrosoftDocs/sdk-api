@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISens
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetState"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [Dire
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.BeginFrame
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

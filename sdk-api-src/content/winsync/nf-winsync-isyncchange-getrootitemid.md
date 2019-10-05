@@ -12,6 +12,8 @@ ms.keywords: GetRootItemId, GetRootItemId method [Windows Sync], GetRootItemId m
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.GetRootItemId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

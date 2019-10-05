@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_PRESHUTDOWN_INFO"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

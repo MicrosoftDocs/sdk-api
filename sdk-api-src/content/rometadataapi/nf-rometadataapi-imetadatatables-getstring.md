@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetString"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

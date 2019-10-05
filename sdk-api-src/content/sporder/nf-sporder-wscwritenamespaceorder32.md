@@ -12,6 +12,8 @@ ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsoc
 ms.topic: function
 f1_keywords:
 - sporder/WSCWriteNameSpaceOrder32
+dev_langs:
+ - c++
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows

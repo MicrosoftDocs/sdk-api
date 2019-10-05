@@ -12,6 +12,8 @@ ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate met
 ms.topic: method
 f1_keywords: 
  - "iads/IADsExtension.Operate"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

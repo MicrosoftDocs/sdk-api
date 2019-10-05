@@ -12,6 +12,8 @@ ms.keywords: GetGeneratorParameters, GetGeneratorParameters method [Remote Diffe
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGenerator.GetGeneratorParameters"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorEqual, XMColorEqual, XMColorEqual method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

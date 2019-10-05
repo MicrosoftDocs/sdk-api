@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TA
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetVolume"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARA
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_DSM_NOTIFICATION_PARAMETERS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

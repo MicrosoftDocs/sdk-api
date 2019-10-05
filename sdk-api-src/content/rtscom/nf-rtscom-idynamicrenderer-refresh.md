@@ -12,6 +12,8 @@ ms.keywords: 409d4353-fc85-49ff-99a4-d8393a3c0ec4, IDynamicRenderer interface [T
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.Refresh"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

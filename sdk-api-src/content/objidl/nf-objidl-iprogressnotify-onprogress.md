@@ -12,6 +12,8 @@ ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.
 ms.topic: method
 f1_keywords: 
  - "objidl/IProgressNotify.OnProgress"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_SECURITY_INTERFACE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

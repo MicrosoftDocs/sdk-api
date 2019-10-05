@@ -12,6 +12,8 @@ ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentI
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CurrentIsRequiredForForm"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

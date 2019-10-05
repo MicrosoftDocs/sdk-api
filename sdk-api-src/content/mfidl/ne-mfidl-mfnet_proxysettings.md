@@ -12,6 +12,8 @@ ms.keywords: MFNET_PROXYSETTINGS, MFNET_PROXYSETTINGS enumeration [Media Foundat
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNET_PROXYSETTINGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

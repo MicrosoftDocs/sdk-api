@@ -12,6 +12,8 @@ ms.keywords: KnownGamingPrivileges, KnownGamingPrivileges enumeration, XPRIVILEG
 ms.topic: enum
 f1_keywords: 
  - "gamingtcui/KnownGamingPrivileges"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

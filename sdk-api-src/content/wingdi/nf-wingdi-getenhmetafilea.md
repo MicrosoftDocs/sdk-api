@@ -12,6 +12,8 @@ ms.keywords: GetEnhMetaFile, GetEnhMetaFile function [Windows GDI], GetEnhMetaFi
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetEnhMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

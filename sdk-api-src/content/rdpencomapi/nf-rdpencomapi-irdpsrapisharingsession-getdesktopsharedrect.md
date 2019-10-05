@@ -12,6 +12,8 @@ ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktop
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.GetDesktopSharedRect"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_GetIndication, MI_Operation_GetIndication function [Wi
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Operation_GetIndication"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

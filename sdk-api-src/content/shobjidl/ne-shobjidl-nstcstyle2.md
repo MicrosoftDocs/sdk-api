@@ -12,6 +12,8 @@ ms.keywords: NSTCS2_DEFAULT, NSTCS2_DISPLAYPADDING, NSTCS2_DISPLAYPINNEDONLY, NS
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/NSTCSTYLE2"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

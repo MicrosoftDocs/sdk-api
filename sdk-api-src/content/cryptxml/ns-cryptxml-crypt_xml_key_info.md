@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO struc
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_KEY_INFO
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

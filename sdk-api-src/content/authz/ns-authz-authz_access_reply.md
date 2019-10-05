@@ -12,6 +12,8 @@ ms.keywords: "*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY struc
 ms.topic: struct
 f1_keywords: 
  - "authz/AUTHZ_ACCESS_REPLY"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEd
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfEditSession.DoEditSession"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

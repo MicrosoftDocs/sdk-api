@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Windows Properties], Append method [Windows 
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyChangeArray.Append"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

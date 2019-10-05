@@ -12,6 +12,8 @@ ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandis
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanDisconnect
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

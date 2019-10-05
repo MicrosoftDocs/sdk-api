@@ -12,6 +12,8 @@ ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], Crea
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateActCtx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

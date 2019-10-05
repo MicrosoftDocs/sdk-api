@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfiguration interface [Security],KeySpec property, IOCSPCA
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.KeySpec"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

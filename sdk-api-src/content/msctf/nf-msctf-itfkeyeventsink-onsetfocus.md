@@ -12,6 +12,8 @@ ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnSetFocus meth
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeyEventSink.OnSetFocus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

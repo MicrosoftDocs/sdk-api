@@ -12,6 +12,8 @@ ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
 ms.topic: struct
 f1_keywords: 
  - "windows.foundation/Size"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

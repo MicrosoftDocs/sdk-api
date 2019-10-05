@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponentData 
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponentData.Destroy"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

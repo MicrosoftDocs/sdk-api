@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetStreamFlags m
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpoint.SetStreamFlags"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

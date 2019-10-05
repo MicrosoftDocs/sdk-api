@@ -12,6 +12,8 @@ ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResourc
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IEnumResources.Reset"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

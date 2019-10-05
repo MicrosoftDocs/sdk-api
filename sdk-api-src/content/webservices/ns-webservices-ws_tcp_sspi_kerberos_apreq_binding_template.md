@@ -12,6 +12,8 @@ ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, WS_TCP_SSPI_KERBEROS_A
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

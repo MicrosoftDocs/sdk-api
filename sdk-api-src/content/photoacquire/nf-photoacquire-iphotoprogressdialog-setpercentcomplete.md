@@ -12,6 +12,8 @@ ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetPercentComp
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoProgressDialog.SetPercentComplete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

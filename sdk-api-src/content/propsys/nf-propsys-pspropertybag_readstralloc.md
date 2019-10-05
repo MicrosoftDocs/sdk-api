@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Wi
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_ReadStrAlloc"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDEN
 ms.topic: struct
 f1_keywords: 
  - "sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

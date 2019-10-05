@@ -12,6 +12,8 @@ ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromind
 ms.topic: function
 f1_keywords:
 - dbghelp/SymFromIndex
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

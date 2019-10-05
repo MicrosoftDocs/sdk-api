@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.GetStatus"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

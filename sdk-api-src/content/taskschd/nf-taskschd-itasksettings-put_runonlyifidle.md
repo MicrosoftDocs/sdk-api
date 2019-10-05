@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfIdle property, IT
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings.RunOnlyIfIdle"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

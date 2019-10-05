@@ -12,6 +12,8 @@ ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active 
 ms.topic: struct
 f1_keywords: 
  - "msdrmdefs/DRM_CLIENT_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function
 ms.topic: function
 f1_keywords: 
  - "synchapi/CreateSemaphoreExW"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFileViewerA
 ms.topic: language-reference
 f1_keywords: 
  - "shlobj/IFileViewerA"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

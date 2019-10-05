@@ -12,6 +12,8 @@ ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector fu
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitPropVariantFromUInt64Vector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetKnownFolderPath"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChan
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeChangeEvents.AfterTypeChange"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, CLUS
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_SECURITY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

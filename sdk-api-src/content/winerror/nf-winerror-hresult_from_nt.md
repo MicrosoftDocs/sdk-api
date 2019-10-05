@@ -12,6 +12,8 @@ ms.keywords: HRESULT_FROM_NT, HRESULT_FROM_NT macro [COM], _com_HRESULT_FROM_NT,
 ms.topic: macro
 f1_keywords: 
  - "winerror/HRESULT_FROM_NT"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

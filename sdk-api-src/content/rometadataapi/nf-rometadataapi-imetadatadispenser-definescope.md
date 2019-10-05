@@ -12,6 +12,8 @@ ms.keywords: DefineScope, DefineScope method [Windows Runtime], DefineScope meth
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenser.DefineScope"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

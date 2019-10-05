@@ -12,6 +12,8 @@ ms.keywords: VDS_IAT_CHAP, VDS_IAT_MUTUAL_CHAP, VDS_IAT_NONE, VDS_ISCSI_AUTH_TYP
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_ISCSI_AUTH_TYPE"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

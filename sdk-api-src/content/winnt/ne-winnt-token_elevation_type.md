@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_ELEVATION_TYPE, PTOKEN_ELEVATION_TYPE, PTOKEN_ELEVATION_TY
 ms.topic: enum
 f1_keywords: 
  - "winnt/TOKEN_ELEVATION_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

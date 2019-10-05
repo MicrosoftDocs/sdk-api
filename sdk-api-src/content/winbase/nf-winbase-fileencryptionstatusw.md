@@ -12,6 +12,8 @@ ms.keywords: FILE_ENCRYPTABLE, FILE_IS_ENCRYPTED, FILE_READ_ONLY, FILE_ROOT_DIR,
 ms.topic: function
 f1_keywords: 
  - "winbase/FileEncryptionStatus"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

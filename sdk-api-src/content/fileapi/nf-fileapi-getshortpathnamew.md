@@ -12,6 +12,8 @@ ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNa
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetShortPathName"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarR8Round"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Task Scheduler], GetStatus method [Tas
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetStatus"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

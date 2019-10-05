@@ -12,6 +12,8 @@ ms.keywords: "?ReleaseBuffer@CHString@@QAEXH@Z, ?ReleaseBuffer@CHString@@QEAAXH@
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.ReleaseBuffer"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

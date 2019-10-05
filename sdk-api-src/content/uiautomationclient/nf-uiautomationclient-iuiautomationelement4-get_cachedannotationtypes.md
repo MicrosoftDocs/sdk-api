@@ -12,6 +12,8 @@ ms.keywords: CachedAnnotationTypes property [Windows Accessibility], CachedAnnot
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement4.CachedAnnotationTypes"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

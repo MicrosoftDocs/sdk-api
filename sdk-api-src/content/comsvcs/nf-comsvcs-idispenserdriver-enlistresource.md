@@ -12,6 +12,8 @@ ms.keywords: EnlistResource, EnlistResource method [COM+], EnlistResource method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IDispenserDriver.EnlistResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

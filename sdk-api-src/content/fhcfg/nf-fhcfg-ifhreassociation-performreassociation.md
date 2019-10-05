@@ -12,6 +12,8 @@ ms.keywords: FhReassociation class [Windows API],PerformReassociation method, IF
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhReassociation.PerformReassociation"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

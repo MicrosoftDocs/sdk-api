@@ -12,6 +12,8 @@ ms.keywords: IFsiItem interface [IMAPI],get_FullPath method, IFsiItem.get_FullPa
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.get_FullPath"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

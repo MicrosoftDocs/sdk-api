@@ -12,6 +12,8 @@ ms.keywords: IRegistrationInfo interface [Task Scheduler],SecurityDescriptor pro
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegistrationInfo.SecurityDescriptor"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

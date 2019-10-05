@@ -12,6 +12,8 @@ ms.keywords: AMAP_3D_TARGET, AMAP_ALLOW_SYSMEM, AMAP_DIRECTED_FLIP, AMAP_DXVA_TA
 ms.topic: enum
 f1_keywords: 
  - "strmif/VMRSurfaceAllocationFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

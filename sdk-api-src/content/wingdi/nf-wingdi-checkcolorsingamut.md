@@ -12,6 +12,8 @@ ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color Syst
 ms.topic: function
 f1_keywords: 
  - "wingdi/CheckColorsInGamut"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

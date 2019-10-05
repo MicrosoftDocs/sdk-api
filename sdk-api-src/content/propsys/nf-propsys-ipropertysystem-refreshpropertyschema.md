@@ -12,6 +12,8 @@ ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchem
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertySystem.RefreshPropertySchema"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EventDescGetOpcode, EventDescGetOpcode function [ETW], base.eventde
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetOpcode
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

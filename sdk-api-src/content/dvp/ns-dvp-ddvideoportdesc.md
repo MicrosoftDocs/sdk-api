@@ -12,6 +12,8 @@ ms.keywords: '*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Di
 ms.topic: struct
 f1_keywords:
 - dvp/DDVIDEOPORTDESC
+dev_langs:
+ - c++
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

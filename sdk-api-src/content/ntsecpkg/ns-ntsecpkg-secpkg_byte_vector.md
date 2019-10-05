@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR str
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_BYTE_VECTOR"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

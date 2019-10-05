@@ -12,6 +12,8 @@ ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.Set"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

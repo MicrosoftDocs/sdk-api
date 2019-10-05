@@ -12,6 +12,8 @@ ms.keywords: GetRate, GetRate method [DirectShow], GetRate method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetRate"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

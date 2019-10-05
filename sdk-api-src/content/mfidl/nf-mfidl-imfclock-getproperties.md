@@ -12,6 +12,8 @@ ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties, GetProperties 
 ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetProperties
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

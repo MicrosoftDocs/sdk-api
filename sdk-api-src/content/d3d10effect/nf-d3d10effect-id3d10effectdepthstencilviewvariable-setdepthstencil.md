@@ -12,6 +12,8 @@ ms.keywords: ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDep
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectDepthStencilViewVariable.SetDepthStencil"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

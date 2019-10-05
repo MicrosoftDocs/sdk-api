@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_A
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_TRANSFORM_TYPE"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

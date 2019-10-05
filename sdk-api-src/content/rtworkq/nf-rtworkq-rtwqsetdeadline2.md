@@ -12,6 +12,8 @@ ms.keywords: RtwqSetDeadline2, RtwqSetDeadline2 function, base.rtwqsetdeadline2,
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqSetDeadline2"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptVerifyMessageSignature
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

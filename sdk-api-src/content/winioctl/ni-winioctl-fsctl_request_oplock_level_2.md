@@ -12,6 +12,8 @@ ms.keywords: FSCTL_REQUEST_OPLOCK_LEVEL_2, FSCTL_REQUEST_OPLOCK_LEVEL_2 control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_2
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

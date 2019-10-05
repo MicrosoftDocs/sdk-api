@@ -12,6 +12,8 @@ ms.keywords: SetupGetLineByIndex, SetupGetLineByIndex function [Setup API], Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetLineByIndex"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

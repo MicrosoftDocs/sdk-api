@@ -12,6 +12,8 @@ ms.keywords: MPEG_CONTEXT_BCS_DEMUX, MPEG_CONTEXT_TYPE, MPEG_CONTEXT_TYPE enumer
 ms.topic: enum
 f1_keywords: 
  - "mpeg2structs/MPEG_CONTEXT_TYPE"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

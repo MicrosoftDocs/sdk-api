@@ -12,6 +12,8 @@ ms.keywords: "*PADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST st
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_CASEIGNORE_LIST"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

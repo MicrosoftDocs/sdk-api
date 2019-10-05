@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_EVENT_CONNECTED, CHANNEL_EVENT_DISCONNECTED, CHANNEL_EVENT_
 ms.topic: callback
 f1_keywords: 
  - "cchannel/CHANNEL_INIT_EVENT_FN"
+dev_langs:
+ - c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

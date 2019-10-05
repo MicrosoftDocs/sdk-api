@@ -12,6 +12,8 @@ ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindow
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowRgn"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

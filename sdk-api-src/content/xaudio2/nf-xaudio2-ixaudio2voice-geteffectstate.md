@@ -12,6 +12,8 @@ ms.keywords: GetEffectState, GetEffectState method [XAudio2 Audio Mixing APIs], 
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2Voice.GetEffectState"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

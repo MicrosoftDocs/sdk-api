@@ -12,6 +12,8 @@ ms.keywords: '*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ
 ms.topic: struct
 f1_keywords:
 - winioctl/SET_DISK_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

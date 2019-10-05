@@ -12,6 +12,8 @@ ms.keywords: IAMCrossbar interface [DirectShow],get_PinCounts method, IAMCrossba
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMCrossbar.get_PinCounts"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

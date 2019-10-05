@@ -12,6 +12,8 @@ ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e365398
 ms.topic: struct
 f1_keywords: 
  - "wingdi/PALETTEENTRY"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

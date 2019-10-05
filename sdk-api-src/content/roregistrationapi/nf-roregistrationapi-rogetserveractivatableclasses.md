@@ -12,6 +12,8 @@ ms.keywords: RoGetServerActivatableClasses, RoGetServerActivatableClasses functi
 ms.topic: function
 f1_keywords: 
  - "roregistrationapi/RoGetServerActivatableClasses"
+dev_langs:
+ - c++
 req.header: roregistrationapi.h
 req.include-header: 
 req.target-type: Windows

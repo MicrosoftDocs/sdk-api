@@ -12,6 +12,8 @@ ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange me
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfStatusSink.OnStatusChange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get_Count
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPublicConnectionCollection.get_Count"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

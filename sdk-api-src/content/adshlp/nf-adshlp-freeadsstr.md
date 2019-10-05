@@ -12,6 +12,8 @@ ms.keywords: FreeADsStr, FreeADsStr function [ADSI], _ds_freeadsstr, adshlp/Free
 ms.topic: function
 f1_keywords: 
  - "adshlp/FreeADsStr"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

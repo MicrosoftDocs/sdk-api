@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents a
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

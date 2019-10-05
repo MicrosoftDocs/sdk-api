@@ -12,6 +12,8 @@ ms.keywords: WS_ASYNC_STATE, WS_ASYNC_STATE structure [Web Services for Windows]
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ASYNC_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

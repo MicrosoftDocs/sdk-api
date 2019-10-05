@@ -12,6 +12,8 @@ ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services fo
 ms.topic: enum
 f1_keywords:
 - webservices/WS_DATETIME_FORMAT
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

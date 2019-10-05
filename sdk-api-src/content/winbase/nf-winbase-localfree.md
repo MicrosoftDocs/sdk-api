@@ -12,6 +12,8 @@ ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, wi
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalFree"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

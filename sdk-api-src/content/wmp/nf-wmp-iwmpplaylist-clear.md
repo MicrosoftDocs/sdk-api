@@ -12,6 +12,8 @@ ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPla
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlaylist.clear"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

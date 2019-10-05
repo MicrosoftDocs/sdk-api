@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITDir
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.Connect"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

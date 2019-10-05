@@ -12,6 +12,8 @@ ms.keywords: "*LPEXTLOGPEN, *NPEXTLOGPEN, *PEXTLOGPEN, EXTLOGPEN, EXTLOGPEN stru
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EXTLOGPEN"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EventDescZero, EventDescZero function [ETW], base.eventdesczero, et
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescZero
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

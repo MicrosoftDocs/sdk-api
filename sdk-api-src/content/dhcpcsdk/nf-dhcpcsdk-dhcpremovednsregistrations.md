@@ -12,6 +12,8 @@ ms.keywords: DhcpRemoveDNSRegistrations, DhcpRemoveDNSRegistrations function [DH
 ms.topic: function
 f1_keywords: 
  - "dhcpcsdk/DhcpRemoveDNSRegistrations"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

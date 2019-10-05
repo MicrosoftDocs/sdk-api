@@ -12,6 +12,8 @@ ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.Inject"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

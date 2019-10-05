@@ -12,6 +12,8 @@ ms.keywords: RoUnregisterForApartmentShutdown, RoUnregisterForApartmentShutdown 
 ms.topic: function
 f1_keywords: 
  - "roapi/RoUnregisterForApartmentShutdown"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue int
 ms.topic: interface
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

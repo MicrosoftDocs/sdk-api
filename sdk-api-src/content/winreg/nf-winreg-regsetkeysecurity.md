@@ -12,6 +12,8 @@ ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_re
 ms.topic: function
 f1_keywords:
 - winreg/RegSetKeySecurity
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

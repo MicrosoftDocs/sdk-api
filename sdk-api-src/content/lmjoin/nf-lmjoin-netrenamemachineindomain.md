@@ -12,6 +12,8 @@ ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Networ
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetRenameMachineInDomain"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

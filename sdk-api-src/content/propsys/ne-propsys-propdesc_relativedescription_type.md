@@ -12,6 +12,8 @@ ms.keywords: PDRDT_COUNT, PDRDT_DATE, PDRDT_DURATION, PDRDT_GENERAL, PDRDT_LENGT
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_RELATIVEDESCRIPTION_TYPE"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

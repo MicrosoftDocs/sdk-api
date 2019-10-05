@@ -12,6 +12,8 @@ ms.keywords: ISimilarity, ISimilarity interface [Remote Differential Compression
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarity"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

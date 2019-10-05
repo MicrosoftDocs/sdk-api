@@ -12,6 +12,8 @@ ms.keywords: '*PBTH_LE_UUID, BTH_LE_UUID, BTH_LE_UUID structure [Bluetooth Devic
 ms.topic: struct
 f1_keywords:
 - bthledef/BTH_LE_UUID
+dev_langs:
+ - c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

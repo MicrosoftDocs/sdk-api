@@ -12,6 +12,8 @@ ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_F
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_SET_COMPRESSION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

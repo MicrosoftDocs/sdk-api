@@ -12,6 +12,8 @@ ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windo
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextServices.TxQueryHitPoint"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

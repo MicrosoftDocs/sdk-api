@@ -12,6 +12,8 @@ ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRang
 ms.topic: method
 f1_keywords:
 - bits2_0/IBackgroundCopyJob3.AddFileWithRanges
+dev_langs:
+ - c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

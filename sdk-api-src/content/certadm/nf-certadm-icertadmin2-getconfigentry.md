@@ -12,6 +12,8 @@ ms.keywords: GetConfigEntry, GetConfigEntry method [Security], GetConfigEntry me
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetConfigEntry"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

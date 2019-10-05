@@ -12,6 +12,8 @@ ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "tuner/IMPEG2ComponentType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeServic
 ms.topic: interface
 f1_keywords: 
  - "xamlom/IVisualTreeService"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

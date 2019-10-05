@@ -12,6 +12,8 @@ ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.cop
 ms.topic: function
 f1_keywords: 
  - "winuser/CopyRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

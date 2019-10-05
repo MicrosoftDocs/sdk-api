@@ -12,6 +12,8 @@ ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatu
 ms.topic: function
 f1_keywords: 
  - "winbase/GetTapeStatus"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

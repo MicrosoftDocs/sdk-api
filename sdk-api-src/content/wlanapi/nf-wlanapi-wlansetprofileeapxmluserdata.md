@@ -12,6 +12,8 @@ ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, Wlan
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfileEapXmlUserData
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

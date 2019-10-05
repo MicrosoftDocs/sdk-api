@@ -12,6 +12,8 @@ ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Servic
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbEnvironment"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

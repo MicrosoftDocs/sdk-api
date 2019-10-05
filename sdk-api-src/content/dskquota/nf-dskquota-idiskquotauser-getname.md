@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Files], GetName method [Files],IDiskQuotaU
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetName"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

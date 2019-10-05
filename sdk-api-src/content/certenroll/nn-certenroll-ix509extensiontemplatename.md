@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionTemplateName, IX509ExtensionTemplateName interface [S
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509ExtensionTemplateName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

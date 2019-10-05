@@ -12,6 +12,8 @@ ms.keywords: BeginOrderedGroup, BeginOrderedGroup method [Windows Sync], BeginOr
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.BeginOrderedGroup"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

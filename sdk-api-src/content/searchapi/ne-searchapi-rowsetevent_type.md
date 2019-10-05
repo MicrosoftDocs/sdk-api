@@ -12,6 +12,8 @@ ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVEN
 ms.topic: enum
 f1_keywords: 
  - "searchapi/ROWSETEVENT_TYPE"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

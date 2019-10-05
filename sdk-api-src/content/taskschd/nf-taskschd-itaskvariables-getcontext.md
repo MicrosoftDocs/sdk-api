@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [Task Scheduler], GetContext method [
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskVariables.GetContext"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

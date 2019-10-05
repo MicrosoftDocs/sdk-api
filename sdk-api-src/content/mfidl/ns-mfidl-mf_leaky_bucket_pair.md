@@ -12,6 +12,8 @@ ms.keywords: MF_LEAKY_BUCKET_PAIR, MF_LEAKY_BUCKET_PAIR structure [Media Foundat
 ms.topic: struct
 f1_keywords:
 - mfidl/MF_LEAKY_BUCKET_PAIR
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

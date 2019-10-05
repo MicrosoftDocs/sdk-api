@@ -12,6 +12,8 @@ ms.keywords: "*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI
 ms.topic: struct
 f1_keywords: 
  - "psapi/MODULEINFO"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

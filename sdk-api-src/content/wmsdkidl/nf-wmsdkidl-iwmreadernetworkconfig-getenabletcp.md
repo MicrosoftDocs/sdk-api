@@ -12,6 +12,8 @@ ms.keywords: GetEnableTCP, GetEnableTCP method [windows Media Format], GetEnable
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.GetEnableTCP"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

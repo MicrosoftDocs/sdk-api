@@ -12,6 +12,8 @@ ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method 
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.GetCurrentPreset"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

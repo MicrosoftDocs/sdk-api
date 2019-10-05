@@ -12,6 +12,8 @@ ms.keywords: '*LPNMREBARCHEVRON, LPNMREBARCHEVRON, LPNMREBARCHEVRON structure po
 ms.topic: struct
 f1_keywords:
 - commctrl/NMREBARCHEVRON
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

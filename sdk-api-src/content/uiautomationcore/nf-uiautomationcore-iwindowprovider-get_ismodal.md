@@ -12,6 +12,8 @@ ms.keywords: IWindowProvider interface [Windows Accessibility],IsModal property,
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IWindowProvider.IsModal"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

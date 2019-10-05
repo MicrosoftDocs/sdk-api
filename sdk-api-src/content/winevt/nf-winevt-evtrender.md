@@ -12,6 +12,8 @@ ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/Evt
 ms.topic: function
 f1_keywords:
 - winevt/EvtRender
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

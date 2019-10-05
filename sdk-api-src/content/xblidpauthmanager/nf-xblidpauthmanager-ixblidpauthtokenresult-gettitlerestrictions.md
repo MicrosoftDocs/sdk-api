@@ -12,6 +12,8 @@ ms.keywords: GetTitleRestrictions, GetTitleRestrictions method, GetTitleRestrict
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetTitleRestrictions"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

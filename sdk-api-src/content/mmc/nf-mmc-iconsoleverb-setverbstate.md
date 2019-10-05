@@ -12,6 +12,8 @@ ms.keywords: IConsoleVerb interface [MMC],SetVerbState method, IConsoleVerb.SetV
 ms.topic: method
 f1_keywords:
 - mmc/IConsoleVerb.SetVerbState
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

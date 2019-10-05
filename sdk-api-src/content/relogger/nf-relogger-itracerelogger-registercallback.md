@@ -12,6 +12,8 @@ ms.keywords: ITraceRelogger interface [ETW],RegisterCallback method, ITraceRelog
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.RegisterCallback"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

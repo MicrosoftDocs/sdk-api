@@ -12,6 +12,8 @@ ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.re
 ms.topic: function
 f1_keywords:
 - fileapi/ReadFileEx
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

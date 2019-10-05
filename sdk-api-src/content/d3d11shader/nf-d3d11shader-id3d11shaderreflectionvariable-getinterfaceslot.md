@@ -12,6 +12,8 @@ ms.keywords: GetInterfaceSlot, GetInterfaceSlot method [Direct3D 11], GetInterfa
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionVariable.GetInterfaceSlot"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

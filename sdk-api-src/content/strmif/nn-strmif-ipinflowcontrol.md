@@ -12,6 +12,8 @@ ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowCo
 ms.topic: interface
 f1_keywords: 
  - "strmif/IPinFlowControl"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

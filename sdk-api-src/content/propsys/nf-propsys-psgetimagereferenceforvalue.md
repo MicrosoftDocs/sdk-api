@@ -12,6 +12,8 @@ ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [
 ms.topic: function
 f1_keywords:
 - propsys/PSGetImageReferenceForValue
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows

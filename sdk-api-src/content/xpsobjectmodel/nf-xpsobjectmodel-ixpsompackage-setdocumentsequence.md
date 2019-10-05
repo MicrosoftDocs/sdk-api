@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSe
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPackage.SetDocumentSequence"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

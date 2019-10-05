@@ -12,6 +12,8 @@ ms.keywords: GetWideAspectRatio, GetWideAspectRatio method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor.GetWideAspectRatio"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

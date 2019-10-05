@@ -12,6 +12,8 @@ ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrm
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmLogControl.WriteLogRecordVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

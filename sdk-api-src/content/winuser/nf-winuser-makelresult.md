@@ -12,6 +12,8 @@ ms.keywords: MAKELRESULT, MAKELRESULT macro [Windows and Messages], _win32_MAKEL
 ms.topic: macro
 f1_keywords: 
  - "winuser/MAKELRESULT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

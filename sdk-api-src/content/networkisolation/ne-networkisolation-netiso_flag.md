@@ -12,6 +12,8 @@ ms.keywords: NETISO_FLAG, NETISO_FLAG enumeration [ICS/ICF], NETISO_FLAG_FORCE_C
 ms.topic: enum
 f1_keywords: 
  - "networkisolation/NETISO_FLAG"
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

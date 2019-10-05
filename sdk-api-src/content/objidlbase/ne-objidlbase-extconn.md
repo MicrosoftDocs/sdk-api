@@ -12,6 +12,8 @@ ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRON
 ms.topic: enum
 f1_keywords: 
  - "objidlbase/EXTCONN"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

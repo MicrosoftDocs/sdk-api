@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Skip method, IEnumSy
 ms.topic: method
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrConflict.Skip"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

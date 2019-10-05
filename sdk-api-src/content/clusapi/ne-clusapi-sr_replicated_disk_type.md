@@ -12,6 +12,8 @@ ms.keywords: '*PSR_REPLICATED_DISK_TYPE, PSR_REPLICATED_DISK_TYPE, PSR_REPLICATE
 ms.topic: enum
 f1_keywords:
 - clusapi/SR_REPLICATED_DISK_TYPE
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

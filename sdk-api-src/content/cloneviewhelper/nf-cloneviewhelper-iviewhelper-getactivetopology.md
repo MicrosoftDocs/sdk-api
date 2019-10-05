@@ -12,6 +12,8 @@ ms.keywords: GetActiveTopology, GetActiveTopology method [Display Devices], GetA
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.GetActiveTopology"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

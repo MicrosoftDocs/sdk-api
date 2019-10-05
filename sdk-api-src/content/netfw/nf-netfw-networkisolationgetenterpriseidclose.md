@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterprise
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationGetEnterpriseIdClose"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

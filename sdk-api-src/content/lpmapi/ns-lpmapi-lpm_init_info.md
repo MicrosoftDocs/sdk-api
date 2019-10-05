@@ -12,6 +12,8 @@ ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO,
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/LPM_INIT_INFO"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

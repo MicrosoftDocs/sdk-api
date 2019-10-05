@@ -12,6 +12,8 @@ ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBufferList.GetLength"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

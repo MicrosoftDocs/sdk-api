@@ -12,6 +12,8 @@ ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TA
 ms.topic: struct
 f1_keywords:
 - mstask/MONTHLYDATE
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

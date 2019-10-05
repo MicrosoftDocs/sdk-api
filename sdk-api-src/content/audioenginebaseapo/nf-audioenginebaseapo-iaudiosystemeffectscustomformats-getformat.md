@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audi
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormat"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop

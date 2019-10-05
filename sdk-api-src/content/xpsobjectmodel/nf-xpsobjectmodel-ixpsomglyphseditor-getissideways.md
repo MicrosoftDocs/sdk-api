@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetIsSideways, GetIsSideways method [XPS Documents and Packa
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.GetIsSideways"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

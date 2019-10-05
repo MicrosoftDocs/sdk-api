@@ -12,6 +12,8 @@ ms.keywords: ISensLogon2 interface [SENS],SessionDisconnect method, ISensLogon2.
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon2.SessionDisconnect"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

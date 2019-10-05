@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION1, IKEEXT_KERBEROS_AUTHENTICATION1 st
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_KERBEROS_AUTHENTICATION1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

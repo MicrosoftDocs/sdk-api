@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlEvents"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateSwapChain, CreateSwapChain method [DXGI], CreateSwapChain met
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory.CreateSwapChain"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

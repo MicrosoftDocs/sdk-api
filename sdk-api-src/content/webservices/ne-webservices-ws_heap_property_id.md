@@ -12,6 +12,8 @@ ms.keywords: WS_HEAP_PROPERTY_ACTUAL_SIZE, WS_HEAP_PROPERTY_ID, WS_HEAP_PROPERTY
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_HEAP_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

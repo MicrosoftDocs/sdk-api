@@ -12,6 +12,8 @@ ms.keywords: CreateDeviceEx, CreateDeviceEx method [Direct3D 9], CreateDeviceEx 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9Ex.CreateDeviceEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

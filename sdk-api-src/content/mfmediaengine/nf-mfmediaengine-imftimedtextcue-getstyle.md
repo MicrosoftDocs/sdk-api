@@ -12,6 +12,8 @@ ms.keywords: GetStyle, GetStyle method [Media Foundation], GetStyle method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetStyle"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

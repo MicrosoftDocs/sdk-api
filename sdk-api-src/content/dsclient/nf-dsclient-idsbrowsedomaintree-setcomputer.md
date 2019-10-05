@@ -12,6 +12,8 @@ ms.keywords: IDsBrowseDomainTree interface [Active Directory],SetComputer method
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsBrowseDomainTree.SetComputer"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

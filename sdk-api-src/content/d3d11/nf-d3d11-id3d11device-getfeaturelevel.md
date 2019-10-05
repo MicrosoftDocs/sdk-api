@@ -12,6 +12,8 @@ ms.keywords: 956236c4-681b-5005-2e10-fa583bce3b30, GetFeatureLevel, GetFeatureLe
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.GetFeatureLevel"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

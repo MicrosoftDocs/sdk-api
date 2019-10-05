@@ -12,6 +12,8 @@ ms.keywords: IInkWordList, IInkWordList interface [Tablet PC], IInkWordList inte
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkWordList"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

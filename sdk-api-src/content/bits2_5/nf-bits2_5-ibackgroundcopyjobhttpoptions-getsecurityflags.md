@@ -12,6 +12,8 @@ ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLIC
 ms.topic: method
 f1_keywords: 
  - "bits2_5/IBackgroundCopyJobHttpOptions.GetSecurityFlags"
+dev_langs:
+ - c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

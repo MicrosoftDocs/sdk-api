@@ -12,6 +12,8 @@ ms.keywords: FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, GetControlWindow, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellBrowser.GetControlWindow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

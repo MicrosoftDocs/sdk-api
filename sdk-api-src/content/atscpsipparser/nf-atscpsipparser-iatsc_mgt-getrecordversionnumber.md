@@ -12,6 +12,8 @@ ms.keywords: GetRecordVersionNumber, GetRecordVersionNumber method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT.GetRecordVersionNumber"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

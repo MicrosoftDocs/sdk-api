@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRA
 ms.topic: struct
 f1_keywords:
 - windns/DNS_ADDR_ARRAY
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

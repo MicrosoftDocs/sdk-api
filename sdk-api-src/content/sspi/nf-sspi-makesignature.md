@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _s
 ms.topic: function
 f1_keywords:
 - sspi/MakeSignature
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

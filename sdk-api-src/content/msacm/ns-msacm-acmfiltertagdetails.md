@@ -12,6 +12,8 @@ ms.keywords: "*LPACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, ACMDRIVERDETAILS_SU
 ms.topic: struct
 f1_keywords: 
  - "msacm/ACMFILTERTAGDETAILS"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

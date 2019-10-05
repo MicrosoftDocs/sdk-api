@@ -12,6 +12,8 @@ ms.keywords: End, End method [Offline Files], End method [Offline Files],IOfflin
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesProgress.End"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

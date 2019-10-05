@@ -12,6 +12,8 @@ ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.
 ms.topic: function
 f1_keywords:
 - clfsw32/SetEndOfLog
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

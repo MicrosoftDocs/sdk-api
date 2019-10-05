@@ -12,6 +12,8 @@ ms.keywords: MI_PropertySet_Delete, MI_PropertySet_Delete function [Windows Mana
 ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_Delete
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

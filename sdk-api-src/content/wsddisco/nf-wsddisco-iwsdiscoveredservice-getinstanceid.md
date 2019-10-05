@@ -12,6 +12,8 @@ ms.keywords: GetInstanceId, GetInstanceId method, GetInstanceId method,IWSDiscov
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveredService.GetInstanceId"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

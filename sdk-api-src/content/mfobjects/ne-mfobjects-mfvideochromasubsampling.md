@@ -12,6 +12,8 @@ ms.keywords: 778d0456-f98e-44ac-afb7-9ce01da06741, MFVideoChromaSubsampling, MFV
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoChromaSubsampling
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Height method,
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidRect.get_Height"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

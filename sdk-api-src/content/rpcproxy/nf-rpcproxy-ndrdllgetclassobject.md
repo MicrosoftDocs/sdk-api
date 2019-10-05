@@ -12,6 +12,8 @@ ms.keywords: NdrDllGetClassObject, NdrDllGetClassObject function [RPC], rpc.ndrd
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/NdrDllGetClassObject"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendP
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendPropertySheet.QueryPagesFor"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

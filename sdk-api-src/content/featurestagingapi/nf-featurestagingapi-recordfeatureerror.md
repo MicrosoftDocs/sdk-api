@@ -12,6 +12,8 @@ ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], feat
 ms.topic: function
 f1_keywords: 
  - "featurestagingapi/RecordFeatureError"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

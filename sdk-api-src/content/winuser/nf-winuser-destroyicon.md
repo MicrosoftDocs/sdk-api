@@ -12,6 +12,8 @@ ms.keywords: DestroyIcon, DestroyIcon function [Menus and Other Resources], _win
 ms.topic: function
 f1_keywords: 
  - "winuser/DestroyIcon"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

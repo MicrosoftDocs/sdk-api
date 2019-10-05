@@ -12,6 +12,8 @@ ms.keywords: DrawArc, DrawArc method [GDI+], DrawArc method [GDI+],Graphics clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawArc"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], disp
 ms.topic: function
 f1_keywords:
 - winddi/EngSetPointerTag
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

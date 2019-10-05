@@ -12,6 +12,8 @@ ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter inte
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IMultiInterfacePublisherFilter"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

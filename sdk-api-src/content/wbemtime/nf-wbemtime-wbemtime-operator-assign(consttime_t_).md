@@ -12,6 +12,8 @@ ms.keywords: "??4WBEMTime@@QAEABV0@QAG@Z, ??4WBEMTime@@QEAAAEBV0@QEAG@Z, WBEMTim
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.operator="
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

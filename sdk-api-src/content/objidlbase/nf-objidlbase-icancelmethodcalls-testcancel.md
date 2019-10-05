@@ -12,6 +12,8 @@ ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethod
 ms.topic: method
 f1_keywords: 
  - "objidlbase/ICancelMethodCalls.TestCancel"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

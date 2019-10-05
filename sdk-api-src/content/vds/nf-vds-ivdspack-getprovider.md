@@ -12,6 +12,8 @@ ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVd
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsPack.GetProvider"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

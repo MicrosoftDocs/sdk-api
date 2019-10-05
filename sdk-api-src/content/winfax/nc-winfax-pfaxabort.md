@@ -12,6 +12,8 @@ ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT call
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAXABORT"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

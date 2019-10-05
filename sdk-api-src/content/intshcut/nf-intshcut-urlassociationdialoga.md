@@ -12,6 +12,8 @@ ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URL
 ms.topic: function
 f1_keywords: 
  - "intshcut/URLAssociationDialog"
+dev_langs:
+ - c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

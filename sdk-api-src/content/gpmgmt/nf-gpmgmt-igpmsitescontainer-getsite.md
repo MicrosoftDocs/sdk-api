@@ -12,6 +12,8 @@ ms.keywords: GPMSitesContainer class [GPMC],GetSite method, GetSite, GetSite met
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSitesContainer.GetSite"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

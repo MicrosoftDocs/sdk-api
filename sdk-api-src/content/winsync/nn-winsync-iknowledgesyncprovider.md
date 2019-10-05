@@ -12,6 +12,8 @@ ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "winsync/IKnowledgeSyncProvider"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

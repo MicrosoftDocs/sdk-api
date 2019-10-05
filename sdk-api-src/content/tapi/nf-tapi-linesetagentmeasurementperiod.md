@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPerio
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetAgentMeasurementPeriod"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

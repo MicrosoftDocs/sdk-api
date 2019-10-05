@@ -12,6 +12,8 @@ ms.keywords: 269c133c-6950-40e0-8de9-e38bfa06995e, ChildRealTimeStylusPlugin pro
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.ChildRealTimeStylusPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

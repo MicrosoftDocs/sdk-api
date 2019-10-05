@@ -12,6 +12,8 @@ ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicen
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLGetLicense"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

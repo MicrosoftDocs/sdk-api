@@ -12,6 +12,8 @@ ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDelete
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideDataEvent.ServiceDeleted"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffe
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

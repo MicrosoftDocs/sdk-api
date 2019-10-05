@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT4X3, XMFLOAT4X3 structure [DirectX Math Support APIs], direc
 ms.topic: struct
 f1_keywords: 
  - "directxmath/XMFLOAT4X3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

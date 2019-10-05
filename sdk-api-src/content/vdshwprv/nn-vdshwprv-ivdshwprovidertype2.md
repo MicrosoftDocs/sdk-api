@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderT
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsHwProviderType2"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

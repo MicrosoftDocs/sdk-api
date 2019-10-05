@@ -12,6 +12,8 @@ ms.keywords: GetImageCount, GetImageCount method [windows Media Format], GetImag
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMImageInfo.GetImageCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

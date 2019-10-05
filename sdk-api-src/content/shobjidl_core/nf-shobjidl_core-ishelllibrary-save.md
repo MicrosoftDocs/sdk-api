@@ -12,6 +12,8 @@ ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLibrary.Save"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

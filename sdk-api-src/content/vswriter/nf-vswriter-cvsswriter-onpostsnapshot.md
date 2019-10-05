@@ -12,6 +12,8 @@ ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnap
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnPostSnapshot"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

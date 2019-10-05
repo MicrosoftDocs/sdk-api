@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Reset method, IEnum
 ms.topic: method
 f1_keywords: 
  - "syncregistration/IEnumSyncProviderInfos.Reset"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

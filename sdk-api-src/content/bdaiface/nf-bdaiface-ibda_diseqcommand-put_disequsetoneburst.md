@@ -12,6 +12,8 @@ ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqUs
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DiseqCommand.put_DiseqUseToneBurst"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

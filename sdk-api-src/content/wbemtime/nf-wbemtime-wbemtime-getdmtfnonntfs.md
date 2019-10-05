@@ -12,6 +12,8 @@ ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBA
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetDMTFNonNtfs"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

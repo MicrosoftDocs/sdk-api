@@ -12,6 +12,8 @@ ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcre
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidCreate"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

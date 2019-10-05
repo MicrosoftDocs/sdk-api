@@ -12,6 +12,8 @@ ms.keywords: Count property [RDP], Count property [RDP],IRDPSRAPIInvitationManag
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitationManager.Count"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

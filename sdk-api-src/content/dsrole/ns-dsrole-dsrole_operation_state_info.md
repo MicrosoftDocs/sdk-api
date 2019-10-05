@@ -12,6 +12,8 @@ ms.keywords: '*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE
 ms.topic: struct
 f1_keywords:
 - dsrole/DSROLE_OPERATION_STATE_INFO
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

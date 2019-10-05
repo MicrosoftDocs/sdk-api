@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runt
 ms.topic: function
 f1_keywords: 
  - "winstring/HSTRING_UserUnmarshal"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

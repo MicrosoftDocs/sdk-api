@@ -12,6 +12,8 @@ ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP AP
 ms.topic: interface
 f1_keywords: 
  - "upnphost/IUPnPRemoteEndpointInfo"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

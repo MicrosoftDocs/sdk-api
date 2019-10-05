@@ -12,6 +12,8 @@ ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/
 ms.topic: function
 f1_keywords: 
  - "fibersapi/FlsFree"
+dev_langs:
+ - c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Un
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationUpdateManager.UnregisterWaitHandleCallback"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

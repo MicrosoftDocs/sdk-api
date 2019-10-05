@@ -12,6 +12,8 @@ ms.keywords: PHONE_TONE, PHONE_TONE enumeration [TAPI 2.2], PT_BUSY, PT_ERRORTON
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONE_TONE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

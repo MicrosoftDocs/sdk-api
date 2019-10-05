@@ -12,6 +12,8 @@ ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_O
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/ID_ERROR_OBJECT"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

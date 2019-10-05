@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface 
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIClipboardUseEvents"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

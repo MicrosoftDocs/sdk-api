@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [Debugging Windows Store apps], Advise method
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationHost.Advise"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

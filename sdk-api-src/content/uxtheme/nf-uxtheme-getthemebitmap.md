@@ -12,6 +12,8 @@ ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeBitmap"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

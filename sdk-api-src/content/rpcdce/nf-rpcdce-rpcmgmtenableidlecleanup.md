@@ -12,6 +12,8 @@ ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], 
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtEnableIdleCleanup"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structur
 ms.topic: struct
 f1_keywords:
 - iads/ADS_SEARCH_COLUMN
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

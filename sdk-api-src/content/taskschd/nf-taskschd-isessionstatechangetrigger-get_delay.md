@@ -12,6 +12,8 @@ ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IS
 ms.topic: method
 f1_keywords: 
  - "taskschd/ISessionStateChangeTrigger.Delay"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],SetPropertyItem method, Image.SetPropertyItem, I
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.SetPropertyItem"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

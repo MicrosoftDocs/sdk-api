@@ -12,6 +12,8 @@ ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob func
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CertSelectionGetSerializedBlob"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECO
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_LOG_RECORD_TRUNCATE
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

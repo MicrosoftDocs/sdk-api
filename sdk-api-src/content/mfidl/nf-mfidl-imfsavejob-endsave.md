@@ -12,6 +12,8 @@ ms.keywords: 9d63d7b5-4454-4301-b467-eea82bace6ff, EndSave, EndSave method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSaveJob.EndSave"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

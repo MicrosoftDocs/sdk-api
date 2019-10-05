@@ -12,6 +12,8 @@ ms.keywords: MetafileType, MetafileType enumeration [GDI+], MetafileTypeEmf, Met
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/MetafileType"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

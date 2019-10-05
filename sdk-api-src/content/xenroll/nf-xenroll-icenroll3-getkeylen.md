@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],GetKeyLen method, GetKeyLen, GetKeyLen me
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.GetKeyLen"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

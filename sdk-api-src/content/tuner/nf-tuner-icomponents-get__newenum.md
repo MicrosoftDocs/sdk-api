@@ -12,6 +12,8 @@ ms.keywords: IComponents interface [Microsoft TV Technologies],get__NewEnum meth
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponents.get__NewEnum"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

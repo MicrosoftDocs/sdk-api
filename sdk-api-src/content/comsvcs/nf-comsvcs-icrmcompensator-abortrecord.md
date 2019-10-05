@@ -12,6 +12,8 @@ ms.keywords: AbortRecord, AbortRecord method [COM+], AbortRecord method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.AbortRecord"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

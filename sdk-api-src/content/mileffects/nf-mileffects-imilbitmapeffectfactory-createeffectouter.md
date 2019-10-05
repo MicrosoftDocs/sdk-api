@@ -12,6 +12,8 @@ ms.keywords: CreateEffectOuter, CreateEffectOuter method [WPF Bitmap Effects], C
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectFactory.CreateEffectOuter"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

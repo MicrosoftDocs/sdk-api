@@ -12,6 +12,8 @@ ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory
 ms.topic: function
 f1_keywords:
 - dsparse/DsIsMangledRdnValue
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

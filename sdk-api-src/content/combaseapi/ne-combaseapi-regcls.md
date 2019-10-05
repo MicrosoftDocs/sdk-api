@@ -12,6 +12,8 @@ ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_AGILE, REGCLS_MULTIPLEUSE,
 ms.topic: enum
 f1_keywords: 
  - "combaseapi/REGCLS"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

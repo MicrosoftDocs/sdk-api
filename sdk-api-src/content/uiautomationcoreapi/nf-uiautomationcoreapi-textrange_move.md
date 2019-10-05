@@ -12,6 +12,8 @@ ms.keywords: TextRange_Move, TextRange_Move function [Windows Accessibility], ui
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_Move"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDe
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

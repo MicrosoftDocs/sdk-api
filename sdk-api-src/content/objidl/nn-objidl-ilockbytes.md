@@ -12,6 +12,8 @@ ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes i
 ms.topic: interface
 f1_keywords: 
  - "objidl/ILockBytes"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

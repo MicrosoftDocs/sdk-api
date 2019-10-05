@@ -12,6 +12,8 @@ ms.keywords: 7f99dca9-036c-f8a6-79ea-5316af7e1124, D3D10_EFFECT_SHADER_DESC, D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d10effect/D3D10_EFFECT_SHADER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

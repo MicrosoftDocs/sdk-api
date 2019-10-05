@@ -12,6 +12,8 @@ ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnable
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IRunnableTask.IsRunning"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

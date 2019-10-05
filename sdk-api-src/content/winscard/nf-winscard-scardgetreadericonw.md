@@ -12,6 +12,8 @@ ms.keywords: SCardGetReaderIcon, SCardGetReaderIcon function [Security], SCardGe
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetReaderIcon"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

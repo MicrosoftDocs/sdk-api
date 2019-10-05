@@ -12,6 +12,8 @@ ms.keywords: "*POPEN_PRINTER_PROPS_INFOW, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_
 ms.topic: struct
 f1_keywords: 
  - "shellapi/OPEN_PRINTER_PROPS_INFO"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

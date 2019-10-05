@@ -12,6 +12,8 @@ ms.keywords: GetDataCollectorSets, GetDataCollectorSets method [PLA], GetDataCol
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSetCollection.GetDataCollectorSets"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CachedFullDescription property [Windows Accessibility], CachedFullD
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement6.CachedFullDescription"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpV4FailoverGetSystemTime"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

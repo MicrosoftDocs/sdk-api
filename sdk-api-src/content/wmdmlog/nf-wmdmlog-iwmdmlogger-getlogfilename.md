@@ -12,6 +12,8 @@ ms.keywords: GetLogFileName, GetLogFileName method [windows Media Device Manager
 ms.topic: method
 f1_keywords: 
  - "wmdmlog/IWMDMLogger.GetLogFileName"
+dev_langs:
+ - c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

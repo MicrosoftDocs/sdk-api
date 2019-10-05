@@ -12,6 +12,8 @@ ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _she
 ms.topic: function
 f1_keywords: 
  - "intsafe/SIZETToInt"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

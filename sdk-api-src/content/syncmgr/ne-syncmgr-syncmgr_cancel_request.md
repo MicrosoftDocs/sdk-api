@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_CANCEL_REQUEST"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

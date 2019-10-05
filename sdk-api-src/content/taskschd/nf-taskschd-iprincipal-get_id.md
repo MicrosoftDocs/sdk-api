@@ -12,6 +12,8 @@ ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, I
 ms.topic: method
 f1_keywords: 
  - "taskschd/IPrincipal.Id"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

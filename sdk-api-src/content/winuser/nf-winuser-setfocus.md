@@ -12,6 +12,8 @@ ms.keywords: SetFocus, SetFocus function [Keyboard and Mouse Input], _win32_SetF
 ms.topic: function
 f1_keywords: 
  - "winuser/SetFocus"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

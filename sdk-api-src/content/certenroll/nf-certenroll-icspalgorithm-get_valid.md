@@ -12,6 +12,8 @@ ms.keywords: ICspAlgorithm interface [Security],Valid property, ICspAlgorithm.Va
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithm.Valid"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

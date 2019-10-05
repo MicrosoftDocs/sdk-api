@@ -12,6 +12,8 @@ ms.keywords: PRJ_CANCEL_COMMAND_CB, PRJ_CANCEL_COMMAND_CB callback, PRJ_CANCEL_C
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_CANCEL_COMMAND_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

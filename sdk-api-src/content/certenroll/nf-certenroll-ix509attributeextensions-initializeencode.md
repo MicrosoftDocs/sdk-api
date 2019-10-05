@@ -12,6 +12,8 @@ ms.keywords: IX509AttributeExtensions interface [Security],InitializeEncode meth
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeExtensions.InitializeEncode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

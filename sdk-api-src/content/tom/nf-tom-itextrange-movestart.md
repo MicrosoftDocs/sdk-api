@@ -12,6 +12,8 @@ ms.keywords: ITextRange interface [Windows Controls],MoveStart method, ITextRang
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.MoveStart"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleContainer interface [COM],LockContainer method, IOleContainer.L
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleContainer.LockContainer"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IValueMap interface, 
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMap.Clear"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

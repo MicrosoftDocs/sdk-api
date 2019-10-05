@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceFinderCallback interface [UPnP APIs],SearchComplete meth
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceFinderCallback.SearchComplete"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

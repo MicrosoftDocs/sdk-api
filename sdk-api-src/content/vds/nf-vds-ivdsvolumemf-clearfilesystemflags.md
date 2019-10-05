@@ -12,6 +12,8 @@ ms.keywords: ClearFileSystemFlags, ClearFileSystemFlags method [VDS], ClearFileS
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.ClearFileSystemFlags
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

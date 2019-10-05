@@ -12,6 +12,8 @@ ms.keywords: "*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices],
 ms.topic: struct
 f1_keywords: 
  - "msapofxproxy/KSP_PINMODE"
+dev_langs:
+ - c++
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows

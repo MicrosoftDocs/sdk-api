@@ -12,6 +12,8 @@ ms.keywords: 897a048a-44fc-4176-acd9-5944f184b34a, GetPlatformWorkQueueMMCSSTask
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.GetPlatformWorkQueueMMCSSTaskId"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_TIF_REGISTRATION, IBDA_TIF_REGISTRATION interface [Microsoft T
 ms.topic: interface
 f1_keywords: 
  - "bdatif/IBDA_TIF_REGISTRATION"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

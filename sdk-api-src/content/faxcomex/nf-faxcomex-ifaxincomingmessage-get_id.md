@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage interface [Fax Service],Id property, IFaxIncomi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage.Id"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

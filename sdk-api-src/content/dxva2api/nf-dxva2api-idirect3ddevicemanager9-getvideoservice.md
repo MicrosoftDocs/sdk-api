@@ -12,6 +12,8 @@ ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoServ
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.GetVideoService"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

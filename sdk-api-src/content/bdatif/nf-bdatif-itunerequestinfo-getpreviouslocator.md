@@ -12,6 +12,8 @@ ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.GetPreviousLocator"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAI
 ms.topic: struct
 f1_keywords: 
  - "dwmapi/DWM_THUMBNAIL_PROPERTIES"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

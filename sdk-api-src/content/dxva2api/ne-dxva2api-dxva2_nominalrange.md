@@ -12,6 +12,8 @@ ms.keywords: DXVA2_NominalRange, DXVA2_NominalRange enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_NominalRange
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextServices2 interface [Windows Controls],TxDrawD2D method, IText
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextServices2.TxDrawD2D"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

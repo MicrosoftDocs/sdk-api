@@ -12,6 +12,8 @@ ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDevice method, IUPnP
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRegistrar.UnregisterDevice"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, 
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPinEvents.OnUnblockComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

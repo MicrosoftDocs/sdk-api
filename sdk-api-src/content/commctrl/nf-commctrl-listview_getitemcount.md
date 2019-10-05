@@ -12,6 +12,8 @@ ms.keywords: ListView_GetItemCount, ListView_GetItemCount macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetItemCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

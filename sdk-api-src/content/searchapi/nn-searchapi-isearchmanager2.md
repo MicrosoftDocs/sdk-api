@@ -12,6 +12,8 @@ ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager
 ms.topic: interface
 f1_keywords: 
  - "searchapi/ISearchManager2"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

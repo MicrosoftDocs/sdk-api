@@ -12,6 +12,8 @@ ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformat
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformation.KeySpec"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

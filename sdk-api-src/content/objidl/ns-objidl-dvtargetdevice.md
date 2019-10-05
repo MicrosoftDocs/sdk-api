@@ -12,6 +12,8 @@ ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE
 ms.topic: struct
 f1_keywords: 
  - "objidl/DVTARGETDEVICE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

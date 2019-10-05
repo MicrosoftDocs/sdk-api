@@ -12,6 +12,8 @@ ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [I
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwService.GloballyOpenPorts"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

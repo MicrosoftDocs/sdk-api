@@ -12,6 +12,8 @@ ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNO
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBstrCmp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], Ge
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDdsFrameDecode.GetFormatInfo"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

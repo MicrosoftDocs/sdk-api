@@ -12,6 +12,8 @@ ms.keywords: GetVisibleBounds, GetVisibleBounds method [Windows Runtime], GetVis
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetVisibleBounds"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

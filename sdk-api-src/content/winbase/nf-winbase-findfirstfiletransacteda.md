@@ -12,6 +12,8 @@ ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFil
 ms.topic: function
 f1_keywords:
 - winbase/FindFirstFileTransacted
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

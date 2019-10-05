@@ -12,6 +12,8 @@ ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsQuerySitesFree"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

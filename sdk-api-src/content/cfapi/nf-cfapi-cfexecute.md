@@ -12,6 +12,8 @@ ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfExecute"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

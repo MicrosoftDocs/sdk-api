@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain interface [DXGI],SetFullscreenState method, IDXGISwa
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.SetFullscreenState"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

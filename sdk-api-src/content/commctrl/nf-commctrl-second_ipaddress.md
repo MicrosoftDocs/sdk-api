@@ -12,6 +12,8 @@ ms.keywords: SECOND_IPADDRESS, SECOND_IPADDRESS macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/SECOND_IPADDRESS"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

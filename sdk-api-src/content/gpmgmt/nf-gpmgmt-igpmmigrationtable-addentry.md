@@ -12,6 +12,8 @@ ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrati
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable.AddEntry"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

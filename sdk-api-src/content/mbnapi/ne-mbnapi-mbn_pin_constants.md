@@ -12,6 +12,8 @@ ms.keywords: MBN_ATTEMPTS_REMAINING_UNKNOWN, MBN_PIN_CONSTANTS, MBN_PIN_CONSTANT
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_PIN_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

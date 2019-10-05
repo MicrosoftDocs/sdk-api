@@ -12,6 +12,8 @@ ms.keywords: IMathInputControl interface [Tablet PC],SetOwnerWindow method, IMat
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.SetOwnerWindow"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadat
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetBackupMetadata"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

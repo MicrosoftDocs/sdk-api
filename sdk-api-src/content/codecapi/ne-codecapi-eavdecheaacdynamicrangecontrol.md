@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecHEAACDynamicRangeControl, codecapi/eAVDecHEAACDynami
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecHEAACDynamicRangeControl"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

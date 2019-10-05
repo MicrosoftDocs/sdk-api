@@ -12,6 +12,8 @@ ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolume
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.GetVolumeStepInfo"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

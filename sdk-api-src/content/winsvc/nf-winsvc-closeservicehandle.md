@@ -12,6 +12,8 @@ ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservic
 ms.topic: function
 f1_keywords: 
  - "winsvc/CloseServiceHandle"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

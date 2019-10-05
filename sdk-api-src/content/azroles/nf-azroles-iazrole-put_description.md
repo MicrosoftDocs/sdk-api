@@ -12,6 +12,8 @@ ms.keywords: AzRole object [Security],Description property, Description property
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRole.Description"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

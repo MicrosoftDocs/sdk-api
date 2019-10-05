@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointOffloadStreamMute interface [Core Audio],SetMute meth
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

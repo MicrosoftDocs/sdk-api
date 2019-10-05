@@ -12,6 +12,8 @@ ms.keywords: ISpellChecker interface [Internationalization for Windows Applicati
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.LocalizedName"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

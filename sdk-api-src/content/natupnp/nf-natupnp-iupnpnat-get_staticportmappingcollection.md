@@ -12,6 +12,8 @@ ms.keywords: IUPnPNAT interface [ICS/ICF],get_StaticPortMappingCollection method
 ms.topic: method
 f1_keywords: 
  - "natupnp/IUPnPNAT.get_StaticPortMappingCollection"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

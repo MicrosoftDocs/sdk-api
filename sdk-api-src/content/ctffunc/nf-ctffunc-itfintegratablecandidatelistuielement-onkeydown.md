@@ -12,6 +12,8 @@ ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Fram
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfIntegratableCandidateListUIElement.OnKeyDown"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

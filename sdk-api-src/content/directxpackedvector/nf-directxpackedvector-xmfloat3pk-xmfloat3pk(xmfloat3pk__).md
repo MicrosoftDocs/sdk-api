@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMFLOAT3SE.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

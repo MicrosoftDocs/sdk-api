@@ -12,6 +12,8 @@ ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceT
 ms.topic: enum
 f1_keywords:
 - tdh/DECODING_SOURCE
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

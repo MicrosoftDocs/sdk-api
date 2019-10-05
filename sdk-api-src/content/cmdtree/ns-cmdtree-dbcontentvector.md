@@ -12,6 +12,8 @@ ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idx
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBCONTENTVECTOR"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

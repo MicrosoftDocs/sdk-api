@@ -12,6 +12,8 @@ ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFileTransacted, CreateFileTrans
 ms.topic: function
 f1_keywords:
 - winbase/CreateFileTransacted
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

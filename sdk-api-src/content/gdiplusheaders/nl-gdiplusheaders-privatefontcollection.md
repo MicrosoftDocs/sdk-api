@@ -12,6 +12,8 @@ ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+], PrivateF
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/PrivateFontCollection"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

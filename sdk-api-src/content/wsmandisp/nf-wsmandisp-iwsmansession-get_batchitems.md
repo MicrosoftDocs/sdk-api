@@ -12,6 +12,8 @@ ms.keywords: BatchItems property [Windows Remote Management], BatchItems propert
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.BatchItems"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

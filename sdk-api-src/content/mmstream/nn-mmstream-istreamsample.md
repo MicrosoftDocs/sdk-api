@@ -12,6 +12,8 @@ ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample 
 ms.topic: interface
 f1_keywords: 
  - "mmstream/IStreamSample"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [UPnP APIs], Abort method [UPnP APIs],IUPnPDesc
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.Abort"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

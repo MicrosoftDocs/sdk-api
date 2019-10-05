@@ -12,6 +12,8 @@ ms.keywords: SetIScsiInitiatorNodeNameW, SetIscsiInitiatorNodeName, SetIscsiInit
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/SetIscsiInitiatorNodeName"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

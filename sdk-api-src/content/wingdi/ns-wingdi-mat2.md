@@ -12,6 +12,8 @@ ms.keywords: "*LPMAT2, LPMAT2, LPMAT2 structure pointer [Windows GDI], MAT2, MAT
 ms.topic: struct
 f1_keywords: 
  - "wingdi/MAT2"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetModuleFileName, GetModuleFileName function, GetModuleFileNameA, 
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/GetModuleFileName"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

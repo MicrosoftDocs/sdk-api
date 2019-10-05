@@ -12,6 +12,8 @@ ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Wi
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetDouble"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

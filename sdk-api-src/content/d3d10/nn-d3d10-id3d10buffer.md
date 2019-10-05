@@ -12,6 +12,8 @@ ms.keywords: 8a6172fe-deac-4b70-fb31-07255d702e32, ID3D10Buffer, ID3D10Buffer in
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10Buffer"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

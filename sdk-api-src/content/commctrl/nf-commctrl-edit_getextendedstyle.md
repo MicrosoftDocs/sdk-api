@@ -12,6 +12,8 @@ ms.keywords: Edit_GetExtendedStyle, Edit_GetExtendedStyle macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetExtendedStyle"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

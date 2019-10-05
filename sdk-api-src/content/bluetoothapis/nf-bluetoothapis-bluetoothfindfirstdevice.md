@@ -12,6 +12,8 @@ ms.keywords: BluetoothFindFirstDevice, BluetoothFindFirstDevice function [Blueto
 ms.topic: function
 f1_keywords: 
  - "bluetoothapis/BluetoothFindFirstDevice"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

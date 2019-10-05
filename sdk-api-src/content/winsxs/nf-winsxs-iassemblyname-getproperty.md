@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Side-by-side Assemblies], GetPrope
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyName.GetProperty"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

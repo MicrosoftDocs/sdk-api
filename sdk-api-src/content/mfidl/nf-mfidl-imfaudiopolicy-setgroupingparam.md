@@ -12,6 +12,8 @@ ms.keywords: 2c024208-f13f-4fd1-b5a8-b881af226670, IMFAudioPolicy interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.SetGroupingParam"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

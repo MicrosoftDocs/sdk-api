@@ -12,6 +12,8 @@ ms.keywords: Edit_SetText, Edit_SetText macro [Windows Controls], _win32_Edit_Se
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetText"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

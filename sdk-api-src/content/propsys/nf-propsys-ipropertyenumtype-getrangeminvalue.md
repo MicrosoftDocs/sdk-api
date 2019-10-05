@@ -12,6 +12,8 @@ ms.keywords: GetRangeMinValue, GetRangeMinValue method [Windows Properties], Get
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType.GetRangeMinValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

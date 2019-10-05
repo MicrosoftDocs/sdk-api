@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO struct
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_ENABLE_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

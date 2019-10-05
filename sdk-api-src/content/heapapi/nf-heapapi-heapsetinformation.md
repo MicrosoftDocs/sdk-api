@@ -12,6 +12,8 @@ ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, He
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapSetInformation"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

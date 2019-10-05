@@ -12,6 +12,8 @@ ms.keywords: SfcGetNextProtectedFile, SfcGetNextProtectedFile function [Setup AP
 ms.topic: function
 f1_keywords: 
  - "sfc/SfcGetNextProtectedFile"
+dev_langs:
+ - c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows

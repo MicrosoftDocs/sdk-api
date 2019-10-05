@@ -12,6 +12,8 @@ ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfde
 ms.topic: function
 f1_keywords:
 - perflib/PerfDeleteInstance
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

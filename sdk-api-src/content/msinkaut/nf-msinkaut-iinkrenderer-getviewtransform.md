@@ -12,6 +12,8 @@ ms.keywords: 8a4d768d-09b6-45e1-b412-e267d92cc3ef, GetViewTransform, GetViewTran
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.GetViewTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

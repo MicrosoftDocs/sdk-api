@@ -12,6 +12,8 @@ ms.keywords: IMediaSample interface [DirectShow],IsPreroll method, IMediaSample.
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.IsPreroll"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

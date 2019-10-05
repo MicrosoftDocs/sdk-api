@@ -12,6 +12,8 @@ ms.keywords: ColumnClick, ColumnClick method [Windows Shell], ColumnClick method
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellDetails.ColumnClick"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

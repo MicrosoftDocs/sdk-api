@@ -12,6 +12,8 @@ ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, w
 ms.topic: function
 f1_keywords: 
  - "filehc/InsertFile"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

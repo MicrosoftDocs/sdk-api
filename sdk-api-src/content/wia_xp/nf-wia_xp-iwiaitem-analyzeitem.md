@@ -12,6 +12,8 @@ ms.keywords: AnalyzeItem, AnalyzeItem method [WIA], AnalyzeItem method [WIA],IWi
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.AnalyzeItem"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

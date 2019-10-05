@@ -12,6 +12,8 @@ ms.keywords: EnumFiles, EnumFiles method [Windows Runtime], EnumFiles method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.EnumFiles"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

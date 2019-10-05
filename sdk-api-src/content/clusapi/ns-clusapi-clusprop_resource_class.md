@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOU
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_RESOURCE_CLASS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

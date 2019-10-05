@@ -12,6 +12,8 @@ ms.keywords: AddEntry, AddEntry method [Windows Shell], AddEntry method [Windows
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.AddEntry"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

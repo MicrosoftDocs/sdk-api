@@ -8,6 +8,10 @@ ms.author: windowssdkdev
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
 ms.topic: interface
+f1_keywords:
+ - IDWriteFontResource
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

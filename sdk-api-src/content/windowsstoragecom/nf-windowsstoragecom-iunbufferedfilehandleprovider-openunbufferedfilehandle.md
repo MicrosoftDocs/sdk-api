@@ -12,6 +12,8 @@ ms.keywords: IUnbufferedFileHandleProvider interface [Windows Runtime],OpenUnbuf
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

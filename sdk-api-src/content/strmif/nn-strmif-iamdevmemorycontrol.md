@@ -12,6 +12,8 @@ ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IA
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMDevMemoryControl"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

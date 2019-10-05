@@ -12,6 +12,8 @@ ms.keywords: '*PFH_TARGET_PROPERTY_TYPE, FH_TARGET_DRIVE_TYPE, FH_TARGET_NAME, F
 ms.topic: enum
 f1_keywords:
 - fhcfg/FH_TARGET_PROPERTY_TYPE
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

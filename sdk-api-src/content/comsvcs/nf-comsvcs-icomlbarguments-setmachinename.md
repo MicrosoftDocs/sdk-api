@@ -12,6 +12,8 @@ ms.keywords: ICOMLBArguments interface [COM+],SetMachineName method, ICOMLBArgum
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICOMLBArguments.SetMachineName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

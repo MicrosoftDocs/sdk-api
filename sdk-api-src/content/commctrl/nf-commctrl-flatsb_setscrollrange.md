@@ -12,6 +12,8 @@ ms.keywords: FlatSB_SetScrollRange, FlatSB_SetScrollRange function [Windows Cont
 ms.topic: function
 f1_keywords: 
  - "commctrl/FlatSB_SetScrollRange"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

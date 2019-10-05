@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreHalf2, XMStoreHalf2, XMStoreHalf2 meth
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreHalf2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

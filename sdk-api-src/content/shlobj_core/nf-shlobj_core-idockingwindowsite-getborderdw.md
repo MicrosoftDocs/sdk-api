@@ -12,6 +12,8 @@ ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IDockingWindowSite.GetBorderDW"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

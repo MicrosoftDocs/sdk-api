@@ -12,6 +12,8 @@ ms.keywords: CreateBrowserPropSheetExt, CreateBrowserPropSheetExt method [Window
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.CreateBrowserPropSheetExt"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

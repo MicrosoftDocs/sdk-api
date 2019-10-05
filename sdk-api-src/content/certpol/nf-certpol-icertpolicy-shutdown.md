@@ -12,6 +12,8 @@ ms.keywords: CCertPolicy object [Security],ShutDown method, ICertPolicy interfac
 ms.topic: method
 f1_keywords: 
  - "certpol/ICertPolicy2.ShutDown"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

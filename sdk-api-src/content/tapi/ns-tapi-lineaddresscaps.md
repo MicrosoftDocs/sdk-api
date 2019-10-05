@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEADDRESSCAPS, LINEADDRESSCAPS, LINEADDRESSCAPS structure [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEADDRESSCAPS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

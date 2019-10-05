@@ -12,6 +12,8 @@ ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property,
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.IssueDate"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

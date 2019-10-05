@@ -12,6 +12,8 @@ ms.keywords: GetCaretType, GetCaretType method [Windows Controls], GetCaretType 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetCaretType"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

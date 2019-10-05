@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortGetFlipStatus, DdVideoPortGetFlipStatus callback functio
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetFlipStatus
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

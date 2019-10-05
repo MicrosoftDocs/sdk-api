@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_UNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING struc
 ms.topic: struct
 f1_keywords: 
  - "lsalookup/LSA_UNICODE_STRING"
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

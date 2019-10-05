@@ -12,6 +12,8 @@ ms.keywords: '*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Files], PCREATE
 ms.topic: struct
 f1_keywords:
 - winioctl/CREATE_DISK
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

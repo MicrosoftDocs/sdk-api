@@ -12,6 +12,8 @@ ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateN
 ms.topic: method
 f1_keywords: 
  - "vidcap/IKsTopologyInfo.CreateNodeInstance"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/Me
 ms.topic: function
 f1_keywords: 
  - "winnt/MemoryBarrier"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

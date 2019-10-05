@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnTransformChan
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriterCallback2.OnTransformChange"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

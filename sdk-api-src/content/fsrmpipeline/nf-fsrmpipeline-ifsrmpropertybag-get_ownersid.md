@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],OwnerSid 
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.OwnerSid"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

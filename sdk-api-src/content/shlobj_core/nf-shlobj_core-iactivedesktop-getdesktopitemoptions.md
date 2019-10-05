@@ -12,6 +12,8 @@ ms.keywords: GetDesktopItemOptions, GetDesktopItemOptions method [Legacy Windows
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.GetDesktopItemOptions
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

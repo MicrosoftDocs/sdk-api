@@ -12,6 +12,8 @@ ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatu
 ms.topic: interface
 f1_keywords: 
  - "wsdclient/IWSDEventingStatus"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

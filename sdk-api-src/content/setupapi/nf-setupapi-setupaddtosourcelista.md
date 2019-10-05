@@ -12,6 +12,8 @@ ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], Se
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupAddToSourceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],Renderer property, IInkOverlay.Re
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.Renderer"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

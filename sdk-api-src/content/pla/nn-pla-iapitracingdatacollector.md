@@ -12,6 +12,8 @@ ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA],
 ms.topic: interface
 f1_keywords: 
  - "pla/IApiTracingDataCollector"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

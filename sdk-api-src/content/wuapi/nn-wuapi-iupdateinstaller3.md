@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstaller3, IUpdateInstaller3 interface [Windows Update Agen
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateInstaller3"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

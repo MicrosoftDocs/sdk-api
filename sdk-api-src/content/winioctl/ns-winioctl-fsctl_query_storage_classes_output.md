@@ -12,6 +12,8 @@ ms.keywords: '*PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FILE_STORAGE_TIER_FLAG_NO_SE
 ms.topic: struct
 f1_keywords:
 - winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

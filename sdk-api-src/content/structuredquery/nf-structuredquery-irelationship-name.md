@@ -12,6 +12,8 @@ ms.keywords: IRelationship interface [search],Name method, IRelationship.Name, I
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IRelationship.Name"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

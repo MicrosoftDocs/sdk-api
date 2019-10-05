@@ -12,6 +12,8 @@ ms.keywords: OpenPrivateNamespace, OpenPrivateNamespace function, OpenPrivateNam
 ms.topic: function
 f1_keywords: 
  - "winbase/OpenPrivateNamespace"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

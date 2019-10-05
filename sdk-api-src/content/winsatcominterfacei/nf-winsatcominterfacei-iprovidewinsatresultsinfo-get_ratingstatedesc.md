@@ -12,6 +12,8 @@ ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],RatingStateDesc proper
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo.RatingStateDesc"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

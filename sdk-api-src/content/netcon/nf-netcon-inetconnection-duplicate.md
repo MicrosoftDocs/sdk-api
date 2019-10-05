@@ -12,6 +12,8 @@ ms.keywords: Duplicate, Duplicate method [ICS/ICF], Duplicate method [ICS/ICF],I
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.Duplicate"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

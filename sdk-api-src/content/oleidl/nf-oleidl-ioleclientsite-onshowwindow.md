@@ -12,6 +12,8 @@ ms.keywords: IOleClientSite interface [COM],OnShowWindow method, IOleClientSite.
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.OnShowWindow"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

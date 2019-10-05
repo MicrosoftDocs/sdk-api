@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_ROLE, CLUSTER_ROLE enumeration [Failover Cluster], ClusterR
 ms.topic: enum
 f1_keywords: 
  - "resapi/CLUSTER_ROLE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetAuditWrite, NetAuditWrite function [Network Management], _win32_
 ms.topic: function
 f1_keywords: 
  - "lmaudit/NetAuditWrite"
+dev_langs:
+ - c++
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

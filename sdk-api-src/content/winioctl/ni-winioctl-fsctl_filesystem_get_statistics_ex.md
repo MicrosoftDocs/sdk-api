@@ -12,6 +12,8 @@ ms.keywords: FSCTL_FILESYSTEM_GET_STATISTICS_EX, FSCTL_FILESYSTEM_GET_STATISTICS
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_FILESYSTEM_GET_STATISTICS_EX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

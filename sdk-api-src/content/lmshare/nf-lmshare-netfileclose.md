@@ -12,6 +12,8 @@ ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, f
 ms.topic: function
 f1_keywords: 
  - "lmshare/NetFileClose"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

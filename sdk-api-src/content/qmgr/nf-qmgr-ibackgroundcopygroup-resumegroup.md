@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyGroup interface [BITS],ResumeGroup method, IBackgrou
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.ResumeGroup"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

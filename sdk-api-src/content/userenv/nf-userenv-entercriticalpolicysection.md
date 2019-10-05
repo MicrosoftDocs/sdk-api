@@ -12,6 +12,8 @@ ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Gr
 ms.topic: function
 f1_keywords: 
  - "userenv/EnterCriticalPolicySection"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

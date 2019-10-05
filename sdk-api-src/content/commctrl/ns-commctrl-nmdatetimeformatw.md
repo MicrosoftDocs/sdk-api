@@ -12,6 +12,8 @@ ms.keywords: '*LPNMDATETIMEFORMATW, LPNMDATETIMEFORMAT, LPNMDATETIMEFORMAT struc
 ms.topic: struct
 f1_keywords:
 - commctrl/NMDATETIMEFORMAT
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

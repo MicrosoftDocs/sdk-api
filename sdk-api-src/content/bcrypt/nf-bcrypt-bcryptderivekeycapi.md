@@ -12,6 +12,8 @@ ms.keywords: BCryptDeriveKeyCapi, BCryptDeriveKeyCapi function [Security], bcryp
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDeriveKeyCapi"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ADS_PROPERTY_APPEND, ADS_PROPERTY_CLEAR, ADS_PROPERTY_DELETE, ADS_P
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_PROPERTY_OPERATION_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

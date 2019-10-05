@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_DEFUSAGE
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

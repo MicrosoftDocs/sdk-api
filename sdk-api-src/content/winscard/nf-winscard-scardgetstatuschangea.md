@@ -12,6 +12,8 @@ ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCa
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetStatusChange"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream func
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetInterfaceAndReleaseStream"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

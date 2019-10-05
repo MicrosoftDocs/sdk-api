@@ -12,6 +12,8 @@ ms.keywords: URL_PARTFLAG_KEEPSCHEME, URL_PART_HOSTNAME, URL_PART_PASSWORD, URL_
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlGetPart"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

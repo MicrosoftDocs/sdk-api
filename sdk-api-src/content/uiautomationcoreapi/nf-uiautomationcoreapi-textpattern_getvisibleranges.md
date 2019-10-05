@@ -12,6 +12,8 @@ ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextPattern_GetVisibleRanges"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

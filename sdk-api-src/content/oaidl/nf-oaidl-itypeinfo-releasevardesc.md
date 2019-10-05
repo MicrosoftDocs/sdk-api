@@ -12,6 +12,8 @@ ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.R
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.ReleaseVarDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

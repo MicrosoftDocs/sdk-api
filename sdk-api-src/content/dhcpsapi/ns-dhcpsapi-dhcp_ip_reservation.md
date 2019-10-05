@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_IP_RESERVATION, DHCP_IP_RESERVATION, DHCP_IP_RESERVATION s
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RESERVATION
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

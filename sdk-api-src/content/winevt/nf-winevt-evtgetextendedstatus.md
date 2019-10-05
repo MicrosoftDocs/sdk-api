@@ -12,6 +12,8 @@ ms.keywords: EvtGetExtendedStatus, EvtGetExtendedStatus function [EventLog], wes
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtGetExtendedStatus"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

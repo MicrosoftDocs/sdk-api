@@ -12,6 +12,8 @@ ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure,
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

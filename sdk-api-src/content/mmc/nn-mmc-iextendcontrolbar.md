@@ -12,6 +12,8 @@ ms.keywords: IExtendControlbar, IExtendControlbar interface [MMC], IExtendContro
 ms.topic: interface
 f1_keywords: 
  - "mmc/IExtendControlbar"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

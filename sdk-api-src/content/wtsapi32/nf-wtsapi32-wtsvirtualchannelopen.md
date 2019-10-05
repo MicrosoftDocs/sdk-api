@@ -12,6 +12,8 @@ ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Deskt
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSVirtualChannelOpen"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

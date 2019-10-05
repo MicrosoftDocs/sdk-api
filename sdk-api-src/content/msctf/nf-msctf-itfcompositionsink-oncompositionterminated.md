@@ -12,6 +12,8 @@ ms.keywords: ITfCompositionSink interface [Text Services Framework],OnCompositio
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompositionSink.OnCompositionTerminated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

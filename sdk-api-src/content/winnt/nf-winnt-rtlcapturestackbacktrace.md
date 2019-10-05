@@ -12,6 +12,8 @@ ms.keywords: CaptureStackBackTrace, RtlCaptureStackBackTrace, RtlCaptureStackBac
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlCaptureStackBackTrace"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

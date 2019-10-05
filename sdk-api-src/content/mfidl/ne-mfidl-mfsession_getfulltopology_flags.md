@@ -12,6 +12,8 @@ ms.keywords: MFSESSION_GETFULLTOPOLOGY_CURRENT, MFSESSION_GETFULLTOPOLOGY_FLAGS,
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSESSION_GETFULLTOPOLOGY_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

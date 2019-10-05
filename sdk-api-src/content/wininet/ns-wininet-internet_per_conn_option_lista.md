@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, 
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_PER_CONN_OPTION_LIST"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

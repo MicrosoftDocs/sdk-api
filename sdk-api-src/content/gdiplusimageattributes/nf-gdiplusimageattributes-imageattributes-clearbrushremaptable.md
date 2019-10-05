@@ -12,6 +12,8 @@ ms.keywords: ClearBrushRemapTable, ClearBrushRemapTable method [GDI+], ClearBrus
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearBrushRemapTable"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

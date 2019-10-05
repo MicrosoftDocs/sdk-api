@@ -12,6 +12,8 @@ ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media
 ms.topic: interface
 f1_keywords: 
  - "contentpartner/IWMPContentContainer"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

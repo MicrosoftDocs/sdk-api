@@ -12,6 +12,8 @@ ms.keywords: CreateFileMoniker, CreateFileMoniker function [COM], _com_CreateFil
 ms.topic: function
 f1_keywords: 
  - "objbase/CreateFileMoniker"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

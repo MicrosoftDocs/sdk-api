@@ -12,6 +12,8 @@ ms.keywords: IMFLocalMFTRegistration interface [Media Foundation],RegisterMFTs m
 ms.topic: method
 f1_keywords:
 - mfidl/IMFLocalMFTRegistration.RegisterMFTs
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

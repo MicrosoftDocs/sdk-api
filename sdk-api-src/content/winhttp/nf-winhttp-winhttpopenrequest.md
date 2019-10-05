@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_FLAG_BYPASS_PROXY_CACHE, WINHTTP_FLAG_ESCAPE_DISABLE, WINHT
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpOpenRequest"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

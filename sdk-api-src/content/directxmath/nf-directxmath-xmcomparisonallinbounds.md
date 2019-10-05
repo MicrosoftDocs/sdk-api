@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMComparisonAllInBounds, XMComparisonAllInBounds, XMCo
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMComparisonAllInBounds"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

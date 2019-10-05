@@ -12,6 +12,8 @@ ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetCont
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMImageResource.SetContent"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

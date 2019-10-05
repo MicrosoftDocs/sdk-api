@@ -12,6 +12,8 @@ ms.keywords: RASP_Amb, RASP_PppCcp, RASP_PppIp, RASP_PppIpv6, RASP_PppIpx, RASP_
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetProjectionInfo"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

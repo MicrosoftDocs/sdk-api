@@ -12,6 +12,8 @@ ms.keywords: GetBackupTypeMask, GetBackupTypeMask method [VSS], GetBackupTypeMas
 ms.topic: method
 f1_keywords:
 - vswriter/IVssWMFiledesc.GetBackupTypeMask
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

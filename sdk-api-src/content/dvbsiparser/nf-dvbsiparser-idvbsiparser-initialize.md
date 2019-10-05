@@ -12,6 +12,8 @@ ms.keywords: IDvbSiParser interface [Microsoft TV Technologies],Initialize metho
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

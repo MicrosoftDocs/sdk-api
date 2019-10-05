@@ -12,6 +12,8 @@ ms.keywords: 58d641c0-a959-cca3-67e2-7290e9426e8e, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.SetStreamSource"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

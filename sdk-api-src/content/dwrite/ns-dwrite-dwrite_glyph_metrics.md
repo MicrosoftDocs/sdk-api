@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write]
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_GLYPH_METRICS"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName m
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ISearchFolderItemFactory.SetDisplayName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

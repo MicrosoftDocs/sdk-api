@@ -12,6 +12,8 @@ ms.keywords: '*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT
 ms.topic: struct
 f1_keywords:
 - mtpext/MTP_COMMAND_DATA_OUT
+dev_langs:
+ - c++
 req.header: mtpext.h
 req.include-header: 
 req.target-type: Windows

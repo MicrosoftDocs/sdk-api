@@ -12,6 +12,8 @@ ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime],
 ms.topic: struct
 f1_keywords: 
  - "roparameterizediid/IRoMetaDataLocator"
+dev_langs:
+ - c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows

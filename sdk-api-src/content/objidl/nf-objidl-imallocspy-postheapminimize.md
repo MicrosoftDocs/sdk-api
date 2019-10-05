@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.Post
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PostHeapMinimize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

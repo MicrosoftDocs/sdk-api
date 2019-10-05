@@ -12,6 +12,8 @@ ms.keywords: PSCreatePropertyStoreFromObject, PSCreatePropertyStoreFromObject fu
 ms.topic: function
 f1_keywords: 
  - "propsys/PSCreatePropertyStoreFromObject"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

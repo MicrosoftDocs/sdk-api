@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNI
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_UNIQUE_SESSION_ID"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

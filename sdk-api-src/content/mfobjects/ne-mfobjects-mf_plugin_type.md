@@ -12,6 +12,8 @@ ms.keywords: MF_Plugin_Type, MF_Plugin_Type enumeration [Media Foundation], MF_P
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_Plugin_Type"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

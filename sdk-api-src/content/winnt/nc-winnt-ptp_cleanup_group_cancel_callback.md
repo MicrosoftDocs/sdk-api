@@ -12,6 +12,8 @@ ms.keywords: PTP_CLEANUP_GROUP_CANCEL_CALLBACK, PTP_CLEANUP_GROUP_CANCEL_CALLBAC
 ms.topic: callback
 f1_keywords: 
  - "winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Managemen
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemBackupRestore"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

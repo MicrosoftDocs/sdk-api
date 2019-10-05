@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH, PFN_CRYPT_OBJECT_LOCATOR_P
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

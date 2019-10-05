@@ -12,6 +12,8 @@ ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.Re
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IBandSite.RemoveBand"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

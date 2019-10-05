@@ -12,6 +12,8 @@ ms.keywords: UnlockFile, UnlockFile function [Files], _win32_unlockfile, base.un
 ms.topic: function
 f1_keywords: 
  - "fileapi/UnlockFile"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

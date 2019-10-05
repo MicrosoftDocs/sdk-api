@@ -12,6 +12,8 @@ ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _
 ms.topic: function
 f1_keywords: 
  - "vfw/ICCompressorFree"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

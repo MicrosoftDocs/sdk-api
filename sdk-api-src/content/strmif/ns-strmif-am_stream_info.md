@@ -12,6 +12,8 @@ ms.keywords: AM_STREAM_INFO, AM_STREAM_INFO structure [DirectShow], AM_STREAM_IN
 ms.topic: struct
 f1_keywords: 
  - "strmif/AM_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

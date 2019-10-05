@@ -12,6 +12,8 @@ ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolu
 ms.topic: method
 f1_keywords: 
  - "audioclient/ISimpleAudioVolume.GetMasterVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

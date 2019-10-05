@@ -12,6 +12,8 @@ ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetSer
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetServices"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

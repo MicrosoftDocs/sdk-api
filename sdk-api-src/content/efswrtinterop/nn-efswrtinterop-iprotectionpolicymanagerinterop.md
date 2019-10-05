@@ -12,6 +12,8 @@ ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerIntero
 ms.topic: interface
 f1_keywords: 
  - "efswrtinterop/IProtectionPolicyManagerInterop"
+dev_langs:
+ - c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

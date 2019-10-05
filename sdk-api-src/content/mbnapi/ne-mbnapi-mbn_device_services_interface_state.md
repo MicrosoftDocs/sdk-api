@@ -12,6 +12,8 @@ ms.keywords: MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, MBN_DEVICE_SERVICES_
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_DEVICE_SERVICES_INTERFACE_STATE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

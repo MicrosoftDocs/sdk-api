@@ -12,6 +12,8 @@ ms.keywords: DiscardView1, DiscardView1 method [Direct3D 11], DiscardView1 metho
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3D11DeviceContext1.DiscardView1"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

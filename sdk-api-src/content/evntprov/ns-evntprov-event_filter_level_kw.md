@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL
 ms.topic: struct
 f1_keywords:
 - evntprov/EVENT_FILTER_LEVEL_KW
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

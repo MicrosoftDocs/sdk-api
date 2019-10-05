@@ -12,6 +12,8 @@ ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/Free
 ms.topic: function
 f1_keywords: 
  - "adshlp/FreeADsMem"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_NETWORK_CODES, CLUSCTL_NETWORK_CODES enumeration [Failover 
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_NETWORK_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

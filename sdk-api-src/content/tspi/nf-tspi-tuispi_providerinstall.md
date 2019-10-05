@@ -12,6 +12,8 @@ ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2],
 ms.topic: function
 f1_keywords: 
  - "tspi/TUISPI_providerInstall"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

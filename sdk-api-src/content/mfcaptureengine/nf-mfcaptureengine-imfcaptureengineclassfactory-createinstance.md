@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateIns
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngineClassFactory.CreateInstance"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

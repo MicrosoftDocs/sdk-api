@@ -12,6 +12,8 @@ ms.keywords: VariantToStringWithDefault, VariantToStringWithDefault function [Wi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToStringWithDefault"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

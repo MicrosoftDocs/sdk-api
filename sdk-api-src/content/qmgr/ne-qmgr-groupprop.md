@@ -12,6 +12,8 @@ ms.keywords: GROUPPROP, GROUPPROP enumeration [BITS], GROUPPROP_DESCRIPTION, GRO
 ms.topic: enum
 f1_keywords: 
  - "qmgr/GROUPPROP"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

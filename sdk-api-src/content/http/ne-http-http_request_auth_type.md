@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE enumeration [HT
 ms.topic: enum
 f1_keywords:
 - http/HTTP_REQUEST_AUTH_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

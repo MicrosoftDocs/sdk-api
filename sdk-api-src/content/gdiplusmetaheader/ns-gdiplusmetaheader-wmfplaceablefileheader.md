@@ -12,6 +12,8 @@ ms.keywords: WmfPlaceableFileHeader, WmfPlaceableFileHeader structure [GDI+], _g
 ms.topic: struct
 f1_keywords: 
  - "gdiplusmetaheader/WmfPlaceableFileHeader"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

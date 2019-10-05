@@ -12,6 +12,8 @@ ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCom
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.EndCommit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

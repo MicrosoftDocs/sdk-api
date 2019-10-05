@@ -13,6 +13,8 @@ ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVI
 ms.topic: interface
 f1_keywords: 
  - "vfw/IAVIEditStream"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

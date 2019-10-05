@@ -12,6 +12,8 @@ ms.keywords: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44, GetBorderColor, GetBorderColo
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetBorderColor"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

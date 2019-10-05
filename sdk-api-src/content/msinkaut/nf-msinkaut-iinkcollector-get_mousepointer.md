@@ -12,6 +12,8 @@ ms.keywords: 8876b0ef-1a61-481b-ac37-9e4d637f8097, IInkCollector interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.MousePointer"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

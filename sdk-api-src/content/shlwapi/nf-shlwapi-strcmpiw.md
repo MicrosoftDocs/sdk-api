@@ -12,6 +12,8 @@ ms.keywords: StrCmpI, StrCmpI function [Windows Shell], StrCmpIW, _win32_StrCmpI
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrCmpI"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

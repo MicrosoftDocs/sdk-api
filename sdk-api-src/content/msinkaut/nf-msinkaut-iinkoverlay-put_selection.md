@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],Selection property, IInkOverlay.S
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.Selection"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

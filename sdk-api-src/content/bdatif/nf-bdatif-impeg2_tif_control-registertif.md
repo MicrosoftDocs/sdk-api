@@ -12,6 +12,8 @@ ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTI
 ms.topic: method
 f1_keywords: 
  - "bdatif/IMPEG2_TIF_CONTROL.RegisterTIF"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_
 ms.topic: function
 f1_keywords: 
  - "winsafer/SaferCreateLevel"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

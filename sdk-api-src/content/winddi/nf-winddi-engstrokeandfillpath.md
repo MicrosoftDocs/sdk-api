@@ -12,6 +12,8 @@ ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/EngStrokeAndFillPath
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

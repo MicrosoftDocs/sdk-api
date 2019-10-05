@@ -12,6 +12,8 @@ ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11sh
 ms.topic: struct
 f1_keywords: 
  - "d3d11shadertracing/D3D11_TRACE_STEP"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

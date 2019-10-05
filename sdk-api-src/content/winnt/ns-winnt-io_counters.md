@@ -12,6 +12,8 @@ ms.keywords: "*PIO_COUNTERS, IO_COUNTERS, IO_COUNTERS structure, PIO_COUNTERS, P
 ms.topic: struct
 f1_keywords: 
  - "winnt/IO_COUNTERS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

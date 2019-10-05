@@ -12,6 +12,8 @@ ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, 
 ms.topic: function
 f1_keywords: 
  - "rpcdce/DceErrorInqText"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

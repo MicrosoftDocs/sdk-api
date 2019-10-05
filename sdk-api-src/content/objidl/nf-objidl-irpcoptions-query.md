@@ -12,6 +12,8 @@ ms.keywords: IRpcOptions interface [COM],Query method, IRpcOptions.Query, IRpcOp
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcOptions.Query"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

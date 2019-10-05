@@ -12,6 +12,8 @@ ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptVerifyCertificateSignatureEx
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

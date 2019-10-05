@@ -12,6 +12,8 @@ ms.keywords: LookupIconIdFromDirectory, LookupIconIdFromDirectory function [Menu
 ms.topic: function
 f1_keywords: 
  - "winuser/LookupIconIdFromDirectory"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

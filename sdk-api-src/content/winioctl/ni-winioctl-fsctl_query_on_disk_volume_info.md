@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_ON_DISK_VOLUME_INFO, FSCTL_QUERY_ON_DISK_VOLUME_INFO co
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

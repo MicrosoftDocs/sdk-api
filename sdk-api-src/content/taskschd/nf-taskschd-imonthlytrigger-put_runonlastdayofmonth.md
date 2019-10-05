@@ -12,6 +12,8 @@ ms.keywords: IMonthlyTrigger interface [Task Scheduler],RunOnLastDayOfMonth prop
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMonthlyTrigger.RunOnLastDayOfMonth"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

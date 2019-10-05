@@ -12,6 +12,8 @@ ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portab
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager.GetDeviceManufacturer"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

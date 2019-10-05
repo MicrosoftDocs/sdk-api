@@ -12,6 +12,8 @@ ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CM
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgOpenToEncode
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

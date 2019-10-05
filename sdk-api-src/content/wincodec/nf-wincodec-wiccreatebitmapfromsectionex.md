@@ -12,6 +12,8 @@ ms.keywords: WICCreateBitmapFromSectionEx, WICCreateBitmapFromSectionEx function
 ms.topic: function
 f1_keywords: 
  - "wincodec/WICCreateBitmapFromSectionEx"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],Pen class,
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetColor"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

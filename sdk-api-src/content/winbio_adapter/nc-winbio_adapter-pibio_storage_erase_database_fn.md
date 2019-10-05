@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_ERASE_DATABASE_FN, PIBIO_STORAGE_ERASE_DATABASE_FN ca
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterEraseDatabase
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

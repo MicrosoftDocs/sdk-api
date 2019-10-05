@@ -12,6 +12,8 @@ ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString fun
 ms.topic: function
 f1_keywords:
 - winternl/RtlUnicodeStringToOemString
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

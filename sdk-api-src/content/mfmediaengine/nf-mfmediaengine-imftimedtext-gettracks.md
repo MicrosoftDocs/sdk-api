@@ -12,6 +12,8 @@ ms.keywords: GetTracks, GetTracks method [Media Foundation], GetTracks method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.GetTracks"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8504e79a-bae1-cad5-dbaa-31ce196070b2, CSGetShaderResources, CSGetSh
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSGetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

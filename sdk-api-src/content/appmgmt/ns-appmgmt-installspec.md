@@ -12,6 +12,8 @@ ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], appmgmt/INSTALLSPEC,
 ms.topic: struct
 f1_keywords:
 - appmgmt/INSTALLSPEC
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

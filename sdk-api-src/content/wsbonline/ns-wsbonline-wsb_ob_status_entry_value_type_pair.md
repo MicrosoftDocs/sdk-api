@@ -12,6 +12,8 @@ ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE
 ms.topic: struct
 f1_keywords:
 - wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

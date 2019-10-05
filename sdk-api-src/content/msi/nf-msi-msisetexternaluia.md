@@ -12,6 +12,8 @@ ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMO
 ms.topic: function
 f1_keywords: 
  - "msi/MsiSetExternalUI"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callba
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportProviderDumpState"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

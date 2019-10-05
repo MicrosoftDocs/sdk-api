@@ -12,6 +12,8 @@ ms.keywords: GetModuleInformation, GetModuleInformation function [PSAPI], K32Get
 ms.topic: function
 f1_keywords:
 - psapi/GetModuleInformation
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

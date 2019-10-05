@@ -12,6 +12,8 @@ ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], she
 ms.topic: struct
 f1_keywords: 
  - "shtypes/COMDLG_FILTERSPEC"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

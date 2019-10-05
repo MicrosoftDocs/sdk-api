@@ -12,6 +12,8 @@ ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_
 ms.topic: struct
 f1_keywords: 
  - "winnt/MEM_ADDRESS_REQUIREMENTS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

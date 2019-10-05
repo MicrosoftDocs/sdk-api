@@ -12,6 +12,8 @@ ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_cert
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindRDNAttr
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

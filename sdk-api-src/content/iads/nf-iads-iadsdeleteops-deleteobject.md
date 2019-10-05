@@ -12,6 +12,8 @@ ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI
 ms.topic: method
 f1_keywords: 
  - "iads/IADsDeleteOps.DeleteObject"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

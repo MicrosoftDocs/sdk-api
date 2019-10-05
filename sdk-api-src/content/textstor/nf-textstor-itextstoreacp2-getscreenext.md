@@ -12,6 +12,8 @@ ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScr
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP2.GetScreenExt"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

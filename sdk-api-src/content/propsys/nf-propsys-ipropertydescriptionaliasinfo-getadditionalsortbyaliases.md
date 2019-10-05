@@ -12,6 +12,8 @@ ms.keywords: GetAdditionalSortByAliases, GetAdditionalSortByAliases method [Wind
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

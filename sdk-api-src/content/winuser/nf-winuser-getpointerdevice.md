@@ -12,6 +12,8 @@ ms.keywords: GetPointerDevice, GetPointerDevice function, input_pointerdevice.ge
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerDevice"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalL
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.GetTotalLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

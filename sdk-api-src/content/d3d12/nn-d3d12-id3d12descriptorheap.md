@@ -12,6 +12,8 @@ ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12Descrip
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12DescriptorHeap"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

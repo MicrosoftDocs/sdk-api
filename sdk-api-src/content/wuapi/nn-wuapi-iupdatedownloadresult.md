@@ -12,6 +12,8 @@ ms.keywords: IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Upd
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateDownloadResult"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

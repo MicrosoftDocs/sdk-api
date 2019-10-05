@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [RDP], GetBuffer method [RDP],IRDPSRAPI
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAudioStream.GetBuffer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

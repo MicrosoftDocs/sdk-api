@@ -12,6 +12,8 @@ ms.keywords: '*PDD_CALLBACKS, DD_CALLBACKS, DD_CALLBACKS structure [Display Devi
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CALLBACKS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

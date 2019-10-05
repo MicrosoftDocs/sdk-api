@@ -12,6 +12,8 @@ ms.keywords: ConnectorType, ConnectorType , ConnectorType enumeration [Core Audi
 ms.topic: enum
 f1_keywords: 
  - "devicetopology/ConnectorType"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

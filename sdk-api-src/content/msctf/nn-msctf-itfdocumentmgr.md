@@ -12,6 +12,8 @@ ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework],
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfDocumentMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

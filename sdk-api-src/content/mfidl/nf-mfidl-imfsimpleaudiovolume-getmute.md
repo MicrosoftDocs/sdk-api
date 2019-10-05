@@ -12,6 +12,8 @@ ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSimpleAudioVolume.GetMute"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISetti
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.Attributes"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

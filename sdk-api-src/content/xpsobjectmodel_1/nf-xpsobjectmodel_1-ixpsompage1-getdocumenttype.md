@@ -12,6 +12,8 @@ ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMPage1.GetDocumentType"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

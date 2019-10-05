@@ -12,6 +12,8 @@ ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig in
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderConfig.Configure"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

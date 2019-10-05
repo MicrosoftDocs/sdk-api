@@ -12,6 +12,8 @@ ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], Appen
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.AppendByteStream"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

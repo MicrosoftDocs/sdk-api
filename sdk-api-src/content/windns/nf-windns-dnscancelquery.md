@@ -12,6 +12,8 @@ ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, 
 ms.topic: function
 f1_keywords:
 - windns/DnsCancelQuery
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

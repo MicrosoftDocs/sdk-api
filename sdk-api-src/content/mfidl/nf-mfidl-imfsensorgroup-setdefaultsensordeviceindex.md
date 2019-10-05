@@ -12,6 +12,8 @@ ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceI
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorGroup.SetDefaultSensorDeviceIndex"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMCheckURLScheme, WMCheckURLScheme function [windows Media Format],
 ms.topic: function
 f1_keywords: 
  - "wmsdkvalidate/WMCheckURLScheme"
+dev_langs:
+ - c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

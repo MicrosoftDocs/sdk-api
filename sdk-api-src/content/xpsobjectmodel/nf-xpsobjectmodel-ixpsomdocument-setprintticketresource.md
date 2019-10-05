@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetPrintTick
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocument.SetPrintTicketResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

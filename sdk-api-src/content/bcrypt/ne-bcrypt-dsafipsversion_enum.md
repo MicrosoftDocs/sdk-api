@@ -12,6 +12,8 @@ ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DS
 ms.topic: enum
 f1_keywords:
 - bcrypt/DSAFIPSVERSION_ENUM
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineSrcElements"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

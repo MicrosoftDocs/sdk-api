@@ -12,6 +12,8 @@ ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutNetw
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_SignalProperties.PutNetworkType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

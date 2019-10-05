@@ -12,6 +12,8 @@ ms.keywords: CreatePartition, CreatePartition method [VDS], CreatePartition meth
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.CreatePartition
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

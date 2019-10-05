@@ -12,6 +12,8 @@ ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], C
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

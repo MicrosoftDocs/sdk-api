@@ -12,6 +12,8 @@ ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference m
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/IRestrictedErrorInfo.GetReference"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

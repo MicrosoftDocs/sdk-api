@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],DeleteApplicationGroup method, DeleteAppl
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.DeleteApplicationGroup"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

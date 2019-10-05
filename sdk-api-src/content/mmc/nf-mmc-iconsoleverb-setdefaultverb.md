@@ -12,6 +12,8 @@ ms.keywords: IConsoleVerb interface [MMC],SetDefaultVerb method, IConsoleVerb.Se
 ms.topic: method
 f1_keywords:
 - mmc/IConsoleVerb.SetDefaultVerb
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

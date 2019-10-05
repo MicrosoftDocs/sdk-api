@@ -12,6 +12,8 @@ ms.keywords: '*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE struc
 ms.topic: struct
 f1_keywords:
 - winnt/ACCESS_ALLOWED_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

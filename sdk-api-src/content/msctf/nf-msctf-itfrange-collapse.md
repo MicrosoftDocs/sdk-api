@@ -12,6 +12,8 @@ ms.keywords: Collapse, Collapse method [Text Services Framework], Collapse metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.Collapse"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

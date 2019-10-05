@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolutionItems.GetCount"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

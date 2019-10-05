@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, I
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionEvents.OnStateChanged"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

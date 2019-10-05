@@ -12,6 +12,8 @@ ms.keywords: '*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_ID
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointe
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAP"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_DISABLED, E_MBN_PIN_REQUIRED, E_MB
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPinEvents.OnChangeComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

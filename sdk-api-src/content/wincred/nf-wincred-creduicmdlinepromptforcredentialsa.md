@@ -12,6 +12,8 @@ ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FL
 ms.topic: function
 f1_keywords:
 - wincred/CredUICmdLinePromptForCredentials
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

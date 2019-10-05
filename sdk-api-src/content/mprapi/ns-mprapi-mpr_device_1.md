@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_D
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_DEVICE_1
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

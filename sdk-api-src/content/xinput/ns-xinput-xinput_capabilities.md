@@ -12,6 +12,8 @@ ms.keywords: '*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES 
 ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_CAPABILITIES
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

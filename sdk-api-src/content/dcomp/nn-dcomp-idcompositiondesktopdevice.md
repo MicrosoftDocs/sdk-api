@@ -12,6 +12,8 @@ ms.keywords: IDCompositionDesktopDevice, IDCompositionDesktopDevice interface [D
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionDesktopDevice"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

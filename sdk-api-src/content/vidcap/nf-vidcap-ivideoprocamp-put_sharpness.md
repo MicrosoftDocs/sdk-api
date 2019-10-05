@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],put_Sharpness method, IVideoPr
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.put_Sharpness"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

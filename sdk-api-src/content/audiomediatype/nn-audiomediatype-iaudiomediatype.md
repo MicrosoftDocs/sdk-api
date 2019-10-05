@@ -12,6 +12,8 @@ ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioM
 ms.topic: interface
 f1_keywords: 
  - "audiomediatype/IAudioMediaType"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: 
 req.target-type: Windows

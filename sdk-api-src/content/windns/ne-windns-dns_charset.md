@@ -12,6 +12,8 @@ ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsChar
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_CHARSET"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

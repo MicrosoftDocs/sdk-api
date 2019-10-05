@@ -12,6 +12,8 @@ ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleCon
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControl.OnAmbientPropertyChange"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

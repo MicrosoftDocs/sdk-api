@@ -12,6 +12,8 @@ ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Freque
 ms.topic: struct
 f1_keywords: 
  - "dxva2api/DXVA2_Frequency"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

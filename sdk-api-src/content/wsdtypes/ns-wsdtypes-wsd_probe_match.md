@@ -12,6 +12,8 @@ ms.keywords: WSD_PROBE_MATCH, WSD_PROBE_MATCH structure, ncd.wsd_probe_match_str
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_PROBE_MATCH
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageList_SetDragCursorImage, ImageList_SetDragCursorImage function
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_SetDragCursorImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

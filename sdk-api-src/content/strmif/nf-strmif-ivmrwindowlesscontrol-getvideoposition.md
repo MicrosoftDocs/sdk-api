@@ -12,6 +12,8 @@ ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPos
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRWindowlessControl.GetVideoPosition"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

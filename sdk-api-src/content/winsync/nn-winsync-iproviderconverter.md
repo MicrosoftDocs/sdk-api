@@ -12,6 +12,8 @@ ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], IP
 ms.topic: interface
 f1_keywords: 
  - "winsync/IProviderConverter"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProvider interface [Fax Service],Status property, IFaxDev
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProvider.Status"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

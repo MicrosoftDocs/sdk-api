@@ -12,6 +12,8 @@ ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_Variant
 ms.topic: function
 f1_keywords: 
  - "oleauto/VariantCopyInd"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1Bitmap1 interface [Direct2D],Unmap method, ID2D1Bitmap1.Unmap,
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Bitmap1.Unmap"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

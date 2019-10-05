@@ -12,6 +12,8 @@ ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs 
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRMixerControl.GetMixingPrefs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

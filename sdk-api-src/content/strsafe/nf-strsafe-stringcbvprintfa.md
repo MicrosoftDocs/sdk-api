@@ -12,6 +12,8 @@ ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resource
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCbVPrintf"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

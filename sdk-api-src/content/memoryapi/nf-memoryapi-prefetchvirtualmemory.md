@@ -12,6 +12,8 @@ ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetc
 ms.topic: function
 f1_keywords: 
  - "memoryapi/PrefetchVirtualMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

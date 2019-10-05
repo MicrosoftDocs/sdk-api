@@ -12,6 +12,8 @@ ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStat
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorEvents.OnStateChanged"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

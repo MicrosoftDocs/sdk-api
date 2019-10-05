@@ -12,6 +12,8 @@ ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+],ColorMatrixEffect
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorMatrixEffect.ColorMatrixEffect"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

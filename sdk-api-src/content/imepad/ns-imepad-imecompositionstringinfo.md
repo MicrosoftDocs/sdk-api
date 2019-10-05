@@ -12,6 +12,8 @@ ms.keywords: "*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSIT
 ms.topic: struct
 f1_keywords: 
  - "imepad/IMECOMPOSITIONSTRINGINFO"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

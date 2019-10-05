@@ -12,6 +12,8 @@ ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION,
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaType.GetRepresentation
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoInitialize, CoInitialize function [COM], _com_CoInitialize, com.c
 ms.topic: function
 f1_keywords: 
  - "objbase/CoInitialize"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

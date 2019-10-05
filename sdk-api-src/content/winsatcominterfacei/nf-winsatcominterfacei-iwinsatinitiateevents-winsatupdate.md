@@ -12,6 +12,8 @@ ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinS
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IWinSATInitiateEvents.WinSATUpdate"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

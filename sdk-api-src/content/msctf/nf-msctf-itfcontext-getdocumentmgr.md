@@ -12,6 +12,8 @@ ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.GetDocumentMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ObjectTypeIsValid, ObjectTypeIsValid function [GDI+], _gdiplus_FUNC
 ms.topic: function
 f1_keywords: 
  - "gdiplusenums/ObjectTypeIsValid"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

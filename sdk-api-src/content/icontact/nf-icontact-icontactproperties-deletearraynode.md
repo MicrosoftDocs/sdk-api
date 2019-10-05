@@ -12,6 +12,8 @@ ms.keywords: DeleteArrayNode, DeleteArrayNode method [Windows Contacts], DeleteA
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.DeleteArrayNode"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

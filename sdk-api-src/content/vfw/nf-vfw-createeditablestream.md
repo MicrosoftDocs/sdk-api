@@ -12,6 +12,8 @@ ms.keywords: CreateEditableStream, CreateEditableStream function [Windows Multim
 ms.topic: function
 f1_keywords: 
  - "vfw/CreateEditableStream"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

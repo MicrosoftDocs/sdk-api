@@ -12,6 +12,8 @@ ms.keywords: IDisplayHelp, IDisplayHelp interface [MMC], IDisplayHelp interface 
 ms.topic: interface
 f1_keywords: 
  - "mmc/IDisplayHelp"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

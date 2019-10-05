@@ -12,6 +12,8 @@ ms.keywords: "*LPDOMAINDESC, *PDOMAIN_DESC, DOMAINDESC, DOMAINDESC structure [Ac
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DOMAIN_DESC"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

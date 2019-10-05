@@ -12,6 +12,8 @@ ms.keywords: ReadGlobalPwrPolicy, ReadGlobalPwrPolicy function, _win32_readgloba
 ms.topic: function
 f1_keywords:
 - powrprof/ReadGlobalPwrPolicy
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

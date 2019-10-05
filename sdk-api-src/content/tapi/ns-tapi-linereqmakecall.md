@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEREQMAKECALL, LINEREQMAKECALL, LINEREQMAKECALL structure [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEREQMAKECALL"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HashAlgID property [Security], HashAlgID property [Security],IEnrol
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.HashAlgID"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

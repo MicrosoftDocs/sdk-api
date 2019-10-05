@@ -12,6 +12,8 @@ ms.keywords: UiaFindParams, UiaFindParams structure [Windows Accessibility], uia
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaFindParams"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

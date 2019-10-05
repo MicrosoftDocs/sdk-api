@@ -12,6 +12,8 @@ ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize me
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMPacketSize2.SetMinPacketSize"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

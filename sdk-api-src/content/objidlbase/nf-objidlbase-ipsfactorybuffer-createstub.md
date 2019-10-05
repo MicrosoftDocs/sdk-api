@@ -12,6 +12,8 @@ ms.keywords: CreateStub, CreateStub method [COM], CreateStub method [COM],IPSFac
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IPSFactoryBuffer.CreateStub"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

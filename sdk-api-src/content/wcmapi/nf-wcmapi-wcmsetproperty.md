@@ -12,6 +12,8 @@ ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager
 ms.topic: function
 f1_keywords:
 - wcmapi/WcmSetProperty
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

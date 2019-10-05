@@ -12,6 +12,8 @@ ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW
 ms.topic: function
 f1_keywords: 
  - "rasdlg/RasEntryDlg"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

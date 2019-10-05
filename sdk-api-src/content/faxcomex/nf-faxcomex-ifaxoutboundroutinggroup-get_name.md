@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Name property, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingGroup.Name"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

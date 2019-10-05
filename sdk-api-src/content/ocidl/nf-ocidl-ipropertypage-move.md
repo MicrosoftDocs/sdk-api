@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPro
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Move"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

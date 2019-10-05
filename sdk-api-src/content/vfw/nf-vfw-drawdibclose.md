@@ -12,6 +12,8 @@ ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_Dr
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibClose"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

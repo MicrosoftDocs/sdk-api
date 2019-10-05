@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableUDP method, IAMNe
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.get_EnableUDP"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

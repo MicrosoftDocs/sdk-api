@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE 
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilVerifyResourceService"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

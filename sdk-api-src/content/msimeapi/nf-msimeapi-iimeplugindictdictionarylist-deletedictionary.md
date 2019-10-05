@@ -12,6 +12,8 @@ ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for
 ms.topic: method
 f1_keywords: 
  - "msimeapi/IImePlugInDictDictionaryList.DeleteDictionary"
+dev_langs:
+ - c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows

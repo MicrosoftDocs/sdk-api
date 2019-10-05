@@ -12,6 +12,8 @@ ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphCo
 ms.topic: method
 f1_keywords: 
  - "strmif/IGraphConfig.SetFilterFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

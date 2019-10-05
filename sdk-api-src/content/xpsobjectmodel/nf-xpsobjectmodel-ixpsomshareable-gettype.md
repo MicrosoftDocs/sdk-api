@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [XPS Documents and Packaging], GetType meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMShareable.GetType"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

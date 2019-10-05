@@ -12,6 +12,8 @@ ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 cons
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMINT4.XMINT4"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

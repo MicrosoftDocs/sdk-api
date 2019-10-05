@@ -12,6 +12,8 @@ ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetRestrictiv
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager.GetRestrictiveQuota"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

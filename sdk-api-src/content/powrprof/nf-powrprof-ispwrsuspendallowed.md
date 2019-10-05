@@ -12,6 +12,8 @@ ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsusp
 ms.topic: function
 f1_keywords: 
  - "powrprof/IsPwrSuspendAllowed"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

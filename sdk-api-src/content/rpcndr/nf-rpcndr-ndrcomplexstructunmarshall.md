@@ -12,6 +12,8 @@ ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Wi
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrComplexStructUnmarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

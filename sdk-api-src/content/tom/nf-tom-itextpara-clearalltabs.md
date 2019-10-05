@@ -12,6 +12,8 @@ ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.ClearAllTabs"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

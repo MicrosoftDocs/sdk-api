@@ -12,6 +12,8 @@ ms.keywords: CoRevertToSelf, CoRevertToSelf function [COM], _com_CoRevertToSelf,
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoRevertToSelf"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_SetScrollInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

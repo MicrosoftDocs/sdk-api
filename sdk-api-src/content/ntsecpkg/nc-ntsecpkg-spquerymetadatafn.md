@@ -12,6 +12,8 @@ ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DATAGRAM, ISC_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpQueryMetaDataFn
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

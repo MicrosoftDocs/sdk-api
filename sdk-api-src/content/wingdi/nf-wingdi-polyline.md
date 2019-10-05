@@ -12,6 +12,8 @@ ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.pol
 ms.topic: function
 f1_keywords: 
  - "wingdi/Polyline"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

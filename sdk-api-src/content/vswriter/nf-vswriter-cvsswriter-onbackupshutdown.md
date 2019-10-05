@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnBackupShutdown method, CVssWriter.OnBa
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnBackupShutdown"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

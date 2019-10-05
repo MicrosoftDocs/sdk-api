@@ -12,6 +12,8 @@ ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Co
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeTimingFunction"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

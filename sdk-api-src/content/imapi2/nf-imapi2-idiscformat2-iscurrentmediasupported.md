@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2 interface [IMAPI],IsCurrentMediaSupported method, IDis
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2.IsCurrentMediaSupported"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

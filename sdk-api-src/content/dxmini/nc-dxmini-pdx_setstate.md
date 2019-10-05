@@ -12,6 +12,8 @@ ms.keywords: DxSetState, DxSetState callback function [Display Devices], PDX_SET
 ms.topic: callback
 f1_keywords:
 - dxmini/DxSetState
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

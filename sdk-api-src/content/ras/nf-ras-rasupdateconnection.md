@@ -12,6 +12,8 @@ ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpd
 ms.topic: function
 f1_keywords: 
  - "ras/RasUpdateConnection"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

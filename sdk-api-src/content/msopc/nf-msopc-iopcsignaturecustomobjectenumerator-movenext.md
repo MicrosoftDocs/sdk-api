@@ -12,6 +12,8 @@ ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conve
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureCustomObjectEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

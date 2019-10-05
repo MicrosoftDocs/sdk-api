@@ -12,6 +12,8 @@ ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], Begin
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.BeginSendRequest"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

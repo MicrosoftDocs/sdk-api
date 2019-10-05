@@ -12,6 +12,8 @@ ms.keywords: '*PIFIMETRICS, IFIMETRICS, IFIMETRICS structure [Display Devices], 
 ms.topic: struct
 f1_keywords:
 - winddi/IFIMETRICS
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

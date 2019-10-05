@@ -12,6 +12,8 @@ ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_S
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DigitalDemodulator.put_SpectralInversion"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

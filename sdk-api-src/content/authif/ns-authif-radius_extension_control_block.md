@@ -12,6 +12,8 @@ ms.keywords: '*PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK,
 ms.topic: struct
 f1_keywords:
 - authif/RADIUS_EXTENSION_CONTROL_BLOCK
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

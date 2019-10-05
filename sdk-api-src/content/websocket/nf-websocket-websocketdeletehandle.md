@@ -12,6 +12,8 @@ ms.keywords: WebSocketDeleteHandle, WebSocketDeleteHandle function [Websocket Pr
 ms.topic: function
 f1_keywords: 
  - "websocket/WebSocketDeleteHandle"
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

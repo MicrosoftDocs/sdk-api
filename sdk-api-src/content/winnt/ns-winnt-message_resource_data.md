@@ -12,6 +12,8 @@ ms.keywords: '*PMESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_D
 ms.topic: struct
 f1_keywords:
 - winnt/MESSAGE_RESOURCE_DATA
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

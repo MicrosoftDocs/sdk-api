@@ -12,6 +12,8 @@ ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetK
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetKeywords"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

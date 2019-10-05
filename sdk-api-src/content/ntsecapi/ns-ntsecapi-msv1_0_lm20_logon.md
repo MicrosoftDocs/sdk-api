@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_LM20_LOGON, MSV1_0_ALLOW_MSVCHAPV2, MSV1_0_ALLOW_SERVER_T
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_LM20_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

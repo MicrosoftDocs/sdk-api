@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_RESPONSE_INFO, CMC_RESPONSE_INFO, CMC_RESPONSE_INFO structur
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_RESPONSE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

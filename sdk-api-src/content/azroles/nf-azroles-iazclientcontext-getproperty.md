@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_CLIENT_CONTEXT_ROLE_FOR_ACCESS_CHECK,
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.GetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

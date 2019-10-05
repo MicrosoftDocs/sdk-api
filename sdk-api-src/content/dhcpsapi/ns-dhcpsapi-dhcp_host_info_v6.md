@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6 structu
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_HOST_INFO_V6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, H
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBHOTITEM
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

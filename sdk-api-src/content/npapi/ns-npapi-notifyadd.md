@@ -12,6 +12,8 @@ ms.keywords: "*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORA
 ms.topic: struct
 f1_keywords: 
  - "npapi/NOTIFYADD"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

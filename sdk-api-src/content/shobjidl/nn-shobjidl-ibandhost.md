@@ -12,6 +12,8 @@ ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IBandHost"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

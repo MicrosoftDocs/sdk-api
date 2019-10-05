@@ -12,6 +12,8 @@ ms.keywords: 91f1cc59-eb79-3b4f-7f33-0cb027b5d099, ClearStoredMessages, ClearSto
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.ClearStoredMessages"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

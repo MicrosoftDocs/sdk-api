@@ -12,6 +12,8 @@ ms.keywords: '*PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVIC
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_DETECTDEVICE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

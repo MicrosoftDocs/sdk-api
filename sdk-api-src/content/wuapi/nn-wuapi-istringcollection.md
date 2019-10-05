@@ -12,6 +12,8 @@ ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agen
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IStringCollection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

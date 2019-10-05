@@ -12,6 +12,8 @@ ms.keywords: OLEMISC, OLEMISC enumeration [COM], OLEMISC_ACTIVATEWHENVISIBLE, OL
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLEMISC"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

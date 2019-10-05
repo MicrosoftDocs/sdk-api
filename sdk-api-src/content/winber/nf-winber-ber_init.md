@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init
 ms.topic: function
 f1_keywords: 
  - "winber/ber_init"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrEvents"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

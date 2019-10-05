@@ -12,6 +12,8 @@ ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToH
 ms.topic: function
 f1_keywords: 
  - "dcomp/DCompositionAttachMouseWheelToHwnd"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

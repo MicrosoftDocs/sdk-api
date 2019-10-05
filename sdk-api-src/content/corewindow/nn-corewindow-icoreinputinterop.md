@@ -12,6 +12,8 @@ ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], I
 ms.topic: interface
 f1_keywords: 
  - "corewindow/ICoreInputInterop"
+dev_langs:
+ - c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

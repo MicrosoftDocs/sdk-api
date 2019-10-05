@@ -12,6 +12,8 @@ ms.keywords: Effect class [GDI+],GetParameterSize method, Effect.GetParameterSiz
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Effect.GetParameterSize"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

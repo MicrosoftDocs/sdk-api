@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDe
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDDeviceProxy.Init"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

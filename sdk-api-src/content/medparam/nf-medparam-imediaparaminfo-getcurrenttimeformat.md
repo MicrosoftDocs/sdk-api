@@ -12,6 +12,8 @@ ms.keywords: GetCurrentTimeFormat, GetCurrentTimeFormat method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "medparam/IMediaParamInfo.GetCurrentTimeFormat"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

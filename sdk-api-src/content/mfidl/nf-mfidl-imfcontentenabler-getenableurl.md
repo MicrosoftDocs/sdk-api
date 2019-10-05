@@ -12,6 +12,8 @@ ms.keywords: 1a44216d-36e5-4b5c-9585-5297d5e429f9, GetEnableURL, GetEnableURL me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.GetEnableURL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

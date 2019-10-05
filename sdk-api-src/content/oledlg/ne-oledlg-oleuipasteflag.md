@@ -12,6 +12,8 @@ ms.keywords: OLEUIPASTEFLAG, OLEUIPASTEFLAG enumeration [COM], OLEUIPASTE_ENABLE
 ms.topic: enum
 f1_keywords: 
  - "oledlg/OLEUIPASTEFLAG"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

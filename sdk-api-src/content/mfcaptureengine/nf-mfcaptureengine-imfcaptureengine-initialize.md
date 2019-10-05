@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine interface [Media Foundation],Initialize method, IM
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.Initialize"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

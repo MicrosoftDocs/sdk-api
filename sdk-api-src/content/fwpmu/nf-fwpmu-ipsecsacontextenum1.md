@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextEnum1, IPsecSaContextEnum1 function [Filtering], fwp.
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextEnum1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

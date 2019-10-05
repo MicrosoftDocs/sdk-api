@@ -12,6 +12,8 @@ ms.keywords: AllowSmallerSize, ExtractIfNotCached, ResizeThumbnail, ReturnOnlyIf
 ms.topic: enum
 f1_keywords: 
  - "thumbnailstreamcache/ThumbnailStreamCacheOptions"
+dev_langs:
+ - c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

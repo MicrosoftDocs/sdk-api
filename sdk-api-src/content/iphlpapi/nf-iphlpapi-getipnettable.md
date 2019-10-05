@@ -12,6 +12,8 @@ ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnett
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpNetTable
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

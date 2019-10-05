@@ -12,6 +12,8 @@ ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Manage
 ms.topic: method
 f1_keywords: 
  - "chptrarr/CHPtrArray.GetAt"
+dev_langs:
+ - c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

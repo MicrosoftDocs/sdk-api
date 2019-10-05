@@ -12,6 +12,8 @@ ms.keywords: GetSIT, GetSIT method [Microsoft TV Technologies], GetSIT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetSIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

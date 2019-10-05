@@ -12,6 +12,8 @@ ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup int
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPOBackup"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

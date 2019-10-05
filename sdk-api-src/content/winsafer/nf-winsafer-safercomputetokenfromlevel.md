@@ -12,6 +12,8 @@ ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_
 ms.topic: function
 f1_keywords: 
  - "winsafer/SaferComputeTokenFromLevel"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

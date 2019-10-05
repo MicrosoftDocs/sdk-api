@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE function [Failov
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetQwordValue"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MMC_LISTPAD_INFO, MMC_LISTPAD_INFO structure [MMC], _slate_mmc_list
 ms.topic: struct
 f1_keywords: 
  - "mmc/MMC_LISTPAD_INFO"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

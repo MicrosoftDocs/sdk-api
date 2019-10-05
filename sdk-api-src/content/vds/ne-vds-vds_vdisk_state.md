@@ -12,6 +12,8 @@ ms.keywords: VDS_VDISK_STATE, VDS_VDISK_STATE enumeration, VDS_VST_ADDED, VDS_VS
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_VDISK_STATE"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

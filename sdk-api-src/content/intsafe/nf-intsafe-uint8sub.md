@@ -12,6 +12,8 @@ ms.keywords: UInt8Sub, UInt8Sub function [Windows Shell], intsafe/UInt8Sub, shel
 ms.topic: function
 f1_keywords: 
  - "intsafe/UInt8Sub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

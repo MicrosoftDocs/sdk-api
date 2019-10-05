@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerGetResponseAttributes, EapHostPeerGetResponseAttributes 
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetResponseAttributes
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

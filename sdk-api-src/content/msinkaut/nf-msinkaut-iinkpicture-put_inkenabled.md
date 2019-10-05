@@ -12,6 +12,8 @@ ms.keywords: 3af59de9-0239-47ab-b3b3-1f1baecb169f, IInkPicture interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.InkEnabled"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

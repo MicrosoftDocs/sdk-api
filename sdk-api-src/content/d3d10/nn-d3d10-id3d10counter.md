@@ -12,6 +12,8 @@ ms.keywords: 004d04e1-a54d-6c89-c551-db2d30d9d7e9, ID3D10Counter, ID3D10Counter 
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10Counter"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

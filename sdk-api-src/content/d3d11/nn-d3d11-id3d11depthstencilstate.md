@@ -12,6 +12,8 @@ ms.keywords: ID3D11DepthStencilState, ID3D11DepthStencilState interface [Direct3
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11DepthStencilState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

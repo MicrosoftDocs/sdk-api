@@ -12,6 +12,8 @@ ms.keywords: GetSprites, GetSprites method [Direct2D], GetSprites method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SpriteBatch.GetSprites"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

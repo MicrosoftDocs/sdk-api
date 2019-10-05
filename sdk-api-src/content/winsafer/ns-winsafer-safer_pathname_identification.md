@@ -12,6 +12,8 @@ ms.keywords: '*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, P
 ms.topic: struct
 f1_keywords:
 - winsafer/SAFER_PATHNAME_IDENTIFICATION
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

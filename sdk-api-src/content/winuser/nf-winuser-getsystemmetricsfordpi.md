@@ -12,6 +12,8 @@ ms.keywords: GetSystemMetricsForDpi, GetSystemMetricsForDpi function [High DPI],
 ms.topic: function
 f1_keywords: 
  - "winuser/GetSystemMetricsForDpi"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMaxLength, GetMaxLength method [Media Foundation], GetMaxLength 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer.GetMaxLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

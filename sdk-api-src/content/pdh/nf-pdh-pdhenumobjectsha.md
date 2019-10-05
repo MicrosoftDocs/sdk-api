@@ -12,6 +12,8 @@ ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhEnumObjectsH"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

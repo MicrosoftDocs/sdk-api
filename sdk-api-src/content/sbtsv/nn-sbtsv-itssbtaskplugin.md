@@ -12,6 +12,8 @@ ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbTaskPlugin"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

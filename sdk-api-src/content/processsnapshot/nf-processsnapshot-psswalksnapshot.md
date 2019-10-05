@@ -12,6 +12,8 @@ ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapsho
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssWalkSnapshot"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

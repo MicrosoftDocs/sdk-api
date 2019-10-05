@@ -12,6 +12,8 @@ ms.keywords: GetCharWidthI, GetCharWidthI function [Windows GDI], _win32_GetChar
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetCharWidthI"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

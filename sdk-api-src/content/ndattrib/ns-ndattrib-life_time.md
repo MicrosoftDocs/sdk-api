@@ -12,6 +12,8 @@ ms.keywords: "*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIF
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/LIFE_TIME, *PLIFE_TIME"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

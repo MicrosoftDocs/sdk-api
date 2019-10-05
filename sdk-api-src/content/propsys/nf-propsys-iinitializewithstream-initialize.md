@@ -12,6 +12,8 @@ ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "propsys/IInitializeWithStream.Initialize"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

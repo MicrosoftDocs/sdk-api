@@ -12,6 +12,8 @@ ms.keywords: CreateChar16, CreateChar16 method [Windows Runtime], CreateChar16 m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateChar16"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

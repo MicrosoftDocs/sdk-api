@@ -12,6 +12,8 @@ ms.keywords: WSCEnumNameSpaceProviders32, WSCEnumNameSpaceProviders32 function [
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCEnumNameSpaceProviders32
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

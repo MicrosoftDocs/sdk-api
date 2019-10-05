@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, IInkEdit interface [Tablet PC],SelAlignment property, IInk
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelAlignment"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

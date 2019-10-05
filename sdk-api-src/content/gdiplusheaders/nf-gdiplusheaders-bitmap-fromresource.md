@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],FromResource method, Bitmap.FromResource, Bitma
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.FromResource"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

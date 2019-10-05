@@ -12,6 +12,8 @@ ms.keywords: 744aee05-989c-454a-b7a8-709c0723a885, GetNumStoredMessages, GetNumS
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.GetNumStoredMessages"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

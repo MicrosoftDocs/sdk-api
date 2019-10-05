@@ -12,6 +12,8 @@ ms.keywords: IEditionUpgradeHelper interface [Windows API],UpdateOperatingSystem
 ms.topic: method
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper.UpdateOperatingSystem"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

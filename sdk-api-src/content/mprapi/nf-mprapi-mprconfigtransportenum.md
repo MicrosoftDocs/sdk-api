@@ -12,6 +12,8 @@ ms.keywords: MprConfigTransportEnum, MprConfigTransportEnum function [RAS], _mpr
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigTransportEnum
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

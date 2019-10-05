@@ -12,6 +12,8 @@ ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Window
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

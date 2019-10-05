@@ -12,6 +12,8 @@ ms.keywords: PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function 
 ms.topic: callback
 f1_keywords:
 - resapi/SignalFailure
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

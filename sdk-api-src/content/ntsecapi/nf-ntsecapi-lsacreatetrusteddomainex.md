@@ -12,6 +12,8 @@ ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Securi
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaCreateTrustedDomainEx
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

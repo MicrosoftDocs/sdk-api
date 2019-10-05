@@ -12,6 +12,8 @@ ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVd
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsOpenVDisk.DetachAndDelete"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

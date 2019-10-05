@@ -12,6 +12,8 @@ ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScal
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionScaleTransform3D.SetScaleZ"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

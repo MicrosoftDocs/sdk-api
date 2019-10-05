@@ -12,6 +12,8 @@ ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudi
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo2.GetAudioAttributes"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMFactory"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

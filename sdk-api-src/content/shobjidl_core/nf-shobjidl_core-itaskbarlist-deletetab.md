@@ -12,6 +12,8 @@ ms.keywords: DeleteTab, DeleteTab method [Windows Shell], DeleteTab method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITaskbarList.DeleteTab"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

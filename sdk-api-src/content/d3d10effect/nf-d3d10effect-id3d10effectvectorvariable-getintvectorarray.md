@@ -12,6 +12,8 @@ ms.keywords: 4e3ca029-17ed-c553-b92b-d01300a4477f, GetIntVectorArray, GetIntVect
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.GetIntVectorArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

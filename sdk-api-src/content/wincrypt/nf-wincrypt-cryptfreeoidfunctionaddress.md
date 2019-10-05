@@ -12,6 +12,8 @@ ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptFreeOIDFunctionAddress"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

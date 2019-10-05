@@ -12,6 +12,8 @@ ms.keywords: CreateInteractionContext, CreateInteractionContext function, input_
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/CreateInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

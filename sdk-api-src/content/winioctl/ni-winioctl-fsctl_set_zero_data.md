@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_ZERO_DATA, FSCTL_SET_ZERO_DATA control, FSCTL_SET_ZERO_DA
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_ZERO_DATA
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

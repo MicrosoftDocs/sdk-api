@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_VOLUME_BITMAP, FSCTL_GET_VOLUME_BITMAP control, FSCTL_GET
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_GET_VOLUME_BITMAP
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

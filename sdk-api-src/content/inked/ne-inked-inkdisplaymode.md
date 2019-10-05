@@ -12,6 +12,8 @@ ms.keywords: 043ee1c2-0012-4e64-8565-db8400a05439, IDM_Ink, IDM_Text, InkDisplay
 ms.topic: enum
 f1_keywords: 
  - "inked/InkDisplayMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

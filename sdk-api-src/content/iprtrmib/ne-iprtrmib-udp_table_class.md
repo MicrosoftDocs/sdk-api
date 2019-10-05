@@ -12,6 +12,8 @@ ms.keywords: '*PUDP_TABLE_CLASS, PUDP_TABLE_CLASS, PUDP_TABLE_CLASS enumeration 
 ms.topic: enum
 f1_keywords:
 - iprtrmib/UDP_TABLE_CLASS
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

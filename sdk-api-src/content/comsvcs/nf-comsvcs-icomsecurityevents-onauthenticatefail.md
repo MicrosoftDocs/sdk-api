@@ -12,6 +12,8 @@ ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticateFail method, ICom
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComSecurityEvents.OnAuthenticateFail"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IColumnProvider interface [Windows Shell],Initialize method, IColum
 ms.topic: method
 f1_keywords: 
  - "shlobj/IColumnProvider.Initialize"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

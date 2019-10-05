@@ -12,6 +12,8 @@ ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],I
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.GetFirstRow"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method,
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.IsContiguousFormat"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [wind
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLanguageList.AddLanguageByRFC1766String"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

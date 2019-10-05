@@ -12,6 +12,8 @@ ms.keywords: IContactPropertyCollection, IContactPropertyCollection interface [W
 ms.topic: interface
 f1_keywords: 
  - "icontact/IContactPropertyCollection"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

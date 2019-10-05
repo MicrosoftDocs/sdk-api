@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMFLOAT4X4.operator =, Use DirectX::::XMFLOAT4X4::oper
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMFLOAT4X4.operator ="
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

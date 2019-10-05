@@ -12,6 +12,8 @@ ms.keywords: "*PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_P
 ms.topic: struct
 f1_keywords: 
  - "wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

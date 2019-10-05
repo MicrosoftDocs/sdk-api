@@ -12,6 +12,8 @@ ms.keywords: SWFO_COOKIEPASSED, SWFO_INCLUDEPENDING, SWFO_NEEDDISPATCH, ShellWin
 ms.topic: enum
 f1_keywords: 
  - "exdisp/ShellWindowFindWindowOptions"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

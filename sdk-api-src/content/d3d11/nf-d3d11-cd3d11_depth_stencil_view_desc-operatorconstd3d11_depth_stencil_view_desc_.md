@@ -12,6 +12,8 @@ ms.keywords: CD3D11_DEPTH_STENCIL_VIEW_DESC interface [Direct3D 11],operator con
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC.operator const D3D11_DEPTH_STENCIL_VIEW_DESC&"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

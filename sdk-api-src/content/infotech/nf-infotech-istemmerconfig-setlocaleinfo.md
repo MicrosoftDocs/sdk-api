@@ -12,6 +12,8 @@ ms.keywords: IStemmerConfig interface [HTML Help Workshop],SetLocaleInfo method,
 ms.topic: method
 f1_keywords: 
  - "infotech/IStemmerConfig.SetLocaleInfo"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

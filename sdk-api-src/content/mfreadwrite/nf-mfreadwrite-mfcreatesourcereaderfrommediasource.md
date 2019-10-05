@@ -12,6 +12,8 @@ ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaS
 ms.topic: function
 f1_keywords: 
  - "mfreadwrite/MFCreateSourceReaderFromMediaSource"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

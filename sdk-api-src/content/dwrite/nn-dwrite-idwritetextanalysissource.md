@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalysisSource, IDWriteTextAnalysisSource interface [Dir
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteTextAnalysisSource"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

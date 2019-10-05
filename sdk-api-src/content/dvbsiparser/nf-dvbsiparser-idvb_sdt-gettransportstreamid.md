@@ -12,6 +12,8 @@ ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SDT.GetTransportStreamId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

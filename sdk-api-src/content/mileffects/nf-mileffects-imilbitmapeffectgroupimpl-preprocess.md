@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectGroupImpl.Preprocess"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

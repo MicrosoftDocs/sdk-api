@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure
 ms.topic: struct
 f1_keywords: 
  - "rasshost/SECURITY_MESSAGE"
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

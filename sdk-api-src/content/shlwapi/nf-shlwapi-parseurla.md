@@ -12,6 +12,8 @@ ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/ParseURL"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

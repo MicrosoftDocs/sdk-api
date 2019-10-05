@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interfac
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IEnumNames.Clone"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

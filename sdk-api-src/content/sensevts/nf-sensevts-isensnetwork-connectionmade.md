@@ -12,6 +12,8 @@ ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensNetwork.ConnectionMade"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

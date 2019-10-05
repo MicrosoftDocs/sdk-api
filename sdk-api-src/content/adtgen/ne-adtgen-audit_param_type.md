@@ -12,6 +12,8 @@ ms.keywords: APT_Guid, APT_Int64, APT_IpAddress, APT_LogonId, APT_LogonIdWithSid
 ms.topic: enum
 f1_keywords: 
  - "adtgen/AUDIT_PARAM_TYPE"
+dev_langs:
+ - c++
 req.header: adtgen.h
 req.include-header: 
 req.target-type: Windows

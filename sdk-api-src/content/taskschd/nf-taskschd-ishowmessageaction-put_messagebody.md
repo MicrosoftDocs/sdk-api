@@ -12,6 +12,8 @@ ms.keywords: IShowMessageAction interface [Task Scheduler],MessageBody property,
 ms.topic: method
 f1_keywords: 
  - "taskschd/IShowMessageAction.MessageBody"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

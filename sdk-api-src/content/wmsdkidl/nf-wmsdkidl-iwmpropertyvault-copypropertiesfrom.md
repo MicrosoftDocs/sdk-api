@@ -12,6 +12,8 @@ ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMPropertyVault.CopyPropertiesFrom"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

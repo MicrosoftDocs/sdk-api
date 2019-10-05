@@ -12,6 +12,8 @@ ms.keywords: DPA_SetPtr, DPA_SetPtr function [Windows Controls], _win32_DPA_SetP
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_SetPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

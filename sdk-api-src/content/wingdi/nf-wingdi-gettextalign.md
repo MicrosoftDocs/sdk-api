@@ -12,6 +12,8 @@ ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAl
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetTextAlign"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

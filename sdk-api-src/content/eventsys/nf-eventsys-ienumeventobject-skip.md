@@ -12,6 +12,8 @@ ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Ski
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEnumEventObject.Skip"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

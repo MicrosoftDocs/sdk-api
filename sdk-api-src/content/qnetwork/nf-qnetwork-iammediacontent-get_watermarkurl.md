@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent interface [DirectShow],get_WatermarkURL method, IAM
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent.get_WatermarkURL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

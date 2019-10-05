@@ -12,6 +12,8 @@ ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTR
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTReleaseMemory"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AbortAsyncOperation, AbortAsyncOperation method, AbortAsyncOperatio
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDEndpointProxy.AbortAsyncOperation"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

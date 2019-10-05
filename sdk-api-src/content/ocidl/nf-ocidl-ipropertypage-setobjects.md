@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetO
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.SetObjects"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

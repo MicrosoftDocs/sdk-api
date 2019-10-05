@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],GetRSOP method, GetRSOP, GetRSOP method [GPMC], G
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.GetRSOP"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

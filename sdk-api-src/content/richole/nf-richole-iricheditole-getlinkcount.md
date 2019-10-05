@@ -12,6 +12,8 @@ ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount 
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.GetLinkCount"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

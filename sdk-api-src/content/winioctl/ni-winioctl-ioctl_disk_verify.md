@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_VERIFY, IOCTL_DISK_VERIFY control, IOCTL_DISK_VERIFY con
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_VERIFY
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

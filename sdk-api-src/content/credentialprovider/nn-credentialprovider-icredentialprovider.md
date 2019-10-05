@@ -12,6 +12,8 @@ ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell],
 ms.topic: interface
 f1_keywords: 
  - "credentialprovider/ICredentialProvider"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

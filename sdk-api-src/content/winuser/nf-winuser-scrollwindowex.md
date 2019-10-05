@@ -12,6 +12,8 @@ ms.keywords: SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, Scroll
 ms.topic: function
 f1_keywords: 
  - "winuser/ScrollWindowEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

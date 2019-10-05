@@ -12,6 +12,8 @@ ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS
 ms.topic: function
 f1_keywords:
 - ntmsapi/AccessNtmsLibraryDoor
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

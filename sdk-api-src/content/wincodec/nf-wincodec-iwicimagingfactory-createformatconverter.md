@@ -12,6 +12,8 @@ ms.keywords: CreateFormatConverter, CreateFormatConverter method [Windows Imagin
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateFormatConverter"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

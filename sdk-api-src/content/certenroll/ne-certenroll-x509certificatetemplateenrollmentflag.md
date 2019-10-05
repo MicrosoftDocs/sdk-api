@@ -12,6 +12,8 @@ ms.keywords: EnrollmentAddOCSPNoCheck, EnrollmentAddTemplateName, EnrollmentAllo
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509CertificateTemplateEnrollmentFlag"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

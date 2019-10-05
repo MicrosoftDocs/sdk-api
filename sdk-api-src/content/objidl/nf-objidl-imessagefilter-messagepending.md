@@ -12,6 +12,8 @@ ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilte
 ms.topic: method
 f1_keywords: 
  - "objidl/IMessageFilter.MessagePending"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

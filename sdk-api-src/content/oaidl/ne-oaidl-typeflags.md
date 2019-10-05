@@ -12,6 +12,8 @@ ms.keywords: TYPEFLAGS, TYPEFLAGS enumeration [Automation], TYPEFLAG_FAGGREGATAB
 ms.topic: enum
 f1_keywords: 
  - "oaidl/TYPEFLAGS"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

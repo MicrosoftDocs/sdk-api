@@ -12,6 +12,8 @@ ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPS
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSettings.getMode"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

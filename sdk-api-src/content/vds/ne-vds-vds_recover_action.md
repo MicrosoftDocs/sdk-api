@@ -12,6 +12,8 @@ ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, base.vds_recove
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_RECOVER_ACTION"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

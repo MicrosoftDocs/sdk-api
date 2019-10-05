@@ -12,6 +12,8 @@ ms.keywords: GetIdentityEnum, GetIdentityEnum method [Security], GetIdentityEnum
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityProvider.GetIdentityEnum"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

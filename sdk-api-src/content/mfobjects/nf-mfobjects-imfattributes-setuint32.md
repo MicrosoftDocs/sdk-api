@@ -12,6 +12,8 @@ ms.keywords: 9c30fd56-719f-4831-8fbf-cefcf9d72709, IMFAttributes interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.SetUINT32"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

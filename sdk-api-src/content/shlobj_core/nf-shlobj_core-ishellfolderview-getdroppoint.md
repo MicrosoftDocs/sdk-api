@@ -12,6 +12,8 @@ ms.keywords: GetDropPoint, GetDropPoint method [Windows Shell], GetDropPoint met
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.GetDropPoint"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

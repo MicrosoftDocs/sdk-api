@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management 
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemObjectAccess"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

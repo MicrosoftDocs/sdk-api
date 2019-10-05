@@ -12,6 +12,8 @@ ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "audioclient/ISimpleAudioVolume.GetMute"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

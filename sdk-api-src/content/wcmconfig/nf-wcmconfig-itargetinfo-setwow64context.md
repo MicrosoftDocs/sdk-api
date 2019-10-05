@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],SetWow64Context method, ITargetInfo.Set
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.SetWow64Context"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

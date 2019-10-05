@@ -12,6 +12,8 @@ ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue 
 ms.topic: method
 f1_keywords: 
  - "propsys/INamedPropertyStore.GetNamedValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

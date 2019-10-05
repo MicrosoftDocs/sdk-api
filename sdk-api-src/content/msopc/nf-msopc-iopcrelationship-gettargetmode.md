@@ -12,6 +12,8 @@ ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], G
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcRelationship.GetTargetMode"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

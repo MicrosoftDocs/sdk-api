@@ -12,6 +12,8 @@ ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcStubBuffer.Invoke"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

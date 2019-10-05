@@ -12,6 +12,8 @@ ms.keywords: TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACT
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_LOGON_TYPE"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndTypeControlCall, EndTypeControlCall callback, EndTypeControlCall
 ms.topic: callback
 f1_keywords: 
  - "resapi/EndTypeControlCall callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

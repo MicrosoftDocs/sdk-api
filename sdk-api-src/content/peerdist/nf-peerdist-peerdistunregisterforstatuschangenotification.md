@@ -12,6 +12,8 @@ ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterFo
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistUnregisterForStatusChangeNotification"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

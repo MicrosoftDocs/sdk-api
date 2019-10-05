@@ -12,6 +12,8 @@ ms.keywords: GetRecordInformationType, GetRecordInformationType method [Microsof
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT.GetRecordInformationType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

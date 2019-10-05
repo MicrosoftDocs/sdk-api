@@ -12,6 +12,8 @@ ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISc
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ISchemaProvider.GetEntity"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

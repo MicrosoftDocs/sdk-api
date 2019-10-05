@@ -12,6 +12,8 @@ ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_S
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetItemState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

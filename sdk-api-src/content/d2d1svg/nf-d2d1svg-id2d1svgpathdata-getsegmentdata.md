@@ -12,6 +12,8 @@ ms.keywords: GetSegmentData, GetSegmentData method [Direct2D], GetSegmentData me
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPathData.GetSegmentData"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

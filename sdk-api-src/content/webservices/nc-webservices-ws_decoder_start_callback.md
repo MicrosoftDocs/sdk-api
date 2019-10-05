@@ -12,6 +12,8 @@ ms.keywords: WS_DECODER_START_CALLBACK, WS_DECODER_START_CALLBACK callback, WS_D
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_DECODER_START_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

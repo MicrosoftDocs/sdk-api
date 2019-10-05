@@ -12,6 +12,8 @@ ms.keywords: IConfigInterleaving interface [DirectShow],get_Mode method, IConfig
 ms.topic: method
 f1_keywords: 
  - "strmif/IConfigInterleaving.get_Mode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

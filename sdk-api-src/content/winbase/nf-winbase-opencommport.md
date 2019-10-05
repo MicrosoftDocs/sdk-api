@@ -12,6 +12,8 @@ ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.ope
 ms.topic: function
 f1_keywords: 
  - "winbase/OpenCommPort"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

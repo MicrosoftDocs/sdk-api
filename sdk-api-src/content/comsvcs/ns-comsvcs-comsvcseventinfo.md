@@ -12,6 +12,8 @@ ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], _dtc_Event_Str
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/COMSVCSEVENTINFO"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

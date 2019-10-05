@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_PROPERTY_CONSTRAINT, WS_CHANNEL_PROPERTY_CONSTRAINT stru
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_CHANNEL_PROPERTY_CONSTRAINT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

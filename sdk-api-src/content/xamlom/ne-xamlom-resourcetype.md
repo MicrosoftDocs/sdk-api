@@ -12,6 +12,8 @@ ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, Resourc
 ms.topic: enum
 f1_keywords: 
  - "xamlom/ResourceType"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

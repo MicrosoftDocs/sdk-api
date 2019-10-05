@@ -12,6 +12,8 @@ ms.keywords: GetNamedPipeInfo, GetNamedPipeInfo function, PIPE_CLIENT_END, PIPE_
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/GetNamedPipeInfo"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

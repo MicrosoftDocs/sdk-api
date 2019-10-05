@@ -12,6 +12,8 @@ ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureCh
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSecureChannel"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

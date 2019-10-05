@@ -12,6 +12,8 @@ ms.keywords: IInkRenderer interface [Tablet PC],PixelToInkSpace method, IInkRend
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.PixelToInkSpace"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

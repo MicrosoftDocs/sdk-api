@@ -12,6 +12,8 @@ ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessag
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDMessageParameters.SetRemoteAddress"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

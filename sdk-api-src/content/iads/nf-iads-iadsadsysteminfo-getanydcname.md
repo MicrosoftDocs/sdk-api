@@ -12,6 +12,8 @@ ms.keywords: GetAnyDCName, GetAnyDCName method [ADSI], GetAnyDCName method [ADSI
 ms.topic: method
 f1_keywords: 
  - "iads/IADsADSystemInfo.GetAnyDCName"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FreeLibraryAndExitThread, FreeLibraryAndExitThread function, _win32
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/FreeLibraryAndExitThread"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

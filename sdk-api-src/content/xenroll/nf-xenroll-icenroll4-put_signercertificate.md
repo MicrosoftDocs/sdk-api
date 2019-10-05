@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 int
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.SignerCertificate"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

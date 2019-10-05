@@ -12,6 +12,8 @@ ms.keywords: CloseMapping, CloseMapping method [Remote Differential Compression]
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMapping.CloseMapping"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

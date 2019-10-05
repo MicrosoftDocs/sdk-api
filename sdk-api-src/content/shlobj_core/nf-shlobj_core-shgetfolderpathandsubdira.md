@@ -12,6 +12,8 @@ ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, S
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetFolderPathAndSubDir"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

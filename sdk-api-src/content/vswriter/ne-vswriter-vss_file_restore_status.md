@@ -12,6 +12,8 @@ ms.keywords: VSS_FILE_RESTORE_STATUS, VSS_FILE_RESTORE_STATUS enumeration [VSS],
 ms.topic: enum
 f1_keywords: 
  - "vswriter/VSS_FILE_RESTORE_STATUS"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

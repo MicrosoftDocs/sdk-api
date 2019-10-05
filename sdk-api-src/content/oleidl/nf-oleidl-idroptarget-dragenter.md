@@ -12,6 +12,8 @@ ms.keywords: DragEnter, DragEnter method [COM], DragEnter method [COM],IDropTarg
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropTarget.DragEnter"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

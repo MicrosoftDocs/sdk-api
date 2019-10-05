@@ -12,6 +12,8 @@ ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_IN
 ms.topic: struct
 f1_keywords: 
  - "authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TrackInformation, TrackInformation structure [Media Streaming API],
 ms.topic: struct
 f1_keywords: 
  - "windows.media.streaming/TrackInformation"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

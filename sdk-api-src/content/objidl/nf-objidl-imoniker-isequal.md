@@ -12,6 +12,8 @@ ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.IsEqual"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

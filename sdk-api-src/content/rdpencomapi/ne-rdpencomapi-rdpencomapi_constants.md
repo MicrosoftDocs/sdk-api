@@ -12,6 +12,8 @@ ms.keywords: CONST_ATTENDEE_ID_DEFAULT, CONST_ATTENDEE_ID_EVERYONE, CONST_ATTEND
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPENCOMAPI_CONSTANTS"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

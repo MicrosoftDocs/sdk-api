@@ -12,6 +12,8 @@ ms.keywords: GetFunctionalCategories, GetFunctionalCategories method [Windows Po
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceCapabilities.GetFunctionalCategories"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

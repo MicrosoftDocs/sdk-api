@@ -12,6 +12,8 @@ ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Window
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToInt16ArrayAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

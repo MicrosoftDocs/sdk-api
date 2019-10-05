@@ -12,6 +12,8 @@ ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPCont
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPControls.stop"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

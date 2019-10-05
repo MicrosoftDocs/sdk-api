@@ -12,6 +12,8 @@ ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interfac
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfLanguageProfileNotifySink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

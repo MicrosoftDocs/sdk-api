@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMe
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.IsSeeking"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC structur
 ms.topic: struct
 f1_keywords:
 - iads/ADS_PROV_SPECIFIC
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

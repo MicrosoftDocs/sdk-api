@@ -12,6 +12,8 @@ ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Bass method, IAMAudio
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAudioInputMixer.put_Bass"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

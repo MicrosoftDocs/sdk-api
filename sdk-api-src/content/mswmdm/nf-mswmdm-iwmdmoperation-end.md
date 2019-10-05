@@ -12,6 +12,8 @@ ms.keywords: End, End method [windows Media Device Manager], End method [windows
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation.End"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUInt8, GetUInt8 method [Windows Runtime], GetUInt8 method [Windo
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetUInt8"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

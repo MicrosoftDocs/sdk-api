@@ -12,6 +12,8 @@ ms.keywords: IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Upd
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate2"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateTimerQueue, CreateTimerQueue function, _win32_createtimerqueu
 ms.topic: function
 f1_keywords: 
  - "threadpoollegacyapiset/CreateTimerQueue"
+dev_langs:
+ - c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

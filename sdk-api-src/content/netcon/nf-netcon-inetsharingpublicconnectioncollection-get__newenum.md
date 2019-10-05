@@ -12,6 +12,8 @@ ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get__NewE
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPublicConnectionCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

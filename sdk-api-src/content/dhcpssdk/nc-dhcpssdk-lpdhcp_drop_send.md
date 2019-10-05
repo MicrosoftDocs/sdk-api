@@ -12,6 +12,8 @@ ms.keywords: DhcpPktDropHook, DhcpPktSendHook, LPDHCP_DROP_SEND, LPDHCP_DROP_SEN
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/LPDHCP_DROP_SEND
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

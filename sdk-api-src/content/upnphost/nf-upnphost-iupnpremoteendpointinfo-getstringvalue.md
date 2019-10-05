@@ -12,6 +12,8 @@ ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue m
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRemoteEndpointInfo.GetStringValue"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

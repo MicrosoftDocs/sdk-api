@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_CM_DISPLAY, WCN_VALUE_CM_ETHERNET, WCN_VALUE_CM_EXTERNAL_
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_CONFIG_METHODS"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11Device5 interface [Direct3D 11],OpenSharedFence method, ID3D1
 ms.topic: method
 f1_keywords: 
  - "d3d11_4/ID3D11Device5.OpenSharedFence"
+dev_langs:
+ - c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

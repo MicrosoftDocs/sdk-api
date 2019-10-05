@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetMiterLimit method, Pen.SetMiterLimit, Pen::SetM
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetMiterLimit"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATr
 ms.topic: method
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionService.allowPDATransfer"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

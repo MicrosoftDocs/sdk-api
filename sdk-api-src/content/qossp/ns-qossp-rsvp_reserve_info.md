@@ -12,6 +12,8 @@ ms.keywords: '*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO str
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_RESERVE_INFO
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

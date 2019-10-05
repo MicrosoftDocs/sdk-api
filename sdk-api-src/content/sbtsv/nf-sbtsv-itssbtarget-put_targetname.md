@@ -12,6 +12,8 @@ ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetName property
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTarget.TargetName"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

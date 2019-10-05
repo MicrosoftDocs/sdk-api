@@ -12,6 +12,8 @@ ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarityTableDumpState"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

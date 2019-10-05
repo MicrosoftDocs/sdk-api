@@ -12,6 +12,8 @@ ms.keywords: "*LPJOYCAPSA, *NPJOYCAPSA, *PJOYCAPSA, JOYCAPS, JOYCAPS structure [
 ms.topic: struct
 f1_keywords: 
  - "joystickapi/JOYCAPS"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

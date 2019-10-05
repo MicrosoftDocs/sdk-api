@@ -12,6 +12,8 @@ ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, AC
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IACList2.GetOptions"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ChangeView, ChangeView method [Windows Media Player], ChangeView me
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.ChangeView"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

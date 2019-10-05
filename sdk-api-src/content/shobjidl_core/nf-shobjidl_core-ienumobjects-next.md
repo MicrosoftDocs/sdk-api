@@ -12,6 +12,8 @@ ms.keywords: IEnumObjects interface [Windows Shell],Next method, IEnumObjects.Ne
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IEnumObjects.Next"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

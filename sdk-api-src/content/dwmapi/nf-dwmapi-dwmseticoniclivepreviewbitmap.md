@@ -12,6 +12,8 @@ ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLi
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmSetIconicLivePreviewBitmap"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

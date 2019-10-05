@@ -12,6 +12,8 @@ ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetIcon me
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfSystemLangBarItem.SetIcon"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHCreateQueryCancelAutoPlayMoniker, SHCreateQueryCancelAutoPlayMoni
 ms.topic: function
 f1_keywords: 
  - "shlobj/SHCreateQueryCancelAutoPlayMoniker"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

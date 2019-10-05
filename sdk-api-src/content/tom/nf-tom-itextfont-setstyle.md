@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.S
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetStyle"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows R
 ms.topic: method
 f1_keywords: 
  - "asyncinfo/IAsyncInfo.ErrorCode"
+dev_langs:
+ - c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

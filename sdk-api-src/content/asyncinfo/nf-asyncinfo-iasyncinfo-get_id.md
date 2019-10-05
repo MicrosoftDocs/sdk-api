@@ -12,6 +12,8 @@ ms.keywords: IAsyncInfo interface [Windows Runtime],Id property, IAsyncInfo.Id, 
 ms.topic: method
 f1_keywords: 
  - "asyncinfo/IAsyncInfo.Id"
+dev_langs:
+ - c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

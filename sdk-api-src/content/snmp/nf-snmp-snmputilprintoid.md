@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilPrintOid, SnmpUtilPrintOid function [SNMP], _snmp_snmputilp
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilPrintOid"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

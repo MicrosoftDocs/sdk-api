@@ -12,6 +12,8 @@ ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], Cl
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsTable.CloseTable"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

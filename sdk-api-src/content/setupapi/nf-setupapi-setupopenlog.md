@@ -12,6 +12,8 @@ ms.keywords: SetupOpenLog, SetupOpenLog function [Setup API], _setupapi_setupope
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupOpenLog"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActi
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.CanInPlaceActivate"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

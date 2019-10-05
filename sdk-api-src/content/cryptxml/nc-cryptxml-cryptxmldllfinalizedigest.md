@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, Cryp
 ms.topic: callback
 f1_keywords: 
  - "cryptxml/CryptXmlDllFinalizeDigest"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

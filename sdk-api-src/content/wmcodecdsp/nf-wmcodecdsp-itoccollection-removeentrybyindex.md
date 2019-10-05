@@ -12,6 +12,8 @@ ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocCollection.RemoveEntryByIndex"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

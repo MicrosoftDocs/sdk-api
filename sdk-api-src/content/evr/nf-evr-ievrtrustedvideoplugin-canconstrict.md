@@ -12,6 +12,8 @@ ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict me
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRTrustedVideoPlugin.CanConstrict"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

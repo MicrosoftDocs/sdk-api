@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoColorNominalRange, codecapi/eAVEncVideoColorNom
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoColorNominalRange"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

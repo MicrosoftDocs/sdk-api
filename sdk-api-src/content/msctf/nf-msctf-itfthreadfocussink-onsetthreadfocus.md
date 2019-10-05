@@ -12,6 +12,8 @@ ms.keywords: ITfThreadFocusSink interface [Text Services Framework],OnSetThreadF
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadFocusSink.OnSetThreadFocus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

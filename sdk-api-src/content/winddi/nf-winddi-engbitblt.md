@@ -12,6 +12,8 @@ ms.keywords: EngBitBlt, EngBitBlt function [Display Devices], display.engbitblt,
 ms.topic: function
 f1_keywords:
 - winddi/EngBitBlt
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

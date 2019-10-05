@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIN
 ms.topic: struct
 f1_keywords:
 - http/HTTP_CHANNEL_BIND_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

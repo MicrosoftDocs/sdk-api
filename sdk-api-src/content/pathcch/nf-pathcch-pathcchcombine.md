@@ -12,6 +12,8 @@ ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/Pa
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchCombine"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

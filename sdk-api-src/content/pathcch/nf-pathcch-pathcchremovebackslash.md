@@ -12,6 +12,8 @@ ms.keywords: PathCchRemoveBackslash, PathCchRemoveBackslash function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchRemoveBackslash"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

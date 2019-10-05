@@ -12,6 +12,8 @@ ms.keywords: ITfFnReconversion interface [Text Services Framework],Reconvert met
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnReconversion.Reconvert"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

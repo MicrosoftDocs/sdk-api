@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetCustomStartCap method, Pen.SetCustomStartCap, P
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetCustomStartCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

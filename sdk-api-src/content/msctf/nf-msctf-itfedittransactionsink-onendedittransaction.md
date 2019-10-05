@@ -12,6 +12,8 @@ ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnEndEdi
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfEditTransactionSink.OnEndEditTransaction"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

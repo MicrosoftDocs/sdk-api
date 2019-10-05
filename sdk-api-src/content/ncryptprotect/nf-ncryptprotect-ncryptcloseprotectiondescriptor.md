@@ -12,6 +12,8 @@ ms.keywords: NCryptCloseProtectionDescriptor, NCryptCloseProtectionDescriptor fu
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptCloseProtectionDescriptor"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

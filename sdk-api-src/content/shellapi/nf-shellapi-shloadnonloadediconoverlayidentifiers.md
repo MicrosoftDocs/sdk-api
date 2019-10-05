@@ -12,6 +12,8 @@ ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayId
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHLoadNonloadedIconOverlayIdentifiers"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

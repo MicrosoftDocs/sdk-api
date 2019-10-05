@@ -12,6 +12,8 @@ ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCAT
 ms.topic: struct
 f1_keywords:
 - appmgmt/APPCATEGORYINFO
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

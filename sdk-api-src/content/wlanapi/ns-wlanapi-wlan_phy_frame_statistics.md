@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY
 ms.topic: struct
 f1_keywords: 
  - "wlanapi/WLAN_PHY_FRAME_STATISTICS"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

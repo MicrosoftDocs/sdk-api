@@ -12,6 +12,8 @@ ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpe
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLOpen"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

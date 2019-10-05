@@ -12,6 +12,8 @@ ms.keywords: FwpmNetEventSubscribe1, FwpmNetEventSubscribe1 function [Filtering]
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmNetEventSubscribe1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

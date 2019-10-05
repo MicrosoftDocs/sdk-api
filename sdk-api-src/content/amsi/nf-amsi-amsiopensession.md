@@ -12,6 +12,8 @@ ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interfa
 ms.topic: function
 f1_keywords: 
  - "amsi/AmsiOpenSession"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

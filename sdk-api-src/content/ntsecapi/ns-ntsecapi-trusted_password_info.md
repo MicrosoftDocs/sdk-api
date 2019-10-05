@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD
 ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_PASSWORD_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

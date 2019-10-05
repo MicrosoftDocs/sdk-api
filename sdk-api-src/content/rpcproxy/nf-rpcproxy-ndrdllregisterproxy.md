@@ -12,6 +12,8 @@ ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdll
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/NdrDllRegisterProxy"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

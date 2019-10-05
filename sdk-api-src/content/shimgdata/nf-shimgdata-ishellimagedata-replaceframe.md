@@ -12,6 +12,8 @@ ms.keywords: IShellImageData interface [Windows Shell],ReplaceFrame method, IShe
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.ReplaceFrame"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method [Direct2D], Draw method [Direct2D],ID2D1SourceTra
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1SourceTransform.Draw"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

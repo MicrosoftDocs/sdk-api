@@ -12,6 +12,8 @@ ms.keywords: "*PCREDENTIAL_ATTRIBUTEW, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUT
 ms.topic: struct
 f1_keywords: 
  - "wincred/CREDENTIAL_ATTRIBUTE"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

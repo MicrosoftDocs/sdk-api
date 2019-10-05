@@ -12,6 +12,8 @@ ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Wind
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemServices.ExecNotificationQueryAsync"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

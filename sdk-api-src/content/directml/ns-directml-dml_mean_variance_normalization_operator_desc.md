@@ -12,6 +12,8 @@ ms.keywords: DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC, DML_MEAN_VARIANCE_NO
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

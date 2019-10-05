@@ -12,6 +12,8 @@ ms.keywords: IWMProfileManagerLanguage interface [windows Media Format],SetUserL
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfileManagerLanguage.SetUserLanguageID"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

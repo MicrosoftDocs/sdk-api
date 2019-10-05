@@ -12,6 +12,8 @@ ms.keywords: IFilterMapper interface [DirectShow],RegisterPin method, IFilterMap
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterMapper.RegisterPin"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

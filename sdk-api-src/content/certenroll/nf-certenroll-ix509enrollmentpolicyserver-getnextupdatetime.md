@@ -12,6 +12,8 @@ ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpda
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.GetNextUpdateTime"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

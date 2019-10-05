@@ -12,6 +12,8 @@ ms.keywords: EapPeerSetResponseAttributes, EapPeerSetResponseAttributes function
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerSetResponseAttributes
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

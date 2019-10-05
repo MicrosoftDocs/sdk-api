@@ -12,6 +12,8 @@ ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCO
 ms.topic: struct
 f1_keywords: 
  - "strmif/DDCOLORKEY"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

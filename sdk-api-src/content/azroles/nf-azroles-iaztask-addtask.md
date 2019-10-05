@@ -12,6 +12,8 @@ ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzTas
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.AddTask"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

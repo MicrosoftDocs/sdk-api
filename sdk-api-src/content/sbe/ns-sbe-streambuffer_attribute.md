@@ -12,6 +12,8 @@ ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft
 ms.topic: struct
 f1_keywords: 
  - "sbe/STREAMBUFFER_ATTRIBUTE"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

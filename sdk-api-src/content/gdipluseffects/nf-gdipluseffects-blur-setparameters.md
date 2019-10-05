@@ -12,6 +12,8 @@ ms.keywords: Blur class [GDI+],SetParameters method, Blur.SetParameters, Blur::S
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Blur.SetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

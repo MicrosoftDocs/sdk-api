@@ -12,6 +12,8 @@ ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkIt
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetWorkItemData"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

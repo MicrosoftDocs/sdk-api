@@ -12,6 +12,8 @@ ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO, IOCTL_GENERICUSBFN_GET_CLASS_INF
 ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO
+dev_langs:
+ - c++
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

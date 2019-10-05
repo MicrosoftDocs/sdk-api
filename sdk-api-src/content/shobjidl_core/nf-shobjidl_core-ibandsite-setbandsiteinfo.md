@@ -12,6 +12,8 @@ ms.keywords: IBandSite interface [Windows Shell],SetBandSiteInfo method, IBandSi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IBandSite.SetBandSiteInfo"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

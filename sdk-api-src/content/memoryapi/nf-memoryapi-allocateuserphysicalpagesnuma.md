@@ -12,6 +12,8 @@ ms.keywords: AllocateUserPhysicalPagesNuma, AllocateUserPhysicalPagesNuma functi
 ms.topic: function
 f1_keywords: 
  - "memoryapi/AllocateUserPhysicalPagesNuma"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

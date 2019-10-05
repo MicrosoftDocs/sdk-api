@@ -12,6 +12,8 @@ ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, 
 ms.topic: function
 f1_keywords: 
  - "qos2/QOSCloseHandle"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

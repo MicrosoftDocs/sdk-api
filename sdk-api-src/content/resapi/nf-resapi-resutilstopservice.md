@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilStopService"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

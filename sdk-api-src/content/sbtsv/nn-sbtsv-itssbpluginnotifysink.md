@@ -12,6 +12,8 @@ ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desk
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbPluginNotifySink"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

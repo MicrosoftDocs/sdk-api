@@ -12,6 +12,8 @@ ms.keywords: IMbnRegistration interface [Microsoft Broadband Networks],SetRegist
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.SetRegisterMode"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

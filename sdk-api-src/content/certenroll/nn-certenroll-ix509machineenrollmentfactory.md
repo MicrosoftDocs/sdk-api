@@ -12,6 +12,8 @@ ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interf
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509MachineEnrollmentFactory"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

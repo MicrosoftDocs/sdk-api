@@ -12,6 +12,8 @@ ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr m
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServices.SetHwndPropStr"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

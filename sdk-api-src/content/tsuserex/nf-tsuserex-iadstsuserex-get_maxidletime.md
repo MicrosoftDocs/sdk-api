@@ -12,6 +12,8 @@ ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxIdleTime proper
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.MaxIdleTime"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

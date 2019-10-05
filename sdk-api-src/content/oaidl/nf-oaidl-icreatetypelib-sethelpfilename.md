@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICrea
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib.SetHelpFileName"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

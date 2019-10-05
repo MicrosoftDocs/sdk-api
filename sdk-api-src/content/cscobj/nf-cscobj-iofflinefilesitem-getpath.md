@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [Offline Files], GetPath method [Offline Fi
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItem.GetPath"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

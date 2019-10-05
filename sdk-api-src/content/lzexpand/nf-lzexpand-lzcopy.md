@@ -12,6 +12,8 @@ ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzc
 ms.topic: function
 f1_keywords: 
  - "lzexpand/LZCopy"
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

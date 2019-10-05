@@ -12,6 +12,8 @@ ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, Con
 ms.topic: function
 f1_keywords:
 - winsvc/ControlServiceEx
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

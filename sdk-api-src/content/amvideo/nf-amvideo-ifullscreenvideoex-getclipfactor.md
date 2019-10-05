@@ -12,6 +12,8 @@ ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor met
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.GetClipFactor"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

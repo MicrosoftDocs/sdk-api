@@ -12,6 +12,8 @@ ms.keywords: GetDeviceIcons, GetDeviceIcons method [Picture Acquisition], GetDev
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.GetDeviceIcons"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

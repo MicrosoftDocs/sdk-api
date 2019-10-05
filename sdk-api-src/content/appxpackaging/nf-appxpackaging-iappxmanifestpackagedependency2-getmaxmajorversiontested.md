@@ -12,6 +12,8 @@ ms.keywords: GetMaxMajorVersionTested, GetMaxMajorVersionTested method [App pack
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestPackageDependency2.GetMaxMajorVersionTested"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

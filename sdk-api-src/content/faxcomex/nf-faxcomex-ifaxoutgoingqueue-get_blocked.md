@@ -12,6 +12,8 @@ ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingQueue.Blocked"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

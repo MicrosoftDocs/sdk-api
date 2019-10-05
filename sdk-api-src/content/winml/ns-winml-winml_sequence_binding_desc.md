@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_sequence_binding_desc, PWINML_SEQUENCE_BINDIN
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_SEQUENCE_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

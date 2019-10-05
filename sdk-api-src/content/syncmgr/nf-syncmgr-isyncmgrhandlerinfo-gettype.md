@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Windows Shell], GetType method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerInfo.GetType"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 38108686-5378-4844-8d5a-a433e89f62bb, MF_ACCESSMODE_READ, MF_ACCESS
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_FILE_ACCESSMODE"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

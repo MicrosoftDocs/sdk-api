@@ -12,6 +12,8 @@ ms.keywords: IPenInputPanel interface [Tablet PC],VerticalOffset property, IPenI
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.VerticalOffset"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

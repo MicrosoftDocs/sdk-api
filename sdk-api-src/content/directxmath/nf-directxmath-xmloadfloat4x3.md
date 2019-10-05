@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMLoadFloat4x3, XMLoadFloat4x3, XMLoadFloat4x3 method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMLoadFloat4x3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

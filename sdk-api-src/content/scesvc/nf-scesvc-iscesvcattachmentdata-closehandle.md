@@ -12,6 +12,8 @@ ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Sec
 ms.topic: method
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentData.CloseHandle"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

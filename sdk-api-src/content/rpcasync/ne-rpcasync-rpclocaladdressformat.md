@@ -12,6 +12,8 @@ ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rla
 ms.topic: enum
 f1_keywords:
 - rpcasync/RpcLocalAddressFormat
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

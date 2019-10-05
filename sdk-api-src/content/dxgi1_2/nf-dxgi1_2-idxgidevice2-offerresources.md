@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice2 interface [DXGI],OfferResources method, IDXGIDevice2.O
 ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIDevice2.OfferResources
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

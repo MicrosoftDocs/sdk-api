@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],InitializeClientContextFromName met
 ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.InitializeClientContextFromName
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPTUI_SELECT_EXPIRATION_COLUMN, CRYPTUI_SELECT_FRIENDLYNAME_COLUM
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CryptUIDlgSelectCertificateFromStore"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [Direct
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSurface.EndDraw"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

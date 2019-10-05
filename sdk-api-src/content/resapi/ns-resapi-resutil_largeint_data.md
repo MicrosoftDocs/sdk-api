@@ -12,6 +12,8 @@ ms.keywords: "*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESUTIL_LARGEINT_DATA"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

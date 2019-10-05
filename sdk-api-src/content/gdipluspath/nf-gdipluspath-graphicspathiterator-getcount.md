@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [GDI+], GetCount method [GDI+],GraphicsPa
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator.GetCount"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

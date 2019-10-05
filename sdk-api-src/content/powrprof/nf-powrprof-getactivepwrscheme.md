@@ -12,6 +12,8 @@ ms.keywords: GetActivePwrScheme, GetActivePwrScheme function, _win32_getactivepw
 ms.topic: function
 f1_keywords: 
  - "powrprof/GetActivePwrScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

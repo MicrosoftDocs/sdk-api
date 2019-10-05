@@ -12,6 +12,8 @@ ms.keywords: Filter_Spec_IPv4, Filter_Spec_IPv4 structure [QOS], lpmapi/Filter_S
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Filter_Spec_IPv4"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

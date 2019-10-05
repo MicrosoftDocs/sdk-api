@@ -12,6 +12,8 @@ ms.keywords: EngFindResource, EngFindResource function [Display Devices], displa
 ms.topic: function
 f1_keywords: 
  - "winddi/EngFindResource"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

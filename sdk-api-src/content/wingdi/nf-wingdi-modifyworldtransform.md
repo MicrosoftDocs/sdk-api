@@ -12,6 +12,8 @@ ms.keywords: MWT_IDENTITY, MWT_LEFTMULTIPLY, MWT_RIGHTMULTIPLY, ModifyWorldTrans
 ms.topic: function
 f1_keywords: 
  - "wingdi/ModifyWorldTransform"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

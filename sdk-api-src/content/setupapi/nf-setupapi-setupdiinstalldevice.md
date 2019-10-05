@@ -12,6 +12,8 @@ ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Dri
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallDevice
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

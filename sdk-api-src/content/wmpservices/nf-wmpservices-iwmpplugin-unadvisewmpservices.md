@@ -12,6 +12,8 @@ ms.keywords: IWMPPlugin interface [Windows Media Player],UnAdviseWMPServices met
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPPlugin.UnAdviseWMPServices"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

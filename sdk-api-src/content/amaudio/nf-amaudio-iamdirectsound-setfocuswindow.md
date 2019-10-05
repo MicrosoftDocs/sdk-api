@@ -12,6 +12,8 @@ ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDir
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.SetFocusWindow"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

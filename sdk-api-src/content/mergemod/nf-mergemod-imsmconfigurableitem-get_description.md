@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigurableItem interface,get_Description method, IMsmConfigur
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmConfigurableItem.get_Description"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

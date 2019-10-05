@@ -12,6 +12,8 @@ ms.keywords: GetAttributes, GetAttributes method [Offline Files], GetAttributes 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesFileSysInfo.GetAttributes"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

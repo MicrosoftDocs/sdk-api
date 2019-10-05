@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Windows Ribbon], Add method [Windows Ribbon],IUICo
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollection.Add"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ComboBox_SetItemHeight, ComboBox_SetItemHeight macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_SetItemHeight"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

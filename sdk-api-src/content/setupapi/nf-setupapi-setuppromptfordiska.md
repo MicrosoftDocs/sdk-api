@@ -12,6 +12,8 @@ ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupP
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupPromptForDisk"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

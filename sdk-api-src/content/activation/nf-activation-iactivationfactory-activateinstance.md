@@ -12,6 +12,8 @@ ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], Activa
 ms.topic: method
 f1_keywords: 
  - "activation/IActivationFactory.ActivateInstance"
+dev_langs:
+ - c++
 req.header: activation.h
 req.include-header: 
 req.target-type: Windows

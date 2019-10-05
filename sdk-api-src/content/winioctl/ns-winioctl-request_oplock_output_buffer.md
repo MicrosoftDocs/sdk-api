@@ -12,6 +12,8 @@ ms.keywords: '*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PRE
 ms.topic: struct
 f1_keywords:
 - winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

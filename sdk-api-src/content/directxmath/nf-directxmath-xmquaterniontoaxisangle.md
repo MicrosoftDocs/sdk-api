@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionToAxisAngle, XMQuaternionToAxisAngle, XMQu
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionToAxisAngle"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

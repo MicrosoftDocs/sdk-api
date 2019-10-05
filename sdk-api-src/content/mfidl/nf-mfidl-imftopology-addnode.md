@@ -12,6 +12,8 @@ ms.keywords: 5e519524-f5c5-4d4d-922f-166f9e616631, AddNode, AddNode method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.AddNode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

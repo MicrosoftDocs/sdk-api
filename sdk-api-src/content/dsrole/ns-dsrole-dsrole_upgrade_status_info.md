@@ -12,6 +12,8 @@ ms.keywords: '*PDSROLE_UPGRADE_STATUS_INFO, 0, DSROLE_UPGRADE_IN_PROGRESS, DSROL
 ms.topic: struct
 f1_keywords:
 - dsrole/DSROLE_UPGRADE_STATUS_INFO
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

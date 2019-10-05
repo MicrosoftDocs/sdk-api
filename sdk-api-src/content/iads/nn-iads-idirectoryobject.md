@@ -12,6 +12,8 @@ ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObje
 ms.topic: interface
 f1_keywords: 
  - "iads/IDirectoryObject"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

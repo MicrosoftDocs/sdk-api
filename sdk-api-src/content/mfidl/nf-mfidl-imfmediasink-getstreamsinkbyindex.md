@@ -12,6 +12,8 @@ ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStre
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSink.GetStreamSinkByIndex"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

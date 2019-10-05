@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDis
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IDispenserManager.GetContext"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

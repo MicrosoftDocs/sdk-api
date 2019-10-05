@@ -12,6 +12,8 @@ ms.keywords: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, MFT_OUTPUT_DATA_BUFFER_INCOMP
 ms.topic: enum
 f1_keywords:
 - mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

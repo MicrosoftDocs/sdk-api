@@ -12,6 +12,8 @@ ms.keywords: SetupCreateDiskSpaceList, SetupCreateDiskSpaceList function [Setup 
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupCreateDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

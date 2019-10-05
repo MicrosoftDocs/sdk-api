@@ -12,6 +12,8 @@ ms.keywords: IExpDispSupportXP interface [Windows Shell],OnInvoke method, IExpDi
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IExpDispSupportXP.OnInvoke"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: Shdeprecated.h
 req.target-type: Windows

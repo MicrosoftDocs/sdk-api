@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [windows Media Format], Advise method [window
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMRegisterCallback.Advise"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

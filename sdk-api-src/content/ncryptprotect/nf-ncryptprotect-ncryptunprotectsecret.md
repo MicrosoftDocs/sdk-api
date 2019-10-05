@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSec
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptUnprotectSecret"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

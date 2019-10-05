@@ -12,6 +12,8 @@ ms.keywords: DML_TENSOR_FLAGS, DML_TENSOR_FLAGS enumeration, DML_TENSOR_FLAG_NON
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_TENSOR_FLAGS"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICredentialProviderCredentialEvents2 interface [Windows Shell],SetF
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents2.SetFieldOptions"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

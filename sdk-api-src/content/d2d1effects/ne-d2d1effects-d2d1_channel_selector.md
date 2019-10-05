@@ -12,6 +12,8 @@ ms.keywords: D2D1_CHANNEL_SELECTOR, D2D1_CHANNEL_SELECTOR enumeration [Direct2D]
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects/D2D1_CHANNEL_SELECTOR"
+dev_langs:
+ - c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

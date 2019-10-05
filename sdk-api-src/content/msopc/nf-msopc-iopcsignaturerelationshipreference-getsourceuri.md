@@ -12,6 +12,8 @@ ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], Get
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureRelationshipReference.GetSourceUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

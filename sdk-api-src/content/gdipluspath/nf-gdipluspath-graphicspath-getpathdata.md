@@ -12,6 +12,8 @@ ms.keywords: GetPathData, GetPathData method [GDI+], GetPathData method [GDI+],G
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.GetPathData"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

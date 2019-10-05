@@ -12,6 +12,8 @@ ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectS
 ms.topic: method
 f1_keywords: 
  - "mpconfig/IMixerPinConfig.GetZOrder"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

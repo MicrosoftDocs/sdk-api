@@ -12,6 +12,8 @@ ms.keywords: DRMGetOwnerLicense, DRMGetOwnerLicense function [Active Directory R
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetOwnerLicense"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

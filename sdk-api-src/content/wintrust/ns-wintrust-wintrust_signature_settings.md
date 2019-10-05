@@ -12,6 +12,8 @@ ms.keywords: '*PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS, PWINT
 ms.topic: struct
 f1_keywords:
 - wintrust/WINTRUST_SIGNATURE_SETTINGS
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

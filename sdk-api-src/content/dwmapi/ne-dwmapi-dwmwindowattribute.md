@@ -12,6 +12,8 @@ ms.keywords: DWMWA_ALLOW_NCPAINT, DWMWA_CAPTION_BUTTON_BOUNDS, DWMWA_CLOAK, DWMW
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWMWINDOWATTRIBUTE"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

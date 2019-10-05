@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_TYPE, WS_CHANNEL_TYPE enumeration [Web Services for Wind
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_CHANNEL_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

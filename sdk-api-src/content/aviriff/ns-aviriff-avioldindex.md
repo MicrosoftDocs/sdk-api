@@ -12,6 +12,8 @@ ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX
 ms.topic: struct
 f1_keywords: 
  - "aviriff/AVIOLDINDEX"
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

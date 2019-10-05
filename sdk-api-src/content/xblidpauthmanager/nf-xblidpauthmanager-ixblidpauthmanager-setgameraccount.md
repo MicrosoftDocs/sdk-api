@@ -12,6 +12,8 @@ ms.keywords: IXblIdpAuthManager interface,SetGamerAccount method, IXblIdpAuthMan
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthManager.SetGamerAccount"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClosedUpperBoundItemId, GetClosedUpperBoundItemId method [Window
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

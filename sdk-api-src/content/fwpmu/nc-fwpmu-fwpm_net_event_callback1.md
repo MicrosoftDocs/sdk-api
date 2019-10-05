@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT_CALLBACK1, FWPM_NET_EVENT_CALLBACK1 callback, FWPM_N
 ms.topic: callback
 f1_keywords: 
  - "fwpmu/FWPM_NET_EVENT_CALLBACK1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

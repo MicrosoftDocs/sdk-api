@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectCom
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.Commit"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

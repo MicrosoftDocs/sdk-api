@@ -12,6 +12,8 @@ ms.keywords: ConvertFontToLOGFONT, ConvertFontToLOGFONT method [Direct Write], C
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteGdiInterop.ConvertFontToLOGFONT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

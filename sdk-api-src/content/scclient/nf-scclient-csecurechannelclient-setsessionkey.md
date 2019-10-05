@@ -12,6 +12,8 @@ ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetSessio
 ms.topic: method
 f1_keywords: 
  - "scclient/CSecureChannelClient.SetSessionKey"
+dev_langs:
+ - c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

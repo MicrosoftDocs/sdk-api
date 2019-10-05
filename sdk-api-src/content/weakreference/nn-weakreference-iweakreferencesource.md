@@ -12,6 +12,8 @@ ms.keywords: IWeakReferenceSource, IWeakReferenceSource interface [Windows Runti
 ms.topic: interface
 f1_keywords: 
  - "weakreference/IWeakReferenceSource"
+dev_langs:
+ - c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows

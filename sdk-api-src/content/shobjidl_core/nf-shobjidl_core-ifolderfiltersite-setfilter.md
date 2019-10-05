@@ -12,6 +12,8 @@ ms.keywords: IFolderFilterSite interface [Windows Shell],SetFilter method, IFold
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderFilterSite.SetFilter"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

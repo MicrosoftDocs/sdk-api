@@ -12,6 +12,8 @@ ms.keywords: REGKIND, REGKIND enumeration [Automation], REGKIND_DEFAULT, REGKIND
 ms.topic: enum
 f1_keywords: 
  - "oleauto/REGKIND"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

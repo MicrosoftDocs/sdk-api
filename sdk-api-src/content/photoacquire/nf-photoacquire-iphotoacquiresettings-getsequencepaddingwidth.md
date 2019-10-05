@@ -12,6 +12,8 @@ ms.keywords: GetSequencePaddingWidth, GetSequencePaddingWidth method [Picture Ac
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.GetSequencePaddingWidth"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

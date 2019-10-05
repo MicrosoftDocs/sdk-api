@@ -12,6 +12,8 @@ ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],Se
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnSearchCandidateProvider.SetResult"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

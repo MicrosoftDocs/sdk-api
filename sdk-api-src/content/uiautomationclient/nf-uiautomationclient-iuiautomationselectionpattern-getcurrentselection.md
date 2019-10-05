@@ -12,6 +12,8 @@ ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern.GetCurrentSelection"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

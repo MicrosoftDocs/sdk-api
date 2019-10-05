@@ -12,6 +12,8 @@ ms.keywords: 42cc51c9-dccb-4b3d-9dcc-643abb49543f, ID3D10Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.SetPresentPerRenderOpDelay"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

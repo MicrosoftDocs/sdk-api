@@ -12,6 +12,8 @@ ms.keywords: ContentPrimarilyAudio, ContentPrimarilyAudio method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent3.ContentPrimarilyAudio"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

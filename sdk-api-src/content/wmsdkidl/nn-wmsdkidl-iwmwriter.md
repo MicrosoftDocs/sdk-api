@@ -12,6 +12,8 @@ ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], IWMWriter in
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMWriter"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

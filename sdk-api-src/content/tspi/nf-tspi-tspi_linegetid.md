@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetID, TSPI_lineGetID function [TAPI 2.2], _tspi_tspi_line
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetID"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATALH, BASEBROWSERDATA, BASEBRO
 ms.topic: struct
 f1_keywords: 
  - "shdeprecated/BASEBROWSERDATA"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

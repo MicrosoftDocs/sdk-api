@@ -12,6 +12,8 @@ ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMBrush.SetOpacity"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

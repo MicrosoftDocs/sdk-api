@@ -12,6 +12,8 @@ ms.keywords: EnumCapability, EnumCapability method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_AUX.EnumCapability"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IExplorerBrowser interface [Windows Shell],RemoveAll method, IExplo
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerBrowser.RemoveAll"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

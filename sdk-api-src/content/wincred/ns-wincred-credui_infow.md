@@ -12,6 +12,8 @@ ms.keywords: "*PCREDUI_INFOW, CREDUI_INFO, CREDUI_INFO structure [Security], CRE
 ms.topic: struct
 f1_keywords: 
  - "wincred/CREDUI_INFO"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

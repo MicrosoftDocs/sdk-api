@@ -12,6 +12,8 @@ ms.keywords: CertFindCertificateInCRL, CertFindCertificateInCRL function [Securi
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindCertificateInCRL
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

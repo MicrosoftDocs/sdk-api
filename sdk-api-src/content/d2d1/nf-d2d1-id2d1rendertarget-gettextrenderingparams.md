@@ -12,6 +12,8 @@ ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], G
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget.GetTextRenderingParams"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

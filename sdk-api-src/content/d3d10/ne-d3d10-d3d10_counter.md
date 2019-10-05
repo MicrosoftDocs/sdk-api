@@ -12,6 +12,8 @@ ms.keywords: 2adb613c-1c3a-59ec-1bc9-5a9d3d5c9a28, D3D10_COUNTER, D3D10_COUNTER 
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_COUNTER"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

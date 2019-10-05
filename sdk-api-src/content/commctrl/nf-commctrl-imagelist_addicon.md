@@ -12,6 +12,8 @@ ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ImageList_AddIcon"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

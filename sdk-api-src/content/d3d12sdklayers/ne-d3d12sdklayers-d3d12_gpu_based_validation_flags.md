@@ -12,6 +12,8 @@ ms.keywords: D3D12_GPU_BASED_VALIDATION_FLAGS, D3D12_GPU_BASED_VALIDATION_FLAGS 
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

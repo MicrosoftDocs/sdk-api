@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPrope
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyList.PutPropertyItem"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

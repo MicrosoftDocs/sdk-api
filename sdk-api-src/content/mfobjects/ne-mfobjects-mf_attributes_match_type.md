@@ -12,6 +12,8 @@ ms.keywords: MF_ATTRIBUTES_MATCH_ALL_ITEMS, MF_ATTRIBUTES_MATCH_INTERSECTION, MF
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_ATTRIBUTES_MATCH_TYPE"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

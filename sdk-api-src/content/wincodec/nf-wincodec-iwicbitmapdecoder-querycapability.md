@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapabi
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.QueryCapability"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

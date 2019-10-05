@@ -12,6 +12,8 @@ ms.keywords: AppPolicyWindowingModel, AppPolicyWindowingModel enumeration [App p
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyWindowingModel"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

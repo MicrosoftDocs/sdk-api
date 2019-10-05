@@ -12,6 +12,8 @@ ms.keywords: '*PSecPkgContext_CredInfo, PSecPkgContext_CredInfo, PSecPkgContext_
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_CredInfo
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

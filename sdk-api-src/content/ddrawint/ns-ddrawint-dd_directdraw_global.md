@@ -12,6 +12,8 @@ ms.keywords: '*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DIRECTDRAW_GLOBAL
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

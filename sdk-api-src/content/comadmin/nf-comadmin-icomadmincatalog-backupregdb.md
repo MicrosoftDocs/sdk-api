@@ -12,6 +12,8 @@ ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.BackupREGDB"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

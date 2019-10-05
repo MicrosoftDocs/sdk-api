@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Win
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapSourceTransform"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAC
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.CAConfig"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

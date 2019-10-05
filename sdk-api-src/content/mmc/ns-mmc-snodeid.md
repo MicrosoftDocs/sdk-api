@@ -12,6 +12,8 @@ ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/
 ms.topic: struct
 f1_keywords:
 - mmc/SNodeID
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

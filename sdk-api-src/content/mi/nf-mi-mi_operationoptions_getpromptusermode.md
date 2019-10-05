@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_GetPromptUserMode, MI_OperationOptions_GetPromp
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetPromptUserMode
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

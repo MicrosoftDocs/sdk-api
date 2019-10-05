@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMEST
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_TIMESTAMP_ACCURACY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

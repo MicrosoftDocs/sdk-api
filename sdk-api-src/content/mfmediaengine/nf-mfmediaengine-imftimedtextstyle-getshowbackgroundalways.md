@@ -12,6 +12,8 @@ ms.keywords: GetShowBackgroundAlways, GetShowBackgroundAlways method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetShowBackgroundAlways"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

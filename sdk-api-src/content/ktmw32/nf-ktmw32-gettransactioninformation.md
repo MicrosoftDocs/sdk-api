@@ -12,6 +12,8 @@ ms.keywords: GetTransactionInformation, GetTransactionInformation function [File
 ms.topic: function
 f1_keywords:
 - ktmw32/GetTransactionInformation
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

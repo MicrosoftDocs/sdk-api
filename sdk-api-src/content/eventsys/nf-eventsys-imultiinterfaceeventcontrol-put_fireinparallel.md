@@ -12,6 +12,8 @@ ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IMul
 ms.topic: method
 f1_keywords: 
  - "eventsys/IMultiInterfaceEventControl.FireInParallel"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

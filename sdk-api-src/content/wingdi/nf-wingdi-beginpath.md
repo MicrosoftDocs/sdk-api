@@ -12,6 +12,8 @@ ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/BeginPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

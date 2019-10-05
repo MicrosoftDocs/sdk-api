@@ -12,6 +12,8 @@ ms.keywords: ALREADY_REGISTERED, ALREADY_UNREGISTERED, ASYNC_CALL_ALREADY_PARKED
 ms.topic: enum
 f1_keywords: 
  - "prnasnot/PrintAsyncNotifyError"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

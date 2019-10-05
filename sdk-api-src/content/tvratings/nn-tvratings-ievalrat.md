@@ -12,6 +12,8 @@ ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat 
 ms.topic: interface
 f1_keywords: 
  - "tvratings/IEvalRat"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

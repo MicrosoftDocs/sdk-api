@@ -12,6 +12,8 @@ ms.keywords: Ipv6Address, Ipv6Address structure [NAP], nap.ipv6address_struct, n
 ms.topic: struct
 f1_keywords: 
  - "naptypes/Ipv6Address"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

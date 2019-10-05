@@ -12,6 +12,8 @@ ms.keywords: 8461622f-7f35-e519-3be6-83d985b2cece, D3D10CompileShader, D3D10Comp
 ms.topic: function
 f1_keywords:
 - d3d10shader/D3D10CompileShader
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslI
 ms.topic: function
 f1_keywords:
 - sspi/SaslIdentifyPackage
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

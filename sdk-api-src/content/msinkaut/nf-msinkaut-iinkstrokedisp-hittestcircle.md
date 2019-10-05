@@ -12,6 +12,8 @@ ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle meth
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.HitTestCircle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

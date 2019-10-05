@@ -12,6 +12,8 @@ ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_fun
 ms.topic: function
 f1_keywords: 
  - "evntprov/EventRegister"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

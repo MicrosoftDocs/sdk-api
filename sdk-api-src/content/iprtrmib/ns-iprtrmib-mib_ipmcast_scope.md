@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structur
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/MIB_IPMCAST_SCOPE"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

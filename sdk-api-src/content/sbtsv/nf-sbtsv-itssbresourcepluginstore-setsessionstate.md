@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetSes
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.SetSessionState"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

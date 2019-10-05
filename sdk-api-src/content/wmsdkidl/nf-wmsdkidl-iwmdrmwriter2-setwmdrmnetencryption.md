@@ -12,6 +12,8 @@ ms.keywords: IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryptio
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMWriter2.SetWMDRMNetEncryption"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoKeypadTones me
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAutomatedPhoneControl.put_AutoKeypadTones"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

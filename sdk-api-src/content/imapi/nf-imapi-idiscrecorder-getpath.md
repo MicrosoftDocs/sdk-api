@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecord
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.GetPath"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

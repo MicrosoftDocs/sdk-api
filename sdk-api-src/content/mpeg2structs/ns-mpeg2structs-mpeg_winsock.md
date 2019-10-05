@@ -12,6 +12,8 @@ ms.keywords: MPEG_WINSOCK, MPEG_WINSOCK structure [Microsoft TV Technologies], m
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_WINSOCK"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

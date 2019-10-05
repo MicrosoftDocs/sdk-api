@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue functi
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6GetVendorOptionValue"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

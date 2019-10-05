@@ -12,6 +12,8 @@ ms.keywords: GetSwitchToHWND, GetSwitchToHWND method [Windows Shell], GetSwitchT
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileIsInUse.GetSwitchToHWND"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method 
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMDependency.GetLogicalPath"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

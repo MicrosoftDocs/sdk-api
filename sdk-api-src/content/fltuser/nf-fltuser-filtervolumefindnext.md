@@ -12,6 +12,8 @@ ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable Fi
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterVolumeFindNext"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

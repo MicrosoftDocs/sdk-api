@@ -12,6 +12,8 @@ ms.keywords: GetPropertyModificationDate, GetPropertyModificationDate method [Wi
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactPropertyCollection.GetPropertyModificationDate"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

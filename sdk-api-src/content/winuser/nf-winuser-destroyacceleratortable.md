@@ -12,6 +12,8 @@ ms.keywords: DestroyAcceleratorTable, DestroyAcceleratorTable function [Menus an
 ms.topic: function
 f1_keywords: 
  - "winuser/DestroyAcceleratorTable"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

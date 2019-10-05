@@ -12,6 +12,8 @@ ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHC
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHCreateThread"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

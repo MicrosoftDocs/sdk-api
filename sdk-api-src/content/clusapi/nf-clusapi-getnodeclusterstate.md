@@ -12,6 +12,8 @@ ms.keywords: ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNo
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetNodeClusterState"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

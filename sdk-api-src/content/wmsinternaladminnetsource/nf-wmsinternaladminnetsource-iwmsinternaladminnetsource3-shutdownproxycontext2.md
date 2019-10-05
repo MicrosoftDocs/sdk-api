@@ -12,6 +12,8 @@ ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],Shutdo
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.ShutdownProxyContext2"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

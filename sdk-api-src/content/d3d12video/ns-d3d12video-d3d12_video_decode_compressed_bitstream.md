@@ -8,6 +8,10 @@ ms.assetid: befe1140-c0d9-4313-a067-40c04ce0d703
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM, D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM, 
 req.header: d3d12video.h
 req.include-header:

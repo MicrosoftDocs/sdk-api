@@ -12,6 +12,8 @@ ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Micr
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_RST.GetRecordOriginalNetworkId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

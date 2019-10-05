@@ -12,6 +12,8 @@ ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCA
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATCDFOpen"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

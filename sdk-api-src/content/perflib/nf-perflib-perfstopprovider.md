@@ -12,6 +12,8 @@ ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstoppr
 ms.topic: function
 f1_keywords: 
  - "perflib/PerfStopProvider"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

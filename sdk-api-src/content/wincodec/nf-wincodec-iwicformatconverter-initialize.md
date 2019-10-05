@@ -12,6 +12,8 @@ ms.keywords: IWICFormatConverter interface [Windows Imaging Component],Initializ
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICFormatConverter.Initialize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

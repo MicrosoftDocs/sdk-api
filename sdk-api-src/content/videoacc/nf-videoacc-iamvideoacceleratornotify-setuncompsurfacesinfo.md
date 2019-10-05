@@ -12,6 +12,8 @@ ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesI
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAcceleratorNotify.SetUncompSurfacesInfo"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

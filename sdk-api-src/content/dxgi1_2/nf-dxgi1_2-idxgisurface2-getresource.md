@@ -12,6 +12,8 @@ ms.keywords: GetResource, GetResource method [DXGI], GetResource method [DXGI],I
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGISurface2.GetResource"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

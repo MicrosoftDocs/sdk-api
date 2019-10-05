@@ -12,6 +12,8 @@ ms.keywords: CreateClassPart, CreateClassPart method [Windows Management Instrum
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.CreateClassPart"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

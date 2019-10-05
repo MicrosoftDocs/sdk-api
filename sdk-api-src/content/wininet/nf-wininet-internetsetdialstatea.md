@@ -12,6 +12,8 @@ ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], Inte
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetSetDialState"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

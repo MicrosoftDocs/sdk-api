@@ -12,6 +12,8 @@ ms.keywords: 045f2f16-3f32-4cc4-9052-424f32274f34, IMFTransform interface [Media
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.SetOutputBounds"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

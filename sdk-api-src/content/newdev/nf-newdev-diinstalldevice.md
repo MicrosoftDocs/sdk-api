@@ -12,6 +12,8 @@ ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Instal
 ms.topic: function
 f1_keywords:
 - newdev/DiInstallDevice
+dev_langs:
+ - c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

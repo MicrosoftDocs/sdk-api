@@ -12,6 +12,8 @@ ms.keywords: DCompositionCreateDevice3, DCompositionCreateDevice3 function [Dire
 ms.topic: function
 f1_keywords: 
  - "dcomp/DCompositionCreateDevice3"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

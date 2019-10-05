@@ -12,6 +12,8 @@ ms.keywords: PSpatialAudioObjectRenderStreamActivationParams, PSpatialAudioObjec
 ms.topic: struct
 f1_keywords: 
  - "spatialaudioclient/SpatialAudioObjectRenderStreamActivationParams"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

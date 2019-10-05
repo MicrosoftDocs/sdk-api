@@ -12,6 +12,8 @@ ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_EVENT_HEADER"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

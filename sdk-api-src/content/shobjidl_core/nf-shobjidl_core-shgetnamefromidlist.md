@@ -12,6 +12,8 @@ ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], 
 ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetNameFromIDList
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

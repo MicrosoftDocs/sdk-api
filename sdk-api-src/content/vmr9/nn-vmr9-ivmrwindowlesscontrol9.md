@@ -12,6 +12,8 @@ ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectSho
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRWindowlessControl9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

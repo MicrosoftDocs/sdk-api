@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionBasicConstraints interface [Security],IsCA property, 
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509ExtensionBasicConstraints.IsCA"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

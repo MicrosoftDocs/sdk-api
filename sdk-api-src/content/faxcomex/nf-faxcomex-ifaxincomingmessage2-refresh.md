@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Refresh method, IFaxIn
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage2.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

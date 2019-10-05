@@ -12,6 +12,8 @@ ms.keywords: FreeResource, FreeResource method [COM+], FreeResource method [COM+
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IHolder.FreeResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

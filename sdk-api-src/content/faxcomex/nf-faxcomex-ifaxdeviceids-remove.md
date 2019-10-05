@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceIds interface [Fax Service],Remove method, IFaxDeviceIds.
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceIds.Remove"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

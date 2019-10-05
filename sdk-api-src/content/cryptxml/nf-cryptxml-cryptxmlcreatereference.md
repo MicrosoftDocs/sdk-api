@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference,
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlCreateReference
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

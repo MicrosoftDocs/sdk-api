@@ -12,6 +12,8 @@ ms.keywords: OpenClusterNetInterfaceEx, OpenClusterNetInterfaceEx function [Fail
 ms.topic: function
 f1_keywords: 
  - "clusapi/OpenClusterNetInterfaceEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

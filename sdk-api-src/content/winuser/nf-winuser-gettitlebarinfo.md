@@ -12,6 +12,8 @@ ms.keywords: GetTitleBarInfo, GetTitleBarInfo function [Windows and Messages], _
 ms.topic: function
 f1_keywords: 
  - "winuser/GetTitleBarInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

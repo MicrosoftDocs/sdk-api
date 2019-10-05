@@ -12,6 +12,8 @@ ms.keywords: GetResultPropertyList, GetResultPropertyList function [Tablet PC], 
 ms.topic: function
 f1_keywords: 
  - "recapis/GetResultPropertyList"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

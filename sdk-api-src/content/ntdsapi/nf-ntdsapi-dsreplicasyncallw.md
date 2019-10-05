@@ -12,6 +12,8 @@ ms.keywords: DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE, DS_REPSYNCALL_CROSS_SITE
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsReplicaSyncAll"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHERB_NOCONFIRMATION, SHERB_NOPROGRESSUI, SHERB_NOSOUND, SHEmptyRec
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHEmptyRecycleBin"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

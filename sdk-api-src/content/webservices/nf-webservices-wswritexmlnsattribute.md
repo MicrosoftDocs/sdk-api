@@ -12,6 +12,8 @@ ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteXmlnsAttribute"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

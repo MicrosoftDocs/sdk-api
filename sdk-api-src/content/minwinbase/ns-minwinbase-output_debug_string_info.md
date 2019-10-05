@@ -12,6 +12,8 @@ ms.keywords: "*LPOUTPUT_DEBUG_STRING_INFO, LPOUTPUT_DEBUG_STRING_INFO, LPOUTPUT_
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/OUTPUT_DEBUG_STRING_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWi
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetWindowOrgEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

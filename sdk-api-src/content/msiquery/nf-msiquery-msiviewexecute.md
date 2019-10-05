@@ -12,6 +12,8 @@ ms.keywords: MsiViewExecute, MsiViewExecute function, _msi_msiviewexecute, msiqu
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiViewExecute"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPBINDPTR, BINDPTR, BINDPTR structure [Automation], LPBINDPTR, LP
 ms.topic: struct
 f1_keywords: 
  - "oaidl/BINDPTR"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

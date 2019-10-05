@@ -12,6 +12,8 @@ ms.keywords: "*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], 
 ms.topic: struct
 f1_keywords: 
  - "fdi_fci_types/ERF FAR *PERF"
+dev_langs:
+ - c++
 req.header: fdi_fci_types.h
 req.include-header: 
 req.target-type: Windows

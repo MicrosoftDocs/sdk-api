@@ -12,6 +12,8 @@ ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapePara
 ms.topic: function
 f1_keywords:
 - winbase/GetTapeParameters
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

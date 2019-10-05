@@ -12,6 +12,8 @@ ms.keywords: HitTestWithLasso, HitTestWithLasso method [Tablet PC], HitTestWithL
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.HitTestWithLasso"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.AddLeafElement"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

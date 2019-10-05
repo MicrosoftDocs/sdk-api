@@ -12,6 +12,8 @@ ms.keywords: SPOST_NONE, SPOST_PATH, SPOST_URL, SP_COPY_DELETESOURCE, SP_COPY_NO
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupCopyOEMInf"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

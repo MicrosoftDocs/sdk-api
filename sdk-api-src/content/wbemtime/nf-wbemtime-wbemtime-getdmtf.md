@@ -12,6 +12,8 @@ ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetD
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetDMTF"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetObjectProperty, GetObjectProperty method [ADSI], GetObjectProper
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyValue2.GetObjectProperty"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

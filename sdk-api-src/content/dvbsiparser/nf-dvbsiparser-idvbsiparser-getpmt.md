@@ -12,6 +12,8 @@ ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetPMT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VarDecFromR8, VarDecFromR8 function [Automation], _oa96_VarDecFromR
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecFromR8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

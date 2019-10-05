@@ -12,6 +12,8 @@ ms.keywords: IMFProtectedEnvironmentAccess interface [Media Foundation],ReadGRL 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFProtectedEnvironmentAccess.ReadGRL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

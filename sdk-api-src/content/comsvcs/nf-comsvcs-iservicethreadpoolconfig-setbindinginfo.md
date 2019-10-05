@@ -12,6 +12,8 @@ ms.keywords: IServiceThreadPoolConfig interface [COM+],SetBindingInfo method, IS
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceThreadPoolConfig.SetBindingInfo"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

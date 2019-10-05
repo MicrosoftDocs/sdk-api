@@ -12,6 +12,8 @@ ms.keywords: D3D12_PREDICATION_OP, D3D12_PREDICATION_OP enumeration, D3D12_PREDI
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_PREDICATION_OP"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

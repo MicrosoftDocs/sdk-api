@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessi
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolManager.NotifySessionOfServiceStop
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

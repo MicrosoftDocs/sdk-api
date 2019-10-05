@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY, PPROCESS_MITIGATION_DYNA
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_DYNAMIC_CODE_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

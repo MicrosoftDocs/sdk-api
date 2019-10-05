@@ -12,6 +12,8 @@ ms.keywords: D2D1_SIMPLE_COLOR_PROFILE, D2D1_SIMPLE_COLOR_PROFILE structure [Dir
 ms.topic: struct
 f1_keywords: 
  - "d2d1_3/D2D1_SIMPLE_COLOR_PROFILE"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyConditionEx, CreatePropertyConditionEx method [Window
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.CreatePropertyConditionEx"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ScrollBar_GetPos, ScrollBar_GetPos macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ScrollBar_GetPos"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

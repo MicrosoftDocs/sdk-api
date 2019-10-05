@@ -8,6 +8,10 @@ ms.assetid: 6a1fdbcd-abd7-431c-8cef-22f67b52ff0a
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS, D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS, 
 req.header: d3d12video.h
 req.include-header:

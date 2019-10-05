@@ -12,6 +12,8 @@ ms.keywords: "*LPTTHITTESTINFOW, LPHITTESTINFO, LPHITTESTINFO structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TTHITTESTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

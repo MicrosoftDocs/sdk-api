@@ -12,6 +12,8 @@ ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransacti
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ITransactionStatus"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

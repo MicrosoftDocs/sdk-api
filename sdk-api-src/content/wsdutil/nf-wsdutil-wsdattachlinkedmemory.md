@@ -12,6 +12,8 @@ ms.keywords: WSDAttachLinkedMemory, WSDAttachLinkedMemory function, ncd.wsdattac
 ms.topic: function
 f1_keywords: 
  - "wsdutil/WSDAttachLinkedMemory"
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

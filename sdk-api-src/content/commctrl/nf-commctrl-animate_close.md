@@ -12,6 +12,8 @@ ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Anima
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_Close"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

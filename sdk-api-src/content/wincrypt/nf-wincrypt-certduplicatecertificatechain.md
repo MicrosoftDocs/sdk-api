@@ -12,6 +12,8 @@ ms.keywords: CertDuplicateCertificateChain, CertDuplicateCertificateChain functi
 ms.topic: function
 f1_keywords:
 - wincrypt/CertDuplicateCertificateChain
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

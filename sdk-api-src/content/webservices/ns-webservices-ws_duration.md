@@ -12,6 +12,8 @@ ms.keywords: WS_DURATION, WS_DURATION structure [Web Services for Windows], webs
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_DURATION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

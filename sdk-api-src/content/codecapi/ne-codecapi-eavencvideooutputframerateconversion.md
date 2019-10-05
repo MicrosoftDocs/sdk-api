@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoOutputFrameRateConversion, codecapi/eAVEncVideo
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoOutputFrameRateConversion"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

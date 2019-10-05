@@ -12,6 +12,8 @@ ms.keywords: CXAPOParametersBase, CXAPOParametersBase class [XAudio2 Audio Mixin
 ms.topic: class
 f1_keywords: 
  - "xapobase/CXAPOParametersBase"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

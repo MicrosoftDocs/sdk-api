@@ -12,6 +12,8 @@ ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles 
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBlockMapReader.GetFiles"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

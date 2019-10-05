@@ -12,6 +12,8 @@ ms.keywords: ASSOCSTR, ASSOCSTR enumeration [Windows Shell], ASSOCSTR_APPICONREF
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/ASSOCSTR"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAME
 ms.topic: struct
 f1_keywords: 
  - "qos2/QOS_FLOW_FUNDAMENTALS"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

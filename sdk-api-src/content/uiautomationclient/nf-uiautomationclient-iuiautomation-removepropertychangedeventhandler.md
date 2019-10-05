@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation interface [Windows Accessibility],RemovePropertyChang
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.RemovePropertyChangedEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

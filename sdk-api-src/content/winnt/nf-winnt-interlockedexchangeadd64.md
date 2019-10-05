@@ -12,6 +12,8 @@ ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.i
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedExchangeAdd64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

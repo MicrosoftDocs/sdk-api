@@ -12,6 +12,8 @@ ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, 
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcBindingBind
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

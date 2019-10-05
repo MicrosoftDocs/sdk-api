@@ -12,6 +12,8 @@ ms.keywords: 64bbe28b-c167-4734-8ceb-5a36da4a0c70, AddStreamPrioritization, AddS
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.AddStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

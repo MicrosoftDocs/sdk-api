@@ -12,6 +12,8 @@ ms.keywords: IStylusAsyncPlugin, IStylusAsyncPlugin interface [Tablet PC], IStyl
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IStylusAsyncPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

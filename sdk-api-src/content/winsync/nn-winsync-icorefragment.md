@@ -12,6 +12,8 @@ ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragmen
 ms.topic: interface
 f1_keywords: 
  - "winsync/ICoreFragment"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

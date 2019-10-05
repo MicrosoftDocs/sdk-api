@@ -12,6 +12,8 @@ ms.keywords: PWLX_QUERY_TERMINAL_SERVICES_DATA, PWLX_QUERY_TERMINAL_SERVICES_DAT
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryTerminalServicesData
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

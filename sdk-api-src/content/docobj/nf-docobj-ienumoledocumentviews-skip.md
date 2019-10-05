@@ -12,6 +12,8 @@ ms.keywords: IEnumOleDocumentViews interface [COM],Skip method, IEnumOleDocument
 ms.topic: method
 f1_keywords: 
  - "docobj/IEnumOleDocumentViews.Skip"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeak
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioPeakMeter"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

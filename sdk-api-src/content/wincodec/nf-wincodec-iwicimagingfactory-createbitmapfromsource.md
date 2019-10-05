@@ -12,6 +12,8 @@ ms.keywords: CreateBitmapFromSource, CreateBitmapFromSource method [Windows Imag
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateBitmapFromSource"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

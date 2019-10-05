@@ -12,6 +12,8 @@ ms.keywords: IGetClusterNetInterfaceInfo, IGetClusterNetInterfaceInfo interface 
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IGetClusterNetInterfaceInfo"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

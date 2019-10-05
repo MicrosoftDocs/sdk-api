@@ -12,6 +12,8 @@ ms.keywords: VDS_FILE_SYSTEM_TYPE, VDS_FILE_SYSTEM_TYPE enumeration [VDS], VDS_F
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_FILE_SYSTEM_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

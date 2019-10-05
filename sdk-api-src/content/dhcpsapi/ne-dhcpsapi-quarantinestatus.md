@@ -12,6 +12,8 @@ ms.keywords: DEFAULTQUARSETTING, DROPPACKET, EXEMPT, NOQUARANTINE, NOQUARINFO, P
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/QuarantineStatus
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

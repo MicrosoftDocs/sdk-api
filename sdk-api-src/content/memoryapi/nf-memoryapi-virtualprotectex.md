@@ -12,6 +12,8 @@ ms.keywords: VirtualProtectEx, VirtualProtectEx function, _win32_virtualprotecte
 ms.topic: function
 f1_keywords: 
  - "memoryapi/VirtualProtectEx"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSwapChain, GetSwapChain method [Direct3D 11], GetSwapChain metho
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.GetSwapChain"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

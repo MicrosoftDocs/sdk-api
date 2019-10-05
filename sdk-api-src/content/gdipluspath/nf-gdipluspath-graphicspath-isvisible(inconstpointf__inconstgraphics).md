@@ -9,6 +9,8 @@ ms.keywords: GraphicsPath::IsVisible
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPath::IsVisible"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnumOLEVERB.Next"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetCapture, SetCapture function [Keyboard and Mouse Input], _win32_
 ms.topic: function
 f1_keywords: 
  - "winuser/SetCapture"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

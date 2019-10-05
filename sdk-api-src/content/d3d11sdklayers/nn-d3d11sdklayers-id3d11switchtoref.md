@@ -12,6 +12,8 @@ ms.keywords: 6d6b602d-11ba-2e7a-07a9-f2af8fd90578, ID3D11SwitchToRef, ID3D11Swit
 ms.topic: interface
 f1_keywords: 
  - "d3d11sdklayers/ID3D11SwitchToRef"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

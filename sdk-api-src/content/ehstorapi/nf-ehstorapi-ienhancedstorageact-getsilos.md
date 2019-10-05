@@ -12,6 +12,8 @@ ms.keywords: GetSilos, GetSilos method [Enhanced Storage], GetSilos method [Enha
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT.GetSilos"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

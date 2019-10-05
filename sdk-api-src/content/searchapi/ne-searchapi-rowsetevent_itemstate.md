@@ -12,6 +12,8 @@ ms.keywords: ROWSETEVENT_ITEMSTATE, ROWSETEVENT_ITEMSTATE enumeration [search], 
 ms.topic: enum
 f1_keywords: 
  - "searchapi/ROWSETEVENT_ITEMSTATE"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

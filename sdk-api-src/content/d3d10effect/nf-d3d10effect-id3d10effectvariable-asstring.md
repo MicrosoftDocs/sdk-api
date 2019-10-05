@@ -12,6 +12,8 @@ ms.keywords: 147dcf91-ad41-9a2f-06f9-e60ddc770e29, AsString, AsString method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsString"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

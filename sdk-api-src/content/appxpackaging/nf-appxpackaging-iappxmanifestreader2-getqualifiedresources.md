@@ -12,6 +12,8 @@ ms.keywords: GetQualifiedResources, GetQualifiedResources method [App packaging 
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestReader2.GetQualifiedResources"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

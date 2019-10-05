@@ -12,6 +12,8 @@ ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_VoidTransform"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

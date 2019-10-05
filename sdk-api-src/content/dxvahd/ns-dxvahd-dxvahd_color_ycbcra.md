@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_COLOR_YCbCrA, DXVAHD_COLOR_YCbCrA structure [Media Foundatio
 ms.topic: struct
 f1_keywords: 
  - "dxvahd/DXVAHD_COLOR_YCbCrA"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

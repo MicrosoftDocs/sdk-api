@@ -12,6 +12,8 @@ ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables2.GetMetaDataStreamInfo"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

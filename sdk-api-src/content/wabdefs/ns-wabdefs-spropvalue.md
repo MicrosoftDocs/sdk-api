@@ -12,6 +12,8 @@ ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address B
 ms.topic: struct
 f1_keywords: 
  - "wabdefs/SPropValue"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

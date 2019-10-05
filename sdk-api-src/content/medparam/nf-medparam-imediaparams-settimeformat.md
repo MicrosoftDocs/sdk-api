@@ -12,6 +12,8 @@ ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaPar
 ms.topic: method
 f1_keywords: 
  - "medparam/IMediaParams.SetTimeFormat"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

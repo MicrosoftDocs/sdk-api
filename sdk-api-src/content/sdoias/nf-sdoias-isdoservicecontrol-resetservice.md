@@ -12,6 +12,8 @@ ms.keywords: ISdoServiceControl interface [Network Policy Server],ResetService m
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoServiceControl.ResetService"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

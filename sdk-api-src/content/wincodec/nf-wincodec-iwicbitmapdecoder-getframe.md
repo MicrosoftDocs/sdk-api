@@ -12,6 +12,8 @@ ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetFrame"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

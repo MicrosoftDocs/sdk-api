@@ -12,6 +12,8 @@ ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPropertyStore.OnTextUpdated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

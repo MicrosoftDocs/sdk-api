@@ -12,6 +12,8 @@ ms.keywords: STREAMBUFFER_ATTR_DATATYPE, STREAMBUFFER_ATTR_DATATYPE , STREAMBUFF
 ms.topic: enum
 f1_keywords: 
  - "sbe/STREAMBUFFER_ATTR_DATATYPE"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

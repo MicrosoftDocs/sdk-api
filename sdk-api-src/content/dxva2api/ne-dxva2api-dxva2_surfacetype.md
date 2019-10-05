@@ -12,6 +12,8 @@ ms.keywords: 7ede2247-7878-4b70-9a74-56b626013989, DXVA2_SurfaceType, DXVA2_Surf
 ms.topic: enum
 f1_keywords: 
  - "dxva2api/DXVA2_SurfaceType"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

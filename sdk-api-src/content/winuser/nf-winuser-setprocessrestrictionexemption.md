@@ -12,6 +12,8 @@ ms.keywords: SetProcessRestrictionExemption, SetProcessRestrictionExemption func
 ms.topic: function
 f1_keywords: 
  - "winuser/SetProcessRestrictionExemption"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

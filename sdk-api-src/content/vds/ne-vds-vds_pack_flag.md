@@ -12,6 +12,8 @@ ms.keywords: VDS_PACK_FLAG, VDS_PACK_FLAG enumeration [VDS], VDS_PKF_CORRUPTED, 
 ms.topic: enum
 f1_keywords:
 - vds/VDS_PACK_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

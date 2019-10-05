@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ECC_CMS_SHARED_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

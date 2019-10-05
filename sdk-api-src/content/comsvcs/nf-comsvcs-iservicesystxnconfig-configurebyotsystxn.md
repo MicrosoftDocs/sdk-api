@@ -12,6 +12,8 @@ ms.keywords: ConfigureBYOTSysTxn, ConfigureBYOTSysTxn method [COM+], ConfigureBY
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceSysTxnConfig.ConfigureBYOTSysTxn"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

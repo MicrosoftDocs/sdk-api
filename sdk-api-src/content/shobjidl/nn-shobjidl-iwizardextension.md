@@ -12,6 +12,8 @@ ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWiza
 ms.topic: interface
 f1_keywords:
 - shobjidl/IWizardExtension
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

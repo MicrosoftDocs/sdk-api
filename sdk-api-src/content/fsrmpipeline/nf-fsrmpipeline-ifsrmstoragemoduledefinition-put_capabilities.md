@@ -12,6 +12,8 @@ ms.keywords: Capabilities property [File Server Resource Manager], Capabilities 
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmStorageModuleDefinition.Capabilities"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

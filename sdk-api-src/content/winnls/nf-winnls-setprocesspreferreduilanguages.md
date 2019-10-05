@@ -12,6 +12,8 @@ ms.keywords: MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, SetProcessPreferredUILanguages,
 ms.topic: function
 f1_keywords: 
  - "winnls/SetProcessPreferredUILanguages"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

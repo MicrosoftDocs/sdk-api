@@ -12,6 +12,8 @@ ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddT
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISelectionItemProvider.AddToSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

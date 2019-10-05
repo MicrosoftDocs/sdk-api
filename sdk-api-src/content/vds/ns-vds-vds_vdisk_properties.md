@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTI
 ms.topic: struct
 f1_keywords:
 - vds/VDS_VDISK_PROPERTIES
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

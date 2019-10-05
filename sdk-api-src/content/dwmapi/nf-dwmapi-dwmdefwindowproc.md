@@ -12,6 +12,8 @@ ms.keywords: DwmDefWindowProc, DwmDefWindowProc function [Desktop Window Manager
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmDefWindowProc"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

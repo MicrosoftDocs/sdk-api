@@ -12,6 +12,8 @@ ms.keywords: IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor in
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbLogoTransmissionDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextPara interface [Windows Controls],SetKeepWithNext method, ITex
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.SetKeepWithNext"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

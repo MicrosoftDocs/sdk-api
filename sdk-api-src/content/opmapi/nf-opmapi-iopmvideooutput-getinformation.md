@@ -12,6 +12,8 @@ ms.keywords: GetInformation, GetInformation method [Media Foundation], GetInform
 ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.GetInformation
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

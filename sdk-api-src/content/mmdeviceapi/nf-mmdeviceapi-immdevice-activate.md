@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDevice.Activate"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

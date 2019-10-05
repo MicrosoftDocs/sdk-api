@@ -12,6 +12,8 @@ ms.keywords: CertificateThumbprint property [Windows Remote Management], Certifi
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManConnectionOptionsEx.CertificateThumbprint"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

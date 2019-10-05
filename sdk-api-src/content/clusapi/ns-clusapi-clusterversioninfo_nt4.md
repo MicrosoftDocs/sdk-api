@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4, CLUSTERVERSIONIN
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSTERVERSIONINFO_NT4"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_FEATURE, DXGI_FEATURE enumeration [DXGI], DXGI_FEATURE_PRESENT
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_5/DXGI_FEATURE"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

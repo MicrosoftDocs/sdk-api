@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_MODIFY_RM, PTXFS_MODIFY_RM, PTXFS_MODIFY_RM structure point
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_MODIFY_RM"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

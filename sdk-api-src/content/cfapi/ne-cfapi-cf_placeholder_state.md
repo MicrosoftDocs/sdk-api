@@ -12,6 +12,8 @@ ms.keywords: CF_PLACEHOLDER_STATE, CF_PLACEHOLDER_STATE enumeration, CF_PLACEHOL
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_PLACEHOLDER_STATE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

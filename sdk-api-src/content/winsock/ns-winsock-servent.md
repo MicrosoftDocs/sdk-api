@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [W
 ms.topic: struct
 f1_keywords: 
  - "winsock/SERVENT"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

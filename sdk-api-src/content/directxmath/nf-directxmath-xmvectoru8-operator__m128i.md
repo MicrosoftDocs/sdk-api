@@ -9,6 +9,8 @@ ms.keywords: XMVECTORU8::operator __m128i
 ms.topic: language-reference
 f1_keywords: 
  - "directxmath/XMVECTORU8::operator __m128i"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

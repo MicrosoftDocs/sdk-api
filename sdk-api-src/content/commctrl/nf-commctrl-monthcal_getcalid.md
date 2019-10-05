@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _she
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetCALID"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

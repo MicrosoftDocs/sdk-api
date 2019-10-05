@@ -12,6 +12,8 @@ ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInpu
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateInputLayout"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

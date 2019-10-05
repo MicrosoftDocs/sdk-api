@@ -12,6 +12,8 @@ ms.keywords: CItemIDFactory interface [Windows Shell],GetDataFromIDList method, 
 ms.topic: method
 f1_keywords: 
  - "shidfact/CItemIDFactory.GetDataFromIDList"
+dev_langs:
+ - c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

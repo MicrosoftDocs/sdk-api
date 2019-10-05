@@ -12,6 +12,8 @@ ms.keywords: AddPage, AddPage method [XPS Documents and Packaging], AddPage meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPackageWriter.AddPage"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

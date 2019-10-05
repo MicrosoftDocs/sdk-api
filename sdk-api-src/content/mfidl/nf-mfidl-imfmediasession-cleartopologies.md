@@ -12,6 +12,8 @@ ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.ClearTopologies"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegLoadAppKey, RegLoadAppKey function, RegLoadAppKeyA, RegLoadAppKe
 ms.topic: function
 f1_keywords: 
  - "winreg/RegLoadAppKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

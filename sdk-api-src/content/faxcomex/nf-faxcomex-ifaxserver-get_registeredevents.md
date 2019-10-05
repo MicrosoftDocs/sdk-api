@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],RegisteredEvents property, IFaxS
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.RegisteredEvents"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog funct
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetConnectionDialog"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

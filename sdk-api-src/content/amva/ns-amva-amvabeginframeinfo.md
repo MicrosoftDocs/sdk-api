@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo stru
 ms.topic: struct
 f1_keywords: 
  - "amva/AMVABeginFrameInfo"
+dev_langs:
+ - c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

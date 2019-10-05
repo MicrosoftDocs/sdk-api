@@ -12,6 +12,8 @@ ms.keywords: OleDuplicateData, OleDuplicateData function [COM], _ole_OleDuplicat
 ms.topic: function
 f1_keywords: 
  - "ole2/OleDuplicateData"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

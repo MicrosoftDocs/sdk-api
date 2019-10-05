@@ -12,6 +12,8 @@ ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structur
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecI
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo2.GetCodecInfo"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAud
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo.GetCurrentAudio"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

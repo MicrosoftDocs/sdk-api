@@ -12,6 +12,8 @@ ms.keywords: IntPtrMult, IntPtrMult function [Windows Shell], intsafe/IntPtrMult
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntPtrMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

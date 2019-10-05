@@ -12,6 +12,8 @@ ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccess
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportProviderUserAccessCheck"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

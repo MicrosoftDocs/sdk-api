@@ -12,6 +12,8 @@ ms.keywords: IX509Extension interface [Security],RawData property, IX509Extensio
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Extension.RawData"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

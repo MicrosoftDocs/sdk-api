@@ -12,6 +12,8 @@ ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method
 ms.topic: method
 f1_keywords: 
  - "bitscfg/IBITSExtensionSetup.GetCleanupTask"
+dev_langs:
+ - c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

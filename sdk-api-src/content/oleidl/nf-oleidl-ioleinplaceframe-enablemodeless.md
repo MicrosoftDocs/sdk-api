@@ -12,6 +12,8 @@ ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method 
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceFrame.EnableModeless"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, ms
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiCreateRecord"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

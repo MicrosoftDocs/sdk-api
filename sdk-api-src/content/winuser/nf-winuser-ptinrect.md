@@ -12,6 +12,8 @@ ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.pti
 ms.topic: function
 f1_keywords: 
  - "winuser/PtInRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

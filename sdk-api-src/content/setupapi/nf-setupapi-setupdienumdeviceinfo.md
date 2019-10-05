@@ -12,6 +12,8 @@ ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and D
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiEnumDeviceInfo
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

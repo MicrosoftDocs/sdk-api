@@ -12,6 +12,8 @@ ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalizati
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_LOGATTR"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

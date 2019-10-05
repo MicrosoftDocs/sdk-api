@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetWeight method, ITextFont.
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetWeight"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

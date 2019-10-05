@@ -12,6 +12,8 @@ ms.keywords: IDirectoryObject interface [ADSI],SetObjectAttributes method, IDire
 ms.topic: method
 f1_keywords:
 - iads/IDirectoryObject.SetObjectAttributes
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

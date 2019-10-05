@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.Imag
 ms.topic: method
 f1_keywords: 
  - "mmc/IImageList.ImageListSetIcon"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

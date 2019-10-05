@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHe
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PreHeapMinimize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA struct
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_NXT_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

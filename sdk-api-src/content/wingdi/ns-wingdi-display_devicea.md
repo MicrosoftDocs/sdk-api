@@ -12,6 +12,8 @@ ms.keywords: "*LPDISPLAY_DEVICEA, *PDISPLAY_DEVICEA, DISPLAY_DEVICE, DISPLAY_DEV
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAY_DEVICE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],StartWork
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable2.StartWorkspaceEx"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

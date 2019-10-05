@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimerClientEventHandler interface [Windows Animation],O
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

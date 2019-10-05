@@ -12,6 +12,8 @@ ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_s
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/SetProcessPriorityBoost"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

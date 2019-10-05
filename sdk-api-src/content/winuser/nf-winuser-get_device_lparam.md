@@ -12,6 +12,8 @@ ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Inpu
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_DEVICE_LPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

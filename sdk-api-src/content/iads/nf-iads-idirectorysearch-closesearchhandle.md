@@ -12,6 +12,8 @@ ms.keywords: CloseSearchHandle, CloseSearchHandle method [ADSI], CloseSearchHand
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.CloseSearchHandle"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

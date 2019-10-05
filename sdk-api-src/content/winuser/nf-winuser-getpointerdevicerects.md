@@ -12,6 +12,8 @@ ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointe
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerDeviceRects"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

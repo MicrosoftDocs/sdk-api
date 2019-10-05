@@ -12,6 +12,8 @@ ms.keywords: CancelCallback, IncludeModuleCallback, IncludeThreadCallback, Inclu
 ms.topic: enum
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_CALLBACK_TYPE"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

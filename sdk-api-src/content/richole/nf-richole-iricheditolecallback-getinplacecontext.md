@@ -12,6 +12,8 @@ ms.keywords: GetInPlaceContext, GetInPlaceContext method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.GetInPlaceContext"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

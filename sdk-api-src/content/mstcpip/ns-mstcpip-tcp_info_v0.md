@@ -12,6 +12,8 @@ ms.keywords: '*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winso
 ms.topic: struct
 f1_keywords:
 - mstcpip/TCP_INFO_v0
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

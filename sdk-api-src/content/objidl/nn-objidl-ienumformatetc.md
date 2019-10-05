@@ -12,6 +12,8 @@ ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC inte
 ms.topic: interface
 f1_keywords: 
  - "objidl/IEnumFORMATETC"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

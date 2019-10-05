@@ -12,6 +12,8 @@ ms.keywords: ES_NOIME, ES_SELFIME, ITextHost2 interface [Windows Controls],TxGet
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost2.TxGetEastAsianFlags"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

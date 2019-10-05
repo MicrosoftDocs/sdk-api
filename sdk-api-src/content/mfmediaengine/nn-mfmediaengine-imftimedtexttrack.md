@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSettings interface [Windows Media Player],get_defaultFrame meth
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSettings.get_defaultFrame"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

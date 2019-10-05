@@ -12,6 +12,8 @@ ms.keywords: DAD_DragEnterEx2, DAD_DragEnterEx2 function [Windows Shell], _shell
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/DAD_DragEnterEx2"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

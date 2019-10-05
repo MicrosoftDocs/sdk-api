@@ -12,6 +12,8 @@ ms.keywords: '*PISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPING, ISCSI_TARGET_MAPPIN
 ms.topic: struct
 f1_keywords:
 - iscsidsc/ISCSI_TARGET_MAPPING
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflict.GetResolutionHandler"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

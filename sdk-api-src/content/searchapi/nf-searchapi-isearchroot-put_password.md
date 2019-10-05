@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],put_Password method, ISearchRoot.put
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.put_Password"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_IO_CAPABILITY, BLUETOOTH_IO_CAPABILITY enumeration [Bluet
 ms.topic: enum
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_IO_CAPABILITY"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

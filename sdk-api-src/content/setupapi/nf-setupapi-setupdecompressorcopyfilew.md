@@ -12,6 +12,8 @@ ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDecompressOrCopyFile"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

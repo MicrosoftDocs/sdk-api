@@ -12,6 +12,8 @@ ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecP
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMCodecInfo3.GetCodecProp"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

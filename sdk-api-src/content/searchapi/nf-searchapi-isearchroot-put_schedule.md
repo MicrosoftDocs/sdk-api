@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],put_Schedule method, ISearchRoot.put
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.put_Schedule"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structur
 ms.topic: struct
 f1_keywords: 
  - "nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB"
+dev_langs:
+ - c++
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

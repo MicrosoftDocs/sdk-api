@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_STARTING_PARAMS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

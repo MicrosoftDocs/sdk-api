@@ -12,6 +12,8 @@ ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies],
 ms.topic: interface
 f1_keywords: 
  - "winsxs/IAssemblyCache"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

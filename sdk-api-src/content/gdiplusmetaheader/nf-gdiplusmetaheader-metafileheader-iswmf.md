@@ -12,6 +12,8 @@ ms.keywords: IsWmf, IsWmf method [GDI+], IsWmf method [GDI+],MetafileHeader clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsWmf"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

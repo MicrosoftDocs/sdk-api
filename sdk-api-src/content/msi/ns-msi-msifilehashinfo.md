@@ -12,6 +12,8 @@ ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMS
 ms.topic: struct
 f1_keywords: 
  - "msi/MSIFILEHASHINFO"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

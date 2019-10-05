@@ -12,6 +12,8 @@ ms.keywords: GetRegisterState, GetRegisterState method [Microsoft Broadband Netw
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetRegisterState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEM
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeChangeEvents.RequestTypeChange"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

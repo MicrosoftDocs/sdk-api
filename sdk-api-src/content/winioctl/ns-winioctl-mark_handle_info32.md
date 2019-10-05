@@ -12,6 +12,8 @@ ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 struc
 ms.topic: struct
 f1_keywords: 
  - "winioctl/MARK_HANDLE_INFO32"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

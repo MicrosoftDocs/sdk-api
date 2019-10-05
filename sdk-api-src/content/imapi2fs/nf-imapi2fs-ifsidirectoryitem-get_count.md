@@ -12,6 +12,8 @@ ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Count method, IFsiDirectory
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiDirectoryItem.get_Count"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

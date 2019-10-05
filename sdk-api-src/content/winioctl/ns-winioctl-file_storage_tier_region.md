@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION, FILE_STORAGE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_STORAGE_TIER_REGION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

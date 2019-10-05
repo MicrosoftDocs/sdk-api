@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB,
 ms.topic: struct
 f1_keywords: 
  - "oleidl/OLEVERB"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

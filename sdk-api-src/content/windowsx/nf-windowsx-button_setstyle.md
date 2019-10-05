@@ -12,6 +12,8 @@ ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_B
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_SetStyle"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

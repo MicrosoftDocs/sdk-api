@@ -12,6 +12,8 @@ ms.keywords: AddWord, AddWord method [Tablet PC], AddWord method [Tablet PC],IIn
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkWordList.AddWord"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

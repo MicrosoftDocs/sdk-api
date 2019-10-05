@@ -12,6 +12,8 @@ ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 int
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRSurface9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

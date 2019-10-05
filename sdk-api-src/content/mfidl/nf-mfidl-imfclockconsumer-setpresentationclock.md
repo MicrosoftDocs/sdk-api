@@ -12,6 +12,8 @@ ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFClockConsumer.SetPresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

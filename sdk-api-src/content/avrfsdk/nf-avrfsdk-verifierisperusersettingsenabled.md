@@ -12,6 +12,8 @@ ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled 
 ms.topic: function
 f1_keywords: 
  - "avrfsdk/VerifierIsPerUserSettingsEnabled"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

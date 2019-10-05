@@ -12,6 +12,8 @@ ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePa
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhValidatePathEx"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], Get
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcRelationship.GetTargetUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine2
 ms.topic: interface
 f1_keywords: 
  - "il21dec/IAMLine21Decoder"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

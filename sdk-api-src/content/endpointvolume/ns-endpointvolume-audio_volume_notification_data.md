@@ -12,6 +12,8 @@ ms.keywords: "*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, 
 ms.topic: struct
 f1_keywords: 
  - "endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

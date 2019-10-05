@@ -12,6 +12,8 @@ ms.keywords: WindowFromPoint, WindowFromPoint function [Windows and Messages], _
 ms.topic: function
 f1_keywords: 
  - "winuser/WindowFromPoint"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

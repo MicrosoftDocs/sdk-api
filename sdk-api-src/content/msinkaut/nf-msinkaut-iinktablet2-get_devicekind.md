@@ -12,6 +12,8 @@ ms.keywords: DeviceKind property [Tablet PC], DeviceKind property [Tablet PC],II
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet2.DeviceKind"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

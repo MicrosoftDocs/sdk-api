@@ -12,6 +12,8 @@ ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSession.CreateUpdateInstaller"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

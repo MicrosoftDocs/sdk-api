@@ -12,6 +12,8 @@ ms.keywords: DOT11_ADHOC_CIPHER_ALGORITHM, DOT11_ADHOC_CIPHER_ALGORITHM enumerat
 ms.topic: enum
 f1_keywords: 
  - "adhoc/DOT11_ADHOC_CIPHER_ALGORITHM"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

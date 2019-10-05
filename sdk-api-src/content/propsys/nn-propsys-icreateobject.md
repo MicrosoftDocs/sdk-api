@@ -12,6 +12,8 @@ ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObje
 ms.topic: interface
 f1_keywords: 
  - "propsys/ICreateObject"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

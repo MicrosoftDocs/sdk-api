@@ -12,6 +12,8 @@ ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IW
 ms.topic: interface
 f1_keywords: 
  - "winsatcominterfacei/IWinSATInitiateEvents"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

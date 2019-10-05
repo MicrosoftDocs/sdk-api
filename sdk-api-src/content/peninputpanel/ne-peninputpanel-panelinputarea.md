@@ -12,6 +12,8 @@ ms.keywords: InputArea2, InputArea2 enumeration [Tablet PC], PanelInputArea, Pan
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/InputArea2"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

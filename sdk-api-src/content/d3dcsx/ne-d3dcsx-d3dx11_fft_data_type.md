@@ -12,6 +12,8 @@ ms.keywords: 76576b3e-407c-57fa-1de1-b8b141dba30d, D3DX11_FFT_DATA_TYPE, D3DX11_
 ms.topic: enum
 f1_keywords: 
  - "d3dcsx/D3DX11_FFT_DATA_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

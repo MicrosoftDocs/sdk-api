@@ -12,6 +12,8 @@ ms.keywords: "*PIPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATU
 ms.topic: struct
 f1_keywords: 
  - "wsnwlink/IPX_SPXCONNSTATUS_DATA"
+dev_langs:
+ - c++
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows

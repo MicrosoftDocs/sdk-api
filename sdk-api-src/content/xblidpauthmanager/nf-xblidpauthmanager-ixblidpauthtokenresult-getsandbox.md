@@ -12,6 +12,8 @@ ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenRe
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetSandbox"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFVideoProcessorControl2"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: APO_BUFFER_FLAGS, APO_BUFFER_FLAGS enumeration [Remote Desktop Serv
 ms.topic: enum
 f1_keywords: 
  - "audioapotypes/APO_BUFFER_FLAGS"
+dev_langs:
+ - c++
 req.header: audioapotypes.h
 req.include-header: 
 req.target-type: Windows

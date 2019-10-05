@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLI
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_POLICY_MISMATCH_PARAM
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

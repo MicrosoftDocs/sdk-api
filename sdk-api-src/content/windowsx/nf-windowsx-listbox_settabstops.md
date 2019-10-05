@@ -12,6 +12,8 @@ ms.keywords: ListBox_SetTabStops, ListBox_SetTabStops macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_SetTabStops"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

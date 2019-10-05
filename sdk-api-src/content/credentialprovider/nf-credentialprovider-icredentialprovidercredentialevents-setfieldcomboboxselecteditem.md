@@ -12,6 +12,8 @@ ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFi
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: POINTER_TOUCH_INFO, POINTER_TOUCH_INFO structure [Input Messages an
 ms.topic: struct
 f1_keywords: 
  - "winuser/POINTER_TOUCH_INFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

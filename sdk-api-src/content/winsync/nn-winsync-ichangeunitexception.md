@@ -12,6 +12,8 @@ ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync]
 ms.topic: interface
 f1_keywords: 
  - "winsync/IChangeUnitException"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

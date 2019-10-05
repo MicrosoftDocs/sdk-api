@@ -9,6 +9,8 @@ ms.keywords: XMUSHORT2::operator=
 ms.topic: language-reference
 f1_keywords: 
  - "directxpackedvector/XMUSHORT2::operator="
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

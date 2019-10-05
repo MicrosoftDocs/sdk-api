@@ -12,6 +12,8 @@ ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12Comma
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12CommandQueue.UpdateTileMappings"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

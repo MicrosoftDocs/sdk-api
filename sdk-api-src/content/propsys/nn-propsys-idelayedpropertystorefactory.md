@@ -12,6 +12,8 @@ ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interfac
 ms.topic: interface
 f1_keywords: 
  - "propsys/IDelayedPropertyStoreFactory"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

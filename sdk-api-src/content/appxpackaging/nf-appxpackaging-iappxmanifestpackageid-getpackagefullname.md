@@ -12,6 +12,8 @@ ms.keywords: GetPackageFullName, GetPackageFullName method [App packaging and ma
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestPackageId.GetPackageFullName"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

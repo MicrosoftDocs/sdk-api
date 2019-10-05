@@ -12,6 +12,8 @@ ms.keywords: WinBioAsyncEnumDatabases, WinBioAsyncEnumDatabases function [Window
 ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncEnumDatabases
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

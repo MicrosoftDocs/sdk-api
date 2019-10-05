@@ -12,6 +12,8 @@ ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IVa
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMap.Count"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

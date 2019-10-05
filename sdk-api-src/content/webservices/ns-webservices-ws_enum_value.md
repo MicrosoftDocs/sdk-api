@@ -12,6 +12,8 @@ ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], 
 ms.topic: struct
 f1_keywords:
 - webservices/WS_ENUM_VALUE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

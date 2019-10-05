@@ -12,6 +12,8 @@ ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObject
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterDataInfo.GetObjectCount"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

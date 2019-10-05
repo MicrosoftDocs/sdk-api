@@ -12,6 +12,8 @@ ms.keywords: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4, Cursors property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.Cursors"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

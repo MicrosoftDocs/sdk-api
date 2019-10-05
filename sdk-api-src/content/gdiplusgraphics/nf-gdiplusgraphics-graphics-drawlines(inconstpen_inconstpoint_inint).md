@@ -12,6 +12,8 @@ ms.keywords: DrawLines, DrawLines method [GDI+], DrawLines method [GDI+],Graphic
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawLines"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

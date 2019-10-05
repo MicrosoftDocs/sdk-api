@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceClientExt interface [Remote Desktop Services],IssueDiscon
 ms.topic: method
 f1_keywords: 
  - "workspaceruntimeclientext/IWorkspaceClientExt.IssueDisconnect"
+dev_langs:
+ - c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

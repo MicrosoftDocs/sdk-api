@@ -12,6 +12,8 @@ ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.events
 ms.topic: function
 f1_keywords:
 - evntprov/EventSetInformation
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

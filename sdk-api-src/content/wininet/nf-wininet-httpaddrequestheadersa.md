@@ -12,6 +12,8 @@ ms.keywords: HTTP_ADDREQ_FLAG_ADD, HTTP_ADDREQ_FLAG_ADD_IF_NEW, HTTP_ADDREQ_FLAG
 ms.topic: function
 f1_keywords: 
  - "wininet/HttpAddRequestHeaders"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

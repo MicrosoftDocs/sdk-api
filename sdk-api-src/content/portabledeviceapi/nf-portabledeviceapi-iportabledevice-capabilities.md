@@ -12,6 +12,8 @@ ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], C
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDevice.Capabilities"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

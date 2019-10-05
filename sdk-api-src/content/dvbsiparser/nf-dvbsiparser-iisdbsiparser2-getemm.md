@@ -12,6 +12,8 @@ ms.keywords: GetEMM, GetEMM method [Microsoft TV Technologies], GetEMM method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSiParser2.GetEMM"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

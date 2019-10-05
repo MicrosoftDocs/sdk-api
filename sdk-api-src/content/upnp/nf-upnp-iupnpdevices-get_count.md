@@ -12,6 +12,8 @@ ms.keywords: IUPnPDevices interface [UPnP APIs],get_Count method, IUPnPDevices.g
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDevices.get_Count"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

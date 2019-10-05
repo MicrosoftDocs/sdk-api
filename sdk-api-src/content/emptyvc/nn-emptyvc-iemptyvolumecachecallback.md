@@ -12,6 +12,8 @@ ms.keywords: IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Leg
 ms.topic: interface
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCacheCallBack"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

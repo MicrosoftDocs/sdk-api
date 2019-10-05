@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_SCHEME, INTERNET_SCHEME, INTERNET_SCHEME enumeration [
 ms.topic: enum
 f1_keywords: 
  - "wininet/INTERNET_SCHEME"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

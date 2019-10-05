@@ -12,6 +12,8 @@ ms.keywords: EPS_DEFAULT_OFF, EPS_DEFAULT_ON, EPS_DONTCARE, EPS_FORCE, EPS_INITI
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/EXPLORERPANESTATE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

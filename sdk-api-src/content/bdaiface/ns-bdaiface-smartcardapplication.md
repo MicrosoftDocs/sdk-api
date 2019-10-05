@@ -12,6 +12,8 @@ ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV 
 ms.topic: struct
 f1_keywords: 
  - "bdaiface/SmartCardApplication"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: Bdaiface.h
 req.target-type: Windows

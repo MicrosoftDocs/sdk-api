@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATI
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_NOTIFICATION_PARAM
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

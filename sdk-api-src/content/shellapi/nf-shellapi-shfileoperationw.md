@@ -12,6 +12,8 @@ ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOp
 ms.topic: function
 f1_keywords:
 - shellapi/SHFileOperation
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

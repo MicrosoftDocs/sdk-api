@@ -12,6 +12,8 @@ ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters 
 ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

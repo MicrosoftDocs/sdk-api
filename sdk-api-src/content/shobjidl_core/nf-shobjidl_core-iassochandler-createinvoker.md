@@ -12,6 +12,8 @@ ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAssocHandler.CreateInvoker"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

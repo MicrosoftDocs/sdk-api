@@ -12,6 +12,8 @@ ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IDeviceController"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

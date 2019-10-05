@@ -12,6 +12,8 @@ ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Co
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarity.FindSimilarFileId"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

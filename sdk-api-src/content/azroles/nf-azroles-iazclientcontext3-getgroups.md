@@ -12,6 +12,8 @@ ms.keywords: AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY, GetGroups, GetGroups
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext3.GetGroups"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

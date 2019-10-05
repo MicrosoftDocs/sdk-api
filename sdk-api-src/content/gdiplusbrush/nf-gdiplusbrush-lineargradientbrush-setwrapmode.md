@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],SetWrapMode method, LinearGradient
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.SetWrapMode"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

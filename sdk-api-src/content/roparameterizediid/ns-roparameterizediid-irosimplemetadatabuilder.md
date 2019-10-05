@@ -12,6 +12,8 @@ ms.keywords: IRoSimpleMetaDataBuilder, IRoSimpleMetaDataBuilder structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "roparameterizediid/IRoSimpleMetaDataBuilder"
+dev_langs:
+ - c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows

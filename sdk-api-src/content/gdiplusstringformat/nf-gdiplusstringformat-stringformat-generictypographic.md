@@ -12,6 +12,8 @@ ms.keywords: GenericTypographic, GenericTypographic method [GDI+], GenericTypogr
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GenericTypographic"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

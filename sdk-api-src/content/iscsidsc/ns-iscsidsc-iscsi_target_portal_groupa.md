@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TAR
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_TARGET_PORTAL_GROUP"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

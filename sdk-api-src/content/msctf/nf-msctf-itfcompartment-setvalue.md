@@ -12,6 +12,8 @@ ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method,
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompartment.SetValue"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

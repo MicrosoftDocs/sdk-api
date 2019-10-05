@@ -12,6 +12,8 @@ ms.keywords: "?Commit@Provider@@IAEJPAVCInstance@@_N@Z, ?Commit@Provider@@IEAAJP
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.Commit"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

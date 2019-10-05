@@ -12,6 +12,8 @@ ms.keywords: WS_POLICY_PROPERTY_ID, WS_POLICY_PROPERTY_ID enumeration [Web Servi
 ms.topic: enum
 f1_keywords:
 - webservices/WS_POLICY_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

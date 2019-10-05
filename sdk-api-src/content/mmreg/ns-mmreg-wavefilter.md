@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER
 ms.topic: struct
 f1_keywords: 
  - "mmreg/WAVEFILTER"
+dev_langs:
+ - c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows

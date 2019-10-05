@@ -12,6 +12,8 @@ ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister 
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTUnregister"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

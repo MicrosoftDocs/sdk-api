@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_SubLong, FLOATOBJ_SubLong function [Display Devices], disp
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_SubLong
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

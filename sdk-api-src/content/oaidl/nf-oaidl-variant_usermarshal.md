@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserMarshal, VARIANT_UserMarshal function [Automation], _oa
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserMarshal"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

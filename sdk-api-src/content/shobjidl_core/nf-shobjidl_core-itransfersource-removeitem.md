@@ -12,6 +12,8 @@ ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITrans
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferSource.RemoveItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

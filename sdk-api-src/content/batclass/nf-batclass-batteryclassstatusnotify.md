@@ -12,6 +12,8 @@ ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Batter
 ms.topic: function
 f1_keywords: 
  - "batclass/BatteryClassStatusNotify"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

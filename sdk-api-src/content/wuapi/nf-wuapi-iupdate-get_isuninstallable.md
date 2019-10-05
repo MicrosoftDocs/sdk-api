@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],IsUninstallable property, 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.IsUninstallable"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

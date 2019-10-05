@@ -12,6 +12,8 @@ ms.keywords: IFsiFileItem interface [IMAPI],put_Data method, IFsiFileItem.put_Da
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem.put_Data"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

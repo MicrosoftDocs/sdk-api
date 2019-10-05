@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, 
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_CRYPTOGRAPHIC_INTERFACE"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

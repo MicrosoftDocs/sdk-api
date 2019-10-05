@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], G
 ms.topic: function
 f1_keywords: 
  - "cryptdlg/GetFriendlyNameOfCert"
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

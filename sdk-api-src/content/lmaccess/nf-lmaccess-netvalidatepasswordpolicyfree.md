@@ -12,6 +12,8 @@ ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree functi
 ms.topic: function
 f1_keywords:
 - lmaccess/NetValidatePasswordPolicyFree
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

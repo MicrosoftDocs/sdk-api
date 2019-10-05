@@ -12,6 +12,8 @@ ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollect
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.DataManager"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

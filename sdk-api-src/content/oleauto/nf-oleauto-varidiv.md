@@ -12,6 +12,8 @@ ms.keywords: VarIdiv, VarIdiv function [Automation], _oa96_VarIdiv, automat.vari
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarIdiv"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

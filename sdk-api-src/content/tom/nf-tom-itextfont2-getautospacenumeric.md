@@ -12,6 +12,8 @@ ms.keywords: GetAutospaceNumeric, GetAutospaceNumeric method [Windows Controls],
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetAutospaceNumeric"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

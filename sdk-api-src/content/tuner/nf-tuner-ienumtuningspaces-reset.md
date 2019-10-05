@@ -12,6 +12,8 @@ ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset metho
 ms.topic: method
 f1_keywords: 
  - "tuner/IEnumTuningSpaces.Reset"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

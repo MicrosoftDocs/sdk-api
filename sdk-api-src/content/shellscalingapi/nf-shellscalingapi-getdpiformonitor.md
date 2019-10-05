@@ -12,6 +12,8 @@ ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdp
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/GetDpiForMonitor"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

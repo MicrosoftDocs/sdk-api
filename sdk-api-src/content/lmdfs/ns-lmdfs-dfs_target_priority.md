@@ -12,6 +12,8 @@ ms.keywords: '*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY st
 ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_TARGET_PRIORITY
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorAdjustContrast, XMColorAdjustContrast, XMColorA
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorAdjustContrast"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

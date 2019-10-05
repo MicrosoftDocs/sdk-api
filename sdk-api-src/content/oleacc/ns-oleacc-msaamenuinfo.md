@@ -12,6 +12,8 @@ ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "oleacc/MSAAMENUINFO"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],GetAlpha method, Color.GetAlpha, Color::GetAlpha
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.GetAlpha"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

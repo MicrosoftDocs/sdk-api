@@ -12,6 +12,8 @@ ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Window
 ms.topic: function
 f1_keywords: 
  - "werapi/WerStoreGetNextReportKey"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

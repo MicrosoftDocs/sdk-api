@@ -12,6 +12,8 @@ ms.keywords: IAS_IDENTITY_NO_DEFAULT, IDENTITY_TYPE, IDENTITY_TYPE enumeration [
 ms.topic: enum
 f1_keywords: 
  - "sdoias/IDENTITY_TYPE"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

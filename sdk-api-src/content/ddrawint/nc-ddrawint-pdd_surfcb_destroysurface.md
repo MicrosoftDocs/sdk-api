@@ -12,6 +12,8 @@ ms.keywords: DdDestroySurface, DdDestroySurface callback function [Display Devic
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdDestroySurface
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

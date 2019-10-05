@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [search], GetVersion method [search],
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager2.GetVersion"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

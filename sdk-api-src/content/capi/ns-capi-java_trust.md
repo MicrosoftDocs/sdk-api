@@ -12,6 +12,8 @@ ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAV
 ms.topic: struct
 f1_keywords: 
  - "capi/JAVA_TRUST"
+dev_langs:
+ - c++
 req.header: capi.h
 req.include-header: 
 req.target-type: Windows

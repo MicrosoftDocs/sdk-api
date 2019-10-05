@@ -12,6 +12,8 @@ ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSi
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo.GetHeaderSize"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

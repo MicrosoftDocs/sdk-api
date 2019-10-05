@@ -12,6 +12,8 @@ ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket functi
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTConvertDevModeToPrintTicket"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

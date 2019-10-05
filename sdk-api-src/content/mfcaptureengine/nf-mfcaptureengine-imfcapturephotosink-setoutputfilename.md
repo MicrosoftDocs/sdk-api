@@ -12,6 +12,8 @@ ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputFileName 
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePhotoSink.SetOutputFileName"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

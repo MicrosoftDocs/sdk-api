@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "sbe/IStreamBufferSource"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

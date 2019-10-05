@@ -12,6 +12,8 @@ ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetItemIndexState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

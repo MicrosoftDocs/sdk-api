@@ -12,6 +12,8 @@ ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSample
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

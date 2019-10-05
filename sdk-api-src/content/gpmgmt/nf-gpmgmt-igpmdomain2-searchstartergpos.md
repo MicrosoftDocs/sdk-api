@@ -12,6 +12,8 @@ ms.keywords: IGPMDomain2 interface [GPMC],SearchStarterGPOs method, IGPMDomain2.
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain2.SearchStarterGPOs"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

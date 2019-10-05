@@ -12,6 +12,8 @@ ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage
 ms.topic: function
 f1_keywords: 
  - "netsh/PrintMessage"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

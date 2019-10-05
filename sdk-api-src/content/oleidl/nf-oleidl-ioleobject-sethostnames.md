@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],SetHostNames method, IOleObject.SetHostN
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.SetHostNames"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

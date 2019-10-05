@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER, DRT_SECURITY_PROVI
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_SECURITY_PROVIDER"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

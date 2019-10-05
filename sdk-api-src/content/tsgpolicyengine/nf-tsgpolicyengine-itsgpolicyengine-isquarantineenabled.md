@@ -12,6 +12,8 @@ ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],IsQuarantineEn
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGPolicyEngine.IsQuarantineEnabled"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

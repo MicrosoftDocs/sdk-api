@@ -12,6 +12,8 @@ ms.keywords: AM_PUSHSOURCECAPS_INTERNAL_RM, AM_PUSHSOURCECAPS_NOT_LIVE, AM_PUSHS
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_PUSHSOURCE_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

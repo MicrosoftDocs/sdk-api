@@ -12,6 +12,8 @@ ms.keywords: PLACEMENT_OPTIONS, PLACEMENT_OPTIONS enumeration [Failover Cluster]
 ms.topic: enum
 f1_keywords: 
  - "clusapi/PLACEMENT_OPTIONS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

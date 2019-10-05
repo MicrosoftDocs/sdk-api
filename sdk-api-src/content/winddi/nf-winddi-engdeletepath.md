@@ -12,6 +12,8 @@ ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.en
 ms.topic: function
 f1_keywords:
 - winddi/EngDeletePath
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

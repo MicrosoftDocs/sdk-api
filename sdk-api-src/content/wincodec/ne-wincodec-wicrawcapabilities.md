@@ -12,6 +12,8 @@ ms.keywords: WICRawCapabilities, WICRawCapabilities enumeration [Windows Imaging
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICRawCapabilities"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

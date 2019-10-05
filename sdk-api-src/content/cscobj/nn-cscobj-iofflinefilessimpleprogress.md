@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSimpleProgress, IOfflineFilesSimpleProgress interface 
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IOfflineFilesSimpleProgress"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

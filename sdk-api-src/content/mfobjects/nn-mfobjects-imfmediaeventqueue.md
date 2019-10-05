@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation]
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFMediaEventQueue"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

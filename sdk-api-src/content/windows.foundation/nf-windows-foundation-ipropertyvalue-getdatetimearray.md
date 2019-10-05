@@ -12,6 +12,8 @@ ms.keywords: GetDateTimeArray, GetDateTimeArray method [Windows Runtime], GetDat
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetDateTimeArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

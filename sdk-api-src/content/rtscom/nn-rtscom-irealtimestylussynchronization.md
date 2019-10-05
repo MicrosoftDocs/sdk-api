@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylusSynchronization, IRealTimeStylusSynchronization inte
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IRealTimeStylusSynchronization"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

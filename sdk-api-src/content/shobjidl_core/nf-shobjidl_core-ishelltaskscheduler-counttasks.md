@@ -12,6 +12,8 @@ ms.keywords: CountTasks, CountTasks method [Windows Shell], CountTasks method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellTaskScheduler.CountTasks"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

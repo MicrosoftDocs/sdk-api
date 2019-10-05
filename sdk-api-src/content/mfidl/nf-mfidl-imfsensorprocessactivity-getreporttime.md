@@ -12,6 +12,8 @@ ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorProcessActivity.GetReportTime"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

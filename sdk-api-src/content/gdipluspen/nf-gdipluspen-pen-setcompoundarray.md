@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetCompoundArray method, Pen.SetCompoundArray, Pen
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetCompoundArray"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

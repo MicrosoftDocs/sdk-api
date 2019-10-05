@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],SetWin
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern.SetWindowVisualState"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

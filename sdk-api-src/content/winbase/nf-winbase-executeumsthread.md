@@ -12,6 +12,8 @@ ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread,
 ms.topic: function
 f1_keywords: 
  - "winbase/ExecuteUmsThread"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

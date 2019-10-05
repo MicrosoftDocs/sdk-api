@@ -12,6 +12,8 @@ ms.keywords: GetAppInfo, GetAppInfo method [Windows Shell], GetAppInfo method [W
 ms.topic: method
 f1_keywords:
 - shappmgr/IShellApp.GetAppInfo
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

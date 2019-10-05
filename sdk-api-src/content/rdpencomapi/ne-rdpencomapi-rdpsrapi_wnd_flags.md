@@ -12,6 +12,8 @@ ms.keywords: RDPSRAPI_WND_FLAGS, RDPSRAPI_WND_FLAGS enumeration [RDP], WND_FLAG_
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPSRAPI_WND_FLAGS"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

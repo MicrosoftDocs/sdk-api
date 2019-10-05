@@ -12,6 +12,8 @@ ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExcep
 ms.topic: callback
 f1_keywords:
 - werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorFloor, XMVectorFloor, XMVectorFloor method [Di
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorFloor"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

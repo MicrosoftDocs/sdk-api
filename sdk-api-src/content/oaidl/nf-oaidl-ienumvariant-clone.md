@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVA
 ms.topic: method
 f1_keywords: 
  - "oaidl/IEnumVARIANT.Clone"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

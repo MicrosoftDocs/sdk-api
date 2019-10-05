@@ -12,6 +12,8 @@ ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp
 ms.topic: function
 f1_keywords: 
  - "dhcpcsdk/DhcpUndoRequestParams"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

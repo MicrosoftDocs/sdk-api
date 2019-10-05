@@ -12,6 +12,8 @@ ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVecto
 ms.topic: method
 f1_keywords: 
  - "winsync/IRangeException.GetClockVector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

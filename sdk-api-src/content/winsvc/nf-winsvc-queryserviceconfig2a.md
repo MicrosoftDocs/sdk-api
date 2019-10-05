@@ -12,6 +12,8 @@ ms.keywords: QueryServiceConfig2, QueryServiceConfig2 function, QueryServiceConf
 ms.topic: function
 f1_keywords:
 - winsvc/QueryServiceConfig2
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

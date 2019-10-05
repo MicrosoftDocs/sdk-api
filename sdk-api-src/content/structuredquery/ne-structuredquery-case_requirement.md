@@ -12,6 +12,8 @@ ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUI
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/CASE_REQUIREMENT"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumItems, EnumItems method [Text Services Framework], EnumItems me
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.EnumItems"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

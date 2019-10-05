@@ -12,6 +12,8 @@ ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_S
 ms.topic: function
 f1_keywords: 
  - "intsafe/SIZETAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

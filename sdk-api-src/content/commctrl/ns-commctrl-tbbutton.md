@@ -12,6 +12,8 @@ ms.keywords: "*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TBBUTTON"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

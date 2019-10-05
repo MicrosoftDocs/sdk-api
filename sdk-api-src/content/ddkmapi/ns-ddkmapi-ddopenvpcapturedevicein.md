@@ -12,6 +12,8 @@ ms.keywords: "*LPDDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTU
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDOPENVPCAPTUREDEVICEIN"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

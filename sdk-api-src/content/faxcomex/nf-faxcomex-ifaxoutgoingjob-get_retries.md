@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingJob interface [Fax Service],Retries property, IFaxOutgo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.Retries"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

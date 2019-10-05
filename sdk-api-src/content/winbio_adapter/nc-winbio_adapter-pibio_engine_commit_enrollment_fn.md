@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterCommitEnrollment, EngineAdapterCommitEnrollment callba
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterCommitEnrollment
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

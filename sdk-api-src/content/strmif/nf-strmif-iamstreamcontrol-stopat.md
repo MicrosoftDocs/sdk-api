@@ -12,6 +12,8 @@ ms.keywords: IAMStreamControl interface [DirectShow],StopAt method, IAMStreamCon
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMStreamControl.StopAt"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

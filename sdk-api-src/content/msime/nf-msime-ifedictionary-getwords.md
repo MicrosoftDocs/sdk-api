@@ -12,6 +12,8 @@ ms.keywords: GetWords, GetWords method [Internationalization for Windows Applica
 ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.GetWords
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

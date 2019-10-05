@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],SupportHighContrastInk property, 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.SupportHighContrastInk"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

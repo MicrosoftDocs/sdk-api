@@ -12,6 +12,8 @@ ms.keywords: GetTypeInfoType, GetTypeInfoType method [Automation], GetTypeInfoTy
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeLib.GetTypeInfoType"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

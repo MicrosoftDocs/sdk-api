@@ -12,6 +12,8 @@ ms.keywords: GetApplicationId, GetApplicationId method [COM+], GetApplicationId 
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContextInfo2.GetApplicationId"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

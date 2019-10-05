@@ -12,6 +12,8 @@ ms.keywords: EnumPropInfo, EnumPropInfo method [search], EnumPropInfo method [se
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IColumnMapper.EnumPropInfo"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

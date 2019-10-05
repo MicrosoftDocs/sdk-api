@@ -12,6 +12,8 @@ ms.keywords: AM_ReverseBlockEnd, AM_ReverseBlockStart, AM_SAMPLE2_PROPERTIES, AM
 ms.topic: struct
 f1_keywords: 
  - "strmif/AM_SAMPLE2_PROPERTIES"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

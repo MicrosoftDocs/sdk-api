@@ -12,6 +12,8 @@ ms.keywords: GetEncoderParameterListSize, GetEncoderParameterListSize method [GD
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetEncoderParameterListSize"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

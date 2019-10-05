@@ -12,6 +12,8 @@ ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessor.GetRateConversionCaps"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

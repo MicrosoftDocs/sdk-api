@@ -12,6 +12,8 @@ ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayTyp
 ms.topic: enum
 f1_keywords: 
  - "spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

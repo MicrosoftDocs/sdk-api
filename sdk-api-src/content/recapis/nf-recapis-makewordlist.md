@@ -12,6 +12,8 @@ ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852
 ms.topic: function
 f1_keywords: 
  - "recapis/MakeWordList"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVd
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderPrivate.QueryIfCreatedLun
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

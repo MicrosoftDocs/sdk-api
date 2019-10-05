@@ -12,6 +12,8 @@ ms.keywords: "*LPENUMLOGFONTA, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI],
 ms.topic: struct
 f1_keywords: 
  - "wingdi/ENUMLOGFONT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream 
 ms.topic: method
 f1_keywords: 
  - "thumbnailstreamcache/IThumbnailStreamCache.SetThumbnailStream"
+dev_langs:
+ - c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

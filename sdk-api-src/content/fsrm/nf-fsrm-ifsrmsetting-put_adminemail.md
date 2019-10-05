@@ -12,6 +12,8 @@ ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail prop
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmSetting.AdminEmail"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

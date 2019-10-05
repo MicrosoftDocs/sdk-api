@@ -12,6 +12,8 @@ ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESL
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IHomeGroup.ShowSharingWizard"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA cont
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

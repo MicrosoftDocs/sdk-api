@@ -12,6 +12,8 @@ ms.keywords: GroupName property [Fax Service], GroupName property [Fax Service],
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule.GroupName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

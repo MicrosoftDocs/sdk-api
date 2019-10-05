@@ -12,6 +12,8 @@ ms.keywords: IWSDServiceProxy interface,SubscribeToOperation method, IWSDService
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxy.SubscribeToOperation
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

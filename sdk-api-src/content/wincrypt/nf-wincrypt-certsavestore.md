@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertSaveStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

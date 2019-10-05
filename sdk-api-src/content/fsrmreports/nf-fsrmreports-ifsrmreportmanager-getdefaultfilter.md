@@ -12,6 +12,8 @@ ms.keywords: FsrmReportManager class [File Server Resource Manager],GetDefaultFi
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.GetDefaultFilter
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

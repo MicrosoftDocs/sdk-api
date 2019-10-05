@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interf
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509CertificateRequestPkcs10"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

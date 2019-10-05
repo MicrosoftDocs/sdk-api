@@ -12,6 +12,8 @@ ms.keywords: GetCreateVideoAcceleratorData, GetCreateVideoAcceleratorData method
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

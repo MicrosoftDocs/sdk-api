@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_CD_SECTOR_TYPE, IMAPI_CD_SECTOR_AUDIO, IMAPI_CD_SECTOR_MOD
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_CD_SECTOR_TYPE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

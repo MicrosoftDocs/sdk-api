@@ -12,6 +12,8 @@ ms.keywords: CopyPath, CopyPath method [ADSI], CopyPath method [ADSI],IADsPathna
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.CopyPath"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

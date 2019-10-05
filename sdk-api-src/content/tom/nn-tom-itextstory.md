@@ -12,6 +12,8 @@ ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory int
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextStory"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

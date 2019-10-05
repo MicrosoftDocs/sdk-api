@@ -12,6 +12,8 @@ ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_sn
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_PROCESS_INFORMATION"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpGetOptionValue, DhcpGetOptionValue function [DHCP], dhcp.dhcpge
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetOptionValue
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

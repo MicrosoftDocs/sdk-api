@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer 
 ms.topic: interface
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAt
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider.FindAttribute"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetHorizontalExtent"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

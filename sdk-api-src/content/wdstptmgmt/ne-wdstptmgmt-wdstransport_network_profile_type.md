@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

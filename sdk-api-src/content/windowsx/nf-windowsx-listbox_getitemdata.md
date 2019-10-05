@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetItemData, ListBox_GetItemData macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

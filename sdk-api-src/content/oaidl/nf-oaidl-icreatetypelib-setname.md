@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib interface [Automation],SetName method, ICreateTypeLi
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib.SetName"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

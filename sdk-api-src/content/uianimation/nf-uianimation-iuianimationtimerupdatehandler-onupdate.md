@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],OnUpda
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimerUpdateHandler.OnUpdate"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

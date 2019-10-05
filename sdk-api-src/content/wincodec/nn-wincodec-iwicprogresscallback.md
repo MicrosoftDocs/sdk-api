@@ -12,6 +12,8 @@ ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imagi
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICProgressCallback"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

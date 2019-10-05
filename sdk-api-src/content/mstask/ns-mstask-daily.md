@@ -12,6 +12,8 @@ ms.keywords: DAILY, DAILY structure [Task Scheduler], _msb_daily, mstask/DAILY, 
 ms.topic: struct
 f1_keywords:
 - mstask/DAILY
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

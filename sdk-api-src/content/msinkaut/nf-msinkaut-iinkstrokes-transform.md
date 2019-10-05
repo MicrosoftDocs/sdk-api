@@ -12,6 +12,8 @@ ms.keywords: IInkStrokes interface [Tablet PC],Transform method, IInkStrokes.Tra
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.Transform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

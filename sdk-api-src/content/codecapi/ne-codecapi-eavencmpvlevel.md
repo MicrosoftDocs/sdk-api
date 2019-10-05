@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVLevel, codecapi/eAVEncMPVLevel_High, codecapi/eAV
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVLevel"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

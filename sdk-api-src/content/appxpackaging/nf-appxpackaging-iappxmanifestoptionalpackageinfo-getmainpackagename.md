@@ -12,6 +12,8 @@ ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and ma
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestOptionalPackageInfo.GetMainPackageName"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

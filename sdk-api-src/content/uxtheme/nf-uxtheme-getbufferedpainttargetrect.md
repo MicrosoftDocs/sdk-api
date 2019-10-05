@@ -12,6 +12,8 @@ ms.keywords: GetBufferedPaintTargetRect, GetBufferedPaintTargetRect function [Wi
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetBufferedPaintTargetRect"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

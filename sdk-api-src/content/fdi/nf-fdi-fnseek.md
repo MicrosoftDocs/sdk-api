@@ -12,6 +12,8 @@ ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNSEEK"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

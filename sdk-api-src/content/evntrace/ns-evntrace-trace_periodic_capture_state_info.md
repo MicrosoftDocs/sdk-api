@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

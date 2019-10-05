@@ -12,6 +12,8 @@ ms.keywords: FileTimeToDosDateTime, FileTimeToDosDateTime function, _win32_filet
 ms.topic: function
 f1_keywords: 
  - "winbase/FileTimeToDosDateTime"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schan
 ms.topic: function
 f1_keywords:
 - schannel/SslCrackCertificate
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

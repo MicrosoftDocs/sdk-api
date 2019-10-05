@@ -12,6 +12,8 @@ ms.keywords: PropertyConstraint, PropertyConstraint enumeration, QC_CONTAINS, QC
 ms.topic: enum
 f1_keywords: 
  - "functiondiscoveryconstraints/PropertyConstraint"
+dev_langs:
+ - c++
 req.header: functiondiscoveryconstraints.h
 req.include-header: 
 req.target-type: Windows

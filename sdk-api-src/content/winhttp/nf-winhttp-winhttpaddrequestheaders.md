@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_AD
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpAddRequestHeaders"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

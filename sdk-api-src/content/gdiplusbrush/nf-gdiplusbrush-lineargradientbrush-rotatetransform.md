@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],RotateTransform method, LinearGrad
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.RotateTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QUERY_USER_NOTIFICATION_STATE, QUERY_USER_NOTIFICATION_STATE enumer
 ms.topic: enum
 f1_keywords:
 - shellapi/QUERY_USER_NOTIFICATION_STATE
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

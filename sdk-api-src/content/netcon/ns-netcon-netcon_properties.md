@@ -12,6 +12,8 @@ ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netc
 ms.topic: struct
 f1_keywords: 
  - "netcon/NETCON_PROPERTIES"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

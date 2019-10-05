@@ -12,6 +12,8 @@ ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwner.GetTextExt"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

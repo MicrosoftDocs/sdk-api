@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_GetResourceUri, MI_OperationOptions_GetResource
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetResourceUri
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

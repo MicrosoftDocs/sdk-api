@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [Enhanced Storage], GetInfo method [Enhance
 ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSilo.GetInfo
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

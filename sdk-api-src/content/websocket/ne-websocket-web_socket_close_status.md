@@ -12,6 +12,8 @@ ms.keywords: WEB_SOCKET_ABORTED_CLOSE_STATUS, WEB_SOCKET_CLOSE_STATUS, WEB_SOCKE
 ms.topic: enum
 f1_keywords:
 - websocket/WEB_SOCKET_CLOSE_STATUS
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

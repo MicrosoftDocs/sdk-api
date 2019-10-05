@@ -12,6 +12,8 @@ ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], I
 ms.topic: interface
 f1_keywords: 
  - "mpeg2data/ISectionList"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

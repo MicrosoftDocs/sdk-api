@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTrans
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesTransparentCacheInfo.IsTransparentlyCached"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

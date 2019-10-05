@@ -12,6 +12,8 @@ ms.keywords: GetRecordCAUnitNumberOfComponents, GetRecordCAUnitNumberOfComponent
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

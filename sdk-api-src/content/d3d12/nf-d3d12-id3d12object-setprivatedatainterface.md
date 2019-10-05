@@ -12,6 +12,8 @@ ms.keywords: ID3D12Object interface,SetPrivateDataInterface method, ID3D12Object
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Object.SetPrivateDataInterface"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

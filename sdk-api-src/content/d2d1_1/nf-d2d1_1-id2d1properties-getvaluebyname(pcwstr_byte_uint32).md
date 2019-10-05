@@ -12,6 +12,8 @@ ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName me
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Properties.GetValueByName"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTCGMode, GetTCGMode method [DirectShow], GetTCGMode method [Dire
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTimecodeGenerator.GetTCGMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

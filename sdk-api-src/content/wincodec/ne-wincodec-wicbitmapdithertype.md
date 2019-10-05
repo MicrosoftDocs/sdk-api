@@ -12,6 +12,8 @@ ms.keywords: WICBitmapDitherType, WICBitmapDitherType enumeration [Windows Imagi
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICBitmapDitherType"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

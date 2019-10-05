@@ -12,6 +12,8 @@ ms.keywords: BufferCallback, BufferCallback callback function [ETW], PEVENT_TRAC
 ms.topic: callback
 f1_keywords: 
  - "evntrace/BufferCallback"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

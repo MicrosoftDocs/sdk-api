@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_COLOR_RGBA, D3D11_VIDEO_COLOR_RGBA structure [Media Fou
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_COLOR_RGBA"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

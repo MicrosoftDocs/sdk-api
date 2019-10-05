@@ -12,6 +12,8 @@ ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrac
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HHNTRACK"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

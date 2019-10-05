@@ -12,6 +12,8 @@ ms.keywords: SetCurrentThreadCompartmentId, SetCurrentThreadCompartmentId functi
 ms.topic: function
 f1_keywords: 
  - "netioapi/SetCurrentThreadCompartmentId"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

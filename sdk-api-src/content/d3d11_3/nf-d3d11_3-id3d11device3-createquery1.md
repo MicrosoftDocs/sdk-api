@@ -12,6 +12,8 @@ ms.keywords: CreateQuery1, CreateQuery1 method [Direct3D 11], CreateQuery1 metho
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11Device3.CreateQuery1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

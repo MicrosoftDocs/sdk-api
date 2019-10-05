@@ -12,6 +12,8 @@ ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_
 ms.topic: struct
 f1_keywords: 
  - "vdshwprv/VDS_ISCSI_IPSEC_KEY"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

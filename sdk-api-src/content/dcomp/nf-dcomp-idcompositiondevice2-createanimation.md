@@ -12,6 +12,8 @@ ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], Create
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateAnimation"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

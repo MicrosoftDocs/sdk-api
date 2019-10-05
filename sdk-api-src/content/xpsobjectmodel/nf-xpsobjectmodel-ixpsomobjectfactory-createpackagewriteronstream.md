@@ -12,6 +12,8 @@ ms.keywords: CreatePackageWriterOnStream, CreatePackageWriterOnStream method [XP
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackageWriterOnStream"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

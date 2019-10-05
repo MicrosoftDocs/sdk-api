@@ -12,6 +12,8 @@ ms.keywords: CfConvertToPlaceholder, CfConvertToPlaceholder function, cfapi/CfCo
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfConvertToPlaceholder"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

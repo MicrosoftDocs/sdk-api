@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnModalInpu
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarEventSink.OnModalInput"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetTransportStreamId"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

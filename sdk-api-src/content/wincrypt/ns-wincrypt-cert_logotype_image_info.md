@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CH
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_LOGOTYPE_IMAGE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

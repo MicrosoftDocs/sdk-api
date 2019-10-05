@@ -12,6 +12,8 @@ ms.keywords: 79155c21-6096-6e00-a9ec-bc54062bd29f, GetNumInterfaces, GetNumInter
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.GetNumInterfaces"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClusterFromResource, GetClusterFromResource function [Failover C
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterFromResource"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

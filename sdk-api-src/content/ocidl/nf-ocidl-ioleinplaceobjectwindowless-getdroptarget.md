@@ -12,6 +12,8 @@ ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [CO
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleInPlaceObjectWindowless.GetDropTarget"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_pxoGetXform, FONTOBJ_pxoGetXform function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pxoGetXform
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

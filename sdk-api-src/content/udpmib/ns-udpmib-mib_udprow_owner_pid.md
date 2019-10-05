@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPROW_OWNER_PID
+dev_langs:
+ - c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

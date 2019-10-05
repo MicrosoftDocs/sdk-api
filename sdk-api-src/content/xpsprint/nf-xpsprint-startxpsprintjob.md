@@ -12,6 +12,8 @@ ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.star
 ms.topic: function
 f1_keywords: 
  - "xpsprint/StartXpsPrintJob"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

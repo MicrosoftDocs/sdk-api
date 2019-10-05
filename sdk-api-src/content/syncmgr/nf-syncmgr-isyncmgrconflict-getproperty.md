@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method
 ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflict.GetProperty
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

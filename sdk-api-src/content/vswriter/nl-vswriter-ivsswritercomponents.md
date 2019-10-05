@@ -12,6 +12,8 @@ ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWri
 ms.topic: class
 f1_keywords: 
  - "vswriter/IVssWriterComponents"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

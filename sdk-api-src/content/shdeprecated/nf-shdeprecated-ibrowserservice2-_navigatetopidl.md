@@ -12,6 +12,8 @@ ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRE
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2._NavigateToPidl"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfplay/MFPCreateMediaPlayer"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

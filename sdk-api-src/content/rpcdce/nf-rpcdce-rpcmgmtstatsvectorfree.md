@@ -12,6 +12,8 @@ ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtStatsVectorFree"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

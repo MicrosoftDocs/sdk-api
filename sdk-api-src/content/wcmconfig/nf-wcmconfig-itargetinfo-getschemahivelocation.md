@@ -12,6 +12,8 @@ ms.keywords: GetSchemaHiveLocation, GetSchemaHiveLocation method [SMI], GetSchem
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.GetSchemaHiveLocation"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

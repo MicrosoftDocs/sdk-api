@@ -12,6 +12,8 @@ ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions m
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.GetUpdateOptions"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

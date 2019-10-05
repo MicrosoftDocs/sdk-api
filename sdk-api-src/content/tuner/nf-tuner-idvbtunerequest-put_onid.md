@@ -12,6 +12,8 @@ ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_ONID meth
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTuneRequest.put_ONID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

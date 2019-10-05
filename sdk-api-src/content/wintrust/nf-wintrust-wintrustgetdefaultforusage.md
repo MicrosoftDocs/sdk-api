@@ -12,6 +12,8 @@ ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, W
 ms.topic: function
 f1_keywords:
 - wintrust/WintrustGetDefaultForUsage
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetErrorDetails, GetErrorDetails method [Windows Runtime], GetError
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/IRestrictedErrorInfo.GetErrorDetails"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

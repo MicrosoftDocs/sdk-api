@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_TYPE, BG_JOB_TYPE enumeration [BITS], BG_JOB_TYPE_DOWNLOAD, 
 ms.topic: enum
 f1_keywords: 
  - "bits/BG_JOB_TYPE"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

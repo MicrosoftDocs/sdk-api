@@ -12,6 +12,8 @@ ms.keywords: "*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEO
 ms.topic: struct
 f1_keywords: 
  - "winbase/COMMTIMEOUTS"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

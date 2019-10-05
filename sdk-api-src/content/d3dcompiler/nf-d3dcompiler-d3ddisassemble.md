@@ -12,6 +12,8 @@ ms.keywords: 102070a9-01bc-45ad-cbcb-2ef04db4d6e7, D3DDisassemble, D3DDisassembl
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DDisassemble"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

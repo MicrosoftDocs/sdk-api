@@ -12,6 +12,8 @@ ms.keywords: STROBJ_vEnumStart, STROBJ_vEnumStart function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/STROBJ_vEnumStart
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

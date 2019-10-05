@@ -12,6 +12,8 @@ ms.keywords: '*PWTSINFOA, PWTSINFO, PWTSINFO structure pointer [Remote Desktop S
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSINFO
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

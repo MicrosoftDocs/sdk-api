@@ -12,6 +12,8 @@ ms.keywords: ISelector interface [DirectShow],put_SourceNodeId method, ISelector
 ms.topic: method
 f1_keywords: 
  - "vidcap/ISelector.put_SourceNodeId"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

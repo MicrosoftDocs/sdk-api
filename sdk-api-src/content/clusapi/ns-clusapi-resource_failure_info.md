@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE
 ms.topic: struct
 f1_keywords: 
  - "clusapi/RESOURCE_FAILURE_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CurrentProfile property [ICS/ICF], CurrentProfile property [ICS/ICF
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy.CurrentProfile"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

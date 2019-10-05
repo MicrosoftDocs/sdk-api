@@ -12,6 +12,8 @@ ms.keywords: SetProcessDpiAwarenessContext, SetProcessDpiAwarenessContext functi
 ms.topic: function
 f1_keywords: 
  - "winuser/SetProcessDpiAwarenessContext"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

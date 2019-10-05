@@ -12,6 +12,8 @@ ms.keywords: IWbemProviderInit, IWbemProviderInit interface [Windows Management 
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemProviderInit"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

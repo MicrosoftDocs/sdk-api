@@ -12,6 +12,8 @@ ms.keywords: ONEX_NOTIFICATION_TYPE, ONEX_NOTIFICATION_TYPE enumeration [NativeW
 ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_NOTIFICATION_TYPE
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

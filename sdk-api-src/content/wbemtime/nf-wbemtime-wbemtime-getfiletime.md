@@ -12,6 +12,8 @@ ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILET
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetFILETIME"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PrePaint 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlCustomDraw.PrePaint"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

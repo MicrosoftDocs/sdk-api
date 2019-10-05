@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadPOINTL, PSPropertyBag_ReadPOINTL function [Window
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_ReadPOINTL"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

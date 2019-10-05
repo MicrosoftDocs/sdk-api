@@ -12,6 +12,8 @@ ms.keywords: MFT_ENUM_FLAG_ALL, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE
 ms.topic: enum
 f1_keywords: 
  - "mfapi/_MFT_ENUM_FLAG"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

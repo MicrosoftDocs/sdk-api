@@ -12,6 +12,8 @@ ms.keywords: VariantToDouble, VariantToDouble function [Windows Properties], _sh
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToDouble"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

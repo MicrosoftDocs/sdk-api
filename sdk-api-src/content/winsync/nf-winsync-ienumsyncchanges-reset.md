@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncChanges interface [Windows Sync],Reset method, IEnumSyncCh
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumSyncChanges.Reset"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

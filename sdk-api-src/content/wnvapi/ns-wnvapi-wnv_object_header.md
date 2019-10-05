@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER struct
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_OBJECT_HEADER
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

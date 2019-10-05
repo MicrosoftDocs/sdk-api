@@ -12,6 +12,8 @@ ms.keywords: "*PSP_ORIGINAL_FILE_INFO_W, PSP_ORIGINAL_FILE_INFO, PSP_ORIGINAL_FI
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_ORIGINAL_FILE_INFO"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

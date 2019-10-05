@@ -12,6 +12,8 @@ ms.keywords: Construct, Construct method [COM+], Construct method [COM+],IObject
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectConstruct.Construct"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

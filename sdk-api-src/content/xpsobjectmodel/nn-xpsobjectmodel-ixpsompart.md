@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXp
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPart"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

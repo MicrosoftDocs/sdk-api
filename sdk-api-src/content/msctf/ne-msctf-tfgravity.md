@@ -12,6 +12,8 @@ ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enume
 ms.topic: enum
 f1_keywords: 
  - "msctf/TfGravity"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

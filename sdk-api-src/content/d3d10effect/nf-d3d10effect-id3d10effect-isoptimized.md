@@ -12,6 +12,8 @@ ms.keywords: 0d82fdb1-e0b0-7198-dd16-2dfcd0280bfe, ID3D10Effect interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.IsOptimized"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

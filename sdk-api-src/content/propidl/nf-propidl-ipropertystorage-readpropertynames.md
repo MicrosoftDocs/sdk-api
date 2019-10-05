@@ -12,6 +12,8 @@ ms.keywords: IPropertyStorage [Strctd Stg], IPropertyStorage [Strctd Stg],ReadPr
 ms.topic: method
 f1_keywords: 
  - "propidl/IPropertyStorage.ReadPropertyNames"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

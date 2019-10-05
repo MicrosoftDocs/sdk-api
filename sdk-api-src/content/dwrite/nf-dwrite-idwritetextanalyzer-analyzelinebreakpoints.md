@@ -12,6 +12,8 @@ ms.keywords: AnalyzeLineBreakpoints, AnalyzeLineBreakpoints method [Direct Write
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

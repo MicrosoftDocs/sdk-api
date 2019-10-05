@@ -12,6 +12,8 @@ ms.keywords: 8b57c261-2c3b-959e-ad7c-dc12c2854d73, GetTextureStageState, GetText
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetTextureStageState"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

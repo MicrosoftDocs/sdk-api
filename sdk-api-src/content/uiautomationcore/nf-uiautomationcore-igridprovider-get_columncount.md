@@ -12,6 +12,8 @@ ms.keywords: ColumnCount property [Windows Accessibility], ColumnCount property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IGridProvider.ColumnCount"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

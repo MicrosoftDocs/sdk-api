@@ -12,6 +12,8 @@ ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPar
 ms.topic: interface
 f1_keywords: 
  - "msclus/ClusPartitionEx"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

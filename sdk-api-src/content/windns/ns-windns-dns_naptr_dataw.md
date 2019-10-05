@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DAT
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_NAPTR_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_XML_GUID_TEXT, WS_XML_GUID_TEXT structure [Web Services for Wind
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_GUID_TEXT
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetErrorCode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

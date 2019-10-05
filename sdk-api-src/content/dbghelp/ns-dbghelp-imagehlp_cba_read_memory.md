@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/IMAGEHLP_CBA_READ_MEMORY"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

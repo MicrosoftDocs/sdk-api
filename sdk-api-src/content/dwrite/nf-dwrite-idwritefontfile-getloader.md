@@ -12,6 +12,8 @@ ms.keywords: GetLoader, GetLoader method [Direct Write], GetLoader method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFile.GetLoader"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

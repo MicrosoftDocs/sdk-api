@@ -12,6 +12,8 @@ ms.keywords: WRDS_RCM_SERVICE_STATE, WRDS_RCM_SERVICE_STATE enumeration [Remote 
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WTS_RCM_SERVICE_STATE
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

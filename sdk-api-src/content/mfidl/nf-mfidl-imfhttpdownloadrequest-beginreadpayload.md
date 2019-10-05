@@ -12,6 +12,8 @@ ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], Begin
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.BeginReadPayload"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProx
 ms.topic: function
 f1_keywords:
 - combaseapi/CoSetProxyBlanket
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

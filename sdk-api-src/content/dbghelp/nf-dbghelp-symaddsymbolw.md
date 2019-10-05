@@ -12,6 +12,8 @@ ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsy
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymAddSymbol"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFramework
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedFrameworkId"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

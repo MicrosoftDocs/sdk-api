@@ -12,6 +12,8 @@ ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsResult.GetLine"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetCueKind"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

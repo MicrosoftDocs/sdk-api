@@ -12,6 +12,8 @@ ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, 
 ms.topic: callback
 f1_keywords:
 - ddkmapi/NotifyCallback
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Desktop

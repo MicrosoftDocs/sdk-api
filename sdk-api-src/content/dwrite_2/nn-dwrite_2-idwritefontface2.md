@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFace2, IDWriteFontFace2 interface [Direct Write], IDWrit
 ms.topic: interface
 f1_keywords: 
  - "dwrite_2/IDWriteFontFace2"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

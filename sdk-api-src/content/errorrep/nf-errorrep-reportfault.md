@@ -12,6 +12,8 @@ ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32
 ms.topic: function
 f1_keywords:
 - errorrep/ReportFault
+dev_langs:
+ - c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

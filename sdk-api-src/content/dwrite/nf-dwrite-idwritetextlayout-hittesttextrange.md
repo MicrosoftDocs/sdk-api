@@ -12,6 +12,8 @@ ms.keywords: HitTestTextRange, HitTestTextRange method [Direct Write], HitTestTe
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.HitTestTextRange"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUs
 ms.topic: method
 f1_keywords: 
  - "dskquota/IEnumDiskQuotaUsers.Skip"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

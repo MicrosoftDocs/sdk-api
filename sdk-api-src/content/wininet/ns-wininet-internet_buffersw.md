@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_BUFFERSW, INTERNET_BUFFERS, INTERNET_BUFFERS structure
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_BUFFERS"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

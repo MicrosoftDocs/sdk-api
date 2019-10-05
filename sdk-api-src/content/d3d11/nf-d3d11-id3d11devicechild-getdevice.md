@@ -12,6 +12,8 @@ ms.keywords: 07aa3147-aab3-5e52-2809-7bddfdb31126, GetDevice, GetDevice method [
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceChild.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IPoolManager"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

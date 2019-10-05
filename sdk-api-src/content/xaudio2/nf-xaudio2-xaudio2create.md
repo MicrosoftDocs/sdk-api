@@ -12,6 +12,8 @@ ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], 
 ms.topic: function
 f1_keywords: 
  - "xaudio2/XAudio2Create"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

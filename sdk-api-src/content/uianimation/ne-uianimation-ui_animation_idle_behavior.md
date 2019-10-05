@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_IDLE_BEHAVIOR, UI_ANIMATION_IDLE_BEHAVIOR enumeration 
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_IDLE_BEHAVIOR"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

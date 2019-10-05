@@ -12,6 +12,8 @@ ms.keywords: GetApplicationDisplayName, GetApplicationDisplayName method [Window
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IHandlerInfo.GetApplicationDisplayName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

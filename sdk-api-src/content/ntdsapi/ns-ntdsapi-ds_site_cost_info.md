@@ -12,6 +12,8 @@ ms.keywords: "*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_SITE_COST_INFO"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

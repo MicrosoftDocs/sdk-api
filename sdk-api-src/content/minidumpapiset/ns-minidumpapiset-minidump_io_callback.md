@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_IO_CALLBACK"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

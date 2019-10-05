@@ -12,6 +12,8 @@ ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon
 ms.topic: function
 f1_keywords: 
  - "wingdi/PolyPolygon"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

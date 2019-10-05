@@ -12,6 +12,8 @@ ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventde
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescOrKeyword
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

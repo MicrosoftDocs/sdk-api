@@ -12,6 +12,8 @@ ms.keywords: IFaxDevice interface [Fax Service],UseRoutingMethod method, IFaxDev
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDevice.UseRoutingMethod"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

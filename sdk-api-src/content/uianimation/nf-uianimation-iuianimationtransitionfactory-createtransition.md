@@ -12,6 +12,8 @@ ms.keywords: CreateTransition, CreateTransition method [Windows Animation], Crea
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionFactory.CreateTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CALL_NEW_STREAM, CALL_STREAM_ACTIVE, CALL_STREAM_FAIL, CALL_STREAM_
 ms.topic: enum
 f1_keywords: 
  - "tapi3/MSP_CALL_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

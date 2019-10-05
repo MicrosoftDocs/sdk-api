@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL str
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_POWER_LEVEL
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

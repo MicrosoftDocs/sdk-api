@@ -12,6 +12,8 @@ ms.keywords: FhReassociation class [Windows API],ValidateTarget method, IFhReass
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhReassociation.ValidateTarget
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

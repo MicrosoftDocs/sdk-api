@@ -12,6 +12,8 @@ ms.keywords: "*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP 
 ms.topic: struct
 f1_keywords: 
  - "ipexport/IPV6_ADDRESS_EX"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

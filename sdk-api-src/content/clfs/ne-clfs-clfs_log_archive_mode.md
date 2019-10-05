@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_M
 ms.topic: enum
 f1_keywords: 
  - "clfs/CLFS_LOG_ARCHIVE_MODE"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security]
 ms.topic: interface
 f1_keywords: 
  - "certenc/ICertEncodeCRLDistInfo"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

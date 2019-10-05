@@ -12,6 +12,8 @@ ms.keywords: 00286006-d7cd-22c0-fbe8-077a333cce09, IAGetPrimitiveTopology, IAGet
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IAGetPrimitiveTopology"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

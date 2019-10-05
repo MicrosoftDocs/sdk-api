@@ -12,6 +12,8 @@ ms.keywords: "*PIKE_AUTHENTICATION_PRESHARED_KEY, ID_FQDN, ID_IPV4_ADDR, ID_IPV6
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

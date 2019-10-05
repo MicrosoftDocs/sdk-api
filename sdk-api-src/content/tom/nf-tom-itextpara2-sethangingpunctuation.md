@@ -12,6 +12,8 @@ ms.keywords: ITextPara2 interface [Windows Controls],SetHangingPunctuation metho
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.SetHangingPunctuation"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

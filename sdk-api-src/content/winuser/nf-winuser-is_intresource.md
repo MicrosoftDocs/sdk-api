@@ -12,6 +12,8 @@ ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _
 ms.topic: macro
 f1_keywords: 
  - "winuser/IS_INTRESOURCE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

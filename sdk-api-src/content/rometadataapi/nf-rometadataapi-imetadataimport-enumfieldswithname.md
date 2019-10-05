@@ -12,6 +12,8 @@ ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], En
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumFieldsWithName"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

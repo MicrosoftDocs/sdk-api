@@ -12,6 +12,8 @@ ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], 
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetSetFilePointer"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

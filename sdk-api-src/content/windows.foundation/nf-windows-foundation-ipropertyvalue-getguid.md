@@ -12,6 +12,8 @@ ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows 
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetGuid"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

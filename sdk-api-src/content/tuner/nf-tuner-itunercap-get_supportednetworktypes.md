@@ -12,6 +12,8 @@ ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_SupportedNetwor
 ms.topic: method
 f1_keywords: 
  - "tuner/ITunerCap.get_SupportedNetworkTypes"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],SetMarker method, GraphicsPath.SetMarker,
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.SetMarker"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

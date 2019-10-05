@@ -12,6 +12,8 @@ ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createf
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateFiber"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

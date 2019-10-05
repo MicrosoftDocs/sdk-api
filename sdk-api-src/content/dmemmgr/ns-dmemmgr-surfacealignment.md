@@ -12,6 +12,8 @@ ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure 
 ms.topic: struct
 f1_keywords: 
  - "dmemmgr/SURFACEALIGNMENT"
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Windows

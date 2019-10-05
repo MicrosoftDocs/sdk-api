@@ -12,6 +12,8 @@ ms.keywords: 44b889e1-8860-44fa-b19f-5be9f844a194, CommitIndex, CommitIndex meth
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.CommitIndex"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

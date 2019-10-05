@@ -12,6 +12,8 @@ ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBST
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetBSTR"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

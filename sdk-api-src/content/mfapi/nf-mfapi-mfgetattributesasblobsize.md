@@ -12,6 +12,8 @@ ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MF
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributesAsBlobSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

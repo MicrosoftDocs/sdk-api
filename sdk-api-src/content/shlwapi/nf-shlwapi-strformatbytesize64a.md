@@ -12,6 +12,8 @@ ms.keywords: StrFormatByteSize64, StrFormatByteSize64 function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrFormatByteSize64"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

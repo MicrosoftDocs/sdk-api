@@ -12,6 +12,8 @@ ms.keywords: GetHeight, GetHeight method [Windows Ribbon], GetHeight method [Win
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIRibbon.GetHeight"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

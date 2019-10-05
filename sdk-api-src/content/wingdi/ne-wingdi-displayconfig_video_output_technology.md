@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_311f4c31-4f6c-42d2-945f-5d9983488a4e.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

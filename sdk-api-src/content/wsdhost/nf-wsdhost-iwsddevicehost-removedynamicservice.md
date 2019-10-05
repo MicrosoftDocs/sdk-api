@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHos
 ms.topic: method
 f1_keywords: 
  - "wsdhost/IWSDDeviceHost.RemoveDynamicService"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartner interface [Windows Media Player],Logout method, 
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.Logout"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

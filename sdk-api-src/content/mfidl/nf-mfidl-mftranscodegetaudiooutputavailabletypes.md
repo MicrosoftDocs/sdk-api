@@ -12,6 +12,8 @@ ms.keywords: MFT_FIELDOFUSE_UNLOCK_Attribute, MFTranscodeGetAudioOutputAvailable
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFTranscodeGetAudioOutputAvailableTypes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

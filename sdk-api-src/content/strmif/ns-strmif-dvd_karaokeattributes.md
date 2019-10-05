@@ -12,6 +12,8 @@ ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow]
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_KaraokeAttributes"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

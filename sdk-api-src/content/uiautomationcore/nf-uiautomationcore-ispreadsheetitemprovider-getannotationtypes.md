@@ -12,6 +12,8 @@ ms.keywords: GetAnnotationTypes, GetAnnotationTypes method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISpreadsheetItemProvider.GetAnnotationTypes"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

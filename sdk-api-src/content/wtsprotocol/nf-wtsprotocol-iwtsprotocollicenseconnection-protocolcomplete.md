@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],P
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolLicenseConnection.ProtocolComplete"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

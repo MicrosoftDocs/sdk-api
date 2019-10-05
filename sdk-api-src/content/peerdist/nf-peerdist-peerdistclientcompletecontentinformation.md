@@ -12,6 +12,8 @@ ms.keywords: PeerDistClientCompleteContentInformation, PeerDistClientCompleteCon
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistClientCompleteContentInformation"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

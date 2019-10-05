@@ -12,6 +12,8 @@ ms.keywords: GetRawInputBuffer, GetRawInputBuffer function [Keyboard and Mouse I
 ms.topic: function
 f1_keywords: 
  - "winuser/GetRawInputBuffer"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

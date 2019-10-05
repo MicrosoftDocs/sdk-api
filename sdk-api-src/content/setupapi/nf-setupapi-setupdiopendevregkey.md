@@ -12,6 +12,8 @@ ms.keywords: SetupDiOpenDevRegKey, SetupDiOpenDevRegKey function [Device and Dri
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDevRegKey
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Open_DevNode_Key

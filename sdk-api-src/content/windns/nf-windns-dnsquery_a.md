@@ -12,6 +12,8 @@ ms.keywords: DnsQuery, DnsQuery function [DNS], DnsQuery_A, DnsQuery_UTF8, DnsQu
 ms.topic: function
 f1_keywords: 
  - "windns/DnsQuery"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

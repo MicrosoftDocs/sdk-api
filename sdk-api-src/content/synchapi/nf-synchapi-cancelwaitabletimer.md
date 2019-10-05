@@ -12,6 +12,8 @@ ms.keywords: CancelWaitableTimer, CancelWaitableTimer function, _win32_cancelwai
 ms.topic: function
 f1_keywords: 
  - "synchapi/CancelWaitableTimer"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

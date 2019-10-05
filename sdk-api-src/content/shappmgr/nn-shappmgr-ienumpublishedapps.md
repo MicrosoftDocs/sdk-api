@@ -12,6 +12,8 @@ ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "shappmgr/IEnumPublishedApps"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

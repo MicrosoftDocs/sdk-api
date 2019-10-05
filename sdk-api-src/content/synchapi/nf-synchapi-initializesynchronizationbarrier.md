@@ -12,6 +12,8 @@ ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier 
 ms.topic: function
 f1_keywords: 
  - "synchapi/InitializeSynchronizationBarrier"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

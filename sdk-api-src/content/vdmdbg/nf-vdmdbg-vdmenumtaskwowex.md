@@ -12,6 +12,8 @@ ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/V
 ms.topic: function
 f1_keywords: 
  - "vdmdbg/VDMEnumTaskWOWEx"
+dev_langs:
+ - c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

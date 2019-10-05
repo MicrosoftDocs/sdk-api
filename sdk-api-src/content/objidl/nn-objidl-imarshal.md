@@ -12,6 +12,8 @@ ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMarshal"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

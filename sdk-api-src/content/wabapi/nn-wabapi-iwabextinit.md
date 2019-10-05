@@ -12,6 +12,8 @@ ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtI
 ms.topic: interface
 f1_keywords: 
  - "wabapi/IWABExtInit"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

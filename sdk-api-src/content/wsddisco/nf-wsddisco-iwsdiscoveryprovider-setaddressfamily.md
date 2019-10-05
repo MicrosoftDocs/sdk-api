@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryProvider interface,SetAddressFamily method, IWSDiscover
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProvider.SetAddressFamily"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL stru
 ms.topic: struct
 f1_keywords: 
  - "eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL"
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

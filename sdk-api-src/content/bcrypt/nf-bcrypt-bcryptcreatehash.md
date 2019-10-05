@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash funct
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptCreateHash"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextEditTextChangedEventHandler, IUIAutomationTextEdit
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextEditTextChangedEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

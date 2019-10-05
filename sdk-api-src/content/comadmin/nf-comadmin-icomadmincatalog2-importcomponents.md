@@ -12,6 +12,8 @@ ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 i
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.ImportComponents"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

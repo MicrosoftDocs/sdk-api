@@ -12,6 +12,8 @@ ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 metho
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddressDeviceSpecificEvent.get_lParam2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

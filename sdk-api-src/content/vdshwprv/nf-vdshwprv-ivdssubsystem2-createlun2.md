@@ -12,6 +12,8 @@ ms.keywords: CreateLun2, CreateLun2 method, CreateLun2 method,IVdsSubSystem2 int
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystem2.CreateLun2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName,
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRole.DeleteMemberName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

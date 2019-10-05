@@ -12,6 +12,8 @@ ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremov
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhRemoveCounter"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

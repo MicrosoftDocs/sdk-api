@@ -12,6 +12,8 @@ ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [W
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateExceptionCollection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

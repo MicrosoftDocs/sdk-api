@@ -12,6 +12,8 @@ ms.keywords: GetInfoTip, GetInfoTip method [Windows Shell], GetInfoTip method [W
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IQueryInfo.GetInfoTip"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

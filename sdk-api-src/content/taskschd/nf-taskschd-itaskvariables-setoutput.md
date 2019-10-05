@@ -12,6 +12,8 @@ ms.keywords: ITaskVariables interface [Task Scheduler],SetOutput method, ITaskVa
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskVariables.SetOutput"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

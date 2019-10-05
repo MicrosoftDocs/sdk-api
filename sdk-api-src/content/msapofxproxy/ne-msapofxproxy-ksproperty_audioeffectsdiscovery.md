@@ -12,6 +12,8 @@ ms.keywords: KSPROPERTY_AUDIOEFFECTSDISCOVERY, KSPROPERTY_AUDIOEFFECTSDISCOVERY 
 ms.topic: enum
 f1_keywords: 
  - "msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY"
+dev_langs:
+ - c++
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows

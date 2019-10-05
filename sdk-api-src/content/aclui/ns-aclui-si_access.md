@@ -12,6 +12,8 @@ ms.keywords: "*PSI_ACCESS, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHER
 ms.topic: struct
 f1_keywords: 
  - "aclui/SI_ACCESS"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

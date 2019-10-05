@@ -12,6 +12,8 @@ ms.keywords: "*PMGM_IF_ENTRY, MGM_IF_ENTRY, MGM_IF_ENTRY structure [RAS], PMGM_I
 ms.topic: struct
 f1_keywords: 
  - "mgm/MGM_IF_ENTRY"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

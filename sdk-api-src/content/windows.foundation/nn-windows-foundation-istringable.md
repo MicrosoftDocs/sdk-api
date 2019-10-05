@@ -12,6 +12,8 @@ ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable i
 ms.topic: interface
 f1_keywords: 
  - "windows.foundation/IStringable"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

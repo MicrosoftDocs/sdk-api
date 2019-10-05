@@ -12,6 +12,8 @@ ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSel
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator.AddSelector"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

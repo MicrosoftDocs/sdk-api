@@ -12,6 +12,8 @@ ms.keywords: 07410292-1cdc-6e8c-f5a7-81000df37961, ID3D10ShaderReflectionType, I
 ms.topic: interface
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionType"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

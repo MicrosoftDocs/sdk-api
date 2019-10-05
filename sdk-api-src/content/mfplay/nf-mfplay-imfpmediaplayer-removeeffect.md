@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, I
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.RemoveEffect"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

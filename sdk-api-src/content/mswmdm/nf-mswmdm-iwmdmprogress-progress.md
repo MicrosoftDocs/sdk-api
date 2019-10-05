@@ -12,6 +12,8 @@ ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress met
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMProgress.Progress"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

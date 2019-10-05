@@ -12,6 +12,8 @@ ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fn
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIFREE"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

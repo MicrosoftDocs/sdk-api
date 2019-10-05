@@ -12,6 +12,8 @@ ms.keywords: ITextRange2 interface [Windows Controls],SetURL method, ITextRange2
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.SetURL"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

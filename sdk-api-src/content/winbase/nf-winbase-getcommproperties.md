@@ -12,6 +12,8 @@ ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproper
 ms.topic: function
 f1_keywords:
 - winbase/GetCommProperties
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

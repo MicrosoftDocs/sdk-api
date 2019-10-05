@@ -5,6 +5,10 @@ description: Describes the allocation size of a video decoder heap.
 ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 ms.topic: language-reference
+f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

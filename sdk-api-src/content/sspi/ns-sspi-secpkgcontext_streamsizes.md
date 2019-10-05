@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_StreamSizes, PSecPkgContext_StreamSizes, PSecPkgCo
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgContext_StreamSizes"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

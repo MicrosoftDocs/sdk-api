@@ -12,6 +12,8 @@ ms.keywords: GetCallInfo, GetCallInfo callback function [Security], LSA_GET_CALL
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetCallInfo
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

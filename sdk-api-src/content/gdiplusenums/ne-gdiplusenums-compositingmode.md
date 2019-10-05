@@ -12,6 +12,8 @@ ms.keywords: CompositingMode, CompositingMode enumeration [GDI+], CompositingMod
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/CompositingMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

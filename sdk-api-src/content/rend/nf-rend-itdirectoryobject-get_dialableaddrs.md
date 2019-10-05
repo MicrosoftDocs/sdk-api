@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, IT
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObject.get_DialableAddrs"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

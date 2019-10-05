@@ -12,6 +12,8 @@ ms.keywords: IComCRMEvents interface [COM+],OnCRMIndoubt method, IComCRMEvents.O
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComCRMEvents.OnCRMIndoubt"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

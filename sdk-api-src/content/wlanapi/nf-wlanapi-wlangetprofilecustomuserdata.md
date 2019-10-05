@@ -12,6 +12,8 @@ ms.keywords: WlanGetProfileCustomUserData, WlanGetProfileCustomUserData function
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WlanGetProfileCustomUserData"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

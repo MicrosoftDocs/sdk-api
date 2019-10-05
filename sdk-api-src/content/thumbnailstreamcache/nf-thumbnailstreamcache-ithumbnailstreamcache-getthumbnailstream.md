@@ -12,6 +12,8 @@ ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetT
 ms.topic: method
 f1_keywords: 
  - "thumbnailstreamcache/IThumbnailStreamCache.GetThumbnailStream"
+dev_langs:
+ - c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

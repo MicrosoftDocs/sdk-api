@@ -12,6 +12,8 @@ ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfSource.UnadviseSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

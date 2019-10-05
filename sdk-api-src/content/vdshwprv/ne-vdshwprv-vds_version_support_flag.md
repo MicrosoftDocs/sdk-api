@@ -12,6 +12,8 @@ ms.keywords: VDS_VERSION_SUPPORT_FLAG, VDS_VERSION_SUPPORT_FLAG enumeration, VDS
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_VERSION_SUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

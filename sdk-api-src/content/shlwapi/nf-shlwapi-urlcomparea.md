@@ -12,6 +12,8 @@ ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCo
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlCompare"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

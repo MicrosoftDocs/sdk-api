@@ -12,6 +12,8 @@ ms.keywords: ICommandTree interface [Indexing Service],SetCommandTree method, IC
 ms.topic: method
 f1_keywords: 
  - "cmdtree/ICommandTree.SetCommandTree"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

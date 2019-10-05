@@ -12,6 +12,8 @@ ms.keywords: GetStoryLength, GetStoryLength method [Windows Controls], GetStoryL
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetStoryLength"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

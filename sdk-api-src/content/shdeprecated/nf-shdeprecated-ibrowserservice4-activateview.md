@@ -12,6 +12,8 @@ ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView met
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService4.ActivateView"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

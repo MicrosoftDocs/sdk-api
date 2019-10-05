@@ -12,6 +12,8 @@ ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "ctfspui/ITfSpeechUIServer"
+dev_langs:
+ - c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows

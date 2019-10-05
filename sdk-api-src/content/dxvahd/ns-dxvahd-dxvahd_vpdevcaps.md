@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_VPDEVCAPS, DXVAHD_VPDEVCAPS structure [Media Foundation], dx
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_VPDEVCAPS
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

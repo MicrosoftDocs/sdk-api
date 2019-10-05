@@ -12,6 +12,8 @@ ms.keywords: IWbemQuery class [Windows Management Instrumentation],Parse method,
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemQuery.Parse"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

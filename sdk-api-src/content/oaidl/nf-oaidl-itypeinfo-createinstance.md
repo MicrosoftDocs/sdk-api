@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.CreateInstance"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

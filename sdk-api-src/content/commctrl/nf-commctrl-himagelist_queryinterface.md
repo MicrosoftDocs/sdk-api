@@ -12,6 +12,8 @@ ms.keywords: HIMAGELIST_QueryInterface, HIMAGELIST_QueryInterface function [Wind
 ms.topic: function
 f1_keywords: 
  - "commctrl/HIMAGELIST_QueryInterface"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

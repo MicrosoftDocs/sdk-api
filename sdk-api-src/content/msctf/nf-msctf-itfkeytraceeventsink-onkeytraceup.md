@@ -12,6 +12,8 @@ ms.keywords: ITfKeyTraceEventSink interface [Text Services Framework],OnKeyTrace
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeyTraceEventSink.OnKeyTraceUp"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

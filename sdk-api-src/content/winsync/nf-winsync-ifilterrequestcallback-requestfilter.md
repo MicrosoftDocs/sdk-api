@@ -12,6 +12,8 @@ ms.keywords: IFilterRequestCallback interface [Windows Sync],RequestFilter metho
 ms.topic: method
 f1_keywords: 
  - "winsync/IFilterRequestCallback.RequestFilter"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

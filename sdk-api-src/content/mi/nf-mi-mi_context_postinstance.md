@@ -12,6 +12,8 @@ ms.keywords: MI_Context_PostInstance, MI_Context_PostInstance function [Windows 
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_PostInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

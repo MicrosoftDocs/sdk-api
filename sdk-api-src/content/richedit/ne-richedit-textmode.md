@@ -12,6 +12,8 @@ ms.keywords: TEXTMODE, TEXTMODE enumeration [Windows Controls], TM_MULTICODEPAGE
 ms.topic: enum
 f1_keywords: 
  - "richedit/TEXTMODE"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

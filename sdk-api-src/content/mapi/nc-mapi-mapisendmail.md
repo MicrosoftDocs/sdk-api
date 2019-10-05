@@ -12,6 +12,8 @@ ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPISendMail"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

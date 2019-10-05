@@ -12,6 +12,8 @@ ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetNameSpa
 ms.topic: method
 f1_keywords: 
  - "gpedit/IRSOPInformation.GetNameSpace"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

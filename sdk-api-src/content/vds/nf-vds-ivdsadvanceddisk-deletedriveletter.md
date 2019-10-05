@@ -12,6 +12,8 @@ ms.keywords: DeleteDriveLetter, DeleteDriveLetter method [VDS], DeleteDriveLette
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsAdvancedDisk.DeleteDriveLetter"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function
 ms.topic: function
 f1_keywords: 
  - "appmodel/AppPolicyGetCreateFileAccess"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

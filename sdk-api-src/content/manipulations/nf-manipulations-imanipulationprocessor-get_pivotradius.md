@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor interface [Windows Touch],PivotRadius proper
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.PivotRadius"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

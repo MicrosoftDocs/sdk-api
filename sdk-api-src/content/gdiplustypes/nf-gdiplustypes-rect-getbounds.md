@@ -12,6 +12,8 @@ ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect cl
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.GetBounds"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EVT_OPEN_LOG_FLAGS, EVT_OPEN_LOG_FLAGS enumeration [EventLog], EvtO
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_OPEN_LOG_FLAGS"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_WriteBOOL, PSPropertyBag_WriteBOOL function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_WriteBOOL"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

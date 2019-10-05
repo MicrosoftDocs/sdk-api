@@ -12,6 +12,8 @@ ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TY
 ms.topic: function
 f1_keywords:
 - enclaveapi/CreateEnclave
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

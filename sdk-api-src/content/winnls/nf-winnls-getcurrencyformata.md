@@ -12,6 +12,8 @@ ms.keywords: GetCurrencyFormat, GetCurrencyFormat function [Internationalization
 ms.topic: function
 f1_keywords:
 - winnls/GetCurrencyFormat
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

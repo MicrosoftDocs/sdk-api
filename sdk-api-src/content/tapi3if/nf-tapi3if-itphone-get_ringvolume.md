@@ -12,6 +12,8 @@ ms.keywords: ITPhone interface [TAPI 2.2],get_RingVolume method, ITPhone.get_Rin
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITPhone.get_RingVolume"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

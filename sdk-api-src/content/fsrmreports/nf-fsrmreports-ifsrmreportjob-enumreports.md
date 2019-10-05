@@ -12,6 +12,8 @@ ms.keywords: EnumReports, EnumReports method [File Server Resource Manager], Enu
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportJob.EnumReports"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

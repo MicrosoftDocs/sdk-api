@@ -12,6 +12,8 @@ ms.keywords: TAKE_SNAPSHOT_VHDSET_VERSION, TAKE_SNAPSHOT_VHDSET_VERSION enumerat
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

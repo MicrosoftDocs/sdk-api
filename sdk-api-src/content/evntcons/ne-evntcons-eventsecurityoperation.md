@@ -12,6 +12,8 @@ ms.keywords: EVENTSECURITYOPERATION, EVENTSECURITYOPERATION enumeration [ETW], E
 ms.topic: enum
 f1_keywords: 
  - "evntcons/EVENTSECURITYOPERATION"
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

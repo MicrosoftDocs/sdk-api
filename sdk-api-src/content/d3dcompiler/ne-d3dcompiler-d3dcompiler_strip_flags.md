@@ -12,6 +12,8 @@ ms.keywords: D3DCOMPILER_STRIP_DEBUG_INFO, D3DCOMPILER_STRIP_FLAGS, D3DCOMPILER_
 ms.topic: enum
 f1_keywords: 
  - "d3dcompiler/D3DCOMPILER_STRIP_FLAGS"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

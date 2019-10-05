@@ -12,6 +12,8 @@ ms.keywords: STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_U
 ms.topic: enum
 f1_keywords: 
  - "dhcpv6csdk/StatusCode"
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

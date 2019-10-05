@@ -12,6 +12,8 @@ ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Sto
 ms.topic: struct
 f1_keywords: 
  - "propidl/PROPSPEC"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

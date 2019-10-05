@@ -12,6 +12,8 @@ ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetLi
 ms.topic: function
 f1_keywords:
 - restartmanager/RmGetList
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

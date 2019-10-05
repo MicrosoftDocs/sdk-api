@@ -12,6 +12,8 @@ ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV]
 ms.topic: callback
 f1_keywords:
 - davclnt/DavFreeCredCallback
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

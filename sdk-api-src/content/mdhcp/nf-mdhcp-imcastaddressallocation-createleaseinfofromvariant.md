@@ -12,6 +12,8 @@ ms.keywords: CreateLeaseInfoFromVariant, CreateLeaseInfoFromVariant method [TAPI
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.CreateLeaseInfoFromVariant"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2LOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2LookupServiceBegin
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

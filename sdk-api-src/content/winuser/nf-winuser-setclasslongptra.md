@@ -12,6 +12,8 @@ ms.keywords: GCLP_ HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_H
 ms.topic: function
 f1_keywords: 
  - "winuser/SetClassLongPtr"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

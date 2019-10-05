@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Sta
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgTextCdma.Status"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

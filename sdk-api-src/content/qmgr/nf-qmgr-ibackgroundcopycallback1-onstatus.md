@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgro
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyCallback1.OnStatus"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

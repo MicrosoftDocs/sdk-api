@@ -12,6 +12,8 @@ ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall, pStubMs
 ms.topic: function
 f1_keywords:
 - rpcndr/pStubMsg
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

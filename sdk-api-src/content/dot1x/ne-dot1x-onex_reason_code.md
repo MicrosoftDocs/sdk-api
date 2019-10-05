@@ -12,6 +12,8 @@ ms.keywords: ONEX_AUTHENTICATOR_NO_LONGER_PRESENT, ONEX_EAP_FAILURE_RECEIVED, ON
 ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_REASON_CODE
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

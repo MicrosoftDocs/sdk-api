@@ -12,6 +12,8 @@ ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursor.Buttons"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

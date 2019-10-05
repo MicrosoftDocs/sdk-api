@@ -12,6 +12,8 @@ ms.keywords: IBDA_IPSinkControl, IBDA_IPSinkControl interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_IPSinkControl"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsync
 ms.topic: method
 f1_keywords: 
  - "strmif/IAsyncReader.RequestAllocator"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

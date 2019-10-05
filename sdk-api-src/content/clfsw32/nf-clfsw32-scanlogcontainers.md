@@ -12,6 +12,8 @@ ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_FORWARD, CLFS_SCAN_I
 ms.topic: function
 f1_keywords:
 - clfsw32/ScanLogContainers
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

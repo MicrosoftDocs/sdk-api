@@ -12,6 +12,8 @@ ms.keywords: IMFBufferListNotify interface [Media Foundation],OnAddSourceBuffer 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFBufferListNotify.OnAddSourceBuffer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

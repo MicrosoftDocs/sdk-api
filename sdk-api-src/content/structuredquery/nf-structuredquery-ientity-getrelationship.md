@@ -12,6 +12,8 @@ ms.keywords: GetRelationship, GetRelationship method [search], GetRelationship m
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IEntity.GetRelationship"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

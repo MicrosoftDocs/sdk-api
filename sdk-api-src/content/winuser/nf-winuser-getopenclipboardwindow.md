@@ -12,6 +12,8 @@ ms.keywords: GetOpenClipboardWindow, GetOpenClipboardWindow function [Data Excha
 ms.topic: function
 f1_keywords: 
  - "winuser/GetOpenClipboardWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

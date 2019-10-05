@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_POLICY_MAPPING, CERT_POLICY_MAPPING, CERT_POLICY_MAPPING st
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_POLICY_MAPPING"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

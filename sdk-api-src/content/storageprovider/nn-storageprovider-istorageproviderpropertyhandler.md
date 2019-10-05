@@ -12,6 +12,8 @@ ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler in
 ms.topic: interface
 f1_keywords: 
  - "storageprovider/IStorageProviderPropertyHandler"
+dev_langs:
+ - c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Secu
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_OID_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

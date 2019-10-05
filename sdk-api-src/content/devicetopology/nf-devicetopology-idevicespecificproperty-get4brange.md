@@ -12,6 +12,8 @@ ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceSpecificProperty.Get4BRange"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

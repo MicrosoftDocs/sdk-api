@@ -12,6 +12,8 @@ ms.keywords: IVdsOpenVDisk interface,Merge method, IVdsOpenVDisk.Merge, IVdsOpen
 ms.topic: method
 f1_keywords:
 - vds/IVdsOpenVDisk.Merge
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

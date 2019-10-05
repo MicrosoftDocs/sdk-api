@@ -12,6 +12,8 @@ ms.keywords: IPersistFile, IPersistFile interface [COM], IPersistFile interface 
 ms.topic: interface
 f1_keywords: 
  - "objidl/IPersistFile"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

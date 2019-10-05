@@ -12,6 +12,8 @@ ms.keywords: AreAnyAccessesGranted, AreAnyAccessesGranted function [Security], _
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/AreAnyAccessesGranted"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

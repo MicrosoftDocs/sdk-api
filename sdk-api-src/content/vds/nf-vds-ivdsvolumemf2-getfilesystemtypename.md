@@ -12,6 +12,8 @@ ms.keywords: GetFileSystemTypeName, GetFileSystemTypeName method, GetFileSystemT
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF2.GetFileSystemTypeName"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

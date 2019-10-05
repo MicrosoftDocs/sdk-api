@@ -12,6 +12,8 @@ ms.keywords: GetPreRestoreFailureMsg, GetPreRestoreFailureMsg method [VSS], GetP
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetPreRestoreFailureMsg"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

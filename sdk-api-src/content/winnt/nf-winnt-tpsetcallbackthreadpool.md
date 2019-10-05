@@ -12,6 +12,8 @@ ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tps
 ms.topic: function
 f1_keywords: 
  - "winnt/TpSetCallbackThreadpool"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

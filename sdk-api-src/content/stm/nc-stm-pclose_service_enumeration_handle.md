@@ -12,6 +12,8 @@ ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callba
 ms.topic: callback
 f1_keywords: 
  - "stm/CloseServiceEnumerationHandle"
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

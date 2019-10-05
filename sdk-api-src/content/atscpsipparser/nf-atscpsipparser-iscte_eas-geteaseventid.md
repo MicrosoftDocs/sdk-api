@@ -12,6 +12,8 @@ ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetEASEventID"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

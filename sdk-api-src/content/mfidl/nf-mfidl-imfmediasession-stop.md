@@ -12,6 +12,8 @@ ms.keywords: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f, IMFMediaSession interface [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.Stop"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

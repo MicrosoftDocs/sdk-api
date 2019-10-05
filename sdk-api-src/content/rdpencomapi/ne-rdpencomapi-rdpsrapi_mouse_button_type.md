@@ -12,6 +12,8 @@ ms.keywords: RDPSRAPI_MOUSE_BUTTON_BUTTON1, RDPSRAPI_MOUSE_BUTTON_BUTTON2, RDPSR
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPSRAPI_MOUSE_BUTTON_TYPE"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

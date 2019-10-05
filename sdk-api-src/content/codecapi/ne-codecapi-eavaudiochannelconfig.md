@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVAudioChannelConfig, codecapi/eAVAudioChannelConfig_BACK
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVAudioChannelConfig"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

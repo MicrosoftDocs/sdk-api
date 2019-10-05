@@ -12,6 +12,8 @@ ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthr
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/CreateThreadpoolWork"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

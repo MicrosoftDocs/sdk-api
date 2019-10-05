@@ -12,6 +12,8 @@ ms.keywords: CopyAcceleratorTable, CopyAcceleratorTable function [Menus and Othe
 ms.topic: function
 f1_keywords: 
  - "winuser/CopyAcceleratorTable"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMA
 ms.topic: function
 f1_keywords: 
  - "winbase/SetFileAttributesTransacted"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

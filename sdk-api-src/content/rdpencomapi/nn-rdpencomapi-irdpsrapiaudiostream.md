@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream class [RDP], IRDPSRAPIAu
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAudioStream"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

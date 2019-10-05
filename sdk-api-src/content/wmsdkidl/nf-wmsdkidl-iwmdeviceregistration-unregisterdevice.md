@@ -12,6 +12,8 @@ ms.keywords: IWMDeviceRegistration interface [windows Media Format],UnregisterDe
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.UnregisterDevice
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

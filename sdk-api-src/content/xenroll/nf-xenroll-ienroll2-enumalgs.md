@@ -12,6 +12,8 @@ ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IE
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.EnumAlgs"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

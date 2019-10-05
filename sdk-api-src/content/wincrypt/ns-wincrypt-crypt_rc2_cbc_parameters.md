@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_128BIT_VERSION, CRYPT_RC2_40
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_RC2_CBC_PARAMETERS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

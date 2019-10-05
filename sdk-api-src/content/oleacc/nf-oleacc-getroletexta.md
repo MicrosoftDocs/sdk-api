@@ -12,6 +12,8 @@ ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleT
 ms.topic: function
 f1_keywords: 
  - "oleacc/GetRoleText"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

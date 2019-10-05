@@ -12,6 +12,8 @@ ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation proper
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass2.AllowInprocActivation"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

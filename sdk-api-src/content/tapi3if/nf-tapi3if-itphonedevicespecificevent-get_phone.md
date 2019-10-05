@@ -12,6 +12,8 @@ ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_Phone method, I
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITPhoneDeviceSpecificEvent.get_Phone"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

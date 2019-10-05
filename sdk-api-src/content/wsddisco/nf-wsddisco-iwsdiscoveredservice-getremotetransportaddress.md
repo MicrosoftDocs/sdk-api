@@ -12,6 +12,8 @@ ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRem
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveredService.GetRemoteTransportAddress"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

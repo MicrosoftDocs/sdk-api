@@ -12,6 +12,8 @@ ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.GetAppendWindowEnd"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

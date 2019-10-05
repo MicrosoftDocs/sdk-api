@@ -12,6 +12,8 @@ ms.keywords: GetContainer, GetContainer method [Windows Media Player], GetContai
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainerList.GetContainer"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropSheet_UnChanged, PropSheet_UnChanged macro [Windows Controls], 
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_UnChanged
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

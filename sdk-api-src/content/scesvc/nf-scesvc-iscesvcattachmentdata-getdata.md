@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceS
 ms.topic: method
 f1_keywords:
 - scesvc/ISceSvcAttachmentData.GetData
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

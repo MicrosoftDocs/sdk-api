@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvid
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsHwProvider.QuerySubSystems"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

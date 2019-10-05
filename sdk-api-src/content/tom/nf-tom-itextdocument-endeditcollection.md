@@ -12,6 +12,8 @@ ms.keywords: EndEditCollection, EndEditCollection method [Windows Controls], End
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.EndEditCollection"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

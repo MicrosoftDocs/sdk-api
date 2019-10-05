@@ -12,6 +12,8 @@ ms.keywords: DisableVideo, DisableVideo method [Microsoft TV Technologies], Disa
 ms.topic: method
 f1_keywords: 
  - "msvidctl/IMSVidCtl.DisableVideo"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

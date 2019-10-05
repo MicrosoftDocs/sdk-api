@@ -12,6 +12,8 @@ ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsample
 ms.topic: struct
 f1_keywords: 
  - "timeprov/TpcGetSamplesArgs"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

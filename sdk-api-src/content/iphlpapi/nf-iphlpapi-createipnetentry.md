@@ -12,6 +12,8 @@ ms.keywords: CreateIpNetEntry, CreateIpNetEntry function [IP Helper], _iphlp_cre
 ms.topic: function
 f1_keywords:
 - iphlpapi/CreateIpNetEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

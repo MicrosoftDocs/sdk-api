@@ -12,6 +12,8 @@ ms.keywords: 43b99d5f-ea28-4de2-b118-e2277f283dee, DXVA2_VideoTransFuncMask, DXV
 ms.topic: enum
 f1_keywords: 
  - "dxva2api/DXVA2_VideoTransferFunction"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

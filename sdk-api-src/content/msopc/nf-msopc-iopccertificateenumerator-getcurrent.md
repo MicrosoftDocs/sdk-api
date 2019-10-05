@@ -12,6 +12,8 @@ ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurr
 ms.topic: method
 f1_keywords:
 - msopc/IOpcCertificateEnumerator.GetCurrent
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

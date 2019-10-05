@@ -12,6 +12,8 @@ ms.keywords: MCIWndRegisterClass, MCIWndRegisterClass function [Windows Multimed
 ms.topic: function
 f1_keywords: 
  - "vfw/MCIWndRegisterClass"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

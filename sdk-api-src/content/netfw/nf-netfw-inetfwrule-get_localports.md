@@ -12,6 +12,8 @@ ms.keywords: RPC, RPC-EPMap, Teredo, INetFwRule interface [ICS/ICF],LocalPorts p
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.LocalPorts"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_DoNotFinalizeMedia me
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2TrackAtOnce.put_DoNotFinalizeMedia"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

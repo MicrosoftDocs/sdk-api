@@ -12,6 +12,8 @@ ms.keywords: WM_STREAM_TYPE_INFO, WM_STREAM_TYPE_INFO structure [windows Media F
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_STREAM_TYPE_INFO"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

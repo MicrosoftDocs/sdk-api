@@ -12,6 +12,8 @@ ms.keywords: 922ab0b5-2363-4073-9252-a71b79e03573, MFCreateVideoMediaTypeFromVid
 ms.topic: function
 f1_keywords:
 - mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

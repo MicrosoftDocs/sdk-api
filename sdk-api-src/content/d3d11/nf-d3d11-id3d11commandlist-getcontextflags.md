@@ -12,6 +12,8 @@ ms.keywords: 64bf9914-05c2-c831-c3c4-d1181d8ca907, GetContextFlags, GetContextFl
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11CommandList.GetContextFlags"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

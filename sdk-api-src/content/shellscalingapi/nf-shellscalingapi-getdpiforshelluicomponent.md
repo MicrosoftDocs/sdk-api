@@ -12,6 +12,8 @@ ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShel
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/GetDpiForShellUiComponent"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

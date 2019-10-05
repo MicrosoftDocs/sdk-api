@@ -12,6 +12,8 @@ ms.keywords: TextRange_GetEnclosingElement, TextRange_GetEnclosingElement functi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_GetEnclosingElement"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

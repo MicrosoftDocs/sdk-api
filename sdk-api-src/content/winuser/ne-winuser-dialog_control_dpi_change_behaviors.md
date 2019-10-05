@@ -12,6 +12,8 @@ ms.keywords: DCDC_DEFAULT, DCDC_DISABLE_FONT_UPDATE, DCDC_DISABLE_RELAYOUT, DIAL
 ms.topic: enum
 f1_keywords: 
  - "winuser/DIALOG_SCALING_BEHAVIOR"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACED
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DESTROYSURFACEDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

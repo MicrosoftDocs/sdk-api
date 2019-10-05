@@ -12,6 +12,8 @@ ms.keywords: GetVideoProcessBltState, GetVideoProcessBltState method [Media Foun
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor.GetVideoProcessBltState
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

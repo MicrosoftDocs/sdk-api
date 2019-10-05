@@ -12,6 +12,8 @@ ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, ID
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.SetData"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

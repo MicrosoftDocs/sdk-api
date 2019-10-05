@@ -12,6 +12,8 @@ ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], 
 ms.topic: enum
 f1_keywords: 
  - "searchapi/SEARCH_TERM_EXPANSION"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

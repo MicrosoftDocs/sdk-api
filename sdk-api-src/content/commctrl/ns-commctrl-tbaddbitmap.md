@@ -12,6 +12,8 @@ ms.keywords: "*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TBADDBITMAP"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

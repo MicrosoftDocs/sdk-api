@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyGroup interface [BITS],get_GroupID method, IBackgrou
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.get_GroupID"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

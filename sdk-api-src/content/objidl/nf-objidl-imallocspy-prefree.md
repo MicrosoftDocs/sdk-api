@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PreFree method, IMallocSpy.PreFree, IMal
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PreFree"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

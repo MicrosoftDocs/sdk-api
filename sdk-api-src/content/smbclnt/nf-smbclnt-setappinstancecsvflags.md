@@ -12,6 +12,8 @@ ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS function [Fa
 ms.topic: function
 f1_keywords: 
  - "smbclnt/SetAppInstanceCsvFlags"
+dev_langs:
+ - c++
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows

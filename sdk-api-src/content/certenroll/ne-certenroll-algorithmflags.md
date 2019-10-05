@@ -12,6 +12,8 @@ ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFla
 ms.topic: enum
 f1_keywords: 
  - "certenroll/AlgorithmFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

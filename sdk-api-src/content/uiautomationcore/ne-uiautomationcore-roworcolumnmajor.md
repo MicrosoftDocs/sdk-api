@@ -12,6 +12,8 @@ ms.keywords: RowOrColumnMajor, RowOrColumnMajor enumeration [Windows Accessibili
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/RowOrColumnMajor"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

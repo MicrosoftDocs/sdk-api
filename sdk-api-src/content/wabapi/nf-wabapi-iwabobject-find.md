@@ -12,6 +12,8 @@ ms.keywords: Find, Find method [Windows Address Book], Find method [Windows Addr
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.Find"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

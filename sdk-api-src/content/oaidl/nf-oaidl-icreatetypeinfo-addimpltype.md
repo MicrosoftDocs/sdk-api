@@ -12,6 +12,8 @@ ms.keywords: AddImplType, AddImplType method [Automation], AddImplType method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.AddImplType"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

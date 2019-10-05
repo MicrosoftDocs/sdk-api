@@ -12,6 +12,8 @@ ms.keywords: "*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTP
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRCOLORCORRECTPALETTE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

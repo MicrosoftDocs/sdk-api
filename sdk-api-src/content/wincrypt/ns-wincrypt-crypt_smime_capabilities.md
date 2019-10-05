@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_SMIME_CAPABILITIES
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

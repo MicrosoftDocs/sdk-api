@@ -12,6 +12,8 @@ ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], winrm.w
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_KEY"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

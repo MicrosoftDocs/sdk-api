@@ -12,6 +12,8 @@ ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put___Sou
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidFilePlayback2.put___SourceFilter"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

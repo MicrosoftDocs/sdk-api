@@ -12,6 +12,8 @@ ms.keywords: SnmpDeleteVb, SnmpDeleteVb function [SNMP], _snmp_snmpdeletevb, snm
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpDeleteVb"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

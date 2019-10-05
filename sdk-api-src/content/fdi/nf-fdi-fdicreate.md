@@ -12,6 +12,8 @@ ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cp
 ms.topic: function
 f1_keywords: 
  - "fdi/FDICreate"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

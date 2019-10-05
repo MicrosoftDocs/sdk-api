@@ -12,6 +12,8 @@ ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], G
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

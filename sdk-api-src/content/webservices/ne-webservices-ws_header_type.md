@@ -12,6 +12,8 @@ ms.keywords: WS_ACTION_HEADER, WS_FAULT_TO_HEADER, WS_FROM_HEADER, WS_HEADER_TYP
 ms.topic: enum
 f1_keywords:
 - webservices/WS_HEADER_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

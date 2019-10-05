@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNIC
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_UNICASTIPADDRESS_TABLE"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

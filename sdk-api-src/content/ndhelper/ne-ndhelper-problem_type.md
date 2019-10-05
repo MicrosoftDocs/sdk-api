@@ -12,6 +12,8 @@ ms.keywords: PROBLEM_TYPE, PROBLEM_TYPE enumeration [NDF], PT_DOWN_STREAM_HEALTH
 ms.topic: enum
 f1_keywords: 
  - "ndhelper/PROBLEM_TYPE"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

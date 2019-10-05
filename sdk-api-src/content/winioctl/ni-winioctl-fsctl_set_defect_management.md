@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SET_DEFECT_MANAGEMENT, FSCTL_SET_DEFECT_MANAGEMENT control, F
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_DEFECT_MANAGEMENT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

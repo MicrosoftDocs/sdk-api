@@ -12,6 +12,8 @@ ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], n
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDCancelOpenSession"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

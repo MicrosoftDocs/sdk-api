@@ -12,6 +12,8 @@ ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMSyncReader.SetReadStreamSamples"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

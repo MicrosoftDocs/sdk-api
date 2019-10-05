@@ -12,6 +12,8 @@ ms.keywords: IFaxStatus interface [Fax Service],SenderName property, IFaxStatus.
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.SenderName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

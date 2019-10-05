@@ -12,6 +12,8 @@ ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantCompare"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

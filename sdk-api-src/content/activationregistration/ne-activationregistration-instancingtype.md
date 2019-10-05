@@ -12,6 +12,8 @@ ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], Insta
 ms.topic: enum
 f1_keywords: 
  - "activationregistration/InstancingType"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

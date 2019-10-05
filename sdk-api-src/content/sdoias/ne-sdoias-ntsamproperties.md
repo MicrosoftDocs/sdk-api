@@ -12,6 +12,8 @@ ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server
 ms.topic: enum
 f1_keywords: 
  - "sdoias/NTSAMPROPERTIES"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

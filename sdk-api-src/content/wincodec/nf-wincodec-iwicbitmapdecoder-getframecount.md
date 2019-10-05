@@ -12,6 +12,8 @@ ms.keywords: GetFrameCount, GetFrameCount method [Windows Imaging Component], Ge
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetFrameCount"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

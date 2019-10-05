@@ -12,6 +12,8 @@ ms.keywords: ILockBytes interface [Structured Storage],LockRegion method, ILockB
 ms.topic: method
 f1_keywords: 
  - "objidl/ILockBytes.LockRegion"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

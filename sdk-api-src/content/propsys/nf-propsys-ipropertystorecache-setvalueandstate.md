@@ -12,6 +12,8 @@ ms.keywords: IPropertyStoreCache interface [Windows Properties],SetValueAndState
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyStoreCache.SetValueAndState
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

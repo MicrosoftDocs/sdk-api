@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaC
 ms.topic: interface
 f1_keywords: 
  - "dskquota/IDiskQuotaControl"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

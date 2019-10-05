@@ -12,6 +12,8 @@ ms.keywords: DestroyResource, DestroyResource method [COM+], DestroyResource met
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IDispenserDriver.DestroyResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_TEX2D_ARRAY_VPOV, D3D11_TEX2D_ARRAY_VPOV structure [Media Fou
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX2D_ARRAY_VPOV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

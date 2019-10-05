@@ -12,6 +12,8 @@ ms.keywords: DRT_GLOBAL_SCOPE, DRT_LINK_LOCAL_SCOPE, DRT_SCOPE, DRT_SCOPE enumer
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_SCOPE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

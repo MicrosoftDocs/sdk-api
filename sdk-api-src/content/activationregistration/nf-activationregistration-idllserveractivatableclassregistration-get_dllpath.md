@@ -12,6 +12,8 @@ ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],
 ms.topic: method
 f1_keywords: 
  - "activationregistration/IDllServerActivatableClassRegistration.get_DllPath"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

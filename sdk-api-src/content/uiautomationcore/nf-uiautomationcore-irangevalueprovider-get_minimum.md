@@ -12,6 +12,8 @@ ms.keywords: IRangeValueProvider interface [Windows Accessibility],Minimum prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRangeValueProvider.Minimum"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

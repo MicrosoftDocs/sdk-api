@@ -12,6 +12,8 @@ ms.keywords: MICUIELEMENT, MICUIELEMENT enumeration [Tablet PC], MICUIELEMENT_BU
 ms.topic: enum
 f1_keywords: 
  - "micaut/MICUIELEMENT"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

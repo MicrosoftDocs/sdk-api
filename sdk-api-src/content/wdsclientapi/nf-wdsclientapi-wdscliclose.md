@@ -12,6 +12,8 @@ ms.keywords: WdsCliClose, WdsCliClose function [Windows Deployment Services], wd
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliClose"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

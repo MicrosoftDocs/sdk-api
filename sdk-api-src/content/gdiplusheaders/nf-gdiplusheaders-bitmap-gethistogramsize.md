@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],GetHistogramSize method, Bitmap.GetHistogramSiz
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.GetHistogramSize"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

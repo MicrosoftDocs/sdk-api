@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_open"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

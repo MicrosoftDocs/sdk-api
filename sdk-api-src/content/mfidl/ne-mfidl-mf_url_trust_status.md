@@ -12,6 +12,8 @@ ms.keywords: MF_LICENSE_URL_TAMPERED, MF_LICENSE_URL_TRUSTED, MF_LICENSE_URL_UNT
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_URL_TRUST_STATUS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

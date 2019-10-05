@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth interface [Audio Devices],SetChannelPriority meth
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.SetChannelPriority"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

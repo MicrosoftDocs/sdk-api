@@ -12,6 +12,8 @@ ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISen
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.SetProperties"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

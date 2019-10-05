@@ -12,6 +12,8 @@ ms.keywords: RegisterShellHookWindow, RegisterShellHookWindow function [Windows 
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterShellHookWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

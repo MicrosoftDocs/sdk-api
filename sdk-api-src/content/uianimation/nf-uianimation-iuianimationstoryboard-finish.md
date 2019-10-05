@@ -12,6 +12,8 @@ ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows A
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.Finish"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

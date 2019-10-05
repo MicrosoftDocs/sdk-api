@@ -12,6 +12,8 @@ ms.keywords: ClearThreshold, ClearThreshold method [GDI+], ClearThreshold method
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearThreshold"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

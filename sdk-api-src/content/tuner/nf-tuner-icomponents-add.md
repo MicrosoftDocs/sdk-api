@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponents.Add"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

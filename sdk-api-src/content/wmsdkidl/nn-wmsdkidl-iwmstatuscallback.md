@@ -12,6 +12,8 @@ ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Forma
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMStatusCallback"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

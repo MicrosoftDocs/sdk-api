@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncCommonRateControlMode, codecapi/eAVEncCommonRateCont
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncCommonRateControlMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

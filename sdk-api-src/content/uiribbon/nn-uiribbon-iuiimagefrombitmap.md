@@ -12,6 +12,8 @@ ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], 
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUIImageFromBitmap"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

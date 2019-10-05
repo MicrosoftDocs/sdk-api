@@ -12,6 +12,8 @@ ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldire
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/RemoveDllDirectory"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],SetRights method, 
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter3.SetRights"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helpe
 ms.topic: function
 f1_keywords: 
  - "d2d1_1helper/LayerParameters1"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

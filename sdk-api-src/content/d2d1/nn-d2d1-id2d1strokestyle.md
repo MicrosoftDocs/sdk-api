@@ -12,6 +12,8 @@ ms.keywords: ID2D1StrokeStyle, ID2D1StrokeStyle interface [Direct2D], ID2D1Strok
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1StrokeStyle"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

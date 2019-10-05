@@ -12,6 +12,8 @@ ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIO
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIOutputDuplication.ReleaseFrame"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

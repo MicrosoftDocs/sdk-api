@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_PROPERTIES, WS_CHANNEL_PROPERTIES structure [Web Service
 ms.topic: struct
 f1_keywords:
 - webservices/WS_CHANNEL_PROPERTIES
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

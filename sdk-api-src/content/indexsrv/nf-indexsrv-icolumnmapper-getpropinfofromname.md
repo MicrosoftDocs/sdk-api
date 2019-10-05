@@ -12,6 +12,8 @@ ms.keywords: GetPropInfoFromName, GetPropInfoFromName method [search], GetPropIn
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IColumnMapper.GetPropInfoFromName"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

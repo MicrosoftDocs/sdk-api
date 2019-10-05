@@ -12,6 +12,8 @@ ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback fu
 ms.topic: callback
 f1_keywords:
 - mswsock/LPFN_CONNECTEX
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

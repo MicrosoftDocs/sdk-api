@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadUByte4, XMLoadUByte4, XMLoadUByte4 meth
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadUByte4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

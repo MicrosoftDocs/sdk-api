@@ -12,6 +12,8 @@ ms.keywords: GetSignalQuality, GetSignalQuality method [NativeWIFI], GetSignalQu
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.GetSignalQuality"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compre
 ms.topic: function
 f1_keywords: 
  - "compressapi/SetCompressorInformation"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

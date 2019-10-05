@@ -12,6 +12,8 @@ ms.keywords: ITokenCollection interface [search],NumberOfTokens method, ITokenCo
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ITokenCollection.NumberOfTokens"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

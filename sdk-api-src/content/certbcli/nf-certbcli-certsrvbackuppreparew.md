@@ -12,6 +12,8 @@ ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, 
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupPrepare"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

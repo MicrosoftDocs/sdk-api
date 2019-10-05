@@ -12,6 +12,8 @@ ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Terminal method, ITASRT
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITASRTerminalEvent.get_Terminal"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo interface [Automation],RecordCreateCopy method, IRecord
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.RecordCreateCopy"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

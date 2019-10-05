@@ -12,6 +12,8 @@ ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conve
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcFactory.CreateStreamOnFile"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

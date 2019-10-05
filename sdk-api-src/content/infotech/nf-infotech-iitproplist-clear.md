@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help W
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.Clear"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

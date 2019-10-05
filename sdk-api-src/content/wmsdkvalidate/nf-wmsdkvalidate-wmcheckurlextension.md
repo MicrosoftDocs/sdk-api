@@ -12,6 +12,8 @@ ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Fo
 ms.topic: function
 f1_keywords: 
  - "wmsdkvalidate/WMCheckURLExtension"
+dev_langs:
+ - c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

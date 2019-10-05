@@ -12,6 +12,8 @@ ms.keywords: TextPattern_RangeFromChild, TextPattern_RangeFromChild function [Wi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextPattern_RangeFromChild"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

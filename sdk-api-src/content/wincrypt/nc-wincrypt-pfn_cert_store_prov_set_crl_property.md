@@ -12,6 +12,8 @@ ms.keywords: CertStoreProvSetCRLPropertyCallback, PFN_CERT_STORE_PROV_SET_CRL_PR
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

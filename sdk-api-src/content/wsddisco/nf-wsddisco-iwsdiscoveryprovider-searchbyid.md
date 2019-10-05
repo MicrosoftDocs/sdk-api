@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvi
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProvider.SearchById"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

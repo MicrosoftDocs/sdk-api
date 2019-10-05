@@ -12,6 +12,8 @@ ms.keywords: CreateComponent, CreateComponent method [MMC], CreateComponent meth
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponentData.CreateComponent"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

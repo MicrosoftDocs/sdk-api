@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_LH,
 ms.topic: struct
 f1_keywords: 
  - "ws2def/SOCKADDR_STORAGE_LH"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows

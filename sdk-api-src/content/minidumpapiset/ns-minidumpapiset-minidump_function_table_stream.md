@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM, 
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

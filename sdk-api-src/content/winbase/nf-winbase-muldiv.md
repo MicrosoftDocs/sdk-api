@@ -12,6 +12,8 @@ ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDi
 ms.topic: function
 f1_keywords: 
  - "winbase/MulDiv"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

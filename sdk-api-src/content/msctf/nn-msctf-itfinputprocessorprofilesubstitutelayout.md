@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileS
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileSubstituteLayout"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: Textstor.h
 req.target-type: Windows

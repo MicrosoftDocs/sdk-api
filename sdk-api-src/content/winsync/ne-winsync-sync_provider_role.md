@@ -12,6 +12,8 @@ ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_PROVIDER_ROLE"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

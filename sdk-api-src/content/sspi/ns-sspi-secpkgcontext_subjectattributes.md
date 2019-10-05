@@ -12,6 +12,8 @@ ms.keywords: '*PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttribute
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_SubjectAttributes
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

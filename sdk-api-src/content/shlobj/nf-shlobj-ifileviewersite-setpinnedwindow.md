@@ -12,6 +12,8 @@ ms.keywords: IFileViewerSite interface [Windows Shell],SetPinnedWindow method, I
 ms.topic: method
 f1_keywords: 
  - "shlobj/IFileViewerSite.SetPinnedWindow"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

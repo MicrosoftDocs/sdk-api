@@ -12,6 +12,8 @@ ms.keywords: GetCapabilities, GetCapabilities method [DirectShow], GetCapabiliti
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetCapabilities"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

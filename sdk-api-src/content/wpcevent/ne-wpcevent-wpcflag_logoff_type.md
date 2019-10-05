@@ -12,6 +12,8 @@ ms.keywords: WPCFLAG_LOGOFF_TYPE, WPCFLAG_LOGOFF_TYPE enumeration, WPCFLAG_LOGOF
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPCFLAG_LOGOFF_TYPE"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

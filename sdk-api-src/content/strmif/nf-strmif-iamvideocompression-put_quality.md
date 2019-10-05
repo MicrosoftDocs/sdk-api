@@ -12,6 +12,8 @@ ms.keywords: IAMVideoCompression interface [DirectShow],put_Quality method, IAMV
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVideoCompression.put_Quality"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

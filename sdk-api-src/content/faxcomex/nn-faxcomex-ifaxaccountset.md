@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccount
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxAccountSet"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

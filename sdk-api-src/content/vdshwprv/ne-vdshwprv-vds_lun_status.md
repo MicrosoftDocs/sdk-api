@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE,
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_LUN_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

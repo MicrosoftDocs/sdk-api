@@ -12,6 +12,8 @@ ms.keywords: CLIPOBJ_ppoGetPath, CLIPOBJ_ppoGetPath function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/CLIPOBJ_ppoGetPath
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

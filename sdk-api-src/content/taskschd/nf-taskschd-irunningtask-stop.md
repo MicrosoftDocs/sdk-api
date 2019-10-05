@@ -12,6 +12,8 @@ ms.keywords: IRunningTask interface [Task Scheduler],Stop method, IRunningTask.S
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.Stop"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

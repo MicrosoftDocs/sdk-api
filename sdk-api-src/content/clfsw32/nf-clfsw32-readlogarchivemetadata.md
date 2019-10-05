@@ -12,6 +12,8 @@ ms.keywords: ReadLogArchiveMetadata, ReadLogArchiveMetadata function [Files], cl
 ms.topic: function
 f1_keywords: 
  - "clfsw32/ReadLogArchiveMetadata"
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

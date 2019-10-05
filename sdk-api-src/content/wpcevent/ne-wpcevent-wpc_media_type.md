@@ -12,6 +12,8 @@ ms.keywords: WPC_MEDIA_TYPE, WPC_MEDIA_TYPE enumeration, WPC_MEDIA_TYPE_AUDIO_FI
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_MEDIA_TYPE"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

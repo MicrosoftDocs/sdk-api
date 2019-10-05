@@ -12,6 +12,8 @@ ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixe
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCXNotify.OnStatusChange"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPISharing
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.Attendees"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

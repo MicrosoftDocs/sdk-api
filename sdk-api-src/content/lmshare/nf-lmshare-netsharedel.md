@@ -12,6 +12,8 @@ ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.n
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareDel
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

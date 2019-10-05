@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADDR_STRING, IP_ADDR_STRING, IP_ADDR_STRING structure [IP Hel
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADDR_STRING"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

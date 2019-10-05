@@ -12,6 +12,8 @@ ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files]
 ms.topic: struct
 f1_keywords: 
  - "ntmsmli/MediaLabelInfo"
+dev_langs:
+ - c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows

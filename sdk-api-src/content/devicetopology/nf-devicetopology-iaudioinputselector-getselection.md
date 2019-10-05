@@ -12,6 +12,8 @@ ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioInputSelector.GetSelection"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

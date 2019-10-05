@@ -12,6 +12,8 @@ ms.keywords: XPS_JOB_STATUS, XPS_JOB_STATUS structure [Windows GDI], gdi.xps_job
 ms.topic: struct
 f1_keywords: 
  - "xpsprint/XPS_JOB_STATUS"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddEnvironmentToStore, AddEnvironmentToStore method [Remote Desktop
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.AddEnvironmentToStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

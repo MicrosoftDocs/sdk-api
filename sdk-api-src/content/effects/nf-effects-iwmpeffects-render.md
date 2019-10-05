@@ -12,6 +12,8 @@ ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render 
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.Render"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

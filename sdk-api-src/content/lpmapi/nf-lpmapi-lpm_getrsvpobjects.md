@@ -12,6 +12,8 @@ ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects
 ms.topic: function
 f1_keywords: 
  - "lpmapi/LPM_GetRsvpObjects"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

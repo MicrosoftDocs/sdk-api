@@ -12,6 +12,8 @@ ms.keywords: AllocateSharedMemory, AllocateSharedMemory callback function [Secur
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/AllocateSharedMemory
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

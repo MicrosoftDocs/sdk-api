@@ -12,6 +12,8 @@ ms.keywords: 3ac4ac3b-6edc-1416-88f6-1ee1c2ed12a4, D3D11_TEXCUBE_ARRAY_SRV, D3D1
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEXCUBE_ARRAY_SRV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

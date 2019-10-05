@@ -12,6 +12,8 @@ ms.keywords: CreateSignatureBlockResource, CreateSignatureBlockResource method [
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateSignatureBlockResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

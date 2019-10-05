@@ -12,6 +12,8 @@ ms.keywords: CCertView object [Security],EnumCertViewColumn method, CVRC_COLUMN_
 ms.topic: method
 f1_keywords: 
  - "certview/ICertView2.EnumCertViewColumn"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

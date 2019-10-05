@@ -12,6 +12,8 @@ ms.keywords: GetElement, GetElement method [Media Foundation], GetElement method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFCollection.GetElement"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

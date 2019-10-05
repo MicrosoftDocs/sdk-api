@@ -12,6 +12,8 @@ ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "tuner/IESCloseMmiEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

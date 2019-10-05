@@ -12,6 +12,8 @@ ms.keywords: AUTHZ_CONTEXT_INFORMATION_CLASS, AUTHZ_CONTEXT_INFORMATION_CLASS en
 ms.topic: enum
 f1_keywords:
 - authz/AUTHZ_CONTEXT_INFORMATION_CLASS
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],des
 ms.topic: interface
 f1_keywords: 
  - "comcat/IEnumGUID"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

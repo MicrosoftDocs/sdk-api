@@ -12,6 +12,8 @@ ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRMonitorConfig.GetAvailableMonitors"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

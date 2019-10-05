@@ -12,6 +12,8 @@ ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER
 ms.topic: macro
 f1_keywords: 
  - "amvideo/RESET_HEADER"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

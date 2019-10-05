@@ -12,6 +12,8 @@ ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Reset method, IEnumD
 ms.topic: method
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocNetworks.Reset"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

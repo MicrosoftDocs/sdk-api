@@ -12,6 +12,8 @@ ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList func
 ms.topic: function
 f1_keywords: 
  - "recapis/SetWordList"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

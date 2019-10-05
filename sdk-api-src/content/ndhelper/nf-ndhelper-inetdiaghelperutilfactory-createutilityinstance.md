@@ -12,6 +12,8 @@ ms.keywords: CreateUtilityInstance, CreateUtilityInstance method [NDF], CreateUt
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelperUtilFactory.CreateUtilityInstance"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

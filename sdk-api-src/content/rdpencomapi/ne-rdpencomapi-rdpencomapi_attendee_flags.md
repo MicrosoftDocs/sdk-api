@@ -12,6 +12,8 @@ ms.keywords: ATTENDEE_FLAGS_LOCAL, RDPENCOMAPI_ATTENDEE_FLAGS, RDPENCOMAPI_ATTEN
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

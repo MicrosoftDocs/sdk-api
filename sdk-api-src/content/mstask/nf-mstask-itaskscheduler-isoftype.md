@@ -12,6 +12,8 @@ ms.keywords: ITaskScheduler interface [Task Scheduler],IsOfType method, ITaskSch
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.IsOfType"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

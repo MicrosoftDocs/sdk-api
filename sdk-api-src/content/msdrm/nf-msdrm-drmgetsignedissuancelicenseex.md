@@ -12,6 +12,8 @@ ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx functi
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetSignedIssuanceLicenseEx"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

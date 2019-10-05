@@ -12,6 +12,8 @@ ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat 
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.GetPixelFormat
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

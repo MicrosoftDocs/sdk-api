@@ -12,6 +12,8 @@ ms.keywords: SafeArrayCreate, SafeArrayCreate function [Automation], _oa96_SafeA
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayCreate"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

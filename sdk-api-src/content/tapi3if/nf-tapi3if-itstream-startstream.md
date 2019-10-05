@@ -12,6 +12,8 @@ ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStr
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITStream.StartStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

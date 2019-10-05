@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem2, IVdsSubSystem2 interface, IVdsSubSystem2 interface,
 ms.topic: interface
 f1_keywords:
 - vds/IVdsSubSystem2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

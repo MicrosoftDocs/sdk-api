@@ -12,6 +12,8 @@ ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method,
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskHandlerStatus.TaskCompleted"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 int
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextPara2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

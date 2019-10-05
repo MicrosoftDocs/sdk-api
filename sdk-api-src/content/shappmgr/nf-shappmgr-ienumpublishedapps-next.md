@@ -12,6 +12,8 @@ ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPubl
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IEnumPublishedApps.Next"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

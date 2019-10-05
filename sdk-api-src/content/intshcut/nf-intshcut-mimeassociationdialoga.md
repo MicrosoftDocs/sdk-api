@@ -12,6 +12,8 @@ ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "intshcut/MIMEAssociationDialog"
+dev_langs:
+ - c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

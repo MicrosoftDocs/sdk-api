@@ -12,6 +12,8 @@ ms.keywords: "*PNET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE st
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/NET_DISPLAY_MACHINE"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

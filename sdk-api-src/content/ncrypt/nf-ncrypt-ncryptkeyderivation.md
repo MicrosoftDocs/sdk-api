@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCry
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptKeyDerivation"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadBSTR, PSPropertyBag_ReadBSTR function [Windows Pr
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_ReadBSTR"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

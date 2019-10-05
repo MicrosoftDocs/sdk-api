@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

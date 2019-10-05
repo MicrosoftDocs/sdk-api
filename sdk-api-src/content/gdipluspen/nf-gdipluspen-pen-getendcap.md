@@ -12,6 +12,8 @@ ms.keywords: GetEndCap, GetEndCap method [GDI+], GetEndCap method [GDI+],Pen cla
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetEndCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

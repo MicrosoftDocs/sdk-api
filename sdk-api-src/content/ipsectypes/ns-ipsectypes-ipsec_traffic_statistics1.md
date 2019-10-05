@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TRAFFIC_STATISTICS1, IPSEC_TRAFFIC_STATISTICS1 structure [Fil
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_TRAFFIC_STATISTICS1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

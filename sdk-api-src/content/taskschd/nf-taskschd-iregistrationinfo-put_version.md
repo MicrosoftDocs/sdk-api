@@ -12,6 +12,8 @@ ms.keywords: IRegistrationInfo interface [Task Scheduler],Version property, IReg
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegistrationInfo.Version"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [M
 ms.topic: method
 f1_keywords: 
  - "regbag/ICreatePropBagOnRegKey.Create"
+dev_langs:
+ - c++
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows

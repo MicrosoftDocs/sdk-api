@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorATan2Est, XMVectorATan2Est, XMVectorATan2Est m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorATan2Est"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],UnlockBits method, Bitmap.UnlockBits, Bitmap::U
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.UnlockBits"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

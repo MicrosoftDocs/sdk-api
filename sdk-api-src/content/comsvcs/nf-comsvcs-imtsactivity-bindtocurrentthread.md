@@ -12,6 +12,8 @@ ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurre
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMTSActivity.BindToCurrentThread"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

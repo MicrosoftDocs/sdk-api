@@ -12,6 +12,8 @@ ms.keywords: GetMatchingACT, GetMatchingACT method [Enhanced Storage], GetMatchi
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnumEnhancedStorageACT.GetMatchingACT"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

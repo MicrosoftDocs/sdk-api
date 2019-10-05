@@ -12,6 +12,8 @@ ms.keywords: GetEntitlementTokenLength, GetEntitlementTokenLength method [Direct
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetEntitlementTokenLength"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

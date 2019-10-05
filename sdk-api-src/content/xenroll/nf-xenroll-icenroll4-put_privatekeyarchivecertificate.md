@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],PrivateKeyArchiveCertificate property, IC
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.PrivateKeyArchiveCertificate"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

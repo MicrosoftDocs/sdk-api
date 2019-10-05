@@ -12,6 +12,8 @@ ms.keywords: "*PNET_PHYSICAL_LOCATION, *PNET_PHYSICAL_LOCATION_LH, NET_PHYSICAL_
 ms.topic: struct
 f1_keywords: 
  - "ifdef/NET_PHYSICAL_LOCATION"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Ntddndis.h
 req.target-type: Windows

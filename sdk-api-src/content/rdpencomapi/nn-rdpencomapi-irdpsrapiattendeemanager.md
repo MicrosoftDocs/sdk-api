@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP],
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendeeManager"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

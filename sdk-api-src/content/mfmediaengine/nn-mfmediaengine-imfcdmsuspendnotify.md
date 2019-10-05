@@ -12,6 +12,8 @@ ms.keywords: IMFCdmSuspendNotify, IMFCdmSuspendNotify interface [Media Foundatio
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFCdmSuspendNotify"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

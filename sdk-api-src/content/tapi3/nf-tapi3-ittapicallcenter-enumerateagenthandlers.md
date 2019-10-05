@@ -12,6 +12,8 @@ ms.keywords: EnumerateAgentHandlers, EnumerateAgentHandlers method [TAPI 2.2], E
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITTAPICallCenter.EnumerateAgentHandlers"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

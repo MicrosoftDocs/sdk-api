@@ -12,6 +12,8 @@ ms.keywords: ITTAPICallCenter interface [TAPI 2.2],get_AgentHandlers method, ITT
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITTAPICallCenter.get_AgentHandlers"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

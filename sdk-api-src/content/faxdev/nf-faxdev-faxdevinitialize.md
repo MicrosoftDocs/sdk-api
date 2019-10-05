@@ -12,6 +12,8 @@ ms.keywords: FaxDevInitialize, FaxDevInitialize function [Fax Service], _mfax_fa
 ms.topic: function
 f1_keywords: 
  - "faxdev/FaxDevInitialize"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

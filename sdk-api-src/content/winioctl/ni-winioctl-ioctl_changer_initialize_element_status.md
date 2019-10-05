@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_E
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

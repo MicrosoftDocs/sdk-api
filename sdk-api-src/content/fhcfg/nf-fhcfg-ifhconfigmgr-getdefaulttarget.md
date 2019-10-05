@@ -12,6 +12,8 @@ ms.keywords: FhConfigMgr class [Windows API],GetDefaultTarget method, GetDefault
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhConfigMgr.GetDefaultTarget"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

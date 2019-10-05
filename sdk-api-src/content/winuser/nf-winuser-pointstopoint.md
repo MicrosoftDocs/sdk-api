@@ -12,6 +12,8 @@ ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPO
 ms.topic: macro
 f1_keywords: 
  - "winuser/POINTSTOPOINT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

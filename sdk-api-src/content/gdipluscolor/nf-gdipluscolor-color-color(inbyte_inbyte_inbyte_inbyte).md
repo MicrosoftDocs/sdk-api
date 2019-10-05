@@ -12,6 +12,8 @@ ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.Color"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

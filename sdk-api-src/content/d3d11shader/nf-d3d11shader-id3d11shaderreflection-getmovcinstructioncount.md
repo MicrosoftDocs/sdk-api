@@ -12,6 +12,8 @@ ms.keywords: 4a4263fb-7b28-3da9-343c-0bc8a788f788, GetMovcInstructionCount, GetM
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetMovcInstructionCount"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

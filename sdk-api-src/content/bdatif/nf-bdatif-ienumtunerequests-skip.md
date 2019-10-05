@@ -12,6 +12,8 @@ ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method
 ms.topic: method
 f1_keywords: 
  - "bdatif/IEnumTuneRequests.Skip"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

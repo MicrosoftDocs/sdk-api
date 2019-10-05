@@ -12,6 +12,8 @@ ms.keywords: MFTOPOLOGY_HARDWARE_MODE, MFTOPOLOGY_HARDWARE_MODE enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFTOPOLOGY_HARDWARE_MODE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

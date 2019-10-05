@@ -12,6 +12,8 @@ ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHRemoveLocalizedName"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

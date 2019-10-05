@@ -12,6 +12,8 @@ ms.keywords: FDIIsCabinet, FDIIsCabinet function [Windows API], fdi/FDIIsCabinet
 ms.topic: function
 f1_keywords: 
  - "fdi/FDIIsCabinet"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_CERT_CREATE_CONTEXT_SORT_FUNC, PFN_CERT_CREATE_CONTEXT_SORT_FUN
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

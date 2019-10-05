@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitorLogRecords interface [COM+],get_StructuredRecords method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorLogRecords.get_StructuredRecords"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

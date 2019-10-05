@@ -12,6 +12,8 @@ ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUT
 ms.topic: callback
 f1_keywords: 
  - "ntsecapi/PasswordChangeNotify"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

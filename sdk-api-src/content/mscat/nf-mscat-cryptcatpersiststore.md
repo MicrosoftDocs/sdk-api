@@ -12,6 +12,8 @@ ms.keywords: CryptCATPersistStore, CryptCATPersistStore function [Security], msc
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATPersistStore"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

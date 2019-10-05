@@ -12,6 +12,8 @@ ms.keywords: CreateNewStream, CreateNewStream method [windows Media Format], Cre
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile.CreateNewStream"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

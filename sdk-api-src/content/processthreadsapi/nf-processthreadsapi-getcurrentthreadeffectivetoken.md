@@ -12,6 +12,8 @@ ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken func
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetCurrentThreadEffectiveToken"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

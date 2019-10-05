@@ -12,6 +12,8 @@ ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_s
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_STATUS"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

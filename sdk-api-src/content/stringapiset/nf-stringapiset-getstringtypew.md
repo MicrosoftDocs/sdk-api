@@ -12,6 +12,8 @@ ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW fun
 ms.topic: function
 f1_keywords: 
  - "stringapiset/GetStringTypeW"
+dev_langs:
+ - c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

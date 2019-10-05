@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyCallback3, IBackgroundCopyCallback3 interface [BITS]
 ms.topic: interface
 f1_keywords: 
  - "bits10_1/IBackgroundCopyCallback3"
+dev_langs:
+ - c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

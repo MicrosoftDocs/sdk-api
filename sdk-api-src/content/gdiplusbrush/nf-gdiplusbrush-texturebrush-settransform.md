@@ -12,6 +12,8 @@ ms.keywords: SetTransform, SetTransform method [GDI+], SetTransform method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.SetTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

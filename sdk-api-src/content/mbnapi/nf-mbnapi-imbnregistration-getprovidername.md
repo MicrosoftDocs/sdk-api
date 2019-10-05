@@ -12,6 +12,8 @@ ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networ
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetProviderName"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

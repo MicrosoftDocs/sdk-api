@@ -12,6 +12,8 @@ ms.keywords: IWMWriter interface [windows Media Format],WriteSample method, IWMW
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriter.WriteSample"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

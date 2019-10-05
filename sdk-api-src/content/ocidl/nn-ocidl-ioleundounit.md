@@ -12,6 +12,8 @@ ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface 
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleUndoUnit"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

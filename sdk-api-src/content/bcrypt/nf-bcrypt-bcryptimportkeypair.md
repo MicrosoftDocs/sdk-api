@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_B
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptImportKeyPair
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

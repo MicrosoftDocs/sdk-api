@@ -12,6 +12,8 @@ ms.keywords: GetDashPattern, GetDashPattern method [GDI+], GetDashPattern method
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetDashPattern"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

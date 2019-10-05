@@ -12,6 +12,8 @@ ms.keywords: SystemTimeToVariantTime, SystemTimeToVariantTime function [Automati
 ms.topic: function
 f1_keywords: 
  - "oleauto/SystemTimeToVariantTime"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

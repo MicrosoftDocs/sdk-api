@@ -12,6 +12,8 @@ ms.keywords: TUISPI_lineConfigDialogEdit, TUISPI_lineConfigDialogEdit function [
 ms.topic: function
 f1_keywords: 
  - "tspi/TUISPI_lineConfigDialogEdit"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

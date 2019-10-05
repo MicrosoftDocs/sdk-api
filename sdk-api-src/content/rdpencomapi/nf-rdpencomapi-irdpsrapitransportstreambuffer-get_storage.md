@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],UnregisterDeviceProvider method,
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.UnregisterDeviceProvider"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

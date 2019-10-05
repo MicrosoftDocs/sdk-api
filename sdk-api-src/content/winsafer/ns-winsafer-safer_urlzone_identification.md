@@ -12,6 +12,8 @@ ms.keywords: '*PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION, PSA
 ms.topic: struct
 f1_keywords:
 - winsafer/SAFER_URLZONE_IDENTIFICATION
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

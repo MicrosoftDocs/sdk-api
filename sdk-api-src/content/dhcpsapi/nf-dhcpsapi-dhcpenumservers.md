@@ -12,6 +12,8 @@ ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumserv
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumServers
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

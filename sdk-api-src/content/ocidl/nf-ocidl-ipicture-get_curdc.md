@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],get_CurDC method, IPicture.get_CurDC, IPic
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.get_CurDC"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

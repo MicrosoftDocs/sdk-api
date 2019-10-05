@@ -12,6 +12,8 @@ ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityPro
 ms.topic: function
 f1_keywords: 
  - "drt/DrtDeleteDerivedKeySecurityProvider"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

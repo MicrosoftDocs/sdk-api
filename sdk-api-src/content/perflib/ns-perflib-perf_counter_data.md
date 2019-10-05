@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structur
 ms.topic: struct
 f1_keywords:
 - perflib/PERF_COUNTER_DATA
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

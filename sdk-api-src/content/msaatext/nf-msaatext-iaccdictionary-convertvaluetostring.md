@@ -12,6 +12,8 @@ ms.keywords: ConvertValueToString, ConvertValueToString method [Windows Accessib
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccDictionary.ConvertValueToString"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

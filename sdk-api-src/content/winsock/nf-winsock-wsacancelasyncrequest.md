@@ -12,6 +12,8 @@ ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _w
 ms.topic: function
 f1_keywords: 
  - "winsock/WSACancelAsyncRequest"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpDuplicatePdu, SnmpDuplicatePdu function [SNMP], _snmp_snmpdupli
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpDuplicatePdu"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

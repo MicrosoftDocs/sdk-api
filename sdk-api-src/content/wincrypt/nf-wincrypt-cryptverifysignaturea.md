@@ -12,6 +12,8 @@ ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerify
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptVerifySignature"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

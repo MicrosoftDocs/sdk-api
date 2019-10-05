@@ -12,6 +12,8 @@ ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFre
 ms.topic: function
 f1_keywords: 
  - "dmort/MoFreeMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBufferProgress, GetBufferProgress method [windows Media Format],
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced2.GetBufferProgress"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

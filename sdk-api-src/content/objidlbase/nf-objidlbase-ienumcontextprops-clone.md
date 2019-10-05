@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumContextProps int
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IEnumContextProps.Clone"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

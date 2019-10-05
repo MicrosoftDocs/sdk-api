@@ -12,6 +12,8 @@ ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject, GetRemoteObj
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRemoteProxy.GetRemoteObject"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

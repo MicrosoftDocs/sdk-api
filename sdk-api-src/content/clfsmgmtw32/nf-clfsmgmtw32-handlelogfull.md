@@ -12,6 +12,8 @@ ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLo
 ms.topic: function
 f1_keywords: 
  - "clfsmgmtw32/HandleLogFull"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

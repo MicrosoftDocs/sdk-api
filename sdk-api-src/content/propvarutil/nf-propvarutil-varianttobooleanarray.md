@@ -12,6 +12,8 @@ ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Prop
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToBooleanArray"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

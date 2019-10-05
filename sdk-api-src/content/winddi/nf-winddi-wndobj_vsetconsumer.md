@@ -12,6 +12,8 @@ ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/WNDOBJ_vSetConsumer
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo m
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchAdvanced.GetFilterInfo"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

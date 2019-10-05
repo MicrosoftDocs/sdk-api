@@ -12,6 +12,8 @@ ms.keywords: EngDeleteWnd, EngDeleteWnd function [Display Devices], display.engd
 ms.topic: function
 f1_keywords:
 - winddi/EngDeleteWnd
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo in
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectionsInfo"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FsrmSetting class [File Server Resource Manager],GetActionRunLimitI
 ms.topic: method
 f1_keywords:
 - fsrm/IFsrmSetting.GetActionRunLimitInterval
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

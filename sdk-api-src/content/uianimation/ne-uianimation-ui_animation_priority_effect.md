@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_PRIORITY_EFFECT, UI_ANIMATION_PRIORITY_EFFECT enumerat
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_PRIORITY_EFFECT"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

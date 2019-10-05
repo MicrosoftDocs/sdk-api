@@ -12,6 +12,8 @@ ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIE
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElementMgr.GetUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

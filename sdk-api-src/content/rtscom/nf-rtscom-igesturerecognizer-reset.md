@@ -12,6 +12,8 @@ ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface 
 ms.topic: method
 f1_keywords: 
  - "rtscom/IGestureRecognizer.Reset"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

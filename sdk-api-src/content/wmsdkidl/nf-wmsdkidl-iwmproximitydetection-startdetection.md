@@ -12,6 +12,8 @@ ms.keywords: IWMProximityDetection interface [windows Media Format],StartDetecti
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProximityDetection.StartDetection"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

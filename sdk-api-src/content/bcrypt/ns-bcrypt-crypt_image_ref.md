@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_IMAGE_REF, CRYPT_IMAGE_REF, CRYPT_IMAGE_REF structure [Sec
 ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_IMAGE_REF
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

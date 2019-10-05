@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],SetBlend method, LinearGradientBru
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.SetBlend"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

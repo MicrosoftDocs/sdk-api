@@ -12,6 +12,8 @@ ms.keywords: IPersistStream interface [COM],Save method, IPersistStream.Save, IP
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStream.Save"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

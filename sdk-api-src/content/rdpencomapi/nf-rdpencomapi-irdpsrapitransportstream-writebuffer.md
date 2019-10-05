@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStream.WriteBuffer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

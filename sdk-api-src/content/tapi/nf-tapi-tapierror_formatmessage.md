@@ -12,6 +12,8 @@ ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], 
 ms.topic: macro
 f1_keywords: 
  - "tapi/TAPIERROR_FORMATMESSAGE"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

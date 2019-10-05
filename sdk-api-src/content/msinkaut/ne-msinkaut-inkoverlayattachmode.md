@@ -12,6 +12,8 @@ ms.keywords: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0, IOAM_Behind, IOAM_InFront, In
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkOverlayAttachMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

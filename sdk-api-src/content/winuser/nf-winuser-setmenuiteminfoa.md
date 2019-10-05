@@ -12,6 +12,8 @@ ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resource
 ms.topic: function
 f1_keywords: 
  - "winuser/SetMenuItemInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

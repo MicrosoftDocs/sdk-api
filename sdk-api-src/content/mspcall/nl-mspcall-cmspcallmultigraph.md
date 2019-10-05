@@ -12,6 +12,8 @@ ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMu
 ms.topic: class
 f1_keywords: 
  - "mspcall/CMSPCallMultiGraph"
+dev_langs:
+ - c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, s
 ms.topic: function
 f1_keywords: 
  - "intsafe/ShortMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

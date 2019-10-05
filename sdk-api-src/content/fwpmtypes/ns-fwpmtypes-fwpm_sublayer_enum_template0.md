@@ -12,6 +12,8 @@ ms.keywords: FWPM_SUBLAYER_ENUM_TEMPLATE0, FWPM_SUBLAYER_ENUM_TEMPLATE0 structur
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_SUBLAYER_ENUM_TEMPLATE0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerEnumDevices"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

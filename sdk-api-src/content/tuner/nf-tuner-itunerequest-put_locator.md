@@ -12,6 +12,8 @@ ms.keywords: ITuneRequest interface [Microsoft TV Technologies],put_Locator meth
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuneRequest.put_Locator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

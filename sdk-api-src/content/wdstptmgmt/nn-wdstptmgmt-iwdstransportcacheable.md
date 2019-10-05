@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows D
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCacheable"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

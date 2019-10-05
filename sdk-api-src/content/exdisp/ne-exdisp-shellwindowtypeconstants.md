@@ -12,6 +12,8 @@ ms.keywords: SWC_3RDPARTY, SWC_BROWSER, SWC_CALLBACK, SWC_DESKTOP, SWC_EXPLORER,
 ms.topic: enum
 f1_keywords: 
  - "exdisp/ShellWindowTypeConstants"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

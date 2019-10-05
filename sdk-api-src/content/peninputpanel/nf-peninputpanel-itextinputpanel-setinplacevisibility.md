@@ -12,6 +12,8 @@ ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.SetInPlaceVisibility"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

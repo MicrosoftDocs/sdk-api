@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PST
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

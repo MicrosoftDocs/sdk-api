@@ -12,6 +12,8 @@ ms.keywords: '*LPIN_ADDR_IPV4, *LPIN_ADDR_IPV4 union [QOS], IN_ADDR_IPV4, IN_ADD
 ms.topic: struct
 f1_keywords:
 - qossp/IN_ADDR_IPV4
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

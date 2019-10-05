@@ -12,6 +12,8 @@ ms.keywords: PDFF_ALWAYSKB, PDFF_DEFAULT, PDFF_FILENAME, PDFF_HIDEDATE, PDFF_HID
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_FORMAT_FLAGS"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

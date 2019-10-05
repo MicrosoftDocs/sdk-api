@@ -12,6 +12,8 @@ ms.keywords: "*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows 
 ms.topic: struct
 f1_keywords: 
  - "advpub/STRENTRYA"
+dev_langs:
+ - c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

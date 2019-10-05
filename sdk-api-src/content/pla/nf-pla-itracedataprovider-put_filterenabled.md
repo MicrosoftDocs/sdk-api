@@ -12,6 +12,8 @@ ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDa
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.FilterEnabled"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

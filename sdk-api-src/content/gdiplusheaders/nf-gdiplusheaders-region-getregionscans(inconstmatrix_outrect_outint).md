@@ -12,6 +12,8 @@ ms.keywords: GetRegionScans, GetRegionScans method [GDI+], GetRegionScans method
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.GetRegionScans"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientCompleteReceive, WdsTransportClientCompleteReceiv
 ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientCompleteReceive
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

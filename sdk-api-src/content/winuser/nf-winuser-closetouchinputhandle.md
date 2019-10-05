@@ -12,6 +12,8 @@ ms.keywords: CloseTouchInputHandle, CloseTouchInputHandle function [Windows Touc
 ms.topic: function
 f1_keywords: 
  - "winuser/CloseTouchInputHandle"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

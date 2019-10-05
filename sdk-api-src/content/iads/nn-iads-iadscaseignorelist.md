@@ -12,6 +12,8 @@ ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIg
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsCaseIgnoreList"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

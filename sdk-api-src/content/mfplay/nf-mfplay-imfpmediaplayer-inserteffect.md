@@ -12,6 +12,8 @@ ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect me
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.InsertEffect"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

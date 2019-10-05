@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_OPACITY_MODE, DCOMPOSITION_OPACITY_MODE enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_OPACITY_MODE"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: DComp.h
 req.target-type: Windows

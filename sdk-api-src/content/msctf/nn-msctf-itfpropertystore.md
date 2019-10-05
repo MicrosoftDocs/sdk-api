@@ -12,6 +12,8 @@ ms.keywords: ITfPropertyStore, ITfPropertyStore interface [Text Services Framewo
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfPropertyStore"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

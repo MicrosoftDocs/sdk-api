@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_NSEC_DATA, *PDNS_NSEC_DATAW, DNS_NSEC_DATA, DNS_NSEC_DATA st
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_NSEC_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

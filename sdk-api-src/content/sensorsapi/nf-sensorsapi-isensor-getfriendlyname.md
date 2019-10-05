@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISe
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetFriendlyName"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

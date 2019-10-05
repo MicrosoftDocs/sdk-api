@@ -12,6 +12,8 @@ ms.keywords: IAudioMute, IAudioMute interface [Core Audio], IAudioMute interface
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioMute"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

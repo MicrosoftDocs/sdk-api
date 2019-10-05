@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTarg
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.SetTargetID"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolLicenseConnection, IWTSProtocolLicenseConnection interf
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolLicenseConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

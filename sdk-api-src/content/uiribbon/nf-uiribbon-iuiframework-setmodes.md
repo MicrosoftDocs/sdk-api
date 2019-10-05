@@ -12,6 +12,8 @@ ms.keywords: IUIFramework interface [Windows Ribbon],SetModes method, IUIFramewo
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.SetModes"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

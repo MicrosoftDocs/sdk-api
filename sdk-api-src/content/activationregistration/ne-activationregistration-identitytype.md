@@ -12,6 +12,8 @@ ms.keywords: IdentityType, IdentityType enumeration [Windows Runtime], IdentityT
 ms.topic: enum
 f1_keywords: 
  - "activationregistration/IdentityType"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

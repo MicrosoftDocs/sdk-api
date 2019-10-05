@@ -12,6 +12,8 @@ ms.keywords: FSCTL_IS_VOLUME_MOUNTED, FSCTL_IS_VOLUME_MOUNTED control, FSCTL_IS_
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_IS_VOLUME_MOUNTED"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

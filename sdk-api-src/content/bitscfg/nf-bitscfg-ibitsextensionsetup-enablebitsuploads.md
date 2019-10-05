@@ -12,6 +12,8 @@ ms.keywords: EnableBITSUploads, EnableBITSUploads method [BITS], EnableBITSUploa
 ms.topic: method
 f1_keywords: 
  - "bitscfg/IBITSExtensionSetup.EnableBITSUploads"
+dev_langs:
+ - c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

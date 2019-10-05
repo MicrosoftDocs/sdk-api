@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferRecComp interface [Microsoft TV Technologies],Initiali
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferRecComp.Initialize"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

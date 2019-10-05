@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_ALLOCATION_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

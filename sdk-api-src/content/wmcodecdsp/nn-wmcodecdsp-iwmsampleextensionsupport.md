@@ -12,6 +12,8 @@ ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Med
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMSampleExtensionSupport"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

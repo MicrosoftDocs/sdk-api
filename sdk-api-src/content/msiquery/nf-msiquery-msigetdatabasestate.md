@@ -12,6 +12,8 @@ ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatab
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetDatabaseState"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClip
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetClipOverflow"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

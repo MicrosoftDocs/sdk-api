@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION, FSCTL_QUERY_FILE_SYSTEM_RECOGN
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

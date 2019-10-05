@@ -12,6 +12,8 @@ ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_prov
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PROVIDER_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

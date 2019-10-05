@@ -12,6 +12,8 @@ ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOH
 ms.topic: struct
 f1_keywords: 
  - "amvideo/VIDEOINFOHEADER"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock]
 ms.topic: function
 f1_keywords:
 - sporder/WSCWriteProviderOrder32
+dev_langs:
+ - c++
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows

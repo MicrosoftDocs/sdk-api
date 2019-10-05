@@ -12,6 +12,8 @@ ms.keywords: IMessageView interface [MMC],SetIcon method, IMessageView.SetIcon, 
 ms.topic: method
 f1_keywords: 
  - "mmc/IMessageView.SetIcon"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

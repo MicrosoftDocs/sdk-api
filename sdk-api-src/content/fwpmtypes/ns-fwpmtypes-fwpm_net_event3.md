@@ -12,6 +12,8 @@ ms.keywords: FWPM_NET_EVENT3, FWPM_NET_EVENT3 structure [Filtering], fwp.fwpm_ne
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT3"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

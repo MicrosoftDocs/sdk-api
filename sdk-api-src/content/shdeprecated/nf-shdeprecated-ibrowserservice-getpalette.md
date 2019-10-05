@@ -12,6 +12,8 @@ ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [W
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetPalette"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumerat
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

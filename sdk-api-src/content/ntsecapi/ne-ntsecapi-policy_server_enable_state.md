@@ -12,6 +12,8 @@ ms.keywords: "*PPOLICY_SERVER_ENABLE_STATE, POLICY_SERVER_ENABLE_STATE, POLICY_S
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/POLICY_SERVER_ENABLE_STATE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasE
 ms.topic: function
 f1_keywords:
 - raseapif/RasEapInvokeInteractiveUI
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IContextMenuProvider, IContextMenuProvider interface [MMC], IContex
 ms.topic: interface
 f1_keywords: 
  - "mmc/IContextMenuProvider"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

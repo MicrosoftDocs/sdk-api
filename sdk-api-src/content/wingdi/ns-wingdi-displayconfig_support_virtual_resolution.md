@@ -12,6 +12,8 @@ ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIR
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

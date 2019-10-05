@@ -12,6 +12,8 @@ ms.keywords: MF_TOPONODE_FLUSH_ALWAYS, MF_TOPONODE_FLUSH_MODE, MF_TOPONODE_FLUSH
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TOPONODE_FLUSH_MODE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

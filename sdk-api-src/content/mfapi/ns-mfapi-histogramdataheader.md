@@ -12,6 +12,8 @@ ms.keywords: HistogramDataHeader, HistogramDataHeader structure [Streaming Media
 ms.topic: struct
 f1_keywords: 
  - "mfapi/HistogramDataHeader"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

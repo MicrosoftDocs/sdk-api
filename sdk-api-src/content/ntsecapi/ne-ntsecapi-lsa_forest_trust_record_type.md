@@ -12,6 +12,8 @@ ms.keywords: ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLev
 ms.topic: enum
 f1_keywords:
 - ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

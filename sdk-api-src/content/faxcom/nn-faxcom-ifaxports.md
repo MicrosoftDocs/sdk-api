@@ -12,6 +12,8 @@ ms.keywords: IFaxPorts, IFaxPorts interface [Fax Service], IFaxPorts interface [
 ms.topic: interface
 f1_keywords: 
  - "faxcom/IFaxPorts"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

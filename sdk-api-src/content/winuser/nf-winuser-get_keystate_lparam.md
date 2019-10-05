@@ -12,6 +12,8 @@ ms.keywords: GET_KEYSTATE_LPARAM, GET_KEYSTATE_LPARAM macro [Keyboard and Mouse 
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_KEYSTATE_LPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

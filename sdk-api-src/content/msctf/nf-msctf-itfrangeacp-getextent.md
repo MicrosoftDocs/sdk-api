@@ -12,6 +12,8 @@ ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent me
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRangeACP.GetExtent"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

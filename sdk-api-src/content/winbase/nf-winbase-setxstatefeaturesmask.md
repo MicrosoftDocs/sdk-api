@@ -12,6 +12,8 @@ ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxsta
 ms.topic: function
 f1_keywords:
 - winbase/SetXStateFeaturesMask
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

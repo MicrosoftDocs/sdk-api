@@ -12,6 +12,8 @@ ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSucces
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.IsRenewalSuccessful"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

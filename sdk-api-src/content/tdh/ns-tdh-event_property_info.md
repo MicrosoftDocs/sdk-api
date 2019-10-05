@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO st
 ms.topic: struct
 f1_keywords:
 - tdh/EVENT_PROPERTY_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

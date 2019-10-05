@@ -12,6 +12,8 @@ ms.keywords: AMSI_ATTRIBUTE, AMSI_ATTRIBUTE enumeration [Antimalware Scan Interf
 ms.topic: enum
 f1_keywords: 
  - "amsi/AMSI_ATTRIBUTE"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

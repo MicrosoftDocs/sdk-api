@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Trim meth
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVirtualSurface.Trim"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

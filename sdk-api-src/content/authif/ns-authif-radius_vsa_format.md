@@ -12,6 +12,8 @@ ms.keywords: RADIUS_VSA_FORMAT, RADIUS_VSA_FORMAT structure [Network Policy Serv
 ms.topic: struct
 f1_keywords:
 - authif/RADIUS_VSA_FORMAT
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

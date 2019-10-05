@@ -12,6 +12,8 @@ ms.keywords: Brush class [GDI+],GetType method, Brush.GetType, Brush::GetType, G
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/Brush.GetType"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

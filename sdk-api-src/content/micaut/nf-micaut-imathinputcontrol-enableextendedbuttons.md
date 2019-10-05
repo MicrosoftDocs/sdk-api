@@ -12,6 +12,8 @@ ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], En
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.EnableExtendedButtons"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

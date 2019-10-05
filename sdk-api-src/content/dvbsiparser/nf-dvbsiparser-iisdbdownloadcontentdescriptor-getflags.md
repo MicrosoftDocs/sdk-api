@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Microsoft TV Technologies], GetFlags met
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetFlags"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetLineDevStatus"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

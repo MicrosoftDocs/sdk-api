@@ -12,6 +12,8 @@ ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioForma
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAudioMediaType.GetAudioFormat"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

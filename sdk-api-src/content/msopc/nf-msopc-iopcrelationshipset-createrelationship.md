@@ -12,6 +12,8 @@ ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conve
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcRelationshipSet.CreateRelationship"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

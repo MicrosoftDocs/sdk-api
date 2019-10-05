@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_CACHE_POLICY, HTTP_CACHE_POLICY, HTTP_CACHE_POLICY structur
 ms.topic: struct
 f1_keywords:
 - http/HTTP_CACHE_POLICY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

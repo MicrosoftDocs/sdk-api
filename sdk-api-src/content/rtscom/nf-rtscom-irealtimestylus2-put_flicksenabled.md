@@ -12,6 +12,8 @@ ms.keywords: 50bc70aa-da25-4420-87c3-ffeb9950dd34, IRealTimeStylus2 interface [T
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus2.put_FlicksEnabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

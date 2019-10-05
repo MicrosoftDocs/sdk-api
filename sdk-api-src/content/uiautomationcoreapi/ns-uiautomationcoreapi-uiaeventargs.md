@@ -12,6 +12,8 @@ ms.keywords: UiaEventArgs, UiaEventArgs structure [Windows Accessibility], uiaut
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaEventArgs"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

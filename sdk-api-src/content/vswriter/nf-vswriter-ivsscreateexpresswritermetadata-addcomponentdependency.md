@@ -12,6 +12,8 @@ ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponent
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateExpressWriterMetadata.AddComponentDependency"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

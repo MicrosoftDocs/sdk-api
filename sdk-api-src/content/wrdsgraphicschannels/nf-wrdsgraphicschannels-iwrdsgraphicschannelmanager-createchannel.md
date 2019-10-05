@@ -12,6 +12,8 @@ ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], Crea
 ms.topic: method
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannelManager.CreateChannel"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

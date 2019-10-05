@@ -12,6 +12,8 @@ ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpolen
 ms.topic: function
 f1_keywords:
 - certpoleng/PstMapCertificate
+dev_langs:
+ - c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

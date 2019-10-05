@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, I
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.put_BackgroundPalette"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 798ad6d8-de1c-49dc-87a1-86bb4f73603a, InPlaceDirection, InPlaceDire
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/InPlaceDirection"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

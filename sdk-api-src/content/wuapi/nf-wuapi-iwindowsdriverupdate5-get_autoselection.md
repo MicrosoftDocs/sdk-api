@@ -12,6 +12,8 @@ ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection proper
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate5.AutoSelection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

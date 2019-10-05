@@ -12,6 +12,8 @@ ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransition2.GetDimension"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

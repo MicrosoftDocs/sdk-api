@@ -12,6 +12,8 @@ ms.keywords: 9e07e88b-a097-403f-b882-754a12668d07, ID3DX11FFT interface [Direct3
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11FFT.InverseTransform"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

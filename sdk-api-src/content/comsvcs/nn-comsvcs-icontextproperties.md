@@ -12,6 +12,8 @@ ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextPr
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IContextProperties"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

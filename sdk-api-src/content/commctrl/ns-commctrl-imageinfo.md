@@ -12,6 +12,8 @@ ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], L
 ms.topic: struct
 f1_keywords: 
  - "commctrl/IMAGEINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows

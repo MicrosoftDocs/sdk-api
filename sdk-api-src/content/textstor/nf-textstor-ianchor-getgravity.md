@@ -12,6 +12,8 @@ ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.GetGravity"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

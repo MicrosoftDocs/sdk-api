@@ -12,6 +12,8 @@ ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockedRatingAtt
 ms.topic: method
 f1_keywords: 
  - "tvratings/IEvalRat.put_BlockedRatingAttributes"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

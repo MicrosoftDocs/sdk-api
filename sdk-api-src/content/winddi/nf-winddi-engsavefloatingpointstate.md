@@ -12,6 +12,8 @@ ms.keywords: EngSaveFloatingPointState, EngSaveFloatingPointState function [Disp
 ms.topic: function
 f1_keywords: 
  - "winddi/EngSaveFloatingPointState"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

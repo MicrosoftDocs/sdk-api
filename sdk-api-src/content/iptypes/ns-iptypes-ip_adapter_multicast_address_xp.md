@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_MULTICAST_ADDRESS, *PIP_ADAPTER_MULTICAST_ADDRESS_XP,
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_MULTICAST_ADDRESS"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

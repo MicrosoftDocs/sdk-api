@@ -12,6 +12,8 @@ ms.keywords: INDESPolicy interface [Security],Uninitialize method, INDESPolicy.U
 ms.topic: method
 f1_keywords: 
  - "certpol/INDESPolicy.Uninitialize"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

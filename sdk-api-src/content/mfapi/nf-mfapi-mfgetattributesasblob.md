@@ -12,6 +12,8 @@ ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetA
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributesAsBlob"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

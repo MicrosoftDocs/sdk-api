@@ -12,6 +12,8 @@ ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services],Terminate me
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbPlugin.Terminate"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

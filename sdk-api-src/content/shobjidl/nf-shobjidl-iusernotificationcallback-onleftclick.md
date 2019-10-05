@@ -12,6 +12,8 @@ ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick met
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IUserNotificationCallback.OnLeftClick"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

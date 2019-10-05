@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY 
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_POWER_POLICY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

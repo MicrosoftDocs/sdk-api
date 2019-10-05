@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_SYSTEM_INFO
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLo
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced2.GetLogClientID"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

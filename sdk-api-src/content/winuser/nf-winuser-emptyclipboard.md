@@ -12,6 +12,8 @@ ms.keywords: EmptyClipboard, EmptyClipboard function [Data Exchange], _win32_Emp
 ms.topic: function
 f1_keywords: 
  - "winuser/EmptyClipboard"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

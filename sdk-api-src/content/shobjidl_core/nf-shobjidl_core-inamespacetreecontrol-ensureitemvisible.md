@@ -12,6 +12,8 @@ ms.keywords: EnsureItemVisible, EnsureItemVisible method [Windows Shell], Ensure
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INameSpaceTreeControl.EnsureItemVisible"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

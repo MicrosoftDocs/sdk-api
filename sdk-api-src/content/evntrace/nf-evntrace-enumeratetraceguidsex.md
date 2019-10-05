@@ -12,6 +12,8 @@ ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.e
 ms.topic: function
 f1_keywords: 
  - "evntrace/EnumerateTraceGuidsEx"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

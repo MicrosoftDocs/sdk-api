@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia2 method, IDiscFormat
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2RawCD.WriteMedia2"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

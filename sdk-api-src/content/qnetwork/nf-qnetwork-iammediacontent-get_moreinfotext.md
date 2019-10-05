@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoText method, IAM
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent.get_MoreInfoText"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

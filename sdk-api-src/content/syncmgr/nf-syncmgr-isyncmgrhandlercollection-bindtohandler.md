@@ -12,6 +12,8 @@ ms.keywords: BindToHandler, BindToHandler method [Windows Shell], BindToHandler 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerCollection.BindToHandler"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_RENAME_INFO, FILE_RENAME_INFO, FILE_RENAME_INFO structure [
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_RENAME_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

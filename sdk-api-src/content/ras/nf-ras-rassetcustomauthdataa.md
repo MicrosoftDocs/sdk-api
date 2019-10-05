@@ -12,6 +12,8 @@ ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCu
 ms.topic: function
 f1_keywords: 
  - "ras/RasSetCustomAuthData"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

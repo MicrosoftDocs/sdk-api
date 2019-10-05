@@ -12,6 +12,8 @@ ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], Get
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.GetLearnedKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

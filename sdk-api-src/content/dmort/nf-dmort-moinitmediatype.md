@@ -12,6 +12,8 @@ ms.keywords: MoInitMediaType, MoInitMediaType function [DirectShow], dmort/MoIni
 ms.topic: function
 f1_keywords: 
  - "dmort/MoInitMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

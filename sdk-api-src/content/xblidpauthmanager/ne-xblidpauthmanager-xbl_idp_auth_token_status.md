@@ -12,6 +12,8 @@ ms.keywords: XBL_IDP_AUTH_TOKEN_STATUS, XBL_IDP_AUTH_TOKEN_STATUS enumeration, X
 ms.topic: enum
 f1_keywords: 
  - "xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

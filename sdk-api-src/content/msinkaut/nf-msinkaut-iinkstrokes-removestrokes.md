@@ -12,6 +12,8 @@ ms.keywords: 6f90d175-747c-4bf5-978a-286b69bf068a, IInkStrokes interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.RemoveStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

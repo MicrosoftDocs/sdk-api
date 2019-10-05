@@ -12,6 +12,8 @@ ms.keywords: CRYPT_ACCUMULATIVE_TIMEOUT, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_CHECK
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetTimeValidObject
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

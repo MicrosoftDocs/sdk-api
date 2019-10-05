@@ -12,6 +12,8 @@ ms.keywords: CreateBitmapClipper, CreateBitmapClipper method [Windows Imaging Co
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateBitmapClipper"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 inter
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.OpenDeviceHandle"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

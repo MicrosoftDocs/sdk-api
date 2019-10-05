@@ -12,6 +12,8 @@ ms.keywords: GetEudcFontCollection, GetEudcFontCollection method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFactory1.GetEudcFontCollection"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

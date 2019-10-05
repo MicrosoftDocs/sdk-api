@@ -12,6 +12,8 @@ ms.keywords: PSET_POWER, PSET_POWER callback, SetPower, SetPower callback functi
 ms.topic: callback
 f1_keywords:
 - routprot/SetPower
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

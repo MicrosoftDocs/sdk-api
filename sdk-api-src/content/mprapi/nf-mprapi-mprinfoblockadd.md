@@ -12,6 +12,8 @@ ms.keywords: MprInfoBlockAdd, MprInfoBlockAdd function [RAS], _mpr_mprinfoblocka
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprInfoBlockAdd"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

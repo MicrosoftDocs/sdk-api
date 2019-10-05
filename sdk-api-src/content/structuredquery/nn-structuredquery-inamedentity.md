@@ -12,6 +12,8 @@ ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interfa
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/INamedEntity"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

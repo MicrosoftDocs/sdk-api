@@ -12,6 +12,8 @@ ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetPadding"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

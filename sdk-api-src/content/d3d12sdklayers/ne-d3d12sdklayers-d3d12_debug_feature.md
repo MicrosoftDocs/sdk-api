@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEBUG_FEATURE, D3D12_DEBUG_FEATURE enumeration, D3D12_DEBUG_F
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_DEBUG_FEATURE"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

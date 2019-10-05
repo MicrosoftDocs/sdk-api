@@ -12,6 +12,8 @@ ms.keywords: ID2D1DrawTransform interface [Direct2D],SetDrawInfo method, ID2D1Dr
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1DrawTransform.SetDrawInfo"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

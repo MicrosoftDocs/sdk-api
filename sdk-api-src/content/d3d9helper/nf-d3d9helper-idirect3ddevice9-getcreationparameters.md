@@ -12,6 +12,8 @@ ms.keywords: 54c41207-f279-d889-1545-426a901cafd7, GetCreationParameters, GetCre
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetCreationParameters"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

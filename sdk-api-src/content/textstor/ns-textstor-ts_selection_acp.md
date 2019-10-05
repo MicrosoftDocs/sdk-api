@@ -12,6 +12,8 @@ ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framewo
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_SELECTION_ACP"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

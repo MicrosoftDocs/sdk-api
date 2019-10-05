@@ -12,6 +12,8 @@ ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D
 ms.topic: class
 f1_keywords: 
  - "d2d1_1helper/Matrix4x4F"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

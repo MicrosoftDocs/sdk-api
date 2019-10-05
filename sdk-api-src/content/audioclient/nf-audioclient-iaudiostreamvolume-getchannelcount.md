@@ -12,6 +12,8 @@ ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCou
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioStreamVolume.GetChannelCount"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

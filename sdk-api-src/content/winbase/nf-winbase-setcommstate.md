@@ -12,6 +12,8 @@ ms.keywords: SetCommState, SetCommState function, _win32_setcommstate, base.setc
 ms.topic: function
 f1_keywords:
 - winbase/SetCommState
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

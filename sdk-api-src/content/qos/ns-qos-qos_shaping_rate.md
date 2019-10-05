@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE struct
 ms.topic: struct
 f1_keywords:
 - qos/QOS_SHAPING_RATE
+dev_langs:
+ - c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

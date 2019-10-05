@@ -12,6 +12,8 @@ ms.keywords: 1f5618d3-63b7-c0fc-9b6e-44b99c39650c, IDirect3DCubeTexture9 interfa
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DCubeTexture9.LockRect"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

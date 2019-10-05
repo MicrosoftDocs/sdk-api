@@ -12,6 +12,8 @@ ms.keywords: getsourcefilter, getsourcefilter function [Winsock], winsock.getsou
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/getsourcefilter"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

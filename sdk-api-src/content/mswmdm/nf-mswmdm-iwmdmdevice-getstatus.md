@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStat
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMDevice.GetStatus"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

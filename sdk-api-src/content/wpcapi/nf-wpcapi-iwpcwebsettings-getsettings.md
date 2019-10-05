@@ -12,6 +12,8 @@ ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCWebSettings.GetSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

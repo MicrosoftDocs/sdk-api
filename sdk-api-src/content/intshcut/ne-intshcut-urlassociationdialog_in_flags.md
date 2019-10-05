@@ -12,6 +12,8 @@ ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URL
 ms.topic: enum
 f1_keywords: 
  - "intshcut/URLASSOCIATIONDIALOG_IN_FLAGS"
+dev_langs:
+ - c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

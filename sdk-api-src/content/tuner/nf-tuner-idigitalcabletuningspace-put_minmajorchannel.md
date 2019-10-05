@@ -12,6 +12,8 @@ ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_
 ms.topic: method
 f1_keywords: 
  - "tuner/IDigitalCableTuningSpace.put_MinMajorChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured 
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumSTATSTG.Clone"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

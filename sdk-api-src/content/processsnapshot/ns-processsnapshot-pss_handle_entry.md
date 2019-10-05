@@ -12,6 +12,8 @@ ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_HANDLE_ENTRY"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

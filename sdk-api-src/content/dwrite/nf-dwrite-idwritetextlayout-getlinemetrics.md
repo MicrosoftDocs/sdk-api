@@ -12,6 +12,8 @@ ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetric
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetLineMetrics"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

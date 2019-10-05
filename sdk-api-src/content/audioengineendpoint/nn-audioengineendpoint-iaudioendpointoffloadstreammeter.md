@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointOffloadStreamMeter, IAudioEndpointOffloadStreamMeter 
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamMeter"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

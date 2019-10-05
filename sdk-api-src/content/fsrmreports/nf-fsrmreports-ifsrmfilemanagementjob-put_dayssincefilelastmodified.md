@@ -12,6 +12,8 @@ ms.keywords: DaysSinceFileLastModified property [File Server Resource Manager], 
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileLastModified"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

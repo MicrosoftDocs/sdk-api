@@ -12,6 +12,8 @@ ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssCo
 ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.GetRestoreName
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

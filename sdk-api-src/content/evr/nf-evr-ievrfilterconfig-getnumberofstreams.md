@@ -12,6 +12,8 @@ ms.keywords: 94e15032-efb6-4919-b018-953eee803135, GetNumberOfStreams, GetNumber
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRFilterConfig.GetNumberOfStreams"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

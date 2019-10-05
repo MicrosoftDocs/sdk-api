@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORT
 ms.topic: struct
 f1_keywords: 
  - "winnt/BATTERY_REPORTING_SCALE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

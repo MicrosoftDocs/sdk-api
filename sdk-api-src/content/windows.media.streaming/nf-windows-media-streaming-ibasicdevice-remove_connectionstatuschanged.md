@@ -12,6 +12,8 @@ ms.keywords: IBasicDevice interface [Media Streaming API],remove_ConnectionStatu
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IBasicDevice.remove_ConnectionStatusChanged"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

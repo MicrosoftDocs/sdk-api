@@ -12,6 +12,8 @@ ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInterac
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/ProcessPointerFramesInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

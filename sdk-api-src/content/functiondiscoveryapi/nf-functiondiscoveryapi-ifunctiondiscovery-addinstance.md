@@ -12,6 +12,8 @@ ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscov
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery.AddInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

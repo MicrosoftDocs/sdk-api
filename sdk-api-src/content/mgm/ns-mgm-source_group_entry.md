@@ -12,6 +12,8 @@ ms.keywords: '*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY str
 ms.topic: struct
 f1_keywords:
 - mgm/SOURCE_GROUP_ENTRY
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

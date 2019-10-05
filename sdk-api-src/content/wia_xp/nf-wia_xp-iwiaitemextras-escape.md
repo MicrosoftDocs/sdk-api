@@ -12,6 +12,8 @@ ms.keywords: Escape, Escape method [WIA], Escape method [WIA],IWiaItemExtras int
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItemExtras.Escape"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

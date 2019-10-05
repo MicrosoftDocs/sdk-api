@@ -12,6 +12,8 @@ ms.keywords: GetGrabbedItems, GetGrabbedItems method [Windows Accessibility], Ge
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IDragProvider.GetGrabbedItems"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

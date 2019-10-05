@@ -12,6 +12,8 @@ ms.keywords: GetPrivateDataLength, GetPrivateDataLength method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLinkageDescriptor.GetPrivateDataLength"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

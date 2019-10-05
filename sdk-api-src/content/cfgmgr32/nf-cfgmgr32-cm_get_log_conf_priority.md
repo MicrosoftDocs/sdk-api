@@ -12,6 +12,8 @@ ms.keywords: CM_Get_Log_Conf_Priority, CM_Get_Log_Conf_Priority function [Device
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Log_Conf_Priority"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

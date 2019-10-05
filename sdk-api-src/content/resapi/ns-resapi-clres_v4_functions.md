@@ -12,6 +12,8 @@ ms.keywords: "*PCLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS struc
 ms.topic: struct
 f1_keywords: 
  - "resapi/CLRES_V4_FUNCTIONS"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFCollection.RemoveAllElements"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

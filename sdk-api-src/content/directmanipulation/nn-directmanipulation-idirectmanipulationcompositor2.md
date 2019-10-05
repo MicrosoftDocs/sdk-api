@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationCompositor2, IDirectManipulationCompositor2 inte
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationCompositor2"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

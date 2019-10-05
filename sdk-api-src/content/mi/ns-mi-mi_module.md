@@ -12,6 +12,8 @@ ms.keywords: MI_MODULE_FLAG_BOOLEANS, MI_MODULE_FLAG_DESCRIPTIONS, MI_MODULE_FLA
 ms.topic: struct
 f1_keywords:
 - mi/MI_Module
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "shlobj/ICurrentWorkingDirectory"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

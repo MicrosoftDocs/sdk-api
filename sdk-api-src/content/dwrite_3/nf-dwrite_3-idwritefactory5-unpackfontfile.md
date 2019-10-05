@@ -12,6 +12,8 @@ ms.keywords: IDWriteFactory5 interface [Direct Write],UnpackFontFile method, IDW
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory5.UnpackFontFile"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

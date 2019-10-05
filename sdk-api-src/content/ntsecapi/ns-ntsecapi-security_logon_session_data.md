@@ -12,6 +12,8 @@ ms.keywords: '*PSECURITY_LOGON_SESSION_DATA, LOGON_NOT_OPTIMIZED, LOGON_OPTIMIZE
 ms.topic: struct
 f1_keywords:
 - ntsecapi/SECURITY_LOGON_SESSION_DATA
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

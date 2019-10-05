@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyFile6 interface [BITS],UpdateDownloadPosition method
 ms.topic: method
 f1_keywords: 
  - "bits10_1/IBackgroundCopyFile6.UpdateDownloadPosition"
+dev_langs:
+ - c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

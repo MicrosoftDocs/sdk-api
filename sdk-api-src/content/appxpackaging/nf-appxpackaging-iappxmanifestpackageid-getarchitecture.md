@@ -12,6 +12,8 @@ ms.keywords: GetArchitecture, GetArchitecture method [App packaging and manageme
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestPackageId.GetArchitecture"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

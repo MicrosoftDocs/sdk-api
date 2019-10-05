@@ -12,6 +12,8 @@ ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, Pa
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathGetArgs"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

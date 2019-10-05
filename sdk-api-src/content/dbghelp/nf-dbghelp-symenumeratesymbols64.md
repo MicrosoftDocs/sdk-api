@@ -12,6 +12,8 @@ ms.keywords: SymEnumerateSymbols, SymEnumerateSymbols function, SymEnumerateSymb
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymEnumerateSymbols64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

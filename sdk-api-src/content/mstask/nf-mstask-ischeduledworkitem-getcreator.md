@@ -12,6 +12,8 @@ ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetCreator"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

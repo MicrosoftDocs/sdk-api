@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_image_binding_desc, PWINML_IMAGE_BINDING_DESC
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_IMAGE_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

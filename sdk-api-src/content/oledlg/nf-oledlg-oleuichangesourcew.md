@@ -12,6 +12,8 @@ ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSou
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIChangeSource"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

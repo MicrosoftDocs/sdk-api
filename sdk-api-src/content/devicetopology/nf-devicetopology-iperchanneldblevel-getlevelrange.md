@@ -12,6 +12,8 @@ ms.keywords: GetLevelRange, GetLevelRange method [Core Audio], GetLevelRange met
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPerChannelDbLevel.GetLevelRange"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

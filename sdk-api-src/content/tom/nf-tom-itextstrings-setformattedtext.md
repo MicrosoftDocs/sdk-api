@@ -12,6 +12,8 @@ ms.keywords: ITextStrings interface [Windows Controls],SetFormattedText method, 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.SetFormattedText"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

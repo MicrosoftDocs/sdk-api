@@ -12,6 +12,8 @@ ms.keywords: IRequestFilteredSync, IRequestFilteredSync interface [Windows Sync]
 ms.topic: interface
 f1_keywords: 
  - "winsync/IRequestFilteredSync"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], G
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSigningOptions.GetTimeFormat"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

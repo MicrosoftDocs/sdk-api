@@ -12,6 +12,8 @@ ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollec
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/ITokenCollection"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

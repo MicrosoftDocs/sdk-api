@@ -12,6 +12,8 @@ ms.keywords: ChangeResourceProcessForDumps, ChangeResourceProcessForDumps callba
 ms.topic: callback
 f1_keywords: 
  - "resapi/ChangeResourceProcessForDumps callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

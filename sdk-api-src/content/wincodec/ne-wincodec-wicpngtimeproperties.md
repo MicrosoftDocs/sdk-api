@@ -12,6 +12,8 @@ ms.keywords: WICPngTimeDay, WICPngTimeHour, WICPngTimeMinute, WICPngTimeMonth, W
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngTimeProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

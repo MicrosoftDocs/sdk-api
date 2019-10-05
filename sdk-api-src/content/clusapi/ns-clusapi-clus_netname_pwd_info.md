@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_NETNAME_PWD_INFO, *PCLUS_RLUA_PWD_INFO, CLUS_NETNAME_PWD_IN
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_NETNAME_PWD_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

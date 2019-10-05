@@ -12,6 +12,8 @@ ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [A
 ms.topic: interface
 f1_keywords: 
  - "oaidl/IDispatch"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

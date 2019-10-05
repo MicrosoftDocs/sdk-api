@@ -12,6 +12,8 @@ ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug inter
 ms.topic: interface
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

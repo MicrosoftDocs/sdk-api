@@ -12,6 +12,8 @@ ms.keywords: GetParamCount, GetParamCount method [DirectShow], GetParamCount met
 ms.topic: method
 f1_keywords: 
  - "medparam/IMediaParamInfo.GetParamCount"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

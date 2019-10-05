@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane met
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayerServices.setTaskPane"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

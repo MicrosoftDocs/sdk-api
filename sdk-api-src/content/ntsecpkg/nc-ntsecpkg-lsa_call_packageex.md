@@ -12,6 +12,8 @@ ms.keywords: CallPackageEx, CallPackageEx callback function [Security], LSA_CALL
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CallPackageEx
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

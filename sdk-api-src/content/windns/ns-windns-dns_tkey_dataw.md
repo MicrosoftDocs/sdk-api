@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_TKEY_DATA, *PDNS_TKEY_DATAW, DNS_RCODE_BADKEY, DNS_RCODE_BAD
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_TKEY_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

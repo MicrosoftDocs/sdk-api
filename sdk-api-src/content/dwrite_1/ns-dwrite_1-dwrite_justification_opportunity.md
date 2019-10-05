@@ -12,6 +12,8 @@ ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY 
 ms.topic: struct
 f1_keywords: 
  - "dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

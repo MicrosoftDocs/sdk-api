@@ -12,6 +12,8 @@ ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imagin
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapCodecInfo.GetDeviceManufacturer"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

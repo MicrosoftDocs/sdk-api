@@ -12,6 +12,8 @@ ms.keywords: 3399219f-96a5-4c66-8e41-89927ea1020d, Dirty property [Tablet PC], D
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.Dirty"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

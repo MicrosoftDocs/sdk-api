@@ -12,6 +12,8 @@ ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider inte
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFHttpDownloadSessionProvider"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

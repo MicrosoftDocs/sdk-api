@@ -12,6 +12,8 @@ ms.keywords: "*PPERFORMACE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_IN
 ms.topic: struct
 f1_keywords: 
  - "psapi/PERFORMANCE_INFORMATION"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

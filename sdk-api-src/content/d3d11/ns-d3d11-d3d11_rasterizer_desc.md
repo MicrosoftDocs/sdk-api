@@ -12,6 +12,8 @@ ms.keywords: 2dbc005c-d339-7868-c653-8b43d3f9e828, D3D11_RASTERIZER_DESC, D3D11_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_RASTERIZER_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

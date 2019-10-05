@@ -7,6 +7,8 @@ ms.keywords: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 ms.topic: language-reference
 f1_keywords: 
  - "d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

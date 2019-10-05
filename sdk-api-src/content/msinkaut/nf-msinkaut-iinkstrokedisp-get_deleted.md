@@ -12,6 +12,8 @@ ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC],IInkStro
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.Deleted"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

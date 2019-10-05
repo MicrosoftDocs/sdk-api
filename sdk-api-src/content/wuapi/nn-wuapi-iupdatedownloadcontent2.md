@@ -12,6 +12,8 @@ ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateDownloadContent2"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

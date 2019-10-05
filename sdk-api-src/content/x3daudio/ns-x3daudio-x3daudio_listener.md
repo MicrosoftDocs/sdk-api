@@ -12,6 +12,8 @@ ms.keywords: "*LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER str
 ms.topic: struct
 f1_keywords: 
  - "x3daudio/X3DAUDIO_LISTENER"
+dev_langs:
+ - c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

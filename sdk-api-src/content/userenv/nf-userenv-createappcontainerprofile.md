@@ -12,6 +12,8 @@ ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Wind
 ms.topic: function
 f1_keywords: 
  - "userenv/CreateAppContainerProfile"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

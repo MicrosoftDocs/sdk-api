@@ -12,6 +12,8 @@ ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover 
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IWCContextMenuCallback"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

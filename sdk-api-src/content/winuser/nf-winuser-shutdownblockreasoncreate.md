@@ -12,6 +12,8 @@ ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base
 ms.topic: function
 f1_keywords: 
  - "winuser/ShutdownBlockReasonCreate"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

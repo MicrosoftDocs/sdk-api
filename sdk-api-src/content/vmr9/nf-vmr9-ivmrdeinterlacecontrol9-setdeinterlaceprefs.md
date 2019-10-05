@@ -12,6 +12,8 @@ ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlacePrefs 
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRDeinterlaceControl9.SetDeinterlacePrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

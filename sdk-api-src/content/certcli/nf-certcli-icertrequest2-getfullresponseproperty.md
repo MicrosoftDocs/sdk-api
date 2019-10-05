@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetFullResponseProperty method, CR_O
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.GetFullResponseProperty"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

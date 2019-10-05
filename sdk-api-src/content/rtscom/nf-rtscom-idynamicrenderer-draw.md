@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method [Tablet PC], Draw method [Tablet PC],IDynamicRend
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.Draw"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], contro
 ms.topic: struct
 f1_keywords:
 - richedit/TABLECELLPARMS
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

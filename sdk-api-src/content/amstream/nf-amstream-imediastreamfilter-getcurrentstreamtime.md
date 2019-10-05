@@ -12,6 +12,8 @@ ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "amstream/IMediaStreamFilter.GetCurrentStreamTime"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

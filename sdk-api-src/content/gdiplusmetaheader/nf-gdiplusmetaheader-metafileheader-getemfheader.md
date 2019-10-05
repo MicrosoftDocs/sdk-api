@@ -12,6 +12,8 @@ ms.keywords: GetEmfHeader, GetEmfHeader method [GDI+], GetEmfHeader method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetEmfHeader"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

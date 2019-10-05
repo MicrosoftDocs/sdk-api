@@ -12,6 +12,8 @@ ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [Dire
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetClipper"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

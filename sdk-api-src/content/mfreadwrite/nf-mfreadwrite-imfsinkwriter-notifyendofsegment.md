@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter interface [Media Foundation],NotifyEndOfSegment metho
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.NotifyEndOfSegment"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

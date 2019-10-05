@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class,
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.GetData"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

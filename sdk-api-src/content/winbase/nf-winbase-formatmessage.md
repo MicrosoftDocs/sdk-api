@@ -12,6 +12,8 @@ ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORM
 ms.topic: function
 f1_keywords: 
  - "winbase/FormatMessage"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

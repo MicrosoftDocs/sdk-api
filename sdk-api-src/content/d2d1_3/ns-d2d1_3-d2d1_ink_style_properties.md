@@ -12,6 +12,8 @@ ms.keywords: D2D1_INK_STYLE_PROPERTIES, D2D1_INK_STYLE_PROPERTIES structure [Dir
 ms.topic: struct
 f1_keywords: 
  - "d2d1_3/D2D1_INK_STYLE_PROPERTIES"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

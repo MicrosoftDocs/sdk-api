@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],Marshal method, ICallFrame.Marshal, ICal
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.Marshal"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

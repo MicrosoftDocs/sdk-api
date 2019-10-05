@@ -12,6 +12,8 @@ ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstEle
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkSelectionConstants"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

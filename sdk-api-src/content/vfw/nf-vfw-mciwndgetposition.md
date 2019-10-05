@@ -12,6 +12,8 @@ ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _w
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndGetPosition"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

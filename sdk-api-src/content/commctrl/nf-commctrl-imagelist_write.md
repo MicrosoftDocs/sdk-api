@@ -12,6 +12,8 @@ ms.keywords: ImageList_Write, ImageList_Write function [Windows Controls], _win3
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Write"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

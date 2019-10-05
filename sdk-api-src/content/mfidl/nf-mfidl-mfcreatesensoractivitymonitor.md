@@ -12,6 +12,8 @@ ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor functi
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSensorActivityMonitor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

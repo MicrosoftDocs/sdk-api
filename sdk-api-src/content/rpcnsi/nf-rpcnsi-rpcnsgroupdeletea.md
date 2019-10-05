@@ -12,6 +12,8 @@ ms.keywords: RPC_C_NS_SYNTAX_DCE, RPC_C_NS_SYNTAX_DEFAULT, RpcNsGroupDelete, Rpc
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsGroupDelete"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

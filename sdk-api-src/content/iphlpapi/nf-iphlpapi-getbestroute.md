@@ -12,6 +12,8 @@ ms.keywords: GetBestRoute, GetBestRoute function [IP Helper], _iphlp_getbestrout
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetBestRoute
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

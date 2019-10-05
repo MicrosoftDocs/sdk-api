@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDR
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_SCSI_ADDRESS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

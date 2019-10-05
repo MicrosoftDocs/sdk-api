@@ -12,6 +12,8 @@ ms.keywords: GetEntryCount, GetEntryCount method [Media Foundation], GetEntryCou
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntryList.GetEntryCount"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ADSIPROP_ADSIFLAG, ADSIPROP_ASYNCHRONOUS, ADSIPROP_ATTRIBTYPES_ONLY
 ms.topic: enum
 f1_keywords:
 - iads/ADS_PREFERENCES_ENUM
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_A
 ms.topic: function
 f1_keywords: 
  - "winuser/MsgWaitForMultipleObjects"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

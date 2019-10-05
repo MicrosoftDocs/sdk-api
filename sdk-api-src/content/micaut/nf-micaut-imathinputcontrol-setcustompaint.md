@@ -12,6 +12,8 @@ ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMat
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.SetCustomPaint"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

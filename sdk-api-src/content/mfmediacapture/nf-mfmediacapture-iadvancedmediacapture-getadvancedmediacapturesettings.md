@@ -12,6 +12,8 @@ ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings me
 ms.topic: method
 f1_keywords: 
  - "mfmediacapture/IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings"
+dev_langs:
+ - c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSeekInfo.GetNearestKeyFrames"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

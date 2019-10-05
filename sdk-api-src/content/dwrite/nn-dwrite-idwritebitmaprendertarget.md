@@ -12,6 +12,8 @@ ms.keywords: IDWriteBitmapRenderTarget, IDWriteBitmapRenderTarget interface [Dir
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteBitmapRenderTarget"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

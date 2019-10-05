@@ -12,6 +12,8 @@ ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],Notify
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbServiceNotification.NotifyServiceSuccess"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

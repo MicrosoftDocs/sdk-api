@@ -12,6 +12,8 @@ ms.keywords: IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runti
 ms.topic: interface
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

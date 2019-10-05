@@ -12,6 +12,8 @@ ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourceProm
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.AllowSourcePrompts"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClo
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATClose"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

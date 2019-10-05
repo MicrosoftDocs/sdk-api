@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_vGetBounds, PATHOBJ_vGetBounds function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_vGetBounds
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

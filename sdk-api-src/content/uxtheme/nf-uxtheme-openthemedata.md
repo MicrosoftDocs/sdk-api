@@ -12,6 +12,8 @@ ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.
 ms.topic: function
 f1_keywords: 
  - "uxtheme/OpenThemeData"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

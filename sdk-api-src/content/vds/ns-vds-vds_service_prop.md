@@ -12,6 +12,8 @@ ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], base.vds_servic
 ms.topic: struct
 f1_keywords:
 - vds/VDS_SERVICE_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

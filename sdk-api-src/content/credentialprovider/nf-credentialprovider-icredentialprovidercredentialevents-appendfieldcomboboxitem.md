@@ -12,6 +12,8 @@ ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents.AppendFieldComboBoxItem"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

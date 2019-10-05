@@ -12,6 +12,8 @@ ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDia
 ms.topic: function
 f1_keywords: 
  - "rasshost/RasSecurityDialogEnd"
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

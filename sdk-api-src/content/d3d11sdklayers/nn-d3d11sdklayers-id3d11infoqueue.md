@@ -12,6 +12,8 @@ ms.keywords: ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], ID3D11Inf
 ms.topic: interface
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnP
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistrationEvents.OnPacketServiceStateChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

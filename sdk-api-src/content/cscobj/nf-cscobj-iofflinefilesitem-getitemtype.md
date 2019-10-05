@@ -12,6 +12,8 @@ ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItem.GetItemType"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

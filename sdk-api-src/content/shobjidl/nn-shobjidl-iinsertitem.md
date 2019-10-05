@@ -12,6 +12,8 @@ ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem int
 ms.topic: interface
 f1_keywords:
 - shobjidl/IInsertItem
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

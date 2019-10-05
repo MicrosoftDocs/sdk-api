@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleIn
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceActiveObject.ResizeBorder"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

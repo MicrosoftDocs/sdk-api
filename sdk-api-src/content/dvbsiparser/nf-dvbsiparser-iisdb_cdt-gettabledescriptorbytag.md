@@ -12,6 +12,8 @@ ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_CDT.GetTableDescriptorByTag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

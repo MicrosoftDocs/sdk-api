@@ -12,6 +12,8 @@ ms.keywords: GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method
 ms.topic: method
 f1_keywords: 
  - "strmif/IMemAllocatorCallbackTemp.GetFreeCount"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

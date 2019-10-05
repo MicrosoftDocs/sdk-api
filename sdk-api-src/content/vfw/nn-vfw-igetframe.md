@@ -12,6 +12,8 @@ ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], IGetFrame inte
 ms.topic: interface
 f1_keywords: 
  - "vfw/IGetFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

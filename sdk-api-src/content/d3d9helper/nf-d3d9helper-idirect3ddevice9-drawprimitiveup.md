@@ -12,6 +12,8 @@ ms.keywords: 3c41b201-e853-6403-545b-cddcebf45ea1, DrawPrimitiveUP, DrawPrimitiv
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.DrawPrimitiveUP
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

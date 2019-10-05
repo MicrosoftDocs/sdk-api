@@ -12,6 +12,8 @@ ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DI
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateDIBitmap"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

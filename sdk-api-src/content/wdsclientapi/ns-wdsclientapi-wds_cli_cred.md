@@ -12,6 +12,8 @@ ms.keywords: "*LPWDS_CLI_CRED, *PWDS_CLI_CRED, LPWDS_CLI_CRED, LPWDS_CLI_CRED st
 ms.topic: struct
 f1_keywords: 
  - "wdsclientapi/WDS_CLI_CRED"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

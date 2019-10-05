@@ -12,6 +12,8 @@ ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification AP
 ms.topic: function
 f1_keywords: 
  - "magnification/MagShowSystemCursor"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

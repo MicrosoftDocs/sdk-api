@@ -12,6 +12,8 @@ ms.keywords: "*LPPROFILEINFOA, LPPROFILEINFO, LPPROFILEINFO structure pointer [W
 ms.topic: struct
 f1_keywords: 
  - "profinfo/PROFILEINFO"
+dev_langs:
+ - c++
 req.header: profinfo.h
 req.include-header: Userenv.h
 req.target-type: Windows

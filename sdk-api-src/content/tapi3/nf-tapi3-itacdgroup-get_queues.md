@@ -12,6 +12,8 @@ ms.keywords: ITACDGroup interface [TAPI 2.2],get_Queues method, ITACDGroup.get_Q
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITACDGroup.get_Queues"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

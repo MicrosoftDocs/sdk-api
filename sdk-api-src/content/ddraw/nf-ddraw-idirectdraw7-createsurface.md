@@ -12,6 +12,8 @@ ms.keywords: CreateSurface, CreateSurface method [DirectDraw], CreateSurface met
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.CreateSurface"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

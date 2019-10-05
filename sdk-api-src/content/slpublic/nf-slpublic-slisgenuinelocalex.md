@@ -12,6 +12,8 @@ ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], securit
 ms.topic: function
 f1_keywords:
 - slpublic/SLIsGenuineLocalEx
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

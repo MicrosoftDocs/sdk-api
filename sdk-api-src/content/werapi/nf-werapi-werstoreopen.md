@@ -12,6 +12,8 @@ ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.
 ms.topic: function
 f1_keywords: 
  - "werapi/WerStoreOpen"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceID method, IA
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMExtDevice.get_ExternalDeviceID"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

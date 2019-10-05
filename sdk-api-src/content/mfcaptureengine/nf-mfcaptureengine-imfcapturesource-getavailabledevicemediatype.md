@@ -12,6 +12,8 @@ ms.keywords: GetAvailableDeviceMediaType, GetAvailableDeviceMediaType method [Me
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.GetAvailableDeviceMediaType"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicat
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSession.ClientApplicationID"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup functi
 ms.topic: function
 f1_keywords: 
  - "avrt/AvRtWaitOnThreadOrderingGroup"
+dev_langs:
+ - c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

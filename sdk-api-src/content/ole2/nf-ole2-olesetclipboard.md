@@ -12,6 +12,8 @@ ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboa
 ms.topic: function
 f1_keywords: 
  - "ole2/OleSetClipboard"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

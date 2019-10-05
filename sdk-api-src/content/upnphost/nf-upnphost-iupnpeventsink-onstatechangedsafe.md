@@ -12,6 +12,8 @@ ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChangedSafe method, IUP
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPEventSink.OnStateChangedSafe"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

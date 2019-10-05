@@ -12,6 +12,8 @@ ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable D
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethods"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VarDecFromCy, VarDecFromCy function [Automation], _oa96_VarDecFromC
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecFromCy"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

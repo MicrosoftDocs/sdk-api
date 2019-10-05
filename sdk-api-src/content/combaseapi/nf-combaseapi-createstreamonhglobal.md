@@ -12,6 +12,8 @@ ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured S
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CreateStreamOnHGlobal"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

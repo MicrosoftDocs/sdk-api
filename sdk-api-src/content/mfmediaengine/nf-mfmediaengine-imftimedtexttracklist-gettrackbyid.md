@@ -12,6 +12,8 @@ ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrackList.GetTrackById"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

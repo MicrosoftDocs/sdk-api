@@ -12,6 +12,8 @@ ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMall
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMalloc.Free"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

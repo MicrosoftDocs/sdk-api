@@ -12,6 +12,8 @@ ms.keywords: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb, Draw, Draw method [Tablet PC]
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.Draw"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

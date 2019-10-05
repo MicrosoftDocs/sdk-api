@@ -12,6 +12,8 @@ ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cry
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetSignature
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],I
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.Add"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

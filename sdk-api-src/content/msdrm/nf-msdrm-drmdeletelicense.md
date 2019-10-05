@@ -12,6 +12,8 @@ ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Right
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDeleteLicense"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

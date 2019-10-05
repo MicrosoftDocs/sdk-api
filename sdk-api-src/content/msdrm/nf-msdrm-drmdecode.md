@@ -12,6 +12,8 @@ ms.keywords: DRMDecode, DRMDecode function [Active Directory Rights Management S
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDecode"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

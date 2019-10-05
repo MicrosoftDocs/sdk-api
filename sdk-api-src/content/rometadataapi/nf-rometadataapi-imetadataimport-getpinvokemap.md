@@ -12,6 +12,8 @@ ms.keywords: GetPinvokeMap, GetPinvokeMap method [Windows Runtime], GetPinvokeMa
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetPinvokeMap"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

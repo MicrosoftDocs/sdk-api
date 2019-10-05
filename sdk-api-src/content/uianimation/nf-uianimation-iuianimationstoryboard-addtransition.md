@@ -12,6 +12,8 @@ ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransit
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.AddTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

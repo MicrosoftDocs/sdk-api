@@ -12,6 +12,8 @@ ms.keywords: GamutShell, GamutShell structure [Windows Color System], _color_Gam
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/GamutShell"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

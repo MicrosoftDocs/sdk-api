@@ -12,6 +12,8 @@ ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlis
 ms.topic: function
 f1_keywords: 
  - "ktmw32/CommitEnlistment"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

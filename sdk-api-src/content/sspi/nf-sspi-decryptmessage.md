@@ -12,6 +12,8 @@ ms.keywords: DecryptMessage, DecryptMessage (Digest), DecryptMessage function [S
 ms.topic: function
 f1_keywords:
 - sspi/DecryptMessage
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

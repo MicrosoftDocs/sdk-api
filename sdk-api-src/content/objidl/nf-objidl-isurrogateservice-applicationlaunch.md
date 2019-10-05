@@ -12,6 +12,8 @@ ms.keywords: ApplicationLaunch, ApplicationLaunch method [COM], ApplicationLaunc
 ms.topic: method
 f1_keywords: 
  - "objidl/ISurrogateService.ApplicationLaunch"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

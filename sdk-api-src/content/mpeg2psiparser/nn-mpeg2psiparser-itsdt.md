@@ -12,6 +12,8 @@ ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], ITSDT interface
 ms.topic: interface
 f1_keywords: 
  - "mpeg2psiparser/ITSDT"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

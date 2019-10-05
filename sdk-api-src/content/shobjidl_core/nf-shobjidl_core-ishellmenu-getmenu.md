@@ -12,6 +12,8 @@ ms.keywords: GetMenu, GetMenu method [Windows Shell], GetMenu method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellMenu.GetMenu"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

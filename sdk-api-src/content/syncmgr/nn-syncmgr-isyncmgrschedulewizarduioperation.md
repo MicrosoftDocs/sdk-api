@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperatio
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrScheduleWizardUIOperation"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

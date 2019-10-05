@@ -12,6 +12,8 @@ ms.keywords: PFNCALLBACK, PFNCALLBACK callback, PFNCALLBACK callback function [D
 ms.topic: callback
 f1_keywords: 
  - "ddeml/PFNCALLBACK"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

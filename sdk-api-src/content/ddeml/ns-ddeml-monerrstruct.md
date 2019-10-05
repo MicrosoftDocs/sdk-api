@@ -12,6 +12,8 @@ ms.keywords: "*PMONERRSTRUCT, MONERRSTRUCT, MONERRSTRUCT structure [Data Exchang
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONERRSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

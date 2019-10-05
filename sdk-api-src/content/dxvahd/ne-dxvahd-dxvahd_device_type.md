@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_DEVICE_TYPE, DXVAHD_DEVICE_TYPE enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "dxvahd/DXVAHD_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEP
 ms.topic: enum
 f1_keywords:
 - winioctl/ELEMENT_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

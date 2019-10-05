@@ -12,6 +12,8 @@ ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engall
 ms.topic: macro
 f1_keywords: 
  - "winddi/EngAllocMem"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

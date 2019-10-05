@@ -12,6 +12,8 @@ ms.keywords: CompleteEvent, CompleteEvent method [Microsoft TV Technologies], Co
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_EventingService.CompleteEvent"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

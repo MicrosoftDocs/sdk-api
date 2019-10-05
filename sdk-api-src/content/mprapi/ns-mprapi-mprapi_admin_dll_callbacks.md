@@ -12,6 +12,8 @@ ms.keywords: '*PMPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_A
 ms.topic: struct
 f1_keywords:
 - mprapi/MPRAPI_ADMIN_DLL_CALLBACKS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

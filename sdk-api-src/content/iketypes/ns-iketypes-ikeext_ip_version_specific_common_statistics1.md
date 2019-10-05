@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1, IKEEXT_IP_VERSION_SP
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

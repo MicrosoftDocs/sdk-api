@@ -12,6 +12,8 @@ ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumer
 ms.topic: enum
 f1_keywords: 
  - "eaphostpeertypes/EapHostPeerAuthParams"
+dev_langs:
+ - c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

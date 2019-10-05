@@ -12,6 +12,8 @@ ms.keywords: AddNewHardware, AddNewHardware method [Human Input Devices], AddNew
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.AddNewHardware"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

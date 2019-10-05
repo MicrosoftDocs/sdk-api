@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveAllEffects meth
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.RemoveAllEffects"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

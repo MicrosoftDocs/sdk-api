@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyStorageFilter method, IDXG
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.PushEmptyStorageFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

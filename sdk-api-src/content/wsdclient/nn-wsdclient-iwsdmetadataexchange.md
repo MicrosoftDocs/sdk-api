@@ -12,6 +12,8 @@ ms.keywords: IWSDMetadataExchange, IWSDMetadataExchange interface, IWSDMetadataE
 ms.topic: interface
 f1_keywords: 
  - "wsdclient/IWSDMetadataExchange"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

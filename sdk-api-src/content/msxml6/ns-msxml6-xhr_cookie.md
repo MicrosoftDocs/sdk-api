@@ -12,6 +12,8 @@ ms.keywords: PXHR_COOKIE, PXHR_COOKIE structure pointer [XMLHttpRequest2], XHR_C
 ms.topic: struct
 f1_keywords: 
  - "msxml6/XHR_COOKIE"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

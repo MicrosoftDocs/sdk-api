@@ -12,6 +12,8 @@ ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSigningOptions.GetSignaturePartReferenceSet"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

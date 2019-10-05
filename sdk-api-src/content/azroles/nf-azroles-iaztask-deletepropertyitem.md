@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AzTask object [Securit
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.DeletePropertyItem"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

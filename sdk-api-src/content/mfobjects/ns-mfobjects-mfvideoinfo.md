@@ -12,6 +12,8 @@ ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo stru
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoInfo
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

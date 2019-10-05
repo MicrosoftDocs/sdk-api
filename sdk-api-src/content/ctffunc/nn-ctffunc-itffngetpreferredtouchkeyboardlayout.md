@@ -12,6 +12,8 @@ ms.keywords: ITfFnGetPreferredTouchKeyboardLayout, ITfFnGetPreferredTouchKeyboar
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnGetPreferredTouchKeyboardLayout"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

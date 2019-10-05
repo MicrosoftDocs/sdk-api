@@ -12,6 +12,8 @@ ms.keywords: GetColumnMapper, GetColumnMapper method [search], GetColumnMapper m
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IColumnMapperCreator.GetColumnMapper"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

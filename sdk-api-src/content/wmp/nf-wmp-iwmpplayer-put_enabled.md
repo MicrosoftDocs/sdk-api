@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWM
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayer.put_enabled"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUDPPortRanges, GetUDPPortRanges method [windows Media Format], G
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.GetUDPPortRanges"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

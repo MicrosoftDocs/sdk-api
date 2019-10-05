@@ -12,6 +12,8 @@ ms.keywords: SPBEGINF, SPBEGINF enumeration [Windows Shell], SPBEGINF_AUTOTIME, 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/SPBEGINF"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

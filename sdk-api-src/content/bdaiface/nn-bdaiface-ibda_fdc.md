@@ -12,6 +12,8 @@ ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC 
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_FDC"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateNewBandwidthSharing, CreateNewBandwidthSharing method [window
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile3.CreateNewBandwidthSharing"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Pac
 ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignature.GetCertificateEnumerator
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

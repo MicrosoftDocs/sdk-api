@@ -12,6 +12,8 @@ ms.keywords: ConnectToEffectInput, ConnectToEffectInput method [Direct2D], Conne
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1TransformGraph.ConnectToEffectInput"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

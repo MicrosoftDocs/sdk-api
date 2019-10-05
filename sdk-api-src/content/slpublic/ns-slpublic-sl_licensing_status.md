@@ -12,6 +12,8 @@ ms.keywords: SL_LICENSING_STATUS, SL_LICENSING_STATUS structure [Security], secu
 ms.topic: struct
 f1_keywords:
 - slpublic/SL_LICENSING_STATUS
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

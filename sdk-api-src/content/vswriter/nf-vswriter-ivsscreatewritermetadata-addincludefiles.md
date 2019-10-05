@@ -12,6 +12,8 @@ ms.keywords: AddIncludeFiles, AddIncludeFiles method [VSS], AddIncludeFiles meth
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateWriterMetadata.AddIncludeFiles"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

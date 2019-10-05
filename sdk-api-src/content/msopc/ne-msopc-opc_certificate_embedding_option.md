@@ -12,6 +12,8 @@ ms.keywords: OPC_CERTIFICATE_EMBEDDING_OPTION, OPC_CERTIFICATE_EMBEDDING_OPTION 
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_CERTIFICATE_EMBEDDING_OPTION"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

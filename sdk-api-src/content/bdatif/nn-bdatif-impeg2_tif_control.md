@@ -12,6 +12,8 @@ ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "bdatif/IMPEG2_TIF_CONTROL"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

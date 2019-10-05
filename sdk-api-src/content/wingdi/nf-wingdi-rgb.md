@@ -12,6 +12,8 @@ ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
 ms.topic: macro
 f1_keywords: 
  - "wingdi/RGB"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MANIPULATION_RAILS_STATE, MANIPULATION_RAILS_STATE enumeration, MAN
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/MANIPULATION_RAILS_STATE"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_HWNDP
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowLongPtr"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

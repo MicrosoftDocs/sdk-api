@@ -12,6 +12,8 @@ ms.keywords: ATTRIBUTESYNTAX, ATTRIBUTESYNTAX enumeration [Network Policy Server
 ms.topic: enum
 f1_keywords:
 - sdoias/ATTRIBUTESYNTAX
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

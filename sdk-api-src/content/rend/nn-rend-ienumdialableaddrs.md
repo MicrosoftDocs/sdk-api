@@ -12,6 +12,8 @@ ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumD
 ms.topic: interface
 f1_keywords: 
  - "rend/IEnumDialableAddrs"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

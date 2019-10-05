@@ -12,6 +12,8 @@ ms.keywords: GetDynamicInfo, GetDynamicInfo method [Windows Shell], GetDynamicIn
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IDynamicHWHandler.GetDynamicInfo"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

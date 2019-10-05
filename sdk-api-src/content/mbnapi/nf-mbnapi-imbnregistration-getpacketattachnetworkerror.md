@@ -12,6 +12,8 @@ ms.keywords: GetPacketAttachNetworkError, GetPacketAttachNetworkError method [Mi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetPacketAttachNetworkError"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

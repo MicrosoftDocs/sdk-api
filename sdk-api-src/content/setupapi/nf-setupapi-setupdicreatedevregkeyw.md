@@ -12,6 +12,8 @@ ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCreateDevRegKey
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: WdsCliObtainDriverPackagesEx, WdsCliObtainDriverPackagesEx function
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliObtainDriverPackagesEx"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

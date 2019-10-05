@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceType method, 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSet3.GetFontSourceType"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

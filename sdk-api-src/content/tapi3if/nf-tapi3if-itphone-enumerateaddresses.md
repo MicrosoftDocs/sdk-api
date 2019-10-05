@@ -12,6 +12,8 @@ ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], Enumerate
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITPhone.EnumerateAddresses"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

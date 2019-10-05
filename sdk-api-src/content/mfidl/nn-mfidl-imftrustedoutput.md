@@ -12,6 +12,8 @@ ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedO
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTrustedOutput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

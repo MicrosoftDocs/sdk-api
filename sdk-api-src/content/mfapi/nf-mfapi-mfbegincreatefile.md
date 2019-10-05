@@ -12,6 +12,8 @@ ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], a
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFBeginCreateFile"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

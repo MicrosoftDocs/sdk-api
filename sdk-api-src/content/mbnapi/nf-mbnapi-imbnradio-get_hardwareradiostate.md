@@ -12,6 +12,8 @@ ms.keywords: HardwareRadioState property [Microsoft Broadband Networks], Hardwar
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRadio.HardwareRadioState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

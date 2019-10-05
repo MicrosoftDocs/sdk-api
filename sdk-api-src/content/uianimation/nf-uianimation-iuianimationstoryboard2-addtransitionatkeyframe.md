@@ -12,6 +12,8 @@ ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows An
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard2.AddTransitionAtKeyframe"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], securit
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiExcludePackage"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

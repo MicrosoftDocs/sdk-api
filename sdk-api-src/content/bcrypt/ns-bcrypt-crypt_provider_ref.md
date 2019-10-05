@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF struc
 ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_PROVIDER_REF
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

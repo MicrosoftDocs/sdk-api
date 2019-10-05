@@ -12,6 +12,8 @@ ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.event
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetVersion
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

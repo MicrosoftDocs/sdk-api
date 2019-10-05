@@ -12,6 +12,8 @@ ms.keywords: SSA_BREAK, SSA_CLIP, SSA_DZWG, SSA_FALLBACK, SSA_FIT, SSA_GCP, SSA_
 ms.topic: function
 f1_keywords: 
  - "usp10/ScriptStringAnalyse"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

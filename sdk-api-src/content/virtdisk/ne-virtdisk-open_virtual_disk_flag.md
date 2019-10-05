@@ -12,6 +12,8 @@ ms.keywords: OPEN_VIRTUAL_DISK_FLAG, OPEN_VIRTUAL_DISK_FLAG enumeration [VHD], O
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/OPEN_VIRTUAL_DISK_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

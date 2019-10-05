@@ -12,6 +12,8 @@ ms.keywords: AbortAllSnapshotsInProgress, AbortAllSnapshotsInProgress method, Ab
 ms.topic: method
 f1_keywords: 
  - "vsadmin/IVssAdmin.AbortAllSnapshotsInProgress"
+dev_langs:
+ - c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

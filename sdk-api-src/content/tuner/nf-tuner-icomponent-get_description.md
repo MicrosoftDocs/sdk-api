@@ -12,6 +12,8 @@ ms.keywords: IComponent interface [Microsoft TV Technologies],get_Description me
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponent.get_Description"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DetachBuffer, DetachBuffer method [Core Audio], DetachBuffer method
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.DetachBuffer"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

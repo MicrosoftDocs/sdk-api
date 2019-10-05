@@ -12,6 +12,8 @@ ms.keywords: "*PNTFS_EXTENDED_VOLUME_DATA, NTFS_EXTENDED_VOLUME_DATA, NTFS_VOLUM
 ms.topic: struct
 f1_keywords: 
  - "winioctl/NTFS_VOLUME_DATA_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

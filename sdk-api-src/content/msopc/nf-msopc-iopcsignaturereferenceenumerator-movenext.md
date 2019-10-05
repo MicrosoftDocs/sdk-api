@@ -12,6 +12,8 @@ ms.keywords: IOpcSignatureReferenceEnumerator interface [Open Packaging Conventi
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureReferenceEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

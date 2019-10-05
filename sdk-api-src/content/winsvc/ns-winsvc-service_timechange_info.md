@@ -12,6 +12,8 @@ ms.keywords: "*PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO, PSERVICE_TIME
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_TIMECHANGE_INFO"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

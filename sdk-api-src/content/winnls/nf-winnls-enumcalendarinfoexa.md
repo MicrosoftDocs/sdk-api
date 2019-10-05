@@ -12,6 +12,8 @@ ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalizati
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumCalendarInfoEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

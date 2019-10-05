@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetImageGroup, WdsCliGetImageGroup function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImageGroup"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

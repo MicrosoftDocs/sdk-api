@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLID
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

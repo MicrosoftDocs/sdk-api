@@ -12,6 +12,8 @@ ms.keywords: IObjectContextInfo2, IObjectContextInfo2 interface [COM+], IObjectC
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IObjectContextInfo2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

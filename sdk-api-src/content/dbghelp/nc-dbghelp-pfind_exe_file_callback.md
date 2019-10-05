@@ -12,6 +12,8 @@ ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExec
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/FindExecutableImageProc"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

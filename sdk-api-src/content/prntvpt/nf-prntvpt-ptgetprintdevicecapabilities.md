@@ -12,6 +12,8 @@ ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTGetPrintDeviceCapabilities"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

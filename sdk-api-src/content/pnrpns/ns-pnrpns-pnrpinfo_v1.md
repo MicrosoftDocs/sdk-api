@@ -12,6 +12,8 @@ ms.keywords: '*PPNRPINFO_V1, PNRPINFO, PNRPINFO structure [Peer Networking], PNR
 ms.topic: struct
 f1_keywords:
 - pnrpns/PNRPINFO_V1
+dev_langs:
+ - c++
 req.header: pnrpns.h
 req.include-header: 
 req.target-type: Windows

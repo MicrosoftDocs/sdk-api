@@ -12,6 +12,8 @@ ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Co
 ms.topic: function
 f1_keywords: 
  - "compressapi/SetDecompressorInformation"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

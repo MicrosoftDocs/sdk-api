@@ -12,6 +12,8 @@ ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver 
 ms.topic: function
 f1_keywords:
 - newdev/DiShowUpdateDevice
+dev_langs:
+ - c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

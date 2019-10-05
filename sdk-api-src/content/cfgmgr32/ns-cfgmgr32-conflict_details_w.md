@@ -12,6 +12,8 @@ ms.keywords: "*PCONFLICT_DETAILS_W, CONFLICT_DETAILS, CONFLICT_DETAILS structure
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/CONFLICT_DETAILS"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

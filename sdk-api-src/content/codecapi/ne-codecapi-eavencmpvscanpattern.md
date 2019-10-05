@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVScanPattern, codecapi/eAVEncMPVScanPattern_Altern
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVScanPattern"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

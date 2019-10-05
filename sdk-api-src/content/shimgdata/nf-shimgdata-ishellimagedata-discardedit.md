@@ -12,6 +12,8 @@ ms.keywords: DiscardEdit, DiscardEdit method [Windows Shell], DiscardEdit method
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.DiscardEdit"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

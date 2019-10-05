@@ -12,6 +12,8 @@ ms.keywords: UI_FONTPROPERTIES, UI_FONTPROPERTIES enumeration [Windows Ribbon], 
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_FONTPROPERTIES"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

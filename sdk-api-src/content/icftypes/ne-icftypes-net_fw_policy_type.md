@@ -12,6 +12,8 @@ ms.keywords: NET_FW_POLICY_EFFECTIVE, NET_FW_POLICY_GROUP, NET_FW_POLICY_LOCAL, 
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_POLICY_TYPE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

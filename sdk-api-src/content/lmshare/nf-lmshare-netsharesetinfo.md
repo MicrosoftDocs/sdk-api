@@ -12,6 +12,8 @@ ms.keywords: 1, 1004, 1005, 1006, 1501, 2, 502, 503, NetShareSetInfo, NetShareSe
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareSetInfo
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], G
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSms.GetSmsStatus"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

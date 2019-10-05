@@ -12,6 +12,8 @@ ms.keywords: "*PPERSISTENT_ISCSI_LOGIN_INFOA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MOD
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

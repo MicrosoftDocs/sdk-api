@@ -12,6 +12,8 @@ ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocke
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketCompleteAction
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

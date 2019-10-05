@@ -12,6 +12,8 @@ ms.keywords: COPPUnblocked, COPPUnblocked method [Microsoft TV Technologies], CO
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent3.COPPUnblocked"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

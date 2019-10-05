@@ -12,6 +12,8 @@ ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginX property
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.InitialOriginX"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

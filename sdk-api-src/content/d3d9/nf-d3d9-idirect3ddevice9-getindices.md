@@ -12,6 +12,8 @@ ms.keywords: 137303d6-63b8-2f24-bcef-26fdda3c4a15, GetIndices, GetIndices method
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetIndices"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

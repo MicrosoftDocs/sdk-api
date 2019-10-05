@@ -12,6 +12,8 @@ ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "msctf/IEnumTfUIElements"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

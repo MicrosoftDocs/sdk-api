@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Ree
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsSubSystem.Reenumerate"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

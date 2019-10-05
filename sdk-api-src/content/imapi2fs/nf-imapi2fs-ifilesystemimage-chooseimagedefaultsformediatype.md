@@ -12,6 +12,8 @@ ms.keywords: ChooseImageDefaultsForMediaType, ChooseImageDefaultsForMediaType me
 ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.ChooseImageDefaultsForMediaType
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

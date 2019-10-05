@@ -12,6 +12,8 @@ ms.keywords: AddStream, AddStream method [IMAPI], AddStream method [IMAPI],IFsiF
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem2.AddStream"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

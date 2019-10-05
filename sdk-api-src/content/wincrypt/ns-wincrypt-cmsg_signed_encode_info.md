@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_EN
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_SIGNED_ENCODE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX struc
 ms.topic: struct
 f1_keywords:
 - winioctl/NTFS_STATISTICS_EX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

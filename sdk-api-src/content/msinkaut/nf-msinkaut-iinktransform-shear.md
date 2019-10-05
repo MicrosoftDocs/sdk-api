@@ -12,6 +12,8 @@ ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.Shear"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

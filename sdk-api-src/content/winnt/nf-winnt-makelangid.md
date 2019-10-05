@@ -12,6 +12,8 @@ ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Appl
 ms.topic: macro
 f1_keywords: 
  - "winnt/MAKELANGID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

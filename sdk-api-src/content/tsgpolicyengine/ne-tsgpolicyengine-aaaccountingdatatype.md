@@ -12,6 +12,8 @@ ms.keywords: AAAccountingDataType, AAAccountingDataType enumeration [Remote Desk
 ms.topic: enum
 f1_keywords: 
  - "tsgpolicyengine/AAAccountingDataType"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

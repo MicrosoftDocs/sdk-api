@@ -12,6 +12,8 @@ ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName met
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking.GetMarkerName"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

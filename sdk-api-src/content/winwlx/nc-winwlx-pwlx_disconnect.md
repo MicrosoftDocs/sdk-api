@@ -12,6 +12,8 @@ ms.keywords: PWLX_DISCONNECT, PWLX_DISCONNECT callback, WlxDisconnect, WlxDiscon
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxDisconnect
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 573cbcb7-dbec-80ce-3edb-e1d60b5c1261, ID3D11Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.SetPresentPerRenderOpDelay"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

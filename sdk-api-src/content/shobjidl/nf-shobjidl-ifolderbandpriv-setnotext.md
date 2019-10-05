@@ -12,6 +12,8 @@ ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolder
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFolderBandPriv.SetNoText"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

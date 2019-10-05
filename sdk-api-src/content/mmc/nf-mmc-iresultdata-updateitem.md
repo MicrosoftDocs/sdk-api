@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],UpdateItem method, IResultData.UpdateIt
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData.UpdateItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

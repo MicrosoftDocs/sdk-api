@@ -12,6 +12,8 @@ ms.keywords: WSManReconnectShellCommand, WSManReconnectShellCommand function [Wi
 ms.topic: function
 f1_keywords:
 - wsman/WSManReconnectShellCommand
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

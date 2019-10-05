@@ -12,6 +12,8 @@ ms.keywords: WSD_BYE, WSD_BYE structure, ncd.wsd_bye_struct, wsdtypes/WSD_BYE
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_BYE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

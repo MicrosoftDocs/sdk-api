@@ -12,6 +12,8 @@ ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinui
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFClock.GetContinuityKey"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

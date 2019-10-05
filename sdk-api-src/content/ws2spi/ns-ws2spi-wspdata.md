@@ -12,6 +12,8 @@ ms.keywords: "*LPWSPDATA, LPWSPDATA, LPWSPDATA structure pointer [Winsock], WSPD
 ms.topic: struct
 f1_keywords: 
  - "ws2spi/WSPDATA"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

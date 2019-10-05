@@ -12,6 +12,8 @@ ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet]
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetCanonicalizeUrl"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

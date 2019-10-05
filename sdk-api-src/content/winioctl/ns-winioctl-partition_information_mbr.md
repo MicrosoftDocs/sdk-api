@@ -12,6 +12,8 @@ ms.keywords: '*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_
 ms.topic: struct
 f1_keywords:
 - winioctl/PARTITION_INFORMATION_MBR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

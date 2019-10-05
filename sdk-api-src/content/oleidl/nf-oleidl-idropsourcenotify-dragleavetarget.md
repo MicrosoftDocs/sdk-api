@@ -12,6 +12,8 @@ ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget meth
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropSourceNotify.DragLeaveTarget"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIEN
 ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_WOW_CLIENT_DLL
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

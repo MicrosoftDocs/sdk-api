@@ -12,6 +12,8 @@ ms.keywords: 755c74c4-417a-49b5-9f3d-9348c05ac850, CanPaste, CanPaste method [Ta
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.CanPaste"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

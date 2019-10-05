@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetBidiL
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.SetBidiLevel"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

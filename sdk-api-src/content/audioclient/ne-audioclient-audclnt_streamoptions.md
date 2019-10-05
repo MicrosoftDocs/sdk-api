@@ -12,6 +12,8 @@ ms.keywords: AUDCLNT_STREAMOPTIONS, AUDCLNT_STREAMOPTIONS enumeration [Core Audi
 ms.topic: enum
 f1_keywords: 
  - "audioclient/AUDCLNT_STREAMOPTIONS"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

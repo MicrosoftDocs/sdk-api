@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT st
 ms.topic: struct
 f1_keywords:
 - cryptuiapi/CERT_SELECTUI_INPUT
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

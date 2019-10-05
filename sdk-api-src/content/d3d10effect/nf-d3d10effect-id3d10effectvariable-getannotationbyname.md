@@ -12,6 +12,8 @@ ms.keywords: 88e41418-934c-2f28-baec-b4fa95311890, GetAnnotationByName, GetAnnot
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetAnnotationByName"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

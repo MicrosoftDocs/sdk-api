@@ -12,6 +12,8 @@ ms.keywords: GetGenerationCount, GetGenerationCount method [Direct Write], GetGe
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontDownloadQueue.GetGenerationCount"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

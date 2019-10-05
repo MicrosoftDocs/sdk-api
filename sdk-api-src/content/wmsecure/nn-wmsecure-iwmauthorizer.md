@@ -12,6 +12,8 @@ ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMA
 ms.topic: interface
 f1_keywords: 
  - "wmsecure/IWMAuthorizer"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

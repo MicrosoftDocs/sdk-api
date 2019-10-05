@@ -12,6 +12,8 @@ ms.keywords: ITimeTrigger interface [Task Scheduler],RandomDelay property, ITime
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITimeTrigger.RandomDelay"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

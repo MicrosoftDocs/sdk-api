@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionManagerEvents.OnConnectionArrival"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

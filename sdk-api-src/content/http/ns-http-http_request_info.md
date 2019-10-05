@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO structure [HTTP], HTTP_RE
 ms.topic: struct
 f1_keywords:
 - http/HTTP_REQUEST_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

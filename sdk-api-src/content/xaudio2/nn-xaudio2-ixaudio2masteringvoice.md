@@ -12,6 +12,8 @@ ms.keywords: IXAudio2MasteringVoice, IXAudio2MasteringVoice interface [XAudio2 A
 ms.topic: interface
 f1_keywords: 
  - "xaudio2/IXAudio2MasteringVoice"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

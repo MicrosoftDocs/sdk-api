@@ -12,6 +12,8 @@ ms.keywords: GetWindowHandle, GetWindowHandle method [DirectShow], GetWindowHand
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlay.GetWindowHandle"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

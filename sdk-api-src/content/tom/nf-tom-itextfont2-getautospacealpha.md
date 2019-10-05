@@ -12,6 +12,8 @@ ms.keywords: GetAutospaceAlpha, GetAutospaceAlpha method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetAutospaceAlpha"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

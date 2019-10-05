@@ -12,6 +12,8 @@ ms.keywords: 8c057b75-49d4-723a-fe77-d236c5e87682, D3D11_MAP, D3D11_MAP enumerat
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_MAP"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12_GRAPHICS_STATES, D3D12_GRAPHICS_STATES enumeration, D3D12_GRA
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_GRAPHICS_STATES"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

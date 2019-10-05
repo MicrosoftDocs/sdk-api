@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMFLOAT3PK.operator uint32_t, DirectX::Packed
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMFLOAT3PK.operator uint32_t"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

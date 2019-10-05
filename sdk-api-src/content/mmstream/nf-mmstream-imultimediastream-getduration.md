@@ -12,6 +12,8 @@ ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [D
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.GetDuration"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

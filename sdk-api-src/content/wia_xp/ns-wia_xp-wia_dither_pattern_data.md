@@ -12,6 +12,8 @@ ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_P
 ms.topic: struct
 f1_keywords: 
  - "wia_xp/WIA_DITHER_PATTERN_DATA"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

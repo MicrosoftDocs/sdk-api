@@ -12,6 +12,8 @@ ms.keywords: "*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "npapi/NOTIFYCANCEL"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

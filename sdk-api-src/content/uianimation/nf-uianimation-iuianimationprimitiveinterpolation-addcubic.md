@@ -12,6 +12,8 @@ ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Win
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationPrimitiveInterpolation.AddCubic"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

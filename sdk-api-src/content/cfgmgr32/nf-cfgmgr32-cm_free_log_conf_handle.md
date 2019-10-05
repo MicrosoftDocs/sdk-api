@@ -12,6 +12,8 @@ ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device a
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Free_Log_Conf_Handle"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSystemId.Setup"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

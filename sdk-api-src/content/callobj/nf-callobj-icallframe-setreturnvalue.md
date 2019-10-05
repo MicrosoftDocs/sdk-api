@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],SetReturnValue method, ICallFrame.SetRet
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.SetReturnValue"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

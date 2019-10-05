@@ -12,6 +12,8 @@ ms.keywords: '*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_ISSUING_DIST_POINT
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAM
 ms.topic: struct
 f1_keywords:
 - nb30/NAME_BUFFER
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

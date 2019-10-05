@@ -12,6 +12,8 @@ ms.keywords: GetEnd, GetEnd method [Media Foundation], GetEnd method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaTimeRange.GetEnd"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

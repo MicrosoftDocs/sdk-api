@@ -12,6 +12,8 @@ ms.keywords: EcSetObjectArrayProperty, EcSetObjectArrayProperty function, evcoll
 ms.topic: function
 f1_keywords:
 - evcoll/EcSetObjectArrayProperty
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

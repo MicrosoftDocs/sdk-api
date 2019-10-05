@@ -12,6 +12,8 @@ ms.keywords: SetupLogError, SetupLogError function [Setup API], SetupLogErrorA, 
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupLogError"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

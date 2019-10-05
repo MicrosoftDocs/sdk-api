@@ -12,6 +12,8 @@ ms.keywords: "*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "ocidl/PROPPAGEINFO"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

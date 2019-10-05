@@ -12,6 +12,8 @@ ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automati
 ms.topic: function
 f1_keywords: 
  - "wia_xp/LPSAFEARRAY_UserMarshal"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

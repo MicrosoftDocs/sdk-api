@@ -12,6 +12,8 @@ ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], Get
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRMonitorConfig9.GetAvailableMonitors
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

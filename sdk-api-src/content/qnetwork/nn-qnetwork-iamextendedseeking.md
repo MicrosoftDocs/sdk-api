@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAME
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

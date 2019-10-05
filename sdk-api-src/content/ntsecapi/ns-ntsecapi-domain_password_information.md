@@ -12,6 +12,8 @@ ms.keywords: "*PDOMAIN_PASSWORD_INFORMATION, DOMAIN_LOCKOUT_ADMINS, DOMAIN_PASSW
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/DOMAIN_PASSWORD_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

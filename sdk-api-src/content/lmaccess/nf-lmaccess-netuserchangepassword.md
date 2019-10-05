@@ -12,6 +12,8 @@ ms.keywords: NetUserChangePassword, NetUserChangePassword function [Network Mana
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetUserChangePassword"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

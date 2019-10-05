@@ -12,6 +12,8 @@ ms.keywords: IMFVideoSampleAllocatorNotify interface [Media Foundation],NotifyRe
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocatorNotify.NotifyRelease"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

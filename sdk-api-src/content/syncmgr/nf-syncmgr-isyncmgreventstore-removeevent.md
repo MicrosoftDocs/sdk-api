@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, IS
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEventStore.RemoveEvent"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount m
 ms.topic: method
 f1_keywords: 
  - "winsync/ICoreFragment.GetRangeCount"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

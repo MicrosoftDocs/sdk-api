@@ -12,6 +12,8 @@ ms.keywords: SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINS
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupInstallServicesFromInfSection"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

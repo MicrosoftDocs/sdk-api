@@ -12,6 +12,8 @@ ms.keywords: 96419ffa-6af1-4e45-a831-f11564501975, IInkRecognizer interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizer.Languages"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

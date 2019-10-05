@@ -12,6 +12,8 @@ ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],L
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetWrapMode"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

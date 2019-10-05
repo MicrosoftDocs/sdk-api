@@ -12,6 +12,8 @@ ms.keywords: OPM_ASPECT_RATIO_EN300294_BOX_14_BY_9_CENTER, OPM_ASPECT_RATIO_EN30
 ms.topic: enum
 f1_keywords: 
  - "opmapi/OPM_IMAGE_ASPECT_RATIO_EN300294"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

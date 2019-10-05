@@ -12,6 +12,8 @@ ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVA
 ms.topic: function
 f1_keywords:
 - wintrust/WinVerifyTrustEx
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

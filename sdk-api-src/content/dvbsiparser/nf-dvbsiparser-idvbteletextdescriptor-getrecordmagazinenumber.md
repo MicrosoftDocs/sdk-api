@@ -12,6 +12,8 @@ ms.keywords: GetRecordMagazineNumber, GetRecordMagazineNumber method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbTeletextDescriptor.GetRecordMagazineNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

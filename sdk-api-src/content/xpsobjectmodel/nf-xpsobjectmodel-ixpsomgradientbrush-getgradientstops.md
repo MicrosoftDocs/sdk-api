@@ -12,6 +12,8 @@ ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientBrush.GetGradientStops"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro, tra
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingCustomAttribute"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate proper
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdateEntry.DriverVerDate"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

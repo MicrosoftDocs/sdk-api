@@ -12,6 +12,8 @@ ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFrom
 ms.topic: function
 f1_keywords: 
  - "objbase/CLSIDFromProgIDEx"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: Objbase.h
 req.target-type: Windows

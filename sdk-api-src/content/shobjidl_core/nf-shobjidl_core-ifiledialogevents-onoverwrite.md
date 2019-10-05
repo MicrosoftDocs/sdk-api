@@ -12,6 +12,8 @@ ms.keywords: IFileDialogEvents interface [Windows Shell],OnOverwrite method, IFi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogEvents.OnOverwrite"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

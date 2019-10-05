@@ -12,6 +12,8 @@ ms.keywords: DIGEST_FUNCTION, DigestFunction, DigestFunction callback, DigestFun
 ms.topic: callback
 f1_keywords: 
  - "imagehlp/DigestFunction"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

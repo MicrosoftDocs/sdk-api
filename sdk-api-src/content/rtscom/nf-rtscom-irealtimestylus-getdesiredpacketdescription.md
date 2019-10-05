@@ -12,6 +12,8 @@ ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription, 
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetDesiredPacketDescription"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

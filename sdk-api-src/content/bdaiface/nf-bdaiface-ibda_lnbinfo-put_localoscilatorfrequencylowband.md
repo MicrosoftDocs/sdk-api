@@ -12,6 +12,8 @@ ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_LocalOscilat
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

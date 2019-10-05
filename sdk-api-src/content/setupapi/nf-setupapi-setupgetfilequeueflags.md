@@ -12,6 +12,8 @@ ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SetupGetFileQueu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetFileQueueFlags"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

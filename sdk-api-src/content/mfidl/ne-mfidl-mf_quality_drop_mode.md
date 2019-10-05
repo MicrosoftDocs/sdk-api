@@ -12,6 +12,8 @@ ms.keywords: MF_DROP_MODE_1, MF_DROP_MODE_2, MF_DROP_MODE_3, MF_DROP_MODE_4, MF_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_QUALITY_DROP_MODE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

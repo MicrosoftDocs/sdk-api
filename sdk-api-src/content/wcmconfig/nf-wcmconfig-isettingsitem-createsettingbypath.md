@@ -12,6 +12,8 @@ ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettin
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.CreateSettingByPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS, DHC
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSD_HELLO, WSD_HELLO structure, ncd.wsd_hello_struct, wsdtypes/WSD_
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_HELLO
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

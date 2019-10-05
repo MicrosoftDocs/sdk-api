@@ -12,6 +12,8 @@ ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, 
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalReAlloc"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

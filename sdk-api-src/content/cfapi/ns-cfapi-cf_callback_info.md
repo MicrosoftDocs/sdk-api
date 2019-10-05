@@ -12,6 +12,8 @@ ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INF
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_CALLBACK_INFO"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

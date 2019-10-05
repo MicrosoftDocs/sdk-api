@@ -12,6 +12,8 @@ ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), Acqui
 ms.topic: function
 f1_keywords:
 - sspi/AcquireCredentialsHandle
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

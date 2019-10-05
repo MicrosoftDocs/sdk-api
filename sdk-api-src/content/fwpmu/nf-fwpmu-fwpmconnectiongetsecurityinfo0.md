@@ -12,6 +12,8 @@ ms.keywords: FwpmConnectionGetSecurityInfo0, FwpmConnectionGetSecurityInfo0 func
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionGetSecurityInfo0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociation
 ms.topic: enum
 f1_keywords: 
  - "bdaiface/SmartCardAssociationType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

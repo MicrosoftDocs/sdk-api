@@ -12,6 +12,8 @@ ms.keywords: 1cc97b74-47fa-53cd-d244-d41371551964, GetDataSize, GetDataSize meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Asynchronous.GetDataSize"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

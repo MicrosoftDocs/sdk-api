@@ -12,6 +12,8 @@ ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProvider.GetFieldDescriptorCount"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

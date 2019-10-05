@@ -12,6 +12,8 @@ ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTER
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/SetErrorMode"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

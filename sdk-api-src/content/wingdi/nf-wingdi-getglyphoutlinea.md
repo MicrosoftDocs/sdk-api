@@ -12,6 +12,8 @@ ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY
 ms.topic: function
 f1_keywords:
 - wingdi/GetGlyphOutline
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

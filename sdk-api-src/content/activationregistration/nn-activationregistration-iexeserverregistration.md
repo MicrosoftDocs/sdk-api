@@ -12,6 +12,8 @@ ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows R
 ms.topic: interface
 f1_keywords: 
  - "activationregistration/IExeServerRegistration"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteTextLayout2.GetMetrics"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

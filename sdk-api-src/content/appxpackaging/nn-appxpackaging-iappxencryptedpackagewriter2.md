@@ -12,6 +12,8 @@ ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interfac
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxEncryptedPackageWriter2"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

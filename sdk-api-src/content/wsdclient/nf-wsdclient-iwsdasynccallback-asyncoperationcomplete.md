@@ -12,6 +12,8 @@ ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperati
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDAsyncCallback.AsyncOperationComplete"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

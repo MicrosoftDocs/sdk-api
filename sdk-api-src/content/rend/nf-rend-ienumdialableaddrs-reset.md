@@ -12,6 +12,8 @@ ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Reset method, IEnumDialable
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDialableAddrs.Reset"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

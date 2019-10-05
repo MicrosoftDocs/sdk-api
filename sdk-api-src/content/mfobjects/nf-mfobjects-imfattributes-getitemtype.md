@@ -12,6 +12,8 @@ ms.keywords: 2c3a3c30-da10-4365-9f76-598a4ca7675c, GetItemType, GetItemType meth
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetItemType
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

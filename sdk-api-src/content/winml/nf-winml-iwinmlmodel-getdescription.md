@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinML
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLModel.GetDescription"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

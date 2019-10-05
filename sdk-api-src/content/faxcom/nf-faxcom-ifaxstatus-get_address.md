@@ -12,6 +12,8 @@ ms.keywords: Address property [Fax Service], Address property [Fax Service],IFax
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.Address"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnAttrsChange
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACPSink.OnAttrsChange"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

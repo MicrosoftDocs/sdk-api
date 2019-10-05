@@ -12,6 +12,8 @@ ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DeviceP
 ms.topic: function
 f1_keywords: 
  - "powrprof/DevicePowerSetDeviceState"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

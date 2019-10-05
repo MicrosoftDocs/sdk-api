@@ -12,6 +12,8 @@ ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsDomain"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

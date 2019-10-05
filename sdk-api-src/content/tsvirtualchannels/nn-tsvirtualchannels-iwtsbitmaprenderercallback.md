@@ -12,6 +12,8 @@ ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [R
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRendererCallback"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

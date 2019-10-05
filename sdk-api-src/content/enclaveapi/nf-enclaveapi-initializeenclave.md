@@ -12,6 +12,8 @@ ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeencla
 ms.topic: function
 f1_keywords:
 - enclaveapi/InitializeEnclave
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_SD_MODE, LPQOS_SD_MODE, LPQOS_SD_MODE structure pointer [QO
 ms.topic: struct
 f1_keywords:
 - qos/QOS_SD_MODE
+dev_langs:
+ - c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

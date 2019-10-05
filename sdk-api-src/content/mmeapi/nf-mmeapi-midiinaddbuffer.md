@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function 
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiInAddBuffer"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

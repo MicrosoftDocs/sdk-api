@@ -12,6 +12,8 @@ ms.keywords: GetMathZone, GetMathZone method [Windows Controls], GetMathZone met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetMathZone"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

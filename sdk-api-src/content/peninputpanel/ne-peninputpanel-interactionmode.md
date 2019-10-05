@@ -12,6 +12,8 @@ ms.keywords: 8e01c1fd-3351-47f1-beae-c84d9f7969a8, InteractionMode, InteractionM
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/InteractionMode"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

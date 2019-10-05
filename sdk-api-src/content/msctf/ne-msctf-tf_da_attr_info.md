@@ -12,6 +12,8 @@ ms.keywords: TF_ATTR_CONVERTED, TF_ATTR_FIXEDCONVERTED, TF_ATTR_INPUT, TF_ATTR_I
 ms.topic: enum
 f1_keywords: 
  - "msctf/TF_DA_ATTR_INFO"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

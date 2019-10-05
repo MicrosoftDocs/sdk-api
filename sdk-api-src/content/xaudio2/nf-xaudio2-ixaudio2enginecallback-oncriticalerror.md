@@ -12,6 +12,8 @@ ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnCrit
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2EngineCallback.OnCriticalError"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

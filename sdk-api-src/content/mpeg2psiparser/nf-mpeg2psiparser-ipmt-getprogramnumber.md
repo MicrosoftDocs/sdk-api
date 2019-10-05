@@ -12,6 +12,8 @@ ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.GetProgramNumber"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

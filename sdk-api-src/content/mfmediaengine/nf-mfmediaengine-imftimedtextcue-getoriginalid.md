@@ -12,6 +12,8 @@ ms.keywords: GetOriginalId, GetOriginalId method [Media Foundation], GetOriginal
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetOriginalId"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

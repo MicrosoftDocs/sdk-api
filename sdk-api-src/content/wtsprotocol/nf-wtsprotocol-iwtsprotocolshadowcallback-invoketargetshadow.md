@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],Invo
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolShadowCallback.InvokeTargetShadow"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

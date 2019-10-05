@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaManagerEx interface [File Server Resource Manager],IsAffe
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaManagerEx.IsAffectedByQuota
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

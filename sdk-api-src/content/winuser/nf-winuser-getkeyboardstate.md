@@ -12,6 +12,8 @@ ms.keywords: GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Inp
 ms.topic: function
 f1_keywords: 
  - "winuser/GetKeyboardState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

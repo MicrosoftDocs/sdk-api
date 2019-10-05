@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, BCRYPT_MULTI_OBJECT_LENGTH_STRUC
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

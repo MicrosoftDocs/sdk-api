@@ -12,6 +12,8 @@ ms.keywords: AutoProxyHelperVtbl, AutoProxyHelperVtbl structure [WinINet], winin
 ms.topic: struct
 f1_keywords: 
  - "wininet/AutoProxyHelperVtbl"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPWSACMSGHDR, *PCMSGHDR, *PWSACMSGHDR, CMSGHDR, CMSGHDR structure
 ms.topic: struct
 f1_keywords: 
  - "ws2def/CMSGHDR"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows

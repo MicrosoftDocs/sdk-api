@@ -12,6 +12,8 @@ ms.keywords: '*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_IN
 ms.topic: struct
 f1_keywords:
 - tdh/PROVIDER_FILTER_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

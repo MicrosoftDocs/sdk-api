@@ -12,6 +12,8 @@ ms.keywords: 4a27163b-e55a-4ced-8943-9a8ac161794c, Confidence property [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkGesture.Confidence"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

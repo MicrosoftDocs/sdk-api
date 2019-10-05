@@ -12,6 +12,8 @@ ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOp
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialWithFieldOptions.GetFieldOptions"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

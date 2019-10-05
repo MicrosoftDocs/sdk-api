@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetIndex"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

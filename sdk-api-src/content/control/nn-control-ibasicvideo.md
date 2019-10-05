@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interf
 ms.topic: interface
 f1_keywords: 
  - "control/IBasicVideo"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

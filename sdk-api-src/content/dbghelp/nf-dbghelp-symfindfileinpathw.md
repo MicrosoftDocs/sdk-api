@@ -12,6 +12,8 @@ ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymFindFileInPath"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

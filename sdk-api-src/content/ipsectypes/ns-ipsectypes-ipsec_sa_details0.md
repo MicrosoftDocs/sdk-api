@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_DETAILS0, IPSEC_SA_DETAILS0 structure [Filtering], fwp.ips
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_DETAILS0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

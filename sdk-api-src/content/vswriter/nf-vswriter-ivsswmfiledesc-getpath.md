@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [VSS], GetPath method [VSS],IVssWMFiledesc 
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMFiledesc.GetPath"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

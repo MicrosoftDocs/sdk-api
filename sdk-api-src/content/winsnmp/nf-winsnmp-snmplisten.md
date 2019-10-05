@@ -12,6 +12,8 @@ ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpListen"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

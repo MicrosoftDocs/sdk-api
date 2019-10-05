@@ -12,6 +12,8 @@ ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Acti
 ms.topic: interface
 f1_keywords: 
  - "objsel/IDsObjectPickerCredentials"
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

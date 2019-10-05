@@ -12,6 +12,8 @@ ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent,
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLFireEvent"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

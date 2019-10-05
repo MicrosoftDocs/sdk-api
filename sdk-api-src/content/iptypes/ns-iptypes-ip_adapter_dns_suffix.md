@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUF
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_DNS_SUFFIX"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

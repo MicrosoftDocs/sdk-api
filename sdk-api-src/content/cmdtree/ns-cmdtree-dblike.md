@@ -12,6 +12,8 @@ ms.keywords: DBLIKE, DBLIKE structure [Indexing Service], _idxs_DBLIKE, cmdtree/
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBLIKE"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLo
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

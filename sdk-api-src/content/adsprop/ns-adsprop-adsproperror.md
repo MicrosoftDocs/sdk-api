@@ -12,6 +12,8 @@ ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Direc
 ms.topic: struct
 f1_keywords: 
  - "adsprop/ADSPROPERROR"
+dev_langs:
+ - c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

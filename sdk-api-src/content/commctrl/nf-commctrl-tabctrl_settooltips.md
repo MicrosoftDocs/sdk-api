@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetToolTips, TabCtrl_SetToolTips macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetToolTips"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

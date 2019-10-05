@@ -12,6 +12,8 @@ ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_US
 ms.topic: function
 f1_keywords: 
  - "imm/ImmUnregisterWord"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

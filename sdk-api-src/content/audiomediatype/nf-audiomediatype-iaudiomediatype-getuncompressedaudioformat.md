@@ -12,6 +12,8 @@ ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audi
 ms.topic: method
 f1_keywords:
 - audiomediatype/IAudioMediaType.GetUncompressedAudioFormat
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

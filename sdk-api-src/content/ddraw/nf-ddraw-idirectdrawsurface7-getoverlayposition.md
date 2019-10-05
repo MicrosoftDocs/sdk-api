@@ -12,6 +12,8 @@ ms.keywords: GetOverlayPosition, GetOverlayPosition method [DirectDraw], GetOver
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetOverlayPosition"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneShutdown"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

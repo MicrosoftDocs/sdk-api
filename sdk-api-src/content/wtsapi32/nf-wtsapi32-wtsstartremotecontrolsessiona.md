@@ -12,6 +12,8 @@ ms.keywords: REMOTECONTROL_KBDALT_HOTKEY, REMOTECONTROL_KBDCTRL_HOTKEY, REMOTECO
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSStartRemoteControlSession"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

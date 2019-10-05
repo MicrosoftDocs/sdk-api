@@ -12,6 +12,8 @@ ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentS
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportProviderGetContentSize"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

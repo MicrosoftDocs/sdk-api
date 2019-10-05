@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPE
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilFindExpandedSzProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

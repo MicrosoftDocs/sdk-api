@@ -12,6 +12,8 @@ ms.keywords: WSManGetSessionOptionAsString, WSManGetSessionOptionAsString functi
 ms.topic: function
 f1_keywords: 
  - "wsman/WSManGetSessionOptionAsString"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

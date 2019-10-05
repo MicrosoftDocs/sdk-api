@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_PROPERTY, DWRITE_FONT_PROPERTY structure [Direct Write]
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_PROPERTY"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

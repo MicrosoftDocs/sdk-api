@@ -12,6 +12,8 @@ ms.keywords: "*PAM_LINE21_CCSERVICE, AM_L21_CCSERVICE_Caption1, AM_L21_CCSERVICE
 ms.topic: enum
 f1_keywords: 
  - "il21dec/AM_LINE21_CCSERVICE"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

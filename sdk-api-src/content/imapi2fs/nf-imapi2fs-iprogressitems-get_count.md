@@ -12,6 +12,8 @@ ms.keywords: IProgressItems interface [IMAPI],get_Count method, IProgressItems.g
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IProgressItems.get_Count"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

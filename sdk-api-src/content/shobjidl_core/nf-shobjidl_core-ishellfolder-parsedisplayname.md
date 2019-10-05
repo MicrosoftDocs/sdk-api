@@ -12,6 +12,8 @@ ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, ISh
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.ParseDisplayName
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

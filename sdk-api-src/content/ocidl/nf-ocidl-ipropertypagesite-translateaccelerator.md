@@ -12,6 +12,8 @@ ms.keywords: IPropertyPageSite interface [COM],TranslateAccelerator method, IPro
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPageSite.TranslateAccelerator"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

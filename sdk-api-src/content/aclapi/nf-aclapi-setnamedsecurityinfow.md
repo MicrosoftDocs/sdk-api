@@ -12,6 +12,8 @@ ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], Set
 ms.topic: function
 f1_keywords:
 - aclapi/SetNamedSecurityInfo
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

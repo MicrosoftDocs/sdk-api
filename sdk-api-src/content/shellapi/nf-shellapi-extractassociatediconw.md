@@ -12,6 +12,8 @@ ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shellapi/ExtractAssociatedIcon"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

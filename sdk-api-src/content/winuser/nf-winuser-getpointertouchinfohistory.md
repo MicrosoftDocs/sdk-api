@@ -12,6 +12,8 @@ ms.keywords: GetPointerTouchInfoHistory, GetPointerTouchInfoHistory function [In
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerTouchInfoHistory"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

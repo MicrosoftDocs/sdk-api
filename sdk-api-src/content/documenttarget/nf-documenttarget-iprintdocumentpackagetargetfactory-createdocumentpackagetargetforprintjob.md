@@ -12,6 +12,8 @@ ms.keywords: CreateDocumentPackageTargetForPrintJob, CreateDocumentPackageTarget
 ms.topic: method
 f1_keywords: 
  - "documenttarget/IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

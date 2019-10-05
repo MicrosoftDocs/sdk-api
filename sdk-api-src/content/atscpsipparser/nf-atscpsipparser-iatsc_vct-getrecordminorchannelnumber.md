@@ -12,6 +12,8 @@ ms.keywords: GetRecordMinorChannelNumber, GetRecordMinorChannelNumber method [Mi
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordMinorChannelNumber"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

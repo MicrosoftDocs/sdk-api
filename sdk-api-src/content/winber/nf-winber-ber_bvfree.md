@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber
 ms.topic: function
 f1_keywords: 
  - "winber/ber_bvfree"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

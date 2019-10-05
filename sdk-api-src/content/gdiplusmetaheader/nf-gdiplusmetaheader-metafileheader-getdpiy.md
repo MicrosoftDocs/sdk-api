@@ -12,6 +12,8 @@ ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],MetafileHeade
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetDpiY"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

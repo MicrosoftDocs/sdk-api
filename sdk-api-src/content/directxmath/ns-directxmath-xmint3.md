@@ -12,6 +12,8 @@ ms.keywords: XMINT3, XMINT3 structure [DirectX Math Support APIs], directxmath/X
 ms.topic: struct
 f1_keywords: 
  - "directxmath/XMINT3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

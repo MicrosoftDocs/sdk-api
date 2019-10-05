@@ -12,6 +12,8 @@ ms.keywords: GetOwnerClsid, GetOwnerClsid method [Text Services Framework], GetO
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompositionView.GetOwnerClsid"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

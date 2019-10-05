@@ -12,6 +12,8 @@ ms.keywords: MprConfigTransportSetInfo, MprConfigTransportSetInfo function [RAS]
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprConfigTransportSetInfo"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

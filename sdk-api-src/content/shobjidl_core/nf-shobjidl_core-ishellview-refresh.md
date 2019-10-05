@@ -12,6 +12,8 @@ ms.keywords: IShellView interface [Windows Shell],Refresh method, IShellView.Ref
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellView.Refresh"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

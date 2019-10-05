@@ -12,6 +12,8 @@ ms.keywords: IFaxRoutingMethod interface [Fax Service],ImageName property, IFaxR
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.ImageName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

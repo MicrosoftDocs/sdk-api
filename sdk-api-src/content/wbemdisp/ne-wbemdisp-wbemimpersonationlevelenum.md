@@ -12,6 +12,8 @@ ms.keywords: WbemImpersonationLevelEnum, WbemImpersonationLevelEnum enumeration 
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemImpersonationLevelEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

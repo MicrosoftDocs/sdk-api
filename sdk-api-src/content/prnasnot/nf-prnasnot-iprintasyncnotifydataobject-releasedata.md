@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData met
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyDataObject.ReleaseData"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

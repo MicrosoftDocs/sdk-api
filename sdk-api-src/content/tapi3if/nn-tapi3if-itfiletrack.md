@@ -12,6 +12,8 @@ ms.keywords: ITFileTrack, ITFileTrack interface [TAPI 2.2], ITFileTrack interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITFileTrack"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

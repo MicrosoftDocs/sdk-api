@@ -12,6 +12,8 @@ ms.keywords: GetSupportedProperties, GetSupportedProperties method [Windows Port
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceProperties.GetSupportedProperties"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

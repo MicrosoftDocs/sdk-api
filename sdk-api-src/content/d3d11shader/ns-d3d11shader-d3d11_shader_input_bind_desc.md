@@ -12,6 +12,8 @@ ms.keywords: D3D11_SHADER_INPUT_BIND_DESC, D3D11_SHADER_INPUT_BIND_DESC structur
 ms.topic: struct
 f1_keywords:
 - d3d11shader/D3D11_SHADER_INPUT_BIND_DESC
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

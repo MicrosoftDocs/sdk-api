@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Strikethrough method, IFont.put_Strikethr
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Strikethrough"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

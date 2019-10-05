@@ -12,6 +12,8 @@ ms.keywords: D3D10_INFO_QUEUE_FILTER_DESC, D3D10_INFO_QUEUE_FILTER_DESC structur
 ms.topic: struct
 f1_keywords: 
  - "d3d10sdklayers/D3D10_INFO_QUEUE_FILTER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

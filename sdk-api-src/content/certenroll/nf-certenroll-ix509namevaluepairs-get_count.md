@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],IX509NameValue
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509NameValuePairs.Count"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

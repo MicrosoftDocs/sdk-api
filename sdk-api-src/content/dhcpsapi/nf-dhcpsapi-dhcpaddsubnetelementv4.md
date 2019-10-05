@@ -12,6 +12,8 @@ ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhc
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpAddSubnetElementV4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

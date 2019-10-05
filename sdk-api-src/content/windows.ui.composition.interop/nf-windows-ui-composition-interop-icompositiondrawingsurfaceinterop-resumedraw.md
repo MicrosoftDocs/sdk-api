@@ -12,6 +12,8 @@ ms.keywords: ICompositionDrawingSurfaceInterop interface,ResumeDraw method, ICom
 ms.topic: method
 f1_keywords: 
  - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.ResumeDraw"
+dev_langs:
+ - c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

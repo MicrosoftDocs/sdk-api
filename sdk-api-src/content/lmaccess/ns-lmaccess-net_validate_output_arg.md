@@ -12,6 +12,8 @@ ms.keywords: "*PNET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_O
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/NET_VALIDATE_OUTPUT_ARG"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

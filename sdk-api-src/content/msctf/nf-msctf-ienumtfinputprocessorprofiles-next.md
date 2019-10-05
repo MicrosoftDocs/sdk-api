@@ -12,6 +12,8 @@ ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],N
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfInputProcessorProfiles.Next"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

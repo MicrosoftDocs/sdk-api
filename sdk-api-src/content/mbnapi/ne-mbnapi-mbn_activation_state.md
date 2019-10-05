@@ -12,6 +12,8 @@ ms.keywords: MBN_ACTIVATION_STATE, MBN_ACTIVATION_STATE enumeration [Microsoft B
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_ACTIVATION_STATE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFQualityManager.NotifyProcessOutput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

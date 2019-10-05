@@ -12,6 +12,8 @@ ms.keywords: IWMProfile interface [windows Media Format],RemoveStream method, IW
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile.RemoveStream"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

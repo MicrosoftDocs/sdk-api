@@ -12,6 +12,8 @@ ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFold
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.SetNameOf
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

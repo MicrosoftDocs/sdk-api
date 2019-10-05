@@ -12,6 +12,8 @@ ms.keywords: IBDA_EasMessage interface [Microsoft TV Technologies],get_EasMessag
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_EasMessage.get_EasMessage"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

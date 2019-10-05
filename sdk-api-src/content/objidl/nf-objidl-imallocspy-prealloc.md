@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PreAlloc method, IMallocSpy.PreAlloc, IM
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PreAlloc"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ISigne
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ISignerCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

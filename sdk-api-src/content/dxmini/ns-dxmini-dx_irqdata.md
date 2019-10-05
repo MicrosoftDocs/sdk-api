@@ -12,6 +12,8 @@ ms.keywords: "*PDX_IRQDATA, DX_IRQDATA, DX_IRQDATA structure [Display Devices], 
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DX_IRQDATA"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

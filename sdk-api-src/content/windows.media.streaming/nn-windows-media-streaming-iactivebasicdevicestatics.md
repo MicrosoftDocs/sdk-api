@@ -12,6 +12,8 @@ ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Med
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDeviceStatics"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

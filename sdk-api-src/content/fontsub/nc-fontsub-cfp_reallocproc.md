@@ -12,6 +12,8 @@ ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback
 ms.topic: callback
 f1_keywords: 
  - "fontsub/CFP_REALLOCPROC"
+dev_langs:
+ - c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

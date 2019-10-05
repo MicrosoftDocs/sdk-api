@@ -12,6 +12,8 @@ ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunnableObject.LockRunning"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http
 ms.topic: function
 f1_keywords:
 - http/HttpWaitForDisconnect
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

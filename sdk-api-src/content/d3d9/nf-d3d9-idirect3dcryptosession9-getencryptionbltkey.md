@@ -12,6 +12,8 @@ ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DCryptoSession9.GetEncryptionBltKey"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

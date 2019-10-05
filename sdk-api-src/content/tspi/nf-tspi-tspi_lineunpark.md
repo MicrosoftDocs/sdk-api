@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_li
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineUnpark"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Window
 ms.topic: function
 f1_keywords: 
  - "prsht/DestroyPropertySheetPage"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 115f4a6b-99c2-436e-9483-c44003e61a7d, MFMEDIASOURCE_CAN_PAUSE, MFME
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFMEDIASOURCE_CHARACTERISTICS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.pe
 ms.topic: function
 f1_keywords: 
  - "perflib/PerfCloseQueryHandle"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

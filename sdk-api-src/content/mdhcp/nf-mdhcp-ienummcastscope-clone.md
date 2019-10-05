@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastS
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IEnumMcastScope.Clone"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

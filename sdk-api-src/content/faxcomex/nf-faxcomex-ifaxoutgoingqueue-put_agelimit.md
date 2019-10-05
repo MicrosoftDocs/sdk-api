@@ -12,6 +12,8 @@ ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingQueue.AgeLimit"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

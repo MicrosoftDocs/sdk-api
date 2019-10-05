@@ -12,6 +12,8 @@ ms.keywords: GetProfileXmlData, GetProfileXmlData method [Microsoft Broadband Ne
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionProfile.GetProfileXmlData"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEXPLICIT_ACCESSW, *PEXPLICIT_ACCESS_W, CONTAINER_INHERIT_ACE, EX
 ms.topic: struct
 f1_keywords:
 - accctrl/EXPLICIT_ACCESS
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win
 ms.topic: function
 f1_keywords: 
  - "winbase/AddAtom"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

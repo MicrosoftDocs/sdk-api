@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDas
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetDashStyle"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

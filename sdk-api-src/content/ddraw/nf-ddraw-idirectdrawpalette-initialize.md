@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirec
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawPalette.Initialize"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

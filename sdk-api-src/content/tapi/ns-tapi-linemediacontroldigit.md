@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT, LINEMEDIACONTROLD
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEMEDIACONTROLDIGIT"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

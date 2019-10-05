@@ -12,6 +12,8 @@ ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enum
 ms.topic: enum
 f1_keywords:
 - winnt/LOGICAL_PROCESSOR_RELATIONSHIP
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

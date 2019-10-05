@@ -12,6 +12,8 @@ ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compress
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarity.GetRecordCount"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

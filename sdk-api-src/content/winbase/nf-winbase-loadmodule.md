@@ -12,6 +12,8 @@ ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, ba
 ms.topic: function
 f1_keywords:
 - winbase/LoadModule
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAct
 ms.topic: method
 f1_keywords: 
  - "taskschd/IEmailAction.ReplyTo"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AdviseMouseSink, AdviseMouseSink method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfMouseTracker.AdviseMouseSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

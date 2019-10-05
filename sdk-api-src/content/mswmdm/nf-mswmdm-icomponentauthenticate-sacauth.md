@@ -12,6 +12,8 @@ ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SAC
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IComponentAuthenticate.SACAuth"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

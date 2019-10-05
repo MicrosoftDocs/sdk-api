@@ -12,6 +12,8 @@ ms.keywords: GetChange, GetChange method [Windows Sync], GetChange method [Windo
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderRegistration.GetChange"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

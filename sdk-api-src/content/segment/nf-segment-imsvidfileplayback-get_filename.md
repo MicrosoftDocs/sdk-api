@@ -12,6 +12,8 @@ ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileNa
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidFilePlayback.get_FileName"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

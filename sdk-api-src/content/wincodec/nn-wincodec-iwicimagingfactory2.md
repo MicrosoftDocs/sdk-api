@@ -12,6 +12,8 @@ ms.keywords: IWICImagingFactory2, IWICImagingFactory2 interface [Windows Imaging
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICImagingFactory2"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

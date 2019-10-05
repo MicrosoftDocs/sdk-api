@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnDeviceService"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

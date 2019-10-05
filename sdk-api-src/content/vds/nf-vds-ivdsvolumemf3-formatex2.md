@@ -12,6 +12,8 @@ ms.keywords: FormatEx2, FormatEx2 method, FormatEx2 method,IVdsVolumeMF3 interfa
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF3.FormatEx2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

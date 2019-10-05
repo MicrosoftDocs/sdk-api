@@ -12,6 +12,8 @@ ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItem
 ms.topic: method
 f1_keywords: 
  - "winsync/ISupportLastWriteTime.GetItemChangeTime"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

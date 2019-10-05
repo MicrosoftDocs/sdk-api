@@ -12,6 +12,8 @@ ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Wi
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISearchJob.AsyncState"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

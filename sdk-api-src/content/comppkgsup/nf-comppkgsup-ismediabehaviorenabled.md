@@ -12,6 +12,8 @@ ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows AP
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/IsMediaBehaviorEnabled"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

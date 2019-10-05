@@ -12,6 +12,8 @@ ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method 
 ms.topic: method
 f1_keywords: 
  - "ocidl/IProvideMultipleClassInfo.GetInfoOfIndex"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

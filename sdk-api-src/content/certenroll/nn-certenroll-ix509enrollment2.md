@@ -12,6 +12,8 @@ ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], IX509Enrol
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509Enrollment2"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

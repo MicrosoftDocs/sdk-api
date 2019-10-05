@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_APPLICATION_STATE, CLUSTER_RESOURCE_APPLICATION_ST
 ms.topic: enum
 f1_keywords: 
  - "resapi/CLUSTER_RESOURCE_APPLICATION_STATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

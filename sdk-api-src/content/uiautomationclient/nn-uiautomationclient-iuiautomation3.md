@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], I
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomation3"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

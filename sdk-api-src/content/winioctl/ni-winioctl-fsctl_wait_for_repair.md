@@ -12,6 +12,8 @@ ms.keywords: FSCTL_WAIT_FOR_REPAIR, FSCTL_WAIT_FOR_REPAIR control, FSCTL_WAIT_FO
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_WAIT_FOR_REPAIR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

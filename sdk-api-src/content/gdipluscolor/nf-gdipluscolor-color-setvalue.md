@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],SetValue method, Color.SetValue, Color::SetValue
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.SetValue"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

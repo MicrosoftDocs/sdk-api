@@ -12,6 +12,8 @@ ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthread
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetThreadDescription"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

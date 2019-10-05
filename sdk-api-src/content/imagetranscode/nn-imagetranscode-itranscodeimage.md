@@ -12,6 +12,8 @@ ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITransc
 ms.topic: interface
 f1_keywords: 
  - "imagetranscode/ITranscodeImage"
+dev_langs:
+ - c++
 req.header: imagetranscode.h
 req.include-header: 
 req.target-type: Windows

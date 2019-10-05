@@ -12,6 +12,8 @@ ms.keywords: VDS_WWN, VDS_WWN structure [VDS], base.vds_wwn, vds/VDS_WWN, vdshwp
 ms.topic: struct
 f1_keywords:
 - vds/VDS_WWN
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

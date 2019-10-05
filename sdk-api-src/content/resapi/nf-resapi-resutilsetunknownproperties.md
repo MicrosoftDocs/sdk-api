@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_UNKNOWN_PROPERTIES, PRESUTIL_SET_UNKNOWN_PROPERTIES fu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetUnknownProperties"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

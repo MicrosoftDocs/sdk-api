@@ -12,6 +12,8 @@ ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPage
 ms.topic: enum
 f1_keywords: 
  - "avrfsdk/eHeapAllocationState"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

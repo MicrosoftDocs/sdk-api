@@ -12,6 +12,8 @@ ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFrom
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

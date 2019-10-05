@@ -12,6 +12,8 @@ ms.keywords: "*LPEVENTMSG, *LPEVENTMSGMSG, *NPEVENTMSG, *NPEVENTMSGMSG, *PEVENTM
 ms.topic: struct
 f1_keywords: 
  - "winuser/EVENTMSG"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

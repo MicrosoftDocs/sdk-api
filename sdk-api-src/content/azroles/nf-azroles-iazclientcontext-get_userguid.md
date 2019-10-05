@@ -12,6 +12,8 @@ ms.keywords: AzClientContext object [Security],UserGuid property, IAzClientConte
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.UserGuid"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

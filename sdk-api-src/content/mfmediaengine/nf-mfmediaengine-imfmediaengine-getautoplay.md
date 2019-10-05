@@ -12,6 +12,8 @@ ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetAutoPlay"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

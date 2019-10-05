@@ -12,6 +12,8 @@ ms.keywords: "*PINET_FIREWALL_AC_BINARIES, INET_FIREWALL_AC_BINARIES, INET_FIREW
 ms.topic: struct
 f1_keywords: 
  - "netfw/INET_FIREWALL_AC_BINARIES"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],ID
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.ClipRegion"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

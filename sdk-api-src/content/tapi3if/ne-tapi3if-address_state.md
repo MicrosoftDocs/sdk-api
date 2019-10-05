@@ -12,6 +12,8 @@ ms.keywords: ADDRESS_STATE, ADDRESS_STATE enumeration [TAPI 2.2], AS_INSERVICE, 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/ADDRESS_STATE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

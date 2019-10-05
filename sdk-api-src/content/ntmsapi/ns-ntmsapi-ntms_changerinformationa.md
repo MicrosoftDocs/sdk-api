@@ -12,6 +12,8 @@ ms.keywords: NTMS_CHANGERINFORMATION, NTMS_CHANGERINFORMATION structure [Files],
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_CHANGERINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

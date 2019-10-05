@@ -12,6 +12,8 @@ ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer metho
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadSession.SetServer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

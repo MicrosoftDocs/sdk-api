@@ -12,6 +12,8 @@ ms.keywords: Static_GetTextLength, Static_GetTextLength macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Static_GetTextLength"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

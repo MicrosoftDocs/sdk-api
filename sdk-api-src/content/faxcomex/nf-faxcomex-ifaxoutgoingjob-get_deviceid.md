@@ -12,6 +12,8 @@ ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.DeviceId"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

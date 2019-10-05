@@ -12,6 +12,8 @@ ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuot
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathQuoteSpaces"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

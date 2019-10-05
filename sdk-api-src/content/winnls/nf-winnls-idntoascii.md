@@ -12,6 +12,8 @@ ms.keywords: IDN_ALLOW_UNASSIGNED, IDN_EMAIL_ADDRESS, IDN_RAW_PUNYCODE, IDN_USE_
 ms.topic: function
 f1_keywords: 
  - "winnls/IdnToAscii"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

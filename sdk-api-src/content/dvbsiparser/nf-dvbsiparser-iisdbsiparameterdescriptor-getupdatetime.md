@@ -12,6 +12,8 @@ ms.keywords: GetUpdateTime, GetUpdateTime method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSIParameterDescriptor.GetUpdateTime"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

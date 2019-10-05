@@ -12,6 +12,8 @@ ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webse
 ms.topic: function
 f1_keywords: 
  - "webservices/WsReadArray"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PPP_NBFCP_INFO, PPP_NBFCP_INFO structure [RAS], _mpr_ppp_nbfcp_info
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_NBFCP_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

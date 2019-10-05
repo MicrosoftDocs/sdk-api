@@ -12,6 +12,8 @@ ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlState meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogCustomize.SetControlState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

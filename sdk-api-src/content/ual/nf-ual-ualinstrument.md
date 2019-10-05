@@ -12,6 +12,8 @@ ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ua
 ms.topic: function
 f1_keywords: 
  - "ual/UalInstrument"
+dev_langs:
+ - c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallB
 ms.topic: callback
 f1_keywords: 
  - "pdh/CounterPathCallBack"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

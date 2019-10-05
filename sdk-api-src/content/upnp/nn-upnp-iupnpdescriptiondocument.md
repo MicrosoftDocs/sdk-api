@@ -12,6 +12,8 @@ ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP 
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

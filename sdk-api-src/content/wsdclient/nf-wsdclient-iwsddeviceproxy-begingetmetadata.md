@@ -12,6 +12,8 @@ ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDDeviceProxy.BeginGetMetadata"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

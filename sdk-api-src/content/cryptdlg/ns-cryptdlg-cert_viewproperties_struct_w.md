@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_VIEWPROPERTIES_STRUCT_W, CERT_VIEWPROPERTIES_STRUCT, CERT_V
 ms.topic: struct
 f1_keywords: 
  - "cryptdlg/CERT_VIEWPROPERTIES_STRUCT"
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

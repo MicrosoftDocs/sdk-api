@@ -12,6 +12,8 @@ ms.keywords: CTL_ANY_SUBJECT_TYPE, CTL_CERT_SUBJECT_TYPE, CertFindSubjectInCTL, 
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindSubjectInCTL
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

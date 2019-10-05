@@ -12,6 +12,8 @@ ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElementBehavior.Finalize"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

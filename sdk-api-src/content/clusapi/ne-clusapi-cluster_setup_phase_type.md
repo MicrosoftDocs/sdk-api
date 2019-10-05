@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Fai
 ms.topic: enum
 f1_keywords:
 - clusapi/CLUSTER_SETUP_PHASE_TYPE
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

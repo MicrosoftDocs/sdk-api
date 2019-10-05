@@ -12,6 +12,8 @@ ms.keywords: AddCreateFlags, AddCreateFlags method [Windows Shell], AddCreateFla
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreateProcessInputs.AddCreateFlags
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

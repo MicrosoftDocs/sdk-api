@@ -12,6 +12,8 @@ ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.Req
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IHolder.RequestDestroyResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

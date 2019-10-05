@@ -12,6 +12,8 @@ ms.keywords: IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSit
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderWindowlessSite"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FH_STATE_DISABLED_BY_GP, FH_STATE_FATAL_CONFIG_ERROR, FH_STATE_NOT_
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhConfigMgr.QueryProtectionStatus"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

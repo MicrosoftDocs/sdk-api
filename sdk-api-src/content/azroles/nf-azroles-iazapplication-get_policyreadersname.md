@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],PolicyReadersName property, IAzAppl
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.PolicyReadersName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

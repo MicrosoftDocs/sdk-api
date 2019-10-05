@@ -12,6 +12,8 @@ ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method 
 ms.topic: method
 f1_keywords: 
  - "objidl/ISynchronizeContainer.AddSynchronize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

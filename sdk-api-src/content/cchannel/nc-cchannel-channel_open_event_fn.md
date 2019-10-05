@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_EVENT_DATA_RECEIVED, CHANNEL_EVENT_WRITE_CANCELLED, CHANNEL
 ms.topic: callback
 f1_keywords: 
  - "cchannel/CHANNEL_OPEN_EVENT_FN"
+dev_langs:
+ - c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ChangeCase, ChangeCase method [Windows Controls], ChangeCase method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.ChangeCase"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

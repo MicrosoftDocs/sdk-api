@@ -12,6 +12,8 @@ ms.keywords: Content, Content method [Windows Portable Devices SDK], Content met
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceService.Content"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

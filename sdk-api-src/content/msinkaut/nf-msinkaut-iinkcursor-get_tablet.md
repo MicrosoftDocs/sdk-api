@@ -12,6 +12,8 @@ ms.keywords: 85bbf314-e1fe-43fb-b743-d648aa6a54cd, IInkCursor interface [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursor.Tablet"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

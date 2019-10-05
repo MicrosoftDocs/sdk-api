@@ -12,6 +12,8 @@ ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePl
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfUpdatePlaceholder"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

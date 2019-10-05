@@ -12,6 +12,8 @@ ms.keywords: "*PADS_ATTR_DEF, ADS_ATTR_DEF, ADS_ATTR_DEF structure [ADSI], PADS_
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_ATTR_DEF"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

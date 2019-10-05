@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],ResetTransform method, LinearGradi
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.ResetTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

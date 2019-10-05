@@ -12,6 +12,8 @@ ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats 
 ms.topic: interface
 f1_keywords: 
  - "audioenginebaseapo/IAudioSystemEffectsCustomFormats"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

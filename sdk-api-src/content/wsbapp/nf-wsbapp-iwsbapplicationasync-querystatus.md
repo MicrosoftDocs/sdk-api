@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus 
 ms.topic: method
 f1_keywords: 
  - "wsbapp/IWsbApplicationAsync.QueryStatus"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

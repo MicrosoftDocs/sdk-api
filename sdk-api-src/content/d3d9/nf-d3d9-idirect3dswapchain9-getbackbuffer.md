@@ -12,6 +12,8 @@ ms.keywords: 138c5b9c-c0c2-7051-6dd4-c5933f8d32fa, GetBackBuffer, GetBackBuffer 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DSwapChain9.GetBackBuffer"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VBS_ENCLAVE_REPORT_VARDATA_HEADER, VBS_ENCLAVE_REPORT_VARDATA_HEADE
 ms.topic: struct
 f1_keywords: 
  - "ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER"
+dev_langs:
+ - c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_BIT.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteUnicastIpAddressEntry, DeleteUnicastIpAddressEntry function [
 ms.topic: function
 f1_keywords: 
  - "netioapi/DeleteUnicastIpAddressEntry"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

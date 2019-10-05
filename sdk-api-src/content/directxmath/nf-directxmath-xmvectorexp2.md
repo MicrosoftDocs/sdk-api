@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorExp2"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

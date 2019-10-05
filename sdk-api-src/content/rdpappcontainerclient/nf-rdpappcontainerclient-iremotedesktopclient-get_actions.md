@@ -12,6 +12,8 @@ ms.keywords: Actions property [Remote Desktop Services], Actions property [Remot
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.Actions"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

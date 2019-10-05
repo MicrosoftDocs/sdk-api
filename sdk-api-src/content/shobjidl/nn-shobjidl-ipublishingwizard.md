@@ -12,6 +12,8 @@ ms.keywords: IPublishingWizard, IPublishingWizard interface [Windows Shell], IPu
 ms.topic: interface
 f1_keywords:
 - shobjidl/IPublishingWizard
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

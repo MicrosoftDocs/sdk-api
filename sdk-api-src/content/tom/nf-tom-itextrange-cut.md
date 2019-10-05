@@ -12,6 +12,8 @@ ms.keywords: Cut, Cut method [Windows Controls], Cut method [Windows Controls],I
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Cut"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6635823c-f532-4012-ad3c-382491b61671, IMFSampleGrabberSinkCallback,
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSampleGrabberSinkCallback"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

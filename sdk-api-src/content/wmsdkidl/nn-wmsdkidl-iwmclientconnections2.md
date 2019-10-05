@@ -12,6 +12,8 @@ ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Med
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMClientConnections2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

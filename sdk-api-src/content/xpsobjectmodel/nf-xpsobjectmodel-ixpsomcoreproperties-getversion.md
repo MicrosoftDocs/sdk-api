@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [XPS Documents and Packaging], GetVer
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetVersion"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

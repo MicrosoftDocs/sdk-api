@@ -12,6 +12,8 @@ ms.keywords: APPLET_PROC, APPLET_PROC callback, CPlApplet, CPlApplet callback fu
 ms.topic: callback
 f1_keywords: 
  - "cpl/CPlApplet"
+dev_langs:
+ - c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

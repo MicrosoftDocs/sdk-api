@@ -12,6 +12,8 @@ ms.keywords: IWMPCore interface [Windows Media Player],get_network method, IWMPC
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCore.get_network"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

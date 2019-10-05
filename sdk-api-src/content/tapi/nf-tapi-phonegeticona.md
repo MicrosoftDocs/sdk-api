@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetIcon"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

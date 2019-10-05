@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TRIMMING_GRANULARITY, DWRITE_TRIMMING_GRANULARITY enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_TRIMMING_GRANULARITY"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

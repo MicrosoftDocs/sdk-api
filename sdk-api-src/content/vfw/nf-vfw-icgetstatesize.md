@@ -12,6 +12,8 @@ ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_I
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICGetStateSize"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

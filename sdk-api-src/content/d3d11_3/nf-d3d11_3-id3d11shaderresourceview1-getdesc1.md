@@ -12,6 +12,8 @@ ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11ShaderResourceView1.GetDesc1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

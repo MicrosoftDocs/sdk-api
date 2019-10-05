@@ -12,6 +12,8 @@ ms.keywords: ChapterSearch, ChapterSearch method [DirectShow], ChapterSearch met
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.ChapterSearch"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

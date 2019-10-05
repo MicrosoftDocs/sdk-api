@@ -12,6 +12,8 @@ ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_get
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/GetNtmsRequestOrder"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

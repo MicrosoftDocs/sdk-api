@@ -12,6 +12,8 @@ ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVE
 ms.topic: struct
 f1_keywords: 
  - "tpcshrd/SYSTEM_EVENT_DATA"
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: RTSCom.h
 req.target-type: Windows

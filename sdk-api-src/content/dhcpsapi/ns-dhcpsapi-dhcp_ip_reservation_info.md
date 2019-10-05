@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_IP_RESERVATION_INFO, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, 
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RESERVATION_INFO
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

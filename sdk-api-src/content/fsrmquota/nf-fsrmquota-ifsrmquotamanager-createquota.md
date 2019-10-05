@@ -12,6 +12,8 @@ ms.keywords: CreateQuota, CreateQuota method [File Server Resource Manager], Cre
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager.CreateQuota"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginMethodEnumeration, BeginMethodEnumeration method [Windows Mana
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.BeginMethodEnumeration"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

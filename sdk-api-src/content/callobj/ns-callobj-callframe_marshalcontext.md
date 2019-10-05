@@ -12,6 +12,8 @@ ms.keywords: CALLFRAME_MARSHALCONTEXT, CALLFRAME_MARSHALCONTEXT structure [COM],
 ms.topic: struct
 f1_keywords: 
  - "callobj/CALLFRAME_MARSHALCONTEXT"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

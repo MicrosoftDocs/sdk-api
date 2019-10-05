@@ -12,6 +12,8 @@ ms.keywords: GetEnumerator, GetEnumerator method [SMI], GetEnumerator method [SM
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.GetEnumerator"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

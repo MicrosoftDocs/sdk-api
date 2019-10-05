@@ -12,6 +12,8 @@ ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation fu
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcRevertContainerImpersonation"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

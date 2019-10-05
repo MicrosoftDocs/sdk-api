@@ -12,6 +12,8 @@ ms.keywords: '*PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION, PSAFER_HA
 ms.topic: struct
 f1_keywords:
 - winsafer/SAFER_HASH_IDENTIFICATION
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

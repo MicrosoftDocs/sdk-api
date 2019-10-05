@@ -12,6 +12,8 @@ ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScopeEx 
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.IncludedInCrawlScopeEx"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

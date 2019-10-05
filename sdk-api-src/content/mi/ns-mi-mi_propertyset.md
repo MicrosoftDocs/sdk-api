@@ -12,6 +12,8 @@ ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infras
 ms.topic: struct
 f1_keywords:
 - mi/MI_PropertySet
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

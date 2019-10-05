@@ -12,6 +12,8 @@ ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task
 ms.topic: method
 f1_keywords: 
  - "taskschd/IEmailAction.HeaderFields"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

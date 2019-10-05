@@ -12,6 +12,8 @@ ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Forma
 ms.topic: struct
 f1_keywords: 
  - "evcode/AM_WMT_EVENT_DATA"
+dev_langs:
+ - c++
 req.header: evcode.h
 req.include-header: 
 req.target-type: Windows

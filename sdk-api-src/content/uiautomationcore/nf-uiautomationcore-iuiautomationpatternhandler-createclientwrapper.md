@@ -12,6 +12,8 @@ ms.keywords: CreateClientWrapper, CreateClientWrapper method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IUIAutomationPatternHandler.CreateClientWrapper"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

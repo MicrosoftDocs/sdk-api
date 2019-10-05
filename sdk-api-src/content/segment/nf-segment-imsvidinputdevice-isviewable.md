@@ -12,6 +12,8 @@ ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidInputDevice.IsViewable"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

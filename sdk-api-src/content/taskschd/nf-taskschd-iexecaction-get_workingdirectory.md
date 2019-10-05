@@ -12,6 +12,8 @@ ms.keywords: IExecAction interface [Task Scheduler],WorkingDirectory property, I
 ms.topic: method
 f1_keywords: 
  - "taskschd/IExecAction.WorkingDirectory"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

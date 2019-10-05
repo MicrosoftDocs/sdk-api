@@ -12,6 +12,8 @@ ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function
 ms.topic: function
 f1_keywords: 
  - "wow64apiset/IsWow64GuestMachineSupported"
+dev_langs:
+ - c++
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows

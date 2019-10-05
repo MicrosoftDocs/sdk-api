@@ -12,6 +12,8 @@ ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerO
 ms.topic: function
 f1_keywords: 
  - "secext/GetComputerObjectName"
+dev_langs:
+ - c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

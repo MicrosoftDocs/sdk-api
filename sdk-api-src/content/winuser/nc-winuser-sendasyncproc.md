@@ -12,6 +12,8 @@ ms.keywords: SendAsyncProc, SendAsyncProc callback, SendAsyncProc callback funct
 ms.topic: callback
 f1_keywords: 
  - "winuser/SendAsyncProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

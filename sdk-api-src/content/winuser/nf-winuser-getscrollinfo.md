@@ -12,6 +12,8 @@ ms.keywords: GetScrollInfo, GetScrollInfo function [Windows Controls], SB_CTL, S
 ms.topic: function
 f1_keywords: 
  - "winuser/GetScrollInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

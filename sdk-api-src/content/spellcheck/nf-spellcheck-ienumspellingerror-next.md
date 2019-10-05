@@ -12,6 +12,8 @@ ms.keywords: IEnumSpellingError interface [Internationalization for Windows Appl
 ms.topic: method
 f1_keywords: 
  - "spellcheck/IEnumSpellingError.Next"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

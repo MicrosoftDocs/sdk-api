@@ -12,6 +12,8 @@ ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAcco
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGAccountingEngine.DoAccounting"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

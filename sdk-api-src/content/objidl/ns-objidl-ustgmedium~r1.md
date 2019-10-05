@@ -6,6 +6,8 @@ ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
 ms.topic: language-reference
 f1_keywords: 
  - "objidl/tagSTGMEDIUM"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

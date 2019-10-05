@@ -12,6 +12,8 @@ ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], 
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPAsyncResult.AsyncOperationComplete"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

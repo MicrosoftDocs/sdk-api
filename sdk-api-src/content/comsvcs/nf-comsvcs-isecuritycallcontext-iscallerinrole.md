@@ -12,6 +12,8 @@ ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecur
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityCallContext.IsCallerInRole"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

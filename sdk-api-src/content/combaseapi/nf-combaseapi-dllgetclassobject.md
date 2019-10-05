@@ -12,6 +12,8 @@ ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetCla
 ms.topic: function
 f1_keywords: 
  - "combaseapi/DllGetClassObject"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalF
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteRemoteFontFileStream.GetLocalFileSize"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

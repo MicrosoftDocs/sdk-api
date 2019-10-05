@@ -12,6 +12,8 @@ ms.keywords: GetLayout, GetLayout method [Text Services Framework], GetLayout me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnGetPreferredTouchKeyboardLayout.GetLayout"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

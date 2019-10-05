@@ -12,6 +12,8 @@ ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpip
 ms.topic: function
 f1_keywords:
 - namedpipeapi/ConnectNamedPipe
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

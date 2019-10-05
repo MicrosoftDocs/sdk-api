@@ -12,6 +12,8 @@ ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblId
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthManager.GetEnvironment"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentry
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlFirstEntrySList"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

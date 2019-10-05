@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetLastBatch method, 
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.SetLastBatch"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PostQueuedCompletionStatus, PostQueuedCompletionStatus function [Fi
 ms.topic: function
 f1_keywords:
 - ioapiset/PostQueuedCompletionStatus
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

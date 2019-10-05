@@ -9,6 +9,8 @@ ms.keywords: Region::Exclude
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Region::Exclude"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

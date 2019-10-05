@@ -12,6 +12,8 @@ ms.keywords: GetAudioBlockSize, GetAudioBlockSize method [IMAPI], GetAudioBlockS
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.GetAudioBlockSize"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

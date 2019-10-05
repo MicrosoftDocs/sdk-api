@@ -12,6 +12,8 @@ ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader met
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.QueryHeader"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

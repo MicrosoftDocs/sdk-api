@@ -12,6 +12,8 @@ ms.keywords: GetEntry, GetEntry method [Windows Shell], GetEntry method [Windows
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellImageStore.GetEntry"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

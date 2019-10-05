@@ -12,6 +12,8 @@ ms.keywords: "?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.OnFinalRelease"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

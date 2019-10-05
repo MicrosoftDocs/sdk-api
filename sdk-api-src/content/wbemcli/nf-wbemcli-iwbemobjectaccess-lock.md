@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Lo
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemObjectAccess.Lock"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

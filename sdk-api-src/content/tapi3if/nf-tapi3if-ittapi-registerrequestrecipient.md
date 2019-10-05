@@ -12,6 +12,8 @@ ms.keywords: ITTAPI interface [TAPI 2.2],RegisterRequestRecipient method, ITTAPI
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTAPI.RegisterRequestRecipient"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

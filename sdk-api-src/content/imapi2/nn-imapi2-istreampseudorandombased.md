@@ -12,6 +12,8 @@ ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IStreamPseudoRandomBased"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

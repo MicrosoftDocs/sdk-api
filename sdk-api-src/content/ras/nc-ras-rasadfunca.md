@@ -12,6 +12,8 @@ ms.keywords: RASADFunc, RASADFunc callback, RASADFunc callback function [RAS], R
 ms.topic: callback
 f1_keywords: 
  - "ras/RASADFunc"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

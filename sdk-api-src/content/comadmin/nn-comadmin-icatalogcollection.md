@@ -12,6 +12,8 @@ ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCo
 ms.topic: interface
 f1_keywords: 
  - "comadmin/ICatalogCollection"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

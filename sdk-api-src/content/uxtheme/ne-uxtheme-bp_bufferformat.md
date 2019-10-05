@@ -12,6 +12,8 @@ ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONOD
 ms.topic: enum
 f1_keywords: 
  - "uxtheme/BP_BUFFERFORMAT"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

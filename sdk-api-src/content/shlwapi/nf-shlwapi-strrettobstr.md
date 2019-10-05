@@ -12,6 +12,8 @@ ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetT
 ms.topic: function
 f1_keywords:
 - shlwapi/StrRetToBSTR
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IAction
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IActionProgress"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

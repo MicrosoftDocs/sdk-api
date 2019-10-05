@@ -12,6 +12,8 @@ ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFPresentationTimeSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

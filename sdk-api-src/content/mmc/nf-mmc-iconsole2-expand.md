@@ -12,6 +12,8 @@ ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interfac
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole2.Expand"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

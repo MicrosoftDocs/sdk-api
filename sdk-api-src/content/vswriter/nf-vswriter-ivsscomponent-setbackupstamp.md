@@ -12,6 +12,8 @@ ms.keywords: IVssComponent interface [VSS],SetBackupStamp method, IVssComponent.
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.SetBackupStamp"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

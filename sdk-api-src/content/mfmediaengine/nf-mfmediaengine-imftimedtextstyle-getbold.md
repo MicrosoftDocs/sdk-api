@@ -12,6 +12,8 @@ ms.keywords: GetBold, GetBold method [Media Foundation], GetBold method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetBold"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

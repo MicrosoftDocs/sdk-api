@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],put_Pan method, ICameraContro
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.put_Pan"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

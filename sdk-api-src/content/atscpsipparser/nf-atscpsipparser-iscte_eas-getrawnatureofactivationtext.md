@@ -12,6 +12,8 @@ ms.keywords: GetRawNatureOfActivationText, GetRawNatureOfActivationText method [
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationText"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMAGE_DIRECTORY_ENTRY_ARCHITECTURE, IMAGE_DIRECTORY_ENTRY_BASERELOC
 ms.topic: function
 f1_keywords:
 - dbghelp/ImageDirectoryEntryToDataEx
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

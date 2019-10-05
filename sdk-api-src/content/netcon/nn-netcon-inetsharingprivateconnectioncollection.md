@@ -12,6 +12,8 @@ ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectio
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingPrivateConnectionCollection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

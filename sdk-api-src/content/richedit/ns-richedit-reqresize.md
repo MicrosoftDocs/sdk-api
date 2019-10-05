@@ -12,6 +12,8 @@ ms.keywords: REQRESIZE, REQRESIZE structure [Windows Controls], _win32_REQRESIZE
 ms.topic: struct
 f1_keywords: 
  - "richedit/REQRESIZE"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

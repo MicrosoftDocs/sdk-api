@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_T
 ms.topic: struct
 f1_keywords:
 - vds/VDS_DRIVE_LETTER_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

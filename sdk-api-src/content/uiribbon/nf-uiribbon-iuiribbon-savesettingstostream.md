@@ -12,6 +12,8 @@ ms.keywords: IUIRibbon interface [Windows Ribbon],SaveSettingsToStream method, I
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIRibbon.SaveSettingsToStream"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

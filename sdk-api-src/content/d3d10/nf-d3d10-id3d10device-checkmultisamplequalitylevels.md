@@ -12,6 +12,8 @@ ms.keywords: 5555dfc7-c61e-e6e9-a6a5-956255410a73, CheckMultisampleQualityLevels
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CheckMultisampleQualityLevels"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

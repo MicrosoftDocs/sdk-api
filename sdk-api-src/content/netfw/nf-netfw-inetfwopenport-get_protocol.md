@@ -12,6 +12,8 @@ ms.keywords: INetFwOpenPort interface [ICS/ICF],Protocol property, INetFwOpenPor
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwOpenPort.Protocol"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function
 ms.topic: function
 f1_keywords: 
  - "appmodel/FormatApplicationUserModelId"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

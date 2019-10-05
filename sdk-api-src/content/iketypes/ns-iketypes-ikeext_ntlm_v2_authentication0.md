@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_NTLM_V2_AUTHENTICATION0, IKEEXT_NTLM_V2_AUTHENTICATION0 stru
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_NTLM_V2_AUTHENTICATION0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],ID
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscRecorder2.DisableMcn"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

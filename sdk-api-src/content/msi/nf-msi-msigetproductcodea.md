@@ -12,6 +12,8 @@ ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, 
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetProductCode"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

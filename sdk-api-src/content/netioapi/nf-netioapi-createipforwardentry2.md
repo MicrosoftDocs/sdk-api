@@ -12,6 +12,8 @@ ms.keywords: CreateIpForwardEntry2, CreateIpForwardEntry2 function [IP Helper], 
 ms.topic: function
 f1_keywords: 
  - "netioapi/CreateIpForwardEntry2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

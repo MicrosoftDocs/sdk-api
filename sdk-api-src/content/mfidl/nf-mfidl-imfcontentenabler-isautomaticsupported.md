@@ -12,6 +12,8 @@ ms.keywords: 144470ce-2849-4464-8596-fac216529145, IMFContentEnabler interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.IsAutomaticSupported"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

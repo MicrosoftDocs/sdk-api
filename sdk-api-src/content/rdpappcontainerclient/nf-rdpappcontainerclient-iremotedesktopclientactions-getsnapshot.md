@@ -12,6 +12,8 @@ ms.keywords: GetSnapshot, GetSnapshot method [Remote Desktop Services], GetSnaps
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientActions.GetSnapshot"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

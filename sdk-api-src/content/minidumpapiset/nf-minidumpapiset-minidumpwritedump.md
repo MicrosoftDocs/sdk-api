@@ -12,6 +12,8 @@ ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwrite
 ms.topic: function
 f1_keywords:
 - minidumpapiset/MiniDumpWriteDump
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

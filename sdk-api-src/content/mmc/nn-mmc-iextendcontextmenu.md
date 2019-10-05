@@ -12,6 +12,8 @@ ms.keywords: IExtendContextMenu, IExtendContextMenu interface [MMC], IExtendCont
 ms.topic: interface
 f1_keywords: 
  - "mmc/IExtendContextMenu"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PRADIUS_EXTENSION_PROCESS, PRADIUS_EXTENSION_PROCESS callback, PRAD
 ms.topic: callback
 f1_keywords:
 - authif/PRADIUS_EXTENSION_PROCESS
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

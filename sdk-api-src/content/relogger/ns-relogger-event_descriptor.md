@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [
 ms.topic: struct
 f1_keywords:
 - relogger/EVENT_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: Evntprov.h
 req.target-type: Windows

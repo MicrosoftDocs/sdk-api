@@ -12,6 +12,8 @@ ms.keywords: PREAD_PROCESS_MEMORY_ROUTINE, PREAD_PROCESS_MEMORY_ROUTINE64, ReadP
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/ReadProcessMemoryProc64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

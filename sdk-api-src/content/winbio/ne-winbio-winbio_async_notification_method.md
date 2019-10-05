@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METH
 ms.topic: enum
 f1_keywords: 
  - "winbio/WINBIO_ASYNC_NOTIFICATION_METHOD"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

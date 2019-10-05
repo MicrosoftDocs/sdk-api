@@ -12,6 +12,8 @@ ms.keywords: FindManifestResourceByName, FindManifestResourceByName method [Wind
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.FindManifestResourceByName"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

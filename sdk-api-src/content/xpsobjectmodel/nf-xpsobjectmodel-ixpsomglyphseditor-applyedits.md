@@ -12,6 +12,8 @@ ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyE
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.ApplyEdits"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

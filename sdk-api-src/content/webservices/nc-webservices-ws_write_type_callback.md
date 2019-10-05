@@ -12,6 +12,8 @@ ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_T
 ms.topic: callback
 f1_keywords:
 - webservices/WS_WRITE_TYPE_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

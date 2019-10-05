@@ -12,6 +12,8 @@ ms.keywords: IOCTL_EMI_GET_METADATA, IOCTL_EMI_GET_METADATA control, IOCTL_EMI_G
 ms.topic: ioctl
 f1_keywords: 
  - "emi/IOCTL_EMI_GET_METADATA"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

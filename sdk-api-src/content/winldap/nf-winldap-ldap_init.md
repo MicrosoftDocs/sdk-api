@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_init"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

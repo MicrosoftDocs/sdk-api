@@ -12,6 +12,8 @@ ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, 
 ms.topic: function
 f1_keywords: 
  - "ws2spi/WPUSetEvent"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginEnum, BeginEnum method [Windows Management Instrumentation], B
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.BeginEnum"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

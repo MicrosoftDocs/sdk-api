@@ -12,6 +12,8 @@ ms.keywords: SHARD, SHARD enumeration [Windows Shell], SHARD_APPIDINFO, SHARD_AP
 ms.topic: enum
 f1_keywords: 
  - "shlobj_core/SHARD"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

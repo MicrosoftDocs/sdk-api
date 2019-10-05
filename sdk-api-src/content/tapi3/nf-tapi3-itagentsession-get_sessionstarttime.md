@@ -12,6 +12,8 @@ ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionStartTime method, IT
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAgentSession.get_SessionStartTime"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

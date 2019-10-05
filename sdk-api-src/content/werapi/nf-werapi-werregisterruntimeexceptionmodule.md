@@ -12,6 +12,8 @@ ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModul
 ms.topic: function
 f1_keywords: 
  - "werapi/WerRegisterRuntimeExceptionModule"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

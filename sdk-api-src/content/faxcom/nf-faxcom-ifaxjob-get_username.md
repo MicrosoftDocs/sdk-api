@@ -12,6 +12,8 @@ ms.keywords: IFaxJob interface [Fax Service],UserName property, IFaxJob.UserName
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.UserName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

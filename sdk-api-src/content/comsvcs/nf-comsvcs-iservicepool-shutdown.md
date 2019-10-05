@@ -12,6 +12,8 @@ ms.keywords: IServicePool interface [COM+],Shutdown method, IServicePool.Shutdow
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServicePool.Shutdown"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

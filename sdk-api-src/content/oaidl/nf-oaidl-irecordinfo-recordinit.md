@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.R
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.RecordInit"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

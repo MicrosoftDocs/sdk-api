@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Wi
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescriptionList.GetCount"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

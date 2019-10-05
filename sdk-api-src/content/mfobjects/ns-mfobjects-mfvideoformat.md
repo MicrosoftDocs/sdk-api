@@ -12,6 +12,8 @@ ms.keywords: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618, MFVIDEOFORMAT, MFVIDEOFORMAT 
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVIDEOFORMAT
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

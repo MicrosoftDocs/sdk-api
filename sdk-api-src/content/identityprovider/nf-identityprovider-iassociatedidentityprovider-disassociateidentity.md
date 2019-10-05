@@ -12,6 +12,8 @@ ms.keywords: DisassociateIdentity, DisassociateIdentity method [Security], Disas
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IAssociatedIdentityProvider.DisassociateIdentity"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

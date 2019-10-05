@@ -12,6 +12,8 @@ ms.keywords: TS_SELECTIONSTYLE, TS_SELECTIONSTYLE structure [Text Services Frame
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_SELECTIONSTYLE"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

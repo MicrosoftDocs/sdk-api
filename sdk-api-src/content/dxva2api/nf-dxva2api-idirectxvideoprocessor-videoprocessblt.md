@@ -12,6 +12,8 @@ ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interf
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessor.VideoProcessBlt
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

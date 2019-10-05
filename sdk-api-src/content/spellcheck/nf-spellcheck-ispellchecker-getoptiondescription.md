@@ -12,6 +12,8 @@ ms.keywords: GetOptionDescription, GetOptionDescription method [Internationaliza
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.GetOptionDescription"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

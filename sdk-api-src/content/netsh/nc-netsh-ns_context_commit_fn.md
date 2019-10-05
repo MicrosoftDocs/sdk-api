@@ -12,6 +12,8 @@ ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, NS_CONTEXT_C
 ms.topic: callback
 f1_keywords:
 - netsh/NS_CONTEXT_COMMIT_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

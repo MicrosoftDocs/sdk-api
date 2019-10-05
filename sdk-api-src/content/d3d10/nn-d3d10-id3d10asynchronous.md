@@ -12,6 +12,8 @@ ms.keywords: ID3D10Asynchronous, ID3D10Asynchronous interface [Direct3D 10], ID3
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10Asynchronous"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

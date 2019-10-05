@@ -12,6 +12,8 @@ ms.keywords: DXVA2_VideoLighting, DXVA2_VideoLighting enumeration [Media Foundat
 ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_VideoLighting
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

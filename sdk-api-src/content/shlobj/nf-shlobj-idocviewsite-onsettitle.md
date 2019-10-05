@@ -12,6 +12,8 @@ ms.keywords: IDocViewSite interface [Windows Shell],OnSetTitle method, IDocViewS
 ms.topic: method
 f1_keywords: 
  - "shlobj/IDocViewSite.OnSetTitle"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

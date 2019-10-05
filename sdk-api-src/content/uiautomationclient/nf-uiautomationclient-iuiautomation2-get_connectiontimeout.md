@@ -12,6 +12,8 @@ ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeo
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation2.ConnectionTimeout"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

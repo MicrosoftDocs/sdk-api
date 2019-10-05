@@ -12,6 +12,8 @@ ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateIcon"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

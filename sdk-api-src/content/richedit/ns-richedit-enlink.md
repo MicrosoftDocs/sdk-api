@@ -12,6 +12,8 @@ ms.keywords: ENLINK, ENLINK structure [Windows Controls], _win32_ENLINK_str, _wi
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENLINK"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TRACELOGGING_DECLARE_PROVIDER, TRACELOGGING_DECLARE_PROVIDER macro,
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TRACELOGGING_DECLARE_PROVIDER"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

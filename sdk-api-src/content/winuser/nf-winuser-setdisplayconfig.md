@@ -12,6 +12,8 @@ ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayC
 ms.topic: function
 f1_keywords: 
  - "winuser/SetDisplayConfig"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

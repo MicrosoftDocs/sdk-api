@@ -12,6 +12,8 @@ ms.keywords: 4aff9086-c86f-2455-7c76-8c5de15bd4bd, GetRasterStatus, GetRasterSta
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DSwapChain9.GetRasterStatus
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

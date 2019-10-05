@@ -12,6 +12,8 @@ ms.keywords: ICSeqCompressFrame, ICSeqCompressFrame function [Windows Multimedia
 ms.topic: function
 f1_keywords: 
  - "vfw/ICSeqCompressFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

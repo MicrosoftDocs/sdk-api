@@ -12,6 +12,8 @@ ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParse
 ms.topic: function
 f1_keywords: 
  - "objbase/MkParseDisplayName"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

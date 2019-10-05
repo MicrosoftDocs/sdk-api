@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPlugga
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.Delete"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

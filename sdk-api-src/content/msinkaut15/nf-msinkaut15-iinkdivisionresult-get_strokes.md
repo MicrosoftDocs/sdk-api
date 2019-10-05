@@ -12,6 +12,8 @@ ms.keywords: IInkDivisionResult interface [Tablet PC],Strokes property, IInkDivi
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivisionResult.Strokes"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

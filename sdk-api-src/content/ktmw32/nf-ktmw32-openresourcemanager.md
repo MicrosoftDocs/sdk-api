@@ -12,6 +12,8 @@ ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openr
 ms.topic: function
 f1_keywords: 
  - "ktmw32/OpenResourceManager"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WM_AETYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

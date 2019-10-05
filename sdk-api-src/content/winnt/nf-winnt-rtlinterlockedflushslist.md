@@ -12,6 +12,8 @@ ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.r
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlInterlockedFlushSList"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

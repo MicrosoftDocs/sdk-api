@@ -12,6 +12,8 @@ ms.keywords: ListView_GetFooterItem, ListView_GetFooterItem macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetFooterItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_SPN_DNS_HOST, DS_SPN_DN_HOST, DS_SPN_DOMAIN, DS_SPN_NAME_TYPE, D
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_SPN_NAME_TYPE"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

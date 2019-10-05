@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetCheckState, GetCheckState method [Windows Shell], GetChec
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IRegTreeItem.GetCheckState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

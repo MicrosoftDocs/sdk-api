@@ -12,6 +12,8 @@ ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceRemoved method
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMNotificationClient.OnDeviceRemoved"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

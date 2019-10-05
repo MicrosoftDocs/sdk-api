@@ -12,6 +12,8 @@ ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecLeakyBucket.GetBufferFullnessBits"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

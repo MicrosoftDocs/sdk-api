@@ -12,6 +12,8 @@ ms.keywords: GetClip, GetClip method [GDI+], GetClip method [GDI+],Graphics clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetClip"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

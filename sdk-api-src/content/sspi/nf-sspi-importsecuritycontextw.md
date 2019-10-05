@@ -12,6 +12,8 @@ ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], I
 ms.topic: function
 f1_keywords: 
  - "sspi/ImportSecurityContext"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

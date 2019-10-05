@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6AppendOption"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

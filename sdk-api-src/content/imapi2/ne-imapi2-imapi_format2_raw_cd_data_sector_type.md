@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, IMAPI_FORMAT2_RAW_CD_DATA
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

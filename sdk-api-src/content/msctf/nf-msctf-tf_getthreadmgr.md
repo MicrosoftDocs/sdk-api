@@ -12,6 +12,8 @@ ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework]
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_GetThreadMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

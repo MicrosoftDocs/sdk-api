@@ -12,6 +12,8 @@ ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devi
 ms.topic: function
 f1_keywords:
 - winddi/HT_Get8BPPMaskPalette
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

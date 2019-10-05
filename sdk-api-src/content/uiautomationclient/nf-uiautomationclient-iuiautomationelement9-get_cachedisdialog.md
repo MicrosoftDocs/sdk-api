@@ -11,6 +11,8 @@ ms.keywords: CachedIsDialog property [Windows Accessibility], CachedIsDialog pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement9.CachedIsDialog"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

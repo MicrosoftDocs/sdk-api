@@ -12,6 +12,8 @@ ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration fu
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHCreateAssociationRegistration"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

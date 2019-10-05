@@ -12,6 +12,8 @@ ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElemen
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.CreateListElement"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

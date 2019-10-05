@@ -12,6 +12,8 @@ ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator metho
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVMR9.SetAllocator"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

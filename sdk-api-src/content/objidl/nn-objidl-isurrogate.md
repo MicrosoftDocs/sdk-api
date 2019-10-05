@@ -12,6 +12,8 @@ ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],
 ms.topic: interface
 f1_keywords: 
  - "objidl/ISurrogate"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

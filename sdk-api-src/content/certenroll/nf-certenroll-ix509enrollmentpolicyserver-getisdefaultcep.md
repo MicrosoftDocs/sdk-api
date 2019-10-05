@@ -12,6 +12,8 @@ ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.GetIsDefaultCEP"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

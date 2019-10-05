@@ -12,6 +12,8 @@ ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player]
 ms.topic: interface
 f1_keywords: 
  - "wmprealestate/IWMPRenderConfig"
+dev_langs:
+ - c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

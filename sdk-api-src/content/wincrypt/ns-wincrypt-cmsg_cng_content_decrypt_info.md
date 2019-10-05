@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO, CM
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

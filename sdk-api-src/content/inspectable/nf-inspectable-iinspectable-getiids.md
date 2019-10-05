@@ -12,6 +12,8 @@ ms.keywords: GetIids, GetIids method [Windows Runtime], GetIids method [Windows 
 ms.topic: method
 f1_keywords: 
  - "inspectable/IInspectable.GetIids"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

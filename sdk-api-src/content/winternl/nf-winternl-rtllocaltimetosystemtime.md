@@ -12,6 +12,8 @@ ms.keywords: RtlLocalTimeToSystemTime, RtlLocalTimeToSystemTime function, base.r
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlLocalTimeToSystemTime"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

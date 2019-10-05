@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHt
 ms.topic: interface
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest2Callback"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

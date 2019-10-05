@@ -12,6 +12,8 @@ ms.keywords: "*PUSN_RECORD_V4, PUSN_RECORD_V4, PUSN_RECORD_V4 structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "winioctl/USN_RECORD_V4"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

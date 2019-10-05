@@ -12,6 +12,8 @@ ms.keywords: CreateVideoByName, CreateVideoByName method [WIA], CreateVideoByNam
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.CreateVideoByName"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

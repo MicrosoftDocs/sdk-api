@@ -12,6 +12,8 @@ ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Tech
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/SECTION"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

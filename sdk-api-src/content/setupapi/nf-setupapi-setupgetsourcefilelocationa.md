@@ -12,6 +12,8 @@ ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Se
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetSourceFileLocation"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

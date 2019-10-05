@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingJob interface [Fax Service],TransmissionStart property,
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingJob.TransmissionStart"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

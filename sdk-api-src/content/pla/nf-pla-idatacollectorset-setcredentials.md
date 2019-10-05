@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],SetCredentials method, IDataColle
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.SetCredentials"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

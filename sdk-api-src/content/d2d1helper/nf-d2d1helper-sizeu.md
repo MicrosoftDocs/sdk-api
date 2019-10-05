@@ -12,6 +12,8 @@ ms.keywords: SizeU, SizeU function [Direct2D], d2d1helper/SizeU, direct2d.sizeu
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/SizeU"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

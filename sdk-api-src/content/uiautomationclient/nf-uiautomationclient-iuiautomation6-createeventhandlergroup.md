@@ -12,6 +12,8 @@ ms.keywords: CreateEventHandlerGroup, CreateEventHandlerGroup method [Windows Ac
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation6.CreateEventHandlerGroup"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

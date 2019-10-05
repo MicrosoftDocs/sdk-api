@@ -12,6 +12,8 @@ ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation functi
 ms.topic: function
 f1_keywords:
 - memoryapi/QueryVirtualMemoryInformation
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

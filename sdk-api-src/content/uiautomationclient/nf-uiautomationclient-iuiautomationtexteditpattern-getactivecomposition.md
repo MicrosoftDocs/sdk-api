@@ -12,6 +12,8 @@ ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessib
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextEditPattern.GetActiveComposition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

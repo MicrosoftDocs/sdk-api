@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method,
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawGammaControl.SetGammaRamp
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

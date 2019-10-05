@@ -12,6 +12,8 @@ ms.keywords: GetNoiseReduction, GetNoiseReduction method [Windows Imaging Compon
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetNoiseReduction"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

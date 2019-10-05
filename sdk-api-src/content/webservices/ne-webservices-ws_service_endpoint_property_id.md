@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK, WS_SERVICE_EN
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SERVICE_ENDPOINT_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

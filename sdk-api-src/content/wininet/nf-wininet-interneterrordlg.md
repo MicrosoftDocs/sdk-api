@@ -12,6 +12,8 @@ ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_intern
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetErrorDlg"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSourceCount, GetSourceCount method, GetSourceCount method,IGraph
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetSourceCount"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

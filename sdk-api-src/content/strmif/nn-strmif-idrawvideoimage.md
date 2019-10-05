@@ -12,6 +12,8 @@ ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideo
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDrawVideoImage"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

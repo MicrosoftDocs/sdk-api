@@ -12,6 +12,8 @@ ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSR
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTER_BATCH_COMMAND
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

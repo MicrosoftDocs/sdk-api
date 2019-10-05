@@ -12,6 +12,8 @@ ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_Ui
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaFind"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMPEG2_FILTER2, MPEG2_FILTER2, MPEG2_FILTER2 structure [Microsoft
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG2_FILTER2"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

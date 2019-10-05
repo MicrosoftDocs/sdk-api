@@ -9,6 +9,8 @@ ms.keywords: Graphics::DrawClosedCurve
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusgraphics/Graphics::DrawClosedCurve"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

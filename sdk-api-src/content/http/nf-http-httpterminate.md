@@ -12,6 +12,8 @@ ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpTerminate, Http
 ms.topic: function
 f1_keywords: 
  - "http/HttpTerminate"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

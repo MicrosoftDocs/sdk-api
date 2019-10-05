@@ -12,6 +12,8 @@ ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], Displa
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnectionCallback.DisplayIOCtl
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

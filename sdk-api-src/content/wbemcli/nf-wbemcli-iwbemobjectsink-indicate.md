@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],Indi
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemObjectSink.Indicate"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

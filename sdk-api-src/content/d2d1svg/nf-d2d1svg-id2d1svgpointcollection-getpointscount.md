@@ -12,6 +12,8 @@ ms.keywords: GetPointsCount, GetPointsCount method [Direct2D], GetPointsCount me
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPointCollection.GetPointsCount"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

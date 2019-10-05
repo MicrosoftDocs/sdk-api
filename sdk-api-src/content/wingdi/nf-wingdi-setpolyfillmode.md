@@ -12,6 +12,8 @@ ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI],
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetPolyFillMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

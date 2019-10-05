@@ -12,6 +12,8 @@ ms.keywords: "*PINET_PORT_RANGE, *PINET_PORT_RESERVATION, INET_PORT_RANGE, INET_
 ms.topic: struct
 f1_keywords: 
  - "mstcpip/INET_PORT_RANGE"
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

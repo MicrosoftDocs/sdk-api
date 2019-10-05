@@ -12,6 +12,8 @@ ms.keywords: Children, Children method [SMI], Children method [SMI],ISettingsIte
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.Children"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

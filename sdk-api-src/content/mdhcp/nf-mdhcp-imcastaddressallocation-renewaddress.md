@@ -12,6 +12,8 @@ ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RenewAddress method, I
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.RenewAddress"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MFFOLDDOWN_MATRIX"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDockingWindowSite interface [Windows Shell],SetBorderSpaceDW metho
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IDockingWindowSite.SetBorderSpaceDW"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

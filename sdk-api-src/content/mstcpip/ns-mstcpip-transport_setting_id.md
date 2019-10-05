@@ -12,6 +12,8 @@ ms.keywords: "*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_
 ms.topic: struct
 f1_keywords: 
  - "mstcpip/TRANSPORT_SETTING_ID"
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: Mstcpip.h
 req.target-type: Windows

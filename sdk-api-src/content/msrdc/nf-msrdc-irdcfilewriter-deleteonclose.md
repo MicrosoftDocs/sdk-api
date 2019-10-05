@@ -12,6 +12,8 @@ ms.keywords: DeleteOnClose, DeleteOnClose method [Remote Differential Compressio
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcFileWriter.DeleteOnClose"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

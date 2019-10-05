@@ -12,6 +12,8 @@ ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETR
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/InjectNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

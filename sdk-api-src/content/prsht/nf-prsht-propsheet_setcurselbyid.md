@@ -12,6 +12,8 @@ ms.keywords: PropSheet_SetCurSelByID, PropSheet_SetCurSelByID macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "prsht/PropSheet_SetCurSelByID"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

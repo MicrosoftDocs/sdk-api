@@ -12,6 +12,8 @@ ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthNam
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarMonthName"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

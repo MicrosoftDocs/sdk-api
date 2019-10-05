@@ -12,6 +12,8 @@ ms.keywords: COPP_AspectRatio_EN300294_Box14by9Center, COPP_AspectRatio_EN300294
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_ImageAspectRatio_EN300294"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

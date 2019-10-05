@@ -12,6 +12,8 @@ ms.keywords: ReportIScsiTargetPortalsA, ReportIscsiTargetPortals, ReportIscsiTar
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/ReportIscsiTargetPortals"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

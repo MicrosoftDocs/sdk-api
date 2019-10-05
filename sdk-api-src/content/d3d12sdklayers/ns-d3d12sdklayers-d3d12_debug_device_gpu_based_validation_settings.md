@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_DEVIC
 ms.topic: struct
 f1_keywords: 
  - "d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: D3d12sdklayers_RS1.h
 req.target-type: Windows

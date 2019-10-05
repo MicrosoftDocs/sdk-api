@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SYSTEMTIME, 0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9, PWRDS_
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_SYSTEMTIME"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

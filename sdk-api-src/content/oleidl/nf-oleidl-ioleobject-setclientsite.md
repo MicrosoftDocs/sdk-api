@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClie
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.SetClientSite"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

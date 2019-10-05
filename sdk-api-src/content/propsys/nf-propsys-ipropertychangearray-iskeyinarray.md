@@ -12,6 +12,8 @@ ms.keywords: IPropertyChangeArray interface [Windows Properties],IsKeyInArray me
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyChangeArray.IsKeyInArray
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

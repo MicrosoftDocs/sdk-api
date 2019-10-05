@@ -12,6 +12,8 @@ ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo st
 ms.topic: struct
 f1_keywords: 
  - "ndhelper/HelperAttributeInfo, *PHelperAttributeInfo"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDDGETAUTOFLIPIN, DDGETAUTOFLIPIN, DDGETAUTOFLIPIN structure [Di
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDGETAUTOFLIPIN"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

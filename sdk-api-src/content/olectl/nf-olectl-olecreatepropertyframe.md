@@ -12,6 +12,8 @@ ms.keywords: OleCreatePropertyFrame, OleCreatePropertyFrame function [COM], _ctr
 ms.topic: function
 f1_keywords: 
  - "olectl/OleCreatePropertyFrame"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PUSB_DRIVER_VERSION_PARAMETERS, PUSB_DRIVER_VERSION_PARAMETERS, P
 ms.topic: struct
 f1_keywords: 
  - "usbuser/USB_DRIVER_VERSION_PARAMETERS"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

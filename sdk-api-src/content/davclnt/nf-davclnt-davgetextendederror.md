@@ -12,6 +12,8 @@ ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavGetExtendedError"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

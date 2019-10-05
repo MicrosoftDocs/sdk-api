@@ -12,6 +12,8 @@ ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 10], GetVaria
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetVariableByName"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

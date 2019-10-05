@@ -12,6 +12,8 @@ ms.keywords: GetSubstituteKeyboardLayout, GetSubstituteKeyboardLayout method [Te
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: Msctf.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvQueryFont, DrvQueryFont function [Display Devices], ddifncs_b8a9
 ms.topic: function
 f1_keywords:
 - winddi/DrvQueryFont
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

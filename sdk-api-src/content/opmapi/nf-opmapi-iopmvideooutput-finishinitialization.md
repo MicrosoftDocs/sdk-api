@@ -12,6 +12,8 @@ ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "opmapi/IOPMVideoOutput.FinishInitialization"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

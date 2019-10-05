@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],ScheduleType property, IFaxDoc
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.ScheduleType"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

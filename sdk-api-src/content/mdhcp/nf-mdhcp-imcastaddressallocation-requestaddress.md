@@ -12,6 +12,8 @@ ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RequestAddress method,
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.RequestAddress"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

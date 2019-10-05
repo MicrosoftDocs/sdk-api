@@ -12,6 +12,8 @@ ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances me
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTask.GetInstances"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

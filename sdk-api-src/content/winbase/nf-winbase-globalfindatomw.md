@@ -12,6 +12,8 @@ ms.keywords: GlobalFindAtom, GlobalFindAtom function [Data Exchange], GlobalFind
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalFindAtom"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

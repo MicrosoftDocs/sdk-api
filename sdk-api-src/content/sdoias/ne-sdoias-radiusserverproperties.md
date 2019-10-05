@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_RADIUSSERVER_ACCT_PORT, PROPERTY_RADIUSSERVER_ACCT_SECRET,
 ms.topic: enum
 f1_keywords:
 - sdoias/RADIUSSERVERPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

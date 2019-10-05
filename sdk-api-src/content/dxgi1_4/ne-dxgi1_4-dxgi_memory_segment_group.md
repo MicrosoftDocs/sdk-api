@@ -12,6 +12,8 @@ ms.keywords: DXGI_MEMORY_SEGMENT_GROUP, DXGI_MEMORY_SEGMENT_GROUP enumeration [D
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

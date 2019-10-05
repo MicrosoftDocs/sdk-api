@@ -12,6 +12,8 @@ ms.keywords: GetStaticObjectPosition, GetStaticObjectPosition method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.GetStaticObjectPosition"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

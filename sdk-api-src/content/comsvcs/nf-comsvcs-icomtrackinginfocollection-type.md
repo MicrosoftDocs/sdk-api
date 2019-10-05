@@ -12,6 +12,8 @@ ms.keywords: IComTrackingInfoCollection interface [COM+],Type method, IComTracki
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComTrackingInfoCollection.Type"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

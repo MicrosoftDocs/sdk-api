@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableAutoProxy method,
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.put_EnableAutoProxy"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

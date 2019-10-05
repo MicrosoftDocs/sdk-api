@@ -8,6 +8,10 @@ ms.assetid: 362dd711-69dc-4d5c-bb6d-cc53aaec7be0
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::ClearState
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::ClearState, ClearState, ID3D12VideoProcessCommandList.ClearState, ID3D12VideoProcessCommandList::ClearState, ID3D12VideoProcessCommandList.ClearState
 req.header: d3d12video.h
 req.include-header:

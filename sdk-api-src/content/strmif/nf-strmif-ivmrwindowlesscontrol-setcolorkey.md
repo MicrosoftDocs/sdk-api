@@ -12,6 +12,8 @@ ms.keywords: IVMRWindowlessControl interface [DirectShow],SetColorKey method, IV
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRWindowlessControl.SetColorKey"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

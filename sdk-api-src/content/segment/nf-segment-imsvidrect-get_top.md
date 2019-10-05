@@ -12,6 +12,8 @@ ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IM
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidRect.get_Top"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

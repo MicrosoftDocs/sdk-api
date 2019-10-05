@@ -12,6 +12,8 @@ ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.Initialize"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

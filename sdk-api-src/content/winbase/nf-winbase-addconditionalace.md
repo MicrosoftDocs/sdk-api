@@ -12,6 +12,8 @@ ms.keywords: ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, 
 ms.topic: function
 f1_keywords:
 - winbase/AddConditionalAce
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.
 ms.topic: method
 f1_keywords:
 - objidlbase/IClientSecurity.SetBlanket
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

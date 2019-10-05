@@ -12,6 +12,8 @@ ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCen
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionRotateTransform3D.SetCenterY"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

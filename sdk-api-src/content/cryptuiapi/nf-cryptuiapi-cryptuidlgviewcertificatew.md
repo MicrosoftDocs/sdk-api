@@ -12,6 +12,8 @@ ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Secu
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CryptUIDlgViewCertificate"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

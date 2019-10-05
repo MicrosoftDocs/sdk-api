@@ -12,6 +12,8 @@ ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, bas
 ms.topic: function
 f1_keywords:
 - memoryapi/VirtualQueryEx
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

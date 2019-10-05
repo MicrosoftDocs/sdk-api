@@ -12,6 +12,8 @@ ms.keywords: PROPERTYUI_FLAGS, PROPERTYUI_FLAGS enumeration [Windows Properties]
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/PROPERTYUI_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundat
 ms.topic: struct
 f1_keywords: 
  - "mfmp2dlna/MFMPEG2DLNASINKSTATS"
+dev_langs:
+ - c++
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows

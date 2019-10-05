@@ -12,6 +12,8 @@ ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGetDCName"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

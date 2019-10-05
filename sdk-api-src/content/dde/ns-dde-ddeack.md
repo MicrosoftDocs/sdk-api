@@ -12,6 +12,8 @@ ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32
 ms.topic: struct
 f1_keywords: 
  - "dde/DDEACK"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

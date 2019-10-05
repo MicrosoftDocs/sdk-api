@@ -12,6 +12,8 @@ ms.keywords: 1, 2, NetUseAdd, NetUseAdd function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords:
 - lmuse/NetUseAdd
+dev_langs:
+ - c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

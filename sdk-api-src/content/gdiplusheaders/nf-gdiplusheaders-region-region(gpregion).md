@@ -12,6 +12,8 @@ ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Region"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

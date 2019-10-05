@@ -12,6 +12,8 @@ ms.keywords: D3D12_INPUT_CLASSIFICATION, D3D12_INPUT_CLASSIFICATION enumeration,
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_INPUT_CLASSIFICATION"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

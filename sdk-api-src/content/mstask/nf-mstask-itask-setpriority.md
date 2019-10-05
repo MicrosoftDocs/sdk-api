@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetPriority method, ITask.SetPrior
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetPriority"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

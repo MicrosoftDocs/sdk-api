@@ -12,6 +12,8 @@ ms.keywords: ISimilarityTraitsMappedView interface [Remote Differential Compress
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMappedView.Unmap"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

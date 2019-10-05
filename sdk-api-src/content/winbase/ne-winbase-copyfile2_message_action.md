@@ -12,6 +12,8 @@ ms.keywords: COPYFILE2_MESSAGE_ACTION, COPYFILE2_MESSAGE_ACTION enumeration [Fil
 ms.topic: enum
 f1_keywords: 
  - "winbase/COPYFILE2_MESSAGE_ACTION"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInitializeCommand interface [Windows Shell],Initialize method, IIn
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IInitializeCommand.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

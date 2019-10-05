@@ -12,6 +12,8 @@ ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function
 ms.topic: function
 f1_keywords: 
  - "winenclaveapi/EnclaveGetEnclaveInformation"
+dev_langs:
+ - c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

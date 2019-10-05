@@ -12,6 +12,8 @@ ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, I
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntry.SetDescriptionData"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

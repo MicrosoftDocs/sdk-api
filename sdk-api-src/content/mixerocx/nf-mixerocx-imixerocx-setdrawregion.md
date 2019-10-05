@@ -12,6 +12,8 @@ ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.Se
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.SetDrawRegion"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

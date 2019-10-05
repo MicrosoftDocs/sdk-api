@@ -12,6 +12,8 @@ ms.keywords: SysmonDataType, SysmonDataType enumeration [SysMon], base.sysmondat
 ms.topic: enum
 f1_keywords: 
  - "isysmon/SysmonDataType"
+dev_langs:
+ - c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

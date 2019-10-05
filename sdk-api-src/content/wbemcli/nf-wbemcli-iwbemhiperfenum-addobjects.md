@@ -12,6 +12,8 @@ ms.keywords: AddObjects, AddObjects method [Windows Management Instrumentation],
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemHiPerfEnum.AddObjects"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

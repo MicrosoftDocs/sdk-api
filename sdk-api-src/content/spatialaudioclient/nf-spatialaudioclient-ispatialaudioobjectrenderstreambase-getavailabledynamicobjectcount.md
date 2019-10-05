@@ -12,6 +12,8 @@ ms.keywords: GetAvailableDynamicObjectCount, GetAvailableDynamicObjectCount meth
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

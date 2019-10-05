@@ -12,6 +12,8 @@ ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUP
 ms.topic: function
 f1_keywords:
 - ktmw32/CreateEnlistment
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

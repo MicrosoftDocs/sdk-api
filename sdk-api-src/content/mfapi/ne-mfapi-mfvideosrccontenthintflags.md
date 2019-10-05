@@ -12,6 +12,8 @@ ms.keywords: 6166b880-36bc-4ac3-9d66-d3dd17c29ae7, MFVideoSrcContentHintFlag_16x
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideoSrcContentHintFlags"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

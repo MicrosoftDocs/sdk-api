@@ -12,6 +12,8 @@ ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo
 ms.topic: struct
 f1_keywords: 
  - "tcpioctl/IPSNMPInfo"
+dev_langs:
+ - c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

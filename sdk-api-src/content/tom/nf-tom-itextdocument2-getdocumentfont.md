@@ -12,6 +12,8 @@ ms.keywords: GetDocumentFont, GetDocumentFont method [Windows Controls], GetDocu
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetDocumentFont"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

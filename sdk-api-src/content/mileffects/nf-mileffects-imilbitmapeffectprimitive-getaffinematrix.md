@@ -12,6 +12,8 @@ ms.keywords: GetAffineMatrix, GetAffineMatrix method [WPF Bitmap Effects], GetAf
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitive.GetAffineMatrix"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

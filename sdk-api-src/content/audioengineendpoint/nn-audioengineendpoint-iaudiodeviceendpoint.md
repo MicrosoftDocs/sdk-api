@@ -12,6 +12,8 @@ ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Deskto
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioDeviceEndpoint"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

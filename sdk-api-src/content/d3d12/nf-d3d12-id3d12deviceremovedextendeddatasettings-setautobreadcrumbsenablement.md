@@ -11,6 +11,8 @@ ms.keywords: SetAutoBreadcrumbsEnablement, SetAutoBreadcrumbsEnablement method, 
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement"
+dev_langs:
+ - c++
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

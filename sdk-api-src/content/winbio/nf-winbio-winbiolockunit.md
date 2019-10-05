@@ -12,6 +12,8 @@ ms.keywords: WinBioLockUnit, WinBioLockUnit function [Windows Biometric Framewor
 ms.topic: function
 f1_keywords:
 - winbio/WinBioLockUnit
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

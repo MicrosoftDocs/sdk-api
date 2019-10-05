@@ -12,6 +12,8 @@ ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreate
 ms.topic: function
 f1_keywords: 
  - "wsdxml/WSDXMLCreateContext"
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows

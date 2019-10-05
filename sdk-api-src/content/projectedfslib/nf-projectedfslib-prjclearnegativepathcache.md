@@ -12,6 +12,8 @@ ms.keywords: PrjClearNegativePathCache, PrjClearNegativePathCache function, Proj
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjClearNegativePathCache"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

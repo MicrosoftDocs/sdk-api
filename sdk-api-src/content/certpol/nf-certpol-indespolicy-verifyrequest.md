@@ -12,6 +12,8 @@ ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.
 ms.topic: method
 f1_keywords: 
  - "certpol/INDESPolicy.VerifyRequest"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

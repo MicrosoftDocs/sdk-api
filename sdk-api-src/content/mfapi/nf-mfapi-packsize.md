@@ -12,6 +12,8 @@ ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/
 ms.topic: function
 f1_keywords: 
  - "mfapi/PackSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

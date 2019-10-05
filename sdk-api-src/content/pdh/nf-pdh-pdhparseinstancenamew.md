@@ -12,6 +12,8 @@ ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhPars
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhParseInstanceName"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

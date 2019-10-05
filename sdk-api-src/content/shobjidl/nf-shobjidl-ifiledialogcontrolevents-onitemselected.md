@@ -12,6 +12,8 @@ ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnItemSelected m
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFileDialogControlEvents.OnItemSelected"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

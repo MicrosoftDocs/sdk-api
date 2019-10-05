@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortGetConnectInfo, DdVideoPortGetConnectInfo callback funct
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetConnectInfo
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

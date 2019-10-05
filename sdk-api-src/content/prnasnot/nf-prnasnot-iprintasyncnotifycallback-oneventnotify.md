@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify met
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyCallback.OnEventNotify"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [F
 ms.topic: callback
 f1_keywords: 
  - "resapi/ResourceCallbackEx"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFUnlockPlatform, MFUnlockPlatform function [Media Foundation], d4c
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFUnlockPlatform"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

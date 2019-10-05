@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamBuffering interface [Media Foundation],StopBuffering m
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamBuffering.StopBuffering"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

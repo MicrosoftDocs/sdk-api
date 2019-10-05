@@ -12,6 +12,8 @@ ms.keywords: PRJ_GET_FILE_DATA_CB, PRJ_GET_FILE_DATA_CB callback, PRJ_GET_FILE_D
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_GET_FILE_DATA_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

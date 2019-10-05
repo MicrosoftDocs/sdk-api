@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, 4, 5, PARAFORMAT, PARAFORMAT structure [Windows Control
 ms.topic: struct
 f1_keywords: 
  - "richedit/PARAFORMAT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

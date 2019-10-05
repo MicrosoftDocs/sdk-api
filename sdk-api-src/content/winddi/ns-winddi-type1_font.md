@@ -12,6 +12,8 @@ ms.keywords: TYPE1_FONT, TYPE1_FONT structure [Display Devices], display.type1_f
 ms.topic: struct
 f1_keywords:
 - winddi/TYPE1_FONT
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

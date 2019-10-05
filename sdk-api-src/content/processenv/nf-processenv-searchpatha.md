@@ -12,6 +12,8 @@ ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, 
 ms.topic: function
 f1_keywords: 
  - "processenv/SearchPath"
+dev_langs:
+ - c++
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows

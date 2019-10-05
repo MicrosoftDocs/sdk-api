@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMute method, IAudioE
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.SetMute"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

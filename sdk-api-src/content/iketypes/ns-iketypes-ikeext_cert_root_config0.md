@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD, IKEEXT_CERT_FLAG_ENABLE_A
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CERT_ROOT_CONFIG0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

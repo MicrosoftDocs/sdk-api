@@ -12,6 +12,8 @@ ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildre
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider.GetChildren"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

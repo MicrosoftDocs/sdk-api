@@ -12,6 +12,8 @@ ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Wind
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeAnimationProperty"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CachedDescription property [Windows Accessibility], CachedDescripti
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDescription"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

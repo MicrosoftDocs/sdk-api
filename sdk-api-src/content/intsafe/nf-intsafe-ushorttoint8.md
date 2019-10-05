@@ -12,6 +12,8 @@ ms.keywords: UShortToInt8, UShortToInt8 function [Windows Shell], intsafe/UShort
 ms.topic: function
 f1_keywords: 
  - "intsafe/UShortToInt8"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

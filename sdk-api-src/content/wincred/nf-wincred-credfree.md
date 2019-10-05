@@ -12,6 +12,8 @@ ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.cr
 ms.topic: function
 f1_keywords: 
  - "wincred/CredFree"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

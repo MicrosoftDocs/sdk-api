@@ -12,6 +12,8 @@ ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty m
 ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.SetSnapshotProperty
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

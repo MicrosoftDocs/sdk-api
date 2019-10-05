@@ -12,6 +12,8 @@ ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IE
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IEnumVdsObject.Next"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameE
 ms.topic: function
 f1_keywords: 
  - "secext/GetUserNameEx"
+dev_langs:
+ - c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

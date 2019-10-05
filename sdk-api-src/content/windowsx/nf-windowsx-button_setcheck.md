@@ -12,6 +12,8 @@ ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, But
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_SetCheck"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

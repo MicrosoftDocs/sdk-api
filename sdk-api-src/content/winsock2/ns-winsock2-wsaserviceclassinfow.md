@@ -12,6 +12,8 @@ ms.keywords: '*LPWSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, PWSASERVICECLASSI
 ms.topic: struct
 f1_keywords:
 - winsock2/WSASERVICECLASSINFO
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

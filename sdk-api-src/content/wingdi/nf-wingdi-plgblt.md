@@ -12,6 +12,8 @@ ms.keywords: PlgBlt, PlgBlt function [Windows GDI], _win32_PlgBlt, gdi.plgblt, w
 ms.topic: function
 f1_keywords: 
  - "wingdi/PlgBlt"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWTSINFOEX_LEVEL_A, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union poin
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSINFOEX_LEVEL
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

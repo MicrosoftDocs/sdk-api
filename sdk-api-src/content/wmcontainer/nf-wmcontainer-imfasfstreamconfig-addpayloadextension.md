@@ -12,6 +12,8 @@ ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPaylo
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.AddPayloadExtension"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

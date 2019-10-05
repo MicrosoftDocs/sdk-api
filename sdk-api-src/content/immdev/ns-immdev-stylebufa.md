@@ -12,6 +12,8 @@ ms.keywords: "*LPSTYLEBUFA, *NPSTYLEBUFA, *PSTYLEBUFA, PSTYLEBUF, PSTYLEBUF stru
 ms.topic: struct
 f1_keywords: 
  - "immdev/STYLEBUF"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

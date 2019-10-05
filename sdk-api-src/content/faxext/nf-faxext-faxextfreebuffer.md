@@ -12,6 +12,8 @@ ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_fa
 ms.topic: function
 f1_keywords: 
  - "faxext/FaxExtFreeBuffer"
+dev_langs:
+ - c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

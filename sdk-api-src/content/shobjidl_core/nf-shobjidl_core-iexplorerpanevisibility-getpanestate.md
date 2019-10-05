@@ -12,6 +12,8 @@ ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_Vie
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerPaneVisibility.GetPaneState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

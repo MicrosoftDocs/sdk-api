@@ -12,6 +12,8 @@ ms.keywords: "*PKEYBOARD_UNIT_ID_PARAMETER, KEYBOARD_UNIT_ID_PARAMETER, KEYBOARD
 ms.topic: struct
 f1_keywords: 
  - "ntddkbd/KEYBOARD_UNIT_ID_PARAMETER"
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

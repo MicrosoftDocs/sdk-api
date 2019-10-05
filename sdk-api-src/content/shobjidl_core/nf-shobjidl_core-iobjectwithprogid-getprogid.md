@@ -12,6 +12,8 @@ ms.keywords: GetProgID, GetProgID method [Windows Shell], GetProgID method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IObjectWithProgID.GetProgID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

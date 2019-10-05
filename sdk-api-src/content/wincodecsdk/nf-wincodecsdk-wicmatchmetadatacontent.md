@@ -12,6 +12,8 @@ ms.keywords: WICMatchMetadataContent, WICMatchMetadataContent function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wincodecsdk/WICMatchMetadataContent"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows

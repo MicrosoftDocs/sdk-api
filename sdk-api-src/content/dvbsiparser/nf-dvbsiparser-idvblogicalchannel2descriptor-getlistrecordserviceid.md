@@ -12,6 +12,8 @@ ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordServiceId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

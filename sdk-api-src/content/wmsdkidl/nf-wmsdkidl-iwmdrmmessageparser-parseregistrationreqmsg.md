@@ -12,6 +12,8 @@ ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrat
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMMessageParser.ParseRegistrationReqMsg
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 120b8070-6732-450d-8334-b3910f7bb4d2, ActivateObject, ActivateObjec
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFActivate.ActivateObject"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

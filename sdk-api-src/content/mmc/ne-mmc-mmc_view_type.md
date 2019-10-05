@@ -12,6 +12,8 @@ ms.keywords: MMC_VIEW_TYPE, MMC_VIEW_TYPE enumeration [MMC], MMC_VIEW_TYPE_HTML,
 ms.topic: enum
 f1_keywords:
 - mmc/MMC_VIEW_TYPE
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

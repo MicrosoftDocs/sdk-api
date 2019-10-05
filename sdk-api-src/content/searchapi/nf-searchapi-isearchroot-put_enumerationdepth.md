@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],put_EnumerationDepth method, ISearch
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.put_EnumerationDepth"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

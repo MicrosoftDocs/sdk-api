@@ -12,6 +12,8 @@ ms.keywords: INSTALLPROPERTY_DISPLAYNAME, INSTALLPROPERTY_INSTALLDATE, INSTALLPR
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetPatchInfoEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

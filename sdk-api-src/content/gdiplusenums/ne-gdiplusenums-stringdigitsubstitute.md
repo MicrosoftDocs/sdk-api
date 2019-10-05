@@ -12,6 +12,8 @@ ms.keywords: StringDigitSubstitute, StringDigitSubstitute enumeration [GDI+], St
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/StringDigitSubstitute"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

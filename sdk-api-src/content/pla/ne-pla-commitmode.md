@@ -12,6 +12,8 @@ ms.keywords: CommitMode, CommitMode enumeration [PLA], base.commitmode, pla.comm
 ms.topic: enum
 f1_keywords: 
  - "pla/CommitMode"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

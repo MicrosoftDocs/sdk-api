@@ -12,6 +12,8 @@ ms.keywords: IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "dxva2api/IDirectXVideoProcessor"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

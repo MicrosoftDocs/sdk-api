@@ -12,6 +12,8 @@ ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnLatticeUpdate
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnAdviseText.OnLatticeUpdate"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

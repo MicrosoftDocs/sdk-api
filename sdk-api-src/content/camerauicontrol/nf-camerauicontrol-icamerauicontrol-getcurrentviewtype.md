@@ -12,6 +12,8 @@ ms.keywords: GetCurrentViewType, GetCurrentViewType method [Windows API], GetCur
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.GetCurrentViewType"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdv
 ms.topic: method
 f1_keywords: 
  - "objidl/IAdviseSink.OnSave"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D12SharingContract interface,SharedFenceSignal method, ID3D12Sha
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12SharingContract.SharedFenceSignal"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows

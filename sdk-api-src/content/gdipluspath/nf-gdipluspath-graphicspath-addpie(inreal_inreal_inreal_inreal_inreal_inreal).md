@@ -12,6 +12,8 @@ ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath cla
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddPie"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

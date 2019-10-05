@@ -12,6 +12,8 @@ ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem meth
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService3.GetDictionaryItem"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

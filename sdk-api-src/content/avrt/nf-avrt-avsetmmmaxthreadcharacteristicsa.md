@@ -12,6 +12,8 @@ ms.keywords: AvSetMmMaxThreadCharacteristics, AvSetMmMaxThreadCharacteristics fu
 ms.topic: function
 f1_keywords: 
  - "avrt/AvSetMmMaxThreadCharacteristics"
+dev_langs:
+ - c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

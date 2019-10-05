@@ -12,6 +12,8 @@ ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector fu
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitPropVariantFromDoubleVector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

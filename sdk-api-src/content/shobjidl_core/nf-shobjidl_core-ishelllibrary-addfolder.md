@@ -12,6 +12,8 @@ ms.keywords: AddFolder, AddFolder method [Windows Shell], AddFolder method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLibrary.AddFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

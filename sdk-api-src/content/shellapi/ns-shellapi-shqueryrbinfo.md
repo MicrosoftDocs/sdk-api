@@ -12,6 +12,8 @@ ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure point
 ms.topic: struct
 f1_keywords: 
  - "shellapi/SHQUERYRBINFO"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

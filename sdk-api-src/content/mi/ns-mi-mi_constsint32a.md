@@ -12,6 +12,8 @@ ms.keywords: MI_ConstSint32A, MI_ConstSint32A structure [Windows Management Infr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_ConstSint32A"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

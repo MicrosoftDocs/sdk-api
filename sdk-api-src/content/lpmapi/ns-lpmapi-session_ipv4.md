@@ -12,6 +12,8 @@ ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Session_IPv4"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

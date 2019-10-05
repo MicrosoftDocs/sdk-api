@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_PROPERTY, EAP_METHOD_PROPERTY structure [EAPHost], PEAP_
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_PROPERTY
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

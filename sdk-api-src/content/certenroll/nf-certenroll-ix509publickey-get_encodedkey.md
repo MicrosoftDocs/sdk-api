@@ -12,6 +12,8 @@ ms.keywords: EncodedKey property [Security], EncodedKey property [Security],IX50
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PublicKey.EncodedKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

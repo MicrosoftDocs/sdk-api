@@ -12,6 +12,8 @@ ms.keywords: 5d6e7147-b312-4989-8d8f-88cb2221f6f0, IInkStrokes interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.RecognitionResult"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

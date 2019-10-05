@@ -12,6 +12,8 @@ ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swde
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDeviceClose"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

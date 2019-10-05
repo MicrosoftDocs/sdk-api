@@ -12,6 +12,8 @@ ms.keywords: CreateChar16Array, CreateChar16Array method [Windows Runtime], Crea
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateChar16Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

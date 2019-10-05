@@ -12,6 +12,8 @@ ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL st
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

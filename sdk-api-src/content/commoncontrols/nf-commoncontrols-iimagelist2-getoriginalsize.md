@@ -12,6 +12,8 @@ ms.keywords: GetOriginalSize, GetOriginalSize method [Windows Controls], GetOrig
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.GetOriginalSize"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFECOuter, GetFECOuter method [Microsoft TV Technologies], GetFEC
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFECOuter"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

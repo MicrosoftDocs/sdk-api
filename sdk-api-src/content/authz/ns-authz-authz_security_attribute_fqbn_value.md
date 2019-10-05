@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQ
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

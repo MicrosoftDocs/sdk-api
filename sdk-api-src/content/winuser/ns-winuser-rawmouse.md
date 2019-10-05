@@ -12,6 +12,8 @@ ms.keywords: "*LPRAWMOUSE, *PRAWMOUSE, LPRAWMOUSE, LPRAWMOUSE structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "winuser/RAWMOUSE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.g
 ms.topic: function
 f1_keywords: 
  - "winuser/GetGestureInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

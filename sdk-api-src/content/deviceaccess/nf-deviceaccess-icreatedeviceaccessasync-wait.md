@@ -12,6 +12,8 @@ ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait 
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/ICreateDeviceAccessAsync.Wait"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

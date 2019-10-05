@@ -12,6 +12,8 @@ ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator i
 ms.topic: interface
 f1_keywords: 
  - "wcmconfig/IItemEnumerator"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

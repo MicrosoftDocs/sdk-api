@@ -12,6 +12,8 @@ ms.keywords: IVMRMixerBitmap9 interface [DirectShow],UpdateAlphaBitmapParameters
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerBitmap9.UpdateAlphaBitmapParameters
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

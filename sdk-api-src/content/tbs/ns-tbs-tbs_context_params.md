@@ -12,6 +12,8 @@ ms.keywords: "*PTBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS struc
 ms.topic: struct
 f1_keywords: 
  - "tbs/TBS_CONTEXT_PARAMS"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMSCEPSetupProperty, GetMSCEPSetupProperty method [Security], Get
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.GetMSCEPSetupProperty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

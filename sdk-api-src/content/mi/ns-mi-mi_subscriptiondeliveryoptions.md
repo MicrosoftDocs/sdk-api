@@ -12,6 +12,8 @@ ms.keywords: MI_SubscriptionDeliveryOptions, MI_SubscriptionDeliveryOptions stru
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_SubscriptionDeliveryOptions"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

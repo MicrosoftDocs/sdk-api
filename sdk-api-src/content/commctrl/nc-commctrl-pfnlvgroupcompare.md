@@ -12,6 +12,8 @@ ms.keywords: LVGroupCompare, PFNLVGROUPCOMPARE, PFNLVGROUPCOMPARE callback, PFNL
 ms.topic: callback
 f1_keywords: 
  - "commctrl/PFNLVGROUPCOMPARE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

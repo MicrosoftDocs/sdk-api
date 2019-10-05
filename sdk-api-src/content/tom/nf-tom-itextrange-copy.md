@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Copy"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

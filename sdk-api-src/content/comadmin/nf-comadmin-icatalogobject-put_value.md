@@ -12,6 +12,8 @@ ms.keywords: ICatalogObject interface [COM+],Value property, ICatalogObject.Valu
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogObject.Value"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

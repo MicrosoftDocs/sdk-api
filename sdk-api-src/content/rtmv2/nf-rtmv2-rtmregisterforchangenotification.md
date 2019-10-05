@@ -12,6 +12,8 @@ ms.keywords: RTM_CHANGE_TYPE_ALL, RTM_CHANGE_TYPE_BEST, RTM_CHANGE_TYPE_FORWARDI
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmRegisterForChangeNotification"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

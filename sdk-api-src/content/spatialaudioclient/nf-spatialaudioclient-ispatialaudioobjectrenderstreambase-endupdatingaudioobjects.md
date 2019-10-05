@@ -12,6 +12,8 @@ ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

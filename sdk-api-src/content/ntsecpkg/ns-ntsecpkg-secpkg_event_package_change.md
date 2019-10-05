@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECP
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

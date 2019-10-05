@@ -12,6 +12,8 @@ ms.keywords: NdrStubGetBuffer, NdrStubGetBuffer function [RPC], rpc.ndrstubgetbu
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrStubGetBuffer
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

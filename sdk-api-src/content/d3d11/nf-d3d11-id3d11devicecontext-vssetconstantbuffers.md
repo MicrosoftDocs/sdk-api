@@ -12,6 +12,8 @@ ms.keywords: 2cf038d8-59ab-1d57-c785-ed14b6a1c06e, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.VSSetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

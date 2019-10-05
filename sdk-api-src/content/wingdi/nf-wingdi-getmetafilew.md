@@ -12,6 +12,8 @@ ms.keywords: GetMetaFile, GetMetaFile function [Windows GDI], GetMetaFileA, GetM
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

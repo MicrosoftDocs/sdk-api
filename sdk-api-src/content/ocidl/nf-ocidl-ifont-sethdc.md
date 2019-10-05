@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],SetHdc method, IFont.SetHdc, IFont::SetHdc, S
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.SetHdc"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

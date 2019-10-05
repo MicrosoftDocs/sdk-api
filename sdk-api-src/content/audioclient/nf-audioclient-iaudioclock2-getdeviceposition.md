@@ -12,6 +12,8 @@ ms.keywords: GetDevicePosition, GetDevicePosition method [Core Audio], GetDevice
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClock2.GetDevicePosition"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

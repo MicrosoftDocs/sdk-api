@@ -12,6 +12,8 @@ ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression
 ms.topic: interface
 f1_keywords: 
  - "msrdc/IRdcLibrary"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

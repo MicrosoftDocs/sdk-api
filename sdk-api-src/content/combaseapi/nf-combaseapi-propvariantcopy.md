@@ -12,6 +12,8 @@ ms.keywords: PropVariantCopy, PropVariantCopy function [Structured Storage], _st
 ms.topic: function
 f1_keywords: 
  - "combaseapi/PropVariantCopy"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

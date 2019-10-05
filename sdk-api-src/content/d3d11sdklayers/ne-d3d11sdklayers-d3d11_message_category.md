@@ -12,6 +12,8 @@ ms.keywords: 2ba52fac-75ec-4d76-4f85-c3a01fddd778, D3D11_MESSAGE_CATEGORY, D3D11
 ms.topic: enum
 f1_keywords: 
  - "d3d11sdklayers/D3D11_MESSAGE_CATEGORY"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

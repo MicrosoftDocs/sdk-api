@@ -12,6 +12,8 @@ ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublish
 ms.topic: interface
 f1_keywords: 
  - "shappmgr/IAppPublisher"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

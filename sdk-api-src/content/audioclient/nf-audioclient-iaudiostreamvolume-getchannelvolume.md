@@ -12,6 +12,8 @@ ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelV
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioStreamVolume.GetChannelVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

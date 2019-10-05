@@ -12,6 +12,8 @@ ms.keywords: Caption1, Caption2, MSVidCCService, MSVidCCService enumeration [Mic
 ms.topic: enum
 f1_keywords: 
  - "segment/MSVidCCService"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows

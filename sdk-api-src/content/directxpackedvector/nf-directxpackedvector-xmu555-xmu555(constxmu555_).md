@@ -12,6 +12,8 @@ ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 cons
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMU555.XMU555"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetEnumerateServiceAccounts"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

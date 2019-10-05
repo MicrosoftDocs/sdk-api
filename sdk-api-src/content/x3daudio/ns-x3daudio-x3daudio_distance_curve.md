@@ -12,6 +12,8 @@ ms.keywords: "*LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_
 ms.topic: struct
 f1_keywords: 
  - "x3daudio/X3DAUDIO_DISTANCE_CURVE"
+dev_langs:
+ - c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials 
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpServerQueryDnsRegCredentials"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

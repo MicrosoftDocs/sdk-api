@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeStartLi
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.SetStrokeStartLineCap"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

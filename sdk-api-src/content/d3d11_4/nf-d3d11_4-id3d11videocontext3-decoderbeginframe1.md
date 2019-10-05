@@ -5,6 +5,10 @@ description: Starts a decoding operation to decode a video frame.
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
 ms.topic: language-reference
+f1_keywords:
+ - ID3D11VideoContext3::DecoderBeginFrame1
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyChannel"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

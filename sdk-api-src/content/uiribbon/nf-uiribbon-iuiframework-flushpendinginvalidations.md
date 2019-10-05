@@ -12,6 +12,8 @@ ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Window
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.FlushPendingInvalidations"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

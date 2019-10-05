@@ -12,6 +12,8 @@ ms.keywords: D2D1_ORIENTATION, D2D1_ORIENTATION enumeration [Direct2D], D2D1_ORI
 ms.topic: enum
 f1_keywords: 
  - "d2d1_3/D2D1_ORIENTATION"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_HANDLER_CAPABILITIES, SYNCMGR_HANDLER_CAPABILITIES enumerat
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_HANDLER_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

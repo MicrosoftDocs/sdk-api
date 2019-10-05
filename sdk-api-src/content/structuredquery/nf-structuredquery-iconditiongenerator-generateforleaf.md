@@ -12,6 +12,8 @@ ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf m
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionGenerator.GenerateForLeaf"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

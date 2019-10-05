@@ -12,6 +12,8 @@ ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method
 ms.topic: method
 f1_keywords:
 - iads/IDirectoryObject.CreateDSObject
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

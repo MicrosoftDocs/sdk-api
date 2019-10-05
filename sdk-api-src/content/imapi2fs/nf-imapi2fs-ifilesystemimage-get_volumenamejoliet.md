@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameJoliet method, IFi
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.get_VolumeNameJoliet"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

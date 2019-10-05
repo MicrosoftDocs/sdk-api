@@ -12,6 +12,8 @@ ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e
 ms.topic: function
 f1_keywords:
 - winddi/DrvNotify
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

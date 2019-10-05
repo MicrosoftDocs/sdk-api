@@ -12,6 +12,8 @@ ms.keywords: '*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN
 ms.topic: struct
 f1_keywords:
 - winddi/WCRUN
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

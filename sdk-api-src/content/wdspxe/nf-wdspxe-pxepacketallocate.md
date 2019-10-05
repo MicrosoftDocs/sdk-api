@@ -12,6 +12,8 @@ ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment S
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxePacketAllocate"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

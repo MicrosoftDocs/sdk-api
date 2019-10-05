@@ -12,6 +12,8 @@ ms.keywords: PSYM_ENUMSYMBOLS_CALLBACK, PSYM_ENUMSYMBOLS_CALLBACK64, PSYM_ENUMSY
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/SymEnumerateSymbolsProc64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

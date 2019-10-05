@@ -12,6 +12,8 @@ ms.keywords: "*LPDIHIDFFINITINFO, DIHIDFFINITINFO, DIHIDFFINITINFO structure [Hu
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIHIDFFINITINFO"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

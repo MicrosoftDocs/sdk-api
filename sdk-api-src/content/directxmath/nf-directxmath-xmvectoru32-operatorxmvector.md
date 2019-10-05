@@ -9,6 +9,8 @@ ms.keywords: XMVECTORU32::operator XMVECTOR
 ms.topic: language-reference
 f1_keywords: 
  - "directxmath/XMVECTORU32::operator XMVECTOR"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

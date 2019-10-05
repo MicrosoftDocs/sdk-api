@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_STATUS, ClusterResourceFailed, ClusterResourceOffline, 
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESOURCE_STATUS"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

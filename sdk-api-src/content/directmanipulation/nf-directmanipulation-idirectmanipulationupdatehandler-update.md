@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationUpdateHandler interface [Direct Manipulation],Up
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationUpdateHandler.Update"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

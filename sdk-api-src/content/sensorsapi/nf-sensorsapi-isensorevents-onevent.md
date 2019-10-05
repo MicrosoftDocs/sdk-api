@@ -12,6 +12,8 @@ ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISen
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorEvents.OnEvent"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

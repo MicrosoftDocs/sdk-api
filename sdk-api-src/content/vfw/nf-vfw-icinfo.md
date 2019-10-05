@@ -12,6 +12,8 @@ ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multim
 ms.topic: function
 f1_keywords: 
  - "vfw/ICInfo"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

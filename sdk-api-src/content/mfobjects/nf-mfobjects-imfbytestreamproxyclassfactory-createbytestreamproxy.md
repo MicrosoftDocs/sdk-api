@@ -12,6 +12,8 @@ ms.keywords: CreateByteStreamProxy, CreateByteStreamProxy method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStreamProxyClassFactory.CreateByteStreamProxy"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.idl
 req.target-type: Windows

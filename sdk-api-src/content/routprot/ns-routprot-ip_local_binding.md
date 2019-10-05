@@ -12,6 +12,8 @@ ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [
 ms.topic: struct
 f1_keywords: 
  - "routprot/IP_LOCAL_BINDING"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

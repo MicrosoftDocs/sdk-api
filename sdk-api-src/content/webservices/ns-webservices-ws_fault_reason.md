@@ -12,6 +12,8 @@ ms.keywords: WS_FAULT_REASON, WS_FAULT_REASON structure [Web Services for Window
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_FAULT_REASON"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

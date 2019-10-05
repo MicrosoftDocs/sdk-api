@@ -12,6 +12,8 @@ ms.keywords: IAudioRenderClient interface [Core Audio],ReleaseBuffer method, IAu
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioRenderClient.ReleaseBuffer"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

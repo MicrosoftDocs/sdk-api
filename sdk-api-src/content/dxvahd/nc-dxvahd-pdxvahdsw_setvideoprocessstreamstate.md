@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_SetVideoProcessStreamState, PDXVAHDSW_SetVideoProcessStre
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_SetVideoProcessStreamState
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

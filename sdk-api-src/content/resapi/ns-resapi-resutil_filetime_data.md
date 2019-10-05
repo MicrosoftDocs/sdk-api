@@ -12,6 +12,8 @@ ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESUTIL_FILETIME_DATA"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

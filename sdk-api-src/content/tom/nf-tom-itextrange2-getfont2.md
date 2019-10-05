@@ -12,6 +12,8 @@ ms.keywords: GetFont2, GetFont2 method [Windows Controls], GetFont2 method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetFont2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

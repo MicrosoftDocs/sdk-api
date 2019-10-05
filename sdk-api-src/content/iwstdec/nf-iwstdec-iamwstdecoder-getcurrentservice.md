@@ -12,6 +12,8 @@ ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurren
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetCurrentService
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

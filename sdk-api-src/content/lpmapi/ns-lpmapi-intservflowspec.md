@@ -12,6 +12,8 @@ ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/IntServFlowSpec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

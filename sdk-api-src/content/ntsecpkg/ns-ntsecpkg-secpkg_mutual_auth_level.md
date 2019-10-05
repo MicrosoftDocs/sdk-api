@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUT
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEnrollmentServerUrl, GetEnrollmentServerUrl method [Security], G
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

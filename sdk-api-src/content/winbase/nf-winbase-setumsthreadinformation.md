@@ -12,6 +12,8 @@ ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.set
 ms.topic: function
 f1_keywords:
 - winbase/SetUmsThreadInformation
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMult
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMultiMediaStream.OpenFile"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

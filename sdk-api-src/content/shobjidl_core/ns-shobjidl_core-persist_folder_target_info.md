@@ -12,6 +12,8 @@ ms.keywords: CSIDL_FLAG_CREATE, CSIDL_FLAG_PFTI_TRACKTARGET, PERSIST_FOLDER_TARG
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/PERSIST_FOLDER_TARGET_INFO"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

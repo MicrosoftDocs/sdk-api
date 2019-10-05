@@ -12,6 +12,8 @@ ms.keywords: ERROR_ACCESS_DENIED, ERROR_CANCELLED, ERROR_MORE_DATA, ERROR_OBJECT
 ms.topic: callback
 f1_keywords:
 - wct/PWAITCHAINCALLBACK
+dev_langs:
+ - c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

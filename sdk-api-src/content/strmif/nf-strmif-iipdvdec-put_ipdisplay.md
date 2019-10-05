@@ -12,6 +12,8 @@ ms.keywords: IIPDVDec interface [DirectShow],put_IPDisplay method, IIPDVDec.put_
 ms.topic: method
 f1_keywords: 
  - "strmif/IIPDVDec.put_IPDisplay"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

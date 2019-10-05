@@ -12,6 +12,8 @@ ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Fra
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfMouseTrackerACP"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMPTemplateSize, WMPTemplateSize enumeration [Windows Media Player]
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPTemplateSize"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

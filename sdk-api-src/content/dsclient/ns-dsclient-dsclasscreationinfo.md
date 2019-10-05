@@ -12,6 +12,8 @@ ms.keywords: "*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPR
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSCLASSCREATIONINFO"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

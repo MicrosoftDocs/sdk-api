@@ -12,6 +12,8 @@ ms.keywords: DrvQueryPerBandInfo, DrvQueryPerBandInfo function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/DrvQueryPerBandInfo
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

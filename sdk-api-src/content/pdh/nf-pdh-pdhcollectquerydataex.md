@@ -12,6 +12,8 @@ ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win3
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhCollectQueryDataEx"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

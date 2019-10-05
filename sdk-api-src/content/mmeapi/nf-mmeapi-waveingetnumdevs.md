@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInGetNumDevs, mmeapi/waveInGetNumDevs, multimedia.wavei
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInGetNumDevs"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

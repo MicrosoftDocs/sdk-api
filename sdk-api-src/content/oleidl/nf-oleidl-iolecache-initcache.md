@@ -12,6 +12,8 @@ ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCache.InitCache"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

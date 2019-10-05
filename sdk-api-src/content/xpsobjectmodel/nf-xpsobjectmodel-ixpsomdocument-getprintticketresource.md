@@ -12,6 +12,8 @@ ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Document
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocument.GetPrintTicketResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

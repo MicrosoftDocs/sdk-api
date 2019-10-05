@@ -12,6 +12,8 @@ ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agen
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IImageInformation"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

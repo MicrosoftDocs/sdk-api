@@ -12,6 +12,8 @@ ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, Ras
 ms.topic: function
 f1_keywords: 
  - "ras/RasDeleteEntry"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

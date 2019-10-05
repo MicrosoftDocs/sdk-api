@@ -12,6 +12,8 @@ ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.nd
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrSimpleTypeMarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

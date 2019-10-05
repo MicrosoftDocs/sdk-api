@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceSAN interface,SetSANPolicy method, IVdsServiceSAN.SetSAN
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceSAN.SetSANPolicy
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetStor
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference.SetStoryFragmentsResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

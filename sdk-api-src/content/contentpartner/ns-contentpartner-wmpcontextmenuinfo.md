@@ -12,6 +12,8 @@ ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Pla
 ms.topic: struct
 f1_keywords: 
  - "contentpartner/WMPContextMenuInfo"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

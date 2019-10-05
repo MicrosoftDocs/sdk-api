@@ -12,6 +12,8 @@ ms.keywords: VarParseNumFromStr, VarParseNumFromStr function [Automation], _oa96
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarParseNumFromStr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

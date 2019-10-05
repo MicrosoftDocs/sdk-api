@@ -12,6 +12,8 @@ ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, C
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.CThreadBase"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

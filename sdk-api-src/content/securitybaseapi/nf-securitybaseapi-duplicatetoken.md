@@ -12,6 +12,8 @@ ms.keywords: DuplicateToken, DuplicateToken function [Security], _win32_duplicat
 ms.topic: function
 f1_keywords:
 - securitybaseapi/DuplicateToken
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

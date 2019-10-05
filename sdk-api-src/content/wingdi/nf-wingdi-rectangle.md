@@ -12,6 +12,8 @@ ms.keywords: Rectangle, Rectangle function [Windows GDI], _win32_Rectangle, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/Rectangle"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

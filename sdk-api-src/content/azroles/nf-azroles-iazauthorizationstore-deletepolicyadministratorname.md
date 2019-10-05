@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministratorNam
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.DeletePolicyAdministratorName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

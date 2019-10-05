@@ -12,6 +12,8 @@ ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSubs
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterfaceEvents.OnSubscriberInformationChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

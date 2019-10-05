@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TYPOGRAPHIC_FEATURES, DWRITE_TYPOGRAPHIC_FEATURES structure 
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_TYPOGRAPHIC_FEATURES"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

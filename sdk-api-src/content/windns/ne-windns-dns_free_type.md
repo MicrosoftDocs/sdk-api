@@ -12,6 +12,8 @@ ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFre
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_FREE_TYPE"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

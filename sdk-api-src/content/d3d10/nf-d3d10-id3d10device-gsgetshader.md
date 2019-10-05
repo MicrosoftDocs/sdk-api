@@ -12,6 +12,8 @@ ms.keywords: GSGetShader, GSGetShader method [Direct3D 10], GSGetShader method [
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GSGetShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

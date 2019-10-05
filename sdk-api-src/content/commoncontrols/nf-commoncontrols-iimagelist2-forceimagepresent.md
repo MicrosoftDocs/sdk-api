@@ -12,6 +12,8 @@ ms.keywords: ForceImagePresent, ForceImagePresent method [Windows Controls], For
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.ForceImagePresent"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

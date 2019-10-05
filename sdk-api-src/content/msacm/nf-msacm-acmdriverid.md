@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmDriverID, acmDriverID, acmDriverID function [Windows Mul
 ms.topic: function
 f1_keywords: 
  - "msacm/acmDriverID"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

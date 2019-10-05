@@ -12,6 +12,8 @@ ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], 
 ms.topic: function
 f1_keywords: 
  - "rometadataresolution/RoResolveNamespace"
+dev_langs:
+ - c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

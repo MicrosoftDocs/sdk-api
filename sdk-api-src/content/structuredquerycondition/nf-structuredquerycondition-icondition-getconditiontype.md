@@ -12,6 +12,8 @@ ms.keywords: GetConditionType, GetConditionType method [search], GetConditionTyp
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetConditionType"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

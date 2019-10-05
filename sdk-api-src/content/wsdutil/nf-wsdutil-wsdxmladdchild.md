@@ -12,6 +12,8 @@ ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsduti
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDXMLAddChild
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

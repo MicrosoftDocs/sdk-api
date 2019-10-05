@@ -12,6 +12,8 @@ ms.keywords: CPFS_DISPLAY_IN_BOTH, CPFS_DISPLAY_IN_DESELECTED_TILE, CPFS_DISPLAY
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_STATE"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

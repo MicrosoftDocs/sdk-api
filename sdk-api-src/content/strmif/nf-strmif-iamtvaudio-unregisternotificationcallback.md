@@ -12,6 +12,8 @@ ms.keywords: IAMTVAudio interface [DirectShow],UnRegisterNotificationCallBack me
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTVAudio.UnRegisterNotificationCallBack"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCASFailureCode, GetCASFailureCode method [DirectShow], GetCASFai
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetCASFailureCode"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

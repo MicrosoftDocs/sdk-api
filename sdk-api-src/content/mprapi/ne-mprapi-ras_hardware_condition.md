@@ -12,6 +12,8 @@ ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], R
 ms.topic: enum
 f1_keywords: 
  - "mprapi/RAS_HARDWARE_CONDITION"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Secu
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupTruncateLogs"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

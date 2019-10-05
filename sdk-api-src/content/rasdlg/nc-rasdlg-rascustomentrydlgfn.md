@@ -12,6 +12,8 @@ ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCu
 ms.topic: callback
 f1_keywords: 
  - "rasdlg/RasCustomEntryDlg"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

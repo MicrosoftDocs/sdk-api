@@ -12,6 +12,8 @@ ms.keywords: GetInteriorInputConnector, GetInteriorInputConnector method [WPF Bi
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectGroup.GetInteriorInputConnector"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

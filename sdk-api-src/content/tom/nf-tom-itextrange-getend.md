@@ -12,6 +12,8 @@ ms.keywords: GetEnd, GetEnd method [Windows Controls], GetEnd method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetEnd"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

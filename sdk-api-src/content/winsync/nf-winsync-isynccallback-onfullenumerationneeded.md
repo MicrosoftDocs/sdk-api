@@ -12,6 +12,8 @@ ms.keywords: ISyncCallback interface [Windows Sync],OnFullEnumerationNeeded meth
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncCallback.OnFullEnumerationNeeded"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

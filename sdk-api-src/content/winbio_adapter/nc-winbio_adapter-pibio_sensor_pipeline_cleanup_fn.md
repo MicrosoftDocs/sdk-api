@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_PIPELINE_CLEANUP_FN, PIBIO_SENSOR_PIPELINE_CLEANUP_FN 
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterPipelineCleanup
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

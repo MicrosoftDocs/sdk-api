@@ -12,6 +12,8 @@ ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingMode method, I
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRFilterConfig9.SetRenderingMode"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

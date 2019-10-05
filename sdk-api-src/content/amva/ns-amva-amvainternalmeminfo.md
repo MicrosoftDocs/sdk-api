@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo s
 ms.topic: struct
 f1_keywords: 
  - "amva/AMVAInternalMemInfo"
+dev_langs:
+ - c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

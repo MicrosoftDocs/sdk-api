@@ -12,6 +12,8 @@ ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeC
 ms.topic: interface
 f1_keywords: 
  - "winsync/IChangeConflict"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

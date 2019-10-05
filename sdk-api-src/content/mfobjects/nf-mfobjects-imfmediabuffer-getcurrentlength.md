@@ -12,6 +12,8 @@ ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength, GetCurrentL
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer.GetCurrentLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

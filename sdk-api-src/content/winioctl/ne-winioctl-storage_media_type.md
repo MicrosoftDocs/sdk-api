@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_MEDIA_TYPE, ABL_5_WO, ADR_1, ADR_2, AIT1_8mm, AIT_8mm, A
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_MEDIA_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

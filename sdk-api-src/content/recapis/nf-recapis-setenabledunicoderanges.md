@@ -12,6 +12,8 @@ ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetE
 ms.topic: function
 f1_keywords: 
  - "recapis/SetEnabledUnicodeRanges"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

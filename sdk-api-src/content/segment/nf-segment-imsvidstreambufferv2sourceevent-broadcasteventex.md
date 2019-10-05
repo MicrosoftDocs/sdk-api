@@ -12,6 +12,8 @@ ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferV2SourceEvent.BroadcastEventEx"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

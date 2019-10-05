@@ -12,6 +12,8 @@ ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IVPConfig interface [D
 ms.topic: interface
 f1_keywords: 
  - "vpconfig/IVPConfig"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

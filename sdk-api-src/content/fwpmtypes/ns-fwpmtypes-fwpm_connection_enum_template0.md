@@ -12,6 +12,8 @@ ms.keywords: FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED, FWPM_CONNECTION_
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],TranslateWow64 method, ITargetInfo.Tran
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.TranslateWow64"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

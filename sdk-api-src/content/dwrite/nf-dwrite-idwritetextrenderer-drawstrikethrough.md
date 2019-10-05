@@ -12,6 +12,8 @@ ms.keywords: DrawStrikethrough, DrawStrikethrough method [Direct Write], DrawStr
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextRenderer.DrawStrikethrough"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

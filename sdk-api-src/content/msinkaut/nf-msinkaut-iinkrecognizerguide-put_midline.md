@@ -12,6 +12,8 @@ ms.keywords: 764dc583-62b4-41fc-98df-69a2f1a6fcf5, IInkRecognizerGuide interface
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerGuide.Midline"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

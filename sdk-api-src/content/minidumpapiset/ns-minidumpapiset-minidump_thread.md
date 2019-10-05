@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_THREAD, MINIDUMP_THREAD, MINIDUMP_THREAD structure, PMI
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_THREAD"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

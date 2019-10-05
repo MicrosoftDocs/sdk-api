@@ -12,6 +12,8 @@ ms.keywords: GetSourceBuffers, GetSourceBuffers method [Media Foundation], GetSo
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtension.GetSourceBuffers"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

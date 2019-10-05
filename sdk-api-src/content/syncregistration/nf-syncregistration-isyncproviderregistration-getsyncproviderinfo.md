@@ -12,6 +12,8 @@ ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], Get
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderRegistration.GetSyncProviderInfo"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

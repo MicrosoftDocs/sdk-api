@@ -12,6 +12,8 @@ ms.keywords: "*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows G
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSTRETCHBLT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

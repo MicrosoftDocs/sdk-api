@@ -12,6 +12,8 @@ ms.keywords: RasSecurityDialogSend, RasSecurityDialogSend function [RAS], _ras_r
 ms.topic: function
 f1_keywords: 
  - "rasshost/RasSecurityDialogSend"
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

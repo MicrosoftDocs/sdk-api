@@ -12,6 +12,8 @@ ms.keywords: TYSPEC, TYSPEC enumeration [COM], TYSPEC_CLSID, TYSPEC_FILEEXT, TYS
 ms.topic: enum
 f1_keywords: 
  - "wtypes/TYSPEC"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

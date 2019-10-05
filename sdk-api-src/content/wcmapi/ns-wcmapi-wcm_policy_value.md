@@ -12,6 +12,8 @@ ms.keywords: "*PWCM_POLICY_VALUE, PWCM_POLICY_VALUE, PWCM_POLICY_VALUE structure
 ms.topic: struct
 f1_keywords: 
  - "wcmapi/WCM_POLICY_VALUE"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

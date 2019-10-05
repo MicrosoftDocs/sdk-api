@@ -12,6 +12,8 @@ ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_T
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/VIDEOINFOHEADER2"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

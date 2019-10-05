@@ -12,6 +12,8 @@ ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], Get
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteStringList.GetLocaleNameLength"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RA
 ms.topic: struct
 f1_keywords:
 - winioctl/FILE_LEVEL_TRIM_RANGE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

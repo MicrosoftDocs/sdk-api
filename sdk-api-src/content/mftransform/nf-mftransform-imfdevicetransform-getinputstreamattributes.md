@@ -12,6 +12,8 @@ ms.keywords: GetInputStreamAttributes, GetInputStreamAttributes method [Streamin
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetInputStreamAttributes"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

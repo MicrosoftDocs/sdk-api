@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_IPV6_CGA_AUTHENTICATION0, IKEEXT_IPV6_CGA_AUTHENTICATION0 st
 ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

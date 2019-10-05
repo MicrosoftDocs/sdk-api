@@ -12,6 +12,8 @@ ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npa
 ms.topic: function
 f1_keywords: 
  - "npapi/NPCloseEnum"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

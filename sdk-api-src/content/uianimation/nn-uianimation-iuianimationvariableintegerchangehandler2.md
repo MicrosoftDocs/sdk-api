@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableInte
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationVariableIntegerChangeHandler2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

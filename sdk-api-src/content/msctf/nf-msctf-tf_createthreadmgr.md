@@ -12,6 +12,8 @@ ms.keywords: TF_CreateThreadMgr, TF_CreateThreadMgr function [Text Services Fram
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_CreateThreadMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

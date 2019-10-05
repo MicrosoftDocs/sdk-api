@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetP
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionContext.SetProvisionedContext"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

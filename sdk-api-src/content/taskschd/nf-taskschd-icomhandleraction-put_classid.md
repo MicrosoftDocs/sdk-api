@@ -12,6 +12,8 @@ ms.keywords: ClassId property [Task Scheduler], ClassId property [Task Scheduler
 ms.topic: method
 f1_keywords: 
  - "taskschd/IComHandlerAction.ClassId"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

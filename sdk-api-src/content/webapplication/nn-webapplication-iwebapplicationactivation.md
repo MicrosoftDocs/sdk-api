@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Deb
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationActivation"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

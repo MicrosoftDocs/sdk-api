@@ -12,6 +12,8 @@ ms.keywords: ITextDocument2 interface [Windows Controls],SetCaretType method, IT
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.SetCaretType"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Count met
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentTypes.get_Count"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

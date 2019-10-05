@@ -12,6 +12,8 @@ ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _crypto2_rsapubkey, secu
 ms.topic: struct
 f1_keywords:
 - wincrypt/RSAPUBKEY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

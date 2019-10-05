@@ -12,6 +12,8 @@ ms.keywords: ExpirationDate property [Windows Update Agent], ExpirationDate prop
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.ExpirationDate"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

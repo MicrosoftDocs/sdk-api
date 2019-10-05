@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastInsta
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesResults.LastInstallationSuccessDate"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

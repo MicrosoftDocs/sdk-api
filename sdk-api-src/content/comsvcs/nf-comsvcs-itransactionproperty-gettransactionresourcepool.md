@@ -12,6 +12,8 @@ ms.keywords: GetTransactionResourcePool, GetTransactionResourcePool method [COM+
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionProperty.GetTransactionResourcePool"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

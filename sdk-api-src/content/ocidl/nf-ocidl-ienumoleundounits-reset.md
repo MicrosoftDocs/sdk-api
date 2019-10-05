@@ -12,6 +12,8 @@ ms.keywords: IEnumOleUndoUnits interface [COM],Reset method, IEnumOleUndoUnits.R
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumOleUndoUnits.Reset"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

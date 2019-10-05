@@ -12,6 +12,8 @@ ms.keywords: '*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT st
 ms.topic: struct
 f1_keywords:
 - wingdi/GRADIENT_RECT
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

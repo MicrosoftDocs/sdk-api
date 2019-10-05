@@ -12,6 +12,8 @@ ms.keywords: htonll, htonll function [Winsock], winsock.htonll, winsock2/htonll
 ms.topic: function
 f1_keywords: 
  - "winsock2/htonll"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

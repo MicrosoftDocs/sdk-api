@@ -12,6 +12,8 @@ ms.keywords: 039ee3cd-2221-4405-ba7f-233a93a0271b, MFCalculateImageSize, MFCalcu
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCalculateImageSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

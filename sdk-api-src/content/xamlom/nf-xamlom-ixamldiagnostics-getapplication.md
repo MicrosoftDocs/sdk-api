@@ -12,6 +12,8 @@ ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlD
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.GetApplication"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

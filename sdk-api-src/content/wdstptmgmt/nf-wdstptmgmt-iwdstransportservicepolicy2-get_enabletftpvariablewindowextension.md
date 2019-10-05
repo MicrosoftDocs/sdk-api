@@ -12,6 +12,8 @@ ms.keywords: EnableTftpVariableWindowExtension property [Windows Deployment Serv
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

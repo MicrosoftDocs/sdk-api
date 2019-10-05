@@ -12,6 +12,8 @@ ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, n
 ms.topic: struct
 f1_keywords: 
  - "naptypes/ResultCodes"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

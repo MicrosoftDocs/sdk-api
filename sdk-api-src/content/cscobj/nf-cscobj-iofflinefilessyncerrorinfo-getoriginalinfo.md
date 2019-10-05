@@ -12,6 +12,8 @@ ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOrigina
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

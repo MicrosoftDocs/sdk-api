@@ -12,6 +12,8 @@ ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Netwo
 ms.topic: function
 f1_keywords: 
  - "drt/DrtGetSearchResultSize"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

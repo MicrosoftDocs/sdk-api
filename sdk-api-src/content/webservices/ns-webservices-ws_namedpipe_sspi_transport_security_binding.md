@@ -12,6 +12,8 @@ ms.keywords: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, WS_NAMEDPIPE_SSPI_TRA
 ms.topic: struct
 f1_keywords:
 - webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

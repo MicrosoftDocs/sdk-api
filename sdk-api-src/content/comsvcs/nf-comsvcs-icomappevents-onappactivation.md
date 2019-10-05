@@ -12,6 +12,8 @@ ms.keywords: IComAppEvents interface [COM+],OnAppActivation method, IComAppEvent
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComAppEvents.OnAppActivation"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

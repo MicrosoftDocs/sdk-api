@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllEncodeAlgorithm, CryptXmlDllEncodeAlgorithm callback, Cr
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllEncodeAlgorithm
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITypeLib interface [Automation],IsName method, ITypeLib.IsName, ITy
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeLib.IsName"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

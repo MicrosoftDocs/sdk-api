@@ -12,6 +12,8 @@ ms.keywords: GetSizeArray, GetSizeArray method [Windows Runtime], GetSizeArray m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetSizeArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

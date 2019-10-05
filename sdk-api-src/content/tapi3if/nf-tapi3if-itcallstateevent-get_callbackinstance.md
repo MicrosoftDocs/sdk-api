@@ -12,6 +12,8 @@ ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_CallbackInstance method, 
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallStateEvent.get_CallbackInstance"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

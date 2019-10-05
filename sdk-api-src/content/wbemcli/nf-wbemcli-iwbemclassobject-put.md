@@ -12,6 +12,8 @@ ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.Put"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

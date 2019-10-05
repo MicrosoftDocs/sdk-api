@@ -12,6 +12,8 @@ ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flush
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/FlushInstructionCache"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

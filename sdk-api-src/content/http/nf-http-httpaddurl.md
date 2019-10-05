@@ -12,6 +12,8 @@ ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.http
 ms.topic: function
 f1_keywords: 
  - "http/HttpAddUrl"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

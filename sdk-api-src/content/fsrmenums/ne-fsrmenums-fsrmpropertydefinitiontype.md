@@ -12,6 +12,8 @@ ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration 
 ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmPropertyDefinitionType
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

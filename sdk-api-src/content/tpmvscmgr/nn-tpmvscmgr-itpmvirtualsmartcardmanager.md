@@ -12,6 +12,8 @@ ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface 
 ms.topic: interface
 f1_keywords: 
  - "tpmvscmgr/ITpmVirtualSmartCardManager"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

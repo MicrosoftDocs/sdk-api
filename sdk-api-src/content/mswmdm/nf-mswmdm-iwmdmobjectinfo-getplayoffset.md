@@ -12,6 +12,8 @@ ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager],
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMObjectInfo.GetPlayOffset"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

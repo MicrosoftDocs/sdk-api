@@ -12,6 +12,8 @@ ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnCh
 ms.topic: method
 f1_keywords: 
  - "winsync/ILoadChangeContext.SetRecoverableErrorOnChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

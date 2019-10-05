@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BC
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumAlgorithms
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method 
 ms.topic: method
 f1_keywords: 
  - "winsync/IRecoverableError.GetProvider"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

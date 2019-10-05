@@ -12,6 +12,8 @@ ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance i
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsMaintenance"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

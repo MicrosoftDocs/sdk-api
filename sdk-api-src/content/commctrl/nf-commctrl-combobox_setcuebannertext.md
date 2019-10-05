@@ -12,6 +12,8 @@ ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ComboBox_SetCueBannerText"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

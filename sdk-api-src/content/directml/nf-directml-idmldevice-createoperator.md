@@ -12,6 +12,8 @@ ms.keywords: CreateOperator, CreateOperator method, CreateOperator method,IDMLDe
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.CreateOperator"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

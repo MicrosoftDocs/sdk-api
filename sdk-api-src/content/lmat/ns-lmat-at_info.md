@@ -12,6 +12,8 @@ ms.keywords: "*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Managem
 ms.topic: struct
 f1_keywords: 
  - "lmat/AT_INFO"
+dev_langs:
+ - c++
 req.header: lmat.h
 req.include-header: Lm.h
 req.target-type: Windows

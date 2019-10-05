@@ -12,6 +12,8 @@ ms.keywords: EnqueueCharacterDownloadRequest, EnqueueCharacterDownloadRequest me
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFaceReference.EnqueueCharacterDownloadRequest"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

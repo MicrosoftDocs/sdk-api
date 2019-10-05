@@ -12,6 +12,8 @@ ms.keywords: 91482c2f-2730-5aba-e73a-43653c75ff49, D3DPreprocess, D3DPreprocess 
 ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DPreprocess
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMStatusMsgCollection class [GPMC],Item property, IGPMStatusMsgCol
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStatusMsgCollection.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

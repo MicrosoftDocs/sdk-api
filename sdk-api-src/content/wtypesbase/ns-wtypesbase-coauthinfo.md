@@ -12,6 +12,8 @@ ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINF
 ms.topic: struct
 f1_keywords:
 - wtypesbase/COAUTHINFO
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

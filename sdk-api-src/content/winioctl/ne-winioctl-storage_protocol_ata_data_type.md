@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataType
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEM_CHANGE_FLAG_TYPE, WBEM_CHANGE_FLAG_TYPE enumeration [Windows M
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_CHANGE_FLAG_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

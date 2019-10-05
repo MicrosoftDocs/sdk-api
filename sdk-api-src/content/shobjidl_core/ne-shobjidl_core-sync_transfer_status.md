@@ -12,6 +12,8 @@ ms.keywords: STS_FETCHING_METADATA, STS_HASERROR, STS_NEEDSDOWNLOAD, STS_NEEDSUP
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/SYNC_TRANSFER_STATUS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

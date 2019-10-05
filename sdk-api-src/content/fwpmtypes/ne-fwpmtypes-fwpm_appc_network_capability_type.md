@@ -12,6 +12,8 @@ ms.keywords: FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT, FWPM_APPC_NETWORK_CAP
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

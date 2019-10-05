@@ -12,6 +12,8 @@ ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcesses
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/SymEnumProcessesProc"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

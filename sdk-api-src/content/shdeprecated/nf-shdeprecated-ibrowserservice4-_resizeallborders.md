@@ -12,6 +12,8 @@ ms.keywords: IBrowserService4 interface [Windows Shell],_ResizeAllBorders method
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService4._ResizeAllBorders"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

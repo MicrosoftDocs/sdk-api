@@ -12,6 +12,8 @@ ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetProp
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMBackupRestoreProps.GetPropByName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IResul
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData.DeleteItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

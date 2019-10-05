@@ -12,6 +12,8 @@ ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttp
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpSetOption"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

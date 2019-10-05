@@ -12,6 +12,8 @@ ms.keywords: GetDefaultVerb, GetDefaultVerb method [MMC], GetDefaultVerb method 
 ms.topic: method
 f1_keywords:
 - mmc/IConsoleVerb.GetDefaultVerb
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

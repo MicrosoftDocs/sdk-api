@@ -12,6 +12,8 @@ ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttrib
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICryptAttribute"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

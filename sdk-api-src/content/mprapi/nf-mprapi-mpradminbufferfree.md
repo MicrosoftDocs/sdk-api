@@ -12,6 +12,8 @@ ms.keywords: MprAdminBufferFree, MprAdminBufferFree function [RAS], _mpr_mpradmi
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminBufferFree"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

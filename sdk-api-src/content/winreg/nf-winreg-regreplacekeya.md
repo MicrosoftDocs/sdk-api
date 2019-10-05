@@ -12,6 +12,8 @@ ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKe
 ms.topic: function
 f1_keywords: 
  - "winreg/RegReplaceKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

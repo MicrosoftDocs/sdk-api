@@ -12,6 +12,8 @@ ms.keywords: GetEventNameW, GetEventNameW method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbShortEventDescriptor.GetEventNameW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

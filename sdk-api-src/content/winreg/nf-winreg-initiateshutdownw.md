@@ -12,6 +12,8 @@ ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, Ini
 ms.topic: function
 f1_keywords: 
  - "winreg/InitiateShutdown"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

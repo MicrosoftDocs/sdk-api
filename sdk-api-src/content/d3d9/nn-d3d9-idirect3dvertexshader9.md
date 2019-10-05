@@ -12,6 +12,8 @@ ms.keywords: 09169d01-44dc-55c7-a6bd-28349bbc3b06, IDirect3DVertexShader9, IDire
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DVertexShader9"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IContextState interface [COM+],SetDeactivateOnReturn method, IConte
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextState.SetDeactivateOnReturn"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

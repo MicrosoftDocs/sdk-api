@@ -12,6 +12,8 @@ ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, C
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.CreateStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

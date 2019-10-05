@@ -12,6 +12,8 @@ ms.keywords: IOpcPartSet interface [Open Packaging Conventions],PartExists metho
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartSet.PartExists"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

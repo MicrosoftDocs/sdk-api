@@ -12,6 +12,8 @@ ms.keywords: IUIImage, IUIImage interface [Windows Ribbon], IUIImage interface [
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUIImage"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

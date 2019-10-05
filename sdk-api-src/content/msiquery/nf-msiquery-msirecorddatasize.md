@@ -12,6 +12,8 @@ ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasi
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordDataSize"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

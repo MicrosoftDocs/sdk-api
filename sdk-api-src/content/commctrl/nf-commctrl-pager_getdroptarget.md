@@ -12,6 +12,8 @@ ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_GetDropTarget"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

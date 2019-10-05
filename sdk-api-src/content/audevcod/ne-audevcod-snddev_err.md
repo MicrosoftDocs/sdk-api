@@ -12,6 +12,8 @@ ms.keywords: SNDDEV_ERR, SNDDEV_ERR , SNDDEV_ERR enumeration [DirectShow], SNDDE
 ms.topic: enum
 f1_keywords: 
  - "audevcod/SNDDEV_ERR"
+dev_langs:
+ - c++
 req.header: audevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

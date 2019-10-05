@@ -12,6 +12,8 @@ ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEval
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLRuntime.CreateEvaluationContext"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

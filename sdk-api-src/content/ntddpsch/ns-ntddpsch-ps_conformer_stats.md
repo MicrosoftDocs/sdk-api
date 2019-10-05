@@ -12,6 +12,8 @@ ms.keywords: '*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS str
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_CONFORMER_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

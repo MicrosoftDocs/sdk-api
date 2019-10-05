@@ -12,6 +12,8 @@ ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition],
 ms.topic: interface
 f1_keywords: 
  - "photoacquire/IUserInputString"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

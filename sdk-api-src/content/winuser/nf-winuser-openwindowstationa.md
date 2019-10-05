@@ -12,6 +12,8 @@ ms.keywords: OpenWindowStation, OpenWindowStation function [Windows Stations and
 ms.topic: function
 f1_keywords: 
  - "winuser/OpenWindowStation"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

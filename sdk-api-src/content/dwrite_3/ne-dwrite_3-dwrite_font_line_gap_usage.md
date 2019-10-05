@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_LINE_GAP_USAGE, DWRITE_FONT_LINE_GAP_USAGE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_LINE_GAP_USAGE"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

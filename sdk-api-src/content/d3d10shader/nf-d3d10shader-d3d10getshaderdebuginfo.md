@@ -12,6 +12,8 @@ ms.keywords: 8d9f638d-18e5-edcf-f803-bb2b87bf911a, D3D10GetShaderDebugInfo, D3D1
 ms.topic: function
 f1_keywords:
 - d3d10shader/D3D10GetShaderDebugInfo
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER, PRETRIEVA
 ms.topic: struct
 f1_keywords: 
  - "winioctl/RETRIEVAL_POINTERS_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

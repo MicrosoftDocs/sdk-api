@@ -12,6 +12,8 @@ ms.keywords: GetProcessId, GetProcessId method [Core Audio], GetProcessId method
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl2.GetProcessId"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

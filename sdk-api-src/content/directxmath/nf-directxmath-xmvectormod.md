@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorMod, XMVectorMod, XMVectorMod method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorMod"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

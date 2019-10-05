@@ -12,6 +12,8 @@ ms.keywords: ID3D10DepthStencilView, ID3D10DepthStencilView interface [Direct3D 
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10DepthStencilView"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

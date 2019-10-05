@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],PauseServerQueue property, IFaxS
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.PauseServerQueue"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

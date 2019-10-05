@@ -12,6 +12,8 @@ ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sy
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetSingleItemExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

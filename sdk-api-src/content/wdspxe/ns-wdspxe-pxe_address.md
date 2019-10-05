@@ -12,6 +12,8 @@ ms.keywords: "*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windo
 ms.topic: struct
 f1_keywords: 
  - "wdspxe/PXE_ADDRESS"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

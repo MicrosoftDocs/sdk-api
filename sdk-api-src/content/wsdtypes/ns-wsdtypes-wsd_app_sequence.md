@@ -12,6 +12,8 @@ ms.keywords: WSD_APP_SEQUENCE, WSD_APP_SEQUENCE structure, ncd.wsd_app_sequence_
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_APP_SEQUENCE"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

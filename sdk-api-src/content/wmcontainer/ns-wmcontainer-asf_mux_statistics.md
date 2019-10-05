@@ -12,6 +12,8 @@ ms.keywords: 353ee03d-b706-4a70-9eaf-c14b47b5159a, ASF_MUX_STATISTICS, ASF_MUX_S
 ms.topic: struct
 f1_keywords: 
  - "wmcontainer/ASF_MUX_STATISTICS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

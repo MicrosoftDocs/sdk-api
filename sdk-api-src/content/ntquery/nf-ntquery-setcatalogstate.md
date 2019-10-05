@@ -12,6 +12,8 @@ ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs
 ms.topic: function
 f1_keywords: 
  - "ntquery/SetCatalogState"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

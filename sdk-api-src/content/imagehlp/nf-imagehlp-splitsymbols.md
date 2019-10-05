@@ -12,6 +12,8 @@ ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_
 ms.topic: function
 f1_keywords: 
  - "imagehlp/SplitSymbols"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

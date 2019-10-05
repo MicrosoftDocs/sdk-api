@@ -12,6 +12,8 @@ ms.keywords: WMT_CLEANPOINT_ONLY, WMT_OFF, WMT_ON, WMT_STREAM_SELECTION, WMT_STR
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_STREAM_SELECTION"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

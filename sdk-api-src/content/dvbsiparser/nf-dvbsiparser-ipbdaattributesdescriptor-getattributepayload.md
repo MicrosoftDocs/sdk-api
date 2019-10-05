@@ -12,6 +12,8 @@ ms.keywords: GetAttributePayload, GetAttributePayload method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDAAttributesDescriptor.GetAttributePayload"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

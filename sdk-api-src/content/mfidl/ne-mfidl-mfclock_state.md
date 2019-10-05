@@ -12,6 +12,8 @@ ms.keywords: 90e04807-c3be-4f38-a508-9dfe62700869, MFCLOCK_STATE, MFCLOCK_STATE 
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_CLOCK_STATE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

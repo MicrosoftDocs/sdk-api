@@ -12,6 +12,8 @@ ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX cont
 ms.topic: ioctl
 f1_keywords: 
  - "tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX"
+dev_langs:
+ - c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition met
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetPosition"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

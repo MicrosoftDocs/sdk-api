@@ -12,6 +12,8 @@ ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeE
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/ISynchronizeEvent"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

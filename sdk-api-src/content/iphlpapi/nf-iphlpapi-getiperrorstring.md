@@ -12,6 +12,8 @@ ms.keywords: GetIpErrorString, GetIpErrorString function [IP Helper], iphlp.geti
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/GetIpErrorString"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

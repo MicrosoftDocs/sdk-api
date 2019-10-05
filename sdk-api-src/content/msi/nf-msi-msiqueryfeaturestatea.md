@@ -12,6 +12,8 @@ ms.keywords: MsiQueryFeatureState, MsiQueryFeatureState function, MsiQueryFeatur
 ms.topic: function
 f1_keywords: 
  - "msi/MsiQueryFeatureState"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

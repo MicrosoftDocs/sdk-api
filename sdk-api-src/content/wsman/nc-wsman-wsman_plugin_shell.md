@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_SHELL
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

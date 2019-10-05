@@ -12,6 +12,8 @@ ms.keywords: IBDA_MUX interface [Microsoft TV Technologies],SetPidList method, I
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_MUX.SetPidList"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

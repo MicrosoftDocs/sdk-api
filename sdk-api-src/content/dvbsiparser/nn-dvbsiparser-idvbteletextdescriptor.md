@@ -12,6 +12,8 @@ ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbTeletextDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

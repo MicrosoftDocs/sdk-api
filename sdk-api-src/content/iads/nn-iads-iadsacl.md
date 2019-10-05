@@ -12,6 +12,8 @@ ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],describ
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsAcl"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

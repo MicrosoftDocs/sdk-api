@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_PROPERTY_CLOSE_CALLBACK, WS_SERVICE_PROPERTY_CLOSE_CALLB
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

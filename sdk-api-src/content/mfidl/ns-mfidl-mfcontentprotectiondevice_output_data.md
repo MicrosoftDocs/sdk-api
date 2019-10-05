@@ -12,6 +12,8 @@ ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OU
 ms.topic: struct
 f1_keywords:
 - mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

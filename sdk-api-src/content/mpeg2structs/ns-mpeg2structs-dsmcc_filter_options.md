@@ -12,6 +12,8 @@ ms.keywords: DSMCC_FILTER_OPTIONS, DSMCC_FILTER_OPTIONS structure [Microsoft TV 
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/DSMCC_FILTER_OPTIONS"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

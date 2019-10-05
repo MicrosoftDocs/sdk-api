@@ -12,6 +12,8 @@ ms.keywords: '*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRAN
 ms.topic: struct
 f1_keywords:
 - winioctl/TXFS_LIST_TRANSACTIONS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

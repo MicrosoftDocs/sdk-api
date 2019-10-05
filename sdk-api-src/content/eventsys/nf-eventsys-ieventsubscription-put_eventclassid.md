@@ -12,6 +12,8 @@ ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSu
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.EventClassID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

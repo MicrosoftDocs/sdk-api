@@ -12,6 +12,8 @@ ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAnalogTuner.put_Channel"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

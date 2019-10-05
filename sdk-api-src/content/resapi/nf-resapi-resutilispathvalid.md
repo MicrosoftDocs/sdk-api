@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID function [Failover C
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilIsPathValid"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

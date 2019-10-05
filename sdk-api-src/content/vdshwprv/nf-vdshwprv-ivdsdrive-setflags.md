@@ -12,6 +12,8 @@ ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVds
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsDrive.SetFlags
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: D3D12_DRED_ENABLEMENT, D3D12_DRED_ENABLEMENT enumeration, d3d12/D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DRED_ENABLEMENT"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

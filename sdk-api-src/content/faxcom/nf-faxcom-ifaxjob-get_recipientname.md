@@ -12,6 +12,8 @@ ms.keywords: IFaxJob interface [Fax Service],RecipientName property, IFaxJob.Rec
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.RecipientName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

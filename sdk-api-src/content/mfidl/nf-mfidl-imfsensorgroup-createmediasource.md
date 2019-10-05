@@ -12,6 +12,8 @@ ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], Cre
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorGroup.CreateMediaSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

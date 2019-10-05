@@ -12,6 +12,8 @@ ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioInputEndpointRT.GetInputDataPointer"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

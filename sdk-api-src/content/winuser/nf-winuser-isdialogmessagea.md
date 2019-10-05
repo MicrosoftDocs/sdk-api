@@ -12,6 +12,8 @@ ms.keywords: IsDialogMessage, IsDialogMessage function [Dialog Boxes], IsDialogM
 ms.topic: function
 f1_keywords: 
  - "winuser/IsDialogMessage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

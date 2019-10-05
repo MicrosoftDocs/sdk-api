@@ -12,6 +12,8 @@ ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.ContainerNameWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

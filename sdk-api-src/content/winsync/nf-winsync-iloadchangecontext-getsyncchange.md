@@ -12,6 +12,8 @@ ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange m
 ms.topic: method
 f1_keywords: 
  - "winsync/ILoadChangeContext.GetSyncChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

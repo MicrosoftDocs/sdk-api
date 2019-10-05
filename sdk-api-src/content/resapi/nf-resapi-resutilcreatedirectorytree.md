@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_CREATE_DIRECTORY_TREE, PRESUTIL_CREATE_DIRECTORY_TREE func
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilCreateDirectoryTree"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

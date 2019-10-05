@@ -12,6 +12,8 @@ ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _w
 ms.topic: function
 f1_keywords: 
  - "winuser/ScrollDC"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

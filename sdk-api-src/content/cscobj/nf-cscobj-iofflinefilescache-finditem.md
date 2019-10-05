@@ -12,6 +12,8 @@ ms.keywords: FindItem, FindItem method [Offline Files], FindItem method [Offline
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.FindItem"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

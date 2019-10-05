@@ -12,6 +12,8 @@ ms.keywords: WIC8BIMIptcDigestIptcDigest, WIC8BIMIptcDigestPString, WIC8BIMIptcD
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WIC8BIMIptcDigestProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

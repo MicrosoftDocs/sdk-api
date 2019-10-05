@@ -12,6 +12,8 @@ ms.keywords: "*LPHEAACWAVEFORMAT, *NPHEAACWAVEFORMAT, *PHEAACWAVEFORMAT, HEAACWA
 ms.topic: struct
 f1_keywords: 
  - "mmreg/HEAACWAVEFORMAT"
+dev_langs:
+ - c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, CSV_QUERY_VETO_FILE_DIRECT
 ms.topic: struct
 f1_keywords: 
  - "winioctl/CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

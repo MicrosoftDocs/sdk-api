@@ -12,6 +12,8 @@ ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_S
 ms.topic: function
 f1_keywords:
 - winwlx/WlxLoggedOutSAS
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

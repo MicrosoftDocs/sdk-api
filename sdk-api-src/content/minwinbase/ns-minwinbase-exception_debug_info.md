@@ -12,6 +12,8 @@ ms.keywords: '*LPEXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INF
 ms.topic: struct
 f1_keywords:
 - minwinbase/EXCEPTION_DEBUG_INFO
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

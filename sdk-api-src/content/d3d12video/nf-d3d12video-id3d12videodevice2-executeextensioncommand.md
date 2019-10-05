@@ -4,6 +4,10 @@ title: ID3D12VideoDevice2::ExecuteExtensionCommand
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDevice2::ExecuteExtensionCommand
 ms.topic: language-reference
+f1_keywords:
+ - ID3D12VideoDevice2::ExecuteExtensionCommand
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

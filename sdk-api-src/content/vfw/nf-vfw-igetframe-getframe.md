@@ -12,6 +12,8 @@ ms.keywords: GetFrame, GetFrame method [Windows Multimedia], GetFrame method [Wi
 ms.topic: method
 f1_keywords: 
  - "vfw/IGetFrame.GetFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

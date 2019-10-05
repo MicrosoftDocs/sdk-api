@@ -12,6 +12,8 @@ ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCre
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFContentInfo"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

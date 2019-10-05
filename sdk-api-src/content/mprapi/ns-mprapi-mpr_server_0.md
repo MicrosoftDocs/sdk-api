@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_SERVER_0, MPR_SERVER_0, MPR_SERVER_0 structure [RAS], PMPR_S
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_SERVER_0
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPSHARE_INFO_503, *PSHARE_INFO_503, ACCESS_ALL, ACCESS_ATRIB, ACC
 ms.topic: struct
 f1_keywords:
 - lmshare/SHARE_INFO_503
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

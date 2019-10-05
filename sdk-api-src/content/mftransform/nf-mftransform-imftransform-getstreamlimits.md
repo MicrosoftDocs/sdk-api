@@ -12,6 +12,8 @@ ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLim
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetStreamLimits"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

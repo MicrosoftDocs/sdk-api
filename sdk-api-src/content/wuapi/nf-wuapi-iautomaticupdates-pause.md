@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IA
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdates.Pause"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

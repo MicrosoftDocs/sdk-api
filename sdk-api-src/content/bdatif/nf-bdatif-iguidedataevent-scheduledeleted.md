@@ -12,6 +12,8 @@ ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleDelet
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideDataEvent.ScheduleDeleted"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

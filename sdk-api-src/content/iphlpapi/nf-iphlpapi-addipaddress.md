@@ -12,6 +12,8 @@ ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddres
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/AddIPAddress"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

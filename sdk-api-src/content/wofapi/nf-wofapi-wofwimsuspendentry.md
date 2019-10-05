@@ -12,6 +12,8 @@ ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwims
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofWimSuspendEntry"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

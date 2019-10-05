@@ -12,6 +12,8 @@ ms.keywords: COMAdminInUseByCatalog, COMAdminInUseByRegistryClsid, COMAdminInUse
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.IsSafeToDelete"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

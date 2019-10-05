@@ -12,6 +12,8 @@ ms.keywords: "*LPAXISINFOW, *PAXISINFOW, AXISINFO, AXISINFO structure [Windows G
 ms.topic: struct
 f1_keywords: 
  - "wingdi/AXISINFO"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

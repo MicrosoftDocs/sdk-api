@@ -12,6 +12,8 @@ ms.keywords: DPA_LoadStream, DPA_LoadStream function [Windows Controls], _win32_
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_LoadStream"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinHttpWebSocketClose, WinHttpWebSocketClose function [WinHTTP], ht
 ms.topic: function
 f1_keywords:
 - winhttp/WinHttpWebSocketClose
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

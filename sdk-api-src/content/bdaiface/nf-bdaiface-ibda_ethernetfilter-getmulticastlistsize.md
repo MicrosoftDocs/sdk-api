@@ -12,6 +12,8 @@ ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_EthernetFilter.GetMulticastListSize"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

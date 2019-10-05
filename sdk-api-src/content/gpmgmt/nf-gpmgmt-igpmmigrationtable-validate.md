@@ -12,6 +12,8 @@ ms.keywords: GPMMigrationTable class [GPMC],Validate method, IGPMMigrationTable 
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable.Validate"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

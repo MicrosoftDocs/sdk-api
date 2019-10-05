@@ -12,6 +12,8 @@ ms.keywords: CreateMediaRendererFromBasicDeviceAsync, CreateMediaRendererFromBas
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

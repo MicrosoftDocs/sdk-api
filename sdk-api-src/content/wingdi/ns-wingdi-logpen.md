@@ -12,6 +12,8 @@ ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows 
 ms.topic: struct
 f1_keywords: 
  - "wingdi/LOGPEN"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

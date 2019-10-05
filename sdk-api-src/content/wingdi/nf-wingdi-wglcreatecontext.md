@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, 
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglCreateContext"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

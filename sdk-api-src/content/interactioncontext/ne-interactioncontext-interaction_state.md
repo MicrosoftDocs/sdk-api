@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_STATE, INTERACTION_STATE enumeration, INTERACTION_STATE
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INTERACTION_STATE"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

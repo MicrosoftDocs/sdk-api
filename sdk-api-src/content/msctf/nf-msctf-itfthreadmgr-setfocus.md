@@ -12,6 +12,8 @@ ms.keywords: ITfThreadMgr interface [Text Services Framework],SetFocus method, I
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr.SetFocus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

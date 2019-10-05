@@ -12,6 +12,8 @@ ms.keywords: 93ab65e7-2168-4cfb-a871-b39554ba66e0, GetBlobSize, GetBlobSize meth
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetBlobSize
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

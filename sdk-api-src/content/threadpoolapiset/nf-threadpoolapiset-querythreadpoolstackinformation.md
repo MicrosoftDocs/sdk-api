@@ -12,6 +12,8 @@ ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation fu
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/QueryThreadpoolStackInformation"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

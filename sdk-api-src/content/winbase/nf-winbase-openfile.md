@@ -12,6 +12,8 @@ ms.keywords: OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_
 ms.topic: function
 f1_keywords:
 - winbase/OpenFile
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo 
 ms.topic: method
 f1_keywords: 
  - "shlobj/IColumnProvider.GetColumnInfo"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddArc, AddArc method [GDI+], AddArc method [GDI+],GraphicsPath cla
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddArc"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_RSA_ENDPOINT_IDENTITY, WS_RSA_ENDPOINT_IDENTITY structure [Web S
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_RSA_ENDPOINT_IDENTITY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

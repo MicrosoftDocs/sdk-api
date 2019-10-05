@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneNearEqual, XMPlaneNearEqual, XMPlaneNearEqual m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneNearEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

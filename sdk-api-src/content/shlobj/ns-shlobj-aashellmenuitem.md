@@ -12,6 +12,8 @@ ms.keywords: "*LPAASHELLMENUITEM, AASHELLMENUITEM, AASHELLMENUITEM structure [Wi
 ms.topic: struct
 f1_keywords: 
  - "shlobj/AASHELLMENUITEM"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

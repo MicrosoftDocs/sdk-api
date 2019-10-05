@@ -12,6 +12,8 @@ ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollect
 ms.topic: method
 f1_keywords: 
  - "pla/IScheduleCollection.Item"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

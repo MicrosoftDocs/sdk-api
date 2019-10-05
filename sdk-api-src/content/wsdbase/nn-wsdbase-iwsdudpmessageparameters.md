@@ -12,6 +12,8 @@ ms.keywords: IWSDUdpMessageParameters, IWSDUdpMessageParameters interface, IWSDU
 ms.topic: interface
 f1_keywords: 
  - "wsdbase/IWSDUdpMessageParameters"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxsta
 ms.topic: function
 f1_keywords:
 - winbase/GetXStateFeaturesMask
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

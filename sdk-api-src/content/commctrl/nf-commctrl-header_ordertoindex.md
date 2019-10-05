@@ -12,6 +12,8 @@ ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_OrderToIndex"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

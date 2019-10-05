@@ -12,6 +12,8 @@ ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMR
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMResizerProps"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

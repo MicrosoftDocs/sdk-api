@@ -12,6 +12,8 @@ ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interfac
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbOrchestrationNotifySink"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

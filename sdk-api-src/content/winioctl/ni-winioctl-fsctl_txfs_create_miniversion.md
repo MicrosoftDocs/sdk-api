@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION contro
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_TXFS_CREATE_MINIVERSION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgCreateDocfileOnILockBytes"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBac
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupGetBackupLogs"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

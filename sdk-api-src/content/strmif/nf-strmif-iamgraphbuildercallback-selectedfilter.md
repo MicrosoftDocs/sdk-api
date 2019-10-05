@@ -12,6 +12,8 @@ ms.keywords: IAMGraphBuilderCallback interface [DirectShow],SelectedFilter metho
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMGraphBuilderCallback.SelectedFilter"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

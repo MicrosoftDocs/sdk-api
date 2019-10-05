@@ -12,6 +12,8 @@ ms.keywords: TAPIOBJECT_EVENT, TAPIOBJECT_EVENT enumeration [TAPI 2.2], TE_ADDRE
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TAPIOBJECT_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

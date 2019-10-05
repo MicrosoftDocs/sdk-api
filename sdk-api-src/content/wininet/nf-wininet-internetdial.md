@@ -12,6 +12,8 @@ ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, Inter
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetDial"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBu
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcChannelBuffer.SendReceive"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

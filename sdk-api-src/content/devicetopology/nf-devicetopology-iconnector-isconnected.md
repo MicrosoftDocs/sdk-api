@@ -12,6 +12,8 @@ ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.Is
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.IsConnected"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

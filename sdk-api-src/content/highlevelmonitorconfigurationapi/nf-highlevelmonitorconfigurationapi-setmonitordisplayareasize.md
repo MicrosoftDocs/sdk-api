@@ -12,6 +12,8 @@ ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Moni
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

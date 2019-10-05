@@ -12,6 +12,8 @@ ms.keywords: 4a9713c6-91a0-4632-9c8d-58d5e1b98478, DefaultTablet property [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablets.DefaultTablet"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

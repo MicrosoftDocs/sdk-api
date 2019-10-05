@@ -12,6 +12,8 @@ ms.keywords: IVssComponentEx2, IVssComponentEx2 interface, IVssComponentEx2 inte
 ms.topic: class
 f1_keywords: 
  - "vswriter/IVssComponentEx2"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

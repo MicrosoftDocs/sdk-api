@@ -12,6 +12,8 @@ ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], Gopher
 ms.topic: function
 f1_keywords: 
  - "wininet/GopherCreateLocator"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

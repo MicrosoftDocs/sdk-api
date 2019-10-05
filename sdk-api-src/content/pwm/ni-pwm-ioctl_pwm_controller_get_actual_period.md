@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_AC
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

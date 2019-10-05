@@ -12,6 +12,8 @@ ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], web
 ms.topic: function
 f1_keywords: 
  - "webservices/WsCreateHeap"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

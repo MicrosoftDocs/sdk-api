@@ -12,6 +12,8 @@ ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent me
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidEVREvent.OnUserEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

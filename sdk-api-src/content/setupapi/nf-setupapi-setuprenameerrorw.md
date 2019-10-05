@@ -12,6 +12,8 @@ ms.keywords: SetupRenameError, SetupRenameError function [Setup API], SetupRenam
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupRenameError"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

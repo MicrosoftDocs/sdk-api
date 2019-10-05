@@ -12,6 +12,8 @@ ms.keywords: D3D12_FILTER, D3D12_FILTER enumeration, D3D12_FILTER_ANISOTROPIC, D
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_FILTER"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

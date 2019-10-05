@@ -12,6 +12,8 @@ ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetSupportedRates"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

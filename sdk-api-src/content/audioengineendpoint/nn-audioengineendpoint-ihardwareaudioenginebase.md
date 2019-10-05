@@ -12,6 +12,8 @@ ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core 
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

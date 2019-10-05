@@ -12,6 +12,8 @@ ms.keywords: IShellLibrary interface [Windows Shell],SetFolderType method, IShel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLibrary.SetFolderType"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

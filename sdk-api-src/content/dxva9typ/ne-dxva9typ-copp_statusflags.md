@@ -12,6 +12,8 @@ ms.keywords: COPP_LinkLost, COPP_RenegotiationRequired, COPP_StatusFlags, COPP_S
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_StatusFlags"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

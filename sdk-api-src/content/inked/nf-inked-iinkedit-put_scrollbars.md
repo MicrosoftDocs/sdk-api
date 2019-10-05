@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],ScrollBars property, IInkEdit.Scroll
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.ScrollBars"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

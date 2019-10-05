@@ -12,6 +12,8 @@ ms.keywords: "*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation]
 ms.topic: struct
 f1_keywords: 
  - "oaidl/CUSTDATAITEM"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

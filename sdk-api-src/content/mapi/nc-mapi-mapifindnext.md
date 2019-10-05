@@ -12,6 +12,8 @@ ms.keywords: MAPIFindNext, MAPIFindNext callback, MAPIFindNext callback function
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIFindNext"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

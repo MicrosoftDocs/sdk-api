@@ -12,6 +12,8 @@ ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionI
 ms.topic: enum
 f1_keywords:
 - wtsapi32/WTS_TYPE_CLASS
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

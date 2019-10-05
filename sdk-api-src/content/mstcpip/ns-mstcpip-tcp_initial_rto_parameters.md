@@ -12,6 +12,8 @@ ms.keywords: '*PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS, PTCP_IN
 ms.topic: struct
 f1_keywords:
 - mstcpip/TCP_INITIAL_RTO_PARAMETERS
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

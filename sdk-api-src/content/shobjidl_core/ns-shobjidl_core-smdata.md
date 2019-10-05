@@ -12,6 +12,8 @@ ms.keywords: '*LPSMDATA, SMDATA, SMDATA structure [Windows Shell], _win32_SMDATA
 ms.topic: struct
 f1_keywords:
 - shobjidl_core/SMDATA
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

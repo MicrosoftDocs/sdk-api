@@ -12,6 +12,8 @@ ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, secu
 ms.topic: function
 f1_keywords:
 - securitybaseapi/IsValidAcl
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

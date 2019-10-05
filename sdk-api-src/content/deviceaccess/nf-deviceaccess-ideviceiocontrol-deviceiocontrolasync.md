@@ -12,6 +12,8 @@ ms.keywords: DeviceIoControlAsync, DeviceIoControlAsync method [Device Access Br
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/IDeviceIoControl.DeviceIoControlAsync"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

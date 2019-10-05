@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],InstallPKCS7Ex method, ICEnroll4 interfac
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.InstallPKCS7Ex"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

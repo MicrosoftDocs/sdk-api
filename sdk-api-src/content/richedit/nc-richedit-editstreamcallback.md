@@ -12,6 +12,8 @@ ms.keywords: EditStreamCallback, EditStreamCallback callback, EditStreamCallback
 ms.topic: callback
 f1_keywords: 
  - "richedit/EditStreamCallback"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

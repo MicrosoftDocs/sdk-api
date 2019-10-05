@@ -12,6 +12,8 @@ ms.keywords: IEnumSearchScopeRules, IEnumSearchScopeRules interface [search], IE
 ms.topic: interface
 f1_keywords: 
  - "searchapi/IEnumSearchScopeRules"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

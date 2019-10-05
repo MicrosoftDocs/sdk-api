@@ -12,6 +12,8 @@ ms.keywords: AM_CONFIGASFWRITER_PARAM_AUTOINDEX, AM_CONFIGASFWRITER_PARAM_DONTCO
 ms.topic: enum
 f1_keywords: 
  - "dshowasf/_AM_ASFWRITERCONFIG_PARAM"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

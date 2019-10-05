@@ -12,6 +12,8 @@ ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty functi
 ms.topic: function
 f1_keywords:
 - http/HttpQueryRequestQueueProperty
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

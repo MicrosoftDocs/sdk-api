@@ -12,6 +12,8 @@ ms.keywords: WBEM_COMPILER_OPTIONS, WBEM_COMPILER_OPTIONS enumeration [Windows M
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_COMPILER_OPTIONS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

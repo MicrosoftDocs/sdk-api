@@ -12,6 +12,8 @@ ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntpr
 ms.topic: function
 f1_keywords:
 - evntprov/EventWriteEx
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 195aec78-0809-915e-4807-c20139d72b2b, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.VSGetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

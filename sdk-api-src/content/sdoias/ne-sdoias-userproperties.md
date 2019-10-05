@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_USER_ALLOW_DIALIN, PROPERTY_USER_CALLING_STATION_ID, PROPE
 ms.topic: enum
 f1_keywords:
 - sdoias/USERPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

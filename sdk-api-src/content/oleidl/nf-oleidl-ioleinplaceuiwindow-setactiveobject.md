@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInP
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceUIWindow.SetActiveObject"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

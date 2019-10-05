@@ -12,6 +12,8 @@ ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDL
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue.FrameworkLoginDLL"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

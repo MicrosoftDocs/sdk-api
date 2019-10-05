@@ -12,6 +12,8 @@ ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKB
 ms.topic: enum
 f1_keywords: 
  - "ctffunc/TKBLayoutType"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

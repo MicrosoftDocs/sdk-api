@@ -12,6 +12,8 @@ ms.keywords: GRAPHICS_EFFECT_PROPERTY_MAPPING, GRAPHICS_EFFECT_PROPERTY_MAPPING 
 ms.topic: enum
 f1_keywords: 
  - "windows.graphics.effects.interop/GRAPHICS_EFFECT_PROPERTY_MAPPING"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

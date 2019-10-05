@@ -12,6 +12,8 @@ ms.keywords: FileFormat, FileFormat enumeration [PLA], base.fileformat, pla.file
 ms.topic: enum
 f1_keywords: 
  - "pla/FileFormat"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

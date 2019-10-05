@@ -12,6 +12,8 @@ ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _ht
 ms.topic: function
 f1_keywords:
 - http/HttpAddFragmentToCache
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

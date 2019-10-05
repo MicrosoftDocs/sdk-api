@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescripti
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICategorizer.GetDescription"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

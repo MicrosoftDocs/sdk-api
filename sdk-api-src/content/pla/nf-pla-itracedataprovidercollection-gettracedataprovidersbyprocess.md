@@ -12,6 +12,8 @@ ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess meth
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

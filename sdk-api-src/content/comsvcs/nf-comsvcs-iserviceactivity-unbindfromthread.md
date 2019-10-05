@@ -12,6 +12,8 @@ ms.keywords: IServiceActivity interface [COM+],UnbindFromThread method, IService
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceActivity.UnbindFromThread"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.EraserWidth"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

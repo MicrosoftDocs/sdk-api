@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellImageStore.Close"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

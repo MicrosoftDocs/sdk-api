@@ -12,6 +12,8 @@ ms.keywords: FwpmNetEventEnum1, FwpmNetEventEnum1 function [Filtering], fwp.fwpm
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmNetEventEnum1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

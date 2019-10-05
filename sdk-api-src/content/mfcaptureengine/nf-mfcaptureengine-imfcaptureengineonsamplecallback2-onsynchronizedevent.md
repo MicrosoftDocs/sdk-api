@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],OnSy
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.iv
 ms.topic: interface
 f1_keywords:
 - vds/IVdsLun2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

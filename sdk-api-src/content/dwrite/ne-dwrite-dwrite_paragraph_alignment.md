@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PARAGRAPH_ALIGNMENT, DWRITE_PARAGRAPH_ALIGNMENT enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_PARAGRAPH_ALIGNMENT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

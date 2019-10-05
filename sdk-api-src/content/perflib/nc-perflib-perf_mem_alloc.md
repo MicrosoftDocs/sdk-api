@@ -12,6 +12,8 @@ ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_A
 ms.topic: callback
 f1_keywords: 
  - "perflib/AllocateMemory"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

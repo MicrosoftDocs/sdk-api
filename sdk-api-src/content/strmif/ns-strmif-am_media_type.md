@@ -12,6 +12,8 @@ ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPES
 ms.topic: struct
 f1_keywords: 
  - "strmif/AM_MEDIA_TYPE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

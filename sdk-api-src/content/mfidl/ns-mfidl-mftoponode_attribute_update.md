@@ -12,6 +12,8 @@ ms.keywords: 94c89067-9b3e-4d24-9192-a68e284c5d99, MFTOPONODE_ATTRIBUTE_UPDATE, 
 ms.topic: struct
 f1_keywords:
 - mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

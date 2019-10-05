@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_AUTHENTICATOR_RESULT, EAP_METHOD_AUTHENTICATOR_RESULT st
 ms.topic: struct
 f1_keywords:
 - eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT
+dev_langs:
+ - c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

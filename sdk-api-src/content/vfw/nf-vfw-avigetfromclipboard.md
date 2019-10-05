@@ -12,6 +12,8 @@ ms.keywords: AVIGetFromClipboard, AVIGetFromClipboard function [Windows Multimed
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIGetFromClipboard"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumaProximityNodeEx, GetNumaProximityNodeEx function, base.getnu
 ms.topic: function
 f1_keywords: 
  - "systemtopologyapi/GetNumaProximityNodeEx"
+dev_langs:
+ - c++
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSec
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextGetSecurityInfoByKey0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

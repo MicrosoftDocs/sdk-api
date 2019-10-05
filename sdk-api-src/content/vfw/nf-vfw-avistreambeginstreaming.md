@@ -12,6 +12,8 @@ ms.keywords: AVIStreamBeginStreaming, AVIStreamBeginStreaming function [Windows 
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamBeginStreaming"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

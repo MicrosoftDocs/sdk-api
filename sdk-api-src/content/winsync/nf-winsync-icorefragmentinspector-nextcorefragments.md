@@ -12,6 +12,8 @@ ms.keywords: ICoreFragmentInspector interface [Windows Sync],NextCoreFragments m
 ms.topic: method
 f1_keywords: 
  - "winsync/ICoreFragmentInspector.NextCoreFragments"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

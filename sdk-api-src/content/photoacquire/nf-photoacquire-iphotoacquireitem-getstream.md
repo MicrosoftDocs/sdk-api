@@ -12,6 +12,8 @@ ms.keywords: GetStream, GetStream method [Picture Acquisition], GetStream method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.GetStream"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

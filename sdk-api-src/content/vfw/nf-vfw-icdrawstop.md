@@ -12,6 +12,8 @@ ms.keywords: ICDrawStop, ICDrawStop macro [Windows Multimedia], _win32_ICDrawSto
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDrawStop"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

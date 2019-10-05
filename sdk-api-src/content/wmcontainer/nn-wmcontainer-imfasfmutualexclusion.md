@@ -12,6 +12,8 @@ ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASF
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

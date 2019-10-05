@@ -12,6 +12,8 @@ ms.keywords: CRYPT_EXPORTABLE, CRYPT_IPSEC_HMAC_KEY, CRYPT_NO_SALT, CRYPT_OAEP, 
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptImportKey
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

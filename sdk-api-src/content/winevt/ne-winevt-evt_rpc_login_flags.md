@@ -12,6 +12,8 @@ ms.keywords: EVT_RPC_LOGIN_FLAGS, EVT_RPC_LOGIN_FLAGS enumeration [EventLog], Ev
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_RPC_LOGIN_FLAGS
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

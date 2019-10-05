@@ -12,6 +12,8 @@ ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], Di
 ms.topic: method
 f1_keywords: 
  - "tsgauthenticationengine/ITSGAuthenticateUserSink.DisconnectUser"
+dev_langs:
+ - c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

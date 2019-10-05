@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRe
 ms.topic: method
 f1_keywords: 
  - "wmpservices/WMPRegisterPlayerPlugin"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

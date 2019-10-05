@@ -12,6 +12,8 @@ ms.keywords: CAPVIDEOCALLBACK, _win32_capVideoStreamCallback, capVideoStreamCall
 ms.topic: callback
 f1_keywords: 
  - "vfw/capVideoStreamCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

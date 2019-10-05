@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterDeactivate, EngineAdapterDeactivate callback function 
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterDeactivate
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

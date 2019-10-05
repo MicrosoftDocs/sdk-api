@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_VIEWPORT_OPTIONS, DIRECTMANIPULATION_VIEWPORT_OP
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDXGIDebug interface [DXGI],ReportLiveObjects method, IDXGIDebug.Re
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIDebug.ReportLiveObjects"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

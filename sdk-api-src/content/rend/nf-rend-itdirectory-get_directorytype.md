@@ -12,6 +12,8 @@ ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirect
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.get_DirectoryType"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

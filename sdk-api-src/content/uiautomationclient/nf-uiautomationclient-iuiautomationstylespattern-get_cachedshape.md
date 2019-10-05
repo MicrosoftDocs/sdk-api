@@ -12,6 +12,8 @@ ms.keywords: CachedShape property [Windows Accessibility], CachedShape property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationStylesPattern.CachedShape"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

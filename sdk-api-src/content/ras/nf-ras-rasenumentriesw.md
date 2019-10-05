@@ -12,6 +12,8 @@ ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, Ras
 ms.topic: function
 f1_keywords: 
  - "ras/RasEnumEntries"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

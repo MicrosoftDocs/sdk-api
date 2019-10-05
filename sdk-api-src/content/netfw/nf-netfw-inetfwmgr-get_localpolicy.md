@@ -12,6 +12,8 @@ ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.Local
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwMgr.LocalPolicy"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

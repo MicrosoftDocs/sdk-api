@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function 
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetCallInfo"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],Unadvise method, IVdsService.Unadvise, 
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.Unadvise"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

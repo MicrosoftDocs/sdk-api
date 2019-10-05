@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.PostUnInstall"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

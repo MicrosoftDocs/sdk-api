@@ -12,6 +12,8 @@ ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, in
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongToInt"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

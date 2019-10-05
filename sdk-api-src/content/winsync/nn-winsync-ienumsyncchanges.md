@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumS
 ms.topic: interface
 f1_keywords: 
  - "winsync/IEnumSyncChanges"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

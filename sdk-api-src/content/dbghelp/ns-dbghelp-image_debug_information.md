@@ -12,6 +12,8 @@ ms.keywords: '*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_IN
 ms.topic: struct
 f1_keywords:
 - dbghelp/IMAGE_DEBUG_INFORMATION
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

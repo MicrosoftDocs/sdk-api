@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_BITMAP_INTERPOLATION_MODE, DCOMPOSITION_BITMAP_INTERPO
 ms.topic: enum
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NULL, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SH
 ms.topic: function
 f1_keywords:
 - shellapi/ShellExecute
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

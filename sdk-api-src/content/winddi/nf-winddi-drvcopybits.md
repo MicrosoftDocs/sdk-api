@@ -12,6 +12,8 @@ ms.keywords: DrvCopyBits, DrvCopyBits function [Display Devices], ddifncs_95bc17
 ms.topic: function
 f1_keywords:
 - winddi/DrvCopyBits
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: '*PPOINTFLOAT, POINTFLOAT, POINTFLOAT structure [OpenGL], PPOINTFLO
 ms.topic: struct
 f1_keywords:
 - wingdi/POINTFLOAT
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

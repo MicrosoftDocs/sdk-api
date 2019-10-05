@@ -12,6 +12,8 @@ ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [M
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_ISDBConditionalAccess"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

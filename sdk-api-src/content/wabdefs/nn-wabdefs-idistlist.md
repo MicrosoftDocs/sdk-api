@@ -12,6 +12,8 @@ ms.keywords: IDistList, IDistList interface [Windows Address Book], IDistList in
 ms.topic: interface
 f1_keywords: 
  - "wabdefs/IDistList"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows

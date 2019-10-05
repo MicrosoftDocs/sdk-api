@@ -12,6 +12,8 @@ ms.keywords: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0, IInkRecognizerContext, IInkRe
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.StopBackgroundRecognition"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

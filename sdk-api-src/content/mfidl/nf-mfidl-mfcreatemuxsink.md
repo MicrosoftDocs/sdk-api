@@ -12,6 +12,8 @@ ms.keywords: MFCreateMuxSink, MFCreateMuxSink function [Media Foundation], mf.mf
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateMuxSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

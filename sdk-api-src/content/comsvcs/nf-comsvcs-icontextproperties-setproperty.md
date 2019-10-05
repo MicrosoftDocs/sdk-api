@@ -12,6 +12,8 @@ ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextPro
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextProperties.SetProperty"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

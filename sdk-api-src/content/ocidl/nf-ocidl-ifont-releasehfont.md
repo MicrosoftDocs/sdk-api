@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],ReleaseHfont method, IFont.ReleaseHfont, IFon
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.ReleaseHfont"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

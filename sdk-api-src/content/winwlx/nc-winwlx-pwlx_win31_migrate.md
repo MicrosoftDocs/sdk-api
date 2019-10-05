@@ -12,6 +12,8 @@ ms.keywords: PWLX_WIN31_MIGRATE, PWLX_WIN31_MIGRATE callback, WlxWin31Migrate, W
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxWin31Migrate
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

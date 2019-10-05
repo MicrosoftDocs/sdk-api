@@ -12,6 +12,8 @@ ms.keywords: GetActive, GetActive method [Windows Controls], GetActive method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.GetActive"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

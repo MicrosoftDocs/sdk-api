@@ -12,6 +12,8 @@ ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_AppSpecific method, I
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITToneDetectionEvent.get_AppSpecific"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCachedGrabbedItems, GetCachedGrabbedItems method [Windows Access
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDragPattern.GetCachedGrabbedItems"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

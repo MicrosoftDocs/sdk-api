@@ -12,6 +12,8 @@ ms.keywords: PaletteType, PaletteType enumeration [GDI+], PaletteTypeCustom, Pal
 ms.topic: enum
 f1_keywords: 
  - "gdipluspixelformats/PaletteType"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

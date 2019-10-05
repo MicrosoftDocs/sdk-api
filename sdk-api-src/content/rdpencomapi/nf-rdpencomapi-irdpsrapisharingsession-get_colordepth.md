@@ -12,6 +12,8 @@ ms.keywords: ColorDepth property [RDP], ColorDepth property [RDP],IRDPSRAPIShari
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.ColorDepth"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

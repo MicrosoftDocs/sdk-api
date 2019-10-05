@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor 
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetData"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

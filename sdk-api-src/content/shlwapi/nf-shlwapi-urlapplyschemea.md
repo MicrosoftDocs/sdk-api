@@ -12,6 +12,8 @@ ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_A
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlApplyScheme"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

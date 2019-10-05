@@ -12,6 +12,8 @@ ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetPro
 ms.topic: function
 f1_keywords: 
  - "winbase/SetProcessDEPPolicy"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

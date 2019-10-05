@@ -12,6 +12,8 @@ ms.keywords: Configuration property [Windows Deployment Services], Configuration
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespace.Configuration"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIE
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_SYNC_POLICIES"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

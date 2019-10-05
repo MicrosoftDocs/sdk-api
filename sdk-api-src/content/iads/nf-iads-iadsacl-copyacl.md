@@ -12,6 +12,8 @@ ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl inter
 ms.topic: method
 f1_keywords: 
  - "iads/IADsAcl.CopyAcl"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TASKDIALOGCONFIG, TASKDIALOGCONFIG structure [Windows Controls], TD
 ms.topic: struct
 f1_keywords:
 - commctrl/TASKDIALOGCONFIG
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator interface [App pack
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

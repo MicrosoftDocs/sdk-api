@@ -12,6 +12,8 @@ ms.keywords: GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.GetPresentPerRenderOpDelay"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

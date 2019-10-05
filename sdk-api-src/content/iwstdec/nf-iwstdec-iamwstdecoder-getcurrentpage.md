@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPage, GetCurrentPage method [DirectShow], GetCurrentPage 
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetCurrentPage
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

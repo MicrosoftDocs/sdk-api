@@ -12,6 +12,8 @@ ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver In
 ms.topic: function
 f1_keywords:
 - newdev/DiUninstallDevice
+dev_langs:
+ - c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

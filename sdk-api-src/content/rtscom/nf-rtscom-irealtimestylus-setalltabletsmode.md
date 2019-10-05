@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylus interface [Tablet PC],SetAllTabletsMode method, IRe
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.SetAllTabletsMode"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

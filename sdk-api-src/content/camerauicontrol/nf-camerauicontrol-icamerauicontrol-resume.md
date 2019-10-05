@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControl interface [Windows API],Resume method, ICameraUICo
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.Resume"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

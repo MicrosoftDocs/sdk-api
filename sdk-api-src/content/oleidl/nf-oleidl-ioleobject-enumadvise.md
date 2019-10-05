@@ -12,6 +12,8 @@ ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleOb
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.EnumAdvise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

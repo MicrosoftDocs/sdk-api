@@ -12,6 +12,8 @@ ms.keywords: DI_COMPAT, DI_DEFAULTSIZE, DI_IMAGE, DI_MASK, DI_NOMIRROR, DI_NORMA
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawIconEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

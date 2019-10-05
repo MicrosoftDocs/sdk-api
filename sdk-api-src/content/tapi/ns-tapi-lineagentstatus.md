@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTSTATUS, LINEAGENTSTATUS, LINEAGENTSTATUS structure [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTSTATUS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

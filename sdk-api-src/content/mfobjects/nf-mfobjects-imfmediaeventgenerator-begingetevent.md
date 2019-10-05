@@ -12,6 +12,8 @@ ms.keywords: BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEve
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventGenerator.BeginGetEvent"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

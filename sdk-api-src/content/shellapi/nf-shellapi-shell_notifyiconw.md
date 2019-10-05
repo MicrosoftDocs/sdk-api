@@ -12,6 +12,8 @@ ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shel
 ms.topic: function
 f1_keywords:
 - shellapi/Shell_NotifyIcon
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

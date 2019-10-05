@@ -12,6 +12,8 @@ ms.keywords: 021887fc-36af-42d4-ae46-2edc1c700110, MFCreateVideoRendererActivate
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateVideoRendererActivate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

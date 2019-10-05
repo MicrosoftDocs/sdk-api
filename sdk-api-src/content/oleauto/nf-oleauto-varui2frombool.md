@@ -12,6 +12,8 @@ ms.keywords: VarUI2FromBool, VarUI2FromBool function [Automation], _oa96_VarUI2F
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarUI2FromBool"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

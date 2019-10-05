@@ -12,6 +12,8 @@ ms.keywords: FWPM_CALLOUT_CHANGE0, FWPM_CALLOUT_CHANGE0 structure [Filtering], f
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CALLOUT_CHANGE0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

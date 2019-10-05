@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Reset method, IEnumBackgr
 ms.topic: method
 f1_keywords: 
  - "bits/IEnumBackgroundCopyFiles.Reset"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

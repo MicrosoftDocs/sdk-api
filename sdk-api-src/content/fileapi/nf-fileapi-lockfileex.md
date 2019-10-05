@@ -12,6 +12,8 @@ ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, Loc
 ms.topic: function
 f1_keywords:
 - fileapi/LockFileEx
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

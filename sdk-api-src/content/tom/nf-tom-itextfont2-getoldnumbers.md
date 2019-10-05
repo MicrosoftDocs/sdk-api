@@ -12,6 +12,8 @@ ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbe
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetOldNumbers"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

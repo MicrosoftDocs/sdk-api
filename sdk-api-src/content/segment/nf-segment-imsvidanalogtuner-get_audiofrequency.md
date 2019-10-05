@@ -12,6 +12,8 @@ ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_AudioFr
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAnalogTuner.get_AudioFrequency"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

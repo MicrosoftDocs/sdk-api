@@ -12,6 +12,8 @@ ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDis
 ms.topic: interface
 f1_keywords: 
  - "imessagedispatcher/IMessageDispatcher"
+dev_langs:
+ - c++
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows

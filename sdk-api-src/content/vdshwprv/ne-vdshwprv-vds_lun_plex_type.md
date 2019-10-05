@@ -12,6 +12,8 @@ ms.keywords: VDS_LPT_PARITY, VDS_LPT_RAID03, VDS_LPT_RAID05, VDS_LPT_RAID10, VDS
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_LUN_PLEX_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

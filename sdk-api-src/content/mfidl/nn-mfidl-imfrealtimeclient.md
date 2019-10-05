@@ -12,6 +12,8 @@ ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFRealTimeClient"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 002d8608-4ef9-40fd-8dcc-fe6ade34478e, IMFNetCredentialManager, IMFN
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFNetCredentialManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

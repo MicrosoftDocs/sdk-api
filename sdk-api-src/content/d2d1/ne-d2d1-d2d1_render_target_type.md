@@ -12,6 +12,8 @@ ms.keywords: D2D1_RENDER_TARGET_TYPE, D2D1_RENDER_TARGET_TYPE enumeration [Direc
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_RENDER_TARGET_TYPE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

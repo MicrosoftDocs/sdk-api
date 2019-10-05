@@ -12,6 +12,8 @@ ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComThreadEvents.OnThreadBindToApartment"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

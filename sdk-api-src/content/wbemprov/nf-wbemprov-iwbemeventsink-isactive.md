@@ -12,6 +12,8 @@ ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],IsAct
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemEventSink.IsActive"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

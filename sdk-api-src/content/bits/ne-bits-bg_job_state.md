@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_STATE, BG_JOB_STATE enumeration [BITS], BG_JOB_STATE_ACKNOWL
 ms.topic: enum
 f1_keywords: 
  - "bits/BG_JOB_STATE"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

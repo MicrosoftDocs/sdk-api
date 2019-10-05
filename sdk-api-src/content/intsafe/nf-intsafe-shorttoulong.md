@@ -12,6 +12,8 @@ ms.keywords: ShortToULong, ShortToULong function [Windows Shell], intsafe/ShortT
 ms.topic: function
 f1_keywords: 
  - "intsafe/ShortToULong"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

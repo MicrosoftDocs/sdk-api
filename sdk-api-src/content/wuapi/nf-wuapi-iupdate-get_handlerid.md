@@ -12,6 +12,8 @@ ms.keywords: HandlerID property [Windows Update Agent], HandlerID property [Wind
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.HandlerID"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

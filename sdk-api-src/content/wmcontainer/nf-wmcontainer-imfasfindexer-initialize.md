@@ -12,6 +12,8 @@ ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFAS
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.Initialize"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

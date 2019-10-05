@@ -12,6 +12,8 @@ ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable met
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/IMpeg2Data.GetTable"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

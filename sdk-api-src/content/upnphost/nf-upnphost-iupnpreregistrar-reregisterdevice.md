@@ -12,6 +12,8 @@ ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterDevice method, IUP
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPReregistrar.ReregisterDevice"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

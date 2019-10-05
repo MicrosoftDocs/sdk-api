@@ -12,6 +12,8 @@ ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestSupport
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.RequestSupportedAttrs"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

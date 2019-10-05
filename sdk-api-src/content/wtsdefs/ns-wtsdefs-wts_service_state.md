@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SERVICE_STATE, PWRDS_SERVICE_STATE, PWRDS_SERVICE_STATE stru
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_SERVICE_STATE"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

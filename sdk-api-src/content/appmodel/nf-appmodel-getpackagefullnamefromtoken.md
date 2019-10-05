@@ -12,6 +12,8 @@ ms.keywords: GetPackageFullNameFromToken, GetPackageFullNameFromToken function [
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackageFullNameFromToken"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

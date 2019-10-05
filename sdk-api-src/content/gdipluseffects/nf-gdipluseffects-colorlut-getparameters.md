@@ -12,6 +12,8 @@ ms.keywords: ColorLUT class [GDI+],GetParameters method, ColorLUT.GetParameters,
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorLUT.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

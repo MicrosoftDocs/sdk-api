@@ -12,6 +12,8 @@ ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/In
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/InstallLogPolicy
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

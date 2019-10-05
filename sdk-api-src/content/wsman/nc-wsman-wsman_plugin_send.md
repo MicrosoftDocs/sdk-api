@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_SEND, WSMAN_PLUGIN_SEND callback, WSMAN_PLUGIN_SEND ca
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_SEND
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

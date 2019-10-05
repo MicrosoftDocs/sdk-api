@@ -12,6 +12,8 @@ ms.keywords: "*LPMC_TIMING_REPORT, LPMC_TIMING_REPORT, LPMC_TIMING_REPORT struct
 ms.topic: struct
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/MC_TIMING_REPORT"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

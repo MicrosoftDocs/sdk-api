@@ -12,6 +12,8 @@ ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpA
 ms.topic: interface
 f1_keywords: 
  - "wsdbase/IWSDHttpAuthParameters"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IResolveShellLink interface [Windows Shell],ResolveShellLink method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IResolveShellLink.ResolveShellLink"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

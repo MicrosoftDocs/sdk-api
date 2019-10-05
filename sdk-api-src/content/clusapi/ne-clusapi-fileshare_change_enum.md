@@ -12,6 +12,8 @@ ms.keywords: '*PFILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DE
 ms.topic: enum
 f1_keywords:
 - clusapi/FILESHARE_CHANGE_ENUM
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

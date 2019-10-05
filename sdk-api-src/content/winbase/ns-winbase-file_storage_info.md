@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_STORAGE_INFO, FILE_STORAGE_INFO, FILE_STORAGE_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_STORAGE_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

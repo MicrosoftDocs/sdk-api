@@ -12,6 +12,8 @@ ms.keywords: IEnumCATEGORYINFO interface [COM],Skip method, IEnumCATEGORYINFO.Sk
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumCATEGORYINFO.Skip"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

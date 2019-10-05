@@ -12,6 +12,8 @@ ms.keywords: '*LPWSANSCLASSINFOW, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLA
 ms.topic: struct
 f1_keywords:
 - winsock2/WSANSCLASSINFO
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

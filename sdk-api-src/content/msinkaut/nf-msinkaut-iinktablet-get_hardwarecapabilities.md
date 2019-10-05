@@ -12,6 +12,8 @@ ms.keywords: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca, HardwareCapabilities property
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet.HardwareCapabilities"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPENUM_SERVICE_STATUSW, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS 
 ms.topic: struct
 f1_keywords:
 - winsvc/ENUM_SERVICE_STATUS
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HorizontalScrollPercent property [Windows Accessibility], Horizonta
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IScrollProvider.HorizontalScrollPercent"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

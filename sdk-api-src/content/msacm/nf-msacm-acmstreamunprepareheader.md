@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmStreamUnprepareHeader, acmStreamUnprepareHeader, acmStre
 ms.topic: function
 f1_keywords: 
  - "msacm/acmStreamUnprepareHeader"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

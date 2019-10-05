@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IB
 ms.topic: interface
 f1_keywords: 
  - "bits/IBackgroundCopyManager"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

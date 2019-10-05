@@ -12,6 +12,8 @@ ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], 
 ms.topic: function
 f1_keywords: 
  - "winuser/SetWinEventHook"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_NTFS_FILE_RECORD, FSCTL_GET_NTFS_FILE_RECORD control, FSC
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_GET_NTFS_FILE_RECORD"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

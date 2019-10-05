@@ -12,6 +12,8 @@ ms.keywords: GetStoryType, GetStoryType method [Windows Controls], GetStoryType 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetStoryType"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

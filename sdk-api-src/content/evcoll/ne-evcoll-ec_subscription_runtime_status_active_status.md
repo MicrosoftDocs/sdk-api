@@ -12,6 +12,8 @@ ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, EC_SUBSCRIPTION_RUNTI
 ms.topic: enum
 f1_keywords: 
  - "evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

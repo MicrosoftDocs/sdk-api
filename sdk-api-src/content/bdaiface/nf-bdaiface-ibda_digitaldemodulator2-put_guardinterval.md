@@ -12,6 +12,8 @@ ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DigitalDemodulator2.put_GuardInterval"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

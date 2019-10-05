@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disco
 ms.topic: method
 f1_keywords: 
  - "portabledeviceconnectapi/IPortableDeviceConnector.Disconnect"
+dev_langs:
+ - c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

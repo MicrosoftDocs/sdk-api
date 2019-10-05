@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellImageStore.Commit"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Fai
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUS_RESSUBCLASS_NETWORK"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

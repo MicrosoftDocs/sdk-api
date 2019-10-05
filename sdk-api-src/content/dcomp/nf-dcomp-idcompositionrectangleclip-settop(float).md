@@ -12,6 +12,8 @@ ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop met
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionRectangleClip.SetTop"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

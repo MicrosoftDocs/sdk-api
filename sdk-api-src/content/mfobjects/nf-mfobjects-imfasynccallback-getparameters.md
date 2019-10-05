@@ -12,6 +12,8 @@ ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncCallback.GetParameters"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

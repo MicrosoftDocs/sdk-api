@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],PictureChanged method, IPicture.PictureCha
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.PictureChanged"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

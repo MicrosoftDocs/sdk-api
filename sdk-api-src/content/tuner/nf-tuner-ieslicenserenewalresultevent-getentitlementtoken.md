@@ -12,6 +12,8 @@ ms.keywords: GetEntitlementToken, GetEntitlementToken method [DirectShow], GetEn
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetEntitlementToken"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

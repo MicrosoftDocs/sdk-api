@@ -12,6 +12,8 @@ ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult m
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/ICreateDeviceAccessAsync.GetResult"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRequestId, GetRequestId method [DirectShow], GetRequestId method
 ms.topic: method
 f1_keywords: 
  - "tuner/IESIsdbCasResponseEvent.GetRequestId"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

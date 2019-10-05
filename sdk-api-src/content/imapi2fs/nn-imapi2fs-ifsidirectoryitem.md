@@ -12,6 +12,8 @@ ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], IFsiDirecto
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IFsiDirectoryItem"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

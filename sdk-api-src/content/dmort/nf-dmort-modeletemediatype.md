@@ -12,6 +12,8 @@ ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/M
 ms.topic: function
 f1_keywords: 
  - "dmort/MoDeleteMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

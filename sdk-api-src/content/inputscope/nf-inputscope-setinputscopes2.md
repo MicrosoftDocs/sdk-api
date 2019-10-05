@@ -12,6 +12,8 @@ ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework]
 ms.topic: function
 f1_keywords: 
  - "inputscope/SetInputScopes2"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

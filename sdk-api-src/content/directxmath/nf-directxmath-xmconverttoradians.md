@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMConvertToRadians, XMConvertToRadians, XMConvertToRad
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMConvertToRadians"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

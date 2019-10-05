@@ -12,6 +12,8 @@ ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Form
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLicenseBackup.CancelLicenseBackup"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

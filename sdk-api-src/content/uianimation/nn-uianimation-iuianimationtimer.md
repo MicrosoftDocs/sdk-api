@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation],
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationTimer"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

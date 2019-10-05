@@ -12,6 +12,8 @@ ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateAC3MediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

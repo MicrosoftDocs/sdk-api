@@ -12,6 +12,8 @@ ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecGetStatistics0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

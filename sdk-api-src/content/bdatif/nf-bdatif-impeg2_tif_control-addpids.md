@@ -12,6 +12,8 @@ ms.keywords: AddPIDs, AddPIDs method [Microsoft TV Technologies], AddPIDs method
 ms.topic: method
 f1_keywords: 
  - "bdatif/IMPEG2_TIF_CONTROL.AddPIDs"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

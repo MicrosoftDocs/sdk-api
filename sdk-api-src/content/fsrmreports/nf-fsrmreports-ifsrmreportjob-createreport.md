@@ -12,6 +12,8 @@ ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], C
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportJob.CreateReport
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

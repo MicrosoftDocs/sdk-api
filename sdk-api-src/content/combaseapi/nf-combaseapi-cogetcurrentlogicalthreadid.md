@@ -12,6 +12,8 @@ ms.keywords: CoGetCurrentLogicalThreadId, CoGetCurrentLogicalThreadId function [
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetCurrentLogicalThreadId"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL
 ms.topic: struct
 f1_keywords: 
  - "schannel/SCHANNEL_CLIENT_SIGNATURE"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

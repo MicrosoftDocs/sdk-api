@@ -12,6 +12,8 @@ ms.keywords: 04e8c89e-115e-41d4-b8cb-953f68ddd14e, MFSetAttributeRatio, MFSetAtt
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFSetAttributeRatio"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

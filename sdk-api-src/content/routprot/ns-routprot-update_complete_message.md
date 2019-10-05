@@ -12,6 +12,8 @@ ms.keywords: '*PUPDATE_COMPLETE_MESSAGE, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SER
 ms.topic: struct
 f1_keywords:
 - routprot/UPDATE_COMPLETE_MESSAGE
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

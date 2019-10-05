@@ -12,6 +12,8 @@ ms.keywords: DrvStartBanding, DrvStartBanding function [Display Devices], ddifnc
 ms.topic: function
 f1_keywords:
 - winddi/DrvStartBanding
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

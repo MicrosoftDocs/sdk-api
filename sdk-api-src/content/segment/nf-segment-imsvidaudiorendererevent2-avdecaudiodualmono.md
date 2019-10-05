@@ -12,6 +12,8 @@ ms.keywords: AVDecAudioDualMono, AVDecAudioDualMono method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2.AVDecAudioDualMono"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

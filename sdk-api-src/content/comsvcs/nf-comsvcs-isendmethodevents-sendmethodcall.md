@@ -12,6 +12,8 @@ ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMeth
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISendMethodEvents.SendMethodCall"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

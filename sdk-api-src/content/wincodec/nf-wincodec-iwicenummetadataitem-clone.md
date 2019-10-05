@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Imaging Component], Clone method [Wind
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICEnumMetadataItem.Clone"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

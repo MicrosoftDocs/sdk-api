@@ -12,6 +12,8 @@ ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyM
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyManager.GetJob"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

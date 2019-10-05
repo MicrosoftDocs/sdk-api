@@ -12,6 +12,8 @@ ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM 
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/GetManagementAppHyperlink"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

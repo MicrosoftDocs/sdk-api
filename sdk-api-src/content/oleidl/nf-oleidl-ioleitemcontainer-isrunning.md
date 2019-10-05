@@ -12,6 +12,8 @@ ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContain
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleItemContainer.IsRunning"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

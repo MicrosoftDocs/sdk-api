@@ -12,6 +12,8 @@ ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],Ge
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue.GetAllInstancesAsynch"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

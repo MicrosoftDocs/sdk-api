@@ -12,6 +12,8 @@ ms.keywords: GetOpenParentState, GetOpenParentState method [COM], GetOpenParentS
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.GetOpenParentState"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

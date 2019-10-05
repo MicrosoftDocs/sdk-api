@@ -12,6 +12,8 @@ ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclos
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDCloseHandle"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

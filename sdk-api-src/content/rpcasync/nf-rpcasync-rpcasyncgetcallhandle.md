@@ -12,6 +12,8 @@ ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpca
 ms.topic: macro
 f1_keywords:
 - rpcasync/RpcAsyncGetCallHandle
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

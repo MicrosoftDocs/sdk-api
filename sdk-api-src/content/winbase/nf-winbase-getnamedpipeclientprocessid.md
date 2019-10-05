@@ -12,6 +12,8 @@ ms.keywords: GetNamedPipeClientProcessId, GetNamedPipeClientProcessId function, 
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNamedPipeClientProcessId"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

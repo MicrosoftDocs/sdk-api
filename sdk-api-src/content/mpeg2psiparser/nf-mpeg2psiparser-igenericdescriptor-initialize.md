@@ -12,6 +12,8 @@ ms.keywords: IGenericDescriptor interface [Microsoft TV Technologies],Initialize
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IGenericDescriptor.Initialize"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetColumnWidth, GetColumnWidth method [MMC], GetColumnWidth method 
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl.GetColumnWidth"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

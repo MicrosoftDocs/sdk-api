@@ -12,6 +12,8 @@ ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Br
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionContext.GetProvisionedContexts"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

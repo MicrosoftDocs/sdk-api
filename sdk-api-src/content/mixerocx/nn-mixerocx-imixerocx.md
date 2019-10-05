@@ -12,6 +12,8 @@ ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [D
 ms.topic: interface
 f1_keywords: 
  - "mixerocx/IMixerOCX"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

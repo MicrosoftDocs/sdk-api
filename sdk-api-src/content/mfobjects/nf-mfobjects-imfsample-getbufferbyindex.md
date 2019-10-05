@@ -12,6 +12,8 @@ ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferBy
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.GetBufferByIndex"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

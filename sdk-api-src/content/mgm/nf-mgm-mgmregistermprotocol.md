@@ -12,6 +12,8 @@ ms.keywords: MgmRegisterMProtocol, MgmRegisterMProtocol function [RAS], _mpr_mgm
 ms.topic: function
 f1_keywords:
 - mgm/MgmRegisterMProtocol
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

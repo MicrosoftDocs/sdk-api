@@ -12,6 +12,8 @@ ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition]
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDesktopDevice.CreateTargetForHwnd"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

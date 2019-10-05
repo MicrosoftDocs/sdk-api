@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_CDMA_LANG, MBN_SMS_CDMA_LANG enumeration [Microsoft Broadba
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SMS_CDMA_LANG"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertSerializeCRLStoreElement, CertSerializeCRLStoreElement function
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSerializeCRLStoreElement
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

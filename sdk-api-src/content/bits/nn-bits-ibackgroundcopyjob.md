@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroun
 ms.topic: interface
 f1_keywords: 
  - "bits/IBackgroundCopyJob"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

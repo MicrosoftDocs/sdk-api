@@ -12,6 +12,8 @@ ms.keywords: CreateOrConditionFromArray, CreateOrConditionFromArray method [Wind
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.CreateOrConditionFromArray"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

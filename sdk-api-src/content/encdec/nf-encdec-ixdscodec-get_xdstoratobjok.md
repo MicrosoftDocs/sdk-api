@@ -12,6 +12,8 @@ ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK m
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodec.get_XDSToRatObjOK"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

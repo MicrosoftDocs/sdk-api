@@ -12,6 +12,8 @@ ms.keywords: LSA_UPDATE_PRIMARY_CREDENTIALS, LSA_UPDATE_PRIMARY_CREDENTIALS call
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/UpdateCredentials
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

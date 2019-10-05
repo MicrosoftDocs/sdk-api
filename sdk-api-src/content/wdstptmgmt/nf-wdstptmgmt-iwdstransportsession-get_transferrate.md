@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Transf
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSession.TransferRate"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

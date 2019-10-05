@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interf
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessorInputView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

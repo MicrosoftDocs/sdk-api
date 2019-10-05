@@ -12,6 +12,8 @@ ms.keywords: D3D10_FORMAT_SUPPORT, D3D10_FORMAT_SUPPORT enumeration [Direct3D 10
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_FORMAT_SUPPORT"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

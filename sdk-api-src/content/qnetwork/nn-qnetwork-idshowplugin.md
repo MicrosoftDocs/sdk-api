@@ -12,6 +12,8 @@ ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin int
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IDShowPlugin"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

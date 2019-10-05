@@ -12,6 +12,8 @@ ms.keywords: McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapi
 ms.topic: function
 f1_keywords:
 - madcapcl/McastApiStartup
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 084772c2-3360-63d5-fb00-82f536323a9d, D3DX11CreateScan, D3DX11Creat
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateScan"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

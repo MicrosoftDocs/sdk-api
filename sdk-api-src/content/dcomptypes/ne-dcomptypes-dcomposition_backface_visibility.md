@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_BACKFACE_VISIBILITY, DCOMPOSITION_BACKFACE_VISIBILITY 
 ms.topic: enum
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows

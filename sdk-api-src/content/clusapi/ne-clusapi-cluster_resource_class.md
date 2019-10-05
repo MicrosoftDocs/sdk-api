@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_CLASS, CLUSTER_RESOURCE_CLASS enumeration [Failove
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_RESOURCE_CLASS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

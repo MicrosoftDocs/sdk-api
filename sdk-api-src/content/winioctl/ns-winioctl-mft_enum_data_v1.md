@@ -12,6 +12,8 @@ ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_
 ms.topic: struct
 f1_keywords: 
  - "winioctl/MFT_ENUM_DATA_V1"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

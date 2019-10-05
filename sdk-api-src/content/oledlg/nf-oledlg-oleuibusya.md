@@ -12,6 +12,8 @@ ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_O
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIBusy"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

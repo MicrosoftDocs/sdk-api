@@ -12,6 +12,8 @@ ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Unregister met
 ms.topic: method
 f1_keywords: 
  - "tuner/IRegisterTuner.Unregister"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

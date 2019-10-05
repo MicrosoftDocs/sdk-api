@@ -12,6 +12,8 @@ ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStru
 ms.topic: struct
 f1_keywords:
 - medparam/MP_PARAMINFO
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

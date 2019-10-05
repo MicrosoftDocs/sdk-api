@@ -12,6 +12,8 @@ ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],Load method, 
 ms.topic: method
 f1_keywords: 
  - "tuner/IPersistTuneXml.Load"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

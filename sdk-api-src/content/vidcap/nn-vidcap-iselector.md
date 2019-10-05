@@ -12,6 +12,8 @@ ms.keywords: ISelector, ISelector interface [DirectShow], ISelector interface [D
 ms.topic: interface
 f1_keywords: 
  - "vidcap/ISelector"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME st
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_RUNTIME"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

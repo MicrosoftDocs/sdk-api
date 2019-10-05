@@ -12,6 +12,8 @@ ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 s
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDDEVICEIDENTIFIER2"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

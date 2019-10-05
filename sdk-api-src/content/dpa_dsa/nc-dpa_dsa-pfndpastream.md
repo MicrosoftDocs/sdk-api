@@ -12,6 +12,8 @@ ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function
 ms.topic: callback
 f1_keywords:
 - dpa_dsa/PFNDPASTREAM
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

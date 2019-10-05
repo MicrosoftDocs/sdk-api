@@ -12,6 +12,8 @@ ms.keywords: GetXpsOMPackageWriter, GetXpsOMPackageWriter method [XPS Documents 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMPackageWriter"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

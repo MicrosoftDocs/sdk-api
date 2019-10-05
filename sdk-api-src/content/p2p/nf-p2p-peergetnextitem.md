@@ -12,6 +12,8 @@ ms.keywords: PeerGetNextItem, PeerGetNextItem function [Peer Networking], p2p.pe
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGetNextItem"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

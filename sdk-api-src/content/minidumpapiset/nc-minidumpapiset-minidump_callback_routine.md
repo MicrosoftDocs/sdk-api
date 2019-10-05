@@ -12,6 +12,8 @@ ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callb
 ms.topic: callback
 f1_keywords: 
  - "minidumpapiset/MiniDumpCallback"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

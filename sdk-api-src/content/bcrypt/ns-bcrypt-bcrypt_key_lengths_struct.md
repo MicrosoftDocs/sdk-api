@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_AUTH_TAG_LENGTHS_STRUCT, BCRYPT_AUTH_TAG_LENGTHS_STRUCT stru
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_KEY_LENGTHS_STRUCT"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

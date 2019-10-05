@@ -12,6 +12,8 @@ ms.keywords: GetSurfacePitch, GetSurfacePitch method [Media Foundation], GetSurf
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DCryptoSession9.GetSurfacePitch"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

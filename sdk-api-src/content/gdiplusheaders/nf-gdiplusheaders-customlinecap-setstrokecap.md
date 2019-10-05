@@ -12,6 +12,8 @@ ms.keywords: CustomLineCap class [GDI+],SetStrokeCap method, CustomLineCap.SetSt
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap.SetStrokeCap"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

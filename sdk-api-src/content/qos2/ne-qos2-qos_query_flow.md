@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, 
 ms.topic: enum
 f1_keywords: 
  - "qos2/QOS_QUERY_FLOW"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

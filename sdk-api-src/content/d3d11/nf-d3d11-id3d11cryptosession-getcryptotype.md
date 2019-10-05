@@ -12,6 +12,8 @@ ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType, GetCryptoType method [
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11CryptoSession.GetCryptoType"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

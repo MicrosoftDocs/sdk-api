@@ -12,6 +12,8 @@ ms.keywords: XPS_THUMBNAIL_SIZE, XPS_THUMBNAIL_SIZE enumeration [XPS Documents a
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_THUMBNAIL_SIZE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

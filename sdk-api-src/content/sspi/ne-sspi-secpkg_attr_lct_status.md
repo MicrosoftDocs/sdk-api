@@ -12,6 +12,8 @@ ms.keywords: '*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_
 ms.topic: enum
 f1_keywords:
 - sspi/SECPKG_ATTR_LCT_STATUS
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

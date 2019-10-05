@@ -12,6 +12,8 @@ ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],Reset m
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDisplayAttributeInfo.Reset"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

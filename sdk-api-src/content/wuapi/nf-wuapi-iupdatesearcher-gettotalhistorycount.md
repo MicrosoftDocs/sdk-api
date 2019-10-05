@@ -12,6 +12,8 @@ ms.keywords: GetTotalHistoryCount, GetTotalHistoryCount method [Windows Update A
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSearcher.GetTotalHistoryCount"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

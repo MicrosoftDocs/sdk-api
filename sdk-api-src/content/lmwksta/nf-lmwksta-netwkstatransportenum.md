@@ -12,6 +12,8 @@ ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network M
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaTransportEnum
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

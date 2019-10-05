@@ -12,6 +12,8 @@ ms.keywords: IsVarTypeFloat, IsVarTypeFloat function [Windows Properties], _shel
 ms.topic: function
 f1_keywords: 
  - "propvarutil/IsVarTypeFloat"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

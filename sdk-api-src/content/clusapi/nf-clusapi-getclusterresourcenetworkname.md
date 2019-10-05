@@ -12,6 +12,8 @@ ms.keywords: GetClusterResourceNetworkName, GetClusterResourceNetworkName functi
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterResourceNetworkName"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

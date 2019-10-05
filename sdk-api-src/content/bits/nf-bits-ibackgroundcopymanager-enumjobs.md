@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs, EnumJobs method [BITS], EnumJobs m
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyManager.EnumJobs"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

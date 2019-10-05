@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderSubscriptionsGet0, FwpmProviderSubscriptionsGet0 functi
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderSubscriptionsGet0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_l
 ms.topic: function
 f1_keywords: 
  - "fileapi/LocalFileTimeToFileTime"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

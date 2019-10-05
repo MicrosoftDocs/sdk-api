@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [Group Policy], GetPath method [Group Polic
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetPath"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

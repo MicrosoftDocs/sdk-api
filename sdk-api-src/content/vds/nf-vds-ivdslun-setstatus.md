@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],SetStatus method, IVdsLun.SetStatus, IVdsLu
 ms.topic: method
 f1_keywords:
 - vds/IVdsLun.SetStatus
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

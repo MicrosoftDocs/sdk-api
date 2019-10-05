@@ -12,6 +12,8 @@ ms.keywords: ExportPolicy property [Security], ExportPolicy property [Security],
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.ExportPolicy"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

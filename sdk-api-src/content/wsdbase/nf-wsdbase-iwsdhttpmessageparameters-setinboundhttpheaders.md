@@ -12,6 +12,8 @@ ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, I
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

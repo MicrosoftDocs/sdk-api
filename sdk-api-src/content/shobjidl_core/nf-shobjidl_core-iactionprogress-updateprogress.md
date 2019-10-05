@@ -12,6 +12,8 @@ ms.keywords: IActionProgress interface [Windows Shell],UpdateProgress method, IA
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IActionProgress.UpdateProgress"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

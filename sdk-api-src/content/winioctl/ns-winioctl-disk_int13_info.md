@@ -12,6 +12,8 @@ ms.keywords: '*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Fil
 ms.topic: struct
 f1_keywords:
 - winioctl/DISK_INT13_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

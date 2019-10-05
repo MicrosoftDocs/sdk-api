@@ -12,6 +12,8 @@ ms.keywords: XPS_SEGMENT_STROKE_PATTERN, XPS_SEGMENT_STROKE_PATTERN enumeration 
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryMapping.InsertEntries"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

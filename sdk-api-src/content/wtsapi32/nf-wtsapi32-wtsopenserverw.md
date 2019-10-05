@@ -12,6 +12,8 @@ ms.keywords: WTSOpenServer, WTSOpenServer function [Remote Desktop Services], WT
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSOpenServer"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

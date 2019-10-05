@@ -12,6 +12,8 @@ ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgr
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.EnumFiles"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

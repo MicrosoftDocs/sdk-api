@@ -12,6 +12,8 @@ ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.HasVideo"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

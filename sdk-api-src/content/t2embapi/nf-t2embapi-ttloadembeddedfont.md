@@ -12,6 +12,8 @@ ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEW
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTLoadEmbeddedFont"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

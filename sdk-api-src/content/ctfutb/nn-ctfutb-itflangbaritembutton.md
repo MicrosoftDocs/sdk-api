@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarItemButton"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

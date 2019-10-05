@@ -12,6 +12,8 @@ ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Micr
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_TOT.GetCountOfTableDescriptors"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

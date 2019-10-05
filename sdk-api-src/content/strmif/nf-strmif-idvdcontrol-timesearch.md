@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.T
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.TimeSearch"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

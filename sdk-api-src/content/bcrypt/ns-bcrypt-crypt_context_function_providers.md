@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDE
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

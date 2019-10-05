@@ -12,6 +12,8 @@ ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinl
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymQueryInlineTrace"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

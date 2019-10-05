@@ -12,6 +12,8 @@ ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange functi
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/CancelIfTimestampConfigChange"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

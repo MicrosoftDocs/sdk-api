@@ -12,6 +12,8 @@ ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_CallbackMode, M
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_CallbackMode"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

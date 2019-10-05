@@ -12,6 +12,8 @@ ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDecrypt"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

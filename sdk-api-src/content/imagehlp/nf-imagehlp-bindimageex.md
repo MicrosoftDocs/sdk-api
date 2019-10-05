@@ -12,6 +12,8 @@ ms.keywords: BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIN
 ms.topic: function
 f1_keywords: 
  - "imagehlp/BindImageEx"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

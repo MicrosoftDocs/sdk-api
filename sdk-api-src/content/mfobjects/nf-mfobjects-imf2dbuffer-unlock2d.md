@@ -12,6 +12,8 @@ ms.keywords: 535452a3-0b38-467e-b556-80a069e4c0a5, IMF2DBuffer interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMF2DBuffer.Unlock2D"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF],
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.EdgeTraversal"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

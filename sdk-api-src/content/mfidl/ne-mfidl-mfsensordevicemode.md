@@ -12,6 +12,8 @@ ms.keywords: MFSensorDeviceMode, MFSensorDeviceMode enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSensorDeviceMode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

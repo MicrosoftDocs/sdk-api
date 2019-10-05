@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Re
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationUpdateManager.RegisterWaitHandleCallback"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformI
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetPlatformInfo"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

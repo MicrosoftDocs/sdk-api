@@ -12,6 +12,8 @@ ms.keywords: IMFTopologyServiceLookupClient interface [Media Foundation],InitSer
 ms.topic: method
 f1_keywords: 
  - "evr/IMFTopologyServiceLookupClient.InitServicePointers"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

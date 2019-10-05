@@ -12,6 +12,8 @@ ms.keywords: MI_ConstReal64A, MI_ConstReal64A structure [Windows Management Infr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_ConstReal64A"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

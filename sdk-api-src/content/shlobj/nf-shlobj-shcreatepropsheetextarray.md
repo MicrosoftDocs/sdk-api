@@ -12,6 +12,8 @@ ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Wind
 ms.topic: function
 f1_keywords: 
  - "shlobj/SHCreatePropSheetExtArray"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StrPBrk, StrPBrk function [Windows Shell], StrPBrkA, StrPBrkW, _win
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrPBrk"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

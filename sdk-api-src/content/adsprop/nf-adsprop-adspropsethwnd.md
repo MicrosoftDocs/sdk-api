@@ -12,6 +12,8 @@ ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines
 ms.topic: function
 f1_keywords: 
  - "adsprop/ADsPropSetHwnd"
+dev_langs:
+ - c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.BltBatch
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

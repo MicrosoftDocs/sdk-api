@@ -12,6 +12,8 @@ ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.SetSampleTime"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

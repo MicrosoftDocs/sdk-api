@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnStreamClosed metho
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStreamEvents.OnStreamClosed"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

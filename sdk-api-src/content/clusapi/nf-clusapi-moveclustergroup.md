@@ -12,6 +12,8 @@ ms.keywords: MoveClusterGroup, MoveClusterGroup function [Failover Cluster], PCL
 ms.topic: function
 f1_keywords: 
  - "clusapi/MoveClusterGroup"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_XML_READER_INPUT_TYPE, WS_XML_READER_INPUT_TYPE enumeration [Web
 ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_READER_INPUT_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

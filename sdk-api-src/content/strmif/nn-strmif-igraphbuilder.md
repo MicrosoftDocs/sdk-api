@@ -12,6 +12,8 @@ ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder 
 ms.topic: interface
 f1_keywords: 
  - "strmif/IGraphBuilder"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

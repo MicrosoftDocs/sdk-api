@@ -12,6 +12,8 @@ ms.keywords: AllowOnlySDRServers, ClipboardRedirectionDisabled, DisableAllRedire
 ms.topic: enum
 f1_keywords: 
  - "tsgpolicyengine/PolicyAttributeType"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

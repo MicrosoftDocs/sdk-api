@@ -12,6 +12,8 @@ ms.keywords: IMultisessionSequential interface [IMAPI],get_LastWrittenAddressOfP
 ms.topic: method
 f1_keywords: 
  - "imapi2/IMultisessionSequential.get_LastWrittenAddressOfPreviousSession"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

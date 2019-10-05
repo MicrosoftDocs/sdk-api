@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement.GetCurrentPage"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

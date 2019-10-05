@@ -12,6 +12,8 @@ ms.keywords: DIRECTORY_OBJECT_TYPE, DIRECTORY_OBJECT_TYPE enumeration [TAPI 2.2]
 ms.topic: enum
 f1_keywords: 
  - "rend/DIRECTORY_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

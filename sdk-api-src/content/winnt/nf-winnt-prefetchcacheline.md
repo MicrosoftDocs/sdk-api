@@ -12,6 +12,8 @@ ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, 
 ms.topic: macro
 f1_keywords: 
  - "winnt/PreFetchCacheLine"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

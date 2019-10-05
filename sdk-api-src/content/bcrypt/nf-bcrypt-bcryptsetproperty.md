@@ -12,6 +12,8 @@ ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BC
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptSetProperty"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

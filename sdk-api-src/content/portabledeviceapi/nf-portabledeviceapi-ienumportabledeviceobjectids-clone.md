@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [W
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Clone"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

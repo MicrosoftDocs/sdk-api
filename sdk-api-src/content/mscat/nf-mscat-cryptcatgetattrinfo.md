@@ -12,6 +12,8 @@ ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATGetAttrInfo"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

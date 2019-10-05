@@ -12,6 +12,8 @@ ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, PWM_CONTROLLER_SET_DESIRED
 ms.topic: struct
 f1_keywords: 
  - "pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT"
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

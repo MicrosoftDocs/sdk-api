@@ -12,6 +12,8 @@ ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.
 ms.topic: function
 f1_keywords:
 - traffic/TcModifyFlow
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

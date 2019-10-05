@@ -12,6 +12,8 @@ ms.keywords: EnumDiscRecorders, EnumDiscRecorders method [IMAPI], EnumDiscRecord
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.EnumDiscRecorders"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.SetFeatureMask"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

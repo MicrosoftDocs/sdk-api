@@ -12,6 +12,8 @@ ms.keywords: TreeScope, TreeScope enumeration [Windows Accessibility], TreeScope
 ms.topic: enum
 f1_keywords: 
  - "uiautomationclient/TreeScope"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows

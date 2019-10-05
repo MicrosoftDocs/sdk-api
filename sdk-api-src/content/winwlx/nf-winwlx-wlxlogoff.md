@@ -12,6 +12,8 @@ ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxLogoff"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

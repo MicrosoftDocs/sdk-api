@@ -12,6 +12,8 @@ ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Wi
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_LoadImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

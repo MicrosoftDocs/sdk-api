@@ -12,6 +12,8 @@ ms.keywords: '*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS],
 ms.topic: struct
 f1_keywords:
 - nb30/ACTION_HEADER
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

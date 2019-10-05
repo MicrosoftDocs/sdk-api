@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector3Orthogonal, XMVector3Orthogonal, XMVector3Ort
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector3Orthogonal"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

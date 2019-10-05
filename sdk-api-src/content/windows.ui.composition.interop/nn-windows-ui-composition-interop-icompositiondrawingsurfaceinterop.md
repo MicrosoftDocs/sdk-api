@@ -12,6 +12,8 @@ ms.keywords: ICompositionDrawingSurfaceInterop, ICompositionDrawingSurfaceIntero
 ms.topic: interface
 f1_keywords: 
  - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop"
+dev_langs:
+ - c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

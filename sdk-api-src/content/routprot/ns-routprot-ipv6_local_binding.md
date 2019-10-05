@@ -12,6 +12,8 @@ ms.keywords: "*PIPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING struc
 ms.topic: struct
 f1_keywords: 
  - "routprot/IPV6_LOCAL_BINDING"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminMIBSetTrapInfo"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

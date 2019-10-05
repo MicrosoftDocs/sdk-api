@@ -12,6 +12,8 @@ ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64,
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSymFromAddr64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

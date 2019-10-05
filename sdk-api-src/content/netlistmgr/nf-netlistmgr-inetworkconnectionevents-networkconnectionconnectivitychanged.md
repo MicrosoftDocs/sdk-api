@@ -12,6 +12,8 @@ ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConne
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkConnectionEvents.NetworkConnectionConnectivityChanged"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

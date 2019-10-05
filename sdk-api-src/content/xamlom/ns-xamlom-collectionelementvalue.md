@@ -12,6 +12,8 @@ ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollecti
 ms.topic: struct
 f1_keywords: 
  - "xamlom/CollectionElementValue"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

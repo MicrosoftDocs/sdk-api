@@ -12,6 +12,8 @@ ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security],
 ms.topic: function
 f1_keywords: 
  - "aclapi/FreeInheritedFromArray"
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

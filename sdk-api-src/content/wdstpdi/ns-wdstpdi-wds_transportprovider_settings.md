@@ -12,6 +12,8 @@ ms.keywords: "*PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS,
 ms.topic: struct
 f1_keywords: 
  - "wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

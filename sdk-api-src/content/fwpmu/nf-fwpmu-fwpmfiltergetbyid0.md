@@ -12,6 +12,8 @@ ms.keywords: FwpmFilterGetById0, FwpmFilterGetById0 function [Filtering], fwp.fw
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmFilterGetById0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

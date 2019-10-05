@@ -12,6 +12,8 @@ ms.keywords: WSDXML_PREFIX_MAPPING, WSDXML_PREFIX_MAPPING structure, _WSDXML_PRE
 ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_PREFIX_MAPPING
+dev_langs:
+ - c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

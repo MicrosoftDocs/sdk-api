@@ -12,6 +12,8 @@ ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/INetworkConnection"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

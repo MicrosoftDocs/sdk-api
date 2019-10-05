@@ -12,6 +12,8 @@ ms.keywords: DiscardUndoState, DiscardUndoState method [COM], DiscardUndoState m
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.DiscardUndoState"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SimilarityFileId, SimilarityFileId structure [Remote Differential C
 ms.topic: struct
 f1_keywords: 
  - "msrdc/SimilarityFileId"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMg
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrHandler"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

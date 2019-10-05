@@ -12,6 +12,8 @@ ms.keywords: "*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TE
 ms.topic: struct
 f1_keywords: 
  - "winwlx/WLX_TERMINAL_SERVICES_DATA"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

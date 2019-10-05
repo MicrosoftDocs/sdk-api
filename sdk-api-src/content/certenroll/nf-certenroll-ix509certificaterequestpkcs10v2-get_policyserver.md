@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],PolicyServer p
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestPkcs10V2.PolicyServer"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

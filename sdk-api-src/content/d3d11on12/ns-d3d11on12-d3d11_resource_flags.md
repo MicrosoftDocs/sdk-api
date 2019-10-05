@@ -12,6 +12,8 @@ ms.keywords: D3D11_RESOURCE_FLAGS, D3D11_RESOURCE_FLAGS structure, d3d11on12/D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d11on12/D3D11_RESOURCE_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows

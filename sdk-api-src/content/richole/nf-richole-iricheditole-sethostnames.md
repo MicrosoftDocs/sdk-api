@@ -12,6 +12,8 @@ ms.keywords: IRichEditOle interface [Windows Controls],SetHostNames method, IRic
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.SetHostNames"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

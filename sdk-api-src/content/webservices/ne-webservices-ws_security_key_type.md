@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Service
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_KEY_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

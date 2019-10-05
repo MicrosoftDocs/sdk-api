@@ -12,6 +12,8 @@ ms.keywords: VSS_ALTERNATE_WRITER_STATE, VSS_ALTERNATE_WRITER_STATE enumeration 
 ms.topic: enum
 f1_keywords:
 - vswriter/VSS_ALTERNATE_WRITER_STATE
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

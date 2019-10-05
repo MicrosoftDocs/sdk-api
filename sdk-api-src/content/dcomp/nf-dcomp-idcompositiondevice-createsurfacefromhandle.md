@@ -12,6 +12,8 @@ ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComp
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice.CreateSurfaceFromHandle"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

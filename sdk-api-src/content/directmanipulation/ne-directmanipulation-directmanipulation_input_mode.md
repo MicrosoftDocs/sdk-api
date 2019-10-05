@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_INPUT_MODE, DIRECTMANIPULATION_INPUT_MODE enumer
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_INPUT_MODE"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

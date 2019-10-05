@@ -12,6 +12,8 @@ ms.keywords: '*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLIC
 ms.topic: struct
 f1_keywords:
 - powrprof/POWER_POLICY
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

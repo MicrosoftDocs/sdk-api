@@ -12,6 +12,8 @@ ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM
 ms.topic: struct
 f1_keywords: 
  - "winnt/SYSTEM_CPU_SET_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaMajo
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentType.get__MediaMajorType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

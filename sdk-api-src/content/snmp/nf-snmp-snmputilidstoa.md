@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidsto
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilIdsToA"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

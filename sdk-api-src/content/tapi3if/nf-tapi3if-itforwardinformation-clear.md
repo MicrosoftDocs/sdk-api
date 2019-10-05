@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITForwardIn
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITForwardInformation.Clear"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

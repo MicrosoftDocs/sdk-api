@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVE
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_FAILOVER_SERVER
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

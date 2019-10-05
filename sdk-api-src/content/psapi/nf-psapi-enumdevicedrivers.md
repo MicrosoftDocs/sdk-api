@@ -12,6 +12,8 @@ ms.keywords: EnumDeviceDrivers, EnumDeviceDrivers function [PSAPI], K32EnumDevic
 ms.topic: function
 f1_keywords: 
  - "psapi/EnumDeviceDrivers"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

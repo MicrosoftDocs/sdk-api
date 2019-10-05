@@ -12,6 +12,8 @@ ms.keywords: WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE, WEB_SOCKET_DISABLE_MASKI
 ms.topic: enum
 f1_keywords:
 - websocket/WEB_SOCKET_PROPERTY_TYPE
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FSCTL_CSV_CONTROL, FSCTL_CSV_CONTROL control, FSCTL_CSV_CONTROL con
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_CSV_CONTROL
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

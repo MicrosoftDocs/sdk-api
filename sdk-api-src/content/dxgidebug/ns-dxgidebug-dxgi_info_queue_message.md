@@ -12,6 +12,8 @@ ms.keywords: DXGI_INFO_QUEUE_MESSAGE, DXGI_INFO_QUEUE_MESSAGE structure [DXGI], 
 ms.topic: struct
 f1_keywords: 
  - "dxgidebug/DXGI_INFO_QUEUE_MESSAGE"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

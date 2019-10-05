@@ -12,6 +12,8 @@ ms.keywords: SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, s
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/sockaddr"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows

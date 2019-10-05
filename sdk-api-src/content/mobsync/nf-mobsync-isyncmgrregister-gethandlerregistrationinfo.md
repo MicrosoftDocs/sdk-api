@@ -12,6 +12,8 @@ ms.keywords: GetHandlerRegistrationInfo, GetHandlerRegistrationInfo method [Wind
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrRegister.GetHandlerRegistrationInfo
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

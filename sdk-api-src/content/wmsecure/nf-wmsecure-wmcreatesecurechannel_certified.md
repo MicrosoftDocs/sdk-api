@@ -12,6 +12,8 @@ ms.keywords: WMCreateSecureChannel_Certified, WMCreateSecureChannel_Certified fu
 ms.topic: function
 f1_keywords: 
  - "wmsecure/WMCreateSecureChannel_Certified"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

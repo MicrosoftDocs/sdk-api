@@ -12,6 +12,8 @@ ms.keywords: CreateInstantaneousVectorTransition, CreateInstantaneousVectorTrans
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

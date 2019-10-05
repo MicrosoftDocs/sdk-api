@@ -12,6 +12,8 @@ ms.keywords: MCIWndSave, MCIWndSave macro [Windows Multimedia], _win32_MCIWndSav
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndSave"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

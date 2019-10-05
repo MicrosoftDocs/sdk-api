@@ -12,6 +12,8 @@ ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],I
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.GetGuid"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetOutputAvailableType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

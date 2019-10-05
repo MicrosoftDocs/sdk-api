@@ -12,6 +12,8 @@ ms.keywords: GetRuntimeIdPrefix, GetRuntimeIdPrefix method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider functi
 ms.topic: function
 f1_keywords: 
  - "drt/DrtCreateNullSecurityProvider"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

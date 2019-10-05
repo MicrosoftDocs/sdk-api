@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTI
 ms.topic: function
 f1_keywords:
 - clusapi/RegisterClusterNotifyV2
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

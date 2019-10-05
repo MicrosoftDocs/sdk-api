@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_DigitalAudioCopySetting 
 ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageTrackInfo.put_DigitalAudioCopySetting
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

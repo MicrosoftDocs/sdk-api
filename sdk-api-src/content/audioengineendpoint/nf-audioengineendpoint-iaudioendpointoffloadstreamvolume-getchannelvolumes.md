@@ -12,6 +12,8 @@ ms.keywords: GetChannelVolumes, GetChannelVolumes method [Core Audio], GetChanne
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetChannelVolumes"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

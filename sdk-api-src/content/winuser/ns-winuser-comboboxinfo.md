@@ -12,6 +12,8 @@ ms.keywords: "*LPCOMBOBOXINFO, *PCOMBOBOXINFO, COMBOBOXINFO, COMBOBOXINFO struct
 ms.topic: struct
 f1_keywords: 
  - "winuser/COMBOBOXINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

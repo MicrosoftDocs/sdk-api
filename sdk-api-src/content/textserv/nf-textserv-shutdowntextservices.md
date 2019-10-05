@@ -12,6 +12,8 @@ ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Contro
 ms.topic: function
 f1_keywords: 
  - "textserv/ShutdownTextServices"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

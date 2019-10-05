@@ -12,6 +12,8 @@ ms.keywords: IInspectable ::get_Win32Handle, IInspectable interface [AllJoyn API
 ms.topic: method
 f1_keywords: 
  - "windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle"
+dev_langs:
+ - c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows

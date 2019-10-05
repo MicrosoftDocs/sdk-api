@@ -12,6 +12,8 @@ ms.keywords: WM_ADDRESS_ACCESSENTRY, WM_ADDRESS_ACCESSENTRY structure [windows M
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_ADDRESS_ACCESSENTRY"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

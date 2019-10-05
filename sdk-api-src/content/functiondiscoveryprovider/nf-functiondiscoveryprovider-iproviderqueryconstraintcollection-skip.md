@@ -12,6 +12,8 @@ ms.keywords: IProviderQueryConstraintCollection interface,Skip method, IProvider
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Skip"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

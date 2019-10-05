@@ -12,6 +12,8 @@ ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], 
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterLoad"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

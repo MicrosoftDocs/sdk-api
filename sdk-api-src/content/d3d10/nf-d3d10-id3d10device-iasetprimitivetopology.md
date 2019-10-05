@@ -12,6 +12,8 @@ ms.keywords: 574e830c-3db9-ca52-4b41-1b3e8224137a, IASetPrimitiveTopology, IASet
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IASetPrimitiveTopology"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

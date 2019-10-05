@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],getCertFromResponse method, ICEnroll4 int
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.getCertFromResponse"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

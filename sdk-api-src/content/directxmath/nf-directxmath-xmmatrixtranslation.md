@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixTranslation, XMMatrixTranslation, XMMatrixTran
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixTranslation"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

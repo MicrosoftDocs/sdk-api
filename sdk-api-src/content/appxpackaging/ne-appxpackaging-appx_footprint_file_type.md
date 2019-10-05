@@ -12,6 +12,8 @@ ms.keywords: APPX_FOOTPRINT_FILE_TYPE, APPX_FOOTPRINT_FILE_TYPE enumeration [App
 ms.topic: enum
 f1_keywords: 
  - "appxpackaging/APPX_FOOTPRINT_FILE_TYPE"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

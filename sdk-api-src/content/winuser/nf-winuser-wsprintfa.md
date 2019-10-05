@@ -12,6 +12,8 @@ ms.keywords: "_win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win3
 ms.topic: function
 f1_keywords: 
  - "winuser/wsprintf"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

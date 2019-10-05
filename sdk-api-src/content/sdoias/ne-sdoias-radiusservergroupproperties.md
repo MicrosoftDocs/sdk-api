@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPRO
 ms.topic: enum
 f1_keywords:
 - sdoias/RADIUSSERVERGROUPPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], Setu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupIterateCabinet"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5b3b831c-2218-4a76-8359-7f39cab53a57, GetPayloadExtension, GetPaylo
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.GetPayloadExtension"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

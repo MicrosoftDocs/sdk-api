@@ -12,6 +12,8 @@ ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differentia
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarity.CreateTableIndirect"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

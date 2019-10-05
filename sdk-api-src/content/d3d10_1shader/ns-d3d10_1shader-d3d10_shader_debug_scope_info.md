@@ -12,6 +12,8 @@ ms.keywords: 98b3a0e8-be0d-c4db-defc-df94817adf46, D3D10_SHADER_DEBUG_SCOPE_INFO
 ms.topic: struct
 f1_keywords: 
  - "d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

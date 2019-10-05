@@ -12,6 +12,8 @@ ms.keywords: MFCreateRemoteDesktopPlugin, MFCreateRemoteDesktopPlugin function [
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateRemoteDesktopPlugin"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

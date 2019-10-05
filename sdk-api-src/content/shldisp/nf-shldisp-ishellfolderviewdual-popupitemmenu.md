@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual interface [Windows Shell],PopupItemMenu method
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual.PopupItemMenu"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

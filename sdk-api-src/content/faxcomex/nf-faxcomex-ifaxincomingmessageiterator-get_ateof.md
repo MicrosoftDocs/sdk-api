@@ -12,6 +12,8 @@ ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxInco
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessageIterator.AtEOF"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

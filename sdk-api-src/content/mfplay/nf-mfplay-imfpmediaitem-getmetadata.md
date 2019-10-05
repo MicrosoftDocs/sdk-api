@@ -12,6 +12,8 @@ ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata met
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetMetadata"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

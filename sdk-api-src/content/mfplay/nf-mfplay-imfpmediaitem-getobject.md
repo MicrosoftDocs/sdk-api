@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [M
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetObject"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

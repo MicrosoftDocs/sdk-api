@@ -12,6 +12,8 @@ ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuff
 ms.topic: callback
 f1_keywords: 
  - "ras/RasGetBuffer"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

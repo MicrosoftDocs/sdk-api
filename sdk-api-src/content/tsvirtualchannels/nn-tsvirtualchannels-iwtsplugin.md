@@ -12,6 +12,8 @@ ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlu
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSPlugin"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

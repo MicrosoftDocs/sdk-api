@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BI
 ms.topic: struct
 f1_keywords:
 - http/HTTP_BINDING_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

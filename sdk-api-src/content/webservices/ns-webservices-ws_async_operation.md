@@ -12,6 +12,8 @@ ms.keywords: WS_ASYNC_OPERATION, WS_ASYNC_OPERATION structure [Web Services for 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ASYNC_OPERATION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

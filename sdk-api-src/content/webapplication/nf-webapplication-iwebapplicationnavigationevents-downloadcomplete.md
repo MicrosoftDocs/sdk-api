@@ -12,6 +12,8 @@ ms.keywords: DownloadComplete, DownloadComplete method [Debugging Windows Store 
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationNavigationEvents.DownloadComplete"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

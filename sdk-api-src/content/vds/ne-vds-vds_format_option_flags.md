@@ -12,6 +12,8 @@ ms.keywords: VDS_FORMAT_OPTION_FLAGS, VDS_FORMAT_OPTION_FLAGS enumeration, VDS_F
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_FORMAT_OPTION_FLAGS"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

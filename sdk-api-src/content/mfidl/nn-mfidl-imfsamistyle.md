@@ -12,6 +12,8 @@ ms.keywords: IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], IMFSAMISty
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSAMIStyle"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

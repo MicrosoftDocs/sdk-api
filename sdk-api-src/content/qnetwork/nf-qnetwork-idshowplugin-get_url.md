@@ -12,6 +12,8 @@ ms.keywords: IDShowPlugin interface [DirectShow],get_URL method, IDShowPlugin.ge
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IDShowPlugin.get_URL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

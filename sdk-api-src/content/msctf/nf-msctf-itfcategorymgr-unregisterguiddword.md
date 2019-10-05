@@ -12,6 +12,8 @@ ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDW
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCategoryMgr.UnregisterGUIDDWORD"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

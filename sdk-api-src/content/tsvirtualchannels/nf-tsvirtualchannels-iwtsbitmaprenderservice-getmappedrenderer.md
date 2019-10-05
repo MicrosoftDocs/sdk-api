@@ -12,6 +12,8 @@ ms.keywords: GetMappedRenderer, GetMappedRenderer method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

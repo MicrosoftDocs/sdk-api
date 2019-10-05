@@ -12,6 +12,8 @@ ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInf
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEventInfo.get_DisplayName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

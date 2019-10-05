@@ -12,6 +12,8 @@ ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactive
 ms.topic: function
 f1_keywords: 
  - "debugapi/DebugActiveProcess"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

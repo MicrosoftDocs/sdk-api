@@ -12,6 +12,8 @@ ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directo
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsValidateSubnetName"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

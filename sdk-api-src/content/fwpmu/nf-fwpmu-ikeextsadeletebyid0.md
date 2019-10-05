@@ -12,6 +12,8 @@ ms.keywords: IkeextSaDeleteById0, IkeextSaDeleteById0 function [Filtering], fwp.
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IkeextSaDeleteById0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDecoderProfile, GetDecoderProfile method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11CryptoSession.GetDecoderProfile"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

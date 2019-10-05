@@ -12,6 +12,8 @@ ms.keywords: ITfProperty interface [Text Services Framework],SetValueStore metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfProperty.SetValueStore"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

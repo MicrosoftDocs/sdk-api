@@ -12,6 +12,8 @@ ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMessage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

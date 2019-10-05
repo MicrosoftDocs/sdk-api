@@ -12,6 +12,8 @@ ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensess
 ms.topic: function
 f1_keywords:
 - winevt/EvtOpenSession
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

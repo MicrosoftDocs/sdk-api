@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineCompleteTransfer"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NdrContextHandleSize, NdrContextHandleSize function [RPC], rpc.ndrc
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrContextHandleSize
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

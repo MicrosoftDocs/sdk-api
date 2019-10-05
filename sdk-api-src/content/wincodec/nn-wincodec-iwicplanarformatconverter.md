@@ -12,6 +12,8 @@ ms.keywords: IWICPlanarFormatConverter, IWICPlanarFormatConverter interface [Win
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICPlanarFormatConverter"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

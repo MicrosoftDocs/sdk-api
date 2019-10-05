@@ -12,6 +12,8 @@ ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Med
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocatorEx"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_PRIMITIVE_BLEND, D2D1_PRIMITIVE_BLEND enumeration [Direct2D], 
 ms.topic: enum
 f1_keywords: 
  - "d2d1_1/D2D1_PRIMITIVE_BLEND"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],UninstallationBehavior pro
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.UninstallationBehavior"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

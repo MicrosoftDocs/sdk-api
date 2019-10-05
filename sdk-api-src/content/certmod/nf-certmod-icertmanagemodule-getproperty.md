@@ -12,6 +12,8 @@ ms.keywords: CCertManageModule object [Security],GetProperty method, Copyright, 
 ms.topic: method
 f1_keywords: 
  - "certmod/ICertManageModule.GetProperty"
+dev_langs:
+ - c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows

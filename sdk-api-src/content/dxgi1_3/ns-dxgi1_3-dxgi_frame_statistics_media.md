@@ -12,6 +12,8 @@ ms.keywords: DXGI_FRAME_STATISTICS_MEDIA, DXGI_FRAME_STATISTICS_MEDIA structure 
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

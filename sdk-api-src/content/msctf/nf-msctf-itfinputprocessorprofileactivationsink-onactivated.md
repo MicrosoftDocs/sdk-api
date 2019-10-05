@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Fra
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileActivationSink.OnActivated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMPEG_CONTEXT, MPEG_CONTEXT, MPEG_CONTEXT structure [Microsoft TV
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_CONTEXT"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

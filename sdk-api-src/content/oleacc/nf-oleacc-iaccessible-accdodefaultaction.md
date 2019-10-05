@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],accDoDefaultAction me
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.accDoDefaultAction"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

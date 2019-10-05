@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_SET_RESOURCE_SE
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetResourceServiceEnvironment"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

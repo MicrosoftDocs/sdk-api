@@ -12,6 +12,8 @@ ms.keywords: SwDevicePropertySet, SwDevicePropertySet function, swdevice.swdevic
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDevicePropertySet"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

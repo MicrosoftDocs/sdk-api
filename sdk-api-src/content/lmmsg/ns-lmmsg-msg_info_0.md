@@ -12,6 +12,8 @@ ms.keywords: "*LPMSG_INFO_0, *PMSG_INFO_0, LPMSG_INFO_0, LPMSG_INFO_0 structure 
 ms.topic: struct
 f1_keywords: 
  - "lmmsg/MSG_INFO_0"
+dev_langs:
+ - c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

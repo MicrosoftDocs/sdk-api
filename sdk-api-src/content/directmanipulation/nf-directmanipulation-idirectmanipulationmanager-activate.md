@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Direct Manipulation], Activate method [D
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.Activate"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

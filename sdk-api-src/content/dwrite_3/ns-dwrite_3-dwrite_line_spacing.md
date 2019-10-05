@@ -12,6 +12,8 @@ ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], 
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_LINE_SPACING"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

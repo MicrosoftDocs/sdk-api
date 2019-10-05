@@ -12,6 +12,8 @@ ms.keywords: GetRemoteControlKeyId, GetRemoteControlKeyId method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTSInformationDescriptor.GetRemoteControlKeyId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

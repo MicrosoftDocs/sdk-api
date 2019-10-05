@@ -12,6 +12,8 @@ ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.GetGravity"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows She
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IAutoCompleteDropDown"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

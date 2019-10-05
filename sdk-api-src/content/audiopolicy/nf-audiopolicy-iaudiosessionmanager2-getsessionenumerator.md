@@ -12,6 +12,8 @@ ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], Get
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionManager2.GetSessionEnumerator"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

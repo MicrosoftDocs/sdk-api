@@ -12,6 +12,8 @@ ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media P
 ms.topic: interface
 f1_keywords: 
  - "wmpservices/IWMPTranscodePolicy"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

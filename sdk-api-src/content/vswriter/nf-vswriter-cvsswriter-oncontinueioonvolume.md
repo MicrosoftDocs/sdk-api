@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnContinueIOOnVolume method, CVssWriter.
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnContinueIOOnVolume"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

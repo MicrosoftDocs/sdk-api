@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPPATH_TABLE, MIB_IPPATH_TABLE, MIB_IPPATH_TABLE structure [
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_IPPATH_TABLE"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

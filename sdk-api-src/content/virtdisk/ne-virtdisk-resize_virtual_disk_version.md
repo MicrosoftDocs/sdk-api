@@ -12,6 +12,8 @@ ms.keywords: RESIZE_VIRTUAL_DISK_VERSION, RESIZE_VIRTUAL_DISK_VERSION enumeratio
 ms.topic: enum
 f1_keywords:
 - virtdisk/RESIZE_VIRTUAL_DISK_VERSION
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

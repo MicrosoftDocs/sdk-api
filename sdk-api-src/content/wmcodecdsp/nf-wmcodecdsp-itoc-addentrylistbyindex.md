@@ -12,6 +12,8 @@ ms.keywords: AddEntryListByIndex, AddEntryListByIndex method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IToc.AddEntryListByIndex"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

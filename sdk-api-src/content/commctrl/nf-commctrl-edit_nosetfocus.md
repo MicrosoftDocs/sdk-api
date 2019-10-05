@@ -12,6 +12,8 @@ ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_E
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_NoSetFocus"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

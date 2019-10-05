@@ -12,6 +12,8 @@ ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO i
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPO.Backup"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

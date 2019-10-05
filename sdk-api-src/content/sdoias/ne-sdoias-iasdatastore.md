@@ -12,6 +12,8 @@ ms.keywords: "*PIASDATASTORE, DATA_STORE_DIRECTORY, DATA_STORE_LOCAL, IASDATASTO
 ms.topic: enum
 f1_keywords: 
  - "sdoias/IASDATASTORE"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

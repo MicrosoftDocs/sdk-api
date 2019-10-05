@@ -12,6 +12,8 @@ ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Contains"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

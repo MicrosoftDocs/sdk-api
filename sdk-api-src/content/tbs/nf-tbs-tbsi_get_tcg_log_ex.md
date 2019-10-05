@@ -12,6 +12,8 @@ ms.keywords: TBS_TCGLOG_DRTM_CURRENT, TBS_TCGLOG_SRTM_BOOT, TBS_TCGLOG_SRTM_CURR
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsi_Get_TCG_Log_Ex"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

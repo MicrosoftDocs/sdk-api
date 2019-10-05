@@ -12,6 +12,8 @@ ms.keywords: COPPBlocked, COPPBlocked method [Microsoft TV Technologies], COPPBl
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent3.COPPBlocked"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

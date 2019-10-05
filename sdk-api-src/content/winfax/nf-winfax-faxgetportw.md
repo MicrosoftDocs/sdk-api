@@ -12,6 +12,8 @@ ms.keywords: FaxGetPort, FaxGetPort function [Fax Service], FaxGetPortA, FaxGetP
 ms.topic: function
 f1_keywords:
 - winfax/FaxGetPort
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

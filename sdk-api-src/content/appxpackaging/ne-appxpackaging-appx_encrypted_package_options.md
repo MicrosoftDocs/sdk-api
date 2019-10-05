@@ -12,6 +12,8 @@ ms.keywords: APPX_ENCRYPTED_PACKAGE_OPTIONS, APPX_ENCRYPTED_PACKAGE_OPTIONS enum
 ms.topic: enum
 f1_keywords: 
  - "appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

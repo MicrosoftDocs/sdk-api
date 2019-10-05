@@ -12,6 +12,8 @@ ms.keywords: Description property [Internationalization for Windows Applications
 ms.topic: method
 f1_keywords: 
  - "spellcheck/IOptionDescription.Description"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DockPosition property [Windows Accessibility], DockPosition propert
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IDockProvider.DockPosition"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

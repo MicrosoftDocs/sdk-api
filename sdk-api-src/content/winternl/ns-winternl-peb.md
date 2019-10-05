@@ -12,6 +12,8 @@ ms.keywords: '*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb,
 ms.topic: struct
 f1_keywords:
 - winternl/PEB
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

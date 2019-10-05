@@ -12,6 +12,8 @@ ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_TEXT_ANTIALIAS_MODE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

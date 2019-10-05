@@ -12,6 +12,8 @@ ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromChild meth
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextProvider.RangeFromChild"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

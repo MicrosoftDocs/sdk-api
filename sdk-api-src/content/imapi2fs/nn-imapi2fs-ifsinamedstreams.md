@@ -12,6 +12,8 @@ ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStre
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IFsiNamedStreams"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

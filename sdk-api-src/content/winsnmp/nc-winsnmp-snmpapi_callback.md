@@ -12,6 +12,8 @@ ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callb
 ms.topic: callback
 f1_keywords: 
  - "winsnmp/SNMPAPI_CALLBACK"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

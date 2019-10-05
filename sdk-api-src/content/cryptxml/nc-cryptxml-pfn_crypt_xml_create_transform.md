@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_XML_CREATE_TRANSFORM, PFN_CRYPT_XML_CREATE_TRANSFORM call
 ms.topic: callback
 f1_keywords:
 - cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packa
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_COLOR_TYPE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

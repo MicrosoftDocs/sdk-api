@@ -8,6 +8,10 @@ ms.assetid: f05d3e73-5912-4d1b-92c1-fba067719001
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_SCALE_SUPPORT
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_SCALE_SUPPORT, D3D12_VIDEO_SCALE_SUPPORT, 
 req.header: d3d12video.h
 req.include-header:

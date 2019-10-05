@@ -12,6 +12,8 @@ ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FO
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPILogon"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

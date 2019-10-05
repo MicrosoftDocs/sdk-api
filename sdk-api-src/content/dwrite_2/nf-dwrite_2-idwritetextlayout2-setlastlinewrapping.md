@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetLastLineWrapping met
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteTextLayout2.SetLastLineWrapping"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

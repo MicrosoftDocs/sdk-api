@@ -12,6 +12,8 @@ ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBack
 ms.topic: function
 f1_keywords: 
  - "wsbonline/DeregisterOnlineBackupFromWindowsServerBackup"
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

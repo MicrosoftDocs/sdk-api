@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextStyle interface [Media Foundation],IsExternal method, I
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.IsExternal"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

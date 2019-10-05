@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Wind
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceContent.Copy"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

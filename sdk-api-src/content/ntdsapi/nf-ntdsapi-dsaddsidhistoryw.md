@@ -12,6 +12,8 @@ ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAdd
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsAddSidHistory"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

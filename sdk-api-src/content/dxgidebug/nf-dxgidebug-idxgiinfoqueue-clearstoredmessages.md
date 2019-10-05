@@ -12,6 +12,8 @@ ms.keywords: ClearStoredMessages, ClearStoredMessages method [DXGI], ClearStored
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.ClearStoredMessages"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

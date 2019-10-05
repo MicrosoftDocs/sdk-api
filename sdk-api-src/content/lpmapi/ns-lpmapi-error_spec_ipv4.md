@@ -12,6 +12,8 @@ ms.keywords: Error_Spec_IPv4, Error_Spec_IPv4 structure [QOS], lpmapi/Error_Spec
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Error_Spec_IPv4"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

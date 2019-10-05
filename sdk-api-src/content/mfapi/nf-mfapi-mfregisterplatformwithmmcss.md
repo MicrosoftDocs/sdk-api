@@ -12,6 +12,8 @@ ms.keywords: MFRegisterPlatformWithMMCSS, MFRegisterPlatformWithMMCSS function [
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFRegisterPlatformWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfSystemLangBarItemSink, ITfSystemLangBarItemSink interface [Text 
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfSystemLangBarItemSink"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

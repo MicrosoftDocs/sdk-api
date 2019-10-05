@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHD_STREAM_STATE_PRIVATE_
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

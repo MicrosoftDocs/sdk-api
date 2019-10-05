@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],SetItem method, IResultData.SetItem, IR
 ms.topic: method
 f1_keywords:
 - mmc/IResultData.SetItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

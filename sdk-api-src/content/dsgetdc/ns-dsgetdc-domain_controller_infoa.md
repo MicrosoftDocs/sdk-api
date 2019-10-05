@@ -12,6 +12,8 @@ ms.keywords: "*PDOMAIN_CONTROLLER_INFOA, DOMAIN_CONTROLLER_INFO, DOMAIN_CONTROLL
 ms.topic: struct
 f1_keywords: 
  - "dsgetdc/DOMAIN_CONTROLLER_INFO"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

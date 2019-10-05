@@ -12,6 +12,8 @@ ms.keywords: DrawInstanced, DrawInstanced method, DrawInstanced method,ID3D12Gra
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList.DrawInstanced"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

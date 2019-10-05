@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_Fi
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoContentType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

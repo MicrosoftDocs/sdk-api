@@ -12,6 +12,8 @@ ms.keywords: IAzBizRuleInterfaces interface [Security],Remove method, IAzBizRule
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleInterfaces.Remove"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

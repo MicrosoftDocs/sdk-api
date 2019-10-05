@@ -12,6 +12,8 @@ ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectP
 ms.topic: function
 f1_keywords: 
  - "wingdi/SelectPalette"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

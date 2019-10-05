@@ -12,6 +12,8 @@ ms.keywords: 69ed7b86-4dee-fd8c-4647-7e95842d559a, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.SetViewport"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

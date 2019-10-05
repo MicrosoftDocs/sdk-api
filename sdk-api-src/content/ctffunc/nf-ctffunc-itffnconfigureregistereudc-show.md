@@ -12,6 +12,8 @@ ms.keywords: ITfFnConfigureRegisterEudc interface [Text Services Framework],Show
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnConfigureRegisterEudc.Show"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows

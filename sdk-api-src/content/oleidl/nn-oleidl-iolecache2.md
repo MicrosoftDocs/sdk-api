@@ -12,6 +12,8 @@ ms.keywords: IOleCache2, IOleCache2 interface [COM], IOleCache2 interface [COM],
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleCache2"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

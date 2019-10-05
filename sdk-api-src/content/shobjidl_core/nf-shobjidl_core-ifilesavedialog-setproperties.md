@@ -12,6 +12,8 @@ ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileSaveDialog.SetProperties"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

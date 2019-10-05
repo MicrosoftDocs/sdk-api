@@ -12,6 +12,8 @@ ms.keywords: GetImplementationID, GetImplementationID method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "msaatext/IVersionInfo.GetImplementationID"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

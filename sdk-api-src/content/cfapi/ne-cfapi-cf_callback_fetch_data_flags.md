@@ -12,6 +12,8 @@ ms.keywords: CF_CALLBACK_FETCH_DATA_FLAGS, CF_CALLBACK_FETCH_DATA_FLAGS enumerat
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CALLBACK_FETCH_DATA_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

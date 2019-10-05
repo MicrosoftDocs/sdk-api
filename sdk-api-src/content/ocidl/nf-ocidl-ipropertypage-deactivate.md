@@ -12,6 +12,8 @@ ms.keywords: Deactivate, Deactivate method [COM], Deactivate method [COM],IPrope
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Deactivate"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

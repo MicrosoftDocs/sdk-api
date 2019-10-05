@@ -12,6 +12,8 @@ ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, ID
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.TestCooperativeLevel"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

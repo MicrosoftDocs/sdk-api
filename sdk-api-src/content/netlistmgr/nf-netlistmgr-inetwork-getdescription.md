@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescr
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetwork.GetDescription"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

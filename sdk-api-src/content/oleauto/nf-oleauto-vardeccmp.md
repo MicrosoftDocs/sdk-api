@@ -12,6 +12,8 @@ ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecCmp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

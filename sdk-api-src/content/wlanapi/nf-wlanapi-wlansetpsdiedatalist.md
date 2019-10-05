@@ -12,6 +12,8 @@ ms.keywords: WlanSetPsdIEDataList, WlanSetPsdIEDataList function [NativeWIFI], n
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetPsdIEDataList
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

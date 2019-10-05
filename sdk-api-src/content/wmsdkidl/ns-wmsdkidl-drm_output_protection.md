@@ -12,6 +12,8 @@ ms.keywords: DRM_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION, DRM_VIDEO_OUTPU
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

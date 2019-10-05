@@ -12,6 +12,8 @@ ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_Get
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetGraphicsMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

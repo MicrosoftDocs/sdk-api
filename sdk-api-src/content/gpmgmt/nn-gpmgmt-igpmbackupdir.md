@@ -12,6 +12,8 @@ ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBa
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMBackupDir"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

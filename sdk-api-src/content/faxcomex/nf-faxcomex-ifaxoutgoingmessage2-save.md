@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Save method, IFaxOutgo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage2.Save"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

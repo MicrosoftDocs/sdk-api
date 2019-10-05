@@ -12,6 +12,8 @@ ms.keywords: IExtractIcon, IExtractIcon interface [Windows Shell], IExtractIcon 
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IExtractIcon"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

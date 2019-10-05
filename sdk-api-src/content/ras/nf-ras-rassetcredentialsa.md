@@ -12,6 +12,8 @@ ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredenti
 ms.topic: function
 f1_keywords: 
  - "ras/RasSetCredentials"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

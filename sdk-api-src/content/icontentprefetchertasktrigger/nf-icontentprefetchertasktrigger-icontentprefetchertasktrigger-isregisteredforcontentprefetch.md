@@ -12,6 +12,8 @@ ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],
 ms.topic: method
 f1_keywords: 
  - "icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch"
+dev_langs:
+ - c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows

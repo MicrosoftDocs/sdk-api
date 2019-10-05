@@ -12,6 +12,8 @@ ms.keywords: IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor inte
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, Initia
 ms.topic: function
 f1_keywords: 
  - "synchapi/InitializeCriticalSectionEx"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

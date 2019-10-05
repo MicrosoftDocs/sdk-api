@@ -12,6 +12,8 @@ ms.keywords: CreatePoint, CreatePoint method [Windows Runtime], CreatePoint meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreatePoint"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qa
 ms.topic: struct
 f1_keywords: 
  - "ocidl/QACONTAINER"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

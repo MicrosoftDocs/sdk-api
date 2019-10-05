@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _drz_bg_job_times, bit
 ms.topic: struct
 f1_keywords: 
  - "bits/BG_JOB_TIMES"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

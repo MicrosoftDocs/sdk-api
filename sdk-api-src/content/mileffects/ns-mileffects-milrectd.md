@@ -12,6 +12,8 @@ ms.keywords: MIL_RECTD, MIL_RECTD structure [WPF Bitmap Effects], MilRectD, _wib
 ms.topic: struct
 f1_keywords: 
  - "mileffects/MIL_RECTD"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], bits
 ms.topic: struct
 f1_keywords: 
  - "bits5_0/BITS_JOB_PROPERTY_VALUE"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

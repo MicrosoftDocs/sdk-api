@@ -12,6 +12,8 @@ ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory in
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.Bind"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

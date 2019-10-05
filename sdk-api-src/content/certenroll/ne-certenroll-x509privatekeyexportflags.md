@@ -12,6 +12,8 @@ ms.keywords: X509PrivateKeyExportFlags, X509PrivateKeyExportFlags enumeration [S
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509PrivateKeyExportFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICM_ADDPROFILE, ICM_DELETEPROFILE, ICM_QUERYMATCH, ICM_QUERYPROFILE
 ms.topic: function
 f1_keywords: 
  - "wingdi/UpdateICMRegKey"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

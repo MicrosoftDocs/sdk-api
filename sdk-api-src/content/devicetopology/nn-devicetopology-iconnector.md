@@ -12,6 +12,8 @@ ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IConnector"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

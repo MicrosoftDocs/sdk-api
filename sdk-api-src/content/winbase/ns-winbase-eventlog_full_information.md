@@ -12,6 +12,8 @@ ms.keywords: "*LPEVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION, EVENTLOG_
 ms.topic: struct
 f1_keywords: 
  - "winbase/EVENTLOG_FULL_INFORMATION"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

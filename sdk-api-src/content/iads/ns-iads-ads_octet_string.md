@@ -12,6 +12,8 @@ ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_OCTET_STRING"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

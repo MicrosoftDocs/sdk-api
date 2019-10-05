@@ -12,6 +12,8 @@ ms.keywords: ISyncCallback interface [Windows Sync],OnConflict method, ISyncCall
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncCallback.OnConflict"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

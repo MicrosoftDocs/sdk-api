@@ -12,6 +12,8 @@ ms.keywords: EngEnumForms, EngEnumForms function [Display Devices], display.enge
 ms.topic: function
 f1_keywords: 
  - "winddi/EngEnumForms"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

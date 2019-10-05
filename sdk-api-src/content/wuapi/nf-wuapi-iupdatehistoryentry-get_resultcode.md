@@ -12,6 +12,8 @@ ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ResultCode pro
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry.ResultCode"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

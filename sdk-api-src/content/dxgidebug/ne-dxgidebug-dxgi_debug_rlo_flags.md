@@ -12,6 +12,8 @@ ms.keywords: DXGI_DEBUG_RLO_ALL, DXGI_DEBUG_RLO_DETAIL, DXGI_DEBUG_RLO_FLAGS, DX
 ms.topic: enum
 f1_keywords: 
  - "dxgidebug/DXGI_DEBUG_RLO_FLAGS"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Drop, Drop method [Windows Shell], Drop method [Windows Shell],IDro
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDropTargetHelper.Drop"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

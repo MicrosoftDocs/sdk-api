@@ -12,6 +12,8 @@ ms.keywords: TERMINAL_TYPE, TERMINAL_TYPE enumeration [TAPI 2.2], TT_DYNAMIC, TT
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TERMINAL_TYPE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

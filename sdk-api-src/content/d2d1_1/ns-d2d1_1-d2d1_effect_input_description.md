@@ -12,6 +12,8 @@ ms.keywords: D2D1_EFFECT_INPUT_DESCRIPTION, D2D1_EFFECT_INPUT_DESCRIPTION struct
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

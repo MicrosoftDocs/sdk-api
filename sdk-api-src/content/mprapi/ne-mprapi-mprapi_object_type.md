@@ -12,6 +12,8 @@ ms.keywords: '*PMPRAPI_OBJECT_TYPE, MPRAPI_OBJECT_TYPE, MPRAPI_OBJECT_TYPE enume
 ms.topic: enum
 f1_keywords:
 - mprapi/MPRAPI_OBJECT_TYPE
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

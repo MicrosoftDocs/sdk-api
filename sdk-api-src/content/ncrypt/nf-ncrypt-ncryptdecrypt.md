@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptDecrypt
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

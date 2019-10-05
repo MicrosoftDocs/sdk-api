@@ -12,6 +12,8 @@ ms.keywords: Button_GetTextMargin, Button_GetTextMargin macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_GetTextMargin"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

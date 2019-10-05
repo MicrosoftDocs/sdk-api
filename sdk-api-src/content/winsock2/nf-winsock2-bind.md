@@ -12,6 +12,8 @@ ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, wins
 ms.topic: function
 f1_keywords: 
  - "winsock2/bind"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

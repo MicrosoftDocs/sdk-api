@@ -12,6 +12,8 @@ ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetCrackUrl"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

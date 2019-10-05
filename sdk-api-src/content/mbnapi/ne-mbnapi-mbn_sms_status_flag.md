@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_FLAG_MESSAGE_STORE_FULL, MBN_SMS_FLAG_NEW_MESSAGE, MBN_SMS_
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SMS_STATUS_FLAG"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

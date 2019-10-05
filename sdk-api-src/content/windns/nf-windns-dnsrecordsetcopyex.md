@@ -12,6 +12,8 @@ ms.keywords: DnsRecordSetCopyEx, DnsRecordSetCopyEx function [DNS], _dns_dnsreco
 ms.topic: function
 f1_keywords:
 - windns/DnsRecordSetCopyEx
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

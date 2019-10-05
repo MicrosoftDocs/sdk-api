@@ -12,6 +12,8 @@ ms.keywords: EnumerateEnvironments, EnumerateEnvironments method [Remote Desktop
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.EnumerateEnvironments"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

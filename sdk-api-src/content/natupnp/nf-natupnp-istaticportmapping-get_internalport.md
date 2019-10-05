@@ -12,6 +12,8 @@ ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, ISt
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMapping.get_InternalPort"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

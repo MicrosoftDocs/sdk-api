@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [MMC], Clear method [MMC],IMessageView interfac
 ms.topic: method
 f1_keywords: 
  - "mmc/IMessageView.Clear"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

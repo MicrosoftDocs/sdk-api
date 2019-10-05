@@ -12,6 +12,8 @@ ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method,
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkEvents.NetworkDeleted"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

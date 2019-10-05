@@ -12,6 +12,8 @@ ms.keywords: GetOverhangMetrics, GetOverhangMetrics method [Direct Write], GetOv
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteInlineObject.GetOverhangMetrics"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

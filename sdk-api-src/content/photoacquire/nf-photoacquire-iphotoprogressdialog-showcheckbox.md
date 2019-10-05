@@ -12,6 +12,8 @@ ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],ShowCheckbox m
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoProgressDialog.ShowCheckbox"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

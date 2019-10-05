@@ -12,6 +12,8 @@ ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.
 ms.topic: function
 f1_keywords: 
  - "winddi/EngDeleteEvent"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

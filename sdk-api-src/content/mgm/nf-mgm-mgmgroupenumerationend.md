@@ -12,6 +12,8 @@ ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr
 ms.topic: function
 f1_keywords: 
  - "mgm/MgmGroupEnumerationEnd"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

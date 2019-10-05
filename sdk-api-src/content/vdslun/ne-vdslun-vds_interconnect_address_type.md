@@ -12,6 +12,8 @@ ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VD
 ms.topic: enum
 f1_keywords:
 - vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

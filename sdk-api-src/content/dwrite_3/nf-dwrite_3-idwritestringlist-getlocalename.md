@@ -12,6 +12,8 @@ ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName m
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteStringList.GetLocaleName"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

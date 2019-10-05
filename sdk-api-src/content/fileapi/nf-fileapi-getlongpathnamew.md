@@ -12,6 +12,8 @@ ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetLongPathName"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

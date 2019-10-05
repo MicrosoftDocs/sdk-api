@@ -12,6 +12,8 @@ ms.keywords: SECURELOCK, SECURELOCK enumeration [Windows Shell], SECURELOCKCODE,
 ms.topic: enum
 f1_keywords: 
  - "shdeprecated/SECURELOCK"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

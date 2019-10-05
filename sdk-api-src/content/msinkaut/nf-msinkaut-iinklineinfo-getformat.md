@@ -12,6 +12,8 @@ ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.GetFormat"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

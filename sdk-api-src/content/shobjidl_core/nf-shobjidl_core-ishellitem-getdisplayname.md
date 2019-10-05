@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [Windows Shell], GetDisplayNa
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem.GetDisplayName
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlguid.h
 req.target-type: Windows

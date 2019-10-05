@@ -12,6 +12,8 @@ ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile func
 ms.topic: function
 f1_keywords: 
  - "shcore/CreateRandomAccessStreamOnFile"
+dev_langs:
+ - c++
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows

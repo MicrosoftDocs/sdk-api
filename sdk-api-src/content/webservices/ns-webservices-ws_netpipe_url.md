@@ -12,6 +12,8 @@ ms.keywords: WS_NETPIPE_URL, WS_NETPIPE_URL structure [Web Services for Windows]
 ms.topic: struct
 f1_keywords:
 - webservices/_WS_NETPIPE_URL
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

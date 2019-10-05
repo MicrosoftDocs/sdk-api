@@ -12,6 +12,8 @@ ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbi
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingInqOption"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

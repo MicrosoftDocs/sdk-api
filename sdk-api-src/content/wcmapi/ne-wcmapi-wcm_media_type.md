@@ -12,6 +12,8 @@ ms.keywords: "*PWCM_MEDIA_TYPE, PWCM_MEDIA_TYPE, PWCM_MEDIA_TYPE enumeration poi
 ms.topic: enum
 f1_keywords: 
  - "wcmapi/WCM_MEDIA_TYPE"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

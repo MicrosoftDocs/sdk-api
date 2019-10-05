@@ -12,6 +12,8 @@ ms.keywords: PRJ_UPDATE_ALLOW_DIRTY_DATA, PRJ_UPDATE_ALLOW_DIRTY_METADATA, PRJ_U
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_UPDATE_TYPES"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

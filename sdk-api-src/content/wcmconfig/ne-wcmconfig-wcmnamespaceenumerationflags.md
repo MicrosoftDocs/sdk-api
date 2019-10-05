@@ -12,6 +12,8 @@ ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnu
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmNamespaceEnumerationFlags"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResul
 ms.topic: interface
 f1_keywords: 
  - "infotech/IITResultSet"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

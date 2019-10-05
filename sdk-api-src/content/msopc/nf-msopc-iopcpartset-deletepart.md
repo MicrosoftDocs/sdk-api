@@ -12,6 +12,8 @@ ms.keywords: DeletePart, DeletePart method [Open Packaging Conventions], DeleteP
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartSet.DeletePart"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5695cae1-2bbf-48d4-a044-b2bd81c362d0, RECO_LATTICE_COLUMN, RECO_LAT
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_LATTICE_COLUMN"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

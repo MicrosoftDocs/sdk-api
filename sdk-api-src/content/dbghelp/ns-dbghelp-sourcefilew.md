@@ -12,6 +12,8 @@ ms.keywords: "*PSOURCEFILEW, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEF
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/SOURCEFILE"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

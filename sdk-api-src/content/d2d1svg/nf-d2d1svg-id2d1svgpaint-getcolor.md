@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPaint.GetColor"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

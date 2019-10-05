@@ -12,6 +12,8 @@ ms.keywords: '*PWSD_SECURITY_CERT_VALIDATION, WSDAPI_SSL_CERT_DEFAULT_CHECKS, WS
 ms.topic: struct
 f1_keywords:
 - wsdbase/WSD_SECURITY_CERT_VALIDATION
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

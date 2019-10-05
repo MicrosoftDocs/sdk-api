@@ -12,6 +12,8 @@ ms.keywords: 6a382bf1-a9ce-3b9b-41ed-46a4fee9ef85, D3D11_CULL_BACK, D3D11_CULL_F
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_CULL_MODE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

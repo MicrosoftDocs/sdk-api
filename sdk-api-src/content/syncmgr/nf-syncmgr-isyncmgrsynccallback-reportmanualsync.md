@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync met
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncCallback.ReportManualSync"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

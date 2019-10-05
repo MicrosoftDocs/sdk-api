@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_pjOpenTypeTablePointer, FONTOBJ_pjOpenTypeTablePointer func
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pjOpenTypeTablePointer
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: GetExpectedPacketCount, GetExpectedPacketCount method [windows Medi
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile3.GetExpectedPacketCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

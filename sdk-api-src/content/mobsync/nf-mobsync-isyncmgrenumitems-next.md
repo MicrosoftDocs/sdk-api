@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Next method, ISyncMgrEn
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrEnumItems.Next
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

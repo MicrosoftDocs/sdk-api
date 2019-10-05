@@ -12,6 +12,8 @@ ms.keywords: IESEvent interface [Microsoft TV Technologies],SetCompletionStatus 
 ms.topic: method
 f1_keywords: 
  - "tuner/IESEvent.SetCompletionStatus"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

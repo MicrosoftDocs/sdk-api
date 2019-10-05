@@ -12,6 +12,8 @@ ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],Registe
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.RegisterProxyFailure"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Application meth
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual.get_Application"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

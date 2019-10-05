@@ -12,6 +12,8 @@ ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files]
 ms.topic: function
 f1_keywords:
 - ntmsapi/GetNtmsObjectInformation
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

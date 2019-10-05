@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProvider interface [PLA],Resolve method, ITraceDataProvid
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.Resolve"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetF
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponentEx2.SetFailure"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

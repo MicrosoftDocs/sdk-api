@@ -12,6 +12,8 @@ ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransfo
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.MultiplyTransform"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

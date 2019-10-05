@@ -12,6 +12,8 @@ ms.keywords: EmptyMenuList, EmptyMenuList method [MMC], EmptyMenuList method [MM
 ms.topic: method
 f1_keywords: 
  - "mmc/IContextMenuProvider.EmptyMenuList"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

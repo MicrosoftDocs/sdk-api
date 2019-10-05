@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File 
 ms.topic: interface
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinition2"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

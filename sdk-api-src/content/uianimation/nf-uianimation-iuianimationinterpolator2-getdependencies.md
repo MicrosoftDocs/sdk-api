@@ -12,6 +12,8 @@ ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDep
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationInterpolator2.GetDependencies"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

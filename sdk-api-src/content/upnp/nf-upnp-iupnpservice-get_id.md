@@ -12,6 +12,8 @@ ms.keywords: IUPnPService interface [UPnP APIs],get_Id method, IUPnPService.get_
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPService.get_Id"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

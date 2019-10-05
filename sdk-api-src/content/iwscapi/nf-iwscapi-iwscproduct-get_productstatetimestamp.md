@@ -12,6 +12,8 @@ ms.keywords: IWscProduct interface [Windows API],get_ProductStateTimeStamp metho
 ms.topic: method
 f1_keywords: 
  - "iwscapi/IWscProduct.get_ProductStateTimeStamp"
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

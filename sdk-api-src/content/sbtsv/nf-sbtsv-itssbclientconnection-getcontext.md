@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbClientConnection.GetContext"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

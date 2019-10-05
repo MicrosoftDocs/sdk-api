@@ -12,6 +12,8 @@ ms.keywords: GetThemeTransitionDuration, GetThemeTransitionDuration function [Wi
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeTransitionDuration"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

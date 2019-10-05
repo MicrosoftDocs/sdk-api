@@ -12,6 +12,8 @@ ms.keywords: IS_SPECIAL_COOKIE, IS_SPECIAL_COOKIE macro [MMC], _slate_is_special
 ms.topic: macro
 f1_keywords: 
  - "mmc/IS_SPECIAL_COOKIE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

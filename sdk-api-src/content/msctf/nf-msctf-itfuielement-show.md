@@ -12,6 +12,8 @@ ms.keywords: ITfUIElement interface [Text Services Framework],Show method, ITfUI
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElement.Show"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

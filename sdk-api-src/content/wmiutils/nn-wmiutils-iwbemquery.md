@@ -12,6 +12,8 @@ ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentatio
 ms.topic: interface
 f1_keywords: 
  - "wmiutils/IWbemQuery"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddEllipse, AddEllipse method [GDI+], AddEllipse method [GDI+],Grap
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddEllipse"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.glob
 ms.topic: macro
 f1_keywords: 
  - "winbase/GlobalDiscard"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

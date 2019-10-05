@@ -12,6 +12,8 @@ ms.keywords: '*PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDIN
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_CHANNEL_BINDINGS
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

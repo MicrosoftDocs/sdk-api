@@ -12,6 +12,8 @@ ms.keywords: PEER_MEMBER_CHANGE_TYPE, PEER_MEMBER_CHANGE_TYPE enumeration [Peer 
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_MEMBER_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

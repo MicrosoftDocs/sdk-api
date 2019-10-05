@@ -12,6 +12,8 @@ ms.keywords: ISecurityCallersColl interface [COM+],get_Item method, ISecurityCal
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityCallersColl.get_Item"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

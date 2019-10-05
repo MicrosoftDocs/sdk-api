@@ -12,6 +12,8 @@ ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

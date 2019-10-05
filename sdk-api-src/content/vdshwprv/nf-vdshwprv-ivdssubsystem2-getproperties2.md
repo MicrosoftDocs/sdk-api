@@ -12,6 +12,8 @@ ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSu
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystem2.GetProperties2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

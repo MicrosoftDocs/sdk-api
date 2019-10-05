@@ -12,6 +12,8 @@ ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],Registe
 ms.topic: method
 f1_keywords: 
  - "bdatif/IBDA_TIF_REGISTRATION.RegisterTIFEx"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAudioFormat, GetAudioFormat method [Audio Devices], GetAudioForm
 ms.topic: method
 f1_keywords: 
  - "audiomediatype/IAudioMediaType.GetAudioFormat"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

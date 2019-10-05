@@ -12,6 +12,8 @@ ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_SessionChan
 ms.topic: method
 f1_keywords: 
  - "tssbx/IWTSSBPlugin.WTSSBX_SessionChangeNotification"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

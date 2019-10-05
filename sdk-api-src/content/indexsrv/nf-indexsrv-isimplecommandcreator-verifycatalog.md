@@ -12,6 +12,8 @@ ms.keywords: ISimpleCommandCreator interface [search],VerifyCatalog method, ISim
 ms.topic: method
 f1_keywords: 
  - "indexsrv/ISimpleCommandCreator.VerifyCatalog"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

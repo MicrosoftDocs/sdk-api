@@ -12,6 +12,8 @@ ms.keywords: GetXpsType, GetXpsType method [XPS Documents and Packaging], GetXps
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsType"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

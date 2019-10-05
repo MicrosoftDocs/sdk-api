@@ -12,6 +12,8 @@ ms.keywords: CreateCursor, CreateCursor function [Menus and Other Resources], _w
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateCursor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

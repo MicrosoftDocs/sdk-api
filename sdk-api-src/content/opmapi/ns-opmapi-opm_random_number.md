@@ -12,6 +12,8 @@ ms.keywords: OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], 
 ms.topic: struct
 f1_keywords: 
  - "opmapi/OPM_RANDOM_NUMBER"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

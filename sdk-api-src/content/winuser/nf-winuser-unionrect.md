@@ -12,6 +12,8 @@ ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.
 ms.topic: function
 f1_keywords: 
  - "winuser/UnionRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

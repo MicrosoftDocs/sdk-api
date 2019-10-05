@@ -12,6 +12,8 @@ ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreatePro
 ms.topic: method
 f1_keywords: 
  - "textserv/IRicheditWindowlessAccessibility.CreateProvider"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_MATRIX_TRANSFORM, DML_MATRIX_TRANSFORM enumeration, DML_MATRIX_
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_MATRIX_TRANSFORM"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

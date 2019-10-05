@@ -12,6 +12,8 @@ ms.keywords: DownloadUrl property [Windows Update Agent], DownloadUrl property [
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloadContent.DownloadUrl"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

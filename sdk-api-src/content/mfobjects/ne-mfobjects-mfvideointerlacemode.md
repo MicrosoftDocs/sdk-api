@@ -12,6 +12,8 @@ ms.keywords: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5, MFVideoInterlaceMode, MFVideo
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MFVideoInterlaceMode"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

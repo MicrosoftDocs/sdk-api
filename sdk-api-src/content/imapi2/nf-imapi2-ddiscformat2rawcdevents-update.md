@@ -12,6 +12,8 @@ ms.keywords: DDiscFormat2RawCDEvents interface [IMAPI],Update method, DDiscForma
 ms.topic: method
 f1_keywords: 
  - "imapi2/DDiscFormat2RawCDEvents.Update"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

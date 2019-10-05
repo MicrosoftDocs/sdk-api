@@ -12,6 +12,8 @@ ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Inte
 ms.topic: function
 f1_keywords: 
  - "muiload/GetUILanguageFallbackList"
+dev_langs:
+ - c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows

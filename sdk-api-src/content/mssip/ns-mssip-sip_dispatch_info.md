@@ -12,6 +12,8 @@ ms.keywords: "*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "mssip/SIP_DISPATCH_INFO"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

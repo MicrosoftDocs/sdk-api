@@ -12,6 +12,8 @@ ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], Direct
 ms.topic: function
 f1_keywords: 
  - "directxcollision/ContainedBy"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

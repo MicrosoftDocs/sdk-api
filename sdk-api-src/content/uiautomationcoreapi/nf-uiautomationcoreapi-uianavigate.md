@@ -12,6 +12,8 @@ ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.u
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaNavigate"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

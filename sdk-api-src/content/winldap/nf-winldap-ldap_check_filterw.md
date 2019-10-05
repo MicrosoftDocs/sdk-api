@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_check_filter"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

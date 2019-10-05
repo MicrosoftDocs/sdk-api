@@ -12,6 +12,8 @@ ms.keywords: EnumTuningSpaces, EnumTuningSpaces method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.EnumTuningSpaces"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

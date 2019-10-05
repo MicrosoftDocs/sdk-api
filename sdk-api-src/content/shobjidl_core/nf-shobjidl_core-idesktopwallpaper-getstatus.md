@@ -12,6 +12,8 @@ ms.keywords: DSS_DISABLED_BY_REMOTE_SESSION, DSS_ENABLED, DSS_SLIDESHOW, GetStat
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDesktopWallpaper.GetStatus"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

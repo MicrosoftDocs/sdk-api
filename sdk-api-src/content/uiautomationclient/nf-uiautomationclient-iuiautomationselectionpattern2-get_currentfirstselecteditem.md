@@ -12,6 +12,8 @@ ms.keywords: CurrentFirstSelectedItem property [Windows Accessibility], CurrentF
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern2.CurrentFirstSelectedItem"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

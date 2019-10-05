@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQ
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.PopStorageFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

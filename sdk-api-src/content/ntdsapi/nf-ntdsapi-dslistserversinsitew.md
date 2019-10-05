@@ -12,6 +12,8 @@ ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsListServersInSite"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

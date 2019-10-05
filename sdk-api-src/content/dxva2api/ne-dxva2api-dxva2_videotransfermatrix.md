@@ -12,6 +12,8 @@ ms.keywords: 682fa0c7-8f17-457f-9f8a-dc9190866152, DXVA2_VideoTransferMatrix, DX
 ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_VideoTransferMatrix
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

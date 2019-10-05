@@ -12,6 +12,8 @@ ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], Conta
 ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ContainsChangeUnit
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

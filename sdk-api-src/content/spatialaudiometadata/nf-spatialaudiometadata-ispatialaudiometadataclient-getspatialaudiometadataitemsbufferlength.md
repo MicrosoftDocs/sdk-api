@@ -12,6 +12,8 @@ ms.keywords: GetSpatialAudioMetadataItemsBufferLength, GetSpatialAudioMetadataIt
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

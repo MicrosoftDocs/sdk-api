@@ -12,6 +12,8 @@ ms.keywords: PhysicalToLogicalPointForPerMonitorDPI, PhysicalToLogicalPointForPe
 ms.topic: function
 f1_keywords: 
  - "winuser/PhysicalToLogicalPointForPerMonitorDPI"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

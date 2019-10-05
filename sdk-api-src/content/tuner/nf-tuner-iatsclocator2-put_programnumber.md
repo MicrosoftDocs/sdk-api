@@ -12,6 +12,8 @@ ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],put_ProgramNumb
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCLocator2.put_ProgramNumber"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

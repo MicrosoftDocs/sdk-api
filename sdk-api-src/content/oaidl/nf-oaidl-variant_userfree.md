@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserFree, VARIANT_UserFree function [Automation], _oa96_VAR
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserFree"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

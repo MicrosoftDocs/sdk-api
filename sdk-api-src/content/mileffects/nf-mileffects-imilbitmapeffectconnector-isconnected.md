@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectConnector interface [WPF Bitmap Effects],IsConnecte
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnector.IsConnected"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceSetL
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDeviceSetLifetime"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

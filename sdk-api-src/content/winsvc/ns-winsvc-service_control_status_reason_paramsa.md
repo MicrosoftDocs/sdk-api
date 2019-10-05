@@ -12,6 +12,8 @@ ms.keywords: '*PSERVICE_CONTROL_STATUS_REASON_PARAMSA, PSERVICE_CONTROL_STATUS_R
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMS
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

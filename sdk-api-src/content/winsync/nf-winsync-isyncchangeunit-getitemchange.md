@@ -12,6 +12,8 @@ ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange m
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeUnit.GetItemChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

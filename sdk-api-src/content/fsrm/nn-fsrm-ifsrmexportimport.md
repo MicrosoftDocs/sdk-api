@@ -12,6 +12,8 @@ ms.keywords: IFsrmExportImport, IFsrmExportImport interface [File Server Resourc
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmExportImport"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindClosestMatchingMode, FindClosestMatchingMode method [DXGI], Fin
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.FindClosestMatchingMode"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

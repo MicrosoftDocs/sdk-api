@@ -12,6 +12,8 @@ ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetDesc"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

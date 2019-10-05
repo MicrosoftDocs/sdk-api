@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_SURFACE_TYPE, DXVAHD_SURFACE_TYPE enumeration [Media Foundat
 ms.topic: enum
 f1_keywords: 
  - "dxvahd/DXVAHD_SURFACE_TYPE"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

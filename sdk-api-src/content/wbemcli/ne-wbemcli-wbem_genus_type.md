@@ -12,6 +12,8 @@ ms.keywords: WBEM_GENUS_CLASS, WBEM_GENUS_INSTANCE, WBEM_GENUS_TYPE, WBEM_GENUS_
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_GENUS_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

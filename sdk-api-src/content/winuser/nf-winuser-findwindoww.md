@@ -12,6 +12,8 @@ ms.keywords: FindWindow, FindWindow function [Windows and Messages], FindWindowA
 ms.topic: function
 f1_keywords: 
  - "winuser/FindWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

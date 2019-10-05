@@ -12,6 +12,8 @@ ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

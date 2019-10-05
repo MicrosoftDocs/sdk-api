@@ -12,6 +12,8 @@ ms.keywords: ITraceEventCallback interface [ETW],OnFinalizeProcessTrace method, 
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEventCallback.OnFinalizeProcessTrace"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

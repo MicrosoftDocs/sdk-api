@@ -12,6 +12,8 @@ ms.keywords: GetUseSoftwareRenderer, GetUseSoftwareRenderer method [WPF Bitmap E
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

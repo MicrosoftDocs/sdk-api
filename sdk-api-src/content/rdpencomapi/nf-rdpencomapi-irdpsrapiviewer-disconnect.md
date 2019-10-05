@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.Disconnect"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

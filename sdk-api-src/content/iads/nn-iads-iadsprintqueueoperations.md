@@ -12,6 +12,8 @@ ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI]
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsPrintQueueOperations"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

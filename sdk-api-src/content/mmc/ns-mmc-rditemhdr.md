@@ -12,6 +12,8 @@ ms.keywords: RDITEMHDR, RDITEMHDR structure [MMC], _slate_rditemhdr, mmc.rditemh
 ms.topic: struct
 f1_keywords:
 - mmc/RDITEMHDR
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE
 ms.topic: struct
 f1_keywords:
 - stm/MPR_SERVICE_CHARACTERISTICS
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

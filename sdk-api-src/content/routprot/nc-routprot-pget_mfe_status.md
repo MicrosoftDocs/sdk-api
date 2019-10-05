@@ -12,6 +12,8 @@ ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, M
 ms.topic: callback
 f1_keywords:
 - routprot/GetMfeStatus
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

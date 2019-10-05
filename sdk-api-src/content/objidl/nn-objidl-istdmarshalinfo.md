@@ -12,6 +12,8 @@ ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo i
 ms.topic: interface
 f1_keywords: 
  - "objidl/IStdMarshalInfo"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

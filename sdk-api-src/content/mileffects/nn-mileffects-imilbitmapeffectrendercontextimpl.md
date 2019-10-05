@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImp
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContextImpl"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

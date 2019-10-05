@@ -12,6 +12,8 @@ ms.keywords: WINBIO_PROPERTY_ANTI_SPOOF_POLICY, WINBIO_PROPERTY_EXTENDED_ENGINE_
 ms.topic: function
 f1_keywords:
 - winbio/WinBioGetProperty
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

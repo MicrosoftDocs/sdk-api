@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],LogonNot
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.LogonNotify
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

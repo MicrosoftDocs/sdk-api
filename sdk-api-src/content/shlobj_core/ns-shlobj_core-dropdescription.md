@@ -12,6 +12,8 @@ ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/DROPDESCRIPTION"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

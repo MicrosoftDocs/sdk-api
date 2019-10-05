@@ -12,6 +12,8 @@ ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Ta
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.GetPosition"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

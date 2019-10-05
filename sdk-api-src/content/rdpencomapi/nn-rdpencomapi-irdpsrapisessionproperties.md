@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [R
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISessionProperties"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

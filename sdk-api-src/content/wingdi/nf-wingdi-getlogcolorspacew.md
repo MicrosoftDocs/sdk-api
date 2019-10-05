@@ -12,6 +12,8 @@ ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System],
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetLogColorSpace"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

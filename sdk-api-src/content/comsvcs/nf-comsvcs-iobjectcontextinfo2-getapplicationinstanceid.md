@@ -12,6 +12,8 @@ ms.keywords: GetApplicationInstanceId, GetApplicationInstanceId method [COM+], G
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContextInfo2.GetApplicationInstanceId"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

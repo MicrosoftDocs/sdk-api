@@ -12,6 +12,8 @@ ms.keywords: 8c92fb43-1584-42fc-857e-aae5d5c222b4, IBBM_CurveFit, IBBM_Default, 
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkBoundingBoxMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

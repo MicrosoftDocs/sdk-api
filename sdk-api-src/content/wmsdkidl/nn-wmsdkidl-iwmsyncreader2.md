@@ -12,6 +12,8 @@ ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], IW
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMSyncReader2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

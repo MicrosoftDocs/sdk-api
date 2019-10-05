@@ -12,6 +12,8 @@ ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

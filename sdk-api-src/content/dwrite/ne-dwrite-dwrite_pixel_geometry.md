@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PIXEL_GEOMETRY, DWRITE_PIXEL_GEOMETRY enumeration [Direct Wr
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_PIXEL_GEOMETRY"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

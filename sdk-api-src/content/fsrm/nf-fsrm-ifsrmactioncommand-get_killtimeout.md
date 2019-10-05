@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],KillTim
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionCommand.KillTimeOut"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

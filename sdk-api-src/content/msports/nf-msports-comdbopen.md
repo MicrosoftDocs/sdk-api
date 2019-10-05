@@ -12,6 +12,8 @@ ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-4
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBOpen"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: MI_Sint32A, MI_Sint32A structure [Windows Management Infrastructure
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Sint32A"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

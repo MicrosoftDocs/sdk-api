@@ -12,6 +12,8 @@ ms.keywords: RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RAS
 ms.topic: function
 f1_keywords: 
  - "ras/RasConnectionNotification"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

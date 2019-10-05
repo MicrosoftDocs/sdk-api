@@ -12,6 +12,8 @@ ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _win32_CHARRANGE
 ms.topic: struct
 f1_keywords: 
  - "richedit/CHARRANGE"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

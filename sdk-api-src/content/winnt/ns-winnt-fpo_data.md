@@ -12,6 +12,8 @@ ms.keywords: '*PFPO_DATA, FPO_DATA, FPO_DATA structure, FRAME_FPO, FRAME_NONFPO,
 ms.topic: struct
 f1_keywords:
 - winnt/FPO_DATA
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

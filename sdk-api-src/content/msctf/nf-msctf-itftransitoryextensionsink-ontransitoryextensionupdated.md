@@ -12,6 +12,8 @@ ms.keywords: ITfTransitoryExtensionSink interface [Text Services Framework],OnTr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

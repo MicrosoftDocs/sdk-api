@@ -12,6 +12,8 @@ ms.keywords: FaxRoutingInstallationCallback, PFAX_ROUTING_INSTALLATION_CALLBACKW
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

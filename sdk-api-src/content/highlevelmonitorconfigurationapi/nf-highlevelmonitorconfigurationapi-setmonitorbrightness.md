@@ -12,6 +12,8 @@ ms.keywords: SetMonitorBrightness, SetMonitorBrightness function [Monitor Config
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/SetMonitorBrightness"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

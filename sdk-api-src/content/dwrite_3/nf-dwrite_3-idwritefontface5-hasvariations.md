@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontFace5 interface [Direct Write],HasVariations method, IDW
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace5.HasVariations"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

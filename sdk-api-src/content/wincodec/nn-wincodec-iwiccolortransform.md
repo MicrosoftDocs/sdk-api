@@ -12,6 +12,8 @@ ms.keywords: IWICColorTransform, IWICColorTransform interface [Windows Imaging C
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICColorTransform"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

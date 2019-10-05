@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_INTERFACE_2, MPRDM_DialAll, MPRDM_DialAsNeeded, MPRDT_Atm, M
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_INTERFACE_2
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

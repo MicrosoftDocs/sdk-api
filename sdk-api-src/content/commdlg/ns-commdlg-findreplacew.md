@@ -12,6 +12,8 @@ ms.keywords: "*LPFINDREPLACEW, FINDREPLACE, FINDREPLACE structure [Dialog Boxes]
 ms.topic: struct
 f1_keywords: 
  - "commdlg/FINDREPLACE"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for W
 ms.topic: method
 f1_keywords: 
  - "msime/IFEDictionary.DisplayProperty"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

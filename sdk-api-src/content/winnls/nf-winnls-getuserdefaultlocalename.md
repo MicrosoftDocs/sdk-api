@@ -12,6 +12,8 @@ ms.keywords: GetUserDefaultLocaleName, GetUserDefaultLocaleName function [Intern
 ms.topic: function
 f1_keywords: 
  - "winnls/GetUserDefaultLocaleName"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

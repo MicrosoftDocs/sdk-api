@@ -12,6 +12,8 @@ ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "corewindow/CreateControlInputEx"
+dev_langs:
+ - c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

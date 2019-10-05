@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interf
 ms.topic: interface
 f1_keywords: 
  - "wsbapp/IWsbApplicationRestoreSupport"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

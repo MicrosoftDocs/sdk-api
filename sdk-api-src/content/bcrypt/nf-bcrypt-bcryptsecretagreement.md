@@ -12,6 +12,8 @@ ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], b
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptSecretAgreement"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

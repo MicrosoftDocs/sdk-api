@@ -12,6 +12,8 @@ ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.Advise"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

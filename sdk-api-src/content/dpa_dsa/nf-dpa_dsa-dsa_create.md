@@ -12,6 +12,8 @@ ms.keywords: DSA_Create, DSA_Create function [Windows Controls], _win32_DSA_Crea
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_Create"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

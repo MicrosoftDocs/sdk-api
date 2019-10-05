@@ -12,6 +12,8 @@ ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.r
 ms.topic: struct
 f1_keywords:
 - wsdtypes/RESPONSEBODY_GetMetadata
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

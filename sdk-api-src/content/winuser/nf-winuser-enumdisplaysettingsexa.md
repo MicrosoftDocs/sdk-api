@@ -12,6 +12,8 @@ ms.keywords: EDS_RAWMODE, EDS_ROTATEDMODE, ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_
 ms.topic: function
 f1_keywords:
 - winuser/EnumDisplaySettingsEx
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

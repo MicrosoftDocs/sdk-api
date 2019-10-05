@@ -12,6 +12,8 @@ ms.keywords: DrvEndDoc, DrvEndDoc function [Display Devices], ddifncs_aa6db3be-d
 ms.topic: function
 f1_keywords:
 - winddi/DrvEndDoc
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE s
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_PROPERTY_VALUE"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

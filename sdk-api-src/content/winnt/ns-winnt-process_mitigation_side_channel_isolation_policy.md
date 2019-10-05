@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PPROCESS_MITIG
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

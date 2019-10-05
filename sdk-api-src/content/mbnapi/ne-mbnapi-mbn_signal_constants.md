@@ -12,6 +12,8 @@ ms.keywords: MBN_ERROR_RATE_UNKNOWN, MBN_RSSI_DEFAULT, MBN_RSSI_DISABLE, MBN_RSS
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SIGNAL_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

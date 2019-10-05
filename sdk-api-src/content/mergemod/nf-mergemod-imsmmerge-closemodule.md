@@ -12,6 +12,8 @@ ms.keywords: CloseModule, CloseModule method, CloseModule method,IMsmMerge inter
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.CloseModule"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

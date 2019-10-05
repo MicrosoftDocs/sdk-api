@@ -12,6 +12,8 @@ ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFra
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawMediaStream.GetTimePerFrame"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

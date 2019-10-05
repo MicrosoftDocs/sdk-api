@@ -12,6 +12,8 @@ ms.keywords: GetAttributes, GetAttributes method, GetAttributes method,IVdsStora
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsStoragePool.GetAttributes
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

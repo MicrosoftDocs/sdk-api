@@ -12,6 +12,8 @@ ms.keywords: TF_DA_LINESTYLE, TF_DA_LINESTYLE enumeration [Text Services Framewo
 ms.topic: enum
 f1_keywords: 
  - "msctf/TF_DA_LINESTYLE"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Enum, Enum method [Task Scheduler], Enum method [Task Scheduler],IT
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.Enum"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

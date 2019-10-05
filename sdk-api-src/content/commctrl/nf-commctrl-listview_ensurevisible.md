@@ -12,6 +12,8 @@ ms.keywords: ListView_EnsureVisible, ListView_EnsureVisible macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_EnsureVisible"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

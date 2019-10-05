@@ -12,6 +12,8 @@ ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroun
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetError
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation met
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePreviewSink.GetRotation"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

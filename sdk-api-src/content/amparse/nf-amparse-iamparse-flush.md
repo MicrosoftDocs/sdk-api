@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMPars
 ms.topic: method
 f1_keywords: 
  - "amparse/IAMParse.Flush"
+dev_langs:
+ - c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

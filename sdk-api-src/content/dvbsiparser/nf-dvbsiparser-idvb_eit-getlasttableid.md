@@ -12,6 +12,8 @@ ms.keywords: GetLastTableId, GetLastTableId method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT.GetLastTableId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

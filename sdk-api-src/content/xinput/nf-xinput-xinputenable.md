@@ -12,6 +12,8 @@ ms.keywords: XInputEnable, XInputEnable function [XInput Game Controller APIs], 
 ms.topic: function
 f1_keywords:
 - xinput/XInputEnable
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

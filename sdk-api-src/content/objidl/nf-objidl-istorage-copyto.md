@@ -12,6 +12,8 @@ ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structur
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.CopyTo"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

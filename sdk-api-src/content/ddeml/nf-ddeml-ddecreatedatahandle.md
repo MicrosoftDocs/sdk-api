@@ -12,6 +12,8 @@ ms.keywords: DdeCreateDataHandle, DdeCreateDataHandle function [Data Exchange], 
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeCreateDataHandle"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

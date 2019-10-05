@@ -12,6 +12,8 @@ ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS
 ms.topic: method
 f1_keywords: 
  - "bits1_5/IBackgroundCopyJob2.GetReplyData"
+dev_langs:
+ - c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

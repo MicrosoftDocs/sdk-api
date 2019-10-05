@@ -12,6 +12,8 @@ ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioSample"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

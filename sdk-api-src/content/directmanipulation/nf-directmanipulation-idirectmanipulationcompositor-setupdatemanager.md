@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],SetUp
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationCompositor.SetUpdateManager"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

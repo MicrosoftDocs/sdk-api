@@ -12,6 +12,8 @@ ms.keywords: CreateFileScreenException, CreateFileScreenException method [File S
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenManager.CreateFileScreenException"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

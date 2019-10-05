@@ -12,6 +12,8 @@ ms.keywords: 3e4c4f2f-1754-2bbc-636d-9cea485ffad1, D3D10DisassembleShader, D3D10
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10DisassembleShader"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

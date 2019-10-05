@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interfa
 ms.topic: method
 f1_keywords: 
  - "objidl/IMalloc.GetSize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

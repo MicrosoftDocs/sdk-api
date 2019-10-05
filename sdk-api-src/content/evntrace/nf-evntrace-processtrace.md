@@ -12,6 +12,8 @@ ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.
 ms.topic: function
 f1_keywords: 
  - "evntrace/ProcessTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

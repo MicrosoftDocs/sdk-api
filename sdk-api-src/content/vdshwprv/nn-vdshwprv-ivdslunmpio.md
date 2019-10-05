@@ -12,6 +12,8 @@ ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VD
 ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsLunMpio
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

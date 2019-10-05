@@ -12,6 +12,8 @@ ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsSyntax"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

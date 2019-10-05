@@ -12,6 +12,8 @@ ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_C
 ms.topic: struct
 f1_keywords: 
  - "wia_xp/WIA_DATA_CALLBACK_HEADER"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

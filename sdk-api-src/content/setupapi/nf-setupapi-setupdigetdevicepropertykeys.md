@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDevicePropertyKeys
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property_Keys

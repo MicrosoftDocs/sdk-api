@@ -12,6 +12,8 @@ ms.keywords: CompareContainerListPrices, CompareContainerListPrices method [Wind
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.CompareContainerListPrices"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

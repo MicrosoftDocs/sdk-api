@@ -12,6 +12,8 @@ ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [windows
 ms.topic: interface
 f1_keywords: 
  - "dshowasf/IAMWMBufferPassCallback"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

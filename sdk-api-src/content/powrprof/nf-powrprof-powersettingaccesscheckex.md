@@ -12,6 +12,8 @@ ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerSettingAccessCheckEx"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

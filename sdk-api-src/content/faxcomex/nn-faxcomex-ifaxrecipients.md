@@ -12,6 +12,8 @@ ms.keywords: IFaxRecipients, IFaxRecipients interface [Fax Service], IFaxRecipie
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxRecipients"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

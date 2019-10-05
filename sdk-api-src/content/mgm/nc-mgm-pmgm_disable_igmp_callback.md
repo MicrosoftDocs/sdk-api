@@ -12,6 +12,8 @@ ms.keywords: MgmDisableIgmpCallback, PMGM_DISABLE_IGMP_CALLBACK, PMGM_DISABLE_IG
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_DISABLE_IGMP_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

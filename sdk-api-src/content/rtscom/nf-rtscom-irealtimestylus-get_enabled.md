@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTim
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.Enabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

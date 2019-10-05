@@ -12,6 +12,8 @@ ms.keywords: GetEventMessage, PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, P
 ms.topic: callback
 f1_keywords:
 - routprot/PGET_EVENT_MESSAGE
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

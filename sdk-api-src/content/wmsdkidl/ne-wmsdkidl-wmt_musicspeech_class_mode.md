@@ -12,6 +12,8 @@ ms.keywords: WMT_MS_CLASS_MIXED, WMT_MS_CLASS_MUSIC, WMT_MS_CLASS_SPEECH, WMT_MU
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

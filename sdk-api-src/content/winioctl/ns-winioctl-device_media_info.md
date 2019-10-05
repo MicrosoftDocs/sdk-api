@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structur
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_MEDIA_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

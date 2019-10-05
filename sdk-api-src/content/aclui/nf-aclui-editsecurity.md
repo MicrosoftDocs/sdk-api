@@ -12,6 +12,8 @@ ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity
 ms.topic: function
 f1_keywords: 
  - "aclui/EditSecurity"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

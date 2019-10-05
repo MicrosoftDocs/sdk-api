@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY function [Failov
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetSzProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], 
 ms.topic: function
 f1_keywords: 
  - "ras/RasEnumAutodialAddresses"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

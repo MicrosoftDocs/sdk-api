@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],SetBlendBellShape method, LinearGr
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.SetBlendBellShape"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

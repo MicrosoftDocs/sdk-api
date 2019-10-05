@@ -12,6 +12,8 @@ ms.keywords: TEXTRANGE, TEXTRANGE structure [Windows Controls], TEXTRANGEA, TEXT
 ms.topic: struct
 f1_keywords: 
  - "richedit/TEXTRANGE"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

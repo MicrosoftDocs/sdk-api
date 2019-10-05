@@ -12,6 +12,8 @@ ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER,
 ms.topic: function
 f1_keywords: 
  - "memoryapi/VirtualAlloc2FromApp"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

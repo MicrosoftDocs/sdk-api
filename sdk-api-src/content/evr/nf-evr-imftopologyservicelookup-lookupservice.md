@@ -12,6 +12,8 @@ ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService
 ms.topic: method
 f1_keywords: 
  - "evr/IMFTopologyServiceLookup.LookupService"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

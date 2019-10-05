@@ -12,6 +12,8 @@ ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice me
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidDevice.IsEqualDevice"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

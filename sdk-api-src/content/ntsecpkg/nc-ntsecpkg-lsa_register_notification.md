@@ -12,6 +12,8 @@ ms.keywords: LSA_REGISTER_NOTIFICATION, NOTIFIER_FLAG_NEW_THREAD, NOTIFIER_FLAG_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/RegisterNotification
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

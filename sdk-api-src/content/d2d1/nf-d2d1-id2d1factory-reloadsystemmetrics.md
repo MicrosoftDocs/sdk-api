@@ -12,6 +12,8 @@ ms.keywords: ID2D1Factory interface [Direct2D],ReloadSystemMetrics method, ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Factory.ReloadSystemMetrics"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

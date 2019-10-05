@@ -12,6 +12,8 @@ ms.keywords: AsDepthStencil, AsDepthStencil method [Direct3D 10], AsDepthStencil
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsDepthStencil"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

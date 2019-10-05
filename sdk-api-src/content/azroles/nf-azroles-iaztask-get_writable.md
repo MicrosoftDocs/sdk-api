@@ -12,6 +12,8 @@ ms.keywords: AzTask object [Security],Writable property, IAzTask interface [Secu
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.Writable"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

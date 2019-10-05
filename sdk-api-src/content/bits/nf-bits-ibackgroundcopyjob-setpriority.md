@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackground
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.SetPriority"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSel
 ms.topic: method
 f1_keywords: 
  - "tom/ITextSelection.MoveUp"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

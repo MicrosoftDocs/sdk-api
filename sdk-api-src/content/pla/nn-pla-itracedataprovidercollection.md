@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProviderCollection, ITraceDataProviderCollection interfac
 ms.topic: interface
 f1_keywords: 
  - "pla/ITraceDataProviderCollection"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPGOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_ID_ABSTRACT, GOPHER_ATT
 ms.topic: struct
 f1_keywords: 
  - "wininet/GOPHER_ATTRIBUTE_TYPE"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

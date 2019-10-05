@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties inte
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderProperties.GetCount"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

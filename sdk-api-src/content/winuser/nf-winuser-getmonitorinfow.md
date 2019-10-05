@@ -12,6 +12,8 @@ ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorIn
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMonitorInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

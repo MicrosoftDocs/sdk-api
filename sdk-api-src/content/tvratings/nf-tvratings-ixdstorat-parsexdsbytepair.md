@@ -12,6 +12,8 @@ ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair me
 ms.topic: method
 f1_keywords: 
  - "tvratings/IXDSToRat.ParseXDSBytePair"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

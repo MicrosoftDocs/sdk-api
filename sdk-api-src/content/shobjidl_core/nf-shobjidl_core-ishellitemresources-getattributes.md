@@ -12,6 +12,8 @@ ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_C
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemResources.GetAttributes"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

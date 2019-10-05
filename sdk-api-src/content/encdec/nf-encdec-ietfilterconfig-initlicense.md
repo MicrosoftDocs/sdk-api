@@ -12,6 +12,8 @@ ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense m
 ms.topic: method
 f1_keywords: 
  - "encdec/IETFilterConfig.InitLicense"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

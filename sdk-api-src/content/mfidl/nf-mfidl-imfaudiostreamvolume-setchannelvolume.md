@@ -12,6 +12,8 @@ ms.keywords: 7786a6aa-c777-4b65-b38c-a75cd654a080, IMFAudioStreamVolume interfac
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioStreamVolume.SetChannelVolume"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

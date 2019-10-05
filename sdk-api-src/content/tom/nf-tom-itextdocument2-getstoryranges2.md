@@ -12,6 +12,8 @@ ms.keywords: GetStoryRanges2, GetStoryRanges2 method [Windows Controls], GetStor
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetStoryRanges2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

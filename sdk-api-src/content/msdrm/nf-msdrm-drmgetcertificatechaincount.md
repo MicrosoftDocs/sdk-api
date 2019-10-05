@@ -12,6 +12,8 @@ ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetCertificateChainCount"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

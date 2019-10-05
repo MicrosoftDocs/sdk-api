@@ -12,6 +12,8 @@ ms.keywords: 48dc1631-f96c-4515-aac2-225b3427f9ad, DXVA2_FilterValues, DXVA2_Fil
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_FilterValues
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

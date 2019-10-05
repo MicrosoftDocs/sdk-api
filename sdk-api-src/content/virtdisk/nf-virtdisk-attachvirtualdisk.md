@@ -12,6 +12,8 @@ ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachV
 ms.topic: function
 f1_keywords:
 - virtdisk/AttachVirtualDisk
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

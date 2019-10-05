@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL enume
 ms.topic: enum
 f1_keywords: 
  - "netioapi/MIB_IF_TABLE_LEVEL"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Netioapi.h
 req.target-type: Windows

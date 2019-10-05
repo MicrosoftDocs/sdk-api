@@ -12,6 +12,8 @@ ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/RSVP_HOP"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

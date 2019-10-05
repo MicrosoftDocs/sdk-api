@@ -12,6 +12,8 @@ ms.keywords: GetRollForward, GetRollForward method, GetRollForward method,IVssCo
 ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.GetRollForward
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

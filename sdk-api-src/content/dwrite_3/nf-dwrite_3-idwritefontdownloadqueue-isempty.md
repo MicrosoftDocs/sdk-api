@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],IsEmpty method, I
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontDownloadQueue.IsEmpty"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, DRM_MINIMUM_OUTPUT_PROTECTION
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

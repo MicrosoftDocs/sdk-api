@@ -12,6 +12,8 @@ ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packag
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetStagedPackageOrigin"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

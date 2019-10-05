@@ -12,6 +12,8 @@ ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, 
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IEnumVdsObject.Reset"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

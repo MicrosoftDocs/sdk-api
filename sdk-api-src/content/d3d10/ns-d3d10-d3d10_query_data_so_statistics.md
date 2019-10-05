@@ -12,6 +12,8 @@ ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS stru
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_QUERY_DATA_SO_STATISTICS"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateImageEncoder, CreateImageEncoder method [Windows Imaging Comp
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory2.CreateImageEncoder"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

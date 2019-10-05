@@ -12,6 +12,8 @@ ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.S
 ms.topic: method
 f1_keywords: 
  - "searchapi/IEnumSearchRoots.Skip"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

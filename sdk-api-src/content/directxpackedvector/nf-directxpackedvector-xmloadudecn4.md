@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadUDecN4, XMLoadUDecN4, XMLoadUDecN4 meth
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadUDecN4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

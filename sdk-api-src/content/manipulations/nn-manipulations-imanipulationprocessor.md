@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows T
 ms.topic: interface
 f1_keywords: 
  - "manipulations/IManipulationProcessor"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

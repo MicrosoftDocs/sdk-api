@@ -12,6 +12,8 @@ ms.keywords: BDA_DrmPairingError, BDA_DrmPairingError enumeration [Microsoft TV 
 ms.topic: enum
 f1_keywords: 
  - "bdaiface/BDA_DrmPairingError"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

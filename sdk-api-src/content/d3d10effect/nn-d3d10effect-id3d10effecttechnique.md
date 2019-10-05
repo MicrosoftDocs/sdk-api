@@ -12,6 +12,8 @@ ms.keywords: 46580a58-26ee-e999-0d60-9585dc422459, ID3D10EffectTechnique, ID3D10
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectTechnique"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

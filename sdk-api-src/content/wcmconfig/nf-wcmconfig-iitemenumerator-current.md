@@ -12,6 +12,8 @@ ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/IItemEnumerator.Current"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

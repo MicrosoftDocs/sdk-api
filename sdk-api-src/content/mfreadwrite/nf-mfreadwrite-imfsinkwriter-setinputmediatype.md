@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter interface [Media Foundation],SetInputMediaType method
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.SetInputMediaType"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

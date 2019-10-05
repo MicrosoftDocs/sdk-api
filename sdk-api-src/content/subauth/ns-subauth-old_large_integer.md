@@ -12,6 +12,8 @@ ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structur
 ms.topic: struct
 f1_keywords: 
  - "subauth/OLD_LARGE_INTEGER"
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

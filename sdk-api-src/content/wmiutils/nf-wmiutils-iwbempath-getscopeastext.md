@@ -12,6 +12,8 @@ ms.keywords: GetScopeAsText, GetScopeAsText method [Windows Management Instrumen
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetScopeAsText"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

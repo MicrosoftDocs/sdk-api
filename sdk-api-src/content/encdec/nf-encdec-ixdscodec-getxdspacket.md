@@ -12,6 +12,8 @@ ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetX
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodec.GetXDSPacket"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

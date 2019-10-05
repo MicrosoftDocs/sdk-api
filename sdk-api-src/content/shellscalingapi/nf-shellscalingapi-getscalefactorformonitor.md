@@ -12,6 +12,8 @@ ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Window
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/GetScaleFactorForMonitor"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

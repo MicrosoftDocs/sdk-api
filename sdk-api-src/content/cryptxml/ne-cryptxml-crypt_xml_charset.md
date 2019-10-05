@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_CHARSET, CRYPT_XML_CHARSET enumeration [Security], CRYPT_
 ms.topic: enum
 f1_keywords: 
  - "cryptxml/CRYPT_XML_CHARSET"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FastRecovery, FastRecovery method, FastRecovery method,IVssBackupCo
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponentsEx2.FastRecovery"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/A
 ms.topic: function
 f1_keywords: 
  - "adshlp/AllocADsStr"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

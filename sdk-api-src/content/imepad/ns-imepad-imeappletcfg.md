@@ -12,6 +12,8 @@ ms.keywords: "*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internation
 ms.topic: struct
 f1_keywords: 
  - "imepad/IMEAPPLETCFG"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

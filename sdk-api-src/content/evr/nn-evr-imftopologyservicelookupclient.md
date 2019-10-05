@@ -12,6 +12,8 @@ ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient inte
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFTopologyServiceLookupClient"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_ENDPOINT_PROPERTY, WS_SERVICE_ENDPOINT_PROPERTY structur
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SERVICE_ENDPOINT_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

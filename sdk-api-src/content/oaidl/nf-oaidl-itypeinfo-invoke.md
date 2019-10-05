@@ -12,6 +12,8 @@ ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPAT
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.Invoke"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CROSS_SLIDE_FLAGS, CROSS_SLIDE_FLAGS enumeration, CROSS_SLIDE_FLAGS
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/CROSS_SLIDE_FLAGS"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

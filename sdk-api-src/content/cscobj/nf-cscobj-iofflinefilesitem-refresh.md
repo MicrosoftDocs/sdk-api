@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesItem interface [Offline Files],Refresh method, IOfflin
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItem::Refresh"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

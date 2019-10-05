@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],ParentalLevelSelect method, IDvd
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.ParentalLevelSelect"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

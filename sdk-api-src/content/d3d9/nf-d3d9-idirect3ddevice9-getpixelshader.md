@@ -12,6 +12,8 @@ ms.keywords: 77c70c81-d458-7302-5a4e-9899aad1f456, GetPixelShader, GetPixelShade
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetPixelShader"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

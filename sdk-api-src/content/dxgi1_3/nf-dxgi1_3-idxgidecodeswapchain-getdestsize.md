@@ -12,6 +12,8 @@ ms.keywords: GetDestSize, GetDestSize method [DXGI], GetDestSize method [DXGI],I
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIDecodeSwapChain.GetDestSize"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

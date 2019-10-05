@@ -12,6 +12,8 @@ ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSigni
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.SetSigningTimeFormat"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win
 ms.topic: function
 f1_keywords: 
  - "shlwapi/ChrCmpI"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

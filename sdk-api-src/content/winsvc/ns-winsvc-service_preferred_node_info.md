@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO, LPS
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_PREFERRED_NODE_INFO"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

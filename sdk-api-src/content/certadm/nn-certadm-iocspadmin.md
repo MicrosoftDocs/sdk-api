@@ -12,6 +12,8 @@ ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [
 ms.topic: interface
 f1_keywords: 
  - "certadm/IOCSPAdmin"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: 
 req.target-type: Windows

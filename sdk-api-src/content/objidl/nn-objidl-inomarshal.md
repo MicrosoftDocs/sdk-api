@@ -12,6 +12,8 @@ ms.keywords: INoMarshal, INoMarshal interface [COM], INoMarshal interface [COM],
 ms.topic: interface
 f1_keywords: 
  - "objidl/INoMarshal"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

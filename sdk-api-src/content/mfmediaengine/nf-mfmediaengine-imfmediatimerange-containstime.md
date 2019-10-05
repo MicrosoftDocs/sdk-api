@@ -12,6 +12,8 @@ ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaTimeRange.ContainsTime"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

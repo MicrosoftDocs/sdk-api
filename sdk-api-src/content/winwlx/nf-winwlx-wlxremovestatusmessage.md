@@ -12,6 +12,8 @@ ms.keywords: WlxRemoveStatusMessage, WlxRemoveStatusMessage function [Security],
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxRemoveStatusMessage"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_RESTRICTED
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_QualifierDecl"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

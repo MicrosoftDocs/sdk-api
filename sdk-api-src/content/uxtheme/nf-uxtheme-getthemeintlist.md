@@ -12,6 +12,8 @@ ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], contr
 ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeIntList
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

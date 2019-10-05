@@ -12,6 +12,8 @@ ms.keywords: IInkDisp interface [Tablet PC],Strokes property, IInkDisp.Strokes, 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.Strokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

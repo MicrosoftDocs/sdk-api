@@ -12,6 +12,8 @@ ms.keywords: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTR
 ms.topic: struct
 f1_keywords: 
  - "ddrawi/DDHAL_DESTROYDDLOCALDATA"
+dev_langs:
+ - c++
 req.header: ddrawi.h
 req.include-header: D3dhal.h
 req.target-type: Windows

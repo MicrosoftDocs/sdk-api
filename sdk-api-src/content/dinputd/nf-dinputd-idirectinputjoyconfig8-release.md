@@ -12,6 +12,8 @@ ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],Release meth
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.Release"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

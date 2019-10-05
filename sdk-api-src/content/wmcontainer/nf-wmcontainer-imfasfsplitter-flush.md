@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.Flush"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_PACKAGE_OPTIONS, PSECURITY_PACKAGE_OPTIONS, PSECURITY_P
 ms.topic: struct
 f1_keywords: 
  - "sspi/SECURITY_PACKAGE_OPTIONS"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

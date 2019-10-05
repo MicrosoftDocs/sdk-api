@@ -12,6 +12,8 @@ ms.keywords: WsGetPrefixFromNamespace, WsGetPrefixFromNamespace function [Web Se
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetPrefixFromNamespace"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

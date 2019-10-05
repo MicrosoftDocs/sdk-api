@@ -12,6 +12,8 @@ ms.keywords: GetObjectName, GetObjectName method [Failover Cluster], GetObjectNa
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterObjectInfo.GetObjectName"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

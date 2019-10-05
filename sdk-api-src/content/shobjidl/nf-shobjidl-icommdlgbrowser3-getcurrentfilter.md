@@ -12,6 +12,8 @@ ms.keywords: GetCurrentFilter, GetCurrentFilter method [Windows Shell], GetCurre
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ICommDlgBrowser3.GetCurrentFilter"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

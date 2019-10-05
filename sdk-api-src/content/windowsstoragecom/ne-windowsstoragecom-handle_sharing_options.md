@@ -12,6 +12,8 @@ ms.keywords: HANDLE_SHARING_OPTIONS, HANDLE_SHARING_OPTIONS enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "windowsstoragecom/HANDLE_SHARING_OPTIONS"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

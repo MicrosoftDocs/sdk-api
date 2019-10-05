@@ -12,6 +12,8 @@ ms.keywords: IWTSBitmapRendererCallback interface [Remote Desktop Services],OnTa
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRendererCallback.OnTargetSizeChanged"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

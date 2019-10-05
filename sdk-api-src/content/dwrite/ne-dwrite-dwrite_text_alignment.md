@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TEXT_ALIGNMENT, DWRITE_TEXT_ALIGNMENT enumeration [Direct Wr
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_TEXT_ALIGNMENT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

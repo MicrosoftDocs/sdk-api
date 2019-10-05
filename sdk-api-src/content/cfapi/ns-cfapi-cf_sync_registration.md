@@ -12,6 +12,8 @@ ms.keywords: CF_SYNC_REGISTRATION, CF_SYNC_REGISTRATION structure, cfapi/CF_SYNC
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_SYNC_REGISTRATION"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

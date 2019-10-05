@@ -12,6 +12,8 @@ ms.keywords: IOleCommandTarget, IOleCommandTarget interface [COM], IOleCommandTa
 ms.topic: interface
 f1_keywords: 
  - "docobj/IOleCommandTarget"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

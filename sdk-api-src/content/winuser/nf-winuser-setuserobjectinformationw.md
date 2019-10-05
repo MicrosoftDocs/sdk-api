@@ -12,6 +12,8 @@ ms.keywords: SetUserObjectInformation, SetUserObjectInformation function [Window
 ms.topic: function
 f1_keywords: 
  - "winuser/SetUserObjectInformation"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

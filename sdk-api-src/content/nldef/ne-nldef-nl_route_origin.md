@@ -12,6 +12,8 @@ ms.keywords: "*PNL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN enumeration [N
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_ROUTE_ORIGIN"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

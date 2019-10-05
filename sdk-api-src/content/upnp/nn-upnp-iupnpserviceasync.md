@@ -12,6 +12,8 @@ ms.keywords: IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], IUPnPSe
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPServiceAsync"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Dir
 ms.topic: function
 f1_keywords: 
  - "dsclient/DsGetFriendlyClassName"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFTUnregisterLocalByCLSID, MFTUnregisterLocalByCLSID function [Medi
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTUnregisterLocalByCLSID"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

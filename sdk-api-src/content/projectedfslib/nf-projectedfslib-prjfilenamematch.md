@@ -12,6 +12,8 @@ ms.keywords: PrjFileNameMatch, PrjFileNameMatch function, ProjFS.prjfilenamematc
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjFileNameMatch"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

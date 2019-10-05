@@ -12,6 +12,8 @@ ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

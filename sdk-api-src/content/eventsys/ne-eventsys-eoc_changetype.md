@@ -12,6 +12,8 @@ ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject
 ms.topic: enum
 f1_keywords: 
  - "eventsys/EOC_ChangeType"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

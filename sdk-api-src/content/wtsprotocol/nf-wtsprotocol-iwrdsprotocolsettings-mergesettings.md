@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolSettings interface [Remote Desktop Services],MergeSett
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolSettings.MergeSettings
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

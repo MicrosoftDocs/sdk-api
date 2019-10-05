@@ -12,6 +12,8 @@ ms.keywords: CachedHasKeyboardFocus property [Windows Accessibility], CachedHasK
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedHasKeyboardFocus"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidOutputDeviceEvent, IMSVidOutputDeviceEvent interface [Microso
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidOutputDeviceEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IRa
 ms.topic: method
 f1_keywords: 
  - "radialcontrollerinterop/IRadialControllerInterop.CreateForWindow"
+dev_langs:
+ - c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows

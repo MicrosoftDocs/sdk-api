@@ -12,6 +12,8 @@ ms.keywords: CERT_CREATE_SELFSIGN_NO_KEY_INFO, CERT_CREATE_SELFSIGN_NO_SIGN, Cer
 ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateSelfSignCertificate
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

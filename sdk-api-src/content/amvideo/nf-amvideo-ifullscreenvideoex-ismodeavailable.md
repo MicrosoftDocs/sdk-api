@@ -12,6 +12,8 @@ ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, I
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.IsModeAvailable"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesSettings3 interface [Windows Update Agent],NonAdmi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings3.NonAdministratorsElevated"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

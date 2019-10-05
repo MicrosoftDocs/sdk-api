@@ -12,6 +12,8 @@ ms.keywords: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e, IInkCursor, IInkCursor interf
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkCursor"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Sec
 ms.topic: interface
 f1_keywords: 
  - "certexit/ICertExit"
+dev_langs:
+ - c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows

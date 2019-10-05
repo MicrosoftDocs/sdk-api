@@ -12,6 +12,8 @@ ms.keywords: ID3D10Device interface [Direct3D 10],ResolveSubresource method, ID3
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.ResolveSubresource"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: D3d10core
 req.target-type: Windows

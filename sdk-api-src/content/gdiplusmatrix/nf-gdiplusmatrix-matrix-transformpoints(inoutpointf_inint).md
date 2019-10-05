@@ -12,6 +12,8 @@ ms.keywords: Matrix.TransformPoints, Matrix::TransformPoints, TransformPoints, T
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.TransformPoints"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: 
 req.target-type: Windows

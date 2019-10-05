@@ -12,6 +12,8 @@ ms.keywords: FALSE, FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.ShowControlWindow"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

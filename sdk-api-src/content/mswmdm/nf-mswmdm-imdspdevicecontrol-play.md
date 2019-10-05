@@ -12,6 +12,8 @@ ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Play me
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDeviceControl.Play"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

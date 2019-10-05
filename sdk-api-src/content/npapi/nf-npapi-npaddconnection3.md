@@ -12,6 +12,8 @@ ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMP
 ms.topic: function
 f1_keywords:
 - npapi/NPAddConnection3
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

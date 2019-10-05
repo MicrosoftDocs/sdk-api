@@ -12,6 +12,8 @@ ms.keywords: GetSharpness, GetSharpness method [Windows Imaging Component], GetS
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetSharpness"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

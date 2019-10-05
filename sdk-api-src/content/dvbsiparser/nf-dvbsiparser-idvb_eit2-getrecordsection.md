@@ -12,6 +12,8 @@ ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT2.GetRecordSection"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

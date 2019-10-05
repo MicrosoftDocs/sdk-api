@@ -12,6 +12,8 @@ ms.keywords: DateTime_SetMonthCalStyle, DateTime_SetMonthCalStyle macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_SetMonthCalStyle"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper met
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.CreateClipper"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

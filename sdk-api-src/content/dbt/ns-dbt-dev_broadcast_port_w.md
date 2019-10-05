@@ -12,6 +12,8 @@ ms.keywords: '*PDEV_BROADCAST_PORT_W, DEV_BROADCAST_PORT, DEV_BROADCAST_PORT str
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_PORT
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

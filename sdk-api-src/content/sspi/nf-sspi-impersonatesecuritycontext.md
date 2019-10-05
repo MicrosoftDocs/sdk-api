@@ -12,6 +12,8 @@ ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Se
 ms.topic: function
 f1_keywords: 
  - "sspi/ImpersonateSecurityContext"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

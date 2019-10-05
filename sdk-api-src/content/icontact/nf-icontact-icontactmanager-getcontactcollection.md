@@ -12,6 +12,8 @@ ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactManager.GetContactCollection"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

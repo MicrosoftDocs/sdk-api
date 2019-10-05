@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],des
 ms.topic: interface
 f1_keywords: 
  - "wiavideo/IWiaVideo"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

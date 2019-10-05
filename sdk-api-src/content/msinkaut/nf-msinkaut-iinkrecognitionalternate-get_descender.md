@@ -12,6 +12,8 @@ ms.keywords: 52507911-b48c-47a9-8046-3000ed61e3c8, Descender property [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.Descender"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

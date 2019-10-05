@@ -12,6 +12,8 @@ ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], Internet
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetCombineUrl"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

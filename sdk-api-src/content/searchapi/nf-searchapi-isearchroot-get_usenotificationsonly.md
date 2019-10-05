@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],get_UseNotificationsOnly method, ISe
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.get_UseNotificationsOnly"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndE
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndEject"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

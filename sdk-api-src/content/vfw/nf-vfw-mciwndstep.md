@@ -12,6 +12,8 @@ ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndSte
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndStep"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

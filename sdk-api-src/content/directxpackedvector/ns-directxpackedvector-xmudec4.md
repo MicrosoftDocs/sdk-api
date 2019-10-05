@@ -12,6 +12,8 @@ ms.keywords: XMUDEC4, XMUDEC4 structure [DirectX Math Support APIs], directxpack
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMUDEC4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

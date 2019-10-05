@@ -12,6 +12,8 @@ ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "clusapi/OpenClusterResourceEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

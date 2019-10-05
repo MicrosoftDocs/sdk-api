@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_NOTIFY_EXTENDED_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION
 ms.topic: struct
 f1_keywords: 
  - "winnt/FILE_NOTIFY_EXTENDED_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

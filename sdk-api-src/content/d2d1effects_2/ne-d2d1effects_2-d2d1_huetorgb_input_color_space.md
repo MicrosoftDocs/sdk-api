@@ -12,6 +12,8 @@ ms.keywords: D2D1_HUETORGB_INPUT_COLOR_SPACE, D2D1_HUETORGB_INPUT_COLOR_SPACE en
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects_2/D2D1_HUETORGB_INPUT_COLOR_SPACE"
+dev_langs:
+ - c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

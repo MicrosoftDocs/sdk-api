@@ -12,6 +12,8 @@ ms.keywords: 7cf2a4f2-c115-4dee-ab91-6a3fab33365f, MF_TOPOSTATUS, MF_TOPOSTATUS 
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MF_TOPOSTATUS"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

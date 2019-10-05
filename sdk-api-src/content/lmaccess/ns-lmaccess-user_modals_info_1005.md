@@ -12,6 +12,8 @@ ms.keywords: "*LPUSER_MODALS_INFO_1005, *PUSER_MODALS_INFO_1005, LPUSER_MODALS_I
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/USER_MODALS_INFO_1005"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FileNameFormat property [PLA], FileNameFormat property [PLA],IDataC
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollector.FileNameFormat"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

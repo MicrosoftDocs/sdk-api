@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [WinLocation], Connect method [WinLocation]
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocationPower.Connect"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

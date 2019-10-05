@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "sbe/IStreamBufferConfigure"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

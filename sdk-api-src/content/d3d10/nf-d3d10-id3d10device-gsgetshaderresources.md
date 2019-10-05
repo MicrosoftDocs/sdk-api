@@ -12,6 +12,8 @@ ms.keywords: 1f730e36-30d4-870c-a3ab-3a6e91123778, GSGetShaderResources, GSGetSh
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GSGetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

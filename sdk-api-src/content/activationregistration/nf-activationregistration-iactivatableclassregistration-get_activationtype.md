@@ -12,6 +12,8 @@ ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_Activ
 ms.topic: method
 f1_keywords: 
  - "activationregistration/IActivatableClassRegistration.get_ActivationType"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

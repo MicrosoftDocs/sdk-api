@@ -12,6 +12,8 @@ ms.keywords: MFSetAttribute2UINT32asUINT64, MFSetAttribute2UINT32asUINT64 functi
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFSetAttribute2UINT32asUINT64"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: Mfapi.h
 req.target-type: Windows

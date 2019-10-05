@@ -12,6 +12,8 @@ ms.keywords: CALL_CAUSE_BAD_DEVICE, CALL_CAUSE_CONNECT_FAIL, CALL_CAUSE_LOCAL_RE
 ms.topic: enum
 f1_keywords: 
  - "tapi3/MSP_CALL_EVENT_CAUSE"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

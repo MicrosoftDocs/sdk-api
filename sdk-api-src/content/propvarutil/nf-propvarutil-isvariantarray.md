@@ -12,6 +12,8 @@ ms.keywords: IsVariantArray, IsVariantArray function [Windows Properties], _shel
 ms.topic: function
 f1_keywords: 
  - "propvarutil/IsVariantArray"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

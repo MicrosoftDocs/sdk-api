@@ -12,6 +12,8 @@ ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, E
 ms.topic: function
 f1_keywords: 
  - "evntprov/EventActivityIdControl"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

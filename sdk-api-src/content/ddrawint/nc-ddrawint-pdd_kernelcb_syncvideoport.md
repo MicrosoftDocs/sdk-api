@@ -12,6 +12,8 @@ ms.keywords: DdSyncVideoPortData, DdSyncVideoPortData callback function [Display
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdSyncVideoPortData
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

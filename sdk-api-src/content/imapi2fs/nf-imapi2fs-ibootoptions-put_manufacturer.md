@@ -12,6 +12,8 @@ ms.keywords: IBootOptions interface [IMAPI],put_Manufacturer method, IBootOption
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IBootOptions.put_Manufacturer"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

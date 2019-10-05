@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer 
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcStubBuffer.Connect"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

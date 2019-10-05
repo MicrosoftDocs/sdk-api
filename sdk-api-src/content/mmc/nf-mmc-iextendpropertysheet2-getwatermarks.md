@@ -12,6 +12,8 @@ ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MM
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendPropertySheet2.GetWatermarks"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

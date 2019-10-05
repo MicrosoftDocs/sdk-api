@@ -12,6 +12,8 @@ ms.keywords: GetAttributesOf, GetAttributesOf method [Windows Shell], GetAttribu
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.GetAttributesOf
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

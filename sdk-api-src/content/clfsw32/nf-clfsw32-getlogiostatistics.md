@@ -12,6 +12,8 @@ ms.keywords: GetLogIoStatistics, GetLogIoStatistics function [Files], clfsw32/Ge
 ms.topic: function
 f1_keywords:
 - clfsw32/GetLogIoStatistics
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], Fa
 ms.topic: function
 f1_keywords: 
  - "winfax/FaxConnectFaxServer"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

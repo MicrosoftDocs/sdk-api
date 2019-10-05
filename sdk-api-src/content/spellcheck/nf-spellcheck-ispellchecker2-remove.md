@@ -12,6 +12,8 @@ ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applicat
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker2.Remove"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

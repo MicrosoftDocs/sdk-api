@@ -12,6 +12,8 @@ ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfigurat
 ms.topic: interface
 f1_keywords: 
  - "inputpanelconfiguration/IInputPanelInvocationConfiguration"
+dev_langs:
+ - c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

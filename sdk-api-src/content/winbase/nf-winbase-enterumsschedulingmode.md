@@ -12,6 +12,8 @@ ms.keywords: EnterUmsSchedulingMode, EnterUmsSchedulingMode function, base.enter
 ms.topic: function
 f1_keywords:
 - winbase/EnterUmsSchedulingMode
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

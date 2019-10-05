@@ -12,6 +12,8 @@ ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmS
 ms.topic: function
 f1_keywords:
 - restartmanager/RmShutdown
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

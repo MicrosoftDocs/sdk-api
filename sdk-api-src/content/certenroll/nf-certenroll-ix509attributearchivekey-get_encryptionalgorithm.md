@@ -12,6 +12,8 @@ ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm proper
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeArchiveKey.EncryptionAlgorithm"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

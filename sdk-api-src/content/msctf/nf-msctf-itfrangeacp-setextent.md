@@ -12,6 +12,8 @@ ms.keywords: ITfRangeACP interface [Text Services Framework],SetExtent method, I
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRangeACP.SetExtent"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

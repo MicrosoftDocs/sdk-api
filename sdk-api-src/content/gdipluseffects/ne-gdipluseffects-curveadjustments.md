@@ -12,6 +12,8 @@ ms.keywords: AdjustBlackSaturation, AdjustContrast, AdjustDensity, AdjustExposur
 ms.topic: enum
 f1_keywords: 
  - "gdipluseffects/CurveAdjustments"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

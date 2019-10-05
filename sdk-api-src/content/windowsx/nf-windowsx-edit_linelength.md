@@ -12,6 +12,8 @@ ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_E
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_LineLength"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

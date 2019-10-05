@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourceNotification, ITsSbResourceNotification interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbResourceNotification"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

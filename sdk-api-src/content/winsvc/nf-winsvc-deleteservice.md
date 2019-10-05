@@ -12,6 +12,8 @@ ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.d
 ms.topic: function
 f1_keywords: 
  - "winsvc/DeleteService"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

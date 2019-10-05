@@ -12,6 +12,8 @@ ms.keywords: ID2D1ColorContext, ID2D1ColorContext interface [Direct2D], ID2D1Col
 ms.topic: interface
 f1_keywords: 
  - "d2d1_1/ID2D1ColorContext"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

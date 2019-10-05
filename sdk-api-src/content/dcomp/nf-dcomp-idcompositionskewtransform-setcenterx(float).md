@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSkewTransform.SetCenterX"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

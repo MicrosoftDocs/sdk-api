@@ -12,6 +12,8 @@ ms.keywords: GetCachePath, GetCachePath method [Security], GetCachePath method [
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.GetCachePath"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

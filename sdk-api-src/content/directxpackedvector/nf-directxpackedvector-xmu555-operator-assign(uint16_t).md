@@ -12,6 +12,8 @@ ms.keywords: XMU555 structure [DirectX Math Support APIs],operator = method, XMU
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMU555.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

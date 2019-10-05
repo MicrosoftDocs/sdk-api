@@ -12,6 +12,8 @@ ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_ha
 ms.topic: macro
 f1_keywords:
 - winbase/HasOverlappedIoCompleted
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

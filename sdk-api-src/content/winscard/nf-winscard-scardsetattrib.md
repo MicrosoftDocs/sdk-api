@@ -12,6 +12,8 @@ ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib f
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardSetAttrib"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

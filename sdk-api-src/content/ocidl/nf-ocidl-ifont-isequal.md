@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.IsEqual"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

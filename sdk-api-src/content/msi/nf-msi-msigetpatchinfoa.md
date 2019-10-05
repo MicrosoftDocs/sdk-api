@@ -12,6 +12,8 @@ ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo func
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetPatchInfo"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

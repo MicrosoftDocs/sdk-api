@@ -12,6 +12,8 @@ ms.keywords: ActivateSpatialAudioObjectForHrtf, ActivateSpatialAudioObjectForHrt
 ms.topic: method
 f1_keywords: 
  - "spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

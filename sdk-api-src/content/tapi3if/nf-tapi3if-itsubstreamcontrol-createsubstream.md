@@ -12,6 +12,8 @@ ms.keywords: CreateSubStream, CreateSubStream method [TAPI 2.2], CreateSubStream
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITSubStreamControl.CreateSubStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

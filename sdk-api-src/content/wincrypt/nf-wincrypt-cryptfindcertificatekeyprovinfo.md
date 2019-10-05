@@ -12,6 +12,8 @@ ms.keywords: CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptFindCertificateKeyProvInfo
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

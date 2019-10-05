@@ -12,6 +12,8 @@ ms.keywords: PALOBJ_cGetColors, PALOBJ_cGetColors function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/PALOBJ_cGetColors
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

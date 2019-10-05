@@ -12,6 +12,8 @@ ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files]
 ms.topic: function
 f1_keywords:
 - winefs/SetUserFileEncryptionKey
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

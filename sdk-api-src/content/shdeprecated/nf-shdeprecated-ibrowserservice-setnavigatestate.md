@@ -12,6 +12,8 @@ ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService inter
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.SetNavigateState"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

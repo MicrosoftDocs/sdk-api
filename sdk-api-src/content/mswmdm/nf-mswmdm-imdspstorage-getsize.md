@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize met
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage.GetSize"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

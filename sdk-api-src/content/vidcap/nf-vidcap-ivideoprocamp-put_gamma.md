@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],put_Gamma method, IVideoProcAm
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.put_Gamma"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

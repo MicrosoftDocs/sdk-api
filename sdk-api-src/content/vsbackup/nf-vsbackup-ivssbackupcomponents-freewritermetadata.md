@@ -12,6 +12,8 @@ ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMeta
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponents.FreeWriterMetadata"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

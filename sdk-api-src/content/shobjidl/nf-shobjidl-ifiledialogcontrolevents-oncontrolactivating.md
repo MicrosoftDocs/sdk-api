@@ -12,6 +12,8 @@ ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnControlActivat
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFileDialogControlEvents.OnControlActivating"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

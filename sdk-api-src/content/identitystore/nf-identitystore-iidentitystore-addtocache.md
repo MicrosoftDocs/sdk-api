@@ -12,6 +12,8 @@ ms.keywords: AddToCache, AddToCache method [Security], AddToCache method [Securi
 ms.topic: method
 f1_keywords: 
  - "identitystore/IIdentityStore.AddToCache"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

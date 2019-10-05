@@ -12,6 +12,8 @@ ms.keywords: "?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.CreateNewInstance"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

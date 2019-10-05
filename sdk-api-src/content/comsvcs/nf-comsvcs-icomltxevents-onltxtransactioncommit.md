@@ -12,6 +12,8 @@ ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComL
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComLTxEvents.OnLtxTransactionCommit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

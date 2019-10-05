@@ -12,6 +12,8 @@ ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Mana
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.GetAllocLength"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

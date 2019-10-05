@@ -12,6 +12,8 @@ ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventMa
 ms.topic: interface
 f1_keywords: 
  - "natupnp/INATEventManager"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

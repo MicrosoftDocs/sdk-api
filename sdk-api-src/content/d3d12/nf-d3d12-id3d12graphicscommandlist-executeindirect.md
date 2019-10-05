@@ -12,6 +12,8 @@ ms.keywords: ExecuteIndirect, ExecuteIndirect method, ExecuteIndirect method,ID3
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList.ExecuteIndirect"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

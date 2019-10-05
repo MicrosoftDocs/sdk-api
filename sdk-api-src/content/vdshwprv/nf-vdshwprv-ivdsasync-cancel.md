@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interfac
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsAsync.Cancel"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

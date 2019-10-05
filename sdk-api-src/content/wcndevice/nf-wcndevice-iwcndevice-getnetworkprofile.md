@@ -12,6 +12,8 @@ ms.keywords: GetNetworkProfile, GetNetworkProfile method [Windows Connect Now], 
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.GetNetworkProfile"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

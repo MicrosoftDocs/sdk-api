@@ -12,6 +12,8 @@ ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method, GetMuteDebugOutput m
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12InfoQueue.GetMuteDebugOutput"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

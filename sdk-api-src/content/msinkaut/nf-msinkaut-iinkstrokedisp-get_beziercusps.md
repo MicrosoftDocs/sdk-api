@@ -12,6 +12,8 @@ ms.keywords: 9fdd007a-1c8e-4389-975c-849a67be94a1, BezierCusps property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.BezierCusps"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

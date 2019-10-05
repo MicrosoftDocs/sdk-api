@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTra
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImageHandleFromTransferHandle"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

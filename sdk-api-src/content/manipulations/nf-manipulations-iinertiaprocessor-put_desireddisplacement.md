@@ -12,6 +12,8 @@ ms.keywords: DesiredDisplacement property [Windows Touch], DesiredDisplacement p
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.DesiredDisplacement"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

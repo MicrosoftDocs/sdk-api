@@ -12,6 +12,8 @@ ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig,
 ms.topic: function
 f1_keywords: 
  - "windns/DnsQueryConfig"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

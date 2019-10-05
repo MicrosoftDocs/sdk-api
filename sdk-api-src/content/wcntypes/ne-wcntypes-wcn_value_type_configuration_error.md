@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_CE_2_4_CHANNEL_NOT_SUPPORTED, WCN_VALUE_CE_5_0_CHANNEL_NO
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_CONFIGURATION_ERROR"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

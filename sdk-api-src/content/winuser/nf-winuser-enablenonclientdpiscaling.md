@@ -12,6 +12,8 @@ ms.keywords: EnableNonClientDpiScaling, EnableNonClientDpiScaling function [High
 ms.topic: function
 f1_keywords: 
  - "winuser/EnableNonClientDpiScaling"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

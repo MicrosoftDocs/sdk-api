@@ -12,6 +12,8 @@ ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateFont"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

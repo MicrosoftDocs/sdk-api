@@ -12,6 +12,8 @@ ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmT
 ms.topic: function
 f1_keywords: 
  - "mmddk/mmTaskSignal"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

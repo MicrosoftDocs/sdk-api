@@ -12,6 +12,8 @@ ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStr
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetUpStreamHypotheses"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

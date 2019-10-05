@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineMonitorMedia, TSPI_lineMonitorMedia function [TAPI 2.2], _
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineMonitorMedia"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

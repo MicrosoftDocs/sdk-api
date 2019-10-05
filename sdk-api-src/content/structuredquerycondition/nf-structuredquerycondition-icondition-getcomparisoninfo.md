@@ -12,6 +12,8 @@ ms.keywords: GetComparisonInfo, GetComparisonInfo method [search], GetComparison
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetComparisonInfo"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

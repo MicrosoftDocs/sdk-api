@@ -12,6 +12,8 @@ ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaType
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumMediaTypes.Reset"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

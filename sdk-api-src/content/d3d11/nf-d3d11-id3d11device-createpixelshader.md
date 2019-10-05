@@ -12,6 +12,8 @@ ms.keywords: 60e28609-f849-5247-ceff-56bd9925d775, CreatePixelShader, CreatePixe
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreatePixelShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

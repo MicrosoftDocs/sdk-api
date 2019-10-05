@@ -12,6 +12,8 @@ ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptCloseAlgorithmProvider"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

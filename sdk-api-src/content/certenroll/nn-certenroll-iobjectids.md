@@ -12,6 +12,8 @@ ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IObjectIds"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

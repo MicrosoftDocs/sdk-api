@@ -12,6 +12,8 @@ ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface interface [DXGI]
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISurface.Map"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,10 @@ ms.assetid: 80535fbf-1159-4a7a-8452-5d2adf9363f0
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_SCALE_SUPPORT_FLAGS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_SCALE_SUPPORT_FLAGS, D3D12_VIDEO_SCALE_SUPPORT_FLAGS, 
 req.header: d3d12video.h
 req.include-header:

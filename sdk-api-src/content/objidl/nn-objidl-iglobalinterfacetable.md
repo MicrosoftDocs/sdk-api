@@ -12,6 +12,8 @@ ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlob
 ms.topic: interface
 f1_keywords: 
  - "objidl/IGlobalInterfaceTable"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Timestamp, MI_Timestamp structure [Windows Management Infrastruc
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Timestamp"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

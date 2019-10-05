@@ -12,6 +12,8 @@ ms.keywords: CachedLocalizedLandmarkType property [Windows Accessibility], Cache
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement5.CachedLocalizedLandmarkType"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

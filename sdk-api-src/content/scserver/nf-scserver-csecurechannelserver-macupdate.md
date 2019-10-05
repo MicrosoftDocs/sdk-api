@@ -12,6 +12,8 @@ ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACUpdate
 ms.topic: method
 f1_keywords: 
  - "scserver/CSecureChannelServer.MACUpdate"
+dev_langs:
+ - c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

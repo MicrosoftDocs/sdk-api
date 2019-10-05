@@ -12,6 +12,8 @@ ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSource.Start"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

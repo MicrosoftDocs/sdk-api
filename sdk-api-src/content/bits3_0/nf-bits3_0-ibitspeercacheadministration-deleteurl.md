@@ -12,6 +12,8 @@ ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPe
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBitsPeerCacheAdministration.DeleteUrl"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

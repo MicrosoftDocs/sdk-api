@@ -12,6 +12,8 @@ ms.keywords: CryptCATEnumerateAttr, CryptCATEnumerateAttr function [Security], m
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATEnumerateAttr"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

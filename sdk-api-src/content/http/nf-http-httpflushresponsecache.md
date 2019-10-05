@@ -12,6 +12,8 @@ ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _ht
 ms.topic: function
 f1_keywords:
 - http/HttpFlushResponseCache
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],acceptPKCS7Blob method, IEnroll.accept
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.acceptPKCS7Blob"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

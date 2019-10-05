@@ -12,6 +12,8 @@ ms.keywords: RtmFindNextHop, RtmFindNextHop function [RAS], _rtmv2ref_rtmfindnex
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmFindNextHop
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

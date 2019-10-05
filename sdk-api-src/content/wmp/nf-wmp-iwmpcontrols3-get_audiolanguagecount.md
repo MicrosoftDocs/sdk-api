@@ -12,6 +12,8 @@ ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCou
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPControls3.get_audioLanguageCount"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

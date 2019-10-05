@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Automation], GetName method [Automation],I
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.GetName"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

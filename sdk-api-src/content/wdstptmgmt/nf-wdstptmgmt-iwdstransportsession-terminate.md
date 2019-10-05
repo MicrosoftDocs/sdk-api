@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Termin
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSession.Terminate"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

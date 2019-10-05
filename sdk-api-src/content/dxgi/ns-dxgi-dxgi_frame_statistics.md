@@ -12,6 +12,8 @@ ms.keywords: 97415a25-57a3-0530-e47d-4459bac66c73, DXGI_FRAME_STATISTICS, DXGI_F
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_FRAME_STATISTICS"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

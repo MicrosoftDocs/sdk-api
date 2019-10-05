@@ -12,6 +12,8 @@ ms.keywords: IFsrmAccessDeniedRemediationClient interface [File Server Resource 
 ms.topic: method
 f1_keywords:
 - fsrm/IFsrmAccessDeniedRemediationClient.Show
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

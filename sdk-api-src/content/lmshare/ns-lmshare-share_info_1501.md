@@ -12,6 +12,8 @@ ms.keywords: '*LPSHARE_INFO_1501, *PSHARE_INFO_1501, LPSHARE_INFO_1501, LPSHARE_
 ms.topic: struct
 f1_keywords:
 - lmshare/SHARE_INFO_1501
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

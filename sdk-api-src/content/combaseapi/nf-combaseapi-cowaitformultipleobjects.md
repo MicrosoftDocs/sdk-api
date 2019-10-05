@@ -12,6 +12,8 @@ ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], 
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoWaitForMultipleObjects"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP struct
 ms.topic: struct
 f1_keywords:
 - vss/VSS_SNAPSHOT_PROP
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

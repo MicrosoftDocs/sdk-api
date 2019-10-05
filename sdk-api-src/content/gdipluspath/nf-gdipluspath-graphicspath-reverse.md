@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],Reverse method, GraphicsPath.Reverse, Gra
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.Reverse"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

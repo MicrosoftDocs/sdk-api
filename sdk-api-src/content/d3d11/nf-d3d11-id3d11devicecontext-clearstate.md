@@ -12,6 +12,8 @@ ms.keywords: ClearState, ClearState method [Direct3D 11], ClearState method [Dir
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.ClearState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

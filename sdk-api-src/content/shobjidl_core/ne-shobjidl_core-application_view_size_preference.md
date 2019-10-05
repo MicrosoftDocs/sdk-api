@@ -12,6 +12,8 @@ ms.keywords: APPLICATION_VIEW_SIZE_PREFERENCE, APPLICATION_VIEW_SIZE_PREFERENCE 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

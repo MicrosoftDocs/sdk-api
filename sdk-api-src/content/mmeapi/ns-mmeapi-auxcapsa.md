@@ -12,6 +12,8 @@ ms.keywords: "*LPAUXCAPSA, *NPAUXCAPSA, *PAUXCAPSA, AUXCAPS, AUXCAPS structure [
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/AUXCAPS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

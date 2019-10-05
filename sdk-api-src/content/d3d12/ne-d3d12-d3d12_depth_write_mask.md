@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEPTH_WRITE_MASK, D3D12_DEPTH_WRITE_MASK enumeration, D3D12_D
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DEPTH_WRITE_MASK"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountOutgoingQueue, IFaxAccountOutgoingQueue interface [Fax S
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxAccountOutgoingQueue"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

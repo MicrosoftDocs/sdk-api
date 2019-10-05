@@ -12,6 +12,8 @@ ms.keywords: "*PKERB_PROFILE_BUFFER_TYPE, KERB_PROFILE_BUFFER_TYPE, KERB_PROFILE
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/KERB_PROFILE_BUFFER_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

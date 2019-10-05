@@ -12,6 +12,8 @@ ms.keywords: InvokePattern_Invoke, InvokePattern_Invoke function [Windows Access
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/InvokePattern_Invoke"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

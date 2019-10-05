@@ -12,6 +12,8 @@ ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession2.ApplicationFilter"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

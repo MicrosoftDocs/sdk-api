@@ -12,6 +12,8 @@ ms.keywords: ERROR_ADVISE_RESULT, ERROR_ADVISE_RESULT enumeration [Picture Acqui
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/ERROR_ADVISE_RESULT"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

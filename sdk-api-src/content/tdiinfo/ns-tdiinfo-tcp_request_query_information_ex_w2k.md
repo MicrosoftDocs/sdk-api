@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_REQUEST_QUERY_INFORMATION_EX, *PTCP_REQUEST_QUERY_INFORMATIO
 ms.topic: struct
 f1_keywords: 
  - "tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX"
+dev_langs:
+ - c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows

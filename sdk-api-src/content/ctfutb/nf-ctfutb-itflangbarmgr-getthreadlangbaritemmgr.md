@@ -12,6 +12,8 @@ ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Servi
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarMgr.GetThreadLangBarItemMgr"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Remote Management], Delete method [W
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Delete"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

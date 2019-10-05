@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP
 ms.topic: struct
 f1_keywords:
 - http/HTTP_VERSION
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

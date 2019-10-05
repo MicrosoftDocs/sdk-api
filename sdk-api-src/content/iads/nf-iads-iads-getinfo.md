@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [ADSI], GetInfo method [ADSI],IADs interfac
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.GetInfo"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

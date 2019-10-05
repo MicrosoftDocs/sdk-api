@@ -12,6 +12,8 @@ ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG,
 ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateContext
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

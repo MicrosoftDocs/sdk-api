@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolum
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamVolume"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

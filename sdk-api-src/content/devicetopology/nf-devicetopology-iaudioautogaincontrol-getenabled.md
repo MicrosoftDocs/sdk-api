@@ -12,6 +12,8 @@ ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioAutoGainControl.GetEnabled"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

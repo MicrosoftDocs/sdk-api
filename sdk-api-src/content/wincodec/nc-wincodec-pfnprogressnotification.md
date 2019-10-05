@@ -12,6 +12,8 @@ ms.keywords: PFNProgressNotification, PFNProgressNotification callback, Progress
 ms.topic: callback
 f1_keywords: 
  - "wincodec/ProgressNotificationCallback"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

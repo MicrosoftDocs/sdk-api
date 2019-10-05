@@ -12,6 +12,8 @@ ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Control
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVITEMINDEX"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

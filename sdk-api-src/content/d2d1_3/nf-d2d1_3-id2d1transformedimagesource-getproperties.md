@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [Direct2D], GetProperties metho
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1TransformedImageSource.GetProperties"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

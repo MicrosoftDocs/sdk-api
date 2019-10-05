@@ -12,6 +12,8 @@ ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IUnknown_QueryService"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

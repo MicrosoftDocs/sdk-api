@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Next method, IE
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingPublicConnection.Next"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

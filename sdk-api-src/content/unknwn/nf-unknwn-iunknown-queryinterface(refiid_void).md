@@ -12,6 +12,8 @@ ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInter
 ms.topic: method
 f1_keywords: 
  - "unknwn/IUnknown.QueryInterface"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

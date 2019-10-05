@@ -12,6 +12,8 @@ ms.keywords: 04209b19-79e0-1e86-73f2-4225b9102296, IDirect3DResource9 interface 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DResource9.SetPriority"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

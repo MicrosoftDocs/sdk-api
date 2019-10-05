@@ -12,6 +12,8 @@ ms.keywords: Disconnected, Disconnected method [Remote Desktop Services], Discon
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSPlugin.Disconnected"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

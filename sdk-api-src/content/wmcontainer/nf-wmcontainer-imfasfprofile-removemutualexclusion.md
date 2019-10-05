@@ -12,6 +12,8 @@ ms.keywords: IMFASFProfile interface [Media Foundation],RemoveMutualExclusion me
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.RemoveMutualExclusion"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

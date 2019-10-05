@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneSetGain"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

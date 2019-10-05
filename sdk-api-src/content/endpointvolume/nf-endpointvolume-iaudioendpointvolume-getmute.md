@@ -12,6 +12,8 @@ ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.GetMute"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

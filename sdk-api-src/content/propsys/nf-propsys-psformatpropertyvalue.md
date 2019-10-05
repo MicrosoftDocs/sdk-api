@@ -12,6 +12,8 @@ ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Prop
 ms.topic: function
 f1_keywords: 
  - "propsys/PSFormatPropertyValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXDSCodec interface [Microsoft TV Technologies],put_CCSubstreamServ
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodec.put_CCSubstreamService"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MapViewOfFileNuma2, MapViewOfFileNuma2 function, base.mapviewoffile
 ms.topic: function
 f1_keywords: 
  - "memoryapi/MapViewOfFileNuma2"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

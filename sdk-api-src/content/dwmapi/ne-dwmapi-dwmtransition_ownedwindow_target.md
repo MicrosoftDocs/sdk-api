@@ -12,6 +12,8 @@ ms.keywords: DWMTRANSITION_OWNEDWINDOW_NULL, DWMTRANSITION_OWNEDWINDOW_REPOSITIO
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

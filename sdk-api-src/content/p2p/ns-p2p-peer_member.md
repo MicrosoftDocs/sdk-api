@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_MEMBER, PEER_MEMBER, PEER_MEMBER structure [Peer Networking
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_MEMBER"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

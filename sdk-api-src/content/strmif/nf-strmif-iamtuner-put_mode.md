@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode,
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.put_Mode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

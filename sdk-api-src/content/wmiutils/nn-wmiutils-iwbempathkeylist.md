@@ -12,6 +12,8 @@ ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management In
 ms.topic: interface
 f1_keywords: 
  - "wmiutils/IWbemPathKeyList"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: D3D12_DRED_FLAGS, D3D12_DRED_FLAGS enumeration, D3D12_DRED_FLAG_NON
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DRED_FLAGS"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

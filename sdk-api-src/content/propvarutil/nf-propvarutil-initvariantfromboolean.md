@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromBoolean, InitVariantFromBoolean function [Windows Pr
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromBoolean"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

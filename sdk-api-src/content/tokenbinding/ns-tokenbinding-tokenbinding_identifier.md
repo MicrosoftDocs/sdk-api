@@ -12,6 +12,8 @@ ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Securit
 ms.topic: struct
 f1_keywords: 
  - "tokenbinding/TOKENBINDING_IDENTIFIER"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

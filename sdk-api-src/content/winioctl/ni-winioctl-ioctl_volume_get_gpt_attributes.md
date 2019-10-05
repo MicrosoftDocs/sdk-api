@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VOLUME_GET_GPT_ATTRIBUTES, IOCTL_VOLUME_GET_GPT_ATTRIBUTES co
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

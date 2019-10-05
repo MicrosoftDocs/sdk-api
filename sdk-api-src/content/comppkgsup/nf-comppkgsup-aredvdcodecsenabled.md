@@ -12,6 +12,8 @@ ms.keywords: AreDvdCodecsEnabled, AreDvdCodecsEnabled function [Windows API], co
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/AreDvdCodecsEnabled"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

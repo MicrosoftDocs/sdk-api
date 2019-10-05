@@ -12,6 +12,8 @@ ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEn
 ms.topic: function
 f1_keywords: 
  - "ras/RasDeleteSubEntry"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

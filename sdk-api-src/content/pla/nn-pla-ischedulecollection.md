@@ -12,6 +12,8 @@ ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], ISchedule
 ms.topic: interface
 f1_keywords: 
  - "pla/IScheduleCollection"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

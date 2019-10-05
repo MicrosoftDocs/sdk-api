@@ -12,6 +12,8 @@ ms.keywords: '*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_IS
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_DIST_POINT_NAME
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

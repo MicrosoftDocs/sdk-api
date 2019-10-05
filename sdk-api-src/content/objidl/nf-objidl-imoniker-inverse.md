@@ -12,6 +12,8 @@ ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.Inverse"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

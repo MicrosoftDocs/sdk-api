@@ -12,6 +12,8 @@ ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget me
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbGlobalStore.QueryTarget"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

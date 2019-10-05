@@ -12,6 +12,8 @@ ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _search_PROXY_INFO, sear
 ms.topic: struct
 f1_keywords:
 - searchapi/PROXY_INFO
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

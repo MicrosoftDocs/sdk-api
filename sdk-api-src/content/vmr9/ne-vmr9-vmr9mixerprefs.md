@@ -12,6 +12,8 @@ ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref
 ms.topic: enum
 f1_keywords: 
  - "vmr9/VMR9MixerPrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

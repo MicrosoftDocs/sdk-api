@@ -12,6 +12,8 @@ ms.keywords: ITextDocument2 interface [Windows Controls],Update method, ITextDoc
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.Update"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

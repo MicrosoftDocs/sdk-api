@@ -12,6 +12,8 @@ ms.keywords: MFT_INPUT_STREAM_DOES_NOT_ADDREF, MFT_INPUT_STREAM_FIXED_SAMPLE_SIZ
 ms.topic: enum
 f1_keywords:
 - mftransform/_MFT_INPUT_STREAM_INFO_FLAGS
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

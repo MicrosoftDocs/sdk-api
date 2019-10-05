@@ -12,6 +12,8 @@ ms.keywords: ID2D1VertexBuffer interface [Direct2D],Unmap method, ID2D1VertexBuf
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1VertexBuffer.Unmap"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

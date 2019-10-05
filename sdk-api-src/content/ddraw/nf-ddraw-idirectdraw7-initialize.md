@@ -12,6 +12,8 @@ ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.Initialize"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

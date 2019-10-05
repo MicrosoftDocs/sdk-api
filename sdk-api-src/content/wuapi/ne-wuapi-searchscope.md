@@ -12,6 +12,8 @@ ms.keywords: SearchScope, SearchScope , SearchScope enumeration [Windows Update 
 ms.topic: enum
 f1_keywords: 
  - "wuapi/SearchScope"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

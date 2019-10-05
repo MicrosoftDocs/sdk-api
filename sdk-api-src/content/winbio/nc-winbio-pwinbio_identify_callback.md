@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback, PWIN
 ms.topic: callback
 f1_keywords:
 - winbio/PWINBIO_IDENTIFY_CALLBACK
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

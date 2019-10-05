@@ -12,6 +12,8 @@ ms.keywords: 31037b75-9fa5-48e0-a58c-a451b445147f, GetTime, GetTime method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.GetTime"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

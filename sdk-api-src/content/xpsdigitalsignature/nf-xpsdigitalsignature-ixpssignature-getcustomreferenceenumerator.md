@@ -12,6 +12,8 @@ ms.keywords: GetCustomReferenceEnumerator, GetCustomReferenceEnumerator method [
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignature.GetCustomReferenceEnumerator"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure po
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_GSS_INFO"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

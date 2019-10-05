@@ -12,6 +12,8 @@ ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TR
 ms.topic: callback
 f1_keywords:
 - routprot/MibGetTrapInfo
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "winuser/SetWindowContextHelpId"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

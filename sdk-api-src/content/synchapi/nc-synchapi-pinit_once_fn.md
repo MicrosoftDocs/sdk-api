@@ -12,6 +12,8 @@ ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback funct
 ms.topic: callback
 f1_keywords: 
  - "synchapi/PINIT_ONCE_FN"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

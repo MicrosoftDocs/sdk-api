@@ -12,6 +12,8 @@ ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Co
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_SetHotDivider"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

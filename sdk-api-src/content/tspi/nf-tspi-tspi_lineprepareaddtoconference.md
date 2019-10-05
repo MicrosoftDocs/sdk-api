@@ -12,6 +12,8 @@ ms.keywords: TSPI_linePrepareAddToConference, TSPI_linePrepareAddToConference fu
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_linePrepareAddToConference"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

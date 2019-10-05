@@ -12,6 +12,8 @@ ms.keywords: DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE, DMO_OUTPUT_DATA_BUFFERF_SYNCPOI
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_OUTPUT_DATA_BUFFER_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

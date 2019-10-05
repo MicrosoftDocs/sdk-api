@@ -12,6 +12,8 @@ ms.keywords: GetTrackKind, GetTrackKind method [Media Foundation], GetTrackKind 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetTrackKind"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

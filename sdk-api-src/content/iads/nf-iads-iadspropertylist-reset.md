@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyList interface [ADSI],Reset method, IADsPropertyList.Re
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyList.Reset"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

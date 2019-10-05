@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetName"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

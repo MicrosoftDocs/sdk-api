@@ -14,6 +14,8 @@ d3d12/D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d12/D3D12_FEATURE_SHADER_MODE
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_FEATURE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

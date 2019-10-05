@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_modrdn2_s, ldap.ldap__modrdn2__s, ldap.ldap_modrdn2_s, 
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_modrdn2_s"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

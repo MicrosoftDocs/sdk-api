@@ -12,6 +12,8 @@ ms.keywords: GETTEXTLENGTHEX, GETTEXTLENGTHEX structure [Windows Controls], GTL_
 ms.topic: struct
 f1_keywords: 
  - "richedit/GETTEXTLENGTHEX"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

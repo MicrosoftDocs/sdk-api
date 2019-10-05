@@ -12,6 +12,8 @@ ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindS
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/FindStringOrdinal"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

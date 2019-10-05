@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Serve
 ms.topic: interface
 f1_keywords: 
  - "wsbapp/IWsbApplicationAsync"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

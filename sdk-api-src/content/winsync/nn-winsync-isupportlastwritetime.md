@@ -12,6 +12,8 @@ ms.keywords: ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Syn
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISupportLastWriteTime"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

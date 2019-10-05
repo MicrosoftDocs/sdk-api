@@ -12,6 +12,8 @@ ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxRoutingMethod.DeviceName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

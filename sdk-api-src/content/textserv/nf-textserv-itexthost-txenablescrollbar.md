@@ -12,6 +12,8 @@ ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_L
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxEnableScrollBar"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

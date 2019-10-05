@@ -12,6 +12,8 @@ ms.keywords: GetRightIndent, GetRightIndent method [Windows Controls], GetRightI
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetRightIndent"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

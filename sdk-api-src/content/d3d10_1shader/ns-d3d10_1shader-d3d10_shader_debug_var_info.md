@@ -12,6 +12,8 @@ ms.keywords: 0c0984a6-cb8d-ef1f-dfe5-bbc4ed81714f, D3D10_SHADER_DEBUG_VAR_INFO, 
 ms.topic: struct
 f1_keywords:
 - d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

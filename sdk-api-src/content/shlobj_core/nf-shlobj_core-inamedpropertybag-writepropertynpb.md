@@ -12,6 +12,8 @@ ms.keywords: INamedPropertyBag interface [Windows Shell],WritePropertyNPB method
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/INamedPropertyBag.WritePropertyNPB"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

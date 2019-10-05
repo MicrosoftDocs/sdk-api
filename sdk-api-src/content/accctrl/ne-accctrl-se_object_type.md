@@ -12,6 +12,8 @@ ms.keywords: SE_DS_OBJECT, SE_DS_OBJECT_ALL, SE_FILE_OBJECT, SE_KERNEL_OBJECT, S
 ms.topic: enum
 f1_keywords: 
  - "accctrl/SE_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

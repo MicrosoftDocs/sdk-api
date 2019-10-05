@@ -12,6 +12,8 @@ ms.keywords: GetProviderPropertyStore, GetProviderPropertyStore method [Security
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityProvider.GetProviderPropertyStore"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

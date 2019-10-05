@@ -12,6 +12,8 @@ ms.keywords: AzBizRuleContext object [Security],GetParameter method, GetParamete
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleContext.GetParameter"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

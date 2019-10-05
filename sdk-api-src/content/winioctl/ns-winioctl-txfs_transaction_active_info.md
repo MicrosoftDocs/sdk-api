@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO, PTX
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_TRANSACTION_ACTIVE_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

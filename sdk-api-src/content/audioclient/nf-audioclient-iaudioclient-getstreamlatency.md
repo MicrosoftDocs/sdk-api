@@ -12,6 +12,8 @@ ms.keywords: GetStreamLatency, GetStreamLatency method [Core Audio], GetStreamLa
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.GetStreamLatency"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

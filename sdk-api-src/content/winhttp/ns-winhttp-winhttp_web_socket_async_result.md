@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_WEB_SOCKET_ASYNC_RESULT, WINHTTP_WEB_SOCKET_ASYNC_RESULT st
 ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

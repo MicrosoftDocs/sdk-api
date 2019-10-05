@@ -12,6 +12,8 @@ ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSin
 ms.topic: function
 f1_keywords: 
  - "winternl/NtWaitForSingleObject"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

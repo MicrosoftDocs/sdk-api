@@ -12,6 +12,8 @@ ms.keywords: CF_HYDRATION_POLICY_ALWAYS_FULL, CF_HYDRATION_POLICY_FULL, CF_HYDRA
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_HYDRATION_POLICY_PRIMARY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

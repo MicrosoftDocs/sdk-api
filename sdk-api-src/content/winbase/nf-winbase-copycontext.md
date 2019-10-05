@@ -12,6 +12,8 @@ ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyCo
 ms.topic: function
 f1_keywords:
 - winbase/CopyContext
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

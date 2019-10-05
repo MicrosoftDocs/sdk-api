@@ -12,6 +12,8 @@ ms.keywords: PathGradientBrush class [GDI+],SetFocusScales method, PathGradientB
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.SetFocusScales"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleAdviseHolder i
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleAdviseHolder.Advise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PCL_DISPLAYNUMCOLUMNS, PCL_DISPLAYNUMROWS, PCL_GENERICPHONE, PCL_HA
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONECAPS_LONG"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

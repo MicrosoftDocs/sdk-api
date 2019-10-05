@@ -12,6 +12,8 @@ ms.keywords: Enter, Enter method [Direct3D 10], Enter method [Direct3D 10],ID3D1
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Multithread.Enter"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

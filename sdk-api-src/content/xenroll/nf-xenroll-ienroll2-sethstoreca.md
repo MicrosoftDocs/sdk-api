@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],SetHStoreCA method, IEnroll2.SetHStor
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.SetHStoreCA"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

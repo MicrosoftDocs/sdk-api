@@ -12,6 +12,8 @@ ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofilehead
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlPcToFileHeader"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

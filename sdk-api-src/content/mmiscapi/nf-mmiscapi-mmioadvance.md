@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioAdvance, mmioAdvance, mmioAdvance function [Windows Mul
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioAdvance"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/ICAT.GetVersionNumber"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

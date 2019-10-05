@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextNotify interface [Media Foundation],Reset method, IMFTi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextNotify.Reset"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

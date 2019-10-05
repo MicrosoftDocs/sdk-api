@@ -12,6 +12,8 @@ ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNam
 ms.topic: function
 f1_keywords: 
  - "secext/TranslateName"
+dev_langs:
+ - c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink inte
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsAdviseSink"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

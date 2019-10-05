@@ -12,6 +12,8 @@ ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32t
 ms.topic: macro
 f1_keywords: 
  - "winnt/UInt32x32To64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

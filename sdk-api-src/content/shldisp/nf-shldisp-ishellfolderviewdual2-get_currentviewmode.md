@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual2 interface [Windows Shell],get_CurrentViewMode
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual2.get_CurrentViewMode"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8782333c-796c-4401-9575-c78e95887015, GetProgress, GetProgress meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSaveJob.GetProgress"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

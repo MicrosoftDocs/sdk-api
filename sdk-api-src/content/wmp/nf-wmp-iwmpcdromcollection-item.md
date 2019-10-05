@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromCollection interface [Windows Media Player],item method, I
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromCollection.item"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

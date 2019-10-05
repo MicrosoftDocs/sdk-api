@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorGetIntWPtr, XMVectorGetIntWPtr, XMVectorGetInt
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorGetIntWPtr"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

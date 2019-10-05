@@ -12,6 +12,8 @@ ms.keywords: CreateBoolean, CreateBoolean method [Windows Runtime], CreateBoolea
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateBoolean"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

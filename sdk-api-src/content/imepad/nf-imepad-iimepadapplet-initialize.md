@@ -12,6 +12,8 @@ ms.keywords: IImePadApplet interface [Internationalization for Windows Applicati
 ms.topic: method
 f1_keywords: 
  - "imepad/IImePadApplet.Initialize"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

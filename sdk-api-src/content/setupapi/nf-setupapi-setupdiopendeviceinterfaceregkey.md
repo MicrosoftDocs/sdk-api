@@ -12,6 +12,8 @@ ms.keywords: SetupDiOpenDeviceInterfaceRegKey, SetupDiOpenDeviceInterfaceRegKey 
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInterfaceRegKey
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Open_Device_Interface_Key

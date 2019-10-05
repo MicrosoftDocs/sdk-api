@@ -12,6 +12,8 @@ ms.keywords: ISecurityIdentityColl interface [COM+],get__NewEnum method, ISecuri
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityIdentityColl.get__NewEnum"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

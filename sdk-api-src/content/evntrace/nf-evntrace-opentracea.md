@@ -12,6 +12,8 @@ ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_o
 ms.topic: function
 f1_keywords: 
  - "evntrace/OpenTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

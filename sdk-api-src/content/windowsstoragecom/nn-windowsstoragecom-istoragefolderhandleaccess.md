@@ -12,6 +12,8 @@ ms.keywords: IStorageFolderHandleAccess, IStorageFolderHandleAccess interface [W
 ms.topic: interface
 f1_keywords: 
  - "windowsstoragecom/IStorageFolderHandleAccess"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

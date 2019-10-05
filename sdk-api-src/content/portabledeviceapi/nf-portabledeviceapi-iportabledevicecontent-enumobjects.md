@@ -12,6 +12,8 @@ ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], Enu
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceContent.EnumObjects"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

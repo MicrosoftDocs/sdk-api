@@ -12,6 +12,8 @@ ms.keywords: Description property [PLA], Description property [PLA],IDataCollect
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.Description"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

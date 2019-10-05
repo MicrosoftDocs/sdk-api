@@ -12,6 +12,8 @@ ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PN
 ms.topic: struct
 f1_keywords: 
  - "shellapi/NC_ADDRESS"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

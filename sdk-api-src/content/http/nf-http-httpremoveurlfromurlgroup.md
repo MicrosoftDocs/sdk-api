@@ -12,6 +12,8 @@ ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlF
 ms.topic: function
 f1_keywords: 
  - "http/HttpRemoveUrlFromUrlGroup"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

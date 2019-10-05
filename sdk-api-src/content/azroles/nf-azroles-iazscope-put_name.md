@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],Name property, IAzScope interface [Securi
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.Name"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACFinal 
 ms.topic: method
 f1_keywords: 
  - "scclient/CSecureChannelClient.MACFinal"
+dev_langs:
+ - c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

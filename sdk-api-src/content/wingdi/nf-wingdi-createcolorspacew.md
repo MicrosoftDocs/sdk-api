@@ -12,6 +12,8 @@ ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System],
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateColorSpace"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

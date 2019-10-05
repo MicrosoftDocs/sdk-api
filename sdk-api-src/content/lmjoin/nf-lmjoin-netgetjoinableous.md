@@ -12,6 +12,8 @@ ms.keywords: NetGetJoinableOUs, NetGetJoinableOUs function [Network Management],
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetGetJoinableOUs"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_DEVICE_STATUSA, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structu
 ms.topic: struct
 f1_keywords:
 - winfax/FAX_DEVICE_STATUS
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding proper
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.EnableT61DNEncoding"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

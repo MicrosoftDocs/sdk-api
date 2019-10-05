@@ -12,6 +12,8 @@ ms.keywords: GET_NCHITTEST_WPARAM, GET_NCHITTEST_WPARAM macro [Keyboard and Mous
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_NCHITTEST_WPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

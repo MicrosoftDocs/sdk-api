@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12LibraryReflection int
 ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12LibraryReflection.GetDesc
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMDMOperation2 interface [windows Media Device Manager],SetObjectA
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation2.SetObjectAttributes2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

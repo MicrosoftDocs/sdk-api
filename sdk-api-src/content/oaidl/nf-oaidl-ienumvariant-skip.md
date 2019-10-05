@@ -12,6 +12,8 @@ ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip,
 ms.topic: method
 f1_keywords: 
  - "oaidl/IEnumVARIANT.Skip"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

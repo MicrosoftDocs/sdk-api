@@ -12,6 +12,8 @@ ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_CTRL_ADD_ATTR_CERT, CMSG_CTRL
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgControl
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

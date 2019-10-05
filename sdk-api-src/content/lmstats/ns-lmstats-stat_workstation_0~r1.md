@@ -6,6 +6,8 @@ ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 ms.topic: language-reference
 f1_keywords: 
  - "lmstats/_STAT_WORKSTATION_0"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

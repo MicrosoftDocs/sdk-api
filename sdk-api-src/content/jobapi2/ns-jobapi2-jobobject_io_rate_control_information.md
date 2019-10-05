@@ -12,6 +12,8 @@ ms.keywords: JOBOBJECT_IO_RATE_CONTROL_INFORMATION, JOBOBJECT_IO_RATE_CONTROL_IN
 ms.topic: struct
 f1_keywords: 
  - "jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows

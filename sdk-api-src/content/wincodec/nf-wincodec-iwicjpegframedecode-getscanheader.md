@@ -12,6 +12,8 @@ ms.keywords: GetScanHeader, GetScanHeader method [Windows Imaging Component], Ge
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICJpegFrameDecode.GetScanHeader"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

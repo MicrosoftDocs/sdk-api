@@ -12,6 +12,8 @@ ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetSi
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemEventSink.SetSinkSecurity"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

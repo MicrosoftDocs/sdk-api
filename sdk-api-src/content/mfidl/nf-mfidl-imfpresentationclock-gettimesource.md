@@ -12,6 +12,8 @@ ms.keywords: GetTimeSource, GetTimeSource method [Media Foundation], GetTimeSour
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.GetTimeSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

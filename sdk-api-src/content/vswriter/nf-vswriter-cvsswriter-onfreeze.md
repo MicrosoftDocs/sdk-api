@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnFreeze method, CVssWriter.OnFreeze, CV
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnFreeze"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

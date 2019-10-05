@@ -12,6 +12,8 @@ ms.keywords: FsrmStorageModuleCaps, FsrmStorageModuleCaps enumeration [File Serv
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmStorageModuleCaps"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_FEATURE, DML_FEATURE enumeration, DML_FEATURE_TENSOR_DATA_TYPE_
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_FEATURE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

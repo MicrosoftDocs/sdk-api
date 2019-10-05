@@ -12,6 +12,8 @@ ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProvider
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Item"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

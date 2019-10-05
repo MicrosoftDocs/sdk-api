@@ -12,6 +12,8 @@ ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [I
 ms.topic: interface
 f1_keywords: 
  - "spellcheck/IUserDictionariesRegistrar"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

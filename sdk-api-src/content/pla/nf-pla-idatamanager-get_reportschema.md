@@ -12,6 +12,8 @@ ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.Re
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.ReportSchema"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

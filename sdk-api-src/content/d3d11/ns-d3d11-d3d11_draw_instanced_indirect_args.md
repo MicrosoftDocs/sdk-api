@@ -12,6 +12,8 @@ ms.keywords: D3D11_DRAW_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INSTANCED_INDIRECT_A
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

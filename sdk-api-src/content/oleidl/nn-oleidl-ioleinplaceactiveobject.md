@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], I
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleInPlaceActiveObject"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

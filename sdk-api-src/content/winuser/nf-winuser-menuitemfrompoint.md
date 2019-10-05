@@ -12,6 +12,8 @@ ms.keywords: MenuItemFromPoint, MenuItemFromPoint function [Menus and Other Reso
 ms.topic: function
 f1_keywords: 
  - "winuser/MenuItemFromPoint"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

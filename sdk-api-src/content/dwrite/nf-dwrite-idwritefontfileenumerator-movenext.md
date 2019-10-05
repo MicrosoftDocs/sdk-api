@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method,
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFileEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

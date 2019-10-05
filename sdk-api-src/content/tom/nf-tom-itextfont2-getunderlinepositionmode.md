@@ -12,6 +12,8 @@ ms.keywords: GetUnderlinePositionMode, GetUnderlinePositionMode method [Windows 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetUnderlinePositionMode"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

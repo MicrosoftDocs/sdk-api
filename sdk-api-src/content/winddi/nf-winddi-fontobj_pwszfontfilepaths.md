@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_pwszFontFilePaths, FONTOBJ_pwszFontFilePaths function [Disp
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pwszFontFilePaths
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

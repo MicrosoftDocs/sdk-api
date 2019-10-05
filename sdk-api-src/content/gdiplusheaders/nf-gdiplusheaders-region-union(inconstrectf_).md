@@ -12,6 +12,8 @@ ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN con
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Union"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

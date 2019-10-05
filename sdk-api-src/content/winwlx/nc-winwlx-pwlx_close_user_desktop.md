@@ -12,6 +12,8 @@ ms.keywords: PWLX_CLOSE_USER_DESKTOP, PWLX_CLOSE_USER_DESKTOP callback, WlxClose
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxCloseUserDesktop
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

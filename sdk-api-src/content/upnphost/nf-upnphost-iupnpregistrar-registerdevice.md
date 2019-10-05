@@ -12,6 +12,8 @@ ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDevice method, IUPnPRe
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRegistrar.RegisterDevice"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

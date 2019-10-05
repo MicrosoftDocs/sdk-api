@@ -12,6 +12,8 @@ ms.keywords: ICEI_AllEvents, ICEI_CursorButtonDown, ICEI_CursorButtonUp, ICEI_Cu
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkCollectorEventInterest"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

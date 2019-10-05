@@ -12,6 +12,8 @@ ms.keywords: SICHINTF, SICHINTF enumeration [Windows Shell], SICHINT_ALLFIELDS, 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/SICHINTF"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

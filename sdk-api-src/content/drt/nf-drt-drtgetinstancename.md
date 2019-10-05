@@ -12,6 +12,8 @@ ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routin
 ms.topic: function
 f1_keywords: 
  - "drt/DrtGetInstanceName"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

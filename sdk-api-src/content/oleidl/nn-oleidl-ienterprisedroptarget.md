@@ -12,6 +12,8 @@ ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnte
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IEnterpriseDropTarget"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

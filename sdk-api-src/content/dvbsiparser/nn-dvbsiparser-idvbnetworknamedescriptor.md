@@ -12,6 +12,8 @@ ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbNetworkNameDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

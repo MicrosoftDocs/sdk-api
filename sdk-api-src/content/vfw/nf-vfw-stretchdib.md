@@ -12,6 +12,8 @@ ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_Stretc
 ms.topic: function
 f1_keywords: 
  - "vfw/StretchDIB"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

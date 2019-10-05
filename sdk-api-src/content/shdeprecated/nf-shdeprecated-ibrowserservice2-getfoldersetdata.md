@@ -12,6 +12,8 @@ ms.keywords: GetFolderSetData, GetFolderSetData method [Windows Shell], GetFolde
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.GetFolderSetData"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

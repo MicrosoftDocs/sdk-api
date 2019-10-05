@@ -12,6 +12,8 @@ ms.keywords: "*PLOCALMANAGEDAPPLICATION, LOCALMANAGEDAPPLICATION, LOCALMANAGEDAP
 ms.topic: struct
 f1_keywords: 
  - "appmgmt/LOCALMANAGEDAPPLICATION"
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

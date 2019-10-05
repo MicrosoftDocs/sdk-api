@@ -12,6 +12,8 @@ ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],get_VideoStand
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogLocator.get_VideoStandard"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

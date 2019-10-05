@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Media Foundation], Commit method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocParser.Commit"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

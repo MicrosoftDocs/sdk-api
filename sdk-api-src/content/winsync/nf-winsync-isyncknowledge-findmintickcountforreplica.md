@@ -12,6 +12,8 @@ ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Wind
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.FindMinTickCountForReplica"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

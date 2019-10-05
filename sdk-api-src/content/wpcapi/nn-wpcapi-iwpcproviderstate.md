@@ -12,6 +12,8 @@ ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState i
 ms.topic: interface
 f1_keywords: 
  - "wpcapi/IWPCProviderState"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

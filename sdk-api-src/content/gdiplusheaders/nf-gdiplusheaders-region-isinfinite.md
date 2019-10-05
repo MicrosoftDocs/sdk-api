@@ -12,6 +12,8 @@ ms.keywords: IsInfinite, IsInfinite method [GDI+], IsInfinite method [GDI+],Regi
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.IsInfinite"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

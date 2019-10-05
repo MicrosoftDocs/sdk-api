@@ -12,6 +12,8 @@ ms.keywords: FindUserName, FindUserName method [Files], FindUserName method [Fil
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.FindUserName"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

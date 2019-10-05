@@ -12,6 +12,8 @@ ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudat
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpSetPduData"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

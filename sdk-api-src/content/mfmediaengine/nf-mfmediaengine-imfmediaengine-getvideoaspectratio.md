@@ -12,6 +12,8 @@ ms.keywords: GetVideoAspectRatio, GetVideoAspectRatio method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetVideoAspectRatio"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER st
 ms.topic: struct
 f1_keywords: 
  - "wingdi/ENHMETAHEADER"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

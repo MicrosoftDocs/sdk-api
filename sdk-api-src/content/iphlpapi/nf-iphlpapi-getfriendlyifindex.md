@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyIfIndex, GetFriendlyIfIndex function [IP Helper], _iphlp
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetFriendlyIfIndex
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRV_CONFIGURE, DRV_INSTALL, DRV_QUERYCONFIGURE, DRV_REMOVE, ISendDr
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/SendDriverMessage"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPPTP_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING
 ms.topic: struct
 f1_keywords:
 - mprapi/PPTP_CONFIG_PARAMS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_STATUS_INFO, MBN_SMS_STATUS_INFO structure [Microsoft Broad
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_SMS_STATUS_INFO"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

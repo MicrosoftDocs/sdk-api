@@ -12,6 +12,8 @@ ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription
 ms.topic: function
 f1_keywords:
 - recapis/GetPreferredPacketDescription
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

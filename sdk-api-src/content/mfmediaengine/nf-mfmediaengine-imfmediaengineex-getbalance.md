@@ -12,6 +12,8 @@ ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetBalance"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

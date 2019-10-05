@@ -12,6 +12,8 @@ ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_HAlpha metho
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTLocator.put_HAlpha"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

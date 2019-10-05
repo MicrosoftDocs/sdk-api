@@ -12,6 +12,8 @@ ms.keywords: 05936a66-ed39-4645-adfb-5816b9981771, MFCreateASFSplitter, MFCreate
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFSplitter"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPVARIANT, *LPVARIANTARG, LPVARIANT, LPVARIANT structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "oaidl/VARIANT"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

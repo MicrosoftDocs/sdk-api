@@ -12,6 +12,8 @@ ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.i
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/IS_FLOWSPEC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

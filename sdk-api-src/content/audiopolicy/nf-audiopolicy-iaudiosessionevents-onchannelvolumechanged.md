@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEvents interface [Core Audio],OnChannelVolumeChanged m
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionEvents.OnChannelVolumeChanged"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

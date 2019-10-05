@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaTemplateImported interface [File Server Resource Manager]
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaTemplateImported.OverwriteOnCommit"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

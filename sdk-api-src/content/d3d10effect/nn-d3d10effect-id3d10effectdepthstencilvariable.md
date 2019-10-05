@@ -12,6 +12,8 @@ ms.keywords: 896bf0ca-5516-5a5a-b85d-a24c6e618bc1, ID3D10EffectDepthStencilVaria
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectDepthStencilVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

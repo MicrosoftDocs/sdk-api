@@ -12,6 +12,8 @@ ms.keywords: MI_Session_GetClass, MI_Session_GetClass function [Windows Manageme
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_GetClass
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

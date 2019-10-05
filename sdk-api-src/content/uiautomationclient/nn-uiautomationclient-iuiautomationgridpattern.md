@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridPattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

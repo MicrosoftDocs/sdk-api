@@ -12,6 +12,8 @@ ms.keywords: AttestationEncryptionCertificate property [Security], AttestationEn
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

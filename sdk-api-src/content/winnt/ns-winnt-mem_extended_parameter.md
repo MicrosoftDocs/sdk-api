@@ -12,6 +12,8 @@ ms.keywords: "*PMEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PAR
 ms.topic: struct
 f1_keywords: 
  - "winnt/MEM_EXTENDED_PARAMETER"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

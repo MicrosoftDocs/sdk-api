@@ -12,6 +12,8 @@ ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interf
 ms.topic: method
 f1_keywords:
 - vds/IVdsPack.AddDisk
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, ID
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.SetFontWeight"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

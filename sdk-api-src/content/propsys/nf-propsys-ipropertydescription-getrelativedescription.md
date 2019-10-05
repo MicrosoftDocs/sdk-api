@@ -12,6 +12,8 @@ ms.keywords: GetRelativeDescription, GetRelativeDescription method [Windows Prop
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetRelativeDescription"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

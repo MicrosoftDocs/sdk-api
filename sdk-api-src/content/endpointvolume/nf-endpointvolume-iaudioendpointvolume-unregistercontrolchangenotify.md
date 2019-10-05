@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolume interface [Core Audio],UnregisterControlChange
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.UnregisterControlChangeNotify"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

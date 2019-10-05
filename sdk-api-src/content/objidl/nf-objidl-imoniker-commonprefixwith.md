@@ -12,6 +12,8 @@ ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith m
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.CommonPrefixWith"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

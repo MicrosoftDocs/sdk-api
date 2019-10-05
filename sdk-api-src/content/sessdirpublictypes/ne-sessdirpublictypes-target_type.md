@@ -12,6 +12,8 @@ ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop
 ms.topic: enum
 f1_keywords: 
  - "sessdirpublictypes/TARGET_TYPE"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

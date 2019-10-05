@@ -12,6 +12,8 @@ ms.keywords: IFileSyncMergeHandler interface [Windows Shell],Merge method, IFile
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileSyncMergeHandler.Merge"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

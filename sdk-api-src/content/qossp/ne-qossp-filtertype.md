@@ -12,6 +12,8 @@ ms.keywords: FILTERSPECV4, FILTERSPECV4_GPI, FILTERSPECV6, FILTERSPECV6_FLOW, FI
 ms.topic: enum
 f1_keywords:
 - qossp/FilterType
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

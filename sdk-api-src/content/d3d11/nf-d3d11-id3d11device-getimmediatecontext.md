@@ -12,6 +12,8 @@ ms.keywords: 2f9e01b9-f7a8-4cdb-2811-bbd0a44df05f, GetImmediateContext, GetImmed
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.GetImmediateContext"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

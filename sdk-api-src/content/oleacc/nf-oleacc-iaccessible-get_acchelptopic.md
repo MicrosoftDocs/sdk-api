@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],get_accHelpTopic meth
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.get_accHelpTopic"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

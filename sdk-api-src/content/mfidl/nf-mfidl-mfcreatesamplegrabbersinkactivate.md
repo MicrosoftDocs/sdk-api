@@ -12,6 +12,8 @@ ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivat
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSampleGrabberSinkActivate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

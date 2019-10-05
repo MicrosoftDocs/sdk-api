@@ -12,6 +12,8 @@ ms.keywords: MFVideoRenderPrefs, MFVideoRenderPrefs enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "evr/MFVideoRenderPrefs"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

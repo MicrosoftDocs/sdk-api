@@ -12,6 +12,8 @@ ms.keywords: EnumObjectParam, EnumObjectParam method [COM], EnumObjectParam meth
 ms.topic: method
 f1_keywords: 
  - "objidl/IBindCtx.EnumObjectParam"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

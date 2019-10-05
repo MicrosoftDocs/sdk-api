@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableCurveChangeHandler2 interface [Windows Animatio
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariableCurveChangeHandler2.OnCurveChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

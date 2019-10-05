@@ -12,6 +12,8 @@ ms.keywords: ISCTE_EAS interface [Microsoft TV Technologies],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.Initialize"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

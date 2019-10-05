@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],IsServiceReady method, IVdsService.IsSe
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.IsServiceReady"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

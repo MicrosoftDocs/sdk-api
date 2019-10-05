@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MySt
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.MyStoreNameWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

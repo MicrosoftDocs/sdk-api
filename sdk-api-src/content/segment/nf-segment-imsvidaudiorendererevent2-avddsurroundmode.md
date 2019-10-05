@@ -12,6 +12,8 @@ ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2.AVDDSurroundMode"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

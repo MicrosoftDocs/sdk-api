@@ -12,6 +12,8 @@ ms.keywords: AzApplicationGroup object [Security],NonMembersName property, IAzAp
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.NonMembersName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

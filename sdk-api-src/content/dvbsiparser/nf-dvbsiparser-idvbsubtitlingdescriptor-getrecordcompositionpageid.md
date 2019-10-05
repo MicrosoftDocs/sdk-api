@@ -12,6 +12,8 @@ ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Micr
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSubtitlingDescriptor.GetRecordCompositionPageID"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFASF_INDEXER_FLAGS, MFASF_INDEXER_FLAGS enumeration [Media Foundat
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/MFASF_INDEXER_FLAGS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

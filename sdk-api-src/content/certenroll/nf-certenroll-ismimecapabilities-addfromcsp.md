@@ -12,6 +12,8 @@ ms.keywords: AddFromCsp, AddFromCsp method [Security], AddFromCsp method [Securi
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISmimeCapabilities.AddFromCsp"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

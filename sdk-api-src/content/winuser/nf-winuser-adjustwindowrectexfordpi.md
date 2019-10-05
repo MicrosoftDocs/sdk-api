@@ -12,6 +12,8 @@ ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High D
 ms.topic: function
 f1_keywords: 
  - "winuser/AdjustWindowRectExForDpi"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

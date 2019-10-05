@@ -12,6 +12,8 @@ ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_h
 ms.topic: function
 f1_keywords: 
  - "http/HttpCreateHttpHandle"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

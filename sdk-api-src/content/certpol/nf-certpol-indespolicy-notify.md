@@ -12,6 +12,8 @@ ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify,
 ms.topic: method
 f1_keywords: 
  - "certpol/INDESPolicy.Notify"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

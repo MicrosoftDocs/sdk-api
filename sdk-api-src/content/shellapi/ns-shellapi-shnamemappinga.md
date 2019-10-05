@@ -12,6 +12,8 @@ ms.keywords: '*LPSHNAMEMAPPINGA, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure poin
 ms.topic: struct
 f1_keywords:
 - shellapi/SHNAMEMAPPING
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

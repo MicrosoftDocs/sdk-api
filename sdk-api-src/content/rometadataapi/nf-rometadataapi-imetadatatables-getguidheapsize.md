@@ -12,6 +12,8 @@ ms.keywords: GetGuidHeapSize, GetGuidHeapSize method [Windows Runtime], GetGuidH
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetGuidHeapSize"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

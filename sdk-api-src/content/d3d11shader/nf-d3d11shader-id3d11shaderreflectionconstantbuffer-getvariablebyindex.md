@@ -12,6 +12,8 @@ ms.keywords: 45c0f056-8446-d61d-24b8-31ff2f2a92ff, GetVariableByIndex, GetVariab
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionConstantBuffer.GetVariableByIndex"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

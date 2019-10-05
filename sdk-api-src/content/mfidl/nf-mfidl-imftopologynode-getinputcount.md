@@ -12,6 +12,8 @@ ms.keywords: 84c079da-5de6-4c33-b0c7-5ffd017d5513, GetInputCount, GetInputCount 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetInputCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

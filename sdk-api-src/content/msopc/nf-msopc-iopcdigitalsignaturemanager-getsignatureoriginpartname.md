@@ -12,6 +12,8 @@ ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [Open
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcDigitalSignatureManager.GetSignatureOriginPartName"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GCL_CONVERSION, GCL_REVERSECONVERSION, GCL_REVERSE_LENGTH, ImmGetCo
 ms.topic: function
 f1_keywords: 
  - "imm/ImmGetConversionList"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],On
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfLanguageProfileNotifySink.OnLanguageChange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

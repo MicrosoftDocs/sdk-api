@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrControl interface [Windows Shell],StartHandlerSync method, 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.StartHandlerSync"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

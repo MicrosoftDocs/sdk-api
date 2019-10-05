@@ -12,6 +12,8 @@ ms.keywords: GetDataType, GetDataType method [Microsoft TV Technologies], GetDat
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_CDT.GetDataType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

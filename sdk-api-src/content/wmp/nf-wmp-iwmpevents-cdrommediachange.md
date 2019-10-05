@@ -12,6 +12,8 @@ ms.keywords: CdromMediaChange, CdromMediaChange method [Windows Media Player], C
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.CdromMediaChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

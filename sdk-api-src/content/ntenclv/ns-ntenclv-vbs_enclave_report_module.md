@@ -12,6 +12,8 @@ ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, bas
 ms.topic: struct
 f1_keywords: 
  - "ntenclv/VBS_ENCLAVE_REPORT_MODULE"
+dev_langs:
+ - c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

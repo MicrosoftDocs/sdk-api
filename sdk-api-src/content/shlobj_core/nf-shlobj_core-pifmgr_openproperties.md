@@ -12,6 +12,8 @@ ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/PifMgr_OpenProperties"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

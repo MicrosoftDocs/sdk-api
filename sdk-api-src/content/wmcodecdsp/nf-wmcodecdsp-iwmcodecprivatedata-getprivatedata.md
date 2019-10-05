@@ -12,6 +12,8 @@ ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivat
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecPrivateData.GetPrivateData"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

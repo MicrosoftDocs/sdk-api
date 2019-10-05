@@ -12,6 +12,8 @@ ms.keywords: GetMeteringData, GetMeteringData method [Core Audio], GetMeteringDa
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamMeter.GetMeteringData"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

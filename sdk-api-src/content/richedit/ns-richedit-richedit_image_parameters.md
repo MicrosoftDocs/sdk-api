@@ -12,6 +12,8 @@ ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Win
 ms.topic: struct
 f1_keywords: 
  - "richedit/RICHEDIT_IMAGE_PARAMETERS"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

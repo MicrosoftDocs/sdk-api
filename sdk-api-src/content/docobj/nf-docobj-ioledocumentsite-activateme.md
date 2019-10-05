@@ -12,6 +12,8 @@ ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDo
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentSite.ActivateMe"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,10 @@ ms.assetid: d5e35570-69a6-40a3-bfc6-a7c1e3d8b57d
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_FRAME_ARGUMENT
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_FRAME_ARGUMENT, D3D12_VIDEO_DECODE_FRAME_ARGUMENT, 
 req.header: d3d12video.h
 req.include-header:

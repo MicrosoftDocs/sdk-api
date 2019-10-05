@@ -12,6 +12,8 @@ ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGO
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/CATEGORY_INFO"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

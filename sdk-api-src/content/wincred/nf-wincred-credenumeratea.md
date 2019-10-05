@@ -12,6 +12,8 @@ ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate functi
 ms.topic: function
 f1_keywords: 
  - "wincred/CredEnumerate"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

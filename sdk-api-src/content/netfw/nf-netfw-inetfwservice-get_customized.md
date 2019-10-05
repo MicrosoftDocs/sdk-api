@@ -12,6 +12,8 @@ ms.keywords: Customized property [ICS/ICF], Customized property [ICS/ICF],INetFw
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwService.Customized"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp
 ms.topic: method
 f1_keywords: 
  - "amvideo/IQualProp.get_AvgFrameRate"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

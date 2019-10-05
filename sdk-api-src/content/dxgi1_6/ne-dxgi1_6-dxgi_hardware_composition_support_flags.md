@@ -12,6 +12,8 @@ ms.keywords: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS, DXGI_HARDWARE_COMPOSITION_
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, 
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.StartPreview"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

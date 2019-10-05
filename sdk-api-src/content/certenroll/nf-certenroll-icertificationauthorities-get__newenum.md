@@ -12,6 +12,8 @@ ms.keywords: ICertificationAuthorities interface [Security],_NewEnum property, I
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificationAuthorities._NewEnum"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

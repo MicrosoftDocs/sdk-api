@@ -12,6 +12,8 @@ ms.keywords: COMP_ELEM_ALL, COMP_ELEM_CHECKED, COMP_ELEM_CURITEMSTATE, COMP_ELEM
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.ModifyDesktopItem
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

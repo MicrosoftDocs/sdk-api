@@ -12,6 +12,8 @@ ms.keywords: GetViewProperty, GetViewProperty method [Windows Shell], GetViewPro
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.GetViewProperty
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],KeySpec property, IEnroll.KeySpec, IEn
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.KeySpec"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

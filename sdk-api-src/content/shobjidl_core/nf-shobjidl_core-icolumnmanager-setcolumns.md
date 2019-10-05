@@ -12,6 +12,8 @@ ms.keywords: IColumnManager interface [Windows Shell],SetColumns method, IColumn
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IColumnManager.SetColumns
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

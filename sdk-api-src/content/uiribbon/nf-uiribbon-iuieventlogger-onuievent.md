@@ -12,6 +12,8 @@ ms.keywords: IUIEventLogger interface [Windows Ribbon],OnUIEvent method, IUIEven
 ms.topic: method
 f1_keywords:
 - uiribbon/IUIEventLogger.OnUIEvent
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

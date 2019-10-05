@@ -12,6 +12,8 @@ ms.keywords: '*PENABLE_TRACE_PARAMETERS_V1, ENABLE_TRACE_PARAMETERS_V1, ENABLE_T
 ms.topic: struct
 f1_keywords:
 - evntrace/ENABLE_TRACE_PARAMETERS_V1
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

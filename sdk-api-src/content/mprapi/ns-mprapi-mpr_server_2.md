@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_SERVER_2, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DE
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_SERVER_2
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

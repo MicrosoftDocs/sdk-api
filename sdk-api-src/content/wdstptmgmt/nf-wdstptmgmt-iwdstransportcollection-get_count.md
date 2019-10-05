@@ -12,6 +12,8 @@ ms.keywords: Count property [Windows Deployment Services], Count property [Windo
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCollection.Count"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

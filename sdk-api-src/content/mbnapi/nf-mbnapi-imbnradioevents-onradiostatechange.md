@@ -12,6 +12,8 @@ ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioSta
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRadioEvents.OnRadioStateChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

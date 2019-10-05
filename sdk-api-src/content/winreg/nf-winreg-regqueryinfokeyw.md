@@ -12,6 +12,8 @@ ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQue
 ms.topic: function
 f1_keywords: 
  - "winreg/RegQueryInfoKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

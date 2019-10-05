@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.Clone"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

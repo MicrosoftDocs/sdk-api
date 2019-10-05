@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Au
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioCaptureClient.GetBuffer"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

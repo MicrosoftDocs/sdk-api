@@ -12,6 +12,8 @@ ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, ole
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarOr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

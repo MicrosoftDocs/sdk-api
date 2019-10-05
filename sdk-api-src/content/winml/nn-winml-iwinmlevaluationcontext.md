@@ -12,6 +12,8 @@ ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLE
 ms.topic: interface
 f1_keywords: 
  - "winml/IWinMLEvaluationContext"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

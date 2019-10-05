@@ -12,6 +12,8 @@ ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRS
 ms.topic: function
 f1_keywords: 
  - "srrestoreptapi/SRSetRestorePoint"
+dev_langs:
+ - c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows

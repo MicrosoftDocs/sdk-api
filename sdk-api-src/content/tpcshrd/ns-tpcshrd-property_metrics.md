@@ -12,6 +12,8 @@ ms.keywords: '*PPROPERTY_METRICS, PPROPERTY_METRICS, PPROPERTY_METRICS structure
 ms.topic: struct
 f1_keywords:
 - tpcshrd/PROPERTY_METRICS
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: 
 req.target-type: Windows

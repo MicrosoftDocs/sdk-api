@@ -12,6 +12,8 @@ ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.nd
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCreatePnrpIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

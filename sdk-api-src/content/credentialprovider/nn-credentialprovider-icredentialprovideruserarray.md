@@ -12,6 +12,8 @@ ms.keywords: ICredentialProviderUserArray, ICredentialProviderUserArray interfac
 ms.topic: interface
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUserArray"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method, Clear method,IWSDHttpMessageParameters interfa
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpMessageParameters.Clear"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

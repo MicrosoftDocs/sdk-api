@@ -12,6 +12,8 @@ ms.keywords: AVEncAudioInputContent_Music, AVEncAudioInputContent_Unknown, AVEnc
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncAudioInputContent"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetString
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordSetString"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

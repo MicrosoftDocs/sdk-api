@@ -12,6 +12,8 @@ ms.keywords: CreateBlendState1, CreateBlendState1 method [Direct3D 10], CreateBl
 ms.topic: method
 f1_keywords: 
  - "d3d10_1/ID3D10Device1.CreateBlendState1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

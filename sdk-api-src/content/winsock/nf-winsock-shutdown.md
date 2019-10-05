@@ -12,6 +12,8 @@ ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown
 ms.topic: function
 f1_keywords: 
  - "winsock/shutdown"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Webhost.h
 req.target-type: Windows

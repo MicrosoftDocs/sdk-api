@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],Sort method, IResultData.Sort, IResultD
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData.Sort"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

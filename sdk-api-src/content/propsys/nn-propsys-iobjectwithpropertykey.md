@@ -12,6 +12,8 @@ ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "propsys/IObjectWithPropertyKey"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

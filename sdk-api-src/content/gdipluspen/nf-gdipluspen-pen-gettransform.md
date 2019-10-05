@@ -12,6 +12,8 @@ ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetTransform"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClusterResourceGetEnumCount, ClusterResourceGetEnumCount function [
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterResourceGetEnumCount"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

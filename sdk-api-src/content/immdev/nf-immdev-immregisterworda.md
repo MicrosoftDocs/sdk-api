@@ -12,6 +12,8 @@ ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REG
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmRegisterWord"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

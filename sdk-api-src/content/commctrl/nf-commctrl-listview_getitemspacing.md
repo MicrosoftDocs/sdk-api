@@ -12,6 +12,8 @@ ms.keywords: ListView_GetItemSpacing, ListView_GetItemSpacing macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetItemSpacing"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

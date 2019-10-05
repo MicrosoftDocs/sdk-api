@@ -12,6 +12,8 @@ ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllPropert
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPPropertyCollection.GetAllProperties"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

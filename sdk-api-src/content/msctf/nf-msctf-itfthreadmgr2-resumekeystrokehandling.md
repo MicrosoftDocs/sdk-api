@@ -12,6 +12,8 @@ ms.keywords: ITfThreadMgr2 interface [Text Services Framework],ResumeKeystrokeHa
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr2.ResumeKeystrokeHandling"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

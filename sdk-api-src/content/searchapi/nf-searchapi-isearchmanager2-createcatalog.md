@@ -12,6 +12,8 @@ ms.keywords: CreateCatalog, CreateCatalog method [search], CreateCatalog method 
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager2.CreateCatalog"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

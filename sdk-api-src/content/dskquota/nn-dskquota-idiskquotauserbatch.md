@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQu
 ms.topic: interface
 f1_keywords: 
  - "dskquota/IDiskQuotaUserBatch"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

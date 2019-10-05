@@ -12,6 +12,8 @@ ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC structure [Dir
 ms.topic: struct
 f1_keywords: 
  - "d3d11/CD3D11_DEPTH_STENCIL_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

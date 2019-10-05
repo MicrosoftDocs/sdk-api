@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_P
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_STRONG_SIGN_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

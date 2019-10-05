@@ -12,6 +12,8 @@ ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetConnecti
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.SetConnectionBandwidth"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

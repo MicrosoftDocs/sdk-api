@@ -12,6 +12,8 @@ ms.keywords: GetChannelConfig, GetChannelConfig method [Core Audio], GetChannelC
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioChannelConfig.GetChannelConfig"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

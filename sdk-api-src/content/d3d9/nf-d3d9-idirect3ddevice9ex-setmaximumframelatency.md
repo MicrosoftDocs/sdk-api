@@ -12,6 +12,8 @@ ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],SetMaximumFrameLatency me
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.SetMaximumFrameLatency"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

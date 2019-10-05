@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_ROLE_STATE, CLUSTER_ROLE_STATE enumeration [Failover Cluste
 ms.topic: enum
 f1_keywords: 
  - "resapi/CLUSTER_ROLE_STATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Prope
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyChangeArray"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

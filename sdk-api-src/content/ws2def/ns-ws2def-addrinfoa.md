@@ -12,6 +12,8 @@ ms.keywords: "*PADDRINFOA, ADDRINFOA, ADDRINFOA structure [Winsock], AF_BTH, AF_
 ms.topic: struct
 f1_keywords: 
  - "ws2def/ADDRINFOA"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows

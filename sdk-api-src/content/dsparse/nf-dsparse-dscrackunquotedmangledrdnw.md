@@ -12,6 +12,8 @@ ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Acti
 ms.topic: function
 f1_keywords:
 - dsparse/DsCrackUnquotedMangledRdn
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

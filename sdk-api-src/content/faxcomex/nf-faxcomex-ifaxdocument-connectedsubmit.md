@@ -12,6 +12,8 @@ ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSub
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.ConnectedSubmit"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

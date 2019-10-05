@@ -12,6 +12,8 @@ ms.keywords: DHCPV6_STATELESS_PARAM_TYPE, DHCPV6_STATELESS_PARAM_TYPE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

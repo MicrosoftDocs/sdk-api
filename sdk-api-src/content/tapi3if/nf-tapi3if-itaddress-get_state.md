@@ -12,6 +12,8 @@ ms.keywords: ITAddress interface [TAPI 2.2],get_State method, ITAddress.get_Stat
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddress.get_State"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

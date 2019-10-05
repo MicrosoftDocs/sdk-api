@@ -12,6 +12,8 @@ ms.keywords: UI_COLLECTIONCHANGE, UI_COLLECTIONCHANGE enumeration [Windows Ribbo
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_COLLECTIONCHANGE"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

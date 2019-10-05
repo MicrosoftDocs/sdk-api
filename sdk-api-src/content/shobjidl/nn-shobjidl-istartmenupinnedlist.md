@@ -12,6 +12,8 @@ ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IStartMenuPinnedList"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

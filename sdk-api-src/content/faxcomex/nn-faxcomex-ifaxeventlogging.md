@@ -12,6 +12,8 @@ ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEve
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxEventLogging"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

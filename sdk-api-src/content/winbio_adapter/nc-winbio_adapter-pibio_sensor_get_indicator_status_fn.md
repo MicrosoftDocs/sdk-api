@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN, PIBIO_SENSOR_GET_INDICATOR_ST
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterGetIndicatorStatus
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

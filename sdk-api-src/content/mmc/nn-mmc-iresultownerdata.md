@@ -12,6 +12,8 @@ ms.keywords: IResultOwnerData, IResultOwnerData interface [MMC], IResultOwnerDat
 ms.topic: interface
 f1_keywords:
 - mmc/IResultOwnerData
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

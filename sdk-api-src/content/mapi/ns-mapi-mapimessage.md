@@ -12,6 +12,8 @@ ms.keywords: "*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, Ma
 ms.topic: struct
 f1_keywords: 
  - "mapi/MapiMessage"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

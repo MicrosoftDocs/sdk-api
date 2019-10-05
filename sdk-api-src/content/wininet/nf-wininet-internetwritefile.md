@@ -12,6 +12,8 @@ ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_inte
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetWriteFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

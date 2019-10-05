@@ -12,6 +12,8 @@ ms.keywords: InvalidateRect, InvalidateRect function [Windows GDI], _win32_Inval
 ms.topic: function
 f1_keywords: 
  - "winuser/InvalidateRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

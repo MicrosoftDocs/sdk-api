@@ -12,6 +12,8 @@ ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IRe
 ms.topic: method
 f1_keywords:
 - mmc/IResultData.GetNextItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

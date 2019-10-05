@@ -12,6 +12,8 @@ ms.keywords: CreateTextAnalyzer, CreateTextAnalyzer method [Direct Write], Creat
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.CreateTextAnalyzer"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

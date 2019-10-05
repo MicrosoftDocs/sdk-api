@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linereleaseuseruserinfo, lineReleaseUserUserInfo, lineRelea
 ms.topic: function
 f1_keywords: 
  - "tapi/lineReleaseUserUserInfo"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [O
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_RELATIONSHIP_SELECTOR"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

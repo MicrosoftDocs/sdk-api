@@ -12,6 +12,8 @@ ms.keywords: 5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a, CloseDeviceHandle, CloseDevic
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.CloseDeviceHandle"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

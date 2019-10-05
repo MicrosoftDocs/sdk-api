@@ -12,6 +12,8 @@ ms.keywords: PlaySpeed, PlaySpeed structure [Media Streaming API], mediastreamin
 ms.topic: struct
 f1_keywords: 
  - "windows.media.streaming/PlaySpeed"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

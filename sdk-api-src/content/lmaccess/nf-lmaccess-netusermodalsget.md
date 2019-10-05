@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Ma
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserModalsGet
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

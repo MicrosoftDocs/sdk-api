@@ -12,6 +12,8 @@ ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID, GetGUID method [Medi
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetGUID
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

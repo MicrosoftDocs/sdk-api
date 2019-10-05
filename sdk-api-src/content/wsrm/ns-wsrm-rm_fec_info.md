@@ -12,6 +12,8 @@ ms.keywords: RM_FEC_INFO, RM_FEC_INFO structure [Winsock], winsock.rm_fec_info, 
 ms.topic: struct
 f1_keywords: 
  - "wsrm/RM_FEC_INFO"
+dev_langs:
+ - c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

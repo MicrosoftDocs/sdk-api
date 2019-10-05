@@ -12,6 +12,8 @@ ms.keywords: StringCbCat, StringCbCat function [Menus and Other Resources], Stri
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCbCat"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

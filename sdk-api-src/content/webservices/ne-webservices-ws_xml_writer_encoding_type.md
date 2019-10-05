@@ -12,6 +12,8 @@ ms.keywords: WS_XML_WRITER_ENCODING_TYPE, WS_XML_WRITER_ENCODING_TYPE enumeratio
 ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_WRITER_ENCODING_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

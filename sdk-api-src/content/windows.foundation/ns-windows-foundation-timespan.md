@@ -12,6 +12,8 @@ ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, w
 ms.topic: struct
 f1_keywords: 
  - "windows.foundation/TimeSpan"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

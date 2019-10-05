@@ -12,6 +12,8 @@ ms.keywords: '*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer 
 ms.topic: struct
 f1_keywords:
 - winnt/PRIVILEGE_SET
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _search_AUTH_TYPE, eAUTH
 ms.topic: enum
 f1_keywords: 
  - "searchapi/AUTH_TYPE"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

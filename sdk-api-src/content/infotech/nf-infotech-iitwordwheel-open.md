@@ -12,6 +12,8 @@ ms.keywords: IITWordWheel interface [HTML Help Workshop],Open method, IITWordWhe
 ms.topic: method
 f1_keywords: 
  - "infotech/IITWordWheel.Open"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

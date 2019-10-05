@@ -12,6 +12,8 @@ ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDevi
 ms.topic: interface
 f1_keywords: 
  - "pnpxassoc/IPNPXDeviceAssociation"
+dev_langs:
+ - c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

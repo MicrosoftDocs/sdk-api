@@ -12,6 +12,8 @@ ms.keywords: GetSettingObject, GetSettingObject method [Offline Files], GetSetti
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.GetSettingObject"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

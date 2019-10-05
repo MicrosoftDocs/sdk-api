@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interfac
 ms.topic: interface
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientSettings"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

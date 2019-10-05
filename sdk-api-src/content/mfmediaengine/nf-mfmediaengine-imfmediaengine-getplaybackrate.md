@@ -12,6 +12,8 @@ ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlay
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetPlaybackRate"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITLocationInfo interface [TAPI 2.2],get_TollPrefixList method, ITLo
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLocationInfo.get_TollPrefixList"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

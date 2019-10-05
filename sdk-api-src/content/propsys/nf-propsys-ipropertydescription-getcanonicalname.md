@@ -12,6 +12,8 @@ ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Properties], Get
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetCanonicalName"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

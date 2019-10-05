@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems met
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronizeInvoke.UpdateItems
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

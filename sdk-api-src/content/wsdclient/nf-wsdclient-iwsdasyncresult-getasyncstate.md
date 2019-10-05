@@ -12,6 +12,8 @@ ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsync
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDAsyncResult.GetAsyncState"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

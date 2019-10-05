@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/LSA_AUTH_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

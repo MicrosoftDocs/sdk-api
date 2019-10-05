@@ -12,6 +12,8 @@ ms.keywords: GetGlobalId, GetGlobalId method [Core Audio], GetGlobalId method [C
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.GetGlobalId"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

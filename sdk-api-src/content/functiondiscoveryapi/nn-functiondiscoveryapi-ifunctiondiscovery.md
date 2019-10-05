@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscovery, IFunctionDiscovery interface, IFunctionDiscover
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

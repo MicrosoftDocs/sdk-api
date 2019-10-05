@@ -12,6 +12,8 @@ ms.keywords: PPP_ATCP_INFO, PPP_ATCP_INFO structure [RAS], _mpr_ppp_atcp_info, m
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_ATCP_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

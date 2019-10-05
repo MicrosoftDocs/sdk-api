@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Wi
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumTypeList.GetCount"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

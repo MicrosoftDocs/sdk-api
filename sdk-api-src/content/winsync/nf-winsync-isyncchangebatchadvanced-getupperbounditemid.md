@@ -12,6 +12,8 @@ ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], Get
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchAdvanced.GetUpperBoundItemId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

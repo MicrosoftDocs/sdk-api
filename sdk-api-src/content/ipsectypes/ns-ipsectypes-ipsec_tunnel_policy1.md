@@ -12,6 +12,8 @@ ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTI
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_TUNNEL_POLICY1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

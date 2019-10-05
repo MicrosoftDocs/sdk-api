@@ -12,6 +12,8 @@ ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method
 ms.topic: method
 f1_keywords: 
  - "filter/IFilter.BindRegion"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

@@ -13,6 +13,8 @@ ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interfa
 ms.topic: interface
 f1_keywords: 
  - "vfw/IAVIFile"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

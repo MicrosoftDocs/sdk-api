@@ -12,6 +12,8 @@ ms.keywords: 9145910b-81f1-4fd1-8f6f-d6273e0edde6, IMFSourceOpenMonitor, IMFSour
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSourceOpenMonitor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

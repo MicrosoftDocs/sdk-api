@@ -12,6 +12,8 @@ ms.keywords: "*PRADIUS_ACTION, PRADIUS_ACTION, PRADIUS_ACTION enumeration pointe
 ms.topic: enum
 f1_keywords: 
  - "authif/RADIUS_ACTION"
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

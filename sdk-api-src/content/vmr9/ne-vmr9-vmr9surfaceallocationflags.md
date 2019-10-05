@@ -12,6 +12,8 @@ ms.keywords: VMR9AllocFlag_3DRenderTarget, VMR9AllocFlag_DXVATarget, VMR9AllocFl
 ms.topic: enum
 f1_keywords: 
  - "vmr9/VMR9SurfaceAllocationFlags"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [D
 ms.topic: method
 f1_keywords:
 - medparam/IMediaParams.AddEnvelope
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

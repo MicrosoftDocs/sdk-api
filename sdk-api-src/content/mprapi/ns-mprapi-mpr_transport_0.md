@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_TRANSPORT_0, MPR_TRANSPORT_0, MPR_TRANSPORT_0 structure [RAS
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_TRANSPORT_0
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

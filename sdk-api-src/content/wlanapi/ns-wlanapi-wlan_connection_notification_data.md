@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

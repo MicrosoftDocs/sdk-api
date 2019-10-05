@@ -12,6 +12,8 @@ ms.keywords: IQueryParser interface [search],RestateToString method, IQueryParse
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParser.RestateToString"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

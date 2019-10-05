@@ -12,6 +12,8 @@ ms.keywords: MagSetFullscreenTransform, MagSetFullscreenTransform function [Magn
 ms.topic: function
 f1_keywords: 
  - "magnification/MagSetFullscreenTransform"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9b2f38aa-7062-6fcf-c263-f4aa1f05a173, D3D11_TEX1D_ARRAY_RTV, D3D11_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX1D_ARRAY_RTV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

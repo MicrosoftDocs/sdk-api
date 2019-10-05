@@ -12,6 +12,8 @@ ms.keywords: "*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shlobj/BANDINFOSFB"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

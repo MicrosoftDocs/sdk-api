@@ -12,6 +12,8 @@ ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ScrollBar_GetRange"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], IRichEditO
 ms.topic: interface
 f1_keywords:
 - richole/IRichEditOle
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

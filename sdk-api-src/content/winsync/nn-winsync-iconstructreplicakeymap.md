@@ -12,6 +12,8 @@ ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "winsync/IConstructReplicaKeyMap"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

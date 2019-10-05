@@ -12,6 +12,8 @@ ms.keywords: PWLX_QUERY_CLIENT_CREDENTIALS, PWLX_QUERY_CLIENT_CREDENTIALS callba
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryClientCredentials
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

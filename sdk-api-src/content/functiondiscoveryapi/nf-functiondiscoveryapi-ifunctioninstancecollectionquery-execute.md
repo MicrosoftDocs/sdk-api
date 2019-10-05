@@ -12,6 +12,8 @@ ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollection
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollectionQuery.Execute"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

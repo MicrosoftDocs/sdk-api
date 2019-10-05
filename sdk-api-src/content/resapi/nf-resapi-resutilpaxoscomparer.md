@@ -12,6 +12,8 @@ ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Clust
 ms.topic: function
 f1_keywords:
 - resapi/ResUtilPaxosComparer
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

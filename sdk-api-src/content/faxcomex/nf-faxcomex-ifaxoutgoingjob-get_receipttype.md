@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingJob interface [Fax Service],ReceiptType property, IFaxO
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.ReceiptType"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

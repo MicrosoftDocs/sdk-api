@@ -12,6 +12,8 @@ ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink inte
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfContextOwnerCompositionSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

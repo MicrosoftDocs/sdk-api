@@ -12,6 +12,8 @@ ms.keywords: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE, WS_NCRYPT_ASYMMETRIC_S
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_KEY_HANDLE_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IkeextGetStatistics1, IkeextGetStatistics1 function [Filtering], fw
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IkeextGetStatistics1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

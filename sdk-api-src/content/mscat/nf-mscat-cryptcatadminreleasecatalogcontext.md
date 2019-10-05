@@ -12,6 +12,8 @@ ms.keywords: CryptCATAdminReleaseCatalogContext, CryptCATAdminReleaseCatalogCont
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATAdminReleaseCatalogContext"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

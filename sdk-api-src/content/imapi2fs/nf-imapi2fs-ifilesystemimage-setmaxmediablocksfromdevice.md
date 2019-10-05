@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],SetMaxMediaBlocksFromDevice meth
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.SetMaxMediaBlocksFromDevice"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

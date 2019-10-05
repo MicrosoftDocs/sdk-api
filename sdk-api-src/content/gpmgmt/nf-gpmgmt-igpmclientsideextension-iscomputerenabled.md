@@ -12,6 +12,8 @@ ms.keywords: GPMClientSideExtension object [GPMC],IsComputerEnabled method, IGPM
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMClientSideExtension.IsComputerEnabled"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

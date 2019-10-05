@@ -12,6 +12,8 @@ ms.keywords: IApplicationDocumentLists interface [Windows Shell],SetAppID method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationDocumentLists.SetAppID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_
 ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_PASS_THRU_REQUEST
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

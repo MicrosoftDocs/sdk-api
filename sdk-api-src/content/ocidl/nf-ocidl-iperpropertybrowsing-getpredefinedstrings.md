@@ -12,6 +12,8 @@ ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefi
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPerPropertyBrowsing.GetPredefinedStrings"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

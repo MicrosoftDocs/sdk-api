@@ -12,6 +12,8 @@ ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYST
 ms.topic: struct
 f1_keywords:
 - vds/VDS_SUB_SYSTEM_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

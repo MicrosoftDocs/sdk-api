@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayerServices2 interface [Windows Media Player],setBackgroundP
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayerServices2.setBackgroundProcessingPriority"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

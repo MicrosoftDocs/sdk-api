@@ -12,6 +12,8 @@ ms.keywords: "_win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Wi
 ms.topic: macro
 f1_keywords: 
  - "vfw/capSetScrollPos"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

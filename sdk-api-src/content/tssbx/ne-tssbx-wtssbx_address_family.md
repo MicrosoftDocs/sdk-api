@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_ADDRESS_FAMILY, WTSSBX_ADDRESS_FAMILY enumeration [Remote De
 ms.topic: enum
 f1_keywords: 
  - "tssbx/WTSSBX_ADDRESS_FAMILY"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

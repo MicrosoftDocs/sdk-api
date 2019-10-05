@@ -12,6 +12,8 @@ ms.keywords: GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10_1shader/ID3D10ShaderReflection1.GetBitwiseInstructionCount"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

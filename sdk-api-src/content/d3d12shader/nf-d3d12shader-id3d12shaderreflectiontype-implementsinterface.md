@@ -12,6 +12,8 @@ ms.keywords: ID3D12ShaderReflectionType interface,ImplementsInterface method, ID
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionType.ImplementsInterface"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

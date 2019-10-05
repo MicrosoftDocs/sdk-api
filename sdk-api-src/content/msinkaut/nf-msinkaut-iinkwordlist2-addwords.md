@@ -12,6 +12,8 @@ ms.keywords: 65afd260-f2ef-4744-a623-bcec4c742d61, AddWords, AddWords method [Ta
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkWordList2.AddWords"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

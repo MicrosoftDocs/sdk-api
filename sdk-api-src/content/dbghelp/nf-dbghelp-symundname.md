@@ -12,6 +12,8 @@ ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 functio
 ms.topic: function
 f1_keywords:
 - dbghelp/SymUnDName64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

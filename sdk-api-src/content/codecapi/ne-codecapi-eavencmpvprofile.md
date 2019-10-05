@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVProfile, codecapi/eAVEncMPVProfile_422, codecapi/
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVProfile"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

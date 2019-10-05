@@ -12,6 +12,8 @@ ms.keywords: GetAttribute, GetAttribute method [Windows Connect Now], GetAttribu
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.GetAttribute"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

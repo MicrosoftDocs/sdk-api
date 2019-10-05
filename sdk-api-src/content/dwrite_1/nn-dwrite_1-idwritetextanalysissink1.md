@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalysisSink1, IDWriteTextAnalysisSink1 interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalysisSink1"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

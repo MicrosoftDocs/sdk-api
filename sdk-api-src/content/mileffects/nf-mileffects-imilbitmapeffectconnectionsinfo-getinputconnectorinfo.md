@@ -12,6 +12,8 @@ ms.keywords: GetInputConnectorInfo, GetInputConnectorInfo method [WPF Bitmap Eff
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

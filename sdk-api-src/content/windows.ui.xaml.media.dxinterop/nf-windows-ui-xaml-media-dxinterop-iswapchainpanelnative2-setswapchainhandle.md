@@ -12,6 +12,8 @@ ms.keywords: ISwapChainPanelNative2 interface [Windows Runtime],SetSwapChainHand
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2.SetSwapChainHandle"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

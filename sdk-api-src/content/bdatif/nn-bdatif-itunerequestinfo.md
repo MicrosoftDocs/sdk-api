@@ -12,6 +12,8 @@ ms.keywords: ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "bdatif/ITuneRequestInfo"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

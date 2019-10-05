@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsGroup interface, IADs
 ms.topic: method
 f1_keywords: 
  - "iads/IADsGroup.Add"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

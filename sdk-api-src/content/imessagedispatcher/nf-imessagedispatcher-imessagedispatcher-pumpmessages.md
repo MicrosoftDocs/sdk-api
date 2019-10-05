@@ -12,6 +12,8 @@ ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDis
 ms.topic: method
 f1_keywords: 
  - "imessagedispatcher/IMessageDispatcher.PumpMessages"
+dev_langs:
+ - c++
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows

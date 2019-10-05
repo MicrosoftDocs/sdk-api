@@ -12,6 +12,8 @@ ms.keywords: DisplayNameUnresolved property [PLA], DisplayNameUnresolved propert
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.DisplayNameUnresolved"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

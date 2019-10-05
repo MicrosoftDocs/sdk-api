@@ -12,6 +12,8 @@ ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymb
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateSymbolicLink"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

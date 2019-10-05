@@ -12,6 +12,8 @@ ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrierEvents"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

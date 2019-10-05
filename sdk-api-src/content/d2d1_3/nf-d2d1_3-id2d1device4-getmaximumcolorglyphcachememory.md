@@ -12,6 +12,8 @@ ms.keywords: GetMaximumColorGlyphCacheMemory, GetMaximumColorGlyphCacheMemory me
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1Device4.GetMaximumColorGlyphCacheMemory"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

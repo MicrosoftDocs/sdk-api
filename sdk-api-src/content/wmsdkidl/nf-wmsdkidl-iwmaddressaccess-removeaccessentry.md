@@ -12,6 +12,8 @@ ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMAddressAccess.RemoveAccessEntry"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

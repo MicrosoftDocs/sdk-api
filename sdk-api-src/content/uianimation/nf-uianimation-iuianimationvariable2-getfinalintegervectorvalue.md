@@ -12,6 +12,8 @@ ms.keywords: GetFinalIntegerVectorValue, GetFinalIntegerVectorValue method [Wind
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetFinalIntegerVectorValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

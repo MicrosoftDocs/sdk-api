@@ -12,6 +12,8 @@ ms.keywords: 7ef37c3a-8924-5736-9b40-6a56cdf480c7, D3D10StateBlockMaskIntersect,
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10StateBlockMaskIntersect
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

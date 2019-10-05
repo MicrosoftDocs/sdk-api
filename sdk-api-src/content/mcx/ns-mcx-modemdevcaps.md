@@ -12,6 +12,8 @@ ms.keywords: '*LPMODEMDEVCAPS, *PMODEMDEVCAPS, DIALOPTION_BILLING, DIALOPTION_DI
 ms.topic: struct
 f1_keywords:
 - mcx/MODEMDEVCAPS
+dev_langs:
+ - c++
 req.header: mcx.h
 req.include-header: Windows.h
 req.target-type: Windows

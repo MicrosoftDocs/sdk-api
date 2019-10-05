@@ -12,6 +12,8 @@ ms.keywords: IEventSubscription interface [COM+],PublisherID property, IEventSub
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.PublisherID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

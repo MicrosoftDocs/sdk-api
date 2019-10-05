@@ -12,6 +12,8 @@ ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface,
 ms.topic: interface
 f1_keywords: 
  - "wsdxml/IWSDXMLContext"
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

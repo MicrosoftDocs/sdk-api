@@ -12,6 +12,8 @@ ms.keywords: NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32
 ms.topic: struct
 f1_keywords: 
  - "richedit/NMHDR"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: Winuser.h
 req.target-type: Windows

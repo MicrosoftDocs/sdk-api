@@ -12,6 +12,8 @@ ms.keywords: 84771686-c1f5-0be3-b170-1de4e0c8acc9, GetNumberOfSwapChains, GetNum
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetNumberOfSwapChains"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample int
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMediaSample"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

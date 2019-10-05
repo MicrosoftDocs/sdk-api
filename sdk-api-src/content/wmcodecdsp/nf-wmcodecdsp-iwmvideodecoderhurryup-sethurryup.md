@@ -12,6 +12,8 @@ ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderHurryup.SetHurryup"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

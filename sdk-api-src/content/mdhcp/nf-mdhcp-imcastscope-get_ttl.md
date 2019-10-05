@@ -12,6 +12,8 @@ ms.keywords: IMcastScope interface [TAPI 2.2],get_TTL method, IMcastScope.get_TT
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastScope.get_TTL"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

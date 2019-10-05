@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority 
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetAppPriority"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

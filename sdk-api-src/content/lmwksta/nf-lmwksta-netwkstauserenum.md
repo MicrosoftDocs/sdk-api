@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Manageme
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaUserEnum
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

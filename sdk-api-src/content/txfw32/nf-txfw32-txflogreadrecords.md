@@ -12,6 +12,8 @@ ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogrea
 ms.topic: function
 f1_keywords:
 - txfw32/TxfLogReadRecords
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

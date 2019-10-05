@@ -12,6 +12,8 @@ ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_S
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_VideoSample
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

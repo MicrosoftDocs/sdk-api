@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_5/IDXGIDevice4"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

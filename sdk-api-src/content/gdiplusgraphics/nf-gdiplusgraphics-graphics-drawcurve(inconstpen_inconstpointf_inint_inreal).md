@@ -12,6 +12,8 @@ ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphic
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawCurve"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

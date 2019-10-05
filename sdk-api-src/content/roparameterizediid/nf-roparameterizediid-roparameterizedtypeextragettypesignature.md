@@ -12,6 +12,8 @@ ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraG
 ms.topic: function
 f1_keywords: 
  - "roparameterizediid/RoParameterizedTypeExtraGetTypeSignature"
+dev_langs:
+ - c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows

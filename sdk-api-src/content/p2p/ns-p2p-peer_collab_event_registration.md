@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_COLLAB_EVENT_REGISTRATION, PCPEER_COLLAB_EVENT_REGISTRATION
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_COLLAB_EVENT_REGISTRATION"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

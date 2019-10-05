@@ -12,6 +12,8 @@ ms.keywords: D3D11_CENTER_MULTISAMPLE_PATTERN, D3D11_STANDARD_MULTISAMPLE_PATTER
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

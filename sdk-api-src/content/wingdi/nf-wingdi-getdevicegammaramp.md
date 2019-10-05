@@ -12,6 +12,8 @@ ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color Syst
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetDeviceGammaRamp"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

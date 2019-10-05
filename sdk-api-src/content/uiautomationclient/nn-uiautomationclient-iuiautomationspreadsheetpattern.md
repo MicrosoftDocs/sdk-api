@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationSpreadsheetPattern, IUIAutomationSpreadsheetPattern in
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSpreadsheetPattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

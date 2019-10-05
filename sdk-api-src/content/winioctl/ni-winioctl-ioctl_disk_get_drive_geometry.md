@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

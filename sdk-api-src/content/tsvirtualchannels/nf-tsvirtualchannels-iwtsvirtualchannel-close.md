@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannel.Close"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

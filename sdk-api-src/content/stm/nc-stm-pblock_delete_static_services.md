@@ -12,6 +12,8 @@ ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback funct
 ms.topic: callback
 f1_keywords: 
  - "stm/BlockDeleteStaticServices"
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

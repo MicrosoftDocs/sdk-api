@@ -12,6 +12,8 @@ ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFont1.GetPanose"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

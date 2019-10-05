@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_RB_24GHZ, WCN_VALUE_RB_50GHZ, WCN_VALUE_TYPE_RF_BANDS, WC
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_RF_BANDS"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetHidden, GetHidden method [Windows Controls], GetHidden method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetHidden"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

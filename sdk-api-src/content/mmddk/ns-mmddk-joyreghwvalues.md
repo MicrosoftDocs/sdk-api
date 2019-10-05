@@ -12,6 +12,8 @@ ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES st
 ms.topic: struct
 f1_keywords: 
  - "mmddk/JOYREGHWVALUES"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: Dinputd.h
 req.target-type: Windows

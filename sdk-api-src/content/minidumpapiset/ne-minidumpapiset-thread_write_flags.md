@@ -12,6 +12,8 @@ ms.keywords: THREAD_WRITE_FLAGS, THREAD_WRITE_FLAGS enumeration, ThreadWriteBack
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/THREAD_WRITE_FLAGS
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

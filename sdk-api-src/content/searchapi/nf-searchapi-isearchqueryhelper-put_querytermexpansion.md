@@ -12,6 +12,8 @@ ms.keywords: ISearchQueryHelper interface [search],put_QueryTermExpansion method
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.put_QueryTermExpansion
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICColorTransform interface [Windows Imaging Component],Initialize
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICColorTransform.Initialize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

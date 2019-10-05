@@ -12,6 +12,8 @@ ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interf
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRTrustedVideoPlugin.IsInTrustedVideoMode"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

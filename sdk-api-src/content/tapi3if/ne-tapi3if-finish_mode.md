@@ -12,6 +12,8 @@ ms.keywords: FINISH_MODE, FINISH_MODE enumeration [TAPI 2.2], FM_ASCONFERENCE, F
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/FINISH_MODE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

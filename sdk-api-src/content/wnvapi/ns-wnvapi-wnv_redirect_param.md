@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM str
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_REDIRECT_PARAM
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

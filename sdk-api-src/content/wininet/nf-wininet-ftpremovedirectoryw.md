@@ -12,6 +12,8 @@ ms.keywords: FtpRemoveDirectory, FtpRemoveDirectory function [WinINet], FtpRemov
 ms.topic: function
 f1_keywords: 
  - "wininet/FtpRemoveDirectory"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

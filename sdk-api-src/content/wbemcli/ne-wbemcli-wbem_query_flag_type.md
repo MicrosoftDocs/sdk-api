@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAG_DEEP, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SHALLOW, WBEM_QUERY_
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_QUERY_FLAG_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

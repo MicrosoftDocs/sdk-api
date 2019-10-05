@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], ea
 ms.topic: function
 f1_keywords: 
  - "eappapis/EapHostPeerInitialize"
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

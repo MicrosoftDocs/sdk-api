@@ -12,6 +12,8 @@ ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSe
 ms.topic: callback
 f1_keywords: 
  - "ras/RasSetCommSettings"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

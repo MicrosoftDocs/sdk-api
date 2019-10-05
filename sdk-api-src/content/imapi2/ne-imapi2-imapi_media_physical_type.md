@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_MEDIA_PHYSICAL_TYPE, IMAPI_MEDIA_PHYSICAL_TYPE, IMAPI_MEDI
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_MEDIA_PHYSICAL_TYPE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

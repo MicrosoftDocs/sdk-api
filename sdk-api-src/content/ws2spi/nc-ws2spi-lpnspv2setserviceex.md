@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function 
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2SetServiceEx
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

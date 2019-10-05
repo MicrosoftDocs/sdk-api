@@ -12,6 +12,8 @@ ms.keywords: AccountName property [Fax Service], AccountName property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccount.AccountName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

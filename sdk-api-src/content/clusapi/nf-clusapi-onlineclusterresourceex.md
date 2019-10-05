@@ -12,6 +12,8 @@ ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLIN
 ms.topic: function
 f1_keywords: 
  - "clusapi/OnlineClusterResourceEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

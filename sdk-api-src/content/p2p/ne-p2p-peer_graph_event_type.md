@@ -12,6 +12,8 @@ ms.keywords: PEER_GRAPH_EVENT_CONNECTION_REQUIRED, PEER_GRAPH_EVENT_DIRECT_CONNE
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_GRAPH_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

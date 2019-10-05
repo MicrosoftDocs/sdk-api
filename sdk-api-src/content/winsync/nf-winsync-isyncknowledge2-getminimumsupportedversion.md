@@ -12,6 +12,8 @@ ms.keywords: GetMinimumSupportedVersion, GetMinimumSupportedVersion method [Wind
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.GetMinimumSupportedVersion"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

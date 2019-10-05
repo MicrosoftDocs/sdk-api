@@ -12,6 +12,8 @@ ms.keywords: AzTasks object [Security],Count property, Count property [Security]
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTasks.Count"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

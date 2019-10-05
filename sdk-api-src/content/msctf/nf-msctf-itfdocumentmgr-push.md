@@ -12,6 +12,8 @@ ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITf
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDocumentMgr.Push"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvStrokeAndFillPath, DrvStrokeAndFillPath function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/DrvStrokeAndFillPath
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

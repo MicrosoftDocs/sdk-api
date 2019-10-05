@@ -12,6 +12,8 @@ ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [G
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMStatusMessage"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

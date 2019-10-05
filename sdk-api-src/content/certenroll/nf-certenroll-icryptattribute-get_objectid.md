@@ -12,6 +12,8 @@ ms.keywords: ICryptAttribute interface [Security],ObjectId property, ICryptAttri
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICryptAttribute.ObjectId"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL m
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceDocumentAccess.GetDocumentURL"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

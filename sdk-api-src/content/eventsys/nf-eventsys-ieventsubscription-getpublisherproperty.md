@@ -12,6 +12,8 @@ ms.keywords: GetPublisherProperty, GetPublisherProperty method [COM+], GetPublis
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.GetPublisherProperty"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

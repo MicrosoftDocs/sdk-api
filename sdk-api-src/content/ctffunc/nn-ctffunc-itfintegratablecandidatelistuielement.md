@@ -12,6 +12,8 @@ ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateList
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfIntegratableCandidateListUIElement"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CROSS_SLIDE_THRESHOLD, CROSS_SLIDE_THRESHOLD enumeration, CROSS_SLI
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/CROSS_SLIDE_THRESHOLD"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

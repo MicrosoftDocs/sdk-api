@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProf
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferSink2.UnlockProfile"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

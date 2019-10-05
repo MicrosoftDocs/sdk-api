@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.StartDelete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

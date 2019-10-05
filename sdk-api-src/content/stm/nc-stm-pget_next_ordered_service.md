@@ -12,6 +12,8 @@ ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS
 ms.topic: callback
 f1_keywords:
 - stm/GetNextOrderedService
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

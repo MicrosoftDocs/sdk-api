@@ -12,6 +12,8 @@ ms.keywords: TAG, TAG_16BIT_DESCRIPTION, TAG_16BIT_MODULE_NAME, TAG_ACTION, TAG_
 ms.topic: macro
 f1_keywords: 
  - "exposeenums2managed/TAG_DATABASE"
+dev_langs:
+ - c++
 req.header: exposeenums2managed.h
 req.include-header: Axextendenums.h
 req.target-type: Windows

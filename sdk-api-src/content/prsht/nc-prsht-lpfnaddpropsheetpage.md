@@ -12,6 +12,8 @@ ms.keywords: AddPropSheetPageProc, AddPropSheetPageProc callback, AddPropSheetPa
 ms.topic: callback
 f1_keywords:
 - prsht/AddPropSheetPageProc
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

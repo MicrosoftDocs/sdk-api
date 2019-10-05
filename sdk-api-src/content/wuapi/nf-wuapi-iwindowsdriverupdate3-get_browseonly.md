@@ -12,6 +12,8 @@ ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Wi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate3.BrowseOnly"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

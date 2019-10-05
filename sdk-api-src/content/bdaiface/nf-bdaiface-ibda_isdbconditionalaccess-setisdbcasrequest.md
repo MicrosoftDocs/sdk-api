@@ -12,6 +12,8 @@ ms.keywords: IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],Se
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_ISDBConditionalAccess.SetIsdbCasRequest"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

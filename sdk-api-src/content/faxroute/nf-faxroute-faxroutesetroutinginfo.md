@@ -12,6 +12,8 @@ ms.keywords: FaxRouteSetRoutingInfo, FaxRouteSetRoutingInfo function [Fax Servic
 ms.topic: function
 f1_keywords: 
  - "faxroute/FaxRouteSetRoutingInfo"
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

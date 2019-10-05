@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_STREAMTYPE_FAILED, MF_MEDIA_ENGINE_STREAMTYPE_FAILE
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_STREAMTYPE_FAILED"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

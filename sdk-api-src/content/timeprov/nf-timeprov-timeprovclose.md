@@ -12,6 +12,8 @@ ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback funct
 ms.topic: function
 f1_keywords: 
  - "timeprov/TimeProvClose"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

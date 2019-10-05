@@ -12,6 +12,8 @@ ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration,
 ms.topic: enum
 f1_keywords: 
  - "wsdbase/WSDUdpMessageType"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

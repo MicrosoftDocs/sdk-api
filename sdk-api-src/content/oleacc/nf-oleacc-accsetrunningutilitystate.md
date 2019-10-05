@@ -12,6 +12,8 @@ ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS
 ms.topic: function
 f1_keywords: 
  - "oleacc/AccSetRunningUtilityState"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

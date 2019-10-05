@@ -12,6 +12,8 @@ ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeConnection"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

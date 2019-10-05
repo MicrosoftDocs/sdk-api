@@ -12,6 +12,8 @@ ms.keywords: IComActivityEvents interface [COM+],OnActivityEnter method, IComAct
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComActivityEvents.OnActivityEnter"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRouti
 ms.topic: function
 f1_keywords:
 - subauth/Msv1_0SubAuthenticationRoutineGeneric
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

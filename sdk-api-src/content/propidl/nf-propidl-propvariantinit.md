@@ -12,6 +12,8 @@ ms.keywords: PropVariantInit, PropVariantInit function [Structured Storage], _st
 ms.topic: macro
 f1_keywords: 
  - "propidl/PropVariantInit"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ILoadFilter interface [search],LoadIFilterFromStream method, ILoadF
 ms.topic: method
 f1_keywords: 
  - "filtereg/ILoadFilter.LoadIFilterFromStream"
+dev_langs:
+ - c++
 req.header: filtereg.h
 req.include-header: Filtereg.h
 req.target-type: Windows

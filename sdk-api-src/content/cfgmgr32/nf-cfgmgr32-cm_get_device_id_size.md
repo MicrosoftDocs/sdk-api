@@ -12,6 +12,8 @@ ms.keywords: CM_Get_Device_ID_Size, CM_Get_Device_ID_Size function [Device and D
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Device_ID_Size"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

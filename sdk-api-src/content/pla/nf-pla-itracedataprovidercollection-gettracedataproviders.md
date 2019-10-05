@@ -12,6 +12,8 @@ ms.keywords: GetTraceDataProviders, GetTraceDataProviders method [PLA], GetTrace
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProviderCollection.GetTraceDataProviders"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

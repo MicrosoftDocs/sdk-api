@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_SELECT_DEVICE_PARAMS, BLUETOOTH_SELECT_DEVICE_PARAMS stru
 ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

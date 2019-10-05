@@ -12,6 +12,8 @@ ms.keywords: 4c038892-740b-67d5-cbdf-79de3acfb3d1, GetAvailableTextureMem, GetAv
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetAvailableTextureMem"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

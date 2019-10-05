@@ -12,6 +12,8 @@ ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method,
 ms.topic: method
 f1_keywords: 
  - "msvidctl/IMSVidCtl.put_TabStop"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

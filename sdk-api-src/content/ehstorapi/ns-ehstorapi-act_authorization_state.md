@@ -12,6 +12,8 @@ ms.keywords: ACT_AUTHORIZATION_STATE, ACT_AUTHORIZATION_STATE structure [Enhance
 ms.topic: struct
 f1_keywords: 
  - "ehstorapi/ACT_AUTHORIZATION_STATE"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

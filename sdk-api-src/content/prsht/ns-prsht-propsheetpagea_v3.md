@@ -12,6 +12,8 @@ ms.keywords: '*LPPROPSHEETPAGEA_V3, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure p
 ms.topic: struct
 f1_keywords:
 - prsht/PROPSHEETPAGE
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

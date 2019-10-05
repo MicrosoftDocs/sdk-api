@@ -12,6 +12,8 @@ ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.c
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoCreateGuid"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

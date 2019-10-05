@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetOrigin meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.SetOrigin"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_FRAME_PRESENTATION_MODE, DXGI_FRAME_PRESENTATION_MODE enumerat
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_3/DXGI_FRAME_PRESENTATION_MODE"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h
 req.target-type: Windows

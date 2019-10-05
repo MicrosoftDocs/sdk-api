@@ -12,6 +12,8 @@ ms.keywords: IFileDialog2 interface [Windows Shell],SetNavigationRoot method, IF
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFileDialog2.SetNavigationRoot"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

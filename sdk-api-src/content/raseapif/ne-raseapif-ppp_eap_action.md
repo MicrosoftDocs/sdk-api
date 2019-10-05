@@ -12,6 +12,8 @@ ms.keywords: EAPACTION_Authenticate, EAPACTION_Done, EAPACTION_IndicateIdentity,
 ms.topic: enum
 f1_keywords:
 - raseapif/PPP_EAP_ACTION
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

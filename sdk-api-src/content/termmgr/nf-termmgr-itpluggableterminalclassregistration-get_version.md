@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Versi
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalClassRegistration.get_Version"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

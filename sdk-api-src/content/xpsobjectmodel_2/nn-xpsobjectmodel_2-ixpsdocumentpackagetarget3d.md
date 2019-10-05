@@ -12,6 +12,8 @@ ms.keywords: IXpsDocumentPackageTarget3D, IXpsDocumentPackageTarget3D interface 
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsDocumentPackageTarget3D"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

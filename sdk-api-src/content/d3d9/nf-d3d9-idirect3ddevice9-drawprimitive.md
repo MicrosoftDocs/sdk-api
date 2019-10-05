@@ -12,6 +12,8 @@ ms.keywords: DrawPrimitive, DrawPrimitive method [Direct3D 9], DrawPrimitive met
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9.DrawPrimitive
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_AUTHORIZE_USER, WSMAN_PLUGIN_AUTHORIZE_USER callback, 
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_AUTHORIZE_USER
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

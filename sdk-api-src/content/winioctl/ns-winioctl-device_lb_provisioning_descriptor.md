@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRI
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

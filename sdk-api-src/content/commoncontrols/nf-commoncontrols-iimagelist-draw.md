@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method [Windows Controls], Draw method [Windows Controls
 ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.Draw
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

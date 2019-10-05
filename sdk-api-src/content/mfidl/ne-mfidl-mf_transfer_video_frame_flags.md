@@ -12,6 +12,8 @@ ms.keywords: MF_TRANSFER_VIDEO_FRAME_DEFAULT, MF_TRANSFER_VIDEO_FRAME_FLAGS, MF_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TRANSFER_VIDEO_FRAME_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

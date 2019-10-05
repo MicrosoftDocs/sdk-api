@@ -12,6 +12,8 @@ ms.keywords: IsWow64Process, IsWow64Process function, _win32_iswow64process, bas
 ms.topic: function
 f1_keywords: 
  - "wow64apiset/IsWow64Process"
+dev_langs:
+ - c++
 req.header: wow64apiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

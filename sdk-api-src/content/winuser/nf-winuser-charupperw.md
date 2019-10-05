@@ -12,6 +12,8 @@ ms.keywords: CharUpper, CharUpper function [Menus and Other Resources], CharUppe
 ms.topic: function
 f1_keywords: 
  - "winuser/CharUpper"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

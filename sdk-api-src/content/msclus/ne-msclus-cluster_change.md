@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CHANGE, CLUSTER_CHANGE enumeration [Failover Cluster], CLUS
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_CHANGE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

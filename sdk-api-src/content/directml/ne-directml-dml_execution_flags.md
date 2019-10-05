@@ -12,6 +12,8 @@ ms.keywords: DML_EXECUTION_FLAGS, DML_EXECUTION_FLAGS enumeration, DML_EXECUTION
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_EXECUTION_FLAGS"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

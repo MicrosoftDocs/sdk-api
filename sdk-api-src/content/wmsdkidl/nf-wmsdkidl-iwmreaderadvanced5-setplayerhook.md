@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook m
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced5.SetPlayerHook"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

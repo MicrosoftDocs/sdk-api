@@ -12,6 +12,8 @@ ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCol
 ms.topic: method
 f1_keywords: 
  - "pla/IScheduleCollection.AddRange"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop S
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolConnection.CreateVirtualChannel"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

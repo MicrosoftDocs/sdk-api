@@ -12,6 +12,8 @@ ms.keywords: SnmpGetRetry, SnmpGetRetry function [SNMP], _snmp_snmpgetretry, snm
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpGetRetry"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMultiTypeInfoCount, GetMultiTypeInfoCount method [COM], GetMulti
 ms.topic: method
 f1_keywords: 
  - "ocidl/IProvideMultipleClassInfo.GetMultiTypeInfoCount"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMGPO class [GPMC],SetSecurityInfo method, IGPMGPO interface [GPMC
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.SetSecurityInfo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

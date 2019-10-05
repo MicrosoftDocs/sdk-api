@@ -12,6 +12,8 @@ ms.keywords: GetConnectionPointContainer, GetConnectionPointContainer method [CO
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPoint.GetConnectionPointContainer"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

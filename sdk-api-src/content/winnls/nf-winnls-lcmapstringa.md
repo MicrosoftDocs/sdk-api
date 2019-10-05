@@ -12,6 +12,8 @@ ms.keywords: LCMapString, LCMapString function [Internationalization for Windows
 ms.topic: function
 f1_keywords: 
  - "winnls/LCMapString"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

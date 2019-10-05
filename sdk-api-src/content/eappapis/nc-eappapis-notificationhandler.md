@@ -12,6 +12,8 @@ ms.keywords: NotificationHandler, NotificationHandler callback, NotificationHand
 ms.topic: callback
 f1_keywords: 
  - "eappapis/NotificationHandler"
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

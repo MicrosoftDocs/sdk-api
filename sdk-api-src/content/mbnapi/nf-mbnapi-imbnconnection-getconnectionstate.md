@@ -12,6 +12,8 @@ ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband 
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnection.GetConnectionState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

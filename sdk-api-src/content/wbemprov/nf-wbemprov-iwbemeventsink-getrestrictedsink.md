@@ -12,6 +12,8 @@ ms.keywords: GetRestrictedSink, GetRestrictedSink method [Windows Management Ins
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemEventSink.GetRestrictedSink"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

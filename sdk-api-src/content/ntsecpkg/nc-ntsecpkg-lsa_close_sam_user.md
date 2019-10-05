@@ -12,6 +12,8 @@ ms.keywords: CloseSamUser, CloseSamUser callback function [Security], LSA_CLOSE_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CloseSamUser
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

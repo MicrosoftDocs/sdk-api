@@ -12,6 +12,8 @@ ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurf
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateSurface"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

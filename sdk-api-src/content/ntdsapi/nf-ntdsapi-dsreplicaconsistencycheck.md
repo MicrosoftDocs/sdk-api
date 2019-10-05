@@ -12,6 +12,8 @@ ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsReplicaConsistencyCheck"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

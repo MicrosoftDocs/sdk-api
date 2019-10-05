@@ -12,6 +12,8 @@ ms.keywords: EC_ENDOFLINE, EC_ENDOFLINE enumeration [Windows Controls], EC_ENDOF
 ms.topic: enum
 f1_keywords: 
  - "commctrl/EC_ENDOFLINE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

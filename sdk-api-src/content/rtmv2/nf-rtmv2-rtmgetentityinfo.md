@@ -12,6 +12,8 @@ ms.keywords: RtmGetEntityInfo, RtmGetEntityInfo function [RAS], _rtmv2ref_rtmget
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetEntityInfo
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

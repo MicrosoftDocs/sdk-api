@@ -12,6 +12,8 @@ ms.keywords: ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Devic
 ms.topic: interface
 f1_keywords: 
  - "deviceaccess/ICreateDeviceAccessAsync"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

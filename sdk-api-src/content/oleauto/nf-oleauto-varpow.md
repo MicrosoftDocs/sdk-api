@@ -12,6 +12,8 @@ ms.keywords: VarPow, VarPow function [Automation], _oa96_VarPow, automat.varpow,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarPow"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

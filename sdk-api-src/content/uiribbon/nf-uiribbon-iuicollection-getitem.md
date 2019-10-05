@@ -12,6 +12,8 @@ ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows R
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollection.GetItem"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

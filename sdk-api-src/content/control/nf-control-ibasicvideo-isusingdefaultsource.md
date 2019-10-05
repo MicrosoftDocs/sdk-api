@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultSource method, IBa
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.IsUsingDefaultSource"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

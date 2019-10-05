@@ -12,6 +12,8 @@ ms.keywords: "*LPCREATESTRUCTA, CREATESTRUCT, CREATESTRUCT structure [Windows an
 ms.topic: struct
 f1_keywords: 
  - "winuser/CREATESTRUCT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

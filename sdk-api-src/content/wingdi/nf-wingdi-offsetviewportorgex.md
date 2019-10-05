@@ -12,6 +12,8 @@ ms.keywords: OffsetViewportOrgEx, OffsetViewportOrgEx function [Windows GDI], _w
 ms.topic: function
 f1_keywords: 
  - "wingdi/OffsetViewportOrgEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

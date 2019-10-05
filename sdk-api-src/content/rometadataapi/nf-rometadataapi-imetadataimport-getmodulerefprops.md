@@ -12,6 +12,8 @@ ms.keywords: GetModuleRefProps, GetModuleRefProps method [Windows Runtime], GetM
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetModuleRefProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

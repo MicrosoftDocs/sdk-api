@@ -12,6 +12,8 @@ ms.keywords: '*PMPRAPI_TUNNEL_CONFIG_PARAMS1, MPRAPI_TUNNEL_CONFIG_PARAMS, MPRAP
 ms.topic: struct
 f1_keywords:
 - mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

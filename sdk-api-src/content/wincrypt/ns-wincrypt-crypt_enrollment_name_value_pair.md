@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PA
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

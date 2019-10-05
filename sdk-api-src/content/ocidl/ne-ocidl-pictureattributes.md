@@ -12,6 +12,8 @@ ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCA
 ms.topic: enum
 f1_keywords: 
  - "ocidl/PICTUREATTRIBUTES"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

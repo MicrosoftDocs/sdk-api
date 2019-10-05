@@ -12,6 +12,8 @@ ms.keywords: FH_RETENTION_AGE_BASED, FH_RETENTION_DISABLED, FH_RETENTION_TYPES, 
 ms.topic: enum
 f1_keywords: 
  - "fhcfg/FH_RETENTION_TYPES"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

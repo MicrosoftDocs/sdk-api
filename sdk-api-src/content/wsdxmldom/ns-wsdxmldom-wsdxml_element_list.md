@@ -12,6 +12,8 @@ ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT
 ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_ELEMENT_LIST
+dev_langs:
+ - c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

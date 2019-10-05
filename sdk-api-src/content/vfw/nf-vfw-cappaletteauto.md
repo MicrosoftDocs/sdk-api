@@ -12,6 +12,8 @@ ms.keywords: "_win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "vfw/capPaletteAuto"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

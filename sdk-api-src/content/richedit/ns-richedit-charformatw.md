@@ -12,6 +12,8 @@ ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, C
 ms.topic: struct
 f1_keywords: 
  - "richedit/CHARFORMAT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

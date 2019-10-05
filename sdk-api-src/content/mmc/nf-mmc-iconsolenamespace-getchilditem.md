@@ -12,6 +12,8 @@ ms.keywords: GetChildItem, GetChildItem method [MMC], GetChildItem method [MMC],
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsoleNameSpace.GetChildItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

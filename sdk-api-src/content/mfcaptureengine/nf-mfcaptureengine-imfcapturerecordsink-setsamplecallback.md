@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureRecordSink.SetSampleCallback"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

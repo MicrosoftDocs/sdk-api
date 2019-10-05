@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [P
 ms.topic: interface
 f1_keywords: 
  - "photoacquire/IPhotoAcquireOptionsDialog"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

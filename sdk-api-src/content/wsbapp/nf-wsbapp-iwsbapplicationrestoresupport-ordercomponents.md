@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],Ord
 ms.topic: method
 f1_keywords: 
  - "wsbapp/IWsbApplicationRestoreSupport.OrderComponents"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

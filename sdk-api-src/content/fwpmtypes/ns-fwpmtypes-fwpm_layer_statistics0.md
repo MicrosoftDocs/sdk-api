@@ -12,6 +12,8 @@ ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_LAYER_STATISTICS0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

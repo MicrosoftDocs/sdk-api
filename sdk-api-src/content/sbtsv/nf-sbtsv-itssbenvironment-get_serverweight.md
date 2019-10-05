@@ -12,6 +12,8 @@ ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],ServerWeight p
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbEnvironment.ServerWeight"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

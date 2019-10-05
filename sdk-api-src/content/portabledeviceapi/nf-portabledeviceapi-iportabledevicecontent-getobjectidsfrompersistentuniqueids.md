@@ -12,6 +12,8 @@ ms.keywords: GetObjectIDsFromPersistentUniqueIDs, GetObjectIDsFromPersistentUniq
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

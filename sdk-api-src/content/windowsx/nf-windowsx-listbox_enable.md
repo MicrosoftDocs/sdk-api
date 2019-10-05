@@ -12,6 +12,8 @@ ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_Lis
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_Enable"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

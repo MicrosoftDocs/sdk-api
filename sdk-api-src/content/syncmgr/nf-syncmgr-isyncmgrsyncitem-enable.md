@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItem.Enable"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

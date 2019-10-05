@@ -12,6 +12,8 @@ ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], IO
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IObjectConstructString"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

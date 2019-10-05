@@ -12,6 +12,8 @@ ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library 
 ms.topic: function
 f1_keywords:
 - iscsidsc/SendScsiInquiry
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

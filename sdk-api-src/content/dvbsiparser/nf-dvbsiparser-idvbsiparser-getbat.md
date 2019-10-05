@@ -12,6 +12,8 @@ ms.keywords: GetBAT, GetBAT method [Microsoft TV Technologies], GetBAT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetBAT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

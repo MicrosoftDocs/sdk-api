@@ -12,6 +12,8 @@ ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "objidlbase/RPCOLEMESSAGE"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

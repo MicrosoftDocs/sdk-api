@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription me
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1BlendTransform.GetDescription"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IResourceManager interface [DirectShow],NotifyRelease method, IReso
 ms.topic: method
 f1_keywords: 
  - "strmif/IResourceManager.NotifyRelease"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_CREATE_DISK
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

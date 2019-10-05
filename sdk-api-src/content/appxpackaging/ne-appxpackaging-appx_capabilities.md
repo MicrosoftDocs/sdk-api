@@ -12,6 +12,8 @@ ms.keywords: APPX_CAPABILITIES, APPX_CAPABILITIES enumeration [App packaging and
 ms.topic: enum
 f1_keywords: 
  - "appxpackaging/APPX_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

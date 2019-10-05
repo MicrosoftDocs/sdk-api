@@ -12,6 +12,8 @@ ms.keywords: AreLunsSupported, AreLunsSupported method [VSS], AreLunsSupported m
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.AreLunsSupported
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

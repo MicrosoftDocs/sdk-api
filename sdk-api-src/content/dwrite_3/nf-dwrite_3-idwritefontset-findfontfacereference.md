@@ -12,6 +12,8 @@ ms.keywords: FindFontFaceReference, FindFontFaceReference method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSet.FindFontFaceReference"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

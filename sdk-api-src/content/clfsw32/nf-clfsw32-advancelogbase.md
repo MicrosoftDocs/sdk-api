@@ -12,6 +12,8 @@ ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLog
 ms.topic: function
 f1_keywords:
 - clfsw32/AdvanceLogBase
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

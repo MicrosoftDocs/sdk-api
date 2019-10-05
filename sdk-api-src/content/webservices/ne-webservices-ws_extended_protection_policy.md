@@ -12,6 +12,8 @@ ms.keywords: WS_EXTENDED_PROTECTION_POLICY, WS_EXTENDED_PROTECTION_POLICY enumer
 ms.topic: enum
 f1_keywords:
 - webservices/WS_EXTENDED_PROTECTION_POLICY
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

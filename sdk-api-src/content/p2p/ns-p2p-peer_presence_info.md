@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO s
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_PRESENCE_INFO"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

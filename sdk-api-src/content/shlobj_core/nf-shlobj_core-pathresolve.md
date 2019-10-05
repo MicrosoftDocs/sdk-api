@@ -12,6 +12,8 @@ ms.keywords: PRF_DONTFINDLNK, PRF_FIRSTDIRDEF, PRF_REQUIREABSOLUTE, PRF_TRYPROGR
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/PathResolve"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CMSPAddress object [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAdd
 ms.topic: function
 f1_keywords: 
  - "mspaddr/CMSPAddress.ShutdownMSPCallHelper"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

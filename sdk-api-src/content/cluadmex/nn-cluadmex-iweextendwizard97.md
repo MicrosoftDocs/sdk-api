@@ -12,6 +12,8 @@ ms.keywords: IWEExtendWizard97, IWEExtendWizard97 interface [Failover Cluster], 
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IWEExtendWizard97"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

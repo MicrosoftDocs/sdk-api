@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceControl interface [UPnP APIs],Initialize method, IUPnPDe
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPDeviceControl.Initialize"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

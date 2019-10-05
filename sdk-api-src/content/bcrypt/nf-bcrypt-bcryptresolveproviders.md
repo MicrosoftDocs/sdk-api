@@ -12,6 +12,8 @@ ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security],
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptResolveProviders
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

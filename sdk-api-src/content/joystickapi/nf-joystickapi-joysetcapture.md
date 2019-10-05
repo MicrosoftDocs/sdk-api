@@ -12,6 +12,8 @@ ms.keywords: "_win32_joySetCapture, joySetCapture, joySetCapture function [Windo
 ms.topic: function
 f1_keywords: 
  - "joystickapi/joySetCapture"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

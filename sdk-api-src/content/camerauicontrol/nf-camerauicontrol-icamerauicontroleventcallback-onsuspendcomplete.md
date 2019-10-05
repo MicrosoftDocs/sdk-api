@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnSuspendComp
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControlEventCallback.OnSuspendComplete"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

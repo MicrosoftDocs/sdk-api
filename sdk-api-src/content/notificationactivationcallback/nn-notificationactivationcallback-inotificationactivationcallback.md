@@ -12,6 +12,8 @@ ms.keywords: INotificationActivationCallback, INotificationActivationCallback in
 ms.topic: interface
 f1_keywords: 
  - "notificationactivationcallback/INotificationActivationCallback"
+dev_langs:
+ - c++
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows

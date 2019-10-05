@@ -12,6 +12,8 @@ ms.keywords: GetMaxLength, GetMaxLength method [Security], GetMaxLength method [
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWCOLUMN.GetMaxLength"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurre
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoPresenter.GetCurrentMediaType"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

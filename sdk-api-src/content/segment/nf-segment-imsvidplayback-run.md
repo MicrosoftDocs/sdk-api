@@ -12,6 +12,8 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Run method, IM
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlayback.Run"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

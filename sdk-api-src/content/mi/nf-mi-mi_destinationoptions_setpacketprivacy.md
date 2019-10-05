@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_SetPacketPrivacy, MI_DestinationOptions_SetPa
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetPacketPrivacy
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

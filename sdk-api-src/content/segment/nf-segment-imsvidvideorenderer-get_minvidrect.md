@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MinVi
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer.get_MinVidRect"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

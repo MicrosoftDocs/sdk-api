@@ -12,6 +12,8 @@ ms.keywords: Content property [Windows Deployment Services], Content property [W
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSession.Content"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

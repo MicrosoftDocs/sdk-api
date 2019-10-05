@@ -12,6 +12,8 @@ ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMC
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFEndRegisterWorkQueueWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

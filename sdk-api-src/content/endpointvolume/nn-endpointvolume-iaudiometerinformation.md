@@ -12,6 +12,8 @@ ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audi
 ms.topic: interface
 f1_keywords: 
  - "endpointvolume/IAudioMeterInformation"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

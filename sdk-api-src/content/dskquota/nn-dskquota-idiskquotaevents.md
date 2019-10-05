@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaEvents, IDiskQuotaEvents interface [Files], IDiskQuotaEve
 ms.topic: interface
 f1_keywords: 
  - "dskquota/IDiskQuotaEvents"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

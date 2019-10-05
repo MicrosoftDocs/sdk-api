@@ -12,6 +12,8 @@ ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open P
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcDigitalSignature.GetPackageObjectReference"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMEM_DES, MEM_DES, MEM_DES structure [Device and Driver Installat
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/MEM_DES"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

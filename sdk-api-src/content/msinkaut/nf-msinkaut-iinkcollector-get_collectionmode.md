@@ -12,6 +12,8 @@ ms.keywords: 390fa1a1-254a-4070-806c-c8c478f69254, CollectionMode property [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.CollectionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

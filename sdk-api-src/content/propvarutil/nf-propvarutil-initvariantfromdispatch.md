@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromDispatch, InitVariantFromDispatch function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromDispatch"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

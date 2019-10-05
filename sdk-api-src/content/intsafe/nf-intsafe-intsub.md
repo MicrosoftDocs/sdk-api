@@ -12,6 +12,8 @@ ms.keywords: IntSub, IntSub function [Windows Shell], intsafe/IntSub, shell.IntS
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

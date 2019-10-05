@@ -12,6 +12,8 @@ ms.keywords: GetPlatformWorkQueueMMCSSPriority, GetPlatformWorkQueueMMCSSPriorit
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

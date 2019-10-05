@@ -12,6 +12,8 @@ ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExte
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMClientSideExtension"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

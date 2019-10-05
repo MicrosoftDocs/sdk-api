@@ -10,6 +10,10 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete[] method, GdiplusBase.operator delete[], GdiplusBase::operator delete[], _gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, operator delete[], operator delete[] method [GDI+], operator delete[] method [GDI+],GdiplusBase class
 ms.topic: method
+f1_keywords:
+ - GdiplusBase.operator delete[]
+dev_langs:
+ - c++
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

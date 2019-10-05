@@ -12,6 +12,8 @@ ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation],
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

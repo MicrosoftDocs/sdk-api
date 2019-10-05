@@ -12,6 +12,8 @@ ms.keywords: IMFTimedText interface [Media Foundation],IsInBandEnabled method, I
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.IsInBandEnabled"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

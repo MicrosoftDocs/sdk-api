@@ -12,6 +12,8 @@ ms.keywords: IX509EnrollmentPolicyServer interface [Security],SetCredential meth
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.SetCredential"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

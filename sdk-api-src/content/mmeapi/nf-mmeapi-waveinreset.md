@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInReset, mmeapi/waveInReset, multimedia.waveinreset, wa
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInReset"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

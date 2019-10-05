@@ -12,6 +12,8 @@ ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], 
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Factory::CreateHwndRenderTarget"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRA
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIPerfCounterLogger.LogValue"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

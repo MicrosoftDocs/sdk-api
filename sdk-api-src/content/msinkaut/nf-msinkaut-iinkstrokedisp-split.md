@@ -12,6 +12,8 @@ ms.keywords: 1ae627e9-c546-485a-880c-e59d2191884d, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.Split"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

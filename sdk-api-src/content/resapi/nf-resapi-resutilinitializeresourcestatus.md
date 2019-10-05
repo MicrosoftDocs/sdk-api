@@ -12,6 +12,8 @@ ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus ma
 ms.topic: macro
 f1_keywords: 
  - "resapi/ResUtilInitializeResourceStatus"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

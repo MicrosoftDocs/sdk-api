@@ -12,6 +12,8 @@ ms.keywords: '*PEXCEPTION_RECORD, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_BO
 ms.topic: struct
 f1_keywords:
 - winnt/EXCEPTION_RECORD
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

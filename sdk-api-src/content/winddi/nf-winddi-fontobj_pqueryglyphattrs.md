@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_pQueryGlyphAttrs, FONTOBJ_pQueryGlyphAttrs function [Displa
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pQueryGlyphAttrs
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

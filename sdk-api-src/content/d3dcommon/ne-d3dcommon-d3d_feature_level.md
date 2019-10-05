@@ -12,6 +12,8 @@ ms.keywords: 8da2f171-7790-4f89-b422-ce3f6be0762e, D3D_FEATURE_LEVEL, D3D_FEATUR
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_FEATURE_LEVEL"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportClient interface [Windows Deployment Services],IpAddre
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportClient.IpAddress"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

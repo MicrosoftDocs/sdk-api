@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystem
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsSubSystemNaming.SetFriendlyName"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

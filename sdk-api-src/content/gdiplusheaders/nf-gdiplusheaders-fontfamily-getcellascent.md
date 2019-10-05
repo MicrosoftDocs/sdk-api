@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],GetCellAscent method, FontFamily.GetCellAsc
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.GetCellAscent"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

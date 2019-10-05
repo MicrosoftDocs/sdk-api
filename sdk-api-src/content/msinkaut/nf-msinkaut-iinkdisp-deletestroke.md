@@ -12,6 +12,8 @@ ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.DeleteStroke"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

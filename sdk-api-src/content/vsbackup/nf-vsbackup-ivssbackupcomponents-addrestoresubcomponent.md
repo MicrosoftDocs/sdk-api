@@ -12,6 +12,8 @@ ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRes
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.AddRestoreSubcomponent
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

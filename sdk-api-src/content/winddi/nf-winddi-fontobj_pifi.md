@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_pifi, FONTOBJ_pifi function [Display Devices], display.font
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pifi
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

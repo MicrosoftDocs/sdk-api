@@ -12,6 +12,8 @@ ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes,
 ms.topic: function
 f1_keywords:
 - dmoreg/DMOGetTypes
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

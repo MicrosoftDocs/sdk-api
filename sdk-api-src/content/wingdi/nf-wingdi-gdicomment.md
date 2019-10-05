@@ -12,6 +12,8 @@ ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/GdiComment"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

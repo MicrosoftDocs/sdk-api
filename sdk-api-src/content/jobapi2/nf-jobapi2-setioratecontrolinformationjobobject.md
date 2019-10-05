@@ -12,6 +12,8 @@ ms.keywords: SetIoRateControlInformationJobObject, SetIoRateControlInformationJo
 ms.topic: function
 f1_keywords: 
  - "jobapi2/SetIoRateControlInformationJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_RECURRENT_NETWORK_DIRECTION, DML_RECURRENT_NETWORK_DIRECTION en
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_RECURRENT_NETWORK_DIRECTION"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

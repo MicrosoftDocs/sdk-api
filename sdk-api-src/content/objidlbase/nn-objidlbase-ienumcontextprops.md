@@ -12,6 +12,8 @@ ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], IEnumContextP
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IEnumContextProps"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

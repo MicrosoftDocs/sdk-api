@@ -12,6 +12,8 @@ ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordF
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IStemmer.GenerateWordForms"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

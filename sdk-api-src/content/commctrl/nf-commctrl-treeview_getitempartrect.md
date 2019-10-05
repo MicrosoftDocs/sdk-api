@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetItemPartRect, TreeView_GetItemPartRect macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetItemPartRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_IPADDR_ENABLENETBIOS, CLUSPROP_IPADDR_ENABLENETBIOS enumer
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSPROP_IPADDR_ENABLENETBIOS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

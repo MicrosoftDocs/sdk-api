@@ -12,6 +12,8 @@ ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCN
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.SetPassword"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

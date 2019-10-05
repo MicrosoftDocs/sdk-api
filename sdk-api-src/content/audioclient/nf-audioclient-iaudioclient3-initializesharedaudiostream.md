@@ -12,6 +12,8 @@ ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream me
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient3.InitializeSharedAudioStream"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

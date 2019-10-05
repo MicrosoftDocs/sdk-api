@@ -12,6 +12,8 @@ ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interfac
 ms.topic: interface
 f1_keywords: 
  - "mdhcp/IMcastScope"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

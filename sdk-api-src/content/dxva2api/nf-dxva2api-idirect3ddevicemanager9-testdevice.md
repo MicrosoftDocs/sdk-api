@@ -12,6 +12,8 @@ ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],TestDevice met
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirect3DDeviceManager9.TestDevice"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

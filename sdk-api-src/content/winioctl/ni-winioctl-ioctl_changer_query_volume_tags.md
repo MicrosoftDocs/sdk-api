@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

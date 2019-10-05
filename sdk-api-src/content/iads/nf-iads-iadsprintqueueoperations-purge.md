@@ -12,6 +12,8 @@ ms.keywords: IADsPrintQueueOperations interface [ADSI],Purge method, IADsPrintQu
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPrintQueueOperations.Purge"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

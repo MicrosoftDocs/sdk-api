@@ -12,6 +12,8 @@ ms.keywords: GetJustifiedGlyphs, GetJustifiedGlyphs method [Direct Write], GetJu
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

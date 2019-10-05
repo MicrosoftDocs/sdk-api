@@ -12,6 +12,8 @@ ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChange
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideDataEvent.ProgramChanged"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

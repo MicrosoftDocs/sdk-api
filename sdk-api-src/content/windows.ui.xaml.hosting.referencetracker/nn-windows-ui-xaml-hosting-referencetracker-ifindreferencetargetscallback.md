@@ -12,6 +12,8 @@ ms.keywords: IFindReferenceTargetsCallback, IFindReferenceTargetsCallback interf
 ms.topic: interface
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

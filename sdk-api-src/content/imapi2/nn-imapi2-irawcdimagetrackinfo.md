@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], IRawC
 ms.topic: interface
 f1_keywords:
 - imapi2/IRawCDImageTrackInfo
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

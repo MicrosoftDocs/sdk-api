@@ -12,6 +12,8 @@ ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixi
 ms.topic: function
 f1_keywords: 
  - "x3daudio/X3DAudioInitialize"
+dev_langs:
+ - c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

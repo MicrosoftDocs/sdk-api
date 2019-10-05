@@ -12,6 +12,8 @@ ms.keywords: IWindowsUpdateAgentInfo, IWindowsUpdateAgentInfo interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IWindowsUpdateAgentInfo"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

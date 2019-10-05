@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Com
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapClipper"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

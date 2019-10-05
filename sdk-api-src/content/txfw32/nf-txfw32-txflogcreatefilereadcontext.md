@@ -12,6 +12,8 @@ ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [
 ms.topic: function
 f1_keywords:
 - txfw32/TxfLogCreateFileReadContext
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

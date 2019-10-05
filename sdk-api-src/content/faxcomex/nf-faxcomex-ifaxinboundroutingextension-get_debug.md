@@ -12,6 +12,8 @@ ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxInbo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingExtension.Debug"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

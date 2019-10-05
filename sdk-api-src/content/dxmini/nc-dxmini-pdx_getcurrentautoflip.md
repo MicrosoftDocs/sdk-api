@@ -12,6 +12,8 @@ ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Displ
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetCurrentAutoflip
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

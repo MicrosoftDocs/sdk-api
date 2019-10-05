@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_ASYNC_COMPLETION_CALLBACK, PWINBIO_ASYNC_COMPLETION_CALLBAC
 ms.topic: callback
 f1_keywords:
 - winbio/PWINBIO_ASYNC_COMPLETION_CALLBACK
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

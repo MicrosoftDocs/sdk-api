@@ -12,6 +12,8 @@ ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInp
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.GetUserInput"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

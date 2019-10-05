@@ -12,6 +12,8 @@ ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, I
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

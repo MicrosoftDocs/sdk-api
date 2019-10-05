@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [DirectShow], GetValue method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "strmif/ICodecAPI.GetValue"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

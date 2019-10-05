@@ -12,6 +12,8 @@ ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SER
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAddServiceAccount"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

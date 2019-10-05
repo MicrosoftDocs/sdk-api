@@ -12,6 +12,8 @@ ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDevi
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9.CheckDeviceFormat"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

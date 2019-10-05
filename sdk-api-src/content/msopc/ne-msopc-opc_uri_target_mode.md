@@ -12,6 +12,8 @@ ms.keywords: OPC_URI_TARGET_MODE, OPC_URI_TARGET_MODE enumeration [Open Packagin
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_URI_TARGET_MODE"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

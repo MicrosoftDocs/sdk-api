@@ -12,6 +12,8 @@ ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName func
 ms.topic: function
 f1_keywords:
 - aclapi/BuildTrusteeWithObjectsAndName
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

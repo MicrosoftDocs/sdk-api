@@ -12,6 +12,8 @@ ms.keywords: 12286442-1fa2-0c8c-14c5-6c9af4348aee, ID3D11Buffer, ID3D11Buffer in
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11Buffer"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

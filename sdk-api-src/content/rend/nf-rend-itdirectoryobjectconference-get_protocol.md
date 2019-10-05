@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Protocol metho
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObjectConference.get_Protocol"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

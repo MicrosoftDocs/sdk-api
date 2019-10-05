@@ -12,6 +12,8 @@ ms.keywords: DHPUBKEY_VER3, DHPUBKEY_VER3 structure [Security], DSSPUBKEY_VER3, 
 ms.topic: struct
 f1_keywords:
 - wincrypt/DHPUBKEY_VER3
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

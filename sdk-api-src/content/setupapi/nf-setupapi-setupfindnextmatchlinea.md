@@ -12,6 +12,8 @@ ms.keywords: SetupFindNextMatchLine, SetupFindNextMatchLine function [Setup API]
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupFindNextMatchLine"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

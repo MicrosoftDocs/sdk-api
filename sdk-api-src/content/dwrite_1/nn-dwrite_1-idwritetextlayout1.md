@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout1, IDWriteTextLayout1 interface [Direct Write], ID
 ms.topic: interface
 f1_keywords: 
  - "dwrite_1/IDWriteTextLayout1"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

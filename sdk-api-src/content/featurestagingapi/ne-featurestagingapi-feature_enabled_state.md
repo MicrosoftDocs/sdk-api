@@ -12,6 +12,8 @@ ms.keywords: FEATURE_ENABLED_STATE, FEATURE_ENABLED_STATE enumeration [Windows A
 ms.topic: enum
 f1_keywords: 
  - "featurestagingapi/FEATURE_ENABLED_STATE"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

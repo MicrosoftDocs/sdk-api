@@ -12,6 +12,8 @@ ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkPresenterDesktop.SetSize"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

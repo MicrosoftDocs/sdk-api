@@ -12,6 +12,8 @@ ms.keywords: IADsObjectOptions interface [ADSI],SetOption method, IADsObjectOpti
 ms.topic: method
 f1_keywords: 
  - "iads/IADsObjectOptions.SetOption"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

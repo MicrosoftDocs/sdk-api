@@ -12,6 +12,8 @@ ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler
 ms.topic: method
 f1_keywords: 
  - "taskschd/IPrincipal.GroupId"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

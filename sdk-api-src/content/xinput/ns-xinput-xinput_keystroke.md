@@ -12,6 +12,8 @@ ms.keywords: "*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure
 ms.topic: struct
 f1_keywords: 
  - "xinput/XINPUT_KEYSTROKE"
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent interface [ETW],SetTimeStamp method, ITraceEvent.SetTim
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEvent.SetTimeStamp"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

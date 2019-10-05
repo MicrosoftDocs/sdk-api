@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTim
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.ProcessMoveWithTime"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

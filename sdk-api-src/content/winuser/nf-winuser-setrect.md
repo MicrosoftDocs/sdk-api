@@ -12,6 +12,8 @@ ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrec
 ms.topic: function
 f1_keywords: 
  - "winuser/SetRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

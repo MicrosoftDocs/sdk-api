@@ -12,6 +12,8 @@ ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.BezierPoints"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

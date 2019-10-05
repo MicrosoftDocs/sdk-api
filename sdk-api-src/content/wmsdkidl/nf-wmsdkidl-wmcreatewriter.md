@@ -12,6 +12,8 @@ ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmf
 ms.topic: function
 f1_keywords: 
  - "wmsdkidl/WMCreateWriter"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

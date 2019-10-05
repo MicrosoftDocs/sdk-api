@@ -12,6 +12,8 @@ ms.keywords: 9e64bfa1-7fde-b141-e176-3bdc98f92982, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectType.GetDesc
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

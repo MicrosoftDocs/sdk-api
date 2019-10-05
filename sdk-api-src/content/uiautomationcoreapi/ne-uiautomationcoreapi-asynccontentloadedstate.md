@@ -12,6 +12,8 @@ ms.keywords: AsyncContentLoadedState, AsyncContentLoadedState enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/AsyncContentLoadedState"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

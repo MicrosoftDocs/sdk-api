@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValues method,
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace5.GetFontAxisValues"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

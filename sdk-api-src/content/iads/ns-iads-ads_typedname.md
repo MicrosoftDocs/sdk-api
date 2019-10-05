@@ -12,6 +12,8 @@ ms.keywords: "*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PA
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_TYPEDNAME"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

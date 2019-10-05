@@ -12,6 +12,8 @@ ms.keywords: KspVerifySignatureFn, KspVerifySignatureFn callback, SpVerifySignat
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpVerifySignature
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
 ms.topic: language-reference
 f1_keywords: 
  - "lmdfs/_DFS_TARGET_PRIORITY_CLASS"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

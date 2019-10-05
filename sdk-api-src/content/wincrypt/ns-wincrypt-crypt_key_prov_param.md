@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_KEY_PROV_PARAM
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

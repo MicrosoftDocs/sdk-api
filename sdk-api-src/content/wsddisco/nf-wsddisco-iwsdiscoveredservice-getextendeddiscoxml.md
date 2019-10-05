@@ -12,6 +12,8 @@ ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXM
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetExtendedDiscoXML
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

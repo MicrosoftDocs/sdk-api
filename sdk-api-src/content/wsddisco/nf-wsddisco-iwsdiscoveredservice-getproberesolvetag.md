@@ -12,6 +12,8 @@ ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag m
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveredService.GetProbeResolveTag"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

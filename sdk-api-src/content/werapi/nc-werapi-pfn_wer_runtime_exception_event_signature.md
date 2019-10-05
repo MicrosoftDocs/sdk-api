@@ -12,6 +12,8 @@ ms.keywords: OutOfProcessExceptionEventSignatureCallback, OutOfProcessExceptionE
 ms.topic: callback
 f1_keywords:
 - werapi/OutOfProcessExceptionEventSignatureCallback
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

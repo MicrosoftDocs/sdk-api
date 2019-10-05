@@ -12,6 +12,8 @@ ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], win
 ms.topic: function
 f1_keywords:
 - winsock/getsockopt
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

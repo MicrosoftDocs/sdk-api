@@ -12,6 +12,8 @@ ms.keywords: '*PONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UP
 ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_RESULT_UPDATE_DATA
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

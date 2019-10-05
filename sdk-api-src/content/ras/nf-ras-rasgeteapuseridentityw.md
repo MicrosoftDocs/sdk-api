@@ -12,6 +12,8 @@ ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUs
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetEapUserIdentity"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

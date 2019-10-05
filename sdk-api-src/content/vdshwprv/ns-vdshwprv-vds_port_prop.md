@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], bas
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PORT_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

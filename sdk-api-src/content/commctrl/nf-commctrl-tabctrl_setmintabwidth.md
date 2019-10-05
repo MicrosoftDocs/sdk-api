@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetMinTabWidth, TabCtrl_SetMinTabWidth macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetMinTabWidth"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

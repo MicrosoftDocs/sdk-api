@@ -12,6 +12,8 @@ ms.keywords: GET_APPCOMMAND_LPARAM, GET_APPCOMMAND_LPARAM macro [Keyboard and Mo
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_APPCOMMAND_LPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

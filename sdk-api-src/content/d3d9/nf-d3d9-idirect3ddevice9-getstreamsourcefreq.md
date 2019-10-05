@@ -12,6 +12,8 @@ ms.keywords: 5a7d1b69-c1ef-f38d-2536-b01c718bd9b6, GetStreamSourceFreq, GetStrea
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetStreamSourceFreq"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

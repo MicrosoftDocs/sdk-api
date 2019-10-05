@@ -12,6 +12,8 @@ ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexte
 ms.topic: function
 f1_keywords:
 - wofapi/WofIsExternalFile
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

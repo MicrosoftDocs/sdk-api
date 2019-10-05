@@ -12,6 +12,8 @@ ms.keywords: IsProcessorFeaturePresent, IsProcessorFeaturePresent function, PF_3
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/IsProcessorFeaturePresent"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

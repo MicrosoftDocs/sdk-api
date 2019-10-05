@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_T
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifySubjectCertificateContext
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

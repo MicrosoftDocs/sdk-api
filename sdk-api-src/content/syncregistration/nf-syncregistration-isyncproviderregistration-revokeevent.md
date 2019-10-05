@@ -12,6 +12,8 @@ ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent meth
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderRegistration.RevokeEvent"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

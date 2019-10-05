@@ -12,6 +12,8 @@ ms.keywords: GetAttribute, GetAttribute method [Text Services Framework], GetAtt
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwner.GetAttribute"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

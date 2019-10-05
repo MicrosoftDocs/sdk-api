@@ -12,6 +12,8 @@ ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], IA
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzBizRuleParameters"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

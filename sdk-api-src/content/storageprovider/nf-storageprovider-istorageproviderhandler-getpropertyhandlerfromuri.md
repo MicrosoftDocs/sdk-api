@@ -12,6 +12,8 @@ ms.keywords: GetPropertyHandlerFromUri, GetPropertyHandlerFromUri method [Window
 ms.topic: method
 f1_keywords: 
  - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromUri"
+dev_langs:
+ - c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [W
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_MapAccIDToHTREEITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], Enumera
 ms.topic: method
 f1_keywords:
 - identitystore/IIdentityStore.EnumerateIdentities
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

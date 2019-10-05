@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],get_Item method, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRules.get_Item"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

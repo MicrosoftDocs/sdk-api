@@ -12,6 +12,8 @@ ms.keywords: BatteryClassUnload, BatteryClassUnload function [Battery Devices], 
 ms.topic: function
 f1_keywords: 
  - "batclass/BatteryClassUnload"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

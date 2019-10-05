@@ -12,6 +12,8 @@ ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, sh
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsEmpty
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

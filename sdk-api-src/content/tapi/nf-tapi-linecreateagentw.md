@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function 
 ms.topic: function
 f1_keywords: 
  - "tapi/lineCreateAgent"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

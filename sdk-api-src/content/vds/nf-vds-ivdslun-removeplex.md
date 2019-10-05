@@ -12,6 +12,8 @@ ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVds
 ms.topic: method
 f1_keywords:
 - vds/IVdsLun.RemovePlex
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Contro
 ms.topic: function
 f1_keywords:
 - xinput/XInputGetKeystroke
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

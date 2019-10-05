@@ -12,6 +12,8 @@ ms.keywords: IFaxSender interface [Fax Service],StreetAddress property, IFaxSend
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.StreetAddress"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

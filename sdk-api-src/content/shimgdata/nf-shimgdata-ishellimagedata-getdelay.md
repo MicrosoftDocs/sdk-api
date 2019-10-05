@@ -12,6 +12,8 @@ ms.keywords: GetDelay, GetDelay method [Windows Shell], GetDelay method [Windows
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetDelay"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

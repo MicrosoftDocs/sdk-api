@@ -12,6 +12,8 @@ ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Ma
 ms.topic: class
 f1_keywords: 
  - "thrdbase/CThreadBase"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFrameBufferBits, GetFrameBufferBits method [RDP], GetFrameBuffer
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIFrameBuffer.GetFrameBufferBits"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

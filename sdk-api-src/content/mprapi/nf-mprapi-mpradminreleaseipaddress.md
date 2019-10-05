@@ -12,6 +12,8 @@ ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdm
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminReleaseIpAddress"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

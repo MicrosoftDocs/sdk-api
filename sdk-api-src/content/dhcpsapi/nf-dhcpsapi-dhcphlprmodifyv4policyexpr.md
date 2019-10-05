@@ -12,6 +12,8 @@ ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DH
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprModifyV4PolicyExpr
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

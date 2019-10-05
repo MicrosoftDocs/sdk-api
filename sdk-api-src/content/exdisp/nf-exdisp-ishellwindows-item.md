@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.
 ms.topic: method
 f1_keywords: 
  - "exdisp/IShellWindows.Item"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

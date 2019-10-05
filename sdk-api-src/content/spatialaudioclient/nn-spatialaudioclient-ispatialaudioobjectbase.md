@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectBase, ISpatialAudioObjectBase interface [Core Au
 ms.topic: interface
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectBase"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

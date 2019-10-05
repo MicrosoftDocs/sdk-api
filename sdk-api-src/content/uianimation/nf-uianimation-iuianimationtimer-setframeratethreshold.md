@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimer interface [Windows Animation],SetFrameRateThresho
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimer.SetFrameRateThreshold"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

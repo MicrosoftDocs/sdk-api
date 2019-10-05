@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetColo
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientBrush.SetColorInterpolationMode"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInit
 ms.topic: function
 f1_keywords:
 - mfapi/MFInitVideoFormat_RGB
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

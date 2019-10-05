@@ -12,6 +12,8 @@ ms.keywords: IInterval, IInterval interface [search], IInterval interface [searc
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IInterval"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

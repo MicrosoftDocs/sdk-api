@@ -12,6 +12,8 @@ ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMRSOP.ReleaseQueryResults"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

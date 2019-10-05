@@ -12,6 +12,8 @@ ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_
 ms.topic: function
 f1_keywords: 
  - "traffic/TcEnumerateInterfaces"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

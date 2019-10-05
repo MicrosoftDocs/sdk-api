@@ -12,6 +12,8 @@ ms.keywords: PathGradientBrush class [GDI+],SetGammaCorrection method, PathGradi
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.SetGammaCorrection"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

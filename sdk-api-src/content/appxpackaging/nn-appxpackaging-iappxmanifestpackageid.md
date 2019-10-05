@@ -12,6 +12,8 @@ ms.keywords: IAppxManifestPackageId, IAppxManifestPackageId interface [App packa
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxManifestPackageId"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

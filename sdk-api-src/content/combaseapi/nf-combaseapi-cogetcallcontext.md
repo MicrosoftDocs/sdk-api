@@ -12,6 +12,8 @@ ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallCo
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetCallContext"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

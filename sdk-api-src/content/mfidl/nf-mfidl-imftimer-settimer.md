@@ -12,6 +12,8 @@ ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer interface [Media Fou
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTimer.SetTimer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

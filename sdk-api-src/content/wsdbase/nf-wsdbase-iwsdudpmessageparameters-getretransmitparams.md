@@ -12,6 +12,8 @@ ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParam
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpMessageParameters.GetRetransmitParams
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows

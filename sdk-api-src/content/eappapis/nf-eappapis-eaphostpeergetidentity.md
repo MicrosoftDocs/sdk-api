@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], 
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetIdentity
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

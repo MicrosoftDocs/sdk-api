@@ -12,6 +12,8 @@ ms.keywords: IObjectIds interface [Security],ItemByIndex property, IObjectIds.It
 ms.topic: method
 f1_keywords: 
  - "certenroll/IObjectIds.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

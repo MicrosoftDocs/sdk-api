@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual2, IShellFolderViewDual2 interface [Windows She
 ms.topic: interface
 f1_keywords: 
  - "shldisp/IShellFolderViewDual2"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ListView_GetCountPerPage, ListView_GetCountPerPage macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetCountPerPage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

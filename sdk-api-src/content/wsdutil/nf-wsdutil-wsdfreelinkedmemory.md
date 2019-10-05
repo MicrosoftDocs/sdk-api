@@ -12,6 +12,8 @@ ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinke
 ms.topic: function
 f1_keywords: 
  - "wsdutil/WSDFreeLinkedMemory"
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],S
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMLinearGradientBrush.SetEndPoint"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

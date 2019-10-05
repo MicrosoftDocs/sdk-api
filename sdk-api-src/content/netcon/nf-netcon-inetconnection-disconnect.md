@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.Disconnect"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

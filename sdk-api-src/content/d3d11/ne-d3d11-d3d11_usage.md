@@ -12,6 +12,8 @@ ms.keywords: 7ab4ccb7-1e59-6a38-2ca4-dd87773c596d, D3D11_USAGE, D3D11_USAGE enum
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_USAGE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5, GetVideoWindow, GetVideoWindo
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetVideoWindow"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

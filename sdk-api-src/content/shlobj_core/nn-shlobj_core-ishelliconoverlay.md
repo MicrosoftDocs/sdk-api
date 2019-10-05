@@ -12,6 +12,8 @@ ms.keywords: IShellIconOverlay, IShellIconOverlay interface [Windows Shell], ISh
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IShellIconOverlay"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

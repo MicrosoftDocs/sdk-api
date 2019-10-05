@@ -12,6 +12,8 @@ ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCoun
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetStreamCount"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QPMO_APPEND_LCID_TO_LOCALIZED_PATH, QPMO_LOCALIZED_SCHEMA_BINARY_PA
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/QUERY_PARSER_MANAGER_OPTION"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontro
 ms.topic: struct
 f1_keywords: 
  - "ocidl/QACONTROL"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

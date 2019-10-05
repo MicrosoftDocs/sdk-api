@@ -12,6 +12,8 @@ ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_IN
 ms.topic: struct
 f1_keywords: 
  - "scesvc/SCESVC_CALLBACK_INFO"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

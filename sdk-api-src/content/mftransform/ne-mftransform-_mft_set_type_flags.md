@@ -12,6 +12,8 @@ ms.keywords: MFT_SET_TYPE_TEST_ONLY, _MFT_SET_TYPE_FLAGS, _MFT_SET_TYPE_FLAGS en
 ms.topic: enum
 f1_keywords: 
  - "mftransform/_MFT_SET_TYPE_FLAGS"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegetid, phoneGetID, phoneGetID function [TAPI 2.2], pho
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetID"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

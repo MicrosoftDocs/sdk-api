@@ -12,6 +12,8 @@ ms.keywords: ExcludeFolders property [File Server Resource Manager], ExcludeFold
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmAutoApplyQuota.ExcludeFolders"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

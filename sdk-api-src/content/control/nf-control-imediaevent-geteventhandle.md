@@ -12,6 +12,8 @@ ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle 
 ms.topic: method
 f1_keywords: 
  - "control/IMediaEvent.GetEventHandle"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

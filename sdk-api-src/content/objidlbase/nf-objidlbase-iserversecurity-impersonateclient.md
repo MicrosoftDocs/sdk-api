@@ -12,6 +12,8 @@ ms.keywords: IServerSecurity interface [COM],ImpersonateClient method, IServerSe
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IServerSecurity.ImpersonateClient"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

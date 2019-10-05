@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [Windows Sync], GetVersion method [Wi
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetVersion"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

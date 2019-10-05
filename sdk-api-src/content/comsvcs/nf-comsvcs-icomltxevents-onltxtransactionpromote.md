@@ -12,6 +12,8 @@ ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, ICom
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComLTxEvents.OnLtxTransactionPromote"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

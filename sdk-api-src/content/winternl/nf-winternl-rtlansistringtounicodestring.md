@@ -12,6 +12,8 @@ ms.keywords: FALSE, RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString f
 ms.topic: function
 f1_keywords:
 - winternl/RtlAnsiStringToUnicodeString
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

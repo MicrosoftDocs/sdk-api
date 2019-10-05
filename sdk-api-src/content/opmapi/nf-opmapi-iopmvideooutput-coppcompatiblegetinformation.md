@@ -12,6 +12,8 @@ ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [
 ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.COPPCompatibleGetInformation
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

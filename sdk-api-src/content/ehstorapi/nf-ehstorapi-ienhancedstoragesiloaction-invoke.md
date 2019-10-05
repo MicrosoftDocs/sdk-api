@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageSiloAction interface [Enhanced Storage],Invoke meth
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSiloAction.Invoke"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PeerDistClientOpenContent, PeerDistClientOpenContent function [Peer
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistClientOpenContent"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

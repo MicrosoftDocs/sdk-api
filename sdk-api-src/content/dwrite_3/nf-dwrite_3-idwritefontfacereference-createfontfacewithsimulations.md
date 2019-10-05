@@ -12,6 +12,8 @@ ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFaceReference.CreateFontFaceWithSimulations"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProvider, GetProvider method [MMC], GetProvider method [MMC],ISn
 ms.topic: method
 f1_keywords: 
  - "mmc/ISnapinAbout.GetProvider"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

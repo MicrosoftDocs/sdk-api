@@ -12,6 +12,8 @@ ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCo
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.FreeBuffers"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

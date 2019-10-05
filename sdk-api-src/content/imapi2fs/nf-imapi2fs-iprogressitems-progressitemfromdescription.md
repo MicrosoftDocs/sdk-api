@@ -12,6 +12,8 @@ ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IProgressItems.ProgressItemFromDescription"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

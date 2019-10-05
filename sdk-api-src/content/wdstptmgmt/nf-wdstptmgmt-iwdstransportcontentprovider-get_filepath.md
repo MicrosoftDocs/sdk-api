@@ -12,6 +12,8 @@ ms.keywords: FilePath property [Windows Deployment Services], FilePath property 
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportContentProvider.FilePath"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

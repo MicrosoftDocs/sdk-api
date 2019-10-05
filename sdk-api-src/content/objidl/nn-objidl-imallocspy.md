@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMallocSpy"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

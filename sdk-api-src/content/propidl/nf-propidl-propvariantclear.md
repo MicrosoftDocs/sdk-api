@@ -12,6 +12,8 @@ ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _
 ms.topic: function
 f1_keywords: 
  - "propidl/PropVariantClear"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

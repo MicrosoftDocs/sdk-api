@@ -12,6 +12,8 @@ ms.keywords: GetRecordServiceId, GetRecordServiceId method [DirectShow], GetReco
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordServiceId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

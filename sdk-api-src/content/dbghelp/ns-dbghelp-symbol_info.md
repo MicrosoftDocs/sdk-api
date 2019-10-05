@@ -12,6 +12,8 @@ ms.keywords: "*PSYMBOL_INFO, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBO
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/SYMBOL_INFO"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

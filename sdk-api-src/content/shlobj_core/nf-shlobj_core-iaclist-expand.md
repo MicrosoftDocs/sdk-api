@@ -12,6 +12,8 @@ ms.keywords: Expand, Expand method [Windows Shell], Expand method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IACList.Expand"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

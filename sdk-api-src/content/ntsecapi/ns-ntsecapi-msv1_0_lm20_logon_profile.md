@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_LM20_LOGON_PROFILE, LOGON_CACHED_ACCOUNT, LOGON_EXTRA_SID
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_LM20_LOGON_PROFILE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoResumeClassObjects, CoResumeClassObjects function [COM], _com_CoR
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoResumeClassObjects"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

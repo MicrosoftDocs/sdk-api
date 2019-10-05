@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationBoolCondition, IUIAutomationBoolCondition interface [W
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationBoolCondition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

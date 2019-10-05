@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_REGISTRATION_STATE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

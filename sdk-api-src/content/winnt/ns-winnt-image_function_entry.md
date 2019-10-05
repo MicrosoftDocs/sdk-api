@@ -12,6 +12,8 @@ ms.keywords: '*PIMAGE_FUNCTION_ENTRY, IMAGE_FUNCTION_ENTRY, IMAGE_FUNCTION_ENTRY
 ms.topic: struct
 f1_keywords:
 - winnt/IMAGE_FUNCTION_ENTRY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThr
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IThreadPoolKnobs.SetMaxQueuedRequests"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

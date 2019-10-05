@@ -12,6 +12,8 @@ ms.keywords: WsFindAttribute, WsFindAttribute function [Web Services for Windows
 ms.topic: function
 f1_keywords:
 - webservices/WsFindAttribute
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

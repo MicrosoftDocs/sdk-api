@@ -12,6 +12,8 @@ ms.keywords: WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS, WSMAN_OPTION_DEF
 ms.topic: enum
 f1_keywords: 
  - "wsman/WSManSessionOption"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

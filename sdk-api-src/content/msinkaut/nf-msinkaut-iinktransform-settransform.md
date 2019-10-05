@@ -12,6 +12,8 @@ ms.keywords: 5b734703-4117-4668-b881-4ba4e1c65189, IInkTransform interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.SetTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

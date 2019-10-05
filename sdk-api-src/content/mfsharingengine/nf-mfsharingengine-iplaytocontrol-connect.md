@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IPlayToControl.Connect"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

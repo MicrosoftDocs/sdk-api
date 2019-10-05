@@ -12,6 +12,8 @@ ms.keywords: "*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structu
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINELOCATIONENTRY"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

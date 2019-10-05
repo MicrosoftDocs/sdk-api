@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific fun
 ms.topic: function
 f1_keywords: 
  - "tapi/lineAgentSpecific"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

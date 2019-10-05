@@ -12,6 +12,8 @@ ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS callback, PFN_
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

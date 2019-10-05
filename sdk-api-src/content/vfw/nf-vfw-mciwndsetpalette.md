@@ -12,6 +12,8 @@ ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndSetPalette"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

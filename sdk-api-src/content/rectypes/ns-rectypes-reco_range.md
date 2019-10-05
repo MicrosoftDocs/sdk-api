@@ -12,6 +12,8 @@ ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE struct
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_RANGE"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

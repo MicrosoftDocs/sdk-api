@@ -12,6 +12,8 @@ ms.keywords: ISensLogon2 interface [SENS],Logon method, ISensLogon2.Logon, ISens
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon2.Logon"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

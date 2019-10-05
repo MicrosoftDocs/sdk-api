@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],Transform method, GraphicsPath.Transform,
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.Transform"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], display.ciechroma
 ms.topic: struct
 f1_keywords:
 - winddi/CIECHROMA
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

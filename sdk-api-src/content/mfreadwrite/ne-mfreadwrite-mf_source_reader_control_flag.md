@@ -12,6 +12,8 @@ ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_
 ms.topic: enum
 f1_keywords: 
  - "mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

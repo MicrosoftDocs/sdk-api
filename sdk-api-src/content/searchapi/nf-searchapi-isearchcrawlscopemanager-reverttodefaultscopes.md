@@ -12,6 +12,8 @@ ms.keywords: ISearchCrawlScopeManager interface [search],RevertToDefaultScopes m
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.RevertToDefaultScopes"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

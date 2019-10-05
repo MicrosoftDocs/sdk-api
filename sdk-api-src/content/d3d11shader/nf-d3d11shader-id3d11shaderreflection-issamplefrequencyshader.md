@@ -12,6 +12,8 @@ ms.keywords: 55289906-bcde-3c18-a7a9-103b6e0d4c54, ID3D11ShaderReflection interf
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.IsSampleFrequencyShader"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

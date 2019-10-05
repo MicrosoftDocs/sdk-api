@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler]
 ms.topic: method
 f1_keywords: 
  - "mstask/IEnumWorkItems.Clone"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreatePermission, CreatePermission method [GPMC], CreatePermission 
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.CreatePermission"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

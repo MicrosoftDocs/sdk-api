@@ -12,6 +12,8 @@ ms.keywords: D3D12_BOX, D3D12_BOX structure, d3d12/D3D12_BOX, direct3d12.d3d12_b
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_BOX"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

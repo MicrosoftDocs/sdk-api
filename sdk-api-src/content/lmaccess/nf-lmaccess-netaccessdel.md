@@ -12,6 +12,8 @@ ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAccessDel"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

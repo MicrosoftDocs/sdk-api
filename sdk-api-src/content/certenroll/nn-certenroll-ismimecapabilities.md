@@ -12,6 +12,8 @@ ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmime
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ISmimeCapabilities"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

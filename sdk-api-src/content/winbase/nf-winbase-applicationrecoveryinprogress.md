@@ -12,6 +12,8 @@ ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress functi
 ms.topic: function
 f1_keywords: 
  - "winbase/ApplicationRecoveryInProgress"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

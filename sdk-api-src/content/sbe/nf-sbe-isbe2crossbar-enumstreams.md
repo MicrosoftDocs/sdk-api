@@ -12,6 +12,8 @@ ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumSt
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2Crossbar.EnumStreams"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

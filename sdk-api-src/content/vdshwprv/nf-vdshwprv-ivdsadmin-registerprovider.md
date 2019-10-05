@@ -12,6 +12,8 @@ ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.Regist
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsAdmin.RegisterProvider
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

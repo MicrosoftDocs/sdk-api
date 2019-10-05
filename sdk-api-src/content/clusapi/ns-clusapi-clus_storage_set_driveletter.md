@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER, CLUS
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_STORAGE_SET_DRIVELETTER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

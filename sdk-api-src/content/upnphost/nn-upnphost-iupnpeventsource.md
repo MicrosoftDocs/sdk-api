@@ -12,6 +12,8 @@ ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], IUPnPEven
 ms.topic: interface
 f1_keywords: 
  - "upnphost/IUPnPEventSource"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManage
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateStandardQualityManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

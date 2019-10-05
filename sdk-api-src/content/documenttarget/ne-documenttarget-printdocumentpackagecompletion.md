@@ -12,6 +12,8 @@ ms.keywords: PrintDocumentPackageCompletion, PrintDocumentPackageCompletion enum
 ms.topic: enum
 f1_keywords: 
  - "documenttarget/PrintDocumentPackageCompletion"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

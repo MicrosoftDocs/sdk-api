@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_REMOVE_RESOU
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilRemoveResourceServiceEnvironment"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HandlePropertyChangedEvent, HandlePropertyChangedEvent method [Wind
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

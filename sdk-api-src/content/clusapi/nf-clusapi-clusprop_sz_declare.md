@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_SZ_DECLARE, CLUSPROP_SZ_DECLARE macro [Failover Cluster], 
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSPROP_SZ_DECLARE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

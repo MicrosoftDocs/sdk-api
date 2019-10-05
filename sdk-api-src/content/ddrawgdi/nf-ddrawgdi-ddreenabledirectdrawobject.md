@@ -12,6 +12,8 @@ ms.keywords: DdReenableDirectDrawObject, DdReenableDirectDrawObject function [Wi
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdReenableDirectDrawObject"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

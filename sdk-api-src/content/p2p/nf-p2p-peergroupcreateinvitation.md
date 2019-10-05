@@ -12,6 +12,8 @@ ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvit
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGroupCreateInvitation"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

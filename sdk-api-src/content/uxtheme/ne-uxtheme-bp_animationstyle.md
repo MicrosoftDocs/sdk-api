@@ -12,6 +12,8 @@ ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, B
 ms.topic: enum
 f1_keywords:
 - uxtheme/BP_ANIMATIONSTYLE
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

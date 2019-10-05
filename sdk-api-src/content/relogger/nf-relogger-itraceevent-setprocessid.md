@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetPro
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEvent.SetProcessId"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

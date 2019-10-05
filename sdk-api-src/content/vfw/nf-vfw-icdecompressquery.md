@@ -12,6 +12,8 @@ ms.keywords: ICDecompressQuery, ICDecompressQuery macro [Windows Multimedia], _w
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDecompressQuery"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

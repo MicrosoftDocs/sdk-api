@@ -12,6 +12,8 @@ ms.keywords: AllocSysString, AllocSysString method [Windows Management Instrumen
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.AllocSysString"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

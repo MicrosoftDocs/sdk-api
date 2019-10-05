@@ -12,6 +12,8 @@ ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server 
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassifierModuleImplementation.DoesPropertyValueApply"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

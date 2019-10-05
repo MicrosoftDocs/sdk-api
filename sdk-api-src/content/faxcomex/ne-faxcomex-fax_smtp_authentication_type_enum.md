@@ -12,6 +12,8 @@ ms.keywords: FAX_SMTP_AUTHENTICATION_TYPE_ENUM, FAX_SMTP_AUTHENTICATION_TYPE_ENU
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

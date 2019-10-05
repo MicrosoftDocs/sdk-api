@@ -12,6 +12,8 @@ ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNoti
 ms.topic: method
 f1_keywords:
 - vpnotify/IVPNotify.SetDeinterlaceMode
+dev_langs:
+ - c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

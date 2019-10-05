@@ -12,6 +12,8 @@ ms.keywords: CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_c
 ms.topic: function
 f1_keywords: 
  - "winbase/CopyFile"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [
 ms.topic: method
 f1_keywords: 
  - "d2d1_2/ID2D1Factory2.CreateDevice"
+dev_langs:
+ - c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

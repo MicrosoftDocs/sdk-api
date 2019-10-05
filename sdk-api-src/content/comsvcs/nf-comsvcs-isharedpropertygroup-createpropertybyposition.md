@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyByPosition, CreatePropertyByPosition method [COM+], C
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISharedPropertyGroup.CreatePropertyByPosition"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectS
 ms.topic: method
 f1_keywords: 
  - "austream/IAudioData.GetFormat"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Wind
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_ModifyInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

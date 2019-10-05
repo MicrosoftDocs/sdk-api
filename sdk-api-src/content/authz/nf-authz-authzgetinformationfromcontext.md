@@ -12,6 +12,8 @@ ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext func
 ms.topic: function
 f1_keywords:
 - authz/AuthzGetInformationFromContext
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

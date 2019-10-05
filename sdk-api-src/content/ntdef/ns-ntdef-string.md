@@ -12,6 +12,8 @@ ms.keywords: "*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver A
 ms.topic: struct
 f1_keywords: 
  - "ntdef/ANSI_STRING"
+dev_langs:
+ - c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows

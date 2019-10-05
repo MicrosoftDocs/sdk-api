@@ -12,6 +12,8 @@ ms.keywords: GetClusterMetrics, GetClusterMetrics method [Direct Write], GetClus
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetClusterMetrics"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EC_SUBSCRIPTION_TYPE, EC_SUBSCRIPTION_TYPE enumeration, EcSubscript
 ms.topic: enum
 f1_keywords: 
  - "evcoll/EC_SUBSCRIPTION_TYPE"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA struc
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_UPDATEVPORTDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

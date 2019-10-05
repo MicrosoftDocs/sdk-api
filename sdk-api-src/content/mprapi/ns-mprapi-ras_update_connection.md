@@ -12,6 +12,8 @@ ms.keywords: '*PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNE
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_UPDATE_CONNECTION
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

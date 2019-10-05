@@ -12,6 +12,8 @@ ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX50
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCmc2.InitializeFromTemplate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

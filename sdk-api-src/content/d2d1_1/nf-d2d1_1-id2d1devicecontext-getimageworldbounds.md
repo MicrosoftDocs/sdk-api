@@ -12,6 +12,8 @@ ms.keywords: GetImageWorldBounds, GetImageWorldBounds method [Direct2D], GetImag
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1DeviceContext.GetImageWorldBounds"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngDitherColor, EngDitherColor function [Display Devices], display.
 ms.topic: function
 f1_keywords: 
  - "winddi/EngDitherColor"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

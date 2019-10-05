@@ -12,6 +12,8 @@ ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

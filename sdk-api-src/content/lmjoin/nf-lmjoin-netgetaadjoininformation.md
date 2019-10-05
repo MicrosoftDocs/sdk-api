@@ -12,6 +12,8 @@ ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Networ
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetGetAadJoinInformation"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows

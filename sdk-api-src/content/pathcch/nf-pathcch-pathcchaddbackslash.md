@@ -12,6 +12,8 @@ ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchAddBackslash"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

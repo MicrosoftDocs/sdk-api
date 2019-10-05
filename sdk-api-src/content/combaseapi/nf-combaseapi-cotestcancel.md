@@ -12,6 +12,8 @@ ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.c
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoTestCancel"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddUserName, AddUserName method [Files], AddUserName method [Files]
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.AddUserName"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

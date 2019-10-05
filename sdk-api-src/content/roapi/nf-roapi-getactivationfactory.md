@@ -12,6 +12,8 @@ ms.keywords: GetActivationFactory, GetActivationFactory function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "roapi/GetActivationFactory"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: Stdafx.h
 req.target-type: Windows

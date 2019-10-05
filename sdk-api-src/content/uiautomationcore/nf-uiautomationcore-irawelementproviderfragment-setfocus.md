@@ -12,6 +12,8 @@ ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],SetFo
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderFragment.SetFocus"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

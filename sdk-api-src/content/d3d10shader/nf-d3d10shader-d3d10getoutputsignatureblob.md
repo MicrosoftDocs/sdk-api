@@ -12,6 +12,8 @@ ms.keywords: 382beedc-1aca-4e82-21cd-d4d2e0934d38, D3D10GetOutputSignatureBlob, 
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10GetOutputSignatureBlob"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

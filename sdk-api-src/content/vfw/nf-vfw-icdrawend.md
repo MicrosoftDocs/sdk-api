@@ -12,6 +12,8 @@ ms.keywords: ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, 
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDrawEnd"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

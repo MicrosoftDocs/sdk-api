@@ -12,6 +12,8 @@ ms.keywords: IsCanonicalPixelFormat, IsCanonicalPixelFormat function [GDI+], _gd
 ms.topic: function
 f1_keywords: 
  - "gdipluspixelformats/IsCanonicalPixelFormat"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

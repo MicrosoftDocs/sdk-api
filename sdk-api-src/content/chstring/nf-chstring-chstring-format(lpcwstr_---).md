@@ -9,6 +9,8 @@ ms.keywords: CHString::Format
 ms.topic: language-reference
 f1_keywords: 
  - "chstring/CHString::Format"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

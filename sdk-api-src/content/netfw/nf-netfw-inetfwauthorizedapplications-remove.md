@@ -12,6 +12,8 @@ ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Remove method, INe
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwAuthorizedApplications.Remove"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3
 ms.topic: function
 f1_keywords: 
  - "d2d1_1/D2D1Vec3Length"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ConfirmEncryptionLoss, ConfirmEncryptionLoss method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferAdviseSink.ConfirmEncryptionLoss"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

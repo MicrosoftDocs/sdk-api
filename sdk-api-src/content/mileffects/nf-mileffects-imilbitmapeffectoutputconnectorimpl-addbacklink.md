@@ -12,6 +12,8 @@ ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink m
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectOutputConnectorImpl.AddBackLink"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

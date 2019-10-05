@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXG
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIFactory2.IsWindowedStereoEnabled"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

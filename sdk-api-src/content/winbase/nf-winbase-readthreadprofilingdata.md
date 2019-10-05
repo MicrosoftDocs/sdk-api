@@ -12,6 +12,8 @@ ms.keywords: READ_THREAD_PROFILING_FLAG_DISPATCHING, READ_THREAD_PROFILING_FLAG_
 ms.topic: function
 f1_keywords:
 - winbase/ReadThreadProfilingData
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

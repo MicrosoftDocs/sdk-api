@@ -12,6 +12,8 @@ ms.keywords: ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.ScaleTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

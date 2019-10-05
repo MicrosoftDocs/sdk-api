@@ -12,6 +12,8 @@ ms.keywords: GetInputAvailableType, GetInputAvailableType method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetInputAvailableType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

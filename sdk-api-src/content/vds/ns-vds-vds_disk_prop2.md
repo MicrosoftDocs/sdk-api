@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DISK_PROP2, PVDS_DISK_PROP2, PVDS_DISK_PROP2 structure point
 ms.topic: struct
 f1_keywords:
 - vds/VDS_DISK_PROP2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordModuleInfoLength, GetRecordModuleInfoLength method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [DXGI], GetBreakOnSev
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetBreakOnSeverity"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

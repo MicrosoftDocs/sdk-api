@@ -12,6 +12,8 @@ ms.keywords: AUTH_VALIDATION_EX, AUTH_VALIDATION_EX structure [RAS], PAUTH_VALID
 ms.topic: struct
 f1_keywords:
 - mprapi/AUTH_VALIDATION_EX
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

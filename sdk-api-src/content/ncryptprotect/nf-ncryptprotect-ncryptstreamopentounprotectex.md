@@ -12,6 +12,8 @@ ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx functi
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptStreamOpenToUnprotectEx"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

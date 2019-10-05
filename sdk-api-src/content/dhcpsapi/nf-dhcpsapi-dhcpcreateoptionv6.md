@@ -12,6 +12,8 @@ ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV6, DhcpCreateOptionV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOptionV6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

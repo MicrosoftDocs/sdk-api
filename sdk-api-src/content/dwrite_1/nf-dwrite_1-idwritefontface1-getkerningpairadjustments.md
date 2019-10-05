@@ -12,6 +12,8 @@ ms.keywords: GetKerningPairAdjustments, GetKerningPairAdjustments method [Direct
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFontFace1.GetKerningPairAdjustments"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

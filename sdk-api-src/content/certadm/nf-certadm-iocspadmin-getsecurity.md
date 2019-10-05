@@ -12,6 +12,8 @@ ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Sec
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPAdmin.GetSecurity"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

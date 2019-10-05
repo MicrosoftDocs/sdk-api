@@ -12,6 +12,8 @@ ms.keywords: GetNamedEntity, GetNamedEntity method [search], GetNamedEntity meth
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IEntity.GetNamedEntity"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

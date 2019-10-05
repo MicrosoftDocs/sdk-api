@@ -12,6 +12,8 @@ ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [DXGI], CheckFeatur
 ms.topic: method
 f1_keywords: 
  - "dxgi1_5/IDXGIFactory5.CheckFeatureSupport"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

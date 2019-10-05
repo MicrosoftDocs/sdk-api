@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedMixedAttrib
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.ReservedMixedAttributeValue"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

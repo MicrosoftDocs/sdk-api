@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Windows Remote Management], Create method [W
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Create"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

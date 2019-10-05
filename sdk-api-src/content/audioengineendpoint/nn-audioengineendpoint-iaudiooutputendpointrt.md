@@ -12,6 +12,8 @@ ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote De
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioOutputEndpointRT"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

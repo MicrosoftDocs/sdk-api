@@ -12,6 +12,8 @@ ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_
 ms.topic: struct
 f1_keywords:
 - vds/VDS_LUN_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

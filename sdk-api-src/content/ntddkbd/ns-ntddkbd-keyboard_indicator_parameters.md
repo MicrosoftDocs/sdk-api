@@ -12,6 +12,8 @@ ms.keywords: '*PKEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS, KE
 ms.topic: struct
 f1_keywords:
 - ntddkbd/KEYBOARD_INDICATOR_PARAMETERS
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

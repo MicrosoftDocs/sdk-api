@@ -12,6 +12,8 @@ ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress inter
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpAddress.GetSecure"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

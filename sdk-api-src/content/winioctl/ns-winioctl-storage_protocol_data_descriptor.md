@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIP
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

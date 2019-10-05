@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreU565, XMStoreU565, XMStoreU565 method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreU565"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

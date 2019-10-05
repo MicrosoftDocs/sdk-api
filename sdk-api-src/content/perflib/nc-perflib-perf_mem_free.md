@@ -12,6 +12,8 @@ ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PER
 ms.topic: callback
 f1_keywords: 
  - "perflib/FreeMemory"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

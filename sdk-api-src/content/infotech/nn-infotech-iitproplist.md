@@ -12,6 +12,8 @@ ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropLis
 ms.topic: interface
 f1_keywords: 
  - "infotech/IITPropList"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

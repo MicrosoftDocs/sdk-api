@@ -12,6 +12,8 @@ ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaProviderForNonClient"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

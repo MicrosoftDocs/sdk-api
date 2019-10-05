@@ -13,6 +13,8 @@ ms.keywords: DWRITE_RENDERING_MODE, DWRITE_RENDERING_MODE (Windows 8 and later)
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_RENDERING_MODE"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

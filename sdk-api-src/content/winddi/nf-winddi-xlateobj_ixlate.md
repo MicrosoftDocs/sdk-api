@@ -12,6 +12,8 @@ ms.keywords: XLATEOBJ_iXlate, XLATEOBJ_iXlate function [Display Devices], displa
 ms.topic: function
 f1_keywords:
 - winddi/XLATEOBJ_iXlate
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

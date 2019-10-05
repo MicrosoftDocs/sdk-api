@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESS
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

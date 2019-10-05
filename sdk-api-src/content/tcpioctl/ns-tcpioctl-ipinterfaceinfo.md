@@ -12,6 +12,8 @@ ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/
 ms.topic: struct
 f1_keywords: 
  - "tcpioctl/IPInterfaceInfo"
+dev_langs:
+ - c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

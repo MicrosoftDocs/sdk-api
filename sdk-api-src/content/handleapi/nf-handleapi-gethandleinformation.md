@@ -12,6 +12,8 @@ ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_IN
 ms.topic: function
 f1_keywords: 
  - "handleapi/GetHandleInformation"
+dev_langs:
+ - c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

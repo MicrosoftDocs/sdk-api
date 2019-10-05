@@ -12,6 +12,8 @@ ms.keywords: FilterFindNext, FilterFindNext function [Installable File System Dr
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterFindNext"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

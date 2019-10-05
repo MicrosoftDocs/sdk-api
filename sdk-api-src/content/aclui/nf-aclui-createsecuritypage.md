@@ -12,6 +12,8 @@ ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_
 ms.topic: function
 f1_keywords: 
  - "aclui/CreateSecurityPage"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

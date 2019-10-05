@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiOutGetID, midiOutGetID, midiOutGetID function [Windows 
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiOutGetID"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtension.SetEndOfStream"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

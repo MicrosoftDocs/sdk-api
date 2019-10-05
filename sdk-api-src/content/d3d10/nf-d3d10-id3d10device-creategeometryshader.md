@@ -12,6 +12,8 @@ ms.keywords: 95304c4b-5772-79d5-e004-826cea33692b, CreateGeometryShader, CreateG
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateGeometryShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

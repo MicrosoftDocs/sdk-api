@@ -12,6 +12,8 @@ ms.keywords: SHSTOCKICONID, SHSTOCKICONID enumeration [Windows Shell], SIID_APPL
 ms.topic: enum
 f1_keywords: 
  - "shellapi/SHSTOCKICONID"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

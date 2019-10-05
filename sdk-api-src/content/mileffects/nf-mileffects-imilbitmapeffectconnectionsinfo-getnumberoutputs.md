@@ -12,6 +12,8 @@ ms.keywords: GetNumberOutputs, GetNumberOutputs method [WPF Bitmap Effects], Get
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectionsInfo.GetNumberOutputs"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

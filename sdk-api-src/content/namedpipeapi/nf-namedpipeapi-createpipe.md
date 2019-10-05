@@ -12,6 +12,8 @@ ms.keywords: CreatePipe, CreatePipe function, _win32_createpipe, base.createpipe
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/CreatePipe"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE,
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/PROCESS_POWER_THROTTLING_STATE"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

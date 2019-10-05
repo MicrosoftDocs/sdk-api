@@ -6,6 +6,8 @@ ms.keywords: tagELEMDESC, ELEMDESC
 ms.topic: language-reference
 f1_keywords: 
  - "oaidl/tagELEMDESC"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

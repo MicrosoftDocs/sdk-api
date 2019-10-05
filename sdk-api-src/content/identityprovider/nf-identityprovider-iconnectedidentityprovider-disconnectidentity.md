@@ -12,6 +12,8 @@ ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], Disconnec
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IConnectedIdentityProvider.DisconnectIdentity"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

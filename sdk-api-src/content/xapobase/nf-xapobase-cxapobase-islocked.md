@@ -12,6 +12,8 @@ ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],IsLocked method, CX
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOBase.IsLocked"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

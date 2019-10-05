@@ -12,6 +12,8 @@ ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC]
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrStubForwardingFunction
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

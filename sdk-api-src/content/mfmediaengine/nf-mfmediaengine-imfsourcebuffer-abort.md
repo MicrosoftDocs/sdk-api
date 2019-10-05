@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [Media Foundation], Abort method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.Abort"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

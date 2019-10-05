@@ -12,6 +12,8 @@ ms.keywords: EMI_METADATA_SIZE, EMI_METADATA_SIZE structure [Power Metering and 
 ms.topic: struct
 f1_keywords: 
  - "emi/EMI_METADATA_SIZE"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

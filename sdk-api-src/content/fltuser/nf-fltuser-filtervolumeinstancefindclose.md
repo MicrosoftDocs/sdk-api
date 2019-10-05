@@ -12,6 +12,8 @@ ms.keywords: FilterVolumeInstanceFindClose, FilterVolumeInstanceFindClose functi
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterVolumeInstanceFindClose"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

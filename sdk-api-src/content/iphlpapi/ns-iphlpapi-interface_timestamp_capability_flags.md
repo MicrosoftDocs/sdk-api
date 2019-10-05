@@ -12,6 +12,8 @@ ms.keywords: "*PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS, INTERFACE_TIMESTAMP_CAPABI
 ms.topic: struct
 f1_keywords: 
  - "iphlpapi/INTERFACE_TIMESTAMP_CAPABILITY_FLAGS"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

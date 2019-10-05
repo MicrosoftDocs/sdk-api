@@ -12,6 +12,8 @@ ms.keywords: GetTypeAttr, GetTypeAttr method [Automation], GetTypeAttr method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetTypeAttr"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

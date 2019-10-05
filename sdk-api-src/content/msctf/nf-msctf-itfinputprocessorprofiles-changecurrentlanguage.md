@@ -12,6 +12,8 @@ ms.keywords: ChangeCurrentLanguage, ChangeCurrentLanguage method [Text Services 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.ChangeCurrentLanguage"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

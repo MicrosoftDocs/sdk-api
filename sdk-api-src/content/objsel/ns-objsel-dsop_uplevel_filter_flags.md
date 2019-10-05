@@ -12,6 +12,8 @@ ms.keywords: DSOP_FILTER_BUILTIN_GROUPS, DSOP_FILTER_COMPUTERS, DSOP_FILTER_CONT
 ms.topic: struct
 f1_keywords:
 - objsel/DSOP_UPLEVEL_FILTER_FLAGS
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

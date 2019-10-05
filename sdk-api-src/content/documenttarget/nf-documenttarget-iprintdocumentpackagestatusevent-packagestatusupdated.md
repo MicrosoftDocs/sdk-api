@@ -12,6 +12,8 @@ ms.keywords: IPrintDocumentPackageStatusEvent interface [XPS Documents and Packa
 ms.topic: method
 f1_keywords: 
  - "documenttarget/IPrintDocumentPackageStatusEvent.PackageStatusUpdated"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

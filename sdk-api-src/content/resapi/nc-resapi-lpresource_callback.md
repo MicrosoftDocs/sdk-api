@@ -12,6 +12,8 @@ ms.keywords: LPRESOURCE_CALLBACK, LPRESOURCE_CALLBACK callback function [Failove
 ms.topic: callback
 f1_keywords: 
  - "resapi/ResourceCallback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

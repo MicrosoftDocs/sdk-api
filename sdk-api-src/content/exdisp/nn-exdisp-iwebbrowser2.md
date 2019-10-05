@@ -12,6 +12,8 @@ ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 in
 ms.topic: interface
 f1_keywords: 
  - "exdisp/IWebBrowser2"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

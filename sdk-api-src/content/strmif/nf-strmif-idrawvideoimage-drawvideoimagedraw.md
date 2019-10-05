@@ -12,6 +12,8 @@ ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVid
 ms.topic: method
 f1_keywords: 
  - "strmif/IDrawVideoImage.DrawVideoImageDraw"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

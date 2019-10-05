@@ -12,6 +12,8 @@ ms.keywords: 186739b6-e023-0b79-ed38-b3030b56e2ed, GetGSInputPrimitive, GetGSInp
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetGSInputPrimitive"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

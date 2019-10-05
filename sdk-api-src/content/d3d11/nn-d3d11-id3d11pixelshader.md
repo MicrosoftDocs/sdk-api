@@ -12,6 +12,8 @@ ms.keywords: 49390d89-6546-de4c-d03d-c7914ecb86eb, ID3D11PixelShader, ID3D11Pixe
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11PixelShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

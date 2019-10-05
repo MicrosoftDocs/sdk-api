@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValue m
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataWriter.SetValue"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

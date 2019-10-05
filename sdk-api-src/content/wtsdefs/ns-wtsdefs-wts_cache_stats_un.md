@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN u
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_CACHE_STATS_UN
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

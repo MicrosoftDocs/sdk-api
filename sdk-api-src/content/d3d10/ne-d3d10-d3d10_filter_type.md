@@ -12,6 +12,8 @@ ms.keywords: 137ceae1-1546-228a-f67c-1e9ba1c8ef29, D3D10_FILTER_TYPE, D3D10_FILT
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_FILTER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

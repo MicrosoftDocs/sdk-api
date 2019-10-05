@@ -12,6 +12,8 @@ ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop functi
 ms.topic: function
 f1_keywords: 
  - "winuser/OpenInputDesktop"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE, ENCRYPTION_CERTI
 ms.topic: struct
 f1_keywords:
 - winefs/ENCRYPTION_CERTIFICATE
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

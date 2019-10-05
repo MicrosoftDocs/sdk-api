@@ -12,6 +12,8 @@ ms.keywords: GetDownStreamHypotheses, GetDownStreamHypotheses method [NDF], GetD
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetDownStreamHypotheses"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

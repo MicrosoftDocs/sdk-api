@@ -12,6 +12,8 @@ ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_ac
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AccessCheckByType
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

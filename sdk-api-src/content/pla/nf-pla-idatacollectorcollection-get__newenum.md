@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorCollection interface [PLA],_NewEnum property, IDataCo
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

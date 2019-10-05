@@ -12,6 +12,8 @@ ms.keywords: CancelGroup, CancelGroup method [BITS], CancelGroup method [BITS],I
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.CancelGroup"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

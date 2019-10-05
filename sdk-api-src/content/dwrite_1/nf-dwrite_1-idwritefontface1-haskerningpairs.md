@@ -12,6 +12,8 @@ ms.keywords: HasKerningPairs, HasKerningPairs method [Direct Write], HasKerningP
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFontFace1.HasKerningPairs"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

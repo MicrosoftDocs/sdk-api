@@ -12,6 +12,8 @@ ms.keywords: WMT_INDEXER_TYPE, WMT_INDEXER_TYPE enumeration [windows Media Forma
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_INDEXER_TYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

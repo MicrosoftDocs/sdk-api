@@ -12,6 +12,8 @@ ms.keywords: FOLDERVIEWOPTIONS, FOLDERVIEWOPTIONS enumeration [Windows Shell], F
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/FOLDERVIEWOPTIONS"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

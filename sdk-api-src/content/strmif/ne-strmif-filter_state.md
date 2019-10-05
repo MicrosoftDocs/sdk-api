@@ -12,6 +12,8 @@ ms.keywords: FILTER_STATE, FILTER_STATE , FILTER_STATE enumeration [DirectShow],
 ms.topic: enum
 f1_keywords: 
  - "strmif/FILTER_STATE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

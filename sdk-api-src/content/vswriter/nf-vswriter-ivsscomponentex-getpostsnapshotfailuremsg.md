@@ -12,6 +12,8 @@ ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPos
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponentEx.GetPostSnapshotFailureMsg"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

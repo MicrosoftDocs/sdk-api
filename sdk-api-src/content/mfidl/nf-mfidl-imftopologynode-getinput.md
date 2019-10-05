@@ -12,6 +12,8 @@ ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetInput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [Windows Controls], GetVersion method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetVersion"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

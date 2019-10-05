@@ -12,6 +12,8 @@ ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interf
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IEnumPIDMap"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

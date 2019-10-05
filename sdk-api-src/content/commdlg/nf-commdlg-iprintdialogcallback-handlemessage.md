@@ -12,6 +12,8 @@ ms.keywords: HandleMessage, HandleMessage method [Dialog Boxes], HandleMessage m
 ms.topic: method
 f1_keywords: 
  - "commdlg/IPrintDialogCallback.HandleMessage"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio D
 ms.topic: struct
 f1_keywords: 
  - "audiomediatype/UNCOMPRESSEDAUDIOFORMAT"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Windows

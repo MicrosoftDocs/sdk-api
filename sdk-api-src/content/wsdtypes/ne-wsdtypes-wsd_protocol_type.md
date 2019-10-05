@@ -12,6 +12,8 @@ ms.keywords: WSD_PROTOCOL_TYPE, WSD_PROTOCOL_TYPE enumeration, WSD_PT_ALL, WSD_P
 ms.topic: enum
 f1_keywords:
 - wsdtypes/WSD_PROTOCOL_TYPE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

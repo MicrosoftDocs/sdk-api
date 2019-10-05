@@ -12,6 +12,8 @@ ms.keywords: '*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RA
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_PORT_1
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

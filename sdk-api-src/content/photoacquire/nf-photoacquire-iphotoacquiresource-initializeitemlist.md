@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemL
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.InitializeItemList"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

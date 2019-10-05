@@ -12,6 +12,8 @@ ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canus
 ms.topic: function
 f1_keywords: 
  - "powrprof/CanUserWritePwrScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

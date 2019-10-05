@@ -12,6 +12,8 @@ ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMO
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/SymEnumerateModulesProc64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

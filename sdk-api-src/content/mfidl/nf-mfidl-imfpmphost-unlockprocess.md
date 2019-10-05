@@ -12,6 +12,8 @@ ms.keywords: 768f4579-5109-4d2b-a93d-f17f6b850c63, IMFPMPHost interface [Media F
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPHost.UnlockProcess"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

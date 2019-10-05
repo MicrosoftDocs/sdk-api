@@ -12,6 +12,8 @@ ms.keywords: IQueryContinue interface [Windows Shell],QueryContinue method, IQue
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IQueryContinue.QueryContinue"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

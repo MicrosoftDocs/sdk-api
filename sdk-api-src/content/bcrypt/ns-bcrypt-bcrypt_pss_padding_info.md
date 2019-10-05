@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_PSS_PADDING_INFO, BCRYPT_PSS_PADDING_INFO structure [Securit
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_PSS_PADDING_INFO"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

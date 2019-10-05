@@ -12,6 +12,8 @@ ms.keywords: MFARGB, MFARGB structure [Media Foundation], ce7ac174-9f00-42a4-9b4
 ms.topic: struct
 f1_keywords: 
  - "mfobjects/MFARGB"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

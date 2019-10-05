@@ -12,6 +12,8 @@ ms.keywords: 90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1, D3D10_SHADER_DEBUG_SCOPEVAR_I
 ms.topic: struct
 f1_keywords:
 - d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

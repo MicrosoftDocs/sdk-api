@@ -12,6 +12,8 @@ ms.keywords: GetStrokeStartLineCap, GetStrokeStartLineCap method [XPS Documents 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.GetStrokeStartLineCap"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

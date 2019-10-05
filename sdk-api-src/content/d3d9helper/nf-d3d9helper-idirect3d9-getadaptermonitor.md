@@ -12,6 +12,8 @@ ms.keywords: 1cf647c6-38ba-6d39-fbf9-c82f611d7078, GetAdapterMonitor, GetAdapter
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3D9.GetAdapterMonitor"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

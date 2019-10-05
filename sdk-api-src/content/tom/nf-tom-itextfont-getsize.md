@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Windows Controls], GetSize method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetSize"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

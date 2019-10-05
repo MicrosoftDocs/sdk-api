@@ -12,6 +12,8 @@ ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdipl
 ms.topic: struct
 f1_keywords: 
  - "gdiplusinit/GdiplusStartupOutput"
+dev_langs:
+ - c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

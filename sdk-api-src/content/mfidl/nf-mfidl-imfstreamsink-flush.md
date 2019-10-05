@@ -12,6 +12,8 @@ ms.keywords: 514d29bd-571d-46b1-9948-5d623c6703aa, Flush, Flush method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamSink.Flush"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMGPO class [GPMC],MakeACLConsistent method, IGPMGPO interface [GP
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.MakeACLConsistent"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

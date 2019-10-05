@@ -12,6 +12,8 @@ ms.keywords: 2c26e906-e428-4a76-b10a-10a18f300ebe, MT_CUSTOM_VIDEO_PRIMARIES, MT
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MT_CUSTOM_VIDEO_PRIMARIES"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

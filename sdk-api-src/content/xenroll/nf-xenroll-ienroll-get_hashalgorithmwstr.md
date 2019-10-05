@@ -12,6 +12,8 @@ ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.HashAlgorithmWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

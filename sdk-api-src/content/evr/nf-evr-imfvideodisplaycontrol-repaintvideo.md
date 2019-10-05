@@ -12,6 +12,8 @@ ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo me
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.RepaintVideo"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

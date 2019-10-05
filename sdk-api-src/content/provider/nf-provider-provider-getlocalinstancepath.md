@@ -12,6 +12,8 @@ ms.keywords: GetLocalInstancePath, GetLocalInstancePath method [Windows Manageme
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.GetLocalInstancePath"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

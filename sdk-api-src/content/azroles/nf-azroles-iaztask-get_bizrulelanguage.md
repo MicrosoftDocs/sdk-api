@@ -12,6 +12,8 @@ ms.keywords: JScript, VBScript, AzTask object [Security],BizRuleLanguage propert
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.BizRuleLanguage"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

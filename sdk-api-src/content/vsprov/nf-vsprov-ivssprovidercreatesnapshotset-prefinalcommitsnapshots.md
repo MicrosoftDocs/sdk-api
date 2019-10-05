@@ -12,6 +12,8 @@ ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapsho
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

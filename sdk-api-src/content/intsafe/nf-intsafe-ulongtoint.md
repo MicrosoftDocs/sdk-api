@@ -12,6 +12,8 @@ ms.keywords: DWordToInt, ULongToInt, ULongToInt function [Windows Shell], _shell
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongToInt"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

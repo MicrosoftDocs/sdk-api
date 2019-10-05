@@ -12,6 +12,8 @@ ms.keywords: STROBJ_bEnum, STROBJ_bEnum function [Display Devices], display.stro
 ms.topic: function
 f1_keywords:
 - winddi/STROBJ_bEnum
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

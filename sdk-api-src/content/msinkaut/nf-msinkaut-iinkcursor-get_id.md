@@ -12,6 +12,8 @@ ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkCursor interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursor.ID"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

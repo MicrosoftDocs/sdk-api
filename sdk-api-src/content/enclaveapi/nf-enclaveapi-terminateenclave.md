@@ -12,6 +12,8 @@ ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave,
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/TerminateEnclave"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

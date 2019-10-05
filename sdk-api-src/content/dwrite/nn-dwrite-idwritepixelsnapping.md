@@ -12,6 +12,8 @@ ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write]
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWritePixelSnapping"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

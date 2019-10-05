@@ -12,6 +12,8 @@ ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, Co
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.ConvertToContiguousBuffer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

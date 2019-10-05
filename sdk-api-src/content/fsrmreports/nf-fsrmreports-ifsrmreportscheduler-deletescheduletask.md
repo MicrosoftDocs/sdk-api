@@ -12,6 +12,8 @@ ms.keywords: DeleteScheduleTask, DeleteScheduleTask method [File Server Resource
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportScheduler.DeleteScheduleTask"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

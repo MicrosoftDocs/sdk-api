@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_PIN_STOP, IOCTL_PWM_PIN_STOP control, IOCTL_PWM_PIN_STOP 
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_STOP
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

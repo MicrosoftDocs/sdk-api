@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripState method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromRip.get_ripState"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

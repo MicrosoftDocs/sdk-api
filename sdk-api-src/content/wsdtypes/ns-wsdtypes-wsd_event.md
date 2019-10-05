@@ -12,6 +12,8 @@ ms.keywords: WSD_EVENT, WSD_EVENT structure, ncd.wsd_event_struct, wsdtypes/WSD_
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENT
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

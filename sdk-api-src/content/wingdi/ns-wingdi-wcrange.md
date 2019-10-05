@@ -12,6 +12,8 @@ ms.keywords: "*LPWCRANGE, *PWCRANGE, PWCRANGE, PWCRANGE structure pointer [Windo
 ms.topic: struct
 f1_keywords: 
  - "wingdi/WCRANGE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

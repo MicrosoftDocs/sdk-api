@@ -12,6 +12,8 @@ ms.keywords: '*PRAS_CONNECTION_EX, PRAS_CONNECTION_EX, PRAS_CONNECTION_EX struct
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_CONNECTION_EX
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

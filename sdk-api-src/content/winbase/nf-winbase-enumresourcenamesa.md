@@ -12,6 +12,8 @@ ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Reso
 ms.topic: function
 f1_keywords: 
  - "winbase/EnumResourceNames"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

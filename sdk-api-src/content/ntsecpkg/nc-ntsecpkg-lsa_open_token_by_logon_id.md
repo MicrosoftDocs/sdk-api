@@ -12,6 +12,8 @@ ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, LSA_OPEN_TOKEN_BY_LOGON_ID callback, Op
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/OpenTokenByLogonId
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

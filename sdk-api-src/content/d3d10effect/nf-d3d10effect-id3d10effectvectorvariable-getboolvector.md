@@ -12,6 +12,8 @@ ms.keywords: 13e85229-5904-0e99-1227-17faf8fb17e1, GetBoolVector, GetBoolVector 
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.GetBoolVector"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

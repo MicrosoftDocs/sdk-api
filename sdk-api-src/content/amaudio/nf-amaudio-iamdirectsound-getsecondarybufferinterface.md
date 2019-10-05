@@ -12,6 +12,8 @@ ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [Di
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.GetSecondaryBufferInterface"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

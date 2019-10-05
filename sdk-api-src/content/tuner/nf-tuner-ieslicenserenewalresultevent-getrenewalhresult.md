@@ -12,6 +12,8 @@ ms.keywords: GetRenewalHResult, GetRenewalHResult method [DirectShow], GetRenewa
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetRenewalHResult"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

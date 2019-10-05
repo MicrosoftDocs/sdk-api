@@ -12,6 +12,8 @@ ms.keywords: IOpLockStatus interface [search],IsOplockValid method, IOpLockStatu
 ms.topic: method
 f1_keywords: 
  - "searchapi/IOpLockStatus.IsOplockValid"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

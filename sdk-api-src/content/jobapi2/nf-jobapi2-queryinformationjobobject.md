@@ -12,6 +12,8 @@ ms.keywords: JobObjectBasicAccountingInformation, JobObjectBasicAndIoAccountingI
 ms.topic: function
 f1_keywords:
 - jobapi2/QueryInformationJobObject
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows

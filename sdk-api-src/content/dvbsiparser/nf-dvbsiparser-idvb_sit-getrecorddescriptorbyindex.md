@@ -12,6 +12,8 @@ ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Micr
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SIT.GetRecordDescriptorByIndex"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

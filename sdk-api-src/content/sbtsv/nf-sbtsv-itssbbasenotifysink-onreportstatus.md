@@ -12,6 +12,8 @@ ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, 
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbBaseNotifySink.OnReportStatus"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuild
 ms.topic: method
 f1_keywords: 
  - "strmif/IGraphBuilder.RenderFile"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

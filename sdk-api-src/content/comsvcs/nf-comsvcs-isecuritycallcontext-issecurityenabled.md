@@ -12,6 +12,8 @@ ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISe
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityCallContext.IsSecurityEnabled"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

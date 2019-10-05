@@ -12,6 +12,8 @@ ms.keywords: RpcServerSubscribeForNotification, RpcServerSubscribeForNotificatio
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcServerSubscribeForNotification
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

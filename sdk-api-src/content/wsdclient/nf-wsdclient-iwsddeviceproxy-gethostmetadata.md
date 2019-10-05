@@ -12,6 +12,8 @@ ms.keywords: GetHostMetadata, GetHostMetadata method, GetHostMetadata method,IWS
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetHostMetadata
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

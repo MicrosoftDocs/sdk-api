@@ -12,6 +12,8 @@ ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUER
 ms.topic: struct
 f1_keywords: 
  - "clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineConfigDialog"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

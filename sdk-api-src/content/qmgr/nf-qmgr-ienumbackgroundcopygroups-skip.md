@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Skip method, IEnumBackgr
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyGroups.Skip"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

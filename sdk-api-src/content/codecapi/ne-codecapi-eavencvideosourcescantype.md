@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoSourceScanType, codecapi/eAVEncVideoSourceScan_
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoSourceScanType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

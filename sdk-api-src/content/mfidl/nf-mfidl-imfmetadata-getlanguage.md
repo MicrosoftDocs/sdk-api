@@ -12,6 +12,8 @@ ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.GetLanguage"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsA
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObj.SetButtons"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

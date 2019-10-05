@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_NOTIFICATION_ADDED, WTSSBX_NOTIFICATION_CHANGED, WTSSBX_NOTI
 ms.topic: enum
 f1_keywords: 
  - "tssbx/WTSSBX_NOTIFICATION_TYPE"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

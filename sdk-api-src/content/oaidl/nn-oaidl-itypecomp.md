@@ -12,6 +12,8 @@ ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [A
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ITypeComp"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClientProperties, GetClientProperties method [windows Media Form
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMClientConnections.GetClientProperties"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

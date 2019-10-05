@@ -12,6 +12,8 @@ ms.keywords: GetImmContext, GetImmContext method [Windows Controls], GetImmConte
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetImmContext"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

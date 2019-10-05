@@ -12,6 +12,8 @@ ms.keywords: D3DLoadModule, D3DLoadModule function [HLSL], d3dcompiler/D3DLoadMo
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DLoadModule"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

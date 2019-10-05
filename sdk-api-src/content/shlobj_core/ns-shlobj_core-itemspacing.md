@@ -12,6 +12,8 @@ ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/ITEMSPACING"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

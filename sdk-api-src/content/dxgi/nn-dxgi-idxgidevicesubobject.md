@@ -12,6 +12,8 @@ ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGID
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIDeviceSubObject"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

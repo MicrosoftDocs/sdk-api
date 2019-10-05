@@ -12,6 +12,8 @@ ms.keywords: ExposeSnapshot, ExposeSnapshot method [VSS], ExposeSnapshot method 
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.ExposeSnapshot
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

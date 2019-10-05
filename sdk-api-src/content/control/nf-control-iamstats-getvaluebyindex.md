@@ -12,6 +12,8 @@ ms.keywords: GetValueByIndex, GetValueByIndex method [DirectShow], GetValueByInd
 ms.topic: method
 f1_keywords: 
  - "control/IAMStats.GetValueByIndex"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

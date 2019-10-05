@@ -12,6 +12,8 @@ ms.keywords: GetCompatiblityDescriptor, GetCompatiblityDescriptor method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

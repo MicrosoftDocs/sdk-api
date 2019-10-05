@@ -12,6 +12,8 @@ ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, D3D12_RENDER_PA
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

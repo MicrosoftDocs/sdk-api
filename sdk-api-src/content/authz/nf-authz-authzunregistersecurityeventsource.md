@@ -12,6 +12,8 @@ ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSou
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzUnregisterSecurityEventSource"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

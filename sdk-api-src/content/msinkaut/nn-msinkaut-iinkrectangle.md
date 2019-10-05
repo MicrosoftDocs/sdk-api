@@ -12,6 +12,8 @@ ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle i
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL, P
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_CONNECTION_SETTING_LEVEL
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

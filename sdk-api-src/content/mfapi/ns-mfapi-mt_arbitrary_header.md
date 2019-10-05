@@ -12,6 +12,8 @@ ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundatio
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MT_ARBITRARY_HEADER"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

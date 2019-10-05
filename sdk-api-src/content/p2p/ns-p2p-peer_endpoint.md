@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_ENDPOINT, PCPEER_ENDPOINT, PCPEER_ENDPOINT structure pointe
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_ENDPOINT"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

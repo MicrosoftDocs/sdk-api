@@ -8,6 +8,8 @@ ms.keywords: BoundingFrustum::Transform
 ms.topic: language-reference
 f1_keywords: 
  - "directxcollision/BoundingFrustum::Transform"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

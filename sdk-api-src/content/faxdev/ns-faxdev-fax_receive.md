@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], P
 ms.topic: struct
 f1_keywords:
 - faxdev/FAX_RECEIVE
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

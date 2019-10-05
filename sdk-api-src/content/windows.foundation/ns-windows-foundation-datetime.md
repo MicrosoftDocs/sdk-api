@@ -12,6 +12,8 @@ ms.keywords: DateTime, DateTime structure [Windows Runtime], windows/DateTime, w
 ms.topic: struct
 f1_keywords: 
  - "windows.foundation/DateTime"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

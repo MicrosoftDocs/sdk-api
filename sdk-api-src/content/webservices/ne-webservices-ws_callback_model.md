@@ -12,6 +12,8 @@ ms.keywords: WS_CALLBACK_MODEL, WS_CALLBACK_MODEL enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_CALLBACK_MODEL"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

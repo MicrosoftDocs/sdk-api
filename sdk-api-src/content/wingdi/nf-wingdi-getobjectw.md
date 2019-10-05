@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

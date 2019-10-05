@@ -12,6 +12,8 @@ ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRec
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/CrmLogRecordRead"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

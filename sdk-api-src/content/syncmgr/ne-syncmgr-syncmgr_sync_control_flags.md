@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING, SYNCMGR_SCF_NONE, SYNCMGR_SC
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

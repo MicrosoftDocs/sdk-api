@@ -12,6 +12,8 @@ ms.keywords: WS_PROTECTION_LEVEL, WS_PROTECTION_LEVEL enumeration [Web Services 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

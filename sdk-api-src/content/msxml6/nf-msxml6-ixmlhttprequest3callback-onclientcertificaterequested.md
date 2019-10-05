@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnClientCertif
 ms.topic: method
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest3Callback.OnClientCertificateRequested"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

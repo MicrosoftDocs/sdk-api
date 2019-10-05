@@ -12,6 +12,8 @@ ms.keywords: ConfigurationManager property [Windows Deployment Services], Config
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServer.ConfigurationManager"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

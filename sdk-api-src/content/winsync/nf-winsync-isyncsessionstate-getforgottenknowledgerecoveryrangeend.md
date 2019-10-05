@@ -12,6 +12,8 @@ ms.keywords: GetForgottenKnowledgeRecoveryRangeEnd, GetForgottenKnowledgeRecover
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncSessionState.GetForgottenKnowledgeRecoveryRangeEnd"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

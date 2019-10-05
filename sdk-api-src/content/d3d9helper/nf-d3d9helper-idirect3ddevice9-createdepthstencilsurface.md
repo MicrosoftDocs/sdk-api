@@ -12,6 +12,8 @@ ms.keywords: 16f106bf-8b42-ad75-370e-e0ecffdfcea5, CreateDepthStencilSurface, Cr
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.CreateDepthStencilSurface"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

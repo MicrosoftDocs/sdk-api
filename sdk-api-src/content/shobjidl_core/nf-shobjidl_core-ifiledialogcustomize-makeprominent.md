@@ -12,6 +12,8 @@ ms.keywords: IFileDialogCustomize interface [Windows Shell],MakeProminent method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogCustomize.MakeProminent"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

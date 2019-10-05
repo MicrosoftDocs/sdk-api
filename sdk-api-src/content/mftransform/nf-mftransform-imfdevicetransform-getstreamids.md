@@ -12,6 +12,8 @@ ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStr
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetStreamIDs"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

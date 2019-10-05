@@ -12,6 +12,8 @@ ms.keywords: CESSetupProperty, CESSetupProperty enumeration [Security], ENUM_CES
 ms.topic: enum
 f1_keywords: 
  - "casetup/CESSetupProperty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

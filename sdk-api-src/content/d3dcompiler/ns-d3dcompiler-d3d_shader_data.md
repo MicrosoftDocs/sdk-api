@@ -12,6 +12,8 @@ ms.keywords: D3D_SHADER_DATA, D3D_SHADER_DATA structure [HLSL], _D3D_SHADER_DATA
 ms.topic: struct
 f1_keywords: 
  - "d3dcompiler/D3D_SHADER_DATA"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

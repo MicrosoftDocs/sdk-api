@@ -12,6 +12,8 @@ ms.keywords: LINEEVENT, LINEEVENT callback, Line_Event, Line_Event callback func
 ms.topic: callback
 f1_keywords: 
  - "tspi/Line_Event"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon],
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.GetUICommandProperty"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

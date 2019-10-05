@@ -12,6 +12,8 @@ ms.keywords: VDS_ILT_BOOT, VDS_ILT_MANUAL, VDS_ILT_PERSISTENT, VDS_ISCSI_LOGIN_T
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_ISCSI_LOGIN_TYPE"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

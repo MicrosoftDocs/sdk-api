@@ -12,6 +12,8 @@ ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSele
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/SelectionItemPattern_AddToSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

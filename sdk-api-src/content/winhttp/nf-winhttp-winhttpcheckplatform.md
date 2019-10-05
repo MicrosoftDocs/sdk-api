@@ -12,6 +12,8 @@ ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpCheckPlatform"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

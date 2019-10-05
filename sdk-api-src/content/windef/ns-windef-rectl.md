@@ -12,6 +12,8 @@ ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Dev
 ms.topic: struct
 f1_keywords: 
  - "windef/RECTL"
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

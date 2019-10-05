@@ -12,6 +12,8 @@ ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResu
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IResultsFolder.RemoveIDList"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

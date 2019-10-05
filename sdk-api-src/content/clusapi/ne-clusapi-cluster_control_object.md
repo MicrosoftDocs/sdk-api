@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CONTROL_OBJECT, CLUSTER_CONTROL_OBJECT enumeration [Failove
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_CONTROL_OBJECT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCal
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFInvokeCallback"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

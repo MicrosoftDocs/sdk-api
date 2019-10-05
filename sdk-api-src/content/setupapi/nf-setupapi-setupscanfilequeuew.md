@@ -12,6 +12,8 @@ ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USE
 ms.topic: function
 f1_keywords:
 - setupapi/SetupScanFileQueue
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

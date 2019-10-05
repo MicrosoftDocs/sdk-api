@@ -12,6 +12,8 @@ ms.keywords: 0, CRYPT_FORMAT_STR_MULTI_LINE, CRYPT_FORMAT_STR_NO_HEX, CryptForma
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptFormatObject"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

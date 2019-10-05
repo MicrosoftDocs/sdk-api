@@ -12,6 +12,8 @@ ms.keywords: Pager_GetBkColor, Pager_GetBkColor macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_GetBkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

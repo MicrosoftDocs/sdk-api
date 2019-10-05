@@ -12,6 +12,8 @@ ms.keywords: IUISimplePropertySet, IUISimplePropertySet interface [Windows Ribbo
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUISimplePropertySet"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

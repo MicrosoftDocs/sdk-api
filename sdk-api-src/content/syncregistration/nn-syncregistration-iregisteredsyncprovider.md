@@ -12,6 +12,8 @@ ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "syncregistration/IRegisteredSyncProvider"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImportExportable, ImportExportableEncrypted, ImportForceOverwrite, 
 ms.topic: enum
 f1_keywords: 
  - "certenroll/ImportPFXFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

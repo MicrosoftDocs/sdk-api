@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITCollection2 int
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCollection2.Add"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

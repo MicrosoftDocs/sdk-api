@@ -12,6 +12,8 @@ ms.keywords: IWindowsMediaLibrarySharingDevices interface [Windows Media Library
 ms.topic: method
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingDevices.get_Item"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL
 ms.topic: enum
 f1_keywords:
 - vsmgmt/VSS_PROTECTION_LEVEL
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

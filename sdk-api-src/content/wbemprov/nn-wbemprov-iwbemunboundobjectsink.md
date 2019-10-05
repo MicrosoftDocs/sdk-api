@@ -12,6 +12,8 @@ ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows M
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemUnboundObjectSink"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

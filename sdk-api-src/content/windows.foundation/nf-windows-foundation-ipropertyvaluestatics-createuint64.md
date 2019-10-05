@@ -12,6 +12,8 @@ ms.keywords: CreateUInt64, CreateUInt64 method [Windows Runtime], CreateUInt64 m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateUInt64"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcSmEnableAllocate, RpcSmEnableAllocate function [RPC], _rpc_rpcsm
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSmEnableAllocate"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

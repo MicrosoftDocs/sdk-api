@@ -12,6 +12,8 @@ ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoder.BeginFrame"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

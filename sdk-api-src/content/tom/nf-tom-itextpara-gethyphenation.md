@@ -12,6 +12,8 @@ ms.keywords: GetHyphenation, GetHyphenation method [Windows Controls], GetHyphen
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetHyphenation"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

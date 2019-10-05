@@ -12,6 +12,8 @@ ms.keywords: DeviceRemoved, DeviceRemoved method [UPnP APIs], DeviceRemoved meth
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceFinderCallback.DeviceRemoved"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

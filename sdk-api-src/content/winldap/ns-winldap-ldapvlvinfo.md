@@ -12,6 +12,8 @@ ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ld
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPVLVInfo"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

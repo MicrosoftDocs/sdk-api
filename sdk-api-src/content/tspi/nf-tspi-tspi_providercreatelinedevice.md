@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerCreateLineDevice, TSPI_providerCreateLineDevice functi
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerCreateLineDevice"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

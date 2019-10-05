@@ -12,6 +12,8 @@ ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IM
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.IsValidToken"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

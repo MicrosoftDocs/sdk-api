@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromUInt32Array, InitVariantFromUInt32Array function [Wi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromUInt32Array"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

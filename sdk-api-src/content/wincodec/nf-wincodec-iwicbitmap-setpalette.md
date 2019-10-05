@@ -12,6 +12,8 @@ ms.keywords: IWICBitmap interface [Windows Imaging Component],SetPalette method,
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmap.SetPalette"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

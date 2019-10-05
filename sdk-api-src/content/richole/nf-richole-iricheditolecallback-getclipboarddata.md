@@ -12,6 +12,8 @@ ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetCl
 ms.topic: method
 f1_keywords:
 - richole/IRichEditOleCallback.GetClipboardData
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

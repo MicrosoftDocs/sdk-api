@@ -12,6 +12,8 @@ ms.keywords: Expand, Expand method [Windows Controls], Expand method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Expand"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBufferSize, GetBufferSize method [TAPI 2.2], GetBufferSize metho
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAllocatorProperties.GetBufferSize"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

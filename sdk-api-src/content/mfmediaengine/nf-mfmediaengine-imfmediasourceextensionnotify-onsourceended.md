@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSource
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceEnded"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f, DXVA2_DestData_RFF, DXVA2_Des
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_VideoProcessBltParams
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

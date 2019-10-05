@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgContext_Lifespan"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4ef9f972-a153-a2f3-2286-73f54733c157, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10DepthStencilView.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

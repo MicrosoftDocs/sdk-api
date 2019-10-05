@@ -12,6 +12,8 @@ ms.keywords: GetServiceMetadata, GetServiceMetadata method, GetServiceMetadata m
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxy.GetServiceMetadata
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

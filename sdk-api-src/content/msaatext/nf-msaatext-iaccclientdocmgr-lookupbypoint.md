@@ -12,6 +12,8 @@ ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByPoint me
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccClientDocMgr.LookupByPoint"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPalette.GetType"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

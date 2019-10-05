@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Win
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItemContainer"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

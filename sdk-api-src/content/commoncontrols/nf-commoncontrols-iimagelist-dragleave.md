@@ -12,6 +12,8 @@ ms.keywords: DragLeave, DragLeave method [Windows Controls], DragLeave method [W
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.DragLeave"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

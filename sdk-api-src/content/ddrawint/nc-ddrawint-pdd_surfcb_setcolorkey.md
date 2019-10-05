@@ -12,6 +12,8 @@ ms.keywords: DdSetColorKey, DdSetColorKey callback function [Display Devices], P
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdSetColorKey
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICFastMetadataEncoder"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

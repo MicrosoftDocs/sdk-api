@@ -12,6 +12,8 @@ ms.keywords: 79ee089d-e981-2c78-1b81-170d3c9c3ccf, GetDevice, GetDevice method [
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DSwapChain9.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPS_FLOW_STATS, PPS_FLOW_STATS, PPS_FLOW_STATS structure pointer 
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_FLOW_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

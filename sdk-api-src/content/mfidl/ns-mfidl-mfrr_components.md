@@ -12,6 +12,8 @@ ms.keywords: '*PMFRR_COMPONENTS, MFRR_COMPONENTS, MFRR_COMPONENTS structure [Med
 ms.topic: struct
 f1_keywords:
 - mfidl/MFRR_COMPONENTS
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

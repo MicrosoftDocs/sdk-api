@@ -12,6 +12,8 @@ ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Proper
 ms.topic: method
 f1_keywords:
 - propsys/IPropertySystem.FormatForDisplayAlloc
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

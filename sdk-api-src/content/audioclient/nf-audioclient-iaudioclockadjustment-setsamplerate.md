@@ -12,6 +12,8 @@ ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, 
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClockAdjustment.SetSampleRate"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

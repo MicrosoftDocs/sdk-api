@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Core Audio], Disconnect method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.Disconnect"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonica
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.IsValueCanonical"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

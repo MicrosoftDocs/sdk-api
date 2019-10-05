@@ -12,6 +12,8 @@ ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAc
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IAccessibleObject"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

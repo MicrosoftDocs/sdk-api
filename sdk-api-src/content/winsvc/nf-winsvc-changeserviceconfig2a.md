@@ -12,6 +12,8 @@ ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceC
 ms.topic: function
 f1_keywords:
 - winsvc/ChangeServiceConfig2
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetCAT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

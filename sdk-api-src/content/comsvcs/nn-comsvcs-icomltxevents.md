@@ -12,6 +12,8 @@ ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], IComLTxEvents interf
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComLTxEvents"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

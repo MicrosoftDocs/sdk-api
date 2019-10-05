@@ -12,6 +12,8 @@ ms.keywords: GetCellColorBack, GetCellColorBack method [Windows Controls], GetCe
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellColorBack"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

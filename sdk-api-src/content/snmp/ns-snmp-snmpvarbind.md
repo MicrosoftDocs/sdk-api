@@ -12,6 +12,8 @@ ms.keywords: SnmpVarBind, SnmpVarBind structure [SNMP], _snmp_snmpvarbind_str, s
 ms.topic: struct
 f1_keywords: 
  - "snmp/SnmpVarBind"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

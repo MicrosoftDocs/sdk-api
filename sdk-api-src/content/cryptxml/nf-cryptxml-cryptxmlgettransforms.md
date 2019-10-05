@@ -12,6 +12,8 @@ ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], c
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetTransforms
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

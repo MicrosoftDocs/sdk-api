@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],I
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.Close"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

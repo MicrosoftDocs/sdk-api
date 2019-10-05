@@ -12,6 +12,8 @@ ms.keywords: 1782c294-a270-170d-b512-62785435d8d4, D3D10_TEX1D_ARRAY_RTV, D3D10_
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX1D_ARRAY_RTV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

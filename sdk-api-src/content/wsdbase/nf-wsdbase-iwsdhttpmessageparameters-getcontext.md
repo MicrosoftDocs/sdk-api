@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessagePar
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpMessageParameters.GetContext"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

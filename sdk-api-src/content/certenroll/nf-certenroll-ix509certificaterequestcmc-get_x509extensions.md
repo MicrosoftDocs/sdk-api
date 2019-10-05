@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestCmc interface [Security],X509Extensions prop
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCmc.X509Extensions"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

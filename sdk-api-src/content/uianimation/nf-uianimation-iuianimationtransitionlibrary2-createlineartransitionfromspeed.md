@@ -12,6 +12,8 @@ ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed me
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2.CreateLinearTransitionFromSpeed"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetHwProfileFriendlyName, SetupDiGetHwProfileFriendlyName fu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiGetHwProfileFriendlyName"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

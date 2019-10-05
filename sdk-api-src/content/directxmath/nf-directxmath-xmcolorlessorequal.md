@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorLessOrEqual, XMColorLessOrEqual, XMColorLessOrE
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorLessOrEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Rsvp_Hop_IPv4, Rsvp_Hop_IPv4 structure [QOS], lpmapi/Rsvp_Hop_IPv4,
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Rsvp_Hop_IPv4"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

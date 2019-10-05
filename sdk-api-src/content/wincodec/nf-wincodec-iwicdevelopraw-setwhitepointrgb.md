@@ -12,6 +12,8 @@ ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointR
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.SetWhitePointRGB"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

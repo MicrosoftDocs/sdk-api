@@ -12,6 +12,8 @@ ms.keywords: GetProfileName, GetProfileName method [NativeWIFI], GetProfileName 
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.GetProfileName"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

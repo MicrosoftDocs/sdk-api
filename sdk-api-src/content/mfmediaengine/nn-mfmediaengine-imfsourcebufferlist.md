@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBufferList, IMFSourceBufferList interface [Media Foundatio
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFSourceBufferList"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5817bf39-bfcb-e96c-175e-08c952303b59, D3D11_MESSAGE_SEVERITY, D3D11
 ms.topic: enum
 f1_keywords: 
  - "d3d11sdklayers/D3D11_MESSAGE_SEVERITY"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

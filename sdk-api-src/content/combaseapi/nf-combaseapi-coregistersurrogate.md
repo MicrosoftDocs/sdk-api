@@ -12,6 +12,8 @@ ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoReg
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoRegisterSurrogate"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUICONVERTA, *POLEUICONVERTA, CF_CONVERTONLY, CF_DISABLEACTIV
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUICONVERT"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

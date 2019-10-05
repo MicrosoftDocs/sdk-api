@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_VERTICALALIGNMENT, DIRECTMANIPULATION_VERTICALAL
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

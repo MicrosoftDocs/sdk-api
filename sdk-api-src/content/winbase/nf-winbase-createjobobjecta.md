@@ -12,6 +12,8 @@ ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, Create
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateJobObject"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

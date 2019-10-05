@@ -12,6 +12,8 @@ ms.keywords: HasAlpha, HasAlpha method [Windows Imaging Component], HasAlpha met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPalette.HasAlpha"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

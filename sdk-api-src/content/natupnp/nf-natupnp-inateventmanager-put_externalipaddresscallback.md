@@ -12,6 +12,8 @@ ms.keywords: INATEventManager interface [ICS/ICF],put_ExternalIPAddressCallback 
 ms.topic: method
 f1_keywords: 
  - "natupnp/INATEventManager.put_ExternalIPAddressCallback"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

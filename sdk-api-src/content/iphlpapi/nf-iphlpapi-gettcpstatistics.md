@@ -12,6 +12,8 @@ ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_get
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcpStatistics
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

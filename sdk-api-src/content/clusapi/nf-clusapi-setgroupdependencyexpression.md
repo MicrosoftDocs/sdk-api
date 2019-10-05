@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_GROUP_DEPEND
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetGroupDependencyExpression"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

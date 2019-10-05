@@ -12,6 +12,8 @@ ms.keywords: LookupPrivilegeValue, LookupPrivilegeValue function [Security], Loo
 ms.topic: function
 f1_keywords: 
  - "winbase/LookupPrivilegeValue"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

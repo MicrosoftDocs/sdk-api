@@ -12,6 +12,8 @@ ms.keywords: "*PTUNNEL_TYPE, PTUNNEL_TYPE, PTUNNEL_TYPE enumeration pointer [Net
 ms.topic: enum
 f1_keywords: 
  - "ifdef/TUNNEL_TYPE"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

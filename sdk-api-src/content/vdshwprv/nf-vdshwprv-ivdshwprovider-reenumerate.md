@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.R
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsHwProvider.Reenumerate"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

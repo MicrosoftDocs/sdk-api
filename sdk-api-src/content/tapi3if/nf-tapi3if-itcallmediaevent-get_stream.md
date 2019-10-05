@@ -12,6 +12,8 @@ ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Stream method, ITCallMedi
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallMediaEvent.get_Stream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

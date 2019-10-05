@@ -12,6 +12,8 @@ ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBN
 ms.topic: method
 f1_keywords: 
  - "ocidl/IViewObjectEx.GetNaturalExtent"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

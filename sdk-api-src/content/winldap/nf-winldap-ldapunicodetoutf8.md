@@ -12,6 +12,8 @@ ms.keywords: LdapUnicodeToUTF8, LdapUnicodeToUTF8 function [LDAP], _ldap_ldapuni
 ms.topic: function
 f1_keywords: 
  - "winldap/LdapUnicodeToUTF8"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

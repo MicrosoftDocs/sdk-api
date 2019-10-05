@@ -12,6 +12,8 @@ ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreate
 ms.topic: function
 f1_keywords: 
  - "ole/OleCreateFromFile"
+dev_langs:
+ - c++
 req.header: ole.h
 req.include-header: Ole2.h
 req.target-type: Windows

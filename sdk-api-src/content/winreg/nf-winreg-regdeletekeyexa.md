@@ -12,6 +12,8 @@ ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx fu
 ms.topic: function
 f1_keywords: 
  - "winreg/RegDeleteKeyEx"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

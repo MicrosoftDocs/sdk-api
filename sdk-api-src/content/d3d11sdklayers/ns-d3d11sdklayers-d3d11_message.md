@@ -12,6 +12,8 @@ ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE 
 ms.topic: struct
 f1_keywords: 
  - "d3d11sdklayers/D3D11_MESSAGE"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

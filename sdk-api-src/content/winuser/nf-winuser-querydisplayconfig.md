@@ -12,6 +12,8 @@ ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDispla
 ms.topic: function
 f1_keywords: 
  - "winuser/QueryDisplayConfig"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

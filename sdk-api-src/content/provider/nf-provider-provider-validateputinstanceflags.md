@@ -12,6 +12,8 @@ ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceF
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.ValidatePutInstanceFlags"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

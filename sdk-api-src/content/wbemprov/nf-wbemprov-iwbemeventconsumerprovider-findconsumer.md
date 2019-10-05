@@ -12,6 +12,8 @@ ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentati
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemEventConsumerProvider.FindConsumer"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

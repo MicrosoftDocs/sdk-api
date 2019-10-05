@@ -12,6 +12,8 @@ ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CE
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

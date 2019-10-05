@@ -12,6 +12,8 @@ ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],get_ReadyState metho
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.get_ReadyState"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

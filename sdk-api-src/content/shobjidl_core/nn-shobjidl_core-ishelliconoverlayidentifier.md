@@ -12,6 +12,8 @@ ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IShellIconOverlayIdentifier"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

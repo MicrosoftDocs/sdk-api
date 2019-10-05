@@ -12,6 +12,8 @@ ms.keywords: CheckTypesSet, CheckTypesSet method [DirectShow], CheckTypesSet met
 ms.topic: method
 f1_keywords: 
  - "dmoimpl/IMediaObjectImpl.CheckTypesSet"
+dev_langs:
+ - c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataS
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhSelectDataSource"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

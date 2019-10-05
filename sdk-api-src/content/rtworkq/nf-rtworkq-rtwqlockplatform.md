@@ -12,6 +12,8 @@ ms.keywords: RtwqLockPlatform, RtwqLockPlatform function, base.rtwqlockplatform,
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqLockPlatform"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PWIM_ENTRY_INFO, PWIM_ENTRY_INFO, PWIM_ENTRY_INFO structure point
 ms.topic: struct
 f1_keywords: 
  - "wofapi/WIM_ENTRY_INFO"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],de
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITTAPI"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

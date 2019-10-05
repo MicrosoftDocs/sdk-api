@@ -12,6 +12,8 @@ ms.keywords: GetService, GetService method, GetService method,IWSDDeviceHostNoti
 ms.topic: method
 f1_keywords: 
  - "wsdhost/IWSDDeviceHostNotify.GetService"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

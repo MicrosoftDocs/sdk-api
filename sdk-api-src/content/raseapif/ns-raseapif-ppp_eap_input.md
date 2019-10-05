@@ -12,6 +12,8 @@ ms.keywords: '*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer 
 ms.topic: struct
 f1_keywords:
 - raseapif/PPP_EAP_INPUT
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

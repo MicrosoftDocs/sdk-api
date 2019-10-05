@@ -12,6 +12,8 @@ ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/DeriveCapabilitySidsFromName"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

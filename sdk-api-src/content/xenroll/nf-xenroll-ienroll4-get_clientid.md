@@ -12,6 +12,8 @@ ms.keywords: ClientId property [Security], ClientId property [Security],IEnroll4
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.ClientId"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

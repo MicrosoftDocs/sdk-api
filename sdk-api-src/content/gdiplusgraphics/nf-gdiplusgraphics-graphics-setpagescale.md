@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],SetPageScale method, Graphics.SetPageScale, G
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.SetPageScale"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

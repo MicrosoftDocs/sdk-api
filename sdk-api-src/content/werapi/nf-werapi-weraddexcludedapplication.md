@@ -12,6 +12,8 @@ ms.keywords: WerAddExcludedApplication, WerAddExcludedApplication function [Wind
 ms.topic: function
 f1_keywords: 
  - "werapi/WerAddExcludedApplication"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

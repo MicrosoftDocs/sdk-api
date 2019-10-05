@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],OpenApplicationGroup method, IAzScope int
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.OpenApplicationGroup"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

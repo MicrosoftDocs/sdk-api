@@ -12,6 +12,8 @@ ms.keywords: EngAllocPrivateUserMem, EngAllocPrivateUserMem function [Display De
 ms.topic: macro
 f1_keywords:
 - winddi/EngAllocPrivateUserMem
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

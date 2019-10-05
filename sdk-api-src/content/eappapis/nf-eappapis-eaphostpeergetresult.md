@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerGetResult, EapHostPeerGetResult function [EAPHost], eaph
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetResult
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClassForHandler, GetClassForHandler method [COM], GetClassForHan
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IStdMarshalInfo.GetClassForHandler"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

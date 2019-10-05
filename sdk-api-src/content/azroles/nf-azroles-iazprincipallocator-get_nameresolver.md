@@ -12,6 +12,8 @@ ms.keywords: IAzPrincipalLocator interface [Security],NameResolver property, IAz
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzPrincipalLocator.NameResolver"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

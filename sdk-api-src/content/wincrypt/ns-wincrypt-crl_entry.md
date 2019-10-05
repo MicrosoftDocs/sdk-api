@@ -12,6 +12,8 @@ ms.keywords: '*PCRL_ENTRY, CRL_ENTRY, CRL_ENTRY structure [Security], PCRL_ENTRY
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_ENTRY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

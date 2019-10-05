@@ -12,6 +12,8 @@ ms.keywords: 37e6a4f2-50a5-efad-af10-20e8f1d053e2, IDXGIObject interface [DXGI],
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIObject.SetPrivateDataInterface"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

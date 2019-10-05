@@ -12,6 +12,8 @@ ms.keywords: OnDemandUnRegisterNotification, OnDemandUnregisterNotification, OnD
 ms.topic: function
 f1_keywords: 
  - "ondemandconnroutehelper/OnDemandUnregisterNotification"
+dev_langs:
+ - c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

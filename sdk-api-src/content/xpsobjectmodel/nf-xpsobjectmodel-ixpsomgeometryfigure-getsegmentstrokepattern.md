@@ -12,6 +12,8 @@ ms.keywords: GetSegmentStrokePattern, GetSegmentStrokePattern method [XPS Docume
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokePattern"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

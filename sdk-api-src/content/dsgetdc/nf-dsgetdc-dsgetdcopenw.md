@@ -12,6 +12,8 @@ ms.keywords: DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_KDC_REQUIRED, DS_NO
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsGetDcOpen"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount, GetBan
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetBandwidthStepCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

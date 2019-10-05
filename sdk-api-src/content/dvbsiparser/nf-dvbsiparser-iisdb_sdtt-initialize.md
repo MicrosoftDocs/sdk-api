@@ -12,6 +12,8 @@ ms.keywords: IISDB_SDTT interface [Microsoft TV Technologies],Initialize method,
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_SDTT.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTrans
 ms.topic: function
 f1_keywords: 
  - "olectl/OleTranslateColor"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

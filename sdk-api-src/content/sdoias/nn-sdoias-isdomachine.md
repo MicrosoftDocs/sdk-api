@@ -12,6 +12,8 @@ ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMac
 ms.topic: interface
 f1_keywords: 
  - "sdoias/ISdoMachine"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

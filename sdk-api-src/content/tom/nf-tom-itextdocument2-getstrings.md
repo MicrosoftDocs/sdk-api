@@ -12,6 +12,8 @@ ms.keywords: GetStrings, GetStrings method [Windows Controls], GetStrings method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetStrings"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

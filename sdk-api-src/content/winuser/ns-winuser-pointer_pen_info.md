@@ -12,6 +12,8 @@ ms.keywords: POINTER_PEN_INFO, POINTER_PEN_INFO structure [Input Messages and No
 ms.topic: struct
 f1_keywords: 
  - "winuser/POINTER_PEN_INFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

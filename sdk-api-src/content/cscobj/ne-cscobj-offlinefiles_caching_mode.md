@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_CACHING_MODE, OFFLINEFILES_CACHING_MODE enumeration [O
 ms.topic: enum
 f1_keywords:
 - cscobj/OFFLINEFILES_CACHING_MODE
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

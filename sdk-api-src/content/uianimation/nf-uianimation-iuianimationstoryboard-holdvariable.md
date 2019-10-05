@@ -12,6 +12,8 @@ ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.HoldVariable"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

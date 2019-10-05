@@ -12,6 +12,8 @@ ms.keywords: UnpackRatio, mf.unpackratio, mfapi/unpackratio, unpackratio, unpack
 ms.topic: function
 f1_keywords: 
  - "mfapi/unpackratio"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

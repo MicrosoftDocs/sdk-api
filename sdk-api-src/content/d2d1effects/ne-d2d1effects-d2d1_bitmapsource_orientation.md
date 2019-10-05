@@ -12,6 +12,8 @@ ms.keywords: D2D1_BITMAPSOURCE_ORIENTATION, D2D1_BITMAPSOURCE_ORIENTATION enumer
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION"
+dev_langs:
+ - c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParentAndItem, GetParentAndItem method [Windows Shell], GetParen
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IParentAndItem.GetParentAndItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

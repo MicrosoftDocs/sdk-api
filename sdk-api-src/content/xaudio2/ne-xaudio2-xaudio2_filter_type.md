@@ -12,6 +12,8 @@ ms.keywords: BandPassFilter, HighPassFilter, HighPassOnePoleFilter, LowPassFilte
 ms.topic: enum
 f1_keywords: 
  - "xaudio2/XAUDIO2_FILTER_TYPE"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

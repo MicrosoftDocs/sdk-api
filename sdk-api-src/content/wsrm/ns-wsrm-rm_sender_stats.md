@@ -12,6 +12,8 @@ ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], winsock.rm_se
 ms.topic: struct
 f1_keywords:
 - wsrm/RM_SENDER_STATS
+dev_langs:
+ - c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

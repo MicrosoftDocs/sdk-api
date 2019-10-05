@@ -12,6 +12,8 @@ ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],On
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbOrchestrationNotifySink.OnReadyToConnect"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

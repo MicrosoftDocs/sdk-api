@@ -12,6 +12,8 @@ ms.keywords: COPP_HDCP_ForceDWORD, COPP_HDCP_Level0, COPP_HDCP_Level1, COPP_HDCP
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_HDCP_Protection_Level"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

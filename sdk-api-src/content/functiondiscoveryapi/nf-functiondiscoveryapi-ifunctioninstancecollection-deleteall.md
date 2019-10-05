@@ -12,6 +12,8 @@ ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceColl
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollection.DeleteAll"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

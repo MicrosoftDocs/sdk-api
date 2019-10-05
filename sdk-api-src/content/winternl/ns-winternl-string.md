@@ -12,6 +12,8 @@ ms.keywords: "*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows A
 ms.topic: struct
 f1_keywords: 
  - "winternl/STRING"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

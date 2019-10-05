@@ -12,6 +12,8 @@ ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConso
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsoleNameSpace.DeleteItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

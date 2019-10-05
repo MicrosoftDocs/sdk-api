@@ -12,6 +12,8 @@ ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICs
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformation.InitializeFromType"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

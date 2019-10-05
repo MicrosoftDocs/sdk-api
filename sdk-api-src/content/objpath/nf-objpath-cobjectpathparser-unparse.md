@@ -12,6 +12,8 @@ ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],Un
 ms.topic: method
 f1_keywords: 
  - "objpath/CObjectPathParser.UnParse"
+dev_langs:
+ - c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows

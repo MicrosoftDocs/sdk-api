@@ -12,6 +12,8 @@ ms.keywords: '*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SE
 ms.topic: struct
 f1_keywords:
 - qossp/CONTROL_SERVICE
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

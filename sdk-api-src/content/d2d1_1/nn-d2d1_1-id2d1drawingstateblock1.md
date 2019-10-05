@@ -12,6 +12,8 @@ ms.keywords: ID2D1DrawingStateBlock1, ID2D1DrawingStateBlock1 interface [Direct2
 ms.topic: interface
 f1_keywords: 
  - "d2d1_1/ID2D1DrawingStateBlock1"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCharRep, GetCharRep method [Windows Controls], GetCharRep method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetCharRep"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

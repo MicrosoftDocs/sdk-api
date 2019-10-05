@@ -12,6 +12,8 @@ ms.keywords: AppPolicyCreateFileAccess, AppPolicyCreateFileAccess enumeration [A
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyCreateFileAccess"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironment
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbPlacement.QueryEnvironmentForTarget"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

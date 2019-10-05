@@ -12,6 +12,8 @@ ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,QuerySnapshotDeltaB
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

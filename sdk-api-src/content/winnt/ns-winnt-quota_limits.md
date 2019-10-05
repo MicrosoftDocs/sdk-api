@@ -12,6 +12,8 @@ ms.keywords: "*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Se
 ms.topic: struct
 f1_keywords: 
  - "winnt/QUOTA_LIMITS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

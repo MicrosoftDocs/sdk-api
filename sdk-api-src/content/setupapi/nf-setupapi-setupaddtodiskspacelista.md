@@ -12,6 +12,8 @@ ms.keywords: FILEOP_COPY., FILEOP_DELETE, SetupAddToDiskSpaceList, SetupAddToDis
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupAddToDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

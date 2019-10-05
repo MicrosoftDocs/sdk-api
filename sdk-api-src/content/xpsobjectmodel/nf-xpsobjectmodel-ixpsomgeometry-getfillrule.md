@@ -12,6 +12,8 @@ ms.keywords: GetFillRule, GetFillRule method [XPS Documents and Packaging], GetF
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometry.GetFillRule"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

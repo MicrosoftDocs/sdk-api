@@ -12,6 +12,8 @@ ms.keywords: SFBS_FLAGS, SFBS_FLAGS enumeration [Windows Shell], SFBS_FLAGS_ROUN
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/SFBS_FLAGS"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

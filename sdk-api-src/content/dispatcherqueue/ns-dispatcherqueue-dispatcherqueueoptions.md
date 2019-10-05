@@ -12,6 +12,8 @@ ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.disp
 ms.topic: struct
 f1_keywords: 
  - "dispatcherqueue/DispatcherQueueOptions"
+dev_langs:
+ - c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

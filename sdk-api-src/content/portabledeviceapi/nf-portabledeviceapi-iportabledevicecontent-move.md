@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Mov
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceContent.Move"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

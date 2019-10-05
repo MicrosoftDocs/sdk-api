@@ -12,6 +12,8 @@ ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices functi
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoQueryAuthenticationServices"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

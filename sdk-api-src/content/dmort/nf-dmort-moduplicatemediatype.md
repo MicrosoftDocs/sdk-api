@@ -12,6 +12,8 @@ ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], d
 ms.topic: function
 f1_keywords: 
  - "dmort/MoDuplicateMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], Enu
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWROW.EnumCertViewExtension"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

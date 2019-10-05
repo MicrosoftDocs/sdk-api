@@ -12,6 +12,8 @@ ms.keywords: IGraphicsEffectD2D1Interop, IGraphicsEffectD2D1Interop interface, I
 ms.topic: interface
 f1_keywords: 
  - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

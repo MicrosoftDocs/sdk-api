@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT, IOCTL_DISK_SET_DRIVE_LAYOUT control, I
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

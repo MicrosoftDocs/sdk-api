@@ -12,6 +12,8 @@ ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilterInstance metho
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterMapper.UnregisterFilterInstance"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

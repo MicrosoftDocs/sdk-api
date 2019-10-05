@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceHba interface [VDS],QueryHbaPorts method, IVdsServiceHba
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceHba.QueryHbaPorts"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

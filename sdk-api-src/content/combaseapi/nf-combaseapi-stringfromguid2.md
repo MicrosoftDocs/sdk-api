@@ -12,6 +12,8 @@ ms.keywords: StringFromGUID2, StringFromGUID2 function [COM], _com_StringFromGUI
 ms.topic: function
 f1_keywords: 
  - "combaseapi/StringFromGUID2"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize, EndFinalize meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFFinalizableMediaSink.EndFinalize"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

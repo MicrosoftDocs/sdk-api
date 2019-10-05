@@ -12,6 +12,8 @@ ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeade
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetStrideForBitmapInfoHeader"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

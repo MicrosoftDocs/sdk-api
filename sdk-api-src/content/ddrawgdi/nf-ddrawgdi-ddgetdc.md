@@ -12,6 +12,8 @@ ms.keywords: DdGetDC, DdGetDC function [Windows API], GdiEntry7, _dxgkernel_ddge
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdGetDC"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

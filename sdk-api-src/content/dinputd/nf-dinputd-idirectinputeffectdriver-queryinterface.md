@@ -12,6 +12,8 @@ ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],QueryInter
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.QueryInterface"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

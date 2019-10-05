@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSite interface [COM],OnUIActivate method, IOleInPlaceSit
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.OnUIActivate"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

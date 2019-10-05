@@ -12,6 +12,8 @@ ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSilo.GetActions"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

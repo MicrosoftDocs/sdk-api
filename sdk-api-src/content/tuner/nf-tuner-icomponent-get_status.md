@@ -12,6 +12,8 @@ ms.keywords: IComponent interface [Microsoft TV Technologies],get_Status method,
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponent.get_Status"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

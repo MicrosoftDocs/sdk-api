@@ -12,6 +12,8 @@ ms.keywords: "*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVINSERTMARK"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

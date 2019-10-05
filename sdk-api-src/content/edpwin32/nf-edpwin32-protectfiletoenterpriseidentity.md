@@ -12,6 +12,8 @@ ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentit
 ms.topic: function
 f1_keywords: 
  - "edpwin32/ProtectFileToEnterpriseIdentity"
+dev_langs:
+ - c++
 req.header: edpwin32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Refresh method, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

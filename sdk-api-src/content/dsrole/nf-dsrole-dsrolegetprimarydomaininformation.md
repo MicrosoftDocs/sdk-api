@@ -12,6 +12,8 @@ ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformatio
 ms.topic: function
 f1_keywords:
 - dsrole/DsRoleGetPrimaryDomainInformation
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

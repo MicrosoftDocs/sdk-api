@@ -12,6 +12,8 @@ ms.keywords: DXGI_OUTDUPL_MOVE_RECT, DXGI_OUTDUPL_MOVE_RECT structure [DXGI], di
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_2/DXGI_OUTDUPL_MOVE_RECT"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

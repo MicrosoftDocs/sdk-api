@@ -12,6 +12,8 @@ ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, wi
 ms.topic: function
 f1_keywords: 
  - "winbase/SetupComm"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

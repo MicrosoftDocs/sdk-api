@@ -12,6 +12,8 @@ ms.keywords: "*PMONMSGSTRUCT, MONMSGSTRUCT, MONMSGSTRUCT structure [Data Exchang
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONMSGSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

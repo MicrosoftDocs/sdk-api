@@ -12,6 +12,8 @@ ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Wi
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ANY_ATTRIBUTES"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

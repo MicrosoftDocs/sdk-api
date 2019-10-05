@@ -12,6 +12,8 @@ ms.keywords: "*LPDIDRIVERVERSIONS, DIDRIVERVERSIONS, DIDRIVERVERSIONS structure 
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIDRIVERVERSIONS"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

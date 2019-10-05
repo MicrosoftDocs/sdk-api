@@ -12,6 +12,8 @@ ms.keywords: BypassProxyOnLocal property [Windows Update Agent], BypassProxyOnLo
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.BypassProxyOnLocal"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.poin
 ms.topic: struct
 f1_keywords: 
  - "windows.foundation/Point"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

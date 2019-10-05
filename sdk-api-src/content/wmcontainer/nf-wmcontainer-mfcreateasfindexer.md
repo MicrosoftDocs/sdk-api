@@ -12,6 +12,8 @@ ms.keywords: MFCreateASFIndexer, MFCreateASFIndexer function [Media Foundation],
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFIndexer"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

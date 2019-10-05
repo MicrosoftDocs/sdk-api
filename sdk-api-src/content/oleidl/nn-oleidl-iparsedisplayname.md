@@ -12,6 +12,8 @@ ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplay
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IParseDisplayName"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

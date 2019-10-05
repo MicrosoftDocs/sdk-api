@@ -12,6 +12,8 @@ ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesToDown
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadProgress.TotalBytesToDownload"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderF
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderFilter.ShouldShow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

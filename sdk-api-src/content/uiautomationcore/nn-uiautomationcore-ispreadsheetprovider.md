@@ -12,6 +12,8 @@ ms.keywords: ISpreadsheetProvider, ISpreadsheetProvider interface [Windows Acces
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ISpreadsheetProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

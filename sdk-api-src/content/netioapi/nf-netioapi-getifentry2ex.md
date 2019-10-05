@@ -12,6 +12,8 @@ ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal
 ms.topic: function
 f1_keywords:
 - netioapi/GetIfEntry2Ex
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

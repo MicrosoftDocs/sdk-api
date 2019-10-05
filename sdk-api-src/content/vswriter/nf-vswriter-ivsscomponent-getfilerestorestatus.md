@@ -12,6 +12,8 @@ ms.keywords: GetFileRestoreStatus, GetFileRestoreStatus method [VSS], GetFileRes
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetFileRestoreStatus"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

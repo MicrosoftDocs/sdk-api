@@ -12,6 +12,8 @@ ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, 
 ms.topic: function
 f1_keywords: 
  - "wsdattachment/WSDCreateOutboundAttachment"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Sen
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceService.SendCommand"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

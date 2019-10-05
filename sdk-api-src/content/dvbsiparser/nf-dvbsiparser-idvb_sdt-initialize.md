@@ -12,6 +12,8 @@ ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],Initialize method, I
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SDT.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

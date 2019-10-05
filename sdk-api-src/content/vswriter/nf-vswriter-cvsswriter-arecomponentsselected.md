@@ -12,6 +12,8 @@ ms.keywords: AreComponentsSelected, AreComponentsSelected method [VSS], AreCompo
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.AreComponentsSelected"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

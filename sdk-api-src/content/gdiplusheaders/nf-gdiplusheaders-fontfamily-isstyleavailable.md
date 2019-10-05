@@ -12,6 +12,8 @@ ms.keywords: FontFamily class [GDI+],IsStyleAvailable method, FontFamily.IsStyle
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontFamily.IsStyleAvailable"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

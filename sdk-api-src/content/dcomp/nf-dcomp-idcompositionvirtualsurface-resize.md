@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Resize me
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVirtualSurface.Resize"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

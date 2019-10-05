@@ -12,6 +12,8 @@ ms.keywords: GetDownLevelRasterizationLimit, GetDownLevelRasterizationLimit meth
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Metafile.GetDownLevelRasterizationLimit"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

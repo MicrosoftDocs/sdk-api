@@ -12,6 +12,8 @@ ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [W
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IDeskBar"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

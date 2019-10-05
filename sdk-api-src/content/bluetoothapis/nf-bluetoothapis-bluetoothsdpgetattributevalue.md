@@ -12,6 +12,8 @@ ms.keywords: BluetoothSdpGetAttributeValue, BluetoothSdpGetAttributeValue functi
 ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSdpGetAttributeValue
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

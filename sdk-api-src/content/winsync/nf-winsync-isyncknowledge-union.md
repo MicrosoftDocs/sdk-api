@@ -12,6 +12,8 @@ ms.keywords: ISyncKnowledge interface [Windows Sync],Union method, ISyncKnowledg
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.Union"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

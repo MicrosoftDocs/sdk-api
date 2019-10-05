@@ -12,6 +12,8 @@ ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32
 ms.topic: function
 f1_keywords: 
  - "wingdi/TextOut"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

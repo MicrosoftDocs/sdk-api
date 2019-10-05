@@ -12,6 +12,8 @@ ms.keywords: IConsole interface [MMC],SetHeader method, IConsole.SetHeader, ICon
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole.SetHeader"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite fu
 ms.topic: function
 f1_keywords: 
  - "bluetoothleapis/BluetoothGATTBeginReliableWrite"
+dev_langs:
+ - c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

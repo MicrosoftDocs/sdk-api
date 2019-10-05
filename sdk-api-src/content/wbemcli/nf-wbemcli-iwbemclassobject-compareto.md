@@ -12,6 +12,8 @@ ms.keywords: CompareTo, CompareTo method [Windows Management Instrumentation], C
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.CompareTo"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFr
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.GetAnchorFromPoint"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

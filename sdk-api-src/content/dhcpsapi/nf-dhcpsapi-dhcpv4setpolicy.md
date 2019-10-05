@@ -12,6 +12,8 @@ ms.keywords: DhcpV4SetPolicy, DhcpV4SetPolicy function [DHCP], dhcp.dhcpv4setpol
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4SetPolicy
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

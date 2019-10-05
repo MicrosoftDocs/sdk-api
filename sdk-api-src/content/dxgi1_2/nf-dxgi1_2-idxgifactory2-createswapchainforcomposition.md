@@ -12,6 +12,8 @@ ms.keywords: CreateSwapChainForComposition, CreateSwapChainForComposition method
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIFactory2.CreateSwapChainForComposition"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

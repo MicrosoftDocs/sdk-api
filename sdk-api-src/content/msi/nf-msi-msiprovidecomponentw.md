@@ -12,6 +12,8 @@ ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION,
 ms.topic: function
 f1_keywords: 
  - "msi/MsiProvideComponent"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

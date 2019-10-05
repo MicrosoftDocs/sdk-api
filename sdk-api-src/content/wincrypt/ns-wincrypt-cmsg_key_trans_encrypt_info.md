@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_KEY_TRANS_ENCRYPT_INFO, CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_F
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

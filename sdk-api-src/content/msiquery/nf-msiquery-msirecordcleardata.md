@@ -12,6 +12,8 @@ ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordclea
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordClearData"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

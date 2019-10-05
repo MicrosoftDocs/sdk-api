@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],InstallPKCS7BlobEx method, IEnroll4.I
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.InstallPKCS7BlobEx"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

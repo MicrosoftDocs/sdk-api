@@ -12,6 +12,8 @@ ms.keywords: FAX_GROUP_STATUS_ENUM, FAX_GROUP_STATUS_ENUM enumeration [Fax Servi
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_GROUP_STATUS_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, 
 ms.topic: function
 f1_keywords:
 - ioapiset/DeviceIoControl
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

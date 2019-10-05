@@ -12,6 +12,8 @@ ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform interface [Media
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.SetInputType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDownloadProgressChangedCallbackArgs, IDownloadProgressChangedCallb
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IDownloadProgressChangedCallbackArgs"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

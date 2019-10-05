@@ -12,6 +12,8 @@ ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PIT
 ms.topic: struct
 f1_keywords: 
  - "subsmgr/ITEMPROP"
+dev_langs:
+ - c++
 req.header: subsmgr.h
 req.include-header: 
 req.target-type: Windows

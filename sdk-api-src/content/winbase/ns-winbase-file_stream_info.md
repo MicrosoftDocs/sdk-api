@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

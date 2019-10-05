@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMe
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.SetMute"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

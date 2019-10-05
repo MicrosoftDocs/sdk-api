@@ -12,6 +12,8 @@ ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWS
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDMessageParameters.GetLocalAddress"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

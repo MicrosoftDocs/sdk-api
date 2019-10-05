@@ -12,6 +12,8 @@ ms.keywords: SL_ACTIVATION_TYPE, SL_ACTIVATION_TYPE enumeration [Security], SL_A
 ms.topic: enum
 f1_keywords:
 - slpublic/SL_ACTIVATION_TYPE
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

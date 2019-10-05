@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface,
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.Delete"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

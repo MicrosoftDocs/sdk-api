@@ -12,6 +12,8 @@ ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultLi
 ms.topic: function
 f1_keywords:
 - winbase/AccessCheckByTypeResultListAndAuditAlarm
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

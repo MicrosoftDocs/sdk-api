@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetEmboss method, ITextFont.
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetEmboss"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessio
 ms.topic: callback
 f1_keywords: 
  - "wdstci/PFN_WdsTransportClientSessionComplete"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

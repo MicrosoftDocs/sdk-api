@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetClassImageIndex, SetupDiGetClassImageIndex function [Devi
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassImageIndex
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

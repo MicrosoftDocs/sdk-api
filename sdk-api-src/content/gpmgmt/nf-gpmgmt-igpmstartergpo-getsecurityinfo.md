@@ -12,6 +12,8 @@ ms.keywords: GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo met
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPO.GetSecurityInfo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

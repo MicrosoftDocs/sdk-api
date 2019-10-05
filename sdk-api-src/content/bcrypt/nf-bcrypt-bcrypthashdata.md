@@ -12,6 +12,8 @@ ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHa
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptHashData"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

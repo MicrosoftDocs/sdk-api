@@ -12,6 +12,8 @@ ms.keywords: IOleUILinkContainer interface [COM],SetLinkSource method, IOleUILin
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.SetLinkSource"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

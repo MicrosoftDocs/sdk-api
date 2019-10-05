@@ -12,6 +12,8 @@ ms.keywords: GetSubpathCount, GetSubpathCount method [GDI+], GetSubpathCount met
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator.GetSubpathCount"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

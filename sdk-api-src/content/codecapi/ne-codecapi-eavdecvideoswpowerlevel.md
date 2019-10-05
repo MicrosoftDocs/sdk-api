@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecVideoSWPowerLevel"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDataTransferManagerInterop interface [Windows Shell],ShowShareUIFo
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDataTransferManagerInterop.ShowShareUIForWindow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

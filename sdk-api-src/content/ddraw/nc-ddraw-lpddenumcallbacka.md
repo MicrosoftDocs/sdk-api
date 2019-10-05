@@ -12,6 +12,8 @@ ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDD
 ms.topic: callback
 f1_keywords: 
  - "ddraw/DDEnumCallback"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

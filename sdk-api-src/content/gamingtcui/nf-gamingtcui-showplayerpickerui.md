@@ -12,6 +12,8 @@ ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPla
 ms.topic: function
 f1_keywords: 
  - "gamingtcui/ShowPlayerPickerUI"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

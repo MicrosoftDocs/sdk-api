@@ -12,6 +12,8 @@ ms.keywords: SHCOLSTATE, SHCOLSTATE enumeration [Windows Shell], SHCOLSTATE_BATC
 ms.topic: enum
 f1_keywords: 
  - "shtypes/SHCOLSTATE"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

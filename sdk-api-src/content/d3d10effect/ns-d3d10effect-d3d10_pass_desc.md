@@ -12,6 +12,8 @@ ms.keywords: 5373c44b-9837-094e-9520-1b3a2078a9d6, D3D10_PASS_DESC, D3D10_PASS_D
 ms.topic: struct
 f1_keywords: 
  - "d3d10effect/D3D10_PASS_DESC"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

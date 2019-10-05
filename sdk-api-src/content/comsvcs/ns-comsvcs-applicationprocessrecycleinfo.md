@@ -12,6 +12,8 @@ ms.keywords: ApplicationProcessRecycleInfo, ApplicationProcessRecycleInfo struct
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/ApplicationProcessRecycleInfo"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilOidCmp, SnmpUtilOidCmp function [SNMP], _snmp_snmputiloidcm
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilOidCmp"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

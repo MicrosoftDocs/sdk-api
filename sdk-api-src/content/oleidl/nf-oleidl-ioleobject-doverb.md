@@ -12,6 +12,8 @@ ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interfa
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.DoVerb"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documen
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMSolidColorBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

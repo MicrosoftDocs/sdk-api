@@ -12,6 +12,8 @@ ms.keywords: GetLogoCharW, GetLogoCharW method [Microsoft TV Technologies], GetL
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoCharW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

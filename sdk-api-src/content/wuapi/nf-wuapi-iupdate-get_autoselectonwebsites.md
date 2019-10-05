@@ -12,6 +12,8 @@ ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnW
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.AutoSelectOnWebSites"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

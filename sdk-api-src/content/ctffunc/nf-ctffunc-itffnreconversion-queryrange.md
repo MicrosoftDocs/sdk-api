@@ -12,6 +12,8 @@ ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnReconversion.QueryRange"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

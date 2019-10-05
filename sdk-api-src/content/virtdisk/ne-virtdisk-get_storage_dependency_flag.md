@@ -12,6 +12,8 @@ ms.keywords: GET_STORAGE_DEPENDENCY_FLAG, GET_STORAGE_DEPENDENCY_FLAG enumeratio
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/GET_STORAGE_DEPENDENCY_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsoc
 ms.topic: macro
 f1_keywords: 
  - "winsock2/fd_set"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2f57837a-b161-c1f5-e5ba-7e4fda75185f, Capture, Capture method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DStateBlock9.Capture"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

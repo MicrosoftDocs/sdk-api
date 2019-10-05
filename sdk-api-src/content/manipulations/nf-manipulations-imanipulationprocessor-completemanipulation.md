@@ -12,6 +12,8 @@ ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], 
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.CompleteManipulation"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

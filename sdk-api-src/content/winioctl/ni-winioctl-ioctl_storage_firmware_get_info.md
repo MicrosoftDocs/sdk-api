@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

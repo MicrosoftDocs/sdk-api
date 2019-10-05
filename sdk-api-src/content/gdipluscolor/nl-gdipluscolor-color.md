@@ -12,6 +12,8 @@ ms.keywords: Color, Color class [GDI+], Color class [GDI+],described, _gdiplus_C
 ms.topic: class
 f1_keywords: 
  - "gdipluscolor/Color"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: 
 req.target-type: Windows

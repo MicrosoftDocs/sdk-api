@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Managemen
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemObjectTextSrc"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

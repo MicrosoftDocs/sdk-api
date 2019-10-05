@@ -12,6 +12,8 @@ ms.keywords: FileIOCompletionRoutine, FileIOCompletionRoutine callback, FileIOCo
 ms.topic: callback
 f1_keywords:
 - minwinbase/FileIOCompletionRoutine
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

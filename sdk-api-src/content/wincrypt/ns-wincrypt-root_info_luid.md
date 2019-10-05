@@ -12,6 +12,8 @@ ms.keywords: '*PROOT_INFO_LUID, PROOT_INFO_LUID, PROOT_INFO_LUID structure point
 ms.topic: struct
 f1_keywords:
 - wincrypt/ROOT_INFO_LUID
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

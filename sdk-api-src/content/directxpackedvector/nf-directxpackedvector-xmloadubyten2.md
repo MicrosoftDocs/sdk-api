@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadUByteN2, XMLoadUByteN2, XMLoadUByteN2 m
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadUByteN2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

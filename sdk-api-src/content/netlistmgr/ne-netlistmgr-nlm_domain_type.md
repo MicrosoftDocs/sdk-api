@@ -12,6 +12,8 @@ ms.keywords: NLM_DOMAIN_TYPE, NLM_DOMAIN_TYPE enumeration [Network Awareness], N
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_DOMAIN_TYPE"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

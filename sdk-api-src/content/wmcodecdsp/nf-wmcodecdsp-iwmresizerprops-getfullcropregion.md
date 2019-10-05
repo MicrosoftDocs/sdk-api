@@ -12,6 +12,8 @@ ms.keywords: GetFullCropRegion, GetFullCropRegion method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMResizerProps.GetFullCropRegion"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

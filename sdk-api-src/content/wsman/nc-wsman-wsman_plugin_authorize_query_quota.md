@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA, WSMAN_PLUGIN_AUTHORIZE_QUERY_QU
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

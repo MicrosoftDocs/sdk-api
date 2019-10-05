@@ -12,6 +12,8 @@ ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsoc
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAWaitForMultipleEvents"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

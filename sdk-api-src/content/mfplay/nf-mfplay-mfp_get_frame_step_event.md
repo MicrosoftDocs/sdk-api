@@ -12,6 +12,8 @@ ms.keywords: MFP_GET_FRAME_STEP_EVENT, MFP_GET_FRAME_STEP_EVENT macro [Media Fou
 ms.topic: macro
 f1_keywords: 
  - "mfplay/MFP_GET_FRAME_STEP_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_bEnumClipLines, PATHOBJ_bEnumClipLines function [Display De
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bEnumClipLines
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

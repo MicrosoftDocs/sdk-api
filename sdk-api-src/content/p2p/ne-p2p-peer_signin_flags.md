@@ -12,6 +12,8 @@ ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_SIGNIN_FLAGS"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

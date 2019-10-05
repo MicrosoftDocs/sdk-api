@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_HEADER_EXTENDED_DATA_ITEM, EVENT_HEADER_EXTENDED_DATA_ITEM
 ms.topic: struct
 f1_keywords:
 - relogger/EVENT_HEADER_EXTENDED_DATA_ITEM
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: Evntcons.h
 req.target-type: Windows

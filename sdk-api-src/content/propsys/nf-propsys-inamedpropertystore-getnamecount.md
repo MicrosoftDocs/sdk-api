@@ -12,6 +12,8 @@ ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount met
 ms.topic: method
 f1_keywords: 
  - "propsys/INamedPropertyStore.GetNameCount"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTEEA, *PTRUSTEE_A, PTRUSTEE, PTRUSTEE structure pointer [Sec
 ms.topic: struct
 f1_keywords:
 - accctrl/TRUSTEE
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

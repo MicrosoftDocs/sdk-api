@@ -12,6 +12,8 @@ ms.keywords: ClaimMediaLabel, ClaimMediaLabel callback, ClaimMediaLabel callback
 ms.topic: callback
 f1_keywords: 
  - "ntmsmli/ClaimMediaLabel"
+dev_langs:
+ - c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows

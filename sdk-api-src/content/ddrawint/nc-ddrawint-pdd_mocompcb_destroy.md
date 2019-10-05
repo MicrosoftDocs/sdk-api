@@ -12,6 +12,8 @@ ms.keywords: DdMoCompDestroy, DdMoCompDestroy callback function [Display Devices
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompDestroy
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

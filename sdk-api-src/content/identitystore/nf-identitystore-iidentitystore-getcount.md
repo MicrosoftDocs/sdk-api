@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Security], GetCount method [Security],II
 ms.topic: method
 f1_keywords: 
  - "identitystore/IIdentityStore.GetCount"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

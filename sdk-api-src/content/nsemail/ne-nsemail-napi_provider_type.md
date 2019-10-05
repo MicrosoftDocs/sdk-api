@@ -12,6 +12,8 @@ ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], Provi
 ms.topic: enum
 f1_keywords: 
  - "nsemail/NAPI_PROVIDER_TYPE"
+dev_langs:
+ - c++
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

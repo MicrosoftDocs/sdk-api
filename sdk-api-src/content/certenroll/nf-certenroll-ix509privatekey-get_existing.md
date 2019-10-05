@@ -12,6 +12,8 @@ ms.keywords: Existing property [Security], Existing property [Security],IX509Pri
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Existing"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

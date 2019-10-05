@@ -12,6 +12,8 @@ ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Wi
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/CIDLData_CreateFromIDArray"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

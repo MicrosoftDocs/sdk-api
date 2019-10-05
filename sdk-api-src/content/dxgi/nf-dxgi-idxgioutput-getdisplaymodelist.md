@@ -12,6 +12,8 @@ ms.keywords: 3a76a6e4-1ab8-3f7a-7a2b-1bd9540d34fa, GetDisplayModeList, GetDispla
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetDisplayModeList"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

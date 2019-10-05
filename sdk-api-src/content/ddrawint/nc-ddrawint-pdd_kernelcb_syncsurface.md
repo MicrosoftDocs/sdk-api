@@ -12,6 +12,8 @@ ms.keywords: DdSyncSurfaceData, DdSyncSurfaceData callback function [Display Dev
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdSyncSurfaceData
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

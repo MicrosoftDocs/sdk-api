@@ -12,6 +12,8 @@ ms.keywords: IDXGIOutput interface [DXGI],TakeOwnership method, IDXGIOutput.Take
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.TakeOwnership"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

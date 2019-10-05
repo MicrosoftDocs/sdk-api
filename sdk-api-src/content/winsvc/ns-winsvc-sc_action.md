@@ -12,6 +12,8 @@ ms.keywords: '*LPSC_ACTION, LPSC_ACTION, LPSC_ACTION structure pointer, SC_ACTIO
 ms.topic: struct
 f1_keywords:
 - winsvc/SC_ACTION
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateTrigger, CreateTrigger method [Task Scheduler], CreateTrigger
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.CreateTrigger"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

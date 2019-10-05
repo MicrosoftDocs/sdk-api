@@ -12,6 +12,8 @@ ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_
 ms.topic: enum
 f1_keywords: 
  - "objidlbase/THDTYPE"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

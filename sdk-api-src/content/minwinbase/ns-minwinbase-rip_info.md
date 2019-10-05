@@ -12,6 +12,8 @@ ms.keywords: "*LPRIP_INFO, LPRIP_INFO, LPRIP_INFO structure pointer, RIP_INFO, R
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/RIP_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

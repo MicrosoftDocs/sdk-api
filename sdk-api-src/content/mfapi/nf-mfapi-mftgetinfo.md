@@ -12,6 +12,8 @@ ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-4
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTGetInfo"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

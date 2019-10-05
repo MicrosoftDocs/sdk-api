@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_REGION_INFO, FSCTL_QUERY_REGION_INFO control, FSCTL_QUE
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_QUERY_REGION_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

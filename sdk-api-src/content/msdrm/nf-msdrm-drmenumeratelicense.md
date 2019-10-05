@@ -12,6 +12,8 @@ ms.keywords: DRMEnumerateLicense, DRMEnumerateLicense function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMEnumerateLicense"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

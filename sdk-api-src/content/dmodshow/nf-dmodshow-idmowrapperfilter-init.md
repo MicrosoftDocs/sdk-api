@@ -12,6 +12,8 @@ ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFi
 ms.topic: method
 f1_keywords: 
  - "dmodshow/IDMOWrapperFilter.Init"
+dev_langs:
+ - c++
 req.header: dmodshow.h
 req.include-header: 
 req.target-type: Windows

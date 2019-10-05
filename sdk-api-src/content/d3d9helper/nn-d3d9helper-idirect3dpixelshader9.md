@@ -12,6 +12,8 @@ ms.keywords: 1b9d322d-ffbe-622f-e100-b394c60f0d5d, IDirect3DPixelShader9, IDirec
 ms.topic: interface
 f1_keywords: 
  - "d3d9helper/IDirect3DPixelShader9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

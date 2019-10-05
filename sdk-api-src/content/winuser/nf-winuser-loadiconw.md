@@ -12,6 +12,8 @@ ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadIcon"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

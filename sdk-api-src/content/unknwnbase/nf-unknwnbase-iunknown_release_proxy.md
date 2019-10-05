@@ -12,6 +12,8 @@ ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.
 ms.topic: function
 f1_keywords: 
  - "unknwnbase/IUnknown_Release_Proxy"
+dev_langs:
+ - c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType in
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.ImplementsInterface"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider.Compare"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

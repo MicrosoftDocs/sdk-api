@@ -12,6 +12,8 @@ ms.keywords: IDWriteLocalFontFileLoader, IDWriteLocalFontFileLoader interface [D
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteLocalFontFileLoader"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

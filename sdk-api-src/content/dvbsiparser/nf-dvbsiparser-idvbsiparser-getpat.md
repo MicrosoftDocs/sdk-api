@@ -12,6 +12,8 @@ ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetPAT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

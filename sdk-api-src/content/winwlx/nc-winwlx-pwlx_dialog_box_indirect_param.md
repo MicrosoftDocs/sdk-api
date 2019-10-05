@@ -12,6 +12,8 @@ ms.keywords: PWLX_DIALOG_BOX_INDIRECT_PARAM, PWLX_DIALOG_BOX_INDIRECT_PARAM call
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxDialogBoxIndirectParam"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

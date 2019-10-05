@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS struc
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_STATUS"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginInvokeAction, BeginInvokeAction method [UPnP APIs], BeginInvok
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.BeginInvokeAction"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

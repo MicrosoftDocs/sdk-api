@@ -12,6 +12,8 @@ ms.keywords: CloseCommandSession, CloseCommandSession method [Microsoft Broadban
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceService.CloseCommandSession"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

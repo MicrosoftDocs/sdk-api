@@ -12,6 +12,8 @@ ms.keywords: 6002611c-c95a-9bf0-071c-c2d577cfdc80, GetInt, GetInt method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.GetInt"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

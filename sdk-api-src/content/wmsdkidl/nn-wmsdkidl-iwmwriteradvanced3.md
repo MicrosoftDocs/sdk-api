@@ -12,6 +12,8 @@ ms.keywords: IWMWriterAdvanced3, IWMWriterAdvanced3 interface [windows Media For
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced3"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.end
 ms.topic: function
 f1_keywords: 
  - "winuser/EndPaint"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

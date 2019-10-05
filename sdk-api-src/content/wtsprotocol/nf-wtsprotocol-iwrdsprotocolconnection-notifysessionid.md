@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifyS
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.NotifySessionId
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

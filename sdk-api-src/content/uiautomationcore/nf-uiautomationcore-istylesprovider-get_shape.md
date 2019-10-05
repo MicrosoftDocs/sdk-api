@@ -12,6 +12,8 @@ ms.keywords: IStylesProvider interface [Windows Accessibility],Shape property, I
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IStylesProvider.Shape"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

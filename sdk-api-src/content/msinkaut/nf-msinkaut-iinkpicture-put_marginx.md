@@ -12,6 +12,8 @@ ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.Mar
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.MarginX"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

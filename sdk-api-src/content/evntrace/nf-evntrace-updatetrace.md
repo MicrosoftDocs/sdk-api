@@ -12,6 +12,8 @@ ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW
 ms.topic: macro
 f1_keywords: 
  - "evntrace/UpdateTrace"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

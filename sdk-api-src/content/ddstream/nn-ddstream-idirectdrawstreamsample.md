@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectS
 ms.topic: interface
 f1_keywords: 
  - "ddstream/IDirectDrawStreamSample"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

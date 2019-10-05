@@ -12,6 +12,8 @@ ms.keywords: IActiveDesktopP, IActiveDesktopP interface [Legacy Windows Environm
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IActiveDesktopP"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, IC
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertProperty.RemoveFromCertificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

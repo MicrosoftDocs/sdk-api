@@ -12,6 +12,8 @@ ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],op_Assign
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingOrientedBox.op_Assignment"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featur
 ms.topic: function
 f1_keywords: 
  - "featurestagingapi/GetFeatureVariant"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

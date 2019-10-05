@@ -12,6 +12,8 @@ ms.keywords: ISearchManager interface [search],SetProxy method, ISearchManager.S
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager.SetProxy
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

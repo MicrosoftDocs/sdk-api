@@ -12,6 +12,8 @@ ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, nets
 ms.topic: function
 f1_keywords: 
  - "netsh/MatchToken"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

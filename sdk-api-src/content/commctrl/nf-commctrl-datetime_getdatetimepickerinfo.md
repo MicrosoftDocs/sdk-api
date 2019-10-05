@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetDateTimePickerInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

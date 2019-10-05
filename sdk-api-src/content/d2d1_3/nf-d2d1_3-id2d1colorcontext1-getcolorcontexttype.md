@@ -12,6 +12,8 @@ ms.keywords: GetColorContextType, GetColorContextType method [Direct2D], GetColo
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1ColorContext1.GetColorContextType"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

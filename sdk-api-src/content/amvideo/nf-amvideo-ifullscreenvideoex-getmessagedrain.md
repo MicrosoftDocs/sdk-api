@@ -12,6 +12,8 @@ ms.keywords: GetMessageDrain, GetMessageDrain method [DirectShow], GetMessageDra
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.GetMessageDrain"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

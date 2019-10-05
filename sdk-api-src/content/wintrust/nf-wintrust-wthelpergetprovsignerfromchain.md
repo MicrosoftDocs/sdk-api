@@ -12,6 +12,8 @@ ms.keywords: WTHelperGetProvSignerFromChain, WTHelperGetProvSignerFromChain func
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperGetProvSignerFromChain
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

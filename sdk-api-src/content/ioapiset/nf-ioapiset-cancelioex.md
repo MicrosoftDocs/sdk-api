@@ -12,6 +12,8 @@ ms.keywords: CancelIoEx, CancelIoEx function [Files], fs.cancelioex_func, ioapis
 ms.topic: function
 f1_keywords:
 - ioapiset/CancelIoEx
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

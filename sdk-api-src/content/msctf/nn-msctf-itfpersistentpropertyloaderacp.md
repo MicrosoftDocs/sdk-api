@@ -12,6 +12,8 @@ ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP inte
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfPersistentPropertyLoaderACP"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

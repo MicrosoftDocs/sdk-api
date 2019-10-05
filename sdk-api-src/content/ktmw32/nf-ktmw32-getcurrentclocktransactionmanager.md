@@ -12,6 +12,8 @@ ms.keywords: GetCurrentClockTransactionManager, GetCurrentClockTransactionManage
 ms.topic: function
 f1_keywords: 
  - "ktmw32/GetCurrentClockTransactionManager"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

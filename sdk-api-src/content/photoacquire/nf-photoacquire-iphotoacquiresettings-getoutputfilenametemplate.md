@@ -12,6 +12,8 @@ ms.keywords: GetOutputFilenameTemplate, GetOutputFilenameTemplate method [Pictur
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.GetOutputFilenameTemplate"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

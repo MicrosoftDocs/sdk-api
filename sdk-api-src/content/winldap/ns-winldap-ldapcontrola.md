@@ -12,6 +12,8 @@ ms.keywords: "*PLDAPControlA, LDAPControl, LDAPControl structure [LDAP], LDAPCon
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPControl"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500Dis
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX500DistinguishedName.Decode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PGET_OPERATION_CONTEXT_PARAMS, GET_OPERATION_CONTEXT_PARAMS, GET_
 ms.topic: struct
 f1_keywords: 
  - "resapi/GET_OPERATION_CONTEXT_PARAMS"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

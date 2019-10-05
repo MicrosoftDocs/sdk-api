@@ -12,6 +12,8 @@ ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, Ft
 ms.topic: function
 f1_keywords: 
  - "wininet/FtpDeleteFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

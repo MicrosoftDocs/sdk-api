@@ -12,6 +12,8 @@ ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], p
 ms.topic: function
 f1_keywords: 
  - "perflib/PerfEnumerateCounterSet"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

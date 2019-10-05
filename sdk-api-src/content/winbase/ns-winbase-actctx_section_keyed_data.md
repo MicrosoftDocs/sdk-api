@@ -12,6 +12,8 @@ ms.keywords: "*PACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA, ACTCTX_SEC
 ms.topic: struct
 f1_keywords: 
  - "winbase/ACTCTX_SECTION_KEYED_DATA"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

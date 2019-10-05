@@ -12,6 +12,8 @@ ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, I
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminCreateObj.Initialize"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

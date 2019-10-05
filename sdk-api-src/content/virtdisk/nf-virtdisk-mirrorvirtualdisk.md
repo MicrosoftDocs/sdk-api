@@ -12,6 +12,8 @@ ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NO
 ms.topic: function
 f1_keywords:
 - virtdisk/MirrorVirtualDisk
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

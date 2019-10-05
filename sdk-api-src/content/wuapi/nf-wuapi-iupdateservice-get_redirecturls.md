@@ -12,6 +12,8 @@ ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls proper
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.RedirectUrls"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashLis
 ms.topic: function
 f1_keywords:
 - winefs/FreeEncryptionCertificateHashList
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next
 ms.topic: method
 f1_keywords: 
  - "bdatif/IEnumGuideDataProperties.Next"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

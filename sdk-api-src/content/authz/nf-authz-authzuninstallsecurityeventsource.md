@@ -12,6 +12,8 @@ ms.keywords: AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSourc
 ms.topic: function
 f1_keywords:
 - authz/AuthzUninstallSecurityEventSource
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR st
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_SGNR
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrame
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

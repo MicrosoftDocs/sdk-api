@@ -12,6 +12,8 @@ ms.keywords: 551372b3-b9aa-4057-8c14-19e582053e00, Clone, Clone method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetProxyLocator.Clone"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

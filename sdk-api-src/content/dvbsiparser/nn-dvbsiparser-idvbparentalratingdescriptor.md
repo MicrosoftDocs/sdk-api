@@ -12,6 +12,8 @@ ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interfac
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbParentalRatingDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CancelAddTrack, CancelAddTrack method [IMAPI], CancelAddTrack metho
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2TrackAtOnce.CancelAddTrack"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_Sys
 ms.topic: function
 f1_keywords: 
  - "oleauto/SysReAllocString"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_NOTIFICATION, VDS_NOTIFICATION structure [VDS], VDS_NTT_CONTROL
 ms.topic: struct
 f1_keywords:
 - vds/VDS_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlay
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlayNotify.OnClipChange"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

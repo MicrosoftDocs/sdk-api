@@ -12,6 +12,8 @@ ms.keywords: DWRITE_HIT_TEST_METRICS, DWRITE_HIT_TEST_METRICS structure [Direct 
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_HIT_TEST_METRICS"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

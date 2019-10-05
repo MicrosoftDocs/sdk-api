@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_AUTOCONFIG_LAST_DE
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_PER_CONN_OPTION"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

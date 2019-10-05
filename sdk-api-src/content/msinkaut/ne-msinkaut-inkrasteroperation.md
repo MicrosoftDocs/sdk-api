@@ -12,6 +12,8 @@ ms.keywords: 34403724-b883-4c03-8784-fe8f205d3da6, IRO_Black, IRO_CopyPen, IRO_M
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRasterOperation"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

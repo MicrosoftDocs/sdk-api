@@ -12,6 +12,8 @@ ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, db
 ms.topic: function
 f1_keywords: 
  - "dbghelp/GetSymLoadError"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], Ge
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbGenericNotifySink.GetWaitTimeout"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

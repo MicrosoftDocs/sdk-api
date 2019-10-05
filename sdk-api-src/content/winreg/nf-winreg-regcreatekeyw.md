@@ -12,6 +12,8 @@ ms.keywords: RegCreateKey, RegCreateKey function, RegCreateKeyA, RegCreateKeyW, 
 ms.topic: function
 f1_keywords: 
  - "winreg/RegCreateKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

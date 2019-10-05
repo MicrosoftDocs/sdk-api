@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetRange"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

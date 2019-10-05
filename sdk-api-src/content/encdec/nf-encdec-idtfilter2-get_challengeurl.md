@@ -12,6 +12,8 @@ ms.keywords: IDTFilter2 interface [Microsoft TV Technologies],get_ChallengeUrl m
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter2.get_ChallengeUrl"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

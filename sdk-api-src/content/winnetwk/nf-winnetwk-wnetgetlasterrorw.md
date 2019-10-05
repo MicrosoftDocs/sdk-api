@@ -12,6 +12,8 @@ ms.keywords: WNetGetLastError, WNetGetLastError function [Windows Networking (WN
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetGetLastError"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

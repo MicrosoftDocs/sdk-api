@@ -12,6 +12,8 @@ ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],Medi
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.MediaInfo"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

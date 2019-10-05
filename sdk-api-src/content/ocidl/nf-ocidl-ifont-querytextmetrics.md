@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],QueryTextMetrics method, IFont.QueryTextMetri
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.QueryTextMetrics"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

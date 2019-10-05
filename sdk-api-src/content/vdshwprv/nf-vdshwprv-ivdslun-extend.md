@@ -12,6 +12,8 @@ ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface,
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLun.Extend"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

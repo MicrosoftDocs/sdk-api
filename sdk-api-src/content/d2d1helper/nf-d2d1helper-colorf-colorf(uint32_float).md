@@ -12,6 +12,8 @@ ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(UINT32,FLOAT) constructo
 ms.topic: method
 f1_keywords: 
  - "d2d1helper/ColorF.ColorF(UINT32, FLOAT)"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

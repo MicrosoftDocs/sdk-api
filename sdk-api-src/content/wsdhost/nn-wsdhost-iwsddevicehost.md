@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,
 ms.topic: interface
 f1_keywords: 
  - "wsdhost/IWSDDeviceHost"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

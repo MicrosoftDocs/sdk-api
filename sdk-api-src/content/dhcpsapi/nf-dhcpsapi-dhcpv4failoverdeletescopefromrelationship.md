@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScop
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

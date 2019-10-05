@@ -12,6 +12,8 @@ ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialog.AddPlace"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

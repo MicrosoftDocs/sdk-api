@@ -12,6 +12,8 @@ ms.keywords: WPC_MEDIA_EXPLICIT, WPC_MEDIA_EXPLICIT enumeration, WPC_MEDIA_EXPLI
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_MEDIA_EXPLICIT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

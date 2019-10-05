@@ -12,6 +12,8 @@ ms.keywords: CERT_QUERY_CONTENT_CERT, CERT_QUERY_CONTENT_CERT_PAIR, CERT_QUERY_C
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptQueryObject
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

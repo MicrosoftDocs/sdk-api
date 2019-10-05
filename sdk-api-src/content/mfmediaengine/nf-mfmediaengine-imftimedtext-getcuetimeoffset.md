@@ -12,6 +12,8 @@ ms.keywords: GetCueTimeOffset, GetCueTimeOffset method [Media Foundation], GetCu
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.GetCueTimeOffset"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

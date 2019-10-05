@@ -12,6 +12,8 @@ ms.keywords: ForgetToVersion, ForgetToVersion method [Windows Sync], ForgetToVer
 ms.topic: method
 f1_keywords:
 - winsync/IForgottenKnowledge.ForgetToVersion
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC]
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdStubBuffer2_CountRefs"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

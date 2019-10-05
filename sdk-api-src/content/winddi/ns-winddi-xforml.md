@@ -12,6 +12,8 @@ ms.keywords: '*LPFLOATOBJ_XFORM, *PFLOATOBJ_XFORM, *PXFORML, FAR *LPFLOATOBJ_XFO
 ms.topic: struct
 f1_keywords:
 - winddi/FLOATOBJ_XFORM
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

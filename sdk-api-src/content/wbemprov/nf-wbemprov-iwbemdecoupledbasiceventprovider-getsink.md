@@ -12,6 +12,8 @@ ms.keywords: GetSink, GetSink method [Windows Management Instrumentation], GetSi
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemDecoupledBasicEventProvider.GetSink"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

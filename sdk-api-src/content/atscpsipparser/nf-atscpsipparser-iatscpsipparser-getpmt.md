@@ -12,6 +12,8 @@ ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetPMT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

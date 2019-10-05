@@ -12,6 +12,8 @@ ms.keywords: OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Me
 ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputForTarget
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

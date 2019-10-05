@@ -12,6 +12,8 @@ ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFShutdown"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

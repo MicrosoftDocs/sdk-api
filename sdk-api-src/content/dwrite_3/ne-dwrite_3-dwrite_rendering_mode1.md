@@ -12,6 +12,8 @@ ms.keywords: DWRITE_RENDERING_MODE1, DWRITE_RENDERING_MODE1 enumeration [Direct 
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_RENDERING_MODE1"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

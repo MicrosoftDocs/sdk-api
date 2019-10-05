@@ -12,6 +12,8 @@ ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1Creat
 ms.topic: function
 f1_keywords: 
  - "d2d1/D2D1CreateFactory"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

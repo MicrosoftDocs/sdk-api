@@ -12,6 +12,8 @@ ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3D
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateFFT1DComplex"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

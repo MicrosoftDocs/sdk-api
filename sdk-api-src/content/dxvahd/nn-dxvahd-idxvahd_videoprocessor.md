@@ -12,6 +12,8 @@ ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "dxvahd/IDXVAHD_VideoProcessor"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

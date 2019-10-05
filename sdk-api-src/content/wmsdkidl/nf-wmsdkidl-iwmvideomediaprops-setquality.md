@@ -12,6 +12,8 @@ ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality meth
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMVideoMediaProps.SetQuality"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

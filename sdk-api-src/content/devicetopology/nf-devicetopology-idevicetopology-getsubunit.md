@@ -12,6 +12,8 @@ ms.keywords: GetSubunit, GetSubunit method [Core Audio], GetSubunit method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceTopology.GetSubunit"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

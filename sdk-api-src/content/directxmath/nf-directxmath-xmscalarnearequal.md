@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMScalarNearEqual, XMScalarNearEqual, XMScalarNearEqua
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMScalarNearEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

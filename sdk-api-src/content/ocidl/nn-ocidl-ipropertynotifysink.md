@@ -12,6 +12,8 @@ ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IProperty
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IPropertyNotifySink"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CacheData, CacheInstruction, CacheTrace, CacheUnified, PROCESSOR_CA
 ms.topic: enum
 f1_keywords:
 - winnt/PROCESSOR_CACHE_TYPE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

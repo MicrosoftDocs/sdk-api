@@ -12,6 +12,8 @@ ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Serv
 ms.topic: interface
 f1_keywords: 
  - "sdoias/ISdoDictionaryOld"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

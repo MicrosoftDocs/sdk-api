@@ -12,6 +12,8 @@ ms.keywords: CreateSession, CreateSession method [Windows Shell], CreateSession 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSessionCreator.CreateSession"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

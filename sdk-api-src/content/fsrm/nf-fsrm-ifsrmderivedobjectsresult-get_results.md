@@ -12,6 +12,8 @@ ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmDerivedObjectsResult.Results"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

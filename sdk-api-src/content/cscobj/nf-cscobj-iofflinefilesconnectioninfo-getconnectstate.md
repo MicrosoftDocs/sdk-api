@@ -12,6 +12,8 @@ ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnect
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesConnectionInfo.GetConnectState"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

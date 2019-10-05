@@ -12,6 +12,8 @@ ms.keywords: InsertMenu, InsertMenu function [Menus and Other Resources], Insert
 ms.topic: function
 f1_keywords: 
  - "winuser/InsertMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Title property, IPr
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATAssessmentInfo.Title"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFNetCredentialManager interface [Media Foundation],SetGood method
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredentialManager.SetGood"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

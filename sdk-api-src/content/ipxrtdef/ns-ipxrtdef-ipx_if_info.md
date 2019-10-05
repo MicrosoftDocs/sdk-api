@@ -12,6 +12,8 @@ ms.keywords: '*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_I
 ms.topic: struct
 f1_keywords:
 - ipxrtdef/IPX_IF_INFO
+dev_langs:
+ - c++
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows

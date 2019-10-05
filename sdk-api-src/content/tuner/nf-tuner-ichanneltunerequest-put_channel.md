@@ -12,6 +12,8 @@ ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],put_Chann
 ms.topic: method
 f1_keywords: 
  - "tuner/IChannelTuneRequest.put_Channel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

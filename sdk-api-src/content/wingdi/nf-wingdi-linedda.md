@@ -12,6 +12,8 @@ ms.keywords: LineDDA, LineDDA function [Windows GDI], _win32_LineDDA, gdi.linedd
 ms.topic: function
 f1_keywords: 
  - "wingdi/LineDDA"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

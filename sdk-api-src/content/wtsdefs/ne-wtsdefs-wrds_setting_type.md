@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE enumer
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_SETTING_TYPE
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

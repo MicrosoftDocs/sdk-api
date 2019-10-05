@@ -12,6 +12,8 @@ ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], R
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

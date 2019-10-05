@@ -12,6 +12,8 @@ ms.keywords: IEventClass2 interface [COM+],MultiInterfacePublisherFilterCLSID pr
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass2.MultiInterfacePublisherFilterCLSID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

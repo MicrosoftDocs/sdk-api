@@ -12,6 +12,8 @@ ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d
 ms.topic: function
 f1_keywords: 
  - "d2d1_1helper/ImageBrushProperties"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

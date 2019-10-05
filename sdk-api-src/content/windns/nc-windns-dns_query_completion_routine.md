@@ -12,6 +12,8 @@ ms.keywords: DNS_QUERY_COMPLETION_ROUTINE, DNS_QUERY_COMPLETION_ROUTINE callback
 ms.topic: callback
 f1_keywords:
 - windns/DNS_QUERY_COMPLETION_ROUTINE
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

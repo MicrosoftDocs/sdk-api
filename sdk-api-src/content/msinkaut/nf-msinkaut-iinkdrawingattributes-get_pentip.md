@@ -12,6 +12,8 @@ ms.keywords: 13e3c2dc-99a4-4643-b8b2-48586b0eb2f0, IInkDrawingAttributes interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.PenTip"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

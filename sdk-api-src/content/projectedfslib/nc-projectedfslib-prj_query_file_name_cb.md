@@ -12,6 +12,8 @@ ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_QUERY_FILE_NAME_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

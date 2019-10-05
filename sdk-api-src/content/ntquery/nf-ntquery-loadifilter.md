@@ -12,6 +12,8 @@ ms.keywords: LoadIFilter, LoadIFilter function [Indexing Service], _idxs_LoadIFi
 ms.topic: function
 f1_keywords: 
  - "ntquery/LoadIFilter"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

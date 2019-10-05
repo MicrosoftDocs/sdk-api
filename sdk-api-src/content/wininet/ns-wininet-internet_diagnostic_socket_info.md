@@ -12,6 +12,8 @@ ms.keywords: "* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, * LPINTERNET_DIAGNOSTIC_SOCKE
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotificat
 ms.topic: function
 f1_keywords: 
  - "appnotify/RegisterAppStateChangeNotification"
+dev_langs:
+ - c++
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows

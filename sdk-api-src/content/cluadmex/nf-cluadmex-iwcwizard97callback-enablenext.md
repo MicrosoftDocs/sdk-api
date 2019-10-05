@@ -12,6 +12,8 @@ ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWCWizard97Callback.EnableNext"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptDestroyKey, CryptDestroyKey function [Security], _crypto2_cryp
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptDestroyKey"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

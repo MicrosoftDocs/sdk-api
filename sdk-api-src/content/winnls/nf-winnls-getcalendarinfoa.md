@@ -12,6 +12,8 @@ ms.keywords: GetCalendarInfo, GetCalendarInfo function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "winnls/GetCalendarInfo"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderIns
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstance.GetProviderInstanceID"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

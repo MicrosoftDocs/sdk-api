@@ -12,6 +12,8 @@ ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGID
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIDisplayControl.IsStereoEnabled"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

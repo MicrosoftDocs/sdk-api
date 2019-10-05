@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortCanCreate, DdVideoPortCanCreate callback function [Displ
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortCanCreate
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

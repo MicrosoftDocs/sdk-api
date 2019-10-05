@@ -12,6 +12,8 @@ ms.keywords: FsrmReportFormat, FsrmReportFormat enumeration [File Server Resourc
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmReportFormat"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

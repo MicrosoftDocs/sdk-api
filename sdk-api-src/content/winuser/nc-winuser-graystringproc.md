@@ -12,6 +12,8 @@ ms.keywords: GRAYSTRINGPROC, GRAYSTRINGPROC callback, GRAYSTRINGPROC callback fu
 ms.topic: callback
 f1_keywords: 
  - "winuser/GRAYSTRINGPROC"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

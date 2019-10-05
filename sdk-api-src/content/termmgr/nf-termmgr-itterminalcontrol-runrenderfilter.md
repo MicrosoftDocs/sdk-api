@@ -12,6 +12,8 @@ ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTe
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalControl.RunRenderFilter"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

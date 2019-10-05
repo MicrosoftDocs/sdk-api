@@ -12,6 +12,8 @@ ms.keywords: NdrConformantStringMarshall, NdrConformantStringMarshall function [
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrConformantStringMarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

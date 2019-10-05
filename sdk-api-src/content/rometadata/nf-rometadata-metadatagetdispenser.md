@@ -12,6 +12,8 @@ ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "rometadata/MetaDataGetDispenser"
+dev_langs:
+ - c++
 req.header: rometadata.h
 req.include-header: 
 req.target-type: Windows

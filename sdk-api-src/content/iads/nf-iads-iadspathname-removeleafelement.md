@@ -12,6 +12,8 @@ ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathnam
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.RemoveLeafElement"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

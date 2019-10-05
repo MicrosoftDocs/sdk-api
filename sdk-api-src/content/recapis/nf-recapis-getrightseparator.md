@@ -12,6 +12,8 @@ ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/
 ms.topic: function
 f1_keywords: 
  - "recapis/GetRightSeparator"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

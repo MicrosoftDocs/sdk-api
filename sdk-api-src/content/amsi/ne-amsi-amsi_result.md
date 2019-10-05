@@ -12,6 +12,8 @@ ms.keywords: AMSI_RESULT, AMSI_RESULT enumeration [Antimalware Scan Interface], 
 ms.topic: enum
 f1_keywords: 
  - "amsi/AMSI_RESULT"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_PROMPTTYPE_CRITICAL, MI_PROMPTTYPE_NORMAL, MI_PromptType, MI_Pro
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_PromptType"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

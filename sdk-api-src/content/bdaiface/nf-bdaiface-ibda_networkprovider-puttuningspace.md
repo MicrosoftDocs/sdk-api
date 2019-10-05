@@ -12,6 +12,8 @@ ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTunin
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_NetworkProvider.PutTuningSpace"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

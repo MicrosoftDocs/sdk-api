@@ -12,6 +12,8 @@ ms.keywords: FsiItemDirectory, FsiItemFile, FsiItemNotFound, FsiItemType, FsiIte
 ms.topic: enum
 f1_keywords: 
  - "imapi2fs/FsiItemType"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

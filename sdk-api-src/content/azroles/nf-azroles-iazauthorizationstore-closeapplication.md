@@ -12,6 +12,8 @@ ms.keywords: AZ_AZSTORE_FORCE_APPLICATION_CLOSE, AzAuthorizationStore object [Se
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.CloseApplication"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

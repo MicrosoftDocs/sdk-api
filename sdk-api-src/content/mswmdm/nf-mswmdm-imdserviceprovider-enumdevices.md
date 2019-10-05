@@ -12,6 +12,8 @@ ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], Enu
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDServiceProvider.EnumDevices"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

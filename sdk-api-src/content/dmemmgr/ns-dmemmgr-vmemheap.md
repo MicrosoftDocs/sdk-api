@@ -12,6 +12,8 @@ ms.keywords: "*LPVMEMHEAP, FAR *LPVMEMHEAP, FAR *LPVMEMHEAP structure [Display D
 ms.topic: struct
 f1_keywords: 
  - "dmemmgr/VMEMHEAP"
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows

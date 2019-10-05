@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.Connect"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

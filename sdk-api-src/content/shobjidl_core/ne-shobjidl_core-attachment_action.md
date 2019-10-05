@@ -12,6 +12,8 @@ ms.keywords: ATTACHMENT_ACTION, ATTACHMENT_ACTION enumeration [Windows Shell], A
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/ATTACHMENT_ACTION"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

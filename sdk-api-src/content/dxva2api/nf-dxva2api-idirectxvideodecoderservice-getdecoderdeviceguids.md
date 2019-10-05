@@ -12,6 +12,8 @@ ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDec
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoderService.GetDecoderDeviceGuids"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdLock
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

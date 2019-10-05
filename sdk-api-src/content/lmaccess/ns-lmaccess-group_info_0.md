@@ -12,6 +12,8 @@ ms.keywords: "*LPGROUP_INFO_0, *PGROUP_INFO_0, GROUP_INFO_0, GROUP_INFO_0 struct
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/GROUP_INFO_0"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

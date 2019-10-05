@@ -12,6 +12,8 @@ ms.keywords: GetFrameMoveRects, GetFrameMoveRects method [DXGI], GetFrameMoveRec
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIOutputDuplication.GetFrameMoveRects"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

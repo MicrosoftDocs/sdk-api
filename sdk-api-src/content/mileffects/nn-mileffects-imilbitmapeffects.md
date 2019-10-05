@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects]
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffects"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [CO
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleControl"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

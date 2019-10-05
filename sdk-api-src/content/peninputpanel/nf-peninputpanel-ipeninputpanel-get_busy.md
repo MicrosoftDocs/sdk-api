@@ -12,6 +12,8 @@ ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Busy"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

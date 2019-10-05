@@ -12,6 +12,8 @@ ms.keywords: DXVA2_Fixed32TransparentAlpha, DXVA2_Fixed32TransparentAlpha functi
 ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2_Fixed32TransparentAlpha
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

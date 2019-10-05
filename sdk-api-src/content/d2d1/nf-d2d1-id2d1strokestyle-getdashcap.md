@@ -12,6 +12,8 @@ ms.keywords: GetDashCap, GetDashCap method [Direct2D], GetDashCap method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1StrokeStyle.GetDashCap"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

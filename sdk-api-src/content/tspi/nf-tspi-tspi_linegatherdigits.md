@@ -12,6 +12,8 @@ ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSP
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGatherDigits"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

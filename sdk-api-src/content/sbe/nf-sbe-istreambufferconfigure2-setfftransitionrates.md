@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFF
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure2.SetFFTransitionRates"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

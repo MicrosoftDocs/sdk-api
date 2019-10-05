@@ -12,6 +12,8 @@ ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], 
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.DisableInternetFirewall"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

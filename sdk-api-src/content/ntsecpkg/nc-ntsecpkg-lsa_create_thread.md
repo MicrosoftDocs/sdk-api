@@ -12,6 +12,8 @@ ms.keywords: CreateThread, CreateThread callback function [Security], LSA_CREATE
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateThread
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

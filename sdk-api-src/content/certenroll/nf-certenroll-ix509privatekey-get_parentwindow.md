@@ -12,6 +12,8 @@ ms.keywords: IX509PrivateKey interface [Security],ParentWindow property, IX509Pr
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.ParentWindow"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

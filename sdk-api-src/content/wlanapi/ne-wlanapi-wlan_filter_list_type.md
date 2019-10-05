@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST
 ms.topic: enum
 f1_keywords: 
  - "wlanapi/WLAN_FILTER_LIST_TYPE"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

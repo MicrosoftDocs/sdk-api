@@ -12,6 +12,8 @@ ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWi
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

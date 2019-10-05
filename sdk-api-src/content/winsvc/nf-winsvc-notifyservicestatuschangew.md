@@ -12,6 +12,8 @@ ms.keywords: NotifyServiceStatusChange, NotifyServiceStatusChange function, Noti
 ms.topic: function
 f1_keywords:
 - winsvc/NotifyServiceStatusChange
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMWMBufferPass interface [windows Media Format],SetNotify method, 
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IAMWMBufferPass.SetNotify"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

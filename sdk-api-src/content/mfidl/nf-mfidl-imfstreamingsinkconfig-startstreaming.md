@@ -12,6 +12,8 @@ ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStr
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamingSinkConfig.StartStreaming"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 05e57b40-2565-4312-866e-50f0c7d62c4a, GetValue, GetValue method [Me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEvent.GetValue"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

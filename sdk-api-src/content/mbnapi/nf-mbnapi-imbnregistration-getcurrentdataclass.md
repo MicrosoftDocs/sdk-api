@@ -12,6 +12,8 @@ ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadban
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetCurrentDataClass"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

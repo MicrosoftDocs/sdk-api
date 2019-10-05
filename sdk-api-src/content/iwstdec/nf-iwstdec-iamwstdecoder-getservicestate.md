@@ -12,6 +12,8 @@ ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceSta
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetServiceState
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

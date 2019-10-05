@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecDDStereoDownMixMode, codecapi/eAVDecDDStereoDownMixM
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecDDStereoDownMixMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

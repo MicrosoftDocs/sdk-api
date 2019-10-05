@@ -12,6 +12,8 @@ ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, G
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetFinalPathNameByHandle"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

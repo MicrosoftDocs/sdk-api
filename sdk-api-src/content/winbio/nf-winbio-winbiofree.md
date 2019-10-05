@@ -12,6 +12,8 @@ ms.keywords: WinBioFree, WinBioFree function [Windows Biometric Framework API], 
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioFree"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

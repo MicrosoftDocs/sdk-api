@@ -12,6 +12,8 @@ ms.keywords: D3D11_TRACE_CONSTANT_BUFFER, D3D11_TRACE_IMMEDIATE32, D3D11_TRACE_I
 ms.topic: enum
 f1_keywords: 
  - "d3d11shadertracing/D3D11_TRACE_REGISTER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

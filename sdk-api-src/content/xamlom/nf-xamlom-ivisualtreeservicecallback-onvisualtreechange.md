@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVi
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeServiceCallback.OnVisualTreeChange"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

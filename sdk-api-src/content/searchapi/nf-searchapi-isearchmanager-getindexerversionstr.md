@@ -12,6 +12,8 @@ ms.keywords: GetIndexerVersionStr, GetIndexerVersionStr method [search], GetInde
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager.GetIndexerVersionStr"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

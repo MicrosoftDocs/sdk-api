@@ -12,6 +12,8 @@ ms.keywords: GetConnection, GetConnection method [WPF Bitmap Effects], GetConnec
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectOutputConnector.GetConnection"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

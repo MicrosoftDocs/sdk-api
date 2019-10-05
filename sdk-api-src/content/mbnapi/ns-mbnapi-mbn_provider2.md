@@ -12,6 +12,8 @@ ms.keywords: MBN_PROVIDER2, MBN_PROVIDER2 structure [Microsoft Broadband Network
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_PROVIDER2"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

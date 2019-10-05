@@ -12,6 +12,8 @@ ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageF
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

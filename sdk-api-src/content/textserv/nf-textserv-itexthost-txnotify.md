@@ -12,6 +12,8 @@ ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.T
 ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxNotify
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

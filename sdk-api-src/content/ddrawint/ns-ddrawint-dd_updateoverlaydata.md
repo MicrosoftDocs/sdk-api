@@ -12,6 +12,8 @@ ms.keywords: '*PDD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_UPDATEOVERLAYDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

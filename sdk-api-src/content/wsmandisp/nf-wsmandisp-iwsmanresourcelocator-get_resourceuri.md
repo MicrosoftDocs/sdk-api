@@ -12,6 +12,8 @@ ms.keywords: IWSManResourceLocator interface [Windows Remote Management],Resourc
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator.ResourceURI"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

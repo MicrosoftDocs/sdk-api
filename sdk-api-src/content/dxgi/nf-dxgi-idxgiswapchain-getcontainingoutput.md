@@ -12,6 +12,8 @@ ms.keywords: 714841de-04d3-ab0c-d428-3902324a14e2, GetContainingOutput, GetConta
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.GetContainingOutput"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

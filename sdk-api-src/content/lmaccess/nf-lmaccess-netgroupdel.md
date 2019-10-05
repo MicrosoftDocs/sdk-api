@@ -12,6 +12,8 @@ ms.keywords: NetGroupDel, NetGroupDel function [Network Management], _win32_netg
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGroupDel"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

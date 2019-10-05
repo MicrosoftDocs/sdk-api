@@ -12,6 +12,8 @@ ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsIscsiPortal.GetIpsecSecurity"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

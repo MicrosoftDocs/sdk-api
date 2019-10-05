@@ -12,6 +12,8 @@ ms.keywords: GetOtherFrequencyFlag, GetOtherFrequencyFlag method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

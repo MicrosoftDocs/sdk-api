@@ -12,6 +12,8 @@ ms.keywords: FH_BACKUP_STATUS, FH_BACKUP_STATUS enumeration [Windows API], FH_ST
 ms.topic: enum
 f1_keywords: 
  - "fhcfg/FH_BACKUP_STATUS"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

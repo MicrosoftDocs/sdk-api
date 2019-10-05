@@ -12,6 +12,8 @@ ms.keywords: RDV_TASK_STATUS, RDV_TASK_STATUS enumeration [Remote Desktop Servic
 ms.topic: enum
 f1_keywords: 
  - "sessdirpublictypes/RDV_TASK_STATUS"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

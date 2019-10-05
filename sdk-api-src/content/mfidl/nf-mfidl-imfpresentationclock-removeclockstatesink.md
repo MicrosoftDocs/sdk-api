@@ -12,6 +12,8 @@ ms.keywords: IMFPresentationClock interface [Media Foundation],RemoveClockStateS
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.RemoveClockStateSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

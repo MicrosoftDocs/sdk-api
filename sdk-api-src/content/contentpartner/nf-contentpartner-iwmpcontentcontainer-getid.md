@@ -12,6 +12,8 @@ ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows M
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainer.GetID"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

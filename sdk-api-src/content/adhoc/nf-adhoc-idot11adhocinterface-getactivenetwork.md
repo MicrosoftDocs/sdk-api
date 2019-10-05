@@ -12,6 +12,8 @@ ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNe
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocInterface.GetActiveNetwork"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

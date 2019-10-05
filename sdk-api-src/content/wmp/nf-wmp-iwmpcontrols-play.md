@@ -12,6 +12,8 @@ ms.keywords: IWMPControls interface [Windows Media Player],play method, IWMPCont
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPControls.play"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

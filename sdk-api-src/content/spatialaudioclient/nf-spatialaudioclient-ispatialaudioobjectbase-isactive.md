@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectBase interface [Core Audio],IsActive method, ISp
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectBase.IsActive"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

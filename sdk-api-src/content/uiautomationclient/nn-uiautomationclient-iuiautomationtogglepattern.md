@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTogglePattern, IUIAutomationTogglePattern interface [W
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTogglePattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertSrvSetup interface [Security],PreUnInstall method, ICertSrvSet
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetup.PreUnInstall"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddE
 ms.topic: function
 f1_keywords:
 - pdh/PdhAddEnglishCounter
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

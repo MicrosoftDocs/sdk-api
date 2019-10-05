@@ -12,6 +12,8 @@ ms.keywords: BITS_JOB_TRANSFER_POLICY, BITS_JOB_TRANSFER_POLICY enumeration [BIT
 ms.topic: enum
 f1_keywords: 
  - "bits5_0/BITS_JOB_TRANSFER_POLICY"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows

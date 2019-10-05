@@ -12,6 +12,8 @@ ms.keywords: CachedMaximum property [Windows Accessibility], CachedMaximum prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationRangeValuePattern.CachedMaximum"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

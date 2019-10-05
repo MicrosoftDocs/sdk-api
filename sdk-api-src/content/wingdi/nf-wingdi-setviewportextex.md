@@ -12,6 +12,8 @@ ms.keywords: SetViewportExtEx, SetViewportExtEx function [Windows GDI], _win32_S
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetViewportExtEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

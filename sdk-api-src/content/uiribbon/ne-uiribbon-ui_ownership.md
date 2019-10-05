@@ -12,6 +12,8 @@ ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSH
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_OWNERSHIP"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

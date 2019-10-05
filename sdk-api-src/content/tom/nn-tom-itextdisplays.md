@@ -12,6 +12,8 @@ ms.keywords: ITextDisplays, ITextDisplays interface [Windows Controls], ITextDis
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextDisplays"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

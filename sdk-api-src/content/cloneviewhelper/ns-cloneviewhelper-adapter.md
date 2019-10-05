@@ -12,6 +12,8 @@ ms.keywords: Adapter, Adapter structure [Display Devices], TMM_Ref_6570c45d-9024
 ms.topic: struct
 f1_keywords: 
  - "cloneviewhelper/Adapter"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

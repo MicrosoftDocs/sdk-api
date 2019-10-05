@@ -12,6 +12,8 @@ ms.keywords: 8c230b52-7c67-4576-98d9-238d464c9620, CreateDomainShader, CreateDom
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateDomainShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

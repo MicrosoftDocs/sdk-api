@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncH264PictureType, codecapi/eAVEncH264PictureType_B, c
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncH264PictureType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

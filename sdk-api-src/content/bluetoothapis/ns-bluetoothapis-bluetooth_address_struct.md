@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_ADDRESS, BLUETOOTH_ADDRESS structure [Bluetooth], BLUETOO
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_ADDRESS"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

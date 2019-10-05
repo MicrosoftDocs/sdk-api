@@ -12,6 +12,8 @@ ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltip
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfSystemLangBarItem.SetTooltipString"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

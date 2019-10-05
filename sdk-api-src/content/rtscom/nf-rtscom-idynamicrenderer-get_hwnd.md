@@ -12,6 +12,8 @@ ms.keywords: 1795100f-d529-4513-8635-65d1d7285f72, HWND property [Tablet PC], HW
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.HWND"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderEnum0, FwpmProviderEnum0 function [Filtering], fwp.fwpm
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderEnum0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

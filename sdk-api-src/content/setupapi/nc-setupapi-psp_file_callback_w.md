@@ -12,6 +12,8 @@ ms.keywords: FileCallback, PSP_FILE_CALLBACK, PSP_FILE_CALLBACK callback, PSP_FI
 ms.topic: callback
 f1_keywords: 
  - "setupapi/PSP_FILE_CALLBACK"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

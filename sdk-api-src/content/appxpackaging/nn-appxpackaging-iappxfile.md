@@ -12,6 +12,8 @@ ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IApp
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxFile"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

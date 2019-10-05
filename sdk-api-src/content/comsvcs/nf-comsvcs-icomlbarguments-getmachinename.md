@@ -12,6 +12,8 @@ ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICOMLBArguments.GetMachineName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

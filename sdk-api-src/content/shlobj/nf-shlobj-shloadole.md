@@ -12,6 +12,8 @@ ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, sh
 ms.topic: function
 f1_keywords: 
  - "shlobj/SHLoadOLE"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

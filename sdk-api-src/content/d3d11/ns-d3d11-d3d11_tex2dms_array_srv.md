@@ -12,6 +12,8 @@ ms.keywords: 4eeb5c82-a7a5-65c2-774b-c2c491076826, D3D11_TEX2DMS_ARRAY_SRV, D3D1
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX2DMS_ARRAY_SRV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

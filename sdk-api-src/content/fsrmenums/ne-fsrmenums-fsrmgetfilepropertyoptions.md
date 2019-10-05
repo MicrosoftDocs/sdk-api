@@ -12,6 +12,8 @@ ms.keywords: FsrmGetFilePropertyOptions, FsrmGetFilePropertyOptions enumeration 
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmGetFilePropertyOptions"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h
 req.target-type: Windows

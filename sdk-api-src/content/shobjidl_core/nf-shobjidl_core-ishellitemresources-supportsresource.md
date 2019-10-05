@@ -12,6 +12,8 @@ ms.keywords: IShellItemResources interface [Windows Shell],SupportsResource meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemResources.SupportsResource"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

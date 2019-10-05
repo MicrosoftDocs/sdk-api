@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Move metho
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange.Move"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

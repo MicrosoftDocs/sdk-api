@@ -12,6 +12,8 @@ ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Ap
 ms.topic: interface
 f1_keywords: 
  - "msime/IFECommon"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 1b05ef87-5559-4310-942c-54ab113eb42d, AddStreamSink, AddStreamSink 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSink.AddStreamSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

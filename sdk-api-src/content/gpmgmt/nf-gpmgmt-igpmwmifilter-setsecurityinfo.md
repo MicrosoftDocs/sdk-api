@@ -12,6 +12,8 @@ ms.keywords: GPMWMIFilter object [GPMC],SetSecurityInfo method, IGPMWMIFilter in
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMWMIFilter.SetSecurityInfo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

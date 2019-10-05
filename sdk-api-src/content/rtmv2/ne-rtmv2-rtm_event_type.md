@@ -12,6 +12,8 @@ ms.keywords: "*PRTM_EVENT_TYPE, PRTM_EVENT_TYPE, PRTM_EVENT_TYPE enumeration poi
 ms.topic: enum
 f1_keywords: 
  - "rtmv2/RTM_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

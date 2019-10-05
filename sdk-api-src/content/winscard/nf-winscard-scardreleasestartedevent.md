@@ -12,6 +12,8 @@ ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Securi
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardReleaseStartedEvent"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

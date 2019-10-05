@@ -12,6 +12,8 @@ ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _c
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoFreeUnusedLibrariesEx"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

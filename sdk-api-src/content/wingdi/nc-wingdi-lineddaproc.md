@@ -12,6 +12,8 @@ ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [W
 ms.topic: callback
 f1_keywords: 
  - "wingdi/LineDDAProc"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

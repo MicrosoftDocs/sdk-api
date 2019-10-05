@@ -12,6 +12,8 @@ ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI],
 ms.topic: enum
 f1_keywords: 
  - "prntvpt/EDefaultDevmodeType"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

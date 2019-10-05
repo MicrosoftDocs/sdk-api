@@ -12,6 +12,8 @@ ms.keywords: WMPTaskType, WMPTaskType enumeration [Windows Media Player], conten
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPTaskType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

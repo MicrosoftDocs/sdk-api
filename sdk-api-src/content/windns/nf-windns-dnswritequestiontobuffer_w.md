@@ -12,6 +12,8 @@ ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQu
 ms.topic: function
 f1_keywords:
 - windns/DnsWriteQuestionToBuffer_W
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

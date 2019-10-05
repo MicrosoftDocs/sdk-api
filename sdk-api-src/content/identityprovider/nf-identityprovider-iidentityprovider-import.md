@@ -12,6 +12,8 @@ ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProv
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityProvider.Import"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

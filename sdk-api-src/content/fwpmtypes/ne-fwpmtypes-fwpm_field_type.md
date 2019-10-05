@@ -12,6 +12,8 @@ ms.keywords: FWPM_FIELD_FLAGS, FWPM_FIELD_IP_ADDRESS, FWPM_FIELD_RAW_DATA, FWPM_
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_FIELD_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineConditionalMediaDetection, TSPI_lineConditionalMediaDetect
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineConditionalMediaDetection"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

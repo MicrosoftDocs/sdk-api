@@ -12,6 +12,8 @@ ms.keywords: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_REQ structure [EAPHost], EAP_C
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_CRED_EXPIRY_REQ
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

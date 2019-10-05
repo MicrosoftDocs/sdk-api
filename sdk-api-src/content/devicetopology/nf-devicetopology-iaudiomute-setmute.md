@@ -12,6 +12,8 @@ ms.keywords: IAudioMute interface [Core Audio],SetMute method, IAudioMute.SetMut
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioMute.SetMute"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

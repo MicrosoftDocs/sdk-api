@@ -12,6 +12,8 @@ ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.s
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetOptions"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

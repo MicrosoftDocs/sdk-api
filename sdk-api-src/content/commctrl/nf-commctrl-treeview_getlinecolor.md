@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetLineColor, TreeView_GetLineColor macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetLineColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

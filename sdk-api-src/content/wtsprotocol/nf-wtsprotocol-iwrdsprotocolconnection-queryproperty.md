@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],QueryPr
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.QueryProperty
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h
 req.target-type: Windows

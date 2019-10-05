@@ -12,6 +12,8 @@ ms.keywords: CreateCanvas, CreateCanvas method [XPS Documents and Packaging], Cr
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateCanvas"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_co
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_connect"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

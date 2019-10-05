@@ -12,6 +12,8 @@ ms.keywords: MBN_INTERFACE_CAPS, MBN_INTERFACE_CAPS structure [Microsoft Broadba
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_INTERFACE_CAPS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

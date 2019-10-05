@@ -12,6 +12,8 @@ ms.keywords: ITextPara2 interface [Windows Controls],SetFontAlignment method, IT
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.SetFontAlignment"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

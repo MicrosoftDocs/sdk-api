@@ -12,6 +12,8 @@ ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Service
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_METADATA_ENDPOINTS"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

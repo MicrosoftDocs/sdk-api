@@ -12,6 +12,8 @@ ms.keywords: ICB_Copy, ICB_Cut, ICB_Default, ICB_DelayedCopy, ICB_ExtractOnly, I
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkClipboardModes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

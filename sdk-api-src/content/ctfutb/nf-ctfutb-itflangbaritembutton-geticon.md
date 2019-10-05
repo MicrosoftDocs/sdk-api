@@ -12,6 +12,8 @@ ms.keywords: GetIcon, GetIcon method [Text Services Framework], GetIcon method [
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemButton.GetIcon"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

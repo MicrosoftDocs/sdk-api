@@ -12,6 +12,8 @@ ms.keywords: SetDIBColorTable, SetDIBColorTable function [Windows GDI], _win32_S
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetDIBColorTable"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

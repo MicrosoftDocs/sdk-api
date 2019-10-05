@@ -12,6 +12,8 @@ ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface met
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder2.FindInterface"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interfa
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsStoragePool"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

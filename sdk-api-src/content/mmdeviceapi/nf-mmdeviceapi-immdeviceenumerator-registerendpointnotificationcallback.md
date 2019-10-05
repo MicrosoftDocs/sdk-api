@@ -12,6 +12,8 @@ ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotifica
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDeviceEnumerator.RegisterEndpointNotificationCallback"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

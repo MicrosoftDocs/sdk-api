@@ -12,6 +12,8 @@ ms.keywords: '*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION
 ms.topic: struct
 f1_keywords:
 - winnt/ACL_SIZE_INFORMATION
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

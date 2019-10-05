@@ -12,6 +12,8 @@ ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.
 ms.topic: function
 f1_keywords: 
  - "netioapi/ResolveIpNetEntry2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId m
 ms.topic: method
 f1_keywords: 
  - "syncregistration/IRegisteredSyncProvider.GetInstanceId"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

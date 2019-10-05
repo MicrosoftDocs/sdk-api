@@ -12,6 +12,8 @@ ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanS
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WlanSetProfile"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

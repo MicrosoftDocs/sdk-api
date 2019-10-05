@@ -12,6 +12,8 @@ ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Sta
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Static_GetText"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

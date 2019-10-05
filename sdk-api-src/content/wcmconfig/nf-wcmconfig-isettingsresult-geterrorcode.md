@@ -12,6 +12,8 @@ ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsResult.GetErrorCode"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

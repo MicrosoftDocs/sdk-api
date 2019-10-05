@@ -12,6 +12,8 @@ ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/AuditLookupCategoryName"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

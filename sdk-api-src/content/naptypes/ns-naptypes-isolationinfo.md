@@ -12,6 +12,8 @@ ms.keywords: IsolationInfo, IsolationInfo structure [NAP], nap.isolationinfo_str
 ms.topic: struct
 f1_keywords: 
  - "naptypes/IsolationInfo"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

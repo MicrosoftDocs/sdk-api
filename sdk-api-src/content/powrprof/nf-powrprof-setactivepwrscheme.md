@@ -12,6 +12,8 @@ ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepw
 ms.topic: function
 f1_keywords:
 - powrprof/SetActivePwrScheme
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

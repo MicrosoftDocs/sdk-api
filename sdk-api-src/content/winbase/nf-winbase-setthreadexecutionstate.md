@@ -12,6 +12,8 @@ ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM
 ms.topic: function
 f1_keywords: 
  - "winbase/SetThreadExecutionState"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

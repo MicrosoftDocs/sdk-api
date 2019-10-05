@@ -12,6 +12,8 @@ ms.keywords: SUBCLASSPROC, SUBCLASSPROC callback, SUBCLASSPROC callback function
 ms.topic: callback
 f1_keywords: 
  - "commctrl/SUBCLASSPROC"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

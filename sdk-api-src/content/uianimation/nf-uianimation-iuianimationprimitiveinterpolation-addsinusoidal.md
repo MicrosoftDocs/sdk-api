@@ -12,6 +12,8 @@ ms.keywords: AddSinusoidal, AddSinusoidal method [Windows Animation], AddSinusoi
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationPrimitiveInterpolation.AddSinusoidal"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

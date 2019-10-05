@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],resetBlobProperties method, ICEnroll4 int
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.resetBlobProperties"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

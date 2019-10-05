@@ -12,6 +12,8 @@ ms.keywords: Count property [File Server Resource Manager], Count property [File
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmCollection.Count"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

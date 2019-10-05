@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart, PSecPkgCont
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_EarlyStart"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

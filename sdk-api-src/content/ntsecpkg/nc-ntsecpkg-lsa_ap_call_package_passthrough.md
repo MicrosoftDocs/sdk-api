@@ -12,6 +12,8 @@ ms.keywords: LSA_AP_CALL_PACKAGE_PASSTHROUGH, LSA_AP_CALL_PACKAGE_PASSTHROUGH ca
 ms.topic: callback
 f1_keywords: 
  - "ntsecpkg/LsaApCallPackagePassthrough"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDe
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetAllMetadata
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

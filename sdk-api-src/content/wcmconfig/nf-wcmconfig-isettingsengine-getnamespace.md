@@ -12,6 +12,8 @@ ms.keywords: GetNamespace, GetNamespace method [SMI], GetNamespace method [SMI],
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.GetNamespace"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

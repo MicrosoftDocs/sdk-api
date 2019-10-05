@@ -12,6 +12,8 @@ ms.keywords: GetAutospaceParens, GetAutospaceParens method [Windows Controls], G
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetAutospaceParens"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,10 @@ title: TraceLoggingProviderId
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderId
 ms.topic: language-reference
+f1_keywords:
+ - TraceLoggingProviderId
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

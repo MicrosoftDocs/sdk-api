@@ -12,6 +12,8 @@ ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfa
 ms.topic: function
 f1_keywords:
 - faxdev/FaxDevReportStatus
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

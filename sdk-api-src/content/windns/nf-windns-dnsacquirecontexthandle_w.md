@@ -12,6 +12,8 @@ ms.keywords: DnsAcquireContextHandle, DnsAcquireContextHandle function [DNS], Dn
 ms.topic: function
 f1_keywords:
 - windns/DnsAcquireContextHandle
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

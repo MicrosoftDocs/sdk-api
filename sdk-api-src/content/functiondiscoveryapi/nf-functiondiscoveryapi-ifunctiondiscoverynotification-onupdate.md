@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryNotification interface,OnUpdate method, IFunction
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnUpdate"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

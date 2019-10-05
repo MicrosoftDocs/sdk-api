@@ -12,6 +12,8 @@ ms.keywords: DWRITE_READING_DIRECTION, DWRITE_READING_DIRECTION enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_READING_DIRECTION"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method,
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSyncDevice.isIdentical"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

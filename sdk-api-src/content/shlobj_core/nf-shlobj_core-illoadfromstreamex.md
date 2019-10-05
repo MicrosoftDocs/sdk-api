@@ -12,6 +12,8 @@ ms.keywords: ILLoadFromStreamEx, ILLoadFromStreamEx function [Windows Shell], IL
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILLoadFromStreamEx
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

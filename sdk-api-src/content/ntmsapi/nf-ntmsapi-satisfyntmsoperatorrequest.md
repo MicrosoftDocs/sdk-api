@@ -12,6 +12,8 @@ ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Fi
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SatisfyNtmsOperatorRequest"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

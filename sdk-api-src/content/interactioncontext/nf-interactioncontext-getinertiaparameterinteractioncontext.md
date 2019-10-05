@@ -12,6 +12,8 @@ ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteracti
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/GetInertiaParameterInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

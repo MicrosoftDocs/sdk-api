@@ -12,6 +12,8 @@ ms.keywords: NetErrorLogRead, NetErrorLogRead function [Network Management], _wi
 ms.topic: function
 f1_keywords: 
  - "lmerrlog/NetErrorLogRead"
+dev_langs:
+ - c++
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows

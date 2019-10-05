@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured 
 ms.topic: method
 f1_keywords: 
  - "objidl/ILockBytes.Flush"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

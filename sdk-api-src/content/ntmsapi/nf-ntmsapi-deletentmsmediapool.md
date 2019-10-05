@@ -12,6 +12,8 @@ ms.keywords: DeleteNtmsMediaPool, DeleteNtmsMediaPool function [Files], _zaw_del
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DeleteNtmsMediaPool"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

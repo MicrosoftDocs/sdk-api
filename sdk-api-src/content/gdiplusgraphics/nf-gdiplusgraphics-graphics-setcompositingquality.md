@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],SetCompositingQuality method, Graphics.SetCom
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.SetCompositingQuality"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage interface [Fax Service],OriginalScheduledTime p
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.OriginalScheduledTime"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

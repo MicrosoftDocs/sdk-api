@@ -12,6 +12,8 @@ ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsid
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupSids
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

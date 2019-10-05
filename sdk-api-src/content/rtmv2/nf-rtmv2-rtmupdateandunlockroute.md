@@ -12,6 +12,8 @@ ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _r
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmUpdateAndUnlockRoute"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInstallationBehavior interface [Windows Update Agent],RebootBehavi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationBehavior.RebootBehavior"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

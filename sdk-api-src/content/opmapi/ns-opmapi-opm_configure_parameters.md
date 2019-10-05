@@ -12,6 +12,8 @@ ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_CONFIGURE_PARAMETERS
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method [Windows Shell], Draw method [Windows Shell],IShe
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.Draw"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

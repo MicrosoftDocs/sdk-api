@@ -12,6 +12,8 @@ ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], A
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory5.AnalyzeContainerType"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

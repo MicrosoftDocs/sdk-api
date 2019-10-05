@@ -12,6 +12,8 @@ ms.keywords: '*PDAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUT
 ms.topic: struct
 f1_keywords:
 - davclnt/DAV_CALLBACK_AUTH_BLOB
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescripto
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFSerializePresentationDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

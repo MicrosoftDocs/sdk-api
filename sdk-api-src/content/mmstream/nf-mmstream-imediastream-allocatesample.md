@@ -12,6 +12,8 @@ ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample 
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMediaStream.AllocateSample"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

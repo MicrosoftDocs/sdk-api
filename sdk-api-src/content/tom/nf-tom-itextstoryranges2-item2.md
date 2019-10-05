@@ -12,6 +12,8 @@ ms.keywords: ITextStoryRanges2 interface [Windows Controls],Item2 method, ITextS
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStoryRanges2.Item2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

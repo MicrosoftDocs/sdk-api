@@ -12,6 +12,8 @@ ms.keywords: "_win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Men
 ms.topic: function
 f1_keywords: 
  - "winbase/lstrcmp"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

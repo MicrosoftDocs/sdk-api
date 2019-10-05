@@ -12,6 +12,8 @@ ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdate
 ms.topic: function
 f1_keywords: 
  - "winuser/GetUpdateRgn"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

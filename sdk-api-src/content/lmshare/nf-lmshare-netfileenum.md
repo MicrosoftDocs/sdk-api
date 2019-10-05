@@ -12,6 +12,8 @@ ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum
 ms.topic: function
 f1_keywords:
 - lmshare/NetFileEnum
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

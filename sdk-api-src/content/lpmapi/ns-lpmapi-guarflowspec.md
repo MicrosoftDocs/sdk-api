@@ -12,6 +12,8 @@ ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/GuarFlowSpec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 42a56eab-a68f-232a-b21e-cc24c0b7b58d, CreateVertexShader, CreateVer
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.CreateVertexShader"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

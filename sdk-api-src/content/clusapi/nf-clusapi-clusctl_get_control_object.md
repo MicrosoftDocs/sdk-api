@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_GET_CONTROL_OBJECT, CLUSCTL_GET_CONTROL_OBJECT macro [Failo
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSCTL_GET_CONTROL_OBJECT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

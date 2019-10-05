@@ -12,6 +12,8 @@ ms.keywords: DdAddAttachedSurface, DdAddAttachedSurface callback function [Displ
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdAddAttachedSurface
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

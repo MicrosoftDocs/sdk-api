@@ -12,6 +12,8 @@ ms.keywords: DsBrowseForContainer, DsBrowseForContainer function [Active Directo
 ms.topic: function
 f1_keywords: 
  - "dsclient/DsBrowseForContainer"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

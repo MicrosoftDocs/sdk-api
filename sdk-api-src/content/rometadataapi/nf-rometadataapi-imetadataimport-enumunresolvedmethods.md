@@ -12,6 +12,8 @@ ms.keywords: EnumUnresolvedMethods, EnumUnresolvedMethods method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumUnresolvedMethods"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

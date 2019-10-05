@@ -12,6 +12,8 @@ ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portab
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

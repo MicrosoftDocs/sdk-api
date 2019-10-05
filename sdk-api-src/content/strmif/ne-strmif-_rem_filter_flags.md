@@ -12,6 +12,8 @@ ms.keywords: REMFILTERF_LEAVECONNECTED, REM_FILTER_FLAGS , REM_FILTER_FLAGSEnume
 ms.topic: enum
 f1_keywords: 
  - "strmif/_REM_FILTER_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

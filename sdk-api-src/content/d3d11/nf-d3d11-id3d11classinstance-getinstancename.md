@@ -12,6 +12,8 @@ ms.keywords: 52fdee2c-7566-954c-edad-a7d91948caac, GetInstanceName, GetInstanceN
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ClassInstance.GetInstanceName"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

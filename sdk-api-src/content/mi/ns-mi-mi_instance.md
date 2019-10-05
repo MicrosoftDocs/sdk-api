@@ -12,6 +12,8 @@ ms.keywords: MI_Instance, MI_Instance structure [Windows Management Infrastructu
 ms.topic: struct
 f1_keywords:
 - mi/MI_Instance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningO
 ms.topic: interface
 f1_keywords: 
  - "objidl/IRunningObjectTable"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

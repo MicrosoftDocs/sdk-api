@@ -12,6 +12,8 @@ ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFSampleOutputStream"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

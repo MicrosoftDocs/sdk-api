@@ -12,6 +12,8 @@ ms.keywords: IKsJackDescription2, IKsJackDescription2 interface [Core Audio], IK
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IKsJackDescription2"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

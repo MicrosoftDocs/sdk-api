@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Secur
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCRYPT_SUPPORTED_LENGTHS"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

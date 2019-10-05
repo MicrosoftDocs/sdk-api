@@ -12,6 +12,8 @@ ms.keywords: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523, IInkRenderer interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.SetObjectTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

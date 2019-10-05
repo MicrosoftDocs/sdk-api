@@ -12,6 +12,8 @@ ms.keywords: IEnumWiaItem interface [WIA],Reset method, IEnumWiaItem.Reset, IEnu
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWiaItem.Reset"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

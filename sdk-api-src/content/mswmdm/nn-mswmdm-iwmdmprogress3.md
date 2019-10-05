@@ -12,6 +12,8 @@ ms.keywords: IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Mana
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMProgress3"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

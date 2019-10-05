@@ -12,6 +12,8 @@ ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, Proc
 ms.topic: function
 f1_keywords:
 - winternl/NtQueryInformationProcess
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

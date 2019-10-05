@@ -12,6 +12,8 @@ ms.keywords: AddMessage, AddMessage method [File Server Resource Manager], AddMe
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.AddMessage"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

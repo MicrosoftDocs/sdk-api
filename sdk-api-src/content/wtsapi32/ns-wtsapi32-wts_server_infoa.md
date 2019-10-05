@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SERVER_INFOA, PWTS_SERVER_INFO, PWTS_SERVER_INFO structure p
 ms.topic: struct
 f1_keywords: 
  - "wtsapi32/WTS_SERVER_INFO"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

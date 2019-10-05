@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [Microsoft TV Technologies], GetState met
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Encoder.GetState"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

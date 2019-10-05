@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],TransformVectors method, Matrix.TransformVector
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.TransformVectors"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

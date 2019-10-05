@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA, LSA_
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/LSA_FOREST_TRUST_BINARY_DATA"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

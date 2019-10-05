@@ -12,6 +12,8 @@ ms.keywords: DxGetIRQInfo, DxGetIRQInfo callback function [Display Devices], PDX
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetIRQInfo
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

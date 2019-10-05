@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],SetPalette method, Image.SetPalette, Image::SetP
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.SetPalette"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

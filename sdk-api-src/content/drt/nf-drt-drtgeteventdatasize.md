@@ -12,6 +12,8 @@ ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking]
 ms.topic: function
 f1_keywords: 
  - "drt/DrtGetEventDataSize"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx func
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHGetDiskFreeSpaceEx"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

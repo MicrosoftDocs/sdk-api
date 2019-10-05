@@ -12,6 +12,8 @@ ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.GetSampleDuration"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

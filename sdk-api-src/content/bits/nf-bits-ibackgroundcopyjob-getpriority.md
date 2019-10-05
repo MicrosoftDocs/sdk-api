@@ -12,6 +12,8 @@ ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],I
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetPriority"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

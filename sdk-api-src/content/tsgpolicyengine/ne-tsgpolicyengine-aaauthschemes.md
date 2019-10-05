@@ -12,6 +12,8 @@ ms.keywords: AAAuthSchemes, AAAuthSchemes enumeration [Remote Desktop Services],
 ms.topic: enum
 f1_keywords: 
  - "tsgpolicyengine/AAAuthSchemes"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

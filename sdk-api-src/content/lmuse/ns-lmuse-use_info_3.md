@@ -12,6 +12,8 @@ ms.keywords: '*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT,
 ms.topic: struct
 f1_keywords:
 - lmuse/USE_INFO_3
+dev_langs:
+ - c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

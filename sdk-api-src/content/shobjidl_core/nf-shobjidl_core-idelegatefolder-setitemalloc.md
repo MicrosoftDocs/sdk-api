@@ -12,6 +12,8 @@ ms.keywords: IDelegateFolder interface [Windows Shell],SetItemAlloc method, IDel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDelegateFolder.SetItemAlloc"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

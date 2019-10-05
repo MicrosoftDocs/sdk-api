@@ -12,6 +12,8 @@ ms.keywords: GetSource, GetSource method [Media Foundation], GetSource method [M
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.GetSource"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

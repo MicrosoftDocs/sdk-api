@@ -12,6 +12,8 @@ ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awaren
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkListManager.GetNetworkConnections"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

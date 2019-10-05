@@ -12,6 +12,8 @@ ms.keywords: "*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAIL
 ms.topic: struct
 f1_keywords: 
  - "clusapi/GROUP_FAILURE_INFO_BUFFER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

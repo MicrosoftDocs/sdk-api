@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],GetHeight method, Font.GetHeight, Font.GetHeight(
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.GetHeight"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

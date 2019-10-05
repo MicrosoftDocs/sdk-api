@@ -12,6 +12,8 @@ ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NC
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptIsKeyHandle"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

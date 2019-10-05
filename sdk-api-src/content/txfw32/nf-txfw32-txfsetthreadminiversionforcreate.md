@@ -5,6 +5,10 @@ description: Sets the MiniVersion that a subsequent create should open.
 ms.date: 4/26/2019
 ms.keywords: TxfSetThreadMiniVersionForCreate
 ms.topic: language-reference
+f1_keywords:
+ - TxfSetThreadMiniVersionForCreate
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

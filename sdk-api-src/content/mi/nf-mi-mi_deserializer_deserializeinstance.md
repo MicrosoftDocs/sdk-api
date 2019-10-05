@@ -12,6 +12,8 @@ ms.keywords: MI_Deserializer_DeserializeInstance, MI_Deserializer_DeserializeIns
 ms.topic: function
 f1_keywords:
 - mi/MI_Deserializer_DeserializeInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

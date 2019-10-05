@@ -12,6 +12,8 @@ ms.keywords: GetPresenterNextStep, GetPresenterNextStep method [Windows Shell], 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo.GetPresenterNextStep"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

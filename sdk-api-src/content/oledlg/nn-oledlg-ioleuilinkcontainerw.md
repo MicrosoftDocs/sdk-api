@@ -12,6 +12,8 @@ ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILin
 ms.topic: interface
 f1_keywords: 
  - "oledlg/IOleUILinkContainer"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

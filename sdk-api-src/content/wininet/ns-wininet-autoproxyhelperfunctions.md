@@ -12,6 +12,8 @@ ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinIN
 ms.topic: struct
 f1_keywords: 
  - "wininet/AutoProxyHelperFunctions"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

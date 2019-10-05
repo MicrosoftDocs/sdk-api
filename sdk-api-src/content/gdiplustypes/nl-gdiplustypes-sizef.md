@@ -12,6 +12,8 @@ ms.keywords: SizeF, SizeF class [GDI+], SizeF class [GDI+],described, _gdiplus_C
 ms.topic: class
 f1_keywords: 
  - "gdiplustypes/SizeF"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

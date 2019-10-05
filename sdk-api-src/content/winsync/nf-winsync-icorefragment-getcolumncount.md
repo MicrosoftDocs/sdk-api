@@ -12,6 +12,8 @@ ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCoun
 ms.topic: method
 f1_keywords: 
  - "winsync/ICoreFragment.GetColumnCount"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_RemoveImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

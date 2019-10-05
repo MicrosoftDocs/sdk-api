@@ -4,6 +4,10 @@ title: HEAP_SUMMARY
 ms.date: 4/26/2019
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
 ms.topic: language-reference
+f1_keywords:
+ - _HEAP_SUMMARY
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

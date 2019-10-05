@@ -12,6 +12,8 @@ ms.keywords: RAS_AUTH_ATTRIBUTE_TYPE, RAS_AUTH_ATTRIBUTE_TYPE enumeration [EAP],
 ms.topic: enum
 f1_keywords:
 - raseapif/RAS_AUTH_ATTRIBUTE_TYPE
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

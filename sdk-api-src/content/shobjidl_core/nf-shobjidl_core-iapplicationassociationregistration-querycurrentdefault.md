@@ -12,6 +12,8 @@ ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],Query
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationAssociationRegistration.QueryCurrentDefault"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

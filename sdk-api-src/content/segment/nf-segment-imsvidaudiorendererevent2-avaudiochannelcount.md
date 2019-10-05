@@ -12,6 +12,8 @@ ms.keywords: AVAudioChannelCount, AVAudioChannelCount method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2.AVAudioChannelCount"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

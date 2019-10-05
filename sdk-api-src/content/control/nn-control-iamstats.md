@@ -12,6 +12,8 @@ ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [Dire
 ms.topic: interface
 f1_keywords: 
  - "control/IAMStats"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

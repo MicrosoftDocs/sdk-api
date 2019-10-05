@@ -12,6 +12,8 @@ ms.keywords: ActiveEnd, ActiveEnd enumeration [Windows Accessibility], ActiveEnd
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/ActiveEnd"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

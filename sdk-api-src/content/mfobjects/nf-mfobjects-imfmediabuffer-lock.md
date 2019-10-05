@@ -12,6 +12,8 @@ ms.keywords: 28ac372a-6e73-4e66-bf69-bcc244821b71, IMFMediaBuffer interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer.Lock"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

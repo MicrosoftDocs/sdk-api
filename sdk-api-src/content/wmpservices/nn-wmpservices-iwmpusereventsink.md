@@ -12,6 +12,8 @@ ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Playe
 ms.topic: interface
 f1_keywords: 
  - "wmpservices/IWMPUserEventSink"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

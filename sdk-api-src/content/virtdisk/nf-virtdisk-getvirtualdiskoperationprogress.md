@@ -12,6 +12,8 @@ ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress fu
 ms.topic: function
 f1_keywords:
 - virtdisk/GetVirtualDiskOperationProgress
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

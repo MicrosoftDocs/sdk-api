@@ -12,6 +12,8 @@ ms.keywords: IMFSampleProtection, IMFSampleProtection interface [Media Foundatio
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSampleProtection"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

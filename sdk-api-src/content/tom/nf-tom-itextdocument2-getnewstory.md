@@ -12,6 +12,8 @@ ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetNewStory"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

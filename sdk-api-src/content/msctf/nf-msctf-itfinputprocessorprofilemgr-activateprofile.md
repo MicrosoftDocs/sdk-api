@@ -12,6 +12,8 @@ ms.keywords: ActivateProfile, ActivateProfile method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileMgr.ActivateProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

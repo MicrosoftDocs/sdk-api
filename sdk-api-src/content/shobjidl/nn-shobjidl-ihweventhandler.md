@@ -12,6 +12,8 @@ ms.keywords: IHWEventHandler, IHWEventHandler interface [Windows Shell], IHWEven
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IHWEventHandler"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

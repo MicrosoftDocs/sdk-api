@@ -12,6 +12,8 @@ ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleContr
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControlSite.LockInPlaceActive"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

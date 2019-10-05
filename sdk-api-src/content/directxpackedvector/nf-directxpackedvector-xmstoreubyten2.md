@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreUByteN2, XMStoreUByteN2, XMStoreUByteN
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreUByteN2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

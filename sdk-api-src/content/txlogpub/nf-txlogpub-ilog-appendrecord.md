@@ -12,6 +12,8 @@ ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.AppendRecord"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

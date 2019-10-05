@@ -12,6 +12,8 @@ ms.keywords: FindFamilyName, FindFamilyName method [Direct Write], FindFamilyNam
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontCollection.FindFamilyName"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

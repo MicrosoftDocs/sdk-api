@@ -12,6 +12,8 @@ ms.keywords: '*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM,
 ms.topic: struct
 f1_keywords:
 - nb30/LANA_ENUM
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

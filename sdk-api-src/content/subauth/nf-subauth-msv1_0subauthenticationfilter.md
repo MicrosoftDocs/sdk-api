@@ -12,6 +12,8 @@ ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHR
 ms.topic: function
 f1_keywords:
 - subauth/Msv1_0SubAuthenticationFilter
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

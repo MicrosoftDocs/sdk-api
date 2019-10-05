@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enume
 ms.topic: enum
 f1_keywords: 
  - "iscsidsc/ISCSI_DIGEST_TYPES"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

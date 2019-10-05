@@ -12,6 +12,8 @@ ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering]
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaContextGetById0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

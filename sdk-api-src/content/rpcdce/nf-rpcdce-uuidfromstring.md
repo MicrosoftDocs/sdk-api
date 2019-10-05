@@ -12,6 +12,8 @@ ms.keywords: UuidFromString, UuidFromString function [RPC], UuidFromStringA, Uui
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidFromString"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

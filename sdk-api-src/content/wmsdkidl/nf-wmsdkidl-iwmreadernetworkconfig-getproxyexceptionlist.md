@@ -12,6 +12,8 @@ ms.keywords: GetProxyExceptionList, GetProxyExceptionList method [windows Media 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.GetProxyExceptionList"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

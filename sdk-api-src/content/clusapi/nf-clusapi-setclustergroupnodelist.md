@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, PCLUSAPI_SET_CLUSTER_GROUP_NO
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetClusterGroupNodeList"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

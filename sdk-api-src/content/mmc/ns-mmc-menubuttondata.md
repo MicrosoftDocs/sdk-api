@@ -12,6 +12,8 @@ ms.keywords: "*LPMENUBUTTONDATA, LPMENUBUTTONDATA, LPMENUBUTTONDATA structure po
 ms.topic: struct
 f1_keywords: 
  - "mmc/MENUBUTTONDATA"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

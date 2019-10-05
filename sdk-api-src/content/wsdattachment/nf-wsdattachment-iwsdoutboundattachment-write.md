@@ -12,6 +12,8 @@ ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachme
 ms.topic: method
 f1_keywords: 
  - "wsdattachment/IWSDOutboundAttachment.Write"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

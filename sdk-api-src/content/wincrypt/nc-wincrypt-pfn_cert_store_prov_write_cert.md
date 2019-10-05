@@ -12,6 +12,8 @@ ms.keywords: CertStoreProvWriteCertCallback, PFN_CERT_STORE_PROV_WRITE_CERT, PFN
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

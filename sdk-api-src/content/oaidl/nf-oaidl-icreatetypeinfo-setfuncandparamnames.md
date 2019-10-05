@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method,
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.SetFuncAndParamNames"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

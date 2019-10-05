@@ -12,6 +12,8 @@ ms.keywords: "_win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Men
 ms.topic: function
 f1_keywords: 
  - "winbase/lstrlen"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

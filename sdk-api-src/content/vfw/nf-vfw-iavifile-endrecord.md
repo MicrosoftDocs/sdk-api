@@ -12,6 +12,8 @@ ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method 
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIFile.EndRecord"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

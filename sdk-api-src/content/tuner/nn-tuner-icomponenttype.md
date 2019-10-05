@@ -12,6 +12,8 @@ ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies
 ms.topic: interface
 f1_keywords: 
  - "tuner/IComponentType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumObjects, EnumObjects method [COM], EnumObjects method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleContainer.EnumObjects"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

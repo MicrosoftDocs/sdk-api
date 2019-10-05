@@ -12,6 +12,8 @@ ms.keywords: '*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devi
 ms.topic: struct
 f1_keywords:
 - winddi/DEVHTADJDATA
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

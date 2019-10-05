@@ -12,6 +12,8 @@ ms.keywords: '*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_VIDEOPORTCALLBACKS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

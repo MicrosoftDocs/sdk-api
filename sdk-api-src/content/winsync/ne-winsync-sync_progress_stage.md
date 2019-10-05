@@ -12,6 +12,8 @@ ms.keywords: SPS_CHANGE_APPLICATION, SPS_CHANGE_DETECTION, SPS_CHANGE_ENUMERATIO
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_PROGRESS_STAGE"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

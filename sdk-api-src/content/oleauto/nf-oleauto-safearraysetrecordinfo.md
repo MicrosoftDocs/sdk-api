@@ -12,6 +12,8 @@ ms.keywords: SafeArraySetRecordInfo, SafeArraySetRecordInfo function [Automation
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArraySetRecordInfo"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

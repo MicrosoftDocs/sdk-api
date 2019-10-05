@@ -12,6 +12,8 @@ ms.keywords: EVT_CHANNEL_REFERENCE_FLAGS, EVT_CHANNEL_REFERENCE_FLAGS enumeratio
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_CHANNEL_REFERENCE_FLAGS
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

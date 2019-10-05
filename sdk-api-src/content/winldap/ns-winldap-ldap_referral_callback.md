@@ -12,6 +12,8 @@ ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CA
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAP_REFERRAL_CALLBACK"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

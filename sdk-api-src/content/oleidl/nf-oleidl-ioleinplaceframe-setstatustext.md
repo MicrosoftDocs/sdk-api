@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceF
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceFrame.SetStatusText"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystemIscsi.CreateTarget
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

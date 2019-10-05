@@ -12,6 +12,8 @@ ms.keywords: MI_QualifierSet_GetQualifierAt, MI_QualifierSet_GetQualifierAt func
 ms.topic: function
 f1_keywords:
 - mi/MI_QualifierSet_GetQualifierAt
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

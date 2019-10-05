@@ -12,6 +12,8 @@ ms.keywords: "*PBLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_OOB_DATA_INFO"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

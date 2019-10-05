@@ -12,6 +12,8 @@ ms.keywords: CreateIconFromResource, CreateIconFromResource function [Menus and 
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateIconFromResource"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

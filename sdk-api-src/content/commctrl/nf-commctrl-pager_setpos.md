@@ -12,6 +12,8 @@ ms.keywords: Pager_SetPos, Pager_SetPos macro [Windows Controls], _win32_Pager_S
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_SetPos"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

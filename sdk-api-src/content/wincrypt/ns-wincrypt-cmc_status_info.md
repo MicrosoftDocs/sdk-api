@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAI
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_STATUS_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR c
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMCOLOR.XMCOLOR"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

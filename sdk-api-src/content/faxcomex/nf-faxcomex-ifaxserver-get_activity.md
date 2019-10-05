@@ -12,6 +12,8 @@ ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.Activity"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

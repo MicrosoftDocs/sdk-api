@@ -12,6 +12,8 @@ ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Co
 ms.topic: interface
 f1_keywords:
 - msopc/IOpcCertificateSet
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

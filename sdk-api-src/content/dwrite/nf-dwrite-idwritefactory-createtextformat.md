@@ -12,6 +12,8 @@ ms.keywords: CreateTextFormat, CreateTextFormat method [Direct Write], CreateTex
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.CreateTextFormat"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

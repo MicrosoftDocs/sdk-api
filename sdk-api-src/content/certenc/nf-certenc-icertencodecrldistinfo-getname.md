@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeCRLDistInfo object [Security],GetName method, GetName, G
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeCRLDistInfo.GetName"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

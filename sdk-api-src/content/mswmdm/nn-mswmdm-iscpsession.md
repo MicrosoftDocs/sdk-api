@@ -12,6 +12,8 @@ ms.keywords: ISCPSession, ISCPSession interface [windows Media Device Manager], 
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/ISCPSession"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

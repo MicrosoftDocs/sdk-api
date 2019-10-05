@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Securit
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_ISSUER_SERIAL"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

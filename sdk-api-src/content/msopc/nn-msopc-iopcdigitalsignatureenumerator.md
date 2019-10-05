@@ -12,6 +12,8 @@ ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator inte
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcDigitalSignatureEnumerator"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

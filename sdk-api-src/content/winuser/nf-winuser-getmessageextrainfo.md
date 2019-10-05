@@ -12,6 +12,8 @@ ms.keywords: GetMessageExtraInfo, GetMessageExtraInfo function [Windows and Mess
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMessageExtraInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingJob, IFaxOutgoingJob interface [Fax Service], IFaxOutgo
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

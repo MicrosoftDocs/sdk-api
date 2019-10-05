@@ -12,6 +12,8 @@ ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPa
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioCaptureClient.GetNextPacketSize"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

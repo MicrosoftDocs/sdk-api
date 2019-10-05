@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveC
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationVariableCurveChangeHandler2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

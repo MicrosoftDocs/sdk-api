@@ -12,6 +12,8 @@ ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glin
 ms.topic: function
 f1_keywords:
 - ntdsapi/DsBind
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

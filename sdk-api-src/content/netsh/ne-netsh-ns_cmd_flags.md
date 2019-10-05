@@ -12,6 +12,8 @@ ms.keywords: CMD_FLAG_HIDDEN, CMD_FLAG_INTERACTIVE, CMD_FLAG_LIMIT_MASK, CMD_FLA
 ms.topic: enum
 f1_keywords: 
  - "netsh/NS_CMD_FLAGS"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

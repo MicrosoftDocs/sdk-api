@@ -12,6 +12,8 @@ ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "objidl/IROTData"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

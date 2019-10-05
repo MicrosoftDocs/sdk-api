@@ -12,6 +12,8 @@ ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurit
 ms.topic: method
 f1_keywords: 
  - "objidl/IClientSecurity.QueryBlanket"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

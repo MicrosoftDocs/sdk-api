@@ -12,6 +12,8 @@ ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMes
 ms.topic: function
 f1_keywords: 
  - "shellapi/ShellMessageBox"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

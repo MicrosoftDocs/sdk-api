@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY functi
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilFindBinaryProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

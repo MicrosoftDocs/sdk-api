@@ -12,6 +12,8 @@ ms.keywords: GetSuperscript, GetSuperscript method [Windows Controls], GetSupers
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetSuperscript"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

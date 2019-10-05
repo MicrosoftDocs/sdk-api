@@ -12,6 +12,8 @@ ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_
 ms.topic: struct
 f1_keywords: 
  - "ipexport/IP_OPTION_INFORMATION32"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

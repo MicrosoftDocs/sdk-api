@@ -12,6 +12,8 @@ ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, 
 ms.topic: struct
 f1_keywords: 
  - "cmnquery/CQPAGE"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

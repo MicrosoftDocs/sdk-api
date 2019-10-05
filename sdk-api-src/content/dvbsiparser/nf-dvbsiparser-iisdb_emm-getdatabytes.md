@@ -12,6 +12,8 @@ ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetD
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_EMM.GetDataBytes"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

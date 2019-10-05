@@ -12,6 +12,8 @@ ms.keywords: RegisterDialogClasses, RegisterDialogClasses function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "scrnsave/RegisterDialogClasses"
+dev_langs:
+ - c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

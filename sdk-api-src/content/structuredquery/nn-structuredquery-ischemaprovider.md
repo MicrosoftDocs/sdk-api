@@ -12,6 +12,8 @@ ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvide
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/ISchemaProvider"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICCSubStreamFiltering, ICCSubStreamFiltering interface [Microsoft T
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/ICCSubStreamFiltering"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

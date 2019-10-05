@@ -12,6 +12,8 @@ ms.keywords: PDAT_AVERAGE, PDAT_DATERANGE, PDAT_DEFAULT, PDAT_FIRST, PDAT_MAX, P
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_AGGREGATION_TYPE"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

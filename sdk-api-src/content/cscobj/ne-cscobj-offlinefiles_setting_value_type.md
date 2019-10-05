@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, OFFLINEFILES_SETTI
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_SETTING_VALUE_TYPE"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

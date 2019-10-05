@@ -12,6 +12,8 @@ ms.keywords: IWRdsGraphicsChannelManager, IWRdsGraphicsChannelManager interface 
 ms.topic: interface
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannelManager"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

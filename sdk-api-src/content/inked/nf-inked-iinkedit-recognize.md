@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],Recognize method, IInkEdit.Recognize
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Recognize"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

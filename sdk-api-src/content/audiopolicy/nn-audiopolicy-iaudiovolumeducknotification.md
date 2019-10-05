@@ -12,6 +12,8 @@ ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interfac
 ms.topic: interface
 f1_keywords: 
  - "audiopolicy/IAudioVolumeDuckNotification"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

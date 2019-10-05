@@ -12,6 +12,8 @@ ms.keywords: IAudioFrameNative, IAudioFrameNative interface [Windows Runtime], I
 ms.topic: interface
 f1_keywords: 
  - "windows.media.core.interop/IAudioFrameNative"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

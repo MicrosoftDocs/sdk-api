@@ -12,6 +12,8 @@ ms.keywords: ICredentialProvider interface [Windows Shell],SetSerialization meth
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProvider.SetSerialization"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

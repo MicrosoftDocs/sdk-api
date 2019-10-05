@@ -12,6 +12,8 @@ ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [
 ms.topic: enum
 f1_keywords: 
  - "msctf/TfShiftDir"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

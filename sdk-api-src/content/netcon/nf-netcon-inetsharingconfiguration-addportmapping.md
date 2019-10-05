@@ -12,6 +12,8 @@ ms.keywords: AddPortMapping, AddPortMapping method [ICS/ICF], AddPortMapping met
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.AddPortMapping"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

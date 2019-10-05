@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],OutputLocation property, IDataCol
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.OutputLocation"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

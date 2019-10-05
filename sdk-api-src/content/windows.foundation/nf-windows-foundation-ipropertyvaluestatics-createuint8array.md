@@ -12,6 +12,8 @@ ms.keywords: CreateUInt8Array, CreateUInt8Array method [Windows Runtime], Create
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateUInt8Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

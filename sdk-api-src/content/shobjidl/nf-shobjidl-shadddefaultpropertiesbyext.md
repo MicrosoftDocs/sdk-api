@@ -12,6 +12,8 @@ ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [
 ms.topic: function
 f1_keywords: 
  - "shobjidl/SHAddDefaultPropertiesByExt"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

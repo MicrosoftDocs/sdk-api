@@ -12,6 +12,8 @@ ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegDeleteEmptyUSKey"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

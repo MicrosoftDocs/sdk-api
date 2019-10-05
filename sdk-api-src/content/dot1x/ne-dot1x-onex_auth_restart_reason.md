@@ -12,6 +12,8 @@ ms.keywords: ONEX_AUTH_RESTART_REASON, ONEX_AUTH_RESTART_REASON enumeration [Nat
 ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_AUTH_RESTART_REASON
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

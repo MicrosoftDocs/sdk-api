@@ -12,6 +12,8 @@ ms.keywords: FilterInstanceCreate, FilterInstanceCreate function [Installable Fi
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterInstanceCreate"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

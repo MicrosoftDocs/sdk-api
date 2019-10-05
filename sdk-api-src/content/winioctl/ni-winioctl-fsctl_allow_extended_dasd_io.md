@@ -12,6 +12,8 @@ ms.keywords: FSCTL_ALLOW_EXTENDED_DASD_IO, FSCTL_ALLOW_EXTENDED_DASD_IO control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

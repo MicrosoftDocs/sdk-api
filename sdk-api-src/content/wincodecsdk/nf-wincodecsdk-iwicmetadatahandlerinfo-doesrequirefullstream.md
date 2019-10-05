@@ -12,6 +12,8 @@ ms.keywords: DoesRequireFullStream, DoesRequireFullStream method [Windows Imagin
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataHandlerInfo.DoesRequireFullStream"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

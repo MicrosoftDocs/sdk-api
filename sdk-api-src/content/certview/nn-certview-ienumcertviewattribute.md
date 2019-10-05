@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security]
 ms.topic: interface
 f1_keywords: 
  - "certview/IEnumCERTVIEWATTRIBUTE"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

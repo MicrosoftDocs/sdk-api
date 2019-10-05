@@ -12,6 +12,8 @@ ms.keywords: FWPM_SERVICE_RUNNING, FWPM_SERVICE_START_PENDING, FWPM_SERVICE_STAT
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_SERVICE_STATE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

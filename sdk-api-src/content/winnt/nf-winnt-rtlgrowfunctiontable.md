@@ -12,6 +12,8 @@ ms.keywords: RtlGrowFunctionTable, RtlGrowFunctionTable function, base.rtlgrowfu
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlGrowFunctionTable"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

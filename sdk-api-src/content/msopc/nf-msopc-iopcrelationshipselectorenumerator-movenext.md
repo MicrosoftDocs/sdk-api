@@ -12,6 +12,8 @@ ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conven
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcRelationshipSelectorEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

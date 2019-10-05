@@ -12,6 +12,8 @@ ms.keywords: POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, in
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/POLICY_ELEMENT"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: Lpmapi.h
 req.target-type: Windows

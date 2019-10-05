@@ -12,6 +12,8 @@ ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP
 ms.topic: function
 f1_keywords:
 - setupapi/SetupInstallFile
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

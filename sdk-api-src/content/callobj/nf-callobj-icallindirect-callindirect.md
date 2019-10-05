@@ -12,6 +12,8 @@ ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallIndirect.CallIndirect"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

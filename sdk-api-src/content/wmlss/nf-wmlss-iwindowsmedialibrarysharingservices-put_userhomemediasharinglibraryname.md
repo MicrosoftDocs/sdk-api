@@ -12,6 +12,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Librar
 ms.topic: method
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

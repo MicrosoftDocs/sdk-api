@@ -12,6 +12,8 @@ ms.keywords: IMO_HARDWARE, IMO_INJECTED, IMO_SYSTEM, IMO_UNAVAILABLE, INPUT_MESS
 ms.topic: enum
 f1_keywords: 
  - "winuser/INPUT_MESSAGE_ORIGIN_ID"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

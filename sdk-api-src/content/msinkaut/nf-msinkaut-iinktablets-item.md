@@ -12,6 +12,8 @@ ms.keywords: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6, IInkTablets interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablets.Item"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

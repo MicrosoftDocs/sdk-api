@@ -12,6 +12,8 @@ ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_NAME_INITTYPE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

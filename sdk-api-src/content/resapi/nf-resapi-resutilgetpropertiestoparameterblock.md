@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetPropertiesToParameterBlock"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

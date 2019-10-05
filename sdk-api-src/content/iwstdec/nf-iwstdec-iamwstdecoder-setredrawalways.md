@@ -12,6 +12,8 @@ ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWst
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.SetRedrawAlways"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

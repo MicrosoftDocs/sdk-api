@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface 
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationUpdateEvents"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],RecipientZip property, IFaxDoc.Reci
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.RecipientZip"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

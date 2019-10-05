@@ -12,6 +12,8 @@ ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvai
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetAvailableVidMem"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

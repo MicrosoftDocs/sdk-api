@@ -12,6 +12,8 @@ ms.keywords: RpcSsContextLockShared, RpcSsContextLockShared function [RPC], _rpc
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcSsContextLockShared"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

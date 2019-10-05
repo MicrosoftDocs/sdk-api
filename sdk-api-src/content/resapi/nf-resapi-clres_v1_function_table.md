@@ -12,6 +12,8 @@ ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cl
 ms.topic: macro
 f1_keywords: 
  - "resapi/CLRES_V1_FUNCTION_TABLE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

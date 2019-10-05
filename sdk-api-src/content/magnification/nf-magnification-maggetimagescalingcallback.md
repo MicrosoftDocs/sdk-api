@@ -12,6 +12,8 @@ ms.keywords: MagGetImageScalingCallback, MagGetImageScalingCallback function [Ma
 ms.topic: function
 f1_keywords: 
  - "magnification/MagGetImageScalingCallback"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

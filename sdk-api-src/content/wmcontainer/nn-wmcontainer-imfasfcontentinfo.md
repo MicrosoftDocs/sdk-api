@@ -12,6 +12,8 @@ ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFCont
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

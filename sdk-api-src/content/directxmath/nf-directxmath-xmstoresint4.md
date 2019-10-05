@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMStoreSInt4, XMStoreSInt4, XMStoreSInt4 method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMStoreSInt4"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

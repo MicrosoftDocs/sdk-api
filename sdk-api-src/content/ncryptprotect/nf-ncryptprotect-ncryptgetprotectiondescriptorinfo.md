@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_PROTECTION_INFO_TYPE_DESCRIPTOR_STRING, NCryptGetProtectionD
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptGetProtectionDescriptorInfo"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

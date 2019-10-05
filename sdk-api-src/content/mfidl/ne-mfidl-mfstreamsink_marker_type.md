@@ -12,6 +12,8 @@ ms.keywords: MFSTREAMSINK_MARKER_DEFAULT, MFSTREAMSINK_MARKER_ENDOFSEGMENT, MFST
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSTREAMSINK_MARKER_TYPE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

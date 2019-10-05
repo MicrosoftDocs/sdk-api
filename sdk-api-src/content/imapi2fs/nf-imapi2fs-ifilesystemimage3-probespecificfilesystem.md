@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage3 interface [IMAPI],ProbeSpecificFileSystem method,
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage3.ProbeSpecificFileSystem"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

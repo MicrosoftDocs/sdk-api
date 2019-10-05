@@ -12,6 +12,8 @@ ms.keywords: 80316479-a08a-1e20-c73a-1d392c1204d6, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.SetRenderState"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_EVENT_DATA, DRT_EVENT_DATA, DRT_EVENT_DATA structure [Peer N
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_EVENT_DATA"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

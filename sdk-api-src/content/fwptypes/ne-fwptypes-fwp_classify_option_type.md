@@ -12,6 +12,8 @@ ms.keywords: FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING, FWP_CLASSIFY_OPTION_MAX, 
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_CLASSIFY_OPTION_TYPE"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

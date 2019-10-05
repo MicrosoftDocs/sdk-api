@@ -12,6 +12,8 @@ ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_P
 ms.topic: method
 f1_keywords: 
  - "rend/ITILSConfig.put_Port"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

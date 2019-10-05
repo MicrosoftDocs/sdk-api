@@ -12,6 +12,8 @@ ms.keywords: PARTITION_STYLE, PARTITION_STYLE enumeration [Files], PARTITION_STY
 ms.topic: enum
 f1_keywords:
 - winioctl/PARTITION_STYLE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

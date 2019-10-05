@@ -12,6 +12,8 @@ ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IStringCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

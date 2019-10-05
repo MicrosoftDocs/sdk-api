@@ -12,6 +12,8 @@ ms.keywords: IRemoteComputer, IRemoteComputer interface [Windows Shell], IRemote
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IRemoteComputer"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

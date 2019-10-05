@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirect
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.SetSwitches"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

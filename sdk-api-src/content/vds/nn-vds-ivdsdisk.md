@@ -12,6 +12,8 @@ ms.keywords: IVdsDisk, IVdsDisk interface [VDS], IVdsDisk interface [VDS],descri
 ms.topic: interface
 f1_keywords:
 - vds/IVdsDisk
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

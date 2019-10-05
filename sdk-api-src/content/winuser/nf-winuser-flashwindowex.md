@@ -12,6 +12,8 @@ ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.f
 ms.topic: function
 f1_keywords: 
  - "winuser/FlashWindowEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

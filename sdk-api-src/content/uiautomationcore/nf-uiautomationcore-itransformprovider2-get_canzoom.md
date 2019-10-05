@@ -12,6 +12,8 @@ ms.keywords: CanZoom property [Windows Accessibility], CanZoom property [Windows
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITransformProvider2.CanZoom"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

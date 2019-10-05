@@ -12,6 +12,8 @@ ms.keywords: 2340fd87-27ea-4f98-97e3-48b9506251a9, ConnectOutput, ConnectOutput 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.ConnectOutput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

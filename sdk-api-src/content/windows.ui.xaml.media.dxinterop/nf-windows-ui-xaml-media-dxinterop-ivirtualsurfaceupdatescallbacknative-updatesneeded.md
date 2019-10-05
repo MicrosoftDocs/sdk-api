@@ -12,6 +12,8 @@ ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],Up
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

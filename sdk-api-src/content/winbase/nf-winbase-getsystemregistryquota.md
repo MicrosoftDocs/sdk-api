@@ -12,6 +12,8 @@ ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsy
 ms.topic: function
 f1_keywords: 
  - "winbase/GetSystemRegistryQuota"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

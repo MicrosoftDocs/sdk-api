@@ -12,6 +12,8 @@ ms.keywords: DRMRepair, DRMRepair function [Active Directory Rights Management S
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMRepair"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

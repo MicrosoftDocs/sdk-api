@@ -12,6 +12,8 @@ ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wm
 ms.topic: enum
 f1_keywords: 
  - "wmp/WMPRipState"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

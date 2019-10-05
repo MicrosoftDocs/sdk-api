@@ -12,6 +12,8 @@ ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.EnumManifestResources"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

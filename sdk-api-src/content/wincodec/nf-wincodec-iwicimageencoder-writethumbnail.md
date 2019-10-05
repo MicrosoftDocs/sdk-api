@@ -12,6 +12,8 @@ ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteThumbna
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImageEncoder.WriteThumbnail"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _w
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAAsyncGetHostByName"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, co
 ms.topic: macro
 f1_keywords: 
  - "winerror/SUCCEEDED"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

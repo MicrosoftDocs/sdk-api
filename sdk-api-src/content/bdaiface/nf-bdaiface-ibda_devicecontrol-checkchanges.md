@@ -12,6 +12,8 @@ ms.keywords: CheckChanges, CheckChanges method [Microsoft TV Technologies], Chec
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DeviceControl.CheckChanges"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

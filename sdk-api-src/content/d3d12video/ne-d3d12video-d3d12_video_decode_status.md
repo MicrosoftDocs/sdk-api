@@ -8,6 +8,10 @@ ms.assetid: 4ed97807-90ca-4709-a635-004ecf8f235d
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_DECODE_STATUS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_STATUS, D3D12_VIDEO_DECODE_STATUS, 
 req.header: d3d12video.h
 req.include-header:

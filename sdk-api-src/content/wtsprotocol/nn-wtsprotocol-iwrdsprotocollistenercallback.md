@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolListenerCallback, IWRdsProtocolListenerCallback interf
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolListenerCallback"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

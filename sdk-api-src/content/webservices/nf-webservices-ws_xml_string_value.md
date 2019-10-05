@@ -12,6 +12,8 @@ ms.keywords: WS_XML_STRING_VALUE, WS_XML_STRING_VALUE macro [Web Services for Wi
 ms.topic: macro
 f1_keywords:
 - webservices/WS_XML_STRING_VALUE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

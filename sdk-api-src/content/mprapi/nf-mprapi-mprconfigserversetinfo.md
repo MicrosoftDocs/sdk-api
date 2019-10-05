@@ -12,6 +12,8 @@ ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mpra
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigServerSetInfo
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

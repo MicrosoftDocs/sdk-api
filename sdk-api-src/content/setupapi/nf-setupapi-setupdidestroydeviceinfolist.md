@@ -12,6 +12,8 @@ ms.keywords: SetupDiDestroyDeviceInfoList, SetupDiDestroyDeviceInfoList function
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiDestroyDeviceInfoList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

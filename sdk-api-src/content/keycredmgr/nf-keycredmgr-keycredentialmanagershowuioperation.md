@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOper
 ms.topic: function
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerShowUIOperation"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

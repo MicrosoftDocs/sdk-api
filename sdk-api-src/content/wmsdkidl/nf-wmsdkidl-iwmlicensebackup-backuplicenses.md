@@ -12,6 +12,8 @@ ms.keywords: BackupLicenses, BackupLicenses method [windows Media Format], Backu
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLicenseBackup.BackupLicenses"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

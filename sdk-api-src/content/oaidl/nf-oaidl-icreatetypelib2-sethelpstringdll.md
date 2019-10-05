@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICr
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib2.SetHelpStringDll"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

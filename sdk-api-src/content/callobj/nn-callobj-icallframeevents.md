@@ -12,6 +12,8 @@ ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvent
 ms.topic: interface
 f1_keywords: 
  - "callobj/ICallFrameEvents"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

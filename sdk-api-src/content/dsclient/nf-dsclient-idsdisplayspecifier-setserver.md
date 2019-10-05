@@ -12,6 +12,8 @@ ms.keywords: DSSSF_DONTSIGNSEAL, DSSSF_DSAVAILABLE, DSSSF_SIMPLEAUTHENTICATE, ID
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.SetServer"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG, DXGI_SWAP_CHAIN_COLOR_SPA
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_4/DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

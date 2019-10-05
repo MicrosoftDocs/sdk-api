@@ -12,6 +12,8 @@ ms.keywords: APOProcess, APOProcess method [Audio Devices], APOProcess method [A
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObjectRT.APOProcess"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree
 ms.topic: function
 f1_keywords: 
  - "dbghelp/EnumDirTree"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

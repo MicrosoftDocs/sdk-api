@@ -12,6 +12,8 @@ ms.keywords: IWMIndexer interface [windows Media Format],StartIndexing method, I
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMIndexer.StartIndexing"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

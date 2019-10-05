@@ -12,6 +12,8 @@ ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DReadFileToBlob"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

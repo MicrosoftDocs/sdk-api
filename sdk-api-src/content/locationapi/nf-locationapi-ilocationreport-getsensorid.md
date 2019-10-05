@@ -12,6 +12,8 @@ ms.keywords: GetSensorID, GetSensorID method [WinLocation], GetSensorID method [
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocationReport.GetSensorID"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

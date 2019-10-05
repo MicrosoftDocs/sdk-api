@@ -12,6 +12,8 @@ ms.keywords: WMPBurnState, WMPBurnState enumeration [Windows Media Player], wmp.
 ms.topic: enum
 f1_keywords: 
  - "wmp/WMPBurnState"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

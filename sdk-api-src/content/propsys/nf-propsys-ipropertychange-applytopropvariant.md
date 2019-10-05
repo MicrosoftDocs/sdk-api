@@ -12,6 +12,8 @@ ms.keywords: ApplyToPropVariant, ApplyToPropVariant method [Windows Properties],
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyChange.ApplyToPropVariant"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

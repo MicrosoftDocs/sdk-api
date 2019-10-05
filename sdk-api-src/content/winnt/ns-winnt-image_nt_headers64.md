@@ -12,6 +12,8 @@ ms.keywords: '*PIMAGE_NT_HEADERS64, IMAGE_NT_HEADERS, IMAGE_NT_HEADERS structure
 ms.topic: struct
 f1_keywords:
 - winnt/IMAGE_NT_HEADERS
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DH
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCPV6_IP_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

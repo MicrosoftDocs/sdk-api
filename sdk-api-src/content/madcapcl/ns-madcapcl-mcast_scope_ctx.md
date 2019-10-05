@@ -12,6 +12,8 @@ ms.keywords: '*PMCAST_SCOPE_CTX, MCAST_SCOPE_CTX, MCAST_SCOPE_CTX structure [MAD
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_SCOPE_CTX
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

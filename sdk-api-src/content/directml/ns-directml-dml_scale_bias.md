@@ -12,6 +12,8 @@ ms.keywords: DML_SCALE_BIAS, DML_SCALE_BIAS structure, direct3d12.dml_scale_bias
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_SCALE_BIAS"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

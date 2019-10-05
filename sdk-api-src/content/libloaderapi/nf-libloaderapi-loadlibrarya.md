@@ -12,6 +12,8 @@ ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/LoadLibrary"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

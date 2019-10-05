@@ -12,6 +12,8 @@ ms.keywords: AM_FILTER_MISC_FLAGSEnumeration, AM_FILTER_MISC_FLAGS_IS_RENDERER, 
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_FILTER_MISC_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

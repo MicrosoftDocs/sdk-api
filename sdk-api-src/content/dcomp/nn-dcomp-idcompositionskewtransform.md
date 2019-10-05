@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSkewTransform, IDCompositionSkewTransform interface [D
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionSkewTransform"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

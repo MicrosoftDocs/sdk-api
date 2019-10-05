@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE enu
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_QUERY_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

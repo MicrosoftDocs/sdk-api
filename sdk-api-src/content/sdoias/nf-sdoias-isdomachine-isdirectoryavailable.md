@@ -12,6 +12,8 @@ ms.keywords: ISdoMachine interface [Network Policy Server],IsDirectoryAvailable 
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoMachine.IsDirectoryAvailable"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

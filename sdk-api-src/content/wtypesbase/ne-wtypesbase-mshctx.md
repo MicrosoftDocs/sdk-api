@@ -12,6 +12,8 @@ ms.keywords: MSHCTX, MSHCTX enumeration [COM], MSHCTX_CROSSCTX, MSHCTX_DIFFERENT
 ms.topic: enum
 f1_keywords: 
  - "wtypesbase/MSHCTX"
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

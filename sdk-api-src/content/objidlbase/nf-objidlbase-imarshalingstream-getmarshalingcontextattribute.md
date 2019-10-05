@@ -12,6 +12,8 @@ ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMarshalingStream.GetMarshalingContextAttribute"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

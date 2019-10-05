@@ -12,6 +12,8 @@ ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resour
 ms.topic: function
 f1_keywords: 
  - "strsafe/StringCbPrintf_l"
+dev_langs:
+ - c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

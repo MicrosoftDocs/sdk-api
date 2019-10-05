@@ -12,6 +12,8 @@ ms.keywords: '*PGET_MEDIA_TYPES, FILE_DEVICE_8042_PORT, FILE_DEVICE_ACPI, FILE_D
 ms.topic: struct
 f1_keywords:
 - winioctl/GET_MEDIA_TYPES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/LSA_SECPKG_FUNCTION_TABLE"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

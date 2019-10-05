@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetParameters method, ITask.SetPar
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetParameters"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

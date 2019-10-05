@@ -12,6 +12,8 @@ ms.keywords: IPersistFile interface [COM],SaveCompleted method, IPersistFile.Sav
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistFile.SaveCompleted"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

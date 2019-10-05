@@ -12,6 +12,8 @@ ms.keywords: DS_REPUPD_ADD_REFERENCE, DS_REPUPD_ASYNCHRONOUS_OPERATION, DS_REPUP
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsReplicaUpdateRefs"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

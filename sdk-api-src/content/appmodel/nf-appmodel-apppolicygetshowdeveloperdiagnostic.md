@@ -12,6 +12,8 @@ ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagn
 ms.topic: function
 f1_keywords: 
  - "appmodel/AppPolicyGetShowDeveloperDiagnostic"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

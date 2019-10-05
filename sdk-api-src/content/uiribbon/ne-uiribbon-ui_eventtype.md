@@ -12,6 +12,8 @@ ms.keywords: UI_EVENTTYPE, UI_EVENTTYPE enumeration [Windows Ribbon], UI_EVENTTY
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_EVENTTYPE"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

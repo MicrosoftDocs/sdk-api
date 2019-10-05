@@ -12,6 +12,8 @@ ms.keywords: ITraceEventCallback interface [ETW],OnEvent method, ITraceEventCall
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEventCallback.OnEvent"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortGetOutputFormats, DdVideoPortGetOutputFormats callback f
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetOutputFormats
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

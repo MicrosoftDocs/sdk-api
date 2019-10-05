@@ -12,6 +12,8 @@ ms.keywords: IReferenceTracker interface [Windows Runtime],PegFromTrackerSource 
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.PegFromTrackerSource"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

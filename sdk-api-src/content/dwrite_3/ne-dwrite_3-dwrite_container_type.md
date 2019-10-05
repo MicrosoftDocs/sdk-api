@@ -12,6 +12,8 @@ ms.keywords: DWRITE_CONTAINER_TYPE, DWRITE_CONTAINER_TYPE enumeration [Direct Wr
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_CONTAINER_TYPE"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

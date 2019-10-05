@@ -12,6 +12,8 @@ ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetGroupInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordElementaryPid, GetRecordElementaryPid method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.GetRecordElementaryPid"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

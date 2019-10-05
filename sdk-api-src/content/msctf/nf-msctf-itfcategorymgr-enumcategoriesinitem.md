@@ -12,6 +12,8 @@ ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Fr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCategoryMgr.EnumCategoriesInItem"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

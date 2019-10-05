@@ -12,6 +12,8 @@ ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIn
 ms.topic: function
 f1_keywords: 
  - "winbase/GetProfileInt"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

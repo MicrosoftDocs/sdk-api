@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJ
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

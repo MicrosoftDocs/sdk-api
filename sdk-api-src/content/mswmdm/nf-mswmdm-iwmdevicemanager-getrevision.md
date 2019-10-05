@@ -12,6 +12,8 @@ ms.keywords: GetRevision, GetRevision method [windows Media Device Manager], Get
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDeviceManager.GetRevision"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

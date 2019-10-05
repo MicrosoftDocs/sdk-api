@@ -12,6 +12,8 @@ ms.keywords: GetCachedBlob, GetCachedBlob method, GetCachedBlob method,ID3D12Pip
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12PipelineState.GetCachedBlob"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

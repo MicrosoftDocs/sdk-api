@@ -12,6 +12,8 @@ ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurit
 ms.topic: function
 f1_keywords: 
  - "rasshost/RasSecurityDialogBegin"
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

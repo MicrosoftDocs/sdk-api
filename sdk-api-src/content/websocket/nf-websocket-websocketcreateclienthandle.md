@@ -12,6 +12,8 @@ ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketCreateClientHandle
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [W
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.Get"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

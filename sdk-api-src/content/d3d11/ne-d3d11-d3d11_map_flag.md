@@ -12,6 +12,8 @@ ms.keywords: 629d7d2f-642f-963f-2dce-b5f72d629978, D3D11_MAP_FLAG, D3D11_MAP_FLA
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_MAP_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

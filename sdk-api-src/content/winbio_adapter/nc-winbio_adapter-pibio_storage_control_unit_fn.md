@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_FN, PIBIO_STORAGE_CONTROL_UNIT_FN callba
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterControlUnit
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

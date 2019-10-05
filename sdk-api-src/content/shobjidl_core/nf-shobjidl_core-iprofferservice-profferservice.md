@@ -12,6 +12,8 @@ ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IP
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IProfferService.ProfferService"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

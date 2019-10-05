@@ -12,6 +12,8 @@ ms.keywords: GET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, GET_VIRTUAL_DISK_INFO_
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/GET_VIRTUAL_DISK_INFO_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

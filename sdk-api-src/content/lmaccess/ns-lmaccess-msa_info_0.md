@@ -12,6 +12,8 @@ ms.keywords: '*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Sec
 ms.topic: struct
 f1_keywords:
 - lmaccess/MSA_INFO_0
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

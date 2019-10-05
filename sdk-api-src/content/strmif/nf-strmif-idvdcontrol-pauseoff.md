@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],PauseOff method, IDvdControl.Pau
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.PauseOff"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

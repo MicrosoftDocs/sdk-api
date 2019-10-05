@@ -12,6 +12,8 @@ ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Founda
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreate2DMediaBuffer"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

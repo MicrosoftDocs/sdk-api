@@ -12,6 +12,8 @@ ms.keywords: DWordPtrAdd, DWordPtrAdd function [Windows Shell], _shell_DWordPtrA
 ms.topic: function
 f1_keywords: 
  - "intsafe/DWordPtrAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

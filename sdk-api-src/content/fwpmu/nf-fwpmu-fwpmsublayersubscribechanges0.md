@@ -12,6 +12,8 @@ ms.keywords: FwpmSubLayerSubscribeChanges0, FwpmSubLayerSubscribeChanges0 functi
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmSubLayerSubscribeChanges0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

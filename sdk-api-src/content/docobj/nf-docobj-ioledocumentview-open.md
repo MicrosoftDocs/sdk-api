@@ -12,6 +12,8 @@ ms.keywords: IOleDocumentView interface [COM],Open method, IOleDocumentView.Open
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.Open"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

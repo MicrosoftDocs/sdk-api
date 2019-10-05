@@ -12,6 +12,8 @@ ms.keywords: GetDoubleArray, GetDoubleArray method [Windows Runtime], GetDoubleA
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetDoubleArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

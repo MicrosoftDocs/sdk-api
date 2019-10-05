@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated m
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionNotification.OnSessionCreated"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

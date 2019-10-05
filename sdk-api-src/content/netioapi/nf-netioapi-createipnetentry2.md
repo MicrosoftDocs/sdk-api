@@ -12,6 +12,8 @@ ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.cr
 ms.topic: function
 f1_keywords: 
  - "netioapi/CreateIpNetEntry2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

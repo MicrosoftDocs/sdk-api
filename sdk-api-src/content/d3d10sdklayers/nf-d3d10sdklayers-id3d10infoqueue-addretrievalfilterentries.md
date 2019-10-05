@@ -12,6 +12,8 @@ ms.keywords: 5ea15176-4f13-65d2-afa6-3051b0d0908a, AddRetrievalFilterEntries, Ad
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.AddRetrievalFilterEntries"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

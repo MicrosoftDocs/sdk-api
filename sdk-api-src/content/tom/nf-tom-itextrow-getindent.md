@@ -12,6 +12,8 @@ ms.keywords: GetIndent, GetIndent method [Windows Controls], GetIndent method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetIndent"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

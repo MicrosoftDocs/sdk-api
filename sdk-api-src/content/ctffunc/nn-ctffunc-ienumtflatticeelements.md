@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Serv
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/IEnumTfLatticeElements"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

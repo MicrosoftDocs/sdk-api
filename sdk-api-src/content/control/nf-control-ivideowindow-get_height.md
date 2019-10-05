@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_Height"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

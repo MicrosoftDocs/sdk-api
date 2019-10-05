@@ -12,6 +12,8 @@ ms.keywords: 0765aea9-8fd8-8d38-bcaf-184610e8d81e, IDirect3DSwapChain9 interface
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DSwapChain9.Present
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

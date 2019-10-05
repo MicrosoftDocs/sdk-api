@@ -12,6 +12,8 @@ ms.keywords: GetIcmpStatistics, GetIcmpStatistics function [IP Helper], _iphlp_g
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIcmpStatistics
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

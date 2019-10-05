@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_REQUIRED_DEPENDENCY, CLUSPROP_REQUIRED_DEPENDENCY, CLUS
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_REQUIRED_DEPENDENCY"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

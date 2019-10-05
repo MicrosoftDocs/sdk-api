@@ -12,6 +12,8 @@ ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServT
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/IntServTspecBody"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UASFLAGS, UASFLAGS enumeration [COM], UAS_BLOCKED, UAS_MASK, UAS_NO
 ms.topic: enum
 f1_keywords: 
  - "ocidl/UASFLAGS"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

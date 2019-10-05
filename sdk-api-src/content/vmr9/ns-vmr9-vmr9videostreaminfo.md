@@ -12,6 +12,8 @@ ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VM
 ms.topic: struct
 f1_keywords:
 - vmr9/VMR9VideoStreamInfo
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

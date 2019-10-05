@@ -12,6 +12,8 @@ ms.keywords: VDS_PROVIDER_TYPE, VDS_PROVIDER_TYPE enumeration [VDS], VDS_PT_HARD
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_PROVIDER_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

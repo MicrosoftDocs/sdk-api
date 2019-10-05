@@ -12,6 +12,8 @@ ms.keywords: IToolbar interface [MMC],InsertButton method, IToolbar.InsertButton
 ms.topic: method
 f1_keywords:
 - mmc/IToolbar.InsertButton
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

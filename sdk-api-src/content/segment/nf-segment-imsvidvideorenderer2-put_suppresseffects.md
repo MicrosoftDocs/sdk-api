@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],put_Supp
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer2.put_SuppressEffects"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

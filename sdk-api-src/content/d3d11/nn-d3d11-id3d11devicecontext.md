@@ -12,6 +12,8 @@ ms.keywords: 12a95af1-0ccb-3aa6-2a85-b8822bf74961, ID3D11DeviceContext, ID3D11De
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Ope
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureReference.GetId"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

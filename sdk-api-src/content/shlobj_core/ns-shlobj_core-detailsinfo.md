@@ -12,6 +12,8 @@ ms.keywords: '*PDETAILSINFO, DETAILSINFO, DETAILSINFO structure [Windows Shell],
 ms.topic: struct
 f1_keywords:
 - shlobj_core/DETAILSINFO
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: STGTY, STGTY enumeration [Structured Storage], STGTY_LOCKBYTES, STG
 ms.topic: enum
 f1_keywords: 
  - "objidl/STGTY"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

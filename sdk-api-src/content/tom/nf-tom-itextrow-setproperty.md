@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],SetProperty method, ITextRow.
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.SetProperty"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumNetworkConnections interface [Network Awareness],Skip method, 
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/IEnumNetworkConnections.Skip"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_REDIRECT_CALLBACK_CONTEXT, WS_HTTP_REDIRECT_CALLBACK_CONTEX
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_HTTP_REDIRECT_CALLBACK_CONTEXT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

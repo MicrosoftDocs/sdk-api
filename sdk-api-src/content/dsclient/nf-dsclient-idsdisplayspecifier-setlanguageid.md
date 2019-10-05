@@ -12,6 +12,8 @@ ms.keywords: IDsDisplaySpecifier interface [Active Directory],SetLanguageID meth
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.SetLanguageID"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CallBack, CallBack method [Windows Shell], CallBack method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IContextMenuCB.CallBack"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],put
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSource2.put_RateEx"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

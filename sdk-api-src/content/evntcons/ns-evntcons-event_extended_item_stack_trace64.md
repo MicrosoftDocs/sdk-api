@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_EXTENDED_ITEM_STACK_TRACE64, EVENT_EXTENDED_ITEM_STACK_TRA
 ms.topic: struct
 f1_keywords:
 - evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE64
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

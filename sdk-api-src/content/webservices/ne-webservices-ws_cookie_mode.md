@@ -12,6 +12,8 @@ ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [We
 ms.topic: enum
 f1_keywords:
 - webservices/WS_COOKIE_MODE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

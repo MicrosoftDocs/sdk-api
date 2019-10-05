@@ -12,6 +12,8 @@ ms.keywords: Rotate180FlipNone, Rotate180FlipX, Rotate180FlipXY, Rotate180FlipY,
 ms.topic: enum
 f1_keywords: 
  - "gdiplusimaging/RotateFlipType"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

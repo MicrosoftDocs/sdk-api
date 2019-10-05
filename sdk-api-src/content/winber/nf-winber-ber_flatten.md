@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_flatten, ber_flatten, ber_flatten function [LDAP], ldap.
 ms.topic: function
 f1_keywords: 
  - "winber/ber_flatten"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

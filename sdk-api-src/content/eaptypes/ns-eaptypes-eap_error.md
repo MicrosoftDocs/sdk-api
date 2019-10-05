@@ -12,6 +12,8 @@ ms.keywords: EAP_ERROR, EAP_ERROR structure [EAPHost], GUID_EapHost_Cause_CertSt
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_ERROR
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DSA_DeleteItem, DSA_DeleteItem function [Windows Controls], _shell_
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_DeleteItem"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

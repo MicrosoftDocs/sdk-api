@@ -12,6 +12,8 @@ ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromA
 ms.topic: function
 f1_keywords:
 - authz/AuthzInitializeContextFromAuthzContext
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_SETUP_PHASE_SEVERITY, CLUSTER_SETUP_PHASE_SEVERITY enumerat
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_SETUP_PHASE_SEVERITY"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

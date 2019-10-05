@@ -12,6 +12,8 @@ ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDU
 ms.topic: function
 f1_keywords: 
  - "wsdutil/WSDUriEncode"
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AEC_VAD_DISABLED, AEC_VAD_FOR_AGC, AEC_VAD_FOR_SILENCE_SUPPRESSION,
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/AEC_VAD_MODE"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

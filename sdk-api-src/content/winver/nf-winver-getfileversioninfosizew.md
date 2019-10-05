@@ -12,6 +12,8 @@ ms.keywords: GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and 
 ms.topic: function
 f1_keywords: 
  - "winver/GetFileVersionInfoSize"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

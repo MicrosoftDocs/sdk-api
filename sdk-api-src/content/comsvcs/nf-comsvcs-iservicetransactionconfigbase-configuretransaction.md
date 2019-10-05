@@ -12,6 +12,8 @@ ms.keywords: ConfigureTransaction, ConfigureTransaction method [COM+], Configure
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceTransactionConfigBase.ConfigureTransaction"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

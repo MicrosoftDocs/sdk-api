@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneDevSpecific"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

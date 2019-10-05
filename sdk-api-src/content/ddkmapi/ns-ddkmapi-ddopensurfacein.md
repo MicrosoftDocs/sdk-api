@@ -12,6 +12,8 @@ ms.keywords: "*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Di
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDOPENSURFACEIN"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

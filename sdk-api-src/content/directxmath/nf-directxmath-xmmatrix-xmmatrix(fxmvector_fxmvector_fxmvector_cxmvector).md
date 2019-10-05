@@ -12,6 +12,8 @@ ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRI
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMMATRIX.XMMATRIX"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

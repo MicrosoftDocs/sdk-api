@@ -12,6 +12,8 @@ ms.keywords: DispatchMessage, DispatchMessage function [Windows and Messages], D
 ms.topic: function
 f1_keywords: 
  - "winuser/DispatchMessage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

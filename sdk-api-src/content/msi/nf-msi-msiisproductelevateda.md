@@ -12,6 +12,8 @@ ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductEl
 ms.topic: function
 f1_keywords: 
  - "msi/MsiIsProductElevated"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

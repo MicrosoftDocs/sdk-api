@@ -12,6 +12,8 @@ ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],SetParameters me
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Encoder.SetParameters"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

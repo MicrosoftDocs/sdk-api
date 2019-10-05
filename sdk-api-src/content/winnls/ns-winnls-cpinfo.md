@@ -12,6 +12,8 @@ ms.keywords: '*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Wind
 ms.topic: struct
 f1_keywords:
 - winnls/CPINFO
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

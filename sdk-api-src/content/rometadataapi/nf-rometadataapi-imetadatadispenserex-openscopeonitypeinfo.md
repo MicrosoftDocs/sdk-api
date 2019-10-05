@@ -12,6 +12,8 @@ ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],OpenScopeOnITypeIn
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataDispenserEx.OpenScopeOnITypeInfo"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

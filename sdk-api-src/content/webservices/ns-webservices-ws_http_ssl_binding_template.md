@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_SSL_BINDING_TEMPLATE, WS_HTTP_SSL_BINDING_TEMPLATE structur
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_HTTP_SSL_BINDING_TEMPLATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

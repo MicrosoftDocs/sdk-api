@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], P
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_CERT_ID
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

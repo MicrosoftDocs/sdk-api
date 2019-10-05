@@ -12,6 +12,8 @@ ms.keywords: GetVersions, GetVersions method [Human Input Devices], GetVersions 
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.GetVersions"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

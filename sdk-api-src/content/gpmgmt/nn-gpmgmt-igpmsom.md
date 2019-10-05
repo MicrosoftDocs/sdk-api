@@ -12,6 +12,8 @@ ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC]
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMSOM"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

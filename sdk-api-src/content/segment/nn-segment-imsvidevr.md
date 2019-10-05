@@ -12,6 +12,8 @@ ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidE
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidEVR"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PPP_LCP_CHAP, PPP_LCP_CHAP_MD5, PPP_LCP_CHAP_MS, PPP_LCP_CHAP_MSV2,
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_LCP_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

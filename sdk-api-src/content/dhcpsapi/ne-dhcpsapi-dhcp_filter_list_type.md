@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTE
 ms.topic: enum
 f1_keywords: 
  - "dhcpsapi/DHCP_FILTER_LIST_TYPE"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

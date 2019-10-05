@@ -12,6 +12,8 @@ ms.keywords: CreateFromMF2DBuffer2, CreateFromMF2DBuffer2 method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2"
+dev_langs:
+ - c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

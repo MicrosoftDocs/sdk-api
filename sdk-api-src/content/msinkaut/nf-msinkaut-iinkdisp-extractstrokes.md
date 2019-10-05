@@ -12,6 +12,8 @@ ms.keywords: 1cb109e5-5193-4022-a3b1-ade9be1337e8, ExtractStrokes, ExtractStroke
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.ExtractStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

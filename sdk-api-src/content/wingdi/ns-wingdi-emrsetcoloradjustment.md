@@ -12,6 +12,8 @@ ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTM
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSETCOLORADJUSTMENT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

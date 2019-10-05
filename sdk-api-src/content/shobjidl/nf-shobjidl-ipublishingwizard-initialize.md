@@ -12,6 +12,8 @@ ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IPublishingWizard.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

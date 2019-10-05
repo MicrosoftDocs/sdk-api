@@ -12,6 +12,8 @@ ms.keywords: D3D10_QUERY_MISC_FLAG, D3D10_QUERY_MISC_FLAG enumeration [Direct3D 
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_QUERY_MISC_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

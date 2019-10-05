@@ -12,6 +12,8 @@ ms.keywords: "?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetSta
 ms.topic: method
 f1_keywords: 
  - "methodco/MethodContext.GetStatusObject"
+dev_langs:
+ - c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows

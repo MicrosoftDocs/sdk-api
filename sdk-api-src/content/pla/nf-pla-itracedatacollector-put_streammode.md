@@ -12,6 +12,8 @@ ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceData
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.StreamMode"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
