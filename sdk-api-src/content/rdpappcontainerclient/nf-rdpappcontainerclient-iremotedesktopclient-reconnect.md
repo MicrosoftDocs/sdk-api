@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],Reconnect 
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.Reconnect"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost int
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFPMPHost"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

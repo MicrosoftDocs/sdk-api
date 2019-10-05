@@ -12,6 +12,8 @@ ms.keywords: IFileDialogEvents interface [Windows Shell],OnSelectionChange metho
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogEvents.OnSelectionChange"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

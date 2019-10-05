@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMLoadInt4, XMLoadInt4, XMLoadInt4 method [DirectX Mat
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMLoadInt4"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

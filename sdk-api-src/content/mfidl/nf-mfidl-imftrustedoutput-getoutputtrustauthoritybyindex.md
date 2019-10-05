@@ -12,6 +12,8 @@ ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByInde
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTrustedOutput.GetOutputTrustAuthorityByIndex"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

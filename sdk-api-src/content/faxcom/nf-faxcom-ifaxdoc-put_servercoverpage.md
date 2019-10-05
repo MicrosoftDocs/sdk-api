@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],ServerCoverpage property, IFaxDoc.S
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.ServerCoverpage"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

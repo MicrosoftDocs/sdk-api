@@ -12,6 +12,8 @@ ms.keywords: DdeReconnect, DdeReconnect function [Data Exchange], _win32_DdeReco
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeReconnect"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

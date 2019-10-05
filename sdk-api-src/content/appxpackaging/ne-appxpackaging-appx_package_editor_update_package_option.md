@@ -12,6 +12,8 @@ ms.keywords: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, APPX_PACKAGE_EDITOR_UPDA
 ms.topic: enum
 f1_keywords: 
  - "appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

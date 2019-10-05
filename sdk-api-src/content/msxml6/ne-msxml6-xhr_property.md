@@ -12,6 +12,8 @@ ms.keywords: XHR_PROPERTY, XHR_PROPERTY enumeration [XMLHttpRequest2], XHR_PROP_
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_PROPERTY"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

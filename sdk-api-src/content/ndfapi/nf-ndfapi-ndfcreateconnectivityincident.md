@@ -12,6 +12,8 @@ ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident functi
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCreateConnectivityIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

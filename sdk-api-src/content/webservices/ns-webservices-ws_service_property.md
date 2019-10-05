@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services fo
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SERVICE_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

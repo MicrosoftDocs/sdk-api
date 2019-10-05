@@ -12,6 +12,8 @@ ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager]
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmSetting"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVEN
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

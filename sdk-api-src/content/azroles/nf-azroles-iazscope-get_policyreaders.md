@@ -12,6 +12,8 @@ ms.keywords: AzScope object [Security],PolicyReaders property, IAzScope interfac
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.PolicyReaders"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

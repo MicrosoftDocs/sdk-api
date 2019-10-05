@@ -12,6 +12,8 @@ ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VS
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWriterComponents.GetWriterInfo"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetR
 ms.topic: method
 f1_keywords: 
  - "workspaceruntimeclientext/IWorkspaceClientExt.GetResourceId"
+dev_langs:
+ - c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

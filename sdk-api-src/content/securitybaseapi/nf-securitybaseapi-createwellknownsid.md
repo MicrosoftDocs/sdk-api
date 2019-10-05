@@ -12,6 +12,8 @@ ms.keywords: CreateWellKnownSid, CreateWellKnownSid function [Security], _win32_
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/CreateWellKnownSid"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

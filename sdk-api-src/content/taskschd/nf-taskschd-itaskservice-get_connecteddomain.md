@@ -12,6 +12,8 @@ ms.keywords: ConnectedDomain property [Task Scheduler], ConnectedDomain property
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskService.ConnectedDomain"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

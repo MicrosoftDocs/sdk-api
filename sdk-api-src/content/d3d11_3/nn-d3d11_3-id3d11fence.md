@@ -12,6 +12,8 @@ ms.keywords: ID3D11Fence, ID3D11Fence interface [Direct3D 11], ID3D11Fence inter
 ms.topic: interface
 f1_keywords: 
  - "d3d11_3/ID3D11Fence"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

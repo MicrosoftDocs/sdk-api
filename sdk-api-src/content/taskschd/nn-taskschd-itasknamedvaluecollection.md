@@ -12,6 +12,8 @@ ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Tas
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskNamedValueCollection"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

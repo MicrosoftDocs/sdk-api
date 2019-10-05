@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTED_DOMAIN_INFORMATION_EX, 0x00100000 to 0xFFF00000, 0x5 - 0
 ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

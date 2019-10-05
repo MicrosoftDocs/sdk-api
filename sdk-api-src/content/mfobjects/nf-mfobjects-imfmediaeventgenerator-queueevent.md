@@ -12,6 +12,8 @@ ms.keywords: 3bc33665-1385-41e1-9ad0-991fc93e91c0, IMFMediaEventGenerator interf
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventGenerator.QueueEvent"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

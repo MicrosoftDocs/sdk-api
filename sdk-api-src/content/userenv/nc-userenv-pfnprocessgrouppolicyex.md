@@ -12,6 +12,8 @@ ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_
 ms.topic: callback
 f1_keywords:
 - userenv/PFNPROCESSGROUPPOLICYEX
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsLunPlex interface [VDS],QueryHints method, IVdsLunPlex.QueryHin
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunPlex.QueryHints
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

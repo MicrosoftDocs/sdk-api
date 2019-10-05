@@ -12,6 +12,8 @@ ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegis
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IApplicationAssociationRegistrationUI"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage interface [Fax Service],Size property, IFaxInco
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage.Size"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

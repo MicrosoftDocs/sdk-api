@@ -12,6 +12,8 @@ ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing AP
 ms.topic: interface
 f1_keywords: 
  - "xapo/IXAPOParameters"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmRule interface [File Server Resource Manager],ModuleDefinition
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmRule.ModuleDefinitionName"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

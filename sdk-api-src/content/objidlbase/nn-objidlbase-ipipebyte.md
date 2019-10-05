@@ -12,6 +12,8 @@ ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],des
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IPipeByte"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

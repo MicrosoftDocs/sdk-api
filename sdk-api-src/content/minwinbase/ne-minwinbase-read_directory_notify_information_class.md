@@ -12,6 +12,8 @@ ms.keywords: '*PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_
 ms.topic: enum
 f1_keywords:
 - minwinbase/READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: 
 req.target-type: Windows

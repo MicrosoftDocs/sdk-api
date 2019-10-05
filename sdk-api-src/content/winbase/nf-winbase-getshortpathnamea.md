@@ -12,6 +12,8 @@ ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNa
 ms.topic: function
 f1_keywords: 
  - "winbase/GetShortPathName"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

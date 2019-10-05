@@ -12,6 +12,8 @@ ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color Syst
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetDeviceGammaRamp"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

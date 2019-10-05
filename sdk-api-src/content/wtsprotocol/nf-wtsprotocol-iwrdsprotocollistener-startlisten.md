@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StartList
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolListener.StartListen"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

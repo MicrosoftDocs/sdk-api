@@ -12,6 +12,8 @@ ms.keywords: CurrentItemStatus property [Windows Accessibility], CurrentItemStat
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CurrentItemStatus"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

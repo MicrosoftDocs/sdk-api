@@ -12,6 +12,8 @@ ms.keywords: 5a79a782-10e1-3c49-ad30-96926d31c37d, D3D11_RLDO_DETAIL, D3D11_RLDO
 ms.topic: enum
 f1_keywords: 
  - "d3d11sdklayers/D3D11_RLDO_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

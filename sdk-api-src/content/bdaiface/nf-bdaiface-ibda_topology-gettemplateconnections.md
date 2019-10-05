@@ -12,6 +12,8 @@ ms.keywords: GetTemplateConnections, GetTemplateConnections method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.GetTemplateConnections"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MAPIAddress, MAPIAddress callback, MAPIAddress callback function, M
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIAddress"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

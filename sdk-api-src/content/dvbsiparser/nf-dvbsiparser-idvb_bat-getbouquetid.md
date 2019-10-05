@@ -12,6 +12,8 @@ ms.keywords: GetBouquetId, GetBouquetId method [Microsoft TV Technologies], GetB
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_BAT.GetBouquetId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

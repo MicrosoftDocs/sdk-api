@@ -12,6 +12,8 @@ ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrCat"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall functi
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrConformantStringUnmarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

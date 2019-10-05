@@ -12,6 +12,8 @@ ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, base.teb,
 ms.topic: struct
 f1_keywords: 
  - "winternl/TEB"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], 
 ms.topic: interface
 f1_keywords: 
  - "dshowasf/IAMWMBufferPass"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

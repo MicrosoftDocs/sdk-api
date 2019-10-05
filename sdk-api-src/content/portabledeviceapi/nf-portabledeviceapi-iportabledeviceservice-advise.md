@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceService.Advise"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

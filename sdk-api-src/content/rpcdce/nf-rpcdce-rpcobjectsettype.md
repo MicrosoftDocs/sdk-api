@@ -12,6 +12,8 @@ ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectse
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcObjectSetType"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

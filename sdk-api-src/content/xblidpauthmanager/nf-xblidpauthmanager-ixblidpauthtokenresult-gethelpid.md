@@ -12,6 +12,8 @@ ms.keywords: GetHelpId, GetHelpId method, GetHelpId method,IXblIdpAuthTokenResul
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetHelpId"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

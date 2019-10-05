@@ -12,6 +12,8 @@ ms.keywords: SECPKG_EXTENDED_INFORMATION_CLASS, SECPKG_EXTENDED_INFORMATION_CLAS
 ms.topic: enum
 f1_keywords: 
  - "ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

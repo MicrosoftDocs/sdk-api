@@ -12,6 +12,8 @@ ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sy
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetChangeUnitExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

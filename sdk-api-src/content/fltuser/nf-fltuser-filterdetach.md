@@ -12,6 +12,8 @@ ms.keywords: FilterDetach, FilterDetach function [Installable File System Driver
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterDetach"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

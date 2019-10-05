@@ -12,6 +12,8 @@ ms.keywords: 3433c2e0-695b-85b1-b1ed-77a71348bc1f, ClearRenderTargetView, ClearR
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.ClearRenderTargetView"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

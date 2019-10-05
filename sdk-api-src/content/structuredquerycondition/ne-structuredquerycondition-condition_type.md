@@ -12,6 +12,8 @@ ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITI
 ms.topic: enum
 f1_keywords: 
  - "structuredquerycondition/CONDITION_TYPE"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

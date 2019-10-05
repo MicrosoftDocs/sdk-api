@@ -12,6 +12,8 @@ ms.keywords: XPS_FONT_EMBEDDING, XPS_FONT_EMBEDDING enumeration [XPS Documents a
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_FONT_EMBEDDING"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

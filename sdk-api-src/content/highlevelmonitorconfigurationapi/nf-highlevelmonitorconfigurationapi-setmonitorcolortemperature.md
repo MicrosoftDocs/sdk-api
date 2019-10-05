@@ -12,6 +12,8 @@ ms.keywords: SetMonitorColorTemperature, SetMonitorColorTemperature function [Mo
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/SetMonitorColorTemperature"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

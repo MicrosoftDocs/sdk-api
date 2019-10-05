@@ -12,6 +12,8 @@ ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidGenericSink2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

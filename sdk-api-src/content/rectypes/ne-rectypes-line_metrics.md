@@ -12,6 +12,8 @@ ms.keywords: 1317badb-38e1-41fe-9918-c28da88aa511, LINE_METRICS, LINE_METRICS en
 ms.topic: enum
 f1_keywords: 
  - "rectypes/LINE_METRICS"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

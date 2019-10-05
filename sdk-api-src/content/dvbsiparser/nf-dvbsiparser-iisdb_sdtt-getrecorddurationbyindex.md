@@ -12,6 +12,8 @@ ms.keywords: GetRecordDurationByIndex, GetRecordDurationByIndex method [Microsof
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_SDTT.GetRecordDurationByIndex"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

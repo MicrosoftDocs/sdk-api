@@ -12,6 +12,8 @@ ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetsli
 ms.topic: function
 f1_keywords:
 - slpublic/SLGetSLIDList
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

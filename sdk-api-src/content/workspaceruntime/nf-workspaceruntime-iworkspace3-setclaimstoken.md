@@ -12,6 +12,8 @@ ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken meth
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspace3.SetClaimsToken"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

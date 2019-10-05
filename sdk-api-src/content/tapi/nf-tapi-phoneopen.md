@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/p
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneOpen"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

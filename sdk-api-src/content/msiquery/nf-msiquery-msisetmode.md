@@ -12,6 +12,8 @@ ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMod
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSetMode"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

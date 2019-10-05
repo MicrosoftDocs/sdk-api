@@ -12,6 +12,8 @@ ms.keywords: D2D1_LAYER_PARAMETERS1, D2D1_LAYER_PARAMETERS1 structure [Direct2D]
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1/D2D1_LAYER_PARAMETERS1"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: D2d1.h
 req.target-type: Windows

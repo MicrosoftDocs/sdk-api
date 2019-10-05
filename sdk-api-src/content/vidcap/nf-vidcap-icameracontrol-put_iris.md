@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],put_Iris method, ICameraContr
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.put_Iris"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

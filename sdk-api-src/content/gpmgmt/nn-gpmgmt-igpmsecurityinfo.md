@@ -12,6 +12,8 @@ ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMSecurityInfo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

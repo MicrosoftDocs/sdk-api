@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_bvdup, ber_bvdup, ber_bvdup function [LDAP], ldap.ber__b
 ms.topic: function
 f1_keywords: 
  - "winber/ber_bvdup"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

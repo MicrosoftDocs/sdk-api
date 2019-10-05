@@ -12,6 +12,8 @@ ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Gr
 ms.topic: function
 f1_keywords:
 - userenv/RSoPSetPolicySettingStatus
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

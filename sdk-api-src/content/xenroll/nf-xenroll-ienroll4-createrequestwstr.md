@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],createRequestWStr method, IEnroll4.cr
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.createRequestWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

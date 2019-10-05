@@ -12,6 +12,8 @@ ms.keywords: WBEM_STATUS_COMPLETE, WBEM_STATUS_LOGGING_INFORMATION, WBEM_STATUS_
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_STATUS_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

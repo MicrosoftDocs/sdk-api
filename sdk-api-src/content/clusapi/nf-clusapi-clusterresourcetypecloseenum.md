@@ -12,6 +12,8 @@ ms.keywords: ClusterResourceTypeCloseEnum, ClusterResourceTypeCloseEnum function
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterResourceTypeCloseEnum"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

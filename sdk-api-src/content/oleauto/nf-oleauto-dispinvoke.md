@@ -12,6 +12,8 @@ ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPAT
 ms.topic: function
 f1_keywords: 
  - "oleauto/DispInvoke"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

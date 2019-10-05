@@ -12,6 +12,8 @@ ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], control
 ms.topic: function
 f1_keywords: 
  - "uxtheme/CloseThemeData"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

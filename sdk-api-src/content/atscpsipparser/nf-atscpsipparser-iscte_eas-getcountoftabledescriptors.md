@@ -12,6 +12,8 @@ ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Micr
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetCountOfTableDescriptors"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

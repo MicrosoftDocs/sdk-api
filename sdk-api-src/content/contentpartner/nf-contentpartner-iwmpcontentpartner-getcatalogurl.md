@@ -12,6 +12,8 @@ ms.keywords: GetCatalogURL, GetCatalogURL method [Windows Media Player], GetCata
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetCatalogURL"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

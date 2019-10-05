@@ -12,6 +12,8 @@ ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufactu
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate.DriverManufacturer"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

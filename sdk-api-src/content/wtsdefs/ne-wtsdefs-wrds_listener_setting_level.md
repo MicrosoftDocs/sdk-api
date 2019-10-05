@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL, PWRDS
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_LISTENER_SETTING_LEVEL
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

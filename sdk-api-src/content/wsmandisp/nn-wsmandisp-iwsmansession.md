@@ -12,6 +12,8 @@ ms.keywords: IWSManSession, IWSManSession interface [Windows Remote Management],
 ms.topic: interface
 f1_keywords: 
  - "wsmandisp/IWSManSession"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia]
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamLengthTime"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

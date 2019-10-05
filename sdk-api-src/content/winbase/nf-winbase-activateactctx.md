@@ -12,6 +12,8 @@ ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], 
 ms.topic: function
 f1_keywords: 
  - "winbase/ActivateActCtx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

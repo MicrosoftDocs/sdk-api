@@ -12,6 +12,8 @@ ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audi
 ms.topic: interface
 f1_keywords: 
  - "spatialaudioclient/IAudioFormatEnumerator"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

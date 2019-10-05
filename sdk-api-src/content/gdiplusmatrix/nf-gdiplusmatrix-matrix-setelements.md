@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],SetElements method, Matrix.SetElements, Matrix:
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.SetElements"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

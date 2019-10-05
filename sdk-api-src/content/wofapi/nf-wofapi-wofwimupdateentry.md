@@ -12,6 +12,8 @@ ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupd
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofWimUpdateEntry"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

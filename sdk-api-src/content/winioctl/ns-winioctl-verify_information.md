@@ -12,6 +12,8 @@ ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION str
 ms.topic: struct
 f1_keywords: 
  - "winioctl/VERIFY_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

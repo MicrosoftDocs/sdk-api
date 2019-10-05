@@ -12,6 +12,8 @@ ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], 
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMVfwCaptureDialogs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

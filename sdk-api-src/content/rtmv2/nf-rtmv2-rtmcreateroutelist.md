@@ -12,6 +12,8 @@ ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rt
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmCreateRouteList"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

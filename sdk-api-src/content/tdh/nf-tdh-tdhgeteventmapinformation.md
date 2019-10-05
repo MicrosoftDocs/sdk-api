@@ -12,6 +12,8 @@ ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW]
 ms.topic: function
 f1_keywords:
 - tdh/TdhGetEventMapInformation
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

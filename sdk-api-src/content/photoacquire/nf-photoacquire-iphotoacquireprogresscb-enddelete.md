@@ -12,6 +12,8 @@ ms.keywords: EndDelete, EndDelete method [Picture Acquisition], EndDelete method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.EndDelete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

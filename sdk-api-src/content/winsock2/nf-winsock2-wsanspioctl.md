@@ -12,6 +12,8 @@ ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock],
 ms.topic: function
 f1_keywords:
 - winsock2/WSANSPIoctl
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageun
 ms.topic: function
 f1_keywords:
 - imagehlp/ImageUnload
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

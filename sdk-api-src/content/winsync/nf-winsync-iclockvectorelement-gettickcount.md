@@ -12,6 +12,8 @@ ms.keywords: GetTickCount, GetTickCount method [Windows Sync], GetTickCount meth
 ms.topic: method
 f1_keywords: 
  - "winsync/IClockVectorElement.GetTickCount"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DPA_DestroyCallback, DPA_DestroyCallback function [Windows Controls
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_DestroyCallback"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

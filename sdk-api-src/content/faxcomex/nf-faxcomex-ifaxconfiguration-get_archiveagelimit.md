@@ -12,6 +12,8 @@ ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [F
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.ArchiveAgeLimit"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

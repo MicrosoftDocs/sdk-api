@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidDevice2 interface [Microsoft TV Technologies],get_DevicePath 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidDevice2.get_DevicePath"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

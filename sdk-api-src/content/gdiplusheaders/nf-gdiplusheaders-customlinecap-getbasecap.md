@@ -12,6 +12,8 @@ ms.keywords: CustomLineCap class [GDI+],GetBaseCap method, CustomLineCap.GetBase
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap.GetBaseCap"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwOpenPorts 
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwOpenPorts.Count"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

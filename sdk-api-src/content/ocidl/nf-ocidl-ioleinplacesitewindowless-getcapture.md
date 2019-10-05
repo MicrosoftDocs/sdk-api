@@ -12,6 +12,8 @@ ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleIn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleInPlaceSiteWindowless.GetCapture"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

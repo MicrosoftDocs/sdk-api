@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Text Services Framework], GetString me
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReadingInformationUIElement.GetString"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComAppEvents interface [COM+],OnAppForceShutdown method, IComAppEv
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComAppEvents.OnAppForceShutdown"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

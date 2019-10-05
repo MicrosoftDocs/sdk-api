@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IP
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderProperties.GetAt"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

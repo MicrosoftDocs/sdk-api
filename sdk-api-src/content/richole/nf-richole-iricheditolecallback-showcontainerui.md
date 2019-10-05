@@ -12,6 +12,8 @@ ms.keywords: IRichEditOleCallback interface [Windows Controls],ShowContainerUI m
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.ShowContainerUI"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], IComm
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/ICommDlgBrowser3"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

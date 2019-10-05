@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFS
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.PlaceMarker"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

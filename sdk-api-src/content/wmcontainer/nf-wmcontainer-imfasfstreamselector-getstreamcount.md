@@ -12,6 +12,8 @@ ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStream
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetStreamCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

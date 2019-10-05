@@ -12,6 +12,8 @@ ms.keywords: ITextFont2 interface [Windows Controls],SetDoubleStrike method, ITe
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.SetDoubleStrike"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

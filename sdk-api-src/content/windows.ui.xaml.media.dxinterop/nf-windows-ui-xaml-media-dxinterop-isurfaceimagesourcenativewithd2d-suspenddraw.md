@@ -12,6 +12,8 @@ ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],Suspen
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.SuspendDraw"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

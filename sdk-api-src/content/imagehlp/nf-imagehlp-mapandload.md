@@ -12,6 +12,8 @@ ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload
 ms.topic: function
 f1_keywords:
 - imagehlp/MapAndLoad
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

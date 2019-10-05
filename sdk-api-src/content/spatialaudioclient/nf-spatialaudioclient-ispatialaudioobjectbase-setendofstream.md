@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectBase interface [Core Audio],SetEndOfStream metho
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectBase.SetEndOfStream"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

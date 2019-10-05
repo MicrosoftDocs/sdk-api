@@ -12,6 +12,8 @@ ms.keywords: GetDesc1, GetDesc1 method [Direct3D 10], GetDesc1 method [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d10_1/ID3D10BlendState1.GetDesc1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 27ba9c43-314f-b252-fc98-8a27455ec5dd, D3D11_CLASS_INSTANCE_DESC, D3
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_CLASS_INSTANCE_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

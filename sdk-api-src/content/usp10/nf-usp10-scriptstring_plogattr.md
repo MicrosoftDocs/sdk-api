@@ -12,6 +12,8 @@ ms.keywords: ScriptString_pLogAttr, ScriptString_pLogAttr function [Internationa
 ms.topic: function
 f1_keywords: 
  - "usp10/ScriptString_pLogAttr"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

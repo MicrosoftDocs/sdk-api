@@ -12,6 +12,8 @@ ms.keywords: IBDA_AutoDemodulate, IBDA_AutoDemodulate interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_AutoDemodulate"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

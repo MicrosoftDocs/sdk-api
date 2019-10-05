@@ -12,6 +12,8 @@ ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_LDT.GetOriginalServiceId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

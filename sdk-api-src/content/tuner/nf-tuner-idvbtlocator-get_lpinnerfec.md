@@ -12,6 +12,8 @@ ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC m
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTLocator.get_LPInnerFEC"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

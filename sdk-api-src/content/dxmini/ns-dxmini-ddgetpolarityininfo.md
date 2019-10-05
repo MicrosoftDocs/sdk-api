@@ -12,6 +12,8 @@ ms.keywords: "*PDDGETPOLARITYININFO, DDGETPOLARITYININFO, DDGETPOLARITYININFO st
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDGETPOLARITYININFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

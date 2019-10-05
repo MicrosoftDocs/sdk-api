@@ -12,6 +12,8 @@ ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeTrace"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

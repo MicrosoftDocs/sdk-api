@@ -12,6 +12,8 @@ ms.keywords: UInt8Add, UInt8Add function [Windows Shell], intsafe/UInt8Add, shel
 ms.topic: function
 f1_keywords: 
  - "intsafe/UInt8Add"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

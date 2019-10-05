@@ -12,6 +12,8 @@ ms.keywords: D3DX11_FFT_CREATE_FLAG, D3DX11_FFT_CREATE_FLAG enumeration [Direct3
 ms.topic: enum
 f1_keywords: 
  - "d3dcsx/D3DX11_FFT_CREATE_FLAG"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

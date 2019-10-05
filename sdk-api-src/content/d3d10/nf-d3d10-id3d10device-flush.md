@@ -12,6 +12,8 @@ ms.keywords: 95043c81-fb9f-c3b0-6f27-f9c309dbec57, Flush, Flush method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.Flush"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/SolidBrush.GetColor"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FA
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_KCC_DSA_FAILUREW
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

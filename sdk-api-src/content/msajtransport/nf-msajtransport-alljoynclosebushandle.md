@@ -12,6 +12,8 @@ ms.keywords: AllJoynCloseBusHandle, AllJoynCloseBusHandle function [AllJoyn API]
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynCloseBusHandle"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

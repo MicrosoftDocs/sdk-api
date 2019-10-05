@@ -12,6 +12,8 @@ ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/SizeF.SizeF"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

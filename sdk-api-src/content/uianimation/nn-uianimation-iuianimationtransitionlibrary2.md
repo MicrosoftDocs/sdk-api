@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 inte
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

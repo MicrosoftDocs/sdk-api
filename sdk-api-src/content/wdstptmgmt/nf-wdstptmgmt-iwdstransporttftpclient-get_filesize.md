@@ -12,6 +12,8 @@ ms.keywords: FileSize property [Windows Deployment Services], FileSize property 
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient.FileSize"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

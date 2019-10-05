@@ -12,6 +12,8 @@ ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IDispenserDriver.CreateResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

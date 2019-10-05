@@ -12,6 +12,8 @@ ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 inter
 ms.topic: interface
 f1_keywords: 
  - "certcli/ICertConfig2"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

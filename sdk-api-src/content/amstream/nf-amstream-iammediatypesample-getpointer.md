@@ -12,6 +12,8 @@ ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [Dire
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.GetPointer"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

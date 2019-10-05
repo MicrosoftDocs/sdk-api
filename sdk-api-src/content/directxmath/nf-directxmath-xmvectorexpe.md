@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorExpE, XMVectorExpE, XMVectorExpE method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorExpE"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

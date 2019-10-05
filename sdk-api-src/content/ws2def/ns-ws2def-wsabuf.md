@@ -12,6 +12,8 @@ ms.keywords: "*LPWSABUF, LPWSABUF, LPWSABUF structure pointer [Winsock], WSABUF,
 ms.topic: struct
 f1_keywords: 
  - "ws2def/WSABUF"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows

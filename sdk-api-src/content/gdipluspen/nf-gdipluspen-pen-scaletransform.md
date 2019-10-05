@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],ScaleTransform method, Pen.ScaleTransform, Pen::Sc
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.ScaleTransform"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

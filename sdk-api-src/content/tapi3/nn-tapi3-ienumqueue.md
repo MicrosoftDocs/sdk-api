@@ -12,6 +12,8 @@ ms.keywords: IEnumQueue, IEnumQueue interface [TAPI 2.2], IEnumQueue interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3/IEnumQueue"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

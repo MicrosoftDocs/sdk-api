@@ -12,6 +12,8 @@ ms.keywords: IInkStrokeDisp interface [Tablet PC],ScaleTransform method, IInkStr
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.ScaleTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

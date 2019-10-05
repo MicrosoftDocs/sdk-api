@@ -12,6 +12,8 @@ ms.keywords: EnumDesktops, EnumDesktops function [Windows Stations and Desktops]
 ms.topic: function
 f1_keywords: 
  - "winuser/EnumDesktops"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

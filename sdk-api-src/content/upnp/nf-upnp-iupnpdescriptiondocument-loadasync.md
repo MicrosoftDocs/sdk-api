@@ -12,6 +12,8 @@ ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IU
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.LoadAsync"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

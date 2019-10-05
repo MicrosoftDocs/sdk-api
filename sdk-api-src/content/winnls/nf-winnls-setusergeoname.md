@@ -12,6 +12,8 @@ ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "winnls/SetUserGeoName"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

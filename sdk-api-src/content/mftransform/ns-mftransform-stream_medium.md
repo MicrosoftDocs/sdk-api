@@ -12,6 +12,8 @@ ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "mftransform/STREAM_MEDIUM"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

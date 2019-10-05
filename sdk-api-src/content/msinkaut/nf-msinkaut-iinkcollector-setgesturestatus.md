@@ -12,6 +12,8 @@ ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkCollector interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.SetGestureStatus"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetInt
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetIntegerValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

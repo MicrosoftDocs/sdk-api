@@ -12,6 +12,8 @@ ms.keywords: CreateTable, CreateTable method [Remote Differential Compression], 
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarity.CreateTable"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

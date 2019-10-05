@@ -12,6 +12,8 @@ ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_N
 ms.topic: function
 f1_keywords: 
  - "wincred/CredGetSessionTypes"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

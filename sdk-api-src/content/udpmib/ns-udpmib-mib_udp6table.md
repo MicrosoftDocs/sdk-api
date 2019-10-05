@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_UDP6TABLE, MIB_UDP6TABLE, MIB_UDP6TABLE structure [MIB], PMI
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDP6TABLE
+dev_langs:
+ - c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

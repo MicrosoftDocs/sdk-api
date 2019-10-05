@@ -12,6 +12,8 @@ ms.keywords: D2D1_RENDER_TARGET_PROPERTIES, D2D1_RENDER_TARGET_PROPERTIES struct
 ms.topic: struct
 f1_keywords: 
  - "d2d1/D2D1_RENDER_TARGET_PROPERTIES"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

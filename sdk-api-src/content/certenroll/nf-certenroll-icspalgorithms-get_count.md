@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],ICspAlgorithms
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithms.Count"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

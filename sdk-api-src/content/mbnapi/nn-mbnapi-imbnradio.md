@@ -12,6 +12,8 @@ ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbn
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnRadio"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

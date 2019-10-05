@@ -12,6 +12,8 @@ ms.keywords: FLICK_POINT, FLICK_POINT structure [Tablet PC], c9aacc05-02aa-47b5-
 ms.topic: struct
 f1_keywords: 
  - "tabflicks/FLICK_POINT"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

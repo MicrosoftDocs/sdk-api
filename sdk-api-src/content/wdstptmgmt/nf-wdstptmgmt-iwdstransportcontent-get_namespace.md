@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Namesp
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportContent.Namespace"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

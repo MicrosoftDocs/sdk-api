@@ -12,6 +12,8 @@ ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPa
 ms.topic: function
 f1_keywords: 
  - "msi/MsiOpenPackage"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, bas
 ms.topic: function
 f1_keywords: 
  - "heapapi/GetProcessHeap"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

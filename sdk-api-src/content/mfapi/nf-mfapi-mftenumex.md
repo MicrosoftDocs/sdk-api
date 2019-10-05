@@ -12,6 +12,8 @@ ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfa
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTEnumEx"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DNS_NAME_FORMAT, DNS_NAME_FORMAT enumeration [DNS], DnsNameDomain, 
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_NAME_FORMAT"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

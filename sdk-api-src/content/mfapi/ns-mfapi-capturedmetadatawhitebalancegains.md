@@ -12,6 +12,8 @@ ms.keywords: CapturedMetadataWhiteBalanceGains, CapturedMetadataWhiteBalanceGain
 ms.topic: struct
 f1_keywords: 
  - "mfapi/CapturedMetadataWhiteBalanceGains"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

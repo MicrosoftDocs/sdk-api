@@ -12,6 +12,8 @@ ms.keywords: AddSIDToBoundaryDescriptor, AddSIDToBoundaryDescriptor function, ba
 ms.topic: function
 f1_keywords:
 - namespaceapi/AddSIDToBoundaryDescriptor
+dev_langs:
+ - c++
 req.header: namespaceapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

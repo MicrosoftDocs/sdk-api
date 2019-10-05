@@ -12,6 +12,8 @@ ms.keywords: 7bbde1c2-0bd3-3fda-2288-938ac2c04c3a, ID3D11Predicate, ID3D11Predic
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11Predicate"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MICUIELEMENTSTATE, MICUIELEMENTSTATE enumeration [Tablet PC], MICUI
 ms.topic: enum
 f1_keywords: 
  - "micaut/MICUIELEMENTSTATE"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

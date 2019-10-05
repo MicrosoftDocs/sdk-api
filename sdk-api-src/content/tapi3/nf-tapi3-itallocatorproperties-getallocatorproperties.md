@@ -12,6 +12,8 @@ ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [TAPI 2.2], G
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAllocatorProperties.GetAllocatorProperties"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

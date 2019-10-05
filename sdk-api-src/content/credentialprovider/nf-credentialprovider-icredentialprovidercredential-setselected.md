@@ -12,6 +12,8 @@ ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetSelected
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredential.SetSelected"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

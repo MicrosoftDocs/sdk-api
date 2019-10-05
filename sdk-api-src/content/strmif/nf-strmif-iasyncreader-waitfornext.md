@@ -12,6 +12,8 @@ ms.keywords: IAsyncReader interface [DirectShow],WaitForNext method, IAsyncReade
 ms.topic: method
 f1_keywords: 
  - "strmif/IAsyncReader.WaitForNext"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

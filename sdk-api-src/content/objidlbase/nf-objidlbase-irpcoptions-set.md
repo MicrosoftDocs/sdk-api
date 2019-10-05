@@ -12,6 +12,8 @@ ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOption
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcOptions.Set"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

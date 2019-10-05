@@ -12,6 +12,8 @@ ms.keywords: MODULE_WRITE_FLAGS, MODULE_WRITE_FLAGS enumeration, ModuleReference
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MODULE_WRITE_FLAGS
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

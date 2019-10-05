@@ -12,6 +12,8 @@ ms.keywords: UiaRegisterProviderCallback, UiaRegisterProviderCallback function [
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaRegisterProviderCallback"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

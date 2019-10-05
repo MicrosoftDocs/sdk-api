@@ -11,6 +11,8 @@ ms.keywords: DF768592-3A0D-4FEA-AE30-CDD5406CAC9D, CreateDirect3D11DeviceFromDXG
 ms.topic: function
 f1_keywords: 
  - "windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice"
+dev_langs:
+ - c++
 req.header: windows.graphics.directx.direct3d11.interop.h
 req.include-header: 
 req.target-type: Windows

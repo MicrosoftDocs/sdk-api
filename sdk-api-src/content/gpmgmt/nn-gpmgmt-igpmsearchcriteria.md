@@ -12,6 +12,8 @@ ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMSearchCriteria"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

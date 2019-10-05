@@ -12,6 +12,8 @@ ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServe
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PolicyServerUrl.Cost"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

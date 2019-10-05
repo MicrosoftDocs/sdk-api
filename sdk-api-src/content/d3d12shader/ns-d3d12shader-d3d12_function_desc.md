@@ -12,6 +12,8 @@ ms.keywords: D3D12_FUNCTION_DESC, D3D12_FUNCTION_DESC structure, d3d12shader/D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d12shader/D3D12_FUNCTION_DESC"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

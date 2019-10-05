@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_rename_ext, ldap.ldap__rename__ext, ldap.ldap_rename_ex
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_rename_ext"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

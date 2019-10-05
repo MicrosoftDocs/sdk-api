@@ -12,6 +12,8 @@ ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_
 ms.topic: enum
 f1_keywords: 
  - "mfplay/_MFP_MEDIAITEM_CHARACTERISTICS"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

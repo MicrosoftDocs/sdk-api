@@ -12,6 +12,8 @@ ms.keywords: IBPCSatelliteTuner interface [DirectShow],IsTapingPermitted method,
 ms.topic: method
 f1_keywords: 
  - "strmif/IBPCSatelliteTuner.IsTapingPermitted"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

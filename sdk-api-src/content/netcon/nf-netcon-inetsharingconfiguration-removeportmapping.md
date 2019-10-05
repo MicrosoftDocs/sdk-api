@@ -12,6 +12,8 @@ ms.keywords: INetSharingConfiguration interface [ICS/ICF],RemovePortMapping meth
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.RemovePortMapping"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

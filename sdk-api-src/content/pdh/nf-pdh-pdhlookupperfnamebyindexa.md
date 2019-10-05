@@ -12,6 +12,8 @@ ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf],
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhLookupPerfNameByIndex"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

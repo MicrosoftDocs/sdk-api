@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

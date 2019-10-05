@@ -12,6 +12,8 @@ ms.keywords: IWiaDataTransfer interface [WIA],idtQueryGetData method, IWiaDataTr
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtQueryGetData
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

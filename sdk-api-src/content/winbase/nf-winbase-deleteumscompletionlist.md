@@ -12,6 +12,8 @@ ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.del
 ms.topic: function
 f1_keywords: 
  - "winbase/DeleteUmsCompletionList"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

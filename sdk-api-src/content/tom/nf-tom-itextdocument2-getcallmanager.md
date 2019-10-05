@@ -12,6 +12,8 @@ ms.keywords: GetCallManager, GetCallManager method [Windows Controls], GetCallMa
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetCallManager"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

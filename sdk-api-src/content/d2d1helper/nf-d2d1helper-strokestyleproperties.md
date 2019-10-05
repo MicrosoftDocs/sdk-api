@@ -12,6 +12,8 @@ ms.keywords: StrokeStyleProperties, StrokeStyleProperties function [Direct2D], d
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/StrokeStyleProperties"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

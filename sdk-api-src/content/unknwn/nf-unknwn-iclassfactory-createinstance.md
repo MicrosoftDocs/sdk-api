@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method [COM], CreateInstance method 
 ms.topic: method
 f1_keywords: 
  - "unknwn/IClassFactory.CreateInstance"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 845db980-5abf-c948-258d-62903feec271, CreateSamplerState, CreateSam
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateSamplerState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

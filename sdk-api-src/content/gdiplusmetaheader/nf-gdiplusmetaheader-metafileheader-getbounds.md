@@ -12,6 +12,8 @@ ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Metafil
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetBounds"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

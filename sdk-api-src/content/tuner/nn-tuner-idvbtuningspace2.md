@@ -12,6 +12,8 @@ ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "tuner/IDVBTuningSpace2"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

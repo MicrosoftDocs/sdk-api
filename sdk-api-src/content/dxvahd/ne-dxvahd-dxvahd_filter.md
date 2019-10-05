@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_FILTER, DXVAHD_FILTER enumeration [Media Foundation], DXVAHD
 ms.topic: enum
 f1_keywords: 
  - "dxvahd/DXVAHD_FILTER"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

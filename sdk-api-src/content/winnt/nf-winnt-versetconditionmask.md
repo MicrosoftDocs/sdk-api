@@ -12,6 +12,8 @@ ms.keywords: VER_AND, VER_BUILDNUMBER, VER_EQUAL, VER_GREATER, VER_GREATER_EQUAL
 ms.topic: function
 f1_keywords:
 - winnt/VerSetConditionMask
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

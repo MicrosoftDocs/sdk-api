@@ -12,6 +12,8 @@ ms.keywords: IVssEnumObject interface [VSS],Reset method, IVssEnumObject.Reset, 
 ms.topic: method
 f1_keywords: 
  - "vss/IVssEnumObject.Reset"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

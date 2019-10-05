@@ -12,6 +12,8 @@ ms.keywords: GetRecordMajorChannelNumber, GetRecordMajorChannelNumber method [Mi
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordMajorChannelNumber"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

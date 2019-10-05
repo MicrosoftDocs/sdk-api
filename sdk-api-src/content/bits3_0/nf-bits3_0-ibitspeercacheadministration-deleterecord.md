@@ -12,6 +12,8 @@ ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBitsPeerCacheAdministration.DeleteRecord"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

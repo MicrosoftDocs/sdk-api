@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFi
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumFilters.Clone"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

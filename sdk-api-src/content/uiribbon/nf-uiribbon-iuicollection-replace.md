@@ -12,6 +12,8 @@ ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollect
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollection.Replace"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

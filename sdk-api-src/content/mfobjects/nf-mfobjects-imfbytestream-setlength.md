@@ -12,6 +12,8 @@ ms.keywords: 55bee595-0a32-4b9e-8b22-48fdb2913dfc, IMFByteStream interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.SetLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

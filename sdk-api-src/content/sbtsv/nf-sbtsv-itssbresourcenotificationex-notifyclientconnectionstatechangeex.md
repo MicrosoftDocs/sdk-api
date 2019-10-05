@@ -12,6 +12,8 @@ ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

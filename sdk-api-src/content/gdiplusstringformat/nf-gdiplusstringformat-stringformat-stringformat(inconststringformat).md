@@ -12,6 +12,8 @@ ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.String
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.StringFormat"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: 
 req.target-type: Windows

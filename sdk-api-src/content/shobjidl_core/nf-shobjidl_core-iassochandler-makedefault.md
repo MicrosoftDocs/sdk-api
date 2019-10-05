@@ -12,6 +12,8 @@ ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocH
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAssocHandler.MakeDefault"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

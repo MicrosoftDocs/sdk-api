@@ -12,6 +12,8 @@ ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPU
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawFrameControl"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

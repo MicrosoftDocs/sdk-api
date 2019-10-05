@@ -12,6 +12,8 @@ ms.keywords: AppendOrReplace, AppendOrReplace method [Windows Properties], Appen
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyChangeArray.AppendOrReplace"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

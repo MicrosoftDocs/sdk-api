@@ -12,6 +12,8 @@ ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [C
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_COMTIIntrinsicsConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserCl
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IUserNotificationCallback.OnBalloonUserClick"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

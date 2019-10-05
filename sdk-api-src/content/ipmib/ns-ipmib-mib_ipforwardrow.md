@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPFORWARDROW, MIB_IPFORWARDROW, MIB_IPFORWARDROW structure [
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPFORWARDROW
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

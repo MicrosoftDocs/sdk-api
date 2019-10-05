@@ -12,6 +12,8 @@ ms.keywords: EnumSettingObjects, EnumSettingObjects method [Offline Files], Enum
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.EnumSettingObjects"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

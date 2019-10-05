@@ -12,6 +12,8 @@ ms.keywords: 94167a91-7d72-40c9-bce4-29babdb5bff9, CFL_INTERMEDIATE, CFL_POOR, C
 ms.topic: enum
 f1_keywords: 
  - "rectypes/CONFIDENCE_LEVEL"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulatio
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationAutoScrollBehavior.SetConfiguration"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

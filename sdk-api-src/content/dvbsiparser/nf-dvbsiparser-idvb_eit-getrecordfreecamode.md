@@ -12,6 +12,8 @@ ms.keywords: GetRecordFreeCAMode, GetRecordFreeCAMode method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT.GetRecordFreeCAMode"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

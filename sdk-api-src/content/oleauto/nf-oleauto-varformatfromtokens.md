@@ -12,6 +12,8 @@ ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarFormatFromTokens"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

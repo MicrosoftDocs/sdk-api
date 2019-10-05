@@ -14,6 +14,8 @@ ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoReportFailedDelegate"
+dev_langs:
+ - c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetDCOrgEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

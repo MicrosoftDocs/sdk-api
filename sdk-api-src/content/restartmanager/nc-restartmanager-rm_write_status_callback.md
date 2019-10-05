@@ -12,6 +12,8 @@ ms.keywords: RM_WRITE_STATUS_CALLBACK, RM_WRITE_STATUS_CALLBACK callback, RM_WRI
 ms.topic: callback
 f1_keywords: 
  - "restartmanager/RM_WRITE_STATUS_CALLBACK"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

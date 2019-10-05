@@ -12,6 +12,8 @@ ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_LineFromChar"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

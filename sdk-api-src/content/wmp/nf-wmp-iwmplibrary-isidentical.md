@@ -12,6 +12,8 @@ ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPLibrary.isIdentical"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

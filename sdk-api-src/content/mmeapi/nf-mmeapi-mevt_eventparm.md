@@ -12,6 +12,8 @@ ms.keywords: MEVT_EVENTPARM, MEVT_EVENTPARM macro [Windows Multimedia], _win32_M
 ms.topic: macro
 f1_keywords: 
  - "mmeapi/MEVT_EVENTPARM"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

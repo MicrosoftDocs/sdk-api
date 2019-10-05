@@ -12,6 +12,8 @@ ms.keywords: EC_SUBSCRIPTION_CONFIGURATION_MODE, EC_SUBSCRIPTION_CONFIGURATION_M
 ms.topic: enum
 f1_keywords:
 - evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSe
 ms.topic: method
 f1_keywords: 
  - "objidl/IClientSecurity.CopyProxy"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

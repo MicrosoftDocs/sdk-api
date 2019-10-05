@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateSegmentData method, ID2
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPathData.UpdateSegmentData"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

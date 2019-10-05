@@ -12,6 +12,8 @@ ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cr
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptEnumOIDInfo
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

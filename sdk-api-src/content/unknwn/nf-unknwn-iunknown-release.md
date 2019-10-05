@@ -12,6 +12,8 @@ ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown
 ms.topic: method
 f1_keywords: 
  - "unknwn/IUnknown.Release"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetR
 ms.topic: method
 f1_keywords: 
  - "frquery/CFrameworkQuery.GetRequiredProperties"
+dev_langs:
+ - c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRen
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.SetViewTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

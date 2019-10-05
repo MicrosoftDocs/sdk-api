@@ -12,6 +12,8 @@ ms.keywords: ITStream, ITStream interface [TAPI 2.2], ITStream interface [TAPI 2
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

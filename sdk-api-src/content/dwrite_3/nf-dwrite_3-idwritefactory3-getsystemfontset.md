@@ -12,6 +12,8 @@ ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystem
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory3.GetSystemFontSet"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

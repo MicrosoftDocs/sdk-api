@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMLoadUInt2, XMLoadUInt2, XMLoadUInt2 method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMLoadUInt2"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

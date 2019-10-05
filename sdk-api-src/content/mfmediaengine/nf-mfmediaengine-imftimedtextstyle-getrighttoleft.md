@@ -12,6 +12,8 @@ ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightT
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetRightToLeft"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

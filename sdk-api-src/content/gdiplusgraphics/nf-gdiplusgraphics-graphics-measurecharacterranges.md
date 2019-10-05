@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],MeasureCharacterRanges method, Graphics.Measu
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.MeasureCharacterRanges"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

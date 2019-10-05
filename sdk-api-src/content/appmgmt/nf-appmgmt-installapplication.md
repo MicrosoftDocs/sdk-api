@@ -12,6 +12,8 @@ ms.keywords: InstallApplication, InstallApplication function [Group Policy], app
 ms.topic: function
 f1_keywords:
 - appmgmt/InstallApplication
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

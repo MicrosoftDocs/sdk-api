@@ -12,6 +12,8 @@ ms.keywords: MFP_GET_PLAY_EVENT, MFP_GET_PLAY_EVENT macro [Media Foundation], mf
 ms.topic: macro
 f1_keywords: 
  - "mfplay/MFP_GET_PLAY_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

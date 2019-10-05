@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBoundVe
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.SetUpperBoundVector"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

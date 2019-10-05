@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextProperties.GetProperty"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

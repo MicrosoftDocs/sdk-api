@@ -12,6 +12,8 @@ ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToUInt64ArrayAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

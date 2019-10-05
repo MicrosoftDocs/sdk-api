@@ -12,6 +12,8 @@ ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateRoundRectRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

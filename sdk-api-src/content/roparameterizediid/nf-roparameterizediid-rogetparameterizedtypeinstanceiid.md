@@ -12,6 +12,8 @@ ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceII
 ms.topic: function
 f1_keywords: 
  - "roparameterizediid/RoGetParameterizedTypeInstanceIID"
+dev_langs:
+ - c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9 interface 
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DResource9.SetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

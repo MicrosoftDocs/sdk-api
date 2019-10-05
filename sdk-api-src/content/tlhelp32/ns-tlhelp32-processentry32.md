@@ -12,6 +12,8 @@ ms.keywords: "*LPPROCESSENTRY32, *PPROCESSENTRY32, PPROCESSENTRY32, PPROCESSENTR
 ms.topic: struct
 f1_keywords: 
  - "tlhelp32/PROCESSENTRY32"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

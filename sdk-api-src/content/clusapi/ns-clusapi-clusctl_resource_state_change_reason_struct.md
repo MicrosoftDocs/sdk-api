@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, CLUSCTL_RESOURCE_ST
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSCTL_RESOURCE_STATE_CHANGE_REASON"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

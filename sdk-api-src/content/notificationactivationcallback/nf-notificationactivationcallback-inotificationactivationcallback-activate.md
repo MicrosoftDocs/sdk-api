@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method, Activate method,INotificationActivationC
 ms.topic: method
 f1_keywords: 
  - "notificationactivationcallback/INotificationActivationCallback.Activate"
+dev_langs:
+ - c++
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows

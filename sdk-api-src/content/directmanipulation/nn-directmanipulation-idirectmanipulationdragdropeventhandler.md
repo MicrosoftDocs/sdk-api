@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationDragDropEventHandler, IDirectManipulationDragDro
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationDragDropEventHandler"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], ICAT interface [M
 ms.topic: interface
 f1_keywords: 
  - "mpeg2psiparser/ICAT"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

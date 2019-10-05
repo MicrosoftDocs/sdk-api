@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_Equal, FLOATOBJ_Equal function [Display Devices], display.
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_Equal
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

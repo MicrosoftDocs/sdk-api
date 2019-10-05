@@ -12,6 +12,8 @@ ms.keywords: Collapse, Collapse method [Windows Controls], Collapse method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Collapse"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

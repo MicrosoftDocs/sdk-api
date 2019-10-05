@@ -12,6 +12,8 @@ ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInt
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.GetEventInterest"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

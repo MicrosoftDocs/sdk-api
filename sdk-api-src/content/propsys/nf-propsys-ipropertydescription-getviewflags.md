@@ -12,6 +12,8 @@ ms.keywords: GetViewFlags, GetViewFlags method [Windows Properties], GetViewFlag
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetViewFlags"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

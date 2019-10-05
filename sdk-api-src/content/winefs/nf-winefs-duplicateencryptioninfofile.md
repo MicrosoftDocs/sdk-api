@@ -12,6 +12,8 @@ ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEn
 ms.topic: function
 f1_keywords: 
  - "winefs/DuplicateEncryptionInfoFile"
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

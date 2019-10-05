@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiReq
 ms.topic: function
 f1_keywords: 
  - "tapi/tapiRequestMakeCall"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

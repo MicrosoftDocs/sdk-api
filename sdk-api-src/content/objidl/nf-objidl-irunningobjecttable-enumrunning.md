@@ -12,6 +12,8 @@ ms.keywords: EnumRunning, EnumRunning method [COM], EnumRunning method [COM],IRu
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunningObjectTable.EnumRunning"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

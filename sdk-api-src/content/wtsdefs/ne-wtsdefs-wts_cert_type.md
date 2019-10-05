@@ -12,6 +12,8 @@ ms.keywords: WRDS_CERT_TYPE, WRDS_CERT_TYPE enumeration [Remote Desktop Services
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WTS_CERT_TYPE
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

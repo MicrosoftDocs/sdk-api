@@ -12,6 +12,8 @@ ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin int
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMemInputPin"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

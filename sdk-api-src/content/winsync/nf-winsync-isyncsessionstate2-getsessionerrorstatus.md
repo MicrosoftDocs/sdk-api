@@ -12,6 +12,8 @@ ms.keywords: GetSessionErrorStatus, GetSessionErrorStatus method [Windows Sync],
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncSessionState2.GetSessionErrorStatus"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

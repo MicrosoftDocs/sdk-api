@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTCAPS, LINEAGENTCAPS, LINEAGENTCAPS structure [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTCAPS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

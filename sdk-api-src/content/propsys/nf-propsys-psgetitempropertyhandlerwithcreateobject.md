@@ -12,6 +12,8 @@ ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerW
 ms.topic: function
 f1_keywords: 
  - "propsys/PSGetItemPropertyHandlerWithCreateObject"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

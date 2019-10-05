@@ -12,6 +12,8 @@ ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationali
 ms.topic: function
 f1_keywords: 
  - "winnls/IsValidLanguageGroup"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

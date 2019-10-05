@@ -12,6 +12,8 @@ ms.keywords: EVT_SUBSCRIBE_CALLBACK, EVT_SUBSCRIBE_CALLBACK callback, EVT_SUBSCR
 ms.topic: callback
 f1_keywords:
 - winevt/EVT_SUBSCRIBE_CALLBACK
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList int
 ms.topic: interface
 f1_keywords: 
  - "commoncontrols/IImageList"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

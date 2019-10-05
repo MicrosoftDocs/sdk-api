@@ -12,6 +12,8 @@ ms.keywords: MixerPref_ARAdjustXorY, MixerPref_BiLinearFiltering, MixerPref_Deci
 ms.topic: enum
 f1_keywords: 
  - "strmif/VMRMixerPrefs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

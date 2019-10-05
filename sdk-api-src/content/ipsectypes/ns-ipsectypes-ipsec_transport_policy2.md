@@ -12,6 +12,8 @@ ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_D
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_TRANSPORT_POLICY2"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

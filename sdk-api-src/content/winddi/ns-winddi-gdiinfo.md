@@ -12,6 +12,8 @@ ms.keywords: '*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO,
 ms.topic: struct
 f1_keywords:
 - winddi/GDIINFO
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

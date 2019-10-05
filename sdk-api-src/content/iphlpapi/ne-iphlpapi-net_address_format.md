@@ -12,6 +12,8 @@ ms.keywords: NET_ADDRESS_DNS_NAME, NET_ADDRESS_FORMAT, NET_ADDRESS_FORMAT enumer
 ms.topic: enum
 f1_keywords: 
  - "iphlpapi/NET_ADDRESS_FORMAT"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

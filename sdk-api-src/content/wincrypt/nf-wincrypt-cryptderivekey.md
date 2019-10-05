@@ -12,6 +12,8 @@ ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, C
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptDeriveKey"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DP
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_InsertPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

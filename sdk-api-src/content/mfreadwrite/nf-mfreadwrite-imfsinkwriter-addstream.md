@@ -12,6 +12,8 @@ ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [M
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.AddStream"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

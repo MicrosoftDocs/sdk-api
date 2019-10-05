@@ -12,6 +12,8 @@ ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolde
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleAdviseHolder.SendOnSave"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

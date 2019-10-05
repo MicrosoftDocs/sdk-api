@@ -12,6 +12,8 @@ ms.keywords: D3D11_TILED_RESOURCE_COORDINATE, D3D11_TILED_RESOURCE_COORDINATE st
 ms.topic: struct
 f1_keywords: 
  - "d3d11_2/D3D11_TILED_RESOURCE_COORDINATE"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

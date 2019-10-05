@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface 
 ms.topic: interface
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyDataObject"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

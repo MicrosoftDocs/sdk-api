@@ -12,6 +12,8 @@ ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_AuxInputCount m
 ms.topic: method
 f1_keywords: 
  - "tuner/ITunerCap.get_AuxInputCount"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVID
 ms.topic: callback
 f1_keywords: 
  - "evntprov/PENABLECALLBACK"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

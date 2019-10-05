@@ -12,6 +12,8 @@ ms.keywords: VarDecInt, VarDecInt function [Automation], _oa96_VarDecInt, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecInt"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

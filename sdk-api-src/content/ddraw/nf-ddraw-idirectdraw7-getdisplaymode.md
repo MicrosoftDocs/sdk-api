@@ -12,6 +12,8 @@ ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode 
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetDisplayMode"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

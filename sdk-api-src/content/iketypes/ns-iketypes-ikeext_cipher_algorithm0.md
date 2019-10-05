@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CIPHER_ALGORITHM0, IKEEXT_CIPHER_ALGORITHM0 structure [Filte
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CIPHER_ALGORITHM0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetItemSize, TabCtrl_SetItemSize macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetItemSize"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

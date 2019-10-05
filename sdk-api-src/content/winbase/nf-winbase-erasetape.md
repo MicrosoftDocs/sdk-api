@@ -12,6 +12,8 @@ ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE
 ms.topic: function
 f1_keywords: 
  - "winbase/EraseTape"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

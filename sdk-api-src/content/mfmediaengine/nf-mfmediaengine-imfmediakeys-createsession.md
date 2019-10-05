@@ -12,6 +12,8 @@ ms.keywords: CreateSession, CreateSession method [Media Foundation], CreateSessi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeys.CreateSession"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

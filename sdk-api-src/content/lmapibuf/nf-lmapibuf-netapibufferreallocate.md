@@ -12,6 +12,8 @@ ms.keywords: NetApiBufferReallocate, NetApiBufferReallocate function [Network Ma
 ms.topic: function
 f1_keywords: 
  - "lmapibuf/NetApiBufferReallocate"
+dev_langs:
+ - c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WitnessTagUpdateHelper, WitnessTagUpdateHelper structure [Failover 
 ms.topic: struct
 f1_keywords:
 - resapi/WitnessTagUpdateHelper
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

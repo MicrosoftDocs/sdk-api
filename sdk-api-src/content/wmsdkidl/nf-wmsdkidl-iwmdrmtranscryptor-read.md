@@ -12,6 +12,8 @@ ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Read method, IW
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMTranscryptor.Read"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

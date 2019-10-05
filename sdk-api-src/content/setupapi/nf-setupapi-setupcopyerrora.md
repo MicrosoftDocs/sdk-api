@@ -12,6 +12,8 @@ ms.keywords: SetupCopyError, SetupCopyError function [Setup API], SetupCopyError
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupCopyError"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_CCP_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

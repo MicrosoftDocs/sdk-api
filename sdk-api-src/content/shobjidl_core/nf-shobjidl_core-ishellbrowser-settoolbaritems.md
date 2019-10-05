@@ -12,6 +12,8 @@ ms.keywords: FCT_ADDTOEND, FCT_CONFIGABLE, FCT_MERGE, IShellBrowser interface [W
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellBrowser.SetToolbarItems
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaOb
 ms.topic: method
 f1_keywords: 
  - "dmoimpl/IMediaObjectImpl.OutputType"
+dev_langs:
+ - c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

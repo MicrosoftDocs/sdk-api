@@ -12,6 +12,8 @@ ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API]
 ms.topic: struct
 f1_keywords: 
  - "ddpbackup/DDP_FILE_EXTENT"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

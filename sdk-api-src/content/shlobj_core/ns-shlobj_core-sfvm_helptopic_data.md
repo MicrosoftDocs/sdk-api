@@ -12,6 +12,8 @@ ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SFVM_HELPTOPIC_DATA"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

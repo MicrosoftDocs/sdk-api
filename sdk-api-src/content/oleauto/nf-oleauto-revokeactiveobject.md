@@ -12,6 +12,8 @@ ms.keywords: RevokeActiveObject, RevokeActiveObject function [Automation], _oa96
 ms.topic: function
 f1_keywords: 
  - "oleauto/RevokeActiveObject"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

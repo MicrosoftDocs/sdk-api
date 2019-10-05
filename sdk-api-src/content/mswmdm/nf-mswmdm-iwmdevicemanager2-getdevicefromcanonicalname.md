@@ -12,6 +12,8 @@ ms.keywords: GetDeviceFromCanonicalName, GetDeviceFromCanonicalName method [wind
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDeviceManager2.GetDeviceFromCanonicalName"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

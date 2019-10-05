@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientQueryStatus, WdsTransportClientQueryStatus functi
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientQueryStatus"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

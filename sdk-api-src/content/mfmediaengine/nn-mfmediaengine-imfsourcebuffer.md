@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFS
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

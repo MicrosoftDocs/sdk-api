@@ -12,6 +12,8 @@ ms.keywords: GetPropertyStorageSize, GetPropertyStorageSize method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage2.GetPropertyStorageSize"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

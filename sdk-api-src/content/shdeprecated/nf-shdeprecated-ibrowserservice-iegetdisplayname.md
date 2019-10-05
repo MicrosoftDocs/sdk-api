@@ -12,6 +12,8 @@ ms.keywords: IBrowserService interface [Windows Shell],IEGetDisplayName method, 
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.IEGetDisplayName"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

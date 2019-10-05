@@ -12,6 +12,8 @@ ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections meth
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPoint.EnumConnections"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

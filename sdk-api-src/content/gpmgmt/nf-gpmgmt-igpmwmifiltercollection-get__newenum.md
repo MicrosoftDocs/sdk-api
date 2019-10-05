@@ -12,6 +12,8 @@ ms.keywords: IGPMWMIFilterCollection interface [GPMC],get__NewEnum method, IGPMW
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMWMIFilterCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingd
 ms.topic: function
 f1_keywords: 
  - "wingdi/Chord"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

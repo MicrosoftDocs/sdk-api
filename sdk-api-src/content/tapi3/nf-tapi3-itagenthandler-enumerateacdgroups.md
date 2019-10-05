@@ -12,6 +12,8 @@ ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], Enumerate
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAgentHandler.EnumerateACDGroups"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

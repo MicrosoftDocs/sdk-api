@@ -12,6 +12,8 @@ ms.keywords: IKnownFolderManager interface [Windows Shell],UnregisterFolder meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IKnownFolderManager.UnregisterFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

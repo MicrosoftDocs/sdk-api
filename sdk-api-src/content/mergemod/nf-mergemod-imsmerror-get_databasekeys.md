@@ -12,6 +12,8 @@ ms.keywords: IMsmError interface,get_DatabaseKeys method, IMsmError.get_Database
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmError.get_DatabaseKeys"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ConvertThreadToFiberEx, ConvertThreadToFiberEx function, _win32_con
 ms.topic: function
 f1_keywords: 
  - "winbase/ConvertThreadToFiberEx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StringFromIID, StringFromIID function [COM], _com_StringFromIID, co
 ms.topic: function
 f1_keywords: 
  - "combaseapi/StringFromIID"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

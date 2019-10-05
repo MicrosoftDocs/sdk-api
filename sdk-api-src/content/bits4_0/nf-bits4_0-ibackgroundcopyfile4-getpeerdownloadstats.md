@@ -12,6 +12,8 @@ ms.keywords: GetPeerDownloadStats, GetPeerDownloadStats method [BITS], GetPeerDo
 ms.topic: method
 f1_keywords: 
  - "bits4_0/IBackgroundCopyFile4.GetPeerDownloadStats"
+dev_langs:
+ - c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

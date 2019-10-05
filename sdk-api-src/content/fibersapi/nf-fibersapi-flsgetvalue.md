@@ -12,6 +12,8 @@ ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetv
 ms.topic: function
 f1_keywords: 
  - "fibersapi/FlsGetValue"
+dev_langs:
+ - c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

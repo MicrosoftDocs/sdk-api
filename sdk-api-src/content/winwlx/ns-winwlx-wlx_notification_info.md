@@ -12,6 +12,8 @@ ms.keywords: "*PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION
 ms.topic: struct
 f1_keywords: 
  - "winwlx/WLX_NOTIFICATION_INFO"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

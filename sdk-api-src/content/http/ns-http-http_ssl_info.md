@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SSL_INFO, HTTP_SSL_INFO, HTTP_SSL_INFO structure [HTTP], PH
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SSL_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

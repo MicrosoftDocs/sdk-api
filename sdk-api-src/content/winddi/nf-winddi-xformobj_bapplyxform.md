@@ -12,6 +12,8 @@ ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Device
 ms.topic: function
 f1_keywords:
 - winddi/XFORMOBJ_bApplyXform
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

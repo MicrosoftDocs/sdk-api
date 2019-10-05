@@ -12,6 +12,8 @@ ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_EIT.GetRecordStartTime"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

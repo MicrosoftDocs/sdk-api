@@ -12,6 +12,8 @@ ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinH
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpQueryDataAvailable"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVar
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskVariables"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

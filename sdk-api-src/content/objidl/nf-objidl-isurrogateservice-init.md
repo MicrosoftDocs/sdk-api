@@ -12,6 +12,8 @@ ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.In
 ms.topic: method
 f1_keywords: 
  - "objidl/ISurrogateService.Init"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

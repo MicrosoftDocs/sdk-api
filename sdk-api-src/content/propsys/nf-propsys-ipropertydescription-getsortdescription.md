@@ -12,6 +12,8 @@ ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties],
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetSortDescription"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

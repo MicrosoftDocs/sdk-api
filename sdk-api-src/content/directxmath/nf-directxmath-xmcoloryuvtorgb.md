@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorYUVToRGB, XMColorYUVToRGB, XMColorYUVToRGB meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorYUVToRGB"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Wind
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ASYNC_CONTEXT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

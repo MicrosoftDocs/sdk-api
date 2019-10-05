@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_RRSIG_DATA, *PDNS_RRSIG_DATAW, *PDNS_SIG_DATA, *PDNS_SIG_DAT
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_RRSIG_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

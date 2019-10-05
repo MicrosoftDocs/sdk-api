@@ -12,6 +12,8 @@ ms.keywords: "*PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, PSEC_APPLICATION_PR
 ms.topic: enum
 f1_keywords: 
  - "sspi/SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

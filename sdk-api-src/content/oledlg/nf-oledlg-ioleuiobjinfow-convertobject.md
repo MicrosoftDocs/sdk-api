@@ -12,6 +12,8 @@ ms.keywords: ConvertObject, ConvertObject method [COM], ConvertObject method [CO
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUIObjInfo.ConvertObject"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PAM_COPY_MACROVISION_LEVEL, AM_COPY_MACROVISION_LEVEL, AM_COPY_MA
 ms.topic: enum
 f1_keywords:
 - dvdmedia/AM_COPY_MACROVISION_LEVEL
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

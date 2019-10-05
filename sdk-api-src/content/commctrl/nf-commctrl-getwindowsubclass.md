@@ -12,6 +12,8 @@ ms.keywords: GetWindowSubclass, GetWindowSubclass function [Windows Shell], comm
 ms.topic: function
 f1_keywords: 
  - "commctrl/GetWindowSubclass"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

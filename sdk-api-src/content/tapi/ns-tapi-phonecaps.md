@@ -12,6 +12,8 @@ ms.keywords: "*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/PHONECAPS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

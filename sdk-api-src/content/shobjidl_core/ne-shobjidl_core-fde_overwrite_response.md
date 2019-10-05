@@ -12,6 +12,8 @@ ms.keywords: FDEOR_ACCEPT, FDEOR_DEFAULT, FDEOR_REFUSE, FDE_OVERWRITE_RESPONSE, 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FDE_OVERWRITE_RESPONSE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

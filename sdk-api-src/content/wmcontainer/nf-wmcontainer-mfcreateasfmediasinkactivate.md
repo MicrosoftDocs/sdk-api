@@ -12,6 +12,8 @@ ms.keywords: 513d0a33-1504-4b88-9629-9e3e0dde3617, MFCreateASFMediaSinkActivate,
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFMediaSinkActivate"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CM_SET_WIDTH_VALUE, CM_SET_WIDTH_VALUE enumeration [Windows Shell],
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CM_SET_WIDTH_VALUE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

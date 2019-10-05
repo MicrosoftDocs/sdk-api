@@ -12,6 +12,8 @@ ms.keywords: Online, Online callback, Online callback function [Failover Cluster
 ms.topic: callback
 f1_keywords: 
  - "resapi/Online"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

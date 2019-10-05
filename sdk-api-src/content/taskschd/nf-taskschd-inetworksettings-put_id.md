@@ -12,6 +12,8 @@ ms.keywords: INetworkSettings interface [Task Scheduler],Id property, INetworkSe
 ms.topic: method
 f1_keywords: 
  - "taskschd/INetworkSettings.Id"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

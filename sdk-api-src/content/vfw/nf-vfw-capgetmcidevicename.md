@@ -12,6 +12,8 @@ ms.keywords: "_win32_capGetMCIDeviceName, capGetMCIDeviceName, capGetMCIDeviceNa
 ms.topic: macro
 f1_keywords: 
  - "vfw/capGetMCIDeviceName"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MoveWindow, MoveWindow function [Windows and Messages], _win32_Move
 ms.topic: function
 f1_keywords: 
  - "winuser/MoveWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

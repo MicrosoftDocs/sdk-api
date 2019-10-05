@@ -12,6 +12,8 @@ ms.keywords: GetNIT, GetNIT method [Microsoft TV Technologies], GetNIT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetNIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

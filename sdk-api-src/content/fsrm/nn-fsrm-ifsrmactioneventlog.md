@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Res
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmActionEventLog"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

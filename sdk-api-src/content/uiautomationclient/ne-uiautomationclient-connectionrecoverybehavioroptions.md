@@ -12,6 +12,8 @@ ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOption
 ms.topic: enum
 f1_keywords: 
  - "uiautomationclient/ConnectionRecoveryBehaviorOptions"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

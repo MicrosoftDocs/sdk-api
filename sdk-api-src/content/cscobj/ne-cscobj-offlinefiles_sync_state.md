@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_SYNC_STATE, OFFLINEFILES_SYNC_STATE enumeration [Offli
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_SYNC_STATE"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

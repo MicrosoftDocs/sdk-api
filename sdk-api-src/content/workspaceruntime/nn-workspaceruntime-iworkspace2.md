@@ -12,6 +12,8 @@ ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWork
 ms.topic: interface
 f1_keywords: 
  - "workspaceruntime/IWorkspace2"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.AngleChange"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

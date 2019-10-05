@@ -12,6 +12,8 @@ ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property 
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.DefaultInPlaceState"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

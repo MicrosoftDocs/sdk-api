@@ -12,6 +12,8 @@ ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInst
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.BeginInstall"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

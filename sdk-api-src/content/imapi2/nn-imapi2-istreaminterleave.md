@@ -12,6 +12,8 @@ ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInte
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IStreamInterleave"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

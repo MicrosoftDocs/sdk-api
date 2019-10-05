@@ -12,6 +12,8 @@ ms.keywords: WMPAccountType, WMPAccountType enumeration [Windows Media Player], 
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPAccountType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

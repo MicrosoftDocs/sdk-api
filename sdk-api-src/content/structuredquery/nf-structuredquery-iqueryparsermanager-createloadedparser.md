@@ -12,6 +12,8 @@ ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoade
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParserManager.CreateLoadedParser"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

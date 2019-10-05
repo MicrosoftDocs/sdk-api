@@ -12,6 +12,8 @@ ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnAc
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorActivitiesReportCallback.OnActivitiesReport"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRed
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesPinInfo.IsPinnedForFolderRedirection"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

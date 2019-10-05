@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifyC
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.NotifyCommandProcessCreated"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo 
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPBaseConfig.GetConnectInfo"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

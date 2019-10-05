@@ -12,6 +12,8 @@ ms.keywords: '*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE struc
 ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_DATA_RANGE
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

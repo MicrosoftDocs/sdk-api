@@ -12,6 +12,8 @@ ms.keywords: EBO_ALWAYSNAVIGATE, EBO_HTMLSHAREPOINTVIEW, EBO_NAVIGATEONCE, EBO_N
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/EXPLORER_BROWSER_OPTIONS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

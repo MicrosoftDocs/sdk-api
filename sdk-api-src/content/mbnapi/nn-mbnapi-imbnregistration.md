@@ -12,6 +12,8 @@ ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband N
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnRegistration"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

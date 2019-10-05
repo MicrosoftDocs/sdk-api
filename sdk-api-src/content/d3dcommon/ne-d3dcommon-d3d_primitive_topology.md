@@ -12,6 +12,8 @@ ms.keywords: D3D10_PRIMITIVE_TOPOLOGY_LINELIST, D3D10_PRIMITIVE_TOPOLOGY_LINELIS
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_PRIMITIVE_TOPOLOGY"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUInt32, GetUInt32 method [Windows Shell], GetUInt32 method [Wind
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem2.GetUInt32
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

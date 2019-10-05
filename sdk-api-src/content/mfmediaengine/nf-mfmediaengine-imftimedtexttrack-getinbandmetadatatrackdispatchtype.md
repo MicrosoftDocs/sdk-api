@@ -12,6 +12,8 @@ ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchT
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetInBandMetadataTrackDispatchType"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

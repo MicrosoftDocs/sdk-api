@@ -12,6 +12,8 @@ ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control,
 ms.topic: ioctl
 f1_keywords: 
  - "usbuser/IOCTL_GET_HCD_DRIVERKEY_NAME"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

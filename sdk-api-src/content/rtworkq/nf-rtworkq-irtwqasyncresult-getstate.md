@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method, GetState method,IRtwqAsyncResult interfa
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncResult.GetState"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

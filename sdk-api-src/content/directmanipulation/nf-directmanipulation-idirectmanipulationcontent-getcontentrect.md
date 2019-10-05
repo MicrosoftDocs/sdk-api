@@ -12,6 +12,8 @@ ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetCon
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationContent.GetContentRect"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

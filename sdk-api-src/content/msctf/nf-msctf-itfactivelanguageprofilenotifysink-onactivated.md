@@ -12,6 +12,8 @@ ms.keywords: ITfActiveLanguageProfileNotifySink interface [Text Services Framewo
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfActiveLanguageProfileNotifySink.OnActivated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

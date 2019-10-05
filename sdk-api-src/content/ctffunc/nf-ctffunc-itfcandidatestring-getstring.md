@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Text Services Framework], GetString me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfCandidateString.GetString"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

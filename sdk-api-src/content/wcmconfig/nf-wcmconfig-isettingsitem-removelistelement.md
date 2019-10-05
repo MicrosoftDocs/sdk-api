@@ -12,6 +12,8 @@ ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsIt
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.RemoveListElement"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

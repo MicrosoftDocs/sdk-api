@@ -12,6 +12,8 @@ ms.keywords: D3D12_NODE_MASK, D3D12_NODE_MASK structure, PD3D12_NODE_MASK, PD3D1
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_NODE_MASK"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

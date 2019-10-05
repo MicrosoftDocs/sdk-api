@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration interface [Fax Service],Refresh method, IFaxConfi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

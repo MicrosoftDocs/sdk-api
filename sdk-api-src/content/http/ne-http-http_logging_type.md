@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_
 ms.topic: enum
 f1_keywords:
 - http/HTTP_LOGGING_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

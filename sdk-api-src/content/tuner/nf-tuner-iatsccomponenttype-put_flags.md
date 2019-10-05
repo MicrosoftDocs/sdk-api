@@ -12,6 +12,8 @@ ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],put_Flags 
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCComponentType.put_Flags"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

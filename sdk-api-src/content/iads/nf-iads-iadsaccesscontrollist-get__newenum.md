@@ -12,6 +12,8 @@ ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAcc
 ms.topic: method
 f1_keywords: 
  - "iads/IADsAccessControlList.get__NewEnum"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

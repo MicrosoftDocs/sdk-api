@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS, WDSTRANS
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

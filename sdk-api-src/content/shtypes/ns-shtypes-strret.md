@@ -12,6 +12,8 @@ ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], S
 ms.topic: struct
 f1_keywords: 
  - "shtypes/STRRET"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Error, Information, LogTimeProvEventFunc, LogTimeProvEventFunc call
 ms.topic: callback
 f1_keywords: 
  - "timeprov/LogTimeProvEventFunc"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DockPosition, DockPosition enumeration [Windows Accessibility], Doc
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/DockPosition"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

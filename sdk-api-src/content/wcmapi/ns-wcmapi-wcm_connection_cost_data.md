@@ -12,6 +12,8 @@ ms.keywords: '*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNEC
 ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_CONNECTION_COST_DATA
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

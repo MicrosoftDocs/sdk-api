@@ -12,6 +12,8 @@ ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment
 ms.topic: struct
 f1_keywords: 
  - "waasapitypes/UpdateAssessment"
+dev_langs:
+ - c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows

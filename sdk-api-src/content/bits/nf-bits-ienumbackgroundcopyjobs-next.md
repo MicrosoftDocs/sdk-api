@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Next method, IEnumBackgrou
 ms.topic: method
 f1_keywords: 
  - "bits/IEnumBackgroundCopyJobs.Next"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFactory2.CreateGlyphRunAnalysis"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GraphicsPathIterator class [GDI+],Rewind method, GraphicsPathIterat
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator.Rewind"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

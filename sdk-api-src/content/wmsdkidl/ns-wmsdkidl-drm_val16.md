@@ -12,6 +12,8 @@ ms.keywords: DRM_VAL16, DRM_VAL16 structure [windows Media Format], structure [w
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/DRM_VAL16"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

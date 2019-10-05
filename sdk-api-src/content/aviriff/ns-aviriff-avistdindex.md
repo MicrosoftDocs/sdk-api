@@ -12,6 +12,8 @@ ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVI
 ms.topic: struct
 f1_keywords:
 - aviriff/AVISTDINDEX
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

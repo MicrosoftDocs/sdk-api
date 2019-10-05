@@ -12,6 +12,8 @@ ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Fra
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfThreadFocusSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

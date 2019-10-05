@@ -12,6 +12,8 @@ ms.keywords: GetIDAsVariant, GetIDAsVariant method [TAPI 2.2], GetIDAsVariant me
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2.GetIDAsVariant"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

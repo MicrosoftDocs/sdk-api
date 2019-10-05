@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_S
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_SAVEPOINT_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

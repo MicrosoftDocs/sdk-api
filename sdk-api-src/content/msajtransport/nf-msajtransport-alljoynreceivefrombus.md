@@ -12,6 +12,8 @@ ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API]
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynReceiveFromBus"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

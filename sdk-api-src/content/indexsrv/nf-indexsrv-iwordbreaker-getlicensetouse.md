@@ -12,6 +12,8 @@ ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse m
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IWordBreaker.GetLicenseToUse"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

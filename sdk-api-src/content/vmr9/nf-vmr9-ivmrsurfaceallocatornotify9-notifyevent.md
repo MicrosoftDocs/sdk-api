@@ -12,6 +12,8 @@ ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],NotifyEvent meth
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocatorNotify9.NotifyEvent"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.di
 ms.topic: function
 f1_keywords:
 - iphlpapi/DisableMediaSense
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

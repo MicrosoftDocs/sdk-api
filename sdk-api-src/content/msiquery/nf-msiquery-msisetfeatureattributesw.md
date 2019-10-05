@@ -12,6 +12,8 @@ ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSetFeatureAttributes"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

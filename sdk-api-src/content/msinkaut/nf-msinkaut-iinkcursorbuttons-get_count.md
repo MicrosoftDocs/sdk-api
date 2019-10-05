@@ -12,6 +12,8 @@ ms.keywords: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8, Count property [Tablet PC], C
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursorButtons.Count"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IObjPool interface [COM+],PutEndTx method, IObjPool.PutEndTx, IObjP
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjPool.PutEndTx"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

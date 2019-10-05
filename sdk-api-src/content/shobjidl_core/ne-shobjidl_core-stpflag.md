@@ -12,6 +12,8 @@ ms.keywords: STPFLAG, STPFLAG enumeration [Windows Shell], STPF_NONE, STPF_USEAP
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/STPFLAG"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3a645765-f6d2-d3f9-5cfb-b48ca43f620b, D3D10_SAMPLER_DESC, D3D10_SAM
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_SAMPLER_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

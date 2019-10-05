@@ -12,6 +12,8 @@ ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForWhenCurrent m
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.RegisterForWhenCurrent"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

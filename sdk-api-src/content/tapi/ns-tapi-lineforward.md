@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LIN
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEFORWARD"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

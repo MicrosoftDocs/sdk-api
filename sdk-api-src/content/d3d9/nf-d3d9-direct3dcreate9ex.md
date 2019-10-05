@@ -12,6 +12,8 @@ ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd
 ms.topic: function
 f1_keywords: 
  - "d3d9/Direct3DCreate9Ex"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

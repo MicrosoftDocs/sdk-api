@@ -12,6 +12,8 @@ ms.keywords: DML_BATCH_NORMALIZATION_OPERATOR_DESC, DML_BATCH_NORMALIZATION_OPER
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_BATCH_NORMALIZATION_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

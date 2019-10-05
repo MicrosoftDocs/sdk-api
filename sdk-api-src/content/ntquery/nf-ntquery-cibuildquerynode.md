@@ -12,6 +12,8 @@ ms.keywords: CIBuildQueryNode, CIBuildQueryNode function [Indexing Service], _id
 ms.topic: function
 f1_keywords: 
  - "ntquery/CIBuildQueryNode"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

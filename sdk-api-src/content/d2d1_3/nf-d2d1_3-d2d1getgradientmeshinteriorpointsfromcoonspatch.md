@@ -12,6 +12,8 @@ ms.keywords: D2D1GetGradientMeshInteriorPointsFromCoonsPatch, D2D1GetGradientMes
 ms.topic: function
 f1_keywords: 
  - "d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

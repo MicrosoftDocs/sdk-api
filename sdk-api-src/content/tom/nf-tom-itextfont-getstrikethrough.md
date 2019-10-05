@@ -12,6 +12,8 @@ ms.keywords: GetStrikeThrough, GetStrikeThrough method [Windows Controls], GetSt
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetStrikeThrough"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, G
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.GetStyle"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

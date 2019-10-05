@@ -12,6 +12,8 @@ ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, S
 ms.topic: function
 f1_keywords:
 - sspi/SaslAcceptSecurityContext
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

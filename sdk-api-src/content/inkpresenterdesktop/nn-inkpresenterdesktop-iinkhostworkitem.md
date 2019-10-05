@@ -12,6 +12,8 @@ ms.keywords: IInkHostWorkItem, IInkHostWorkItem interface, IInkHostWorkItem inte
 ms.topic: interface
 f1_keywords: 
  - "inkpresenterdesktop/IInkHostWorkItem"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

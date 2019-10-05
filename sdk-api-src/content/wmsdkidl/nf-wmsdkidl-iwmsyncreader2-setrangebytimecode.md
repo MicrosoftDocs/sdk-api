@@ -12,6 +12,8 @@ ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByTimecode 
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMSyncReader2.SetRangeByTimecode
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

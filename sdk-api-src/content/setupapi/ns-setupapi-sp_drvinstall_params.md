@@ -12,6 +12,8 @@ ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARA
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_DRVINSTALL_PARAMS"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_FLAG_AUTH_BASIC, WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE, WSMAN_FL
 ms.topic: enum
 f1_keywords:
 - wsman/WSManAuthenticationFlags
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

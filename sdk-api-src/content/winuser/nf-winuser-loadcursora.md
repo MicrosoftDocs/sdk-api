@@ -12,6 +12,8 @@ ms.keywords: IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEA
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadCursor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

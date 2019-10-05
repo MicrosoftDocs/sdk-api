@@ -12,6 +12,8 @@ ms.keywords: 85f711f1-1536-4ab0-90b7-79e22c210198, IEVRVideoStreamControl interf
 ms.topic: method
 f1_keywords: 
  - "evr9/IEVRVideoStreamControl.SetStreamActiveState"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

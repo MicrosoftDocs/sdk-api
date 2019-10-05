@@ -12,6 +12,8 @@ ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoPosition meth
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRWindowlessControl9.SetVideoPosition"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

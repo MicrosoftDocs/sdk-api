@@ -12,6 +12,8 @@ ms.keywords: ClearStorageFilter, ClearStorageFilter method [DXGI], ClearStorageF
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.ClearStorageFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

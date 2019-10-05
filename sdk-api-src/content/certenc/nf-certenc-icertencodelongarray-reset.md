@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLon
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeLongArray.Reset"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

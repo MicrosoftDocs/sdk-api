@@ -12,6 +12,8 @@ ms.keywords: GetInterface, GetInterface method [Microsoft Broadband Networks], G
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterfaceManager.GetInterface"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

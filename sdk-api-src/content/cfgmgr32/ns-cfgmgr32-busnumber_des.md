@@ -12,6 +12,8 @@ ms.keywords: "*PBUSNUMBER_DES, BUSNUMBER_DES, BUSNUMBER_DES structure [Device an
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/BUSNUMBER_DES"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.GetProperty"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetTransferKey"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

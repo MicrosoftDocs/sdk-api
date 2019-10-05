@@ -12,6 +12,8 @@ ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVdProvider.AddVDisk"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

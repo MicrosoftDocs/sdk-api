@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, DS_INET_ADDRESS, DS_NET
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _colo
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetColorSpace"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

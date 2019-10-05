@@ -12,6 +12,8 @@ ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [
 ms.topic: interface
 f1_keywords: 
  - "certadm/ICertAdmin"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPreviousSiblingElement, GetPreviousSiblingElement method [Window
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTreeWalker.GetPreviousSiblingElement"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

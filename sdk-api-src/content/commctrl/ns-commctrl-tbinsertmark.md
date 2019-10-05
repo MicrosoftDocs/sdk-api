@@ -12,6 +12,8 @@ ms.keywords: "*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure point
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TBINSERTMARK"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

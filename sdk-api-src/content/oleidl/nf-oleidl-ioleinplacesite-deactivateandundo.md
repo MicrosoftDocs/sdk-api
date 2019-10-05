@@ -12,6 +12,8 @@ ms.keywords: DeactivateAndUndo, DeactivateAndUndo method [COM], DeactivateAndUnd
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.DeactivateAndUndo"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

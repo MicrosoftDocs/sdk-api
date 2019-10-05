@@ -12,6 +12,8 @@ ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _idxs_CI_STATE, in
 ms.topic: struct
 f1_keywords: 
  - "ntquery/CI_STATE"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

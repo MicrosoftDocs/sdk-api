@@ -12,6 +12,8 @@ ms.keywords: mmGetCurrentTask, mmGetCurrentTask function [Windows Multimedia], m
 ms.topic: function
 f1_keywords: 
  - "mmddk/mmGetCurrentTask"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: Mmddk.h
 req.target-type: Windows

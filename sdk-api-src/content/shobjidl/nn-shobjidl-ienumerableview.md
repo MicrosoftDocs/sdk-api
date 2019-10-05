@@ -12,6 +12,8 @@ ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumer
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IEnumerableView"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

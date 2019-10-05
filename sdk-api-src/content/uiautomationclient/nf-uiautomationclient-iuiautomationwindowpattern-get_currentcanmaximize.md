@@ -12,6 +12,8 @@ ms.keywords: CurrentCanMaximize property [Windows Accessibility], CurrentCanMaxi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern.CurrentCanMaximize"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

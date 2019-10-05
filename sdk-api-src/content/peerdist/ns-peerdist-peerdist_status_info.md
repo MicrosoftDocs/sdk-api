@@ -12,6 +12,8 @@ ms.keywords: "*PPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_
 ms.topic: struct
 f1_keywords: 
  - "peerdist/PEERDIST_STATUS_INFO"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

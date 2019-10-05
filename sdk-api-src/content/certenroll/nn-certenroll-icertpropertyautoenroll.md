@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Securit
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertPropertyAutoEnroll"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

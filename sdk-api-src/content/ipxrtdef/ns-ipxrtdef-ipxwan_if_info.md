@@ -12,6 +12,8 @@ ms.keywords: '*PIPXWAN_IF_INFO, IPXWAN_IF_INFO, IPXWAN_IF_INFO structure [RAS], 
 ms.topic: struct
 f1_keywords:
 - ipxrtdef/IPXWAN_IF_INFO
+dev_langs:
+ - c++
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows

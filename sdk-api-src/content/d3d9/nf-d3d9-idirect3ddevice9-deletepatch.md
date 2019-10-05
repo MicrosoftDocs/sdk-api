@@ -12,6 +12,8 @@ ms.keywords: 2eb17a58-7131-6669-67fe-a5a0226a6e9c, DeletePatch, DeletePatch meth
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.DeletePatch"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

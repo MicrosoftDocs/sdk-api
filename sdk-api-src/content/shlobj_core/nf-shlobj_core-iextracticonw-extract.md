@@ -12,6 +12,8 @@ ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IExtractIcon.Extract"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneIsInfinite, XMPlaneIsInfinite, XMPlaneIsInfinit
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneIsInfinite"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

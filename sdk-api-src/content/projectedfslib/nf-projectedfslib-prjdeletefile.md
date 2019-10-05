@@ -12,6 +12,8 @@ ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projec
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjDeleteFile"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

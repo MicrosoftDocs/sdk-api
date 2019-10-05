@@ -12,6 +12,8 @@ ms.keywords: CreateRenderTargetView1, CreateRenderTargetView1 method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11Device3.CreateRenderTargetView1"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

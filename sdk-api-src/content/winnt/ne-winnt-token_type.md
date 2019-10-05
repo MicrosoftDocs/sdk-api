@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Securi
 ms.topic: enum
 f1_keywords:
 - winnt/TOKEN_TYPE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

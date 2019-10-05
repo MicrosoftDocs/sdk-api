@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetInsertMarkColor, TreeView_GetInsertMarkColor macro [Win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetInsertMarkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

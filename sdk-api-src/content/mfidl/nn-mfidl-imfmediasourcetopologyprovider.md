@@ -12,6 +12,8 @@ ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvide
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaSourceTopologyProvider"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

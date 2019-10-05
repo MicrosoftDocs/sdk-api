@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointOffloadStreamVolume interface [Core Audio],SetChannel
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

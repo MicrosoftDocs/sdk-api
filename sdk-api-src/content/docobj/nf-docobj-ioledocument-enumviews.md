@@ -12,6 +12,8 @@ ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocum
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocument.EnumViews"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

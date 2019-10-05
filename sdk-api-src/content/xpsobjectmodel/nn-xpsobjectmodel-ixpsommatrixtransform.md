@@ -12,6 +12,8 @@ ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documen
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMMatrixTransform"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

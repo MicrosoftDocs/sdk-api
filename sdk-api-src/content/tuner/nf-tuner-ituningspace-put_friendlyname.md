@@ -12,6 +12,8 @@ ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FriendlyName
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.put_FriendlyName"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

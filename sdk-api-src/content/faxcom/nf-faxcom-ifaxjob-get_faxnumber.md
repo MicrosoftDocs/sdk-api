@@ -12,6 +12,8 @@ ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.FaxNumber"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

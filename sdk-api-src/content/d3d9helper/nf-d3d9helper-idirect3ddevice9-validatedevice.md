@@ -12,6 +12,8 @@ ms.keywords: 8ca7b036-a40e-e1d7-8756-34204c874629, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.ValidateDevice
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

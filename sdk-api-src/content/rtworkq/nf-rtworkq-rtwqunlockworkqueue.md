@@ -12,6 +12,8 @@ ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockw
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqUnlockWorkQueue"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AppMembers property [Security], AppMembers property [Security],AzAp
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.AppMembers"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

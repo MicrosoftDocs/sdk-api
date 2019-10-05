@@ -12,6 +12,8 @@ ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder, GetStreamZOr
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoMixerControl.GetStreamZOrder"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

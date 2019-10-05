@@ -12,6 +12,8 @@ ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], Del
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.DeleteInputStream"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType me
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.GetMediaType"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

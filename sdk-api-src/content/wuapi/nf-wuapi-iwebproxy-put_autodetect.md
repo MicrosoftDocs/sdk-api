@@ -12,6 +12,8 @@ ms.keywords: AutoDetect property [Windows Update Agent], AutoDetect property [Wi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.AutoDetect"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

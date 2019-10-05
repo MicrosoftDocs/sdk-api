@@ -12,6 +12,8 @@ ms.keywords: IInstallationBehavior interface [Windows Update Agent],Impact prope
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationBehavior.Impact"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Windows Shell], GetText method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ISearchBoxInfo.GetText"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

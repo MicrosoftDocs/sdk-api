@@ -12,6 +12,8 @@ ms.keywords: 5103c5e7-101e-9c1a-35cc-e3c97e30a9d5, D3D11_BUFFER_UAV_FLAG, D3D11_
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_BUFFER_UAV_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

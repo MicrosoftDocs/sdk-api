@@ -12,6 +12,8 @@ ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IBrowserFrameOptions"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

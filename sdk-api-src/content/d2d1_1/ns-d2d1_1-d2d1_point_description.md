@@ -12,6 +12,8 @@ ms.keywords: D2D1_POINT_DESCRIPTION, D2D1_POINT_DESCRIPTION structure [Direct2D]
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1/D2D1_POINT_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

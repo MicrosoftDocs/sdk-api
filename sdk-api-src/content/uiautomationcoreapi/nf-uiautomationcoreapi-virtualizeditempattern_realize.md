@@ -12,6 +12,8 @@ ms.keywords: VirtualizedItemPattern_Realize, VirtualizedItemPattern_Realize func
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/VirtualizedItemPattern_Realize"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

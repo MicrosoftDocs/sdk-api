@@ -12,6 +12,8 @@ ms.keywords: InterpolationMode, InterpolationMode enumeration [GDI+], Interpolat
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/InterpolationMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

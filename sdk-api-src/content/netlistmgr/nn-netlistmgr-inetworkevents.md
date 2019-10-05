@@ -12,6 +12,8 @@ ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetw
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/INetworkEvents"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

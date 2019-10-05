@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CHANGE_CLUSTER_PROPERTY, CLUSTER_CHANGE_CLUSTER_RECONNECT, 
 ms.topic: function
 f1_keywords: 
  - "clusapi/CreateClusterNotifyPort"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

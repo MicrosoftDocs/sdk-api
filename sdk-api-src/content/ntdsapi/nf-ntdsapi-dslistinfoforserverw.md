@@ -12,6 +12,8 @@ ms.keywords: DS_LIST_ACCOUNT_OBJECT_FOR_SERVER, DS_LIST_DNS_HOST_NAME_FOR_SERVER
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsListInfoForServer"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

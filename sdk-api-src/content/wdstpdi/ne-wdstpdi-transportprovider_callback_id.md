@@ -12,6 +12,8 @@ ms.keywords: "*PTRANSPORTPROVIDER_CALLBACK_ID, TRANSPORTPROVIDER_CALLBACK_ID, TR
 ms.topic: enum
 f1_keywords: 
  - "wdstpdi/TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

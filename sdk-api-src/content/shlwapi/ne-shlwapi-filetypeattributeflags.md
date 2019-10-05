@@ -12,6 +12,8 @@ ms.keywords: FILETYPEATTRIBUTEFLAGS, FILETYPEATTRIBUTEFLAGS enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/FILETYPEATTRIBUTEFLAGS"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPAT.GetCountOfRecords"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

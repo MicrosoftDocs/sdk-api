@@ -12,6 +12,8 @@ ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAud
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAudioInputMixer.get_Enable"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

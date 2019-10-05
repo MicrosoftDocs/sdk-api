@@ -12,6 +12,8 @@ ms.keywords: ITravelLog interface [Windows Shell],Revert method, ITravelLog.Reve
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.Revert"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

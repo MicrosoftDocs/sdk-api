@@ -12,6 +12,8 @@ ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath f
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHSetKnownFolderPath"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TF_CreateLangBarItemMgr, TF_CreateLangBarItemMgr function [Text Ser
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_CreateLangBarItemMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

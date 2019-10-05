@@ -12,6 +12,8 @@ ms.keywords: TextRange_RemoveFromSelection, TextRange_RemoveFromSelection functi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_RemoveFromSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

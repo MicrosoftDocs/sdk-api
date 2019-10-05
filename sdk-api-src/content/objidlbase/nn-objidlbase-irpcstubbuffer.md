@@ -12,6 +12,8 @@ ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer inte
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IRpcStubBuffer"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

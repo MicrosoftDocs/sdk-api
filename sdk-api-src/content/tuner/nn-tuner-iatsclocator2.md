@@ -12,6 +12,8 @@ ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies],
 ms.topic: interface
 f1_keywords: 
  - "tuner/IATSCLocator2"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

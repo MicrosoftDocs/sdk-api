@@ -12,6 +12,8 @@ ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Aud
 ms.topic: interface
 f1_keywords: 
  - "xaudio2/IXAudio2VoiceCallback"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

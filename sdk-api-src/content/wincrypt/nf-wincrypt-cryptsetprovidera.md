@@ -12,6 +12,8 @@ ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetPro
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptSetProvider"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

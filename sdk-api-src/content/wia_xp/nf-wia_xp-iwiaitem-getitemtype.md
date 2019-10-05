@@ -12,6 +12,8 @@ ms.keywords: GetItemType, GetItemType method [WIA], GetItemType method [WIA],IWi
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.GetItemType"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

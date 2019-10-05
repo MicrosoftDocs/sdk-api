@@ -12,6 +12,8 @@ ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], eaphost.e
 ms.topic: struct
 f1_keywords: 
  - "eaphostpeertypes/EAPHOST_AUTH_INFO"
+dev_langs:
+ - c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

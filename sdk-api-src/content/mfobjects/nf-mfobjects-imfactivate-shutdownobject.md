@@ -12,6 +12,8 @@ ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFActivate.ShutdownObject"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

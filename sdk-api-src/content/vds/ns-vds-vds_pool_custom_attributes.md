@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_PO
 ms.topic: struct
 f1_keywords:
 - vds/VDS_POOL_CUSTOM_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

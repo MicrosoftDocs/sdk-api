@@ -12,6 +12,8 @@ ms.keywords: '*LPUSER_OTHER_INFO, *PUSER_OTHER_INFO, LPUSER_OTHER_INFO, LPUSER_O
 ms.topic: struct
 f1_keywords:
 - lmalert/USER_OTHER_INFO
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

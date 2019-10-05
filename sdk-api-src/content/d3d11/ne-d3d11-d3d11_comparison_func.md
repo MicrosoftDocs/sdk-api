@@ -12,6 +12,8 @@ ms.keywords: 6fbaba9a-9ef4-f12b-ab05-adee47e72652, D3D11_COMPARISON_ALWAYS, D3D1
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_COMPARISON_FUNC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

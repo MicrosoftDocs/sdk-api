@@ -12,6 +12,8 @@ ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwner.GetScreenExt"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

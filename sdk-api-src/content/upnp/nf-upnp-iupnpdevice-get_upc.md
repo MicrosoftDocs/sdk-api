@@ -12,6 +12,8 @@ ms.keywords: IUPnPDevice interface [UPnP APIs],get_UPC method, IUPnPDevice.get_U
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDevice.get_UPC"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security],
 ms.topic: function
 f1_keywords: 
  - "winbase/ObjectDeleteAuditAlarm"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

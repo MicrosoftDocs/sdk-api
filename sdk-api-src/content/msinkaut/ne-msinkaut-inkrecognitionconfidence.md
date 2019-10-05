@@ -12,6 +12,8 @@ ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, I
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognitionConfidence"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

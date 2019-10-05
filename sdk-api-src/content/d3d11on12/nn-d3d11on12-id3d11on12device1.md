@@ -6,6 +6,8 @@ ms.keywords: ID3D11On12Device1
 ms.topic: language-reference
 f1_keywords: 
  - "d3d11on12/ID3D11On12Device1"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

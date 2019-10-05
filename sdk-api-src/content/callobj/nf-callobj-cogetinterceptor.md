@@ -12,6 +12,8 @@ ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterc
 ms.topic: function
 f1_keywords: 
  - "callobj/CoGetInterceptor"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

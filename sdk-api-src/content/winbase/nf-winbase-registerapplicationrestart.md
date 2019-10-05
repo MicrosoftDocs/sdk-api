@@ -12,6 +12,8 @@ ms.keywords: RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REB
 ms.topic: function
 f1_keywords: 
  - "winbase/RegisterApplicationRestart"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

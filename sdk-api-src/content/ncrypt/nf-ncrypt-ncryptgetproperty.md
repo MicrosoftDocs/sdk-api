@@ -12,6 +12,8 @@ ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, NCRYPT_PERSI
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptGetProperty
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

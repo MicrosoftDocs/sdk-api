@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetLanguage meth
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPage.SetLanguage"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

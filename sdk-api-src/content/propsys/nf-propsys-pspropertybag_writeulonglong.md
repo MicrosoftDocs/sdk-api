@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_WriteULONGLONG"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

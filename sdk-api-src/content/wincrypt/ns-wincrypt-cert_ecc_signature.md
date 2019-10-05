@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE struc
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_ECC_SIGNATURE"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

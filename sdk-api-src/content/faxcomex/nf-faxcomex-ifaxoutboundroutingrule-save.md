@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Save method, IFaxOu
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule.Save"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

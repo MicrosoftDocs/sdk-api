@@ -12,6 +12,8 @@ ms.keywords: '*PPPP_EAP_PACKET, EAPCODE_Failure, EAPCODE_Request, EAPCODE_Respon
 ms.topic: struct
 f1_keywords:
 - raseapif/PPP_EAP_PACKET
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exc
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterClipboardFormat"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

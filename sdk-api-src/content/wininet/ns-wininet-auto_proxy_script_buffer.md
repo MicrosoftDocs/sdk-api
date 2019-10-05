@@ -12,6 +12,8 @@ ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_
 ms.topic: struct
 f1_keywords: 
  - "wininet/AUTO_PROXY_SCRIPT_BUFFER"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

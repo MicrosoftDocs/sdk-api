@@ -12,6 +12,8 @@ ms.keywords: IBasicAudio interface [DirectShow],get_Volume method, IBasicAudio.g
 ms.topic: method
 f1_keywords: 
  - "control/IBasicAudio.get_Volume"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

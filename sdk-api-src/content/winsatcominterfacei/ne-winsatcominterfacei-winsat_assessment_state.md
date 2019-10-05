@@ -12,6 +12,8 @@ ms.keywords: WINSAT_ASSESSMENT_STATE, WINSAT_ASSESSMENT_STATE enumeration [WinSA
 ms.topic: enum
 f1_keywords: 
  - "winsatcominterfacei/WINSAT_ASSESSMENT_STATE"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

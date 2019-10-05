@@ -12,6 +12,8 @@ ms.keywords: RPC_ASYNC_EVENT, RPC_ASYNC_EVENT enumeration [RPC], RpcCallComplete
 ms.topic: enum
 f1_keywords: 
  - "rpcasync/RPC_ASYNC_EVENT"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

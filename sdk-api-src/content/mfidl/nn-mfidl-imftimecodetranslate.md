@@ -12,6 +12,8 @@ ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundat
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTimecodeTranslate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

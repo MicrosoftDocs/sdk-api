@@ -12,6 +12,8 @@ ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], 
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncInitializeHandle
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

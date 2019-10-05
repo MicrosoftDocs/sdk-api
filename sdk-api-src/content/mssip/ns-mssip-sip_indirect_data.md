@@ -12,6 +12,8 @@ ms.keywords: '*PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA struct
 ms.topic: struct
 f1_keywords:
 - mssip/SIP_INDIRECT_DATA
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

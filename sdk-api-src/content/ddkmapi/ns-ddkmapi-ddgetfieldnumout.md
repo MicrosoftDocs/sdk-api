@@ -12,6 +12,8 @@ ms.keywords: "*LPDDGETFIELDNUMOUT, DDGETFIELDNUMOUT, DDGETFIELDNUMOUT structure 
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDGETFIELDNUMOUT"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

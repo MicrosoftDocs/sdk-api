@@ -12,6 +12,8 @@ ms.keywords: "*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO s
 ms.topic: struct
 f1_keywords: 
  - "dsadmin/DSA_NEWOBJ_DISPINFO"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

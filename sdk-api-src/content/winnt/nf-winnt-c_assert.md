@@ -12,6 +12,8 @@ ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.topic: macro
 f1_keywords: 
  - "winnt/C_ASSERT"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

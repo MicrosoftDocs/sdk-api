@@ -12,6 +12,8 @@ ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/EnumDirTreeProc"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

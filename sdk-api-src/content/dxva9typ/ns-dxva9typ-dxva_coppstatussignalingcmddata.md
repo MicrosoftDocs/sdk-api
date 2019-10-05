@@ -12,6 +12,8 @@ ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData st
 ms.topic: struct
 f1_keywords:
 - dxva9typ/DXVA_COPPStatusSignalingCmdData
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

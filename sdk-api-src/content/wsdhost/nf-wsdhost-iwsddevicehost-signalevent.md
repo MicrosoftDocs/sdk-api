@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalE
 ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.SignalEvent
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

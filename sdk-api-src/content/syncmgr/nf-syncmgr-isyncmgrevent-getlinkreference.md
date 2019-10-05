@@ -12,6 +12,8 @@ ms.keywords: GetLinkReference, GetLinkReference method [Windows Shell], GetLinkR
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetLinkReference"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWordWrapping, GetWordWrapping method [Direct Write], GetWordWrap
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetWordWrapping"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.ls
 ms.topic: function
 f1_keywords:
 - clfs/LsnNull
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

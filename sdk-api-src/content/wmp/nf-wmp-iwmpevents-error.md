@@ -12,6 +12,8 @@ ms.keywords: Error, Error method [Windows Media Player], Error method [Windows M
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.Error"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

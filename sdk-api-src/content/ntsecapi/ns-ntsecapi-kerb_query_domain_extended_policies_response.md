@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

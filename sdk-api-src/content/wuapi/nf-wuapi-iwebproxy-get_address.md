@@ -12,6 +12,8 @@ ms.keywords: Address property [Windows Update Agent], Address property [Windows 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.Address"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

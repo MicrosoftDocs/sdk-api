@@ -12,6 +12,8 @@ ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IC
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IChannelAudioVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

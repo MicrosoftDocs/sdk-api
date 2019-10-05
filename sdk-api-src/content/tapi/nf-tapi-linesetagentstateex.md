@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentState
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetAgentStateEx"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

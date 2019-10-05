@@ -12,6 +12,8 @@ ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_Ole
 ms.topic: function
 f1_keywords: 
  - "ole2/OleSetMenuDescriptor"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

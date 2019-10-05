@@ -12,6 +12,8 @@ ms.keywords: STREAM_SEEK, STREAM_SEEK enumeration [Structured Storage], STREAM_S
 ms.topic: enum
 f1_keywords: 
  - "objidl/STREAM_SEEK"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

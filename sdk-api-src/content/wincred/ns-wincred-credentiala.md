@@ -12,6 +12,8 @@ ms.keywords: "*PCREDENTIALA, CREDENTIAL, CREDENTIAL structure [Security], CREDEN
 ms.topic: struct
 f1_keywords: 
  - "wincred/CREDENTIAL"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

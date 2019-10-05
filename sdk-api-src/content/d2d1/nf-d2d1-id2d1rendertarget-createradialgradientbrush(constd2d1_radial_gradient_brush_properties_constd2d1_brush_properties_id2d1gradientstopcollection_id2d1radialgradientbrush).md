@@ -12,6 +12,8 @@ ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush methods [Direc
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget::CreateRadialGradientBrush"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/C
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_SYNC_ROOT_BASIC_INFO"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.Select"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

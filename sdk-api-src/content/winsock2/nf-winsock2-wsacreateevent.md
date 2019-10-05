@@ -12,6 +12,8 @@ ms.keywords: WSACreateEvent, WSACreateEvent function [Winsock], _win32_wsacreate
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSACreateEvent"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

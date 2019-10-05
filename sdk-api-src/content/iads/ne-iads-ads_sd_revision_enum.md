@@ -12,6 +12,8 @@ ms.keywords: ADS_SD_REVISION_DS, ADS_SD_REVISION_ENUM, ADS_SD_REVISION_ENUM enum
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SD_REVISION_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

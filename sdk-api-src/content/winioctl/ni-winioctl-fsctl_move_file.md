@@ -12,6 +12,8 @@ ms.keywords: FSCTL_MOVE_FILE, FSCTL_MOVE_FILE control, FSCTL_MOVE_FILE control c
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_MOVE_FILE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Pager_SetButtonSize, Pager_SetButtonSize macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_SetButtonSize"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

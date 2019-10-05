@@ -12,6 +12,8 @@ ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_OPAQUE_WINDO
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

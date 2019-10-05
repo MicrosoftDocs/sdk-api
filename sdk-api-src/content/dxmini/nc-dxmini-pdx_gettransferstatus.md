@@ -12,6 +12,8 @@ ms.keywords: DxGetTransferStatus, DxGetTransferStatus callback function [Display
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetTransferStatus
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

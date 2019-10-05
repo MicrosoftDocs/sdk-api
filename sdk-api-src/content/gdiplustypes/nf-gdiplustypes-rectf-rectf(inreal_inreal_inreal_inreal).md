@@ -12,6 +12,8 @@ ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.RectF"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

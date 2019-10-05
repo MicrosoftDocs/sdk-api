@@ -12,6 +12,8 @@ ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [CO
 ms.topic: method
 f1_keywords: 
  - "ocidl/IViewObjectEx.GetViewStatus"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

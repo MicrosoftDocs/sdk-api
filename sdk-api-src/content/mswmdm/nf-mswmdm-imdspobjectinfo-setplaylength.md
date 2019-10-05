@@ -12,6 +12,8 @@ ms.keywords: IMDSPObjectInfo interface [windows Media Device Manager],SetPlayLen
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPObjectInfo.SetPlayLength"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

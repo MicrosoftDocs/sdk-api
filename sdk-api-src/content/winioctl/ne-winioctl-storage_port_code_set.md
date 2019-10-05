@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_COD
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_PORT_CODE_SET
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

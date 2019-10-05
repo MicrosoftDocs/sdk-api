@@ -12,6 +12,8 @@ ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettings
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsResult.GetSource"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxToo
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoProgressDialog.SetCheckboxTooltip"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

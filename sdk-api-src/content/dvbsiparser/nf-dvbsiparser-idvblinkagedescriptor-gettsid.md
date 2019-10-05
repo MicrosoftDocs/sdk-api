@@ -12,6 +12,8 @@ ms.keywords: GetTSId, GetTSId method [Microsoft TV Technologies], GetTSId method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLinkageDescriptor.GetTSId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

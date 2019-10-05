@@ -12,6 +12,8 @@ ms.keywords: 31af56cc-826c-6632-ae68-1b2e713c38ad, D3D10_FEATURE_LEVEL1, D3D10_F
 ms.topic: enum
 f1_keywords: 
  - "d3d10_1/D3D10_FEATURE_LEVEL1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

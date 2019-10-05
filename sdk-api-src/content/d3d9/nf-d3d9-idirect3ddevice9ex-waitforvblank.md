@@ -12,6 +12,8 @@ ms.keywords: 0c60116d-ada5-3625-26f3-44646e467dd6, IDirect3DDevice9Ex interface 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.WaitForVBlank"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

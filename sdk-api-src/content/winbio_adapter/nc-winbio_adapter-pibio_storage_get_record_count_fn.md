@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_F
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterGetRecordCount
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

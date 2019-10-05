@@ -12,6 +12,8 @@ ms.keywords: VarDecAdd, VarDecAdd function [Automation], _oa96_VarDecAdd, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecAdd"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

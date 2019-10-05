@@ -12,6 +12,8 @@ ms.keywords: ISeekingPassThru interface [DirectShow],Init method, ISeekingPassTh
 ms.topic: method
 f1_keywords: 
  - "strmif/ISeekingPassThru.Init"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTI
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_ANYCASTIPADDRESS_ROW"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

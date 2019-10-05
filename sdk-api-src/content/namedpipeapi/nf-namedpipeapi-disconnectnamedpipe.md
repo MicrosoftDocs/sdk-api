@@ -12,6 +12,8 @@ ms.keywords: DisconnectNamedPipe, DisconnectNamedPipe function, _win32_disconnec
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/DisconnectNamedPipe"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

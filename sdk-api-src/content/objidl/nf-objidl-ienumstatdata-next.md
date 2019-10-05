@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATDATA interface [COM],Next method, IEnumSTATDATA.Next, IEnu
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumSTATDATA.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

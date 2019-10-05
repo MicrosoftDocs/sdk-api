@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountFolders interface [Fax Service],OutgoingQueue property, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountFolders.OutgoingQueue"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

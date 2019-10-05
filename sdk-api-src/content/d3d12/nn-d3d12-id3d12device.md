@@ -12,6 +12,8 @@ ms.keywords: ID3D12Device, ID3D12Device interface, ID3D12Device interface,descri
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12Device"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

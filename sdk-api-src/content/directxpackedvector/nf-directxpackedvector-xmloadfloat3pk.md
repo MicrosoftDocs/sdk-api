@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadFloat3PK, XMLoadFloat3PK, XMLoadFloat3P
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadFloat3PK"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

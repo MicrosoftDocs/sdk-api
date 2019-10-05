@@ -12,6 +12,8 @@ ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeig
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetLineHeight"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

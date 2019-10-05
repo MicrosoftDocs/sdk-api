@@ -12,6 +12,8 @@ ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime 
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGraphUniversalTimeToPeerTime"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWin
 ms.topic: function
 f1_keywords: 
  - "winuser/UpdateWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

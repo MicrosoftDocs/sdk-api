@@ -12,6 +12,8 @@ ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization
 ms.topic: function
 f1_keywords: 
  - "winnls/GetUILanguageInfo"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

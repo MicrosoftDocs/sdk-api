@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_RESET_FN, PIBIO_SENSOR_RESET_FN callback, SensorAdapte
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterReset
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

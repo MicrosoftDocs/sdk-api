@@ -12,6 +12,8 @@ ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle meth
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetFontStyle"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9f04b48b-012e-3487-432e-10ce6b33782a, DrawRectPatch, DrawRectPatch 
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.DrawRectPatch"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

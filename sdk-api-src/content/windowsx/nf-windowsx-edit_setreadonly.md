@@ -12,6 +12,8 @@ ms.keywords: Edit_SetReadOnly, Edit_SetReadOnly macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetReadOnly"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

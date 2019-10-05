@@ -12,6 +12,8 @@ ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySetti
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.ApplySettingsContext"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

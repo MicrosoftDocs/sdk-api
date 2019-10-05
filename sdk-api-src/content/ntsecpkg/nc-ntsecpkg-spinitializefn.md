@@ -12,6 +12,8 @@ ms.keywords: SpInitialize, SpInitialize callback function [Security], SpInitiali
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpInitialize
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

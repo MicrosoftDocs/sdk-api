@@ -12,6 +12,8 @@ ms.keywords: GetNameFromToken, GetNameFromToken method [Windows Runtime], GetNam
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetNameFromToken"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

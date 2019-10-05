@@ -12,6 +12,8 @@ ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindow
 ms.topic: macro
 f1_keywords: 
  - "winuser/ExitWindows"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

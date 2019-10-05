@@ -12,6 +12,8 @@ ms.keywords: IDCompositionCompositeEffect, IDCompositionCompositeEffect interfac
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionCompositeEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

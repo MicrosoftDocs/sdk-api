@@ -12,6 +12,8 @@ ms.keywords: DdeUninitialize, DdeUninitialize function [Data Exchange], _win32_D
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeUninitialize"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

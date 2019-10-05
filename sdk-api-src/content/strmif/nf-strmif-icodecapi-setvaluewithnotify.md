@@ -12,6 +12,8 @@ ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecA
 ms.topic: method
 f1_keywords: 
  - "strmif/ICodecAPI.SetValueWithNotify"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

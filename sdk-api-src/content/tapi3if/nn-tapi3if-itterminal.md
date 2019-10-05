@@ -12,6 +12,8 @@ ms.keywords: ITTerminal, ITTerminal interface [TAPI 2.2], ITTerminal interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITTerminal"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

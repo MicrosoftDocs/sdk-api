@@ -12,6 +12,8 @@ ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PR
 ms.topic: callback
 f1_keywords:
 - prsht/PropSheetProc
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BringYourOwnTransaction, BringYourOwnTransaction method [COM+], Bri
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServiceTransactionConfigBase.BringYourOwnTransaction"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], avirif
 ms.topic: struct
 f1_keywords: 
  - "aviriff/AVISTDINDEX_ENTRY"
+dev_langs:
+ - c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

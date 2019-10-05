@@ -12,6 +12,8 @@ ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume interfac
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSimpleAudioVolume.SetMasterVolume"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

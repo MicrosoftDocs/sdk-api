@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeAltName.SetNameEntry"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

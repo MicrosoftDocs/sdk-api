@@ -12,6 +12,8 @@ ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.Is
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IHomeGroup.IsMember"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

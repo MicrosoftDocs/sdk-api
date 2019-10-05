@@ -12,6 +12,8 @@ ms.keywords: ValidateRect, ValidateRect function [Windows GDI], _win32_ValidateR
 ms.topic: function
 f1_keywords: 
  - "winuser/ValidateRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImageSize"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_CREATE_DEVICE_FLAGS, DML_CREATE_DEVICE_FLAGS enumeration, DML_C
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_CREATE_DEVICE_FLAGS"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

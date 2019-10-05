@@ -12,6 +12,8 @@ ms.keywords: TypeAny, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, X509Reque
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509RequestType"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

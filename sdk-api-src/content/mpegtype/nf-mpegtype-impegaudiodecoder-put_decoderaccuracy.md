@@ -12,6 +12,8 @@ ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderAccuracy method
 ms.topic: method
 f1_keywords: 
  - "mpegtype/IMpegAudioDecoder.put_DecoderAccuracy"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

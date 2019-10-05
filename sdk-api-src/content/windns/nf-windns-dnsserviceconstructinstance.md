@@ -7,6 +7,8 @@ ms.keywords: DnsServiceConstructInstance
 ms.topic: language-reference
 f1_keywords: 
  - "windns/DnsServiceConstructInstance"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

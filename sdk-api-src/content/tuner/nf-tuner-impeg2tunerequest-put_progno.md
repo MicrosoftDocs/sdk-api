@@ -12,6 +12,8 @@ ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo 
 ms.topic: method
 f1_keywords: 
  - "tuner/IMPEG2TuneRequest.put_ProgNo"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

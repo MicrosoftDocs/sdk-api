@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectD
 ms.topic: interface
 f1_keywords: 
  - "ddraw/IDirectDrawGammaControl"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

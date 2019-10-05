@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], 
 ms.topic: struct
 f1_keywords:
 - tdh/EVENT_MAP_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

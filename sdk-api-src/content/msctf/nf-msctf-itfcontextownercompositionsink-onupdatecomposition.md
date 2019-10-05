@@ -12,6 +12,8 @@ ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwnerCompositionSink.OnUpdateComposition"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

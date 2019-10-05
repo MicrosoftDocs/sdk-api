@@ -12,6 +12,8 @@ ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFee
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumFeedClockVector.Next"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TASK_RUN_AS_SELF, TASK_RUN_FLAGS, TASK_RUN_FLAGS enumeration [Task 
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_RUN_FLAGS"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

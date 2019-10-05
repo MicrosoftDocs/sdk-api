@@ -12,6 +12,8 @@ ms.keywords: "*LPIMESTRUCT, *NPIMESTRUCT, *PIMESTRUCT, IMESTRUCT, IMESTRUCT stru
 ms.topic: struct
 f1_keywords: 
  - "ime/IMESTRUCT"
+dev_langs:
+ - c++
 req.header: ime.h
 req.include-header: 
 req.target-type: Windows

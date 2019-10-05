@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneSetGain, TSPI_phoneSetGain function [TAPI 2.2], _tspi_tsp
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneSetGain"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScop
 ms.topic: interface
 f1_keywords: 
  - "fhcfg/IFhScopeIterator"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

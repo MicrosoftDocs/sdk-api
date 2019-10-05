@@ -12,6 +12,8 @@ ms.keywords: "*PTARGET_INFORMATION_CLASS, DiscoveryMechanism, InitiatorName, Log
 ms.topic: enum
 f1_keywords: 
  - "iscsidsc/TARGET_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

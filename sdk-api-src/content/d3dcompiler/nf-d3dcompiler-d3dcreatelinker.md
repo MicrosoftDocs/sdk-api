@@ -12,6 +12,8 @@ ms.keywords: D3DCreateLinker, D3DCreateLinker function [HLSL], d3dcompiler/D3DCr
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DCreateLinker"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

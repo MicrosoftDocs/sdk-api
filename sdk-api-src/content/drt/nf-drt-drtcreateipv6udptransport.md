@@ -12,6 +12,8 @@ ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer
 ms.topic: function
 f1_keywords: 
  - "drt/DrtCreateIpv6UdpTransport"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

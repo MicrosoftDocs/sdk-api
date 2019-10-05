@@ -12,6 +12,8 @@ ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],desc
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IMTSCall"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

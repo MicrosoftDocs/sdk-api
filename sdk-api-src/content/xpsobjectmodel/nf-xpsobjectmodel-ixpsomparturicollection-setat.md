@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],Set
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPartUriCollection.SetAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

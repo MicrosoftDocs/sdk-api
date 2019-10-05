@@ -12,6 +12,8 @@ ms.keywords: IBDA_DRM interface [Microsoft TV Technologies],PerformDRMPairing me
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DRM.PerformDRMPairing"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

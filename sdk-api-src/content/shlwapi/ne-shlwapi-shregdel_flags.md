@@ -12,6 +12,8 @@ ms.keywords: SHREGDEL_BOTH, SHREGDEL_DEFAULT, SHREGDEL_FLAGS, SHREGDEL_FLAGS enu
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/SHREGDEL_FLAGS"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

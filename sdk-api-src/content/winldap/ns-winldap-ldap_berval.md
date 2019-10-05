@@ -12,6 +12,8 @@ ms.keywords: "*PBERVAL, *PLDAP_BERVAL, BERVAL, BERVAL structure [LDAP], BerValue
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAP_BERVAL"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

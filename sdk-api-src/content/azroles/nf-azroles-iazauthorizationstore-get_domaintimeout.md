@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],DomainTimeout property, Doma
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore.DomainTimeout"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

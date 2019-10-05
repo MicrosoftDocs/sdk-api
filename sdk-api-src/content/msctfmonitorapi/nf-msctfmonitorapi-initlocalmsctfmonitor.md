@@ -12,6 +12,8 @@ ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCt
 ms.topic: function
 f1_keywords: 
  - "msctfmonitorapi/InitLocalMsCtfMonitor"
+dev_langs:
+ - c++
 req.header: msctfmonitorapi.h
 req.include-header: 
 req.target-type: Windows

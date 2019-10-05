@@ -12,6 +12,8 @@ ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, ba
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerIsSettingRangeDefined"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _slate_smmcdataob
 ms.topic: struct
 f1_keywords: 
  - "mmc/SMMCDataObjects"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

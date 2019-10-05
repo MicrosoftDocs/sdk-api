@@ -12,6 +12,8 @@ ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringVal
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUser.GetStringValue"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

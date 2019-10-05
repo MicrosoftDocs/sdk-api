@@ -12,6 +12,8 @@ ms.keywords: MMC_TASK_DISPLAY_TYPE, MMC_TASK_DISPLAY_TYPE enumeration [MMC], MMC
 ms.topic: enum
 f1_keywords:
 - mmc/MMC_TASK_DISPLAY_TYPE
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

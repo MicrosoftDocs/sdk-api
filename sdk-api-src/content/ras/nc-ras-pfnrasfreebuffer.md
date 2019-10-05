@@ -12,6 +12,8 @@ ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFree
 ms.topic: callback
 f1_keywords: 
  - "ras/RasFreeBuffer"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

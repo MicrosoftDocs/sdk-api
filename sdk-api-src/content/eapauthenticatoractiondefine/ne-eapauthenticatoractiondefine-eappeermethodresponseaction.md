@@ -12,6 +12,8 @@ ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeratio
 ms.topic: enum
 f1_keywords: 
  - "eapauthenticatoractiondefine/EapPeerMethodResponseAction"
+dev_langs:
+ - c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

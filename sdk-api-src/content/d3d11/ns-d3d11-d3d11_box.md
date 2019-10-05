@@ -12,6 +12,8 @@ ms.keywords: D3D11_BOX, D3D11_BOX structure [Direct3D 11], b76b0218-be11-7108-70
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_BOX"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

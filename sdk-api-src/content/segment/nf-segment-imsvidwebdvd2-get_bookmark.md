@@ -12,6 +12,8 @@ ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [M
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidWebDVD2.Bookmark"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

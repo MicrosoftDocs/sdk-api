@@ -12,6 +12,8 @@ ms.keywords: '*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT
 ms.topic: struct
 f1_keywords:
 - ntsecapi/PKU2U_CREDUI_CONTEXT
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

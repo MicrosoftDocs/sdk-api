@@ -12,6 +12,8 @@ ms.keywords: AzApplicationGroups object [Security],_NewEnum property, IAzApplica
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroups._NewEnum"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

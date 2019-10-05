@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY, WDST
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

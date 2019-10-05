@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Windows Accessibility], Cancel method [Windo
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSynchronizedInputPattern.Cancel"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

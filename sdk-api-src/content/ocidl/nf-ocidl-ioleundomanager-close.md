@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager inter
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.Close"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

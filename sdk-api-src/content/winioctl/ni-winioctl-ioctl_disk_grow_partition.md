@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GROW_PARTITION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

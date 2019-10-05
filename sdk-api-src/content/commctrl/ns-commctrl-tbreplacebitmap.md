@@ -12,6 +12,8 @@ ms.keywords: "*LPTBREPLACEBITMAP, LPTBREPLACEBITMAP, LPTBREPLACEBITMAP structure
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TBREPLACEBITMAP"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

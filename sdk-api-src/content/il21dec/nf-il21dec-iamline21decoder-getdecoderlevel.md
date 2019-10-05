@@ -12,6 +12,8 @@ ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLev
 ms.topic: method
 f1_keywords:
 - il21dec/IAMLine21Decoder.GetDecoderLevel
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

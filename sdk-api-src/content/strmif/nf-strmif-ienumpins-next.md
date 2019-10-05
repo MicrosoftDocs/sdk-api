@@ -12,6 +12,8 @@ ms.keywords: IEnumPins interface [DirectShow],Next method, IEnumPins.Next, IEnum
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumPins.Next"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

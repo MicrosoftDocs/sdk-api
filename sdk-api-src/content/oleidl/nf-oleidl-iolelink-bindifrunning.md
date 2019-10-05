@@ -12,6 +12,8 @@ ms.keywords: BindIfRunning, BindIfRunning method [COM], BindIfRunning method [CO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.BindIfRunning"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

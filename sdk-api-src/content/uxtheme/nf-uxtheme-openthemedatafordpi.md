@@ -12,6 +12,8 @@ ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi
 ms.topic: function
 f1_keywords: 
  - "uxtheme/OpenThemeDataForDpi"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

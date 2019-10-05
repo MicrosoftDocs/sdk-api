@@ -12,6 +12,8 @@ ms.keywords: WinUsb_ControlTransfer, WinUsb_ControlTransfer function [Buses], bu
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ControlTransfer
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableTCP method, IAMNe
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.get_EnableTCP"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

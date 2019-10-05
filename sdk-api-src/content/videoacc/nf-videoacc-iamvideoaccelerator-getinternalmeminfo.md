@@ -12,6 +12,8 @@ ms.keywords: GetInternalMemInfo, GetInternalMemInfo method [DirectShow], GetInte
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetInternalMemInfo
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

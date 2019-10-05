@@ -12,6 +12,8 @@ ms.keywords: MI_ConstChar16Field, MI_ConstChar16Field structure [Windows Managem
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstChar16Field
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPINITCOMMONCONTROLSEX, ICC_ANIMATE_CLASS, ICC_BAR_CLASSES, ICC_C
 ms.topic: struct
 f1_keywords: 
  - "commctrl/INITCOMMONCONTROLSEX"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

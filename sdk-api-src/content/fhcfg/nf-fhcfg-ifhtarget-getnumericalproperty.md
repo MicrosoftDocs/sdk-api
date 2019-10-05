@@ -12,6 +12,8 @@ ms.keywords: GetNumericalProperty, GetNumericalProperty method [Windows API], Ge
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhTarget.GetNumericalProperty
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

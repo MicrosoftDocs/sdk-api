@@ -12,6 +12,8 @@ ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.GetSink"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

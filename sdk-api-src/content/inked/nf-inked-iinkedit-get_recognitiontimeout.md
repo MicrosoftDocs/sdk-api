@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],RecognitionTimeout property, IInkEdi
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.RecognitionTimeout"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

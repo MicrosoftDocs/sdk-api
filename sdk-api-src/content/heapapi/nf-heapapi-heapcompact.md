@@ -12,6 +12,8 @@ ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapco
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapCompact"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

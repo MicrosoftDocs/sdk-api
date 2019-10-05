@@ -12,6 +12,8 @@ ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword met
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredential.GetPassword"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],Inform
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_ConditionalAccess.InformUIClosed"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2530bf1d-05b1-4c16-b00b-117c0dadb301, MFVideoFlag_AnalogProtected, 
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoFlags
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

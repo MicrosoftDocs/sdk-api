@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, 
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglGetLayerPaletteEntries"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

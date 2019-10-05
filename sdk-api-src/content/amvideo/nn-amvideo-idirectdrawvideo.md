@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectD
 ms.topic: interface
 f1_keywords: 
  - "amvideo/IDirectDrawVideo"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

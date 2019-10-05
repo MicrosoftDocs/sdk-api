@@ -12,6 +12,8 @@ ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewCo
 ms.topic: method
 f1_keywords:
 - ddpbackup/IDedupReadFileCallback.PreviewContainerRead
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

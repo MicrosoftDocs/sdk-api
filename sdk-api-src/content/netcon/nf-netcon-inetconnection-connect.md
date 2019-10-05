@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetCon
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.Connect"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

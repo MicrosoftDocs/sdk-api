@@ -12,6 +12,8 @@ ms.keywords: UnregisterClass, UnregisterClass function [Windows and Messages], U
 ms.topic: function
 f1_keywords: 
  - "winuser/UnregisterClass"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

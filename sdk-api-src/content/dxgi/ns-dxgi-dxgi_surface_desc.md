@@ -12,6 +12,8 @@ ms.keywords: 93817f74-4e10-480f-7425-b90c4fe26c0d, DXGI_SURFACE_DESC, DXGI_SURFA
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_SURFACE_DESC"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

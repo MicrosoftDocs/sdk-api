@@ -12,6 +12,8 @@ ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad,
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPLoad"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_LINE_JOIN, D2D1_LINE_JOIN enumeration [Direct2D], D2D1_LINE_JO
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_LINE_JOIN"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

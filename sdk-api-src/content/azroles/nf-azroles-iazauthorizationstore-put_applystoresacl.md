@@ -12,6 +12,8 @@ ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Securi
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore.ApplyStoreSacl"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

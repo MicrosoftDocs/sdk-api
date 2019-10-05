@@ -12,6 +12,8 @@ ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetG
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionTableTransferEffect.SetGreenTableValue"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

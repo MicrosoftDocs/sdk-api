@@ -12,6 +12,8 @@ ms.keywords: GetContrast, GetContrast method [Windows Imaging Component], GetCon
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetContrast"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

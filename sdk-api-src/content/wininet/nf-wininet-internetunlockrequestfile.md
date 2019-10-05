@@ -12,6 +12,8 @@ ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinI
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetUnlockRequestFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

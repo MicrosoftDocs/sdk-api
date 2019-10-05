@@ -12,6 +12,8 @@ ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess, BindAccess method
 ms.topic: method
 f1_keywords:
 - mfidl/IMFInputTrustAuthority.BindAccess
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

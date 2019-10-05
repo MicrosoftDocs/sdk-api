@@ -12,6 +12,8 @@ ms.keywords: CERT_NAME_ATTR_TYPE, CERT_NAME_DISABLE_IE4_UTF8_FLAG, CERT_NAME_DNS
 ms.topic: function
 f1_keywords:
 - wincrypt/CertGetNameString
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

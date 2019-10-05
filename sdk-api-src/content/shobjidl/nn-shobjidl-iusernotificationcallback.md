@@ -12,6 +12,8 @@ ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Win
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IUserNotificationCallback"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interf
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_GuideDataDeliveryService"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

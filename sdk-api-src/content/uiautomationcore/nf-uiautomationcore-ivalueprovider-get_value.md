@@ -12,6 +12,8 @@ ms.keywords: IValueProvider interface [Windows Accessibility],Value property, IV
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IValueProvider.Value"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

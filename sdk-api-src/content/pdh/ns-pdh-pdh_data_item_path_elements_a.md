@@ -12,6 +12,8 @@ ms.keywords: '*PPDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_
 ms.topic: struct
 f1_keywords:
 - pdh/PDH_DATA_ITEM_PATH_ELEMENTS
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

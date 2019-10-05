@@ -12,6 +12,8 @@ ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL 
 ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

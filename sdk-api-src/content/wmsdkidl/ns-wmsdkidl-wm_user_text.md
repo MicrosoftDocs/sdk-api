@@ -12,6 +12,8 @@ ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], wmform
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_USER_TEXT"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

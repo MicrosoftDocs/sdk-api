@@ -12,6 +12,8 @@ ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescr
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbEmergencyInformationDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

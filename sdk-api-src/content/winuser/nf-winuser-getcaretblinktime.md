@@ -12,6 +12,8 @@ ms.keywords: GetCaretBlinkTime, GetCaretBlinkTime function [Menus and Other Reso
 ms.topic: function
 f1_keywords: 
  - "winuser/GetCaretBlinkTime"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

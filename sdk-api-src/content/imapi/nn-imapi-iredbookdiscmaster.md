@@ -12,6 +12,8 @@ ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookD
 ms.topic: interface
 f1_keywords: 
  - "imapi/IRedbookDiscMaster"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

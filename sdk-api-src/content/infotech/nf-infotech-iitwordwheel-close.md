@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help W
 ms.topic: method
 f1_keywords: 
  - "infotech/IITWordWheel.Close"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

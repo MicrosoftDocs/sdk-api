@@ -9,6 +9,8 @@ ms.keywords: Bitmap::Clone
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Bitmap::Clone"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

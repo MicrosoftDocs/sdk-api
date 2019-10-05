@@ -12,6 +12,8 @@ ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtm
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/GetNtmsMediaPoolName"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontSet method, 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontCollection2.GetFontSet"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

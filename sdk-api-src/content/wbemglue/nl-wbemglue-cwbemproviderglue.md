@@ -12,6 +12,8 @@ ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Inst
 ms.topic: class
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

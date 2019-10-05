@@ -12,6 +12,8 @@ ms.keywords: MPEG2_PROGRAM_DIRECTORY_PES_PACKET, MPEG2_PROGRAM_ELEMENTARY_STREAM
 ms.topic: struct
 f1_keywords: 
  - "strmif/STREAM_ID_MAP"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

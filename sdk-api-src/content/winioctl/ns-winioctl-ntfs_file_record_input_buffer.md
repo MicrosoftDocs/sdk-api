@@ -12,6 +12,8 @@ ms.keywords: "*PNTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER, NT
 ms.topic: struct
 f1_keywords: 
  - "winioctl/NTFS_FILE_RECORD_INPUT_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

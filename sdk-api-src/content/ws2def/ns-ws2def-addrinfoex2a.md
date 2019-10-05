@@ -12,6 +12,8 @@ ms.keywords: "*LPADDRINFOEX2A, *PADDRINFOEX2A, ADDRINFOEX2, ADDRINFOEX2 structur
 ms.topic: struct
 f1_keywords: 
  - "ws2def/ADDRINFOEX2"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows

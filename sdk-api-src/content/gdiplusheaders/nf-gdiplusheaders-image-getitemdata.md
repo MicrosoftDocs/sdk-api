@@ -12,6 +12,8 @@ ms.keywords: GetItemData, GetItemData method [GDI+], GetItemData method [GDI+],I
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetItemData"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_MANDATORY_LABEL_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

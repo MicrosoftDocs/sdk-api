@@ -12,6 +12,8 @@ ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesFileSysInfo.GetFileSize"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ActivateSpatialAudioMetadataWriter, ActivateSpatialAudioMetadataWri
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMDevMemoryControl interface [DirectShow],WriteSync method, IAMDev
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMDevMemoryControl.WriteSync"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

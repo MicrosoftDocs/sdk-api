@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP struct
 ms.topic: struct
 f1_keywords:
 - vss/VSS_PROVIDER_PROP
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

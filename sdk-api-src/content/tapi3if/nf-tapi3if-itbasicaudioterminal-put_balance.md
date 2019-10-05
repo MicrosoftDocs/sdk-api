@@ -12,6 +12,8 @@ ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Balance method, ITBas
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITBasicAudioTerminal.put_Balance"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

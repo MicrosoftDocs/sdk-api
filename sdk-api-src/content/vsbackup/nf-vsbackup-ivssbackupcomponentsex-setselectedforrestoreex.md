@@ -12,6 +12,8 @@ ms.keywords: IVssBackupComponentsEx interface [VSS],SetSelectedForRestoreEx meth
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponentsEx.SetSelectedForRestoreEx"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D10GetVertexShaderProfile, D3D10GetVertexShaderProfile function [
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10GetVertexShaderProfile"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_ADAPTER_DESC3, DXGI_ADAPTER_DESC3 structure [DXGI], direct3ddx
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_6/DXGI_ADAPTER_DESC3"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

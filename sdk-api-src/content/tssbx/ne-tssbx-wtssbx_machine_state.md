@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_MACHINE_STATE, WTSSBX_MACHINE_STATE enumeration [Remote Desk
 ms.topic: enum
 f1_keywords: 
  - "tssbx/WTSSBX_MACHINE_STATE"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

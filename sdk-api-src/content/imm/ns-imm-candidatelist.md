@@ -12,6 +12,8 @@ ms.keywords: "*LPCANDIDATELIST, *NPCANDIDATELIST, *PCANDIDATELIST, CANDIDATELIST
 ms.topic: struct
 f1_keywords: 
  - "imm/CANDIDATELIST"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

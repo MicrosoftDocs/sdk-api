@@ -12,6 +12,8 @@ ms.keywords: VarNot, VarNot function [Automation], _oa96_VarNot, automat.varnot,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarNot"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

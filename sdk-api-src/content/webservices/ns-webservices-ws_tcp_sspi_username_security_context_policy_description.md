@@ -12,6 +12,8 @@ ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_TCP_SS
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

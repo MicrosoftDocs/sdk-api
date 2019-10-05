@@ -12,6 +12,8 @@ ms.keywords: '*PMPRAPI_OBJECT_HEADER, MPRAPI_MPR_SERVER_OBJECT_REVISION_1, MPRAP
 ms.topic: struct
 f1_keywords:
 - mprapi/MPRAPI_OBJECT_HEADER
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

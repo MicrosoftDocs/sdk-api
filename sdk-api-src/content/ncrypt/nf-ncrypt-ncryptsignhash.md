@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHas
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSignHash
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

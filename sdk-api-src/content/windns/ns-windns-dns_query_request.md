@@ -12,6 +12,8 @@ ms.keywords: '*PDNS_QUERY_REQUEST, DNS_QUERY_REQUEST, DNS_QUERY_REQUEST structur
 ms.topic: struct
 f1_keywords:
 - windns/DNS_QUERY_REQUEST
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

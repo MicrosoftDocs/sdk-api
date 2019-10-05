@@ -12,6 +12,8 @@ ms.keywords: Help property [Windows Accessibility], Help property [Windows Acces
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.Help"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

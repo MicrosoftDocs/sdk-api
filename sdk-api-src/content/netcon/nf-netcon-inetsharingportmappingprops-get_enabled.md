@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Enabled method,
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMappingProps.get_Enabled"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

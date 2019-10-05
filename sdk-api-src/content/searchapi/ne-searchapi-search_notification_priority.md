@@ -12,6 +12,8 @@ ms.keywords: SEARCH_HIGH_PRIORITY, SEARCH_NORMAL_PRIORITY, SEARCH_NOTIFICATION_P
 ms.topic: enum
 f1_keywords:
 - searchapi/SEARCH_NOTIFICATION_PRIORITY
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

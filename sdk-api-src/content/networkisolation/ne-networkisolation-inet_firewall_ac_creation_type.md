@@ -12,6 +12,8 @@ ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_CREATION_TYPE, INET_FIREW
 ms.topic: enum
 f1_keywords:
 - networkisolation/INET_FIREWALL_AC_CREATION_TYPE
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

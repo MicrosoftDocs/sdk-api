@@ -12,6 +12,8 @@ ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchR
 ms.topic: interface
 f1_keywords: 
  - "searchapi/IEnumSearchRoots"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

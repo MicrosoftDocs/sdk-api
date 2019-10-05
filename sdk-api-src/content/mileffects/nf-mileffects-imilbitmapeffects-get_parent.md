@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Parent method,
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffects.get_Parent"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

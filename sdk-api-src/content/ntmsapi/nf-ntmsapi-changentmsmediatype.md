@@ -12,6 +12,8 @@ ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_cha
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/ChangeNtmsMediaType"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

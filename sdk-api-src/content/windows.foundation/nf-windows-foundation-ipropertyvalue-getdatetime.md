@@ -12,6 +12,8 @@ ms.keywords: GetDateTime, GetDateTime method [Windows Runtime], GetDateTime meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetDateTime"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

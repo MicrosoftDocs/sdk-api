@@ -12,6 +12,8 @@ ms.keywords: GetSubmitButtonText, GetSubmitButtonText method [Picture Acquisitio
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetSubmitButtonText"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

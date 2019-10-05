@@ -12,6 +12,8 @@ ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddAp
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext2.AddApplicationGroups"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

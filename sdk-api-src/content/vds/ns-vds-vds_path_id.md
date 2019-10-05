@@ -12,6 +12,8 @@ ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], base.vds_path_id, vds/VDS
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PATH_ID
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

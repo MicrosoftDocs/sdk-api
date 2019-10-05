@@ -12,6 +12,8 @@ ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount met
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocParser.GetTocCount"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

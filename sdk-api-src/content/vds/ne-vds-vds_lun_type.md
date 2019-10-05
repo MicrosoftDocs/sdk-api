@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_LUN_TYPE, VDS_LT_DEFAULT, VDS_LT_FAULT_TOLERANT, VDS_LT_MIRR
 ms.topic: enum
 f1_keywords:
 - vds/VDS_LUN_TYPE
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

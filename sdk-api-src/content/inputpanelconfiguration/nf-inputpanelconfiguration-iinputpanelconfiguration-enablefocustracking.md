@@ -12,6 +12,8 @@ ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], En
 ms.topic: method
 f1_keywords: 
  - "inputpanelconfiguration/IInputPanelConfiguration.EnableFocusTracking"
+dev_langs:
+ - c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

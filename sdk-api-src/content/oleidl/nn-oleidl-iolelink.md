@@ -12,6 +12,8 @@ ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleLink"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

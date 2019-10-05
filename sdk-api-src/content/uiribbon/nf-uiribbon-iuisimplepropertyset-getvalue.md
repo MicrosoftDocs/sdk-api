@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Window
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUISimplePropertySet.GetValue"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

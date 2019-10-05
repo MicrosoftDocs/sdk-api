@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextRange2 interface [Windows Accessibility],ShowConte
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange2.ShowContextMenu"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

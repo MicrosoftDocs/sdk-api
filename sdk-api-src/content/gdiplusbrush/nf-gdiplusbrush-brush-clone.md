@@ -12,6 +12,8 @@ ms.keywords: Brush class [GDI+],Clone method, Brush.Clone, Brush::Clone, Clone, 
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/Brush.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

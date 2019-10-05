@@ -12,6 +12,8 @@ ms.keywords: GetURLIndexingState, GetURLIndexingState method [search], GetURLInd
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.GetURLIndexingState"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

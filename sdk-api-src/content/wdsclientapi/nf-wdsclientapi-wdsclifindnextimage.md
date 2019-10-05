@@ -12,6 +12,8 @@ ms.keywords: WdsCliFindNextImage, WdsCliFindNextImage function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliFindNextImage"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

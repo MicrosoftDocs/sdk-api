@@ -12,6 +12,8 @@ ms.keywords: 64b2d2b4-1f00-412d-8188-fa361dc317a1, GetNodeType, GetNodeType meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetNodeType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.Query"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

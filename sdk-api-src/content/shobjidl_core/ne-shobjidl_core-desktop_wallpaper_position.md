@@ -12,6 +12,8 @@ ms.keywords: DESKTOP_WALLPAPER_POSITION, DESKTOP_WALLPAPER_POSITION enumeration 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/DESKTOP_WALLPAPER_POSITION"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_
 ms.topic: struct
 f1_keywords: 
  - "uxtheme/DTBGOPTS"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

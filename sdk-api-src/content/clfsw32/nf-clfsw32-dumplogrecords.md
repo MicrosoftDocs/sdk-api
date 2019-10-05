@@ -12,6 +12,8 @@ ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord
 ms.topic: function
 f1_keywords:
 - clfsw32/DumpLogRecords
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

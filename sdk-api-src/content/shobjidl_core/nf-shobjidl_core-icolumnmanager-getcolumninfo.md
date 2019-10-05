@@ -12,6 +12,8 @@ ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo 
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IColumnManager.GetColumnInfo
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

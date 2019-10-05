@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_PROXY_INFO, INTERNET_OPEN_TYPE_DIRECT, INTERNET_OPEN_T
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_PROXY_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

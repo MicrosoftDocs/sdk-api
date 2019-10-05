@@ -12,6 +12,8 @@ ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, Set
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupLogFile"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

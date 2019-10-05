@@ -12,6 +12,8 @@ ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnPropertyUIStatus.SetStatus"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

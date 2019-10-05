@@ -12,6 +12,8 @@ ms.keywords: ATTRIBUTEFILTER, ATTRIBUTEFILTER enumeration [Network Policy Server
 ms.topic: enum
 f1_keywords: 
  - "sdoias/ATTRIBUTEFILTER"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

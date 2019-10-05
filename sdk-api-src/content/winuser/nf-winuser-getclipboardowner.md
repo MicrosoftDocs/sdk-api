@@ -12,6 +12,8 @@ ms.keywords: GetClipboardOwner, GetClipboardOwner function [Data Exchange], _win
 ms.topic: function
 f1_keywords: 
  - "winuser/GetClipboardOwner"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMPCallbackNotification, WMPCallbackNotification enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPCallbackNotification"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

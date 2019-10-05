@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],removePendingRequestWStr method, IEnr
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.removePendingRequestWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

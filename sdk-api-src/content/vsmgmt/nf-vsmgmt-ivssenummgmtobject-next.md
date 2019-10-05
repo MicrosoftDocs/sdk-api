@@ -12,6 +12,8 @@ ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.
 ms.topic: method
 f1_keywords:
 - vsmgmt/IVssEnumMgmtObject.Next
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

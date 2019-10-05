@@ -12,6 +12,8 @@ ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [se
 ms.topic: interface
 f1_keywords: 
  - "structuredquerycondition/IRichChunk"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

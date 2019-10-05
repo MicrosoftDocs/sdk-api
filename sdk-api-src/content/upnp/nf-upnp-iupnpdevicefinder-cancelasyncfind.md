@@ -12,6 +12,8 @@ ms.keywords: CancelAsyncFind, CancelAsyncFind method [UPnP APIs], CancelAsyncFin
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceFinder.CancelAsyncFind"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

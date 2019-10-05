@@ -12,6 +12,8 @@ ms.keywords: GetDesktopDpi, GetDesktopDpi method [Direct2D], GetDesktopDpi metho
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Factory.GetDesktopDpi"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

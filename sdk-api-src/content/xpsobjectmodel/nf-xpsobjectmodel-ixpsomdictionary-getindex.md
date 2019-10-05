@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [XPS Documents and Packaging], GetIndex m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDictionary.GetIndex"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

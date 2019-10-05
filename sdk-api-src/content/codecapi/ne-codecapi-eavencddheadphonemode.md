@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncDDHeadphoneMode, codecapi/eAVEncDDHeadphoneMode_Enco
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncDDHeadphoneMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

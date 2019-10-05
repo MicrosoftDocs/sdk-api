@@ -12,6 +12,8 @@ ms.keywords: GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetIfTable2Ex"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

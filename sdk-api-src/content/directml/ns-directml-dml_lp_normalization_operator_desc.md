@@ -12,6 +12,8 @@ ms.keywords: DML_LP_NORMALIZATION_OPERATOR_DESC, DML_LP_NORMALIZATION_OPERATOR_D
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_LP_NORMALIZATION_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

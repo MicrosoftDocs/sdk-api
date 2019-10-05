@@ -12,6 +12,8 @@ ms.keywords: ClassificationLastError property [File Server Resource Manager], Cl
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager.ClassificationLastError"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

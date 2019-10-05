@@ -12,6 +12,8 @@ ms.keywords: "*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRI
 ms.topic: struct
 f1_keywords: 
  - "mswsock/RIO_EXTENSION_FUNCTION_TABLE"
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

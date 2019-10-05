@@ -12,6 +12,8 @@ ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_D
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumContexts
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

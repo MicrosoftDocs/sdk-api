@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisua
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.CreateInstance"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationD
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationDiagnoseConnectFailureAndGetInfo"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

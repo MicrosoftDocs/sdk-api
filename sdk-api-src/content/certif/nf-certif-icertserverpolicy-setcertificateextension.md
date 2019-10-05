@@ -12,6 +12,8 @@ ms.keywords: CCertServerPolicy object [Security],SetCertificateExtension method,
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerPolicy.SetCertificateExtension"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class,
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetBrush"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

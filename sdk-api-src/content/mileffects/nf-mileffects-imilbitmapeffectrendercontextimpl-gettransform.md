@@ -12,6 +12,8 @@ ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransfor
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContextImpl.GetTransform"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], IPhot
 ms.topic: interface
 f1_keywords: 
  - "photoacquire/IPhotoAcquire"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

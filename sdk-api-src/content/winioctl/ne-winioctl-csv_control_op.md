@@ -12,6 +12,8 @@ ms.keywords: '*PCSV_CONTROL_OP, CSV_CONTROL_OP, CSV_CONTROL_OP enumeration [File
 ms.topic: enum
 f1_keywords:
 - winioctl/CSV_CONTROL_OP
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

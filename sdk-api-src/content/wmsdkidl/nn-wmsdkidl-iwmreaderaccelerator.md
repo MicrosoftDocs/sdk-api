@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMReaderAccelerator"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

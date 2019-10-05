@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetCount"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

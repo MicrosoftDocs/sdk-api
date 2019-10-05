@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],Supporte
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextPattern.SupportedTextSelection"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

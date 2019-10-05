@@ -12,6 +12,8 @@ ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function
 ms.topic: function
 f1_keywords: 
  - "shlobj/SHChangeNotifyRegisterThread"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

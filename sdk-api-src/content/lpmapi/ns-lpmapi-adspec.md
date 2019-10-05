@@ -12,6 +12,8 @@ ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/ADSPEC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

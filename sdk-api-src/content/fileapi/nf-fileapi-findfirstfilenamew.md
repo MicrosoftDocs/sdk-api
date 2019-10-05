@@ -12,6 +12,8 @@ ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/Fi
 ms.topic: function
 f1_keywords: 
  - "fileapi/FindFirstFileNameW"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetUnicodeFormat"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

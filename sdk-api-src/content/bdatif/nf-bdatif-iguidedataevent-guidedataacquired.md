@@ -12,6 +12,8 @@ ms.keywords: GuideDataAcquired, GuideDataAcquired method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideDataEvent.GuideDataAcquired"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

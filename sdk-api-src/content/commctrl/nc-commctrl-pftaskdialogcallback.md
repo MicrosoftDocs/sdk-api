@@ -12,6 +12,8 @@ ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCA
 ms.topic: callback
 f1_keywords:
 - commctrl/PFTASKDIALOGCALLBACK
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows

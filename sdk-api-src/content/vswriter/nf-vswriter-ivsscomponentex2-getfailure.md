@@ -12,6 +12,8 @@ ms.keywords: GetFailure, GetFailure method, GetFailure method,IVssComponentEx2 i
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponentEx2.GetFailure"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

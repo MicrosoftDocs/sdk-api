@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE st
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_MFE_STATS_TABLE
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

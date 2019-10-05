@@ -12,6 +12,8 @@ ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProvider.Detach"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

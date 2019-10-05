@@ -12,6 +12,8 @@ ms.keywords: "*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPI
 ms.topic: struct
 f1_keywords: 
  - "wingdi/BITMAPINFOHEADER"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

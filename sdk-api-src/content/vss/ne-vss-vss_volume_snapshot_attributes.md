@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, PVSS_VOLUME_SNAPSHOT_ATTRIBUTES,
 ms.topic: enum
 f1_keywords:
 - vss/VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

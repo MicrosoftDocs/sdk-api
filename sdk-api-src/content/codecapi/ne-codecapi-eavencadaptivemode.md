@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncAdaptiveMode, codecapi/eAVEncAdaptiveMode_FrameRate,
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncAdaptiveMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9da7d4cd-ad83-4d64-9773-699f39625056, GetSourceNodeCollection, GetS
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.GetSourceNodeCollection"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

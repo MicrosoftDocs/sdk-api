@@ -12,6 +12,8 @@ ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation 
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.GetInformation"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Reset method, IEnumAgentHand
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/IEnumAgentHandler.Reset"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

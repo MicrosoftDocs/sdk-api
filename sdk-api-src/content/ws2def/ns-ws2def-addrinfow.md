@@ -12,6 +12,8 @@ ms.keywords: "*PADDRINFOW, ADDRINFOW, ADDRINFOW structure [Winsock], AF_BTH, AF_
 ms.topic: struct
 f1_keywords: 
  - "ws2def/ADDRINFOW"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Windows Server 2012, Windows 7  Windows Server 2008 R2
 req.target-type: Windows

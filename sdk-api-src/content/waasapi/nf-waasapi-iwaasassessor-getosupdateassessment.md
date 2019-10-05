@@ -12,6 +12,8 @@ ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAss
 ms.topic: method
 f1_keywords: 
  - "waasapi/IWaaSAssessor.GetOSUpdateAssessment"
+dev_langs:
+ - c++
 req.header: waasapi.h
 req.include-header: 
 req.target-type: Windows

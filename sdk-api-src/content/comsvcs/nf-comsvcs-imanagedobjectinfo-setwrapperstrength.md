@@ -12,6 +12,8 @@ ms.keywords: IManagedObjectInfo interface [COM+],SetWrapperStrength method, IMan
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IManagedObjectInfo.SetWrapperStrength"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

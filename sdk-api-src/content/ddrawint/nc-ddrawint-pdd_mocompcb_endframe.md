@@ -12,6 +12,8 @@ ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devic
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompEndFrame
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

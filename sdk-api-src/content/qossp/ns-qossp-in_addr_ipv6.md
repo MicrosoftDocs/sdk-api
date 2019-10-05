@@ -12,6 +12,8 @@ ms.keywords: '*LPCIN_ADDR_IPV6, *LPCIN_ADDR_IPV6 structure [QOS], *LPIN_ADDR_IPV
 ms.topic: struct
 f1_keywords:
 - qossp/IN_ADDR_IPV6
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

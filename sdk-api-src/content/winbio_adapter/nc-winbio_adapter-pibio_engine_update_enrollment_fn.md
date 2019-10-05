@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterUpdateEnrollment, EngineAdapterUpdateEnrollment callba
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterUpdateEnrollment
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLocationCodes, GetLocationCodes method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetLocationCodes"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CurrentDockPosition property [Windows Accessibility], CurrentDockPo
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDockPattern.CurrentDockPosition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

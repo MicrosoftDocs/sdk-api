@@ -12,6 +12,8 @@ ms.keywords: IIdleTrigger, IIdleTrigger interface [Task Scheduler], IIdleTrigger
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IIdleTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

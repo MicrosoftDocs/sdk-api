@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_R
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.AddPropertyItem"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

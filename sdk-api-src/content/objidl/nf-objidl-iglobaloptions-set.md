@@ -12,6 +12,8 @@ ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlo
 ms.topic: method
 f1_keywords: 
  - "objidl/IGlobalOptions.Set"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

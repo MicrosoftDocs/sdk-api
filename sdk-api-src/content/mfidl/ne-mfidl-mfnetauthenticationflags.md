@@ -12,6 +12,8 @@ ms.keywords: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67, MFNET_AUTHENTICATION_CLEAR_TE
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNetAuthenticationFlags"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

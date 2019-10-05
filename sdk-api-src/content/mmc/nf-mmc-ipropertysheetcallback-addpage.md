@@ -12,6 +12,8 @@ ms.keywords: AddPage, AddPage method [MMC], AddPage method [MMC],IPropertySheetC
 ms.topic: method
 f1_keywords: 
  - "mmc/IPropertySheetCallback.AddPage"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

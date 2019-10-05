@@ -12,6 +12,8 @@ ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWo
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope2.EnumWordList"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRend
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

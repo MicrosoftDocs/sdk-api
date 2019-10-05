@@ -12,6 +12,8 @@ ms.keywords: ACDQE_NEW_QUEUE, ACDQE_QUEUE_REMOVED, ACDQUEUE_EVENT, ACDQUEUE_EVEN
 ms.topic: enum
 f1_keywords: 
  - "tapi3/ACDQUEUE_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

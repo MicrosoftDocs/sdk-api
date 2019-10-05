@@ -12,6 +12,8 @@ ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredU
 ms.topic: function
 f1_keywords: 
  - "wincred/CredUIParseUserName"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

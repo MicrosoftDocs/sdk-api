@@ -12,6 +12,8 @@ ms.keywords: IShellLink interface [Windows Shell],SetIDList method, IShellLink::
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.SetIDList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

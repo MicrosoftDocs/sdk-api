@@ -12,6 +12,8 @@ ms.keywords: "*PBUSNUMBER_RANGE, BUSNUMBER_RANGE, BUSNUMBER_RANGE structure [Dev
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/BUSNUMBER_RANGE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

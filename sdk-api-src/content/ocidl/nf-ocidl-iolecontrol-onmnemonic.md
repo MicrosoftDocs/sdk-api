@@ -12,6 +12,8 @@ ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemon
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControl.OnMnemonic"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

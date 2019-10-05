@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine interface [Media Foundation],TakePhoto method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.TakePhoto"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

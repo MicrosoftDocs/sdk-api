@@ -12,6 +12,8 @@ ms.keywords: ClusterRemoveGroupFromGroupSet, ClusterRemoveGroupFromGroupSet func
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterRemoveGroupFromGroupSet"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

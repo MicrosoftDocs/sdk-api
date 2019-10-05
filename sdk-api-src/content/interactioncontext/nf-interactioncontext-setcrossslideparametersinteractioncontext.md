@@ -12,6 +12,8 @@ ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersI
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/SetCrossSlideParametersInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

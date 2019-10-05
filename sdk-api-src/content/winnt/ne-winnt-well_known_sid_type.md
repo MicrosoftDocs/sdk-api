@@ -12,6 +12,8 @@ ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE enumeration [Security], Wi
 ms.topic: enum
 f1_keywords: 
  - "winnt/WELL_KNOWN_SID_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

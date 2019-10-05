@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship func
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverEnumRelationship
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

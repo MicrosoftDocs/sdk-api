@@ -12,6 +12,8 @@ ms.keywords: '*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSE
 ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_GET_DRIVER_VERSION
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

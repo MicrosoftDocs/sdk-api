@@ -12,6 +12,8 @@ ms.keywords: SCardGetReaderDeviceInstanceId, SCardGetReaderDeviceInstanceId func
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetReaderDeviceInstanceId"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

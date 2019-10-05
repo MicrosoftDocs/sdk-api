@@ -12,6 +12,8 @@ ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/Evt
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtCancel"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

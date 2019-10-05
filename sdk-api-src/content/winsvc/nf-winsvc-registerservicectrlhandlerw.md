@@ -12,6 +12,8 @@ ms.keywords: RegisterServiceCtrlHandler, RegisterServiceCtrlHandler function, Re
 ms.topic: function
 f1_keywords: 
  - "winsvc/RegisterServiceCtrlHandler"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

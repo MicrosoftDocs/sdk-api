@@ -12,6 +12,8 @@ ms.keywords: GetNativeSystemInfo, GetNativeSystemInfo function, _win32_getnative
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetNativeSystemInfo
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

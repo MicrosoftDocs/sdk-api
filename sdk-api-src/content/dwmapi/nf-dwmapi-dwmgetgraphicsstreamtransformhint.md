@@ -12,6 +12,8 @@ ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHin
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmGetGraphicsStreamTransformHint"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

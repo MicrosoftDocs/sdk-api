@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NC
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptEnumAlgorithms
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA,
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsGetDcNext"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentIma
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.GetCurrentImage"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

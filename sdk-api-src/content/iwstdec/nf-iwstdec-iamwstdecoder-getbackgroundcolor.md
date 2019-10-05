@@ -12,6 +12,8 @@ ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBack
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.GetBackgroundColor"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

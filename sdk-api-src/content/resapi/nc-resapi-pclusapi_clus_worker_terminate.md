@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_CLUS_WORKER_TERMINATE, PCLUSAPI_CLUS_WORKER_TERMINATE call
 ms.topic: callback
 f1_keywords: 
  - "resapi/PCLUSAPI_CLUS_WORKER_TERMINATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

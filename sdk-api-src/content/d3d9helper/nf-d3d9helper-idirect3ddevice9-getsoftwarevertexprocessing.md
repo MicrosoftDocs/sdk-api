@@ -12,6 +12,8 @@ ms.keywords: 17efcf07-7357-cfad-13db-c6391873f457, GetSoftwareVertexProcessing, 
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetSoftwareVertexProcessing"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

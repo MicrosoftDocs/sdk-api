@@ -12,6 +12,8 @@ ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.a
 ms.topic: function
 f1_keywords:
 - mswsock/AcceptEx
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

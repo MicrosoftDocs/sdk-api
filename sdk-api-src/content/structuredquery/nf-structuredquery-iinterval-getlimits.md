@@ -12,6 +12,8 @@ ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IIn
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IInterval.GetLimits"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],ListenToServerEvents method, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.ListenToServerEvents"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriterCallback2"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

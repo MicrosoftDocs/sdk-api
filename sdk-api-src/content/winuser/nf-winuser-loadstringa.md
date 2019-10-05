@@ -12,6 +12,8 @@ ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadSt
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadString"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParentDevice, GetParentDevice method, GetParentDevice method,IDM
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.GetParentDevice"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

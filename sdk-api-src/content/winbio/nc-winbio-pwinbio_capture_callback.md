@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_CAPTURE_CALLBACK, PWINBIO_CAPTURE_CALLBACK function, PWINBI
 ms.topic: callback
 f1_keywords:
 - winbio/PWINBIO_CAPTURE_CALLBACK
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

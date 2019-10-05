@@ -12,6 +12,8 @@ ms.keywords: IPersistSerializedPropStorage interface [Windows Shell],SetProperty
 ms.topic: method
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage.SetPropertyStorage"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

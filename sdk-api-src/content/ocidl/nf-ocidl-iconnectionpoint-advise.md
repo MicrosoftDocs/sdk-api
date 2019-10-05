@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [COM], Advise method [COM],IConnectionPoint i
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPoint.Advise"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

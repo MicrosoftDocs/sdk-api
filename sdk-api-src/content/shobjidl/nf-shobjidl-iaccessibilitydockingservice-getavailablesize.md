@@ -12,6 +12,8 @@ ms.keywords: GetAvailableSize, GetAvailableSize method [Windows Shell], GetAvail
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IAccessibilityDockingService.GetAvailableSize"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

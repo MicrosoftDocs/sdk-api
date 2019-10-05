@@ -12,6 +12,8 @@ ms.keywords: '*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO st
 ms.topic: struct
 f1_keywords:
 - winioctl/DISK_DETECTION_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

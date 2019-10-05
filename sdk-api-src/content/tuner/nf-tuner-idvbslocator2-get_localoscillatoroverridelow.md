@@ -12,6 +12,8 @@ ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillator
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSLocator2.LocalOscillatorOverrideLow"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

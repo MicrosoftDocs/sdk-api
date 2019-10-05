@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Upd
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateServiceManager"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

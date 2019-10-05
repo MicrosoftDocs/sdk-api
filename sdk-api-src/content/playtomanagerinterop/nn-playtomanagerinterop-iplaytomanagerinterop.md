@@ -12,6 +12,8 @@ ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Run
 ms.topic: interface
 f1_keywords: 
  - "playtomanagerinterop/IPlayToManagerInterop"
+dev_langs:
+ - c++
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows

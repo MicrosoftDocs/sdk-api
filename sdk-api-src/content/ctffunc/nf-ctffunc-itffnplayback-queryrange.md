@@ -12,6 +12,8 @@ ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnPlayBack.QueryRange"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

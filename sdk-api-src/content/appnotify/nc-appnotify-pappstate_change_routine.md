@@ -12,6 +12,8 @@ ms.keywords: PAPPSTATE_CHANGE_ROUTINE, PAPPSTATE_CHANGE_ROUTINE function, PAPPST
 ms.topic: callback
 f1_keywords: 
  - "appnotify/PAPPSTATE_CHANGE_ROUTINE"
+dev_langs:
+ - c++
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows

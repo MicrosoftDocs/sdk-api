@@ -12,6 +12,8 @@ ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionE
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.GetCollectionElements"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

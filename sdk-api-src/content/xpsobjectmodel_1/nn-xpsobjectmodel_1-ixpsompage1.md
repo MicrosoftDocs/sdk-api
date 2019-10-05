@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPage1, IXpsOMPage1 interface [XPS Documents and Packaging], I
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMPage1"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

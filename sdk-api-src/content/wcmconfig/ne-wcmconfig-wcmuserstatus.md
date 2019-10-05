@@ -12,6 +12,8 @@ ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregi
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmUserStatus"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

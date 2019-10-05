@@ -12,6 +12,8 @@ ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream p
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEnumerator.AtEndOfStream"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

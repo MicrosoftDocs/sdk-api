@@ -12,6 +12,8 @@ ms.keywords: '*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY struc
 ms.topic: struct
 f1_keywords:
 - iads/ADS_DN_WITH_BINARY
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

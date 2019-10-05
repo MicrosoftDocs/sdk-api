@@ -12,6 +12,8 @@ ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interfa
 ms.topic: interface
 f1_keywords:
 - wsdclient/IWSDAsyncResult
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

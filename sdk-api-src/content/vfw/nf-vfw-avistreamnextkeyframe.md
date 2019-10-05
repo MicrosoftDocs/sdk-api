@@ -12,6 +12,8 @@ ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multime
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamNextKeyFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

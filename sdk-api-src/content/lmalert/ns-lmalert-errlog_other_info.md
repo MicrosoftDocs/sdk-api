@@ -12,6 +12,8 @@ ms.keywords: '*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRL
 ms.topic: struct
 f1_keywords:
 - lmalert/ERRLOG_OTHER_INFO
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

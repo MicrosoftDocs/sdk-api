@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_Cancel, MI_Operation_Cancel function [Windows Manageme
 ms.topic: function
 f1_keywords:
 - mi/MI_Operation_Cancel
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

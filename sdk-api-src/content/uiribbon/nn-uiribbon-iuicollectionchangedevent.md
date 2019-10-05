@@ -12,6 +12,8 @@ ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Win
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUICollectionChangedEvent"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

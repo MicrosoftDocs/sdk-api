@@ -12,6 +12,8 @@ ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSe
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSetComponentState"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

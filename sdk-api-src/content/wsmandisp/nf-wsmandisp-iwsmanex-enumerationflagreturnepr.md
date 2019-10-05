@@ -12,6 +12,8 @@ ms.keywords: EnumerationFlagReturnEPR, EnumerationFlagReturnEPR method [Windows 
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx.EnumerationFlagReturnEPR"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMT_TIMECODE_EXTENSION_DATA, WMT_TIMECODE_EXTENSION_DATA structure 
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMT_TIMECODE_EXTENSION_DATA"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [
 ms.topic: struct
 f1_keywords: 
  - "winnt/SYSTEM_ALARM_ACE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

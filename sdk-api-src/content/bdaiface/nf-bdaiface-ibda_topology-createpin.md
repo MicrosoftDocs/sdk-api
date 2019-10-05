@@ -12,6 +12,8 @@ ms.keywords: CreatePin, CreatePin method [Microsoft TV Technologies], CreatePin 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.CreatePin"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

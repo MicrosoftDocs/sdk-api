@@ -12,6 +12,8 @@ ms.keywords: CEnumCERTVIEWATTRIBUTE object [Security],Reset method, IEnumCERTVIE
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWATTRIBUTE.Reset"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

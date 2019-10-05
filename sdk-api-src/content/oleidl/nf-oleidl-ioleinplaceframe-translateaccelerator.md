@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceFrame interface [COM],TranslateAccelerator method, IOleI
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceFrame.TranslateAccelerator"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 21f542e7-4e2f-9c36-ae64-12c0d23732a8, D3D10_TEX2D_RTV, D3D10_TEX2D_
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX2D_RTV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RPC_ERROR_ENUM_HANDLE, RPC_ERROR_ENUM_HANDLE structure [RPC], _rpc_
 ms.topic: struct
 f1_keywords: 
  - "rpcasync/RPC_ERROR_ENUM_HANDLE"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

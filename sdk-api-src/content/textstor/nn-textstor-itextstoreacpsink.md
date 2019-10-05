@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "textstor/ITextStoreACPSink"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

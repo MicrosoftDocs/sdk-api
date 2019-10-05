@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation]
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextNotify"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

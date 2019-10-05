@@ -12,6 +12,8 @@ ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Acce
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/ValuePattern_SetValue"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AllocateSample, AllocateSample method [Media Foundation], AllocateS
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocator.AllocateSample"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

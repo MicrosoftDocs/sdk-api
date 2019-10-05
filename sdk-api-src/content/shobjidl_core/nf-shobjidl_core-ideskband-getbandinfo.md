@@ -12,6 +12,8 @@ ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPA
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDeskBand.GetBandInfo"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

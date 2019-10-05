@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGe
 ms.topic: function
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerGetOperationErrorStates"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

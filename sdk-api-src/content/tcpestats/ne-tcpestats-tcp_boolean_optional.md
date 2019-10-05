@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL
 ms.topic: enum
 f1_keywords: 
  - "tcpestats/TCP_BOOLEAN_OPTIONAL"
+dev_langs:
+ - c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows

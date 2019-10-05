@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult inte
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncResult.GetStatus"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

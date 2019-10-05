@@ -12,6 +12,8 @@ ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoKnowledgeWithPr
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetCenter method, ID2
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RadialGradientBrush.SetCenter"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

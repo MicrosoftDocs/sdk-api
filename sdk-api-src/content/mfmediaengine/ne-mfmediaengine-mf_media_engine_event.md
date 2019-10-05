@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_EVENT, MF_MEDIA_ENGINE_EVENT enumeration [Media Fou
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_EVENT"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_
 ms.topic: struct
 f1_keywords: 
  - "netlistmgr/NLM_USAGE_DATA"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

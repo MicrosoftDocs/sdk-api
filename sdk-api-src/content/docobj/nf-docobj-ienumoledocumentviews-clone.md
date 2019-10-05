@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleDocumentViews
 ms.topic: method
 f1_keywords: 
  - "docobj/IEnumOleDocumentViews.Clone"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONF
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_TRANSFORM_CHAIN_CONFIG
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

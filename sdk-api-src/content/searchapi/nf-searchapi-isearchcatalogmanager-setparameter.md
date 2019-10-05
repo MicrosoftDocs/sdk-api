@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISear
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.SetParameter"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

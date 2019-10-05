@@ -12,6 +12,8 @@ ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IE
 ms.topic: interface
 f1_keywords: 
  - "aclui/IEffectivePermission"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

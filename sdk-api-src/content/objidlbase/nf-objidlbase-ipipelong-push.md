@@ -12,6 +12,8 @@ ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::P
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IPipeLong.Push"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

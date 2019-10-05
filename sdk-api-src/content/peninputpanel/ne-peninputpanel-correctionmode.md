@@ -12,6 +12,8 @@ ms.keywords: 133d2012-e43c-490a-b126-b7670ea7acf8, CorrectionMode, CorrectionMod
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/CorrectionMode"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

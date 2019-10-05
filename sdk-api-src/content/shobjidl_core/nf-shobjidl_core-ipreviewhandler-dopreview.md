@@ -12,6 +12,8 @@ ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPreviewHandler.DoPreview"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

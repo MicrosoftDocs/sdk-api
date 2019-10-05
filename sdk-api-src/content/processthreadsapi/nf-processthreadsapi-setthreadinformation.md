@@ -12,6 +12,8 @@ ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthread
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/SetThreadInformation"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

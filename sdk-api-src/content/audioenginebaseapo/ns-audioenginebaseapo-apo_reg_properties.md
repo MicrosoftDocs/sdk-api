@@ -12,6 +12,8 @@ ms.keywords: "*PAPO_REG_PROPERTIES, APO_REG_PROPERTIES, APO_REG_PROPERTIES struc
 ms.topic: struct
 f1_keywords: 
  - "audioenginebaseapo/APO_REG_PROPERTIES"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFRequireProtectedEnvironment"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

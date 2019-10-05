@@ -12,6 +12,8 @@ ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], Enum
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.EnumExportedTypes"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

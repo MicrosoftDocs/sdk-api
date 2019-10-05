@@ -12,6 +12,8 @@ ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRID
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.UpdateOverlay
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

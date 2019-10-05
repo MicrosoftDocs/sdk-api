@@ -12,6 +12,8 @@ ms.keywords: MsiJoinTransaction, MsiJoinTransaction function [Setup API], msi/Ms
 ms.topic: function
 f1_keywords: 
  - "msi/MsiJoinTransaction"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

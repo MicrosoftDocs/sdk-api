@@ -12,6 +12,8 @@ ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINF
 ms.topic: struct
 f1_keywords: 
  - "inked/IEC_STROKEINFO"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

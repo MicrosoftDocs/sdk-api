@@ -12,6 +12,8 @@ ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtexto
 ms.topic: function
 f1_keywords:
 - winddi/EngTextOut
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

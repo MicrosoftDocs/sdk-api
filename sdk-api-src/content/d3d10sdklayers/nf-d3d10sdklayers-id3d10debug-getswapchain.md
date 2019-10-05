@@ -12,6 +12,8 @@ ms.keywords: 0701d3b1-1d64-2987-0b96-e4018a8313df, GetSwapChain, GetSwapChain me
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.GetSwapChain"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

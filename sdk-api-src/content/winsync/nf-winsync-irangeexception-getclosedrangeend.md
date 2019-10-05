@@ -12,6 +12,8 @@ ms.keywords: GetClosedRangeEnd, GetClosedRangeEnd method [Windows Sync], GetClos
 ms.topic: method
 f1_keywords: 
  - "winsync/IRangeException.GetClosedRangeEnd"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

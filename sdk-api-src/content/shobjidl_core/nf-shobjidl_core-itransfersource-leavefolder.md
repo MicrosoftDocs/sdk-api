@@ -12,6 +12,8 @@ ms.keywords: ITransferSource interface [Windows Shell],LeaveFolder method, ITran
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferSource.LeaveFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

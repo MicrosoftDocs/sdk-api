@@ -12,6 +12,8 @@ ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_C
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_COLOR"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

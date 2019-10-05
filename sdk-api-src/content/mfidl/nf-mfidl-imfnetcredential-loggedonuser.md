@@ -12,6 +12,8 @@ ms.keywords: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec, IMFNetCredential interface [M
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredential.LoggedOnUser"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

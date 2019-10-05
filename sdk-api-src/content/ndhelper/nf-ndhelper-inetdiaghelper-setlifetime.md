@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelper interface [NDF],SetLifeTime method, INetDiagHelper.S
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.SetLifeTime"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

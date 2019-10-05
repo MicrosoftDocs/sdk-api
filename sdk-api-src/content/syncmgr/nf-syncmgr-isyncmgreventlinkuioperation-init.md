@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEventLinkUIOperation interface [Windows Shell],Init method,
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEventLinkUIOperation.Init"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

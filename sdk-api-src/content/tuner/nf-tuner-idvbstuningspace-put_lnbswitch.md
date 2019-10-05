@@ -12,6 +12,8 @@ ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_LNBSwitc
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSTuningSpace.put_LNBSwitch"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDockProvider, IDockProvider interface [Windows Accessibility], IDo
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IDockProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

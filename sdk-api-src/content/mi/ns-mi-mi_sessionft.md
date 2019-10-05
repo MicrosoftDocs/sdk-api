@@ -12,6 +12,8 @@ ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastruc
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_SessionFT"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

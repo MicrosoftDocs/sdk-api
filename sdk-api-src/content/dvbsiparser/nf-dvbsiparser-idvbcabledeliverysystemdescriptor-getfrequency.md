@@ -12,6 +12,8 @@ ms.keywords: GetFrequency, GetFrequency method [Microsoft TV Technologies], GetF
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFrequency"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr2.GetFocus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

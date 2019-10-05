@@ -12,6 +12,8 @@ ms.keywords: MFCameraExtrinsics, MFCameraExtrinsics structure [Media Foundation]
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MFCameraExtrinsics"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

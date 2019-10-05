@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_CAPS, MBN_SMS_CAPS enumeration [Microsoft Broadband Network
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SMS_CAPS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

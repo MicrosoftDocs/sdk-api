@@ -12,6 +12,8 @@ ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventPublisher.OwnerSID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Ma
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMLoadLibrary"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 9], GetVertexShad
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetVertexShader"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

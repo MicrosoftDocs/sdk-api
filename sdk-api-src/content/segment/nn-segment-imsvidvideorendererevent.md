@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidVideoRendererEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

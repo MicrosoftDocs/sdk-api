@@ -12,6 +12,8 @@ ms.keywords: "*PFDINOTIFICATION, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, F
 ms.topic: struct
 f1_keywords: 
  - "fdi/FDINOTIFICATION"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

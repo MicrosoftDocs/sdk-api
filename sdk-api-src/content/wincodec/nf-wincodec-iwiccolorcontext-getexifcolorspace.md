@@ -12,6 +12,8 @@ ms.keywords: GetExifColorSpace, GetExifColorSpace method [Windows Imaging Compon
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICColorContext.GetExifColorSpace"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AllJoynSendToBus, AllJoynSendToBus function [AllJoyn API], alljoyn.
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynSendToBus"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

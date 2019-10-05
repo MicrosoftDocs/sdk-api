@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetRate method, IMFPMe
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.SetRate"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

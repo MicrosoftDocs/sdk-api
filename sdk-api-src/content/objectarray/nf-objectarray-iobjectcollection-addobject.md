@@ -12,6 +12,8 @@ ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Wind
 ms.topic: method
 f1_keywords: 
  - "objectarray/IObjectCollection.AddObject"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

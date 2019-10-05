@@ -12,6 +12,8 @@ ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOC
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPAdmin.OCSPServiceProperties"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

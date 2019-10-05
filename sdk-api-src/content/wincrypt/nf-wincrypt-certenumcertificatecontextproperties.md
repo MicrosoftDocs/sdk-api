@@ -12,6 +12,8 @@ ms.keywords: CertEnumCertificateContextProperties, CertEnumCertificateContextPro
 ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumCertificateContextProperties
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

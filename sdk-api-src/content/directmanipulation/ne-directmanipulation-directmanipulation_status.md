@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_BUILDING, DIRECTMANIPULATION_DISABLED, DIRECTMAN
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_STATUS"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

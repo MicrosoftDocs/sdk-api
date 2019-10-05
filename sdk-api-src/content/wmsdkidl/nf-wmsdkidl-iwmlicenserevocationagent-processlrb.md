@@ -12,6 +12,8 @@ ms.keywords: IWMLicenseRevocationAgent interface [windows Media Format],ProcessL
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLicenseRevocationAgent.ProcessLRB"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

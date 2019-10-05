@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixPerspectiveLH, XMMatrixPerspectiveLH, XMMatrix
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixPerspectiveLH"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

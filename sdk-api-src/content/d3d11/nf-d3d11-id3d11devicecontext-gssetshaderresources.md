@@ -12,6 +12,8 @@ ms.keywords: 337f877b-2bd2-d15c-fe32-3f3bf0ef072a, GSSetShaderResources, GSSetSh
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.GSSetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

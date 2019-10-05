@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_PROXYARP, MIB_PROXYARP, MIB_PROXYARP structure [MIB], PMIB_P
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/MIB_PROXYARP"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

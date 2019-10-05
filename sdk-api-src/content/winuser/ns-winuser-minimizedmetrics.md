@@ -12,6 +12,8 @@ ms.keywords: "*LPMINIMIZEDMETRICS, *PMINIMIZEDMETRICS, ARW_BOTTOMLEFT, ARW_BOTTO
 ms.topic: struct
 f1_keywords: 
  - "winuser/MINIMIZEDMETRICS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

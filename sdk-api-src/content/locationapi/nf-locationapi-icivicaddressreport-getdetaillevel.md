@@ -12,6 +12,8 @@ ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel
 ms.topic: method
 f1_keywords: 
  - "locationapi/ICivicAddressReport.GetDetailLevel"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

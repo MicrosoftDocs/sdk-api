@@ -12,6 +12,8 @@ ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Med
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_REQUESTED_INFORMATION
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

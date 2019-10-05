@@ -12,6 +12,8 @@ ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputTy
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecPrivateData.SetPartialOutputType"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], IC
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComTransaction2Events"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

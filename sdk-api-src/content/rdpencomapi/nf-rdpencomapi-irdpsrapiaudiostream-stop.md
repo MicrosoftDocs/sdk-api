@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStr
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAudioStream.Stop"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

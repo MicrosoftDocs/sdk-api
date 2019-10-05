@@ -12,6 +12,8 @@ ms.keywords: ITextChildProvider interface [Windows Accessibility],TextRange prop
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextChildProvider.TextRange"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

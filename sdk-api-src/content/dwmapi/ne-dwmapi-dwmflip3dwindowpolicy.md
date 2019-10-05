@@ -12,6 +12,8 @@ ms.keywords: DWMFLIP3DWINDOWPOLICY, DWMFLIP3DWINDOWPOLICY enumeration [Desktop W
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/DWMFLIP3DWINDOWPOLICY"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

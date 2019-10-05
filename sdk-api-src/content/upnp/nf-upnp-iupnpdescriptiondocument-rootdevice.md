@@ -12,6 +12,8 @@ ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],RootDevice method, I
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.RootDevice"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

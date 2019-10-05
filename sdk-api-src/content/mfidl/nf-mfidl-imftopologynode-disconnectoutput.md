@@ -12,6 +12,8 @@ ms.keywords: 77b91797-d9a7-40da-827d-6e2a347112dc, DisconnectOutput, DisconnectO
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.DisconnectOutput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

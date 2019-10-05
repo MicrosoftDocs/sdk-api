@@ -12,6 +12,8 @@ ms.keywords: MMC_SORT_DATA, MMC_SORT_DATA structure [MMC], RSI_DESCENDING = 0x00
 ms.topic: struct
 f1_keywords:
 - mmc/MMC_SORT_DATA
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

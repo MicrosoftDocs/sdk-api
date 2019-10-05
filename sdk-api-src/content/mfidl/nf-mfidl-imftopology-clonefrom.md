@@ -12,6 +12,8 @@ ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [M
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.CloneFrom"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

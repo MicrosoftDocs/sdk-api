@@ -12,6 +12,8 @@ ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_
 ms.topic: struct
 f1_keywords: 
  - "comcat/CATEGORYINFO"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

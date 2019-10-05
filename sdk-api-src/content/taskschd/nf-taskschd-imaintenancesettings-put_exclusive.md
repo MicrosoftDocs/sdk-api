@@ -12,6 +12,8 @@ ms.keywords: Exclusive property [Task Scheduler], Exclusive property [Task Sched
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMaintenanceSettings.Exclusive"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

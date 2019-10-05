@@ -12,6 +12,8 @@ ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], IAzRol
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzRoleAssignments"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

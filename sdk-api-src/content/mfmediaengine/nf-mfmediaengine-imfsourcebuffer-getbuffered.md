@@ -12,6 +12,8 @@ ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.GetBuffered"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

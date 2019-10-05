@@ -12,6 +12,8 @@ ms.keywords: GetBindingProperties, GetBindingProperties method, GetBindingProper
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDispatchable.GetBindingProperties"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

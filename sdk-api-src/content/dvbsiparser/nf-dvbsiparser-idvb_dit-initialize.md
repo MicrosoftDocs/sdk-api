@@ -12,6 +12,8 @@ ms.keywords: IDVB_DIT interface [Microsoft TV Technologies],Initialize method, I
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_DIT.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

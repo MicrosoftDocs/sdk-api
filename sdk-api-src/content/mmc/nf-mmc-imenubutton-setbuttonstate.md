@@ -12,6 +12,8 @@ ms.keywords: ENABLED, HIDDEN, IMenuButton interface [MMC],SetButtonState method,
 ms.topic: method
 f1_keywords:
 - mmc/IMenuButton.SetButtonState
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClusterDecrypt, ClusterDecrypt function [Failover Cluster], PCLUSTE
 ms.topic: function
 f1_keywords: 
  - "resapi/ClusterDecrypt"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

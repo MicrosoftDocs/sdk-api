@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [Fil
 ms.topic: interface
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaTemplateManager"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

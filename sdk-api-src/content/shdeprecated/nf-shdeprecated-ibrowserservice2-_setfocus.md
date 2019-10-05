@@ -12,6 +12,8 @@ ms.keywords: IBrowserService2 interface [Windows Shell],_SetFocus method, IBrows
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2._SetFocus"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

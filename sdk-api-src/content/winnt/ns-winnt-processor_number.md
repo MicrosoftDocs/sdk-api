@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESSOR_NUMBER"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

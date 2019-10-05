@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5, WS_SECURITY_ALGOR
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_ALGORITHM_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVideoHandle, GetVideoHandle method [Remote Desktop Services], Ge
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.GetVideoHandle"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Edit_HideBalloonTip, Edit_HideBalloonTip macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_HideBalloonTip"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

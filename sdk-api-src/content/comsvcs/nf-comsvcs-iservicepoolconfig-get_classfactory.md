@@ -12,6 +12,8 @@ ms.keywords: IServicePoolConfig interface [COM+],get_ClassFactory method, IServi
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServicePoolConfig.get_ClassFactory"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, 
 ms.topic: function
 f1_keywords:
 - evntprov/EventEnabled
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/PifMgr_SetProperties"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

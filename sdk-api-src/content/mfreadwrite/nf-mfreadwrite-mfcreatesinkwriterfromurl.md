@@ -12,6 +12,8 @@ ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Medi
 ms.topic: function
 f1_keywords: 
  - "mfreadwrite/MFCreateSinkWriterFromURL"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

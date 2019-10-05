@@ -12,6 +12,8 @@ ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelo
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.SetOutputFilename"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

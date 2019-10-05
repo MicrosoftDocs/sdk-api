@@ -12,6 +12,8 @@ ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _w
 ms.topic: macro
 f1_keywords: 
  - "wsipv6ok/WSAAsyncGetHostByName"
+dev_langs:
+ - c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

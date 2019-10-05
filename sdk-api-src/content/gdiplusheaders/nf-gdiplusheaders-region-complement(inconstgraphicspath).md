@@ -12,6 +12,8 @@ ms.keywords: Complement, Complement method [GDI+], Complement method [GDI+],Regi
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Complement"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

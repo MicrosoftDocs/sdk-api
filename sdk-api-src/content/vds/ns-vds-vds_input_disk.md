@@ -12,6 +12,8 @@ ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], base.vds_input_disk
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_INPUT_DISK"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], IDTFi
 ms.topic: interface
 f1_keywords: 
  - "encdec/IDTFilter2"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

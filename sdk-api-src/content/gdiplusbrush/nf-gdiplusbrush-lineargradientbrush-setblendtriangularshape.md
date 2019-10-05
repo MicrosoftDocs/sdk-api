@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],SetBlendTriangularShape method, Li
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.SetBlendTriangularShape"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

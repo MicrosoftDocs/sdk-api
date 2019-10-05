@@ -12,6 +12,8 @@ ms.keywords: 93e580f1-8c61-62ef-6cc4-d08f50c59438, GetFeatureMask, GetFeatureMas
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.GetFeatureMask"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

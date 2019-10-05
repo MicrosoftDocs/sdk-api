@@ -12,6 +12,8 @@ ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enum
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURE_CONVERSATION_VERSION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

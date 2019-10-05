@@ -12,6 +12,8 @@ ms.keywords: MBN_CDMA_DEFAULT_PROVIDER_ID, MBN_REGISTRATION_CONSTANTS, MBN_REGIS
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_REGISTRATION_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

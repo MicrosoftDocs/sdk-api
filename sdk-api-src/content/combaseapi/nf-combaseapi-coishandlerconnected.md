@@ -12,6 +12,8 @@ ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoI
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoIsHandlerConnected"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

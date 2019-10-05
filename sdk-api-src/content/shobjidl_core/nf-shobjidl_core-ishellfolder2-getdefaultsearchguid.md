@@ -12,6 +12,8 @@ ms.keywords: GetDefaultSearchGUID, GetDefaultSearchGUID method [Windows Shell], 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellFolder2.GetDefaultSearchGUID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

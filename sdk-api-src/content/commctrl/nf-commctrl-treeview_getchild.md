@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetChild, TreeView_GetChild macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetChild"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, 
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_SUBPICTURE_CODING"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

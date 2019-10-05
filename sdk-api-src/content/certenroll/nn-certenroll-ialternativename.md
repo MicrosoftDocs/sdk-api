@@ -12,6 +12,8 @@ ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternati
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IAlternativeName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

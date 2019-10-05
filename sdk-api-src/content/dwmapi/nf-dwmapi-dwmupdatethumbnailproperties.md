@@ -12,6 +12,8 @@ ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function
 ms.topic: function
 f1_keywords:
 - dwmapi/DwmUpdateThumbnailProperties
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0954ac9f-acd1-fb91-e361-0b5644656816, ID3D10EffectScalarVariable, I
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

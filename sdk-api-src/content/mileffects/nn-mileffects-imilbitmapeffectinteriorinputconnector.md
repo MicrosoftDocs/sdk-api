@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInp
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffectInteriorInputConnector"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

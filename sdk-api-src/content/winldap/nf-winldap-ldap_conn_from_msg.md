@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_conn_from_msg, ldap.ldap__conn__from__msg, ldap.ldap_co
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_conn_from_msg"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

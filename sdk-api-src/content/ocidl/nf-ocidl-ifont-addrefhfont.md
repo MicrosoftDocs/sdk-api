@@ -12,6 +12,8 @@ ms.keywords: AddRefHfont, AddRefHfont method [COM], AddRefHfont method [COM],IFo
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.AddRefHfont"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

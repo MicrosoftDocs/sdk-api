@@ -12,6 +12,8 @@ ms.keywords: "*LPGCP_RESULTSW, GCPCLASS_ARABIC, GCPCLASS_HEBREW, GCPCLASS_LATIN,
 ms.topic: struct
 f1_keywords: 
  - "wingdi/GCP_RESULTS"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

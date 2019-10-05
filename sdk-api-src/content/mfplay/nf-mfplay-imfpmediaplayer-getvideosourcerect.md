@@ -12,6 +12,8 @@ ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetVideoSourceRect"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

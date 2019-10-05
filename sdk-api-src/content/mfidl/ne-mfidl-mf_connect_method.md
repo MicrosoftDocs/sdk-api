@@ -12,6 +12,8 @@ ms.keywords: 881045bf-ea3b-46e2-aae0-b26e35882da1, MF_CONNECT_ALLOW_CONVERTER, M
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_CONNECT_METHOD"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

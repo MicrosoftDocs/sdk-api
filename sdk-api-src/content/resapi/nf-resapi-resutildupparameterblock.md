@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK function
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilDupParameterBlock"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

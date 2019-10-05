@@ -12,6 +12,8 @@ ms.keywords: UID_AUTOTABLE, UID_CUT, UID_DELETE, UID_DRAGDROP, UID_PASTE, UID_TY
 ms.topic: enum
 f1_keywords: 
  - "richedit/UNDONAMEID"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

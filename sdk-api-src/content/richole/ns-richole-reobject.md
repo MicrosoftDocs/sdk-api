@@ -12,6 +12,8 @@ ms.keywords: REOBJECT, REOBJECT structure [Windows Controls], REO_ALIGNTORIGHT, 
 ms.topic: struct
 f1_keywords: 
  - "richole/REOBJECT"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

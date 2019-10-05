@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMedia
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IAMMediaContent2"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

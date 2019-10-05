@@ -12,6 +12,8 @@ ms.keywords: GetIfTable2, GetIfTable2 function [IP Helper], iphlp.getiftable2, n
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetIfTable2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

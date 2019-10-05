@@ -8,6 +8,10 @@ ms.assetid: 0d965203-efc2-4f56-888e-822c8c6f02c2
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: interface
+f1_keywords:
+ - ID3D12VideoDecodeCommandList
+dev_langs:
+ - c++
 req.header: d3d12video.h
 req.include-header:
 req.redist:

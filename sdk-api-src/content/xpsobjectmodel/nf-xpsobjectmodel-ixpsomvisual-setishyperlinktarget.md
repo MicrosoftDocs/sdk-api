@@ -12,6 +12,8 @@ ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHy
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.SetIsHyperlinkTarget"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

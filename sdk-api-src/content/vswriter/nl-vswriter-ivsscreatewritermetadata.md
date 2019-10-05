@@ -12,6 +12,8 @@ ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS],
 ms.topic: class
 f1_keywords: 
  - "vswriter/IVssCreateWriterMetadata"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

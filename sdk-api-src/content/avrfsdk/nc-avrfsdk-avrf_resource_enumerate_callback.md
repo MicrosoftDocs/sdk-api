@@ -12,6 +12,8 @@ ms.keywords: AVRF_RESOURCE_ENUMERATE_CALLBACK, AVRF_RESOURCE_ENUMERATE_CALLBACK 
 ms.topic: callback
 f1_keywords:
 - avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSpaceUsed, GetSpaceUsed method [Legacy Windows Environment Featu
 ms.topic: method
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCache.GetSpaceUsed"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

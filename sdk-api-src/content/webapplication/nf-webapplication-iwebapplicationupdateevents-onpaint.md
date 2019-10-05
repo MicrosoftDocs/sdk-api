@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationUpdateEvents.OnPaint"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

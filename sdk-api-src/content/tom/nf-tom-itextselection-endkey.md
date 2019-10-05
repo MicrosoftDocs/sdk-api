@@ -12,6 +12,8 @@ ms.keywords: EndKey, EndKey method [Windows Controls], EndKey method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextSelection.EndKey"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Netw
 ms.topic: function
 f1_keywords:
 - winnetwk/WNetConnectionDialog1
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EstablishConnection, EstablishConnection method [Windows Shell], Es
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronizeCallback.EstablishConnection"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

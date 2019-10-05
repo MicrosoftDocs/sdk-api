@@ -12,6 +12,8 @@ ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx 
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetLogicalProcessorInformationEx
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

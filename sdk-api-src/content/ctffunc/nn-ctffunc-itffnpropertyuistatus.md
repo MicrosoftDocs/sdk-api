@@ -12,6 +12,8 @@ ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Servic
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnPropertyUIStatus"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

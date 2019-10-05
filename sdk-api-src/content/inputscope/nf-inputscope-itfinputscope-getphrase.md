@@ -12,6 +12,8 @@ ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase me
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope.GetPhrase"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

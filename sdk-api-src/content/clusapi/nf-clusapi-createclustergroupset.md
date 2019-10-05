@@ -12,6 +12,8 @@ ms.keywords: CreateClusterGroupSet, CreateClusterGroupSet function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "clusapi/CreateClusterGroupSet"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

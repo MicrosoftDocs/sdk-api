@@ -12,6 +12,8 @@ ms.keywords: GetRecordUserDefined, GetRecordUserDefined method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT.GetRecordUserDefined"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

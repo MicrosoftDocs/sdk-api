@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnMarker method,
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriterCallback.OnMarker"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BC
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDestroyHash"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

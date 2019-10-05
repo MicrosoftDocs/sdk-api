@@ -12,6 +12,8 @@ ms.keywords: MINIDUMP_SECONDARY_FLAGS, MINIDUMP_SECONDARY_FLAGS enumeration, Min
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_SECONDARY_FLAGS
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

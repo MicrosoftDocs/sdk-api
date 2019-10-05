@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_FILTER_RECORD, DHCP_FILTER_RECORD, DHCP_FILTER_RECORD stru
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_RECORD
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

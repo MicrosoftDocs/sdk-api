@@ -12,6 +12,8 @@ ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsDrive.GetSubSystem"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

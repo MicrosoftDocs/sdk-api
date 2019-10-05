@@ -12,6 +12,8 @@ ms.keywords: FilterGetDosName, FilterGetDosName function [Installable File Syste
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterGetDosName"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

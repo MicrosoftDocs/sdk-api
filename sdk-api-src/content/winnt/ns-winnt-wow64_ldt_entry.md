@@ -12,6 +12,8 @@ ms.keywords: '*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure po
 ms.topic: struct
 f1_keywords:
 - winnt/WOW64_LDT_ENTRY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],Reset method, Matrix.Reset, Matrix::Reset, Rese
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Reset"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

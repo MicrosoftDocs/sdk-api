@@ -12,6 +12,8 @@ ms.keywords: CreateDouble, CreateDouble method [Windows Runtime], CreateDouble m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateDouble"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

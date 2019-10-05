@@ -12,6 +12,8 @@ ms.keywords: IInkTransform interface [Tablet PC],eDy property, IInkTransform.eDy
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.eDy"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

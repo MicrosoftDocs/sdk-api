@@ -12,6 +12,8 @@ ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcCh
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcChannelBuffer.FreeBuffer"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

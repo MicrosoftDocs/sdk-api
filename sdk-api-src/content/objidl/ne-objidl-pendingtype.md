@@ -12,6 +12,8 @@ ms.keywords: PENDINGTYPE, PENDINGTYPE enumeration [COM], PENDINGTYPE_NESTED, PEN
 ms.topic: enum
 f1_keywords: 
  - "objidl/PENDINGTYPE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

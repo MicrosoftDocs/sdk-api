@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_INTERACTIVE_PROFILE, LOGON_EXTRA_SIDS, MSV1_0_INTERACTIVE
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_INTERACTIVE_PROFILE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

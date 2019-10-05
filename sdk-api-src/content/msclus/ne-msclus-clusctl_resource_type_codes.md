@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS, CLUSCTL_C
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSCTL_RESOURCE_TYPE_CODES"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

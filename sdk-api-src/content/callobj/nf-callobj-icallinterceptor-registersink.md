@@ -12,6 +12,8 @@ ms.keywords: ICallInterceptor interface [COM],RegisterSink method, ICallIntercep
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallInterceptor.RegisterSink"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

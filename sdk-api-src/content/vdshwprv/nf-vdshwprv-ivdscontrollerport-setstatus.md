@@ -12,6 +12,8 @@ ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsController
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsControllerPort.SetStatus
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

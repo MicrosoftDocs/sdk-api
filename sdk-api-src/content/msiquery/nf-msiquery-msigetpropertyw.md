@@ -12,6 +12,8 @@ ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPro
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetProperty"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

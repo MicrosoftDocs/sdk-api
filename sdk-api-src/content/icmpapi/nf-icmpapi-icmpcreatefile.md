@@ -12,6 +12,8 @@ ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcre
 ms.topic: function
 f1_keywords: 
  - "icmpapi/IcmpCreateFile"
+dev_langs:
+ - c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode met
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisual3.SetDepthMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

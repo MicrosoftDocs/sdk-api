@@ -12,6 +12,8 @@ ms.keywords: FWP_AF, FWP_AF enumeration [Filtering], FWP_AF_ETHER, FWP_AF_INET, 
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_AF"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

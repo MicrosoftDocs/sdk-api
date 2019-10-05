@@ -12,6 +12,8 @@ ms.keywords: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, WS_ENCODER_GET_CONTENT_TYPE_C
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

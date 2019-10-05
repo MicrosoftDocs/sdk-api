@@ -12,6 +12,8 @@ ms.keywords: IsZoomed, IsZoomed function [Windows and Messages], _win32_IsZoomed
 ms.topic: function
 f1_keywords: 
  - "winuser/IsZoomed"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

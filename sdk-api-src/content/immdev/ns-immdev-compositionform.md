@@ -12,6 +12,8 @@ ms.keywords: "*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSI
 ms.topic: struct
 f1_keywords: 
  - "immdev/COMPOSITIONFORM"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

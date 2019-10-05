@@ -12,6 +12,8 @@ ms.keywords: 6d57af93-82b7-a916-56c4-587636f7f9c4, D3D11_RESOURCE_DIMENSION, D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_RESOURCE_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

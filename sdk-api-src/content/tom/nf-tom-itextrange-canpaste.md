@@ -12,6 +12,8 @@ ms.keywords: CanPaste, CanPaste method [Windows Controls], CanPaste method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.CanPaste"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServerSelectio
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry.ServerSelection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

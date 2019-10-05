@@ -12,6 +12,8 @@ ms.keywords: CORRECTIVE_ACTION, CORRECTIVE_ACTION enumeration [Internationalizat
 ms.topic: enum
 f1_keywords: 
  - "spellcheck/CORRECTIVE_ACTION"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

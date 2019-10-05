@@ -12,6 +12,8 @@ ms.keywords: ExtendedProperties property [Windows Accessibility], ExtendedProper
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IStylesProvider.ExtendedProperties"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure
 ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_VIBRATION
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

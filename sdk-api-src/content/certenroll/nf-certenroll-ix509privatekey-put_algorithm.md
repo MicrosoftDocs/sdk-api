@@ -12,6 +12,8 @@ ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509P
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Algorithm"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

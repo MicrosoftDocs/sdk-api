@@ -12,6 +12,8 @@ ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFShutdown.Shutdown"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

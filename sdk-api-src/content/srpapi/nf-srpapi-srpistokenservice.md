@@ -12,6 +12,8 @@ ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService functio
 ms.topic: function
 f1_keywords: 
  - "srpapi/SrpIsTokenService"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

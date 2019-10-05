@@ -12,6 +12,8 @@ ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDevic
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDeviceManager3.SetDeviceEnumPreference"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

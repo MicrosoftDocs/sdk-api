@@ -12,6 +12,8 @@ ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor 
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptCreateProtectionDescriptor"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

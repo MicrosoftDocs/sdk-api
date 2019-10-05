@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_KEYMODULE_STATISTICS1, IKEEXT_KEYMODULE_STATISTICS1 structur
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_KEYMODULE_STATISTICS1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

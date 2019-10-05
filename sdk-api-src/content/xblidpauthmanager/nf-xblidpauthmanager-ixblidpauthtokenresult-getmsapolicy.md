@@ -12,6 +12,8 @@ ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthT
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaPolicy"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

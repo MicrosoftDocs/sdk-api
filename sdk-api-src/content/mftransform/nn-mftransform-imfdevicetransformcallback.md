@@ -12,6 +12,8 @@ ms.keywords: IMFDeviceTransformCallback, IMFDeviceTransformCallback interface [S
 ms.topic: interface
 f1_keywords: 
  - "mftransform/IMFDeviceTransformCallback"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

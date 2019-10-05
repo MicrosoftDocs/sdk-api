@@ -12,6 +12,8 @@ ms.keywords: 75eac96a-c0df-0efd-d403-6788e3cb6937, GetDesc1, GetDesc1 method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10_1/ID3D10ShaderResourceView1.GetDesc1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

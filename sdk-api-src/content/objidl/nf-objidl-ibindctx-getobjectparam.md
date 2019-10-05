@@ -12,6 +12,8 @@ ms.keywords: GetObjectParam, GetObjectParam method [COM], GetObjectParam method 
 ms.topic: method
 f1_keywords: 
  - "objidl/IBindCtx.GetObjectParam"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder 
 ms.topic: interface
 f1_keywords: 
  - "iwstdec/IAMWstDecoder"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: Bitmap::ApplyEffect
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Bitmap::ApplyEffect"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

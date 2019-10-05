@@ -12,6 +12,8 @@ ms.keywords: 433c1918-4b87-40b1-a32b-db5cdd74d769, GetOutputCurrentType, GetOutp
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetOutputCurrentType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetFlags"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

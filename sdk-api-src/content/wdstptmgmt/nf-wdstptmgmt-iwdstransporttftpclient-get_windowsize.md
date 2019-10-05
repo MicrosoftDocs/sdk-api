@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],Win
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient.WindowSize"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

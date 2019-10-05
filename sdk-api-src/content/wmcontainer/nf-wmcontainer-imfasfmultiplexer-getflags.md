@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Medi
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.GetFlags"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

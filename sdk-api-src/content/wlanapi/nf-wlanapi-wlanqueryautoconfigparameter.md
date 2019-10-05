@@ -12,6 +12,8 @@ ms.keywords: WlanQueryAutoConfigParameter, WlanQueryAutoConfigParameter function
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WlanQueryAutoConfigParameter"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

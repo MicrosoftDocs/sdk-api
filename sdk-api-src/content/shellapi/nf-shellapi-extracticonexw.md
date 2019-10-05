@@ -12,6 +12,8 @@ ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconE
 ms.topic: function
 f1_keywords: 
  - "shellapi/ExtractIconEx"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterSetEnrollmentParameters, EngineAdapterSetEnrollmentPar
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterSetEnrollmentParameters
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Quality, Quality structure [DirectShow], QualityStructure, dshow.qu
 ms.topic: struct
 f1_keywords: 
  - "strmif/Quality"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

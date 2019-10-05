@@ -12,6 +12,8 @@ ms.keywords: GetSystemTimeAdjustment, GetSystemTimeAdjustment function, _win32_g
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetSystemTimeAdjustment"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

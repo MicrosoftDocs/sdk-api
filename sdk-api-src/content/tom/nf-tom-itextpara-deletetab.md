@@ -12,6 +12,8 @@ ms.keywords: DeleteTab, DeleteTab method [Windows Controls], DeleteTab method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.DeleteTab"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPRESULTDATAITEM, LPRESULTDATAITEM, LPRESULTDATAITEM structure po
 ms.topic: struct
 f1_keywords: 
  - "mmc/RESULTDATAITEM"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPat
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReaderInfo.GetPatterns"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

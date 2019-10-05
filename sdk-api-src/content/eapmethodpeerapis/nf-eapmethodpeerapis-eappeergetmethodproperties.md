@@ -12,6 +12,8 @@ ms.keywords: EapPeerGetMethodProperties, EapPeerGetMethodProperties function [EA
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerGetMethodProperties
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

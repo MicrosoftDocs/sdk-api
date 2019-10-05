@@ -12,6 +12,8 @@ ms.keywords: IAMMediaTypeSample interface [DirectShow],SetActualDataLength metho
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.SetActualDataLength"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

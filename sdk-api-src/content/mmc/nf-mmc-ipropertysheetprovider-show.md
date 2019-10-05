@@ -12,6 +12,8 @@ ms.keywords: IPropertySheetProvider interface [MMC],Show method, IPropertySheetP
 ms.topic: method
 f1_keywords: 
  - "mmc/IPropertySheetProvider.Show"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

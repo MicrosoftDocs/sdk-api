@@ -12,6 +12,8 @@ ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStr
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

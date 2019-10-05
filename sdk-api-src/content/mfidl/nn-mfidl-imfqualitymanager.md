@@ -12,6 +12,8 @@ ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQuality
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFQualityManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

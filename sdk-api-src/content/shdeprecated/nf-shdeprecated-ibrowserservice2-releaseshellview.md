@@ -12,6 +12,8 @@ ms.keywords: IBrowserService2 interface [Windows Shell],ReleaseShellView method,
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.ReleaseShellView"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

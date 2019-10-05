@@ -12,6 +12,8 @@ ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap function [Buse
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_WriteIsochPipeAsap
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

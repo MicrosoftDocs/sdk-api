@@ -12,6 +12,8 @@ ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [D
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowExProps.GetCodecURL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

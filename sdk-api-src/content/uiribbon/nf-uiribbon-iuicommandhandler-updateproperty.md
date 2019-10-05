@@ -12,6 +12,8 @@ ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method,
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICommandHandler.UpdateProperty"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

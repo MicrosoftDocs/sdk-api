@@ -12,6 +12,8 @@ ms.keywords: CreateEllipticRgnIndirect, CreateEllipticRgnIndirect function [Wind
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateEllipticRgnIndirect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

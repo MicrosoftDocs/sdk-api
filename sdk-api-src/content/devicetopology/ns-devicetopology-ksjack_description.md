@@ -12,6 +12,8 @@ ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION struc
 ms.topic: struct
 f1_keywords: 
  - "devicetopology/KSJACK_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

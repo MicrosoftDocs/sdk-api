@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDIma
 ms.topic: interface
 f1_keywords:
 - imapi2/IRawCDImageCreator
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

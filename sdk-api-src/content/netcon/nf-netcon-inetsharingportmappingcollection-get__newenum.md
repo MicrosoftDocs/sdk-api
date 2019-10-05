@@ -12,6 +12,8 @@ ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get__NewEnum m
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMappingCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

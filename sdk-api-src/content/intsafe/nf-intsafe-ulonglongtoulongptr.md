@@ -12,6 +12,8 @@ ms.keywords: ULongLongToDWordPtr, ULongLongToSSIZET, ULongLongToULongPtr, ULongL
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongLongToULongPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

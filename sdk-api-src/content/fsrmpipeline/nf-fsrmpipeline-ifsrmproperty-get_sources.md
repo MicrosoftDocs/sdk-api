@@ -12,6 +12,8 @@ ms.keywords: IFsrmProperty interface [File Server Resource Manager],Sources prop
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmProperty.Sources"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

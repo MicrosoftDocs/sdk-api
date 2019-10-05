@@ -12,6 +12,8 @@ ms.keywords: MF_MSE_ERROR, MF_MSE_ERROR enumeration [Media Foundation], MF_MSE_E
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MSE_ERROR"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

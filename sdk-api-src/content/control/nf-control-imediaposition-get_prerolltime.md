@@ -12,6 +12,8 @@ ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMedi
 ms.topic: method
 f1_keywords: 
  - "control/IMediaPosition.get_PrerollTime"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], B
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSession.BeginSession"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

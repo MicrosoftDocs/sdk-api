@@ -12,6 +12,8 @@ ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider clas
 ms.topic: class
 f1_keywords: 
  - "provider/Provider"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

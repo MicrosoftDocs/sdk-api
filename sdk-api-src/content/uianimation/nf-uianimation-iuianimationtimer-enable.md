@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows A
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimer.Enable"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

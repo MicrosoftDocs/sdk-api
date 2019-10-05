@@ -12,6 +12,8 @@ ms.keywords: IEnumConnections interface [COM],Reset method, IEnumConnections.Res
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumConnections.Reset"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

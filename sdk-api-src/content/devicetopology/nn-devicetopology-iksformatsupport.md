@@ -12,6 +12,8 @@ ms.keywords: IKsFormatSupport, IKsFormatSupport interface [Core Audio], IKsForma
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IKsFormatSupport"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

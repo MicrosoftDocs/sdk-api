@@ -12,6 +12,8 @@ ms.keywords: IWMPMedia2 interface [Windows Media Player],get_error method, IWMPM
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMedia2.get_error"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

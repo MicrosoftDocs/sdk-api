@@ -12,6 +12,8 @@ ms.keywords: IShellMenu interface [Windows Shell],SetMenuToolbar method, IShellM
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellMenu.SetMenuToolbar"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

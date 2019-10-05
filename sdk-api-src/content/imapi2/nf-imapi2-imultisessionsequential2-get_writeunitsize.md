@@ -12,6 +12,8 @@ ms.keywords: IMultisessionSequential2 interface [IMAPI],get_WriteUnitSize method
 ms.topic: method
 f1_keywords: 
  - "imapi2/IMultisessionSequential2.get_WriteUnitSize"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

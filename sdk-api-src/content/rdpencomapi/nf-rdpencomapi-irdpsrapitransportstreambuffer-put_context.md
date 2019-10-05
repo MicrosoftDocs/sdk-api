@@ -12,6 +12,8 @@ ms.keywords: Context property [RDP], Context property [RDP],IRDPSRAPITransportSt
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStreamBuffer.Context"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

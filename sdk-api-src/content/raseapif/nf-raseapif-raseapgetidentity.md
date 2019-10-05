@@ -12,6 +12,8 @@ ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGO
 ms.topic: function
 f1_keywords:
 - raseapif/RasEapGetIdentity
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

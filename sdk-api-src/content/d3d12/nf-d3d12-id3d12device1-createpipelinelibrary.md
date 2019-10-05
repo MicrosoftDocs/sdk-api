@@ -12,6 +12,8 @@ ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipeline
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device1.CreatePipelineLibrary"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

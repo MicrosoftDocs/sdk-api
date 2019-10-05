@@ -12,6 +12,8 @@ ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.BoundaryTop"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

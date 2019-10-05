@@ -12,6 +12,8 @@ ms.keywords: DWRITE_UNDERLINE, DWRITE_UNDERLINE structure [Direct Write], direct
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_UNDERLINE"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

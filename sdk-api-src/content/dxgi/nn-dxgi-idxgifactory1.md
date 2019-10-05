@@ -12,6 +12,8 @@ ms.keywords: 57d28dd0-2a8f-0523-2200-4d14c74f01d6, IDXGIFactory1, IDXGIFactory1 
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIFactory1"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

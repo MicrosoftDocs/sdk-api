@@ -12,6 +12,8 @@ ms.keywords: GetBackupDirEx, GetBackupDirEx method [GPMC], GetBackupDirEx method
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM2.GetBackupDirEx"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

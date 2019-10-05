@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceconnectapi/IPortableDeviceConnector"
+dev_langs:
+ - c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

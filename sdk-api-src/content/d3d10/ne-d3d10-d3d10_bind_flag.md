@@ -12,6 +12,8 @@ ms.keywords: 7e986ece-3bd3-f96c-c7c8-27d21e16623f, D3D10_BIND_CONSTANT_BUFFER, D
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_BIND_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

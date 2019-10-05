@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [Win
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocationPower.Disconnect"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_WORD, CLUSPROP_WORD, CLUSPROP_WORD structure [Failover 
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_WORD"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSource
 ms.topic: method
 f1_keywords: 
  - "hrtfapoapi/IXAPOHrtfParameters.SetSourceOrientation"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

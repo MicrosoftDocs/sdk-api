@@ -12,6 +12,8 @@ ms.keywords: IFileOpenDialog, IFileOpenDialog interface [Windows Shell], IFileOp
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IFileOpenDialog"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

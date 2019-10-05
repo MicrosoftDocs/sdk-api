@@ -12,6 +12,8 @@ ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Win
 ms.topic: function
 f1_keywords: 
  - "webservices/WsReadEnvelopeEnd"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

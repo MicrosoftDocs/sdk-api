@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resourc
 ms.topic: interface
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

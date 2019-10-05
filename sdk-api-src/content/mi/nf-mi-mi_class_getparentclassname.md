@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetParentClassName, MI_Class_GetParentClassName function [
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetParentClassName"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

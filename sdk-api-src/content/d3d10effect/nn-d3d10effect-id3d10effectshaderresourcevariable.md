@@ -12,6 +12,8 @@ ms.keywords: 1d387c67-6113-ceab-9996-b2859123af67, ID3D10EffectShaderResourceVar
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderResourceVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

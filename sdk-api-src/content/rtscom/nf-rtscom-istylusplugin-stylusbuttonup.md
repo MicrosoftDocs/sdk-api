@@ -12,6 +12,8 @@ ms.keywords: IStylusPlugin interface [Tablet PC],StylusButtonUp method, IStylusP
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.StylusButtonUp"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

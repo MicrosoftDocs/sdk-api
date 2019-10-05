@@ -12,6 +12,8 @@ ms.keywords: '*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_
 ms.topic: struct
 f1_keywords:
 - ws2spi/NSP_ROUTINE, FAR * LPNSP_ROUTINE
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

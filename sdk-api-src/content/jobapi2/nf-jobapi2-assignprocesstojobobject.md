@@ -12,6 +12,8 @@ ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32
 ms.topic: function
 f1_keywords: 
  - "jobapi2/AssignProcessToJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows

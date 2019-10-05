@@ -12,6 +12,8 @@ ms.keywords: SetTapePosition, SetTapePosition function [Backup], TAPE_ABSOLUTE_B
 ms.topic: function
 f1_keywords: 
  - "winbase/SetTapePosition"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

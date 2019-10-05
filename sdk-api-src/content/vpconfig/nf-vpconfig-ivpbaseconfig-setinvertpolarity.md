@@ -12,6 +12,8 @@ ms.keywords: IVPBaseConfig interface [DirectShow],SetInvertPolarity method, IVPB
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPBaseConfig.SetInvertPolarity"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

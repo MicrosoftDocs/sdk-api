@@ -12,6 +12,8 @@ ms.keywords: EndIpAddress property [Windows Deployment Services], EndIpAddress p
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServicePolicy.EndIpAddress"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

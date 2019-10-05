@@ -12,6 +12,8 @@ ms.keywords: GetGdiCompatibleGlyphPlacements, GetGdiCompatibleGlyphPlacements me
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

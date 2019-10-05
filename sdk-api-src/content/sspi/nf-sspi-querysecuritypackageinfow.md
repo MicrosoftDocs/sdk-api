@@ -12,6 +12,8 @@ ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Securi
 ms.topic: function
 f1_keywords:
 - sspi/QuerySecurityPackageInfo
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

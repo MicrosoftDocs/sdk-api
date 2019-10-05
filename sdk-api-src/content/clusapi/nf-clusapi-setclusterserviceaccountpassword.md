@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVIC
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetClusterServiceAccountPassword"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMParseUnboundLicense, DRMParseUnboundLicense function [Active Dir
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMParseUnboundLicense"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

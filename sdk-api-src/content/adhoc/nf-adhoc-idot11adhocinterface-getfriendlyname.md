@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyName, GetFriendlyName method [NativeWIFI], GetFriendlyNa
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocInterface.GetFriendlyName"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

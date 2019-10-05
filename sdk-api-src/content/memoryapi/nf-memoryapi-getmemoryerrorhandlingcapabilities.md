@@ -12,6 +12,8 @@ ms.keywords: GetMemoryErrorHandlingCapabilities, GetMemoryErrorHandlingCapabilit
 ms.topic: function
 f1_keywords: 
  - "memoryapi/GetMemoryErrorHandlingCapabilities"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

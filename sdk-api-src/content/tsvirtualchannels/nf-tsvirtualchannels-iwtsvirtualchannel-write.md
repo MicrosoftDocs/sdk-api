@@ -12,6 +12,8 @@ ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannel.Write"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

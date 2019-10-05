@@ -12,6 +12,8 @@ ms.keywords: IMtsEvents interface [COM+],get_PackageName method, IMtsEvents.get_
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEvents.get_PackageName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

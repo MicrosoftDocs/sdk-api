@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Tas
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IRegisteredTaskCollection"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

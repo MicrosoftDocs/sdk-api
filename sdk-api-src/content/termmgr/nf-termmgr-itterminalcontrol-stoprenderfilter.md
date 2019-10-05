@@ -12,6 +12,8 @@ ms.keywords: ITTerminalControl interface [TAPI 2.2],StopRenderFilter method, ITT
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalControl.StopRenderFilter"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

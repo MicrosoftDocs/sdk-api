@@ -12,6 +12,8 @@ ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSou
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_EIT.GetSourceId"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

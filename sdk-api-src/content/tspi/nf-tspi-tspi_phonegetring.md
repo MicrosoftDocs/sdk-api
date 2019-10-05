@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneGetRing, TSPI_phoneGetRing function [TAPI 2.2], _tspi_tsp
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneGetRing"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface
 ms.topic: interface
 f1_keywords: 
  - "shappmgr/IShellApp"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

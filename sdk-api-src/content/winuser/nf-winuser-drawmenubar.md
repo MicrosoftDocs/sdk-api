@@ -12,6 +12,8 @@ ms.keywords: DrawMenuBar, DrawMenuBar function [Menus and Other Resources], _win
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawMenuBar"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_np
 ms.topic: function
 f1_keywords: 
  - "npapi/NPGetDirectoryType"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

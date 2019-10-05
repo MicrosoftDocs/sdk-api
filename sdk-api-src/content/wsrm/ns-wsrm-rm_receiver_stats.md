@@ -12,6 +12,8 @@ ms.keywords: RM_RECEIVER_STATS, RM_RECEIVER_STATS structure [Winsock], winsock.r
 ms.topic: struct
 f1_keywords:
 - wsrm/RM_RECEIVER_STATS
+dev_langs:
+ - c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMAGEHLP_EXTENDED_OPTIONS, IMAGEHLP_EXTENDED_OPTIONS enumeration, S
 ms.topic: enum
 f1_keywords: 
  - "dbghelp/IMAGEHLP_EXTENDED_OPTIONS"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

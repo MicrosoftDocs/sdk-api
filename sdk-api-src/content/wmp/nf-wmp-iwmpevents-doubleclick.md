@@ -12,6 +12,8 @@ ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.DoubleClick"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

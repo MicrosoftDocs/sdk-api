@@ -12,6 +12,8 @@ ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingArchive.ArchiveFolder"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

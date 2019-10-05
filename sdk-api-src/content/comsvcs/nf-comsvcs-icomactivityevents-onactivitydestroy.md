@@ -12,6 +12,8 @@ ms.keywords: IComActivityEvents interface [COM+],OnActivityDestroy method, IComA
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComActivityEvents.OnActivityDestroy"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

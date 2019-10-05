@@ -12,6 +12,8 @@ ms.keywords: GetColumn, GetColumn method [Windows Runtime], GetColumn method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetColumn"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

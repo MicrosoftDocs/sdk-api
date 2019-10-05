@@ -12,6 +12,8 @@ ms.keywords: ControlService, ControlService function, SERVICE_CONTROL_CONTINUE, 
 ms.topic: function
 f1_keywords:
 - winsvc/ControlService
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

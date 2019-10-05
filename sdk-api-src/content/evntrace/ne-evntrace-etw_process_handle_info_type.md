@@ -12,6 +12,8 @@ ms.keywords: ETW_PROCESS_HANDLE_INFO_TYPE, ETW_PROCESS_HANDLE_INFO_TYPE enumerat
 ms.topic: enum
 f1_keywords: 
  - "evntrace/ETW_PROCESS_HANDLE_INFO_TYPE"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

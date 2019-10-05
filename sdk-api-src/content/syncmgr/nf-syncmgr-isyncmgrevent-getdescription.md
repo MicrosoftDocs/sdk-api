@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescripti
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetDescription"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

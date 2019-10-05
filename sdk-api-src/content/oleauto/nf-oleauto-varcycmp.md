@@ -12,6 +12,8 @@ ms.keywords: VarCyCmp, VarCyCmp function [Automation], _oa96_VarCyCmp, automat.v
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyCmp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

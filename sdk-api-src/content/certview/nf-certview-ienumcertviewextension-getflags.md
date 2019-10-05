@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Security], GetFlags method [Security],IE
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWEXTENSION.GetFlags"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

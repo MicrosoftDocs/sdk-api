@@ -12,6 +12,8 @@ ms.keywords: 22632913-ab5d-3124-504e-d04b7e203897, GetInputSignatureElementDesc,
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderVariable.GetInputSignatureElementDesc"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

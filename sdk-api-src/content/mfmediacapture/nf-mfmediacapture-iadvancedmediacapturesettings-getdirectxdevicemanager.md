@@ -12,6 +12,8 @@ ms.keywords: GetDirectxDeviceManager, GetDirectxDeviceManager method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfmediacapture/IAdvancedMediaCaptureSettings.GetDirectxDeviceManager"
+dev_langs:
+ - c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

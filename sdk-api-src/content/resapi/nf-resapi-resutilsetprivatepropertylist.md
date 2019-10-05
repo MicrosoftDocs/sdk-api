@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_PRIVATE_PROPERTY_LIST, PRESUTIL_SET_PRIVATE_PROPERTY_L
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetPrivatePropertyList"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

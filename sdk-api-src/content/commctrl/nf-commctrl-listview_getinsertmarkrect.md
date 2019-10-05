@@ -12,6 +12,8 @@ ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetInsertMarkRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

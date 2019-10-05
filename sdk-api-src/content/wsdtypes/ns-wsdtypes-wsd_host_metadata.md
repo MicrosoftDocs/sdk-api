@@ -12,6 +12,8 @@ ms.keywords: WSD_HOST_METADATA, WSD_HOST_METADATA structure, ncd.wsd_host_metada
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_HOST_METADATA
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch me
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.CreateUserBatch"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

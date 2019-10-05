@@ -12,6 +12,8 @@ ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseint
 ms.topic: function
 f1_keywords: 
  - "traffic/TcCloseInterface"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

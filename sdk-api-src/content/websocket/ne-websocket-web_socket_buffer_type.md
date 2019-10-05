@@ -12,6 +12,8 @@ ms.keywords: WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_BINARY_MESSAGE_B
 ms.topic: enum
 f1_keywords: 
  - "websocket/WEB_SOCKET_BUFFER_TYPE"
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFr
 ms.topic: function
 f1_keywords: 
  - "ole2/OleLoadFromStream"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows

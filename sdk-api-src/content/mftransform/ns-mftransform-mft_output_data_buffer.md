@@ -12,6 +12,8 @@ ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MF
 ms.topic: struct
 f1_keywords: 
  - "mftransform/MFT_OUTPUT_DATA_BUFFER"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

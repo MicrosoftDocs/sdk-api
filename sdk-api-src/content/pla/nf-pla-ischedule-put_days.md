@@ -12,6 +12,8 @@ ms.keywords: Days property [PLA], Days property [PLA],ISchedule interface, ISche
 ms.topic: method
 f1_keywords: 
  - "pla/ISchedule.Days"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

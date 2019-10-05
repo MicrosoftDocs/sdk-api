@@ -12,6 +12,8 @@ ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalysisSource.GetNumberSubstitution"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

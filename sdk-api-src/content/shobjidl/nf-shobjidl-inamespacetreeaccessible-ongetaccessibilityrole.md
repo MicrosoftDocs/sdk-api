@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetAccessibili
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeAccessible.OnGetAccessibilityRole"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MakeInfinite, MakeInfinite method [GDI+], MakeInfinite method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.MakeInfinite"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

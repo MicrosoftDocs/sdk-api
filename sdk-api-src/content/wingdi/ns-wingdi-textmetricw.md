@@ -12,6 +12,8 @@ ms.keywords: "*LPTEXTMETRICW, *NPTEXTMETRICW, *PTEXTMETRICW, PTEXTMETRIC, PTEXTM
 ms.topic: struct
 f1_keywords: 
  - "wingdi/TEXTMETRIC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

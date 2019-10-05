@@ -12,6 +12,8 @@ ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IEx
 ms.topic: interface
 f1_keywords: 
  - "shdeprecated/IExpDispSupportXP"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

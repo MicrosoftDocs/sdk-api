@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevel meth
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.get_ISO9660InterchangeLevel"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

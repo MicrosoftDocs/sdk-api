@@ -12,6 +12,8 @@ ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHSt
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Compare"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

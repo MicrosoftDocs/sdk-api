@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY enume
 ms.topic: enum
 f1_keywords:
 - http/HTTP_503_RESPONSE_VERBOSITY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

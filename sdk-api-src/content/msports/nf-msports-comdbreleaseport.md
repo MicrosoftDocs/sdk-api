@@ -12,6 +12,8 @@ ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_d
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBReleasePort"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

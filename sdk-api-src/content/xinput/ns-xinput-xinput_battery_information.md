@@ -12,6 +12,8 @@ ms.keywords: '*PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION, PXINPUT
 ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_BATTERY_INFORMATION
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

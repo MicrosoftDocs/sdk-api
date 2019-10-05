@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureAuthenticate, ISCPSecureAuthenticate interface [windows M
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/ISCPSecureAuthenticate"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

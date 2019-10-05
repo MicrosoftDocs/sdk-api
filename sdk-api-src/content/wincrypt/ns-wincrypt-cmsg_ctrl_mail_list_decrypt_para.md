@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PA
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

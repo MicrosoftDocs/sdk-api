@@ -12,6 +12,8 @@ ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IOleObjec
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.GetExtent"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

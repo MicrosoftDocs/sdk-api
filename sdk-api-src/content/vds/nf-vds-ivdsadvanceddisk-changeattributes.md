@@ -12,6 +12,8 @@ ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes m
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.ChangeAttributes
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParameterVersion, GetParameterVersion method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSIParameterDescriptor.GetParameterVersion"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

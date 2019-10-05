@@ -12,6 +12,8 @@ ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferSource.ApplyPropertiesToItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWiaLogEx interface [WIA],InitializeLogEx method, IWiaLogEx.Initial
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaLogEx.InitializeLogEx"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

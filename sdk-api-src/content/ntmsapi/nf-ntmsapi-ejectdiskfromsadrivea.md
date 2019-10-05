@@ -12,6 +12,8 @@ ms.keywords: EjectDiskFromSADrive, EjectDiskFromSADrive function [Files], EjectD
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EjectDiskFromSADrive"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

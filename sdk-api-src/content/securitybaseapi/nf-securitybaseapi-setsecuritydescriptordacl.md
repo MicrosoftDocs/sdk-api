@@ -12,6 +12,8 @@ ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Secu
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetSecurityDescriptorDacl
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

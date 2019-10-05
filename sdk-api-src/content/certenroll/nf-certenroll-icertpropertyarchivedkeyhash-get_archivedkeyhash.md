@@ -12,6 +12,8 @@ ms.keywords: ArchivedKeyHash property [Security], ArchivedKeyHash property [Secu
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyArchivedKeyHash.ArchivedKeyHash"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

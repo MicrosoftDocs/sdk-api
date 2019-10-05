@@ -12,6 +12,8 @@ ms.keywords: RpcImpersonateClientContainer, RpcImpersonateClientContainer functi
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcImpersonateClientContainer"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

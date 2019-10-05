@@ -12,6 +12,8 @@ ms.keywords: GetHangingPunctuation, GetHangingPunctuation method [Windows Contro
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.GetHangingPunctuation"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

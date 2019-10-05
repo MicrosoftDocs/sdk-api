@@ -12,6 +12,8 @@ ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_wai
 ms.topic: function
 f1_keywords: 
  - "synchapi/WaitForMultipleObjects"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

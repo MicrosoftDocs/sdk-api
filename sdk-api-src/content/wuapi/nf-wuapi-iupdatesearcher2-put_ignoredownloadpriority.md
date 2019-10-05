@@ -12,6 +12,8 @@ ms.keywords: IUpdateSearcher2 interface [Windows Update Agent],IgnoreDownloadPri
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSearcher2.IgnoreDownloadPriority"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

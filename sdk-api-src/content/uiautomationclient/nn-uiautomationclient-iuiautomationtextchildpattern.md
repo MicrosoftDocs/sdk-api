@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interf
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextChildPattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

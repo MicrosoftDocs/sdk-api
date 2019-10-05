@@ -12,6 +12,8 @@ ms.keywords: ILocationEvents interface [WinLocation],OnLocationChanged method, I
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocationEvents.OnLocationChanged"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

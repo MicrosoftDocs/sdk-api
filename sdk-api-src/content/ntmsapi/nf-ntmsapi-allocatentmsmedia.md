@@ -12,6 +12,8 @@ ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCAT
 ms.topic: function
 f1_keywords:
 - ntmsapi/AllocateNtmsMedia
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

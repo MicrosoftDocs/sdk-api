@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEDEVCAPS, LINEDEVCAPS, LINEDEVCAPS structure [TAPI 2.2], LPL
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEDEVCAPS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

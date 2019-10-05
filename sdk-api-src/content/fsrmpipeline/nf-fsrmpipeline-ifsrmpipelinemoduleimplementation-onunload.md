@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleImplementation.OnUnload"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

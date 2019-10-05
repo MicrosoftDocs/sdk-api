@@ -12,6 +12,8 @@ ms.keywords: InterlockedBitTestAndSet64, InterlockedBitTestAndSet64 function, _i
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedBitTestAndSet64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

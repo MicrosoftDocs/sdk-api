@@ -12,6 +12,8 @@ ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Fram
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarEventSink.GetItemFloatingRect"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUTF8 meth
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx.SessionFlagUTF8"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFM
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaSession"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

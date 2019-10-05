@@ -12,6 +12,8 @@ ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries,
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofEnumEntries"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

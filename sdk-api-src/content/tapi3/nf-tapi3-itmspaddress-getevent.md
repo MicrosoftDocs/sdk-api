@@ -12,6 +12,8 @@ ms.keywords: GetEvent, GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2],IT
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITMSPAddress.GetEvent"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

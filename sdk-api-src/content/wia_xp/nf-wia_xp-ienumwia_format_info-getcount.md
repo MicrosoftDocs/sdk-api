@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_FOR
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWIA_FORMAT_INFO.GetCount"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

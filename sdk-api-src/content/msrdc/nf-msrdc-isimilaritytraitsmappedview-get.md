@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remo
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMappedView.Get"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

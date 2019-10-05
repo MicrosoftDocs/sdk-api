@@ -12,6 +12,8 @@ ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internation
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_FONTPROPERTIES"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

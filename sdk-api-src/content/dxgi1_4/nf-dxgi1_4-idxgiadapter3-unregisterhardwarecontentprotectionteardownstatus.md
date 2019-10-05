@@ -12,6 +12,8 @@ ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterHardwareContentProtectionT
 ms.topic: method
 f1_keywords: 
  - "dxgi1_4/IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDEventingStatus interface,SubscriptionEnded method, IWSDEventing
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDEventingStatus.SubscriptionEnded"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

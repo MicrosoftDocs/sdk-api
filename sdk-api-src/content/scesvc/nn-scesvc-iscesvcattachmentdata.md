@@ -12,6 +12,8 @@ ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], 
 ms.topic: interface
 f1_keywords: 
  - "scesvc/ISceSvcAttachmentData"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

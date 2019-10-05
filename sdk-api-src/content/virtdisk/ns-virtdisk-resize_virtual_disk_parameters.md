@@ -12,6 +12,8 @@ ms.keywords: '*PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS,
 ms.topic: struct
 f1_keywords:
 - virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

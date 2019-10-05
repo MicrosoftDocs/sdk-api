@@ -12,6 +12,8 @@ ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptImportPublicKeyInfoEx2
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

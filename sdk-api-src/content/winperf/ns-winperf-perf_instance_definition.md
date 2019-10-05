@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANC
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_INSTANCE_DEFINITION
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

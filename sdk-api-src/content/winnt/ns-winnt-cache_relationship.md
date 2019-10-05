@@ -12,6 +12,8 @@ ms.keywords: '*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP struc
 ms.topic: struct
 f1_keywords:
 - winnt/CACHE_RELATIONSHIP
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

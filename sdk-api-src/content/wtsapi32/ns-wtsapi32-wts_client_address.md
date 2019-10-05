@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS str
 ms.topic: struct
 f1_keywords: 
  - "wtsapi32/WTS_CLIENT_ADDRESS"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

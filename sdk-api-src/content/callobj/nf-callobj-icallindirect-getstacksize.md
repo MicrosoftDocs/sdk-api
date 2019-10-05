@@ -12,6 +12,8 @@ ms.keywords: GetStackSize, GetStackSize method [COM], GetStackSize method [COM],
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallIndirect.GetStackSize"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITuner interface [Microsoft TV Technologies],TriggerSignalEvents me
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.TriggerSignalEvents"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

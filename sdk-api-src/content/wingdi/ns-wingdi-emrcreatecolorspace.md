@@ -12,6 +12,8 @@ ms.keywords: "*PEMRCREATECOLORSPACE, EMRCREATECOLORSPACE, EMRCREATECOLORSPACE st
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRCREATECOLORSPACE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

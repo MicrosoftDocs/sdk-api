@@ -12,6 +12,8 @@ ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAl
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithm.IncrementLength"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

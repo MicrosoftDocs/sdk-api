@@ -12,6 +12,8 @@ ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2.CreateReversalTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetZIndex, GetZIndex method [Media Foundation], GetZIndex method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetZIndex"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BoundaryBottom property [Windows Touch], BoundaryBottom property [W
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.BoundaryBottom"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

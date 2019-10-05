@@ -12,6 +12,8 @@ ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSigna
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

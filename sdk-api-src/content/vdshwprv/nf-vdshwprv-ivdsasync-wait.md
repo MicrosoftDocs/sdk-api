@@ -12,6 +12,8 @@ ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::W
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsAsync.Wait
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

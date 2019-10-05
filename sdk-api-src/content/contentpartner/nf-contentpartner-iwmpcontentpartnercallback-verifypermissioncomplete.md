@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],VerifyP
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.VerifyPermissionComplete"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

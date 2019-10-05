@@ -12,6 +12,8 @@ ms.keywords: OLECMDTEXTF, OLECMDTEXTF enumeration [COM], OLECMDTEXTF_NAME, OLECM
 ms.topic: enum
 f1_keywords:
 - docobj/OLECMDTEXTF
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

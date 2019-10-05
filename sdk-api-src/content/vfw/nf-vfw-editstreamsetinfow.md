@@ -12,6 +12,8 @@ ms.keywords: EditStreamSetInfo, EditStreamSetInfo function [Windows Multimedia],
 ms.topic: function
 f1_keywords:
 - vfw/EditStreamSetInfo
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method,
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWEInvokeCommand.InvokeCommand"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFiringControl, IFiringControl interface [COM+], IFiringControl int
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IFiringControl"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

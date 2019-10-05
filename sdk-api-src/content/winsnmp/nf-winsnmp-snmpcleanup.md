@@ -12,6 +12,8 @@ ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpCleanup"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRowsetEvents interface [search],OnChangedItem method, IRowsetEvent
 ms.topic: method
 f1_keywords: 
  - "searchapi/IRowsetEvents.OnChangedItem"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

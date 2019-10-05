@@ -12,6 +12,8 @@ ms.keywords: "*PFH_DEVICE_VALIDATION_RESULT, FH_ACCESS_DENIED, FH_CURRENT_DEFAUL
 ms.topic: enum
 f1_keywords: 
  - "fhcfg/FH_DEVICE_VALIDATION_RESULT"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

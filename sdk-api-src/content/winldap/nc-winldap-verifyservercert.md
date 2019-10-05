@@ -12,6 +12,8 @@ ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callb
 ms.topic: callback
 f1_keywords:
 - winldap/VERIFYSERVERCERT
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

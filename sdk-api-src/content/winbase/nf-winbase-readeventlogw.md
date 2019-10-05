@@ -12,6 +12,8 @@ ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ
 ms.topic: function
 f1_keywords:
 - winbase/ReadEventLog
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

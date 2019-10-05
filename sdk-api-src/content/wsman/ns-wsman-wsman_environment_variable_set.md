@@ -12,6 +12,8 @@ ms.keywords: WSMAN_ENVIRONMENT_VARIABLE_SET, WSMAN_ENVIRONMENT_VARIABLE_SET stru
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_ENVIRONMENT_VARIABLE_SET
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPNMRBAUTOSIZE, LPNMRBAUTOSIZE, LPNMRBAUTOSIZE structure pointer 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMRBAUTOSIZE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

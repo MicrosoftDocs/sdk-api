@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO, FILE_END_OF_FILE_I
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_END_OF_FILE_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

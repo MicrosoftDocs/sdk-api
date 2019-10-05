@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERT
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWEXTENSION.Reset"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

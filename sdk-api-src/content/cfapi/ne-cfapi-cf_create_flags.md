@@ -12,6 +12,8 @@ ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, 
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CREATE_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Propert
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyStoreCache"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

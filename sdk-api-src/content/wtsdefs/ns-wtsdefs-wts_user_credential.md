@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_USER_CREDENTIAL, PWRDS_USER_CREDENTIAL, PWRDS_USER_CREDENTIA
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_USER_CREDENTIAL"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

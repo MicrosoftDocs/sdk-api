@@ -12,6 +12,8 @@ ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary interface
 ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.RegisterWord
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

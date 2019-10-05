@@ -12,6 +12,8 @@ ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOff method, ITCustomTo
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCustomTone.put_CadenceOff"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

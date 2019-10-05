@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY str
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_AUDIT_POLICY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

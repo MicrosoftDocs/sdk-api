@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadHalf2, XMLoadHalf2, XMLoadHalf2 method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadHalf2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

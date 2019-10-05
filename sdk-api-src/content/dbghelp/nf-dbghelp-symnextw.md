@@ -12,6 +12,8 @@ ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext,
 ms.topic: function
 f1_keywords:
 - dbghelp/SymNext
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [
 ms.topic: function
 f1_keywords: 
  - "psapi/InitializeProcessForWsWatch"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

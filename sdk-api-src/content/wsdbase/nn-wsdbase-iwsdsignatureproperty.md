@@ -12,6 +12,8 @@ ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatu
 ms.topic: interface
 f1_keywords: 
  - "wsdbase/IWSDSignatureProperty"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

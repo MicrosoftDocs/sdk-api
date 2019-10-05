@@ -12,6 +12,8 @@ ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFe
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumFeedClockVector.Reset"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

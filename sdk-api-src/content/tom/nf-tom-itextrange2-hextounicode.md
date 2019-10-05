@@ -12,6 +12,8 @@ ms.keywords: HexToUnicode, HexToUnicode method [Windows Controls], HexToUnicode 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.HexToUnicode"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

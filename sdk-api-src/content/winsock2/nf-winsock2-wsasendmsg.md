@@ -12,6 +12,8 @@ ms.keywords: WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, wins
 ms.topic: function
 f1_keywords:
 - winsock2/WSASendMsg
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Mswsock.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_capControlCallback, capControlCallback, capControlCallback 
 ms.topic: callback
 f1_keywords: 
  - "vfw/capControlCallback"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

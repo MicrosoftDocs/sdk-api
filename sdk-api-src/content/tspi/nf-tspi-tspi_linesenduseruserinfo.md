@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineSendUserUserInfo, TSPI_lineSendUserUserInfo function [TAPI
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineSendUserUserInfo"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

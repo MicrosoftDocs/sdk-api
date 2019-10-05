@@ -12,6 +12,8 @@ ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.DeleteItems"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

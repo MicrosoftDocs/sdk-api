@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged met
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionEvents.OnDisplayNameChanged"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

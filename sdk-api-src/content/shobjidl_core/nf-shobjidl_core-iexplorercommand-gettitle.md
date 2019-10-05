@@ -12,6 +12,8 @@ ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerCommand.GetTitle"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

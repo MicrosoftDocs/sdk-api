@@ -12,6 +12,8 @@ ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL str
 ms.topic: struct
 f1_keywords: 
  - "richedit/REPASTESPECIAL"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

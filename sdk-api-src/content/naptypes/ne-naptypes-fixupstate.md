@@ -12,6 +12,8 @@ ms.keywords: FixupState, FixupState enumeration [NAP], fixupStateCouldNotUpdate,
 ms.topic: enum
 f1_keywords: 
  - "naptypes/FixupState"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflection.GetConstantBufferByIndex"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

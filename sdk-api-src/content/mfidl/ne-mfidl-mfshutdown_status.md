@@ -12,6 +12,8 @@ ms.keywords: MFSHUTDOWN_COMPLETED, MFSHUTDOWN_INITIATED, MFSHUTDOWN_STATUS, MFSH
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSHUTDOWN_STATUS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

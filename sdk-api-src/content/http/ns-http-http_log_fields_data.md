@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA structure [HTTP], H
 ms.topic: struct
 f1_keywords:
 - http/HTTP_LOG_FIELDS_DATA
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

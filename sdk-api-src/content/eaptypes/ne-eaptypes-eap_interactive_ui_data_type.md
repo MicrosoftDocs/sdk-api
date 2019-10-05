@@ -12,6 +12,8 @@ ms.keywords: EAP_INTERACTIVE_UI_DATA_TYPE, EAP_INTERACTIVE_UI_DATA_TYPE enumerat
 ms.topic: enum
 f1_keywords: 
  - "eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE"
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

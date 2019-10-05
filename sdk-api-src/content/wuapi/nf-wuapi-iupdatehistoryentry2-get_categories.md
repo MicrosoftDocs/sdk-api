@@ -12,6 +12,8 @@ ms.keywords: Categories property [Windows Update Agent], Categories property [Wi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry2.Categories"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AMMPEG2_27MhzTimebase, AMMPEG2_DSS_UserData, AMMPEG2_DVB_UserData, 
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/MPEG2VIDEOINFO"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetVideoAttributes
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTranscodeProfile.SetVideoAttributes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

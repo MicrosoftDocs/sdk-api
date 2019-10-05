@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescr
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglDescribeLayerPlane"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

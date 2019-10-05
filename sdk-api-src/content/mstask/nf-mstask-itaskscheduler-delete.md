@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Task Scheduler], Delete method [Task Schedul
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.Delete"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

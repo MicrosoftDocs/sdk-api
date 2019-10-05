@@ -12,6 +12,8 @@ ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IV
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IVisualProperties.SetWatermark"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

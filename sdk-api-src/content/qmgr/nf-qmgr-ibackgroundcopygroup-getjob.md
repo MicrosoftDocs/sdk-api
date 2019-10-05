@@ -12,6 +12,8 @@ ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyG
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.GetJob"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

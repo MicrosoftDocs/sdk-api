@@ -12,6 +12,8 @@ ms.keywords: ImageList_Remove, ImageList_Remove function [Windows Controls], _wi
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Remove"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

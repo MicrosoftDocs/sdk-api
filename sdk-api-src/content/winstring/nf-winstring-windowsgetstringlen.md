@@ -12,6 +12,8 @@ ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime]
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsGetStringLen"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

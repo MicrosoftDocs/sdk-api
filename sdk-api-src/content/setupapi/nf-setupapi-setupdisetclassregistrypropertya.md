@@ -12,6 +12,8 @@ ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty fu
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassRegistryProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

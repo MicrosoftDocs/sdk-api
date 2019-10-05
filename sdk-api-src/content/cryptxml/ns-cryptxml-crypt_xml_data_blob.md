@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB st
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_DATA_BLOB"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

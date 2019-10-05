@@ -12,6 +12,8 @@ ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Skip met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICEnumMetadataItem.Skip"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

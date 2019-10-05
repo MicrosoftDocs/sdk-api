@@ -12,6 +12,8 @@ ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_Open"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

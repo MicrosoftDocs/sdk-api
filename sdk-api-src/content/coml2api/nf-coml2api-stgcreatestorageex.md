@@ -12,6 +12,8 @@ ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, Stg
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgCreateStorageEx"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 12c23e83-63d7-9b87-4fe7-75e515f02660, HSSetShader, HSSetShader meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.HSSetShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

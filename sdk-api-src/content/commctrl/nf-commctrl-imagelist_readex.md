@@ -12,6 +12,8 @@ ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx funct
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_ReadEx"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

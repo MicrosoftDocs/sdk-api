@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface 
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRangeArray"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBroadcastViewPropriety, GetBroadcastViewPropriety method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_BIT.GetBroadcastViewPropriety"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

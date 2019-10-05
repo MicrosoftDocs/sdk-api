@@ -12,6 +12,8 @@ ms.keywords: IWindowProvider interface [Windows Accessibility],WindowInteraction
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IWindowProvider.WindowInteractionState"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

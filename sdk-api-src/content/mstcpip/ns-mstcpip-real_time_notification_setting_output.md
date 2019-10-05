@@ -12,6 +12,8 @@ ms.keywords: '*PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_S
 ms.topic: struct
 f1_keywords:
 - mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

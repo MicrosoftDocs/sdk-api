@@ -12,6 +12,8 @@ ms.keywords: SetupQueryDrivesInDiskSpaceList, SetupQueryDrivesInDiskSpaceList fu
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupQueryDrivesInDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

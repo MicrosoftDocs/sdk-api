@@ -12,6 +12,8 @@ ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems inter
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IEnumFsiItems"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

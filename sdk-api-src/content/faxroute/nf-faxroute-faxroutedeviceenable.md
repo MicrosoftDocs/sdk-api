@@ -12,6 +12,8 @@ ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], 
 ms.topic: function
 f1_keywords: 
  - "faxroute/FaxRouteDeviceEnable"
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

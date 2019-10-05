@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, 
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.put_accValue"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

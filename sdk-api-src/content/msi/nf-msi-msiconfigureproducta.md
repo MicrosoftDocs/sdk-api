@@ -12,6 +12,8 @@ ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, I
 ms.topic: function
 f1_keywords: 
  - "msi/MsiConfigureProduct"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

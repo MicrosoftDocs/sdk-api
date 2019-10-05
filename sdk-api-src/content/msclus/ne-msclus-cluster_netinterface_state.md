@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_NETINTERFACE_STATE, CLUSTER_NETINTERFACE_STATE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_NETINTERFACE_STATE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

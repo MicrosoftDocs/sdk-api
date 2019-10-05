@@ -12,6 +12,8 @@ ms.keywords: CreateHatchBrush, CreateHatchBrush function [Windows GDI], HS_BDIAG
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateHatchBrush"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

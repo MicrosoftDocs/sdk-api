@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [Windows Controls],SetImageCount method, IImag
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.SetImageCount"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

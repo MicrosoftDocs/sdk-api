@@ -12,6 +12,8 @@ ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList meth
 ms.topic: method
 f1_keywords: 
  - "shidfact/GetPropertyFromIDList.GetPropertyFromIDList"
+dev_langs:
+ - c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

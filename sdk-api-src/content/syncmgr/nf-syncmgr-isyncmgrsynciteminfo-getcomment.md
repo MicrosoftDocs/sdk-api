@@ -12,6 +12,8 @@ ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [W
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItemInfo.GetComment"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

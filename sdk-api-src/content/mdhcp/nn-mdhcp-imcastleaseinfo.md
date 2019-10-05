@@ -12,6 +12,8 @@ ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseI
 ms.topic: interface
 f1_keywords: 
  - "mdhcp/IMcastLeaseInfo"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSource, GetSource method [Automation], GetSource method [Automat
 ms.topic: method
 f1_keywords: 
  - "oaidl/IErrorInfo.GetSource"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

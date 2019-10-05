@@ -12,6 +12,8 @@ ms.keywords: ISynchronizeEvent interface [COM],SetEventHandle method, ISynchroni
 ms.topic: method
 f1_keywords: 
  - "objidl/ISynchronizeEvent.SetEventHandle"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_D
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

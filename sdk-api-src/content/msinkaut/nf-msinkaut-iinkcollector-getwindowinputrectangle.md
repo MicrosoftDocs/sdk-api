@@ -12,6 +12,8 @@ ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetW
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.GetWindowInputRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

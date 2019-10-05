@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKE
 ms.topic: enum
 f1_keywords:
 - ntsecpkg/LSA_TOKEN_INFORMATION_TYPE
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

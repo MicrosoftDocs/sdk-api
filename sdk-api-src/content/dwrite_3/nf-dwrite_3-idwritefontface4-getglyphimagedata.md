@@ -12,6 +12,8 @@ ms.keywords: GetGlyphImageData, GetGlyphImageData method [Direct Write], GetGlyp
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace4.GetGlyphImageData"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

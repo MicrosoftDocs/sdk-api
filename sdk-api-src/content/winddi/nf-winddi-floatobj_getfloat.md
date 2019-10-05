@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_GetFloat, FLOATOBJ_GetFloat function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_GetFloat
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

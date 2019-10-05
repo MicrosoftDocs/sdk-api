@@ -12,6 +12,8 @@ ms.keywords: ListView_GetGroupState, ListView_GetGroupState macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetGroupState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

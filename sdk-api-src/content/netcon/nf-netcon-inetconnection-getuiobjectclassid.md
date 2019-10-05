@@ -12,6 +12,8 @@ ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjec
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.GetUiObjectClassId"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

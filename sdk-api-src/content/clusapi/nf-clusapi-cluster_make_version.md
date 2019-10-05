@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_MAKE_VERSION, CLUSTER_MAKE_VERSION macro [Failover Cluster]
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSTER_MAKE_VERSION"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

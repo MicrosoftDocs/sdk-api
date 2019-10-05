@@ -12,6 +12,8 @@ ms.keywords: Expand, Expand method [Windows Accessibility], Expand method [Windo
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IExpandCollapseProvider.Expand"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

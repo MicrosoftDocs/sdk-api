@@ -12,6 +12,8 @@ ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Pack
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.GetTransformLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

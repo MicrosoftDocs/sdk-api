@@ -12,6 +12,8 @@ ms.keywords: TBS_OWNERAUTH_TYPE_ADMIN, TBS_OWNERAUTH_TYPE_ENDORSEMENT, TBS_OWNER
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsi_Get_OwnerAuth"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

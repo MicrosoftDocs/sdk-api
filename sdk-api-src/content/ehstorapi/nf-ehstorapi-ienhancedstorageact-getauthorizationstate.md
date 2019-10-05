@@ -12,6 +12,8 @@ ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Stora
 ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageACT.GetAuthorizationState
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

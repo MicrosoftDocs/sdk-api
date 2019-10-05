@@ -12,6 +12,8 @@ ms.keywords: IExpandCollapseProvider, IExpandCollapseProvider interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IExpandCollapseProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework]
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.GetFormattedText"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

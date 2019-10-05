@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMCameraCont
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMCameraControl.Get"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

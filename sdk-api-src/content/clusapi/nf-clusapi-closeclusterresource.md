@@ -12,6 +12,8 @@ ms.keywords: CloseClusterResource, CloseClusterResource function [Failover Clust
 ms.topic: function
 f1_keywords: 
  - "clusapi/CloseClusterResource"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

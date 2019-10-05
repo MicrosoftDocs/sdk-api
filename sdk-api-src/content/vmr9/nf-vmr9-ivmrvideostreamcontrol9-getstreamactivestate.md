@@ -12,6 +12,8 @@ ms.keywords: GetStreamActiveState, GetStreamActiveState method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRVideoStreamControl9.GetStreamActiveState"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

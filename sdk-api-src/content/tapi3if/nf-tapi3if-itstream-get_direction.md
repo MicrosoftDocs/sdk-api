@@ -12,6 +12,8 @@ ms.keywords: ITStream interface [TAPI 2.2],get_Direction method, ITStream.get_Di
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITStream.get_Direction"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_P
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_FIND_SUBJECT_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

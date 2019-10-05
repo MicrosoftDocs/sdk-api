@@ -12,6 +12,8 @@ ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialContr
 ms.topic: method
 f1_keywords: 
  - "radialcontrollerinterop/IRadialControllerConfigurationInterop.GetForWindow"
+dev_langs:
+ - c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows

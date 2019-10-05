@@ -12,6 +12,8 @@ ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx
 ms.topic: function
 f1_keywords:
 - winnls/GetCPInfoEx
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

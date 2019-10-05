@@ -12,6 +12,8 @@ ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], I
 ms.topic: interface
 f1_keywords: 
  - "msaatext/IAccDictionary"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

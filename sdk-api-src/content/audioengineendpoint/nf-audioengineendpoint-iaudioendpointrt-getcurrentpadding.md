@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPadding, GetCurrentPadding method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointRT.GetCurrentPadding"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

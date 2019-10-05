@@ -10,6 +10,8 @@ ms.keywords: DWRITE_FONT_AXIS_RANGE, DWRITE_FONT_AXIS_RANGE structure [Direct Wr
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_AXIS_RANGE"
+dev_langs:
+ - c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 

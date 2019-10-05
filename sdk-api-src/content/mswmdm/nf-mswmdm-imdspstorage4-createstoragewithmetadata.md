@@ -12,6 +12,8 @@ ms.keywords: CreateStorageWithMetadata, CreateStorageWithMetadata method [window
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage4.CreateStorageWithMetadata"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR structure po
 ms.topic: struct
 f1_keywords: 
  - "qos/QOS_OBJECT_HDR"
+dev_langs:
+ - c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

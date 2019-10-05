@@ -12,6 +12,8 @@ ms.keywords: GetRawAlertTextLen, GetRawAlertTextLen method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetRawAlertTextLen"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MSVidCtlStateList, MSVidCtlStateList enumeration [Microsoft TV Tech
 ms.topic: enum
 f1_keywords: 
  - "msvidctl/MSVidCtlStateList"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: Dshow.h
 req.target-type: Windows

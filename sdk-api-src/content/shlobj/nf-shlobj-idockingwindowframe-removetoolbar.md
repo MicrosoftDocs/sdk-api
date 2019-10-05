@@ -12,6 +12,8 @@ ms.keywords: DWFRF_DELETECONFIGDATA, DWFRF_NORMAL, IDockingWindowFrame interface
 ms.topic: method
 f1_keywords: 
  - "shlobj/IDockingWindowFrame.RemoveToolbar"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

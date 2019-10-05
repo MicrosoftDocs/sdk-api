@@ -12,6 +12,8 @@ ms.keywords: LSA_AP_LOGON_TERMINATED, LSA_AP_LOGON_TERMINATED callback, LsaApLog
 ms.topic: callback
 f1_keywords: 
  - "ntsecpkg/LsaApLogonTerminated"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnableSimilarity, EnableSimilarity method [Remote Differential Comp
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcSimilarityGenerator.EnableSimilarity"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

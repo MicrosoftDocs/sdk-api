@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TUNNEL_ENDPOINTS1, IPSEC_TUNNEL_ENDPOINTS1 structure [Filteri
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_TUNNEL_ENDPOINTS1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WM_MEDIA_TYPE, WM_MEDIA_TYPE structure [windows Media Format], wmfo
 ms.topic: struct
 f1_keywords:
 - wmsdkidl/WM_MEDIA_TYPE
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

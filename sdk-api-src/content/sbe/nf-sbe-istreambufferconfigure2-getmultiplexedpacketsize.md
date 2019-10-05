@@ -12,6 +12,8 @@ ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsof
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure2.GetMultiplexedPacketSize"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

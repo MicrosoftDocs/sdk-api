@@ -12,6 +12,8 @@ ms.keywords: IS_TEXT_UNICODE_ASCII16, IS_TEXT_UNICODE_BUFFER_TOO_SMALL, IS_TEXT_
 ms.topic: function
 f1_keywords: 
  - "winbase/IsTextUnicode"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

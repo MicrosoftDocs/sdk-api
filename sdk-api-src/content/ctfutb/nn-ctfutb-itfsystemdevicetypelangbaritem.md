@@ -12,6 +12,8 @@ ms.keywords: ITfSystemDeviceTypeLangBarItem, ITfSystemDeviceTypeLangBarItem inte
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfSystemDeviceTypeLangBarItem"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

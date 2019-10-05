@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmPropertyCondition.Delete"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

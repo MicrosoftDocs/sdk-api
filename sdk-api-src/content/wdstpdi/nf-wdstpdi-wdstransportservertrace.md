@@ -12,6 +12,8 @@ ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_T
 ms.topic: function
 f1_keywords: 
  - "wdstpdi/WdsTransportServerTrace"
+dev_langs:
+ - c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

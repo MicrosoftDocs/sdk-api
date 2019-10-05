@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeI
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.SetMops"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

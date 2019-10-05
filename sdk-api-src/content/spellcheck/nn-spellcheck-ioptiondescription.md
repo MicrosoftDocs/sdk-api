@@ -12,6 +12,8 @@ ms.keywords: IOptionDescription, IOptionDescription interface [Internationalizat
 ms.topic: interface
 f1_keywords: 
  - "spellcheck/IOptionDescription"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

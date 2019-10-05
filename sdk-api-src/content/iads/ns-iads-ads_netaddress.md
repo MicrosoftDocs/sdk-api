@@ -12,6 +12,8 @@ ms.keywords: "*PADS_NETADDRESS, ADS_NETADDRESS, ADS_NETADDRESS structure [ADSI],
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_NETADDRESS"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcIfInqId, RpcIfInqId function [RPC], _rpc_rpcifinqid, rpc.rpcifin
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcIfInqId"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

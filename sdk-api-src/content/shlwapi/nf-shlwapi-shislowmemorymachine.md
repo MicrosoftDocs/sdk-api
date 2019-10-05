@@ -12,6 +12,8 @@ ms.keywords: ILMM_IE4, SHIsLowMemoryMachine, SHIsLowMemoryMachine function [Wind
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHIsLowMemoryMachine"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: Shlwapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [
 ms.topic: function
 f1_keywords: 
  - "winuser/SetScrollRange"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

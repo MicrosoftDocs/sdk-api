@@ -12,6 +12,8 @@ ms.keywords: "*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN stru
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDOPENDIRECTDRAWIN"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

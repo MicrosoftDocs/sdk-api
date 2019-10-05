@@ -12,6 +12,8 @@ ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHChangeNotifyRegister
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

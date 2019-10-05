@@ -12,6 +12,8 @@ ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CMSG_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

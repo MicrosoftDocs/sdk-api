@@ -12,6 +12,8 @@ ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Secu
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGetDefaultOIDDllList"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioBass, IAudioBass interface [Core Audio], IAudioBass interface
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioBass"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

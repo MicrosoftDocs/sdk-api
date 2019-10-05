@@ -12,6 +12,8 @@ ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms,
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/GenTspecParms"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

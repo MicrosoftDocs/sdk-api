@@ -12,6 +12,8 @@ ms.keywords: 1c6e9fb4-be51-4d68-8241-17119deeba3f, Enabled property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.Enabled"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

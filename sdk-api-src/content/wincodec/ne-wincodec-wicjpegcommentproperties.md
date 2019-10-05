@@ -12,6 +12,8 @@ ms.keywords: WICJpegCommentProperties, WICJpegCommentProperties enumeration [Win
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICJpegCommentProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

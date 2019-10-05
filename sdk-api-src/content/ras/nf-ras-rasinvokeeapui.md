@@ -12,6 +12,8 @@ ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui,
 ms.topic: function
 f1_keywords: 
  - "ras/RasInvokeEapUI"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

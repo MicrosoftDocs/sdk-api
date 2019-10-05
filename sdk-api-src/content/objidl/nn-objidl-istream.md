@@ -12,6 +12,8 @@ ms.keywords: IStream, IStream interface [Structured Storage], IStream interface 
 ms.topic: interface
 f1_keywords: 
  - "objidl/IStream"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], Def
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.DefineFuncAsDllEntry"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

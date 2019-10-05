@@ -12,6 +12,8 @@ ms.keywords: GetRecordIsPathSelectBitSet, GetRecordIsPathSelectBitSet method [Mi
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordIsPathSelectBitSet"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

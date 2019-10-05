@@ -12,6 +12,8 @@ ms.keywords: '*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_
 ms.topic: struct
 f1_keywords:
 - winioctl/TXFS_READ_BACKUP_INFORMATION_OUT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

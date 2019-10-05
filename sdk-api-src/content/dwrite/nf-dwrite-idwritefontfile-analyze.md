@@ -12,6 +12,8 @@ ms.keywords: Analyze, Analyze method [Direct Write], Analyze method [Direct Writ
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFile.Analyze"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

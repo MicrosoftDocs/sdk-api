@@ -12,6 +12,8 @@ ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetKerning"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

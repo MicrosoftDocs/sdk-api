@@ -12,6 +12,8 @@ ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCrea
 ms.topic: enum
 f1_keywords: 
  - "msrdc/RdcCreatedTables"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

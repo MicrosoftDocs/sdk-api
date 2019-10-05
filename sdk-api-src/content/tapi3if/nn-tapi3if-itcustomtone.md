@@ -12,6 +12,8 @@ ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone inter
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITCustomTone"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

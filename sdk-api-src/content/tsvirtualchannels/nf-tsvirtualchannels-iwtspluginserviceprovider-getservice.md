@@ -12,6 +12,8 @@ ms.keywords: GetService, GetService method [Remote Desktop Services], GetService
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSPluginServiceProvider.GetService"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

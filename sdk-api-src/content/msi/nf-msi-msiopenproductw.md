@@ -12,6 +12,8 @@ ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenPr
 ms.topic: function
 f1_keywords: 
  - "msi/MsiOpenProduct"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

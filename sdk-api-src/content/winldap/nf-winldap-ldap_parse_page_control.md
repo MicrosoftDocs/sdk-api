@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ld
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_parse_page_control"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

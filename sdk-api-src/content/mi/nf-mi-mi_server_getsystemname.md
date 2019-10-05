@@ -12,6 +12,8 @@ ms.keywords: MI_Server_GetSystemName, MI_Server_GetSystemName callback, MI_Serve
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Server_GetSystemName"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

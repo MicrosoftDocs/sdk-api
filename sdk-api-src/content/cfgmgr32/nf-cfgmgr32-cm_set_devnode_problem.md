@@ -12,6 +12,8 @@ ms.keywords: CM_Set_DevNode_Problem, CM_Set_DevNode_Problem function [Device and
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Set_DevNode_Problem"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

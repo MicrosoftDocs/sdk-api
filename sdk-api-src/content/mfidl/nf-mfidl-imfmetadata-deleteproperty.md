@@ -12,6 +12,8 @@ ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty, DeletePropert
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.DeleteProperty"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

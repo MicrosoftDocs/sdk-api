@@ -12,6 +12,8 @@ ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassR
 ms.topic: interface
 f1_keywords: 
  - "activationregistration/IDllServerActivatableClassRegistration"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

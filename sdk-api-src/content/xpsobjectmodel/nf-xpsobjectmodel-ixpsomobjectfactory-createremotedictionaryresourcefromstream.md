@@ -12,6 +12,8 @@ ms.keywords: CreateRemoteDictionaryResourceFromStream, CreateRemoteDictionaryRes
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

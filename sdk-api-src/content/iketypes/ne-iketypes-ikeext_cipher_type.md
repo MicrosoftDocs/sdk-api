@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CIPHER_3DES, IKEEXT_CIPHER_AES_128, IKEEXT_CIPHER_AES_192, I
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_CIPHER_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

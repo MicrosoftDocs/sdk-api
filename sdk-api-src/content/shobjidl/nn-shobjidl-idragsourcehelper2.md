@@ -12,6 +12,8 @@ ms.keywords: IDragSourceHelper2, IDragSourceHelper2 interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IDragSourceHelper2"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

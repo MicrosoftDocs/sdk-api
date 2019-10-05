@@ -12,6 +12,8 @@ ms.keywords: ITCollection interface [TAPI 2.2],get_Count method, ITCollection.ge
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCollection.get_Count"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

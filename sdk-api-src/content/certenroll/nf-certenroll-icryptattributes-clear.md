@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttri
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICryptAttributes.Clear"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SG
 ms.topic: struct
 f1_keywords: 
  - "ntenclv/ENCLAVE_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

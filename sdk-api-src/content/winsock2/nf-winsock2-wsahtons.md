@@ -12,6 +12,8 @@ ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.w
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAHtons"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

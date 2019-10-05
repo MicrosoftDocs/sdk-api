@@ -12,6 +12,8 @@ ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODI
 ms.topic: callback
 f1_keywords: 
  - "mfapi/MFPERIODICCALLBACK"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

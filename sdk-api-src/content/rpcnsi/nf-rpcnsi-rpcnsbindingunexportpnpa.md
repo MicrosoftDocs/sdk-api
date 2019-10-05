@@ -12,6 +12,8 @@ ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], Rp
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsBindingUnexportPnP"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

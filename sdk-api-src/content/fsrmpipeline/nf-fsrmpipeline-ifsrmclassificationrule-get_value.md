@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Va
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationRule.Value"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

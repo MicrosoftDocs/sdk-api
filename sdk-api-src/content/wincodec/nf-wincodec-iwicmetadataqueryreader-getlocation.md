@@ -12,6 +12,8 @@ ms.keywords: GetLocation, GetLocation method [Windows Imaging Component], GetLoc
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICMetadataQueryReader.GetLocation"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

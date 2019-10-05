@@ -12,6 +12,8 @@ ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardf
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardFreeMemory"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

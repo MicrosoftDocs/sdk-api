@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Rot
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern.Rotate"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

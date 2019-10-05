@@ -12,6 +12,8 @@ ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Reso
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Resource.Map"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

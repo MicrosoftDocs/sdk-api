@@ -12,6 +12,8 @@ ms.keywords: DdQueryDirectDrawObject, DdQueryDirectDrawObject function [Windows 
 ms.topic: function
 f1_keywords:
 - ddrawgdi/DdQueryDirectDrawObject
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

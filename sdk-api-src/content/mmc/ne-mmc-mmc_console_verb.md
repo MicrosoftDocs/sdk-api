@@ -12,6 +12,8 @@ ms.keywords: MMC_CONSOLE_VERB, MMC_CONSOLE_VERB enumeration [MMC], MMC_VERB_COPY
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_CONSOLE_VERB"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

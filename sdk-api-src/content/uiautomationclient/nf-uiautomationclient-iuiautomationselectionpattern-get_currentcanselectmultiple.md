@@ -12,6 +12,8 @@ ms.keywords: CurrentCanSelectMultiple property [Windows Accessibility], CurrentC
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern.CurrentCanSelectMultiple"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessib
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/GridPattern_GetItem"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCallInfoBuffer, GetCallInfoBuffer method [TAPI 2.2], GetCallInfo
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITCallInfo.GetCallInfoBuffer"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

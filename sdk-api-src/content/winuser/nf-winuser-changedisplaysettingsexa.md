@@ -12,6 +12,8 @@ ms.keywords: CDS_DISABLE_UNSAFE_MODES, CDS_ENABLE_UNSAFE_MODES, CDS_FULLSCREEN, 
 ms.topic: function
 f1_keywords: 
  - "winuser/ChangeDisplaySettingsEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

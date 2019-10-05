@@ -12,6 +12,8 @@ ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search]
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/ISchemaLocalizerSupport"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

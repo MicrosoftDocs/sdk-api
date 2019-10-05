@@ -12,6 +12,8 @@ ms.keywords: IDeviceSpecificProperty interface [Core Audio],SetValue method, IDe
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceSpecificProperty.SetValue"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

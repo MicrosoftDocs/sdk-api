@@ -12,6 +12,8 @@ ms.keywords: "*PFD_XFORM, FD_XFORM, FD_XFORM structure [Display Devices], PFD_XF
 ms.topic: struct
 f1_keywords: 
  - "winddi/FD_XFORM"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: 
 req.target-type: Windows

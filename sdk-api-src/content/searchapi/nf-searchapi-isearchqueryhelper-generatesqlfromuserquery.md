@@ -12,6 +12,8 @@ ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search],
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

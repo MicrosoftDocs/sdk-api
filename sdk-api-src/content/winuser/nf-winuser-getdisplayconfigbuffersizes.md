@@ -12,6 +12,8 @@ ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayC
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDisplayConfigBufferSizes"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

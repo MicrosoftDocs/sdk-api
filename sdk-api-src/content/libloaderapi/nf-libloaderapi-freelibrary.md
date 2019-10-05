@@ -12,6 +12,8 @@ ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelib
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/FreeLibrary"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

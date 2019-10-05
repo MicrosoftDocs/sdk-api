@@ -12,6 +12,8 @@ ms.keywords: GetSANPolicy, GetSANPolicy method, GetSANPolicy method,IVdsServiceS
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceSAN.GetSANPolicy
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

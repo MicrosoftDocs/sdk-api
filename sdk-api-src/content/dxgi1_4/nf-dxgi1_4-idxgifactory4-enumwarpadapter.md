@@ -12,6 +12,8 @@ ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter met
 ms.topic: method
 f1_keywords: 
  - "dxgi1_4/IDXGIFactory4.EnumWarpAdapter"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

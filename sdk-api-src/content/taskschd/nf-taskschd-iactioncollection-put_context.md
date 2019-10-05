@@ -12,6 +12,8 @@ ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler
 ms.topic: method
 f1_keywords: 
  - "taskschd/IActionCollection.Context"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

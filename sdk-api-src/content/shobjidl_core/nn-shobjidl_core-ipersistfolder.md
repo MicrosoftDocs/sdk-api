@@ -12,6 +12,8 @@ ms.keywords: IPersistFolder, IPersistFolder interface [Windows Shell], IPersistF
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPersistFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

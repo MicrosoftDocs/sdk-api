@@ -12,6 +12,8 @@ ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumM
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumMoniker.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

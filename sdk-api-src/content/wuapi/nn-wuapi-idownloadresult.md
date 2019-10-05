@@ -12,6 +12,8 @@ ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], 
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IDownloadResult"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

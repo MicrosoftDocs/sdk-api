@@ -12,6 +12,8 @@ ms.keywords: '*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structur
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SETPALETTEDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

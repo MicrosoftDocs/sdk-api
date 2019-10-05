@@ -12,6 +12,8 @@ ms.keywords: _win32_select_2, select, select function [Winsock], winsock.select_
 ms.topic: function
 f1_keywords:
 - winsock2/select
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

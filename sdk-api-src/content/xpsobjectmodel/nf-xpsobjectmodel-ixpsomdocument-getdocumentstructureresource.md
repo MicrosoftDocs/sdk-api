@@ -12,6 +12,8 @@ ms.keywords: GetDocumentStructureResource, GetDocumentStructureResource method [
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocument.GetDocumentStructureResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

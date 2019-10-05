@@ -12,6 +12,8 @@ ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], Extr
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.ExtractWithRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

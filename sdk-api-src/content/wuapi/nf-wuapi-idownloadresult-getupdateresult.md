@@ -12,6 +12,8 @@ ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], Get
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadResult.GetUpdateResult"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

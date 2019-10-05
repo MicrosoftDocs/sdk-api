@@ -12,6 +12,8 @@ ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.R
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdo.ResetProperty"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

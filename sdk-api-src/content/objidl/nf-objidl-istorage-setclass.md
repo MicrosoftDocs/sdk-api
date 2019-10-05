@@ -12,6 +12,8 @@ ms.keywords: IStorage interface [Structured Storage],SetClass method, IStorage.S
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.SetClass"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_GET_A
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

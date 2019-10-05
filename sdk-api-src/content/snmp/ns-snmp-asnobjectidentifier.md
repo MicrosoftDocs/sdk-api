@@ -12,6 +12,8 @@ ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjec
 ms.topic: struct
 f1_keywords: 
  - "snmp/AsnObjectIdentifier"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

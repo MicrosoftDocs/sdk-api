@@ -12,6 +12,8 @@ ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Serv
 ms.topic: function
 f1_keywords: 
  - "webservices/WsSetFaultErrorProperty"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

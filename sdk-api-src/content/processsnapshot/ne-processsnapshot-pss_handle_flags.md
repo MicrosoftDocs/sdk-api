@@ -12,6 +12,8 @@ ms.keywords: PSS_HANDLE_FLAGS, PSS_HANDLE_FLAGS enumeration, PSS_HANDLE_HAVE_BAS
 ms.topic: enum
 f1_keywords: 
  - "processsnapshot/PSS_HANDLE_FLAGS"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

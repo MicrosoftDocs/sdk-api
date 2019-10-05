@@ -12,6 +12,8 @@ ms.keywords: IIdleSettings interface [Task Scheduler],WaitTimeout property, IIdl
 ms.topic: method
 f1_keywords: 
  - "taskschd/IIdleSettings.WaitTimeout"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

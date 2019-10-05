@@ -12,6 +12,8 @@ ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function
 ms.topic: function
 f1_keywords: 
  - "userenv/RSoPResetPolicySettingStatus"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

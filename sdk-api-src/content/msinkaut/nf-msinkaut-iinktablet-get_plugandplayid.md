@@ -12,6 +12,8 @@ ms.keywords: 5b33bd06-fee3-41b0-b3c1-d16b43685c60, IInkTablet interface [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet.PlugAndPlayID"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

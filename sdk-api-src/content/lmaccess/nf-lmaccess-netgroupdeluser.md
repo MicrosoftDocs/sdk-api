@@ -12,6 +12,8 @@ ms.keywords: NetGroupDelUser, NetGroupDelUser function [Network Management], _wi
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGroupDelUser"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

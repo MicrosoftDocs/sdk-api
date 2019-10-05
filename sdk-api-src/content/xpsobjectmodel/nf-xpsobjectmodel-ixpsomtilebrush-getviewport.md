@@ -12,6 +12,8 @@ ms.keywords: GetViewport, GetViewport method [XPS Documents and Packaging], GetV
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMTileBrush.GetViewport"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWrit
 ms.topic: function
 f1_keywords:
 - wincred/CredWriteDomainCredentials
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

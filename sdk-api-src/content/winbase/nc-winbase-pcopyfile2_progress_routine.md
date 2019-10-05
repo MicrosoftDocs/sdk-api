@@ -12,6 +12,8 @@ ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback functio
 ms.topic: callback
 f1_keywords:
 - winbase/CopyFile2ProgressRoutine
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

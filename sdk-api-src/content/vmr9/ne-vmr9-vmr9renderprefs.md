@@ -12,6 +12,8 @@ ms.keywords: RenderPrefs9_DoNotRenderBorder, RenderPrefs9_Mask, VMR9RenderPrefs,
 ms.topic: enum
 f1_keywords: 
  - "vmr9/VMR9RenderPrefs"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

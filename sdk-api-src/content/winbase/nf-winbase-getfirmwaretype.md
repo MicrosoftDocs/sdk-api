@@ -12,6 +12,8 @@ ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, wi
 ms.topic: function
 f1_keywords:
 - winbase/GetFirmwareType
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

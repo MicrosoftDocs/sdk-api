@@ -12,6 +12,8 @@ ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWr
 ms.topic: interface
 f1_keywords: 
  - "dmodshow/IDMOWrapperFilter"
+dev_langs:
+ - c++
 req.header: dmodshow.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySu
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CopySubresourceRegion"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem2.RemoveStream"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

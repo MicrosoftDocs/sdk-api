@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_ROLLFORWARD_TYPE, PVSS_ROLLFORWARD_TYPE, PVSS_ROLLFORWARD_TY
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_ROLLFORWARD_TYPE"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

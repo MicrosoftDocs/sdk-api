@@ -12,6 +12,8 @@ ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageException
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

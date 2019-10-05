@@ -12,6 +12,8 @@ ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface
 ms.topic: interface
 f1_keywords: 
  - "icontact/IContact"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

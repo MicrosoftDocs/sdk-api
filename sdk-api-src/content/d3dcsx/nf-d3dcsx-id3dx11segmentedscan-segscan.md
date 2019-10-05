@@ -12,6 +12,8 @@ ms.keywords: 2c2b420b-cc9a-9f73-245d-047f419f53b4, ID3DX11SegmentedScan interfac
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11SegmentedScan.SegScan"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

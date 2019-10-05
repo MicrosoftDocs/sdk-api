@@ -12,6 +12,8 @@ ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.a
 ms.topic: function
 f1_keywords: 
  - "wsdevlicensing/AcquireDeveloperLicense"
+dev_langs:
+ - c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows

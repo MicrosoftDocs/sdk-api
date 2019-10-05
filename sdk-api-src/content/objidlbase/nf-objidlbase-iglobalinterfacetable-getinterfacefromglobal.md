@@ -12,6 +12,8 @@ ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInt
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IGlobalInterfaceTable.GetInterfaceFromGlobal"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

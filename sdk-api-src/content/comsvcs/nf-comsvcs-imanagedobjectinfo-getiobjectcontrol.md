@@ -12,6 +12,8 @@ ms.keywords: GetIObjectControl, GetIObjectControl method [COM+], GetIObjectContr
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IManagedObjectInfo.GetIObjectControl"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

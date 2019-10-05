@@ -12,6 +12,8 @@ ms.keywords: "*LPD3D_SHADER_MACRO, D3D_SHADER_MACRO, D3D_SHADER_MACRO structure 
 ms.topic: struct
 f1_keywords: 
  - "d3dcommon/D3D_SHADER_MACRO"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

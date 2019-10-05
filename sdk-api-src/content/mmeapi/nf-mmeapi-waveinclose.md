@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInClose, mmeapi/waveInClose, multimedia.waveinclose, wa
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInClose"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

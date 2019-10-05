@@ -12,6 +12,8 @@ ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, S
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUpdateCredentialsFn
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

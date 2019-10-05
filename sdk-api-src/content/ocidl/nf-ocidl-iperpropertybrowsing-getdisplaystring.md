@@ -12,6 +12,8 @@ ms.keywords: GetDisplayString, GetDisplayString method [COM], GetDisplayString m
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPerPropertyBrowsing.GetDisplayString"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INVOKEKIND, INVOKEKIND enumeration [Automation], INVOKE_FUNC, INVOK
 ms.topic: enum
 f1_keywords: 
  - "oaidl/INVOKEKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: OleAuto.h
 req.target-type: Windows

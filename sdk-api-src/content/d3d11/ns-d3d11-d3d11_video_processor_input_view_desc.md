@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_INPUT_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

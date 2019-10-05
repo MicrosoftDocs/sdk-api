@@ -12,6 +12,8 @@ ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function
 ms.topic: function
 f1_keywords:
 - certpoleng/PstGetUserNameForCertificate
+dev_langs:
+ - c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

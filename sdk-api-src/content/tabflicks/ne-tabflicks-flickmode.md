@@ -12,6 +12,8 @@ ms.keywords: FLICKMODE, FLICKMODE enumeration [Tablet PC], FLICKMODE_OFF, FLICKM
 ms.topic: enum
 f1_keywords: 
  - "tabflicks/FLICKMODE"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

@@ -13,6 +13,8 @@ ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [win
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced.AddSink"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

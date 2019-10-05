@@ -12,6 +12,8 @@ ms.keywords: PSS_OBJECT_TYPE, PSS_OBJECT_TYPE enumeration, PSS_OBJECT_TYPE_EVENT
 ms.topic: enum
 f1_keywords: 
  - "processsnapshot/PSS_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenData
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceService.OpenDataSession"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

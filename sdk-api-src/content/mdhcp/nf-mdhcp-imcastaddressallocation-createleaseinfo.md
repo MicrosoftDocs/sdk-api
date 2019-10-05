@@ -12,6 +12,8 @@ ms.keywords: CreateLeaseInfo, CreateLeaseInfo method [TAPI 2.2], CreateLeaseInfo
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.CreateLeaseInfo"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

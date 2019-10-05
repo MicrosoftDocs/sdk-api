@@ -12,6 +12,8 @@ ms.keywords: DeinterlaceTech9_BOBLineReplicate, DeinterlaceTech9_BOBVerticalStre
 ms.topic: enum
 f1_keywords:
 - vmr9/VMR9DeinterlaceTech
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

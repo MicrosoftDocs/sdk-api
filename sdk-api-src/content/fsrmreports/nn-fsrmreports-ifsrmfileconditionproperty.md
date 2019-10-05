@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [F
 ms.topic: interface
 f1_keywords: 
  - "fsrmreports/IFsrmFileConditionProperty"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

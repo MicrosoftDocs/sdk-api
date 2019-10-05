@@ -12,6 +12,8 @@ ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Serv
 ms.topic: function
 f1_keywords:
 - winfax/FaxSetLoggingCategories
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

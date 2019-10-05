@@ -12,6 +12,8 @@ ms.keywords: GetStringHeapSize, GetStringHeapSize method [Windows Runtime], GetS
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetStringHeapSize"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_ss
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_sslinit"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

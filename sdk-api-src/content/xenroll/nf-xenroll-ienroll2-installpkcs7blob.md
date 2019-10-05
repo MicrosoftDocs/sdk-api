@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.Ins
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.InstallPKCS7Blob"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

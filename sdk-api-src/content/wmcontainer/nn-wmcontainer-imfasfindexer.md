@@ -12,6 +12,8 @@ ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer 
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextFont2 interface [Windows Controls],SetCharRep method, ITextFon
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.SetCharRep"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

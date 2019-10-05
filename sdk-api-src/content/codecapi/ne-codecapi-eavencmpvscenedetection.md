@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVSceneDetection, codecapi/eAVEncMPVSceneDetection_
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVSceneDetection"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], G
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartSet.GetEnumerator"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

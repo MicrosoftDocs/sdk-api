@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTT
 ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_WEB_SOCKET_STATUS
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

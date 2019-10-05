@@ -12,6 +12,8 @@ ms.keywords: "*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_
 ms.topic: struct
 f1_keywords: 
  - "mediaobj/DMO_OUTPUT_DATA_BUFFER"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

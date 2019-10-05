@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareL
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglShareLists"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

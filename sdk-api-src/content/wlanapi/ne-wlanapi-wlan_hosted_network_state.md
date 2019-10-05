@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOS
 ms.topic: enum
 f1_keywords:
 - wlanapi/WLAN_HOSTED_NETWORK_STATE
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

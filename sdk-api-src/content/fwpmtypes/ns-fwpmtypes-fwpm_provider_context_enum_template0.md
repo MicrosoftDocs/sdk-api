@@ -12,6 +12,8 @@ ms.keywords: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0, FWPM_PROVIDER_CONTEXT_ENUM_TE
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],addCertTypeToRequestEx method, ICEnroll4 
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.addCertTypeToRequestEx"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

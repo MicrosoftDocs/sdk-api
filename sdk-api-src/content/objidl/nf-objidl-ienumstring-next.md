@@ -12,6 +12,8 @@ ms.keywords: IEnumString interface [COM],Next method, IEnumString.Next, IEnumStr
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumString.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

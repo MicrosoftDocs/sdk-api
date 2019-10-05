@@ -12,6 +12,8 @@ ms.keywords: IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumera
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcRelationshipSelectorEnumerator"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

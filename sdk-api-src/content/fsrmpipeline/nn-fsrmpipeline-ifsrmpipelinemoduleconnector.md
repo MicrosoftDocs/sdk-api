@@ -12,6 +12,8 @@ ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interfac
 ms.topic: interface
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleConnector"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

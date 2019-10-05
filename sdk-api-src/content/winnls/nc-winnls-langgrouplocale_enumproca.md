@@ -12,6 +12,8 @@ ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGR
 ms.topic: callback
 f1_keywords: 
  - "winnls/LANGGROUPLOCALE_ENUMPROC"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

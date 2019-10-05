@@ -12,6 +12,8 @@ ms.keywords: GetSid, GetSid method [Files], GetSid method [Files],IDiskQuotaUser
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetSid"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

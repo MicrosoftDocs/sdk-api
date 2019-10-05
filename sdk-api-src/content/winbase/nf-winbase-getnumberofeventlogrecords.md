@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _w
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNumberOfEventLogRecords"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

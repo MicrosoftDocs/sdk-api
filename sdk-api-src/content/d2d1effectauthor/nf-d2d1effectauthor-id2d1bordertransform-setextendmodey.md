@@ -12,6 +12,8 @@ ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeY method, ID
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1BorderTransform.SetExtendModeY"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

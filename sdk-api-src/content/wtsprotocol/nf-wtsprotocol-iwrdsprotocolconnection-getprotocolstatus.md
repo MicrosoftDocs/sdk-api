@@ -12,6 +12,8 @@ ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Service
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.GetProtocolStatus
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TreeView_DeleteAllItems, TreeView_DeleteAllItems macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_DeleteAllItems"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

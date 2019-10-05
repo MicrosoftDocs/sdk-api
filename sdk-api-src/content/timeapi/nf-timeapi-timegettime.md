@@ -12,6 +12,8 @@ ms.keywords: "_win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, 
 ms.topic: function
 f1_keywords: 
  - "timeapi/timeGetTime"
+dev_langs:
+ - c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

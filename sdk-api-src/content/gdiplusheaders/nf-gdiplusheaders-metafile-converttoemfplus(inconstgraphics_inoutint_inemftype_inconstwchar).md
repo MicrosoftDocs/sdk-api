@@ -12,6 +12,8 @@ ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Metafile.ConvertToEmfPlus"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

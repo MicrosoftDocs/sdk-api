@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],SmsFo
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsConfiguration.SmsFormat"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
 req.target-type: Windows

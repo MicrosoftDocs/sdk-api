@@ -12,6 +12,8 @@ ms.keywords: THBF_DISABLED, THBF_DISMISSONCLICK, THBF_ENABLED, THBF_HIDDEN, THBF
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/THUMBBUTTONFLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

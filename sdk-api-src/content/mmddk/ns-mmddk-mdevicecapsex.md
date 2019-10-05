@@ -12,6 +12,8 @@ ms.keywords: MDEVICECAPSEX, MDEVICECAPSEX structure [Audio Devices], aud-prop_12
 ms.topic: struct
 f1_keywords: 
  - "mmddk/MDEVICECAPSEX"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
 req.target-type: Windows

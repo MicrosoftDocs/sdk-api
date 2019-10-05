@@ -12,6 +12,8 @@ ms.keywords: IMDSPStorage2 interface [windows Media Device Manager],SetAttribute
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage2.SetAttributes2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

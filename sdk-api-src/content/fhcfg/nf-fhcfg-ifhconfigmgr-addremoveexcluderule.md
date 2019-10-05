@@ -12,6 +12,8 @@ ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], Ad
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.AddRemoveExcludeRule
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

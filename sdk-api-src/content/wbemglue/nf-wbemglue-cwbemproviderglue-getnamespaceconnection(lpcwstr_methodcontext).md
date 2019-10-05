@@ -12,6 +12,8 @@ ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PE
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue.GetNameSpaceConnection"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

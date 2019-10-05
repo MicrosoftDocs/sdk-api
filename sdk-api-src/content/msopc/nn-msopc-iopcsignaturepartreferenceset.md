@@ -12,6 +12,8 @@ ms.keywords: IOpcSignaturePartReferenceSet, IOpcSignaturePartReferenceSet interf
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcSignaturePartReferenceSet"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

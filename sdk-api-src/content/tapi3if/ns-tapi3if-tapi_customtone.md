@@ -12,6 +12,8 @@ ms.keywords: "*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi3if/TAPI_CUSTOMTONE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

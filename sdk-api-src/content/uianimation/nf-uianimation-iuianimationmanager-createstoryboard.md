@@ -12,6 +12,8 @@ ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], Crea
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.CreateStoryboard"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

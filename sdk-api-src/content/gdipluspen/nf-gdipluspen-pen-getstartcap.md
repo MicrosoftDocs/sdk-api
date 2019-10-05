@@ -12,6 +12,8 @@ ms.keywords: GetStartCap, GetStartCap method [GDI+], GetStartCap method [GDI+],P
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetStartCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

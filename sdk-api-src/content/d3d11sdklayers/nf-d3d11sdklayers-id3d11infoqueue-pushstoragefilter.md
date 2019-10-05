@@ -12,6 +12,8 @@ ms.keywords: 8aa4344e-4688-6e7c-8033-8b589f37ce3d, ID3D11InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.PushStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACE_LOCAL
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

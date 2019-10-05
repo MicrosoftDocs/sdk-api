@@ -12,6 +12,8 @@ ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGe
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetCorrelationVector"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

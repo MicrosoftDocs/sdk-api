@@ -12,6 +12,8 @@ ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWPM_DISPLAY_DATA0"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

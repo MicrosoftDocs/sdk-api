@@ -12,6 +12,8 @@ ms.keywords: DitherType, DitherType enumeration [GDI+], DitherTypeDualSpiral4x4,
 ms.topic: enum
 f1_keywords: 
  - "gdipluspixelformats/DitherType"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

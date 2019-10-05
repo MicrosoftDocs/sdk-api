@@ -12,6 +12,8 @@ ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, 
 ms.topic: function
 f1_keywords: 
  - "winsvc/StartService"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

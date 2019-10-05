@@ -12,6 +12,8 @@ ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMon
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitor.GetClerks"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

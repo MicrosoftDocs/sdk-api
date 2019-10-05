@@ -12,6 +12,8 @@ ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlInterlockedPushEntrySList"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, IBDA_DiseqCommand interface [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DiseqCommand.put_DiseqLNBSource"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

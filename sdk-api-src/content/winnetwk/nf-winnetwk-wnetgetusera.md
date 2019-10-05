@@ -12,6 +12,8 @@ ms.keywords: WNetGetUser, WNetGetUser function [Windows Networking (WNet)], WNet
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetGetUser"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

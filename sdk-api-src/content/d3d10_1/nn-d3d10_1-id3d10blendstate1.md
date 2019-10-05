@@ -12,6 +12,8 @@ ms.keywords: 50959f42-4209-b827-553e-862c94c85dfc, ID3D10BlendState1, ID3D10Blen
 ms.topic: interface
 f1_keywords: 
  - "d3d10_1/ID3D10BlendState1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer,
 ms.topic: struct
 f1_keywords: 
  - "vmgenerationcounter/VM_GENCOUNTER"
+dev_langs:
+ - c++
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows

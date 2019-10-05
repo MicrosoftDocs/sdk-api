@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Rep
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.ReportEnabled"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

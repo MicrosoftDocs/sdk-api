@@ -12,6 +12,8 @@ ms.keywords: '*PDD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DESTROYMOCOMPDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

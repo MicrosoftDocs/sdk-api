@@ -12,6 +12,8 @@ ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method,
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3DUserDefinedAnnotation.SetMarker"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files],
 ms.topic: function
 f1_keywords:
 - lmshare/NetSessionGetInfo
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

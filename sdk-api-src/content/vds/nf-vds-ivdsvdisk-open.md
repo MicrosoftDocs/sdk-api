@@ -12,6 +12,8 @@ ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, O
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVDisk.Open"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

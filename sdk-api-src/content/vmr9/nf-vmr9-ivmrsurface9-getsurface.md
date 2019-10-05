@@ -12,6 +12,8 @@ ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [Dire
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurface9.GetSurface"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDev
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.Unadvise"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

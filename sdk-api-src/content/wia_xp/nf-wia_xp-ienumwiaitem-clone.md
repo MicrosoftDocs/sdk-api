@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWiaItem interfac
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWiaItem.Clone"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

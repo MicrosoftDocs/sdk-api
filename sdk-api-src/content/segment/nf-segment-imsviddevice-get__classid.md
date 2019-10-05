@@ -12,6 +12,8 @@ ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__ClassID met
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidDevice.get__ClassID"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

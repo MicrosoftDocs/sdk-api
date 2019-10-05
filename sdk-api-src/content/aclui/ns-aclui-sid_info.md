@@ -12,6 +12,8 @@ ms.keywords: '*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID
 ms.topic: struct
 f1_keywords:
 - aclui/SID_INFO
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

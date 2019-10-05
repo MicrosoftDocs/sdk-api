@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN structu
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_ADDR_PATTERN"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

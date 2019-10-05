@@ -12,6 +12,8 @@ ms.keywords: VDS_QUERY_HARDWARE_PROVIDERS, VDS_QUERY_PROVIDER_FLAG, VDS_QUERY_PR
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_QUERY_PROVIDER_FLAG"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

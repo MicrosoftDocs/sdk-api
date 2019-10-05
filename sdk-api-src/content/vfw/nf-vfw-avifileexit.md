@@ -12,6 +12,8 @@ ms.keywords: AVIFileExit, AVIFileExit function [Windows Multimedia], _win32_AVIF
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIFileExit"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

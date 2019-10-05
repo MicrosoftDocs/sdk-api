@@ -12,6 +12,8 @@ ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, 
 ms.topic: function
 f1_keywords: 
  - "wsdutil/WSDSetConfigurationOption"
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

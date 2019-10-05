@@ -12,6 +12,8 @@ ms.keywords: "*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure 
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINECOUNTRYENTRY"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

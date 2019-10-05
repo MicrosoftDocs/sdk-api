@@ -12,6 +12,8 @@ ms.keywords: DrvTextOut, DrvTextOut function [Display Devices], ddifncs_e78c3647
 ms.topic: function
 f1_keywords:
 - winddi/DrvTextOut
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

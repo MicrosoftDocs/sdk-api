@@ -12,6 +12,8 @@ ms.keywords: WMT_PROXY_SETTINGS, WMT_PROXY_SETTINGS enumeration [windows Media F
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_PROXY_SETTINGS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WsCopyError, WsCopyError function [Web Services for Windows], webse
 ms.topic: function
 f1_keywords: 
  - "webservices/WsCopyError"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

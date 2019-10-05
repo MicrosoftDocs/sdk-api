@@ -12,6 +12,8 @@ ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsS
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetInfo
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

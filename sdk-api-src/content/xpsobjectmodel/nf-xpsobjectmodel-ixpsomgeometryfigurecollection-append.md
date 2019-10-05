@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [XPS Documents and Packaging], Append method 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigureCollection.Append"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

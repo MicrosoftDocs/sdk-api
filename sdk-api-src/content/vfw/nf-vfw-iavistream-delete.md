@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Multimedia], Delete method [Windows 
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStream.Delete"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

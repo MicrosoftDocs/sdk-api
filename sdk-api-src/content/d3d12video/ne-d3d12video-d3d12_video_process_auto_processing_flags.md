@@ -8,6 +8,10 @@ ms.assetid: 4a93c0be-32e7-4c7a-a015-3195490280cb
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS, D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS, 
 req.header: d3d12video.h
 req.include-header:

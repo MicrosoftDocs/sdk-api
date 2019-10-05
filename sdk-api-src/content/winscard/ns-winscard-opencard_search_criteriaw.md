@@ -12,6 +12,8 @@ ms.keywords: "*LPOPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, LPOPENC
 ms.topic: struct
 f1_keywords: 
  - "winscard/OPENCARD_SEARCH_CRITERIA"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

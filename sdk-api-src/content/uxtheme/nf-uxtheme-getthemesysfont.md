@@ -12,6 +12,8 @@ ms.keywords: GetThemeSysFont, GetThemeSysFont function [Windows Controls], TMT_C
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeSysFont"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

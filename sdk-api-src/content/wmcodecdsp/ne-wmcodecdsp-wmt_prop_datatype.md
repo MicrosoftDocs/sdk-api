@@ -12,6 +12,8 @@ ms.keywords: WMT_PROP_DATATYPE, WMT_PROP_DATATYPE enumeration [Media Foundation]
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/WMT_PROP_DATATYPE"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

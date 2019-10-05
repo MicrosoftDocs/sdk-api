@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTER
 ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_INTERACTIVE_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method
 ms.topic: method
 f1_keywords: 
  - "dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

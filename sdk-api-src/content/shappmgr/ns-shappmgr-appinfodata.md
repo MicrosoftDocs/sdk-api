@@ -12,6 +12,8 @@ ms.keywords: "*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shappmgr/APPINFODATA"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

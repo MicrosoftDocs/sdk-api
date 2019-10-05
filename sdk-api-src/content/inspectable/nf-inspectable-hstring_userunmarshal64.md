@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows 
 ms.topic: function
 f1_keywords: 
  - "inspectable/HSTRING_UserUnmarshal64"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOutputStreamState, GetOutputStreamState method [Streaming Media 
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.GetOutputStreamState"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

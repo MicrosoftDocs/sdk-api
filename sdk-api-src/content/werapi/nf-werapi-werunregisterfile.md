@@ -12,6 +12,8 @@ ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Report
 ms.topic: function
 f1_keywords: 
  - "werapi/WerUnregisterFile"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

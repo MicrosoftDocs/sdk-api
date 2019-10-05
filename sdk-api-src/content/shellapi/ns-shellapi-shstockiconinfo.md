@@ -12,6 +12,8 @@ ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOC
 ms.topic: struct
 f1_keywords: 
  - "shellapi/_SHSTOCKICONINFO"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

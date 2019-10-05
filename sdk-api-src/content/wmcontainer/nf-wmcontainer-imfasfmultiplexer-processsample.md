@@ -12,6 +12,8 @@ ms.keywords: 30a693bb-255c-47a4-8102-1543872b0a5e, IMFASFMultiplexer interface [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.ProcessSample"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

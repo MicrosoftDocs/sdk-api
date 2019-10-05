@@ -12,6 +12,8 @@ ms.keywords: GetNoProgressTimeout, GetNoProgressTimeout method [BITS], GetNoProg
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetNoProgressTimeout"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

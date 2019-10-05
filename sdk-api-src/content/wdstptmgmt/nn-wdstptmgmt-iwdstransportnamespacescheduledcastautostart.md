@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespac
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

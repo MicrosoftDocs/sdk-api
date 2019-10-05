@@ -12,6 +12,8 @@ ms.keywords: GetNamespace, GetNamespace method [Microsoft TV Technologies], GetN
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure3.GetNamespace"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

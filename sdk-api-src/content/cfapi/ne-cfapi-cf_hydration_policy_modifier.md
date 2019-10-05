@@ -12,6 +12,8 @@ ms.keywords: CF_HYDRATION_POLICY_MODIFIER, CF_HYDRATION_POLICY_MODIFIER enumerat
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_HYDRATION_POLICY_MODIFIER"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

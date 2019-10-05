@@ -12,6 +12,8 @@ ms.keywords: 6131b597-fb10-10b7-7f9a-f0dbdb30f917, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10SamplerState.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

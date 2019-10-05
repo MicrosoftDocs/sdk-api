@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferSink.LockProfile"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

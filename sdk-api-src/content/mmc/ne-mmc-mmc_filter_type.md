@@ -12,6 +12,8 @@ ms.keywords: MMC_FILTER_NOVALUE, MMC_FILTER_TYPE, MMC_FILTER_TYPE enumeration [M
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_FILTER_TYPE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

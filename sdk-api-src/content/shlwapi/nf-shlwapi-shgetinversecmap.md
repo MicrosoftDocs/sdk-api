@@ -12,6 +12,8 @@ ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHGetInverseCMAP"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

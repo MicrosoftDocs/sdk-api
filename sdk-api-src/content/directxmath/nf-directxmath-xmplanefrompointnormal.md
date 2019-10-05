@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneFromPointNormal, XMPlaneFromPointNormal, XMPlan
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneFromPointNormal"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

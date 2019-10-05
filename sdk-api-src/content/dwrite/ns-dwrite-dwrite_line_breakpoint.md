@@ -12,6 +12,8 @@ ms.keywords: DWRITE_LINE_BREAKPOINT, DWRITE_LINE_BREAKPOINT structure [Direct Wr
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_LINE_BREAKPOINT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

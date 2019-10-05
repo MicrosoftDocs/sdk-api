@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue (IPropertyStore), GetValue method [Audio Devices
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyStore.GetValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Universal

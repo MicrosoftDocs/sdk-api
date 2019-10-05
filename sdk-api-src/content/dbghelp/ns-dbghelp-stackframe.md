@@ -12,6 +12,8 @@ ms.keywords: '*LPSTACKFRAME, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, S
 ms.topic: struct
 f1_keywords:
 - dbghelp/STACKFRAME64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

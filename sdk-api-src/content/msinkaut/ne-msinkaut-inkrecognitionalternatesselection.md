@@ -12,6 +12,8 @@ ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSe
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognitionAlternatesSelection"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

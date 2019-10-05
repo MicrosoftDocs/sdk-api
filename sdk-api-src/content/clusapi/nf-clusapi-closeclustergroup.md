@@ -12,6 +12,8 @@ ms.keywords: CloseClusterGroup, CloseClusterGroup function [Failover Cluster], P
 ms.topic: function
 f1_keywords: 
  - "clusapi/CloseClusterGroup"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

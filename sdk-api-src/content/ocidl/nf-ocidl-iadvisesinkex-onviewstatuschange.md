@@ -12,6 +12,8 @@ ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSin
 ms.topic: method
 f1_keywords: 
  - "ocidl/IAdviseSinkEx.OnViewStatusChange"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

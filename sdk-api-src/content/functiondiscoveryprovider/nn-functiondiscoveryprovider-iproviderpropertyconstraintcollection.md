@@ -12,6 +12,8 @@ ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintC
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPropertyConstraintCollection"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

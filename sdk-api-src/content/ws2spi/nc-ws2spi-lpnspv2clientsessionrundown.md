@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2Client
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2ClientSessionRundown
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

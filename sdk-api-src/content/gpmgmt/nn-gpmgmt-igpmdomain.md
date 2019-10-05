@@ -12,6 +12,8 @@ ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain inte
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMDomain"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

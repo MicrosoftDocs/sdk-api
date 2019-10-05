@@ -12,6 +12,8 @@ ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_V
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarFormatCurrency"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

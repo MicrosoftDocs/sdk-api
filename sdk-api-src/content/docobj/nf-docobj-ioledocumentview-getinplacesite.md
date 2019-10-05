@@ -12,6 +12,8 @@ ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method 
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.GetInPlaceSite"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

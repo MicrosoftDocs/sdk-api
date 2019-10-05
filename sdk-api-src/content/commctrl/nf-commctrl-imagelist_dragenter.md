@@ -12,6 +12,8 @@ ms.keywords: ImageList_DragEnter, ImageList_DragEnter function [Windows Controls
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_DragEnter"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

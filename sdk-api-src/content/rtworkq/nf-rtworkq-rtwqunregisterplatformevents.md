@@ -12,6 +12,8 @@ ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqUnregisterPlatformEvents"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

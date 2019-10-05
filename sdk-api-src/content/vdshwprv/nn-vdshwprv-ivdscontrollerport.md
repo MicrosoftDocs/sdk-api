@@ -12,6 +12,8 @@ ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControl
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsControllerPort"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

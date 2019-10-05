@@ -12,6 +12,8 @@ ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_THREAD_ENTRY"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

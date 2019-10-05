@@ -12,6 +12,8 @@ ms.keywords: ApplicationData property [Security], ApplicationData property [Secu
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzOperation.ApplicationData"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship 
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverCreateRelationship
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

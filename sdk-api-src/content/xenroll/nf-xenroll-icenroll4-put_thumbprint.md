@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],ThumbPrint property, ICEnroll4 interface 
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.ThumbPrint"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

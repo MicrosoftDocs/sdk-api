@@ -12,6 +12,8 @@ ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProv
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.FilterType"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

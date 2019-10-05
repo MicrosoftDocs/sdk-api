@@ -12,6 +12,8 @@ ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, Vi
 ms.topic: struct
 f1_keywords: 
  - "xamlom/VisualElement"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

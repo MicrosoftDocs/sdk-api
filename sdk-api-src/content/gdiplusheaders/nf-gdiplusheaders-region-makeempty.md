@@ -12,6 +12,8 @@ ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.MakeEmpty"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

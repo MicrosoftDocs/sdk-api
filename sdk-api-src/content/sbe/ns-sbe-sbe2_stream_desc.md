@@ -12,6 +12,8 @@ ms.keywords: SBE2_STREAM_DESC, SBE2_STREAM_DESC structure [Microsoft TV Technolo
 ms.topic: struct
 f1_keywords: 
  - "sbe/SBE2_STREAM_DESC"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

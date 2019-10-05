@@ -12,6 +12,8 @@ ms.keywords: DS_NAME_FLAGS, DS_NAME_FLAGS enumeration [Active Directory], DS_NAM
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_NAME_FLAGS"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

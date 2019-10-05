@@ -12,6 +12,8 @@ ms.keywords: "*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD
 ms.topic: struct
 f1_keywords: 
  - "ocidl/CADWORD"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

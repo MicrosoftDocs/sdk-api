@@ -12,6 +12,8 @@ ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_Sm
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_ConditionalAccess.get_SmartCardApplications"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

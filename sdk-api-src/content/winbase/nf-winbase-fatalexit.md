@@ -12,6 +12,8 @@ ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, wi
 ms.topic: function
 f1_keywords: 
  - "winbase/FatalExit"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

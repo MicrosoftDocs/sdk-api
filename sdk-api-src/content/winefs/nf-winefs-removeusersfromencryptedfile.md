@@ -12,6 +12,8 @@ ms.keywords: RemoveUsersFromEncryptedFile, RemoveUsersFromEncryptedFile function
 ms.topic: function
 f1_keywords:
 - winefs/RemoveUsersFromEncryptedFile
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

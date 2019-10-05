@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyFile2 interface [BITS],SetRemoteName method, IBackgr
 ms.topic: method
 f1_keywords:
 - bits2_0/IBackgroundCopyFile2.SetRemoteName
+dev_langs:
+ - c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

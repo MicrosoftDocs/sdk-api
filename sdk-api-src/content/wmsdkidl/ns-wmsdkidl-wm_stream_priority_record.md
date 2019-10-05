@@ -12,6 +12,8 @@ ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [win
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_STREAM_PRIORITY_RECORD"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

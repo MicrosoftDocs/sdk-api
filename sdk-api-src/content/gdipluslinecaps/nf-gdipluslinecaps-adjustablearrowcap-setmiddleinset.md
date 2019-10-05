@@ -12,6 +12,8 @@ ms.keywords: AdjustableArrowCap class [GDI+],SetMiddleInset method, AdjustableAr
 ms.topic: method
 f1_keywords: 
  - "gdipluslinecaps/AdjustableArrowCap.SetMiddleInset"
+dev_langs:
+ - c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

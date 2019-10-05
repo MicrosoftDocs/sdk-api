@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceServicesContext.MaxCommandSize"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

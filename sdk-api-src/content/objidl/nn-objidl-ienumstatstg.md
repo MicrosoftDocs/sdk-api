@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTA
 ms.topic: interface
 f1_keywords: 
  - "objidl/IEnumSTATSTG"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ComponentSummary, ComponentSummary structure [COM+], comsvcs/Compon
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/ComponentSummary"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

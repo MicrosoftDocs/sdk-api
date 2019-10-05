@@ -12,6 +12,8 @@ ms.keywords: GetCodecProp, GetCodecProp method [Media Foundation], GetCodecProp 
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecProps.GetCodecProp"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

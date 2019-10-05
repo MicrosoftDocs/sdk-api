@@ -12,6 +12,8 @@ ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/S
 ms.topic: function
 f1_keywords: 
  - "filehc/SetDotStuffState"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

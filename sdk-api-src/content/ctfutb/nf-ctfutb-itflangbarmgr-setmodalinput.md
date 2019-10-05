@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput met
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarMgr.SetModalInput"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

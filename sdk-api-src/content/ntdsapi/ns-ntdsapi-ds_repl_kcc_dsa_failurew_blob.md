@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_KCC_DSA_FAILUREW_BLOB, DS_REPL_KCC_DSA_FAILUREW_BLOB struct
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

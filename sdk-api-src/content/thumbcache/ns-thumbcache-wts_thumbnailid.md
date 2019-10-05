@@ -12,6 +12,8 @@ ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_
 ms.topic: struct
 f1_keywords: 
  - "thumbcache/WTS_THUMBNAILID"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateL
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor_1/ID2D1EffectContext1.CreateLookupTable3D"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.RemoveNode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_B
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_BSS_ENTRY
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

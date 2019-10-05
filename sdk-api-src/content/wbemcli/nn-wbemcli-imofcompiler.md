@@ -12,6 +12,8 @@ ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrument
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IMofCompiler"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

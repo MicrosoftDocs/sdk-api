@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService3 interface,RemoveDictionaryItem method, IVisualT
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService3.RemoveDictionaryItem"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

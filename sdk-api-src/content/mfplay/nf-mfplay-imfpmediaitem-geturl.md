@@ -12,6 +12,8 @@ ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetURL"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],I
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloadContentCollection.Item"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

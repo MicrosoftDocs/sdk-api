@@ -12,6 +12,8 @@ ms.keywords: CreateRequest, CreateRequest method [Media Foundation], CreateReque
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadSession.CreateRequest"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

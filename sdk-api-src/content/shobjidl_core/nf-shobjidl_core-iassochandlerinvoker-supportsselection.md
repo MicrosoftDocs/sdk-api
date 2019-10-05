@@ -12,6 +12,8 @@ ms.keywords: IAssocHandlerInvoker interface [Windows Shell],SupportsSelection me
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAssocHandlerInvoker.SupportsSelection"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

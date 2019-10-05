@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE enumeration [HT
 ms.topic: enum
 f1_keywords:
 - http/HTTP_REQUEST_INFO_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

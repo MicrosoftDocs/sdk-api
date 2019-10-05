@@ -12,6 +12,8 @@ ms.keywords: '*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID struct
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_CLIENT_UID
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

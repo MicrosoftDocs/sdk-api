@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSigna
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_SupportedSignatures"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

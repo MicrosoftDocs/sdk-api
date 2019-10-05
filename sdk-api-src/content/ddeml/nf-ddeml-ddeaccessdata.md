@@ -12,6 +12,8 @@ ms.keywords: DdeAccessData, DdeAccessData function [Data Exchange], _win32_DdeAc
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeAccessData"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

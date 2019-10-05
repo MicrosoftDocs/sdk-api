@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technolo
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferRecordingControl.get_StartTime"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

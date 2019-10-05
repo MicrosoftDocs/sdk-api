@@ -12,6 +12,8 @@ ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Dire
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.Disable"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

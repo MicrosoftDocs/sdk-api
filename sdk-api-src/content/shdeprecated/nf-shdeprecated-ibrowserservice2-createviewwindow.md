@@ -12,6 +12,8 @@ ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateVi
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.CreateViewWindow"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

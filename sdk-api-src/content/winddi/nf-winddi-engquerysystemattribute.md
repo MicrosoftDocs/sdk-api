@@ -12,6 +12,8 @@ ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display 
 ms.topic: function
 f1_keywords: 
  - "winddi/EngQuerySystemAttribute"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

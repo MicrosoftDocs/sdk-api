@@ -12,6 +12,8 @@ ms.keywords: NdrContextHandleInitialize, NdrContextHandleInitialize function [RP
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrContextHandleInitialize
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

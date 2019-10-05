@@ -12,6 +12,8 @@ ms.keywords: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5, BeginGetEvent, BeginGetEvent 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventQueue.BeginGetEvent"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

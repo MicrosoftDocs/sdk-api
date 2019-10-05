@@ -12,6 +12,8 @@ ms.keywords: WindowPattern_Close, WindowPattern_Close function [Windows Accessib
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/WindowPattern_Close"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

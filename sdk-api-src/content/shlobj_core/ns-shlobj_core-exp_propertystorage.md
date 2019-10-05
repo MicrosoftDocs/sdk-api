@@ -12,6 +12,8 @@ ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/EXP_PROPERTYSTORAGE"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

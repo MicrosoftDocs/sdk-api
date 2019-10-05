@@ -12,6 +12,8 @@ ms.keywords: GetError, GetError method [Media Foundation], GetError method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeySession.GetError"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

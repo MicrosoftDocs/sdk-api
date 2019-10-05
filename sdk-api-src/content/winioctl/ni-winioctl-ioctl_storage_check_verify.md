@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOC
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_STORAGE_CHECK_VERIFY"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

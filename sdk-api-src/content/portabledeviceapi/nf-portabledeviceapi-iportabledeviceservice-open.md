@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Ope
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceService.Open"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

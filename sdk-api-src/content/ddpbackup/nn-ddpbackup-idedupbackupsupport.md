@@ -12,6 +12,8 @@ ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplicat
 ms.topic: interface
 f1_keywords: 
  - "ddpbackup/IDedupBackupSupport"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

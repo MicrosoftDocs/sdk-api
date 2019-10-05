@@ -12,6 +12,8 @@ ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], IA
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzBizRuleInterfaces"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

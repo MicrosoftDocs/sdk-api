@@ -12,6 +12,8 @@ ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UP
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocument.DeviceByUDN"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

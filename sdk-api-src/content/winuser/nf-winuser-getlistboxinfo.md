@@ -12,6 +12,8 @@ ms.keywords: GetListBoxInfo, GetListBoxInfo function [Windows Controls], _win32_
 ms.topic: function
 f1_keywords: 
  - "winuser/GetListBoxInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

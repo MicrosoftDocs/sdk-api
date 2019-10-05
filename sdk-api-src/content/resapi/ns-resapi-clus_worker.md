@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluste
 ms.topic: struct
 f1_keywords: 
  - "resapi/CLUS_WORKER"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

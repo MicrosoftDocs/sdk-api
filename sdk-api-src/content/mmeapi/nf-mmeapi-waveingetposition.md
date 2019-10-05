@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInGetPosition, mmeapi/waveInGetPosition, multimedia.wav
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInGetPosition"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

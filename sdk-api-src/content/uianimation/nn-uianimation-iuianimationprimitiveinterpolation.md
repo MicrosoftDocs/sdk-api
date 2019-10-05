@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolat
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationPrimitiveInterpolation"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

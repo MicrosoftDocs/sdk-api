@@ -12,6 +12,8 @@ ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlag
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetTypeFlags"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

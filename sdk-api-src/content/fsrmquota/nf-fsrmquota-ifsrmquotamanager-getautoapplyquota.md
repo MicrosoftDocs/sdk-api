@@ -12,6 +12,8 @@ ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetAutoApplyQ
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager.GetAutoApplyQuota"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

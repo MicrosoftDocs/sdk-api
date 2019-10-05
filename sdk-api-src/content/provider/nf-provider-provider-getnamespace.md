@@ -12,6 +12,8 @@ ms.keywords: GetNamespace, GetNamespace method [Windows Management Instrumentati
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.GetNamespace"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

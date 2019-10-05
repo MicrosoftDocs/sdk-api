@@ -12,6 +12,8 @@ ms.keywords: PRADIUS_EXTENSION_INIT, PRADIUS_EXTENSION_INIT callback, PRADIUS_EX
 ms.topic: callback
 f1_keywords: 
  - "authif/PRADIUS_EXTENSION_INIT"
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

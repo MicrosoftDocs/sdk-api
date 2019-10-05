@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Direct3D 11], GetStatus method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3DUserDefinedAnnotation.GetStatus"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

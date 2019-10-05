@@ -12,6 +12,8 @@ ms.keywords: '*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_D
 ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_DVD_YUV
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

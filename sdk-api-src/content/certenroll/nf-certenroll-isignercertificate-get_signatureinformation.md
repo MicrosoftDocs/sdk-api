@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],SignatureInformation proper
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.SignatureInformation"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

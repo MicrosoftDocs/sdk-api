@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixTranspose, XMMatrixTranspose, XMMatrixTranspos
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixTranspose"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

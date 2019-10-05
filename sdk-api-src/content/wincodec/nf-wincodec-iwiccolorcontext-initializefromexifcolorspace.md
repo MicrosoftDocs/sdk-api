@@ -12,6 +12,8 @@ ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFr
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICColorContext.InitializeFromExifColorSpace"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AMOVERFX_DEINTERLACE, AMOVERFX_MIRRORLEFTRIGHT, AMOVERFX_MIRRORUPDO
 ms.topic: enum
 f1_keywords: 
  - "strmif/AMOVERLAYFX"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

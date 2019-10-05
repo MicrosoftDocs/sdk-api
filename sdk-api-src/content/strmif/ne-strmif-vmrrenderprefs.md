@@ -12,6 +12,8 @@ ms.keywords: RenderPrefs_AllowOffscreen, RenderPrefs_AllowOverlays, RenderPrefs_
 ms.topic: enum
 f1_keywords: 
  - "strmif/VMRRenderPrefs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement2.CurrentFlowsFrom"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

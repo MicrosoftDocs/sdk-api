@@ -12,6 +12,8 @@ ms.keywords: GetScopeVector, GetScopeVector method [Windows Sync], GetScopeVecto
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetScopeVector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

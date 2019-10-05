@@ -12,6 +12,8 @@ ms.keywords: GetStreamOfSections, GetStreamOfSections method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/IMpeg2Data.GetStreamOfSections"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegOpenCurrentUser, RegOpenCurrentUser function, _win32_regopencurr
 ms.topic: function
 f1_keywords: 
  - "winreg/RegOpenCurrentUser"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

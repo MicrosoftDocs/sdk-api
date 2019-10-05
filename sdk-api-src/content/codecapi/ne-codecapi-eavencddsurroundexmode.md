@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncDDSurroundExMode, codecapi/eAVEncDDSurroundExMode_No
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncDDSurroundExMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

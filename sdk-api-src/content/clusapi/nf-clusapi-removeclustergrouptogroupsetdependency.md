@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAP
 ms.topic: function
 f1_keywords: 
  - "clusapi/RemoveClusterGroupToGroupSetDependency"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

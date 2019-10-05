@@ -12,6 +12,8 @@ ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvDisablePDEV"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

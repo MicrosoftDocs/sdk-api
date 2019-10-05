@@ -12,6 +12,8 @@ ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration fu
 ms.topic: function
 f1_keywords: 
  - "wslapi/WslGetDistributionConfiguration"
+dev_langs:
+ - c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

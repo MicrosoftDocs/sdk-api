@@ -12,6 +12,8 @@ ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.FrameStep"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

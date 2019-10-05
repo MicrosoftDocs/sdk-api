@@ -12,6 +12,8 @@ ms.keywords: SCODE_CODE, SCODE_CODE macro [COM], _com_SCODE_CODE, com.scode_code
 ms.topic: macro
 f1_keywords: 
  - "winerror/SCODE_CODE"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

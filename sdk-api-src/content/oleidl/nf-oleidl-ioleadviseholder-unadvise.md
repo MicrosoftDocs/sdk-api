@@ -12,6 +12,8 @@ ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleAdviseHolder.Unadvise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

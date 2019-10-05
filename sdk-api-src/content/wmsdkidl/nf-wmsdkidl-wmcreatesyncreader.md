@@ -12,6 +12,8 @@ ms.keywords: WMCreateSyncReader, WMCreateSyncReader function [windows Media Form
 ms.topic: function
 f1_keywords: 
  - "wmsdkidl/WMCreateSyncReader"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

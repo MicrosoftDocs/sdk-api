@@ -12,6 +12,8 @@ ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Managemen
 ms.topic: function
 f1_keywords: 
  - "wsman/WSManInitialize"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

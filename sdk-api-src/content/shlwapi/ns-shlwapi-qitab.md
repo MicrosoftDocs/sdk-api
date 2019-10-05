@@ -12,6 +12,8 @@ ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITA
 ms.topic: struct
 f1_keywords: 
  - "shlwapi/QITAB"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

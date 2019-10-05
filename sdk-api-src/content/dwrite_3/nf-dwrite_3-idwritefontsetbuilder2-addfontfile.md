@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFontFile method,
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSetBuilder2.AddFontFile"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

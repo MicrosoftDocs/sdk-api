@@ -12,6 +12,8 @@ ms.keywords: IAzClientContext2 interface [Security],LDAPQueryDN property, IAzCli
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext2.LDAPQueryDN"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.S
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.SetDisplayType"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

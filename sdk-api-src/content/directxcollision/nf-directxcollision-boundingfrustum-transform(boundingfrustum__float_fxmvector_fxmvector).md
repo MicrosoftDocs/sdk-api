@@ -12,6 +12,8 @@ ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Transform met
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingFrustum.Transform"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

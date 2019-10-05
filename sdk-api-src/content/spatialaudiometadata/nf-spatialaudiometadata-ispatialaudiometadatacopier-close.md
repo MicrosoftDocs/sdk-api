@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatia
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataCopier.Close"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

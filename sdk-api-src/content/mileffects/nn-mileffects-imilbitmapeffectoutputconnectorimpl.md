@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnecto
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffectOutputConnectorImpl"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

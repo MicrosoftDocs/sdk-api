@@ -12,6 +12,8 @@ ms.keywords: DS_KCC_TASKID, DS_KCC_TASKID enumeration [Active Directory], DS_KCC
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_KCC_TASKID"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

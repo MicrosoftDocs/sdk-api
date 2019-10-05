@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformR
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitive.TransformRect"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

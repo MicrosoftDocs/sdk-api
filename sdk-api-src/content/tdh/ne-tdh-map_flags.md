@@ -12,6 +12,8 @@ ms.keywords: EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, EVENTMAP_INFO_FLAG_MANIFEST_PAT
 ms.topic: enum
 f1_keywords:
 - tdh/MAP_FLAGS
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

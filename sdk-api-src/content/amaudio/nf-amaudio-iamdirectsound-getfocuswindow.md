@@ -12,6 +12,8 @@ ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow 
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.GetFocusWindow"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

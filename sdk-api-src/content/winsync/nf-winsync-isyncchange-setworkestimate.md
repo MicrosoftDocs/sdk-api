@@ -12,6 +12,8 @@ ms.keywords: ISyncChange interface [Windows Sync],SetWorkEstimate method, ISyncC
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.SetWorkEstimate"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

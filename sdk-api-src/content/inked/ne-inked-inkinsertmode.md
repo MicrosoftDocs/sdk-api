@@ -12,6 +12,8 @@ ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enu
 ms.topic: enum
 f1_keywords: 
  - "inked/InkInsertMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

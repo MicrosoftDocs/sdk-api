@@ -12,6 +12,8 @@ ms.keywords: '*PWNDOBJ, PWNDOBJ, PWNDOBJ structure pointer [Display Devices], WN
 ms.topic: struct
 f1_keywords:
 - winddi/WNDOBJ
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

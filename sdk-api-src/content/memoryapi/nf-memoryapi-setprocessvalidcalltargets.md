@@ -12,6 +12,8 @@ ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, ba
 ms.topic: function
 f1_keywords: 
  - "memoryapi/SetProcessValidCallTargets"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

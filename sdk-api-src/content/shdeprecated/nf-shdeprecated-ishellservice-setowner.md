@@ -12,6 +12,8 @@ ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellServ
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IShellService.SetOwner"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

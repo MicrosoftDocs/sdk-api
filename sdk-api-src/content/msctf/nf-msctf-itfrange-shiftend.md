@@ -12,6 +12,8 @@ ms.keywords: ITfRange interface [Text Services Framework],ShiftEnd method, ITfRa
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.ShiftEnd"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 77fbf257-12dc-9f58-d996-7dcb8ec3efff, AsEffect, AsEffect method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectPool.AsEffect"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

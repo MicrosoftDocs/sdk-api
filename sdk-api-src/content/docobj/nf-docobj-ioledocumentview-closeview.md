@@ -12,6 +12,8 @@ ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocum
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.CloseView"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

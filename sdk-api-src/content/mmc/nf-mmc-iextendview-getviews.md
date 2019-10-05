@@ -12,6 +12,8 @@ ms.keywords: GetViews, GetViews method [MMC], GetViews method [MMC],IExtendView 
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendView.GetViews"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

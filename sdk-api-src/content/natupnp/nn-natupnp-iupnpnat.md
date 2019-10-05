@@ -12,6 +12,8 @@ ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF
 ms.topic: interface
 f1_keywords: 
  - "natupnp/IUPnPNAT"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

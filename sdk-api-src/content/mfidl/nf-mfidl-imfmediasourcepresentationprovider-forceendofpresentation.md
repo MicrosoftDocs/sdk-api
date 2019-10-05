@@ -12,6 +12,8 @@ ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSourcePresentationProvider.ForceEndOfPresentation"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

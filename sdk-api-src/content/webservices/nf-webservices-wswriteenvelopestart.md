@@ -12,6 +12,8 @@ ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services f
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteEnvelopeStart"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

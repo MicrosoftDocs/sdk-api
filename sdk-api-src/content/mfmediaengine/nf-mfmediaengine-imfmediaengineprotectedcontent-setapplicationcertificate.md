@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetAppl
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineProtectedContent.SetApplicationCertificate"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_PARAM, 0, 0x10000, 1, 2, 4, HTTP_SERVICE
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_PARAM
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

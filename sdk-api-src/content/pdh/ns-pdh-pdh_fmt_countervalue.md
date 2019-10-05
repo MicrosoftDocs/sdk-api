@@ -12,6 +12,8 @@ ms.keywords: "*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE
 ms.topic: struct
 f1_keywords: 
  - "pdh/PDH_FMT_COUNTERVALUE"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

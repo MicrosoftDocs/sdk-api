@@ -12,6 +12,8 @@ ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],SetCre
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.SetCredentialsEx2"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

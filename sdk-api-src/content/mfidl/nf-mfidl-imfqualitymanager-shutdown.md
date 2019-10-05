@@ -12,6 +12,8 @@ ms.keywords: IMFQualityManager interface [Media Foundation],Shutdown method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFQualityManager.Shutdown"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

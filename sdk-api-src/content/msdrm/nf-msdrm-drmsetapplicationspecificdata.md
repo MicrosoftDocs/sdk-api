@@ -12,6 +12,8 @@ ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData functi
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMSetApplicationSpecificData"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

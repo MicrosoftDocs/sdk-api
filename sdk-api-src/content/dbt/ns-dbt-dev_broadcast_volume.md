@@ -12,6 +12,8 @@ ms.keywords: DBTF_MEDIA, DBTF_NET, DEV_BROADCAST_VOLUME, DEV_BROADCAST_VOLUME st
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_VOLUME
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

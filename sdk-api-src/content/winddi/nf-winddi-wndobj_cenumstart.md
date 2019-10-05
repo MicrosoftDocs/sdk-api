@@ -12,6 +12,8 @@ ms.keywords: WNDOBJ_cEnumStart, WNDOBJ_cEnumStart function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/WNDOBJ_cEnumStart
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: '*LPDWORD_DWORD, DWORD_DWORD, DWORD_DWORD structure [DHCP], LPDWORD
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DWORD_DWORD
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

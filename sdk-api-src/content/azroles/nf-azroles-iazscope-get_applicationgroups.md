@@ -12,6 +12,8 @@ ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope.ApplicationGroups"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

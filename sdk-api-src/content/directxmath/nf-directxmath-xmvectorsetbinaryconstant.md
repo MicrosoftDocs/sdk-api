@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSetBinaryConstant, XMVectorSetBinaryConstant, 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSetBinaryConstant"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSn
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssProviderCreateSnapshotSet.EndPrepareSnapshots"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

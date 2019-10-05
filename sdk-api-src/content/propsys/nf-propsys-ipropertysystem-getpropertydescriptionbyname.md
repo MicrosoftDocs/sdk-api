@@ -12,6 +12,8 @@ ms.keywords: GetPropertyDescriptionByName, GetPropertyDescriptionByName method [
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertySystem.GetPropertyDescriptionByName"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRen
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoRenderer"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 38b3a1e8-7790-fb65-bd38-77d5f709bdbd, CreateTexture2D, CreateTextur
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateTexture2D"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

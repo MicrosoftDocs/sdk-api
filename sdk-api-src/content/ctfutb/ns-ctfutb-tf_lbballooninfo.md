@@ -12,6 +12,8 @@ ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framewo
 ms.topic: struct
 f1_keywords: 
  - "ctfutb/TF_LBBALLOONINFO"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

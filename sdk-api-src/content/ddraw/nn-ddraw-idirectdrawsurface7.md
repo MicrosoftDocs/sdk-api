@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], ID
 ms.topic: interface
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

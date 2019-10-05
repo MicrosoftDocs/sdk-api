@@ -12,6 +12,8 @@ ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_G
 ms.topic: function
 f1_keywords: 
  - "objbase/GetRunningObjectTable"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

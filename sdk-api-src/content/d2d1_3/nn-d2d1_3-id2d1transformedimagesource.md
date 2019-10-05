@@ -12,6 +12,8 @@ ms.keywords: ID2D1TransformedImageSource, ID2D1TransformedImageSource interface 
 ms.topic: interface
 f1_keywords: 
  - "d2d1_3/ID2D1TransformedImageSource"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

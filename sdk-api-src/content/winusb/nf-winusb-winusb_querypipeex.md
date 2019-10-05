@@ -12,6 +12,8 @@ ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx function [Buses], buses.winu
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_QueryPipeEx
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], Beg
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineExtension.BeginCreateObject"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

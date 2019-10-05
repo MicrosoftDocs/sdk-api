@@ -12,6 +12,8 @@ ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertySystem.EnumeratePropertyDescriptions"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

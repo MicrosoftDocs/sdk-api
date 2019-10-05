@@ -12,6 +12,8 @@ ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPTranscodePolicy.allowTranscode"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

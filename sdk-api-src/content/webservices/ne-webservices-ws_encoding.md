@@ -12,6 +12,8 @@ ms.keywords: WS_ENCODING, WS_ENCODING enumeration [Web Services for Windows], WS
 ms.topic: enum
 f1_keywords:
 - webservices/WS_ENCODING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

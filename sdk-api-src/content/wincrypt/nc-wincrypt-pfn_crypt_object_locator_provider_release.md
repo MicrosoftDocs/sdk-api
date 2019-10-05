@@ -12,6 +12,8 @@ ms.keywords: CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD, CRYPT_OBJECT_LOCATOR_RELEA
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

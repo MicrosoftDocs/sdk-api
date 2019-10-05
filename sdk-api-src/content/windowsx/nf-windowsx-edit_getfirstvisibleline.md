@@ -12,6 +12,8 @@ ms.keywords: Edit_GetFirstVisibleLine, Edit_GetFirstVisibleLine macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetFirstVisibleLine"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

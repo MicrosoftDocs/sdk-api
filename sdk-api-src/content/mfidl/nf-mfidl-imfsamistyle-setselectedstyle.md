@@ -12,6 +12,8 @@ ms.keywords: IMFSAMIStyle interface [Media Foundation],SetSelectedStyle method, 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSAMIStyle.SetSelectedStyle"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

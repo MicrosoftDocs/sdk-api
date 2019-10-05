@@ -12,6 +12,8 @@ ms.keywords: IFaxTiff interface [Fax Service],RecipientNumber property, IFaxTiff
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxTiff.RecipientNumber"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perf
 ms.topic: function
 f1_keywords: 
  - "perflib/PerfStartProviderEx"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

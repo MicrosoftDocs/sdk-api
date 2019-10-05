@@ -12,6 +12,8 @@ ms.keywords: PSpatialAudioMetadataItemsInfo, PSpatialAudioMetadataItemsInfo stru
 ms.topic: struct
 f1_keywords: 
  - "spatialaudiometadata/SpatialAudioMetadataItemsInfo"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

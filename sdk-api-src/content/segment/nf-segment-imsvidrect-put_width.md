@@ -12,6 +12,8 @@ ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Width method, 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidRect.put_Width"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

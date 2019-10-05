@@ -12,6 +12,8 @@ ms.keywords: "*LPUNIVERSAL_NAME_INFOW, LPUNIVERSAL_NAME_INFO, LPUNIVERSAL_NAME_I
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/UNIVERSAL_NAME_INFO"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

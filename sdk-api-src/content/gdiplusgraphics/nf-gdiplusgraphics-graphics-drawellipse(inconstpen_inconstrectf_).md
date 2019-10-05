@@ -9,6 +9,8 @@ ms.keywords: Graphics::DrawEllipse
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusgraphics/Graphics::DrawEllipse"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

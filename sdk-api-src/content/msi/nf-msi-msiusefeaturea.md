@@ -12,6 +12,8 @@ ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatur
 ms.topic: function
 f1_keywords: 
  - "msi/MsiUseFeature"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/Ms
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiViewClose"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

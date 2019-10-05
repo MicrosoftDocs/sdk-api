@@ -12,6 +12,8 @@ ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStora
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStorage.SaveCompleted"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

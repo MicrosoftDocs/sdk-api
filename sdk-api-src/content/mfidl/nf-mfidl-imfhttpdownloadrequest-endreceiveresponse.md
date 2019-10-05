@@ -12,6 +12,8 @@ ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], E
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.EndReceiveResponse"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

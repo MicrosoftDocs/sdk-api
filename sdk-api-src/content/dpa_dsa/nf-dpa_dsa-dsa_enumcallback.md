@@ -12,6 +12,8 @@ ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _sh
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_EnumCallback"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

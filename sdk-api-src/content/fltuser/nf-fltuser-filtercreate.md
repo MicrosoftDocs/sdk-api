@@ -12,6 +12,8 @@ ms.keywords: FilterCreate, FilterCreate function [Installable File System Driver
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterCreate"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

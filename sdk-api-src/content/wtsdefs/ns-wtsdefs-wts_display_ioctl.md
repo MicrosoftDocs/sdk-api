@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL stru
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_DISPLAY_IOCTL"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

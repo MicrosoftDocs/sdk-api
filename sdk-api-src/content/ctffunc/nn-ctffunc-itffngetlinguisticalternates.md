@@ -12,6 +12,8 @@ ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interfac
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnGetLinguisticAlternates"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

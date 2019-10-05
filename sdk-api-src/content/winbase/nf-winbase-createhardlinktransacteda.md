@@ -12,6 +12,8 @@ ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files]
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateHardLinkTransacted"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

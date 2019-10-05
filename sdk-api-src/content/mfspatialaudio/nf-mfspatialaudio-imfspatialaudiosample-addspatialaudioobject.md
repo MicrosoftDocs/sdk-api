@@ -12,6 +12,8 @@ ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

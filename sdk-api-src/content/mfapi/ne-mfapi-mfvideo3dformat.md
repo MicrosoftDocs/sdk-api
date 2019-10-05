@@ -12,6 +12,8 @@ ms.keywords: MFVideo3DFormat, MFVideo3DFormat enumeration [Media Foundation], MF
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideo3DFormat"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

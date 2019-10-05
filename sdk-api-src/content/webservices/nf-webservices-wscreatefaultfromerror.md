@@ -12,6 +12,8 @@ ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Servic
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateFaultFromError
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

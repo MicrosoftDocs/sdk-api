@@ -12,6 +12,8 @@ ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Bl
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.Blt
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

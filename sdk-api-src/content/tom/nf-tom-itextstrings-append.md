@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Windows Controls], Append method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.Append"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

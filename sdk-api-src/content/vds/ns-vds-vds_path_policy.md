@@ -12,6 +12,8 @@ ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], base.vds_path_pol
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_PATH_POLICY"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

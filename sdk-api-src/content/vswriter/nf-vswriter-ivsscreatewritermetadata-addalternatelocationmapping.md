@@ -12,6 +12,8 @@ ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VS
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateWriterMetadata.AddAlternateLocationMapping"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPredefinedValue, GetPredefinedValue method [COM], GetPredefinedV
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPerPropertyBrowsing.GetPredefinedValue"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters, EnumAdapters me
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory.EnumAdapters"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

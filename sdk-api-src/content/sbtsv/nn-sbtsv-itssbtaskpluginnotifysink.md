@@ -12,6 +12,8 @@ ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbTaskPluginNotifySink"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_TILE_REGION_SIZE, D3D11_TILE_REGION_SIZE structure [Direct3D 
 ms.topic: struct
 f1_keywords: 
  - "d3d11_2/D3D11_TILE_REGION_SIZE"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

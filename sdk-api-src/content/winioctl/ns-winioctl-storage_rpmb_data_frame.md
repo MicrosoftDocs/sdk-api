@@ -4,6 +4,10 @@ title: STORAGE_RPMB_DATA_FRAME
 ms.date: 4/26/2019
 ms.keywords: _STORAGE_RPMB_DATA_FRAME, STORAGE_RPMB_DATA_FRAME
 ms.topic: language-reference
+f1_keywords:
+ - _STORAGE_RPMB_DATA_FRAME
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

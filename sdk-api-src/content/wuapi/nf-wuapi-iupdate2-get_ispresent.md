@@ -12,6 +12,8 @@ ms.keywords: IUpdate2 interface [Windows Update Agent],IsPresent property, IUpda
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate2.IsPresent"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

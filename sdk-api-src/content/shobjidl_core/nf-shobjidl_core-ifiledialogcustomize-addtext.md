@@ -12,6 +12,8 @@ ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogCustomize.AddText"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

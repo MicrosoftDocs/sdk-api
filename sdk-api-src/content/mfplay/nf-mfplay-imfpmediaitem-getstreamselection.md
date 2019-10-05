@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetStreamSelection"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPointerCursorId, GetPointerCursorId function [Input Messages and
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerCursorId"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

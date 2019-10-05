@@ -12,6 +12,8 @@ ms.keywords: DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_
 ms.topic: method
 f1_keywords:
 - dsclient/IDsBrowseDomainTree.GetDomains
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

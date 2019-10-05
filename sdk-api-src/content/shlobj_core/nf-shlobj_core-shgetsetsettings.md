@@ -12,6 +12,8 @@ ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetSetSettings"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

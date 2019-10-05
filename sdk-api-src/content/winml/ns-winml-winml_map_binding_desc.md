@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_map_binding_desc, PWINML_MAP_BINDING_DESC, PW
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_MAP_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

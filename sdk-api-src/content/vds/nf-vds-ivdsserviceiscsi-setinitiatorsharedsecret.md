@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceIscsi interface [VDS],SetInitiatorSharedSecret method, I
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceIscsi.SetInitiatorSharedSecret
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

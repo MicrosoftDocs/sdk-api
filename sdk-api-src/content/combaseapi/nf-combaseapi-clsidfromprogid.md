@@ -12,6 +12,8 @@ ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProg
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CLSIDFromProgID"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

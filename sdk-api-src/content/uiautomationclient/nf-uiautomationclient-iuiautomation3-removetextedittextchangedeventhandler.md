@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation3 interface [Windows Accessibility],RemoveTextEditText
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation3.RemoveTextEditTextChangedEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

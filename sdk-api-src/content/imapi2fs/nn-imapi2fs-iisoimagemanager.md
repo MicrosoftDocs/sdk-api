@@ -12,6 +12,8 @@ ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageMana
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IIsoImageManager"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, D3D12_RAYTRACI
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

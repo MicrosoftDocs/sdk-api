@@ -12,6 +12,8 @@ ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMonitor method, IFullS
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.SetMonitor"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

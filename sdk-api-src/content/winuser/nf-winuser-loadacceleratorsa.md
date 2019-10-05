@@ -12,6 +12,8 @@ ms.keywords: LoadAccelerators, LoadAccelerators function [Menus and Other Resour
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadAccelerators"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

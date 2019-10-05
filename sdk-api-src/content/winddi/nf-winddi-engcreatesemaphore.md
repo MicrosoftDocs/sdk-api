@@ -12,6 +12,8 @@ ms.keywords: EngCreateSemaphore, EngCreateSemaphore function [Display Devices], 
 ms.topic: function
 f1_keywords: 
  - "winddi/EngCreateSemaphore"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

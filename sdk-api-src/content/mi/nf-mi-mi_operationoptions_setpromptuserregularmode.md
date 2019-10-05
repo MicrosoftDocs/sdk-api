@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_SetPromptUserRegularMode, MI_OperationOptions_S
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetPromptUserRegularMode
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

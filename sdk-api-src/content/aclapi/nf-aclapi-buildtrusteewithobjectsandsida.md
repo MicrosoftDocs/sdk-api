@@ -12,6 +12,8 @@ ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid functi
 ms.topic: function
 f1_keywords:
 - aclapi/BuildTrusteeWithObjectsAndSid
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

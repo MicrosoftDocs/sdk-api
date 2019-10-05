@@ -12,6 +12,8 @@ ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], _cos
 ms.topic: struct
 f1_keywords: 
  - "eventsys/COMEVENTSYSCHANGEINFO"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

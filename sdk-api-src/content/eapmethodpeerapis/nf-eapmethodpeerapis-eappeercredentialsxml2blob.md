@@ -12,6 +12,8 @@ ms.keywords: EapPeerCredentialsXml2Blob, EapPeerCredentialsXml2Blob function [EA
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerCredentialsXml2Blob
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_UI_DATA_FORMAT
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

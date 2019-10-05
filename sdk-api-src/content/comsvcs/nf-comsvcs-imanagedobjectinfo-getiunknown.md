@@ -12,6 +12,8 @@ ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IManagedObjectInfo.GetIUnknown"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

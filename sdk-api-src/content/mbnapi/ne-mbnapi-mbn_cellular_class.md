@@ -12,6 +12,8 @@ ms.keywords: MBN_CELLULAR_CLASS, MBN_CELLULAR_CLASS enumeration [Microsoft Broad
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_CELLULAR_CLASS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

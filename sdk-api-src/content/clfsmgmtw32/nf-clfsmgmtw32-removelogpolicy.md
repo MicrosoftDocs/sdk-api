@@ -12,6 +12,8 @@ ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/Remo
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/RemoveLogPolicy
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

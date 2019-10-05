@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],_Ne
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

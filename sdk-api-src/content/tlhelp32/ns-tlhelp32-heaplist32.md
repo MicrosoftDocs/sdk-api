@@ -12,6 +12,8 @@ ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [Too
 ms.topic: struct
 f1_keywords: 
  - "tlhelp32/HEAPLIST32"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

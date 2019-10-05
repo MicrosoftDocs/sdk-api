@@ -12,6 +12,8 @@ ms.keywords: End, End method [Media Foundation], End method [Media Foundation],I
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFCdmSuspendNotify.End"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

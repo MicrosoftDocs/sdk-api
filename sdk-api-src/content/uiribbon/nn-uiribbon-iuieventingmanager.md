@@ -12,6 +12,8 @@ ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], 
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUIEventingManager"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

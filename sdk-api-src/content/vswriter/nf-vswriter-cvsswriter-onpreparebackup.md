@@ -12,6 +12,8 @@ ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPre
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriter.OnPrepareBackup"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellImageDataFactory, IShellImageDataFactory interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "shimgdata/IShellImageDataFactory"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

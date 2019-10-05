@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imag
 ms.topic: function
 f1_keywords: 
  - "wincodec/WICMapGuidToShortName"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

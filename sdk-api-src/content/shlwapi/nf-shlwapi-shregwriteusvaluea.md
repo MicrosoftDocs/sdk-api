@@ -12,6 +12,8 @@ ms.keywords: REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_DWORD_LITTLE_ENDIA
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegWriteUSValue"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

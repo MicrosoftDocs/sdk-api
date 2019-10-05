@@ -12,6 +12,8 @@ ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function
 ms.topic: function
 f1_keywords: 
  - "propsys/PSLookupPropertyHandlerCLSID"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

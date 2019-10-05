@@ -12,6 +12,8 @@ ms.keywords: '*PMAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG
 ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_PROPERTY_BAG
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

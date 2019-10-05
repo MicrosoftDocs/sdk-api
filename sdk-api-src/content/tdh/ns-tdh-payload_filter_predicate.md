@@ -12,6 +12,8 @@ ms.keywords: '*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CON
 ms.topic: struct
 f1_keywords:
 - tdh/PAYLOAD_FILTER_PREDICATE
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

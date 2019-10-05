@@ -12,6 +12,8 @@ ms.keywords: '*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure
 ms.topic: struct
 f1_keywords:
 - winwlx/WLX_PROFILE_V1_0
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

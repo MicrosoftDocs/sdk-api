@@ -12,6 +12,8 @@ ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataComp
 ms.topic: method
 f1_keywords:
 - mmc/IResultDataCompareEx.Compare
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

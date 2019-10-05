@@ -12,6 +12,8 @@ ms.keywords: SetLastErrorEx, SetLastErrorEx function, _win32_setlasterrorex, bas
 ms.topic: function
 f1_keywords: 
  - "winuser/SetLastErrorEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

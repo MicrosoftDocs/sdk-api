@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeW
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.GetStatus"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

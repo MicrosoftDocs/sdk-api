@@ -12,6 +12,8 @@ ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsP
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartUri.IsRelationshipsPartUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

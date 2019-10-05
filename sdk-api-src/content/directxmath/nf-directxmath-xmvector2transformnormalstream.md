@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector2TransformNormalStream, XMVector2TransformNorm
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector2TransformNormalStream"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

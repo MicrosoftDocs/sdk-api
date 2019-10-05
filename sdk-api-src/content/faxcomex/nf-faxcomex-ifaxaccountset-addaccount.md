@@ -12,6 +12,8 @@ ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountSet.AddAccount"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

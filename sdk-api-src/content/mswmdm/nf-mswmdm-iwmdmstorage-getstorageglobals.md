@@ -12,6 +12,8 @@ ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device M
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage.GetStorageGlobals"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

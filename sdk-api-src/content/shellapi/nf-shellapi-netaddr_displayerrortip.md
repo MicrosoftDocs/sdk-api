@@ -12,6 +12,8 @@ ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows She
 ms.topic: macro
 f1_keywords: 
  - "shellapi/NetAddr_DisplayErrorTip"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceE
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2LookupServiceEnd
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

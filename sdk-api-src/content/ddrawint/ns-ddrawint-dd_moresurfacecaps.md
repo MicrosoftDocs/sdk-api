@@ -12,6 +12,8 @@ ms.keywords: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS struc
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_MORESURFACECAPS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

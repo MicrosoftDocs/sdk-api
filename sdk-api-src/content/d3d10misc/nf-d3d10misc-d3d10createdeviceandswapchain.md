@@ -12,6 +12,8 @@ ms.keywords: D3D10CreateDeviceAndSwapChain, D3D10CreateDeviceAndSwapChain functi
 ms.topic: function
 f1_keywords: 
  - "d3d10misc/D3D10CreateDeviceAndSwapChain"
+dev_langs:
+ - c++
 req.header: d3d10misc.h
 req.include-header: 
 req.target-type: Windows

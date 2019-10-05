@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS, PWLAN_C
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_CONNECTION_PARAMETERS
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

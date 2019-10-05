@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SyncDis
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.SyncDisplayTransform"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

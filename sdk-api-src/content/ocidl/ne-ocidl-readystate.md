@@ -12,6 +12,8 @@ ms.keywords: READYSTATE, READYSTATE enumeration [DirectShow], READYSTATE_COMPLET
 ms.topic: enum
 f1_keywords: 
  - "ocidl/READYSTATE"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

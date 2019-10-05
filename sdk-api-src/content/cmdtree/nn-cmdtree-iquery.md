@@ -12,6 +12,8 @@ ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Inde
 ms.topic: interface
 f1_keywords: 
  - "cmdtree/IQuery"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

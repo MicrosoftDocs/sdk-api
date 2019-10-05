@@ -12,6 +12,8 @@ ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MM
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole.GetMainWindow"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

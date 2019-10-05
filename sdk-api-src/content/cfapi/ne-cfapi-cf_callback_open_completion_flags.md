@@ -12,6 +12,8 @@ ms.keywords: CF_CALLBACK_OPEN_COMPLETION_FLAGS, CF_CALLBACK_OPEN_COMPLETION_FLAG
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CALLBACK_OPEN_COMPLETION_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

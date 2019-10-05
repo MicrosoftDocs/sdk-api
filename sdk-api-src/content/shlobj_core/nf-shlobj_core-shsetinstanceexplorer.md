@@ -12,6 +12,8 @@ ms.keywords: SHSetInstanceExplorer, SHSetInstanceExplorer function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHSetInstanceExplorer"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

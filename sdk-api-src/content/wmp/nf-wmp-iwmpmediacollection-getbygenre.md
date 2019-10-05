@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByGenre met
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMediaCollection.getByGenre"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

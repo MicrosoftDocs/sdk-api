@@ -12,6 +12,8 @@ ms.keywords: D3D10_COLOR_WRITE_ENABLE, D3D10_COLOR_WRITE_ENABLE enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_COLOR_WRITE_ENABLE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

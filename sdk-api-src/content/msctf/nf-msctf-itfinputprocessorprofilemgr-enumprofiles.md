@@ -12,6 +12,8 @@ ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumPr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileMgr.EnumProfiles"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

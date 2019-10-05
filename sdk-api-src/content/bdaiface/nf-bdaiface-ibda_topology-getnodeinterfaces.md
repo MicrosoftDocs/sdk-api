@@ -12,6 +12,8 @@ ms.keywords: GetNodeInterfaces, GetNodeInterfaces method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.GetNodeInterfaces"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

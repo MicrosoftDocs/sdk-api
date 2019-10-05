@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.Low
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.LowHealth"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

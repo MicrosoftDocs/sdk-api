@@ -12,6 +12,8 @@ ms.keywords: WnvOpen, WnvOpen function [Windows Network Virtualization], wnv.wnv
 ms.topic: function
 f1_keywords: 
  - "wnvapi/WnvOpen"
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

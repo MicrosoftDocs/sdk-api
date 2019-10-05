@@ -12,6 +12,8 @@ ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection i
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPropertyConstraintCollection.Get"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

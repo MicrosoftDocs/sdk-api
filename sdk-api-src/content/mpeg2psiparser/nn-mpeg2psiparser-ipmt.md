@@ -12,6 +12,8 @@ ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [M
 ms.topic: interface
 f1_keywords: 
  - "mpeg2psiparser/IPMT"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

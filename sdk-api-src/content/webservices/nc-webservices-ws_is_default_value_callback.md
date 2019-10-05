@@ -12,6 +12,8 @@ ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback
 ms.topic: callback
 f1_keywords:
 - webservices/WS_IS_DEFAULT_VALUE_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

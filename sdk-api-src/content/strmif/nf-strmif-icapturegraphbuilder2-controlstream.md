@@ -12,6 +12,8 @@ ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream met
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder2.ControlStream"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

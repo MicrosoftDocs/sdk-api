@@ -12,6 +12,8 @@ ms.keywords: IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [M
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbSIParameterDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

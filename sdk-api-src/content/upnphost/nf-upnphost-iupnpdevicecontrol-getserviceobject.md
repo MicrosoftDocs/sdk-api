@@ -12,6 +12,8 @@ ms.keywords: GetServiceObject, GetServiceObject method [UPnP APIs], GetServiceOb
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPDeviceControl.GetServiceObject"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

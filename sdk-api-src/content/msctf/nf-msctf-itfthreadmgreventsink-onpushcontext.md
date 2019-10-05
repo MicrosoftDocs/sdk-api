@@ -12,6 +12,8 @@ ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushCon
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgrEventSink.OnPushContext"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEX
 ms.topic: struct
 f1_keywords:
 - dbghelp/STACKFRAME_EX
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

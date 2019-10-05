@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY structu
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

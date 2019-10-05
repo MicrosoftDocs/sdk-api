@@ -12,6 +12,8 @@ ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagin
 ms.topic: struct
 f1_keywords: 
  - "featurestagingapi/FEATURE_ERROR"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

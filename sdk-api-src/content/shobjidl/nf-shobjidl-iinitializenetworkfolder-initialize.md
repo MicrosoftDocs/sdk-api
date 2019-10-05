@@ -12,6 +12,8 @@ ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize metho
 ms.topic: method
 f1_keywords:
 - shobjidl/IInitializeNetworkFolder.Initialize
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT3PK, XMFLOAT3PK structure [DirectX Math Support APIs], direc
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMFLOAT3PK"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

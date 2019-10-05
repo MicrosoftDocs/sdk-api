@@ -12,6 +12,8 @@ ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVide
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoMixerControl"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

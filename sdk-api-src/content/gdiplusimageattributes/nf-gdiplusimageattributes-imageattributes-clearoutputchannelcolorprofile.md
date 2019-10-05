@@ -12,6 +12,8 @@ ms.keywords: ClearOutputChannelColorProfile, ClearOutputChannelColorProfile meth
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearOutputChannelColorProfile"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

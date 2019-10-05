@@ -12,6 +12,8 @@ ms.keywords: D3D11_LIBRARY_DESC, D3D11_LIBRARY_DESC structure [Direct3D 11], d3d
 ms.topic: struct
 f1_keywords: 
  - "d3d11shader/D3D11_LIBRARY_DESC"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

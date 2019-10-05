@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE st
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_BOOTP_IP_RANGE"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

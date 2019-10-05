@@ -12,6 +12,8 @@ ms.keywords: ConvertInterfaceLuidToNameA, ConvertInterfaceLuidToNameA function [
 ms.topic: function
 f1_keywords: 
  - "netioapi/ConvertInterfaceLuidToNameA"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

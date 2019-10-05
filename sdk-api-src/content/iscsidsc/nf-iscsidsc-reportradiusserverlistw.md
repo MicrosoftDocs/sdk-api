@@ -12,6 +12,8 @@ ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Disc
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/ReportRadiusServerList"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

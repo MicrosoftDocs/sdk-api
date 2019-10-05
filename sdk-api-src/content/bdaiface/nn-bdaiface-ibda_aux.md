@@ -12,6 +12,8 @@ ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX 
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_AUX"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcaptureconte
 ms.topic: function
 f1_keywords:
 - winnt/RtlCaptureContext
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

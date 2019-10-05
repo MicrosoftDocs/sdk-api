@@ -12,6 +12,8 @@ ms.keywords: 6341aaff-aa80-4172-8577-0b757a01ea53, MFPMPSESSION_CREATION_FLAGS, 
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFPMPSESSION_CREATION_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

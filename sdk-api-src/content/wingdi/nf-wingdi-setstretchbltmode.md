@@ -12,6 +12,8 @@ ms.keywords: BLACKONWHITE, COLORONCOLOR, HALFTONE, STRETCH_ANDSCANS, STRETCH_DEL
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetStretchBltMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

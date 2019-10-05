@@ -12,6 +12,8 @@ ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], Ge
 ms.topic: function
 f1_keywords: 
  - "winbase/GetLogicalDriveStrings"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

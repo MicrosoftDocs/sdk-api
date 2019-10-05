@@ -12,6 +12,8 @@ ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Micr
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordTransportStreamId"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

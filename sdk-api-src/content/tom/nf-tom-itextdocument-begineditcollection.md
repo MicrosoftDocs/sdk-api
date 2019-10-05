@@ -12,6 +12,8 @@ ms.keywords: BeginEditCollection, BeginEditCollection method [Windows Controls],
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.BeginEditCollection"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

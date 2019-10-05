@@ -12,6 +12,8 @@ ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData me
 ms.topic: method
 f1_keywords: 
  - "rendezvoussession/IRendezvousSession.SendContextData"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

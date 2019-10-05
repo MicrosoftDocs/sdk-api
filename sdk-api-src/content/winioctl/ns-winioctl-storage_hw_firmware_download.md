@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PST
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_HW_FIRMWARE_DOWNLOAD
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

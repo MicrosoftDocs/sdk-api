@@ -12,6 +12,8 @@ ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTileMappings met
 ms.topic: method
 f1_keywords: 
  - "d3d11_2/ID3D11DeviceContext2.UpdateTileMappings"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FreeUserPhysicalPages, FreeUserPhysicalPages function, _win32_freeu
 ms.topic: function
 f1_keywords: 
  - "memoryapi/FreeUserPhysicalPages"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

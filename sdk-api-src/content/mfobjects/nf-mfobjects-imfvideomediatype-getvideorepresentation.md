@@ -12,6 +12,8 @@ ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation, GetVi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFVideoMediaType.GetVideoRepresentation"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

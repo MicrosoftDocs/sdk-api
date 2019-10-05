@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],SetColorScheme method, IOleObject.SetCol
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.SetColorScheme"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

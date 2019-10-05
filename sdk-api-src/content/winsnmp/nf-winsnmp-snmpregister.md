@@ -12,6 +12,8 @@ ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP]
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpRegister"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

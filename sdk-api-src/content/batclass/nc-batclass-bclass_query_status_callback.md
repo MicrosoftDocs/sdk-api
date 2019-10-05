@@ -12,6 +12,8 @@ ms.keywords: BCLASS_QUERY_STATUS_CALLBACK, BCLASS_QUERY_STATUS_CALLBACK callback
 ms.topic: callback
 f1_keywords: 
  - "batclass/BatteryMiniQueryStatus"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

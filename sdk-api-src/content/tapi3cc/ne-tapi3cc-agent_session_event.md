@@ -12,6 +12,8 @@ ms.keywords: AGENT_SESSION_EVENT, AGENT_SESSION_EVENT enumeration [TAPI 2.2], AS
 ms.topic: enum
 f1_keywords: 
  - "tapi3cc/AGENT_SESSION_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMDMStorage interface [windows Media Device Manager],SendOpaqueCom
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage.SendOpaqueCommand"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

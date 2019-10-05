@@ -12,6 +12,8 @@ ms.keywords: FilterSendMessage, FilterSendMessage function [Installable File Sys
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterSendMessage"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

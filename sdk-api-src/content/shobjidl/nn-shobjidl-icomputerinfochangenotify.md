@@ -12,6 +12,8 @@ ms.keywords: IComputerInfoChangeNotify, IComputerInfoChangeNotify interface [Win
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IComputerInfoChangeNotify"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

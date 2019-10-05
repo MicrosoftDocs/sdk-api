@@ -12,6 +12,8 @@ ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaTypeHandler.GetCurrentMediaType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

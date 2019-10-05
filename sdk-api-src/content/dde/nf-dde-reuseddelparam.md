@@ -12,6 +12,8 @@ ms.keywords: ReuseDDElParam, ReuseDDElParam function [Data Exchange], _win32_Reu
 ms.topic: function
 f1_keywords: 
  - "dde/ReuseDDElParam"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

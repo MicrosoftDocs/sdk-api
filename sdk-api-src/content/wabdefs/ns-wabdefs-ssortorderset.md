@@ -12,6 +12,8 @@ ms.keywords: '*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure point
 ms.topic: struct
 f1_keywords:
 - wabdefs/SSortOrderSet
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

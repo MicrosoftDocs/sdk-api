@@ -12,6 +12,8 @@ ms.keywords: GetIScsiIKEInfoA, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI 
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/GetIscsiIKEInfo"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

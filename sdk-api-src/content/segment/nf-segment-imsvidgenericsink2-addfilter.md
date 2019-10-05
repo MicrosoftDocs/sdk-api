@@ -12,6 +12,8 @@ ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidGenericSink2.AddFilter"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

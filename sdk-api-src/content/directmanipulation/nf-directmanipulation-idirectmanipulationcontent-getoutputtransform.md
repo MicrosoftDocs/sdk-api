@@ -12,6 +12,8 @@ ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation]
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationContent.GetOutputTransform"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WINSAT_ASSESSMENT_CPU, WINSAT_ASSESSMENT_D3D, WINSAT_ASSESSMENT_DIS
 ms.topic: enum
 f1_keywords: 
  - "winsatcominterfacei/WINSAT_ASSESSMENT_TYPE"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.GetNextProgram"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindTravelEntry, FindTravelEntry method [Windows Shell], FindTravel
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.FindTravelEntry"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

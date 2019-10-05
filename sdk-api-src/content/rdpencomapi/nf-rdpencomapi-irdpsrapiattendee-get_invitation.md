@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendee interface [RDP],Invitation property, IRDPSRAPIAtt
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.Invitation"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

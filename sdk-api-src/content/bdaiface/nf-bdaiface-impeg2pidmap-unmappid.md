@@ -12,6 +12,8 @@ ms.keywords: IMPEG2PIDMap interface [DirectShow],UnmapPID method, IMPEG2PIDMap.U
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IMPEG2PIDMap.UnmapPID"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

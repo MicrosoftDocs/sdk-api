@@ -12,6 +12,8 @@ ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddre
 ms.topic: function
 f1_keywords: 
  - "synchapi/WakeByAddressSingle"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

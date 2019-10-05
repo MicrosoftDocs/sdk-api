@@ -7,6 +7,8 @@ ms.keywords: ID3D12GraphicsCommandList5
 ms.topic: language-reference
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList5"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

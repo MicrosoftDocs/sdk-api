@@ -12,6 +12,8 @@ ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFi
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IFileDialogEvents"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

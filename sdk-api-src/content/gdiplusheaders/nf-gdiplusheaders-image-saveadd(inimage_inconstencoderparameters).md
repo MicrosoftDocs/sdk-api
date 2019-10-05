@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],SaveAdd method, Image.SaveAdd, Image.SaveAdd(IN 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.SaveAdd"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

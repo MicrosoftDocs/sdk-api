@@ -12,6 +12,8 @@ ms.keywords: IMediaRendererFactory, IMediaRendererFactory interface [Media Strea
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IMediaRendererFactory"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

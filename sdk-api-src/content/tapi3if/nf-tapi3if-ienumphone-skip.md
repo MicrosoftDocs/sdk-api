@@ -12,6 +12,8 @@ ms.keywords: IEnumPhone interface [TAPI 2.2],Skip method, IEnumPhone.Skip, IEnum
 ms.topic: method
 f1_keywords: 
  - "tapi3if/IEnumPhone.Skip"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNative
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetNativeVideoSize"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

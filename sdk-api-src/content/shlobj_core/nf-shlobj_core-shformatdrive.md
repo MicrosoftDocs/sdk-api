@@ -12,6 +12,8 @@ ms.keywords: SHFMT_ID_DEFAULT, SHFMT_OPT_FULL, SHFMT_OPT_SYSONLY, SHFormatDrive,
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHFormatDrive"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

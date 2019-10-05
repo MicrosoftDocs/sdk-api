@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMFLOAT2.XMFLOAT2"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

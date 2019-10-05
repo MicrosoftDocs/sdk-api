@@ -12,6 +12,8 @@ ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services],
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbPlacement"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

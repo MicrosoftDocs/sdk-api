@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], IS
 ms.topic: interface
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

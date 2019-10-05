@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],createFilePKCS10WStr method, IEnroll.c
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.createFilePKCS10WStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

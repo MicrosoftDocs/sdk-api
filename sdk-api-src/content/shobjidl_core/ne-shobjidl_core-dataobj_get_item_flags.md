@@ -12,6 +12,8 @@ ms.keywords: DATAOBJ_GET_ITEM_FLAGS, DATAOBJ_GET_ITEM_FLAGS enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/DATAOBJ_GET_ITEM_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

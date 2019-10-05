@@ -12,6 +12,8 @@ ms.keywords: PUiaChangeInfo, PUiaChangeInfo structure pointer [Windows Accessibi
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UiaChangeInfo"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: 
 req.target-type: Windows

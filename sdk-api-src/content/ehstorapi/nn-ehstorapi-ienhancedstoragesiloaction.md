@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [E
 ms.topic: interface
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSiloAction"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

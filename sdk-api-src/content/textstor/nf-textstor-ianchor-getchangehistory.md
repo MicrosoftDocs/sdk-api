@@ -12,6 +12,8 @@ ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework]
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.GetChangeHistory"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

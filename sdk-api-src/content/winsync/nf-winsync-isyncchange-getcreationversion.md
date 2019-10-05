@@ -12,6 +12,8 @@ ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCr
 ms.topic: method
 f1_keywords:
 - winsync/ISyncChange.GetCreationVersion
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

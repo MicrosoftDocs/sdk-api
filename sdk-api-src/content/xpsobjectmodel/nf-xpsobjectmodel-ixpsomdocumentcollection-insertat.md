@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],In
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocumentCollection.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

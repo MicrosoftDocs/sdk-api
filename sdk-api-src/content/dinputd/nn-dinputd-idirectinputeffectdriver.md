@@ -12,6 +12,8 @@ ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human
 ms.topic: interface
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

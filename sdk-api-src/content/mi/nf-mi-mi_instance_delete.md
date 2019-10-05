@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_Delete, MI_Instance_Delete function [Windows Management
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_Delete
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

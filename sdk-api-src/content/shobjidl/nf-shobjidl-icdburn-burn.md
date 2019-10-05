@@ -12,6 +12,8 @@ ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDB
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ICDBurn.Burn"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

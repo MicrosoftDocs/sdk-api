@@ -12,6 +12,8 @@ ms.keywords: FAX_JOB_TYPE_ENUM, FAX_JOB_TYPE_ENUM enumeration [Fax Service], _mf
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_JOB_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

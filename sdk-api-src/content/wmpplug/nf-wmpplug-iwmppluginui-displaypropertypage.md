@@ -12,6 +12,8 @@ ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Play
 ms.topic: method
 f1_keywords: 
  - "wmpplug/IWMPPluginUI.DisplayPropertyPage"
+dev_langs:
+ - c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

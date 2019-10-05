@@ -12,6 +12,8 @@ ms.keywords: GetForeColor, GetForeColor method [Windows Controls], GetForeColor 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetForeColor"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

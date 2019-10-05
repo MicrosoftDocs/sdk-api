@@ -12,6 +12,8 @@ ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], IBlockRangeList
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IBlockRangeList"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

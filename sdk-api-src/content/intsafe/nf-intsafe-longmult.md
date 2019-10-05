@@ -12,6 +12,8 @@ ms.keywords: LongMult, LongMult function [Windows Shell], intsafe/LongMult, shel
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

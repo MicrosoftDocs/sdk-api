@@ -12,6 +12,8 @@ ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openm
 ms.topic: function
 f1_keywords: 
  - "synchapi/OpenMutex"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

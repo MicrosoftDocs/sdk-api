@@ -12,6 +12,8 @@ ms.keywords: "*PIP4_ARRAY, *PIP4_ARRAY structure [DNS], IP4_ARRAY, IP4_ARRAY str
 ms.topic: struct
 f1_keywords: 
  - "windns/IP4_ARRAY"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

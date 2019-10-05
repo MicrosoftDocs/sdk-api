@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLo
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceLoader.LoadService"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

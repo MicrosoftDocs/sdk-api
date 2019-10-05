@@ -12,6 +12,8 @@ ms.keywords: ListBox_ResetContent, ListBox_ResetContent macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_ResetContent"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security
 ms.topic: function
 f1_keywords:
 - slpublic/SLSetGenuineInformation
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

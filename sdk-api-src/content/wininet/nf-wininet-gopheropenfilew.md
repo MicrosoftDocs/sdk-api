@@ -12,6 +12,8 @@ ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA,
 ms.topic: function
 f1_keywords: 
  - "wininet/GopherOpenFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

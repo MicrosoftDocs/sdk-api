@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], ID
 ms.topic: interface
 f1_keywords: 
  - "dwrite_2/IDWriteTextFormat1"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

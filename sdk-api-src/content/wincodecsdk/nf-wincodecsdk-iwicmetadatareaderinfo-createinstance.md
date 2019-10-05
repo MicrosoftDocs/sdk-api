@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReaderInfo.CreateInstance"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

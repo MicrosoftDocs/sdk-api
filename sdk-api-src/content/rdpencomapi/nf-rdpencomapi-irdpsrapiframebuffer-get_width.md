@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrame
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIFrameBuffer.Width"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

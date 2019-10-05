@@ -12,6 +12,8 @@ ms.keywords: WIAVIDEO_CREATING_VIDEO, WIAVIDEO_DESTROYING_VIDEO, WIAVIDEO_NO_VID
 ms.topic: enum
 f1_keywords: 
  - "wiavideo/WIAVIDEO_STATE"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

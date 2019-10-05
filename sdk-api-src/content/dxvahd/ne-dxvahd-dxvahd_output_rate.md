@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_OUTPUT_RATE, DXVAHD_OUTPUT_RATE enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_OUTPUT_RATE
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

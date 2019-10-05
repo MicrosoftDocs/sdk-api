@@ -12,6 +12,8 @@ ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetInterpolationColorCount"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

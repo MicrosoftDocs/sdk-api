@@ -12,6 +12,8 @@ ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing
 ms.topic: function
 f1_keywords: 
  - "x3daudio/X3DAudioCalculate"
+dev_langs:
+ - c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

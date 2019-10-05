@@ -12,6 +12,8 @@ ms.keywords: "*lpMapiRecipDescW, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiReci
 ms.topic: struct
 f1_keywords: 
  - "mapi/MapiRecipDescW"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

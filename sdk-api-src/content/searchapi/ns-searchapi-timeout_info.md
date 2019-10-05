@@ -12,6 +12,8 @@ ms.keywords: TIMEOUT_INFO, TIMEOUT_INFO structure [search], _search_TIMEOUT_INFO
 ms.topic: struct
 f1_keywords: 
  - "searchapi/TIMEOUT_INFO"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

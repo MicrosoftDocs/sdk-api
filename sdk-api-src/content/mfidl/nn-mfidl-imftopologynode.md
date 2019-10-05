@@ -12,6 +12,8 @@ ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyN
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTopologyNode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

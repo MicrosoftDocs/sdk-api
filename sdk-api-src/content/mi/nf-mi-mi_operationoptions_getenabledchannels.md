@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_GetEnabledChannels, MI_OperationOptions_GetEnab
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetEnabledChannels
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

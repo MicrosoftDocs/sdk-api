@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [R
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitationManager"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

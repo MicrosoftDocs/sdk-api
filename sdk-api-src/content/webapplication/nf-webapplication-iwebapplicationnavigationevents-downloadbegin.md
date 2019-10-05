@@ -12,6 +12,8 @@ ms.keywords: DownloadBegin, DownloadBegin method [Debugging Windows Store apps],
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationNavigationEvents.DownloadBegin"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

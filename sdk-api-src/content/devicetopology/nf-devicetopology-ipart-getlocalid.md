@@ -12,6 +12,8 @@ ms.keywords: GetLocalId, GetLocalId method [Core Audio], GetLocalId method [Core
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.GetLocalId"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

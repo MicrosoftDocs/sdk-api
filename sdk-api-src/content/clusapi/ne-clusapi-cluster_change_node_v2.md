@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CHANGE_NODE_ALL_V2, CLUSTER_CHANGE_NODE_COMMON_PROPERTY_V2,
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_CHANGE_NODE_V2"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveRecord m
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMMutualExclusion2.RemoveRecord"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

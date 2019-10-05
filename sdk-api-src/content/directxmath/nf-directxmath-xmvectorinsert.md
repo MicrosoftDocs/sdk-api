@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorInsert, XMVectorInsert, XMVectorInsert method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorInsert"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

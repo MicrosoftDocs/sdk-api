@@ -12,6 +12,8 @@ ms.keywords: ACO_AUTOAPPEND, ACO_AUTOSUGGEST, ACO_FILTERPREFIXES, ACO_NONE, ACO_
 ms.topic: enum
 f1_keywords:
 - shldisp/AUTOCOMPLETEOPTIONS
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

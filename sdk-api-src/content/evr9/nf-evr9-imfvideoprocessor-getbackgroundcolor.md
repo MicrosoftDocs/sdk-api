@@ -12,6 +12,8 @@ ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoProcessor.GetBackgroundColor"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

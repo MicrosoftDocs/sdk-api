@@ -12,6 +12,8 @@ ms.keywords: AddRefresher, AddRefresher method [Windows Management Instrumentati
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemConfigureRefresher.AddRefresher"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

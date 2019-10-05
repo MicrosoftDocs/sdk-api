@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELE
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_BIND_ELEMENT_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

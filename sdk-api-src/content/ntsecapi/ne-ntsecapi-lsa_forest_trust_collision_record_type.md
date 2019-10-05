@@ -12,6 +12,8 @@ ms.keywords: CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLI
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

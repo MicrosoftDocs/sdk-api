@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataC
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.SchedulesEnabled"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

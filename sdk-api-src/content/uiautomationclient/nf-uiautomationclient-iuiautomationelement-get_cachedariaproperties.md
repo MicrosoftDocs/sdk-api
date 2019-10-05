@@ -12,6 +12,8 @@ ms.keywords: CachedAriaProperties property [Windows Accessibility], CachedAriaPr
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedAriaProperties"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

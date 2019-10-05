@@ -12,6 +12,8 @@ ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.g
 ms.topic: function
 f1_keywords: 
  - "objbase/GetClassFile"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSAM_PASSWORD_FILTER_ROUTINE, PSAM_PASSWORD_FILTER_ROUTINE callback
 ms.topic: callback
 f1_keywords:
 - ntsecapi/PasswordFilter
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

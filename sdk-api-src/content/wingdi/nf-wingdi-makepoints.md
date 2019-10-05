@@ -12,6 +12,8 @@ ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.
 ms.topic: macro
 f1_keywords: 
  - "wingdi/MAKEPOINTS"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

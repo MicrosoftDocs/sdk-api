@@ -12,6 +12,8 @@ ms.keywords: 7a21bfd4-6142-892e-82c8-bfe1be182780, GetGammaControlCapabilities, 
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetGammaControlCapabilities"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

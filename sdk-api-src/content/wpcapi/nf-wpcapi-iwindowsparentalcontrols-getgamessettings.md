@@ -12,6 +12,8 @@ ms.keywords: GetGamesSettings, GetGamesSettings method, GetGamesSettings method,
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWindowsParentalControls.GetGamesSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

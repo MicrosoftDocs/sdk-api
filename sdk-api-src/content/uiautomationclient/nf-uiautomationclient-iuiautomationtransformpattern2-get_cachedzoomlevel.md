@@ -12,6 +12,8 @@ ms.keywords: CachedZoomLevel property [Windows Accessibility], CachedZoomLevel p
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomLevel"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

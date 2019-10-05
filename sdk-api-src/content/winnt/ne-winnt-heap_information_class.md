@@ -12,6 +12,8 @@ ms.keywords: HEAP_INFORMATION_CLASS, HEAP_INFORMATION_CLASS enumeration, HeapCom
 ms.topic: enum
 f1_keywords: 
  - "winnt/HEAP_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

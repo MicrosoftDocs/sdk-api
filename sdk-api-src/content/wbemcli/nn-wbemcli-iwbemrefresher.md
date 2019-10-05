@@ -12,6 +12,8 @@ ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instru
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemRefresher"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

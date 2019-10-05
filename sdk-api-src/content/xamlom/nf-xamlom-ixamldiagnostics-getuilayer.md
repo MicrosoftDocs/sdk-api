@@ -12,6 +12,8 @@ ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics i
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.GetUiLayer"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

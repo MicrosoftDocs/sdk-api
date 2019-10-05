@@ -12,6 +12,8 @@ ms.keywords: CD3D11_BOX interface [Direct3D 11],~CD3D11_BOX destructor, CD3D11_B
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_BOX.~CD3D11_BOX"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathI
 ms.topic: function
 f1_keywords: 
  - "shlobj/PathIsSlow"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

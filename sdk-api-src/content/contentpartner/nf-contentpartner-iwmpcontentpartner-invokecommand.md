@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand m
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.InvokeCommand"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

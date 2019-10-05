@@ -12,6 +12,8 @@ ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.CloneFrom"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont:
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Charset"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

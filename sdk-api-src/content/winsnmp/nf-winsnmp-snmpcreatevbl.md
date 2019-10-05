@@ -12,6 +12,8 @@ ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, 
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpCreateVbl"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

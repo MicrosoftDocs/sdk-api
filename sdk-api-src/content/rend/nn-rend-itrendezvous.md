@@ -12,6 +12,8 @@ ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous inter
 ms.topic: interface
 f1_keywords: 
  - "rend/ITRendezvous"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

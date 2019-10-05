@@ -12,6 +12,8 @@ ms.keywords: GetOleObject, GetOleObject method [Windows Shell], GetOleObject met
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetOleObject"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

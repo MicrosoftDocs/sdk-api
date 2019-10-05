@@ -12,6 +12,8 @@ ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelForm
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetPixelFormat"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

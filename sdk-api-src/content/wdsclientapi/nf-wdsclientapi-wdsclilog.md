@@ -12,6 +12,8 @@ ms.keywords: WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WD
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliLog"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

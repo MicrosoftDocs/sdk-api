@@ -12,6 +12,8 @@ ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream inte
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFObjectReferenceStream.SaveReference"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

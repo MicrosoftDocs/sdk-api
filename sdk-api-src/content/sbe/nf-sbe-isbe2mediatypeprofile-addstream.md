@@ -12,6 +12,8 @@ ms.keywords: AddStream, AddStream method [Microsoft TV Technologies], AddStream 
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2MediaTypeProfile.AddStream"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapSource.GetPixelFormat"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

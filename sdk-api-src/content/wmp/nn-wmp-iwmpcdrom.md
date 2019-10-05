@@ -12,6 +12,8 @@ ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom in
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPCdrom"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cf
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfReferenceProtectedHandle"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

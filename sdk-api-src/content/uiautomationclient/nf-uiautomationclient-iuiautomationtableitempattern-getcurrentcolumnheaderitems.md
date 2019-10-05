@@ -12,6 +12,8 @@ ms.keywords: GetCurrentColumnHeaderItems, GetCurrentColumnHeaderItems method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

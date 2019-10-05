@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_n
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_next_attribute"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_EVENT1, EV_EVENT2, EV_PERR, EV
 ms.topic: function
 f1_keywords:
 - winbase/GetCommMask
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

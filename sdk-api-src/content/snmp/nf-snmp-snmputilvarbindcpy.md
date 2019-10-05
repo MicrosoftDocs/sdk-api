@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmpu
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilVarBindCpy"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMF
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMFilterMiscFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

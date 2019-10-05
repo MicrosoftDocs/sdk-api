@@ -12,6 +12,8 @@ ms.keywords: ICategory, ICategory interface [Windows Update Agent], ICategory in
 ms.topic: interface
 f1_keywords: 
  - "wuapi/ICategory"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

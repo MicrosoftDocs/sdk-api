@@ -12,6 +12,8 @@ ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEven
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.GetEventClassesForIID"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

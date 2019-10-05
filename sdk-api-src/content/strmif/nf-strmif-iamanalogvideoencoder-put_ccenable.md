@@ -12,6 +12,8 @@ ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CCEnable method, I
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAnalogVideoEncoder.put_CCEnable"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

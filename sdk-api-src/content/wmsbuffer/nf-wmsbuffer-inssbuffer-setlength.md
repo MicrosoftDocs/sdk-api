@@ -12,6 +12,8 @@ ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSB
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer.SetLength"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

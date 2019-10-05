@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationElement interface [Windows Accessibility],SetFocus met
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.SetFocus"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

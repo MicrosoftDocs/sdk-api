@@ -12,6 +12,8 @@ ms.keywords: Arguments property [Task Scheduler], Arguments property [Task Sched
 ms.topic: method
 f1_keywords: 
  - "taskschd/IExecAction.Arguments"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertyS
 ms.topic: function
 f1_keywords:
 - prsht/PropertySheet
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

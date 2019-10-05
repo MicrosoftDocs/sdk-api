@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_VIDEO_PROCESSOR_STEREO_F
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

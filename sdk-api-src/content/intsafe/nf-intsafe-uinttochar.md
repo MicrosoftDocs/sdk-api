@@ -12,6 +12,8 @@ ms.keywords: UIntToChar, UIntToChar function [Windows Shell], _shell_UIntToChar,
 ms.topic: function
 f1_keywords: 
  - "intsafe/UIntToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

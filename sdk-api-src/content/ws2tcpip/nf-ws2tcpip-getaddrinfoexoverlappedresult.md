@@ -12,6 +12,8 @@ ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult functi
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/GetAddrInfoExOverlappedResult"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

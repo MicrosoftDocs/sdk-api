@@ -12,6 +12,8 @@ ms.keywords: ITRendezvous interface [TAPI 2.2],get_DefaultDirectories method, IT
 ms.topic: method
 f1_keywords: 
  - "rend/ITRendezvous.get_DefaultDirectories"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

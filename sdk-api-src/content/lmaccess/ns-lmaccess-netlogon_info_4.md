@@ -12,6 +12,8 @@ ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Win
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/NETLOGON_INFO_4"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

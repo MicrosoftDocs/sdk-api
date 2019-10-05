@@ -12,6 +12,8 @@ ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Found
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MFT_REGISTRATION_INFO"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetById, GetById method [File Server Resource Manager], GetById met
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmCollection.GetById"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineSetStatusMessages, TSPI_lineSetStatusMessages function [TA
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineSetStatusMessages"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

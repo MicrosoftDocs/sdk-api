@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfRetrievalFilter method, I
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.PushCopyOfRetrievalFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

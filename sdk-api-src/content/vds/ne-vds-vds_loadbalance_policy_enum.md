@@ -12,6 +12,8 @@ ms.keywords: VDS_LBP_DYN_LEAST_QUEUE_DEPTH, VDS_LBP_FAILOVER, VDS_LBP_LEAST_BLOC
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_LOADBALANCE_POLICY_ENUM"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

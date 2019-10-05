@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetTransferSize, WdsCliGetTransferSize function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetTransferSize"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

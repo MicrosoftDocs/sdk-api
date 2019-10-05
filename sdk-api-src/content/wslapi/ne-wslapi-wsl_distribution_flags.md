@@ -12,6 +12,8 @@ ms.keywords: WSL_DISTRIBUTION_FLAGS, WSL_DISTRIBUTION_FLAGS enumeration, WSL_DIS
 ms.topic: enum
 f1_keywords: 
  - "wslapi/WSL_DISTRIBUTION_FLAGS"
+dev_langs:
+ - c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

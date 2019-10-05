@@ -12,6 +12,8 @@ ms.keywords: GetSigFromToken, GetSigFromToken method [Windows Runtime], GetSigFr
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetSigFromToken"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

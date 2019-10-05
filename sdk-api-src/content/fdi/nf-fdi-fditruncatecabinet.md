@@ -12,6 +12,8 @@ ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/
 ms.topic: function
 f1_keywords: 
  - "fdi/FDITruncateCabinet"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

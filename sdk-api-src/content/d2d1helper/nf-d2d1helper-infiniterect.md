@@ -12,6 +12,8 @@ ms.keywords: InfiniteRect, InfiniteRect function [Direct2D], d2d1helper/Infinite
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/InfiniteRect"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

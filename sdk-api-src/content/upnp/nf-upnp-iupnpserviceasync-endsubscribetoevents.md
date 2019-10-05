@@ -12,6 +12,8 @@ ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndS
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.EndSubscribeToEvents"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

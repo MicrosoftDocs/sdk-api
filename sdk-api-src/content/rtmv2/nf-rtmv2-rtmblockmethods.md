@@ -12,6 +12,8 @@ ms.keywords: DEST_TYPE, NEXTHOP_TYPE, ROUTE_TYPE, RTM_BLOCK_METHODS, RTM_RESUME_
 ms.topic: function
 f1_keywords: 
  - "rtmv2/RtmBlockMethods"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

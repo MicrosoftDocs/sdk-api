@@ -12,6 +12,8 @@ ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource interface [Dir
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Resource.SetEvictionPriority"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

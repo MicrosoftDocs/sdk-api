@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Micr
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2EnumStream.Clone"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

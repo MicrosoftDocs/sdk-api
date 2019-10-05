@@ -12,6 +12,8 @@ ms.keywords: ISystemInformation interface [Windows Update Agent],OemHardwareSupp
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISystemInformation.OemHardwareSupportLink"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsiItem interface [IMAPI],put_IsHidden method, IFsiItem.put_IsHidd
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.put_IsHidden"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Reset method, IEnumBackgr
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyJobs1.Reset"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

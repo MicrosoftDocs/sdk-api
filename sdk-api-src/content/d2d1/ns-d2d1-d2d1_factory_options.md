@@ -12,6 +12,8 @@ ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2
 ms.topic: struct
 f1_keywords: 
  - "d2d1/D2D1_FACTORY_OPTIONS"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

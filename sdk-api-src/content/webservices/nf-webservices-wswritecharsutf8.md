@@ -12,6 +12,8 @@ ms.keywords: WsWriteCharsUtf8, WsWriteCharsUtf8 function [Web Services for Windo
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteCharsUtf8"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

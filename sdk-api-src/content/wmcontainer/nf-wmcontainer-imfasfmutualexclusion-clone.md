@@ -12,6 +12,8 @@ ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone, Clone method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion.Clone"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

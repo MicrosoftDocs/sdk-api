@@ -12,6 +12,8 @@ ms.keywords: DdVideoPortGetField, DdVideoPortGetField callback function [Display
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetField
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

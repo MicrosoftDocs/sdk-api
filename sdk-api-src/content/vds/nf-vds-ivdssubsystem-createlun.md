@@ -12,6 +12,8 @@ ms.keywords: CreateLun, CreateLun method [VDS], CreateLun method [VDS],IVdsSubSy
 ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.CreateLun
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

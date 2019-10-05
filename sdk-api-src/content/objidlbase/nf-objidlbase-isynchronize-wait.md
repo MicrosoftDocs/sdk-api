@@ -12,6 +12,8 @@ ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynch
 ms.topic: method
 f1_keywords: 
  - "objidlbase/ISynchronize.Wait"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

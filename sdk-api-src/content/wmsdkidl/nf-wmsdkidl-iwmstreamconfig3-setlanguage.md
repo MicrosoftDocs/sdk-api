@@ -12,6 +12,8 @@ ms.keywords: IWMStreamConfig3 interface [windows Media Format],SetLanguage metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig3.SetLanguage"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

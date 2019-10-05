@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUICHANGESOURCEA, *POLEUICHANGESOURCEA, CSF_ONLYGETSOURCE, CS
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUICHANGESOURCE"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

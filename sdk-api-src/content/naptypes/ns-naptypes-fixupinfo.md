@@ -12,6 +12,8 @@ ms.keywords: FixupInfo, FixupInfo structure [NAP], nap.fixupinfo_struct, naptype
 ms.topic: struct
 f1_keywords: 
  - "naptypes/FixupInfo"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

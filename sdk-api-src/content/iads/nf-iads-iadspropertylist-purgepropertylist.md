@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPro
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyList.PurgePropertyList"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

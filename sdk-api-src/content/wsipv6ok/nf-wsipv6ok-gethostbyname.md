@@ -12,6 +12,8 @@ ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Win
 ms.topic: macro
 f1_keywords: 
  - "wsipv6ok/gethostbyname"
+dev_langs:
+ - c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

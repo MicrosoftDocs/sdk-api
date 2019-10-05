@@ -12,6 +12,8 @@ ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT struc
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FIND_BY_SID_OUTPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

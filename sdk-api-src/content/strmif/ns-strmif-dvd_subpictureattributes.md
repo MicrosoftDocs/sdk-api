@@ -12,6 +12,8 @@ ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [Direc
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_SubpictureAttributes"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

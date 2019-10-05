@@ -12,6 +12,8 @@ ms.keywords: SCODE_FACILITY, SCODE_FACILITY macro [COM], _com_SCODE_FACILITY, co
 ms.topic: macro
 f1_keywords: 
  - "winerror/SCODE_FACILITY"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

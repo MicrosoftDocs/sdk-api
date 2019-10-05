@@ -12,6 +12,8 @@ ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], IAMMediaStre
 ms.topic: interface
 f1_keywords: 
  - "amstream/IAMMediaStream"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

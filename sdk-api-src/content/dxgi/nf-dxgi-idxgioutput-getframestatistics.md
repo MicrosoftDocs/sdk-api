@@ -12,6 +12,8 @@ ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics, GetFrameS
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetFrameStatistics"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

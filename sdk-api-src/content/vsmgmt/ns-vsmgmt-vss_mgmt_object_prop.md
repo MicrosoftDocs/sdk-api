@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PR
 ms.topic: struct
 f1_keywords:
 - vsmgmt/VSS_MGMT_OBJECT_PROP
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

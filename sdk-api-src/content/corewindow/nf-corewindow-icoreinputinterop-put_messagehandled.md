@@ -12,6 +12,8 @@ ms.keywords: ICoreInputInterop interface [Windows Runtime],MessageHandled proper
 ms.topic: method
 f1_keywords: 
  - "corewindow/ICoreInputInterop.MessageHandled"
+dev_langs:
+ - c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

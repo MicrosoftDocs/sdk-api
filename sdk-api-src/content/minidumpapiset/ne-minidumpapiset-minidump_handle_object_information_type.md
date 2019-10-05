@@ -12,6 +12,8 @@ ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE, MINIDUMP_HANDLE_OBJECT_INF
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

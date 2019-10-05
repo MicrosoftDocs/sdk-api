@@ -12,6 +12,8 @@ ms.keywords: D3D11_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR, D3D11_BUS_IMPL_MO
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_BUS_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

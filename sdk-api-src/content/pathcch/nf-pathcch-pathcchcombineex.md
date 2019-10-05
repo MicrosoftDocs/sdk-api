@@ -12,6 +12,8 @@ ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCC
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchCombineEx"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

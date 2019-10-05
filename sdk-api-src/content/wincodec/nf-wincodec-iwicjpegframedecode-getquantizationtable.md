@@ -12,6 +12,8 @@ ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICJpegFrameDecode.GetQuantizationTable"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

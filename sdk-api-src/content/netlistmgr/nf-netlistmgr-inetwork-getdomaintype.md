@@ -12,6 +12,8 @@ ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainT
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetwork.GetDomainType"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

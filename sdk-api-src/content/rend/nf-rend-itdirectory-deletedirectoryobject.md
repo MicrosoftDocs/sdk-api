@@ -12,6 +12,8 @@ ms.keywords: DeleteDirectoryObject, DeleteDirectoryObject method [TAPI 2.2], Del
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.DeleteDirectoryObject"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

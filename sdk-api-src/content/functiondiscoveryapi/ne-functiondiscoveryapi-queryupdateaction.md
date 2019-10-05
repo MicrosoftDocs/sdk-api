@@ -12,6 +12,8 @@ ms.keywords: QUA_ADD, QUA_CHANGE, QUA_REMOVE, QueryUpdateAction, QueryUpdateActi
 ms.topic: enum
 f1_keywords: 
  - "functiondiscoveryapi/QueryUpdateAction"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

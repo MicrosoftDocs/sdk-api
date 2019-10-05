@@ -12,6 +12,8 @@ ms.keywords: '*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USA
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_VERIFY_USAGE_STATUS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

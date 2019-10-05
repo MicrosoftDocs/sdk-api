@@ -12,6 +12,8 @@ ms.keywords: EventClassName property [COM+], EventClassName property [COM+],IEve
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass.EventClassName"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

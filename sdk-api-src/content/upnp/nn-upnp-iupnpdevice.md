@@ -12,6 +12,8 @@ ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IUPnPDevice interfa
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPDevice"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

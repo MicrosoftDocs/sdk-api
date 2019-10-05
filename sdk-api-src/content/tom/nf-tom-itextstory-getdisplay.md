@@ -12,6 +12,8 @@ ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.GetDisplay"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

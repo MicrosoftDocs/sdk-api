@@ -12,6 +12,8 @@ ms.keywords: GetHENHMETAFILE, GetHENHMETAFILE method [GDI+], GetHENHMETAFILE met
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Metafile.GetHENHMETAFILE"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDesc2, GetDesc2 method [DXGI], GetDesc2 method [DXGI],IDXGIAdapt
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIAdapter2.GetDesc2"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

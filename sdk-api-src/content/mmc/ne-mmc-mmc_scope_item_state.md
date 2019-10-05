@@ -12,6 +12,8 @@ ms.keywords: MMC_SCOPE_ITEM_STATE, MMC_SCOPE_ITEM_STATE enumeration [MMC], MMC_S
 ms.topic: enum
 f1_keywords:
 - mmc/MMC_SCOPE_ITEM_STATE
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

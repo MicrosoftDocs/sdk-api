@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_BINDING_PROPERTIES, WS_SECURITY_BINDING_PROPERTIES stru
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SECURITY_BINDING_PROPERTIES"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

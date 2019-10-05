@@ -12,6 +12,8 @@ ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, MMC_BUTTON_
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_BUTTON_STATE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode metho
 ms.topic: method
 f1_keywords:
 - il21dec/IAMLine21Decoder.SetDrawBackgroundMode
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

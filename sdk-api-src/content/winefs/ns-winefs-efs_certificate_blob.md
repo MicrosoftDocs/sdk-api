@@ -12,6 +12,8 @@ ms.keywords: '*PEFS_CERTIFICATE_BLOB, CRYPT_ASN_ENCODING, CRYPT_NDR_ENCODING, EF
 ms.topic: struct
 f1_keywords:
 - winefs/EFS_CERTIFICATE_BLOB
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

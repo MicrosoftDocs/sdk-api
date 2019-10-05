@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documen
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsOMPackageWriter3D"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

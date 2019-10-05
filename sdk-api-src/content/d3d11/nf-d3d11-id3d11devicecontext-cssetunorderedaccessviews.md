@@ -12,6 +12,8 @@ ms.keywords: 16820cec-2cc5-1d17-4d7f-118d1fd9660b, CSSetUnorderedAccessViews, CS
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSSetUnorderedAccessViews"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D12Fence interface,Signal method, ID3D12Fence.Signal, ID3D12Fenc
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Fence.Signal"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

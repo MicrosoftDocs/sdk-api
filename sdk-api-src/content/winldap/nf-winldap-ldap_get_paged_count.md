@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.lda
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_get_paged_count"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

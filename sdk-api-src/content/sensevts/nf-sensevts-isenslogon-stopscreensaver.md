@@ -12,6 +12,8 @@ ms.keywords: ISensLogon interface [SENS],StopScreenSaver method, ISensLogon.Stop
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon.StopScreenSaver"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

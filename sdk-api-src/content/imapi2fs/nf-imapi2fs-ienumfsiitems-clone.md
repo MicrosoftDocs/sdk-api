@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems int
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IEnumFsiItems.Clone"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

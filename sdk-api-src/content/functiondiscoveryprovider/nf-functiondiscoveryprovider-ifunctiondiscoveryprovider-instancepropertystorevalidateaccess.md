@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreValidateA
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

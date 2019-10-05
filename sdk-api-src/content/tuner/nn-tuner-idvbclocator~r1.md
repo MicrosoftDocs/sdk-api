@@ -10,6 +10,8 @@ ms.date:
 ms.topic: interface
 f1_keywords: 
  - "tuner/IDVBCLocator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header:
 req.redist:

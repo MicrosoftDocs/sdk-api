@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout interface [Direct Write],SetMaxHeight method, IDW
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.SetMaxHeight"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

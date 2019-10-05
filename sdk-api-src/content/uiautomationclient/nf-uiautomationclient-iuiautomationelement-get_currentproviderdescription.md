@@ -12,6 +12,8 @@ ms.keywords: CurrentProviderDescription property [Windows Accessibility], Curren
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CurrentProviderDescription"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

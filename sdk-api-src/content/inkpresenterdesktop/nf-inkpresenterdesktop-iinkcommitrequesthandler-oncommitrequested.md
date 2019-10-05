@@ -12,6 +12,8 @@ ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCo
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkCommitRequestHandler.OnCommitRequested"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

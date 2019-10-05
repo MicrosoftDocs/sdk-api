@@ -12,6 +12,8 @@ ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MaxC
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogTVTuningSpace.put_MaxChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

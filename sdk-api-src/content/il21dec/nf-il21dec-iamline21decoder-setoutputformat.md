@@ -12,6 +12,8 @@ ms.keywords: IAMLine21Decoder interface [DirectShow],SetOutputFormat method, IAM
 ms.topic: method
 f1_keywords: 
  - "il21dec/IAMLine21Decoder.SetOutputFormat"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

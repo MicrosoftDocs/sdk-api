@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.ge
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_Top"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, 
 ms.topic: function
 f1_keywords: 
  - "winenclaveapi/EnclaveGetAttestationReport"
+dev_langs:
+ - c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

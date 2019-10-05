@@ -12,6 +12,8 @@ ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOff
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMObjectInfo.SetPlayOffset"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

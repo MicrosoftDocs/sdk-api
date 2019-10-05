@@ -12,6 +12,8 @@ ms.keywords: GetTypeRefProps, GetTypeRefProps method [Windows Runtime], GetTypeR
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetTypeRefProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

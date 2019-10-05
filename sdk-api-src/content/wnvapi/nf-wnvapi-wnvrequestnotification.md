@@ -12,6 +12,8 @@ ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Ne
 ms.topic: function
 f1_keywords:
 - wnvapi/WnvRequestNotification
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

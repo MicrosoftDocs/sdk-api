@@ -12,6 +12,8 @@ ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsO
 ms.topic: interface
 f1_keywords: 
  - "objsel/IDsObjectPicker"
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

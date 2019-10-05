@@ -12,6 +12,8 @@ ms.keywords: DMO_OUTPUT_STREAMF_DISCARDABLE, DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZ
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_OUTPUT_STREAM_INFO_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

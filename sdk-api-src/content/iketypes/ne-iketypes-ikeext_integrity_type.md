@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_INTEGRITY_MD5, IKEEXT_INTEGRITY_SHA1, IKEEXT_INTEGRITY_SHA_2
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_INTEGRITY_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

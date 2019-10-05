@@ -12,6 +12,8 @@ ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,des
 ms.topic: interface
 f1_keywords: 
  - "waasapi/IWaaSAssessor"
+dev_langs:
+ - c++
 req.header: waasapi.h
 req.include-header: 
 req.target-type: Windows

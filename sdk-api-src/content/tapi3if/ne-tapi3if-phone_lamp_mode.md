@@ -12,6 +12,8 @@ ms.keywords: LM_BROKENFLUTTER, LM_DUMMY, LM_FLASH, LM_FLUTTER, LM_OFF, LM_STEADY
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONE_LAMP_MODE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

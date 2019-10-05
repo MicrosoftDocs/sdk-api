@@ -12,6 +12,8 @@ ms.keywords: D2D1_ARC_SIZE, D2D1_ARC_SIZE enumeration [Direct2D], D2D1_ARC_SIZE_
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_ARC_SIZE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.Render"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

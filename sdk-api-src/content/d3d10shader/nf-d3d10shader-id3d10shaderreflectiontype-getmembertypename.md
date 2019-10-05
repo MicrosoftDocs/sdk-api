@@ -12,6 +12,8 @@ ms.keywords: 89050245-f34f-0590-0296-abc016ae8b42, GetMemberTypeName, GetMemberT
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionType.GetMemberTypeName"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

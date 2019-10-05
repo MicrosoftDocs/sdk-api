@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],RemovePropertyItem method, Image.RemovePropertyI
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.RemovePropertyItem"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

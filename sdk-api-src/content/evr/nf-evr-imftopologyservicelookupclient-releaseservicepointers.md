@@ -12,6 +12,8 @@ ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClien
 ms.topic: method
 f1_keywords: 
  - "evr/IMFTopologyServiceLookupClient.ReleaseServicePointers"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

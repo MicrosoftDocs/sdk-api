@@ -12,6 +12,8 @@ ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], Ad
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.AddConfiguration"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

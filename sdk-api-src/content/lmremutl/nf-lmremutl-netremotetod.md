@@ -12,6 +12,8 @@ ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords:
 - lmremutl/NetRemoteTOD
+dev_langs:
+ - c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

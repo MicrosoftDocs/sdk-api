@@ -12,6 +12,8 @@ ms.keywords: MF3DVideoOutputType, MF3DVideoOutputType enumeration [Media Foundat
 ms.topic: enum
 f1_keywords: 
  - "mftransform/MF3DVideoOutputType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

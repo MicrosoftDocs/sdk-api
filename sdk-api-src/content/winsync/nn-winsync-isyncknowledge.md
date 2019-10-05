@@ -12,6 +12,8 @@ ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowl
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

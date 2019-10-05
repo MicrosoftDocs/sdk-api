@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [M
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFByteStreamCacheControl2"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

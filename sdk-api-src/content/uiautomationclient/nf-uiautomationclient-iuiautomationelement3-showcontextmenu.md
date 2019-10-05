@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationElement3 interface [Windows Accessibility],ShowContext
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement3.ShowContextMenu"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

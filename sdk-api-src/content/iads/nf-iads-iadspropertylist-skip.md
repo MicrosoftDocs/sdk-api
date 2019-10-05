@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyList interface [ADSI],Skip method, IADsPropertyList.Ski
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyList.Skip"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

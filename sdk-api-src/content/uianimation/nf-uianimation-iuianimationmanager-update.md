@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IU
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.Update"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

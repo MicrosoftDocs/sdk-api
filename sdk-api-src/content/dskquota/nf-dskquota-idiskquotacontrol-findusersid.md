@@ -12,6 +12,8 @@ ms.keywords: DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, 
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.FindUserSid"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

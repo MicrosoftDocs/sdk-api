@@ -12,6 +12,8 @@ ms.keywords: EffectsGetPresetCount, GetPresetCount, GetPresetCount method [Windo
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects.GetPresetCount"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

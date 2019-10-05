@@ -12,6 +12,8 @@ ms.keywords: CreateTimeSpan, CreateTimeSpan method [Windows Runtime], CreateTime
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateTimeSpan"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

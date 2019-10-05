@@ -12,6 +12,8 @@ ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress metho
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetworkStatus.get_BufferingProgress"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

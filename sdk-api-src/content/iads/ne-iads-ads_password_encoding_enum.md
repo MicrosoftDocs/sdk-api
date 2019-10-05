@@ -12,6 +12,8 @@ ms.keywords: ADS_PASSWORD_ENCODE_CLEAR, ADS_PASSWORD_ENCODE_REQUIRE_SSL, ADS_PAS
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_PASSWORD_ENCODING_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

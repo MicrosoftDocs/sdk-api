@@ -12,6 +12,8 @@ ms.keywords: DS_SPN_DNS_HOST,DS_SPN_DN_HOST,DS_SPN_NB_HOST, DS_SPN_DOMAIN,DS_SPN
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsGetSpn"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

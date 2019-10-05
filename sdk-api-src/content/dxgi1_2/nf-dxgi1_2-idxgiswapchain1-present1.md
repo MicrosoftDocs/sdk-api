@@ -12,6 +12,8 @@ ms.keywords: IDXGISwapChain1 interface [DXGI],Present1 method, IDXGISwapChain1.P
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGISwapChain1.Present1"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

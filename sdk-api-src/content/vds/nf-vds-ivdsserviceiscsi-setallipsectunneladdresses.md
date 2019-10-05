@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecTunnelAddresses method,
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceIscsi.SetAllIpsecTunnelAddresses"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

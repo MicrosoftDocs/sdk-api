@@ -12,6 +12,8 @@ ms.keywords: 763093e1-3009-8d0d-b2e2-1d58775e2b52, ID3D10InputLayout, ID3D10Inpu
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10InputLayout"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

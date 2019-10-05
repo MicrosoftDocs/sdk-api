@@ -12,6 +12,8 @@ ms.keywords: Graphics, Graphics class [GDI+], Graphics class [GDI+],described, _
 ms.topic: class
 f1_keywords: 
  - "gdiplusgraphics/Graphics"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: 
 req.target-type: Windows

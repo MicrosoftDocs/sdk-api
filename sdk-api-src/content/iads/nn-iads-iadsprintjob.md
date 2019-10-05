@@ -12,6 +12,8 @@ ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsPrintJob"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

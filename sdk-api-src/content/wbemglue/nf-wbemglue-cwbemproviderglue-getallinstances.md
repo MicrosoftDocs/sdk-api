@@ -12,6 +12,8 @@ ms.keywords: "?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollecti
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue.GetAllInstances"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PACKAGE_ID, PACKAGE_ID structure [App packaging and management], ap
 ms.topic: struct
 f1_keywords: 
  - "appmodel/PACKAGE_ID"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

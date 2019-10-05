@@ -12,6 +12,8 @@ ms.keywords: WMT_WEBSTREAM_FORMAT, WMT_WEBSTREAM_FORMAT structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMT_WEBSTREAM_FORMAT"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

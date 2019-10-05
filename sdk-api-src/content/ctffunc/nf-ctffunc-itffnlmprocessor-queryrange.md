@@ -12,6 +12,8 @@ ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryRange met
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnLMProcessor.QueryRange"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

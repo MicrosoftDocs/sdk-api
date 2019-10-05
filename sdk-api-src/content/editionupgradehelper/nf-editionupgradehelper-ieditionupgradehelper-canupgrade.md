@@ -12,6 +12,8 @@ ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Win
 ms.topic: method
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper.CanUpgrade"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Group method, ITACDGroupEv
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITACDGroupEvent.get_Group"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

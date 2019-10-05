@@ -12,6 +12,8 @@ ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_
 ms.topic: function
 f1_keywords: 
  - "wininet/DeleteUrlCacheGroup"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

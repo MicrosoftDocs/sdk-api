@@ -12,6 +12,8 @@ ms.keywords: HH_FTS_QUERY, HH_FTS_QUERY structure [HTML Help Workshop], htmlhelp
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HH_FTS_QUERY"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

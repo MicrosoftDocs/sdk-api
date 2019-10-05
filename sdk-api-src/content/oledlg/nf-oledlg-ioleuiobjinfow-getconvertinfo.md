@@ -12,6 +12,8 @@ ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method 
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUIObjInfo.GetConvertInfo"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

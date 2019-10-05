@@ -12,6 +12,8 @@ ms.keywords: "_win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows 
 ms.topic: function
 f1_keywords: 
  - "mmeapi/auxGetVolume"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

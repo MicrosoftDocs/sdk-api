@@ -12,6 +12,8 @@ ms.keywords: PSGetNameFromPropertyKey, PSGetNameFromPropertyKey function [Window
 ms.topic: function
 f1_keywords:
 - propsys/PSGetNameFromPropertyKey
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

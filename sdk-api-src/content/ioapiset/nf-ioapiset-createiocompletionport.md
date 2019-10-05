@@ -12,6 +12,8 @@ ms.keywords: CreateIoCompletionPort, CreateIoCompletionPort function [Files], _w
 ms.topic: function
 f1_keywords: 
  - "ioapiset/CreateIoCompletionPort"
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

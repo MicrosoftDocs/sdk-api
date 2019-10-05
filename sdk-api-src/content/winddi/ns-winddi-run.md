@@ -12,6 +12,8 @@ ms.keywords: '*PRUN, PRUN, PRUN structure pointer [Display Devices], RUN, RUN st
 ms.topic: struct
 f1_keywords:
 - winddi/RUN
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

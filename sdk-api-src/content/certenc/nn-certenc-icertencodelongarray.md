@@ -12,6 +12,8 @@ ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], IC
 ms.topic: interface
 f1_keywords: 
  - "certenc/ICertEncodeLongArray"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

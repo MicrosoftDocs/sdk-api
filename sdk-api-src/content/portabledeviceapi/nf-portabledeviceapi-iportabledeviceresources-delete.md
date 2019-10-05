@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceResources.Delete"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

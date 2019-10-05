@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],Unmarshal method, ICallFrame.Unmarshal, 
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.Unmarshal"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPAASHELLMENUFILENAME, AASHELLMENUFILENAME, AASHELLMENUFILENAME s
 ms.topic: struct
 f1_keywords: 
  - "shlobj/AASHELLMENUFILENAME"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

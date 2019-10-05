@@ -12,6 +12,8 @@ ms.keywords: IVssComponent interface [VSS],SetRestoreMetadata method, IVssCompon
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.SetRestoreMetadata"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

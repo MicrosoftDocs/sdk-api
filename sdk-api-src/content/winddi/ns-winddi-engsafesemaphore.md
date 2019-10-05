@@ -12,6 +12,8 @@ ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], dis
 ms.topic: struct
 f1_keywords: 
  - "winddi/ENGSAFESEMAPHORE"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

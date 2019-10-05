@@ -12,6 +12,8 @@ ms.keywords: '*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_
 ms.topic: struct
 f1_keywords:
 - winternl/RTL_USER_PROCESS_PARAMETERS
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

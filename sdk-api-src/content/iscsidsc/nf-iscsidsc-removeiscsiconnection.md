@@ -12,6 +12,8 @@ ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection
 ms.topic: function
 f1_keywords:
 - iscsidsc/RemoveIscsiConnection
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

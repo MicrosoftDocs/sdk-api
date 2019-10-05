@@ -12,6 +12,8 @@ ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows 
 ms.topic: struct
 f1_keywords: 
  - "wabapi/WAB_PARAM"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InvalidateRgn, InvalidateRgn function [Windows GDI], _win32_Invalid
 ms.topic: function
 f1_keywords: 
  - "winuser/InvalidateRgn"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

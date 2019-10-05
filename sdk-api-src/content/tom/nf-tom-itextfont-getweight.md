@@ -12,6 +12,8 @@ ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetWeight"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

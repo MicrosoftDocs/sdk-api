@@ -12,6 +12,8 @@ ms.keywords: AllJoynEventSelect, AllJoynEventSelect function [AllJoyn API], allj
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynEventSelect"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

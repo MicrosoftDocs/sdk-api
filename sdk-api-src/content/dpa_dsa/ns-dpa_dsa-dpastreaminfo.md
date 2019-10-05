@@ -12,6 +12,8 @@ ms.keywords: DPASTREAMINFO, DPASTREAMINFO structure [Windows Controls], _win32_D
 ms.topic: struct
 f1_keywords: 
  - "dpa_dsa/DPASTREAMINFO"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

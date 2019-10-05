@@ -12,6 +12,8 @@ ms.keywords: '*LPDATE_TIME, *PDATE_TIME, DATE_TIME, DATE_TIME structure [DHCP], 
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DATE_TIME
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

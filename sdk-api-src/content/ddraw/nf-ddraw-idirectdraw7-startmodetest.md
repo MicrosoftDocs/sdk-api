@@ -12,6 +12,8 @@ ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDr
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.StartModeTest"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

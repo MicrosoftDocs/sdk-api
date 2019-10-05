@@ -12,6 +12,8 @@ ms.keywords: IWriteEngine2 interface [IMAPI],get_UseStreamingWrite12 method, IWr
 ms.topic: method
 f1_keywords: 
  - "imapi2/IWriteEngine2.get_UseStreamingWrite12"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

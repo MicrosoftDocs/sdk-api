@@ -12,6 +12,8 @@ ms.keywords: 75636b6c-7b80-b606-530c-50b7b27df917, CSSetConstantBuffers, CSSetCo
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSSetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

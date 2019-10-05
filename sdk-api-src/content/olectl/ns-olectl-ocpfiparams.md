@@ -12,6 +12,8 @@ ms.keywords: "*LPOCPFIPARAMS, LPOCPFIPARAMS, LPOCPFIPARAMS structure pointer [CO
 ms.topic: struct
 f1_keywords: 
  - "olectl/OCPFIPARAMS"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

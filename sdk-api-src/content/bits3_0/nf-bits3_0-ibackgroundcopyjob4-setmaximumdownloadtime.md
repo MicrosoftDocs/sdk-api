@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob4 interface [BITS],SetMaximumDownloadTime method,
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBackgroundCopyJob4.SetMaximumDownloadTime"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

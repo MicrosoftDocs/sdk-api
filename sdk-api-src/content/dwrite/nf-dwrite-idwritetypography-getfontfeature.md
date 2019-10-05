@@ -12,6 +12,8 @@ ms.keywords: GetFontFeature, GetFontFeature method [Direct Write], GetFontFeatur
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTypography.GetFontFeature"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDTTOPTS, DTTOPTS, DTTOPTS structure [Windows Controls], DTT_APPL
 ms.topic: struct
 f1_keywords: 
  - "uxtheme/DTTOPTS"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

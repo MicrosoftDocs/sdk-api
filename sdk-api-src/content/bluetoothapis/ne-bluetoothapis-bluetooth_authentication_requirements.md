@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQ
 ms.topic: enum
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

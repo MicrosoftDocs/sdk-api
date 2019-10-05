@@ -12,6 +12,8 @@ ms.keywords: 885ace6d-952e-4870-b92c-92e47daadfcf, Color property [Tablet PC], C
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.Color"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

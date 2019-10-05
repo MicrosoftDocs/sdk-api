@@ -12,6 +12,8 @@ ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_C
 ms.topic: function
 f1_keywords: 
  - "ntquery/CIMakeICommand"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBinding
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoInvalidateRemoteMachineBindings"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICComponentFactory.CreateQueryWriterFromBlockWriter"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

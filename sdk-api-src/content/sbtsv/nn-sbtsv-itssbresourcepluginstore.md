@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remot
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

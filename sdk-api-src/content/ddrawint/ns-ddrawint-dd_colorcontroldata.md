@@ -12,6 +12,8 @@ ms.keywords: '*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA, DD_COLORCONTROLDATA st
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_COLORCONTROLDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

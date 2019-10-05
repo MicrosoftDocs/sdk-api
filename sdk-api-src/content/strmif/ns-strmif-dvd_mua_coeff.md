@@ -12,6 +12,8 @@ ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffS
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_MUA_Coeff"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

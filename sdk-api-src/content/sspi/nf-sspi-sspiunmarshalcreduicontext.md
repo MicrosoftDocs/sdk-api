@@ -12,6 +12,8 @@ ms.keywords: SspiUnmarshalCredUIContext, SspiUnmarshalCredUIContext function [Se
 ms.topic: function
 f1_keywords:
 - sspi/SspiUnmarshalCredUIContext
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

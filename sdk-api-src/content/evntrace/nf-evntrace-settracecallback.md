@@ -12,6 +12,8 @@ ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecal
 ms.topic: function
 f1_keywords: 
  - "evntrace/SetTraceCallback"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

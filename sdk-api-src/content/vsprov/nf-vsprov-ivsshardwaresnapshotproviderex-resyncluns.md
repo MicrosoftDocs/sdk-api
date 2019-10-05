@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHar
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProviderEx.ResyncLuns
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

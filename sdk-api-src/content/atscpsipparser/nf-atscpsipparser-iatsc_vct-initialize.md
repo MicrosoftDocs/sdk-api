@@ -12,6 +12,8 @@ ms.keywords: IATSC_VCT interface [Microsoft TV Technologies],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.Initialize"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

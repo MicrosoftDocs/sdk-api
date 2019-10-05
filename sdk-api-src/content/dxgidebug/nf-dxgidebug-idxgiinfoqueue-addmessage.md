@@ -12,6 +12,8 @@ ms.keywords: AddMessage, AddMessage method [DXGI], AddMessage method [DXGI],IDXG
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.AddMessage"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

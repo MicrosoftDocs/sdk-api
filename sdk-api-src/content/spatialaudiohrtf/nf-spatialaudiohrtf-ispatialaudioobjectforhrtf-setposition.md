@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetPosition metho
 ms.topic: method
 f1_keywords: 
  - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetPosition"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

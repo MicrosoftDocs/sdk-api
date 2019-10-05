@@ -12,6 +12,8 @@ ms.keywords: SetupDiSetClassInstallParams, SetupDiSetClassInstallParams function
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassInstallParams
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

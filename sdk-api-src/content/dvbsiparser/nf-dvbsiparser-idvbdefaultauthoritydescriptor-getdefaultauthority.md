@@ -12,6 +12,8 @@ ms.keywords: GetDefaultAuthority, GetDefaultAuthority method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDefaultAuthorityDescriptor.GetDefaultAuthority"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GCS_HELPTEXTA, GCS_HELPTEXTW, GCS_VALIDATEA, GCS_VALIDATEW, GCS_VER
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IContextMenu.GetCommandString"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

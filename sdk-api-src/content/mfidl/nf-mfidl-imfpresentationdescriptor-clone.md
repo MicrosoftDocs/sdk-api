@@ -12,6 +12,8 @@ ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationDescriptor.Clone"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetService, GetService method [Direct Manipulation], GetService met
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager3.GetService"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

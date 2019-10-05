@@ -12,6 +12,8 @@ ms.keywords: "*LPMIXERCAPSA, *PMIXERCAPSA, MIXERCAPS, MIXERCAPS structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIXERCAPS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

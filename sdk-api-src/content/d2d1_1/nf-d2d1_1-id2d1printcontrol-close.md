@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1PrintC
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1PrintControl.Close"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

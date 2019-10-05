@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FLOW_DIRECTION, DWRITE_FLOW_DIRECTION enumeration [Direct Wr
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_FLOW_DIRECTION"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

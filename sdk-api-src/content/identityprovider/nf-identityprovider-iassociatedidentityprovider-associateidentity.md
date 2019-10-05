@@ -12,6 +12,8 @@ ms.keywords: AssociateIdentity, AssociateIdentity method [Security], AssociateId
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IAssociatedIdentityProvider.AssociateIdentity"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

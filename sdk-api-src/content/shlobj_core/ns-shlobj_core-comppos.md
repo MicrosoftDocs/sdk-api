@@ -12,6 +12,8 @@ ms.keywords: "*LPCOMPPOS, COMPPOS, COMPPOS structure [Windows Shell], LPCOMPPOS,
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/COMPPOS"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

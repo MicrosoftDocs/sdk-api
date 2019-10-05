@@ -12,6 +12,8 @@ ms.keywords: BeginWriting, BeginWriting method [Media Foundation], BeginWriting 
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.BeginWriting"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

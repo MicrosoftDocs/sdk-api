@@ -12,6 +12,8 @@ ms.keywords: WMT_FILESINK_MODE, WMT_FILESINK_MODE enumeration [windows Media For
 ms.topic: enum
 f1_keywords:
 - wmsdkidl/WMT_FILESINK_MODE
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

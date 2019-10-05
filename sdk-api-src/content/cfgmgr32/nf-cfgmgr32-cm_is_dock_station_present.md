@@ -12,6 +12,8 @@ ms.keywords: CM_Is_Dock_Station_Present, CM_Is_Dock_Station_Present function [De
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Is_Dock_Station_Present"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

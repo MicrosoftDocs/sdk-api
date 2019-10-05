@@ -12,6 +12,8 @@ ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetOrderArray"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

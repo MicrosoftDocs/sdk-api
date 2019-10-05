@@ -12,6 +12,8 @@ ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [G
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Sharpen.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDate, GetDate method [Windows Contacts], GetDate method [Windows
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.GetDate"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

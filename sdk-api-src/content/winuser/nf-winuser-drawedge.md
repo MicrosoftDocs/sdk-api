@@ -12,6 +12,8 @@ ms.keywords: BDR_RAISEDINNER, BDR_RAISEDOUTER, BDR_SUNKENINNER, BDR_SUNKENOUTER,
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawEdge"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser.OnDefaultCommand"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

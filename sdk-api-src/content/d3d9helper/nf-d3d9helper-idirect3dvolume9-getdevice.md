@@ -12,6 +12,8 @@ ms.keywords: 5da9af5e-dec3-9d5d-d8ca-6c45db664c38, GetDevice, GetDevice method [
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVolume9.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

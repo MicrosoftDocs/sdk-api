@@ -12,6 +12,8 @@ ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObject
 ms.topic: method
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioSample.GetObjectCount"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

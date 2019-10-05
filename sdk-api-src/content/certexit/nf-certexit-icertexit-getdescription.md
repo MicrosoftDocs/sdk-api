@@ -12,6 +12,8 @@ ms.keywords: CCertExit object [Security],GetDescription method, GetDescription, 
 ms.topic: method
 f1_keywords: 
  - "certexit/ICertExit2.GetDescription"
+dev_langs:
+ - c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows

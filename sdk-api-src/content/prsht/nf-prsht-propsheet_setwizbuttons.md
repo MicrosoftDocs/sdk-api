@@ -12,6 +12,8 @@ ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, Pro
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_SetWizButtons
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

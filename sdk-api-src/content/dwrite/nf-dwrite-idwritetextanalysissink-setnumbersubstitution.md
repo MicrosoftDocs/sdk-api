@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetNumberSubstitut
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

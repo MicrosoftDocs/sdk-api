@@ -12,6 +12,8 @@ ms.keywords: ITextHost2 interface [Windows Controls],TxGetHorzExtent method, ITe
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost2.TxGetHorzExtent"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

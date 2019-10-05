@@ -12,6 +12,8 @@ ms.keywords: PROCESS_DPI_AWARENESS, PROCESS_DPI_AWARENESS enumeration [High DPI]
 ms.topic: enum
 f1_keywords: 
  - "shellscalingapi/PROCESS_DPI_AWARENESS"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSS_WALK_AUXILIARY_PAGES, PSS_WALK_HANDLES, PSS_WALK_INFORMATION_CL
 ms.topic: enum
 f1_keywords:
 - processsnapshot/PSS_WALK_INFORMATION_CLASS
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NPGetResourceInformation, NPGetResourceInformation function [Securi
 ms.topic: function
 f1_keywords:
 - npapi/NPGetResourceInformation
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

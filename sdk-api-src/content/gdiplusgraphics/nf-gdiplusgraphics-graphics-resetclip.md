@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],ResetClip method, Graphics.ResetClip, Graphic
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.ResetClip"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

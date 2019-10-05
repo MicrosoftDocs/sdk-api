@@ -12,6 +12,8 @@ ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], Beg
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatch.BeginUnorderedGroup"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

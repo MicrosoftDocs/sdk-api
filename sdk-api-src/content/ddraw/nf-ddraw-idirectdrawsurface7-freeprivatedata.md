@@ -12,6 +12,8 @@ ms.keywords: FreePrivateData, FreePrivateData method [DirectDraw], FreePrivateDa
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.FreePrivateData"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

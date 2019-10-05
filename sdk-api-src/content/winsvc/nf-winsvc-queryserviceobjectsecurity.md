@@ -12,6 +12,8 @@ ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Se
 ms.topic: function
 f1_keywords:
 - winsvc/QueryServiceObjectSecurity
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

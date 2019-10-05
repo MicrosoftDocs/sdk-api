@@ -12,6 +12,8 @@ ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTop
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IDeviceTopology"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

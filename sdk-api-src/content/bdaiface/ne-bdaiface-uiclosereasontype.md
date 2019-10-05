@@ -12,6 +12,8 @@ ms.keywords: DeviceClosed, ErrorClosed, NotReady, SystemClosed, UICloseReasonTyp
 ms.topic: enum
 f1_keywords: 
  - "bdaiface/UICloseReasonType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

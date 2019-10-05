@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceManager2 interface [Windows Update Agent],QueryServic
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceManager2.QueryServiceRegistration"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_RADIUSPROXY_SERVERGROUPS, RADIUSPROXYPROPERTIES, RADIUSPRO
 ms.topic: enum
 f1_keywords:
 - sdoias/RADIUSPROXYPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

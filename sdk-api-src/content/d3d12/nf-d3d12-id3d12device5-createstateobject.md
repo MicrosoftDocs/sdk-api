@@ -12,6 +12,8 @@ ms.keywords: CreateStateObject, CreateStateObject method, CreateStateObject meth
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device5.CreateStateObject"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INSTALLTYPE_SINGLE_INSTANCE, MsiRemovePatches, MsiRemovePatches fun
 ms.topic: function
 f1_keywords: 
  - "msi/MsiRemovePatches"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

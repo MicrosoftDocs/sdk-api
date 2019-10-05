@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS struc
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_SET_ACCESS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

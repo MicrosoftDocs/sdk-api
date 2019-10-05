@@ -12,6 +12,8 @@ ms.keywords: AddTreeWithNamedStreams, AddTreeWithNamedStreams method [IMAPI], Ad
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiDirectoryItem2.AddTreeWithNamedStreams"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

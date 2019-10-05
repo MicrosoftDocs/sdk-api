@@ -12,6 +12,8 @@ ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcom
 ms.topic: function
 f1_keywords: 
  - "fci/FCIAddFile"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNVa
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertRDNValueToStr"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

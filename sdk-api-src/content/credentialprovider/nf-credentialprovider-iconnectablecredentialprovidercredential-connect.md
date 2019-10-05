@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Windows Shell], Connect method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/IConnectableCredentialProviderCredential.Connect"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordIsHideGuideBitSet, GetRecordIsHideGuideBitSet method [Micr
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordIsHideGuideBitSet"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEventSystem interface [COM+],Store method, IEventSystem.Store, IEv
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSystem.Store"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], Vide
 ms.topic: enum
 f1_keywords: 
  - "strmif/VideoProcAmpFlags"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

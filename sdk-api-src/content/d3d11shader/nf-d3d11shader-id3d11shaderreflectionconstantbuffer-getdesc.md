@@ -12,6 +12,8 @@ ms.keywords: 3b59f7a3-fb44-16a7-ef26-3f7e3b33ec7b, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ShaderReflectionConstantBuffer.GetDesc
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

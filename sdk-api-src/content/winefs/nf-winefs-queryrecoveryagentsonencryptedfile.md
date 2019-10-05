@@ -12,6 +12,8 @@ ms.keywords: QueryRecoveryAgentsOnEncryptedFile, QueryRecoveryAgentsOnEncryptedF
 ms.topic: function
 f1_keywords:
 - winefs/QueryRecoveryAgentsOnEncryptedFile
+dev_langs:
+ - c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

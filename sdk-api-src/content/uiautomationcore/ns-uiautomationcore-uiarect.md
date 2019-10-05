@@ -12,6 +12,8 @@ ms.keywords: UiaRect, UiaRect structure [Windows Accessibility], uiauto.uiauto_U
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UiaRect"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

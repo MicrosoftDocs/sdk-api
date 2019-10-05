@@ -12,6 +12,8 @@ ms.keywords: IOverlayNotify2 interface [DirectShow],OnDisplayChange method, IOve
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlayNotify2.OnDisplayChange"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

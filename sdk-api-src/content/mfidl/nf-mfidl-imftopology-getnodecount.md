@@ -12,6 +12,8 @@ ms.keywords: 87378088-1d7a-4ad7-942f-69b6cfc4e573, GetNodeCount, GetNodeCount me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.GetNodeCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

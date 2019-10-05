@@ -12,6 +12,8 @@ ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], Ge
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkConnectionCost.GetDataPlanStatus"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

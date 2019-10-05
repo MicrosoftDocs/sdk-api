@@ -12,6 +12,8 @@ ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction
 ms.topic: method
 f1_keywords: 
  - "taskschd/IAction.Id"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

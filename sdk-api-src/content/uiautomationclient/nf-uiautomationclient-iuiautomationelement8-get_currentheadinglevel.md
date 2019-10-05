@@ -12,6 +12,8 @@ ms.keywords: CurrentHeadingLevel property [Windows Accessibility], CurrentHeadin
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement8.CurrentHeadingLevel"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

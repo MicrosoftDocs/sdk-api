@@ -12,6 +12,8 @@ ms.keywords: ICspAlgorithm interface [Security],MaxLength property, ICspAlgorith
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithm.MaxLength"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

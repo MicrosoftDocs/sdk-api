@@ -12,6 +12,8 @@ ms.keywords: AddPropertyName, AddPropertyName method [MMC], AddPropertyName meth
 ms.topic: method
 f1_keywords: 
  - "mmcobj/ISnapinPropertiesCallback.AddPropertyName"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

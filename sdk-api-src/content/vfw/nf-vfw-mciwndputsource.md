@@ -12,6 +12,8 @@ ms.keywords: MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndPutSource"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

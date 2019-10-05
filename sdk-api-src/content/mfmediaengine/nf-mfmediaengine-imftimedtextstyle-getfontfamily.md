@@ -12,6 +12,8 @@ ms.keywords: GetFontFamily, GetFontFamily method [Media Foundation], GetFontFami
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetFontFamily"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

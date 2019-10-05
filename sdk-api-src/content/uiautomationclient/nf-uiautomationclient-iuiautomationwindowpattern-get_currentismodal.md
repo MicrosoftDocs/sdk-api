@@ -12,6 +12,8 @@ ms.keywords: CurrentIsModal property [Windows Accessibility], CurrentIsModal pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern.CurrentIsModal"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

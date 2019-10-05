@@ -12,6 +12,8 @@ ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitPropVariantFromResource"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

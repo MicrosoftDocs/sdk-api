@@ -12,6 +12,8 @@ ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG,
 ms.topic: function
 f1_keywords:
 - wincrypt/CertOpenStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

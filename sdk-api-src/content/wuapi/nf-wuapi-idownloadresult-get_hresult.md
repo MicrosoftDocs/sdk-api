@@ -12,6 +12,8 @@ ms.keywords: HResult property [Windows Update Agent], HResult property [Windows 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadResult.HResult"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

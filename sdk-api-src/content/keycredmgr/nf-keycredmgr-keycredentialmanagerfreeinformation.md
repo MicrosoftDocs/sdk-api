@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInform
 ms.topic: function
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerFreeInformation"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetC
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl.SetColumnWidth"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

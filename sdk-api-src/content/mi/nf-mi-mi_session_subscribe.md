@@ -12,6 +12,8 @@ ms.keywords: MI_Session_Subscribe, MI_Session_Subscribe function [Windows Manage
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_Subscribe
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

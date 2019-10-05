@@ -12,6 +12,8 @@ ms.keywords: AM_DVD_DO_NOT_CLEAR, AM_DVD_EVR_ONLY, AM_DVD_GRAPH_FLAGS, AM_DVD_GR
 ms.topic: enum
 f1_keywords: 
  - "strmif/AM_DVD_GRAPH_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8f442969-657a-a5ab-1aa3-ff227fe2f705, GetFrontBufferData, GetFrontB
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DSwapChain9.GetFrontBufferData"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

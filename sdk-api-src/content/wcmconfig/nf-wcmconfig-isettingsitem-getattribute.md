@@ -12,6 +12,8 @@ ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetAttribute"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfFnShowHelp interface [Text Services Framework],Show method, ITfF
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnShowHelp.Show"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

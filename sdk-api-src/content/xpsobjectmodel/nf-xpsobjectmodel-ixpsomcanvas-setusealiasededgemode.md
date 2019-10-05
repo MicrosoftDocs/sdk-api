@@ -12,6 +12,8 @@ ms.keywords: FALSE, IXpsOMCanvas interface [XPS Documents and Packaging],SetUseA
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCanvas.SetUseAliasedEdgeMode"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

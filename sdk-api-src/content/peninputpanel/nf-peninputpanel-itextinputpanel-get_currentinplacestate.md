@@ -12,6 +12,8 @@ ms.keywords: 3ca27156-ed34-4cac-ba26-edded586272a, CurrentInPlaceState property 
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.CurrentInPlaceState"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

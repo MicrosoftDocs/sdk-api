@@ -12,6 +12,8 @@ ms.keywords: XHR_AUTH, XHR_AUTH enumeration [XMLHttpRequest2], XHR_AUTH_ALL, XHR
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_AUTH"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

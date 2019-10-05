@@ -12,6 +12,8 @@ ms.keywords: WTSEnumerateListeners, WTSEnumerateListeners function [Remote Deskt
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSEnumerateListeners"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

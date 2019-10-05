@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcludi
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.SpanExcluding"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

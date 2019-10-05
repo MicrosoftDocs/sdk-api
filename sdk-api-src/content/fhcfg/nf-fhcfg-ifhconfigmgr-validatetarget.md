@@ -12,6 +12,8 @@ ms.keywords: FhConfigMgr class [Windows API],ValidateTarget method, IFhConfigMgr
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.ValidateTarget
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

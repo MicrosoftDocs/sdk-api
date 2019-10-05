@@ -12,6 +12,8 @@ ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Schedu
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskFolderCollection"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

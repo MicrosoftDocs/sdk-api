@@ -12,6 +12,8 @@ ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_CUSTOM_HTTP_PROXY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

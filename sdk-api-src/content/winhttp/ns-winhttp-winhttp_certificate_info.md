@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_CERTIFICATE_INFO, WINHTTP_CERTIFICATE_INFO structure [HTTP]
 ms.topic: struct
 f1_keywords: 
  - "winhttp/WINHTTP_CERTIFICATE_INFO"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

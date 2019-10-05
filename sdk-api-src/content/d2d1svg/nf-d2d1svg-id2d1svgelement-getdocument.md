@@ -12,6 +12,8 @@ ms.keywords: GetDocument, GetDocument method [Direct2D], GetDocument method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgElement.GetDocument"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

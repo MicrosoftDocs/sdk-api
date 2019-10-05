@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLI
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_VOLUME_ONLINE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

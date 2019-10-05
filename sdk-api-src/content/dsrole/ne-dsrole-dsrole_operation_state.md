@@ -12,6 +12,8 @@ ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active 
 ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_OPERATION_STATE
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

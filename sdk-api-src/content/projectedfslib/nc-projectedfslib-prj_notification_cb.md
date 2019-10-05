@@ -12,6 +12,8 @@ ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_NOTIFICATION_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows
 ms.topic: callback
 f1_keywords: 
  - "winuser/TimerProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

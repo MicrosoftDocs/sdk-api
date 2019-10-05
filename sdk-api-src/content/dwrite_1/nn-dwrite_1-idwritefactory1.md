@@ -12,6 +12,8 @@ ms.keywords: IDWriteFactory1, IDWriteFactory1 interface [Direct Write], IDWriteF
 ms.topic: interface
 f1_keywords: 
  - "dwrite_1/IDWriteFactory1"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

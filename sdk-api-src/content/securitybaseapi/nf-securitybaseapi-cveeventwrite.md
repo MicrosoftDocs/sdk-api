@@ -12,6 +12,8 @@ ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, sec
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/CveEventWrite"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

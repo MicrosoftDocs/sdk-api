@@ -12,6 +12,8 @@ ms.keywords: SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHResolveLibrary"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

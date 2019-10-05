@@ -12,6 +12,8 @@ ms.keywords: CheckMemory, CheckMemory method [DirectShow], CheckMemory method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMDevMemoryAllocator.CheckMemory"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

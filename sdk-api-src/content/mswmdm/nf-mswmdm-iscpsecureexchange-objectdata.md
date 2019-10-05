@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectD
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureExchange.ObjectData"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

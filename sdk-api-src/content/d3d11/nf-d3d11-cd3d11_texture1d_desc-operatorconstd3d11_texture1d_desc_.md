@@ -12,6 +12,8 @@ ms.keywords: CD3D11_TEXTURE1D_DESC interface [Direct3D 11],operator const D3D11_
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_TEXTURE1D_DESC.operator const D3D11_TEXTURE1D_DESC&"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

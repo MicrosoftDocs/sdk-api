@@ -12,6 +12,8 @@ ms.keywords: GetVerticalBlankStatus, GetVerticalBlankStatus method [DirectDraw],
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetVerticalBlankStatus"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

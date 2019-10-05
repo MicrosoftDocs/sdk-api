@@ -12,6 +12,8 @@ ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], in
 ms.topic: struct
 f1_keywords: 
  - "shappmgr/PUBAPPINFO"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

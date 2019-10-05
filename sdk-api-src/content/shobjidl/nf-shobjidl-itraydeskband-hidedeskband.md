@@ -12,6 +12,8 @@ ms.keywords: HideDeskBand, HideDeskBand method [Windows Shell], HideDeskBand met
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ITrayDeskBand.HideDeskBand"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetMaxSelCount, MonthCal_GetMaxSelCount macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetMaxSelCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

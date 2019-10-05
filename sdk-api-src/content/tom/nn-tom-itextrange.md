@@ -12,6 +12,8 @@ ms.keywords: ITextRange, ITextRange interface [Windows Controls], ITextRange int
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextRange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

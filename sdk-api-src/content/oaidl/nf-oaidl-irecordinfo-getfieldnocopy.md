@@ -12,6 +12,8 @@ ms.keywords: GetFieldNoCopy, GetFieldNoCopy method [Automation], GetFieldNoCopy 
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.GetFieldNoCopy"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

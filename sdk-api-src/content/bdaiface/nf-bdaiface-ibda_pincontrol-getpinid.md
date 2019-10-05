@@ -12,6 +12,8 @@ ms.keywords: GetPinID, GetPinID method [Microsoft TV Technologies], GetPinID met
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_PinControl.GetPinID"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [Dire
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.GetMonitor"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

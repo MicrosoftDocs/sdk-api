@@ -12,6 +12,8 @@ ms.keywords: '*PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_T
 ms.topic: enum
 f1_keywords:
 - clfsmgmt/CLFS_MGMT_POLICY_TYPE
+dev_langs:
+ - c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows

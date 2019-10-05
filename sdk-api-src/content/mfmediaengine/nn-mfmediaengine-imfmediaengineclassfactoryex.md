@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interfac
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineClassFactoryEx"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

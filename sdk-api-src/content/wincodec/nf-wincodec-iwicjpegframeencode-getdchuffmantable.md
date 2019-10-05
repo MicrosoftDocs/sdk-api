@@ -12,6 +12,8 @@ ms.keywords: GetDcHuffmanTable, GetDcHuffmanTable method [Windows Imaging Compon
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICJpegFrameEncode.GetDcHuffmanTable"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

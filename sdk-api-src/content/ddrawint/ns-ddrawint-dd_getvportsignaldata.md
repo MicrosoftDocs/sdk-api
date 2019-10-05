@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALD
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTSIGNALDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

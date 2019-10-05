@@ -12,6 +12,8 @@ ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCopyImage"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

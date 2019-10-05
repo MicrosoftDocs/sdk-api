@@ -12,6 +12,8 @@ ms.keywords: Actions property [Task Scheduler], Actions property [Task Scheduler
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskDefinition.Actions"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

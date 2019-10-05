@@ -12,6 +12,8 @@ ms.keywords: WICPngChrmBlueX, WICPngChrmBlueY, WICPngChrmGreenX, WICPngChrmGreen
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngChrmProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

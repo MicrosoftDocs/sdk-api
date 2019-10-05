@@ -12,6 +12,8 @@ ms.keywords: '*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Int
 ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_OPTIONS
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

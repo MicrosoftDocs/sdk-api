@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneNormalizeEst, XMPlaneNormalizeEst, XMPlaneNorma
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneNormalizeEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

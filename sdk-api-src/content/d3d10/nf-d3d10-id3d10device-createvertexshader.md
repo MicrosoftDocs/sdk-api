@@ -12,6 +12,8 @@ ms.keywords: 85865e55-ec77-0246-1f72-283d1333b4e7, CreateVertexShader, CreateVer
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CreateVertexShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

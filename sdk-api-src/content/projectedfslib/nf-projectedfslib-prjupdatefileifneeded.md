@@ -12,6 +12,8 @@ ms.keywords: PrjUpdateFileIfNeeded, PrjUpdateFileIfNeeded function, ProjFS.prjup
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjUpdateFileIfNeeded"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumTfContexts interface [Text Services Framework],Next method, IE
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfContexts.Next"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream inte
 ms.topic: interface
 f1_keywords: 
  - "objidl/IPersistStream"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

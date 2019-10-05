@@ -12,6 +12,8 @@ ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _
 ms.topic: function
 f1_keywords: 
  - "intsafe/SizeTToLong"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

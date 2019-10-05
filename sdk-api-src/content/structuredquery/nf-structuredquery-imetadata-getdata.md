@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [search], GetData method [search],IMetaData
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IMetaData.GetData"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

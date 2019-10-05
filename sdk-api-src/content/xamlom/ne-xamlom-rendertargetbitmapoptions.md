@@ -12,6 +12,8 @@ ms.keywords: RenderTarget, RenderTargetAndChildren, RenderTargetBitmapOptions, R
 ms.topic: enum
 f1_keywords: 
  - "xamlom/RenderTargetBitmapOptions"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

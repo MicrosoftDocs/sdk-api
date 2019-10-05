@@ -12,6 +12,8 @@ ms.keywords: GetExtensions, GetExtensions method [Fax Service], GetExtensions me
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRouting.GetExtensions"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

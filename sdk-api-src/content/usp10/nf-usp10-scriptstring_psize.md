@@ -12,6 +12,8 @@ ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalizati
 ms.topic: function
 f1_keywords: 
  - "usp10/ScriptString_pSize"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

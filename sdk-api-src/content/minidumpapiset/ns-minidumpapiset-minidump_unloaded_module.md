@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE, MINIDUMP_UNL
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_UNLOADED_MODULE
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

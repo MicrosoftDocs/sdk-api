@@ -12,6 +12,8 @@ ms.keywords: GetPriority, GetPriority method [Windows Shell], GetPriority method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellIconOverlayIdentifier.GetPriority"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

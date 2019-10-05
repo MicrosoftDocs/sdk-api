@@ -12,6 +12,8 @@ ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSurface.BeginDraw"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

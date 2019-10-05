@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_READ_TRACK_ADDRESS_TYPE, IMAPI_READ_TRACK_ADDRESS_TYPE, IM
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_READ_TRACK_ADDRESS_TYPE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

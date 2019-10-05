@@ -12,6 +12,8 @@ ms.keywords: "_win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat mac
 ms.topic: macro
 f1_keywords: 
  - "vfw/capSetAudioFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

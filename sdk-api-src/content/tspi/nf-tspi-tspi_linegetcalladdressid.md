@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetCallAddressID, TSPI_lineGetCallAddressID function [TAPI
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetCallAddressID"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

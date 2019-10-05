@@ -12,6 +12,8 @@ ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsr
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupClose"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],SetFromCOLORREF method, Color.SetFromCOLORREF, C
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.SetFromCOLORREF"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

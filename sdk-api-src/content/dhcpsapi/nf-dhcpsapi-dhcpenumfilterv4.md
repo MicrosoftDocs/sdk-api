@@ -12,6 +12,8 @@ ms.keywords: DhcpEnumFilterV4, DhcpEnumFilterV4 function [DHCP], dhcp.dhcpenumfi
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumFilterV4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

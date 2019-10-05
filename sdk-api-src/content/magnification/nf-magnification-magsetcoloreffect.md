@@ -12,6 +12,8 @@ ms.keywords: MagSetColorEffect, MagSetColorEffect function [Magnification API], 
 ms.topic: function
 f1_keywords: 
  - "magnification/MagSetColorEffect"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

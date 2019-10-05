@@ -12,6 +12,8 @@ ms.keywords: EngQueryFileTimeStamp, EngQueryFileTimeStamp function [Display Devi
 ms.topic: function
 f1_keywords: 
  - "winddi/EngQueryFileTimeStamp"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

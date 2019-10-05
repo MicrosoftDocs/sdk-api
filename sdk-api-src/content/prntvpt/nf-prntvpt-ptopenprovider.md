@@ -12,6 +12,8 @@ ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpe
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTOpenProvider"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

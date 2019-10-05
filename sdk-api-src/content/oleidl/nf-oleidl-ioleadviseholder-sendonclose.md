@@ -12,6 +12,8 @@ ms.keywords: IOleAdviseHolder interface [COM],SendOnClose method, IOleAdviseHold
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleAdviseHolder.SendOnClose"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

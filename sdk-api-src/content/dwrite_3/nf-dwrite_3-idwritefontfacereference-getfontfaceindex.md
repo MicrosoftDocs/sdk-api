@@ -12,6 +12,8 @@ ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFa
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFaceReference.GetFontFaceIndex"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

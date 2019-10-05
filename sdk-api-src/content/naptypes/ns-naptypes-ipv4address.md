@@ -12,6 +12,8 @@ ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, n
 ms.topic: struct
 f1_keywords: 
  - "naptypes/Ipv4Address"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

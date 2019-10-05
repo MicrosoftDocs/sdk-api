@@ -12,6 +12,8 @@ ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNA
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

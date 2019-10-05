@@ -12,6 +12,8 @@ ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAu
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemAuthenticationLevelEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindInters
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.FindIntersections"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

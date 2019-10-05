@@ -12,6 +12,8 @@ ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULong
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

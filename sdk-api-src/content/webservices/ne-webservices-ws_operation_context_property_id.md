@@ -12,6 +12,8 @@ ms.keywords: WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, WS_OPERATION_CONTEXT_PROPERT
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_OPERATION_CONTEXT_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

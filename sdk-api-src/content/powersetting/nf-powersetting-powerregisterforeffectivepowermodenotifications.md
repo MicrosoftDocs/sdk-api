@@ -12,6 +12,8 @@ ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEf
 ms.topic: function
 f1_keywords: 
  - "powersetting/PowerRegisterForEffectivePowerModeNotifications"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

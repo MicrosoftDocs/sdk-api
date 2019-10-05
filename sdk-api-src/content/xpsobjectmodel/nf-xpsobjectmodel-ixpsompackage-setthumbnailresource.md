@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetThumbnailR
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPackage.SetThumbnailResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

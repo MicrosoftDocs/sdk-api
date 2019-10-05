@@ -12,6 +12,8 @@ ms.keywords: 54aea995-2beb-4c38-a79f-43a539031d95, IMFASFMultiplexer interface [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.SetSyncTolerance"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

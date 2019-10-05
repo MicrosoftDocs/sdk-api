@@ -12,6 +12,8 @@ ms.keywords: WSMAN_AUTHENTICATION_CREDENTIALS, WSMAN_AUTHENTICATION_CREDENTIALS 
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_AUTHENTICATION_CREDENTIALS
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

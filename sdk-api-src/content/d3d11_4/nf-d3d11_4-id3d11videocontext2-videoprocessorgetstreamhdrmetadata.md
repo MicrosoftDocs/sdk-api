@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetS
 ms.topic: method
 f1_keywords: 
  - "d3d11_4/ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData"
+dev_langs:
+ - c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

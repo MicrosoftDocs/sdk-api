@@ -12,6 +12,8 @@ ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaRaiseAutomationEvent"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0d3c6d2e-1675-4335-a283-ea14a818469a, ClipRectangle property [Table
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.ClipRectangle"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

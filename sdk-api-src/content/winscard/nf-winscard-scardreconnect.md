@@ -12,6 +12,8 @@ ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardReconnect"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

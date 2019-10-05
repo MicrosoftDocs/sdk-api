@@ -12,6 +12,8 @@ ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], Co
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.ConnectClientPrintersAtLogon"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

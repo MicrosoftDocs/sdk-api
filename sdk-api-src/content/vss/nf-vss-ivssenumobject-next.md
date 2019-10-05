@@ -12,6 +12,8 @@ ms.keywords: IVssEnumObject interface [VSS],Next method, IVssEnumObject.Next, IV
 ms.topic: method
 f1_keywords:
 - vss/IVssEnumObject.Next
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

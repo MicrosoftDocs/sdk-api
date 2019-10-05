@@ -12,6 +12,8 @@ ms.keywords: VMR9Mode, VMR9Mode , VMR9Mode enumeration [DirectShow], VMR9ModeEnu
 ms.topic: enum
 f1_keywords: 
  - "vmr9/VMR9Mode"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

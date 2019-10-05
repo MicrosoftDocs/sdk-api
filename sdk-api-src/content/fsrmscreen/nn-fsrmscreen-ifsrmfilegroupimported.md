@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Serv
 ms.topic: interface
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroupImported"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

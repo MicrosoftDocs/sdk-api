@@ -12,6 +12,8 @@ ms.keywords: "*PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT struct
 ms.topic: struct
 f1_keywords: 
  - "winioctl/USN_RECORD_EXTENT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

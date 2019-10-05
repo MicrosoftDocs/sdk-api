@@ -12,6 +12,8 @@ ms.keywords: HITRESULT, HITRESULT enumeration [COM], HITRESULT_CLOSE, HITRESULT_
 ms.topic: enum
 f1_keywords: 
  - "ocidl/HITRESULT"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

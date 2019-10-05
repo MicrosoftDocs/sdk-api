@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetS
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeStringArray.GetStringType"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

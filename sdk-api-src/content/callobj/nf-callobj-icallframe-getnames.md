@@ -12,6 +12,8 @@ ms.keywords: GetNames, GetNames method [COM], GetNames method [COM],ICallFrame i
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetNames"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

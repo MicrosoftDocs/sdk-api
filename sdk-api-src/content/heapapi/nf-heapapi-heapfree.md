@@ -12,6 +12,8 @@ ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, ba
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapFree"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

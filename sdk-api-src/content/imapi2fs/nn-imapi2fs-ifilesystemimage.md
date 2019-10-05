@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], IFileSystemIm
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IFileSystemImage"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

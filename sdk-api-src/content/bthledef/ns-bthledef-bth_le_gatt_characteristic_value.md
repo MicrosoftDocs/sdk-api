@@ -12,6 +12,8 @@ ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VAL
 ms.topic: struct
 f1_keywords: 
  - "bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE"
+dev_langs:
+ - c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

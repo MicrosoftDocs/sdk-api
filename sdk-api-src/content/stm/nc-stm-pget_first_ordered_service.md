@@ -12,6 +12,8 @@ ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [R
 ms.topic: callback
 f1_keywords:
 - stm/GetFirstOrderedService
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

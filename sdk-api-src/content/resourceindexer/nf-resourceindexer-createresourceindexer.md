@@ -12,6 +12,8 @@ ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Ot
 ms.topic: function
 f1_keywords: 
  - "resourceindexer/CreateResourceIndexer"
+dev_langs:
+ - c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

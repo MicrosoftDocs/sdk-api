@@ -12,6 +12,8 @@ ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interf
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.SetFullscreen"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

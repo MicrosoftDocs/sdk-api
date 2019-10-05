@@ -12,6 +12,8 @@ ms.keywords: GetInertiaEndTransform, GetInertiaEndTransform method [Direct Manip
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationPrimaryContent.GetInertiaEndTransform"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

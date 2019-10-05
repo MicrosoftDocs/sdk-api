@@ -12,6 +12,8 @@ ms.keywords: IDigitalLocatorput_OuterFECRate, ILocator interface [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.put_OuterFECRate"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

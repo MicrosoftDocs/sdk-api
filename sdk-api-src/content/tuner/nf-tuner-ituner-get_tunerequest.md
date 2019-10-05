@@ -12,6 +12,8 @@ ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.get_TuneRequest"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

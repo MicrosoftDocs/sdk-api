@@ -12,6 +12,8 @@ ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], wcs.xyzcolor
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/XYZColorF"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

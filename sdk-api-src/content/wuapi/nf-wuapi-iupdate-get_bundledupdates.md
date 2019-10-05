@@ -12,6 +12,8 @@ ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates prop
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.BundledUpdates"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

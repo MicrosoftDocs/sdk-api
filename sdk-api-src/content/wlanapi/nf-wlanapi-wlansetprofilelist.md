@@ -12,6 +12,8 @@ ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WlanSetProfileList"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

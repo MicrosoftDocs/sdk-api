@@ -12,6 +12,8 @@ ms.keywords: ICatalogCollection interface [COM+],Remove method, ICatalogCollecti
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.Remove"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

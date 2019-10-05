@@ -12,6 +12,8 @@ ms.keywords: IGPMConstants2, IGPMConstants2 interface [GPMC], IGPMConstants2 int
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMConstants2"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

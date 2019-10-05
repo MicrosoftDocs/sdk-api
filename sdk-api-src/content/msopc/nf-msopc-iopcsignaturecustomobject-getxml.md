@@ -12,6 +12,8 @@ ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureCustomObject.GetXml"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

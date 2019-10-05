@@ -12,6 +12,8 @@ ms.keywords: WS_INT16_DESCRIPTION, WS_INT16_DESCRIPTION structure [Web Services 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_INT16_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

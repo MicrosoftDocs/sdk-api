@@ -12,6 +12,8 @@ ms.keywords: GetFileCount, GetFileCount method [BITS], GetFileCount method [BITS
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyJob1.GetFileCount"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

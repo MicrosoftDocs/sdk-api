@@ -12,6 +12,8 @@ ms.keywords: 74a3aa81-9498-9ce0-0ae8-0bc9d18d553b, CheckDeviceType, CheckDeviceT
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9.CheckDeviceType"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

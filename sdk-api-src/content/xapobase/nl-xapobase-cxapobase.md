@@ -12,6 +12,8 @@ ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase c
 ms.topic: class
 f1_keywords: 
  - "xapobase/CXAPOBase"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

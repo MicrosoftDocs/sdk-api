@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject in
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEnumEventObject.Clone"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

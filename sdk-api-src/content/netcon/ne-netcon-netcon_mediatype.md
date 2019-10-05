@@ -12,6 +12,8 @@ ms.keywords: NCM_BRIDGE, NCM_DIRECT, NCM_ISDN, NCM_LAN, NCM_NONE, NCM_PHONE, NCM
 ms.topic: enum
 f1_keywords: 
  - "netcon/NETCON_MEDIATYPE"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

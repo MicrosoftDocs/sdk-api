@@ -7,6 +7,8 @@ ms.keywords: _DNS_SERVICE_CANCEL, DNS_SERVICE_CANCEL
 ms.topic: language-reference
 f1_keywords: 
  - "windns/_DNS_SERVICE_CANCEL"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure

@@ -12,6 +12,8 @@ ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.Ge
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeFont"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

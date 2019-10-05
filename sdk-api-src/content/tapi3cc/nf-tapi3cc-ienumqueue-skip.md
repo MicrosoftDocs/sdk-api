@@ -12,6 +12,8 @@ ms.keywords: IEnumQueue interface [TAPI 2.2],Skip method, IEnumQueue.Skip, IEnum
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/IEnumQueue.Skip"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

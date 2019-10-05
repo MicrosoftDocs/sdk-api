@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SMALL_RECT, PWRDS_SMALL_RECT, PWRDS_SMALL_RECT structure poi
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_SMALL_RECT"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

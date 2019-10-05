@@ -12,6 +12,8 @@ ms.keywords: WbemTextFlagEnum, WbemTextFlagEnum enumeration [Windows Management 
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemTextFlagEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

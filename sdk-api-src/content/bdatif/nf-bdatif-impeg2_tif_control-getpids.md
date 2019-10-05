@@ -12,6 +12,8 @@ ms.keywords: GetPIDs, GetPIDs method [Microsoft TV Technologies], GetPIDs method
 ms.topic: method
 f1_keywords: 
  - "bdatif/IMPEG2_TIF_CONTROL.GetPIDs"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], 
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Tint.Tint"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UI_EXECUTIONVERB, UI_EXECUTIONVERB enumeration [Windows Ribbon], UI
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_EXECUTIONVERB"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

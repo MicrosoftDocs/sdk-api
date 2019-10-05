@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [COM], Close method [COM],IOleParentUndoUnit in
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleParentUndoUnit.Close"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

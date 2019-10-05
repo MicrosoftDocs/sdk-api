@@ -12,6 +12,8 @@ ms.keywords: IComponentData2, IComponentData2 interface [MMC], IComponentData2 i
 ms.topic: interface
 f1_keywords: 
  - "mmc/IComponentData2"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

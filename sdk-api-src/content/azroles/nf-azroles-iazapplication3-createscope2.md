@@ -12,6 +12,8 @@ ms.keywords: CreateScope2, CreateScope2 method [Security], CreateScope2 method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication3.CreateScope2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

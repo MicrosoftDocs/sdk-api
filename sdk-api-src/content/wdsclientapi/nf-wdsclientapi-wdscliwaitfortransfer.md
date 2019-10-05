@@ -12,6 +12,8 @@ ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliWaitForTransfer"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPHD_TEXTFILTERA, HDTEXTFILTER, HDTEXTFILTER structure [Windows C
 ms.topic: struct
 f1_keywords: 
  - "commctrl/HDTEXTFILTER"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

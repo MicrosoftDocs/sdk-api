@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Tech
 ms.topic: interface
 f1_keywords: 
  - "sbe/IStreamBufferSink3"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

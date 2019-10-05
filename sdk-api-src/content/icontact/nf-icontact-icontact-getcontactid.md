@@ -12,6 +12,8 @@ ms.keywords: GetContactID, GetContactID method [Windows Contacts], GetContactID 
 ms.topic: method
 f1_keywords: 
  - "icontact/IContact.GetContactID"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

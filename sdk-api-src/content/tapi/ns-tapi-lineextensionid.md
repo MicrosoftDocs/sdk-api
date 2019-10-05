@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TA
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEEXTENSIONID"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

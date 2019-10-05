@@ -12,6 +12,8 @@ ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking],
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_RECORD_FLAGS"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

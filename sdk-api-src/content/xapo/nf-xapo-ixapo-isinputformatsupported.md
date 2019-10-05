@@ -12,6 +12,8 @@ ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsInputFormatSupported 
 ms.topic: method
 f1_keywords: 
  - "xapo/IXAPO.IsInputFormatSupported"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRC_AdviseInkChange, IRC_ArbitraryAngle, IRC_BoxedInput, IRC_Charac
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognizerCapabilities"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

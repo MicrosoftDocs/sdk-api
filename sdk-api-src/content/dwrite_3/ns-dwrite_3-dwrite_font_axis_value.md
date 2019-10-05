@@ -10,6 +10,8 @@ ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Wr
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_AXIS_VALUE"
+dev_langs:
+ - c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 

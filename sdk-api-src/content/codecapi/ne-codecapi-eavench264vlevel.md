@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncH264VLevel, codecapi/eAVEncH264VLevel1, codecapi/eAV
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncH264VLevel"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

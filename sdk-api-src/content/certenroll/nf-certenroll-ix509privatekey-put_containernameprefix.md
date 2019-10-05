@@ -12,6 +12,8 @@ ms.keywords: ContainerNamePrefix property [Security], ContainerNamePrefix proper
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.ContainerNamePrefix"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

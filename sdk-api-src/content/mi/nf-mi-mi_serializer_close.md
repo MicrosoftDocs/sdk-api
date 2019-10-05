@@ -12,6 +12,8 @@ ms.keywords: MI_Serializer_Close, MI_Serializer_Close function [Windows Manageme
 ms.topic: function
 f1_keywords:
 - mi/MI_Serializer_Close
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

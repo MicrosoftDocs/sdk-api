@@ -12,6 +12,8 @@ ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SO
 ms.topic: function
 f1_keywords: 
  - "winbase/CopyFileTransacted"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

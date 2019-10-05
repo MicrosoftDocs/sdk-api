@@ -12,6 +12,8 @@ ms.keywords: '*PJOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMA
 ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

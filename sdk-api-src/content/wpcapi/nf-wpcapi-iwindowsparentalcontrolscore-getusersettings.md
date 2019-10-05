@@ -12,6 +12,8 @@ ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWi
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWindowsParentalControlsCore.GetUserSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

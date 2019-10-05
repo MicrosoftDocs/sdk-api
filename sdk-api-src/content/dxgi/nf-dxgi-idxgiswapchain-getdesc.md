@@ -12,6 +12,8 @@ ms.keywords: 545f3a98-5c81-337d-c4f7-cc715e0e123f, GetDesc, GetDesc method [DXGI
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.GetDesc"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

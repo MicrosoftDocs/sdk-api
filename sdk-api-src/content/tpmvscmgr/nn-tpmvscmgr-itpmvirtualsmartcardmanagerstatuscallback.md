@@ -12,6 +12,8 @@ ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardMana
 ms.topic: interface
 f1_keywords: 
  - "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

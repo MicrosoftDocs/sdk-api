@@ -12,6 +12,8 @@ ms.keywords: ImportCallback, ImportCallback callback, ImportCallback callback fu
 ms.topic: callback
 f1_keywords: 
  - "winbase/ImportCallback"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

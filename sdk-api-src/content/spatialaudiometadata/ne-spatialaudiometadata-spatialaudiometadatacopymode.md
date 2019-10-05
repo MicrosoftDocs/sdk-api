@@ -12,6 +12,8 @@ ms.keywords: SpatialAudioMetadataCopyMode, SpatialAudioMetadataCopy_Append, Spat
 ms.topic: enum
 f1_keywords: 
  - "spatialaudiometadata/SpatialAudioMetadataWriterCopyMode"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, co
 ms.topic: function
 f1_keywords: 
  - "ole2/OleInitialize"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

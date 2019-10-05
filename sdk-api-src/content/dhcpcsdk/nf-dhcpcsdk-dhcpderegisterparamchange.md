@@ -12,6 +12,8 @@ ms.keywords: DhcpDeRegisterParamChange, DhcpDeRegisterParamChange function [DHCP
 ms.topic: function
 f1_keywords: 
  - "dhcpcsdk/DhcpDeRegisterParamChange"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

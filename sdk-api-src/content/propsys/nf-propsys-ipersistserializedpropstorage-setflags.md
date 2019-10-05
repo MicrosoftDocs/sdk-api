@@ -12,6 +12,8 @@ ms.keywords: FPSPS_DEFAULT, FPSPS_READONLY, FPSPS_TREAT_NEW_VALUES_AS_DIRTY, IPe
 ms.topic: method
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage.SetFlags"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

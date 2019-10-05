@@ -12,6 +12,8 @@ ms.keywords: GetObjectForChild, GetObjectForChild method [Windows Accessibility]
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAccessibleEx.GetObjectForChild"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

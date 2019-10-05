@@ -12,6 +12,8 @@ ms.keywords: GetPaletteEntryCount, GetPaletteEntryCount method [Direct Write], G
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFace2.GetPaletteEntryCount"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

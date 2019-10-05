@@ -12,6 +12,8 @@ ms.keywords: GetAttrib, GetAttrib method [Microsoft TV Technologies], GetAttrib 
 ms.topic: method
 f1_keywords: 
  - "dsattrib/IAttributeGet.GetAttrib"
+dev_langs:
+ - c++
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICryptAttributes interface [Security],Remove method, ICryptAttribut
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICryptAttributes.Remove"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

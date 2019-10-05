@@ -12,6 +12,8 @@ ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP]
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpTimeToSystemTime"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

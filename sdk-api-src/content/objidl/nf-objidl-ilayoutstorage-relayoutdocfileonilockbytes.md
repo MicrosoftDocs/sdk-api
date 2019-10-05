@@ -12,6 +12,8 @@ ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfileOnILoc
 ms.topic: method
 f1_keywords: 
  - "objidl/ILayoutStorage.ReLayoutDocfileOnILockBytes"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

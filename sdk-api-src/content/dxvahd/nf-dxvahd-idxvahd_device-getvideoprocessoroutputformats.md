@@ -12,6 +12,8 @@ ms.keywords: GetVideoProcessorOutputFormats, GetVideoProcessorOutputFormats meth
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_Device.GetVideoProcessorOutputFormats
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

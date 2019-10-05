@@ -12,6 +12,8 @@ ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],SetStreamSelec
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.SetStreamSelection"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

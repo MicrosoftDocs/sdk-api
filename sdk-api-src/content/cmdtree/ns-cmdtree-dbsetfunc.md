@@ -12,6 +12,8 @@ ms.keywords: DBSETFUNC, DBSETFUNC structure [Indexing Service], _idxs_DBSETFUNC,
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBSETFUNC"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

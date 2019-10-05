@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineWebSupport interface [Media Foundation],ShouldDelayTh
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

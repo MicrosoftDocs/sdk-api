@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Skip method, IEnumS
 ms.topic: method
 f1_keywords: 
  - "syncmgr/IEnumSyncMgrSyncItems.Skip"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

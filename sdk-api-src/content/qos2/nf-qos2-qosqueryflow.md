@@ -12,6 +12,8 @@ ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals
 ms.topic: function
 f1_keywords:
 - qos2/QOSQueryFlow
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

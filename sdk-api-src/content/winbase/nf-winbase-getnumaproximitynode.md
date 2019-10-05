@@ -12,6 +12,8 @@ ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumapr
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNumaProximityNode"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_Avail
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer.get_AvailableSourceRect"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

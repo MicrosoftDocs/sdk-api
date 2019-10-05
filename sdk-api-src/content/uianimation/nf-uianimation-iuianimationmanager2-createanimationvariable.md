@@ -12,6 +12,8 @@ ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows An
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager2.CreateAnimationVariable"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDr
 ms.topic: function
 f1_keywords: 
  - "wingdi/PolyDraw"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

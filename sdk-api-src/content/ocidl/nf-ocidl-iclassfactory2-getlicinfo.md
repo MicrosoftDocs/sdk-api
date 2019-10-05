@@ -12,6 +12,8 @@ ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClass
 ms.topic: method
 f1_keywords: 
  - "ocidl/IClassFactory2.GetLicInfo"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

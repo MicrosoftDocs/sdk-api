@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],Submit method, IAzApplication inter
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.Submit"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

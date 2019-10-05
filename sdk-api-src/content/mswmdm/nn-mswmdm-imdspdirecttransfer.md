@@ -12,6 +12,8 @@ ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media D
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IMDSPDirectTransfer"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

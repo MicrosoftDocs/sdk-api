@@ -12,6 +12,8 @@ ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FS
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FSCTL_QUERY_REGION_INFO_INPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

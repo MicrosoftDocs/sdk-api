@@ -12,6 +12,8 @@ ms.keywords: Effect class [GDI+],GetAuxDataSize method, Effect.GetAuxDataSize, E
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Effect.GetAuxDataSize"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

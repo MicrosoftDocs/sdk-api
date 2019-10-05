@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_sequence_variable_desc, PWINML_SEQUENCE_VARIA
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_SEQUENCE_VARIABLE_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

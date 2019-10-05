@@ -12,6 +12,8 @@ ms.keywords: '*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display D
 ms.topic: struct
 f1_keywords:
 - winddi/DRVENABLEDATA
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFNRASSENDBUFFER, PFNRASSENDBUFFER callback, RasSendBuffer, RasSend
 ms.topic: callback
 f1_keywords: 
  - "ras/RasSendBuffer"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

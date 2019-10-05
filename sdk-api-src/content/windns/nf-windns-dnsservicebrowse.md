@@ -7,6 +7,8 @@ ms.keywords: DnsServiceBrowse
 ms.topic: language-reference
 f1_keywords: 
  - "windns/DnsServiceBrowse"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], ITextDoc
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextDocument"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

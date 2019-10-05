@@ -12,6 +12,8 @@ ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Win
 ms.topic: interface
 f1_keywords: 
  - "winsync/IEnumChangeUnitExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

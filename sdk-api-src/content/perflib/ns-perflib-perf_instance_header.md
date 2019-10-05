@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER
 ms.topic: struct
 f1_keywords:
 - perflib/PERF_INSTANCE_HEADER
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

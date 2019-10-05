@@ -12,6 +12,8 @@ ms.keywords: 79a5c13b-e6bb-ddae-ebd4-aa756cc5a746, D3D11_TEX1D_ARRAY_DSV, D3D11_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX1D_ARRAY_DSV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

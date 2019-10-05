@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Controls], Delete method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Delete"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

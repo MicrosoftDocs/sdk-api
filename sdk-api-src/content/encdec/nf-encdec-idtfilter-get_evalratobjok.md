@@ -12,6 +12,8 @@ ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_EvalRatObjOK me
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter.get_EvalRatObjOK"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

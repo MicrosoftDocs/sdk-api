@@ -12,6 +12,8 @@ ms.keywords: DsBindWithCred, DsBindWithCred function [Active Directory], DsBindW
 ms.topic: function
 f1_keywords:
 - ntdsapi/DsBindWithCred
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

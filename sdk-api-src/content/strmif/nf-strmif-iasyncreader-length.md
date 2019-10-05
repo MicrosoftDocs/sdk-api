@@ -12,6 +12,8 @@ ms.keywords: IAsyncReader interface [DirectShow],Length method, IAsyncReader.Len
 ms.topic: method
 f1_keywords: 
  - "strmif/IAsyncReader.Length"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

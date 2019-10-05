@@ -12,6 +12,8 @@ ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], csca
 ms.topic: function
 f1_keywords: 
  - "cscapi/OfflineFilesStart"
+dev_langs:
+ - c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

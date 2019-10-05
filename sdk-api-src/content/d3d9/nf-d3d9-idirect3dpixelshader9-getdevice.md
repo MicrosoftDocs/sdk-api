@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DPixelShader9.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

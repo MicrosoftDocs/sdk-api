@@ -12,6 +12,8 @@ ms.keywords: "*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT
 ms.topic: struct
 f1_keywords: 
  - "mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT"
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

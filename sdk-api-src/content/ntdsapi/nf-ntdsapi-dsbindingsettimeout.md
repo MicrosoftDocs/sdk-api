@@ -12,6 +12,8 @@ ms.keywords: DsBindingSetTimeout, DsBindingSetTimeout function [Active Directory
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsBindingSetTimeout"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

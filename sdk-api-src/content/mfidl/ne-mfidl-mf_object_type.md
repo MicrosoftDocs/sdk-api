@@ -12,6 +12,8 @@ ms.keywords: MF_OBJECT_BYTESTREAM, MF_OBJECT_INVALID, MF_OBJECT_MEDIASOURCE, MF_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

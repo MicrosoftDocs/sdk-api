@@ -12,6 +12,8 @@ ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_SelectString"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

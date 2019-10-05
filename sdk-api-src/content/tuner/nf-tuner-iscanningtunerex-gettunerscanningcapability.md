@@ -12,6 +12,8 @@ ms.keywords: GetTunerScanningCapability, GetTunerScanningCapability method [Micr
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTunerEx.GetTunerScanningCapability"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

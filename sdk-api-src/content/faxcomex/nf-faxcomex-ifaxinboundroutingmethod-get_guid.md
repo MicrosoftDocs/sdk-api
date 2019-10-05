@@ -12,6 +12,8 @@ ms.keywords: GUID property [Fax Service], GUID property [Fax Service],IFaxInboun
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethod.GUID"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

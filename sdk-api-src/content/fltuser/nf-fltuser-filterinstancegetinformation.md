@@ -12,6 +12,8 @@ ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterInstanceGetInformation"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

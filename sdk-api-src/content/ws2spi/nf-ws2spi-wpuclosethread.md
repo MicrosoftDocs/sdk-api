@@ -12,6 +12,8 @@ ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpucloset
 ms.topic: function
 f1_keywords:
 - ws2spi/WPUCloseThread
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

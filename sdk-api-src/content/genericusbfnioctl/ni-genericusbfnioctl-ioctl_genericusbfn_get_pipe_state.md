@@ -12,6 +12,8 @@ ms.keywords: IOCTL_GENERICUSBFN_GET_PIPE_STATE, IOCTL_GENERICUSBFN_GET_PIPE_STAT
 ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_GET_PIPE_STATE
+dev_langs:
+ - c++
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

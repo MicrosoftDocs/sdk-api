@@ -12,6 +12,8 @@ ms.keywords: PROFILEPROPERTIES, PROFILEPROPERTIES enumeration [Network Policy Se
 ms.topic: enum
 f1_keywords:
 - sdoias/PROFILEPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

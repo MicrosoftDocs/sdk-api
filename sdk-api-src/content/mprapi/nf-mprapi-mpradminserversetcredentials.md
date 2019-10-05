@@ -12,6 +12,8 @@ ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerSetCredentials
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

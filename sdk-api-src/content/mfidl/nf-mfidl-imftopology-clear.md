@@ -12,6 +12,8 @@ ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear, Clear method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.Clear"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

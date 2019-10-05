@@ -12,6 +12,8 @@ ms.keywords: GetLastChildElement, GetLastChildElement method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTreeWalker.GetLastChildElement"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

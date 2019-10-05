@@ -12,6 +12,8 @@ ms.keywords: CreateFileManagementJob, CreateFileManagementJob method [File Serve
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJobManager.CreateFileManagementJob"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

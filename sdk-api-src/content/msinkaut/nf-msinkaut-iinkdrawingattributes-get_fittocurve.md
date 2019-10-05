@@ -12,6 +12,8 @@ ms.keywords: 93b11903-84dd-4f7a-a47c-555d19fede8d, FitToCurve property [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.FitToCurve"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

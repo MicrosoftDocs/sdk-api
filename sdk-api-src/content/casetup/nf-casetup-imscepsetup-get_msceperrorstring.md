@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup interface [Security],MSCEPErrorString property, IMSCEPS
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.MSCEPErrorString"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

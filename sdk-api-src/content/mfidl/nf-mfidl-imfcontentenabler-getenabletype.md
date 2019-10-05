@@ -12,6 +12,8 @@ ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.GetEnableType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

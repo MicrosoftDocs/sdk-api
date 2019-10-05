@@ -12,6 +12,8 @@ ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, WS_WINDOWS_INTEGRATED_AUTH_PACK
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

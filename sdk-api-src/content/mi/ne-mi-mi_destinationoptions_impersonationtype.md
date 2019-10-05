@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_ImpersonationType, MI_DestinationOptions_Impe
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_DestinationOptions_ImpersonationType"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

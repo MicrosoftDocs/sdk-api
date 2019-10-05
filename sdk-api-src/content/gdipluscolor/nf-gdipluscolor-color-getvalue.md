@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],GetValue method, Color.GetValue, Color::GetValue
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.GetValue"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

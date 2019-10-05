@@ -12,6 +12,8 @@ ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN,
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_IEDOORINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownl
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IDownloadJob"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

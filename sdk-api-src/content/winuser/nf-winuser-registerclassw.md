@@ -12,6 +12,8 @@ ms.keywords: RegisterClass, RegisterClass function [Windows and Messages], Regis
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterClass"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],I
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyJob1.GetProgress"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

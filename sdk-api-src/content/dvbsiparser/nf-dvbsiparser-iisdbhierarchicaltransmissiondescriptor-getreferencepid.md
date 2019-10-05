@@ -12,6 +12,8 @@ ms.keywords: GetReferencePid, GetReferencePid method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetReferencePid"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

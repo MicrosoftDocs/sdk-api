@@ -12,6 +12,8 @@ ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Managemen
 ms.topic: function
 f1_keywords:
 - wsman/WSManCloseShell
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

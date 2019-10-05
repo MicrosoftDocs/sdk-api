@@ -12,6 +12,8 @@ ms.keywords: QOS_SERVICE_LEVEL, QOS_SERVICE_LEVEL enumeration [TAPI 2.2], QSL_BE
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/QOS_SERVICE_LEVEL"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteEnhMetaFile, DeleteEnhMetaFile function [Windows GDI], Delete
 ms.topic: function
 f1_keywords: 
  - "wingdi/DeleteEnhMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

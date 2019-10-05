@@ -12,6 +12,8 @@ ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh fu
 ms.topic: function
 f1_keywords: 
  - "winnt/UnsignedMultiplyHigh"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

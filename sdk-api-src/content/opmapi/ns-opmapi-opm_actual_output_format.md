@@ -12,6 +12,8 @@ ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_ACTUAL_OUTPUT_FORMAT
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

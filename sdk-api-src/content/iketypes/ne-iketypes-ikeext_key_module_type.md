@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_KEY_MODULE_AUTHIP, IKEEXT_KEY_MODULE_IKE, IKEEXT_KEY_MODULE_
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_KEY_MODULE_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

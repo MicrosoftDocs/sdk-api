@@ -12,6 +12,8 @@ ms.keywords: PerfDecrementULongLongCounterValue, PerfDecrementULongLongCounterVa
 ms.topic: function
 f1_keywords:
 - perflib/PerfDecrementULongLongCounterValue
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

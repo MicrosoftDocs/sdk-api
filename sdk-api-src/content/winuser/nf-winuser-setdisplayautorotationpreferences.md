@@ -12,6 +12,8 @@ ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreference
 ms.topic: function
 f1_keywords: 
  - "winuser/SetDisplayAutoRotationPreferences"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddRadioButtonList, AddRadioButtonList method [Windows Shell], AddR
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogCustomize.AddRadioButtonList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

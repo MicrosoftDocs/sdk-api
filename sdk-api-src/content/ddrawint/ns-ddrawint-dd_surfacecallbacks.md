@@ -12,6 +12,8 @@ ms.keywords: '*PDD_SURFACECALLBACKS, DD_SURFACECALLBACKS, DD_SURFACECALLBACKS st
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACECALLBACKS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

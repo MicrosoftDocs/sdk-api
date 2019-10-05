@@ -12,6 +12,8 @@ ms.keywords: 0ab6054e-eb96-2ef2-67bb-a8b5918e7fee, CreateTexture, CreateTexture 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.CreateTexture"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

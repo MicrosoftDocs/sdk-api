@@ -12,6 +12,8 @@ ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], Alloc
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/IWMSBufferAllocator.AllocateBuffer"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

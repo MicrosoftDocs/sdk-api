@@ -12,6 +12,8 @@ ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display 
 ms.topic: function
 f1_keywords: 
  - "winddi/EngProbeForReadAndWrite"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

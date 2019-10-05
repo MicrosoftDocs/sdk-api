@@ -12,6 +12,8 @@ ms.keywords: SHFreeNameMappings, SHFreeNameMappings function [Windows Shell], _w
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHFreeNameMappings"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

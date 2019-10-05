@@ -12,6 +12,8 @@ ms.keywords: "*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PRO
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/VIRTUAL_DISK_PROGRESS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

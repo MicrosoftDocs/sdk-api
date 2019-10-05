@@ -12,6 +12,8 @@ ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpset
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpSetVb"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

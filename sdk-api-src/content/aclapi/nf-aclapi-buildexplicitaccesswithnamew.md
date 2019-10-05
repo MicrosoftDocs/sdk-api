@@ -12,6 +12,8 @@ ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [
 ms.topic: function
 f1_keywords:
 - aclapi/BuildExplicitAccessWithName
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

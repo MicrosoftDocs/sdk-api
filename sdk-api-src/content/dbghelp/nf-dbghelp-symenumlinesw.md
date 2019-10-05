@@ -12,6 +12,8 @@ ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlin
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymEnumLines"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

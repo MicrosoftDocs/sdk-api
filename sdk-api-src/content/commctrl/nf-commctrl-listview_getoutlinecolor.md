@@ -12,6 +12,8 @@ ms.keywords: ListView_GetOutlineColor, ListView_GetOutlineColor macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetOutlineColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

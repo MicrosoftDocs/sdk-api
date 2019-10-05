@@ -12,6 +12,8 @@ ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], IConditi
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IConditionFactory2"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

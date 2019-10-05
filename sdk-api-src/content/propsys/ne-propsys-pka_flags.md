@@ -12,6 +12,8 @@ ms.keywords: PKA_APPEND, PKA_DELETE, PKA_FLAGS, PKA_FLAGS enumeration [Windows P
 ms.topic: enum
 f1_keywords: 
  - "propsys/PKA_FLAGS"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

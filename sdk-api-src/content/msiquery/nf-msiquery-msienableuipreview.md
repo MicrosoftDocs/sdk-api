@@ -12,6 +12,8 @@ ms.keywords: MsiEnableUIPreview, MsiEnableUIPreview function, _msi_msienableuipr
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiEnableUIPreview"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

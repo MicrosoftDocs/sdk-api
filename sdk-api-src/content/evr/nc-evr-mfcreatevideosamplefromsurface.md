@@ -12,6 +12,8 @@ ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface call
 ms.topic: callback
 f1_keywords: 
  - "evr/MFCreateVideoSampleFromSurface"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

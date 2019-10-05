@@ -12,6 +12,8 @@ ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNOPEN"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

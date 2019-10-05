@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog2 interface [COM+],IsApplicationInstanceDumpSupport
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.IsApplicationInstanceDumpSupported"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

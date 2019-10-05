@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IWiaProperty
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaPropertyStorage.GetCount"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AccessibleObjectFromPoint, AccessibleObjectFromPoint function [Wind
 ms.topic: function
 f1_keywords: 
  - "oleacc/AccessibleObjectFromPoint"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

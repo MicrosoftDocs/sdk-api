@@ -12,6 +12,8 @@ ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Servic
 ms.topic: function
 f1_keywords:
 - webservices/WsRequestSecurityToken
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

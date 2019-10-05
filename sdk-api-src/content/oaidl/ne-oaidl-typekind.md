@@ -12,6 +12,8 @@ ms.keywords: TKIND_ALIAS, TKIND_COCLASS, TKIND_DISPATCH, TKIND_ENUM, TKIND_INTER
 ms.topic: enum
 f1_keywords: 
  - "oaidl/TYPEKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

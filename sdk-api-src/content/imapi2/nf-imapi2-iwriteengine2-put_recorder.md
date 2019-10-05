@@ -12,6 +12,8 @@ ms.keywords: IWriteEngine2 interface [IMAPI],put_Recorder method, IWriteEngine2.
 ms.topic: method
 f1_keywords: 
  - "imapi2/IWriteEngine2.put_Recorder"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

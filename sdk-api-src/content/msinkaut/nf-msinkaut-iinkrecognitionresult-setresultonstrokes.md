@@ -12,6 +12,8 @@ ms.keywords: 928f6f39-1b8f-403a-8c18-0931c5a6dc5d, IInkRecognitionResult interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionResult.SetResultOnStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

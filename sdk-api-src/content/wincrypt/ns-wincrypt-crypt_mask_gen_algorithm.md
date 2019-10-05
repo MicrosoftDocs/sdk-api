@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_G
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_MASK_GEN_ALGORITHM
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

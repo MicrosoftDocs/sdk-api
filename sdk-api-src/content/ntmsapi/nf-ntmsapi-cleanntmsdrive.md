@@ -12,6 +12,8 @@ ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdriv
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/CleanNtmsDrive"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

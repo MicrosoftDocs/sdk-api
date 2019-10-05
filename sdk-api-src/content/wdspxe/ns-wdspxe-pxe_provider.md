@@ -12,6 +12,8 @@ ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Wi
 ms.topic: struct
 f1_keywords: 
  - "wdspxe/PXE_PROVIDER"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

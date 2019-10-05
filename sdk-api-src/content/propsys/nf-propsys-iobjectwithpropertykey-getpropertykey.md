@@ -12,6 +12,8 @@ ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyK
 ms.topic: method
 f1_keywords:
 - propsys/IObjectWithPropertyKey.GetPropertyKey
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

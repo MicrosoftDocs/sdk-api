@@ -12,6 +12,8 @@ ms.keywords: WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, se
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxIsLockOk"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

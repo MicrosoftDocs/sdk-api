@@ -12,6 +12,8 @@ ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardControl"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

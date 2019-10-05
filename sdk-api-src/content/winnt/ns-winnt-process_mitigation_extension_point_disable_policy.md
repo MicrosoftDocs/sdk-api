@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, PPROCESS_MITI
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

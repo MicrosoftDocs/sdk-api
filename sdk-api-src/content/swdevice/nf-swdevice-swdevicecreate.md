@@ -12,6 +12,8 @@ ms.keywords: SwDeviceCreate, SwDeviceCreate function, swdevice.swdevicecreate, s
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDeviceCreate"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

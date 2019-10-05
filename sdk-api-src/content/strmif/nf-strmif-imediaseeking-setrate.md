@@ -12,6 +12,8 @@ ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.SetRate"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

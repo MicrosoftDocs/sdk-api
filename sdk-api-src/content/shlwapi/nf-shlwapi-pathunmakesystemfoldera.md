@@ -12,6 +12,8 @@ ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathUnmakeSystemFolder"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

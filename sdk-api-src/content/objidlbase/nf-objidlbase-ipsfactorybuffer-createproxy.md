@@ -12,6 +12,8 @@ ms.keywords: CreateProxy, CreateProxy method [COM], CreateProxy method [COM],IPS
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IPSFactoryBuffer.CreateProxy"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

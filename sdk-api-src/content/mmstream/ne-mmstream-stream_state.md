@@ -12,6 +12,8 @@ ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enume
 ms.topic: enum
 f1_keywords: 
  - "mmstream/STREAM_STATE"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

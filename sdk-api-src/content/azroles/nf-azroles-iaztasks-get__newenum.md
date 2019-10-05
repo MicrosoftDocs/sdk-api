@@ -12,6 +12,8 @@ ms.keywords: AzTasks object [Security],_NewEnum property, IAzTasks interface [Se
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTasks._NewEnum"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

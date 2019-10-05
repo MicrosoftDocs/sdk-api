@@ -12,6 +12,8 @@ ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback
 ms.topic: callback
 f1_keywords: 
  - "scesvc/PFSCE_FREE_INFO"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

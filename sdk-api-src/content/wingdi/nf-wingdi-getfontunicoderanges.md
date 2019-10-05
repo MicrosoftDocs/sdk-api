@@ -12,6 +12,8 @@ ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], 
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetFontUnicodeRanges"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

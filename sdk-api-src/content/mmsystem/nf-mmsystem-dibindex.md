@@ -12,6 +12,8 @@ ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibind
 ms.topic: macro
 f1_keywords: 
  - "mmsystem/DIBINDEX"
+dev_langs:
+ - c++
 req.header: mmsystem.h
 req.include-header: Windows.h
 req.target-type: Windows

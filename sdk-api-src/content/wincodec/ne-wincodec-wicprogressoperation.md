@@ -12,6 +12,8 @@ ms.keywords: WICProgressOperation, WICProgressOperation enumeration [Windows Ima
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICProgressOperation"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

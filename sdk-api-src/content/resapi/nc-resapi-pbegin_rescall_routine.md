@@ -12,6 +12,8 @@ ms.keywords: BeginResourceControl, BeginResourceControl callback, BeginResourceC
 ms.topic: callback
 f1_keywords: 
  - "resapi/BeginResourceControl"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

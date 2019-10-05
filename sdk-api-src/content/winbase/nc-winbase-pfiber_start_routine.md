@@ -12,6 +12,8 @@ ms.keywords: LPFIBER_START_ROUTINE, PFIBER_START_ROUTINE, PFIBER_START_ROUTINE c
 ms.topic: callback
 f1_keywords: 
  - "winbase/PFIBER_START_ROUTINE"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],SelFontName property, IInkEdit.SelFo
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelFontName"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

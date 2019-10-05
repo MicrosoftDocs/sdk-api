@@ -12,6 +12,8 @@ ms.keywords: '*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], 
 ms.topic: struct
 f1_keywords:
 - wabdefs/Gender
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

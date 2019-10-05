@@ -12,6 +12,8 @@ ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITSubStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

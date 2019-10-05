@@ -12,6 +12,8 @@ ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE, EAP_CO
 ms.topic: enum
 f1_keywords: 
  - "eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE"
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

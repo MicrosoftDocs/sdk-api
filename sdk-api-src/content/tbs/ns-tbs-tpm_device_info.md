@@ -12,6 +12,8 @@ ms.keywords: "*PTPM_DEVICE_INFO, PTPM_DEVICE_INFO, PTPM_DEVICE_INFO structure po
 ms.topic: struct
 f1_keywords: 
  - "tbs/TPM_DEVICE_INFO"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

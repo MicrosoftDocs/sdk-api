@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_BINARY_VALUE, PRESUTIL_GET_BINARY_VALUE function [Fail
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetBinaryValue"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

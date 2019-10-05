@@ -12,6 +12,8 @@ ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug inte
 ms.topic: interface
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

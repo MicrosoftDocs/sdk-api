@@ -12,6 +12,8 @@ ms.keywords: SVGIO_ALLVIEW, SVGIO_BACKGROUND, SVGIO_CHECKED, SVGIO_FLAG_VIEWORDE
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/_SVGIO"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

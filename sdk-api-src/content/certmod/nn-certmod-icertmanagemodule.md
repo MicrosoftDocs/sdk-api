@@ -12,6 +12,8 @@ ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertMan
 ms.topic: interface
 f1_keywords: 
  - "certmod/ICertManageModule"
+dev_langs:
+ - c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows

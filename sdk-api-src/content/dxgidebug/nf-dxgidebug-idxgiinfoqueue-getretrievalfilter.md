@@ -12,6 +12,8 @@ ms.keywords: GetRetrievalFilter, GetRetrievalFilter method [DXGI], GetRetrievalF
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetRetrievalFilter"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

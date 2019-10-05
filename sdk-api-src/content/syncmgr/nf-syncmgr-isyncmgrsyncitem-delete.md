@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Shell], Delete method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItem.Delete"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

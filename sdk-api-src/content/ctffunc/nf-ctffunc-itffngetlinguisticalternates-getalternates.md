@@ -12,6 +12,8 @@ ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetA
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnGetLinguisticAlternates.GetAlternates"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

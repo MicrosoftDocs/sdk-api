@@ -12,6 +12,8 @@ ms.keywords: ISearchManager interface [search],put_UserAgent method, ISearchMana
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager.put_UserAgent"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

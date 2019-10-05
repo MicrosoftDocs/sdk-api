@@ -12,6 +12,8 @@ ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilt
 ms.topic: method
 f1_keywords: 
  - "control/IMediaControl.AddSourceFilter"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

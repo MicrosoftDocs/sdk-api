@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFI
 ms.topic: struct
 f1_keywords: 
  - "clfsmgmt/CLFS_MGMT_NOTIFICATION"
+dev_langs:
+ - c++
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows

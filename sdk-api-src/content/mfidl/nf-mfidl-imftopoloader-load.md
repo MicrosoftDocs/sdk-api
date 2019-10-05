@@ -12,6 +12,8 @@ ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopoLoader.Load"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

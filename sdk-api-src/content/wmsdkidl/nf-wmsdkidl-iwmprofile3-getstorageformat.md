@@ -12,6 +12,8 @@ ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], G
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile3.GetStorageFormat"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

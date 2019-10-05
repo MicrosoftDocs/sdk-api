@@ -12,6 +12,8 @@ ms.keywords: GetConnectedTo, GetConnectedTo method [Core Audio], GetConnectedTo 
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.GetConnectedTo"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

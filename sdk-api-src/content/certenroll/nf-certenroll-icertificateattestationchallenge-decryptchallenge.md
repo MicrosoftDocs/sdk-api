@@ -12,6 +12,8 @@ ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChalle
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificateAttestationChallenge.DecryptChallenge"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

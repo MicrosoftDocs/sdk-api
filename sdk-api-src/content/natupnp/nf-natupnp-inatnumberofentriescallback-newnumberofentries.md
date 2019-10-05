@@ -12,6 +12,8 @@ ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries 
 ms.topic: method
 f1_keywords: 
  - "natupnp/INATNumberOfEntriesCallback.NewNumberOfEntries"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

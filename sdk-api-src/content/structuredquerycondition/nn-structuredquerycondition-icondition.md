@@ -12,6 +12,8 @@ ms.keywords: ICondition, ICondition interface [search], ICondition interface [se
 ms.topic: interface
 f1_keywords: 
  - "structuredquerycondition/ICondition"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

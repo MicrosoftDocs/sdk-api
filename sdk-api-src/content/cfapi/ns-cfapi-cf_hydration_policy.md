@@ -12,6 +12,8 @@ ms.keywords: CF_HYDRATION_POLICY, CF_HYDRATION_POLICY structure, cfapi/CF_HYDRAT
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_HYDRATION_POLICY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

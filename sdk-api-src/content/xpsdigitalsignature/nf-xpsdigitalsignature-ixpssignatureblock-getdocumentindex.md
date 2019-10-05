@@ -12,6 +12,8 @@ ms.keywords: GetDocumentIndex, GetDocumentIndex method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlock.GetDocumentIndex"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

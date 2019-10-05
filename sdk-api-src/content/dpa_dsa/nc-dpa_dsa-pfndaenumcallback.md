@@ -12,6 +12,8 @@ ms.keywords: PFNDAENUMCALLBACK, PFNDAENUMCALLBACK callback, PFNDAENUMCALLBACK ca
 ms.topic: callback
 f1_keywords: 
  - "dpa_dsa/PFNDAENUMCALLBACK"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

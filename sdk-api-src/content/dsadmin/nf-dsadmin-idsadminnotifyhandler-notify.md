@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNotifyHandler interface [Active Directory],Notify method, I
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNotifyHandler.Notify"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

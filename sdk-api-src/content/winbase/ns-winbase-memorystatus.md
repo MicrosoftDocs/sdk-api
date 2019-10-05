@@ -12,6 +12,8 @@ ms.keywords: "*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer,
 ms.topic: struct
 f1_keywords: 
  - "winbase/MEMORYSTATUS"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForSt
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced.SetAllocateForStream"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

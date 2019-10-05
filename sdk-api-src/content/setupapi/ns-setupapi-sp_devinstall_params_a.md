@@ -12,6 +12,8 @@ ms.keywords: '*PSP_DEVINSTALL_PARAMS_A, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PA
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_DEVINSTALL_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

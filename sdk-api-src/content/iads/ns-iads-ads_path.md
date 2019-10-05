@@ -12,6 +12,8 @@ ms.keywords: "*PADS_PATH, ADS_PATH, ADS_PATH structure [ADSI], PADS_PATH, PADS_P
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_PATH"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

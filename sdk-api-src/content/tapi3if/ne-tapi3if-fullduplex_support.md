@@ -12,6 +12,8 @@ ms.keywords: FDS_NOTSUPPORTED, FDS_SUPPORTED, FDS_UNKNOWN, FULLDUPLEX_SUPPORT, F
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/FULLDUPLEX_SUPPORT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

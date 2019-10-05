@@ -6,6 +6,8 @@ ms.keywords: BCryptRegisterConfigChangeNotify
 ms.topic: language-reference
 f1_keywords: 
  - "bcrypt/BCryptRegisterConfigChangeNotify"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: 85db30ea-1e49-0b62-caca-5e0cf8959361, GetTechniqueByName, GetTechni
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetTechniqueByName"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

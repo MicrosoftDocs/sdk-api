@@ -12,6 +12,8 @@ ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure 
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_CONTROLLER_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

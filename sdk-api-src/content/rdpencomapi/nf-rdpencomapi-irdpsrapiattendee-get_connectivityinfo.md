@@ -12,6 +12,8 @@ ms.keywords: ConnectivityInfo property [RDP], ConnectivityInfo property [RDP],IR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.ConnectivityInfo"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

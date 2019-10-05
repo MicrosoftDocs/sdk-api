@@ -12,6 +12,8 @@ ms.keywords: ADAPTIVE_ARRAY_AND_AEC, ADAPTIVE_ARRAY_ONLY, AEC_SYSTEM_MODE, AEC_S
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/AEC_SYSTEM_MODE"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

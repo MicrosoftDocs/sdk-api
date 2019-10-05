@@ -12,6 +12,8 @@ ms.keywords: VarBstrCat, VarBstrCat function [Automation], _oa96_VarBstrCat, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBstrCat"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

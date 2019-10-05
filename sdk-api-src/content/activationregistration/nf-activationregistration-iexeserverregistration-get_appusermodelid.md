@@ -12,6 +12,8 @@ ms.keywords: IExeServerRegistration interface [Windows Runtime],get_AppUserModel
 ms.topic: method
 f1_keywords: 
  - "activationregistration/IExeServerRegistration.get_AppUserModelId"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

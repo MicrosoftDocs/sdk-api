@@ -12,6 +12,8 @@ ms.keywords: GetBitmapDescription, GetBitmapDescription method, GetBitmapDescrip
 ms.topic: method
 f1_keywords: 
  - "xamlom/IBitmapData.GetBitmapDescription"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

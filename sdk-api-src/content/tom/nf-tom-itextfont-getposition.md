@@ -12,6 +12,8 @@ ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetPosition"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Italic method, IFont.put_Italic, IFont::p
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Italic"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

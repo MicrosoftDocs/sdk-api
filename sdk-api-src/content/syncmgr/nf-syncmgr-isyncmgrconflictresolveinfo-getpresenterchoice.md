@@ -12,6 +12,8 @@ ms.keywords: GetPresenterChoice, GetPresenterChoice method [Windows Shell], GetP
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo.GetPresenterChoice"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

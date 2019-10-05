@@ -12,6 +12,8 @@ ms.keywords: IDCompositionAffineTransform2DEffect, IDCompositionAffineTransform2
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionAffineTransform2DEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

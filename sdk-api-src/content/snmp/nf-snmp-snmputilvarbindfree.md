@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilVarBindFree, SnmpUtilVarBindFree function [SNMP], _snmp_snm
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilVarBindFree"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

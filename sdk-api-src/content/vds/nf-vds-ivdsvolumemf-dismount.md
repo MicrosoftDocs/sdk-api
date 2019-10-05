@@ -12,6 +12,8 @@ ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF.Dismount"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

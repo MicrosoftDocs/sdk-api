@@ -12,6 +12,8 @@ ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback fu
 ms.topic: callback
 f1_keywords: 
  - "winbase/ExportCallback"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

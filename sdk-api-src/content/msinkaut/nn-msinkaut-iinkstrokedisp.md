@@ -12,6 +12,8 @@ ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDis
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

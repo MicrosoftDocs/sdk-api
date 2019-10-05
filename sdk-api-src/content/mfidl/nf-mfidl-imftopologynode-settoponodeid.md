@@ -12,6 +12,8 @@ ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.SetTopoNodeID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

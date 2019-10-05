@@ -12,6 +12,8 @@ ms.keywords: AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS, AM_GRAPH_CONFIG_RE
 ms.topic: enum
 f1_keywords: 
  - "strmif/AM_GRAPH_CONFIG_RECONNECT_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

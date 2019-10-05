@@ -12,6 +12,8 @@ ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, PSR_RESOURCE_T
 ms.topic: struct
 f1_keywords: 
  - "clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMAS
 ms.topic: struct
 f1_keywords: 
  - "winscard/SCARD_ATRMASK"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DdeGetData, DdeGetData function [Data Exchange], _win32_DdeGetData,
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeGetData"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

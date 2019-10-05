@@ -12,6 +12,8 @@ ms.keywords: 45d18e06-7ca3-6ff7-a95b-a56150c07b87, GetClassInstance, GetClassIns
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ClassLinkage.GetClassInstance"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEMESS_E_AUTHZ_NOT_PRIVILEGED, WBEMESS_E_REGISTRATION_TOO_BROAD, W
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEMSTATUS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleControlSite interface [COM],OnFocus method, IOleControlSite.OnF
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControlSite.OnFocus"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

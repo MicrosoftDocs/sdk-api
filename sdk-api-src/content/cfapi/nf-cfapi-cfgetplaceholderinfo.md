@@ -12,6 +12,8 @@ ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPla
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetPlaceholderInfo"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRoo
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathBuildRoot"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

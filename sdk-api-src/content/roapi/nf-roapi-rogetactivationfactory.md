@@ -12,6 +12,8 @@ ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Ru
 ms.topic: function
 f1_keywords: 
  - "roapi/RoGetActivationFactory"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

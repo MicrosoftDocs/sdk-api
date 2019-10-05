@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE, KERB_PRO
 ms.topic: enum
 f1_keywords:
 - ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

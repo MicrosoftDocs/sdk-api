@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_XML_WRITE_CALLBACK, PFN_CRYPT_XML_WRITE_CALLBACK callback
 ms.topic: callback
 f1_keywords: 
  - "cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

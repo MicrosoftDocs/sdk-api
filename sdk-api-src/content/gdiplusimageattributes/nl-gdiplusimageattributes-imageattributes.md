@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes, ImageAttributes class [GDI+], ImageAttributes clas
 ms.topic: class
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: 
 req.target-type: Windows

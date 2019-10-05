@@ -8,6 +8,10 @@ ms.assetid: ee2e1ce5-e6ab-4e49-9177-2ff98dca420e
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::DiscardResource
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::DiscardResource, DiscardResource, ID3D12VideoProcessCommandList.DiscardResource, ID3D12VideoProcessCommandList::DiscardResource, ID3D12VideoProcessCommandList.DiscardResource
 req.header: d3d12video.h
 req.include-header:

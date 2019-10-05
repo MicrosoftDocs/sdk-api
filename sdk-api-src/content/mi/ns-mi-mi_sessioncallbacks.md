@@ -12,6 +12,8 @@ ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Managem
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_SessionCallbacks"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

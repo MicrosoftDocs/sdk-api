@@ -12,6 +12,8 @@ ms.keywords: PROV_ENUMALGS_EX, PROV_ENUMALGS_EX structure [Security], _crypto2_p
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/PROV_ENUMALGS_EX"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

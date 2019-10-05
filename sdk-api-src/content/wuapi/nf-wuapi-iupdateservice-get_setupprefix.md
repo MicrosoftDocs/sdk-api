@@ -12,6 +12,8 @@ ms.keywords: IUpdateService interface [Windows Update Agent],SetupPrefix propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateService.SetupPrefix"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

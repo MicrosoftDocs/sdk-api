@@ -12,6 +12,8 @@ ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfCl
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfClientId"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

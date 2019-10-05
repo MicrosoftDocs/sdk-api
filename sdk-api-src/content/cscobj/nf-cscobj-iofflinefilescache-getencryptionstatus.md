@@ -12,6 +12,8 @@ ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], Ge
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.GetEncryptionStatus"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyStore interface [Audio Devices],SetValue method, IProperty
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyStore.SetValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], IAMA
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMAudioInputMixer"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

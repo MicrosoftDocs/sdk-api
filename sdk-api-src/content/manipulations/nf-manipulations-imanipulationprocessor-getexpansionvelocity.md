@@ -12,6 +12,8 @@ ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], 
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.GetExpansionVelocity"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

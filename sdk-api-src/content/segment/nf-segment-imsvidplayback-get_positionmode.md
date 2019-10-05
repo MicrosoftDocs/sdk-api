@@ -12,6 +12,8 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_PositionMo
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlayback.get_PositionMode"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

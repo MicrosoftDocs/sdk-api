@@ -12,6 +12,8 @@ ms.keywords: ISensor interface,SupportsDataField method, ISensor.SupportsDataFie
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.SupportsDataField"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

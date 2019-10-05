@@ -12,6 +12,8 @@ ms.keywords: "*PBCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB st
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_DSA_KEY_BLOB"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

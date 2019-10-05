@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_ID_TYPE, ExtendedFileIdType, FILE_ID_TYPE, FILE_ID_TYPE enu
 ms.topic: enum
 f1_keywords: 
  - "winbase/FILE_ID_TYPE"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

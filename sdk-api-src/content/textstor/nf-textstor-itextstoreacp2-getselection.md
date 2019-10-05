@@ -12,6 +12,8 @@ ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSel
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP2.GetSelection"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISear
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchLanguageSupport.LoadStemmer"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

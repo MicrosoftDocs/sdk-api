@@ -12,6 +12,8 @@ ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects/D2D1_FLOOD_PROP"
+dev_langs:
+ - c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

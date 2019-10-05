@@ -12,6 +12,8 @@ ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIF
 ms.topic: function
 f1_keywords: 
  - "winreg/RegNotifyChangeKeyValue"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

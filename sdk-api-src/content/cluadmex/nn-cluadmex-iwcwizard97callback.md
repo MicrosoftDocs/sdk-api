@@ -12,6 +12,8 @@ ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluste
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IWCWizard97Callback"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

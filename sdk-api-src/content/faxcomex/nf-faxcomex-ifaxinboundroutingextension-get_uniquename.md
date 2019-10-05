@@ -12,6 +12,8 @@ ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],UniqueName prop
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingExtension.UniqueName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

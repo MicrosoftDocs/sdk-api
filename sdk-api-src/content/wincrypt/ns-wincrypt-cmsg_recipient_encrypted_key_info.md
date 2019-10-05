@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

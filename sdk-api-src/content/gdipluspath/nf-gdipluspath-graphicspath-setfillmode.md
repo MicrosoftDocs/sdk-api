@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],SetFillMode method, GraphicsPath.SetFillM
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.SetFillMode"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

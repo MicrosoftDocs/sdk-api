@@ -12,6 +12,8 @@ ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.DeviceId"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

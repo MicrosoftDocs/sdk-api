@@ -12,6 +12,8 @@ ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOe
 ms.topic: function
 f1_keywords: 
  - "winuser/CharToOem"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

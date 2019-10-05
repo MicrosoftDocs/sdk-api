@@ -12,6 +12,8 @@ ms.keywords: "*PAM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/AM_DVDCOPY_SET_COPY_STATE"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

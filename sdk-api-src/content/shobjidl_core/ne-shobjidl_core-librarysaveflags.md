@@ -12,6 +12,8 @@ ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/LIBRARYSAVEFLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

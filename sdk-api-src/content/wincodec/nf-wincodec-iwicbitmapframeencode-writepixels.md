@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePi
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapFrameEncode.WritePixels"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Run
 ms.topic: interface
 f1_keywords: 
  - "windows.graphics.imaging.interop/ISoftwareBitmapNative"
+dev_langs:
+ - c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interfac
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnConnectionProfileManager"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

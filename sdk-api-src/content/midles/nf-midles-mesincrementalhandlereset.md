@@ -12,6 +12,8 @@ ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC]
 ms.topic: function
 f1_keywords: 
  - "midles/MesIncrementalHandleReset"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteAsyncResult.GetResult"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

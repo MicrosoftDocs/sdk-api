@@ -12,6 +12,8 @@ ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BR
 ms.topic: enum
 f1_keywords: 
  - "indexsrv/WORDREP_BREAK_TYPE"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

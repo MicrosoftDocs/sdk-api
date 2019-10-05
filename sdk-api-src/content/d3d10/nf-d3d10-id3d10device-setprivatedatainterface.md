@@ -12,6 +12,8 @@ ms.keywords: ID3D10Device interface [Direct3D 10],SetPrivateDataInterface method
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.SetPrivateDataInterface"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

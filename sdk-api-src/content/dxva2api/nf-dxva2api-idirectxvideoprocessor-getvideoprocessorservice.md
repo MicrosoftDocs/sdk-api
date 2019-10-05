@@ -12,6 +12,8 @@ ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService, Get
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoProcessor.GetVideoProcessorService"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

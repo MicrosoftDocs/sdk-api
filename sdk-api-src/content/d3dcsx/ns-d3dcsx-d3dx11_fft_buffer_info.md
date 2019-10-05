@@ -12,6 +12,8 @@ ms.keywords: D3DX11_FFT_BUFFER_INFO, D3DX11_FFT_BUFFER_INFO structure [Direct3D 
 ms.topic: struct
 f1_keywords: 
  - "d3dcsx/D3DX11_FFT_BUFFER_INFO"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

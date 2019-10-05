@@ -12,6 +12,8 @@ ms.keywords: CM_Delete_Device_Interface_Key_ExA, CM_Delete_Device_Interface_Key_
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Delete_Device_Interface_Key_ExA"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: 6d218992-c1c3-4d83-b364-4c7d3b50474f, MFVideoDRMFlag_AnalogProtecte
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideoDRMFlags"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

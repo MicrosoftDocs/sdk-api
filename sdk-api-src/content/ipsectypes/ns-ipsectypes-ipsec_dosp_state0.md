@@ -12,6 +12,8 @@ ms.keywords: IPSEC_DOSP_STATE0, IPSEC_DOSP_STATE0 structure [Filtering], fwp.ips
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_DOSP_STATE0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

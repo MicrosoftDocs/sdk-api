@@ -12,6 +12,8 @@ ms.keywords: UiaNodeFromProvider, UiaNodeFromProvider function [Windows Accessib
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaNodeFromProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

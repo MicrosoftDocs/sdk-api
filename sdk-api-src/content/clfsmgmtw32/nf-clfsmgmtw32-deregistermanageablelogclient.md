@@ -12,6 +12,8 @@ ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient functi
 ms.topic: function
 f1_keywords: 
  - "clfsmgmtw32/DeregisterManageableLogClient"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

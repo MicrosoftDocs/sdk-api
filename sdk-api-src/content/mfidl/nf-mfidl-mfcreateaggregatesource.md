@@ -12,6 +12,8 @@ ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Fo
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateAggregateSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

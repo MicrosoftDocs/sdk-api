@@ -12,6 +12,8 @@ ms.keywords: GetExtendModeY, GetExtendModeY method [Direct2D], GetExtendModeY me
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1BorderTransform.GetExtendModeY"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

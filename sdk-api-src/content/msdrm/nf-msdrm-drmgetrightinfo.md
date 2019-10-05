@@ -12,6 +12,8 @@ ms.keywords: DRMGetRightInfo, DRMGetRightInfo function [Active Directory Rights 
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetRightInfo"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

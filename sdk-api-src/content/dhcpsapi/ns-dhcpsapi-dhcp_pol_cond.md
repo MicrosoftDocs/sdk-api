@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND st
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_COND
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

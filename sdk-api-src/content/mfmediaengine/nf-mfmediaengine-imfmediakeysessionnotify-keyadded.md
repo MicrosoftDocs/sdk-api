@@ -12,6 +12,8 @@ ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyAdded meth
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeySessionNotify.KeyAdded"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

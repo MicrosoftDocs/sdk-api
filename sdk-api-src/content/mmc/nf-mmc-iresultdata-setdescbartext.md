@@ -12,6 +12,8 @@ ms.keywords: IResultData interface [MMC],SetDescBarText method, IResultData.SetD
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData.SetDescBarText"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure
 ms.topic: struct
 f1_keywords:
 - mssip/SIP_SUBJECTINFO
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

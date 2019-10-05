@@ -12,6 +12,8 @@ ms.keywords: ListView_SetTileInfo, ListView_SetTileInfo macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetTileInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO 
 ms.topic: struct
 f1_keywords:
 - tdh/PROVIDER_EVENT_INFO
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

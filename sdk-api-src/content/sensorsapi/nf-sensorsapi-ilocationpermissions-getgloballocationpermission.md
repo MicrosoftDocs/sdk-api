@@ -12,6 +12,8 @@ ms.keywords: GetGlobalLocationPermission, GetGlobalLocationPermission method, Ge
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ILocationPermissions.GetGlobalLocationPermission"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

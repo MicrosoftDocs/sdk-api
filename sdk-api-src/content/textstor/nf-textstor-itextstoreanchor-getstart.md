@@ -12,6 +12,8 @@ ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart metho
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.GetStart"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

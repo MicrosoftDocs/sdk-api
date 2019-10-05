@@ -12,6 +12,8 @@ ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iph
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIfEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

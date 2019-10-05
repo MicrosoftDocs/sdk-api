@@ -12,6 +12,8 @@ ms.keywords: AdviseVisualTreeChange, AdviseVisualTreeChange method, AdviseVisual
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.AdviseVisualTreeChange"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetComponentCount, GetComponentCount method [VSS], GetComponentCoun
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWriterComponents.GetComponentCount"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

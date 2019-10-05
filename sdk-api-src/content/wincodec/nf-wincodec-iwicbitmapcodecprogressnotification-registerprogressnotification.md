@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapCodecProgressNotification interface [Windows Imaging Comp
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapCodecProgressNotification.RegisterProgressNotification"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

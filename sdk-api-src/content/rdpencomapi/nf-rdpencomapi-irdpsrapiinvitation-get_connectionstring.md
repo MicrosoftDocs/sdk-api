@@ -12,6 +12,8 @@ ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP],IR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitation.ConnectionString"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

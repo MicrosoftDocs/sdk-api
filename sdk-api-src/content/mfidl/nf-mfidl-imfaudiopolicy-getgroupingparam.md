@@ -12,6 +12,8 @@ ms.keywords: 725892fd-4af6-483d-bb5c-87051fa45ec4, GetGroupingParam, GetGrouping
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioPolicy.GetGroupingParam"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

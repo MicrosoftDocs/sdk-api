@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServicePolicy.StartIpAddress"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

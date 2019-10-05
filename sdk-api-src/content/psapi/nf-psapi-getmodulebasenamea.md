@@ -12,6 +12,8 @@ ms.keywords: GetModuleBaseName, GetModuleBaseName function [PSAPI], GetModuleBas
 ms.topic: function
 f1_keywords: 
  - "psapi/GetModuleBaseName"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

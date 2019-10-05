@@ -12,6 +12,8 @@ ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Un
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssExpressWriter.Unregister"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

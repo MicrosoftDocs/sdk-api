@@ -12,6 +12,8 @@ ms.keywords: "*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS
 ms.topic: struct
 f1_keywords: 
  - "elscore/MAPPING_ENUM_OPTIONS"
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

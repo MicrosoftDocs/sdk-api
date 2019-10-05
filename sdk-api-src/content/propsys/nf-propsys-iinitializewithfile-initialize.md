@@ -12,6 +12,8 @@ ms.keywords: IInitializeWithFile interface [Windows Shell],Initialize method, II
 ms.topic: method
 f1_keywords: 
  - "propsys/IInitializeWithFile.Initialize"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement.GetUpdatedFlags"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

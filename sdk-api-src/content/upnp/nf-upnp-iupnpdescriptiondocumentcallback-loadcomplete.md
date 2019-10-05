@@ -12,6 +12,8 @@ ms.keywords: IUPnPDescriptionDocumentCallback interface [UPnP APIs],LoadComplete
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDescriptionDocumentCallback.LoadComplete"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

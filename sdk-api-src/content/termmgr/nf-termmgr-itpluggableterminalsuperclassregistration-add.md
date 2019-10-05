@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTermin
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.Add"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

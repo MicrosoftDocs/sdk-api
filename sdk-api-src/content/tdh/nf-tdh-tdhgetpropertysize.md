@@ -12,6 +12,8 @@ ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpr
 ms.topic: function
 f1_keywords:
 - tdh/TdhGetPropertySize
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

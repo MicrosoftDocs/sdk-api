@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_COORDINATE_BOUNDARY, DIRECTMANIPULATION_COORDINA
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_SNAPPOINT_COORDINATE"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

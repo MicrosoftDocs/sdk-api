@@ -12,6 +12,8 @@ ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7
 ms.topic: function
 f1_keywords: 
  - "recapis/DestroyRecognizer"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

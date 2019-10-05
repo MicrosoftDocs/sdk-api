@@ -12,6 +12,8 @@ ms.keywords: IInkCursorButton interface [Tablet PC],Name property, IInkCursorBut
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursorButton.Name"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

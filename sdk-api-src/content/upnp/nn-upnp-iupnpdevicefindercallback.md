@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPn
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPDeviceFinderCallback"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ComboBox_DeleteString, ComboBox_DeleteString macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_DeleteString"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

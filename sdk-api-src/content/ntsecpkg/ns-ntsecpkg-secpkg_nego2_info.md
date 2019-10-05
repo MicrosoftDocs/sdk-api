@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO struct
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_NEGO2_INFO"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

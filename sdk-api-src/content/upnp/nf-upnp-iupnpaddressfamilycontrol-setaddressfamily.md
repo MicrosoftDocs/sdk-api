@@ -12,6 +12,8 @@ ms.keywords: IUPnPAddressFamilyControl interface [UPnP APIs],SetAddressFamily me
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPAddressFamilyControl.SetAddressFamily"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

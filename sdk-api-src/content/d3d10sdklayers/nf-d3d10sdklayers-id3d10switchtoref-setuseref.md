@@ -12,6 +12,8 @@ ms.keywords: 7960e1b8-7255-59bd-3f8f-533b12811a49, ID3D10SwitchToRef interface [
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10SwitchToRef.SetUseRef"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

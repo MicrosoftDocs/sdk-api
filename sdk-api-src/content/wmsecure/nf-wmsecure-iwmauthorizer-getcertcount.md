@@ -12,6 +12,8 @@ ms.keywords: GetCertCount, GetCertCount method [windows Media Format], GetCertCo
 ms.topic: method
 f1_keywords: 
  - "wmsecure/IWMAuthorizer.GetCertCount"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

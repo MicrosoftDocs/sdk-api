@@ -12,6 +12,8 @@ ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergeta
 ms.topic: function
 f1_keywords: 
  - "powersetting/PowerGetActiveScheme"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

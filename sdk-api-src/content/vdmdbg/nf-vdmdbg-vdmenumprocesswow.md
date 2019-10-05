@@ -12,6 +12,8 @@ ms.keywords: VDMEnumProcessWOW, VDMEnumProcessWOW function [Windows API], vdmdbg
 ms.topic: function
 f1_keywords: 
  - "vdmdbg/VDMEnumProcessWOW"
+dev_langs:
+ - c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

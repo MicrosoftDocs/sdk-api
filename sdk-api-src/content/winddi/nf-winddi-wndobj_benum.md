@@ -12,6 +12,8 @@ ms.keywords: WNDOBJ_bEnum, WNDOBJ_bEnum function [Display Devices], display.wndo
 ms.topic: function
 f1_keywords:
 - winddi/WNDOBJ_bEnum
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

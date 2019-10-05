@@ -12,6 +12,8 @@ ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties],
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

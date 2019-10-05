@@ -12,6 +12,8 @@ ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getproc
 ms.topic: function
 f1_keywords:
 - winbase/GetProcessIoCounters
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

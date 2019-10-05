@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERAT
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

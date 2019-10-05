@@ -12,6 +12,8 @@ ms.keywords: WRITE_CACHE_TYPE, WRITE_CACHE_TYPE enumeration [Files], WriteCacheT
 ms.topic: enum
 f1_keywords:
 - winioctl/WRITE_CACHE_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

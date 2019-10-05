@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [windows Media Device Manager], Enable method
 ms.topic: method
 f1_keywords: 
  - "wmdmlog/IWMDMLogger.Enable"
+dev_langs:
+ - c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

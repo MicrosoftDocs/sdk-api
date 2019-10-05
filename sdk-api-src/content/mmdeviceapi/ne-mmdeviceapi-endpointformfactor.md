@@ -12,6 +12,8 @@ ms.keywords: DigitalAudioDisplayDevice, EndpointFormFactor, EndpointFormFactor ,
 ms.topic: enum
 f1_keywords: 
  - "mmdeviceapi/EndpointFormFactor"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

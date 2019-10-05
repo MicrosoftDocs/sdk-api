@@ -12,6 +12,8 @@ ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failov
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterGroupSetCloseEnum"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

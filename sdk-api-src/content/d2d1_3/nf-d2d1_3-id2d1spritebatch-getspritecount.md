@@ -12,6 +12,8 @@ ms.keywords: GetSpriteCount, GetSpriteCount method [Direct2D], GetSpriteCount me
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SpriteBatch.GetSpriteCount"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

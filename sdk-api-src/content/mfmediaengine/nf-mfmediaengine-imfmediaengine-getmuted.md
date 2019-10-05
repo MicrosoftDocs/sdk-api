@@ -12,6 +12,8 @@ ms.keywords: GetMuted, GetMuted method [Media Foundation], GetMuted method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetMuted"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

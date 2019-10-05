@@ -12,6 +12,8 @@ ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], vi
 ms.topic: function
 f1_keywords:
 - virtdisk/ResizeVirtualDisk
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

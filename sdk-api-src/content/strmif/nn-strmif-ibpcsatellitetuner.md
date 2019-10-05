@@ -12,6 +12,8 @@ ms.keywords: IBPCSatelliteTuner, IBPCSatelliteTuner interface [DirectShow], IBPC
 ms.topic: interface
 f1_keywords: 
  - "strmif/IBPCSatelliteTuner"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

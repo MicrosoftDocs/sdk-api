@@ -12,6 +12,8 @@ ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, Get
 ms.topic: method
 f1_keywords:
 - mfidl/IMFNetSchemeHandlerConfig.GetSupportedProtocolType
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

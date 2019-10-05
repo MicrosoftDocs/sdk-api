@@ -12,6 +12,8 @@ ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows 
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncRegistrationChange.GetEvent"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

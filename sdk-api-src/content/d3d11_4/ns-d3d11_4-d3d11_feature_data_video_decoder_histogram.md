@@ -5,6 +5,10 @@ description: Provides data for calls to ID3D11VideoDevice2::CheckFeatureSupport 
 ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
 ms.topic: language-reference
+f1_keywords:
+ - D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

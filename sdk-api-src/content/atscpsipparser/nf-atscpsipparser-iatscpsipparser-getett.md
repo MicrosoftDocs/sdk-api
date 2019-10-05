@@ -12,6 +12,8 @@ ms.keywords: GetETT, GetETT method [Microsoft TV Technologies], GetETT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetETT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

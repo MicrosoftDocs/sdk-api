@@ -12,6 +12,8 @@ ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCop
 ms.topic: function
 f1_keywords: 
  - "dmort/MoCopyMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

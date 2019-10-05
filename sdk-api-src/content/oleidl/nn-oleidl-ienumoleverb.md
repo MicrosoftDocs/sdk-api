@@ -12,6 +12,8 @@ ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface 
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IEnumOLEVERB"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Deserializer_Class_GetClassName, MI_Deserializer_Class_GetClassN
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Deserializer_Class_GetClassName"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

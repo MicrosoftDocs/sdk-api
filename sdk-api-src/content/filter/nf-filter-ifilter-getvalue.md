@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Inde
 ms.topic: method
 f1_keywords: 
  - "filter/IFilter.GetValue"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPNETTABLE, MIB_IPNETTABLE, MIB_IPNETTABLE structure [MIB], 
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPNETTABLE
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

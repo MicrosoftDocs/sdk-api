@@ -12,6 +12,8 @@ ms.keywords: FAIL_FAST_GENERATE_EXCEPTION_ADDRESS, RaiseFailFastException, Raise
 ms.topic: function
 f1_keywords:
 - errhandlingapi/RaiseFailFastException
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

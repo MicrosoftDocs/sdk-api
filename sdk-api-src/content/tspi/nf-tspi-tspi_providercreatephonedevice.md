@@ -12,6 +12,8 @@ ms.keywords: TSPI_providerCreatePhoneDevice, TSPI_providerCreatePhoneDevice func
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_providerCreatePhoneDevice"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

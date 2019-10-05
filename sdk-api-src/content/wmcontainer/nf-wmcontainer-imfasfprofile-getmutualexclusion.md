@@ -12,6 +12,8 @@ ms.keywords: 9b9e37fc-0bd8-4502-9e90-76330a08f68b, GetMutualExclusion, GetMutual
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.GetMutualExclusion"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

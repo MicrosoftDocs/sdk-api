@@ -12,6 +12,8 @@ ms.keywords: GetChannelMask, GetChannelMask method [Windows Imaging Component], 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPixelFormatInfo.GetChannelMask"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

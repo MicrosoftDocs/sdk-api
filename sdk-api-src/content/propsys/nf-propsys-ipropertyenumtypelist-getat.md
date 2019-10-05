@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Pro
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumTypeList.GetAt"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

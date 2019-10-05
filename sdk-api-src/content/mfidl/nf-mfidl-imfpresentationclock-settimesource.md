@@ -12,6 +12,8 @@ ms.keywords: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9, IMFPresentationClock interfac
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.SetTimeSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

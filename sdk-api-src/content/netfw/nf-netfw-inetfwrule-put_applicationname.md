@@ -12,6 +12,8 @@ ms.keywords: ApplicationName property [ICS/ICF], ApplicationName property [ICS/I
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.ApplicationName"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

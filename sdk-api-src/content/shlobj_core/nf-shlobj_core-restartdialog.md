@@ -12,6 +12,8 @@ ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, E
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/RestartDialog"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

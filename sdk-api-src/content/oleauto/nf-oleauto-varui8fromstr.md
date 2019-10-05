@@ -12,6 +12,8 @@ ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI8FromStr, VarUI8FromStr function [Autom
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarUI8FromStr"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

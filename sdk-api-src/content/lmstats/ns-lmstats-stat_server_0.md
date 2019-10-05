@@ -12,6 +12,8 @@ ms.keywords: "*LPSTAT_SERVER_0, *PSTAT_SERVER_0, LPSTAT_SERVER_0, LPSTAT_SERVER_
 ms.topic: struct
 f1_keywords: 
  - "lmstats/STAT_SERVER_0"
+dev_langs:
+ - c++
 req.header: lmstats.h
 req.include-header: Lm.h
 req.target-type: Windows

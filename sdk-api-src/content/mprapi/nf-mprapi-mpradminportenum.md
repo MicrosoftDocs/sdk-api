@@ -12,6 +12,8 @@ ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminpor
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminPortEnum
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

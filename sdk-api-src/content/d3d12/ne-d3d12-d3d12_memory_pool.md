@@ -12,6 +12,8 @@ ms.keywords: D3D12_MEMORY_POOL, D3D12_MEMORY_POOL enumeration, D3D12_MEMORY_POOL
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_MEMORY_POOL"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

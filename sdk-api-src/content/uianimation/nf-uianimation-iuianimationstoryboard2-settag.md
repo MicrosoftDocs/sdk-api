@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetTag method
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard2.SetTag"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.keywords: _MDNS_QUERY_REQUEST, MDNS_QUERY_REQUEST
 ms.topic: language-reference
 f1_keywords: 
  - "windns/_MDNS_QUERY_REQUEST"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure

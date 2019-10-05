@@ -12,6 +12,8 @@ ms.keywords: CM_Is_Version_Available_Ex, CM_Is_Version_Available_Ex function [De
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Is_Version_Available_Ex"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

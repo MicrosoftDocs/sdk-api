@@ -12,6 +12,8 @@ ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxStatus
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.Csid"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

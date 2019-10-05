@@ -12,6 +12,8 @@ ms.keywords: FlatSB_ShowScrollBar, FlatSB_ShowScrollBar function [Windows Contro
 ms.topic: function
 f1_keywords: 
  - "commctrl/FlatSB_ShowScrollBar"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

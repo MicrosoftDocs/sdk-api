@@ -12,6 +12,8 @@ ms.keywords: IContactCollection interface [Windows Contacts],Next method, IConta
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactCollection.Next"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

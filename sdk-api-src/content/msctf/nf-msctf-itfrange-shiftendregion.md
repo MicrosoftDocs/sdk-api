@@ -12,6 +12,8 @@ ms.keywords: ITfRange interface [Text Services Framework],ShiftEndRegion method,
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.ShiftEndRegion"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

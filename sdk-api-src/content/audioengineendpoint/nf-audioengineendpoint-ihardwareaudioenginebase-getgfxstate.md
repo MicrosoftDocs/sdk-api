@@ -12,6 +12,8 @@ ms.keywords: GetGfxState, GetGfxState method [Core Audio], GetGfxState method [C
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase.GetGfxState"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

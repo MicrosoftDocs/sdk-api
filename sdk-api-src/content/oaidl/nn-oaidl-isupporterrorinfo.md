@@ -12,6 +12,8 @@ ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interfa
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ISupportedErrorInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

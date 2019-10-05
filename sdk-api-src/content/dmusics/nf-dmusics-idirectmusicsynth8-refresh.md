@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirec
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth8.Refresh"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

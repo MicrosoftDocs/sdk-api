@@ -12,6 +12,8 @@ ms.keywords: GetBold, GetBold method [Windows Controls], GetBold method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetBold"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

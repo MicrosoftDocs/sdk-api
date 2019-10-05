@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_ACTIVATE_FN, PIBIO_STORAGE_ACTIVATE_FN callback, Stor
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterActivate
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

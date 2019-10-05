@@ -12,6 +12,8 @@ ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGest
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IGestureRecognizer"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

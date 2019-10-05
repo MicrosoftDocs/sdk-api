@@ -12,6 +12,8 @@ ms.keywords: AD_GETWP_BMP, AD_GETWP_IMAGE, AD_GETWP_LAST_APPLIED, GetWallpaper, 
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IActiveDesktop.GetWallpaper"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

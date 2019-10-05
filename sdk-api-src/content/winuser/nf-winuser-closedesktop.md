@@ -12,6 +12,8 @@ ms.keywords: CloseDesktop, CloseDesktop function [Windows Stations and Desktops]
 ms.topic: function
 f1_keywords: 
  - "winuser/CloseDesktop"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

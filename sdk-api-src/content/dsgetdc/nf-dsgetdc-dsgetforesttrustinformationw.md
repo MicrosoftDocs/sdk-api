@@ -12,6 +12,8 @@ ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustI
 ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetForestTrustInformationW
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

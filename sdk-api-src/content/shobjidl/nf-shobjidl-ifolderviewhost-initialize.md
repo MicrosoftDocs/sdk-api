@@ -12,6 +12,8 @@ ms.keywords: IFolderViewHost interface [Windows Shell],Initialize method, IFolde
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFolderViewHost.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

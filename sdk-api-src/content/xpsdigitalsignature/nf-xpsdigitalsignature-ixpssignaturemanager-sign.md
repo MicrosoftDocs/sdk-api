@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign m
 ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.Sign
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

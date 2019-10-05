@@ -12,6 +12,8 @@ ms.keywords: RpcExceptionFilter, RpcExceptionFilter function [RPC], STATUS_ACCES
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcExceptionFilter"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

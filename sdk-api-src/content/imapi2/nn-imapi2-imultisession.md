@@ -12,6 +12,8 @@ ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession inter
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IMultisession"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

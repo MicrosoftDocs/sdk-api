@@ -12,6 +12,8 @@ ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Re
 ms.topic: function
 f1_keywords:
 - wsman/WSManRunShellCommandEx
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

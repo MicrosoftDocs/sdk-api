@@ -12,6 +12,8 @@ ms.keywords: GetDIT, GetDIT method [Microsoft TV Technologies], GetDIT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetDIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

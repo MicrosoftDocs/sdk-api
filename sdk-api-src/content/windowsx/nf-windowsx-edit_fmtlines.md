@@ -12,6 +12,8 @@ ms.keywords: Edit_FmtLines, Edit_FmtLines macro [Windows Controls], _win32_Edit_
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_FmtLines"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

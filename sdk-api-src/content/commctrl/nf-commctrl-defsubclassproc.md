@@ -12,6 +12,8 @@ ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl
 ms.topic: function
 f1_keywords: 
  - "commctrl/DefSubclassProc"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

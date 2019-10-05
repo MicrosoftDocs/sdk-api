@@ -12,6 +12,8 @@ ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPoli
 ms.topic: interface
 f1_keywords: 
  - "casetup/ICertificateEnrollmentPolicyServerSetup"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

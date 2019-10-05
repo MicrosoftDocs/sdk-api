@@ -12,6 +12,8 @@ ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], 
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquire.CreatePhotoSource"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

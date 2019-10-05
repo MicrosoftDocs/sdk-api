@@ -12,6 +12,8 @@ ms.keywords: TAPI_EVENT, TAPI_EVENT enumeration [TAPI 2.2], TE_ACDGROUP, TE_ADDR
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TAPI_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FFFP_EXACTMATCH, FFFP_NEARESTPARENTMATCH, FindFolderFromPath, FindF
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.FindFolderFromPath
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

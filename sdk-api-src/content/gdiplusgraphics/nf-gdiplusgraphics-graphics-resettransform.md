@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],ResetTransform method, Graphics.ResetTransfor
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.ResetTransform"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInt32, GetInt32 method [Windows Shell], GetInt32 method [Windows
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem2.GetInt32
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

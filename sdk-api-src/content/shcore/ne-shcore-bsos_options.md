@@ -12,6 +12,8 @@ ms.keywords: BSOS_DEFAULT, BSOS_OPTIONS, BSOS_OPTIONS enumeration [Windows Runti
 ms.topic: enum
 f1_keywords: 
  - "shcore/BSOS_OPTIONS"
+dev_langs:
+ - c++
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows

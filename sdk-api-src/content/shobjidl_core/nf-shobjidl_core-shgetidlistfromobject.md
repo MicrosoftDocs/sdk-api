@@ -12,6 +12,8 @@ ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHGetIDListFromObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

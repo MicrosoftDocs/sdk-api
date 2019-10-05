@@ -12,6 +12,8 @@ ms.keywords: EvaluateModel, EvaluateModel method, EvaluateModel method,IWinMLRun
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLRuntime.EvaluateModel"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

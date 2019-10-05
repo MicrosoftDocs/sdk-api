@@ -12,6 +12,8 @@ ms.keywords: Description property [PLA], Description property [PLA],IValueMapIte
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMapItem.Description"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

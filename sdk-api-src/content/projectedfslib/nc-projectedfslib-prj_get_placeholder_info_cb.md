@@ -12,6 +12,8 @@ ms.keywords: PRJ_GET_PLACEHOLDER_INFO_CB, PRJ_GET_PLACEHOLDER_INFO_CB callback, 
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

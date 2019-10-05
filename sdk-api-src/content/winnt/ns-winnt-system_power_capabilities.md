@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_P
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_POWER_CAPABILITIES
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

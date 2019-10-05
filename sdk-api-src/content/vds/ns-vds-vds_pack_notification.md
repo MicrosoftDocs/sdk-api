@@ -12,6 +12,8 @@ ms.keywords: VDS_NF_PACK_ARRIVE, VDS_NF_PACK_DEPART, VDS_NF_PACK_MODIFY, VDS_PAC
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PACK_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

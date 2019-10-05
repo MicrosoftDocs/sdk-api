@@ -12,6 +12,8 @@ ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, Get
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetInputStreamAttributes"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

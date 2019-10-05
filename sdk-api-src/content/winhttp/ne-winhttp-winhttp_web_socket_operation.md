@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_WEB_SOCKET_CLOSE_OPERATION, WINHTTP_WEB_SOCKET_OPERATION, W
 ms.topic: enum
 f1_keywords:
 - winhttp/WINHTTP_WEB_SOCKET_OPERATION
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

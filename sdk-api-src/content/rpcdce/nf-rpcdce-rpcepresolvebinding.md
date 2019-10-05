@@ -12,6 +12,8 @@ ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcep
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcEpResolveBinding"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

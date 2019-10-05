@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKADDR, *PSOCKADDR, PSOCKADDR, PSOCKADDR structure pointer [N
 ms.topic: struct
 f1_keywords: 
  - "ws2def/SOCKADDR"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows

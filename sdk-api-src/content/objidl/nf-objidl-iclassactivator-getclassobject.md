@@ -12,6 +12,8 @@ ms.keywords: GetClassObject, GetClassObject method [COM], GetClassObject method 
 ms.topic: method
 f1_keywords: 
  - "objidl/IClassActivator.GetClassObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

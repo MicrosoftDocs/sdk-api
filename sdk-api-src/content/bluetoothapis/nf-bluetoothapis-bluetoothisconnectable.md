@@ -12,6 +12,8 @@ ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth]
 ms.topic: function
 f1_keywords: 
  - "bluetoothapis/BluetoothIsConnectable"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

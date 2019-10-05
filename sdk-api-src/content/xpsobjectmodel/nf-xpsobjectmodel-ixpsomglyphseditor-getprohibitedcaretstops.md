@@ -12,6 +12,8 @@ ms.keywords: GetProhibitedCaretStops, GetProhibitedCaretStops method [XPS Docume
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.GetProhibitedCaretStops"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

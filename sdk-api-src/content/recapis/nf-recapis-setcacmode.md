@@ -12,6 +12,8 @@ ms.keywords: 4f51e2e1-612a-484e-acba-6f3ae268082a, CAC_FULL, CAC_PREFIX, CAC_RAN
 ms.topic: function
 f1_keywords: 
  - "recapis/SetCACMode"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

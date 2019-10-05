@@ -12,6 +12,8 @@ ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirect
 ms.topic: method
 f1_keywords:
 - iads/IDirectorySearch.GetColumn
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

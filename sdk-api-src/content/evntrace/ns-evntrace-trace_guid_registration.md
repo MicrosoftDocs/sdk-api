@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REG
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_GUID_REGISTRATION"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

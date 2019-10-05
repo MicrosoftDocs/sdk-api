@@ -12,6 +12,8 @@ ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHand
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpAcquireCredentialsHandle
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

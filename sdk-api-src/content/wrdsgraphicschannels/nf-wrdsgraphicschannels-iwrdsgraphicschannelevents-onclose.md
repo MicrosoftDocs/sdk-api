@@ -12,6 +12,8 @@ ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnCl
 ms.topic: method
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnClose"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

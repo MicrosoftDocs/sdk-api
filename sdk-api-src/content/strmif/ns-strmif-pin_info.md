@@ -12,6 +12,8 @@ ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, dshow
 ms.topic: struct
 f1_keywords: 
  - "strmif/PIN_INFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_Caption method, IVideoWindo
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_Caption"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

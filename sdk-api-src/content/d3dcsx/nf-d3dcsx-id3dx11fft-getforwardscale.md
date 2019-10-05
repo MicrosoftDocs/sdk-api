@@ -12,6 +12,8 @@ ms.keywords: GetForwardScale, GetForwardScale method [Direct3D 11], GetForwardSc
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11FFT.GetForwardScale"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

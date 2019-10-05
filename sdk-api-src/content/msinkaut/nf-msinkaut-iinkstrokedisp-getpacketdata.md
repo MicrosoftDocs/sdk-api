@@ -12,6 +12,8 @@ ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData, GetPacketData 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.GetPacketData"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

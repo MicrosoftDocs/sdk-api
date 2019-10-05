@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_QUERY_RM_INFORMATION, FSCTL_TXFS_QUERY_RM_INFORMATION co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display 
 ms.topic: struct
 f1_keywords:
 - dmemmgr/HEAPALIGNMENT
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows

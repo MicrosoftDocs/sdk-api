@@ -12,6 +12,8 @@ ms.keywords: PROPERTYKEY, PROPERTYKEY structure [Windows Properties], _shell_PRO
 ms.topic: struct
 f1_keywords:
 - wtypes/PROPERTYKEY
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

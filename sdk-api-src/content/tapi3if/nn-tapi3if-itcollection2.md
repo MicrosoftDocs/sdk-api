@@ -12,6 +12,8 @@ ms.keywords: ITCollection2, ITCollection2 interface [TAPI 2.2], ITCollection2 in
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITCollection2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

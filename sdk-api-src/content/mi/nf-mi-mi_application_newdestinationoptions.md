@@ -12,6 +12,8 @@ ms.keywords: MI_Application_NewDestinationOptions, MI_Application_NewDestination
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewDestinationOptions
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

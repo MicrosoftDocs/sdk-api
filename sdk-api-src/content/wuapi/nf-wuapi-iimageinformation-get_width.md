@@ -12,6 +12,8 @@ ms.keywords: IImageInformation interface [Windows Update Agent],Width property, 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IImageInformation.Width"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Process32First"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdico
 ms.topic: function
 f1_keywords: 
  - "fdi/FDICopy"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX, P
 ms.topic: struct
 f1_keywords:
 - psapi/PSAPI_WS_WATCH_INFORMATION_EX
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

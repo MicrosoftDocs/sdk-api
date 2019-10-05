@@ -12,6 +12,8 @@ ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunction
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceQuery"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

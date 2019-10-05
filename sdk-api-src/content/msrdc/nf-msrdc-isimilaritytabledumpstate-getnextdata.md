@@ -12,6 +12,8 @@ ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], 
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTableDumpState.GetNextData"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

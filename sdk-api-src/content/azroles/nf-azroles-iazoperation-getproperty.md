@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzOperation.GetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

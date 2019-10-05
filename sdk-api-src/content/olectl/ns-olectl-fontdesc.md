@@ -12,6 +12,8 @@ ms.keywords: "*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFON
 ms.topic: struct
 f1_keywords: 
  - "olectl/FONTDESC"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

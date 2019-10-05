@@ -12,6 +12,8 @@ ms.keywords: "*LPNETINFOSTRUCT, ERROR_BUSY, ERROR_NO_NETWORK, LPNETINFOSTRUCT, L
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/NETINFOSTRUCT"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

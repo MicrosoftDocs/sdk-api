@@ -12,6 +12,8 @@ ms.keywords: FSCTL_MAKE_MEDIA_COMPATIBLE, FSCTL_MAKE_MEDIA_COMPATIBLE control, F
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

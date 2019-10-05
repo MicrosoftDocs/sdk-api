@@ -12,6 +12,8 @@ ms.keywords: CanResize property [Windows Accessibility], CanResize property [Win
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITransformProvider.CanResize"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

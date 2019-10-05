@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATED
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETDRIVERSTATEDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h D3dhal.h, D3dtypes.h
 req.target-type: Windows

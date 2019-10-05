@@ -12,6 +12,8 @@ ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NE
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationGetEnterpriseIdAsync"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

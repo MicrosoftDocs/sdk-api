@@ -12,6 +12,8 @@ ms.keywords: ColorMatrixEffect class [GDI+],GetParameters method, ColorMatrixEff
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorMatrixEffect.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PANOSE_SCRIPT_TOPOLOGY, DWRITE_PANOSE_SCRIPT_TOPOLOGY enumer
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

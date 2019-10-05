@@ -12,6 +12,8 @@ ms.keywords: 088c440d-f2c4-82ed-059a-f3ef98a485c6, GetType, GetType method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionVariable.GetType"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

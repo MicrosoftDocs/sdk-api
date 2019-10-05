@@ -12,6 +12,8 @@ ms.keywords: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490, EraserWidth property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.EraserWidth"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

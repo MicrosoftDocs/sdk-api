@@ -12,6 +12,8 @@ ms.keywords: RESOURCE_MONITOR_STATE, RESOURCE_MONITOR_STATE enumeration [Failove
 ms.topic: enum
 f1_keywords: 
  - "resapi/RESOURCE_MONITOR_STATE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

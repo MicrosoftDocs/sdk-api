@@ -12,6 +12,8 @@ ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideo
 ms.topic: method
 f1_keywords: 
  - "strmif/IDrawVideoImage.DrawVideoImageEnd"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

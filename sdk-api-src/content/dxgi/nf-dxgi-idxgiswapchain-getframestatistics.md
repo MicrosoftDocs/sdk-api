@@ -12,6 +12,8 @@ ms.keywords: GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStati
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.GetFrameStatistics"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

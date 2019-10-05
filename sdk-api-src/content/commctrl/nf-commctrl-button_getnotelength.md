@@ -12,6 +12,8 @@ ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_GetNoteLength"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

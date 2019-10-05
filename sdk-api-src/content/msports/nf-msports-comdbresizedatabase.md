@@ -12,6 +12,8 @@ ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], c
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBResizeDatabase"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

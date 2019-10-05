@@ -12,6 +12,8 @@ ms.keywords: IObjectContextInfo interface [COM+],IsInTransaction method, IObject
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContextInfo.IsInTransaction"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architectur
 ms.topic: macro
 f1_keywords: 
  - "winnt/FIELD_OFFSET"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Ntdef.h, Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Desktop

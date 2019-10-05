@@ -12,6 +12,8 @@ ms.keywords: DeleteInterface, DeleteInterface callback function [RAS], PDELETE_I
 ms.topic: callback
 f1_keywords: 
  - "routprot/DeleteInterface"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

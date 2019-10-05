@@ -12,6 +12,8 @@ ms.keywords: ID2D1Bitmap1 interface [Direct2D],Map method, ID2D1Bitmap1.Map, ID2
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Bitmap1.Map"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

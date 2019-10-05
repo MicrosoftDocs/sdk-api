@@ -12,6 +12,8 @@ ms.keywords: FwpmLayerGetByKey0, FwpmLayerGetByKey0 function [Filtering], fwp.fw
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmLayerGetByKey0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

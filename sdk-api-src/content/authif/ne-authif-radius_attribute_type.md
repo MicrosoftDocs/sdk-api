@@ -12,6 +12,8 @@ ms.keywords: RADIUS_ATTRIBUTE_TYPE, RADIUS_ATTRIBUTE_TYPE enumeration [Network P
 ms.topic: enum
 f1_keywords:
 - authif/RADIUS_ATTRIBUTE_TYPE
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

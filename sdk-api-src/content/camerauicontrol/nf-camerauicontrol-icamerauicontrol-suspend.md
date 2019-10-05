@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControl interface [Windows API],Suspend method, ICameraUIC
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.Suspend"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

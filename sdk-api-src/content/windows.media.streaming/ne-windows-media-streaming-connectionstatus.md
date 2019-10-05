@@ -12,6 +12,8 @@ ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API
 ms.topic: enum
 f1_keywords: 
  - "windows.media.streaming/ConnectionStatus"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

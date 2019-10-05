@@ -12,6 +12,8 @@ ms.keywords: SpatialAudioHrtfDirectivityType, SpatialAudioHrtfDirectivityType en
 ms.topic: enum
 f1_keywords: 
  - "spatialaudiohrtf/SpatialAudioHrtfDirectivityType"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

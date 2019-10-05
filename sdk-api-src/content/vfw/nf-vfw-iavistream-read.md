@@ -12,6 +12,8 @@ ms.keywords: IAVIStream interface [Windows Multimedia],Read method, IAVIStream.R
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStream.Read"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

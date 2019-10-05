@@ -12,6 +12,8 @@ ms.keywords: GetPackagePathByFullName, GetPackagePathByFullName function [App pa
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackagePathByFullName"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

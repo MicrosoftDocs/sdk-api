@@ -12,6 +12,8 @@ ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interfac
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.Pause"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

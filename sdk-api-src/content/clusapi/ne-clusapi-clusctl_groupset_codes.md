@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_GROUPSET_CODES, CLUSCTL_GROUPSET_CODES enumeration [Failove
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_GROUPSET_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: Clusapi.h
 req.target-type: Windows

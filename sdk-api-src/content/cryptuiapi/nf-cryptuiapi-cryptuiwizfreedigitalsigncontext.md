@@ -12,6 +12,8 @@ ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext 
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CryptUIWizFreeDigitalSignContext"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

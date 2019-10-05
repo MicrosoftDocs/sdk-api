@@ -12,6 +12,8 @@ ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fn
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIREAD"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

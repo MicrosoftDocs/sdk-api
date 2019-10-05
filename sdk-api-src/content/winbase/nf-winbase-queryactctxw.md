@@ -12,6 +12,8 @@ ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInforma
 ms.topic: function
 f1_keywords:
 - winbase/QueryActCtxW
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

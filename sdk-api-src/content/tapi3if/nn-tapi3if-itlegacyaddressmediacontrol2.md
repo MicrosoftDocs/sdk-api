@@ -12,6 +12,8 @@ ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITLegacyAddressMediaControl2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

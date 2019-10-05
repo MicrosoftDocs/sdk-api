@@ -12,6 +12,8 @@ ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlEscape"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

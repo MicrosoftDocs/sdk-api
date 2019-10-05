@@ -12,6 +12,8 @@ ms.keywords: VariantToUInt64Array, VariantToUInt64Array function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToUInt64Array"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

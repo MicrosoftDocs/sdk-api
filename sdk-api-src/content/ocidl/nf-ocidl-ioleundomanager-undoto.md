@@ -12,6 +12,8 @@ ms.keywords: IOleUndoManager interface [COM],UndoTo method, IOleUndoManager.Undo
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.UndoTo"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

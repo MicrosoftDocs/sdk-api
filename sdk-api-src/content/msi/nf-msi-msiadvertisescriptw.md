@@ -12,6 +12,8 @@ ms.keywords: MsiAdvertiseScript, MsiAdvertiseScript function, MsiAdvertiseScript
 ms.topic: function
 f1_keywords: 
  - "msi/MsiAdvertiseScript"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

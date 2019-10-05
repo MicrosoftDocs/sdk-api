@@ -12,6 +12,8 @@ ms.keywords: 42e16e86-fc90-4089-9ae0-9a896cbeaccc, IInkLineInfo interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.SetFormat"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

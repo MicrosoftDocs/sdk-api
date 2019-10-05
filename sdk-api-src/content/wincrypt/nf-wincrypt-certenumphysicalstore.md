@@ -12,6 +12,8 @@ ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _
 ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumPhysicalStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

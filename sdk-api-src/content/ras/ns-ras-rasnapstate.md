@@ -12,6 +12,8 @@ ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RA
 ms.topic: struct
 f1_keywords: 
  - "ras/RASNAPSTATE"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

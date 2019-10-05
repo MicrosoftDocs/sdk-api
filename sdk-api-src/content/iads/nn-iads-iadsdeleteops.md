@@ -12,6 +12,8 @@ ms.keywords: IADsDeleteOps, IADsDeleteOps interface [ADSI], IADsDeleteOps interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsDeleteOps"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

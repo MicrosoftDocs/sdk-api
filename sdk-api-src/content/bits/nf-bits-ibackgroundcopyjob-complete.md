@@ -12,6 +12,8 @@ ms.keywords: Complete, Complete method [BITS], Complete method [BITS],IBackgroun
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.Complete
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

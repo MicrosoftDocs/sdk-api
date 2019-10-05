@@ -12,6 +12,8 @@ ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFil
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiFileItem2.get_FsiNamedStreams"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

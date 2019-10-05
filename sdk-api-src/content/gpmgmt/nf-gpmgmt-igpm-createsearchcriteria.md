@@ -12,6 +12,8 @@ ms.keywords: CreateSearchCriteria, CreateSearchCriteria method [GPMC], CreateSea
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.CreateSearchCriteria"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

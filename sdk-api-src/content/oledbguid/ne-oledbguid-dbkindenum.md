@@ -12,6 +12,8 @@ ms.keywords: DBKINDENUM, DBKINDENUM enumeration [Indexing Service], DBKIND_GUID,
 ms.topic: enum
 f1_keywords: 
  - "oledbguid/DBKINDENUM"
+dev_langs:
+ - c++
 req.header: oledbguid.h
 req.include-header: 
 req.target-type: Windows

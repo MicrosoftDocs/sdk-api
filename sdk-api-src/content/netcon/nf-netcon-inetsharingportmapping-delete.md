@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetSharin
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMapping.Delete"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

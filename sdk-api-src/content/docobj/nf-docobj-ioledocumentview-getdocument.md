@@ -12,6 +12,8 @@ ms.keywords: GetDocument, GetDocument method [COM], GetDocument method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.GetDocument"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

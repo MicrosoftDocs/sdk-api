@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDP
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_PNRP_ENDPOINT_INFO"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

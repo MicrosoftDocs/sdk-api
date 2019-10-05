@@ -12,6 +12,8 @@ ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "tuner/ILanguageComponentType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

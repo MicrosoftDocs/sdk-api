@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDi
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawMediaStream.SetFormat"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

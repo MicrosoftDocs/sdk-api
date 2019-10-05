@@ -12,6 +12,8 @@ ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstall
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSetInstallLevel"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

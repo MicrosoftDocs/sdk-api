@@ -12,6 +12,8 @@ ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumera
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_AUDIO_LANG_EXT"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

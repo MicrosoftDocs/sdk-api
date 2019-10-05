@@ -12,6 +12,8 @@ ms.keywords: 113b3dc7-918e-427e-aa70-cf474b951c6d, IMFMediaSource interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSource.Pause"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

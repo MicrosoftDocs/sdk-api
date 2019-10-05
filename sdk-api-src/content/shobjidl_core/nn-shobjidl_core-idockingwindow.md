@@ -12,6 +12,8 @@ ms.keywords: IDockingWindow, IDockingWindow interface [Windows Shell], IDockingW
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IDockingWindow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

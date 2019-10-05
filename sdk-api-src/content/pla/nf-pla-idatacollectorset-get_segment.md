@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],Segment property, IDataCollectorS
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.Segment"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

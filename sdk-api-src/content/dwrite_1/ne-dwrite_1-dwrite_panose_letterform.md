@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PANOSE_LETTERFORM, DWRITE_PANOSE_LETTERFORM enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_PANOSE_LETTERFORM"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

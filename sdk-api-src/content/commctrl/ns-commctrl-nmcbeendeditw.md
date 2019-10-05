@@ -12,6 +12,8 @@ ms.keywords: '*LPNMCBEENDEDITW, *PNMCBEENDEDITW, CBENF_DROPDOWN, CBENF_ESCAPE, C
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCBEENDEDIT
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

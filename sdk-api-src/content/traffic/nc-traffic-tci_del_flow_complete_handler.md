@@ -12,6 +12,8 @@ ms.keywords: ClDeleteFlowComplete, ClDeleteFlowComplete callback, ClDeleteFlowCo
 ms.topic: callback
 f1_keywords: 
  - "traffic/TCI_DEL_FLOW_COMPLETE_HANDLER"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

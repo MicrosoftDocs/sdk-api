@@ -12,6 +12,8 @@ ms.keywords: AppPolicyThreadInitializationType, AppPolicyThreadInitializationTyp
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyThreadInitializationType"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

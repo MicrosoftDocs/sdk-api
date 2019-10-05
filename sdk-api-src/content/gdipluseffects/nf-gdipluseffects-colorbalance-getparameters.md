@@ -12,6 +12,8 @@ ms.keywords: ColorBalance class [GDI+],GetParameters method, ColorBalance.GetPar
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/ColorBalance.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_CAP_STYLE, D2D1_CAP_STYLE enumeration [Direct2D], D2D1_CAP_STY
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_CAP_STYLE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

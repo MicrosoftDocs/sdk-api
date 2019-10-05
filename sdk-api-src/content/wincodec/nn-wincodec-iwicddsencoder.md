@@ -12,6 +12,8 @@ ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICDdsEncoder"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

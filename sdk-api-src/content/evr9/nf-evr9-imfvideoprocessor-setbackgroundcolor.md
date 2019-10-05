@@ -12,6 +12,8 @@ ms.keywords: IMFVideoProcessor interface [Media Foundation],SetBackgroundColor m
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoProcessor.SetBackgroundColor"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

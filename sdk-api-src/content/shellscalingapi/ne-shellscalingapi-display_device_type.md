@@ -12,6 +12,8 @@ ms.keywords: DEVICE_IMMERSIVE, DEVICE_PRIMARY, DISPLAY_DEVICE_TYPE, DISPLAY_DEVI
 ms.topic: enum
 f1_keywords: 
  - "shellscalingapi/DISPLAY_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

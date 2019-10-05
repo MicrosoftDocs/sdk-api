@@ -12,6 +12,8 @@ ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAle
 ms.topic: method
 f1_keywords: 
  - "pla/IAlertDataCollector.AlertThresholds"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphic
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawImage"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

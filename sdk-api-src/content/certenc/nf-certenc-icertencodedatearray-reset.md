@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeDateArray object [Security],Reset method, ICertEncodeDat
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeDateArray.Reset"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidate
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpValidateTargetInfoFn
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

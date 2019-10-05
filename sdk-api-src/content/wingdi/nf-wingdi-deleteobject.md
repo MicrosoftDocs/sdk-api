@@ -12,6 +12,8 @@ ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _
 ms.topic: function
 f1_keywords: 
  - "wingdi/DeleteObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

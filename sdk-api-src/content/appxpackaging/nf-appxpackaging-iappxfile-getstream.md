@@ -12,6 +12,8 @@ ms.keywords: GetStream, GetStream method [App packaging and management], GetStre
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFile.GetStream"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

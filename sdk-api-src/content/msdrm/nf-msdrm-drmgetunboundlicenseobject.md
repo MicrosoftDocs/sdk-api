@@ -12,6 +12,8 @@ ms.keywords: DRMGetUnboundLicenseObject, DRMGetUnboundLicenseObject function [Ac
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetUnboundLicenseObject"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

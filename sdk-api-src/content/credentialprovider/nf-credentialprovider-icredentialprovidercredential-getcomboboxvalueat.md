@@ -12,6 +12,8 @@ ms.keywords: GetComboBoxValueAt, GetComboBoxValueAt method [Windows Shell], GetC
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredential.GetComboBoxValueAt"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

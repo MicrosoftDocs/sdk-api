@@ -12,6 +12,8 @@ ms.keywords: "*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPE
 ms.topic: struct
 f1_keywords: 
  - "mmreg/MPEG1WAVEFORMAT"
+dev_langs:
+ - c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows

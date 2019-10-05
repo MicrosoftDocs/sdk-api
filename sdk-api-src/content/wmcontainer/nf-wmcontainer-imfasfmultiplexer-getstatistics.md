@@ -12,6 +12,8 @@ ms.keywords: 56083ceb-3d39-4fda-995a-f91fa0e16853, GetStatistics, GetStatistics 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.GetStatistics"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

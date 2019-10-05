@@ -12,6 +12,8 @@ ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax 
 ms.topic: function
 f1_keywords: 
  - "faxext/FaxExtUnregisterForEvents"
+dev_langs:
+ - c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

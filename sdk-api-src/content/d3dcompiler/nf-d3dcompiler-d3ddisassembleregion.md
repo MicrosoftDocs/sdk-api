@@ -12,6 +12,8 @@ ms.keywords: D3DDisassembleRegion, D3DDisassembleRegion function [HLSL], d3dcomp
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DDisassembleRegion"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

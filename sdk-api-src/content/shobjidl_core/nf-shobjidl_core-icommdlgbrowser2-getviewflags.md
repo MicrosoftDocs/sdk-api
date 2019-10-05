@@ -12,6 +12,8 @@ ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CD
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser2.GetViewFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

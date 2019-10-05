@@ -12,6 +12,8 @@ ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayT
 ms.topic: interface
 f1_keywords: 
  - "mfsharingengine/IPlayToControl"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

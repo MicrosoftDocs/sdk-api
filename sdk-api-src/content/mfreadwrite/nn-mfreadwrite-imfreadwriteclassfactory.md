@@ -12,6 +12,8 @@ ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media
 ms.topic: interface
 f1_keywords: 
  - "mfreadwrite/IMFReadWriteClassFactory"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

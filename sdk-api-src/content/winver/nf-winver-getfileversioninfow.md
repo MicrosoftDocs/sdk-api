@@ -12,6 +12,8 @@ ms.keywords: GetFileVersionInfo, GetFileVersionInfo function [Menus and Other Re
 ms.topic: function
 f1_keywords: 
  - "winver/GetFileVersionInfo"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

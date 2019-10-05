@@ -12,6 +12,8 @@ ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509Attribute"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHi
 ms.topic: function
 f1_keywords: 
  - "winnt/MultiplyHigh"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

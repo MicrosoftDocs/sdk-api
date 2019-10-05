@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entr
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_next_entry"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

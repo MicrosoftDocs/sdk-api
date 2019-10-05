@@ -12,6 +12,8 @@ ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventCla
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectChange.ChangedEventClass"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

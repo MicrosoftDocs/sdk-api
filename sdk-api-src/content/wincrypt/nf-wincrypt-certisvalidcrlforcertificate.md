@@ -12,6 +12,8 @@ ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertIsValidCRLForCertificate"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

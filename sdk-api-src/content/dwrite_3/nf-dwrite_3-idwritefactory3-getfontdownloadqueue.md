@@ -12,6 +12,8 @@ ms.keywords: GetFontDownloadQueue, GetFontDownloadQueue method [Direct Write], G
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory3.GetFontDownloadQueue"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RESIZE_VIRTUAL_DISK_FLAG, RESIZE_VIRTUAL_DISK_FLAG enumeration [Vir
 ms.topic: enum
 f1_keywords:
 - virtdisk/RESIZE_VIRTUAL_DISK_FLAG
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

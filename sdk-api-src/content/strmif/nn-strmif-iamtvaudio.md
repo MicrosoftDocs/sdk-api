@@ -12,6 +12,8 @@ ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], IAMTVAudio interface
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMTVAudio"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

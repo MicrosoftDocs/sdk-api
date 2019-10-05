@@ -12,6 +12,8 @@ ms.keywords: AM_MPEG2Profile, AM_MPEG2Profile enumeration [DirectShow], AM_MPEG2
 ms.topic: enum
 f1_keywords: 
  - "dvdmedia/AM_MPEG2Profile"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

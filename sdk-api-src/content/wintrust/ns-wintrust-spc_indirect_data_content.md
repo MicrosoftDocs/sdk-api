@@ -12,6 +12,8 @@ ms.keywords: '*PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT, PSPC_INDI
 ms.topic: struct
 f1_keywords:
 - wintrust/SPC_INDIRECT_DATA_CONTENT
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

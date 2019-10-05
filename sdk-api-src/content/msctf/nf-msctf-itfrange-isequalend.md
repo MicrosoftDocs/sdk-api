@@ -12,6 +12,8 @@ ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITf
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.IsEqualEnd"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComActivityEvents interface [COM+],OnActivityLeaveSame method, ICo
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComActivityEvents.OnActivityLeaveSame"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

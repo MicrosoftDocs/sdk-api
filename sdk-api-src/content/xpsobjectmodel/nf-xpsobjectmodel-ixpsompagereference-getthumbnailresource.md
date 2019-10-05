@@ -12,6 +12,8 @@ ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents an
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

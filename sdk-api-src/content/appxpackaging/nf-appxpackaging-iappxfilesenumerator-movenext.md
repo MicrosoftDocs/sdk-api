@@ -12,6 +12,8 @@ ms.keywords: IAppxFilesEnumerator interface [App packaging and management],MoveN
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFilesEnumerator.MoveNext"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

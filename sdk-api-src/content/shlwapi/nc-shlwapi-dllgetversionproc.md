@@ -12,6 +12,8 @@ ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGe
 ms.topic: callback
 f1_keywords:
 - shlwapi/DllGetVersion
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

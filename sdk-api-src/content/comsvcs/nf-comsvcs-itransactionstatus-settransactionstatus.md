@@ -12,6 +12,8 @@ ms.keywords: ITransactionStatus interface [COM+],SetTransactionStatus method, IT
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionStatus.SetTransactionStatus"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_TIME, FAX_TIME, FAX_TIME structure [Fax Service], FAX_TIMEA,
 ms.topic: struct
 f1_keywords:
 - winfax/FAX_TIME
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

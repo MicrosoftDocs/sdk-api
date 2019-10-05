@@ -12,6 +12,8 @@ ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatp
 ms.topic: function
 f1_keywords:
 - tdh/TdhFormatProperty
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST
 ms.topic: function
 f1_keywords:
 - http/HttpReceiveHttpRequest
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

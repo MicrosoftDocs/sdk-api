@@ -12,6 +12,8 @@ ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans m
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetEnforcementBans"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],Rel
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileMgr.ReleaseInputProcessor"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

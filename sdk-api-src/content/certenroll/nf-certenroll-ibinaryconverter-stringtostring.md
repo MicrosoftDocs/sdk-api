@@ -12,6 +12,8 @@ ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinar
 ms.topic: method
 f1_keywords: 
  - "certenroll/IBinaryConverter.StringToString"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

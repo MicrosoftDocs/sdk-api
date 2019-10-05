@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_PAD_PKCS1_FLAG, NCRYPT_PAD_PSS_FLAG, NCRYPT_SILENT_FLAG, NCr
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptVerifySignature
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

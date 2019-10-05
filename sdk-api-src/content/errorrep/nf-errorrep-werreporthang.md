@@ -12,6 +12,8 @@ ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], er
 ms.topic: function
 f1_keywords: 
  - "errorrep/WerReportHang"
+dev_langs:
+ - c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

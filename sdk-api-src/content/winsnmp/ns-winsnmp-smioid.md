@@ -12,6 +12,8 @@ ms.keywords: "*smiLPOID, _snmp_smioid_str, smiLPOID, smiLPOID structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "winsnmp/smiOID"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

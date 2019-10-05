@@ -12,6 +12,8 @@ ms.keywords: GetFrameCount, GetFrameCount method [GDI+], GetFrameCount method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetFrameCount"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

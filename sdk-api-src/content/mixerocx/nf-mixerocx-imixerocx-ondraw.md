@@ -12,6 +12,8 @@ ms.keywords: IMixerOCX interface [DirectShow],OnDraw method, IMixerOCX.OnDraw, I
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.OnDraw"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

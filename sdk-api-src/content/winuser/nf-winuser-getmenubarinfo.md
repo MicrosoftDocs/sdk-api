@@ -12,6 +12,8 @@ ms.keywords: GetMenuBarInfo, GetMenuBarInfo function [Menus and Other Resources]
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuBarInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

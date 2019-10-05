@@ -12,6 +12,8 @@ ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController fu
 ms.topic: function
 f1_keywords: 
  - "dispatcherqueue/CreateDispatcherQueueController"
+dev_langs:
+ - c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

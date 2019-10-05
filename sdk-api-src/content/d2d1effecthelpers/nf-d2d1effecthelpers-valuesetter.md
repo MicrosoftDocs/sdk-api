@@ -12,6 +12,8 @@ ms.keywords: ValueSetter, ValueSetter function [Direct2D], d2d1effecthelpers/Val
 ms.topic: function
 f1_keywords: 
  - "d2d1effecthelpers/ValueSetter"
+dev_langs:
+ - c++
 req.header: d2d1effecthelpers.h
 req.include-header: 
 req.target-type: Windows

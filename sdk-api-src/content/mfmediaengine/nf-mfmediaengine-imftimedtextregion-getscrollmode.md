@@ -12,6 +12,8 @@ ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMo
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetScrollMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

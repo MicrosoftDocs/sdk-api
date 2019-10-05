@@ -12,6 +12,8 @@ ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsContainer"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

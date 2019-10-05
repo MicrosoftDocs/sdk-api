@@ -12,6 +12,8 @@ ms.keywords: RmRestart, RmRestart function [Restart Mgr], restartmanager/RmResta
 ms.topic: function
 f1_keywords:
 - restartmanager/RmRestart
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

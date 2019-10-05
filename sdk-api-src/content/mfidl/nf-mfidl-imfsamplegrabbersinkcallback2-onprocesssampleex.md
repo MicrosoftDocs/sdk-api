@@ -12,6 +12,8 @@ ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProces
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleGrabberSinkCallback2.OnProcessSampleEx"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

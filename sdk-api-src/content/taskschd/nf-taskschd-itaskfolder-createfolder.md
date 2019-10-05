@@ -12,6 +12,8 @@ ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder me
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskFolder.CreateFolder"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

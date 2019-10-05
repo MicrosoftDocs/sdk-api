@@ -12,6 +12,8 @@ ms.keywords: 0, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURC
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetOpenEnum"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

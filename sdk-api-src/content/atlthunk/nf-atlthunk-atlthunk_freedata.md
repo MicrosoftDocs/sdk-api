@@ -12,6 +12,8 @@ ms.keywords: AtlThunk_FreeData, AtlThunk_FreeData function, atlthunk/AtlThunk_Fr
 ms.topic: function
 f1_keywords: 
  - "atlthunk/AtlThunk_FreeData"
+dev_langs:
+ - c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA, BATTERY_WMI_ST
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_STATIC_DATA"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

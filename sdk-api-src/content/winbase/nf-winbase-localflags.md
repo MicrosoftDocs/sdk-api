@@ -12,6 +12,8 @@ ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalFlags"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

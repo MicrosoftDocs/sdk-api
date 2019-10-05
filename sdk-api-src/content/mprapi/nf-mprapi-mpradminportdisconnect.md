@@ -12,6 +12,8 @@ ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminPortDisconnect"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

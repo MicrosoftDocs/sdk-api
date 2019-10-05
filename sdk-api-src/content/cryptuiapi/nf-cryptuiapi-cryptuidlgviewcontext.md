@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_
 ms.topic: function
 f1_keywords: 
  - "cryptuiapi/CryptUIDlgViewContext"
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

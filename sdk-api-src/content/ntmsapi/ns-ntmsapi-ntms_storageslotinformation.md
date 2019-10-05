@@ -12,6 +12,8 @@ ms.keywords: NTMS_SLOTSTATE_EMPTY, NTMS_SLOTSTATE_FULL, NTMS_SLOTSTATE_NEEDSINVE
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_STORAGEINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVssCreateWriterMetadata interface [VSS],SetRestoreMethod method, I
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateWriterMetadata.SetRestoreMethod"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

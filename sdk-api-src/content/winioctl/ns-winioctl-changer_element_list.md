@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_ELEMENT_LIST
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

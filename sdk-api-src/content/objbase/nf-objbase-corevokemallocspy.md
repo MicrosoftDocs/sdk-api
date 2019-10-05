@@ -12,6 +12,8 @@ ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeM
 ms.topic: function
 f1_keywords: 
  - "objbase/CoRevokeMallocSpy"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

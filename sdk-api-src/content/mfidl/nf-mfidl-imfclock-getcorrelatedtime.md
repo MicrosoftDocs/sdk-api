@@ -12,6 +12,8 @@ ms.keywords: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b, GetCorrelatedTime, GetCorrela
 ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetCorrelatedTime
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

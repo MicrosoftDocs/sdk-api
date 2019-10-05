@@ -12,6 +12,8 @@ ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_C
 ms.topic: struct
 f1_keywords: 
  - "vsbackup/VSS_COMPONENTINFO"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

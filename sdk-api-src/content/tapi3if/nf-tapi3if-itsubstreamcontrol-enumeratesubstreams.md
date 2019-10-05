@@ -12,6 +12,8 @@ ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], Enumera
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITSubStreamControl.EnumerateSubStreams"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

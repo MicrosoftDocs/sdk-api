@@ -12,6 +12,8 @@ ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], 
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcStubBuffer.DebugServerQueryInterface"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

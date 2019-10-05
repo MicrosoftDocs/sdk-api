@@ -12,6 +12,8 @@ ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, 
 ms.topic: function
 f1_keywords: 
  - "wct/CloseThreadWaitChainSession"
+dev_langs:
+ - c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

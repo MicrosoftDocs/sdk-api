@@ -12,6 +12,8 @@ ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retriev
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.Retrieve"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

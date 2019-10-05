@@ -12,6 +12,8 @@ ms.keywords: D3D11_COPY_DISCARD, D3D11_COPY_FLAGS, D3D11_COPY_FLAGS enumeration 
 ms.topic: enum
 f1_keywords: 
  - "d3d11_1/D3D11_COPY_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

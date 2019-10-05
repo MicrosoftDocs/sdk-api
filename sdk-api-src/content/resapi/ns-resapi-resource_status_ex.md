@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_STATUS_EX, CLUSRESDLL_STATUS_INSUFFICIENT_MEMORY, CLUSR
 ms.topic: struct
 f1_keywords: 
  - "resapi/RESOURCE_STATUS_EX"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

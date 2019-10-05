@@ -12,6 +12,8 @@ ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _m
 ms.topic: function
 f1_keywords: 
  - "winuser/NotifyWinEvent"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

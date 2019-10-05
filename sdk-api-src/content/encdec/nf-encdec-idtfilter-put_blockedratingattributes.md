@@ -12,6 +12,8 @@ ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAt
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter.put_BlockedRatingAttributes"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

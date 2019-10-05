@@ -12,6 +12,8 @@ ms.keywords: '*PNET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH, NET_VALI
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_PASSWORD_HASH
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

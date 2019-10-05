@@ -12,6 +12,8 @@ ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters func
 ms.topic: function
 f1_keywords: 
  - "wsdbase/WSDCreateHttpMessageParameters"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

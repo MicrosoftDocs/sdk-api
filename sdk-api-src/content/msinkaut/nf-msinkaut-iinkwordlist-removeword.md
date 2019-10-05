@@ -12,6 +12,8 @@ ms.keywords: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d, IInkWordList, IInkWordList in
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkWordList.RemoveWord"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

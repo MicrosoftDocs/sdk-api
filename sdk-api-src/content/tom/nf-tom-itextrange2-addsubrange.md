@@ -12,6 +12,8 @@ ms.keywords: AddSubrange, AddSubrange method [Windows Controls], AddSubrange met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.AddSubrange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

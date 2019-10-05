@@ -12,6 +12,8 @@ ms.keywords: GetVideoDecoderProfileCount, GetVideoDecoderProfileCount method [Me
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoDevice.GetVideoDecoderProfileCount"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

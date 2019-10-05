@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetClassImageListEx, SetupDiGetClassImageListEx function [De
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassImageListEx
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

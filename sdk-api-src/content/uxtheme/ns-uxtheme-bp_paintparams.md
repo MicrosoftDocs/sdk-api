@@ -12,6 +12,8 @@ ms.keywords: '*PBP_PAINTPARAMS, BPPF_ERASE, BPPF_NOCLIP, BPPF_NONCLIENT, BP_PAIN
 ms.topic: struct
 f1_keywords:
 - uxtheme/BP_PAINTPARAMS
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Res
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.Reset"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

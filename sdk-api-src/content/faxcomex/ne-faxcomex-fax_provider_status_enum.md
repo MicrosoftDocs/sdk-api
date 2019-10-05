@@ -12,6 +12,8 @@ ms.keywords: FAX_PROVIDER_STATUS_ENUM, FAX_PROVIDER_STATUS_ENUM enumeration [Fax
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_PROVIDER_STATUS_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

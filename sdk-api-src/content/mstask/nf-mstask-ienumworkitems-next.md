@@ -12,6 +12,8 @@ ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkIte
 ms.topic: method
 f1_keywords: 
  - "mstask/IEnumWorkItems.Next"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

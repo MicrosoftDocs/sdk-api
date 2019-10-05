@@ -12,6 +12,8 @@ ms.keywords: GetMaxIdealVideoSize, GetMaxIdealVideoSize method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRWindowlessControl9.GetMaxIdealVideoSize"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

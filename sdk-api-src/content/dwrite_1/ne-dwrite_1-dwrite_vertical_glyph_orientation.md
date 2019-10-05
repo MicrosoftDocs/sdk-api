@@ -12,6 +12,8 @@ ms.keywords: DWRITE_VERTICAL_GLYPH_ORIENTATION, DWRITE_VERTICAL_GLYPH_ORIENTATIO
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

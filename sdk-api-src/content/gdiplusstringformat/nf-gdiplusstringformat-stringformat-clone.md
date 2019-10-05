@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],StringFormat class,
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

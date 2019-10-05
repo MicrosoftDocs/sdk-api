@@ -12,6 +12,8 @@ ms.keywords: GetErrorRadius, GetErrorRadius method [WinLocation], GetErrorRadius
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILatLongReport.GetErrorRadius"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

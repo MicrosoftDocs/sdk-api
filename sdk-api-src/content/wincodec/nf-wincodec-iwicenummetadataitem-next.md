@@ -12,6 +12,8 @@ ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Next met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICEnumMetadataItem.Next"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: KEYMODIFIER, KEYMODIFIER enumeration [Tablet PC], KEYMODIFIER_ALTGR
 ms.topic: enum
 f1_keywords: 
  - "tabflicks/KEYMODIFIER"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

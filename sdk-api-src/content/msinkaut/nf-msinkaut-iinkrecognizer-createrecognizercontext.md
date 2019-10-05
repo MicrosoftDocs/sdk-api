@@ -12,6 +12,8 @@ ms.keywords: CreateRecognizerContext, CreateRecognizerContext method [Tablet PC]
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizer.CreateRecognizerContext"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

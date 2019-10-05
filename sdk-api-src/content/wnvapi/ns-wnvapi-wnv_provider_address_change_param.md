@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, IpDadStateDeprecated, IpDadSt
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

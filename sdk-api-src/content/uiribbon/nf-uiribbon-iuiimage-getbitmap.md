@@ -12,6 +12,8 @@ ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Win
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIImage.GetBitmap"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

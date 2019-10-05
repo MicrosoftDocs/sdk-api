@@ -12,6 +12,8 @@ ms.keywords: VDS_IPADDRESS_TYPE, VDS_IPADDRESS_TYPE enumeration [VDS], VDS_IPT_E
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_IPADDRESS_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

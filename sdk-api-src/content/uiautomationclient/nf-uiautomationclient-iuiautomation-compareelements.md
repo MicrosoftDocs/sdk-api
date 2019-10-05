@@ -12,6 +12,8 @@ ms.keywords: CompareElements, CompareElements method [Windows Accessibility], Co
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.CompareElements"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

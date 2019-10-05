@@ -12,6 +12,8 @@ ms.keywords: EjectNtmsCleaner, EjectNtmsCleaner function [Files], NTMS_EJECT_STA
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EjectNtmsCleaner"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

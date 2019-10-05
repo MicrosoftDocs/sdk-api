@@ -12,6 +12,8 @@ ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_InternetFirewallEn
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.get_InternetFirewallEnabled"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

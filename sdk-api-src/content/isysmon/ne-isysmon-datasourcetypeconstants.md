@@ -12,6 +12,8 @@ ms.keywords: DataSourceTypeConstants, DataSourceTypeConstants enumeration [SysMo
 ms.topic: enum
 f1_keywords: 
  - "isysmon/DataSourceTypeConstants"
+dev_langs:
+ - c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

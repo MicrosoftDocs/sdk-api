@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNo
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.RegisterControlChangeNotify"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EA
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
+dev_langs:
+ - c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

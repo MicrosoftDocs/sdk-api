@@ -12,6 +12,8 @@ ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Securi
 ms.topic: function
 f1_keywords: 
  - "winsafer/SaferRecordEventLogEntry"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

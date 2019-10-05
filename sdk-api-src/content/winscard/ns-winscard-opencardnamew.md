@@ -12,6 +12,8 @@ ms.keywords: "*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME 
 ms.topic: struct
 f1_keywords: 
  - "winscard/OPENCARDNAME"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropert
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.AlternatesWithConstantPropertyValues"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

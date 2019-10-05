@@ -12,6 +12,8 @@ ms.keywords: IFaxActivity interface [Fax Service],QueuedMessages property, IFaxA
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxActivity.QueuedMessages"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

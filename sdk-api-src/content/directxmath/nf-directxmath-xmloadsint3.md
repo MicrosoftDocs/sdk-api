@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMLoadSInt3, XMLoadSInt3, XMLoadSInt3 method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMLoadSInt3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

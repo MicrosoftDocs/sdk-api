@@ -12,6 +12,8 @@ ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],NegotiateKeyEx
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DCryptoSession9.NegotiateKeyExchange
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method 
 ms.topic: method
 f1_keywords: 
  - "pla/IScheduleCollection.CreateSchedule"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

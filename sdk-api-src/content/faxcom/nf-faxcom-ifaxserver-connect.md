@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service]
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.Connect"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

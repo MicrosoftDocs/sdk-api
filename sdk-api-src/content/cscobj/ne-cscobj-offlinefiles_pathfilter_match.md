@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_PATHFILTER_CHILD, OFFLINEFILES_PATHFILTER_DESCENDENT, 
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_PATHFILTER_MATCH"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

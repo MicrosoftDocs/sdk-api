@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Com
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapEncoder"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

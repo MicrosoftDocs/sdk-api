@@ -12,6 +12,8 @@ ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonl
 ms.topic: function
 f1_keywords: 
  - "ktmw32/ReadOnlyEnlistment"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

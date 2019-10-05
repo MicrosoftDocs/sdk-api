@@ -12,6 +12,8 @@ ms.keywords: GetForwardType2, GetForwardType2 method [TAPI 2.2], GetForwardType2
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITForwardInformation2.GetForwardType2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

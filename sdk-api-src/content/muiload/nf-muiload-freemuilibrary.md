@@ -12,6 +12,8 @@ ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "muiload/FreeMUILibrary"
+dev_langs:
+ - c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows

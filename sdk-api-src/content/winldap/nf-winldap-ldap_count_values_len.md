@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.l
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_count_values_len"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMpegAudioDecoder interface [DirectShow],get_AudioFormat method, IM
 ms.topic: method
 f1_keywords: 
  - "mpegtype/IMpegAudioDecoder.get_AudioFormat"
+dev_langs:
+ - c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

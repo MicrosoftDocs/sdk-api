@@ -12,6 +12,8 @@ ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMP
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPControls3"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

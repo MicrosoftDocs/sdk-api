@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureSource interface [Media Foundation],SetMirrorState method
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.SetMirrorState"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

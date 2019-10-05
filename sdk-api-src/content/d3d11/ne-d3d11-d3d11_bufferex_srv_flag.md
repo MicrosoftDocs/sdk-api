@@ -12,6 +12,8 @@ ms.keywords: 966a7d54-75bc-7a4e-7188-3703ad332b5b, D3D11_BUFFEREX_SRV_FLAG, D3D1
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_BUFFEREX_SRV_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetThemeBool, GetThemeBool function [Windows Controls], TMT_ALWAYSS
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeBool"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

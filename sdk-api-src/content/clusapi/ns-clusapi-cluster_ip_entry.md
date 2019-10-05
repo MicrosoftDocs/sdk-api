@@ -12,6 +12,8 @@ ms.keywords: '*PCLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY structure [
 ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTER_IP_ENTRY
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

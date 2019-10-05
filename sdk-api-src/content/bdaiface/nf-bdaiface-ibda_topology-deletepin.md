@@ -12,6 +12,8 @@ ms.keywords: DeletePin, DeletePin method [Microsoft TV Technologies], DeletePin 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.DeletePin"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPADDRESS64, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 str
 ms.topic: struct
 f1_keywords:
 - dbghelp/ADDRESS64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method [Direct3D 11], Ge
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetNumInterfaceSlots"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

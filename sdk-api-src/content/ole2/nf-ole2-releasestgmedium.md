@@ -12,6 +12,8 @@ ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgM
 ms.topic: function
 f1_keywords: 
  - "ole2/ReleaseStgMedium"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

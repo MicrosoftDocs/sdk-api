@@ -12,6 +12,8 @@ ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsControll
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsController.InvalidateCache"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

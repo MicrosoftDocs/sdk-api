@@ -12,6 +12,8 @@ ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IPBDA_Services"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

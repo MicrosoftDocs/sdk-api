@@ -12,6 +12,8 @@ ms.keywords: "*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK
 ms.topic: struct
 f1_keywords: 
  - "sensapi/QOCINFO"
+dev_langs:
+ - c++
 req.header: sensapi.h
 req.include-header: 
 req.target-type: Windows

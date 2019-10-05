@@ -12,6 +12,8 @@ ms.keywords: IsNativeVhdBoot, IsNativeVhdBoot , IsNativeVhdBoot function, base.i
 ms.topic: function
 f1_keywords: 
  - "winbase/IsNativeVhdBoot"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

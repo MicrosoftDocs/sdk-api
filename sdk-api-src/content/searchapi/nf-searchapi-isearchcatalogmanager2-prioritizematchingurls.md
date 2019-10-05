@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs me
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager2.PrioritizeMatchingURLs"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

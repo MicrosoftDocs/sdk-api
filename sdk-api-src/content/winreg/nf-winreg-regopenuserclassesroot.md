@@ -12,6 +12,8 @@ ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_reg
 ms.topic: function
 f1_keywords: 
  - "winreg/RegOpenUserClassesRoot"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

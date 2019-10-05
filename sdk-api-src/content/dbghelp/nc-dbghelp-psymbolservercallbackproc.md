@@ -12,6 +12,8 @@ ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymbolServerCallback
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

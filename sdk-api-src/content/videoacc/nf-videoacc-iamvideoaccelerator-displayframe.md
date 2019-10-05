@@ -12,6 +12,8 @@ ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAccelerator.DisplayFrame"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

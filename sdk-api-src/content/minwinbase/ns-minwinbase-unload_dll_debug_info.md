@@ -12,6 +12,8 @@ ms.keywords: "*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DE
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/UNLOAD_DLL_DEBUG_INFO"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

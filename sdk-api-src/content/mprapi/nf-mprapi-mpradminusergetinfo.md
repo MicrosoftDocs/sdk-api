@@ -12,6 +12,8 @@ ms.keywords: MprAdminUserGetInfo, MprAdminUserGetInfo function [RAS], _mpr_mprad
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminUserGetInfo
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

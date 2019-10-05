@@ -12,6 +12,8 @@ ms.keywords: GetWindowDisplayAffinity, GetWindowDisplayAffinity function [Window
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowDisplayAffinity"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

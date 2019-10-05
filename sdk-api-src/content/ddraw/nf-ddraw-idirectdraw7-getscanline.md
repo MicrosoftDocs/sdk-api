@@ -12,6 +12,8 @@ ms.keywords: GetScanLine, GetScanLine method [DirectDraw], GetScanLine method [D
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetScanLine"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

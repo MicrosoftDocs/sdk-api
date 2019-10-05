@@ -12,6 +12,8 @@ ms.keywords: GetSectorSize, GetSectorSize method [Windows Shell], GetSectorSize 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IStreamUnbufferedInfo.GetSectorSize"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

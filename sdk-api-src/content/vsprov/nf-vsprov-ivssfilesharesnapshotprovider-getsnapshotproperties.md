@@ -12,6 +12,8 @@ ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnaps
 ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.GetSnapshotProperties
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

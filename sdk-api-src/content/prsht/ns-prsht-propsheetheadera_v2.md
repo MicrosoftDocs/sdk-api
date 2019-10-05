@@ -12,6 +12,8 @@ ms.keywords: '*LPPROPSHEETHEADERA_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER struc
 ms.topic: struct
 f1_keywords:
 - prsht/PROPSHEETHEADER
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

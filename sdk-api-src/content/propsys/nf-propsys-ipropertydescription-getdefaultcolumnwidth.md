@@ -12,6 +12,8 @@ ms.keywords: GetDefaultColumnWidth, GetDefaultColumnWidth method [Windows Proper
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetDefaultColumnWidth"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

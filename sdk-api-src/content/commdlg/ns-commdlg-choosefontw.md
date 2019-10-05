@@ -12,6 +12,8 @@ ms.keywords: "*LPCHOOSEFONTW, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_
 ms.topic: struct
 f1_keywords: 
  - "commdlg/CHOOSEFONT"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: 
 req.target-type: Windows

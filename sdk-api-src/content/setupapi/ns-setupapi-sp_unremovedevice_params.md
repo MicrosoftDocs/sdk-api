@@ -12,6 +12,8 @@ ms.keywords: '*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOV
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_UNREMOVEDEVICE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

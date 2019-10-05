@@ -12,6 +12,8 @@ ms.keywords: COMAdminTxIsolationLevelAny, COMAdminTxIsolationLevelOptions, COMAd
 ms.topic: enum
 f1_keywords: 
  - "comadmin/COMAdminTxIsolationLevelOptions"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

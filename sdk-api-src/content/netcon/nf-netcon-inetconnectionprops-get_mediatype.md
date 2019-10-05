@@ -12,6 +12,8 @@ ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetC
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnectionProps.get_MediaType"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

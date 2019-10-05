@@ -12,6 +12,8 @@ ms.keywords: MFP_GET_POSITION_SET_EVENT, MFP_GET_POSITION_SET_EVENT macro [Media
 ms.topic: macro
 f1_keywords: 
  - "mfplay/MFP_GET_POSITION_SET_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

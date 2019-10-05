@@ -12,6 +12,8 @@ ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Wind
 ms.topic: method
 f1_keywords: 
  - "spellcheck/IUserDictionariesRegistrar.UnregisterUserDictionary"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

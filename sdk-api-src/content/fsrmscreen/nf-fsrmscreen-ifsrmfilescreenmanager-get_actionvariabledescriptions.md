@@ -12,6 +12,8 @@ ms.keywords: ActionVariableDescriptions property [File Server Resource Manager],
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenManager.ActionVariableDescriptions"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

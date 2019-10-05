@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXm
 ms.topic: function
 f1_keywords: 
  - "cryptxml/CryptXmlVerifySignature"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

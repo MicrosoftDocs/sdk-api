@@ -12,6 +12,8 @@ ms.keywords: PRJ_NOTIFICATION_PARAMETERS, PRJ_NOTIFICATION_PARAMETERS union, Pro
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_NOTIFICATION_PARAMETERS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

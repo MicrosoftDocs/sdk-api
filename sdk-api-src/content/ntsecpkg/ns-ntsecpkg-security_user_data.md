@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSE
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECURITY_USER_DATA"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

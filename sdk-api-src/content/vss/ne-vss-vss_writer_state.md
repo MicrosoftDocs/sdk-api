@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_WRITER_STATE, PVSS_WRITER_STATE, PVSS_WRITER_STATE enumerati
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_WRITER_STATE"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IADsComputerOperations interface [ADSI],Status method, IADsComputer
 ms.topic: method
 f1_keywords: 
  - "iads/IADsComputerOperations.Status"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

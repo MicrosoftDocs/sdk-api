@@ -12,6 +12,8 @@ ms.keywords: IShellImageDataAbort interface [Windows Shell],QueryAbort method, I
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageDataAbort.QueryAbort"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

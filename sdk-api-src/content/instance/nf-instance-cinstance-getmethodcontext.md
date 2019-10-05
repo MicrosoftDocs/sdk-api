@@ -12,6 +12,8 @@ ms.keywords: "?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodCo
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetMethodContext"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

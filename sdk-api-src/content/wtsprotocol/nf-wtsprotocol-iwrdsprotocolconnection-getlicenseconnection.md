@@ -12,6 +12,8 @@ ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop S
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.GetLicenseConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

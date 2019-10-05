@@ -12,6 +12,8 @@ ms.keywords: GetBoundSource, GetBoundSource method [COM], GetBoundSource method 
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.GetBoundSource"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

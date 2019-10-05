@@ -12,6 +12,8 @@ ms.keywords: ChildWindowFromPoint, ChildWindowFromPoint function [Windows and Me
 ms.topic: function
 f1_keywords: 
  - "winuser/ChildWindowFromPoint"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

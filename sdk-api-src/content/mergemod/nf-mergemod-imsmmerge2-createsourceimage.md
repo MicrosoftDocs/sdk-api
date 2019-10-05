@@ -12,6 +12,8 @@ ms.keywords: CreateSourceImage, CreateSourceImage method, CreateSourceImage meth
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge2.CreateSourceImage"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectSh
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerBitmap9.GetAlphaBitmapParameters
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

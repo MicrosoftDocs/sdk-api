@@ -12,6 +12,8 @@ ms.keywords: SymGetOmaps, SymGetOmaps function, base.symgetomaps, dbghelp/SymGet
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetOmaps
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

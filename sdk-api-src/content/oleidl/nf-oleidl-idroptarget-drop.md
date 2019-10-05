@@ -12,6 +12,8 @@ ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, I
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropTarget.Drop"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMa
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGISwapChain2.GetMaximumFrameLatency"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersi
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistFile.GetCurFile"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

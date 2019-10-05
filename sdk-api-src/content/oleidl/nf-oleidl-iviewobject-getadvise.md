@@ -12,6 +12,8 @@ ms.keywords: GetAdvise, GetAdvise method [COM], GetAdvise method [COM],IViewObje
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.GetAdvise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

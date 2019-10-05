@@ -12,6 +12,8 @@ ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/ISectionList.GetSectionData"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], ID3D11Device in
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11Device"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

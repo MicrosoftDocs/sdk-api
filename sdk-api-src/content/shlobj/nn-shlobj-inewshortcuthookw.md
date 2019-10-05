@@ -12,6 +12,8 @@ ms.keywords: INewShortcutHook, INewShortcutHook interface [Windows Shell], INewS
 ms.topic: interface
 f1_keywords: 
  - "shlobj/INewShortcutHook"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

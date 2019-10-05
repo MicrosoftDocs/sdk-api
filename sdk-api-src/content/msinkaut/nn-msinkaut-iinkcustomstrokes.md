@@ -12,6 +12,8 @@ ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustom
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkCustomStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

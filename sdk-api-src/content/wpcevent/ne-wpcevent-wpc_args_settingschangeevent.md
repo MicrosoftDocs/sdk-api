@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_SETTINGSCHANGEEVENT, WPC_ARGS_SETTINGSCHANGEEVENT enumerat
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

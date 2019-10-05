@@ -12,6 +12,8 @@ ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [W
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_ApproximateViewRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

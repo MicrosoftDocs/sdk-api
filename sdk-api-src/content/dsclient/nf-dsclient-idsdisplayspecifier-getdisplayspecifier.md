@@ -12,6 +12,8 @@ ms.keywords: GetDisplaySpecifier, GetDisplaySpecifier method [Active Directory],
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.GetDisplaySpecifier"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

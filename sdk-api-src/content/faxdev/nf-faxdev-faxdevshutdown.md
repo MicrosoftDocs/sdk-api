@@ -12,6 +12,8 @@ ms.keywords: FaxDevShutdown, FaxDevShutdown function [Fax Service], _mfax_faxdev
 ms.topic: function
 f1_keywords: 
  - "faxdev/FaxDevShutdown"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMENCODINGTYPE, DRMENCODINGTYPE enumeration [Active Directory Righ
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMENCODINGTYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_IIF_AGGRESSIVE_MODE, VDS_IIF_IKE, VDS_IIF_MAIN_MODE, VDS_IIF_PF
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_ISCSI_IPSEC_FLAG"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

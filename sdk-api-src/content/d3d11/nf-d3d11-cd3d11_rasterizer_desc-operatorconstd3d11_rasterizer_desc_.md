@@ -12,6 +12,8 @@ ms.keywords: CD3D11_RASTERIZER_DESC interface [Direct3D 11],operator const D3D11
 ms.topic: method
 f1_keywords: 
  - "d3d11/CD3D11_RASTERIZER_DESC.operator const D3D11_RASTERIZER_DESC&"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

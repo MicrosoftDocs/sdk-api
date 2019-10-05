@@ -12,6 +12,8 @@ ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active D
 ms.topic: function
 f1_keywords: 
  - "adsprop/ADsPropSetHwndWithTitle"
+dev_langs:
+ - c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

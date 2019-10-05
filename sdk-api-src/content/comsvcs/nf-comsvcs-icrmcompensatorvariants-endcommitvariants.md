@@ -12,6 +12,8 @@ ms.keywords: EndCommitVariants, EndCommitVariants method [COM+], EndCommitVarian
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensatorVariants.EndCommitVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

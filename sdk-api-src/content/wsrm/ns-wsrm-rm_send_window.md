@@ -12,6 +12,8 @@ ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], winsock.rm_send
 ms.topic: struct
 f1_keywords: 
  - "wsrm/RM_SEND_WINDOW"
+dev_langs:
+ - c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

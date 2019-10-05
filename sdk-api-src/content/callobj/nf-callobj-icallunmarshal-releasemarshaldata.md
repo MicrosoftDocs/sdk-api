@@ -12,6 +12,8 @@ ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnma
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallUnmarshal.ReleaseMarshalData"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

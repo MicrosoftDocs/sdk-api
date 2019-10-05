@@ -12,6 +12,8 @@ ms.keywords: GetCommand, GetCommand method [Windows Shell], GetCommand method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerCommandProvider.GetCommand"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

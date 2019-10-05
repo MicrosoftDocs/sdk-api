@@ -12,6 +12,8 @@ ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [R
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannelCallback"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

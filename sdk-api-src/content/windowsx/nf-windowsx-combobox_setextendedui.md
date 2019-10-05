@@ -12,6 +12,8 @@ ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_SetExtendedUI"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

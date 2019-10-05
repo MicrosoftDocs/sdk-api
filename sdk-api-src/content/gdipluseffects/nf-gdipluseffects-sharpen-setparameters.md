@@ -12,6 +12,8 @@ ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [G
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Sharpen.SetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

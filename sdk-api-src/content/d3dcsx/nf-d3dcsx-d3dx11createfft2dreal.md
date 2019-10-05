@@ -12,6 +12,8 @@ ms.keywords: 09beb9c5-5f46-e308-4791-89dd9ac4022d, D3DX11CreateFFT2DReal, D3DX11
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateFFT2DReal"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

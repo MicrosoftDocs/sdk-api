@@ -12,6 +12,8 @@ ms.keywords: GetPartitionName, GetPartitionName method [COM+], GetPartitionName 
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.GetPartitionName"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

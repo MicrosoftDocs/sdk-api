@@ -12,6 +12,8 @@ ms.keywords: PeerGraphFreeData, PeerGraphFreeData function [Peer Networking], p2
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGraphFreeData"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSharedBitmap, GetSharedBitmap method [Windows Shell], GetSharedB
 ms.topic: method
 f1_keywords: 
  - "thumbcache/ISharedBitmap.GetSharedBitmap"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

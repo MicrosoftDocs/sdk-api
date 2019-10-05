@@ -12,6 +12,8 @@ ms.keywords: IAdvancedMediaCaptureInitializationSettings interface [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfmediacapture/IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager"
+dev_langs:
+ - c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

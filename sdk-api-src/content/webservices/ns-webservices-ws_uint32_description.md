@@ -12,6 +12,8 @@ ms.keywords: WS_UINT32_DESCRIPTION, WS_UINT32_DESCRIPTION structure [Web Service
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_UINT32_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

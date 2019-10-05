@@ -12,6 +12,8 @@ ms.keywords: PropSheet_GetTabControl, PropSheet_GetTabControl macro [Windows Con
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_GetTabControl
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

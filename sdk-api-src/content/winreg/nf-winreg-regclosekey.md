@@ -12,6 +12,8 @@ ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclos
 ms.topic: function
 f1_keywords: 
  - "winreg/RegCloseKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

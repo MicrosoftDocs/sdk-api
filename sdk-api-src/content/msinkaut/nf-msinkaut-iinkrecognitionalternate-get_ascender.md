@@ -12,6 +12,8 @@ ms.keywords: 4cc7bd86-e098-4de7-a73a-b878cba37e88, Ascender property [Tablet PC]
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.Ascender"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

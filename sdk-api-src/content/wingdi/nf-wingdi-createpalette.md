@@ -12,6 +12,8 @@ ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreateP
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreatePalette"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

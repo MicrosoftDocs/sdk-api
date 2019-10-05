@@ -12,6 +12,8 @@ ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventacce
 ms.topic: function
 f1_keywords: 
  - "evntcons/EventAccessRemove"
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

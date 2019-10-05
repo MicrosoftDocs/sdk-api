@@ -12,6 +12,8 @@ ms.keywords: D3D12_RTV_DIMENSION, D3D12_RTV_DIMENSION enumeration, D3D12_RTV_DIM
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_RTV_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice interface [DXGI],SetGPUThreadPriority method, IDXGIDevi
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice.SetGPUThreadPriority"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

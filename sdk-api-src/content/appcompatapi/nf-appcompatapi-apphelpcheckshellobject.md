@@ -12,6 +12,8 @@ ms.keywords: ApphelpCheckShellObject, ApphelpCheckShellObject function [Windows 
 ms.topic: function
 f1_keywords: 
  - "appcompatapi/ApphelpCheckShellObject"
+dev_langs:
+ - c++
 req.header: appcompatapi.h
 req.include-header: 
 req.target-type: Windows

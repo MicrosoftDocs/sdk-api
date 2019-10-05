@@ -12,6 +12,8 @@ ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectSh
 ms.topic: method
 f1_keywords: 
  - "strmif/IMemInputPin.GetAllocatorRequirements"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

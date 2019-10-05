@@ -12,6 +12,8 @@ ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISenso
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorDataReport.GetSensorValue"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

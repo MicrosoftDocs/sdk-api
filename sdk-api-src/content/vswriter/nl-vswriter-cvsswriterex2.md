@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx2, CVssWriterEx2 class, CVssWriterEx2 class,described, 
 ms.topic: class
 f1_keywords: 
  - "vswriter/CVssWriterEx2"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

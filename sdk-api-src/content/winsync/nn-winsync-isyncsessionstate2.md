@@ -12,6 +12,8 @@ ms.keywords: ISyncSessionState2, ISyncSessionState2 interface [Windows Sync], IS
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncSessionState2"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

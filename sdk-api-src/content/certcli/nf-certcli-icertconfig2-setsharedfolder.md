@@ -12,6 +12,8 @@ ms.keywords: CCertConfig object [Security],SetSharedFolder method, ICertConfig2 
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertConfig2.SetSharedFolder"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

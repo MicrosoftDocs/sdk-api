@@ -12,6 +12,8 @@ ms.keywords: WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL, WS_LISTENER_PROPERTY_CHA
 ms.topic: enum
 f1_keywords:
 - webservices/WS_LISTENER_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

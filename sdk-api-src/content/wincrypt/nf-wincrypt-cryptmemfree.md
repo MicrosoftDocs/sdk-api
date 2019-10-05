@@ -12,6 +12,8 @@ ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfr
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptMemFree"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

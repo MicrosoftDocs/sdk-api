@@ -12,6 +12,8 @@ ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUS
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetCharacterPlacement"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

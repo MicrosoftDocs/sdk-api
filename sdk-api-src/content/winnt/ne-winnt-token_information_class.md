@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_INFORMATION_CLASS, MaxTokenInfoClass, PTOKEN_INFORMATION_C
 ms.topic: enum
 f1_keywords:
 - winnt/TOKEN_INFORMATION_CLASS
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

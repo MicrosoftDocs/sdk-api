@@ -12,6 +12,8 @@ ms.keywords: "*LPTTTOOLINFOA, *PTOOLINFOA, LPTOOLINFO, LPTOOLINFO structure poin
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TOOLINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, Fi
 ms.topic: function
 f1_keywords: 
  - "winbase/FindActCtxSectionString"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

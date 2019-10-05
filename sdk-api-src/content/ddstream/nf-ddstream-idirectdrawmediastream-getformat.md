@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectS
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawMediaStream.GetFormat"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

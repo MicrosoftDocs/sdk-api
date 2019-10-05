@@ -12,6 +12,8 @@ ms.keywords: SCardReleaseContext, SCardReleaseContext function [Security], _smar
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardReleaseContext"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

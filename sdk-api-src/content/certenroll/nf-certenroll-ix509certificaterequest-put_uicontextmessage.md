@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage prope
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequest.UIContextMessage"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

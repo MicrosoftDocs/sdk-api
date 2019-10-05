@@ -12,6 +12,8 @@ ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheContro
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleCacheControl"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

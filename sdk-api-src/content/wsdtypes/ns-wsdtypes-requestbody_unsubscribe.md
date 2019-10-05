@@ -12,6 +12,8 @@ ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.req
 ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_Unsubscribe
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

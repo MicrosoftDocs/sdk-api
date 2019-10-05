@@ -12,6 +12,8 @@ ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMMutualExclusion2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

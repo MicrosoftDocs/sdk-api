@@ -12,6 +12,8 @@ ms.keywords: ITextRangeProvider2, ITextRangeProvider2 interface [Windows Accessi
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider2"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

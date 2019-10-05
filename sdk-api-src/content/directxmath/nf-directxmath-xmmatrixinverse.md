@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixInverse, XMMatrixInverse, XMMatrixInverse meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixInverse"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

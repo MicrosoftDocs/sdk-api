@@ -12,6 +12,8 @@ ms.keywords: "??HWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Wind
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.operator+"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

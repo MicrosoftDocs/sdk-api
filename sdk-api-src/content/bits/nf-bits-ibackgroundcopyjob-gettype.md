@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCo
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetType"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSlowestRate, GetSlowestRate method [Media Foundation], GetSlowes
 ms.topic: method
 f1_keywords:
 - mfidl/IMFRateSupport.GetSlowestRate
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

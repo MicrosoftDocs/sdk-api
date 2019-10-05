@@ -12,6 +12,8 @@ ms.keywords: ImageList_Create, ImageList_Create function [Windows Controls], _wi
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Create"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

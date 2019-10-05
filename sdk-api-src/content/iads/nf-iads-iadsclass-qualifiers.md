@@ -12,6 +12,8 @@ ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers,
 ms.topic: method
 f1_keywords: 
  - "iads/IADsClass.Qualifiers"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

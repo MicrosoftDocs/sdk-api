@@ -12,6 +12,8 @@ ms.keywords: TF_CreateCategoryMgr, TF_CreateCategoryMgr function [Text Services 
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_CreateCategoryMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

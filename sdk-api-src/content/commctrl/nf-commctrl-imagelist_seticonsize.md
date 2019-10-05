@@ -12,6 +12,8 @@ ms.keywords: ImageList_SetIconSize, ImageList_SetIconSize function [Windows Cont
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_SetIconSize"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

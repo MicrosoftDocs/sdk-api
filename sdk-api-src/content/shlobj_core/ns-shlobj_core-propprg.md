@@ -12,6 +12,8 @@ ms.keywords: "*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Win
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/PROPPRG"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

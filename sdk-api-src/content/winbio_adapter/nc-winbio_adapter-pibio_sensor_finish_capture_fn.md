@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN call
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterFinishCapture
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

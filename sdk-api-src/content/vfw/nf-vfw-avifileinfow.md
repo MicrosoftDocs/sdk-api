@@ -12,6 +12,8 @@ ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfo
 ms.topic: function
 f1_keywords:
 - vfw/AVIFileInfo
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

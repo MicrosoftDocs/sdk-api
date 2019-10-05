@@ -12,6 +12,8 @@ ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networkin
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerPnrpStartResolve"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

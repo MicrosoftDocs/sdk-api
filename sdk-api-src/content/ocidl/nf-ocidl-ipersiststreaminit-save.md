@@ -12,6 +12,8 @@ ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPersistStreamInit.Save"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

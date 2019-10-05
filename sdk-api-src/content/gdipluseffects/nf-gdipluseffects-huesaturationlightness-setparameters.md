@@ -12,6 +12,8 @@ ms.keywords: HueSaturationLightness class [GDI+],SetParameters method, HueSatura
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/HueSaturationLightness.SetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

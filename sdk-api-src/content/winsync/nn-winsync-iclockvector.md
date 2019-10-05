@@ -12,6 +12,8 @@ ms.keywords: IClockVector, IClockVector interface [Windows Sync], IClockVector i
 ms.topic: interface
 f1_keywords: 
  - "winsync/IClockVector"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

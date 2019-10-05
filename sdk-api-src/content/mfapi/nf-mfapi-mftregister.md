@@ -12,6 +12,8 @@ ms.keywords: MFTRegister, MFTRegister function [Media Foundation], MFT_CODEC_MER
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTRegister"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a, GetFilterPropertyRange, GetFi
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessorService.GetFilterPropertyRange
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

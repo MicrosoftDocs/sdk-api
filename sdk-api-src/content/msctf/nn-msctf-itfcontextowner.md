@@ -12,6 +12,8 @@ ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfContextOwner"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

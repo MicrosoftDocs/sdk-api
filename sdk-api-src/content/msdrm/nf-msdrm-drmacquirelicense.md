@@ -12,6 +12,8 @@ ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rig
 ms.topic: function
 f1_keywords:
 - msdrm/DRMAcquireLicense
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

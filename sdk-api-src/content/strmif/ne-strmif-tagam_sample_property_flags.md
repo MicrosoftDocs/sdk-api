@@ -12,6 +12,8 @@ ms.keywords: AM_SAMPLE_DATADISCONTINUITY, AM_SAMPLE_ENDOFSTREAM, AM_SAMPLE_FLUSH
 ms.topic: enum
 f1_keywords: 
  - "strmif/tagAM_SAMPLE_PROPERTY_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: DShow.h
 req.target-type: Windows

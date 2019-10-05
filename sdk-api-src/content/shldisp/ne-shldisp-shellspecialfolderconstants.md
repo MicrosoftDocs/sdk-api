@@ -12,6 +12,8 @@ ms.keywords: ShellSpecialFolderConstants, ShellSpecialFolderConstants enumeratio
 ms.topic: enum
 f1_keywords: 
  - "shldisp/ShellSpecialFolderConstants"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_HEADER, EVENT_HEADER, EVENT_HEADER structure [ETW], EVENT_
 ms.topic: struct
 f1_keywords:
 - evntcons/EVENT_HEADER
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: Evntcons.h
 req.target-type: Windows

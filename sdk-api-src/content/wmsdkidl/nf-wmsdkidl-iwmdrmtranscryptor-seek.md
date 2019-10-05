@@ -12,6 +12,8 @@ ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Seek method, IW
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMTranscryptor.Seek"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

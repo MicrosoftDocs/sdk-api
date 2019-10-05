@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST, LINEAGENTSESSIONLIS
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTSESSIONLIST"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

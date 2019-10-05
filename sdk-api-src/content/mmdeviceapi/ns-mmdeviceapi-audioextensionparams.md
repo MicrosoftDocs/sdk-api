@@ -12,6 +12,8 @@ ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], 
 ms.topic: struct
 f1_keywords: 
  - "mmdeviceapi/AudioExtensionParams"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl
 req.target-type: Windows

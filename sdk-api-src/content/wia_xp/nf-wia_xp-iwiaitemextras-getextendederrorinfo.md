@@ -12,6 +12,8 @@ ms.keywords: GetExtendedErrorInfo, GetExtendedErrorInfo method [WIA], GetExtende
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItemExtras.GetExtendedErrorInfo"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

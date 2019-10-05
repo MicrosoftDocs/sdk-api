@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Win
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerCollection"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

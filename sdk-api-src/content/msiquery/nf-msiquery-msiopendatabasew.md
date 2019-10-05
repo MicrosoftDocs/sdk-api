@@ -12,6 +12,8 @@ ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOP
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiOpenDatabase"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

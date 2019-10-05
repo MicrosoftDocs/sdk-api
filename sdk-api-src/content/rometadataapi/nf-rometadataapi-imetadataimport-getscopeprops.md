@@ -12,6 +12,8 @@ ms.keywords: GetScopeProps, GetScopeProps method [Windows Runtime], GetScopeProp
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetScopeProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],serviceEv
 ms.topic: method
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionService2.serviceEvent"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

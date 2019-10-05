@@ -12,6 +12,8 @@ ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, Commit
 ms.topic: enum
 f1_keywords: 
  - "certenroll/CommitTemplateFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

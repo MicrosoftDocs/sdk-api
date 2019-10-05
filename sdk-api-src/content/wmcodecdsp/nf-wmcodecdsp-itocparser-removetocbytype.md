@@ -12,6 +12,8 @@ ms.keywords: ITocParser interface [Media Foundation],RemoveTocByType method, ITo
 ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocParser.RemoveTocByType
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

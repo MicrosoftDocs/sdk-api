@@ -12,6 +12,8 @@ ms.keywords: PackageFamilyNameFromId, PackageFamilyNameFromId function [App pack
 ms.topic: function
 f1_keywords: 
  - "appmodel/PackageFamilyNameFromId"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

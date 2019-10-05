@@ -12,6 +12,8 @@ ms.keywords: D2D1_UNIT_MODE, D2D1_UNIT_MODE enumeration [Direct2D], D2D1_UNIT_MO
 ms.topic: enum
 f1_keywords: 
  - "d2d1_1/D2D1_UNIT_MODE"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

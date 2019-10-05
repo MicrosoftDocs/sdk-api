@@ -12,6 +12,8 @@ ms.keywords: WSManCreateSession, WSManCreateSession function [Windows Remote Man
 ms.topic: function
 f1_keywords:
 - wsman/WSManCreateSession
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

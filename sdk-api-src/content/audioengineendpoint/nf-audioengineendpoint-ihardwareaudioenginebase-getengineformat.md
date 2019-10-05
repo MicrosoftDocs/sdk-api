@@ -12,6 +12,8 @@ ms.keywords: GetEngineFormat, GetEngineFormat method [Core Audio], GetEngineForm
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase.GetEngineFormat"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

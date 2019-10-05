@@ -12,6 +12,8 @@ ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [
 ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.SetProcAmpValues
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

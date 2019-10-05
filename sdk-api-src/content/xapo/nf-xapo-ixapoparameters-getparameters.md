@@ -12,6 +12,8 @@ ms.keywords: GetParameters, GetParameters method [XAudio2 Audio Mixing APIs], Ge
 ms.topic: method
 f1_keywords: 
  - "xapo/IXAPOParameters.GetParameters"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

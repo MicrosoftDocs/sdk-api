@@ -12,6 +12,8 @@ ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Pe
 ms.topic: function
 f1_keywords: 
  - "loadperf/LoadPerfCounterTextStrings"
+dev_langs:
+ - c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows

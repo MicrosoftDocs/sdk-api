@@ -12,6 +12,8 @@ ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MM
 ms.topic: interface
 f1_keywords: 
  - "mmc/IControlbar"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

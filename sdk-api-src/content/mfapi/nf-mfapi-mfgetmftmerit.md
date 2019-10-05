@@ -12,6 +12,8 @@ ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetm
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetMFTMerit"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

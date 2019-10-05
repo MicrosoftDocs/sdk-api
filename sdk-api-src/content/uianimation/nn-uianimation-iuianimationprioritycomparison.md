@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison inte
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationPriorityComparison"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

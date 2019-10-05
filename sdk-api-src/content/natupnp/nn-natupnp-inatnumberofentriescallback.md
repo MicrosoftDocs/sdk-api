@@ -12,6 +12,8 @@ ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface 
 ms.topic: interface
 f1_keywords: 
  - "natupnp/INATNumberOfEntriesCallback"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

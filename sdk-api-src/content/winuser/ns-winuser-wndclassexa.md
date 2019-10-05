@@ -12,6 +12,8 @@ ms.keywords: "*LPWNDCLASSEXA, *NPWNDCLASSEXA, *PWNDCLASSEXA, PWNDCLASSEX, PWNDCL
 ms.topic: struct
 f1_keywords: 
  - "winuser/WNDCLASSEX"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

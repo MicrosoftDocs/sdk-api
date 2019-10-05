@@ -12,6 +12,8 @@ ms.keywords: IMediaControl interface [DirectShow],StopWhenReady method, IMediaCo
 ms.topic: method
 f1_keywords: 
  - "control/IMediaControl.StopWhenReady"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

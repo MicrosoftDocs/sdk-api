@@ -12,6 +12,8 @@ ms.keywords: IObjectContext interface [COM+],SetComplete method, IObjectContext.
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContext.SetComplete"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

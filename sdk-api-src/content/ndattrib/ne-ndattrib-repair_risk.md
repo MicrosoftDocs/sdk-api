@@ -12,6 +12,8 @@ ms.keywords: REPAIR_RISK, REPAIR_RISK enumeration [NDF], RR_NORISK, RR_NOROLLBAC
 ms.topic: enum
 f1_keywords: 
  - "ndattrib/REPAIR_RISK"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO, DHCP_SERVER_C
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SERVER_CONFIG_INFO
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

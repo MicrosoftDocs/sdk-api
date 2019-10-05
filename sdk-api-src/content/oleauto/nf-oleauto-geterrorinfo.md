@@ -12,6 +12,8 @@ ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInf
 ms.topic: function
 f1_keywords: 
  - "oleauto/GetErrorInfo"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

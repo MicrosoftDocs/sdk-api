@@ -12,6 +12,8 @@ ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Fra
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_LANGUAGEPROFILE"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

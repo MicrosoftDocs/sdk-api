@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],Sus
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientActions.SuspendScreenUpdates"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

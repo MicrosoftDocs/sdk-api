@@ -12,6 +12,8 @@ ms.keywords: "*LPMEMORYSTATUSEX, LPMEMORYSTATUSEX, LPMEMORYSTATUSEX structure po
 ms.topic: struct
 f1_keywords: 
  - "sysinfoapi/MEMORYSTATUSEX"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

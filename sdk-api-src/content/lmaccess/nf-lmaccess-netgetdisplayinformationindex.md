@@ -12,6 +12,8 @@ ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationInd
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGetDisplayInformationIndex"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

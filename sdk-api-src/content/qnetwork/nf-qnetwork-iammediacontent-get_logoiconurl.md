@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent interface [DirectShow],get_LogoIconURL method, IAMM
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent.get_LogoIconURL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

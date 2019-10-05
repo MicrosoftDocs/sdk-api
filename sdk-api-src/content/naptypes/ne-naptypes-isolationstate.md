@@ -12,6 +12,8 @@ ms.keywords: IsolationState, IsolationState enumeration [NAP], isolationStateInP
 ms.topic: enum
 f1_keywords: 
  - "naptypes/IsolationState"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

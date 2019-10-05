@@ -12,6 +12,8 @@ ms.keywords: SQSO_AUTOMATIC_WILDCARD, SQSO_CONNECTOR_CASE, SQSO_IMPLICIT_CONNECT
 ms.topic: enum
 f1_keywords:
 - structuredquery/STRUCTURED_QUERY_SINGLE_OPTION
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Win
 ms.topic: struct
 f1_keywords: 
  - "wsnwlink/IPX_NETNUM_DATA"
+dev_langs:
+ - c++
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureQuery interface [windows Media Device Manager],MakeDecisi
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureQuery.MakeDecision"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

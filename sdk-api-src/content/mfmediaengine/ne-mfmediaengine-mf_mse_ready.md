@@ -12,6 +12,8 @@ ms.keywords: MF_MSE_READY, MF_MSE_READY enumeration [Media Foundation], MF_MSE_R
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MSE_READY"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

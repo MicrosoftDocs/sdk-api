@@ -12,6 +12,8 @@ ms.keywords: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, D3D12_GPU_BASED_VALID
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

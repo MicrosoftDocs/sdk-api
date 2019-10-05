@@ -12,6 +12,8 @@ ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, Cr
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptSetProviderEx"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

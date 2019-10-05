@@ -12,6 +12,8 @@ ms.keywords: IFileSyncMergeHandler interface [Windows Shell],ShowResolveConflict
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileSyncMergeHandler.ShowResolveConflictUIAsync"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

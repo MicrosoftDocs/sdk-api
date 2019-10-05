@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Reset method, ISyncMgrE
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrEnumItems.Reset"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll func
 ms.topic: function
 f1_keywords: 
  - "winineti/InternetInitializeAutoProxyDll"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

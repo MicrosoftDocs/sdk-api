@@ -12,6 +12,8 @@ ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister,
 ms.topic: function
 f1_keywords:
 - dmoreg/DMORegister
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

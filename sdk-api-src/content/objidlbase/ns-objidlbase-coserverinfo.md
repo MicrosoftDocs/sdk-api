@@ -12,6 +12,8 @@ ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COS
 ms.topic: struct
 f1_keywords:
 - objidlbase/COSERVERINFO
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

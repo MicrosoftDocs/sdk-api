@@ -12,6 +12,8 @@ ms.keywords: IVssSnapshotMgmt interface [VSS],QueryVolumesSupportedForSnapshots 
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

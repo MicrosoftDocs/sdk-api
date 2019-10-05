@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect met
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.SetVideoSourceRect"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

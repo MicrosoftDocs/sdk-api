@@ -12,6 +12,8 @@ ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_
 ms.topic: function
 f1_keywords: 
  - "vfw/EditStreamCut"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

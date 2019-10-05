@@ -12,6 +12,8 @@ ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft
 ms.topic: enum
 f1_keywords: 
  - "mpeg2structs/MPEG_CURRENT_NEXT_BIT"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

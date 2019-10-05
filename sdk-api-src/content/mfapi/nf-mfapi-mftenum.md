@@ -12,6 +12,8 @@ ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTEnum"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

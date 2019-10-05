@@ -12,6 +12,8 @@ ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimrem
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofWimRemoveEntry"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

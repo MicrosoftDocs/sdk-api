@@ -12,6 +12,8 @@ ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], 
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerFreeErrorMemory
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

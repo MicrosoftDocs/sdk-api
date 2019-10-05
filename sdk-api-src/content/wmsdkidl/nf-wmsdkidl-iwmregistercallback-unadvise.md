@@ -12,6 +12,8 @@ ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMRegisterCallback.Unadvise"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

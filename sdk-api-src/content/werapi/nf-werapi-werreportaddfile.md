@@ -12,6 +12,8 @@ ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerFileTypeHeap
 ms.topic: function
 f1_keywords: 
  - "werapi/WerReportAddFile"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

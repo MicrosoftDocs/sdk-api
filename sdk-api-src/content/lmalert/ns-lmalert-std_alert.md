@@ -12,6 +12,8 @@ ms.keywords: '*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT
 ms.topic: struct
 f1_keywords:
 - lmalert/STD_ALERT
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

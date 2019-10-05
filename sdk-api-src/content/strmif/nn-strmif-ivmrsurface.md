@@ -12,6 +12,8 @@ ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interf
 ms.topic: interface
 f1_keywords: 
  - "strmif/IVMRSurface"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

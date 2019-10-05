@@ -12,6 +12,8 @@ ms.keywords: VariantToInt16, VariantToInt16 function [Windows Properties], _shel
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToInt16"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSaveFileNamePreview, GetSaveFileNamePreview function [Windows Mu
 ms.topic: function
 f1_keywords: 
  - "vfw/GetSaveFileNamePreview"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

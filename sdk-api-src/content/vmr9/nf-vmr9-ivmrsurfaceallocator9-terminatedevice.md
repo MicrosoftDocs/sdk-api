@@ -12,6 +12,8 @@ ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocator9.TerminateDevice"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

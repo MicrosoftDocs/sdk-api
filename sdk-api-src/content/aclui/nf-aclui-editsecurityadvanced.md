@@ -12,6 +12,8 @@ ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], acl
 ms.topic: function
 f1_keywords:
 - aclui/EditSecurityAdvanced
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

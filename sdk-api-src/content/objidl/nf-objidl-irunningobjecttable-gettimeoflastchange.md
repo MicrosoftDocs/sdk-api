@@ -12,6 +12,8 @@ ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLas
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunningObjectTable.GetTimeOfLastChange"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

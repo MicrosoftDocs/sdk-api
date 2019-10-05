@@ -12,6 +12,8 @@ ms.keywords: ID2D1Geometry, ID2D1Geometry interface [Direct2D], ID2D1Geometry in
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1Geometry"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

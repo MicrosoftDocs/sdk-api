@@ -12,6 +12,8 @@ ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTI
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmConfigureIME"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

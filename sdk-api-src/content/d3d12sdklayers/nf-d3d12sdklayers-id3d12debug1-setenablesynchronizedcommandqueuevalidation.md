@@ -12,6 +12,8 @@ ms.keywords: ID3D12Debug1 interface,SetEnableSynchronizedCommandQueueValidation 
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

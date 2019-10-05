@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_DATA_CHUNK
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

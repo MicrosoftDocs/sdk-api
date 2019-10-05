@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJobHttpOptions2, IBackgroundCopyJobHttpOptions2 inte
 ms.topic: interface
 f1_keywords: 
  - "bits10_2/IBackgroundCopyJobHttpOptions2"
+dev_langs:
+ - c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent]
 ms.topic: enum
 f1_keywords: 
  - "wuapi/UpdateOperation"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

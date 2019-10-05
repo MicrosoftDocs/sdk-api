@@ -12,6 +12,8 @@ ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPClosedCaption.put_SAMIFileName"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

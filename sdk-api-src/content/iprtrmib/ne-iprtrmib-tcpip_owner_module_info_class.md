@@ -12,6 +12,8 @@ ms.keywords: "*PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS, P
 ms.topic: enum
 f1_keywords: 
  - "iprtrmib/TCPIP_OWNER_MODULE_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: 
 req.target-type: Windows

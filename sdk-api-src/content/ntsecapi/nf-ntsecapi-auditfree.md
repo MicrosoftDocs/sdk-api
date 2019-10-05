@@ -12,6 +12,8 @@ ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, secur
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/AuditFree"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

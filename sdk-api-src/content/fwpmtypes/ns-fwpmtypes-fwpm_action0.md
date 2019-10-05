@@ -12,6 +12,8 @@ ms.keywords: FWPM_ACTION0, FWPM_ACTION0 structure [Filtering], FWP_ACTION_BLOCK,
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_ACTION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

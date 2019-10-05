@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDr
 ms.topic: callback
 f1_keywords: 
  - "msacm/acmDriverProc"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

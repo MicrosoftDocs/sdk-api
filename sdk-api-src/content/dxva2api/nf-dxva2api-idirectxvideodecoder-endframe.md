@@ -12,6 +12,8 @@ ms.keywords: 4b8d391e-b679-4adb-8b01-2899996ede46, EndFrame, EndFrame method [Me
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoder.EndFrame"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

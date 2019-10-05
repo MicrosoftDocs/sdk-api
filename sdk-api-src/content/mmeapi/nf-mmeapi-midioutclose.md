@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiOutClose, midiOutClose, midiOutClose function [Windows 
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiOutClose"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

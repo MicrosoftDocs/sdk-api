@@ -12,6 +12,8 @@ ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item pro
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformationCollection.Item"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

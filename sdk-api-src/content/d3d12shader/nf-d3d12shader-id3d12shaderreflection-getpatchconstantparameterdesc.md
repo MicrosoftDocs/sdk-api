@@ -12,6 +12,8 @@ ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflection.GetPatchConstantParameterDesc"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

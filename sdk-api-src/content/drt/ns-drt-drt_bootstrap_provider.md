@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PR
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_BOOTSTRAP_PROVIDER"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

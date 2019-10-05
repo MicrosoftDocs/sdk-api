@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_PROXY_STATE, WS_SERVICE_PROXY_STATE enumeration [Web Ser
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SERVICE_PROXY_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

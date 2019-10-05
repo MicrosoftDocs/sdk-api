@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgCont
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_CipherInfo"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], Ge
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.GetRequestId"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

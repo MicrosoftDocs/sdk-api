@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_PROGRESS, BG_JOB_PROGRESS structure [BITS], _drz_bg_job_prog
 ms.topic: struct
 f1_keywords:
 - bits/BG_JOB_PROGRESS
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

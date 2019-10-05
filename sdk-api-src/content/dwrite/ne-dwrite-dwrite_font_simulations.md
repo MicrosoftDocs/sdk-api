@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_SIMULATIONS, DWRITE_FONT_SIMULATIONS enumeration [Direc
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_FONT_SIMULATIONS"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

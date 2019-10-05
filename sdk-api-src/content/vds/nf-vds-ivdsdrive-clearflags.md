@@ -12,6 +12,8 @@ ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDr
 ms.topic: method
 f1_keywords:
 - vds/IVdsDrive.ClearFlags
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

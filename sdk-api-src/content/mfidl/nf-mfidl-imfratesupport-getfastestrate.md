@@ -12,6 +12,8 @@ ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRat
 ms.topic: method
 f1_keywords:
 - mfidl/IMFRateSupport.GetFastestRate
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType metho
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMedia3.getItemInfoByType"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo 
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetButtonInfo"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

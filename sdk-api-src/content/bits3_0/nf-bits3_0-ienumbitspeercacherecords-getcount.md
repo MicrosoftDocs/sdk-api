@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsP
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IEnumBitsPeerCacheRecords.GetCount"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

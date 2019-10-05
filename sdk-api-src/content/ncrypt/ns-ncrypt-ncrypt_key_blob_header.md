@@ -12,6 +12,8 @@ ms.keywords: "*PNCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCRYPT_KEY_BLOB_HEADER"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

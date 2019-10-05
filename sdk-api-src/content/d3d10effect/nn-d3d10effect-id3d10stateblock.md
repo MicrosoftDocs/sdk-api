@@ -12,6 +12,8 @@ ms.keywords: 23872e09-b63b-11d0-bb95-f57009f0fab6, ID3D10StateBlock, ID3D10State
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10StateBlock"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

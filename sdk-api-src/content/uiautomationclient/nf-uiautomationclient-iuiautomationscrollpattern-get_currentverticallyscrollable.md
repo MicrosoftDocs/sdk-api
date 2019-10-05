@@ -12,6 +12,8 @@ ms.keywords: CurrentVerticallyScrollable property [Windows Accessibility], Curre
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationScrollPattern.CurrentVerticallyScrollable"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

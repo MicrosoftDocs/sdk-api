@@ -12,6 +12,8 @@ ms.keywords: GetRelativeDescriptionType, GetRelativeDescriptionType method [Wind
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetRelativeDescriptionType"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

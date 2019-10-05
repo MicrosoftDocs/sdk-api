@@ -12,6 +12,8 @@ ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATI
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyRevocation
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

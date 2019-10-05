@@ -12,6 +12,8 @@ ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Pe
 ms.topic: function
 f1_keywords:
 - pdh/PdhGetDataSourceTimeRangeH
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofge
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofGetDriverVersion"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

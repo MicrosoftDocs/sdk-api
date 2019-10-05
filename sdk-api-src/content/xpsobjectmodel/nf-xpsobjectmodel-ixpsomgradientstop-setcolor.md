@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetColor
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGradientStop.SetColor"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

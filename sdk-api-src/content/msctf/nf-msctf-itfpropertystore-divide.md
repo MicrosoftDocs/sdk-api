@@ -12,6 +12,8 @@ ms.keywords: Divide, Divide method [Text Services Framework], Divide method [Tex
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPropertyStore.Divide"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

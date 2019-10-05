@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchScop
 ms.topic: method
 f1_keywords: 
  - "searchapi/IEnumSearchScopeRules.Clone"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

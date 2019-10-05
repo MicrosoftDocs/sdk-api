@@ -12,6 +12,8 @@ ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CATSORT_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

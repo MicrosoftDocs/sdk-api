@@ -12,6 +12,8 @@ ms.keywords: "_win32_joyGetPos, joyGetPos, joyGetPos function [Windows Multimedi
 ms.topic: function
 f1_keywords: 
  - "joystickapi/joyGetPos"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

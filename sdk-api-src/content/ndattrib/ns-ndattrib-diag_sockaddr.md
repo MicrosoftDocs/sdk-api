@@ -12,6 +12,8 @@ ms.keywords: "*PDIAG_SOCK_ADDR, DIAG_SOCKADDR, DIAG_SOCKADDR structure [NDF], PD
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/DIAG_SOCKADDR"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: NDHelper.h
 req.target-type: Windows

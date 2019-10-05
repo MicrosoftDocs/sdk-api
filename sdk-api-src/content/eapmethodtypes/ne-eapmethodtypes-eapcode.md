@@ -12,6 +12,8 @@ ms.keywords: EapCode, EapCode enumeration [EAPHost], EapCodeFailure, EapCodeMaxi
 ms.topic: enum
 f1_keywords: 
  - "eapmethodtypes/EapCode"
+dev_langs:
+ - c++
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows

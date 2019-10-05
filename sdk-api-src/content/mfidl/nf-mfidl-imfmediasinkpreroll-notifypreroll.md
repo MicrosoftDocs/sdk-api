@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSinkPreroll.NotifyPreroll"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

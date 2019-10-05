@@ -12,6 +12,8 @@ ms.keywords: ADVF, ADVF enumeration [COM], ADVFCACHE_FORCEBUILTIN, ADVFCACHE_NOH
 ms.topic: enum
 f1_keywords: 
  - "objidl/ADVF"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

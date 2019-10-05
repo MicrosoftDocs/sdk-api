@@ -12,6 +12,8 @@ ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.CreateMediaItemFromURL"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

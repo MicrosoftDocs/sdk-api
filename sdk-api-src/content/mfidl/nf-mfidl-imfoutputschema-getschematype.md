@@ -12,6 +12,8 @@ ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType, GetSchemaType 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputSchema.GetSchemaType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

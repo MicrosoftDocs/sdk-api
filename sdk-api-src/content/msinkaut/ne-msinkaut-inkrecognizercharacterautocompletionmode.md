@@ -12,6 +12,8 @@ ms.keywords: 69677379-6700-4128-9e8e-675a9a61a25e, IRCACM_Full, IRCACM_Prefix, I
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognizerCharacterAutoCompletionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

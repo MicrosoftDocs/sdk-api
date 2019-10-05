@@ -12,6 +12,8 @@ ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetSymbolRate"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

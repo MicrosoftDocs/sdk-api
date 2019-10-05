@@ -12,6 +12,8 @@ ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IPro
 ms.topic: method
 f1_keywords: 
  - "winsync/IProviderConverter.Initialize"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

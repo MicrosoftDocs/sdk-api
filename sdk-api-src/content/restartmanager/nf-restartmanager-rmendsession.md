@@ -12,6 +12,8 @@ ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/R
 ms.topic: function
 f1_keywords: 
  - "restartmanager/RmEndSession"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

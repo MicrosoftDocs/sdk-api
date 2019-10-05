@@ -12,6 +12,8 @@ ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfde
 ms.topic: function
 f1_keywords:
 - perflib/PerfDeleteCounters
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

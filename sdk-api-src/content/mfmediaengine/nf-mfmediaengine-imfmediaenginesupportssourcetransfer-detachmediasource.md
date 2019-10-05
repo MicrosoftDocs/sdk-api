@@ -12,6 +12,8 @@ ms.keywords: DetachMediaSource, DetachMediaSource method [Media Foundation], Det
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineSupportsSourceTransfer.DetachMediaSource"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

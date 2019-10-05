@@ -12,6 +12,8 @@ ms.keywords: EnumProps, EnumProps function [Windows and Messages], EnumPropsA, E
 ms.topic: function
 f1_keywords: 
  - "winuser/EnumProps"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

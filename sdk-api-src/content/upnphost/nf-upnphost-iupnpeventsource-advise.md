@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPE
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPEventSource.Advise"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

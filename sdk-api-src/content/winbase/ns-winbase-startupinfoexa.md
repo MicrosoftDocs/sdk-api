@@ -12,6 +12,8 @@ ms.keywords: '*LPSTARTUPINFOEXA, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure poin
 ms.topic: struct
 f1_keywords:
 - winbase/STARTUPINFOEX
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_F
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_FRAMERATE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

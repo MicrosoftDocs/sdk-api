@@ -12,6 +12,8 @@ ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_HDR
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

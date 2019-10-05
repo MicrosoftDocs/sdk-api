@@ -12,6 +12,8 @@ ms.keywords: WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, W
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemObjectTextFormatEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function
 ms.topic: function
 f1_keywords: 
  - "synchapi/DeleteSynchronizationBarrier"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows

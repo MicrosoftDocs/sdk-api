@@ -12,6 +12,8 @@ ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole
 ms.topic: function
 f1_keywords: 
  - "ole2/CreateDataAdviseHolder"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: ObjBase.h
 req.target-type: Windows

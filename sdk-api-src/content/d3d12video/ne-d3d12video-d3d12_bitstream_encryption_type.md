@@ -8,6 +8,10 @@ ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_BITSTREAM_ENCRYPTION_TYPE
+dev_langs:
+ - c++
 ms.keywords: D3D12_BITSTREAM_ENCRYPTION_TYPE, D3D12_BITSTREAM_ENCRYPTION_TYPE, 
 req.header: d3d12video.h
 req.include-header:

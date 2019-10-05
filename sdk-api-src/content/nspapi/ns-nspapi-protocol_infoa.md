@@ -12,6 +12,8 @@ ms.keywords: "*LPPROTOCOL_INFOA, *PPROTOCOL_INFOA, 0, 0xFFFFFFFF, PROTOCOL_INFO,
 ms.topic: struct
 f1_keywords: 
  - "nspapi/PROTOCOL_INFO"
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

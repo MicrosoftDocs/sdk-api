@@ -12,6 +12,8 @@ ms.keywords: VDS_PARTITION_STYLE, VDS_PARTITION_STYLE enumeration [VDS], VDS_PST
 ms.topic: enum
 f1_keywords:
 - vds/VDS_PARTITION_STYLE
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

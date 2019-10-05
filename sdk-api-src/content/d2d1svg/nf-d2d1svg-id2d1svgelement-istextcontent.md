@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgElement interface [Direct2D],IsTextContent method, ID2D1Svg
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgElement.IsTextContent"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

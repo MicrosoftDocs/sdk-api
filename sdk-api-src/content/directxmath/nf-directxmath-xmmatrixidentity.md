@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixIdentity, XMMatrixIdentity, XMMatrixIdentity m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixIdentity"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

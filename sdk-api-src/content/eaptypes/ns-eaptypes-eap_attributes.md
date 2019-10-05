@@ -12,6 +12,8 @@ ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, 
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

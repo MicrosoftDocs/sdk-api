@@ -6,6 +6,8 @@ ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRate
 ms.topic: language-reference
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList5::RSSetShadingRate"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

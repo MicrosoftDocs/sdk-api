@@ -12,6 +12,8 @@ ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interf
 ms.topic: interface
 f1_keywords: 
  - "icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger"
+dev_langs:
+ - c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows

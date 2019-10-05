@@ -12,6 +12,8 @@ ms.keywords: 7d2d38c0-249d-47c3-acda-ba1bec721a5c, DXVA2_SampleFieldInterleavedE
 ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_SampleFormat
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

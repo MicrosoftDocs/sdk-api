@@ -12,6 +12,8 @@ ms.keywords: TAPI_GATHERTERM, TAPI_GATHERTERM enumeration [TAPI 2.2], TGT_BUFFER
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TAPI_GATHERTERM"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

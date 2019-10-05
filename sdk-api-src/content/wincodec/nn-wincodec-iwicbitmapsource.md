@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Compo
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapSource"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

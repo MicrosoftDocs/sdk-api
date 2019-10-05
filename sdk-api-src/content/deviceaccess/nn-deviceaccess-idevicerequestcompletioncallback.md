@@ -12,6 +12,8 @@ ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback 
 ms.topic: interface
 f1_keywords: 
  - "deviceaccess/IDeviceRequestCompletionCallback"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

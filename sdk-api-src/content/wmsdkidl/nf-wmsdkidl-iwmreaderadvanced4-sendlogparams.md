@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],SendLogParams m
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced4.SendLogParams"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_La
 ms.topic: method
 f1_keywords: 
  - "tuner/ILanguageComponentType.put_LangID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymGetTypeInfo, SymGetTypeInfo function, _win32_symgettypeinfo, bas
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetTypeInfo
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

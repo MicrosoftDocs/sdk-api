@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetGroupTag m
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.SetGroupTag"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAVIEditStream interface [Windows Multimedia],SetInfo method, IAVIE
 ms.topic: method
 f1_keywords:
 - vfw/IAVIEditStream.SetInfo
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

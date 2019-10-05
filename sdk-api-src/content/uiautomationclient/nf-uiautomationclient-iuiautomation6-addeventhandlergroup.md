@@ -12,6 +12,8 @@ ms.keywords: AddEventHandlerGroup, AddEventHandlerGroup method [Windows Accessib
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation6.AddEventHandlerGroup"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

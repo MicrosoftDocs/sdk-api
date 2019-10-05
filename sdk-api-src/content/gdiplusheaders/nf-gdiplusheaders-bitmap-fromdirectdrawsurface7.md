@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],FromDirectDrawSurface7 method, Bitmap.FromDirec
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.FromDirectDrawSurface7"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

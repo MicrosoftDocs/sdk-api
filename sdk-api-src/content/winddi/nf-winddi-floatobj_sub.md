@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_Sub, FLOATOBJ_Sub function [Display Devices], display.floa
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_Sub
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

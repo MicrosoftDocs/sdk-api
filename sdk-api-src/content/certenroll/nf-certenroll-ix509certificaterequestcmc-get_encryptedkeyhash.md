@@ -12,6 +12,8 @@ ms.keywords: EncryptedKeyHash property [Security], EncryptedKeyHash property [Se
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCmc.EncryptedKeyHash"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

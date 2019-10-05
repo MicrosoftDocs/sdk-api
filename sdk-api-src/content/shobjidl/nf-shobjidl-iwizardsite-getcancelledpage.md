@@ -12,6 +12,8 @@ ms.keywords: GetCancelledPage, GetCancelledPage method [Windows Shell], GetCance
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardSite.GetCancelledPage
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

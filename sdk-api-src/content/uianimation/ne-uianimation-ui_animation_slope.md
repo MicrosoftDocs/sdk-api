@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animati
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_SLOPE"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

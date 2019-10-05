@@ -12,6 +12,8 @@ ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback, PD2D1_EFFECT_F
 ms.topic: callback
 f1_keywords: 
  - "d2d1_1/PD2D1_EFFECT_FACTORY"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

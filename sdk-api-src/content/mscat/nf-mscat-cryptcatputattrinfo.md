@@ -12,6 +12,8 @@ ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATPutAttrInfo"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

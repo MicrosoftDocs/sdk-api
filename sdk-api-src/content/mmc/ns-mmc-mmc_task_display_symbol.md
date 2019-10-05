@@ -12,6 +12,8 @@ ms.keywords: MMC_TASK_DISPLAY_SYMBOL, MMC_TASK_DISPLAY_SYMBOL structure [MMC], _
 ms.topic: struct
 f1_keywords:
 - mmc/MMC_TASK_DISPLAY_SYMBOL
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

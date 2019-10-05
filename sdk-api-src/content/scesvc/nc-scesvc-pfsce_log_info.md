@@ -12,6 +12,8 @@ ms.keywords: PFSCE_LOG_INFO, PFSCE_LOG_INFO callback, PFSCE_LOG_INFO callback fu
 ms.topic: callback
 f1_keywords: 
  - "scesvc/PFSCE_LOG_INFO"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

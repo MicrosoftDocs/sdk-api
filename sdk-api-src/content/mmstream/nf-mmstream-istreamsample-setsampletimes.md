@@ -12,6 +12,8 @@ ms.keywords: IStreamSample interface [DirectShow],SetSampleTimes method, IStream
 ms.topic: method
 f1_keywords: 
  - "mmstream/IStreamSample.SetSampleTimes"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

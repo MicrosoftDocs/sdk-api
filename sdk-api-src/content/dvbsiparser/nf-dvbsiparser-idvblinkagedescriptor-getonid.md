@@ -12,6 +12,8 @@ ms.keywords: GetONId, GetONId method [Microsoft TV Technologies], GetONId method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLinkageDescriptor.GetONId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

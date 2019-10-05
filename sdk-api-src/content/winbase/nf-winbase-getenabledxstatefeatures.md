@@ -12,6 +12,8 @@ ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.g
 ms.topic: function
 f1_keywords: 
  - "winbase/GetEnabledXStateFeatures"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

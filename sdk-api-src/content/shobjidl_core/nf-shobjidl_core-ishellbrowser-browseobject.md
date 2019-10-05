@@ -12,6 +12,8 @@ ms.keywords: BrowseObject, BrowseObject method [Windows Shell], BrowseObject met
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellBrowser.BrowseObject
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

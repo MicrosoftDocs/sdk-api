@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodi
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriterEncoderConfig.PlaceEncodingParameters"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_ERROR_PROPERTY, WS_ERROR_PROPERTY structure [Web Services for Wi
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ERROR_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

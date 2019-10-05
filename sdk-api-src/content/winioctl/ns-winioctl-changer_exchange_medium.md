@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHAN
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_EXCHANGE_MEDIUM
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

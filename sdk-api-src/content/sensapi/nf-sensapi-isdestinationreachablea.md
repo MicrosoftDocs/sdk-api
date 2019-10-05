@@ -12,6 +12,8 @@ ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsD
 ms.topic: function
 f1_keywords: 
  - "sensapi/IsDestinationReachable"
+dev_langs:
+ - c++
 req.header: sensapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services 
 ms.topic: struct
 f1_keywords:
 - webservices/WS_UNION_DESCRIPTION
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

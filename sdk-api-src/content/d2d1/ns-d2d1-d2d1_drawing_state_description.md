@@ -12,6 +12,8 @@ ms.keywords: D2D1_DRAWING_STATE_DESCRIPTION, D2D1_DRAWING_STATE_DESCRIPTION stru
 ms.topic: struct
 f1_keywords: 
  - "d2d1/D2D1_DRAWING_STATE_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

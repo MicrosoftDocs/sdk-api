@@ -12,6 +12,8 @@ ms.keywords: IFaxSender, IFaxSender interface [Fax Service], IFaxSender interfac
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxSender"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

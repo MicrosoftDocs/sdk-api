@@ -12,6 +12,8 @@ ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname
 ms.topic: function
 f1_keywords:
 - dbghelp/SymFromName
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

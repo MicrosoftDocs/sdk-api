@@ -12,6 +12,8 @@ ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewNam
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IMultipleViewProvider.GetViewName"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

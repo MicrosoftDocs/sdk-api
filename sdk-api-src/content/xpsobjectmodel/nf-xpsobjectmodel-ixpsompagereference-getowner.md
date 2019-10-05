@@ -12,6 +12,8 @@ ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference.GetOwner"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

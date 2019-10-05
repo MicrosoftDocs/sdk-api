@@ -12,6 +12,8 @@ ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [S
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentSelectionStatus"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_POPULATION_POLICY_ALWAYS_FULL, CF_POPULATION_POLICY_FULL, CF_POP
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_POPULATION_POLICY_PRIMARY"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

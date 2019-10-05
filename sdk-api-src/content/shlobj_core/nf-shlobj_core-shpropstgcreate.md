@@ -12,6 +12,8 @@ ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCre
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHPropStgCreate"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

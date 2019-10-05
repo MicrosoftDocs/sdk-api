@@ -12,6 +12,8 @@ ms.keywords: DXGI_SWAP_CHAIN_DESC1, DXGI_SWAP_CHAIN_DESC1 structure [DXGI], dire
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_2/DXGI_SWAP_CHAIN_DESC1"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

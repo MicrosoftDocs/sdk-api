@@ -12,6 +12,8 @@ ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonDat
 ms.topic: method
 f1_keywords: 
  - "objidl/IROTData.GetComparisonData"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvStrokePath, DrvStrokePath function [Display Devices], ddifncs_73
 ms.topic: function
 f1_keywords:
 - winddi/DrvStrokePath
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

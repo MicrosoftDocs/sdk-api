@@ -12,6 +12,8 @@ ms.keywords: WFDOpenHandle, WFDOpenHandle function [NativeWIFI], nwifi.wfdopenha
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDOpenHandle"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

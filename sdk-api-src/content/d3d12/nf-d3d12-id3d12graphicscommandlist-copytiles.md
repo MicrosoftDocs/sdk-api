@@ -12,6 +12,8 @@ ms.keywords: CopyTiles, CopyTiles method, CopyTiles method,ID3D12GraphicsCommand
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList.CopyTiles"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

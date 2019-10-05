@@ -12,6 +12,8 @@ ms.keywords: FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND, FWPM_ENGINE_OPTION_PACKET_
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmEngineSetOption0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

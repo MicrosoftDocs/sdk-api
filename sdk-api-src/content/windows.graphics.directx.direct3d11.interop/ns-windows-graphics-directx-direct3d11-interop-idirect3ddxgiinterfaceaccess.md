@@ -11,6 +11,8 @@ ms.keywords: IDirect3DDxgiInterfaceAccess, IDirect3DDxgiInterfaceAccess interfac
 ms.topic: interface
 f1_keywords: 
  - "windows.graphics.directx.direct3d11.interop/IDirect3DDxgiInterfaceAccess"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

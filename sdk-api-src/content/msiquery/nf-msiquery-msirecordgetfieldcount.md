@@ -12,6 +12,8 @@ ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msire
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiRecordGetFieldCount"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

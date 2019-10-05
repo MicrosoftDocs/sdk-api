@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVds
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.Reboot"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

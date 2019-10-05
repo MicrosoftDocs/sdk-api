@@ -12,6 +12,8 @@ ms.keywords: COMPRESS_INFORMATION_CLASS, COMPRESS_INFORMATION_CLASS enumeration 
 ms.topic: enum
 f1_keywords: 
  - "compressapi/COMPRESS_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

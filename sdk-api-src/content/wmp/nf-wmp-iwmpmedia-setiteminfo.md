@@ -12,6 +12,8 @@ ms.keywords: IWMPMedia interface [Windows Media Player],setItemInfo method, IWMP
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMedia.setItemInfo"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

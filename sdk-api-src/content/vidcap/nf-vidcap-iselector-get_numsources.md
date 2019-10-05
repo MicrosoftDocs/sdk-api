@@ -12,6 +12,8 @@ ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.g
 ms.topic: method
 f1_keywords: 
  - "vidcap/ISelector.get_NumSources"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

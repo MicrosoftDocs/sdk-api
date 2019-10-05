@@ -12,6 +12,8 @@ ms.keywords: IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], IMFAud
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFAudioPolicy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

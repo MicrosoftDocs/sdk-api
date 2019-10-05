@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],SignalPresent method, IAMTuner.Sign
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.SignalPresent"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property 
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.AllowLogon"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

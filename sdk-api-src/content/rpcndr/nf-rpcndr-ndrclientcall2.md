@@ -12,6 +12,8 @@ ms.keywords: NdrClientCall2, NdrClientCall2 function [RPC], rpc.ndrclientcall2, 
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrClientCall2
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [
 ms.topic: interface
 f1_keywords: 
  - "locationapi/ILocation"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

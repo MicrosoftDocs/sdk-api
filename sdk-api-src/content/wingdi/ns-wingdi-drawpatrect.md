@@ -12,6 +12,8 @@ ms.keywords: "*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], P
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DRAWPATRECT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

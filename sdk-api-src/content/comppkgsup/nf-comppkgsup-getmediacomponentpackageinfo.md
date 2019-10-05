@@ -12,6 +12,8 @@ ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/GetMediaComponentPackageInfo"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

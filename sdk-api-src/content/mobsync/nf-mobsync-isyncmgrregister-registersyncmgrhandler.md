@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler m
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrRegister.RegisterSyncMgrHandler"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

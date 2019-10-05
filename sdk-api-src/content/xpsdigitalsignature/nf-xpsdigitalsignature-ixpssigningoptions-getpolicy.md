@@ -12,6 +12,8 @@ ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolic
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetPolicy"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

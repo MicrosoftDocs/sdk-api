@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, I
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsSubSystemImportTarget.SetImportTarget"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

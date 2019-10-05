@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInStop, mmeapi/waveInStop, multimedia.waveinstop, waveI
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInStop"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

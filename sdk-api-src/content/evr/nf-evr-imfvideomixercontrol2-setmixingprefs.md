@@ -12,6 +12,8 @@ ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs m
 ms.topic: method
 f1_keywords:
 - evr/IMFVideoMixerControl2.SetMixingPrefs
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

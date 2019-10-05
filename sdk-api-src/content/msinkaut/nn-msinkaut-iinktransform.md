@@ -12,6 +12,8 @@ ms.keywords: IInkTransform, IInkTransform interface [Tablet PC], IInkTransform i
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

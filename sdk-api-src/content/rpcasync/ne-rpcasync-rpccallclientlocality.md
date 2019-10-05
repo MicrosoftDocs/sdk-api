@@ -12,6 +12,8 @@ ms.keywords: RpcCallClientLocality, RpcCallClientLocality enumeration [RPC], rcc
 ms.topic: enum
 f1_keywords: 
  - "rpcasync/RpcCallClientLocality"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PXE_BA_CUSTOM, PXE_BA_IGNORE, PXE_BA_NBP, PXE_BA_REJECTED, PxeAsync
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeAsyncRecvDone"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

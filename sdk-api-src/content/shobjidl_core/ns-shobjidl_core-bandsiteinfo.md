@@ -12,6 +12,8 @@ ms.keywords: BANDSITEINFO, BANDSITEINFO structure [Windows Shell], BSIM_STATE, B
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/BANDSITEINFO"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

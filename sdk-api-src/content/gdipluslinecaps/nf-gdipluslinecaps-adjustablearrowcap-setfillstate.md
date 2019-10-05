@@ -12,6 +12,8 @@ ms.keywords: AdjustableArrowCap class [GDI+],SetFillState method, AdjustableArro
 ms.topic: method
 f1_keywords: 
  - "gdipluslinecaps/AdjustableArrowCap.SetFillState"
+dev_langs:
+ - c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

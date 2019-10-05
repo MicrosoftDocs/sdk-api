@@ -12,6 +12,8 @@ ms.keywords: GetDashOffset, GetDashOffset method [GDI+], GetDashOffset method [G
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetDashOffset"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

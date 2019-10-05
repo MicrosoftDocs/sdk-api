@@ -12,6 +12,8 @@ ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_delet
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/DeleteIPAddress"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

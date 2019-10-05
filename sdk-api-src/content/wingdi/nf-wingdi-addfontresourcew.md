@@ -12,6 +12,8 @@ ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResou
 ms.topic: function
 f1_keywords: 
  - "wingdi/AddFontResource"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

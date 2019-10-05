@@ -12,6 +12,8 @@ ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function 
 ms.topic: function
 f1_keywords: 
  - "winuser/SetCoalescableTimer"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

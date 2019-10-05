@@ -12,6 +12,8 @@ ms.keywords: CreateToken, CreateToken callback function [Security], LSA_CREATE_T
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateToken
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

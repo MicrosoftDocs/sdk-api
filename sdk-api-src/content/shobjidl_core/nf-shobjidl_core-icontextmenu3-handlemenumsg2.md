@@ -12,6 +12,8 @@ ms.keywords: HandleMenuMsg2, HandleMenuMsg2 method [Windows Shell], HandleMenuMs
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IContextMenu3.HandleMenuMsg2"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

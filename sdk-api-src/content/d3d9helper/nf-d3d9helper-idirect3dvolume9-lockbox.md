@@ -12,6 +12,8 @@ ms.keywords: 12716af9-b250-6fc9-e8ab-a4053a1ce97a, IDirect3DVolume9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVolume9.LockBox"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

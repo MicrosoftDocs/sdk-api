@@ -12,6 +12,8 @@ ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCA
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlCanonicalize"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

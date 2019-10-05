@@ -12,6 +12,8 @@ ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IUnknown_AtomicRelease"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

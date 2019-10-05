@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES 
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilEnumPrivateProperties"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

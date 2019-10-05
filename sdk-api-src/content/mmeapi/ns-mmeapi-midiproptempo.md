@@ -12,6 +12,8 @@ ms.keywords: "*LPMIDIPROPTEMPO, MIDIPROPTEMPO, MIDIPROPTEMPO structure [Windows 
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIDIPROPTEMPO"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

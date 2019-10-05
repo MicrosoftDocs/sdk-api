@@ -12,6 +12,8 @@ ms.keywords: "*LPCAPDRIVERCAPS, *PCAPDRIVERCAPS, CAPDRIVERCAPS, CAPDRIVERCAPS st
 ms.topic: struct
 f1_keywords: 
  - "vfw/CAPDRIVERCAPS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

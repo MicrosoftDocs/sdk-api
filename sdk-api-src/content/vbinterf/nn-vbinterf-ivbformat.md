@@ -12,6 +12,8 @@ ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM],des
 ms.topic: interface
 f1_keywords: 
  - "vbinterf/IVBFormat"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

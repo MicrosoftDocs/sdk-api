@@ -12,6 +12,8 @@ ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc
 ms.topic: function
 f1_keywords:
 - winddi/DrvAlphaBlend
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

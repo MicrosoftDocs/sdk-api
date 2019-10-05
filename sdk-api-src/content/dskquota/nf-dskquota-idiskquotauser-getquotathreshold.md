@@ -12,6 +12,8 @@ ms.keywords: GetQuotaThreshold, GetQuotaThreshold method [Files], GetQuotaThresh
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetQuotaThreshold"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

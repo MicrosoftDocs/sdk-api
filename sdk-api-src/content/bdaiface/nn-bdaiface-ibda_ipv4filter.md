@@ -12,6 +12,8 @@ ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologi
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_IPV4Filter"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

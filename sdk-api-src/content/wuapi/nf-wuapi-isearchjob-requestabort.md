@@ -12,6 +12,8 @@ ms.keywords: ISearchJob interface [Windows Update Agent],RequestAbort method, IS
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISearchJob.RequestAbort"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

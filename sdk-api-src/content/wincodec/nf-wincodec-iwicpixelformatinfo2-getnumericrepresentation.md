@@ -12,6 +12,8 @@ ms.keywords: GetNumericRepresentation, GetNumericRepresentation method [Windows 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPixelFormatInfo2.GetNumericRepresentation"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

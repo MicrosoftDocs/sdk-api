@@ -12,6 +12,8 @@ ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget 
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropTarget.DragOver"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

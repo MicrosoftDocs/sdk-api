@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncM
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.UpdateItem"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

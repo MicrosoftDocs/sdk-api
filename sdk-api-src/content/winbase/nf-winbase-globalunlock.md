@@ -12,6 +12,8 @@ ms.keywords: GlobalUnlock, GlobalUnlock function, _win32_globalunlock, base.glob
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalUnlock"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

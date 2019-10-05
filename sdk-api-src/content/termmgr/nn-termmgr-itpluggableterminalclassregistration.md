@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegis
 ms.topic: interface
 f1_keywords: 
  - "termmgr/ITPluggableTerminalClassRegistration"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

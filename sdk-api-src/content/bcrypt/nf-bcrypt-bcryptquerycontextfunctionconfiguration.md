@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BC
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptQueryContextFunctionConfiguration
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

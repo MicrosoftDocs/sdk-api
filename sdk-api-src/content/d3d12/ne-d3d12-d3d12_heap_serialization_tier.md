@@ -7,6 +7,8 @@ ms.keywords: D3D12_HEAP_SERIALIZATION_TIER
 ms.topic: language-reference
 f1_keywords: 
  - "d3d12/D3D12_HEAP_SERIALIZATION_TIER"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Stop metho
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_NullTransform.Stop"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

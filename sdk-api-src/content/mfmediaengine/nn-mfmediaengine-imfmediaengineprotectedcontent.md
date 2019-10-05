@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent inte
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineProtectedContent"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

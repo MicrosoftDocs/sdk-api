@@ -12,6 +12,8 @@ ms.keywords: D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS, D3D12_RENDER_P
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

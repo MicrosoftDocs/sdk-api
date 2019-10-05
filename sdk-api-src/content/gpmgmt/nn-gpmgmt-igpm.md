@@ -12,6 +12,8 @@ ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, 
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPM"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

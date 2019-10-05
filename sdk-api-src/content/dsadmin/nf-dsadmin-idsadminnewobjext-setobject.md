@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, ID
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjExt.SetObject"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

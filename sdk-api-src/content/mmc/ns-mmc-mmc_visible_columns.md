@@ -12,6 +12,8 @@ ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _slate_mm
 ms.topic: struct
 f1_keywords: 
  - "mmc/MMC_VISIBLE_COLUMNS"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

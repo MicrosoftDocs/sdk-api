@@ -12,6 +12,8 @@ ms.keywords: Aborting, Answered, Available, Bad Address, Busy, Call Blacklisted,
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.DeviceStatus"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

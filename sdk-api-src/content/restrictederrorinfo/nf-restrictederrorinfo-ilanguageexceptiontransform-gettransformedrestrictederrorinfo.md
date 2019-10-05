@@ -12,6 +12,8 @@ ms.keywords: GetTransformedRestrictedErrorInfo, GetTransformedRestrictedErrorInf
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

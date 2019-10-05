@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],SourceTemp
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreen.SourceTemplateName"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

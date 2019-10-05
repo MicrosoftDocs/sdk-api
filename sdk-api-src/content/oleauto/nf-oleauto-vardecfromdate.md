@@ -12,6 +12,8 @@ ms.keywords: VarDecFromDate, VarDecFromDate function [Automation], _oa96_VarDecF
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecFromDate"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL,
 ms.topic: function
 f1_keywords: 
  - "winuser/GetScrollRange"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

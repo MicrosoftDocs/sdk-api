@@ -12,6 +12,8 @@ ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsareseteve
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAResetEvent"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

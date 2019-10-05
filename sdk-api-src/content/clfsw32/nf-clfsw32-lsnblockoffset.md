@@ -12,6 +12,8 @@ ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOf
 ms.topic: function
 f1_keywords:
 - clfsw32/LsnBlockOffset
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

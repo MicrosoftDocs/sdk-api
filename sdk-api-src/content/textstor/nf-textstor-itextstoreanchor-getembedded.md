@@ -12,6 +12,8 @@ ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVIC
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.GetEmbedded"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

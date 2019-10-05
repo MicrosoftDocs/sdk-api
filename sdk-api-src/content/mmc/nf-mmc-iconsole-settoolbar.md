@@ -12,6 +12,8 @@ ms.keywords: IConsole interface [MMC],SetToolbar method, IConsole.SetToolbar, IC
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole.SetToolbar"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

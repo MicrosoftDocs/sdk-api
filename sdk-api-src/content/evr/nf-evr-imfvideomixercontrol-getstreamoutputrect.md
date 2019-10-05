@@ -12,6 +12,8 @@ ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect, GetStrea
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoMixerControl.GetStreamOutputRect"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged functi
 ms.topic: function
 f1_keywords: 
  - "joystickapi/joyConfigChanged"
+dev_langs:
+ - c++
 req.header: joystickapi.h
 req.include-header: Dinput.h
 req.target-type: Windows

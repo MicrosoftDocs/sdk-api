@@ -12,6 +12,8 @@ ms.keywords: CachedChildId property [Windows Accessibility], CachedChildId prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedChildId"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

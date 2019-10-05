@@ -12,6 +12,8 @@ ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizers.GetDefaultRecognizer"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

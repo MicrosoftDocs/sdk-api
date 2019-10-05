@@ -12,6 +12,8 @@ ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetNestLevel"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

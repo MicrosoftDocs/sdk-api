@@ -12,6 +12,8 @@ ms.keywords: GetColorSet, GetColorSet method [COM], GetColorSet method [COM],IVi
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.GetColorSet"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

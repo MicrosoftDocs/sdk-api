@@ -12,6 +12,8 @@ ms.keywords: WTHelperGetProvPrivateDataFromChain, WTHelperGetProvPrivateDataFrom
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperGetProvPrivateDataFromChain
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

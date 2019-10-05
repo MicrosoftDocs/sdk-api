@@ -12,6 +12,8 @@ ms.keywords: AMTUNER_MODE_AM_RADIO, AMTUNER_MODE_DEFAULT, AMTUNER_MODE_DSS, AMTU
 ms.topic: enum
 f1_keywords: 
  - "strmif/AMTunerModeType"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

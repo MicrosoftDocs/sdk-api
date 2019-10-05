@@ -12,6 +12,8 @@ ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQue
 ms.topic: interface
 f1_keywords: 
  - "cmnquery/ICommonQuery"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

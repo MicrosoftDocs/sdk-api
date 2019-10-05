@@ -12,6 +12,8 @@ ms.keywords: 03babb38-8c88-954d-43c3-eb8942a15d5a, ID3D10EffectConstantBuffer, I
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectConstantBuffer"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

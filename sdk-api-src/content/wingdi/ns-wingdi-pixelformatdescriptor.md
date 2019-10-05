@@ -12,6 +12,8 @@ ms.keywords: "*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESC
 ms.topic: struct
 f1_keywords: 
  - "wingdi/PIXELFORMATDESCRIPTOR"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

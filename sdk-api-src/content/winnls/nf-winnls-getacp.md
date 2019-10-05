@@ -12,6 +12,8 @@ ms.keywords: GetACP, GetACP function [Internationalization for Windows Applicati
 ms.topic: function
 f1_keywords: 
  - "winnls/GetACP"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

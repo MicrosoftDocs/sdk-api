@@ -12,6 +12,8 @@ ms.keywords: IFaxAccounts interface [Fax Service],get_Item method, IFaxAccounts.
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccounts.get_Item"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

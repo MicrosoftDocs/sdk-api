@@ -12,6 +12,8 @@ ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [D
 ms.topic: function
 f1_keywords: 
  - "lmdfs/NetDfsMove"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum proper
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfigurationCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

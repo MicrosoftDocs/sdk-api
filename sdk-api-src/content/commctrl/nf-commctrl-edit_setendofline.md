@@ -12,6 +12,8 @@ ms.keywords: Edit_SetEndOfLine, Edit_SetEndOfLine macro [Windows Controls], comm
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_SetEndOfLine"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

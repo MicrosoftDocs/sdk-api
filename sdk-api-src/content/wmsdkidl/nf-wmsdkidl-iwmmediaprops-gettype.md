@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [windows Media Format], GetType method [win
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMMediaProps.GetType"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetNumberOfStreams"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

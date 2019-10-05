@@ -12,6 +12,8 @@ ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem functi
 ms.topic: function
 f1_keywords:
 - shobjidl_core/SHSetTemporaryPropertyForItem
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ListBox_SelectItemData, ListBox_SelectItemData macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_SelectItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

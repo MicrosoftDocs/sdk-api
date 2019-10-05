@@ -12,6 +12,8 @@ ms.keywords: AVIPutFileOnClipboard, AVIPutFileOnClipboard function [Windows Mult
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIPutFileOnClipboard"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method 
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControl.GetControlInfo"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

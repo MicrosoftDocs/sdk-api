@@ -12,6 +12,8 @@ ms.keywords: IDMLCommandRecorder, IDMLCommandRecorder interface, IDMLCommandReco
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLCommandRecorder"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

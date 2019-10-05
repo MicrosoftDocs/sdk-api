@@ -12,6 +12,8 @@ ms.keywords: AddMemoryFont, AddMemoryFont method [GDI+], AddMemoryFont method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/PrivateFontCollection.AddMemoryFont"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Fai
 ms.topic: callback
 f1_keywords: 
  - "resapi/QuorumResourceLost"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

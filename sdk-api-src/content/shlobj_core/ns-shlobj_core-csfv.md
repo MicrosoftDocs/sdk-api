@@ -12,6 +12,8 @@ ms.keywords: "*LPCSFV, CSFV, CSFV structure [Windows Shell], LPCSFV, LPCSFV stru
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/CSFV"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

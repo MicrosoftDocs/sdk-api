@@ -12,6 +12,8 @@ ms.keywords: '*PSESSION_HEADER, PSESSION_HEADER, PSESSION_HEADER structure point
 ms.topic: struct
 f1_keywords:
 - nb30/SESSION_HEADER
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

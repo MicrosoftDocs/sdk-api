@@ -12,6 +12,8 @@ ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeaf
 ms.topic: method
 f1_keywords:
 - structuredquerycondition/ICondition2.GetLeafConditionInfo
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

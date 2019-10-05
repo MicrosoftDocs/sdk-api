@@ -12,6 +12,8 @@ ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilde
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IStrokeBuilder"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

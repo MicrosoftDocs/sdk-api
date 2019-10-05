@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_BUS_TYPE, BusType1394, BusTypeAta, BusTypeAtapi, BusType
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_BUS_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

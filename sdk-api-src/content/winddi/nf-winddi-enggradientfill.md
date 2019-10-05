@@ -12,6 +12,8 @@ ms.keywords: EngGradientFill, EngGradientFill function [Display Devices], displa
 ms.topic: function
 f1_keywords:
 - winddi/EngGradientFill
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

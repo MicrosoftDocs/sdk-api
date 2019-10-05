@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.S
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetApplicationName"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

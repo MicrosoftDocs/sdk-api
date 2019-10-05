@@ -12,6 +12,8 @@ ms.keywords: "*PADS_TIMESTAMP, ADS_TIMESTAMP, ADS_TIMESTAMP structure [ADSI], PA
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_TIMESTAMP"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

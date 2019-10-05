@@ -12,6 +12,8 @@ ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], fi
 ms.topic: struct
 f1_keywords: 
  - "filtereg/FILTERED_DATA_SOURCES"
+dev_langs:
+ - c++
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows

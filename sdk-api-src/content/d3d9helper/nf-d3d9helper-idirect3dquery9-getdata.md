@@ -12,6 +12,8 @@ ms.keywords: 61a50651-865a-2305-3acc-ca22ba941030, GetData, GetData method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DQuery9.GetData"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

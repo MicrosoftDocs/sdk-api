@@ -12,6 +12,8 @@ ms.keywords: DdUnattachSurface, DdUnattachSurface function [Windows API], GdiEnt
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdUnattachSurface"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FALSE, SCRIPT_ANALYSIS, SCRIPT_ANALYSIS structure [Internationaliza
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_ANALYSIS"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

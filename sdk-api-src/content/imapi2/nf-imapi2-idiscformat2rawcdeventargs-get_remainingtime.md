@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_RemainingTime meth
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2RawCDEventArgs.get_RemainingTime"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

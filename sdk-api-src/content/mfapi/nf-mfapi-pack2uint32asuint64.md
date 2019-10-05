@@ -12,6 +12,8 @@ ms.keywords: Pack2UINT32AsUINT64, Pack2UINT32AsUINT64 function [Media Foundation
 ms.topic: function
 f1_keywords: 
  - "mfapi/Pack2UINT32AsUINT64"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

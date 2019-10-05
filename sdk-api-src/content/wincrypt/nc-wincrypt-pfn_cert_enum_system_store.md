@@ -12,6 +12,8 @@ ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, C
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObje
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IEnumEventObject"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

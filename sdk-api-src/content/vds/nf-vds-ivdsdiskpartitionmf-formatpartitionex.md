@@ -12,6 +12,8 @@ ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx meth
 ms.topic: method
 f1_keywords:
 - vds/IVdsDiskPartitionMF.FormatPartitionEx
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

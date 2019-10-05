@@ -12,6 +12,8 @@ ms.keywords: MF_BYTE_STREAM_CACHE_RANGE, MF_BYTE_STREAM_CACHE_RANGE structure [M
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MF_BYTE_STREAM_CACHE_RANGE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

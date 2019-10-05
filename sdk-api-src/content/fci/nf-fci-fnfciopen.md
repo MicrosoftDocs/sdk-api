@@ -12,6 +12,8 @@ ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fn
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIOPEN"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

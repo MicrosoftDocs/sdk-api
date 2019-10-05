@@ -12,6 +12,8 @@ ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexByteStreams meth
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.SetIndexByteStreams"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

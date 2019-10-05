@@ -12,6 +12,8 @@ ms.keywords: PointF class [GDI+],operator+ method, PointF.operator+, PointF.oper
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/PointF.operator+"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

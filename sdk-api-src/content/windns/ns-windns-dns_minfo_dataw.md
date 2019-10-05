@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAW, DNS_MINFO_DATA, DNS_MINFO_DAT
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_MINFO_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

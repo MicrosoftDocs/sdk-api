@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTVDISPINFOW, LPNMTVDISPINFO, LPNMTVDISPINFO structure pointer
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTVDISPINFO
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

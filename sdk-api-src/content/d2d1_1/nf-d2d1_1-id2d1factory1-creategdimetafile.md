@@ -12,6 +12,8 @@ ms.keywords: CreateGdiMetafile, CreateGdiMetafile method [Direct2D], CreateGdiMe
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Factory1.CreateGdiMetafile"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

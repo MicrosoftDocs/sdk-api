@@ -12,6 +12,8 @@ ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePr
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathMakePretty"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "winnls/GetThreadLocale"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

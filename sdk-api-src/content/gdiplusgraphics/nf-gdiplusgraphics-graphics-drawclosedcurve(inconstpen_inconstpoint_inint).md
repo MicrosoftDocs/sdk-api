@@ -12,6 +12,8 @@ ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve met
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawClosedCurve"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

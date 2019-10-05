@@ -12,6 +12,8 @@ ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_Ge
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_GetItem"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

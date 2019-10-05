@@ -12,6 +12,8 @@ ms.keywords: Aborted, AccessDenied, FileNotFound, FontFamilyNotFound, FontStyleN
 ms.topic: enum
 f1_keywords: 
  - "gdiplustypes/Status"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

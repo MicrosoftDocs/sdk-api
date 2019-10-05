@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroun
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamCacheControl2.IsBackgroundTransferActive"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timeget
 ms.topic: function
 f1_keywords: 
  - "timeapi/timeGetDevCaps"
+dev_langs:
+ - c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

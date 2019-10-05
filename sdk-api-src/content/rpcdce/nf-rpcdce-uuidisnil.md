@@ -12,6 +12,8 @@ ms.keywords: UuidIsNil, UuidIsNil function [RPC], _rpc_uuidisnil, rpc.uuidisnil,
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidIsNil"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometa
 ms.topic: function
 f1_keywords: 
  - "rometadataresolution/RoParseTypeName"
+dev_langs:
+ - c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

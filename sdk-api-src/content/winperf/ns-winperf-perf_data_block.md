@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_DATA_BLOCK, PERF_DATA_BLOCK, PERF_DATA_BLOCK structure [Per
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_DATA_BLOCK
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

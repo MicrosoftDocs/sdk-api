@@ -12,6 +12,8 @@ ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure po
 ms.topic: struct
 f1_keywords: 
  - "wcndevice/WCN_VENDOR_EXTENSION_SPEC"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

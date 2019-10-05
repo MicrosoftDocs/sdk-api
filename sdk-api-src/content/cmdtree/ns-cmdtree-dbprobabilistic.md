@@ -12,6 +12,8 @@ ms.keywords: DBPROBABILISTIC, DBPROBABILISTIC structure [Indexing Service], _idx
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBPROBABILISTIC"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

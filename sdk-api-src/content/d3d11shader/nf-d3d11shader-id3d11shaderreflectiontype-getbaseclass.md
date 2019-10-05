@@ -12,6 +12,8 @@ ms.keywords: GetBaseClass, GetBaseClass method [Direct3D 11], GetBaseClass metho
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.GetBaseClass"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

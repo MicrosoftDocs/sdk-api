@@ -12,6 +12,8 @@ ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/Ol
 ms.topic: function
 f1_keywords: 
  - "ole2/OleLoad"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

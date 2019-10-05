@@ -12,6 +12,8 @@ ms.keywords: 85a71d10-ae0f-bdc3-e929-6d1ff3c0b356, D3DVSHADERCAPS2_0, D3DVSHADER
 ms.topic: struct
 f1_keywords:
 - d3d9caps/D3DVSHADERCAPS2_0
+dev_langs:
+ - c++
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzf
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzFreeHandle"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

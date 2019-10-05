@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_PRIVILEGES
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

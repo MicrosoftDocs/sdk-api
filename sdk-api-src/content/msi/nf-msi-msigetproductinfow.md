@@ -12,6 +12,8 @@ ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPRO
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetProductInfo"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PNL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE
 ms.topic: struct
 f1_keywords: 
  - "nldef/NL_INTERFACE_OFFLOAD_ROD"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

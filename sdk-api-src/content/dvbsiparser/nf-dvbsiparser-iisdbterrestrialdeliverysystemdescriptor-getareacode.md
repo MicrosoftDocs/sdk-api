@@ -12,6 +12,8 @@ ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAre
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

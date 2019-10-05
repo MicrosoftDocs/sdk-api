@@ -12,6 +12,8 @@ ms.keywords: IStylusPlugin interface [Tablet PC],Packets method, IStylusPlugin.P
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.Packets"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "eventsys/IMultiInterfacePublisherFilter.Initialize"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

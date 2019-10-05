@@ -12,6 +12,8 @@ ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData met
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetUserData"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

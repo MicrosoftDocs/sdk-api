@@ -12,6 +12,8 @@ ms.keywords: SetMiterLimit, SetMiterLimit function [Windows GDI], _win32_SetMite
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetMiterLimit"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

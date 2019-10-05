@@ -12,6 +12,8 @@ ms.keywords: FontCollection, FontCollection class [GDI+],FontCollection construc
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontCollection.FontCollection"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

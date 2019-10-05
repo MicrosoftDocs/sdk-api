@@ -12,6 +12,8 @@ ms.keywords: Apply, Apply method [Windows Controls], Apply method [Windows Contr
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.Apply"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

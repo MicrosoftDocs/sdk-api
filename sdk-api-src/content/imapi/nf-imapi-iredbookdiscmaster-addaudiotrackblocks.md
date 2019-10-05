@@ -12,6 +12,8 @@ ms.keywords: AddAudioTrackBlocks, AddAudioTrackBlocks method [IMAPI], AddAudioTr
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.AddAudioTrackBlocks"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

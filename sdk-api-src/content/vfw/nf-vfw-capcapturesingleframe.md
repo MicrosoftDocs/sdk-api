@@ -12,6 +12,8 @@ ms.keywords: "_win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSin
 ms.topic: macro
 f1_keywords: 
  - "vfw/capCaptureSingleFrame"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

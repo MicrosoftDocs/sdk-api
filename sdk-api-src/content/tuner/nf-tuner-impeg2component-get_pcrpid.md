@@ -12,6 +12,8 @@ ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_PCRPID me
 ms.topic: method
 f1_keywords: 
  - "tuner/IMPEG2Component.get_PCRPID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

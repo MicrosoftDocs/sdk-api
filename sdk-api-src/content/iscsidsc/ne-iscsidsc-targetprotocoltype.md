@@ -12,6 +12,8 @@ ms.keywords: "*PTARGETPROTOCOLTYPE, ISCSI_TCP_PROTOCOL_TYPE, TARGETPROTOCOLTYPE,
 ms.topic: enum
 f1_keywords: 
  - "iscsidsc/TARGETPROTOCOLTYPE"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

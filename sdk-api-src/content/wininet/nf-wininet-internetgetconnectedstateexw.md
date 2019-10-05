@@ -12,6 +12,8 @@ ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_C
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetGetConnectedStateEx"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

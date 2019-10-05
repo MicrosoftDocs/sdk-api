@@ -12,6 +12,8 @@ ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "shlwapi/IQueryAssociations"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

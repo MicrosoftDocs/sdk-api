@@ -12,6 +12,8 @@ ms.keywords: GetSearchStyle, GetSearchStyle method [Windows Shell], GetSearchSty
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/ISearchContext.GetSearchStyle"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

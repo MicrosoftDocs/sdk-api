@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnStatusC
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetworkNotificationSink.OnStatusChange"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

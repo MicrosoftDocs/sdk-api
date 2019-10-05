@@ -12,6 +12,8 @@ ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastruc
 ms.topic: struct
 f1_keywords:
 - mi/MI_DatetimeA
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

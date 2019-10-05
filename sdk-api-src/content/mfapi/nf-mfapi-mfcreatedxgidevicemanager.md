@@ -12,6 +12,8 @@ ms.keywords: MFCreateDXGIDeviceManager, MFCreateDXGIDeviceManager function [Medi
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateDXGIDeviceManager"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

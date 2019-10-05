@@ -12,6 +12,8 @@ ms.keywords: NS_DLL_STOP_FN, NS_DLL_STOP_FN callback, NS_DLL_STOP_FN callback fu
 ms.topic: callback
 f1_keywords:
 - netsh/NS_DLL_STOP_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

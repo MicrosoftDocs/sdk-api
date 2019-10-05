@@ -12,6 +12,8 @@ ms.keywords: '*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_T
 ms.topic: struct
 f1_keywords:
 - ras/RASIKEV2_PROJECTION_INFO
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

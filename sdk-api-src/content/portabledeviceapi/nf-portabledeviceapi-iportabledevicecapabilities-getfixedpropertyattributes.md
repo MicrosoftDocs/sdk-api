@@ -12,6 +12,8 @@ ms.keywords: GetFixedPropertyAttributes, GetFixedPropertyAttributes method [Wind
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceCapabilities.GetFixedPropertyAttributes"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

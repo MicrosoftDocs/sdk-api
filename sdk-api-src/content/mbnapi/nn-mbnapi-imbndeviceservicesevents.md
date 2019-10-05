@@ -12,6 +12,8 @@ ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnDeviceServicesEvents"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

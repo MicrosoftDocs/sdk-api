@@ -12,6 +12,8 @@ ms.keywords: ADsEnumerateNext, ADsEnumerateNext function [ADSI], _ds_adsenumerat
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsEnumerateNext"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

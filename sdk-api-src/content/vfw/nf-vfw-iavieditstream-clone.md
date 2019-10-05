@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Multimedia], Clone method [Windows Mul
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIEditStream.Clone"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

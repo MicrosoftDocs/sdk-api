@@ -12,6 +12,8 @@ ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure po
 ms.topic: struct
 f1_keywords: 
  - "oaidl/SAFEARRAYBOUND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

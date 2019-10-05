@@ -12,6 +12,8 @@ ms.keywords: INetFwPolicy2 interface [ICS/ICF],UnicastResponsesToMulticastBroadc
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: FirewallAPI.h, Netfw.h
 req.target-type: Windows

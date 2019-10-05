@@ -12,6 +12,8 @@ ms.keywords: "*LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO structure
 ms.topic: struct
 f1_keywords: 
  - "ddrawint/VIDEOMEMORYINFO"
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

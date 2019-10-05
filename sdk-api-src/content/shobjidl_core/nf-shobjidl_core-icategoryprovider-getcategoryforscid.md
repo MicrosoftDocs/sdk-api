@@ -12,6 +12,8 @@ ms.keywords: GetCategoryForSCID, GetCategoryForSCID method [Windows Shell], GetC
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICategoryProvider.GetCategoryForSCID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NTMS_IEPORTINFORMATION, NTMS_IEPORTINFORMATION structure [Files], N
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_IEPORTINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

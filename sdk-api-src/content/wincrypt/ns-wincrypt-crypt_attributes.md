@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_ATTR, *PCRYPT_ATTRIBUTES, CMSG_ATTR, CMSG_ATTR structure [S
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

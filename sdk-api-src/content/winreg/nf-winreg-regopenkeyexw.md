@@ -12,6 +12,8 @@ ms.keywords: REG_OPTION_OPEN_LINK, RegOpenKeyEx, RegOpenKeyEx function, RegOpenK
 ms.topic: function
 f1_keywords: 
  - "winreg/RegOpenKeyEx"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

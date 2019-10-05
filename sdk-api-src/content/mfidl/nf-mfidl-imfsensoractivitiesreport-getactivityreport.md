@@ -12,6 +12,8 @@ ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorActivitiesReport.GetActivityReport"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

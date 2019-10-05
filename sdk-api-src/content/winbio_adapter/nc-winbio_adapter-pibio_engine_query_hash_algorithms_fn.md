@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms 
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterQueryHashAlgorithms
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

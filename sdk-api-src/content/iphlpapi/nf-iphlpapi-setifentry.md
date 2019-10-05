@@ -12,6 +12,8 @@ ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIf
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetIfEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

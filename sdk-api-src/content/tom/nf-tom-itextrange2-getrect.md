@@ -12,6 +12,8 @@ ms.keywords: GetRect, GetRect method [Windows Controls], GetRect method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetRect"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.HitTestCircle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

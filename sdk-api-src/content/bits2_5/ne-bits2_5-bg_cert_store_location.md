@@ -12,6 +12,8 @@ ms.keywords: BG_CERT_STORE_LOCATION, BG_CERT_STORE_LOCATION enumeration [BITS], 
 ms.topic: enum
 f1_keywords: 
  - "bits2_5/BG_CERT_STORE_LOCATION"
+dev_langs:
+ - c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

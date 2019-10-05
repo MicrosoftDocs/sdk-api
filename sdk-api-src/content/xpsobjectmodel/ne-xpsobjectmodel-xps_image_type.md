@@ -12,6 +12,8 @@ ms.keywords: XPS_IMAGE_TYPE, XPS_IMAGE_TYPE enumeration [XPS Documents and Packa
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_IMAGE_TYPE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, A
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.AddCustomStylusDataToQueue"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

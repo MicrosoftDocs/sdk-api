@@ -12,6 +12,8 @@ ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.check
 ms.topic: function
 f1_keywords: 
  - "wsdevlicensing/CheckDeveloperLicense"
+dev_langs:
+ - c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows

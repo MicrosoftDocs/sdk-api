@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_I
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/LSA_LAST_INTER_LOGON_INFO"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

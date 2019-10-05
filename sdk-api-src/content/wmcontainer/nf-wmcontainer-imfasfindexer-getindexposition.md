@@ -12,6 +12,8 @@ ms.keywords: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78, GetIndexPosition, GetIndexPos
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.GetIndexPosition"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

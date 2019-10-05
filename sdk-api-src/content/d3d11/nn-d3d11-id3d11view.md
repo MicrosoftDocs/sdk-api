@@ -12,6 +12,8 @@ ms.keywords: 0332b528-6d94-2603-1e1b-65d4d541f94f, ID3D11View, ID3D11View interf
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11View"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoDisplayControl"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

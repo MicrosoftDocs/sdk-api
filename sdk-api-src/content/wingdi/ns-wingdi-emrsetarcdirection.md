@@ -12,6 +12,8 @@ ms.keywords: "*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION struc
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSETARCDIRECTION"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

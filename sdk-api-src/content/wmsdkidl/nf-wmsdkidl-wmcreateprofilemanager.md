@@ -12,6 +12,8 @@ ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Me
 ms.topic: function
 f1_keywords: 
  - "wmsdkidl/WMCreateProfileManager"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMIsAvailableOffline, WMIsAvailableOffline function [windows Media 
 ms.topic: function
 f1_keywords: 
  - "wmsdkvalidate/WMIsAvailableOffline"
+dev_langs:
+ - c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWABObject interface [Windows Address Book],VCardDisplay method, IW
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.VCardDisplay"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

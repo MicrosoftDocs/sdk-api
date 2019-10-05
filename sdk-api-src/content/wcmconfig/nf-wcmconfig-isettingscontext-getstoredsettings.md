@@ -12,6 +12,8 @@ ms.keywords: GetStoredSettings, GetStoredSettings method [SMI], GetStoredSetting
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsContext.GetStoredSettings"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

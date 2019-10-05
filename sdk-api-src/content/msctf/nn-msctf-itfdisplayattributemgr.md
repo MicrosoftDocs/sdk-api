@@ -12,6 +12,8 @@ ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Serv
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfDisplayAttributeMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

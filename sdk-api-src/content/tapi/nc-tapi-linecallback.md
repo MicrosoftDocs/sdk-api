@@ -12,6 +12,8 @@ ms.keywords: LINECALLBACK, LINECALLBACK callback function [TAPI 2.2], _tapi2_lin
 ms.topic: callback
 f1_keywords: 
  - "tapi/LINECALLBACK"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

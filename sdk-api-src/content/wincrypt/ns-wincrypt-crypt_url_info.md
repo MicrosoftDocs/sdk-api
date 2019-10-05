@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Securi
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_URL_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

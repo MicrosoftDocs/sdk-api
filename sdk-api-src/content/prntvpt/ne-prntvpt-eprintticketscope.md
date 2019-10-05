@@ -12,6 +12,8 @@ ms.keywords: EPrintTicketScope, EPrintTicketScope enumeration [Windows GDI], _wi
 ms.topic: enum
 f1_keywords: 
  - "prntvpt/EPrintTicketScope"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

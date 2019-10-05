@@ -12,6 +12,8 @@ ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Stru
 ms.topic: function
 f1_keywords: 
  - "coml2api/CreateILockBytesOnHGlobal"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

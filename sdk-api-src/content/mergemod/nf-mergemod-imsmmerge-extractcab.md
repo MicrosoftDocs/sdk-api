@@ -12,6 +12,8 @@ ms.keywords: ExtractCAB, ExtractCAB method, ExtractCAB method,IMsmMerge interfac
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.ExtractCAB"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

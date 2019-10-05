@@ -12,6 +12,8 @@ ms.keywords: ListView_MoveItemToGroup, ListView_MoveItemToGroup macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_MoveItemToGroup"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

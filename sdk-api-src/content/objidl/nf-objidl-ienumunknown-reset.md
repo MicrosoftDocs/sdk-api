@@ -12,6 +12,8 @@ ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnu
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumUnknown.Reset"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

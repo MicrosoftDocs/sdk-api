@@ -12,6 +12,8 @@ ms.keywords: WSDXMLGetNameFromBuiltinNamespace, WSDXMLGetNameFromBuiltinNamespac
 ms.topic: function
 f1_keywords:
 - wsdxml/WSDXMLGetNameFromBuiltinNamespace
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows

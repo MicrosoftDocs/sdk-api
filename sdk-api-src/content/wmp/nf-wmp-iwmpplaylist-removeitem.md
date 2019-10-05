@@ -12,6 +12,8 @@ ms.keywords: IWMPPlaylist interface [Windows Media Player],removeItem method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlaylist.removeItem"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

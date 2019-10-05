@@ -12,6 +12,8 @@ ms.keywords: RESPONSEBODY_GetStatus, RESPONSEBODY_GetStatus structure, ncd.respo
 ms.topic: struct
 f1_keywords:
 - wsdtypes/RESPONSEBODY_GetStatus
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

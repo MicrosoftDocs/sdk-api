@@ -12,6 +12,8 @@ ms.keywords: CreateAutoApplyQuota, CreateAutoApplyQuota method [File Server Reso
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaManager.CreateAutoApplyQuota"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

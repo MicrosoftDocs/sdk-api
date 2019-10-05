@@ -12,6 +12,8 @@ ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMO
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMOverlayFX.QueryOverlayFXCaps"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

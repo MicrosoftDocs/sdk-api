@@ -12,6 +12,8 @@ ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount functi
 ms.topic: function
 f1_keywords: 
  - "winbase/GetMaximumProcessorGroupCount"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

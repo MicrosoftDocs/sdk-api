@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerConfigBlob2Xml, EapHostPeerConfigBlob2Xml function [EAPH
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml
+dev_langs:
+ - c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

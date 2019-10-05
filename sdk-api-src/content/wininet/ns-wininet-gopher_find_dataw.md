@@ -12,6 +12,8 @@ ms.keywords: "*LPGOPHER_FIND_DATAW, GOPHER_FIND_DATA, GOPHER_FIND_DATA structure
 ms.topic: struct
 f1_keywords: 
  - "wininet/GOPHER_FIND_DATA"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Righ
 ms.topic: struct
 f1_keywords: 
  - "msdrmdefs/DRM_ACTSERV_INFO"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

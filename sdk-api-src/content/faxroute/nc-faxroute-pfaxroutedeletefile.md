@@ -12,6 +12,8 @@ ms.keywords: FaxRouteDeleteFile, FaxRouteDeleteFile callback function [Fax Servi
 ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteDeleteFile
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPWSANAMESPACE_INFOEXW, *PWSANAMESPACE_INFOEXW, LPWSANAMESPACE_IN
 ms.topic: struct
 f1_keywords:
 - winsock2/WSANAMESPACE_INFOEX
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

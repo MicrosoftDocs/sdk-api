@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Wi
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetString"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

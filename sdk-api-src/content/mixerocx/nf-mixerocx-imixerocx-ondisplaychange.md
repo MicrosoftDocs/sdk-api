@@ -12,6 +12,8 @@ ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.OnDisplayChange"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

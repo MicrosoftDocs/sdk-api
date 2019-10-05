@@ -12,6 +12,8 @@ ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.
 ms.topic: function
 f1_keywords: 
  - "http/HttpCloseRequestQueue"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetManagedExternally, SetManagedExternally function [MDM Registrati
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/SetManagedExternally"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

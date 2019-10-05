@@ -12,6 +12,8 @@ ms.keywords: GetRemainingWorkEstimateForSession, GetRemainingWorkEstimateForSess
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase.GetRemainingWorkEstimateForSession"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

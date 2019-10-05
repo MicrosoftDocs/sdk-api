@@ -12,6 +12,8 @@ ms.keywords: ExpandCollapsePattern_Collapse, ExpandCollapsePattern_Collapse func
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/ExpandCollapsePattern_Collapse"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

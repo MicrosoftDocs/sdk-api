@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.SetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

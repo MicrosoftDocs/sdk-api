@@ -12,6 +12,8 @@ ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [M
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/IMpeg2TableFilter.AddPID"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

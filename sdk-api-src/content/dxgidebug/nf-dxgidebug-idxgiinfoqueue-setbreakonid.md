@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnID method, IDXGIInfoQueue
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.SetBreakOnID"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

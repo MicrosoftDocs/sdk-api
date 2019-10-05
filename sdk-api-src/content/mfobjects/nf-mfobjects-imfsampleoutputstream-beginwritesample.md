@@ -12,6 +12,8 @@ ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], Begin
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSampleOutputStream.BeginWriteSample"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

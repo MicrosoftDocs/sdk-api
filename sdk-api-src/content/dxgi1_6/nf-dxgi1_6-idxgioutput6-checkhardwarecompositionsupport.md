@@ -12,6 +12,8 @@ ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport me
 ms.topic: method
 f1_keywords: 
  - "dxgi1_6/IDXGIOutput6.CheckHardwareCompositionSupport"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

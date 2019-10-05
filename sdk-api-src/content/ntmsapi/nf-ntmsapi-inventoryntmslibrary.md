@@ -12,6 +12,8 @@ ms.keywords: InventoryNtmsLibrary, InventoryNtmsLibrary function [Files], NTMS_I
 ms.topic: function
 f1_keywords:
 - ntmsapi/InventoryNtmsLibrary
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

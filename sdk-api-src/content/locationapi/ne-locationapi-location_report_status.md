@@ -12,6 +12,8 @@ ms.keywords: LOCATION_REPORT_STATUS, LOCATION_REPORT_STATUS enumeration [WinLoca
 ms.topic: enum
 f1_keywords: 
  - "locationapi/LOCATION_REPORT_STATUS"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx2 interface,SetWriterFailureEx method, CVssWriterEx2.Se
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx2.SetWriterFailureEx"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

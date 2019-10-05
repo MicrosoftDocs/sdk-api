@@ -12,6 +12,8 @@ ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleWindow"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

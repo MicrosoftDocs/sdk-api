@@ -12,6 +12,8 @@ ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Updat
 ms.topic: enum
 f1_keywords: 
  - "wuapi/UpdateServiceOption"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

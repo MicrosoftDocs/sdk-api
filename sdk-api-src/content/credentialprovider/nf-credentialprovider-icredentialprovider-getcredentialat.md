@@ -12,6 +12,8 @@ ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredent
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProvider.GetCredentialAt"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

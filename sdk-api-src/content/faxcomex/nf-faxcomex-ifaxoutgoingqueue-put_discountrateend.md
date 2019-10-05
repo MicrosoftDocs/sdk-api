@@ -12,6 +12,8 @@ ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [F
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingQueue.DiscountRateEnd"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzTask object [Security],BizRule property, BizRule property [Securi
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.BizRule"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

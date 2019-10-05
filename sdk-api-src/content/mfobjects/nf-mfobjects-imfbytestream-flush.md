@@ -12,6 +12,8 @@ ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.Flush"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

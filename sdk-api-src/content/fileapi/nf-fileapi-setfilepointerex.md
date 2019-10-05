@@ -12,6 +12,8 @@ ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointe
 ms.topic: function
 f1_keywords:
 - fileapi/SetFilePointerEx
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

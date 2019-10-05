@@ -12,6 +12,8 @@ ms.keywords: DEPENDENT_DISK_FLAG, DEPENDENT_DISK_FLAG enumeration [VHD], DEPENDE
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/DEPENDENT_DISK_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

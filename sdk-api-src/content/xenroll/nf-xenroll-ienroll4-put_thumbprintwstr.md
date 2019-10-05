@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.Thu
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.ThumbPrintWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

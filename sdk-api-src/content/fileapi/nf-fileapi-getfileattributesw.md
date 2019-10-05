@@ -12,6 +12,8 @@ ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttri
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetFileAttributes"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

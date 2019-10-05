@@ -12,6 +12,8 @@ ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], s
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/SetSecurityAccessMask"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

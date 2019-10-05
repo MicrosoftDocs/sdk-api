@@ -12,6 +12,8 @@ ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IM
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnSignal"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

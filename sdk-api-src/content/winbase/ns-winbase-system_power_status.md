@@ -12,6 +12,8 @@ ms.keywords: "*LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STAT
 ms.topic: struct
 f1_keywords: 
  - "winbase/SYSTEM_POWER_STATUS"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

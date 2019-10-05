@@ -12,6 +12,8 @@ ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDUdpAddress.GetAlias"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

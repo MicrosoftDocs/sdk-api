@@ -12,6 +12,8 @@ ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGe
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetGetCookie"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerdupl
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerDuplicateScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush met
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

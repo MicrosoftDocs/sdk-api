@@ -12,6 +12,8 @@ ms.keywords: GetAllVarCustData, GetAllVarCustData method [Automation], GetAllVar
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo2.GetAllVarCustData"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

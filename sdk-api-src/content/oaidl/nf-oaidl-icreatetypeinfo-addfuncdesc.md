@@ -12,6 +12,8 @@ ms.keywords: AddFuncDesc, AddFuncDesc method [Automation], AddFuncDesc method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.AddFuncDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

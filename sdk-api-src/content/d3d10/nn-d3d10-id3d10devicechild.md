@@ -12,6 +12,8 @@ ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10DeviceChild"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

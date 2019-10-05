@@ -12,6 +12,8 @@ ms.keywords: SafeArrayGetIID, SafeArrayGetIID function [Automation], _oa96_SafeA
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayGetIID"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

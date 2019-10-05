@@ -12,6 +12,8 @@ ms.keywords: 282fa124-909f-49dc-9a86-3d962193e903, IMFVideoPositionMapper, IMFVi
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoPositionMapper"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

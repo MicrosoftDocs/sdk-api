@@ -12,6 +12,8 @@ ms.keywords: MFBYTESTREAM_SEEK_ORIGIN, MFBYTESTREAM_SEEK_ORIGIN enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MFBYTESTREAM_SEEK_ORIGIN"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudAp
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfSetPinState"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

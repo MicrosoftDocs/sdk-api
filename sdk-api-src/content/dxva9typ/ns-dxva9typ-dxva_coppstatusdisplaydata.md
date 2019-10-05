@@ -12,6 +12,8 @@ ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [D
 ms.topic: struct
 f1_keywords:
 - dxva9typ/DXVA_COPPStatusDisplayData
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

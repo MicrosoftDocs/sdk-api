@@ -12,6 +12,8 @@ ms.keywords: IXpsOMFontResource interface [XPS Documents and Packaging],SetConte
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMFontResource.SetContent"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

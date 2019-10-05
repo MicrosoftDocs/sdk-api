@@ -12,6 +12,8 @@ ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetFileLineLength"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

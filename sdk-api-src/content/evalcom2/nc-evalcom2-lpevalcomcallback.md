@@ -12,6 +12,8 @@ ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK ca
 ms.topic: callback
 f1_keywords: 
  - "evalcom2/LPEVALCOMCALLBACK"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

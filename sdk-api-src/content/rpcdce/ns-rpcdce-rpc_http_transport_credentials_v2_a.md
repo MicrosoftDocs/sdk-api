@@ -12,6 +12,8 @@ ms.keywords: '*PRPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, PRPC_HTTP_TRANSPORT_CREDENT
 ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

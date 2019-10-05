@@ -12,6 +12,8 @@ ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolConnectionCallback.BrokenConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY 
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSkewTransform.SetAngleY"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

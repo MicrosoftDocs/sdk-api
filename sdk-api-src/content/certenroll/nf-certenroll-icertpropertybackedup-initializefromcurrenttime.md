@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTim
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyBackedUp.InitializeFromCurrentTime"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

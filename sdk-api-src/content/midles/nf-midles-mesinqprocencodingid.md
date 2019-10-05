@@ -12,6 +12,8 @@ ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mes
 ms.topic: function
 f1_keywords: 
  - "midles/MesInqProcEncodingId"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

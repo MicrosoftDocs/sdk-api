@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, *PHTTP_SERVER_AUTHENTI
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

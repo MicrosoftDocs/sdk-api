@@ -12,6 +12,8 @@ ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProvider
 ms.topic: enum
 f1_keywords: 
  - "evntprov/EVENT_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

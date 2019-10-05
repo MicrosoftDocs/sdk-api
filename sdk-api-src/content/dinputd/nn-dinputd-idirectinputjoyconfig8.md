@@ -12,6 +12,8 @@ ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Inp
 ms.topic: interface
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

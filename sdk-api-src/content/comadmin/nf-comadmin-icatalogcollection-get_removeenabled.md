@@ -12,6 +12,8 @@ ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalo
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.RemoveEnabled"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

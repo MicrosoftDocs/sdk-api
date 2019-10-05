@@ -12,6 +12,8 @@ ms.keywords: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6, MFT_OUTPUT_STREAM_INFO, MFT_O
 ms.topic: struct
 f1_keywords: 
  - "mftransform/MFT_OUTPUT_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INT
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_INTERFACE_CAPABILITY
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

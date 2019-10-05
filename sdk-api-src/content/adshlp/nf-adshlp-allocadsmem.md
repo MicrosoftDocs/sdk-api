@@ -12,6 +12,8 @@ ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/A
 ms.topic: function
 f1_keywords: 
  - "adshlp/AllocADsMem"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

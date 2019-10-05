@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_ms
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_msgfree"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

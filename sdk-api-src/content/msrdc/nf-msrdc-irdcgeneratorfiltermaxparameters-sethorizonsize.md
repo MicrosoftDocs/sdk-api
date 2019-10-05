@@ -12,6 +12,8 @@ ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Com
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGeneratorFilterMaxParameters.SetHorizonSize"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

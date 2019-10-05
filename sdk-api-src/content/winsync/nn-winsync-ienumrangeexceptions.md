@@ -12,6 +12,8 @@ ms.keywords: IEnumRangeExceptions, IEnumRangeExceptions interface [Windows Sync]
 ms.topic: interface
 f1_keywords: 
  - "winsync/IEnumRangeExceptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

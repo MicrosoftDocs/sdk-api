@@ -12,6 +12,8 @@ ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.ArchiveSizeLow"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

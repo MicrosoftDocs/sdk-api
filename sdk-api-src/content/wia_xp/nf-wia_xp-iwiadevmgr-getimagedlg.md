@@ -12,6 +12,8 @@ ms.keywords: GetImageDlg, GetImageDlg method [WIA], GetImageDlg method [WIA],IWi
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaDevMgr.GetImageDlg"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

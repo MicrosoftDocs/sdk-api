@@ -12,6 +12,8 @@ ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [Dire
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawPalette.GetEntries"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

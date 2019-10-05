@@ -12,6 +12,8 @@ ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

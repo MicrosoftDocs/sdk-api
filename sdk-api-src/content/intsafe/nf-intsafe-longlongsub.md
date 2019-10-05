@@ -12,6 +12,8 @@ ms.keywords: LongLongSub, LongLongSub function [Windows Shell], intsafe/LongLong
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongLongSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

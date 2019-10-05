@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Windows Media Player], Create method [Window
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects2.Create"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

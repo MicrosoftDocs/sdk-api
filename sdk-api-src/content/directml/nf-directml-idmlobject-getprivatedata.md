@@ -12,6 +12,8 @@ ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,IDMLOb
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLObject.GetPrivateData"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

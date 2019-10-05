@@ -12,6 +12,8 @@ ms.keywords: IPSEC_ID0, IPSEC_ID0 structure [Filtering], fwp.ipsec_id0, ipsectyp
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_ID0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

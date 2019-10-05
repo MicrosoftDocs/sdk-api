@@ -12,6 +12,8 @@ ms.keywords: SCOPE_LEVEL, SCOPE_LEVEL enumeration [IP Helper], ScopeLevelAdmin, 
 ms.topic: enum
 f1_keywords: 
  - "ws2def/SCOPE_LEVEL"
+dev_langs:
+ - c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows

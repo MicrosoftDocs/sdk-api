@@ -12,6 +12,8 @@ ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteM
 ms.topic: method
 f1_keywords: 
  - "propidlbase/IPropertyStorage.DeleteMultiple"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

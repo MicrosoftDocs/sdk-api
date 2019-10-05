@@ -12,6 +12,8 @@ ms.keywords: "*PCREDENTIAL_TARGET_INFORMATIONA, CREDENTIAL_TARGET_INFORMATION, C
 ms.topic: struct
 f1_keywords: 
  - "wincred/CREDENTIAL_TARGET_INFORMATION"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

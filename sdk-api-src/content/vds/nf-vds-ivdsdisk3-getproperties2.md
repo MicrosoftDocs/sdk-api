@@ -12,6 +12,8 @@ ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDi
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk3.GetProperties2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

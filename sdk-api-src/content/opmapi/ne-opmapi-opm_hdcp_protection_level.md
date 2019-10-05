@@ -12,6 +12,8 @@ ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTIO
 ms.topic: enum
 f1_keywords: 
  - "opmapi/OPM_HDCP_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

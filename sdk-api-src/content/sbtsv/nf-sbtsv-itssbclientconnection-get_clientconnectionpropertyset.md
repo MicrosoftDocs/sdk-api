@@ -12,6 +12,8 @@ ms.keywords: ClientConnectionPropertySet property [Remote Desktop Services], Cli
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbClientConnection.ClientConnectionPropertySet"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

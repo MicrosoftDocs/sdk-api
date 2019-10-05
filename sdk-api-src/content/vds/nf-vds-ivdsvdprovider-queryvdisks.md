@@ -12,6 +12,8 @@ ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVD
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVdProvider.QueryVDisks"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

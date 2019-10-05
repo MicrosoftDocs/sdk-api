@@ -12,6 +12,8 @@ ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerang
 ms.topic: struct
 f1_keywords: 
  - "docobj/PAGERANGE"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Securi
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperCertIsSelfSigned
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

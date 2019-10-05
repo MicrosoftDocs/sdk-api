@@ -12,6 +12,8 @@ ms.keywords: Inflate, Inflate methods [GDI+], Rect.Inflate, Rect::Inflate, _gdip
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Inflate"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

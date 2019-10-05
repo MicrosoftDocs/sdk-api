@@ -12,6 +12,8 @@ ms.keywords: ImageList_SetImageCount, ImageList_SetImageCount function [Windows 
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_SetImageCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

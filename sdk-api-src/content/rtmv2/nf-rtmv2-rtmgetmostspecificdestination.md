@@ -12,6 +12,8 @@ ms.keywords: RtmGetMostSpecificDestination, RtmGetMostSpecificDestination functi
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetMostSpecificDestination
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

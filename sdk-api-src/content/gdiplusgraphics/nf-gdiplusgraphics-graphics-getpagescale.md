@@ -12,6 +12,8 @@ ms.keywords: GetPageScale, GetPageScale method [GDI+], GetPageScale method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetPageScale"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

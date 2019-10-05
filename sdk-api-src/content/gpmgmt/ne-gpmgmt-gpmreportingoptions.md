@@ -12,6 +12,8 @@ ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.g
 ms.topic: enum
 f1_keywords: 
  - "gpmgmt/GPMReportingOptions"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinBioEnumBiometricUnits, WinBioEnumBiometricUnits function [Window
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioEnumBiometricUnits"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

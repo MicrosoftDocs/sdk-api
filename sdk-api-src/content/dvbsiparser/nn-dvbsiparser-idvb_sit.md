@@ -12,6 +12,8 @@ ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], IDVB_SIT 
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDVB_SIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

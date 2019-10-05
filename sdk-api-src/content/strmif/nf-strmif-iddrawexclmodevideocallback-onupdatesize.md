@@ -12,6 +12,8 @@ ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateSize met
 ms.topic: method
 f1_keywords: 
  - "strmif/IDDrawExclModeVideoCallback.OnUpdateSize"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

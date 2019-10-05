@@ -12,6 +12,8 @@ ms.keywords: FWPM_PROVIDER_CHANGE_CALLBACK0, FWPM_PROVIDER_CHANGE_CALLBACK0 call
 ms.topic: callback
 f1_keywords: 
  - "fwpmu/FWPM_PROVIDER_CHANGE_CALLBACK0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

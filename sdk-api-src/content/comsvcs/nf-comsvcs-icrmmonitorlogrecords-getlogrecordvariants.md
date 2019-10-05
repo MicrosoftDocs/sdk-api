@@ -12,6 +12,8 @@ ms.keywords: GetLogRecordVariants, GetLogRecordVariants method [COM+], GetLogRec
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorLogRecords.GetLogRecordVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

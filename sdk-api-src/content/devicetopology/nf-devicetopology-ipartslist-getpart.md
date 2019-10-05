@@ -12,6 +12,8 @@ ms.keywords: GetPart, GetPart method [Core Audio], GetPart method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPartsList.GetPart"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

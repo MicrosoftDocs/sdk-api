@@ -12,6 +12,8 @@ ms.keywords: PDSIF_ALWAYSINCLUDE, PDSIF_DEFAULT, PDSIF_ININVERTEDINDEX, PDSIF_IS
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_SEARCHINFO_FLAGS"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

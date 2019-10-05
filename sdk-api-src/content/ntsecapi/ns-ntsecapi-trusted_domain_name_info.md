@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DO
 ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_DOMAIN_NAME_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

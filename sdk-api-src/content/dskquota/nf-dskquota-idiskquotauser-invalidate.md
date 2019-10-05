@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.Invalidate"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAllPropertyNames, GetAllPropertyNames method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.GetAllPropertyNames"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

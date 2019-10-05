@@ -12,6 +12,8 @@ ms.keywords: IShellBrowser, IShellBrowser interface [Windows Shell], IShellBrows
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IShellBrowser"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

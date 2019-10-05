@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData
 ms.topic: function
 f1_keywords: 
  - "winenclaveapi/EnclaveUnsealData"
+dev_langs:
+ - c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

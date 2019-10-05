@@ -12,6 +12,8 @@ ms.keywords: ClientIdAutoEnroll, ClientIdAutoEnroll2003, ClientIdCertReq, Client
 ms.topic: enum
 f1_keywords: 
  - "certenroll/RequestClientInfoClientId"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

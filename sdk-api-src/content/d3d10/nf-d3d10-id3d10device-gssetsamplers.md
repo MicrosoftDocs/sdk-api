@@ -12,6 +12,8 @@ ms.keywords: 1c08811a-830c-451d-31b2-e679c42bcf69, GSSetSamplers, GSSetSamplers 
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GSSetSamplers"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

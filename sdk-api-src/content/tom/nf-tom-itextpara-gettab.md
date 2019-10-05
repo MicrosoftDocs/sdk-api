@@ -12,6 +12,8 @@ ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetTab"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

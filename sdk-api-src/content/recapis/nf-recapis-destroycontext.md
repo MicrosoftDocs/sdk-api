@@ -12,6 +12,8 @@ ms.keywords: DestroyContext, DestroyContext function [Tablet PC], b0d90728-6934-
 ms.topic: function
 f1_keywords: 
  - "recapis/DestroyContext"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

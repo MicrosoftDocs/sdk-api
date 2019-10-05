@@ -12,6 +12,8 @@ ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvi
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSrvIsStore"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

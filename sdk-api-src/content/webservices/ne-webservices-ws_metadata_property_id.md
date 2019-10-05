@@ -12,6 +12,8 @@ ms.keywords: WS_METADATA_PROPERTY_HEAP_PROPERTIES, WS_METADATA_PROPERTY_HEAP_REQ
 ms.topic: enum
 f1_keywords:
 - webservices/WS_METADATA_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

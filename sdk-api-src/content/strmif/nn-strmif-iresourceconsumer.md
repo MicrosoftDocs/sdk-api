@@ -12,6 +12,8 @@ ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResou
 ms.topic: interface
 f1_keywords: 
  - "strmif/IResourceConsumer"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

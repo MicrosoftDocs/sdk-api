@@ -12,6 +12,8 @@ ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationa
 ms.topic: function
 f1_keywords: 
  - "imm/ImmGetStatusWindowPos"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

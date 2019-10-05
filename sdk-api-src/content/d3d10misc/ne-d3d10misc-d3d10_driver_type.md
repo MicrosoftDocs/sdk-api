@@ -12,6 +12,8 @@ ms.keywords: 9306ea32-4e52-b274-5c1d-a1782db6ba9e, D3D10_DRIVER_TYPE, D3D10_DRIV
 ms.topic: enum
 f1_keywords: 
  - "d3d10misc/D3D10_DRIVER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d10misc.h
 req.include-header: 
 req.target-type: Windows

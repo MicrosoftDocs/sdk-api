@@ -12,6 +12,8 @@ ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_r
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncGetCallStatus
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

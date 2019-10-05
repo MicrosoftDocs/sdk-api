@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTLIST"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

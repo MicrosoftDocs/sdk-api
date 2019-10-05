@@ -12,6 +12,8 @@ ms.keywords: "*PADS_FAXNUMBER, ADS_FAXNUMBER, ADS_FAXNUMBER structure [ADSI], PA
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_FAXNUMBER"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

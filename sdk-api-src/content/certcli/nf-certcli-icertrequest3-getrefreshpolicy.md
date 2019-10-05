@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshP
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.GetRefreshPolicy"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

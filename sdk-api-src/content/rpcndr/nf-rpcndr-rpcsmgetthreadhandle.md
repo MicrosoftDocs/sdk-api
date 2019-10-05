@@ -12,6 +12,8 @@ ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpc
 ms.topic: function
 f1_keywords: 
  - "rpcndr/RpcSmGetThreadHandle"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

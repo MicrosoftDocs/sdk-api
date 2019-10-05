@@ -12,6 +12,8 @@ ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSequencerSource.UpdateTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

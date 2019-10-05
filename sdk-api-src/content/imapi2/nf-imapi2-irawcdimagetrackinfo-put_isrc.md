@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_ISRC method, IRawCDImage
 ms.topic: method
 f1_keywords: 
  - "imapi2/IRawCDImageTrackInfo.put_ISRC"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

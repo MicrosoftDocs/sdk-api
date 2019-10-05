@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_RADIUS_ACCOUNTING_PORT, PROPERTY_RADIUS_AUTHENTICATION_POR
 ms.topic: enum
 f1_keywords:
 - sdoias/RADIUSPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

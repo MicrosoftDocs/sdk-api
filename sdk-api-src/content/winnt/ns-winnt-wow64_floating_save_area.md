@@ -12,6 +12,8 @@ ms.keywords: '*PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOA
 ms.topic: struct
 f1_keywords:
 - winnt/WOW64_FLOATING_SAVE_AREA
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

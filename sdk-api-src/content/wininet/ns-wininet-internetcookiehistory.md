@@ -12,6 +12,8 @@ ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], w
 ms.topic: struct
 f1_keywords: 
  - "wininet/InternetCookieHistory"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

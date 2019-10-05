@@ -12,6 +12,8 @@ ms.keywords: 7c555cdc-567a-be2d-d677-3b3df3746e0b, CheckDeviceState, CheckDevice
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.CheckDeviceState"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

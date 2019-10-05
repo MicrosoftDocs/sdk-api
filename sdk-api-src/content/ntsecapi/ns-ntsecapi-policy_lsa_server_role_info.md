@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_LSA_SERVER_ROLE_INFO, POLICY_LSA_SERVER_ROLE_INFO, POLICY
 ms.topic: struct
 f1_keywords:
 - ntsecapi/POLICY_LSA_SERVER_ROLE_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

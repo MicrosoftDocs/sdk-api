@@ -12,6 +12,8 @@ ms.keywords: MERGE_VIRTUAL_DISK_FLAG, MERGE_VIRTUAL_DISK_FLAG enumeration [VHD],
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/MERGE_VIRTUAL_DISK_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

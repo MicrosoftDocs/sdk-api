@@ -12,6 +12,8 @@ ms.keywords: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2, IMFInputTrustAuthority, IMFIn
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFInputTrustAuthority"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

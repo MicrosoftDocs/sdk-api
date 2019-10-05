@@ -12,6 +12,8 @@ ms.keywords: IStreamConcatenate interface [IMAPI],Initialize2 method, IStreamCon
 ms.topic: method
 f1_keywords: 
  - "imapi2/IStreamConcatenate.Initialize2"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interf
 ms.topic: interface
 f1_keywords: 
  - "control/IBasicAudio"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

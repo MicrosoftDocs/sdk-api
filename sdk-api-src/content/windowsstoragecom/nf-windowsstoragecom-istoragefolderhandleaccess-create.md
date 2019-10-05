@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Run
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IStorageFolderHandleAccess.Create"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

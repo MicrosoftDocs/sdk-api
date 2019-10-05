@@ -12,6 +12,8 @@ ms.keywords: CALLINFO_STRING, CALLINFO_STRING enumeration [TAPI 2.2], CIS_CALLED
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLINFO_STRING"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

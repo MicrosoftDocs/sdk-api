@@ -12,6 +12,8 @@ ms.keywords: "*PDSREG_USER_INFO, DSREG_USER_INFO, DSREG_USER_INFO structure [Net
 ms.topic: struct
 f1_keywords: 
  - "lmjoin/DSREG_USER_INFO"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows

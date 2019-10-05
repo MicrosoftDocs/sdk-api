@@ -12,6 +12,8 @@ ms.keywords: EnumVerbs, EnumVerbs method [COM], EnumVerbs method [COM],IOleObjec
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.EnumVerbs"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

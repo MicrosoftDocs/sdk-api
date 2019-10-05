@@ -12,6 +12,8 @@ ms.keywords: GetTimeSpanArray, GetTimeSpanArray method [Windows Runtime], GetTim
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetTimeSpanArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

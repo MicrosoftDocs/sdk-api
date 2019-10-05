@@ -12,6 +12,8 @@ ms.keywords: "*PAUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION en
 ms.topic: enum
 f1_keywords: 
  - "authz/AUTHZ_SID_OPERATION"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

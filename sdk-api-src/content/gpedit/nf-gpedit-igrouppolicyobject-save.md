@@ -12,6 +12,8 @@ ms.keywords: IGroupPolicyObject interface [Group Policy],Save method, IGroupPoli
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.Save"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

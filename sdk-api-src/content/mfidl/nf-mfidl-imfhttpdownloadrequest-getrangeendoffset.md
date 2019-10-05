@@ -12,6 +12,8 @@ ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.GetRangeEndOffset"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

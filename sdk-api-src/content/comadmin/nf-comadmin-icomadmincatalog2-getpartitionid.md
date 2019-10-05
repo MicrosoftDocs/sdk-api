@@ -12,6 +12,8 @@ ms.keywords: GetPartitionID, GetPartitionID method [COM+], GetPartitionID method
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.GetPartitionID"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

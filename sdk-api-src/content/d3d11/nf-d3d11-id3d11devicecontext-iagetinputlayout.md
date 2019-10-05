@@ -12,6 +12,8 @@ ms.keywords: 833fde64-5672-81f0-24a0-876e6fb4fc29, IAGetInputLayout, IAGetInputL
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.IAGetInputLayout"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

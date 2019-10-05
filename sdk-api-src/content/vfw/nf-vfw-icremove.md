@@ -12,6 +12,8 @@ ms.keywords: ICRemove, ICRemove function [Windows Multimedia], _win32_ICRemove, 
 ms.topic: function
 f1_keywords: 
  - "vfw/ICRemove"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

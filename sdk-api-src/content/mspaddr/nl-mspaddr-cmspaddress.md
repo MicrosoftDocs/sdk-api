@@ -12,6 +12,8 @@ ms.keywords: CMSPAddress, CMSPAddress class [TAPI 2.2], CMSPAddress class [TAPI 
 ms.topic: class
 f1_keywords: 
  - "mspaddr/CMSPAddress"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

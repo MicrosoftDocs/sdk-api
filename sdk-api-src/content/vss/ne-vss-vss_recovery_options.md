@@ -12,6 +12,8 @@ ms.keywords: "*PVSS_RECOVERY_OPTIONS, VSS_RECOVERY_NO_VOLUME_CHECK, VSS_RECOVERY
 ms.topic: enum
 f1_keywords: 
  - "vss/VSS_RECOVERY_OPTIONS"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
