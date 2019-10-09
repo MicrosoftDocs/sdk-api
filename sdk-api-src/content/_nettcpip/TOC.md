@@ -1,5 +1,0 @@
-# [NetTCPIP Provider](index.md)
-## [Spcollec.h](../spcollec/index.md)
-### [Create function](../spcollec/nf-spcollec-cspplex-create~r2.md)
-## [Webhost.h](../webhost/index.md)
-### [Reset function](../webhost/nf-webhost-iappdomaininfoenum-reset.md)

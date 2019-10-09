@@ -1,6 +1,0 @@
-# [OOBE APIs for setup state and notification](index.md)
-## [Oobenotification.h](../oobenotification/index.md)
-### [OOBEComplete function](../oobenotification/nf-oobenotification-oobecomplete.md)
-### [OOBE_COMPLETED_CALLBACK callback function](../oobenotification/nc-oobenotification-oobe_completed_callback.md)
-### [RegisterWaitUntilOOBECompleted function](../oobenotification/nf-oobenotification-registerwaituntiloobecompleted.md)
-### [UnregisterWaitUntilOOBECompleted function](../oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted.md)
