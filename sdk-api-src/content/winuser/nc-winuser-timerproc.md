@@ -63,48 +63,30 @@ An application-defined callback function that processes <a href="https://docs.mi
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - dwTime [in]
-
-Type: <b>DWORD</b>
-
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function. 
-
-
-#### - hwnd [in]
-
 Type: <b>HWND</b>
 
 A handle to the window associated with the timer. 
 
+### -param Arg2
 
-#### - idEvent [in]
+Type: <b>UINT</b>
+
+The <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message. 
+
+### -param Arg3
 
 Type: <b>UINT_PTR</b>
 
 The timer's identifier. 
 
 
-#### - uMsg [in]
+### -param Arg4
 
-Type: <b>UINT</b>
+Type: <b>DWORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message. 
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function. 
+
+
 
 
 ## -returns
