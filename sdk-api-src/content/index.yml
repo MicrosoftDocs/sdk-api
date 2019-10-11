@@ -1,0 +1,215 @@
+### YamlMime:Landing
+
+title: Programming reference for the Win32 API
+summary: The Win32 API reference documentation is presented in several different views. You can browse a list of popular technologies on this page, or you can browse the full list of technologies in the table of contents. To browse all of the headers, see the list at the bottom of the table of contents.
+
+metadata: 
+  description: This section provides the Win32 API reference documentation organized by technology areas and header. 
+  author: drewbatgit
+  ms.author: drewbat
+  ms.date: 10/04/2019
+  ms.topic: landing-page
+  ms.prod: windows
+  ms.technology: windows-sdk
+  services: sdk
+
+  
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+# TODO: move text blocks into other topics, use action phrases as titles (About x; Order, set up, copy, return; Manage device; View requirements; Troubleshoot)
+# we want 24ish links max
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Build desktop Windows apps using the Win32 API
+            url: /windows/win32/
+      - linkListType: download
+        links:
+          - text: Development tools
+            url: https://developer.microsoft.com/windows/downloads
+          - text: Windows code samples
+            url: https://developer.microsoft.com/windows/samples
+
+  # Card
+  - title: User Interface and desktop
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Windows controls
+            url: _controls/index.md
+          - text: Windows and messages
+            url: _winmsg/index.md
+          - text: Menus and other resources
+            url: _menurc/index.md
+          - text: Windows Shell
+            url: _shell/index.md
+          - text: Accessibility features
+            url: _winauto/index.md
+          - text: Internationalization
+            url: _intl/index.md
+
+# Card
+  - title: Graphics and gaming
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Direct2D
+            url: _direct2d/index.md
+          - text: Direct3D 11 Graphics
+            url: _direct3d11/index.md
+          - text: Direct3D 12 Graphics
+            url: _direct3d12/index.md
+          - text: DXGI
+            url: _direct3ddxgi/index.md
+          - text: Windows GDI
+            url: _gdi/index.md
+          - text: GDI+
+            url: _gdiplus/index.md
+          - text: Windows Imaging Component
+            url: _wic/index.md
+
+# Card
+  - title: Audio and video
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Microsoft Media Foundation
+            url: _mf/index.md
+          - text: Windows Multimedia
+            url: _multimedia/index.md
+          - text: XAudio2 APIs
+            url: _xaudio2/index.md
+          - text: Core Audio APIs
+            url: _coreaudio/index.md
+          - text: Audio Devices DDI Reference
+            url: _audio/index.md
+
+# Card
+  - title: Data access and storage
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Data access and storage
+            url: _fs/index.md
+          - text: Backup
+            url: _backup/index.md
+          - text: Background Intelligent Transfer Service
+            url: _bits/index.md
+          - text: Cloud Filter API
+            url: _cloudapi/index.md
+          - text: Data Exchange
+            url: _dataxchg/index.md
+          - text: Structured storage
+            url: _stg/index.md
+          - text: Virtual Storage
+            url: _vstor/index.md
+
+# Card
+  - title: Devices
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Kernel-mode driver reference
+            url: _kernel/index.md
+          - text: Device and driver installation reference
+            url: _devinst/index.md
+          - text: Storage driver DDI reference
+            url: _storage/index.md
+          - text: USB driver reference
+            url: _buses/index.md
+          - text: Display devices reference
+            url: _display/index.md
+          - text: Human Interface Devices reference
+            url: _hid/index.md
+          - text: Print DDI reference
+            url: https://docs.microsoft.com/windows-hardware/drivers/print/
+
+# Card
+  - title: Networking and internet
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Bluetooth
+            url: _bluetooth/index.md
+          - text: Windows HTTP Services (WinHTTP)
+            url: _http/index.md
+          - text: IP Helper
+            url: _iphlp/index.md
+          - text: Network Management
+            url: _netmgmt/index.md
+          - text: Remote Procedure Call (RPC)
+            url: _rpc/index.md
+          - text: Windows Internet
+            url: _wininet/index.md
+          - text: Windows Sockets 2
+            url: _winsock/index.md
+
+# Card
+  - title: Security and identity
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Security and identity
+            url: _security/index.md
+          - text: Network Access Protection
+            url: _nap/index.md
+          - text: Network Policy Server
+            url: _nps/index.md
+          - text: Parental controls
+            url: _parcon/index.md
+          - text: Windows Biometric Framework
+            url: _secbiomet/index.md
+          - text: TPM Base Services
+            url: _tbs/index.md
+
+# Card
+  - title: Diagnostics
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Event tracing
+            url: _etw/index.md
+          - text: Network Diagnostics Framework
+            url: _ndf/index.md
+          - text: Performance counters
+            url: _perf/index.md
+          - text: Application Recovery and Restart
+            url: _recovery/index.md
+          - text: TraceLogging
+            url: _tracelogging/index.md
+          - text: Windows Event Collector
+            url: _wec/index.md
+          - text: Windows Error Reporting
+            url: _wer/index.md
+
+# Card
+  - title: Application installation
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Application installation and servicing
+            url: _setup/index.md
+          - text: Packaging and deployment Windows 10 apps
+            url: _appxpkg/index.md
+          - text: Developer licensing
+            url: _devlic/index.md
+          - text: Restart Manager
+            url: _rstmgr/index.md
+
+# Card
+  - title: System services
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Component Object Model (COM)
+            url: _com/index.md
+          - text: COM+ (Component Services)
+            url: _cos/index.md
+          - text: Microsoft Interface Definition Language (MIDL)
+            url: /windows/win32/midl
+          - text: Compression API
+            url: _cmpapi/index.md
+
