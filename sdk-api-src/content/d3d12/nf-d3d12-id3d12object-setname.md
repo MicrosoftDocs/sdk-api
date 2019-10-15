@@ -87,8 +87,10 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 This method takes UNICODE names.
-        The older Direct3D 11 debug object naming system through
-        <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedata">ID3D12Object::SetPrivateData</a>with <b>WKPDID_D3DDebugObjectName</b> used ASCII.
+
+Note that this is simply a convenience wrapper around [ID3D12Object::SetPrivateData](nf-d3d12-id3d12object-setprivatedata.md) with **WKPDID_D3DDebugObjectNameW**.
+Therefore names which are set with `SetName` can be retrieved with [ID3D12Object::GetPrivateData](nf-d3d12-id3d12object-getprivatedata.md) with the same GUID.
+Additionally, D3D12 supports narrow strings for names, using the **WKPDID_D3DDebugObjectName** GUID directly instead.
        
 
 
