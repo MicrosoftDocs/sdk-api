@@ -1,3 +1,4 @@
+---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO1
 title: D3D12_RESOURCE_ALLOCATION_INFO1
 author: windows-sdk-content
