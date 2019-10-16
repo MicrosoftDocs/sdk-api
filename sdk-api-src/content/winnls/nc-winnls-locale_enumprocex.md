@@ -62,55 +62,27 @@ An application-defined callback function that processes enumerated locale inform
 
 ### -param Arg1
 
+Pointer to a buffer containing a null-terminated [locale name](/windows/win32/intl/locale-names) string.
+
 
 ### -param Arg2
+
+Flags defining locale information. Values for this parameter can include a binary OR of flags, but some flag combinations never occur. If the application specifies[LOCALE_WINDOWS](/windows/win32/intl/locale-windows) or [LOCALE_ALTERNATE_SORTS](/windows/win32/intl/locale-alternate-sorts), it can also specify [LOCALE_REPLACEMENT](/windows/win32/intl/locale-replacement) so that the [EnumSystemLocalesEx](/windows/win32/api/winnls/nf-winnls-enumsystemlocalesex) function can test to see if the locale is a replacement.
+
+- [LOCALE_ALL](/windows/win32/intl/locale-all)
+- [LOCALE_ALTERNATE_SORTS](/windows/win32/intl/locale-alternate-sorts); for more information, see <wdcml:xref rid="intl.enumsystemlocalesex" targtype="function" enabled="1">EnumSystemLocalesEx</wdcml:xref></wdcml:item>
+- [LOCALE_NEUTRALDATA](/windows/win32/intl/locale-neutraldata)
+- [LOCALE_REPLACEMENT](/windows/win32/intl/locale-replacement) This constant is not a valid input to the *dwFlags* parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>. To enumerate replacement locales, the application should call this function with the *Arg2* parameter specified as LOCALE_WINDOWS or LOCALE_ALL, then check for this constant in the callback function.
+- [LOCALE_SUPPLEMENTAL](/windows/win32/intl/locale-supplemental)
+- [LOCALE_WINDOWS](/windows/win32/intl/locale-windows)
+
 
 
 ### -param Arg3
 
-
-
-
-
-
-
-
-#### - dwFlags [in]
-
-Flags defining locale information. Values for this parameter can include a binary OR of flags, but some flag combinations never occur. If the application specifies <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>, it can also specify <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-replacement">LOCALE_REPLACEMENT</a> so that the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function can test to see if the locale is a replacement.
-
-
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-all">LOCALE_ALL</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>; for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-neutraldata">LOCALE_NEUTRALDATA</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-replacement">LOCALE_REPLACEMENT</a>
-<div class="alert"><b>Note</b>  This constant is not a valid input to the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>. To enumerate replacement locales, the application should call this function with the <i>dwFlags</i> parameter specified as LOCALE_WINDOWS or LOCALE_ALL, then check for this constant in the callback function.</div>
-<div> </div>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-supplemental">LOCALE_SUPPLEMENTAL</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a>
-</li>
-</ul>
-
-#### - lParam [in]
-
 An application-provided input parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>. This value is especially useful for multi-threaded applications, since it can be used to pass thread-specific data to this callback function.
 
 
-#### - lpLocaleString [in]
-
-Pointer to a buffer containing a null-terminated <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a> string.
 
 
 ## -returns
