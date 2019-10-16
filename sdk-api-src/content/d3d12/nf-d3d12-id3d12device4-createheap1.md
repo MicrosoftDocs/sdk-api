@@ -1,19 +1,18 @@
 ---
-UID: NF:d3d12.ID3D12Device.CreateHeap
-title: ID3D12Device::CreateHeap
+UID: NF:d3d12.ID3D12Device4.CreateHeap1
+title: ID3D12Device4::CreateHeap1
 author: windows-sdk-content
-description: Creates a heap that can be used with placed resources and reserved resources.
-old-location: direct3d12\id3d12device_createheap.htm
+description: Creates a heap (optionally for a protected session) that can be used with placed resources and reserved resources.
 tech.root: direct3d12
-ms.assetid: DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device interface, ID3D12Device interface,CreateHeap method, ID3D12Device.CreateHeap, ID3D12Device::CreateHeap, d3d12/ID3D12Device::CreateHeap, direct3d12.id3d12device_createheap
+ms.date: 10/14/2019
+ms.keywords: ID3D12Device4 interface,CreateHeap1 method, ID3D12Device4.CreateHeap1, ID3D12Device4::CreateHeap1, CreateHeap1, CreateHeap1 method, CreateHeap1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createheap1, d3d12/ID3D12Device4::CreateHeap1
 ms.topic: method
 f1_keywords: 
- - "d3d12/ID3D12Device.CreateHeap"
+ - "d3d12/ID3D12Device4.CreateHeap1"
 dev_langs:
  - c++
+req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,8 +27,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3D12.lib
-req.dll: D3D12.dll
+req.lib: d3d12.lib
+req.dll: d3d12.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -37,18 +36,18 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D12.dll
+ - d3d12.lib
+ - d3d12.dll
 api_name:
- - ID3D12Device.CreateHeap
+ - ID3D12Device4::CreateHeap1
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 ## -description
 
-Creates a heap that can be used with placed resources and reserved resources.
+Creates a heap (optionally for a protected session) that can be used with placed resources and reserved resources. Also see [ID3D12Device::CreateHeap](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createheap).
 
 ## -parameters
 
@@ -57,6 +56,12 @@ Creates a heap that can be used with placed resources and reserved resources.
 Type: **const [D3D12_HEAP_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc)\***
 
 A pointer to a constant **D3D12_HEAP_DESC** structure that describes the heap.
+
+### -param pProtectedSession [in, optional]
+
+Type: **[ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)\***
+
+An optional pointer to an object that represents a session for content protection. If provided, this session indicates that the heap should be protected. You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession).
 
 ### -param riid [in]
 
@@ -88,14 +93,10 @@ See [Direct3D 12 return codes](/windows/win32/direct3d12/d3d12-graphics-referenc
 
 ## -remarks
 
-**CreateHeap** creates a heap that can be used with placed resources and reserved resources.
+**CreateHeap1** creates a heap that can be used with placed resources and reserved resources.
 
 Before releasing the final reference on the heap, your application must ensure that the GPU will no longer read or write to this heap.
 
 A placed resource object holds a reference on the heap it is created on; but a reserved resource doesn't hold a reference for each mapping made to a heap.
 
 ## -see-also
-
-[ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)
-
-[Shared heaps](/windows/win32/direct3d12/shared-heaps)

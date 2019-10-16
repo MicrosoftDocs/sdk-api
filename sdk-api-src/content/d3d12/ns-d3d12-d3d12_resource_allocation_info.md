@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO
-title: D3D12_RESOURCE_ALLOCATION_INFO (d3d12.h)
+title: D3D12_RESOURCE_ALLOCATION_INFO
 author: windows-sdk-content
 description: Describes parameters needed to allocate resources.
 old-location: direct3d12\d3d12_resource_allocation_info.htm
@@ -46,51 +46,30 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D12_RESOURCE_ALLOCATION_INFO structure
-
-
 ## -description
-
 
 Describes parameters needed to allocate resources.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeInBytes
 
-The size, in bytes, of the resource.
+Type: **[UINT64](/windows/win32/WinProg/windows-data-types)**
 
+The size, in bytes, of the resource.
 
 ### -field Alignment
 
-The alignment value for the resource; one of 4KB (4096), 64KB (65536) and 4MB (4194304) alignment.
+Type: **[UINT64](/windows/win32/WinProg/windows-data-types)**
 
+The alignment value for the resource; one of 4KB (4096), 64KB (65536), or 4MB (4194304) alignment.
 
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">GetResourceAllocationInfo</a> method.
-      
-
-
-
+This structure is used by the [ID3D12Device::GetResourceAllocationInfo](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) and [ID3D12Device::GetResourceAllocationInfo1](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1) methods.
 
 ## -see-also
 
+[CD3DX12_RESOURCE_ALLOCATION_INFO](/windows/win32/direct3d12/cd3dx12-resource-allocation-info)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-allocation-info">CD3DX12_RESOURCE_ALLOCATION_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
- 
-
- 
-
+[Core structures](/windows/win32/direct3d12/direct3d-12-structures)

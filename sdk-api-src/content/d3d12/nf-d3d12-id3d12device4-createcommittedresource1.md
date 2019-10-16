@@ -1,19 +1,18 @@
 ---
-UID: NF:d3d12.ID3D12Device.CreateCommittedResource
-title: ID3D12Device::CreateCommittedResource (d3d12.h)
+UID: NF:d3d12.ID3D12Device4.CreateCommittedResource1
+title: ID3D12Device4::CreateCommittedResource1
 author: windows-sdk-content
-description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
-old-location: direct3d12\id3d12device_createcommittedresource.htm
+description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
 tech.root: direct3d12
-ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: CreateCommittedResource, CreateCommittedResource method, CreateCommittedResource method,ID3D12Device interface, ID3D12Device interface,CreateCommittedResource method, ID3D12Device.CreateCommittedResource, ID3D12Device::CreateCommittedResource, d3d12/ID3D12Device::CreateCommittedResource, direct3d12.id3d12device_createcommittedresource
+ms.date: 10/15/2019
+ms.keywords: ID3D12Device4 interface,CreateCommittedResource1 method, ID3D12Device4.CreateCommittedResource1, ID3D12Device4::CreateCommittedResource1, CreateCommittedResource1, CreateCommittedResource1 method, CreateCommittedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommittedresource1, d3d12/ID3D12Device4::CreateCommittedResource1
 ms.topic: method
 f1_keywords: 
- - "d3d12/ID3D12Device.CreateCommittedResource"
+ - "d3d12/ID3D12Device4.CreateCommittedResource1"
 dev_langs:
  - c++
+req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,8 +27,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3D12.lib
-req.dll: D3D12.dll
+req.lib: d3d12.lib
+req.dll: d3d12.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -37,18 +36,18 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D12.dll
+ - d3d12.lib
+ - d3d12.dll
 api_name:
- - ID3D12Device.CreateCommittedResource
+ - ID3D12Device4::CreateCommittedResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 ## -description
 
-Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap. Also see [ID3D12Device::CreateCommittedResource](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource) for a code example.
 
 ## -parameters
 
@@ -90,6 +89,12 @@ Specifies a **D3D12_CLEAR_VALUE** structure that describes the default value for
 
 When you use [D3D12_RESOURCE_DIMENSION_BUFFER](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension), you must set *pOptimizedClearValue* to `nullptr`.
 
+### -param pProtectedSession [in, optional]
+
+Type: **[ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)\***
+
+An optional pointer to an object that represents a session for content protection. If provided, this session indicates that the resource should be protected. You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession).
+
 ### -param riidResource [in]
 
 Type: **REFIID**
@@ -104,7 +109,7 @@ Type: **void\*\***
 
 An optional pointer to a memory block that receives the requested interface pointer to the created resource object.
 
-*ppvResource* can be `nullptr`, to enable capability testing. When *ppvResource* is `nullptr`, no object is created, and **S_FALSE** is returned when *pDesc* is valid.
+*ppvResource* can be `nullptr`, to enable capability testing. When *ppvResource* is `nullptr`, no object is created, and **S_FALSE** is returned when *pDesc* is valid. 
 
 ## -returns
 
@@ -128,30 +133,4 @@ The resource GPU VA mapping can't be changed. See [ID3D12CommandQueue::UpdateTil
 
 This method may be called by multiple threads concurrently.
 
-## Examples
-
-The <a href="/windows/win32/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommittedResource</b> as follows:
-
-Create a vertex buffer.
-
-```cpp
-ThrowIfFailed(m_device->CreateCommittedResource(
-    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
-    D3D12_HEAP_FLAG_NONE,
-    &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
-    D3D12_RESOURCE_STATE_COPY_DEST,
-    nullptr,
-    IID_PPV_ARGS(&m_vertexBuffer)));
-```
-
-See [Example code in the Direct3D 12 reference](/windows/win32/direct3d12/notes-on-example-code).
-
 ## -see-also
-
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
-
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>
-
-<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>
-
-<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

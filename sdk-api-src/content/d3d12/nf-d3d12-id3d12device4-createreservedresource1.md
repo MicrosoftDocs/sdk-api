@@ -1,19 +1,18 @@
 ---
-UID: NF:d3d12.ID3D12Device.CreateReservedResource
-title: ID3D12Device::CreateReservedResource
+UID: NF:d3d12.ID3D12Device4.CreateReservedResource1
+title: ID3D12Device4::CreateReservedResource1
 author: windows-sdk-content
-description: Creates a resource that is reserved, and not yet mapped to any pages in a heap.
-old-location: direct3d12\id3d12device_createreservedresource.htm
+description: Creates a resource (optionally for a protected session) that is reserved, and not yet mapped to any pages in a heap.
 tech.root: direct3d12
-ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
+ms.date: 10/15/2019
+ms.keywords: ID3D12Device4 interface,CreateReservedResource1 method, ID3D12Device4.CreateReservedResource1, ID3D12Device4::CreateReservedResource1, CreateReservedResource1, CreateReservedResource1 method, CreateReservedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createreservedresource1, d3d12/ID3D12Device4::CreateReservedResource1
 ms.topic: method
 f1_keywords: 
- - "d3d12/ID3D12Device.CreateReservedResource"
+ - "d3d12/ID3D12Device4.CreateReservedResource1"
 dev_langs:
  - c++
+req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,8 +27,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3D12.lib
-req.dll: D3D12.dll
+req.lib: d3d12.lib
+req.dll: d3d12.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -37,18 +36,21 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D12.dll
+ - d3d12.lib
+ - d3d12.dll
 api_name:
- - ID3D12Device.CreateReservedResource
+ - ID3D12Device4::CreateReservedResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 ## -description
 
-Creates a resource that is reserved, and not yet mapped to any pages in a heap.
+Creates a resource (optionally for a protected session) that is reserved, and not yet mapped to any pages in a heap. Also see [ID3D12Device::CreateReservedResource](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource).
+
+> [!NOTE]
+> Only tiles from heaps created with the same protected resource session can be mapped into a protected reserved resource.
 
 ## -parameters
 
@@ -74,6 +76,12 @@ Specifies a **D3D12_CLEAR_VALUE** structure that describes the default value for
 
 When you use [D3D12_RESOURCE_DIMENSION_BUFFER](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension), you must set *pOptimizedClearValue* to `nullptr`.
 
+### -param pProtectedSession [in, optional]
+
+Type: **[ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)\***
+
+An optional pointer to an object that represents a session for content protection. If provided, this session indicates that the resource should be protected. You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession).
+
 ### -param riid [in]
 
 Type: **REFIID**
@@ -94,7 +102,7 @@ An optional pointer to a memory block that receives the requested interface poin
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
 
 |Return value|Description|
 |-|-|
@@ -112,8 +120,8 @@ These resource types can only be created when the adapter supports tiled resourc
 
 ## -see-also
 
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">CreateCommittedResource</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createcommittedresource1">CreateCommittedResource1</a>
 
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 
-<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device4">ID3D12Device4</a>

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList3.SetProtectedResourceSession
-title: ID3D12GraphicsCommandList3::SetProtectedResourceSession (d3d12.h)
+title: ID3D12GraphicsCommandList3::SetProtectedResourceSession
 author: windows-sdk-content
 description: Specifies whether or not protected resources can be accessed by subsequent commands in the command list.
 old-location: direct3d12\id3d12graphicscommandlist3_setprotectedresourcesession.htm
@@ -46,41 +46,22 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12GraphicsCommandList3::SetProtectedResourceSession
-
-
 ## -description
-
 
 Specifies whether or not protected resources can be accessed by subsequent commands in the command list. By default, no protected resources are enabled. After calling <b>SetProtectedResourceSession</b> with a valid session, protected resources of the same type can refer to that session. After calling <b>SetProtectedResourceSession</b> with <b>NULL</b>, no protected resources can be accessed.
 
-
 ## -parameters
-
-
-
 
 ### -param pProtectedResourceSession [in, optional]
 
-A pointer to a <b>ID3D12ProtectedResourceSession</b>.
+Type: **[ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)\***
 
+An optional pointer to an **ID3D12ProtectedResourceSession**. You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession).
 
 ## -returns
 
-
-
-	If set, indicates that protected resources can be accessed with the given session. Access to protected resources can only happen after <b>SetProtectedResourceSession</b> is called with a valid session. The command list state is cleared when calling this method. If you pass <b>NULL</b>, then no protected resources can be accessed.
-
-
-
+If set, indicates that protected resources can be accessed with the given session. Access to protected resources can only happen after <b>SetProtectedResourceSession</b> is called with a valid session. The command list state is cleared when calling this method. If you pass <b>NULL</b>, then no protected resources can be accessed.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
- 
-
- 
-

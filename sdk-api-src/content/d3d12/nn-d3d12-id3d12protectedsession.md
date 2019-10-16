@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions. The different types of sessions is of type [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
+Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions. The only type of session currently available is of type [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
 
 ## -inheritance
 
