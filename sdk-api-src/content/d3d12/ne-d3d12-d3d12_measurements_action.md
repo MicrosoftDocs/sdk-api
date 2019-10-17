@@ -59,7 +59,7 @@ Specifies that the driver has seen all the data that it's ever going to, so it s
 
 ### -field D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS_HIGH_PRIORITY
 
-Like **D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS**, but also specifies that your application doesn't care about glitches, so the runtime should ignore the usual idle priority rules and go ahead using as many threads as possible to get shader recompiles done fast. Available only in **Developer mode**.
+Like <b>D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS</b>, but also specifies that your application doesn't care about glitches, so the runtime should ignore the usual idle priority rules and go ahead using as many threads as possible to get shader recompiles done fast. Available only in <b>Developer mode</b>.
 
 ### -field D3D12_MEASUREMENTS_ACTION_DISCARD_PREVIOUS
 

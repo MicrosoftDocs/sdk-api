@@ -59,11 +59,11 @@ Specifies that the driver may instrument as aggressively as possible. The unders
 
 ### -field D3D12_BACKGROUND_PROCESSING_MODE_DISABLE_BACKGROUND_WORK
 
-Specifies that background work should stop. This ensures that background shader recompilation won't consume CPU cycles. Available only in **Developer mode**.
+Specifies that background work should stop. This ensures that background shader recompilation won't consume CPU cycles. Available only in <b>Developer mode</b>.
 
 ### -field D3D12_BACKGROUND_PROCESSING_MODE_DISABLE_PROFILING_BY_SYSTEM
 
-Specifies that all dynamic optimization should be disabled. For example, if you're doing an A/B performance comparison, then using this constant ensures that the driver doesn't change anything that might interfere with your results. Available only in **Developer mode**.
+Specifies that all dynamic optimization should be disabled. For example, if you're doing an A/B performance comparison, then using this constant ensures that the driver doesn't change anything that might interfere with your results. Available only in <b>Developer mode</b>.
 
 ## -remarks
 
