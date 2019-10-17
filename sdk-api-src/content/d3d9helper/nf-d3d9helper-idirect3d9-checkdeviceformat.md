@@ -107,7 +107,7 @@ Format of the surfaces which may be used, as defined by Usage. Member of <a href
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the format is compatible with the specified device for the requested usage, this method returns D3D_OK.
 

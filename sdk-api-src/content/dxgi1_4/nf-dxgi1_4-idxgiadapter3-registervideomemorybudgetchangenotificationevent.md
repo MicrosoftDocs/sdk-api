@@ -78,7 +78,7 @@ A key value for the window or event to unregister. The  <a href="https://docs.mi
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

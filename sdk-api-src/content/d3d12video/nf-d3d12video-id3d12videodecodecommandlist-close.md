@@ -55,7 +55,7 @@ Indicates that recording to the command list has finished.
 
 ## -returns
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the following values:
               

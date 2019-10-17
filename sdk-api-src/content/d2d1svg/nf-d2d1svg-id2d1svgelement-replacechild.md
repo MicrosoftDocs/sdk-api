@@ -80,7 +80,7 @@ The child element to be replaced. The oldChild element must be an immediate chil
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. Returns an error if
             this element cannot accept children of the type of newChild. Returns an error if

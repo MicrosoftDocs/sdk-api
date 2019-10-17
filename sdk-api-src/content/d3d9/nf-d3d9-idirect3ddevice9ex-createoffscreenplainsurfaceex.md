@@ -114,7 +114,7 @@ Combination of one or more <a href="https://docs.microsoft.com/windows/desktop/d
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be the following:
      D3DERR_INVALIDCALL.

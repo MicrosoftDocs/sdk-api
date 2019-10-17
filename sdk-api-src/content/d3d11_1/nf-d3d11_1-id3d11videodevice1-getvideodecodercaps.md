@@ -115,7 +115,7 @@ A pointer to a bitwise OR combination of <a href="https://docs.microsoft.com/win
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

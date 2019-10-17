@@ -85,7 +85,7 @@ When this method returns, contains the address of a pointer to the new gradient 
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

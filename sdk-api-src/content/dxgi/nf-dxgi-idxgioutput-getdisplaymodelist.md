@@ -98,7 +98,7 @@ A pointer to a list of display modes (see <a href="https://docs.microsoft.com/pr
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>. It is rare, but possible, that the display modes available can change immediately after calling 
       this method, in which case DXGI_ERROR_MORE_DATA is returned (if there is not enough room for all the display modes).  
