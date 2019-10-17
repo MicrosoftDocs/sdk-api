@@ -86,4 +86,7 @@ Type: <b>DWORD</b>
 Returns ERROR_SUCCESS if successful, or an error value otherwise. 
 
 
+## -remarks
+
+Note that it is the calling program's responsibility to first call the <b>NetworkIsolationGetAppContainerConfig</b> function in order to retrieve and preserve the app container SIDs already configured to send loopback traffic.
 
