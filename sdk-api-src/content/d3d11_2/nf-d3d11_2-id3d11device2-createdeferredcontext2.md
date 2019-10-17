@@ -83,7 +83,7 @@ Upon completion of the method, the passed pointer to an <a href="https://docs.mi
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
             

@@ -66,7 +66,7 @@ Gets the extended error code for the latest error associated with the track.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 The extended error code for the latest error associated with the track.
 
@@ -77,7 +77,7 @@ The extended error code for the latest error associated with the track.
 
 
 
-If the most recent error was associated with a track, this value will be the same <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a> as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">IMFTimedTextNotify::Error</a> method.
+If the most recent error was associated with a track, this value will be the same <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">IMFTimedTextNotify::Error</a> method.
 
 
 

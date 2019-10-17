@@ -78,7 +78,7 @@ When this method returns, contains a pointer to the bounds of the gradient mesh,
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

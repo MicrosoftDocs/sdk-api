@@ -94,7 +94,7 @@ Pointer to the texture resource data.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. For other restrictions, and a listing of error values that can be returned by any of the <b>Map</b> methods, see Remarks.
 

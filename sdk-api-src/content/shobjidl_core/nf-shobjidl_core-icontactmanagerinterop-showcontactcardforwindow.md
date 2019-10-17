@@ -167,7 +167,7 @@ Type: <b>HRESULT</b>
 <li>E_POINTER if <i>appWindow</i> is NULL or <i>contact</i> is NULL or <i>selection</i> is NULL</li>
 <li>E_INVALIDARG if <i>contact</i> isn't a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object or <i>preferredPlacement</i> is an invalid enumeration value</li>
 </ul>
-Other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a> values are possible.
+Other <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> values are possible.
 
 
 

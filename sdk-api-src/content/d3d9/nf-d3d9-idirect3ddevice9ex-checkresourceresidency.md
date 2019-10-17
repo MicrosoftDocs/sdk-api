@@ -79,7 +79,7 @@ A value indicating the number of resources passed into the <i>pResourceArray</i>
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If all the resources are in GPU-accessible memory, the method will return S_OK. The system may need to perform a remapping operation to promote the resources, but will not have to copy data.
 

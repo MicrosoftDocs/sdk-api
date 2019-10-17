@@ -94,7 +94,7 @@ Pointer to a structure (<a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK.
 
