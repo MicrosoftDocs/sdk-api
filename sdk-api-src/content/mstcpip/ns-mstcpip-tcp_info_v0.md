@@ -160,7 +160,7 @@ The total number of retransmitted synchronize control flags (SYNs).
 
 
 To get an instance of this structure,  call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a> function with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
    control code.
 
 

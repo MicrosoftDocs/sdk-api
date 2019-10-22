@@ -157,7 +157,7 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a>
 
 
 
@@ -165,7 +165,7 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">WSPRecvFrom</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">LPWSPRecvFrom</a>
 
 
 
