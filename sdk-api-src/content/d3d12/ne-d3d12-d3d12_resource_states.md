@@ -190,7 +190,10 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 ### -field D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE
 
-### D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE
+When a buffer is created with this as its initial state, it indicates that the resource is a raytracing acceleration structure, for use in [ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure](nf-d3d12-id3d12graphicscommandlist4-buildraytracingaccelerationstructure.md),
+[ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure](nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure.md), or [ID3D12Device::CreateShaderResourceView](nf-d3d12-id3d12device-createshaderresourceview.md) for the [D3D12_SRV_DIMENSION_RAYTRACING_ACCELERATION_STRUCTURE](ne-d3d12-d3d12_srv_dimension.md) dimension.
+
+### -field D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE
 
 Starting with Windows 10, version 1903 (10.0; Build 18362), indicates that the resource is a screen-space shading-rate image for variable-rate shading (VRS). For more info, see [Variable-rate shading (VRS)](/windows/win32/direct3d12/vrs).
 
