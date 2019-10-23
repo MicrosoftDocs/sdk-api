@@ -67,7 +67,7 @@ This parameter is reserved.
 
 ### -param flags
 
-TBD
+This parameter is reserved.
 
 
 ### -param resource [out]

@@ -63,7 +63,7 @@ Registers a pending window as a Shell window; the window is specified by an abso
 
 ### -param lThreadId
 
-TBD
+A thread ID.
 
 
 ### -param pvarloc [in]

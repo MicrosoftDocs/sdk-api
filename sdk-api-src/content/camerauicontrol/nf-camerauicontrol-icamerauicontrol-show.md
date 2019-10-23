@@ -72,7 +72,7 @@ Specifies whether the user interface will be presented in a browseable or linear
 
 ### -param selectionMode
 
-TBD
+Specifies the selection mode.
 
 
 ### -param captureMode [in]

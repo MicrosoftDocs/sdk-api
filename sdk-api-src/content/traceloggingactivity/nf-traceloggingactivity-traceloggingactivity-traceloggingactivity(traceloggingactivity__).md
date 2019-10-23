@@ -64,7 +64,7 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 
 ### -param rhs
 
-TBD
+A reference to a <b>TraceLoggingActivity</b>.
 
 
 

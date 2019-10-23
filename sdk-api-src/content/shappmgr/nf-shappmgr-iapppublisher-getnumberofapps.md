@@ -62,7 +62,7 @@ Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_
 
 ### -param pdwApps
 
-TBD
+This parameter is unused.
 
 
 

@@ -73,24 +73,21 @@ Pointer to a metafile to be enumerated.
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
-Reference to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that specifies the rectangle in which the metafile is displayed. 
+Reference to a 	<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that specifies the rectangle in which the metafile is displayed. 
 
 
 ### -param srcRect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
-Reference to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that specifies the portion of the metafile that is displayed. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that specifies the portion of the metafile that is displayed. 
 
 
 ### -param srcUnit [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
-Element of the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that specifies the unit of measure for the source rectangle. 
+Element of the 	<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that specifies the unit of measure for the source rectangle. 
 
 
 ### -param callback [in]
@@ -111,8 +108,7 @@ Optional. Pointer to a block of data that is passed to the callback function. Th
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>*</b>
 
-Optional. Pointer to an 
-					<b>ImageAttributes</b> object that specifies color adjustments for the displayed metafile. The default value is <b>NULL</b>. 
+Optional. Pointer to an 	<b>ImageAttributes</b> object that specifies color adjustments for the displayed metafile. The default value is <b>NULL</b>. 
 
 
 ## -returns

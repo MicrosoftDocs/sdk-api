@@ -52,8 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes the specified groupset from the cluster. The groupset
-    must contain no groups.
+Deletes the specified groupset from the cluster. The groupset must contain no groups.
 
 
 ## -parameters

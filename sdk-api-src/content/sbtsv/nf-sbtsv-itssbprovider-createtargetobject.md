@@ -67,7 +67,7 @@ A <b>BSTR</b> variable that contains the target name.
 
 ### -param EnvironmentName
 
-TBD
+A <b>BSTR</b> variable that contains the environment name.
 
 
 ### -param ppTarget [out]

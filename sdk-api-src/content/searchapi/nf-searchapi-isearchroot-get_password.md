@@ -62,7 +62,7 @@ Not implemented.
 
 ### -param ppszPassword
 
-TBD
+This parameter is unused.
 
 
 

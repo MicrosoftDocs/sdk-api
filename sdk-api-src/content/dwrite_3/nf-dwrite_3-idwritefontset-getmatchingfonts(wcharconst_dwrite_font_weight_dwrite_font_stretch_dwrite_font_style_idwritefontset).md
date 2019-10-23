@@ -62,22 +62,22 @@ Returns a subset of fonts filtered by the given properties.
 
 ### -param familyName
 
-TBD
+The font family name.
 
 
 ### -param fontWeight
 
-TBD
+The font weight.
 
 
 ### -param fontStretch
 
-TBD
+The font stretch value.
 
 
 ### -param fontStyle
 
-TBD
+The font style.
 
 
 ### -param filteredSet [out]
@@ -87,18 +87,6 @@ Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWrit
 The subset of fonts that match the properties, or nullptr on failure.
 
 
-#### - properties [in]
-
-Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
-
-List of properties to filter using.
-
-
-#### - propertyCount
-
-Type: <b>UINT32</b>
-
-The number of properties to filter.
 
 
 ## -returns

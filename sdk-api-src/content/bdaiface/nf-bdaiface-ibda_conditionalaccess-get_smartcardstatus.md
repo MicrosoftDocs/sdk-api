@@ -80,7 +80,7 @@ Receives a string containing the card error. When the string is no longer requir
 
 ### -param pfOOBLocked
 
-TBD
+Receives a value indicating if the operation is blocked.
 
 
 

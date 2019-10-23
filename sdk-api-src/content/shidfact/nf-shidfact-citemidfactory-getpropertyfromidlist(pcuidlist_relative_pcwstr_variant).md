@@ -73,14 +73,9 @@ The key for the selected property.
 
 ### -param pvar
 
-TBD
-
-
-
-
-#### - pv [out]
-
 When this method returns, contains a pointer to the property. If <i>rkey</i> is not found, <i>pvar</i> will be <b>VT_EMPTY</b>.
+
+
 
 
 ## -returns

@@ -62,17 +62,17 @@ Not implemented.
 
 ### -param pdwDocID
 
-TBD
+This parameter is unused.
 
 
 ### -param pChange
 
-TBD
+This parameter is unused.
 
 
 ### -param pfInView
 
-TBD
+This parameter is unused.
 
 
 

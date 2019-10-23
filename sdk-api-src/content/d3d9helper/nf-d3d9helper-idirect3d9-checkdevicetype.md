@@ -63,7 +63,10 @@ Verifies whether a hardware accelerated device type can be used on this adapter.
 
 ### -param iAdapter
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+
+Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
+
 
 
 ### -param DevType [in]
@@ -75,7 +78,11 @@ Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dd
 
 ### -param DisplayFormat
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, indicating the format of the adapter display mode for which the device type is to be checked. For example, some devices will operate only in 16-bits-per-pixel modes. 
+
+
 
 
 ### -param BackBufferFormat [in]
@@ -97,19 +104,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Value indicating whether the device type will be used in full-screen or windowed mode. If set to <b>TRUE</b>, the query is performed for windowed applications; otherwise, this value should be set <b>FALSE</b>. 
 
-
-#### - Adapter [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
-
-Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
-
-
-#### - AdapterFormat [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
-
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, indicating the format of the adapter display mode for which the device type is to be checked. For example, some devices will operate only in 16-bits-per-pixel modes. 
 
 
 ## -returns

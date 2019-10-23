@@ -62,7 +62,7 @@ Reserved for Microsoft use.
 
 ### -param errorCode
 
-TBD
+The error code.
 
 
 

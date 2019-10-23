@@ -67,7 +67,8 @@ Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 ### -param __MIDL__IAppDomainHelper0001
 
-TBD
+Reference to the callback function. This function is executed in the application domain that you switched to. The parameter of this function, <i>pv</i>, comes from the <i>pPool</i> parameter, which is defined next.
+
 
 
 ### -param pPool [in]
@@ -75,13 +76,6 @@ TBD
 This parameter is used to provide any data that the callback function might need.
 
 
-#### - pfnCallbackCB [in]
-
-Reference to the callback function. This function is executed in the application domain that you switched to. The parameter of this function, <i>pv</i>, comes from the <i>pPool</i> parameter, which is defined next.
-
-
-
-#### pv
 
 
 ## -returns

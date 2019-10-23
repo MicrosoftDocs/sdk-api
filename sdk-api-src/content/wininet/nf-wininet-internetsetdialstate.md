@@ -66,17 +66,17 @@ This function is obsolete. Do not use.
 
 ### -param lpszConnectoid
 
-TBD
+Unused.
 
 
 ### -param dwState
 
-TBD
+Unused.
 
 
 ### -param dwReserved
 
-TBD
+Unused.
 
 
 

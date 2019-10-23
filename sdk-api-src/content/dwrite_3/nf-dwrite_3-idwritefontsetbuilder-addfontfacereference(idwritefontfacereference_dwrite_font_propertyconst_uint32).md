@@ -69,12 +69,12 @@ Font face reference object to add to the set.
 
 ### -param properties
 
-TBD
+List of properties to associate with the reference.
 
 
 ### -param propertyCount
 
-TBD
+The number of properties specified.
 
 
 

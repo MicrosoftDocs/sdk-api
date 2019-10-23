@@ -63,17 +63,17 @@ Provides an initializer for a <a href="https://docs.microsoft.com/windows/deskto
 
 ### -param S
 
-TBD
+A static constant string, encoded in UTF-8.
 
 
 ### -param D
 
-TBD
+A string dictionary.
 
 
 ### -param I
 
-TBD
+The ID.
 
 
 

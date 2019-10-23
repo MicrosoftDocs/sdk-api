@@ -74,7 +74,7 @@ A zero-terminated Unicode string that contains the identity of the user to authe
 
 ### -param pwszIdentity
 
-TBD
+Identity of the user being authenticated. 
 
 
 ### -param pAttributeArray [in]
@@ -84,12 +84,12 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param dwSizeofConnectionData [in]
 
-A pointer to a buffer that contains the opaque configuration data BLOB.
+Specifies the size in bytes of the data pointed to by *pConnectionData*. If *pConnectionData* is NULL, this member is zero. 
 
 
 ### -param pConnectionData
 
-TBD
+Pointer to connection data received from the authentication protocol's configuration user interface.
 
 
 ### -param dwMaxSendPacketSize [in]
@@ -107,9 +107,6 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 Optionally receives a pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory">EapMethodAuthenticatorFreeMemory</a>.
 
 
-#### - dwSizeOfConnectionData [in]
-
-Specifies the size, in bytes, of the connection data buffer provided in <i>pConnectionData</i>.
 
 
 ## -remarks

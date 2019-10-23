@@ -69,16 +69,12 @@ Specifies a null-terminated string that contains a name for the new account.
 
 ### -param pFaxAccount
 
-TBD
-
-
-
-
-#### - ppFaxAccount [out, retval]
-
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>**</b>
 
 The address of a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
+
+
+
 
 
 ## -returns

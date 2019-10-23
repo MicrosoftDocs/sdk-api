@@ -71,7 +71,9 @@ A handle to the control.
 
 ### -param hIcon
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
+
+A handle to the icon.
 
 
 

@@ -62,7 +62,7 @@ Not used in Windows GDI+ versions 1.0 and 1.1.
 
 ### -param pIAbort
 
-TBD
+A **GdiplusAbort** structure that provides a mechanism that allows Windows GDI+ to call an application-defined **Abort** method periodically during time-consuming rendering operations.
 
 
 

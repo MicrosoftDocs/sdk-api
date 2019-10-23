@@ -71,35 +71,19 @@ The
 
 ### -param TraceHandle
 
-TBD
-
-
-### -param InstanceName
-
-TBD
-
-
-### -param Properties
-
-TBD
-
-
-
-
-#### - a [in]
-
 Handle to the event tracing session for whose properties and statistics you want to query, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 
-#### - b [in]
+### -param InstanceName
+
 
 Pointer to a null-terminated string that specifies the name of the event tracing session whose properties and statistics you want to query, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
 
 
-#### - c [in, out]
+### -param Properties
 
 Pointer to an 
 initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 

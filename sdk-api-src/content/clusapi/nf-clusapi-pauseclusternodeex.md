@@ -72,12 +72,15 @@ A handle to the node to suspend.
 
 ### -param dwPauseFlags [in] [in]
 
-TBD
+One of the following flags:
+- CLUSAPI_NODE_PAUSE_REMAIN_ON_PAUSED_NODE_ON_MOVE_ERROR  0x00000001
+- CLUSAPI_NODE_AVOID_PLACEMENT                            0x00000002
+- CLUSAPI_NODE_PAUSE_RETRY_DRAIN_ON_FAILURE  0x00000004
 
 
 ### -param hNodeDrainTarget [in, optional] [in, optional]
 
-TBD
+The node drain topic.
 
 
 ## -returns

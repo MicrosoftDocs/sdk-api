@@ -78,7 +78,7 @@ If this parameter is set to zero, synchronization providers for all architecture
 
 ### -param ppEnumSyncProviderConfigUIInfos
 
-TBD
+A reference to an <b>IEnumSyncProviderConfigUIInfos</b>
 
 
 

@@ -76,7 +76,8 @@ Name of the server that is loaded.
 
 ### -param plRefCount
 
-TBD
+The current reference count. This LONG must be the same one used in FrameworkLoginDLL and as the parameter to the CWbemGlueFactory constructor.
+
 
 
 

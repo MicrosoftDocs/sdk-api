@@ -91,16 +91,6 @@ Ending position of the copy operation within the source stream.
 
 
 
-#### - lLength
-
-Length, in frames, of the copy operation within the source stream.
-
-
-#### - pavi
-
-Pointer to the interface to the stream to receive the pasted data.
-
-
 ## -returns
 
 

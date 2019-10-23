@@ -103,7 +103,8 @@ Indicates that the callout for the joystick type is valid.
 
 ### -param arg4
 
-TBD
+If the type name is an OEM type not in VID_xxxx&PID_yyyy format, this parameter will return the name in VID_xxxx&PID_yyyy format that is assigned by Dinput. 
+This VID_xxxx&PID_yyyy name should be used in DIJOYCONFIG.wszType field when calling SetConfig.
 
 
 

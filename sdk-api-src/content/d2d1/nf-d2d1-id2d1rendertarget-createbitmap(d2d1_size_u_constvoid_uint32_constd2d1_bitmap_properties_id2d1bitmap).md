@@ -62,22 +62,30 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-
 
 ### -param size
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
+
+The dimensions of the bitmap to create in pixels.
 
 
 ### -param srcData
 
-TBD
+Type: <b>void*</b>
+
+A pointer to the memory location of the image data, or <b>NULL</b> to create an uninitialized bitmap.
 
 
 ### -param pitch
 
-TBD
+Type: <b>UINT32</b>
+
+The byte count of each scanline, which is equal to (the image width in pixels × the number of bytes per pixel) + memory padding. If <i>srcData</i> is <b>NULL</b>, this value is ignored. (Note that pitch is also sometimes called <i>stride</i>.)
 
 
 ### -param bitmapProperties
 
-TBD
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_BITMAP_PROPERTIES</a></b>
+
+The pixel format and dots per inch (DPI) of the bitmap to create.
 
 
 ### -param bitmap [in]
@@ -87,25 +95,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id
 The bitmap contents of the new brush.
 
 
-#### - bitmapBrush [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>**</b>
-
-When this method returns, contains a pointer to a pointer to the new brush. This parameter is passed uninitialized.
-
-
-#### - bitmapBrushProperties [ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_brush_properties">D2D1_BITMAP_BRUSH_PROPERTIES</a></b>
-
-The extend modes and interpolation mode of the new brush. 
-
-
-#### - brushProperties [ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a></b>
-
-The opacity and transform of the new brush.
 
 
 ## -returns
