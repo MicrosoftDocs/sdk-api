@@ -62,7 +62,7 @@ Obsolete. Clients of the Add/Remove Programs Control Panel Application may retur
 
 ### -param pdwCat
 
-TBD
+This parameter is unused.
 
 
 

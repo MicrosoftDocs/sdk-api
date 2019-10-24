@@ -62,27 +62,27 @@ Not implemented.
 
 ### -param pszDeviceID
 
-TBD
+This parameter is unused.
 
 
 ### -param pszAltDeviceID
 
-TBD
+This parameter is unused.
 
 
 ### -param pszEventType
 
-TBD
+This parameter is unused.
 
 
 ### -param pszContentTypeHandler
 
-TBD
+This parameter is unused.
 
 
 ### -param pdataobject
 
-TBD
+This parameter is unused.
 
 
 

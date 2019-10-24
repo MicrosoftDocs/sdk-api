@@ -62,21 +62,15 @@ Gets an ordered list of columns that corresponds to the column enumerated.
 
 ### -param riid
 
-TBD
+A reference to the interface identifier (IID) of the IPropertyDescriptionList.
 
 
 ### -param ppv
 
-TBD
-
-
-
-
-#### - pppdl [out]
-
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>**</b>
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface pointer.
+
 
 
 ## -returns

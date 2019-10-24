@@ -63,7 +63,7 @@ Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/webservice
 
 ### -param S
 
-TBD
+The initializer string.
 
 
 

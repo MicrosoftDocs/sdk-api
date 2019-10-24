@@ -66,27 +66,27 @@ Implemented only as a stub that calls the <a href="https://docs.microsoft.com/wi
 
 ### -param hInternet
 
-TBD
+Unused.
 
 
 ### -param dwOption
 
-TBD
+Unused.
 
 
 ### -param lpBuffer
 
-TBD
+Unused.
 
 
 ### -param dwBufferLength
 
-TBD
+Unused.
 
 
 ### -param dwFlags
 
-TBD
+Unused.
 
 
 

@@ -51,9 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens an 
-    enumerator that can iterate through the network interfaces  
-    or groups that are installed on a node.
+Opens an enumerator that can iterate through the network interfaces or groups that are installed on a node.
 
 
 ## -parameters
@@ -74,7 +72,7 @@ A bitmask that describes the type of objects to enumerate. This parameter  is re
 
 ### -param pOptions [in, optional] [in, optional]
 
-TBD
+Options.
 
 
 ## -returns

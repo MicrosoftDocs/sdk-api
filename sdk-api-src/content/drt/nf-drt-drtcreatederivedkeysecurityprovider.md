@@ -72,7 +72,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-dr
 
 ### -param ppSecurityProvider
 
-TBD
+Receives a pointer to the created security provider.
 
 
 

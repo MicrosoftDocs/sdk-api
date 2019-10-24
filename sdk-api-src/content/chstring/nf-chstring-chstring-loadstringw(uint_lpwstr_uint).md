@@ -74,12 +74,12 @@ Windows string resource identifier.
 
 ### -param lpszBuf
 
-TBD
+The buffer into which the string resource is read.
 
 
 ### -param nMaxBuf
 
-TBD
+The maximum number of bytes that can be read into the buffer.
 
 
 

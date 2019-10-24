@@ -76,7 +76,7 @@ Name of the namespace for which the pointer is returned.
 
 ### -param pMethodContext
 
-TBD
+The method context.
 
 
 

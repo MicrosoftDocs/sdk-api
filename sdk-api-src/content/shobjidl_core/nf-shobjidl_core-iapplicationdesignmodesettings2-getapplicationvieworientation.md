@@ -62,7 +62,12 @@ Gets the orientation of the application design mode window.
 
 ### -param applicationSizePixels
 
-TBD
+
+Type: <b>SIZE</b>
+
+The application window size.
+
+
 
 
 ### -param viewOrientation [out]

@@ -67,21 +67,12 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn
 
 ### -param __MIDL__IAppDomainHelper0000
 
-TBD
+Reference to the shutdown function that is executed when the application domain is unloaded. The parameter of this function, <i>pv</i>, comes from the <i>pPool</i> parameter, which is defined next.
 
 
 ### -param pPool [in]
 
 This parameter is used to provide any data that the shutdown function might need.
-
-
-#### - pfnCallbackCB [in]
-
-Reference to the shutdown function that is executed when the application domain is unloaded. The parameter of this function, <i>pv</i>, comes from the <i>pPool</i> parameter, which is defined next.
-
-
-
-#### pv
 
 
 ## -returns

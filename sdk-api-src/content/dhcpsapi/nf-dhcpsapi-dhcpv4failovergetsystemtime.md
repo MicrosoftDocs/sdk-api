@@ -72,7 +72,7 @@ Pointer to a <b>DWORD</b> that returns the current time, in seconds, elapsed sin
 
 ### -param pMaxAllowedDeltaTime
 
-TBD
+The maximum allowed delta time.
 
 
 

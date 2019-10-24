@@ -70,17 +70,9 @@ Type: <b>BSTR</b>
 
 ### -param pvFaxOutgoingJobIDs
 
-TBD
-
-
-
-
-#### - vFaxOutgoingJobIDs [out, retval]
-
 Type: <b>VARIANT*</b>
 
 <b>VARIANT</b> that specifies a collection of outbound job IDs, one for each recipient of the fax.
-
 
 ## -returns
 

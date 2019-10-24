@@ -58,27 +58,20 @@ Gets a property from the <a href="https://docs.microsoft.com/windows/desktop/api
 
 ## -parameters
 
-
-
-
-### -param pidl [in]
+### -param pidl
 
 A PIDL identifying the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 
 ### -param rkey
 
-TBD
+The key for the selected property.
 
-
-#### - pv [out]
+### -param pv
 
 When this method returns, contains a pointer to the property. If <i>rkey</i> is not found, <i>pvar</i> will be <b>VT_EMPTY</b>.
 
 
-#### - pszName [in]
-
-The key for the selected property.
 
 
 ## -returns

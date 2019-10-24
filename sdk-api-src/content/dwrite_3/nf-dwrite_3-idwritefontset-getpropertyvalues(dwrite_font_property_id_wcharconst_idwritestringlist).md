@@ -62,12 +62,15 @@ Returns the property values of a specific font item index.
 
 ### -param propertyID
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id">DWRITE_FONT_PROPERTY_ID</a></b>
+
+Font property of interest.
+
 
 
 ### -param preferredLocaleNames
 
-TBD
+The preferred locale names to query.
 
 
 ### -param values [out]
@@ -77,25 +80,6 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">I
 Receives a pointer to the newly created localized strings object, or nullptr on failure or non-existent property.
 
 
-#### - exists [out]
-
-Type: <b>BOOL*</b>
-
-Receives the value TRUE if the font contains the specified property identifier or FALSE if not.
-
-
-#### - listIndex
-
-Type: <b>UINT32</b>
-
-Zero-based index of the font.
-
-
-#### - propertyId
-
-Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id">DWRITE_FONT_PROPERTY_ID</a></b>
-
-Font property of interest.
 
 
 ## -returns

@@ -70,16 +70,10 @@ Type: <b>long</b>
 
 ### -param pFaxIncomingMessageIterator
 
-TBD
-
-
-
-
-#### - pFaxIncomingMessageIterator2 [out, retval]
-
-Type: <b>IFaxIncomingMessageIterator2**</b>
+Type: <b>IFaxIncomingMessageIterator**</b>
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator">FaxIncomingMessageIterator</a> object.
+
 
 
 ## -returns

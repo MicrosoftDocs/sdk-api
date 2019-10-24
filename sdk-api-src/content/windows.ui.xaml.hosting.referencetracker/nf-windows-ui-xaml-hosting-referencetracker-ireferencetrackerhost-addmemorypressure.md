@@ -64,7 +64,7 @@ The CLR uses this to inform the algorithm that determines when to run a garbage 
 
 ### -param bytesAllocated
 
-TBD
+The number of bytes currently allocated.
 
 
 

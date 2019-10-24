@@ -72,7 +72,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-dr
 
 ### -param pSearchResult
 
-TBD
+Receives a pointer to a DRT_SEARCH_RESULT structure containing the search results.
 
 
 

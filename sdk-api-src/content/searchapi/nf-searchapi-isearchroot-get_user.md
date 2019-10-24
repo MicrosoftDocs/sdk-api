@@ -62,7 +62,7 @@ Not implemented.
 
 ### -param ppszUser
 
-TBD
+This parameter is unused.
 
 
 

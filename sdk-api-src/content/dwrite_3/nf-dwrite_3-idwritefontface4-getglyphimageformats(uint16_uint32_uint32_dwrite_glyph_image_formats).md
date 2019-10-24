@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets all the glyph image formats supported by the entire font.
+Gets all the glyph image formats supported for the specified glyph.
 
 
 ## -parameters
@@ -63,33 +63,34 @@ Gets all the glyph image formats supported by the entire font.
 
 ### -param glyphId
 
-TBD
+The identifier of the glyph to be queried.
 
 
 ### -param pixelsPerEmFirst
 
-TBD
+The lowest pixels per em value to query.
 
 
 ### -param pixelsPerEmLast
 
-TBD
+The highest pixels per em value to query.
 
 
 ### -param glyphImageFormats
 
-TBD
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a> specifying the supported formats for the requested glyph.
+
+
 
 
 
 
 ## -returns
 
-
+HRESULT
 
 Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
-Returns all the glyph image formats supported by the entire font.
 
 
 

@@ -65,16 +65,14 @@ The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that, together with 
-					<i>srcrect</i>, specifies a transformation for the container. 
+Reference to a rectangle that, together with <i>srcrect</i>, specifies a transformation for the container. 
 
 
 ### -param srcrect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that, together with 
-					<i>dstrect</i>, specifies a transformation for the container. 
+Reference to a rectangle that, together with <i>dstrect</i>, specifies a transformation for the container. 
 
 
 ### -param unit [in]

@@ -97,7 +97,7 @@ Type: <b>__RPC__in_opt_string</b>
 
 ### -param body
 
-TBD
+Type: <b>BYTE*</b>
 
 
 ### -param bodySize
@@ -107,12 +107,12 @@ Type: <b>__RPC__in_ecount_full_opt</b>
 
 ### -param forceRefresh
 
-TBD
+Type: <b>BOOL</b>
 
 
 ### -param result
 
-TBD
+Type: <b>IXblIdpAuthTokenResult**</b>
 
 
 

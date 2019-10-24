@@ -72,7 +72,7 @@ A bitmask that describes the type of objects to be enumerated. This must be one 
 
 ### -param pOptions [in, optional] [in, optional]
 
-TBD
+Options.
 
 
 ## -returns

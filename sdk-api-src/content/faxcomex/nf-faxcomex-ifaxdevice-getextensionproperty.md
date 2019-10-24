@@ -70,16 +70,12 @@ Specifies a string GUID that uniquely identifies the data to be retrieved.
 
 ### -param pvProperty
 
-TBD
-
-
-
-
-#### - vProperty [out, retval]
-
 Type: <b>VARIANT*</b>
 
 <b>VARIANT</b> that specifies the data.
+
+
+
 
 
 ## -returns

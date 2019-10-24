@@ -62,7 +62,7 @@ Deregisters the namespace on the server.
 
 ### -param bTerminateSessions
 
-TBD
+A boolean value indicating if sessions should be terminated.
 
 
 

@@ -64,17 +64,17 @@ This method is reserved for future use.
 
 ### -param pSnapshotLuns
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param pOriginalLuns
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param dwCount
 
-TBD
+This parameter is reserved for future use.
 
 
 

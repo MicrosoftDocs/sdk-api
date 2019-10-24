@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a reference to a font given a full path. 
+Creates a reference to a font given an **IDWriteFontFile**. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Creates a reference to a font given a full path.
 
 ### -param fontFile
 
-TBD
+An **IDWriteFontFile** representing the font face.
 
 
 ### -param faceIndex
@@ -85,24 +85,6 @@ Font face simulation flags for algorithmic emboldening and italicization.
 Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>**</b>
 
 Contains newly created font face reference object, or nullptr in case of failure.
-
-
-#### - filePath [in]
-
-Type: <b>WCHAR</b>
-
-Absolute file path. Subsequent operations on the constructed object may fail      
-          if the user provided filePath doesn't correspond to a valid file on the disk.
-
-
-#### - lastWriteTime [in, optional]
-
-Type: <b>FILETIME</b>
-
-Last modified time of the input file path. If the parameter is omitted,      
-          the function will access the font file to obtain its last write time, so the clients are encouraged to specify this value      
-          to avoid extra disk access. Subsequent operations on the constructed object may fail      
-          if the user provided lastWriteTime doesn't match the file on the disk.
 
 
 ## -returns

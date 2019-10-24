@@ -64,7 +64,7 @@ This method is reserved for future use.
 
 ### -param pllOriginalCapabilityMask
 
-TBD
+This parameter is reserved for future use.
 
 
 

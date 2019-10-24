@@ -62,7 +62,7 @@ Informs the host of reduced memory allocations since the last notification.
 
 ### -param bytesAllocated
 
-TBD
+The number of bytes currently allocated.
 
 
 

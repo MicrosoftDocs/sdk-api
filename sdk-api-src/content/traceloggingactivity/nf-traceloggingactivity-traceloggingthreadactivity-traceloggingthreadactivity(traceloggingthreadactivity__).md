@@ -65,7 +65,7 @@ Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/d
 
 ### -param rhs
 
-TBD
+A reference to a <b>TraceLoggingThreadActivity</b>.
 
 
 
