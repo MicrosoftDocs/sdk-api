@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPACCEPT
 title: LPWSPACCEPT
-Description: The LPWSPAccept function conditionally accepts a connection based on the return value of a condition function.
+description: The LPWSPAccept function conditionally accepts a connection based on the return value of a condition function.
 ms.date: 9/9/2019
 ms.keywords: LPWSPACCEPT, WSPACCEPT
 ms.topic: language-reference

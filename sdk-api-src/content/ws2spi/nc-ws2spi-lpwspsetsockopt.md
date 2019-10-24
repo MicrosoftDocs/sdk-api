@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPSETSOCKOPT
 title: LPWSPSETSOCKOPT
-description: The WSPSetSockOpt function sets a socket option.
+description: The LPWSPSetSockOpt function sets a socket option.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSETSOCKOPT
 ms.topic: language-reference
@@ -62,22 +62,110 @@ A pointer to the error code.
 ## -returns
 If no error occurs, <b>LPWSPSetSockOpt</b> returns zero. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code is available in <i>lpErrno</i>.
 
+<table>
+<tr>
+<th>Error Code</th>
+<th>Meaning</th>
+</tr>
 
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></dt>
+</dl>
+</td>
+<td width="60%">
+The network subsystem has failed.
+</td>
+</tr>
 
-| Error code                                                                                                                                        | Meaning                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md#wsaenetdown)**         | The network subsystem has failed.<br/>                                                                                  |
-| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md#wsaefault)**             | The <i>optval</i> is not in a valid part of the process address space or <i>optlen</i> parameter is too small.<br/>               |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md#wsaeinprogress)**   | Function is invoked when a callback is in progress.<br/>                                                                |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md#wsaeinprogress)**   | Blocking Windows Sockets call is in progress, or the service provider is still processing a callback function.<br/>     |
-| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md#wsaeinval)**             | The <i>level</i> is not valid, or the information in <i>optval</i> is not valid.<br/>                                             |
-| <dl> <dt>**<a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETRESET">WSAENETRESET</a> **       | The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.<br/> |
-| <dl> <dt>**<a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a> **   | Option is unknown or unsupported for the specified provider.<br/>                                                       |
-| <dl> <dt>**<a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a> **         | The connection has been reset when <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> is set.<br/>                                   |
-| <dl> <dt>**[WSAENOTSOCK](windows-sockets-error-codes-2.md#wsaenotsock)**         | The descriptor is not a socket.<br/>                                                                                    |
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>optval</i> is not in a valid part of the process address space or <i>optlen</i> parameter is too small.
+</td>
+</tr>
 
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
+</dl>
+</td>
+<td width="60%">
+Function is invoked when a callback is in progress.
+</td>
+</tr>
 
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
+</dl>
+</td>
+<td width="60%">
+Blocking Windows Sockets call is in progress, or the service provider is still processing a callback function.
+</td>
+</tr>
 
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>level</i> is not valid, or the information in <i>optval</i> is not valid.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETRESET">WSAENETRESET</a></dt>
+</dl>
+</td>
+<td width="60%">
+The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+Option is unknown or unsupported for the specified provider.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The connection has been reset when <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a> is set.
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The descriptor is not a socket.
+</td>
+</tr>
+</table>
  
 ## -remarks
 The <b>LPWSPSetSockOpt</b> function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether broadcast messages can be sent on the socket.
@@ -86,7 +174,7 @@ There are two types of socket options: Boolean options that enable or disable a 
 
 For more information about socket options, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/socket-options">Socket Options</a></b>.
 
-level = SOL_SOCKET
+### level = SOL_SOCKET
 
 
 
@@ -170,6 +258,7 @@ When a Windows Sockets implementation supports the <b>SO_RCVBUF</b> and <b>SO_SN
 </dt> <dd>
 
 This object stores the configuration information for the service provider associated with socket <i>s</i>. The exact format of this data structure is service provider specific.
+
 ## -see-also
 <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>
    

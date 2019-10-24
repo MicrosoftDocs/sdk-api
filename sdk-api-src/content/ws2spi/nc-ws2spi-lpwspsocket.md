@@ -220,10 +220,7 @@ Parameter <i>g</i> specified is not valid.
 
 ## -remarks
 
-
-
-The 
-<b>WSPSocket</b> function causes a socket descriptor and any related resources to be allocated. By default, the created socket will not have the overlapped attribute. Windows Sockets providers are encouraged to be realized as Windows installable file systems, and supply system file handles as socket descriptors. These providers must call 
+The <b>WSPSocket</b> function causes a socket descriptor and any related resources to be allocated. By default, the created socket will not have the overlapped attribute. Windows Sockets providers are encouraged to be realized as Windows installable file systems, and supply system file handles as socket descriptors. These providers must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> prior to returning from this function. For nonfile-system Windows Sockets providers, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> must be used to acquire a unique socket descriptor from the Ws2_32.dll prior to returning from this function. See  
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/descriptor-allocation-2">Descriptor Allocation</a> for more information.

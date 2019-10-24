@@ -1,6 +1,7 @@
 ---
 UID: NS:ws2spi.WSPData
 title: WSPDATA
+description: The WSPDATA structure contains service provider information.
 ms.date: 4/26/2019
 ms.keywords: WSPData, WSPDATA
 ms.topic: language-reference
@@ -44,7 +45,7 @@ The <b>WSPDATA</b> structure contains service provider information.
 Version of the Windows Sockets SPI specification that the Windows Sockets service provider expects the caller to use.
 
 ### -field wHighVersion
-Highest version of the Windows Sockets SPI specification that this service provider can support (also encoded as above). Normally this will be the same as **wVersion**.
+Highest version of the Windows Sockets SPI specification that this service provider can support (also encoded as above). Normally this will be the same as <b>wVersion</b>.
 
 ### -field szDescription
 Null-terminated Unicode string into which the Windows Sockets provider copies a description of itself. The text (up to 256 characters in length) can contain any characters except control and formatting characters: the most likely use to which an SPI client will put this is to display it (possibly truncated) in a status message.
