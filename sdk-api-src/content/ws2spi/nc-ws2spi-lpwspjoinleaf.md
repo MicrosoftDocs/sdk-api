@@ -2,7 +2,7 @@
 UID: NC:ws2spi.LPWSPJOINLEAF
 title: LPWSPJOINLEAF (ws2spi.h)
 author: windows-sdk-content
-description: The WSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
+description: The LPWSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
 old-location: winsock\wspjoinleaf_2.htm
 tech.root: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
@@ -50,23 +50,15 @@ ms.custom: 19H1
 
 
 ## -description
-
-
-The 
-<b>WSPJoinLeaf</b> function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
-
+The <b>WSPJoinLeaf</b> function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
 
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 Descriptor identifying a multipoint socket.
 
-
-### -param *name [in]
+### -param name [in]
 
 Name of the peer to which the socket in the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure is to be joined.
@@ -108,8 +100,6 @@ Pointer to the error code.
 
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSPJoinLeaf</b> returns a value of type <b>SOCKET</b> that is a descriptor for the newly created multipoint socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code is available in <i>lpErrno</i>.

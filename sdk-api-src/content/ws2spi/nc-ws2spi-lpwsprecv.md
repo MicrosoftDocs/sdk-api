@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPRECV
 title: LPWSPRECV
-description: The WSPRecv function receives data on a socket.
+description: The LPWSPRecv function receives data on a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECV
 ms.topic: language-reference
@@ -176,17 +176,97 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 Socket has been shut down; it is not possible to receive through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> on a socket after <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspshutdown">LPWSPShutdown</a></b> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEWOULDBLOCK">WSAEWOULDBLOCK</a></dt>
+</dl>
+</td>
+<td width="60%">
+Windows NT: 
+Overlapped sockets: there are too many outstanding overlapped I/O requests. Nonoverlapped sockets: The socket is marked as nonblocking and the receive operation cannot be completed immediately.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></dt>
+</dl>
+</td>
+<td width="60%">
+Message was too large to fit into the specified buffer and (for unreliable protocols only) any trailing portion of the message that did not fit into the buffer has been discarded.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
+</dl>
+</td>
+<td width="60%">
+Socket has not been bound (for example, with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>) or the socket is not created with the overlapped flag.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNABORTED">WSAECONNABORTED</a></dt>
+</dl>
+</td>
+<td width="60%">
+Virtual circuit was terminated due to a time-out or other failure.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNRESET">WSAECONNRESET</a></dt>
+</dl>
+</td>
+<td width="60%">
+Virtual circuit was reset by the remote side.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDISCON">WSAEDISCON</a></dt>
+</dl>
+</td>
+<td width="60%">
+Socket <i>s</i> is message oriented and the virtual circuit was gracefully closed by the remote side.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSA_IO_PENDING">WSA_IO_PENDING</a></dt>
+</dl>
+</td>
+<td width="60%">
+An overlapped operation was successfully initiated and completion will be indicated at a later time.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSA_OPERATION_ABORTED">WSA_OPERATION_ABORTED</a></dt>
+</dl>
+</td>
+<td width="60%">
+Overlapped operation has been canceled due to the closure of the socket.
+</td>
+</tr>
 </table>
-       
-| <dl> <dt>**[WSAESHUTDOWN](windows-sockets-error-codes-2.md#wsaeshutdown)**                       | Socket has been shut down; it is not possible to receive through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> on a socket after <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspshutdown">LPWSPShutdown</a></b> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.<br/>                            |
-| <dl> <dt>**[WSAEWOULDBLOCK](windows-sockets-error-codes-2.md#wsaewouldblock)**                   | **Windows NT:  **<br/> Overlapped sockets: there are too many outstanding overlapped I/O requests. Nonoverlapped sockets: The socket is marked as nonblocking and the receive operation cannot be completed immediately.<br/>              |
-| <dl> <dt>**<b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b>**                         | Message was too large to fit into the specified buffer and (for unreliable protocols only) any trailing portion of the message that did not fit into the buffer has been discarded.<br/>                                                         |
-| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md#wsaeinval)**                             | Socket has not been bound (for example, with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>) or the socket is not created with the overlapped flag.<br/>                                                                                                           |
-| <dl> <dt>**[WSAECONNABORTED](windows-sockets-error-codes-2.md#wsaeconnaborted)**                 | Virtual circuit was terminated due to a time-out or other failure.<br/>                                                                                                                                                                          |
-| <dl> <dt>**<b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNRESET">WSAECONNRESET</a></b>**                     | Virtual circuit was reset by the remote side.<br/>                                                                                                                                                                                               |
-| <dl> <dt>**<b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDISCON">WSAEDISCON</a></b>**                           | Socket <i>s</i> is message oriented and the virtual circuit was gracefully closed by the remote side.<br/>                                                                                                                                            |
-| <dl> <dt>**[WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending)**                 | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br/>                                                                                                                                        |
-| <dl> <dt>**[WSA_OPERATION_ABORTED](windows-sockets-error-codes-2.md#wsa-operation-aborted)**   | Overlapped operation has been canceled due to the closure of the socket.<br/>                                                                                                                                                                    |
+
 ## -remarks
 <b>LPWSPRecv</b> is used on connected sockets or bound connectionless sockets specified by the <i>s</i> parameter and is used to read incoming data. The socket's local address must be known. This may be done explicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> or implicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept">LPWSPAccept</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b>, or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf">LPWSPJoinLeaf</a></b>.
 

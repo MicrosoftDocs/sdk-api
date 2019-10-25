@@ -80,14 +80,51 @@ The network subsystem has failed.
 Buffer referenced by the parameter <i>lpInboundDisconnectData</i> is too small.  
 </td>
 </tr>
-</table>
-                                                                    |
-| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md#wsaefault)**             | Buffer referenced by the parameter <i>lpInboundDisconnectData</i> is too small.<br/>                                     |
-| <dl> <dt>**[WSAENOPROTOOPT](windows-sockets-error-codes-2.md#wsaenoprotoopt)**   | Disconnect data is not supported by the indicated protocol family.<br/>                                             |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md#wsaeinprogress)**   | Blocking Windows Sockets call is in progress, or the service provider is still processing a callback function.<br/> |
-| <dl> <dt>**[WSAENOTCONN](windows-sockets-error-codes-2.md#wsaenotconn)**         | Socket is not connected (connection-oriented sockets only).<br/>                                                    |
-| <dl> <dt>**[WSAENOTSOCK](windows-sockets-error-codes-2.md#wsaenotsock)**         | The descriptor is not a socket.<br/>                                                                                |
 
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a></dt>
+</dl>
+</td>
+<td width="60%">
+Disconnect data is not supported by the indicated protocol family.  
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
+</dl>
+</td>
+<td width="60%">
+Blocking Windows Sockets call is in progress, or the service provider is still processing a callback function.  
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></dt>
+</dl>
+</td>
+<td width="60%">
+Socket is not connected (connection-oriented sockets only).  
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>                                              
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></dt>
+</dl>
+</td>
+<td width="60%">
+The descriptor is not a socket.  
+</td>
+</tr>
+</table>
 
 ## -remarks
 <b>LPWSPRecvDisconnect</b> is used on connection-oriented sockets to disable reception, and retrieve any incoming disconnect data from the remote party.
@@ -102,7 +139,6 @@ Note that <b>LPWSPRecvDisconnect</b> does not close the socket, and resources at
 > <b>LPWSPRecvDisconnect</b> does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been <b>LPWSPRecvDisconnect</b>ed. In particular, a Windows Sockets provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
 
 ## -see-also
-
 
 <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
    
