@@ -56,20 +56,59 @@ ms.custom: 19H1
 
 
 
-Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input.
+Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input. This operator uses multiple gates to perform this layer. These gates are performed multiple times in a loop dictated by sequence length dimension and SequenceLengthsTensor.
 
-Z = Activation1(clip( X * transpose(W1) + Initial_h1 * transpose(R1) + b1))
+**Forward Direction Equation**
+for (t = 0; t < seq_length; t++)
+{
+&nbsp;&nbsp;&nbsp;&nbsp;$z_t = f(X_t*W_z^T + H_{t-1} * R_z^T + W_{bz} + R_{bz})$
+&nbsp;&nbsp;&nbsp;&nbsp;$r_t = f(X_t*W_r^T + H_{t-1} * R_r^T + W_{br} + R_{br})$
 
-R = Activation1(clip( X * transpose(W2) + Initial_h1 * transpose(R2) + b2))
+&nbsp;&nbsp;&nbsp;&nbsp;if (LinearBeforeReset = 0)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h_t = g(X_t*W_h^T + (r_t \bigodot H_{t-1}) * R_h^T + W_{bh} + R_{bh})$
+&nbsp;&nbsp;&nbsp;&nbsp;else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h_t = g(X_t*W_h^T + (r_t \bigodot (H_{t-1} * R_h^T + R_{bh}) + W_{bh})$
 
-C = Initial_h1 .* R
 
-O = Activation2(clip( X * transpose(W3) + Initial_h1 * transpose(R3) + b3))
+&nbsp;&nbsp;&nbsp;&nbsp;$H_t = ((1 - z_t) \bigodot h_t) + (z_t \bigodot H_{t-1})$ 
+}
 
-Y = (1-Z) .* O + Z .* Initial_h1
+**Backward Direction Equation**
+for (t = seq_length - 1; t >= 0; t--)
+{
+&nbsp;&nbsp;&nbsp;&nbsp;$z_t = f(X_t*W_{Bz}^T + H_{t-1} * R_{Bz}^T + W_{Bbz} + R_{Bbz})$
+&nbsp;&nbsp;&nbsp;&nbsp;$r_t = f(X_t*W_{Br}^T + H_{t-1} * R_{Br}^T + W_{Bbr} + R_{Bbr})$
 
-(W = [W1, W2, W3]; b1 = B[0, :] + B[3*hidden_size]; b2 = B[1, :] + B[4*hidden_size, :]; b3 = B[2, :] + B[4*hidden_size, :];)
+&nbsp;&nbsp;&nbsp;&nbsp;if (LinearBeforeReset = 0)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h_t = g(X_t*W_{Bh}^T + (r_t \bigodot H_{t-1}) * R_{Bh}^T + W_{Bbh} + R_{Bbh})$
+&nbsp;&nbsp;&nbsp;&nbsp;else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h_t = g(X_t*W_{Bh}^T + (r_t \bigodot (H_{t-1} * R_{Bh}^T + R_{Bbh}) + W_{Bbh})$
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;$H_t = ((1 - z_t) \bigodot h_t) + (z_t \bigodot H_{t-1})$ 
+}
+
+
+**Equation Legend**
+- $t$ current GRU layer index
+- $t-1$ previous GRU layer index. If backwards direction then it means $t+1$ index but still the previously calculated $t$.
+- $T$ signifies that a matrix will be transposed before use.
+- $*$ signifies a matrix multiplication.
+- $+$ signifies a element-wise addition of two matrices.
+- $\bigodot$ signifies an element-wise multiply of two matrices.
+- $H_t$ output of current GRU index $t$.
+- $f(),g()$ activation functions dictated by **ActivationDescs**.
+- $X_t$ Sub-matrix of the **InputTensor** which is defined by matrix size [1, batch_size, input_size], at index $t$ of the seq_length dimension.
+- $W_{[zrh]}^T$ Forward sub-matrix defined in **WeightTensor** which is defined to be size [1, batch_size, input_size]. This matrix will be transposed before use.
+- $W_{B[zrh]}^T$ Backwards sub-matrix defined in **WeightTensor** which is defined to be size [1, batch_size, input_size]. This matrix will be transposed before use.
+- $H_{t-1}$ an intermediate tensor which is defined to be the output of the previous layer. For the first index of $t$, H_{t-1} is replaced with **HiddenInitTensor**. This is defined to be size [1, batch_size, hidden_size]. A different **HiddenInitTensor** sub-matrix is used for each direction.
+- $R_{[zrh]}T$ Forward sub-matrix of **RecurrenceTensor** which is defined to be size [1, hidden_size, hidden_size]. This matrix will be transposed before use.
+- $R_{B[zrh]}^T$ Backwards sub-matrix of **RecurrenceTensor** which is defined to be size [1, hidden_size, hidden_size]. This matrix will be transposed before use.
+- $W_{b[zrh]}$, $R_{b[zrh]}$ are the bias tensors of the weight tensor and recurrence tensors which are sub-matrices of **BiasTensor**. This matrix is size [1,hidden_size] and is broadcasted up to the required size which is [1, batch_size, hidden_size].
+- $W_{Bb[zrh]}$, $R_{Bb[zrh]}$ are the bias tensors for the backwards direction
+- $z_t$ stands for update gate at index $t$.
+- $r_t$ stands for reset gate at index $t$.
+- $h_t$ stands for hidden gate at index $t$.
 
 ## -struct-fields
 
@@ -80,56 +119,56 @@ Y = (1-Z) .* O + Z .* Initial_h1
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from for the input tensor, X.
+A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from for the input tensor, $X$. Packed (and potentially padded) into one 4-D tensor with the shape of [1, seq_length, batch_size, input_size]. seq_length is the dimension which is mapped to the GRU index, $t$.
 
 
 ### -field WeightTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the weight tensor, W.
+A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the weight tensor, $W$. Concatenation of $W_{[zrh]}$ and $W_{B[zrh]}$ (if bidirectional). The tensor has shape [1, num_directions, 3 * hidden_size, input_size].
 
 
 ### -field RecurrenceTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the recurrence tensor, R.
+A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the recurrence tensor, $R$. Concatenation of $R_{[zrh]}$ and $R_{B[zrh]}$ (if bidirectional). The tensor has shape [1, num_directions, 3 * hidden_size, hidden_size].
 
 
 ### -field BiasTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the bias tensor, B.
+An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the bias tensor, $B$. Concatenation of ($W_{b[zrh]}$, $R_{b[zrh]}$) and ($W_{Bb[zrh]}$, $R_{Bb[zrh]}$) (if bidirectional). The tensor has shape [1, 1, num_directions, 6 * hidden_size].
 
 
 ### -field HiddenInitTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the hidden node initializer tensor, H.
+An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the hidden node initializer tensor, $H_{t-1}$ for the first loop index $t$. If not specified, then defaults to 0. This tensor has shape [1, num_directions, batch_size, hidden_size].
 
 
 ### -field SequenceLengthsTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the sequence lengths.
+An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing an independent seq_length for each element in the batch. If not specified, then all sequences in the batch have length seq_length. This tensor has shape [1, 1, 1, batch_size].
 
 
 ### -field OutputSequenceTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to which to write the concatenation of all the intermediate output values of the hidden nodes.  This tensor has shape [seq_length, num_directions, batch_size, hidden_size].
+An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to which to write the concatenation of all the intermediate output values of the hidden nodes, $H_t$.  This tensor has shape [seq_length, num_directions, batch_size, hidden_size]. seq_length is mapped to the loop index $t$.
 
 
 ### -field OutputSingleTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to which to write the last output value of the hidden nodes.  This tensor has shape [num_directions, batch_size, hidden_size].
+An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to which to write the last output value of the hidden nodes, $H_t$.  This tensor has shape [1, num_directions, batch_size, hidden_size].
 
 
 ### -field ActivationDescCount
@@ -143,14 +182,15 @@ This field determines the size of the <i>ActivationDescs</i> array.
 
 Type: **const [DML_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_operator_desc)\***
 
-A pointer to a constant array of [DML_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_operator_desc) containing the descriptions of the activation operators.
+A pointer to a constant array of [DML_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_operator_desc) containing the descriptions of the activation operators, $f()$ and $g()$. Both $f()$ and $g()$ are defined independently of direction, meaning that if DML_RECURRENT_NETWORK_DIRECTION_FORWARD or DML_RECURRENT_NETWORD_DIRECTION_BACKWARD are defined 2 activations must be provided. If DML_RECURRENT_NETWORK_DIRECTION_BIDIRECTIONAL is defined 4 activations must be provided. For bidirectional, activations must be provided $f()$ and $g()$ for forward followed by $f()$ and $g()$ for backwards.
+
 
 
 ### -field Direction
 
 Type: **const [DML_RECURRENT_NETWORK_DIRECTION](/windows/desktop/api/directml/ne-directml-dml_recurrent_network_direction)\***
 
-The direction of the operator—forward, reverse, or bidirectional.
+The direction of the operator—forward, backwards, or bidirectional.
 
 
 ### -field LinearBeforeReset
