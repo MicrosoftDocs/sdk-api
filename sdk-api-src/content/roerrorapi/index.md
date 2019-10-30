@@ -4,6 +4,7 @@ title: roerrorapi
 ms.date: 05/20/2019
 ms.keywords: roerrorapi
 ms.topic: language-reference
+tech.root: winrt
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset
