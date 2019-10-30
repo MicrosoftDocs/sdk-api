@@ -34,8 +34,6 @@ api_name:
 ms.custom: 19H1
 ---
 
-# D3D12_AUTO_BREADCRUMB_OP enumeration
-
 ## -description
 
 Defines constants that specify render/compute GPU operations.
