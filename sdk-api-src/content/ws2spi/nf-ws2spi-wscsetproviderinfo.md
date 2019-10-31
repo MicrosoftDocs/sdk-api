@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
-<b>WSCSetProviderInfo</b> function sets the data value for the specified information class  for a layered service provider (LSP).
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+**WSCSetProviderInfo** function sets the data value for the specified information class  for a layered service provider (LSP).
 
 ## -parameters
 
@@ -73,7 +73,7 @@ The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter.
 
 ### -param Flags [in]
 
-The flags used to modify the behavior of the <b>WSCSetProviderInfo</b> function call.
+The flags used to modify the behavior of the **WSCSetProviderInfo** function call.
 
 ### -param lpErrno [out]
 
@@ -81,7 +81,7 @@ A pointer to the error code if the function fails.
 
 ## -returns
 
-If no error occurs, <b>WSCSetProviderInfo</b> returns <b>ERROR_SUCCESS</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is returned in the <i>lpErrno</i> parameter.
+If no error occurs, **WSCSetProviderInfo** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
 <table>
 <tr>
@@ -91,18 +91,18 @@ If no error occurs, <b>WSCSetProviderInfo</b> returns <b>ERROR_SUCCESS</b> (zero
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_CALL_NOT_IMPLEMENTED</b></dt>
+<dt><b>ERROR_CALL_NOT_IMPLEMENTED</b></dl>
 </dl>
 </td>
 <td width="60%">
-The call is not implemented. This error is returned if <b>ProviderInfoAudit</b> is specified in the <i>InfoType</i> parameter.
+The call is not implemented. This error is returned if **ProviderInfoAudit** is specified in the <i>InfoType</i> parameter.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -147,10 +147,10 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 ## -remarks
 
-<b>WSCSetProviderInfo</b> is used to set the information class data for a layered service provider. When the <i>InfoType</i> parameter is set to <b>ProviderInfoLspCategories</b>, on success <b>WSCSetProviderInfo</b> sets appropriate LSP category flags implemented by the provider based on the value passed in the <i>Info</i> parameter. 
+**WSCSetProviderInfo** is used to set the information class data for a layered service provider. When the <i>InfoType</i> parameter is set to **ProviderInfoLspCategories**, on success **WSCSetProviderInfo** sets appropriate LSP category flags implemented by the provider based on the value passed in the <i>Info</i> parameter. 
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions, while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol or layered service provider would be a security layer that adds protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme.  Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX.  The term base protocol refers to a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone.  A protocol chain would then be defined as one or more layered protocols strung together and anchored by a base protocol.
-A base protocol has the <b>ChainLen</b> member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure set to  <b>BASE_PROTOCOL</b> which is defined to be 1. A layered protocol has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to <b>LAYERED_PROTOCOL</b> which is defined to be zero. A protocol chain has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to greater than 1.
+A base protocol has the **ChainLen** member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure set to  **BASE_PROTOCOL** which is defined to be 1. A layered protocol has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to **LAYERED_PROTOCOL** which is defined to be zero. A protocol chain has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to greater than 1.
 
 During LSP initialization, the LSP must provide pointers to a number of Winsock SPI functions.  These functions will be called during normal processing by the layer directly above the LSP (either another LSP or Ws2_32.dll).  
 
@@ -162,7 +162,7 @@ It is possible to define LSP categories based upon the subset of SPI functions a
 
 By classifying LSPs, as well as classifying applications which use Winsock sockets, it becomes possible to selectively determine if an LSP should be involved in a given process at runtime.
 
-On Windows Vista and later, an LSP can be classified based on how it interacts with Windows Sockets calls and data. An LSP category is an identifiable group of behaviors on a subset of Winsock SPI functions.  For example, an HTTP content filter would be categorized as a data inspector (the <b>LSP_INSPECTOR</b> category). The <b>LSP_INSPECTOR</b> category will inspect, but not alter, parameters to data transfer SPI functions. An application can query for the category of an LSP and choose to not load the LSP based on the LSP category and the application's set of permitted LSP categories.
+On Windows Vista and later, an LSP can be classified based on how it interacts with Windows Sockets calls and data. An LSP category is an identifiable group of behaviors on a subset of Winsock SPI functions.  For example, an HTTP content filter would be categorized as a data inspector (the **LSP_INSPECTOR** category). The **LSP_INSPECTOR** category will inspect, but not alter, parameters to data transfer SPI functions. An application can query for the category of an LSP and choose to not load the LSP based on the LSP category and the application's set of permitted LSP categories.
 
 The following table lists categories into which an LSP can be classified.<table>
 <tr>
@@ -170,53 +170,53 @@ The following table lists categories into which an LSP can be classified.<table>
 <th>Description</th>
 </tr>
 <tr>
-<td><b>LSP_CRYPTO_COMPRESS</b></td>
+<td>**LSP_CRYPTO_COMPRESS**</td>
 <td>The LSP is a cryptography or data compression provider.</td>
 </tr>
 <tr>
-<td><b>LSP_FIREWALL</b></td>
+<td>**LSP_FIREWALL**</td>
 <td>The LSP is a firewall provider.</td>
 </tr>
 <tr>
-<td><b>LSP_LOCAL_CACHE</b></td>
+<td>**LSP_LOCAL_CACHE**</td>
 <td>The LSP is a local cache provider.
 </td>
 </tr>
 <tr>
-<td><b>LSP_INBOUND_MODIFY</b></td>
+<td>**LSP_INBOUND_MODIFY**</td>
 <td>The LSP modifies inbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_INSPECTOR</b></td>
+<td>**LSP_INSPECTOR**</td>
 <td>The LSP inspects or filters data.
 </td>
 </tr>
 <tr>
-<td><b>LSP_OUTBOUND_MODIFY</b></td>
+<td>**LSP_OUTBOUND_MODIFY**</td>
 <td>The LSP modifies outbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_PROXY</b></td>
+<td>**LSP_PROXY**</td>
 <td>The LSP acts as a proxy and redirects packets.</td>
 </tr>
 <tr>
-<td><b>LSP_REDIRECTOR</b></td>
+<td>**LSP_REDIRECTOR**</td>
 <td>The LSP is a network redirector.</td>
 </tr>
 <tr>
-<td><b>LSP_SYSTEM</b></td>
+<td>**LSP_SYSTEM**</td>
 <td>The LSP is acceptable for use in services and system processes.</td>
 </tr>
 </table>
  
-An LSP may belong to more than one category.  For example, firewall/security LSP could belong to both the inspector (<b>LSP_INSPECTOR</b>) and firewall (<b>LSP_FIREWALL</b>) categories.
+An LSP may belong to more than one category.  For example, firewall/security LSP could belong to both the inspector (**LSP_INSPECTOR**) and firewall (**LSP_FIREWALL**) categories.
 
 If an LSP does not have category set, it is considered to be in the All Other category. This LSP category will not be loaded in services or system processes (for example, lsass, winlogon, and many svchost processes).
 
-The <b>WSCSetProviderInfo</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCSetProviderInfo</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>WSANO_RECOVERY</b> is returned in the <i>lpErrno</i> parameter. 
- This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
+The **WSCSetProviderInfo** function can only be called by a user logged on as a member of the Administrators group. If **WSCSetProviderInfo** is called by a user that is not a member of the Administrators group, the function call will fail and **WSANO_RECOVERY** is returned in the <i>lpErrno</i> parameter. 
+ This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-<div class="alert"><b>Note</b>  The TDI feature is deprecated and will be removed in future versions of Microsoft
+<div class="alert">**Note**  The TDI feature is deprecated and will be removed in future versions of Microsoft
     Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform
     (WFP). For more information about WFP and WSK, see 
     

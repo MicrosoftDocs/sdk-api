@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPGetServiceClassInfo</b> function retrieves all the pertinent class information (schema) pertaining to the namespace provider. This call retrieves any namespace-specific information that is common to all instances of the service, including connection information for SAP, or port information for SAP or TCP.
+**NSPGetServiceClassInfo** function retrieves all the pertinent class information (schema) pertaining to the namespace provider. This call retrieves any namespace-specific information that is common to all instances of the service, including connection information for SAP, or port information for SAP or TCP.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ On output, if the function fails and the error is
 
 ### -param lpServiceClassInfo [in, out]
 
-Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which <b>WSASERVICECLASSINFOW</b> record should be returned.
+Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which **WSASERVICECLASSINFOW** record should be returned.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/win
 
 
 If no error occurs, the 
-<b>NSPGetServiceClassInfo</b> function returns <b>NO_ERROR</b> (zero). Otherwise, <b>SOCKET_ERROR</b> (–1) is returned and the namespace provider must set the appropriate error code using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
+**NSPGetServiceClassInfo** function returns **NO_ERROR** (zero). Otherwise, **SOCKET_ERROR** (–1) is returned and the namespace provider must set the appropriate error code using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
 
@@ -96,7 +96,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ The calling routine does not have sufficient privileges to access the informatio
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -129,18 +129,18 @@ The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to c
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-The specified service class identifier or namespace provider identifier is not valid. This error is returned if the <i>lpProviderId</i>, <i>lpServiceClassId</i>, <i>lpdwBufSize</i>, or <i>lpServiceClassInfo</i> parameters are <b>NULL</b>.
+The specified service class identifier or namespace provider identifier is not valid. This error is returned if the <i>lpProviderId</i>, <i>lpServiceClassId</i>, <i>lpdwBufSize</i>, or <i>lpServiceClassInfo</i> parameters are **NULL**.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSCEnableNSProvider</b> function changes the state of a given namespace provider. It is intended to give the end-user the ability to change the state of the namespace providers.
+**WSCEnableNSProvider** function changes the state of a given namespace provider. It is intended to give the end-user the ability to change the state of the namespace providers.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to a globally unique identifier (GUID)  for the namespace provider.
 
 ### -param fEnable [in]
 
-A Boolean value that, if <b>TRUE</b>, the provider is set to the active state. If <b>FALSE</b>, the provider is disabled and will not be available for query operations or service registration.
+A Boolean value that, if **TRUE**, the provider is set to the active state. If **FALSE**, the provider is disabled and will not be available for query operations or service registration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A Boolean value that, if <b>TRUE</b>, the provider is set to the active state. I
 
 
 If no error occurs, the 
-<b>WSCEnableNSProvider</b> function returns <b>NO_ERROR</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b> if the function fails, and you must retrieve the appropriate error code using the 
+**WSCEnableNSProvider** function returns **NO_ERROR** (zero). Otherwise, it returns **SOCKET_ERROR** if the function fails, and you must retrieve the appropriate error code using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 
@@ -89,7 +89,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ The <i>lpProviderId</i> parameter points to memory that is not in a valid part o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ The specified namespace provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ The specified namespace provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -141,15 +141,15 @@ The specified namespace provider identifier is invalid.
 
 
 The 
-<b>WSCEnableNSProvider</b> function is intended to be used to change the state of the namespace providers. An independent software vendor (ISV) should not normally de-activate another ISV namespace provider in order to activate its own. The choice should be left to the user.    
+**WSCEnableNSProvider** function is intended to be used to change the state of the namespace providers. An independent software vendor (ISV) should not normally de-activate another ISV namespace provider in order to activate its own. The choice should be left to the user.    
 
-The <b>WSCEnableNSProvider</b> function does not affect applications that are already running. Newly installed namespace providers will not be visible to applications nor will the changes in a namespace provider's activation state be visible. Applications launched after the call to 
-<b>WSCEnableNSProvider</b> will see the changes.
+The **WSCEnableNSProvider** function does not affect applications that are already running. Newly installed namespace providers will not be visible to applications nor will the changes in a namespace provider's activation state be visible. Applications launched after the call to 
+**WSCEnableNSProvider** will see the changes.
 
-The <b>WSCEnableNSProvider</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCEnableNSProvider</b> is called by a user that is not a member of the Administrators group, the function call will fail. 
+The **WSCEnableNSProvider** function can only be called by a user logged on as a member of the Administrators group. If **WSCEnableNSProvider** is called by a user that is not a member of the Administrators group, the function call will fail. 
  
 
-For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
+For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
 
 

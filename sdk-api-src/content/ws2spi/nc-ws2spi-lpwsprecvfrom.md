@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPRecvFrom</b> function receives a datagram and stores the source address.
+The **LPWSPRecvFrom** function receives a datagram and stores the source address.
 
 ## -parameters
 
@@ -45,7 +45,7 @@ The <b>LPWSPRecvFrom</b> function receives a datagram and stores the source addr
 Descriptor identifying a socket.
 
 ### -param lpBuffers [in, out]
-Pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each <b>WSABUF</b> structure contains a pointer to a buffer and the length of the buffer, in bytes.
+Pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes.
 
 ### -param dwBufferCount [in]
 Number of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
@@ -69,13 +69,13 @@ Pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/wins
 Pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId \[in\]
-Pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced <b>WSATHREADID</b> structure (not the pointer to same) until after the <b>WPUQueueApc</b> function returns.
+Pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [in, out]
 Pointer to the error code.
 
 ## -returns
-If no error occurs and the receive operation has completed immediately, <b>LPWSPRecvFrom</b> returns zero. Note that in this case the completion routine, if specified will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operations was initiated and no completion indication will occur.
+If no error occurs and the receive operation has completed immediately, **LPWSPRecvFrom** returns zero. Note that in this case the completion routine, if specified will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operations was initiated and no completion indication will occur.
 
 <table>
 <tr>
@@ -200,7 +200,7 @@ Socket has been shut down; it is not possible to run <b><a href="https://docs.mi
 </dl>
 </td>
 <td width="60%">
-<b>Windows NT:</b><br/> Overlapped sockets: There are too many outstanding overlapped I/O requests.Nonoverlapped sockets: The socket is marked as nonblocking and the receive operation cannot be completed immediately.
+**Windows NT:**<br/> Overlapped sockets: There are too many outstanding overlapped I/O requests.Nonoverlapped sockets: The socket is marked as nonblocking and the receive operation cannot be completed immediately.
 </td>
 </tr>
 
@@ -261,7 +261,7 @@ Overlapped operation has been canceled due to the closure of the socket.
 </table>
            
 ## -remarks
-The <b>LPWSPRecvFrom</b> function is used primarily on a connectionless socket specified by <i>s</i> The socket must not be connected. The local address of the socket must be known. This may be done explicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> or implicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf">LPWSPJoinLeaf</a></b>.
+The **LPWSPRecvFrom** function is used primarily on a connectionless socket specified by <i>s</i> The socket must not be connected. The local address of the socket must be known. This may be done explicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> or implicitly through <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf">LPWSPJoinLeaf</a></b>.
 
 For overlapped sockets, this function is used to post one or more buffers into which incoming data will be placed as it becomes available on a (possibly connected) socket, after which the client-specified completion indication (invocation of the completion routine or setting of an event object) occurs. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>. Also note that the values pointed to by <i>lpFrom</i> and <i>lpFromlen</i> are not updated until completion is indicated. Applications must not use or disturb these values until they have been updated, therefore the client must not use automatic (that is, stack-based) variables for these parameters.
 
@@ -271,7 +271,7 @@ For nonoverlapped sockets, the <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, 
 
 The supplied buffers are filled in the order in which they appear in the array pointed to by <i>lpBuffers</i>, and the buffers are packed so that no holes are created.
 
-The array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures pointed to by the <i>lpBuffers</i> parameter is transient. If this operation completes in an overlapped manner, it is the service provider's responsibility to capture this array of pointers to <b>WSABUF</b> structures before returning from this call. This enables Windows Sockets SPI clients to build stack-based <b>WSABUF</b> arrays.
+The array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures pointed to by the <i>lpBuffers</i> parameter is transient. If this operation completes in an overlapped manner, it is the service provider's responsibility to capture this array of pointers to **WSABUF** structures before returning from this call. This enables Windows Sockets SPI clients to build stack-based **WSABUF** arrays.
 
 For connectionless socket types, the address from which the data originated is copied to the buffer pointed by <i>lpFrom</i>. On input, the value pointed to by <i>lpFromlen</i> is initialized to the size of this buffer, and is modified on completion to indicate the actual size of the address stored there.
 
@@ -279,7 +279,7 @@ As noted previously for overlapped sockets, the <i>lpFrom</i> and <i>lpFromlen</
 
 For byte stream-style sockets (for example, type SOCK_STREAM), incoming data is placed into the buffers until the buffers are filled, the connection is closed, or internally buffered data is exhausted. Regardless of whether or not the incoming data fills all the buffers, the completion indication occurs for overlapped sockets.
 
-For message-oriented sockets, a single incoming message is placed into the supplied buffers, up to the total size of the buffers supplied, and the completion indication occurs for overlapped sockets. If the message is larger than the buffers supplied, the buffers are filled with the first part of the message. If the MSG_PARTIAL feature is supported by the service provider, the MSG_PARTIAL flag is set in <i>lpFlags</i> for the socket and subsequent receive operation(s) will retrieve the rest of the message. If MSG_PARTIAL is not supported but the protocol is reliable, <b>LPWSPRecvFrom</b> generates the error <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b> and a subsequent receive operation with a larger buffer can be used to retrieve the entire message. Otherwise, (that is, the protocol is unreliable and does not support MSG_PARTIAL), the excess data is lost, and <b>LPWSPRecvFrom</b> generates the error WSAEMSGSIZE.
+For message-oriented sockets, a single incoming message is placed into the supplied buffers, up to the total size of the buffers supplied, and the completion indication occurs for overlapped sockets. If the message is larger than the buffers supplied, the buffers are filled with the first part of the message. If the MSG_PARTIAL feature is supported by the service provider, the MSG_PARTIAL flag is set in <i>lpFlags</i> for the socket and subsequent receive operation(s) will retrieve the rest of the message. If MSG_PARTIAL is not supported but the protocol is reliable, **LPWSPRecvFrom** generates the error <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b> and a subsequent receive operation with a larger buffer can be used to retrieve the entire message. Otherwise, (that is, the protocol is unreliable and does not support MSG_PARTIAL), the excess data is lost, and **LPWSPRecvFrom** generates the error WSAEMSGSIZE.
 
 The <i>lpFlags</i> parameter can be used to influence the behavior of the function invocation beyond the options specified for the associated socket. That is, the semantics of this function are determined by the socket options and the <i>lpFlags</i> parameter. The latter is constructed by using the bitwise OR operator with any of the following values.
 
@@ -299,15 +299,15 @@ The <i>lpFlags</i> parameter can be used to influence the behavior of the functi
 
 For message-oriented sockets, the MSG_PARTIAL bit is set in the <i>lpFlags</i> parameter if a partial message is received. If a complete message is received, MSG_PARTIAL is cleared in <i>lpFlags</i>. In the case of delayed completion, the value pointed to by <i>lpFlags</i> is not updated. When completion has been indicated the Windows Sockets SPI client should call <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> and examine the flags pointed to by the <i>lpdwFlags</i> parameter.
 
-If an overlapped operation completes immediately, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> returns a value of zero and the <i>lpNumberOfBytesRecvd</i> parameter is updated with the number of bytes received and the flag bits pointed by the <i>lpFlags</i> parameter are also updated. If the overlapped operation is successfully initiated and will complete later, <b>LPWSPRecv</b> returns SOCKET_ERROR and indicates error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending). In this case, <i>lpNumberOfBytesRecvd</i> and <i>lpFlags</i> is not updated. When the overlapped operation completes, the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <b>LPWSPGetOverlappedResult</b>. Flag values are obtained by examining the <i>lpdwFlags</i> parameter of <b>LPWSPGetOverlappedResult</b>.
+If an overlapped operation completes immediately, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> returns a value of zero and the <i>lpNumberOfBytesRecvd</i> parameter is updated with the number of bytes received and the flag bits pointed by the <i>lpFlags</i> parameter are also updated. If the overlapped operation is successfully initiated and will complete later, **LPWSPRecv** returns SOCKET_ERROR and indicates error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending). In this case, <i>lpNumberOfBytesRecvd</i> and <i>lpFlags</i> is not updated. When the overlapped operation completes, the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in **LPWSPGetOverlappedResult**. Flag values are obtained by examining the <i>lpdwFlags</i> parameter of **LPWSPGetOverlappedResult**.
 
-Providers must allow this function to be called from within the completion routine of a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>, <b>LPWSPRecvFrom</b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>, or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> function. However, for a given socket, I/O completion routines cannot be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
+Providers must allow this function to be called from within the completion routine of a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>, **LPWSPRecvFrom**, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>, or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> function. However, for a given socket, I/O completion routines cannot be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate overlapped structure. The <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure is defined in its own reference page.
 
-If the <i>lpCompletionRoutine</i> parameter is null, the service provider signals the <b>hEvent</b> member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. A Windows Sockets SPI client can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to wait or poll on the event object.
+If the <i>lpCompletionRoutine</i> parameter is null, the service provider signals the **hEvent** member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. A Windows Sockets SPI client can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to wait or poll on the event object.
 
-If <i>lpCompletionRoutine</i> is not null, the <b>hEvent</b> member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. It is the service provider's responsibility to arrange for invocation of the client specified–completion routine when the overlapped operation completes. Since the completion routine must be executed in the context of the same thread that initiated the overlapped operation, it cannot be invoked directly from the service provider. The Ws2_32.dll offers an asynchronous procedure call (APC) mechanism to facilitate invocation of completion routines.
+If <i>lpCompletionRoutine</i> is not null, the **hEvent** member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. It is the service provider's responsibility to arrange for invocation of the client specified–completion routine when the overlapped operation completes. Since the completion routine must be executed in the context of the same thread that initiated the overlapped operation, it cannot be invoked directly from the service provider. The Ws2_32.dll offers an asynchronous procedure call (APC) mechanism to facilitate invocation of completion routines.
 
 A service provider arranges for a function to be executed in the proper thread and process context by calling <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. This function can be called from any process and thread context, even a context different from the thread and process that was used to initiate the overlapped operation.
 

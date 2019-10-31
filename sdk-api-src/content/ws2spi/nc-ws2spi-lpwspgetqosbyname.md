@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>WSPGetQOSByName</b> function initializes a <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/qos/qos-structures">QOS</a></b> structure based on a named template, or retrieves an enumeration of the available template names.
+The **WSPGetQOSByName** function initializes a <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/qos/qos-structures">QOS</a></b> structure based on a named template, or retrieves an enumeration of the available template names.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ Pointer to the <b><a href="https://docs.microsoft.com/en-us/previous-versions/wi
 Pointer to the error code.
 
 ## -returns
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>, and a specific error code is available in <i>lpErrno</i>.
+If the function succeeds, the return value is **TRUE**. If the function fails, the return value is **FALSE**, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ If the function succeeds, the return value is <b>TRUE</b>. If the function fails
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -76,7 +76,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The <i>lpQOS</i> argument is not a valid part of the user address space, or the 
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -108,13 +108,13 @@ The specified QOS template name is invalid.
 </table>
 
 ## -remarks
-Clients can use <i>WSPGetQOSByName</i> to initialize a <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/qos/qos-structures">QOS</a></b> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <b>buf</b> member of the [<b>WSABUF</b>](wsabuf-2.md) indicated by <i>lpQOSName</i> to point to a Unicode string of nonzero length specifying a template name. In this case the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
+Clients can use <i>WSPGetQOSByName</i> to initialize a <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/qos/qos-structures">QOS</a></b> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the **buf** member of the [**WSABUF**](wsabuf-2.md) indicated by <i>lpQOSName</i> to point to a Unicode string of nonzero length specifying a template name. In this case the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
 
-Alternatively, the client may use <b>LPWSPGetQOSByName</b> to retrieve an enumeration of available template names. The client may do this by setting the <b>buf</b> member of the [<b>WSABUF</b>](wsabuf-2.md) indicated by <i>lpQOSName</i> to a zero-length null-terminated Unicode string. In this case, the buffer indicated by <b>buf</b> is overwritten with a sequence of as many null-terminated Unicode template name strings as are available up to the number of bytes available in <b>buf</b> as indicated by the <b>len</b> member of the <b>WSABUF</b> indicated by <i>lpQOSName</i>. The list of names itself is terminated by a zero-length Unicode name string. When <b>LPWSPGetQOSByName</b> is used to retrieve template names, the <i>lpQOS</i> parameter is ignored.
+Alternatively, the client may use **LPWSPGetQOSByName** to retrieve an enumeration of available template names. The client may do this by setting the **buf** member of the [**WSABUF**](wsabuf-2.md) indicated by <i>lpQOSName</i> to a zero-length null-terminated Unicode string. In this case, the buffer indicated by **buf** is overwritten with a sequence of as many null-terminated Unicode template name strings as are available up to the number of bytes available in **buf** as indicated by the **len** member of the **WSABUF** indicated by <i>lpQOSName</i>. The list of names itself is terminated by a zero-length Unicode name string. When **LPWSPGetQOSByName** is used to retrieve template names, the <i>lpQOS</i> parameter is ignored.
 
 
 ## -see-also
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept">LPWSPAccept</a></b>
+**[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
 <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
 

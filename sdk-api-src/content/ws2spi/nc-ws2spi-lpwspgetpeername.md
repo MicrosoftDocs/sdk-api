@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPGetPeerName</b> function gets the address of the peer to which a socket is connected.
+The **LPWSPGetPeerName** function gets the address of the peer to which a socket is connected.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ On input, pointer to an integer that indicates the size of the structure pointed
 Pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPGetPeerName</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPGetPeerName** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ If no error occurs, <b>LPWSPGetPeerName</b> returns zero. Otherwise, a value of 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -76,7 +76,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ Function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ Socket is not connected.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
-The <b>LPWSPGetPeerName</b> function supplies the name of the peer connected to the socket <i>s</i> and stores it in the structure <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> referenced by <i>name</i>. It can be used only on a connected socket. For datagram sockets, only the name of a peer specified in a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> call will be returned and any name specified by a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> call will not be returned by <b>LPWSPGetPeerName</b>.
+The **LPWSPGetPeerName** function supplies the name of the peer connected to the socket <i>s</i> and stores it in the structure <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> referenced by <i>name</i>. It can be used only on a connected socket. For datagram sockets, only the name of a peer specified in a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> call will be returned and any name specified by a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> call will not be returned by **LPWSPGetPeerName**.
 
 On return, the <i>namelen</i> parameter contains the actual size of the name returned in bytes.
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUFDIsSet</b> function checks the membership of the specified socket handle.
+**WPUFDIsSet** function checks the membership of the specified socket handle.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ If no error occurs, a value of nonzero is returned denoting that socket <i>s</i>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)">WSPSelect</a>
+[LPWSPSelect](nc-ws2spi-lpwspselect.md)
  
 
  

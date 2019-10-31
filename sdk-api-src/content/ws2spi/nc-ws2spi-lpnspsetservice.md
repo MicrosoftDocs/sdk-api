@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPSetService</b> function registers or deregisters a service instance within a namespace.
+**NSPSetService** function registers or deregisters a service instance within a namespace.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The property information to be updated upon registration.
 
 The type of operation requested. 
 
-This parameter can be one of the values from the <b>WSAESETSERVICEOP</b> enumeration type defined in the <i>Winsock2.h</i> header file. 
+This parameter can be one of the values from the **WSAESETSERVICEOP** enumeration type defined in the <i>Winsock2.h</i> header file. 
 
 <table>
 <tr>
@@ -89,7 +89,7 @@ This parameter can be one of the values from the <b>WSAESETSERVICEOP</b> enumera
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_REGISTER"></a><a id="rnrservice_register"></a><dl>
-<dt><b>RNRSERVICE_REGISTER</b></dt>
+<dt><b>RNRSERVICE_REGISTER</b></dl>
 <dt>0</dt>
 </dl>
 </td>
@@ -100,7 +100,7 @@ Register the service. For the Service Advertising Protocol (SAP) namespace used 
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_DEREGISTER"></a><a id="rnrservice_deregister"></a><dl>
-<dt><b>RNRSERVICE_DEREGISTER</b></dt>
+<dt><b>RNRSERVICE_DEREGISTER</b></dl>
 <dt>1</dt>
 </dl>
 </td>
@@ -111,13 +111,13 @@ Deregister the service. For the SAP namespace, this means stop sending the perio
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_DELETE"></a><a id="rnrservice_delete"></a><dl>
-<dt><b>RNRSERVICE_DELETE</b></dt>
+<dt><b>RNRSERVICE_DELETE</b></dl>
 <dt>2</dt>
 </dl>
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding **CSADDR_INFO** structure supplied when the service was registered.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The possible values for this parameter are defined in the <i>Winsock2.h</i> head
 </tr>
 <tr>
 <td width="40%"><a id="SERVICE_MULTIPLE"></a><a id="service_multiple"></a><dl>
-<dt><b>SERVICE_MULTIPLE</b></dt>
+<dt><b>SERVICE_MULTIPLE</b></dl>
 <dt>0x00000001</dt>
 </dl>
 </td>
@@ -159,7 +159,7 @@ When this value is absent, service addresses are managed as a group. A register 
 
 
 
-The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using 
+The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
@@ -172,7 +172,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -183,7 +183,7 @@ The calling routine does not have sufficient privileges to install the service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -194,7 +194,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -205,7 +205,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -216,7 +216,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -244,19 +244,19 @@ The following table lists the available values for <i>essOperation</i> and <i>dw
 <th>Service does not exist</th>
 </tr>
 <tr>
-<td><b>RNRSERVICE_REGISTER</b></td>
+<td>**RNRSERVICE_REGISTER**</td>
 <td>None</td>
 <td>Overwrites the object. Uses only addresses specified. Object is REGISTERED.</td>
 <td>Creates a new object. Uses only addresses specified. Object is REGISTERED.</td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_REGISTER</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_REGISTER**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Updates object. Adds new addresses to existing set. Object is REGISTERED.</td>
 <td>Creates a new object. Uses all addresses specified. Object is REGISTERED.</td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DEREGISTER</b></td>
+<td>**RNRSERVICE_DEREGISTER**</td>
 <td>None</td>
 <td>Removes all addresses, but does not remove object from namespace. Object is DEREGISTERED.</td>
 <td>
@@ -264,15 +264,15 @@ The following table lists the available values for <i>essOperation</i> and <i>dw
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DEREGISTER</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_DEREGISTER**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Updates object. Removes only addresses that are specified. Only mark object as DEREGISTERED if no addresses are present. Does not remove from the namespace.</td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DELETE</b></td>
+<td>**RNRSERVICE_DELETE**</td>
 <td>None</td>
 <td>Removes object from the namespace.</td>
 <td>
@@ -280,8 +280,8 @@ The following table lists the available values for <i>essOperation</i> and <i>dw
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DELETE</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_DELETE**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Removes only addresses that are specified. Only removes object from the namespace if no addresses remain.</td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
@@ -290,9 +290,9 @@ The following table lists the available values for <i>essOperation</i> and <i>dw
 </table>
  
 
-When the  <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, this enables an application to manage its addresses independently. This is useful when the application must manage its protocols individually or when the service resides on more than one computer. For example, when a service uses more than one protocol, one listening socket may abort, but the other sockets remain operational. In this example, the service could deregister the aborted address without affecting the other addresses.
+When the  <i>dwControlFlags</i> parameter is set to **SERVICE_MULTIPLE**, this enables an application to manage its addresses independently. This is useful when the application must manage its protocols individually or when the service resides on more than one computer. For example, when a service uses more than one protocol, one listening socket may abort, but the other sockets remain operational. In this example, the service could deregister the aborted address without affecting the other addresses.
 
-When using <b>SERVICE_MULTIPLE</b>, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a <b>RNRSERVICE_DEREGISTER</b> request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
+When using **SERVICE_MULTIPLE**, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a **RNRSERVICE_DEREGISTER** request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
 
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
 The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> member names and describes how service property data is represented. Members labeled as (Optional) can be supplied with a null pointer.
@@ -303,70 +303,70 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 <th>Service property description</th>
 </tr>
 <tr>
-<td><b>dwSize</b></td>
+<td>**dwSize**</td>
 <td>Set to the sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
-<td><b>lpszServiceInstanceName</b></td>
+<td>**lpszServiceInstanceName**</td>
 <td>The referenced string contains the service instance name.</td>
 </tr>
 <tr>
-<td><b>lpServiceClassId</b></td>
+<td>**lpServiceClassId**</td>
 <td>The GUID that corresponds to this service class.</td>
 </tr>
 <tr>
-<td><b>lpVersion</b></td>
+<td>**lpVersion**</td>
 <td>Optional. Supplies the service instance version number.</td>
 </tr>
 <tr>
-<td><b>lpszComment</b></td>
+<td>**lpszComment**</td>
 <td>Optional. An optional comment string.</td>
 </tr>
 <tr>
-<td><b>dwNameSpace</b></td>
+<td>**dwNameSpace**</td>
 <td>Ignored for this operation.</td>
 </tr>
 <tr>
-<td><b>lpNSProviderId</b></td>
+<td>**lpNSProviderId**</td>
 <td>Ignored for this operation. The provider identifier is contained in the <i>lpProviderId</i> parameter.</td>
 </tr>
 <tr>
-<td><b>lpszContext</b></td>
+<td>**lpszContext**</td>
 <td>Optional. The starting point of the query in a hierarchical namespace.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfProtocols</b></td>
+<td>**dwNumberOfProtocols**</td>
 <td>Ignored for this operation.</td>
 </tr>
 <tr>
-<td><b>lpafpProtocols</b></td>
+<td>**lpafpProtocols**</td>
 <td>Ignored for this operation.</td>
 </tr>
 <tr>
-<td><b>pszQueryString</b></td>
+<td>**pszQueryString**</td>
 <td>Ignored for this operation.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfCsAddrs</b></td>
+<td>**dwNumberOfCsAddrs**</td>
 <td>The number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
 </tr>
 <tr>
-<td><b>lpcsaBuffer</b></td>
+<td>**lpcsaBuffer**</td>
 <td>A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
 </tr>
 <tr>
-<td><b>dwOutputFlags</b></td>
+<td>**dwOutputFlags**</td>
 <td>Ignored for this operation.</td>
 </tr>
 <tr>
-<td><b>lpBlob</b></td>
+<td>**lpBlob**</td>
 <td>Optional. Pointer to a provider-specific entity.</td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  It is acceptable for the <b>iProtocol</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
+<div class="alert">**Note**  It is acceptable for the **iProtocol** member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant **IPROTOCOL_ANY**, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
 

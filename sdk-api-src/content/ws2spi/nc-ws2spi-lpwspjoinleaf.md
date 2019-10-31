@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 ## -description
-The <b>WSPJoinLeaf</b> function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
+The **WSPJoinLeaf** function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
 
 ## -parameters
 
@@ -102,22 +102,22 @@ Pointer to the error code.
 ## -returns
 
 If no error occurs, 
-<b>WSPJoinLeaf</b> returns a value of type <b>SOCKET</b> that is a descriptor for the newly created multipoint socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code is available in <i>lpErrno</i>.
+**WSPJoinLeaf** returns a value of type **SOCKET** that is a descriptor for the newly created multipoint socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code is available in <i>lpErrno</i>.
 
 On a blocking socket, the return value indicates success or failure of the join operation.
 
 With a nonblocking socket, successful initiation of a join operation is indicated by a return value of a valid socket descriptor. Subsequently, an FD_CONNECT indication is given when the join operation completes, either successfully or otherwise. The error code associated with the FD_CONNECT indicates the success or failure of the 
-<b>WSPJoinLeaf</b>.
+**WSPJoinLeaf**.
 
 Also, until the multipoint session join attempt completes all subsequent calls to 
-<b>WSPJoinLeaf</b> on the same socket will fail with the error code 
+**WSPJoinLeaf** on the same socket will fail with the error code 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a>. After the 
-<b>WSPJoinLeaf</b> completes successfully a subsequent attempt will usually fail with the error code 
+**WSPJoinLeaf** completes successfully a subsequent attempt will usually fail with the error code 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEISCONN</a>. An exception to the WSAEISCONN rule occurs for a c_root socket that allows root-initiated joins. In such a case another join may be initiated after a prior 
-<b>WSPJoinLeaf</b> completes.
+**WSPJoinLeaf** completes.
 
 If the return error code indicates the multipoint session join attempt failed (that is, <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a>, <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETUNREACH</a>, <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>) the Windows Sockets SPI client can call 
-<b>WSPJoinLeaf</b> again for the same socket.
+**WSPJoinLeaf** again for the same socket.
 
 <table>
 <tr>
@@ -127,7 +127,7 @@ If the return error code indicates the multipoint session join attempt failed (t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -138,32 +138,32 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEADDRINUSE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 Socket's local address is already in use and the socket was not marked to allow address reuse with SO_REUSEADDR. This error usually occurs at the time of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>, but could be delayed until this function if the 
-<b>bind</b> was to a partially wild-card address (involving ADDR_ANY) and if a specific address needs to be "committed" at the time of this function.
+**bind** was to a partially wild-card address (involving ADDR_ANY) and if a specific address needs to be "committed" at the time of this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 (Blocking) call was canceled through 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)">WSPCancelBlockingCall</a>.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -174,7 +174,7 @@ Blocking Windows Sockets call is in progress, or the service provider is still p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ Nonblocking
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEADDRNOTAVAIL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ Remote address is not a valid address (for example, ADDR_ANY).
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ The attempt to join was forcefully rejected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEISCONN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEISCONN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -241,7 +241,7 @@ Socket is already member of the multipoint session.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETUNREACH</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETUNREACH</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -252,7 +252,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -263,7 +263,7 @@ No buffer space is available. The socket cannot be joined.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -274,7 +274,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -285,7 +285,7 @@ Flow specifications specified in <i>lpSQOS</i> cannot be satisfied.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -296,7 +296,7 @@ The <i>lpCallerData</i> augment is not supported by the service provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -320,52 +320,52 @@ An attempt to join timed out without establishing a multipoint session.
 
 This function is used to join a leaf node to a multipoint session, and to perform a number of other ancillary operations that occur at session join time as well. If the socket, <i>s</i>, is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
 
-<b>WSPJoinLeaf</b> has the same parameters and semantics as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a> except that it returns a socket descriptor (as in 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a>), and it has an additional <i>dwFlags</i> parameter. Only multipoint sockets created using 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a> with appropriate multipoint flags set can be used for input parameter <i>s</i> in this function. If the socket is in the nonblocking mode, the returned socket descriptor will not be usable until after a corresponding FD_CONNECT indication on the original socket <i>s</i> has been received, except that 
+**WSPJoinLeaf** has the same parameters and semantics as 
+[LPWSPConnect](nc-ws2spi-lpwspconnect.md) except that it returns a socket descriptor (as in 
+[LPWSPAccept](nc-ws2spi-lpwspaccept.md)), and it has an additional <i>dwFlags</i> parameter. Only multipoint sockets created using 
+[LPWSPSocket](nc-ws2spi-lpwspsocket.md) with appropriate multipoint flags set can be used for input parameter <i>s</i> in this function. If the socket is in the nonblocking mode, the returned socket descriptor will not be usable until after a corresponding FD_CONNECT indication on the original socket <i>s</i> has been received, except that 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> can be invoked on this new socket descriptor to cancel a pending join operation. A root node in a multipoint session can call 
-<b>WSPJoinLeaf</b> one or more times in order to add a number of leaf nodes, however at most one multipoint connection request can be outstanding at a time. Refer to 
+**WSPJoinLeaf** one or more times in order to add a number of leaf nodes, however at most one multipoint connection request can be outstanding at a time. Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-multicast-and-multipoint-in-the-spi-2">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.
 
 For nonblocking sockets it is often not possible to complete the connection immediately. In such a case, this function returns an as-yet unusable socket descriptor and the operation proceeds. There is no error code such as <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a> in this case, since the function has effectively returned a "successful start" indication. When the final outcome success or failure becomes known, it may be reported through 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a> depending on how the client registers for notification on the original socket <i>s</i>. In either case, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure. Note that 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)">WSPSelect</a> cannot be used to detect completion notification for 
-<b>WSPJoinLeaf</b>.
+[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md) or 
+[LPWSPEventSelect](nc-ws2spi-lpwspeventselect.md) depending on how the client registers for notification on the original socket <i>s</i>. In either case, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure. Note that 
+[LPWSPSelect](nc-ws2spi-lpwspselect.md) cannot be used to detect completion notification for 
+**WSPJoinLeaf**.
 
 The socket descriptor returned by 
-<b>WSPJoinLeaf</b> is different depending on whether the input socket descriptor, <i>s</i>, is a c_root or a c_leaf. When used with a c_root socket, the <i>name</i> parameter designates a particular leaf node to be added and the returned socket descriptor is a c_leaf socket corresponding to the newly added leaf node. (As is described in section 
+**WSPJoinLeaf** is different depending on whether the input socket descriptor, <i>s</i>, is a c_root or a c_leaf. When used with a c_root socket, the <i>name</i> parameter designates a particular leaf node to be added and the returned socket descriptor is a c_leaf socket corresponding to the newly added leaf node. (As is described in section 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/descriptor-allocation-2">Descriptor Allocation</a>, when new socket descriptors are allocated IFS providers must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> and non-IFS providers must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>). The newly created socket has the same properties as <i>s</i> including asynchronous events registered with 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a> or with 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>. It is not intended to be used for exchange of multipoint data, but rather is used to receive network event indications (for example, FD_CLOSE) for the connection that exists to the particular c_leaf. Some multipoint implementations can also allow this socket to be used for "side chats" between the root and an individual leaf node. An FD_CLOSE indication will be received for this socket if the corresponding leaf node calls 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v=vs.85)">WSPCloseSocket</a> to drop out of the multipoint session. Symmetrically, invoking 
-<b>WSPCloseSocket</b> on the c_leaf socket returned from 
-<b>WSPJoinLeaf</b> will cause the socket in the corresponding leaf node to get FD_CLOSE notification.
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)). The newly created socket has the same properties as <i>s</i> including asynchronous events registered with 
+[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md) or with 
+[LPWSPEventSelect](nc-ws2spi-lpwspeventselect.md). It is not intended to be used for exchange of multipoint data, but rather is used to receive network event indications (for example, FD_CLOSE) for the connection that exists to the particular c_leaf. Some multipoint implementations can also allow this socket to be used for "side chats" between the root and an individual leaf node. An FD_CLOSE indication will be received for this socket if the corresponding leaf node calls 
+[LPWSPCloseSocket](nc-ws2spi-lpwspclosesocket.md) to drop out of the multipoint session. Symmetrically, invoking 
+**WSPCloseSocket** on the c_leaf socket returned from 
+**WSPJoinLeaf** will cause the socket in the corresponding leaf node to get FD_CLOSE notification.
 
 When 
-<b>WSPJoinLeaf</b> is invoked with a c_leaf socket, the <i>name</i> parameter contains the address of the root node (for a rooted control scheme) or an existing multipoint session (nonrooted control scheme), and the returned socket descriptor is the same as the input socket descriptor. In other words, a new socket descriptor is not allocated. In a rooted control scheme, the root application would put its c_root socket in the listening mode by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>. The standard FD_ACCEPT notification will be delivered when the leaf node requests to join itself to the multipoint session. The root application uses the usual 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a> functions to admit the new leaf node. The value returned from 
-<b>WSPAccept</b> is also a c_leaf socket descriptor just like those returned from 
-<b>WSPJoinLeaf</b>. To accommodate multipoint schemes that allow both root-initiated and leaf-initiated joins, it is acceptable for a c_root socket that is already in listening mode to be used as an input to 
-<b>WSPJoinLeaf</b>.
+**WSPJoinLeaf** is invoked with a c_leaf socket, the <i>name</i> parameter contains the address of the root node (for a rooted control scheme) or an existing multipoint session (nonrooted control scheme), and the returned socket descriptor is the same as the input socket descriptor. In other words, a new socket descriptor is not allocated. In a rooted control scheme, the root application would put its c_root socket in the listening mode by calling 
+[LPWSPListen](nc-ws2spi-lpwsplisten.md). The standard FD_ACCEPT notification will be delivered when the leaf node requests to join itself to the multipoint session. The root application uses the usual 
+[LPWSPAccept](nc-ws2spi-lpwspaccept.md) functions to admit the new leaf node. The value returned from 
+**WSPAccept** is also a c_leaf socket descriptor just like those returned from 
+**WSPJoinLeaf**. To accommodate multipoint schemes that allow both root-initiated and leaf-initiated joins, it is acceptable for a c_root socket that is already in listening mode to be used as an input to 
+**WSPJoinLeaf**.
 
 The Windows Sockets SPI client is responsible for allocating any memory space pointed to directly or indirectly by any of the parameters it specifies.
 
-The <i>lpCallerData</i> is a value parameter that contains any user data that is to be sent along with the multipoint session join request. If <i>lpCallerData</i> is <b>NULL</b>, no user data will be passed to the peer. The <i>lpCalleeData</i> is a result parameter that will contain any user data passed back from the peer as part of the multipoint session establishment. <i>lpCalleeData</i>-&gt;<b>len</b> initially contains the length of the buffer allocated by the Windows Sockets SPI client and pointed to by <i>lpCalleeData</i>-&gt;<b>buf</b>. <i>lpCalleeData</i>-&gt;<b>len</b> will be set to zero if no user data has been passed back. The <i>lpCalleeData</i> information will be valid when the multipoint join operation is complete. For blocking sockets, this will be when the 
-<b>WSPJoinLeaf</b> function returns. For nonblocking sockets, this will be after the FD_CONNECT notification has occurred on the original socket <i>s</i>. If <i>lpCalleeData</i> is <b>NULL</b>, no user data will be passed back. The exact format of the user data is specific to the address family to which the socket belongs and/or the applications involved.
+The <i>lpCallerData</i> is a value parameter that contains any user data that is to be sent along with the multipoint session join request. If <i>lpCallerData</i> is **NULL**, no user data will be passed to the peer. The <i>lpCalleeData</i> is a result parameter that will contain any user data passed back from the peer as part of the multipoint session establishment. <i>lpCalleeData</i>-&gt;**len** initially contains the length of the buffer allocated by the Windows Sockets SPI client and pointed to by <i>lpCalleeData</i>-&gt;**buf**. <i>lpCalleeData</i>-&gt;**len** will be set to zero if no user data has been passed back. The <i>lpCalleeData</i> information will be valid when the multipoint join operation is complete. For blocking sockets, this will be when the 
+**WSPJoinLeaf** function returns. For nonblocking sockets, this will be after the FD_CONNECT notification has occurred on the original socket <i>s</i>. If <i>lpCalleeData</i> is **NULL**, no user data will be passed back. The exact format of the user data is specific to the address family to which the socket belongs and/or the applications involved.
 
 At multipoint session establishment time, a Windows Sockets SPI client can use the <i>lpSQOS</i> parameters to override any previous QoS specification made for the socket through 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> with the SIO_SET_QOS opcode.
+[LPWSPIoctl](nc-ws2spi-lpwspioctl.md) with the SIO_SET_QOS opcode.
 
-<i>lpSQOS</i> specifies the flow specifications for socket <i>s</i>, one for each direction, followed by any additional provider-specific parameters. If either the associated transport provider in general or the specific type of socket in particular cannot honor the QoS request, an error will be returned as indicated below. The sending or receiving flow specification values will be ignored, respectively, for any unidirectional sockets. If no provider-specific parameters are supplied, the <b>buf</b> and <b>len</b> members of <i>lpSQOS</i>-&gt;<b>ProviderSpecific</b> should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpSQOS</i> indicates no application supplied quality of service.
+<i>lpSQOS</i> specifies the flow specifications for socket <i>s</i>, one for each direction, followed by any additional provider-specific parameters. If either the associated transport provider in general or the specific type of socket in particular cannot honor the QoS request, an error will be returned as indicated below. The sending or receiving flow specification values will be ignored, respectively, for any unidirectional sockets. If no provider-specific parameters are supplied, the **buf** and **len** members of <i>lpSQOS</i>-&gt;**ProviderSpecific** should be set to **NULL** and zero, respectively. A **NULL** value for <i>lpSQOS</i> indicates no application supplied quality of service.
 
 The <i>dwFlags</i> parameter is used to indicate whether the socket will be acting only as a sender (JL_SENDER_ONLY), only as a receiver (JL_RECEIVER_ONLY), or both (JL_BOTH).
 
-<div class="alert"><b>Note</b>  When connected sockets break (that is, become closed for whatever reason), they should be discarded and recreated. It is safest to assume that when things go awry for any reason on a connected socket, the Windows Sockets SPI client must discard and recreate the needed sockets in order to return to a stable point.</div>
+<div class="alert">**Note**  When connected sockets break (that is, become closed for whatever reason), they should be discarded and recreated. It is safest to assume that when things go awry for any reason on a connected socket, the Windows Sockets SPI client must discard and recreate the needed sockets in order to return to a stable point.</div>
 <div> </div>
 
 
@@ -375,27 +375,27 @@ The <i>dwFlags</i> parameter is used to indicate whether the socket will be acti
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a>
+[LPWSPAccept](nc-ws2spi-lpwspaccept.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a>
+[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a>
+[LPWSPBind](nc-ws2spi-lpwspbind.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>
+[LPWSPEventSelect](nc-ws2spi-lpwspeventselect.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)">WSPSelect</a>
+[LPWSPSelect](nc-ws2spi-lpwspselect.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>
+[LPWSPSocket](nc-ws2spi-lpwspsocket.md)
  
 
  

@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPGetSockName</b> function gets the local name for a socket.
+The **LPWSPGetSockName** function gets the local name for a socket.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ On input, pointer to an integer that indicates the size of the structure pointed
 Pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPGetSockName</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPGetSockName** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ If no error occurs, <b>LPWSPGetSockName</b> returns zero. Otherwise, a value of 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -76,7 +76,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ Function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -109,19 +109,19 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-Socket has not been bound to an address with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>, or ADDR_ANY is specified in <b>LPWSPBind</b> but connection has not yet occurred.  
+Socket has not been bound to an address with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>, or ADDR_ANY is specified in **LPWSPBind** but connection has not yet occurred.  
 </td>
 </tr>
 </table>
 
 ## -remarks
-<b>LPWSPGetSockName</b> retrieves the current name for the specified socket descriptor in <i>name</i>. It is used on a bound and/or connected socket specified by the <i>s</i> parameter. The local association is returned. This call is especially useful when a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> call has been made without doing a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> first; as this call provides the only means by which the local association that has been set by the service provider can be determined.
+**LPWSPGetSockName** retrieves the current name for the specified socket descriptor in <i>name</i>. It is used on a bound and/or connected socket specified by the <i>s</i> parameter. The local association is returned. This call is especially useful when a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> call has been made without doing a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> first; as this call provides the only means by which the local association that has been set by the service provider can be determined.
 
-If a socket was bound to an unspecified address (for example, ADDR_ANY), indicating that any of the host's addresses within the specified address family should be used for the socket, <b>LPWSPGetSockName</b> will <i>not</i> necessarily return information about the host address, unless the socket has been connected with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept">LPWSPAccept</a></b>. The Windows Sockets SPI client must not assume that an address will be specified unless the socket is connected. This is because for a multihomed host, the address that will be used for the socket is unknown until the socket is connected.
+If a socket was bound to an unspecified address (for example, ADDR_ANY), indicating that any of the host's addresses within the specified address family should be used for the socket, **LPWSPGetSockName** will <i>not</i> necessarily return information about the host address, unless the socket has been connected with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> or **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**. The Windows Sockets SPI client must not assume that an address will be specified unless the socket is connected. This is because for a multihomed host, the address that will be used for the socket is unknown until the socket is connected.
 
 ## -see-also
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUResetEvent</b> function resets the state of the specified event object to nonsignaled. This call is safe for use within interrupt context.
+**WPUResetEvent** function resets the state of the specified event object to nonsignaled. This call is safe for use within interrupt context.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Pointer to the error code.
 
 
 If no error occurs, the 
-<b>WPUResetEvent</b> function returns the value <b>TRUE</b>. Otherwise, <b>FALSE</b> is returned, and a specific error code is available in <i>lpErrno</i>.
+**WPUResetEvent** function returns the value **TRUE**. Otherwise, **FALSE** is returned, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -88,7 +88,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dl>
 </dl>
 </td>
 <td width="60%">

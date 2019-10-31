@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPCleanup</b> function terminates the use of a particular Windows Sockets namespace service provider.
+**NSPCleanup** function terminates the use of a particular Windows Sockets namespace service provider.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to the GUID of the namespace provider to be terminated.
 
 
 If no error occurs, 
-<b>NSPCleanup</b> returns a value of <b>NO_ERROR</b> (zero). Otherwise, <b>SOCKET_ERROR</b> (–1) is returned and the provider must set the appropriate error code using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
+**NSPCleanup** returns a value of **NO_ERROR** (zero). Otherwise, **SOCKET_ERROR** (–1) is returned and the provider must set the appropriate error code using <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
 
@@ -83,7 +83,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -124,15 +124,15 @@ The operation is not supported. This error is returned if the namespace provider
 
 
 The 
-<b>NSPCleanup</b> function is called when an application is finished using a Windows Sockets namespace service provider. The 
-<b>NSPCleanup</b> function deregisters a particular namespace provider and allows the transport service provider to free any of the namespace provider's allocated resources.
+**NSPCleanup** function is called when an application is finished using a Windows Sockets namespace service provider. The 
+**NSPCleanup** function deregisters a particular namespace provider and allows the transport service provider to free any of the namespace provider's allocated resources.
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a> function must be called successfully before using any namespace providers. It is permissible to make more than one 
-<b>NSPStartup</b> call. However, for each 
-<b>NSPStartup</b> call, a corresponding 
-<b>NSPCleanup</b> call must also be issued. Only the final 
-<b>NSPCleanup</b> for the service provider does the actual cleanup; the preceding calls decrement an internal reference count in the service provider.
+**NSPStartup** call. However, for each 
+**NSPStartup** call, a corresponding 
+**NSPCleanup** call must also be issued. Only the final 
+**NSPCleanup** for the service provider does the actual cleanup; the preceding calls decrement an internal reference count in the service provider.
 
 This function should not return until the namespace service provider DLL can be unloaded from memory.
 

@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPAsyncSelect</b> function requests Windows message-based event notification of network events for a socket.
+The **LPWSPAsyncSelect** function requests Windows message-based event notification of network events for a socket.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The return value is zero if the Winsock SPI client's declaration of interest in 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ Indicates that one of the specified parameters was invalid such as the window ha
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ A blocking Windows Sockets call is in progress, or the service provider is still
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The descriptor is not a socket.
 </tr>
 </table>
 
-Additional error codes can be set when an application window receives a message. This error code is extracted from the <i>lParam</i> in the reply message using the <b>WSAGETSELECTERROR</b> macro. Possible error codes for each network event are listed in the following table.
+Additional error codes can be set when an application window receives a message. This error code is extracted from the <i>lParam</i> in the reply message using the **WSAGETSELECTERROR** macro. Possible error codes for each network event are listed in the following table.
 
 ### Event: FD_CONNECT
 <table>
@@ -483,7 +483,7 @@ Issues notification of local address list change for the socket's protocol famil
 </tr>
 </table>
 
-Invoking <b>LPWSPAsyncSelect</b> for a socket cancels any previous <b>LPWSPAsyncSelect</b> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect"><b>LPWSPEventSelect</b></a> for the same socket. For example, to receive notification for both reading and writing, the Winsock SPI client must call <b>LPWSPAsyncSelect</b> with both FD_READ and FD_WRITE, as follows:
+Invoking **LPWSPAsyncSelect** for a socket cancels any previous **LPWSPAsyncSelect** or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">**LPWSPEventSelect**</a> for the same socket. For example, to receive notification for both reading and writing, the Winsock SPI client must call **LPWSPAsyncSelect** with both FD_READ and FD_WRITE, as follows:
 
 
 ```C++

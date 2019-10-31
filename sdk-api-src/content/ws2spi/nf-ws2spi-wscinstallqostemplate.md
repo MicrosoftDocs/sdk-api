@@ -55,7 +55,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[ This function is not supported in Windows Vista and subsequent versions of the operating system.]
 
 The 
-<b>WSCInstallQOSTemplate</b> function installs the specified QoS template in the system configuration database.
+**WSCInstallQOSTemplate** function installs the specified QoS template in the system configuration database.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns
 
 
 If 
-<b>WSCInstallQOSTemplate</b> function  succeeds, the return value is zero. Otherwise, it returns one of the following error codes.
+**WSCInstallQOSTemplate** function  succeeds, the return value is zero. Otherwise, it returns one of the following error codes.
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ One or more of the arguments are invalid. This error is returned if the QoS prov
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ One or more of the arguments are invalid. This error is returned if the QoS prov
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +137,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -148,7 +148,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -166,33 +166,33 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-The <b>WSCInstallQOSTemplate</b> function is not supported on Windows Vista and later. If this function is called on Windows Vista, and error is returned.
+The **WSCInstallQOSTemplate** function is not supported on Windows Vista and later. If this function is called on Windows Vista, and error is returned.
 
-The <b>WSCInstallQOSTemplate</b> function installs a QoS template, based on a QoS name. The caller of the <b>WSCInstallQOSTemplate</b> function must have appropriate administrative rights for the call to succeed.
+The **WSCInstallQOSTemplate** function installs a QoS template, based on a QoS name. The caller of the **WSCInstallQOSTemplate** function must have appropriate administrative rights for the call to succeed.
  
 
 The <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetqosbyname">WSPGetQOSByName</a> function and passing in the associated QoS name. 
 
 The 
-<b>WSCInstallQOSTemplate</b> function installs a named QoS template that contains the  
+**WSCInstallQOSTemplate** function installs a named QoS template that contains the  
 <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure specified in the <i>Qos</i> parameter. If a QoS template already exists with the QoS name specified in the <i>Qosname</i> parameter, the settings specified in the <i>Qos</i> parameter replace the settings of the existing template. 
 
-If the <i>Guid</i> parameter is set to <b>NULL</b>, the installed QOS template applies to all service providers. If the <i>Guid</i> parameter is not <b>NULL</b>, then the installed QoS template applies only to the provider indicated by the <i>Guid</i> parameter.
+If the <i>Guid</i> parameter is set to **NULL**, the installed QOS template applies to all service providers. If the <i>Guid</i> parameter is not **NULL**, then the installed QoS template applies only to the provider indicated by the <i>Guid</i> parameter.
 
 QoS template settings are stored in nonvolatile storage, so subsequent calls to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetqosbyname">WSAGetQOSByName</a> function with the same QoS name specified in the <i>lpQOSName</i> parameter, return the 
-same <b>QOS</b> structure passed to the <b>WSCInstallQOSTemplate</b> function . 
+same **QOS** structure passed to the **WSCInstallQOSTemplate** function . 
 
 Windows Sockets 2 includes a base set of QoS templates. You can override and replace any of these QoS templates or change an existing QoS template by simply installing a new template with the existing name. You do not need to delete an existing template before replacing or modifying it. You cannot delete the base set of QoS-named templates included in Windows Sockets 2. However, you can delete templates added subsequently, perhaps by other service providers.
 
 The <i>Qos</i> parameter points to a 
-<b>QOS</b> structure that can include a 
-buffer that contains provider-specific settings in the  <b>ProviderSpecific</b> member of the <b>QOS</b> structure. Any provider-specific settings are stored with the basic 
- <b>QOS</b> structure structure and are returned in subsequent 
-calls to the <b>WSAGetQOSByName</b> function.
+**QOS** structure that can include a 
+buffer that contains provider-specific settings in the  **ProviderSpecific** member of the **QOS** structure. Any provider-specific settings are stored with the basic 
+ **QOS** structure structure and are returned in subsequent 
+calls to the **WSAGetQOSByName** function.
 
-The <b>ProviderSpecific</b> member of the <b>QOS</b> structure can be set even if the <i>Guid</i> parameter is set to <b>NULL</b> to install a global QoS template for all service providers.  Note that this practice may lead a service provider to ignore the <b>ProviderSpecific</b> member of the <b>QOS</b> structure if the service provider does not recognize its contents. The recommended use of 
-<b>WSCInstallQOSTemplate</b> function is to include provider-specific settings in the <b>ProviderSpecific</b> member of the <b>QOS</b> structure only if the named template is being installed on a particular service provider (the <i>Guid</i> parameter is not <b>NULL</b>).
+The **ProviderSpecific** member of the **QOS** structure can be set even if the <i>Guid</i> parameter is set to **NULL** to install a global QoS template for all service providers.  Note that this practice may lead a service provider to ignore the **ProviderSpecific** member of the **QOS** structure if the service provider does not recognize its contents. The recommended use of 
+**WSCInstallQOSTemplate** function is to include provider-specific settings in the **ProviderSpecific** member of the **QOS** structure only if the named template is being installed on a particular service provider (the <i>Guid</i> parameter is not **NULL**).
 
 
 

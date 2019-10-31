@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUOpenCurrentThread</b> function opens a handle to the current thread that can be used with overlapped functions in a layered service provider. This is intended to be used by layered service providers that wish to initiate overlapped I/O from nonapplication threads.
+**WPUOpenCurrentThread** function opens a handle to the current thread that can be used with overlapped functions in a layered service provider. This is intended to be used by layered service providers that wish to initiate overlapped I/O from nonapplication threads.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WPUOpenCurrentThread</b> returns the zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+**WPUOpenCurrentThread** returns the zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -89,12 +89,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> call must occur before using this function.
+[WSPStartup](nf-ws2spi-wspstartup.md) call must occur before using this function.
 
 </td>
 </tr>
@@ -113,19 +113,19 @@ A successful
 
 
 The 
-<b>WPUOpenCurrentThread</b> function provides a pointer to a 
+**WPUOpenCurrentThread** function provides a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
-<b>WPUOpenCurrentThread</b> to pass a 
-<b>WSATHREADID</b> pointer to the lower layer that is administering overlapped functions.
+[LPWSPSend](nc-ws2spi-lpwspsend.md) or 
+[LPWSPRecv](nc-ws2spi-lpwsprecv.md). Layered service providers using a private thread in one of the upper layers will use 
+**WPUOpenCurrentThread** to pass a 
+**WSATHREADID** pointer to the lower layer that is administering overlapped functions.
 
 Overlapped functions such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> can then be used in the same way as a regular service provider.
+[LPWSPSend](nc-ws2spi-lpwspsend.md) and 
+[LPWSPRecv](nc-ws2spi-lpwsprecv.md) can then be used in the same way as a regular service provider.
 
 Every call to 
-<b>WPUOpenCurrentThread</b> must have a corresponding call to 
+**WPUOpenCurrentThread** must have a corresponding call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>.
 
 
@@ -140,11 +140,11 @@ Every call to
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
+[LPWSPRecv](nc-ws2spi-lpwsprecv.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
+[LPWSPSend](nc-ws2spi-lpwspsend.md)
  
 
  

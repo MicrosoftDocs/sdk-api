@@ -52,8 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
-<b>WSCGetApplicationCategory</b> function retrieves the layered service provider (LSP) categories associated with an application.
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+**WSCGetApplicationCategory** function retrieves the layered service provider (LSP) categories associated with an application.
 
 
 ## -parameters
@@ -68,17 +68,17 @@ A pointer to a Unicode string that contains the load path to the executable imag
 
 ### -param PathLength [in]
 
-The length, in characters, of the <i>Path</i> parameter. This length does not include the terminating <b>NULL</b>.
+The length, in characters, of the <i>Path</i> parameter. This length does not include the terminating **NULL**.
 
 
 ### -param Extra [in]
 
-A pointer to a Unicode string which represents the command line arguments used when starting the application specified in the <i>Path</i> parameter. The <i>Extra</i> parameter is used to distinguish between multiple, distinct instances of an application when launched with a consistent command line.  This is to support different application categorizations for different instances of Svchost.exe or Rundll32.exe. If only the <i>Path</i> parameter is required and no command line arguments are needed to further distinguish between instances of an application, then the <i>Extra</i> parameter should be set to <b>NULL</b>.
+A pointer to a Unicode string which represents the command line arguments used when starting the application specified in the <i>Path</i> parameter. The <i>Extra</i> parameter is used to distinguish between multiple, distinct instances of an application when launched with a consistent command line.  This is to support different application categorizations for different instances of Svchost.exe or Rundll32.exe. If only the <i>Path</i> parameter is required and no command line arguments are needed to further distinguish between instances of an application, then the <i>Extra</i> parameter should be set to **NULL**.
 
 
 ### -param ExtraLength [in]
 
-The length, in characters, of the <i>Extra</i> parameter. This length does not include the terminating <b>NULL</b>.
+The length, in characters, of the <i>Extra</i> parameter. This length does not include the terminating **NULL**.
 
 
 ### -param pPermittedLspCategories [out]
@@ -95,7 +95,7 @@ A pointer to the error code if the function fails.
 
 
 
-If no error occurs, <b>WSCGetApplicationCategory</b> returns <b>ERROR_SUCCESS</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is returned in the <i>lpErrno</i> parameter.
+If no error occurs, **WSCGetApplicationCategory** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ If no error occurs, <b>WSCGetApplicationCategory</b> returns <b>ERROR_SUCCESS</b
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +141,7 @@ The error can also be returned if the application you are querying does not exis
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -159,9 +159,9 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-<b>WSCGetApplicationCategory</b> is used to retrieve the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context.  Therefore, by specifying permitted LSP categories, an application can permit only those layered service providers  which implement acceptable behaviors to be loaded. 
+**WSCGetApplicationCategory** is used to retrieve the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context.  Therefore, by specifying permitted LSP categories, an application can permit only those layered service providers  which implement acceptable behaviors to be loaded. 
 
-The <i>Extra</i> parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs.  Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances.  For SvcHost.exe, the <b>-k &lt;svcinstance&gt;</b> switch defines the process instance.
+The <i>Extra</i> parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs.  Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances.  For SvcHost.exe, the **-k &lt;svcinstance&gt;** switch defines the process instance.
 
 For services, using the Service Name is not sufficient,  since the Winsock Catalog is global to a given process, and a process may host several services.  
 
@@ -188,41 +188,41 @@ The following table lists categories that an LSP can be classified into.<table>
 <th>Description</th>
 </tr>
 <tr>
-<td><b>LSP_CRYPTO_COMPRESS</b></td>
+<td>**LSP_CRYPTO_COMPRESS**</td>
 <td>The LSP is a cryptography or data compression provider.</td>
 </tr>
 <tr>
-<td><b>LSP_FIREWALL</b></td>
+<td>**LSP_FIREWALL**</td>
 <td>The LSP is a firewall provider.</td>
 </tr>
 <tr>
-<td><b>LSP_LOCAL_CACHE</b></td>
+<td>**LSP_LOCAL_CACHE**</td>
 <td>The LSP is a local cache provider.
 </td>
 </tr>
 <tr>
-<td><b>LSP_INBOUND_MODIFY</b></td>
+<td>**LSP_INBOUND_MODIFY**</td>
 <td>The LSP modifies inbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_INSPECTOR</b></td>
+<td>**LSP_INSPECTOR**</td>
 <td>The LSP inspects or filters data.
 </td>
 </tr>
 <tr>
-<td><b>LSP_OUTBOUND_MODIFY</b></td>
+<td>**LSP_OUTBOUND_MODIFY**</td>
 <td>The LSP modifies outbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_PROXY</b></td>
+<td>**LSP_PROXY**</td>
 <td>The LSP acts as a proxy and redirects packets.</td>
 </tr>
 <tr>
-<td><b>LSP_REDIRECTOR</b></td>
+<td>**LSP_REDIRECTOR**</td>
 <td>The LSP is a network redirector.</td>
 </tr>
 <tr>
-<td><b>LSP_SYSTEM</b></td>
+<td>**LSP_SYSTEM**</td>
 <td>The LSP is acceptable for use in services and system processes.</td>
 </tr>
 </table>
@@ -230,7 +230,7 @@ The following table lists categories that an LSP can be classified into.<table>
 
 
 
-An LSP may belong to more than one category.  For example, a firewall/security LSP could belong to both the inspector (<b>LSP_INSPECTOR</b>) and firewall (<b>LSP_FIREWALL</b>) categories.
+An LSP may belong to more than one category.  For example, a firewall/security LSP could belong to both the inspector (**LSP_INSPECTOR**) and firewall (**LSP_FIREWALL**) categories.
 
 If an LSP does not have a category set, it is considered to be in the All Other category. This LSP category will not be loaded in services or system processes (for example, lsass, winlogon, and many svchost processes).
 

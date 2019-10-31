@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUCloseSocketHandle</b> function closes an existing socket handle.
+**WPUCloseSocketHandle** function closes an existing socket handle.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param s [in]
 
 Handle to socket created with 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
 
 
 ### -param lpErrno [out]
@@ -77,7 +77,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -89,12 +89,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The descriptor is not a socket created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
 
 </td>
 </tr>
@@ -113,8 +113,8 @@ The descriptor is not a socket created by
 
 
 The 
-<b>WPUCloseSocketHandle</b> function closes an existing socket handle created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>. This function removes the socket from Ws2_32.dll's internal socket table. The owning service provider is responsible for releasing any resources associated with the socket.
+**WPUCloseSocketHandle** function closes an existing socket handle created by 
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md). This function removes the socket from Ws2_32.dll's internal socket table. The owning service provider is responsible for releasing any resources associated with the socket.
 
 
 
@@ -124,7 +124,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
  
 
  

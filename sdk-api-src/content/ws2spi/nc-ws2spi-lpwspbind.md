@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPBind</b> function associates a local address (that is, name) with a socket.
+The **LPWSPBind** function associates a local address (that is, name) with a socket.
 
 ## -parameters
 
@@ -45,9 +45,9 @@ The <b>LPWSPBind</b> function associates a local address (that is, name) with a 
 A descriptor identifying an unbound socket.
 
 ### -param name [in]
-The address to assign to the socket, in the form of a <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2"><b>sockaddr</b></a> structure.
+The address to assign to the socket, in the form of a <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">**sockaddr**</a> structure.
 
-Except for the <b>sa_family</b> member, <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2"><b>sockaddr</b></a> contents are expressed in network byte order. In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a <b>sockaddr</b> structure. It is cast this way for Winsock compatibility. The actual structure is interpreted differently in the context of different address families. The only requirements are that the first <b>u_short</b> is the address family and the total size of the memory buffer, in bytes, is <i>namelen</i>.
+Except for the **sa_family** member, <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">**sockaddr**</a> contents are expressed in network byte order. In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a **sockaddr** structure. It is cast this way for Winsock compatibility. The actual structure is interpreted differently in the context of different address families. The only requirements are that the first **u_short** is the address family and the total size of the memory buffer, in bytes, is <i>namelen</i>.
 
 ### -param namelen [in]
 The length, in bytes, of structure pointed to by the <i>name</i> parameter.
@@ -56,7 +56,7 @@ The length, in bytes, of structure pointed to by the <i>name</i> parameter.
 A pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPBind</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPBind** returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -66,7 +66,7 @@ If no error occurs, <b>LPWSPBind</b> returns zero. Otherwise, it returns SOCKET_
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -77,18 +77,18 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRINUSE">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRINUSE">WSAEADDRINUSE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-Some process on the local computer has already bound to the same fully qualified address (for example, IP address and port in the <b>AF_INET</b> case) and the socket has not been marked to allow address reuse with SO_REUSEADDR. (See the SO_REUSEADDR socket option under <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt">LPWSPSetSockOpt</a>.) 
+Some process on the local computer has already bound to the same fully qualified address (for example, IP address and port in the **AF_INET** case) and the socket has not been marked to allow address reuse with SO_REUSEADDR. (See the SO_REUSEADDR socket option under <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt">LPWSPSetSockOpt</a>.) 
 </td>
 </tr>
 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRNOTAVAIL">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRNOTAVAIL">WSAEADDRNOTAVAIL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ The specified address is not a valid address for this computer.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ Function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ The socket is already bound to an address.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOBUFS">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOBUFS">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ There are not enough buffers available, there are too many connections.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -154,11 +154,11 @@ The descriptor is not a socket.
 </table>
  
 ## -remarks
-The <b>LPWSPBind</b> function is used on an unconnected connectionless or connection-oriented socket, before subsequent calls to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect"><b>LPWSPConnect</b></a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten"><b>LPWSPListen</b></a> functions. When a socket is created with <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket"><b>LPWSPSocket</b></a>, it exists in a namespace (address family), but it has no name or local address assigned. The <b>LPWSPBind</b> function establishes the local association of the socket by assigning a local name to an unnamed socket.
+The **LPWSPBind** function is used on an unconnected connectionless or connection-oriented socket, before subsequent calls to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">**LPWSPConnect**</a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">**LPWSPListen**</a> functions. When a socket is created with <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">**LPWSPSocket**</a>, it exists in a namespace (address family), but it has no name or local address assigned. The **LPWSPBind** function establishes the local association of the socket by assigning a local name to an unnamed socket.
 
-As an example, in the Internet address family, a name consists of three parts: the address family, a host address, and a port number that identifies the Winsock SPI client. In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2"><b>sockaddr</b></a> structure. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first two bytes in this block (corresponding to <b>sa_family</b> in the <b>sockaddr</b> declaration) must contain the address family that was used to create the socket. Otherwise, the error <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b> will be indicated.
+As an example, in the Internet address family, a name consists of three parts: the address family, a host address, and a port number that identifies the Winsock SPI client. In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">**sockaddr**</a> structure. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first two bytes in this block (corresponding to **sa_family** in the **sockaddr** declaration) must contain the address family that was used to create the socket. Otherwise, the error <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAEFAULT</a></b> will be indicated.
 
-If a Windows Sockets 2 SPI client does not care what local address is assigned to it, it will specify the manifest constant value <b>ADDR_ANY</b> for the <b>sa_data</b> member of the <i>name</i> parameter. This instructs the service provider to use any appropriate network address. For TCP/IP, if the port is specified as zero, the service provider will assign a unique port to the Winsock SPI client with a value between 1024 and 5000. The SPI client can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname"><b>LPWSPGetSockName</b></a> after <b>LPWSPBind</b> to learn the address and the port that has been assigned to it. However, note that if the Internet address is equal to INADDR_ANY, <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt"><b>LPWSPGetSockOpt</b></a> will not necessarily be able to supply the address until the socket is connected, since several addresses can be valid if the host is multihomed.
+If a Windows Sockets 2 SPI client does not care what local address is assigned to it, it will specify the manifest constant value **ADDR_ANY** for the **sa_data** member of the <i>name</i> parameter. This instructs the service provider to use any appropriate network address. For TCP/IP, if the port is specified as zero, the service provider will assign a unique port to the Winsock SPI client with a value between 1024 and 5000. The SPI client can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname">**LPWSPGetSockName**</a> after **LPWSPBind** to learn the address and the port that has been assigned to it. However, note that if the Internet address is equal to INADDR_ANY, <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">**LPWSPGetSockOpt**</a> will not necessarily be able to supply the address until the socket is connected, since several addresses can be valid if the host is multihomed.
 
 ## -see-also
 <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a>
