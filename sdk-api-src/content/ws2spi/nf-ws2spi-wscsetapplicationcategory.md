@@ -52,8 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
-<b>WSCSetApplicationCategory</b> function sets the permitted layered service provider (LSP) categories associated with an application.
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+**WSCSetApplicationCategory** function sets the permitted layered service provider (LSP) categories associated with an application.
 
 
 ## -parameters
@@ -68,17 +68,17 @@ A pointer to a Unicode string that contains the load path to the executable imag
 
 ### -param PathLength [in]
 
-The length, in characters, of the <i>Path</i> parameter. This length does not include the terminating <b>NULL</b>.
+The length, in characters, of the <i>Path</i> parameter. This length does not include the terminating **NULL**.
 
 
 ### -param Extra [in]
 
-A pointer to a Unicode string which represents the command line arguments used when starting the application specified in the <i>Path</i> parameter. The <i>Extra</i> parameter is used to distinguish between multiple, distinct instances of an application when launched with a consistent command line.  This is to support different application categorizations for different instances of Svchost.exe or Rundll32.exe. If only the <i>Path</i> parameter is required and no command line arguments are needed to further distinguish between instances of an application, then the <i>Extra</i> parameter should be set to <b>NULL</b>.
+A pointer to a Unicode string which represents the command line arguments used when starting the application specified in the <i>Path</i> parameter. The <i>Extra</i> parameter is used to distinguish between multiple, distinct instances of an application when launched with a consistent command line.  This is to support different application categorizations for different instances of Svchost.exe or Rundll32.exe. If only the <i>Path</i> parameter is required and no command line arguments are needed to further distinguish between instances of an application, then the <i>Extra</i> parameter should be set to **NULL**.
 
 
 ### -param ExtraLength [in]
 
-The length, in characters, of the <i>Extra</i> parameter. This length does not include the terminating <b>NULL</b>.
+The length, in characters, of the <i>Extra</i> parameter. This length does not include the terminating **NULL**.
 
 
 ### -param PermittedLspCategories [in]
@@ -88,7 +88,7 @@ A DWORD value of the LSP categories which are permitted for all instances of thi
 
 ### -param pPrevPermLspCat [out]
 
-A pointer to receive the previous set of permitted LSP categories which were permitted for all instances of this application. This parameter is optional can  be <b>NULL</b>.
+A pointer to receive the previous set of permitted LSP categories which were permitted for all instances of this application. This parameter is optional can  be **NULL**.
 
 
 ### -param lpErrno [out]
@@ -100,7 +100,7 @@ A pointer to the error code if the function fails.
 
 
 
-If no error occurs, <b>WSCSetApplicationCategory</b> returns <b>ERROR_SUCCESS</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is returned in the <i>lpErrno</i> parameter.
+If no error occurs, **WSCSetApplicationCategory** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ If no error occurs, <b>WSCSetApplicationCategory</b> returns <b>ERROR_SUCCESS</b
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -150,13 +150,13 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-<b>WSCSetApplicationCategory</b> is used to set the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context.  Therefore, through specifying permitted LSP categories, an application can permit only those layered service providers  which implement acceptable behaviors to be loaded.
+**WSCSetApplicationCategory** is used to set the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context.  Therefore, through specifying permitted LSP categories, an application can permit only those layered service providers  which implement acceptable behaviors to be loaded.
 
-The <i>Extra</i> parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs.  Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances.  For SvcHost.exe, the <b>-k &lt;svcinstance&gt;</b> switch defines the process instance.
+The <i>Extra</i> parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs.  Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances.  For SvcHost.exe, the **-k &lt;svcinstance&gt;** switch defines the process instance.
 
 For services, using the Service Name is not sufficient,  because the Winsock Catalog is global to a given process, and a process may host several services.
 
-If the <b>WSCSetApplicationCategory</b> function is called on the same application (the same fullpath, EXE name, and parameters) multiple times, then the categories are ORed together. For example if you categorized "c:\foo.exe -param" with LSP_SYSTEM and then called the <b>WSCSetApplicationCategory</b> function again with LSP_REDIRECTOR, the resulting entry for htis application contains LSP_SYSTEM | LSP_REDIRECTOR. This behavior is designed to support a single executable file that hosts multiple applications in a single EXE (the Windows system services svchost.exe, for example).
+If the **WSCSetApplicationCategory** function is called on the same application (the same fullpath, EXE name, and parameters) multiple times, then the categories are ORed together. For example if you categorized "c:\foo.exe -param" with LSP_SYSTEM and then called the **WSCSetApplicationCategory** function again with LSP_REDIRECTOR, the resulting entry for htis application contains LSP_SYSTEM | LSP_REDIRECTOR. This behavior is designed to support a single executable file that hosts multiple applications in a single EXE (the Windows system services svchost.exe, for example).
 
 
 Window sockets determine an application's identity and retrieves the permitted LSP categories during the first call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>.  This will be the set of permitted LSP categories for the duration of the application instance.  Subsequent changes to the permitted LSP categories for a given application identity will not be picked up until the next instance of the application.  The permitted LSP categories is not mutable during the lifetime of the application instance.
@@ -173,7 +173,7 @@ It is possible to define LSP categories based upon the subset of SPI functions a
 
 By classifying LSPs, as well as classifying applications which use Winsock sockets, it becomes possible to selectively determine if an LSP should be involved in a given process at runtime.
 
-On Windows Vista and later, an LSP can be classified based on how it interacts with Windows Sockets calls and data. An LSP category is an identifiable group of behaviors on a subset of Winsock SPI functions.  For example, an HTTP content filter would be categorized as a data inspector (the <b>LSP_INSPECTOR</b> category). The <b>LSP_INSPECTOR</b> category will inspect (but not alter) parameters to data transfer SPI functions. An application can query for the category of an LSP and choose to not load the LSP based on the LSP category and the application's set of permitted LSP categories.
+On Windows Vista and later, an LSP can be classified based on how it interacts with Windows Sockets calls and data. An LSP category is an identifiable group of behaviors on a subset of Winsock SPI functions.  For example, an HTTP content filter would be categorized as a data inspector (the **LSP_INSPECTOR** category). The **LSP_INSPECTOR** category will inspect (but not alter) parameters to data transfer SPI functions. An application can query for the category of an LSP and choose to not load the LSP based on the LSP category and the application's set of permitted LSP categories.
 
 The following table lists categories into which an LSP can be classified.<table>
 <tr>
@@ -181,41 +181,41 @@ The following table lists categories into which an LSP can be classified.<table>
 <th>Description</th>
 </tr>
 <tr>
-<td><b>LSP_CRYPTO_COMPRESS</b></td>
+<td>**LSP_CRYPTO_COMPRESS**</td>
 <td>The LSP is a cryptography or data compression provider.</td>
 </tr>
 <tr>
-<td><b>LSP_FIREWALL</b></td>
+<td>**LSP_FIREWALL**</td>
 <td>The LSP is a firewall provider.</td>
 </tr>
 <tr>
-<td><b>LSP_LOCAL_CACHE</b></td>
+<td>**LSP_LOCAL_CACHE**</td>
 <td>The LSP is a local cache provider.
 </td>
 </tr>
 <tr>
-<td><b>LSP_INBOUND_MODIFY</b></td>
+<td>**LSP_INBOUND_MODIFY**</td>
 <td>The LSP modifies inbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_INSPECTOR</b></td>
+<td>**LSP_INSPECTOR**</td>
 <td>The LSP inspects or filters data.
 </td>
 </tr>
 <tr>
-<td><b>LSP_OUTBOUND_MODIFY</b></td>
+<td>**LSP_OUTBOUND_MODIFY**</td>
 <td>The LSP modifies outbound data.</td>
 </tr>
 <tr>
-<td><b>LSP_PROXY</b></td>
+<td>**LSP_PROXY**</td>
 <td>The LSP acts as a proxy and redirects packets.</td>
 </tr>
 <tr>
-<td><b>LSP_REDIRECTOR</b></td>
+<td>**LSP_REDIRECTOR**</td>
 <td>The LSP is a network redirector.</td>
 </tr>
 <tr>
-<td><b>LSP_SYSTEM</b></td>
+<td>**LSP_SYSTEM**</td>
 <td>The LSP is acceptable for use in services and system processes.</td>
 </tr>
 </table>
@@ -223,12 +223,12 @@ The following table lists categories into which an LSP can be classified.<table>
 
 
 
-An LSP may belong to more than one category.  For example, a firewall/security LSP could belong to both the inspector (<b>LSP_INSPECTOR</b>) and firewall (<b>LSP_FIREWALL</b>) categories.
+An LSP may belong to more than one category.  For example, a firewall/security LSP could belong to both the inspector (**LSP_INSPECTOR**) and firewall (**LSP_FIREWALL**) categories.
 
 If an LSP does not have a category set, it is considered to be in the All Other category. This LSP category will not be loaded in services or system processes (for example, lsass, winlogon, and many svchost processes).
 
-The <b>WSCSetApplicationCategory</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCSetApplicationCategory</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>WSANO_RECOVERY</b> is returned in the <i>lpErrno</i> parameter. 
- This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
+The **WSCSetApplicationCategory** function can only be called by a user logged on as a member of the Administrators group. If **WSCSetApplicationCategory** is called by a user that is not a member of the Administrators group, the function call will fail and **WSANO_RECOVERY** is returned in the <i>lpErrno</i> parameter. 
+ This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
 Any file installation or service provider-specific configuration must be performed by the caller.
 

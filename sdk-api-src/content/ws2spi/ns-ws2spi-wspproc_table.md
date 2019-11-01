@@ -35,7 +35,7 @@ api_name:
 ---
 
 ## -description
-The <b>WSPPROC_TABLE</b> structure contains a table of pointers to service provider functions.
+The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions.
 
 ## -struct-fields
 ```C++
@@ -44,15 +44,15 @@ The <b>WSPPROC_TABLE</b> structure contains a table of pointers to service provi
 
 ### -field lpWSPAccept
 
-A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept">LPWSPAccept</a></b> function.
+A pointer to the **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** function.
 
 ### -field lpWSPAddressToString
 
-A pointer to the [**WSPAddressToString**](wspaddresstostring-2.md) function.
+A pointer to the [**LPWSPAddressToString**](9nc-ws2spi-lpwspaddresstostring.md) function.
 
 ### -field lpWSPAsyncSelect
 
-A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspasyncselect">LPWSPAsyncSelect</a><b> function.
+A pointer to the **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** function.
 
 ### -field lpWSPBind
 
@@ -96,13 +96,13 @@ A pointer to the [**WSPEnumNetworkEvents**](wspenumnetworkevents-2.md) function.
 
  
 
-A pointer to the [<b>LPWSPEventSelect</b>](wspeventselect-2.md) function.
+A pointer to the [**LPWSPEventSelect**](wspeventselect-2.md) function.
 
 ### -field lpWSPGetOverlappedResult
 
  
 
-A pointer to the [<b>LPWSPGetOverlappedResult</b>](wspgetoverlappedresult-2.md) function.
+A pointer to the [**LPWSPGetOverlappedResult**](wspgetoverlappedresult-2.md) function.
 
 ### -field lpWSPGetPeerName
 
@@ -164,7 +164,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [<b>LPWSPSelect</b>](wspselect-2.md) function.
+A pointer to the [**LPWSPSelect**](wspselect-2.md) function.
 
 ### -field lpWSPSend
 
@@ -209,16 +209,16 @@ A pointer to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2
 A pointer to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a> function.
 
 ## -remarks
-The <b>WSPPROC_TABLE</b> structure contains a table of pointers to service provider functions that are returned by the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a> function.
+The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions that are returned by the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a> function.
 
 ## -see-also
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept">LPWSPAccept</a></b>
+**[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a></b>
+<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a>**
 
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspasyncselect">LPWSPAsyncSelect</a><b>
+**[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)**
 
 <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>
 

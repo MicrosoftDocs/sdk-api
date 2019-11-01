@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUPostMessage</b> function performs the standard Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+**WPUPostMessage** function performs the standard Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Second parameter containing additional message-specific information.
 
 
 If no error occurs, 
-<b>WPUPostMessage</b> returns the <b>TRUE</b> value. Otherwise, the <b>FALSE</b> value is returned.
+**WPUPostMessage** returns the **TRUE** value. Otherwise, the **FALSE** value is returned.
 
 
 

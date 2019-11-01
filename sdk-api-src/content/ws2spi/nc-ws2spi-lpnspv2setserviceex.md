@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPv2SetServiceEx</b> function registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
+**NSPv2SetServiceEx** function registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ The property information to be updated upon registration.
 
 The type of operation requested. 
 
-This parameter can be one of the values from the <b>WSAESETSERVICEOP</b> enumeration type defined in the <i>Winsock2.h</i> header file. 
+This parameter can be one of the values from the **WSAESETSERVICEOP** enumeration type defined in the <i>Winsock2.h</i> header file. 
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ This parameter can be one of the values from the <b>WSAESETSERVICEOP</b> enumera
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_REGISTER"></a><a id="rnrservice_register"></a><dl>
-<dt><b>RNRSERVICE_REGISTER</b></dt>
+<dt><b>RNRSERVICE_REGISTER</b></dl>
 <dt>0</dt>
 </dl>
 </td>
@@ -101,7 +101,7 @@ Register the service. For the Service Advertising Protocol (SAP) namespace used 
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_DEREGISTER"></a><a id="rnrservice_deregister"></a><dl>
-<dt><b>RNRSERVICE_DEREGISTER</b></dt>
+<dt><b>RNRSERVICE_DEREGISTER</b></dl>
 <dt>1</dt>
 </dl>
 </td>
@@ -112,13 +112,13 @@ Deregister the service. For the SAP namespace, this means stop sending the perio
 </tr>
 <tr>
 <td width="40%"><a id="RNRSERVICE_DELETE"></a><a id="rnrservice_delete"></a><dl>
-<dt><b>RNRSERVICE_DELETE</b></dt>
+<dt><b>RNRSERVICE_DELETE</b></dl>
 <dt>2</dt>
 </dl>
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding **CSADDR_INFO** structure supplied when the service was registered.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The possible values for this parameter are defined in the <i>Winsock2.h</i> head
 </tr>
 <tr>
 <td width="40%"><a id="SERVICE_MULTIPLE"></a><a id="service_multiple"></a><dl>
-<dt><b>SERVICE_MULTIPLE</b></dt>
+<dt><b>SERVICE_MULTIPLE</b></dl>
 <dt>0x00000001</dt>
 </dl>
 </td>
@@ -165,7 +165,7 @@ A pointer to the client session.
 
 
 
-The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (â€“1) if the routine fails and it must set the appropriate error code using 
+The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (â€“1) if the routine fails and it must set the appropriate error code using 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
@@ -178,7 +178,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -189,7 +189,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +200,7 @@ The calling routine does not have sufficient privileges to install the service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -211,7 +211,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +222,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -241,15 +241,15 @@ Service is unknown. The service cannot be found in the specified namespace.
 
 
 The 
-<b>NSPv2SetServiceEx</b> function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
+**NSPv2SetServiceEx** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
 
-On Windows Vista and Windows Server 2008, the <b>NSPv2SetServiceEx</b> function can only be used for operations on NS_EMAIL namespace providers.
+On Windows Vista and Windows Server 2008, the **NSPv2SetServiceEx** function can only be used for operations on NS_EMAIL namespace providers.
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a> function is called each time a new client process begins using namespace provider.  Providers may use the 
-client session argument pointed to by the <i>ppvClientSessionArg</i> parameter to store information about this session. This client session argument can be passed to the <b>NSPv2SetServiceEx</b> function in the <i>lpvClientSessionArg</i> parameter.
+client session argument pointed to by the <i>ppvClientSessionArg</i> parameter to store information about this session. This client session argument can be passed to the **NSPv2SetServiceEx** function in the <i>lpvClientSessionArg</i> parameter.
 
-The <b>NSPv2SetServiceEx</b> function is optional, dependent on the requirements of the NSPv2 provider. If the <b>NSPv2SetServiceEx</b> function isn't implemented, then the NSPv2 function pointer can be to a stub function that always returns <b>NO_ERROR</b>.
+The **NSPv2SetServiceEx** function is optional, dependent on the requirements of the NSPv2 provider. If the **NSPv2SetServiceEx** function isn't implemented, then the NSPv2 function pointer can be to a stub function that always returns **NO_ERROR**.
 
 The following table lists the possible combination of values for <i>essOperation</i> and <i>dwControlFlags</i> parameters.
 
@@ -261,19 +261,19 @@ The following table lists the possible combination of values for <i>essOperation
 <th>Service does not exist</th>
 </tr>
 <tr>
-<td><b>RNRSERVICE_REGISTER</b></td>
+<td>**RNRSERVICE_REGISTER**</td>
 <td>None</td>
 <td>Overwrites the object. Uses only addresses specified. Object is REGISTERED.</td>
 <td>Creates a new object. Uses only addresses specified. Object is REGISTERED.</td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_REGISTER</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_REGISTER**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Updates object. Adds new addresses to existing set. Object is REGISTERED.</td>
 <td>Creates a new object. Uses all addresses specified. Object is REGISTERED.</td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DEREGISTER</b></td>
+<td>**RNRSERVICE_DEREGISTER**</td>
 <td>None</td>
 <td>Removes all addresses, but does not remove object from namespace. Object is DEREGISTERED.</td>
 <td>
@@ -281,15 +281,15 @@ The following table lists the possible combination of values for <i>essOperation
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DEREGISTER</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_DEREGISTER**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Updates object. Removes only addresses that are specified. Only mark object as DEREGISTERED if no addresses are present. Does not remove from the namespace.</td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DELETE</b></td>
+<td>**RNRSERVICE_DELETE**</td>
 <td>None</td>
 <td>Removes object from the namespace.</td>
 <td>
@@ -297,8 +297,8 @@ The following table lists the possible combination of values for <i>essOperation
 </td>
 </tr>
 <tr>
-<td><b>RNRSERVICE_DELETE</b></td>
-<td><b>SERVICE_MULTIPLE</b></td>
+<td>**RNRSERVICE_DELETE**</td>
+<td>**SERVICE_MULTIPLE**</td>
 <td>Removes only addresses that are specified. Only removes object from the namespace if no addresses remain.</td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a>
@@ -307,14 +307,14 @@ The following table lists the possible combination of values for <i>essOperation
 </table>
  
 
-When the  <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, this enables an application to manage its addresses independently. This is useful when the application must manage its protocols individually or when the service resides on more than one computer. For example, when a service uses more than one protocol, one listening socket may abort, but the other sockets remain operational. In this example, the service could deregister the aborted address without affecting the other addresses.
+When the  <i>dwControlFlags</i> parameter is set to **SERVICE_MULTIPLE**, this enables an application to manage its addresses independently. This is useful when the application must manage its protocols individually or when the service resides on more than one computer. For example, when a service uses more than one protocol, one listening socket may abort, but the other sockets remain operational. In this example, the service could deregister the aborted address without affecting the other addresses.
 
-When using <b>SERVICE_MULTIPLE</b>, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a <b>RNRSERVICE_DEREGISTER</b> request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
+When using **SERVICE_MULTIPLE**, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a **RNRSERVICE_DEREGISTER** request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
 
- If the <b>NSPv2SetServiceEx</b> function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented <b>NSPv2SetServiceEx</b> function in the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function. 
+ If the **NSPv2SetServiceEx** function isn't implemented, then calls to that function should be intercepted by a stub function that returns [WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP).  The NSPv2 function pointer to the unimplemented **NSPv2SetServiceEx** function in the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function. 
 
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
-The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> member names and describes how service property data is represented. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a <b>NULL</b> pointer when unused by the namespace provider.
+The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> member names and describes how service property data is represented. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a **NULL** pointer when unused by the namespace provider.
 
 <table>
 <tr>
@@ -322,79 +322,79 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 <th>Service property description</th>
 </tr>
 <tr>
-<td><b>dwSize</b></td>
+<td>**dwSize**</td>
 <td>Set to the sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
-<td><b>lpszServiceInstanceName</b></td>
+<td>**lpszServiceInstanceName**</td>
 <td>A string that contains the service instance name.</td>
 </tr>
 <tr>
-<td><b>lpVersion</b></td>
+<td>**lpVersion**</td>
 <td>The service instance version number. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpszComment</b></td>
+<td>**lpszComment**</td>
 <td>A comment string. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>dwNameSpace</b></td>
+<td>**dwNameSpace**</td>
 <td>The namespace identifier. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpNSProviderId</b></td>
+<td>**lpNSProviderId**</td>
 <td>The provider identifier. Note that the namespace provider identifier is also passed in the <i>lpProviderId</i> parameter. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpszContext</b></td>
+<td>**lpszContext**</td>
 <td>The starting point of the query in a hierarchical namespace. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>dwNumberOfProtocols</b></td>
+<td>**dwNumberOfProtocols**</td>
 <td>The size, in bytes, of the number of entries in the protocol constraint array. This member can be zero.This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpafpProtocols</b></td>
+<td>**lpafpProtocols**</td>
 <td>An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpszQueryString</b></td>
+<td>**lpszQueryString**</td>
 <td>Some namespaces (such as whois++) support rich SQL-like queries contained in a simple text string. This parameter is used to specify that string.This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>dwNumberOfCsAddrs</b></td>
+<td>**dwNumberOfCsAddrs**</td>
 <td>The number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
 </tr>
 <tr>
-<td><b>lpcsaBuffer</b></td>
+<td>**lpcsaBuffer**</td>
 <td>A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
 </tr>
 <tr>
-<td><b>dwOutputFlags</b></td>
+<td>**dwOutputFlags**</td>
 <td>
 This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
 <tr>
-<td><b>lpBlob</b></td>
+<td>**lpBlob**</td>
 <td>A pointer to a provider-specific entity. This member is required for the NS_EMAIL namespace. This member is optional, dependent on the requirements for other NSPv2 service providers.
 
 </td>
@@ -402,8 +402,8 @@ This member is optional, dependent on the requirements of the NSPv2 service prov
 </table>
  
 
-<div class="alert"><b>Note</b>  It is acceptable for the <b>iProtocol</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
+<div class="alert">**Note**  It is acceptable for the **iProtocol** member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant **IPROTOCOL_ANY**, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
 

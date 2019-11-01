@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPSendDisconnect</b> function initiates termination of the connection for the socket and sends disconnect data.
+The **LPWSPSendDisconnect** function initiates termination of the connection for the socket and sends disconnect data.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Pointer to the outgoing disconnect data.
 Pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPSendDisconnect</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPSendDisconnect** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -127,16 +127,16 @@ The <i>lpOutboundDisconnectData</i> parameter is not totally contained in a vali
 </table>
 
 ## -remarks
-The <b>LPWSPSendDisconnect</b> function is used on connection-oriented sockets to disable transmission, and to initiate termination of the connection along with the transmission of disconnect data, if any.
+The **LPWSPSendDisconnect** function is used on connection-oriented sockets to disable transmission, and to initiate termination of the connection along with the transmission of disconnect data, if any.
 
 After this function has been successfully issued, subsequent sends are disallowed.
 
 The <i>lpOutboundDisconnectData</i> parameter, if not null, points to a buffer containing the outgoing disconnect data to be sent to the remote party.
 
-Note that <b>LPWSPSendDisconnect</b> does not close the socket, and that resources attached to the socket will not be freed until <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
+Note that **LPWSPSendDisconnect** does not close the socket, and that resources attached to the socket will not be freed until <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
 
 > [!Note]  
-> The <b>LPWSPSendDisconnect</b> function does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been disconnected. In particular, a Windows Sockets provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
+> The **LPWSPSendDisconnect** function does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been disconnected. In particular, a Windows Sockets provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
 
 ## -see-also
 

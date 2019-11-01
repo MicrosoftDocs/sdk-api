@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSCDeinstallProvider32</b> function removes the specified 32-bit transport provider from the system configuration database.<div class="alert"><b>Note</b>  This call enables a 64-bit process to manipulate the 32-bit Winsock catalog because <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>, on 64-bit computers, only manipulates the native 64-bit Windows Sockets catalog.</div>
+The **WSCDeinstallProvider32** function removes the specified 32-bit transport provider from the system configuration database.<div class="alert">**Note**  This call enables a 64-bit process to manipulate the 32-bit Winsock catalog because <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>, on 64-bit computers, only manipulates the native 64-bit Windows Sockets catalog.</div>
 <div> </div>
 
 
@@ -65,7 +65,7 @@ The <b>WSCDeinstallProvider32</b> function removes the specified 32-bit transpor
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider. This value is stored within each 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.
 
 
 ### -param lpErrno [out]
@@ -78,7 +78,7 @@ A pointer to the error code if the function fails.
 
 
 If no error occurs, 
-<b>WSCDeinstallProvider32</b> returns zero. Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is available in <i>lpErrno</i>.
+**WSCDeinstallProvider32** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ The <i>lpErrno</i> parameter is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -139,17 +139,17 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-<b>WSCDeinstallProvider32</b> is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog.  Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
+**WSCDeinstallProvider32** is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog.  Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
 The 
-<b>WSCDeinstallProvider32</b> function removes the common Windows Sockets 2 configuration information for the specified 32-bit provider. After this routine completes successfully, the configuration information stored in the registry will be changed. However, any Ws2_32.dll instances currently in memory will not be able to recognize this change.
+**WSCDeinstallProvider32** function removes the common Windows Sockets 2 configuration information for the specified 32-bit provider. After this routine completes successfully, the configuration information stored in the registry will be changed. However, any Ws2_32.dll instances currently in memory will not be able to recognize this change.
 
-On success, <b>WSCDeinstallProvider32</b> will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>.
+On success, **WSCDeinstallProvider32** will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>.
 
-The <b>WSCDeinstallProvider32</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCDeinstallProvider32</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>WSANO_RECOVERY</b> is returned in the <i>lpErrno</i> parameter. 
+The **WSCDeinstallProvider32** function can only be called by a user logged on as a member of the Administrators group. If **WSCDeinstallProvider32** is called by a user that is not a member of the Administrators group, the function call will fail and **WSANO_RECOVERY** is returned in the <i>lpErrno</i> parameter. 
  
 
-For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
+For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
 The caller of this function must remove any additional files or service provider–specific configuration information that is needed to completely uninstall the service provider.
 

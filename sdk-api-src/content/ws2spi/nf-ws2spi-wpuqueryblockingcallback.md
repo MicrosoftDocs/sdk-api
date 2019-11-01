@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUQueryBlockingCallback</b> function returns a pointer to a callback function the service provider should invoke periodically while servicing blocking operations.
+**WPUQueryBlockingCallback** function returns a pointer to a callback function the service provider should invoke periodically while servicing blocking operations.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WPUQueryBlockingCallback</b> returns zero and stores a pointer to a blocking callback function in <i>lpfnCallback</i> and an associated context value in <i>lpdwContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+**WPUQueryBlockingCallback** returns zero and stores a pointer to a blocking callback function in <i>lpfnCallback</i> and an associated context value in <i>lpdwContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -98,7 +98,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The <i>lpfnCallback</i> or the <i>lpdwContext</i> parameter is not a valid part 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ The <i>dwCatalogEntryId</i> parameter is invalid.
 
 
 The 
-<b>WPUQueryBlockingCallback</b> function returns a pointer to a callback function in <i>lpfnCallback</i> to be invoked periodically during blocking operations. This function also returns a context value in <i>lpdwContext</i> to be passed into the blocking callback.
+**WPUQueryBlockingCallback** function returns a pointer to a callback function in <i>lpfnCallback</i> to be invoked periodically during blocking operations. This function also returns a context value in <i>lpdwContext</i> to be passed into the blocking callback.
 
 In Windows, this function can return null in <i>lpfnCallback</i>, indicating that no user defined–blocking hook is installed. In this case, the service provider should use the native Windows synchronization objects to implement blocking.
 
@@ -145,8 +145,8 @@ typedef BOOL ( CALLBACK FAR * LPBLOCKINGCALLBACK )( DWORD dwContext );
 ```
 
 
-The blocking callback will return <b>TRUE</b> if the service provider is to continue waiting for the blocking operation to complete. It will return <b>FALSE</b> if the blocking operation has been canceled with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)">WSPCancelBlockingCall</a>.
+The blocking callback will return **TRUE** if the service provider is to continue waiting for the blocking operation to complete. It will return **FALSE** if the blocking operation has been canceled with the 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>.
 
 Any missing components of the address will default to a reasonable value if possible. For example, a missing port number will default to zero.
 
@@ -158,7 +158,7 @@ Any missing components of the address will default to a reasonable value if poss
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742269(v=vs.85)">WSPCancelBlockingCall</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>
  
 
  

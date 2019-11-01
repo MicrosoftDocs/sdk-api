@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPSetSockOpt</b> function sets a socket option.
+The **LPWSPSetSockOpt** function sets a socket option.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The size, in bytes, of the <i>optval</i> buffer.
 A pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPSetSockOpt</b> returns zero. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPSetSockOpt** returns zero. Otherwise, a value of **SOCKET_ERROR** is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ The connection has been broken due to keep-alive activity detecting a failure wh
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -148,7 +148,7 @@ Option is unknown or unsupported for the specified provider.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +158,7 @@ The connection has been reset when <a href="https://docs.microsoft.com/en-us/win
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -168,7 +168,7 @@ The descriptor is not a socket.
 </table>
  
 ## -remarks
-The <b>LPWSPSetSockOpt</b> function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether broadcast messages can be sent on the socket.
+The **LPWSPSetSockOpt** function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether broadcast messages can be sent on the socket.
 
 There are two types of socket options: Boolean options that enable or disable a feature or behavior, and options that require an integer value or structure. To enable a Boolean option, <i>optval</i> points to a nonzero integer. To disable the option, <i>optval</i> points to an integer equal to zero. The <i>optlen</i> parameter should be equal to sizeof (int) for Boolean options. For other options, <i>optval</i> points to an integer or structure that contains the desired value for the option, and <i>optlen</i> is the length of the integer or structure.
 
@@ -204,7 +204,7 @@ Calling <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc
 <span id="SO_DEBUG"></span><span id="so_debug"></span>SO_DEBUG
 </dt> <dd>
 
-Windows Sockets service providers are encouraged, but not required, to supply output debug information if the <b>SO_DEBUG</b> option is set by a Windows Sockets SPI client. The mechanism for generating the debug information and the format are beyond the scope of this specification.
+Windows Sockets service providers are encouraged, but not required, to supply output debug information if the **SO_DEBUG** option is set by a Windows Sockets SPI client. The mechanism for generating the debug information and the format are beyond the scope of this specification.
 
 </dd> <dt>
 
@@ -225,7 +225,7 @@ A Windows Sockets SPI client can request that a TCP/IP provider enable the use o
 <span id="SO_LINGER"></span><span id="so_linger"></span>SO_LINGER
 </dt> <dd>
 
-SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See <b>LPWSPCloseSocket</b> for a description of the way in which the <b>SO_LINGER</b> settings affect the semantics of <b>LPWSPCloseSocket</b>. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements:
+SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the **SO_LINGER** settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements:
 
 
 ```C++
@@ -234,23 +234,23 @@ SO_LINGER controls the action taken when unsent data is queued on a socket and a
 
 
 
-To enable <b>SO_LINGER</b>, a Windows Sockets SPI client should set <b>l_onoff</b> to a nonzero value, set <b>l_linger</b> to zero or the desired time-out, in seconds, and call <b>LPWSPSetSockOpt</b>. To enable <b>SO_DONTLINGER</b>, that is, disable SO_LINGER, <b>l_onoff</b> should be set to zero and <b>LPWSPSetSockOpt</b> should be called. Be aware that enabling <b>SO_LINGER</b> with a nonzero time-out on a nonblocking socket is not recommended. For more information, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>.
+To enable **SO_LINGER**, a Windows Sockets SPI client should set **l_onoff** to a nonzero value, set **l_linger** to zero or the desired time-out, in seconds, and call **LPWSPSetSockOpt**. To enable **SO_DONTLINGER**, that is, disable SO_LINGER, **l_onoff** should be set to zero and **LPWSPSetSockOpt** should be called. Be aware that enabling **SO_LINGER** with a nonzero time-out on a nonblocking socket is not recommended. For more information, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>.
 
-Enabling <b>SO_LINGER</b> also disables <b>SO_DONTLINGER</b>, and vice versa. Be aware that if <b>SO_DONTLINGER</b> is disabled (that is, <b>SO_LINGER</b> is enabled) then no time-out value is specified. In this case, the time-out used is implementation dependent. If a previous time-out has been established for a socket (by enabling <b>SO_LINGER</b>), then this time-out value should be reinstated by the service provider.
+Enabling **SO_LINGER** also disables **SO_DONTLINGER**, and vice versa. Be aware that if **SO_DONTLINGER** is disabled (that is, **SO_LINGER** is enabled) then no time-out value is specified. In this case, the time-out used is implementation dependent. If a previous time-out has been established for a socket (by enabling **SO_LINGER**), then this time-out value should be reinstated by the service provider.
 
 </dd> <dt>
 
 <span id="SO_REUSEADDR"></span><span id="so_reuseaddr"></span>SO_REUSEADDR
 </dt> <dd>
 
-By default, a socket cannot be bound (for more information, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>) to a local address that is already in use. On occasion, however, it may be desirable to reuse an address in this way. Because every connection is uniquely identified by the combination of local and remote addresses, there is no problem with having two sockets bound to the same local address as long as the remote addresses are different. To inform the Windows Sockets provider that a <b>LPWSPBind</b> on a socket should be allowed to bind to a local address that is already in use by another socket, the Windows Sockets SPI client should set the <b>SO_REUSEADDR</b> socket option for the socket before issuing the <b>LPWSPBind</b>. Be aware that the option is interpreted only at the time of the <b>LPWSPBind</b>: it is therefore unnecessary, but harmless, to set the option on a socket that is not to be bound to an existing address, and setting or resetting the option after the <b>LPWSPBind</b> has no effect on this or any other socket.
+By default, a socket cannot be bound (for more information, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>) to a local address that is already in use. On occasion, however, it may be desirable to reuse an address in this way. Because every connection is uniquely identified by the combination of local and remote addresses, there is no problem with having two sockets bound to the same local address as long as the remote addresses are different. To inform the Windows Sockets provider that a **LPWSPBind** on a socket should be allowed to bind to a local address that is already in use by another socket, the Windows Sockets SPI client should set the **SO_REUSEADDR** socket option for the socket before issuing the **LPWSPBind**. Be aware that the option is interpreted only at the time of the **LPWSPBind**: it is therefore unnecessary, but harmless, to set the option on a socket that is not to be bound to an existing address, and setting or resetting the option after the **LPWSPBind** has no effect on this or any other socket.
 
 </dd> <dt>
 
 <span id="SO_SNDBUF"></span><span id="so_sndbuf"></span>SO_SNDBUF
 </dt> <dd>
 
-When a Windows Sockets implementation supports the <b>SO_RCVBUF</b> and <b>SO_SNDBUF</b> options, a Windows Sockets SPI client can request different buffer sizes (larger or smaller). The call can succeed even though the service provider did not make available the entire amount requested. A Windows Sockets SPI client must call <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> with the same option to verify the buffer size actually provided.
+When a Windows Sockets implementation supports the **SO_RCVBUF** and **SO_SNDBUF** options, a Windows Sockets SPI client can request different buffer sizes (larger or smaller). The call can succeed even though the service provider did not make available the entire amount requested. A Windows Sockets SPI client must call <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> with the same option to verify the buffer size actually provided.
 
 </dd> <dt>
 

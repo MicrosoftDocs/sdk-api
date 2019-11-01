@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSCInstallProviderAndChains64_32</b> function installs the specified transport provider and its specific protocol chains into both the 32-bit and 64-bit Winsock 2 system configuration databases on a 64-bit computer. This function ensures that the protocol chains are ordered at the beginning of the transport provider configuration information, making a separate call to <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> unnecessary.
+The **WSCInstallProviderAndChains64_32** function installs the specified transport provider and its specific protocol chains into both the 32-bit and 64-bit Winsock 2 system configuration databases on a 64-bit computer. This function ensures that the protocol chains are ordered at the beginning of the transport provider configuration information, making a separate call to <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> unnecessary.
 
 
 ## -parameters
@@ -67,16 +67,16 @@ A pointer to a globally unique identifier (GUID) for the provider.
 
 ### -param lpszProviderDllPath [in]
 
-A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the <i>Ws2_32.dll</i> must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the <i>Ws2_32.dll</i> passes the resulting string to the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see <b>LoadLibrary</b>.
+A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the <i>Ws2_32.dll</i> must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the <i>Ws2_32.dll</i> passes the resulting string to the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see **LoadLibrary**.
 
-<div class="alert"><b>Note</b>  If <i>lpszProviderDllPath32</i> is set to <b>NULL</b> then <i>lpszProviderDllPath</i> must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If not, the call fails and returns the <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a> error code.</div>
+<div class="alert">**Note**  If <i>lpszProviderDllPath32</i> is set to **NULL** then <i>lpszProviderDllPath</i> must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If not, the call fails and returns the <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a> error code.</div>
 <div> </div>
 
 ### -param lpszProviderDllPath32 [in]
 
-A pointer to a Unicode string that contains the fully qualified path to the provider 32-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the <i>Ws2_32.dll</i> subsequently loads the provider DLL on behalf of an application. After any embedded environment strings are expanded, the <i>Ws2_32.dll</i> passes the resulting string into the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load the provider into memory. For more information, see <b>LoadLibrary</b>.
+A pointer to a Unicode string that contains the fully qualified path to the provider 32-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the <i>Ws2_32.dll</i> subsequently loads the provider DLL on behalf of an application. After any embedded environment strings are expanded, the <i>Ws2_32.dll</i> passes the resulting string into the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load the provider into memory. For more information, see **LoadLibrary**.
 
-<div class="alert"><b>Note</b>  If this parameter is set to <b>NULL</b>, the 64-bit provider must exist in the <i>%windir%\system32</i> folder and the 32-bit provider must reside in the <i>%windir%\syswow64</i> folder.</div>
+<div class="alert">**Note**  If this parameter is set to **NULL**, the 64-bit provider must exist in the <i>%windir%\system32</i> folder and the 32-bit provider must reside in the <i>%windir%\syswow64</i> folder.</div>
 <div> </div>
 
 ### -param lpszLspName [in]
@@ -86,7 +86,7 @@ A pointer to a Unicode string that contains the name of the layered service prov
 
 ### -param dwServiceFlags [in]
 
-The service flags for the type of layered protocol catalog entry to be created. A layered protocol entry is  a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the <b>ChainLen</b> member set to 0. The actual catalog entry for the LSP will reference the ID of this layered protocol entry in its <b>ProtocolChain</b> member.
+The service flags for the type of layered protocol catalog entry to be created. A layered protocol entry is  a [WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure with the **ChainLen** member set to 0. The actual catalog entry for the LSP will reference the ID of this layered protocol entry in its **ProtocolChain** member.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ The service flags for the type of layered protocol catalog entry to be created. 
 </tr>
 <tr>
 <td width="40%"><a id="XP1_IFS_HANDLES"></a><a id="xp1_ifs_handles"></a><dl>
-<dt><b>XP1_IFS_HANDLES</b></dt>
+<dt><b>XP1_IFS_HANDLES</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ The catalog entry is for an Installable File System (IFS) LSP, which returns IFS
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures. Each structure defines a  protocol, address family, and socket type supported by the provider. The members of the <b>WSAPROTOCOL_INFO</b> structure that are examined are <b>iProtocol</b>, <b>iAddressFamily</b>, and  <b>iSocketType</b>.
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structures. Each structure defines a  protocol, address family, and socket type supported by the provider. The members of the **WSAPROTOCOL_INFO** structure that are examined are **iProtocol**, **iAddressFamily**, and  **iSocketType**.
 
 
 ### -param dwNumberOfEntries [in]
@@ -132,7 +132,7 @@ A pointer to the error code generated by the call if the function fails.
 
 
 
-If <b>WSCInstallProviderAndChains64_32</b> succeeds, it returns zero. Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is returned in the <i>lpErrno</i> parameter.
+If **WSCInstallProviderAndChains64_32** succeeds, it returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ If <b>WSCInstallProviderAndChains64_32</b> succeeds, it returns zero. Otherwise,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -153,18 +153,18 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-One or more of the arguments are invalid. This error is returned for the following conditions: the <i>lpProviderId</i> parameter is <b>NULL</b>, the <i>lpszProviderDllPath</i> parameter is invalid or the path length is too large (<b>MAX_PATH</b> was exceeded), the <i>lpszLspName</i> parameter is invalid or the name length is too large (<b>WSAPROTOCOL_LEN</b> is exceeded), the <i>lpProtocolInfoList</i> is set to a non-<b>NULL</b> and the <i>dwNumberOfEntries</i> parameter is zero, a duplicate provider  ID or the layered service provider name already exist in the catalog, or a match cannot be found for the specified protocol, address family, and socket type.
+One or more of the arguments are invalid. This error is returned for the following conditions: the <i>lpProviderId</i> parameter is **NULL**, the <i>lpszProviderDllPath</i> parameter is invalid or the path length is too large (**MAX_PATH** was exceeded), the <i>lpszLspName</i> parameter is invalid or the name length is too large (**WSAPROTOCOL_LEN** is exceeded), the <i>lpProtocolInfoList</i> is set to a non-**NULL** and the <i>dwNumberOfEntries</i> parameter is zero, a duplicate provider  ID or the layered service provider name already exist in the catalog, or a match cannot be found for the specified protocol, address family, and socket type.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WSAEINVALIDPROCTABLE</b></dt>
+<dt><b>WSAEINVALIDPROCTABLE</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +175,7 @@ The provider is missing required functionality. A non-IFS provider must implemen
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ A provider installation is already in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -197,18 +197,18 @@ A provider installation is already in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-A nonrecoverable error occurred. This error is returned under several conditions including the following: the provider is already installed, the <i>lpProtocolInfoList</i> parameter was <b>NULL</b> and there was no base provider found, the maximum protocol chain length (<b>MAX_PROTOCOL_CHAIN</b>) was reached, the user lacks the administrative privileges required to write to the  Winsock registry, or a failure occurred when creating or installing a catalog entry.
+A nonrecoverable error occurred. This error is returned under several conditions including the following: the provider is already installed, the <i>lpProtocolInfoList</i> parameter was **NULL** and there was no base provider found, the maximum protocol chain length (**MAX_PROTOCOL_CHAIN**) was reached, the user lacks the administrative privileges required to write to the  Winsock registry, or a failure occurred when creating or installing a catalog entry.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -226,46 +226,46 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-<b>WSCInstallProviderAndChains64_32</b> is an enhanced version of the basic <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a> function used to install a single transport service provider. If a layered service provider is being installed, then <b>WSCInstallProviderAndChains64_32</b> should be used.  <b>WSCInstallProviderAndChains64_32</b> can install a layered protocol and one or more protocol chains with a single function call. To accomplish the same work using <b>WSCInstallProvider64_32</b> would require multiple function calls.
+**WSCInstallProviderAndChains64_32** is an enhanced version of the basic <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a> function used to install a single transport service provider. If a layered service provider is being installed, then **WSCInstallProviderAndChains64_32** should be used.  **WSCInstallProviderAndChains64_32** can install a layered protocol and one or more protocol chains with a single function call. To accomplish the same work using **WSCInstallProvider64_32** would require multiple function calls.
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol would be a security layer that adds a  protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme.  Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX.  The term base protocol refers to a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone.  A protocol chain would then be defined as one or more layered protocols strung together and anchored by a base protocol.
-A base protocol has the <b>ChainLen</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure set to  <b>BASE_PROTOCOL</b> which is defined to be 1. A layered protocol has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to <b>LAYERED_PROTOCOL</b> which is defined to be zero. A protocol chain has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to greater than 1.
+A base protocol has the **ChainLen** member of the [WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure set to  **BASE_PROTOCOL** which is defined to be 1. A layered protocol has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to **LAYERED_PROTOCOL** which is defined to be zero. A protocol chain has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to greater than 1.
 
-<b>WSCInstallProviderAndChains64_32</b> is the 64-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains">WSCInstallProviderAndChains</a>. It installs the provider into both the 32-bit and 64-bit catalogs on 64-bit platforms. This means that on 64-bit platforms, two Winsock catalogs are maintained, and that both 32-bit and 64-bit processes are able to load the LSP installed with this function.
+**WSCInstallProviderAndChains64_32** is the 64-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains">WSCInstallProviderAndChains</a>. It installs the provider into both the 32-bit and 64-bit catalogs on 64-bit platforms. This means that on 64-bit platforms, two Winsock catalogs are maintained, and that both 32-bit and 64-bit processes are able to load the LSP installed with this function.
 
-On a 64-bit computer, all calls not specifically designed for 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use <b>WSCInstallProviderAndChains64_32</b> to operate on both the 32-bit catalog as well as the 64-bit catalog, preserving compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
+On a 64-bit computer, all calls not specifically designed for 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use **WSCInstallProviderAndChains64_32** to operate on both the 32-bit catalog as well as the 64-bit catalog, preserving compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
 
-<div class="alert"><b>Note</b>   On 64-bit platforms, there is no <b>WSCInstallProviderAndChains</b> function to install only in the 64-bit catalog. On 64-bit platforms, there must be both a 32-bit and 64-bit version of the LSP installed. For providers that must install only in the 64-bit Winsock catalog, the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a> function can be used.</div>
+<div class="alert">**Note**   On 64-bit platforms, there is no **WSCInstallProviderAndChains** function to install only in the 64-bit catalog. On 64-bit platforms, there must be both a 32-bit and 64-bit version of the LSP installed. For providers that must install only in the 64-bit Winsock catalog, the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a> function can be used.</div>
 <div> </div>
 
 
-If <i>lpProtocolInfoList</i> is set to <b>NULL</b>, this function creates protocol chains where the provider is layered over the base protocol for each unique protocol type as defined by the address family, socket type, and protocol. This eliminates the creation of any inaccessible duplicate provider entries.
+If <i>lpProtocolInfoList</i> is set to **NULL**, this function creates protocol chains where the provider is layered over the base protocol for each unique protocol type as defined by the address family, socket type, and protocol. This eliminates the creation of any inaccessible duplicate provider entries.
 
-If <i>lpProtocolInfoList</i> is set to a non-<b>NULL</b> value, this function creates protocol chains by obtaining the top-most entry  in the configuration information that matches the <i>{address family, socket type, protocol}</i> tuple from each element in the provided array. Again, only the <i>{address family, socket type, protocol}</i> tuple  is considered; all other members and duplicates are ignored.
+If <i>lpProtocolInfoList</i> is set to a non-**NULL** value, this function creates protocol chains by obtaining the top-most entry  in the configuration information that matches the <i>{address family, socket type, protocol}</i> tuple from each element in the provided array. Again, only the <i>{address family, socket type, protocol}</i> tuple  is considered; all other members and duplicates are ignored.
 
-Upon successful completion of this call, any subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> will return the newly created protocol chain entries. Be aware that in Windows environments, only instances of <i>Ws_32.dll</i> created by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> after the successful completion  of <b>WSCInstallProviderAndChains64_32</b> will include the new entries when <b>WSAEnumProtocols</b>, <b>WSCEnumProtocols</b>, and <b>WSCEnumProtocols32</b> returns. <div class="alert"><b>Note</b>   The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function does not enumerate a layered protocol entry while <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> do.</div>
+Upon successful completion of this call, any subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> will return the newly created protocol chain entries. Be aware that in Windows environments, only instances of <i>Ws_32.dll</i> created by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> after the successful completion  of **WSCInstallProviderAndChains64_32** will include the new entries when **WSAEnumProtocols**, **WSCEnumProtocols**, and **WSCEnumProtocols32** returns. <div class="alert">**Note**   The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function does not enumerate a layered protocol entry while <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> do.</div>
 <div> </div>
 
 
-On success, <b>WSCInstallProviderAndChains64_32</b> will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>.
+On success, **WSCInstallProviderAndChains64_32** will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>.
 
-The <b>WSCInstallProviderAndChains64_32</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCInstallProviderAndChains64_32</b> is called by a user that is not a member of the Administrators group, the function call will fail and <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a> is returned in the <i>lpErrno</i> parameter. 
- For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (<b>RunAs administrator</b>) for this function to succeed.
+The **WSCInstallProviderAndChains64_32** function can only be called by a user logged on as a member of the Administrators group. If **WSCInstallProviderAndChains64_32** is called by a user that is not a member of the Administrators group, the function call will fail and <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a> is returned in the <i>lpErrno</i> parameter. 
+ For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (**RunAs administrator**) for this function to succeed.
 
 Any file installation or provider-specific configuration must be performed by the calling application.
 
 <h3><a id="IFS_and_Non-IFS_Providers"></a><a id="ifs_and_non-ifs_providers"></a><a id="IFS_AND_NON-IFS_PROVIDERS"></a>IFS and Non-IFS Providers</h3>
-An IFS provider is one that returns native operating system handles. Typically these handles are associated with kernel mode protocol drivers. For example, the base TCP/IPv4, UDP/IPv4, TCP/IPv6, and UDP/IPv6 are IFS providers as these entries correspond to a kernel mode component. IFS handles can be used in <b>ReadFile</b>, <b>WriteFile</b>, and <b>CancelIo</b> function calls. A layered service provider that is an IFS provider simply returns the socket handle created from the lower provider (which must also be an IFS provider) directly to the calling application. An IFS LSP cannot intercept completion notifications for Winsock calls.
+An IFS provider is one that returns native operating system handles. Typically these handles are associated with kernel mode protocol drivers. For example, the base TCP/IPv4, UDP/IPv4, TCP/IPv6, and UDP/IPv6 are IFS providers as these entries correspond to a kernel mode component. IFS handles can be used in **ReadFile**, **WriteFile**, and **CancelIo** function calls. A layered service provider that is an IFS provider simply returns the socket handle created from the lower provider (which must also be an IFS provider) directly to the calling application. An IFS LSP cannot intercept completion notifications for Winsock calls.
 
-A non-IFS provider is one that creates an intermediate handle with <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> and returns this handle to the caller. This allows a non-IFS LSP to intercept send and receive completion events before the calling applications to allow for post processing (for example, decrypting a received chunk of data). Non-IFS socket handles can be used in calls to <b>ReadFile</b> and <b>WriteFile</b>, but cannot be used with <b>CancelIo</b>. The only guaranteed method of canceling an operation on a non-IFS handle is by closing the socket with <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>.
+A non-IFS provider is one that creates an intermediate handle with [WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) and returns this handle to the caller. This allows a non-IFS LSP to intercept send and receive completion events before the calling applications to allow for post processing (for example, decrypting a received chunk of data). Non-IFS socket handles can be used in calls to **ReadFile** and **WriteFile**, but cannot be used with **CancelIo**. The only guaranteed method of canceling an operation on a non-IFS handle is by closing the socket with <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>.
 
 <h3><a id="Paths_for_32-bit_and_64-bit_Provider_DLLs"></a><a id="paths_for_32-bit_and_64-bit_provider_dlls"></a><a id="PATHS_FOR_32-BIT_AND_64-BIT_PROVIDER_DLLS"></a>Paths for 32-bit and 64-bit Provider DLLs</h3>
 <i>lpszProviderDllPath</i> represents the fully qualified path to the 64-bit version of the provider DLL. This parameter can contain embedded environment strings (such as <i>%SystemRoot%</i>). 
 
 <i>lpszProviderDllPath32</i> represents the fully qualified path to the 32-bit version of the provider DLL. This parameter can contain embedded environment strings (such as <i>%SystemRoot%</i>).
 
-If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then <i>lpszProviderDllPath</i> is the path for both 32 and 64 bit providers.  When a 32-bit process on a 64-bit computer is running (for example, when a Winsock application loads the 32-bit version of an LSP), it attempts to load the 32-bit provider specified in <i>lpszProviderDllPath</i>.  If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then the <i>lpszProviderDllPath</i> parameter must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If this is not the case, the call fails with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>.  If the path in <i>lpszProviderDllPath</i> is <i>%windir%\system32\&lt;dllname&gt;</i> when <i>lpszProviderDllPath32</i> is <b>NULL</b>, the call will be redirected (using the file system redirector) to the directory returned by <b>GetSystemWow64Directory</b> where the 32-bit LSP must reside. For Windows XP 64-bit edition, Windows Server 2003 and Windows Vista, this directory is <i>%windir%\syswow64</i>.
+If <i>lpszProviderDllPath32</i> is **NULL**, then <i>lpszProviderDllPath</i> is the path for both 32 and 64 bit providers.  When a 32-bit process on a 64-bit computer is running (for example, when a Winsock application loads the 32-bit version of an LSP), it attempts to load the 32-bit provider specified in <i>lpszProviderDllPath</i>.  If <i>lpszProviderDllPath32</i> is **NULL**, then the <i>lpszProviderDllPath</i> parameter must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If this is not the case, the call fails with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>.  If the path in <i>lpszProviderDllPath</i> is <i>%windir%\system32\&lt;dllname&gt;</i> when <i>lpszProviderDllPath32</i> is **NULL**, the call will be redirected (using the file system redirector) to the directory returned by **GetSystemWow64Directory** where the 32-bit LSP must reside. For Windows XP 64-bit edition, Windows Server 2003 and Windows Vista, this directory is <i>%windir%\syswow64</i>.
 
 
 
@@ -287,7 +287,7 @@ If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then <i>lpszProviderDllPath</i> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
 
 
 

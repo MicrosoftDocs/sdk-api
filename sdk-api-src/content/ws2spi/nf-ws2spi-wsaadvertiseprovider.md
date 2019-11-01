@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSAAdvertiseProvider</b> function makes a specific namespace version-2 provider available for all eligible clients.
+**WSAAdvertiseProvider** function makes a specific namespace version-2 provider available for all eligible clients.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to the provider ID of the namespace provider to be advertised.
 
 ### -param pNSPv2Routine [in]
 
-A pointer to a <b>NSPV2_ROUTINE</b> structure with the namespace service provider version-2 entry points supported by the provider.
+A pointer to a **NSPV2_ROUTINE** structure with the namespace service provider version-2 entry points supported by the provider.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is SOCKET_ERROR. To get extended error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -111,20 +111,20 @@ An internal error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-A parameter was not valid. This error is returned if the <i>puuidProviderId</i> or <i>pNSPv2Routine</i> parameters were <b>NULL</b>. 
+A parameter was not valid. This error is returned if the <i>puuidProviderId</i> or <i>pNSPv2Routine</i> parameters were **NULL**. 
 
-This error is also returned if the <b>NSPv2LookupServiceBegin</b>, <b>NSPv2LookupServiceNextEx</b>, or <b>NSPv2LookupServiceEnd</b> members of the <b>NSPV2_ROUTINE</b> structure pointed to by the <i>pNSPv2Routine</i> parameter are <b>NULL</b>. A namespace version-2 provider must at least support name resolution which this minimum set of functions.
+This error is also returned if the **NSPv2LookupServiceBegin**, **NSPv2LookupServiceNextEx**, or **NSPv2LookupServiceEnd** members of the **NSPV2_ROUTINE** structure pointed to by the <i>pNSPv2Routine</i> parameter are **NULL**. A namespace version-2 provider must at least support name resolution which this minimum set of functions.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ The namespace provider could not be found for the specified <i>puuidProviderId</
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -155,17 +155,17 @@ The <i>Ws2_32.dll</i> has not been initialized. The application must first call
 
 
 The 
-<b>WSAAdvertiseProvider</b> function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
+**WSAAdvertiseProvider** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
 
-On Windows Vista and Windows Server 2008, the <b>WSAAdvertiseProvider</b> function can only be used for operations on NS_EMAIL namespace providers.
-
-The 
-<b>WSAAdvertiseProvider</b> function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the <b>dwProvideType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is <b>ProviderType_Application</b>), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of <b>WSAAdvertiseProvider</b>. 
-
-In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <b>WSAAdvertiseProvider</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+On Windows Vista and Windows Server 2008, the **WSAAdvertiseProvider** function can only be used for operations on NS_EMAIL namespace providers.
 
 The 
-<b>WSAAdvertiseProvider</b> function is called by any application that wants to make a specific provider available for all eligible clients (currently all the applications running with the same credentials as the hosting application, and in the same user session). 
+**WSAAdvertiseProvider** function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the **dwProvideType** member of the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is **ProviderType_Application**), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of **WSAAdvertiseProvider**. 
+
+In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the **WSAAdvertiseProvider** and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+
+The 
+**WSAAdvertiseProvider** function is called by any application that wants to make a specific provider available for all eligible clients (currently all the applications running with the same credentials as the hosting application, and in the same user session). 
 
 
 
@@ -173,7 +173,7 @@ A process can implement and advertise multiple providers at the same time. Windo
 
 
 
-The <b>WSAAdvertiseProvider</b> caller passes a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>  structure in the <i>pNSPv2Routine</i> parameter with the NSPv2 entry points supported by the provider. 
+The **WSAAdvertiseProvider** caller passes a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>  structure in the <i>pNSPv2Routine</i> parameter with the NSPv2 entry points supported by the provider. 
 
 
 The 

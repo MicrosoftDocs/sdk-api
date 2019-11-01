@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUQuerySocketHandleContext</b> function queries the context value associated with the specified socket handle.
+**WPUQuerySocketHandleContext** function queries the context value associated with the specified socket handle.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WPUQuerySocketHandleContext</b> returns zero and stores the current context value in <i>lpContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+**WPUQuerySocketHandleContext** returns zero and stores the current context value in <i>lpContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -93,12 +93,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The descriptor is not a socket created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The descriptor is not a socket created by
 
 
 The 
-<b>WPUQuerySocketHandleContext</b> function queries the current context value associated with the specified socket handle. Service providers typically use this function to retrieve a pointer to provider-specific data associated with the socket. For example, a service provider can use the socket context to store a pointer to a structure containing the socket's state, local and remote transport addresses, and event objects for signaling network events.
+**WPUQuerySocketHandleContext** function queries the current context value associated with the specified socket handle. Service providers typically use this function to retrieve a pointer to provider-specific data associated with the socket. For example, a service provider can use the socket context to store a pointer to a structure containing the socket's state, local and remote transport addresses, and event objects for signaling network events.
 
 Only non-IFS providers use this function, because IFS providers are not able to supply a context value.
 
@@ -129,7 +129,7 @@ Only non-IFS providers use this function, because IFS providers are not able to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
  
 
  

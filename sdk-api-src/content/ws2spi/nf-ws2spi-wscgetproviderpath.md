@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSCGetProviderPath</b> function retrieves the DLL path for the specified provider.
+**WSCGetProviderPath** function retrieves the DLL path for the specified provider.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ A pointer to the error code if the function fails.
 
 
 If no error occurs, 
-<b>WSCGetProviderPath</b> returns zero. Otherwise, it returns SOCKET_ERROR. The specific error code is available in <i>lpErrno</i>.
+**WSCGetProviderPath** returns zero. Otherwise, it returns SOCKET_ERROR. The specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The <i>lpszProviderDllPath</i> or <i>lpErrno</i> parameter is not in a valid par
 
 
 The 
-<b>WSCGetProviderPath</b> function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. For more information, see <b>LoadLibrary</b>.
+**WSCGetProviderPath** function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. For more information, see **LoadLibrary**.
 
 
 

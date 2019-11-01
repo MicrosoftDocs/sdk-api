@@ -34,7 +34,7 @@ api_name:
 ---
 
 ## -description
-The <b>WSATHREADID</b> structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](wpuqueueapc-2.md) function.
+The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](wpuqueueapc-2.md) function.
 
 ## -struct-fields
 ```C++

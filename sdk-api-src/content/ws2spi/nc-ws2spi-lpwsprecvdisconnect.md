@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPRecvDisconnect</b> function terminates reception on a socket and retrieves the disconnect data, if the socket is connection oriented.
+The **LPWSPRecvDisconnect** function terminates reception on a socket and retrieves the disconnect data, if the socket is connection oriented.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Pointer to a buffer into which disconnect data is to be copied.
 Pointer to the error code.
 
 ## -returns
-If no error occurs, <b>LPWSPRecvDisconnect</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
+If no error occurs, **LPWSPRecvDisconnect** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -127,16 +127,16 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
-<b>LPWSPRecvDisconnect</b> is used on connection-oriented sockets to disable reception, and retrieve any incoming disconnect data from the remote party.
+**LPWSPRecvDisconnect** is used on connection-oriented sockets to disable reception, and retrieve any incoming disconnect data from the remote party.
 
 After this function has been successfully issued, subsequent receives on the socket will be disallowed. This has no effect on the lower protocol layers. For TCP, the TCP window is not changed and incoming data will be accepted (but not acknowledged) until the window is exhausted. For UDP, incoming datagrams are accepted and queued. In no case will an ICMP error packet be generated.
 
 To successfully receive incoming disconnect data, a Windows Sockets SPI client must use other mechanisms to determine that the circuit has been closed. For example, a client needs to receive an FD_CLOSE notification, or get a zero return value, or a <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDISCON">WSAEDISCON</a></b> error code from <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>.
 
-Note that <b>LPWSPRecvDisconnect</b> does not close the socket, and resources attached to the socket will not be freed until <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
+Note that **LPWSPRecvDisconnect** does not close the socket, and resources attached to the socket will not be freed until <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
 
 > [!Note]  
-> <b>LPWSPRecvDisconnect</b> does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been <b>LPWSPRecvDisconnect</b>ed. In particular, a Windows Sockets provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
+> **LPWSPRecvDisconnect** does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been **LPWSPRecvDisconnect**ed. In particular, a Windows Sockets provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
 
 ## -see-also
 

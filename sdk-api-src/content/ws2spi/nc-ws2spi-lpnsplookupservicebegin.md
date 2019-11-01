@@ -53,10 +53,10 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPLookupServiceBegin</b> function initiates a client query of a name service provider that is constrained by the information contained within a 
+**NSPLookupServiceBegin** function initiates a client query of a name service provider that is constrained by the information contained within a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure.
 
-<b>NSPLookupServiceBegin</b> only returns a handle, which should be used by subsequent calls to 
+**NSPLookupServiceBegin** only returns a handle, which should be used by subsequent calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> to get the actual results. Because this operation cannot be canceled, it should be implemented to execute quickly. While it is acceptable to initiate a network query, this function should not require a response  to return successfully.
 
 
@@ -91,7 +91,7 @@ A value that controls the depth of the search.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_DEEP"></a><a id="lup_deep"></a><dl>
-<dt><b>LUP_DEEP</b></dt>
+<dt><b>LUP_DEEP</b></dl>
 <dt>0x0001</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ Queries down the hierarchy of a provider as opposed to just the first level.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_CONTAINERS"></a><a id="lup_containers"></a><dl>
-<dt><b>LUP_CONTAINERS</b></dt>
+<dt><b>LUP_CONTAINERS</b></dl>
 <dt>0x0002</dt>
 </dl>
 </td>
@@ -113,7 +113,7 @@ Returns containers only.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_NOCONTAINERS"></a><a id="lup_nocontainers"></a><dl>
-<dt><b>LUP_NOCONTAINERS</b></dt>
+<dt><b>LUP_NOCONTAINERS</b></dl>
 <dt>0x0004</dt>
 </dl>
 </td>
@@ -124,7 +124,7 @@ Returns no containers.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_NEAREST"></a><a id="lup_nearest"></a><dl>
-<dt><b>LUP_NEAREST</b></dt>
+<dt><b>LUP_NEAREST</b></dl>
 <dt>0x0008</dt>
 </dl>
 </td>
@@ -135,96 +135,96 @@ If possible, returns results in the order of distance. The measure of distance i
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_NAME"></a><a id="lup_return_name"></a><dl>
-<dt><b>LUP_RETURN_NAME</b></dt>
+<dt><b>LUP_RETURN_NAME</b></dl>
 <dt>0x0010</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the name as <b>lpszServiceInstanceName</b>.
+Retrieves the name as **lpszServiceInstanceName**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_TYPE"></a><a id="lup_return_type"></a><dl>
-<dt><b>LUP_RETURN_TYPE</b></dt>
+<dt><b>LUP_RETURN_TYPE</b></dl>
 <dt>0x0020</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the type as <b>lpServiceClassId</b>.
+Retrieves the type as **lpServiceClassId**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_VERSION"></a><a id="lup_return_version"></a><dl>
-<dt><b>LUP_RETURN_VERSION</b></dt>
+<dt><b>LUP_RETURN_VERSION</b></dl>
 <dt>0x0040</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the version as <b>lpVersion</b>.
+Retrieves the version as **lpVersion**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_COMMENT"></a><a id="lup_return_comment"></a><dl>
-<dt><b>LUP_RETURN_COMMENT</b></dt>
+<dt><b>LUP_RETURN_COMMENT</b></dl>
 <dt>0x0080</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the comment as <b>lpszComment</b>.
+Retrieves the comment as **lpszComment**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_ADDR"></a><a id="lup_return_addr"></a><dl>
-<dt><b>LUP_RETURN_ADDR</b></dt>
+<dt><b>LUP_RETURN_ADDR</b></dl>
 <dt>0x0100</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the addresses as <b>lpcsaBuffer</b>.
+Retrieves the addresses as **lpcsaBuffer**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_BLOB"></a><a id="lup_return_blob"></a><dl>
-<dt><b>LUP_RETURN_BLOB</b></dt>
+<dt><b>LUP_RETURN_BLOB</b></dl>
 <dt>0x0200</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the private data as <b>lpBlob</b>.
+Retrieves the private data as **lpBlob**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_ALIASES"></a><a id="lup_return_aliases"></a><dl>
-<dt><b>LUP_RETURN_ALIASES</b></dt>
+<dt><b>LUP_RETURN_ALIASES</b></dl>
 <dt>0x0400</dt>
 </dl>
 </td>
 <td width="60%">
 Any available alias information is to be returned in successive calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a>, and each alias returned will have the <b>RESULT_IS_ALIAS</b> flag set.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a>, and each alias returned will have the **RESULT_IS_ALIAS** flag set.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_QUERY_STRING"></a><a id="lup_return_query_string"></a><dl>
-<dt><b>LUP_RETURN_QUERY_STRING</b></dt>
+<dt><b>LUP_RETURN_QUERY_STRING</b></dl>
 <dt>0x0800</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves the query string as <b>lpszQueryString</b>.
+Retrieves the query string as **lpszQueryString**.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_ALL"></a><a id="lup_return_all"></a><dl>
-<dt><b>LUP_RETURN_ALL</b></dt>
+<dt><b>LUP_RETURN_ALL</b></dl>
 <dt>0x0ff0</dt>
 </dl>
 </td>
@@ -235,7 +235,7 @@ Retrieves information including the name, type, version, comment, address, blob,
 </tr>
 <tr>
 <td width="40%"><a id="LUP_FLUSHCACHE"></a><a id="lup_flushcache"></a><dl>
-<dt><b>LUP_FLUSHCACHE</b></dt>
+<dt><b>LUP_FLUSHCACHE</b></dl>
 <dt>0x1000</dt>
 </dl>
 </td>
@@ -246,7 +246,7 @@ If the provider has cached information, ignore the cache and query the namespace
 </tr>
 <tr>
 <td width="40%"><a id="LUP_FLUSHPREVIOUS"></a><a id="lup_flushprevious"></a><dl>
-<dt><b>LUP_FLUSHPREVIOUS</b></dt>
+<dt><b>LUP_FLUSHPREVIOUS</b></dl>
 <dt>0x2000</dt>
 </dl>
 </td>
@@ -258,7 +258,7 @@ Used as a value for the <i>dwControlFlags</i> parameter in
 </tr>
 <tr>
 <td width="40%"><a id="LUP_NON_AUTHORITATIVE"></a><a id="lup_non_authoritative"></a><dl>
-<dt><b>LUP_NON_AUTHORITATIVE</b></dt>
+<dt><b>LUP_NON_AUTHORITATIVE</b></dl>
 <dt>0x4000</dt>
 </dl>
 </td>
@@ -269,7 +269,7 @@ Indicates that the namespace provider should included non-authoritative results 
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RES_RESERVICE"></a><a id="lup_res_reservice"></a><dl>
-<dt><b>LUP_RES_RESERVICE</b></dt>
+<dt><b>LUP_RES_RESERVICE</b></dl>
 <dt>0x8000</dt>
 </dl>
 </td>
@@ -281,7 +281,7 @@ Indicates whether prime response is in the remote or local part of
 </tr>
 <tr>
 <td width="40%"><a id="LUP_SECURE"></a><a id="lup_secure"></a><dl>
-<dt><b>LUP_SECURE</b></dt>
+<dt><b>LUP_SECURE</b></dl>
 <dt>0x8000</dt>
 </dl>
 </td>
@@ -292,7 +292,7 @@ Indicates that the namespace provider should use a secure query. This option onl
 </tr>
 <tr>
 <td width="40%"><a id="LUP_RETURN_PREFERRED_NAMES"></a><a id="lup_return_preferred_names"></a><dl>
-<dt><b>LUP_RETURN_PREFERRED_NAMES</b></dt>
+<dt><b>LUP_RETURN_PREFERRED_NAMES</b></dl>
 <dt>0x10000</dt>
 </dl>
 </td>
@@ -303,7 +303,7 @@ Indicates that the namespace provider should return only preferred names.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_ADDRCONFIG"></a><a id="lup_addrconfig"></a><dl>
-<dt><b>LUP_ADDRCONFIG</b></dt>
+<dt><b>LUP_ADDRCONFIG</b></dl>
 <dt>0x100000</dt>
 </dl>
 </td>
@@ -314,7 +314,7 @@ Indicates that the namespace provider should return the address configuration.
 </tr>
 <tr>
 <td width="40%"><a id="LUP_DUAL_ADDR"></a><a id="lup_dual_addr"></a><dl>
-<dt><b>LUP_DUAL_ADDR</b></dt>
+<dt><b>LUP_DUAL_ADDR</b></dl>
 <dt>0x200000</dt>
 </dl>
 </td>
@@ -337,7 +337,7 @@ A pointer to the handle to be used in subsequent calls to
 
 
 
-The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using 
+The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
@@ -350,7 +350,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -361,7 +361,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -372,7 +372,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -383,7 +383,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -394,7 +394,7 @@ The name was found in the database, but it does not have the correct associated 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -412,9 +412,9 @@ Service is unknown. The service cannot be found in the specified namespace.
 
 
 
-If <b>LUP_CONTAINERS</b> is specified in a call, avoid all other restriction values. If any are supplied, the name service provider must decide if it can support this restriction over the containers. If not, it should return an error.
+If **LUP_CONTAINERS** is specified in a call, avoid all other restriction values. If any are supplied, the name service provider must decide if it can support this restriction over the containers. If not, it should return an error.
 
-Some name service providers may have other means of finding containers. For example, containers can all be of some well-known type, or of a set of well-known types, and therefore a query restriction could be created for finding them. No matter what other means the name service provider has for locating containers, <b>LUP_CONTAINERS</b> and <b>LUP_NOCONTAINERS</b> take precedence. Therefore, if a query restriction is given that includes containers, specifying <b>LUP_NOCONTAINERS</b> will prevent the container items from being returned. Similarly, no matter what the query restriction, if <b>LUP_CONTAINERS</b> is given, only containers should be returned. If a namespace does not support containers and <b>LUP_CONTAINERS</b> is specified, it should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a>.
+Some name service providers may have other means of finding containers. For example, containers can all be of some well-known type, or of a set of well-known types, and therefore a query restriction could be created for finding them. No matter what other means the name service provider has for locating containers, **LUP_CONTAINERS** and **LUP_NOCONTAINERS** take precedence. Therefore, if a query restriction is given that includes containers, specifying **LUP_NOCONTAINERS** will prevent the container items from being returned. Similarly, no matter what the query restriction, if **LUP_CONTAINERS** is given, only containers should be returned. If a namespace does not support containers and **LUP_CONTAINERS** is specified, it should return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a>.
 
 The preferred method of obtaining the containers within another container, is the call:
 
@@ -430,15 +430,15 @@ dwStatus = NSPLookupServiceBegin(
 
 followed by the requisite number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
-<b>NSPLookupServiceBegin</b> use the containers returned from a previous call.
+**NSPLookupServiceBegin** use the containers returned from a previous call.
 
 <h3><a id="Forming_Queries"></a><a id="forming_queries"></a><a id="FORMING_QUERIES"></a>Forming Queries</h3>
 
 
 As mentioned, a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure is used as an input parameter to 
-<b>NSPLookupServiceBegin</b> to qualify the query. The following table lists <b>WSAQUERYSET</b> member names and describes how the 
-<b>WSAQUERYSET</b> is used to construct a query. When a member is marked as (Optional) a null pointer can be supplied, indicating that the parameter will not be used as a search criteria. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a>.
+**NSPLookupServiceBegin** to qualify the query. The following table lists **WSAQUERYSET** member names and describes how the 
+**WSAQUERYSET** is used to construct a query. When a member is marked as (Optional) a null pointer can be supplied, indicating that the parameter will not be used as a search criteria. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a>.
 
 <table>
 <tr>
@@ -446,64 +446,64 @@ As mentioned, a
 <th>Query interpretation</th>
 </tr>
 <tr>
-<td><b>dwSize</b></td>
+<td>**dwSize**</td>
 <td>Will be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
-<td><b>dwOutputFlags</b></td>
+<td>**dwOutputFlags**</td>
 <td>Ignored for queries.</td>
 </tr>
 <tr>
-<td><b>lpszServiceInstanceName</b></td>
+<td>**lpszServiceInstanceName**</td>
 <td>Optional. Referenced string contains service name. The semantics for wildcarding within the string are not defined, but can be supported by certain namespace providers.</td>
 </tr>
 <tr>
-<td><b>lpServiceClassId</b></td>
+<td>**lpServiceClassId**</td>
 <td>Required. GUID corresponding to the service class.</td>
 </tr>
 <tr>
-<td><b>lpVersion</b></td>
+<td>**lpVersion**</td>
 <td>Optional. References desired version number and provides version comparison semantics (that is, version must match exactly, or version must be not less than the value supplied).</td>
 </tr>
 <tr>
-<td><b>lpszComment</b></td>
+<td>**lpszComment**</td>
 <td>Ignored for queries.</td>
 </tr>
 <tr>
-<td><b>dwNameSpace</b></td>
-<td>Identifier of a single namespace in which to constrain the search, or <b>NS_ALL</b> to include all namespaces.</td>
+<td>**dwNameSpace**</td>
+<td>Identifier of a single namespace in which to constrain the search, or **NS_ALL** to include all namespaces.</td>
 </tr>
 <tr>
-<td><b>lpNSProviderId</b></td>
+<td>**lpNSProviderId**</td>
 <td>Optional. References the GUID of a specific namespace provider and limits the query to this provider only.</td>
 </tr>
 <tr>
-<td><b>lpszContext</b></td>
+<td>**lpszContext**</td>
 <td>Optional. Specifies the starting point of the query in a hierarchical namespace.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfProtocols</b></td>
+<td>**dwNumberOfProtocols**</td>
 <td>Size, in bytes, of the number of entries in the protocol constraint array, can be zero.</td>
 </tr>
 <tr>
-<td><b>lpafpProtocols</b></td>
+<td>**lpafpProtocols**</td>
 <td>Optional. A references to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value <b>AF_UNSPEC</b> to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value **AF_UNSPEC** to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family.</td>
 </tr>
 <tr>
-<td><b>lpszQueryString</b></td>
+<td>**lpszQueryString**</td>
 <td>Optional. Some namespaces (such as whois++) support rich SQL-like queries contained in a simple text string. This parameter is used to specify that string.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfCsAddrs</b></td>
+<td>**dwNumberOfCsAddrs**</td>
 <td>Ignored for queries.</td>
 </tr>
 <tr>
-<td><b>lpcsaBuffer</b></td>
+<td>**lpcsaBuffer**</td>
 <td>Ignored for queries.</td>
 </tr>
 <tr>
-<td><b>lpBlob</b></td>
+<td>**lpBlob**</td>
 <td>Optional. A pointer to a provider-specific entity.</td>
 </tr>
 </table>

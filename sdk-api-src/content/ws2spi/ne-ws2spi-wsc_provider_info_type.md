@@ -52,8 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The Windows Sockets 
-<b>WSC_PROVIDER_INFO_TYPE</b>enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The Windows Sockets 
+**WSC_PROVIDER_INFO_TYPE**enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 
 
 ## -enum-fields

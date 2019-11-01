@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUCreateEvent</b> function creates a new event object.
+**WPUCreateEvent** function creates a new event object.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WPUCreateEvent</b> function returns the handle of the event object.
+**WPUCreateEvent** function returns the handle of the event object.
 
 Otherwise, the return value is WSA_INVALID_EVENT and a specific error code is available in <i>lpErrno</i>.
 
@@ -85,7 +85,7 @@ Otherwise, the return value is WSA_INVALID_EVENT and a specific error code is av
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">

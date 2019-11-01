@@ -52,8 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
-<b>WSC_PROVIDER_AUDIT_INFO</b> structure contains audit information for a layered service provider (LSP) entry in Windows Sockets 2.
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+**WSC_PROVIDER_AUDIT_INFO** structure contains audit information for a layered service provider (LSP) entry in Windows Sockets 2.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ A reserved member for the audit information record.
 
 
 The 
-<b>WSC_PROVIDER_AUDIT_INFO</b> structure is not currently used.
+**WSC_PROVIDER_AUDIT_INFO** structure is not currently used.
 
 
 

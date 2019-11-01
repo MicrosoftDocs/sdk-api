@@ -53,12 +53,12 @@ ms.custom: 19H1
 
 
 The 
-<b>NSPLookupServiceNext</b> function is called after obtaining a handle from a previous call to 
+**NSPLookupServiceNext** function is called after obtaining a handle from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> in order to retrieve the requested service information.
 
 The provider will pass a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should call this function until it returns <b>WSA_E_NOMORE</b>, indicating that all the 
-<b>WSAQUERYSET</b> have been returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should call this function until it returns **WSA_E_NOMORE**, indicating that all the 
+**WSAQUERYSET** have been returned.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ A handle returned from the previous call to
 
 ### -param dwControlFlags [in]
 
-The flags used to control the next operation. Currently, only <b>LUP_FLUSHPREVIOUS</b> is defined as a means to handle a result set that is too large. If an application cannot supply a large enough buffer, setting <b>LUP_FLUSHPREVIOUS</b> instructs the provider to discard the last result set, which was too large, and move to the next set for this call.
+The flags used to control the next operation. Currently, only **LUP_FLUSHPREVIOUS** is defined as a means to handle a result set that is too large. If an application cannot supply a large enough buffer, setting **LUP_FLUSHPREVIOUS** instructs the provider to discard the last result set, which was too large, and move to the next set for this call.
 
 
 ### -param lpdwBufferLength [in, out]
@@ -92,7 +92,7 @@ A pointer to a memory block that will contain, on return, one result set in a
 
 
 
-The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using 
+The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 
@@ -105,7 +105,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -115,27 +115,27 @@ A call to
 
 
 
-In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> (10103) and <b>WSA_E_CANCELLED</b> (10111).The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace providers should use the <b>WSA_E_CANCELLED</b> error code to maintain compatibility with the widest possible range of applications.
+In Windows Sockets 2, conflicting error codes are defined for **WSAECANCELLED** (10103) and **WSA_E_CANCELLED** (10111).The error code **WSAECANCELLED** will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace providers should use the **WSA_E_CANCELLED** error code to maintain compatibility with the widest possible range of applications.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 There is no more data available. 
 
-In Windows Sockets 2, conflicting error codes are defined for <b>WSAENOMORE</b> (10102) and <b>WSA_E_NO_MORE</b> (10110).The error code <b>WSAENOMORE</b> will be removed in a future version and only WSA_E_NO_MORE will remain. Namespace providers should use the <b>WSA_E_NO_MORE</b> error code to maintain compatibility with the widest possible range of applications.
+In Windows Sockets 2, conflicting error codes are defined for **WSAENOMORE** (10102) and **WSA_E_NO_MORE** (10110).The error code **WSAENOMORE** will be removed in a future version and only WSA_E_NO_MORE will remain. Namespace providers should use the **WSA_E_NO_MORE** error code to maintain compatibility with the widest possible range of applications.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ The specified lookup handle is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -157,7 +157,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +169,7 @@ The <i>lpqsResults</i> buffer was too small to contain a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -180,7 +180,7 @@ One or more parameters are invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -191,7 +191,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -202,7 +202,7 @@ The name was found in the database, but no data, matching the given restrictions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -222,23 +222,23 @@ The service is unknown. The service cannot be found in the specified namespace.
 
 The <i>dwControlFlags</i> specified in this function and the ones specified at the time of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> are handled as "restrictions" for the purpose of combination. The restrictions are combined between the ones at 
-<b>NSPLookupServiceBegin</b> time and the ones at 
-<b>NSPLookupServiceNext</b> time. Therefore, the flags at 
-<b>NSPLookupServiceNext</b> can never increase the amount of data returned beyond what was requested at 
-<b>NSPLookupServiceBegin</b>, although it is not an error to specify more or less flags. The flags specified at a given 
-<b>NSPLookupServiceNext</b> apply only to that call.
+**NSPLookupServiceBegin** time and the ones at 
+**NSPLookupServiceNext** time. Therefore, the flags at 
+**NSPLookupServiceNext** can never increase the amount of data returned beyond what was requested at 
+**NSPLookupServiceBegin**, although it is not an error to specify more or less flags. The flags specified at a given 
+**NSPLookupServiceNext** apply only to that call.
 
-The <i>dwControlFlags</i> <b>LUP_FLUSHPREVIOUS</b> and <b>LUP_RES_SERVICE</b> are exceptions to the combined restrictions rule (because they are behavior flags instead of "restriction" flags). If either flag is used in 
-<b>NSPLookupServiceNext</b>, they have their defined effect regardless of the setting of the same flags at 
+The <i>dwControlFlags</i> **LUP_FLUSHPREVIOUS** and **LUP_RES_SERVICE** are exceptions to the combined restrictions rule (because they are behavior flags instead of "restriction" flags). If either flag is used in 
+**NSPLookupServiceNext**, they have their defined effect regardless of the setting of the same flags at 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>.
 
-For example, if <b>LUP_RETURN_VERSION</b> is specified at 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>, the service provider retrieves records including the version. If <b>LUP_RETURN_VERSION</b> is not specified at 
-<b>NSPLookupServiceNext</b>, the returned information does not include the version, even though it was available. No error is generated.
+For example, if **LUP_RETURN_VERSION** is specified at 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>, the service provider retrieves records including the version. If **LUP_RETURN_VERSION** is not specified at 
+**NSPLookupServiceNext**, the returned information does not include the version, even though it was available. No error is generated.
 
-Also for example, if <b>LUP_RETURN_BLOB</b> is not specified at 
+Also for example, if **LUP_RETURN_BLOB** is not specified at 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>, but is specified at 
-<b>NSPLookupServiceNext</b>, the returned information does not include the private data. No error is generated.
+**NSPLookupServiceNext**, the returned information does not include the private data. No error is generated.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
 The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> and describes how query results are represented in the 
@@ -250,66 +250,66 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 <th>Result interpretation</th>
 </tr>
 <tr>
-<td><b>dwSize</b></td>
+<td>**dwSize**</td>
 <td>Will be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
 </tr>
 <tr>
-<td><b>dwOutputFlags</b></td>
-<td><b>RESULT_IS_ALIAS</b> flag indicates this is an alias result.</td>
+<td>**dwOutputFlags**</td>
+<td>**RESULT_IS_ALIAS** flag indicates this is an alias result.</td>
 </tr>
 <tr>
-<td><b>lpszServiceInstanceName</b></td>
+<td>**lpszServiceInstanceName**</td>
 <td>References the string that contains the service name.</td>
 </tr>
 <tr>
-<td><b>lpServiceClassId</b></td>
+<td>**lpServiceClassId**</td>
 <td>GUID corresponding to the service class.</td>
 </tr>
 <tr>
-<td><b>lpVersion</b></td>
+<td>**lpVersion**</td>
 <td>References version number of the particular service instance.</td>
 </tr>
 <tr>
-<td><b>lpszComment</b></td>
+<td>**lpszComment**</td>
 <td>Optional. Comment string supplied by service instance.</td>
 </tr>
 <tr>
-<td><b>dwNameSpace</b></td>
+<td>**dwNameSpace**</td>
 <td>Namespace in which the service instance was found.</td>
 </tr>
 <tr>
-<td><b>lpNSProviderId</b></td>
+<td>**lpNSProviderId**</td>
 <td>Identifies the specific namespace provider that supplied this query result.</td>
 </tr>
 <tr>
-<td><b>lpszContext</b></td>
+<td>**lpszContext**</td>
 <td>Specifies the context point in a hierarchical namespace at which the service is located.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfProtocols</b></td>
+<td>**dwNumberOfProtocols**</td>
 <td>Undefined for results.</td>
 </tr>
 <tr>
-<td><b>lpafpProtocols</b></td>
+<td>**lpafpProtocols**</td>
 <td>Undefined for results, all needed protocol information is in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
-<td><b>lpszQueryString</b></td>
-<td>When <i>dwControlFlags</i> includes <b>LUP_RETURN_QUERY_STRING</b>, this member returns the unparsed remainder of the <b>lpszServiceInstanceName</b> specified in the original query. For example, in a namespace that identifies services by hierarchical names that specify a host name and a file path within that host, the address returned might be the host address and the unparsed remainder might be the file path. If the <b>lpszServiceInstanceName</b> is fully parsed and <b>LUP_RETURN_QUERY_STRING</b> is used, this member is null or points to a zero-length string.</td>
+<td>**lpszQueryString**</td>
+<td>When <i>dwControlFlags</i> includes **LUP_RETURN_QUERY_STRING**, this member returns the unparsed remainder of the **lpszServiceInstanceName** specified in the original query. For example, in a namespace that identifies services by hierarchical names that specify a host name and a file path within that host, the address returned might be the host address and the unparsed remainder might be the file path. If the **lpszServiceInstanceName** is fully parsed and **LUP_RETURN_QUERY_STRING** is used, this member is null or points to a zero-length string.</td>
 </tr>
 <tr>
-<td><b>dwNumberOfCsAddrs</b></td>
+<td>**dwNumberOfCsAddrs**</td>
 <td>Indicates the number of elements in the array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
-<td><b>lpcsaBuffer</b></td>
+<td>**lpcsaBuffer**</td>
 <td>A pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
 </tr>
 <tr>
-<td><b>lpBlob</b></td>
+<td>**lpBlob**</td>
 <td>Optional. A pointer to a provider-specific entity.</td>
 </tr>
 </table>

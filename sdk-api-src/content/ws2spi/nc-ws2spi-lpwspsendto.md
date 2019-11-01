@@ -37,7 +37,7 @@ api_name:
 ---
 
 ## -description
-The <b>LPWSPSendTo</b> function sends data to a specific destination using overlapped I/O.
+The **LPWSPSendTo** function sends data to a specific destination using overlapped I/O.
 
 ## -parameters
 
@@ -45,7 +45,7 @@ The <b>LPWSPSendTo</b> function sends data to a specific destination using overl
 A descriptor identifying a socket.
 
 ### -param lpBuffers [in]
-A pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each <b>WSABUF</b> structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the <b>LPWSPSendTo</b> function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
+A pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the **LPWSPSendTo** function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
 
 ### -param dwBufferCount [in]
 The number of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
@@ -69,13 +69,13 @@ A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/wi
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId [in]
-A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced <b>WSATHREADID</b> structure (not the pointer to same) until after the <b>WPUQueueApc</b> function returns.
+A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [out]
 A pointer to the error code.
 
 ## -returns
-If no error occurs and the receive operation has completed immediately, <b>LPWSPSendTo</b> returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
+If no error occurs and the receive operation has completed immediately, **LPWSPSendTo** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 <table>
 <tr>
@@ -196,7 +196,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAESHUTDOWN">WSAESHUTDOWN</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAESHUTDOWN">WSAESHUTDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -207,7 +207,7 @@ Socket has been shut down; it is not possible to use <b><a href="https://docs.mi
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEWOULDBLOCK">WSAEWOULDBLOCK</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEWOULDBLOCK">WSAEWOULDBLOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -218,7 +218,7 @@ Windows NT: Overlapped sockets: there are too many outstanding overlapped I/O r
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -229,7 +229,7 @@ Socket is message oriented, and the message is larger than the maximum supported
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -240,7 +240,7 @@ Socket has not been bound with <b><a href="https://docs.microsoft.com/en-us/wind
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNABORTED">WSAECONNABORTED</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNABORTED">WSAECONNABORTED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -251,7 +251,7 @@ Virtual circuit was terminated due to a time-out or other failure.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNABORTED">WSAECONNRESET</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNABORTED">WSAECONNRESET</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -262,7 +262,7 @@ Virtual circuit was reset by the remote side.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRNOTAVAIL">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRNOTAVAIL">WSAEADDRNOTAVAIL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -273,7 +273,7 @@ Remote address is not a valid address (for example, ADDR_ANY).
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEAFNOSUPPORT">WSAEAFNOSUPPORT</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEAFNOSUPPORT">WSAEAFNOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -284,7 +284,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDESTADDRREQ">WSAEDESTADDRREQ</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDESTADDRREQ">WSAEDESTADDRREQ</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -295,7 +295,7 @@ Destination address is required.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETUNREACH">WSAENETUNREACH</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETUNREACH">WSAENETUNREACH</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -306,7 +306,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSA_OPERATION_ABORTED">WSA_OPERATION_ABORTED</a></b></dt>
+<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSA_OPERATION_ABORTED">WSA_OPERATION_ABORTED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -316,17 +316,17 @@ Overlapped operation has been canceled due to the closure of the socket, or the 
 </table>
                                              
 ## -remarks
-The <b>LPWSPSendTo</b> function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [**connect**](connect-2.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the <b>LPWSPSendTo</b> function is equivalent to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
+The **LPWSPSendTo** function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [**connect**](connect-2.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the **LPWSPSendTo** function is equivalent to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
 
-For overlapped sockets (created using <b>LPWSPSocket</b> with flag WSA_FLAG_OVERLAPPED) this will occur using overlapped I/O, unless both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are <b>NULL</b> in which case the socket is treated as a nonoverlapped socket. A completion indication will occur (invocation of the completion routine or setting of an event object) when the supplied buffer(s) have been consumed by the transport. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
+For overlapped sockets (created using **LPWSPSocket** with flag WSA_FLAG_OVERLAPPED) this will occur using overlapped I/O, unless both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL** in which case the socket is treated as a nonoverlapped socket. A completion indication will occur (invocation of the completion routine or setting of an event object) when the supplied buffer(s) have been consumed by the transport. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
-For nonoverlapped sockets, the parameters <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpThreadId</i> are ignored and <b>LPWSPSendTo</b> adopts the regular synchronous semantics. Data is copied from the supplied buffer(s) into the transport's buffer. If the socket is nonblocking and stream oriented, and there is not sufficient space in the transport's buffer, <b>LPWSPSendTo</b> will return with only part of the Windows Sockets SPI client's buffers having been consumed. Given the same buffer situation and a blocking socket, <b>LPWSPSendTo</b> will block until all of the Windows Sockets SPI client's buffer contents have been consumed.
+For nonoverlapped sockets, the parameters <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpThreadId</i> are ignored and **LPWSPSendTo** adopts the regular synchronous semantics. Data is copied from the supplied buffer(s) into the transport's buffer. If the socket is nonblocking and stream oriented, and there is not sufficient space in the transport's buffer, **LPWSPSendTo** will return with only part of the Windows Sockets SPI client's buffers having been consumed. Given the same buffer situation and a blocking socket, **LPWSPSendTo** will block until all of the Windows Sockets SPI client's buffer contents have been consumed.
 
-The array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures pointed to by the <i>lpBuffers</i> parameter is transient. If this operation completes in an overlapped manner, it is the service provider's responsibility to capture these <b>WSABUF</b> structures before returning from this call. This enables applications to build stack-based <b>WSABUF</b> arrays.
+The array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures pointed to by the <i>lpBuffers</i> parameter is transient. If this operation completes in an overlapped manner, it is the service provider's responsibility to capture these **WSABUF** structures before returning from this call. This enables applications to build stack-based **WSABUF** arrays.
 
 For message-oriented sockets, care must be taken not to exceed the maximum message size of the underlying transport, which can be obtained by getting the value of socket option SO_MAX_MSG_SIZE. If the data is too long to pass atomically through the underlying protocol the error <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMSGSIZE">WSAEMSGSIZE</a></b> is returned, and no data is transmitted.
 
-Note that the successful completion of a <b>LPWSPSendTo</b> does not indicate that the data was successfully delivered.
+Note that the successful completion of a **LPWSPSendTo** does not indicate that the data was successfully delivered.
 
 The <i>iFlags</i> parameter can be used to influence the behavior of the function invocation beyond the options specified for the associated socket. That is, the semantics of this function are determined by the socket options and the <i>dwFlags</i> parameter. The latter is constructed by using the bitwise OR operator with any of the following values.
 
@@ -344,15 +344,15 @@ The <i>iFlags</i> parameter can be used to influence the behavior of the functio
 
  
 
-If an overlapped operation completes immediately, <b>LPWSPSendTo</b> returns a value of zero and the <i>lpNumberOfBytesSent</i> parameter is updated with the number of bytes sent. If the overlapped operation is successfully initiated and will complete later, <b>LPWSPSendTo</b> returns SOCKET_ERROR and indicates error code WSA_IO_PENDING. In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
+If an overlapped operation completes immediately, **LPWSPSendTo** returns a value of zero and the <i>lpNumberOfBytesSent</i> parameter is updated with the number of bytes sent. If the overlapped operation is successfully initiated and will complete later, **LPWSPSendTo** returns SOCKET_ERROR and indicates error code WSA_IO_PENDING. In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
-Providers must allow this function to be called from within the completion routine of a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom">LPWSPRecvFrom</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b> or <b>LPWSPSendTo</b> function. However, for a given socket, I/O completion routines cannot be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
+Providers must allow this function to be called from within the completion routine of a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom">LPWSPRecvFrom</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b> or **LPWSPSendTo** function. However, for a given socket, I/O completion routines cannot be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate overlapped structure. The <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure is defined in its own reference page.
 
-If the <i>lpCompletionRoutine</i> parameter is <b>null</b>, the service provider signals the <b>hEvent</b> member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. Windows Sockets SPI clients can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to wait or poll on the event object.
+If the <i>lpCompletionRoutine</i> parameter is **null**, the service provider signals the **hEvent** member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. Windows Sockets SPI clients can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to wait or poll on the event object.
 
-If <i>lpCompletionRoutine</i> is not <b>null</b>, the <b>hEvent</b> member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. A client that passes a non-<b>null</b><i>lpCompletionRoutine</i> and later calls <b>WSAGetOverlappedResult</b> for the same overlapped I/O request may not set the <i>fWait</i> parameter for that invocation of <b>WSAGetOverlappedResult</b> to <b>TRUE</b>. In this case the usage of the <b>hEvent</b> member is undefined, and attempting to wait on the <b>hEvent</b> member would produce unpredictable results.
+If <i>lpCompletionRoutine</i> is not **null**, the **hEvent** member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. A client that passes a non-**null**<i>lpCompletionRoutine</i> and later calls **WSAGetOverlappedResult** for the same overlapped I/O request may not set the <i>fWait</i> parameter for that invocation of **WSAGetOverlappedResult** to **TRUE**. In this case the usage of the **hEvent** member is undefined, and attempting to wait on the **hEvent** member would produce unpredictable results.
 
 It is the service provider's responsibility to arrange for invocation of the client specified–completion routine when the overlapped operation completes. Since the completion routine must be executed in the context of the same thread that initiated the overlapped operation, it cannot be invoked directly from the service provider. The Ws2_32.dll offers an asynchronous procedure call (APC) mechanism to facilitate invocation of completion routines.
 

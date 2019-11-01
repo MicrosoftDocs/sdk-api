@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUSetEvent</b> function sets the state of the specified event object to signaled. This call is safe for use within interrupt context.
+**WPUSetEvent** function sets the state of the specified event object to signaled. This call is safe for use within interrupt context.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Pointer to the error code.
 
 
 If no error occurs, the 
-<b>WPUSetEvent</b> function returns the value <b>TRUE</b>. Otherwise, <b>FALSE</b> is returned, and a specific error code is available in <i>lpErrno</i>.
+**WPUSetEvent** function returns the value **TRUE**. Otherwise, **FALSE** is returned, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -88,7 +88,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt><b>ERROR_INVALID_HANDLE</b></dl>
 </dl>
 </td>
 <td width="60%">

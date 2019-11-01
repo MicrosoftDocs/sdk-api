@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUQueueApc</b> function queues a user mode–asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
+**WPUQueueApc** function queues a user mode–asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
 
 
 ## -parameters
@@ -65,9 +65,9 @@ The
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that identifies the thread context. A pointer to this structure is supplied to the service provider by the Ws2_32.dll as an input parameter to an overlapped operation. The provider should store the 
-<b>WSATHREADID</b> structure locally and provide a pointer to this local store. The local copy of 
-<b>WSATHREADID</b> is no longer needed once 
-<b>WPUQueueApc</b> returns.
+**WSATHREADID** structure locally and provide a pointer to this local store. The local copy of 
+**WSATHREADID** is no longer needed once 
+**WPUQueueApc** returns.
 
 
 ### -param lpfnUserApc [in]
@@ -90,7 +90,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WPUQueueApc</b> returns zero and queues the completion routine for the specified thread. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+**WPUQueueApc** returns zero and queues the completion routine for the specified thread. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -102,7 +102,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -140,10 +140,10 @@ Because the APC mechanism supports only a single  context value, <i>lpfnUserApc<
 For service providers where a user-mode component implements overlapped I/O, a typical usage of the APC mechanism is as follows.
 
 <ol>
-<li>When the I/O operation completes, the provider allocates a small buffer and packs it with a pointer to the client-supplied completion procedure and parameter values to pass to the procedure.</li>
-<li>It queues an APC, specifying the pointer to the buffer as the <i>dwContext</i> value and its own intermediate procedure as the target procedure <i>lpfnUserApc</i>.</li>
-<li>When the target thread eventually enters alertable wait state, the service provider's intermediate procedure is called in the proper thread context.</li>
-<li>The intermediate procedure simply unpacks parameters, deallocates the buffer, and calls the client-supplied completion procedure.</li>
+- When the I/O operation completes, the provider allocates a small buffer and packs it with a pointer to the client-supplied completion procedure and parameter values to pass to the procedure. 
+- It queues an APC, specifying the pointer to the buffer as the <i>dwContext</i> value and its own intermediate procedure as the target procedure <i>lpfnUserApc</i>. 
+- When the target thread eventually enters alertable wait state, the service provider's intermediate procedure is called in the proper thread context. 
+- The intermediate procedure simply unpacks parameters, deallocates the buffer, and calls the client-supplied completion procedure. 
 </ol>
 
 
@@ -157,23 +157,23 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a>
+[LPWSPIoctl](nc-ws2spi-lpwspioctl.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
+[LPWSPRecv](nc-ws2spi-lpwsprecv.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">LPWSPRecvFrom</a>
+[LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
+[LPWSPSend](nc-ws2spi-lpwspsend.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)">WSPSendTo</a>
+[LPWSPSendTo](nc-ws2spi-lpwspsendto.md)
  
 
  

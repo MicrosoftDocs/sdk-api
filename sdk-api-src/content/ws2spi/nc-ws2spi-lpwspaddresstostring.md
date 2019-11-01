@@ -2,16 +2,16 @@
 UID: NC:ws2spi.LPWSPADDRESSTOSTRING
 title: LPWSPADDRESSTOSTRING (ws2spi.h)
 author: windows-sdk-content
-description: The WSPAddressToString function converts all components of a sockaddr structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+description: The LPWSPAddressToString function converts all components of a sockaddr structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
 old-location: winsock\wspaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
+ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, LPWSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/LPWSPAddressToString
 ms.topic: callback
 f1_keywords:
-- ws2spi/WSPAddressToString
+- ws2spi/LPWSPAddressToString
 dev_langs:
  - c++
 req.header: ws2spi.h
@@ -39,7 +39,7 @@ api_type:
 api_location:
 - Ws2spi.h
 api_name:
-- WSPAddressToString
+- LPWSPAddressToString
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSPAddressToString</b> function converts all components of a 
+**LPWSPAddressToString** function converts all components of a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
 
 
@@ -76,7 +76,7 @@ Length of the address of <a href="https://docs.microsoft.com/windows/desktop/Win
 ### -param lpProtocolInfo [in]
 
 (required) 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with the provider that will do the translation.
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure associated with the provider that will do the translation.
 
 
 ### -param lpszAddressString [out]
@@ -100,7 +100,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<b>WSPAddressToString</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+**LPWSPAddressToString** returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -121,12 +121,12 @@ The specified AddressString buffer is too small. Pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The specified address is not a valid socket address, or its address family is not supported by the provider, or the specified <i>lpProtocolInfo</i> did not refer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure supported by the provider.
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure supported by the provider.
 
 </td>
 </tr>
@@ -145,20 +145,20 @@ The specified address is not a valid socket address, or its address family is no
 
 
 A layered service provider supplies an implementation of this function, but it is also a client of this function if and when it calls 
-<b>WSPAddressToString</b> of the next layer in the protocol chain. Some special considerations apply to the <i>lpProtocolInfo</i> parameter as it is propagated down through the layers of the protocol chain.
+**LPWSPAddressToString** of the next layer in the protocol chain. Some special considerations apply to the <i>lpProtocolInfo</i> parameter as it is propagated down through the layers of the protocol chain.
 
 If the next layer in the protocol chain is another layer, then, when the next layer's 
-<b>WSPAddressToString</b> is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> parameter that references the same unmodified 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
-<b>WSPAddressToString</b>. In this case, the base provider's 
-<b>WSAPROTOCOL_INFO</b> structure should be referenced by the <i>lpProtocolInfo</i> parameter. One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
+**LPWSPAddressToString** is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> parameter that references the same unmodified 
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+**LPWSPAddressToString**. In this case, the base provider's 
+**WSAPROTOCOL_INFO** structure should be referenced by the <i>lpProtocolInfo</i> parameter. One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
 
 This same propagation policy applies when propagating a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">WSPStringToAddress</a>.
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure through a layered sequence of other functions such as 
+[LPWSPDuplicateSocket](nc-ws2spi-lpwspduplicatesocket.md), 
+[WSPStartup](nf-ws2spi-wspstartup.md), 
+[LPWSPSocket](nc-ws2spi-lpwspsocket.md), or 
+[LPWSPStringToAddress](nc-ws2spi-lpwspstringtoaddress.md).
 
 
 
@@ -168,7 +168,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)
 
 
 
@@ -176,11 +176,11 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>
+[LPWSPSocket](nc-ws2spi-lpwspsocket.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
+[WSPStartup](nf-ws2spi-wspstartup.md)
 
 
 

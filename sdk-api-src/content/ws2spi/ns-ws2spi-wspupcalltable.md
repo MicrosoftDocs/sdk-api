@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSPUPCALLTABLE</b> structure contains a table of pointers to service provider upcall functions.
+**WSPUPCALLTABLE** structure contains a table of pointers to service provider upcall functions.
 
 
 ## -struct-fields
@@ -63,105 +63,105 @@ The
 
 ### -field lpWPUCloseEvent
 
-Type: <b>LPWPUCLOSEEVENT</b>
+Type: **LPWPUCLOSEEVENT**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a> function. 
 
 
 ### -field lpWPUCloseSocketHandle
 
-Type: <b>LPWPUCLOSESOCKETHANDLE</b>
+Type: **LPWPUCLOSESOCKETHANDLE**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosesockethandle">WPUCloseSocketHandle</a> function. 
 
 
 ### -field lpWPUCreateEvent
 
-Type: <b>LPWPUCREATEEVENT</b>
+Type: **LPWPUCREATEEVENT**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a> function. 
 
 
 ### -field lpWPUCreateSocketHandle
 
-Type: <b>LPWPUCREATESOCKETHANDLE</b>
+Type: **LPWPUCREATESOCKETHANDLE**
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> function. 
+A pointer to the [WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) function. 
 
 
 ### -field lpWPUFDIsSet
 
-Type: <b>LPWPUFDISSET</b>
+Type: **LPWPUFDISSET**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpufdisset">WPUFDIsSet</a> function. 
 
 
 ### -field lpWPUGetProviderPath
 
-Type: <b>LPWPUGETPROVIDERPATH</b>
+Type: **LPWPUGETPROVIDERPATH**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpugetproviderpath">WPUGetProviderPath</a> function. 
 
 
 ### -field lpWPUModifyIFSHandle
 
-Type: <b>LPWPUMODIFYIFSHANDLE</b>
+Type: **LPWPUMODIFYIFSHANDLE**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> function. 
 
 
 ### -field lpWPUPostMessage
 
-Type: <b>LPWPUPOSTMESSAGE</b>
+Type: **LPWPUPOSTMESSAGE**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpupostmessage">WPUPostMessage</a> function. 
 
 
 ### -field lpWPUQueryBlockingCallback
 
-Type: <b>LPWPUQUERYBLOCKINGCALLBACK</b>
+Type: **LPWPUQUERYBLOCKINGCALLBACK**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuqueryblockingcallback">WPUQueryBlockingCallback</a> function. 
 
 
 ### -field lpWPUQuerySocketHandleContext
 
-Type: <b>LPWPUQUERYSOCKETHANDLECONTEXT</b>
+Type: **LPWPUQUERYSOCKETHANDLECONTEXT**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuquerysockethandlecontext">WPUQuerySocketHandleContext</a> function. 
 
 
 ### -field lpWPUQueueApc
 
-Type: <b>LPWPUQUEUEAPC</b>
+Type: **LPWPUQUEUEAPC**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a> function. 
 
 
 ### -field lpWPUResetEvent
 
-Type: <b>LPWPURESETEVENT</b>
+Type: **LPWPURESETEVENT**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuresetevent">WPUResetEvent</a> function. 
 
 
 ### -field lpWPUSetEvent
 
-Type: <b>LPWPUSETEVENT</b>
+Type: **LPWPUSETEVENT**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpusetevent">WPUSetEvent</a> function. 
 
 
 ### -field lpWPUOpenCurrentThread
 
-Type: <b>LPWPUOPENCURRENTTHREAD</b>
+Type: **LPWPUOPENCURRENTTHREAD**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> function. 
 
 
 ### -field lpWPUCloseThread
 
-Type: <b>LPWPUCLOSETHREAD</b>
+Type: **LPWPUCLOSETHREAD**
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a> function. 
 
@@ -170,7 +170,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-The <b>WSPUPCALLTABLE</b> structure contains a table of pointers to service provider upcall functions that are passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> function.
+The **WSPUPCALLTABLE** structure contains a table of pointers to service provider upcall functions that are passed to the [WSPStartup](nf-ws2spi-wspstartup.md) function.
 
 
 
@@ -196,7 +196,7 @@ The <b>WSPUPCALLTABLE</b> structure contains a table of pointers to service prov
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
+[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
 
 
 
@@ -240,7 +240,7 @@ The <b>WSPUPCALLTABLE</b> structure contains a table of pointers to service prov
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
+[WSPStartup](nf-ws2spi-wspstartup.md)
  
 
  

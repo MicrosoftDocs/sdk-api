@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WPUCloseEvent</b> function closes an open event object handle.
+**WPUCloseEvent** function closes an open event object handle.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Pointer to the error code.
 
 
 
-If the function succeeds, the return value is <b>TRUE</b>. Otherwise, the return value is <b>FALSE</b> and a specific error code is available in <i>lpErrno</i>.
+If the function succeeds, the return value is **TRUE**. Otherwise, the return value is **FALSE** and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -87,7 +87,7 @@ If the function succeeds, the return value is <b>TRUE</b>. Otherwise, the return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dl>
 </dl>
 </td>
 <td width="60%">

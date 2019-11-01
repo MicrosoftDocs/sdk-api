@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The 
-<b>WSAUnadvertiseProvider</b> function makes a specific namespace version-2 provider no longer available for clients.
+**WSAUnadvertiseProvider** function makes a specific namespace version-2 provider no longer available for clients.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to the provider ID of the namespace provider.
 
 
 If no error occurs, 
-<b>WSAUnadvertiseProvider</b> returns zero. Otherwise, it returns <b>SOCKET_ERROR</b>, and a specific error code is available by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+**WSAUnadvertiseProvider** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is available by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -81,11 +81,11 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-A parameter was not valid. This error is returned if the <i>puuidProviderId</i> parameter was <b>NULL</b>. 
+A parameter was not valid. This error is returned if the <i>puuidProviderId</i> parameter was **NULL**. 
 
 </td>
 </tr>
@@ -100,11 +100,11 @@ A parameter was not valid. This error is returned if the <i>puuidProviderId</i> 
 
 
 The 
-<b>WSAUnadvertiseProvider</b> function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
+**WSAUnadvertiseProvider** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
 
-On Windows Vista and Windows Server 2008, the <b>WSAUnadvertiseProvider</b> function can only be used for operations on NS_EMAIL namespace providers.
+On Windows Vista and Windows Server 2008, the **WSAUnadvertiseProvider** function can only be used for operations on NS_EMAIL namespace providers.
 
-In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a> and <b>WSAUnadvertiseProvider</b> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a> and **WSAUnadvertiseProvider** functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 
 
 
