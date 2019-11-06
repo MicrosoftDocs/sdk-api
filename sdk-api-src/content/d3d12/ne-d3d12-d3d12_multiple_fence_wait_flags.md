@@ -62,17 +62,17 @@ Specifies multiple wait flags for multiple fences.
 
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE
 
-Indicates that none of the fences need to be waited on.
+No flags are being passed. This means to use the default behavior, which is to wait for all fences before signaling the event.
 
 
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY
 
-Indicates that any one of the fences need to be waited on.
+Modifies behavior to indicate that the event should be signaled after any one of the fence values has been reached by its corresponding fence.
 
 
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL
 
-Indicates that all the fences need to be waited on.
+An alias for **D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE**, meaning to use the default behavior and wait for all fences.
 
 
 ## -remarks
