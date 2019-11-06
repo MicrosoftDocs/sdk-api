@@ -45,7 +45,7 @@ The **LPWSPSendTo** function sends data to a specific destination using overlapp
 A descriptor identifying a socket.
 
 ### -param lpBuffers [in]
-A pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the **LPWSPSendTo** function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
+A pointer to an array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the **LPWSPSendTo** function is called, the system owns these buffers and the application may not access them. Data buffers referenced in each WSABUF structure are owned by the system and your application may not access them for the lifetime of the call.
 
 ### -param dwBufferCount [in]
 The number of <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
