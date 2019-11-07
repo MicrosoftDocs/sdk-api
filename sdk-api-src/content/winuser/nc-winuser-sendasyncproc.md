@@ -62,50 +62,32 @@ An application-defined callback function used with the <a href="https://docs.mic
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-An application-defined value sent from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function.
-
-
-#### - hwnd [in]
-
 Type: <b>HWND</b>
 
 A handle to the window whose window procedure received the message. 
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
 
+### -param Arg2
 
-#### - lResult [in]
+Type: <b>UINT</b>
+
+The message.
+
+### -param Arg3
+
+Type: <b>ULONG_PTR</b>
+
+An application-defined value sent from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function.
+
+
+### -param Arg4
 
 Type: <b>LRESULT</b>
 
 The result of the message processing. This value depends on the message.
 
 
-#### - uMsg [in]
-
-Type: <b>UINT</b>
-
-The message.
 
 
 ## -returns

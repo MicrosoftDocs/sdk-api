@@ -64,33 +64,9 @@ A value of type <b>MONITORENUMPROC</b> is a pointer to a <b>MonitorEnumProc</b> 
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - dwData [in]
-
-Application-defined data that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> passes directly to the enumeration function.
-
-
-#### - hMonitor [in]
-
 A handle to the display monitor. This value will always be non-<b>NULL</b>.
 
-
-#### - hdcMonitor [in]
+### -param Arg2
 
 A handle to a device context.
 
@@ -98,14 +74,20 @@ The device context has color attributes that are appropriate for the display mon
 
 This value is <b>NULL</b> if the <i>hdc</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> was <b>NULL</b>.
 
-
-#### - lprcMonitor [in]
+### -param Arg3
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure.
 
 If <i>hdcMonitor</i> is non-<b>NULL</b>, this rectangle is the intersection of the clipping area of the device context identified by <i>hdcMonitor</i> and the display monitor rectangle. The rectangle coordinates are device-context coordinates.
 
 If <i>hdcMonitor</i> is <b>NULL</b>, this rectangle is the display monitor rectangle. The rectangle coordinates are virtual-screen coordinates.
+
+### -param Arg4
+
+Application-defined data that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> passes directly to the enumeration function.
+
+
+
 
 
 ## -returns

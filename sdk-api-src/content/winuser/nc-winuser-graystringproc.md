@@ -62,32 +62,18 @@ The <b>OutputProc</b> function is an application-defined callback function used 
 
 ### -param Arg1
 
+A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
+
 
 ### -param Arg2
+
+A pointer to the string to be drawn.
 
 
 ### -param Arg3
 
-
-
-
-
-
-
-
-#### - cchData [in]
-
 The length, in characters, of the string.
 
-
-#### - hdc [in]
-
-A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
-
-
-#### - lpData [in]
-
-A pointer to the string to be drawn.
 
 
 ## -returns
