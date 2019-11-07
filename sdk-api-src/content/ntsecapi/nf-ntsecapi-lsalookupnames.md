@@ -181,12 +181,15 @@ Use the
 
 
 
-Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
+> [!WARNING]
+>Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
 
-Translation of isolated names introduces the possibility of name collisions because the same name may be used in multiple domains. The 
-<b>LsaLookupNames</b> function uses the following algorithm to translate isolated names
+> [!WARNING]
+>For more information about the limitations of isolated names, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2.md">LsaLookupNames2 documentation</a>
 
-<p class="proch"><b>To translate isolated names</b>
+The <b>LsaLookupNames</b> function uses the following algorithm to translate account names.
+
+<p class="proch"><b>To translate names</b>
 
 <ol>
 <li>If the name is a well-known name, such as Local or Interactive, the function returns the corresponding well-known <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).</li>
@@ -196,10 +199,12 @@ Translation of isolated names introduces the possibility of name collisions beca
 <li>If the name is one of the names of the trusted domain, the function returns the SID of that domain.</li>
 <li>If the name is a user, group, or local group account in the built-in domain, the function returns the SID of that account.</li>
 <li>If the name is a user, group, or local group account in the account domain on the local system, the function returns the SID of that account.</li>
+<li>If the name is found in the cache, the function returns the SID of that account.
 <li>If the name is a user, group, or a local group in the primary domain, the function returns the SID of that account.</li>
 <li>After looking in the primary domain, the primary domain looks in each of its trusted domains.</li>
 <li>Otherwise, the name is not translated.</li>
 </ol>
+
 In addition to looking up local accounts, local domain accounts, and explicitly trusted domain accounts, <b>LsaLookupNames</b> can look up the name of any account in any domain in the Windows forest.
 
 

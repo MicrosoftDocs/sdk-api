@@ -205,11 +205,15 @@ Use the
 
 
 
-Use fully qualified account names (for example, <i>DomainName</i>\<i>UserName</i>) instead of isolated names (for example, <i>UserName</i>). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, <i>Example</i>.<i>Example</i>.com\<i>UserName</i>) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, <i>Someone</i>@<i>Example</i>.com).
+> [!WARNING]
+>Use fully qualified account names (for example, <i>DomainName</i>\<i>UserName</i>) instead of isolated names (for example, <i>UserName</i>). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, <i>Example</i>.<i>Example</i>.com\<i>UserName</i>) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, <i>Someone</i>@<i>Example</i>.com).
 
-Translation of isolated names introduces the possibility of name collisions because the same name may be used in multiple domains. The <b>LsaLookupNames2</b> function uses the following algorithm to translate isolated names.
+> [!WARNING]
+>Clients by default maintain an in-memory cache of name lookup results. This cache affects the lookup of isolated names as explained below. Translation of isolated names introduces the possibility of unexpected results when the same name is used in multiple domains.
 
-<p class="proch"><b>To translate isolated names</b>
+The <b>LsaLookupNames2</b> function uses the following algorithm to translate account names.
+
+<p class="proch"><b>To translate account names</b>
 
 <ol>
 <li>If the name is a well-known name, such as Local or Interactive, the function returns the corresponding well-known <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).</li>
@@ -219,11 +223,25 @@ Translation of isolated names introduces the possibility of name collisions beca
 <li>If the name is one of the names of the trusted domain, the function returns the SID of that domain.</li>
 <li>If the name is a user, group, or local group account in the built-in domain, the function returns the SID of that account.</li>
 <li>If the name is a user, group, or local group account in the account domain on the local system, the function returns the SID of that account.</li>
+<li>If the name is found in the cache, the function returns the SID of that account.
 <li>If the name is a user, group, or a local group in the primary domain, the function returns the SID of that account.</li>
 <li>After looking in the primary domain, the function looks in each of the primary domain's trusted domains.</li>
 <li>Otherwise, the name is not translated.</li>
 </ol>
 
+>[!WARNING]
+>The cache lookup behavior implies that the most recently found entry for a given isolated name will be returned. Therefore lookup results for isolated names may change as newer entries are added.
+>
+>Example of how caching affects translation of isolated names:
+>
+>* User Abby exists in Domain A and Domain B in a forest.
+>* A client machine is joined to domain A.
+>* Starting with an empty cache, the client looks up "Abby" and gets back "A\Abby", which is cached.
+>* At this point additional lookups of "Abby" will return "A\Abby" directly from the cache.
+>* The client then does a more qualified lookup for "B\Abby" and gets back a result which >is then >cached ahead of the earlier "B\Abby" entry.
+>* At this point further lookups of "Jay" will return "B\Abby" directly from the cache.
+>
+>Since SIDs are often used in security-sensitive scenarios (for example, authoring of authorization policies), Microsoft <b>does not recommend the use of isolated names</b>. Applications should be written to always query fully qualified account names.
 
 
 ## -see-also
