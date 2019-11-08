@@ -62,51 +62,28 @@ Application-defined callback function used with the <a href="https://docs.micros
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - hwndDlg [in]
-
 Type: <b>HWND</b>
 
 A handle to the dialog box. 
 
+### -param Arg2
 
-#### - lParam [in]
-
-Type: <b>LPARAM</b>
-
-Additional message-specific information. 
-
-
-#### - uMsg [in]
 
 Type: <b>UINT</b>
 
 The message. 
 
-
-#### - wParam [in]
+### -param Arg3
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information. 
 
+### -param Arg4
 
-## -returns
+Type: <b>LPARAM</b>
+
+Additional message-specific information. 
 
 
 

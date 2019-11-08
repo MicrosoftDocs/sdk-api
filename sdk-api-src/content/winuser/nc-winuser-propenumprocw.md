@@ -64,38 +64,28 @@ An application-defined callback function used with the <a href="https://docs.mic
 
 ### -param Arg1
 
+Type: <b>HWND</b>
+
+A handle to the window whose property list is being enumerated. 
+
 
 ### -param Arg2
 
+Type: <b>LPCTSTR</b>
+
+The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function. 
+
 
 ### -param Arg3
-
-
-
-
-
-
-
-
-#### - hData [in]
 
 Type: <b>HANDLE</b>
 
 A handle to the data. This handle is the data component of a property list entry. 
 
 
-#### - hwnd [in]
-
-Type: <b>HWND</b>
-
-A handle to the window whose property list is being enumerated. 
 
 
-#### - lpszString [in]
 
-Type: <b>LPCTSTR</b>
-
-The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function. 
 
 
 ## -returns
