@@ -101,7 +101,7 @@ The function searches only on the local systems for names that do not specify a 
 
 ### -param Count [in]
 
-Specifies the number of names in the <i>Names</i> array. This is also the number of entries returned in the <i>Sids</i> array.
+Specifies the number of names in the <i>Names</i> array. This is also the number of entries returned in the <i>Sids</i> array. This value must be less than or equal to 1000.
 
 
 ### -param Names [in]
@@ -192,6 +192,19 @@ None of the names were translated.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_TOO_MANY_NAMES</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The Names array parameter was too large.
+</td>
+</tr>
+
 </table>
  
 
@@ -239,7 +252,7 @@ The <b>LsaLookupNames2</b> function uses the following algorithm to translate ac
 >* Starting with an empty cache, the client looks up "Abby" and gets back "A\Abby", which is cached.
 >* At this point additional lookups of "Abby" will return "A\Abby" directly from the cache.
 >* The client then does a more qualified lookup for "B\Abby" and gets back a result which >is then >cached ahead of the earlier "B\Abby" entry.
->* At this point further lookups of "Jay" will return "B\Abby" directly from the cache.
+>* At this point further lookups of "Abby" will return "B\Abby" directly from the cache.
 >
 >Since SIDs are often used in security-sensitive scenarios (for example, authoring of authorization policies), Microsoft <b>does not recommend the use of isolated names</b>. Applications should be written to always query fully qualified account names.
 

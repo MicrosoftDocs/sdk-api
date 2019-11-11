@@ -73,7 +73,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy
 
 ### -param Count [in]
 
-Specifies the number of SIDs in the <i>Sids</i> array. This is also the number of entries returned in the <i>Names</i> array.
+Specifies the number of SIDs in the <i>Sids</i> array. This is also the number of entries returned in the <i>Names</i> array. This value must be less than or equal to 20480.
 
 
 ### -param Sids [in]
@@ -159,6 +159,18 @@ If the function fails, the return value is an <b>NTSTATUS</b> code, which can be
 <td width="60%">
 None of the SIDs were translated. This is an error-level return value.
 
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_TOO_MANY_SIDS</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The Sids array parameter was too large.
 </td>
 </tr>
 </table>
