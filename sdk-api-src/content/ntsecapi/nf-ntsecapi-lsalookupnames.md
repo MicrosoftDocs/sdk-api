@@ -74,7 +74,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy
 
 ### -param Count [in]
 
-Specifies the number of names in the <i>Names</i> array. This is also the number of entries returned in the <i>Sids</i> array.
+Specifies the number of names in the <i>Names</i> array. This is also the number of entries returned in the <i>Sids</i> array. This value must be less than or equal to 1000.
 
 
 ### -param Names [in]
@@ -146,7 +146,6 @@ All of the names were found and successfully translated.
 </td>
 </tr>
 </table>
- 
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
@@ -165,7 +164,18 @@ If the function fails, the return value is the following <b>NTSTATUS</b> value o
 </td>
 <td width="60%">
 None of the names were translated.
+</td>
+</tr>
 
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_TOO_MANY_NAMES</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The Names array parameter was too large.
 </td>
 </tr>
 </table>
@@ -185,7 +195,7 @@ Use the
 >Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
 
 > [!WARNING]
->For more information about the limitations of isolated names, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2.md">LsaLookupNames2 documentation</a>
+>For more information about the limitations of isolated names, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> documentation.
 
 The <b>LsaLookupNames</b> function uses the following algorithm to translate account names.
 
