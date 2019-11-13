@@ -65,9 +65,9 @@ Searches for and retrieves a key related to a file or protocol association from 
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
+Type: <b><a href="/windows/win32/shell/assocf_str">ASSOCF</a></b>
 
-The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
+The flags that can be used to control the search. It can be any combination of <a href="/windows/win32/shell/assocf_str">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
 
 
 ### -param key [in]

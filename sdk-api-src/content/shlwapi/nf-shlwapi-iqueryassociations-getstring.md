@@ -62,9 +62,9 @@ Searches for and retrieves a file or protocol association-related string from th
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
+Type: <b><a href="/windows/win32/shell/assocf_str">ASSOCF</a></b>
 
-A flag that can be used to control the search. It can be any combination of the following <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values. 
+A flag that can be used to control the search. It can be any combination of the following <a href="/windows/win32/shell/assocf_str">ASSOCF</a> values. 
 
 					
 
