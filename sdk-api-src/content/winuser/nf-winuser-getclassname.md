@@ -58,91 +58,47 @@ ms.custom: 19H1
 
 # GetClassName function
 
-
 ## -description
 
-
-Retrieves the name of the class to which the specified window belongs. 
-
+Retrieves the name of the class to which the specified window belongs.
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
-Type: <b>HWND</b>
+Type: **HWND**
 
-A handle to the window and, indirectly, the class to which the window belongs. 
-
+A handle to the window and, indirectly, the class to which the window belongs.
 
 ### -param lpClassName [out]
 
-Type: <b>LPTSTR</b>
+Type: **LPTSTR**
 
 The class name string.
 
-
 ### -param nMaxCount [in]
 
-Type: <b>int</b>
+Type: **int**
 
-The length
-					
-					 of the 
-					<i>lpClassName</i> buffer, in 
-	
-
-					characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to <code>nMaxCount-1</code> characters.
-
+The length of the *lpClassName* buffer, in characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to `nMaxCount-1` characters.
 
 ## -returns
 
+Type: **int**
 
+If the function succeeds, the return value is the number of characters copied to the buffer, not including the terminating null character.
 
-Type: <strong>Type: <b>int</b>
-</strong>
-
-If the function succeeds, the return value is the number of 
-						characters copied to the buffer, not including the terminating null character.
-
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<b>Conceptual</b>
-
-
+**Conceptual**
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
 
-
-
-<b>Reference</b>
-
-
+**Reference**
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
- 
-
- 
-

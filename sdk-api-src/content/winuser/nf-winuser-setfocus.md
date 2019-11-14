@@ -59,106 +59,49 @@ ms.custom: 19H1
 
 # SetFocus function
 
-
 ## -description
-
 
 Sets the keyboard focus to the specified window. The window must be attached to the calling thread's message queue.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in, optional]
 
-Type: <b>HWND</b>
+Type: **HWND**
 
-A handle to the window that will receive the keyboard input. If this parameter is <b>NULL</b>, keystrokes are ignored.
-
+A handle to the window that will receive the keyboard input. If this parameter is NULL, keystrokes are ignored.
 
 ## -returns
 
+Type: **HWND**
 
-
-Type: <b>HWND</b>
-
-If the function succeeds, the return value is the handle to the window that previously had the keyboard focus. If the 
-      <i>hWnd</i> parameter is invalid or the window is not attached to the calling thread's message queue, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function succeeds, the return value is the handle to the window that previously had the keyboard focus. If the *hWnd* parameter is invalid or the window is not attached to the calling thread's message queue, the return value is NULL. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+This function sends a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-killfocus">WM_KILLFOCUS</a> message to the window that loses the keyboard focus and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message to the window that receives the keyboard focus. It also activates either the window that receives the focus or the parent of the window that receives the focus.
 
+If a window is active but does not have the focus, any key pressed produces the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syschar">WM_SYSCHAR</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>, or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a> message. If the VK_MENU key is also pressed, bit 30 of the *lParam* parameter of the message is set. Otherwise, the messages produced do not have this bit set.
 
-The <b>SetFocus</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-killfocus">WM_KILLFOCUS</a> message to the window that loses the keyboard focus and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message to the window that receives the keyboard focus. It also activates either the window that receives the focus or the parent of the window that receives the focus.
+By using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a> function, a thread can attach its input processing to another thread. This allows a thread to call SetFocus to set the keyboard focus to a window attached to another thread's message queue.
 
-If a window is active but does not have the focus, any key pressed will produce the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syschar">WM_SYSCHAR</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>, or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a> message. If the <b>VK_MENU</b> key is also pressed, the
-
-    <i>lParam</i> parameter of the message will have bit 30 set. Otherwise, the messages produced do not have this bit set.
-
-By using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a> function, a thread can attach its input processing to another thread. This allows a thread to call <b>SetFocus</b> to set the keyboard focus to a window attached to another thread's message queue.
-
-
-#### Examples
+### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Initializing a Dialog Box</a>.
 
-<div class="code"></div>
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a>
 
-
-
-<b>Conceptual</b>
-
-
+**Conceptual**
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
-
-
-<b>Other Resources</b>
-
-
-
-<b>Reference</b>
-
-
+**Reference**
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-killfocus">WM_KILLFOCUS</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syschar">WM_SYSCHAR</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>
- 
-
- 
-
