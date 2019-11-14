@@ -116,7 +116,7 @@ Possible return values include those documented for <a href="https://docs.micros
 
 ## -remarks
 
-
+Direct3D 12 devices are singletons per adapter. If a Direct3D 12 device already exists in the current process for a given adapter, then a subsequent call to **D3D12CreateDevice** returns the existing device. If the current Direct3D 12 device is in a removed state (that is, [ID3D12Device::GetDeviceRemovedReason](nf-d3d12-id3d12device-getdeviceremovedreason.md) returns a failing HRESULT), then **D3D12CreateDevice** fails instead of returning the existing device. Hence, the sameness (the identity) of two adapters is determined by comparing their LUIDs, not their pointers.
 
 In order to be sure to pick up the first adapter that supports D3D12, use the following code. 
 
