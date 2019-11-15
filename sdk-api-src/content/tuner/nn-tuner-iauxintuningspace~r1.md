@@ -6,7 +6,7 @@ description: TBD
 tech.root:
 ms.assetid: a3d17004-bf99-4dfa-acf5-cb826aad7d49
 ms.author: windowssdkdev
-ms.date: 
+ms.date: 11/14/2019
 ms.topic: interface
 f1_keywords: 
  - "tuner/IAuxInTuningSpace"
