@@ -6,7 +6,7 @@ description: TBD
 tech.root:
 ms.assetid: 1ed191c2-c0c0-4c8b-b9a1-6bc0fe128d38
 ms.author: windowssdkdev
-ms.date: 
+ms.date: 11/14/2019
 ms.topic: interface
 f1_keywords: 
  - "tuner/IDigitalLocator"

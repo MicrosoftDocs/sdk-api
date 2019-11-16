@@ -6,7 +6,7 @@ description: TBD
 tech.root:
 ms.assetid: b5fb71bf-1906-4b9d-a845-b8bd92e8042d
 ms.author: windowssdkdev
-ms.date: 
+ms.date: 11/14/2019
 ms.topic: class
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingActivity"
