@@ -75,7 +75,7 @@ A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws
 A pointer to the error code.
 
 ## -returns
-If no error occurs and the receive operation has completed immediately, **LPWSPSendTo** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
+If no error occurs and the receive operation has completed immediately, **LPWSPSendTo** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 <table>
 <tr>
@@ -336,7 +336,7 @@ The <i>iFlags</i> parameter can be used to influence the behavior of the functio
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MSG_DONTROUTE | Specifies that the data should not be subject to routing. A Windows Sockets service provider can choose to ignore this flag.                                                                                                            |
 | MSG_OOB       | Sends OOB data (stream-style socket such as SOCK_STREAM only).                                                                                                                                                                         |
-| MSG_PARTIAL   | Specifies that <i>lpBuffers</i> only contains a partial message. Note that the error code [WSAEOPNOTSUPP](windows-sockets-error-codes-2.md#wsaeopnotsupp) will be returned by transports that do not support partial message transmissions. |
+| MSG_PARTIAL   | Specifies that <i>lpBuffers</i> only contains a partial message. Note that the error code [WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp) will be returned by transports that do not support partial message transmissions. |
 
 
 

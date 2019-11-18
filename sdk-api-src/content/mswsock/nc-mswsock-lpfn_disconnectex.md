@@ -65,7 +65,7 @@ A pointer to an [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-ove
 
 A set of flags that customizes processing of the function call. When this parameter is set to zero, no flags are set. The *dwFlags* parameter can have the following value.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Flag</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="TF_REUSE_SOCKET"></span><span id="tf_reuse_socket"></span><dl> <dt><strong>TF_REUSE_SOCKET</strong></dt> </dl></td><td>Prepares the socket handle to be reused. When the <strong>DisconnectEx</strong> request completes, the socket handle can be passed to the [<strong>AcceptEx</strong>](acceptex-2.md) or [<strong>ConnectEx</strong>](connectex-2.md) function.<br/><blockquote>[!Note]<br />
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Flag</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="TF_REUSE_SOCKET"></span><span id="tf_reuse_socket"></span><dl> <dt><strong>TF_REUSE_SOCKET</strong></dt> </dl></td><td>Prepares the socket handle to be reused. When the <strong>DisconnectEx</strong> request completes, the socket handle can be passed to the [<strong>AcceptEx</strong>](/windows/win32/api/mswsock/nf-mswsock-acceptex) or [<strong>ConnectEx</strong>](/windows/win32/api/mswsock/nc-mswsock-lpfn_connectex) function.<br/><blockquote>[!Note]<br />
 The socket level disconnect is subject to the behavior of the underlying transport. For example, a TCP socket may be subject to the TCP TIME_WAIT state, causing the <strong>DisconnectEx</strong> call to be delayed.</blockquote><br/> <br/></td></tr></tbody></table>
 
 ### -param dwReserved

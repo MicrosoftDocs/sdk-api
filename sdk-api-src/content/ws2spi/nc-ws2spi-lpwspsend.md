@@ -69,7 +69,7 @@ A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws
 A pointer to the error code.
 
 ## -returns
-If no error occurs and the send operation has completed immediately, **LPWSPSend** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
+If no error occurs and the send operation has completed immediately, **LPWSPSend** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 <table>
 <tr>
@@ -270,7 +270,7 @@ Note that the successful completion of a **LPWSPSend** does not indicate that th
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MSG_DONTROUTE | Specifies that the data should not be subject to routing. A Windows Sockets service provider can choose to ignore this flag;.                                                                                                          |
 | MSG_OOB       | Sends OOB data (stream-style socket such as SOCK_STREAM only).                                                                                                                                                                        |
-| MSG_PARTIAL   | Specifies that <i>lpBuffers</i> only contains a partial message. Note that the error code [WSAEOPNOTSUPP](windows-sockets-error-codes-2.md#wsaeopnotsupp) will be returned for messages that do not support partial message transmissions. |
+| MSG_PARTIAL   | Specifies that <i>lpBuffers</i> only contains a partial message. Note that the error code [WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp) will be returned for messages that do not support partial message transmissions. |
 
 
 
@@ -278,7 +278,7 @@ Note that the successful completion of a **LPWSPSend** does not indicate that th
 
  
 
-If an overlapped operation completes immediately, **LPWSPSend** returns a value of zero and the <i>lpNumberOfBytesSent</i> parameter is updated with the number of bytes sent. If the overlapped operation is successfully initiated and will complete later, **LPWSPSend** returns SOCKET_ERROR and indicates error code [WSA_IO_PENDING](windows-sockets-error-codes-2.md#wsa-io-pending). In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
+If an overlapped operation completes immediately, **LPWSPSend** returns a value of zero and the <i>lpNumberOfBytesSent</i> parameter is updated with the number of bytes sent. If the overlapped operation is successfully initiated and will complete later, **LPWSPSend** returns SOCKET_ERROR and indicates error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending). In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
 Providers must allow this function to be called from within the completion routine of a previous <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>, <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom">LPWSPRecvFrom</a></b>, **LPWSPSend** or <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b> function. However, for a given socket, I/O completion routines cannot be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
