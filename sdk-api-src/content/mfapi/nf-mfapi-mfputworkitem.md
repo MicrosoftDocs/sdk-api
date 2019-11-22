@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFPutWorkItem
 title: MFPutWorkItem function (mfapi.h)
-author: windows-sdk-content
+
 description: Puts an asynchronous operation on a work queue.
 old-location: mf\mfputworkitem.htm
 tech.root: medfound
 ms.assetid: b0233589-2a55-4803-9dcb-85d757734dee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFPutWorkItem, MFPutWorkItem function [Media Foundation], b0233589-2a55-4803-9dcb-85d757734dee, mf.mfputworkitem, mfapi/MFPutWorkItem
 ms.topic: function

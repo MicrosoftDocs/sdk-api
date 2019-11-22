@@ -1,12 +1,12 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingMode
 title: FsrmFileStreamingMode (fsrmenums.h)
-author: windows-sdk-content
+
 description: Defines the streaming modes to use for the file stream.
 old-location: fsrm\fsrmfilestreamingmode.htm
 tech.root: fsrm
 ms.assetid: a2f7de78-7102-43f9-a7b8-b35ac0b7286a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmFileStreamingMode, FsrmFileStreamingMode enumeration [File Server Resource Manager], FsrmFileStreamingMode_Read, FsrmFileStreamingMode_Unknown, FsrmFileStreamingMode_Write, fs.fsrmfilestreamingmode, fsrm.fsrmfilestreamingmode, fsrmenums/FsrmFileStreamingMode, fsrmenums/FsrmFileStreamingMode_Read, fsrmenums/FsrmFileStreamingMode_Unknown, fsrmenums/FsrmFileStreamingMode_Write
 ms.topic: enum

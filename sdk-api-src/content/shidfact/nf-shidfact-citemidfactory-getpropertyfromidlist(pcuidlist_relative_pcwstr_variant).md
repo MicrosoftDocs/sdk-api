@@ -1,12 +1,12 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT)
 title: CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT) (shidfact.h)
-author: windows-sdk-content
+
 description: Gets a property from the IPropertyStore within the IDList as a variant, using the key.
 old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 tech.root: shell
 ms.assetid: 2BC0557F-57B2-4389-ABC6-9186A4FCF814
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), CItemIDFactory::GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.topic: method

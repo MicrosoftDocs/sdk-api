@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Enable
 title: IAMAudioInputMixer::get_Enable (strmif.h)
-author: windows-sdk-content
+
 description: The get_Enable method retrieves whether the input is enabled.
 old-location: dshow\iamaudioinputmixer_get_enable.htm
 tech.root: DirectShow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAudioInputMixer.get_Enable, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable, get_Enable method [DirectShow], get_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Enable
 ms.topic: method

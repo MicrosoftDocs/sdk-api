@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterRegGetKeySecurity
 title: ClusterRegGetKeySecurity function (clusapi.h)
-author: windows-sdk-content
+
 description: Returns a copy of the security descriptor protecting the specified cluster database key.
 old-location: mscs\clusterreggetkeysecurity.htm
 tech.root: MsCS
 ms.assetid: cd0fcfd2-21e0-4627-9b01-6a7f61a80823
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterRegGetKeySecurity, ClusterRegGetKeySecurity function [Failover Cluster], _wolf_clusterreggetkeysecurity, clusapi/ClusterRegGetKeySecurity, mscs.clusterreggetkeysecurity
 ms.topic: function

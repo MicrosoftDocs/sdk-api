@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.SetIntegrationStyle
 title: ITfIntegratableCandidateListUIElement::SetIntegrationStyle (ctffunc.h)
-author: windows-sdk-content
+
 description: Sets the integration style.
 old-location: tsf\itfintegratablecandidatelistuielement_setintegrationstyle.htm
 tech.root: TSF
 ms.assetid: DC6565A6-6CEC-4DD9-A845-1DDFF157266C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],SetIntegrationStyle method, ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
 ms.topic: method

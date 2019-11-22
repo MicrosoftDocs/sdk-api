@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterEnum
 title: ClusterEnum function (clusapi.h)
-author: windows-sdk-content
+
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm
 tech.root: MsCS
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, ClusterEnum, ClusterEnum function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM, PCLUSAPI_CLUSTER_ENUM function [Failover Cluster], _wolf_clusterenum, clusapi/ClusterEnum, clusapi/PCLUSAPI_CLUSTER_ENUM, mscs.clusterenum
 ms.topic: function

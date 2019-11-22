@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSAEnumNetworkEvents
 title: WSAEnumNetworkEvents function (winsock2.h)
-author: windows-sdk-content
+
 description: The WSAEnumNetworkEvents function discovers occurrences of network events for the indicated socket, clear internal network event records, and reset event objects (optional).
 old-location: winsock\wsaenumnetworkevents_2.htm
 tech.root: WinSock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.topic: function

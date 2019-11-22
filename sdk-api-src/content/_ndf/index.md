@@ -1,7 +1,7 @@
 ---
 UID: TP:ndf
 ms.assetid: 6efa073c-337d-3a85-a426-9819014ee8c3
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

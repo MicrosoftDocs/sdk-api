@@ -1,12 +1,12 @@
 ---
 UID: NE:wsmandisp._WSManProxyAccessTypeFlags
 title: WSManProxyAccessTypeFlags (wsmandisp.h)
-author: windows-sdk-content
+
 description: Defines the proxy access type flags.
 old-location: winrm\wsmanproxyaccesstypeflags.htm
 tech.root: winrm
 ms.assetid: c17c3600-6a19-4937-90ff-1a4f7cf5b123
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSManProxyAccessTypeFlags, WSManProxyAccessTypeFlags enumeration [Windows Remote Management], WSManProxyAutoDetect, WSManProxyIEConfig, WSManProxyNoProxyServer, WSManProxyWinHttpConfig, winrm.wsmanproxyaccesstypeflags, wsmandisp/WSManProxyAccessTypeFlags, wsmandisp/WSManProxyAutoDetect, wsmandisp/WSManProxyIEConfig, wsmandisp/WSManProxyNoProxyServer, wsmandisp/WSManProxyWinHttpConfig
 ms.topic: enum

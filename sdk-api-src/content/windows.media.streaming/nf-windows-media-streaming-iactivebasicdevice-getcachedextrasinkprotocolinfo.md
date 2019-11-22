@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetCachedExtraSinkProtocolInfo
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Gets additional cached sink protocol info for the device.
 old-location: mediastreaming\iactivebasicdevice_getcachedextrasinkprotocolinfo.htm
 tech.root: mediastreaming
 ms.assetid: AEBB181A-CF30-4BAE-8316-76B2E8FF3A81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCachedExtraSinkProtocolInfo, GetCachedExtraSinkProtocolInfo method [Media Streaming API], GetCachedExtraSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedExtraSinkProtocolInfo method, IActiveBasicDevice.GetCachedExtraSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedExtraSinkProtocolInfo, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedextrasinkprotocolinfo, windows/IActiveBasicDevice::GetCachedExtraSinkProtocolInfo
 ms.topic: method

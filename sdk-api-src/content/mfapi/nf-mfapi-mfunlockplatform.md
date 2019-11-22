@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFUnlockPlatform
 title: MFUnlockPlatform function (mfapi.h)
-author: windows-sdk-content
+
 description: Unlocks the Media Foundation platform after it was locked by a call to the MFLockPlatform function.
 old-location: mf\mfunlockplatform.htm
 tech.root: medfound
 ms.assetid: d4ce5315-4bb2-4ca4-a9a0-20b638a43040
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFUnlockPlatform, MFUnlockPlatform function [Media Foundation], d4ce5315-4bb2-4ca4-a9a0-20b638a43040, mf.mfunlockplatform, mfapi/MFUnlockPlatform
 ms.topic: function

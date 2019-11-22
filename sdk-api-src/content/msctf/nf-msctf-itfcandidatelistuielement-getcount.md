@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCount
 title: ITfCandidateListUIElement::GetCount (msctf.h)
-author: windows-sdk-content
+
 description: The ITfCandidateListUIElement::GetCount method returns the count of the candidate strings.
 old-location: tsf\itfcandidatelistuielement_getcount.htm
 tech.root: TSF
 ms.assetid: 9009203a-71d1-49b2-823d-d6f04bf3743b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Text Services Framework], GetCount method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCount method, ITfCandidateListUIElement.GetCount, ITfCandidateListUIElement::GetCount, msctf/ITfCandidateListUIElement::GetCount, tsf.itfcandidatelistuielement_getcount
 ms.topic: method

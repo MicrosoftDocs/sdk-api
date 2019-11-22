@@ -1,12 +1,12 @@
 ---
 UID: NF:msime.IFECommon.IsDefaultIME
 title: IFECommon::IsDefaultIME (msime.h)
-author: windows-sdk-content
+
 description: Determines if the IME specified by the class ID is the default IME on a local computer.
 old-location: intl\ifecommon_isdefaultime.htm
 tech.root: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
 ms.topic: method

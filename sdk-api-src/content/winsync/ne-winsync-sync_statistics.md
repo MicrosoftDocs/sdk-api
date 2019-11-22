@@ -1,12 +1,12 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0006
 title: SYNC_STATISTICS (winsync.h)
-author: windows-sdk-content
+
 description: Represents types of statistics that convey information about a component.
 old-location: winsync\sync_statistics.htm
 tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
 ms.topic: enum

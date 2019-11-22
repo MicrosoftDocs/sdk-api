@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.InitializeWordlist
 title: ISpellCheckProvider::InitializeWordlist (spellcheckprovider.h)
-author: windows-sdk-content
+
 description: Initialize the specified word list to contain only the specified words.
 old-location: intl\ispellcheckprovider_initializewordlist.htm
 tech.root: Intl
 ms.assetid: B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],InitializeWordlist method, ISpellCheckProvider.InitializeWordlist, ISpellCheckProvider::InitializeWordlist, InitializeWordlist, InitializeWordlist method [Internationalization for Windows Applications], InitializeWordlist method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_initializewordlist, spellcheckprovider/ISpellCheckProvider::InitializeWordlist
 ms.topic: method

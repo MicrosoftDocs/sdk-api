@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdmaPdu
 title: IMbnSms::SmsSendCdmaPdu (mbnapi.h)
-author: windows-sdk-content
+
 description: Sends a message in CDMA binary format.
 old-location: mbn\imbnsms_smssendcdmapdu.htm
 tech.root: mbn
 ms.assetid: 8bc0cad6-dee3-4325-b5e9-397bbd346a87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdmaPdu method, IMbnSms.SmsSendCdmaPdu, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
 ms.topic: method

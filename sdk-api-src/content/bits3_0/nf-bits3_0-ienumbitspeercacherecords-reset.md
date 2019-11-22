@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Reset
 title: IEnumBitsPeerCacheRecords::Reset (bits3_0.h)
-author: windows-sdk-content
+
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeercacherecords_reset.htm
 tech.root: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
 ms.topic: method

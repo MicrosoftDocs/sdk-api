@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IExtractIconW.Extract
 title: IExtractIconW::Extract (shlobj_core.h)
-author: windows-sdk-content
+
 description: Extracts an icon image from the specified location.
 old-location: shell\IExtractIcon_Extract.htm
 tech.root: shell
 ms.assetid: 3ce54876-e4f8-4f9a-8e1c-ec1db691f020
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Shell],IExtractIcon interface, IExtractIcon interface [Windows Shell],Extract method, IExtractIcon::Extract, IExtractIconA, IExtractIconA::Extract, IExtractIconW, IExtractIconW.Extract, IExtractIconW::Extract, _win32_IExtractIcon_Extract, shell.IExtractIcon_Extract, shlobj_core/IExtractIcon::Extract
 ms.topic: method

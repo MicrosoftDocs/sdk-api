@@ -1,12 +1,12 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Name
 title: ICatalogObject::get_Name (comadmin.h)
-author: windows-sdk-content
+
 description: Retrieves the name property of the object.
 old-location: cos\icatalogobject_name.htm
 tech.root: cossdk
 ms.assetid: 604b2d11-b204-4f78-8cf2-e13f594299b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],Name property, ICatalogObject.Name, ICatalogObject.get_Name, ICatalogObject::Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name
 ms.topic: method

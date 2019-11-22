@@ -1,12 +1,12 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetReference
 title: IRestrictedErrorInfo::GetReference (restrictederrorinfo.h)
-author: windows-sdk-content
+
 description: Returns a reference to restricted error information.
 old-location: winrt\irestrictederrorinfo_getreference.htm
 tech.root: WinRT
 ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetReference method, IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
 ms.topic: method

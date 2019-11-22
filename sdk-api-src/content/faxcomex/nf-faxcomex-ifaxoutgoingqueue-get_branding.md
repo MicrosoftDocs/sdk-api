@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Branding
 title: IFaxOutgoingQueue::get_Branding (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingQueue::get_Branding property is a Boolean value that indicates whether the fax service generates a brand (banner) at the top of outgoing fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Branding property, IFaxOutgoingQueue.Branding, IFaxOutgoingQueue.get_Branding, IFaxOutgoingQueue::Branding, IFaxOutgoingQueue::get_Branding, IFaxOutgoingQueue::put_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp, faxcomex/IFaxOutgoingQueue::Branding, faxcomex/IFaxOutgoingQueue::get_Branding, faxcomex/IFaxOutgoingQueue::put_Branding, get_Branding
 ms.topic: method

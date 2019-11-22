@@ -1,12 +1,12 @@
 ---
 UID: NN:winsatcominterfacei.IQueryRecentWinSATAssessment
 title: IQueryRecentWinSATAssessment (winsatcominterfacei.h)
-author: windows-sdk-content
+
 description: Retrieves details about the results of the most recent formal WinSAT assessment.
 old-location: winsat\iqueryrecentwinsatassessment.htm
 tech.root: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT],described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
 ms.topic: interface

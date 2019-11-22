@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.hResultEx
 title: IWiaLogEx::hResultEx (wia_xp.h)
-author: windows-sdk-content
+
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_hResultEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\hresultex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx interface [WIA],hResultEx method, IWiaLogEx.hResultEx, IWiaLogEx::hResultEx, _wia_IWiaLogEx_hResultEx, hResultEx, hResultEx method [WIA], hResultEx method [WIA],IWiaLogEx interface, wia._wia_IWiaLogEx_hResultEx, wia_xp/IWiaLogEx::hResultEx
 ms.topic: method

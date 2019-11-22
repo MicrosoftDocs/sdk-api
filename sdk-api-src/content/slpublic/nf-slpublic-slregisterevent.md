@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLRegisterEvent
 title: SLRegisterEvent function (slpublic.h)
-author: windows-sdk-content
+
 description: Registers an event in the SL service.
 old-location: security\slregisterevent.htm
 tech.root: SecSLApi
 ms.assetid: a18f58d4-c8e7-4974-a015-e4941e834e79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLRegisterEvent, SLRegisterEvent function [Security], security.slregisterevent, slpublic/SLRegisterEvent
 ms.topic: function

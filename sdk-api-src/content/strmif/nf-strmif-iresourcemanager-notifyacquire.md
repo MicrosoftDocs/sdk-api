@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyAcquire
 title: IResourceManager::NotifyAcquire (strmif.h)
-author: windows-sdk-content
+
 description: The NotifyAcquire method notifies the resource manager that an attempt to acquire a resource has completed.
 old-location: dshow\iresourcemanager_notifyacquire.htm
 tech.root: DirectShow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
 ms.topic: method

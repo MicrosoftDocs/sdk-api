@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwServices.get_Count
 title: INetFwServices::get_Count (netfw.h)
-author: windows-sdk-content
+
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwservices_count.htm
 tech.root: ics
 ms.assetid: 543d54d9-1dc8-4348-ab8d-369857a213ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwServices interface, INetFwServices interface [ICS/ICF],Count property, INetFwServices.Count, INetFwServices.get_Count, INetFwServices::Count, INetFwServices::get_Count, get_Count, ics.inetfwservices_count, netfw/INetFwServices::Count, netfw/INetFwServices::get_Count
 ms.topic: method

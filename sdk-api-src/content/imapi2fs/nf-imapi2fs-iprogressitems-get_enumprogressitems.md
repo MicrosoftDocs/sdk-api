@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_EnumProgressItems
 title: IProgressItems::get_EnumProgressItems (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the list of progress items from the collection.
 old-location: imapi\iprogressitems_get_enumprogressitems.htm
 tech.root: imapi
 ms.assetid: 746b05b7-ddba-458c-bc9b-4913da5fa8b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_EnumProgressItems method, IProgressItems.get_EnumProgressItems, IProgressItems::get_EnumProgressItems, get_EnumProgressItems, get_EnumProgressItems method [IMAPI], get_EnumProgressItems method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_enumprogressitems, imapi2fs/IProgressItems::get_EnumProgressItems
 ms.topic: method

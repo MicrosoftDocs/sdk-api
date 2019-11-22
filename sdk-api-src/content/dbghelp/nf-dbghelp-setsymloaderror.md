@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SetSymLoadError
 title: SetSymLoadError function (dbghelp.h)
-author: windows-sdk-content
+
 description: Sets a symbol load error.
 old-location: base\setsymloaderror.htm
 tech.root: Debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
 ms.topic: function

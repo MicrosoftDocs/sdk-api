@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT)
 title: CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a CD3D11_RASTERIZER_DESC structure that is initialized with default rasterizer-state values.
 old-location: direct3d11\cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_.htm
 tech.root: direct3d11
 ms.assetid: 6D2B2D68-C3ED-460F-B253-583A1DEF5DAA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC constructor [Direct3D 11], CD3D11_RASTERIZER_DESC constructor [Direct3D 11],CD3D11_RASTERIZER_DESC interface, CD3D11_RASTERIZER_DESC interface [Direct3D 11],CD3D11_RASTERIZER_DESC constructor, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT), CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT), d3d11/CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, direct3d11.cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_
 ms.topic: method

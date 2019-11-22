@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCchPrintf_lExA
 title: StringCchPrintf_lExA function (strsafe.h)
-author: windows-sdk-content
+
 description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchprintf_lex.htm
 tech.root: menurc
 ms.assetid: 36959df1-e972-45e1-9c20-2306d3466951
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintf_lEx, StringCchPrintf_lEx function [Menus and Other Resources], StringCchPrintf_lExA, StringCchPrintf_lExW, menurc.stringcchprintf_lex, strsafe/StringCchPrintf_lEx, strsafe/StringCchPrintf_lExA, strsafe/StringCchPrintf_lExW
 ms.topic: function

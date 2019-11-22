@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IComObjectConstructionEvents
 title: IComObjectConstructionEvents (comsvcs.h)
-author: windows-sdk-content
+
 description: Notifies the subscriber if a constructed object is created in an object pool.
 old-location: cos\icomobjectconstructionevents.htm
 tech.root: cossdk
 ms.assetid: c5fdb9b1-937e-43cb-93ff-e90f8c268fee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents, IComObjectConstructionEvents interface [COM+], IComObjectConstructionEvents interface [COM+],described, _dtc_IComObjectConstructionEvents, comsvcs/IComObjectConstructionEvents, cos.icomobjectconstructionevents
 ms.topic: interface

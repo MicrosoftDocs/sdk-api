@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_mimeType
 title: IWMPMetadataPicture::get_mimeType (wmp.h)
-author: windows-sdk-content
+
 description: The get_mimeType method retrieves a pointer to a string specifying the MIME type of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_mimetype.htm
 tech.root: WMP
 ms.assetid: bfc5243f-3f7c-4f4a-9057-7720c862a983
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType method, IWMPMetadataPicture.get_mimeType, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IRelationship.MetaData
 title: IRelationship::MetaData (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves an enumeration of IMetaData objects for this relationship.
 old-location: search\_search_IRelationship_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRelationship interface [search],MetaData method, IRelationship.MetaData, IRelationship::MetaData, MetaData, MetaData method [search], MetaData method [search],IRelationship interface, _search_IRelationship_MetaData, search._search_IRelationship_MetaData, structuredquery/IRelationship::MetaData
 ms.topic: method

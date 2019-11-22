@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE_MATCHES
 title: WSD_RESOLVE_MATCHES (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a ResolveMatches message.
 old-location: ncd\wsd_resolve_matches.htm
 tech.root: WsdApi
 ms.assetid: a6094069-af17-4921-b2c3-4ec89cbbb6f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_RESOLVE_MATCHES, WSD_RESOLVE_MATCHES structure, ncd.wsd_resolve_matches, wsdtypes/WSD_RESOLVE_MATCHES
 ms.topic: struct

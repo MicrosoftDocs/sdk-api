@@ -1,12 +1,12 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_INFO
 title: CF_CALLBACK_INFO (cfapi.h)
-author: windows-sdk-content
+
 description: Contains common callback information.
 old-location: cloudapi\cf_callback_info.htm
 tech.root: cfApi
 ms.assetid: EF24E61E-4AF7-4946-A326-1F045267AE01
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INFO, cloudApi.cf_callback_info
 ms.topic: struct

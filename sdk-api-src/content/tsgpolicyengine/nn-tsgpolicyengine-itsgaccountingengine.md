@@ -1,12 +1,12 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAccountingEngine
 title: ITSGAccountingEngine (tsgpolicyengine.h)
-author: windows-sdk-content
+
 description: Exposes methods that provide information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine.htm
 tech.root: TermServ
 ms.assetid: 49b402a9-137a-4cfa-89f5-12bf89c3ebb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], ITSGAccountingEngine interface [Remote Desktop Services],described, termserv.itsgaccountingengine, tsgpolicyengine/ITSGAccountingEngine
 ms.topic: interface

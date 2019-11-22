@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_RunningStatus
 title: IFsrmFileManagementJob::get_RunningStatus (fsrmreports.h)
-author: windows-sdk-content
+
 description: The running status of the job.
 old-location: fsrm\ifsrmfilemanagementjob_runningstatus.htm
 tech.root: fsrm
 ms.assetid: 030efc19-69c0-4321-99ac-ff8abfc38757
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],RunningStatus property, IFsrmFileManagementJob.RunningStatus, IFsrmFileManagementJob.get_RunningStatus, IFsrmFileManagementJob::RunningStatus, IFsrmFileManagementJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_runningstatus, fsrm.ifsrmfilemanagementjob_runningstatus, fsrmreports/IFsrmFileManagementJob::RunningStatus, fsrmreports/IFsrmFileManagementJob::get_RunningStatus, get_RunningStatus
 ms.topic: method

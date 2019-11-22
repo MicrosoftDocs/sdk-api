@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRow.SetCellMargin
 title: ITextRow::SetCellMargin (tom.h)
-author: windows-sdk-content
+
 description: Sets the cell margin of a row.
 old-location: controls\itextrow_setcellmargin.htm
 tech.root: Controls
 ms.assetid: 826be963-ccac-4bb3-b5e0-1df5554e1c8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMargin method, ITextRow.SetCellMargin, ITextRow::SetCellMargin, SetCellMargin, SetCellMargin method [Windows Controls], SetCellMargin method [Windows Controls],ITextRow interface, controls.itextrow_setcellmargin, tom/ITextRow::SetCellMargin
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITCallHubEvent
 title: ITCallHubEvent (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITCallHubEvent interface contains methods that retrieve the description of CallHub events.
 old-location: tapi3\itcallhubevent.htm
 tech.root: Tapi
 ms.assetid: 4008fc7e-f095-442d-9214-61bfead8cf04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent, ITCallHubEvent interface [TAPI 2.2], ITCallHubEvent interface [TAPI 2.2],described, _tapi3_itcallhubevent, tapi3.itcallhubevent, tapi3if/ITCallHubEvent
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:http.HttpCreateRequestQueue
 title: HttpCreateRequestQueue function (http.h)
-author: windows-sdk-content
+
 description: Creates a new request queue or opens an existing request queue.
 old-location: http\httpcreaterequestqueue.htm
 tech.root: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.SpFreeCredentialsHandleFn
 title: SpFreeCredentialsHandleFn (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Frees credentials acquired by calling the SpAcquireCredentialsHandle function.
 old-location: security\spfreecredentialshandle.htm
 tech.root: SecAuthN
 ms.assetid: c8364202-d366-47a2-bc4a-c899588a78db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SpFreeCredentialsHandle, SpFreeCredentialsHandle callback function [Security], SpFreeCredentialsHandleFn, SpFreeCredentialsHandleFn callback, _ssp_spfreecredentialshandle, ntsecpkg/SpFreeCredentialsHandle, security.spfreecredentialshandle
 ms.topic: callback

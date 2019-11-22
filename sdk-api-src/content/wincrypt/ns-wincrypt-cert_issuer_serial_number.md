@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_ISSUER_SERIAL_NUMBER
 title: CERT_ISSUER_SERIAL_NUMBER (wincrypt.h)
-author: windows-sdk-content
+
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm
 tech.root: SecCrypto
 ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER structure [Security], PCERT_ISSUER_SERIAL_NUMBER, PCERT_ISSUER_SERIAL_NUMBER structure pointer [Security], _crypto2_cert_issuer_serial_number, security.cert_issuer_serial_number, wincrypt/CERT_ISSUER_SERIAL_NUMBER, wincrypt/PCERT_ISSUER_SERIAL_NUMBER"
 ms.topic: struct

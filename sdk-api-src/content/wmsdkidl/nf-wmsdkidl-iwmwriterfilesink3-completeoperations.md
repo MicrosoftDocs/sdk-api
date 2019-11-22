@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.CompleteOperations
 title: IWMWriterFileSink3::CompleteOperations (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The CompleteOperations method stops the writer sink after completing all operations in progress. This method is used with unbuffered I/O.
 old-location: wmformat\iwmwriterfilesink3_completeoperations.htm
 tech.root: wmformat
 ms.assetid: 6eb4f09f-627e-4409-9f08-8f655aa7d0ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CompleteOperations, CompleteOperations method [windows Media Format], CompleteOperations method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],CompleteOperations method, IWMWriterFileSink3.CompleteOperations, IWMWriterFileSink3::CompleteOperations, IWMWriterFileSink3CompleteOperations, wmformat.iwmwriterfilesink3_completeoperations, wmsdkidl/IWMWriterFileSink3::CompleteOperations
 ms.topic: method

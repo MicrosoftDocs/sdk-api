@@ -1,12 +1,12 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetProfileName
 title: IDot11AdHocNetwork::GetProfileName (adhoc.h)
-author: windows-sdk-content
+
 description: Gets the profile name associated with the network.
 old-location: nwifi\idot11adhocnetwork_getprofilename.htm
 tech.root: NativeWiFi
 ms.assetid: abd25741-25ad-4109-a07e-4146824695b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProfileName, GetProfileName method [NativeWIFI], GetProfileName method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetProfileName method, IDot11AdHocNetwork.GetProfileName, IDot11AdHocNetwork::GetProfileName, adhoc/IDot11AdHocNetwork::GetProfileName, nwifi.idot11adhocnetwork_getprofilename
 ms.topic: method

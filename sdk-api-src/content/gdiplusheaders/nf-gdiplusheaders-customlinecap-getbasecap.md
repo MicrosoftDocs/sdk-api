@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetBaseCap
 title: CustomLineCap::GetBaseCap (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The CustomLineCap::GetBaseCap method gets the style of the base cap. The base cap is a LineCap object used as a cap at the end of a line along with this CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getbasecap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseCap method, CustomLineCap.GetBaseCap, CustomLineCap::GetBaseCap, GetBaseCap, GetBaseCap method [GDI+], GetBaseCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseCap_
 ms.topic: method

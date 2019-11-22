@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyResource
 title: ID3D12GraphicsCommandList::CopyResource (d3d12.h)
-author: windows-sdk-content
+
 description: Copies the entire contents of the source resource to the destination resource.
 old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
 tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
 ms.topic: method

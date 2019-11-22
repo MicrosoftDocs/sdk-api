@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.EnsureItemVisible
 title: INameSpaceTreeControl::EnsureItemVisible (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Ensures that the given item is visible.
 old-location: shell\INameSpaceTreeControl_EnsureItemVisible.htm
 tech.root: shell
 ms.assetid: c0c40137-e19b-448c-a327-454b12a5604a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnsureItemVisible, EnsureItemVisible method [Windows Shell], EnsureItemVisible method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],EnsureItemVisible method, INameSpaceTreeControl.EnsureItemVisible, INameSpaceTreeControl::EnsureItemVisible, _shell_INameSpaceTreeControl_EnsureItemVisible, shell.INameSpaceTreeControl_EnsureItemVisible, shobjidl_core/INameSpaceTreeControl::EnsureItemVisible
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_RGBTOHUE_PROP
 title: D2D1_RGBTOHUE_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Indentifiers for properties of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_prop.htm
 tech.root: Direct2D
 ms.assetid: C5CB2C7A-C7C0-4FC9-BAB0-0360ABE984E6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_RGBTOHUE_PROP, D2D1_RGBTOHUE_PROP enumeration [Direct2D], D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, d2d1effects_2/D2D1_RGBTOHUE_PROP, d2d1effects_2/D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, direct2d.d2d1_rgbtohue_prop
 ms.topic: enum

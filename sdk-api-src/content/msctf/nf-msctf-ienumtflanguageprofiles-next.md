@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Next
 title: IEnumTfLanguageProfiles::Next (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfLanguageProfiles::Next method
 old-location: tsf\ienumtflanguageprofiles_next.htm
 tech.root: TSF
 ms.assetid: 790fb0f4-4abd-4947-8e9a-68739657a8f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Next method, IEnumTfLanguageProfiles.Next, IEnumTfLanguageProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_next_ref, msctf/IEnumTfLanguageProfiles::Next, tsf.ienumtflanguageprofiles_next
 ms.topic: method

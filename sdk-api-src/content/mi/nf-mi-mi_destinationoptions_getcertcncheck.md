@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCertCNCheck
 title: MI_DestinationOptions_GetCertCNCheck function (mi.h)
-author: windows-sdk-content
+
 description: Gets the server certificate CN check value.
 old-location: wmi_v2\mi_destinationoptions_getcertcncheck.htm
 tech.root: wmi_v2
 ms.assetid: 8f6a4f66-29cf-486b-9114-05cd357a32bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetCertCNCheck, MI_DestinationOptions_GetCertCNCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertCNCheck, wmi_v2.mi_destinationoptions_getcertcncheck
 ms.topic: function

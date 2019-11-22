@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj.SHRunControlPanel
 title: SHRunControlPanel function (shlobj.h)
-author: windows-sdk-content
+
 description: Opens a Control Panel item.
 old-location: shell\SHRunControlPanel.htm
 tech.root: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
 ms.topic: function

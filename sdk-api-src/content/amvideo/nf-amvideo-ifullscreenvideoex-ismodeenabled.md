@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeEnabled
 title: IFullScreenVideoEx::IsModeEnabled (amvideo.h)
-author: windows-sdk-content
+
 description: The IsModeEnabled method queries whether a specified display mode is enabled.
 old-location: dshow\ifullscreenvideoex_ismodeenabled.htm
 tech.root: DirectShow
 ms.assetid: 97d8b9f8-4dbf-4b49-b32f-4513c9e5186e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeEnabled method, IFullScreenVideoEx.IsModeEnabled, IFullScreenVideoEx::IsModeEnabled, IFullScreenVideoIsModeEnabled, IsModeEnabled, IsModeEnabled method [DirectShow], IsModeEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeEnabled, dshow.ifullscreenvideoex_ismodeenabled
 ms.topic: method

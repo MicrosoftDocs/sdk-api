@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndGetVolume
 title: MCIWndGetVolume macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndGetVolume macro retrieves the current volume setting of an MCI device. You can use this macro or explicitly send the MCIWNDM_GETVOLUME message.
 old-location: multimedia\mciwndgetvolume.htm
 tech.root: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.topic: macro

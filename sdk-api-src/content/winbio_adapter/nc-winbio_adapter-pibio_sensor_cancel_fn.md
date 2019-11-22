@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CANCEL_FN
 title: PIBIO_SENSOR_CANCEL_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Cancels all pending sensor operations.
 old-location: secbiomet\sensoradaptercancel.htm
 tech.root: SecBioMet
 ms.assetid: 11a0728e-1833-43b3-8ae2-0393743bb19b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CANCEL_FN, PIBIO_SENSOR_CANCEL_FN callback, SensorAdapterCancel, SensorAdapterCancel callback function [Windows Biometric Framework API], secbiomet.sensoradaptercancel, winbio_adapter/SensorAdapterCancel
 ms.topic: callback

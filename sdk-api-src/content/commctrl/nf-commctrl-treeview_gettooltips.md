@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_GetToolTips
 title: TreeView_GetToolTips macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the handle to the child tooltip control used by a tree-view control. You can use this macro or send the TVM_GETTOOLTIPS message explicitly.
 old-location: controls\TreeView_GetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_gettooltips.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetToolTips, TreeView_GetToolTips macro [Windows Controls], _win32_TreeView_GetToolTips, _win32_TreeView_GetToolTips_cpp, commctrl/TreeView_GetToolTips, controls.TreeView_GetToolTips, controls._win32_TreeView_GetToolTips
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_5imageimage_wrapmodewrapmode_realdstx_re.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL), TextureBrush.TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.ITuningSpaceContainer
 title: ITuningSpaceContainer (tuner.h)
-author: windows-sdk-content
+
 description: The ITuningSpaceContainer interface is implemented on the SystemTuningSpaces object.
 old-location: mstv\ituningspacecontainer.htm
 tech.root: mstv
 ms.assetid: 8f053c53-2a2b-4d98-a510-c516faa21611
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], ITuningSpaceContainer interface [Microsoft TV Technologies],described, ITuningSpaceContainerInterface, mstv.ituningspacecontainer, tuner/ITuningSpaceContainer
 ms.topic: interface

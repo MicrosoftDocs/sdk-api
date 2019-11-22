@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDateFromDec
 title: VarDateFromDec function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a decimal value to a date value.
 old-location: automat\vardatefromdec.htm
 tech.root: automat
 ms.assetid: 37cba5ec-5e17-474a-8d63-422f7e828ab3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDateFromDec, VarDateFromDec function [Automation], _oa96_VarDateFromDec, automat.vardatefromdec, oleauto/VarDateFromDec
 ms.topic: function

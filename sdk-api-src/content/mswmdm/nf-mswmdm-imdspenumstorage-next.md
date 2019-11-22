@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Next
 title: IMDSPEnumStorage::Next (mswmdm.h)
-author: windows-sdk-content
+
 description: The Next method returns a pointer to the next celtIMDSPStorage interfaces.
 old-location: wmdm\imdspenumstorage_next.htm
 tech.root: WMDM
 ms.assetid: 7874912a-6350-445c-a7c8-0f885d756aa0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Next method, IMDSPEnumStorage.Next, IMDSPEnumStorage::Next, IMDSPEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Next, wmdm.imdspenumstorage_next
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_SortItemsEx
 title: ListView_SortItemsEx macro (commctrl.h)
-author: windows-sdk-content
+
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the LVM_SORTITEMSEX message explicitly.
 old-location: controls\ListView_SortItemsEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitemsex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_SortItemsEx, ListView_SortItemsEx macro [Windows Controls], _win32_ListView_SortItemsEx, _win32_ListView_SortItemsEx_cpp, commctrl/ListView_SortItemsEx, controls.ListView_SortItemsEx, controls._win32_ListView_SortItemsEx
 ms.topic: macro

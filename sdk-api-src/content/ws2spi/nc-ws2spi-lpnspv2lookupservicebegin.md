@@ -1,12 +1,12 @@
 ---
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICEBEGIN
 title: LPNSPV2LOOKUPSERVICEBEGIN (ws2spi.h)
-author: windows-sdk-content
+
 description: Initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a WSAQUERYSET2 structure.
 old-location: winsock\nspv2lookupservicebegin.htm
 tech.root: WinSock
 ms.assetid: 5664b85d-8432-4068-aa97-caa57d9377ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DISABLE_IDN_ENCODING, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPv2LookupServiceBegin, NSPv2LookupServiceBegin function [Winsock], winsock.nspv2lookupservicebegin, ws2spi/NSPv2LookupServiceBegin
 ms.topic: callback

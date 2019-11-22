@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.mixerClose
 title: mixerClose function (mmeapi.h)
-author: windows-sdk-content
+
 description: The mixerClose function closes the specified mixer device.
 old-location: multimedia\mixerclose.htm
 tech.root: Multimedia
 ms.assetid: d92a9bb0-9761-471b-85d2-af0bcdbbda34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose"
 ms.topic: function

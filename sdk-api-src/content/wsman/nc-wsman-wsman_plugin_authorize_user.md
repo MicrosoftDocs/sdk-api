@@ -1,12 +1,12 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_USER
 title: WSMAN_PLUGIN_AUTHORIZE_USER (wsman.h)
-author: windows-sdk-content
+
 description: Authorizes a connection.
 old-location: winrm\wsman_plugin_authorize_user.htm
 tech.root: winrm
 ms.assetid: 4217c47f-956d-4dde-b679-6f00b0457dcd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_USER, WSMAN_PLUGIN_AUTHORIZE_USER callback, WSMAN_PLUGIN_AUTHORIZE_USER callback function [Windows Remote Management], winrm.wsman_plugin_authorize_user, wsman/WSMAN_PLUGIN_AUTHORIZE_USER
 ms.topic: callback

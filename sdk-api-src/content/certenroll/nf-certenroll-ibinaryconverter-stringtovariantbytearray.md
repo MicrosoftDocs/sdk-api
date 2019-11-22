@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToVariantByteArray
 title: IBinaryConverter::StringToVariantByteArray (certenroll.h)
-author: windows-sdk-content
+
 description: Creates a byte array from a Unicode encoded string.
 old-location: security\ibinaryconverter_stringtovariantbytearray_method.htm
 tech.root: seccertenroll
 ms.assetid: b0d649f7-79a1-452c-a790-b6c05ccb84b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter interface [Security],StringToVariantByteArray method, IBinaryConverter.StringToVariantByteArray, IBinaryConverter::StringToVariantByteArray, StringToVariantByteArray, StringToVariantByteArray method [Security], StringToVariantByteArray method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToVariantByteArray, security.ibinaryconverter_stringtovariantbytearray_method
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.CommitPendingInput
 title: ITextInputPanel::CommitPendingInput (peninputpanel.h)
-author: windows-sdk-content
+
 description: Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\itextinputpanel_commitpendinginput.htm
 tech.root: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
 ms.topic: method

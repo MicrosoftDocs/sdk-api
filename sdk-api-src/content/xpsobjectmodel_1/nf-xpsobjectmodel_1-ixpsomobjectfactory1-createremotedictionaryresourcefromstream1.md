@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1
 title: IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1 (xpsobjectmodel_1.h)
-author: windows-sdk-content
+
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface. The dictionary referenced by the dictionaryMarkupStream parameter can contain markup from either the OpenXPS or the MSXPS namespace.
 old-location: xps\ixpsomobjectfactory1_createremotedictionaryresourcefromstream1.htm
 tech.root: printdocs
 ms.assetid: e69a139c-511c-43f3-86a3-22aab36f91fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteDictionaryResourceFromStream1, CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream1 method, IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1, IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1, xps.ixpsomobjectfactory1_createremotedictionaryresourcefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 ms.topic: method

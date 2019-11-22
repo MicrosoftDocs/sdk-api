@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadInt3A
 title: XMLoadInt3A function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads 16-byte aligned data into the x, y, and z components of an XMVECTOR, without type checking.
 old-location: dxmath\xmloadint3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt3A(const VOID)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt3A, XMLoadInt3A, XMLoadInt3A method [DirectX Math Support APIs], dxmath.xmloadint3a
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t)
 title: XMUINT4::XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUINT4 from four uint32_t arguments.
 old-location: dxmath\xmuint4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT4.#ctor(uint32_t,uint32_t,uint32_t,uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t), XMUINT4::XMUINT4, XMUINT4::XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t), dxmath.xmuint4_ctor_2
 ms.topic: method

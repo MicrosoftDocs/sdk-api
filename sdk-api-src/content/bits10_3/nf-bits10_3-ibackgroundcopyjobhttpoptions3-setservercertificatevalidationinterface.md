@@ -1,12 +1,12 @@
 ---
 UID: NF:bits10_3.IBackgroundCopyJobHttpOptions3.SetServerCertificateValidationInterface
 title: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
-author: windows-sdk-content
+
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
 description: Server certificates are sent when an HTTPS connection is opened. Use this method to set a callback to be called to validate those server certificates.
 tech.root: Bits
-ms.author: windowssdkdev
+
 ms.date: 05/09/2019
 ms.topic: method
 f1_keywords: 

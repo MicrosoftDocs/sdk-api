@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMFLOAT3PK
 title: XMFLOAT3PK (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Describes a 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
 old-location: dxmath\xmfloat3pk.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3PK
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3PK, dxmath.xmfloat3pk
 ms.topic: struct

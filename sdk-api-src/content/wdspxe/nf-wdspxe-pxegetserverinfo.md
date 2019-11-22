@@ -1,12 +1,12 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfo
 title: PxeGetServerInfo function (wdspxe.h)
-author: windows-sdk-content
+
 description: Returns information about the PXE server.
 old-location: wds\pxegetserverinfo.htm
 tech.root: wds
 ms.assetid: 68fb12ff-c73c-4e36-8f62-de8a04a9afb0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_TRACE_ENABLED, PxeGetServerInfo, PxeGetServerInfo function [Windows Deployment Services], wds.pxegetserverinfo, wdspxe/PxeGetServerInfo
 ms.topic: function

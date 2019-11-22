@@ -1,12 +1,12 @@
 ---
 UID: NN:syncregistration.IRegisteredSyncProvider
 title: IRegisteredSyncProvider (syncregistration.h)
-author: windows-sdk-content
+
 description: Represents a registered synchronization provider. This interface is implemented by the writer of a synchronization provider.
 old-location: winsync\iregisteredsyncprovider.htm
 tech.root: winsync
 ms.assetid: 53970f17-2857-4624-8594-069cceb93b1e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], IRegisteredSyncProvider interface [Windows Sync],described, syncregistration/IRegisteredSyncProvider, winsync.iregisteredsyncprovider
 ms.topic: interface

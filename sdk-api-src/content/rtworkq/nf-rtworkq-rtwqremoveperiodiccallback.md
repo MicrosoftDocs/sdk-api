@@ -1,12 +1,12 @@
 ---
 UID: NF:rtworkq.RtwqRemovePeriodicCallback
 title: RtwqRemovePeriodicCallback function (rtworkq.h)
-author: windows-sdk-content
+
 description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.
 old-location: base\rtwqremoveperiodiccallback.htm
 tech.root: ProcThread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
 ms.topic: function

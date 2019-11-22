@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetBorderMode
 title: IDCompositionAffineTransform2DEffect::SetBorderMode (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the border mode to use with the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 4F034507-9296-4A3C-AD38-F35B0611955B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetBorderMode method, IDCompositionAffineTransform2DEffect.SetBorderMode, IDCompositionAffineTransform2DEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetBorderMode, directcomp.idcompositionaffinetransform2deffect_setbordermode
 ms.topic: method

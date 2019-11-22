@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetKBCodePage
 title: GetKBCodePage function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the current code page.
 old-location: inputdev\getkbcodepage.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkbcodepage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetKBCodePage, GetKBCodePage function [Keyboard and Mouse Input], _win32_GetKBCodePage, _win32_getkbcodepage_cpp, inputdev.getkbcodepage, winui._win32_getkbcodepage, winuser/GetKBCodePage
 ms.topic: function

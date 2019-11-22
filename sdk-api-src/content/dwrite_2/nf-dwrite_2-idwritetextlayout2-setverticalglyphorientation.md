@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetVerticalGlyphOrientation
 title: IDWriteTextLayout2::SetVerticalGlyphOrientation (dwrite_2.h)
-author: windows-sdk-content
+
 description: Set the preferred orientation of glyphs when using a vertical reading direction.
 old-location: directwrite\idwritetextlayout2_setverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: DB6A8163-0D64-4438-A51A-3CD0B8B0C64A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetVerticalGlyphOrientation method, IDWriteTextLayout2.SetVerticalGlyphOrientation, IDWriteTextLayout2::SetVerticalGlyphOrientation, SetVerticalGlyphOrientation, SetVerticalGlyphOrientation method [Direct Write], SetVerticalGlyphOrientation method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setverticalglyphorientation, dwrite_2/IDWriteTextLayout2::SetVerticalGlyphOrientation
 ms.topic: method

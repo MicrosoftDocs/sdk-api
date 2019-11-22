@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDrawStop
 title: ICDrawStop macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICDrawStop macro notifies a rendering driver to stop its internal clock for the timing of drawing frames. You can use this macro or explicitly call the ICM_DRAW_STOP message.
 old-location: multimedia\icdrawstop.htm
 tech.root: Multimedia
 ms.assetid: c8608410-da45-4953-b16a-050870f85af9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDrawStop, ICDrawStop macro [Windows Multimedia], _win32_ICDrawStop, multimedia.icdrawstop, vfw/ICDrawStop
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.ScanNetwork
 title: IMbnMultiCarrier::ScanNetwork (mbnapi.h)
-author: windows-sdk-content
+
 description: Scans the network to get a list of visible providers for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_scannetwork.htm
 tech.root: mbn
 ms.assetid: D249B5D4-B2C3-436A-B38A-041289422F12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],ScanNetwork method, IMbnMultiCarrier.ScanNetwork, IMbnMultiCarrier::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_scannetwork, mbnapi/IMbnMultiCarrier::ScanNetwork
 ms.topic: method

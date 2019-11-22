@@ -1,12 +1,12 @@
 ---
 UID: NF:interactioncontext.SetInteractionConfigurationInteractionContext
 title: SetInteractionConfigurationInteractionContext function (interactioncontext.h)
-author: windows-sdk-content
+
 description: Configures the Interaction Context object to process the specified manipulations.
 old-location: input_intcontext\setinteractionconfigurationinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e792e7bc-1c7f-4fa1-810d-97391cbcf797
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDecompressOrCopyFileW
 title: SetupDecompressOrCopyFileW function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
 old-location: setup\setupdecompressorcopyfile.htm
 tech.root: SetupApi
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
 ms.topic: function

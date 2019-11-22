@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.WriteDWORD
 title: IWbemObjectAccess::WriteDWORD (wbemcli.h)
-author: windows-sdk-content
+
 description: The WriteDWORD method writes 32 bits of data to a property identified by a property handle.
 old-location: wmi\iwbemobjectaccess_writedword.htm
 tech.root: WmiSdk
 ms.assetid: a1716599-69ba-44fb-be68-b22578f6c6b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteDWORD method, IWbemObjectAccess.WriteDWORD, IWbemObjectAccess::WriteDWORD, WriteDWORD, WriteDWORD method [Windows Management Instrumentation], WriteDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writedword, wbemcli/IWbemObjectAccess::WriteDWORD, wmi.iwbemobjectaccess_writedword
 ms.topic: method

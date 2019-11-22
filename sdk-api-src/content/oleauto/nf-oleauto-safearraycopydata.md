@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayCopyData
 title: SafeArrayCopyData function (oleauto.h)
-author: windows-sdk-content
+
 description: Copies the source array to the specified target array after releasing any resources in the target array.
 old-location: automat\safearraycopydata.htm
 tech.root: automat
 ms.assetid: 32c1fc4f-3fe0-490f-b5af-640514a8cecc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCopyData, SafeArrayCopyData function [Automation], _oa96_SafeArrayCopyData, automat.safearraycopydata, oleauto/SafeArrayCopyData
 ms.topic: function

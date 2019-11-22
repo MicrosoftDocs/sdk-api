@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DISK_ATTRIBUTES
 title: IOCTL_DISK_SET_DISK_ATTRIBUTES
-author: windows-sdk-content
+
 description: Sets the attributes of the specified disk device.
 old-location: fs\ioctl_disk_set_disk_attributes.htm
 tech.root: FileIO
 ms.assetid: ba0e3666-8660-493c-b821-5997d577e7e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 ms.topic: ioctl

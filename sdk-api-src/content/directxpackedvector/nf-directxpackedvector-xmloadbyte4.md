@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadByte4
 title: XMLoadByte4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMBYTE4 into an XMVECTOR.
 old-location: dxmath\xmloadbyte4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByte4(const XMBYTE4)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadByte4, XMLoadByte4, XMLoadByte4 method [DirectX Math Support APIs], dxmath.xmloadbyte4
 ms.topic: function

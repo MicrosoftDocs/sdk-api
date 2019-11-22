@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetMessage
 title: lineGetMessage function (tapi.h)
-author: windows-sdk-content
+
 description: The lineGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see lineInitializeEx for further details).
 old-location: tapi2\linegetmessage.htm
 tech.root: Tapi
 ms.assetid: ed6df53e-b01d-40bc-8676-b0f7e0eacfd1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetmessage, lineGetMessage, lineGetMessage function [TAPI 2.2], tapi/lineGetMessage, tapi2.linegetmessage"
 ms.topic: function

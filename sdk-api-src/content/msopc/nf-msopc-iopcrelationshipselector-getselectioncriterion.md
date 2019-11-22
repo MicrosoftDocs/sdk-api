@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectionCriterion
 title: IOpcRelationshipSelector::GetSelectionCriterion (msopc.h)
-author: windows-sdk-content
+
 description: Gets a string that is used to select relationships to be referenced for signing.
 old-location: opc\iopcrelationshipselector_getselectioncriterion.htm
 tech.root: OPC
 ms.assetid: ac1f0347-9b89-4d8f-b0cb-14708e7a6e55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSelectionCriterion, GetSelectionCriterion method [Open Packaging Conventions], GetSelectionCriterion method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectionCriterion method, IOpcRelationshipSelector.GetSelectionCriterion, IOpcRelationshipSelector::GetSelectionCriterion, msopc/IOpcRelationshipSelector::GetSelectionCriterion, opc.iopcrelationshipselector_getselectioncriterion
 ms.topic: method

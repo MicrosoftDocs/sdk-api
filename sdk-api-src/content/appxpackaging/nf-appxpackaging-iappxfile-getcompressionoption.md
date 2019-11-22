@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetCompressionOption
 title: IAppxFile::GetCompressionOption (appxpackaging.h)
-author: windows-sdk-content
+
 description: Retrieves the compression option that is used to store the file in the package.
 old-location: appxpkg\iappxfile_getcompressionoption.htm
 tech.root: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.topic: method

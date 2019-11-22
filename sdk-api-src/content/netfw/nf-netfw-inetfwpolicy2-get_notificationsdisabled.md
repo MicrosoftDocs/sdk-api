@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_NotificationsDisabled
 title: INetFwPolicy2::get_NotificationsDisabled (netfw.h)
-author: windows-sdk-content
+
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwpolicy2_notificationsdisabled.htm
 tech.root: ics
 ms.assetid: 490442a4-3b60-4891-9d0e-71f8d2147999
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],NotificationsDisabled property, INetFwPolicy2.NotificationsDisabled, INetFwPolicy2.get_NotificationsDisabled, INetFwPolicy2::NotificationsDisabled, INetFwPolicy2::get_NotificationsDisabled, INetFwPolicy2::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwPolicy2 interface, get_NotificationsDisabled, ics.inetfwpolicy2_notificationsdisabled, netfw/INetFwPolicy2::NotificationsDisabled, netfw/INetFwPolicy2::get_NotificationsDisabled, netfw/INetFwPolicy2::put_NotificationsDisabled
 ms.topic: method

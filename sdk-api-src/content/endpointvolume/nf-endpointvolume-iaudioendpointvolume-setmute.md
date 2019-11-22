@@ -1,12 +1,12 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMute
 title: IAudioEndpointVolume::SetMute (endpointvolume.h)
-author: windows-sdk-content
+
 description: The SetMute method sets the muting state of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setmute.htm
 tech.root: CoreAudio
 ms.assetid: a0ab4fef-8333-4f21-ae8e-74285788ae0e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMute method, IAudioEndpointVolume.SetMute, IAudioEndpointVolume::SetMute, IAudioEndpointVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmute, endpointvolume/IAudioEndpointVolume::SetMute
 ms.topic: method

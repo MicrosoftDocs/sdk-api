@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.CD3D11_DEPTH_STENCIL_DESC
 title: CD3D11_DEPTH_STENCIL_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Represents a depth-stencil-state structure and provides convenience methods for creating depth-stencil-state structures.
 old-location: direct3d11\cd3d11_depth_stencil_desc.htm
 tech.root: direct3d11
 ms.assetid: 511AF313-C692-423B-AD5A-A0A36018572B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC structure [Direct3D 11], d3d11/CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc
 ms.topic: struct

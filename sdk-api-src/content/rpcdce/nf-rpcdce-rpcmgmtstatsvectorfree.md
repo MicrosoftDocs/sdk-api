@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcMgmtStatsVectorFree
 title: RpcMgmtStatsVectorFree function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcMgmtStatsVectorFree function frees a statistics vector.
 old-location: rpc\rpcmgmtstatsvectorfree.htm
 tech.root: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
 ms.topic: function

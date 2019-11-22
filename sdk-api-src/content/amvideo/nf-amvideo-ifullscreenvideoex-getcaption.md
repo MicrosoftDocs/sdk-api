@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCaption
 title: IFullScreenVideoEx::GetCaption (amvideo.h)
-author: windows-sdk-content
+
 description: The GetCaption method retrieves the caption associated with the full-screen window.
 old-location: dshow\ifullscreenvideoex_getcaption.htm
 tech.root: DirectShow
 ms.assetid: 0757da34-cfc5-4a40-9ad0-03bd016ad828
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCaption, GetCaption method [DirectShow], GetCaption method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCaption method, IFullScreenVideoEx.GetCaption, IFullScreenVideoEx::GetCaption, IFullScreenVideoGetCaption, amvideo/IFullScreenVideoEx::GetCaption, dshow.ifullscreenvideoex_getcaption
 ms.topic: method

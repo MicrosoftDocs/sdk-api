@@ -1,12 +1,12 @@
 ---
 UID: NF:dsgetdc.DsMergeForestTrustInformationW
 title: DsMergeForestTrustInformationW function (dsgetdc.h)
-author: windows-sdk-content
+
 description: Merges the changes from a new forest trust data structure with an old forest trust data structure.
 old-location: ad\dsmergeforesttrustinformationw.htm
 tech.root: ad
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.topic: function

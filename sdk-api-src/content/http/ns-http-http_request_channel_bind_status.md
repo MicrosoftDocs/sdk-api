@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_REQUEST_CHANNEL_BIND_STATUS
 title: HTTP_REQUEST_CHANNEL_BIND_STATUS (http.h)
-author: windows-sdk-content
+
 description: HTTP_REQUEST_CHANNEL_BIND_STATUS.
 old-location: http\http_request_channel_bind_status.htm
 tech.root: http
 ms.assetid: 70f52486-2632-4e15-998b-4d87a86cb11f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS structure [HTTP], PHTTP_REQUEST_CHANNEL_BIND_STATUS, PHTTP_REQUEST_CHANNEL_BIND_STATUS structure pointer [HTTP], http.http_request_channel_bind_status, http/HTTP_REQUEST_CHANNEL_BIND_STATUS, http/PHTTP_REQUEST_CHANNEL_BIND_STATUS'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.AdjustWindowRectExForDpi
 title: AdjustWindowRectExForDpi function (winuser.h)
-author: windows-sdk-content
+
 description: Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI.
 old-location: hidpi\adjustwindowrectexfordpi.htm
 tech.root: hidpi
 ms.assetid: C7126165-1D64-4C04-9B8D-4F90AC2F2C67
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High DPI], hidpi.adjustwindowrectexfordpi, winuser/AdjustWindowRectExForDpi
 ms.topic: function

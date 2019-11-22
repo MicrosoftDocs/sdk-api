@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetPreferredProviders
 title: IMbnInterface::GetPreferredProviders (mbnapi.h)
-author: windows-sdk-content
+
 description: Gets the list of preferred providers.
 old-location: mbn\imbninterface_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
 ms.topic: method

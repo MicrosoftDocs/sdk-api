@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV4
 title: DhcpRemoveSubnetElementV4 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by DhcpRemoveSubnetElement by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.
 old-location: dhcp\dhcpremovesubnetelementv4.htm
 tech.root: DHCP
 ms.assetid: 30edda5e-17de-46ec-9a6a-eab26a6ed29a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveSubnetElementV4, DhcpRemoveSubnetElementV4 function [DHCP], dhcp.dhcpremovesubnetelementv4, dhcpsapi/DhcpRemoveSubnetElementV4
 ms.topic: function

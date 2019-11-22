@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(const BoundingFrustum &)
 title: BoundingFrustum::BoundingFrustum(const BoundingFrustum &)
-author: windows-sdk-content
+
 description: Creates an instance of BoundingFrustum.
 old-location: dxmath\boundingfrustum_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(BoundingFrustum)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(const BoundingFrustum &), BoundingFrustum.BoundingFrustum(const BoundingFrustum&), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(const BoundingFrustum &), dxmath.boundingfrustum_ctor_1
 ms.topic: method

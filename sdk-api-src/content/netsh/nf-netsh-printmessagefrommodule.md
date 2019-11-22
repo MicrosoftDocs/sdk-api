@@ -1,12 +1,12 @@
 ---
 UID: NF:netsh.PrintMessageFromModule
 title: PrintMessageFromModule function (netsh.h)
-author: windows-sdk-content
+
 description: Displays localized output to the NetShell console.
 old-location: netshell\printmessagefrommodule.htm
 tech.root: netshell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetText
 title: ISearchBoxInfo::GetText (shobjidl.h)
-author: windows-sdk-content
+
 description: Retrieves the contents of the search box as plain text.
 old-location: shell\ISearchBoxInfo_GetText.htm
 tech.root: shell
 ms.assetid: 2bfb65d5-a27e-41f7-883e-2e1afe912586
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Shell], GetText method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetText method, ISearchBoxInfo.GetText, ISearchBoxInfo::GetText, _shell_ISearchBoxInfo_GetText, shell.ISearchBoxInfo_GetText, shobjidl/ISearchBoxInfo::GetText
 ms.topic: method

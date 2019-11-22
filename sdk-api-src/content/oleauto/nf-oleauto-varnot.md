@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarNot
 title: VarNot function (oleauto.h)
-author: windows-sdk-content
+
 description: Performs the bitwise not negation operation on a variant.
 old-location: automat\varnot.htm
 tech.root: automat
 ms.assetid: e3825905-2a28-4283-bb65-0273572f3150
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarNot, VarNot function [Automation], _oa96_VarNot, automat.varnot, oleauto/VarNot
 ms.topic: function

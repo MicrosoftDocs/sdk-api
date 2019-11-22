@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV6
 title: DhcpEnumSubnetElementsV6 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpEnumSubnetElementsV6 function returns an enumerated list of elements for a specific DHCP subnet.
 old-location: dhcp\dhcpenumsubnetelementsv6.htm
 tech.root: DHCP
 ms.assetid: 72f40256-7f49-41f3-ac31-d863cd6383db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetElementsV6, DhcpEnumSubnetElementsV6 function [DHCP], dhcp.dhcpenumsubnetelementsv6, dhcpsapi/DhcpEnumSubnetElementsV6
 ms.topic: function

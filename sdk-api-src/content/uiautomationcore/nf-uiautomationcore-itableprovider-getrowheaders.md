@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.ITableProvider.GetRowHeaders
 title: ITableProvider::GetRowHeaders (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Gets a collection of Microsoft UI Automation providers that represents all the row headers in a table.
 old-location: winauto\uiauto_ITableProvider_GetRowHeaders.htm
 tech.root: WinAuto
 ms.assetid: 586870cc-509f-4d5b-a3f6-0f85c86895cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRowHeaders, GetRowHeaders method [Windows Accessibility], GetRowHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetRowHeaders method, ITableProvider.GetRowHeaders, ITableProvider::GetRowHeaders, uiauto.uiauto_ITableProvider_GetRowHeaders, uiauto_ITableProvider_GetRowHeaders, uiautomationcore/ITableProvider::GetRowHeaders, winauto.uiauto_ITableProvider_GetRowHeaders
 ms.topic: method

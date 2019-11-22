@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawInlineObject
 title: IDWriteTextRenderer::DrawInlineObject (dwrite.h)
-author: windows-sdk-content
+
 description: IDWriteTextLayout::Draw calls this application callback when it needs to draw an inline object.
 old-location: directwrite\IDWriteTextRenderer_DrawInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: ea1c4cd0-d9b5-46af-b53e-a2d8fc442acf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawInlineObject, DrawInlineObject method [Direct Write], DrawInlineObject method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawInlineObject method, IDWriteTextRenderer.DrawInlineObject, IDWriteTextRenderer::DrawInlineObject, directwrite.IDWriteTextRenderer_DrawInlineObject, dwrite/IDWriteTextRenderer::DrawInlineObject
 ms.topic: method

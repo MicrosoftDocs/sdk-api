@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_Status
 title: IFaxOutboundRoutingRule::get_Status (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRule::get_Status property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_status_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7h6b.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Status property, IFaxOutboundRoutingRule.Status, IFaxOutboundRoutingRule.get_Status, IFaxOutboundRoutingRule::Status, IFaxOutboundRoutingRule::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.status, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_status_cpp, fax._mfax_faxoutboundroutingrule_status, faxcomex/IFaxOutboundRoutingRule::Status, faxcomex/IFaxOutboundRoutingRule::get_Status, get_Status
 ms.topic: method

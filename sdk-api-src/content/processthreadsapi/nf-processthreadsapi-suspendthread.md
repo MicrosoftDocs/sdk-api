@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.SuspendThread
 title: SuspendThread function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Suspends the specified thread.
 old-location: base\suspendthread.htm
 tech.root: ProcThread
 ms.assetid: 1332abcb-3356-4890-a03c-843358c1a3ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SuspendThread, SuspendThread function, _win32_suspendthread, base.suspendthread, processthreadsapi/SuspendThread, winbase/SuspendThread
 ms.topic: function

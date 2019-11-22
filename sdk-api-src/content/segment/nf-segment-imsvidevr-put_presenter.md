@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidEVR.put_Presenter
 title: IMSVidEVR::put_Presenter (segment.h)
-author: windows-sdk-content
+
 description: The put_Presenter method sets the presenter object for the Enhanced Video Renderer (EVR) filter.
 old-location: mstv\imsvidevr_put_presenter.htm
 tech.root: mstv
 ms.assetid: 602d92fc-e948-4cea-9bbf-8968c5e31257
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_Presenter method, IMSVidEVR.put_Presenter, IMSVidEVR::put_Presenter, IMSVidEVRput_Presenter, mstv.imsvidevr_put_presenter, put_Presenter, put_Presenter method [Microsoft TV Technologies], put_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_Presenter
 ms.topic: method

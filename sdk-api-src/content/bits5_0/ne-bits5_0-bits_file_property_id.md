@@ -1,12 +1,12 @@
 ---
 UID: NE:bits5_0.BITS_FILE_PROPERTY_ID
 title: BITS_FILE_PROPERTY_ID (bits5_0.h)
-author: windows-sdk-content
+
 description: Defines constants that specify ID values corresponding to background copy file properties.
 old-location: bits\bits_file_property_id.htm
 tech.root: Bits
 ms.assetid: A14E301E-029E-43C8-B012-8FFFA652EA40
-ms.author: windowssdkdev
+
 ms.date: 02/20/2019
 ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, bits.bits_file_property_id, bits5_0/BITS_FILE_PROPERTY_ID, bits5_0/BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
 ms.topic: enum

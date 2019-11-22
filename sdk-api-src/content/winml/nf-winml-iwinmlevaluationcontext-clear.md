@@ -1,12 +1,12 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.Clear
 title: IWinMLEvaluationContext::Clear (winml.h)
-author: windows-sdk-content
+
 description: Clears the bindings for a model.
 old-location: machinelearning\iwinmlevaluationcontext_clear.htm
 tech.root: MachineLearning
 ms.assetid: DBA33BEB-0843-463C-8EB8-BF86C7D106AC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,Clear method, IWinMLEvaluationContext.Clear, IWinMLEvaluationContext::Clear, MachineLearning.iwinmlevaluationcontext_clear, winml/IWinMLEvaluationContext::Clear
 ms.topic: method

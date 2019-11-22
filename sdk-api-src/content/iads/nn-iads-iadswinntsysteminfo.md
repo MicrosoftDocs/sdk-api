@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsWinNTSystemInfo
 title: IADsWinNTSystemInfo (iads.h)
-author: windows-sdk-content
+
 description: The IADsWinNTSystemInfo interface retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
 old-location: adsi\iadswinntsysteminfo.htm
 tech.root: adsi
 ms.assetid: 63a20250-1b93-49df-b7f8-7169db8efde0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinNTSystemInfo interface [ADSI],described, _ds_iadswinntsysteminfo, adsi.iadswinntsysteminfo, iads/IADsWinNTSystemInfo
 ms.topic: interface

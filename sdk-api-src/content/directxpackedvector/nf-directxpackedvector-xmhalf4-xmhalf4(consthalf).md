@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(const HALF)
 title: XMHALF4::XMHALF4(const HALF) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMHALF4 from a four element HALF array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 9ee7c969-064a-4b66-8114-ab97a920b4fc
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(const HALF), XMHALF4::XMHALF4, XMHALF4::XMHALF4(const HALF), dxmath.xmhalf4_ctor_1
 ms.topic: method

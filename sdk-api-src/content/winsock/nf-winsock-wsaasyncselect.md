@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.WSAAsyncSelect
 title: WSAAsyncSelect function (winsock.h)
-author: windows-sdk-content
+
 description: Requests Windows message-based notification of network events for a socket.
 old-location: winsock\wsaasyncselect_2.htm
 tech.root: WinSock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 ms.topic: function

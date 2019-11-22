@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Transform
 title: BoundingFrustum::Transform
-author: windows-sdk-content
+
 description: Transforms the BoundingFrustum by the specified transformation matrix.
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Transform

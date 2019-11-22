@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrComplexStructMarshall
 title: NdrComplexStructMarshall function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrComplexStructMarshall function marshals the complex structure into a network buffer.
 old-location: winprog\ndrcomplexstructmarshall.htm
 tech.root: DevNotes
 ms.assetid: 722c274e-1c66-4b46-b243-02eeaaad1f6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrComplexStructMarshall, NdrComplexStructMarshall function [Windows API], rpcndr/NdrComplexStructMarshall, winprog.ndrcomplexstructmarshall
 ms.topic: function

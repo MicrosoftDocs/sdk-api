@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixTransposeArray
 title: ID3D10EffectMatrixVariable::SetMatrixTransposeArray (d3d10effect.h)
-author: windows-sdk-content
+
 description: Transpose and set an array of floating-point matrices.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixtransposearray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixtransposearray.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixTransposeArray method, ID3D10EffectMatrixVariable.SetMatrixTransposeArray, ID3D10EffectMatrixVariable::SetMatrixTransposeArray, SetMatrixTransposeArray, SetMatrixTransposeArray method [Direct3D 10], SetMatrixTransposeArray method [Direct3D 10],ID3D10EffectMatrixVariable interface, cb946e9f-7956-c362-ead3-2f851b8fa74b, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixTransposeArray, direct3d10.id3d10effectmatrixvariable_setmatrixtransposearray
 ms.topic: method

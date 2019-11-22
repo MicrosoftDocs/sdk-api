@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_TEXCUBE_SRV
 title: D3D12_TEXCUBE_SRV (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the subresource from a cube texture to use in a shader-resource view.
 old-location: direct3d12\d3d12_texcube_srv.htm
 tech.root: direct3d12
 ms.assetid: 0924DE2B-73AE-473D-A35B-2DC8D8DBFC49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXCUBE_SRV, D3D12_TEXCUBE_SRV structure, d3d12/D3D12_TEXCUBE_SRV, direct3d12.d3d12_texcube_srv
 ms.topic: struct

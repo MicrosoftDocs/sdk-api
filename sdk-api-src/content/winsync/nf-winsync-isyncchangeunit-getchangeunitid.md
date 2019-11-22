@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetChangeUnitId
 title: ISyncChangeUnit::GetChangeUnitId (winsync.h)
-author: windows-sdk-content
+
 description: Retrieves the ID for this change unit.
 old-location: winsync\isyncchangeunit_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 956f2d51-3b14-4bbd-8a29-6d63aa3c344f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitId method, ISyncChangeUnit.GetChangeUnitId, ISyncChangeUnit::GetChangeUnitId, winsync.isyncchangeunit_getchangeunitid, winsync/ISyncChangeUnit::GetChangeUnitId
 ms.topic: method

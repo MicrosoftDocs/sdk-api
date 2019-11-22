@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections2.GetClientInfo
 title: IWMClientConnections2::GetClientInfo (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetClientInfo method retrieves information about a client attached to a writer network sink.
 old-location: wmformat\iwmclientconnections2_getclientinfo.htm
 tech.root: wmformat
 ms.assetid: 39731e6a-cfd7-48c5-9107-bf5373dfeb4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
 ms.topic: method

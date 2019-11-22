@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathIsRootA
 title: PathIsRootA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Determines whether a path string refers to the root of a volume.
 old-location: shell\PathIsRoot.htm
 tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
 ms.topic: function

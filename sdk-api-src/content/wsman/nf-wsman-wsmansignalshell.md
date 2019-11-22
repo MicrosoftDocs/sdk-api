@@ -1,12 +1,12 @@
 ---
 UID: NF:wsman.WSManSignalShell
 title: WSManSignalShell function (wsman.h)
-author: windows-sdk-content
+
 description: Sends a control code to an existing command or to the shell itself.
 old-location: winrm\wsmansignalshell.htm
 tech.root: winrm
 ms.assetid: 9954097d-3e27-4f56-bf8c-3d9aba5c19b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManSignalShell, WSManSignalShell function [Windows Remote Management], winrm.wsmansignalshell, wsman/WSManSignalShell
 ms.topic: function

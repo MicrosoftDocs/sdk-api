@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE
 title: WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE (webservices.h)
-author: windows-sdk-content
+
 description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_kerberos_apreq_binding_template.htm
 tech.root: wsw
 ms.assetid: 3856d462-baa3-49c7-8f14-f116d16efce0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_tcp_sspi_kerberos_apreq_binding_template
 ms.topic: struct

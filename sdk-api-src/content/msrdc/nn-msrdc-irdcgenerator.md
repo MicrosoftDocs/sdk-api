@@ -1,12 +1,12 @@
 ---
 UID: NN:msrdc.IRdcGenerator
 title: IRdcGenerator (msrdc.h)
-author: windows-sdk-content
+
 description: Used to process the input data and read the parameters used by the generator.
 old-location: rdc\irdcgenerator.htm
 tech.root: rdc
 ms.assetid: 0288318a-0974-4870-b423-87c52090eb33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRdcGenerator, IRdcGenerator interface [Remote Differential Compression], IRdcGenerator interface [Remote Differential Compression],described, fs.irdcgenerator, msrdc/IRdcGenerator, rdc.irdcgenerator
 ms.topic: interface

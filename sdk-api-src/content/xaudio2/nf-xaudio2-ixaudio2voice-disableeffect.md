@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.DisableEffect
 title: IXAudio2Voice::DisableEffect (xaudio2.h)
-author: windows-sdk-content
+
 description: Disables the effect at a given position in the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_disableeffect.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.DisableEffect(UINT32,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisableEffect, DisableEffect method [XAudio2 Audio Mixing APIs], DisableEffect method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],DisableEffect method, IXAudio2Voice.DisableEffect, IXAudio2Voice::DisableEffect, xaudio2.ixaudio2voice_interface_disableeffect, xaudio2/IXAudio2Voice::DisableEffect
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:bcrypt.BCryptEnumContexts
 title: BCryptEnumContexts function (bcrypt.h)
-author: windows-sdk-content
+
 description: Obtains the identifiers of the contexts in the specified configuration table.
 old-location: security\bcryptenumcontexts.htm
 tech.root: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
 ms.topic: function

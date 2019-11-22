@@ -1,12 +1,12 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.StartRemoteApplication
 title: IWorkspace::StartRemoteApplication (workspaceruntime.h)
-author: windows-sdk-content
+
 description: Starts a RemoteApp program.
 old-location: termserv\iworkspace_startremoteapplication.htm
 tech.root: TermServ
 ms.assetid: a1d7e0c2-90bc-49c9-b7d5-380e13af4bba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWorkspace interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace.StartRemoteApplication, IWorkspace2 interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace2::StartRemoteApplication, IWorkspace3 interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace3::StartRemoteApplication, IWorkspace::StartRemoteApplication, StartRemoteApplication, StartRemoteApplication method [Remote Desktop Services], StartRemoteApplication method [Remote Desktop Services],IWorkspace interface, StartRemoteApplication method [Remote Desktop Services],IWorkspace2 interface, StartRemoteApplication method [Remote Desktop Services],IWorkspace3 interface, StartRemoteApplication method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],StartRemoteApplication method, termserv.iworkspace_startremoteapplication, workspaceruntime/IWorkspace2::StartRemoteApplication, workspaceruntime/IWorkspace3::StartRemoteApplication, workspaceruntime/IWorkspace::StartRemoteApplication
 ms.topic: method

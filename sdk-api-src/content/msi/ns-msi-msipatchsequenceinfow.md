@@ -1,12 +1,12 @@
 ---
 UID: NS:msi.tagMSIPATCHSEQUENCEINFOW
 title: MSIPATCHSEQUENCEINFOW (msi.h)
-author: windows-sdk-content
+
 description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.
 old-location: setup\msipatchsequenceinfo.htm
 tech.root: Msi
 ms.assetid: 75f76d85-39f6-4a2c-8b5f-1238639a2014
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMSIPATCHSEQUENCEINFOW, MSIPATCHSEQUENCEINFO, MSIPATCHSEQUENCEINFO structure, MSIPATCHSEQUENCEINFOA, MSIPATCHSEQUENCEINFOW, MSIPATCH_DATATYPE_PATCHFILE, MSIPATCH_DATATYPE_XMLBLOB, MSIPATCH_DATATYPE_XMLPATH, PMSIPATCHSEQUENCEINFO, PMSIPATCHSEQUENCEINFO structure pointer, msi/MSIPATCHSEQUENCEINFO, msi/MSIPATCHSEQUENCEINFOA, msi/MSIPATCHSEQUENCEINFOW, msi/PMSIPATCHSEQUENCEINFO, setup.msipatchsequenceinfo"
 ms.topic: struct

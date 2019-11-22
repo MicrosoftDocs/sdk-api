@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromIndex
 title: SymSetScopeFromIndex function (dbghelp.h)
-author: windows-sdk-content
+
 description: Sets the local scope to the symbol that matches the specified index.
 old-location: base\symsetscopefromindex.htm
 tech.root: Debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromIndex, SymSetScopeFromIndex function, base.symsetscopefromindex, dbghelp/SymSetScopeFromIndex
 ms.topic: function

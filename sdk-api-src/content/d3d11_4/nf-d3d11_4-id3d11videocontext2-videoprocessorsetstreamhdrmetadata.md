@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData
 title: ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData (d3d11_4.h)
-author: windows-sdk-content
+
 description: Sets the HDR metadata associated with the video stream.
 old-location: mf\id3d11videocontext2_videoprocessorsetstreamhdrmetadata.htm
 tech.root: medfound
 ms.assetid: C76CD8EF-3FBF-48B5-9633-BB65840BE34F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData method [Media Foundation], VideoProcessorSetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorsetstreamhdrmetadata
 ms.topic: method

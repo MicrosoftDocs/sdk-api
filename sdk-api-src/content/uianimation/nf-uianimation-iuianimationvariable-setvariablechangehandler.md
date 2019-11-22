@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetVariableChangeHandler
 title: IUIAnimationVariable::SetVariableChangeHandler (uianimation.h)
-author: windows-sdk-content
+
 description: Specifies a variable change handler. This handler is notified of changes to the value of the animation variable.
 old-location: uianimation\iuianimationvariable_setvariablechangehandler.htm
 tech.root: UIAnimation
 ms.assetid: d773a59f-10a5-41e4-92f1-af72d8d15105
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
 ms.topic: method

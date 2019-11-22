@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVPManager.SetVideoPortIndex
 title: IVPManager::SetVideoPortIndex (strmif.h)
-author: windows-sdk-content
+
 description: The SetVideoPortIndex method instructs the Video Port Manager (VPM) to connect to the specified video port.
 old-location: dshow\ivpmanager_setvideoportindex.htm
 tech.root: DirectShow
 ms.assetid: a75332c9-ce3f-4122-ac6c-45478bb5f82c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVPManager interface [DirectShow],SetVideoPortIndex method, IVPManager.SetVideoPortIndex, IVPManager::SetVideoPortIndex, IVPManagerSetVideoPortIndex, SetVideoPortIndex, SetVideoPortIndex method [DirectShow], SetVideoPortIndex method [DirectShow],IVPManager interface, dshow.ivpmanager_setvideoportindex, strmif/IVPManager::SetVideoPortIndex
 ms.topic: method

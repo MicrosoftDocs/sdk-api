@@ -1,12 +1,12 @@
 ---
 UID: NS:winwlx._WLX_DISPATCH_VERSION_1_0
 title: WLX_DISPATCH_VERSION_1_0 (winwlx.h)
-author: windows-sdk-content
+
 description: Defines the format of the Winlogon version 1.0 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_0.htm
 tech.root: SecAuthN
 ms.assetid: 13b08978-5112-44d8-ae41-207e0040eb73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_0, PWLX_DISPATCH_VERSION_1_0, PWLX_DISPATCH_VERSION_1_0 structure pointer [Security], WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_0 structure [Security], _gina_wlx_dispatch_version_1_0, security.wlx_dispatch_version_1_0, winwlx/PWLX_DISPATCH_VERSION_1_0, winwlx/WLX_DISPATCH_VERSION_1_0"
 ms.topic: struct

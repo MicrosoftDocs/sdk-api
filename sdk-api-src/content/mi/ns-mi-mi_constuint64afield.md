@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstUint64AField
 title: MI_ConstUint64AField (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constuint64afield.htm
 tech.root: wmi_v2
 ms.assetid: 2c7b9cb1-a926-4194-9b12-12d0701b2382
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint64AField, MI_ConstUint64AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstUint64AField, wmi._mi_constuint64afield, wmi_v2.mi_constuint64afield
 ms.topic: struct

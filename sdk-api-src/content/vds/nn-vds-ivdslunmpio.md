@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLunMpio
 title: IVdsLunMpio (vds.h)
-author: windows-sdk-content
+
 description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
 old-location: base\ivdslunmpio.htm
 tech.root: VDS
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.topic: interface

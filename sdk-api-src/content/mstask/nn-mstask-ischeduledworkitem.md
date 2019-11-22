@@ -1,12 +1,12 @@
 ---
 UID: NN:mstask.IScheduledWorkItem
 title: IScheduledWorkItem (mstask.h)
-author: windows-sdk-content
+
 description: Provides the methods for managing specific work items.
 old-location: taskschd\ischeduledworkitem.htm
 tech.root: taskschd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], IScheduledWorkItem interface [Task Scheduler],described, _msb_ischeduledworkitem, mstask/IScheduledWorkItem, taskschd.ischeduledworkitem
 ms.topic: interface

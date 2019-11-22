@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiDatabaseExportA
 title: MsiDatabaseExportA function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
 old-location: setup\msidatabaseexport.htm
 tech.root: Msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
 ms.topic: function

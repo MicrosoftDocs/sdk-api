@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSplatW
 title: XMVectorSplatW function (directxmath.h)
-author: windows-sdk-content
+
 description: Replicates the w component of a vector to all of the components.
 old-location: dxmath\xmvectorsplatw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatW(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatW, XMVectorSplatW, XMVectorSplatW method [DirectX Math Support APIs], dxmath.xmvectorsplatw
 ms.topic: function

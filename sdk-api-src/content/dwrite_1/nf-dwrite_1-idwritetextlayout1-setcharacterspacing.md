@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetCharacterSpacing
 title: IDWriteTextLayout1::SetCharacterSpacing (dwrite_1.h)
-author: windows-sdk-content
+
 description: Sets the spacing between characters.
 old-location: directwrite\idwritetextlayout1_setcharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: 88B210CB-ED37-48F1-92F4-40BA591E7952
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing method, IDWriteTextLayout1.SetCharacterSpacing, IDWriteTextLayout1::SetCharacterSpacing, SetCharacterSpacing, SetCharacterSpacing method [Direct Write], SetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setcharacterspacing, dwrite_1/IDWriteTextLayout1::SetCharacterSpacing
 ms.topic: method

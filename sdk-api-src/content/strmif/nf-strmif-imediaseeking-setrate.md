@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetRate
 title: IMediaSeeking::SetRate (strmif.h)
-author: windows-sdk-content
+
 description: The SetRate method sets the playback rate.
 old-location: dshow\imediaseeking_setrate.htm
 tech.root: DirectShow
 ms.assetid: 8cd44480-cadb-4b59-9fe7-4a82b3aed15b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.SetRate, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate, SetRate method [DirectShow], SetRate method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
 ms.topic: method

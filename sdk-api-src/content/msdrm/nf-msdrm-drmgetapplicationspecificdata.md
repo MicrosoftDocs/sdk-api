@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMGetApplicationSpecificData
 title: DRMGetApplicationSpecificData function (msdrm.h)
-author: windows-sdk-content
+
 description: Retrieves a name-value pair of arbitrary application-specific information.
 old-location: rm\drmgetapplicationspecificdata.htm
 tech.root: AdRms_Sdk
 ms.assetid: 49b23f00-bc73-4f51-8bbe-f523ae2408d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMGetApplicationSpecificData, DRMGetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetApplicationSpecificData, rm.drmgetapplicationspecificdata
 ms.topic: function

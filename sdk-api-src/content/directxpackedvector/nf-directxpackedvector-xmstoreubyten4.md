@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMStoreUByteN4
 title: XMStoreUByteN4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in an XMUBYTEN4.
 old-location: dxmath\xmstoreubyten4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByteN4(XMUBYTEN4@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN4, XMStoreUByteN4, XMStoreUByteN4 method [DirectX Math Support APIs], dxmath.xmstoreubyten4
 ms.topic: function

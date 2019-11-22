@@ -1,12 +1,12 @@
 ---
 UID: NS:mobsync._tagSYNCMGRLOGERRORINFO
 title: SYNCMGRLOGERRORINFO (mobsync.h)
-author: windows-sdk-content
+
 description: Provides error information for use in the ISyncMgrSynchronizeCallback::LogError method.
 old-location: shell\syncmgr_syncmgrlogerrorinfo.htm
 tech.root: shell
 ms.assetid: 0220792c-90e7-4802-9ba3-3fc6ce01e4de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSYNCMGRLOGERRORINFO, LPSYNCMGRLOGERRORINFO, LPSYNCMGRLOGERRORINFO structure pointer [Windows Shell], SYNCMGRERRORFLAG_ENABLEJUMPTEXT, SYNCMGRLOGERRORINFO, SYNCMGRLOGERRORINFO structure [Windows Shell], SYNCMGRLOGERROR_ERRORFLAGS, SYNCMGRLOGERROR_ERRORID, SYNCMGRLOGERROR_ITEMID, mobsync/LPSYNCMGRLOGERRORINFO, mobsync/SYNCMGRLOGERRORINFO, shell.syncmgr_syncmgrlogerrorinfo, syncmgr.syncmgrlogerrorinfo"
 ms.topic: struct

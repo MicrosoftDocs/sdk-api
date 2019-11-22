@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.ULongToUInt
 title: ULongToUInt function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type ULONG to a value of type UINT.
 old-location: shell\ULongToUInt.htm
 tech.root: shell
 ms.assetid: f3e11789-9fea-41f6-9d96-ac0a7e267e7e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWordToUInt, ULongToUInt, ULongToUInt function [Windows Shell], _shell_ULongToUInt, intsafe/ULongToUInt, shell.ULongToUInt
 ms.topic: function

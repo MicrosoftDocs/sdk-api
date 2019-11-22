@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DPA_FastDeleteLastPtr
 title: DPA_FastDeleteLastPtr macro (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Deletes the last pointer from a dynamic pointer array (DPA).
 old-location: controls\DPA_FastDeleteLastPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastdeletelastptr.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DPA_FastDeleteLastPtr, DPA_FastDeleteLastPtr macro [Windows Controls], _shell_DPA_FastDeleteLastPtr, _shell_DPA_FastDeleteLastPtr_cpp, controls.DPA_FastDeleteLastPtr, controls._shell_DPA_FastDeleteLastPtr, dpa_dsa/DPA_FastDeleteLastPtr
 ms.topic: macro

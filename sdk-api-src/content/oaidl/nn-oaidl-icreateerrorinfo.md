@@ -1,12 +1,12 @@
 ---
 UID: NN:oaidl.ICreateErrorInfo
 title: ICreateErrorInfo (oaidl.h)
-author: windows-sdk-content
+
 description: Returns error information.
 old-location: automat\icreateerrorinfo.htm
 tech.root: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
 ms.topic: interface

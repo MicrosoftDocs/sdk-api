@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.Graphics(IN HDC)
 title: Graphics::Graphics
 description: Creates a Graphics::Graphics object that is associated with a specified device context.
 ms.assetid: f048c2f7-27b4-48dc-b6d8-871f010603f5
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::Graphics
 ms.topic: language-reference

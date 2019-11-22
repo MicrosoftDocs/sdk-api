@@ -1,12 +1,12 @@
 ---
 UID: NS:ntmsapi._NTMS_PMIDINFORMATIONA
 title: NTMS_PMIDINFORMATIONA (ntmsapi.h)
-author: windows-sdk-content
+
 description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
 old-location: fs\ntms_pmidinformation.htm
 tech.root: Rsm
 ms.assetid: 9ed46cc9-0b93-44ef-9c33-1e1baadb225f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NTMS_BARCODESTATE_OK, NTMS_BARCODESTATE_UNREADABLE, NTMS_MEDIASTATE_IDLE, NTMS_MEDIASTATE_INUSE, NTMS_MEDIASTATE_LOADED, NTMS_MEDIASTATE_MOUNTED, NTMS_MEDIASTATE_OPREQ, NTMS_MEDIASTATE_OP_ERROR, NTMS_MEDIASTATE_UNLOADED, NTMS_PMIDINFORMATION, NTMS_PMIDINFORMATION structure [Files], NTMS_PMIDINFORMATIONA, NTMS_PMIDINFORMATIONW, _NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONW, _zaw_ntms_pmidinformation, base.ntms_pmidinformation, fs.ntms_pmidinformation, ntmsapi/NTMS_PMIDINFORMATION
 ms.topic: struct

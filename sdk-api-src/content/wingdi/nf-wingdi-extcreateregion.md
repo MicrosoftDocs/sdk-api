@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.ExtCreateRegion
 title: ExtCreateRegion function (wingdi.h)
-author: windows-sdk-content
+
 description: The ExtCreateRegion function creates a region from the specified region and transformation data.
 old-location: gdi\extcreateregion.htm
 tech.root: gdi
 ms.assetid: 4dcff824-eb1d-425c-b246-db4ace2c6518
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExtCreateRegion, ExtCreateRegion function [Windows GDI], _win32_ExtCreateRegion, gdi.extcreateregion, wingdi/ExtCreateRegion
 ms.topic: function

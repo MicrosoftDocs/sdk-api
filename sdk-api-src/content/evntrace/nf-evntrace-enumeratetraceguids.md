@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuids
 title: EnumerateTraceGuids function (evntrace.h)
-author: windows-sdk-content
+
 description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
 old-location: etw\enumeratetraceguids.htm
 tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
 ms.topic: function

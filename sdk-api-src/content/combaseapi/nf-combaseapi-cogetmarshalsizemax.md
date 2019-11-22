@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoGetMarshalSizeMax
 title: CoGetMarshalSizeMax function (combaseapi.h)
-author: windows-sdk-content
+
 description: Returns an upper bound on the number of bytes needed to marshal the specified interface pointer to the specified object.
 old-location: com\cogetmarshalsizemax.htm
 tech.root: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.put_WeeksInterval
 title: IWeeklyTrigger::put_WeeksInterval (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the interval between the weeks in the schedule.
 old-location: taskschd\iweeklytrigger_weeksinterval.htm
 tech.root: taskschd
 ms.assetid: 11f2c708-a95b-4b9c-a3a6-9b37b01d2d0b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWeeklyTrigger interface [Task Scheduler],WeeksInterval property, IWeeklyTrigger.WeeksInterval, IWeeklyTrigger.put_WeeksInterval, IWeeklyTrigger::WeeksInterval, IWeeklyTrigger::get_WeeksInterval, IWeeklyTrigger::put_WeeksInterval, WeeksInterval property [Task Scheduler], WeeksInterval property [Task Scheduler],IWeeklyTrigger interface, put_WeeksInterval, taskschd.iweeklytrigger_weeksinterval, taskschd/IWeeklyTrigger::WeeksInterval, taskschd/IWeeklyTrigger::get_WeeksInterval, taskschd/IWeeklyTrigger::put_WeeksInterval
 ms.topic: method

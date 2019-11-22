@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspInformations.get_ItemByIndex
 title: ICspInformations::get_ItemByIndex (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 9891dc5d-ebd6-4347-b47b-2def9c2d28a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICspInformations interface [Security],ItemByIndex property, ICspInformations.ItemByIndex, ICspInformations.get_ItemByIndex, ICspInformations::ItemByIndex, ICspInformations::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByIndex, certenroll/ICspInformations::get_ItemByIndex, get_ItemByIndex, security.icspinformations_itembyindex_property
 ms.topic: method

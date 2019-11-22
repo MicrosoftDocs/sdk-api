@@ -1,12 +1,12 @@
 ---
 UID: NS:xamlom.PropertyChainSource
 title: PropertyChainSource (xamlom.h)
-author: windows-sdk-content
+
 description: Represents the source object (a Style) of a target type.
 old-location: xaml_diagnostics\propertychainsource.htm
 tech.root: xaml_diagnostics
 ms.assetid: B9A506D5-5F7B-429C-AA62-52B4C5BF78E0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainSource, PPropertyChainSource structure pointer, PropertyChainSource, PropertyChainSource structure, xaml_diagnostics.propertychainsource, xamlom/PPropertyChainSource, xamlom/PropertyChainSource
 ms.topic: struct

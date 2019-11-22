@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmapi.WcmQueryProperty
 title: WcmQueryProperty function (wcmapi.h)
-author: windows-sdk-content
+
 description: Retrieves the value of a specified WCM property.
 old-location: wcm\wcmqueryproperty.htm
 tech.root: wcm
 ms.assetid: 07c0993e-2892-4908-be3f-d24210ccc300
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
 ms.topic: function

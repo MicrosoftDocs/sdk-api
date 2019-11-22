@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCat
 title: VarCat function (oleauto.h)
-author: windows-sdk-content
+
 description: Concatenates two variants and returns the result.
 old-location: automat\varcat.htm
 tech.root: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCat, VarCat function [Automation], _oa96_VarCat, automat.varcat, oleauto/VarCat
 ms.topic: function

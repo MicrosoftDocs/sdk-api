@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFTimedText
 title: IMFTimedText (mfmediaengine.h)
-author: windows-sdk-content
+
 description: A timed-text object represents a component of timed text.
 old-location: mf\imftimedtext.htm
 tech.root: medfound
 ms.assetid: C76D087C-7039-4C1F-93D0-0CBAC925EE43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], IMFTimedText interface [Media Foundation],described, mf.imftimedtext, mfmediaengine/IMFTimedText
 ms.topic: interface

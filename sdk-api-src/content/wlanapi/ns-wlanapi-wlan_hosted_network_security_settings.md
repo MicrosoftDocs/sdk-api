@@ -1,12 +1,12 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 title: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS (wlanapi.h)
-author: windows-sdk-content
+
 description: Contains information about the security settings on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_security_settings.htm
 tech.root: NativeWiFi
 ms.assetid: b86beb10-52e5-4bc0-95fe-08307f8d1ccd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_security_settings, wlanapi/PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
 ms.topic: struct

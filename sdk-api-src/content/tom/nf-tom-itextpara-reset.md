@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextPara.Reset
 title: ITextPara::Reset (tom.h)
-author: windows-sdk-content
+
 description: Resets the paragraph formatting to a choice of default values.
 old-location: controls\ITextPara_Reset.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparareset.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],Reset method, ITextPara.Reset, ITextPara::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextPara interface, _win32_ITextPara_Reset, _win32_ITextPara_Reset_cpp, controls.ITextPara_Reset, controls._win32_ITextPara_Reset, tom/ITextPara::Reset
 ms.topic: method

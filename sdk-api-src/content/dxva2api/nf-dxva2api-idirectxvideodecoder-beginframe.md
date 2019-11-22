@@ -1,12 +1,12 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.BeginFrame
 title: IDirectXVideoDecoder::BeginFrame (dxva2api.h)
-author: windows-sdk-content
+
 description: Starts the decoding operation.
 old-location: mf\idirectxvideodecoder_beginframe.htm
 tech.root: medfound
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe
 ms.topic: method

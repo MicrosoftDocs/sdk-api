@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Deserializer_Class_GetParentClassName
 title: MI_Deserializer_Class_GetParentClassName function (mi.h)
-author: windows-sdk-content
+
 description: Gets the parent class name from a serialized class buffer.
 old-location: wmi_v2\mi_deserializer_class_getparentclassname.htm
 tech.root: wmi_v2
 ms.assetid: 35e1d864-cc81-466e-bc5b-006c0aaf56fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_Class_GetParentClassName, MI_Deserializer_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetParentClassName, wmi_v2.mi_deserializer_class_getparentclassname
 ms.topic: function

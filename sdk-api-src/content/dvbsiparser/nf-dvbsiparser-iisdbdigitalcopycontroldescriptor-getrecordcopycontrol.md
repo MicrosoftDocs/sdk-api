@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl
 title: IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets copy control data from a specified component in an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getrecordcopycontrol.htm
 tech.root: mstv
 ms.assetid: 800e2263-b04a-4030-9aba-c0b38033b82d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordCopyControl, GetRecordCopyControl method [Microsoft TV Technologies], GetRecordCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetRecordCopyControl method, IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl, IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getrecordcopycontrol
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResourceList
 title: ItsPubPlugin::GetResourceList (tspubplugincom.h)
-author: windows-sdk-content
+
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin_getresourcelist.htm
 tech.root: TermServ
 ms.assetid: c8f255fe-6f31-4cbb-a600-a27e977a84a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], GetResourceList method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResourceList method, ItsPubPlugin.GetResourceList, ItsPubPlugin::GetResourceList, termserv.itspubplugin_getresourcelist, tspubplugincom/ItsPubPlugin::GetResourceList
 ms.topic: method

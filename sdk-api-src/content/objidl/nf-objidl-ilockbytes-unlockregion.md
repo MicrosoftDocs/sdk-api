@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.ILockBytes.UnlockRegion
 title: ILockBytes::UnlockRegion (objidl.h)
-author: windows-sdk-content
+
 description: The UnlockRegion method removes the access restriction on a previously locked range of bytes.
 old-location: stg\ilockbytes_unlockregion.htm
 tech.root: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
 ms.topic: method

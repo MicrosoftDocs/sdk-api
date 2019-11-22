@@ -1,12 +1,12 @@
 ---
 UID: NS:ddraw._DDOVERLAYFX
 title: DDOVERLAYFX (ddraw.h)
-author: windows-sdk-content
+
 description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.
 old-location: directdraw\ddoverlayfx.htm
 tech.root: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, DDOVERFX_MIRRORUPDOWN, DDOVERLAYFX, DDOVERLAYFX structure [DirectDraw], LPDDOVERLAYFX, LPDDOVERLAYFX structure pointer [DirectDraw], ddraw/DDOVERLAYFX, ddraw/LPDDOVERLAYFX, directdraw.ddoverlayfx"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextAnalyzer
 title: IDWriteFactory::CreateTextAnalyzer (dwrite.h)
-author: windows-sdk-content
+
 description: Returns an interface for performing text analysis.
 old-location: directwrite\IDWriteFactory_CreateTextAnalyzer.htm
 tech.root: DirectWrite
 ms.assetid: 1f786de4-9498-49ef-b884-7e5f69cefe4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTextAnalyzer, CreateTextAnalyzer method [Direct Write], CreateTextAnalyzer method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextAnalyzer method, IDWriteFactory.CreateTextAnalyzer, IDWriteFactory::CreateTextAnalyzer, directwrite.IDWriteFactory_CreateTextAnalyzer, dwrite/IDWriteFactory::CreateTextAnalyzer
 ms.topic: method

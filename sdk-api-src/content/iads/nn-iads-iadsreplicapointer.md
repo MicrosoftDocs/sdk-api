@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsReplicaPointer
 title: IADsReplicaPointer (iads.h)
-author: windows-sdk-content
+
 description: The IADsReplicaPointer interface provides methods for an ADSI client to access the Replica Pointer attribute.
 old-location: adsi\iadsreplicapointer.htm
 tech.root: adsi
 ms.assetid: c34eab26-540e-4400-873e-7af09fda0bbf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI],described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
 ms.topic: interface

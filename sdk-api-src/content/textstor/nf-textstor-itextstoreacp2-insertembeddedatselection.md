@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertEmbeddedAtSelection
 title: ITextStoreACP2::InsertEmbeddedAtSelection (textstor.h)
-author: windows-sdk-content
+
 description: Inserts an IDataObject at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject object into the document.
 old-location: tsf\itextstoreacp2_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 677114a5-8c87-4632-b308-2bb6dedf78c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreACP2 interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP2.InsertEmbeddedAtSelection, ITextStoreACP2::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP2 interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::InsertEmbeddedAtSelection, tsf.itextstoreacp2_insertembeddedatselection
 ms.topic: method

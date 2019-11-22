@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN const RectF &)
 title: Graphics::DrawRectangle
 description: The Graphics::DrawRectangle method draws a rectangle.
 ms.assetid: cf3f26ad-2aec-4986-a884-95763e63013e
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangle
 ms.topic: language-reference

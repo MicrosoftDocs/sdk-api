@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_IS_VOLUME_MOUNTED
 title: FSCTL_IS_VOLUME_MOUNTED
-author: windows-sdk-content
+
 description: Determines whether the specified volume is mounted, or if the specified file or directory is on a mounted volume.
 old-location: fs\fsctl_is_volume_mounted.htm
 tech.root: FileIO
 ms.assetid: 1effd05a-2c9f-4c8b-97dd-ed93b04cc2ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_MOUNTED, FSCTL_IS_VOLUME_MOUNTED control, FSCTL_IS_VOLUME_MOUNTED control code [Files], base.fsctl_is_volume_mounted, fs.fsctl_is_volume_mounted, winioctl/FSCTL_IS_VOLUME_MOUNTED
 ms.topic: ioctl

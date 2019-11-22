@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(const XMSHORT4 &)
 title: XMSHORT4::XMSHORT4(const XMSHORT4 &) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMSHORT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMSHORT4, XMSHORT4 constructor [DirectX Math Support APIs], XMSHORT4 constructor [DirectX Math Support APIs],XMSHORT4 structure, XMSHORT4 structure [DirectX Math Support APIs],XMSHORT4 constructor, XMSHORT4.XMSHORT4, XMSHORT4.XMSHORT4(), XMSHORT4.XMSHORT4(const XMSHORT4 &), XMSHORT4::XMSHORT4, XMSHORT4::XMSHORT4(const XMSHORT4 &), dxmath.xmshort4_ctor_1
 ms.topic: method

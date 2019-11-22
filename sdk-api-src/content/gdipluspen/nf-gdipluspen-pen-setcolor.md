@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.SetColor
 title: Pen::SetColor (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::SetColor method sets the color for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setcolor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetColor method, Pen.SetColor, Pen::SetColor, SetColor, SetColor method [GDI+], SetColor method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetColor_color_, gdiplus._gdiplus_CLASS_Pen_SetColor_color_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:snmp.SnmpUtilOidFree
 title: SnmpUtilOidFree function (snmp.h)
-author: windows-sdk-content
+
 description: The SnmpUtilOidFree function frees the memory allocated for the specified object identifier. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloidfree.htm
 tech.root: SNMP
 ms.assetid: 8fc44fdf-956a-4102-bcbb-4cd17a73828c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidFree, SnmpUtilOidFree function [SNMP], _snmp_snmputiloidfree, snmp.snmputiloidfree, snmp/SnmpUtilOidFree
 ms.topic: function

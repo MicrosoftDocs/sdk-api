@@ -1,12 +1,12 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmap
 title: MFVideoAlphaBitmap (evr9.h)
-author: windows-sdk-content
+
 description: Specifies a bitmap for the enhanced video renderer (EVR) to alpha-blend with the video.
 old-location: mf\mfvideoalphabitmap.htm
 tech.root: medfound
 ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 609041f2-7ba4-4157-819b-4ac21612dca2, MFVideoAlphaBitmap, MFVideoAlphaBitmap structure [Media Foundation], evr9/MFVideoAlphaBitmap, mf.mfvideoalphabitmap
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Status
 title: CM_Get_DevNode_Status function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Get_DevNode_Status function obtains the status of a device instance from its device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_devnode_status.htm
 tech.root: devinst
 ms.assetid: 7347c142-8bcf-43b3-aef0-5f99e2873560
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Status, CM_Get_DevNode_Status function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Status, cfgmgrfn_ac924e13-1a2f-4e48-90fe-1020faf1a0df.xml, devinst.cm_get_devnode_status
 ms.topic: function

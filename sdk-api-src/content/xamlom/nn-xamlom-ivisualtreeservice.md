@@ -1,12 +1,12 @@
 ---
 UID: NN:xamlom.IVisualTreeService
 title: IVisualTreeService (xamlom.h)
-author: windows-sdk-content
+
 description: Provides methods to manage a XAML visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice.htm
 tech.root: xaml_diagnostics
 ms.assetid: 5C0896E4-E37E-49DF-B303-1814BCA6F5B3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeService interface,described, xaml_diagnostics.ivisualtreeservice, xamlom/IVisualTreeService
 ms.topic: interface

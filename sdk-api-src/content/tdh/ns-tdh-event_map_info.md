@@ -1,12 +1,12 @@
 ---
 UID: NS:tdh._EVENT_MAP_INFO
 title: EVENT_MAP_INFO (tdh.h)
-author: windows-sdk-content
+
 description: Defines the metadata about the event map.
 old-location: etw\event_map_info_struct.htm
 tech.root: ETW
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], etw.event_map_info_struct, tdh.event_map_info_struct, tdh/EVENT_MAP_INFO'
 ms.topic: struct

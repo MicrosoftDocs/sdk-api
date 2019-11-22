@@ -1,12 +1,12 @@
 ---
 UID: NE:codecapi.eAVEncDDAtoDConverterType
 title: eAVEncDDAtoDConverterType (codecapi.h)
-author: windows-sdk-content
+
 description: Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the AVEncDDAtoDConverterType property.
 old-location: dshow\eavencddatodconvertertype.htm
 tech.root: DirectShow
 ms.assetid: 74f7a54a-dae8-46d0-bc99-c42fa548f4f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDAtoDConverterType, codecapi/eAVEncDDAtoDConverterType_HDCD, codecapi/eAVEncDDAtoDConverterType_Standard, dshow.eavencddatodconvertertype, eAVEncDDAtoDConverterType, eAVEncDDAtoDConverterType enumeration [DirectShow], eAVEncDDAtoDConverterType_HDCD, eAVEncDDAtoDConverterType_Standard
 ms.topic: enum

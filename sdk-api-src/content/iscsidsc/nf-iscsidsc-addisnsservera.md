@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.AddISNSServerA
 title: AddISNSServerA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\addisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddISNSServerA, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
 ms.topic: function

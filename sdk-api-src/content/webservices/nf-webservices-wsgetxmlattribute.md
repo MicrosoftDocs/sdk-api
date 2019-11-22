@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsGetXmlAttribute
 title: WsGetXmlAttribute function (webservices.h)
-author: windows-sdk-content
+
 description: Finds the nearest xml attribute in scope with the specified localName and returns its value. The returned value is placed on the specified heap.
 old-location: wsw\wsgetxmlattribute.htm
 tech.root: wsw
 ms.assetid: dca29f9b-a218-4764-bf7e-98a027c4336d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsGetXmlAttribute, WsGetXmlAttribute function [Web Services for Windows], webservices/WsGetXmlAttribute, wsw.wsgetxmlattribute
 ms.topic: function

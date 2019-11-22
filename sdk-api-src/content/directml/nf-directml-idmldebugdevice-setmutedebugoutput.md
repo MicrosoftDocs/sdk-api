@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDebugDevice.SetMuteDebugOutput
 title: IDMLDebugDevice::SetMuteDebugOutput
-author: windows-sdk-content
+
 description: Determine whether to mute DirectML from sending messages to the ID3D12InfoQueue.
 old-location: direct3d12\idmldebugdevice_setmutedebugoutput.htm
 tech.root: direct3d12
 ms.assetid: 74BA5FE6-1197-4BF0-A5FE-FAFE650C4C8E
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice interface,SetMuteDebugOutput method, IDMLDebugDevice.SetMuteDebugOutput, IDMLDebugDevice::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,IDMLDebugDevice interface, direct3d12.idmldebugdevice_setmutedebugoutput, directml/IDMLDebugDevice::SetMuteDebugOutput
 ms.topic: method

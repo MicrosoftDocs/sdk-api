@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptShapeOpenType
 title: ScriptShapeOpenType function (usp10.h)
-author: windows-sdk-content
+
 description: Generates glyphs and visual attributes for a Unicode run with OpenType information. Each run consists of one call to this function.
 old-location: intl\scriptshapeopentype.htm
 tech.root: Intl
 ms.assetid: d2e062a6-2ec8-4057-b525-d1cd719dc736
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptShapeOpenType, ScriptShapeOpenType function [Internationalization for Windows Applications], _win32_ScriptShapeOpenType, intl.scriptshapeopentype, usp10/ScriptShapeOpenType
 ms.topic: function

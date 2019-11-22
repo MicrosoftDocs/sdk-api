@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileSize
 title: IOfflineFilesSyncErrorItemInfo::GetFileSize (cscobj.h)
-author: windows-sdk-content
+
 description: Retrieves the size of the item in bytes.
 old-location: of\iofflinefilessyncerroriteminfo_getfilesize.htm
 tech.root: offlinefiles
 ms.assetid: a1873a10-0e60-46c3-a3a3-12d974cc0ee9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileSize method, IOfflineFilesSyncErrorItemInfo.GetFileSize, IOfflineFilesSyncErrorItemInfo::GetFileSize, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize, of.iofflinefilessyncerroriteminfo_getfilesize
 ms.topic: method

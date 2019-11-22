@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_Call
 title: ITDigitGenerationEvent::get_Call (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Call method returns an ITCallInfo interface pointer for the call on which the event is required.
 old-location: tapi3\itdigitgenerationevent_get_call.htm
 tech.root: Tapi
 ms.assetid: b0f4281f-e1df-4be9-acfc-5482044eb44b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_Call method, ITDigitGenerationEvent.get_Call, ITDigitGenerationEvent::get_Call, _tapi3_itdigitgenerationevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_call, tapi3if/ITDigitGenerationEvent::get_Call
 ms.topic: method

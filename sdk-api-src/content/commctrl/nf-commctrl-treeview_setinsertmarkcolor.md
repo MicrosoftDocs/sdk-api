@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_SetInsertMarkColor
 title: TreeView_SetInsertMarkColor macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the TVM_SETINSERTMARKCOLOR message explicitly.
 old-location: controls\TreeView_SetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setinsertmarkcolor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetInsertMarkColor, TreeView_SetInsertMarkColor macro [Windows Controls], _win32_TreeView_SetInsertMarkColor, _win32_TreeView_SetInsertMarkColor_cpp, commctrl/TreeView_SetInsertMarkColor, controls.TreeView_SetInsertMarkColor, controls._win32_TreeView_SetInsertMarkColor
 ms.topic: macro

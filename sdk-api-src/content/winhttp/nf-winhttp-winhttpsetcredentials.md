@@ -1,12 +1,12 @@
 ---
 UID: NF:winhttp.WinHttpSetCredentials
 title: WinHttpSetCredentials function (winhttp.h)
-author: windows-sdk-content
+
 description: The WinHttpSetCredentials function passes the required authorization credentials to the server.
 old-location: http\winhttpsetcredentials.htm
 tech.root: WinHttp
 ms.assetid: a864c708-9481-460a-87aa-1d31c344c0a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpSetCredentials, WinHttpSetCredentials function [WinHTTP], http.winhttpsetcredentials, winhttp.winhttpsetcredentials_function, winhttp/WinHttpSetCredentials
 ms.topic: function

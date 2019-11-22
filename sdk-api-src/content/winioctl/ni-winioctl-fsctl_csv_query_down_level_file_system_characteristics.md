@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS
 title: FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS
-author: windows-sdk-content
+
 description: Retrieves information about a file system for which CSVFS is a proxy.
 old-location: fs\fsctl_csv_query_down_level_file_system_characteristics.htm
 tech.root: FileIO
 ms.assetid: 1AC3FD47-70B8-4735-9B25-A8B2BAEE5A83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS, FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS control, FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS control code [Files], fs.fsctl_csv_query_down_level_file_system_characteristics, winioctl/FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS
 ms.topic: ioctl

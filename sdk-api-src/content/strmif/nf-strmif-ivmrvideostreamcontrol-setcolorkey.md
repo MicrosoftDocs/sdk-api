@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.SetColorKey
 title: IVMRVideoStreamControl::SetColorKey (strmif.h)
-author: windows-sdk-content
+
 description: The SetColorKey method sets the source color key that the VMR will use when compositing the video image.
 old-location: dshow\ivmrvideostreamcontrol_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 30a4009c-5da0-4a07-9d4b-7c9047fb6dd8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetColorKey method, IVMRVideoStreamControl.SetColorKey, IVMRVideoStreamControl::SetColorKey, IVMRVideoStreamControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setcolorkey, strmif/IVMRVideoStreamControl::SetColorKey
 ms.topic: method

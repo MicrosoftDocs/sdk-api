@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ImageAttributes(GpImageAttributes,Status)
 title: ImageAttributes::ImageAttributes(GpImageAttributes,Status) (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: Creates an ImageAttributes::ImageAttributes object. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ImageAttributes_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributes_26.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes, ImageAttributes class [GDI+],ImageAttributes constructor, ImageAttributes constructor [GDI+], ImageAttributes constructor [GDI+],ImageAttributes class, ImageAttributes.ImageAttributes, ImageAttributes.ImageAttributes(GpImageAttributes,Status), ImageAttributes::ImageAttributes, ImageAttributes::ImageAttributes(GpImageAttributes,Status), _gdiplus_CLASS_ImageAttributes_ImageAttributes_, gdiplus._gdiplus_CLASS_ImageAttributes_ImageAttributes_
 ms.topic: method

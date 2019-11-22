@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Transform
 title: IInkStrokes::Transform (msinkaut.h)
-author: windows-sdk-content
+
 description: Applies a linear transformation to an IInkStrokeDisp object or an InkStrokes collection, which can represent scaling, rotation, translation, and combinations of transformations.
 old-location: tablet\inkstrokes_transform.htm
 tech.root: tablet
 ms.assetid: 910ae16d-be9a-422c-b9af-9a2df28df463
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Transform method, IInkStrokes.Transform, IInkStrokes::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokes interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokes::Transform, tablet.inkstrokes_transform
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceServices
 title: IPortableDeviceServiceManager::GetDeviceServices (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: Retrieves a list of the services associated with the specified device.
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceservices.htm
 tech.root: wpd_sdk
 ms.assetid: d6b06f4d-c07e-4cd4-b96e-e8b9b4f98df8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDeviceServices, GetDeviceServices method [Windows Portable Devices SDK], GetDeviceServices method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceServices method, IPortableDeviceServiceManager.GetDeviceServices, IPortableDeviceServiceManager::GetDeviceServices, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices, wpdsdk.iportabledeviceservicemanager_getdeviceservices
 ms.topic: method

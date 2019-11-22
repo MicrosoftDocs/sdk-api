@@ -1,12 +1,12 @@
 ---
 UID: NF:http.HTTP_LESS_EQUAL_VERSION
 title: HTTP_LESS_EQUAL_VERSION macro (http.h)
-author: windows-sdk-content
+
 description: Returns a non-zero value if an HTTP_VERSION structure is less than or equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\http_less_equal_version.htm
 tech.root: http
 ms.assetid: c543c8cf-9574-49a8-a123-bfdaa8c6f041
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HTTP_LESS_EQUAL_VERSION, HTTP_LESS_EQUAL_VERSION macro [HTTP], _http_http_less_equal_version, http.http_less_equal_version, http/HTTP_LESS_EQUAL_VERSION
 ms.topic: macro

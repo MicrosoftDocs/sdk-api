@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ScaleTransform
 title: Graphics::ScaleTransform (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::ScaleTransform method updates this Graphics object's world transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\scaletransform.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],ScaleTransform method, Graphics.ScaleTransform, Graphics::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_
 ms.topic: method

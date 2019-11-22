@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_PropertyW
 title: CM_Set_DevNode_PropertyW function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Set_DevNode_Property function sets a device instance property.
 old-location: devinst\cm_set_devnode_property.htm
 tech.root: devinst
 ms.assetid: D6511A3B-F324-4153-8EAE-8C970AAE4E9D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Property, CM_Set_DevNode_Property function [Device and Driver Installation], CM_Set_DevNode_PropertyW, cfgmgr32/CM_Set_DevNode_Property, cfgmgr32/CM_Set_DevNode_PropertyW, devinst.cm_set_devnode_property
 ms.topic: function

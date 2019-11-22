@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID
 title: WS_UNIQUE_ID (webservices.h)
-author: windows-sdk-content
+
 description: Represents a unique ID URI.
 old-location: wsw\ws_unique_id.htm
 tech.root: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], webservices/WS_UNIQUE_ID, wsw.ws_unique_id
 ms.topic: struct

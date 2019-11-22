@@ -1,12 +1,12 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache2.InitializeEx
 title: IEmptyVolumeCache2::InitializeEx (emptyvc.h)
-author: windows-sdk-content
+
 description: Initializes the disk cleanup handler. It provides better support for localization than Initialize.
 old-location: lwef\iemptyvolumecache2_initializeex.htm
 tech.root: lwef
 ms.assetid: 42f39dcd-0292-4121-89e9-80145b1c1c7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2 interface [Legacy Windows Environment Features],InitializeEx method, IEmptyVolumeCache2.InitializeEx, IEmptyVolumeCache2::InitializeEx, InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features],IEmptyVolumeCache2 interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
 ms.topic: method

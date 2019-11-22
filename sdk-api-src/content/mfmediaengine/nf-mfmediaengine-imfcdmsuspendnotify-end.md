@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.End
 title: IMFCdmSuspendNotify::End (mfmediaengine.h)
-author: windows-sdk-content
+
 description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
 old-location: mf\imfcdmsuspendnotify_end.htm
 tech.root: medfound
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: End, End method [Media Foundation], End method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],End method, IMFCdmSuspendNotify.End, IMFCdmSuspendNotify::End, mf.imfcdmsuspendnotify_end, mfmediaengine/IMFCdmSuspendNotify::End
 ms.topic: method

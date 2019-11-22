@@ -1,12 +1,12 @@
 ---
 UID: NF:fibersapi.FlsGetValue
 title: FlsGetValue function
-author: windows-sdk-content
+
 description: Retrieves the value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
 old-location: base\flsgetvalue.htm
 tech.root: ProcThread
 ms.assetid: 5d5a1fe6-10ed-42c5-87db-b24eef6f174c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetvalue, fibersapi/FlsGetValue, winbase/FlsGetValue
 ms.topic: function

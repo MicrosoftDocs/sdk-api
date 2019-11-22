@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_ALLOCATED_RANGES
 title: FSCTL_QUERY_ALLOCATED_RANGES
-author: windows-sdk-content
+
 description: Scans a file or alternate stream looking for ranges that may contain nonzero data.
 old-location: fs\fsctl_query_allocated_ranges.htm
 tech.root: FileIO
 ms.assetid: 053e26ec-1529-41b3-aeb6-128b3085bafc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_ALLOCATED_RANGES, FSCTL_QUERY_ALLOCATED_RANGES control, FSCTL_QUERY_ALLOCATED_RANGES control code [Files], _win32_fsctl_query_allocated_ranges, base.fsctl_query_allocated_ranges, fs.fsctl_query_allocated_ranges, winioctl/FSCTL_QUERY_ALLOCATED_RANGES
 ms.topic: ioctl

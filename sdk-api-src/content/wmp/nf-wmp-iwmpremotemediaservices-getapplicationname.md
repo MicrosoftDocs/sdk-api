@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetApplicationName
 title: IWMPRemoteMediaServices::GetApplicationName (wmp.h)
-author: windows-sdk-content
+
 description: The GetApplicationName method is called by Windows Media Player to retrieve the name of the program that is hosting the remoted control.
 old-location: wmp\iwmpremotemediaservices_getapplicationname.htm
 tech.root: WMP
 ms.assetid: b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetApplicationName method, IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
 ms.topic: method

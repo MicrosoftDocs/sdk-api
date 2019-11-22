@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetPacketAttachNetworkError
 title: IMbnRegistration::GetPacketAttachNetworkError (mbnapi.h)
-author: windows-sdk-content
+
 description: Gets the network error from a packet attach operation.
 old-location: mbn\imbnregistration_getpacketattachnetworkerror.htm
 tech.root: mbn
 ms.assetid: b51103fe-f4b2-46a5-9335-44bf6591e447
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPacketAttachNetworkError, GetPacketAttachNetworkError method [Microsoft Broadband Networks], GetPacketAttachNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetPacketAttachNetworkError method, IMbnRegistration.GetPacketAttachNetworkError, IMbnRegistration::GetPacketAttachNetworkError, mbn.imbnregistration_getpacketattachnetworkerror, mbnapi/IMbnRegistration::GetPacketAttachNetworkError
 ms.topic: method

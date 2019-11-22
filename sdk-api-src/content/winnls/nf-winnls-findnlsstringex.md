@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.FindNLSStringEx
 title: FindNLSStringEx function (winnls.h)
-author: windows-sdk-content
+
 description: Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by name.Caution  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in Security Considerations:\_International Features.
 old-location: intl\findnlsstringex.htm
 tech.root: Intl
 ms.assetid: 38339881-30d2-4f55-9fee-81916ab15135
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindNLSStringEx, FindNLSStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, _win32_FindNLSStringEx, intl.findnlsstringex, winnls/FindNLSStringEx
 ms.topic: function

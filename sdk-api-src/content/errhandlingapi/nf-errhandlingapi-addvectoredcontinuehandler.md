@@ -1,12 +1,12 @@
 ---
 UID: NF:errhandlingapi.AddVectoredContinueHandler
 title: AddVectoredContinueHandler function (errhandlingapi.h)
-author: windows-sdk-content
+
 description: Registers a vectored continue handler.
 old-location: base\addvectoredcontinuehandler.htm
 tech.root: Debug
 ms.assetid: 23ad21a1-a298-45ac-9867-463f0852f292
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddVectoredContinueHandler, AddVectoredContinueHandler function, base.addvectoredcontinuehandler, errhandlingapi/AddVectoredContinueHandler
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NodeName
 title: IKsTopologyInfo::get_NodeName (vidcap.h)
-author: windows-sdk-content
+
 description: The get_NodeName method returns the name of the node.
 old-location: dshow\ikstopologyinfo_get_nodename.htm
 tech.root: DirectShow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
 ms.topic: method

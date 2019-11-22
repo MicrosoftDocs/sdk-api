@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetGValue
 title: GetGValue macro (wingdi.h)
-author: windows-sdk-content
+
 description: The GetGValue macro retrieves an intensity value for the green component of a red, green, blue (RGB) value.
 old-location: gdi\getgvalue.htm
 tech.root: gdi
 ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
 ms.topic: macro

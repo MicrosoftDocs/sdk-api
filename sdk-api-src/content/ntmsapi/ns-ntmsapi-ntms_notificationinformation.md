@@ -1,12 +1,12 @@
 ---
 UID: NS:ntmsapi._NTMS_NOTIFICATIONINFORMATION
 title: NTMS_NOTIFICATIONINFORMATION (ntmsapi.h)
-author: windows-sdk-content
+
 description: The NTMS_NOTIFICATIONINFORMATION structure defines an object and operation that occurred in the RSM database.
 old-location: fs\ntms_notificationinformation.htm
 tech.root: Rsm
 ms.assetid: d9c6904b-260d-4598-9575-49c7d7b6e66d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION structure pointer [Files], NTMS_NOTIFICATIONINFORMATION, NTMS_NOTIFICATIONINFORMATION structure [Files], NTMS_OBJ_DELETE, NTMS_OBJ_INSERT, NTMS_OBJ_UPDATE, _zaw_ntms_notificationinformation, base.ntms_notificationinformation, fs.ntms_notificationinformation, ntmsapi/LPNTMS_NOTIFICATIONINFORMATION, ntmsapi/NTMS_NOTIFICATIONINFORMATION"
 ms.topic: struct

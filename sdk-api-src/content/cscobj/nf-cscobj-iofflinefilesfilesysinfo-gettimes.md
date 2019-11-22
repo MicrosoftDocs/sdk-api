@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetTimes
 title: IOfflineFilesFileSysInfo::GetTimes (cscobj.h)
-author: windows-sdk-content
+
 description: Retrieves the time values associated with an item.
 old-location: of\iofflinefilesfilesysinfo_gettimes.htm
 tech.root: offlinefiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
 ms.topic: method

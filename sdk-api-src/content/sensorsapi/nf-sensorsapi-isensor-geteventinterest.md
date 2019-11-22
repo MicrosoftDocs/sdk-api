@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensor.GetEventInterest
 title: ISensor::GetEventInterest (sensorsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the current event interest settings.
 old-location: winsensors_com_ref\isensor_geteventinterest.htm
 tech.root: SensorsAPI
 ms.assetid: 8324817e-c310-4b90-b5b4-c7e113e3502e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEventInterest, GetEventInterest method, GetEventInterest method,ISensor interface, ISensor interface,GetEventInterest method, ISensor.GetEventInterest, ISensor::GetEventInterest, sensorsapi/ISensor::GetEventInterest, winsensors_com_ref.isensor_geteventinterest
 ms.topic: method

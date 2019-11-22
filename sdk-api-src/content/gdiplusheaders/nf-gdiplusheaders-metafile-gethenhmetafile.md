@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetHENHMETAFILE
 title: Metafile::GetHENHMETAFILE (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Metafile::GetHENHMETAFILE method gets a Windows handle to an Enhanced Metafile (EMF) file.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetHENHMETAFILE_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\gethenhmetafile.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHENHMETAFILE, GetHENHMETAFILE method [GDI+], GetHENHMETAFILE method [GDI+],Metafile class, Metafile class [GDI+],GetHENHMETAFILE method, Metafile.GetHENHMETAFILE, Metafile::GetHENHMETAFILE, _gdiplus_CLASS_Metafile_GetHENHMETAFILE_, gdiplus._gdiplus_CLASS_Metafile_GetHENHMETAFILE_
 ms.topic: method

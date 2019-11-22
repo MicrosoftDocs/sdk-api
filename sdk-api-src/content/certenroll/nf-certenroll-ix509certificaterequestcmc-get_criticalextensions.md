@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_CriticalExtensions
 title: IX509CertificateRequestCmc::get_CriticalExtensions (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestcmc_criticalextensions_property.htm
 tech.root: seccertenroll
 ms.assetid: 06c5d148-eecc-45db-9d82-ec56c226ffed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],CriticalExtensions property, IX509CertificateRequestCmc.CriticalExtensions, IX509CertificateRequestCmc.get_CriticalExtensions, IX509CertificateRequestCmc::CriticalExtensions, IX509CertificateRequestCmc::get_CriticalExtensions, certenroll/IX509CertificateRequestCmc::CriticalExtensions, certenroll/IX509CertificateRequestCmc::get_CriticalExtensions, get_CriticalExtensions, security.ix509certificaterequestcmc_criticalextensions_property
 ms.topic: method

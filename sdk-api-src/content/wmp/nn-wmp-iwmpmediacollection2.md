@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPMediaCollection2
 title: IWMPMediaCollection2 (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPMediaCollection2 interface provides methods that supplement the IWMPMediaCollection interface.
 old-location: wmp\iwmpmediacollection2.htm
 tech.root: WMP
 ms.assetid: 576e231e-542a-495c-ad1b-a246339c3cb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], IWMPMediaCollection2 interface [Windows Media Player],described, IWMPMediaCollection2Interface, wmp.iwmpmediacollection2, wmp/IWMPMediaCollection2
 ms.topic: interface

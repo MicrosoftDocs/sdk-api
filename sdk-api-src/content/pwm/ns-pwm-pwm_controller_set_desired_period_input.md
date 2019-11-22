@@ -1,12 +1,12 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 title: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT (pwm.h)
-author: windows-sdk-content
+
 description: Contains an input value for a suggested signal period for the Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_set_desired_period_input.htm
 tech.root: devio
 ms.assetid: BD003CAE-3DB9-4C7B-9CAD-735866C17004
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure, base.pwm_controller_set_desired_period_input, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 ms.topic: struct

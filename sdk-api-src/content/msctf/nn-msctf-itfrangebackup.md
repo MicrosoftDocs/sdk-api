@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfRangeBackup
 title: ITfRangeBackup (msctf.h)
-author: windows-sdk-content
+
 description: The ITfRangeBackup interface is implemented by the TSF manager and is used by a text service to create a backup copy of the data contained in a range object.
 old-location: tsf\itfrangebackup.htm
 tech.root: TSF
 ms.assetid: f98cd8d0-7033-4bd2-94a1-1a75913c2647
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_6
 title: SHFOLDERCUSTOMSETTINGS (shlobj_core.h)
-author: windows-sdk-content
+
 description: Holds custom folder settings. This structure is used with the SHGetSetFolderCustomSettings function.
 old-location: shell\SHFOLDERCUSTOMSETTINGS.htm
 tech.root: shell
 ms.assetid: a6357372-80ef-4719-b53f-87eb3fdc1b0d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSHFOLDERCUSTOMSETTINGS, FCSM_CLSID, FCSM_FLAGS, FCSM_ICONFILE, FCSM_INFOTIP, FCSM_LOGO, FCSM_VIEWID, FCSM_WEBVIEWTEMPLATE, LPSHFOLDERCUSTOMSETTINGS, LPSHFOLDERCUSTOMSETTINGS structure pointer [Windows Shell], SHFOLDERCUSTOMSETTINGS, SHFOLDERCUSTOMSETTINGS structure [Windows Shell], SHFOLDERCUSTOMSETTINGSA, SHFOLDERCUSTOMSETTINGSW, _win32_SHFOLDERCUSTOMSETTINGS, shell.SHFOLDERCUSTOMSETTINGS, shlobj_core/LPSHFOLDERCUSTOMSETTINGS, shlobj_core/SHFOLDERCUSTOMSETTINGS, shlobj_core/SHFOLDERCUSTOMSETTINGSA, shlobj_core/SHFOLDERCUSTOMSETTINGSW"
 ms.topic: struct

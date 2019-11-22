@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfTransitoryExtensionUIElement
 title: ITfTransitoryExtensionUIElement (msctf.h)
-author: windows-sdk-content
+
 description: The ITfTransitoryExtensionUIElement interface is implemented by TSF manager which provides the UI of transitory extension.
 old-location: tsf\itftransitoryextensionuielement.htm
 tech.root: TSF
 ms.assetid: 37fd507b-6c06-4873-b8b4-11113edb1433
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfTransitoryExtensionUIElement, ITfTransitoryExtensionUIElement interface [Text Services Framework], ITfTransitoryExtensionUIElement interface [Text Services Framework],described, _tsf_itftransitoryextensionuielement_ref, msctf/ITfTransitoryExtensionUIElement, tsf.itftransitoryextensionuielement
 ms.topic: interface

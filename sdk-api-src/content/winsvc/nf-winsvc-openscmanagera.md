@@ -1,12 +1,12 @@
 ---
 UID: NF:winsvc.OpenSCManagerA
 title: OpenSCManagerA function (winsvc.h)
-author: windows-sdk-content
+
 description: Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database.
 old-location: base\openscmanager.htm
 tech.root: Services
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
 ms.topic: function

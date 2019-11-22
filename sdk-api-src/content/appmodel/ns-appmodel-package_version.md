@@ -1,12 +1,12 @@
 ---
 UID: NS:appmodel.PACKAGE_VERSION
 title: PACKAGE_VERSION (appmodel.h)
-author: windows-sdk-content
+
 description: Represents the package version information.
 old-location: appxpkg\package_version.htm
 tech.root: appxpkg
 ms.assetid: 8543DF84-A908-4DF5-AEE6-169FECB2AA97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and management], appmodel/PACKAGE_VERSION, appxpkg.package_version
 ms.topic: struct

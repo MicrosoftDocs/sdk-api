@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACP.SetSelection
 title: ITextStoreACP::SetSelection (textstor.h)
-author: windows-sdk-content
+
 description: The ITextStoreACP::SetSelection method selects text within the document. The application must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp_setselection.htm
 tech.root: TSF
 ms.assetid: e9151b63-2ca7-4995-a36b-b919ab2d491a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetSelection method, ITextStoreACP.SetSelection, ITextStoreACP::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetEmptyInstance(LPCWSTR,CInstance,LPCWSTR)
 title: CWbemProviderGlue::GetEmptyInstance (wbemglue.h)
-author: windows-sdk-content
+
 description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
 old-location: wmi\cwbemproviderglue_getemptyinstance.htm
 tech.root: WmiSdk
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
 ms.topic: method

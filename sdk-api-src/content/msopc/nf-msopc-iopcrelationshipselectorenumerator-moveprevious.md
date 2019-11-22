@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.MovePrevious
 title: IOpcRelationshipSelectorEnumerator::MovePrevious (msopc.h)
-author: windows-sdk-content
+
 description: Moves the current position of the enumerator to the previous IOpcRelationshipSelectorinterface pointer.
 old-location: opc\iopcrelationshipselectorenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: dd367eb8-cd1c-4f0a-a435-aad86685b71a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcRelationshipSelectorEnumerator.MovePrevious, IOpcRelationshipSelectorEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MovePrevious, opc.iopcrelationshipselectorenumerator_moveprevious
 ms.topic: method

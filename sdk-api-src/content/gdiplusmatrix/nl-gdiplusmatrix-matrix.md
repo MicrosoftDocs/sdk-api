@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusmatrix.Matrix
 title: Matrix (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: A Matrix object represents a 3 &#215;3 matrix that, in turn, represents an affine transformation.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrix.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Matrix, Matrix class [GDI+], Matrix class [GDI+],described, _gdiplus_CLASS_Matrix_Class, gdiplus._gdiplus_CLASS_Matrix_Class, gdiplusmatrix/Matrix
 ms.topic: class

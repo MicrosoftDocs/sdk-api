@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.StopTrace
 title: StopTrace macro (evntrace.h)
-author: windows-sdk-content
+
 description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\stoptrace.htm
 tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.topic: macro

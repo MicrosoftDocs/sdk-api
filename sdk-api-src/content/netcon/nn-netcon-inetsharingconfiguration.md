@@ -1,12 +1,12 @@
 ---
 UID: NN:netcon.INetSharingConfiguration
 title: INetSharingConfiguration (netcon.h)
-author: windows-sdk-content
+
 description: The INetSharingConfiguration interface provides methods to manage connection sharing, port mapping, and Internet Connection Firewall.
 old-location: ics\inetsharingconfiguration.htm
 tech.root: ics
 ms.assetid: 3ed1a3ae-87af-4415-b149-c66ae65cd053
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], INetSharingConfiguration interface [ICS/ICF],described, _ics_inetsharingconfiguration, ics.inetsharingconfiguration, netcon/INetSharingConfiguration
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes._WSD_METADATA_SECTION_LIST
 title: WSD_METADATA_SECTION_LIST (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a node in a single-linked list of metadata sections.
 old-location: ncd\wsd_metadata_section_list_struct.htm
 tech.root: WsdApi
 ms.assetid: e5c6373a-f365-499d-a971-472ffa557a41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_METADATA_SECTION_LIST, WSD_METADATA_SECTION_LIST structure, ncd.wsd_metadata_section_list_struct, wsdtypes/WSD_METADATA_SECTION_LIST
 ms.topic: struct

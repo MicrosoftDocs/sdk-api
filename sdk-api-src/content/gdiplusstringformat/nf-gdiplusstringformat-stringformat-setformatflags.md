@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetFormatFlags
 title: StringFormat::SetFormatFlags (gdiplusstringformat.h)
-author: windows-sdk-content
+
 description: The StringFormat::SetFormatFlags method sets the format flags for this StringFormat object. The format flags determine most of the characteristics of a StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetFormatFlags_flags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setformatflags.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetFormatFlags, SetFormatFlags method [GDI+], SetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],SetFormatFlags method, StringFormat.SetFormatFlags, StringFormat::SetFormatFlags, _gdiplus_CLASS_StringFormat_SetFormatFlags_flags_, gdiplus._gdiplus_CLASS_StringFormat_SetFormatFlags_flags_
 ms.topic: method

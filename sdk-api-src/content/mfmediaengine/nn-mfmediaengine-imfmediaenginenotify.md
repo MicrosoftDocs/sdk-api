@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineNotify
 title: IMFMediaEngineNotify (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Callback interface for the IMFMediaEngine interface.
 old-location: mf\imfmediaenginenotify.htm
 tech.root: medfound
 ms.assetid: 85D702D4-3C9B-4848-81F2-3634C2B6AE1A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNotify, IMFMediaEngineNotify interface [Media Foundation], IMFMediaEngineNotify interface [Media Foundation],described, mf.imfmediaenginenotify, mfmediaengine/IMFMediaEngineNotify
 ms.topic: interface

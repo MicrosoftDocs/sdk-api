@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiReinstallFeatureW
 title: MsiReinstallFeatureW function (msi.h)
-author: windows-sdk-content
+
 description: Reinstalls features.
 old-location: setup\msireinstallfeature.htm
 tech.root: Msi
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallFeature, MsiReinstallFeature function, MsiReinstallFeatureA, MsiReinstallFeatureW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallfeature, msi/MsiReinstallFeature, msi/MsiReinstallFeatureA, msi/MsiReinstallFeatureW, setup.msireinstallfeature
 ms.topic: function

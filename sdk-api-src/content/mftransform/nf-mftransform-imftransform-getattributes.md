@@ -1,12 +1,12 @@
 ---
 UID: NF:mftransform.IMFTransform.GetAttributes
 title: IMFTransform::GetAttributes (mftransform.h)
-author: windows-sdk-content
+
 description: Gets the global attribute store for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getattributes.htm
 tech.root: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
 ms.topic: method

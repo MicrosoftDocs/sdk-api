@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IWindowsUpdateAgentInfo
 title: IWindowsUpdateAgentInfo (wuapi.h)
-author: windows-sdk-content
+
 description: Retrieves information about the version of Windows Update Agent (WUA).
 old-location: wua\iwindowsupdateagentinfo.htm
 tech.root: Wua_Sdk
 ms.assetid: 46692b86-0fd9-4e48-9fb2-0ea3521b6bca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWindowsUpdateAgentInfo, IWindowsUpdateAgentInfo interface [Windows Update Agent], IWindowsUpdateAgentInfo interface [Windows Update Agent],described, wua.iwindowsupdateagentinfo, wuapi/IWindowsUpdateAgentInfo
 ms.topic: interface

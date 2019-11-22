@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerCollabGetEndpointName
 title: PeerCollabGetEndpointName function (p2p.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the current endpoint of the calling peer, as previously set by a call to PeerCollabSetEndpointName.
 old-location: p2p\peercollabgetendpointname.htm
 tech.root: P2PSdk
 ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetEndpointName, PeerCollabGetEndpointName function [Peer Networking], p2p.peercollabgetendpointname, p2p/PeerCollabGetEndpointName
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMReaderNetworkConfig2
 title: IWMReaderNetworkConfig2 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMReaderNetworkConfig2 interface provides advanced networking functionality.An IWMReaderNetworkConfig2 interface exists for every reader object.
 old-location: wmformat\iwmreadernetworkconfig2.htm
 tech.root: wmformat
 ms.assetid: a0480243-53e0-4da5-a119-291b19f46951
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], IWMReaderNetworkConfig2 interface [windows Media Format],described, IWMReaderNetworkConfig2Interface, wmformat.iwmreadernetworkconfig2, wmsdkidl/IWMReaderNetworkConfig2
 ms.topic: interface

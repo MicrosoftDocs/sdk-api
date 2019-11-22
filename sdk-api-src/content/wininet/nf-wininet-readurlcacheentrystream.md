@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.ReadUrlCacheEntryStream
 title: ReadUrlCacheEntryStream function (wininet.h)
-author: windows-sdk-content
+
 description: Reads the cached data from a stream that has been opened using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\readurlcacheentrystream.htm
 tech.root: wininet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidFeatures
 title: IMSVidFeatures (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidFeatures interface represents a collection of Video Control features.
 old-location: mstv\imsvidfeatures.htm
 tech.root: mstv
 ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
 ms.topic: interface

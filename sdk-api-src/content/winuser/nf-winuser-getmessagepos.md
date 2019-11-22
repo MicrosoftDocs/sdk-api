@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetMessagePos
 title: GetMessagePos function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the cursor position for the last message retrieved by the GetMessage function.
 old-location: winmsg\getmessagepos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagepos.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMessagePos, GetMessagePos function [Windows and Messages], _win32_GetMessagePos, _win32_getmessagepos_cpp, winmsg.getmessagepos, winui._win32_getmessagepos, winuser/GetMessagePos
 ms.topic: function

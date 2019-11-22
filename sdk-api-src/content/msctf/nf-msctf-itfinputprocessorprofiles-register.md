@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Register
 title: ITfInputProcessorProfiles::Register (msctf.h)
-author: windows-sdk-content
+
 description: ITfInputProcessorProfiles::Register method
 old-location: tsf\itfinputprocessorprofiles_register.htm
 tech.root: TSF
 ms.assetid: 264bc32e-60a2-4dff-a212-5682d30a769e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Register method, ITfInputProcessorProfiles.Register, ITfInputProcessorProfiles::Register, Register, Register method [Text Services Framework], Register method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_register_ref, msctf/ITfInputProcessorProfiles::Register, tsf.itfinputprocessorprofiles_register
 ms.topic: method

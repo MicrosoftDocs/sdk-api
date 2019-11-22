@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragPosition
 title: INameSpaceTreeControlDropHandler::OnDragPosition (shobjidl.h)
-author: windows-sdk-content
+
 description: Called when the item is being dragged within the same level (within the same parent folder) in the tree.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragPosition.htm
 tech.root: shell
 ms.assetid: b3f49da1-81a0-4d54-a2c3-5cb76f8a02de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragPosition method, INameSpaceTreeControlDropHandler.OnDragPosition, INameSpaceTreeControlDropHandler::OnDragPosition, OnDragPosition, OnDragPosition method [Windows Shell], OnDragPosition method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragPosition, shell.INameSpaceTreeControlDropHandler_OnDragPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDragPosition
 ms.topic: method

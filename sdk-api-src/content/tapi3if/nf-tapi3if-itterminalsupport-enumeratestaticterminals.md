@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateStaticTerminals
 title: ITTerminalSupport::EnumerateStaticTerminals (tapi3if.h)
-author: windows-sdk-content
+
 description: The EnumerateStaticTerminals method enumerates the currently available static terminals associated with the address.
 old-location: tapi3\itterminalsupport_enumeratestaticterminals.htm
 tech.root: Tapi
 ms.assetid: 91fea706-9792-40e1-b812-f7578bc7968b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateStaticTerminals, EnumerateStaticTerminals method [TAPI 2.2], EnumerateStaticTerminals method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateStaticTerminals method, ITTerminalSupport.EnumerateStaticTerminals, ITTerminalSupport::EnumerateStaticTerminals, _tapi3_itterminalsupport_enumeratestaticterminals, tapi3.itterminalsupport_enumeratestaticterminals, tapi3if/ITTerminalSupport::EnumerateStaticTerminals
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointY(IDCompositionAnimation)
 title: IDCompositionBrightnessEffect::SetWhitePointY(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the y value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy_2.htm
 tech.root: directcomp
 ms.assetid: 4B946372-578B-4799-AC61-58EEAAC5C267
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointY method, IDCompositionBrightnessEffect.SetWhitePointY, IDCompositionBrightnessEffect.SetWhitePointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY(IDCompositionAnimation), SetWhitePointY, SetWhitePointY method [DirectComposition], SetWhitePointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy_2
 ms.topic: method

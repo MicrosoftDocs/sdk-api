@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMStoreFloat
 title: XMStoreFloat function (directxmath.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in a float.
 old-location: dxmath\xmstorefloat.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat(float@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat, XMStoreFloat, XMStoreFloat method [DirectX Math Support APIs], dxmath.xmstorefloat
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.RestartDialogEx
 title: RestartDialogEx function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.
 old-location: shell\RestartDialogEx.htm
 tech.root: shell
 ms.assetid: 32bc232f-6cc4-4f19-9d33-ba7ad28dfd59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialogEx, RestartDialogEx function [Windows Shell], _win32_RestartDialogEx, shell.RestartDialogEx, shlobj_core/RestartDialogEx
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.CD3D11_BOX
 title: CD3D11_BOX (d3d11.h)
-author: windows-sdk-content
+
 description: Represents a box and provides convenience methods for creating boxes.
 old-location: direct3d11\cd3d11_box.htm
 tech.root: direct3d11
 ms.assetid: 5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BOX, CD3D11_BOX structure [Direct3D 11], d3d11/CD3D11_BOX, direct3d11.cd3d11_box
 ms.topic: struct

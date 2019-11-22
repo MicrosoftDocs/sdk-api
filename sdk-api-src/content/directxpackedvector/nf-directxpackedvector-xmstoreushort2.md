@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMStoreUShort2
 title: XMStoreUShort2 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in an XMUSHORT2.
 old-location: dxmath\xmstoreushort2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUShort2(XMUSHORT2@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUShort2, XMStoreUShort2, XMStoreUShort2 method [DirectX Math Support APIs], dxmath.xmstoreushort2
 ms.topic: function

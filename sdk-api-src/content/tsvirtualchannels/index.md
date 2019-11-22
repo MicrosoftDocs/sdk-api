@@ -1,7 +1,7 @@
 ---
 UID: NA:tsvirtualchannels
 ms.assetid: c0989acc-0a69-3eb8-b882-d7643ddb6c8e
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

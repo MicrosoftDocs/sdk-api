@@ -1,12 +1,12 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_RSA_KEY_VALUE
 title: CRYPT_XML_KEY_RSA_KEY_VALUE (cryptxml.h)
-author: windows-sdk-content
+
 description: Defines an RSA key value. The CRYPT_XML_KEY_RSA_KEY_VALUE structure is used as element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_rsa_key_value.htm
 tech.root: SecCrypto
 ms.assetid: e2b1344d-c108-4255-bd50-06d742ed67a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_RSA_KEY_VALUE, CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE, security.crypt_xml_key_rsa_key_value
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_LegacyCsp
 title: IX509PrivateKey::put_LegacyCsp (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) cryptographic service provider (CSP).
 old-location: security\ix509privatekey_legacycsp.htm
 tech.root: seccertenroll
 ms.assetid: 53a93aea-4435-4e04-9bd1-6356446aaefc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],LegacyCsp property, IX509PrivateKey.LegacyCsp, IX509PrivateKey.put_LegacyCsp, IX509PrivateKey::LegacyCsp, IX509PrivateKey::get_LegacyCsp, IX509PrivateKey::put_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::LegacyCsp, certenroll/IX509PrivateKey::get_LegacyCsp, certenroll/IX509PrivateKey::put_LegacyCsp, put_LegacyCsp, security.ix509privatekey_legacycsp
 ms.topic: method

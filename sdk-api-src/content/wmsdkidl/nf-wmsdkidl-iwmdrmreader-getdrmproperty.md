@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.GetDRMProperty
 title: IWMDRMReader::GetDRMProperty (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetDRMProperty method retrieves DRM-specific file attributes and run-time properties.
 old-location: wmformat\iwmdrmreader_getdrmproperty.htm
 tech.root: wmformat
 ms.assetid: 86ee18be-38a9-4f76-810c-e33281df8c23
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],GetDRMProperty method, IWMDRMReader.GetDRMProperty, IWMDRMReader::GetDRMProperty, IWMDRMReaderGetDRMProperty, wmformat.iwmdrmreader_getdrmproperty, wmsdkidl/IWMDRMReader::GetDRMProperty
 ms.topic: method

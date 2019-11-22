@@ -1,12 +1,12 @@
 ---
 UID: NF:namedpipeapi.ImpersonateNamedPipeClient
 title: ImpersonateNamedPipeClient function (namedpipeapi.h)
-author: windows-sdk-content
+
 description: Impersonates a named-pipe client application.
 old-location: security\impersonatenamedpipeclient.htm
 tech.root: SecAuthZ
 ms.assetid: 63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient
 ms.topic: function

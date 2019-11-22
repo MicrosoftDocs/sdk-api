@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentUOPS
 title: IDvdInfo::GetCurrentUOPS (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves which IDvdControl methods are currently valid.
 old-location: dshow\idvdinfo_getcurrentuops.htm
 tech.root: DirectShow
 ms.assetid: a6f48a32-c2bb-4924-9a05-469c7b79fc3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentUOPS method, IDvdInfo.GetCurrentUOPS, IDvdInfo::GetCurrentUOPS, IDvdInfoGetCurrentUOPS, dshow.idvdinfo_getcurrentuops, strmif/IDvdInfo::GetCurrentUOPS
 ms.topic: method

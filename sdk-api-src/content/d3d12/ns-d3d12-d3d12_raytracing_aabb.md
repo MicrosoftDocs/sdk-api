@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_AABB
 title: D3D12_RAYTRACING_AABB (d3d12.h)
-author: windows-sdk-content
+
 description: Represents an axis-aligned bounding box (AABB) used as raytracing geometry.
 old-location: direct3d12\d3d12_raytracing_aabb.htm
 tech.root: direct3d12
 ms.assetid: 0B027EF2-528E-4B61-8B9E-3BA01ADBD0D6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_AABB, D3D12_RAYTRACING_AABB structure, PD3D12_RAYTRACING_AABB, PD3D12_RAYTRACING_AABB structure pointer, d3d12/D3D12_RAYTRACING_AABB, d3d12/PD3D12_RAYTRACING_AABB, direct3d12.d3d12_raytracing_aabb
 ms.topic: struct

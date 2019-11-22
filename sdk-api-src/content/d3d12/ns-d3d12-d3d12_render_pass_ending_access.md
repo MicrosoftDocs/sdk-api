@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_ENDING_ACCESS
 title: D3D12_RENDER_PASS_ENDING_ACCESS (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the access to resource(s) that is requested by an application at the transition out of a render pass.
 old-location: direct3d12\d3d12_render_pass_ending_access.htm
 tech.root: direct3d12
 ms.assetid: 1BEE91E3-3462-4A13-88CE-31806BC451EA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS, D3D12_RENDER_PASS_ENDING_ACCESS structure, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS, direct3d12.d3d12_render_pass_ending_access
 ms.topic: struct

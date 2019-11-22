@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMLVCACHEHINT
 title: NMLVCACHEHINT (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information used to update the cached item information for use with a virtual list view.
 old-location: controls\NMLVCACHEHINT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcachehint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVCACHEHINT, NMLVCACHEHINT, NMLVCACHEHINT structure [Windows Controls], PNMLVCACHEHINT, PNMLVCACHEHINT structure pointer [Windows Controls], _win32_NMLVCACHEHINT, _win32_NMLVCACHEHINT_cpp, commctrl/NMLVCACHEHINT, commctrl/PNMLVCACHEHINT, controls.NMLVCACHEHINT, controls._win32_NMLVCACHEHINT'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NE:ocidl.tagOLEDCFLAGS
 title: OLEDCFLAGS (ocidl.h)
-author: windows-sdk-content
+
 description: Specifies additional information to the container about the device context that the object has requested.
 old-location: com\oledcflags.htm
 tech.root: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND
 ms.topic: enum

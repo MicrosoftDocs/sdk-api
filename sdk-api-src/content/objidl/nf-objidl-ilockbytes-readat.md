@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.ILockBytes.ReadAt
 title: ILockBytes::ReadAt (objidl.h)
-author: windows-sdk-content
+
 description: The ReadAt method reads a specified number of bytes starting at a specified offset from the beginning of the byte array object.
 old-location: stg\ilockbytes_readat.htm
 tech.root: Stg
 ms.assetid: 0478d6f0-65c4-445b-946a-692f2373e8f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],ReadAt method, ILockBytes.ReadAt, ILockBytes::ReadAt, ReadAt, ReadAt method [Structured Storage], ReadAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_readat, objidl/ILockBytes::ReadAt, stg.ilockbytes_readat
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_InterfaceID
 title: IMbnDeviceService::get_InterfaceID (mbnapi.h)
-author: windows-sdk-content
+
 description: The interface ID of the Mobile Broadband device to which this object is associated.
 old-location: mbn\imbndeviceservice_interfaceid.htm
 tech.root: mbn
 ms.assetid: 3789F9FA-703E-486D-8B4E-AE4128DE705B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],InterfaceID property, IMbnDeviceService.InterfaceID, IMbnDeviceService.get_InterfaceID, IMbnDeviceService::InterfaceID, IMbnDeviceService::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnDeviceService interface, get_InterfaceID, mbn.imbndeviceservice_interfaceid, mbnapi/IMbnDeviceService::InterfaceID, mbnapi/IMbnDeviceService::get_InterfaceID
 ms.topic: method

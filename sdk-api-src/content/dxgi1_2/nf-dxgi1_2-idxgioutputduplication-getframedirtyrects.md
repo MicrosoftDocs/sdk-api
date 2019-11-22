@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFrameDirtyRects
 title: IDXGIOutputDuplication::GetFrameDirtyRects (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Gets information about dirty rectangles for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframedirtyrects.htm
 tech.root: direct3ddxgi
 ms.assetid: F242E7C8-6A39-4B39-A811-243E17408577
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirtyRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameDirtyRects method, IDXGIOutputDuplication.GetFrameDirtyRects, IDXGIOutputDuplication::GetFrameDirtyRects, direct3ddxgi.idxgioutputduplication_getframedirtyrects, dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
 ms.topic: method

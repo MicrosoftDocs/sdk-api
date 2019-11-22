@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.SHCreateDefaultExtractIcon
 title: SHCreateDefaultExtractIcon function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Creates a standard icon extractor, whose defaults can be further configured via the IDefaultExtractIconInit interface.
 old-location: shell\SHCreateDefaultExtractIcon.htm
 tech.root: shell
 ms.assetid: 483dc9ae-4820-47f1-888e-ad7a6bdf3d29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultExtractIcon, SHCreateDefaultExtractIcon function [Windows Shell], _shell_SHCreateDefaultExtractIcon, shell.SHCreateDefaultExtractIcon, shobjidl_core/SHCreateDefaultExtractIcon
 ms.topic: function

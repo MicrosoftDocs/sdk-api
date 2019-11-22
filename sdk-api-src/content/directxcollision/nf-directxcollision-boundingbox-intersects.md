@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects
 title: BoundingBox::Intersects
-author: windows-sdk-content
+
 description: 
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Intersects

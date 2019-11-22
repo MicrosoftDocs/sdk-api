@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetMaxWidth
 title: IDWriteTextLayout::SetMaxWidth (dwrite.h)
-author: windows-sdk-content
+
 description: Sets the layout maximum width.
 old-location: directwrite\IDWriteTextLayout_SetMaxWidth.htm
 tech.root: DirectWrite
 ms.assetid: 49889f71-4650-4f16-a130-d0437bd50b52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetMaxWidth method, IDWriteTextLayout.SetMaxWidth, IDWriteTextLayout::SetMaxWidth, SetMaxWidth, SetMaxWidth method [Direct Write], SetMaxWidth method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetMaxWidth, dwrite/IDWriteTextLayout::SetMaxWidth
 ms.topic: method

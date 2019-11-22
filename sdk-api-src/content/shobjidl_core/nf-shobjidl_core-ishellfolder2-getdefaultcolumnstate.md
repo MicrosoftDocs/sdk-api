@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDefaultColumnState
 title: IShellFolder2::GetDefaultColumnState (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the default state for a specified column.
 old-location: shell\IShellFolder2_GetDefaultColumnState.htm
 tech.root: shell
 ms.assetid: 3f55acbf-1e15-42c3-a610-c5742e74883d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDefaultColumnState, GetDefaultColumnState method [Windows Shell], GetDefaultColumnState method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumnState method, IShellFolder2.GetDefaultColumnState, IShellFolder2::GetDefaultColumnState, SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_PREFER_VARCMP, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, _win32_IShellFolder2_GetDefaultColumnState, shell.IShellFolder2_GetDefaultColumnState, shobjidl_core/IShellFolder2::GetDefaultColumnState
 ms.topic: method

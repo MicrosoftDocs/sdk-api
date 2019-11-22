@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2spi.WSCGetApplicationCategory
 title: WSCGetApplicationCategory function (ws2spi.h)
-author: windows-sdk-content
+
 description: Retrieves the layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscgetapplicationcategory.htm
 tech.root: WinSock
 ms.assetid: c4e149ce-dff9-401a-8488-23676992c04d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSCGetApplicationCategory, WSCGetApplicationCategory function [Winsock], winsock.wscgetapplicationcategory, ws2spi/WSCGetApplicationCategory
 ms.topic: function

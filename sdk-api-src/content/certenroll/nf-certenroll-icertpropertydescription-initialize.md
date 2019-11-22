@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertPropertyDescription.Initialize
 title: ICertPropertyDescription::Initialize (certenroll.h)
-author: windows-sdk-content
+
 description: Initializes the object from a string that contains descriptive information about the certificate.
 old-location: security\icertpropertydescription_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.topic: method

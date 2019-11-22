@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigure
 title: IXpsOMGeometryFigure (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Describes one portion of the path or clipping region that is specified by an IXpsOMGeometry interface.
 old-location: xps\ixpsomgeometryfigure.htm
 tech.root: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
 ms.topic: interface

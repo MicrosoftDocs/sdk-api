@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprCreateV4Policy
 title: DhcpHlprCreateV4Policy function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Allocates and initializes a DHCP server policy structure.
 old-location: dhcp\dhcphlprcreatev4policy.htm
 tech.root: DHCP
 ms.assetid: 91f04578-9f15-44b4-8cf6-99be13d0395e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy
 ms.topic: function

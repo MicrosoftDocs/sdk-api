@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsLunNaming
 title: IVdsLunNaming (vdshwprv.h)
-author: windows-sdk-content
+
 description: Provides a method to name LUNs for a class implementing the IVdsLun interface.
 old-location: base\ivdslunnaming.htm
 tech.root: VDS
 ms.assetid: 1cc5fbb2-6a40-4b7c-9b5f-8f5fb53e6173
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming, vdshwprv/IVdsLunNaming
 ms.topic: interface

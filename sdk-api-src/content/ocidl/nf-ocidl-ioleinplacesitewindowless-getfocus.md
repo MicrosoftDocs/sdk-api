@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetFocus
 title: IOleInPlaceSiteWindowless::GetFocus (ocidl.h)
-author: windows-sdk-content
+
 description: Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
 old-location: com\ioleinplacesitewindowless_getfocus.htm
 tech.root: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
 ms.topic: method

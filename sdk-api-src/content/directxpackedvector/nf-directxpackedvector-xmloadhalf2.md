@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadHalf2
 title: XMLoadHalf2 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMHALF2 into an XMVECTOR.
 old-location: dxmath\xmloadhalf2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadHalf2(const XMHALF2)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadHalf2, XMLoadHalf2, XMLoadHalf2 method [DirectX Math Support APIs], dxmath.xmloadhalf2
 ms.topic: function

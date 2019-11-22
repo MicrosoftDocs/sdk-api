@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDecimateVideoImage.SetDecimationImageSize
 title: IDecimateVideoImage::SetDecimationImageSize (strmif.h)
-author: windows-sdk-content
+
 description: The SetDecimationImageSize method specifies the dimensions to which the decoder should decimate its output image.
 old-location: dshow\idecimatevideoimage_setdecimationimagesize.htm
 tech.root: DirectShow
 ms.assetid: 3f165e74-768f-48e3-be0f-887962ea9bfb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],SetDecimationImageSize method, IDecimateVideoImage.SetDecimationImageSize, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
 ms.topic: method

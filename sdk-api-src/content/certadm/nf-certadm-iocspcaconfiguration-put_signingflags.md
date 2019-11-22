@@ -1,12 +1,12 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningFlags
 title: IOCSPCAConfiguration::put_SigningFlags (certadm.h)
-author: windows-sdk-content
+
 description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_signingflags_method.htm
 tech.root: SecCrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.put_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, put_SigningFlags, security.iocspcaconfiguration_signingflags_method
 ms.topic: method

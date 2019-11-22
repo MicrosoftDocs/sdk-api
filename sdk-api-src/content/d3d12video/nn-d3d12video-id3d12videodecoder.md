@@ -1,11 +1,11 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecoder
 title: ID3D12VideoDecoder
-author: windows-sdk-content
+
 description: Represents a Direct3D 12 video decoder.
 tech.root: mf
 ms.assetid: 21a497e0-2bc6-4373-b240-bdd7da41fc18
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: interface
 f1_keywords:

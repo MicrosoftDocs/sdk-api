@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.RectF.RectF
 title: RectF::RectF (gdiplustypes.h)
-author: windows-sdk-content
+
 description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF::RectF, _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
 ms.topic: method

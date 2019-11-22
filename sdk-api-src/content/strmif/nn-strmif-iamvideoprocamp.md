@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMVideoProcAmp
 title: IAMVideoProcAmp (strmif.h)
-author: windows-sdk-content
+
 description: The IAMVideoProcAmp interface adjusts the qualities of an incoming video signal, such as brightness, contrast, hue, saturation, gamma, and sharpness.The WDM Video Capture filter exposes this interface if the hardware supports image adjustment.
 old-location: dshow\iamvideoprocamp.htm
 tech.root: DirectShow
 ms.assetid: 28c45790-2e5a-4acb-8a53-93f19c51dc6a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow],described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
 ms.topic: interface

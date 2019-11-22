@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Buy
 title: IWMPContentPartner::Buy (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Buy method initiates the purchase of digital media content.
 old-location: wmp\iwmpcontentpartner_buy.htm
 tech.root: WMP
 ms.assetid: a79c3d6e-b587-4bbc-b3bf-6489a54d71f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Buy method, IWMPContentPartner.Buy, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
 ms.topic: method

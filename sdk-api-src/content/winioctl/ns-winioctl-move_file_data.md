@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl.__unnamed_struct_10
 title: MOVE_FILE_DATA
-author: windows-sdk-content
+
 description: Contains input data for the FSCTL_MOVE_FILE control code.
 old-location: fs\move_file_data_str.htm
 tech.root: FileIO
 ms.assetid: 08bbeabc-b589-41b2-b3f2-70b2390f11f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMOVE_FILE_DATA, MOVE_FILE_DATA, MOVE_FILE_DATA structure [Files], PMOVE_FILE_DATA, PMOVE_FILE_DATA structure pointer [Files], _win32_move_file_data_str, base.move_file_data_str, fs.move_file_data_str, winioctl/MOVE_FILE_DATA, winioctl/PMOVE_FILE_DATA"
 ms.topic: struct

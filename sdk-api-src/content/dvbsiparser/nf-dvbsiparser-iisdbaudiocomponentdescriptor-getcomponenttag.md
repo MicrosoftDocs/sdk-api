@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetComponentTag
 title: IIsdbAudioComponentDescriptor::GetComponentTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the value of the component_tag field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttag.htm
 tech.root: mstv
 ms.assetid: 4b06f566-b5e0-43c8-8694-24d913bbf971
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbAudioComponentDescriptor.GetComponentTag, IIsdbAudioComponentDescriptor::GetComponentTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentTag, mstv.iisdbaudiocomponentdescriptor_getcomponenttag
 ms.topic: method

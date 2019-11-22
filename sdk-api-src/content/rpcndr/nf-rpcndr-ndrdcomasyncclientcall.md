@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrDcomAsyncClientCall
 title: NdrDcomAsyncClientCall function (rpcndr.h)
-author: windows-sdk-content
+
 description: NdrDcomAsyncClientCall may be altered or unavailable.
 old-location: rpc\ndrdcomasyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 726ACE34-E1C9-4769-81ED-90D78A26C70A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrDcomAsyncClientCall, NdrDcomAsyncClientCall function [RPC], rpc.ndrdcomasyncclientcall, rpcndr/NdrDcomAsyncClientCall
 ms.topic: function

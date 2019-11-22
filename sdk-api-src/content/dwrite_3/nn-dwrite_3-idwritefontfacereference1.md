@@ -2,9 +2,9 @@
 UID: NN:dwrite_3.IDWriteFontFaceReference1
 title: IDWriteFontFaceReference1
 description: Represents a reference to a font face. A uniquely identifying reference to a font, from which you can create a font face to query font metrics and use for rendering.
-author: windows-sdk-content
+
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontFaceReference1, IDWriteFontFaceReference1 interface [Direct Write], IDWriteFontFaceReference1 interface [Direct Write],described, directwrite.idwritefontfacereference1, dwrite_3/IDWriteFontFaceReference1
 ms.topic: interface

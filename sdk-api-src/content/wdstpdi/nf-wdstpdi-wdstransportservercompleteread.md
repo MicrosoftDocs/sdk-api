@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerCompleteRead
 title: WdsTransportServerCompleteRead function (wdstpdi.h)
-author: windows-sdk-content
+
 description: Provides status of read operation.
 old-location: wds\wdstransportservercompleteread.htm
 tech.root: wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
 ms.topic: function

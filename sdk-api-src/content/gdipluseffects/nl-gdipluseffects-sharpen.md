@@ -1,12 +1,12 @@
 ---
 UID: NL:gdipluseffects.Sharpen
 title: Sharpen (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The Sharpen class enables you to adjust the sharpness of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpen.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Sharpen, Sharpen class [GDI+], Sharpen class [GDI+],described, _gdiplus_CLASS_Sharpen_Class, gdiplus._gdiplus_CLASS_Sharpen_Class, gdipluseffects/Sharpen
 ms.topic: class

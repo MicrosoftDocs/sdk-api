@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.IDirectDrawGammaControl.SetGammaRamp
 title: IDirectDrawGammaControl::SetGammaRamp (ddraw.h)
-author: windows-sdk-content
+
 description: Sets the red, green, and blue gamma ramps for the primary surface.
 old-location: directdraw\idirectdrawgammacontrol_setgammaramp.htm
 tech.root: directdraw
 ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetPMT
 title: IAtscPsipParser::GetPMT (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getpmt.htm
 tech.root: mstv
 ms.assetid: cd9a3fb0-4bdc-499b-9db9-85dce50dd24b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPMT method, IAtscPsipParser.GetPMT, IAtscPsipParser::GetPMT, IAtscPsipParserGetPMT, atscpsipparser/IAtscPsipParser::GetPMT, mstv.iatscpsipparser_getpmt
 ms.topic: method

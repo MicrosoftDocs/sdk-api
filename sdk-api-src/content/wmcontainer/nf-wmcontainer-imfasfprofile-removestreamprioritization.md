@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStreamPrioritization
 title: IMFASFProfile::RemoveStreamPrioritization (wmcontainer.h)
-author: windows-sdk-content
+
 description: IMFASFProfile::RemoveStreamPrioritization method
 old-location: mf\imfasfprofile_removestreamprioritization.htm
 tech.root: medfound
 ms.assetid: a6076091-ab38-4722-bb95-fac253e26c8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStreamPrioritization method, IMFASFProfile.RemoveStreamPrioritization, IMFASFProfile::RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [Media Foundation], RemoveStreamPrioritization method [Media Foundation],IMFASFProfile interface, a6076091-ab38-4722-bb95-fac253e26c8a, mf.imfasfprofile_removestreamprioritization, wmcontainer/IMFASFProfile::RemoveStreamPrioritization
 ms.topic: method

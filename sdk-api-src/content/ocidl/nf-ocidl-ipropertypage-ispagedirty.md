@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IPropertyPage.IsPageDirty
 title: IPropertyPage::IsPageDirty (ocidl.h)
-author: windows-sdk-content
+
 description: Indicates whether the property page has changed since it was activated or since the most recent call to Apply.
 old-location: com\ipropertypage_ispagedirty.htm
 tech.root: com
 ms.assetid: 6a19a659-8fab-4218-bc5a-c53860f578f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],IsPageDirty method, IPropertyPage.IsPageDirty, IPropertyPage::IsPageDirty, IsPageDirty, IsPageDirty method [COM], IsPageDirty method [COM],IPropertyPage interface, _ctrl_ipropertypage_ispagedirty, com.ipropertypage_ispagedirty, ocidl/IPropertyPage::IsPageDirty
 ms.topic: method

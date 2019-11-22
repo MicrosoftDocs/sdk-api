@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMDevice2.GetStorage
 title: IWMDMDevice2::GetStorage (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetStorage method searches the immediate children of the root storage for a storage with the given name.
 old-location: wmdm\iwmdmdevice2_getstorage.htm
 tech.root: WMDM
 ms.assetid: 17c7bb90-4c8c-4f1f-9b4c-41f31c5c5310
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetStorage method, IWMDMDevice2.GetStorage, IWMDMDevice2::GetStorage, IWMDMDevice2GetStorage, mswmdm/IWMDMDevice2::GetStorage, wmdm.iwmdmdevice2_getstorage
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT (d3d11.h)
-author: windows-sdk-content
+
 description: Represents a viewport and provides convenience methods for creating viewports.
 old-location: direct3d11\cd3d11_viewport.htm
 tech.root: direct3d11
 ms.assetid: F4C7E5E7-1986-4210-83BC-80277A47CB97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT structure [Direct3D 11], d3d11/CD3D11_VIEWPORT, direct3d11.cd3d11_viewport
 ms.topic: struct

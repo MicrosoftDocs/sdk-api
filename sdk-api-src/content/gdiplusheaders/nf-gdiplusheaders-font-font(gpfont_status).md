@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(GpFont,Status)
 title: Font::Font(GpFont,Status) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
 old-location: gdiplus\_gdiplus_CLASS_Font_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(GpFont,Status), Font::Font, Font::Font(GpFont,Status), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
 ms.topic: method

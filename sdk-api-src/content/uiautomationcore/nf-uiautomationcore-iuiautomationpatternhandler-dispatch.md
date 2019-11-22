@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.Dispatch
 title: IUIAutomationPatternHandler::Dispatch (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Dispatches a method or property getter to a custom control pattern provider.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_Dispatch.htm
 tech.root: WinAuto
 ms.assetid: c94d650e-74a8-4d4f-92bf-5402576f8773
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Dispatch, Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],Dispatch method, IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
 ms.topic: method

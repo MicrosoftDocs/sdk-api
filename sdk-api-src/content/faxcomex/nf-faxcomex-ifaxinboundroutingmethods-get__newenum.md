@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get__NewEnum
 title: IFaxInboundRoutingMethods::get__NewEnum (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxInboundRoutingMethods::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingMethods collection.
 old-location: fax\_mfax_ifaxinboundroutingmethods_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2z3h.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get__NewEnum method, IFaxInboundRoutingMethods.get__NewEnum, IFaxInboundRoutingMethods::get__NewEnum, _mfax_ifaxinboundroutingmethods_get__newenum, fax._mfax_ifaxinboundroutingmethods_get__newenum, faxcomex/IFaxInboundRoutingMethods::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingMethods interface
 ms.topic: method

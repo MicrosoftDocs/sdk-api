@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontFamilyName
 title: IDWriteTextLayout::GetFontFamilyName (dwrite.h)
-author: windows-sdk-content
+
 description: Copies the font family name of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: c5283d1f-8a40-4272-b71c-590b6bc6a340
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontFamilyName method, IDWriteTextLayout.GetFontFamilyName, IDWriteTextLayout::GetFontFamilyName, directwrite.IDWriteTextLayout_GetFontFamilyName, dwrite/IDWriteTextLayout::GetFontFamilyName
 ms.topic: method

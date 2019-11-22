@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.LogEx
 title: IWiaLogEx::LogEx (wia_xp.h)
-author: windows-sdk-content
+
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_LogEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\logex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx interface [WIA],LogEx method, IWiaLogEx.LogEx, IWiaLogEx::LogEx, LogEx, LogEx method [WIA], LogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_LogEx, wia._wia_IWiaLogEx_LogEx, wia_xp/IWiaLogEx::LogEx
 ms.topic: method

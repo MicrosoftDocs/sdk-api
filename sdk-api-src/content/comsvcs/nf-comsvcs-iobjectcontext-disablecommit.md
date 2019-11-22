@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IObjectContext.DisableCommit
 title: IObjectContext::DisableCommit (comsvcs.h)
-author: windows-sdk-content
+
 description: Declares that the object's transactional updates are in an inconsistent state and cannot be committed in their present state.
 old-location: cos\iobjectcontext_disablecommit.htm
 tech.root: cossdk
 ms.assetid: e83d1223-9b8e-4a92-b98d-9d2b6ed34721
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],DisableCommit method, IObjectContext.DisableCommit, IObjectContext::DisableCommit, _cos_IObjectContext_DisableCommit, comsvcs/IObjectContext::DisableCommit, cos.iobjectcontext_disablecommit
 ms.topic: method

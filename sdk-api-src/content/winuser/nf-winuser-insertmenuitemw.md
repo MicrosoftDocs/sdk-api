@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.InsertMenuItemW
 title: InsertMenuItemW function (winuser.h)
-author: windows-sdk-content
+
 description: Inserts a new menu item at the specified position in a menu.
 old-location: menurc\insertmenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenuitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InsertMenuItem, InsertMenuItem function [Menus and Other Resources], InsertMenuItemA, InsertMenuItemW, _win32_InsertMenuItem, _win32_insertmenuitem_cpp, menurc.insertmenuitem, winui._win32_insertmenuitem, winuser/InsertMenuItem, winuser/InsertMenuItemA, winuser/InsertMenuItemW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Scale
 title: Matrix::Scale (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: The Matrix::Scale method updates this matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\scale.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Scale method, Matrix.Scale, Matrix::Scale, Scale, Scale method [GDI+], Scale method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_, gdiplus._gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_
 ms.topic: method

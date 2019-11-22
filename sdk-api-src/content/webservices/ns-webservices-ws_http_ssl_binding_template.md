@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_BINDING_TEMPLATE
 title: WS_HTTP_SSL_BINDING_TEMPLATE (webservices.h)
-author: windows-sdk-content
+
 description: SSL security template information to be filled in by application. Associated with WS_HTTP_SSL_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_http_ssl_binding_template.htm
 tech.root: wsw
 ms.assetid: cc7771a8-e1b4-4cba-b34c-aa002e5ef9fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_BINDING_TEMPLATE, WS_HTTP_SSL_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_BINDING_TEMPLATE, wsw.ws_http_ssl_binding_template
 ms.topic: struct

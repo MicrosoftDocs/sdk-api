@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IRelationship.Destination
 title: IRelationship::Destination (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves the destination IEntity object of the relationship. The destination of a relationshipo corresponds to the type of a property.
 old-location: search\_search_IRelationship_Destination.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\destination.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Destination, Destination method [search], Destination method [search],IRelationship interface, IRelationship interface [search],Destination method, IRelationship.Destination, IRelationship::Destination, _search_IRelationship_Destination, search._search_IRelationship_Destination, structuredquery/IRelationship::Destination
 ms.topic: method

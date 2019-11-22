@@ -1,12 +1,12 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.ServiceInstanceDied
 title: IUPnPServiceCallback::ServiceInstanceDied (upnp.h)
-author: windows-sdk-content
+
 description: The ServiceInstanceDied method is invoked when a service is no longer sending events.
 old-location: upnp\iupnpservicecallback_serviceinstancedied.htm
 tech.root: upnp
 ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied method, IUPnPServiceCallback.ServiceInstanceDied, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
 ms.topic: method

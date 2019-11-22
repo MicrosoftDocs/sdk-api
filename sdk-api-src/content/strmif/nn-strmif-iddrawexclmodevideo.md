@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IDDrawExclModeVideo
 title: IDDrawExclModeVideo (strmif.h)
-author: windows-sdk-content
+
 description: The IDDrawExclModeVideo interface enables video playback in DirectDraw exclusive full-screen mode.
 old-location: dshow\iddrawexclmodevideo.htm
 tech.root: DirectShow
 ms.assetid: 6a846a07-f513-49e7-85e8-192a5c211515
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], IDDrawExclModeVideo interface [DirectShow],described, IDDrawExclModeVideoInterface, dshow.iddrawexclmodevideo, strmif/IDDrawExclModeVideo
 ms.topic: interface

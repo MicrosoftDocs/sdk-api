@@ -1,12 +1,12 @@
 ---
 UID: NN:ocidl.IObjectWithSite
 title: IObjectWithSite (ocidl.h)
-author: windows-sdk-content
+
 description: Provides a simple way to support communication between an object and its site in the container.
 old-location: com\iobjectwithsite.htm
 tech.root: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
 ms.topic: interface

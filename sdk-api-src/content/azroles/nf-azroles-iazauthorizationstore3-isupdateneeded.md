@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsUpdateNeeded
 title: IAzAuthorizationStore3::IsUpdateNeeded (azroles.h)
-author: windows-sdk-content
+
 description: Checks whether the persisted version of this authorization store is newer than the cached version.
 old-location: security\iazauthorizationstore3_isupdateneeded_method.htm
 tech.root: SecAuthZ
 ms.assetid: 2b5bed8f-f38a-46dd-b889-65d43b13ce7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsUpdateNeeded method, IAzAuthorizationStore3.IsUpdateNeeded, IAzAuthorizationStore3::IsUpdateNeeded, IsUpdateNeeded, IsUpdateNeeded method [Security], IsUpdateNeeded method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsUpdateNeeded, security.iazauthorizationstore3_isupdateneeded_method
 ms.topic: method

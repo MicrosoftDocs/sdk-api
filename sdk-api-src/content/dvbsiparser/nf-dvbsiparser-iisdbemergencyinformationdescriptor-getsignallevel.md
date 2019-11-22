@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetSignalLevel
 title: IIsdbEmergencyInformationDescriptor::GetSignalLevel (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets a flag that indicates the emergency alarm signal type from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getsignallevel.htm
 tech.root: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetSignalLevel method, IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
 ms.topic: method

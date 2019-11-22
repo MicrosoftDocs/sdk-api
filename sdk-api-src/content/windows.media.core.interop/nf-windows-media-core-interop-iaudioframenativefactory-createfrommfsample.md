@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.core.interop.IAudioFrameNativeFactory.CreateFromMFSample
 title: IAudioFrameNativeFactory::core (windows.media.core.interop.h)
-author: windows-sdk-content
+
 description: Creates an IAudioFrameNative from the provided IMFSample.
 old-location: winrt\iaudioframenativefactory_createfrommfsample.htm
 tech.root: WinRT
 ms.assetid: 331F6479-855E-459B-843F-B4FC4C88ED76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IAudioFrameNativeFactory interface, IAudioFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IAudioFrameNativeFactory.CreateFromMFSample, IAudioFrameNativeFactory.core, IAudioFrameNativeFactory::CreateFromMFSample, IAudioFrameNativeFactory::core, windows/IAudioFrameNativeFactory::CreateFromMFSample, winrt.iaudioframenativefactory_createfrommfsample
 ms.topic: method

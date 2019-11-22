@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetCount
 title: IXpsOMFontResourceCollection::GetCount (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the number of IXpsOMFontResource interface pointers in the collection.
 old-location: xps\ixpsomfontresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 99ff3102-c6a7-4510-b137-70d766acd1ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMFontResourceCollection.GetCount, IXpsOMFontResourceCollection::GetCount, xps.ixpsomfontresourcecollection_getcount, xpsobjectmodel/IXpsOMFontResourceCollection::GetCount
 ms.topic: method

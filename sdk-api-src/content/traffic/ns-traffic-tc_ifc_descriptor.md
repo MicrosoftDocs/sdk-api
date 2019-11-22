@@ -1,12 +1,12 @@
 ---
 UID: NS:traffic._TC_IFC_DESCRIPTOR
 title: TC_IFC_DESCRIPTOR (traffic.h)
-author: windows-sdk-content
+
 description: The TC_IFC_DESCRIPTOR structure is an interface identifier used to enumerate interfaces.
 old-location: qos\tc_ifc_descriptor.htm
 tech.root: QOS
 ms.assetid: 0ab0a17e-4055-43ee-81fd-c23fcecb8cb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR'
 ms.topic: struct

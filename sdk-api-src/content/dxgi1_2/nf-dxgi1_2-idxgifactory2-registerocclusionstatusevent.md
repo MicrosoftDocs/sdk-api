@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterOcclusionStatusEvent
 title: IDXGIFactory2::RegisterOcclusionStatusEvent (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Registers to receive notification of changes in occlusion status by using event signaling.
 old-location: direct3ddxgi\idxgifactory2_registerocclusionstatusevent.htm
 tech.root: direct3ddxgi
 ms.assetid: 9DCB6309-C1FF-403F-94E1-ABA769D18170
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusEvent method, IDXGIFactory2.RegisterOcclusionStatusEvent, IDXGIFactory2::RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent method [DXGI], RegisterOcclusionStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatusevent, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusEvent
 ms.topic: method

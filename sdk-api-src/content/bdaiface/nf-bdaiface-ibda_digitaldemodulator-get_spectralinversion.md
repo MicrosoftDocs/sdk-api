@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_SpectralInversion
 title: IBDA_DigitalDemodulator::get_SpectralInversion (bdaiface.h)
-author: windows-sdk-content
+
 description: The get_SpectralInversion method retrieves the spectral inversion value for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_spectralinversion.htm
 tech.root: mstv
 ms.assetid: eaab17e3-8070-4f70-a31c-cd130edf1a4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_SpectralInversion method, IBDA_DigitalDemodulator.get_SpectralInversion, IBDA_DigitalDemodulator::get_SpectralInversion, IBDA_DigitalDemodulatorget_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::get_SpectralInversion, get_SpectralInversion, get_SpectralInversion method [Microsoft TV Technologies], get_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_spectralinversion
 ms.topic: method

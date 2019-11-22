@@ -1,12 +1,12 @@
 ---
 UID: NF:authz.AuthzFreeResourceManager
 title: AuthzFreeResourceManager function (authz.h)
-author: windows-sdk-content
+
 description: Frees a resource manager object.
 old-location: security\authzfreeresourcemanager.htm
 tech.root: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.topic: function

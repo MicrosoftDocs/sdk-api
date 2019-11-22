@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleClientSite.ShowObject
 title: IOleClientSite::ShowObject (oleidl.h)
-author: windows-sdk-content
+
 description: Asks a container to display its object to the user. This method ensures that the container itself is visible and not minimized.
 old-location: com\ioleclientsite_showobject.htm
 tech.root: com
 ms.assetid: ba502a3d-2042-4978-a152-636a887c61fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],ShowObject method, IOleClientSite.ShowObject, IOleClientSite::ShowObject, ShowObject, ShowObject method [COM], ShowObject method [COM],IOleClientSite interface, _ole_ioleclientsite_showobject, com.ioleclientsite_showobject, oleidl/IOleClientSite::ShowObject
 ms.topic: method

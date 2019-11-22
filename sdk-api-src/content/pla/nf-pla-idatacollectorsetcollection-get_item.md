@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get_Item
 title: IDataCollectorSetCollection::get_Item (pla.h)
-author: windows-sdk-content
+
 description: Retrieves the requested data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_item.htm
 tech.root: PLA
 ms.assetid: ebb126d5-8582-4afa-833c-146cd4ad9efb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Item property, IDataCollectorSetCollection.Item, IDataCollectorSetCollection.get_Item, IDataCollectorSetCollection::Item, IDataCollectorSetCollection::get_Item, Item property [PLA], Item property [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_item, get_Item, pla.idatacollectorsetcollection_item, pla/IDataCollectorSetCollection::Item, pla/IDataCollectorSetCollection::get_Item
 ms.topic: method

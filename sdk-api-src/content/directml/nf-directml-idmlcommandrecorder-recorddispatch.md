@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLCommandRecorder.RecordDispatch
 title: IDMLCommandRecorder::RecordDispatch
-author: windows-sdk-content
+
 description: Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command list.
 old-location: direct3d12\idmlcommandrecorder_recorddispatch.htm
 tech.root: direct3d12
 ms.assetid: E76A4CD7-A6A9-4B3F-9E81-3C1BAEB32657
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder interface,RecordDispatch method, IDMLCommandRecorder.RecordDispatch, IDMLCommandRecorder::RecordDispatch, RecordDispatch, RecordDispatch method, RecordDispatch method,IDMLCommandRecorder interface, direct3d12.idmlcommandrecorder_recorddispatch, directml/IDMLCommandRecorder::RecordDispatch
 ms.topic: method

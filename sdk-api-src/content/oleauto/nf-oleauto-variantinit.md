@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VariantInit
 title: VariantInit function (oleauto.h)
-author: windows-sdk-content
+
 description: Initializes a variant.
 old-location: automat\variantinit.htm
 tech.root: automat
 ms.assetid: 96aeb671-5528-4d3c-8e70-313716550b42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantInit, VariantInit function [Automation], _oa96_VariantInit, automat.variantinit, oleauto/VariantInit
 ms.topic: function

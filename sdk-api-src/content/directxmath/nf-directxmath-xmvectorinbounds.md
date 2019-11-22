@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorInBounds
 title: XMVectorInBounds function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether the components of a given vector are within set bounds.
 old-location: dxmath\xmvectorinbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorInBounds(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorInBounds, XMVectorInBounds, XMVectorInBounds method [DirectX Math Support APIs], dxmath.xmvectorinbounds
 ms.topic: function

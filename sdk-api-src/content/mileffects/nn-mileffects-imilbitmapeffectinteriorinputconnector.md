@@ -1,12 +1,12 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectInteriorInputConnector
 title: IMILBitmapEffectInteriorInputConnector (mileffects.h)
-author: windows-sdk-content
+
 description: Exposes methods that define an interior input connector.
 old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\imilbitmapeffectinteriorinputconnector.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinteriorinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector
 ms.topic: interface

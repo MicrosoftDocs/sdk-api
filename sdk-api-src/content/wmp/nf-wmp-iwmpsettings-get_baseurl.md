@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSettings.get_baseURL
 title: IWMPSettings::get_baseURL (wmp.h)
-author: windows-sdk-content
+
 description: The get_baseURL method retrieves the base URL used for relative path resolution with URL script commands that are embedded in digital media content.
 old-location: wmp\iwmpsettings_get_baseurl.htm
 tech.root: WMP
 ms.assetid: 2e4a2696-624f-4c6f-8947-2fe0b457332c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_baseURL method, IWMPSettings.get_baseURL, IWMPSettings::get_baseURL, IWMPSettingsget_baseURL, get_baseURL, get_baseURL method [Windows Media Player], get_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_baseurl, wmp/IWMPSettings::get_baseURL
 ms.topic: method

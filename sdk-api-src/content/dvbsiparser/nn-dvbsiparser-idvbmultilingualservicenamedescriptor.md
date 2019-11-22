@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IDvbMultilingualServiceNameDescriptor
 title: IDvbMultilingualServiceNameDescriptor (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Implements methods that get data from a Digital Video Broadcast (DVB) multilingual service name descriptor. A multilingual service name descriptor provides the names of the service provider and service in text form in one or more languages.
 old-location: mstv\idvbmultilingualservicenamedescriptor.htm
 tech.root: mstv
 ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
 ms.topic: interface

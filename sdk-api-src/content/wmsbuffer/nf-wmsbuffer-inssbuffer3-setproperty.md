@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer3.SetProperty
 title: INSSBuffer3::SetProperty (wmsbuffer.h)
-author: windows-sdk-content
+
 description: The SetProperty method is used to specify a property for the sample in the buffer. Buffer properties are used to pass information along with the sample to the writer object when writing ASF files. Sample properties are GUID values.
 old-location: wmformat\inssbuffer3_setproperty.htm
 tech.root: wmformat
 ms.assetid: 5aede025-65ae-4615-9511-af22b8c0dc00
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer3 interface [windows Media Format],SetProperty method, INSSBuffer3.SetProperty, INSSBuffer3::SetProperty, INSSBuffer3SetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],INSSBuffer3 interface, wmformat.inssbuffer3_setproperty, wmsbuffer/INSSBuffer3::SetProperty
 ms.topic: method

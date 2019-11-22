@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Size.Empty
 title: Size::Empty (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The Size::Empty method determines whether a Size object is empty.
 old-location: gdiplus\_gdiplus_CLASS_Size_Empty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\empty.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],Size class, Size class [GDI+],Empty method, Size.Empty, Size::Empty, _gdiplus_CLASS_Size_Empty_, gdiplus._gdiplus_CLASS_Size_Empty_
 ms.topic: method

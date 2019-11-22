@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.SetWrapMode
 title: TextureBrush::SetWrapMode (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The TextureBrush::SetWrapMode method sets the wrap mode of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\setwrapmode_88wrapmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetWrapMode method, TextureBrush.SetWrapMode, TextureBrush::SetWrapMode, _gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetSecondaryBufferInterface
 title: IAMDirectSound::GetSecondaryBufferInterface (amaudio.h)
-author: windows-sdk-content
+
 description: The GetSecondaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getsecondarybufferinterface.htm
 tech.root: DirectShow
 ms.assetid: 6296d45c-e582-45d6-9f13-e758691ef5de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetSecondaryBufferInterface method, IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
 ms.topic: method

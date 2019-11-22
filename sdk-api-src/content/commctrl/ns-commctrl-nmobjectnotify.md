@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMOBJECTNOTIFY
 title: NMOBJECTNOTIFY (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information used with the TBN_GETOBJECT, TCN_GETOBJECT, and PSN_GETOBJECT notification codes.
 old-location: controls\NMOBJECTNOTIFY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmobjectnotify.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY structure pointer [Windows Controls], NMOBJECTNOTIFY, NMOBJECTNOTIFY structure [Windows Controls], _win32_NMOBJECTNOTIFY, _win32_NMOBJECTNOTIFY_cpp, commctrl/LPNMOBJECTNOTIFY, commctrl/NMOBJECTNOTIFY, controls.NMOBJECTNOTIFY, controls._win32_NMOBJECTNOTIFY'
 ms.topic: struct

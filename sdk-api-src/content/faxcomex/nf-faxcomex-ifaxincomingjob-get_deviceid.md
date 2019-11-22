@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_DeviceId
 title: IFaxIncomingJob::get_DeviceId (faxcomex.h)
-author: windows-sdk-content
+
 description: The DeviceId property indicates the device ID of the device receiving the inbound fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_77l0.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],DeviceId property, IFaxIncomingJob.DeviceId, IFaxIncomingJob.get_DeviceId, IFaxIncomingJob::DeviceId, IFaxIncomingJob::get_DeviceId, _mfax_faxincomingjob.deviceid, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_deviceid_cpp, fax._mfax_faxincomingjob_deviceid, faxcomex/IFaxIncomingJob::DeviceId, faxcomex/IFaxIncomingJob::get_DeviceId, get_DeviceId
 ms.topic: method

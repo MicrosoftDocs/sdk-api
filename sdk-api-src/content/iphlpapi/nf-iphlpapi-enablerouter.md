@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.EnableRouter
 title: EnableRouter function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The EnableRouter function turns on IPv4 forwarding on the local computer. EnableRouter also increments a reference count that tracks the number of requests to enable IPv4 forwarding.
 old-location: iphlp\enablerouter.htm
 tech.root: IpHlp
 ms.assetid: 779f5840-d58d-4194-baa7-2c6a7aeb7d79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnableRouter, EnableRouter function [IP Helper], _iphlp_enablerouter, iphlp.enablerouter, iphlpapi/EnableRouter
 ms.topic: function

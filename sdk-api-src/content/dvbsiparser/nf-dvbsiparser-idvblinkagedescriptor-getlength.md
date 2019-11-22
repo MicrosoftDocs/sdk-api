@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLength
 title: IDvbLinkageDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the body length of a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: b6a4e072-3abe-4305-811d-2bdb846ce028
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbLinkageDescriptor.GetLength, IDvbLinkageDescriptor::GetLength, dvbsiparser/IDvbLinkageDescriptor::GetLength, mstv.idvblinkagedescriptor_getlength
 ms.topic: method

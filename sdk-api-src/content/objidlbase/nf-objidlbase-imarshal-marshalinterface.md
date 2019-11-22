@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IMarshal.MarshalInterface
 title: IMarshal::MarshalInterface (objidlbase.h)
-author: windows-sdk-content
+
 description: Marshals an interface pointer.
 old-location: com\imarshal_marshalinterface.htm
 tech.root: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
 ms.topic: method

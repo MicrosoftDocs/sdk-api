@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomReferenceSet
 title: IOpcSigningOptions::GetCustomReferenceSet (msopc.h)
-author: windows-sdk-content
+
 description: Gets an IOpcSignatureReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getcustomreferenceset.htm
 tech.root: OPC
 ms.assetid: 2222772a-e396-4d78-a7e4-a12f19ec689b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomReferenceSet method, IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetOutputSetting
 title: IWMSyncReader::SetOutputSetting (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmsyncreader_setoutputsetting.htm
 tech.root: wmformat
 ms.assetid: 8deb322f-8b52-46cf-9b5c-76fa34b6bde2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
 ms.topic: method

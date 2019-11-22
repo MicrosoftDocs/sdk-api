@@ -1,12 +1,12 @@
 ---
 UID: NF:msports.ComDBGetCurrentPortUsage
 title: ComDBGetCurrentPortUsage function (msports.h)
-author: windows-sdk-content
+
 description: ComDBGetCurrentPortUsage returns information about the COM port numbers that are currently logged as &#0034;in use&#0034; in the COM port database.
 old-location: serports\comdbgetcurrentportusage.htm
 tech.root: serports
 ms.assetid: f1c5fdc5-b84b-4c7f-832a-44151df39721
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComDBGetCurrentPortUsage, ComDBGetCurrentPortUsage function [Serial Ports], comdb_b4de1b55-d769-424f-842a-21a8cb28ef1d.xml, msports/ComDBGetCurrentPortUsage, serports.comdbgetcurrentportusage
 ms.topic: function

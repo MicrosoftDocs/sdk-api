@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceRemoved
 title: DDiscMaster2Events::NotifyDeviceRemoved (imapi2.h)
-author: windows-sdk-content
+
 description: Receives notification when an optical media device is removed from the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceremoved.htm
 tech.root: imapi
 ms.assetid: 626096ba-f2d7-4a75-b04c-f95aad6915cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceRemoved method, DDiscMaster2Events.NotifyDeviceRemoved, DDiscMaster2Events::NotifyDeviceRemoved, NotifyDeviceRemoved, NotifyDeviceRemoved method [IMAPI], NotifyDeviceRemoved method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceremoved, imapi2/DDiscMaster2Events::NotifyDeviceRemoved
 ms.topic: method

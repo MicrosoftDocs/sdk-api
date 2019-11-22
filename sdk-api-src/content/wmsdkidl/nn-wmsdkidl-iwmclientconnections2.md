@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMClientConnections2
 title: IWMClientConnections2 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMClientConnections2 interface retrieves advanced client information.The writer network sink object exposes this interface.
 old-location: wmformat\iwmclientconnections2.htm
 tech.root: wmformat
 ms.assetid: 7148dd13-e5de-4adb-89e7-3f02a463c2d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], IWMClientConnections2 interface [windows Media Format],described, IWMClientConnections2Interface, wmformat.iwmclientconnections2, wmsdkidl/IWMClientConnections2
 ms.topic: interface

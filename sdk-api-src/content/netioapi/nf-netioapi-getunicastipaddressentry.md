@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.GetUnicastIpAddressEntry
 title: GetUnicastIpAddressEntry function (netioapi.h)
-author: windows-sdk-content
+
 description: Retrieves information for an existing unicast IP address entry on the local computer.
 old-location: iphlp\getunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
 ms.topic: function

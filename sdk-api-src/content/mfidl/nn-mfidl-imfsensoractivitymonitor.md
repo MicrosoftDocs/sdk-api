@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFSensorActivityMonitor
 title: IMFSensorActivityMonitor (mfidl.h)
-author: windows-sdk-content
+
 description: Provides methods for controlling a sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor.htm
 tech.root: medfound
 ms.assetid: 1D0F8C4E-CB64-4787-A25F-8D826356226C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], IMFSensorActivityMonitor interface [Media Foundation],described, mf.imfsensoractivitymonitor, mfidl/IMFSensorActivityMonitor
 ms.topic: interface

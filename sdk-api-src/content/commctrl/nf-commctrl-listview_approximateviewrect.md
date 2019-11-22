@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_ApproximateViewRect
 title: ListView_ApproximateViewRect macro (commctrl.h)
-author: windows-sdk-content
+
 description: Calculates the approximate width and height required to display a given number of items. You can use this macro or send the LVM_APPROXIMATEVIEWRECT message explicitly.
 old-location: controls\ListView_ApproximateViewRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
 ms.topic: macro

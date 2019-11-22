@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.FileEncryptionStatusA
 title: FileEncryptionStatusA function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves the encryption status of the specified file.
 old-location: fs\fileencryptionstatus.htm
 tech.root: FileIO
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FILE_ENCRYPTABLE, FILE_IS_ENCRYPTED, FILE_READ_ONLY, FILE_ROOT_DIR, FILE_SYSTEM_ATTR, FILE_SYSTEM_DIR, FILE_SYSTEM_NOT_SUPPORT, FILE_UNKNOWN, FILE_USER_DISALLOWED, FileEncryptionStatus, FileEncryptionStatus function [Files], FileEncryptionStatusA, FileEncryptionStatusW, _win32_fileencryptionstatus, base.fileencryptionstatus, fs.fileencryptionstatus, winbase/FileEncryptionStatus, winbase/FileEncryptionStatusA, winbase/FileEncryptionStatusW
 ms.topic: function

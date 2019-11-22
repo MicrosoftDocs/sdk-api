@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.IX509ExtensionTemplateName
 title: IX509ExtensionTemplateName (certenroll.h)
-author: windows-sdk-content
+
 description: Defines methods and properties that can be used to initialize or retrieve a template name extension.
 old-location: security\ix509extensiontemplatename.htm
 tech.root: seccertenroll
 ms.assetid: 9a2d0219-6fe3-4a75-8d28-281c0b863a35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplateName, IX509ExtensionTemplateName interface [Security], IX509ExtensionTemplateName interface [Security],described, certenroll/IX509ExtensionTemplateName, security.ix509extensiontemplatename
 ms.topic: interface

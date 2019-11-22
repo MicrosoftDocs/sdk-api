@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.PaintDesktop
 title: PaintDesktop function (winuser.h)
-author: windows-sdk-content
+
 description: The PaintDesktop function fills the clipping region in the specified device context with the desktop pattern or wallpaper. The function is provided primarily for shell desktops.
 old-location: gdi\paintdesktop.htm
 tech.root: gdi
 ms.assetid: 738500d4-32f5-43cf-8d40-9ad201ca6d4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PaintDesktop, PaintDesktop function [Windows GDI], _win32_PaintDesktop, gdi.paintdesktop, winuser/PaintDesktop
 ms.topic: function

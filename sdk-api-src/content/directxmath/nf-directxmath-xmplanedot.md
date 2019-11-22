@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMPlaneDot
 title: XMPlaneDot function (directxmath.h)
-author: windows-sdk-content
+
 description: Calculates the dot product between an input plane and a 4D vector.
 old-location: dxmath\xmplanedot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDot(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneDot, XMPlaneDot, XMPlaneDot method [DirectX Math Support APIs], dxmath.xmplanedot
 ms.topic: function

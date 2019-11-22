@@ -1,7 +1,7 @@
 ---
 UID: NA:msp
 ms.assetid: 26162b4b-e5e5-3866-afd3-3bc76512910a
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

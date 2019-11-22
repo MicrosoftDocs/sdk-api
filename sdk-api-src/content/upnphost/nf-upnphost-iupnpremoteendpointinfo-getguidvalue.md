@@ -1,12 +1,12 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetGuidValue
 title: IUPnPRemoteEndpointInfo::GetGuidValue (upnphost.h)
-author: windows-sdk-content
+
 description: The GetGuidValue method currently is not supported.
 old-location: upnp\iupnpremoteendpointinfo_getguidvalue.htm
 tech.root: upnp
 ms.assetid: 4cbfaa8c-80f1-49c6-91aa-17764559da8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetGuidValue method, IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
 ms.topic: method

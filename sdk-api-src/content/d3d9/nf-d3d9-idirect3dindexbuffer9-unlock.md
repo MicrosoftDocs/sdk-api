@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DIndexBuffer9.Unlock
 title: IDirect3DIndexBuffer9::Unlock (d3d9.h)
-author: windows-sdk-content
+
 description: Unlocks index data.
 old-location: direct3d9\idirect3dindexbuffer9__unlock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__unlock.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 195b02e5-915f-5e40-a28c-1671ec887b86, IDirect3DIndexBuffer9 interface [Direct3D 9],Unlock method, IDirect3DIndexBuffer9.Unlock, IDirect3DIndexBuffer9::Unlock, Unlock, Unlock method [Direct3D 9], Unlock method [Direct3D 9],IDirect3DIndexBuffer9 interface, d3d9helper/IDirect3DIndexBuffer9::Unlock, direct3d9.idirect3dindexbuffer9__unlock
 ms.topic: method

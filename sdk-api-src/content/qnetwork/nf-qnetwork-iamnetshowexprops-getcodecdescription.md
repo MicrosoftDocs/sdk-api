@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecDescription
 title: IAMNetShowExProps::GetCodecDescription (qnetwork.h)
-author: windows-sdk-content
+
 description: The GetCodecDescription method retrieves a user-friendly description of a specified codec.
 old-location: dshow\iamnetshowexprops_getcodecdescription.htm
 tech.root: DirectShow
 ms.assetid: 5a26e576-df4a-462d-8fab-0a133469e77b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorASin
 title: XMVectorASin function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the arcsine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorasin.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorASin(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorASin, XMVectorASin, XMVectorASin method [DirectX Math Support APIs], dxmath.xmvectorasin
 ms.topic: function

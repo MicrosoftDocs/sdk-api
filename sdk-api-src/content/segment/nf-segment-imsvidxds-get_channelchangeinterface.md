@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidXDS.get_ChannelChangeInterface
 title: IMSVidXDS::get_ChannelChangeInterface (segment.h)
-author: windows-sdk-content
+
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidxds_get_channelchangeinterface.htm
 tech.root: mstv
 ms.assetid: 078bd274-b8dc-425b-b14f-3dacff6744bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDS interface [Microsoft TV Technologies],get_ChannelChangeInterface method, IMSVidXDS.get_ChannelChangeInterface, IMSVidXDS::get_ChannelChangeInterface, IMSVidXDSgetChannelChangeInterface, get_ChannelChangeInterface, get_ChannelChangeInterface method [Microsoft TV Technologies], get_ChannelChangeInterface method [Microsoft TV Technologies],IMSVidXDS interface, mstv.imsvidxds_get_channelchangeinterface, segment/IMSVidXDS::get_ChannelChangeInterface
 ms.topic: method

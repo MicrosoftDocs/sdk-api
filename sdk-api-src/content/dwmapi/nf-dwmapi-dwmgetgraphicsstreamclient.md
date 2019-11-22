@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmGetGraphicsStreamClient
 title: DwmGetGraphicsStreamClient function (dwmapi.h)
-author: windows-sdk-content
+
 description: This function is not implemented.
 old-location: dwm\dwmgetgraphicsstreamclient.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamclient.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DwmGetGraphicsStreamClient, DwmGetGraphicsStreamClient function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamclient, _udwm_dwmgetgraphicsstreamclient_cpp, dwm.dwmgetgraphicsstreamclient, dwmapi/DwmGetGraphicsStreamClient, winui._udwm_dwmgetgraphicsstreamclient
 ms.topic: function

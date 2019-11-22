@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_Name
 title: IWdsTransportContentProvider::get_Name (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the content provider.
 old-location: wds\iwdstransportcontentprovider_name.htm
 tech.root: wds
 ms.assetid: 2A897617-F7AA-4EF7-AE44-78EBC98C3B5F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],Name property, IWdsTransportContentProvider.Name, IWdsTransportContentProvider.get_Name, IWdsTransportContentProvider::Name, IWdsTransportContentProvider::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContentProvider interface, get_Name, wds.iwdstransportcontentprovider_name, wdstptmgmt/IWdsTransportContentProvider::Name, wdstptmgmt/IWdsTransportContentProvider::get_Name
 ms.topic: method

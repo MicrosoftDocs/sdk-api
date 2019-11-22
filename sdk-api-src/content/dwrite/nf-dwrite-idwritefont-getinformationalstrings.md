@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetInformationalStrings
 title: IDWriteFont::GetInformationalStrings (dwrite.h)
-author: windows-sdk-content
+
 description: Gets a localized strings collection containing the specified informational strings, indexed by locale name.
 old-location: directwrite\IDWriteFont_GetInformationalStrings.htm
 tech.root: DirectWrite
 ms.assetid: a23fec10-4027-45eb-9c29-01df385b24e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetInformationalStrings method, IDWriteFont.GetInformationalStrings, IDWriteFont::GetInformationalStrings, directwrite.IDWriteFont_GetInformationalStrings, dwrite/IDWriteFont::GetInformationalStrings
 ms.topic: method

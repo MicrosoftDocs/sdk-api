@@ -1,12 +1,12 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPrinterName
 title: IPrintDialogServices::GetCurrentPrinterName (commdlg.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the currently selected printer, for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentprintername.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentprintername.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPrinterName, GetCurrentPrinterName function, GetCurrentPrinterName method [Dialog Boxes], GetCurrentPrinterName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPrinterName method, IPrintDialogServices.GetCurrentPrinterName, IPrintDialogServices::GetCurrentPrinterName, _win32_IPrintDialogServices_GetCurrentPrinterName, _win32_iprintdialogservices_getcurrentprintername_cpp, commdlg/IPrintDialogServices::GetCurrentPrinterName, dlgbox.iprintdialogservices_getcurrentprintername, winui._win32_iprintdialogservices_getcurrentprintername
 ms.topic: method

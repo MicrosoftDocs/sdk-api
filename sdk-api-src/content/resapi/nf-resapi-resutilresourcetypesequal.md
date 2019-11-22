@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilResourceTypesEqual
 title: ResUtilResourceTypesEqual function (resapi.h)
-author: windows-sdk-content
+
 description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcetypesequal.htm
 tech.root: MsCS
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster], ResUtilResourceTypesEqual, ResUtilResourceTypesEqual function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL, resapi/ResUtilResourceTypesEqual
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
 title: IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings (mfidl.h)
-author: windows-sdk-content
+
 description: Not implemented in this release.
 old-location: mf\imfnetschemehandlerconfig_resetprotocolrolloversettings.htm
 tech.root: medfound
 ms.assetid: f2f792a4-811b-4eec-849b-bdd22774c4a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFNetSchemeHandlerConfig interface [Media Foundation],ResetProtocolRolloverSettings method, IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings, IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings, ResetProtocolRolloverSettings, ResetProtocolRolloverSettings method [Media Foundation], ResetProtocolRolloverSettings method [Media Foundation],IMFNetSchemeHandlerConfig interface, f2f792a4-811b-4eec-849b-bdd22774c4a8, mf.imfnetschemehandlerconfig_resetprotocolrolloversettings, mfidl/IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:wofapi._WOF_FILE_COMPRESSION_INFO_V1
 title: WOF_FILE_COMPRESSION_INFO_V1 (wofapi.h)
-author: windows-sdk-content
+
 description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: fs\wof_file_compression_info_v1.htm
 tech.root: FileIO
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetThumbnailClip
 title: ITaskbarList3::SetThumbnailClip (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Selects a portion of a window's client area to display as that window's thumbnail in the taskbar.
 old-location: shell\ITaskbarList3_SetThumbnailClip.htm
 tech.root: shell
 ms.assetid: a22c4708-af59-4ccb-9ddb-885d14c17a33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailClip method, ITaskbarList3.SetThumbnailClip, ITaskbarList3::SetThumbnailClip, SetThumbnailClip, SetThumbnailClip method [Windows Shell], SetThumbnailClip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailClip, shell.ITaskbarList3_SetThumbnailClip, shobjidl_core/ITaskbarList3::SetThumbnailClip
 ms.topic: method

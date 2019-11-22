@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RevokeEvent
 title: ISyncProviderRegistration::RevokeEvent (syncregistration.h)
-author: windows-sdk-content
+
 description: Unregisters the user from the notification of the arrival of new registration events.
 old-location: winsync\isyncproviderregistration_revokeevent.htm
 tech.root: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.tapiRequestDrop
 title: tapiRequestDrop function (tapi.h)
-author: windows-sdk-content
+
 description: Closes a call request made by a previous call to tapiRequestMediaCall.
 old-location: tapi2\tapirequestdrop.htm
 tech.root: Tapi
 ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
 ms.topic: function

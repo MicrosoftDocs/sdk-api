@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._REQUEST_OPLOCK_INPUT_BUFFER
 title: REQUEST_OPLOCK_INPUT_BUFFER
-author: windows-sdk-content
+
 description: Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break with the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_input_buffer.htm
 tech.root: FileIO
 ms.assetid: ac19fbd3-a967-4ac8-9260-93e07b5008ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PREQUEST_OPLOCK_INPUT_BUFFER, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, PREQUEST_OPLOCK_INPUT_BUFFER, PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_INPUT_BUFFER, REQUEST_OPLOCK_INPUT_BUFFER structure [Files], REQUEST_OPLOCK_INPUT_FLAG_ACK, REQUEST_OPLOCK_INPUT_FLAG_REQUEST, fs.request_oplock_input_buffer, winioctl/PREQUEST_OPLOCK_INPUT_BUFFER, winioctl/REQUEST_OPLOCK_INPUT_BUFFER'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:iads._ADS_CASEIGNORE_LIST
 title: ADS_CASEIGNORE_LIST (iads.h)
-author: windows-sdk-content
+
 description: The ADS_CASEIGNORE_LIST structure is an ADSI representation of the Case Ignore List attribute syntax.
 old-location: adsi\ads_caseignore_list.htm
 tech.root: adsi
 ms.assetid: 448c4541-7478-44f3-9be3-f1200f83978a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST structure [ADSI], PADS_CASEIGNORE_LIST, PADS_CASEIGNORE_LIST structure pointer [ADSI], _ds_ads_caseignore_list, adsi.ads__caseignore__list, adsi.ads_caseignore_list, iads/ADS_CASEIGNORE_LIST, iads/PADS_CASEIGNORE_LIST"
 ms.topic: struct

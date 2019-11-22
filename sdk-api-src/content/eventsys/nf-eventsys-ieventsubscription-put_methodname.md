@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MethodName
 title: IEventSubscription::put_MethodName (eventsys.h)
-author: windows-sdk-content
+
 description: The name of the event method.
 old-location: cos\ieventsubscription_methodname.htm
 tech.root: cossdk
 ms.assetid: 2959e1f3-5b16-40a3-abdf-7fe18be2336b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],MethodName property, IEventSubscription.MethodName, IEventSubscription.put_MethodName, IEventSubscription::MethodName, IEventSubscription::get_MethodName, IEventSubscription::put_MethodName, MethodName property [COM+], MethodName property [COM+],IEventSubscription interface, cos.ieventsubscription_methodname, eventsys/IEventSubscription::MethodName, eventsys/IEventSubscription::get_MethodName, eventsys/IEventSubscription::put_MethodName, put_MethodName
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IGetSecurityCallContext
 title: IGetSecurityCallContext (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+],described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
 ms.topic: interface

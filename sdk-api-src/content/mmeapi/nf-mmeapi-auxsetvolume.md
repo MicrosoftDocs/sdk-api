@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.auxSetVolume
 title: auxSetVolume function (mmeapi.h)
-author: windows-sdk-content
+
 description: The auxSetVolume function sets the volume of the specified auxiliary output device.
 old-location: multimedia\auxsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 886acacd-f2ac-4e75-aa3d-668e6d4fbbf2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_auxSetVolume, auxSetVolume, auxSetVolume function [Windows Multimedia], mmeapi/auxSetVolume, multimedia.auxsetvolume"
 ms.topic: function

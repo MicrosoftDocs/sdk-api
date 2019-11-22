@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsBlend
 title: ID3D10EffectVariable::AsBlend (d3d10effect.h)
-author: windows-sdk-content
+
 description: Get a effect-blend variable.
 old-location: direct3d10\id3d10effectvariable_asblend.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asblend.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AsBlend, AsBlend method [Direct3D 10], AsBlend method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsBlend method, ID3D10EffectVariable.AsBlend, ID3D10EffectVariable::AsBlend, bc3da4a0-2ef6-7ffd-8a6d-1bf74e1ef7da, d3d10effect/ID3D10EffectVariable::AsBlend, direct3d10.id3d10effectvariable_asblend
 ms.topic: method

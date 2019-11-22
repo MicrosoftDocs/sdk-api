@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.DebugBreak
 title: DebugBreak function (debugapi.h)
-author: windows-sdk-content
+
 description: Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreak.htm
 tech.root: Debug
 ms.assetid: 1ca9d2d1-eed4-4982-8964-64b44e8be256
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DebugBreak, DebugBreak function, _win32_debugbreak, base.debugbreak, debugapi/DebugBreak
 ms.topic: function

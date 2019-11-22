@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupSetFileQueueFlags
 title: SetupSetFileQueueFlags function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupSetFileQueueFlags function sets the flags on a setup file queue.
 old-location: setup\setupsetfilequeueflags.htm
 tech.root: SetupApi
 ms.assetid: 63a4dfbb-bd48-4183-9e7d-ce337f2707fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SPQ_FLAG_VALID, SetupSetFileQueueFlags, SetupSetFileQueueFlags function [Setup API], _setupapi_setupsetfilequeueflags, setup.setupsetfilequeueflags, setupapi/SetupSetFileQueueFlags
 ms.topic: function

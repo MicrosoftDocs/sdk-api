@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSigned
 title: IWSDSignatureProperty::IsMessageSigned (wsdbase.h)
-author: windows-sdk-content
+
 description: Specifies if a message is signed.
 old-location: ncd\iwsdsignatureproperty_ismessagesigned.htm
 tech.root: WsdApi
 ms.assetid: ca91bb1e-b8a6-4cfe-850c-887b39ae239e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSigned method, IWSDSignatureProperty.IsMessageSigned, IWSDSignatureProperty::IsMessageSigned, IsMessageSigned, IsMessageSigned method, IsMessageSigned method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesigned, wsdbase/IWSDSignatureProperty::IsMessageSigned
 ms.topic: method

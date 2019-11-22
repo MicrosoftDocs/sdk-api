@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._MERGE_VIRTUAL_DISK_VERSION
 title: MERGE_VIRTUAL_DISK_VERSION (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains the version of the virtual hard disk (VHD) MERGE_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\merge_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 1f542a51-d314-4add-a389-d450785b0a73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MERGE_VIRTUAL_DISK_VERSION, MERGE_VIRTUAL_DISK_VERSION enumeration [VHD], MERGE_VIRTUAL_DISK_VERSION_1, MERGE_VIRTUAL_DISK_VERSION_2, MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION_1, vdssys/MERGE_VIRTUAL_DISK_VERSION_2, vdssys/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.merge_virtual_disk_version, virtdisk/MERGE_VIRTUAL_DISK_VERSION, virtdisk/MERGE_VIRTUAL_DISK_VERSION_1, virtdisk/MERGE_VIRTUAL_DISK_VERSION_2, virtdisk/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum

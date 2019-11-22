@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstSint16A
 title: MI_ConstSint16A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Sint16 types.
 old-location: wmi_v2\mi_constsint16a.htm
 tech.root: wmi_v2
 ms.assetid: f2260665-4655-4aa4-b920-2ed74e7189bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint16A, MI_ConstSint16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstSint16A, wmi._mi_constsint16a, wmi_v2.mi_constsint16a
 ms.topic: struct

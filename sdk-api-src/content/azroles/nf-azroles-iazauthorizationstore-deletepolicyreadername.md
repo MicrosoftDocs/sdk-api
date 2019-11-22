@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyReaderName
 title: IAzAuthorizationStore::DeletePolicyReaderName (azroles.h)
-author: windows-sdk-content
+
 description: Removes the specified account name from the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_deletepolicyreadername.htm
 tech.root: SecAuthZ
 ms.assetid: b3375c24-82c3-43fd-a063-8c8079324641
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzAuthorizationStore object, DeletePolicyReaderName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyReaderName method, IAzAuthorizationStore.DeletePolicyReaderName, IAzAuthorizationStore::DeletePolicyReaderName, azroles/IAzAuthorizationStore::DeletePolicyReaderName, security.azauthorizationstore_deletepolicyreadername
 ms.topic: method

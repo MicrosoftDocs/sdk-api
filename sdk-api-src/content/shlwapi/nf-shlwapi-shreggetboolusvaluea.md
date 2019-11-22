@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolUSValueA
 title: SHRegGetBoolUSValueA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Retrieves a Boolean value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetBoolUSValue.htm
 tech.root: shell
 ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHRegGetBoolUSValue, SHRegGetBoolUSValue function [Windows Shell], SHRegGetBoolUSValueA, SHRegGetBoolUSValueW, _win32_SHRegGetBoolUSValue, shell.SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValueA, shlwapi/SHRegGetBoolUSValueW
 ms.topic: function

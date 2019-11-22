@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
 title: XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of the XMMATRIX structure from sixteen scalar float values.
 old-location: dxmath\xmmatrix_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float), dxmath.xmmatrix_ctor_2
 ms.topic: method

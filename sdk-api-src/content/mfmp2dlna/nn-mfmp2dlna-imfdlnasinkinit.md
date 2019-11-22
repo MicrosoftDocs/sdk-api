@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmp2dlna.IMFDLNASinkInit
 title: IMFDLNASinkInit (mfmp2dlna.h)
-author: windows-sdk-content
+
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit.htm
 tech.root: medfound
 ms.assetid: fec2933a-aa1a-41e5-b697-fdae548b3789
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], IMFDLNASinkInit interface [Media Foundation],described, mf.imfdlnasinkinit, mfmp2dlna/IMFDLNASinkInit
 ms.topic: interface

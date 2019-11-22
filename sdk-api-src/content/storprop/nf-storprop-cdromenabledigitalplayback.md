@@ -1,12 +1,12 @@
 ---
 UID: NF:storprop.CdromEnableDigitalPlayback
 title: CdromEnableDigitalPlayback function (storprop.h)
-author: windows-sdk-content
+
 description: Enables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromenabledigitalplayback.htm
 tech.root: devio
 ms.assetid: a50a0c9a-21f3-4d55-97c3-144f5835b6af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CdromEnableDigitalPlayback, CdromEnableDigitalPlayback function, base.cdromenabledigitalplayback, storprop/CdromEnableDigitalPlayback
 ms.topic: function

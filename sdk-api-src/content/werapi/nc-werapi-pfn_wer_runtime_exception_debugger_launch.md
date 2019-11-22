@@ -1,12 +1,12 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
 title: PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH (werapi.h)
-author: windows-sdk-content
+
 description: WER calls this function to let you customize the debugger launch options and launch string.
 old-location: wer\outofprocessexceptioneventdebuggerlaunchcallback.htm
 tech.root: wer
 ms.assetid: ecf36951-cdb5-425d-a9b1-83b7ce8aebc4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 ms.topic: callback

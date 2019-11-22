@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.ISyncProvider
 title: ISyncProvider (winsync.h)
-author: windows-sdk-content
+
 description: Represents a synchronization provider that can be used by a synchronization session to synchronize data with another synchronization provider.
 old-location: winsync\isyncprovider.htm
 tech.root: winsync
 ms.assetid: 0664267f-90ba-4123-bfe5-7cf748b78c10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncProvider, ISyncProvider interface [Windows Sync], ISyncProvider interface [Windows Sync],described, winsync.isyncprovider, winsync/ISyncProvider
 ms.topic: interface

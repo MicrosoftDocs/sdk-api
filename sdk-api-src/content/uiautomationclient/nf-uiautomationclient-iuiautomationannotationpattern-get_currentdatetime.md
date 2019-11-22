@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentDateTime
 title: IUIAutomationAnnotationPattern::get_CurrentDateTime (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm
 tech.root: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern.get_CurrentDateTime, IUIAutomationAnnotationPattern::CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
 ms.topic: method

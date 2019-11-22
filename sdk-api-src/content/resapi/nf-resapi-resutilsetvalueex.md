@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilSetValueEx
 title: ResUtilSetValueEx function (resapi.h)
-author: windows-sdk-content
+
 description: Sets a value in the cluster database.
 old-location: mscs\resutilsetvalueex.htm
 tech.root: MsCS
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
 ms.topic: function

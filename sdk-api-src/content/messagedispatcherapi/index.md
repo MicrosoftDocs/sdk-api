@@ -1,7 +1,7 @@
 ---
 UID: NA:messagedispatcherapi
 ms.assetid: a6b68246-129d-30af-8dfd-a41ca723f15f
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

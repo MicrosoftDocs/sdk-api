@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsAcl.CopyAcl
 title: IADsAcl::CopyAcl (iads.h)
-author: windows-sdk-content
+
 description: The IADsAcl::CopyAcl method makes a copy of the existing ACL.
 old-location: adsi\iadsacl_copyacl.htm
 tech.root: adsi
 ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
 ms.topic: method

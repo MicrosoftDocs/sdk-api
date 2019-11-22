@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Next_Res_Des
 title: CM_Get_Next_Res_Des function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Get_Next_Res_Des function obtains a handle to the next resource descriptor, of a specified resource type, for a logical configuration on the local machine.
 old-location: devinst\cm_get_next_res_des.htm
 tech.root: devinst
 ms.assetid: 2ce2a84c-a9fe-42ff-920f-47dd0f54a820
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Next_Res_Des, CM_Get_Next_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Res_Des, cfgmgrfn_e12ec655-bb0e-4601-9e4b-7ba65a08bfac.xml, devinst.cm_get_next_res_des
 ms.topic: function

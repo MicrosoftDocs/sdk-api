@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateSourceContentGroupMapReader
 title: IAppxFactory2::CreateSourceContentGroupMapReader (appxpackaging.h)
-author: windows-sdk-content
+
 description: Creates an IAppxSourceContentGroupMapReader.
 old-location: appxpkg\iappxfactory2_createsourcecontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: DB0FFB8D-A9DB-4B9C-B277-76623ECA3D6B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSourceContentGroupMapReader, CreateSourceContentGroupMapReader method [App packaging and management], CreateSourceContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateSourceContentGroupMapReader method, IAppxFactory2.CreateSourceContentGroupMapReader, IAppxFactory2::CreateSourceContentGroupMapReader, appxpackaging/IAppxFactory2::CreateSourceContentGroupMapReader, appxpkg.iappxfactory2_createsourcecontentgroupmapreader
 ms.topic: method

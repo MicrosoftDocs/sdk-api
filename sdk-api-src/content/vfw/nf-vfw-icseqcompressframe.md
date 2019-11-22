@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICSeqCompressFrame
 title: ICSeqCompressFrame function (vfw.h)
-author: windows-sdk-content
+
 description: The ICSeqCompressFrame function compresses one frame in a sequence of frames.
 old-location: multimedia\icseqcompressframe.htm
 tech.root: Multimedia
 ms.assetid: 6159e455-1e1a-4aa5-9d75-53cd2af2656a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrame, ICSeqCompressFrame function [Windows Multimedia], _win32_ICSeqCompressFrame, multimedia.icseqcompressframe, vfw/ICSeqCompressFrame
 ms.topic: function

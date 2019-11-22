@@ -1,12 +1,12 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 title: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY (wincrypt.h)
-author: windows-sdk-content
+
 description: Imports an already decrypted content encryption key (CEK).
 old-location: security\pfn_cmsg_cng_import_content_encrypt_key.htm
 tech.root: SecCrypto
 ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_cng_import_content_encrypt_key, wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 ms.topic: callback

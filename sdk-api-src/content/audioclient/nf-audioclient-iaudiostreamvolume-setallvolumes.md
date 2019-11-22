@@ -1,12 +1,12 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.SetAllVolumes
 title: IAudioStreamVolume::SetAllVolumes (audioclient.h)
-author: windows-sdk-content
+
 description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_setallvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 2eabbc37-a0f6-4e56-b68d-18e634d65394
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamVolume interface [Core Audio],SetAllVolumes method, IAudioStreamVolume.SetAllVolumes, IAudioStreamVolume::SetAllVolumes, IAudioStreamVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetAllVolumes, coreaudio.iaudiostreamvolume_setallvolumes
 ms.topic: method

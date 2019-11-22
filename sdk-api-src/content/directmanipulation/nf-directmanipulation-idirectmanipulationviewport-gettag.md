@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetTag
 title: IDirectManipulationViewport::GetTag (directmanipulation.h)
-author: windows-sdk-content
+
 description: Gets the tag value of a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 7523a99b-de43-4efe-ae22-6632167c039a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetTag method, IDirectManipulationViewport.GetTag, IDirectManipulationViewport::GetTag, directmanipulation.idirectmanipulationviewport_gettag, directmanipulation/IDirectManipulationViewport::GetTag
 ms.topic: method

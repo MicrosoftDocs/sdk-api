@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.GetGroupingParam
 title: IMFAudioPolicy::GetGroupingParam (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the group of sessions to which this audio session belongs.
 old-location: mf\imfaudiopolicy_getgroupingparam.htm
 tech.root: medfound
 ms.assetid: 725892fd-4af6-483d-bb5c-87051fa45ec4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 725892fd-4af6-483d-bb5c-87051fa45ec4, GetGroupingParam, GetGroupingParam method [Media Foundation], GetGroupingParam method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetGroupingParam method, IMFAudioPolicy.GetGroupingParam, IMFAudioPolicy::GetGroupingParam, mf.imfaudiopolicy_getgroupingparam, mfidl/IMFAudioPolicy::GetGroupingParam
 ms.topic: method

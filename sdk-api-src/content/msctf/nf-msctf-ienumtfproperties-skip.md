@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Skip
 title: IEnumTfProperties::Skip (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfProperties::Skip method
 old-location: tsf\ienumtfproperties_skip.htm
 tech.root: TSF
 ms.assetid: a20e4c98-eaad-4614-a7af-b25a28f980d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfProperties interface [Text Services Framework],Skip method, IEnumTfProperties.Skip, IEnumTfProperties::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_skip_ref, msctf/IEnumTfProperties::Skip, tsf.ienumtfproperties_skip
 ms.topic: method

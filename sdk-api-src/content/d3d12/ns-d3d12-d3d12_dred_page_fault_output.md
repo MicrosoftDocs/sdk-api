@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12.D3D12_DRED_PAGE_FAULT_OUTPUT
 title: D3D12_DRED_PAGE_FAULT_OUTPUT
-author: windows-sdk-content
+
 description: Describes allocation data related to a GPU page fault on a given virtual address (VA).
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_PAGE_FAULT_OUTPUT, D3D12_DRED_PAGE_FAULT_OUTPUT structure, d3d12/D3D12_DRED_PAGE_FAULT_OUTPUT, direct3d12.d3d12_dred_page_fault_output
 ms.topic: struct

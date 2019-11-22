@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfoVQ
 title: DhcpSetClientInfoVQ function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Sets or modifies an existing DHCP client lease record in the DHCP server record database.
 old-location: dhcp\dhcpsetclientinfovq.htm
 tech.root: DHCP
 ms.assetid: c12ae8f5-8629-494f-905c-cbae57dcf3f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpSetClientInfoVQ, DhcpSetClientInfoVQ function [DHCP], dhcp.dhcpsetclientinfovq, dhcpsapi/DhcpSetClientInfoVQ
 ms.topic: function

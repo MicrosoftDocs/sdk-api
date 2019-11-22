@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusimaging.ImageLockMode
 title: ImageLockMode (gdiplusimaging.h)
-author: windows-sdk-content
+
 description: The ImageLockMode enumeration specifies flags that are passed to the flags parameter of the Bitmap::LockBits method. The Bitmap::LockBits method locks a portion of an image so that you can read or write the pixel data.
 old-location: gdiplus\_gdiplus_ENUM_ImageLockMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagelockmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageLockMode, ImageLockMode enumeration [GDI+], ImageLockModeRead, ImageLockModeUserInputBuf, ImageLockModeWrite, _gdiplus_ENUM_ImageLockMode, gdiplus._gdiplus_ENUM_ImageLockMode, gdiplusimaging/ImageLockMode, gdiplusimaging/ImageLockModeRead, gdiplusimaging/ImageLockModeUserInputBuf, gdiplusimaging/ImageLockModeWrite
 ms.topic: enum

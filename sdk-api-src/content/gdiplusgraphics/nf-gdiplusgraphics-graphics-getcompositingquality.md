@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingQuality
 title: Graphics::GetCompositingQuality (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetCompositingQuality method gets the compositing quality currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingQuality_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingquality.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCompositingQuality, GetCompositingQuality method [GDI+], GetCompositingQuality method [GDI+],Graphics class, Graphics class [GDI+],GetCompositingQuality method, Graphics.GetCompositingQuality, Graphics::GetCompositingQuality, _gdiplus_CLASS_Graphics_GetCompositingQuality_, gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_
 ms.topic: method

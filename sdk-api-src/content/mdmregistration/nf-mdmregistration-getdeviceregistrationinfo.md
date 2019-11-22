@@ -1,12 +1,12 @@
 ---
 UID: NF:mdmregistration.GetDeviceRegistrationInfo
 title: GetDeviceRegistrationInfo function (mdmregistration.h)
-author: windows-sdk-content
+
 description: Retrieves the device registration information.
 old-location: mdmreg\getdeviceregistrationinfo.htm
 tech.root: MDMReg
 ms.assetid: 7FA2F81C-6714-42D8-880E-FD5A27A0F80A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM Registration], mdmreg.getdeviceregistrationinfo, mdmregistration/GetDeviceRegistrationInfo
 ms.topic: function

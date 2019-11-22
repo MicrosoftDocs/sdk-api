@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForOutput
 title: IWMReaderAdvanced::GetAllocateForOutput (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetAllocateForOutput method ascertains whether the reader is configured to use the IWMReaderCallbackAdvanced interface to allocate samples delivered by the IWMReaderCallback::OnSample callback.
 old-location: wmformat\iwmreaderadvanced_getallocateforoutput.htm
 tech.root: wmformat
 ms.assetid: b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAllocateForOutput, GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForOutput method, IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
 ms.topic: method

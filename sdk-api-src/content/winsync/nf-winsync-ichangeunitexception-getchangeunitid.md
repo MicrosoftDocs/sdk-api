@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetChangeUnitId
 title: IChangeUnitException::GetChangeUnitId (winsync.h)
-author: windows-sdk-content
+
 description: Gets the change unit ID for the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableW
 title: SetFirmwareEnvironmentVariableW function (winbase.h)
-author: windows-sdk-content
+
 description: Sets the value of the specified firmware environment variable.
 old-location: base\setfirmwareenvironmentvariable.htm
 tech.root: SysInfo
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
 ms.topic: function

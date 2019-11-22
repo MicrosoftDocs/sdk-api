@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.GetMaxKeyFrameSpacing
 title: IWMVideoMediaProps::GetMaxKeyFrameSpacing (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetMaxKeyFrameSpacing method retrieves the maximum interval between key frames.
 old-location: wmformat\iwmvideomediaprops_getmaxkeyframespacing.htm
 tech.root: wmformat
 ms.assetid: 125d352e-b181-4baa-8763-21315534beea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxKeyFrameSpacing, GetMaxKeyFrameSpacing method [windows Media Format], GetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, IWMVideoMediaProps interface [windows Media Format],GetMaxKeyFrameSpacing method, IWMVideoMediaProps.GetMaxKeyFrameSpacing, IWMVideoMediaProps::GetMaxKeyFrameSpacing, IWMVideoMediaPropsGetMaxKeyFrameSpacing, wmformat.iwmvideomediaprops_getmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::GetMaxKeyFrameSpacing
 ms.topic: method

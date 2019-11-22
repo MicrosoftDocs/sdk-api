@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.DeleteClusterResource
 title: DeleteClusterResource function (clusapi.h)
-author: windows-sdk-content
+
 description: Removes an offline resource from a cluster.
 old-location: mscs\deleteclusterresource.htm
 tech.root: MsCS
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterResource, DeleteClusterResource function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_deleteclusterresource, clusapi/DeleteClusterResource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
 ms.topic: function

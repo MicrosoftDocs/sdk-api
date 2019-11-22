@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMLISTVIEW
 title: NMLISTVIEW (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about a list-view notification message. This structure is the same as the NM_LISTVIEW structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLISTVIEW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlistview.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLISTVIEW, LPNMLISTVIEW, LPNMLISTVIEW structure pointer [Windows Controls], NMLISTVIEW, NMLISTVIEW structure [Windows Controls], _win32_NMLISTVIEW, _win32_NMLISTVIEW_cpp, commctrl/LPNMLISTVIEW, commctrl/NMLISTVIEW, controls.NMLISTVIEW, controls._win32_NMLISTVIEW'
 ms.topic: struct

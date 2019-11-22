@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3(const uint32_t)
 title: XMUINT3::XMUINT3(const uint32_t) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUINT3 from a three element uint32_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 44e21d02-43b9-4148-ba63-3440c0954860
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3.XMUINT3(const uint32_t), XMUINT3::XMUINT3, XMUINT3::XMUINT3(const uint32_t), dxmath.xmuint3_ctor_1
 ms.topic: method

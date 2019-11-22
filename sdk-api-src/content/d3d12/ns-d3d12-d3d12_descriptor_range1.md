@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_DESCRIPTOR_RANGE1
 title: D3D12_DESCRIPTOR_RANGE1 (d3d12.h)
-author: windows-sdk-content
+
 description: Describes a descriptor range, with flags to determine their volatility.
 old-location: direct3d12\d3d12_descriptor_range1.htm
 tech.root: direct3d12
 ms.assetid: EFC36053-6FD1-4D2E-8214-66B50F0CC0D5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE1, D3D12_DESCRIPTOR_RANGE1 structure, d3d12/D3D12_DESCRIPTOR_RANGE1, direct3d12.d3d12_descriptor_range1
 ms.topic: struct

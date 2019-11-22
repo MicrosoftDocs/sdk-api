@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.SetAllVolumes
 title: IMFAudioStreamVolume::SetAllVolumes (mfidl.h)
-author: windows-sdk-content
+
 description: Sets the individual volume levels for all of the channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_setallvolumes.htm
 tech.root: medfound
 ms.assetid: 6c278693-5a2f-4aa2-b477-3b3014b2cc89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6c278693-5a2f-4aa2-b477-3b3014b2cc89, IMFAudioStreamVolume interface [Media Foundation],SetAllVolumes method, IMFAudioStreamVolume.SetAllVolumes, IMFAudioStreamVolume::SetAllVolumes, SetAllVolumes, SetAllVolumes method [Media Foundation], SetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setallvolumes, mfidl/IMFAudioStreamVolume::SetAllVolumes
 ms.topic: method

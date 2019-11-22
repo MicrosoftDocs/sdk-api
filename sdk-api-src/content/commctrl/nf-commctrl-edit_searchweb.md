@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_SearchWeb
 title: Edit_SearchWeb macro (commctrl.h)
-author: windows-sdk-content
+
 description: Invokes the &#0034;Search with Bing…&#0034; context menu item in edit controls. You can use this macro or send the EM_SEARCHWEB message explicitly.
 old-location: controls\edit_searchweb.htm
 tech.root: Controls
 ms.assetid: 33F79879-EC55-438F-AC55-14BC119A4EFC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_SearchWeb, Edit_SearchWeb macro [Windows Controls], commctrl/Edit_SearchWeb, controls.edit_searchweb
 ms.topic: macro

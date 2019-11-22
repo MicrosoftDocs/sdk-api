@@ -1,12 +1,12 @@
 ---
 UID: NE:resapi._CLUSTER_ROLE
 title: CLUSTER_ROLE (resapi.h)
-author: windows-sdk-content
+
 description: Contains the names of the standard cluster roles.
 old-location: mscs\cluster_role.htm
 tech.root: MsCS
 ms.assetid: 65fc8a8f-0a9e-464c-b62a-d2e61431d927
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ROLE, CLUSTER_ROLE enumeration [Failover Cluster], ClusterRoleDFSReplicatedFolder, ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleDistributedFileSystem, ClusterRoleDistributedNetworkName, ClusterRoleFileServer, ClusterRoleFileShare, ClusterRoleFileShareWitness, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleHardDisk, ClusterRoleIPAddress, ClusterRoleIPV6Address, ClusterRoleIPV6TunnelAddress, ClusterRoleISCSINameServer, ClusterRoleISCSITargetServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRoleNetworkFileSystem, ClusterRoleNetworkName, ClusterRolePhysicalDisk, ClusterRolePrintServer, ClusterRoleSODAFileServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleStoragePool, ClusterRoleTaskScheduler, ClusterRoleVirtualMachine, ClusterRoleVirtualMachineConfiguration, ClusterRoleVirtualMachineReplicaBroker, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, mscs.cluster_role, resapi/CLUSTER_ROLE, resapi/ClusterRoleDFSReplicatedFolder, resapi/ClusterRoleDHCP, resapi/ClusterRoleDTC, resapi/ClusterRoleDistributedFileSystem, resapi/ClusterRoleDistributedNetworkName, resapi/ClusterRoleFileServer, resapi/ClusterRoleFileShare, resapi/ClusterRoleFileShareWitness, resapi/ClusterRoleGenericApplication, resapi/ClusterRoleGenericScript, resapi/ClusterRoleGenericService, resapi/ClusterRoleHardDisk, resapi/ClusterRoleIPAddress, resapi/ClusterRoleIPV6Address, resapi/ClusterRoleIPV6TunnelAddress, resapi/ClusterRoleISCSINameServer, resapi/ClusterRoleISCSITargetServer, resapi/ClusterRoleMSMQ, resapi/ClusterRoleNFS, resapi/ClusterRoleNetworkFileSystem, resapi/ClusterRoleNetworkName, resapi/ClusterRolePhysicalDisk, resapi/ClusterRolePrintServer, resapi/ClusterRoleSODAFileServer, resapi/ClusterRoleStandAloneNamespaceServer, resapi/ClusterRoleStoragePool, resapi/ClusterRoleTaskScheduler, resapi/ClusterRoleVirtualMachine, resapi/ClusterRoleVirtualMachineConfiguration, resapi/ClusterRoleVirtualMachineReplicaBroker, resapi/ClusterRoleVolumeShadowCopyServiceTask, resapi/ClusterRoleWINS
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
 title: IUIAutomationScrollPattern::get_CachedHorizontallyScrollable (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a cached value that indicates whether the element can scroll horizontally.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: 9089e237-2115-47b6-a1eb-eaea5a93586e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], CachedHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontallyScrollable property, IUIAutomationScrollPattern.CachedHorizontallyScrollable, IUIAutomationScrollPattern.get_CachedHorizontallyScrollable, IUIAutomationScrollPattern::CachedHorizontallyScrollable, IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, get_CachedHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Clone
 title: ISyncMgrEnumItems::Clone (mobsync.h)
-author: windows-sdk-content
+
 description: Creates another items enumerator with the same state as the current enumerator to iterate over the same list. This method makes it possible to record a point in the enumeration sequence in order to return to that point at a later time.
 old-location: shell\syncmgr_isyncmgrenumitems_clone.htm
 tech.root: shell
 ms.assetid: 33bf4956-3d16-412c-9551-4ae3366ddd78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ISyncMgrEnumItems interface, ISyncMgrEnumItems interface [Windows Shell],Clone method, ISyncMgrEnumItems.Clone, ISyncMgrEnumItems::Clone, mobsync/ISyncMgrEnumItems::Clone, shell.syncmgr_isyncmgrenumitems_clone, syncmgr.isyncmgrenumitems_clone
 ms.topic: method

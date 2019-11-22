@@ -1,12 +1,12 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.InitServicePointers
 title: IMFTopologyServiceLookupClient::InitServicePointers (evr.h)
-author: windows-sdk-content
+
 description: Signals the mixer or presenter to query the enhanced video renderer (EVR) for interface pointers.
 old-location: mf\imftopologyservicelookupclient_initservicepointers.htm
 tech.root: medfound
 ms.assetid: b89f5a47-154c-455a-b5a2-db55e4972b21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookupClient interface [Media Foundation],InitServicePointers method, IMFTopologyServiceLookupClient.InitServicePointers, IMFTopologyServiceLookupClient::InitServicePointers, InitServicePointers, InitServicePointers method [Media Foundation], InitServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, b89f5a47-154c-455a-b5a2-db55e4972b21, evr/IMFTopologyServiceLookupClient::InitServicePointers, mf.imftopologyservicelookupclient_initservicepointers
 ms.topic: method

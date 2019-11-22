@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetSystemPaletteEntries
 title: GetSystemPaletteEntries function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetSystemPaletteEntries function retrieves a range of palette entries from the system palette that is associated with the specified device context (DC).
 old-location: gdi\getsystempaletteentries.htm
 tech.root: gdi
 ms.assetid: 67bb0adf-ae7f-48d5-bc62-82ece45aeee6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSystemPaletteEntries, GetSystemPaletteEntries function [Windows GDI], _win32_GetSystemPaletteEntries, gdi.getsystempaletteentries, wingdi/GetSystemPaletteEntries
 ms.topic: function

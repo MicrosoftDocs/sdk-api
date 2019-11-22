@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryDriveExtents
 title: IVdsStoragePool::QueryDriveExtents (vdshwprv.h)
-author: windows-sdk-content
+
 description: Returns an array of the drive extents that are used by a storage pool.
 old-location: base\ivdsstoragepool_querydriveextents.htm
 tech.root: VDS
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
 ms.topic: method

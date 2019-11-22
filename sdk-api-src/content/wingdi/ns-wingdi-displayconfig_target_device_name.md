@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_DEVICE_NAME
 title: DISPLAYCONFIG_TARGET_DEVICE_NAME (wingdi.h)
-author: windows-sdk-content
+
 description: The DISPLAYCONFIG_TARGET_DEVICE_NAME structure contains information about the target.
 old-location: display\displayconfig_target_device_name.htm
 tech.root: display
 ms.assetid: 85507b69-8ce0-4f39-a4d3-7d67f515b451
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_71e42f61-634a-47fe-b330-404dbe59e211.xml, DISPLAYCONFIG_TARGET_DEVICE_NAME, DISPLAYCONFIG_TARGET_DEVICE_NAME structure [Display Devices], display.displayconfig_target_device_name, wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME
 ms.topic: struct

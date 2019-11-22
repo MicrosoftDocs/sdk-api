@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Size
 title: IFaxOutgoingMessage::get_Size (faxcomex.h)
-author: windows-sdk-content
+
 description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wx1.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Size property, IFaxOutgoingMessage.Size, IFaxOutgoingMessage.get_Size, IFaxOutgoingMessage::Size, IFaxOutgoingMessage::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.size, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_size_cpp, fax._mfax_faxoutgoingmessage_size, faxcomex/IFaxOutgoingMessage::Size, faxcomex/IFaxOutgoingMessage::get_Size, get_Size
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tbs.Tbsip_Cancel_Commands
 title: Tbsip_Cancel_Commands function (tbs.h)
-author: windows-sdk-content
+
 description: Cancels all outstanding commands for the specified context.
 old-location: tbs\_tbsip_cancel_commands.htm
 tech.root: TBS
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
 ms.topic: function

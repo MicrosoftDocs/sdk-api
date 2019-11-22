@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.remove
 title: IWMPMediaCollection::remove (wmp.h)
-author: windows-sdk-content
+
 description: The remove method removes a specified item from the media collection.
 old-location: wmp\iwmpmediacollection_remove.htm
 tech.root: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],remove method, IWMPMediaCollection.remove, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
 ms.topic: method

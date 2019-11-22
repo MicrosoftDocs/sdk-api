@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi._GRADIENT_RECT
 title: GRADIENT_RECT (wingdi.h)
-author: windows-sdk-content
+
 description: The GRADIENT_RECT structure specifies the index of two vertices in the pVertex array in the GradientFill function. These two vertices form the upper-left and lower-right boundaries of a rectangle.
 old-location: gdi\gradient_rect.htm
 tech.root: gdi
 ms.assetid: 8660114a-423f-40a8-b113-e0304bb0f383
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT'
 ms.topic: struct

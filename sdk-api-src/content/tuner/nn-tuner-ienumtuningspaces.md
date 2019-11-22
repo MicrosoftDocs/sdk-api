@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.IEnumTuningSpaces
 title: IEnumTuningSpaces (tuner.h)
-author: windows-sdk-content
+
 description: The IEnumTuningSpaces interface is implemented on a standard COM collection of tuning space objects and is obtained through various ITuningSpaceContainer.
 old-location: mstv\ienumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 9b64a48f-ebab-46af-a89d-b8bc488d85da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], IEnumTuningSpaces interface [Microsoft TV Technologies],described, IEnumTuningSpacesInterface, mstv.ienumtuningspaces, tuner/IEnumTuningSpaces
 ms.topic: interface

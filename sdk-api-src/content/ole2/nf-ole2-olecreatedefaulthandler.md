@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleCreateDefaultHandler
 title: OleCreateDefaultHandler function (ole2.h)
-author: windows-sdk-content
+
 description: Creates a new instance of the default embedding handler. This instance is initialized so it creates a local server when the embedded object enters the running state.
 old-location: com\olecreatedefaulthandler.htm
 tech.root: com
 ms.assetid: ffe87012-b000-4ed7-b0b2-78ffdc794d3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleCreateDefaultHandler, OleCreateDefaultHandler function [COM], _ole_OleCreateDefaultHandler, com.olecreatedefaulthandler, ole2/OleCreateDefaultHandler
 ms.topic: function

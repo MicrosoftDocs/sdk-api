@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.IX509AttributeRenewalCertificate
 title: IX509AttributeRenewalCertificate (certenroll.h)
-author: windows-sdk-content
+
 description: Represents an attribute that contains the certificate being renewed. This attribute is automatically placed in the PKCS #10 attribute collection when you call the Encode method.
 old-location: security\ix509attributerenewalcertificate.htm
 tech.root: seccertenroll
 ms.assetid: fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate
 ms.topic: interface

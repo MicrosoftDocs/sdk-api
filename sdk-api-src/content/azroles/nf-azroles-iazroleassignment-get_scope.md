@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.get_Scope
 title: IAzRoleAssignment::get_Scope (azroles.h)
-author: windows-sdk-content
+
 description: Retrieves the IAzScope object that represents the scope in which this IAzRoleAssignment object is defined.
 old-location: security\iazroleassignment_scope.htm
 tech.root: SecAuthZ
 ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
 ms.topic: method

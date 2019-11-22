@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnector.GetNumberConnections
 title: IMILBitmapEffectOutputConnector::GetNumberConnections (mileffects.h)
-author: windows-sdk-content
+
 description: Retrieves the number of connections the output connector has.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getnumberconnections.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\getnumberconnections.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumberConnections, GetNumberConnections method [WPF Bitmap Effects], GetNumberConnections method [WPF Bitmap Effects],IMILBitmapEffectOutputConnector interface, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],GetNumberConnections method, IMILBitmapEffectOutputConnector.GetNumberConnections, IMILBitmapEffectOutputConnector::GetNumberConnections, _wibe_imilbitmapeffectoutputconnector_getnumberconnections, mileffects/IMILBitmapEffectOutputConnector::GetNumberConnections, wibe._wibe_imilbitmapeffectoutputconnector_getnumberconnections
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorReplicateIntPtr
 title: XMVectorReplicateIntPtr function (directxmath.h)
-author: windows-sdk-content
+
 description: Replicates an integer value referenced by a pointer, into all four components of a vector.
 old-location: dxmath\xmvectorreplicateintptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateIntPtr(Const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicateIntPtr, XMVectorReplicateIntPtr, XMVectorReplicateIntPtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateintptr
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:mmdeviceapi.IMMDevice
 title: IMMDevice (mmdeviceapi.h)
-author: windows-sdk-content
+
 description: The IMMDevice interface encapsulates the generic features of a multimedia device resource.
 old-location: coreaudio\immdevice.htm
 tech.root: CoreAudio
 ms.assetid: 12b05e7e-81b2-49fd-bb9f-d5ad3315c580
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMMDevice, IMMDevice interface [Core Audio], IMMDevice interface [Core Audio],described, coreaudio.immdevice, mmdeviceapi/IMMDevice
 ms.topic: interface

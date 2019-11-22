@@ -1,12 +1,12 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState
 title: IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState (wmlss.h)
-author: windows-sdk-content
+
 description: The get_userInternetMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the Internet.
 old-location: wmlss\IWMLSSget_userInternetMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: 577fb416-1ff4-4206-8916-9b54577e4cd3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState, get_userInternetMediaSharingState, get_userInternetMediaSharingState method [Windows Media Library Sharing Services], get_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
 ms.topic: method

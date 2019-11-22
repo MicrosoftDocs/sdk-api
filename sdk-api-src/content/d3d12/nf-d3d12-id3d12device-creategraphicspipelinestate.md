@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateGraphicsPipelineState
 title: ID3D12Device::CreateGraphicsPipelineState (d3d12.h)
-author: windows-sdk-content
+
 description: Creates a graphics pipeline state object.
 old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
 tech.root: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateGraphicsPipelineState, CreateGraphicsPipelineState method, CreateGraphicsPipelineState method,ID3D12Device interface, ID3D12Device interface,CreateGraphicsPipelineState method, ID3D12Device.CreateGraphicsPipelineState, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
 ms.topic: method

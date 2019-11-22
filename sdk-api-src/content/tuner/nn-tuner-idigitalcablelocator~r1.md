@@ -1,11 +1,11 @@
 ---
 UID: NN:tuner.IDigitalCableLocator~r1
 title: IDigitalCableLocator
-author: windows-sdk-content
+
 description: TBD
 tech.root:
 ms.assetid: abdf4c6d-00f6-4cc8-8fe3-ce0adbb2e076
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: interface
 f1_keywords: 

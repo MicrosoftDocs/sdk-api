@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordTotalBitRate
 title: IIsdbComponentGroupDescriptor::GetRecordTotalBitRate (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the total bit rate from a component within a component group in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtotalbitrate.htm
 tech.root: mstv
 ms.assetid: 7c84dc9f-933c-4fc8-982c-1f311b94ddf4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordTotalBitRate, GetRecordTotalBitRate method [Microsoft TV Technologies], GetRecordTotalBitRate method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordTotalBitRate method, IIsdbComponentGroupDescriptor.GetRecordTotalBitRate, IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, mstv.iisdbcomponentgroupdescriptor_getrecordtotalbitrate
 ms.topic: method

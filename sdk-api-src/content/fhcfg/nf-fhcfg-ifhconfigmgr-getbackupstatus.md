@@ -1,12 +1,12 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.GetBackupStatus
 title: IFhConfigMgr::GetBackupStatus (fhcfg.h)
-author: windows-sdk-content
+
 description: Retrieves the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_getbackupstatus.htm
 tech.root: DevNotes
 ms.assetid: 0AC8F205-B593-4117-9059-0DDA5BBE3124
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetBackupStatus method, GetBackupStatus, GetBackupStatus method [Windows API], GetBackupStatus method [Windows API],FhConfigMgr class, GetBackupStatus method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetBackupStatus method, IFhConfigMgr.GetBackupStatus, IFhConfigMgr::GetBackupStatus, fhcfg/IFhConfigMgr::GetBackupStatus, winprog.ifhconfigmgr_getbackupstatus
 ms.topic: method

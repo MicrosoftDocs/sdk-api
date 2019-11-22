@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.IVirtualSurfaceUpdatesCallbackNative
 title: IVirtualSurfaceUpdatesCallbackNative (windows.ui.xaml.media.dxinterop.h)
-author: windows-sdk-content
+
 description: Provides an interface for the implementation of drawing behaviors when a VirtualSurfaceImageSource requests an update.
 old-location: winrt\ivirtualsurfaceupdatescallbacknative.htm
 tech.root: WinRT
 ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:d2d1.D2D1_DRAWING_STATE_DESCRIPTION
 title: D2D1_DRAWING_STATE_DESCRIPTION (d2d1.h)
-author: windows-sdk-content
+
 description: Describes the drawing state of a render target.
 old-location: direct2d\D2D1_DRAWING_STATE_DESCRIPTION.htm
 tech.root: Direct2D
 ms.assetid: ba4adc4b-4d86-40c4-8911-1c800d3c6f3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_DRAWING_STATE_DESCRIPTION, D2D1_DRAWING_STATE_DESCRIPTION structure [Direct2D], d2d1/D2D1_DRAWING_STATE_DESCRIPTION, direct2d.D2D1_DRAWING_STATE_DESCRIPTION
 ms.topic: struct

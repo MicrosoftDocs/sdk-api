@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DescriptionUnresolved
 title: IDataCollectorSet::get_DescriptionUnresolved (pla.h)
-author: windows-sdk-content
+
 description: Retrieves the description of the data collector set in its original form.
 old-location: pla\idatacollectorset_descriptionunresolved.htm
 tech.root: PLA
 ms.assetid: 153159b2-54dc-477a-92eb-18328ea3351b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DescriptionUnresolved property [PLA], DescriptionUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DescriptionUnresolved property, IDataCollectorSet.DescriptionUnresolved, IDataCollectorSet.get_DescriptionUnresolved, IDataCollectorSet::DescriptionUnresolved, IDataCollectorSet::get_DescriptionUnresolved, get_DescriptionUnresolved, pla.idatacollectorset_descriptionunresolved, pla/IDataCollectorSet::DescriptionUnresolved, pla/IDataCollectorSet::get_DescriptionUnresolved
 ms.topic: method

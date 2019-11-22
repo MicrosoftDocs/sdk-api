@@ -1,12 +1,12 @@
 ---
 UID: NN:mergemod.IMsmMerge2
 title: IMsmMerge2 (mergemod.h)
-author: windows-sdk-content
+
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.The IMsmMerge2 interface provides a way for the client merge tool to utilize the new configurable-module functionality.
 old-location: setup\imsmmerge2_interface.htm
 tech.root: Msi
 ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
 ms.topic: interface

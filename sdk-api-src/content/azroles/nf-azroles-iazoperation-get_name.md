@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzOperation.get_Name
 title: IAzOperation::get_Name (azroles.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the name of the operation.
 old-location: security\iazoperation_name.htm
 tech.root: SecAuthZ
 ms.assetid: e1ebacda-513c-49f7-bb36-15229fdb0b3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Name property, IAzOperation interface [Security],Name property, IAzOperation.Name, IAzOperation.get_Name, IAzOperation::Name, IAzOperation::get_Name, IAzOperation::put_Name, Name property [Security], Name property [Security],AzOperation object, Name property [Security],IAzOperation interface, azroles/IAzOperation::Name, azroles/IAzOperation::get_Name, azroles/IAzOperation::put_Name, get_Name, security.iazoperation_name
 ms.topic: method

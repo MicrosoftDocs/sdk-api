@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskUnion
 title: D3D10StateBlockMaskUnion function (d3d10effect.h)
-author: windows-sdk-content
+
 description: Combine two state-block masks with a bitwise OR.
 old-location: direct3d10\d3d10stateblockmaskunion.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskunion.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10StateBlockMaskUnion, D3D10StateBlockMaskUnion function [Direct3D 10], c41aabcb-aa6c-e4b6-5de4-b68cb7241686, d3d10effect/D3D10StateBlockMaskUnion, direct3d10.d3d10stateblockmaskunion
 ms.topic: function

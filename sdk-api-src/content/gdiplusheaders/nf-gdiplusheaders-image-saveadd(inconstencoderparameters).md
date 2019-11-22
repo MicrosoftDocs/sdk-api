@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Image.SaveAdd(IN const EncoderParameters)
 title: Image::SaveAdd
 description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
 ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Image::SaveAdd
 ms.topic: language-reference

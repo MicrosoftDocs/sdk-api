@@ -1,12 +1,12 @@
 ---
 UID: NS:ocidl.tagExtentInfo
 title: DVEXTENTINFO (ocidl.h)
-author: windows-sdk-content
+
 description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.
 old-location: com\dvextentinfo.htm
 tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.dvextentinfo, ocidl/DVEXTENTINFO
 ms.topic: struct

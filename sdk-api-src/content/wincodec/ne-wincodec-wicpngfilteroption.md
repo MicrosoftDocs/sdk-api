@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICPngFilterOption
 title: WICPngFilterOption (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies the Portable Network Graphics (PNG) filters available for compression optimization.
 old-location: wic\_wic_codec_wicpngfilteroption.htm
 tech.root: wic
 ms.assetid: 468033cf-62e8-4aef-b34f-c833df048115
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICPngFilterAdaptive, WICPngFilterAverage, WICPngFilterNone, WICPngFilterOption, WICPngFilterOption enumeration [Windows Imaging Component], WICPngFilterPaeth, WICPngFilterSub, WICPngFilterUnspecified, WICPngFilterUp, _wic_codec_wicpngfilteroption, wic._wic_codec_wicpngfilteroption, wincodec/WICPngFilterAdaptive, wincodec/WICPngFilterAverage, wincodec/WICPngFilterNone, wincodec/WICPngFilterOption, wincodec/WICPngFilterPaeth, wincodec/WICPngFilterSub, wincodec/WICPngFilterUnspecified, wincodec/WICPngFilterUp
 ms.topic: enum

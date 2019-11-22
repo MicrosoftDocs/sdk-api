@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLength
 title: IIsdbLogoTransmissionDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor, in bytes.
 old-location: mstv\iisdblogotransmissiondescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9f3a29c1-44a4-4513-bab9-2cb77abe0419
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbLogoTransmissionDescriptor.GetLength, IIsdbLogoTransmissionDescriptor::GetLength, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLength, mstv.iisdblogotransmissiondescriptor_getlength
 ms.topic: method

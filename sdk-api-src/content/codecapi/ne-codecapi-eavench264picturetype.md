@@ -1,12 +1,12 @@
 ---
 UID: NE:codecapi.eAVEncH264PictureType
 title: eAVEncH264PictureType (codecapi.h)
-author: windows-sdk-content
+
 description: Specifies the type of picture that is output by a video encoder.
 old-location: mf\eavench264picturetype.htm
 tech.root: medfound
 ms.assetid: D73E2F87-EED3-4655-BB39-EB4C8E0B0058
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncH264PictureType, codecapi/eAVEncH264PictureType_B, codecapi/eAVEncH264PictureType_IDR, codecapi/eAVEncH264PictureType_P, eAVEncH264PictureType, eAVEncH264PictureType enumeration [Media Foundation], eAVEncH264PictureType_B, eAVEncH264PictureType_IDR, eAVEncH264PictureType_P, mf.eavench264picturetype
 ms.topic: enum

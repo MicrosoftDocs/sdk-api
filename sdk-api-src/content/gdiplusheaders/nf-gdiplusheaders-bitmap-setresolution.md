@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.SetResolution
 title: Bitmap::SetResolution (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Bitmap::SetResolution method sets the resolution of this Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetResolution_xdpi_ydpi_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\setresolution.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],SetResolution method, Bitmap.SetResolution, Bitmap::SetResolution, SetResolution, SetResolution method [GDI+], SetResolution method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetResolution_xdpi_ydpi_, gdiplus._gdiplus_CLASS_Bitmap_SetResolution_xdpi_ydpi_
 ms.topic: method

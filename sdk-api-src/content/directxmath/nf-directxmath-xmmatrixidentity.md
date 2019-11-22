@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixIdentity
 title: XMMatrixIdentity function (directxmath.h)
-author: windows-sdk-content
+
 description: Builds the identity matrix.
 old-location: dxmath\xmmatrixidentity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixIdentity
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixIdentity, XMMatrixIdentity, XMMatrixIdentity method [DirectX Math Support APIs], dxmath.xmmatrixidentity
 ms.topic: function

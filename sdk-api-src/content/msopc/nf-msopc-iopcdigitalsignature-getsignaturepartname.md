@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignaturePartName
 title: IOpcDigitalSignature::GetSignaturePartName (msopc.h)
-author: windows-sdk-content
+
 description: Gets the part name of the part that contains the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 0a7f9413-d44d-4d3d-bb4e-01ef14ee7a1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartName method, IOpcDigitalSignature.GetSignaturePartName, IOpcDigitalSignature::GetSignaturePartName, msopc/IOpcDigitalSignature::GetSignaturePartName, opc.iopcdigitalsignature_getsignaturepartname
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:amva._tag_AMVAEndFrameInfo
 title: AMVAEndFrameInfo (amva.h)
-author: windows-sdk-content
+
 description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
 old-location: dshow\amvaendframeinfo.htm
 tech.root: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo"
 ms.topic: struct

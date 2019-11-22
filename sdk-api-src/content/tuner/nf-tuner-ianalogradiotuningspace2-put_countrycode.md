@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace2.put_CountryCode
 title: IAnalogRadioTuningSpace2::put_CountryCode (tuner.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2_put_countrycode.htm
 tech.root: mstv
 ms.assetid: 89aecae6-42c0-4130-b381-986c0327fe5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],put_CountryCode method, IAnalogRadioTuningSpace2.put_CountryCode, IAnalogRadioTuningSpace2::put_CountryCode, IAnalogRadioTuningSpace2put_CountryCode, mstv.ianalogradiotuningspace2_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IAnalogRadioTuningSpace2 interface, tuner/IAnalogRadioTuningSpace2::put_CountryCode
 ms.topic: method

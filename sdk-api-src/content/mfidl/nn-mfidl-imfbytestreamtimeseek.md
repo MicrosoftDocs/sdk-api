@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFByteStreamTimeSeek
 title: IMFByteStreamTimeSeek (mfidl.h)
-author: windows-sdk-content
+
 description: Seeks a byte stream by time position.
 old-location: mf\imfbytestreamtimeseek.htm
 tech.root: medfound
 ms.assetid: BD9EDFF7-46BA-4788-A44E-C69C4B0BEB50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], IMFByteStreamTimeSeek interface [Media Foundation],described, mf.imfbytestreamtimeseek, mfidl/IMFByteStreamTimeSeek
 ms.topic: interface

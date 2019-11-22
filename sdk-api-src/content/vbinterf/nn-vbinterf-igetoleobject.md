@@ -1,12 +1,12 @@
 ---
 UID: NN:vbinterf.IGetOleObject
 title: IGetOleObject (vbinterf.h)
-author: windows-sdk-content
+
 description: Gets access to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject.htm
 tech.root: com
 ms.assetid: 2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interface [COM],described, _com_IGetOleObject, com.igetoleobject, vbinterf/IGetOleObject
 ms.topic: interface

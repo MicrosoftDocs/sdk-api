@@ -1,12 +1,12 @@
 ---
 UID: NF:oledlg.OleUIEditLinksA
 title: OleUIEditLinksA function (oledlg.h)
-author: windows-sdk-content
+
 description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
 old-location: com\oleuieditlinks.htm
 tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
 ms.topic: function

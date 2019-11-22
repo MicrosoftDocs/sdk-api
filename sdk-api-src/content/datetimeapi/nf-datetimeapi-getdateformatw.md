@@ -1,12 +1,12 @@
 ---
 UID: NF:datetimeapi.GetDateFormatW
 title: GetDateFormatW function (datetimeapi.h)
-author: windows-sdk-content
+
 description: Formats a date as a date string for a locale specified by the locale identifier.
 old-location: intl\getdateformat.htm
 tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
 ms.topic: function

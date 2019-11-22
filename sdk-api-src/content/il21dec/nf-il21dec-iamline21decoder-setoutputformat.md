@@ -1,12 +1,12 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetOutputFormat
 title: IAMLine21Decoder::SetOutputFormat (il21dec.h)
-author: windows-sdk-content
+
 description: The SetOutputFormat method sets the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_setoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 72d63092-8ac6-42c5-a0da-6c64f3a127c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetOutputFormat method, IAMLine21Decoder.SetOutputFormat, IAMLine21Decoder::SetOutputFormat, IAMLine21DecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setoutputformat, il21dec/IAMLine21Decoder::SetOutputFormat
 ms.topic: method

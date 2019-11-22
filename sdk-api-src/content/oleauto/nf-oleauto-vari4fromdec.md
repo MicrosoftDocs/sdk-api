@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI4FromDec
 title: VarI4FromDec function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a decimal value to a long value.
 old-location: automat\vari4fromdec.htm
 tech.root: automat
 ms.assetid: 23a02b3d-e2cf-4723-8d21-b7c44723efe5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI4FromDec, VarI4FromDec function [Automation], _oa96_VarI4FromDec, automat.vari4fromdec, oleauto/VarI4FromDec
 ms.topic: function

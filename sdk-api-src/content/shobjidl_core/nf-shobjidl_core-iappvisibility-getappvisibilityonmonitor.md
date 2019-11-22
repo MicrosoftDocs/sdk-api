@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.GetAppVisibilityOnMonitor
 title: IAppVisibility::GetAppVisibilityOnMonitor (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Queries the current mode of the specified monitor.
 old-location: shell\IAppVisibility_GetAppVisibilityOnMonitor.htm
 tech.root: shell
 ms.assetid: F03AEE1F-1156-4565-871E-4C8CB5C4EDCA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAppVisibilityOnMonitor, GetAppVisibilityOnMonitor method [Windows Shell], GetAppVisibilityOnMonitor method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],GetAppVisibilityOnMonitor method, IAppVisibility.GetAppVisibilityOnMonitor, IAppVisibility::GetAppVisibilityOnMonitor, shell.IAppVisibility_GetAppVisibilityOnMonitor, shobjidl_core/IAppVisibility::GetAppVisibilityOnMonitor
 ms.topic: method

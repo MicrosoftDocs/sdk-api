@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_FAULT_REASON
 title: WS_FAULT_REASON (webservices.h)
-author: windows-sdk-content
+
 description: Contains an explanation of the fault.
 old-location: wsw\ws_fault_reason.htm
 tech.root: wsw
 ms.assetid: 70ec3d18-00ab-4dde-8a8a-b200eda44acd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_REASON, WS_FAULT_REASON structure [Web Services for Windows], webservices/WS_FAULT_REASON, wsw.ws_fault_reason
 ms.topic: struct

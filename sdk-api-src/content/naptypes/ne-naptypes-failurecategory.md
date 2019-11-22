@@ -1,12 +1,12 @@
 ---
 UID: NE:naptypes.tagFailureCategory
 title: FailureCategory (naptypes.h)
-author: windows-sdk-content
+
 description: Indicates the source of a failure.
 old-location: nap\failurecategory_enum.htm
 tech.root: NAP
 ms.assetid: 3f528702-c9f3-4a91-960b-8b3f3eea91e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FailureCategory, FailureCategory enumeration [NAP], failureCategoryClientCommunication, failureCategoryClientComponent, failureCategoryNone, failureCategoryOther, failureCategoryServerCommunication, failureCategoryServerComponent, nap.failurecategory_enum, naptypes/FailureCategory, naptypes/failureCategoryClientCommunication, naptypes/failureCategoryClientComponent, naptypes/failureCategoryNone, naptypes/failureCategoryOther, naptypes/failureCategoryServerCommunication, naptypes/failureCategoryServerComponent
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCP_ADDR_PATTERN
 title: DHCP_ADDR_PATTERN (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Contains the information regarding the link-layer address/pattern.
 old-location: dhcp\dhcp_addr_pattern.htm
 tech.root: DHCP
 ms.assetid: 8c645b03-9859-48e9-8974-2dbdc9cfcac6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN structure [DHCP], PDHCP_ADDR_PATTERN, PDHCP_ADDR_PATTERN structure pointer [DHCP], dhcp.dhcp_addr_pattern, dhcpsapi/DHCP_ADDR_PATTERN, dhcpsapi/PDHCP_ADDR_PATTERN"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderOpenContent
 title: WdsTransportProviderOpenContent function (wdstpdi.h)
-author: windows-sdk-content
+
 description: Opens a new static view of a content stream.
 old-location: wds\wdstransportprovideropencontent.htm
 tech.root: wds
 ms.assetid: 95bea971-9c97-4d66-871d-5ef7407b9659
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
 ms.topic: function

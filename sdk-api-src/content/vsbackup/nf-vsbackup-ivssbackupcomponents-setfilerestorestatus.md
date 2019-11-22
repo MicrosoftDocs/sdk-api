@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetFileRestoreStatus
 title: IVssBackupComponents::SetFileRestoreStatus (vsbackup.h)
-author: windows-sdk-content
+
 description: The SetFileRestoreStatus method indicates whether some, all, or no files were successfully restored.
 old-location: base\ivssbackupcomponents_setfilerestorestatus.htm
 tech.root: VSS
 ms.assetid: 669d61cc-c586-4dcc-a936-5343a393d371
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetFileRestoreStatus method, IVssBackupComponents.SetFileRestoreStatus, IVssBackupComponents::SetFileRestoreStatus, SetFileRestoreStatus, SetFileRestoreStatus method [VSS], SetFileRestoreStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setfilerestorestatus, base.ivssbackupcomponents_setfilerestorestatus, vsbackup/IVssBackupComponents::SetFileRestoreStatus
 ms.topic: method

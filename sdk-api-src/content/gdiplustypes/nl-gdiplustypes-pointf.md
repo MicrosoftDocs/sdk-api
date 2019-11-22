@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplustypes.PointF
 title: PointF (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The PointF class encapsulates a point in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_PointF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+], PointF class [GDI+],described, _gdiplus_CLASS_PointF_Class, gdiplus._gdiplus_CLASS_PointF_Class, gdiplustypes/PointF
 ms.topic: class

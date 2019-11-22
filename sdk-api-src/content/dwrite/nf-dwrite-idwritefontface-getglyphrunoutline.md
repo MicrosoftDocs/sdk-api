@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphRunOutline
 title: IDWriteFontFace::GetGlyphRunOutline (dwrite.h)
-author: windows-sdk-content
+
 description: Computes the outline of a run of glyphs by calling back to the outline sink interface.
 old-location: directwrite\IDWriteFontFace_GetGlyphRunOutline.htm
 tech.root: DirectWrite
 ms.assetid: 06edbd68-efc3-44e5-875c-a84488fca252
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGlyphRunOutline, GetGlyphRunOutline method [Direct Write], GetGlyphRunOutline method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphRunOutline method, IDWriteFontFace.GetGlyphRunOutline, IDWriteFontFace::GetGlyphRunOutline, directwrite.IDWriteFontFace_GetGlyphRunOutline, dwrite/IDWriteFontFace::GetGlyphRunOutline
 ms.topic: method

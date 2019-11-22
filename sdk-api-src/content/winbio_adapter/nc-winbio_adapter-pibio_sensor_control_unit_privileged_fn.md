@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN
 title: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Performs a vendor-defined control operation that requires elevated privilege.
 old-location: secbiomet\sensoradaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 373233e6-b3d0-40ce-8698-77841963d5f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback, SensorAdapterControlUnitPrivileged, SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunitprivileged, winbio_adapter/SensorAdapterControlUnitPrivileged
 ms.topic: callback

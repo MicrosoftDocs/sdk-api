@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.CreateProcessW
 title: CreateProcessW function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
 old-location: base\createprocess.htm
 tech.root: ProcThread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 ms.topic: function

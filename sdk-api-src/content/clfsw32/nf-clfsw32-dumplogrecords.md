@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.DumpLogRecords
 title: DumpLogRecords function (clfsw32.h)
-author: windows-sdk-content
+
 description: Scans a specified log; filters log records based on record type; and places the records in an output file stream that the caller opens.
 old-location: fs\dumplogrecords.htm
 tech.root: Clfs
 ms.assetid: 221b701b-93d5-4ff3-ae6d-c1b980064629
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ndhelper.tagDiagnosticsInfo
 title: DiagnosticsInfo (ndhelper.h)
-author: windows-sdk-content
+
 description: The DiagnosticsInfo structure contains the estimate of diagnosis time, and flags for invocation.
 old-location: ndf\diagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo"
 ms.topic: struct

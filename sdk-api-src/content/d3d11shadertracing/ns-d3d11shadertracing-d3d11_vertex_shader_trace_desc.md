@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_VERTEX_SHADER_TRACE_DESC
 title: D3D11_VERTEX_SHADER_TRACE_DESC (d3d11shadertracing.h)
-author: windows-sdk-content
+
 description: Describes an instance of a vertex shader to trace.
 old-location: direct3d11\d3d11_vertex_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: 6D69DCE7-74BE-4FFE-8044-B16CB5EC1C07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_VERTEX_SHADER_TRACE_DESC, D3D11_VERTEX_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_VERTEX_SHADER_TRACE_DESC, direct3d11.d3d11_vertex_shader_trace_desc
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IEnumFilters.Next
 title: IEnumFilters::Next (strmif.h)
-author: windows-sdk-content
+
 description: The Next method retrieves the specified number of filters in the enumeration sequence.
 old-location: dshow\ienumfilters_next.htm
 tech.root: DirectShow
 ms.assetid: 0e376a01-d353-434c-864a-8001c8022679
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Next method, IEnumFilters.Next, IEnumFilters::Next, IEnumFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumFilters interface, dshow.ienumfilters_next, strmif/IEnumFilters::Next
 ms.topic: method

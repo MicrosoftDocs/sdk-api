@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetDesignGlyphAdvances
 title: IDWriteFontFace1::GetDesignGlyphAdvances (dwrite_1.h)
-author: windows-sdk-content
+
 description: Retrieves the advances in design units for a sequences of glyphs.
 old-location: directwrite\idwritefontface1_getdesignglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: 1E40518F-51E0-48F6-99ED-BE9407B61B6E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDesignGlyphAdvances, GetDesignGlyphAdvances method [Direct Write], GetDesignGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetDesignGlyphAdvances method, IDWriteFontFace1.GetDesignGlyphAdvances, IDWriteFontFace1::GetDesignGlyphAdvances, directwrite.idwritefontface1_getdesignglyphadvances, dwrite_1/IDWriteFontFace1::GetDesignGlyphAdvances
 ms.topic: method

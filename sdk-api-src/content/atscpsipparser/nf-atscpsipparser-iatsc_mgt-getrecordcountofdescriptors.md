@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordCountOfDescriptors
 title: IATSC_MGT::GetRecordCountOfDescriptors (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 66be731b-d964-4806-ae78-2faa0c0d2810
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_MGT.GetRecordCountOfDescriptors, IATSC_MGT::GetRecordCountOfDescriptors, IATSC_MGTGetRecordCountOfDescriptors, atscpsipparser/IATSC_MGT::GetRecordCountOfDescriptors, mstv.iatsc_mgt_getrecordcountofdescriptors
 ms.topic: method

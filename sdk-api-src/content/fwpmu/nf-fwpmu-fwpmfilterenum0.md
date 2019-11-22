@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmFilterEnum0
 title: FwpmFilterEnum0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Returns the next page of results from the filter enumerator.
 old-location: fwp\fwpmfilterenum0_func.htm
 tech.root: fwp
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterEnum0, FwpmFilterEnum0 function [Filtering], fwp.fwpmfilterenum0_func, fwpmu/FwpmFilterEnum0
 ms.topic: function

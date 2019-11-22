@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventProperty.get_Value
 title: IEventProperty::get_Value (eventsys.h)
-author: windows-sdk-content
+
 description: The value of the event property.
 old-location: com\ieventproperty_value.htm
 tech.root: com
 ms.assetid: 2715675d-590d-4132-a2fb-ce0000fe10a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Value property, IEventProperty.Value, IEventProperty.get_Value, IEventProperty::Value, IEventProperty::get_Value, IEventProperty::put_Value, Value property [COM], Value property [COM],IEventProperty interface, _com_ieventproperty_value, com.ieventproperty_value, eventsys/IEventProperty::Value, eventsys/IEventProperty::get_Value, eventsys/IEventProperty::put_Value, get_Value
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IBandHost.CreateBand
 title: IBandHost::CreateBand (shobjidl.h)
-author: windows-sdk-content
+
 description: Creates a specified band.
 old-location: shell\IBandHost_CreateBand.htm
 tech.root: shell
 ms.assetid: 7edf8d46-f925-4c4f-99b1-e792dce69222
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBand, CreateBand method [Windows Shell], CreateBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],CreateBand method, IBandHost.CreateBand, IBandHost::CreateBand, _shell_IBandHost_CreateBand, shell.IBandHost_CreateBand, shobjidl/IBandHost::CreateBand
 ms.topic: method

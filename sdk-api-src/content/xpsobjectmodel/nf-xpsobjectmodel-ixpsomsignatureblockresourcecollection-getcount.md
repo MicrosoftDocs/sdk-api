@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetCount
 title: IXpsOMSignatureBlockResourceCollection::GetCount (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the number of IXpsOMSignatureBlockResource interface pointers in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 3ed0890a-9593-4004-b122-264d692913db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMSignatureBlockResourceCollection.GetCount, IXpsOMSignatureBlockResourceCollection::GetCount, xps.ixpsomsignatureblockresourcecollection_getcount, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetIndexBuffer
 title: ID3D12GraphicsCommandList::IASetIndexBuffer (d3d12.h)
-author: windows-sdk-content
+
 description: Sets the view for the index buffer.
 old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
 tech.root: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Reset
 title: IEnumTfLangBarItems::Reset (ctfutb.h)
-author: windows-sdk-content
+
 description: IEnumTfLangBarItems::Reset method
 old-location: tsf\ienumtflangbaritems_reset.htm
 tech.root: TSF
 ms.assetid: 073c0307-b1cc-443b-890f-bccc0dbd5cf2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset method, IEnumTfLangBarItems.Reset, IEnumTfLangBarItems::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
 ms.topic: method

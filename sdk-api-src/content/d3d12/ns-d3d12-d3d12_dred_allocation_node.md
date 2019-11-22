@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12.D3D12_DRED_ALLOCATION_NODE
 title: D3D12_DRED_ALLOCATION_NODE
-author: windows-sdk-content
+
 description: Describes, as a node in a linked list, data about an allocation tracked by Device Removed Extended Data (DRED).
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_ALLOCATION_NODE, D3D12_DRED_ALLOCATION_NODE structure, d3d12/D3D12_DRED_ALLOCATION_NODE, direct3d12.d3d12_dred_allocation_node
 ms.topic: struct

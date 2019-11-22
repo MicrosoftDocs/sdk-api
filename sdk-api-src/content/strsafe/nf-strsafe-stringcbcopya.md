@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCbCopyA
 title: StringCbCopyA function (strsafe.h)
-author: windows-sdk-content
+
 description: Copies one string to another.
 old-location: menurc\stringcbcopy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
 ms.topic: function

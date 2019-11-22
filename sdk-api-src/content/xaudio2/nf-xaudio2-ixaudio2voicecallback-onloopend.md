@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnLoopEnd
 title: IXAudio2VoiceCallback::OnLoopEnd (xaudio2.h)
-author: windows-sdk-content
+
 description: Called when the voice reaches the end position of a loop.
 old-location: xaudio2\ixaudio2voicecallback_interface_onloopend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnLoopEnd(void)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnLoopEnd method, IXAudio2VoiceCallback.OnLoopEnd, IXAudio2VoiceCallback::OnLoopEnd, OnLoopEnd, OnLoopEnd method [XAudio2 Audio Mixing APIs], OnLoopEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onloopend, xaudio2/IXAudio2VoiceCallback::OnLoopEnd
 ms.topic: method

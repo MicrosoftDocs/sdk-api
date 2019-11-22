@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICComponentEnumerateOptions
 title: WICComponentEnumerateOptions (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies component enumeration options.
 old-location: wic\_wic_codec_wiccomponentenumerateoptions.htm
 tech.root: wic
 ms.assetid: 52cc0860-6164-4400-8e81-03eb0c44904e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICComponentEnumerateBuiltInOnly, WICComponentEnumerateDefault, WICComponentEnumerateDisabled, WICComponentEnumerateOptions, WICComponentEnumerateOptions enumeration [Windows Imaging Component], WICComponentEnumerateRefresh, WICComponentEnumerateUnsigned, _wic_codec_wiccomponentenumerateoptions, wic._wic_codec_wiccomponentenumerateoptions, wincodec/WICComponentEnumerateBuiltInOnly, wincodec/WICComponentEnumerateDefault, wincodec/WICComponentEnumerateDisabled, wincodec/WICComponentEnumerateOptions, wincodec/WICComponentEnumerateRefresh, wincodec/WICComponentEnumerateUnsigned
 ms.topic: enum

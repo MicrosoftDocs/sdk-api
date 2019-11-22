@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.CreateInvoker
 title: IAssocHandler::CreateInvoker (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Retrieves an object that enables the invocation of the associated handler on the current selection. The invoker includes the ability to verify whether the current selection is supported.
 old-location: shell\IAssocHandler_CreateInvoker.htm
 tech.root: shell
 ms.assetid: 12ffd2f1-e041-41f1-9b57-282a166ccbf7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
 ms.topic: method

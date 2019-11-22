@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetAt
 title: IXpsOMSignatureBlockResourceCollection::GetAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 84269d8c-9d0f-4489-8e4e-369f5e53fa95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMSignatureBlockResourceCollection.GetAt, IXpsOMSignatureBlockResourceCollection::GetAt, xps.ixpsomsignatureblockresourcecollection_getat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt
 ms.topic: method

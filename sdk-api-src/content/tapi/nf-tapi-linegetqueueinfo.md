@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetQueueInfo
 title: lineGetQueueInfo function (tapi.h)
-author: windows-sdk-content
+
 description: The lineGetQueueInfo function returns a structure holding the ACD information associated with a particular queue.
 old-location: tapi2\linegetqueueinfo.htm
 tech.root: Tapi
 ms.assetid: f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetqueueinfo, lineGetQueueInfo, lineGetQueueInfo function [TAPI 2.2], tapi/lineGetQueueInfo, tapi2.linegetqueueinfo"
 ms.topic: function

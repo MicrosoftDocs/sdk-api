@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
 title: IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the value of the quality_flag field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. This field indicates the quality level of the hierarchical stream construction.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getqualitylevel.htm
 tech.root: mstv
 ms.assetid: 4890c3aa-487f-41c7-9202-636ded2ec46b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetQualityLevel, GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
 ms.topic: method

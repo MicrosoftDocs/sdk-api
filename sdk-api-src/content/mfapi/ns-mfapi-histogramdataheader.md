@@ -1,12 +1,12 @@
 ---
 UID: NS:mfapi.tagHistogramDataHeader
 title: HistogramDataHeader (mfapi.h)
-author: windows-sdk-content
+
 description: The HistogramDataHeader structure describes the blob format for the MF_CAPTURE_METADATA_HISTOGRAM attribute.
 old-location: stream\histogramdataheader.htm
 tech.root: stream
 ms.assetid: 42DD34AB-570B-4F71-90BE-7E3AFDB66A84
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HistogramDataHeader, HistogramDataHeader structure [Streaming Media Devices], mfapi/HistogramDataHeader, stream.histogramdataheader
 ms.topic: struct

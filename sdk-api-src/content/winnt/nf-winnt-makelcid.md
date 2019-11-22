@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.MAKELCID
 title: MAKELCID macro (winnt.h)
-author: windows-sdk-content
+
 description: Creates a locale identifier from a language identifier and a sort order identifier.
 old-location: intl\makelcid.htm
 tech.root: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 ms.topic: macro

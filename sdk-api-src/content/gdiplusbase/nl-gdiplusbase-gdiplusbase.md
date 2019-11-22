@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusbase.GdiplusBase
 title: GdiplusBase (gdiplusbase.h)
-author: windows-sdk-content
+
 description: The GdiplusBase class provides memory allocation and deallocation for GDI+ objects. GdiplusBase serves as a base class for all other GDI+ classes, so you never need to create an instance of GdiplusBase.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
 ms.topic: class

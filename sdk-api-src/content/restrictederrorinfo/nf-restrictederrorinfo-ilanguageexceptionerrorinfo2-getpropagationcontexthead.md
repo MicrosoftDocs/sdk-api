@@ -1,12 +1,12 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPropagationContextHead
 title: ILanguageExceptionErrorInfo2::GetPropagationContextHead (restrictederrorinfo.h)
-author: windows-sdk-content
+
 description: Retrieves the propagation context head.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpropagationcontexthead.htm
 tech.root: WinRT
 ms.assetid: 1E5C74AE-C8C6-4D95-A836-DD47E50CF25D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropagationContextHead, GetPropagationContextHead method [Windows Runtime], GetPropagationContextHead method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPropagationContextHead method, ILanguageExceptionErrorInfo2.GetPropagationContextHead, ILanguageExceptionErrorInfo2::GetPropagationContextHead, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPropagationContextHead, winrt.ilanguageexceptionerrorinfo2_getpropagationcontexthead
 ms.topic: method

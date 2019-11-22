@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMCameraControl.Get
 title: IAMCameraControl::Get (strmif.h)
-author: windows-sdk-content
+
 description: The Get method gets the current setting of a camera property.
 old-location: dshow\iamcameracontrol_get.htm
 tech.root: DirectShow
 ms.assetid: 5a21f207-5fbb-44b2-82d2-89be29dbdf2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],Get method, IAMCameraControl.Get, IAMCameraControl::Get, IAMCameraControlGet, dshow.iamcameracontrol_get, strmif/IAMCameraControl::Get
 ms.topic: method

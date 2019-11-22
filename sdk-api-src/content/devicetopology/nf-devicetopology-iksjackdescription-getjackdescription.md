@@ -1,12 +1,12 @@
 ---
 UID: NF:devicetopology.IKsJackDescription.GetJackDescription
 title: IKsJackDescription::GetJackDescription (devicetopology.h)
-author: windows-sdk-content
+
 description: The GetJackDescription method gets a description of an audio jack.
 old-location: coreaudio\iksjackdescription_getjackdescription.htm
 tech.root: CoreAudio
 ms.assetid: 84278805-3b6d-4fae-8770-f9932b0e0fab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetJackDescription, GetJackDescription method [Core Audio], GetJackDescription method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackDescription method, IKsJackDescription.GetJackDescription, IKsJackDescription::GetJackDescription, IKsJackDescriptionGetJackDescription, coreaudio.iksjackdescription_getjackdescription, devicetopology/IKsJackDescription::GetJackDescription
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:wbemcli.IWbemObjectSinkEx
 title: IWbemObjectSinkEx (wbemcli.h)
-author: windows-sdk-content
+
 description: Creates a sink interface that can receive all types of notifications within the WMI programming model.
 old-location: wmi\iwbemobjectsinkex.htm
 tech.root: WmiSdk
 ms.assetid: f22b21f8-5191-480d-8471-3d5fc82ba060
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
 ms.topic: interface

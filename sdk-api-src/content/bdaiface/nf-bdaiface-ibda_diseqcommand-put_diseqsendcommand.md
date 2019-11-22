@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqSendCommand
 title: IBDA_DiseqCommand::put_DiseqSendCommand (bdaiface.h)
-author: windows-sdk-content
+
 description: Sends a Digital Satellite Equipment Control (DiSEqC) command.
 old-location: mstv\ibda_diseqcommand_put_diseqsendcommand.htm
 tech.root: mstv
 ms.assetid: 5ee77311-0b1d-43b1-af8e-bb886170701d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqSendCommand method, IBDA_DiseqCommand.put_DiseqSendCommand, IBDA_DiseqCommand::put_DiseqSendCommand, bdaiface/IBDA_DiseqCommand::put_DiseqSendCommand, mstv.ibda_diseqcommand_put_diseqsendcommand, put_DiseqSendCommand, put_DiseqSendCommand method [Microsoft TV Technologies], put_DiseqSendCommand method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.topic: method

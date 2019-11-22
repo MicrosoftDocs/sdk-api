@@ -1,12 +1,12 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.GetBuffer
 title: ISpatialAudioObjectBase::GetBuffer (spatialaudioclient.h)
-author: windows-sdk-content
+
 description: Gets a buffer that is used to supply the audio data for the ISpatialAudioObject.
 old-location: coreaudio\ispatialaudioobject_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: CD777E2D-4CA0-4C2D-A475-22BF770DD59D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetBuffer method, ISpatialAudioObjectBase.GetBuffer, ISpatialAudioObjectBase::GetBuffer, coreaudio.ispatialaudioobject_getbuffer, spatialaudioclient/ISpatialAudioObjectBase::GetBuffer
 ms.topic: method

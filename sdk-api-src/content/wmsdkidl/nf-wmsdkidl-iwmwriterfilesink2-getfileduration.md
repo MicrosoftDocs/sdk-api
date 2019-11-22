@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileDuration
 title: IWMWriterFileSink2::GetFileDuration (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetFileDuration method retrieves the duration of the portion of the file that has been written.
 old-location: wmformat\iwmwriterfilesink2_getfileduration.htm
 tech.root: wmformat
 ms.assetid: b0685760-929d-4c65-84e0-a9745635eddd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileDuration, GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileDuration method, IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
 ms.topic: method

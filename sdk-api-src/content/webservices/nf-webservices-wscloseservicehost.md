@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsCloseServiceHost
 title: WsCloseServiceHost function (webservices.h)
-author: windows-sdk-content
+
 description: Closes down communication with the specified service host.
 old-location: wsw\wscloseservicehost.htm
 tech.root: wsw
 ms.assetid: 46abbcba-72ba-4328-858d-367218f45df3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsCloseServiceHost, WsCloseServiceHost function [Web Services for Windows], webservices/WsCloseServiceHost, wsw.wscloseservicehost
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.RegisterForWhenCurrent
 title: IDVB_SIT::RegisterForWhenCurrent (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: a60fa143-0e02-4af8-a64f-1fc92f8e0a3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_SIT.RegisterForWhenCurrent, IDVB_SIT::RegisterForWhenCurrent, IDVB_SITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::RegisterForWhenCurrent, mstv.idvb_sit_registerforwhencurrent
 ms.topic: method

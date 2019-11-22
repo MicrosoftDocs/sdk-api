@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Skip
 title: IWMDMEnumStorage::Skip (mswmdm.h)
-author: windows-sdk-content
+
 description: The Skip method skips over the specified number of storages in the enumeration sequence.
 old-location: wmdm\iwmdmenumstorage_skip.htm
 tech.root: WMDM
 ms.assetid: 0073f279-95e4-41e3-9195-c4c93fd41fb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Skip method, IWMDMEnumStorage.Skip, IWMDMEnumStorage::Skip, IWMDMEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Skip, wmdm.iwmdmenumstorage_skip
 ms.topic: method

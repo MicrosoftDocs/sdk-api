@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_WRITEBUFFERIMMEDIATE_PARAMETER
 title: D3D12_WRITEBUFFERIMMEDIATE_PARAMETER (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies the immediate value and destination address written using ID3D12CommandList2::WriteBufferImmediate.
 old-location: direct3d12\d3d12_writebufferimmediate_parameter.htm
 tech.root: direct3d12
 ms.assetid: 7CF8A888-BB3A-4557-8DA5-7AFAFC6747CF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_WRITEBUFFERIMMEDIATE_PARAMETER, D3D12_WRITEBUFFERIMMEDIATE_PARAMETER structure, d3d12/D3D12_WRITEBUFFERIMMEDIATE_PARAMETER, direct3d12.d3d12_writebufferimmediate_parameter
 ms.topic: struct

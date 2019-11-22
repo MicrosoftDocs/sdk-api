@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayAtTime
 title: IDvdControl2::PlayAtTime (strmif.h)
-author: windows-sdk-content
+
 description: The PlayAtTime method starts playback from the specified time in the current title.
 old-location: dshow\idvdcontrol2_playattime.htm
 tech.root: DirectShow
 ms.assetid: 75b66e8d-3107-48ca-a887-20cf3c0b9234
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTime method, IDvdControl2.PlayAtTime, IDvdControl2::PlayAtTime, IDvdControl2PlayAtTime, PlayAtTime, PlayAtTime method [DirectShow], PlayAtTime method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattime, strmif/IDvdControl2::PlayAtTime
 ms.topic: method

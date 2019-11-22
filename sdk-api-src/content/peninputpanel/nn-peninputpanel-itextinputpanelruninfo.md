@@ -1,12 +1,12 @@
 ---
 UID: NN:peninputpanel.ITextInputPanelRunInfo
 title: ITextInputPanelRunInfo (peninputpanel.h)
-author: windows-sdk-content
+
 description: Provides a method to determine if the Text Input Panel is currently running.
 old-location: tablet\itextinputpanelruninfo.htm
 tech.root: tablet
 ms.assetid: 9269a94f-c33f-4e25-bab8-be68e6ead63f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], ITextInputPanelRunInfo interface [Tablet PC],described, peninputpanel/ITextInputPanelRunInfo, tablet.itextinputpanelruninfo
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 title: IPrintDocumentPackageStatusEvent::PackageStatusUpdated (documenttarget.h)
-author: windows-sdk-content
+
 description: Updates the status of the package when the print job in progress raises an event, or the job completes.
 old-location: xps\iprintdocumentpackagestatusevent_packagestatusupdated.htm
 tech.root: printdocs
 ms.assetid: A672E554-B117-475C-A01E-9FD4EA31621E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],PackageStatusUpdated method, IPrintDocumentPackageStatusEvent.PackageStatusUpdated, IPrintDocumentPackageStatusEvent::PackageStatusUpdated, PackageStatusUpdated, PackageStatusUpdated method [XPS Documents and Packaging], PackageStatusUpdated method [XPS Documents and Packaging],IPrintDocumentPackageStatusEvent interface, documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated, xps.iprintdocumentpackagestatusevent_packagestatusupdated
 ms.topic: method

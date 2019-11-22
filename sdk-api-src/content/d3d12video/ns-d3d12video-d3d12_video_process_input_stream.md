@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM
-author: windows-sdk-content
+
 description: Contains input information for the video processor blend functionality.
 tech.root: mf
 ms.assetid: fcc82c3d-61d9-481b-951f-998ca55b6a60
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

@@ -1,12 +1,12 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0013_0001
 title: CLUSION_REASON (searchapi.h)
-author: windows-sdk-content
+
 description: These flags enumerate reasons why URLs are included or excluded from the current crawl scope.
 old-location: search\_search_CLUSION_REASON.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
 ms.topic: enum

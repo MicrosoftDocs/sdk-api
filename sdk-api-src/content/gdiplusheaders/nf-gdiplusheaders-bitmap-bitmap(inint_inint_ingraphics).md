@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN INT,IN INT,IN Graphics)
 title: Bitmap::Bitmap(IN INT,IN INT,IN Graphics) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Bitmap::Bitmap object based on a Graphics object, a width, and a height.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_target_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_21width_height_target.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN INT,IN INT,IN Graphics), Bitmap.Bitmap(INT,INT,Graphics*), Bitmap::Bitmap, Bitmap::Bitmap(IN INT,IN INT,IN Graphics), _gdiplus_CLASS_Bitmap_Bitmap_width_height_target_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_target_
 ms.topic: method

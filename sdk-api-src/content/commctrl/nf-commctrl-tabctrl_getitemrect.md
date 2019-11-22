@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TabCtrl_GetItemRect
 title: TabCtrl_GetItemRect macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the TCM_GETITEMRECT message explicitly.
 old-location: controls\TabCtrl_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
 ms.topic: macro

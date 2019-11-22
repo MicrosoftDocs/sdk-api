@@ -1,12 +1,12 @@
 ---
 UID: NS:timeprov.SetProviderStatusInfo
 title: SetProviderStatusInfo (timeprov.h)
-author: windows-sdk-content
+
 description: A structure that is used by the SetProviderStatusFunc function.
 old-location: base\setproviderstatusinfo_str.htm
 tech.root: SysInfo
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.topic: struct

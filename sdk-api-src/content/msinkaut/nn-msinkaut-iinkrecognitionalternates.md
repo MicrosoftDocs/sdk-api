@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkRecognitionAlternates
 title: IInkRecognitionAlternates (msinkaut.h)
-author: windows-sdk-content
+
 description: Contains the IInkRecognitionAlternate objects that represent possible word matches for segments of ink.
 old-location: tablet\iinkrecognitionalternates.htm
 tech.root: tablet
 ms.assetid: 39f49762-de86-4a1a-ac7b-327b65c3eb54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 39f49762-de86-4a1a-ac7b-327b65c3eb54, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], IInkRecognitionAlternates interface [Tablet PC],described, msinkaut/IInkRecognitionAlternates, tablet.iinkrecognitionalternates
 ms.topic: interface

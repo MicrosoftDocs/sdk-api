@@ -1,12 +1,12 @@
 ---
 UID: NF:instance.CInstance.SetCHString(LPCWSTR,LPCSTR)
 title: CInstance::SetCHString(LPCWSTR,LPCSTR) (instance.h)
-author: windows-sdk-content
+
 description: The SetCHString(LPCWSTR, LPCSTR) method sets a string property.
 old-location: wmi\cinstance_setchstring_lpcwstr__lpcstr_.htm
 tech.root: WmiSdk
 ms.assetid: a5a7a7ab-d187-4eff-a2b9-bd87229c83d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?SetCHString@CInstance@@QAE_NPBG0@Z, ?SetCHString@CInstance@@QAE_NPBGPBD@Z, ?SetCHString@CInstance@@QEAA_NPEBG0@Z, ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,LPCSTR), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,LPCSTR), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__lpcstr_"
 ms.topic: method

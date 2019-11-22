@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Abandon
 title: IDirectManipulationViewport::Abandon (directmanipulation.h)
-author: windows-sdk-content
+
 description: Releases all resources that are used by the viewport and prepares it for destruction from memory.
 old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
 tech.root: directmanipulation
 ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Abandon method, IDirectManipulationViewport.Abandon, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
 ms.topic: method

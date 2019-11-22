@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPage
 title: IXpsOMPage (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Provides the root node of a tree of objects that hold the contents of a single page.
 old-location: xps\ixpsompage.htm
 tech.root: printdocs
 ms.assetid: 741deebd-9dce-4cd9-883e-4586c10a4609
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], IXpsOMPage interface [XPS Documents and Packaging],described, xps.ixpsompage, xpsobjectmodel/IXpsOMPage
 ms.topic: interface

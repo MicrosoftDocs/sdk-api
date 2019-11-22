@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector4Orthogonal
 title: XMVector4Orthogonal function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes a vector perpendicular to a 4D vector.
 old-location: dxmath\xmvector4orthogonal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Orthogonal(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Orthogonal, XMVector4Orthogonal, XMVector4Orthogonal method [DirectX Math Support APIs], dxmath.xmvector4orthogonal
 ms.topic: function

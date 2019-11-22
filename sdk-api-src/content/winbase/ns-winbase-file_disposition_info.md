@@ -1,12 +1,12 @@
 ---
 UID: NS:winbase._FILE_DISPOSITION_INFO
 title: FILE_DISPOSITION_INFO (winbase.h)
-author: windows-sdk-content
+
 description: Indicates whether a file should be deleted. Used for any handles.
 old-location: fs\file_disposition_info.htm
 tech.root: FileIO
 ms.assetid: 07095f62-323a-463a-a33e-7e4ca9adcb69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO structure [Files], PFILE_DISPOSITION_INFO, PFILE_DISPOSITION_INFO structure pointer [Files], fileextd/FILE_DISPOSITION_INFO, fileextd/PFILE_DISPOSITION_INFO, fs.file_disposition_info, winbase/FILE_DISPOSITION_INFO, winbase/PFILE_DISPOSITION_INFO"
 ms.topic: struct

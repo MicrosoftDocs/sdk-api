@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFllMulDiv
 title: MFllMulDiv function (mfapi.h)
-author: windows-sdk-content
+
 description: Calculates ((a * b) + d) / c, where each term is a 64-bit signed value.
 old-location: mf\mfllmuldiv.htm
 tech.root: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
 ms.topic: function

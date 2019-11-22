@@ -1,12 +1,12 @@
 ---
 UID: NE:wtypesbase.tagMSHCTX
 title: MSHCTX (wtypesbase.h)
-author: windows-sdk-content
+
 description: Specifies the destination context, which is the process in which the unmarshaling is to be done.
 old-location: com\mshctx.htm
 tech.root: com
 ms.assetid: d7d09ab2-96e7-48da-9292-0e4ca6cebe64
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MSHCTX, MSHCTX enumeration [COM], MSHCTX_CROSSCTX, MSHCTX_DIFFERENTMACHINE, MSHCTX_INPROC, MSHCTX_LOCAL, MSHCTX_NOSHAREDMEM, _com_MSHCTX, com.mshctx, wtypesbase/MSHCTX, wtypesbase/MSHCTX_CROSSCTX, wtypesbase/MSHCTX_DIFFERENTMACHINE, wtypesbase/MSHCTX_INPROC, wtypesbase/MSHCTX_LOCAL, wtypesbase/MSHCTX_NOSHAREDMEM
 ms.topic: enum

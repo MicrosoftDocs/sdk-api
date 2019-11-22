@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationRangeValuePattern
 title: IUIAutomationRangeValuePattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Provides access to a control that presents a range of values.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], IUIAutomationRangeValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRangeValuePattern, uiauto_IUIAutomationRangeValuePattern, uiautomationclient/IUIAutomationRangeValuePattern, winauto.uiauto_IUIAutomationRangeValuePattern
 ms.topic: interface

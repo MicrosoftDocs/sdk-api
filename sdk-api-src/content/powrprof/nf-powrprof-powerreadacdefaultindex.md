@@ -1,12 +1,12 @@
 ---
 UID: NF:powrprof.PowerReadACDefaultIndex
 title: PowerReadACDefaultIndex function (powrprof.h)
-author: windows-sdk-content
+
 description: Retrieves the default AC index of the specified power setting.
 old-location: base\powerreadacdefaultindex.htm
 tech.root: power
 ms.assetid: e8eb6e2f-2ed5-42ef-a541-418ccea83ca4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadACDefaultIndex, PowerReadACDefaultIndex function, base.powerreadacdefaultindex, powrprof/PowerReadACDefaultIndex
 ms.topic: function

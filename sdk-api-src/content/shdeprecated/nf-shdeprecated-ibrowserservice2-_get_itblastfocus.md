@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._get_itbLastFocus
 title: IBrowserService2::_get_itbLastFocus (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Gets the ID of the last toolbar or view that had focus.
 old-location: shell\IBrowserService2__get_itbLastFocus.htm
 tech.root: shell
 ms.assetid: 411c55ca-f9c3-4ecc-ac9d-96f23dcf3e39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_get_itbLastFocus method, IBrowserService2._get_itbLastFocus, IBrowserService2::_get_itbLastFocus, _get_itbLastFocus, _get_itbLastFocus method [Windows Shell], _get_itbLastFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_get_itbLastFocus, shell.IBrowserService2__get_itbLastFocus, zone_IBrowserService2__get_itbLastFocus
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.CreateLogFile
 title: CreateLogFile function (clfsw32.h)
-author: windows-sdk-content
+
 description: Creates or opens a log.
 old-location: fs\createlogfile.htm
 tech.root: Clfs
 ms.assetid: ac104bf9-7ca7-417a-bd14-09b0e82c6a77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CREATE_NEW, CreateLogFile, CreateLogFile function [Files], DELETE, FILE_ATTRIBUTE_ARCHIVE, FILE_FLAG_OVERLAPPED, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, GENERIC_READ, GENERIC_WRITE, OPEN_ALWAYS, OPEN_EXISTING, clfsw32/CreateLogFile, fs.createlogfile
 ms.topic: function

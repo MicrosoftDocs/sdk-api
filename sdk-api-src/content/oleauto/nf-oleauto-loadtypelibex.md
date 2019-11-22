@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.LoadTypeLibEx
 title: LoadTypeLibEx function (oleauto.h)
-author: windows-sdk-content
+
 description: Loads a type library and (optionally) registers it in the system registry.  .
 old-location: automat\loadtypelibex.htm
 tech.root: automat
 ms.assetid: 56a7f9e1-810b-4a42-aa4d-691f4304f5ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLibEx, LoadTypeLibEx function [Automation], _oa96_LoadTypeLibEx, automat.loadtypelibex, oleauto/LoadTypeLibEx
 ms.topic: function

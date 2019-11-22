@@ -1,12 +1,12 @@
 ---
 UID: NN:cmdtree.ICommandTree
 title: ICommandTree (cmdtree.h)
-author: windows-sdk-content
+
 description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.
 old-location: indexsrv\icommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service],described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
 ms.topic: interface

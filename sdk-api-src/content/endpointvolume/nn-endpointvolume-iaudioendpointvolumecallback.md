@@ -1,12 +1,12 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolumeCallback
 title: IAudioEndpointVolumeCallback (endpointvolume.h)
-author: windows-sdk-content
+
 description: The IAudioEndpointVolumeCallback interface provides notifications of changes in the volume level and muting state of an audio endpoint device.
 old-location: coreaudio\iaudioendpointvolumecallback.htm
 tech.root: CoreAudio
 ms.assetid: 0b631d1b-f89c-4789-a09c-875b24a48a89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], IAudioEndpointVolumeCallback interface [Core Audio],described, coreaudio.iaudioendpointvolumecallback, endpointvolume/IAudioEndpointVolumeCallback
 ms.topic: interface

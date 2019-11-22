@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.AddFontSet
 title: IDWriteFontSetBuilder::AddFontSet (dwrite_3.h)
-author: windows-sdk-content
+
 description: Appends an existing font set to the one being built, allowing one to aggregate two sets or to essentially extend an existing one.
 old-location: directwrite\idwritefontsetbuilder_addfontset.htm
 tech.root: DirectWrite
 ms.assetid: F8B94A1B-905B-4A96-9943-12BB516311C2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddFontSet, AddFontSet method [Direct Write], AddFontSet method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontSet method, IDWriteFontSetBuilder.AddFontSet, IDWriteFontSetBuilder::AddFontSet, directwrite.idwritefontsetbuilder_addfontset, dwrite_3/IDWriteFontSetBuilder::AddFontSet
 ms.topic: method

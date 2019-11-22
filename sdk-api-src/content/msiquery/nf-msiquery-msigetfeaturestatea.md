@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiGetFeatureStateA
 title: MsiGetFeatureStateA function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiGetFeatureState function gets the requested state of a feature.
 old-location: setup\msigetfeaturestate.htm
 tech.root: Msi
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_BADCONFIG, INSTALLSTATE_BROKEN, INSTALLSTATE_DEFAULT, INSTALLSTATE_INCOMPLETE, INSTALLSTATE_INVALIDARG, INSTALLSTATE_LOCAL, INSTALLSTATE_MOREDATA, INSTALLSTATE_SOURCE, INSTALLSTATE_SOURCEABSENT, INSTALLSTATE_UNKNOWN, MsiGetFeatureState, MsiGetFeatureState function, MsiGetFeatureStateA, MsiGetFeatureStateW, _msi_msigetfeaturestate, msiquery/MsiGetFeatureState, msiquery/MsiGetFeatureStateA, msiquery/MsiGetFeatureStateW, setup.msigetfeaturestate
 ms.topic: function

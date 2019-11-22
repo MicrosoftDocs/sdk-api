@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspixelformats.IsAlphaPixelFormat
 title: IsAlphaPixelFormat function (gdipluspixelformats.h)
-author: windows-sdk-content
+
 description: The IsAlphaPixelFormat method determines whether a specified pixel format has an alpha component.
 old-location: gdiplus\_gdiplus_FUNC_IsAlphaPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isalphapixelformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FUNC_IsAlphaPixelFormat_, gdiplus._gdiplus_FUNC_IsAlphaPixelFormat_, gdipluspixelformats/IsAlphaPixelFormat
 ms.topic: function

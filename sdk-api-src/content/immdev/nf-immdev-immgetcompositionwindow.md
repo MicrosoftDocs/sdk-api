@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetCompositionWindow
 title: ImmGetCompositionWindow function (immdev.h)
-author: windows-sdk-content
+
 description: Retrieves information about the composition window.
 old-location: intl\immgetcompositionwindow.htm
 tech.root: Intl
 ms.assetid: d2c93eac-f221-4d65-af8c-45c687df6024
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionWindow, ImmGetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmGetCompositionWindow, imm/ImmGetCompositionWindow, intl.immgetcompositionwindow
 ms.topic: function

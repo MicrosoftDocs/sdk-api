@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClassLongA
 title: GetClassLongA function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the specified 32-bit (DWORD) value from the WNDCLASSEX structure associated with the specified window.
 old-location: winmsg\getclasslong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslong.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_HBRBACKGROUND, GCL_HCURSOR, GCL_HICON, GCL_HICONSM, GCL_HMODULE, GCL_MENUNAME, GCL_STYLE, GCL_WNDPROC, GCW_ATOM, GetClassLong, GetClassLong function [Windows and Messages], GetClassLongA, GetClassLongW, _win32_GetClassLong, _win32_getclasslong_cpp, winmsg.getclasslong, winui._win32_getclasslong, winuser/GetClassLong, winuser/GetClassLongA, winuser/GetClassLongW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HUETORGB_PROP
 title: D2D1_HUETORGB_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Hue to RGB effect.
 old-location: direct2d\d2d1_huetorgb_prop.htm
 tech.root: Direct2D
 ms.assetid: 293E05B7-DA10-4E71-B519-0AF99EE007EC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_HUETORGB_PROP, D2D1_HUETORGB_PROP enumeration [Direct2D], D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, d2d1effects_2/D2D1_HUETORGB_PROP, d2d1effects_2/D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, direct2d.d2d1_huetorgb_prop
 ms.topic: enum

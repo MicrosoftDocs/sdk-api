@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.CanWindowlessActivate
 title: IOleInPlaceSiteWindowless::CanWindowlessActivate (ocidl.h)
-author: windows-sdk-content
+
 description: Informs an object if its container can support it as a windowless object that can be in-place activated.
 old-location: com\ioleinplacesitewindowless_canwindowlessactivate.htm
 tech.root: com
 ms.assetid: 8e2f2820-e8d7-4f0e-921d-4fc88feca15f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CanWindowlessActivate, CanWindowlessActivate method [COM], CanWindowlessActivate method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],CanWindowlessActivate method, IOleInPlaceSiteWindowless.CanWindowlessActivate, IOleInPlaceSiteWindowless::CanWindowlessActivate, _ole_ioleinplacesitewindowless_canwindowlessactivate, com.ioleinplacesitewindowless_canwindowlessactivate, ocidl/IOleInPlaceSiteWindowless::CanWindowlessActivate
 ms.topic: method

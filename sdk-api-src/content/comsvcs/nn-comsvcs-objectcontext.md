@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.ObjectContext
 title: ObjectContext (comsvcs.h)
-author: windows-sdk-content
+
 description: Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
 old-location: cos\objectcontext.htm
 tech.root: cossdk
 ms.assetid: 09a17e57-7224-43bc-93c7-16ab95ca2517
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
 ms.topic: interface

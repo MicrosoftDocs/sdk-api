@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionEffect
 title: IDCompositionEffect (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a bitmap effect that modifies the rasterization of a visual's subtree.
 old-location: directcomp\idcompositioneffect.htm
 tech.root: directcomp
 ms.assetid: 9C9DFECD-0EC0-446C-8CCC-BB7979B01575
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffect, IDCompositionEffect interface [DirectComposition], IDCompositionEffect interface [DirectComposition],described, dcomp/IDCompositionEffect, directcomp.idcompositioneffect
 ms.topic: interface

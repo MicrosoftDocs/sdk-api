@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathBuildRootW
 title: PathBuildRootW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Creates a root path from a given drive number.
 old-location: shell\PathBuildRoot.htm
 tech.root: shell
 ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRootA, PathBuildRootW, _win32_PathBuildRoot, shell.PathBuildRoot, shlwapi/PathBuildRoot, shlwapi/PathBuildRootA, shlwapi/PathBuildRootW
 ms.topic: function

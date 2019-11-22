@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBSETFUNC
 title: DBSETFUNC (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBSETFUNC structure specifies the aggregation function to use in a select operation.
 old-location: indexsrv\dbsetfunc.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_5e1v.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBSETFUNC, DBSETFUNC structure [Indexing Service], _idxs_DBSETFUNC, cmdtree/DBSETFUNC, indexsrv.dbsetfunc, tagDBSETFUNC
 ms.topic: struct

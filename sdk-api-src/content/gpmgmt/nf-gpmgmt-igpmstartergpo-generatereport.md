@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReport
 title: IGPMStarterGPO::GenerateReport (gpmgmt.h)
-author: windows-sdk-content
+
 description: Gets the report for the Starter GPO.
 old-location: gpmc\igpmstartergpo_generatereport.htm
 tech.root: gpmc
 ms.assetid: 127cde40-abe0-42da-9845-2fe1c0b1f1f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GenerateReport method, IGPMStarterGPO.GenerateReport, IGPMStarterGPO::GenerateReport, gpmc.igpmstartergpo_generatereport, gpmgmt/IGPMStarterGPO::GenerateReport
 ms.topic: method

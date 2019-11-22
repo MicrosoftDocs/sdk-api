@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.get_UserId
 title: ISessionStateChangeTrigger::get_UserId (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
 old-location: taskschd\isessionstatechangetrigger_userid.htm
 tech.root: taskschd
 ms.assetid: 9d0cc48f-4765-4959-bb59-ca39acde4c39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],UserId property, ISessionStateChangeTrigger.UserId, ISessionStateChangeTrigger.get_UserId, ISessionStateChangeTrigger::UserId, ISessionStateChangeTrigger::get_UserId, ISessionStateChangeTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ISessionStateChangeTrigger interface, get_UserId, taskschd.isessionstatechangetrigger_userid, taskschd/ISessionStateChangeTrigger::UserId, taskschd/ISessionStateChangeTrigger::get_UserId, taskschd/ISessionStateChangeTrigger::put_UserId
 ms.topic: method

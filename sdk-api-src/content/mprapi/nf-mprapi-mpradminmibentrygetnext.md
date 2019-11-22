@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryGetNext
 title: MprAdminMIBEntryGetNext function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminMIBEntryGetNext function retrieves the next variable of some set of variables exported by a protocol or router manager. The module that services the call defines next.
 old-location: rras\mpradminmibentrygetnext.htm
 tech.root: RRAS
 ms.assetid: 31e73dcb-db73-4415-8275-88f9ae010ab7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGetNext, MprAdminMIBEntryGetNext function [RAS], _mpr_mpradminmibentrygetnext, mprapi/MprAdminMIBEntryGetNext, rras.mpradminmibentrygetnext
 ms.topic: function

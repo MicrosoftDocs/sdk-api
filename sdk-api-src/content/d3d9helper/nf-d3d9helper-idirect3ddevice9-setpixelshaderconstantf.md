@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShaderConstantF
 title: IDirect3DDevice9::SetPixelShaderConstantF (d3d9helper.h)
-author: windows-sdk-content
+
 description: Sets a floating-point shader constant.
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstantf.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstantf.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4fc94dcb-1d4f-d3e3-578a-ca1fec85dd86, IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantF method, IDirect3DDevice9.SetPixelShaderConstantF, IDirect3DDevice9::SetPixelShaderConstantF, SetPixelShaderConstantF, SetPixelShaderConstantF method [Direct3D 9], SetPixelShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantF, direct3d9.idirect3ddevice9__setpixelshaderconstantf
 ms.topic: method

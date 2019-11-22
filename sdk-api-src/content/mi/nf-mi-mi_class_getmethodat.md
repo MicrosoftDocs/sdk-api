@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Class_GetMethodAt
 title: MI_Class_GetMethodAt function (mi.h)
-author: windows-sdk-content
+
 description: Gets details of a method based on the method index.
 old-location: wmi_v2\mi_class_getmethodat.htm
 tech.root: wmi_v2
 ms.assetid: 00239417-f771-48fa-afce-fef2ec99a171
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethodAt, MI_Class_GetMethodAt function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethodAt, wmi_v2.mi_class_getmethodat
 ms.topic: function

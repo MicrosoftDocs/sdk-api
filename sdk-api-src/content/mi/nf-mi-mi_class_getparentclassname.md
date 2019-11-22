@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Class_GetParentClassName
 title: MI_Class_GetParentClassName function (mi.h)
-author: windows-sdk-content
+
 description: Gets the parent class name of the specified class.
 old-location: wmi_v2\mi_class_getparentclassname.htm
 tech.root: wmi_v2
 ms.assetid: a7e183f1-1136-46e0-a53d-39d06767e380
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetParentClassName, MI_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClassName, wmi_v2.mi_class_getparentclassname
 ms.topic: function

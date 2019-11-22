@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ClusWorkerCheckTerminate
 title: ClusWorkerCheckTerminate function (resapi.h)
-author: windows-sdk-content
+
 description: Determines whether a worker thread should exit as soon as possible. The PCLUSAPIClusWorkerCheckTerminate type defines a pointer to this function.
 old-location: mscs\clusworkercheckterminate.htm
 tech.root: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.topic: function

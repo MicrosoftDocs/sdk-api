@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceActivateEx
 title: IOleInPlaceSiteEx::OnInPlaceActivateEx (ocidl.h)
-author: windows-sdk-content
+
 description: Called by the embedded object to determine whether it needs to redraw itself upon activation.
 old-location: com\ioleinplacesiteex_oninplaceactivateex.htm
 tech.root: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceActivateEx method, IOleInPlaceSiteEx.OnInPlaceActivateEx, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
 ms.topic: method

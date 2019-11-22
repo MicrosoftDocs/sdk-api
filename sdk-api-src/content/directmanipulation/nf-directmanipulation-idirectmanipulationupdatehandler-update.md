@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateHandler.Update
 title: IDirectManipulationUpdateHandler::Update (directmanipulation.h)
-author: windows-sdk-content
+
 description: Notifies the compositor when to update inertia animation.
 old-location: directmanipulation\idirectmanipulationupdatehandler_update.htm
 tech.root: directmanipulation
 ms.assetid: 542eb9b6-aafa-4952-853e-4a73ed322ca3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateHandler interface [Direct Manipulation],Update method, IDirectManipulationUpdateHandler.Update, IDirectManipulationUpdateHandler::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateHandler interface, directmanipulation.idirectmanipulationupdatehandler_update, directmanipulation/IDirectManipulationUpdateHandler::Update
 ms.topic: method

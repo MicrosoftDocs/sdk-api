@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsServiceOperations.Pause
 title: IADsServiceOperations::Pause (iads.h)
-author: windows-sdk-content
+
 description: The IADsServiceOperations::Pause method pauses a service started with the IADsServiceOperations::Start method.
 old-location: adsi\iadsserviceoperations_pause.htm
 tech.root: adsi
 ms.assetid: 119ad6df-551c-48f9-8ad4-0ab18f5d939c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Pause method, IADsServiceOperations.Pause, IADsServiceOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_pause, adsi.iadsserviceoperations__pause, adsi.iadsserviceoperations_pause, iads/IADsServiceOperations::Pause
 ms.topic: method

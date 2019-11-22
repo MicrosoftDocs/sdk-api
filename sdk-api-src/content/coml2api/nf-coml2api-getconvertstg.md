@@ -1,12 +1,12 @@
 ---
 UID: NF:coml2api.GetConvertStg
 title: GetConvertStg function (coml2api.h)
-author: windows-sdk-content
+
 description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.
 old-location: stg\getconvertstg.htm
 tech.root: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
 ms.topic: function

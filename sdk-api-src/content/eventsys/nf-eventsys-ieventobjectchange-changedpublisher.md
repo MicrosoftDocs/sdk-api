@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedPublisher
 title: IEventObjectChange::ChangedPublisher (eventsys.h)
-author: windows-sdk-content
+
 description: Indicates a publisher object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedpublisher.htm
 tech.root: cossdk
 ms.assetid: 13bd95e6-5fc2-41e2-9002-67a87f727528
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChangedPublisher, ChangedPublisher method [COM+], ChangedPublisher method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedPublisher method, IEventObjectChange.ChangedPublisher, IEventObjectChange::ChangedPublisher, _cos_ieventobjectchange_changedpublisher, cos.ieventobjectchange_changedpublisher, eventsys/IEventObjectChange::ChangedPublisher
 ms.topic: method

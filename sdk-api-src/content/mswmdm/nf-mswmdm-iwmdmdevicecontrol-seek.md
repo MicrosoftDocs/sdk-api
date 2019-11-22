@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Seek
 title: IWMDMDeviceControl::Seek (mswmdm.h)
-author: windows-sdk-content
+
 description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
 old-location: wmdm\iwmdmdevicecontrol_seek.htm
 tech.root: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterRegCreateReadBatch
 title: ClusterRegCreateReadBatch function (clusapi.h)
-author: windows-sdk-content
+
 description: Creates a handle to the read batch that executes read commands on the cluster registry key.
 old-location: mscs\clusterregcreatereadbatch.htm
 tech.root: MsCS
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.topic: function

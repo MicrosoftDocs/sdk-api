@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap~r2
 title: CustomLineCap::CustomLineCap~r2 (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a CustomLineCap::CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecap_29fillpath_strokepath_basecap_baseinset.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap, CustomLineCap class [GDI+],CustomLineCap constructor, CustomLineCap constructor [GDI+], CustomLineCap constructor [GDI+],CustomLineCap class, CustomLineCap.CustomLineCap, CustomLineCap.CustomLineCap~r2, CustomLineCap::CustomLineCap, CustomLineCap::CustomLineCap~r2, _gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_, gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_
 ms.topic: method

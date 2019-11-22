@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSum
 title: XMVectorSum function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the horizontal sum of the components of an XMVECTOR. The horizontal sum is the result of adding each component in the vector together.
 old-location: dxmath\xmvectorsum.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSum(FXMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSum, XMVectorSum, XMVectorSum method [DirectX Math Support APIs], dxmath.xmvectorsum
 ms.topic: function

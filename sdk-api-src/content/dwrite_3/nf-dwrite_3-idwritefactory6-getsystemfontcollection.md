@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.GetSystemFontCollection
 title: IDWriteFactory6::GetSystemFontCollection
-author: windows-sdk-content
+
 description: Retrieves a collection of fonts, grouped into families.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory6.GetSystemFontCollection, IDWriteFactory6::GetSystemFontCollection, GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_getsystemfontcollection, dwrite_3/IDWriteFactory6::GetSystemFontCollection
 ms.topic: method

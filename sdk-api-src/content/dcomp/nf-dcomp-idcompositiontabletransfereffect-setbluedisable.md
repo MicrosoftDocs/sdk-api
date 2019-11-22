@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueDisable
 title: IDCompositionTableTransferEffect::SetBlueDisable (dcomp.h)
-author: windows-sdk-content
+
 description: Specifies whether to apply the transfer function to the blue channel.
 old-location: directcomp\idcompositiontabletransfereffect_setbluedisable.htm
 tech.root: directcomp
 ms.assetid: 278FE30E-86F2-4E34-AED5-78C699FC2319
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueDisable method, IDCompositionTableTransferEffect.SetBlueDisable, IDCompositionTableTransferEffect::SetBlueDisable, SetBlueDisable, SetBlueDisable method [DirectComposition], SetBlueDisable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueDisable, directcomp.idcompositiontabletransfereffect_setbluedisable
 ms.topic: method

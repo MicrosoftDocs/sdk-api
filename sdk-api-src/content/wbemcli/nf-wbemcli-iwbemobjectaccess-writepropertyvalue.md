@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.WritePropertyValue
 title: IWbemObjectAccess::WritePropertyValue (wbemcli.h)
-author: windows-sdk-content
+
 description: The WritePropertyValue method writes a specified number of bytes to a property identified by a property handle. Use this method to set string and all other non-DWORD or non-QWORD data.
 old-location: wmi\iwbemobjectaccess_writepropertyvalue.htm
 tech.root: WmiSdk
 ms.assetid: 2ac2b8b0-8b69-4f01-8017-ace82a382f40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WritePropertyValue method, IWbemObjectAccess.WritePropertyValue, IWbemObjectAccess::WritePropertyValue, WritePropertyValue, WritePropertyValue method [Windows Management Instrumentation], WritePropertyValue method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writepropertyvalue, wbemcli/IWbemObjectAccess::WritePropertyValue, wmi.iwbemobjectaccess_writepropertyvalue
 ms.topic: method

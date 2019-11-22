@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterResourceControlAsUser
 title: ClusterResourceControlAsUser function (clusapi.h)
-author: windows-sdk-content
+
 description: Initiates an operation affecting a resource.
 old-location: mscs\clusterresourcecontrolasuser.htm
 tech.root: MsCS
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
 ms.topic: function

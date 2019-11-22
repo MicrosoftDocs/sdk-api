@@ -1,12 +1,12 @@
 ---
 UID: NF:ip2string.RtlIpv6AddressToStringExW
 title: RtlIpv6AddressToStringExW function (ip2string.h)
-author: windows-sdk-content
+
 description: Converts an IPv6 address, scope ID, and port number to a string.
 old-location: iphlp\rtlipv6addresstostringex.htm
 tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToStringEx, RtlIpv6AddressToStringEx function [IP Helper], RtlIpv6AddressToStringExW, ip2string/RtlIpv6AddressToStringEx, ip2string/RtlIpv6AddressToStringExW, iphlp.rtlipv6addresstostringex
 ms.topic: function

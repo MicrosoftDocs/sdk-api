@@ -1,12 +1,12 @@
 ---
 UID: NS:cfapi.CF_PLACEHOLDER_CREATE_INFO
 title: CF_PLACEHOLDER_CREATE_INFO (cfapi.h)
-author: windows-sdk-content
+
 description: Contains placeholder information for creating new placeholder files or directories.
 old-location: cloudapi\cf_placeholder_create_info.htm
 tech.root: cfApi
 ms.assetid: 2DC1FF5F-FBFD-45CA-8CD5-B2F586C22778
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_INFO, CF_PLACEHOLDER_CREATE_INFO structure, cfapi/CF_PLACEHOLDER_CREATE_INFO, cloudApi.cf_placeholder_create_info
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_PROPERTY
 title: WS_SECURITY_ALGORITHM_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a cryptographic algorithm setting.
 old-location: wsw\ws_security_algorithm_property.htm
 tech.root: wsw
 ms.assetid: 6a0dbe45-65f6-41eb-aa94-5ed0cdd751cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY, WS_SECURITY_ALGORITHM_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_PROPERTY, wsw.ws_security_algorithm_property
 ms.topic: struct

@@ -1,7 +1,7 @@
 ---
 UID: TP:wintouch
 ms.assetid: 7340eb41-5269-3872-ab0e-7e5a90776681
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

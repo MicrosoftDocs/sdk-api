@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptShape
 title: ScriptShape function (usp10.h)
-author: windows-sdk-content
+
 description: Generates glyphs and visual attributes for a Unicode run.
 old-location: intl\scriptshape.htm
 tech.root: Intl
 ms.assetid: 073ba94a-ebfa-42f5-9d90-d5693dc25703
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptShape, ScriptShape function [Internationalization for Windows Applications], _win32_ScriptShape, intl.scriptshape, usp10/ScriptShape
 ms.topic: function

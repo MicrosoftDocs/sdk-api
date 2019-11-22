@@ -1,12 +1,12 @@
 ---
 UID: NF:powrprof.PowerReplaceDefaultPowerSchemes
 title: PowerReplaceDefaultPowerSchemes function (powrprof.h)
-author: windows-sdk-content
+
 description: Replaces the default power schemes with the current user's power schemes.
 old-location: base\powerreplacedefaultpowerschemes.htm
 tech.root: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
 ms.topic: function

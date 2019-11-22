@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_BIND_ELEMENT
 title: DHCPV6_BIND_ELEMENT (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Defines an IPv6 interface binding for the DHCP server over which it receives DHCPv6 packets.
 old-location: dhcp\dhcpv6_bind_element.htm
 tech.root: DHCP
 ms.assetid: 7c5b1d5d-7c91-46a8-aaa0-1d957430461d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, PDHCPV6_BIND_ELEMENT, PDHCPV6_BIND_ELEMENT structure pointer [DHCP], dhcp.dhcpv6_bind_element, dhcpsapi/DHCPV6_BIND_ELEMENT, dhcpsapi/PDHCPV6_BIND_ELEMENT'
 ms.topic: struct

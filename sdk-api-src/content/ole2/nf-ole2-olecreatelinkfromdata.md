@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleCreateLinkFromData
 title: OleCreateLinkFromData function (ole2.h)
-author: windows-sdk-content
+
 description: Creates a linked object from a data transfer object retrieved either from the clipboard or as part of an OLE drag-and-drop operation.
 old-location: com\olecreatelinkfromdata.htm
 tech.root: com
 ms.assetid: 3eda0cf5-c33d-43cf-ba8a-02a4f6383adc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkFromData, OleCreateLinkFromData function [COM], _ole_OleCreateLinkFromData, com.olecreatelinkfromdata, ole2/OleCreateLinkFromData
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNegotiate
 title: IWSManEx::SessionFlagUseNegotiate (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the authentication flag WSManFlagUseNegotiate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenegotiate.htm
 tech.root: winrm
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetIsSideways
 title: IXpsOMGlyphsEditor::SetIsSideways (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets the value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 old-location: xps\ixpsomglyphseditor_setissideways.htm
 tech.root: printdocs
 ms.assetid: 67866971-fe2b-4354-a7e9-a43678443790
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetIsSideways method, IXpsOMGlyphsEditor.SetIsSideways, IXpsOMGlyphsEditor::SetIsSideways, SetIsSideways, SetIsSideways method [XPS Documents and Packaging], SetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, TRUE, xps.ixpsomglyphseditor_setissideways, xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways
 ms.topic: method

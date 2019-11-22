@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.mouse_event
 title: mouse_event function (winuser.h)
-author: windows-sdk-content
+
 description: The mouse_event function synthesizes mouse motion and button clicks.
 old-location: inputdev\mouse_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\mouse_event.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, XBUTTON1, XBUTTON2, _win32_mouse_event, _win32_mouse_event_cpp, inputdev.mouse_event, mouse_event, mouse_event function [Keyboard and Mouse Input], winui._win32_mouse_event, winuser/mouse_event
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetMenuDefaultItem
 title: SetMenuDefaultItem function (winuser.h)
-author: windows-sdk-content
+
 description: Sets the default menu item for the specified menu.
 old-location: menurc\setmenudefaultitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenudefaultitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetMenuDefaultItem, SetMenuDefaultItem function [Menus and Other Resources], _win32_SetMenuDefaultItem, _win32_setmenudefaultitem_cpp, menurc.setmenudefaultitem, winui._win32_setmenudefaultitem, winuser/SetMenuDefaultItem
 ms.topic: function

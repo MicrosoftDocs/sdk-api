@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashStyle
 title: Pen::SetDashStyle (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::SetDashStyle method sets the dash style for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashstyle.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItem
 title: ITfLangBarItemMgr::GetItem (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarItemMgr::GetItem method
 old-location: tsf\itflangbaritemmgr_getitem.htm
 tech.root: TSF
 ms.assetid: 35895fd7-23d0-416b-98c2-45192edf0a6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Text Services Framework], GetItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItem method, ITfLangBarItemMgr.GetItem, ITfLangBarItemMgr::GetItem, _tsf_itflangbaritemmgr_getitem_ref, ctfutb/ITfLangBarItemMgr::GetItem, tsf.itflangbaritemmgr_getitem
 ms.topic: method

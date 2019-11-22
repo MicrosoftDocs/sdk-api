@@ -1,12 +1,12 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_CONFIG
 title: CRYPT_CONTEXT_FUNCTION_CONFIG (bcrypt.h)
-author: windows-sdk-content
+
 description: Contains configuration information for a cryptographic function of a CNG context.
 old-location: security\crypt_context_function_config.htm
 tech.root: SecCNG
 ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config"
 ms.topic: struct

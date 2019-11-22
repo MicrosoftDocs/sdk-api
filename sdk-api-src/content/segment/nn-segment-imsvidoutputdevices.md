@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidOutputDevices
 title: IMSVidOutputDevices (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidOutputDevices interface represents a collection of output devices.Output devices include video and audio renderers, and the Stream Buffer Sink object.
 old-location: mstv\imsvidoutputdevices.htm
 tech.root: mstv
 ms.assetid: 54776225-ad60-450b-99b4-851cae60ffa7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices, IMSVidOutputDevices interface [Microsoft TV Technologies], IMSVidOutputDevices interface [Microsoft TV Technologies],described, IMSVidOutputDevicesInterface, mstv.imsvidoutputdevices, segment/IMSVidOutputDevices
 ms.topic: interface

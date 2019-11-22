@@ -1,12 +1,12 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0001
 title: WcmTargetMode (wcmconfig.h)
-author: windows-sdk-content
+
 description: Enumerates the various target modes.
 old-location: smi\wcmtargetmode.htm
 tech.root: SMI
 ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
 ms.topic: enum

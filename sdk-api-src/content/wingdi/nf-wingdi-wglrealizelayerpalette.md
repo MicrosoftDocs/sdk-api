@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.wglRealizeLayerPalette
 title: wglRealizeLayerPalette function (wingdi.h)
-author: windows-sdk-content
+
 description: The wglRealizeLayerPalette function maps palette entries from a given color-index layer plane into the physical palette or initializes the palette of an RGBA layer plane.
 old-location: opengl\wglrealizelayerpalette.htm
 tech.root: OpenGL
 ms.assetid: 083a563e-5b26-4ca8-8cae-c5a9ff901e8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglRealizeLayerPalette, opengl.wglrealizelayerpalette, wglRealizeLayerPalette, wglRealizeLayerPalette function [OpenGL], wingdi/wglRealizeLayerPalette"
 ms.topic: function

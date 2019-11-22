@@ -1,12 +1,12 @@
 ---
 UID: NC:webservices.WS_PROXY_MESSAGE_CALLBACK
 title: WS_PROXY_MESSAGE_CALLBACK (webservices.h)
-author: windows-sdk-content
+
 description: Invoked when the headers of the input message are about to be sent, or when output message headers are just received.
 old-location: wsw\ws_proxy_message_callback.htm
 tech.root: wsw
 ms.assetid: 5590ef4f-38a5-4aeb-9e77-803abb7ef6a7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK, WS_PROXY_MESSAGE_CALLBACK callback, WS_PROXY_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK, wsw.ws_proxy_message_callback
 ms.topic: callback

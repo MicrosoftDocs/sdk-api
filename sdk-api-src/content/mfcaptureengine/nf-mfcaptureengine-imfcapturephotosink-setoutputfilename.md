@@ -1,12 +1,12 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetOutputFileName
 title: IMFCapturePhotoSink::SetOutputFileName (mfcaptureengine.h)
-author: windows-sdk-content
+
 description: Specifies the name of the output file for the still image.
 old-location: mf\imfcapturephotosink_setoutputfilename.htm
 tech.root: medfound
 ms.assetid: CAA9F7CF-A92F-4039-BEA5-07A730E82EE4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputFileName method, IMFCapturePhotoSink.SetOutputFileName, IMFCapturePhotoSink::SetOutputFileName, SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputfilename, mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName
 ms.topic: method

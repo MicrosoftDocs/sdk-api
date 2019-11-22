@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayPutElement
 title: SafeArrayPutElement function (oleauto.h)
-author: windows-sdk-content
+
 description: Stores the data element at the specified location in the array.
 old-location: automat\safearrayputelement.htm
 tech.root: automat
 ms.assetid: 7c837b4f-d319-4d98-934a-b585fe521bf8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayPutElement, SafeArrayPutElement function [Automation], _oa96_SafeArrayPutElement, automat.safearrayputelement, oleauto/SafeArrayPutElement
 ms.topic: function

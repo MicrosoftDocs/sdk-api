@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Midline
 title: IInkRecognitionAlternate::get_Midline (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the midline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_midline.htm
 tech.root: tablet
 ms.assetid: ff12de3d-f760-4227-9406-634b19e66b4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
 ms.topic: method

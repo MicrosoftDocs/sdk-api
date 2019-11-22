@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IMarshalingStream
 title: IMarshalingStream (objidl.h)
-author: windows-sdk-content
+
 description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
 old-location: com\imarshalingstream.htm
 tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
 ms.topic: interface

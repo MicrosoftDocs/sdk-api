@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.SetEnumPreference
 title: IWMDMStorage3::SetEnumPreference (mswmdm.h)
-author: windows-sdk-content
+
 description: The SetEnumPreference method sets the preferred view mode for the storage.
 old-location: wmdm\iwmdmstorage3_setenumpreference.htm
 tech.root: WMDM
 ms.assetid: 74916098-07d2-4dc9-932d-b174a10032dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetEnumPreference method, IWMDMStorage3.SetEnumPreference, IWMDMStorage3::SetEnumPreference, IWMDMStorage3SetEnumPreference, SetEnumPreference, SetEnumPreference method [windows Media Device Manager], SetEnumPreference method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetEnumPreference, wmdm.iwmdmstorage3_setenumpreference
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:libloaderapi.LockResource
 title: LockResource function (libloaderapi.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to the specified resource in memory.
 old-location: menurc\lockresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\lockresource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LockResource, LockResource function [Menus and Other Resources], _win32_LockResource, _win32_lockresource_cpp, libloaderapi/LockResource, menurc.lockresource, winui._win32_lockresource
 ms.topic: function

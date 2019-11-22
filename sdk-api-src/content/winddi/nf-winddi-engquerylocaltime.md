@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngQueryLocalTime
 title: EngQueryLocalTime function (winddi.h)
-author: windows-sdk-content
+
 description: The EngQueryLocalTime function queries the local time.
 old-location: display\engquerylocaltime.htm
 tech.root: display
 ms.assetid: 826993fc-7cf2-4747-a0d9-086e5d7310b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
 ms.topic: function

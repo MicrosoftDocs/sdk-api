@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsGUIThread
 title: IsGUIThread function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether the calling thread is already a GUI thread. It can also optionally convert the thread to a GUI thread.
 old-location: winmsg\isguithread.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isguithread.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsGUIThread, IsGUIThread function [Windows and Messages], _win32_IsGUIThread, _win32_isguithread_cpp, winmsg.isguithread, winui._win32_isguithread, winuser/IsGUIThread
 ms.topic: function

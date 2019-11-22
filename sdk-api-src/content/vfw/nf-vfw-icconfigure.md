@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICConfigure
 title: ICConfigure macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICConfigure macro notifies a video compression driver to display its configuration dialog box. You can use this macro or explicitly send the ICM_CONFIGURE message.
 old-location: multimedia\icconfigure.htm
 tech.root: Multimedia
 ms.assetid: 58dbe8ff-4236-456c-8361-e7716e764f89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICConfigure, ICConfigure macro [Windows Multimedia], _win32_ICConfigure, multimedia.icconfigure, vfw/ICConfigure
 ms.topic: macro

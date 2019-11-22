@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.EnableWdsTransportServices
 title: IWdsTransportConfigurationManager::EnableWdsTransportServices (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Sets all WDS transport services to Auto-Start mode.
 old-location: wds\iwdstransportconfigurationmanager_enablewdstransportservices.htm
 tech.root: wds
 ms.assetid: 30f4ff61-8e92-4d1b-8243-e5cc9d64da40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnableWdsTransportServices, EnableWdsTransportServices method [Windows Deployment Services], EnableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],EnableWdsTransportServices method, IWdsTransportConfigurationManager.EnableWdsTransportServices, IWdsTransportConfigurationManager::EnableWdsTransportServices, wds.iwdstransportconfigurationmanager_enablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::EnableWdsTransportServices
 ms.topic: method

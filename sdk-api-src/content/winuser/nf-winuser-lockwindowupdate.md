@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.LockWindowUpdate
 title: LockWindowUpdate function (winuser.h)
-author: windows-sdk-content
+
 description: The LockWindowUpdate function disables or enables drawing in the specified window. Only one window can be locked at a time.
 old-location: gdi\lockwindowupdate.htm
 tech.root: gdi
 ms.assetid: 00ec40c7-8ab2-40db-a9bb-48e18d66bf1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LockWindowUpdate, LockWindowUpdate function [Windows GDI], _win32_LockWindowUpdate, gdi.lockwindowupdate, winuser/LockWindowUpdate
 ms.topic: function

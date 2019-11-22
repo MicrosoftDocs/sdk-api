@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IEntity.GetRelationship
 title: IEntity::GetRelationship (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves the IRelationship object for this entity as requested by name.
 old-location: search\_search_IEntity_GetRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getrelationship.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRelationship, GetRelationship method [search], GetRelationship method [search],IEntity interface, IEntity interface [search],GetRelationship method, IEntity.GetRelationship, IEntity::GetRelationship, _search_IEntity_GetRelationship, search._search_IEntity_GetRelationship, structuredquery/IEntity::GetRelationship
 ms.topic: method

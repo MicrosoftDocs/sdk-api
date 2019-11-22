@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetStatus
 title: IMDSPDevice::GetStatus (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetStatus method retrieves all the device status information that the device can provide.
 old-location: wmdm\imdspdevice_getstatus.htm
 tech.root: WMDM
 ms.assetid: 76c5ee43-4d21-436e-b193-8a8e034651f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetStatus method, IMDSPDevice.GetStatus, IMDSPDevice::GetStatus, IMDSPDeviceGetStatus, mswmdm/IMDSPDevice::GetStatus, wmdm.imdspdevice_getstatus
 ms.topic: method

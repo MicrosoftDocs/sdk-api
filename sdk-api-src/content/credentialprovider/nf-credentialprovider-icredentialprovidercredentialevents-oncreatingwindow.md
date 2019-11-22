@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.OnCreatingWindow
 title: ICredentialProviderCredentialEvents::OnCreatingWindow (credentialprovider.h)
-author: windows-sdk-content
+
 description: Called when the window is created. Enables credentials to retrieve the HWND of the parent window after Advise is called.
 old-location: shell\ICredentialProviderCredentialEvents_OnCreatingWindow.htm
 tech.root: shell
 ms.assetid: ae3cf911-991d-4363-985a-746846e3c08a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
 ms.topic: method

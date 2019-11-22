@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextHost.TxInvalidateRect
 title: ITextHost::TxInvalidateRect (textserv.h)
-author: windows-sdk-content
+
 description: Specifies a rectangle for the text host to add to the update region of the text host window.
 old-location: controls\ITextHost_TxInvalidateRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxinvalidaterect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxInvalidateRect method, ITextHost.TxInvalidateRect, ITextHost::TxInvalidateRect, TxInvalidateRect, TxInvalidateRect method [Windows Controls], TxInvalidateRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxInvalidateRect, _win32_ITextHost_TxInvalidateRect_cpp, controls.ITextHost_TxInvalidateRect, controls._win32_ITextHost_TxInvalidateRect, textserv/ITextHost::TxInvalidateRect
 ms.topic: method

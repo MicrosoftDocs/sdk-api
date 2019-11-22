@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.UnregisterViewForNotification
 title: ISearchCatalogManager::UnregisterViewForNotification (searchapi.h)
-author: windows-sdk-content
+
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_UnregisterViewForNotification.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\unregisterviewfornotification.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],UnregisterViewForNotification method, ISearchCatalogManager.UnregisterViewForNotification, ISearchCatalogManager::UnregisterViewForNotification, UnregisterViewForNotification, UnregisterViewForNotification method [search], UnregisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_UnregisterViewForNotification, search._search_ISearchCatalogManager_UnregisterViewForNotification, searchapi/ISearchCatalogManager::UnregisterViewForNotification
 ms.topic: method

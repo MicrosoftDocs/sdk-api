@@ -1,12 +1,12 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolListener
 title: IWTSProtocolListener (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolListener is no longer available. Instead, use IWRdsProtocolListener.
 old-location: termserv\iwtsprotocollistener.htm
 tech.root: TermServ
 ms.assetid: b11eb19f-ffc3-4a68-85c6-90a2412168f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], IWTSProtocolListener interface [Remote Desktop Services],described, termserv.iwtsprotocollistener, wtsprotocol/IWTSProtocolListener
 ms.topic: interface

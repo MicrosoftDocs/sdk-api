@@ -1,12 +1,12 @@
 ---
 UID: NS:xaudio2.XAUDIO2_PERFORMANCE_DATA
 title: XAUDIO2_PERFORMANCE_DATA (xaudio2.h)
-author: windows-sdk-content
+
 description: Contains performance information.
 old-location: xaudio2\xaudio2_performance_data.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_PERFORMANCE_DATA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_performance_data, xaudio2/XAUDIO2_PERFORMANCE_DATA
 ms.topic: struct

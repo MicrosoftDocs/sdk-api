@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDrawWindow
 title: ICDrawWindow macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICDrawWindow macro notifies a rendering driver that the window specified for the ICM_DRAW_BEGIN message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the ICM_DRAW_WINDOW message.
 old-location: multimedia\icdrawwindow.htm
 tech.root: Multimedia
 ms.assetid: 35f799f6-99ce-41a4-9165-3bb614ea01d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDrawWindow, ICDrawWindow macro [Windows Multimedia], _win32_ICDrawWindow, multimedia.icdrawwindow, vfw/ICDrawWindow
 ms.topic: macro

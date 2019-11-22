@@ -1,12 +1,12 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.GetAudioFormat
 title: IAudioMediaType::GetAudioFormat (audiomediatype.h)
-author: windows-sdk-content
+
 description: The GetAudioFormat method returns the WAVEFORMATEX structure for the audio data format.
 old-location: audio\iaudiomediatype_getaudioformat.htm
 tech.root: audio
 ms.assetid: 5e00e566-3209-435a-85ae-2c209f0e0eb3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAudioFormat, GetAudioFormat method [Audio Devices], GetAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetAudioFormat method, IAudioMediaType.GetAudioFormat, IAudioMediaType::GetAudioFormat, audio.iaudiomediatype_getaudioformat, audio_syseffects_r_9859bef7-75b8-45eb-acc2-90c5d7ef5ee1.xml, audiomediatype/IAudioMediaType::GetAudioFormat
 ms.topic: method

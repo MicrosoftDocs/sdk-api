@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetDocFormat
 title: IUrlAccessor::GetDocFormat (searchapi.h)
-author: windows-sdk-content
+
 description: Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
 old-location: search\_search_IUrlAccessor_GetDocFormat.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getdocformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDocFormat, GetDocFormat method [search], GetDocFormat method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetDocFormat method, IUrlAccessor.GetDocFormat, IUrlAccessor::GetDocFormat, _search_IUrlAccessor_GetDocFormat, search._search_IUrlAccessor_GetDocFormat, searchapi/IUrlAccessor::GetDocFormat
 ms.topic: method

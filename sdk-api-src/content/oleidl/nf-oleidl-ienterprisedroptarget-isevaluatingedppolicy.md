@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.IsEvaluatingEdpPolicy
 title: IEnterpriseDropTarget::IsEvaluatingEdpPolicy (oleidl.h)
-author: windows-sdk-content
+
 description: Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy.
 old-location: com\isevaluatingedppolicy_isevaluatingedppolicy.htm
 tech.root: com
 ms.assetid: EB28FF02-E747-4898-AEEF-811BAF7A6DBC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method, IEnterpriseDropTarget.IsEvaluatingEdpPolicy, IEnterpriseDropTarget::IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy method [COM], IsEvaluatingEdpPolicy method [COM],IEnterpriseDropTarget interface, com.isevaluatingedppolicy_isevaluatingedppolicy, com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync, oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy
 ms.topic: method

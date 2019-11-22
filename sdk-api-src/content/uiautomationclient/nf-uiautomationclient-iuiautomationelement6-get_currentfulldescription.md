@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement6.get_CurrentFullDescription
 title: IUIAutomationElement6::get_CurrentFullDescription (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Gets the current full description of the automation element.
 old-location: winauto\uiauto_IUIAutomationElement6_CurrentFullDescription.htm
 tech.root: WinAuto
 ms.assetid: 8BAC347D-6E4D-4599-B2BE-FC54B888C45F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentFullDescription property [Windows Accessibility], CurrentFullDescription property [Windows Accessibility],IUIAutomationElement6 interface, IUIAutomationElement6 interface [Windows Accessibility],CurrentFullDescription property, IUIAutomationElement6.CurrentFullDescription, IUIAutomationElement6.get_CurrentFullDescription, IUIAutomationElement6::CurrentFullDescription, IUIAutomationElement6::get_CurrentFullDescription, get_CurrentFullDescription, uiautomationclient/IUIAutomationElement6::CurrentFullDescription, uiautomationclient/IUIAutomationElement6::get_CurrentFullDescription, winauto.uiauto_IUIAutomationElement6_CurrentFullDescription
 ms.topic: method

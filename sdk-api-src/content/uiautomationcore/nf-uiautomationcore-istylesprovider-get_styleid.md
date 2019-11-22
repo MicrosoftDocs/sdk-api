@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleId
 title: IStylesProvider::get_StyleId (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Identifies the visual style of an element in a document.
 old-location: winauto\uiauto_istylesprovider_styleid.htm
 tech.root: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleId property, IStylesProvider.StyleId, IStylesProvider.get_StyleId, IStylesProvider::StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility],IStylesProvider interface, get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
 ms.topic: method

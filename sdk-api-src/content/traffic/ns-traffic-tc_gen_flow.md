@@ -1,12 +1,12 @@
 ---
 UID: NS:traffic._TC_GEN_FLOW
 title: TC_GEN_FLOW (traffic.h)
-author: windows-sdk-content
+
 description: The TC_GEN_FLOW structure creates a generic flow for use with the traffic control interface. The flow is customized through the members of this structure.
 old-location: qos\tc_gen_flow.htm
 tech.root: QOS
 ms.assetid: 88b162d9-003c-42ce-8f82-91ee1aa9e32e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW'
 ms.topic: struct

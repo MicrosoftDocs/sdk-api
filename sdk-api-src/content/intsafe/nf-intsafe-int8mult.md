@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.Int8Mult
 title: Int8Mult function (intsafe.h)
-author: windows-sdk-content
+
 description: Multiplies two values of type INT8.
 old-location: shell\Int8Mult.htm
 tech.root: shell
 ms.assetid: 0dbdd21a-b38b-4130-bc60-eef78a063ea8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Int8Mult, Int8Mult function [Windows Shell], intsafe/Int8Mult, shell.Int8Mult
 ms.topic: function

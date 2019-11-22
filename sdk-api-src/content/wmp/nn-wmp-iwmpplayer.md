@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPPlayer
 title: IWMPPlayer (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPPlayer interface provides methods for modifying the basic behavior of the Windows Media Player control user interface. These methods supplement the IWMPCore interface.
 old-location: wmp\iwmpplayer.htm
 tech.root: WMP
 ms.assetid: ce6aef79-1faa-44ac-a096-f65d09458067
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], IWMPPlayer interface [Windows Media Player],described, IWMPPlayerInterface, wmp.iwmpplayer, wmp/IWMPPlayer
 ms.topic: interface

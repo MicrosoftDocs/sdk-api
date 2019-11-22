@@ -1,12 +1,12 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderUser
 title: ICredentialProviderUser (credentialprovider.h)
-author: windows-sdk-content
+
 description: Provides methods used to retrieve certain properties of an individual user included in a logon or credential UI.
 old-location: shell\ICredentialProviderUser.htm
 tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
 ms.topic: interface

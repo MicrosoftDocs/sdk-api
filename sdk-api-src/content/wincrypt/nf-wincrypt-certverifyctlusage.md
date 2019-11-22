@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CertVerifyCTLUsage
 title: CertVerifyCTLUsage function (wincrypt.h)
-author: windows-sdk-content
+
 description: Verifies that a subject is trusted for a specified usage by finding a signed and time-valid certificate trust list (CTL) with the usage identifiers that contain the subject.
 old-location: security\certverifyctlusage.htm
 tech.root: SecCrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
 ms.topic: function

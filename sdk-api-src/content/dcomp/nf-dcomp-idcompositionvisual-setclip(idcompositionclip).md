@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetClip(IDCompositionClip)
 title: IDCompositionVisual::SetClip(IDCompositionClip) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the Clip property of this visual to the specified clip object.
 old-location: directcomp\idcompositionvisual_setclip_idcompositionclip.htm
 tech.root: directcomp
 ms.assetid: 504938a1-2775-477d-a077-7afc4e333f36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual.SetClip(IDCompositionClip), IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(IDCompositionClip), IDCompositionVisual::SetClip(IDCompositionClip*), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_idcompositionclip
 ms.topic: method

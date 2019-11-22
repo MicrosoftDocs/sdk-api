@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_ONLINE
 title: IOCTL_VOLUME_ONLINE
-author: windows-sdk-content
+
 description: Brings a volume online.
 old-location: fs\ioctl_volume_online.htm
 tech.root: FileIO
 ms.assetid: fa857959-c10e-4c64-8249-4bbf44e15eb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Files], fs.ioctl_volume_online, winioctl/IOCTL_VOLUME_ONLINE
 ms.topic: ioctl

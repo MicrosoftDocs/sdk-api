@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsAccessControlList.CopyAccessList
 title: IADsAccessControlList::CopyAccessList (iads.h)
-author: windows-sdk-content
+
 description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
 old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: adsi
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.topic: method

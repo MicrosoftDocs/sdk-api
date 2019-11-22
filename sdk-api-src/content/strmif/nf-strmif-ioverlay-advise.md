@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IOverlay.Advise
 title: IOverlay::Advise (strmif.h)
-author: windows-sdk-content
+
 description: The Advise method sets up an advise link for the overlay events specified by the dwInterests parameter.
 old-location: dshow\ioverlay_advise.htm
 tech.root: DirectShow
 ms.assetid: 02db2233-b185-47a9-9655-409991a74d4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
 ms.topic: method

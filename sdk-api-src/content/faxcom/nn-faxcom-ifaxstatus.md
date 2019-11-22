@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcom.IFaxStatus
 title: IFaxStatus (faxcom.h)
-author: windows-sdk-content
+
 description: The FaxStatus dual interface is used by a fax client application to retrieve status information for a specific port on a connected fax server.
 old-location: fax\_mfax_ifaxstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ckz.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
 ms.topic: interface

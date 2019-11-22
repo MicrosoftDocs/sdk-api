@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IPersistStream.IsDirty
 title: IPersistStream::IsDirty (objidl.h)
-author: windows-sdk-content
+
 description: Determines whether an object has changed since it was last saved to its stream.
 old-location: com\ipersiststream_isdirty.htm
 tech.root: com
 ms.assetid: fabafc37-18f2-4def-b6bf-f7daa2bb8f37
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPersistStream interface [COM],IsDirty method, IPersistStream.IsDirty, IPersistStream::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStream interface, _com_ipersiststream_isdirty, com.ipersiststream_isdirty, objidl/IPersistStream::IsDirty
 ms.topic: method

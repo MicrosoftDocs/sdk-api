@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceTop
 title: IBasicVideo::get_SourceTop (control.h)
-author: windows-sdk-content
+
 description: The get_SourceTop method retrieves the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcetop.htm
 tech.root: DirectShow
 ms.assetid: 87ad3699-5a1b-4fa0-b7bd-5ec87758e9fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceTop method, IBasicVideo.get_SourceTop, IBasicVideo::get_SourceTop, IBasicVideoget_SourceTop, control/IBasicVideo::get_SourceTop, dshow.ibasicvideo_get_sourcetop, get_SourceTop, get_SourceTop method [DirectShow], get_SourceTop method [DirectShow],IBasicVideo interface
 ms.topic: method

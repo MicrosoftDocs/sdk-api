@@ -1,12 +1,12 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FORMAT
 title: MBN_SMS_FORMAT (mbnapi.h)
-author: windows-sdk-content
+
 description: Format of SMS messages.
 old-location: mbn\mbn_sms_format.htm
 tech.root: mbn
 ms.assetid: ece079e2-43a2-4ca9-9aa7-1b9484f0176e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FORMAT, MBN_SMS_FORMAT enumeration [Microsoft Broadband Networks], MBN_SMS_FORMAT_NONE, MBN_SMS_FORMAT_PDU, MBN_SMS_FORMAT_TEXT, mbn.mbn_sms_format, mbnapi/MBN_SMS_FORMAT, mbnapi/MBN_SMS_FORMAT_NONE, mbnapi/MBN_SMS_FORMAT_PDU, mbnapi/MBN_SMS_FORMAT_TEXT
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation)
 title: IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the Opacity property.
 old-location: directcomp\idcompositioneffectgroup_setopacity_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 9BD576D6-51CA-41A5-AF8F-FEA77C17C872
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_idcompositionanimation
 ms.topic: method

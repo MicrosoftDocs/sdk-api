@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationText
 title: ISCTE_EAS::GetRawNatureOfActivationText (atscpsipparser.h)
-author: windows-sdk-content
+
 description: Gets the raw nature_of_activation_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawnatureofactivationtext.htm
 tech.root: mstv
 ms.assetid: 11ada9ab-b55f-41c1-9d7d-1c856a17a3a9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRawNatureOfActivationText, GetRawNatureOfActivationText method [Microsoft TV Technologies], GetRawNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationText method, ISCTE_EAS.GetRawNatureOfActivationText, ISCTE_EAS::GetRawNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationText, mstv.iscte_eas_getrawnatureofactivationtext
 ms.topic: method

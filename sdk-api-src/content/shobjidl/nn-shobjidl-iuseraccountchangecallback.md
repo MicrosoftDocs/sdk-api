@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IUserAccountChangeCallback
 title: IUserAccountChangeCallback (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes a method which is called when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback.htm
 tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.topic: interface

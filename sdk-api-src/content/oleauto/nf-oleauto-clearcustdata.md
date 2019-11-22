@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.ClearCustData
 title: ClearCustData function (oleauto.h)
-author: windows-sdk-content
+
 description: Releases memory used to hold the custom data item.
 old-location: automat\clearcustdata.htm
 tech.root: automat
 ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
 ms.topic: function

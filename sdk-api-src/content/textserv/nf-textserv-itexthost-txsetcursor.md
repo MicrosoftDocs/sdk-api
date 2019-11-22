@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCursor
 title: ITextHost::TxSetCursor (textserv.h)
-author: windows-sdk-content
+
 description: Establishes a new cursor shape (I-beam) in the text host's window.
 old-location: controls\ITextHost_TxSetCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetcursor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCursor method, ITextHost.TxSetCursor, ITextHost::TxSetCursor, TxSetCursor, TxSetCursor method [Windows Controls], TxSetCursor method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCursor, _win32_ITextHost_TxSetCursor_cpp, controls.ITextHost_TxSetCursor, controls._win32_ITextHost_TxSetCursor, textserv/ITextHost::TxSetCursor
 ms.topic: method

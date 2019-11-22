@@ -1,12 +1,12 @@
 ---
 UID: NS:xamlom.SourceInfo
 title: SourceInfo (xamlom.h)
-author: windows-sdk-content
+
 description: Represents information about an object’s XAML source document.
 old-location: xaml_diagnostics\sourceinfo.htm
 tech.root: xaml_diagnostics
 ms.assetid: 09B08C62-EF16-4A35-BFE9-B2D1CAE9F285
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSourceInfo, PSourceInfo structure pointer, SourceInfo, SourceInfo structure, xaml_diagnostics.sourceinfo, xamlom/PSourceInfo, xamlom/SourceInfo
 ms.topic: struct

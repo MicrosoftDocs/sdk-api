@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.ICameraControl.get_FocusRelative
 title: ICameraControl::get_FocusRelative (vidcap.h)
-author: windows-sdk-content
+
 description: The get_FocusRelative method returns the relative focus. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_get_focusrelative.htm
 tech.root: DirectShow
 ms.assetid: 21bc1cbe-747b-4846-814f-1aed0ac614d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
 ms.topic: method

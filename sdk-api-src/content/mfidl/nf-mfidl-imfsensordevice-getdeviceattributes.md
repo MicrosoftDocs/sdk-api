@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceAttributes
 title: IMFSensorDevice::GetDeviceAttributes (mfidl.h)
-author: windows-sdk-content
+
 description: Gets the IMFAttributes for the sensor group.
 old-location: mf\imfsensordevice_getdeviceattributes.htm
 tech.root: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetNames
 title: ITypeInfo::GetNames (oaidl.h)
-author: windows-sdk-content
+
 description: Retrieves the variable with the specified member ID or the name of the property or method and the parameters that correspond to the specified function ID.
 old-location: automat\itypeinfo_getnames.htm
 tech.root: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNames, GetNames method [Automation], GetNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetNames method, ITypeInfo.GetNames, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
 ms.topic: method

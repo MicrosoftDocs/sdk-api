@@ -1,12 +1,12 @@
 ---
 UID: NE:webservices.__unnamed_enum_86
 title: WS_READ_OPTION (webservices.h)
-author: windows-sdk-content
+
 description: Specifies whether a value is required, and how the value should be allocated.
 old-location: wsw\ws_read_option.htm
 tech.root: wsw
 ms.assetid: 634b057f-3121-43cc-919f-8636e67ce0d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_READ_NILLABLE_POINTER, WS_READ_NILLABLE_VALUE, WS_READ_OPTION, WS_READ_OPTION enumeration [Web Services for Windows], WS_READ_OPTIONAL_POINTER, WS_READ_REQUIRED_POINTER, WS_READ_REQUIRED_VALUE, webservices/WS_READ_NILLABLE_POINTER, webservices/WS_READ_NILLABLE_VALUE, webservices/WS_READ_OPTION, webservices/WS_READ_OPTIONAL_POINTER, webservices/WS_READ_REQUIRED_POINTER, webservices/WS_READ_REQUIRED_VALUE, wsw.ws_read_option
 ms.topic: enum

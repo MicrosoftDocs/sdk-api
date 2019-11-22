@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilFindLongProperty
 title: ResUtilFindLongProperty function (resapi.h)
-author: windows-sdk-content
+
 description: Locates a signed long property value in a property list. The PRESUTIL_FIND_LONG_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindlongproperty.htm
 tech.root: MsCS
 ms.assetid: 6f75be85-37ef-4e2b-a588-bc1238cd8760
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY function [Failover Cluster], ResUtilFindLongProperty, ResUtilFindLongProperty function [Failover Cluster], _wolf_resutilfindlongproperty, mscs.resutilfindlongproperty, resapi/PRESUTIL_FIND_LONG_PROPERTY, resapi/ResUtilFindLongProperty
 ms.topic: function

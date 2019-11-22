@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(XMBYTE2 &&)
 title: XMBYTE2::XMBYTE2(XMBYTE2 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMBYTE2.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMBYTE2, XMBYTE2 constructor [DirectX Math Support APIs], XMBYTE2 constructor [DirectX Math Support APIs],XMBYTE2 structure, XMBYTE2 structure [DirectX Math Support APIs],XMBYTE2 constructor, XMBYTE2.XMBYTE2, XMBYTE2.XMBYTE2(), XMBYTE2.XMBYTE2(XMBYTE2 &&), XMBYTE2::XMBYTE2, XMBYTE2::XMBYTE2(XMBYTE2 &&), dxmath.xmbyte2_ctor_1
 ms.topic: method

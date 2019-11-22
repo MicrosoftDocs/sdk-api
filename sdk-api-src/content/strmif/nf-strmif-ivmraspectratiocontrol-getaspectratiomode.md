@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRAspectRatioControl.GetAspectRatioMode
 title: IVMRAspectRatioControl::GetAspectRatioMode (strmif.h)
-author: windows-sdk-content
+
 description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: baecb2a1-e7d8-43ee-ac7d-d2dcf50cb594
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, IVMRAspectRatioControl interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl.GetAspectRatioMode, IVMRAspectRatioControl::GetAspectRatioMode, IVMRAspectRatioControlGetAspectRatioMode, dshow.ivmraspectratiocontrol_getaspectratiomode, strmif/IVMRAspectRatioControl::GetAspectRatioMode
 ms.topic: method

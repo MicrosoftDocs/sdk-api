@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateBooleanArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-author: windows-sdk-content
+
 description: Creates a new IPropertyValue object that contains the specified array of 8-bit Boolean values.
 old-location: winrt\ipropertyvaluestatics_createbooleanarray.htm
 tech.root: WinRT
 ms.assetid: 54289d10-8393-4c49-9087-873519b32aa8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBooleanArray, CreateBooleanArray method [Windows Runtime], CreateBooleanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBooleanArray method, IPropertyValueStatics.CreateBooleanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBooleanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBooleanArray, winrt.ipropertyvaluefactory_createbooleanarray, winrt.ipropertyvaluestatics_createbooleanarray
 ms.topic: method

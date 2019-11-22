@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3helper.GradientMeshPatch
 title: GradientMeshPatch function (d2d1_3helper.h)
-author: windows-sdk-content
+
 description: Creates a D2D1_GRADIENT_MESH_PATCH structure that contains the given control points, colors, and boundary flags.
 old-location: direct2d\gradientmeshpatch.htm
 tech.root: Direct2D
 ms.assetid: 78d2af9d-e158-29ce-ea6e-67b2d22925a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GradientMeshPatch, GradientMeshPatch function [Direct2D], d2d1_3helper/GradientMeshPatch, direct2d.gradientmeshpatch
 ms.topic: function

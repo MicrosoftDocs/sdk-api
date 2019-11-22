@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Equals
 title: Matrix::Equals (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: The Matrix::Equals method determines whether the elements of this matrix are equal to the elements of another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Equals_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\equals.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Matrix class, Matrix class [GDI+],Equals method, Matrix.Equals, Matrix::Equals, _gdiplus_CLASS_Matrix_Equals_matrix_, gdiplus._gdiplus_CLASS_Matrix_Equals_matrix_
 ms.topic: method

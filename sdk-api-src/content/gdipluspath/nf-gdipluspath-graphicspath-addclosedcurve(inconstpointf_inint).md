@@ -3,7 +3,7 @@ UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(IN const PointF,IN INT)
 title: GraphicsPath::AddClosedCurve
 description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
 ms.assetid: cd2aaebd-da69-4664-ae8b-c559bb510913
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddClosedCurve
 ms.topic: language-reference

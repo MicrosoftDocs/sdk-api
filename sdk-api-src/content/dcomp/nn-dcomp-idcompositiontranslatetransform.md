@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionTranslateTransform
 title: IDCompositionTranslateTransform (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a 2D transformation that affects only the offset of a visual along the x-axis and y-axis.
 old-location: directcomp\idcompositiontranslatetransform.htm
 tech.root: directcomp
 ms.assetid: 2215721e-a10d-4c9e-b5b7-1698afa547d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform, IDCompositionTranslateTransform interface [DirectComposition], IDCompositionTranslateTransform interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform, directcomp.idcompositiontranslatetransform
 ms.topic: interface

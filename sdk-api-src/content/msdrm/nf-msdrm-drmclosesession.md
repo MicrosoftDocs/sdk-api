@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMCloseSession
 title: DRMCloseSession function (msdrm.h)
-author: windows-sdk-content
+
 description: Closes a client session or a license storage session.
 old-location: rm\drmclosesession.htm
 tech.root: AdRms_Sdk
 ms.assetid: e948b31f-382c-4a32-8cc3-98df8c4a6db0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMCloseSession, DRMCloseSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseSession, rm.drmclosesession
 ms.topic: function

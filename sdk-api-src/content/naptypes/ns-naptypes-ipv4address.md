@@ -1,12 +1,12 @@
 ---
 UID: NS:naptypes.tagIpv4Address
 title: Ipv4Address (naptypes.h)
-author: windows-sdk-content
+
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm
 tech.root: NAP
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address
 ms.topic: struct

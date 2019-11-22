@@ -1,12 +1,12 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.OnAuthenticated
 title: IWorkspaceScriptable::OnAuthenticated (workspaceruntime.h)
-author: windows-sdk-content
+
 description: Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area.
 old-location: termserv\iworkspacescriptable_onauthenticated.htm
 tech.root: TermServ
 ms.assetid: 4675fa5b-ea73-4046-a7f9-0b237bd283df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],OnAuthenticated method, IWorkspaceScriptable.OnAuthenticated, IWorkspaceScriptable2 interface [Remote Desktop Services],OnAuthenticated method, IWorkspaceScriptable2::OnAuthenticated, IWorkspaceScriptable3 interface [Remote Desktop Services],OnAuthenticated method, IWorkspaceScriptable3::OnAuthenticated, IWorkspaceScriptable::OnAuthenticated, OnAuthenticated, OnAuthenticated method [Remote Desktop Services], OnAuthenticated method [Remote Desktop Services],IWorkspaceScriptable interface, OnAuthenticated method [Remote Desktop Services],IWorkspaceScriptable2 interface, OnAuthenticated method [Remote Desktop Services],IWorkspaceScriptable3 interface, OnAuthenticated method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],OnAuthenticated method, termserv.iworkspacescriptable_onauthenticated, workspaceruntime/IWorkspaceScriptable2::OnAuthenticated, workspaceruntime/IWorkspaceScriptable3::OnAuthenticated, workspaceruntime/IWorkspaceScriptable::OnAuthenticated
 ms.topic: method

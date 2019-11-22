@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_FriendlyName
 title: IWdsTransportNamespace::put_FriendlyName (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the user-friendly name of the namespace.
 old-location: wds\iwdstransportnamespace_friendlyname.htm
 tech.root: wds
 ms.assetid: 09964bb7-fddb-48e2-891a-d1f2fd8763eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Windows Deployment Services], FriendlyName property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],FriendlyName property, IWdsTransportNamespace.FriendlyName, IWdsTransportNamespace.put_FriendlyName, IWdsTransportNamespace::FriendlyName, IWdsTransportNamespace::get_FriendlyName, IWdsTransportNamespace::put_FriendlyName, put_FriendlyName, wds.iwdstransportnamespace_friendlyname, wdstptmgmt/IWdsTransportNamespace::FriendlyName, wdstptmgmt/IWdsTransportNamespace::get_FriendlyName, wdstptmgmt/IWdsTransportNamespace::put_FriendlyName
 ms.topic: method

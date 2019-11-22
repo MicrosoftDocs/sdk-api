@@ -1,12 +1,12 @@
 ---
 UID: NF:heapapi.HeapSize
 title: HeapSize function (heapapi.h)
-author: windows-sdk-content
+
 description: Retrieves the size of a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapsize.htm
 tech.root: Memory
 ms.assetid: a8fcfd99-7b04-4aa3-8619-272b254551a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnEndCleanupContext
 title: ITfCleanupContextDurationSink::OnEndCleanupContext (msctf.h)
-author: windows-sdk-content
+
 description: ITfCleanupContextDurationSink::OnEndCleanupContext method
 old-location: tsf\itfcleanupcontextdurationsink_onendcleanupcontext.htm
 tech.root: TSF
 ms.assetid: d7af4584-9c77-40cd-a83d-7b6fd3945b17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnEndCleanupContext method, ITfCleanupContextDurationSink.OnEndCleanupContext, ITfCleanupContextDurationSink::OnEndCleanupContext, OnEndCleanupContext, OnEndCleanupContext method [Text Services Framework], OnEndCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onendcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnEndCleanupContext, tsf.itfcleanupcontextdurationsink_onendcleanupcontext
 ms.topic: method

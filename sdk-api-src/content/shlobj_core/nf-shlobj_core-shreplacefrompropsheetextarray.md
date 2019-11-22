@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHReplaceFromPropSheetExtArray
 title: SHReplaceFromPropSheetExtArray function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement.
 old-location: shell\SHReplaceFromPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.topic: function

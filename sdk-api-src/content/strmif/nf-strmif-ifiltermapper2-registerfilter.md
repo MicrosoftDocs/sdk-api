@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IFilterMapper2.RegisterFilter
 title: IFilterMapper2::RegisterFilter (strmif.h)
-author: windows-sdk-content
+
 description: The RegisterFilter method adds filter information to the registry.
 old-location: dshow\ifiltermapper2_registerfilter.htm
 tech.root: DirectShow
 ms.assetid: 773e527e-2174-4f74-a822-549cfe2927a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],RegisterFilter method, IFilterMapper2.RegisterFilter, IFilterMapper2::RegisterFilter, IFilterMapper2RegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_registerfilter, strmif/IFilterMapper2::RegisterFilter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineInitialize
 title: lineInitialize function (tapi.h)
-author: windows-sdk-content
+
 description: The lineInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using API versions 1.3 and 1.4.
 old-location: tapi2\lineinitialize.htm
 tech.root: Tapi
 ms.assetid: 4b406f19-be9b-4130-91a7-5fdfa56f7fc3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineinitialize, lineInitialize, lineInitialize function [TAPI 2.2], tapi/lineInitialize, tapi2.lineinitialize"
 ms.topic: function

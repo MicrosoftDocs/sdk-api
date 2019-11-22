@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC
 title: CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of an uninitialized CD3D11_TEXTURE3D_DESC structure.
 old-location: 
 tech.root: direct3d11
 ms.assetid: 8137654F-78A4-4FFF-B683-05ADD017F90A
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC interface [Direct3D 11],CD3D11_TEXTURE3D_DESC method, CD3D11_TEXTURE3D_DESC method [Direct3D 11], CD3D11_TEXTURE3D_DESC method [Direct3D 11],CD3D11_TEXTURE3D_DESC interface, CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC&), d3d11/CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC, direct3d11.cd3d11_texture3d_desc_cd3d11_texture3d_desc_d3d11_texture3d_desc_
 ms.topic: method

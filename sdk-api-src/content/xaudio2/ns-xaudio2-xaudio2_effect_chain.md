@@ -1,12 +1,12 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_CHAIN
 title: XAUDIO2_EFFECT_CHAIN (xaudio2.h)
-author: windows-sdk-content
+
 description: Defines an effect chain.
 old-location: xaudio2\xaudio2_effect_chain.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_CHAIN
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_EFFECT_CHAIN, XAUDIO2_EFFECT_CHAIN structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_effect_chain, xaudio2/XAUDIO2_EFFECT_CHAIN
 ms.topic: struct

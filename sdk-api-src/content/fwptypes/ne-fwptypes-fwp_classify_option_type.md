@@ -1,12 +1,12 @@
 ---
 UID: NE:fwptypes.FWP_CLASSIFY_OPTION_TYPE_
 title: FWP_CLASSIFY_OPTION_TYPE (fwptypes.h)
-author: windows-sdk-content
+
 description: The FWP_CLASSIFY_OPTION_TYPE enumerated type is used by callouts and shims during run-time classification.FWP_CLASSIFY_OPTION_TYPE specifies timeout options for unicast, multicast, and loose source mapping states and enables blocking or permission of state creation on outbound multicast and broadcast traffic.
 old-location: fwp\fwp_classify_option_type.htm
 tech.root: fwp
 ms.assetid: 5c757bf6-a4ea-42f0-ad87-74855703a041
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING, FWP_CLASSIFY_OPTION_MAX, FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME, FWP_CLASSIFY_OPTION_MULTICAST_STATE, FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_MM_POLICY_KEY, FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_QM_POLICY_KEY, FWP_CLASSIFY_OPTION_SECURE_SOCKET_SECURITY_FLAGS, FWP_CLASSIFY_OPTION_TYPE, FWP_CLASSIFY_OPTION_TYPE enumeration [Filtering], FWP_CLASSIFY_OPTION_UNICAST_LIFETIME, fwp.fwp_classify_option_type, fwptypes/FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING, fwptypes/FWP_CLASSIFY_OPTION_MAX, fwptypes/FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME, fwptypes/FWP_CLASSIFY_OPTION_MULTICAST_STATE, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_MM_POLICY_KEY, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_QM_POLICY_KEY, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_SECURITY_FLAGS, fwptypes/FWP_CLASSIFY_OPTION_TYPE, fwptypes/FWP_CLASSIFY_OPTION_UNICAST_LIFETIME
 ms.topic: enum

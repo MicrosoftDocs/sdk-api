@@ -1,12 +1,12 @@
 ---
 UID: NE:msinkaut.InkRasterOperation
 title: InkRasterOperation (msinkaut.h)
-author: windows-sdk-content
+
 description: Defines values for performing raster operations on drawn ink.
 old-location: tablet\inkrasteroperation.htm
 tech.root: tablet
 ms.assetid: 34403724-b883-4c03-8784-fe8f205d3da6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 34403724-b883-4c03-8784-fe8f205d3da6, IRO_Black, IRO_CopyPen, IRO_MaskNotPen, IRO_MaskPen, IRO_MaskPenNot, IRO_MergeNotPen, IRO_MergePen, IRO_MergePenNot, IRO_NoOperation, IRO_Not, IRO_NotCopyPen, IRO_NotMaskPen, IRO_NotMergePen, IRO_NotXOrPen, IRO_White, IRO_XOrPen, InkRasterOperation, InkRasterOperation enumeration [Tablet PC], msinkaut/IRO_Black, msinkaut/IRO_CopyPen, msinkaut/IRO_MaskNotPen, msinkaut/IRO_MaskPen, msinkaut/IRO_MaskPenNot, msinkaut/IRO_MergeNotPen, msinkaut/IRO_MergePen, msinkaut/IRO_MergePenNot, msinkaut/IRO_NoOperation, msinkaut/IRO_Not, msinkaut/IRO_NotCopyPen, msinkaut/IRO_NotMaskPen, msinkaut/IRO_NotMergePen, msinkaut/IRO_NotXOrPen, msinkaut/IRO_White, msinkaut/IRO_XOrPen, msinkaut/InkRasterOperation, tablet.inkrasteroperation
 ms.topic: enum

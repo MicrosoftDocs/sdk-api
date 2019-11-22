@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkDisp.GetBoundingBox
 title: IInkDisp::GetBoundingBox (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or an InkStrokes collection.
 old-location: tablet\inkdisp_getboundingbox.htm
 tech.root: tablet
 ms.assetid: 5b60188e-3e4b-421a-9e34-3f6f2a70a71a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],GetBoundingBox method, IInkDisp.GetBoundingBox, IInkDisp::GetBoundingBox, msinkaut/IInkDisp::GetBoundingBox, tablet.inkdisp_getboundingbox
 ms.topic: method

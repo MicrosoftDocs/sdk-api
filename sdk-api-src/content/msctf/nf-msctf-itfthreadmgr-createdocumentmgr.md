@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfThreadMgr.CreateDocumentMgr
 title: ITfThreadMgr::CreateDocumentMgr (msctf.h)
-author: windows-sdk-content
+
 description: ITfThreadMgr::CreateDocumentMgr method
 old-location: tsf\itfthreadmgr_createdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 0f90a359-61e7-46e5-9d0b-ab6fe24f3136
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr.CreateDocumentMgr, ITfThreadMgr::CreateDocumentMgr, _tsf_itfthreadmgr_createdocumentmgr_ref, msctf/ITfThreadMgr::CreateDocumentMgr, tsf.itfthreadmgr_createdocumentmgr
 ms.topic: method

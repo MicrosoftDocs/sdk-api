@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetBestInterface
 title: GetBestInterface function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetBestInterface function retrieves the index of the interface that has the best route to the specified IPv4 address.
 old-location: iphlp\getbestinterface.htm
 tech.root: IpHlp
 ms.assetid: 9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBestInterface, GetBestInterface function [IP Helper], _iphlp_getbestinterface, iphlp.getbestinterface, iphlpapi/GetBestInterface
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Next
 title: IEnumTfPropertyValue::Next (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfPropertyValue::Next method
 old-location: tsf\ienumtfpropertyvalue_next.htm
 tech.root: TSF
 ms.assetid: b0fe154c-df33-443d-95a2-f41e7b02def8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Next method, IEnumTfPropertyValue.Next, IEnumTfPropertyValue::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_next_ref, msctf/IEnumTfPropertyValue::Next, tsf.ienumtfpropertyvalue_next
 ms.topic: method

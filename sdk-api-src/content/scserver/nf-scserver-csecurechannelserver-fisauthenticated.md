@@ -1,12 +1,12 @@
 ---
 UID: NF:scserver.CSecureChannelServer.fIsAuthenticated
 title: CSecureChannelServer::fIsAuthenticated (scserver.h)
-author: windows-sdk-content
+
 description: The fIsAuthenticated method verifies that a Secure Authenticated Channel has been successfully established.
 old-location: wmdm\csecurechannelserver_fisauthenticated.htm
 tech.root: WMDM
 ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
 ms.topic: method

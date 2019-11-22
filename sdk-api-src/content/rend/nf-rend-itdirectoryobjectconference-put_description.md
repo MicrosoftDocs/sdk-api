@@ -1,12 +1,12 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Description
 title: ITDirectoryObjectConference::put_Description (rend.h)
-author: windows-sdk-content
+
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm
 tech.root: Tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Description method, ITDirectoryObjectConference.put_Description, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
 ms.topic: method

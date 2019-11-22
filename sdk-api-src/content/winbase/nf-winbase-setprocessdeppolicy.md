@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.SetProcessDEPPolicy
 title: SetProcessDEPPolicy function (winbase.h)
-author: windows-sdk-content
+
 description: Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
 old-location: base\setprocessdeppolicy.htm
 tech.root: Memory
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
 ms.topic: function

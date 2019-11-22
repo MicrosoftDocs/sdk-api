@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGraphOpen
 title: PeerGraphOpen function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGraphOpen function opens a peer graph that is created previously by either the local node or a remote node. A handle to the peer graph is returned, but a network connection is not established.
 old-location: p2p\peergraphopen.htm
 tech.root: P2PSdk
 ms.assetid: a34656f1-3e29-4bcb-a8a7-0eed19368184
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGraphOpen, PeerGraphOpen function [Peer Networking], p2p.peergraphopen, p2p/PeerGraphOpen
 ms.topic: function

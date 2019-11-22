@@ -1,12 +1,12 @@
 ---
 UID: NF:virtdisk.BreakMirrorVirtualDisk
 title: BreakMirrorVirtualDisk function (virtdisk.h)
-author: windows-sdk-content
+
 description: Breaks a previously initiated mirror operation and sets the mirror to be the active virtual disk.
 old-location: vhd\breakmirrorvirtualdisk.htm
 tech.root: VStor
 ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
 ms.topic: function

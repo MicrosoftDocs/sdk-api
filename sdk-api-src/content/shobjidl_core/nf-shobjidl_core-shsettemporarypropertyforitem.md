@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.SHSetTemporaryPropertyForItem
 title: SHSetTemporaryPropertyForItem function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Sets a temporary property for the specified item. A temporary property is kept in a read/write store that holds properties only for the lifetime of the IShellItem object, instead of writing them back into the item.
 old-location: shell\SHSetTemporaryPropertyForItem.htm
 tech.root: shell
 ms.assetid: 779b1b2e-cd4b-404f-9d50-ac87b81640d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem function [Windows Shell], _shell_SHSetTemporaryPropertyForItem, shell.SHSetTemporaryPropertyForItem, shobjidl_core/SHSetTemporaryPropertyForItem
 ms.topic: function

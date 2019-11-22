@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT (d3d11.h)
-author: windows-sdk-content
+
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES query.
 old-location: mf\d3d11_authenticated_query_accessibility_output.htm
 tech.root: medfound
 ms.assetid: 1E2EBE2C-3749-47B5-B7A8-3EAE371981DB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, mf.d3d11_authenticated_query_accessibility_output
 ms.topic: struct

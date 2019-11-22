@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmSetIconicLivePreviewBitmap
 title: DwmSetIconicLivePreviewBitmap function (dwmapi.h)
-author: windows-sdk-content
+
 description: Sets a static, iconic bitmap to display a live preview (also known as a Peek preview) of a window or tab. The taskbar can use this bitmap to show a full-sized preview of a window or tab.
 old-location: dwm\dwmseticoniclivepreviewbitmap.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLivePreviewBitmap function [Desktop Window Manager], _udwm_dwmseticoniclivepreviewbitmap, _udwm_dwmseticoniclivepreviewbitmap_cpp, dwm.dwmseticoniclivepreviewbitmap, dwmapi/DwmSetIconicLivePreviewBitmap, winui._udwm_dwmseticoniclivepreviewbitmap
 ms.topic: function

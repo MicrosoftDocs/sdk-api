@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_2.ID2D1DeviceContext1.DrawGeometryRealization
 title: ID2D1DeviceContext1::DrawGeometryRealization (d2d1_2.h)
-author: windows-sdk-content
+
 description: Renders a given geometry realization to the target with the specified brush.
 old-location: direct2d\id2d1devicecontext1_drawgeometryrealization.htm
 tech.root: Direct2D
 ms.assetid: BA4FB8E7-E59A-42BD-86BB-8048267A26AA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawGeometryRealization, DrawGeometryRealization method [Direct2D], DrawGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],DrawGeometryRealization method, ID2D1DeviceContext1.DrawGeometryRealization, ID2D1DeviceContext1::DrawGeometryRealization, d2d1_2/ID2D1DeviceContext1::DrawGeometryRealization, direct2d.id2d1devicecontext1_drawgeometryrealization
 ms.topic: method

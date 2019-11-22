@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_PhoneHandlingEnabled
 title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled (tapi3if.h)
-author: windows-sdk-content
+
 description: The put_PhoneHandlingEnabled method sets the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_put_phonehandlingenabled.htm
 tech.root: Tapi
 ms.assetid: 6759b811-2fc1-4827-a03e-d19335520829
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_PhoneHandlingEnabled method, ITAutomatedPhoneControl.put_PhoneHandlingEnabled, ITAutomatedPhoneControl::put_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_put_phonehandlingenabled, put_PhoneHandlingEnabled, put_PhoneHandlingEnabled method [TAPI 2.2], put_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::put_PhoneHandlingEnabled
 ms.topic: method

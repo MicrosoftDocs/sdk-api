@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleControlSite.OnFocus
 title: IOleControlSite::OnFocus (ocidl.h)
-author: windows-sdk-content
+
 description: Indicates whether the control managed by this control site has gained or lost the focus.
 old-location: com\iolecontrolsite_onfocus.htm
 tech.root: com
 ms.assetid: 22869326-2815-49cb-8d03-14dca5d45689
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],OnFocus method, IOleControlSite.OnFocus, IOleControlSite::OnFocus, OnFocus, OnFocus method [COM], OnFocus method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_onfocus, com.iolecontrolsite_onfocus, ocidl/IOleControlSite::OnFocus
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Asynchronously gets a DevicePair of devices that are on the same network interface.
 old-location: mediastreaming\iactivebasicdevicestatics_getdevicesonmatchingnetworkasync.htm
 tech.root: mediastreaming
 ms.assetid: 9BE3BBD1-F3D3-4EAF-9125-B82AE0DE48AA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDevicesOnMatchingNetworkAsync, GetDevicesOnMatchingNetworkAsync method [Media Streaming API], GetDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],GetDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_getdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync
 ms.topic: method

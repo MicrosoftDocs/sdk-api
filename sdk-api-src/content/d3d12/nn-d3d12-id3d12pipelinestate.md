@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12PipelineState
 title: ID3D12PipelineState (d3d12.h)
-author: windows-sdk-content
+
 description: Represents the state of all currently set shaders as well as certain fixed function state objects.
 old-location: direct3d12\id3d12pipelinestate.htm
 tech.root: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
 ms.topic: interface

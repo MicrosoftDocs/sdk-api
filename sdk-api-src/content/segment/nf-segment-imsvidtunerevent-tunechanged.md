@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidTunerEvent.TuneChanged
 title: IMSVidTunerEvent::TuneChanged (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent_tunechanged.htm
 tech.root: mstv
 ms.assetid: 5fc30a5a-b934-4c75-9cc8-5a039843ebe8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidTunerEvent interface [Microsoft TV Technologies],TuneChanged method, IMSVidTunerEvent.TuneChanged, IMSVidTunerEvent::TuneChanged, IMSVidTunerEventTuneChanged, TuneChanged, TuneChanged method [Microsoft TV Technologies], TuneChanged method [Microsoft TV Technologies],IMSVidTunerEvent interface, mstv.imsvidtunerevent_tunechanged, segment/IMSVidTunerEvent::TuneChanged
 ms.topic: method

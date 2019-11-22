@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.WriteQWORD
 title: IWbemObjectAccess::WriteQWORD (wbemcli.h)
-author: windows-sdk-content
+
 description: The WriteQWORD method writes 64 bits of data to a property by using a property handle.
 old-location: wmi\iwbemobjectaccess_writeqword.htm
 tech.root: WmiSdk
 ms.assetid: f0d098b7-06f4-4a0a-8db9-fa1ef9be4468
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteQWORD method, IWbemObjectAccess.WriteQWORD, IWbemObjectAccess::WriteQWORD, WriteQWORD, WriteQWORD method [Windows Management Instrumentation], WriteQWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writeqword, wbemcli/IWbemObjectAccess::WriteQWORD, wmi.iwbemobjectaccess_writeqword
 ms.topic: method

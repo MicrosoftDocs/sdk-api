@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetCurrentParameterSet
 title: IWICDevelopRaw::GetCurrentParameterSet (wincodec.h)
-author: windows-sdk-content
+
 description: Gets the current set of parameters.
 old-location: wic\_wic_codec_iwicdevelopraw_getcurrentparameterset.htm
 tech.root: wic
 ms.assetid: 06facc60-0d88-472d-827a-70e4006e947e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentParameterSet, GetCurrentParameterSet method [Windows Imaging Component], GetCurrentParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetCurrentParameterSet method, IWICDevelopRaw.GetCurrentParameterSet, IWICDevelopRaw::GetCurrentParameterSet, _wic_codec_iwicdevelopraw_getcurrentparameterset, wic._wic_codec_iwicdevelopraw_getcurrentparameterset, wincodec/IWICDevelopRaw::GetCurrentParameterSet
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_PARA
 title: CERT_CHAIN_PARA (wincrypt.h)
-author: windows-sdk-content
+
 description: The CERT_CHAIN_PARA structure establishes the searching and matching criteria to be used in building a certificate chain.
 old-location: security\cert_chain_para.htm
 tech.root: SecCrypto
 ms.assetid: 86094e1c-be59-4a15-a05b-21769f80e653
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_PARA, CERT_CHAIN_PARA, CERT_CHAIN_PARA structure [Security], CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG, PCERT_CHAIN_PARA, PCERT_CHAIN_PARA structure pointer [Security], _crypto2_cert_chain_para, security.cert_chain_para, wincrypt/CERT_CHAIN_PARA, wincrypt/PCERT_CHAIN_PARA'
 ms.topic: struct

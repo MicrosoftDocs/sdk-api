@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_RegistryMaxRecursiveDepth
 title: IConfigurationDataCollector::get_RegistryMaxRecursiveDepth (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the maximum number of subkeys from which to recursively collect registry values.
 old-location: pla\iconfigurationdatacollector_registrymaxrecursivedepth.htm
 tech.root: PLA
 ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector.get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, get_RegistryMaxRecursiveDepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth
 ms.topic: method

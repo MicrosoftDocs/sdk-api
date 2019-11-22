@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetEditPropertySet
 title: IAMExtTransport::SetEditPropertySet (strmif.h)
-author: windows-sdk-content
+
 description: The SetEditPropertySet method registers an edit property set that describes a group of edit properties.
 old-location: dshow\iamexttransport_seteditpropertyset.htm
 tech.root: DirectShow
 ms.assetid: 40695c7c-7381-44c0-b41f-7c838c9c83b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditPropertySet method, IAMExtTransport.SetEditPropertySet, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
 ms.topic: method

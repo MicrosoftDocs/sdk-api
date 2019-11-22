@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_DRIVE_LETTER_FLAG
 title: VDS_DRIVE_LETTER_FLAG (vds.h)
-author: windows-sdk-content
+
 description: Defines the set of valid flags for a drive letter.
 old-location: base\vds_drive_letter_flag.htm
 tech.root: VDS
 ms.assetid: f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLAG enumeration [VDS], base.vds_drive_letter_flag, vds/VDS_DLF_NON_PERSISTENT, vds/VDS_DRIVE_LETTER_FLAG
 ms.topic: enum

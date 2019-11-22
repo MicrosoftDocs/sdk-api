@@ -1,12 +1,12 @@
 ---
 UID: NF:winusb.WinUsb_ReadIsochPipe
 title: WinUsb_ReadIsochPipe function (winusb.h)
-author: windows-sdk-content
+
 description: The WinUsb_ReadIsochPipe function reads data from an isochronous OUT endpoint.
 old-location: buses\winusb_readisochpipe.htm
 tech.root: usbref
 ms.assetid: B8FE9DC4-AB3D-4389-BC2A-9572CE1C8F91
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipe, WinUsb_ReadIsochPipe function [Buses], buses.winusb_readisochpipe, winusb/WinUsb_ReadIsochPipe
 ms.topic: function

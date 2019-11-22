@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_RESIDENCY_PRIORITY
 title: D3D12_RESIDENCY_PRIORITY (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies broad residency priority buckets useful for quickly establishing an application priority scheme.
 old-location: direct3d12\d3d12_residency_priority.htm
 tech.root: direct3d12
 ms.assetid: 40A38135-D974-4A35-8859-6F9FE21FAC8D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESIDENCY_PRIORITY, D3D12_RESIDENCY_PRIORITY enumeration, D3D12_RESIDENCY_PRIORITY_HIGH, D3D12_RESIDENCY_PRIORITY_LOW, D3D12_RESIDENCY_PRIORITY_MAXIMUM, D3D12_RESIDENCY_PRIORITY_MINIMUM, D3D12_RESIDENCY_PRIORITY_NORMAL, d3d12/D3D12_RESIDENCY_PRIORITY, d3d12/D3D12_RESIDENCY_PRIORITY_HIGH, d3d12/D3D12_RESIDENCY_PRIORITY_LOW, d3d12/D3D12_RESIDENCY_PRIORITY_MAXIMUM, d3d12/D3D12_RESIDENCY_PRIORITY_MINIMUM, d3d12/D3D12_RESIDENCY_PRIORITY_NORMAL, direct3d12.d3d12_residency_priority
 ms.topic: enum

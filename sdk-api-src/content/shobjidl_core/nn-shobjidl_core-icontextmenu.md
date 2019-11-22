@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IContextMenu
 title: IContextMenu (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that either create or merge a shortcut menu associated with a Shell object.
 old-location: shell\IContextMenu.htm
 tech.root: shell
 ms.assetid: 6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu interface [Windows Shell],described, _win32_IContextMenu, _win32_icontextmenu_cpp, shell.IContextMenu, shobjidl_core/IContextMenu
 ms.topic: interface

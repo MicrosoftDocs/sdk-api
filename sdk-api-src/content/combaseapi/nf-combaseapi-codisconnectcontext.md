@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoDisconnectContext
 title: CoDisconnectContext function (combaseapi.h)
-author: windows-sdk-content
+
 description: Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 old-location: com\codisconnectcontext.htm
 tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.topic: function

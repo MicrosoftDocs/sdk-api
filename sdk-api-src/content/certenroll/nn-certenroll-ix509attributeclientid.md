@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.IX509AttributeClientId
 title: IX509AttributeClientId (certenroll.h)
-author: windows-sdk-content
+
 description: Represents an attribute that can be used to identify the client that generated a certificate request.
 old-location: security\ix509attributeclientid.htm
 tech.root: seccertenroll
 ms.assetid: 82b773e3-7d47-4c85-a6b3-c8ef3e67630a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], IX509AttributeClientId interface [Security],described, certenroll/IX509AttributeClientId, security.ix509attributeclientid
 ms.topic: interface

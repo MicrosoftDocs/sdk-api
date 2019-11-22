@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantToDoubleWithDefault
 title: VariantToDoubleWithDefault function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts a DOUBLE value from a VARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToDoubleWithDefault.htm
 tech.root: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
 ms.topic: function

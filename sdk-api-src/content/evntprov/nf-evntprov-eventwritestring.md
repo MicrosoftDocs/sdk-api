@@ -1,12 +1,12 @@
 ---
 UID: NF:evntprov.EventWriteString
 title: EventWriteString function (evntprov.h)
-author: windows-sdk-content
+
 description: Writes an event that contains a string as its data.
 old-location: etw\eventwritestring_func.htm
 tech.root: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
 ms.topic: function

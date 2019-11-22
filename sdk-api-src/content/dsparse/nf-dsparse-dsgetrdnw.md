@@ -1,12 +1,12 @@
 ---
 UID: NF:dsparse.DsGetRdnW
 title: DsGetRdnW function (dsparse.h)
-author: windows-sdk-content
+
 description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
 old-location: ad\dsgetrdnw.htm
 tech.root: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
 ms.topic: function

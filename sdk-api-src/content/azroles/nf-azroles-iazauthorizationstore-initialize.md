@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Initialize
 title: IAzAuthorizationStore::Initialize (azroles.h)
-author: windows-sdk-content
+
 description: Initializes the authorization manager.
 old-location: security\azauthorizationstore_initialize.htm
 tech.root: SecAuthZ
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security],Initialize method, IAzAuthorizationStore interface [Security],Initialize method, IAzAuthorizationStore.Initialize, IAzAuthorizationStore::Initialize, Initialize, Initialize method [Security], Initialize method [Security],AzAuthorizationStore object, Initialize method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetErrorCode
 title: ISettingsResult::GetErrorCode (wcmconfig.h)
-author: windows-sdk-content
+
 description: Returns the HRESULT error code value.
 old-location: smi\isettingsresult_geterrorcode.htm
 tech.root: SMI
 ms.assetid: c0044133-480e-4b40-ad3f-b3d65e259029
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
 ms.topic: method

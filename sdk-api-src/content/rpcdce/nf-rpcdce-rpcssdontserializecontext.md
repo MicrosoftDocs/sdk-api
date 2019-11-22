@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcSsDontSerializeContext
 title: RpcSsDontSerializeContext function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcSsDontSerializeContext function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle.
 old-location: rpc\rpcssdontserializecontext.htm
 tech.root: Rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
 ms.topic: function

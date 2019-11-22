@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsPrintQueue
 title: IADsPrintQueue (iads.h)
-author: windows-sdk-content
+
 description: The IADsPrintQueue interface represents a printer on a network.
 old-location: adsi\iadsprintqueue.htm
 tech.root: adsi
 ms.assetid: 2ea956b0-fb8f-4ffb-8741-8d98ad05d783
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueue, IADsPrintQueue interface [ADSI], IADsPrintQueue interface [ADSI],described, _ds_iadsprintqueue, adsi.iadsprintqueue, iads/IADsPrintQueue
 ms.topic: interface

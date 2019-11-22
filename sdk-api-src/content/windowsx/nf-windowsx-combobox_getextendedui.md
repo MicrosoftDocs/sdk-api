@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ComboBox_GetExtendedUI
 title: ComboBox_GetExtendedUI macro (windowsx.h)
-author: windows-sdk-content
+
 description: Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the CB_GETEXTENDEDUI message explicitly.
 old-location: controls\ComboBox_GetExtendedUI.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getextendedui.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetExtendedUI, ComboBox_GetExtendedUI macro [Windows Controls], _win32_ComboBox_GetExtendedUI, _win32_ComboBox_GetExtendedUI_cpp, controls.ComboBox_GetExtendedUI, controls._win32_ComboBox_GetExtendedUI, windowsx/ComboBox_GetExtendedUI
 ms.topic: macro

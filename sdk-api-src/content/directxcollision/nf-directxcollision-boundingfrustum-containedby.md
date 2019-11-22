@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.ContainedBy
 title: BoundingFrustum::ContainedBy
-author: windows-sdk-content
+
 description: Tests whether the BoundingFrustum is contained by the specified frustum.
 old-location: dxmath\boundingfrustum_containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],ContainedBy method, BoundingFrustum.ContainedBy, BoundingFrustum::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_containedby
 ms.topic: method

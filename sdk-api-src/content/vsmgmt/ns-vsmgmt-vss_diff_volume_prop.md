@@ -1,12 +1,12 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_VOLUME_PROP
 title: VSS_DIFF_VOLUME_PROP (vsmgmt.h)
-author: windows-sdk-content
+
 description: Describes a shadow copy storage area volume.
 old-location: base\vss_diff_volume_prop.htm
 tech.root: VSS
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP"
 ms.topic: struct

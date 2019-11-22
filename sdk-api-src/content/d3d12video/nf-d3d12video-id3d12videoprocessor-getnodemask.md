@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessor.GetNodeMask
 title: ID3D12VideoProcessor::GetNodeMask
-author: windows-sdk-content
+
 description: Gets the node mask provided when the video processor was created with a call to ID3D12VideoDevice::CreateVideoProcessor.
 tech.root: mf
 ms.assetid: 824194ab-aca4-4869-88ad-7bc7651d2515
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

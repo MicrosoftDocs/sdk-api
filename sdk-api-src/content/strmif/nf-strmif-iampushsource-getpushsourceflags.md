@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMPushSource.GetPushSourceFlags
 title: IAMPushSource::GetPushSourceFlags (strmif.h)
-author: windows-sdk-content
+
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
 old-location: dshow\iampushsource_getpushsourceflags.htm
 tech.root: DirectShow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
 ms.topic: method

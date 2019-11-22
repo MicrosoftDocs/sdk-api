@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsWinEventHookInstalled
 title: IsWinEventHookInstalled function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether there is an installed WinEvent hook that might be notified of a specified event.
 old-location: winauto\iswineventhookinstalled.htm
 tech.root: WinAuto
 ms.assetid: bc1e97ad-748d-420a-8c9a-72a555b685e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsWinEventHookInstalled, IsWinEventHookInstalled function [Windows Accessibility], _msaa_IsWinEventHookInstalled, msaa.iswineventhookinstalled, winauto.iswineventhookinstalled, winuser/IsWinEventHookInstalled
 ms.topic: function

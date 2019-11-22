@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.MapUserPhysicalPages
 title: MapUserPhysicalPages function (memoryapi.h)
-author: windows-sdk-content
+
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpages.htm
 tech.root: Memory
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPages, MapUserPhysicalPages function, _win32_mapuserphysicalpages, base.mapuserphysicalpages, winbase/MapUserPhysicalPages
 ms.topic: function

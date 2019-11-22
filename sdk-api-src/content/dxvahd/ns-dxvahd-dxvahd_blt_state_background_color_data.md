@@ -1,12 +1,12 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 title: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA (dxvahd.h)
-author: windows-sdk-content
+
 description: Specifies the background color for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_background_color_data.htm
 tech.root: medfound
 ms.assetid: 34b8c29e-a183-4e68-bd46-802c43d554f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, mf.dxvahd_blt_state_background_color_data
 ms.topic: struct

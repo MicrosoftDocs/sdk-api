@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Remove
 title: ISensorCollection::Remove (sensorsapi.h)
-author: windows-sdk-content
+
 description: Removes a sensor from the collection. The sensor is specified by a pointer to the ISensor interface to be removed.
 old-location: winsensors_com_ref\isensorcollection_remove.htm
 tech.root: SensorsAPI
 ms.assetid: 9e96bae1-9ac8-41fd-99c7-3c025baf674a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove, ISensorCollection::Remove, Remove, Remove method, Remove method,ISensorCollection interface, sensorsapi/ISensorCollection::Remove, winsensors_com_ref.isensorcollection_remove
 ms.topic: method

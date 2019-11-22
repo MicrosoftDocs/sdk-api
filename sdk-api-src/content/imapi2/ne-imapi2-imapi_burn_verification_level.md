@@ -1,12 +1,12 @@
 ---
 UID: NE:imapi2._IMAPI_BURN_VERIFICATION_LEVEL
 title: IMAPI_BURN_VERIFICATION_LEVEL (imapi2.h)
-author: windows-sdk-content
+
 description: Defines values for the burn verification implemented by the IBurnVerification interface.
 old-location: imapi\imapi_burn_verification_level.htm
 tech.root: imapi
 ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK"
 ms.topic: enum

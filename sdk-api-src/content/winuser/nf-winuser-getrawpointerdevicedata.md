@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetRawPointerDeviceData
 title: GetRawPointerDeviceData function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the raw input data from the pointer device.
 old-location: input_pointerdevice\getrawpointerdevicedata.htm
 tech.root: Input_PointerDevice
 ms.assetid: 56b65cc9-9582-4c7f-81e8-0b0d45b4dc8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRawPointerDeviceData, GetRawPointerDeviceData function, input_pointerdevice.getrawpointerdevicedata, unifiedinputstack.getrawpointerdevicedata, winuser/GetRawPointerDeviceData
 ms.topic: function

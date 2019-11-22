@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceEvents
 title: IMbnInterfaceEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: This interface is a notification interface used to handle asynchronous IMbnInterface method calls as well as changes in the device state.
 old-location: mbn\imbninterfaceevents.htm
 tech.root: mbn
 ms.assetid: 3c641f14-9f53-4d69-9faa-2491189083df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], IMbnInterfaceEvents interface [Microsoft Broadband Networks],described, mbn.imbninterfaceevents, mbnapi/IMbnInterfaceEvents
 ms.topic: interface

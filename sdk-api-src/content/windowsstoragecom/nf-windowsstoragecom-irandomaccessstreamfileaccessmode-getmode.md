@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsstoragecom.IRandomAccessStreamFileAccessMode.GetMode
 title: IRandomAccessStreamFileAccessMode::GetMode (windowsstoragecom.h)
-author: windows-sdk-content
+
 description: Retrieves the file access mode that was used when the StorageFile.OpenAsync method was called to open the random-access byte stream.
 old-location: winrt\irandomaccessstreamfileaccessmode_getmode.htm
 tech.root: WinRT
 ms.assetid: F542C4E4-5B65-4909-AF08-C129297A1085
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [Windows Runtime], GetMode method [Windows Runtime],IRandomAccessStreamFileAccessMode interface, IRandomAccessStreamFileAccessMode interface [Windows Runtime],GetMode method, IRandomAccessStreamFileAccessMode.GetMode, IRandomAccessStreamFileAccessMode::GetMode, windowsstoragecom/IRandomAccessStreamFileAccessMode::GetMode, winrt.irandomaccessstreamfileaccessmode_getmode
 ms.topic: method

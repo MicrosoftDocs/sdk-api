@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_Email
 title: IFaxSender::put_Email (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxSender::get_Email property is a null-terminated string that contains the email address associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_email_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_21ik.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Email property [Fax Service], Email property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Email property, IFaxSender.Email, IFaxSender.get_Email, IFaxSender.put_Email, IFaxSender::Email, IFaxSender::get_Email, IFaxSender::put_Email, _mfax_faxsender.email, fax._mfax_faxsender_cpp_mfax_faxsender_email_cpp, fax._mfax_faxsender_email, faxcomex/IFaxSender::Email, faxcomex/IFaxSender::get_Email, faxcomex/IFaxSender::put_Email, put_Email
 ms.topic: method

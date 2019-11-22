@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetAt
 title: IXpsOMDashCollection::GetAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 70749e4c-1f67-41e8-9def-85d38493c099
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDashCollection.GetAt, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
 ms.topic: method

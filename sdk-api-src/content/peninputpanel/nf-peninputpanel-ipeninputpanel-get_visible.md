@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Visible
 title: IPenInputPanel::get_Visible (peninputpanel.h)
-author: windows-sdk-content
+
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the PenInputPanel object is visible.
 old-location: tablet\peninputpanel_visible.htm
 tech.root: tablet
 ms.assetid: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7, IPenInputPanel interface [Tablet PC],Visible property, IPenInputPanel.Visible, IPenInputPanel.get_Visible, IPenInputPanel::Visible, IPenInputPanel::get_Visible, IPenInputPanel::putref_Visible, PenInputPanel.get_Visible, Visible property [Tablet PC], Visible property [Tablet PC],IPenInputPanel interface, get_Visible, peninputpanel/IPenInputPanel::Visible, peninputpanel/IPenInputPanel::get_Visible, peninputpanel/IPenInputPanel::putref_Visible, put_Visible, tablet.peninputpanel_visible
 ms.topic: method

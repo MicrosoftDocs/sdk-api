@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CLSIDFromProgIDEx
 title: CLSIDFromProgIDEx function (objbase.h)
-author: windows-sdk-content
+
 description: Triggers automatic installation if the COMClassStore policy is enabled.
 old-location: com\clsidfromprogidex.htm
 tech.root: com
 ms.assetid: 2f937ac1-b214-482a-af4b-8cc8c0c585c3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
 ms.topic: function

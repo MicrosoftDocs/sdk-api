@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Clone
 title: IEnumTfContexts::Clone (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfContexts::Clone method
 old-location: tsf\ienumtfcontexts_clone.htm
 tech.root: TSF
 ms.assetid: 9e9486b7-5251-41b9-b36c-36a0d6dfaf5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfContexts interface, IEnumTfContexts interface [Text Services Framework],Clone method, IEnumTfContexts.Clone, IEnumTfContexts::Clone, _tsf_ienumtfcontexts_clone_ref, msctf/IEnumTfContexts::Clone, tsf.ienumtfcontexts_clone
 ms.topic: method

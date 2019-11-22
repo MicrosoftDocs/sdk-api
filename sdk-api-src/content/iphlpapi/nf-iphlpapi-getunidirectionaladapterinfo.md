@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetUniDirectionalAdapterInfo
 title: GetUniDirectionalAdapterInfo function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetUniDirectionalAdapterInfo function retrieves information about the unidirectional adapters installed on the local computer. A unidirectional adapter is an adapter that can receive datagrams, but not transmit them.
 old-location: iphlp\getunidirectionaladapterinfo.htm
 tech.root: IpHlp
 ms.assetid: 32aa3a8e-ae74-4da9-bc8d-b28e270d9702
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
 ms.topic: function

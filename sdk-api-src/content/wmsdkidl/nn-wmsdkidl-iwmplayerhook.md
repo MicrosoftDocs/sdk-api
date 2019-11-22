@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMPlayerHook
 title: IWMPlayerHook (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMPlayerHook interface can be implemented by a player application that uses DirectX Video Acceleration (DirectX VA).
 old-location: wmformat\iwmplayerhook.htm
 tech.root: wmformat
 ms.assetid: 5e58cb6a-3398-4b12-881e-76f936f6c7b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerHook, IWMPlayerHook interface [windows Media Format], IWMPlayerHook interface [windows Media Format],described, IWMPlayerHookInterface, wmformat.iwmplayerhook, wmsdkidl/IWMPlayerHook
 ms.topic: interface

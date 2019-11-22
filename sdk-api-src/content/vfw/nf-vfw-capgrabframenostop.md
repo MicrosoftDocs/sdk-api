@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capGrabFrameNoStop
 title: capGrabFrameNoStop macro (vfw.h)
-author: windows-sdk-content
+
 description: The capGrabFrameNoStop macro fills the frame buffer with a single uncompressed frame from the capture device and displays it.
 old-location: multimedia\capgrabframenostop.htm
 tech.root: Multimedia
 ms.assetid: 0782d69f-6c4f-44f5-abd4-2b833be2f487
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGrabFrameNoStop, capGrabFrameNoStop, capGrabFrameNoStop macro [Windows Multimedia], multimedia.capgrabframenostop, vfw/capGrabFrameNoStop"
 ms.topic: macro

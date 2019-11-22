@@ -1,12 +1,12 @@
 ---
 UID: NF:ddeml.DdeAccessData
 title: DdeAccessData function (ddeml.h)
-author: windows-sdk-content
+
 description: Provides access to the data in the specified Dynamic Data Exchange (DDE) object. An application must call the DdeUnaccessData function when it has finished accessing the data in the object.
 old-location: dataxchg\ddeaccessdata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeaccessdata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdeAccessData, DdeAccessData function [Data Exchange], _win32_DdeAccessData, _win32_ddeaccessdata_cpp, dataxchg.ddeaccessdata, ddeml/DdeAccessData, winui._win32_ddeaccessdata
 ms.topic: function

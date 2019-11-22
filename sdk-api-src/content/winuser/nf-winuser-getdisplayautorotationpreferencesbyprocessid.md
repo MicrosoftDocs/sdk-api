@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetDisplayAutoRotationPreferencesByProcessId
 title: GetDisplayAutoRotationPreferencesByProcessId function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the screen auto-rotation preferences for the process indicated by the dwProcessId parameter.
 old-location: base\getdisplayautorotationpreferencesbyprocessid.htm
 tech.root: ProcThread
 ms.assetid: 34A769D0-5160-4049-9C72-76BA7F8B8260
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferencesByProcessId, GetDisplayAutoRotationPreferencesByProcessId function, base.getdisplayautorotationpreferencesbyprocessid, winuser/GetDisplayAutoRotationPreferencesByProcessId
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:drt.drt_scope_tag
 title: DRT_SCOPE (drt.h)
-author: windows-sdk-content
+
 description: The DRT_SCOPE enumeration defines the set of IPv6 scopes in which DRT operates while using the IPv6 UDP transport created by DrtCreateIpv6UdpTransport.
 old-location: p2p\drt_scope.htm
 tech.root: P2PSdk
 ms.assetid: 0b144ec0-c2d7-4996-84a0-4ab137285a30
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRT_GLOBAL_SCOPE, DRT_LINK_LOCAL_SCOPE, DRT_SCOPE, DRT_SCOPE enumeration [Peer Networking], DRT_SITE_LOCAL_SCOPE, drt/DRT_GLOBAL_SCOPE, drt/DRT_LINK_LOCAL_SCOPE, drt/DRT_SCOPE, drt/DRT_SITE_LOCAL_SCOPE, p2p.drt_scope
 ms.topic: enum

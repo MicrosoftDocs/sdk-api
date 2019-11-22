@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetClusterFromResource
 title: GetClusterFromResource function (clusapi.h)
-author: windows-sdk-content
+
 description: Returns a handle to the cluster associated with a resource.
 old-location: mscs\getclusterfromresource.htm
 tech.root: MsCS
 ms.assetid: d0ba93cb-94aa-4c68-b87e-518ee1e5c35c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromResource, GetClusterFromResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE function [Failover Cluster], _wolf_getclusterfromresource, clusapi/GetClusterFromResource, clusapi/PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, mscs.getclusterfromresource
 ms.topic: function

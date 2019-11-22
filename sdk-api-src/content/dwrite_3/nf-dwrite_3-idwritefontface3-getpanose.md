@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetPanose
 title: IDWriteFontFace3::GetPanose (dwrite_3.h)
-author: windows-sdk-content
+
 description: Gets the PANOSE values from the font, used for font selection and matching.
 old-location: directwrite\idwritefontface3_getpanose.htm
 tech.root: DirectWrite
 ms.assetid: 977AFC97-9747-4FCE-861E-E1C40975B2E9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetPanose method, IDWriteFontFace3.GetPanose, IDWriteFontFace3::GetPanose, directwrite.idwritefontface3_getpanose, dwrite_3/IDWriteFontFace3::GetPanose
 ms.topic: method

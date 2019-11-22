@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(const uint8_t)
 title: XMUBYTEN4::XMUBYTEN4(const uint8_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUBYTEN4 from a four element uint8_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 7e5d6c9b-3371-456d-8d4c-1663934b43be
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4.XMUBYTEN4(const uint8_t), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(const uint8_t), dxmath.xmubyten4_ctor_1
 ms.topic: method

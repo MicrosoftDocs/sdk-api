@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.SetPredication
 title: ID3D12VideoDecodeCommandList::SetPredication
-author: windows-sdk-content
+
 description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.
 tech.root: mf
 ms.assetid: b0cf433f-b0d2-463d-b960-8964807b0012
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

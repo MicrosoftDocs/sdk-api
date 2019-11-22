@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IDockProvider.get_DockPosition
 title: IDockProvider::get_DockPosition (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Indicates the current docking position of this element.
 old-location: winauto\uiauto_IDockProvider_DockPosition.htm
 tech.root: WinAuto
 ms.assetid: aa170dec-a4e1-48ac-8434-a24b79006653
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DockPosition property [Windows Accessibility], DockPosition property [Windows Accessibility],IDockProvider interface, IDockProvider interface [Windows Accessibility],DockPosition property, IDockProvider.DockPosition, IDockProvider.get_DockPosition, IDockProvider::DockPosition, IDockProvider::get_DockPosition, get_DockPosition, uiauto.uiauto_IDockProvider_DockPosition, uiauto_IDockProvider_DockPosition, uiautomationcore/IDockProvider::DockPosition, uiautomationcore/IDockProvider::get_DockPosition, winauto.uiauto_IDockProvider_DockPosition
 ms.topic: method

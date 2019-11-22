@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.CreateDesktopW
 title: CreateDesktopW function (winuser.h)
-author: windows-sdk-content
+
 description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.
 old-location: winstation\createdesktop.htm
 tech.root: winstation
 ms.assetid: c6ed40c5-13a9-4697-a727-730adc6a912d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDesktop, CreateDesktop function [Windows Stations and Desktops], CreateDesktopA, CreateDesktopW, DF_ALLOWOTHERACCOUNTHOOK, _win32_createdesktop, base.createdesktop, winstation.createdesktop, winuser/CreateDesktop, winuser/CreateDesktopA, winuser/CreateDesktopW
 ms.topic: function

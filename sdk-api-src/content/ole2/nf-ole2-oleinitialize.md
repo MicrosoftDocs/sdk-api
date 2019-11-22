@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleInitialize
 title: OleInitialize function (ole2.h)
-author: windows-sdk-content
+
 description: Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below.
 old-location: com\oleinitialize.htm
 tech.root: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
 ms.topic: function

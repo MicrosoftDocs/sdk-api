@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessageIterator
 title: IFaxIncomingMessageIterator (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxIncomingMessageIterator interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9zg2_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
 ms.topic: interface

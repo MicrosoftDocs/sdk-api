@@ -1,12 +1,12 @@
 ---
 UID: NF:roerrorapi.RoInspectThreadErrorInfo
 title: RoInspectThreadErrorInfo function
-author: windows-sdk-content
+
 description: Gets the error object that represents the call stack at the point where the error originated.
 old-location: winrt\roinspectthreaderrorinfo.htm
 tech.root: WinRT
 ms.assetid: DE7A930A-89CD-45C0-A232-800E5A5648F8
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: RoInspectThreadErrorInfo, RoInspectThreadErrorInfo function [Windows Runtime], roerrorapi/RoInspectThreadErrorInfo, winrt.roinspectthreaderrorinfo
 ms.prod: windows-hardware

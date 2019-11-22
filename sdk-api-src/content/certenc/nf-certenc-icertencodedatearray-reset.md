@@ -1,12 +1,12 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Reset
 title: ICertEncodeDateArray::Reset (certenc.h)
-author: windows-sdk-content
+
 description: Specifies the size of DATE array in this object.
 old-location: security\icertencodedatearray_reset.htm
 tech.root: SecCrypto
 ms.assetid: f09087aa-ae10-4a59-9b59-5f8b72254ce6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],Reset method, ICertEncodeDateArray interface [Security],Reset method, ICertEncodeDateArray.Reset, ICertEncodeDateArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeDateArray object, Reset method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_reset, certenc/ICertEncodeDateArray::Reset, security.icertencodedatearray_reset
 ms.topic: method

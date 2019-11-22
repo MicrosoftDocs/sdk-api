@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the Y-intercept of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_2.htm
 tech.root: directcomp
 ms.assetid: A75B26EB-CEA2-45E3-999D-9A49A261AA54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_2
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeTopology
 title: MFCreateTranscodeTopology function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a partial transcode topology.
 old-location: mf\mfcreatetranscodetopology.htm
 tech.root: medfound
 ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
 ms.topic: function

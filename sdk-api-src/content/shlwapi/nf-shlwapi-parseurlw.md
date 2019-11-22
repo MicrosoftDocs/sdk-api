@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.ParseURLW
 title: ParseURLW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Performs rudimentary parsing of a URL.
 old-location: shell\ParseURL.htm
 tech.root: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
 ms.topic: function

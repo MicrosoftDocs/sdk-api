@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDateFromCy
 title: VarDateFromCy function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a currency value to a date value.
 old-location: automat\vardatefromcy.htm
 tech.root: automat
 ms.assetid: b14f82af-4f26-4211-9368-e4da653c0492
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDateFromCy, VarDateFromCy function [Automation], _oa96_VarDateFromCy, automat.vardatefromcy, oleauto/VarDateFromCy
 ms.topic: function

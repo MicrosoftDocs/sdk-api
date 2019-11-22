@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTileMode
 title: IXpsOMTileBrush::GetTileMode (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the XPS_TILE_MODE value that describes the tile mode of the brush.
 old-location: xps\ixpsomtilebrush_gettilemode.htm
 tech.root: printdocs
 ms.assetid: 4f39a728-9f27-4137-96eb-8f10e6e002cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTileMode, GetTileMode method [XPS Documents and Packaging], GetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTileMode method, IXpsOMTileBrush.GetTileMode, IXpsOMTileBrush::GetTileMode, xps.ixpsomtilebrush_gettilemode, xpsobjectmodel/IXpsOMTileBrush::GetTileMode
 ms.topic: method

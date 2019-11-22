@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.GetThemeSysFont
 title: GetThemeSysFont function (uxtheme.h)
-author: windows-sdk-content
+
 description: Retrieves the LOGFONT of a system font.
 old-location: controls\GetThemeSysFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysfont.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysFont, GetThemeSysFont function [Windows Controls], TMT_CAPTIONFONT, TMT_ICONTITLEFONT, TMT_MENUFONT, TMT_MSGBOXFONT, TMT_SMALLCAPTIONFONT, TMT_STATUSFONT, controls.GetThemeSysFont, controls.inet_GetThemeSysFont, inet_GetThemeSysFont, inet_GetThemeSysFont_cpp, uxtheme/GetThemeSysFont
 ms.topic: function

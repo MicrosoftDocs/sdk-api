@@ -1,12 +1,12 @@
 ---
 UID: NF:olectl.OleLoadPictureEx
 title: OleLoadPictureEx function (olectl.h)
-author: windows-sdk-content
+
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.
 old-location: com\oleloadpictureex.htm
 tech.root: com
 ms.assetid: c903096f-f15f-4a36-8efc-20cf7102e77d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPictureEx, com.oleloadpictureex, olectl/OleLoadPictureEx
 ms.topic: function

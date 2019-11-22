@@ -1,12 +1,12 @@
 ---
 UID: NS:drt.drt_data_tag
 title: DRT_DATA (drt.h)
-author: windows-sdk-content
+
 description: DRT_DATA structure contains a data blob. This structure is used by several DRT functions.
 old-location: p2p\drt_data.htm
 tech.root: P2PSdk
 ms.assetid: ee81daca-e889-471e-b43b-4593380a55dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_DATA, PDRT_DATA structure pointer [Peer Networking], drt/DRT_DATA, drt/PDRT_DATA, p2p.drt_data"
 ms.topic: struct

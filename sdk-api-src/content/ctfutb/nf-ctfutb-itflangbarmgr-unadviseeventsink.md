@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.UnadviseEventSink
 title: ITfLangBarMgr::UnadviseEventSink (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarMgr::UnadviseEventSink method
 old-location: tsf\itflangbarmgr_unadviseeventsink.htm
 tech.root: TSF
 ms.assetid: 29dc5276-04fa-4219-a64d-10d775d73fdd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],UnadviseEventSink method, ITfLangBarMgr.UnadviseEventSink, ITfLangBarMgr::UnadviseEventSink, UnadviseEventSink, UnadviseEventSink method [Text Services Framework], UnadviseEventSink method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_unadviseeventsink_ref, ctfutb/ITfLangBarMgr::UnadviseEventSink, tsf.itflangbarmgr_unadviseeventsink
 ms.topic: method

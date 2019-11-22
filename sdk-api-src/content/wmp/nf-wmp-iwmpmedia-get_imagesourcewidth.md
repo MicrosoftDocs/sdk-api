@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMedia.get_imageSourceWidth
 title: IWMPMedia::get_imageSourceWidth (wmp.h)
-author: windows-sdk-content
+
 description: The get_imageSourceWidth method retrieves the width of the current media item in pixels.
 old-location: wmp\iwmpmedia_get_imagesourcewidth.htm
 tech.root: WMP
 ms.assetid: 57480abb-9852-46a5-a6e4-2a1ba517a9cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia.get_imageSourceWidth, IWMPMedia2 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia2::get_imageSourceWidth, IWMPMedia3 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia3::get_imageSourceWidth, IWMPMedia::get_imageSourceWidth, IWMPMediaget_imageSourceWidth, get_imageSourceWidth, get_imageSourceWidth method [Windows Media Player], get_imageSourceWidth method [Windows Media Player],IWMPMedia interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia2 interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_imagesourcewidth, wmp/IWMPMedia2::get_imageSourceWidth, wmp/IWMPMedia3::get_imageSourceWidth, wmp/IWMPMedia::get_imageSourceWidth
 ms.topic: method

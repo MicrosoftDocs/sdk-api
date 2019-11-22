@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetVersionNumber
 title: IDVB_NIT::GetVersionNumber (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 75f7dc3b-8631-4a33-90f2-ace95e4112a7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_NIT.GetVersionNumber, IDVB_NIT::GetVersionNumber, IDVB_NITGetVersionNumber, dvbsiparser/IDVB_NIT::GetVersionNumber, mstv.idvb_nit_getversionnumber
 ms.topic: method

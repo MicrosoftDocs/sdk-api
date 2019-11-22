@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsCreateServiceProxy
 title: WsCreateServiceProxy function (webservices.h)
-author: windows-sdk-content
+
 description: Creates a service proxy with the specified properties.
 old-location: wsw\wscreateserviceproxy.htm
 tech.root: wsw
 ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
 ms.topic: function

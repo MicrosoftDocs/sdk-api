@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_PropertyW
 title: CM_Get_Device_Interface_PropertyW function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Get_Device_Interface_Property function retrieves a device property that is set for a device interface.
 old-location: devinst\cm_get_device_interface_property.htm
 tech.root: devinst
 ms.assetid: 581286BF-F20E-4766-BF0C-5D6B34032358
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_Property, CM_Get_Device_Interface_Property function [Device and Driver Installation], CM_Get_Device_Interface_PropertyA, CM_Get_Device_Interface_PropertyW, cfgmgr32/CM_Get_Device_Interface_Property, cfgmgr32/CM_Get_Device_Interface_PropertyA, cfgmgr32/CM_Get_Device_Interface_PropertyW, devinst.cm_get_device_interface_property
 ms.topic: function

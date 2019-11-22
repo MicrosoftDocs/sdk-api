@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_AudioFormatForScripting
 title: ITFileTrack::get_AudioFormatForScripting (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_AudioFormatForScripting method gets the audio scripting format.
 old-location: tapi3\itfiletrack_get_audioformatforscripting.htm
 tech.root: Tapi
 ms.assetid: 3677b85c-15a4-4960-88ad-18855349fedd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_AudioFormatForScripting method, ITFileTrack.get_AudioFormatForScripting, ITFileTrack::get_AudioFormatForScripting, _tapi3_itfiletrack_get_audioformatforscripting, get_AudioFormatForScripting, get_AudioFormatForScripting method [TAPI 2.2], get_AudioFormatForScripting method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_audioformatforscripting, tapi3if/ITFileTrack::get_AudioFormatForScripting
 ms.topic: method

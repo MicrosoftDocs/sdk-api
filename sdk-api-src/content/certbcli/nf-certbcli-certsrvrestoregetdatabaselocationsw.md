@@ -1,12 +1,12 @@
 ---
 UID: NF:certbcli.CertSrvRestoreGetDatabaseLocationsW
 title: CertSrvRestoreGetDatabaseLocationsW function (certbcli.h)
-author: windows-sdk-content
+
 description: Used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
 old-location: security\certsrvrestoregetdatabaselocations.htm
 tech.root: SecCrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.topic: function

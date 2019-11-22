@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_CollectingInk
 title: IInkOverlay::get_CollectingInk (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
 old-location: tablet\inkoverlay_collectingink.htm
 tech.root: tablet
 ms.assetid: fa689979-0c8c-4295-9750-3c2fee9af4d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectingInk property, IInkOverlay.CollectingInk, IInkOverlay.get_CollectingInk, IInkOverlay::CollectingInk, IInkOverlay::get_CollectingInk, InkOverlay.get_CollectingInk, get_CollectingInk, msinkaut/IInkOverlay::CollectingInk, msinkaut/IInkOverlay::get_CollectingInk, tablet.inkoverlay_collectingink
 ms.topic: method

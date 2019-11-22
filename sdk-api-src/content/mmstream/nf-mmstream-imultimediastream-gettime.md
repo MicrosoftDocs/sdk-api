@@ -1,12 +1,12 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetTime
 title: IMultiMediaStream::GetTime (mmstream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the current stream time.
 old-location: dshow\imultimediastream_gettime.htm
 tech.root: DirectShow
 ms.assetid: da92c68b-176c-4773-9ae1-63f803bc206e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetTime method, IMultiMediaStream.GetTime, IMultiMediaStream::GetTime, IMultiMediaStreamGetTime, dshow.imultimediastream_gettime, mmstream/IMultiMediaStream::GetTime
 ms.topic: method

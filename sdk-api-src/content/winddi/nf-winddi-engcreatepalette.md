@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngCreatePalette
 title: EngCreatePalette function (winddi.h)
-author: windows-sdk-content
+
 description: The EngCreatePalette function sends a request to GDI to create an RGB palette.
 old-location: display\engcreatepalette.htm
 tech.root: display
 ms.assetid: 99b27e11-5a5f-4fa7-9cd0-422d24425fa1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngCreatePalette, EngCreatePalette function [Display Devices], display.engcreatepalette, gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml, winddi/EngCreatePalette
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetFacilityCodeText
 title: IWbemStatusCodeText::GetFacilityCodeText (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemStatusCodeText::GetFacilityCodeText method returns the name of the subsystem where the error occurred, such as &#0034;Windows&#0034;, &#0034;WBEM&#0034;, &#0034;SSPI&#0034;, or &#0034;RPC&#0034;.
 old-location: wmi\iwbemstatuscodetext_getfacilitycodetext.htm
 tech.root: WmiSdk
 ms.assetid: 831f8eb4-3dcd-42ec-aa43-309360e9a5ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFacilityCodeText, GetFacilityCodeText method [Windows Management Instrumentation], GetFacilityCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetFacilityCodeText method, IWbemStatusCodeText.GetFacilityCodeText, IWbemStatusCodeText::GetFacilityCodeText, _hmm_iwbemstatuscodetext_getfacilitycodetext, wbemcli/IWbemStatusCodeText::GetFacilityCodeText, wmi.iwbemstatuscodetext_getfacilitycodetext
 ms.topic: method

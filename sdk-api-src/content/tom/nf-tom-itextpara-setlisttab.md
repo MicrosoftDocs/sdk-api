@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextPara.SetListTab
 title: ITextPara::SetListTab (tom.h)
-author: windows-sdk-content
+
 description: Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 old-location: controls\ITextPara_SetListTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttab.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListTab method, ITextPara.SetListTab, ITextPara::SetListTab, SetListTab, SetListTab method [Windows Controls], SetListTab method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListTab, _win32_ITextPara_SetListTab_cpp, controls.ITextPara_SetListTab, controls._win32_ITextPara_SetListTab, tom/ITextPara::SetListTab
 ms.topic: method

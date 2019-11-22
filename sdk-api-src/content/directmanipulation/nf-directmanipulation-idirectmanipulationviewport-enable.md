@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Enable
 title: IDirectManipulationViewport::Enable (directmanipulation.h)
-author: windows-sdk-content
+
 description: Starts or resumes input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_enable.htm
 tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT4.operator-assign(XMFLOAT4 &&)
 title: XMFLOAT4::operator-assign(XMFLOAT4 &&)
-author: windows-sdk-content
+
 description: Assigns the vector component data from one instance of XMFLOAT4 to the current instance of XMFLOAT4.
 old-location: dxmath\xmfloat4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.operator = (const XMFLOAT4)
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT4.operator =, Use DirectX::::XMFLOAT4::operator =, XMFLOAT4 structure [DirectX Math Support APIs],operator = method, XMFLOAT4.operator =, XMFLOAT4.operator-assign(XMFLOAT4 &&), XMFLOAT4.operator=, XMFLOAT4::operator-assign(XMFLOAT4 &&), XMFLOAT4::operator=, dxmath.xmfloat4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4 structure, operator=
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_attributeCount
 title: IWMPPlaylist::get_attributeCount (wmp.h)
-author: windows-sdk-content
+
 description: The get_attributeCount method retrieves the number of attributes associated with the playlist.
 old-location: wmp\iwmpplaylist_get_attributecount.htm
 tech.root: WMP
 ms.assetid: 32c18feb-4df2-41d6-9adf-49836b6b836d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeCount method, IWMPPlaylist.get_attributeCount, IWMPPlaylist::get_attributeCount, IWMPPlaylistget_attributeCount, get_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributecount, wmp/IWMPPlaylist::get_attributeCount
 ms.topic: method

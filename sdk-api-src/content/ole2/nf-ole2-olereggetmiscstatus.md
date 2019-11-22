@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleRegGetMiscStatus
 title: OleRegGetMiscStatus function (ole2.h)
-author: windows-sdk-content
+
 description: Returns miscellaneous information about the presentation and behaviors supported by the specified CLSID from the registry.
 old-location: com\olereggetmiscstatus.htm
 tech.root: com
 ms.assetid: 3166955f-4f7a-4904-a7fb-ebdfb8e56baf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRegGetMiscStatus, com.olereggetmiscstatus, ole2/OleRegGetMiscStatus
 ms.topic: function

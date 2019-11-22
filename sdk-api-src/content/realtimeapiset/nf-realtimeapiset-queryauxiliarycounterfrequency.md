@@ -1,12 +1,12 @@
 ---
 UID: NF:realtimeapiset.QueryAuxiliaryCounterFrequency
 title: QueryAuxiliaryCounterFrequency function (realtimeapiset.h)
-author: windows-sdk-content
+
 description: Queries the auxiliary counter frequency.
 old-location: base\queryauxiliarycounterfrequency.htm
 tech.root: SysInfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.topic: function

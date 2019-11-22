@@ -1,12 +1,12 @@
 ---
 UID: NE:winsafer._SAFER_IDENTIFICATION_TYPES
 title: SAFER_IDENTIFICATION_TYPES (winsafer.h)
-author: windows-sdk-content
+
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm
 tech.root: SecMgmt
 ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, security.safer_identification_types, winsafer/SAFER_IDENTIFICATION_TYPES, winsafer/SaferIdentityDefault, winsafer/SaferIdentityTypeCertificate, winsafer/SaferIdentityTypeImageHash, winsafer/SaferIdentityTypeImageName, winsafer/SaferIdentityTypeUrlZone
 ms.topic: enum

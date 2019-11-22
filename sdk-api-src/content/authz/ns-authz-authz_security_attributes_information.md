@@ -1,12 +1,12 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
 title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION (authz.h)
-author: windows-sdk-content
+
 description: Specifies one or more security attributes and values.
 old-location: security\authz_security_attributes_information.htm
 tech.root: SecAuthZ
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information'
 ms.topic: struct

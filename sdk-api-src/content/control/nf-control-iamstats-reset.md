@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IAMStats.Reset
 title: IAMStats::Reset (control.h)
-author: windows-sdk-content
+
 description: The Reset method resets all statistics to zero.
 old-location: dshow\iamstats_reset.htm
 tech.root: DirectShow
 ms.assetid: daa5f3c0-6785-46b6-987f-acef798b0ed9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMStats interface [DirectShow],Reset method, IAMStats.Reset, IAMStats::Reset, IAMStatsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IAMStats interface, control/IAMStats::Reset, dshow.iamstats_reset
 ms.topic: method

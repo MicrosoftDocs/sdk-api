@@ -1,12 +1,12 @@
 ---
 UID: NF:scrnsave.ScreenSaverProc
 title: ScreenSaverProc function (scrnsave.h)
-author: windows-sdk-content
+
 description: Receives messages sent to the specified screen saver window.
 old-location: shell\ScreenSaverProc.htm
 tech.root: shell
 ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.topic: function

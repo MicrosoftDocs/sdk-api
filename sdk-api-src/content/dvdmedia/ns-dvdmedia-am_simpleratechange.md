@@ -1,12 +1,12 @@
 ---
 UID: NS:dvdmedia.__unnamed_struct_6
 title: AM_SimpleRateChange (dvdmedia.h)
-author: windows-sdk-content
+
 description: The AM_SimpleRateChange structure is used to change the playback rate for an MPEG-2 stream.
 old-location: dshow\am_simpleratechange.htm
 tech.root: DirectShow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 ms.topic: struct

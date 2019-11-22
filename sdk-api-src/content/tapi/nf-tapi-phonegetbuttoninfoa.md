@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetButtonInfoA
 title: phoneGetButtonInfoA function (tapi.h)
-author: windows-sdk-content
+
 description: The phoneGetButtonInfo function returns information about the specified button.
 old-location: tapi2\phonegetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo"
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_TVFormat
 title: IAMAnalogVideoDecoder::put_TVFormat (strmif.h)
-author: windows-sdk-content
+
 description: The put_TVFormat method sets the analog video format.
 old-location: dshow\iamanalogvideodecoder_put_tvformat.htm
 tech.root: DirectShow
 ms.assetid: ea1522a0-1f00-40c4-9e50-3638495e209c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_TVFormat method, IAMAnalogVideoDecoder.put_TVFormat, IAMAnalogVideoDecoder::put_TVFormat, IAMAnalogVideoDecoderput_TVFormat, dshow.iamanalogvideodecoder_put_tvformat, put_TVFormat, put_TVFormat method [DirectShow], put_TVFormat method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_TVFormat
 ms.topic: method

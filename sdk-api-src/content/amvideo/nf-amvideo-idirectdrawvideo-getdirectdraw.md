@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetDirectDraw
 title: IDirectDrawVideo::GetDirectDraw (amvideo.h)
-author: windows-sdk-content
+
 description: The GetDirectDraw method retrieves the IDirectDraw interface.
 old-location: dshow\idirectdrawvideo_getdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: 25c64d6e-fd49-430a-9f9b-3c2b3d43d3a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetDirectDraw method, IDirectDrawVideo.GetDirectDraw, IDirectDrawVideo::GetDirectDraw, IDirectDrawVideoGetDirectDraw, amvideo/IDirectDrawVideo::GetDirectDraw, dshow.idirectdrawvideo_getdirectdraw
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Next
 title: IEnumSearchRoots::Next (searchapi.h)
-author: windows-sdk-content
+
 description: Retrieves the specified number of ISearchRoot elements.
 old-location: search\_search_IEnumSearchRoots_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
 ms.topic: method

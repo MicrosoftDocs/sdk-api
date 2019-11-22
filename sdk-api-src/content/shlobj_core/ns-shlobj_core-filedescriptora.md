@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORA
 title: FILEDESCRIPTORA (shlobj_core.h)
-author: windows-sdk-content
+
 description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
 old-location: shell\FILEDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPFILEDESCRIPTORA, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CREATETIME, FD_FILESIZE, FD_LINKUI, FD_PROGRESSUI, FD_SIZEPOINT, FD_UNICODE, FD_WRITESTIME, FILEDESCRIPTOR, FILEDESCRIPTOR structure [Windows Shell], FILEDESCRIPTORA, FILEDESCRIPTORW, LPFILEDESCRIPTOR, LPFILEDESCRIPTOR structure pointer [Windows Shell], _FILEDESCRIPTORA, _FILEDESCRIPTORW, _win32_FILEDESCRIPTOR, shell.FILEDESCRIPTOR, shlobj_core/FILEDESCRIPTOR, shlobj_core/LPFILEDESCRIPTOR"
 ms.topic: struct

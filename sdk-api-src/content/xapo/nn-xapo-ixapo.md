@@ -1,12 +1,12 @@
 ---
 UID: NN:xapo.IXAPO
 title: IXAPO (xapo.h)
-author: windows-sdk-content
+
 description: The interface for an Audio Processing Object which be used in an XAudio2 effect chain.
 old-location: xaudio2\ixapo.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
 ms.topic: interface

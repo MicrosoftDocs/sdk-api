@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Enabled
 title: INetFwAuthorizedApplication::get_Enabled (netfw.h)
-author: windows-sdk-content
+
 description: Indicates whether the settings for this application are currently enabled.
 old-location: ics\inetfwauthorizedapplication_enabled.htm
 tech.root: ics
 ms.assetid: 03a1503e-aee5-484f-8a4c-a7e10dffe401
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwAuthorizedApplication interface, INetFwAuthorizedApplication interface [ICS/ICF],Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication.get_Enabled, INetFwAuthorizedApplication::Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, get_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled
 ms.topic: method

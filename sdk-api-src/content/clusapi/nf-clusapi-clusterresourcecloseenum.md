@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterResourceCloseEnum
 title: ClusterResourceCloseEnum function (clusapi.h)
-author: windows-sdk-content
+
 description: Closes a resource enumeration handle.
 old-location: mscs\clusterresourcecloseenum.htm
 tech.root: MsCS
 ms.assetid: 49407b45-2b7f-43a2-90ff-98cc557edb31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceCloseEnum, ClusterResourceCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM function [Failover Cluster], _wolf_clusterresourcecloseenum, clusapi/ClusterResourceCloseEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, mscs.clusterresourcecloseenum
 ms.topic: function

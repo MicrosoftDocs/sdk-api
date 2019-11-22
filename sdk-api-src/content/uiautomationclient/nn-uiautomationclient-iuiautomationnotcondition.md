@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationNotCondition
 title: IUIAutomationNotCondition (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Represents a condition that is the negative of another condition.
 old-location: winauto\uiauto_IUIAutomationNotCondition.htm
 tech.root: WinAuto
 ms.assetid: 63745e87-1571-47cb-b4d2-6909d834e97b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationNotCondition, IUIAutomationNotCondition interface [Windows Accessibility], IUIAutomationNotCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationNotCondition, uiauto_IUIAutomationNotCondition, uiautomationclient/IUIAutomationNotCondition, winauto.uiauto_IUIAutomationNotCondition
 ms.topic: interface

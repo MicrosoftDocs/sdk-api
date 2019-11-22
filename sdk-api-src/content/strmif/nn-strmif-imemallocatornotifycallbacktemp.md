@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IMemAllocatorNotifyCallbackTemp
 title: IMemAllocatorNotifyCallbackTemp (strmif.h)
-author: windows-sdk-content
+
 description: Enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.
 old-location: dshow\imemallocatornotifycallbacktemp.htm
 tech.root: DirectShow
 ms.assetid: 63097b58-8197-4354-8b92-25baaf265df2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp, IMemAllocatorNotifyCallbackTemp interface [DirectShow], IMemAllocatorNotifyCallbackTemp interface [DirectShow],described, IMemAllocatorNotifyCallbackTempInterface, dshow.imemallocatornotifycallbacktemp, strmif/IMemAllocatorNotifyCallbackTemp
 ms.topic: interface

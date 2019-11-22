@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.RESOURCE_FAILURE_INFO_BUFFER
 title: RESOURCE_FAILURE_INFO_BUFFER (clusapi.h)
-author: windows-sdk-content
+
 description: Represents a buffer for a resource failure.
 old-location: mscs\resource_failure_info_buffer.htm
 tech.root: MsCS
 ms.assetid: 131EEF4A-DB1E-4FF7-8329-4AA422AB83B0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO_BUFFER, RESOURCE_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO_BUFFER, clusapi/RESOURCE_FAILURE_INFO_BUFFER, msclus/PRESOURCE_FAILURE_INFO_BUFFER, msclus/RESOURCE_FAILURE_INFO_BUFFER, mscs.resource_failure_info_buffer"
 ms.topic: struct

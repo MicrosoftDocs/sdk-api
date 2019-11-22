@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IShellFolder
 title: IShellFolder (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposed by all Shell namespace folder objects, its methods are used to manage folders.
 old-location: shell\IShellFolder.htm
 tech.root: shell
 ms.assetid: 35190a72-298b-4554-b924-e1357b583a99
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellFolder, IShellFolder interface [Windows Shell], IShellFolder interface [Windows Shell],described, _win32_IShellFolder, _win32_IShellFolder_cpp, shell.IShellFolder, shobjidl_core/IShellFolder
 ms.topic: interface

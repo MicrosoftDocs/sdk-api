@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2spi.WSCInstallProvider
 title: WSCInstallProvider function (ws2spi.h)
-author: windows-sdk-content
+
 description: Installs the specified transport provider into the system configuration database.
 old-location: winsock\wscinstallprovider_2.htm
 tech.root: WinSock
 ms.assetid: c0736018-2bcf-4281-aa73-3e1ff9eac92e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProvider, WSCInstallProvider function [Winsock], _win32_wscinstallprovider_2, winsock.wscinstallprovider_2, ws2spi/WSCInstallProvider
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetBackgroundColor
 title: IPreviewHandlerVisuals::SetBackgroundColor (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Sets the background color of the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetBackgroundColor.htm
 tech.root: shell
 ms.assetid: ebb261bf-6770-4302-9c0c-09388c07bdf2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetBackgroundColor method, IPreviewHandlerVisuals.SetBackgroundColor, IPreviewHandlerVisuals::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetBackgroundColor, shell.IPreviewHandlerVisuals_SetBackgroundColor, shobjidl_core/IPreviewHandlerVisuals::SetBackgroundColor
 ms.topic: method

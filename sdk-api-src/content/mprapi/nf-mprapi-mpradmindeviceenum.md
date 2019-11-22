@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminDeviceEnum
 title: MprAdminDeviceEnum function (mprapi.h)
-author: windows-sdk-content
+
 description: Function is called to enumerate RAS capable devices installed on the computer that can return their name and type.
 old-location: rras\mpradmindeviceenum.htm
 tech.root: RRAS
 ms.assetid: 092892fd-1b61-45c6-a05f-83fc193611b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeviceEnum, MprAdminDeviceEnum function [RAS], mprapi/MprAdminDeviceEnum, rras.mpradmindeviceenum
 ms.topic: function

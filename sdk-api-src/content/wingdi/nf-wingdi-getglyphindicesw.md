@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetGlyphIndicesW
 title: GetGlyphIndicesW function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetGlyphIndices function translates a string into an array of glyph indices. The function can be used to determine whether a glyph exists in a font.
 old-location: gdi\getglyphindices.htm
 tech.root: gdi
 ms.assetid: 7abfee7a-dd5d-4f33-96f1-b38364ba5afd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GGI_MARK_NONEXISTING_GLYPHS, GetGlyphIndices, GetGlyphIndices function [Windows GDI], GetGlyphIndicesA, GetGlyphIndicesW, _win32_GetGlyphIndices, gdi.getglyphindices, wingdi/GetGlyphIndices, wingdi/GetGlyphIndicesA, wingdi/GetGlyphIndicesW
 ms.topic: function

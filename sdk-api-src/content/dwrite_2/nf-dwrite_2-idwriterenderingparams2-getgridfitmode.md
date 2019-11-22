@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_2.IDWriteRenderingParams2.GetGridFitMode
 title: IDWriteRenderingParams2::GetGridFitMode (dwrite_2.h)
-author: windows-sdk-content
+
 description: Gets the grid fitting mode.
 old-location: directwrite\idwriterenderingparams2_getgridfitmode.htm
 tech.root: DirectWrite
 ms.assetid: E455D3B7-FF2E-44D0-93E4-9FFA5D6BC328
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGridFitMode, GetGridFitMode method [Direct Write], GetGridFitMode method [Direct Write],IDWriteRenderingParams2 interface, IDWriteRenderingParams2 interface [Direct Write],GetGridFitMode method, IDWriteRenderingParams2.GetGridFitMode, IDWriteRenderingParams2::GetGridFitMode, directwrite.idwriterenderingparams2_getgridfitmode, dwrite_2/IDWriteRenderingParams2::GetGridFitMode
 ms.topic: method

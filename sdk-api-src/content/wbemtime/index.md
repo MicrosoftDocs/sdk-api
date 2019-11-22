@@ -1,7 +1,7 @@
 ---
 UID: NA:wbemtime
 ms.assetid: 7ae6b3a4-42b2-3e5f-89d8-03bcaeaab2cf
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDecompressQuery
 title: ICDecompressQuery macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICDecompressQuery macro queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format.
 old-location: multimedia\icdecompressquery.htm
 tech.root: Multimedia
 ms.assetid: 77d9a28c-dff9-4ccb-a0b8-9dc38fc66372
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDecompressQuery, ICDecompressQuery macro [Windows Multimedia], _win32_ICDecompressQuery, multimedia.icdecompressquery, vfw/ICDecompressQuery
 ms.topic: macro

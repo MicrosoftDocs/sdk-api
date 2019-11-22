@@ -1,12 +1,12 @@
 ---
 UID: NE:ipsectypes.IPSEC_TRANSFORM_TYPE_
 title: IPSEC_TRANSFORM_TYPE (ipsectypes.h)
-author: windows-sdk-content
+
 description: Indicates the type of an IPsec security association (SA) transform.
 old-location: fwp\ipsec_transform_type_enum.htm
 tech.root: fwp
 ms.assetid: 068f17f2-8696-4419-9daa-d8f6486e39a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, IPSEC_TRANSFORM_ESP_AUTH_FW, IPSEC_TRANSFORM_ESP_CIPHER, IPSEC_TRANSFORM_TYPE, IPSEC_TRANSFORM_TYPE enumeration [Filtering], IPSEC_TRANSFORM_TYPE_MAX, fwp.ipsec_transform_type_enum, ipsectypes/IPSEC_TRANSFORM_AH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW, ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER, ipsectypes/IPSEC_TRANSFORM_TYPE, ipsectypes/IPSEC_TRANSFORM_TYPE_MAX
 ms.topic: enum

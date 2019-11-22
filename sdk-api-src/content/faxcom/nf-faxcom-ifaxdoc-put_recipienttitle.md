@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientTitle
 title: IFaxDoc::put_RecipientTitle (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienttitle_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3bs5.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientTitle property, IFaxDoc.RecipientTitle, IFaxDoc.put_RecipientTitle, IFaxDoc::RecipientTitle, IFaxDoc::get_RecipientTitle, IFaxDoc::put_RecipientTitle, RecipientTitle property [Fax Service], RecipientTitle property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienttitle_cpp, faxcom/IFaxDoc::RecipientTitle, faxcom/IFaxDoc::get_RecipientTitle, faxcom/IFaxDoc::put_RecipientTitle, put_RecipientTitle
 ms.topic: method

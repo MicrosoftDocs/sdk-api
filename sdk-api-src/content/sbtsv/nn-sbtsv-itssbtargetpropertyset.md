@@ -1,12 +1,12 @@
 ---
 UID: NN:sbtsv.ITsSbTargetPropertySet
 title: ITsSbTargetPropertySet (sbtsv.h)
-author: windows-sdk-content
+
 description: Derive from this interface to define a custom target property set.
 old-location: termserv\itssbtargetpropertyset.htm
 tech.root: TermServ
 ms.assetid: 74ea8132-cb06-40ce-b3bf-4bd8babe3711
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbTargetPropertySet, ITsSbTargetPropertySet interface [Remote Desktop Services], ITsSbTargetPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbTargetPropertySet, termserv.itssbtargetpropertyset
 ms.topic: interface

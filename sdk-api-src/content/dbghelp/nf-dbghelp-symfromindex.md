@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromIndex
 title: SymFromIndex function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves symbol information for the specified index.
 old-location: base\symfromindex.htm
 tech.root: Debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 ms.topic: function

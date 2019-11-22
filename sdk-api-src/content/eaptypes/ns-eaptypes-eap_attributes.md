@@ -1,12 +1,12 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTES
 title: EAP_ATTRIBUTES (eaptypes.h)
-author: windows-sdk-content
+
 description: Contains an array of EAP attributes.
 old-location: eaphost\eap_attributes.htm
 tech.root: eaphost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, EapAttributes structure [EAPHost], eaphost.eap_attributes, eaptypes/EAP_ATTRIBUTES, eaptypes/EapAttributes
 ms.topic: struct

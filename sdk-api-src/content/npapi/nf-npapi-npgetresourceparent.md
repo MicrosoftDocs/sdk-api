@@ -1,12 +1,12 @@
 ---
 UID: NF:npapi.NPGetResourceParent
 title: NPGetResourceParent function (npapi.h)
-author: windows-sdk-content
+
 description: Retrieves the parent of a specified network resource in the browse hierarchy.
 old-location: security\npgetresourceparent.htm
 tech.root: SecAuthN
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent
 ms.topic: function

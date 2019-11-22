@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT (d3d11.h)
-author: windows-sdk-content
+
 description: Contains input data for a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID query.
 old-location: mf\d3d11_authenticated_query_output_id_input.htm
 tech.root: medfound
 ms.assetid: 2F4A6248-77DB-479B-B16C-81C3EE22937A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, mf.d3d11_authenticated_query_output_id_input
 ms.topic: struct

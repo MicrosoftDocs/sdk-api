@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetVersion
 title: IWMDMDevice::GetVersion (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetVersion method retrieves the manufacturer-defined version number of the device.
 old-location: wmdm\iwmdmdevice_getversion.htm
 tech.root: WMDM
 ms.assetid: ae0253f2-30cd-46d0-b9e9-f2cb878c1ff3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetVersion method, IWMDMDevice.GetVersion, IWMDMDevice::GetVersion, IWMDMDeviceGetVersion, mswmdm/IWMDMDevice::GetVersion, wmdm.iwmdmdevice_getversion
 ms.topic: method

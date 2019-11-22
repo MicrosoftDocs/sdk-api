@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1Layer
 title: ID2D1Layer (d2d1.h)
-author: windows-sdk-content
+
 description: Represents the backing store required to render a layer.
 old-location: direct2d\ID2D1Layer.htm
 tech.root: Direct2D
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Layer, ID2D1Layer interface [Direct2D], ID2D1Layer interface [Direct2D],described, d2d1/ID2D1Layer, direct2d.ID2D1Layer
 ms.topic: interface

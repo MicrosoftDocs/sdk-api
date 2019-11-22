@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_XmlText
 title: ITaskSettings::get_XmlText (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets an XML-formatted definition of the task settings.
 old-location: taskschd\itasksettings_xmltext.htm
 tech.root: taskschd
 ms.assetid: 93133a74-36a6-49e6-91b0-4ad4fd778841
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],XmlText property, ITaskSettings.XmlText, ITaskSettings.get_XmlText, ITaskSettings::XmlText, ITaskSettings::get_XmlText, ITaskSettings::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],ITaskSettings interface, get_XmlText, taskschd.itasksettings_xmltext, taskschd/ITaskSettings::XmlText, taskschd/ITaskSettings::get_XmlText, taskschd/ITaskSettings::put_XmlText
 ms.topic: method

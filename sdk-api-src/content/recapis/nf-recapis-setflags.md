@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.SetFlags
 title: SetFlags function (recapis.h)
-author: windows-sdk-content
+
 description: Specifies how the recognizer interprets the ink and determines the result string.Call this function before processing the ink for the first time. Therefore, call the SetFlags function before calling the Process function.
 old-location: tablet\setflags.htm
 tech.root: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
 ms.topic: function

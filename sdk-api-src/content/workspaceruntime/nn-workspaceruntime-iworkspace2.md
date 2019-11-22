@@ -1,12 +1,12 @@
 ---
 UID: NN:workspaceruntime.IWorkspace2
 title: IWorkspace2 (workspaceruntime.h)
-author: windows-sdk-content
+
 description: Exposes additional methods that provide information about a connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace2.htm
 tech.root: TermServ
 ms.assetid: 8155cd78-4c6b-47a9-a2c7-f9fffc95f700
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWorkspace2 interface [Remote Desktop Services],described, termserv.iworkspace2, workspaceruntime/IWorkspace2
 ms.topic: interface

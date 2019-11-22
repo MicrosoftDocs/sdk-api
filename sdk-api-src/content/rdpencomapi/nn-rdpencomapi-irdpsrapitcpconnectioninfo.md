@@ -1,12 +1,12 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITcpConnectionInfo
 title: IRDPSRAPITcpConnectionInfo (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side.
 old-location: rdp\irdpsrapitcpconnectioninfo.htm
 tech.root: rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
 ms.topic: interface

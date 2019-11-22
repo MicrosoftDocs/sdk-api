@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.htons
 title: htons function (winsock.h)
-author: windows-sdk-content
+
 description: The htons function converts a u_short from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htons_2.htm
 tech.root: WinSock
 ms.assetid: 3dae2655-2b3c-41d9-9650-125ac393d64a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons"
 ms.topic: function

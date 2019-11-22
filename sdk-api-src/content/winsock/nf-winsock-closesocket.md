@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.closesocket
 title: closesocket function (winsock.h)
-author: windows-sdk-content
+
 description: The closesocket function closes an existing socket.
 old-location: winsock\closesocket_2.htm
 tech.root: WinSock
 ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: _win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket
 ms.topic: function

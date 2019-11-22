@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl._NMTBCUSTOMDRAW
 title: NMTBCUSTOMDRAW (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a toolbar control.
 old-location: controls\NMTBCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbcustomdraw.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPNMTBCUSTOMDRAW, LPNMTBCUSTOMDRAW, LPNMTBCUSTOMDRAW structure pointer [Windows Controls], NMTBCUSTOMDRAW, NMTBCUSTOMDRAW structure [Windows Controls], _win32_NMTBCUSTOMDRAW, _win32_NMTBCUSTOMDRAW_cpp, commctrl/LPNMTBCUSTOMDRAW, commctrl/NMTBCUSTOMDRAW, controls.NMTBCUSTOMDRAW, controls._win32_NMTBCUSTOMDRAW"
 ms.topic: struct

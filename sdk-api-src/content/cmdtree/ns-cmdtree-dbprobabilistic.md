@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBPROBABILISTIC
 title: DBPROBABILISTIC (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBPROBABILISTIC structure is reserved for future use.
 old-location: indexsrv\dbprobabilistic.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0vxf.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBPROBABILISTIC, DBPROBABILISTIC structure [Indexing Service], _idxs_DBPROBABILISTIC, cmdtree/DBPROBABILISTIC, indexsrv.dbprobabilistic, tagDBPROBABILISTIC
 ms.topic: struct

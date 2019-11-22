@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IAction.get_Id
 title: IAction::get_Id (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the identifier of the action.
 old-location: taskschd\iaction_id.htm
 tech.root: taskschd
 ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.get_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, get_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
 ms.topic: method

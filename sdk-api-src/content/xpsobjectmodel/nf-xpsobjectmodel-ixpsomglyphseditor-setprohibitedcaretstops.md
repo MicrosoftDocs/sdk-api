@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetProhibitedCaretStops
 title: IXpsOMGlyphsEditor::SetProhibitedCaretStops (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets an array of prohibited caret stop locations.
 old-location: xps\ixpsomglyphseditor_setprohibitedcaretstops.htm
 tech.root: printdocs
 ms.assetid: 5f2e1014-d50b-4755-a533-239b6ba9009e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetProhibitedCaretStops method, IXpsOMGlyphsEditor.SetProhibitedCaretStops, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
 ms.topic: method

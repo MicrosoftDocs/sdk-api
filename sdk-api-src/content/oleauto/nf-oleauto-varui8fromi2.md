@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarUI8FromI2
 title: VarUI8FromI2 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a short value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromi2.htm
 tech.root: automat
 ms.assetid: db215f03-03e1-4532-971c-1303bf5a8f51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarUI8FromI2, VarUI8FromI2 function [Automation], _oa96_VarUI8FromI2, automat.varui8fromi2, oleauto/VarUI8FromI2
 ms.topic: function

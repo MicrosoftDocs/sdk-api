@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSurfaceFromHwnd
 title: IDCompositionDevice::CreateSurfaceFromHwnd (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
 old-location: directcomp\idcompositiondevice_createsurfacefromhwnd.htm
 tech.root: directcomp
 ms.assetid: EA49F8EB-FAC8-421E-854D-C4AA81887EB0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFromHwnd, CreateSurfaceFromHwnd method [DirectComposition], CreateSurfaceFromHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHwnd method, IDCompositionDevice.CreateSurfaceFromHwnd, IDCompositionDevice::CreateSurfaceFromHwnd, dcomp/IDCompositionDevice::CreateSurfaceFromHwnd, directcomp.idcompositiondevice_createsurfacefromhwnd
 ms.topic: method

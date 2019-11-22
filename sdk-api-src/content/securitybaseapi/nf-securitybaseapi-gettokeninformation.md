@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.GetTokenInformation
 title: GetTokenInformation function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: security\gettokeninformation.htm
 tech.root: SecAuthZ
 ms.assetid: e94de19c-de12-40fb-a72c-060f7ad12f75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTokenInformation, GetTokenInformation function [Security], _win32_gettokeninformation, security.gettokeninformation, securitybaseapi/GetTokenInformation
 ms.topic: function

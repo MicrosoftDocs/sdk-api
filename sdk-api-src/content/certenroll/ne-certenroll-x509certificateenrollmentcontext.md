@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.X509CertificateEnrollmentContext
 title: X509CertificateEnrollmentContext (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies the nature of the end entity for which the certificate is intended.
 old-location: security\x509certificateenrollmentcontext_enum.htm
 tech.root: seccertenroll
 ms.assetid: 2db0e129-a566-47ba-ab57-53c7db09e8e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509CertificateEnrollmentContext, X509CertificateEnrollmentContext enumeration [Security], certenroll/ContextAdministratorForceMachine, certenroll/ContextMachine, certenroll/ContextUser, certenroll/X509CertificateEnrollmentContext, security.x509certificateenrollmentcontext_enum
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl.KaraokeAudioPresentationModeChange
 title: IDvdControl::KaraokeAudioPresentationModeChange (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the audio playback mode to karaoke.
 old-location: dshow\idvdcontrol_karaokeaudiopresentationmodechange.htm
 tech.root: DirectShow
 ms.assetid: a724af67-6aac-4307-97bc-a79e73621ce1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChange method, IDvdControl.KaraokeAudioPresentationModeChange, IDvdControl::KaraokeAudioPresentationModeChange, IDvdControlKaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange method [DirectShow], KaraokeAudioPresentationModeChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_karaokeaudiopresentationmodechange, strmif/IDvdControl::KaraokeAudioPresentationModeChange
 ms.topic: method

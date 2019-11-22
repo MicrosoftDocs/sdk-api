@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.FindAssembly
 title: IMetaDataDispenserEx::FindAssembly (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets the name of the assembly.
 old-location: winrt\imetadatadispenserex_findassembly.htm
 tech.root: WinRT
 ms.assetid: 7f691157-9f3d-4e04-91ee-9d62c23569d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindAssembly, FindAssembly method [Windows Runtime], FindAssembly method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssembly method, IMetaDataDispenserEx.FindAssembly, IMetaDataDispenserEx::FindAssembly, rometadataapi/IMetaDataDispenserEx::FindAssembly, winrt.imetadatadispenserex_findassembly
 ms.topic: method

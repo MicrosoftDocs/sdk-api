@@ -1,12 +1,12 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.IsInstanceQuery
 title: IFunctionDiscoveryProviderQuery::IsInstanceQuery (functiondiscoveryprovider.h)
-author: windows-sdk-content
+
 description: Determines whether a query is for a single function instance or multiple function instances.
 old-location: ncd\ifunctiondiscoveryproviderquery_isinstancequery.htm
 tech.root: FunDisc
 ms.assetid: 5cd4288f-8cb8-451b-b982-4b9dcf31f66a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsInstanceQuery method, IFunctionDiscoveryProviderQuery.IsInstanceQuery, IFunctionDiscoveryProviderQuery::IsInstanceQuery, IsInstanceQuery, IsInstanceQuery method, IsInstanceQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsInstanceQuery, ncd.ifunctiondiscoveryproviderquery_isinstancequery
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureId
 title: IOpcSigningOptions::GetSignatureId (msopc.h)
-author: windows-sdk-content
+
 description: Gets the value of the Id attribute from the Signature element.
 old-location: opc\iopcsigningoptions_getsignatureid.htm
 tech.root: OPC
 ms.assetid: b81b49de-aaee-4224-9f5c-554b51f10cfa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureId method, IOpcSigningOptions.GetSignatureId, IOpcSigningOptions::GetSignatureId, msopc/IOpcSigningOptions::GetSignatureId, opc.iopcsigningoptions_getsignatureid
 ms.topic: method

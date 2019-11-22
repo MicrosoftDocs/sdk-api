@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.put_TransactionTimeout
 title: IUIAutomation2::put_TransactionTimeout (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for information about an automation element.
 old-location: winauto\uiauto_iuiautomation2_transactiontimeout.htm
 tech.root: WinAuto
 ms.assetid: 05E010BA-E35D-45D7-8B2C-0099CE086FE3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation2 interface [Windows Accessibility],TransactionTimeout property, IUIAutomation2.TransactionTimeout, IUIAutomation2.put_TransactionTimeout, IUIAutomation2::TransactionTimeout, IUIAutomation2::get_TransactionTimeout, IUIAutomation2::put_TransactionTimeout, TransactionTimeout property [Windows Accessibility], TransactionTimeout property [Windows Accessibility],IUIAutomation2 interface, put_TransactionTimeout, uiautomationclient/IUIAutomation2::TransactionTimeout, uiautomationclient/IUIAutomation2::get_TransactionTimeout, uiautomationclient/IUIAutomation2::put_TransactionTimeout, winauto.uiauto_iuiautomation2_transactiontimeout
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capSetCallbackOnYield
 title: capSetCallbackOnYield macro (vfw.h)
-author: windows-sdk-content
+
 description: The capSetCallbackOnYield macro sets a callback function in the application. AVICap calls this procedure when the capture window yields during streaming capture. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_YIELD message.
 old-location: multimedia\capsetcallbackonyield.htm
 tech.root: Multimedia
 ms.assetid: efddbcbc-f1e3-451c-928e-984eea187de2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capSetCallbackOnYield, capSetCallbackOnYield, capSetCallbackOnYield macro [Windows Multimedia], multimedia.capsetcallbackonyield, vfw/capSetCallbackOnYield"
 ms.topic: macro

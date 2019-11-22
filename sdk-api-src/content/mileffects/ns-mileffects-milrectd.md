@@ -1,12 +1,12 @@
 ---
 UID: NS:mileffects.MilRectD
 title: MilRectD (mileffects.h)
-author: windows-sdk-content
+
 description: Describes the width, height, and location of a rectangle.
 old-location: wibe\_wibe_mil_rectd.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_rectd.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MIL_RECTD, MIL_RECTD structure [WPF Bitmap Effects], MilRectD, _wibe_mil_rectd, mileffects/MIL_RECTD, wibe._wibe_mil_rectd
 ms.topic: struct

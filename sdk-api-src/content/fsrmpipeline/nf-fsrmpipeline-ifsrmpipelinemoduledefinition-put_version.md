@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Version
 title: IFsrmPipelineModuleDefinition::put_Version (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm
 tech.root: fsrm
 ms.assetid: 02dbd15f-d3a2-4a81-a1e3-1f18676c2f5c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition.put_Version, IFsrmPipelineModuleDefinition::Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, put_Version
 ms.topic: method

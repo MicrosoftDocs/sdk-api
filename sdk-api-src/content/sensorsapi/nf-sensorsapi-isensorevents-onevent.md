@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnEvent
 title: ISensorEvents::OnEvent (sensorsapi.h)
-author: windows-sdk-content
+
 description: Provides custom event notifications.
 old-location: winsensors_com_ref\isensorevents_onevent.htm
 tech.root: SensorsAPI
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Add
 title: ISmimeCapabilities::Add (certenroll.h)
-author: windows-sdk-content
+
 description: Adds an ISmimeCapability object to the collection.
 old-location: security\ismimecapabilities_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 8ad35758-0dc1-4887-aea7-b8ead537cab2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Add method, ISmimeCapabilities.Add, ISmimeCapabilities::Add, certenroll/ISmimeCapabilities::Add, security.ismimecapabilities_add_method
 ms.topic: method

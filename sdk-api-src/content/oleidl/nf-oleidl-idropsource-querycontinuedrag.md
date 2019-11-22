@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IDropSource.QueryContinueDrag
 title: IDropSource::QueryContinueDrag (oleidl.h)
-author: windows-sdk-content
+
 description: Determines whether a drag-and-drop operation should be continued, canceled, or completed. You do not call this method directly. The OLE DoDragDrop function calls this method during a drag-and-drop operation.
 old-location: com\idropsource_querycontinuedrag.htm
 tech.root: com
 ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
 ms.topic: method

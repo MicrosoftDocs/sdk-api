@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionTranslateTransform3D
 title: IDCompositionTranslateTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a 3D transformation that affects the offset of a visual along the x-axis, y-axis, and z-axis.
 old-location: directcomp\idcompositiontranslatetransform3d.htm
 tech.root: directcomp
 ms.assetid: C265E5FC-F7A1-4E87-8311-C4D0613DD7BC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D, IDCompositionTranslateTransform3D interface [DirectComposition], IDCompositionTranslateTransform3D interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform3D, directcomp.idcompositiontranslatetransform3d
 ms.topic: interface

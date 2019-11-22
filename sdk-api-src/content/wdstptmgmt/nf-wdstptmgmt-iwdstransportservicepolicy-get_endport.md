@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_EndPort
 title: IWdsTransportServicePolicy::get_EndPort (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Enables a WDS client computer to configure the end of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_endport.htm
 tech.root: wds
 ms.assetid: ee458ab8-38f1-43ec-a9b4-a2c31f80fce2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy.get_EndPort, IWdsTransportServicePolicy::EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, get_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
 ms.topic: method

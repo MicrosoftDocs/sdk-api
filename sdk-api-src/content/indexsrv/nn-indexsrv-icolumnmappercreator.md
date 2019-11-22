@@ -1,12 +1,12 @@
 ---
 UID: NN:indexsrv.IColumnMapperCreator
 title: IColumnMapperCreator (indexsrv.h)
-author: windows-sdk-content
+
 description: Contains a method to retrieves a column mapper object.
 old-location: search\icolumnmappercreator.htm
 tech.root: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], IColumnMapperCreator interface [search],described, indexsrv/IColumnMapperCreator, search.icolumnmappercreator
 ms.topic: interface

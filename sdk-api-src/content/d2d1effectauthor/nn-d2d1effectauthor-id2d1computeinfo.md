@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ComputeInfo
 title: ID2D1ComputeInfo (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Enables specification of information for a compute-shader rendering pass.
 old-location: direct2d\id2d1computeinfo.htm
 tech.root: Direct2D
 ms.assetid: 0560BB4B-B837-4DA8-AD68-545224152BA5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeInfo, ID2D1ComputeInfo interface [Direct2D], ID2D1ComputeInfo interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeInfo, direct2d.id2d1computeinfo
 ms.topic: interface

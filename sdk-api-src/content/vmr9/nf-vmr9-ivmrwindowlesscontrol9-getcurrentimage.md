@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetCurrentImage
 title: IVMRWindowlessControl9::GetCurrentImage (vmr9.h)
-author: windows-sdk-content
+
 description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.
 old-location: dshow\ivmrwindowlesscontrol9_getcurrentimage.htm
 tech.root: DirectShow
 ms.assetid: dddba9a5-be25-4dc4-9d91-eaff78d2405d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl9.GetCurrentImage, IVMRWindowlessControl9::GetCurrentImage, IVMRWindowlessControl9GetCurrentImage, dshow.ivmrwindowlesscontrol9_getcurrentimage, vmr9/IVMRWindowlessControl9::GetCurrentImage
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.Close
 title: IWMRegisteredDevice::Close (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Close method closes the device, if it is open. It also releases all resources associated with the device.
 old-location: wmformat\iwmregistereddevice_close.htm
 tech.root: wmformat
 ms.assetid: 5d30eb82-1d5c-4d40-9dc9-7360e64cd55e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],Close method, IWMRegisteredDevice.Close, IWMRegisteredDevice::Close, IWMRegisteredDeviceClose, wmformat.iwmregistereddevice_close, wmsdkidl/IWMRegisteredDevice::Close
 ms.topic: method

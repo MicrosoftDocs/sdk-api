@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
 title: WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
-author: windows-sdk-content
+
 description: A security binding constraint that can be used to extract information about how to obtain an issued token from an issuing party.
 old-location: wsw\ws_issued_token_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 7588f526-d1d5-486f-b317-f1a4b35e3882
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_issued_token_message_security_binding_constraint
 ms.topic: struct

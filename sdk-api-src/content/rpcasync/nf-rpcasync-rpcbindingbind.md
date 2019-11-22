@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcasync.RpcBindingBind
 title: RpcBindingBind function (rpcasync.h)
-author: windows-sdk-content
+
 description: The RpcBindingBind function contacts an RPC server and binds to it.
 old-location: rpc\rpcbindingbind.htm
 tech.root: Rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
 ms.topic: function

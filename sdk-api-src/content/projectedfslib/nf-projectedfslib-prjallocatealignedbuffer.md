@@ -1,12 +1,12 @@
 ---
 UID: NF:projectedfslib.PrjAllocateAlignedBuffer
 title: PrjAllocateAlignedBuffer function (projectedfslib.h)
-author: windows-sdk-content
+
 description: Allocates a buffer that meets the memory alignment requirements of the virtualization instance's storage device.
 old-location: projfs\prjallocatealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: 49B723CC-976D-44C6-91D9-0FB26CFD45CA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrjAllocateAlignedBuffer, PrjAllocateAlignedBuffer function, ProjFS.prjallocatealignedbuffer, projectedfslib/PrjAllocateAlignedBuffer
 ms.topic: function

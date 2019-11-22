@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMDeconstructCertificateChain
 title: DRMDeconstructCertificateChain function (msdrm.h)
-author: windows-sdk-content
+
 description: Retrieves a specified certificate from a certificate chain.
 old-location: rm\drmdeconstructcertificatechain.htm
 tech.root: AdRms_Sdk
 ms.assetid: 893263cc-2647-4f62-b997-354ea976081f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMDeconstructCertificateChain, DRMDeconstructCertificateChain function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeconstructCertificateChain, rm.drmdeconstructcertificatechain
 ms.topic: function

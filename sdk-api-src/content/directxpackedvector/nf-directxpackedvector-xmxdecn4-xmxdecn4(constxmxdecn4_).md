@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(const XMXDECN4 &)
 title: XMXDECN4::XMXDECN4(const XMXDECN4 &) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMXDECN4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(), XMXDECN4.XMXDECN4(const XMXDECN4 &), XMXDECN4::XMXDECN4, XMXDECN4::XMXDECN4(const XMXDECN4 &), dxmath.xmxdecn4_ctor_1
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:interactioncontext.BufferPointerPacketsInteractionContext
 title: BufferPointerPacketsInteractionContext function (interactioncontext.h)
-author: windows-sdk-content
+
 description: Adds the history for a single input pointer to the buffer of the Interaction Context object.
 old-location: input_intcontext\bufferpointerpacketsinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMLINK
 title: NMLINK (commctrl.h)
-author: windows-sdk-content
+
 description: The NMLINK Contains notification information. Send this structure with the NM_CLICK or NM_RETURN messages.
 old-location: controls\NMLINK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\nmlink.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PNMLINK, NMLINK, NMLINK structure [Windows Controls], PNMLINK, PNMLINK structure pointer [Windows Controls], commctrl/NMLINK, commctrl/PNMLINK, controls.NMLINK, controls.inet_NMLINK_str, inet_NMLINK_str, inet_NMLINK_str_cpp'
 ms.topic: struct

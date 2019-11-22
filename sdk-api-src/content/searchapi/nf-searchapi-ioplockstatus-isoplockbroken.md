@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IOpLockStatus.IsOplockBroken
 title: IOpLockStatus::IsOplockBroken (searchapi.h)
-author: windows-sdk-content
+
 description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 old-location: search\_search_IOpLockStatus_IsOplockBroken.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\isoplockbroken.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockBroken method, IOpLockStatus.IsOplockBroken, IOpLockStatus::IsOplockBroken, IsOplockBroken, IsOplockBroken method [search], IsOplockBroken method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockBroken, search._search_IOpLockStatus_IsOplockBroken, searchapi/IOpLockStatus::IsOplockBroken
 ms.topic: method

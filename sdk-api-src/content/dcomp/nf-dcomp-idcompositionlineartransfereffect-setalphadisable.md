@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaDisable
 title: IDCompositionLinearTransferEffect::SetAlphaDisable (dcomp.h)
-author: windows-sdk-content
+
 description: Specifies whether to apply the transfer function to the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphadisable.htm
 tech.root: directcomp
 ms.assetid: B0D76D35-FDB8-45CA-8D41-8D6C9597ED1B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaDisable method, IDCompositionLinearTransferEffect.SetAlphaDisable, IDCompositionLinearTransferEffect::SetAlphaDisable, SetAlphaDisable, SetAlphaDisable method [DirectComposition], SetAlphaDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaDisable, directcomp.idcompositionlineartransfereffect_setalphadisable
 ms.topic: method

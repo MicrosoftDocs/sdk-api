@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_Select
 title: TreeView_Select macro (commctrl.h)
-author: windows-sdk-content
+
 description: Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation.
 old-location: controls\TreeView_Select.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_select.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, TreeView_Select macro [Windows Controls], _win32_TreeView_Select, _win32_TreeView_Select_cpp, commctrl/TreeView_Select, controls.TreeView_Select, controls._win32_TreeView_Select
 ms.topic: macro

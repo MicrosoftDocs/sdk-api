@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Rating
 title: IAMMediaContent::get_Rating (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_Rating method retrieves the rating.
 old-location: dshow\iammediacontent_get_rating.htm
 tech.root: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.topic: method

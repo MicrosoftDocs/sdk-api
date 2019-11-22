@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextPara.SetKeepWithNext
 title: ITextPara::SetKeepWithNext (tom.h)
-author: windows-sdk-content
+
 description: Controls whether page breaks are allowed between the paragraphs in a range.
 old-location: controls\ITextPara_SetKeepWithNext.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeepwithnext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepWithNext method, ITextPara.SetKeepWithNext, ITextPara::SetKeepWithNext, SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepWithNext, _win32_ITextPara_SetKeepWithNext_cpp, controls.ITextPara_SetKeepWithNext, controls._win32_ITextPara_SetKeepWithNext, tom/ITextPara::SetKeepWithNext
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi._DEVHTINFO
 title: DEVHTINFO (winddi.h)
-author: windows-sdk-content
+
 description: The DEVHTINFO structure is used as input to the HTUI_DeviceColorAdjustment function.
 old-location: display\devhtinfo.htm
 tech.root: display
 ms.assetid: 81abebbf-97f2-422f-b0ab-f6f920e09fef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDEVHTINFO, PDEVHTINFO structure pointer [Display Devices], display.devhtinfo, grstrcts_9ec57bb2-b77e-419b-8d26-03db8485cf35.xml, winddi/DEVHTINFO, winddi/PDEVHTINFO'
 ms.topic: struct

@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory7.GetSystemFontSet
 title: IDWriteFactory7::GetSystemFontSet
-author: windows-sdk-content
+
 description: Retrieves the set of system fonts.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory7 interface [Direct Write],GetSystemFontSet method, IDWriteFactory7.GetSystemFontSet, IDWriteFactory7::GetSystemFontSet, GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory7 interface, directwrite.idwritefactory7_getsystemfontset, dwrite_3/IDWriteFactory7::GetSystemFontSet
 ms.topic: method

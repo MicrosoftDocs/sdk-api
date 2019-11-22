@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(GpStringFormat,Status)
 title: StringFormat::StringFormat(GpStringFormat,Status) (gdiplusstringformat.h)
-author: windows-sdk-content
+
 description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(GpStringFormat,Status), StringFormat::StringFormat, StringFormat::StringFormat(GpStringFormat,Status), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CONNECT_FAIL_REASON
 title: DOT11_ADHOC_CONNECT_FAIL_REASON (adhoc.h)
-author: windows-sdk-content
+
 description: Specifies the reason why a connection attempt failed.
 old-location: nwifi\dot11_adhoc_connect_fail_reason.htm
 tech.root: NativeWiFi
 ms.assetid: ea95f0b8-14ce-40a6-b5a3-853c414c52af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH, DOT11_ADHOC_CONNECT_FAIL_OTHER, DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH, DOT11_ADHOC_CONNECT_FAIL_REASON, DOT11_ADHOC_CONNECT_FAIL_REASON enumeration [NativeWIFI], adhoc/DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH, adhoc/DOT11_ADHOC_CONNECT_FAIL_OTHER, adhoc/DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH, adhoc/DOT11_ADHOC_CONNECT_FAIL_REASON, nwifi.dot11_adhoc_connect_fail_reason
 ms.topic: enum

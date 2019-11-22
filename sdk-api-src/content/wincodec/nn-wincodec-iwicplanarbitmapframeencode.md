@@ -1,12 +1,12 @@
 ---
 UID: NN:wincodec.IWICPlanarBitmapFrameEncode
 title: IWICPlanarBitmapFrameEncode (wincodec.h)
-author: windows-sdk-content
+
 description: Allows planar component image pixels to be written to an encoder.
 old-location: wic\iwicplanarbitmapframeencode.htm
 tech.root: wic
 ms.assetid: 7ACA58CC-E132-4836-B955-322375ADDAA1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
 ms.topic: interface

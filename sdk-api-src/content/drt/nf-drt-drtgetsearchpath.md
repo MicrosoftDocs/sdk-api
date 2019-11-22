@@ -1,12 +1,12 @@
 ---
 UID: NF:drt.DrtGetSearchPath
 title: DrtGetSearchPath function (drt.h)
-author: windows-sdk-content
+
 description: DrtGetSearchPath function returns a list of nodes contacted during the search operation.
 old-location: p2p\drtgetsearchpath.htm
 tech.root: P2PSdk
 ms.assetid: d095acbe-30bf-4449-bd00-a9f8813111c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/DrtGetSearchPath, p2p.drtgetsearchpath
 ms.topic: function

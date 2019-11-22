@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.Equals
 title: IDWriteFontFace5::Equals
-author: windows-sdk-content
+
 description: Performs an equality comparison between the font face object on which **Equals** is being called and the font face object passed as a parameter.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],Equals method, IDWriteFontFace5.Equals, IDWriteFontFace5::Equals, Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_equals, dwrite_3/IDWriteFontFace5::Equals
 ms.topic: method

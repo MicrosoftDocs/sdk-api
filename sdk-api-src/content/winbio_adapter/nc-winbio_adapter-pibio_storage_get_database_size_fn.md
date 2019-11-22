@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_DATABASE_SIZE_FN
 title: PIBIO_STORAGE_GET_DATABASE_SIZE_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Retrieves the database size and available space.
 old-location: secbiomet\storageadaptergetdatabasesize.htm
 tech.root: SecBioMet
 ms.assetid: 98e26b32-3e2a-40d9-8463-9bd7e93c636b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_GET_DATABASE_SIZE_FN, PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback, StorageAdapterGetDatabaseSize, StorageAdapterGetDatabaseSize callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdatabasesize, winbio_adapter/StorageAdapterGetDatabaseSize
 ms.topic: callback

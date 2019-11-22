@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1 &,ID2D1DrawingStateBlock1)
 title: ID2D1Factory1::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1 &,ID2D1DrawingStateBlock1) (d2d1_1.h)
-author: windows-sdk-content
+
 description: Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.
 old-location: direct2d\id2d1factory1_createdrawingstateblock2.htm
 tech.root: Direct2D
 ms.assetid: A7DFF2AD-87CC-4E95-B52D-4C84DAAF469F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory1.CreateDrawingStateBlock, ID2D1Factory1.CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1 &,ID2D1DrawingStateBlock1), ID2D1Factory1::CreateDrawingStateBlock, ID2D1Factory1::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1 &,ID2D1DrawingStateBlock1), d2d1_1/ID2D1Factory1::CreateDrawingStateBlock, direct2d.id2d1factory1_createdrawingstateblock2
 ms.topic: method

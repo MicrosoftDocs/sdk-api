@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextFont2.SetModWidthPairs
 title: ITextFont2::SetModWidthPairs (tom.h)
-author: windows-sdk-content
+
 description: Sets whether &#0034;decrease widths on pairs&#0034; is active.
 old-location: controls\itextfont2_setmodwidthpairs.htm
 tech.root: Controls
 ms.assetid: 60117c84-18f9-49db-8d13-b55576874d2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthPairs method, ITextFont2.SetModWidthPairs, ITextFont2::SetModWidthPairs, SetModWidthPairs, SetModWidthPairs method [Windows Controls], SetModWidthPairs method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthpairs, tom/ITextFont2::SetModWidthPairs
 ms.topic: method

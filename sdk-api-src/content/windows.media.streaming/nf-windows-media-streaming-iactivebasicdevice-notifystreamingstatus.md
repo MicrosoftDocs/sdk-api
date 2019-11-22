@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.NotifyStreamingStatus
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Called by the application to indicate that the device is being used for active streaming.
 old-location: mediastreaming\iactivebasicdevice_notifystreamingstatus.htm
 tech.root: mediastreaming
 ms.assetid: D62E8571-1DE9-4BAB-A291-415FD6E9F9C8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],NotifyStreamingStatus method, IActiveBasicDevice.NotifyStreamingStatus, IActiveBasicDevice.streaming, IActiveBasicDevice::NotifyStreamingStatus, IActiveBasicDevice::streaming, NotifyStreamingStatus, NotifyStreamingStatus method [Media Streaming API], NotifyStreamingStatus method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_notifystreamingstatus, windows/IActiveBasicDevice::NotifyStreamingStatus
 ms.topic: method

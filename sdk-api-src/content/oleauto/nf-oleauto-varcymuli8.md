@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyMulI8
 title: VarCyMulI8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Multiplies a currency value by a 64-bit integer.
 old-location: automat\varcymuli8.htm
 tech.root: automat
 ms.assetid: 52f73532-db69-4220-aed3-caedb671b935
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyMulI8, VarCyMulI8 function [Automation], _oa96_VarCyMulI8, automat.varcymuli8, oleauto/VarCyMulI8
 ms.topic: function

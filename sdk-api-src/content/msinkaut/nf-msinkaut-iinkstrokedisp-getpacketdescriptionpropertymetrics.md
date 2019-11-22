@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketDescriptionPropertyMetrics
 title: IInkStrokeDisp::GetPacketDescriptionPropertyMetrics (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the metrics for a given packet description type.
 old-location: tablet\iinkstrokedisp_getpacketdescriptionpropertymetrics.htm
 tech.root: tablet
 ms.assetid: 21b13777-d924-45d6-bdcc-284c9b7d9627
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 21b13777-d924-45d6-bdcc-284c9b7d9627, GetPacketDescriptionPropertyMetrics, GetPacketDescriptionPropertyMetrics method [Tablet PC], GetPacketDescriptionPropertyMetrics method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketDescriptionPropertyMetrics method, IInkStrokeDisp.GetPacketDescriptionPropertyMetrics, IInkStrokeDisp::GetPacketDescriptionPropertyMetrics, msinkaut/IInkStrokeDisp::GetPacketDescriptionPropertyMetrics, tablet.iinkstrokedisp_getpacketdescriptionpropertymetrics
 ms.topic: method

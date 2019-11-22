@@ -1,12 +1,12 @@
 ---
 UID: NF:icontact.IContactProperties.GetString
 title: IContactProperties::GetString (icontact.h)
-author: windows-sdk-content
+
 description: Retrieves the string value at a specified property into a caller-allocated buffer.
 old-location: wincontacts\_wincontacts_IContactProperties_GetString.htm
 tech.root: wincontacts
 ms.assetid: ecab7290-9a35-4da3-a161-b8d52a031172
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Contacts], GetString method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetString method, IContactProperties.GetString, IContactProperties::GetString, _wincontacts_IContactProperties_GetString, icontact/IContactProperties::GetString, wincontacts._wincontacts_IContactProperties_GetString
 ms.topic: method

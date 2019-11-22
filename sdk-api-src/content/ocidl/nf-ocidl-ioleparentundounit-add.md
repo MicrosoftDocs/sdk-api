@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.Add
 title: IOleParentUndoUnit::Add (ocidl.h)
-author: windows-sdk-content
+
 description: Adds a simple undo unit to the collection.
 old-location: com\ioleparentundounit_add.htm
 tech.root: com
 ms.assetid: 86db3308-6f01-47f1-ba28-3ed5e70b7cb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],Add method, IOleParentUndoUnit.Add, IOleParentUndoUnit::Add, _ole_ioleparentundounit_add, com.ioleparentundounit_add, ocidl/IOleParentUndoUnit::Add
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IMoniker.Inverse
 title: IMoniker::Inverse (objidl.h)
-author: windows-sdk-content
+
 description: Creates a moniker that is the inverse of this moniker. When composed to the right of this moniker or one of similar structure, the moniker will compose to nothing.
 old-location: com\imoniker_inverse.htm
 tech.root: com
 ms.assetid: 351d5da3-043b-426a-99e9-9f882f552239
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker::Inverse, Inverse, Inverse method [COM], Inverse method [COM],IMoniker interface, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
 ms.topic: method

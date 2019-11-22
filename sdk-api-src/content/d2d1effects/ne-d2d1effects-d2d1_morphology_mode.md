@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects.D2D1_MORPHOLOGY_MODE
 title: D2D1_MORPHOLOGY_MODE (d2d1effects.h)
-author: windows-sdk-content
+
 description: The mode for the Morphology effect.
 old-location: direct2d\d2d1_morphology_mode.htm
 tech.root: Direct2D
 ms.assetid: 59402C6A-1F69-4766-A328-2EE6868F09DD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_MORPHOLOGY_MODE, D2D1_MORPHOLOGY_MODE enumeration [Direct2D], D2D1_MORPHOLOGY_MODE_DILATE, D2D1_MORPHOLOGY_MODE_ERODE, d2d1effects/D2D1_MORPHOLOGY_MODE, d2d1effects/D2D1_MORPHOLOGY_MODE_DILATE, d2d1effects/D2D1_MORPHOLOGY_MODE_ERODE, direct2d.d2d1_morphology_mode
 ms.topic: enum

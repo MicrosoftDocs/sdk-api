@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.SetPixelV
 title: SetPixelV function (wingdi.h)
-author: windows-sdk-content
+
 description: The SetPixelV function sets the pixel at the specified coordinates to the closest approximation of the specified color. The point must be in the clipping region and the visible part of the device surface.
 old-location: gdi\setpixelv.htm
 tech.root: gdi
 ms.assetid: 638f0ffd-3771-4390-b335-0517be5312fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetPixelV, SetPixelV function [Windows GDI], _win32_SetPixelV, gdi.setpixelv, wingdi/SetPixelV
 ms.topic: function

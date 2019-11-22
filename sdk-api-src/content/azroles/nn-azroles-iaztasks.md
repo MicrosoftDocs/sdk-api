@@ -1,12 +1,12 @@
 ---
 UID: NN:azroles.IAzTasks
 title: IAzTasks (azroles.h)
-author: windows-sdk-content
+
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm
 tech.root: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect
 title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a localized string that describes what happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect.htm
 tech.root: WinAuto
 ms.assetid: C7A2C62B-D61B-4884-BEF0-E4EB1088D1AB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, IUIAutomationDropTargetPattern::CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
 ms.topic: method

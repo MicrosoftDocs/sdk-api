@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearRecords
 title: IBitsPeerCacheAdministration::ClearRecords (bits3_0.h)
-author: windows-sdk-content
+
 description: Removes all the records and files from the cache.
 old-location: bits\ibitspeercacheadministration_clearrecords.htm
 tech.root: Bits
 ms.assetid: 96e18c5d-6c76-4953-8e8e-3e98943478d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearRecords, ClearRecords method [BITS], ClearRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearRecords method, IBitsPeerCacheAdministration.ClearRecords, IBitsPeerCacheAdministration::ClearRecords, bits.ibitspeercacheadministration_clearrecords, bits3_0/IBitsPeerCacheAdministration::ClearRecords
 ms.topic: method

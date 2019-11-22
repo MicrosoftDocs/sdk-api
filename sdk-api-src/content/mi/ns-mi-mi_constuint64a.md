@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstUint64A
 title: MI_ConstUint64A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Uint64 types.
 old-location: wmi_v2\mi_constuint64a.htm
 tech.root: wmi_v2
 ms.assetid: 6363509d-2389-496b-ae8e-7ef6cd4af6ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint64A, MI_ConstUint64A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint64A, wmi._mi_constuint64a, wmi_v2.mi_constuint64a
 ms.topic: struct

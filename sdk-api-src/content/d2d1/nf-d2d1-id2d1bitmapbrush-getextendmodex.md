@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetExtendModeX
 title: ID2D1BitmapBrush::GetExtendModeX (d2d1.h)
-author: windows-sdk-content
+
 description: Gets the method by which the brush horizontally tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_GetExtendModeX.htm
 tech.root: Direct2D
 ms.assetid: 167c5aff-b070-4020-87c4-1385e014f22a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetExtendModeX method, ID2D1BitmapBrush.GetExtendModeX, ID2D1BitmapBrush::GetExtendModeX, d2d1/ID2D1BitmapBrush::GetExtendModeX, direct2d.ID2D1BitmapBrush_GetExtendModeX
 ms.topic: method

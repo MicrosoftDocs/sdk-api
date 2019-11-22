@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IWebProxy.get_AutoDetect
 title: IWebProxy::get_AutoDetect (wuapi.h)
-author: windows-sdk-content
+
 description: Gets and sets a Boolean value that indicates whether IWebProxy automatically detects proxy settings.
 old-location: wua\iwebproxy_autodetect.htm
 tech.root: Wua_Sdk
 ms.assetid: cd222133-e44b-453a-9fbf-72f609cb2d4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AutoDetect property [Windows Update Agent], AutoDetect property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],AutoDetect property, IWebProxy.AutoDetect, IWebProxy.get_AutoDetect, IWebProxy::AutoDetect, IWebProxy::get_AutoDetect, IWebProxy::put_AutoDetect, get_AutoDetect, wua.iwebproxy_autodetect, wuapi/IWebProxy::AutoDetect, wuapi/IWebProxy::get_AutoDetect, wuapi/IWebProxy::put_AutoDetect
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DefWindowProcW
 title: DefWindowProcW function (winuser.h)
-author: windows-sdk-content
+
 description: Calls the default window procedure to provide default processing for any window messages that an application does not process.
 old-location: winmsg\defwindowproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\defwindowproc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DefWindowProc, DefWindowProc function [Windows and Messages], DefWindowProcA, DefWindowProcW, _win32_DefWindowProc, _win32_defwindowproc_cpp, winmsg.defwindowproc, winui._win32_defwindowproc, winuser/DefWindowProc, winuser/DefWindowProcA, winuser/DefWindowProcW
 ms.topic: function

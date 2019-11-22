@@ -1,12 +1,12 @@
 ---
 UID: NF:raseapif.RasEapGetInfo
 title: RasEapGetInfo function (raseapif.h)
-author: windows-sdk-content
+
 description: The RAS connection manager calls RasEapGetInfo to obtain a set of function pointers for a specified authentication protocol.
 old-location: eap\raseapgetinfo.htm
 tech.root: EAP
 ms.assetid: e75964b9-f5d6-494e-8620-07f0e97bcd09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RasEapGetInfo, RasEapGetInfo callback, RasEapGetInfo callback function [EAP], _eap_raseapgetinfo, eap.raseapgetinfo, raseapif/RasEapGetInfo
 ms.topic: function

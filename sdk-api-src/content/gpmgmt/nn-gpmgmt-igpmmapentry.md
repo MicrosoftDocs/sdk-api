@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntry
 title: IGPMMapEntry (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMMapEntry interface provides access to a map entry.
 old-location: gpmc\igpmmapentry.htm
 tech.root: gpmc
 ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntry, IGPMMapEntry, IGPMMapEntry interface [GPMC], IGPMMapEntry interface [GPMC],described, gpmc.igpmmapentry, gpmgmt/IGPMMapEntry
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteColorGlyphRunEnumerator1
 title: IDWriteColorGlyphRunEnumerator1 (dwrite_3.h)
-author: windows-sdk-content
+
 description: Enumerator for an ordered collection of color glyph runs.
 old-location: directwrite\idwritecolorglyphrunenumerator1.htm
 tech.root: DirectWrite
 ms.assetid: 692CB5FF-3E74-4D3E-B961-E4AF5995A1B2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator1, IDWriteColorGlyphRunEnumerator1 interface [Direct Write], IDWriteColorGlyphRunEnumerator1 interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator1, dwrite_3/IDWriteColorGlyphRunEnumerator1
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:davclnt._DAV_CALLBACK_AUTH_BLOB
 title: DAV_CALLBACK_AUTH_BLOB (davclnt.h)
-author: windows-sdk-content
+
 description: Stores an authentication BLOB that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_auth_blob.htm
 tech.root: WebDAV
 ms.assetid: 59976cb0-ed68-4db0-b8f8-cfe5e778916b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB structure [WebDAV], PDAV_CALLBACK_AUTH_BLOB, PDAV_CALLBACK_AUTH_BLOB structure pointer [WebDAV], davclnt/DAV_CALLBACK_AUTH_BLOB, davclnt/PDAV_CALLBACK_AUTH_BLOB, webdav.dav_callback_auth_blob'
 ms.topic: struct

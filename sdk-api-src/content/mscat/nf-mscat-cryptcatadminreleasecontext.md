@@ -1,12 +1,12 @@
 ---
 UID: NF:mscat.CryptCATAdminReleaseContext
 title: CryptCATAdminReleaseContext function (mscat.h)
-author: windows-sdk-content
+
 description: Releases the handle previously assigned by the CryptCATAdminAcquireContext function.
 old-location: security\cryptcatadminreleasecontext.htm
 tech.root: SecCrypto
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
 ms.topic: function

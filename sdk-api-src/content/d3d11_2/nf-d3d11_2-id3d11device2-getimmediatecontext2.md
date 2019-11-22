@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.GetImmediateContext2
 title: ID3D11Device2::GetImmediateContext2 (d3d11_2.h)
-author: windows-sdk-content
+
 description: Gets an immediate context, which can play back command lists.
 old-location: direct3d11\id3d11device2_getimmediatecontext2.htm
 tech.root: direct3d11
 ms.assetid: 3DCA642D-7992-4C1E-8AD2-CA0099188A46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImmediateContext2, GetImmediateContext2 method [Direct3D 11], GetImmediateContext2 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],GetImmediateContext2 method, ID3D11Device2.GetImmediateContext2, ID3D11Device2::GetImmediateContext2, d3d11_2/ID3D11Device2::GetImmediateContext2, direct3d11.id3d11device2_getimmediatecontext2
 ms.topic: method

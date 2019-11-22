@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetString
 title: IDWriteLocalizedStrings::GetString (dwrite.h)
-author: windows-sdk-content
+
 description: Copies the string with the specified index to the specified array.
 old-location: directwrite\IDWriteLocalizedStrings_GetString.htm
 tech.root: DirectWrite
 ms.assetid: adb7358b-044b-440b-8429-be715d22cd83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetString method, IDWriteLocalizedStrings.GetString, IDWriteLocalizedStrings::GetString, directwrite.IDWriteLocalizedStrings_GetString, dwrite/IDWriteLocalizedStrings::GetString
 ms.topic: method

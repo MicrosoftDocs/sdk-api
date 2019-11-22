@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.CreateInstance
 title: IWICMetadataReaderInfo::CreateInstance (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Creates an instance of an IWICMetadataReader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_createinstance.htm
 tech.root: wic
 ms.assetid: e6ee4ee9-8d9d-44f7-aab8-8e8ccfa7f942
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICMetadataReaderInfo interface, IWICMetadataReaderInfo interface [Windows Imaging Component],CreateInstance method, IWICMetadataReaderInfo.CreateInstance, IWICMetadataReaderInfo::CreateInstance, _wic_codec_iwicmetadatareaderinfo_createinstance, wic._wic_codec_iwicmetadatareaderinfo_createinstance, wincodecsdk/IWICMetadataReaderInfo::CreateInstance
 ms.topic: method

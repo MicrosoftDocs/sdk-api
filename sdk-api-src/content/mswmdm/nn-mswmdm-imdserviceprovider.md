@@ -1,12 +1,12 @@
 ---
 UID: NN:mswmdm.IMDServiceProvider
 title: IMDServiceProvider (mswmdm.h)
-author: windows-sdk-content
+
 description: The IMDServiceProvider interface is the initial interface that Windows Media Device Manager uses to connect to your service provider.
 old-location: wmdm\imdserviceprovider.htm
 tech.root: WMDM
 ms.assetid: 803b6cc5-2cb2-42ad-a92c-05f098cbe8ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider, IMDServiceProvider interface [windows Media Device Manager], IMDServiceProvider interface [windows Media Device Manager],described, IMDServiceProviderInterface, mswmdm/IMDServiceProvider, wmdm.imdserviceprovider
 ms.topic: interface

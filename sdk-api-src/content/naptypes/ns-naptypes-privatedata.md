@@ -1,12 +1,12 @@
 ---
 UID: NS:naptypes.tagPrivateData
 title: PrivateData (naptypes.h)
-author: windows-sdk-content
+
 description: Is used to store and retrieve opaque data blobs.
 old-location: nap\privatedata_struct.htm
 tech.root: NAP
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, naptypes/PrivateData
 ms.topic: struct

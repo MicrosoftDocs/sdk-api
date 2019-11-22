@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetEncryptionBltKey
 title: IDirect3DCryptoSession9::GetEncryptionBltKey (d3d9.h)
-author: windows-sdk-content
+
 description: Gets the cryptographic key used to decrypt the data returned by the IDirect3DCryptoSession9::EncryptionBlt method.
 old-location: mf\idirect3dcryptosession9_getencryptionbltkey.htm
 tech.root: medfound
 ms.assetid: c06b42b7-dc8a-4004-b2c5-37accc76db40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetEncryptionBltKey method, IDirect3DCryptoSession9.GetEncryptionBltKey, IDirect3DCryptoSession9::GetEncryptionBltKey, d3d9/IDirect3DCryptoSession9::GetEncryptionBltKey, mf.idirect3dcryptosession9_getencryptionbltkey
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingStruct
 title: TraceLoggingStruct macro (traceloggingprovider.h)
-author: windows-sdk-content
+
 description: Wrapper macro for defining a group of related fields in an event.
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
 ms.topic: macro

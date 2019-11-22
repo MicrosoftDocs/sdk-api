@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.put_AutoSetFocus
 title: IUIAutomation2::put_AutoSetFocus (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Specifies whether calls to UI Automation control pattern methods automatically set focus to the target element.
 old-location: winauto\uiauto_IUIAutomation2_AutoSetFocus.htm
 tech.root: WinAuto
 ms.assetid: 86B0C641-6A5B-4E1A-ADB8-7663B246739B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AutoSetFocus property [Windows Accessibility], AutoSetFocus property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],AutoSetFocus property, IUIAutomation2.AutoSetFocus, IUIAutomation2.put_AutoSetFocus, IUIAutomation2::AutoSetFocus, IUIAutomation2::get_AutoSetFocus, IUIAutomation2::put_AutoSetFocus, put_AutoSetFocus, uiautomationclient/IUIAutomation2::AutoSetFocus, uiautomationclient/IUIAutomation2::get_AutoSetFocus, uiautomationclient/IUIAutomation2::put_AutoSetFocus, winauto.uiauto_IUIAutomation2_AutoSetFocus
 ms.topic: method

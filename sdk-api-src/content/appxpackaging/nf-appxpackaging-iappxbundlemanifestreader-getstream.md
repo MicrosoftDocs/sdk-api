@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetStream
 title: IAppxBundleManifestReader::GetStream (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets the raw XML document without any preprocessing.
 old-location: appxpkg\iappxbundlemanifestreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
 ms.topic: method

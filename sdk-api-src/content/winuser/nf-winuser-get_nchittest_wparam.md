@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GET_NCHITTEST_WPARAM
 title: GET_NCHITTEST_WPARAM macro (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the hit-test value from the specified WPARAM value.
 old-location: inputdev\get_nchittest_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_nchittest_wparam.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GET_NCHITTEST_WPARAM, GET_NCHITTEST_WPARAM macro [Keyboard and Mouse Input], _win32_GET_NCHITTEST_WPARAM, _win32_get_nchittest_wparam_cpp, inputdev.get_nchittest_wparam, winui._win32_get_nchittest_wparam, winuser/GET_NCHITTEST_WPARAM
 ms.topic: macro

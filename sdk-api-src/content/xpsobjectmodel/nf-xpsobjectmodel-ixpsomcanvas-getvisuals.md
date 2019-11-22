@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetVisuals
 title: IXpsOMCanvas::GetVisuals (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the visual objects in the canvas.
 old-location: xps\ixpsomcanvas_getvisuals.htm
 tech.root: printdocs
 ms.assetid: 67f42c32-f9d2-4d64-a8e1-b18a0d5f55fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetVisuals method, IXpsOMCanvas.GetVisuals, IXpsOMCanvas::GetVisuals, xps.ixpsomcanvas_getvisuals, xpsobjectmodel/IXpsOMCanvas::GetVisuals
 ms.topic: method

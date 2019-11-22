@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.AddProfile
 title: IMFSensorProfileCollection::AddProfile (mfidl.h)
-author: windows-sdk-content
+
 description: Adds the specified profile to the collection.
 old-location: mf\imfsensorprofilecollection_addprofile.htm
 tech.root: medfound
 ms.assetid: 4997E69B-6444-4603-ABCF-4E2526B5AC23
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddProfile, AddProfile method [Media Foundation], AddProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],AddProfile method, IMFSensorProfileCollection.AddProfile, IMFSensorProfileCollection::AddProfile, mf.imfsensorprofilecollection_addprofile, mfidl/IMFSensorProfileCollection::AddProfile
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetRecordComponentRef
 title: IIsdbDataContentDescriptor::GetRecordComponentRef (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the value of the component_ref field from a specified component record in an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This field contains the broadcaster-defined component tag that identifies a component stream.
 old-location: mstv\iisdbdatacontentdescriptor_getrecordcomponentref.htm
 tech.root: mstv
 ms.assetid: 3668c323-6808-4bc4-b372-37647ef3fdd8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordComponentRef, GetRecordComponentRef method [Microsoft TV Technologies], GetRecordComponentRef method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetRecordComponentRef method, IIsdbDataContentDescriptor.GetRecordComponentRef, IIsdbDataContentDescriptor::GetRecordComponentRef, dvbsiparser/IIsdbDataContentDescriptor::GetRecordComponentRef, mstv.iisdbdatacontentdescriptor_getrecordcomponentref
 ms.topic: method

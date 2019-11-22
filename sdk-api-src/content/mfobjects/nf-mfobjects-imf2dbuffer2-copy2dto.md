@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Copy2DTo
 title: IMF2DBuffer2::Copy2DTo (mfobjects.h)
-author: windows-sdk-content
+
 description: Copies the buffer to another 2D buffer object.
 old-location: mf\imf2dbuffer2_copy2dto.htm
 tech.root: medfound
 ms.assetid: 90B0CBA2-2474-4B34-8BB4-6C59C05CDD7E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Copy2DTo, Copy2DTo method [Media Foundation], Copy2DTo method [Media Foundation],IMF2DBuffer2 interface, IMF2DBuffer2 interface [Media Foundation],Copy2DTo method, IMF2DBuffer2.Copy2DTo, IMF2DBuffer2::Copy2DTo, mf.imf2dbuffer2_copy2dto, mfobjects/IMF2DBuffer2::Copy2DTo
 ms.topic: method

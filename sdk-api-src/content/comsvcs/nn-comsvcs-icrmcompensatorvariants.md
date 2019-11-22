@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.ICrmCompensatorVariants
 title: ICrmCompensatorVariants (comsvcs.h)
-author: windows-sdk-content
+
 description: Delivers structured log records to the CRM Compensator when using Microsoft Visual Basic.
 old-location: cos\icrmcompensatorvariants.htm
 tech.root: cossdk
 ms.assetid: 44b80062-b2bb-4c34-b9e1-31229c8e40ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], ICrmCompensatorVariants interface [COM+],described, _dtc_ICrmCompensatorVariants_Interface, comsvcs/ICrmCompensatorVariants, cos.icrmcompensatorvariants
 ms.topic: interface

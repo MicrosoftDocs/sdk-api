@@ -1,12 +1,12 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Close
 title: IWRdsGraphicsChannel::Close (wrdsgraphicschannels.h)
-author: windows-sdk-content
+
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm
 tech.root: TermServ
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
 ms.topic: method

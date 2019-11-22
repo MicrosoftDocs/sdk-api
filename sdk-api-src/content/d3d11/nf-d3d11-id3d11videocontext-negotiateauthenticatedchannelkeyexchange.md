@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.NegotiateAuthenticatedChannelKeyExchange
 title: ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange (d3d11.h)
-author: windows-sdk-content
+
 description: Establishes a session key for an authenticated channel.
 old-location: mf\id3d11videocontext_negotiateauthenticatedchannelkeyexchange.htm
 tech.root: medfound
 ms.assetid: FF546AE5-D062-41A9-B143-8B25466BF6E3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],NegotiateAuthenticatedChannelKeyExchange method, ID3D11VideoContext.NegotiateAuthenticatedChannelKeyExchange, ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, NegotiateAuthenticatedChannelKeyExchange, NegotiateAuthenticatedChannelKeyExchange method [Media Foundation], NegotiateAuthenticatedChannelKeyExchange method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, mf.id3d11videocontext_negotiateauthenticatedchannelkeyexchange
 ms.topic: method

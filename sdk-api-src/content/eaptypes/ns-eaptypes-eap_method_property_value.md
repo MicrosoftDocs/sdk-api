@@ -1,12 +1,12 @@
 ---
 UID: NS:eaptypes.__unnamed_union_2
 title: EAP_METHOD_PROPERTY_VALUE (eaptypes.h)
-author: windows-sdk-content
+
 description: Contains the value of an EAP method property.
 old-location: eaphost\eap_method_property_value.htm
 tech.root: eaphost
 ms.assetid: 298b59d3-245f-4a29-b8a1-2265d65d30e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
 ms.topic: struct

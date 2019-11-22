@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITLocationInfo
 title: ITLocationInfo (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITLocationInfo interface is used to get information related to the location of the calling party. This is the location information that is entered by using the Telephony applet under the Control Panel.
 old-location: tapi3\itlocationinfo.htm
 tech.root: Tapi
 ms.assetid: 0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
 ms.topic: interface

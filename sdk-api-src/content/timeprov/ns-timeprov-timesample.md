@@ -1,12 +1,12 @@
 ---
 UID: NS:timeprov.TimeSample
 title: TimeSample (timeprov.h)
-author: windows-sdk-content
+
 description: Represents a time sample.
 old-location: base\timesample_str.htm
 tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:aviriff._avistdindex
 title: AVISTDINDEX (aviriff.h)
-author: windows-sdk-content
+
 description: Contains an AVI 2.0 standard index.
 old-location: dshow\avistdindex.htm
 tech.root: DirectShow
 ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
 ms.topic: struct

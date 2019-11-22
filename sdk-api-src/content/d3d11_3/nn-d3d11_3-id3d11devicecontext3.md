@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d11_3.ID3D11DeviceContext3
 title: ID3D11DeviceContext3 (d3d11_3.h)
-author: windows-sdk-content
+
 description: The device context interface represents a device context; it is used to render commands. ID3D11DeviceContext3 adds new methods to those in ID3D11DeviceContext2.
 old-location: direct3d11\id3d11devicecontext3.htm
 tech.root: direct3d11
 ms.assetid: 65F462DB-5546-4B23-B438-60067FD60103
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext3, ID3D11DeviceContext3 interface [Direct3D 11], ID3D11DeviceContext3 interface [Direct3D 11],described, d3d11_3/ID3D11DeviceContext3, direct3d11.id3d11devicecontext3
 ms.topic: interface

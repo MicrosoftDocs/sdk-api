@@ -1,12 +1,12 @@
 ---
 UID: NE:dxva9typ._COPP_StatusHDCPFlags
 title: COPP_StatusHDCPFlags (dxva9typ.h)
-author: windows-sdk-content
+
 description: Contains HDCP status flags. This enumeration is used in the DXVA_COPPStatusHDCPKeyData structure.
 old-location: dshow\copp_statushdcpflags.htm
 tech.root: DirectShow
 ms.assetid: 40ad7f00-9b4f-4c2d-8c6b-05725a072bfc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags , COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
 ms.topic: enum

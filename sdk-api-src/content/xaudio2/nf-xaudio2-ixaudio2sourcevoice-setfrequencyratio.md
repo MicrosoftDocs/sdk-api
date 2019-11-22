@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetFrequencyRatio
 title: IXAudio2SourceVoice::SetFrequencyRatio (xaudio2.h)
-author: windows-sdk-content
+
 description: Sets the frequency adjustment ratio of the voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetFrequencyRatio method, IXAudio2SourceVoice.SetFrequencyRatio, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
 ms.topic: method

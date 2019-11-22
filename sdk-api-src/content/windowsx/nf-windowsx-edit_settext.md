@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.Edit_SetText
 title: Edit_SetText macro (windowsx.h)
-author: windows-sdk-content
+
 description: Sets the text of an edit control.
 old-location: controls\Edit_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_SetText, Edit_SetText macro [Windows Controls], _win32_Edit_SetText, _win32_Edit_SetText_cpp, controls.Edit_SetText, controls._win32_Edit_SetText, windowsx/Edit_SetText
 ms.topic: macro

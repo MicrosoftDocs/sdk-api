@@ -1,12 +1,12 @@
 ---
 UID: NF:certbcli.CertSrvRestoreEnd
 title: CertSrvRestoreEnd function (certbcli.h)
-author: windows-sdk-content
+
 description: Ends a Certificate Services restore session.
 old-location: security\certsrvrestoreend.htm
 tech.root: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.topic: function

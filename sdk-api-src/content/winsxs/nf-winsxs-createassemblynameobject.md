@@ -1,12 +1,12 @@
 ---
 UID: NF:winsxs.CreateAssemblyNameObject
 title: CreateAssemblyNameObject function (winsxs.h)
-author: windows-sdk-content
+
 description: The CreateAssemblyNameObject function obtains an instance of the IAssemblyName interface.
 old-location: setup\createassemblynameobject.htm
 tech.root: SbsCs
 ms.assetid: 1290a0b3-28f9-46fb-a98f-40b43bc0df1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-by-side Assemblies], setup.createassemblynameobject, winsxs/CreateAssemblyNameObject
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:appxpackaging.APPX_COMPRESSION_OPTION
 title: APPX_COMPRESSION_OPTION (appxpackaging.h)
-author: windows-sdk-content
+
 description: Specifies the degree of compression used to store the file in the package.
 old-location: appxpkg\appx_compression_option.htm
 tech.root: appxpkg
 ms.assetid: C4FEE4DA-1097-4870-BB43-A910E20BCBD6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APPX_COMPRESSION_OPTION, APPX_COMPRESSION_OPTION enumeration [App packaging and management], APPX_COMPRESSION_OPTION_FAST, APPX_COMPRESSION_OPTION_MAXIMUM, APPX_COMPRESSION_OPTION_NONE, APPX_COMPRESSION_OPTION_NORMAL, APPX_COMPRESSION_OPTION_SUPERFAST, appxpackaging/APPX_COMPRESSION_OPTION, appxpackaging/APPX_COMPRESSION_OPTION_FAST, appxpackaging/APPX_COMPRESSION_OPTION_MAXIMUM, appxpackaging/APPX_COMPRESSION_OPTION_NONE, appxpackaging/APPX_COMPRESSION_OPTION_NORMAL, appxpackaging/APPX_COMPRESSION_OPTION_SUPERFAST, appxpkg.appx_compression_option
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentPosition
 title: IWMPControls::get_currentPosition (wmp.h)
-author: windows-sdk-content
+
 description: The get_currentPosition method retrieves the current position in the media item in seconds from the beginning.
 old-location: wmp\iwmpcontrols_get_currentposition.htm
 tech.root: WMP
 ms.assetid: ba7d42b4-2025-4881-b1eb-98636bb1c5ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition method, IWMPControls.get_currentPosition, IWMPControls::get_currentPosition, IWMPControlsget_currentPosition, get_currentPosition, get_currentPosition method [Windows Media Player], get_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentposition, wmp/IWMPControls::get_currentPosition
 ms.topic: method

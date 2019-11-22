@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadSInt2
 title: XMLoadSInt2 function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads signed integer data into the x and y components of an XMVECTOR.
 old-location: dxmath\xmloadsint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt2(const XMINT2)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadSInt2, XMLoadSInt2, XMLoadSInt2 method [DirectX Math Support APIs], dxmath.xmloadsint2
 ms.topic: function

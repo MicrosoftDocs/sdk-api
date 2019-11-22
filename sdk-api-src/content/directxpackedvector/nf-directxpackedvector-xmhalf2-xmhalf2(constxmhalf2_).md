@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(const XMHALF2 &)
 title: XMHALF2::XMHALF2(const XMHALF2 &) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMHALF2.
 old-location: dxmath\xmhalf2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const XMHALF2 &), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const XMHALF2 &), dxmath.xmhalf2_ctor_1
 ms.topic: method

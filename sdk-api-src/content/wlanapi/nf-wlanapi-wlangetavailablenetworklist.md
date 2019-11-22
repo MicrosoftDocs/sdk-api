@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanGetAvailableNetworkList
 title: WlanGetAvailableNetworkList function (wlanapi.h)
-author: windows-sdk-content
+
 description: Retrieves the list of available networks on a wireless LAN interface.
 old-location: nwifi\wlangetavailablenetworklist.htm
 tech.root: NativeWiFi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
 ms.topic: function

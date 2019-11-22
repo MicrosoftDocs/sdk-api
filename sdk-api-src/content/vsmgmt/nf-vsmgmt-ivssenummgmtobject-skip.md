@@ -1,12 +1,12 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Skip
 title: IVssEnumMgmtObject::Skip (vsmgmt.h)
-author: windows-sdk-content
+
 description: Skips the specified number of objects.
 old-location: base\ivssenummgmtobject_skip.htm
 tech.root: VSS
 ms.assetid: ec53ac62-deb3-46f3-947a-1f6a4add4db2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Skip method, IVssEnumMgmtObject.Skip, IVssEnumMgmtObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_skip, vsmgmt/IVssEnumMgmtObject::Skip
 ms.topic: method

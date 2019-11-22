@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecPrivateData.GetPrivateData
 title: IWMCodecPrivateData::GetPrivateData (wmcodecdsp.h)
-author: windows-sdk-content
+
 description: Retrieves the codec data for the video content based on the output type passed using the IWMCodecPrivateData::SetPartialOutputType method.
 old-location: mf\iwmcodecprivatedatagetprivatedata.htm
 tech.root: medfound
 ms.assetid: 20e61bf6-f242-4f8e-84e6-f6158a0947bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation],IWMCodecPrivateData interface, IWMCodecPrivateData interface [Media Foundation],GetPrivateData method, IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/IWMCodecPrivateData::GetPrivateData
 ms.topic: method

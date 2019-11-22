@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl.MouseSelect
 title: IDvdControl::MouseSelect (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects a DVD button in response to mouse movement.
 old-location: dshow\idvdcontrol_mouseselect.htm
 tech.root: DirectShow
 ms.assetid: c843bf51-ae05-4045-b517-52daeda6bc07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MouseSelect method, IDvdControl.MouseSelect, IDvdControl::MouseSelect, IDvdControlMouseSelect, MouseSelect, MouseSelect method [DirectShow], MouseSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_mouseselect, strmif/IDvdControl::MouseSelect
 ms.topic: method

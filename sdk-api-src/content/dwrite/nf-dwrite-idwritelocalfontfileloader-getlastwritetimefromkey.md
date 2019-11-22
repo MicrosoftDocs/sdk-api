@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey
 title: IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey (dwrite.h)
-author: windows-sdk-content
+
 description: Obtains the last write time of the file from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getlastwritetimefromkey.htm
 tech.root: DirectWrite
 ms.assetid: ce7f5321-8ad8-4412-a54c-7102790e99c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLastWriteTimeFromKey, GetLastWriteTimeFromKey method [Direct Write], GetLastWriteTimeFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetLastWriteTimeFromKey method, IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey, IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey, directwrite.idwritelocalfontfileloader_getlastwritetimefromkey, dwrite/IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey
 ms.topic: method

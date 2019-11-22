@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.Edit_GetRect
 title: Edit_GetRect macro (windowsx.h)
-author: windows-sdk-content
+
 description: Gets the formatting rectangle of an edit control. You can use this macro or send the EM_GETRECT message explicitly.
 old-location: controls\Edit_GetRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getrect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_GetRect, _win32_Edit_GetRect_cpp, controls.Edit_GetRect, controls._win32_Edit_GetRect, windowsx/Edit_GetRect
 ms.topic: macro

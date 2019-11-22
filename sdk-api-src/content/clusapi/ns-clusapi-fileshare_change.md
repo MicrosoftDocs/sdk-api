@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._FILESHARE_CHANGE
 title: FILESHARE_CHANGE (clusapi.h)
-author: windows-sdk-content
+
 description: Describes the format for an entry in an event notification list.
 old-location: mscs\fileshare_change.htm
 tech.root: MsCS
 ms.assetid: f317f162-49b2-43df-a298-e2de707e089a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PFILESHARE_CHANGE, FILESHARE_CHANGE, FILESHARE_CHANGE structure [Failover Cluster], FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_MODIFY, PFILESHARE_CHANGE, PFILESHARE_CHANGE structure pointer [Failover Cluster], clusapi/FILESHARE_CHANGE, clusapi/PFILESHARE_CHANGE, mscs.fileshare_change'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetWindowInfo
 title: GetWindowInfo function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves information about the specified window.
 old-location: winmsg\getwindowinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWindowInfo, GetWindowInfo function [Windows and Messages], _win32_GetWindowInfo, _win32_getwindowinfo_cpp, winmsg.getwindowinfo, winui._win32_getwindowinfo, winuser/GetWindowInfo
 ms.topic: function

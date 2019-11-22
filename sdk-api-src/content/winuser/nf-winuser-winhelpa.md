@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.WinHelpA
 title: WinHelpA function (winuser.h)
-author: windows-sdk-content
+
 description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
 old-location: shell\WinHelp.htm
 tech.root: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win32_WinHelp, shell.WinHelp, winuser/WinHelp, winuser/WinHelpA, winuser/WinHelpW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.SetLinkUpdateOptions
 title: IOleUILinkContainerW::SetLinkUpdateOptions (oledlg.h)
-author: windows-sdk-content
+
 description: Sets a link's update options to automatic or manual.
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm
 tech.root: com
 ms.assetid: d2a7758d-9692-4e3c-8186-b74530299a6a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkUpdateOptions method, IOleUILinkContainer::SetLinkUpdateOptions, IOleUILinkContainerA interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerA::SetLinkUpdateOptions, IOleUILinkContainerW interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerW.SetLinkUpdateOptions, IOleUILinkContainerW::SetLinkUpdateOptions, SetLinkUpdateOptions, SetLinkUpdateOptions method [COM], SetLinkUpdateOptions method [COM],IOleUILinkContainer interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_SetLinkUpdateOptions, com.ioleuilinkcontainer_setlinkupdateoptions, oledlg/IOleUILinkContainer::SetLinkUpdateOptions, oledlg/IOleUILinkContainerA::SetLinkUpdateOptions, oledlg/IOleUILinkContainerW::SetLinkUpdateOptions
 ms.topic: method

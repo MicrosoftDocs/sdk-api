@@ -1,12 +1,12 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCache2
 title: IEmptyVolumeCache2 (emptyvc.h)
-author: windows-sdk-content
+
 description: Extends IEmptyVolumeCache. This interface defines one additional method, InitializeEx, that provides better localization support than IEmptyVolumeCache::Initialize.
 old-location: lwef\iemptyvolumecache2.htm
 tech.root: lwef
 ms.assetid: a3e941ee-0477-48a8-96bd-c9d74c66ca41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], IEmptyVolumeCache2 interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache2, emptyvc/IEmptyVolumeCache2, lwef.iemptyvolumecache2, shell.iemptyvolumecache2
 ms.topic: interface

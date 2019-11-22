@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
 title: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST (ntsecapi.h)
-author: windows-sdk-content
+
 description: Specifies a message to add a binding cache entry.
 old-location: security\kerb_add_binding_cache_entry_request.htm
 tech.root: SecAuthN
 ms.assetid: 2EFB8F01-0665-4031-B02A-8ECB5B9C7C21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure pointer [Security], ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, security.kerb_add_binding_cache_entry_request'
 ms.topic: struct

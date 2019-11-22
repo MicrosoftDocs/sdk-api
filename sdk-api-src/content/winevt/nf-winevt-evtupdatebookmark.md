@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtUpdateBookmark
 title: EvtUpdateBookmark function (winevt.h)
-author: windows-sdk-content
+
 description: Updates the bookmark with information that identifies the specified event.
 old-location: wes\evtupdatebookmark.htm
 tech.root: wes
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
 ms.topic: function

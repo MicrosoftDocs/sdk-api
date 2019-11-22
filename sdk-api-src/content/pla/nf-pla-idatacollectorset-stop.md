@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollectorSet.Stop
 title: IDataCollectorSet::Stop (pla.h)
-author: windows-sdk-content
+
 description: Manually stops the data collector set.
 old-location: pla\idatacollectorset_stop.htm
 tech.root: PLA
 ms.assetid: b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Stop method, IDataCollectorSet.Stop, IDataCollectorSet::Stop, Stop, Stop method [PLA], Stop method [PLA],IDataCollectorSet interface, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
 ms.topic: method

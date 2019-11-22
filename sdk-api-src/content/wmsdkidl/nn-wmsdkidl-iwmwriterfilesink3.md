@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMWriterFileSink3
 title: IWMWriterFileSink3 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMWriterFileSink3 interface provides additional functionality to the file sink object. To obtain a pointer to this interface, call QueryInterface on the file sink object.
 old-location: wmformat\iwmwriterfilesink3.htm
 tech.root: wmformat
 ms.assetid: 67f418c8-184d-46f0-8939-69194c7e7a50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
 ms.topic: interface

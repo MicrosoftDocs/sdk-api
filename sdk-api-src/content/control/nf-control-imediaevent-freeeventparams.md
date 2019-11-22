@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IMediaEvent.FreeEventParams
 title: IMediaEvent::FreeEventParams (control.h)
-author: windows-sdk-content
+
 description: The FreeEventParams method frees resources associated with the parameters of an event.
 old-location: dshow\imediaevent_freeeventparams.htm
 tech.root: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
 ms.topic: method

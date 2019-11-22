@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.RemoveFromSelection
 title: IUIAutomationTextRange::RemoveFromSelection (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Removes the text range from an existing collection of selected text in a text container that supports multiple, disjoint selections.
 old-location: winauto\uiauto_IUIAutomationTextRange_RemoveFromSelection.htm
 tech.root: WinAuto
 ms.assetid: 24aa2e4f-4024-4915-81f5-4bc704cc1559
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],RemoveFromSelection method, IUIAutomationTextRange.RemoveFromSelection, IUIAutomationTextRange::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_RemoveFromSelection, uiauto_IUIAutomationTextRange_RemoveFromSelection, uiautomationclient/IUIAutomationTextRange::RemoveFromSelection, winauto.uiauto_IUIAutomationTextRange_RemoveFromSelection
 ms.topic: method

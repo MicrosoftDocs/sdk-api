@@ -1,12 +1,12 @@
 ---
 UID: NF:winscard.SCardWriteCacheW
 title: SCardWriteCacheW function (winscard.h)
-author: windows-sdk-content
+
 description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardwritecache.htm
 tech.root: SecAuthN
 ms.assetid: e982e297-6a78-41f4-a81c-d207a96f1dab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SCardWriteCache, SCardWriteCache function [Security], SCardWriteCacheA, SCardWriteCacheW, security.scardwritecache, winscard/SCardWriteCache, winscard/SCardWriteCacheA, winscard/SCardWriteCacheW
 ms.topic: function

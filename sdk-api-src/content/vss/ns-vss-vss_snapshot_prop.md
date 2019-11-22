@@ -1,12 +1,12 @@
 ---
 UID: NS:vss._VSS_SNAPSHOT_PROP
 title: VSS_SNAPSHOT_PROP (vss.h)
-author: windows-sdk-content
+
 description: Contains the properties of a shadow copy or shadow copy set.
 old-location: base\vss_snapshot_prop.htm
 tech.root: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP structure pointer [VSS], VSS_SNAPSHOT_PROP, VSS_SNAPSHOT_PROP structure [VSS], _win32_vss_snapshot_prop, base.vss_snapshot_prop, vss/PVSS_SNAPSHOT_PROP, vss/VSS_SNAPSHOT_PROP'
 ms.topic: struct

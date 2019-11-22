@@ -1,12 +1,12 @@
 ---
 UID: NE:winnt._TRANSACTION_OUTCOME
 title: TRANSACTION_OUTCOME (winnt.h)
-author: windows-sdk-content
+
 description: Defines the outcomes (results) that KTM can assign to a transaction.
 old-location: fs\transaction_outcome.htm
 tech.root: ktm
 ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Files], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, fs.transaction_outcome, winnt/TRANSACTION_OUTCOME, winnt/TransactionOutcomeAborted, winnt/TransactionOutcomeCommitted, winnt/TransactionOutcomeUndetermined
 ms.topic: enum

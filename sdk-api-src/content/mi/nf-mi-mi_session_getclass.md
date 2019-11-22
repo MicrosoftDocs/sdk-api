@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Session_GetClass
 title: MI_Session_GetClass function (mi.h)
-author: windows-sdk-content
+
 description: Gets an MI_Class declaration based on a specific class name.
 old-location: wmi_v2\mi_session_getclass.htm
 tech.root: wmi_v2
 ms.assetid: 7023a205-c7d0-4455-9a35-77e62bc42e9c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Session_GetClass, MI_Session_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Session_GetClass, wmi_v2.mi_session_getclass
 ms.topic: function

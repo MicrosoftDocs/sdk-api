@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.DrvStartPage
 title: DrvStartPage function (winddi.h)
-author: windows-sdk-content
+
 description: The DrvStartPage function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.
 old-location: display\drvstartpage.htm
 tech.root: display
 ms.assetid: 31e42524-de9a-459a-95a7-94b2597c3cd8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrvStartPage, DrvStartPage function [Display Devices], ddifncs_eef4f1da-1923-4282-82d2-ac1ab5386ab9.xml, display.drvstartpage, winddi/DrvStartPage
 ms.topic: function

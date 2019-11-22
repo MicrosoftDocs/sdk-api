@@ -1,12 +1,12 @@
 ---
 UID: NN:mpconfig.IMixerPinConfig
 title: IMixerPinConfig (mpconfig.h)
-author: windows-sdk-content
+
 description: The IMixerPinConfig interface is exposed on the input pins of the Overlay Mixer filter and contains methods that manipulate video streams in various ways.
 old-location: dshow\imixerpinconfig.htm
 tech.root: DirectShow
 ms.assetid: 6a4f3462-4596-4f02-a41f-47161f8aa4db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], IMixerPinConfig interface [DirectShow],described, IMixerPinConfigInterface, dshow.imixerpinconfig, mpconfig/IMixerPinConfig
 ms.topic: interface

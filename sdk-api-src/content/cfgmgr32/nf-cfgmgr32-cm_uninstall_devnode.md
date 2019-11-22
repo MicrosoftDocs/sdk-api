@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Uninstall_DevNode
 title: CM_Uninstall_DevNode function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Uninstall_DevNode function removes all persistent state associated with a device instance.
 old-location: devinst\cm_uninstall_devnode.htm
 tech.root: devinst
 ms.assetid: e472e642-cf0d-4c88-907f-5cfb08fb4e76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Uninstall_DevNode, CM_Uninstall_DevNode function [Device and Driver Installation], cfgmgr32/CM_Uninstall_DevNode, cfgmgrfn_a3aadd47-2a1b-4123-823f-7d7cb988812e.xml, devinst.cm_uninstall_devnode
 ms.topic: function

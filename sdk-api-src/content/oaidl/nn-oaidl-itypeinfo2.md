@@ -1,12 +1,12 @@
 ---
 UID: NN:oaidl.ITypeInfo2
 title: ITypeInfo2 (oaidl.h)
-author: windows-sdk-content
+
 description: Used for reading information about objects.
 old-location: automat\itypeinfo2.htm
 tech.root: automat
 ms.assetid: d3a34a13-6114-4f15-9de5-60da43fde600
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo2, ITypeInfo2 interface [Automation], ITypeInfo2 interface [Automation],described, _oa96_ITypeInfo2_Interface, automat.itypeinfo2, oaidl/ITypeInfo2
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CONTROL_UNIT_FN
 title: PIBIO_ENGINE_CONTROL_UNIT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Performs a vendor-defined control operation that does not require elevated privilege.
 old-location: secbiomet\engineadaptercontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: e0b61709-948f-4adf-8391-b904cf8a1648
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterControlUnit, EngineAdapterControlUnit callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_FN, PIBIO_ENGINE_CONTROL_UNIT_FN callback, secbiomet.engineadaptercontrolunit, winbio_adapter/EngineAdapterControlUnit
 ms.topic: callback

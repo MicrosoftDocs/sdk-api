@@ -1,12 +1,12 @@
 ---
 UID: NC:faxdev.PFAX_SEND_CALLBACK
 title: PFAX_SEND_CALLBACK (faxdev.h)
-author: windows-sdk-content
+
 description: The FaxSendCallback function is an application-defined or library-defined callback function that a fax service provider (FSP) calls to notify the fax service that an outgoing fax call is in progress.
 old-location: fax\_mfax_faxsendcallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xt7.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
 ms.topic: callback

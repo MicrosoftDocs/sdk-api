@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollItemPattern_ScrollIntoView
 title: ScrollItemPattern_ScrollIntoView function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Scrolls the content area of a container object in order to display the UI Automation element within the visible region (viewport) of the container.
 old-location: winauto\uiauto_ScrollItemPattern_ScrollIntoViewConPat.htm
 tech.root: WinAuto
 ms.assetid: cd68138f-dcd2-4d1d-aee6-f25168b0045b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScrollItemPattern_ScrollIntoView, ScrollItemPattern_ScrollIntoView function [Windows Accessibility], uiauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiautomationcoreapi/ScrollItemPattern_ScrollIntoView, winauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat
 ms.topic: function

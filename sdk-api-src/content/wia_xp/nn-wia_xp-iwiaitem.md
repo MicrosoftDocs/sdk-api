@@ -1,12 +1,12 @@
 ---
 UID: NN:wia_xp.IWiaItem
 title: IWiaItem (wia_xp.h)
-author: windows-sdk-content
+
 description: Each Windows Image Acquisition (WIA) hardware device is represented to an application as a hierarchical tree of IWiaItem objects.
 old-location: wia\_wia_IWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnPinManagerEvents
 title: IMbnPinManagerEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification interface used to indicate when PIN Manager events have occurred.
 old-location: mbn\imbnpinmanagerevents.htm
 tech.root: mbn
 ms.assetid: 2942bd4d-5bdb-45eb-a008-352bf44eec80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], IMbnPinManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinmanagerevents, mbnapi/IMbnPinManagerEvents
 ms.topic: interface

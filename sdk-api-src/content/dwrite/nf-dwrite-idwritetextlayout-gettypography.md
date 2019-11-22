@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetTypography
 title: IDWriteTextLayout::GetTypography (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the typography setting of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetTypography.htm
 tech.root: DirectWrite
 ms.assetid: cb7d8bf5-8368-426d-a321-f5c9ef8c7d40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTypography, GetTypography method [Direct Write], GetTypography method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetTypography method, IDWriteTextLayout.GetTypography, IDWriteTextLayout::GetTypography, directwrite.IDWriteTextLayout_GetTypography, dwrite/IDWriteTextLayout::GetTypography
 ms.topic: method

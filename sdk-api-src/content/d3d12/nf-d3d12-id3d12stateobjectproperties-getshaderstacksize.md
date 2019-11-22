@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetShaderStackSize
 title: ID3D12StateObjectProperties::GetShaderStackSize (d3d12.h)
-author: windows-sdk-content
+
 description: Gets the amount of stack memory required to invoke a raytracing shader in HLSL.
 old-location: direct3d12\id3d12stateobjectproperties_getshaderstacksize.htm
 tech.root: direct3d12
 ms.assetid: 3C804CAF-7263-4E37-9C00-F85959CE651D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetShaderStackSize, GetShaderStackSize method, GetShaderStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderStackSize method, ID3D12StateObjectProperties.GetShaderStackSize, ID3D12StateObjectProperties::GetShaderStackSize, d3d12/ID3D12StateObjectProperties::GetShaderStackSize, direct3d12.id3d12stateobjectproperties_getshaderstacksize
 ms.topic: method

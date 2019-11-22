@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_ApplyStoreSacl
 title: IAzAuthorizationStore::put_ApplyStoreSacl (azroles.h)
-author: windows-sdk-content
+
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\azauthorizationstore_applystoresacl.htm
 tech.root: SecAuthZ
 ms.assetid: fdace7a9-4b6b-4698-812d-c53fc3b8f0d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzAuthorizationStore object, ApplyStoreSacl property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplyStoreSacl property, IAzAuthorizationStore interface [Security],ApplyStoreSacl property, IAzAuthorizationStore.ApplyStoreSacl, IAzAuthorizationStore.put_ApplyStoreSacl, IAzAuthorizationStore::ApplyStoreSacl, IAzAuthorizationStore::get_ApplyStoreSacl, IAzAuthorizationStore::put_ApplyStoreSacl, azroles/IAzAuthorizationStore::ApplyStoreSacl, azroles/IAzAuthorizationStore::get_ApplyStoreSacl, azroles/IAzAuthorizationStore::put_ApplyStoreSacl, put_ApplyStoreSacl, security.azauthorizationstore_applystoresacl
 ms.topic: method

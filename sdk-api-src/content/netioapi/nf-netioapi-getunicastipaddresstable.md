@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.GetUnicastIpAddressTable
 title: GetUnicastIpAddressTable function (netioapi.h)
-author: windows-sdk-content
+
 description: Retrieves the unicast IP address table on the local computer.
 old-location: iphlp\getunicastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetUnicastIpAddressTable, GetUnicastIpAddressTable function [IP Helper], iphlp.getunicastipaddresstable, netioapi/GetUnicastIpAddressTable
 ms.topic: function

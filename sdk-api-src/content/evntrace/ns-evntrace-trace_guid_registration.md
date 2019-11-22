@@ -1,12 +1,12 @@
 ---
 UID: NS:evntrace._TRACE_GUID_REGISTRATION
 title: TRACE_GUID_REGISTRATION (evntrace.h)
-author: windows-sdk-content
+
 description: The TRACE_GUID_REGISTRATION structure is used to register event trace classes.
 old-location: etw\trace_guid_registration.htm
 tech.root: ETW
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION structure [ETW], _TRACE_GUID_REGISTRATION, _evt_trace_guid_registration, base.trace_guid_registration, etw.trace_guid_registration, evntrace/TRACE_GUID_REGISTRATION"
 ms.topic: struct

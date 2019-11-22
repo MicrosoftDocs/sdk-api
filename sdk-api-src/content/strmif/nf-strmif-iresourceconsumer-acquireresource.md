@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IResourceConsumer.AcquireResource
 title: IResourceConsumer::AcquireResource (strmif.h)
-author: windows-sdk-content
+
 description: The AcquireResource method notifies the resource consumer that a resource might be acquired.
 old-location: dshow\iresourceconsumer_acquireresource.htm
 tech.root: DirectShow
 ms.assetid: e88d90af-681e-483b-9b29-9844eec75e41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AcquireResource, AcquireResource method [DirectShow], AcquireResource method [DirectShow],IResourceConsumer interface, IResourceConsumer interface [DirectShow],AcquireResource method, IResourceConsumer.AcquireResource, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetIpAddrTable
 title: GetIpAddrTable function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetIpAddrTable function retrieves the interface&#8211;to&#8211;IPv4 address mapping table.
 old-location: iphlp\getipaddrtable.htm
 tech.root: IpHlp
 ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipaddrtable, iphlp.getipaddrtable, iphlpapi/GetIpAddrTable
 ms.topic: function

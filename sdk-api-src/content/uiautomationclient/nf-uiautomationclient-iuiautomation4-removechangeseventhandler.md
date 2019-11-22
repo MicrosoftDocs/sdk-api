@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation4.RemoveChangesEventHandler
 title: IUIAutomation4::RemoveChangesEventHandler (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Removes a changes event handler.
 old-location: winauto\uiauto_IUIAutomation4_RemoveChangesEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 18F65528-3038-4FF7-AEB8-AAEA3A5BB058
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation4 interface [Windows Accessibility],RemoveChangesEventHandler method, IUIAutomation4.RemoveChangesEventHandler, IUIAutomation4::RemoveChangesEventHandler, RemoveChangesEventHandler, RemoveChangesEventHandler method [Windows Accessibility], RemoveChangesEventHandler method [Windows Accessibility],IUIAutomation4 interface, uiautomationclient/IUIAutomation4::RemoveChangesEventHandler, winauto.uiauto_IUIAutomation4_RemoveChangesEventHandler
 ms.topic: method

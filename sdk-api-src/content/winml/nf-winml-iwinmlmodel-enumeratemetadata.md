@@ -1,12 +1,12 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateMetadata
 title: IWinMLModel::EnumerateMetadata (winml.h)
-author: windows-sdk-content
+
 description: Gets the metadata of the model.
 old-location: machinelearning\iwinmlmodel_enumeratemetadata.htm
 tech.root: MachineLearning
 ms.assetid: ABB51498-44CE-4B98-89FB-ED8B9B8159ED
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetadata, EnumerateMetadata method, EnumerateMetadata method,IWinMLModel interface, IWinMLModel interface,EnumerateMetadata method, IWinMLModel.EnumerateMetadata, IWinMLModel::EnumerateMetadata, MachineLearning.iwinmlmodel_enumeratemetadata, winml/IWinMLModel::EnumerateMetadata
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetThreadDesktop
 title: GetThreadDesktop function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves a handle to the desktop assigned to the specified thread.
 old-location: winstation\getthreaddesktop.htm
 tech.root: winstation
 ms.assetid: 51eec935-43c7-495b-b1fc-2bd5ba1e0090
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and Desktops], _win32_getthreaddesktop, base.getthreaddesktop, winstation.getthreaddesktop, winuser/GetThreadDesktop
 ms.topic: function

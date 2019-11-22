@@ -1,12 +1,12 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0009
 title: WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Configures which WDS components have diagnostics enabled. WDS diagnostics log events to the system event log.
 old-location: wds\wdstransport_diagnostics_component_flags.htm
 tech.root: wds
 ms.assetid: 9c6aa422-b5b3-4fe8-a1ca-f401a3c5a1fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS enumeration [Windows Deployment Services], WdsTptDiagnosticsComponentImageServer, WdsTptDiagnosticsComponentMulticast, WdsTptDiagnosticsComponentPxe, WdsTptDiagnosticsComponentTftp, wds.wdstransport_diagnostics_component_flags, wdstptmgmt/WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, wdstptmgmt/WdsTptDiagnosticsComponentImageServer, wdstptmgmt/WdsTptDiagnosticsComponentMulticast, wdstptmgmt/WdsTptDiagnosticsComponentPxe, wdstptmgmt/WdsTptDiagnosticsComponentTftp"
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetClassLinkage
 title: ID3D11ClassInstance::GetClassLinkage (d3d11.h)
-author: windows-sdk-content
+
 description: Gets the ID3D11ClassLinkage object associated with the current HLSL class.
 old-location: direct3d11\id3d11classinstance_getclasslinkage.htm
 tech.root: direct3d11
 ms.assetid: 06e5b132-5f20-41e1-827a-26df989cd4f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 73308fe8-c231-b1ce-ee64-f916ed993a53, GetClassLinkage, GetClassLinkage method [Direct3D 11], GetClassLinkage method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetClassLinkage method, ID3D11ClassInstance.GetClassLinkage, ID3D11ClassInstance::GetClassLinkage, d3d11/ID3D11ClassInstance::GetClassLinkage, direct3d11.id3d11classinstance_getclasslinkage
 ms.topic: method

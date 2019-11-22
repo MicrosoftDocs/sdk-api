@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManagerEx.IsAffectedByQuota
 title: IFsrmQuotaManagerEx::IsAffectedByQuota (fsrmquota.h)
-author: windows-sdk-content
+
 description: Retrieves a value that determines whether a specified path is subject to a quota.
 old-location: fsrm\ifsrmquotamanagerex_isaffectedbyquota.htm
 tech.root: fsrm
 ms.assetid: 8b366eae-5554-4c20-9ba9-c3a6e319712f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManagerEx interface [File Server Resource Manager],IsAffectedByQuota method, IFsrmQuotaManagerEx.IsAffectedByQuota, IFsrmQuotaManagerEx::IsAffectedByQuota, IsAffectedByQuota, IsAffectedByQuota method [File Server Resource Manager], IsAffectedByQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanagerex_isaffectedbyquota, fsrm.ifsrmquotamanagerex_isaffectedbyquota, fsrmquota/IFsrmQuotaManagerEx::IsAffectedByQuota
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmSetIconicThumbnail
 title: DwmSetIconicThumbnail function (dwmapi.h)
-author: windows-sdk-content
+
 description: Sets a static, iconic bitmap on a window or tab to use as a thumbnail representation. The taskbar can use this bitmap as a thumbnail switch target for the window or tab.
 old-location: dwm\dwmseticonicthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbnail function [Desktop Window Manager], _udwm_dwmseticonicthumbnail, _udwm_dwmseticonicthumbnail_cpp, dwm.dwmseticonicthumbnail, dwmapi/DwmSetIconicThumbnail, winui._udwm_dwmseticonicthumbnail
 ms.topic: function

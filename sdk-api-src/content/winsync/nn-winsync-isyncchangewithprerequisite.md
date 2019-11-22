@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.ISyncChangeWithPrerequisite
 title: ISyncChangeWithPrerequisite (winsync.h)
-author: windows-sdk-content
+
 description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
 old-location: winsync\isyncchangewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.DisplayModeChanged
 title: IVMRWindowlessControl9::DisplayModeChanged (vmr9.h)
-author: windows-sdk-content
+
 description: The DisplayModeChanged method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 old-location: dshow\ivmrwindowlesscontrol9_displaymodechanged.htm
 tech.root: DirectShow
 ms.assetid: ad023fa0-3540-4009-abdc-a1c980f906ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
 ms.topic: method

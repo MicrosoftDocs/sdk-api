@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetWmfHeader
 title: MetafileHeader::GetWmfHeader (gdiplusmetaheader.h)
-author: windows-sdk-content
+
 description: The MetafileHeader::GetWmfHeader method gets a METAHEADER structure that contains properties of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetWmfHeader_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getwmfheader.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWmfHeader, GetWmfHeader method [GDI+], GetWmfHeader method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetWmfHeader method, MetafileHeader.GetWmfHeader, MetafileHeader::GetWmfHeader, _gdiplus_CLASS_MetafileHeader_GetWmfHeader_, gdiplus._gdiplus_CLASS_MetafileHeader_GetWmfHeader_
 ms.topic: method

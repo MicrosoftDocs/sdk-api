@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetTransactionType
 title: IWMPContentContainerList::GetTransactionType (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetTransactionType method retrieves the type of the current transaction.
 old-location: wmp\iwmpcontentcontainerlist_gettransactiontype.htm
 tech.root: WMP
 ms.assetid: 8712d134-9dd3-4964-ae53-f63c8b69818d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetTransactionType method, IWMPContentContainerList.GetTransactionType, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
 ms.topic: method

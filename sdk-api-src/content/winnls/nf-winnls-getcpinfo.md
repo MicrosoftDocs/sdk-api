@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.GetCPInfo
 title: GetCPInfo function (winnls.h)
-author: windows-sdk-content
+
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfo.htm
 tech.root: Intl
 ms.assetid: f7401cd5-d0ed-49b1-b8fc-dda8df99e6b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCPInfo, GetCPInfo function [Internationalization for Windows Applications], _win32_GetCPInfo, intl.getcpinfo, winnls/GetCPInfo
 ms.topic: function

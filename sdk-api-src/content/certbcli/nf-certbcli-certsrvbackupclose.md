@@ -1,12 +1,12 @@
 ---
 UID: NF:certbcli.CertSrvBackupClose
 title: CertSrvBackupClose function (certbcli.h)
-author: windows-sdk-content
+
 description: Closes the file opened by the CertSrvBackupOpenFile function.
 old-location: security\certsrvbackupclose.htm
 tech.root: SecCrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
 ms.topic: function

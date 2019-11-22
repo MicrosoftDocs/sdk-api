@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ITypeLib.GetLibAttr
 title: ITypeLib::GetLibAttr (oaidl.h)
-author: windows-sdk-content
+
 description: Retrieves the structure that contains the library's attributes.
 old-location: automat\itypelib_getlibattr.htm
 tech.root: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetLibAttr method, ITypeLib.GetLibAttr, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
 ms.topic: method

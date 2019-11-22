@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._UMS_CREATE_THREAD_ATTRIBUTES
 title: UMS_CREATE_THREAD_ATTRIBUTES (winnt.h)
-author: windows-sdk-content
+
 description: Specifies attributes for a user-mode scheduling (UMS) worker thread.
 old-location: base\ums_create_thread_attributes.htm
 tech.root: ProcThread
 ms.assetid: 5d3e1721-c439-49bb-9cb6-8386fa8aaf50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES structure pointer, UMS_CREATE_THREAD_ATTRIBUTES, UMS_CREATE_THREAD_ATTRIBUTES structure, _UMS_CREATE_THREAD_ATTRIBUTES, base.ums_create_thread_attributes, winnt/PUMS_CREATE_THREAD_ATTRIBUTES, winnt/UMS_CREATE_THREAD_ATTRIBUTES"
 ms.topic: struct

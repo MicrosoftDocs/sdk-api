@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertPropertyFriendlyName.get_FriendlyName
 title: ICertPropertyFriendlyName::get_FriendlyName (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves the display name of the certificate.
 old-location: security\icertpropertyfriendlyname_friendlyname_property.htm
 tech.root: seccertenroll
 ms.assetid: 7204800e-e7ae-4fc0-a221-d6f3c2b2855b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyFriendlyName interface, ICertPropertyFriendlyName interface [Security],FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName.get_FriendlyName, ICertPropertyFriendlyName::FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_LineHeight
 title: IInkDivider::get_LineHeight (msinkaut15.h)
-author: windows-sdk-content
+
 description: Gets or sets the expected handwriting height, in HIMETRIC units.
 old-location: tablet\inkdivider_lineheight.htm
 tech.root: tablet
 ms.assetid: 69e65ad6-bcee-46a7-a139-80b4324b9c72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 69e65ad6-bcee-46a7-a139-80b4324b9c72, IInkDivider interface [Tablet PC],LineHeight property, IInkDivider.LineHeight, IInkDivider.get_LineHeight, IInkDivider::LineHeight, IInkDivider::get_LineHeight, IInkDivider::put_LineHeight, InkDivider.get_LineHeight, InkDivider.put_LineHeight, LineHeight property [Tablet PC], LineHeight property [Tablet PC],IInkDivider interface, get_LineHeight, msinkaut15/IInkDivider::LineHeight, msinkaut15/IInkDivider::get_LineHeight, msinkaut15/IInkDivider::put_LineHeight, put_LineHeight, tablet.inkdivider_lineheight
 ms.topic: method

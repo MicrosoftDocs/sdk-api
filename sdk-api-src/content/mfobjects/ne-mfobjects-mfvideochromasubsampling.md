@@ -1,12 +1,12 @@
 ---
 UID: NE:mfobjects._MFVideoChromaSubsampling
 title: MFVideoChromaSubsampling (mfobjects.h)
-author: windows-sdk-content
+
 description: Contains flags that define the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: mf\mfvideochromasubsampling.htm
 tech.root: medfound
 ms.assetid: 778d0456-f98e-44ac-afb7-9ce01da06741
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 778d0456-f98e-44ac-afb7-9ce01da06741, MFVideoChromaSubsampling, MFVideoChromaSubsampling enumeration [Media Foundation], MFVideoChromaSubsampling_Cosited, MFVideoChromaSubsampling_DV_PAL, MFVideoChromaSubsampling_ForceDWORD, MFVideoChromaSubsampling_Horizontally_Cosited, MFVideoChromaSubsampling_Last, MFVideoChromaSubsampling_MPEG1, MFVideoChromaSubsampling_MPEG2, MFVideoChromaSubsampling_ProgressiveChroma, MFVideoChromaSubsampling_Unknown, MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, MFVideoChromaSubsampling_Vertically_Cosited, mf.mfvideochromasubsampling, mfobjects/MFVideoChromaSubsampling, mfobjects/MFVideoChromaSubsampling_Cosited, mfobjects/MFVideoChromaSubsampling_DV_PAL, mfobjects/MFVideoChromaSubsampling_ForceDWORD, mfobjects/MFVideoChromaSubsampling_Horizontally_Cosited, mfobjects/MFVideoChromaSubsampling_Last, mfobjects/MFVideoChromaSubsampling_MPEG1, mfobjects/MFVideoChromaSubsampling_MPEG2, mfobjects/MFVideoChromaSubsampling_ProgressiveChroma, mfobjects/MFVideoChromaSubsampling_Unknown, mfobjects/MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, mfobjects/MFVideoChromaSubsampling_Vertically_Cosited
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:lmaccess._USER_INFO_1017
 title: USER_INFO_1017 (lmaccess.h)
-author: windows-sdk-content
+
 description: The USER_INFO_1017 structure contains expiration information for network user accounts. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1017_str.htm
 tech.root: NetMgmt
 ms.assetid: 67ded50e-ab9a-4202-9496-1a39d1af0f58
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_1017, *PUSER_INFO_1017, LPUSER_INFO_1017, LPUSER_INFO_1017 structure pointer [Network Management], PUSER_INFO_1017, PUSER_INFO_1017 structure pointer [Network Management], USER_INFO_1017, USER_INFO_1017 structure [Network Management], _win32_user_info_1017_str, lmaccess/LPUSER_INFO_1017, lmaccess/PUSER_INFO_1017, lmaccess/USER_INFO_1017, netmgmt.user_info_1017_str"
 ms.topic: struct

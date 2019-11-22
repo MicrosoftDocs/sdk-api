@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminServerSetCredentials
 title: MprAdminServerSetCredentials function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminServerSetCredentials functions sets the pre-shared key for the specified server.
 old-location: rras\mpradminserversetcredentials.htm
 tech.root: RRAS
 ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
 ms.topic: function

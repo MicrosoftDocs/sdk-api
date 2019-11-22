@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagWINDOWPOS
 title: WINDOWPOS (winuser.h)
-author: windows-sdk-content
+
 description: Contains information about the size and position of a window.
 old-location: winmsg\windowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowpos.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPWINDOWPOS, *PWINDOWPOS, LPWINDOWPOS, LPWINDOWPOS structure pointer [Windows and Messages], PWINDOWPOS, PWINDOWPOS structure pointer [Windows and Messages], SWP_ NOOWNERZORDER, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, WINDOWPOS, WINDOWPOS structure [Windows and Messages], _win32_WINDOWPOS_str, _win32_windowpos_str_cpp, winmsg.windowpos, winui._win32_windowpos_str, winuser/LPWINDOWPOS, winuser/PWINDOWPOS, winuser/WINDOWPOS"
 ms.topic: struct

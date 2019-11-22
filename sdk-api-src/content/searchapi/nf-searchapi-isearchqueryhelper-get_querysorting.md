@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySorting
 title: ISearchQueryHelper::get_QuerySorting (searchapi.h)
-author: windows-sdk-content
+
 description: Gets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_get_QuerySorting.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querysorting.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySorting method, ISearchQueryHelper.get_QuerySorting, ISearchQueryHelper::get_QuerySorting, _search_ISearchQueryHelper_get_QuerySorting, get_QuerySorting, get_QuerySorting method [search], get_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySorting, searchapi/ISearchQueryHelper::get_QuerySorting
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetRelativePosition
 title: IMixerPinConfig::GetRelativePosition (mpconfig.h)
-author: windows-sdk-content
+
 description: The GetRelativePosition method retrieves the position of the stream in the display window.
 old-location: dshow\imixerpinconfig_getrelativeposition.htm
 tech.root: DirectShow
 ms.assetid: 0a2bcc3e-361d-4374-9444-717287c07116
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRelativePosition, GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetRelativePosition method, IMixerPinConfig.GetRelativePosition, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
 ms.topic: method

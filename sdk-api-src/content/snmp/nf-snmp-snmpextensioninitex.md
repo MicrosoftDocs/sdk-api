@@ -1,12 +1,12 @@
 ---
 UID: NF:snmp.SnmpExtensionInitEx
 title: SnmpExtensionInitEx function (snmp.h)
-author: windows-sdk-content
+
 description: The Microsoft SNMP service calls the SnmpExtensionInitEx function to identify any additional management information base (MIB) subtrees the SNMP extension agent supports. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensioninitex.htm
 tech.root: SNMP
 ms.assetid: f4e090ca-3f15-4f50-8ea7-92a06868268f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionInitEx, SnmpExtensionInitEx callback, SnmpExtensionInitEx callback function [SNMP], _snmp_snmpextensioninitex, snmp.snmpextensioninitex, snmp/SnmpExtensionInitEx
 ms.topic: function

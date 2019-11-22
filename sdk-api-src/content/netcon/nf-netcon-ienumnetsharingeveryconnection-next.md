@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Next
 title: IEnumNetSharingEveryConnection::Next (netcon.h)
-author: windows-sdk-content
+
 description: The Next method retrieves the specified number of connections from the Connections folder starting from the current enumeration position.
 old-location: ics\ienumnetsharingeveryconnection_next.htm
 tech.root: ics
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Next method, IEnumNetSharingEveryConnection.Next, IEnumNetSharingEveryConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
 ms.topic: method

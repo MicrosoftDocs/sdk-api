@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_2.ID2D1GeometryRealization
 title: ID2D1GeometryRealization (d2d1_2.h)
-author: windows-sdk-content
+
 description: Encapsulates a device- and transform-dependent representation of a filled or stroked geometry.
 old-location: direct2d\id2d1geometryrealization.htm
 tech.root: Direct2D
 ms.assetid: EC2CF78B-5CED-494A-9ED3-407A4B6CD113
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometryRealization, ID2D1GeometryRealization interface [Direct2D], ID2D1GeometryRealization interface [Direct2D],described, d2d1_2/ID2D1GeometryRealization, direct2d.id2d1geometryrealization
 ms.topic: interface

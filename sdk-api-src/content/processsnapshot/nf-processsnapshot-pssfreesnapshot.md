@@ -1,12 +1,12 @@
 ---
 UID: NF:processsnapshot.PssFreeSnapshot
 title: PssFreeSnapshot function (processsnapshot.h)
-author: windows-sdk-content
+
 description: Frees a snapshot.
 old-location: proc_snap\pssfreesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
 ms.topic: function

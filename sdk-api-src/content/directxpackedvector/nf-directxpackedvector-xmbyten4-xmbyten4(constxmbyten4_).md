@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.XMBYTEN4(const XMBYTEN4 &)
 title: XMBYTEN4::XMBYTEN4(const XMBYTEN4 &) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMBYTEN4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(), XMBYTEN4.XMBYTEN4(const XMBYTEN4 &), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(const XMBYTEN4 &), dxmath.xmbyten4_ctor_1
 ms.topic: method

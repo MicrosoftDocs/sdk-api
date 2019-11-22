@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent.CertificateSuccess
 title: IMSVidStreamBufferSinkEvent::CertificateSuccess (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersinkevent_certificatesuccess.htm
 tech.root: mstv
 ms.assetid: 23ac75ee-02ee-4159-b503-65604a6601cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSinkEvent.CertificateSuccess, IMSVidStreamBufferSinkEvent::CertificateSuccess, IMSVidStreamBufferSinkEventCertificateSuccess, mstv.imsvidstreambuffersinkevent_certificatesuccess, segment/IMSVidStreamBufferSinkEvent::CertificateSuccess
 ms.topic: method

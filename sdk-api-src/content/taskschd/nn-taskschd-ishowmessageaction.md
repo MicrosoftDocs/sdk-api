@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.IShowMessageAction
 title: IShowMessageAction (taskschd.h)
-author: windows-sdk-content
+
 description: Represents an action that shows a message box when a task is activated.
 old-location: taskschd\ishowmessageaction.htm
 tech.root: taskschd
 ms.assetid: 329232de-6068-4757-b567-3ce4d2c5ba4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShowMessageAction, IShowMessageAction interface [Task Scheduler], IShowMessageAction interface [Task Scheduler],described, taskschd.ishowmessageaction, taskschd/IShowMessageAction
 ms.topic: interface

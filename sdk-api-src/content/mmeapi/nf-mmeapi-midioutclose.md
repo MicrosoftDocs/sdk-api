@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiOutClose
 title: midiOutClose function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiOutClose function closes the specified MIDI output device.
 old-location: multimedia\midioutclose.htm
 tech.root: Multimedia
 ms.assetid: 4f23295c-1c2c-4060-9c19-b3f0ed5bf44c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutClose, midiOutClose, midiOutClose function [Windows Multimedia], mmeapi/midiOutClose, multimedia.midioutclose"
 ms.topic: function

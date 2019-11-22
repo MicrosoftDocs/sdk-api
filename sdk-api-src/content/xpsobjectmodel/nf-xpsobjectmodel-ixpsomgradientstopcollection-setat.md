@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.SetAt
 title: IXpsOMGradientStopCollection::SetAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Replaces an IXpsOMGradientStop interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_setat.htm
 tech.root: printdocs
 ms.assetid: 5fa71afe-1f0a-4a25-8118-e85cc0569173
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGradientStopCollection.SetAt, IXpsOMGradientStopCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_setat, xpsobjectmodel/IXpsOMGradientStopCollection::SetAt
 ms.topic: method

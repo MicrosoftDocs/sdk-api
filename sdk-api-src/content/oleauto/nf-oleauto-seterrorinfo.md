@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SetErrorInfo
 title: SetErrorInfo function (oleauto.h)
-author: windows-sdk-content
+
 description: Sets the error information object for the current logical thread of execution.
 old-location: automat\seterrorinfo.htm
 tech.root: automat
 ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
 ms.topic: function

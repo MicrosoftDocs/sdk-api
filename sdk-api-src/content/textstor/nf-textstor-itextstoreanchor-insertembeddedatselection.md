@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbeddedAtSelection
 title: ITextStoreAnchor::InsertEmbeddedAtSelection (textstor.h)
-author: windows-sdk-content
+
 description: The ITextStoreAnchor::InsertEmbeddedAtSelection method inserts an IDataObject object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject into the text stream.
 old-location: tsf\itextstoreanchor_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 22c804b9-e260-4a8a-bbb3-fcc81fa97c7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreAnchor.InsertEmbeddedAtSelection, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
 ms.topic: method

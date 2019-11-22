@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509Enrollment.CreateRequest
 title: IX509Enrollment::CreateRequest (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an encoded certificate request.
 old-location: security\ix509enrollment_createrequest_method.htm
 tech.root: seccertenroll
 ms.assetid: bc01a648-04c7-411e-8f7a-80f19433a200
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [Security], CreateRequest method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreateRequest method, IX509Enrollment.CreateRequest, IX509Enrollment::CreateRequest, certenroll/IX509Enrollment::CreateRequest, security.ix509enrollment_createrequest_method
 ms.topic: method

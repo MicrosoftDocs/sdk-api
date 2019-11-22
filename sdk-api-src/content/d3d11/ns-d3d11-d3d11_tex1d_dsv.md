@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_DSV
 title: D3D11_TEX1D_DSV (d3d11.h)
-author: windows-sdk-content
+
 description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view.
 old-location: direct3d11\d3d11_tex1d_dsv.htm
 tech.root: direct3d11
 ms.assetid: dfdbad36-3cfc-4e24-9864-ffe1405030b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 52fb74db-7253-5122-a349-5c58ded9ca7e, D3D11_TEX1D_DSV, D3D11_TEX1D_DSV structure [Direct3D 11], d3d11/D3D11_TEX1D_DSV, direct3d11.d3d11_tex1d_dsv
 ms.topic: struct

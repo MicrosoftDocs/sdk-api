@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawLines(IN const Pen,IN const PointF,IN INT)
 title: Graphics::DrawLines
 description: The Graphics::DrawLines method draws a sequence of connected lines.
 ms.assetid: ea0d1b7b-f278-4a44-a99f-77801031d51e
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLines
 ms.topic: language-reference

@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._ASSEMBLY_FILE_DETAILED_INFORMATION
 title: ASSEMBLY_FILE_DETAILED_INFORMATION (winnt.h)
-author: windows-sdk-content
+
 description: The ASSEMBLY_FILE_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\assembly_file_detailed_information.htm
 tech.root: SbsCs
 ms.assetid: 7f1e5155-a6c1-4b6a-be47-37fab337186c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies], PASSEMBLY_FILE_DETAILED_INFORMATION, PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ASSEMBLY_FILE_DETAILED_INFORMATION, _win32_assembly_file_detailed_information, setup.assembly_file_detailed_information, winnt/ASSEMBLY_FILE_DETAILED_INFORMATION, winnt/PASSEMBLY_FILE_DETAILED_INFORMATION"
 ms.topic: struct

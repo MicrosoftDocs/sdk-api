@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC
 title: DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML operator that performs a log-of-softmax activation function on the input, f(x_i) = log(exp(x_i - max(X)) / sum(exp(X - max(X)))) = (x_i - max(X)) - log(sum(exp(x - max(X)))).
 old-location: direct3d12\dml_activation_log_softmax_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 6CC6B311-A2D7-4701-9393-57D5838EF7A4
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC, DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC structure, direct3d12.dml_activation_log_softmax_operator_desc, directml/DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC
 ms.topic: struct

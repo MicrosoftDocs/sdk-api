@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPayloadPackage
 title: IAppxBundleWriter4::AddPayloadPackage (appxpackaging.h)
-author: windows-sdk-content
+
 description: Adds a new app package to the bundle.
 old-location: appxpkg\iappxbundlewriter4_addpayloadpackage.htm
 tech.root: appxpkg
 ms.assetid: 5D313F6C-F2EC-42A4-A4A8-8026E7DBF67B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter4.AddPayloadPackage, IAppxBundleWriter4::AddPayloadPackage, appxpackaging/IAppxBundleWriter4::AddPayloadPackage, appxpkg.iappxbundlewriter4_addpayloadpackage
 ms.topic: method

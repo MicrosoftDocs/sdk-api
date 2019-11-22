@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageA
 title: ITfMessagePump::GetMessageA (msctf.h)
-author: windows-sdk-content
+
 description: ITfMessagePump::GetMessageA method
 old-location: tsf\itfmessagepump_getmessagea.htm
 tech.root: TSF
 ms.assetid: a1d66377-fca1-4c9c-ac59-a1417d8ab190
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMessageA, GetMessageA method [Text Services Framework], GetMessageA method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageA method, ITfMessagePump.GetMessageA, ITfMessagePump::GetMessageA, _tsf_itfmessagepump_getmessagea_ref, msctf/ITfMessagePump::GetMessageA, tsf.itfmessagepump_getmessagea
 ms.topic: method

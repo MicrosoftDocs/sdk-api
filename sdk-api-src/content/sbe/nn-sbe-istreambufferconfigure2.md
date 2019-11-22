@@ -1,12 +1,12 @@
 ---
 UID: NN:sbe.IStreamBufferConfigure2
 title: IStreamBufferConfigure2 (sbe.h)
-author: windows-sdk-content
+
 description: The IStreamBufferConfigure2 interface is exposed by the StreamBufferConfig object.
 old-location: mstv\istreambufferconfigure2.htm
 tech.root: mstv
 ms.assetid: df71783c-1ff3-46b0-bae2-61d12f4d70d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], IStreamBufferConfigure2 interface [Microsoft TV Technologies],described, IStreamBufferConfigure2Interface, mstv.istreambufferconfigure2, sbe/IStreamBufferConfigure2
 ms.topic: interface

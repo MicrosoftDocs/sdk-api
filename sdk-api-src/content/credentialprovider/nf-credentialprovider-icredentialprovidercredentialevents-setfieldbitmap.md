@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldBitmap
 title: ICredentialProviderCredentialEvents::SetFieldBitmap (credentialprovider.h)
-author: windows-sdk-content
+
 description: Communicates to the Logon UI or Credential UI that a tile image field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldBitmap.htm
 tech.root: shell
 ms.assetid: 860407bd-774a-409f-b7db-e30a964cf879
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldBitmap method, ICredentialProviderCredentialEvents.SetFieldBitmap, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
 ms.topic: method

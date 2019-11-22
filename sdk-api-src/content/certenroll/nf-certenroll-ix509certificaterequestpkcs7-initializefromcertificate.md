@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromCertificate
 title: IX509CertificateRequestPkcs7::InitializeFromCertificate (certenroll.h)
-author: windows-sdk-content
+
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs7.InitializeFromCertificate, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IHeaderCtrl.DeleteColumn
 title: IHeaderCtrl::DeleteColumn (mmc.h)
-author: windows-sdk-content
+
 description: Removes a column from the header of the result view.
 old-location: mmc\iheaderctrl_deletecolumn.htm
 tech.root: mmc
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
 ms.topic: method

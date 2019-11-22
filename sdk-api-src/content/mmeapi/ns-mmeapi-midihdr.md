@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.midihdr_tag
 title: MIDIHDR (mmeapi.h)
-author: windows-sdk-content
+
 description: The MIDIHDR structure defines the header used to identify a MIDI system-exclusive or stream buffer.
 old-location: multimedia\midihdr.htm
 tech.root: Multimedia
 ms.assetid: 630f0645-555e-4f48-9397-2623a9918b8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIHDR, *NPMIDIHDR, *PMIDIHDR, LPMIDIHDR, LPMIDIHDR structure pointer [Windows Multimedia], MHDR_DONE, MHDR_INQUEUE, MHDR_ISSTRM, MHDR_PREPARED, MIDIHDR, MIDIHDR structure [Windows Multimedia], _win32_MIDIHDR_str, midihdr_tag, mmeapi/LPMIDIHDR, mmeapi/MIDIHDR, multimedia.midihdr"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._RAW_SCSI_VIRTUAL_DISK_VERSION
 title: RAW_SCSI_VIRTUAL_DISK_VERSION (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains the version of the RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\raw_scsi_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: EE0567C8-D479-436B-B1AC-7D1C4AC3B403
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RAW_SCSI_VIRTUAL_DISK_VERSION, RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_VERSION_1, RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION, vhd.raw_scsi_virtual_disk_version, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION
 ms.topic: enum

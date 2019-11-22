@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetOutputPrefType
 title: IMFTopologyNode::SetOutputPrefType (mfidl.h)
-author: windows-sdk-content
+
 description: Sets the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_setoutputpreftype.htm
 tech.root: medfound
 ms.assetid: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8, IMFTopologyNode interface [Media Foundation],SetOutputPrefType method, IMFTopologyNode.SetOutputPrefType, IMFTopologyNode::SetOutputPrefType, SetOutputPrefType, SetOutputPrefType method [Media Foundation], SetOutputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setoutputpreftype, mfidl/IMFTopologyNode::SetOutputPrefType
 ms.topic: method

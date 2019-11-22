@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClassInfoW
 title: GetClassInfoW function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves information about a window class.
 old-location: winmsg\getclassinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClassInfo, GetClassInfo function [Windows and Messages], GetClassInfoA, GetClassInfoW, _win32_GetClassInfo, _win32_getclassinfo_cpp, winmsg.getclassinfo, winui._win32_getclassinfo, winuser/GetClassInfo, winuser/GetClassInfoA, winuser/GetClassInfoW
 ms.topic: function

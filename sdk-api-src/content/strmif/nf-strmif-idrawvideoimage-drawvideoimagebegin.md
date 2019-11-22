@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageBegin
 title: IDrawVideoImage::DrawVideoImageBegin (strmif.h)
-author: windows-sdk-content
+
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageBegin method turns off DirectDraw in preparation for a call to the DrawVideoImageDraw method.
 old-location: dshow\idrawvideoimage_drawvideoimagebegin.htm
 tech.root: DirectShow
 ms.assetid: a39125b3-15b1-428d-aa64-c1b2bccf616a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageBegin, DrawVideoImageBegin method [DirectShow], DrawVideoImageBegin method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageBegin method, IDrawVideoImage.DrawVideoImageBegin, IDrawVideoImage::DrawVideoImageBegin, IDrawVideoImageDrawVideoImageBegin, dshow.idrawvideoimage_drawvideoimagebegin, strmif/IDrawVideoImage::DrawVideoImageBegin
 ms.topic: method

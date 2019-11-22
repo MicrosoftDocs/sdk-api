@@ -1,12 +1,12 @@
 ---
 UID: NS:uxtheme._DTBGOPTS
 title: DTBGOPTS (uxtheme.h)
-author: windows-sdk-content
+
 description: Defines the options for the DrawThemeBackgroundEx function.
 old-location: controls\DTBGOPTS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS"
 ms.topic: struct

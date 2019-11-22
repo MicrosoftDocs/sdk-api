@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetUserString
 title: IMetaDataImport::GetUserString (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets the literal string represented by the specified metadata token.
 old-location: winrt\imetadataimport_getuserstring.htm
 tech.root: WinRT
 ms.assetid: c809d878-7c9a-4759-83c8-31cb0a72ee9d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetUserString method, IMetaDataImport.GetUserString, IMetaDataImport::GetUserString, rometadataapi/IMetaDataImport::GetUserString, winrt.imetadataimport_getuserstring
 ms.topic: method

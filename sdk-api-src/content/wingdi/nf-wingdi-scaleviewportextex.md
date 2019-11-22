@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.ScaleViewportExtEx
 title: ScaleViewportExtEx function (wingdi.h)
-author: windows-sdk-content
+
 description: The ScaleViewportExtEx function modifies the viewport for a device context using the ratios formed by the specified multiplicands and divisors.
 old-location: gdi\scaleviewportextex.htm
 tech.root: gdi
 ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.topic: function

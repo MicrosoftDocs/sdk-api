@@ -1,6 +1,6 @@
 ---
 UID: NA:diagnosticdataquery
-ms.author: windowssdkdev
+
 ms.date: 08/19/2019
 ms.keywords: 
 ms.prod: windows

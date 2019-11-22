@@ -1,12 +1,12 @@
 ---
 UID: NE:appmodel.AppPolicyClrCompat
 title: AppPolicyClrCompat (appmodel.h)
-author: windows-sdk-content
+
 description: The AppPolicyClrCompat enumeration indicates the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
 old-location: appxpkg\apppolicyclrcompat.htm
 tech.root: appxpkg
 ms.assetid: 2653340E-FCDD-41B7-B72C-F99C92920645
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AppPolicyClrCompat, AppPolicyClrCompat enumeration [App packaging and management], AppPolicyClrCompat_ClassicDesktop, AppPolicyClrCompat_Other, AppPolicyClrCompat_PackagedDesktop, AppPolicyClrCompat_Universal, appmodel/AppPolicyClrCompat, appmodel/AppPolicyClrCompat_ClassicDesktop, appmodel/AppPolicyClrCompat_Other, appmodel/AppPolicyClrCompat_PackagedDesktop, appmodel/AppPolicyClrCompat_Universal, appxpkg.apppolicyclrcompat
 ms.topic: enum

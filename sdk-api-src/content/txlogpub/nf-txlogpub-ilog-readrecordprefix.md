@@ -1,12 +1,12 @@
 ---
 UID: NF:txlogpub.ILog.ReadRecordPrefix
 title: ILog::ReadRecordPrefix (txlogpub.h)
-author: windows-sdk-content
+
 description: Reads an initial part of a record from the log.
 old-location: com\ilog_readrecordprefix.htm
 tech.root: com
 ms.assetid: 4a2b8529-b342-4491-a7ce-db4150223682
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix, ILog::ReadRecordPrefix, ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM],ILog interface, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
 ms.topic: method

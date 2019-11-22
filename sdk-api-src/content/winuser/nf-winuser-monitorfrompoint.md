@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.MonitorFromPoint
 title: MonitorFromPoint function (winuser.h)
-author: windows-sdk-content
+
 description: The MonitorFromPoint function retrieves a handle to the display monitor that contains a specified point.
 old-location: gdi\monitorfrompoint.htm
 tech.root: gdi
 ms.assetid: c46281bf-7e45-4628-be92-736850225a9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromPoint, MonitorFromPoint function [Windows GDI], _win32_MonitorFromPoint, gdi.monitorfrompoint, winuser/MonitorFromPoint
 ms.topic: function

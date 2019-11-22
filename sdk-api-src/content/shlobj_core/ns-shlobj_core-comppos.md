@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._tagCOMPPOS
 title: COMPPOS (shlobj_core.h)
-author: windows-sdk-content
+
 description: Holds information about a component's position and size.
 old-location: shell\COMPPOS.htm
 tech.root: shell
 ms.assetid: 622bdf51-d605-4eb9-a692-09be028bbff8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPPOS, COMPPOS, COMPPOS structure [Windows Shell], LPCOMPPOS, LPCOMPPOS structure pointer [Windows Shell], _tagCOMPPOS, _win32_COMPPOS, shell.COMPPOS, shlobj_core/COMPPOS, shlobj_core/LPCOMPPOS"
 ms.topic: struct

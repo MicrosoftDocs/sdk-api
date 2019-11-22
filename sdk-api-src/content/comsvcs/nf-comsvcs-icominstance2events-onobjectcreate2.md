@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComInstance2Events.OnObjectCreate2
 title: IComInstance2Events::OnObjectCreate2 (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when a client creates an object.
 old-location: cos\icominstance2events_onobjectcreate2.htm
 tech.root: cossdk
 ms.assetid: b7c359b8-2d49-4982-836b-50d749758fa6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events interface [COM+],OnObjectCreate2 method, IComInstance2Events.OnObjectCreate2, IComInstance2Events::OnObjectCreate2, OnObjectCreate2, OnObjectCreate2 method [COM+], OnObjectCreate2 method [COM+],IComInstance2Events interface, _dtc_IComInstance2Events_OnObjectCreate2, comsvcs/IComInstance2Events::OnObjectCreate2, cos.icominstance2events_onobjectcreate2
 ms.topic: method

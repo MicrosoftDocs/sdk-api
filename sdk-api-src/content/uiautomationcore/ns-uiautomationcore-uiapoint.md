@@ -1,12 +1,12 @@
 ---
 UID: NS:uiautomationcore.UiaPoint
 title: UiaPoint (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains the coordinates of a point.
 old-location: winauto\uiauto_UiaPointStruct.htm
 tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
 ms.topic: struct

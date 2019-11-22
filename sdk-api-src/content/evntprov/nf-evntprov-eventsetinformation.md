@@ -1,12 +1,12 @@
 ---
 UID: NF:evntprov.EventSetInformation
 title: EventSetInformation function (evntprov.h)
-author: windows-sdk-content
+
 description: Performs operations on a registration object.
 old-location: etw\eventsetinformation.htm
 tech.root: ETW
 ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
 ms.topic: function

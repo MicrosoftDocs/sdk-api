@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedPositionInSet
 title: IUIAutomationElement4::get_CachedPositionInSet (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Returns the cached 1-based integer for the ordinal position in the set for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedPositionInSet.htm
 tech.root: WinAuto
 ms.assetid: 68CB368F-90AC-4BAB-A097-CB1517D77B6F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedPositionInSet property [Windows Accessibility], CachedPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedPositionInSet property, IUIAutomationElement4.CachedPositionInSet, IUIAutomationElement4.get_CachedPositionInSet, IUIAutomationElement4::CachedPositionInSet, IUIAutomationElement4::get_CachedPositionInSet, get_CachedPositionInSet, uiautomationclient/IUIAutomationElement4::CachedPositionInSet, uiautomationclient/IUIAutomationElement4::get_CachedPositionInSet, winauto.uiauto_IUIAutomationElement4_CachedPositionInSet
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetRemoteTransportAddress
 title: IWSDiscoveredService::GetRemoteTransportAddress (wsddisco.h)
-author: windows-sdk-content
+
 description: Retrieves the string representation of the remote transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRemoteTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetRemoteTransportAddress method, IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
 ms.topic: method

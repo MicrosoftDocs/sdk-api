@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.IStream_Read
 title: IStream_Read function (shlwapi.h)
-author: windows-sdk-content
+
 description: Reads bytes from a specified stream and returns a value that indicates whether all bytes were successfully read.
 old-location: shell\IStream_Read.htm
 tech.root: shell
 ms.assetid: 07a3a500-babb-458b-ba98-9344c63ea014
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream_Read, shell.IStream_Read, shlwapi/IStream_Read
 ms.topic: function

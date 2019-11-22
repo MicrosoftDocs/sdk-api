@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMCHAR
 title: NMCHAR (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information used with character notification messages.
 old-location: controls\NMCHAR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmchar.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCHAR, LPNMCHAR, LPNMCHAR structure pointer [Windows Controls], NMCHAR, NMCHAR structure [Windows Controls], _win32_NMCHAR, _win32_NMCHAR_cpp, commctrl/LPNMCHAR, commctrl/NMCHAR, controls.NMCHAR, controls._win32_NMCHAR'
 ms.topic: struct

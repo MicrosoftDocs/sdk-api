@@ -1,12 +1,12 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Next
 title: IContactPropertyCollection::Next (icontact.h)
-author: windows-sdk-content
+
 description: Moves to the next property.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Next.htm
 tech.root: wincontacts
 ms.assetid: b6e8abad-796d-4ded-be23-45ca107915f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Next method, IContactPropertyCollection.Next, IContactPropertyCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Next, icontact/IContactPropertyCollection::Next, wincontacts._wincontacts_IContactPropertyCollection_Next
 ms.topic: method

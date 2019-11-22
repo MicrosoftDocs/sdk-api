@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMCodecInfo3
 title: IWMCodecInfo3 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMCodecInfo3 interface retrieves properties from a codec.You can retrieve a pointer to IWMCodecInfo3 with a call to the QueryInterface method of any other interface of the profile manager object.
 old-location: wmformat\iwmcodecinfo3.htm
 tech.root: wmformat
 ms.assetid: fd882612-1f60-4b51-a180-0d34d78c99dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], IWMCodecInfo3 interface [windows Media Format],described, IWMCodecInfo3Interface, wmformat.iwmcodecinfo3, wmsdkidl/IWMCodecInfo3
 ms.topic: interface

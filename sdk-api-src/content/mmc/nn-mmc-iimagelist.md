@@ -1,12 +1,12 @@
 ---
 UID: NN:mmc.IImageList
 title: IImageList (mmc.h)
-author: windows-sdk-content
+
 description: The IImageList interface enables the user to insert images to be used as icons for items in the result or scope pane of the console.
 old-location: mmc\iimagelist.htm
 tech.root: mmc
 ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],described, _slate_iimagelist, mmc.iimagelist, mmc/IImageList
 ms.topic: interface

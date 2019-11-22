@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Type
 title: IComTrackingInfoCollection::Type (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the type of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_type.htm
 tech.root: cossdk
 ms.assetid: ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Type method, IComTrackingInfoCollection.Type, IComTrackingInfoCollection::Type, Type, Type method [COM+], Type method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Type, comsvcs/IComTrackingInfoCollection::Type, cos.icomtrackinginfocollection_type
 ms.topic: method

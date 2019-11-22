@@ -1,12 +1,12 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationList
 title: IRDPSRAPIApplicationList (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Manages the application list.
 old-location: rdp\irdpsrapiapplicationlist.htm
 tech.root: rdp
 ms.assetid: 275bb93c-dc93-4884-82a9-e87f5c3ab475
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList, IRDPSRAPIApplicationList interface [RDP], IRDPSRAPIApplicationList interface [RDP],described, rdp.irdpsrapiapplicationlist, rdpencomapi/IRDPSRAPIApplicationList
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongLongToUInt
 title: LongLongToUInt function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type LONGLONG to a value of type UINT.
 old-location: shell\LongLongToUInt.htm
 tech.root: shell
 ms.assetid: e9bb0a51-3593-4074-8ea1-10fb9f0d8087
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Int64ToSizeT, Int64ToUInt, Int64ToUIntPtr, Int64ToULongPtr, LongLongToUInt, LongLongToUInt function [Windows Shell], intsafe/LongLongToUInt, shell.LongLongToUInt
 ms.topic: function

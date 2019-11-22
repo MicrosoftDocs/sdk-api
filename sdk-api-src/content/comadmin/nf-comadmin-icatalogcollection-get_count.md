@@ -1,12 +1,12 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Count
 title: ICatalogCollection::get_Count (comadmin.h)
-author: windows-sdk-content
+
 description: Retrieves the number of items in the collection.
 old-location: cos\icatalogcollection_count.htm
 tech.root: cossdk
 ms.assetid: c1e02dd6-c0bc-45b0-ae1b-c30056a8e697
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [COM+], Count property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Count property, ICatalogCollection.Count, ICatalogCollection.get_Count, ICatalogCollection::Count, ICatalogCollection::get_Count, _cos_ICatalogCollection_get_Count, comadmin/ICatalogCollection::Count, comadmin/ICatalogCollection::get_Count, cos.icatalogcollection_count, get_Count
 ms.topic: method

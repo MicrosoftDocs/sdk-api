@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.LdapGetLastError
 title: LdapGetLastError function (winldap.h)
-author: windows-sdk-content
+
 description: The LdapGetLastError function retrieves the last error code returned by an LDAP call.
 old-location: ldap\ldapgetlasterror.htm
 tech.root: ldap
 ms.assetid: 04bcdd90-344a-4f2d-a700-e725584e49d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LdapGetLastError, LdapGetLastError function [LDAP], _ldap_ldapgetlasterror, ldap.ldapgetlasterror, winldap/LdapGetLastError
 ms.topic: function

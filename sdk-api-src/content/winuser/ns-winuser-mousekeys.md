@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagMOUSEKEYS
 title: MOUSEKEYS (winuser.h)
-author: windows-sdk-content
+
 description: Contains information about the MouseKeys accessibility feature.
 old-location: winauto\mousekeys.htm
 tech.root: WinAuto
 ms.assetid: 437e448f-9eb3-4dfb-b1e8-61fceb904954
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMOUSEKEYS, LPMOUSEKEYS, LPMOUSEKEYS structure pointer [Windows Accessibility], MKF_AVAILABLE, MKF_CONFIRMHOTKEY, MKF_HOTKEYACTIVE, MKF_HOTKEYSOUND, MKF_INDICATOR, MKF_LEFTBUTTONDOWN, MKF_LEFTBUTTONSEL, MKF_MODIFIERS, MKF_MOUSEKEYSON, MKF_MOUSEMODE, MKF_REPLACENUMBERS, MKF_RIGHTBUTTONDOWN, MKF_RIGHTBUTTONSEL, MOUSEKEYS, MOUSEKEYS structure [Windows Accessibility], _win32_MOUSEKEYS_str, msaa.mousekeys, tagMOUSEKEYS, winauto.mousekeys, winuser/LPMOUSEKEYS, winuser/MOUSEKEYS"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.DWriteCreateFactory
 title: DWriteCreateFactory function (dwrite.h)
-author: windows-sdk-content
+
 description: Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.
 old-location: directwrite\dwritecreatefactory.htm
 tech.root: DirectWrite
 ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
 ms.topic: function

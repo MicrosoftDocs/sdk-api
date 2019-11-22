@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyIEConfig
 title: IWSManConnectionOptionsEx2::ProxyIEConfig (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the proxy access type flag WSManProxyIEConfig for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyieconfig.htm
 tech.root: winrm
 ms.assetid: 4aa2bf90-c0e8-400a-a8c7-35656cb3c021
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyIEConfig method, IWSManConnectionOptionsEx2.ProxyIEConfig, IWSManConnectionOptionsEx2::ProxyIEConfig, ProxyIEConfig, ProxyIEConfig method [Windows Remote Management], ProxyIEConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyieconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyIEConfig
 ms.topic: method

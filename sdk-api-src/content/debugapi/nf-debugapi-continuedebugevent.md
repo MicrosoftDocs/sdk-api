@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.ContinueDebugEvent
 title: ContinueDebugEvent function (debugapi.h)
-author: windows-sdk-content
+
 description: Enables a debugger to continue a thread that previously reported a debugging event.
 old-location: base\continuedebugevent.htm
 tech.root: Debug
 ms.assetid: d15847d9-7947-4653-b3a2-3da1d1dd7078
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContinueDebugEvent, ContinueDebugEvent function, DBG_CONTINUE, DBG_EXCEPTION_NOT_HANDLED, DBG_REPLY_LATER, _win32_continuedebugevent, base.continuedebugevent, debugapi/ContinueDebugEvent
 ms.topic: function

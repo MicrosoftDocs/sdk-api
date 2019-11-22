@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserFree
 title: LPSAFEARRAY_UserFree function (wia_xp.h)
-author: windows-sdk-content
+
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\lpsafearray_userfree.htm
 tech.root: automat
 ms.assetid: 87dc42de-70dc-4ae7-9bd0-89add31a5976
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserFree, LPSAFEARRAY_UserFree function [Automation], _oa96_LPSAFEARRAY_UserFree, automat.lpsafearray_userfree, wia_xp/LPSAFEARRAY_UserFree
 ms.topic: function

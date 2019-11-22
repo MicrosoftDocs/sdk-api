@@ -1,12 +1,12 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
 title: IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection (functiondiscoveryprovider.h)
-author: windows-sdk-content
+
 description: Creates a function instance collection.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createfunctioninstancecollection.htm
 tech.root: FunDisc
 ms.assetid: c49f6be1-1789-4415-8898-ad74e0148c47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateFunctionInstanceCollection, CreateFunctionInstanceCollection method, CreateFunctionInstanceCollection method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateFunctionInstanceCollection method, IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection, IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, ncd.ifunctiondiscoveryproviderfactory_createfunctioninstancecollection
 ms.topic: method

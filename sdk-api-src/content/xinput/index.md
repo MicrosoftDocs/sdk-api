@@ -1,7 +1,7 @@
 ---
 UID: NA:xinput
 ms.assetid: f35006d7-b766-3947-88e4-f589a0517f91
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

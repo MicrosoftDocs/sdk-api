@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpFreeEntity
 title: SnmpFreeEntity function (winsnmp.h)
-author: windows-sdk-content
+
 description: The WinSNMP SnmpFreeEntity function releases resources associated with an SNMP management entity.
 old-location: snmp\snmpfreeentity.htm
 tech.root: SNMP
 ms.assetid: 82f331e8-1768-470f-b924-16262e06f099
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeEntity, SnmpFreeEntity function [SNMP], _snmp_snmpfreeentity, snmp.snmpfreeentity, winsnmp/SnmpFreeEntity
 ms.topic: function

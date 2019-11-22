@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClientInfoV6
 title: DhcpDeleteClientInfoV6 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Deletes the specified DHCPv6 client address release record from the DHCPv6 server database.
 old-location: dhcp\dhcpdeleteclientinfov6.htm
 tech.root: DHCP
 ms.assetid: ffa57208-09c4-4185-8cd9-abcf5db60f39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientInfoV6, DhcpDeleteClientInfoV6 function [DHCP], dhcp.dhcpdeleteclientinfov6, dhcpsapi/DhcpDeleteClientInfoV6
 ms.topic: function

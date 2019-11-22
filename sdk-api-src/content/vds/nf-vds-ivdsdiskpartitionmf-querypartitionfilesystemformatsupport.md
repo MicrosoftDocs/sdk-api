@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport
 title: IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport (vds.h)
-author: windows-sdk-content
+
 description: Retrieves the properties of the file systems that are supported for formatting a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_querypartitionfilesystemformatsupport.htm
 tech.root: VDS
 ms.assetid: 7ee61c81-28d2-43d8-8444-a62dc025aed0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF interface,QueryPartitionFileSystemFormatSupport method, IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport, IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport method, QueryPartitionFileSystemFormatSupport method,IVdsDiskPartitionMF interface, base.ivdsdiskpartitionmf_querypartitionfilesystemformatsupport, vds/IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
 ms.topic: method

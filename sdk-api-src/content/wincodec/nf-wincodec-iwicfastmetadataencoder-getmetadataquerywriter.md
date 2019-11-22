@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.GetMetadataQueryWriter
 title: IWICFastMetadataEncoder::GetMetadataQueryWriter (wincodec.h)
-author: windows-sdk-content
+
 description: Retrieves a metadata query writer for fast metadata encoding.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetExceptionMode
 title: ID3D10Device::SetExceptionMode (d3d10.h)
-author: windows-sdk-content
+
 description: Get the exception-mode flags.
 old-location: direct3d10\id3d10device_setexceptionmode.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setexceptionmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 450093c6-975d-3a2a-6e09-2d2267d36bae, ID3D10Device interface [Direct3D 10],SetExceptionMode method, ID3D10Device.SetExceptionMode, ID3D10Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 10], SetExceptionMode method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetExceptionMode, direct3d10.id3d10device_setexceptionmode
 ms.topic: method

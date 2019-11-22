@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFont
 title: IDWriteFontSetBuilder2::AddFont
-author: windows-sdk-content
+
 description: Adds a font to the set being built.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
 ms.topic: method

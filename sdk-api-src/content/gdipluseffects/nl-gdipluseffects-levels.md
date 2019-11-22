@@ -1,12 +1,12 @@
 ---
 UID: NL:gdipluseffects.Levels
 title: Levels (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The Levels class encompasses three bitmap adjustments:\_highlight, midtone, and shadow.
 old-location: gdiplus\_gdiplus_CLASS_Levels_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levels.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Levels, Levels class [GDI+], Levels class [GDI+],described, _gdiplus_CLASS_Levels_Class, gdiplus._gdiplus_CLASS_Levels_Class, gdipluseffects/Levels
 ms.topic: class

@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get__NewEnum
 title: IGPMSOMCollection::get__NewEnum (gpmgmt.h)
-author: windows-sdk-content
+
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmsomcollection_get__newenum.htm
 tech.root: gpmc
 ms.assetid: 3e6a33d8-5435-4ae9-93e7-439441d0f098
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGPMSOMCollection interface [GPMC],get__NewEnum method, IGPMSOMCollection.get__NewEnum, IGPMSOMCollection::get__NewEnum, _win32_igpmsomcollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSOMCollection interface, gpmc.igpmsomcollection_get__newenum, gpmgmt/IGPMSOMCollection::get__NewEnum
 ms.topic: method

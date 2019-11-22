@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetString
 title: ITfReadingInformationUIElement::GetString (msctf.h)
-author: windows-sdk-content
+
 description: This method returns the string on the reading information UI.
 old-location: tsf\itfreadinginformationuielement_getstring.htm
 tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetString method, ITfReadingInformationUIElement.GetString, ITfReadingInformationUIElement::GetString, msctf/ITfReadingInformationUIElement::GetString, tsf.iitfreadinginformationuielement_getstring, tsf.itfreadinginformationuielement_getstring
 ms.topic: method

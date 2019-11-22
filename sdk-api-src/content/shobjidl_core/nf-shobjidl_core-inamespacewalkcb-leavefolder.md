@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.LeaveFolder
 title: INamespaceWalkCB::LeaveFolder (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by INamespaceWalkCB::EnterFolder or INamespaceWalkCB::FoundItem.
 old-location: shell\INamespaceWalkCB_LeaveFolder.htm
 tech.root: shell
 ms.assetid: 307b0686-c4ec-40c6-8bd3-18a7aa790875
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INamespaceWalkCB.LeaveFolder, INamespaceWalkCB::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_LeaveFolder, shell.INamespaceWalkCB_LeaveFolder, shobjidl_core/INamespaceWalkCB::LeaveFolder
 ms.topic: method

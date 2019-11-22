@@ -1,12 +1,12 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowCDBurn
 title: IWMPSubscriptionService::allowCDBurn (subscriptionservices.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowcdburn.htm
 tech.root: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
 ms.topic: method

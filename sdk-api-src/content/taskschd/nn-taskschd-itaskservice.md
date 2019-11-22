@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.ITaskService
 title: ITaskService (taskschd.h)
-author: windows-sdk-content
+
 description: Provides access to the Task Scheduler service for managing registered tasks.
 old-location: taskschd\itaskservice.htm
 tech.root: taskschd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
 ms.topic: interface

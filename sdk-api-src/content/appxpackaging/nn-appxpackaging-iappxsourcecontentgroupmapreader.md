@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxSourceContentGroupMapReader
 title: IAppxSourceContentGroupMapReader (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets information about the source content group map.
 old-location: appxpkg\iappxsourcecontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: EA0DF7E6-C4EF-4A58-A13F-EB3789239084
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], IAppxSourceContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxSourceContentGroupMapReader, appxpkg.iappxsourcecontentgroupmapreader
 ms.topic: interface

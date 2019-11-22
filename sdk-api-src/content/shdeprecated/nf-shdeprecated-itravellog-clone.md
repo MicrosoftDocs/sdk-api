@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Clone
 title: ITravelLog::Clone (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Duplicates the contents of the current travel log.
 old-location: shell\ITravelLog_Clone.htm
 tech.root: shell
 ms.assetid: 546581f1-648d-4817-b3d2-aca219b74911
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],Clone method, ITravelLog.Clone, ITravelLog::Clone, shdeprecated/ITravelLog::Clone, shell.ITravelLog_Clone, zone_ITravelLog_Clone
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateEncoder
 title: IWICImagingFactory::CreateEncoder (wincodec.h)
-author: windows-sdk-content
+
 description: Creates a new instance of the IWICBitmapEncoder class.
 old-location: wic\_wic_codec_iwicimagingfactory_createencoder.htm
 tech.root: wic
 ms.assetid: 7aae3ea6-2d8b-4764-9c78-a6cce49012a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateEncoder, CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateEncoder method, IWICImagingFactory.CreateEncoder, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
 ms.topic: method

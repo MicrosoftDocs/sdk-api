@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetContainingOutput
 title: IDXGISwapChain::GetContainingOutput (dxgi.h)
-author: windows-sdk-content
+
 description: Get the output (the display monitor) that contains the majority of the client area of the target window.
 old-location: direct3ddxgi\idxgiswapchain_getcontainingoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getcontainingoutput.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 714841de-04d3-ab0c-d428-3902324a14e2, GetContainingOutput, GetContainingOutput method [DXGI], GetContainingOutput method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetContainingOutput method, IDXGISwapChain.GetContainingOutput, IDXGISwapChain::GetContainingOutput, direct3ddxgi.idxgiswapchain_getcontainingoutput, dxgi/IDXGISwapChain::GetContainingOutput
 ms.topic: method

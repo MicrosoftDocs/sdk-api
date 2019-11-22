@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
 title: BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
-author: windows-sdk-content
+
 description: Creates an instance of BoundingFrustum.
 old-location: dxmath\boundingfrustum_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(XMFLOAT3,XMFLOAT4,float,float,float,float,float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), BoundingFrustum.BoundingFrustum(const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), dxmath.boundingfrustum_ctor_2
 ms.topic: method

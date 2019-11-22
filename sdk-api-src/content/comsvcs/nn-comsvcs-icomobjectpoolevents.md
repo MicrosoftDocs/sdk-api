@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents
 title: IComObjectPoolEvents (comsvcs.h)
-author: windows-sdk-content
+
 description: Notifies the subscriber when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents.htm
 tech.root: cossdk
 ms.assetid: a830b40b-a1b1-464e-b532-91cebd4e5d2f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+],described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
 ms.topic: interface

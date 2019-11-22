@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_RENDER_PASS_FLAGS
 title: D3D12_RENDER_PASS_FLAGS (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies the nature of the render pass; for example, whether it is a suspending or a resuming render pass.
 old-location: direct3d12\d3d12_render_pass_flags.htm
 tech.root: direct3d12
 ms.assetid: 4F1D13BD-60BC-4CE7-9671-42886989FE31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_FLAGS, D3D12_RENDER_PASS_FLAGS enumeration, D3D12_RENDER_PASS_FLAG_ALLOW_UAV_WRITES, D3D12_RENDER_PASS_FLAG_NONE, D3D12_RENDER_PASS_FLAG_RESUMING_PASS, D3D12_RENDER_PASS_FLAG_SUSPENDING_PASS, d3d12/ D3D12_RENDER_PASS_FLAG_ALLOW_UAV_WRITES, d3d12/D3D12_RENDER_PASS_FLAGS, d3d12/D3D12_RENDER_PASS_FLAG_NONE, d3d12/D3D12_RENDER_PASS_FLAG_RESUMING_PASS, d3d12/D3D12_RENDER_PASS_FLAG_SUSPENDING_PASS, direct3d12.d3d12_render_pass_flags
 ms.topic: enum

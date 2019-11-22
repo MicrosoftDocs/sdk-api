@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects._NewEnum
 title: IMILBitmapEffects::_NewEnum (mileffects.h)
-author: windows-sdk-content
+
 description: Retrieves a new enumeration.
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\_newenum.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, IMILBitmapEffects._NewEnum, IMILBitmapEffects::_NewEnum, _NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
 ms.topic: method

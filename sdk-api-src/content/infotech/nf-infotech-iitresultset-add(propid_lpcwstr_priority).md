@@ -1,12 +1,12 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,LPCWSTR,PRIORITY)
 title: IITResultSet::Add(PROPID,LPCWSTR,PRIORITY) (infotech.h)
-author: windows-sdk-content
+
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add3.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddstring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPCWSTR,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPCWSTR,PRIORITY), htmlhelp.iitresultset_add3, infotech/IITResultSet::Add, refIITResultSetAddString
 ms.topic: method

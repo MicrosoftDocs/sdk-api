@@ -1,12 +1,12 @@
 ---
 UID: NN:comadmin.ICOMAdminCatalog
 title: ICOMAdminCatalog (comadmin.h)
-author: windows-sdk-content
+
 description: Initiates a session to do programmatic COM+ administration, access collections in the catalog, install COM+ applications and components, start and stop services, and connect to remote servers.
 old-location: cos\icomadmincatalog.htm
 tech.root: cossdk
 ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
 ms.topic: interface

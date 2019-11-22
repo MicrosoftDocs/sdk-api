@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapSourceTransform.CopyPixels
 title: IWICPlanarBitmapSourceTransform::CopyPixels (wincodec.h)
-author: windows-sdk-content
+
 description: Copies pixels into the destination planes. Configured by the supplied input parameters.
 old-location: wic\iwicplanarbitmapsourcetransform_copypixels.htm
 tech.root: wic
 ms.assetid: 0D6FB12B-B5C5-4A36-93FC-AF96BF03ED01
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICPlanarBitmapSourceTransform.CopyPixels, IWICPlanarBitmapSourceTransform::CopyPixels, wic.iwicplanarbitmapsourcetransform_copypixels, wincodec/IWICPlanarBitmapSourceTransform::CopyPixels
 ms.topic: method

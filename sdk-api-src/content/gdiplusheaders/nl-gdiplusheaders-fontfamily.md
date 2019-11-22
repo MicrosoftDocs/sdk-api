@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusheaders.FontFamily
 title: FontFamily (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: This FontFamily class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamily.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily class [GDI+], FontFamily class [GDI+],described, _gdiplus_CLASS_FontFamily_Class, gdiplus._gdiplus_CLASS_FontFamily_Class, gdiplusheaders/FontFamily
 ms.topic: class

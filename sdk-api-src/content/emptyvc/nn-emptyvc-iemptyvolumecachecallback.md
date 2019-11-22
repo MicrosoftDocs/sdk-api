@@ -1,12 +1,12 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCacheCallBack
 title: IEmptyVolumeCacheCallBack (emptyvc.h)
-author: windows-sdk-content
+
 description: Exposes methods that are used by a disk cleanup handler to communicate with the disk cleanup manager.
 old-location: lwef\iemptyvolumecachecallback.htm
 tech.root: lwef
 ms.assetid: d6775458-3b39-4ee8-90f9-d8a749bd1800
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features], IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCacheCallBack, emptyvc/IEmptyVolumeCacheCallBack, lwef.iemptyvolumecachecallback, shell.iemptyvolumecachecallback
 ms.topic: interface

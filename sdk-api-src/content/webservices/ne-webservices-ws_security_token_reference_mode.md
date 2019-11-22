@@ -1,12 +1,12 @@
 ---
 UID: NE:webservices.__unnamed_enum_64
 title: WS_SECURITY_TOKEN_REFERENCE_MODE (webservices.h)
-author: windows-sdk-content
+
 description: With message and mixed-mode security bindings, the mechanism to use to refer to a security token from signatures, encrypted items and derived tokens.
 old-location: wsw\ws_security_token_reference_mode.htm
 tech.root: wsw
 ms.assetid: 09cd0350-d310-4335-9850-e0f6246be472
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_TOKEN_REFERENCE_MODE, WS_SECURITY_TOKEN_REFERENCE_MODE enumeration [Web Services for Windows], WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, wsw.ws_security_token_reference_mode
 ms.topic: enum

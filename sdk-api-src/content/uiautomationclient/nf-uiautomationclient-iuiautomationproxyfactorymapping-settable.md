@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.SetTable
 title: IUIAutomationProxyFactoryMapping::SetTable (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Sets the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_SetTable.htm
 tech.root: WinAuto
 ms.assetid: 8b3675a4-a4d5-40ed-bb11-7e4d50746019
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],SetTable method, IUIAutomationProxyFactoryMapping.SetTable, IUIAutomationProxyFactoryMapping::SetTable, SetTable, SetTable method [Windows Accessibility], SetTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable, uiauto_IUIAutomationProxyFactoryMapping_SetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::SetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable
 ms.topic: method

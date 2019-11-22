@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_VAR_INFO
 title: D3D10_SHADER_DEBUG_VAR_INFO (d3d10_1shader.h)
-author: windows-sdk-content
+
 description: Represents information about a shader source variable.
 old-location: direct3d10\d3d10_shader_debug_var_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_var_info.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0c0984a6-cb8d-ef1f-dfe5-bbc4ed81714f, D3D10_SHADER_DEBUG_VAR_INFO, D3D10_SHADER_DEBUG_VAR_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO, direct3d10.d3d10_shader_debug_var_info
 ms.topic: struct

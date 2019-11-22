@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IVirtualizedItemProvider
 title: IVirtualizedItemProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Provides access to virtualized items, which are items that are represented by placeholder automation elements in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IVirtualizedItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 39baaa54-b836-497c-b401-a865202626e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVirtualizedItemProvider, IVirtualizedItemProvider interface [Windows Accessibility], IVirtualizedItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IVirtualizedItemProvider, uiauto_IVirtualizedItemProvider, uiautomationcore/IVirtualizedItemProvider, winauto.uiauto_IVirtualizedItemProvider
 ms.topic: interface

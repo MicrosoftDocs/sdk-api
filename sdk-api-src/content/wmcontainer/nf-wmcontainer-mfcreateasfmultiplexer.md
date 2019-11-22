@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMultiplexer
 title: MFCreateASFMultiplexer function (wmcontainer.h)
-author: windows-sdk-content
+
 description: Creates the ASF Multiplexer.
 old-location: mf\mfcreateasfmultiplexer.htm
 tech.root: medfound
 ms.assetid: 4c3ded7e-51ef-4141-98f2-48b318ba9453
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCreateASFMultiplexer function [Media Foundation], mf.mfcreateasfmultiplexer, wmcontainer/MFCreateASFMultiplexer
 ms.topic: function

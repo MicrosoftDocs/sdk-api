@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_ARRAY_DSV
 title: D3D12_TEX1D_ARRAY_DSV (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the subresources from an array of 1D textures to use in a depth-stencil view.
 old-location: direct3d12\d3d12_tex1d_array_dsv.htm
 tech.root: direct3d12
 ms.assetid: 476937C8-D326-4DE4-8532-187AD0E2AFBB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX1D_ARRAY_DSV, D3D12_TEX1D_ARRAY_DSV structure, d3d12/D3D12_TEX1D_ARRAY_DSV, direct3d12.d3d12_tex1d_array_dsv
 ms.topic: struct

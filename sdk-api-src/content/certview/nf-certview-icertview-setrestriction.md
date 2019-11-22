@@ -1,12 +1,12 @@
 ---
 UID: NF:certview.ICertView.SetRestriction
 title: ICertView::SetRestriction (certview.h)
-author: windows-sdk-content
+
 description: Sets the sorting and qualifying restrictions on a column.
 old-location: security\icertview2_setrestriction.htm
 tech.root: SecCrypto
 ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR_SEEK_GE, CVR_SEEK_GT, CVR_SEEK_LE, CVR_SEEK_LT, CVR_SORT_ASCEND, CVR_SORT_DESCEND, CVR_SORT_NONE, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetRestriction method, ICertView.SetRestriction, ICertView2 interface [Security],SetRestriction method, ICertView2::SetRestriction, ICertView::SetRestriction, SetRestriction, SetRestriction method [Security], SetRestriction method [Security],CCertView object, SetRestriction method [Security],ICertView interface, SetRestriction method [Security],ICertView2 interface, certview/ICertView2::SetRestriction, certview/ICertView::SetRestriction, security.icertview2_setrestriction
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1Resource
 title: ID2D1Resource (d2d1.h)
-author: windows-sdk-content
+
 description: Represents a Direct2D drawing resource.
 old-location: direct2d\ID2D1Resource.htm
 tech.root: Direct2D
 ms.assetid: 8f19e74a-f010-4082-a4da-d1dc3cfe3192
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Resource, ID2D1Resource interface [Direct2D], ID2D1Resource interface [Direct2D],described, d2d1/ID2D1Resource, direct2d.ID2D1Resource
 ms.topic: interface

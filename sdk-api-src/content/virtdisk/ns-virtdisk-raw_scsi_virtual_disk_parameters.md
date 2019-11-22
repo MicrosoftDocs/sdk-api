@@ -1,12 +1,12 @@
 ---
 UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_PARAMETERS
 title: RAW_SCSI_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains raw SCSI virtual disk request parameters.
 old-location: vhd\raw_scsi_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: E6E6BD59-F7BC-4523-B368-6EBE12285593
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_PARAMETERS, RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure [VHD], _RAW_SCSI_VIRTUAL_DISK_PARAMETERS, vdssys/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, vdssys/RAW_SCSI_VIRTUAL_DISK_PARAMETERS, vhd.raw_scsi_virtual_disk_parameters, virtdisk/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, virtdisk/RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
 ms.topic: struct

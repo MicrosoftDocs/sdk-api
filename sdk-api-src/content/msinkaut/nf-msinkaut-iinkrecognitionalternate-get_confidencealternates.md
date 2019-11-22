@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_ConfidenceAlternates
 title: IInkRecognitionAlternate::get_ConfidenceAlternates (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the collection of alternates in which each alternate in the collection consists of the segments with the same property values.
 old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 tech.root: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
 ms.topic: method

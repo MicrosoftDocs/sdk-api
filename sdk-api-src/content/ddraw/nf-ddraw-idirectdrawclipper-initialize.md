@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.Initialize
 title: IDirectDrawClipper::Initialize (ddraw.h)
-author: windows-sdk-content
+
 description: Initializes a DirectDrawClipper object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdrawclipper_initialize.htm
 tech.root: directdraw
 ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
 ms.topic: method

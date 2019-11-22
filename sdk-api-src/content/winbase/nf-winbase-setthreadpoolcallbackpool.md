@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPool
 title: SetThreadpoolCallbackPool function (winbase.h)
-author: windows-sdk-content
+
 description: Sets the thread pool to be used when generating callbacks.
 old-location: base\setthreadpoolcallbackpool.htm
 tech.root: ProcThread
 ms.assetid: 022d83de-ff6c-4bc8-8213-42f403a323e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPool, SetThreadpoolCallbackPool function, base.setthreadpoolcallbackpool, winbase/SetThreadpoolCallbackPool
 ms.topic: function

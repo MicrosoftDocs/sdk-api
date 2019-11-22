@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetBAT
 title: IDvbSiParser::GetBAT (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getbat.htm
 tech.root: mstv
 ms.assetid: dc9cd50f-a9cc-436c-a416-9fc4de506a9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBAT, GetBAT method [Microsoft TV Technologies], GetBAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetBAT method, IDvbSiParser.GetBAT, IDvbSiParser::GetBAT, IDvbSiParserGetBAT, dvbsiparser/IDvbSiParser::GetBAT, mstv.idvbsiparser_getbat
 ms.topic: method

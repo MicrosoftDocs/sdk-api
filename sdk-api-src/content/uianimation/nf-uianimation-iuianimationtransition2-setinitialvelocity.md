@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVelocity
 title: IUIAnimationTransition2::SetInitialVelocity (uianimation.h)
-author: windows-sdk-content
+
 description: Sets the initial velocity of the transition.
 old-location: uianimation\iuianimationtransition2_setinitialvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 1CE8A3BD-9DDC-4FDE-BE2B-29804B3754B1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVelocity method, IUIAnimationTransition2.SetInitialVelocity, IUIAnimationTransition2::SetInitialVelocity, SetInitialVelocity, SetInitialVelocity method [Windows Animation], SetInitialVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvelocity, uianimation/IUIAnimationTransition2::SetInitialVelocity
 ms.topic: method

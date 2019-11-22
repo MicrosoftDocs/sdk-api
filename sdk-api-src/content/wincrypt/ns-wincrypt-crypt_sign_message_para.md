@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CRYPT_SIGN_MESSAGE_PARA
 title: CRYPT_SIGN_MESSAGE_PARA (wincrypt.h)
-author: windows-sdk-content
+
 description: The CRYPT_SIGN_MESSAGE_PARA structure contains information for signing messages using a specified signing certificate context.
 old-location: security\crypt_sign_message_para.htm
 tech.root: SecCrypto
 ms.assetid: 1601d860-6054-4650-a033-ea088655b7e4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA structure [Security], PCRYPT_SIGN_MESSAGE_PARA, PCRYPT_SIGN_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_sign_message_para, security.crypt_sign_message_para, wincrypt/CRYPT_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_SIGN_MESSAGE_PARA'
 ms.topic: struct

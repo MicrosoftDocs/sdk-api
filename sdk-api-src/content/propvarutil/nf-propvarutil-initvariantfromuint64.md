@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt64
 title: InitVariantFromUInt64 function (propvarutil.h)
-author: windows-sdk-content
+
 description: Initializes a VARIANT structure with an unsigned 64-bit integer value.
 old-location: properties\InitVariantFromUInt64.htm
 tech.root: properties
 ms.assetid: 8fa8bfe9-b9a6-4292-b303-621ef9d8aa4d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromUInt64, InitVariantFromUInt64 function [Windows Properties], _shell_InitVariantFromUInt64, properties.InitVariantFromUInt64, propvarutil/InitVariantFromUInt64, shell.InitVariantFromUInt64
 ms.topic: function

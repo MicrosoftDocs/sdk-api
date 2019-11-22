@@ -1,12 +1,12 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
 title: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE (imapi2.h)
-author: windows-sdk-content
+
 description: Defines values that indicate the type of sub-channel data.
 old-location: imapi\imapi_format2_raw_cd_data_sector_type.htm
 tech.root: imapi
 ms.assetid: f3193377-5410-4cd2-b7e5-281b3794c583
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE enumeration [IMAPI], IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED, IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_RAW, IMAPI_FORMAT2_RAW_CD_SUBCODE_PQ_ONLY, PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE enumeration pointer [IMAPI], imapi.imapi_format2_raw_cd_data_sector_type, imapi2/IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, imapi2/IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED, imapi2/IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_RAW, imapi2/IMAPI_FORMAT2_RAW_CD_SUBCODE_PQ_ONLY, imapi2/PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE"
 ms.topic: enum

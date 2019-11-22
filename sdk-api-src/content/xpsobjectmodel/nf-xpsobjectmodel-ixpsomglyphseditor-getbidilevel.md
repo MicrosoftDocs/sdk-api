@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetBidiLevel
 title: IXpsOMGlyphsEditor::GetBidiLevel (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the bidirectional text level of the parent IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor_getbidilevel.htm
 tech.root: printdocs
 ms.assetid: 86021e6e-5a91-44f5-814d-602705b97fb2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphsEditor.GetBidiLevel, IXpsOMGlyphsEditor::GetBidiLevel, xps.ixpsomglyphseditor_getbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::GetBidiLevel
 ms.topic: method

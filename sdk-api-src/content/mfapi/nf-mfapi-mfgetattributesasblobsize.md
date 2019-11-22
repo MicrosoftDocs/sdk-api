@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlobSize
 title: MFGetAttributesAsBlobSize function (mfapi.h)
-author: windows-sdk-content
+
 description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.
 old-location: mf\mfgetattributesasblobsize.htm
 tech.root: medfound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
 ms.topic: function

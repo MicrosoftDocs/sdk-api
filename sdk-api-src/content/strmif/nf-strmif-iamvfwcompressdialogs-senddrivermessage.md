@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SendDriverMessage
 title: IAMVfwCompressDialogs::SendDriverMessage (strmif.h)
-author: windows-sdk-content
+
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcompressdialogs_senddrivermessage.htm
 tech.root: DirectShow
 ms.assetid: b1558888-a8aa-416a-bb5b-a33a66dcb913
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
 ms.topic: method

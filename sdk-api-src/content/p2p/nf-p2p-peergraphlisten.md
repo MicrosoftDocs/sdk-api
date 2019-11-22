@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGraphListen
 title: PeerGraphListen function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGraphListen function indicates that a peer graph should start listening for incoming connections.
 old-location: p2p\peergraphlisten.htm
 tech.root: P2PSdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.topic: function

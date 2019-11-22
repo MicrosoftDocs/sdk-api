@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGroupJoin
 title: PeerGroupJoin function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGroupJoin function prepares a peer with an invitation to join an existing peer group prior to calling PeerGroupConnect or PeerGroupConnectByAddress.
 old-location: p2p\peergroupjoin.htm
 tech.root: P2PSdk
 ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_10
 title: DS_SITE_COST_INFO (ntdsapi.h)
-author: windows-sdk-content
+
 description: The DS_SITE_COST_INFO structure is used with the DsQuerySitesByCost function to contain communication cost data.
 old-location: ad\ds_site_cost_info.htm
 tech.root: ad
 ms.assetid: 1920e824-992f-4d69-9b6d-586f58fa2ef7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structure [Active Directory], ERROR_DS_OBJ_NOT_FOUND, ERROR_SUCCESS, ad.ds_site_cost_info, ntdsapi/DS_SITE_COST_INFO"
 ms.topic: struct

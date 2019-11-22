@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingMessageRemoved
 title: _IFaxAccountNotify::OnIncomingMessageRemoved (faxcomex.h)
-author: windows-sdk-content
+
 description: Called by the fax service when an incoming message is removed from the inbound fax archive.
 old-location: fax\_mfax_ifaxaccountnotify_onincomingmessageremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onincomingmessageremoved.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnIncomingMessageRemoved, OnIncomingMessageRemoved, OnIncomingMessageRemoved method [Fax Service], OnIncomingMessageRemoved method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingMessageRemoved method, _IFaxAccountNotify.OnIncomingMessageRemoved, _IFaxAccountNotify::OnIncomingMessageRemoved, _mfax_ifaxaccountnotify_onincomingmessageremoved, fax._mfax_ifaxaccountnotify_onincomingmessageremoved, faxcomex/_IFaxAccountNotify::OnIncomingMessageRemoved
 ms.topic: method

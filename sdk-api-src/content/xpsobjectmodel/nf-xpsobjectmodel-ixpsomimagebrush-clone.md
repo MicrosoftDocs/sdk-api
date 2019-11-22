@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.Clone
 title: IXpsOMImageBrush::Clone (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomimagebrush_clone.htm
 tech.root: printdocs
 ms.assetid: 7c10f6e5-b223-4ddb-9fcf-c9f7bf82953f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],Clone method, IXpsOMImageBrush.Clone, IXpsOMImageBrush::Clone, xps.ixpsomimagebrush_clone, xpsobjectmodel/IXpsOMImageBrush::Clone
 ms.topic: method

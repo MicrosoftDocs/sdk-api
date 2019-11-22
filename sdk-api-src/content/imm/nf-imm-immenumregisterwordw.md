@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmEnumRegisterWordW
 title: ImmEnumRegisterWordW function (imm.h)
-author: windows-sdk-content
+
 description: Enumerates the register strings having the specified reading string, style, and register string.
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 ms.topic: function

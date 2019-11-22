@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
 title: IWMDMDeviceSession::BeginSession (mswmdm.h)
-author: windows-sdk-content
+
 description: The BeginSession method begins a device session.
 old-location: wmdm\iwmdmdevicesession_beginsession.htm
 tech.root: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
 ms.topic: method

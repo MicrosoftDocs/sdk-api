@@ -1,12 +1,12 @@
 ---
 UID: NS:winml.WINML_RESOURCE_BINDING_DESC
 title: WINML_RESOURCE_BINDING_DESC (winml.h)
-author: windows-sdk-content
+
 description: Contains description properties of the resource binding.
 old-location: machinelearning\winml_resource_binding_desc.htm
 tech.root: MachineLearning
 ms.assetid: 14008D12-1F46-4629-A7A3-190EA2B4DC76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_resource_binding_desc, PWINML_RESOURCE_BINDING_DESC, PWINML_RESOURCE_BINDING_DESC structure pointer, WINML_RESOURCE_BINDING_DESC, WINML_RESOURCE_BINDING_DESC structure, winml/PWINML_RESOURCE_BINDING_DESC, winml/WINML_RESOURCE_BINDING_DESC
 ms.topic: struct

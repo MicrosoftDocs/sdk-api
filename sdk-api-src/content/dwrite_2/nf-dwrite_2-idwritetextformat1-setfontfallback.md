@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetFontFallback
 title: IDWriteTextFormat1::SetFontFallback (dwrite_2.h)
-author: windows-sdk-content
+
 description: Applies the custom font fallback onto the layout. If none is set, it uses the default system fallback list.
 old-location: directwrite\idwritetextformat1_setfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 56B577C0-2B18-409E-ADEC-0B93355586A0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetFontFallback method, IDWriteTextFormat1.SetFontFallback, IDWriteTextFormat1::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setfontfallback, dwrite_2/IDWriteTextFormat1::SetFontFallback
 ms.topic: method

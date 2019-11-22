@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilGetResourceNameDependency
 title: ResUtilGetResourceNameDependency function (resapi.h)
-author: windows-sdk-content
+
 description: Enumerates the dependencies of a specified resource in the local cluster and returns a handle to a dependency of a specified resource type. The PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY type defines a pointer to this function.
 old-location: mscs\resutilgetresourcenamedependency.htm
 tech.root: MsCS
 ms.assetid: 071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY function [Failover Cluster], ResUtilGetResourceNameDependency, ResUtilGetResourceNameDependency function [Failover Cluster], _wolf_resutilgetresourcenamedependency, mscs.resutilgetresourcenamedependency, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, resapi/ResUtilGetResourceNameDependency
 ms.topic: function

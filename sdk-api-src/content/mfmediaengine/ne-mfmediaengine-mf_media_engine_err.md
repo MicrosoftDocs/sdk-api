@@ -1,12 +1,12 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_ERR
 title: MF_MEDIA_ENGINE_ERR (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Defines error status codes for the Media Engine.
 old-location: mf\mf_media_engine_err.htm
 tech.root: medfound
 ms.assetid: CFA5C2AF-C804-47B4-B76A-907F26CF3DFC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_ERR, MF_MEDIA_ENGINE_ERR enumeration [Media Foundation], MF_MEDIA_ENGINE_ERR_ABORTED, MF_MEDIA_ENGINE_ERR_DECODE, MF_MEDIA_ENGINE_ERR_ENCRYPTED, MF_MEDIA_ENGINE_ERR_NETWORK, MF_MEDIA_ENGINE_ERR_NOERROR, MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED, mf.mf_media_engine_err, mfmediaengine/MF_MEDIA_ENGINE_ERR, mfmediaengine/MF_MEDIA_ENGINE_ERR_ABORTED, mfmediaengine/MF_MEDIA_ENGINE_ERR_DECODE, mfmediaengine/MF_MEDIA_ENGINE_ERR_ENCRYPTED, mfmediaengine/MF_MEDIA_ENGINE_ERR_NETWORK, mfmediaengine/MF_MEDIA_ENGINE_ERR_NOERROR, mfmediaengine/MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d10.D3D10_USAGE
 title: D3D10_USAGE (d3d10.h)
-author: windows-sdk-content
+
 description: Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the GPU.
 old-location: direct3d10\d3d10_usage.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_usage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10_USAGE, D3D10_USAGE enumeration [Direct3D 10], D3D10_USAGE_DEFAULT, D3D10_USAGE_DYNAMIC, D3D10_USAGE_IMMUTABLE, D3D10_USAGE_STAGING, ce388aa8-48f6-b43d-c978-e00f781ef68c, d3d10/D3D10_USAGE, d3d10/D3D10_USAGE_DEFAULT, d3d10/D3D10_USAGE_DYNAMIC, d3d10/D3D10_USAGE_IMMUTABLE, d3d10/D3D10_USAGE_STAGING, direct3d10.d3d10_usage
 ms.topic: enum

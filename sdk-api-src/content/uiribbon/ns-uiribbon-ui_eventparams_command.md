@@ -1,12 +1,12 @@
 ---
 UID: NS:uiribbon._UI_EVENTPARAMS_COMMAND
 title: UI_EVENTPARAMS_COMMAND (uiribbon.h)
-author: windows-sdk-content
+
 description: Contains information about a Command associated with a event.
 old-location: windowsribbon\ui_eventparams_command_.htm
 tech.root: windowsribbon
 ms.assetid: 7B1E92E2-DFFE-4B4F-87F1-1BFBD8E06D08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer [Windows Ribbon], UI_EVENTPARAMS_COMMAND, UI_EVENTPARAMS_COMMAND , UI_EVENTPARAMS_COMMAND structure [Windows Ribbon], uiribbon/PUI_EVENTPARAMS_COMMAND, uiribbon/UI_EVENTPARAMS_COMMAND, windowsribbon.ui_eventparams_command_
 ms.topic: struct

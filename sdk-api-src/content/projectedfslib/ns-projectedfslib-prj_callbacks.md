@@ -1,12 +1,12 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACKS
 title: PRJ_CALLBACKS (projectedfslib.h)
-author: windows-sdk-content
+
 description: A set of callback routines to where the provider stores its implementation of the callback.
 old-location: projfs\prj_callbacks.htm
 tech.root: ProjFS
 ms.assetid: 2FFF6A39-92C0-4BD1-B293-AC5650B2575C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PRJ_CALLBACKS
 ms.topic: struct

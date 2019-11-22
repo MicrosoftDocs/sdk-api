@@ -1,12 +1,12 @@
 ---
 UID: NE:usbuser._USB_USER_ERROR_CODE
 title: USB_USER_ERROR_CODE (usbuser.h)
-author: windows-sdk-content
+
 description: The USB_USER_ERROR_CODE enumeration lists the error codes that a USB user-mode request reports when it fails.
 old-location: buses\usb_user_error_code.htm
 tech.root: usbref
 ms.assetid: 25dab683-70bd-4d3e-8295-d4a670c5b2ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: USB_USER_ERROR_CODE, USB_USER_ERROR_CODE enumeration [Buses], UsbUserBufferTooSmall, UsbUserDeviceNotStarted, UsbUserErrorNotMapped, UsbUserFeatureDisabled, UsbUserInvalidHeaderParameter, UsbUserInvalidParameter, UsbUserInvalidRequestCode, UsbUserMiniportError, UsbUserNoDeviceConnected, UsbUserNotSupported, UsbUserSuccess, buses.usb_user_error_code, usbstrct_c6461beb-3943-46d0-a426-c01cb52b4986.xml, usbuser/USB_USER_ERROR_CODE, usbuser/UsbUserBufferTooSmall, usbuser/UsbUserDeviceNotStarted, usbuser/UsbUserErrorNotMapped, usbuser/UsbUserFeatureDisabled, usbuser/UsbUserInvalidHeaderParameter, usbuser/UsbUserInvalidParameter, usbuser/UsbUserInvalidRequestCode, usbuser/UsbUserMiniportError, usbuser/UsbUserNoDeviceConnected, usbuser/UsbUserNotSupported, usbuser/UsbUserSuccess
 ms.topic: enum

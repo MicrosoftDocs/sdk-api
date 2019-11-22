@@ -1,12 +1,12 @@
 ---
 UID: NS:winldap.ldapcontrolW
 title: LDAPControlW (winldap.h)
-author: windows-sdk-content
+
 description: Represents both client-side and server controls.
 old-location: ldap\ldapcontrol.htm
 tech.root: ldap
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PLDAPControlW, LDAPControl, LDAPControl structure [LDAP], LDAPControlA, LDAPControlW, PLDAPControl, PLDAPControl structure pointer [LDAP], _ldap_ldapcontrol, ldap.ldapcontrol, winldap/LDAPControl, winldap/LDAPControlA, winldap/LDAPControlW, winldap/PLDAPControl"
 ms.topic: struct

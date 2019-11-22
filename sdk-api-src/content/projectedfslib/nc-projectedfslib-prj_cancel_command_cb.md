@@ -1,12 +1,12 @@
 ---
 UID: NC:projectedfslib.PRJ_CANCEL_COMMAND_CB
 title: PRJ_CANCEL_COMMAND_CB (projectedfslib.h)
-author: windows-sdk-content
+
 description: Notifies the provider that an operation by an earlier invocation of a callback should be canceled.
 old-location: projfs\prj_cancel_command_cb.htm
 tech.root: ProjFS
 ms.assetid: 8C646A8C-7C55-4F54-965A-04ACAC64C65D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_CANCEL_COMMAND_CB, PRJ_CANCEL_COMMAND_CB callback, PRJ_CANCEL_COMMAND_CB callback function, ProjFS.prj_cancel_command_cb, projectedfslib/PRJ_CANCEL_COMMAND_CB
 ms.topic: callback

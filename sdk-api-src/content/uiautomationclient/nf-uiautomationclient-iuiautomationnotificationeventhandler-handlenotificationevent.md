@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationNotificationEventHandler.HandleNotificationEvent
 title: IUIAutomationNotificationEventHandler::HandleNotificationEvent (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Handles a Microsoft UI Automation notification event.
 old-location: winauto\IUIAutomationNotificationEventHandler_HandleNotificationEvent.htm
 tech.root: WinAuto
 ms.assetid: A5FC58D4-B624-4EB1-9AC4-CD7C6F3BBFAE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HandleNotificationEvent, HandleNotificationEvent method [Windows Accessibility], HandleNotificationEvent method [Windows Accessibility],IUIAutomationNotificationEventHandler interface, IUIAutomationNotificationEventHandler interface [Windows Accessibility],HandleNotificationEvent method, IUIAutomationNotificationEventHandler.HandleNotificationEvent, IUIAutomationNotificationEventHandler::HandleNotificationEvent, uiautomationclient/IUIAutomationNotificationEventHandler::HandleNotificationEvent, winauto.IUIAutomationNotificationEventHandler_HandleNotificationEvent
 ms.topic: method

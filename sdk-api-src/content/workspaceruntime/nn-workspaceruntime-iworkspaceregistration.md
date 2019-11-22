@@ -1,12 +1,12 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceRegistration
 title: IWorkspaceRegistration (workspaceruntime.h)
-author: windows-sdk-content
+
 description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration.htm
 tech.root: TermServ
 ms.assetid: 29e7da7b-7da2-4000-8f3d-d12aa7e12fed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration, IWorkspaceRegistration interface [Remote Desktop Services], IWorkspaceRegistration interface [Remote Desktop Services],described, termserv.iworkspaceregistration, workspaceruntime/IWorkspaceRegistration
 ms.topic: interface

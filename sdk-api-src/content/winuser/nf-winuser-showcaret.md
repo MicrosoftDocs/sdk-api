@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ShowCaret
 title: ShowCaret function (winuser.h)
-author: windows-sdk-content
+
 description: Makes the caret visible on the screen at the caret's current position. When the caret becomes visible, it begins flashing automatically.
 old-location: menurc\showcaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\showcaret.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShowCaret, ShowCaret function [Menus and Other Resources], _win32_ShowCaret, _win32_showcaret_cpp, menurc.showcaret, winui._win32_showcaret, winuser/ShowCaret
 ms.topic: function

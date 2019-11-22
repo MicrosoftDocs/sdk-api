@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetCountOfRecords
 title: IDVB_RST::GetCountOfRecords (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 98e71d2e-d84e-4be5-b779-0d7c10a823d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_RST.GetCountOfRecords, IDVB_RST::GetCountOfRecords, IDVB_RSTGetCountOfRecords, dvbsiparser/IDVB_RST::GetCountOfRecords, mstv.idvb_rst_getcountofrecords
 ms.topic: method

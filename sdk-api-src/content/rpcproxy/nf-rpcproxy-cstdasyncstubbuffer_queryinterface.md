@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_QueryInterface
 title: CStdAsyncStubBuffer_QueryInterface function (rpcproxy.h)
-author: windows-sdk-content
+
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdasyncstubbuffer_queryinterface.htm
 tech.root: Rpc
 ms.assetid: 97AC8AA9-7C82-40B8-BF29-82A0E742E96C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_QueryInterface, CStdAsyncStubBuffer_QueryInterface function [RPC], rpc.cstdasyncstubbuffer_queryinterface, rpcproxy/CStdAsyncStubBuffer_QueryInterface
 ms.topic: function

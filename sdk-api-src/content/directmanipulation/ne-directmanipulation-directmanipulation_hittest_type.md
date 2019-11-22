@@ -1,12 +1,12 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_HITTEST_TYPE
 title: DIRECTMANIPULATION_HITTEST_TYPE (directmanipulation.h)
-author: windows-sdk-content
+
 description: Defines how hit testing is handled by Direct Manipulation when using a dedicated hit-test thread registered through RegisterHitTestTarget.
 old-location: directmanipulation\directmanipulation_hittest_type.htm
 tech.root: directmanipulation
 ms.assetid: 68e65695-9f28-4da4-9080-4030ed10c6ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_HITTEST_TYPE, DIRECTMANIPULATION_HITTEST_TYPE enumeration [Direct Manipulation], DIRECTMANIPULATION_HITTEST_TYPE_ASYNCHRONOUS, DIRECTMANIPULATION_HITTEST_TYPE_AUTO_SYNCHRONOUS, DIRECTMANIPULATION_HITTEST_TYPE_SYNCHRONOUS, directmanipulation.directmanipulation_hittest_type, directmanipulation/DIRECTMANIPULATION_HITTEST_TYPE, directmanipulation/DIRECTMANIPULATION_HITTEST_TYPE_ASYNCHRONOUS, directmanipulation/DIRECTMANIPULATION_HITTEST_TYPE_AUTO_SYNCHRONOUS, directmanipulation/DIRECTMANIPULATION_HITTEST_TYPE_SYNCHRONOUS
 ms.topic: enum

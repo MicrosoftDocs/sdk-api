@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymCompareInlineTrace
 title: SymCompareInlineTrace function (dbghelp.h)
-author: windows-sdk-content
+
 description: Compares two inline traces.
 old-location: base\symcompareinlinetrace.htm
 tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.topic: function

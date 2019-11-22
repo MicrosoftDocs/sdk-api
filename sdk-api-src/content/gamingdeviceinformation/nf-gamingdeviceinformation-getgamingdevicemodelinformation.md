@@ -1,12 +1,12 @@
 ---
 UID: NF:gamingdeviceinformation.GetGamingDeviceModelInformation
 title: GetGamingDeviceModelInformation function (gamingdeviceinformation.h)
-author: windows-sdk-content
+
 description: Gets information about the device that the game is running on.
 old-location: gamingdvcinfo\getgamingdevicemodelinformation.htm
 tech.root: gamingdvcinfo
 ms.assetid: 78101CBA-63B5-4B3F-9CEC-A215F32D9EB8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation function, gamingdeviceinformation/GetGamingDeviceModelInformation, gamingdvcinfo.getgamingdevicemodelinformation
 ms.topic: function

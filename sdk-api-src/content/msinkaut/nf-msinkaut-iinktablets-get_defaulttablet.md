@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkTablets.get_DefaultTablet
 title: IInkTablets::get_DefaultTablet (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the default tablet within the set of available tablets.
 old-location: tablet\inktablets_defaulttablet.htm
 tech.root: tablet
 ms.assetid: 4a9713c6-91a0-4632-9c8d-58d5e1b98478
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4a9713c6-91a0-4632-9c8d-58d5e1b98478, DefaultTablet property [Tablet PC], DefaultTablet property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],DefaultTablet property, IInkTablets.DefaultTablet, IInkTablets.get_DefaultTablet, IInkTablets::DefaultTablet, IInkTablets::get_DefaultTablet, InkTablets.get_DefaultTablet, get_DefaultTablet, msinkaut/IInkTablets::DefaultTablet, msinkaut/IInkTablets::get_DefaultTablet, tablet.inktablets_defaulttablet
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capDriverGetVersion
 title: capDriverGetVersion macro (vfw.h)
-author: windows-sdk-content
+
 description: The capDriverGetVersion macro returns the version information of the capture driver connected to a capture window. You can use this macro or explicitly send the WM_CAP_DRIVER_GET_VERSION message.
 old-location: multimedia\capdrivergetversion.htm
 tech.root: Multimedia
 ms.assetid: 35afaef2-dc83-4b72-92e5-2fb9a75e90ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capDriverGetVersion, capDriverGetVersion, capDriverGetVersion macro [Windows Multimedia], multimedia.capdrivergetversion, vfw/capDriverGetVersion"
 ms.topic: macro

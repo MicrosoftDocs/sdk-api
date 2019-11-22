@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ITypeLib.GetDocumentation
 title: ITypeLib::GetDocumentation (oaidl.h)
-author: windows-sdk-content
+
 description: Retrieves the documentation string for the library, the complete Help file name and path, and the context identifier for the library Help topic in the Help file.
 old-location: automat\itypelib_getdocumentation.htm
 tech.root: automat
 ms.assetid: aa65e143-47db-4241-9c66-fe3a1dcf1f0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetDocumentation method, ITypeLib.GetDocumentation, ITypeLib::GetDocumentation, _oa96_ITypeLib_GetDocumentation, automat.itypelib_getdocumentation, oaidl/ITypeLib::GetDocumentation
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetKeywords
 title: IXpsOMCoreProperties::SetKeywords (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets the keywords property.
 old-location: xps\ixpsomcoreproperties_setkeywords.htm
 tech.root: printdocs
 ms.assetid: d96a85d2-dfbf-4589-9c3f-7505715ec6ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderIDList
 title: SHGetKnownFolderIDList function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Retrieves the path of a known folder as an ITEMIDLIST structure.
 old-location: shell\SHGetKnownFolderIDList.htm
 tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.topic: function

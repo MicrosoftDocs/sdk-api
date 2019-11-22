@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMDEC4
 title: XMDEC4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit signed integer value.
 old-location: dxmath\xmdec4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMDEC4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMDEC4, XMDEC4 structure [DirectX Math Support APIs], directxpackedvector/XMDEC4, dxmath.xmdec4
 ms.topic: struct

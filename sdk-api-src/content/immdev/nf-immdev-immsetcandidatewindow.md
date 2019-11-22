@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmSetCandidateWindow
 title: ImmSetCandidateWindow function (immdev.h)
-author: windows-sdk-content
+
 description: Sets information about the candidates window.
 old-location: intl\immsetcandidatewindow.htm
 tech.root: Intl
 ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
 ms.topic: function

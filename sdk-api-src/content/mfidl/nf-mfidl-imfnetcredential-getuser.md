@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetUser
 title: IMFNetCredential::GetUser (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the user name.
 old-location: mf\imfnetcredential_getuser.htm
 tech.root: medfound
 ms.assetid: 11e10b9f-fd98-44f2-a829-d9ed3a5be189
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 11e10b9f-fd98-44f2-a829-d9ed3a5be189, GetUser, GetUser method [Media Foundation], GetUser method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetUser method, IMFNetCredential.GetUser, IMFNetCredential::GetUser, mf.imfnetcredential_getuser, mfidl/IMFNetCredential::GetUser
 ms.topic: method

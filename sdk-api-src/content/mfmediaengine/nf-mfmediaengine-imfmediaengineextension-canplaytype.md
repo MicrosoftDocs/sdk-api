@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.CanPlayType
 title: IMFMediaEngineExtension::CanPlayType (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Queries whether the object can load a specified type of media resource.
 old-location: mf\imfmediaengineextension_canplaytype.htm
 tech.root: medfound
 ms.assetid: F715B4CB-363E-4EF2-962C-C0AFB26B088E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],CanPlayType method, IMFMediaEngineExtension.CanPlayType, IMFMediaEngineExtension::CanPlayType, mf.imfmediaengineextension_canplaytype, mfmediaengine/IMFMediaEngineExtension::CanPlayType
 ms.topic: method

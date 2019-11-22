@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Stop
 title: IWMWriterFileSink2::Stop (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Stop method stops recording at the specified time.
 old-location: wmformat\iwmwriterfilesink2_stop.htm
 tech.root: wmformat
 ms.assetid: 47377c77-f534-4bb0-be57-49bdb109c309
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Stop method, IWMWriterFileSink2.Stop, IWMWriterFileSink2::Stop, IWMWriterFileSink2Stop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_stop, wmsdkidl/IWMWriterFileSink2::Stop
 ms.topic: method

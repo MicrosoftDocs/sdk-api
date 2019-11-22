@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Count
 title: IFaxOutboundRoutingGroups::get_Count (faxcomex.h)
-author: windows-sdk-content
+
 description: The Count property represents the number of objects in the FaxOutboundRoutingGroups collection. This is the total number of outbound routing groups associated with the fax server.
 old-location: fax\_mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Count property, IFaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp, faxcomex/IFaxOutboundRoutingGroups::Count, faxcomex/IFaxOutboundRoutingGroups::get_Count, get_Count
 ms.topic: method

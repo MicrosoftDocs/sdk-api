@@ -1,12 +1,12 @@
 ---
 UID: NS:ocidl.tagLICINFO
 title: LICINFO (ocidl.h)
-author: windows-sdk-content
+
 description: Contains parameters that describe the licensing behavior of a class factory that supports licensing. The structure is filled by calling the IClassFactory2::GetLicInfo method.
 old-location: com\licinfo.htm
 tech.root: com
 ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO"
 ms.topic: struct

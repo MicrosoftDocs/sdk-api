@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.INetSharingManager.get_EnumPrivateConnections
 title: INetSharingManager::get_EnumPrivateConnections (netcon.h)
-author: windows-sdk-content
+
 description: The get_EnumPrivateConnections method retrieves an enumeration interface for privately-shared connections.
 old-location: ics\inetsharingmanager_get_enumprivateconnections.htm
 tech.root: ics
 ms.assetid: cb770e91-0d85-4f67-b7a1-8cc6e89620eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPrivateConnections method, INetSharingManager.get_EnumPrivateConnections, INetSharingManager::get_EnumPrivateConnections, _ics_inetsharingmanager_get_enumprivateconnections, get_EnumPrivateConnections, get_EnumPrivateConnections method [ICS/ICF], get_EnumPrivateConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumprivateconnections, netcon/INetSharingManager::get_EnumPrivateConnections
 ms.topic: method

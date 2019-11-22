@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMDeviceRegistration
 title: IWMDeviceRegistration (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMDeviceRegistration interface registers playback devices for secure data delivery.You can create a device registration object and retrieve a pointer to its IWMDeviceRegistration interface by calling the WMCreateDeviceRegistration function.
 old-location: wmformat\iwmdeviceregistration.htm
 tech.root: wmformat
 ms.assetid: fb08ddae-2abf-4a86-a5d8-ea745ae35aa8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
 ms.topic: interface

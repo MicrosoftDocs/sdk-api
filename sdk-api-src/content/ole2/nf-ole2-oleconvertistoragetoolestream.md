@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAM
 title: OleConvertIStorageToOLESTREAM function (ole2.h)
-author: windows-sdk-content
+
 description: The OleConvertIStorageToOLESTREAM function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model but does not include the presentation data. This is one of several compatibility functions.
 old-location: stg\oleconvertistoragetoolestream.htm
 tech.root: Stg
 ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleConvertIStorageToOLESTREAM, OleConvertIStorageToOLESTREAM function [Structured Storage], _stg_oleconvertistoragetoolestream, ole2/OleConvertIStorageToOLESTREAM, stg.oleconvertistoragetoolestream
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFocus
 title: ITfThreadMgr::GetFocus (msctf.h)
-author: windows-sdk-content
+
 description: ITfThreadMgr::GetFocus method
 old-location: tsf\itfthreadmgr_getfocus.htm
 tech.root: TSF
 ms.assetid: bd6b4566-de23-49f5-9ef1-f82626b1f140
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFocus method, ITfThreadMgr.GetFocus, ITfThreadMgr::GetFocus, _tsf_itfthreadmgr_getfocus_ref, msctf/ITfThreadMgr::GetFocus, tsf.itfthreadmgr_getfocus
 ms.topic: method

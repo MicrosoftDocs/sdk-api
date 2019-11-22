@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPControls3
 title: IWMPControls3 (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPControls3 interface provides methods that supplement the IWMPControls2 interface.
 old-location: wmp\iwmpcontrols3.htm
 tech.root: WMP
 ms.assetid: ee902912-4f09-4f61-9b81-f4bd50ace892
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMPControls3 interface [Windows Media Player],described, IWMPControls3Interface, wmp.iwmpcontrols3, wmp/IWMPControls3
 ms.topic: interface

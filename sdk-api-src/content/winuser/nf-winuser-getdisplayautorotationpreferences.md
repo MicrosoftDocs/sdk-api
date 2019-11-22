@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetDisplayAutoRotationPreferences
 title: GetDisplayAutoRotationPreferences function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the screen auto-rotation preferences for the current process.
 old-location: base\getdisplayautorotationpreferences.htm
 tech.root: ProcThread
 ms.assetid: 48D609CC-3E2B-4E0E-9566-FE02853DD831
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
 ms.topic: function

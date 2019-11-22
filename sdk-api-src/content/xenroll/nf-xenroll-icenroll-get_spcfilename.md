@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.ICEnroll.get_SPCFileName
 title: ICEnroll::get_SPCFileName (xenroll.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\icenroll4_spcfilename.htm
 tech.root: SecCrypto
 ms.assetid: 4ff2f111-31bd-4ed4-a335-2db536477660
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],SPCFileName property, ICEnroll interface [Security],SPCFileName property, ICEnroll.SPCFileName, ICEnroll.get_SPCFileName, ICEnroll2 interface [Security],SPCFileName property, ICEnroll2.SPCFileName, ICEnroll2::get_SPCFileName, ICEnroll2::put_SPCFileName, ICEnroll3 interface [Security],SPCFileName property, ICEnroll3.SPCFileName, ICEnroll3::get_SPCFileName, ICEnroll3::put_SPCFileName, ICEnroll4 interface [Security],SPCFileName property, ICEnroll4.SPCFileName, ICEnroll4::SPCFileName, ICEnroll4::get_SPCFileName, ICEnroll4::put_SPCFileName, ICEnroll::get_SPCFileName, ICEnroll::put_SPCFileName, SPCFileName property [Security], SPCFileName property [Security],CEnroll object, SPCFileName property [Security],ICEnroll interface, SPCFileName property [Security],ICEnroll2 interface, SPCFileName property [Security],ICEnroll3 interface, SPCFileName property [Security],ICEnroll4 interface, get_SPCFileName, security.icenroll4_spcfilename, xenroll/ICEnroll2::SPCFileName, xenroll/ICEnroll2::get_SPCFileName, xenroll/ICEnroll2::put_SPCFileName, xenroll/ICEnroll3::SPCFileName, xenroll/ICEnroll3::get_SPCFileName, xenroll/ICEnroll3::put_SPCFileName, xenroll/ICEnroll4::SPCFileName, xenroll/ICEnroll4::get_SPCFileName, xenroll/ICEnroll4::put_SPCFileName, xenroll/ICEnroll::SPCFileName, xenroll/ICEnroll::get_SPCFileName, xenroll/ICEnroll::put_SPCFileName
 ms.topic: method

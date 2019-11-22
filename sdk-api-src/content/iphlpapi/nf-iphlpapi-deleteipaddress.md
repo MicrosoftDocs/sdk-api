@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.DeleteIPAddress
 title: DeleteIPAddress function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The DeleteIPAddress function deletes an IP address previously added using AddIPAddress.
 old-location: iphlp\deleteipaddress.htm
 tech.root: IpHlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
 ms.topic: function

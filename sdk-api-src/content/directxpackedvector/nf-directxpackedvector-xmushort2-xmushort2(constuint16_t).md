@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const uint16_t)
 title: XMUSHORT2::XMUSHORT2(const uint16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUSHORT2 from an array of uint16_t arguments.
 old-location: 
 tech.root: dxmath
 ms.assetid: b66fb2f1-0705-4124-b3f1-22c5d7780f6c
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2.XMUSHORT2(const uint16_t), XMUSHORT2::XMUSHORT2, XMUSHORT2::XMUSHORT2(const uint16_t), dxmath.xmushort2_ctor_1
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:mssip.SIP_INDIRECT_DATA_
 title: SIP_INDIRECT_DATA (mssip.h)
-author: windows-sdk-content
+
 description: Contains the digest of the hashed subject information.
 old-location: security\sip_indirect_data.htm
 tech.root: SecCrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA structure pointer [Security], SIP_INDIRECT_DATA, SIP_INDIRECT_DATA structure [Security], mssip/PSIP_INDIRECT_DATA, mssip/SIP_INDIRECT_DATA, security.sip_indirect_data'
 ms.topic: struct

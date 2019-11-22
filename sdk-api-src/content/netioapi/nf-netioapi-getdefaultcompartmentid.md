@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.GetDefaultCompartmentId
 title: GetDefaultCompartmentId function (netioapi.h)
-author: windows-sdk-content
+
 description: The GetDefaultCompartmentId function retrieves the default network routing compartment identifier for the local computer.
 old-location: iphlp\getdefaultcompartmentid.htm
 tech.root: IpHlp
 ms.assetid: 6747534F-7121-4783-BC19-D564C7014815
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCompartmentId, GetDefaultCompartmentId function [IP Helper], iphlp.getdefaultcompartmentid, netioapi/GetDefaultCompartmentId
 ms.topic: function

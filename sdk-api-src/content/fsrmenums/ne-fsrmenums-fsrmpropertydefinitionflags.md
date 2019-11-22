@@ -1,12 +1,12 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionFlags
 title: FsrmPropertyDefinitionFlags (fsrmenums.h)
-author: windows-sdk-content
+
 description: Flags the describe the type of classification property.
 old-location: fsrm\fsrmpropertydefinitionflags.htm
 tech.root: fsrm
 ms.assetid: a31f2401-affa-438b-a484-7b70ea6e9181
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionFlags, FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager], FsrmPropertyDefinitionFlags_Deprecated, FsrmPropertyDefinitionFlags_Global, FsrmPropertyDefinitionFlags_Secure, fs.fsrmpropertydefinitionflags, fsrm.fsrmpropertydefinitionflags, fsrmenums/FsrmPropertyDefinitionFlags, fsrmenums/FsrmPropertyDefinitionFlags_Deprecated, fsrmenums/FsrmPropertyDefinitionFlags_Global, fsrmenums/FsrmPropertyDefinitionFlags_Secure
 ms.topic: enum

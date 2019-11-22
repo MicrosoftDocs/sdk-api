@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMWriterAdvanced2
 title: IWMWriterAdvanced2 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMWriterAdvanced2 interface provides the ability to set and retrieve named settings for an input.IWMWriterAdvanced2 exists for every instance of the writer object. To obtain a pointer to this interface, call QueryInterface on the writer object.
 old-location: wmformat\iwmwriteradvanced2.htm
 tech.root: wmformat
 ms.assetid: 94790b67-690c-4a0f-9b82-801bfcec9eb0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], IWMWriterAdvanced2 interface [windows Media Format],described, IWMWriterAdvanced2Interface, wmformat.iwmwriteradvanced2, wmsdkidl/IWMWriterAdvanced2
 ms.topic: interface

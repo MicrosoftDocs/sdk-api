@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetLongitude
 title: ILatLongReport::GetLongitude (locationapi.h)
-author: windows-sdk-content
+
 description: Retrieves the longitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlongitude.htm
 tech.root: locationapi
 ms.assetid: 77fa407b-109c-45aa-bbdb-0b8a40d222e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLongitude, GetLongitude method [WinLocation], GetLongitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLongitude method, ILatLongReport.GetLongitude, ILatLongReport::GetLongitude, WinLocation_COM_Ref.ilatlongreport_getlongitude, locationapi/ILatLongReport::GetLongitude
 ms.topic: method

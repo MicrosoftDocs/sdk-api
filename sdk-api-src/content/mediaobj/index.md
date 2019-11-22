@@ -1,7 +1,7 @@
 ---
 UID: NA:mediaobj
 ms.assetid: d6194c4e-18c3-302b-8437-32d383b8790b
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

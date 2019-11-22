@@ -1,12 +1,12 @@
 ---
 UID: NF:effects.IWMPEffects2.NotifyNewMedia
 title: IWMPEffects2::NotifyNewMedia (effects.h)
-author: windows-sdk-content
+
 description: The NotifyNewMedia method is called by Windows Media Player to inform the visualization that a new media item has been loaded.
 old-location: wmp\iwmpeffects2_notifynewmedia.htm
 tech.root: WMP
 ms.assetid: ad1082af-9cba-4427-bacb-e552910f8e16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],NotifyNewMedia method, IWMPEffects2.NotifyNewMedia, IWMPEffects2::NotifyNewMedia, IWMPEffectsNotifyNewMedia, NotifyNewMedia, NotifyNewMedia method [Windows Media Player], NotifyNewMedia method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::NotifyNewMedia, wmp.iwmpeffects2_notifynewmedia
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif._VMRDeinterlaceCaps
 title: VMRDeinterlaceCaps (strmif.h)
-author: windows-sdk-content
+
 description: The VMRDeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmrdeinterlacecaps.htm
 tech.root: DirectShow
 ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRDeinterlaceCapsStructure, dshow.vmrdeinterlacecaps, strmif/VMRDeinterlaceCaps
 ms.topic: struct

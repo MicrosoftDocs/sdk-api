@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.SetValueRaw
 title: ISettingsItem::SetValueRaw (wcmconfig.h)
-author: windows-sdk-content
+
 description: Sets the value of the current item by supplying data in raw form.
 old-location: smi\isettingsitem_setvalueraw.htm
 tech.root: SMI
 ms.assetid: 65925c16-7a12-440f-ba2d-9156e41049ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValueRaw method, ISettingsItem.SetValueRaw, ISettingsItem::SetValueRaw, SetValueRaw, SetValueRaw method [SMI], SetValueRaw method [SMI],ISettingsItem interface, smi.isettingsitem_setvalueraw, wcmconfig/ISettingsItem::SetValueRaw
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.InitVariantFromResource
 title: InitVariantFromResource function (propvarutil.h)
-author: windows-sdk-content
+
 description: Initializes a VARIANT structure based on a string resource imbedded in an executable file.
 old-location: properties\InitVariantFromResource.htm
 tech.root: properties
 ms.assetid: ae309a04-7b21-46ef-b481-2593dc162e19
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromResource, InitVariantFromResource function [Windows Properties], _shell_InitVariantFromResource, properties.InitVariantFromResource, propvarutil/InitVariantFromResource, shell.InitVariantFromResource
 ms.topic: function

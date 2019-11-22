@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertProperty.SetValueOnCertificate
 title: ICertProperty::SetValueOnCertificate (certenroll.h)
-author: windows-sdk-content
+
 description: Associates a property value with an existing certificate.
 old-location: security\icertproperty_setvalueoncertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.topic: method

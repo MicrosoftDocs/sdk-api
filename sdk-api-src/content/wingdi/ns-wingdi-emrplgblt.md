@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRPLGBLT
 title: EMRPLGBLT (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRPLGBLT structure contains members for the PlgBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
 old-location: gdi\emrplgblt.htm
 tech.root: gdi
 ms.assetid: c802baa8-2f11-46e1-948c-f63c40e94266
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPLGBLT, EMRPLGBLT, EMRPLGBLT structure [Windows GDI], PEMRPLGBLT, PEMRPLGBLT structure pointer [Windows GDI], _win32_EMRPLGBLT_str, gdi.emrplgblt, wingdi/EMRPLGBLT, wingdi/PEMRPLGBLT"
 ms.topic: struct

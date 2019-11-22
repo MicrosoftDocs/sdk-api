@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_Channel
 title: IMSVidAnalogTuner::get_Channel (segment.h)
-author: windows-sdk-content
+
 description: The get_Channel method retrieves the tuner's current channel.
 old-location: mstv\imsvidanalogtuner_get_channel.htm
 tech.root: mstv
 ms.assetid: 9d62cd70-02cf-4454-b5b7-da2d623ec95d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_Channel method, IMSVidAnalogTuner.get_Channel, IMSVidAnalogTuner::get_Channel, IMSVidAnalogTunerget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_channel, segment/IMSVidAnalogTuner::get_Channel
 ms.topic: method

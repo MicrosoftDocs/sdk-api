@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancePropertiesByPath
 title: CWbemProviderGlue::GetInstancePropertiesByPath (wbemglue.h)
-author: windows-sdk-content
+
 description: Retrieves the instance identified by a particular object path, with only the specified properties populated. The properties to be populated are named in a CHString array.
 old-location: wmi\cwbemproviderglue_getinstancepropertiesbypath.htm
 tech.root: WmiSdk
 ms.assetid: d9232dc0-6df9-440d-bf7a-bf524acbe505
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancePropertiesByPath method, CWbemProviderGlue.GetInstancePropertiesByPath, CWbemProviderGlue::GetInstancePropertiesByPath, GetInstancePropertiesByPath, GetInstancePropertiesByPath method [Windows Management Instrumentation], GetInstancePropertiesByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancepropertiesbypath, wbemglue/CWbemProviderGlue::GetInstancePropertiesByPath, wmi.cwbemproviderglue_getinstancepropertiesbypath
 ms.topic: method

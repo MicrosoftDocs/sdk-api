@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2(float,float)
 title: XMFLOAT2::XMFLOAT2(float,float) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMFLOAT2 from two float arguments.
 old-location: dxmath\xmfloat2_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor(float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(float,float), XMFLOAT2::XMFLOAT2, XMFLOAT2::XMFLOAT2(float,float), dxmath.xmfloat2_ctor_2
 ms.topic: method

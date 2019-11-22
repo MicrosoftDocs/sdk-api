@@ -1,12 +1,12 @@
 ---
 UID: NF:ntsecapi.LsaRegisterPolicyChangeNotification
 title: LsaRegisterPolicyChangeNotification function (ntsecapi.h)
-author: windows-sdk-content
+
 description: The LsaRegisterPolicyChangeNotification function registers an event handle with the local security authority (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
 old-location: security\lsaregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LsaRegisterPolicyChangeNotification, LsaRegisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaregisterpolicychangenotification, ntsecapi/LsaRegisterPolicyChangeNotification, security.lsaregisterpolicychangenotification
 ms.topic: function

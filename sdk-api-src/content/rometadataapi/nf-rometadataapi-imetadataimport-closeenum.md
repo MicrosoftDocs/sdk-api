@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CloseEnum
 title: IMetaDataImport::CloseEnum (rometadataapi.h)
-author: windows-sdk-content
+
 description: Closes the enumerator that is identified by the specified handle.
 old-location: winrt\imetadataimport_closeenum.htm
 tech.root: WinRT
 ms.assetid: 3495afdf-ca88-4967-b7b3-6320114b9c50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CloseEnum method, IMetaDataImport.CloseEnum, IMetaDataImport::CloseEnum, rometadataapi/IMetaDataImport::CloseEnum, winrt.imetadataimport_closeenum
 ms.topic: method

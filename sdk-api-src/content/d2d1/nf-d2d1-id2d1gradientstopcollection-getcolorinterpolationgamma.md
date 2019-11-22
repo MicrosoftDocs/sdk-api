@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetColorInterpolationGamma
 title: ID2D1GradientStopCollection::GetColorInterpolationGamma (d2d1.h)
-author: windows-sdk-content
+
 description: Indicates the gamma space in which the gradient stops are interpolated.
 old-location: direct2d\ID2D1GradientStopCollection_GetColorInterpolationGamma.htm
 tech.root: Direct2D
 ms.assetid: d07f4dcc-7656-44ca-87cc-d59cb62eb36a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationGamma, GetColorInterpolationGamma method [Direct2D], GetColorInterpolationGamma method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetColorInterpolationGamma method, ID2D1GradientStopCollection.GetColorInterpolationGamma, ID2D1GradientStopCollection::GetColorInterpolationGamma, d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma, direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma
 ms.topic: method

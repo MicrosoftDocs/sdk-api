@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.SetBitmapDimensionEx
 title: SetBitmapDimensionEx function (wingdi.h)
-author: windows-sdk-content
+
 description: The SetBitmapDimensionEx function assigns preferred dimensions to a bitmap. These dimensions can be used by applications; however, they are not used by the system.
 old-location: gdi\setbitmapdimensionex.htm
 tech.root: gdi
 ms.assetid: 23960533-de71-4bff-a43f-75e5fe38fbec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1GradientMesh.GetPatches
 title: ID2D1GradientMesh::GetPatches (d2d1_3.h)
-author: windows-sdk-content
+
 description: Returns a subset of the patches that make up this gradient mesh.
 old-location: direct2d\id2d1gradientmesh_getpatches.htm
 tech.root: Direct2D
 ms.assetid: d3ef9370-fb9f-d55b-d910-7dd938ecf0b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPatches, GetPatches method [Direct2D], GetPatches method [Direct2D],ID2D1GradientMesh interface, ID2D1GradientMesh interface [Direct2D],GetPatches method, ID2D1GradientMesh.GetPatches, ID2D1GradientMesh::GetPatches, d2d1_3/ID2D1GradientMesh::GetPatches, direct2d.id2d1gradientmesh_getpatches
 ms.topic: method

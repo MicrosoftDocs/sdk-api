@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ComboBox_GetTextLength
 title: ComboBox_GetTextLength macro (windowsx.h)
-author: windows-sdk-content
+
 description: Gets the number of characters in the text of a combo box.
 old-location: controls\ComboBox_GetTextLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettextlength.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetTextLength, ComboBox_GetTextLength macro [Windows Controls], _win32_ComboBox_GetTextLength, _win32_ComboBox_GetTextLength_cpp, controls.ComboBox_GetTextLength, controls._win32_ComboBox_GetTextLength, windowsx/ComboBox_GetTextLength
 ms.topic: macro

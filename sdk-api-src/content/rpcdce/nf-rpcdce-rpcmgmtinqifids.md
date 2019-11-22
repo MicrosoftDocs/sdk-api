@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqIfIds
 title: RpcMgmtInqIfIds function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcMgmtInqIfIds function returns a vector containing the identifiers of the interfaces offered by the server.
 old-location: rpc\rpcmgmtinqifids.htm
 tech.root: Rpc
 ms.assetid: f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqIfIds, RpcMgmtInqIfIds function [RPC], _rpc_rpcmgmtinqifids, rpc.rpcmgmtinqifids, rpcdce/RpcMgmtInqIfIds
 ms.topic: function

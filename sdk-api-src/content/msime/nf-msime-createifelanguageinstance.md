@@ -1,12 +1,12 @@
 ---
 UID: NF:msime.CreateIFELanguageInstance
 title: CreateIFELanguageInstance function (msime.h)
-author: windows-sdk-content
+
 description: Returns a pointer to an IFELanguage interface.
 old-location: intl\createifelanguageinstance.htm
 tech.root: Intl
 ms.assetid: DF79C260-F43B-4580-B252-6D906C235CD4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
 ms.topic: function

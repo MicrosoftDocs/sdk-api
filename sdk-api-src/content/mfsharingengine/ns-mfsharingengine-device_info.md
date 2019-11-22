@@ -1,12 +1,12 @@
 ---
 UID: NS:mfsharingengine.DEVICE_INFO
 title: DEVICE_INFO (mfsharingengine.h)
-author: windows-sdk-content
+
 description: Contains information about a media sharing device.
 old-location: mf\device_info.htm
 tech.root: medfound
 ms.assetid: B006298C-B733-4E76-BD31-A3D1DD4DC766
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DEVICE_INFO, DEVICE_INFO structure [Media Foundation], mf.device_info, mfsharingengine/DEVICE_INFO
 ms.topic: struct

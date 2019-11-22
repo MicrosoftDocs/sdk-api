@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetGamma
 title: IDWriteRenderingParams::GetGamma (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the gamma value used for gamma correction. Valid values must be greater than zero and cannot exceed 256.
 old-location: directwrite\IDWriteRenderingParams_GetGamma.htm
 tech.root: DirectWrite
 ms.assetid: f83adfd6-055d-4b73-89a8-e0fe5af0b661
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGamma, GetGamma method [Direct Write], GetGamma method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetGamma method, IDWriteRenderingParams.GetGamma, IDWriteRenderingParams::GetGamma, directwrite.IDWriteRenderingParams_GetGamma, dwrite/IDWriteRenderingParams::GetGamma
 ms.topic: method

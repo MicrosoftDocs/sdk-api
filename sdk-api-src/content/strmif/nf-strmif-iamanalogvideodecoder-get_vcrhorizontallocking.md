@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 title: IAMAnalogVideoDecoder::get_VCRHorizontalLocking (strmif.h)
-author: windows-sdk-content
+
 description: The get_VCRHorizontalLocking method indicates whether the decoder is expecting video from a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_get_vcrhorizontallocking.htm
 tech.root: DirectShow
 ms.assetid: 0b527578-1840-4cb1-b94b-9be27b40fcf4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_VCRHorizontalLocking method, IAMAnalogVideoDecoder.get_VCRHorizontalLocking, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 ms.topic: method

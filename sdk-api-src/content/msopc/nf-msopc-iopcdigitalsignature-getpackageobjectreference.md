@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetPackageObjectReference
 title: IOpcDigitalSignature::GetPackageObjectReference (msopc.h)
-author: windows-sdk-content
+
 description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.
 old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
 tech.root: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
 ms.topic: method

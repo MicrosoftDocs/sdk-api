@@ -1,12 +1,12 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Reset
 title: IEnumDialableAddrs::Reset (rend.h)
-author: windows-sdk-content
+
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_reset.htm
 tech.root: Tapi
 ms.assetid: c996ea76-bf72-40bd-996b-335448ceb93c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Reset method, IEnumDialableAddrs.Reset, IEnumDialableAddrs::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_reset, rend/IEnumDialableAddrs::Reset, tapi3.ienumdialableaddrs_reset
 ms.topic: method

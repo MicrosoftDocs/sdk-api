@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Next
 title: IEnumTfCandidates::Next (ctffunc.h)
-author: windows-sdk-content
+
 description: IEnumTfCandidates::Next method
 old-location: tsf\ienumtfcandidates_next.htm
 tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
 ms.topic: method

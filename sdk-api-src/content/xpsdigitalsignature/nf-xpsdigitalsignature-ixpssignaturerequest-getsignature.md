@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetSignature
 title: IXpsSignatureRequest::GetSignature (xpsdigitalsignature.h)
-author: windows-sdk-content
+
 description: Gets a pointer to an IXpsSignature interface that contains the XPS digital signature with the same unique identifier as the signature request.
 old-location: xps\ixpssignaturerequest_getsignature.htm
 tech.root: printdocs
 ms.assetid: 649ab92f-9195-47a9-8a02-546825245e2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method [XPS Documents and Packaging], GetSignature method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSignature method, IXpsSignatureRequest.GetSignature, IXpsSignatureRequest::GetSignature, xps.ixpssignaturerequest_getsignature, xpsdigitalsignature/IXpsSignatureRequest::GetSignature
 ms.topic: method

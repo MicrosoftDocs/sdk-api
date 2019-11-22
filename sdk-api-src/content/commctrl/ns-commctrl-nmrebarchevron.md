@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMREBARCHEVRON
 title: NMREBARCHEVRON (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information used in handling the RBN_CHEVRONPUSHED notification code.
 old-location: controls\NMREBARCHEVRON.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchevron.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMREBARCHEVRON, LPNMREBARCHEVRON, LPNMREBARCHEVRON structure pointer [Windows Controls], NMREBARCHEVRON, NMREBARCHEVRON structure [Windows Controls], _win32_NMREBARCHEVRON, _win32_NMREBARCHEVRON_cpp, commctrl/LPNMREBARCHEVRON, commctrl/NMREBARCHEVRON, controls.NMREBARCHEVRON, controls._win32_NMREBARCHEVRON'
 ms.topic: struct

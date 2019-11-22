@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_1
 title: REQUESTBODY_Subscribe (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a WS-Eventing Subscribe request message.
 old-location: ncd\requestbody_subscribe_struct.htm
 tech.root: WsdApi
 ms.assetid: 28e7ee55-ad82-4ee6-9716-80951525ca96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Subscribe, REQUESTBODY_Subscribe structure, ncd.requestbody_subscribe_struct, wsdtypes/REQUESTBODY_Subscribe
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.IsTextContent
 title: ID2D1SvgElement::IsTextContent (d2d1svg.h)
-author: windows-sdk-content
+
 description: Returns a boolean indicating wether this element represents text content.
 old-location: direct2d\id2d1svgelement_istextcontent.htm
 tech.root: Direct2D
 ms.assetid: AB2078AC-033F-4111-B67D-014EF439E2B5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],IsTextContent method, ID2D1SvgElement.IsTextContent, ID2D1SvgElement::IsTextContent, IsTextContent, IsTextContent method [Direct2D], IsTextContent method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::IsTextContent, direct2d.id2d1svgelement_istextcontent
 ms.topic: method

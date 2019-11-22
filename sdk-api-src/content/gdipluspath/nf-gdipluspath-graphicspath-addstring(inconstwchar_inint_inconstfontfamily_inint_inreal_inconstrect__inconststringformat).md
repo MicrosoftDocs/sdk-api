@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Rect &,IN const StringFormat)
 title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Rect &,IN const StringFormat) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddString method adds the outline of a string to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods\addstring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddString, AddString method [GDI+], AddString method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddString method, GraphicsPath.AddString, GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Rect &,IN const StringFormat), GraphicsPath.AddString(const WCHAR*,INT,const FontFamily*,INT,REAL,const Rect&,const StringFormat*), GraphicsPath::AddString, GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Rect &,IN const StringFormat), _gdiplus_CLASS_GraphicsPath_AddString_, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_
 ms.topic: method

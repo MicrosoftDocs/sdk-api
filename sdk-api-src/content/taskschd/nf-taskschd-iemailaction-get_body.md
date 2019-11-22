@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Body
 title: IEmailAction::get_Body (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the body of the email that contains the email message.
 old-location: taskschd\iemailaction_body.htm
 tech.root: taskschd
 ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Body property, IEmailAction.Body, IEmailAction.get_Body, IEmailAction::Body, IEmailAction::get_Body, IEmailAction::put_Body, get_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
 title: STRUCTURED_QUERY_SYNTAX (structuredquery.h)
-author: windows-sdk-content
+
 description: Specifies the type of query syntax.
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX
 ms.topic: enum

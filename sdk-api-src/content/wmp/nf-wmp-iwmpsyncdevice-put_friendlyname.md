@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.put_friendlyName
 title: IWMPSyncDevice::put_friendlyName (wmp.h)
-author: windows-sdk-content
+
 description: The put_friendlyName method specifies the user-defined name of the device.
 old-location: wmp\iwmpsyncdevice_put_friendlyname.htm
 tech.root: WMP
 ms.assetid: caea8f34-8d0c-49ce-ae86-fda6c6b0b68b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],put_friendlyName method, IWMPSyncDevice.put_friendlyName, IWMPSyncDevice::put_friendlyName, IWMPSyncDeviceput_friendlyName, put_friendlyName, put_friendlyName method [Windows Media Player], put_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_put_friendlyname, wmp/IWMPSyncDevice::put_friendlyName
 ms.topic: method

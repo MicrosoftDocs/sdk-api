@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoollegacyapiset.QueueUserWorkItem
 title: QueueUserWorkItem function (threadpoollegacyapiset.h)
-author: windows-sdk-content
+
 description: Queues a work item to a worker thread in the thread pool.
 old-location: base\queueuserworkitem.htm
 tech.root: ProcThread
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
 ms.topic: function

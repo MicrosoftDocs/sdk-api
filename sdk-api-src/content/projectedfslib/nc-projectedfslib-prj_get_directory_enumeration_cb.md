@@ -1,12 +1,12 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_DIRECTORY_ENUMERATION_CB
 title: PRJ_GET_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
-author: windows-sdk-content
+
 description: Requests directory enumeration information from the provider.
 old-location: projfs\prj_get_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
 ms.topic: callback

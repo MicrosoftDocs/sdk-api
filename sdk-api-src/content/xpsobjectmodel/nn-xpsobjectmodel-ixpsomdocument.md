@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocument
 title: IXpsOMDocument (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: An ordered sequence of fixed pages and document-level resources that make up the document.
 old-location: xps\ixpsomdocument.htm
 tech.root: printdocs
 ms.assetid: 22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], IXpsOMDocument interface [XPS Documents and Packaging],described, xps.ixpsomdocument, xpsobjectmodel/IXpsOMDocument
 ms.topic: interface

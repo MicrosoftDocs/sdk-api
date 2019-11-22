@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemIscsi
 title: IVdsSubSystemIscsi (vdshwprv.h)
-author: windows-sdk-content
+
 description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
 old-location: base\ivdssubsystemiscsi.htm
 tech.root: VDS
 ms.assetid: e92417b7-6664-4fd7-900f-aedc83291dea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], IVdsSubSystemIscsi interface [VDS],described, base.ivdssubsystemiscsi, vds/IVdsSubSystemIscsi, vdshwprv/IVdsSubSystemIscsi
 ms.topic: interface

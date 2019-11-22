@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IResultsFolder
 title: IResultsFolder (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes methods that hold items from a data object.
 old-location: shell\IResultsFolder.htm
 tech.root: shell
 ms.assetid: db44052b-bd26-412f-9f2a-66a0c53b65ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsFolder interface [Windows Shell],described, _shell_IResultsFolder, shell.IResultsFolder, shobjidl/IResultsFolder
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.FillType
 title: FillType (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains values for the FillType attribute.
 old-location: winauto\uiauto_FillTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 6D05705E-B249-4C6F-9F13-C3A1F52EBF7F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FillType, FillType enumeration [Windows Accessibility], FillType_Color, FillType_Gradient, FillType_None, FillType_Pattern, FillType_Picture, uiautomationcore/FillType, uiautomationcore/FillType_Color, uiautomationcore/FillType_Gradient, uiautomationcore/FillType_None, uiautomationcore/FillType_Pattern, uiautomationcore/FillType_Picture, winauto.uiauto_FillTypeEnum
 ms.topic: enum

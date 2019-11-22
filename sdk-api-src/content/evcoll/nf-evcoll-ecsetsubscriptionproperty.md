@@ -1,12 +1,12 @@
 ---
 UID: NF:evcoll.EcSetSubscriptionProperty
 title: EcSetSubscriptionProperty function (evcoll.h)
-author: windows-sdk-content
+
 description: Sets new values or updates existing values of a subscription.
 old-location: wec\ecsetsubscriptionproperty.htm
 tech.root: WEC
 ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EcSetSubscriptionProperty, EcSetSubscriptionProperty function, evcoll/EcSetSubscriptionProperty, wec.ecsetsubscriptionproperty, wes.ecsetsubscriptionproperty
 ms.topic: function

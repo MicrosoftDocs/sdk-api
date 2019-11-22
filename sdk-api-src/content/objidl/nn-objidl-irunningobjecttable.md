@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IRunningObjectTable
 title: IRunningObjectTable (objidl.h)
-author: windows-sdk-content
+
 description: Manages access to the running object table (ROT), a globally accessible look-up table on each workstation.
 old-location: com\irunningobjecttable.htm
 tech.root: com
 ms.assetid: ff89bcb5-df6d-4325-b0e8-613217a68f42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM],described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
 ms.topic: interface

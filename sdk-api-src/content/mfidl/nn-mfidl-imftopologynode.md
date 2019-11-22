@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFTopologyNode
 title: IMFTopologyNode (mfidl.h)
-author: windows-sdk-content
+
 description: Represents a node in a topology.
 old-location: mf\imftopologynode.htm
 tech.root: medfound
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetRelationshipsContentStream
 title: IOpcRelationshipSet::GetRelationshipsContentStream (msopc.h)
-author: windows-sdk-content
+
 description: Gets a read-only stream that contains the part content of the Relationships part represented by the set.
 old-location: opc\iopcrelationshipset_getrelationshipscontentstream.htm
 tech.root: OPC
 ms.assetid: 648e5bd1-25cc-48df-8120-ca1756eff8f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipsContentStream, GetRelationshipsContentStream method [Open Packaging Conventions], GetRelationshipsContentStream method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetRelationshipsContentStream method, IOpcRelationshipSet.GetRelationshipsContentStream, IOpcRelationshipSet::GetRelationshipsContentStream, msopc/IOpcRelationshipSet::GetRelationshipsContentStream, opc.iopcrelationshipset_getrelationshipscontentstream
 ms.topic: method

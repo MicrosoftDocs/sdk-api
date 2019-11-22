@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordDescriptorByTag
 title: IATSC_VCT::GetRecordDescriptorByTag (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: b8c975fe-6bf9-443d-b069-cb8e5e01affc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_VCT.GetRecordDescriptorByTag, IATSC_VCT::GetRecordDescriptorByTag, IATSC_VCTGetRecordDescriptorByTag, atscpsipparser/IATSC_VCT::GetRecordDescriptorByTag, mstv.iatsc_vct_getrecorddescriptorbytag
 ms.topic: method

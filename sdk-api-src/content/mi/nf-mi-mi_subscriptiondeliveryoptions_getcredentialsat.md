@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetCredentialsAt
 title: MI_SubscriptionDeliveryOptions_GetCredentialsAt function (mi.h)
-author: windows-sdk-content
+
 description: Gets a previously added credential based on a specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialsat.htm
 tech.root: wmi_v2
 ms.assetid: 3af2ec8f-27fa-4adf-9946-07a1dcb0d0e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsAt, MI_SubscriptionDeliveryOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsAt, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialsat
 ms.topic: function

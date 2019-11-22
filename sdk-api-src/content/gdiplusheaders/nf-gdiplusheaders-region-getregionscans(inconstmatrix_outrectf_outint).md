@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.GetRegionScans(IN const Matrix,OUT RectF,OUT INT)
 title: Region::GetRegionScans
 description: The Region::GetRegionScans method gets an array of rectangles that approximate this region.
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans
 ms.topic: language-reference

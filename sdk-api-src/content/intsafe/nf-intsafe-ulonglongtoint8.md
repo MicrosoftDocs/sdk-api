@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.ULongLongToInt8
 title: ULongLongToInt8 function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type ULONGLONG to a value of type INT8.
 old-location: shell\ULongLongToInt8.htm
 tech.root: shell
 ms.assetid: cdbb93f8-bce5-4358-9dbd-351898251d77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ULongLongToInt8, ULongLongToInt8 function [Windows Shell], intsafe/ULongLongToInt8, shell.ULongLongToInt8
 ms.topic: function

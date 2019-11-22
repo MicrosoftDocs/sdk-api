@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.IEnumFeedClockVector
 title: IEnumFeedClockVector (winsync.h)
-author: windows-sdk-content
+
 description: Enumerates the clock vector elements that are stored in a clock vector that contains FeedSync information.
 old-location: winsync\ienumfeedclockvector.htm
 tech.root: winsync
 ms.assetid: 87679327-3a09-4416-b802-91171feb160a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector, IEnumFeedClockVector interface [Windows Sync], IEnumFeedClockVector interface [Windows Sync],described, winsync.ienumfeedclockvector, winsync/IEnumFeedClockVector
 ms.topic: interface

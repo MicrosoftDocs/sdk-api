@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagMONITORINFO
 title: MONITORINFO (winuser.h)
-author: windows-sdk-content
+
 description: The MONITORINFO structure contains information about a display monitor.The GetMonitorInfo function stores information in a MONITORINFO structure or a MONITORINFOEX structure.The MONITORINFO structure is a subset of the MONITORINFOEX structure.
 old-location: gdi\monitorinfo.htm
 tech.root: gdi
 ms.assetid: ca8ec86f-69ba-4cf8-a867-67182a3d630d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMONITORINFO, LPMONITORINFO, LPMONITORINFO structure pointer [Windows GDI], MONITORINFO, MONITORINFO structure [Windows GDI], _win32_MONITORINFO_str, gdi.monitorinfo, tagMONITORINFO, winuser/LPMONITORINFO, winuser/MONITORINFO"
 ms.topic: struct

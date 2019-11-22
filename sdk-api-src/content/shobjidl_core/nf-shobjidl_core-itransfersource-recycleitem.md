@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RecycleItem
 title: ITransferSource::RecycleItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Recycle the item into the provided recycle location and return the item in its new location.
 old-location: shell\ITransferSource_RecycleItem.htm
 tech.root: shell
 ms.assetid: ee99a1ff-1a3e-46a4-82c6-df5f6c26c396
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RecycleItem method, ITransferSource.RecycleItem, ITransferSource::RecycleItem, RecycleItem, RecycleItem method [Windows Shell], RecycleItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RecycleItem, shell.ITransferSource_RecycleItem, shobjidl_core/ITransferSource::RecycleItem
 ms.topic: method

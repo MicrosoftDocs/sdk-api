@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.EditStreamCut
 title: EditStreamCut function (vfw.h)
-author: windows-sdk-content
+
 description: The EditStreamCut function deletes all or part of an editable stream and creates a temporary editable stream from the deleted portion of the stream.
 old-location: multimedia\editstreamcut.htm
 tech.root: Multimedia
 ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
 ms.topic: function

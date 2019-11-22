@@ -1,12 +1,12 @@
 ---
 UID: NS:shtypes._COMDLG_FILTERSPEC
 title: COMDLG_FILTERSPEC (shtypes.h)
-author: windows-sdk-content
+
 description: Used generically to filter elements.
 old-location: shell\COMDLG_FILTERSPEC.htm
 tech.root: shell
 ms.assetid: b5bb6777-a5b6-4d10-a8b8-79269fa5e2da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], shell.COMDLG_FILTERSPEC, shell_COMDLG_FILTERSPEC, shtypes/COMDLG_FILTERSPEC
 ms.topic: struct

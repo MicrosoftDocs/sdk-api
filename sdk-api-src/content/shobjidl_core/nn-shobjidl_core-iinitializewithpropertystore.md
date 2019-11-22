@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithPropertyStore
 title: IInitializeWithPropertyStore (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
 old-location: shell\IInitializeWithPropertyStore.htm
 tech.root: shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
 ms.topic: interface

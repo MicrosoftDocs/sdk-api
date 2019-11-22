@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Start
 title: IMFMediaSource::Start (mfidl.h)
-author: windows-sdk-content
+
 description: Starts, seeks, or restarts the media source by specifying where to start playback.
 old-location: mf\imfmediasource_start.htm
 tech.root: medfound
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Media Foundation],Start method, IMFMediaSource.Start, IMFMediaSource::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
 ms.topic: method

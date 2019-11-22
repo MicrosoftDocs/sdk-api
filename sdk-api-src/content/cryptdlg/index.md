@@ -1,7 +1,7 @@
 ---
 UID: NA:cryptdlg
 ms.assetid: 1493dcdb-16b0-3777-aee0-f8b7d41b189e
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

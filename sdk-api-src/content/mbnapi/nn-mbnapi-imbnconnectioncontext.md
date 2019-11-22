@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContext
 title: IMbnConnectionContext (mbnapi.h)
-author: windows-sdk-content
+
 description: Manages connection contexts.
 old-location: mbn\imbnconnectioncontext.htm
 tech.root: mbn
 ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
 ms.topic: interface

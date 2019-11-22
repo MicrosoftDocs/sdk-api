@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2spi.WSCDeinstallProvider32
 title: WSCDeinstallProvider32 function (ws2spi.h)
-author: windows-sdk-content
+
 description: Removes the specified 32-bit transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider32.htm
 tech.root: WinSock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
 ms.topic: function

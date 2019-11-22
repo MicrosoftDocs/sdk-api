@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetEnumerator
 title: IWICMetadataReader::GetEnumerator (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Gets an enumerator of all the metadata items.
 old-location: wic\_wic_codec_iwicmetadatareader_getenumerator.htm
 tech.root: wic
 ms.assetid: 8dfb2b8d-2825-470e-8adc-85437d8fe863
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataReader.GetEnumerator, IWICMetadataReader::GetEnumerator, _wic_codec_iwicmetadatareader_getenumerator, wic._wic_codec_iwicmetadatareader_getenumerator, wincodecsdk/IWICMetadataReader::GetEnumerator
 ms.topic: method

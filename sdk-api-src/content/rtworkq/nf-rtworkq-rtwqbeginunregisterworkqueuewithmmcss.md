@@ -1,12 +1,12 @@
 ---
 UID: NF:rtworkq.RtwqBeginUnregisterWorkQueueWithMMCSS
 title: RtwqBeginUnregisterWorkQueueWithMMCSS function (rtworkq.h)
-author: windows-sdk-content
+
 description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
 tech.root: ProcThread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
 ms.topic: function

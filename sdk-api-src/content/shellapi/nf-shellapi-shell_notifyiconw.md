@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.Shell_NotifyIconW
 title: Shell_NotifyIconW function (shellapi.h)
-author: windows-sdk-content
+
 description: Sends a message to the taskbar's status area.
 old-location: shell\Shell_NotifyIcon.htm
 tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement7
 title: IUIAutomationElement7 (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Extends the IUIAutomationElement6 interface.
 old-location: winauto\uiauto_IUIAutomationElement7.htm
 tech.root: WinAuto
 ms.assetid: 62B3D170-C3B3-48B8-92F8-3DF02F5D4082
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], IUIAutomationElement7 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement7, winauto.uiauto_IUIAutomationElement7
 ms.topic: interface

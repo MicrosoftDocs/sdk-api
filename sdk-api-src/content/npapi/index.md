@@ -1,7 +1,7 @@
 ---
 UID: NA:npapi
 ms.assetid: 030840cb-6032-3a45-8210-f15d167632be
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

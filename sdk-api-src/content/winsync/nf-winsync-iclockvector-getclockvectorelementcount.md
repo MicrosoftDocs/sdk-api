@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IClockVector.GetClockVectorElementCount
 title: IClockVector::GetClockVectorElementCount (winsync.h)
-author: windows-sdk-content
+
 description: Gets the number of elements that are contained in the clock vector.
 old-location: winsync\iclockvector_getclockvectorelementcount.htm
 tech.root: winsync
 ms.assetid: 15ce120e-dabc-4827-b317-82784466c1f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClockVectorElementCount, GetClockVectorElementCount method [Windows Sync], GetClockVectorElementCount method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElementCount method, IClockVector.GetClockVectorElementCount, IClockVector::GetClockVectorElementCount, winsync.iclockvector_getclockvectorelementcount, winsync/IClockVector::GetClockVectorElementCount
 ms.topic: method

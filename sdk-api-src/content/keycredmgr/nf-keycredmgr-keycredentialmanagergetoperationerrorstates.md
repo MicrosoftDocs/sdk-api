@@ -1,12 +1,12 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerGetOperationErrorStates
 title: KeyCredentialManagerGetOperationErrorStates function (keycredmgr.h)
-author: windows-sdk-content
+
 description: Prerequisite API to call to determine if the operation will be successful prior.
 old-location: security\keycredentialmanagergetoperationerrorstates.htm
 tech.root: SecAuthN
 ms.assetid: 0E34340F-D886-4E69-9AF3-D9142E350173
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
 ms.topic: function

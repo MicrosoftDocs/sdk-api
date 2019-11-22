@@ -1,12 +1,12 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironment
 title: ITsSbEnvironment (sbtsv.h)
-author: windows-sdk-content
+
 description: Exposes methods and properties that contain information about the environment that hosts the target computer. This interface can be used to store information about a physical server that hosts virtual machines.
 old-location: termserv\itssbenvironment.htm
 tech.root: TermServ
 ms.assetid: 287cea18-c13c-4396-8970-39dd7f9b960e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], ITsSbEnvironment interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironment, termserv.itssbenvironment
 ms.topic: interface

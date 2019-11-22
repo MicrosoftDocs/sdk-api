@@ -1,12 +1,12 @@
 ---
 UID: NN:amaudio.IAMDirectSound
 title: IAMDirectSound (amaudio.h)
-author: windows-sdk-content
+
 description: The IAMDirectSound interface specifies which window has focus for controlling DirectSound audio playback.
 old-location: dshow\iamdirectsound.htm
 tech.root: DirectShow
 ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
 ms.topic: interface

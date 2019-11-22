@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IDockingWindow.ResizeBorderDW
 title: IDockingWindow::ResizeBorderDW (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Notifies the docking window object that the frame's border space has changed. In response to this method, the IDockingWindow implementation must call SetBorderSpaceDW, even if no border space is required or a change is not necessary.
 old-location: shell\IDockingWindow_ResizeBorderDW.htm
 tech.root: shell
 ms.assetid: de61badd-0794-484c-921f-4e72e881579c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ResizeBorderDW method, IDockingWindow.ResizeBorderDW, IDockingWindow::ResizeBorderDW, ResizeBorderDW, ResizeBorderDW method [Windows Shell], ResizeBorderDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ResizeBorderDW, shell.IDockingWindow_ResizeBorderDW, shobjidl_core/IDockingWindow::ResizeBorderDW
 ms.topic: method

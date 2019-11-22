@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_ClientName
 title: IDiscFormat2Erase::get_ClientName (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2erase_get_clientname.htm
 tech.root: imapi
 ms.assetid: be52c76d-3c6a-44b7-a948-4d0b02a7a7bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_ClientName method, IDiscFormat2Erase.get_ClientName, IDiscFormat2Erase::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_clientname, imapi2/IDiscFormat2Erase::get_ClientName
 ms.topic: method

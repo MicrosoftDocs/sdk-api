@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndSetActiveTimer
 title: MCIWndSetActiveTimer macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndSetActiveTimer macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the MCIWNDM_SETACTIVETIMER message.
 old-location: multimedia\mciwndsetactivetimer.htm
 tech.root: Multimedia
 ms.assetid: 0a0815c4-6c35-4d67-a87b-d355f9ffbf3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetActiveTimer, MCIWndSetActiveTimer macro [Windows Multimedia], _win32_MCIWndSetActiveTimer, multimedia.mciwndsetactivetimer, vfw/MCIWndSetActiveTimer
 ms.topic: macro

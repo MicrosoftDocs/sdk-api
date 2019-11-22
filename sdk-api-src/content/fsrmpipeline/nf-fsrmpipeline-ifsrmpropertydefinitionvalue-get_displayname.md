@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_DisplayName
 title: IFsrmPropertyDefinitionValue::get_DisplayName (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Display name of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_displayname.htm
 tech.root: fsrm
 ms.assetid: a115b33f-874a-49ed-ad0d-bfbee1edcc95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [File Server Resource Manager], DisplayName property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue interface [File Server Resource Manager],DisplayName property, IFsrmPropertyDefinitionValue.DisplayName, IFsrmPropertyDefinitionValue.get_DisplayName, IFsrmPropertyDefinitionValue::DisplayName, IFsrmPropertyDefinitionValue::get_DisplayName, fs.ifsrmpropertydefinitionvalue_displayname, fsrm.ifsrmpropertydefinitionvalue_displayname, fsrmpipeline/IFsrmPropertyDefinitionValue::DisplayName, fsrmpipeline/IFsrmPropertyDefinitionValue::get_DisplayName, get_DisplayName
 ms.topic: method

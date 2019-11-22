@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Iris
 title: ICameraControl::get_Iris (vidcap.h)
-author: windows-sdk-content
+
 description: The get_Iris method returns the camera's aperture setting.
 old-location: dshow\icameracontrol_get_iris.htm
 tech.root: DirectShow
 ms.assetid: 710a29f1-f5ab-42cf-b912-dd9b4546757e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Iris method, ICameraControl.get_Iris, ICameraControl::get_Iris, ICameraControlget_Iris, dshow.icameracontrol_get_iris, get_Iris, get_Iris method [DirectShow], get_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Iris
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMPlaneTransformStream
 title: XMPlaneTransformStream function (directxmath.h)
-author: windows-sdk-content
+
 description: Transforms a stream of planes by a given matrix.
 old-location: dxmath\xmplanetransformstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransformStream(XMFLOAT4@,size_t,const XMFLOAT4,size_t,size_t,XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransformStream, XMPlaneTransformStream, XMPlaneTransformStream method [DirectX Math Support APIs], dxmath.xmplanetransformstream
 ms.topic: function

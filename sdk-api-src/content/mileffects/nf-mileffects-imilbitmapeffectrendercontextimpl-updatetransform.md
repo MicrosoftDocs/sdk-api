@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateTransform
 title: IMILBitmapEffectRenderContextImpl::UpdateTransform (mileffects.h)
-author: windows-sdk-content
+
 description: Updates the output transform with the new matrix.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updatetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updatetransform.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateTransform method, IMILBitmapEffectRenderContextImpl.UpdateTransform, IMILBitmapEffectRenderContextImpl::UpdateTransform, UpdateTransform, UpdateTransform method [WPF Bitmap Effects], UpdateTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updatetransform, mileffects/IMILBitmapEffectRenderContextImpl::UpdateTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_updatetransform
 ms.topic: method

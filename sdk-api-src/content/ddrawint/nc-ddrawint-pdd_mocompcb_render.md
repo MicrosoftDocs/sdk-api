@@ -1,12 +1,12 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_RENDER
 title: PDD_MOCOMPCB_RENDER (ddrawint.h)
-author: windows-sdk-content
+
 description: The DdMoCompRender callback function tells the driver what macroblocks to render by specifying the surfaces containing the macroblocks, the offsets in each surface where the macroblocks exist, and the size of the macroblock data to be rendered.
 old-location: display\ddmocomprender.htm
 tech.root: display
 ms.assetid: d88f2c7e-e3e5-4444-836c-a45d52c86e54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdMoCompRender, DdMoCompRender callback function [Display Devices], PDD_MOCOMPCB_RENDER, PDD_MOCOMPCB_RENDER callback, ddfncs_60970586-34af-4e35-a963-98220fc7ef43.xml, ddrawint/DdMoCompRender, display.ddmocomprender
 ms.topic: callback

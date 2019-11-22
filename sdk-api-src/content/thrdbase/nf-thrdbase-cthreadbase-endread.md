@@ -1,12 +1,12 @@
 ---
 UID: NF:thrdbase.CThreadBase.EndRead
 title: CThreadBase::EndRead (thrdbase.h)
-author: windows-sdk-content
+
 description: The EndRead method provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_endread.htm
 tech.root: WmiSdk
 ms.assetid: e34fa8bc-f667-4fca-9282-9ca8038f3e75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?EndRead@CThreadBase@@QAEXXZ, CThreadBase interface [Windows Management Instrumentation],EndRead method, CThreadBase.EndRead, CThreadBase::EndRead, EndRead, EndRead method [Windows Management Instrumentation], EndRead method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndRead, wmi.cthreadbase_endread"
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1018
 title: SERVER_INFO_1018 (lmserver.h)
-author: windows-sdk-content
+
 description: The SERVER_INFO_1018 structure contains information about how much the announce rate can vary for the specified server.
 old-location: netmgmt\server_info_1018_str.htm
 tech.root: NetMgmt
 ms.assetid: 0a87d88c-af70-41ce-9d92-6e642d284819
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1018, *PSERVER_INFO_1018, LPSERVER_INFO_1018, LPSERVER_INFO_1018 structure pointer [Network Management], PSERVER_INFO_1018, PSERVER_INFO_1018 structure pointer [Network Management], SERVER_INFO_1018, SERVER_INFO_1018 structure [Network Management], _win32_server_info_1018_str, lmserver/LPSERVER_INFO_1018, lmserver/PSERVER_INFO_1018, lmserver/SERVER_INFO_1018, netmgmt.server_info_1018_str'
 ms.topic: struct

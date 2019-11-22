@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.Serialize
 title: IRdcGeneratorParameters::Serialize (msrdc.h)
-author: windows-sdk-content
+
 description: Serializes the parameter data into a block of memory.
 old-location: rdc\irdcgeneratorparameters_serialize.htm
 tech.root: rdc
 ms.assetid: ba0d09b0-417f-494a-a5e8-dccd08e5280a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorParameters interface [Remote Differential Compression],Serialize method, IRdcGeneratorParameters.Serialize, IRdcGeneratorParameters::Serialize, Serialize, Serialize method [Remote Differential Compression], Serialize method [Remote Differential Compression],IRdcGeneratorParameters interface, fs.irdcgeneratorparameters_serialize, msrdc/IRdcGeneratorParameters::Serialize, rdc.irdcgeneratorparameters_serialize
 ms.topic: method

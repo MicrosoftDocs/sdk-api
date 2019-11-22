@@ -1,12 +1,12 @@
 ---
 UID: NS:mscat.CRYPTCATCDF_
 title: CRYPTCATCDF (mscat.h)
-author: windows-sdk-content
+
 description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).
 old-location: security\cryptcatcdf.htm
 tech.root: SecCrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATCDF, CRYPTCATCDF structure [Security], mscat/CRYPTCATCDF, security.cryptcatcdf
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:dsadmin.__unnamed_struct_0
 title: DSA_NEWOBJ_DISPINFO (dsadmin.h)
-author: windows-sdk-content
+
 description: Used with the IDsAdminNewObjExt::Initialize method to supply additional data about an Active Directory Domain Services object creation wizard.
 old-location: ad\dsa_newobj_dispinfo.htm
 tech.root: ad
 ms.assetid: 966e2093-6ebd-42a0-923d-17f0494a9d0c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO"
 ms.topic: struct

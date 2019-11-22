@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiDatabaseImportW
 title: MsiDatabaseImportW function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiDatabaseImport function imports an installer text archive file into an open database table.
 old-location: setup\msidatabaseimport.htm
 tech.root: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
 ms.topic: function

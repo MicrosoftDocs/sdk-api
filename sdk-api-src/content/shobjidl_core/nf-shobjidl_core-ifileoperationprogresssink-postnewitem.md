@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostNewItem
 title: IFileOperationProgressSink::PostNewItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Performs caller-implemented actions after the new item is created.
 old-location: shell\IFileOperationProgressSink_PostNewItem.htm
 tech.root: shell
 ms.assetid: 250ca9b8-951d-4ce8-bfb7-d512f4a59a39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostNewItem method, IFileOperationProgressSink.PostNewItem, IFileOperationProgressSink::PostNewItem, PostNewItem, PostNewItem method [Windows Shell], PostNewItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostNewItem, shell.IFileOperationProgressSink_PostNewItem, shobjidl_core/IFileOperationProgressSink::PostNewItem
 ms.topic: method

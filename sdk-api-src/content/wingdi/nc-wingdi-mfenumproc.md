@@ -1,12 +1,12 @@
 ---
 UID: NC:wingdi.MFENUMPROC
 title: MFENUMPROC (wingdi.h)
-author: windows-sdk-content
+
 description: The EnumMetaFileProc function is an application-defined callback function that processes Windows-format metafile records.
 old-location: gdi\enummetafileproc.htm
 tech.root: gdi
 ms.assetid: ebef5a3f-0dd7-49df-a07d-c55c5e8c868c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFENUMPROC, MFENUMPROC callback, MFENUMPROC callback function [Windows GDI], _win32_EnumMetaFileProc, gdi.enummetafileproc, wingdi/MFENUMPROC
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NC:msacm.ACMFILTERCHOOSEHOOKPROC
 title: ACMFILTERCHOOSEHOOKPROC (msacm.h)
-author: windows-sdk-content
+
 description: The acmFilterChooseHookProc function specifies a user-defined function that hooks the acmFilterChoose dialog box.
 old-location: multimedia\acmfilterchoosehookproc.htm
 tech.root: Multimedia
 ms.assetid: 974bdf53-cd1e-433b-9d49-8dfc20254ebf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc"
 ms.topic: callback

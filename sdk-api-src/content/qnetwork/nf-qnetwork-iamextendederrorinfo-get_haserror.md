@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_HasError
 title: IAMExtendedErrorInfo::get_HasError (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_HasError method queries whether an error occurred.
 old-location: dshow\iamextendederrorinfo_get_haserror.htm
 tech.root: DirectShow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
 ms.topic: method

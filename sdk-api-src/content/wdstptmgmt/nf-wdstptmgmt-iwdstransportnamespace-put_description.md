@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Description
 title: IWdsTransportNamespace::put_Description (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the description of the namespace.
 old-location: wds\iwdstransportnamespace_description.htm
 tech.root: wds
 ms.assetid: 1d3d2cd8-f2ed-495a-a7f9-659ef5e0f6e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Deployment Services], Description property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Description property, IWdsTransportNamespace.Description, IWdsTransportNamespace.put_Description, IWdsTransportNamespace::Description, IWdsTransportNamespace::get_Description, IWdsTransportNamespace::put_Description, put_Description, wds.iwdstransportnamespace_description, wdstptmgmt/IWdsTransportNamespace::Description, wdstptmgmt/IWdsTransportNamespace::get_Description, wdstptmgmt/IWdsTransportNamespace::put_Description
 ms.topic: method

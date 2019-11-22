@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsService.GetObject
 title: IVdsService::GetObject (vds.h)
-author: windows-sdk-content
+
 description: Returns an object pointer for the identified object.
 old-location: base\ivdsservice_getobject.htm
 tech.root: VDS
 ms.assetid: 622a95a4-0e8c-4f65-a935-61cb48379065
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsService interface, IVdsService interface [VDS],GetObject method, IVdsService.GetObject, IVdsService::GetObject, base.ivdsservice_getobject, vds/IVdsService::GetObject
 ms.topic: method

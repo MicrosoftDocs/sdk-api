@@ -1,12 +1,12 @@
 ---
 UID: NS:oleacc.tagMSAAMENUINFO
 title: MSAAMENUINFO (oleacc.h)
-author: windows-sdk-content
+
 description: Used by server developers to expose the names of owner-drawn menu items.
 old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, winauto.msaamenuinfo"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:rtmv2.RtmReleaseNextHopInfo
 title: RtmReleaseNextHopInfo function (rtmv2.h)
-author: windows-sdk-content
+
 description: The RtmReleaseNextHopInfo function releases a next-hop structure.
 old-location: rras\rtmreleasenexthopinfo.htm
 tech.root: RRAS
 ms.assetid: 1c5a9b72-8605-4c54-bc44-b7a1a4e1b367
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseNextHopInfo, RtmReleaseNextHopInfo function [RAS], _rtmv2ref_rtmreleasenexthopinfo, rras.rtmreleasenexthopinfo, rtmv2/RtmReleaseNextHopInfo
 ms.topic: function

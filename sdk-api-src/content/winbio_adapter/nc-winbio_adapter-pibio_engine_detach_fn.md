@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DETACH_FN
 title: PIBIO_ENGINE_DETACH_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Releases adapter-specific resources attached to the pipeline.
 old-location: secbiomet\engineadapterdetach.htm
 tech.root: SecBioMet
 ms.assetid: a4bc8ef1-6005-4661-9bb1-20ea08d9a125
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, PIBIO_ENGINE_DETACH_FN callback, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
 ms.topic: callback

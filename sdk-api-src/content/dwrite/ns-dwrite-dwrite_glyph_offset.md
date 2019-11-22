@@ -1,12 +1,12 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_OFFSET
 title: DWRITE_GLYPH_OFFSET (dwrite.h)
-author: windows-sdk-content
+
 description: The optional adjustment to a glyph's position.
 old-location: directwrite\dwrite_glyph_offset.htm
 tech.root: DirectWrite
 ms.assetid: f5a231c0-78df-4fe0-99a8-81fcad517cda
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_OFFSET, DWRITE_GLYPH_OFFSET structure [Direct Write], directwrite.dwrite_glyph_offset, dwrite/DWRITE_GLYPH_OFFSET
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpRpcFreeMemory
 title: DhcpRpcFreeMemory function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpRpcFreeMemory function frees a block of buffer space returned as a parameter.
 old-location: dhcp\dhcprpcfreememory.htm
 tech.root: DHCP
 ms.assetid: bf22a0a6-2ecd-4460-89c4-3f870c6275dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpRpcFreeMemory, DhcpRpcFreeMemory function [DHCP], dhcp.dhcprpcfreememory, dhcpsapi/DhcpRpcFreeMemory
 ms.topic: function

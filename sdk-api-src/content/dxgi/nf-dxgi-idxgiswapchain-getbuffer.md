@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetBuffer
 title: IDXGISwapChain::GetBuffer (dxgi.h)
-author: windows-sdk-content
+
 description: Accesses one of the swap-chain's back buffers.
 old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getbuffer.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetBuffer method, IDXGISwapChain.GetBuffer, IDXGISwapChain::GetBuffer, bd427578-fb6a-3136-aa3f-221b9262700c, direct3ddxgi.idxgiswapchain_getbuffer, dxgi/IDXGISwapChain::GetBuffer
 ms.topic: method

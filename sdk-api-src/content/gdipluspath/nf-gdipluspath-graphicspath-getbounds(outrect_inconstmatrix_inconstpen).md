@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen)
 title: GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetboundsmethods\getbounds.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetBounds method, GraphicsPath.GetBounds, GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen), GraphicsPath.GetBounds(Rect*,const Matrix*,const Pen*), GraphicsPath::GetBounds, GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen), _gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_
 ms.topic: method

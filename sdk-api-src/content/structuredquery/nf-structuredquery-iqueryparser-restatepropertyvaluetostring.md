@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IQueryParser.RestatePropertyValueToString
 title: IQueryParser::RestatePropertyValueToString (structuredquery.h)
-author: windows-sdk-content
+
 description: Restates a specified property for a condition as a query string.
 old-location: search\_search_IQueryParser_RestatePropertyValueToString.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatepropertyvaluetostring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],RestatePropertyValueToString method, IQueryParser.RestatePropertyValueToString, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search],IQueryParser interface, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
 ms.topic: method

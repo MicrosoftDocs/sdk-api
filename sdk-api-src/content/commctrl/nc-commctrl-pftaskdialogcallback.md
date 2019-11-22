@@ -1,12 +1,12 @@
 ---
 UID: NC:commctrl.PFTASKDIALOGCALLBACK
 title: PFTASKDIALOGCALLBACK (commctrl.h)
-author: windows-sdk-content
+
 description: The TaskDialogCallbackProc function is an application-defined function used with the TaskDialogIndirect function.
 old-location: controls\TaskDialogCallbackProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogcallbackproc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCALLBACK callback function [Windows Controls], _shell_TaskDialogCallbackProc, _shell_TaskDialogCallbackProc_cpp, commctrl/PFTASKDIALOGCALLBACK, controls.TaskDialogCallbackProc, controls._shell_TaskDialogCallbackProc
 ms.topic: callback

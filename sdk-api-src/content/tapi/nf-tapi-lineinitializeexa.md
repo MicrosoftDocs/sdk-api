@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineInitializeExA
 title: lineInitializeExA function (tapi.h)
-author: windows-sdk-content
+
 description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
 old-location: tapi2\lineinitializeex.htm
 tech.root: Tapi
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex"
 ms.topic: function

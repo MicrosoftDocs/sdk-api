@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxFilesEnumerator
 title: IAppxFilesEnumerator (appxpackaging.h)
-author: windows-sdk-content
+
 description: Enumerates the payload files in a package.
 old-location: appxpkg\iappxfilesenumerator.htm
 tech.root: appxpkg
 ms.assetid: A9BB3242-5CDA-49A9-8A7B-5A9A3E31B724
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
 ms.topic: interface

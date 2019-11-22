@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector3LinePointDistance
 title: XMVector3LinePointDistance function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the minimum distance between a line and a point.
 old-location: dxmath\xmvector3linepointdistance.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3LinePointDistance(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3LinePointDistance, XMVector3LinePointDistance, XMVector3LinePointDistance method [DirectX Math Support APIs], dxmath.xmvector3linepointdistance
 ms.topic: function

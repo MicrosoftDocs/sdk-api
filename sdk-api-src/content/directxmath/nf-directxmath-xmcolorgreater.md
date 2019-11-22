@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMColorGreater
 title: XMColorGreater function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether all the components of the first color are greater than the corresponding components in the second color.
 old-location: dxmath\xmcolorgreater.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorGreater(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorGreater, XMColorGreater, XMColorGreater method [DirectX Math Support APIs], dxmath.xmcolorgreater
 ms.topic: function

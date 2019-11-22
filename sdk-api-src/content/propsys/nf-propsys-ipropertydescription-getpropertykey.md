@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyKey
 title: IPropertyDescription::GetPropertyKey (propsys.h)
-author: windows-sdk-content
+
 description: Gets a structure that acts as a property's unique identifier.
 old-location: properties\IPropertyDescription_GetPropertyKey.htm
 tech.root: properties
 ms.assetid: 10942dff-234e-4f85-827b-f27a6f099818
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyKey method, IPropertyDescription.GetPropertyKey, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
 ms.topic: method

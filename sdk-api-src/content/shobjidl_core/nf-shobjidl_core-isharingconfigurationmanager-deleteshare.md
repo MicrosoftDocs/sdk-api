@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.DeleteShare
 title: ISharingConfigurationManager::DeleteShare (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Removes sharing from either the Users or Public folder.
 old-location: shell\ISharingConfigurationManager_DeleteShare.htm
 tech.root: shell
 ms.assetid: 8b78d321-0da6-4b7e-8408-34784d309a1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteShare, DeleteShare method [Windows Shell], DeleteShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],DeleteShare method, ISharingConfigurationManager.DeleteShare, ISharingConfigurationManager::DeleteShare, _shell_ISharingConfigurationManager_DeleteShare, shell.ISharingConfigurationManager_DeleteShare, shobjidl_core/ISharingConfigurationManager::DeleteShare
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.AddAudioTrackBlocks
 title: IRedbookDiscMaster::AddAudioTrackBlocks (imapi.h)
-author: windows-sdk-content
+
 description: Adds blocks of audio data to the currently open track. This method can be called repeatedly until there is no space available or the track is full.
 old-location: imapi\iredbookdiscmaster_addaudiotrackblocks.htm
 tech.root: imapi
 ms.assetid: d9bd4f3c-4ff5-4f6e-9520-27fef3736636
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddAudioTrackBlocks, AddAudioTrackBlocks method [IMAPI], AddAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],AddAudioTrackBlocks method, IRedbookDiscMaster.AddAudioTrackBlocks, IRedbookDiscMaster::AddAudioTrackBlocks, _win32_iredbookdiscmaster_addaudiotrackblocks, base.iredbookdiscmaster_addaudiotrackblocks, imapi.iredbookdiscmaster_addaudiotrackblocks, imapi/IRedbookDiscMaster::AddAudioTrackBlocks
 ms.topic: method

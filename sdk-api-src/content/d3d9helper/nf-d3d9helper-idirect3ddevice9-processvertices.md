@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.ProcessVertices
 title: IDirect3DDevice9::ProcessVertices (d3d9helper.h)
-author: windows-sdk-content
+
 description: Applies the vertex processing defined by the vertex shader to the set of input data streams, generating a single stream of interleaved vertex data to the destination vertex buffer.
 old-location: direct3d9\idirect3ddevice9__processvertices.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__processvertices.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],ProcessVertices method, IDirect3DDevice9.ProcessVertices, IDirect3DDevice9::ProcessVertices, ProcessVertices, ProcessVertices method [Direct3D 9], ProcessVertices method [Direct3D 9],IDirect3DDevice9 interface, cf036375-2448-6e34-11ef-e3e3b96c951f, d3d9helper/IDirect3DDevice9::ProcessVertices, direct3d9.idirect3ddevice9__processvertices
 ms.topic: method

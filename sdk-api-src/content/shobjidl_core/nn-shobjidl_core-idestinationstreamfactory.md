@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IDestinationStreamFactory
 title: IDestinationStreamFactory (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes a method for manually copying a stream or file before applying changes to properties.
 old-location: shell\IDestinationStreamFactory.htm
 tech.root: shell
 ms.assetid: 7cedf8eb-b4ef-4889-bd7b-a734e939e872
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDestinationStreamFactory, IDestinationStreamFactory interface [Windows Shell], IDestinationStreamFactory interface [Windows Shell],described, shell.IDestinationStreamFactory, shell_IDestinationStreamFactory, shobjidl_core/IDestinationStreamFactory
 ms.topic: interface

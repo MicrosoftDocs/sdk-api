@@ -1,12 +1,12 @@
 ---
 UID: NS:windns.__unnamed_struct_5
 title: DNS_SOA_DATAW (windns.h)
-author: windows-sdk-content
+
 description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
 old-location: dns\dns_soa_data.htm
 tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_SOA_DATA, *PDNS_SOA_DATAW, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAW, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA"
 ms.topic: struct

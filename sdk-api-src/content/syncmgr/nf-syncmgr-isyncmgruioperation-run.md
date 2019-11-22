@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrUIOperation.Run
 title: ISyncMgrUIOperation::Run (syncmgr.h)
-author: windows-sdk-content
+
 description: Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation_Run.htm
 tech.root: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
 ms.topic: method

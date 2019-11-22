@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN IDirectDrawSurface7)
 title: Bitmap::Bitmap(IN IDirectDrawSurface7) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Bitmap::Bitmap object based on a DirectDraw surface. The Bitmap::Bitmap object maintains a reference to the DirectDraw surface until the Bitmap::Bitmap object is deleted or goes out of scope.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_surface_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_15surface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IDirectDrawSurface7*), Bitmap.Bitmap(IN IDirectDrawSurface7), Bitmap::Bitmap, Bitmap::Bitmap(IN IDirectDrawSurface7), _gdiplus_CLASS_Bitmap_Bitmap_surface_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_surface_
 ms.topic: method

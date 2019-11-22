@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.IForgottenKnowledge
 title: IForgottenKnowledge (winsync.h)
-author: windows-sdk-content
+
 description: Represents knowledge that has been forgotten because of tombstone cleanup.
 old-location: winsync\iforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync],described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
 ms.topic: interface

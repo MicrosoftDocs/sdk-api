@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Filter
 title: MI_Filter (mi.h)
-author: windows-sdk-content
+
 description: Contains a reference to the function table MI_FilterFT.
 old-location: wmi_v2\mi_filter.htm
 tech.root: wmi_v2
 ms.assetid: 0849cb55-ba2f-4855-ac33-fa96d8ecd94f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Filter, MI_Filter structure [Windows Management Infrastructure (MI)], mi/MI_Filter, wmi._mi_filter, wmi_v2.mi_filter
 ms.topic: struct

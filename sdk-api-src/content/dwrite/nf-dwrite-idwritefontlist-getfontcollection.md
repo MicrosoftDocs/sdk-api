@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontList.GetFontCollection
 title: IDWriteFontList::GetFontCollection (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the font collection that contains the fonts in the font list.
 old-location: directwrite\IDWriteFontList_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: f3c13a33-7bf7-4027-af10-f4863008cef2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteFontList interface, IDWriteFontList interface [Direct Write],GetFontCollection method, IDWriteFontList.GetFontCollection, IDWriteFontList::GetFontCollection, directwrite.IDWriteFontList_GetFontCollection, dwrite/IDWriteFontList::GetFontCollection
 ms.topic: method

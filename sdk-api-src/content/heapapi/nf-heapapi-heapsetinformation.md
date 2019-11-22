@@ -1,12 +1,12 @@
 ---
 UID: NF:heapapi.HeapSetInformation
 title: HeapSetInformation function (heapapi.h)
-author: windows-sdk-content
+
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm
 tech.root: Memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
 ms.topic: function

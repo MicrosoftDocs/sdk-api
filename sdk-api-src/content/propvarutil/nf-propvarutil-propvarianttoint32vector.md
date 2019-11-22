@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32Vector
 title: PropVariantToInt32Vector function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts a vector of long values from a PROPVARIANT structure.
 old-location: properties\PropVariantToInt32Vector.htm
 tech.root: properties
 ms.assetid: 771fa1d7-c648-49d4-a6a2-5aa23f8c20b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Windows Properties], _shell_PropVariantToInt32Vector, properties.PropVariantToInt32Vector, propvarutil/PropVariantToInt32Vector, shell.PropVariantToInt32Vector
 ms.topic: function

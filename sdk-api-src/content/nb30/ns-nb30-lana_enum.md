@@ -1,12 +1,12 @@
 ---
 UID: NS:nb30._LANA_ENUM
 title: LANA_ENUM (nb30.h)
-author: windows-sdk-content
+
 description: The LANA_ENUM structure contains the numbers for the current LAN adapters.
 old-location: netbios\lana_enum.htm
 tech.root: NetBIOS
 ms.assetid: 19a16eae-8c3e-4c4e-957b-41f22b61e51b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM, PLANA_ENUM structure pointer [NetBIOS], nb30/LANA_ENUM, nb30/PLANA_ENUM, netbios.lana_enum'
 ms.topic: struct

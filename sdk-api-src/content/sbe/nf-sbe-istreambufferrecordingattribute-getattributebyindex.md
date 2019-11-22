@@ -1,12 +1,12 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByIndex
 title: IStreamBufferRecordingAttribute::GetAttributeByIndex (sbe.h)
-author: windows-sdk-content
+
 description: The GetAttributeByIndex method retrieves an attribute, specified by index number.
 old-location: mstv\istreambufferrecordingattribute_getattributebyindex.htm
 tech.root: mstv
 ms.assetid: a4d9d25f-1e21-40e5-80c4-a8fe15dbc216
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [Microsoft TV Technologies], GetAttributeByIndex method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByIndex method, IStreamBufferRecordingAttribute.GetAttributeByIndex, IStreamBufferRecordingAttribute::GetAttributeByIndex, IStreamBufferRecordingAttributeGetAttributeByIndex, mstv.istreambufferrecordingattribute_getattributebyindex, sbe/IStreamBufferRecordingAttribute::GetAttributeByIndex
 ms.topic: method

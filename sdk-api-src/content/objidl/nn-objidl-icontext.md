@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IContext
 title: IContext (objidl.h)
-author: windows-sdk-content
+
 description: Supports setting COM+ context properties.
 old-location: com\icontext.htm
 tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 ms.topic: interface

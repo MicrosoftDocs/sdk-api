@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.ConvertNextToCurrent
 title: IDVB_BAT::ConvertNextToCurrent (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: befcd47c-e05e-4a75-a588-bebdb1cc3218
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_BAT.ConvertNextToCurrent, IDVB_BAT::ConvertNextToCurrent, IDVB_BATConvertNextToCurrent, dvbsiparser/IDVB_BAT::ConvertNextToCurrent, mstv.idvb_bat_convertnexttocurrent
 ms.topic: method

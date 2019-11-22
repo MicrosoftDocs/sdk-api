@@ -1,12 +1,12 @@
 ---
 UID: NF:systemtopologyapi.GetNumaNodeProcessorMaskEx
 title: GetNumaNodeProcessorMaskEx function (systemtopologyapi.h)
-author: windows-sdk-content
+
 description: Retrieves the processor mask for a node regardless of the processor group the node belongs to.
 old-location: base\getnumanodeprocessormaskex.htm
 tech.root: ProcThread
 ms.assetid: 4baf7193-aab3-4bd0-bc0a-60fd9277fc72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator
 title: IAppxManifestDeviceCapabilitiesEnumerator (appxpackaging.h)
-author: windows-sdk-content
+
 description: Enumerates the device capabilities defined in the package manifest.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator.htm
 tech.root: appxpkg
 ms.assetid: 6A544E15-BB92-48C3-963D-789B04464277
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator, appxpkg.iappxmanifestdevicecapabilitiesenumerator
 ms.topic: interface

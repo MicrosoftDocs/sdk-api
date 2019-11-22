@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnLockGranted
 title: ITextStoreACPSink::OnLockGranted (textstor.h)
-author: windows-sdk-content
+
 description: ITextStoreACPSink::OnLockGranted method
 old-location: tsf\itextstoreacpsink_onlockgranted.htm
 tech.root: TSF
 ms.assetid: ddedd278-ec28-417e-bce2-cdb74db7b0f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLockGranted method, ITextStoreACPSink.OnLockGranted, ITextStoreACPSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreACPSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreacpsink_onlockgranted_ref, textstor/ITextStoreACPSink::OnLockGranted, tsf.itextstoreacpsink_onlockgranted
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:prnasnot.CreatePrintAsyncNotifyChannel
 title: CreatePrintAsyncNotifyChannel function (prnasnot.h)
-author: windows-sdk-content
+
 description: Creates a communication channel between a Print Spooler-hosted printing component, such as a print driver or port monitor, and an application that receives notifications from the component.
 old-location: gdi\createprintasyncnotifychannel.htm
 tech.root: printdocs
 ms.assetid: 52cc586a-a565-46c6-b1b7-8613ad111ed3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
 ms.topic: function

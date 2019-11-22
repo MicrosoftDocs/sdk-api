@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoollegacyapiset.UnregisterWaitEx
 title: UnregisterWaitEx function (threadpoollegacyapiset.h)
-author: windows-sdk-content
+
 description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
 old-location: base\unregisterwaitex.htm
 tech.root: Sync
 ms.assetid: ea700e55-fce7-46cd-bb96-0c129b429d46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitEx, UnregisterWaitEx function, _win32_unregisterwaitex, base.unregisterwaitex, threadpoollegacyapiset/UnregisterWaitEx, winbase/UnregisterWaitEx
 ms.topic: function

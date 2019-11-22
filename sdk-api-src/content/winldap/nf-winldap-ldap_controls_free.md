@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_controls_free
 title: ldap_controls_free function (winldap.h)
-author: windows-sdk-content
+
 description: Frees an array of LDAPControl structures.
 old-location: ldap\ldap_controls_free.htm
 tech.root: ldap
 ms.assetid: e1e4545f-6184-41bb-bba1-4eebae9cdaaf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_controls_free, ldap.ldap__controls__free, ldap.ldap_controls_free, ldap_controls_free, ldap_controls_free function [LDAP], ldap_controls_freeA, ldap_controls_freeW, winldap/ldap_controls_free, winldap/ldap_controls_freeA, winldap/ldap_controls_freeW"
 ms.topic: function

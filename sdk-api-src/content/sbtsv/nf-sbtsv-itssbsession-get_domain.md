@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_Domain
 title: ITsSbSession::get_Domain (sbtsv.h)
-author: windows-sdk-content
+
 description: Retrieves the domain name of the user.
 old-location: termserv\itssbsession_domain.htm
 tech.root: TermServ
 ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],Domain property, ITsSbSession.Domain, ITsSbSession.get_Domain, ITsSbSession::Domain, ITsSbSession::get_Domain, get_Domain, sbtsv/ITsSbSession::Domain, sbtsv/ITsSbSession::get_Domain, termserv.itssbsession_domain
 ms.topic: method

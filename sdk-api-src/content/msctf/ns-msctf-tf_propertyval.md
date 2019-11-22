@@ -1,12 +1,12 @@
 ---
 UID: NS:msctf.TF_PROPERTYVAL
 title: TF_PROPERTYVAL (msctf.h)
-author: windows-sdk-content
+
 description: The TF_PROPERTYVAL structure contains property value data. This structure is used with the IEnumTfPropertyValue::Next method.
 old-location: tsf\tf_propertyval.htm
 tech.root: TSF
 ms.assetid: 50a5930c-ba17-4441-99a7-efc6c4bfc2ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TF_PROPERTYVAL, TF_PROPERTYVAL structure [Text Services Framework], _tsf_tf_propertyval_ref, msctf/TF_PROPERTYVAL, tsf.tf_propertyval
 ms.topic: struct

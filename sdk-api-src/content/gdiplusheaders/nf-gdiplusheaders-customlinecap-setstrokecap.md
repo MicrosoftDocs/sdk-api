@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetStrokeCap
 title: CustomLineCap::SetStrokeCap (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The CustomLineCap::SetStrokeCap method sets the LineCap object used to start and end lines within the GraphicsPath object that defines this CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeCap_strokeCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setstrokecap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetStrokeCap method, CustomLineCap.SetStrokeCap, CustomLineCap::SetStrokeCap, SetStrokeCap, SetStrokeCap method [GDI+], SetStrokeCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetStrokeCap_strokeCap_, gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeCap_strokeCap_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFActivate.ShutdownObject
 title: IMFActivate::ShutdownObject (mfobjects.h)
-author: windows-sdk-content
+
 description: Shuts down the created object.
 old-location: mf\imfactivate_shutdownobject.htm
 tech.root: medfound
 ms.assetid: 1f88ff31-5a91-4838-bfce-673a5a85c766
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media Foundation],ShutdownObject method, IMFActivate.ShutdownObject, IMFActivate::ShutdownObject, ShutdownObject, ShutdownObject method [Media Foundation], ShutdownObject method [Media Foundation],IMFActivate interface, mf.imfactivate_shutdownobject, mfobjects/IMFActivate::ShutdownObject
 ms.topic: method

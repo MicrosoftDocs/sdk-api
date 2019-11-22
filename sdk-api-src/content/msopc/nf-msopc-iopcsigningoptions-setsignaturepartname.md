@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignaturePartName
 title: IOpcSigningOptions::SetSignaturePartName (msopc.h)
-author: windows-sdk-content
+
 description: Sets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_setsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 36d69a11-bfc3-4f0a-a681-4e138751990d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignaturePartName method, IOpcSigningOptions.SetSignaturePartName, IOpcSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [Open Packaging Conventions], SetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignaturePartName, opc.iopcsigningoptions_setsignaturepartname
 ms.topic: method

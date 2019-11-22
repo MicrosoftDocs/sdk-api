@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarAnd
 title: VarAnd function (oleauto.h)
-author: windows-sdk-content
+
 description: Performs a bitwise And operation between two variants of any integral type.
 old-location: automat\varand.htm
 tech.root: automat
 ms.assetid: bcdda3e6-d599-4266-ba66-6634ab26f9d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarAnd, VarAnd function [Automation], _oa96_VarAnd, automat.varand, oleauto/VarAnd
 ms.topic: function

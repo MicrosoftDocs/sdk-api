@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_EXTEND_VOLUME
 title: FSCTL_EXTEND_VOLUME
-author: windows-sdk-content
+
 description: Increases the size of a mounted volume.
 old-location: fs\fsctl_extend_volume.htm
 tech.root: FileIO
 ms.assetid: b941c5c8-39b4-4a5d-93e9-acbde7177d44
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_EXTEND_VOLUME, FSCTL_EXTEND_VOLUME control, FSCTL_EXTEND_VOLUME control code [Files], base.fsctl_extend_volume, fs.fsctl_extend_volume, winioctl/FSCTL_EXTEND_VOLUME
 ms.topic: ioctl

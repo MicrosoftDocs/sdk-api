@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.get_Settings
 title: IAutomaticUpdates::get_Settings (wuapi.h)
-author: windows-sdk-content
+
 description: Gets the configuration settings for Automatic Updates.
 old-location: wua\iautomaticupdates_settings.htm
 tech.root: Wua_Sdk
 ms.assetid: 4b64d8bd-98bb-4d3a-9e90-2c6500c8614b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Settings property, IAutomaticUpdates.Settings, IAutomaticUpdates.get_Settings, IAutomaticUpdates::Settings, IAutomaticUpdates::get_Settings, Settings property [Windows Update Agent], Settings property [Windows Update Agent],IAutomaticUpdates interface, get_Settings, wua.iautomaticupdates_settings, wuapi/IAutomaticUpdates::Settings, wuapi/IAutomaticUpdates::get_Settings
 ms.topic: method

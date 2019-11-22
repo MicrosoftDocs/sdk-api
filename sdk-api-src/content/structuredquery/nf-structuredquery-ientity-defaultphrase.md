@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IEntity.DefaultPhrase
 title: IEntity::DefaultPhrase (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves a default phrase to use for this entity in restatements.
 old-location: search\_search_IEntity_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\defaultphrase.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IEntity interface, IEntity interface [search],DefaultPhrase method, IEntity.DefaultPhrase, IEntity::DefaultPhrase, _search_IEntity_DefaultPhrase, search._search_IEntity_DefaultPhrase, structuredquery/IEntity::DefaultPhrase
 ms.topic: method

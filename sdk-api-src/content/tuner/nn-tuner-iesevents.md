@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.IESEvents
 title: IESEvents (tuner.h)
-author: windows-sdk-content
+
 description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
 old-location: mstv\iesevents.htm
 tech.root: mstv
 ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IESEvents, IESEvents interface [Microsoft TV Technologies], IESEvents interface [Microsoft TV Technologies],described, mstv.iesevents, tuner/IESEvents
 ms.topic: interface

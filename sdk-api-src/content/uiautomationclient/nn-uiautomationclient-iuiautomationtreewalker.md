@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTreeWalker
 title: IUIAutomationTreeWalker (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Exposes properties and methods that UI Automation client applications use to view and navigate the UI Automation elements on the desktop.
 old-location: winauto\uiauto_IUIAutomationTreeWalker.htm
 tech.root: WinAuto
 ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
 ms.topic: interface

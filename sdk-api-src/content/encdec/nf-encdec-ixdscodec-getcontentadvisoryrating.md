@@ -1,12 +1,12 @@
 ---
 UID: NF:encdec.IXDSCodec.GetContentAdvisoryRating
 title: IXDSCodec::GetContentAdvisoryRating (encdec.h)
-author: windows-sdk-content
+
 description: The GetContentAdvisoryRating method retrieves the most recent ratings information parsed by the XDSToRat object.
 old-location: mstv\ixdscodec_getcontentadvisoryrating.htm
 tech.root: mstv
 ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagTITLEBARINFOEX
 title: TITLEBARINFOEX (winuser.h)
-author: windows-sdk-content
+
 description: Expands on the information described in the TITLEBARINFO structure by including the coordinates of each element of the title bar.
 old-location: winmsg\titlebarinfoex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfoex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPTITLEBARINFOEX, *PTITLEBARINFOEX, LPTITLEBARINFOEX, LPTITLEBARINFOEX structure pointer [Windows and Messages], PTITLEBARINFOEX, PTITLEBARINFOEX structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFOEX, TITLEBARINFOEX structure [Windows and Messages], _win32_TITLEBARINFOEX_str, _win32_titlebarinfoex_str_cpp, winmsg.titlebarinfoex, winui._win32_titlebarinfoex_str, winuser/LPTITLEBARINFOEX, winuser/PTITLEBARINFOEX, winuser/TITLEBARINFOEX"
 ms.topic: struct

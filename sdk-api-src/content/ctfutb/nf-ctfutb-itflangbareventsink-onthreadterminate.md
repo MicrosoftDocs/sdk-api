@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnThreadTerminate
 title: ITfLangBarEventSink::OnThreadTerminate (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarEventSink::OnThreadTerminate method
 old-location: tsf\itflangbareventsink_onthreadterminate.htm
 tech.root: TSF
 ms.assetid: cdb5d505-524b-4fbc-a90a-181d22cbadbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadTerminate method, ITfLangBarEventSink.OnThreadTerminate, ITfLangBarEventSink::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [Text Services Framework], OnThreadTerminate method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreadterminate_ref, ctfutb/ITfLangBarEventSink::OnThreadTerminate, tsf.itflangbareventsink_onthreadterminate
 ms.topic: method

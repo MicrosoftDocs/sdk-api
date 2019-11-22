@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHmenuIdentityString
 title: IAccPropServices::ComposeHmenuIdentityString (oleacc.h)
-author: windows-sdk-content
+
 description: Callers use ComposeHmenuIdentityString to retrieve an identity string for an HMENU-based accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHmenuIdentityString method, IAccPropServices.ComposeHmenuIdentityString, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
 ms.topic: method

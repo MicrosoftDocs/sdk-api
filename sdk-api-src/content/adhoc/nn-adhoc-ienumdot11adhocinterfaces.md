@@ -1,12 +1,12 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocInterfaces
 title: IEnumDot11AdHocInterfaces (adhoc.h)
-author: windows-sdk-content
+
 description: Represents the collection of currently visible 802.11 ad hoc network interfaces.
 old-location: nwifi\ienumdot11adhocinterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: c61bbe3a-ad02-4182-bf10-1ed5fe307bd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI],described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
 ms.topic: interface

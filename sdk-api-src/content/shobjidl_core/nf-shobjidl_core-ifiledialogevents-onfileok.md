@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFileOk
 title: IFileDialogEvents::OnFileOk (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Called just before the dialog is about to return with a result.
 old-location: shell\IFileDialogEvents_OnFileOk.htm
 tech.root: shell
 ms.assetid: 81277122-b2fe-40af-85f8-d578925856a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFileOk method, IFileDialogEvents.OnFileOk, IFileDialogEvents::OnFileOk, OnFileOk, OnFileOk method [Windows Shell], OnFileOk method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFileOk, shell_IFileDialogEvents_OnFileOk, shobjidl_core/IFileDialogEvents::OnFileOk
 ms.topic: method

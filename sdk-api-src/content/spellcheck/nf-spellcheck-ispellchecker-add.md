@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Add
 title: ISpellChecker::Add (spellcheck.h)
-author: windows-sdk-content
+
 description: Treats the provided word as though it were part of the original dictionary.
 old-location: intl\ispellchecker_add.htm
 tech.root: Intl
 ms.assetid: d600a57e-7191-4a82-8004-026a04ef94ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Internationalization for Windows Applications], Add method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Add method, ISpellChecker.Add, ISpellChecker::Add, intl.ispellchecker_add, spellcheck/ISpellChecker::Add
 ms.topic: method

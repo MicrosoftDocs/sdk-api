@@ -1,7 +1,7 @@
 ---
 UID: NA:certadm
 ms.assetid: 87b149b2-1e58-330a-a91d-f63130b54a41
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

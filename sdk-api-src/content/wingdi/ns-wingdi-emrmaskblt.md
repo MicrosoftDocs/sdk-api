@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRMASKBLT
 title: EMRMASKBLT (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRMASKBLT structure contains members for the MaskBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
 old-location: gdi\emrmaskblt.htm
 tech.root: gdi
 ms.assetid: 4c9e8631-8b76-423f-9691-8c93c6412d41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRMASKBLT, EMRMASKBLT, EMRMASKBLT structure [Windows GDI], PEMRMASKBLT, PEMRMASKBLT structure pointer [Windows GDI], _win32_EMRMASKBLT_str, gdi.emrmaskblt, wingdi/EMRMASKBLT, wingdi/PEMRMASKBLT"
 ms.topic: struct

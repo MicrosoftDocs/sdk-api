@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxServerNotify2
 title: IFaxServerNotify2 (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxServerNotify2 interface is used for fax notifications.
 old-location: fax\_mfax_ifaxservernotify2.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\faxinto_z_ifaxservernotify2.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxServerNotify2 interface [Fax Service],described, IIFaxServerNotify2, _mfax_ifaxservernotify2, fax._mfax_ifaxservernotify2, faxcomex/IFaxServerNotify2
 ms.topic: interface

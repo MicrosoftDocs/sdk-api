@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.SHRemoveFolderPathFromLibrary
 title: SHRemoveFolderPathFromLibrary function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Removes a folder from a library.
 old-location: shell\SHRemoveFolderPathFromLibrary.htm
 tech.root: shell
 ms.assetid: 34de407c-54f0-4be9-a383-4bf1baa63eef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
 ms.topic: function

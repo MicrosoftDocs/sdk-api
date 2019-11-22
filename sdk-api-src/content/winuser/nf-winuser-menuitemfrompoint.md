@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.MenuItemFromPoint
 title: MenuItemFromPoint function (winuser.h)
-author: windows-sdk-content
+
 description: Determines which menu item, if any, is at the specified location.
 old-location: menurc\menuitemfrompoint.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\menuitemfrompoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MenuItemFromPoint, MenuItemFromPoint function [Menus and Other Resources], _win32_MenuItemFromPoint, _win32_menuitemfrompoint_cpp, menurc.menuitemfrompoint, winui._win32_menuitemfrompoint, winuser/MenuItemFromPoint
 ms.topic: function

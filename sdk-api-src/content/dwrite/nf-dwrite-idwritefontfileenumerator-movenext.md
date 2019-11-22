@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontFileEnumerator.MoveNext
 title: IDWriteFontFileEnumerator::MoveNext (dwrite.h)
-author: windows-sdk-content
+
 description: Advances to the next font file in the collection. When it is first created, the enumerator is positioned before the first element of the collection and the first call to MoveNext advances to the first file.
 old-location: directwrite\IDWriteFontFileEnumerator_MoveNext.htm
 tech.root: DirectWrite
 ms.assetid: ffacdf0b-2e37-4b69-a6b5-7c6552ecdb60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
 ms.topic: method

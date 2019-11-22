@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzScope.SetProperty
 title: IAzScope::SetProperty (azroles.h)
-author: windows-sdk-content
+
 description: Sets the specified value to the IAzScope object property with the specified property ID.
 old-location: security\iazscope_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 4df2d9ca-a77f-4b32-a4e2-56ecd2059b49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzScope object [Security],SetProperty method, IAzScope interface [Security],SetProperty method, IAzScope.SetProperty, IAzScope::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzScope object, SetProperty method [Security],IAzScope interface, azroles/IAzScope::SetProperty, security.iazscope_setproperty
 ms.topic: method

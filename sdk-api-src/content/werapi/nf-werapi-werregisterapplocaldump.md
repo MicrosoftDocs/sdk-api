@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerRegisterAppLocalDump
 title: WerRegisterAppLocalDump function (werapi.h)
-author: windows-sdk-content
+
 description: Registers a path relative to the local app store for the calling application where Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 old-location: wer\werregisterapplocaldump.htm
 tech.root: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
 ms.topic: function

@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS
 title: D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS
-author: windows-sdk-content
+
 description: Specifies the parameters for decode output conversion.
 tech.root: mf
 ms.assetid: 6a1fdbcd-abd7-431c-8cef-22f67b52ff0a
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongToULong
 title: LongToULong function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type LONG to a value of type ULONG.
 old-location: shell\LongToULong.htm
 tech.root: shell
 ms.assetid: d5940fec-8cf2-4bc7-8001-42b68ce97f7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LongToDWord, LongToULong, LongToULong function [Windows Shell], _shell_LongToULong, intsafe/LongToULong, shell.LongToULong
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Scale(D2D1_SIZE_F,D2D1_POINT_2F)
 title: Matrix3x2F::Scale (d2d1helper.h)
-author: windows-sdk-content
+
 description: Creates a scale transformation that has the specified scale factors and center point.
 old-location: direct2d\matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_.htm
 tech.root: Direct2D
 ms.assetid: c2aa64eb-c69a-4938-91de-1541f1c7844f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Scale, D2D1::Matrix3x2F::Scale, Matrix3x2F class [Direct2D],Scale method, Matrix3x2F.Scale, Matrix3x2F::Scale, Matrix3x2F::Scale(D2D1_SIZE_F,D2D1_POINT_2F), Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Scale, direct2d.matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_
 ms.topic: method

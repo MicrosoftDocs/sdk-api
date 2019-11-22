@@ -1,12 +1,12 @@
 ---
 UID: NN:thumbcache.IThumbnailSettings
 title: IThumbnailSettings (thumbcache.h)
-author: windows-sdk-content
+
 description: Provides a method that enables a thumbnail provider to determine the user context of a thumbnail request.
 old-location: shell\IThumbnailSettings.htm
 tech.root: shell
 ms.assetid: 502537E5-1D72-44f0-BC75-DBED61F174FC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IThumbnailSettings, IThumbnailSettings interface [Windows Shell], IThumbnailSettings interface [Windows Shell],described, shell.IThumbnailSettings, thumbcache/IThumbnailSettings
 ms.topic: interface

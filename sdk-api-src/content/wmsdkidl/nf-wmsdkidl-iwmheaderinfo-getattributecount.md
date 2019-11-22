@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeCount
 title: IWMHeaderInfo::GetAttributeCount (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetAttributeCount method returns the number of attributes defined in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::GetAttributeCountEx and IWMHeaderInfo3::GetAttributeIndices, and should no longer be used.
 old-location: wmformat\iwmheaderinfo_getattributecount.htm
 tech.root: wmformat
 ms.assetid: d5f0be62-4f15-45ca-8593-f5703a1f932a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMHeaderInfo interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo.GetAttributeCount, IWMHeaderInfo2 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo2::GetAttributeCount, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo3::GetAttributeCount, IWMHeaderInfo::GetAttributeCount, IWMHeaderInfoGetAttributeCount, wmformat.iwmheaderinfo_getattributecount, wmsdkidl/IWMHeaderInfo2::GetAttributeCount, wmsdkidl/IWMHeaderInfo3::GetAttributeCount, wmsdkidl/IWMHeaderInfo::GetAttributeCount
 ms.topic: method

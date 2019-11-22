@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.operator uint32_t
 title: XMDEC4::operator uint32_t (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMDEC4.
 old-location: dxmath\xmdec4_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator = (const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMDEC4 structure [DirectX Math Support APIs],operator = method, XMDEC4.operator =(const uint32_t), XMDEC4.operator uint32_t, XMDEC4::operator uint32_t, dxmath.xmdec4_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMDEC4 structure, operator uint32_t
 ms.topic: method

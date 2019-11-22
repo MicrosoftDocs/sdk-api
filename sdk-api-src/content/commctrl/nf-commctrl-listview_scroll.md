@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_Scroll
 title: ListView_Scroll macro (commctrl.h)
-author: windows-sdk-content
+
 description: Scrolls the content of a list-view control. You can use this macro or send the LVM_SCROLL message explicitly.
 old-location: controls\ListView_Scroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 ms.topic: macro

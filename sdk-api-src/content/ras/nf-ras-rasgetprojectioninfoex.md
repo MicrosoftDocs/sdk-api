@@ -1,12 +1,12 @@
 ---
 UID: NF:ras.RasGetProjectionInfoEx
 title: RasGetProjectionInfoEx function (ras.h)
-author: windows-sdk-content
+
 description: Obtains information about Point-to-Point Protocol (PPP) or Internet Key Exchange version 2 (IKEv2) remote access projection operations for all RAS connections on the local client.
 old-location: rras\rasgetprojectioninfoex.htm
 tech.root: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
 ms.topic: function

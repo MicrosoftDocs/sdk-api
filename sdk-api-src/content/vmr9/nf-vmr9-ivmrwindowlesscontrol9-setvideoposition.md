@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetVideoPosition
 title: IVMRWindowlessControl9::SetVideoPosition (vmr9.h)
-author: windows-sdk-content
+
 description: The SetVideoPosition method sets the source and destination rectangles for the video.
 old-location: dshow\ivmrwindowlesscontrol9_setvideoposition.htm
 tech.root: DirectShow
 ms.assetid: 9b165b51-c60d-4039-b652-5a5347dec224
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoPosition method, IVMRWindowlessControl9.SetVideoPosition, IVMRWindowlessControl9::SetVideoPosition, IVMRWindowlessControl9SetVideoPosition, SetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoposition, vmr9/IVMRWindowlessControl9::SetVideoPosition
 ms.topic: method

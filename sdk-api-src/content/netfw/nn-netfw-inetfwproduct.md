@@ -1,12 +1,12 @@
 ---
 UID: NN:netfw.INetFwProduct
 title: INetFwProduct (netfw.h)
-author: windows-sdk-content
+
 description: To access the properties of a third-party firewall registration.
 old-location: ics\inetfwproduct.htm
 tech.root: ics
 ms.assetid: e4cadbfd-d48d-4b38-a068-fc005d6f72af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwProduct, INetFwProduct interface [ICS/ICF], INetFwProduct interface [ICS/ICF],described, ics.inetfwproduct, netfw/INetFwProduct
 ms.topic: interface

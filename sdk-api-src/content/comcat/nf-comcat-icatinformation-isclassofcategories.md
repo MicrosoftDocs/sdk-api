@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.ICatInformation.IsClassOfCategories
 title: ICatInformation::IsClassOfCategories (comcat.h)
-author: windows-sdk-content
+
 description: Determines whether a class implements one or more categories.
 old-location: com\icatinformation_isclassofcategories.htm
 tech.root: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInformation.IsClassOfCategories, ICatInformation::IsClassOfCategories, IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM],ICatInformation interface, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
 ms.topic: method

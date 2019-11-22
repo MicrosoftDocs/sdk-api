@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetSourceCount
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-author: windows-sdk-content
+
 description: Retrieves the source count for the effect.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getsourcecount.htm
 tech.root: w_graph_fx
 ms.assetid: C2287E81-4CCC-471B-833C-84B37F245084
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSourceCount, GetSourceCount method, GetSourceCount method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetSourceCount method, IGraphicsEffectD2D1Interop.GetSourceCount, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetSourceCount, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getsourcecount, windows/IGraphicsEffectD2D1Interop::GetSourceCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:weakreference.IWeakReference
 title: IWeakReference (weakreference.h)
-author: windows-sdk-content
+
 description: Represents a weak reference to an object.
 old-location: winrt\iweakreference.htm
 tech.root: WinRT
 ms.assetid: fae8bf21-2a38-4e98-9a11-89c548da9e95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWeakReference, IWeakReference interface [Windows Runtime], IWeakReference interface [Windows Runtime],described, weakreference/IWeakReference, winrt.iweakreference
 ms.topic: interface

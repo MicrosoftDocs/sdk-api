@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantCompare
 title: VariantCompare function (propvarutil.h)
-author: windows-sdk-content
+
 description: Compares two variant structures, based on default comparison rules.
 old-location: properties\VariantCompare.htm
 tech.root: properties
 ms.assetid: 45aed78c-1614-4aad-a930-c44615546d6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantCompare, VariantCompare function [Windows Properties], _shell_VariantCompare, properties.VariantCompare, propvarutil/VariantCompare, shell.VariantCompare
 ms.topic: function

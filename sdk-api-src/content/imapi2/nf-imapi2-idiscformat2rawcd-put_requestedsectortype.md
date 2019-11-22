@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_RequestedSectorType
 title: IDiscFormat2RawCD::put_RequestedSectorType (imapi2.h)
-author: windows-sdk-content
+
 description: Sets the requested data sector to use for writing the stream.
 old-location: imapi\idiscformat2rawcd__put_requestedsectortype_.htm
 tech.root: imapi
 ms.assetid: fd9d7e1d-5672-482f-ac83-efcab3adbac4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_RequestedSectorType method, IDiscFormat2RawCD.put_RequestedSectorType, IDiscFormat2RawCD::put_RequestedSectorType, imapi.idiscformat2rawcd__put_requestedsectortype_, imapi2/IDiscFormat2RawCD::put_RequestedSectorType, put_RequestedSectorType, put_RequestedSectorType method [IMAPI], put_RequestedSectorType method [IMAPI],IDiscFormat2RawCD interface
 ms.topic: method

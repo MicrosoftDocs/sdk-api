@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageScale
 title: Graphics::GetPageScale (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetPageScale method gets the scaling factor currently set for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageScale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpagescale.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPageScale, GetPageScale method [GDI+], GetPageScale method [GDI+],Graphics class, Graphics class [GDI+],GetPageScale method, Graphics.GetPageScale, Graphics::GetPageScale, _gdiplus_CLASS_Graphics_GetPageScale_, gdiplus._gdiplus_CLASS_Graphics_GetPageScale_
 ms.topic: method

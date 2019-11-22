@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsWindowEnabled
 title: IsWindowEnabled function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether the specified window is enabled for mouse and keyboard input.
 old-location: inputdev\iswindowenabled.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\iswindowenabled.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsWindowEnabled, IsWindowEnabled function [Keyboard and Mouse Input], _win32_IsWindowEnabled, _win32_iswindowenabled_cpp, inputdev.iswindowenabled, winui._win32_iswindowenabled, winuser/IsWindowEnabled
 ms.topic: function

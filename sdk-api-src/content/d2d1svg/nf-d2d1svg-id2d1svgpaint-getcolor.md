@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.GetColor
 title: ID2D1SvgPaint::GetColor (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 old-location: direct2d\id2d1svgpaint_getcolor.htm
 tech.root: Direct2D
 ms.assetid: 17B4A208-9658-4BD3-AFC3-33D25CD58B6F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetColor method, ID2D1SvgPaint.GetColor, ID2D1SvgPaint::GetColor, d2d1svg/ID2D1SvgPaint::GetColor, direct2d.id2d1svgpaint_getcolor
 ms.topic: method

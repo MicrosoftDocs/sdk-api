@@ -1,12 +1,12 @@
 ---
 UID: NC:wincodec.PFNProgressNotification
 title: PFNProgressNotification (wincodec.h)
-author: windows-sdk-content
+
 description: Application defined callback function called when codec component progress is made.
 old-location: wic\_wic_codec_progressnotificationcallback.htm
 tech.root: wic
 ms.assetid: 10dd9fbe-abff-4fc9-a3a5-7c01ecc10a7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFNProgressNotification, PFNProgressNotification callback, ProgressNotificationCallback, ProgressNotificationCallback callback function [Windows Imaging Component], _wic_codec_progressnotificationcallback, wic._wic_codec_progressnotificationcallback, wincodec/ProgressNotificationCallback
 ms.topic: callback

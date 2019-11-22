@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetType(U)
 title: ID2D1Properties::GetType(U,) (d2d1_1.h)
-author: windows-sdk-content
+
 description: Gets the D2D1_PROPERTY_TYPE of the selected property. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_gettype2.htm
 tech.root: Direct2D
 ms.assetid: 4EFE306B-DE39-4536-8BE0-8036A380E2BD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(U,), ID2D1Properties::GetType, ID2D1Properties::GetType(U), ID2D1Properties::GetType(U,), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype2
 ms.topic: method

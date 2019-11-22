@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMPlaneNotEqual
 title: XMPlaneNotEqual function (directxmath.h)
-author: windows-sdk-content
+
 description: Determines if two planes are unequal.
 old-location: dxmath\xmplanenotequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNotEqual(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNotEqual, XMPlaneNotEqual, XMPlaneNotEqual method [DirectX Math Support APIs], dxmath.xmplanenotequal
 ms.topic: function

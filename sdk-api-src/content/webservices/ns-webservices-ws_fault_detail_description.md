@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_FAULT_DETAIL_DESCRIPTION
 title: WS_FAULT_DETAIL_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: A description of the detail element of a fault message.
 old-location: wsw\ws_fault_detail_description.htm
 tech.root: wsw
 ms.assetid: 5a89ca26-63c7-414a-a27d-019c5b020f63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_DETAIL_DESCRIPTION, WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows], webservices/WS_FAULT_DETAIL_DESCRIPTION, wsw.ws_fault_detail_description
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableChangeHandler2
 title: IUIAnimationVariableChangeHandler2 (uianimation.h)
-author: windows-sdk-content
+
 description: Defines a method for handling animation variable update events. IUIAnimationVariableChangeHandler2 handles events that occur in a specified dimension.
 old-location: uianimation\iuianimationvariablechangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: A8D3B617-43D6-4541-AE98-1332DB5205CE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler2, IUIAnimationVariableChangeHandler2 interface [Windows Animation], IUIAnimationVariableChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler2, uianimation/IUIAnimationVariableChangeHandler2
 ms.topic: interface

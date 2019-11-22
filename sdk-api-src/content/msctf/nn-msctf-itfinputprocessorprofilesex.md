@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfilesEx
 title: ITfInputProcessorProfilesEx (msctf.h)
-author: windows-sdk-content
+
 description: This interface is implemented by the TSF manager and used by a text service or application to set the display description of the language profile.
 old-location: tsf\itfinputprocessorprofilesex.htm
 tech.root: TSF
 ms.assetid: c3d811df-dfa4-4de1-abb9-ff0291258c8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITAddressCapabilities
 title: ITAddressCapabilities (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITAddressCapabilities interface is used to obtain information about an address's capabilities. It is on the Address object, and an application can access it by calling QueryInterface on the Address object.
 old-location: tapi3\itaddresscapabilities.htm
 tech.root: Tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities, ITAddressCapabilities interface [TAPI 2.2], ITAddressCapabilities interface [TAPI 2.2],described, _tapi3_itaddresscapabilities, tapi3.itaddresscapabilities, tapi3if/ITAddressCapabilities
 ms.topic: interface

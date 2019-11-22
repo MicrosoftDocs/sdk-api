@@ -1,12 +1,12 @@
 ---
 UID: NC:batclass.BCLASS_QUERY_INFORMATION_CALLBACK
 title: BCLASS_QUERY_INFORMATION_CALLBACK (batclass.h)
-author: windows-sdk-content
+
 description: BatteryMiniQueryInformation returns information about the given battery device.
 old-location: battery\batteryminiqueryinformation.htm
 tech.root: battery
 ms.assetid: bd96b79a-5670-4aaf-b72c-619818c2a2e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_INFORMATION_CALLBACK, BCLASS_QUERY_INFORMATION_CALLBACK callback, BatteryMiniQueryInformation, BatteryMiniQueryInformation callback function [Battery Devices], bat-mini_89cb050e-0a2e-4fad-b6fa-c2977703c782.xml, batclass/BatteryMiniQueryInformation, battery.batteryminiqueryinformation
 ms.topic: callback

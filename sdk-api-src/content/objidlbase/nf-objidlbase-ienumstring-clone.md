@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IEnumString.Clone
 title: IEnumString::Clone (objidlbase.h)
-author: windows-sdk-content
+
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumstring_clone.htm
 tech.root: com
 ms.assetid: d61ecfb3-9f3b-45ee-9872-9a92240f1234
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumString interface, IEnumString interface [COM],Clone method, IEnumString.Clone, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
 ms.topic: method

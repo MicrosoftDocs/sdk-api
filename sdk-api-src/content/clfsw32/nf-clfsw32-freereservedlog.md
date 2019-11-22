@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.FreeReservedLog
 title: FreeReservedLog function (clfsw32.h)
-author: windows-sdk-content
+
 description: Reduces the number of reserved log records in a marshaling area made by calling ReserveAndAppendLog, ReserveAndAppendLogAligned, or AllocReservedLog.
 old-location: fs\freereservedlog.htm
 tech.root: Clfs
 ms.assetid: a5e71e4c-5871-4bea-a4a5-a56c7e70276b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeReservedLog, FreeReservedLog function [Files], clfsw32/FreeReservedLog, fs.freereservedlog
 ms.topic: function

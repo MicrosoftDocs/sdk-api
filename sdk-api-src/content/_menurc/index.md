@@ -1,7 +1,7 @@
 ---
 UID: TP:menurc
 ms.assetid: b31c1492-ece3-3752-be79-c315513f21a3
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

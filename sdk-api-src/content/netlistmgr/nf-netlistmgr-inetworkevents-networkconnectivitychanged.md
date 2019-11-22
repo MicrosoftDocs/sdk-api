@@ -1,12 +1,12 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkConnectivityChanged
 title: INetworkEvents::NetworkConnectivityChanged (netlistmgr.h)
-author: windows-sdk-content
+
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworkevents_networkconnectivitychanged.htm
 tech.root: nla
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
 ms.topic: method

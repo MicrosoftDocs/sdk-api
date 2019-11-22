@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Unregister
 title: ITfInputProcessorProfiles::Unregister (msctf.h)
-author: windows-sdk-content
+
 description: ITfInputProcessorProfiles::Unregister method
 old-location: tsf\itfinputprocessorprofiles_unregister.htm
 tech.root: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
 ms.topic: method

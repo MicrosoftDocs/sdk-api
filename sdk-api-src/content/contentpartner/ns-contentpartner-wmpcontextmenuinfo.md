@@ -1,12 +1,12 @@
 ---
 UID: NS:contentpartner.WMPContextMenuInfo
 title: WMPContextMenuInfo (contentpartner.h)
-author: windows-sdk-content
+
 description: The WMPContextMenuInfo structure contains data about a context menu command.
 old-location: wmp\wmpcontextmenuinfo.htm
 tech.root: WMP
 ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingInterfaceType
 title: FsrmFileStreamingInterfaceType (fsrmenums.h)
-author: windows-sdk-content
+
 description: Defines the possible streaming interface types.
 old-location: fsrm\fsrmfilestreaminginterfacetype.htm
 tech.root: fsrm
 ms.assetid: 182dde15-f8d6-42ab-a9d2-85f0a0a4d670
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmFileStreamingInterfaceType, FsrmFileStreamingInterfaceType enumeration [File Server Resource Manager], FsrmFileStreamingInterfaceType_ILockBytes, FsrmFileStreamingInterfaceType_IStream, FsrmFileStreamingInterfaceType_Unknown, fs.fsrmfilestreaminginterfacetype, fsrm.fsrmfilestreaminginterfacetype, fsrmenums/FsrmFileStreamingInterfaceType, fsrmenums/FsrmFileStreamingInterfaceType_ILockBytes, fsrmenums/FsrmFileStreamingInterfaceType_IStream, fsrmenums/FsrmFileStreamingInterfaceType_Unknown
 ms.topic: enum

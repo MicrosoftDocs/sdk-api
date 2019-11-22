@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgAttribute
 title: ID2D1SvgAttribute (d2d1svg.h)
-author: windows-sdk-content
+
 description: Interface describing an SVG attribute.
 old-location: direct2d\id2d1svgattribute.htm
 tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1SvgAttribute interface [Direct2D],described, d2d1svg/ID2D1SvgAttribute, direct2d.id2d1svgattribute
 ms.topic: interface

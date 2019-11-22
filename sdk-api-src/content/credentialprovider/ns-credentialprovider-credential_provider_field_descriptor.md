@@ -1,12 +1,12 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 title: CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR (credentialprovider.h)
-author: windows-sdk-content
+
 description: Describes a single field in a credential. For example, a string or a user image.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.htm
 tech.root: shell
 ms.assetid: 8409b4b7-c601-4e85-95f9-4272feb29028
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CPFG_CREDENTIAL_PROVIDER_LABEL, CPFG_CREDENTIAL_PROVIDER_LOGO, CPFG_LOGON_PASSWORD, CPFG_LOGON_USERNAME, CPFG_SMARTCARD_PIN, CPFG_SMARTCARD_USERNAME, CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR structure [Windows Shell], _shell_CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, shell.CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 ms.topic: struct

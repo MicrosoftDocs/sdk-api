@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.UnregisterOcclusionStatus
 title: IDXGIFactory2::UnregisterOcclusionStatus (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Unregisters a window or an event to stop it from receiving notification when occlusion status changes.
 old-location: direct3ddxgi\idxgifactory2_unregisterocclusionstatus.htm
 tech.root: direct3ddxgi
 ms.assetid: 754A627C-0365-4AF5-A6DF-A8D646254ECF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],UnregisterOcclusionStatus method, IDXGIFactory2.UnregisterOcclusionStatus, IDXGIFactory2::UnregisterOcclusionStatus, UnregisterOcclusionStatus, UnregisterOcclusionStatus method [DXGI], UnregisterOcclusionStatus method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_unregisterocclusionstatus, dxgi1_2/IDXGIFactory2::UnregisterOcclusionStatus
 ms.topic: method

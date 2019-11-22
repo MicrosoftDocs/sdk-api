@@ -1,12 +1,12 @@
 ---
 UID: NN:identityprovider.IConnectedIdentityProvider
 title: IConnectedIdentityProvider (identityprovider.h)
-author: windows-sdk-content
+
 description: Provides methods of interaction with a connected identity provider.
 old-location: security\iconnectedidentityprovider.htm
 tech.root: SecAuthN
 ms.assetid: 0AF5036B-326E-4FBE-9F26-18F532EF0BB3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], IConnectedIdentityProvider interface [Security],described, identityprovider/IConnectedIdentityProvider, security.iconnectedidentityprovider
 ms.topic: interface

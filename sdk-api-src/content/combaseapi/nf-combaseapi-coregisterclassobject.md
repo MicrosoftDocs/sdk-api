@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoRegisterClassObject
 title: CoRegisterClassObject function (combaseapi.h)
-author: windows-sdk-content
+
 description: Registers an EXE class object with OLE so other applications can connect to it.
 old-location: com\coregisterclassobject.htm
 tech.root: com
 ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IViewObject.GetAdvise
 title: IViewObject::GetAdvise (oleidl.h)
-author: windows-sdk-content
+
 description: Retrieves the advisory connection on the object that was used in the most recent call to IViewObject::SetAdvise.
 old-location: com\iviewobject_getadvise.htm
 tech.root: com
 ms.assetid: c56f6cbb-d2ea-4db4-a660-db8b7540ac94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAdvise, GetAdvise method [COM], GetAdvise method [COM],IViewObject interface, IViewObject interface [COM],GetAdvise method, IViewObject.GetAdvise, IViewObject::GetAdvise, _ole_iviewobject_getadvise, com.iviewobject_getadvise, oleidl/IViewObject::GetAdvise
 ms.topic: method

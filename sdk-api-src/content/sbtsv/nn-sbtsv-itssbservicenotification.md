@@ -1,12 +1,12 @@
 ---
 UID: NN:sbtsv.ITsSbServiceNotification
 title: ITsSbServiceNotification (sbtsv.h)
-author: windows-sdk-content
+
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of state changes that occur in the RD Connection Broker itself.
 old-location: termserv\itssbservicenotification.htm
 tech.root: TermServ
 ms.assetid: 19b90ada-5277-47cb-a8d5-18f5c89612c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], ITsSbServiceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbServiceNotification, termserv.itssbservicenotification
 ms.topic: interface

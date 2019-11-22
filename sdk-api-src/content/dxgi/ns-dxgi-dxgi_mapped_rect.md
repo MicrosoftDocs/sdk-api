@@ -1,12 +1,12 @@
 ---
 UID: NS:dxgi.DXGI_MAPPED_RECT
 title: DXGI_MAPPED_RECT (dxgi.h)
-author: windows-sdk-content
+
 description: Describes a mapped rectangle that is used to access a surface.
 old-location: direct3ddxgi\dxgi_mapped_rect.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_mapped_rect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 44004772-851a-9ebf-10ab-60178c7e35c5, DXGI_MAPPED_RECT, DXGI_MAPPED_RECT structure [DXGI], direct3ddxgi.dxgi_mapped_rect, dxgi/DXGI_MAPPED_RECT
 ms.topic: struct

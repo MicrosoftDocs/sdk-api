@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingQueue.GetJob
 title: IFaxAccountIncomingQueue::GetJob (faxcomex.h)
-author: windows-sdk-content
+
 description: Returns an incoming fax job in the job queue of the current fax account according to the job's ID.
 old-location: fax\_mfax_faxaccountincomingqueue_cpp_mfax_faxaccountincomingqueue_getjob_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingqueue\getjob.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxAccountIncomingQueue interface, IFaxAccountIncomingQueue interface [Fax Service],GetJob method, IFaxAccountIncomingQueue.GetJob, IFaxAccountIncomingQueue::GetJob, _mfax_faxaccountincomingqueue.getjob, fax._mfax_faxaccountincomingqueue_cpp_mfax_faxaccountincomingqueue_getjob_cpp, fax._mfax_faxaccountincomingqueue_getjob, faxcomex/IFaxAccountIncomingQueue::GetJob
 ms.topic: method

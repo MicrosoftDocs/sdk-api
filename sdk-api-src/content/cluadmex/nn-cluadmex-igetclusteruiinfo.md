@@ -1,12 +1,12 @@
 ---
 UID: NN:cluadmex.IGetClusterUIInfo
 title: IGetClusterUIInfo (cluadmex.h)
-author: windows-sdk-content
+
 description: Called by a Failover Cluster Administrator extension to retrieve information about Failover Cluster Administrator's user interface.
 old-location: mscs\igetclusteruiinfo.htm
 tech.root: MsCS
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], IGetClusterUIInfo interface [Failover Cluster],described, _wolf_igetclusteruiinfo, cluadmex/IGetClusterUIInfo, mscs.igetclusteruiinfo
 ms.topic: interface

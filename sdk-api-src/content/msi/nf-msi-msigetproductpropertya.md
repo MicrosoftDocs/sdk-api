@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiGetProductPropertyA
 title: MsiGetProductPropertyA function (msi.h)
-author: windows-sdk-content
+
 description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
 old-location: setup\msigetproductproperty.htm
 tech.root: Msi
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
 ms.topic: function

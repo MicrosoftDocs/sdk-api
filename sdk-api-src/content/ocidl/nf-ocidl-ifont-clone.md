@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IFont.Clone
 title: IFont::Clone (ocidl.h)
-author: windows-sdk-content
+
 description: Creates a duplicate font object.
 old-location: com\ifont_clone.htm
 tech.root: com
 ms.assetid: de5da0d1-338a-455c-a04b-99dc025b95bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IFont interface, IFont interface [COM],Clone method, IFont.Clone, IFont::Clone, _ctrl_ifont_clone, com.ifont_clone, ocidl/IFont::Clone
 ms.topic: method

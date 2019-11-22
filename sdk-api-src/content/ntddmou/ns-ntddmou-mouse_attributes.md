@@ -1,12 +1,12 @@
 ---
 UID: NS:ntddmou._MOUSE_ATTRIBUTES
 title: MOUSE_ATTRIBUTES (ntddmou.h)
-author: windows-sdk-content
+
 description: MOUSE_ATTRIBUTES specifies the attributes of a mouse device.
 old-location: hid\mouse_attributes.htm
 tech.root: hid
 ms.assetid: e1054d4c-e149-4ebd-9336-2a1060e1e53d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES structure [Human Input Devices], PMOUSE_ATTRIBUTES, PMOUSE_ATTRIBUTES structure pointer [Human Input Devices], hid.mouse_attributes, mref_22017a48-dbf7-430b-ad42-908dc16fbaff.xml, ntddmou/MOUSE_ATTRIBUTES, ntddmou/PMOUSE_ATTRIBUTES"
 ms.topic: struct

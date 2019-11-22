@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ReplyMessage
 title: ReplyMessage function (winuser.h)
-author: windows-sdk-content
+
 description: Replies to a message sent from another thread by the SendMessage function.
 old-location: winmsg\replymessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\replymessage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReplyMessage, ReplyMessage function [Windows and Messages], _win32_ReplyMessage, _win32_replymessage_cpp, winmsg.replymessage, winui._win32_replymessage, winuser/ReplyMessage
 ms.topic: function

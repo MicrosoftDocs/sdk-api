@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreatePropertyCondition
 title: IFsrmFileManagementJob::CreatePropertyCondition (fsrmreports.h)
-author: windows-sdk-content
+
 description: Creates a new property condition and adds it to the collection of property conditions.
 old-location: fsrm\ifsrmfilemanagementjob_createpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 1b264e9c-4ba0-4de2-acdc-94338519c5af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Server Resource Manager], CreatePropertyCondition method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreatePropertyCondition method, IFsrmFileManagementJob.CreatePropertyCondition, IFsrmFileManagementJob::CreatePropertyCondition, fs.ifsrmfilemanagementjob_createpropertycondition, fsrm.ifsrmfilemanagementjob_createpropertycondition, fsrmreports/IFsrmFileManagementJob::CreatePropertyCondition
 ms.topic: method

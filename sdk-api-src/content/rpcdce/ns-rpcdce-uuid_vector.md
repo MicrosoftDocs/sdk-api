@@ -1,12 +1,12 @@
 ---
 UID: NS:rpcdce._UUID_VECTOR
 title: UUID_VECTOR (rpcdce.h)
-author: windows-sdk-content
+
 description: The UUID_VECTOR structure contains a list of UUIDs.
 old-location: rpc\uuid_vector.htm
 tech.root: Rpc
 ms.assetid: 6fc7216b-023b-4aca-a572-35cc22202522
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _rpc_uuid_vector, rpc.uuid_vector, rpcdce/UUID_VECTOR
 ms.topic: struct

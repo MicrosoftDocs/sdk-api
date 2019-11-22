@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetCandidate
 title: IInkLineInfo::GetCandidate (msinkaut.h)
-author: windows-sdk-content
+
 description: Returns one recognition alternate from the recognition result list.
 old-location: tablet\iinklineinfo_getcandidate.htm
 tech.root: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.IAccessible.get_accHelp
 title: IAccessible::get_accHelp (oleacc.h)
-author: windows-sdk-content
+
 description: The IAccessible::get_accHelp method retrieves the Help property string of an object. Not all objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_acchelp.htm
 tech.root: WinAuto
 ms.assetid: ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelp method, IAccessible.get_accHelp, IAccessible::get_accHelp, _msaa_IAccessible_get_accHelp, get_accHelp, get_accHelp method [Windows Accessibility], get_accHelp method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelp, oleacc/IAccessible::get_accHelp, winauto.iaccessible_iaccessible__get_acchelp
 ms.topic: method

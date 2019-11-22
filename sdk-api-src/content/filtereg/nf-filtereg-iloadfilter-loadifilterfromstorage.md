@@ -1,12 +1,12 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStorage
 title: ILoadFilter::LoadIFilterFromStorage (filtereg.h)
-author: windows-sdk-content
+
 description: Do not use:\_this method is not implemented.
 old-location: search\iloadfilter_loadifilterfromstorage.htm
 tech.root: search
 ms.assetid: b4eff132-9022-4091-a2a3-1d8e11a35b39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
 ms.topic: method

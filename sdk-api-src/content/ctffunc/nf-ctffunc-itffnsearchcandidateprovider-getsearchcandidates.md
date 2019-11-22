@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnSearchCandidateProvider.GetSearchCandidates
 title: ITfFnSearchCandidateProvider::GetSearchCandidates (ctffunc.h)
-author: windows-sdk-content
+
 description: Gets a list of conversion candidates for a given string without generating any IME-related messages or events.
 old-location: tsf\itffnsearchcandidateprovider_getsearchcandidates.htm
 tech.root: TSF
 ms.assetid: 7D7E8171-229F-4D9C-B086-D68E064A8A4C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSearchCandidates, GetSearchCandidates method [Text Services Framework], GetSearchCandidates method [Text Services Framework],ITfFnSearchCandidateProvider interface, ITfFnSearchCandidateProvider interface [Text Services Framework],GetSearchCandidates method, ITfFnSearchCandidateProvider.GetSearchCandidates, ITfFnSearchCandidateProvider::GetSearchCandidates, ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates, tsf.itffnsearchcandidateprovider_getsearchcandidates
 ms.topic: method

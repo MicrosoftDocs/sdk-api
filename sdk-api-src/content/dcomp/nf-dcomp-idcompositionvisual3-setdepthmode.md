@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetDepthMode
 title: IDCompositionVisual3::SetDepthMode (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the depth mode property associated with this visual.
 old-location: directcomp\idcompositionvisual3_setdepthmode.htm
 tech.root: directcomp
 ms.assetid: 670C4203-50CE-47AA-A896-04A9F75302E3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode method, IDCompositionVisual3.SetDepthMode, IDCompositionVisual3::SetDepthMode, SetDepthMode, SetDepthMode method [DirectComposition], SetDepthMode method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetDepthMode, directcomp.idcompositionvisual3_setdepthmode
 ms.topic: method

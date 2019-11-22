@@ -1,12 +1,12 @@
 ---
 UID: NS:windns._IP4_ARRAY
 title: IP4_ARRAY (windns.h)
-author: windows-sdk-content
+
 description: The IP4_ARRAY structure stores an array of IPv4 addresses.
 old-location: dns\ip4_array.htm
 tech.root: DNS
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIP4_ARRAY, *PIP4_ARRAY structure [DNS], IP4_ARRAY, IP4_ARRAY structure [DNS], dns.ip4_array, windns/*PIP4_ARRAY, windns/IP4_ARRAY"
 ms.topic: struct

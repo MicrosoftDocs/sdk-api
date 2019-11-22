@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ASIN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ASIN_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML trigonometric operator that performs the element-wise arcsine function f(x) = asin(x * scale + bias), where the scale and bias terms are optional.
 old-location: direct3d12\dml_element_wise_asin_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 3EB3A230-D2F9-4579-888E-F75CDAE8BA08
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_ASIN_OPERATOR_DESC, DML_ELEMENT_WISE_ASIN_OPERATOR_DESC structure, direct3d12.dml_element_wise_asin_operator_desc, directml/DML_ELEMENT_WISE_ASIN_OPERATOR_DESC
 ms.topic: struct

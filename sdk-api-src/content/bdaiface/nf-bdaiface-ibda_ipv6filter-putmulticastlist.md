@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.PutMulticastList
 title: IBDA_IPV6Filter::PutMulticastList (bdaiface.h)
-author: windows-sdk-content
+
 description: The PutMulticastList method specifies the parameters of the multicast list.
 old-location: mstv\ibda_ipv6filter_putmulticastlist.htm
 tech.root: mstv
 ms.assetid: a0e77856-5a7d-4312-a4f1-69d186c90855
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV6Filter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_IPV6Filter.PutMulticastList, IBDA_IPV6Filter::PutMulticastList, IBDA_IPV6FilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_IPV6Filter interface, bdaiface/IBDA_IPV6Filter::PutMulticastList, mstv.ibda_ipv6filter_putmulticastlist
 ms.topic: method

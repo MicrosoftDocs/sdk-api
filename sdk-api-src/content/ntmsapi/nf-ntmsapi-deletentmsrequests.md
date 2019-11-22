@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsRequests
 title: DeleteNtmsRequests function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.
 old-location: fs\deletentmsrequests.htm
 tech.root: Rsm
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
 ms.topic: function

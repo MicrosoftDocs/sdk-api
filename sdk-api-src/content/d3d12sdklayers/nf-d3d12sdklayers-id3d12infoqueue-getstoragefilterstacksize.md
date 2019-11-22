@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilterStackSize
 title: ID3D12InfoQueue::GetStorageFilterStackSize (d3d12sdklayers.h)
-author: windows-sdk-content
+
 description: Get the size of the storage-filter stack in bytes.
 old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
 tech.root: direct3d12
 ms.assetid: A2E1B587-8FB2-44E8-9F6D-1BDB3C1EDE77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method, GetStorageFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilterStackSize method, ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
 ms.topic: method

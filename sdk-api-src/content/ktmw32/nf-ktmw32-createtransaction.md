@@ -1,12 +1,12 @@
 ---
 UID: NF:ktmw32.CreateTransaction
 title: CreateTransaction function (ktmw32.h)
-author: windows-sdk-content
+
 description: Creates a new transaction object.
 old-location: fs\createtransaction.htm
 tech.root: ktm
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
 ms.topic: function

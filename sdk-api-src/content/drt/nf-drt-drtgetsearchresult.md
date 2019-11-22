@@ -1,12 +1,12 @@
 ---
 UID: NF:drt.DrtGetSearchResult
 title: DrtGetSearchResult function (drt.h)
-author: windows-sdk-content
+
 description: DrtGetSearchResult function.
 old-location: p2p\drtgetsearchresult.htm
 tech.root: P2PSdk
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
 ms.topic: function

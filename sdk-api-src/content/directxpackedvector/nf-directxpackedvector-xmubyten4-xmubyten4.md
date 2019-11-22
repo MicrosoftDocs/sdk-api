@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4
 title: XMUBYTEN4::XMUBYTEN4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMUBYTEN4.
 old-location: dxmath\xmubyten4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4::XMUBYTEN4, dxmath.xmubyten4_ctor_1
 ms.topic: method

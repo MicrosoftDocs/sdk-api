@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetCountOfLists
 title: IDvbLogicalChannel2Descriptor::GetCountOfLists (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the number of channel lists in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getcountoflists.htm
 tech.root: mstv
 ms.assetid: 13a439d1-c6b6-49ab-a41e-caa27e320f37
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCountOfLists, GetCountOfLists method [Microsoft TV Technologies], GetCountOfLists method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetCountOfLists method, IDvbLogicalChannel2Descriptor.GetCountOfLists, IDvbLogicalChannel2Descriptor::GetCountOfLists, dvbsiparser/IDvbLogicalChannel2Descriptor::GetCountOfLists, mstv.idvblogicalchannel2descriptor_getcountoflists
 ms.topic: method

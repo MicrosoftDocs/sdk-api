@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IPipeDouble
 title: IPipeDouble (objidlbase.h)
-author: windows-sdk-content
+
 description: Transfers data of the double type (which is 64 bits wide).
 old-location: com\ipipedouble.htm
 tech.root: com
 ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
 ms.topic: interface

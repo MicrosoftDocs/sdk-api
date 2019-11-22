@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 title: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_kerberos_apreq_message_security_binding_policy_description.htm
 tech.root: wsw
 ms.assetid: 722b6eec-75f1-4618-b6e8-203d406c603d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_kerberos_apreq_message_security_binding_policy_description
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NE:msxml6._XHR_AUTH
 title: XHR_AUTH (msxml6.h)
-author: windows-sdk-content
+
 description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.
 old-location: ixhr2\xhr_auth.htm
 tech.root: ixhr2
 ms.assetid: 82cc5e27-c669-424d-887d-ba7f5a5c9f02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XHR_AUTH, XHR_AUTH enumeration [XMLHttpRequest2], XHR_AUTH_ALL, XHR_AUTH_NONE, XHR_AUTH_PROXY, ixhr2.xhr_auth, msxml6/XHR_AUTH, msxml6/XHR_AUTH_ALL, msxml6/XHR_AUTH_NONE, msxml6/XHR_AUTH_PROXY
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Deactivate
 title: IEmptyVolumeCache::Deactivate (emptyvc.h)
-author: windows-sdk-content
+
 description: Notifies the handler that the disk cleanup manager is shutting down.
 old-location: lwef\iemptyvolumecache_deactivate.htm
 tech.root: lwef
 ms.assetid: fb374e09-92f5-4efb-8e93-0ddc2975c2c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Legacy Windows Environment Features], Deactivate method [Legacy Windows Environment Features],IEmptyVolumeCache interface, EVCF_REMOVEFROMLIST, IEmptyVolumeCache interface [Legacy Windows Environment Features],Deactivate method, IEmptyVolumeCache.Deactivate, IEmptyVolumeCache::Deactivate, _win32_IEmptyVolumeCache_Deactivate, emptyvc/IEmptyVolumeCache::Deactivate, lwef.iemptyvolumecache_deactivate, shell.iemptyvolumecache_deactivate
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.NotificationKind
 title: NotificationKind (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Defines values that indicate the type of a notification event, and a hint to the listener about the processing of the event.
 old-location: winauto\uiauto_NotificationKind.htm
 tech.root: WinAuto
 ms.assetid: A74C1897-F762-4D7B-9A4D-6D09B9564A7C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NotificationKind, NotificationKind enumeration [Windows Accessibility], NotificationKind_ActionAborted, NotificationKind_ActionCompleted, NotificationKind_ItemAdded, NotificationKind_ItemRemoved, NotificationKind_Other, uiautomationclient/ NotificationKind_ActionCompleted, uiautomationclient/ NotificationKind_ItemAdded, uiautomationclient/ NotificationKind_ItemRemoved, uiautomationclient/NotificationKind, uiautomationclient/NotificationKind_ActionAborted, uiautomationclient/NotificationKind_Other, winauto.uiauto_NotificationKind
 ms.topic: enum

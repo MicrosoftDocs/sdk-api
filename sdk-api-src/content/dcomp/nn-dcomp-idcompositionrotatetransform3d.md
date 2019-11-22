@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionRotateTransform3D
 title: IDCompositionRotateTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a 3D transformation that affects the rotation of a visual along an arbitrary axis in 3D space. The coordinate system is rotated around the specified center point.
 old-location: directcomp\idcompositionrotatetransform3d.htm
 tech.root: directcomp
 ms.assetid: BEC58B57-66A1-4645-A0B8-D546334E1E23
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D, IDCompositionRotateTransform3D interface [DirectComposition], IDCompositionRotateTransform3D interface [DirectComposition],described, dcomp/IDCompositionRotateTransform3D, directcomp.idcompositionrotatetransform3d
 ms.topic: interface

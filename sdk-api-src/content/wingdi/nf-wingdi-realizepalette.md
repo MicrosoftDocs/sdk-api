@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.RealizePalette
 title: RealizePalette function (wingdi.h)
-author: windows-sdk-content
+
 description: The RealizePalette function maps palette entries from the current logical palette to the system palette.
 old-location: gdi\realizepalette.htm
 tech.root: gdi
 ms.assetid: 1c744ad2-09bc-455f-bc3c-9a2583b57a30
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RealizePalette, RealizePalette function [Windows GDI], _win32_RealizePalette, gdi.realizepalette, wingdi/RealizePalette
 ms.topic: function

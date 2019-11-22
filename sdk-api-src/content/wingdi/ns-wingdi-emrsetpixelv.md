@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRSETPIXELV
 title: EMRSETPIXELV (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRSETPIXELV structure contains members for the SetPixelV enhanced metafile record. When an enhanced metafile is created, calls to SetPixel are also recorded in this record.
 old-location: gdi\emrsetpixelv.htm
 tech.root: gdi
 ms.assetid: 1487d788-c85a-4a58-a4c8-8abe198944b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETPIXELV, EMRSETPIXELV, EMRSETPIXELV structure [Windows GDI], PEMRSETPIXELV, PEMRSETPIXELV structure pointer [Windows GDI], _win32_EMRSETPIXELV_str, gdi.emrsetpixelv, wingdi/EMRSETPIXELV, wingdi/PEMRSETPIXELV"
 ms.topic: struct

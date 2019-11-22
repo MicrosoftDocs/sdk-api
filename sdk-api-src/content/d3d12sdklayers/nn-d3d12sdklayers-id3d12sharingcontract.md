@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12SharingContract
 title: ID3D12SharingContract (d3d12sdklayers.h)
-author: windows-sdk-content
+
 description: Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract.htm
 tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetSyncTolerance
 title: IWMWriterAdvanced::SetSyncTolerance (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetSyncTolerance method sets the amount of time that the inputs can fall out of synchronization before the samples are discarded.
 old-location: wmformat\iwmwriteradvanced_setsynctolerance.htm
 tech.root: wmformat
 ms.assetid: d60020bf-52f1-46a0-aeae-367e3b179fac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
 ms.topic: method

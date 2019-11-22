@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Rect &,IN CombineMode)
 title: Graphics::SetClip(IN const Rect &,IN CombineMode) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::SetClip method updates the clipping region of this Graphics object to a region that is the combination of itself and a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_69rectamprect_combinemodecombinemode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(IN const Rect &,IN CombineMode), Graphics.SetClip(const Rect&,CombineMode), Graphics::SetClip, Graphics::SetClip(IN const Rect &,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_
 ms.topic: method

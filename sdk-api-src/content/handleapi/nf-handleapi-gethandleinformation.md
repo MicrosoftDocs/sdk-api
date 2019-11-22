@@ -1,12 +1,12 @@
 ---
 UID: NF:handleapi.GetHandleInformation
 title: GetHandleInformation function (handleapi.h)
-author: windows-sdk-content
+
 description: Retrieves certain properties of an object handle.
 old-location: base\gethandleinformation.htm
 tech.root: SysInfo
 ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation
 ms.topic: function

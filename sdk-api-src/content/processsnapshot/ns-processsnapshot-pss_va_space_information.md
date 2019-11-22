@@ -1,12 +1,12 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_3
 title: PSS_VA_SPACE_INFORMATION (processsnapshot.h)
-author: windows-sdk-content
+
 description: Holds virtual address (VA) space information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_va_space_information.htm
 tech.root: proc_snap
 ms.assetid: F38FF7EB-DDC5-4692-8F57-8D633193D891
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSS_VA_SPACE_INFORMATION, PSS_VA_SPACE_INFORMATION structure, proc_snap.pss_va_space_information, processsnapshot/PSS_VA_SPACE_INFORMATION
 ms.topic: struct

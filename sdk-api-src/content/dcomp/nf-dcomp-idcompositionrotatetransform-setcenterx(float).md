@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterX(float)
 title: IDCompositionRotateTransform::SetCenterX (dcomp.h)
-author: windows-sdk-content
+
 description: Changes the value of the CenterX property of a 2D rotation transform.
 old-location: directcomp\idcompositionrotatetransform_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: A1E2E033-031E-4781-9FCC-DC3190CCAB61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform.SetCenterX, IDCompositionRotateTransform::SetCenterX, IDCompositionRotateTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterX, directcomp.idcompositionrotatetransform_setcenterx_float
 ms.topic: method

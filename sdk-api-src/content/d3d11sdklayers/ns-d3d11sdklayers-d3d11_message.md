@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_MESSAGE
 title: D3D11_MESSAGE (d3d11sdklayers.h)
-author: windows-sdk-content
+
 description: A debug message in the Information Queue.
 old-location: direct3d11\d3d11_message.htm
 tech.root: direct3d11
 ms.assetid: b00a7e61-5394-40bd-bdc1-94da45dfa264
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE structure [Direct3D 11], d3d11sdklayers/D3D11_MESSAGE, direct3d11.d3d11_message
 ms.topic: struct

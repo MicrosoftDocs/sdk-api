@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.PostThreadMessageA
 title: PostThreadMessageA function (winuser.h)
-author: windows-sdk-content
+
 description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
 old-location: winmsg\postthreadmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PostThreadMessage, PostThreadMessage function [Windows and Messages], PostThreadMessageA, PostThreadMessageW, _win32_PostThreadMessage, _win32_postthreadmessage_cpp, winmsg.postthreadmessage, winui._win32_postthreadmessage, winuser/PostThreadMessage, winuser/PostThreadMessageA, winuser/PostThreadMessageW
 ms.topic: function

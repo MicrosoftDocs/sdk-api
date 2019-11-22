@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.get_SupportedLanguages
 title: ISpellCheckProviderFactory::get_SupportedLanguages (spellcheckprovider.h)
-author: windows-sdk-content
+
 description: Gets the set of languages/dialects supported by the spell checker.
 old-location: intl\ispellcheckproviderfactory_supportedlanguages.htm
 tech.root: Intl
 ms.assetid: 52690D99-4E14-44CE-BFD8-D0931F250280
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckProviderFactory.SupportedLanguages, ISpellCheckProviderFactory.get_SupportedLanguages, ISpellCheckProviderFactory::SupportedLanguages, ISpellCheckProviderFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, get_SupportedLanguages, intl.ispellcheckproviderfactory_supportedlanguages, spellcheckprovider/ISpellCheckProviderFactory::SupportedLanguages, spellcheckprovider/ISpellCheckProviderFactory::get_SupportedLanguages
 ms.topic: method

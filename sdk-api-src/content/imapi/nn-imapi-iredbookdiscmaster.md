@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi.IRedbookDiscMaster
 title: IRedbookDiscMaster (imapi.h)
-author: windows-sdk-content
+
 description: The IRedbookDiscMaster interface enables the staging of an audio CD image. It represents one of the formats supported by MSDiscMasterObj, and it allows the creation of multi-track audio discs in Track-at-Once mode (fixed-size audio gaps).
 old-location: imapi\iredbookdiscmaster.htm
 tech.root: imapi
 ms.assetid: ea531b22-869a-400e-801f-00bb85ebaac2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookDiscMaster interface [IMAPI],described, _win32_iredbookdiscmaster, base.iredbookdiscmaster, imapi.iredbookdiscmaster, imapi/IRedbookDiscMaster
 ms.topic: interface

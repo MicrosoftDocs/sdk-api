@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetDefault
 title: IUserInputString::GetDefault (photoacquire.h)
-author: windows-sdk-content
+
 description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).
 old-location: picacq\iuserinputstring_getdefault.htm
 tech.root: acquisition
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
 ms.topic: method

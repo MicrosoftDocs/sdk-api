@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.HasVerticalGlyphVariants
 title: IDWriteFontFace1::HasVerticalGlyphVariants (dwrite_1.h)
-author: windows-sdk-content
+
 description: Determines whether the font has any vertical glyph variants.
 old-location: directwrite\idwritefontface1_hasverticalglyphvariants.htm
 tech.root: DirectWrite
 ms.assetid: 694F003E-4189-4DC6-ADC8-B94EE8C624BE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasVerticalGlyphVariants, HasVerticalGlyphVariants method [Direct Write], HasVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],HasVerticalGlyphVariants method, IDWriteFontFace1.HasVerticalGlyphVariants, IDWriteFontFace1::HasVerticalGlyphVariants, directwrite.idwritefontface1_hasverticalglyphvariants, dwrite_1/IDWriteFontFace1::HasVerticalGlyphVariants
 ms.topic: method

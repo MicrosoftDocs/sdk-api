@@ -1,12 +1,12 @@
 ---
 UID: NS:lmdfs._DFS_INFO_2
 title: DFS_INFO_2 (lmdfs.h)
-author: windows-sdk-content
+
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, and number of DFS targets for the root or link.
 old-location: dfs\dfs_info_2_str.htm
 tech.root: Dfs
 ms.assetid: c5fe27be-fd6e-4cf0-abf6-8363c78edf5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_2, *PDFS_INFO_2, DFS_INFO_2, DFS_INFO_2 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_2, LPDFS_INFO_2 structure pointer [Distributed File System], PDFS_INFO_2, PDFS_INFO_2 structure pointer [Distributed File System], _win32_dfs_info_2_str, dfs.dfs_info_2_str, fs.dfs_info_2_str, lmdfs/DFS_INFO_2, lmdfs/LPDFS_INFO_2, lmdfs/PDFS_INFO_2, netmgmt.dfs_info_2_str"
 ms.topic: struct

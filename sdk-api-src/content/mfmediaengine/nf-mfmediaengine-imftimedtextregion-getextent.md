@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetExtent
 title: IMFTimedTextRegion::GetExtent (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the extent of the region.
 old-location: mf\imftimedtextregion_getextent.htm
 tech.root: medfound
 ms.assetid: 581D9A8D-FBED-4E67-9E81-77D9C29ADF82
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Media Foundation], GetExtent method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetExtent method, IMFTimedTextRegion.GetExtent, IMFTimedTextRegion::GetExtent, mf.imftimedtextregion_getextent, mfmediaengine/IMFTimedTextRegion::GetExtent
 ms.topic: method

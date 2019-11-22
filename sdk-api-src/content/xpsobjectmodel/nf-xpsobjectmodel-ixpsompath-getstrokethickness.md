@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeThickness
 title: IXpsOMPath::GetStrokeThickness (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the stroke thickness.
 old-location: xps\ixpsompath_getstrokethickness.htm
 tech.root: printdocs
 ms.assetid: 5c1d8179-99e6-4335-8777-56b6873f746b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStrokeThickness, GetStrokeThickness method [XPS Documents and Packaging], GetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeThickness method, IXpsOMPath.GetStrokeThickness, IXpsOMPath::GetStrokeThickness, xps.ixpsompath_getstrokethickness, xpsobjectmodel/IXpsOMPath::GetStrokeThickness
 ms.topic: method

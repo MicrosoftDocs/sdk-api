@@ -1,12 +1,12 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PROGRESS_STATUS
 title: SYNCMGR_PROGRESS_STATUS (syncmgr.h)
-author: windows-sdk-content
+
 description: Specifies the current progress status of a synchronization process. Used by ISyncMgrSyncCallback::ReportProgress.
 old-location: shell\SYNCMGR_PROGRESS_STATUS.htm
 tech.root: shell
 ms.assetid: 78622014-643e-4449-b937-a6122a06f470
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_PROGRESS_STATUS, SYNCMGR_PROGRESS_STATUS enumeration [Windows Shell], SYNCMGR_PS_CANCELED, SYNCMGR_PS_DISCONNECTED, SYNCMGR_PS_FAILED, SYNCMGR_PS_MAX, SYNCMGR_PS_SUCCEEDED, SYNCMGR_PS_UPDATING, SYNCMGR_PS_UPDATING_INDETERMINATE, shell.SYNCMGR_PROGRESS_STATUS, shell_SYNCMGR_PROGRESS_STATUS, syncmgr/SYNCMGR_PROGRESS_STATUS, syncmgr/SYNCMGR_PS_CANCELED, syncmgr/SYNCMGR_PS_DISCONNECTED, syncmgr/SYNCMGR_PS_FAILED, syncmgr/SYNCMGR_PS_MAX, syncmgr/SYNCMGR_PS_SUCCEEDED, syncmgr/SYNCMGR_PS_UPDATING, syncmgr/SYNCMGR_PS_UPDATING_INDETERMINATE
 ms.topic: enum

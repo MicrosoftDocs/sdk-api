@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPriorityClipboardFormat
 title: GetPriorityClipboardFormat function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the first available clipboard format in the specified list.
 old-location: dataxchg\getpriorityclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getpriorityclipboardformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPriorityClipboardFormat, GetPriorityClipboardFormat function [Data Exchange], _win32_GetPriorityClipboardFormat, _win32_getpriorityclipboardformat_cpp, dataxchg.getpriorityclipboardformat, winui._win32_getpriorityclipboardformat, winuser/GetPriorityClipboardFormat
 ms.topic: function

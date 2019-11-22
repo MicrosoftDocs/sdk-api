@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.IX509EnrollmentPolicyServer
 title: IX509EnrollmentPolicyServer (certenroll.h)
-author: windows-sdk-content
+
 description: The IX509EnrollmentPolicyServer interface represents a certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver.htm
 tech.root: seccertenroll
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
 ms.topic: interface

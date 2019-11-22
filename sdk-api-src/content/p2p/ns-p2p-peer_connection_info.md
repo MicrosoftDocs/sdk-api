@@ -1,12 +1,12 @@
 ---
 UID: NS:p2p.peer_connection_info_tag
 title: PEER_CONNECTION_INFO (p2p.h)
-author: windows-sdk-content
+
 description: The PEER_CONNECTION_INFO structure contains information about a connection. This structure is returned when you are enumerating peer graphing or grouping connections.
 old-location: p2p\peer_connection_info.htm
 tech.root: P2PSdk
 ms.assetid: 039fa00e-c193-46fd-b7e6-41eb7baeab3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTION_INFO, PEER_CONNECTION_INFO structure [Peer Networking], p2p.peer_connection_info, p2p/peer_connection_info_tag
 ms.topic: struct

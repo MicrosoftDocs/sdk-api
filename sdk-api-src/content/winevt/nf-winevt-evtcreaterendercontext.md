@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtCreateRenderContext
 title: EvtCreateRenderContext function (winevt.h)
-author: windows-sdk-content
+
 description: Creates a context that specifies the information in the event that you want to render.
 old-location: wes\evtcreaterendercontext.htm
 tech.root: wes
 ms.assetid: 729cfd74-c158-463d-9247-ee2c75b259d4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtCreateRenderContext, EvtCreateRenderContext function [EventLog], wes.evtcreaterendercontext, winevt/EvtCreateRenderContext
 ms.topic: function

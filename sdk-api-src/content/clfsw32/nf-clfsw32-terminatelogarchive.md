@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.TerminateLogArchive
 title: TerminateLogArchive function (clfsw32.h)
-author: windows-sdk-content
+
 description: Deallocates system resources that are allocated originally for a log archive context by PrepareLogArchive.
 old-location: fs\terminatelogarchive.htm
 tech.root: Clfs
 ms.assetid: 885356e1-f7c4-4f3f-98c3-fb9b1d339e22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NAMESPACE
 title: WSDXML_NAMESPACE (wsdxmldom.h)
-author: windows-sdk-content
+
 description: Specifies an XML namespace.
 old-location: ncd\wsdxml_namespace_struct.htm
 tech.root: WsdApi
 ms.assetid: dcf27f38-e628-4b0c-859c-ad12d3ed0924
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, ncd.wsdxml_namespace_struct, wsdxmldom/WSDXML_NAMESPACE
 ms.topic: struct

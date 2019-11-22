@@ -1,12 +1,12 @@
 ---
 UID: NF:rtmv2.RtmIsBestRoute
 title: RtmIsBestRoute function (rtmv2.h)
-author: windows-sdk-content
+
 description: The RtmIsBestRoute function returns the set of views in which the specified route is the best route to a destination.
 old-location: rras\rtmisbestroute.htm
 tech.root: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
 ms.topic: function

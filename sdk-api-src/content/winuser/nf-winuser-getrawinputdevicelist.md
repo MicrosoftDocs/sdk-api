@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetRawInputDeviceList
 title: GetRawInputDeviceList function (winuser.h)
-author: windows-sdk-content
+
 description: Enumerates the raw input devices attached to the system.
 old-location: inputdev\getrawinputdevicelist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdevicelist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRawInputDeviceList, GetRawInputDeviceList function [Keyboard and Mouse Input], _win32_GetRawInputDeviceList, _win32_getrawinputdevicelist_cpp, inputdev.getrawinputdevicelist, winui._win32_getrawinputdevicelist, winuser/GetRawInputDeviceList
 ms.topic: function

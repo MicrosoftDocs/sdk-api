@@ -1,7 +1,7 @@
 ---
 UID: NA:sspi
 ms.assetid: cc909d64-6d27-36d3-b4b0-9d360db9cf30
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

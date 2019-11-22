@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTPROXIMITY
 title: DBCONTENTPROXIMITY (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBCONTENTPROXIMITY structure represents specific information required by the DBOP_content_proximity operator.
 old-location: indexsrv\dbcontentproximity.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_035l.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTPROXIMITY, DBCONTENTPROXIMITY structure [Indexing Service], _idxs_DBCONTENTPROXIMITY, cmdtree/DBCONTENTPROXIMITY, indexsrv.dbcontentproximity, tagDBCONTENTPROXIMITY
 ms.topic: struct

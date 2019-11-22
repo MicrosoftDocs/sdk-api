@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.GetStream
 title: IXpsOMPrintTicketResource::GetStream (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomprintticketresource_getstream.htm
 tech.root: printdocs
 ms.assetid: 0783cdda-84c6-4441-accf-10fc2610199b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, IXpsOMPrintTicketResource interface [XPS Documents and Packaging],GetStream method, IXpsOMPrintTicketResource.GetStream, IXpsOMPrintTicketResource::GetStream, xps.ixpsomprintticketresource_getstream, xpsobjectmodel/IXpsOMPrintTicketResource::GetStream
 ms.topic: method

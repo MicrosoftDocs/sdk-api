@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get_Count
 title: IFaxIncomingJobs::get_Count (faxcomex.h)
-author: windows-sdk-content
+
 description: The Count property represents the number of objects in the FaxIncomingJobs collection. This is the total number of incoming jobs for the fax server.
 old-location: fax\_mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4p2s.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxIncomingJobs interface, IFaxIncomingJobs interface [Fax Service],Count property, IFaxIncomingJobs.Count, IFaxIncomingJobs.get_Count, IFaxIncomingJobs::Count, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp, faxcomex/IFaxIncomingJobs::Count, faxcomex/IFaxIncomingJobs::get_Count, get_Count
 ms.topic: method

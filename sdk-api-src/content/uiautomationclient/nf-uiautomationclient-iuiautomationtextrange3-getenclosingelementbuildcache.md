@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetEnclosingElementBuildCache
 title: IUIAutomationTextRange3::GetEnclosingElementBuildCache (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Gets the enclosing element and supplied properties and patterns for an element in a text range in a single cross-process call. This is equivalent to calling GetEnclosingElement, but adds the standard build cache pattern.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 6F5BC5DB-F9C0-40DF-8E29-FFACFBCAD80F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnclosingElementBuildCache, GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetEnclosingElementBuildCache method, IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._RESIZE_VIRTUAL_DISK_FLAG
 title: RESIZE_VIRTUAL_DISK_FLAG (virtdisk.h)
-author: windows-sdk-content
+
 description: Enumerates the available flags for the ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: dd4fc68d-8bed-47ce-94a2-a8a71199fac2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RESIZE_VIRTUAL_DISK_FLAG, RESIZE_VIRTUAL_DISK_FLAG enumeration [Virtual Storage], RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, RESIZE_VIRTUAL_DISK_FLAG_NONE, RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_NONE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, vstor.resize_virtual_disk_flag
 ms.topic: enum

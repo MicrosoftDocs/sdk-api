@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMHeaderInfo3
 title: IWMHeaderInfo3 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMHeaderInfo3 interface supports the following new metadata features:Attribute data in excess of 64 kilobytes.Multiple attributes with the same name.Attributes in multiple languages.Because the attributes created using this interface can have duplicate names, the methods of this interface use index values to identify attributes.The IWMHeaderInfo3 interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the QueryInterface method of any other interface in the desired object.
 old-location: wmformat\iwmheaderinfo3.htm
 tech.root: wmformat
 ms.assetid: 5791e330-3877-4d3a-b27f-f14b97d1a435
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], IWMHeaderInfo3 interface [windows Media Format],described, IWMHeaderInfo3Interface, wmformat.iwmheaderinfo3, wmsdkidl/IWMHeaderInfo3
 ms.topic: interface

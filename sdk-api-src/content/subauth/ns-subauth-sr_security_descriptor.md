@@ -1,12 +1,12 @@
 ---
 UID: NS:subauth._SR_SECURITY_DESCRIPTOR
 title: SR_SECURITY_DESCRIPTOR (subauth.h)
-author: windows-sdk-content
+
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm
 tech.root: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.IQueryParser
 title: IQueryParser (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides methods to parse an input string into an IQuerySolution object.
 old-location: search\_search_IQueryParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
 ms.topic: interface

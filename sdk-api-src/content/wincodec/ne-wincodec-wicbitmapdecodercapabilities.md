@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICBitmapDecoderCapabilities
 title: WICBitmapDecoderCapabilities (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies the capabilities of the decoder.
 old-location: wic\_wic_codec_wicbitmapdecodercapabilities.htm
 tech.root: wic
 ms.assetid: e501b8f7-3c99-461d-be92-dca80f5657c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICBitmapDecoderCapabilities, WICBitmapDecoderCapabilities enumeration [Windows Imaging Component], WICBitmapDecoderCapabilityCanDecodeAllImages, WICBitmapDecoderCapabilityCanDecodeSomeImages, WICBitmapDecoderCapabilityCanDecodeThumbnail, WICBitmapDecoderCapabilityCanEnumerateMetadata, WICBitmapDecoderCapabilitySameEncoder, _wic_codec_wicbitmapdecodercapabilities, wic._wic_codec_wicbitmapdecodercapabilities, wincodec/WICBitmapDecoderCapabilities, wincodec/WICBitmapDecoderCapabilityCanDecodeAllImages, wincodec/WICBitmapDecoderCapabilityCanDecodeSomeImages, wincodec/WICBitmapDecoderCapabilityCanDecodeThumbnail, wincodec/WICBitmapDecoderCapabilityCanEnumerateMetadata, wincodec/WICBitmapDecoderCapabilitySameEncoder
 ms.topic: enum

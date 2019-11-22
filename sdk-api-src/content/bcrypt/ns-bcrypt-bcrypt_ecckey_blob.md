@@ -1,12 +1,12 @@
 ---
 UID: NS:bcrypt._BCRYPT_ECCKEY_BLOB
 title: BCRYPT_ECCKEY_BLOB (bcrypt.h)
-author: windows-sdk-content
+
 description: Used as a header for an elliptic curve public key or private key BLOB in memory.
 old-location: security\bcrypt_ecckey_blob.htm
 tech.root: SecCNG
 ms.assetid: e60f6630-e4b0-4f35-a3cf-95dbcb007124
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PBCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB structure [Security], BCRYPT_ECDH_PRIVATE_P256_MAGIC, BCRYPT_ECDH_PRIVATE_P384_MAGIC, BCRYPT_ECDH_PRIVATE_P521_MAGIC, BCRYPT_ECDH_PUBLIC_P256_MAGIC, BCRYPT_ECDH_PUBLIC_P384_MAGIC, BCRYPT_ECDH_PUBLIC_P521_MAGIC, BCRYPT_ECDSA_PRIVATE_P256_MAGIC, BCRYPT_ECDSA_PRIVATE_P384_MAGIC, BCRYPT_ECDSA_PRIVATE_P521_MAGIC, BCRYPT_ECDSA_PUBLIC_P256_MAGIC, BCRYPT_ECDSA_PUBLIC_P384_MAGIC, BCRYPT_ECDSA_PUBLIC_P521_MAGIC, PBCRYPT_ECCKEY_BLOB, PBCRYPT_ECCKEY_BLOB structure pointer [Security], bcrypt/BCRYPT_ECCKEY_BLOB, bcrypt/PBCRYPT_ECCKEY_BLOB, security.bcrypt_ecckey_blob'
 ms.topic: struct

@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_LUMA_KEY
 title: D3D12_VIDEO_PROCESS_LUMA_KEY
-author: windows-sdk-content
+
 description: Specifies the settings used for luma keying.
 tech.root: mf
 ms.assetid: c5183fec-5f5d-4a26-a35c-5ea60e7e1fe0
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

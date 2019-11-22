@@ -1,12 +1,12 @@
 ---
 UID: NN:peninputpanel.ITextInputPanel
 title: ITextInputPanel (peninputpanel.h)
-author: windows-sdk-content
+
 description: Provides control of appearance and behavior of the Tablet PC Input Panel.
 old-location: tablet\itextinputpanel.htm
 tech.root: tablet
 ms.assetid: 1e719900-db58-430d-9059-efb3f884f6f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPanel interface [Tablet PC], ITextInputPanel interface [Tablet PC],described, peninputpanel/ITextInputPanel, tablet.itextinputpanel
 ms.topic: interface

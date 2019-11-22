@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj.PathIsSlowA
 title: PathIsSlowA function (shlobj.h)
-author: windows-sdk-content
+
 description: PathIsSlow may be altered or unavailable.
 old-location: shell\PathIsSlow.htm
 tech.root: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
 ms.topic: function

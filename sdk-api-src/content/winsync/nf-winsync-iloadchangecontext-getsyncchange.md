@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ILoadChangeContext.GetSyncChange
 title: ILoadChangeContext::GetSyncChange (winsync.h)
-author: windows-sdk-content
+
 description: Gets the change item for which the change data should be retrieved from the item store.
 old-location: winsync\iloadchangecontext_getsyncchange.htm
 tech.root: winsync
 ms.assetid: 6ac425bc-f6ec-4a95-b351-01f9eb27a744
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
 ms.topic: method

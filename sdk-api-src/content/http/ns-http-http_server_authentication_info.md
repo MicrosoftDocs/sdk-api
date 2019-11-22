@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_INFO
 title: HTTP_SERVER_AUTHENTICATION_INFO (http.h)
-author: windows-sdk-content
+
 description: Used to enable server-side authentication on a URL group or server session.
 old-location: http\http_server_authentication_info.htm
 tech.root: http
 ms.assetid: 4f408115-c073-4e9f-b316-8ad3f03acf53
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], HTTP_AUTH_ENABLE_ALL, HTTP_AUTH_ENABLE_BASIC, HTTP_AUTH_ENABLE_DIGEST, HTTP_AUTH_ENABLE_KERBEROS, HTTP_AUTH_ENABLE_NEGOTIATE, HTTP_AUTH_ENABLE_NTLM, HTTP_AUTH_EX_FLAG_CAPTURE_CREDENTIAL, HTTP_AUTH_EX_FLAG_ENABLE_KERBEROS_CREDENTIAL_CACHING, HTTP_SERVER_AUTHENTICATION_INFO, HTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], http.http_server_authentication_info, http/*PHTTP_SERVER_AUTHENTICATION_INFO, http/HTTP_SERVER_AUTHENTICATION_INFO'
 ms.topic: struct

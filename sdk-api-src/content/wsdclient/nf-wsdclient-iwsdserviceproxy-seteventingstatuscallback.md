@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SetEventingStatusCallback
 title: IWSDServiceProxy::SetEventingStatusCallback (wsdclient.h)
-author: windows-sdk-content
+
 description: Sets or clears the eventing status callback.
 old-location: ncd\iwsdserviceproxy_seteventingstatuscallback.htm
 tech.root: WsdApi
 ms.assetid: 0a924df4-93a7-4443-a384-0a89d5d90509
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.topic: method

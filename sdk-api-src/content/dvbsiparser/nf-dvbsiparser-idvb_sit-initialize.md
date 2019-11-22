@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.Initialize
 title: IDVB_SIT::Initialize (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_initialize.htm
 tech.root: mstv
 ms.assetid: 16e22efd-da9b-4777-93eb-fa338f1198fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],Initialize method, IDVB_SIT.Initialize, IDVB_SIT::Initialize, IDVB_SITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::Initialize, mstv.idvb_sit_initialize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif.REGFILTER2
 title: REGFILTER2 (strmif.h)
-author: windows-sdk-content
+
 description: The REGFILTER2 structure contains information for registering a filter.
 old-location: dshow\regfilter2.htm
 tech.root: DirectShow
 ms.assetid: 651b94e6-b343-4957-9781-768b04c098dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: REGFILTER2, REGFILTER2 structure [DirectShow], REGFILTER2Structure, dshow.regfilter2, strmif/REGFILTER2
 ms.topic: struct

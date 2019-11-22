@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.UpdateLayeredWindow
 title: UpdateLayeredWindow function (winuser.h)
-author: windows-sdk-content
+
 description: Updates the position, size, shape, content, and translucency of a layered window.
 old-location: winmsg\updatelayeredwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\updatelayeredwindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow
 ms.topic: function

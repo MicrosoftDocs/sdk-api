@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemFloatingRect
 title: ITfLangBarItemMgr::GetItemFloatingRect (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarItemMgr::GetItemFloatingRect method
 old-location: tsf\itflangbaritemmgr_getitemfloatingrect.htm
 tech.root: TSF
 ms.assetid: 56f30b8e-9e71-4b4e-a7df-e83d24cab297
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarItemMgr.GetItemFloatingRect, ITfLangBarItemMgr::GetItemFloatingRect, _tsf_itflangbaritemmgr_getitemfloatingrect_ref, ctfutb/ITfLangBarItemMgr::GetItemFloatingRect, tsf.itflangbaritemmgr_getitemfloatingrect
 ms.topic: method

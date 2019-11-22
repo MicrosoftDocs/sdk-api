@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.RootEntity
 title: ISchemaProvider::RootEntity (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves the root entity of the loaded schema.
 old-location: search\_search_ISchemaProvider_RootEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\rootentity.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],RootEntity method, ISchemaProvider.RootEntity, ISchemaProvider::RootEntity, RootEntity, RootEntity method [search], RootEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
 ms.topic: method

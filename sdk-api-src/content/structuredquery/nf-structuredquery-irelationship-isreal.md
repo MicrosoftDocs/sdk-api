@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IRelationship.IsReal
 title: IRelationship::IsReal (structuredquery.h)
-author: windows-sdk-content
+
 description: Reports whether a relationship is real.
 old-location: search\_search_IRelationship_IsReal.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
 ms.topic: method

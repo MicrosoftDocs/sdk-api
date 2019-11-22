@@ -1,12 +1,12 @@
 ---
 UID: NS:iketypes.IKEEXT_KEYMODULE_STATISTICS0_
 title: IKEEXT_KEYMODULE_STATISTICS0 (iketypes.h)
-author: windows-sdk-content
+
 description: Contains various statistics specific to the keying module.
 old-location: fwp\ikeext_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS0, IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering], fwp.ikeext_keymodule_statistics0, iketypes/IKEEXT_KEYMODULE_STATISTICS0
 ms.topic: struct

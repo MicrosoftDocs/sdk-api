@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiOutSetVolume
 title: midiOutSetVolume function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiOutSetVolume function sets the volume of a MIDI output device.
 old-location: multimedia\midioutsetvolume.htm
 tech.root: Multimedia
 ms.assetid: a24ff9fa-06d1-4124-ab66-1cdcabacbc4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutSetVolume, midiOutSetVolume, midiOutSetVolume function [Windows Multimedia], mmeapi/midiOutSetVolume, multimedia.midioutsetvolume"
 ms.topic: function

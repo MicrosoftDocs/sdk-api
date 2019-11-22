@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllFuncCustData
 title: ITypeInfo2::GetAllFuncCustData (oaidl.h)
-author: windows-sdk-content
+
 description: Gets all custom data from the specified function.
 old-location: automat\itypeinfo2_getallfunccustdata.htm
 tech.root: automat
 ms.assetid: 65ea243f-fe13-4443-80e9-4b19cf0cb8c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAllFuncCustData, GetAllFuncCustData method [Automation], GetAllFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllFuncCustData method, ITypeInfo2.GetAllFuncCustData, ITypeInfo2::GetAllFuncCustData, _oa96_ITypeInfo2_GetAllFuncCustData, automat.itypeinfo2_getallfunccustdata, oaidl/ITypeInfo2::GetAllFuncCustData
 ms.topic: method

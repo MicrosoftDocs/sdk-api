@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleCache2.DiscardCache
 title: IOleCache2::DiscardCache (oleidl.h)
-author: windows-sdk-content
+
 description: Discards the caches found in memory.
 old-location: com\iolecache2_discardcache.htm
 tech.root: com
 ms.assetid: 03fb4bdb-1655-4923-b124-8854419766ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DiscardCache, DiscardCache method [COM], DiscardCache method [COM],IOleCache2 interface, IOleCache2 interface [COM],DiscardCache method, IOleCache2.DiscardCache, IOleCache2::DiscardCache, _ole_iolecache2_discardcache, com.iolecache2_discardcache, oleidl/IOleCache2::DiscardCache
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.GetFill
 title: ID2D1SvgGlyphStyle::GetFill (d2d1_3.h)
-author: windows-sdk-content
+
 description: Returns the requested fill parameters.
 old-location: direct2d\id2d1svgglyphstyle_getfill.htm
 tech.root: Direct2D
 ms.assetid: 9F57178E-87F7-43C7-9DCD-643E1A6B3B4D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFill, GetFill method [Direct2D], GetFill method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetFill method, ID2D1SvgGlyphStyle.GetFill, ID2D1SvgGlyphStyle::GetFill, d2d1_3/ID2D1SvgGlyphStyle::GetFill, direct2d.id2d1svgglyphstyle_getfill
 ms.topic: method

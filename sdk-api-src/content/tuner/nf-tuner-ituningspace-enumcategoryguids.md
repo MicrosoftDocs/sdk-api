@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.ITuningSpace.EnumCategoryGUIDs
 title: ITuningSpace::EnumCategoryGUIDs (tuner.h)
-author: windows-sdk-content
+
 description: Currently not implemented.
 old-location: mstv\ituningspace_enumcategoryguids.htm
 tech.root: mstv
 ms.assetid: d9efbbda-fa95-46ea-aedc-7be5b13d16b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumCategoryGUIDs method, ITuningSpace.EnumCategoryGUIDs, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
 ms.topic: method

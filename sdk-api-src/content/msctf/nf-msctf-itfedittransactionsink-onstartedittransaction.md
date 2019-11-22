@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfEditTransactionSink.OnStartEditTransaction
 title: ITfEditTransactionSink::OnStartEditTransaction (msctf.h)
-author: windows-sdk-content
+
 description: ITfEditTransactionSink::OnStartEditTransaction method
 old-location: tsf\itfedittransactionsink_onstartedittransaction.htm
 tech.root: TSF
 ms.assetid: cf10e7aa-c2a1-4d7f-828a-434c9852f4d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnStartEditTransaction method, ITfEditTransactionSink.OnStartEditTransaction, ITfEditTransactionSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onstartedittransaction_ref, msctf/ITfEditTransactionSink::OnStartEditTransaction, tsf.itfedittransactionsink_onstartedittransaction
 ms.topic: method

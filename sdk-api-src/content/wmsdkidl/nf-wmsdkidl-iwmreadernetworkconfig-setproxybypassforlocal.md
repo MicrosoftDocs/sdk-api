@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyBypassForLocal
 title: IWMReaderNetworkConfig::SetProxyBypassForLocal (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.
 old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyBypassForLocal method, IWMReaderNetworkConfig.SetProxyBypassForLocal, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
 ms.topic: method

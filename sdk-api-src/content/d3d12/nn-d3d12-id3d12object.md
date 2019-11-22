@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12Object
 title: ID3D12Object (d3d12.h)
-author: windows-sdk-content
+
 description: An interface from which ID3D12Device and ID3D12DeviceChild inherit from. It provides methods to associate private data and annotate object names.
 old-location: direct3d12\id3d12object.htm
 tech.root: direct3d12
 ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
 ms.topic: interface

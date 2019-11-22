@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupGetFieldCount
 title: SetupGetFieldCount function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupGetFieldCount function retrieves the number of fields in the specified line in an INF file.
 old-location: setup\setupgetfieldcount.htm
 tech.root: SetupApi
 ms.assetid: 7353d52c-7553-4f50-beab-7fcc4db1fe40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupGetFieldCount, SetupGetFieldCount function [Setup API], _setupapi_setupgetfieldcount, setup.setupgetfieldcount, setupapi/SetupGetFieldCount
 ms.topic: function

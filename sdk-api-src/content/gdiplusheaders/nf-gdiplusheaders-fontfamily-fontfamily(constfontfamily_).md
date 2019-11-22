@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(const FontFamily &)
 title: FontFamily::FontFamily(const FontFamily &) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(const FontFamily &), FontFamily::FontFamily, FontFamily::FontFamily(const FontFamily &), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
 ms.topic: method

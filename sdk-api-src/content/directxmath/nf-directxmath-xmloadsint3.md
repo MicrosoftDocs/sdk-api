@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadSInt3
 title: XMLoadSInt3 function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads signed integer data into the x, y, and z components of an XMVECTOR.
 old-location: dxmath\xmloadsint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt3(const XMINT3)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadSInt3, XMLoadSInt3, XMLoadSInt3 method [DirectX Math Support APIs], dxmath.xmloadsint3
 ms.topic: function

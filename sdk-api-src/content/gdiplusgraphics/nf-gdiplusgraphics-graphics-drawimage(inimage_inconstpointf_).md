@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const PointF &)
 title: Graphics::DrawImage
 description: The Graphics::DrawImage method draws an image.
 ms.assetid: 933bdaec-75a8-4437-b42a-0799c2925d66
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawImage
 ms.topic: language-reference

@@ -1,12 +1,12 @@
 ---
 UID: NS:winbase._SYSTEM_POWER_STATUS
 title: SYSTEM_POWER_STATUS (winbase.h)
-author: windows-sdk-content
+
 description: Contains information about the power status of the system.
 old-location: base\system_power_status_str.htm
 tech.root: power
 ms.assetid: 4c331239-4222-4650-a0ed-6d605bf376cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS structure pointer, SYSTEM_POWER_STATUS, SYSTEM_POWER_STATUS structure, _SYSTEM_POWER_STATUS, _win32_system_power_status_str, base.system_power_status_str, winbase/LPSYSTEM_POWER_STATUS, winbase/SYSTEM_POWER_STATUS"
 ms.topic: struct

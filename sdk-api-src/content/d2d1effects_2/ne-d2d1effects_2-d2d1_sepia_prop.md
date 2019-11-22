@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_SEPIA_PROP
 title: D2D1_SEPIA_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Sepia effect.
 old-location: direct2d\d2d1_sepia_prop.htm
 tech.root: Direct2D
 ms.assetid: 159897D5-DB46-46B7-A88B-CC57D1AC8DE5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_SEPIA_PROP, D2D1_SEPIA_PROP enumeration [Direct2D], D2D1_SEPIA_PROP_ALPHA_MODE, D2D1_SEPIA_PROP_INTENSITY, d2d1effects_2/D2D1_SEPIA_PROP, d2d1effects_2/D2D1_SEPIA_PROP_ALPHA_MODE, d2d1effects_2/D2D1_SEPIA_PROP_INTENSITY, direct2d.d2d1_sepia_prop
 ms.topic: enum

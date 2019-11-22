@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryHints
 title: IVdsLun::QueryHints (vdshwprv.h)
-author: windows-sdk-content
+
 description: Returns the hints currently applied to the LUN.
 old-location: base\ivdslun_queryhints.htm
 tech.root: VDS
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
 ms.topic: method

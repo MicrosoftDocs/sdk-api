@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.PlayEnhMetaFileRecord
 title: PlayEnhMetaFileRecord function (wingdi.h)
-author: windows-sdk-content
+
 description: The PlayEnhMetaFileRecord function plays an enhanced-metafile record by executing the graphics device interface (GDI) functions identified by the record.
 old-location: gdi\playenhmetafilerecord.htm
 tech.root: gdi
 ms.assetid: 3eec8c8d-b99f-4500-9d18-b819c097f341
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFileRecord, PlayEnhMetaFileRecord function [Windows GDI], _win32_PlayEnhMetaFileRecord, gdi.playenhmetafilerecord, wingdi/PlayEnhMetaFileRecord
 ms.topic: function

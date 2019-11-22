@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddCurve(IN const PointF,IN INT,IN REAL)
 title: GraphicsPath::AddCurve(IN const PointF,IN INT,IN REAL) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddCurve method adds a cardinal spline to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_31pointfpoints_intcount_realtension.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const PointF,IN INT,IN REAL), GraphicsPath.AddCurve(const PointF*,INT,REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_REAL_tension_
 ms.topic: method

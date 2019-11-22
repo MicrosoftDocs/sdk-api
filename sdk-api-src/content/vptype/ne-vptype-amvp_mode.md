@@ -1,12 +1,12 @@
 ---
 UID: NE:vptype._AMVP_MODE
 title: AMVP_MODE (vptype.h)
-author: windows-sdk-content
+
 description: Specifies the various modes for video ports.
 old-location: dshow\amvp_mode.htm
 tech.root: DirectShow
 ms.assetid: 73d63ca2-17fb-4e27-9ea5-62686117254a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AMVP_MODE, AMVP_MODE , AMVP_MODE enumeration [DirectShow], AMVP_MODEEnumeration, AMVP_MODE_BOBINTERLEAVED, AMVP_MODE_SKIPEVEN, AMVP_MODE_SKIPODD, AMVP_MODE_WEAVE, MODE_BOBNONINTERLEAVED, dshow.amvp_mode, vptype/AMVP_MODE, vptype/AMVP_MODE_BOBINTERLEAVED, vptype/AMVP_MODE_SKIPEVEN, vptype/AMVP_MODE_SKIPODD, vptype/AMVP_MODE_WEAVE, vptype/MODE_BOBNONINTERLEAVED
 ms.topic: enum

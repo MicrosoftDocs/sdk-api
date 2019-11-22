@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_LastAccessedTime
 title: IFsiItem::put_LastAccessedTime (imapi2fs.h)
-author: windows-sdk-content
+
 description: Sets the date and time that the directory or file item was last accessed in the file system image.
 old-location: imapi\ifsiitem_put_lastaccessedtime.htm
 tech.root: imapi
 ms.assetid: 6192bff5-9535-4845-9c99-d5ceeea0335f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastAccessedTime method, IFsiItem.put_LastAccessedTime, IFsiItem::put_LastAccessedTime, imapi.ifsiitem_put_lastaccessedtime, imapi2fs/IFsiItem::put_LastAccessedTime, put_LastAccessedTime, put_LastAccessedTime method [IMAPI], put_LastAccessedTime method [IMAPI],IFsiItem interface
 ms.topic: method

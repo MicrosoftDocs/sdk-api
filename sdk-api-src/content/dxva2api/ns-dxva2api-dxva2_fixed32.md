@@ -1,12 +1,12 @@
 ---
 UID: NS:dxva2api._DXVA2_Fixed32
 title: DXVA2_Fixed32 (dxva2api.h)
-author: windows-sdk-content
+
 description: Defines a 32-bit fixed-point number.
 old-location: mf\dxva2_fixed32.htm
 tech.root: medfound
 ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 structure [Media Foundation], dxva2api/DXVA2_Fixed32, mf.dxva2_fixed32
 ms.topic: struct

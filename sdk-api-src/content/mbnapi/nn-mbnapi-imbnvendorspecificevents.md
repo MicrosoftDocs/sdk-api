@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnVendorSpecificEvents
 title: IMbnVendorSpecificEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: This notification interface signals an application of the completion status of vendor-specific operations and other vendor-specific changes in the device state.
 old-location: mbn\imbnvendorspecificevents.htm
 tech.root: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
 ms.topic: interface

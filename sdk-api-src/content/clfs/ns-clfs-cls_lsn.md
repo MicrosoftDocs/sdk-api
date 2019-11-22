@@ -1,12 +1,12 @@
 ---
 UID: NS:clfs._CLS_LSN
 title: CLS_LSN (clfs.h)
-author: windows-sdk-content
+
 description: Represents a valid log address.
 old-location: fs\clfs_lsn.htm
 tech.root: Clfs
 ms.assetid: f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN structure pointer [Files], PPCLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn"
 ms.topic: struct

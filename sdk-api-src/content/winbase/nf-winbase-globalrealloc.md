@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GlobalReAlloc
 title: GlobalReAlloc function (winbase.h)
-author: windows-sdk-content
+
 description: Changes the size or attributes of a specified global memory object. The size can increase or decrease.
 old-location: base\globalrealloc.htm
 tech.root: Memory
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
 ms.topic: function

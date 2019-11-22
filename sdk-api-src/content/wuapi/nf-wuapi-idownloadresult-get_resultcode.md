@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IDownloadResult.get_ResultCode
 title: IDownloadResult::get_ResultCode (wuapi.h)
-author: windows-sdk-content
+
 description: Gets an OperationResultCodeenumeration that specifies the result of the download.
 old-location: wua\idownloadresult_resultcode.htm
 tech.root: Wua_Sdk
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
 ms.topic: method

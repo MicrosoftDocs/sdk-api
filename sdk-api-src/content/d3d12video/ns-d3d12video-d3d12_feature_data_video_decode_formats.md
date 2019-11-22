@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
-author: windows-sdk-content
+
 description: Retrieves the list of supported formats.
 tech.root: mf
 ms.assetid: 685f27d9-b54d-40ca-a156-3bd85b8cae74
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

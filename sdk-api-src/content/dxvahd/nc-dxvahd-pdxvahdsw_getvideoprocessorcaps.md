@@ -1,12 +1,12 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorCaps
 title: PDXVAHDSW_GetVideoProcessorCaps (dxvahd.h)
-author: windows-sdk-content
+
 description: Gets the capabilities of one or more software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processors.
 old-location: mf\pdxvahdsw_getvideoprocessorcaps.htm
 tech.root: medfound
 ms.assetid: d32fd5e7-b8e8-431f-bc74-b75288ceb01f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCaps, PDXVAHDSW_GetVideoProcessorCaps callback, PDXVAHDSW_GetVideoProcessorCaps callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCaps, mf.pdxvahdsw_getvideoprocessorcaps
 ms.topic: callback

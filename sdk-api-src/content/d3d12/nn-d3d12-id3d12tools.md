@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12Tools
 title: ID3D12Tools (d3d12.h)
-author: windows-sdk-content
+
 description: This interface is used to configure the runtime for tools such as PIX. Its not intended or supported for any other scenario.
 old-location: direct3d12\id3d12tools.htm
 tech.root: direct3d12
 ms.assetid: F192AC22-1FD9-496D-9943-99FB424DD214
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12Tools, ID3D12Tools interface, ID3D12Tools interface,described, d3d12/ID3D12Tools, direct3d12.id3d12tools
 ms.topic: interface

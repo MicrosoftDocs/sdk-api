@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat (d3d12.h)
-author: windows-sdk-content
+
 description: Sets all the elements in a unordered access view to the specified float values.
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewfloat.htm
 tech.root: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.Remove
 title: IDiskQuotaUserBatch::Remove (dskquota.h)
-author: windows-sdk-content
+
 description: Removes an IDiskQuotaUser pointer from the batch list.
 old-location: fs\idiskquotauserbatch_remove.htm
 tech.root: FileIO
 ms.assetid: 102e9a07-9958-4d47-acd3-6b81e83a5ea7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch interface [Files],Remove method, IDiskQuotaUserBatch.Remove, IDiskQuotaUserBatch::Remove, Remove, Remove method [Files], Remove method [Files],IDiskQuotaUserBatch interface, _win32_idiskquotauserbatch_remove, base.idiskquotauserbatch_remove, dskquota/IDiskQuotaUserBatch::Remove, fs.idiskquotauserbatch_remove
 ms.topic: method

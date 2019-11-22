@@ -1,12 +1,12 @@
 ---
 UID: NF:audioclient.IAudioRenderClient.GetBuffer
 title: IAudioRenderClient::GetBuffer (audioclient.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to the next available space in the rendering endpoint buffer into which the caller can write a data packet.
 old-location: coreaudio\iaudiorenderclient_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: c2a0d46b-e8d4-4c51-9810-5580504c9731
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioRenderClient interface, IAudioRenderClient interface [Core Audio],GetBuffer method, IAudioRenderClient.GetBuffer, IAudioRenderClient::GetBuffer, IAudioRenderClientGetBuffer, audioclient/IAudioRenderClient::GetBuffer, coreaudio.iaudiorenderclient_getbuffer
 ms.topic: method

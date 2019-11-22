@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.Remove
 title: IFaxOutboundRoutingRules::Remove (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRules::Remove method removes an outbound routing rule (FaxOutboundRoutingRule object) from the FaxOutboundRoutingRules collection using the routing rule's index.
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_remove_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bs5.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],Remove method, IFaxOutboundRoutingRules.Remove, IFaxOutboundRoutingRules::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.remove, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_remove_cpp, fax._mfax_faxoutboundroutingrules_remove, faxcomex/IFaxOutboundRoutingRules::Remove
 ms.topic: method

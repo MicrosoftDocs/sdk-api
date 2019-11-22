@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetIntWPtr
 title: XMVectorSetIntWPtr function (directxmath.h)
-author: windows-sdk-content
+
 description: Sets the w component of an XMVECTOR containing integer data, with a value contained in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorsetintwptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntWPtr(XMVECTOR,const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntWPtr, XMVectorSetIntWPtr, XMVectorSetIntWPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintwptr
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerCollabGetSigninOptions
 title: PeerCollabGetSigninOptions function (p2p.h)
-author: windows-sdk-content
+
 description: Obtains the peer's current signed-in peer collaboration network presence options.
 old-location: p2p\peercollabgetsigninoptions.htm
 tech.root: P2PSdk
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions
 ms.topic: function

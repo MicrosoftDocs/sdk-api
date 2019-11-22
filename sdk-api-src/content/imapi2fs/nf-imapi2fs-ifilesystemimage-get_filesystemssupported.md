@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsSupported
 title: IFileSystemImage::get_FileSystemsSupported (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the list of file system types that a client can use to build a file system image.
 old-location: imapi\ifilesystemimage_get_filesystemssupported.htm
 tech.root: imapi
 ms.assetid: 73bf563b-ad8f-4afe-95c6-3bac3c4dadba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsSupported method, IFileSystemImage.get_FileSystemsSupported, IFileSystemImage::get_FileSystemsSupported, get_FileSystemsSupported, get_FileSystemsSupported method [IMAPI], get_FileSystemsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemssupported, imapi2fs/IFileSystemImage::get_FileSystemsSupported
 ms.topic: method

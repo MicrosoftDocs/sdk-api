@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityDestroy
 title: IComActivityEvents::OnActivityDestroy (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when an activity is finished.
 old-location: cos\icomactivityevents_onactivitydestroy.htm
 tech.root: cossdk
 ms.assetid: af69bcf7-a925-42e2-a7a8-4ebf745955b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityDestroy method, IComActivityEvents.OnActivityDestroy, IComActivityEvents::OnActivityDestroy, OnActivityDestroy, OnActivityDestroy method [COM+], OnActivityDestroy method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityDestroy, comsvcs/IComActivityEvents::OnActivityDestroy, cos.icomactivityevents_onactivitydestroy
 ms.topic: method

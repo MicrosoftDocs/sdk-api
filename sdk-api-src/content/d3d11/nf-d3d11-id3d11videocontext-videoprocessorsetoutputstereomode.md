@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputStereoMode
 title: ID3D11VideoContext::VideoProcessorSetOutputStereoMode (d3d11.h)
-author: windows-sdk-content
+
 description: Specifies whether the video processor produces stereo video frames.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputstereomode.htm
 tech.root: medfound
 ms.assetid: 86449010-6F46-460B-9972-4186FD84B407
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputStereoMode method, ID3D11VideoContext.VideoProcessorSetOutputStereoMode, ID3D11VideoContext::VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode method [Media Foundation], VideoProcessorSetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputStereoMode, mf.id3d11videocontext_videoprocessorsetoutputstereomode
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:vsadmin.IVssAdmin
 title: IVssAdmin (vsadmin.h)
-author: windows-sdk-content
+
 description: The IVssAdmin interface manages providers registered with VSS.
 old-location: base\ivssadmin.htm
 tech.root: VSS
 ms.assetid: 6128d627-380b-4fef-b58a-caf8f149f526
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],described, base.ivssadmin, vsadmin/IVssAdmin
 ms.topic: interface

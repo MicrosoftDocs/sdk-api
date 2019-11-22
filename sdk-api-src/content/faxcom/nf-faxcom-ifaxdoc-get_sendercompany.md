@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderCompany
 title: IFaxDoc::get_SenderCompany (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the SenderCompany property of a FaxDoc object. The SenderCompany property is a null-terminated string that contains the company name of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendercompany_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7wjd.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderCompany property, IFaxDoc.SenderCompany, IFaxDoc.get_SenderCompany, IFaxDoc::SenderCompany, IFaxDoc::get_SenderCompany, IFaxDoc::put_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendercompany_cpp, faxcom/IFaxDoc::SenderCompany, faxcom/IFaxDoc::get_SenderCompany, faxcom/IFaxDoc::put_SenderCompany, get_SenderCompany
 ms.topic: method

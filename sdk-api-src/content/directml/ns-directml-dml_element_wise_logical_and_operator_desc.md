@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC
 title: DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML math operator that performs a logical AND function between every element in ATensor and its corresponding element in BTensor, f(a, b) = a && b.
 old-location: direct3d12\dml_element_wise_logical_and_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: B3C7CAD0-08D8-426A-8881-DF826B8DA555
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC, DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC structure, direct3d12.dml_element_wise_logical_and_operator_desc, directml/DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC
 ms.topic: struct

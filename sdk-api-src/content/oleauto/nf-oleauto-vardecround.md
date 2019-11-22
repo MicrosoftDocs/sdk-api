@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDecRound
 title: VarDecRound function (oleauto.h)
-author: windows-sdk-content
+
 description: Rounds a variant of type decimal to the specified number of decimal places.
 old-location: automat\vardecround.htm
 tech.root: automat
 ms.assetid: 264914c6-2f47-4e99-b3bb-a2c510906954
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
 ms.topic: function

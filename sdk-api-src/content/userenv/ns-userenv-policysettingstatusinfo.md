@@ -1,12 +1,12 @@
 ---
 UID: NS:userenv._POLICYSETTINGSTATUSINFO
 title: POLICYSETTINGSTATUSINFO (userenv.h)
-author: windows-sdk-content
+
 description: The POLICYSETTINGSTATUSINFO structure provides information about a policy-setting event.
 old-location: policy\policysettingstatusinfo_str.htm
 tech.root: Policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO structure pointer [Group Policy], POLICYSETTINGSTATUSINFO, POLICYSETTINGSTATUSINFO structure [Group Policy], RSOPApplied, RSOPFailed, RSOPIgnored, RSOPSubsettingFailed, RSOPUnspecified, _win32_policysettingstatusinfo_str, policy.policysettingstatusinfo_str, userenv/LPPOLICYSETTINGSTATUSINFO, userenv/POLICYSETTINGSTATUSINFO"
 ms.topic: struct

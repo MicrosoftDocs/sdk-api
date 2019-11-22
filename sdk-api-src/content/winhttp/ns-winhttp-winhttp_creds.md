@@ -1,12 +1,12 @@
 ---
 UID: NS:winhttp.tagWINHTTP_CREDS
 title: WINHTTP_CREDS (winhttp.h)
-author: windows-sdk-content
+
 description: Contains user credential information used for server and proxy authentication.
 old-location: http\winhttp_creds.htm
 tech.root: WinHttp
 ms.assetid: dc4960b6-ca78-4b7d-a012-61fb7b0b1ef2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWINHTTP_CREDS, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS, PWINHTTP_CREDS structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS, WINHTTP_CREDS structure [HTTP], http.winhttp_creds, winhttp/PWINHTTP_CREDS, winhttp/WINHTTP_CREDS"
 ms.topic: struct

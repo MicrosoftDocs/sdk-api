@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.SetWriterByIndex
 title: IWICMetadataBlockWriter::SetWriterByIndex (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Replaces the metadata writer at the specified index location.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_setwriterbyindex.htm
 tech.root: wic
 ms.assetid: cf8f45ee-44ca-431c-b9c2-1b00c5574afe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],SetWriterByIndex method, IWICMetadataBlockWriter.SetWriterByIndex, IWICMetadataBlockWriter::SetWriterByIndex, SetWriterByIndex, SetWriterByIndex method [Windows Imaging Component], SetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_setwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_setwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::SetWriterByIndex
 ms.topic: method

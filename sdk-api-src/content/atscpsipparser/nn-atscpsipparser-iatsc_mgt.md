@@ -1,12 +1,12 @@
 ---
 UID: NN:atscpsipparser.IATSC_MGT
 title: IATSC_MGT (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt.htm
 tech.root: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
 ms.topic: interface

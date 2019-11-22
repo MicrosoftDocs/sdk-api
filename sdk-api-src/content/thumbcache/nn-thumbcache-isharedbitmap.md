@@ -1,12 +1,12 @@
 ---
 UID: NN:thumbcache.ISharedBitmap
 title: ISharedBitmap (thumbcache.h)
-author: windows-sdk-content
+
 description: Exposes memory-efficient methods for accessing bitmaps. This interface is used as a thin wrapper around HBITMAP objects, allowing those objects to be reference counted and protected from having their underlying data changed.
 old-location: shell\ISharedBitmap.htm
 tech.root: shell
 ms.assetid: 72be7757-f969-4f4f-ada1-71789b8d1de0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], ISharedBitmap interface [Windows Shell],described, _shell_ISharedBitmap, shell.ISharedBitmap, thumbcache/ISharedBitmap
 ms.topic: interface

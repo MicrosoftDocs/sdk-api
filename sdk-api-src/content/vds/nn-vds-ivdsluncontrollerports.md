@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLunControllerPorts
 title: IVdsLunControllerPorts (vds.h)
-author: windows-sdk-content
+
 description: Provides methods for performing controller port configuration operations on a LUN.
 old-location: base\ivdsluncontrollerports.htm
 tech.root: VDS
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetIndex
 title: IDWriteFontFace::GetIndex (dwrite.h)
-author: windows-sdk-content
+
 description: Obtains the index of a font face in the context of its font files.
 old-location: directwrite\IDWriteFontFace_GetIndex.htm
 tech.root: DirectWrite
 ms.assetid: 69c87fcf-775c-4c6d-971c-e1bb999d246b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Direct Write], GetIndex method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetIndex method, IDWriteFontFace.GetIndex, IDWriteFontFace::GetIndex, directwrite.IDWriteFontFace_GetIndex, dwrite/IDWriteFontFace::GetIndex
 ms.topic: method

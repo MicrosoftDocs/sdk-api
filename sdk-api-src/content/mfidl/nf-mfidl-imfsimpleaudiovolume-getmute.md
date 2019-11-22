@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMute
 title: IMFSimpleAudioVolume::GetMute (mfidl.h)
-author: windows-sdk-content
+
 description: Queries whether the audio is muted.
 old-location: mf\imfsimpleaudiovolume_getmute.htm
 tech.root: medfound
 ms.assetid: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMute method, IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
 ms.topic: method

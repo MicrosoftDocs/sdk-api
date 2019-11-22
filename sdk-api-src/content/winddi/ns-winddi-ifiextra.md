@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi._IFIEXTRA
 title: IFIEXTRA (winddi.h)
-author: windows-sdk-content
+
 description: The IFIEXTRA structure defines additional information for a given typeface that GDI can use.
 old-location: display\ifiextra.htm
 tech.root: display
 ms.assetid: acca1291-9f58-4520-a4ec-52dc9062630b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PIFIEXTRA, IFIEXTRA, IFIEXTRA structure [Display Devices], PIFIEXTRA, PIFIEXTRA structure pointer [Display Devices], display.ifiextra, grstrcts_6e899cbd-3ebb-4f19-8d04-3e0ca9215fea.xml, winddi/IFIEXTRA, winddi/PIFIEXTRA'
 ms.topic: struct

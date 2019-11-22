@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.ObjectIdPublicKeyFlags
 title: ObjectIdPublicKeyFlags (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies whether a public key algorithm is used for signing or for encryption.
 old-location: security\objectidpublickeyflags_enum.htm
 tech.root: seccertenroll
 ms.assetid: f41a871a-0247-4c49-b6a0-66d31c54a0e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ObjectIdPublicKeyFlags, ObjectIdPublicKeyFlags enumeration [Security], XCN_CRYPT_OID_INFO_PUBKEY_ANY, XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, certenroll/ObjectIdPublicKeyFlags, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_ANY, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, security.objectidpublickeyflags_enum
 ms.topic: enum

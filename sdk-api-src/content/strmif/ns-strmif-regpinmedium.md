@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif.REGPINMEDIUM
 title: REGPINMEDIUM (strmif.h)
-author: windows-sdk-content
+
 description: The REGPINMEDIUM structure describes a pin medium for registration through the IFilterMapper2 interface.
 old-location: dshow\regpinmedium.htm
 tech.root: DirectShow
 ms.assetid: ed5614fe-bfeb-4ddf-a626-b14080f45b33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: REGPINMEDIUM, REGPINMEDIUM structure [DirectShow], REGPINMEDIUMStructure, dshow.regpinmedium, strmif/REGPINMEDIUM
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateInstantaneousTransition
 title: IUIAnimationTransitionLibrary::CreateInstantaneousTransition (uianimation.h)
-author: windows-sdk-content
+
 description: Creates an instantaneous transition.
 old-location: uianimation\iuianimationtransitionlibrary_createinstantaneoustransition.htm
 tech.root: UIAnimation
 ms.assetid: 70db1315-df4a-472e-8d79-61bf93980337
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary.CreateInstantaneousTransition, IUIAnimationTransitionLibrary::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 ms.topic: method

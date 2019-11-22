@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcProtseqVectorFreeA
 title: RpcProtseqVectorFreeA function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
 old-location: rpc\rpcprotseqvectorfree.htm
 tech.root: Rpc
 ms.assetid: 6f399600-0534-44cc-b179-d3bc7bee091d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcProtseqVectorFree, RpcProtseqVectorFree function [RPC], RpcProtseqVectorFreeA, RpcProtseqVectorFreeW, _rpc_rpcprotseqvectorfree, rpc.rpcprotseqvectorfree, rpcdce/RpcProtseqVectorFree, rpcdce/RpcProtseqVectorFreeA, rpcdce/RpcProtseqVectorFreeW
 ms.topic: function

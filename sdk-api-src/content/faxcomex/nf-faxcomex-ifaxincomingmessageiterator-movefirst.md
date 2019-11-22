@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.MoveFirst
 title: IFaxIncomingMessageIterator::MoveFirst (faxcomex.h)
-author: windows-sdk-content
+
 description: The MoveFirst method moves the archive cursor to the first fax message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movefirst_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6p84.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],MoveFirst method, IFaxIncomingMessageIterator.MoveFirst, IFaxIncomingMessageIterator::MoveFirst, MoveFirst, MoveFirst method [Fax Service], MoveFirst method [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.movefirst, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movefirst_cpp, fax._mfax_faxincomingmessageiterator_movefirst, faxcomex/IFaxIncomingMessageIterator::MoveFirst
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleObject.SetMoniker
 title: IOleObject::SetMoniker (oleidl.h)
-author: windows-sdk-content
+
 description: Notifies an object of its container's moniker, the object's own moniker relative to the container, or the object's full moniker.
 old-location: com\ioleobject_setmoniker.htm
 tech.root: com
 ms.assetid: 1313cd9a-757d-4716-abac-027cff9fee03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetMoniker method, IOleObject.SetMoniker, IOleObject::SetMoniker, SetMoniker, SetMoniker method [COM], SetMoniker method [COM],IOleObject interface, _ole_ioleobject_setmoniker, com.ioleobject_setmoniker, oleidl/IOleObject::SetMoniker
 ms.topic: method

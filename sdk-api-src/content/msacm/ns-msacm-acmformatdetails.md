@@ -1,12 +1,12 @@
 ---
 UID: NS:msacm.tACMFORMATDETAILS
 title: ACMFORMATDETAILS (msacm.h)
-author: windows-sdk-content
+
 description: The ACMFORMATDETAILS structure details a waveform-audio format for a specific format tag for an ACM driver.
 old-location: multimedia\acmformatdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: a0760541-c083-447d-a812-dd7f05afb622
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPACMFORMATDETAILS, *PACMFORMATDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATDETAILS, ACMFORMATDETAILS structure [Windows Multimedia], msacm/ACMFORMATDETAILS, multimedia.acmformatdetails_COLLISION956, multimedia.acmformatdetails_struct"
 ms.topic: struct

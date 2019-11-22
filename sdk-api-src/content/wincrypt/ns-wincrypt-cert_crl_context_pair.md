@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_CRL_CONTEXT_PAIR
 title: CERT_CRL_CONTEXT_PAIR (wincrypt.h)
-author: windows-sdk-content
+
 description: The CERT_CRL_CONTEXT_PAIR structure contains a certificate context and an associated CRL context.
 old-location: security\cert_crl_context_pair.htm
 tech.root: SecCrypto
 ms.assetid: e88781f0-8474-47d3-8218-de95f7eadf04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR structure [Security], PCERT_CRL_CONTEXT_PAIR, PCERT_CRL_CONTEXT_PAIR structure pointer [Security], _crypto2_cert_crl_context_pair, security.cert_crl_context_pair, wincrypt/CERT_CRL_CONTEXT_PAIR, wincrypt/PCERT_CRL_CONTEXT_PAIR"
 ms.topic: struct

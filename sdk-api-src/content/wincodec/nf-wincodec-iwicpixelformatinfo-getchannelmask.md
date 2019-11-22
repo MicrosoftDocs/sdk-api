@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetChannelMask
 title: IWICPixelFormatInfo::GetChannelMask (wincodec.h)
-author: windows-sdk-content
+
 description: Gets the pixel format's channel mask.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelmask.htm
 tech.root: wic
 ms.assetid: da812e26-b0cc-49eb-a273-73b9bb579ba3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChannelMask, GetChannelMask method [Windows Imaging Component], GetChannelMask method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelMask method, IWICPixelFormatInfo.GetChannelMask, IWICPixelFormatInfo::GetChannelMask, _wic_codec_iwicpixelformatinfo_getchannelmask, wic._wic_codec_iwicpixelformatinfo_getchannelmask, wincodec/IWICPixelFormatInfo::GetChannelMask
 ms.topic: method

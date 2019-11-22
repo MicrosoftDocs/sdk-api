@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileEnd
 title: IOfflineFilesEvents3::PrefetchFileEnd (cscobj.h)
-author: windows-sdk-content
+
 description: Reports that a file prefetch operation has ended.
 old-location: of\iofflinefilesevents3_prefetchfileend.htm
 tech.root: offlinefiles
 ms.assetid: d5370d39-dd66-49c1-8774-cf335aa88e96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd method, IOfflineFilesEvents3.PrefetchFileEnd, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
 ms.topic: method

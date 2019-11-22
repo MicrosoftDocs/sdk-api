@@ -1,12 +1,12 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.Empty
 title: TRefPointerCollection::Empty (refptrco.h)
-author: windows-sdk-content
+
 description: The Empty method removes all items from the collection.
 old-location: wmi\trefpointercollection_empty.htm
 tech.root: WmiSdk
 ms.assetid: 08f9dcc6-cb85-42aa-837b-ab8021f488c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Empty method, TRefPointerCollection.Empty, TRefPointerCollection::Empty, _hmm_trefpointercollection_empty, refptrco/TRefPointerCollection::Empty, wmi.trefpointercollection_empty
 ms.topic: method

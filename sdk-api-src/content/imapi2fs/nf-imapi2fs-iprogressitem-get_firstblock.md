@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_FirstBlock
 title: IProgressItem::get_FirstBlock (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the first block number in this segment of the result image.
 old-location: imapi\iprogressitem_get_firstblock.htm
 tech.root: imapi
 ms.assetid: 9c1c5932-0301-4752-871d-609d3c128906
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_FirstBlock method, IProgressItem.get_FirstBlock, IProgressItem::get_FirstBlock, get_FirstBlock, get_FirstBlock method [IMAPI], get_FirstBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_firstblock, imapi2fs/IProgressItem::get_FirstBlock
 ms.topic: method

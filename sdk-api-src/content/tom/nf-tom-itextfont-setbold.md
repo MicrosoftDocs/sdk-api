@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextFont.SetBold
 title: ITextFont::SetBold (tom.h)
-author: windows-sdk-content
+
 description: Sets whether characters are bold.
 old-location: controls\ITextFont_SetBold.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbold.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetBold method, ITextFont.SetBold, ITextFont::SetBold, SetBold, SetBold method [Windows Controls], SetBold method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBold, _win32_ITextFont_SetBold_cpp, controls.ITextFont_SetBold, controls._win32_ITextFont_SetBold, tom/ITextFont::SetBold
 ms.topic: method

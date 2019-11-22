@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.operator-assign
 title: XMBYTEN4::operator-assign (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data from one instance of XMBYTEN4 to the current instance of XMBYTEN4.
 old-location: dxmath\xmbyten4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMBYTEN4.operator =, DirectX::PackedVector::XMBYTEN4::operator =, XMBYTEN4 structure [DirectX Math Support APIs],operator = method, XMBYTEN4.operator =, XMBYTEN4.operator-assign, XMBYTEN4.operator=, XMBYTEN4::operator-assign, XMBYTEN4::operator=, dxmath.xmbyten4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTEN4 structure, operator=
 ms.topic: method

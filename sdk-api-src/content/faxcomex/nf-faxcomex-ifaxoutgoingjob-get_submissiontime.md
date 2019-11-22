@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_SubmissionTime
 title: IFaxOutgoingJob::get_SubmissionTime (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingJob::get_SubmissionTime property indicates the time that the outbound fax job was submitted for processing.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2exx.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionTime property, IFaxOutgoingJob.SubmissionTime, IFaxOutgoingJob.get_SubmissionTime, IFaxOutgoingJob::SubmissionTime, IFaxOutgoingJob::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissiontime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp, fax._mfax_faxoutgoingjob_submissiontime, faxcomex/IFaxOutgoingJob::SubmissionTime, faxcomex/IFaxOutgoingJob::get_SubmissionTime, get_SubmissionTime
 ms.topic: method

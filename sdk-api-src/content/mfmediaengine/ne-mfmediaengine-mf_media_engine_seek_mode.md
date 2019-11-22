@@ -1,12 +1,12 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_SEEK_MODE
 title: MF_MEDIA_ENGINE_SEEK_MODE (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Defines values for the media engine seek mode.
 old-location: mf\mf_media_engine_seek_mode.htm
 tech.root: medfound
 ms.assetid: 58356FC2-5F1E-463F-98D5-E63AFCC05A02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_SEEK_MODE, MF_MEDIA_ENGINE_SEEK_MODE enumeration [Media Foundation], MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE, MF_MEDIA_ENGINE_SEEK_MODE_NORMAL, mf.mf_media_engine_seek_mode, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE_NORMAL
 ms.topic: enum

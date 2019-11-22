@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterY(IDCompositionAnimation)
 title: IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the CenterY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: E29B3EDC-5037-4409-B1BB-94457A249D8A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform.SetCenterY, IDCompositionScaleTransform.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY, IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterY, directcomp.idcompositionscaletransform_setcentery_idcompositionanimation
 ms.topic: method

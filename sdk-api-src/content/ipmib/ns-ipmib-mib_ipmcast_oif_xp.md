@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_XP
 title: MIB_IPMCAST_OIF_XP (ipmib.h)
-author: windows-sdk-content
+
 description: Stores the information required to send an outgoing IP multicast packet.
 old-location: mib\mib_ipmcast_oif.htm
 tech.root: MIB
 ms.assetid: 4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_XP, MIB_IPMCAST_OIF, MIB_IPMCAST_OIF structure [MIB], MIB_IPMCAST_OIF_XP, PMIB_IPMCAST_OIF, PMIB_IPMCAST_OIF structure pointer [MIB], _mpr_mib_ipmcast_oif, ipmib/MIB_IPMCAST_OIF, ipmib/PMIB_IPMCAST_OIF, iprtrmib/MIB_IPMCAST_OIF, iprtrmib/PMIB_IPMCAST_OIF, mib.mib_ipmcast_oif, rras.mib_ipmcast_oif'
 ms.topic: struct

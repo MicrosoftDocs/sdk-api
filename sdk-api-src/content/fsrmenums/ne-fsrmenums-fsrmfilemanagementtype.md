@@ -1,12 +1,12 @@
 ---
 UID: NE:fsrmenums._FsrmFileManagementType
 title: FsrmFileManagementType (fsrmenums.h)
-author: windows-sdk-content
+
 description: Defines the file management job types.
 old-location: fsrm\fsrmfilemanagementtype.htm
 tech.root: fsrm
 ms.assetid: f4e352c7-32fe-4a42-9d64-604c29680d7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmFileManagementType, FsrmFileManagementType enumeration [File Server Resource Manager], FsrmFileManagementType_Custom, FsrmFileManagementType_Expiration, FsrmFileManagementType_Rms, FsrmFileManagementType_Unknown, fs.fsrmfilemanagementtype, fsrm.fsrmfilemanagementtype, fsrm/FsrmFileManagementType, fsrm/FsrmFileManagementType_Custom, fsrm/FsrmFileManagementType_Expiration, fsrm/FsrmFileManagementType_Rms, fsrm/FsrmFileManagementType_Unknown
 ms.topic: enum

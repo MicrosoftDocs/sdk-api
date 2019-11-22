@@ -1,12 +1,12 @@
 ---
 UID: NF:chstring.CHString.GetBufferSetLength
 title: CHString::GetBufferSetLength (chstring.h)
-author: windows-sdk-content
+
 description: The GetBufferSetLength method returns a pointer to the internal character buffer for the CHString object, truncating or increasing its length if necessary to exactly match the length specified in nNewLength.
 old-location: wmi\chstring_getbuffersetlength.htm
 tech.root: WmiSdk
 ms.assetid: de40f3a3-1880-426d-b3c2-864f0f45f218
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetBufferSetLength method, CHString.GetBufferSetLength, CHString::GetBufferSetLength, GetBufferSetLength, GetBufferSetLength method [Windows Management Instrumentation], GetBufferSetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffersetlength, chstring/CHString::GetBufferSetLength, wmi.chstring_getbuffersetlength
 ms.topic: method

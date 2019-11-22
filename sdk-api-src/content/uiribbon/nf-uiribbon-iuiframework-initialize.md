@@ -1,12 +1,12 @@
 ---
 UID: NF:uiribbon.IUIFramework.Initialize
 title: IUIFramework::Initialize (uiribbon.h)
-author: windows-sdk-content
+
 description: Connects the host application to the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiframework_initialize.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\initialize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
 ms.topic: method

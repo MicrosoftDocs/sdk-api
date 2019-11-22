@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_IndexByObjectId
 title: ICryptAttributes::get_IndexByObjectId (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves the index of an attribute by object identifier (OID).
 old-location: security\icryptattributes_indexbyobjectid_property.htm
 tech.root: seccertenroll
 ms.assetid: e294e205-791f-444e-92d8-78da347616a7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],IndexByObjectId property, ICryptAttributes.IndexByObjectId, ICryptAttributes.get_IndexByObjectId, ICryptAttributes::IndexByObjectId, ICryptAttributes::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::IndexByObjectId, certenroll/ICryptAttributes::get_IndexByObjectId, get_IndexByObjectId, security.icryptattributes_indexbyobjectid_property
 ms.topic: method

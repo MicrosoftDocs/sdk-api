@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Description
 title: IOptionDescription::get_Description (spellcheck.h)
-author: windows-sdk-content
+
 description: Get the description of the spell checker option.
 old-location: intl\ioptiondescription_description.htm
 tech.root: Intl
 ms.assetid: 2c074068-b710-4d69-9a29-f35ea142881f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Description property [Internationalization for Windows Applications], Description property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Description property, IOptionDescription.Description, IOptionDescription.get_Description, IOptionDescription::Description, IOptionDescription::get_Description, get_Description, intl.ioptiondescription_description, spellcheck/IOptionDescription::Description, spellcheck/IOptionDescription::get_Description
 ms.topic: method

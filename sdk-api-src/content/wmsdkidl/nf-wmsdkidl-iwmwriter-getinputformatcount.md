@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputFormatCount
 title: IWMWriter::GetInputFormatCount (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetInputFormatCount method retrieves the number of media format types supported by this input on the writer.
 old-location: wmformat\iwmwriter_getinputformatcount.htm
 tech.root: wmformat
 ms.assetid: c3afe9e8-e045-4329-b3e5-6026147322ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInputFormatCount, GetInputFormatCount method [windows Media Format], GetInputFormatCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormatCount method, IWMWriter.GetInputFormatCount, IWMWriter::GetInputFormatCount, IWMWriterGetInputFormatCount, wmformat.iwmwriter_getinputformatcount, wmsdkidl/IWMWriter::GetInputFormatCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetReferences
 title: IMDSPStorage4::GetReferences (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetReferences method returns an array of pointers to IMDSPStorage objects comprising the references contained in an association storage, such as one representing playlist or album objects.
 old-location: wmdm\imdspstorage4_getreferences.htm
 tech.root: WMDM
 ms.assetid: f8caf10b-69d4-4d37-836e-af260840254f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetReferences method, IMDSPStorage4.GetReferences, IMDSPStorage4::GetReferences, IMDSPStorage4GetReferences, mswmdm/IMDSPStorage4::GetReferences, wmdm.imdspstorage4_getreferences
 ms.topic: method

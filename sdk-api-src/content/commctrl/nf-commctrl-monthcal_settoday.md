@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.MonthCal_SetToday
 title: MonthCal_SetToday macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the &#0034;today&#0034; selection for a month calendar control. You can use this macro or send the MCM_SETTODAY message explicitly.
 old-location: controls\MonthCal_SetToday.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_settoday.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetToday, MonthCal_SetToday macro [Windows Controls], _win32_MonthCal_SetToday, _win32_MonthCal_SetToday_cpp, commctrl/MonthCal_SetToday, controls.MonthCal_SetToday, controls._win32_MonthCal_SetToday
 ms.topic: macro

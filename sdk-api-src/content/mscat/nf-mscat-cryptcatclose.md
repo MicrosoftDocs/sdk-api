@@ -1,12 +1,12 @@
 ---
 UID: NF:mscat.CryptCATClose
 title: CryptCATClose function (mscat.h)
-author: windows-sdk-content
+
 description: Closes a catalog handle opened previously by the CryptCATOpen function.
 old-location: security\cryptcatclose.htm
 tech.root: SecCrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
 ms.topic: function

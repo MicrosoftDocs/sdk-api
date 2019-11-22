@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpSetPort
 title: SnmpSetPort function (winsnmp.h)
-author: windows-sdk-content
+
 description: A WinSNMP application calls the SnmpSetPort function to change the port assigned to a destination entity. The SnmpSetPort function is an element of the WinSNMP API, version 2.0.
 old-location: snmp\snmpsetport.htm
 tech.root: SNMP
 ms.assetid: 8b495a60-f1ef-4170-bf11-c98bb3dc857b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPort, SnmpSetPort function [SNMP], _snmp_snmpsetport, snmp.snmpsetport, winsnmp/SnmpSetPort
 ms.topic: function

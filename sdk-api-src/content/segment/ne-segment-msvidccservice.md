@@ -1,12 +1,12 @@
 ---
 UID: NE:segment.MSVidCCService
 title: MSVidCCService (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\msvidccservice.htm
 tech.root: mstv
 ms.assetid: 19e6a389-7f5b-40b9-a7e6-e90060e6d7d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Caption1, Caption2, MSVidCCService, MSVidCCService enumeration [Microsoft TV Technologies], MSVidCCServiceEnumeration, None, Text1, Text2, XDS, mstv.msvidccservice, segment/Caption1, segment/Caption2, segment/MSVidCCService, segment/None, segment/Text1, segment/Text2, segment/XDS
 ms.topic: enum

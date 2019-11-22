@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._ACCESS_ALLOWED_ACE
 title: ACCESS_ALLOWED_ACE (winnt.h)
-author: windows-sdk-content
+
 description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-allowed ACE allows access to an object for a specific trustee identified by a security identifier (SID).
 old-location: security\access_allowed_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Security], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Security], _ACCESS_ALLOWED_ACE, _win32_access_allowed_ace_str, security.access_allowed_ace, winnt/ACCESS_ALLOWED_ACE, winnt/PACCESS_ALLOWED_ACE'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetActiveWindow
 title: SetActiveWindow function (winuser.h)
-author: windows-sdk-content
+
 description: Activates a window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setactivewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setactivewindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetActiveWindow, SetActiveWindow function [Keyboard and Mouse Input], _win32_SetActiveWindow, _win32_setactivewindow_cpp, inputdev.setactivewindow, winui._win32_setactivewindow, winuser/SetActiveWindow
 ms.topic: function

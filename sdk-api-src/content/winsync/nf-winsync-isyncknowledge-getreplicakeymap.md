@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetReplicaKeyMap
 title: ISyncKnowledge::GetReplicaKeyMap (winsync.h)
-author: windows-sdk-content
+
 description: Gets the IReplicaKeyMap object that is associated with this knowledge.
 old-location: winsync\isyncknowledge_getreplicakeymap.htm
 tech.root: winsync
 ms.assetid: 5f4052f8-ad58-4805-be75-5456d2d1e7bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetReplicaKeyMap, GetReplicaKeyMap method [Windows Sync], GetReplicaKeyMap method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetReplicaKeyMap method, ISyncKnowledge.GetReplicaKeyMap, ISyncKnowledge::GetReplicaKeyMap, winsync.isyncknowledge_getreplicakeymap, winsync/ISyncKnowledge::GetReplicaKeyMap
 ms.topic: method

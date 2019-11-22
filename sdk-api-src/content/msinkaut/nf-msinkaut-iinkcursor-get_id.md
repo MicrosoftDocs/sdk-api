@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Id
 title: IInkCursor::get_Id (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the identifier of an object.
 old-location: tablet\iinkcursor_id.htm
 tech.root: tablet
 ms.assetid: e302ef9f-da38-4190-af78-d26f9fc86543
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],ID property, IInkCursor.ID, IInkCursor.get_ID, IInkCursor.get_Id, IInkCursor::ID, IInkCursor::get_ID, IInkCursor::get_Id, get_Id, msinkaut/IInkCursor::ID, msinkaut/IInkCursor::get_ID, tablet.iinkcursor_id
 ms.topic: method

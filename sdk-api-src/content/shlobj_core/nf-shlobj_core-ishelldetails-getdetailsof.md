@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IShellDetails.GetDetailsOf
 title: IShellDetails::GetDetailsOf (shlobj_core.h)
-author: windows-sdk-content
+
 description: Gets detailed information on an item in a Shell folder.
 old-location: shell\IShellDetails_GetDetailsOf.htm
 tech.root: shell
 ms.assetid: 5442dc80-9ecf-4e47-a84d-6da4327696ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],GetDetailsOf method, IShellDetails.GetDetailsOf, IShellDetails::GetDetailsOf, _win32_IShellDetails_GetDetailsOf, shell.IShellDetails_GetDetailsOf, shlobj_core/IShellDetails::GetDetailsOf
 ms.topic: method

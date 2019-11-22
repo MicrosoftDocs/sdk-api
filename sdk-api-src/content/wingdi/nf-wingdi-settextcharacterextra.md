@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.SetTextCharacterExtra
 title: SetTextCharacterExtra function (wingdi.h)
-author: windows-sdk-content
+
 description: The SetTextCharacterExtra function sets the intercharacter spacing. Intercharacter spacing is added to each character, including break characters, when the system writes a line of text.
 old-location: gdi\settextcharacterextra.htm
 tech.root: gdi
 ms.assetid: 83b7d225-4fb9-4c75-bc4a-e1bea7f901f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetTextCharacterExtra, SetTextCharacterExtra function [Windows GDI], _win32_SetTextCharacterExtra, gdi.settextcharacterextra, wingdi/SetTextCharacterExtra
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactory
 title: IMFMediaEngineClassFactory (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Creates an instance of the Media Engine.
 old-location: mf\imfmediaengineclassfactory.htm
 tech.root: medfound
 ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], IMFMediaEngineClassFactory interface [Media Foundation],described, mf.imfmediaengineclassfactory, mfmediaengine/IMFMediaEngineClassFactory
 ms.topic: interface

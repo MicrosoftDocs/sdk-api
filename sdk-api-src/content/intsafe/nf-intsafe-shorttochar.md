@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.ShortToChar
 title: ShortToChar function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type SHORT to a value of CHAR.
 old-location: shell\ShortToChar.htm
 tech.root: shell
 ms.assetid: 5037b473-d8d3-41f0-80f2-4633ae6a8321
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShortToChar, ShortToChar function [Windows Shell], _shell_ShortToChar, intsafe/ShortToChar, shell.ShortToChar
 ms.topic: function

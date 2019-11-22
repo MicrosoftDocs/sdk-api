@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects(FXMVECTOR)
 title: BoundingSphere::Intersects(FXMVECTOR)
-author: windows-sdk-content
+
 description: Tests the BoundingSphere for intersection with a Plane.
 old-location: dxmath\boundingsphere_intersects_7.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Intersects(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Intersects method, BoundingSphere.Intersects, BoundingSphere.Intersects(FXMVECTOR), BoundingSphere.Intersects(XMVECTOR), BoundingSphere::Intersects, BoundingSphere::Intersects(FXMVECTOR), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_intersects_7
 ms.topic: method

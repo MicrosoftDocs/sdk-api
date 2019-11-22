@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI2FromR8
 title: VarI2FromR8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a double value to a short value.
 old-location: automat\vari2fromr8.htm
 tech.root: automat
 ms.assetid: a4c4110b-9439-4a44-b837-17baec1e90d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI2FromR8, VarI2FromR8 function [Automation], _oa96_VarI2FromR8, automat.vari2fromr8, oleauto/VarI2FromR8
 ms.topic: function

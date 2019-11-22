@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTVECTOR
 title: DBCONTENTVECTOR (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.
 old-location: indexsrv\dbcontentvector.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
 ms.topic: struct

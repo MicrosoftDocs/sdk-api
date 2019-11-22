@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.HttpOpenRequestA
 title: HttpOpenRequestA function (wininet.h)
-author: windows-sdk-content
+
 description: Creates an HTTP request handle.
 old-location: wininet\httpopenrequest.htm
 tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
 ms.topic: function

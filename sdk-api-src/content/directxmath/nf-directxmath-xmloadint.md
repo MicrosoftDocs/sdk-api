@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadInt
 title: XMLoadInt function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads a scalar value into an XMVECTOR.
 old-location: dxmath\xmloadint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt(const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt, XMLoadInt, XMLoadInt method [DirectX Math Support APIs], dxmath.xmloadint
 ms.topic: function

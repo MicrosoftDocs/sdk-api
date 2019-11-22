@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathAddBackslashA
 title: PathAddBackslashA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathAddBackslash.htm
 tech.root: shell
 ms.assetid: 27d8aec7-8b00-412a-9a42-8ce27e262781
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAddBackslashA, PathAddBackslashW, _win32_PathAddBackslash, shell.PathAddBackslash, shlwapi/PathAddBackslash, shlwapi/PathAddBackslashA, shlwapi/PathAddBackslashW
 ms.topic: function

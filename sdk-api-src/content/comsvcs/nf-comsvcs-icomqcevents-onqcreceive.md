@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceive
 title: IComQCEvents::OnQCReceive (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when a message is successfully de-queued even though the queued components service might find something wrong with the contents.
 old-location: cos\icomqcevents_onqcreceive.htm
 tech.root: cossdk
 ms.assetid: d4404fad-c656-4cbf-90d1-a09a7162a38f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceive method, IComQCEvents.OnQCReceive, IComQCEvents::OnQCReceive, OnQCReceive, OnQCReceive method [COM+], OnQCReceive method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceive, comsvcs/IComQCEvents::OnQCReceive, cos.icomqcevents_onqcreceive
 ms.topic: method

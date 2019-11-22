@@ -1,12 +1,12 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaSize
 title: SetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
-author: windows-sdk-content
+
 description: Sets the width or height of a monitor's display area.
 old-location: monitor\setmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize, monitor.setmonitordisplayareasize
 ms.topic: function

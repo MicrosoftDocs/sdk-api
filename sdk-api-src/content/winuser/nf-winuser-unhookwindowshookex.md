@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.UnhookWindowsHookEx
 title: UnhookWindowsHookEx function (winuser.h)
-author: windows-sdk-content
+
 description: Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.
 old-location: winmsg\unhookwindowshookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\unhookwindowshookex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnhookWindowsHookEx, UnhookWindowsHookEx function [Windows and Messages], _win32_UnhookWindowsHookEx, _win32_unhookwindowshookex_cpp, winmsg.unhookwindowshookex, winui._win32_unhookwindowshookex, winuser/UnhookWindowsHookEx
 ms.topic: function

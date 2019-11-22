@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder
 title: ICaptureGraphBuilder (strmif.h)
-author: windows-sdk-content
+
 description: Note  This interface has been deprecated.
 old-location: dshow\icapturegraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: 64ee80cd-9f63-4f38-853a-1ecfc03e6076
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], ICaptureGraphBuilder interface [DirectShow],described, ICaptureGraphBuilderInterface, dshow.icapturegraphbuilder, strmif/ICaptureGraphBuilder
 ms.topic: interface

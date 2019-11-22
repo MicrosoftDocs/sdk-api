@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.RotateTransform
 title: TextureBrush::RotateTransform (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The TextureBrush::RotateTransform method updates this texture brush's current transformation matrix with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\rotatetransform_9angle_order.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],RotateTransform method, TextureBrush.RotateTransform, TextureBrush::RotateTransform, _gdiplus_CLASS_TextureBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_TextureBrush_RotateTransform_angle_order_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRowSpan
 title: IUIAutomationGridItemPattern::get_CachedRowSpan (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the cached number of rows spanned by a grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRowSpan.htm
 tech.root: WinAuto
 ms.assetid: 6c93cfc7-76f3-4341-ae77-7782d5936ac6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedRowSpan property [Windows Accessibility], CachedRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRowSpan property, IUIAutomationGridItemPattern.CachedRowSpan, IUIAutomationGridItemPattern.get_CachedRowSpan, IUIAutomationGridItemPattern::CachedRowSpan, IUIAutomationGridItemPattern::get_CachedRowSpan, get_CachedRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan
 ms.topic: method

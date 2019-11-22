@@ -1,12 +1,12 @@
 ---
 UID: NF:mergemod.IMsmGetFiles.get_ModuleFiles
 title: IMsmGetFiles::get_ModuleFiles (mergemod.h)
-author: windows-sdk-content
+
 description: The get_ModuleFiles method retrieves the ModuleFiles property of the GetFiles object.
 old-location: setup\imsmgetfiles_get_modulefiles.htm
 tech.root: Msi
 ms.assetid: 525c1a30-a870-4303-b704-e8b37f9e641f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMsmGetFiles interface,get_ModuleFiles method, IMsmGetFiles.get_ModuleFiles, IMsmGetFiles::get_ModuleFiles, _msi_get_modulefiles_function, get_ModuleFiles, get_ModuleFiles method, get_ModuleFiles method,IMsmGetFiles interface, mergemod/IMsmGetFiles::get_ModuleFiles, setup.imsmgetfiles_get_modulefiles
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.SpUpdateCredentialsFn
 title: SpUpdateCredentialsFn (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Updates the credentials associated with the specified context.
 old-location: security\spupdatecredentialsfn.htm
 tech.root: SecAuthN
 ms.assetid: 56aba12e-a335-4d16-81b0-7ab521f872e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpUpdateCredentialsFn, SpUpdateCredentialsFn callback, SpUpdateCredentialsFn callback function [Security], ntsecpkg/SpUpdateCredentialsFn, security.spupdatecredentialsfn
 ms.topic: callback

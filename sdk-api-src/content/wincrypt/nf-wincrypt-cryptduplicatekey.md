@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptDuplicateKey
 title: CryptDuplicateKey function (wincrypt.h)
-author: windows-sdk-content
+
 description: Makes an exact copy of a key and the state of the key.
 old-location: security\cryptduplicatekey.htm
 tech.root: SecCrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.topic: function

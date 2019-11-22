@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IMultisession.get_IsSupportedOnCurrentMediaState
 title: IMultisession::get_IsSupportedOnCurrentMediaState (imapi2.h)
-author: windows-sdk-content
+
 description: Determines if the multi-session type can write to the current optical media.
 old-location: imapi\imultisession_get_issupportedoncurrentmediastate.htm
 tech.root: imapi
 ms.assetid: cabfa0a2-15db-4ef4-b852-b6306d2b49a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_IsSupportedOnCurrentMediaState method, IMultisession.get_IsSupportedOnCurrentMediaState, IMultisession::get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState method [IMAPI], get_IsSupportedOnCurrentMediaState method [IMAPI],IMultisession interface, imapi.imultisession_get_issupportedoncurrentmediastate, imapi2/IMultisession::get_IsSupportedOnCurrentMediaState
 ms.topic: method

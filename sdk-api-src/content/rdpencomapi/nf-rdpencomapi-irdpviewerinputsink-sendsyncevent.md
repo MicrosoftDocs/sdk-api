@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendSyncEvent
 title: IRDPViewerInputSink::SendSyncEvent (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.
 old-location: rdp\irdpviewerinputsink_sendsyncevent.htm
 tech.root: rdp
 ms.assetid: C8B59CAF-DFBE-4569-99B2-DECF1F1DBB56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendSyncEvent method, IRDPViewerInputSink.SendSyncEvent, IRDPViewerInputSink::SendSyncEvent, SendSyncEvent, SendSyncEvent method [RDP], SendSyncEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendsyncevent, rdpencomapi/IRDPViewerInputSink::SendSyncEvent
 ms.topic: method

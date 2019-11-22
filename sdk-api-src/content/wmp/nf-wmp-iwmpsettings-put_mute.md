@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSettings.put_mute
 title: IWMPSettings::put_mute (wmp.h)
-author: windows-sdk-content
+
 description: The put_mute method specifies a value indicating whether audio is muted.
 old-location: wmp\iwmpsettings_put_mute.htm
 tech.root: WMP
 ms.assetid: 644f9a4d-54e4-4e8a-8c02-29feb57c9256
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_mute method, IWMPSettings.put_mute, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderShutdown
 title: WdsTransportProviderShutdown function (wdstpdi.h)
-author: windows-sdk-content
+
 description: Shutsdown the content provider.
 old-location: wds\wdstransportprovidershutdown.htm
 tech.root: wds
 ms.assetid: 89f563e1-8dbd-4660-8cec-506f708ae310
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
 ms.topic: function

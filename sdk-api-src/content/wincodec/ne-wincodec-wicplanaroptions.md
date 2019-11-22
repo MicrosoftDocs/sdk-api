@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICPlanarOptions
 title: WICPlanarOptions (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies additional options to an IWICPlanarBitmapSourceTransform implementation.
 old-location: wic\wicplanaroptions.htm
 tech.root: wic
 ms.assetid: 8B7F34AA-77A0-428D-800E-31AB43067102
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICPlanarOptions, WICPlanarOptions enumeration [Windows Imaging Component], WICPlanarOptionsDefault, WICPlanarOptionsPreserveSubsampling, wic.wicplanaroptions, wincodec/WICPlanarOptions, wincodec/WICPlanarOptionsDefault, wincodec/WICPlanarOptionsPreserveSubsampling
 ms.topic: enum

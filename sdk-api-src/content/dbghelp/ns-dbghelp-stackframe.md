@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp._tagSTACKFRAME
 title: STACKFRAME (dbghelp.h)
-author: windows-sdk-content
+
 description: Represents a stack frame.
 old-location: base\stackframe64_str.htm
 tech.root: Debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPSTACKFRAME, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64'
 ms.topic: struct

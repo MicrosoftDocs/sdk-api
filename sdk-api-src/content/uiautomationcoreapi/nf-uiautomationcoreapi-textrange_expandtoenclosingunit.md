@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_ExpandToEnclosingUnit
 title: TextRange_ExpandToEnclosingUnit function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Expands the text range to a larger or smaller unit such as Character, Word, Line, or Page.
 old-location: winauto\uiauto_TextRange_ExpandToEnclosingUnitConPat.htm
 tech.root: WinAuto
 ms.assetid: a95a4e34-d3b3-4aa0-a21e-9788874dcf9b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextRange_ExpandToEnclosingUnit, TextRange_ExpandToEnclosingUnit function [Windows Accessibility], uiauto.uiauto_TextRange_ExpandToEnclosingUnitConPat, uiauto_TextRange_ExpandToEnclosingUnitConPat, uiautomationcoreapi/TextRange_ExpandToEnclosingUnit, winauto.uiauto_TextRange_ExpandToEnclosingUnitConPat
 ms.topic: function

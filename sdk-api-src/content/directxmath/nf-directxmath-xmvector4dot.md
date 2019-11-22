@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector4Dot
 title: XMVector4Dot function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the dot product between 4D vectors.
 old-location: dxmath\xmvector4dot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Dot(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Dot, XMVector4Dot, XMVector4Dot method [DirectX Math Support APIs], dxmath.xmvector4dot
 ms.topic: function

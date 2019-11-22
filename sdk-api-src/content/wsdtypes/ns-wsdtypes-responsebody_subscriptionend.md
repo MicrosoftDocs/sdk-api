@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_8
 title: RESPONSEBODY_SubscriptionEnd (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a WS-Eventing SubscriptionEnd response message.
 old-location: ncd\responsebody_subscriptionend.htm
 tech.root: WsdApi
 ms.assetid: 84faf4b7-6bdc-4ecc-92c0-c27e36bbe912
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_SubscriptionEnd, RESPONSEBODY_SubscriptionEnd structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryFailure, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceCancelling, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceShuttingDown, ncd.responsebody_subscriptionend, wsdtypes/RESPONSEBODY_SubscriptionEnd
 ms.topic: struct

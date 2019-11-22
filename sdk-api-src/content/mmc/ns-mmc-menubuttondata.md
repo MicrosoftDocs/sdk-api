@@ -1,12 +1,12 @@
 ---
 UID: NS:mmc._MENUBUTTONDATA
 title: MENUBUTTONDATA (mmc.h)
-author: windows-sdk-content
+
 description: The MENUBUTTONDATA structure contains values used to create buttons on a toolbar.
 old-location: mmc\menubuttondata.htm
 tech.root: mmc
 ms.assetid: 440467ea-3d6c-49a0-a81a-24088e307d22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMENUBUTTONDATA, LPMENUBUTTONDATA, LPMENUBUTTONDATA structure pointer [MMC], MENUBUTTONDATA, MENUBUTTONDATA structure [MMC], _slate_menubuttondata, mmc.menubuttondata, mmc/LPMENUBUTTONDATA, mmc/MENUBUTTONDATA"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IPointerInactive.GetActivationPolicy
 title: IPointerInactive::GetActivationPolicy (ocidl.h)
-author: windows-sdk-content
+
 description: Retrieves the current activation policy for the object. This method is called by the container on receipt of a WM_SETCURSOR or WM_MOUSEMOVE message when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_getactivationpolicy.htm
 tech.root: com
 ms.assetid: bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
 ms.topic: method

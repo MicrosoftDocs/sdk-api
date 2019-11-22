@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataManager.Extract
 title: IDataManager::Extract (pla.h)
-author: windows-sdk-content
+
 description: Extracts the specified CAB file.
 old-location: pla\idatamanager_extract.htm
 tech.root: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Extract, Extract method [PLA], Extract method [PLA],IDataManager interface, IDataManager interface [PLA],Extract method, IDataManager.Extract, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
 ms.topic: method

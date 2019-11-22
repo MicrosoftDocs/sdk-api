@@ -1,12 +1,12 @@
 ---
 UID: NF:xamlom.IVisualTreeService.RemoveChild
 title: IVisualTreeService::RemoveChild (xamlom.h)
-author: windows-sdk-content
+
 description: Removes the child element from the specified index.
 old-location: xaml_diagnostics\ivisualtreeservice_removechild.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6D53C961-7E85-4275-8D65-454684606290
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService.RemoveChild, IVisualTreeService::RemoveChild, RemoveChild, RemoveChild method, RemoveChild method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
 ms.topic: method

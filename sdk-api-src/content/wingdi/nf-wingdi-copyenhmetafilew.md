@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CopyEnhMetaFileW
 title: CopyEnhMetaFileW function (wingdi.h)
-author: windows-sdk-content
+
 description: The CopyEnhMetaFile function copies the contents of an enhanced-format metafile to a specified file.
 old-location: gdi\copyenhmetafile.htm
 tech.root: gdi
 ms.assetid: 7c428828-b239-41d4-926c-88caa0aa7214
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyEnhMetaFile, CopyEnhMetaFile function [Windows GDI], CopyEnhMetaFileA, CopyEnhMetaFileW, _win32_CopyEnhMetaFile, gdi.copyenhmetafile, wingdi/CopyEnhMetaFile, wingdi/CopyEnhMetaFileA, wingdi/CopyEnhMetaFileW
 ms.topic: function

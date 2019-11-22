@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IActionProgress
 title: IActionProgress (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Represents the abstract base class from which progress-driven operations can inherit.
 old-location: shell\IActionProgress.htm
 tech.root: shell
 ms.assetid: e742e381-0fd2-482a-81a0-7b43d11b073b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IActionProgress interface [Windows Shell],described, shell.IActionProgress, shell_IActionProgress, shobjidl_core/IActionProgress
 ms.topic: interface

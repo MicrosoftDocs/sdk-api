@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_FollowFlags
 title: ISearchScopeRule::get_FollowFlags (searchapi.h)
-author: windows-sdk-content
+
 description: Not supported.This method returns E_InvalidArg when called.
 old-location: search\_search_ISearchScopeRule_get_FollowFlags.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_followflags.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchScopeRule interface [search],get_FollowFlags method, ISearchScopeRule.get_FollowFlags, ISearchScopeRule::get_FollowFlags, _search_ISearchScopeRule_get_FollowFlags, get_FollowFlags, get_FollowFlags method [search], get_FollowFlags method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_FollowFlags, searchapi/ISearchScopeRule::get_FollowFlags
 ms.topic: method

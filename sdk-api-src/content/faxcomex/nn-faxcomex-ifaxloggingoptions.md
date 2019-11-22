@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxLoggingOptions
 title: IFaxLoggingOptions (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxLoggingOptions interface is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.
 old-location: fax\_mfax_faxloggingoptions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_70c3_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxLoggingOptions, IFaxLoggingOptions interface [Fax Service], IFaxLoggingOptions interface [Fax Service],described, _mfax_faxloggingoptions_cpp, fax._mfax_faxloggingoptions_cpp, faxcomex/IFaxLoggingOptions
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.Save
 title: IFaxOutgoingQueue::Save (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingQueue::Save method saves the FaxOutgoingQueue object data.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_486d.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],Save method, IFaxOutgoingQueue.Save, IFaxOutgoingQueue::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.save, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_save_cpp, fax._mfax_faxoutgoingqueue_save, faxcomex/IFaxOutgoingQueue::Save
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DPA_CreateEx
 title: DPA_CreateEx function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Creates a dynamic pointer array (DPA) using a given specified size and heap location.
 old-location: controls\DPA_CreateEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_createex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DPA_CreateEx, DPA_CreateEx function [Windows Controls], _shell_DPA_CreateEx, _shell_DPA_CreateEx_cpp, controls.DPA_CreateEx, controls._shell_DPA_CreateEx, dpa_dsa/DPA_CreateEx
 ms.topic: function

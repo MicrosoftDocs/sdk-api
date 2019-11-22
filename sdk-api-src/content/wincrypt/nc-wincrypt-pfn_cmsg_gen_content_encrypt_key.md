@@ -1,12 +1,12 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
 title: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY (wincrypt.h)
-author: windows-sdk-content
+
 description: Generates the symmetric key used to encrypt content for an enveloped message.
 old-location: security\pfn_cmsg_gen_content_encrypt_key.htm
 tech.root: SecCrypto
 ms.assetid: f06d0efb-44e1-40ed-9480-35dbdfce934c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_gen_content_encrypt_key, wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
 ms.topic: callback

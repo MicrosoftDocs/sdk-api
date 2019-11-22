@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITASRTerminalEvent.get_Call
 title: ITASRTerminalEvent::get_Call (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Call method returns a pointer to the ITCallInfo interface for the call object involved in the terminal event.
 old-location: tapi3\itasrterminalevent_get_call.htm
 tech.root: Tapi
 ms.assetid: 8736e3bc-9f79-4b0f-84a7-00e6d20550e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Call method, ITASRTerminalEvent.get_Call, ITASRTerminalEvent::get_Call, _tapi3_itasrterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_call, tapi3if/ITASRTerminalEvent::get_Call
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBTEXT
 title: DBTEXT (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBTEXT structure is used by the DBOP_text_command node.
 old-location: indexsrv\dbtext.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2qyc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBTEXT, DBTEXT structure [Indexing Service], _idxs_DBTEXT, cmdtree/DBTEXT, indexsrv.dbtext, tagDBTEXT
 ms.topic: struct

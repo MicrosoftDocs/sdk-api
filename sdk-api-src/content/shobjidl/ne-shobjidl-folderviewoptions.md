@@ -1,12 +1,12 @@
 ---
 UID: NE:shobjidl.FOLDERVIEWOPTIONS
 title: FOLDERVIEWOPTIONS (shobjidl.h)
-author: windows-sdk-content
+
 description: Used by methods of the IFolderViewOptions interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
 old-location: shell\FOLDERVIEWOPTIONS.htm
 tech.root: shell
 ms.assetid: ab0ebc82-e917-4e3a-864b-fc3bb6280a48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FOLDERVIEWOPTIONS, FOLDERVIEWOPTIONS enumeration [Windows Shell], FVO_CUSTOMORDERING, FVO_CUSTOMPOSITION, FVO_DEFAULT, FVO_NOANIMATIONS, FVO_NOSCROLLTIPS, FVO_SUPPORTHYPERLINKS, FVO_VISTALAYOUT, _shell_FOLDERVIEWOPTIONS, shell.FOLDERVIEWOPTIONS, shobjidl/FOLDERVIEWOPTIONS, shobjidl/FVO_CUSTOMORDERING, shobjidl/FVO_CUSTOMPOSITION, shobjidl/FVO_DEFAULT, shobjidl/FVO_NOANIMATIONS, shobjidl/FVO_NOSCROLLTIPS, shobjidl/FVO_SUPPORTHYPERLINKS, shobjidl/FVO_VISTALAYOUT
 ms.topic: enum

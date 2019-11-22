@@ -1,12 +1,12 @@
 ---
 UID: NS:nsemail.napi_domain_description_blob_tag
 title: NAPI_DOMAIN_DESCRIPTION_BLOB (nsemail.h)
-author: windows-sdk-content
+
 description: Describes a domain handled by a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_domain_description_blob.htm
 tech.root: WinSock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structure [Winsock], PNAPI_DOMAIN_DESCRIPTION_BLOB, PNAPI_DOMAIN_DESCRIPTION_BLOB structure pointer [Winsock], nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB, nsemail/PNAPI_DOMAIN_DESCRIPTION_BLOB, winsock.napi_domain_description_blob
 ms.topic: struct

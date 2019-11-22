@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.ULongPtrToUChar
 title: ULongPtrToUChar function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type ULONG_PTR to a value of type UCHAR.
 old-location: shell\ULongPtrToUChar.htm
 tech.root: shell
 ms.assetid: ed18b6c7-0ee3-41b4-a73c-83926fd62798
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToUChar, ULongPtrToUChar function [Windows Shell], intsafe/ULongPtrToUChar, shell.ULongPtrToUChar
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidVideoRendererDevices
 title: IMSVidVideoRendererDevices (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidVideoRendererDevices interface represents a collection of video renderers. The MSVidVideoRendererDevices object exposes this method. Applications can use this interface to enumerate the collection.
 old-location: mstv\imsvidvideorendererdevices.htm
 tech.root: mstv
 ms.assetid: cf8e1307-b4a5-464b-b9a6-32c195941309
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], IMSVidVideoRendererDevices interface [Microsoft TV Technologies],described, IMSVidVideoRendererDevicesInterface, mstv.imsvidvideorendererdevices, segment/IMSVidVideoRendererDevices
 ms.topic: interface

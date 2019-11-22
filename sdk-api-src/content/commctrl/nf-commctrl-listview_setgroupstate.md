@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_SetGroupState
 title: ListView_SetGroupState macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the state for a specified group.
 old-location: controls\ListView_SetGroupState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupstate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupState, ListView_SetGroupState macro [Windows Controls], _shell_ListView_SetGroupState, _shell_ListView_SetGroupState_cpp, commctrl/ListView_SetGroupState, controls.ListView_SetGroupState, controls._shell_ListView_SetGroupState
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.HasChildren
 title: ID2D1SvgElement::HasChildren (d2d1svg.h)
-author: windows-sdk-content
+
 description: Returns a boolean indicating whether this element has children.
 old-location: direct2d\id2d1svgelement_haschildren.htm
 tech.root: Direct2D
 ms.assetid: 8E7942E1-AD67-44B5-9C8D-89DD7551BA18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasChildren, HasChildren method [Direct2D], HasChildren method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],HasChildren method, ID2D1SvgElement.HasChildren, ID2D1SvgElement::HasChildren, d2d1svg/ID2D1SvgElement::HasChildren, direct2d.id2d1svgelement_haschildren
 ms.topic: method

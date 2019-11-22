@@ -1,12 +1,12 @@
 ---
 UID: NF:resourceindexer.DestroyIndexedResults
 title: DestroyIndexedResults function (resourceindexer.h)
-author: windows-sdk-content
+
 description: Frees the parameters that the IndexFilePath method returned.
 old-location: menurc\destroyindexedresults.htm
 tech.root: menurc
 ms.assetid: 0E1D8CC6-B662-4068-A6BA-822E79321C33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyIndexedResults, DestroyIndexedResults function [Menus and Other Resources], menurc.destroyindexedresults, resourceindexer/DestroyIndexedResults
 ms.topic: function

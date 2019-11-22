@@ -1,12 +1,12 @@
 ---
 UID: NF:peerdist.PeerDistClientAddContentInformation
 title: PeerDistClientAddContentInformation function (peerdist.h)
-author: windows-sdk-content
+
 description: PeerDistClientAddContentInformation function adds the content information associated with a content handle opened by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientaddcontentinformation.htm
 tech.root: P2PSdk
 ms.assetid: 933ca20c-8a28-4b6a-9ec8-85608fd02990
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientAddContentInformation, PeerDistClientAddContentInformation function [Peer Networking], p2p.peerdistclientaddcontentinformation, peerdist/PeerDistClientAddContentInformation
 ms.topic: function

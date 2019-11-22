@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedSlope(float)
 title: IDCompositionLinearTransferEffect::SetRedSlope (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the slope of the linear function for the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setredslope.htm
 tech.root: directcomp
 ms.assetid: 226B0410-8E4E-478D-A0A0-11005DA430A7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedSlope method, IDCompositionLinearTransferEffect.SetRedSlope, IDCompositionLinearTransferEffect::SetRedSlope, IDCompositionLinearTransferEffect::SetRedSlope(float), SetRedSlope, SetRedSlope method [DirectComposition], SetRedSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedSlope, directcomp.idcompositionlineartransfereffect_setredslope
 ms.topic: method

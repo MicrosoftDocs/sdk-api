@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationAnnotationPattern
 title: IUIAutomationAnnotationPattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Provides access to the properties of an annotation in a document.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern.htm
 tech.root: WinAuto
 ms.assetid: 596FC65A-32C8-47F6-A23F-7B02939E26E3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], IUIAutomationAnnotationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationAnnotationPattern, winauto.uiauto_IUIAutomationAnnotationPattern
 ms.topic: interface

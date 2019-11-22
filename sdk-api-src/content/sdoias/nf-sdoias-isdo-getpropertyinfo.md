@@ -1,12 +1,12 @@
 ---
 UID: NF:sdoias.ISdo.GetPropertyInfo
 title: ISdo::GetPropertyInfo (sdoias.h)
-author: windows-sdk-content
+
 description: The GetPropertyInfo method retrieves a pointer to an ISdoPropertyInfo interface for the specified property.
 old-location: nps\SDO_isdo_getpropertyinfo.htm
 tech.root: Nps
 ms.assetid: fa2f0209-ec78-4b59-8f01-f1534b8894c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyInfo, GetPropertyInfo method [Network Policy Server], GetPropertyInfo method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetPropertyInfo method, ISdo.GetPropertyInfo, ISdo::GetPropertyInfo, _sdo_isdo_getpropertyinfo, nps.SDO_isdo_getpropertyinfo, sdo.isdo_getpropertyinfo, sdoias/ISdo::GetPropertyInfo
 ms.topic: method

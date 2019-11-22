@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ShowHideMenuCtl
 title: ShowHideMenuCtl function (commctrl.h)
-author: windows-sdk-content
+
 description: Sets or removes the specified menu item's check mark attribute and shows or hides the corresponding control.
 old-location: controls\ShowHideMenuCtl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\showhidemenuctl.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win32_ShowHideMenuCtl, _win32_ShowHideMenuCtl_cpp, commctrl/ShowHideMenuCtl, controls.ShowHideMenuCtl, controls._win32_ShowHideMenuCtl
 ms.topic: function

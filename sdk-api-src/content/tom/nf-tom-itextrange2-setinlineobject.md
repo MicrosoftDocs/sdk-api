@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRange2.SetInlineObject
 title: ITextRange2::SetInlineObject (tom.h)
-author: windows-sdk-content
+
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm
 tech.root: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, ITextRange2.SetInlineObject, ITextRange2::SetInlineObject, SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls],ITextRange2 interface, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
 ms.topic: method

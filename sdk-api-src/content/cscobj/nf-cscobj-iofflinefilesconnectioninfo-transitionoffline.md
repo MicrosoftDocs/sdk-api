@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOffline
 title: IOfflineFilesConnectionInfo::TransitionOffline (cscobj.h)
-author: windows-sdk-content
+
 description: Transitions an item offline if possible.
 old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
 tech.root: offlinefiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
 ms.topic: method

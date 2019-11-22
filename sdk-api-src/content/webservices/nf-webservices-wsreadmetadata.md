@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsReadMetadata
 title: WsReadMetadata function (webservices.h)
-author: windows-sdk-content
+
 description: Reads a Metadata element and adds it to the Metadata documents of the Metadata object.
 old-location: wsw\wsreadmetadata.htm
 tech.root: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
 ms.topic: function

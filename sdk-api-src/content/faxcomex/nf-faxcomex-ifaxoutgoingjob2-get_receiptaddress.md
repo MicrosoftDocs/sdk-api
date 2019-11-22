@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_ReceiptAddress
 title: IFaxOutgoingJob2::get_ReceiptAddress (faxcomex.h)
-author: windows-sdk-content
+
 description: A null-terminated string containing the address to which a delivery report will be sent, indicating success or failure.
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_receiptaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\receiptaddress.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob2 interface [Fax Service],ReceiptAddress property, IFaxOutgoingJob2.ReceiptAddress, IFaxOutgoingJob2.get_ReceiptAddress, IFaxOutgoingJob2::ReceiptAddress, IFaxOutgoingJob2::get_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxOutgoingJob2 interface, _mfax_faxoutgoingjob.receiptaddress, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_receiptaddress_cpp, fax._mfax_faxoutgoingjob_receiptaddress, faxcomex/IFaxOutgoingJob2::ReceiptAddress, faxcomex/IFaxOutgoingJob2::get_ReceiptAddress, get_ReceiptAddress
 ms.topic: method

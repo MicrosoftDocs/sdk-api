@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_Quality
 title: IAMVideoCompression::get_Quality (strmif.h)
-author: windows-sdk-content
+
 description: The get_Quality method retrieves the current compression quality.
 old-location: dshow\iamvideocompression_get_quality.htm
 tech.root: DirectShow
 ms.assetid: a34b6d15-3c84-476e-bd2f-ee10b59ded82
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_Quality method, IAMVideoCompression.get_Quality, IAMVideoCompression::get_Quality, IAMVideoCompressionget_Quality, dshow.iamvideocompression_get_quality, get_Quality, get_Quality method [DirectShow], get_Quality method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_Quality
 ms.topic: method

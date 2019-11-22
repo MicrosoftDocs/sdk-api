@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionFilterEffect.SetInput
 title: IDCompositionFilterEffect::SetInput (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the the input at an index to the specified filter effect.
 old-location: directcomp\idcompositionfiltereffect_setinput.htm
 tech.root: directcomp
 ms.assetid: 8DFF137E-2979-42D4-A8A5-F831A33468CA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionFilterEffect interface [DirectComposition],SetInput method, IDCompositionFilterEffect.SetInput, IDCompositionFilterEffect::SetInput, SetInput, SetInput method [DirectComposition], SetInput method [DirectComposition],IDCompositionFilterEffect interface, dcomp/IDCompositionFilterEffect::SetInput, directcomp.idcompositionfiltereffect_setinput
 ms.topic: method

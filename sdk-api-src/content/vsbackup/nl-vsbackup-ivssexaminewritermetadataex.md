@@ -1,12 +1,12 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadataEx
 title: IVssExamineWriterMetadataEx (vsbackup.h)
-author: windows-sdk-content
+
 description: Provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex.htm
 tech.root: VSS
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
 ms.topic: class

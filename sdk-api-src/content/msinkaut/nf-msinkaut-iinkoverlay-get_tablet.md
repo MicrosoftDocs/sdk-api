@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Tablet
 title: IInkOverlay::get_Tablet (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
 old-location: tablet\inkoverlay_tablet.htm
 tech.root: tablet
 ms.assetid: 88da4f91-2baf-4152-adc2-a6f91bc2c9e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Tablet property, IInkOverlay.Tablet, IInkOverlay.get_Tablet, IInkOverlay::Tablet, IInkOverlay::get_Tablet, InkOverlay.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkOverlay interface, get_Tablet, msinkaut/IInkOverlay::Tablet, msinkaut/IInkOverlay::get_Tablet, put_Tablet, tablet.inkoverlay_tablet
 ms.topic: method

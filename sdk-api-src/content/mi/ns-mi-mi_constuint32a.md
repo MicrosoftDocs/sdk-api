@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstUint32A
 title: MI_ConstUint32A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Uint32 types.
 old-location: wmi_v2\mi_constuint32a.htm
 tech.root: wmi_v2
 ms.assetid: 35357681-c165-4981-8486-ac7cbb26de1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint32A, MI_ConstUint32A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint32A, wmi._mi_constuint32a, wmi_v2.mi_constuint32a
 ms.topic: struct

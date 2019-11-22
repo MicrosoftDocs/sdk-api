@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj_core.IExtractIconA
 title: IExtractIconA (shlobj_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow a client to retrieve the icon that is associated with one of the objects in a folder.
 old-location: shell\IExtractIcon.htm
 tech.root: shell
 ms.assetid: f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExtractIcon, IExtractIcon interface [Windows Shell], IExtractIcon interface [Windows Shell],described, IExtractIconA, IExtractIconW, _win32_IExtractIcon, shell.IExtractIcon, shlobj_core/IExtractIcon
 ms.topic: interface

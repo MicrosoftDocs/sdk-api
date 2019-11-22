@@ -1,12 +1,12 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.CommitSnapshots
 title: IVssProviderCreateSnapshotSet::CommitSnapshots (vsprov.h)
-author: windows-sdk-content
+
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
 tech.root: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
 ms.topic: method

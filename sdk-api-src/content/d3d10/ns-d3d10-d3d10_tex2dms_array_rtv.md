@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_ARRAY_RTV
 title: D3D10_TEX2DMS_ARRAY_RTV (d3d10.h)
-author: windows-sdk-content
+
 description: Specifies the subresource(s) from a an array of multisampled 2D textures to use in a render-target view.
 old-location: direct3d10\d3d10_tex2dms_array_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_rtv.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEX2DMS_ARRAY_RTV, D3D10_TEX2DMS_ARRAY_RTV structure [Direct3D 10], c5d75d40-aca3-78bb-905d-0a4ed02b9946, d3d10/D3D10_TEX2DMS_ARRAY_RTV, direct3d10.d3d10_tex2dms_array_rtv
 ms.topic: struct

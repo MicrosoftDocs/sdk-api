@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetData
 title: ID3D11DeviceContext::GetData (d3d11.h)
-author: windows-sdk-content
+
 description: Get data from the graphics processing unit (GPU) asynchronously.
 old-location: direct3d11\id3d11devicecontext_getdata.htm
 tech.root: direct3d11
 ms.assetid: 338d02ad-2227-49e5-9b4f-fb86a3898f73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 234bd2fb-b886-b634-e4ec-4301f8dd951d, GetData, GetData method [Direct3D 11], GetData method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetData method, ID3D11DeviceContext.GetData, ID3D11DeviceContext::GetData, d3d11/ID3D11DeviceContext::GetData, direct3d11.id3d11devicecontext_getdata
 ms.topic: method

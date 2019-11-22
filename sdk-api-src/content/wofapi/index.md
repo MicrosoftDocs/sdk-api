@@ -1,7 +1,7 @@
 ---
 UID: NA:wofapi
 ms.assetid: b5412ce8-6852-3e60-b24a-ac4f568174e8
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

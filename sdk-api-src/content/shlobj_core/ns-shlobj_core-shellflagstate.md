@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_15
 title: SHELLFLAGSTATE (shlobj_core.h)
-author: windows-sdk-content
+
 description: Contains a set of flags that indicate the current Shell settings. This structure is used with the SHGetSettings function.
 old-location: shell\SHELLFLAGSTATE.htm
 tech.root: shell
 ms.assetid: 9968c7c9-79d9-4fb1-bda2-d6a2504cd3a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSHELLFLAGSTATE, LPSHELLFLAGSTATE, LPSHELLFLAGSTATE structure pointer [Windows Shell], SHELLFLAGSTATE, SHELLFLAGSTATE structure [Windows Shell], _win32_SHELLFLAGSTATE, shell.SHELLFLAGSTATE, shlobj_core/LPSHELLFLAGSTATE, shlobj_core/SHELLFLAGSTATE"
 ms.topic: struct

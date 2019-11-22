@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisualBrush
 title: IXpsOMVisualBrush (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: A brush that uses a visual element as a source.
 old-location: xps\ixpsomvisualbrush.htm
 tech.root: printdocs
 ms.assetid: 56c11e64-64a8-4c42-9547-4f1fcdc13a4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], IXpsOMVisualBrush interface [XPS Documents and Packaging],described, xps.ixpsomvisualbrush, xpsobjectmodel/IXpsOMVisualBrush
 ms.topic: interface

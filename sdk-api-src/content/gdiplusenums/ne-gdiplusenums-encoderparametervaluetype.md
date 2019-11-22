@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.EncoderParameterValueType
 title: EncoderParameterValueType (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The EncoderParameterValueType enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the Type data member of an EncoderParameter object.
 old-location: gdiplus\_gdiplus_ENUM_EncoderParameterValueType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encoderparametervaluetype.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EncoderParameterValueType, EncoderParameterValueType enumeration [GDI+], EncoderParameterValueTypeASCII, EncoderParameterValueTypeByte, EncoderParameterValueTypeLong, EncoderParameterValueTypeLongRange, EncoderParameterValueTypePointer, EncoderParameterValueTypeRational, EncoderParameterValueTypeRationalRange, EncoderParameterValueTypeShort, EncoderParameterValueTypeUndefined, _gdiplus_ENUM_EncoderParameterValueType, gdiplus._gdiplus_ENUM_EncoderParameterValueType, gdiplusenums/EncoderParameterValueType, gdiplusenums/EncoderParameterValueTypeASCII, gdiplusenums/EncoderParameterValueTypeByte, gdiplusenums/EncoderParameterValueTypeLong, gdiplusenums/EncoderParameterValueTypeLongRange, gdiplusenums/EncoderParameterValueTypePointer, gdiplusenums/EncoderParameterValueTypeRational, gdiplusenums/EncoderParameterValueTypeRationalRange, gdiplusenums/EncoderParameterValueTypeShort, gdiplusenums/EncoderParameterValueTypeUndefined
 ms.topic: enum

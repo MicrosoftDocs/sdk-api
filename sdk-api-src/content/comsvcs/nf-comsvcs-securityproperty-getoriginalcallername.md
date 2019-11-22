@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCallerName
 title: SecurityProperty::GetOriginalCallerName (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
 old-location: cos\securityproperty_getoriginalcallername.htm
 tech.root: cossdk
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
 ms.topic: method

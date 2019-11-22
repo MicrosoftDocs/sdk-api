@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Advise
 title: IExplorerBrowser::Advise (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Initiates a connection with IExplorerBrowser for event callbacks.
 old-location: shell\IExplorerBrowser_Advise.htm
 tech.root: shell
 ms.assetid: b77f9c41-248e-4f16-a9ff-6ff5437df11c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Advise method, IExplorerBrowser.Advise, IExplorerBrowser::Advise, _shell_IExplorerBrowser_Advise, shell.IExplorerBrowser_Advise, shobjidl_core/IExplorerBrowser::Advise
 ms.topic: method

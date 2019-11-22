@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetFinalIntegerValue
 title: IUIAnimationVariable2::GetFinalIntegerValue (uianimation.h)
-author: windows-sdk-content
+
 description: Gets the final integer value of the animation variable. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable2_getfinalintegervalue.htm
 tech.root: UIAnimation
 ms.assetid: 290EC1D8-007D-44A0-B3F8-384A9594FDC4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFinalIntegerValue, GetFinalIntegerValue method [Windows Animation], GetFinalIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalIntegerValue method, IUIAnimationVariable2.GetFinalIntegerValue, IUIAnimationVariable2::GetFinalIntegerValue, uianimation.iuianimationvariable2_getfinalintegervalue, uianimation/IUIAnimationVariable2::GetFinalIntegerValue
 ms.topic: method

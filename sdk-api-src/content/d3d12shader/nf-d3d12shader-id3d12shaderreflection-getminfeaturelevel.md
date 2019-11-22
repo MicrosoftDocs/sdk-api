@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetMinFeatureLevel
 title: ID3D12ShaderReflection::GetMinFeatureLevel (d3d12shader.h)
-author: windows-sdk-content
+
 description: Gets the minimum feature level.
 old-location: direct3d12\id3d12shaderreflection_getminfeaturelevel.htm
 tech.root: direct3d12
 ms.assetid: DE1FC45B-DA2B-41B6-A732-62BA886F51C2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method, GetMinFeatureLevel method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMinFeatureLevel method, ID3D12ShaderReflection.GetMinFeatureLevel, ID3D12ShaderReflection::GetMinFeatureLevel, d3d12shader/ID3D12ShaderReflection::GetMinFeatureLevel, direct3d12.id3d12shaderreflection_getminfeaturelevel
 ms.topic: method

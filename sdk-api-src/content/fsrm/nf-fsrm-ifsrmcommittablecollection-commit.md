@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrm.IFsrmCommittableCollection.Commit
 title: IFsrmCommittableCollection::Commit (fsrm.h)
-author: windows-sdk-content
+
 description: Commits all the objects of the collection and returns the commit results for each object.
 old-location: fsrm\ifsrmcommittablecollection_commit.htm
 tech.root: fsrm
 ms.assetid: 844cb2a5-8526-434b-af22-b1bf856ed6af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmCommittableCollection interface, IFsrmCommittableCollection interface [File Server Resource Manager],Commit method, IFsrmCommittableCollection.Commit, IFsrmCommittableCollection::Commit, fs.ifsrmcommitablecollection_commit, fs.ifsrmcommittablecollection_commit, fsrm.ifsrmcommittablecollection_commit, fsrm/IFsrmCommittableCollection::Commit
 ms.topic: method

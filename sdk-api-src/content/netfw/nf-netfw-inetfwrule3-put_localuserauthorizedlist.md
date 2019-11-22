@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalUserAuthorizedList
 title: INetFwRule3::put_LocalUserAuthorizedList (netfw.h)
-author: windows-sdk-content
+
 description: Specifies a list of authorized local users for an app container.
 old-location: ics\inetfwrule3_localuserauthorizedlist.htm
 tech.root: ics
 ms.assetid: 5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserAuthorizedList property, INetFwRule3.LocalUserAuthorizedList, INetFwRule3.put_LocalUserAuthorizedList, INetFwRule3::LocalUserAuthorizedList, INetFwRule3::get_LocalUserAuthorizedList, INetFwRule3::put_LocalUserAuthorizedList, LocalUserAuthorizedList property [ICS/ICF], LocalUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localuserauthorizedlist, netfw/INetFwRule3::LocalUserAuthorizedList, netfw/INetFwRule3::get_LocalUserAuthorizedList, netfw/INetFwRule3::put_LocalUserAuthorizedList, put_LocalUserAuthorizedList
 ms.topic: method

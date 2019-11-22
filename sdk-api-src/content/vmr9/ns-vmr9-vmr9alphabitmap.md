@@ -1,12 +1,12 @@
 ---
 UID: NS:vmr9._VMR9AlphaBitmap
 title: VMR9AlphaBitmap (vmr9.h)
-author: windows-sdk-content
+
 description: The VMR9AlphaBitmap structure is used with the IVMRMixerBitmap9 interface when an application provides a static bitmap for alpha blending with the video frame.
 old-location: dshow\vmr9alphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 62214c24-0a4b-43c3-91dc-3eb6e5df3d94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_GaussianQuadFiltering, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, VMR9AlphaBitmap, VMR9AlphaBitmap structure [DirectShow], VMR9AlphaBitmapStructure, dshow.vmr9alphabitmap, vmr9/VMR9AlphaBitmap
 ms.topic: struct

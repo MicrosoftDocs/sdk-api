@@ -1,12 +1,12 @@
 ---
 UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_RESPONSE
 title: RAW_SCSI_VIRTUAL_DISK_RESPONSE (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains raw SCSI virtual disk response parameters.
 old-location: vhd\raw_scsi_virtual_disk_response.htm
 tech.root: VStor
 ms.assetid: CF3240A0-134B-4494-8451-7F8C6429D435
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_RESPONSE, RAW_SCSI_VIRTUAL_DISK_RESPONSE structure [VHD], _RAW_SCSI_VIRTUAL_DISK_RESPONSE, vdssys/PRAW_SCSI_VIRTUAL_DISK_RESPONSE, vdssys/RAW_SCSI_VIRTUAL_DISK_RESPONSE, vhd.raw_scsi_virtual_disk_response, virtdisk/PRAW_SCSI_VIRTUAL_DISK_RESPONSE, virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
 ms.topic: struct

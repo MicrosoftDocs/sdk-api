@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsProvider
 title: IVdsProvider (vdshwprv.h)
-author: windows-sdk-content
+
 description: Returns the properties of a hardware or software provider.
 old-location: base\ivdsprovider.htm
 tech.root: VDS
 ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsProvider, IVdsProvider interface [VDS], IVdsProvider interface [VDS],described, base.ivdsprovider, vds/IVdsProvider, vdshwprv/IVdsProvider
 ms.topic: interface

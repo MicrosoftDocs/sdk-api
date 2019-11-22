@@ -1,12 +1,12 @@
 ---
 UID: NF:uiribbon.IUICollection.Replace
 title: IUICollection::Replace (uiribbon.h)
-author: windows-sdk-content
+
 description: Replaces an item at the specified index of the IUICollection with another item.
 old-location: windowsribbon\windowsribbon_iuicollection_replace.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\replace.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollection.Replace, IUICollection::Replace, Replace, Replace method [Windows Ribbon], Replace method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Replace, uiribbon/IUICollection::Replace, windowsribbon.windowsribbon_iuicollection_replace
 ms.topic: method

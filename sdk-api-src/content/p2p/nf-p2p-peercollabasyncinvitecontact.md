@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerCollabAsyncInviteContact
 title: PeerCollabAsyncInviteContact function (p2p.h)
-author: windows-sdk-content
+
 description: Sends an invitation to a trusted peer contact to join the sender's peer collaboration activity over a secured connection. The availability of the invitation response is updated through an asynchronous event.
 old-location: p2p\peercollabasyncinvitecontact.htm
 tech.root: P2PSdk
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
 ms.topic: function

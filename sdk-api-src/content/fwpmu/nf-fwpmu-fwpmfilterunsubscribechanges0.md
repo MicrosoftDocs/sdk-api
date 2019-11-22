@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmFilterUnsubscribeChanges0
 title: FwpmFilterUnsubscribeChanges0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Is used to cancel a filter change subscription and stop receiving change notifications.
 old-location: fwp\fwpmfilterunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: a7e78b38-9d24-4883-83a7-f4ecdf7ffb4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterUnsubscribeChanges0, FwpmFilterUnsubscribeChanges0 function [Filtering], fwp.fwpmfilterunsubscribechanges0_func, fwpmu/FwpmFilterUnsubscribeChanges0
 ms.topic: function

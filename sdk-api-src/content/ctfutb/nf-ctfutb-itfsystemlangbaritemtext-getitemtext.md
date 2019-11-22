@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.GetItemText
 title: ITfSystemLangBarItemText::GetItemText (ctfutb.h)
-author: windows-sdk-content
+
 description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
 tech.root: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
 ms.topic: method

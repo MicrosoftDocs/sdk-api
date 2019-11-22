@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement9
 title: IUIAutomationElement9 (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Extends the IUIAutomationElement8 interface.
 old-location: winauto\uiauto_IUIAutomationElement9.htm
 tech.root: WinAuto
 ms.assetid:
-ms.author: windowssdkdev
+
 ms.date: 04/29/2019
 ms.keywords: IUIAutomationElement9, IUIAutomationElement9 interface [Windows Accessibility], IUIAutomationElement9 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement9, winauto.uiauto_IUIAutomationElement9
 ms.topic: interface

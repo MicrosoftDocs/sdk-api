@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.GetDevicesForIScsiSessionA
 title: GetDevicesForIScsiSessionA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: GetDevicesForIscsiSession function retrieves information about the devices associated with the current session.
 old-location: iscsidisc\getdevicesforiscsisession.htm
 tech.root: iSCSIDisc
 ms.assetid: f7a07f36-1c3b-4e33-ac6e-d2e7e8f2466a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDevicesForIScsiSessionA, GetDevicesForIscsiSession, GetDevicesForIscsiSession function [iSCSI Discovery Library API], GetDevicesForIscsiSessionA, GetDevicesForIscsiSessionW, iscsidisc.getdevicesforiscsisession, iscsidsc/GetDevicesForIscsiSession, iscsidsc/GetDevicesForIscsiSessionA, iscsidsc/GetDevicesForIscsiSessionW
 ms.topic: function

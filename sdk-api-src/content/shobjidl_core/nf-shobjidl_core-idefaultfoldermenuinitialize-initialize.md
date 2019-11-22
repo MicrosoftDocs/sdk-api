@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.Initialize
 title: IDefaultFolderMenuInitialize::Initialize (shobjidl_core.h)
-author: windows-sdk-content
+
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm
 tech.root: shell
 ms.assetid: D837712B-1FF3-4021-BA50-E433BF5B24C2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],Initialize method, IDefaultFolderMenuInitialize.Initialize, IDefaultFolderMenuInitialize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_Initialize, shobjidl_core/IDefaultFolderMenuInitialize::Initialize
 ms.topic: method

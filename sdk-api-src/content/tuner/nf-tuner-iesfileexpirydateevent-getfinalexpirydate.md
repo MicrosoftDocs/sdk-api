@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetFinalExpiryDate
 title: IESFileExpiryDateEvent::GetFinalExpiryDate (tuner.h)
-author: windows-sdk-content
+
 description: Gets the date from a FileExpiryDate event that indicates when a renewable license for protected content finally expires.
 old-location: mstv\iesfileexpirydateevent_getfinalexpirydate.htm
 tech.root: mstv
 ms.assetid: 903ecf69-8da1-47a4-acce-50d37565e480
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFinalExpiryDate, GetFinalExpiryDate method [Microsoft TV Technologies], GetFinalExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetFinalExpiryDate method, IESFileExpiryDateEvent.GetFinalExpiryDate, IESFileExpiryDateEvent::GetFinalExpiryDate, mstv.iesfileexpirydateevent_getfinalexpirydate, tuner/IESFileExpiryDateEvent::GetFinalExpiryDate
 ms.topic: method

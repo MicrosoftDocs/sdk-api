@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.MapWindowPoints
 title: MapWindowPoints function (winuser.h)
-author: windows-sdk-content
+
 description: The MapWindowPoints function converts (maps) a set of points from a coordinate space relative to one window to a coordinate space relative to another window.
 old-location: gdi\mapwindowpoints.htm
 tech.root: gdi
 ms.assetid: 01c3b794-c1ca-467f-a4da-c6622453ee97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MapWindowPoints, MapWindowPoints function [Windows GDI], _win32_MapWindowPoints, gdi.mapwindowpoints, winuser/MapWindowPoints
 ms.topic: function

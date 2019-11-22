@@ -1,12 +1,12 @@
 ---
 UID: NF:lmalert.NetAlertRaise
 title: NetAlertRaise function (lmalert.h)
-author: windows-sdk-content
+
 description: The NetAlertRaise function notifies all registered clients when a particular event occurs.
 old-location: netmgmt\netalertraise.htm
 tech.root: NetMgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
 ms.topic: function

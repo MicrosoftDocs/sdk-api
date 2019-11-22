@@ -1,12 +1,12 @@
 ---
 UID: NS:ntlsa._CENTRAL_ACCESS_POLICY
 title: CENTRAL_ACCESS_POLICY (ntlsa.h)
-author: windows-sdk-content
+
 description: Represents a central access policy that contains a set of central access policy entries.
 old-location: security\central_access_policy.htm
 tech.root: SecAuthN
 ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy'
 ms.topic: struct

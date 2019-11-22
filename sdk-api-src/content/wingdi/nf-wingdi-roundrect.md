@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.RoundRect
 title: RoundRect function (wingdi.h)
-author: windows-sdk-content
+
 description: The RoundRect function draws a rectangle with rounded corners. The rectangle is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\roundrect.htm
 tech.root: gdi
 ms.assetid: 17808a6a-7bd0-4fd6-81ab-00d5db764b93
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.roundrect, wingdi/RoundRect
 ms.topic: function

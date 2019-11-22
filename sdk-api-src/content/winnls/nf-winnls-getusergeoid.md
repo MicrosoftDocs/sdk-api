@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.GetUserGeoID
 title: GetUserGeoID function (winnls.h)
-author: windows-sdk-content
+
 description: Retrieves information about the geographical location of the user. For more information, see Table of Geographical Locations.
 old-location: intl\getusergeoid.htm
 tech.root: Intl
 ms.assetid: 9d4d196d-4000-4866-a4c7-e7b9cb669c6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
 ms.topic: function

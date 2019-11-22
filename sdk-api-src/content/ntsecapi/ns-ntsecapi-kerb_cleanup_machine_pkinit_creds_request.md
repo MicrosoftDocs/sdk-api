@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 title: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST (ntsecapi.h)
-author: windows-sdk-content
+
 description: Cleans up the PKINIT device credentials from the computer.
 old-location: security\kerb_cleanup_machine_pkinit_creds_request.htm
 tech.root: SecAuthN
 ms.assetid: FBFCFD7C-BB92-4EBC-9C89-51B7B5D057F1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure [Security], PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure pointer [Security], ntsecapi/KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, ntsecapi/PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, security.kerb_cleanup_machine_pkinit_creds_request"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.GetMasterVolume
 title: ISimpleAudioVolume::GetMasterVolume (audioclient.h)
-author: windows-sdk-content
+
 description: The GetMasterVolume method retrieves the client volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_getmastervolume.htm
 tech.root: CoreAudio
 ms.assetid: 362d8e12-a92c-4e0f-b88f-a3937c75d01a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolume method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMasterVolume method, ISimpleAudioVolume.GetMasterVolume, ISimpleAudioVolume::GetMasterVolume, ISimpleAudioVolumeGetMasterVolume, audioclient/ISimpleAudioVolume::GetMasterVolume, coreaudio.isimpleaudiovolume_getmastervolume
 ms.topic: method

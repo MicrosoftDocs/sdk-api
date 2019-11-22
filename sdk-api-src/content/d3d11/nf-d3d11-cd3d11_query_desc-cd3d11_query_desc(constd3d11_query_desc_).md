@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_QUERY_DESC.CD3D11_QUERY_DESC(const D3D11_QUERY_DESC &)
 title: CD3D11_QUERY_DESC::CD3D11_QUERY_DESC(const D3D11_QUERY_DESC &) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a CD3D11_QUERY_DESC structure that is initialized with a D3D11_QUERY_DESC structure.
 old-location: direct3d11\cd3d11_query_desc_cd3d11_query_desc_d3d11_query_desc_.htm
 tech.root: direct3d11
 ms.assetid: 17A544E3-7297-45D3-9EFA-746FF438A50A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_QUERY_DESC, CD3D11_QUERY_DESC interface [Direct3D 11],CD3D11_QUERY_DESC method, CD3D11_QUERY_DESC method [Direct3D 11], CD3D11_QUERY_DESC method [Direct3D 11],CD3D11_QUERY_DESC interface, CD3D11_QUERY_DESC.CD3D11_QUERY_DESC, CD3D11_QUERY_DESC.CD3D11_QUERY_DESC(const D3D11_QUERY_DESC &), CD3D11_QUERY_DESC::CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::CD3D11_QUERY_DESC(const D3D11_QUERY_DESC &), CD3D11_QUERY_DESC::CD3D11_QUERY_DESC(const D3D11_QUERY_DESC&), d3d11/CD3D11_QUERY_DESC::CD3D11_QUERY_DESC, direct3d11.cd3d11_query_desc_cd3d11_query_desc_d3d11_query_desc_
 ms.topic: method

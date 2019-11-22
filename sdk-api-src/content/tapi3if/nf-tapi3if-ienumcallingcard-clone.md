@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.IEnumCallingCard.Clone
 title: IEnumCallingCard::Clone (tapi3if.h)
-author: windows-sdk-content
+
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_clone.htm
 tech.root: Tapi
 ms.assetid: fb1a2ac3-12d1-42f0-9c73-c4d0d8a88700
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCallingCard interface, IEnumCallingCard interface [TAPI 2.2],Clone method, IEnumCallingCard.Clone, IEnumCallingCard::Clone, _tapi3_ienumcallingcard_clone, tapi3.ienumcallingcard_clone, tapi3if/IEnumCallingCard::Clone
 ms.topic: method

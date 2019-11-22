@@ -1,12 +1,12 @@
 ---
 UID: NF:fci.FCICreate
 title: FCICreate function (fci.h)
-author: windows-sdk-content
+
 description: The FCICreate function creates an FCI context.
 old-location: winprog\fcicreate.htm
 tech.root: DevNotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.topic: function

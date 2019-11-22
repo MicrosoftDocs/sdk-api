@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BorderTransform
 title: ID2D1BorderTransform (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Extends the input rectangle to infinity using the specified extend modes.
 old-location: direct2d\id2d1bordertransform.htm
 tech.root: Direct2D
 ms.assetid: 79C4E7E8-6042-4ECA-BD95-069760CF2A55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1BorderTransform, ID2D1BorderTransform interface [Direct2D], ID2D1BorderTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BorderTransform, direct2d.id2d1bordertransform
 ms.topic: interface

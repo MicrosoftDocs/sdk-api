@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2.IsCurrentMediaSupported
 title: IDiscFormat2::IsCurrentMediaSupported (imapi2.h)
-author: windows-sdk-content
+
 description: Determines if the current media in a supported recorder supports the given format.
 old-location: imapi\idiscformat2_iscurrentmediasupported.htm
 tech.root: imapi
 ms.assetid: 2b4e8088-481e-4ff9-ba6d-aeca26287382
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],IsCurrentMediaSupported method, IDiscFormat2.IsCurrentMediaSupported, IDiscFormat2::IsCurrentMediaSupported, IsCurrentMediaSupported, IsCurrentMediaSupported method [IMAPI], IsCurrentMediaSupported method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_iscurrentmediasupported, imapi2/IDiscFormat2::IsCurrentMediaSupported
 ms.topic: method

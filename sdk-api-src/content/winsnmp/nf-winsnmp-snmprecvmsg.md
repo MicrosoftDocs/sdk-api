@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpRecvMsg
 title: SnmpRecvMsg function (winsnmp.h)
-author: windows-sdk-content
+
 description: The WinSNMP SnmpRecvMsg function retrieves the results of a completed asynchronous request submitted by a call to the SnmpSendMsg function, in the form of an SNMP message.
 old-location: snmp\snmprecvmsg.htm
 tech.root: SNMP
 ms.assetid: 0e306e40-cccc-4083-b3ba-97b8ece0ae35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.snmprecvmsg, winsnmp/SnmpRecvMsg
 ms.topic: function

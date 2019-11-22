@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CoRegisterMessageFilter
 title: CoRegisterMessageFilter function (objbase.h)
-author: windows-sdk-content
+
 description: Registers with OLE the instance of an IMessageFilter interface, which is to be used for handling concurrency issues on the current thread.
 old-location: com\coregistermessagefilter.htm
 tech.root: com
 ms.assetid: caa5b277-ddbd-4ba9-892d-590d953b8433
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoRegisterMessageFilter, CoRegisterMessageFilter function [COM], _com_CoRegisterMessageFilter, com.coregistermessagefilter, objbase/CoRegisterMessageFilter
 ms.topic: function

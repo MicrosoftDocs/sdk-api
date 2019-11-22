@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_UtilitiesFT
 title: MI_UtilitiesFT (mi.h)
-author: windows-sdk-content
+
 description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Utilities_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_utilitiesft.htm
 tech.root: wmi_v2
 ms.assetid: 4f82b7b3-833c-42e8-a80c-2d057fc34fe4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_UtilitiesFT, MI_UtilitiesFT structure [Windows Management Infrastructure (MI)], mi/MI_UtilitiesFT, wmi_v2.mi_utilitiesft
 ms.topic: struct

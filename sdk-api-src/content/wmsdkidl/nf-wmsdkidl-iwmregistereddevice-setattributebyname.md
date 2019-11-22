@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.SetAttributeByName
 title: IWMRegisteredDevice::SetAttributeByName (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetAttributeByName method sets a device attribute.
 old-location: wmformat\iwmregistereddevice_setattributebyname.htm
 tech.root: wmformat
 ms.assetid: 49562f2a-1bb5-46d7-81cc-c13b66cf691f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],SetAttributeByName method, IWMRegisteredDevice.SetAttributeByName, IWMRegisteredDevice::SetAttributeByName, IWMRegisteredDeviceSetAttributeByName, SetAttributeByName, SetAttributeByName method [windows Media Format], SetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_setattributebyname, wmsdkidl/IWMRegisteredDevice::SetAttributeByName
 ms.topic: method

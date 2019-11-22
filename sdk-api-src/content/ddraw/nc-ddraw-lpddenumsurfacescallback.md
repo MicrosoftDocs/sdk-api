@@ -1,12 +1,12 @@
 ---
 UID: NC:ddraw.LPDDENUMSURFACESCALLBACK
 title: LPDDENUMSURFACESCALLBACK (ddraw.h)
-author: windows-sdk-content
+
 description: Do not use. This callback function is superseded by the EnumSurfacesCallback7 function that is used with the IDirectDraw7::EnumSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, and IDirectDrawSurface7::EnumOverlayZOrders methods.
 old-location: directdraw\enumsurfacescallback.htm
 tech.root: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwProfile.put_FirewallEnabled
 title: INetFwProfile::put_FirewallEnabled (netfw.h)
-author: windows-sdk-content
+
 description: Indicates whether the firewall is enabled.
 old-location: ics\inetfwprofile_firewallenabled.htm
 tech.root: ics
 ms.assetid: cde6327d-e3ae-418f-9e8c-76288c120ca0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],FirewallEnabled property, INetFwProfile.FirewallEnabled, INetFwProfile.put_FirewallEnabled, INetFwProfile::FirewallEnabled, INetFwProfile::get_FirewallEnabled, INetFwProfile::put_FirewallEnabled, ics.inetfwprofile_firewallenabled, netfw/INetFwProfile::FirewallEnabled, netfw/INetFwProfile::get_FirewallEnabled, netfw/INetFwProfile::put_FirewallEnabled, put_FirewallEnabled
 ms.topic: method

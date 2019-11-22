@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfStatusSink
 title: ITfStatusSink (msctf.h)
-author: windows-sdk-content
+
 description: The ITfStatusSink interface supports changes to the global document status. This advise sink is installed by calling ITfSource::AdviseSink with IID_ITfStatusSink. A text service can optionally implement this interface.
 old-location: tsf\itfstatussink.htm
 tech.root: TSF
 ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
 ms.topic: interface

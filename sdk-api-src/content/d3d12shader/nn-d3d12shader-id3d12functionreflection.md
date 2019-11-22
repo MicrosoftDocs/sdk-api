@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionReflection
 title: ID3D12FunctionReflection (d3d12shader.h)
-author: windows-sdk-content
+
 description: A function-reflection interface accesses function info.
 old-location: direct3d12\id3d12functionreflection.htm
 tech.root: direct3d12
 ms.assetid: F0BF4AA9-66D7-4A33-A51C-B03C1D61F537
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12FunctionReflection, ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,described, d3d12shader/ID3D12FunctionReflection, direct3d12.id3d12functionreflection
 ms.topic: interface

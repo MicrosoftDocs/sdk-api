@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnRegistration
 title: IMbnRegistration (mbnapi.h)
-author: windows-sdk-content
+
 description: Provides access to network registration data.
 old-location: mbn\imbnregistration.htm
 tech.root: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], IMbnRegistration interface [Microsoft Broadband Networks],described, mbn.imbnregistration, mbnapi/IMbnRegistration
 ms.topic: interface

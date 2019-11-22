@@ -1,12 +1,12 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_MESSAGE
 title: PXE_DHCPV6_MESSAGE (wdspxe.h)
-author: windows-sdk-content
+
 description: A DHCPV6 message.
 old-location: wds\pxe_dhcpv6_message.htm
 tech.root: wds
 ms.assetid: FA9CE377-8C66-4873-B6EF-5761FF398164
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPXE_DHCPV6_MESSAGE, PPXE_DHCPV6_MESSAGE, PPXE_DHCPV6_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE, PXE_DHCPV6_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcpv6_message, wdspxe/PPXE_DHCPV6_MESSAGE, wdspxe/PXE_DHCPV6_MESSAGE"
 ms.topic: struct

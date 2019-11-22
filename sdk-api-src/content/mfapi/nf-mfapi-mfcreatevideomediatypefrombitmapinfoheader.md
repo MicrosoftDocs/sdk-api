@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromBitMapInfoHeader
 title: MFCreateVideoMediaTypeFromBitMapInfoHeader function (mfapi.h)
-author: windows-sdk-content
+
 description: This function is not implemented.
 old-location: mf\mfcreatevideomediatypefrombitmapinfoheader.htm
 tech.root: medfound
 ms.assetid: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640, MFCreateVideoMediaTypeFromBitMapInfoHeader, MFCreateVideoMediaTypeFromBitMapInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheader, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader
 ms.topic: function

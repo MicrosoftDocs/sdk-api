@@ -1,12 +1,12 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003
 title: EndpointFormFactor (mmdeviceapi.h)
-author: windows-sdk-content
+
 description: The EndpointFormFactor enumeration defines constants that indicate the general physical attributes of an audio endpoint device.
 old-location: coreaudio\endpointformfactor.htm
 tech.root: CoreAudio
 ms.assetid: 3fd3782b-c0fc-4d75-8627-d898e7fae436
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DigitalAudioDisplayDevice, EndpointFormFactor, EndpointFormFactor , EndpointFormFactor enumeration [Core Audio], EndpointFormFactor_enum_count, Handset, Headphones, Headset, LineLevel, Microphone, RemoteNetworkDevice, SPDIF, Speakers, UnknownDigitalPassthrough, UnknownFormFactor, coreaudio.endpointformfactor, mmdeviceapi/DigitalAudioDisplayDevice, mmdeviceapi/EndpointFormFactor, mmdeviceapi/EndpointFormFactor_enum_count, mmdeviceapi/Handset, mmdeviceapi/Headphones, mmdeviceapi/Headset, mmdeviceapi/LineLevel, mmdeviceapi/Microphone, mmdeviceapi/RemoteNetworkDevice, mmdeviceapi/SPDIF, mmdeviceapi/Speakers, mmdeviceapi/UnknownDigitalPassthrough, mmdeviceapi/UnknownFormFactor
 ms.topic: enum

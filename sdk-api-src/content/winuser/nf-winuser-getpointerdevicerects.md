@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPointerDeviceRects
 title: GetPointerDeviceRects function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the x and y range for the pointer device (in himetric) and the x and y range (current resolution) for the display that the pointer device is mapped to.
 old-location: input_pointerdevice\getpointerdevicerects.htm
 tech.root: Input_PointerDevice
 ms.assetid: a6586dec-6d57-4345-be56-89c7308c1097
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects
 ms.topic: function

@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 title: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
-author: windows-sdk-content
+
 description: Represents the histogram output buffer for a single component.
 tech.root: mf
 ms.assetid: af5643ac-4095-4d26-8dfe-ef882462d207
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: struct
 f1_keywords:

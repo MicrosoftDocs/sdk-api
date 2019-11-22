@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 title: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Values for the D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_input_gamma.htm
 tech.root: Direct2D
 ms.assetid: F56C9933-B340-4E8B-85BE-CE04E90C9ADC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA enumeration [Direct2D], D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, direct2d.d2d1_highlightsandshadows_input_gamma
 ms.topic: enum

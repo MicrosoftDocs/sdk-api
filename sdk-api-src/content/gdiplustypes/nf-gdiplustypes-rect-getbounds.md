@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Rect.GetBounds
 title: Rect::GetBounds (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The Rect::GetBounds method makes a copy of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbounds_70rect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect class, Rect class [GDI+],GetBounds method, Rect.GetBounds, Rect::GetBounds, _gdiplus_CLASS_Rect_GetBounds_rect_, gdiplus._gdiplus_CLASS_Rect_GetBounds_rect_
 ms.topic: method

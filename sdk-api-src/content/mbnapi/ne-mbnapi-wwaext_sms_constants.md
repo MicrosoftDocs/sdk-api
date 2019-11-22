@@ -1,12 +1,12 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CONSTANTS
 title: WWAEXT_SMS_CONSTANTS (mbnapi.h)
-author: windows-sdk-content
+
 description: The MBN_SMS_CONSTANTS enumerated type contains SMS constant values.
 old-location: mbn\mbn_sms_constants.htm
 tech.root: mbn
 ms.assetid: 2d81e9f7-5e1d-4291-84ad-56578d2f4ae4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MBN_CDMA_SHORT_MSG_SIZE_MAX, MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, MBN_MESSAGE_INDEX_NONE, MBN_SMS_CONSTANTS, MBN_SMS_CONSTANTS enumeration [Microsoft Broadband Networks], WWAEXT_SMS_CONSTANTS, WWAEXT_SMS_CONSTANTS enumeration [Microsoft Broadband Networks], mbn.mbn_sms_constants, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_MAX, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, mbnapi/MBN_MESSAGE_INDEX_NONE, mbnapi/MBN_SMS_CONSTANTS
 ms.topic: enum

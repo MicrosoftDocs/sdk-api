@@ -1,12 +1,12 @@
 ---
 UID: NN:ctfspui.ITfSpeechUIServer
 title: ITfSpeechUIServer (ctfspui.h)
-author: windows-sdk-content
+
 description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.
 old-location: tsf\itfspeechuiserver.htm
 tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
 ms.topic: interface

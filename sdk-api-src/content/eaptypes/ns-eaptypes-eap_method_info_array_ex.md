@@ -1,12 +1,12 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_ARRAY_EX
 title: EAP_METHOD_INFO_ARRAY_EX (eaptypes.h)
-author: windows-sdk-content
+
 description: Contains information about all of the EAP methods installed on the client computer.
 old-location: eaphost\eap_method_info_array_ex.htm
 tech.root: eaphost
 ms.assetid: 3deb04da-3071-4ddd-a7cb-82a1c47c3677
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_ARRAY_EX, EAP_METHOD_INFO_ARRAY_EX structure [EAPHost], PEAP_METHOD_INFO_ARRAY_EX, PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost], eaphost.eap_method_info_array_ex, eaptypes/EAP_METHOD_INFO_ARRAY_EX, eaptypes/PEAP_METHOD_INFO_ARRAY_EX
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.SetIpForwardEntry2
 title: SetIpForwardEntry2 function (netioapi.h)
-author: windows-sdk-content
+
 description: Sets the properties of an IP route entry on the local computer.
 old-location: iphlp\setipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: e11aab0b-6d6c-4e90-a60a-f7d68c09751b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetIpForwardEntry2, SetIpForwardEntry2 function [IP Helper], iphlp.setipforwardentry2, netioapi/SetIpForwardEntry2
 ms.topic: function

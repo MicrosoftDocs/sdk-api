@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetFinalTransform
 title: IMILBitmapEffectRenderContext::GetFinalTransform (mileffects.h)
-author: windows-sdk-content
+
 description: Gets the final MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getfinaltransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getfinaltransform.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFinalTransform, GetFinalTransform method [WPF Bitmap Effects], GetFinalTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetFinalTransform method, IMILBitmapEffectRenderContext.GetFinalTransform, IMILBitmapEffectRenderContext::GetFinalTransform, _wibe_imilbitmapeffectrendercontext_getfinaltransform, mileffects/IMILBitmapEffectRenderContext::GetFinalTransform, wibe._wibe_imilbitmapeffectrendercontext_getfinaltransform
 ms.topic: method

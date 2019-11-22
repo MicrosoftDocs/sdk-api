@@ -1,12 +1,12 @@
 ---
 UID: NF:imessagedispatcher.IMessageDispatcher.PumpMessages
 title: IMessageDispatcher::PumpMessages (imessagedispatcher.h)
-author: windows-sdk-content
+
 description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
 old-location: com\imessagedispatcher_pumpmessages.htm
 tech.root: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDispatcher.PumpMessages, IMessageDispatcher::PumpMessages, PumpMessages, PumpMessages method [COM], PumpMessages method [COM],IMessageDispatcher interface, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
 ms.topic: method

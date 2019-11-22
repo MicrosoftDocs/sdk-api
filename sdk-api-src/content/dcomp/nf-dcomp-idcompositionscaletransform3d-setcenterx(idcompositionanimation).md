@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterX(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the CenterX property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 36F9ACCF-2F70-4F9F-A2E5-8DAF27325B1D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform3D.SetCenterX, IDCompositionScaleTransform3D.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterX, IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterX, directcomp.idcompositionscaletransform3d_setcenterx_idcompositionanimation
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyEraseComplete
 title: IDiscMasterProgressEvents::NotifyEraseComplete (imapi.h)
-author: windows-sdk-content
+
 description: Notifies an application that a call to IDiscRecorder::Erase has finished.
 old-location: imapi\idiscmasterprogressevents_notifyerasecomplete.htm
 tech.root: imapi
 ms.assetid: 17a0debe-919d-4db7-bcbb-eb4fc9973d83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyEraseComplete method, IDiscMasterProgressEvents.NotifyEraseComplete, IDiscMasterProgressEvents::NotifyEraseComplete, NotifyEraseComplete, NotifyEraseComplete method [IMAPI], NotifyEraseComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyerasecomplete, base.idiscmasterprogressevents_notifyerasecomplete, imapi.idiscmasterprogressevents_notifyerasecomplete, imapi/IDiscMasterProgressEvents::NotifyEraseComplete
 ms.topic: method

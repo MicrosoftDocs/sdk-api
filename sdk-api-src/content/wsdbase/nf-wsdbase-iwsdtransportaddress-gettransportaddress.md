@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddress
 title: IWSDTransportAddress::GetTransportAddress (wsdbase.h)
-author: windows-sdk-content
+
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
 ms.topic: method

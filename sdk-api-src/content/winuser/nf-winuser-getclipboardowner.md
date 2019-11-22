@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClipboardOwner
 title: GetClipboardOwner function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the window handle of the current owner of the clipboard.
 old-location: dataxchg\getclipboardowner.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardowner.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClipboardOwner, GetClipboardOwner function [Data Exchange], _win32_GetClipboardOwner, _win32_getclipboardowner_cpp, dataxchg.getclipboardowner, winui._win32_getclipboardowner, winuser/GetClipboardOwner
 ms.topic: function

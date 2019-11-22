@@ -1,12 +1,12 @@
 ---
 UID: NN:directml.IDMLDispatchable
 title: IDMLDispatchable
-author: windows-sdk-content
+
 description: Implemented by objects that can be recorded into a command list for dispatch on the GPU, using IDMLCommandRecorder::RecordDispatch.
 old-location: direct3d12\idmldispatchable.htm
 tech.root: direct3d12
 ms.assetid: 4CE57EB6-0738-4A5B-84FE-9761363F304B
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLDispatchable, IDMLDispatchable interface, IDMLDispatchable interface,described, direct3d12.idmldispatchable, directml/IDMLDispatchable
 ms.topic: interface

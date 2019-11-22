@@ -1,12 +1,12 @@
 ---
 UID: NN:peninputpanel.IPenInputPanel
 title: IPenInputPanel (peninputpanel.h)
-author: windows-sdk-content
+
 description: "."
 old-location: tablet\ipeninputpanel.htm
 tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
 ms.topic: interface

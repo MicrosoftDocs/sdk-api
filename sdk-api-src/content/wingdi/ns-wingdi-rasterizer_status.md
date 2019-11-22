@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi._RASTERIZER_STATUS
 title: RASTERIZER_STATUS (wingdi.h)
-author: windows-sdk-content
+
 description: The RASTERIZER_STATUS structure contains information about whether TrueType is installed. This structure is filled when an application calls the GetRasterizerCaps function.
 old-location: gdi\rasterizer_status.htm
 tech.root: gdi
 ms.assetid: 40bb4b59-90a4-4780-ae5f-fef8a6fa62cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPRASTERIZER_STATUS, LPRASTERIZER_STATUS, LPRASTERIZER_STATUS structure pointer [Windows GDI], RASTERIZER_STATUS, RASTERIZER_STATUS structure [Windows GDI], _win32_RASTERIZER_STATUS_str, gdi.rasterizer_status, wingdi/LPRASTERIZER_STATUS, wingdi/RASTERIZER_STATUS"
 ms.topic: struct

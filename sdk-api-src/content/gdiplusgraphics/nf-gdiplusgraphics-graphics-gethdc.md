@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetHDC
 title: Graphics::GetHDC (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetHDC method gets a handle to the device context associated with this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHDC_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethdc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHDC, GetHDC method [GDI+], GetHDC method [GDI+],Graphics class, Graphics class [GDI+],GetHDC method, Graphics.GetHDC, Graphics::GetHDC, _gdiplus_CLASS_Graphics_GetHDC_, gdiplus._gdiplus_CLASS_Graphics_GetHDC_
 ms.topic: method

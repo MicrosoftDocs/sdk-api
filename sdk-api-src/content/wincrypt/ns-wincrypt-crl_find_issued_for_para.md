@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CRL_FIND_ISSUED_FOR_PARA
 title: CRL_FIND_ISSUED_FOR_PARA (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains the certificate contexts of both a subject and a certificate issuer.
 old-location: security\crl_find_issued_for_para.htm
 tech.root: SecCrypto
 ms.assetid: a5c04859-00bb-4b7d-a98c-5b17bf0fa38a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA structure [Security], PCRL_FIND_ISSUED_FOR_PARA, PCRL_FIND_ISSUED_FOR_PARA structure pointer [Security], _crypto2_crl_find_issued_for_para, security.crl_find_issued_for_para, wincrypt/CRL_FIND_ISSUED_FOR_PARA, wincrypt/PCRL_FIND_ISSUED_FOR_PARA"
 ms.topic: struct

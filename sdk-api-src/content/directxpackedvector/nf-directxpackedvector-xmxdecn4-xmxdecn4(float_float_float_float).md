@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(float,float,float,float)
 title: XMXDECN4::XMXDECN4(float,float,float,float) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMXDECN4 from four normalized floatarguments.
 old-location: dxmath\xmxdecn4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor(float,float,float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(float,float,float,float), XMXDECN4::XMXDECN4, XMXDECN4::XMXDECN4(float,float,float,float), dxmath.xmxdecn4_ctor_3
 ms.topic: method

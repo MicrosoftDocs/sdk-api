@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(XMMATRIX &&)
 title: XMMATRIX::XMMATRIX(XMMATRIX &&) (directxmath.h)
-author: windows-sdk-content
+
 description: A constructor for XMMATRIX.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(XMMATRIX &&), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(XMMATRIX &&), dxmath.xmmatrix_ctor_1
 ms.topic: method

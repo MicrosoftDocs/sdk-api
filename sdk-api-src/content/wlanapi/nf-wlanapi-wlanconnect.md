@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanConnect
 title: WlanConnect function (wlanapi.h)
-author: windows-sdk-content
+
 description: Attempts to connect to a specific network.
 old-location: nwifi\wlanconnect.htm
 tech.root: NativeWiFi
 ms.assetid: 24ab2024-e786-454f-860f-cf2431f001bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetUserData
 title: IMFPMediaItem::GetUserData (mfplay.h)
-author: windows-sdk-content
+
 description: Gets the application-defined value stored in the media item.
 old-location: mf\imfpmediaitem_getuserdata.htm
 tech.root: medfound
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetUserData method, IMFPMediaItem.GetUserData, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
 ms.topic: method

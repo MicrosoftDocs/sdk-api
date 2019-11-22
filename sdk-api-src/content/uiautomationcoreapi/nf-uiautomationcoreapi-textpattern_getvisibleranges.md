@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_GetVisibleRanges
 title: TextPattern_GetVisibleRanges function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Retrieves an array of disjoint text ranges from a text container where each text range begins with the first partially visible line through to the end of the last partially visible line.
 old-location: winauto\uiauto_TextPattern_GetVisibleRangesConPat.htm
 tech.root: WinAuto
 ms.assetid: 509c1d6e-c7ae-4c74-8635-27071ea37696
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function [Windows Accessibility], uiauto.uiauto_TextPattern_GetVisibleRangesConPat, uiauto_TextPattern_GetVisibleRangesConPat, uiautomationcoreapi/TextPattern_GetVisibleRanges, winauto.uiauto_TextPattern_GetVisibleRangesConPat
 ms.topic: function

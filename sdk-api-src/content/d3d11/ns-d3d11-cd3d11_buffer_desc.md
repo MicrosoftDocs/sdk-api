@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.CD3D11_BUFFER_DESC
 title: CD3D11_BUFFER_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Represents a buffer and provides convenience methods for creating buffers.
 old-location: direct3d11\cd3d11_buffer_desc.htm
 tech.root: direct3d11
 ms.assetid: A6ED5755-AB4A-4C35-A344-1693D78F7A4B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC structure [Direct3D 11], d3d11/CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc
 ms.topic: struct

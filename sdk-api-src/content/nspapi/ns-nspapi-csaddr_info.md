@@ -1,12 +1,12 @@
 ---
 UID: NS:nspapi._CSADDR_INFO
 title: CSADDR_INFO (nspapi.h)
-author: windows-sdk-content
+
 description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
 old-location: winsock\csaddr_info_2.htm
 tech.root: WinSock
 ms.assetid: 9cad3586-e315-4f6f-9045-7c95502bb768
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure [Winsock], IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _CSADDR_INFO, _win32_csaddr_info_2, winsock.csaddr_info_2, ws2def/CSADDR_INFO"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.BeginEventInt
 title: ID3D11DeviceContext2::BeginEventInt (d3d11_2.h)
-author: windows-sdk-content
+
 description: Allows applications to annotate the beginning of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_begineventint.htm
 tech.root: direct3d11
 ms.assetid: 9a45e16f-a598-4196-ad9c-8a157ae94de0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginEventInt, BeginEventInt method [Direct3D 11], BeginEventInt method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],BeginEventInt method, ID3D11DeviceContext2.BeginEventInt, ID3D11DeviceContext2::BeginEventInt, d3d11_2/ID3D11DeviceContext2::BeginEventInt, direct3d11.id3d11devicecontext2_begineventint
 ms.topic: method

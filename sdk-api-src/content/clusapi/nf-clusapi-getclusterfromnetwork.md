@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetClusterFromNetwork
 title: GetClusterFromNetwork function (clusapi.h)
-author: windows-sdk-content
+
 description: Returns a handle to the cluster associated with a network.
 old-location: mscs\getclusterfromnetwork.htm
 tech.root: MsCS
 ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromNetwork, GetClusterFromNetwork function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NETWORK, PCLUSAPI_GET_CLUSTER_FROM_NETWORK function [Failover Cluster], _wolf_getclusterfromnetwork, clusapi/GetClusterFromNetwork, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NETWORK, mscs.getclusterfromnetwork
 ms.topic: function

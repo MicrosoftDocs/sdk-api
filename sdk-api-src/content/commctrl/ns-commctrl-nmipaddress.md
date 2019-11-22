@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMIPADDRESS
 title: NMIPADDRESS (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information for the IPN_FIELDCHANGED notification code.
 old-location: controls\NMIPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\structures\nmipaddress.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMIPADDRESS, LPNMIPADDRESS, LPNMIPADDRESS structure pointer [Windows Controls], NMIPADDRESS, NMIPADDRESS structure [Windows Controls], _win32_NMIPADDRESS, _win32_NMIPADDRESS_cpp, commctrl/LPNMIPADDRESS, commctrl/NMIPADDRESS, controls.NMIPADDRESS, controls._win32_NMIPADDRESS'
 ms.topic: struct

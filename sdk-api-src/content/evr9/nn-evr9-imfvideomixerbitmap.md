@@ -1,12 +1,12 @@
 ---
 UID: NN:evr9.IMFVideoMixerBitmap
 title: IMFVideoMixerBitmap (evr9.h)
-author: windows-sdk-content
+
 description: Alpha-blends a static bitmap image with the video displayed by the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideomixerbitmap.htm
 tech.root: medfound
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap
 ms.topic: interface

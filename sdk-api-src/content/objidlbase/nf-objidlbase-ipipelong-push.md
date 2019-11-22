@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IPipeLong.Push
 title: IPipeLong::Push (objidlbase.h)
-author: windows-sdk-content
+
 description: Sends data of the long integer type to the pipe source.
 old-location: com\ipipelong_push.htm
 tech.root: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 ms.topic: method

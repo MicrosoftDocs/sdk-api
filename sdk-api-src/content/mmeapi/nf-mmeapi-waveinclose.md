@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.waveInClose
 title: waveInClose function (mmeapi.h)
-author: windows-sdk-content
+
 description: The waveInClose function closes the given waveform-audio input device.
 old-location: multimedia\waveinclose.htm
 tech.root: Multimedia
 ms.assetid: e064edee-7b13-4fbe-8be9-a8bdfc1cae79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInClose, mmeapi/waveInClose, multimedia.waveinclose, waveInClose, waveInClose function [Windows Multimedia]"
 ms.topic: function

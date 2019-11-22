@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2
 title: XMFLOAT2::XMFLOAT2 (directxmath.h)
-author: windows-sdk-content
+
 description: Default constructor for XMFLOAT2.
 old-location: dxmath\xmfloat2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(), XMFLOAT2::XMFLOAT2, dxmath.xmfloat2_ctor_1
 ms.topic: method

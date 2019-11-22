@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BUFFER_DESC1
 title: D3D11_VIDEO_DECODER_BUFFER_DESC1 (d3d11_1.h)
-author: windows-sdk-content
+
 description: Describes a compressed buffer for decoding.
 old-location: mf\d3d11_video_decoder_buffer_desc1.htm
 tech.root: medfound
 ms.assetid: B35E4E27-6D69-49D4-908E-6EBF6DF5689A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC1, D3D11_VIDEO_DECODER_BUFFER_DESC1 structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BUFFER_DESC1, mf.d3d11_video_decoder_buffer_desc1
 ms.topic: struct

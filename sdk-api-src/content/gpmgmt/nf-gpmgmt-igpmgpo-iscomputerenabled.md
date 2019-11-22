@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsComputerEnabled
 title: IGPMGPO::IsComputerEnabled (gpmgmt.h)
-author: windows-sdk-content
+
 description: Checks whether the computer policies in the GPO are enabled.
 old-location: gpmc\igpmgpo_iscomputerenabled.htm
 tech.root: gpmc
 ms.assetid: c5e235a0-dc12-4ff5-a3ca-0f3492edb713
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],IsComputerEnabled method, IGPMGPO interface [GPMC],IsComputerEnabled method, IGPMGPO.IsComputerEnabled, IGPMGPO::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMGPO class, IsComputerEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_iscomputerenabled, gpmc.igpmgpo_iscomputerenabled, gpmgmt/IGPMGPO::IsComputerEnabled
 ms.topic: method

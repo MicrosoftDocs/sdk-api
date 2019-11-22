@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingFrustum::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-author: windows-sdk-content
+
 description: Tests whether the BoundingFrustum contains the specified triangle.
 old-location: dxmath\boundingfrustum_contains_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains method, BoundingFrustum.Contains, BoundingFrustum.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingFrustum.Contains(XMVECTOR,XMVECTOR,XMVECTOR), BoundingFrustum::Contains, BoundingFrustum::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_contains_2
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:msxml6.tagXHR_CERT
 title: XHR_CERT (msxml6.h)
-author: windows-sdk-content
+
 description: Defines a buffer that points to an encoded certificate.
 old-location: ixhr2\xhr_cert.htm
 tech.root: ixhr2
 ms.assetid: 0BBA4BDA-9A63-44A6-9B90-33B3EAE253C1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PXHR_CERT, PXHR_CERT structure pointer [XMLHttpRequest2], XHR_CERT, XHR_CERT structure [XMLHttpRequest2], ixhr2.xhr_cert, msxml6/PXHR_CERT, msxml6/XHR_CERT, tagXHR_CERT
 ms.topic: struct

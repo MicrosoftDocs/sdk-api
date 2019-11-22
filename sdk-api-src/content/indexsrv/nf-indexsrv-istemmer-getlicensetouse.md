@@ -1,12 +1,12 @@
 ---
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
 title: IStemmer::GetLicenseToUse (indexsrv.h)
-author: windows-sdk-content
+
 description: Gets the license information for this IStemmer implementation.
 old-location: search\_search_IStemmer_GetLicenseToUse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetItemInfo
 title: IWMPContentPartner::GetItemInfo (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getiteminfo.htm
 tech.root: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
 ms.topic: method

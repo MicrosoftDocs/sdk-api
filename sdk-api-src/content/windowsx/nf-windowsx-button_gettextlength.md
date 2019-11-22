@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.Button_GetTextLength
 title: Button_GetTextLength macro (windowsx.h)
-author: windows-sdk-content
+
 description: Gets the number of characters in the text of a button.
 old-location: controls\Button_GetTextLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextlength.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Button_GetTextLength, Button_GetTextLength macro [Windows Controls], _win32_Button_GetTextLength, _win32_Button_GetTextLength_cpp, controls.Button_GetTextLength, controls._win32_Button_GetTextLength, windowsx/Button_GetTextLength
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_VIEW_INSTANCING_FLAGS
 title: D3D12_VIEW_INSTANCING_FLAGS (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies options for view instancing.
 old-location: direct3d12\d3d12_view_instance_flags.htm
 tech.root: direct3d12
 ms.assetid: 3627A9D9-0E32-458D-98A2-CBF9927B2EA6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_VIEW_INSTANCE_FLAGS, D3D12_VIEW_INSTANCING_FLAGS, D3D12_VIEW_INSTANCING_FLAGS enumeration, D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, D3D12_VIEW_INSTANCING_FLAG_NONE, d3d12/D3D12_VIEW_INSTANCING_FLAGS, d3d12/D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12/D3D12_VIEW_INSTANCING_FLAG_NONE, direct3d12.d3d12_view_instance_flags
 ms.topic: enum

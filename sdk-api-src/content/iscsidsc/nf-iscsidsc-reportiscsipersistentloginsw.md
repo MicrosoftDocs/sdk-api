@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.ReportIScsiPersistentLoginsW
 title: ReportIScsiPersistentLoginsW function (iscsidsc.h)
-author: windows-sdk-content
+
 description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets.
 old-location: iscsidisc\reportiscsipersistentlogins.htm
 tech.root: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiPersistentLoginsW, ReportIscsiPersistentLogins, ReportIscsiPersistentLogins function [iSCSI Discovery Library API], ReportIscsiPersistentLoginsA, ReportIscsiPersistentLoginsW, iscsidisc.reportiscsipersistentlogins, iscsidsc/ReportIscsiPersistentLogins, iscsidsc/ReportIscsiPersistentLoginsA, iscsidsc/ReportIscsiPersistentLoginsW
 ms.topic: function

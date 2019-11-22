@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayBackwards
 title: IDvdControl2::PlayBackwards (strmif.h)
-author: windows-sdk-content
+
 description: The PlayBackwards method plays backward at the specified speed from the current location.
 old-location: dshow\idvdcontrol2_playbackwards.htm
 tech.root: DirectShow
 ms.assetid: d195956b-a4e5-493f-a804-9095e3bba4e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayBackwards method, IDvdControl2.PlayBackwards, IDvdControl2::PlayBackwards, IDvdControl2PlayBackwards, PlayBackwards, PlayBackwards method [DirectShow], PlayBackwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playbackwards, strmif/IDvdControl2::PlayBackwards
 ms.topic: method

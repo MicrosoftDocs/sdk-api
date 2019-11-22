@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.WindowFromPoint
 title: WindowFromPoint function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves a handle to the window that contains the specified point.
 old-location: winmsg\windowfrompoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\windowfrompoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WindowFromPoint, WindowFromPoint function [Windows and Messages], _win32_WindowFromPoint, _win32_windowfrompoint_cpp, winmsg.windowfrompoint, winui._win32_windowfrompoint, winuser/WindowFromPoint
 ms.topic: function

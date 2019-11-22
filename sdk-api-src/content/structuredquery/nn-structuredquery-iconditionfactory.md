@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.IConditionFactory
 title: IConditionFactory (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
 old-location: search\_search_IConditionFactory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], IConditionFactory interface [search],described, _search_IConditionFactory, search._search_IConditionFactory, structuredquery/IConditionFactory
 ms.topic: interface

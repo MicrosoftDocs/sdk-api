@@ -1,12 +1,12 @@
 ---
 UID: NF:wabapi.IWABObject.VCardCreate
 title: IWABObject::VCardCreate (wabapi.h)
-author: windows-sdk-content
+
 description: Translates the properties of a given MailUser object into a vCard file.
 old-location: wab\_wab_IWABObject_VCardCreate.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardcreate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWABObject.VCardCreate, IWABObject::VCardCreate, VCardCreate, VCardCreate method [Windows Address Book], VCardCreate method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardCreate, wab._wab_IWABObject_VCardCreate, wabapi/IWABObject::VCardCreate
 ms.topic: method

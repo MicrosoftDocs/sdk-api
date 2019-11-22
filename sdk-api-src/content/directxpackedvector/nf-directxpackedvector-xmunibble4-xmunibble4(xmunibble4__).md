@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(XMUNIBBLE4 &&)
 title: XMUNIBBLE4::XMUNIBBLE4(XMUNIBBLE4 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMUNIBBLE4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(XMUNIBBLE4 &&), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(XMUNIBBLE4 &&), dxmath.xmunibble4_ctor_1
 ms.topic: method

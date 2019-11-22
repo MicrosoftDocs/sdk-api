@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WFDUpdateDeviceVisibility
 title: WFDUpdateDeviceVisibility function (wlanapi.h)
-author: windows-sdk-content
+
 description: Updates device visibility for the Wi-Fi Direct device address for a given installed Wi-Fi Direct device node.
 old-location: nwifi\wfdupdatedevicevisibility.htm
 tech.root: NativeWiFi
 ms.assetid: 696B7466-5ED0-4202-9AAF-CE2544C5A5B8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [NativeWIFI], nwifi.wfdupdatedevicevisibility, wlanapi/WFDUpdateDeviceVisibility
 ms.topic: function

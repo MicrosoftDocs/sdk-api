@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
-author: windows-sdk-content
+
 description: Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setpagefaultenablement.htm
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/08/2019
 ms.keywords: SetPageFaultEnablement, SetPageFaultEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setpagefaultenablement
 ms.topic: method

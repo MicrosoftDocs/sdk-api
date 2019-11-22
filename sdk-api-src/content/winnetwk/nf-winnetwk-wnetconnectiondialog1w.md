@@ -1,12 +1,12 @@
 ---
 UID: NF:winnetwk.WNetConnectionDialog1W
 title: WNetConnectionDialog1W function (winnetwk.h)
-author: windows-sdk-content
+
 description: The WNetConnectionDialog1 function brings up a general browsing dialog for connecting to network resources. The function requires a CONNECTDLGSTRUCT to establish the dialog box parameters.
 old-location: wnet\wnetconnectiondialog1.htm
 tech.root: WNet
 ms.assetid: 11390693-0ab3-4f8b-9209-bc0bceb98032
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Networking (WNet)], WNetConnectionDialog1A, WNetConnectionDialog1W, _win32_wnetconnectiondialog1, winnetwk/WNetConnectionDialog1, winnetwk/WNetConnectionDialog1A, winnetwk/WNetConnectionDialog1W, wnet.wnetconnectiondialog1
 ms.topic: function

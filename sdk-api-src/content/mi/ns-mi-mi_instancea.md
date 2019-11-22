@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_InstanceA
 title: MI_InstanceA (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Instance structures.
 old-location: wmi_v2\mi_instancea.htm
 tech.root: wmi_v2
 ms.assetid: f25514cb-8a2c-43a0-b6c6-b08266d3ee5c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_InstanceA, MI_InstanceA structure [Windows Management Infrastructure (MI)], mi/MI_InstanceA, wmi._mi_instancea, wmi_v2.mi_instancea
 ms.topic: struct

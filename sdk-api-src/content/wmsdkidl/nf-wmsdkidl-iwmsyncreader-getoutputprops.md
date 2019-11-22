@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputProps
 title: IWMSyncReader::GetOutputProps (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetOutputProps method retrieves the current properties of an uncompressed output stream.
 old-location: wmformat\iwmsyncreader_getoutputprops.htm
 tech.root: wmformat
 ms.assetid: a5e701ea-8b53-4abe-8b78-7c6fb151d80f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputProps method, IWMSyncReader.GetOutputProps, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
 ms.topic: method

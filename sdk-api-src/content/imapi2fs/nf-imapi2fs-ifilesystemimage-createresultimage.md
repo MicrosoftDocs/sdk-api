@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateResultImage
 title: IFileSystemImage::CreateResultImage (imapi2fs.h)
-author: windows-sdk-content
+
 description: Create the result object that contains the file system and file data.
 old-location: imapi\ifilesystemimage_createresultimage.htm
 tech.root: imapi
 ms.assetid: 6f7d2438-5c80-4461-8b48-646f0ca44498
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateResultImage method, IFileSystemImage.CreateResultImage, IFileSystemImage::CreateResultImage, imapi.ifilesystemimage_createresultimage, imapi2fs/IFileSystemImage::CreateResultImage
 ms.topic: method

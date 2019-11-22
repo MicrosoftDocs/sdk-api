@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IEnumConnections.Clone
 title: IEnumConnections::Clone (ocidl.h)
-author: windows-sdk-content
+
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumconnections_clone.htm
 tech.root: com
 ms.assetid: 00edeff3-a2e4-4e25-8771-32e3e4353274
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnections interface, IEnumConnections interface [COM],Clone method, IEnumConnections.Clone, IEnumConnections::Clone, _com_ienumconnections_clone, com.ienumconnections_clone, ocidl/IEnumConnections::Clone
 ms.topic: method

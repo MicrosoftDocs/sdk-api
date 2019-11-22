@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiOpenPackageExW
 title: MsiOpenPackageExW function (msi.h)
-author: windows-sdk-content
+
 description: The MsiOpenPackageEx function opens a package to use with functions that access the product database.
 old-location: setup\msiopenpackageex.htm
 tech.root: Msi
 ms.assetid: 9e9550e9-9c10-4ef1-a172-dfacaaa37fd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE, MsiOpenPackageEx, MsiOpenPackageEx function, MsiOpenPackageExA, MsiOpenPackageExW, _msi_msiopenpackageex, msi/MsiOpenPackageEx, msi/MsiOpenPackageExA, msi/MsiOpenPackageExW, setup.msiopenpackageex
 ms.topic: function

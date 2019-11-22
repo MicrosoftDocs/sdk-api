@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IPipeByte
 title: IPipeByte (objidl.h)
-author: windows-sdk-content
+
 description: Transfers data of the byte type (which is 8 bits wide).
 old-location: com\ipipebyte.htm
 tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 ms.topic: interface

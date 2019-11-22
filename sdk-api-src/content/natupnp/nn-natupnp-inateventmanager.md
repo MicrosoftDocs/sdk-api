@@ -1,12 +1,12 @@
 ---
 UID: NN:natupnp.INATEventManager
 title: INATEventManager (natupnp.h)
-author: windows-sdk-content
+
 description: The INATEventManager interface provides methods for NAT applications with UPnP technology to register callback interfaces with the NAT. The system calls the methods in these interfaces when the configuration of the NAT changes.
 old-location: ics\inateventmanager.htm
 tech.root: ics
 ms.assetid: 18c5df1a-e57e-4f44-bac5-a5861f939673
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventManager interface [ICS/ICF],described, _ics_inateventmanager, ics.inateventmanager, natupnp/INATEventManager
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTransformGroup
 title: IDCompositionDevice2::CreateTransformGroup (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a 2D transform group object that holds an array of 2D transform objects.
 old-location: directcomp\idcompositiondevice2_createtransformgroup.htm
 tech.root: directcomp
 ms.assetid: D71C813E-1660-4BA6-961D-A0EB77D16FC2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTransformGroup, CreateTransformGroup method [DirectComposition], CreateTransformGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTransformGroup method, IDCompositionDevice2.CreateTransformGroup, IDCompositionDevice2::CreateTransformGroup, dcomp/IDCompositionDevice2::CreateTransformGroup, directcomp.idcompositiondevice2_createtransformgroup
 ms.topic: method

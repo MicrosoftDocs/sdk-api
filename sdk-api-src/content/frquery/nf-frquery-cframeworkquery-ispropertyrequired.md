@@ -1,12 +1,12 @@
 ---
 UID: NF:frquery.CFrameworkQuery.IsPropertyRequired
 title: CFrameworkQuery::IsPropertyRequired (frquery.h)
-author: windows-sdk-content
+
 description: The IsPropertyRequired method determines if a particular property was requested by the query. Both the SELECT and WHERE clauses are checked.
 old-location: wmi\cframeworkquery_ispropertyrequired.htm
 tech.root: WmiSdk
 ms.assetid: 36f5a261-435c-494d-aae5-a420eee030f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],IsPropertyRequired method, CFrameworkQuery.IsPropertyRequired, CFrameworkQuery::IsPropertyRequired, IsPropertyRequired, IsPropertyRequired method [Windows Management Instrumentation], IsPropertyRequired method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_ispropertyrequired, frquery/CFrameworkQuery::IsPropertyRequired, wmi.cframeworkquery_ispropertyrequired
 ms.topic: method

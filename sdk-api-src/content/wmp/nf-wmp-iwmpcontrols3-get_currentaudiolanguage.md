@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPControls3.get_currentAudioLanguage
 title: IWMPControls3::get_currentAudioLanguage (wmp.h)
-author: windows-sdk-content
+
 description: The get_currentAudioLanguage method retrieves the locale identifier (LCID) of the audio language for playback.
 old-location: wmp\iwmpcontrols3_get_currentaudiolanguage.htm
 tech.root: WMP
 ms.assetid: 6ea76479-950d-4bbf-a0e9-0e7b4ddecd52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentAudioLanguage method, IWMPControls3.get_currentAudioLanguage, IWMPControls3::get_currentAudioLanguage, IWMPControls3get_currentAudioLanguage, get_currentAudioLanguage, get_currentAudioLanguage method [Windows Media Player], get_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentaudiolanguage, wmp/IWMPControls3::get_currentAudioLanguage
 ms.topic: method

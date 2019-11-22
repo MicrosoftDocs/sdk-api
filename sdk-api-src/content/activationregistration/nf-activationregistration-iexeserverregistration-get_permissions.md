@@ -1,12 +1,12 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Permissions
 title: IExeServerRegistration::get_Permissions (activationregistration.h)
-author: windows-sdk-content
+
 description: Gets the permissions for the out-of-process server.
 old-location: winrt\iexeserverregistration_permissions.htm
 tech.root: WinRT
 ms.assetid: 06267C33-11B4-4B55-8D2C-A20926EE89DF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Permissions method, IExeServerRegistration.get_Permissions, IExeServerRegistration::get_Permissions, activationregistration/IExeServerRegistration::get_Permissions, get_Permissions, get_Permissions method [Windows Runtime], get_Permissions method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_permissions
 ms.topic: method

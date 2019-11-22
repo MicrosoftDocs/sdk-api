@@ -1,12 +1,12 @@
 ---
 UID: NE:mftransform._MFT_PROCESS_OUTPUT_FLAGS
 title: _MFT_PROCESS_OUTPUT_FLAGS (mftransform.h)
-author: windows-sdk-content
+
 description: Defines flags for processing output samples in a Media Foundation transform (MFT).
 old-location: mf\_mft_process_output_flags.htm
 tech.root: medfound
 ms.assetid: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf, MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, _MFT_PROCESS_OUTPUT_FLAGS, _MFT_PROCESS_OUTPUT_FLAGS enumeration [Media Foundation], mf._mft_process_output_flags, mftransform/MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mftransform/MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, mftransform/_MFT_PROCESS_OUTPUT_FLAGS
 ms.topic: enum

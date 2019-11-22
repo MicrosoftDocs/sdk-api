@@ -1,12 +1,12 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAndOrCondition
 title: UiaAndOrCondition (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Note  This structure is deprecated.  Contains information about a complex condition.
 old-location: winauto\uiauto_UiaAndOrConditionStruct.htm
 tech.root: WinAuto
 ms.assetid: de71d10e-ca81-4f66-a137-ae46adb47b4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaAndOrCondition, UiaAndOrCondition structure [Windows Accessibility], uiauto.uiauto_UiaAndOrConditionStruct, uiauto_UiaAndOrConditionStruct, uiautomationcoreapi/UiaAndOrCondition, winauto.uiauto_UiaAndOrConditionStruct
 ms.topic: struct

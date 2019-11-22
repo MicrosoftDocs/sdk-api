@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition
 title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition (uianimation.h)
-author: windows-sdk-content
+
 description: Creates an accelerate-decelerate transition.
 old-location: uianimation\iuianimationtransitionlibrary_createacceleratedeceleratetransition.htm
 tech.root: UIAnimation
 ms.assetid: 97a0c6cc-991b-464f-b000-1d1199c5f4de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
 ms.topic: method

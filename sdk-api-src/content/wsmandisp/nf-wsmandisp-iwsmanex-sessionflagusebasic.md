@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseBasic
 title: IWSManEx::SessionFlagUseBasic (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the authentication flag WSManFlagUseBasic for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusebasic.htm
 tech.root: winrm
 ms.assetid: 6b7457e2-1c19-4b33-bb38-5068f3c295cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseBasic method, IWSManEx.SessionFlagUseBasic, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
 ms.topic: method

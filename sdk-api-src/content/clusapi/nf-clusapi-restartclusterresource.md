@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.RestartClusterResource
 title: RestartClusterResource function (clusapi.h)
-author: windows-sdk-content
+
 description: Restarts a cluster resource.
 old-location: mscs\restartclusterresource.htm
 tech.root: MsCS
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.topic: function

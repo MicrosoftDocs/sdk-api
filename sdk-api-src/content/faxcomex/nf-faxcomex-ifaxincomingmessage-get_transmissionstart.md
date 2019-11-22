@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_TransmissionStart
 title: IFaxIncomingMessage::get_TransmissionStart (faxcomex.h)
-author: windows-sdk-content
+
 description: The TransmissionStart property indicates the time that the inbound fax message began transmitting.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionstart_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_04ms.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],TransmissionStart property, IFaxIncomingMessage.TransmissionStart, IFaxIncomingMessage.get_TransmissionStart, IFaxIncomingMessage::TransmissionStart, IFaxIncomingMessage::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.transmissionstart, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionstart_cpp, fax._mfax_faxincomingmessage_transmissionstart, faxcomex/IFaxIncomingMessage::TransmissionStart, faxcomex/IFaxIncomingMessage::get_TransmissionStart, get_TransmissionStart
 ms.topic: method

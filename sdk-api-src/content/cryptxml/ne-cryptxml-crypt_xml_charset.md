@@ -1,12 +1,12 @@
 ---
 UID: NE:cryptxml.__unnamed_enum_0
 title: CRYPT_XML_CHARSET (cryptxml.h)
-author: windows-sdk-content
+
 description: Used to specify the character set used in the XML.
 old-location: security\crypt_xml_charset.htm
 tech.root: SecCrypto
 ms.assetid: 3f115ac1-a8ed-4151-b3f3-7ddb695802a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_CHARSET, CRYPT_XML_CHARSET enumeration [Security], CRYPT_XML_CHARSET_AUTO, CRYPT_XML_CHARSET_UTF16BE, CRYPT_XML_CHARSET_UTF16LE, CRYPT_XML_CHARSET_UTF8, cryptxml/CRYPT_XML_CHARSET, cryptxml/CRYPT_XML_CHARSET_AUTO, cryptxml/CRYPT_XML_CHARSET_UTF16BE, cryptxml/CRYPT_XML_CHARSET_UTF16LE, cryptxml/CRYPT_XML_CHARSET_UTF8, security.crypt_xml_charset
 ms.topic: enum

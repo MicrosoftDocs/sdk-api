@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspixelformats.IsExtendedPixelFormat
 title: IsExtendedPixelFormat function (gdipluspixelformats.h)
-author: windows-sdk-content
+
 description: The IsExtendedPixelFormat method determines whether a specified pixel format uses 16 bits per color channel.
 old-location: gdiplus\_gdiplus_FUNC_IsExtendedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isextendedpixelformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsExtendedPixelFormat, IsExtendedPixelFormat function [GDI+], _gdiplus_FUNC_IsExtendedPixelFormat_, gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_, gdipluspixelformats/IsExtendedPixelFormat
 ms.topic: function

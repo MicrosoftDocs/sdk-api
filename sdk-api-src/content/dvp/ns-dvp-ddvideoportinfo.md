@@ -1,12 +1,12 @@
 ---
 UID: NS:dvp._DDVIDEOPORTINFO
 title: DDVIDEOPORTINFO (dvp.h)
-author: windows-sdk-content
+
 description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.
 old-location: display\ddvideoportinfo.htm
 tech.root: display
 ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_RADIO_STATE
 title: WLAN_HOSTED_NETWORK_RADIO_STATE (wlanapi.h)
-author: windows-sdk-content
+
 description: Contains information about the radio state on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_radio_state.htm
 tech.root: NativeWiFi
 ms.assetid: a84db78d-f6fd-48c4-80e8-a0d16f4dc3ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_RADIO_STATE, PWLAN_HOSTED_NETWORK_RADIO_STATE, PWLAN_HOSTED_NETWORK_RADIO_STATE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_RADIO_STATE, WLAN_HOSTED_NETWORK_RADIO_STATE structure [NativeWIFI], nwifi.wlan_hosted_network_radio_state, wlanapi/PWLAN_HOSTED_NETWORK_RADIO_STATE, wlanapi/WLAN_HOSTED_NETWORK_RADIO_STATE"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.GetPaintType
 title: ID2D1SvgPaint::GetPaintType (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets the paint type.
 old-location: direct2d\id2d1svgpaint_getpainttype.htm
 tech.root: Direct2D
 ms.assetid: 1EAF1119-BCBC-40B2-B1D6-60B72AEC79DF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPaintType, GetPaintType method [Direct2D], GetPaintType method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetPaintType method, ID2D1SvgPaint.GetPaintType, ID2D1SvgPaint::GetPaintType, d2d1svg/ID2D1SvgPaint::GetPaintType, direct2d.id2d1svgpaint_getpainttype
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetToIdentity
 title: ImageAttributes::SetToIdentity (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::SetToIdentity method sets the color-adjustment matrix of a specified category to identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetToIdentity_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\settoidentity.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetToIdentity method, ImageAttributes.SetToIdentity, ImageAttributes::SetToIdentity, SetToIdentity, SetToIdentity method [GDI+], SetToIdentity method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetToIdentity_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetToIdentity_type_
 ms.topic: method

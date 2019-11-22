@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_String
 title: IInkRecognitionAlternate::get_String (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the top string of the alternate.
 old-location: tablet\iinkrecognitionalternate_string.htm
 tech.root: tablet
 ms.assetid: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c, IInkRecognitionAlternate interface [Tablet PC],String property, IInkRecognitionAlternate.String, IInkRecognitionAlternate.get_String, IInkRecognitionAlternate::String, IInkRecognitionAlternate::get_String, String property [Tablet PC], String property [Tablet PC],IInkRecognitionAlternate interface, get_String, msinkaut/IInkRecognitionAlternate::String, msinkaut/IInkRecognitionAlternate::get_String, tablet.iinkrecognitionalternate_string
 ms.topic: method

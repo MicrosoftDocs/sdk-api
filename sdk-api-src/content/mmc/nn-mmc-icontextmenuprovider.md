@@ -1,12 +1,12 @@
 ---
 UID: NN:mmc.IContextMenuProvider
 title: IContextMenuProvider (mmc.h)
-author: windows-sdk-content
+
 description: The IContextMenuProvider interface implements methods that create new context menus, for the purpose of adding items to those menus, to enable extensions to extend those menus, and to display the resulting context menus.
 old-location: mmc\icontextmenuprovider.htm
 tech.root: mmc
 ms.assetid: 3f9a5945-9b34-41fe-9c91-c782eb7eb739
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IContextMenuProvider, IContextMenuProvider interface [MMC], IContextMenuProvider interface [MMC],described, _slate_icontextmenuprovider, mmc.icontextmenuprovider, mmc/IContextMenuProvider
 ms.topic: interface

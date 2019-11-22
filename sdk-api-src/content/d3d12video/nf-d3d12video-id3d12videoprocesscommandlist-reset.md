@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.Reset
 title: ID3D12VideoProcessCommandList::Reset
-author: windows-sdk-content
+
 description: Resets a command list back to its initial state as if a new command list was just created.
 tech.root: mf
 ms.assetid: 95ddb93d-313e-48a3-ac09-e4675b4a1cad
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

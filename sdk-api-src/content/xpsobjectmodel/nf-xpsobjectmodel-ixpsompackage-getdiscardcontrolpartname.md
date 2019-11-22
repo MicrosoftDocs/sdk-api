@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetDiscardControlPartName
 title: IXpsOMPackage::GetDiscardControlPartName (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the name of the discard control part in the XPS package.
 old-location: xps\ixpsompackage_getdiscardcontrolpartname.htm
 tech.root: printdocs
 ms.assetid: e1c60001-0a0c-4ff9-bb17-fef3e47b16a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDiscardControlPartName, GetDiscardControlPartName method [XPS Documents and Packaging], GetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDiscardControlPartName method, IXpsOMPackage.GetDiscardControlPartName, IXpsOMPackage::GetDiscardControlPartName, xps.ixpsompackage_getdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::GetDiscardControlPartName
 ms.topic: method

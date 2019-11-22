@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMSetRevocationPoint
 title: DRMSetRevocationPoint function (msdrm.h)
-author: windows-sdk-content
+
 description: Sets a refresh rate and location to obtain a revocation list.
 old-location: rm\drmsetrevocationpoint.htm
 tech.root: AdRms_Sdk
 ms.assetid: a9f4ff8d-1b9f-46f4-8a69-5957d4b2aefb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMSetRevocationPoint, DRMSetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetRevocationPoint, rm.drmsetrevocationpoint
 ms.topic: function

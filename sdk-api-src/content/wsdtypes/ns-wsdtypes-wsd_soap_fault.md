@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_FAULT
 title: WSD_SOAP_FAULT (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a generated SOAP fault.
 old-location: ncd\wsd_soap_fault_struct.htm
 tech.root: WsdApi
 ms.assetid: ed5e2575-203a-41a2-b656-50cb82aae088
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT, WSD_SOAP_FAULT structure, ncd.wsd_soap_fault_struct, wsdtypes/WSD_SOAP_FAULT
 ms.topic: struct

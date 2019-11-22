@@ -1,12 +1,12 @@
 ---
 UID: NS:oaidl.tagBINDPTR
 title: BINDPTR (oaidl.h)
-author: windows-sdk-content
+
 description: Describes a pointer.
 old-location: automat\bindptr.htm
 tech.root: automat
 ms.assetid: 7035df31-3b13-4297-8464-b86f64d38f20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPBINDPTR, BINDPTR, BINDPTR structure [Automation], LPBINDPTR, LPBINDPTR structure pointer [Automation], _oa96_BINDPTR, automat.bindptr, oaidl/BINDPTR, oaidl/LPBINDPTR"
 ms.topic: struct

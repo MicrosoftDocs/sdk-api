@@ -1,12 +1,12 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetStringAttribute
 title: IWCNDevice::GetStringAttribute (wcndevice.h)
-author: windows-sdk-content
+
 description: The IWCNDevice::GetStringAttribute method gets a cached attribute from the device as a string.
 old-location: wcn\iwcndevice_getstringattribute.htm
 tech.root: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
 ms.topic: method

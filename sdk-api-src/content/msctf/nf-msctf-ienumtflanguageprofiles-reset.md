@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Reset
 title: IEnumTfLanguageProfiles::Reset (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfLanguageProfiles::Reset method
 old-location: tsf\ienumtflanguageprofiles_reset.htm
 tech.root: TSF
 ms.assetid: 30be7551-f326-4132-814a-a896b148f2fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Reset method, IEnumTfLanguageProfiles.Reset, IEnumTfLanguageProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
 ms.topic: method

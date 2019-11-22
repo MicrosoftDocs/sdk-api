@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsKnowledge
 title: ISyncKnowledge::ContainsKnowledge (winsync.h)
-author: windows-sdk-content
+
 description: Indicates whether the specified knowledge is known by this knowledge.
 old-location: winsync\isyncknowledge_containsknowledge.htm
 tech.root: winsync
 ms.assetid: b6b58390-84be-48ff-a3b9-3b3c83d4f661
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContainsKnowledge, ContainsKnowledge method [Windows Sync], ContainsKnowledge method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsKnowledge method, ISyncKnowledge.ContainsKnowledge, ISyncKnowledge::ContainsKnowledge, winsync.isyncknowledge_containsknowledge, winsync/ISyncKnowledge::ContainsKnowledge
 ms.topic: method

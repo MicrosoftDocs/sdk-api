@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 title: D3D12_VIDEO_DECODE_SUPPORT_FLAGS
-author: windows-sdk-content
+
 description: Specifies whether a video decoding operation is supported.
 tech.root: mf
 ms.assetid: af73b6a9-3d14-4242-b0b3-b1783ebf2c7b
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

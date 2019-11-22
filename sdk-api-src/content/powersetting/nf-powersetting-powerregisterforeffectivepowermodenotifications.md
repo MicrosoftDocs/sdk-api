@@ -1,12 +1,12 @@
 ---
 UID: NF:powersetting.PowerRegisterForEffectivePowerModeNotifications
 title: PowerRegisterForEffectivePowerModeNotifications function (powersetting.h)
-author: windows-sdk-content
+
 description: Registers a callback to receive effective power mode change notifications.
 old-location: base\powerregisterforeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 3C87643F-A8DA-4230-A216-8F46629BB6FB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
 ms.topic: function

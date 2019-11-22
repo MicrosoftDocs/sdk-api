@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IAppVisibilityEvents.AppVisibilityOnMonitorChanged
 title: IAppVisibilityEvents::AppVisibilityOnMonitorChanged (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Notifies a client that the mode of a display has changed.
 old-location: shell\IAppVisibilityEvents_AppVisibilityOnMonitorChanged.htm
 tech.root: shell
 ms.assetid: a3fe5a6b-bb8b-4a9d-9ae2-529cce1291ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AppVisibilityOnMonitorChanged, AppVisibilityOnMonitorChanged method [Windows Shell], AppVisibilityOnMonitorChanged method [Windows Shell],IAppVisibilityEvents interface, IAppVisibilityEvents interface [Windows Shell],AppVisibilityOnMonitorChanged method, IAppVisibilityEvents.AppVisibilityOnMonitorChanged, IAppVisibilityEvents::AppVisibilityOnMonitorChanged, shell.IAppVisibilityEvents_AppVisibilityOnMonitorChanged, shobjidl_core/IAppVisibilityEvents::AppVisibilityOnMonitorChanged
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:gpedit.IGroupPolicyObject
 title: IGroupPolicyObject (gpedit.h)
-author: windows-sdk-content
+
 description: The IGroupPolicyObject interface provides methods to create and modify a GPO directly, without using the Group Policy Object Editor.
 old-location: policy\igrouppolicyobject.htm
 tech.root: Policy
 ms.assetid: b3cd31a1-c238-4eb2-8164-9c4891e6227b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IGroupPolicyObject interface [Group Policy],described, _win32_igrouppolicyobject, gpedit/IGroupPolicyObject, policy.igrouppolicyobject
 ms.topic: interface

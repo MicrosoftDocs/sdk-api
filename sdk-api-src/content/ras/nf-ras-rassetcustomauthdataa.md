@@ -1,12 +1,12 @@
 ---
 UID: NF:ras.RasSetCustomAuthDataA
 title: RasSetCustomAuthDataA function (ras.h)
-author: windows-sdk-content
+
 description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user.
 old-location: rras\rassetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata
 ms.topic: function

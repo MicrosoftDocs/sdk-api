@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSRegisterPropertySchema
 title: PSRegisterPropertySchema function (propsys.h)
-author: windows-sdk-content
+
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\PSRegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: ea9c4361-fada-4b07-b450-dd0c6409745a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
 ms.topic: function

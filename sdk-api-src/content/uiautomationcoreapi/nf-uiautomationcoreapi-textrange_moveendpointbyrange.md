@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_MoveEndpointByRange
 title: TextRange_MoveEndpointByRange function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Moves an endpoint of one range to the endpoint of another range.
 old-location: winauto\uiauto_TextRange_MoveEndpointByRangeConPat.htm
 tech.root: WinAuto
 ms.assetid: ec26280d-76f2-447b-9547-0484c5140e89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextRange_MoveEndpointByRange, TextRange_MoveEndpointByRange function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByRangeConPat, uiauto_TextRange_MoveEndpointByRangeConPat, uiautomationcoreapi/TextRange_MoveEndpointByRange, winauto.uiauto_TextRange_MoveEndpointByRangeConPat
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:ioapiset.CancelIo
 title: CancelIo function (ioapiset.h)
-author: windows-sdk-content
+
 description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
 old-location: fs\cancelio.htm
 tech.root: FileIO
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio, fs.cancelio, ioapiset/CancelIo, winbase/CancelIo
 ms.topic: function

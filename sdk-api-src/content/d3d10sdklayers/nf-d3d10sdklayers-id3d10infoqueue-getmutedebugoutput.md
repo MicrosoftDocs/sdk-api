@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetMuteDebugOutput
 title: ID3D10InfoQueue::GetMuteDebugOutput (d3d10sdklayers.h)
-author: windows-sdk-content
+
 description: Get a boolean that turns the debug output on or off.
 old-location: direct3d10\id3d10infoqueue_getmutedebugoutput.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmutedebugoutput.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9a2ef90e-dbc8-6d45-56ca-751c465da991, GetMuteDebugOutput, GetMuteDebugOutput method [Direct3D 10], GetMuteDebugOutput method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMuteDebugOutput method, ID3D10InfoQueue.GetMuteDebugOutput, ID3D10InfoQueue::GetMuteDebugOutput, d3d10sdklayers/ID3D10InfoQueue::GetMuteDebugOutput, direct3d10.id3d10infoqueue_getmutedebugoutput
 ms.topic: method

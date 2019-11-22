@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.InitializeDevice
 title: IVMRSurfaceAllocator9::InitializeDevice (vmr9.h)
-author: windows-sdk-content
+
 description: The InitializeDevice method is called by the Video Mixing Renderer 9 (VMR-9) when it needs the allocator-presenter to allocate surfaces.
 old-location: dshow\ivmrsurfaceallocator9_initializedevice.htm
 tech.root: DirectShow
 ms.assetid: 44c22dc0-98a9-4a6e-a488-1d70dfff6acd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],InitializeDevice method, IVMRSurfaceAllocator9.InitializeDevice, IVMRSurfaceAllocator9::InitializeDevice, IVMRSurfaceAllocator9InitializeDevice, InitializeDevice, InitializeDevice method [DirectShow], InitializeDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_initializedevice, vmr9/IVMRSurfaceAllocator9::InitializeDevice
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:mftransform.IMFTransform
 title: IMFTransform (mftransform.h)
-author: windows-sdk-content
+
 description: Implemented by all Media Foundation Transforms (MFTs).
 old-location: mf\imftransform.htm
 tech.root: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioning
 title: ITsSbProvisioning (sbtsv.h)
-author: windows-sdk-content
+
 description: Exposes methods that create and maintain virtual machines.
 old-location: termserv\itssbprovisioning.htm
 tech.root: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
 ms.topic: interface

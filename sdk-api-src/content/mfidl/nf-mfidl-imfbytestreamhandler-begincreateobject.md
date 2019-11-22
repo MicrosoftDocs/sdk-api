@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.BeginCreateObject
 title: IMFByteStreamHandler::BeginCreateObject (mfidl.h)
-author: windows-sdk-content
+
 description: Begins an asynchronous request to create a media source from a byte stream.
 old-location: mf\imfbytestreamhandler_begincreateobject.htm
 tech.root: medfound
 ms.assetid: 31dffadd-4a5a-4306-80e9-9002782f092c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 31dffadd-4a5a-4306-80e9-9002782f092c, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],BeginCreateObject method, IMFByteStreamHandler.BeginCreateObject, IMFByteStreamHandler::BeginCreateObject, mf.imfbytestreamhandler_begincreateobject, mfidl/IMFByteStreamHandler::BeginCreateObject
 ms.topic: method

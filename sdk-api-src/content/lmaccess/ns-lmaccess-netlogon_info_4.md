@@ -1,12 +1,12 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_4
 title: NETLOGON_INFO_4 (lmaccess.h)
-author: windows-sdk-content
+
 description: Defines a level-4 control query response from a domain controller.
 old-location: winprog\netlogon_info_4.htm
 tech.root: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
 ms.topic: struct

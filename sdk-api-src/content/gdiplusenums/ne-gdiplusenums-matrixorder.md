@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.MatrixOrder
 title: MatrixOrder (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The MatrixOrder enumeration specifies the order of multiplication when a new matrix is multiplied by an existing matrix.
 old-location: gdiplus\_gdiplus_ENUM_MatrixOrder.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\matrixorder.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MatrixOrder, MatrixOrder enumeration [GDI+], MatrixOrderAppend, MatrixOrderPrepend, _gdiplus_ENUM_MatrixOrder, gdiplus._gdiplus_ENUM_MatrixOrder, gdiplusenums/MatrixOrder, gdiplusenums/MatrixOrderAppend, gdiplusenums/MatrixOrderPrepend
 ms.topic: enum

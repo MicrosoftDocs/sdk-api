@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capCaptureAbort
 title: capCaptureAbort macro (vfw.h)
-author: windows-sdk-content
+
 description: The capCaptureAbort macro stops the capture operation. You can use this macro or explictly send the WM_CAP_ABORT message.
 old-location: multimedia\capcaptureabort.htm
 tech.root: Multimedia
 ms.assetid: a1c17695-ee91-4f76-a2be-a6e512903c8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort"
 ms.topic: macro

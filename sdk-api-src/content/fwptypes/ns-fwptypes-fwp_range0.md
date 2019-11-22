@@ -1,12 +1,12 @@
 ---
 UID: NS:fwptypes.FWP_RANGE0_
 title: FWP_RANGE0 (fwptypes.h)
-author: windows-sdk-content
+
 description: Specifies a range of values.
 old-location: fwp\fwp_range0.htm
 tech.root: fwp
 ms.assetid: 191ec0e4-2489-4f6f-80c5-8feec83d69c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWP_RANGE0, FWP_RANGE0 structure [Filtering], fwp.fwp_range0, fwptypes/FWP_RANGE0
 ms.topic: struct

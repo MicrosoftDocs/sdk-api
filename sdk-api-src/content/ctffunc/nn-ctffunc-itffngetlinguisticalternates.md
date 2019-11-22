@@ -1,12 +1,12 @@
 ---
 UID: NN:ctffunc.ITfFnGetLinguisticAlternates
 title: ITfFnGetLinguisticAlternates (ctffunc.h)
-author: windows-sdk-content
+
 description: The ITfFnGetLinguisticAlternates interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
 old-location: tsf\itffngetlinguisticalternates.htm
 tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
 ms.topic: interface

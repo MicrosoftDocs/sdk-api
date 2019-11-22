@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrm.IFsrmObject.Delete
 title: IFsrmObject::Delete (fsrm.h)
-author: windows-sdk-content
+
 description: Removes the object from the server's list of objects.
 old-location: fsrm\ifsrmobject_delete.htm
 tech.root: fsrm
 ms.assetid: ce8a17fe-377b-4a0e-9a95-7dc25a1411ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Delete method, IFsrmObject.Delete, IFsrmObject::Delete, fs.ifsrmobject_delete, fsrm.ifsrmobject_delete, fsrm/IFsrmObject::Delete
 ms.topic: method

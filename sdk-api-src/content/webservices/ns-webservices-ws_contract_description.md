@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CONTRACT_DESCRIPTION
 title: WS_CONTRACT_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: The metadata for a service contract for service model.
 old-location: wsw\ws_contract_description.htm
 tech.root: wsw
 ms.assetid: 0b2a5516-6faf-43d5-9370-a25dbc7e2843
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CONTRACT_DESCRIPTION, WS_CONTRACT_DESCRIPTION structure [Web Services for Windows], webservices/WS_CONTRACT_DESCRIPTION, wsw.ws_contract_description
 ms.topic: struct

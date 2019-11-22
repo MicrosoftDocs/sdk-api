@@ -1,12 +1,12 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
 title: IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory (audioengineendpoint.h)
-author: windows-sdk-content
+
 description: Creates and writes the exclusive-mode parameters to shared memory.
 old-location: termserv\iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory.htm
 tech.root: TermServ
 ms.assetid: 0484432a-4bbe-4892-8888-f11d6384d387
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
 ms.topic: method

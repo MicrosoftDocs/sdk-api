@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10.ID3D10Texture3D.GetDesc
 title: ID3D10Texture3D::GetDesc (d3d10.h)
-author: windows-sdk-content
+
 description: Get the properties of the texture resource.
 old-location: direct3d10\id3d10texture3d_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d_getdesc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0d2ee7c3-9da3-12e6-8b1c-f54bd03625e1, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Texture3D interface, ID3D10Texture3D interface [Direct3D 10],GetDesc method, ID3D10Texture3D.GetDesc, ID3D10Texture3D::GetDesc, d3d10/ID3D10Texture3D::GetDesc, direct3d10.id3d10texture3d_getdesc
 ms.topic: method

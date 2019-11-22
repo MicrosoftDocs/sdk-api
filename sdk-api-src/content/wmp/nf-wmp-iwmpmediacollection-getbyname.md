@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByName
 title: IWMPMediaCollection::getByName (wmp.h)
-author: windows-sdk-content
+
 description: The getByName method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified name.
 old-location: wmp\iwmpmediacollection_getbyname.htm
 tech.root: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByName method, IWMPMediaCollection.getByName, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
 ms.topic: method

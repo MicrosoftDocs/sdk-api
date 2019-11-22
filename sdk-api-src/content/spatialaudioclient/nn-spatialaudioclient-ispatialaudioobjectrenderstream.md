@@ -1,12 +1,12 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStream
 title: ISpatialAudioObjectRenderStream (spatialaudioclient.h)
-author: windows-sdk-content
+
 description: Provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream.htm
 tech.root: CoreAudio
 ms.assetid: B4D10CC6-62BF-4D20-910F-E39DF812010D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStream, ISpatialAudioObjectRenderStream interface [Core Audio], ISpatialAudioObjectRenderStream interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstream, spatialaudioclient/ISpatialAudioObjectRenderStream
 ms.topic: interface

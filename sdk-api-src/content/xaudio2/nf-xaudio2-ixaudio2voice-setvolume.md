@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetVolume
 title: IXAudio2Voice::SetVolume (xaudio2.h)
-author: windows-sdk-content
+
 description: Sets the overall volume level for the voice.
 old-location: xaudio2\ixaudio2voice_interface_setvolume.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetVolume(float,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetVolume method, IXAudio2Voice.SetVolume, IXAudio2Voice::SetVolume, SetVolume, SetVolume method [XAudio2 Audio Mixing APIs], SetVolume method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setvolume, xaudio2/IXAudio2Voice::SetVolume
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0015
 title: SimilarityFileId (msrdc.h)
-author: windows-sdk-content
+
 description: Contains the similarity file ID for a file.
 old-location: rdc\similarityfileid.htm
 tech.root: rdc
 ms.assetid: 07fcb382-726c-4615-83e9-f69eec778311
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SimilarityFileId, SimilarityFileId structure [Remote Differential Compression], fs.similarityfileid, msrdc/SimilarityFileId, rdc.similarityfileid
 ms.topic: struct

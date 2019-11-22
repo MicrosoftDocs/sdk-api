@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRange2.GetRow
 title: ITextRange2::GetRow (tom.h)
-author: windows-sdk-content
+
 description: Gets the row properties in the currently selected row.
 old-location: controls\itextrange2_getrow.htm
 tech.root: Controls
 ms.assetid: 3f15605a-8f81-4fc4-ad12-5300ecd03c16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRow, GetRow method [Windows Controls], GetRow method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRow method, ITextRange2.GetRow, ITextRange2::GetRow, controls.itextrange2_getrow, tom/ITextRange2::GetRow
 ms.topic: method

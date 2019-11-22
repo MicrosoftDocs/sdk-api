@@ -1,7 +1,7 @@
 ---
 UID: NA:winsxs
 ms.assetid: 712d9914-8cf8-3b2f-b55b-e6c64a26f40f
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

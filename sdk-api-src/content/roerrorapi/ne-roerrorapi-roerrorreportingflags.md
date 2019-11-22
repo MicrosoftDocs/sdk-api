@@ -3,7 +3,7 @@ UID: NE:roerrorapi.__unnamed_enum_1
 title: RoErrorReportingFlags
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 ms.assetid: 51C5D2A7-3831-437E-AD7F-AEBC79A7C801
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: RoErrorReportingFlags
 ms.topic: language-reference

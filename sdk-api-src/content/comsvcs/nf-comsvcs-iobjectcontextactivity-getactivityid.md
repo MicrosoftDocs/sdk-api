@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IObjectContextActivity.GetActivityId
 title: IObjectContextActivity::GetActivityId (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the GUID associated with the current activity.
 old-location: cos\iobjectcontextactivity_getactivityid.htm
 tech.root: cossdk
 ms.assetid: 027d92b7-17dc-4ee5-a85a-e00b425a7a7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextActivity interface, IObjectContextActivity interface [COM+],GetActivityId method, IObjectContextActivity.GetActivityId, IObjectContextActivity::GetActivityId, _cos_IObjectContextActivity_GetActivityID, comsvcs/IObjectContextActivity::GetActivityId, cos.iobjectcontextactivity_getactivityid
 ms.topic: method

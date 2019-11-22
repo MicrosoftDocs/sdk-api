@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE) (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets an attribute of this element as a unit type value. This method can be used to get the value of a gradientUnits or clipPathUnits attribute.
 old-location: direct2d\id2d1svgelement_getattributevalue_13.htm
 tech.root: Direct2D
 ms.assetid: 13C81F6B-4E1B-4F6F-B2A8-37D792B87F60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_13
 ms.topic: method

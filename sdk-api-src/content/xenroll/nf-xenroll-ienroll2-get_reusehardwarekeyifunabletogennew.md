@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll2.get_ReuseHardwareKeyIfUnableToGenNew
 title: IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew (xenroll.h)
-author: windows-sdk-content
+
 description: The ReuseHardwareKeyIfUnableToGenNew property of IEnroll4 sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\ienroll4_reusehardwarekeyifunabletogennew.htm
 tech.root: SecCrypto
 ms.assetid: d67d47f2-9d89-44ba-a5de-e1ae2bc85673
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, IEnroll2.ReuseHardwareKeyIfUnableToGenNew, IEnroll2.get_ReuseHardwareKeyIfUnableToGenNew, IEnroll2::ReuseHardwareKeyIfUnableToGenNew, IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew, IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew, IEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, IEnroll4.ReuseHardwareKeyIfUnableToGenNew, IEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, IEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],IEnroll2 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],IEnroll4 interface, get_ReuseHardwareKeyIfUnableToGenNew, put_ReuseHardwareKeyIfUnableToGenNew, security.ienroll4_reusehardwarekeyifunabletogennew, xenroll/IEnroll2::ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
 ms.topic: method

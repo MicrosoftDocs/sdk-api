@@ -1,12 +1,12 @@
 ---
 UID: NS:wabdefs._SPropProblem
 title: SPropProblem (wabdefs.h)
-author: windows-sdk-content
+
 description: Do not use. Describes an error relating to an operation involving a property.
 old-location: wab\_wab_SPropProblem.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem"
 ms.topic: struct

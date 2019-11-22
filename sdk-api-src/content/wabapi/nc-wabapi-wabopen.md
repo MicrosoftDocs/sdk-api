@@ -1,12 +1,12 @@
 ---
 UID: NC:wabapi.WABOpen
 title: WABOpen (wabapi.h)
-author: windows-sdk-content
+
 description: Do not use. Provides access to the address book through a number of object interfaces. The root interface is IAddrBook, which is a subset of the MAPI implementation of IAddrBook.
 old-location: wab\_wab_WABOpen.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
 ms.topic: callback

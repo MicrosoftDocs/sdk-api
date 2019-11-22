@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterCategory
 title: ITfCategoryMgr::UnregisterCategory (msctf.h)
-author: windows-sdk-content
+
 description: ITfCategoryMgr::UnregisterCategory method
 old-location: tsf\itfcategorymgr_unregistercategory.htm
 tech.root: TSF
 ms.assetid: 73013bc1-4623-4e00-b87b-29ea3d728e9f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterCategory method, ITfCategoryMgr.UnregisterCategory, ITfCategoryMgr::UnregisterCategory, UnregisterCategory, UnregisterCategory method [Text Services Framework], UnregisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregistercategory_ref, msctf/ITfCategoryMgr::UnregisterCategory, tsf.itfcategorymgr_unregistercategory
 ms.topic: method

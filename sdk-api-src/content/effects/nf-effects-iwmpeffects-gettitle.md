@@ -1,12 +1,12 @@
 ---
 UID: NF:effects.IWMPEffects.GetTitle
 title: IWMPEffects::GetTitle (effects.h)
-author: windows-sdk-content
+
 description: The GetTitle method gets the display title of the visualization.
 old-location: wmp\iwmpeffects_gettitle.htm
 tech.root: WMP
 ms.assetid: 051a0d25-0773-4b9d-879e-5cc60633e406
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EffectsGetTitle, GetTitle, GetTitle method [Windows Media Player], GetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetTitle method, IWMPEffects.GetTitle, IWMPEffects::GetTitle, effects/IWMPEffects::GetTitle, wmp.iwmpeffects_gettitle
 ms.topic: method

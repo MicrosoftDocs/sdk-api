@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkTransform.Shear
 title: IInkTransform::Shear (msinkaut.h)
-author: windows-sdk-content
+
 description: Adjusts the shear of the InkTransform by the specified horizontal and vertical factors.
 old-location: tablet\inktransform_shear.htm
 tech.root: tablet
 ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tablet PC],Shear method, IInkTransform.Shear, IInkTransform::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Shear, tablet.inktransform_shear
 ms.topic: method

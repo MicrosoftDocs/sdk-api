@@ -1,12 +1,12 @@
 ---
 UID: NF:compressapi.Compress
 title: Compress function (compressapi.h)
-author: windows-sdk-content
+
 description: Takes a block of information and compresses it.
 old-location: cmpapi\compress.htm
 tech.root: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
 ms.topic: function

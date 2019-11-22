@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_PATH_RW_v0
 title: TCP_ESTATS_PATH_RW_v0 (tcpestats.h)
-author: windows-sdk-content
+
 description: Contains read/write configuration information for extended TCP statistics on path measurement for a TCP connection.
 old-location: iphlp\tcp_estats_path_rw_v0.htm
 tech.root: IpHlp
 ms.assetid: 460ad710-06aa-490a-9bac-5a8c731687e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTCP_ESTATS_PATH_RW_v0, PTCP_ESTATS_PATH_RW_v0, PTCP_ESTATS_PATH_RW_v0 structure pointer [IP Helper], TCP_ESTATS_PATH_RW_v0, TCP_ESTATS_PATH_RW_v0 structure [IP Helper], iphlp.tcp_estats_path_rw_v0, tcpestats/PTCP_ESTATS_PATH_RW_v0, tcpestats/TCP_ESTATS_PATH_RW_v0"
 ms.topic: struct

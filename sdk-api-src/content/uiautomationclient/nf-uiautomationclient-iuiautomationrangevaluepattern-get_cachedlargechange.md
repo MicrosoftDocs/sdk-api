@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedLargeChange
 title: IUIAutomationRangeValuePattern::get_CachedLargeChange (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves, from the cache, the value that is added to or subtracted from the value of the control when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedLargeChange.htm
 tech.root: WinAuto
 ms.assetid: d97addfd-53ae-4445-9f77-d24d97644bfc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedLargeChange property [Windows Accessibility], CachedLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedLargeChange property, IUIAutomationRangeValuePattern.CachedLargeChange, IUIAutomationRangeValuePattern.get_CachedLargeChange, IUIAutomationRangeValuePattern::CachedLargeChange, IUIAutomationRangeValuePattern::get_CachedLargeChange, get_CachedLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange
 ms.topic: method

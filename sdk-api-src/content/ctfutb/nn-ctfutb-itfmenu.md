@@ -1,12 +1,12 @@
 ---
 UID: NN:ctfutb.ITfMenu
 title: ITfMenu (ctfutb.h)
-author: windows-sdk-content
+
 description: The ITfMenu interface is implemented by the language bar and used by a language bar button provider to add items to the menu that the language bar will display for the button.
 old-location: tsf\itfmenu.htm
 tech.root: TSF
 ms.assetid: 303115e1-8d52-4a0a-b05e-b5c92b8b3e2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
 ms.topic: interface

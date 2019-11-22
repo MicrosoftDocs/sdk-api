@@ -1,12 +1,12 @@
 ---
 UID: NN:xaudio2.IXAudio2VoiceCallback
 title: IXAudio2VoiceCallback (xaudio2.h)
-author: windows-sdk-content
+
 description: The IXAudio2VoiceCallback interface contains methods that notify the client when certain events happen in a given IXAudio2SourceVoice.
 old-location: xaudio2\ixaudio2voicecallback.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.get_CurrentView
 title: IMultipleViewProvider::get_CurrentView (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Identifies the current view that the control is using to display information or child controls.
 old-location: winauto\uiauto_IMultipleViewProvider_CurrentView.htm
 tech.root: WinAuto
 ms.assetid: 9efc6d91-c922-4f03-9026-0dad454aad10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentView property [Windows Accessibility], CurrentView property [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],CurrentView property, IMultipleViewProvider.CurrentView, IMultipleViewProvider.get_CurrentView, IMultipleViewProvider::CurrentView, IMultipleViewProvider::get_CurrentView, get_CurrentView, uiauto.uiauto_IMultipleViewProvider_CurrentView, uiauto_IMultipleViewProvider_CurrentView, uiautomationcore/IMultipleViewProvider::CurrentView, uiautomationcore/IMultipleViewProvider::get_CurrentView, winauto.uiauto_IMultipleViewProvider_CurrentView
 ms.topic: method

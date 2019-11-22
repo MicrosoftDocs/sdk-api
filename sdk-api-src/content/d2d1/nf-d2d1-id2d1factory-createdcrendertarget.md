@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDCRenderTarget
 title: ID2D1Factory::CreateDCRenderTarget (d2d1.h)
-author: windows-sdk-content
+
 description: Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
 old-location: direct2d\ID2D1Factory_CreateDCRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: de062068-d2b5-4576-a475-a0e2c9840506
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDCRenderTarget, CreateDCRenderTarget method [Direct2D], CreateDCRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDCRenderTarget method, ID2D1Factory.CreateDCRenderTarget, ID2D1Factory::CreateDCRenderTarget, d2d1/ID2D1Factory::CreateDCRenderTarget, direct2d.ID2D1Factory_CreateDCRenderTarget
 ms.topic: method

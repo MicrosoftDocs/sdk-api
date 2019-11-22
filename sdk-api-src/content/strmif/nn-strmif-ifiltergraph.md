@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IFilterGraph
 title: IFilterGraph (strmif.h)
-author: windows-sdk-content
+
 description: The IFilterGraph interface provides methods for building a filter graph.
 old-location: dshow\ifiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 73a92f44-03c6-47e3-98d1-a20100ed8fa1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph interface [DirectShow],described, IFilterGraphInterface, dshow.ifiltergraph, strmif/IFilterGraph
 ms.topic: interface

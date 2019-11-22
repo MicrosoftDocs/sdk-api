@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageW
 title: MsiGetFeatureUsageW function (msi.h)
-author: windows-sdk-content
+
 description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
 old-location: setup\msigetfeatureusage.htm
 tech.root: Msi
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
 ms.topic: function

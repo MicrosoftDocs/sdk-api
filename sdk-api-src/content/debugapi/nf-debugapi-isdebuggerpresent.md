@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.IsDebuggerPresent
 title: IsDebuggerPresent function (debugapi.h)
-author: windows-sdk-content
+
 description: Determines whether the calling process is being debugged by a user-mode debugger.
 old-location: base\isdebuggerpresent.htm
 tech.root: Debug
 ms.assetid: 7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsDebuggerPresent, IsDebuggerPresent function, _win32_isdebuggerpresent, base.isdebuggerpresent, debugapi/IsDebuggerPresent
 ms.topic: function

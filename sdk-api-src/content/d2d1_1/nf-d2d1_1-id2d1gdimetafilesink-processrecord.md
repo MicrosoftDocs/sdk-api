@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafileSink.ProcessRecord
 title: ID2D1GdiMetafileSink::ProcessRecord (d2d1_1.h)
-author: windows-sdk-content
+
 description: This method is called once for each record stored in a metafile.
 old-location: direct2d\id2d1gdimetafilesink_processrecord.htm
 tech.root: Direct2D
 ms.assetid: E2133C62-A689-4FE6-8E9D-39E161EEFCE1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafileSink interface [Direct2D],ProcessRecord method, ID2D1GdiMetafileSink.ProcessRecord, ID2D1GdiMetafileSink::ProcessRecord, ProcessRecord, ProcessRecord method [Direct2D], ProcessRecord method [Direct2D],ID2D1GdiMetafileSink interface, d2d1_1/ID2D1GdiMetafileSink::ProcessRecord, direct2d.id2d1gdimetafilesink_processrecord
 ms.topic: method

@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_FEATURE_FLAGS
 title: D3D12_VIDEO_PROCESS_FEATURE_FLAGS
-author: windows-sdk-content
+
 description: Specifies the features that a video processor can support.
 tech.root: mf
 ms.assetid: 5471ef83-d960-45ee-9d74-8ef779a12f43
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

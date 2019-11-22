@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongPtrToUInt8
 title: LongPtrToUInt8 function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type LONG_PTR to a value of type UINT8.
 old-location: shell\LongPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 001d5029-b24e-4f00-a93c-a4123bdb3021
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LongPtrToUInt8, LongPtrToUInt8 function [Windows Shell], intsafe/LongPtrToUInt8, shell.LongPtrToUInt8
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.Close
 title: IWindowProvider::Close (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Attempts to close the window.
 old-location: winauto\uiauto_IWindowProvider_Close.htm
 tech.root: WinAuto
 ms.assetid: 3bfd7801-c296-4f59-8094-c13c8f044038
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],Close method, IWindowProvider.Close, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
 ms.topic: method

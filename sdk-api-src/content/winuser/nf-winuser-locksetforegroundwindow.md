@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.LockSetForegroundWindow
 title: LockSetForegroundWindow function (winuser.h)
-author: windows-sdk-content
+
 description: The foreground process can call the LockSetForegroundWindow function to disable calls to the SetForegroundWindow function.
 old-location: winmsg\locksetforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\locksetforegroundwindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LSFW_LOCK, LSFW_UNLOCK, LockSetForegroundWindow, LockSetForegroundWindow function [Windows and Messages], _win32_LockSetForegroundWindow, _win32_locksetforegroundwindow_cpp, winmsg.locksetforegroundwindow, winui._win32_locksetforegroundwindow, winuser/LockSetForegroundWindow
 ms.topic: function

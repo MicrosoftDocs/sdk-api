@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IAccessibleHostingElementProviders.GetObjectIdForProvider
 title: IAccessibleHostingElementProviders::GetObjectIdForProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.
 old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider.htm
 tech.root: WinAuto
 ms.assetid: 847F285F-F31D-486C-BBC7-DEED69505306
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetObjectIdForProvider method, IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
 ms.topic: method

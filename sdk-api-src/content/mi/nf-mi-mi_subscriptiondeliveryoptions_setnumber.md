@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetNumber
 title: MI_SubscriptionDeliveryOptions_SetNumber function (mi.h)
-author: windows-sdk-content
+
 description: Sets the value of a named numeric option that is not covered by a dedicated function.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setnumber.htm
 tech.root: wmi_v2
 ms.assetid: 872af4f8-67e2-4e41-a629-180172dbdd17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetNumber, MI_SubscriptionDeliveryOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetNumber, wmi_v2.mi_subscriptiondeliveryoptions_setnumber
 ms.topic: function

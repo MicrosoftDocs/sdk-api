@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.UnregisterApplicationRestart
 title: UnregisterApplicationRestart function (winbase.h)
-author: windows-sdk-content
+
 description: Removes the active instance of an application from the restart list.
 old-location: recovery\unregisterapplicationrestart.htm
 tech.root: Recovery
 ms.assetid: 7491812d-6469-4ac3-8d51-68b9c4b13b29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
 ms.topic: function

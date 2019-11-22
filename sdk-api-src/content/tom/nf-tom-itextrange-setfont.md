@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRange.SetFont
 title: ITextRange::SetFont (tom.h)
-author: windows-sdk-content
+
 description: Sets this range's character attributes to those of the specified ITextFont object.
 old-location: controls\ITextRange_SetFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setfont.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFont method, ITextRange.SetFont, ITextRange::SetFont, SetFont, SetFont method [Windows Controls], SetFont method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFont, _win32_ITextRange_SetFont_cpp, controls.ITextRange_SetFont, controls._win32_ITextRange_SetFont, tom/ITextRange::SetFont
 ms.topic: method

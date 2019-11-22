@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFLockSharedWorkQueue
 title: MFLockSharedWorkQueue function (mfapi.h)
-author: windows-sdk-content
+
 description: Obtains and locks a shared work queue.
 old-location: mf\mflocksharedworkqueue.htm
 tech.root: medfound
 ms.assetid: 1E3AA1EE-83A4-42DE-961E-D93A34CE80CF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFLockSharedWorkQueue, MFLockSharedWorkQueue function [Media Foundation], mf.mflocksharedworkqueue, mfapi/MFLockSharedWorkQueue
 ms.topic: function

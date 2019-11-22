@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi._WCRUN
 title: WCRUN (winddi.h)
-author: windows-sdk-content
+
 description: The WCRUN structure describes a run of Unicode characters.
 old-location: display\wcrun.htm
 tech.root: display
 ms.assetid: 01a90280-a7cc-4726-b0a2-68121bdb4686
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodReturn2
 title: IComMethod2Events::OnMethodReturn2 (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when an object's method returns.
 old-location: cos\icommethod2events_onmethodreturn2.htm
 tech.root: cossdk
 ms.assetid: cf5a7b69-a794-4497-99c9-20c41d454753
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodReturn2 method, IComMethod2Events.OnMethodReturn2, IComMethod2Events::OnMethodReturn2, OnMethodReturn2, OnMethodReturn2 method [COM+], OnMethodReturn2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodReturn2, comsvcs/IComMethod2Events::OnMethodReturn2, cos.icommethod2events_onmethodreturn2
 ms.topic: method

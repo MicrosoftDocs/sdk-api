@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateMetaCommand
 title: ID3D12Device5::CreateMetaCommand (d3d12.h)
-author: windows-sdk-content
+
 description: Creates an instance of the specified meta command.
 old-location: direct3d12\id3d12device5_createmetacommand.htm
 tech.root: direct3d12
 ms.assetid: 70AB644F-7406-4271-89C9-8D38FE3B4D7A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateMetaCommand, CreateMetaCommand method, CreateMetaCommand method,ID3D12Device5 interface, ID3D12Device5 interface,CreateMetaCommand method, ID3D12Device5.CreateMetaCommand, ID3D12Device5::CreateMetaCommand, d3d12/ID3D12Device5::CreateMetaCommand, direct3d12.id3d12device5_createmetacommand
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SendNotifyMessageW
 title: SendNotifyMessageW function (winuser.h)
-author: windows-sdk-content
+
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendnotifymessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendnotifymessage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SendNotifyMessage, SendNotifyMessage function [Windows and Messages], SendNotifyMessageA, SendNotifyMessageW, _win32_SendNotifyMessage, _win32_sendnotifymessage_cpp, winmsg.sendnotifymessage, winui._win32_sendnotifymessage, winuser/SendNotifyMessage, winuser/SendNotifyMessageA, winuser/SendNotifyMessageW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IDownloadProgressChangedCallback
 title: IDownloadProgressChangedCallback (wuapi.h)
-author: windows-sdk-content
+
 description: Handles the notification that indicates a change in the progress of an asynchronous download operation.
 old-location: wua\idownloadprogresschangedcallback.htm
 tech.root: Wua_Sdk
 ms.assetid: 8fc414da-835c-438f-b607-8a273e7f9064
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent],described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
 ms.topic: interface

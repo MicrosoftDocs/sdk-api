@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetTag
 title: IDvbFrequencyListDescriptor::GetTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 05c607b4-c5de-4a57-93c0-412c85d9f2fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
 ms.topic: method

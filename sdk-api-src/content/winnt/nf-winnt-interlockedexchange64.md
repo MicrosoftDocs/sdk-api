@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.InterlockedExchange64
 title: InterlockedExchange64 function (winnt.h)
-author: windows-sdk-content
+
 description: Sets a 64-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange64.htm
 tech.root: Sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchange64, InterlockedExchange64 function, base.interlockedexchange64, winnt/InterlockedExchange64
 ms.topic: function

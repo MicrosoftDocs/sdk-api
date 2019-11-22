@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndStop
 title: MCIWndStop macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndStop macro stops playing or recording the content of the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the MCI_STOP command.
 old-location: multimedia\mciwndstop.htm
 tech.root: Multimedia
 ms.assetid: e46bca2a-635c-4a80-849d-ee5fc0953161
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndStop, multimedia.mciwndstop, vfw/MCIWndStop
 ms.topic: macro

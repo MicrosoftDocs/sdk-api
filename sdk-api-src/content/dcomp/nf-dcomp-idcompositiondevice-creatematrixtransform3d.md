@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateMatrixTransform3D
 title: IDCompositionDevice::CreateMatrixTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a 3D 4-by-4 matrix transform object.
 old-location: directcomp\idcompositiondevice_creatematrixtransform3d.htm
 tech.root: directcomp
 ms.assetid: 699DB053-3897-43EC-92E2-BD45CE643130
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform3D, CreateMatrixTransform3D method [DirectComposition], CreateMatrixTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform3D method, IDCompositionDevice.CreateMatrixTransform3D, IDCompositionDevice::CreateMatrixTransform3D, dcomp/IDCompositionDevice::CreateMatrixTransform3D, directcomp.idcompositiondevice_creatematrixtransform3d
 ms.topic: method

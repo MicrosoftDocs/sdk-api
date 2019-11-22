@@ -1,12 +1,12 @@
 ---
 UID: NE:tcpestats._TCP_BOOLEAN_OPTIONAL
 title: TCP_BOOLEAN_OPTIONAL (tcpestats.h)
-author: windows-sdk-content
+
 description: Defines the states that a caller can specify when updating a member in the read/write information for a TCP connection.
 old-location: iphlp\tcp_boolean_optional.htm
 tech.root: IpHlp
 ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged"
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.CreateSigningOptions
 title: IOpcDigitalSignatureManager::CreateSigningOptions (msopc.h)
-author: windows-sdk-content
+
 description: Creates an IOpcSigningOptions interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_createsigningoptions.htm
 tech.root: OPC
 ms.assetid: c58f9730-b2c2-40cd-8aae-03fbd09f8c76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [Open Packaging Conventions], CreateSigningOptions method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],CreateSigningOptions method, IOpcDigitalSignatureManager.CreateSigningOptions, IOpcDigitalSignatureManager::CreateSigningOptions, msopc/IOpcDigitalSignatureManager::CreateSigningOptions, opc.iopcdigitalsignaturemanager_createsigningoptions
 ms.topic: method

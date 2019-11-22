@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.Advise
 title: ITextInputPanel::Advise (peninputpanel.h)
-author: windows-sdk-content
+
 description: Establishes an advisory connection between the Tablet PC Input Panel and the specified sink object.
 old-location: tablet\itextinputpanel_advise.htm
 tech.root: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet PC], Advise method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],Advise method, ITextInputPanel.Advise, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
 ms.topic: method

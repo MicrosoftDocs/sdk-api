@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.CombineMode
 title: CombineMode (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The CombineMode enumeration specifies how a new region is combined with an existing region.
 old-location: gdiplus\_gdiplus_ENUM_CombineMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\combinemode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CombineMode, CombineMode enumeration [GDI+], CombineModeComplement, CombineModeExclude, CombineModeIntersect, CombineModeReplace, CombineModeUnion, CombineModeXor, _gdiplus_ENUM_CombineMode, gdiplus._gdiplus_ENUM_CombineMode, gdiplusenums/CombineMode, gdiplusenums/CombineModeComplement, gdiplusenums/CombineModeExclude, gdiplusenums/CombineModeIntersect, gdiplusenums/CombineModeReplace, gdiplusenums/CombineModeUnion, gdiplusenums/CombineModeXor
 ms.topic: enum

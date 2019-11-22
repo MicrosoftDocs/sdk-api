@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_DiacriticSensitivity
 title: ISearchCatalogManager::put_DiacriticSensitivity (searchapi.h)
-author: windows-sdk-content
+
 description: Sets a value that determines whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchCatalogManager_put_DiacriticSensitivity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_diacriticsensitivity.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DiacriticSensitivity method, ISearchCatalogManager.put_DiacriticSensitivity, ISearchCatalogManager::put_DiacriticSensitivity, _search_ISearchCatalogManager_put_DiacriticSensitivity, put_DiacriticSensitivity, put_DiacriticSensitivity method [search], put_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DiacriticSensitivity, searchapi/ISearchCatalogManager::put_DiacriticSensitivity
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_Select
 title: LegacyIAccessiblePattern_Select function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Performs a Microsoft Active Accessibility selection.
 old-location: winauto\uiauto_LegacyIAccessiblePattern_Select.htm
 tech.root: WinAuto
 ms.assetid: 34235a9b-e4e2-4766-ab99-2b71cf0797d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_Select, LegacyIAccessiblePattern_Select function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_Select, uiauto_LegacyIAccessiblePattern_Select, uiautomationcoreapi/LegacyIAccessiblePattern_Select, winauto.uiauto_LegacyIAccessiblePattern_Select
 ms.topic: function

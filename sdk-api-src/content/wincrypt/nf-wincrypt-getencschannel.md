@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.GetEncSChannel
 title: GetEncSChannel function (wincrypt.h)
-author: windows-sdk-content
+
 description: This function is unavailable.
 old-location: security\getencschannel.htm
 tech.root: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
 ms.topic: function

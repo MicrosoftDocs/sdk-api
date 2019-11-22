@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.get_ChildCount
 title: IUIAutomationOrCondition::get_ChildCount (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the number of conditions that make up this &#0034;or&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationOrCondition_ChildCount.htm
 tech.root: WinAuto
 ms.assetid: 2dce4d7d-73c4-4882-953e-c7bbf1c1c0e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],ChildCount property, IUIAutomationOrCondition.ChildCount, IUIAutomationOrCondition.get_ChildCount, IUIAutomationOrCondition::ChildCount, IUIAutomationOrCondition::get_ChildCount, get_ChildCount, uiauto.uiauto_IUIAutomationOrCondition_ChildCount, uiauto_IUIAutomationOrCondition_ChildCount, uiautomationclient/IUIAutomationOrCondition::ChildCount, uiautomationclient/IUIAutomationOrCondition::get_ChildCount, winauto.uiauto_IUIAutomationOrCondition_ChildCount
 ms.topic: method

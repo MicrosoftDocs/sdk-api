@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetComment
 title: ISyncMgrSyncItemInfo::GetComment (syncmgr.h)
-author: windows-sdk-content
+
 description: Gets a string that contains commentary regarding the item.
 old-location: shell\ISyncMgrSyncItemInfo_GetComment.htm
 tech.root: shell
 ms.assetid: 3959784b-2926-43fd-b8e5-bb1884e5d321
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetComment method, ISyncMgrSyncItemInfo.GetComment, ISyncMgrSyncItemInfo::GetComment, _shell_ISyncMgrSyncItemInfo_GetComment, shell.ISyncMgrSyncItemInfo_GetComment, syncmgr/ISyncMgrSyncItemInfo::GetComment
 ms.topic: method

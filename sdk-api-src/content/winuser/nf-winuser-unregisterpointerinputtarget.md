@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.UnregisterPointerInputTarget
 title: UnregisterPointerInputTarget function (winuser.h)
-author: windows-sdk-content
+
 description: Allows the caller to unregister a target window to which all pointer input of the specified type is redirected.
 old-location: winauto\unregisterpointerinputtarget.htm
 tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1800
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTarget, UnregisterPointerInputTarget function [Windows Accessibility], inputmsg.getactivepointers, winauto.unregisterpointerinputtarget, winuser/UnregisterPointerInputTarget
 ms.topic: function

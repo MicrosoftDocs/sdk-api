@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.RegisterForWhenCurrent
 title: IPAT::RegisterForWhenCurrent (mpeg2psiparser.h)
-author: windows-sdk-content
+
 description: The RegisterForWhenCurrent method registers the client to be notified when the table becomes current.
 old-location: mstv\ipat_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPAT.RegisterForWhenCurrent, IPAT::RegisterForWhenCurrent, IPATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForWhenCurrent, mstv.ipat_registerforwhencurrent
 ms.topic: method

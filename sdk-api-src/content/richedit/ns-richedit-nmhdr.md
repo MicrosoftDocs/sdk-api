@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._nmhdr
 title: NMHDR (richedit.h)
-author: windows-sdk-content
+
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR
 ms.topic: struct

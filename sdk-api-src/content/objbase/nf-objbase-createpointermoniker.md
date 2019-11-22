@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CreatePointerMoniker
 title: CreatePointerMoniker function (objbase.h)
-author: windows-sdk-content
+
 description: Creates a pointer moniker based on a pointer to an object.
 old-location: com\createpointermoniker.htm
 tech.root: com
 ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
 ms.topic: function

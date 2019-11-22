@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_FaxNumber
 title: IFaxSender::get_FaxNumber (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxSender::get_FaxNumber property is a null-terminated string that contains the fax number associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_faxnumber_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_014i.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],FaxNumber property, IFaxSender.FaxNumber, IFaxSender.get_FaxNumber, IFaxSender.put_FaxNumber, IFaxSender::FaxNumber, IFaxSender::get_FaxNumber, IFaxSender::put_FaxNumber, _mfax_faxsender.faxnumber, fax._mfax_faxsender_cpp_mfax_faxsender_faxnumber_cpp, fax._mfax_faxsender_faxnumber, faxcomex/IFaxSender::FaxNumber, faxcomex/IFaxSender::get_FaxNumber, faxcomex/IFaxSender::put_FaxNumber, get_FaxNumber
 ms.topic: method

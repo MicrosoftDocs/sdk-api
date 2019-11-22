@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhEnumMachinesHA
 title: PdhEnumMachinesHA function (pdh.h)
-author: windows-sdk-content
+
 description: Returns a list of the computer names associated with counters in a log file.
 old-location: perf\pdhenummachinesh.htm
 tech.root: perfctrs
 ms.assetid: 7e8dc113-76a7-4a7a-bbad-1a4387831501
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhEnumMachinesH, PdhEnumMachinesH function [Perf], PdhEnumMachinesHA, PdhEnumMachinesHW, _win32_pdhenummachinesh, base.pdhenummachinesh, pdh/PdhEnumMachinesH, pdh/PdhEnumMachinesHA, pdh/PdhEnumMachinesHW, perf.pdhenummachinesh
 ms.topic: function

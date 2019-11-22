@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_DatetimeA
 title: MI_DatetimeA (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Datetime types.
 old-location: wmi_v2\mi_datetimea.htm
 tech.root: wmi_v2
 ms.assetid: 5a108160-a702-434c-8da6-3a2624d1d472
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastructure (MI)], mi/MI_DatetimeA, wmi._mi_datetimea, wmi_v2.mi_datetimea
 ms.topic: struct

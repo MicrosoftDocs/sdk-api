@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.InsertAt
 title: IXpsOMGradientStopCollection::InsertAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Inserts an IXpsOMGradientStop interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: b5ab5db8-ad94-4949-9d74-bddef3f29895
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGradientStopCollection.InsertAt, IXpsOMGradientStopCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_insertat, xpsobjectmodel/IXpsOMGradientStopCollection::InsertAt
 ms.topic: method

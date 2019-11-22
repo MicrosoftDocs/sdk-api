@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemShutdown.Shutdown
 title: IWbemShutdown::Shutdown (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemShutdown::Shutdown method indicates to the provider that the provider services are not required.
 old-location: wmi\iwbemshutdown_shutdown.htm
 tech.root: WmiSdk
 ms.assetid: b6eb56ae-5869-413f-a455-22616b04c18f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown interface [Windows Management Instrumentation],Shutdown method, IWbemShutdown.Shutdown, IWbemShutdown::Shutdown, Shutdown, Shutdown method [Windows Management Instrumentation], Shutdown method [Windows Management Instrumentation],IWbemShutdown interface, wbemcli/IWbemShutdown::Shutdown, wmi.iwbemshutdown_shutdown
 ms.topic: method

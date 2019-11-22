@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRow.SetCellCountCache
 title: ITextRow::SetCellCountCache (tom.h)
-author: windows-sdk-content
+
 description: Sets the count of cells cached for a row.
 old-location: controls\itextrow_setcellcountcache.htm
 tech.root: Controls
 ms.assetid: 54b9a0a0-1822-4cd6-afef-8ed9403e750a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellCountCache method, ITextRow.SetCellCountCache, ITextRow::SetCellCountCache, SetCellCountCache, SetCellCountCache method [Windows Controls], SetCellCountCache method [Windows Controls],ITextRow interface, controls.itextrow_setcellcountcache, tom/ITextRow::SetCellCountCache
 ms.topic: method

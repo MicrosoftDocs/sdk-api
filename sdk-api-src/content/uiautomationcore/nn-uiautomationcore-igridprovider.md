@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IGridProvider
 title: IGridProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Provides access to controls that act as containers for a collection of child elements organized in a two-dimensional logical coordinate system that can be traversed (that is, a Microsoft UI Automation client can move to adjacent controls) by using the keyboard.
 old-location: winauto\uiauto_IGridProvider.htm
 tech.root: WinAuto
 ms.assetid: 37e2cc95-d765-4c2c-ae8a-5a072a43ad5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
 ms.topic: interface

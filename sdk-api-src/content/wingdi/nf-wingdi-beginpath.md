@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.BeginPath
 title: BeginPath function (wingdi.h)
-author: windows-sdk-content
+
 description: The BeginPath function opens a path bracket in the specified device context.
 old-location: gdi\beginpath.htm
 tech.root: gdi
 ms.assetid: 88be3405-a420-4eb1-935b-099dc3067530
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
 ms.topic: function

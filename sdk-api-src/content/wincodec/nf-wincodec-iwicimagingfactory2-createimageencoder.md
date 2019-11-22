@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICImagingFactory2.CreateImageEncoder
 title: IWICImagingFactory2::CreateImageEncoder (wincodec.h)
-author: windows-sdk-content
+
 description: Creates a new image encoder object.
 old-location: wic\iwicimagingfactory2_createimageencoder.htm
 tech.root: wic
 ms.assetid: 1F75030F-68B0-4333-B3CF-C4ABD8969448
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateImageEncoder, CreateImageEncoder method [Windows Imaging Component], CreateImageEncoder method [Windows Imaging Component],IWICImagingFactory2 interface, IWICImagingFactory2 interface [Windows Imaging Component],CreateImageEncoder method, IWICImagingFactory2.CreateImageEncoder, IWICImagingFactory2::CreateImageEncoder, wic.iwicimagingfactory2_createimageencoder, wincodec/IWICImagingFactory2::CreateImageEncoder
 ms.topic: method

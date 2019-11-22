@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
 title: IMFASFIndexer::SetFlags (wmcontainer.h)
-author: windows-sdk-content
+
 description: Sets indexer options.
 old-location: mf\imfasfindexer_setflags.htm
 tech.root: medfound
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Media Foundation],SetFlags method, IMFASFIndexer.SetFlags, IMFASFIndexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFIndexer interface, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
 ms.topic: method

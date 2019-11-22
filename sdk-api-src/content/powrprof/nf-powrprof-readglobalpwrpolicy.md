@@ -1,12 +1,12 @@
 ---
 UID: NF:powrprof.ReadGlobalPwrPolicy
 title: ReadGlobalPwrPolicy function (powrprof.h)
-author: windows-sdk-content
+
 description: Retrieves the current global power policy settings.
 old-location: base\readglobalpwrpolicy.htm
 tech.root: power
 ms.assetid: 65da3d9f-b688-4d41-9da0-05159297d169
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReadGlobalPwrPolicy, ReadGlobalPwrPolicy function, _win32_readglobalpwrpolicy, base.readglobalpwrpolicy, powrprof/ReadGlobalPwrPolicy
 ms.topic: function

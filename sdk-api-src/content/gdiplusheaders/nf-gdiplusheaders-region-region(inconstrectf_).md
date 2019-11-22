@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN const RectF &)
 title: Region::Region(IN const RectF &) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a region that is defined by a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_95rectfamprect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const RectF &), Region.Region(const RectF&), Region::Region, Region::Region(IN const RectF &), _gdiplus_CLASS_Region_Region_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Region_RectF_rect_
 ms.topic: method

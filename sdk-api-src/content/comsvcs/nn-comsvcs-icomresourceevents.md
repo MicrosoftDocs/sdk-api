@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IComResourceEvents
 title: IComResourceEvents (comsvcs.h)
-author: windows-sdk-content
+
 description: Notifies the subscriber if a resource is created, allocated, tracked, or destroyed.
 old-location: cos\icomresourceevents.htm
 tech.root: cossdk
 ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
 ms.topic: interface

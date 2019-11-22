@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.Intersects
 title: Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&) method
-author: windows-sdk-content
+
 description: Test whether a triangle intersects with a ray.
 ms.date: 04/22/19
 ms.keywords: Intersects

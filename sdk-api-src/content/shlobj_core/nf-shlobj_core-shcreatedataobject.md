@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHCreateDataObject
 title: SHCreateDataObject function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Creates a data object in a parent folder.
 old-location: shell\SHCreateDataObject.htm
 tech.root: shell
 ms.assetid: d56cdafe-9463-43a5-8ef0-6cfaf0c524a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
 ms.topic: function

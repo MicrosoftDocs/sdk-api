@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndValidateMedia
 title: MCIWndValidateMedia macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndValidateMedia macro updates the starting and ending locations of the content, the current position in the content, and the trackbar according to the current time format.
 old-location: multimedia\mciwndvalidatemedia.htm
 tech.root: Multimedia
 ms.assetid: 25dc3d0c-6718-4155-9a60-e140da0473e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndValidateMedia, MCIWndValidateMedia macro [Windows Multimedia], _win32_MCIWndValidateMedia, multimedia.mciwndvalidatemedia, vfw/MCIWndValidateMedia
 ms.topic: macro

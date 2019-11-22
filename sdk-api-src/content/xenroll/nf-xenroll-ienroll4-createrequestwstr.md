@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll4.createRequestWStr
 title: IEnroll4::createRequestWStr (xenroll.h)
-author: windows-sdk-content
+
 description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a BLOB.
 old-location: security\ienroll4_createrequestwstr.htm
 tech.root: SecCrypto
 ms.assetid: bc2b875c-96f8-453e-8f72-f9032d5aa773
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createRequestWStr method, IEnroll4.createRequestWStr, IEnroll4::createRequestWStr, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, createRequestWStr, createRequestWStr method [Security], createRequestWStr method [Security],IEnroll4 interface, security.ienroll4_createrequestwstr, xenroll/IEnroll4::createRequestWStr
 ms.topic: method

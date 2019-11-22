@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetByKey0
 title: FwpmCalloutGetByKey0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves a callout object.
 old-location: fwp\fwpmcalloutgetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 05c5ac43-adf1-419c-8a39-32f8dddd3b98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutGetByKey0, FwpmCalloutGetByKey0 function [Filtering], fwp.fwpmcalloutgetbykey0_func, fwpmu/FwpmCalloutGetByKey0
 ms.topic: function

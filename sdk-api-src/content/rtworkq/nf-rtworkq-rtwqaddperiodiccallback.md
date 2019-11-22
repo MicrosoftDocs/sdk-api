@@ -1,12 +1,12 @@
 ---
 UID: NF:rtworkq.RtwqAddPeriodicCallback
 title: RtwqAddPeriodicCallback function (rtworkq.h)
-author: windows-sdk-content
+
 description: Sets a callback function to be called at a fixed interval.
 old-location: base\rtwqaddperiodiccallback.htm
 tech.root: ProcThread
 ms.assetid: 5f472e42-7c62-462a-91a8-240c395ad765
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtwqAddPeriodicCallback, RtwqAddPeriodicCallback function, base.rtwqaddperiodiccallback, rtworkq/RtwqAddPeriodicCallback
 ms.topic: function

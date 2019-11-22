@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMWriterNetworkSink
 title: IWMWriterNetworkSink (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMWriterNetworkSink interface is used to deliver streams to the network.
 old-location: wmformat\iwmwriternetworksink.htm
 tech.root: wmformat
 ms.assetid: 3204c360-f407-4cf3-bb21-7e6094587fb0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], IWMWriterNetworkSink interface [windows Media Format],described, IWMWriterNetworkSinkInterface, wmformat.iwmwriternetworksink, wmsdkidl/IWMWriterNetworkSink
 ms.topic: interface

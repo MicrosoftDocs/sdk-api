@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IEnumFORMATETC
 title: IEnumFORMATETC (objidl.h)
-author: windows-sdk-content
+
 description: Enumerates the FORMATETC structures that define the formats and media supported by a given data object.
 old-location: com\ienumformatetc.htm
 tech.root: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
 ms.topic: interface

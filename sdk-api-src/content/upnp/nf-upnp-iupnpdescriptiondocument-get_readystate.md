@@ -1,12 +1,12 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.get_ReadyState
 title: IUPnPDescriptionDocument::get_ReadyState (upnp.h)
-author: windows-sdk-content
+
 description: The ReadyState property specifies the status of the document load operation.
 old-location: upnp\iupnpdescriptiondocument_readystate.htm
 tech.root: upnp
 ms.assetid: 592939fa-ebce-419f-a813-ecbbe788fd8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],get_ReadyState method, IUPnPDescriptionDocument.get_ReadyState, IUPnPDescriptionDocument::get_ReadyState, READYSTATE _COMPLETE, READYSTATE _INTERACTIVE, READYSTATE _LOADED, READYSTATE _LOADING, READYSTATE_UNINITIALIZED, _upnp_iupnpdescriptiondocument_readystate, get_ReadyState, get_ReadyState method [UPnP APIs], get_ReadyState method [UPnP APIs],IUPnPDescriptionDocument interface, upnp.iupnpdescriptiondocument_readystate, upnp/IUPnPDescriptionDocument::get_ReadyState
 ms.topic: method

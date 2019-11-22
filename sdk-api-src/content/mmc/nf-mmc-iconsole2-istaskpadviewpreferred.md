@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IConsole2.IsTaskpadViewPreferred
 title: IConsole2::IsTaskpadViewPreferred (mmc.h)
-author: windows-sdk-content
+
 description: The IConsole2::IsTaskpadViewPreferred method is obsolete. It always returns S_OK.
 old-location: mmc\iconsole2_istaskpadviewpreferred.htm
 tech.root: mmc
 ms.assetid: 9c9221db-54d5-4dd2-8577-27915b313046
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConsole2 interface [MMC],IsTaskpadViewPreferred method, IConsole2.IsTaskpadViewPreferred, IConsole2::IsTaskpadViewPreferred, IsTaskpadViewPreferred, IsTaskpadViewPreferred method [MMC], IsTaskpadViewPreferred method [MMC],IConsole2 interface, _slate_iconsole2_istaskpadviewpreferred, mmc.iconsole2_istaskpadviewpreferred, mmc/IConsole2::IsTaskpadViewPreferred
 ms.topic: method

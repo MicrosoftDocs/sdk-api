@@ -1,12 +1,12 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.OnUserAuthenticated
 title: ITSGAuthenticateUserSink::OnUserAuthenticated (tsgauthenticationengine.h)
-author: windows-sdk-content
+
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in has successfully authenticated the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticated.htm
 tech.root: TermServ
 ms.assetid: 2f3dd498-661c-4787-8db4-bcc43bd76294
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticated method, ITSGAuthenticateUserSink.OnUserAuthenticated, ITSGAuthenticateUserSink::OnUserAuthenticated, OnUserAuthenticated, OnUserAuthenticated method [Remote Desktop Services], OnUserAuthenticated method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticated, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticated
 ms.topic: method

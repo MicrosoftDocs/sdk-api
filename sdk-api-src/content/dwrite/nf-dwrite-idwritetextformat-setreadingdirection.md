@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetReadingDirection
 title: IDWriteTextFormat::SetReadingDirection (dwrite.h)
-author: windows-sdk-content
+
 description: Sets the paragraph reading direction.
 old-location: directwrite\IDWriteTextFormat_SetReadingDirection.htm
 tech.root: DirectWrite
 ms.assetid: fb26241c-e97e-43d3-9f0a-0a9f932d8483
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetReadingDirection method, IDWriteTextFormat.SetReadingDirection, IDWriteTextFormat::SetReadingDirection, SetReadingDirection, SetReadingDirection method [Direct Write], SetReadingDirection method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetReadingDirection, dwrite/IDWriteTextFormat::SetReadingDirection
 ms.topic: method

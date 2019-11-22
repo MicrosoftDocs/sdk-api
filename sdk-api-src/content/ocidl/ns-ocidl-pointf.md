@@ -1,12 +1,12 @@
 ---
 UID: NS:ocidl.tagPOINTF
 title: POINTF (ocidl.h)
-author: windows-sdk-content
+
 description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.
 old-location: com\pointf.htm
 tech.root: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:http.HttpUpdateServiceConfiguration
 title: HttpUpdateServiceConfiguration function (http.h)
-author: windows-sdk-content
+
 description: Updates atomically a service configuration parameter that specifies a Transport Layer Security (TLS) certificate in a configuration record within the HTTP Server API configuration store.
 old-location: http\httpupdateserviceconfiguration.htm
 tech.root: http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
 ms.topic: function

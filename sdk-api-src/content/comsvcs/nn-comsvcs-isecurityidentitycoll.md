@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.ISecurityIdentityColl
 title: ISecurityIdentityColl (comsvcs.h)
-author: windows-sdk-content
+
 description: Provides access to a collection of security information representing a caller's identity. The items available in this collection are the SID, the account name, the authentication service, the authentication level, and the impersonation level.
 old-location: cos\isecurityidentitycoll.htm
 tech.root: cossdk
 ms.assetid: 6844bfb2-028f-4155-85a6-b7023432f6cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], ISecurityIdentityColl interface [COM+],described, _cos_ISecurityIdentityColl, comsvcs/ISecurityIdentityColl, cos.isecurityidentitycoll
 ms.topic: interface

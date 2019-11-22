@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Font.Clone
 title: Font::Clone (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Font::Clone method creates a new Font object based on this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\clone_4.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Font class, Font class [GDI+],Clone method, Font.Clone, Font::Clone, _gdiplus_CLASS_Font_Clone_, gdiplus._gdiplus_CLASS_Font_Clone_
 ms.topic: method

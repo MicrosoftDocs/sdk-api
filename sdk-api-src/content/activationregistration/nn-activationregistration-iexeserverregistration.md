@@ -1,12 +1,12 @@
 ---
 UID: NN:activationregistration.IExeServerRegistration
 title: IExeServerRegistration (activationregistration.h)
-author: windows-sdk-content
+
 description: Represents a registered an out-of-process server.
 old-location: winrt\iexeserverregistration.htm
 tech.root: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
 ms.topic: interface

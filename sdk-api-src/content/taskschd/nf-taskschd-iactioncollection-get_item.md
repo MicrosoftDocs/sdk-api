@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Item
 title: IActionCollection::get_Item (taskschd.h)
-author: windows-sdk-content
+
 description: Gets a specified action from the collection.
 old-location: taskschd\iactioncollection_item.htm
 tech.root: taskschd
 ms.assetid: 70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Item property, IActionCollection.Item, IActionCollection.get_Item, IActionCollection::Item, IActionCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IActionCollection interface, get_Item, taskschd.iactioncollection_item, taskschd/IActionCollection::Item, taskschd/IActionCollection::get_Item
 ms.topic: method

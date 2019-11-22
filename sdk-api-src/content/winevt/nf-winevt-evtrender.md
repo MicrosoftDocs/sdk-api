@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtRender
 title: EvtRender function (winevt.h)
-author: windows-sdk-content
+
 description: Renders an XML fragment based on the rendering context that you specify.
 old-location: wes\evtrender.htm
 tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
 ms.topic: function

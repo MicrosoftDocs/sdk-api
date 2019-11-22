@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DestroyMenu
 title: DestroyMenu function (winuser.h)
-author: windows-sdk-content
+
 description: Destroys the specified menu and frees any memory that the menu occupies.
 old-location: menurc\destroymenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\destroymenu.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyMenu, DestroyMenu function [Menus and Other Resources], _win32_DestroyMenu, _win32_destroymenu_cpp, menurc.destroymenu, winui._win32_destroymenu, winuser/DestroyMenu
 ms.topic: function

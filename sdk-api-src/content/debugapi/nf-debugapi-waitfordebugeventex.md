@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.WaitForDebugEventEx
 title: WaitForDebugEventEx function (debugapi.h)
-author: windows-sdk-content
+
 description: Waits for a debugging event to occur in a process being debugged.
 old-location: base\waitfordebugeventex.htm
 tech.root: Debug
 ms.assetid: 2C79C4BE-9787-415E-AB82-1E33AB92D32F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WaitForDebugEventEx, WaitForDebugEventEx function, base.waitfordebugeventex, debugapi/WaitForDebugEventEx
 ms.topic: function

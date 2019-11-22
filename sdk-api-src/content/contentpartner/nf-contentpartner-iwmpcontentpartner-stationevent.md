@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.StationEvent
 title: IWMPContentPartner::StationEvent (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_stationevent.htm
 tech.root: WMP
 ms.assetid: 0505a1e9-489f-416a-88b8-e8b76ae94b70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],StationEvent method, IWMPContentPartner.StationEvent, IWMPContentPartner::StationEvent, IWMPContentPartnerStationEvent, StationEvent, StationEvent method [Windows Media Player], StationEvent method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::StationEvent, wmp.iwmpcontentpartner_stationevent
 ms.topic: method

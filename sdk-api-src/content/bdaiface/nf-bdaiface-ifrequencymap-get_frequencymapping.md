@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_FrequencyMapping
 title: IFrequencyMap::get_FrequencyMapping (bdaiface.h)
-author: windows-sdk-content
+
 description: The get_FrequencyMapping method returns the Network Provider filter's current frequency table.
 old-location: mstv\ifrequencymap_get_frequencymapping.htm
 tech.root: mstv
 ms.assetid: 51fe636f-febe-4306-9c9a-7031a85440c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_FrequencyMapping method, IFrequencyMap.get_FrequencyMapping, IFrequencyMap::get_FrequencyMapping, IFrequencyMapget_FrequencyMapping, bdaiface/IFrequencyMap::get_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_frequencymapping
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorCustomRate
 title: ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate (d3d11.h)
-author: windows-sdk-content
+
 description: Gets a list of custom frame rates that a video processor supports.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcustomrate.htm
 tech.root: medfound
 ms.assetid: 0FA868E6-B0FB-433B-A183-72DDE39B207E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorCustomRate, GetVideoProcessorCustomRate method [Media Foundation], GetVideoProcessorCustomRate method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorCustomRate method, ID3D11VideoProcessorEnumerator.GetVideoProcessorCustomRate, ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, mf.id3d11videoprocessorenumerator_getvideoprocessorcustomrate
 ms.topic: method

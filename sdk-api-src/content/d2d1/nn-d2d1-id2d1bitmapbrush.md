@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1BitmapBrush
 title: ID2D1BitmapBrush (d2d1.h)
-author: windows-sdk-content
+
 description: Paints an area with a bitmap.
 old-location: direct2d\ID2D1BitmapBrush.htm
 tech.root: Direct2D
 ms.assetid: 22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush, ID2D1BitmapBrush interface [Direct2D], ID2D1BitmapBrush interface [Direct2D],described, d2d1/ID2D1BitmapBrush, direct2d.ID2D1BitmapBrush
 ms.topic: interface

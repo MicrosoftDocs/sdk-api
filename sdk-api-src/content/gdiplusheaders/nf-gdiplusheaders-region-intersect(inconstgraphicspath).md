@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Intersect(IN const GraphicsPath)
 title: Region::Intersect(IN const GraphicsPath) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Region::Intersect method updates this region to the portion of itself that intersects the specified path's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionintersectmethods\intersect_29path.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Region class, Region class [GDI+],Intersect method, Region.Intersect, Region.Intersect(IN const GraphicsPath), Region.Intersect(const GraphicsPath*), Region::Intersect, Region::Intersect(IN const GraphicsPath), _gdiplus_CLASS_Region_Intersect_path_, gdiplus._gdiplus_CLASS_Region_Intersect_path_
 ms.topic: method

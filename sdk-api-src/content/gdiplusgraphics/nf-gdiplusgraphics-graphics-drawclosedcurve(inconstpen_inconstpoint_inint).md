@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(IN const Pen,IN const Point,IN INT)
 title: Graphics::DrawClosedCurve(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::DrawClosedCurve method draws a closed cardinal spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_Point_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods\drawclosedcurve.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const Point,IN INT), Graphics.DrawClosedCurve(const Pen*,const Point*,INT), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_Point_points_INT_count_
 ms.topic: method

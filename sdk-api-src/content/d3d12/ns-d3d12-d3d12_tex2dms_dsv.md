@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_DSV
 title: D3D12_TEX2DMS_DSV (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the subresource from a multi sampled 2D texture that is accessible to a depth-stencil view.
 old-location: direct3d12\d3d12_tex2dms_dsv.htm
 tech.root: direct3d12
 ms.assetid: 3FECACFB-6635-4AA3-A568-57A3CE8754AF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX2DMS_DSV, D3D12_TEX2DMS_DSV structure, d3d12/D3D12_TEX2DMS_DSV, direct3d12.d3d12_tex2dms_dsv
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IObjectContext.SetComplete
 title: IObjectContext::SetComplete (comsvcs.h)
-author: windows-sdk-content
+
 description: Declares that the transaction in which the object is executing can be committed and that the object should be deactivated when it returns from the currently executing method call.
 old-location: cos\iobjectcontext_setcomplete.htm
 tech.root: cossdk
 ms.assetid: 8ff25b68-fcb3-4e11-9c74-b49b31806796
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IObjectContext interface [COM+],SetComplete method, IObjectContext.SetComplete, IObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],IObjectContext interface, _cos_IObjectContext_SetComplete, comsvcs/IObjectContext::SetComplete, cos.iobjectcontext_setcomplete
 ms.topic: method

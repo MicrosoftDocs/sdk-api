@@ -1,12 +1,12 @@
 ---
 UID: NF:winhttp.WinHttpReceiveResponse
 title: WinHttpReceiveResponse function (winhttp.h)
-author: windows-sdk-content
+
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
 tech.root: WinHttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.topic: function

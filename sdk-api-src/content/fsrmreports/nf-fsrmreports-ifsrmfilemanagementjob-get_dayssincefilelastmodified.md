@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_DaysSinceFileLastModified
 title: IFsrmFileManagementJob::get_DaysSinceFileLastModified (fsrmreports.h)
-author: windows-sdk-content
+
 description: The number of days that have elapsed since a file was last modified.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastmodified.htm
 tech.root: fsrm
 ms.assetid: 3ee02d60-50c7-4643-9604-b72ca1da01f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DaysSinceFileLastModified property [File Server Resource Manager], DaysSinceFileLastModified property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastModified property, IFsrmFileManagementJob.DaysSinceFileLastModified, IFsrmFileManagementJob.get_DaysSinceFileLastModified, IFsrmFileManagementJob::DaysSinceFileLastModified, IFsrmFileManagementJob::get_DaysSinceFileLastModified, IFsrmFileManagementJob::put_DaysSinceFileLastModified, fs.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrm.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastModified, get_DaysSinceFileLastModified
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager2
 title: ISearchCrawlScopeManager2 (searchapi.h)
-author: windows-sdk-content
+
 description: Extends the functionality of the ISearchCrawlScopeManager interface.
 old-location: search\_search_ISearchCrawlScopeManager2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\isearchcrawlscopemanager2.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager2, ISearchCrawlScopeManager2 interface [search], ISearchCrawlScopeManager2 interface [search],described, _search_ISearchCrawlScopeManager2, search._search_ISearchCrawlScopeManager2, searchapi/ISearchCrawlScopeManager2
 ms.topic: interface

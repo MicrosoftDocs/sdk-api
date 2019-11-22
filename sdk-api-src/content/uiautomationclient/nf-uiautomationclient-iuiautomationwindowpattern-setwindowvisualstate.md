@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.SetWindowVisualState
 title: IUIAutomationWindowPattern::SetWindowVisualState (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Minimizes, maximizes, or restores the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_SetWindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: 106322f8-cf43-48ca-8bc4-f51a75731127
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],SetWindowVisualState method, IUIAutomationWindowPattern.SetWindowVisualState, IUIAutomationWindowPattern::SetWindowVisualState, SetWindowVisualState, SetWindowVisualState method [Windows Accessibility], SetWindowVisualState method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::SetWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState
 ms.topic: method

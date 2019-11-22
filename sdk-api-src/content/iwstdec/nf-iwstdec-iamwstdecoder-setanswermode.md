@@ -1,12 +1,12 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetAnswerMode
 title: IAMWstDecoder::SetAnswerMode (iwstdec.h)
-author: windows-sdk-content
+
 description: Downstream filters use the SetAnswerMode method to assign the current answer mode.
 old-location: dshow\iamwstdecoder_setanswermode.htm
 tech.root: DirectShow
 ms.assetid: d26b22d2-2c88-4347-80fb-aca8abae50ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventClass.put_FiringInterfaceID
 title: IEventClass::put_FiringInterfaceID (eventsys.h)
-author: windows-sdk-content
+
 description: The ID of the event interface on the event class object. This property is supported only for backward compatibility.
 old-location: cos\ieventclass_firinginterfaceid.htm
 tech.root: cossdk
 ms.assetid: 69d24a08-2eca-4204-95ae-1409fe306464
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FiringInterfaceID property [COM+], FiringInterfaceID property [COM+],IEventClass interface, IEventClass interface [COM+],FiringInterfaceID property, IEventClass.FiringInterfaceID, IEventClass.put_FiringInterfaceID, IEventClass::FiringInterfaceID, IEventClass::get_FiringInterfaceID, IEventClass::put_FiringInterfaceID, cos.ieventclass_firinginterfaceid, eventsys/IEventClass::FiringInterfaceID, eventsys/IEventClass::get_FiringInterfaceID, eventsys/IEventClass::put_FiringInterfaceID, put_FiringInterfaceID
 ms.topic: method

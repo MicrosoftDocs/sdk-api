@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IkeextGetStatistics0
 title: IkeextGetStatistics0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
 old-location: fwp\ikeextgetstatistics0.htm
 tech.root: fwp
 ms.assetid: 1fbcd013-b556-41c0-bfbb-25e4ab2f6291
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IkeextGetStatistics0, IkeextGetStatistics0 function [Filtering], fwp.ikeextgetstatistics0, fwpmu/IkeextGetStatistics0
 ms.topic: function

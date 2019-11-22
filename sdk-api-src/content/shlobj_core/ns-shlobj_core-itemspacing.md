@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._ITEMSPACING
 title: ITEMSPACING (shlobj_core.h)
-author: windows-sdk-content
+
 description: Stores the dimensions of the two possible sizes of icon spacing that are available for display:\_small and large. Used by IShellFolderView::GetItemSpacing.
 old-location: shell\ITEMSPACING.htm
 tech.root: shell
 ms.assetid: fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _shell_ITEMSPACING, shell.ITEMSPACING, shlobj_core/ITEMSPACING
 ms.topic: struct

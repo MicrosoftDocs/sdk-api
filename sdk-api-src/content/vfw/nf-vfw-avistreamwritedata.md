@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIStreamWriteData
 title: AVIStreamWriteData function (vfw.h)
-author: windows-sdk-content
+
 description: The AVIStreamWriteData function writes optional header information to the stream.
 old-location: multimedia\avistreamwritedata.htm
 tech.root: Multimedia
 ms.assetid: 2ca91df6-4721-4282-8b88-81e76d2ab94f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AVIStreamWriteData, AVIStreamWriteData function [Windows Multimedia], _win32_AVIStreamWriteData, multimedia.avistreamwritedata, vfw/AVIStreamWriteData
 ms.topic: function

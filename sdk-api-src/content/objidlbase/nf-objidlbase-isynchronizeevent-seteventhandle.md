@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.ISynchronizeEvent.SetEventHandle
 title: ISynchronizeEvent::SetEventHandle (objidlbase.h)
-author: windows-sdk-content
+
 description: Assigns an event handle to a synchronization object.
 old-location: com\isynchronizeevent_seteventhandle.htm
 tech.root: com
 ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeEvent interface [COM],SetEventHandle method, ISynchronizeEvent.SetEventHandle, ISynchronizeEvent::SetEventHandle, SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM],ISynchronizeEvent interface, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
 ms.topic: method

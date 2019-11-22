@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR)
 title: Metafile::Metafile(IN const WCHAR) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Metafile::Metafile object for playback.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_filename_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_24filename.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR), Metafile.Metafile(const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_filename_, gdiplus._gdiplus_CLASS_Metafile_Metafile_filename_
 ms.topic: method

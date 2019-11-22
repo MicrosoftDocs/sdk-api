@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManagerLanguage
 title: IWMProfileManagerLanguage (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMProfileManagerLanguage interface controls the language of the system profiles parsed by the profile manager.An IWMProfileManagerLanguage interface exists for every profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage.htm
 tech.root: wmformat
 ms.assetid: 54875162-65fe-4959-b567-38c17ba2894d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], IWMProfileManagerLanguage interface [windows Media Format],described, IWMProfileManagerLanguageInterface, wmformat.iwmprofilemanagerlanguage, wmsdkidl/IWMProfileManagerLanguage
 ms.topic: interface

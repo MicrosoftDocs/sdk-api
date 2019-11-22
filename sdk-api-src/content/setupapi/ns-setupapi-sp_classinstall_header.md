@@ -1,12 +1,12 @@
 ---
 UID: NS:setupapi._SP_CLASSINSTALL_HEADER
 title: SP_CLASSINSTALL_HEADER (setupapi.h)
-author: windows-sdk-content
+
 description: An SP_CLASSINSTALL_HEADER is the first member of any class install parameters structure. It contains the device installation request code that defines the format of the rest of the install parameters structure.
 old-location: devinst\sp_classinstall_header.htm
 tech.root: devinst
 ms.assetid: 9f76b741-d2a7-484d-94cb-b559b017399d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER structure pointer [Device and Driver Installation], SP_CLASSINSTALL_HEADER, SP_CLASSINSTALL_HEADER structure [Device and Driver Installation], devinst.sp_classinstall_header, di-struct_96e0dbc0-fe54-4731-9ec7-0e633b521297.xml, setupapi/PSP_CLASSINSTALL_HEADER, setupapi/SP_CLASSINSTALL_HEADER'
 ms.topic: struct

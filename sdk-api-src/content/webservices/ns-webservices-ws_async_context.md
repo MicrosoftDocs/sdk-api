@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_ASYNC_CONTEXT
 title: WS_ASYNC_CONTEXT (webservices.h)
-author: windows-sdk-content
+
 description: Used with the Async Model to specify the asynchronous callback and a pointer which will be passed to the asynchronous callback.
 old-location: wsw\ws_async_context.htm
 tech.root: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
 ms.topic: struct

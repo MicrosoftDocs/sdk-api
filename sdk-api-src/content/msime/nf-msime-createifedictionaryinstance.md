@@ -1,12 +1,12 @@
 ---
 UID: NF:msime.CreateIFEDictionaryInstance
 title: CreateIFEDictionaryInstance function (msime.h)
-author: windows-sdk-content
+
 description: Returns a pointer to an IFEDictionary interface.
 old-location: intl\createifedictionaryinstance.htm
 tech.root: Intl
 ms.assetid: 1B762B74-D282-46FE-8202-CA88E478940F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [Internationalization for Windows Applications], intl.createifedictionaryinstance, msime/CreateIFEDictionaryInstance
 ms.topic: function

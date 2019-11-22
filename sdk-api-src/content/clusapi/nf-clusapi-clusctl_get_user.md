@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_USER
 title: CLUSCTL_GET_USER macro (clusapi.h)
-author: windows-sdk-content
+
 description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.
 old-location: mscs\clusctl_get_user.htm
 tech.root: MsCS
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusapi/CLUSCTL_GET_USER, mscs.clusctl_get_user
 ms.topic: macro

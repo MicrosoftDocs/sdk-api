@@ -1,12 +1,12 @@
 ---
 UID: NN:ocidl.IPropertyPageSite
 title: IPropertyPageSite (ocidl.h)
-author: windows-sdk-content
+
 description: Provides the main features for a property page site object.
 old-location: com\ipropertypagesite.htm
 tech.root: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
 ms.topic: interface

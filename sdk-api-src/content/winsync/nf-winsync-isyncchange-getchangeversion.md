@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncChange.GetChangeVersion
 title: ISyncChange::GetChangeVersion (winsync.h)
-author: windows-sdk-content
+
 description: Gets the version that is associated with this change.
 old-location: winsync\isyncchange_getchangeversion.htm
 tech.root: winsync
 ms.assetid: 6b6def94-8c48-41f6-8869-e28d0db0d500
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeVersion method, ISyncChange.GetChangeVersion, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
 ms.topic: method

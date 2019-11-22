@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspixelformats.GetPixelFormatSize
 title: GetPixelFormatSize function (gdipluspixelformats.h)
-author: windows-sdk-content
+
 description: The GetPixelFormatSize method returns the number of bits per pixel used by a specified pixel format.
 old-location: gdiplus\_gdiplus_FUNC_GetPixelFormatSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getpixelformatsize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormatSize, GetPixelFormatSize function [GDI+], _gdiplus_FUNC_GetPixelFormatSize_, gdiplus._gdiplus_FUNC_GetPixelFormatSize_, gdipluspixelformats/GetPixelFormatSize
 ms.topic: function

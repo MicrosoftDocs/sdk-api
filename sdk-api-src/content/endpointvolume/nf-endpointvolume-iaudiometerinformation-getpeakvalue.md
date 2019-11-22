@@ -1,12 +1,12 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetPeakValue
 title: IAudioMeterInformation::GetPeakValue (endpointvolume.h)
-author: windows-sdk-content
+
 description: The GetPeakValue method gets the peak sample value for the channels in the audio stream.
 old-location: coreaudio\iaudiometerinformation_getpeakvalue.htm
 tech.root: CoreAudio
 ms.assetid: 10abf43a-dfd8-4ced-893a-03f52ff4ee26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPeakValue, GetPeakValue method [Core Audio], GetPeakValue method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetPeakValue method, IAudioMeterInformation.GetPeakValue, IAudioMeterInformation::GetPeakValue, IAudioMeterInformationGetPeakValue, coreaudio.iaudiometerinformation_getpeakvalue, endpointvolume/IAudioMeterInformation::GetPeakValue
 ms.topic: method

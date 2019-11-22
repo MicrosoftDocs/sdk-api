@@ -1,12 +1,12 @@
 ---
 UID: NF:gpedit.ExportRSoPData
 title: ExportRSoPData function (gpedit.h)
-author: windows-sdk-content
+
 description: The ExportRSoPData function exports a WMI namespace that contains RSoP information to a data file. The function writes the information to a data file that can be imported to a WMI namespace with a call to the ImportRSoPData function.
 old-location: policy\exportrsopdata.htm
 tech.root: Policy
 ms.assetid: a3f20a35-8d9c-403b-ba76-24c8b3640c6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
 ms.topic: function

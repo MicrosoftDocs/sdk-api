@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsCloseServiceProxy
 title: WsCloseServiceProxy function (webservices.h)
-author: windows-sdk-content
+
 description: Closes down communication with the specified service proxy.
 old-location: wsw\wscloseserviceproxy.htm
 tech.root: wsw
 ms.assetid: 034f9c60-5616-4ec7-9773-b34bde2e26c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsCloseServiceProxy, WsCloseServiceProxy function [Web Services for Windows], webservices/WsCloseServiceProxy, wsw.wscloseserviceproxy
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:comsvcs._ComponentSummary
 title: ComponentSummary (comsvcs.h)
-author: windows-sdk-content
+
 description: Represents summary information about a COM+ component hosted in a particular process. It can also represent a Services Without Components (SWC) context.
 old-location: cos\componentsummary.htm
 tech.root: cossdk
 ms.assetid: df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComponentSummary, ComponentSummary structure [COM+], comsvcs/ComponentSummary, cos.componentsummary
 ms.topic: struct

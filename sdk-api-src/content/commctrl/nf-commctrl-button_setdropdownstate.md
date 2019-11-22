@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Button_SetDropDownState
 title: Button_SetDropDownState macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the drop down state for a specified button with style of BS_SPLITBUTTON. Use this macro or send the BCM_SETDROPDOWNSTATE message explicitly.
 old-location: controls\Button_SetDropDownState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
 ms.topic: macro

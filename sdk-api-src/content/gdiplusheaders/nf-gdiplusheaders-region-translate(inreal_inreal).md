@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.Translate(IN REAL,IN REAL)
 title: Region::Translate
 description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
 ms.assetid: 0dc16555-1df7-44b8-85fb-ff0963f3c68e
-ms.author: windowssdkdev 
+ 
 ms.date: 05/20/2019
 ms.keywords: Region::Translate
 ms.topic: language-reference

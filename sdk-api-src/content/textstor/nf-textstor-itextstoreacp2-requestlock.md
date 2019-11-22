@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestLock
 title: ITextStoreACP2::RequestLock (textstor.h)
-author: windows-sdk-content
+
 description: Called by the TSF manager to provide a document lock in order to modify the document. This method calls the OnLockGranted method to create the document lock.
 old-location: tsf\itextstoreacp2_requestlock.htm
 tech.root: TSF
 ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
 ms.topic: method

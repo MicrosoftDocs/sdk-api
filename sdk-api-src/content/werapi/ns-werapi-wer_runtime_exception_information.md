@@ -1,12 +1,12 @@
 ---
 UID: NS:werapi._WER_RUNTIME_EXCEPTION_INFORMATION
 title: WER_RUNTIME_EXCEPTION_INFORMATION (werapi.h)
-author: windows-sdk-content
+
 description: Contains the exception information that you use to determine whether you want to claim the crash.
 old-location: wer\wer_runtime_exception_information.htm
 tech.root: wer
 ms.assetid: fcf956ac-6015-439c-aec6-8f6a826ff269
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_RUNTIME_EXCEPTION_INFORMATION, WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting], wer.wer_runtime_exception_information, werapi/PWER_RUNTIME_EXCEPTION_INFORMATION, werapi/WER_RUNTIME_EXCEPTION_INFORMATION'
 ms.topic: struct

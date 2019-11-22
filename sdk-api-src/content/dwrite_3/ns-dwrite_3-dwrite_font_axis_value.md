@@ -1,10 +1,10 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_AXIS_VALUE
 title: DWRITE_FONT_AXIS_VALUE
-author: windows-sdk-content
+
 description: Represents a value for a font axis. Used when querying and creating font instances.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Write], directwrite.dwrite_font_axis_value, dwrite_3/DWRITE_FONT_AXIS_VALUE
 ms.topic: struct

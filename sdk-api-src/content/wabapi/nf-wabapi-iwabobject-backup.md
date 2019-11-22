@@ -1,12 +1,12 @@
 ---
 UID: NF:wabapi.IWABObject.Backup
 title: IWABObject::Backup (wabapi.h)
-author: windows-sdk-content
+
 description: This method is not implemented.
 old-location: wab\_wab_IWABObject_Backup.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\backup.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [Windows Address Book], Backup method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Backup method, IWABObject.Backup, IWABObject::Backup, _wab_IWABObject_Backup, wab._wab_IWABObject_Backup, wabapi/IWABObject::Backup
 ms.topic: method

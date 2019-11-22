@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_StartingLba
 title: IRawCDImageTrackInfo::get_StartingLba (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the LBA of the first user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_startinglba.htm
 tech.root: imapi
 ms.assetid: 5e1d1404-c52d-4e27-970a-bc1b59995a87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_StartingLba method, IRawCDImageTrackInfo.get_StartingLba, IRawCDImageTrackInfo::get_StartingLba, get_StartingLba, get_StartingLba method [IMAPI], get_StartingLba method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_startinglba, imapi2/IRawCDImageTrackInfo::get_StartingLba
 ms.topic: method

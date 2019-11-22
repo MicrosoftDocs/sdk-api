@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 title: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-author: windows-sdk-content
+
 description: Retrieves extended information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
 old-location: fs\ioctl_disk_get_drive_geometry_ex.htm
 tech.root: FileIO
 ms.assetid: 8a0667c8-b182-4851-af8e-411d95da0e3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files], _win32_ioctl_disk_get_drive_geometry_ex, base.ioctl_disk_get_drive_geometry_ex, fs.ioctl_disk_get_drive_geometry_ex, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 ms.topic: ioctl

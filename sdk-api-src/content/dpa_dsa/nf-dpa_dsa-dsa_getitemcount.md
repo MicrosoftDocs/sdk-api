@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItemCount
 title: DSA_GetItemCount macro (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Gets the number of items in a dynamic structure array (DSA).
 old-location: controls\DSA_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_getitemcount.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DSA_GetItemCount, DSA_GetItemCount macro [Windows Controls], _shell_DSA_GetItemCount, _shell_DSA_GetItemCount_cpp, controls.DSA_GetItemCount, controls._shell_DSA_GetItemCount, dpa_dsa/DSA_GetItemCount
 ms.topic: macro

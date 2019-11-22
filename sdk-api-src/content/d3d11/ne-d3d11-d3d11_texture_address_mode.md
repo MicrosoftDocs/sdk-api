@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11.D3D11_TEXTURE_ADDRESS_MODE
 title: D3D11_TEXTURE_ADDRESS_MODE (d3d11.h)
-author: windows-sdk-content
+
 description: Identify a technique for resolving texture coordinates that are outside of the boundaries of a texture.
 old-location: direct3d11\d3d11_texture_address_mode.htm
 tech.root: direct3d11
 ms.assetid: 4877e5db-011a-4a15-a087-5a55f229fa2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 2e717137-eb31-02da-bc07-a90f0bfe6795, D3D11_TEXTURE_ADDRESS_BORDER, D3D11_TEXTURE_ADDRESS_CLAMP, D3D11_TEXTURE_ADDRESS_MIRROR, D3D11_TEXTURE_ADDRESS_MIRROR_ONCE, D3D11_TEXTURE_ADDRESS_MODE, D3D11_TEXTURE_ADDRESS_MODE enumeration [Direct3D 11], D3D11_TEXTURE_ADDRESS_WRAP, d3d11/D3D11_TEXTURE_ADDRESS_BORDER, d3d11/D3D11_TEXTURE_ADDRESS_CLAMP, d3d11/D3D11_TEXTURE_ADDRESS_MIRROR, d3d11/D3D11_TEXTURE_ADDRESS_MIRROR_ONCE, d3d11/D3D11_TEXTURE_ADDRESS_MODE, d3d11/D3D11_TEXTURE_ADDRESS_WRAP, direct3d11.d3d11_texture_address_mode
 ms.topic: enum

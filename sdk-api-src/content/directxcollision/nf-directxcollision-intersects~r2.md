@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.Intersects~r2
 title: Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)
-author: windows-sdk-content
+
 description: Tests whether a triangle and a plane intersect.
 ms.date: 04/22/19
 ms.keywords: Intersects

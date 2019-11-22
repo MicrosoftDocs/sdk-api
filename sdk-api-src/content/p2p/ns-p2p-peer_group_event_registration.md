@@ -1,12 +1,12 @@
 ---
 UID: NS:p2p.peer_group_event_registration_tag
 title: PEER_GROUP_EVENT_REGISTRATION (p2p.h)
-author: windows-sdk-content
+
 description: The PEER_GROUP_EVENT_REGISTRATION structure defines the particular peer group event a member can register for.
 old-location: p2p\peer_group_event_registration.htm
 tech.root: P2PSdk
 ms.assetid: 9c9c82c3-b02a-49c2-9a8f-eb355ded8480
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION structure [Peer Networking], PPEER_GROUP_EVENT_REGISTRATION, PPEER_GROUP_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_group_event_registration, p2p/PPEER_GROUP_EVENT_REGISTRATION, p2p/peer_group_event_registration_tag"
 ms.topic: struct

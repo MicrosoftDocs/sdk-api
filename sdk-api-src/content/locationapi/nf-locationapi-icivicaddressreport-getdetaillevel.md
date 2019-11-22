@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetDetailLevel
 title: ICivicAddressReport::GetDetailLevel (locationapi.h)
-author: windows-sdk-content
+
 description: Reserved.
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm
 tech.root: locationapi
 ms.assetid: ec32dee1-e9ce-40a0-bca0-6f5f767b7604
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetDetailLevel method, ICivicAddressReport.GetDetailLevel, ICivicAddressReport::GetDetailLevel, WinLocation_COM_Ref.icivicaddressreport_getdetaillevel, locationapi/ICivicAddressReport::GetDetailLevel
 ms.topic: method

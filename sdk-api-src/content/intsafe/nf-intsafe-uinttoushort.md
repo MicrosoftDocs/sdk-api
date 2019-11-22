@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.UIntToUShort
 title: UIntToUShort function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type UINT to a value of type USHORT.
 old-location: shell\UIntToUShort.htm
 tech.root: shell
 ms.assetid: 3328c24d-e576-4b57-a03f-506bc172ac2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UIntToUShort, UIntToUShort function [Windows Shell], UIntToWord, _shell_UIntToUShort, intsafe/UIntToUShort, shell.UIntToUShort
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.MoveNext
 title: IItemEnumerator::MoveNext (wcmconfig.h)
-author: windows-sdk-content
+
 description: Moves the current position to the next item in the enumerator if available.
 old-location: smi\iitemenumerator_movenext.htm
 tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
 ms.topic: method

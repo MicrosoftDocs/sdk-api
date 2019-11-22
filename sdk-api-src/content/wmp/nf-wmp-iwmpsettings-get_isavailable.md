@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSettings.get_isAvailable
 title: IWMPSettings::get_isAvailable (wmp.h)
-author: windows-sdk-content
+
 description: The get_isAvailable method indicates whether a specified action can be performed.
 old-location: wmp\iwmpsettings_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
 ms.topic: method

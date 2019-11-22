@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmDriverMessage
 title: acmDriverMessage function (msacm.h)
-author: windows-sdk-content
+
 description: The acmDriverMessage function sends a user-defined message to a given ACM driver instance.
 old-location: multimedia\acmdrivermessage.htm
 tech.root: Multimedia
 ms.assetid: c4e1685e-54b5-4c33-b23c-c3ccc31afe48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage"
 ms.topic: function

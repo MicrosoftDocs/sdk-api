@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidAnalogTunerEvent
 title: IMSVidAnalogTunerEvent (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidanalogtunerevent.htm
 tech.root: mstv
 ms.assetid: bf1c6eb1-64c1-43cc-900c-306c01fec9cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTunerEvent, IMSVidAnalogTunerEvent interface [Microsoft TV Technologies], IMSVidAnalogTunerEvent interface [Microsoft TV Technologies],described, IMSVidAnalogTunerEventInterface, mstv.imsvidanalogtunerevent, segment/IMSVidAnalogTunerEvent
 ms.topic: interface

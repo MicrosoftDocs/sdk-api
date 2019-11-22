@@ -1,12 +1,12 @@
 ---
 UID: NE:comsvcs.tagCRMREGFLAGS
 title: CRMREGFLAGS (comsvcs.h)
-author: windows-sdk-content
+
 description: Controls which phases of transaction completion should be received by the CRM compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
 old-location: cos\crmregflags.htm
 tech.root: cossdk
 ms.assetid: 94178edf-fd0d-4d8d-8bf8-ced17f65d82f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRMREGFLAGS, CRMREGFLAGS enumeration [COM+], CRMREGFLAG_ABORTPHASE, CRMREGFLAG_ALLPHASES, CRMREGFLAG_COMMITPHASE, CRMREGFLAG_FAILIFINDOUBTSREMAIN, CRMREGFLAG_PREPAREPHASE, _cos_CRMREGFLAGS, comsvcs/CRMREGFLAGS, comsvcs/CRMREGFLAG_ABORTPHASE, comsvcs/CRMREGFLAG_ALLPHASES, comsvcs/CRMREGFLAG_COMMITPHASE, comsvcs/CRMREGFLAG_FAILIFINDOUBTSREMAIN, comsvcs/CRMREGFLAG_PREPAREPHASE, cos.crmregflags
 ms.topic: enum

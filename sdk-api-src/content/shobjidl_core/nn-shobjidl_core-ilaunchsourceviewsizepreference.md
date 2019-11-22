@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.ILaunchSourceViewSizePreference
 title: ILaunchSourceViewSizePreference (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Provides methods for retrieving information about the source application.
 old-location: shell\ILaunchSourceViewSizePreference.htm
 tech.root: shell
 ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
 ms.topic: interface

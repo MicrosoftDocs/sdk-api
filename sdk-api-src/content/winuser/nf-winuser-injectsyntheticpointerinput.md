@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.InjectSyntheticPointerInput
 title: InjectSyntheticPointerInput function (winuser.h)
-author: windows-sdk-content
+
 description: Simulates pointer input (pen or touch).
 old-location: input_pointerdevice\injectsyntheticpointerinput.htm
 tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
 ms.topic: function

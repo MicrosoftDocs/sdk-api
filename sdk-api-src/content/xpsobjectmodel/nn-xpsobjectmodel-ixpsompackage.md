@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackage
 title: IXpsOMPackage (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Provides the top-level entry into the XPS object model tree.
 old-location: xps\ixpsompackage.htm
 tech.root: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
 ms.topic: interface

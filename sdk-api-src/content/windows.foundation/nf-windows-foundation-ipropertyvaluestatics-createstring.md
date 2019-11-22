@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateString
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-author: windows-sdk-content
+
 description: Creates a new IPropertyValue object that contains the specified string value.
 old-location: winrt\ipropertyvaluestatics_createstring.htm
 tech.root: WinRT
 ms.assetid: 09622009-3E53-4ACD-99AE-83EA20FC55D9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateString, CreateString method [Windows Runtime], CreateString method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateString method, IPropertyValueStatics.CreateString, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateString, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateString, winrt.ipropertyvaluefactory_createstring, winrt.ipropertyvaluestatics_createstring
 ms.topic: method

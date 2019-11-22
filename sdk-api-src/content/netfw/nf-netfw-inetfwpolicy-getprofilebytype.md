@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwPolicy.GetProfileByType
 title: INetFwPolicy::GetProfileByType (netfw.h)
-author: windows-sdk-content
+
 description: Retrieves the profile of the requested type.
 old-location: ics\inetfwpolicy_getprofilebytype.htm
 tech.root: ics
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
 ms.topic: method

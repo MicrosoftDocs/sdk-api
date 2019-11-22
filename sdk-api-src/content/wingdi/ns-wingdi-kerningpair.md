@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagKERNINGPAIR
 title: KERNINGPAIR (wingdi.h)
-author: windows-sdk-content
+
 description: The KERNINGPAIR structure defines a kerning pair.
 old-location: gdi\kerningpair.htm
 tech.root: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
 ms.topic: struct

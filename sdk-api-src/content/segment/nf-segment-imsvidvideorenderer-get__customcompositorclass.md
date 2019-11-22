@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get__CustomCompositorClass
 title: IMSVidVideoRenderer::get__CustomCompositorClass (segment.h)
-author: windows-sdk-content
+
 description: The get__CustomCompositorClass method retrieves the class identifier (CLSID) of the Video Mixing Renderer's current image compositor, as a GUID.
 old-location: mstv\imsvidvideorenderer_get__customcompositorclass.htm
 tech.root: mstv
 ms.assetid: 0ac48bbb-a0d3-4c37-9f3e-4f4cc79b550b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositorClass method, IMSVidVideoRenderer.get__CustomCompositorClass, IMSVidVideoRenderer::get__CustomCompositorClass, IMSVidVideoRendererget__CustomCompositorClass, get__CustomCompositorClass, get__CustomCompositorClass method [Microsoft TV Technologies], get__CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositorclass, segment/IMSVidVideoRenderer::get__CustomCompositorClass
 ms.topic: method

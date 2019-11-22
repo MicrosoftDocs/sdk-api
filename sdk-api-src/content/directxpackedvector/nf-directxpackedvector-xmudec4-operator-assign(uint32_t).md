@@ -3,7 +3,7 @@ UID: NF:directxpackedvector.XMUDEC4.operator-assign(uint32_t)
 title: XMUDEC4::operator=
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMUDEC4.
 ms.assetid: fa7526a5-4fff-46f9-a79a-af2a6c5caacb
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: XMUDEC4::operator=
 ms.topic: language-reference

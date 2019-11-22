@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorInputConnector.GetInputConnector
 title: IMILBitmapEffectInteriorInputConnector::GetInputConnector (mileffects.h)
-author: windows-sdk-content
+
 description: Gets the IMILBitmapEffectInputConnector associated with the interior connector.
 old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector_getinputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\getinputconnector.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorInputConnector interface, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectInteriorInputConnector.GetInputConnector, IMILBitmapEffectInteriorInputConnector::GetInputConnector, _wibe_imilbitmapeffectinteriorinputconnector_getinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector::GetInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector_getinputconnector
 ms.topic: method

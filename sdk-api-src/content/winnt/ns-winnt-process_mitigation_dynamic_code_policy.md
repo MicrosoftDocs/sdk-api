@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
 title: PROCESS_MITIGATION_DYNAMIC_CODE_POLICY (winnt.h)
-author: windows-sdk-content
+
 description: Contains process mitigation policy settings for restricting dynamic code generation and modification.
 old-location: base\process_mitigation_dynamic_code_policy.htm
 tech.root: ProcThread
 ms.assetid: 7BEFC437-FFE4-4971-8D99-E31D102376D4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY, PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY, PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY structure pointer, PROCESS_MITIGATION_DYNAMIC_CODE_POLICY, PROCESS_MITIGATION_DYNAMIC_CODE_POLICY structure, _PROCESS_MITIGATION_DYNAMIC_CODE_POLICY, base.process_mitigation_dynamic_code_policy, winnt/PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY, winnt/PROCESS_MITIGATION_DYNAMIC_CODE_POLICY"
 ms.topic: struct

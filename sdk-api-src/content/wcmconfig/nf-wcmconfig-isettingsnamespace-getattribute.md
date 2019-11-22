@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetAttribute
 title: ISettingsNamespace::GetAttribute (wcmconfig.h)
-author: windows-sdk-content
+
 description: Gets the value of an attribute of the namespace.
 old-location: smi\isettingsnamespace_getattribute.htm
 tech.root: SMI
 ms.assetid: b0623114-8f25-4870-a1c7-4f4e3ecf0348
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetAttribute method, ISettingsNamespace.GetAttribute, ISettingsNamespace::GetAttribute, smi.isettingsnamespace_getattribute, wcmconfig/ISettingsNamespace::GetAttribute
 ms.topic: method

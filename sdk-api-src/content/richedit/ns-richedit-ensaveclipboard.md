@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._ensaveclipboard
 title: ENSAVECLIPBOARD (richedit.h)
-author: windows-sdk-content
+
 description: Contains information about objects and text on the clipboard.
 old-location: controls\ENSAVECLIPBOARD.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\ensaveclipboard.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _win32_ENSAVECLIPBOARD_str, _win32_ENSAVECLIPBOARD_str_cpp, controls.ENSAVECLIPBOARD, controls._win32_ENSAVECLIPBOARD_str, richedit/ENSAVECLIPBOARD
 ms.topic: struct

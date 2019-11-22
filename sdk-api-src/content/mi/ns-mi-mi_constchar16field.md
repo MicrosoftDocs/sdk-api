@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstChar16Field
 title: MI_ConstChar16Field (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constchar16field.htm
 tech.root: wmi_v2
 ms.assetid: ecc1c7c2-a6ee-4f8f-86f5-155fdd647d8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstChar16Field, MI_ConstChar16Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstChar16Field, wmi._mi_constchar16field, wmi_v2.mi_constchar16field
 ms.topic: struct

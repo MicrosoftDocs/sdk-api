@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetCursorPos
 title: GetCursorPos function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the position of the mouse cursor, in screen coordinates.
 old-location: menurc\getcursorpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursorpos.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCursorPos, GetCursorPos function [Menus and Other Resources], _win32_GetCursorPos, _win32_getcursorpos_cpp, menurc.getcursorpos, winui._win32_getcursorpos, winuser/GetCursorPos
 ms.topic: function

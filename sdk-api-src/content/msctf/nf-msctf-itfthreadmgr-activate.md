@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Activate
 title: ITfThreadMgr::Activate (msctf.h)
-author: windows-sdk-content
+
 description: ITfThreadMgr::Activate method
 old-location: tsf\itfthreadmgr_activate.htm
 tech.root: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
 ms.topic: method

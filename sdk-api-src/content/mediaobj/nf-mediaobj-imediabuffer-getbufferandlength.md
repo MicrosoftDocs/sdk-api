@@ -1,12 +1,12 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.GetBufferAndLength
 title: IMediaBuffer::GetBufferAndLength (mediaobj.h)
-author: windows-sdk-content
+
 description: The GetBufferAndLength method retrieves the buffer and the size of the valid data in the buffer.
 old-location: dshow\imediabuffer_getbufferandlength.htm
 tech.root: DirectShow
 ms.assetid: 255ef101-f004-41c8-afb8-437d21decee5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBufferAndLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetBufferAndLength method, IMediaBuffer.GetBufferAndLength, IMediaBuffer::GetBufferAndLength, IMediaBufferGetBufferAndLength, dshow.imediabuffer_getbufferandlength, mediaobj/IMediaBuffer::GetBufferAndLength
 ms.topic: method

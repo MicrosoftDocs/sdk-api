@@ -1,12 +1,12 @@
 ---
 UID: NN:rendezvoussession.IRendezvousSession
 title: IRendezvousSession (rendezvoussession.h)
-author: windows-sdk-content
+
 description: Exposes methods that send data about the session and that can terminate it.
 old-location: remoteassist\remoteassist_IRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\iRendezvousSession.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], IRendezvousSession interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousSession, remoteassist_IRendezvousSession, rendezvoussession/IRendezvousSession
 ms.topic: interface

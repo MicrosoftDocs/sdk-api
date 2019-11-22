@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects
 title: BoundingFrustum::Intersects
-author: windows-sdk-content
+
 description: Test the BoundingFrustum for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Intersects

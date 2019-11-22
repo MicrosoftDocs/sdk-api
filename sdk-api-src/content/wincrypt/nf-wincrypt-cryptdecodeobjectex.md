@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptDecodeObjectEx
 title: CryptDecodeObjectEx function (wincrypt.h)
-author: windows-sdk-content
+
 description: Decodes a structure of the type indicated by the lpszStructType parameter.
 old-location: security\cryptdecodeobjectex.htm
 tech.root: SecCrypto
 ms.assetid: bf1935f0-1ab0-4068-9ed5-8fbb2c286b8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECODE_ALLOC_FLAG, CRYPT_DECODE_ENABLE_PUNYCODE_FLAG, CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObjectEx, CryptDecodeObjectEx function [Security], _crypto2_cryptdecodeobjectex, security.cryptdecodeobjectex, wincrypt/CryptDecodeObjectEx
 ms.topic: function

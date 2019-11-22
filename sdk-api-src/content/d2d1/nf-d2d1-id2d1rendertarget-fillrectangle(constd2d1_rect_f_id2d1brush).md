@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillRectangle(const D2D1_RECT_F,ID2D1Brush)
 title: ID2D1RenderTarget::FillRectangle (d2d1.h)
-author: windows-sdk-content
+
 description: Paints the interior of the specified rectangle.
 old-location: direct2d\id2d1rendertarget_fillrectangle.htm
 tech.root: Direct2D
 ms.assetid: 08e498f9-b564-4da6-ba9b-bff08964ce08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle methods [Direct2D], ID2D1RenderTarget.FillRectangle, ID2D1RenderTarget::FillRectangle, d2d1_1/FillRectangle, direct2d.id2d1rendertarget_fillrectangle
 ms.topic: method

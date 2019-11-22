@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSARecvFrom
 title: WSARecvFrom function (winsock2.h)
-author: windows-sdk-content
+
 description: Receives a datagram and stores the source address.
 old-location: winsock\wsarecvfrom_2.htm
 tech.root: WinSock
 ms.assetid: 8617dbb8-0e4e-4cd3-9597-5d20de6778f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSARecvFrom, WSARecvFrom function [Winsock], _win32_wsarecvfrom_2, winsock.wsarecvfrom_2, winsock2/WSARecvFrom
 ms.topic: function

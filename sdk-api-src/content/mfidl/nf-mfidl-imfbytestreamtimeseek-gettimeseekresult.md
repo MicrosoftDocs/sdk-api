@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.GetTimeSeekResult
 title: IMFByteStreamTimeSeek::GetTimeSeekResult (mfidl.h)
-author: windows-sdk-content
+
 description: Gets the result of a time-based seek.
 old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: D56E1F06-AA05-430C-BF5C-30B38831B842
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFByteStreamTimeSeek interface, IMFByteStreamTimeSeek interface [Media Foundation],GetTimeSeekResult method, IMFByteStreamTimeSeek.GetTimeSeekResult, IMFByteStreamTimeSeek::GetTimeSeekResult, mf.imfbytestreamtimeseek_gettimeseekresult, mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult
 ms.topic: method

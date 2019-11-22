@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IVideoWindow.GetWindowPosition
 title: IVideoWindow::GetWindowPosition (control.h)
-author: windows-sdk-content
+
 description: The GetWindowPosition method retrieves the position of the video window.
 old-location: dshow\ivideowindow_getwindowposition.htm
 tech.root: DirectShow
 ms.assetid: df55c10d-aec1-42f3-8bfb-207ae8804e72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWindowPosition, GetWindowPosition method [DirectShow], GetWindowPosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetWindowPosition method, IVideoWindow.GetWindowPosition, IVideoWindow::GetWindowPosition, IVideoWindowGetWindowPosition, control/IVideoWindow::GetWindowPosition, dshow.ivideowindow_getwindowposition
 ms.topic: method

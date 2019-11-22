@@ -1,12 +1,12 @@
 ---
 UID: NS:mmc._MMC_SORT_DATA
 title: MMC_SORT_DATA (mmc.h)
-author: windows-sdk-content
+
 description: Contains the column sort data of a single column in a column set.
 old-location: mmc\mmc_sort_data.htm
 tech.root: mmc
 ms.assetid: 26500d98-4355-4e0c-a636-2c6898955ef0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MMC_SORT_DATA, MMC_SORT_DATA structure [MMC], RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, _slate_mmc_sort_data, mmc.mmc_sort_data, mmc/MMC_SORT_DATA
 ms.topic: struct

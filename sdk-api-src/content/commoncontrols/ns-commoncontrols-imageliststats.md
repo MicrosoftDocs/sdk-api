@@ -1,12 +1,12 @@
 ---
 UID: NS:commoncontrols.tagIMAGELISTSTATS
 title: IMAGELISTSTATS (commoncontrols.h)
-author: windows-sdk-content
+
 description: Contains image list statistics. Used by GetStatistics.
 old-location: controls\IMAGELISTSTATS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS
 ms.topic: struct

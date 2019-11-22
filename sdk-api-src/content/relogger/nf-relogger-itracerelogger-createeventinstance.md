@@ -1,12 +1,12 @@
 ---
 UID: NF:relogger.ITraceRelogger.CreateEventInstance
 title: ITraceRelogger::CreateEventInstance (relogger.h)
-author: windows-sdk-content
+
 description: Generates a new event.
 old-location: etw\itracerelogger_createeventinstance.htm
 tech.root: ETW
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.topic: method

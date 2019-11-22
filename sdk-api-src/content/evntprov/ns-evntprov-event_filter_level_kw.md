@@ -1,12 +1,12 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_LEVEL_KW
 title: EVENT_FILTER_LEVEL_KW (evntprov.h)
-author: windows-sdk-content
+
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for a stack walk level-keyword filter.
 old-location: etw\event_filter_level_kw.htm
 tech.root: ETW
 ms.assetid: 2FE25C55-8028-4894-9DD8-FC997B7D9ADB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW structure [ETW], PEVENT_FILTER_LEVEL_KW, PEVENT_FILTER_LEVEL_KW structure pointer [ETW], etw.event_filter_level_kw, evntprov/EVENT_FILTER_LEVEL_KW, evntprov/PEVENT_FILTER_LEVEL_KW'
 ms.topic: struct

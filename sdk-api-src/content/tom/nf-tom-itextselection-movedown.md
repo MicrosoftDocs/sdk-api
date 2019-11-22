@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextSelection.MoveDown
 title: ITextSelection::MoveDown (tom.h)
-author: windows-sdk-content
+
 description: Mimics the functionality of the Down Arrow and Page Down keys.
 old-location: controls\ITextSelection_MoveDown.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movedown.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveDown method, ITextSelection.MoveDown, ITextSelection::MoveDown, MoveDown, MoveDown method [Windows Controls], MoveDown method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveDown, _win32_ITextSelection_MoveDown_cpp, controls.ITextSelection_MoveDown, controls._win32_ITextSelection_MoveDown, tom/ITextSelection::MoveDown
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.UnRegisterDeviceFilter
 title: IBDA_NetworkProvider::UnRegisterDeviceFilter (bdaiface.h)
-author: windows-sdk-content
+
 description: The UnRegisterDeviceFilter method is called by BDA device filters when they are removed from the filter graph.
 old-location: mstv\ibda_networkprovider_unregisterdevicefilter.htm
 tech.root: mstv
 ms.assetid: 7d54830f-93cc-44c0-9bb7-43c439f4aa8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],UnRegisterDeviceFilter method, IBDA_NetworkProvider.UnRegisterDeviceFilter, IBDA_NetworkProvider::UnRegisterDeviceFilter, IBDA_NetworkProviderUnRegisterDeviceFilter, UnRegisterDeviceFilter, UnRegisterDeviceFilter method [Microsoft TV Technologies], UnRegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter, mstv.ibda_networkprovider_unregisterdevicefilter
 ms.topic: method

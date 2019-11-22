@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiRecordIsNull
 title: MsiRecordIsNull function (msiquery.h)
-author: windows-sdk-content
+
 description: Reports a null record field.
 old-location: setup\msirecordisnull.htm
 tech.root: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.topic: function

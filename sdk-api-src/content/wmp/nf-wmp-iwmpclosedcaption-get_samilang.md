@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMILang
 title: IWMPClosedCaption::get_SAMILang (wmp.h)
-author: windows-sdk-content
+
 description: The get_SAMILang method retrieves the language displayed for closed captioning.
 old-location: wmp\iwmpclosedcaption_get_samilang.htm
 tech.root: WMP
 ms.assetid: bcb72cf3-dad2-46b4-9652-349b804cda22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMILang method, IWMPClosedCaption.get_SAMILang, IWMPClosedCaption::get_SAMILang, IWMPClosedCaptionget_SAMILang, get_SAMILang, get_SAMILang method [Windows Media Player], get_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samilang, wmp/IWMPClosedCaption::get_SAMILang
 ms.topic: method

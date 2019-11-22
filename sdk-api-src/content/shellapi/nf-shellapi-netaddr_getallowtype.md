@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.NetAddr_GetAllowType
 title: NetAddr_GetAllowType macro (shellapi.h)
-author: windows-sdk-content
+
 description: Retrieves the network address types that a specified network address control accepts.
 old-location: shell\NetAddr_GetAllowType.htm
 tech.root: shell
 ms.assetid: 21533513-86c2-418b-ab62-3c1b2db9bc2f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetAddr_GetAllowType, NetAddr_GetAllowType macro [Windows Shell], _shell_NetAddr_GetAllowType, shell.NetAddr_GetAllowType, shellapi/NetAddr_GetAllowType
 ms.topic: macro

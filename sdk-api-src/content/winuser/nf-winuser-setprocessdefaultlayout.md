@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetProcessDefaultLayout
 title: SetProcessDefaultLayout function (winuser.h)
-author: windows-sdk-content
+
 description: Changes the default layout when windows are created with no parent or owner only for the currently running process.
 old-location: winmsg\setprocessdefaultlayout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setprocessdefaultlayout.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LAYOUT_RTL, SetProcessDefaultLayout, SetProcessDefaultLayout function [Windows and Messages], _win32_SetProcessDefaultLayout, _win32_setprocessdefaultlayout_cpp, winmsg.setprocessdefaultlayout, winui._win32_setprocessdefaultlayout, winuser/SetProcessDefaultLayout
 ms.topic: function

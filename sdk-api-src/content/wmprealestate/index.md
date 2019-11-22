@@ -1,7 +1,7 @@
 ---
 UID: NA:wmprealestate
 ms.assetid: c4ff5669-9ba6-3d67-bfca-528588aba8e9
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

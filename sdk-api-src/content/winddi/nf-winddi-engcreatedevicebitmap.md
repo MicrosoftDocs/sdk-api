@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngCreateDeviceBitmap
 title: EngCreateDeviceBitmap function (winddi.h)
-author: windows-sdk-content
+
 description: The EngCreateDeviceBitmap function requests GDI to create a handle for a device bitmap.
 old-location: display\engcreatedevicebitmap.htm
 tech.root: display
 ms.assetid: dc9d7154-30b9-4462-9161-6df03946308d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngCreateDeviceBitmap, EngCreateDeviceBitmap function [Display Devices], display.engcreatedevicebitmap, gdifncs_e802b5e9-a939-4aa4-b4df-82172e825fa5.xml, winddi/EngCreateDeviceBitmap
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.SHCreateShellPalette
 title: SHCreateShellPalette function (shlwapi.h)
-author: windows-sdk-content
+
 description: Creates a halftone palette for the specified device context.
 old-location: shell\SHCreateShellPalette.htm
 tech.root: shell
 ms.assetid: 49afb04a-34e3-4696-a046-bc9308ae7adf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellPalette, SHCreateShellPalette function [Windows Shell], _win32_SHCreateShellPalette, shell.SHCreateShellPalette, shlwapi/SHCreateShellPalette
 ms.topic: function

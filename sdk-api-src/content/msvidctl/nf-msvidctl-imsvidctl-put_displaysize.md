@@ -1,12 +1,12 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_DisplaySize
 title: IMSVidCtl::put_DisplaySize (msvidctl.h)
-author: windows-sdk-content
+
 description: The put_DisplaySize method specifies the display size.
 old-location: mstv\imsvidctl_put_displaysize.htm
 tech.root: mstv
 ms.assetid: 1771e66b-e5f3-44f5-a489-e57baaf5cf25
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_DisplaySize method, IMSVidCtl.put_DisplaySize, IMSVidCtl::put_DisplaySize, IMSVidCtlput_DisplaySize, mstv.imsvidctl_put_displaysize, msvidctl/IMSVidCtl::put_DisplaySize, put_DisplaySize, put_DisplaySize method [Microsoft TV Technologies], put_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method

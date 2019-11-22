@@ -1,12 +1,12 @@
 ---
 UID: NF:xapo.XAPOFree
 title: XAPOFree macro (xapo.h)
-author: windows-sdk-content
+
 description: Macro used to free memory allocated with the XAPOAlloc macro.
 old-location: xaudio2\xapofree.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOFree(void)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAPOFree, XAPOFree macro [XAudio2 Audio Mixing APIs], xapo/XAPOFree, xaudio2.xapofree
 ms.topic: macro

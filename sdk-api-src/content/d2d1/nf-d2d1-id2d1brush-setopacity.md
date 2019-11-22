@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1Brush.SetOpacity
 title: ID2D1Brush::SetOpacity (d2d1.h)
-author: windows-sdk-content
+
 description: Sets the degree of opacity of this brush.
 old-location: direct2d\ID2D1Brush_SetOpacity.htm
 tech.root: Direct2D
 ms.assetid: c2e6df27-4007-4f2e-9567-439dd3842318
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Brush interface [Direct2D],SetOpacity method, ID2D1Brush.SetOpacity, ID2D1Brush::SetOpacity, SetOpacity, SetOpacity method [Direct2D], SetOpacity method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetOpacity, direct2d.ID2D1Brush_SetOpacity
 ms.topic: method

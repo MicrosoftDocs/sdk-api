@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetDMTFNonNtfs
 title: WBEMTime::GetDMTFNonNtfs (wbemtime.h)
-author: windows-sdk-content
+
 description: The GetDMTFNonNtfs method gets a DMTF date in a CIM Date and Time Format from a FAT that does not have time zones.
 old-location: wmi\wbemtime_getdmtfnonntfs.htm
 tech.root: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
 ms.topic: method

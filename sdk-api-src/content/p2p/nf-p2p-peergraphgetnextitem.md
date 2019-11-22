@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGraphGetNextItem
 title: PeerGraphGetNextItem function (p2p.h)
-author: windows-sdk-content
+
 description: Obtains the next item or items in an enumeration created by a call to the following functions.
 old-location: p2p\peergraphgetnextitem.htm
 tech.root: P2PSdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
 ms.topic: function

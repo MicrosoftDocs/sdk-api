@@ -1,12 +1,12 @@
 ---
 UID: NS:wsman._WSMAN_FRAGMENT
 title: WSMAN_FRAGMENT (wsman.h)
-author: windows-sdk-content
+
 description: WSMAN_FRAGMENT is reserved for future use.
 old-location: winrm\wsman_fragment.htm
 tech.root: winrm
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
 ms.topic: struct

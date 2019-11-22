@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseObjectCount
 title: DRMGetBoundLicenseObjectCount function (msdrm.h)
-author: windows-sdk-content
+
 description: Retrieves the number of occurrences of an object within a specified branch of a license.
 old-location: rm\drmgetboundlicenseobjectcount.htm
 tech.root: AdRms_Sdk
 ms.assetid: 1bb9a9b7-f254-4c2b-a7b0-5e9b99c92488
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseObjectCount, DRMGetBoundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObjectCount, rm.drmgetboundlicenseobjectcount
 ms.topic: function

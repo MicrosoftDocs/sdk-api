@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorGetXPtr
 title: XMVectorGetXPtr function (directxmath.h)
-author: windows-sdk-content
+
 description: Retrieve the x component of an XMVECTOR Data Type containing floating-point data, and storing that component's value in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorgetxptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetXPtr(float@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetXPtr, XMVectorGetXPtr, XMVectorGetXPtr method [DirectX Math Support APIs], dxmath.xmvectorgetxptr
 ms.topic: function

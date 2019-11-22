@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.MoveItem
 title: ITransferSource::MoveItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Moves the item within the volume/namespace, returning the IShellItem in its new location.
 old-location: shell\ITransferSource_MoveItem.htm
 tech.root: shell
 ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransferSource.MoveItem, ITransferSource::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_MoveItem, shell.ITransferSource_MoveItem, shobjidl_core/ITransferSource::MoveItem
 ms.topic: method

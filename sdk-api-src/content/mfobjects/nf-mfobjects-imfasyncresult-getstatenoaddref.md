@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStateNoAddRef
 title: IMFAsyncResult::GetStateNoAddRef (mfobjects.h)
-author: windows-sdk-content
+
 description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.
 old-location: mf\imfasyncresult_getstatenoaddref.htm
 tech.root: medfound
 ms.assetid: 37ba820c-5253-48de-a960-c546e50e8672
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef, GetStateNoAddRef method [Media Foundation], GetStateNoAddRef method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStateNoAddRef method, IMFAsyncResult.GetStateNoAddRef, IMFAsyncResult::GetStateNoAddRef, mf.imfasyncresult_getstatenoaddref, mfobjects/IMFAsyncResult::GetStateNoAddRef
 ms.topic: method

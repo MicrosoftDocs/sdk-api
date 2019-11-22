@@ -1,12 +1,12 @@
 ---
 UID: NF:errhandlingapi.GetLastError
 title: GetLastError function (errhandlingapi.h)
-author: windows-sdk-content
+
 description: Retrieves the calling thread's last-error code value.
 old-location: base\getlasterror.htm
 tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getlasterror, errhandlingapi/GetLastError
 ms.topic: function

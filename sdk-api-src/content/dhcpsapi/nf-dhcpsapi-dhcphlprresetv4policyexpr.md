@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprResetV4PolicyExpr
 title: DhcpHlprResetV4PolicyExpr function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Resets the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprresetv4policyexpr.htm
 tech.root: DHCP
 ms.assetid: 5f252840-d474-405e-8b32-50e6efe35f62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprResetV4PolicyExpr, DhcpHlprResetV4PolicyExpr function [DHCP], dhcp.dhcphlprresetv4policyexpr, dhcpsapi/DhcpHlprResetV4PolicyExpr
 ms.topic: function

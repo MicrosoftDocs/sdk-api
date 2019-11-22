@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmQueryThumbnailSourceSize
 title: DwmQueryThumbnailSourceSize function (dwmapi.h)
-author: windows-sdk-content
+
 description: Retrieves the source size of the Desktop Window Manager (DWM) thumbnail.
 old-location: dwm\dwmquerythumbnailsourcesize.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmquerythumbnailsourcesize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DwmQueryThumbnailSourceSize, DwmQueryThumbnailSourceSize function [Desktop Window Manager], _udwm_dwmquerythumbnailsourcesize, _udwm_dwmquerythumbnailsourcesize_cpp, dwm.dwmquerythumbnailsourcesize, dwmapi/DwmQueryThumbnailSourceSize, winui._udwm_dwmquerythumbnailsourcesize
 ms.topic: function

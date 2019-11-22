@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the AngleX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setanglex_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 27da99b3-038d-4c18-bb43-09f04dd58ff5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_idcompositionanimation
 ms.topic: method

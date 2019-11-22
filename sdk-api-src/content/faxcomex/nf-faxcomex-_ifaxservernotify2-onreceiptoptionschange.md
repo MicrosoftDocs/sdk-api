@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnReceiptOptionsChange
 title: _IFaxServerNotify2::OnReceiptOptionsChange (faxcomex.h)
-author: windows-sdk-content
+
 description: The fax service calls the IFaxServerNotify2::OnReceiptOptionsChange method when there is a change that relates to receipt configuration.
 old-location: fax\_mfax_ifaxservernotify2_onreceiptoptionschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onreceiptoptionschange.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnReceiptOptionsChange method, IFaxServerNotify2.OnReceiptOptionsChange, IFaxServerNotify2::OnReceiptOptionsChange, OnReceiptOptionsChange, OnReceiptOptionsChange method [Fax Service], OnReceiptOptionsChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnReceiptOptionsChange, _IFaxServerNotify2::OnReceiptOptionsChange, _mfax_ifaxservernotify2_onreceiptoptionschange, fax._mfax_ifaxservernotify2_onreceiptoptionschange, faxcomex/IFaxServerNotify2::OnReceiptOptionsChange
 ms.topic: method

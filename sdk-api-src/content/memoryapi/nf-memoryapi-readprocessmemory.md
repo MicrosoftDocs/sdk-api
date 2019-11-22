@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.ReadProcessMemory
 title: ReadProcessMemory function (memoryapi.h)
-author: windows-sdk-content
+
 description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
 old-location: base\ReadProcessMemory.htm
 tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
-ms.author: windowssdkdev
+
 ms.date: 08/05/2019
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
 ms.topic: function

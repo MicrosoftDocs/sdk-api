@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfContext.GetActiveView
 title: ITfContext::GetActiveView (msctf.h)
-author: windows-sdk-content
+
 description: ITfContext::GetActiveView method
 old-location: tsf\itfcontext_getactiveview.htm
 tech.root: TSF
 ms.assetid: 41f7eb74-bca2-4d53-8a70-0b872616fd1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetActiveView method, ITfContext.GetActiveView, ITfContext::GetActiveView, _tsf_itfcontext_getactiveview_ref, msctf/ITfContext::GetActiveView, tsf.itfcontext_getactiveview
 ms.topic: method

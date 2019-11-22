@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IFileDialogCustomize
 title: IFileDialogCustomize (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow an application to add controls to a common file dialog.
 old-location: shell\IFileDialogCustomize.htm
 tech.root: shell
 ms.assetid: f1c29688-3538-40ff-a1da-6211cc5dded7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize, IFileDialogCustomize interface [Windows Shell], IFileDialogCustomize interface [Windows Shell],described, shell.IFileDialogCustomize, shell_IFileDialogCustomize, shobjidl_core/IFileDialogCustomize
 ms.topic: interface

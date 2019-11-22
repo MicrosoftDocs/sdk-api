@@ -1,12 +1,12 @@
 ---
 UID: NE:evr._MFVideoMixPrefs
 title: MFVideoMixPrefs (evr.h)
-author: windows-sdk-content
+
 description: Contains flags that are used to configure how the enhanced video renderer (EVR) performs deinterlacing.
 old-location: mf\mfvideomixprefs.htm
 tech.root: medfound
 ms.assetid: 28dcc8b1-684e-4178-9606-118e77d8ff58
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFVideoMixPrefs, MFVideoMixPrefs enumeration [Media Foundation], MFVideoMixPrefs_AllowDropToBob, MFVideoMixPrefs_AllowDropToHalfInterlace, MFVideoMixPrefs_ForceBob, MFVideoMixPrefs_ForceHalfInterlace, MFVideoMixPrefs_Mask, evr/MFVideoMixPrefs, evr/MFVideoMixPrefs_AllowDropToBob, evr/MFVideoMixPrefs_AllowDropToHalfInterlace, evr/MFVideoMixPrefs_ForceBob, evr/MFVideoMixPrefs_ForceHalfInterlace, evr/MFVideoMixPrefs_Mask, mf.mfvideomixprefs
 ms.topic: enum

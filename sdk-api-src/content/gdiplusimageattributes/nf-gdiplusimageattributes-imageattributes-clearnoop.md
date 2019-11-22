@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearNoOp
 title: ImageAttributes::ClearNoOp (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::ClearNoOp method clears the NoOp setting for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearNoOp_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearnoop.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearNoOp, ClearNoOp method [GDI+], ClearNoOp method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearNoOp method, ImageAttributes.ClearNoOp, ImageAttributes::ClearNoOp, _gdiplus_CLASS_ImageAttributes_ClearNoOp_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearNoOp_type_
 ms.topic: method

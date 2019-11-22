@@ -1,12 +1,12 @@
 ---
 UID: NF:exdisp.IShellWindows.Item
 title: IShellWindows::Item (exdisp.h)
-author: windows-sdk-content
+
 description: Returns the registered Shell window for a specified index.
 old-location: shell\IShellWindows_Item.htm
 tech.root: shell
 ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.Item, IShellWindows::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Item, exdisp/IShellWindows::Item, shell.IShellWindows_Item
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Metafile::Metafile object for recording to an IStream interface.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_48istreamstream_hdcreferencehdc_rectfamp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile.Metafile(IStream*,HDC,const RectF&,MetafileFrameUnit,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f, gdiplus._gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f
 ms.topic: method

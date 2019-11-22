@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST_EX
 title: KERB_ADD_CREDENTIALS_REQUEST_EX (ntsecapi.h)
-author: windows-sdk-content
+
 description: Specifies a message to add, remove, or replace an extra server credential for a logon session, and the service principal names (SPNs) to be associated with that credential.
 old-location: security\kerb_add_credentials_request_ex.htm
 tech.root: SecAuthN
 ms.assetid: 9e806fce-9b3e-4bc9-bd75-a692f0ca5680
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX structure [Security], PKERB_ADD_CREDENTIALS_REQUEST_EX, PKERB_ADD_CREDENTIALS_REQUEST_EX structure pointer [Security], ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST_EX, security.kerb_add_credentials_request_ex'
 ms.topic: struct

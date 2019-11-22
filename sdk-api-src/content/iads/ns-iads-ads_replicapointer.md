@@ -1,12 +1,12 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0012
 title: ADS_REPLICAPOINTER (iads.h)
-author: windows-sdk-content
+
 description: Represents an ADSI representation of the Replica Pointer attribute syntax.
 old-location: adsi\ads_replicapointer.htm
 tech.root: adsi
 ms.assetid: f8cb8763-9533-4b80-8617-a99d75c92f07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PADS_REPLICAPOINTER, ADS_REPLICAPOINTER, ADS_REPLICAPOINTER structure [ADSI], PADS_REPLICAPOINTER, PADS_REPLICAPOINTER structure pointer [ADSI], _ds_ads_replicapointer, adsi.ads__replicapointer, adsi.ads_replicapointer, iads/ADS_REPLICAPOINTER, iads/PADS_REPLICAPOINTER"
 ms.topic: struct

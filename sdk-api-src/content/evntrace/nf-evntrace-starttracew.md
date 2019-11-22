@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.StartTraceW
 title: StartTraceW function (evntrace.h)
-author: windows-sdk-content
+
 description: The StartTrace function registers and starts an event tracing session.
 old-location: etw\starttrace.htm
 tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
 ms.topic: function

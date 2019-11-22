@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetName
 title: IAppxFile::GetName (appxpackaging.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the file, including its path relative to the package root directory.
 old-location: appxpkg\iappxfile_getname.htm
 tech.root: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
 ms.topic: method

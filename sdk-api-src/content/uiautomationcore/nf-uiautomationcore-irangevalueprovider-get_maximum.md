@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Maximum
 title: IRangeValueProvider::get_Maximum (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the maximum range value supported by the control.
 old-location: winauto\uiauto_IRangeValueProvider_Maximum.htm
 tech.root: WinAuto
 ms.assetid: a681b992-c3db-497a-ae38-df62f9016ba6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Maximum property, IRangeValueProvider.Maximum, IRangeValueProvider.get_Maximum, IRangeValueProvider::Maximum, IRangeValueProvider::get_Maximum, Maximum property [Windows Accessibility], Maximum property [Windows Accessibility],IRangeValueProvider interface, get_Maximum, uiauto.uiauto_IRangeValueProvider_Maximum, uiauto_IRangeValueProvider_Maximum, uiautomationcore/IRangeValueProvider::Maximum, uiautomationcore/IRangeValueProvider::get_Maximum, winauto.uiauto_IRangeValueProvider_Maximum
 ms.topic: method

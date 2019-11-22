@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.CreateCustomRenderingParams
 title: IDWriteFactory2::CreateCustomRenderingParams (dwrite_2.h)
-author: windows-sdk-content
+
 description: Creates a rendering parameters object with the specified properties.
 old-location: directwrite\idwritefactory2_createcustomrenderingparams.htm
 tech.root: DirectWrite
 ms.assetid: 947d50fd-888c-2f0b-25c2-b19b0e6fad58
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory2.CreateCustomRenderingParams, IDWriteFactory2::CreateCustomRenderingParams, directwrite.idwritefactory2_createcustomrenderingparams, dwrite_2/IDWriteFactory2::CreateCustomRenderingParams
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:lmwksta.NetWkstaSetInfo
 title: NetWkstaSetInfo function (lmwksta.h)
-author: windows-sdk-content
+
 description: The NetWkstaSetInfo function configures a workstation with information that remains in effect after the system has been reinitialized.
 old-location: netmgmt\netwkstasetinfo.htm
 tech.root: NetMgmt
 ms.assetid: d746b6c9-5ef1-4174-a84f-44e4e50200cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
 ms.topic: function

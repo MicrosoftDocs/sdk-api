@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsUser.ChangePassword
 title: IADsUser::ChangePassword (iads.h)
-author: windows-sdk-content
+
 description: Changes the user password from the specified old value to a new value.
 old-location: adsi\iadsuser_changepassword.htm
 tech.root: adsi
 ms.assetid: 279087b1-450a-4089-a5f6-257849ae583f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChangePassword, ChangePassword method [ADSI], ChangePassword method [ADSI],IADsUser interface, IADsUser interface [ADSI],ChangePassword method, IADsUser.ChangePassword, IADsUser::ChangePassword, _ds_iadsuser_changepassword, adsi.iadsuser__changepassword, adsi.iadsuser_changepassword, iads/IADsUser::ChangePassword
 ms.topic: method

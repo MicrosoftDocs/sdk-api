@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.ISearchBoxInfo
 title: ISearchBoxInfo (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow the caller to retrieve information entered into a search box.
 old-location: shell\ISearchBoxInfo.htm
 tech.root: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Reset
 title: IEnumSyncMgrSyncItems::Reset (syncmgr.h)
-author: windows-sdk-content
+
 description: Resets the current position in the enumeration to 0.
 old-location: shell\IEnumSyncMgrSyncItems_Reset.htm
 tech.root: shell
 ms.assetid: 8144b47e-0419-4bc8-a57d-dc5c2b743f62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnumSyncMgrSyncItems.Reset, IEnumSyncMgrSyncItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
 ms.topic: method

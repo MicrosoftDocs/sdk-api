@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
 title: ITfInputProcessorProfiles::RemoveLanguageProfile (msctf.h)
-author: windows-sdk-content
+
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],RemoveLanguageProfile method, ITfInputProcessorProfiles.RemoveLanguageProfile, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
 ms.topic: method

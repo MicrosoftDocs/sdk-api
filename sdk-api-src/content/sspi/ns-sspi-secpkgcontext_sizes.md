@@ -1,12 +1,12 @@
 ---
 UID: NS:sspi._SecPkgContext_Sizes
 title: SecPkgContext_Sizes (sspi.h)
-author: windows-sdk-content
+
 description: The SecPkgContext_Sizes structure indicates the sizes of important structures used in the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_sizes.htm
 tech.root: SecAuthN
 ms.assetid: 46b6a155-8855-4aa0-a513-aa5b3760fcd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_Sizes, PSecPkgContext_Sizes, PSecPkgContext_Sizes structure pointer [Security], SecPkgContext_Sizes, SecPkgContext_Sizes structure [Security], _ssp_secpkgcontext_sizes, security.secpkgcontext_sizes, sspi/PSecPkgContext_Sizes, sspi/SecPkgContext_Sizes"
 ms.topic: struct

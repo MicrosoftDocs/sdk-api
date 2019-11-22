@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CMSG_MAIL_LIST_ENCRYPT_INFO
 title: CMSG_MAIL_LIST_ENCRYPT_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains encryption information for a mailing list recipient of enveloped data.
 old-location: security\cmsg_mail_list_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: 25c4338a-1ea3-4fff-a6bf-f3884a8154d3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_FREE_OBJID_FLAG, CMSG_MAIL_LIST_ENCRYPT_FREE_PARA_FLAG, CMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_INFO structure [Security], PCMSG_MAIL_LIST_ENCRYPT_INFO, PCMSG_MAIL_LIST_ENCRYPT_INFO structure pointer [Security], security.cmsg_mail_list_encrypt_info, wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO, wincrypt/PCMSG_MAIL_LIST_ENCRYPT_INFO'
 ms.topic: struct

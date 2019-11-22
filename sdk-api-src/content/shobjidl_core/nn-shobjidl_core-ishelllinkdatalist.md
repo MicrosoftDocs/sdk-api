@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IShellLinkDataList
 title: IShellLinkDataList (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow an application to attach extra data blocks to a Shell link. These methods add, copy, or remove data blocks.
 old-location: shell\IShellLinkDataList.htm
 tech.root: shell
 ms.assetid: ac3279ad-1413-48bf-a830-4ec128352573
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList, IShellLinkDataList interface [Windows Shell], IShellLinkDataList interface [Windows Shell],described, _win32_IShellLinkDataList, shell.IShellLinkDataList, shobjidl_core/IShellLinkDataList
 ms.topic: interface

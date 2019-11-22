@@ -1,12 +1,12 @@
 ---
 UID: NS:ipexport._IP_ADAPTER_INDEX_MAP
 title: IP_ADAPTER_INDEX_MAP (ipexport.h)
-author: windows-sdk-content
+
 description: The IP_ADAPTER_INDEX_MAP structure stores the interface index associated with a network adapter with IPv4 enabled together with the name of the network adapter.
 old-location: iphlp\ip_adapter_index_map.htm
 tech.root: IpHlp
 ms.assetid: 83d95ef3-13a4-4124-84cd-3016e9fb4446
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_INDEX_MAP, IP_ADAPTER_INDEX_MAP, IP_ADAPTER_INDEX_MAP structure [IP Helper], PIP_ADAPTER_INDEX_MAP, PIP_ADAPTER_INDEX_MAP structure pointer [IP Helper], _iphlp_ip_adapter_index_map, ipexport/IP_ADAPTER_INDEX_MAP, ipexport/PIP_ADAPTER_INDEX_MAP, iphlp.ip_adapter_index_map"
 ms.topic: struct

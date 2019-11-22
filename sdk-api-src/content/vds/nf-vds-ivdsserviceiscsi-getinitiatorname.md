@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.GetInitiatorName
 title: IVdsServiceIscsi::GetInitiatorName (vds.h)
-author: windows-sdk-content
+
 description: Returns the iSCSI name of the local initiator service.
 old-location: base\ivdsserviceiscsi_getinitiatorname.htm
 tech.root: VDS
 ms.assetid: 34f18293-6254-4f73-a633-642a3cdeaf31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorName, GetInitiatorName method [VDS], GetInitiatorName method [VDS],IVdsServiceIscsi interface, IVdsServiceIscsi interface [VDS],GetInitiatorName method, IVdsServiceIscsi.GetInitiatorName, IVdsServiceIscsi::GetInitiatorName, base.ivdsserviceiscsi_getinitiatorname, vds/IVdsServiceIscsi::GetInitiatorName
 ms.topic: method

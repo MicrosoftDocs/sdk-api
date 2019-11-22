@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StoppedMonitoringScope
 title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-author: windows-sdk-content
+
 description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\stoppedmonitoringscope.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchPersistentItemsChangedSink.StoppedMonitoringScope, ISearchPersistentItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope
 ms.topic: method

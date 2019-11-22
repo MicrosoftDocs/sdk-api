@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ChangeWindowMessageFilter
 title: ChangeWindowMessageFilter function (winuser.h)
-author: windows-sdk-content
+
 description: Adds or removes a message from the User Interface Privilege Isolation (UIPI) message filter.
 old-location: winmsg\changewindowmessagefilter.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilter.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
 ms.topic: function

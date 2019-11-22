@@ -1,12 +1,12 @@
 ---
 UID: NE:winsafer._SAFER_POLICY_INFO_CLASS
 title: SAFER_POLICY_INFO_CLASS (winsafer.h)
-author: windows-sdk-content
+
 description: Defines the ways in which a policy may be queried.
 old-location: security\safer_policy_info_class.htm
 tech.root: SecMgmt
 ms.assetid: e1438a9f-abca-463d-8a3a-3a820cba16e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SAFER_POLICY_INFO_CLASS, SAFER_POLICY_INFO_CLASS enumeration [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safer_policy_info_class, security.safer_policy_info_class, winsafer/SAFER_POLICY_INFO_CLASS, winsafer/SaferPolicyDefaultLevel, winsafer/SaferPolicyEnableTransparentEnforcement, winsafer/SaferPolicyEvaluateUserScope, winsafer/SaferPolicyLevelList, winsafer/SaferPolicyScopeFlags
 ms.topic: enum

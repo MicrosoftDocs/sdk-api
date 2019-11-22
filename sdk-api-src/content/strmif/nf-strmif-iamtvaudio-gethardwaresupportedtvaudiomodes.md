@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetHardwareSupportedTVAudioModes
 title: IAMTVAudio::GetHardwareSupportedTVAudioModes (strmif.h)
-author: windows-sdk-content
+
 description: The GetHardwareSupportedTVAudioModes method retrieves a bitmask of the formats available in the hardware.
 old-location: dshow\iamtvaudio_gethardwaresupportedtvaudiomodes.htm
 tech.root: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
 ms.topic: method

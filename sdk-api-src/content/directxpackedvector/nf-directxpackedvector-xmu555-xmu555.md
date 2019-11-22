@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555
 title: XMU555::XMU555 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMU555.
 old-location: dxmath\xmu555_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555::XMU555, dxmath.xmu555_ctor_1
 ms.topic: method

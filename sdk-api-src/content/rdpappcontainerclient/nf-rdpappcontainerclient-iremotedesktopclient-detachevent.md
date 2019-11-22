@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.detachEvent
 title: IRemoteDesktopClient::detachEvent (rdpappcontainerclient.h)
-author: windows-sdk-content
+
 description: Detaches an event handler from an event.
 old-location: termserv\iremotedesktopclient_detachevent.htm
 tech.root: TermServ
 ms.assetid: 5913da44-3dc2-40a3-9808-3619e5fa91b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],detachEvent method, IRemoteDesktopClient.detachEvent, IRemoteDesktopClient::detachEvent, detachEvent, detachEvent method [Remote Desktop Services], detachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::detachEvent, termserv.iremotedesktopclient_detachevent
 ms.topic: method

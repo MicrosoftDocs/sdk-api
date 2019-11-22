@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_ReceiptAddress
 title: IFaxDocument::put_ReceiptAddress (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDocument::get_ReceiptAddress property is a null-terminated string that indicates the email address to which the fax service should send a delivery receipt when the fax job reaches a final state.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_receiptaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9y9f.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ReceiptAddress property, IFaxDocument.ReceiptAddress, IFaxDocument.get_ReceiptAddress, IFaxDocument.put_ReceiptAddress, IFaxDocument::ReceiptAddress, IFaxDocument::get_ReceiptAddress, IFaxDocument::put_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxDocument interface, _mfax_faxdocument.receiptaddress, fax._mfax_faxdocument_cpp_mfax_faxdocument_receiptaddress_cpp, fax._mfax_faxdocument_receiptaddress, faxcomex/IFaxDocument::ReceiptAddress, faxcomex/IFaxDocument::get_ReceiptAddress, faxcomex/IFaxDocument::put_ReceiptAddress, put_ReceiptAddress
 ms.topic: method

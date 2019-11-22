@@ -1,12 +1,12 @@
 ---
 UID: NF:bcrypt.BCRYPT_INIT_AUTH_MODE_INFO
 title: BCRYPT_INIT_AUTH_MODE_INFO macro (bcrypt.h)
-author: windows-sdk-content
+
 description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.
 old-location: security\bcrypt_init_auth_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
 ms.topic: macro

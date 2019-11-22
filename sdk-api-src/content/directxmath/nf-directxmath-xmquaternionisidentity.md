@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMQuaternionIsIdentity
 title: XMQuaternionIsIdentity function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether a specific quaternion is the identity quaternion.
 old-location: dxmath\xmquaternionisidentity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsIdentity(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionIsIdentity, XMQuaternionIsIdentity, XMQuaternionIsIdentity method [DirectX Math Support APIs], dxmath.xmquaternionisidentity
 ms.topic: function

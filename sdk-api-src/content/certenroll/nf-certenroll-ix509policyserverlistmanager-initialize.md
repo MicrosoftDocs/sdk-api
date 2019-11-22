@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Initialize
 title: IX509PolicyServerListManager::Initialize (certenroll.h)
-author: windows-sdk-content
+
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm
 tech.root: seccertenroll
 ms.assetid: 9b3d2913-a0a8-4ec0-b705-8525b54e5494
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
 ms.topic: method

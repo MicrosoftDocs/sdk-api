@@ -1,7 +1,7 @@
 ---
 UID: NA:batclass
 ms.assetid: 09811379-f587-3506-b48b-4debc80ecdca
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectRenderContext
 title: IMILBitmapEffectRenderContext (mileffects.h)
-author: windows-sdk-content
+
 description: Exposes methods that define a IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
 ms.topic: interface

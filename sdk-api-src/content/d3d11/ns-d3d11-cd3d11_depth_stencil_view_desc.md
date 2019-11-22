@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.CD3D11_DEPTH_STENCIL_VIEW_DESC
 title: CD3D11_DEPTH_STENCIL_VIEW_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Represents a depth-stencil view and provides convenience methods for creating depth-stencil views.
 old-location: direct3d11\cd3d11_depth_stencil_view_desc.htm
 tech.root: direct3d11
 ms.assetid: 4DD04DF8-75C3-430C-9AFA-E3344B053D6E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_VIEW_DESC, CD3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11], d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC, direct3d11.cd3d11_depth_stencil_view_desc
 ms.topic: struct

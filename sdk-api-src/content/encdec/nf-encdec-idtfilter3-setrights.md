@@ -1,12 +1,12 @@
 ---
 UID: NF:encdec.IDTFilter3.SetRights
 title: IDTFilter3::SetRights (encdec.h)
-author: windows-sdk-content
+
 description: Not implemented in this release.
 old-location: mstv\idtfilter3_setrights.htm
 tech.root: mstv
 ms.assetid: d5c93f87-6988-4ca8-b50a-b6c7bdf3e76c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],SetRights method, IDTFilter3.SetRights, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
 ms.topic: method

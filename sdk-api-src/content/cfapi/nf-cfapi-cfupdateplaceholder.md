@@ -1,12 +1,12 @@
 ---
 UID: NF:cfapi.CfUpdatePlaceholder
 title: CfUpdatePlaceholder function (cfapi.h)
-author: windows-sdk-content
+
 description: Updates characteristics of the placeholder file or directory.
 old-location: cloudapi\cfupdateplaceholder.htm
 tech.root: cfApi
 ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
 ms.topic: function

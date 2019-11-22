@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResource.SetDictionary
 title: IXpsOMRemoteDictionaryResource::SetDictionary (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets a pointer to the IXpsOMDictionary interface of the remote dictionary that is to be associated with this resource.
 old-location: xps\ixpsomremotedictionaryresource_setdictionary.htm
 tech.root: printdocs
 ms.assetid: 68aba55b-d755-4ed3-8ede-6f3a4e6f7b3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],SetDictionary method, IXpsOMRemoteDictionaryResource.SetDictionary, IXpsOMRemoteDictionaryResource::SetDictionary, SetDictionary, SetDictionary method [XPS Documents and Packaging], SetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, xps.ixpsomremotedictionaryresource_setdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::SetDictionary
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnBeginProcessTrace
 title: ITraceEventCallback::OnBeginProcessTrace (relogger.h)
-author: windows-sdk-content
+
 description: Indicates that a trace is about to begin so that relogging can be started.
 old-location: etw\ieventcallback_onbeginprocesstrace.htm
 tech.root: ETW
 ms.assetid: acc6b1c4-9be1-490d-8b82-7ae8e73bd929
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnBeginProcessTrace method, ITraceEventCallback.OnBeginProcessTrace, ITraceEventCallback::OnBeginProcessTrace, OnBeginProcessTrace, OnBeginProcessTrace method [ETW], OnBeginProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onbeginprocesstrace, relogger/ITraceEventCallback::OnBeginProcessTrace
 ms.topic: method

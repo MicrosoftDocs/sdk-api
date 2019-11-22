@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarTokenizeFormatString
 title: VarTokenizeFormatString function (oleauto.h)
-author: windows-sdk-content
+
 description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.
 old-location: automat\vartokenizeformatstring.htm
 tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
 ms.topic: function

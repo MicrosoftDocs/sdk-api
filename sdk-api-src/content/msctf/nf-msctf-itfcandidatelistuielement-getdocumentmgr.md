@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetDocumentMgr
 title: ITfCandidateListUIElement::GetDocumentMgr (msctf.h)
-author: windows-sdk-content
+
 description: The ITfCandidateListUIElement::GetDocumentMgr method returns the target document manager of this UI.
 old-location: tsf\itfcandidatelistuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: def8e85d-8180-4ad4-9d70-07adef0ce5fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetDocumentMgr method, ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
 ms.topic: method

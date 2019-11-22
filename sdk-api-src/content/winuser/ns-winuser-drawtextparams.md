@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagDRAWTEXTPARAMS
 title: DRAWTEXTPARAMS (winuser.h)
-author: windows-sdk-content
+
 description: The DRAWTEXTPARAMS structure contains extended formatting options for the DrawTextEx function.
 old-location: gdi\drawtextparams.htm
 tech.root: gdi
 ms.assetid: d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDRAWTEXTPARAMS, DRAWTEXTPARAMS, DRAWTEXTPARAMS structure [Windows GDI], LPDRAWTEXTPARAMS, LPDRAWTEXTPARAMS structure pointer [Windows GDI], _win32_DRAWTEXTPARAMS_str, gdi.drawtextparams, tagDRAWTEXTPARAMS, winuser/DRAWTEXTPARAMS, winuser/LPDRAWTEXTPARAMS"
 ms.topic: struct

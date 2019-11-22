@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ComputeTransform
 title: ID2D1ComputeTransform (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Defines a transform that uses a compute shader.
 old-location: direct2d\id2d1computetransform.htm
 tech.root: Direct2D
 ms.assetid: 2D7B82E1-6EB7-492A-B65C-CE5EFBFACC31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeTransform, ID2D1ComputeTransform interface [Direct2D], ID2D1ComputeTransform interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeTransform, direct2d.id2d1computetransform
 ms.topic: interface

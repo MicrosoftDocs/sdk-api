@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndGetStart
 title: MCIWndGetStart macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndGetStart macro retrieves the location of the beginning of the content of an MCI device or file. You can use this macro or explicitly send the MCIWNDM_GETSTART message.
 old-location: multimedia\mciwndgetstart.htm
 tech.root: Multimedia
 ms.assetid: fe9346b8-e917-4bbc-9df5-3b0b5c2de306
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetStart, MCIWndGetStart macro [Windows Multimedia], _win32_MCIWndGetStart, multimedia.mciwndgetstart, vfw/MCIWndGetStart
 ms.topic: macro

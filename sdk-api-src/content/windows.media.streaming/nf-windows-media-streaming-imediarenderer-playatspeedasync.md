@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.PlayAtSpeedAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Instructs the DMR asynchronously to play the content that was specified by calling the SetSourceFromUriAsync, SetSourceFromStreamAsync, or SetSourceFromMediaSourceAsync method at the specified rate.
 old-location: mediastreaming\imediarenderer_playatspeedasync.htm
 tech.root: mediastreaming
 ms.assetid: 368510CF-FC36-4D92-AE92-024D53EE3BAD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAtSpeedAsync method, IMediaRenderer.PlayAtSpeedAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAtSpeedAsync, IMediaRenderer::streaming, PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
 ms.topic: method

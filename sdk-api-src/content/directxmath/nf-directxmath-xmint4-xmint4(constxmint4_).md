@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(const XMINT4 &)
 title: XMINT4::XMINT4(const XMINT4 &) (directxmath.h)
-author: windows-sdk-content
+
 description: A constructor for XMINT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4, XMINT4.XMINT4(), XMINT4.XMINT4(const XMINT4 &), XMINT4::XMINT4, XMINT4::XMINT4(const XMINT4 &), dxmath.xmint4_ctor_1
 ms.topic: method

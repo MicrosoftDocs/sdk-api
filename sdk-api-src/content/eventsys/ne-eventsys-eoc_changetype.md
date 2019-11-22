@@ -1,12 +1,12 @@
 ---
 UID: NE:eventsys.__MIDL_IEventObjectChange_0001
 title: EOC_ChangeType (eventsys.h)
-author: windows-sdk-content
+
 description: Indicates the nature of the change to an event object.
 old-location: com\eoc_changetype.htm
 tech.root: com
 ms.assetid: 1dad5849-4c6c-4632-953c-1bb18f14e8c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject, EOC_ModifiedObject, EOC_NewObject, _com_EOC_ChangeType, com.eoc_changetype, eventsys/EOC_ChangeType, eventsys/EOC_DeletedObject, eventsys/EOC_ModifiedObject, eventsys/EOC_NewObject
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Session_QueryInstances
 title: MI_Session_QueryInstances function (mi.h)
-author: windows-sdk-content
+
 description: Queries for a set of instances based on a query expression.
 old-location: wmi_v2\mi_session_queryinstances.htm
 tech.root: wmi_v2
 ms.assetid: 69b36e68-2a3a-41df-9af3-de791db9d9f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Session_QueryInstances, MI_Session_QueryInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_QueryInstances, wmi_v2.mi_session_queryinstances
 ms.topic: function

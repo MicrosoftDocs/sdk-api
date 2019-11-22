@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetDisabledByIndex
 title: IAMPluginControl::GetDisabledByIndex (strmif.h)
-author: windows-sdk-content
+
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: dshow\iamplugincontrol_getdisabledbyindex.htm
 tech.root: DirectShow
 ms.assetid: 7c55e37b-46f1-4283-bea4-3884ae730906
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetDisabledByIndex method, IAMPluginControl.GetDisabledByIndex, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
 ms.topic: method

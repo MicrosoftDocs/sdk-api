@@ -1,12 +1,12 @@
 ---
 UID: NS:mpeg2structs._DSMCC_ELEMENT
 title: DSMCC_ELEMENT (mpeg2structs.h)
-author: windows-sdk-content
+
 description: The DSMCC_ELEMENT structure contains information from a DSM-CC element.
 old-location: mstv\dsmcc_element.htm
 tech.root: mstv
 ms.assetid: 4d556cd8-cac5-4d79-a440-e2b5deddcdf8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDSMCC_ELEMENT, DSMCC_ELEMENT, DSMCC_ELEMENT structure [Microsoft TV Technologies], PDSMCC_ELEMENT, PDSMCC_ELEMENT structure pointer [Microsoft TV Technologies], mpeg2structs/DSMCC_ELEMENT, mpeg2structs/PDSMCC_ELEMENT, mstv.dsmcc_element"
 ms.topic: struct

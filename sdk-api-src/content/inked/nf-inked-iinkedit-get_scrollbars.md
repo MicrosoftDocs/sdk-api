@@ -1,12 +1,12 @@
 ---
 UID: NF:inked.IInkEdit.get_ScrollBars
 title: IInkEdit::get_ScrollBars (inked.h)
-author: windows-sdk-content
+
 description: Gets or sets the type of scroll bars, if any, to display in the InkEdit control.
 old-location: tablet\inkedit_scrollbars.htm
 tech.root: tablet
 ms.assetid: d6b798dc-6e8f-4c89-b5a8-c4a189ebe6cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],ScrollBars property, IInkEdit.ScrollBars, IInkEdit.get_ScrollBars, IInkEdit::ScrollBars, IInkEdit::get_ScrollBars, IInkEdit::put_ScrollBars, InkEdit.get_ScrollBars, InkEdit.put_ScrollBars, ScrollBars property [Tablet PC], ScrollBars property [Tablet PC],IInkEdit interface, get_ScrollBars, inked/IInkEdit::ScrollBars, inked/IInkEdit::get_ScrollBars, inked/IInkEdit::put_ScrollBars, put_ScrollBars, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.inkedit_scrollbars
 ms.topic: method

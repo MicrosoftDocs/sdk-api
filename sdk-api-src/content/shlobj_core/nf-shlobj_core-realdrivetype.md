@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.RealDriveType
 title: RealDriveType function (shlobj_core.h)
-author: windows-sdk-content
+
 description: RealDriveType may be altered or unavailable.
 old-location: shell\RealDriveType.htm
 tech.root: shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
 ms.topic: function

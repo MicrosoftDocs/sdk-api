@@ -1,12 +1,12 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Enable
 title: IWMDMLogger::Enable (wmdmlog.h)
-author: windows-sdk-content
+
 description: The Enable method enables or disables logging. Logging is enabled by default.
 old-location: wmdm\iwmdmlogger_enable.htm
 tech.root: WMDM
 ms.assetid: 6b0e48ff-ea34-4bcc-93e8-5ef0f5c39b06
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [windows Media Device Manager], Enable method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],Enable method, IWMDMLogger.Enable, IWMDMLogger::Enable, IWMDMLoggerEnable, wmdm.iwmdmlogger_enable, wmdmlog/IWMDMLogger::Enable
 ms.topic: method

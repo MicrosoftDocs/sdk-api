@@ -1,12 +1,12 @@
 ---
 UID: NF:winwlx.WlxDisplayStatusMessage
 title: WlxDisplayStatusMessage function (winwlx.h)
-author: windows-sdk-content
+
 description: Winlogon calls this function when the GINA DLL should display a message.
 old-location: security\wlxdisplaystatusmessage.htm
 tech.root: SecAuthN
 ms.assetid: 07df61ff-f5fa-44ab-b3ca-ed7f4338e471
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security], _gina_wlxdisplaystatusmessage, security.wlxdisplaystatusmessage, winwlx/WlxDisplayStatusMessage
 ms.topic: function

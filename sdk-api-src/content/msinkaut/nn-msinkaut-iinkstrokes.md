@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkStrokes
 title: IInkStrokes (msinkaut.h)
-author: windows-sdk-content
+
 description: "."
 old-location: tablet\iinkstrokes.htm
 tech.root: tablet
 ms.assetid: 496234C1-C20B-46FE-A9BB-4B90C14FEB46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interface [Tablet PC],described, msinkaut/IInkStrokes, tablet.iinkstrokes
 ms.topic: interface

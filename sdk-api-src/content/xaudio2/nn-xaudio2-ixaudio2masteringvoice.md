@@ -1,12 +1,12 @@
 ---
 UID: NN:xaudio2.IXAudio2MasteringVoice
 title: IXAudio2MasteringVoice (xaudio2.h)
-author: windows-sdk-content
+
 description: A mastering voice is used to represent the audio output device.
 old-location: xaudio2\ixaudio2masteringvoice.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2MasteringVoice, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs], IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2masteringvoice, xaudio2/IXAudio2MasteringVoice
 ms.topic: interface

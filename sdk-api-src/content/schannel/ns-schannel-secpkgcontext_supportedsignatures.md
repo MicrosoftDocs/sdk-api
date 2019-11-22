@@ -1,12 +1,12 @@
 ---
 UID: NS:schannel._SecPkgContext_SupportedSignatures
 title: SecPkgContext_SupportedSignatures (schannel.h)
-author: windows-sdk-content
+
 description: Specifies the signature algorithms supported by an Schannel connection.
 old-location: security\secpkgcontext_supportedsignatures.htm
 tech.root: SecAuthN
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures"
 ms.topic: struct

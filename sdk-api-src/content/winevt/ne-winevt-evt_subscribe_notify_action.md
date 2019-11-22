@@ -1,12 +1,12 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_NOTIFY_ACTION
 title: EVT_SUBSCRIBE_NOTIFY_ACTION (winevt.h)
-author: windows-sdk-content
+
 description: Defines the possible types of data that the subscription service can deliver to your callback.
 old-location: wes\evt_subscribe_notify_action.htm
 tech.root: wes
 ms.assetid: 75166c22-c55c-41b4-8089-ff9a89ddebf5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_NOTIFY_ACTION, EVT_SUBSCRIBE_NOTIFY_ACTION enumeration [EventLog], EvtSubscribeActionDeliver, EvtSubscribeActionError, wes.evt_subscribe_notify_action, winevt/EVT_SUBSCRIBE_NOTIFY_ACTION, winevt/EvtSubscribeActionDeliver, winevt/EvtSubscribeActionError
 ms.topic: enum

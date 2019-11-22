@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER0_
 title: FWPM_PROVIDER0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Stores the state associated with a policy provider.
 old-location: fwp\fwpm_provider0_struct.htm
 tech.root: fwp
 ms.assetid: 692714fd-14f1-4f8b-a033-1f30b6d0b95a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER0, FWPM_PROVIDER0 structure [Filtering], FWPM_PROVIDER_FLAG_DISABLED, FWPM_PROVIDER_FLAG_PERSISTENT, fwp.fwpm_provider0_struct, fwpmtypes/FWPM_PROVIDER0
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetSid
 title: ICredentialProviderUser::GetSid (credentialprovider.h)
-author: windows-sdk-content
+
 description: Retrieves the user's security identifier (SID).
 old-location: shell\ICredentialProviderUser_GetSid.htm
 tech.root: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.topic: method

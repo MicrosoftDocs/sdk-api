@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.Initialize
 title: ICertPropertyRenewal::Initialize (certenroll.h)
-author: windows-sdk-content
+
 description: Initializes the object from a SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: dc1e124e-400a-4f1e-8e87-095b6a3341d4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Initialize method, ICertPropertyRenewal.Initialize, ICertPropertyRenewal::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Initialize, security.icertpropertyrenewal_initialize_method
 ms.topic: method

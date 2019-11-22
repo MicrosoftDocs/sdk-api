@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.GetHasCurrent
 title: IAppxFilesEnumerator::GetHasCurrent (appxpackaging.h)
-author: windows-sdk-content
+
 description: Determines whether there is a payload file at the current position of the enumerator.
 old-location: appxpkg\iappxfilesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 4CC798E4-5FD2-45DE-BD3A-0B036601BEDB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxFilesEnumerator interface, IAppxFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxFilesEnumerator.GetHasCurrent, IAppxFilesEnumerator::GetHasCurrent, appxpackaging/IAppxFilesEnumerator::GetHasCurrent, appxpkg.iappxfilesenumerator_gethascurrent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:compressapi.CreateDecompressor
 title: CreateDecompressor function (compressapi.h)
-author: windows-sdk-content
+
 description: Generates a new DECOMPRESSOR_HANDLE.
 old-location: cmpapi\createdecompressor.htm
 tech.root: cmpapi
 ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateDecompressor, CreateDecompressor function [Compression API], cmpapi.createdecompressor, compressapi/CreateDecompressor
 ms.topic: function

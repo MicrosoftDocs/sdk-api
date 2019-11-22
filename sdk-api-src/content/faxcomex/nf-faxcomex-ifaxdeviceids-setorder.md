@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.SetOrder
 title: IFaxDeviceIds::SetOrder (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDeviceIds::SetOrder method changes the order of a device in the ordered FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4nci.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],SetOrder method, IFaxDeviceIds.SetOrder, IFaxDeviceIds::SetOrder, SetOrder, SetOrder method [Fax Service], SetOrder method [Fax Service],IFaxDeviceIds interface, _mfax_faxdeviceids.setorder, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp, fax._mfax_faxdeviceids_setorder, faxcomex/IFaxDeviceIds::SetOrder
 ms.topic: method

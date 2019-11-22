@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellMenuCallback.CallbackSM
 title: IShellMenuCallback::CallbackSM (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Receives messages from a menu band object.
 old-location: shell\IShellMenuCallback_CallbackSM.htm
 tech.root: shell
 ms.assetid: 06809b61-041b-41bd-82dd-0d64edf8bbae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CallbackSM, CallbackSM method [Windows Shell], CallbackSM method [Windows Shell],IShellMenuCallback interface, IShellMenuCallback interface [Windows Shell],CallbackSM method, IShellMenuCallback.CallbackSM, IShellMenuCallback::CallbackSM, _win32_IShellMenuCallback_CallbackSM, shell.IShellMenuCallback_CallbackSM, shobjidl_core/IShellMenuCallback::CallbackSM
 ms.topic: method

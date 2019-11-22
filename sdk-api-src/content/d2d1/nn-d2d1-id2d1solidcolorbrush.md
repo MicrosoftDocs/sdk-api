@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1SolidColorBrush
 title: ID2D1SolidColorBrush (d2d1.h)
-author: windows-sdk-content
+
 description: Paints an area with a solid color.
 old-location: direct2d\ID2D1SolidColorBrush.htm
 tech.root: Direct2D
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:winternl._STRING
 title: STRING (winternl.h)
-author: windows-sdk-content
+
 description: Used with the RtlUnicodeStringToOemString function.
 old-location: winprog\_win32_string.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\string.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows API], PSTRING, PSTRING structure pointer [Windows API], STRING, STRING structure [Windows API], _STRING, _win32_STRING, winprog._win32_string, winternl/OEM_STRING, winternl/PSTRING, winternl/STRING, winui._win32_string"
 ms.topic: struct

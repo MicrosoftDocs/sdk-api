@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromHBITMAP
 title: Bitmap::FromHBITMAP (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Bitmap::FromHBITMAP method creates a Bitmap object based on a handle to a Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhbitmap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromHBITMAP method, Bitmap.FromHBITMAP, Bitmap::FromHBITMAP, FromHBITMAP, FromHBITMAP method [GDI+], FromHBITMAP method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_, gdiplus._gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_
 ms.topic: method

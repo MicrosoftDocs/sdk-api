@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantGetElementCount
 title: VariantGetElementCount function (propvarutil.h)
-author: windows-sdk-content
+
 description: Retrieves the element count of a variant structure.
 old-location: properties\VariantGetElementCount.htm
 tech.root: properties
 ms.assetid: 2bf96650-c0c4-4c99-9a04-d36d506b8f68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantGetElementCount, VariantGetElementCount function [Windows Properties], _shell_VariantGetElementCount, properties.VariantGetElementCount, propvarutil/VariantGetElementCount, shell.VariantGetElementCount
 ms.topic: function

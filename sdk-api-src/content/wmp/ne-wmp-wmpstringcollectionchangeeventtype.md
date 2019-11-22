@@ -1,12 +1,12 @@
 ---
 UID: NE:wmp.WMPStringCollectionChangeEventType
 title: WMPStringCollectionChangeEventType (wmp.h)
-author: windows-sdk-content
+
 description: The WMPStringCollectionChangeEventType enumeration type defines the types of changes that can occur in a string collection.
 old-location: wmp\wmpstringcollectionchangeeventtype.htm
 tech.root: WMP
 ms.assetid: 7690972b-52ac-4249-baa5-3d2b38a4487a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMPStringCollectionChangeEventType, WMPStringCollectionChangeEventType enumeration [Windows Media Player], wmp.wmpstringcollectionchangeeventtype, wmp/WMPStringCollectionChangeEventType, wmp/wmpsccetBeginUpdates, wmp/wmpsccetChange, wmp/wmpsccetClear, wmp/wmpsccetDelete, wmp/wmpsccetEndUpdates, wmp/wmpsccetInsert, wmp/wmpsccetUnknown, wmpsccetBeginUpdates, wmpsccetChange, wmpsccetClear, wmpsccetDelete, wmpsccetEndUpdates, wmpsccetInsert, wmpsccetUnknown
 ms.topic: enum

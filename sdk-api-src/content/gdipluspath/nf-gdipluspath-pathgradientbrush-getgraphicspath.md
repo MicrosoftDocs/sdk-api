@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetGraphicsPath
 title: PathGradientBrush::GetGraphicsPath (gdipluspath.h)
-author: windows-sdk-content
+
 description: The PathGradientBrush::GetGraphicsPath method is not implemented in Windows GDI+ version 1.0.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgraphicspath.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsPath, GetGraphicsPath method [GDI+], GetGraphicsPath method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGraphicsPath method, PathGradientBrush.GetGraphicsPath, PathGradientBrush::GetGraphicsPath, _gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_
 ms.topic: method

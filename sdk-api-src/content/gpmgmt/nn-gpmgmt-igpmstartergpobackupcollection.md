@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOBackupCollection
 title: IGPMStarterGPOBackupCollection (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMStarterGPOBackupCollection interface contains methods that enable applications to access a collection of GPMStarterGPOBackup objects when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstartergpobackupcollection.htm
 tech.root: gpmc
 ms.assetid: df9f29d0-8636-4393-8f7e-c9e22f3692f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection interface [GPMC], IGPMStarterGPOBackupCollection interface [GPMC],described, gpmc.igpmstartergpobackupcollection, gpmgmt/IGPMStarterGPOBackupCollection
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:fci.FNFCIGETNEXTCABINET
 title: FNFCIGETNEXTCABINET macro (fci.h)
-author: windows-sdk-content
+
 description: The FNFCIGETNEXTCABINET macro provides the declaration for the application-defined callback function to request information for the next cabinet.
 old-location: winprog\fnfcigetnextcabinet.htm
 tech.root: DevNotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.topic: macro

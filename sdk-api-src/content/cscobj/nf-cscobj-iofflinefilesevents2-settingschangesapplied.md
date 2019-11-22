@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.SettingsChangesApplied
 title: IOfflineFilesEvents2::SettingsChangesApplied (cscobj.h)
-author: windows-sdk-content
+
 description: Reports that the Offline Files service has applied the changes that were detected in Group Policy or preference values.
 old-location: of\iofflinefilesevents2_settingschangesapplied.htm
 tech.root: offlinefiles
 ms.assetid: af59c8ac-ecd4-48e7-9ebb-8802e7d6ffef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],SettingsChangesApplied method, IOfflineFilesEvents2.SettingsChangesApplied, IOfflineFilesEvents2::SettingsChangesApplied, SettingsChangesApplied, SettingsChangesApplied method [Offline Files], SettingsChangesApplied method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::SettingsChangesApplied, of.iofflinefilesevents2_settingschangesapplied
 ms.topic: method

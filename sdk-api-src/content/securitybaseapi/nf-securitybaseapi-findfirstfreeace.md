@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.FindFirstFreeAce
 title: FindFirstFreeAce function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to the first free byte in an access control list (ACL).
 old-location: security\findfirstfreeace.htm
 tech.root: SecAuthZ
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
 ms.topic: function

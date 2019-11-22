@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector3Reflect
 title: XMVector3Reflect function (directxmath.h)
-author: windows-sdk-content
+
 description: Reflects an incident 3D vector across a 3D normal vector.
 old-location: dxmath\xmvector3reflect.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Reflect(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Reflect, XMVector3Reflect, XMVector3Reflect method [DirectX Math Support APIs], dxmath.xmvector3reflect
 ms.topic: function

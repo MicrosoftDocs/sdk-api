@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IHomeGroup
 title: IHomeGroup (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
 old-location: shell\IHomeGroup.htm
 tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
 ms.topic: interface

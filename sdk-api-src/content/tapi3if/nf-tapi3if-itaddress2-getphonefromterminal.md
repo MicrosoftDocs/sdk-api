@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAddress2.GetPhoneFromTerminal
 title: ITAddress2::GetPhoneFromTerminal (tapi3if.h)
-author: windows-sdk-content
+
 description: The GetPhoneFromTerminal method returns the phone object associated with the terminal. Only one phone can be associated with a terminal.
 old-location: tapi3\itaddress2_getphonefromterminal.htm
 tech.root: Tapi
 ms.assetid: 0d3873ad-ce3d-4b4c-907f-9c0dbf0ef206
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPhoneFromTerminal, GetPhoneFromTerminal method [TAPI 2.2], GetPhoneFromTerminal method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],GetPhoneFromTerminal method, ITAddress2.GetPhoneFromTerminal, ITAddress2::GetPhoneFromTerminal, _tapi3_itaddress2_getphonefromterminal, tapi3.itaddress2_getphonefromterminal, tapi3if/ITAddress2::GetPhoneFromTerminal
 ms.topic: method

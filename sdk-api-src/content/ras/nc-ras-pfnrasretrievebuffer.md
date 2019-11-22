@@ -1,12 +1,12 @@
 ---
 UID: NC:ras.PFNRASRETRIEVEBUFFER
 title: PFNRASRETRIEVEBUFFER (ras.h)
-author: windows-sdk-content
+
 description: The custom-scripting DLL calls the RasRetrieveBuffer function to obtain data received from the RAS server over the specified port.
 old-location: rras\rasretrievebuffer.htm
 tech.root: RRAS
 ms.assetid: 5dc8a034-f1cb-47c5-8d60-06f314a85f11
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFNRASRETRIEVEBUFFER, PFNRASRETRIEVEBUFFER callback, RasRetrieveBuffer, RasRetrieveBuffer callback function [RAS], _ras_rasretrievebuffer, ras/RasRetrieveBuffer, rras.rasretrievebuffer
 ms.topic: callback

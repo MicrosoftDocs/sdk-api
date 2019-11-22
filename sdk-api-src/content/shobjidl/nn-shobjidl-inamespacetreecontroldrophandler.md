@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlDropHandler
 title: INameSpaceTreeControlDropHandler (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes handler methods for drag-and-drop.
 old-location: shell\INameSpaceTreeControlDropHandler.htm
 tech.root: shell
 ms.assetid: 5d2c1783-daeb-488d-93b9-34df2712d849
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], INameSpaceTreeControlDropHandler interface [Windows Shell],described, _shell_INameSpaceTreeControlDropHandler, shell.INameSpaceTreeControlDropHandler, shobjidl/INameSpaceTreeControlDropHandler
 ms.topic: interface

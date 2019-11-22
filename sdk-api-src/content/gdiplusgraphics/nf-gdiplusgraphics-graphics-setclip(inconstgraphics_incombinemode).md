@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Graphics,IN CombineMode)
 title: Graphics::SetClip
 description: The Graphics::SetClip method updates the clipping region of this Graphics object.
 ms.assetid: 77ca4449-3bd3-4476-9502-6b05638ecf7f
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::SetClip
 ms.topic: language-reference

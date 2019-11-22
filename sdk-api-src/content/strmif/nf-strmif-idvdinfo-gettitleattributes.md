@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTitleAttributes
 title: IDvdInfo::GetTitleAttributes (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
 old-location: dshow\idvdinfo_gettitleattributes.htm
 tech.root: DirectShow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
 ms.topic: method

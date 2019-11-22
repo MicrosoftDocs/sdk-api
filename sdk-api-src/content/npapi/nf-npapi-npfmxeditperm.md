@@ -1,12 +1,12 @@
 ---
 UID: NF:npapi.NPFMXEditPerm
 title: NPFMXEditPerm function (npapi.h)
-author: windows-sdk-content
+
 description: Enables network vendors to supply their own permission editor dialog boxes.
 old-location: security\npfmxeditperm.htm
 tech.root: SecAuthN
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
 ms.topic: function

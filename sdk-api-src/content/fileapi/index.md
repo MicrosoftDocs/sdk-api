@@ -1,7 +1,7 @@
 ---
 UID: NA:fileapi
 ms.assetid: 1c41e35a-7440-384c-afde-8d15d16ed987
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

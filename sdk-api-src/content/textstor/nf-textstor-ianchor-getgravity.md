@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.IAnchor.GetGravity
 title: IAnchor::GetGravity (textstor.h)
-author: windows-sdk-content
+
 description: The IAnchor::GetGravity method retrieves the gravity of the anchor in an IAnchor object.
 old-location: tsf\ianchor_getgravity.htm
 tech.root: TSF
 ms.assetid: c56a4c25-ac43-4fd3-8d6b-943eb0233ed4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetGravity method, IAnchor.GetGravity, IAnchor::GetGravity, textstor/IAnchor::GetGravity, tsf.ianchor_getgravity
 ms.topic: method

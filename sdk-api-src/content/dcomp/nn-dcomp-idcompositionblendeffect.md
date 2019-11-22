@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionBlendEffect
 title: IDCompositionBlendEffect (dcomp.h)
-author: windows-sdk-content
+
 description: The Blend Effect is used to combine 2 images.
 old-location: directcomp\idcompositionblendeffect.htm
 tech.root: directcomp
 ms.assetid: F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBlendEffect, IDCompositionBlendEffect interface [DirectComposition], IDCompositionBlendEffect interface [DirectComposition],described, dcomp/IDCompositionBlendEffect, directcomp.idcompositionblendeffect
 ms.topic: interface

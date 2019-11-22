@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IMofCompiler.CreateBMOF
 title: IMofCompiler::CreateBMOF (wbemcli.h)
-author: windows-sdk-content
+
 description: The IMofCompiler::CreateBMOF method creates a binary MOF file.
 old-location: wmi\imofcompiler_createbmof.htm
 tech.root: WmiSdk
 ms.assetid: 39c5d621-0cdf-44e2-9ec0-c68299e85cb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBMOF, CreateBMOF method [Windows Management Instrumentation], CreateBMOF method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CreateBMOF method, IMofCompiler.CreateBMOF, IMofCompiler::CreateBMOF, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_WMI_CHECK, WBEM_FLAT_CONSOLE_PRINT, _hmm_imofcompiler_createbmof, wbemcli/IMofCompiler::CreateBMOF, wmi.imofcompiler_createbmof
 ms.topic: method

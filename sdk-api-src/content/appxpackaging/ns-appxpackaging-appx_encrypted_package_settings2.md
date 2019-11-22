@@ -1,12 +1,12 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_PACKAGE_SETTINGS2
 title: APPX_ENCRYPTED_PACKAGE_SETTINGS2 (appxpackaging.h)
-author: windows-sdk-content
+
 description: Encrypted Windows app package settings.
 old-location: appxpkg\appx_encrypted_package_settings2.htm
 tech.root: appxpkg
 ms.assetid: 6FAF4B40-0C52-4B9C-8353-1BE4F3D309C4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS2, APPX_ENCRYPTED_PACKAGE_SETTINGS2 structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, PAPPX_ENCRYPTED_PACKAGE_SETTINGS2 structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpkg.appx_encrypted_package_settings2
 ms.topic: struct

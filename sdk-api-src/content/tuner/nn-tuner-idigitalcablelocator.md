@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.IDigitalCableLocator
 title: IDigitalCableLocator
-author: windows-sdk-content
+
 description: The IDigitalCableLocator interface provides tuning information for a digital cable network.
 old-location: mstv\idigitalcablelocator.htm
 tech.root: mstv
 ms.assetid: c33255cb-040f-4eb4-9af2-fdbea17c1682
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableLocator, IDigitalCableLocator interface [Microsoft TV Technologies], IDigitalCableLocator interface [Microsoft TV Technologies],described, IDigitalCableLocatorInterface, mstv.idigitalcablelocator, tuner/IDigitalCableLocator
 ms.topic: interface

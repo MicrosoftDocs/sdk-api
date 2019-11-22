@@ -1,12 +1,12 @@
 ---
 UID: NF:instance.CInstance.GetByte
 title: CInstance::GetByte (instance.h)
-author: windows-sdk-content
+
 description: The GetByte method retrieves a BYTE-compatible property.
 old-location: wmi\cinstance_getbyte.htm
 tech.root: WmiSdk
 ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetByte method, CInstance.GetByte, CInstance::GetByte, GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
 ms.topic: method

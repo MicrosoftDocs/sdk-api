@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.GetFlags
 title: IShellLinkDataList::GetFlags (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the current option settings.
 old-location: shell\IShellLinkDataList_GetFlags.htm
 tech.root: shell
 ms.assetid: d6ebfd84-6ef4-43be-af16-71fc395c4735
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],GetFlags method, IShellLinkDataList.GetFlags, IShellLinkDataList::GetFlags, _win32_IShellLinkDataList_GetFlags, shell.IShellLinkDataList_GetFlags, shobjidl_core/IShellLinkDataList::GetFlags
 ms.topic: method

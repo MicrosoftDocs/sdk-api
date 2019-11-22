@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagPIXELFORMATDESCRIPTOR
 title: PIXELFORMATDESCRIPTOR (wingdi.h)
-author: windows-sdk-content
+
 description: The PIXELFORMATDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\pixelformatdescriptor.htm
 tech.root: OpenGL
 ms.assetid: 1480dea3-ae74-4e8b-b4de-fca8de5d8395
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR structure [OpenGL], PPIXELFORMATDESCRIPTOR, PPIXELFORMATDESCRIPTOR structure pointer [OpenGL], _ogl_PIXELFORMATDESCRIPTOR, opengl.pixelformatdescriptor, wingdi/PIXELFORMATDESCRIPTOR, wingdi/PPIXELFORMATDESCRIPTOR"
 ms.topic: struct

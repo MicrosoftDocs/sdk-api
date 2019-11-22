@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxServer.get_ArchiveDirectory
 title: IFaxServer::get_ArchiveDirectory (faxcom.h)
-author: windows-sdk-content
+
 description: The IFaxServer::get_ArchiveDirectory method retrieves the ArchiveDirectory property for a FaxServer object. The ArchiveDirectory property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4fi1.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ArchiveDirectory property [Fax Service], ArchiveDirectory property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],ArchiveDirectory property, IFaxServer.ArchiveDirectory, IFaxServer.get_ArchiveDirectory, IFaxServer.put_ArchiveDirectory, IFaxServer::ArchiveDirectory, IFaxServer::get_ArchiveDirectory, IFaxServer::put_ArchiveDirectory, _mfax_ifaxserver_get_archivedirectory, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_cpp, fax._mfax_ifaxserver_get_archivedirectory, faxcom/IFaxServer::ArchiveDirectory, faxcom/IFaxServer::get_ArchiveDirectory, faxcom/IFaxServer::put_ArchiveDirectory, get_ArchiveDirectory
 ms.topic: method

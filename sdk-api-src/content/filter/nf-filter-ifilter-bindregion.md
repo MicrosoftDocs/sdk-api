@@ -1,12 +1,12 @@
 ---
 UID: NF:filter.IFilter.BindRegion
 title: IFilter::BindRegion (filter.h)
-author: windows-sdk-content
+
 description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 old-location: indexsrv\ifilter_bindregion.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
 ms.topic: method

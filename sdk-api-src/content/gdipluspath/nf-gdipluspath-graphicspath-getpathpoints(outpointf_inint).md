@@ -3,7 +3,7 @@ UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUT PointF,IN INT)
 title: GraphicsPath::GetPathPoints
 description: The GraphicsPath::GetPathPoints method gets this path's array of points.
 ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints
 ms.topic: language-reference

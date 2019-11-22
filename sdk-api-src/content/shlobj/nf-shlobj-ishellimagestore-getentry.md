@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj.IShellImageStore.GetEntry
 title: IShellImageStore::GetEntry (shlobj.h)
-author: windows-sdk-content
+
 description: Gets a handle to an image in the cache.
 old-location: shell\IShellImageStore_GetEntry.htm
 tech.root: shell
 ms.assetid: 580e2901-ae08-4c9f-99ee-7ba2f7fe6e52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEntry, GetEntry method [Windows Shell], GetEntry method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],GetEntry method, IShellImageStore.GetEntry, IShellImageStore::GetEntry, _win32_IShellImageStore_GetEntry, shell.IShellImageStore_GetEntry, shlobj/IShellImageStore::GetEntry
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetWindowTextW
 title: SetWindowTextW function (winuser.h)
-author: windows-sdk-content
+
 description: Changes the text of the specified window's title bar (if it has one). If the specified window is a control, the text of the control is changed. However, SetWindowText cannot change the text of a control in another application.
 old-location: winmsg\setwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowtext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetWindowText, SetWindowText function [Windows and Messages], SetWindowTextA, SetWindowTextW, _win32_SetWindowText, _win32_setwindowtext_cpp, winmsg.setwindowtext, winui._win32_setwindowtext, winuser/SetWindowText, winuser/SetWindowTextA, winuser/SetWindowTextW
 ms.topic: function

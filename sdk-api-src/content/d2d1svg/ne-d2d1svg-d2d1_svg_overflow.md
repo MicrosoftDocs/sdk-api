@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_OVERFLOW
 title: D2D1_SVG_OVERFLOW (d2d1svg.h)
-author: windows-sdk-content
+
 description: Specifies a value for the SVG overflow property.
 old-location: direct2d\d2d1_svg_overflow.htm
 tech.root: Direct2D
 ms.assetid: 5023A745-9012-47C8-ACE6-D68218B2C17B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_OVERFLOW, D2D1_SVG_OVERFLOW enumeration [Direct2D], D2D1_SVG_OVERFLOW_FORCE_DWORD, D2D1_SVG_OVERFLOW_HIDDEN, D2D1_SVG_OVERFLOW_VISIBLE, d2d1svg/D2D1_SVG_OVERFLOW, d2d1svg/D2D1_SVG_OVERFLOW_FORCE_DWORD, d2d1svg/D2D1_SVG_OVERFLOW_HIDDEN, d2d1svg/D2D1_SVG_OVERFLOW_VISIBLE, direct2d.d2d1_svg_overflow
 ms.topic: enum

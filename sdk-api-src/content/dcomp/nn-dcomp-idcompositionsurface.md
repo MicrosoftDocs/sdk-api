@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionSurface
 title: IDCompositionSurface (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a physical bitmap that can be associated with a visual for composition in a visual tree. This interface can also be used to update the bitmap contents.
 old-location: directcomp\idcompositionsurface.htm
 tech.root: directcomp
 ms.assetid: E271B4DC-5F09-426A-A5D3-43A48F30CB24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface, IDCompositionSurface interface [DirectComposition], IDCompositionSurface interface [DirectComposition],described, dcomp/IDCompositionSurface, directcomp.idcompositionsurface
 ms.topic: interface

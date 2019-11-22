@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.RemoveISNSServerA
 title: RemoveISNSServerA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: RemoveIsnsServer function removes a server from the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\removeisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: 702a86e3-eeac-40cd-9203-ee865e2b710a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoveISNSServerA, RemoveIsnsServer, RemoveIsnsServer function [iSCSI Discovery Library API], RemoveIsnsServerA, RemoveIsnsServerW, iscsidisc.removeisnsserver, iscsidsc/RemoveIsnsServer, iscsidsc/RemoveIsnsServerA, iscsidsc/RemoveIsnsServerW
 ms.topic: function

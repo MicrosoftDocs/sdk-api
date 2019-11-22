@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawTransform.SetDrawInfo
 title: ID2D1DrawTransform::SetDrawInfo (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Provides the GPU render info interface to the transform implementation.
 old-location: direct2d\id2d1drawtransform_setdrawinfo.htm
 tech.root: Direct2D
 ms.assetid: 9B7336B0-59D8-416F-822C-0AD5C1B40EAA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawTransform interface [Direct2D],SetDrawInfo method, ID2D1DrawTransform.SetDrawInfo, ID2D1DrawTransform::SetDrawInfo, SetDrawInfo, SetDrawInfo method [Direct2D], SetDrawInfo method [Direct2D],ID2D1DrawTransform interface, d2d1effectauthor/ID2D1DrawTransform::SetDrawInfo, direct2d.id2d1drawtransform_setdrawinfo
 ms.topic: method

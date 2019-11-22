@@ -1,7 +1,7 @@
 ---
 UID: NA:wininet
 ms.assetid: cfa0b87e-f033-358a-aa2b-383f900343b9
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

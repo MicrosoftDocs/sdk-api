@@ -1,12 +1,12 @@
 ---
 UID: NE:mfobjects._MFBYTESTREAM_SEEK_ORIGIN
 title: MFBYTESTREAM_SEEK_ORIGIN (mfobjects.h)
-author: windows-sdk-content
+
 description: Specifies the origin for a seek request.
 old-location: mf\mfbytestream_seek_origin.htm
 tech.root: medfound
 ms.assetid: ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFBYTESTREAM_SEEK_ORIGIN, MFBYTESTREAM_SEEK_ORIGIN enumeration [Media Foundation], _MFBYTESTREAM_SEEK_ORIGIN, ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51, mf.mfbytestream_seek_origin, mfobjects/MFBYTESTREAM_SEEK_ORIGIN, mfobjects/msoBegin, mfobjects/msoCurrent, msoBegin, msoCurrent
 ms.topic: enum

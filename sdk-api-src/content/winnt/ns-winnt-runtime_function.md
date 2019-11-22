@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._IMAGE_RUNTIME_FUNCTION_ENTRY
 title: RUNTIME_FUNCTION (winnt.h)
-author: windows-sdk-content
+
 description: Represents an entry in the function table on 64-bit Windows.
 old-location: base\_image_runtime_function_entry.htm
 tech.root: Debug
 ms.assetid: 9ed16f9a-3403-4ba9-9968-f51f6788a1f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRUNTIME_FUNCTION, *_PIMAGE_RUNTIME_FUNCTION_ENTRY, IMAGE_IA64_RUNTIME_FUNCTION_ENTRY, IMAGE_RUNTIME_FUNCTION_ENTRY, RUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, _IMAGE_RUNTIME_FUNCTION_ENTRY structure, _PIMAGE_RUNTIME_FUNCTION_ENTRY, _PIMAGE_RUNTIME_FUNCTION_ENTRY structure pointer, base._image_runtime_function_entry, winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY, winnt/_PIMAGE_RUNTIME_FUNCTION_ENTRY"
 ms.topic: struct

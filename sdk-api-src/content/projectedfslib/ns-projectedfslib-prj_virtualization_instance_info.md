@@ -1,12 +1,12 @@
 ---
 UID: NS:projectedfslib.PRJ_VIRTUALIZATION_INSTANCE_INFO
 title: PRJ_VIRTUALIZATION_INSTANCE_INFO (projectedfslib.h)
-author: windows-sdk-content
+
 description: Information about a virtualization instance.
 old-location: projfs\prj_virtualization_instance_info.htm
 tech.root: ProjFS
 ms.assetid: B6532FDF-F190-4C10-BF5C-96BDF477BB4A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.topic: struct

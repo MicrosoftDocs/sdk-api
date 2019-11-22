@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMU565.operator-assign(uint16_t)
 title: XMU565::operator-assign(uint16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMU565.
 old-location: dxmath\xmu565_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.operator = (const uint16_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMU565 structure [DirectX Math Support APIs],operator = method, XMU565.operator =(const uint16_t), XMU565.operator-assign(uint16_t), XMU565.operator=, XMU565::operator-assign(uint16_t), XMU565::operator=, dxmath.xmu565_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU565 structure, operator=
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:webservices.__unnamed_enum_67
 title: WS_EXTENDED_PROTECTION_POLICY (webservices.h)
-author: windows-sdk-content
+
 description: Defines if Extended Protection data should be validated.
 old-location: wsw\ws_extended_protection_policy.htm
 tech.root: wsw
 ms.assetid: ee3685b1-0ffe-410e-a6fc-b31ed8d25b26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_EXTENDED_PROTECTION_POLICY, WS_EXTENDED_PROTECTION_POLICY enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_POLICY_ALWAYS, WS_EXTENDED_PROTECTION_POLICY_NEVER, WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, webservices/WS_EXTENDED_PROTECTION_POLICY, webservices/WS_EXTENDED_PROTECTION_POLICY_ALWAYS, webservices/WS_EXTENDED_PROTECTION_POLICY_NEVER, webservices/WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, wsw.ws_extended_protection_policy
 ms.topic: enum

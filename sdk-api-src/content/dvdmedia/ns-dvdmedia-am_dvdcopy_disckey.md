@@ -1,12 +1,12 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_DISCKEY
 title: AM_DVDCOPY_DISCKEY (dvdmedia.h)
-author: windows-sdk-content
+
 description: Specifies the DVD disc key.
 old-location: dshow\am_dvdcopy_disckey.htm
 tech.root: DirectShow
 ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY"
 ms.topic: struct

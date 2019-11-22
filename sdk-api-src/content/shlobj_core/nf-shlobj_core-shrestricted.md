@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHRestricted
 title: SHRestricted function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHRestricted may be altered or unavailable.
 old-location: shell\SHRestricted.htm
 tech.root: shell
 ms.assetid: 94adf343-3879-455a-9770-70460cf383ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHRestricted, SHRestricted function [Windows Shell], _win32_SHRestricted, shell.SHRestricted, shlobj_core/SHRestricted
 ms.topic: function

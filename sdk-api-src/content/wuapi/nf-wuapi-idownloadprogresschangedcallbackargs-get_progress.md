@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IDownloadProgressChangedCallbackArgs.get_Progress
 title: IDownloadProgressChangedCallbackArgs::get_Progress (wuapi.h)
-author: windows-sdk-content
+
 description: Gets an interface that contains the progress of the asynchronous download at the time that the callback was made.
 old-location: wua\idownloadprogresschangedcallbackargs_progress.htm
 tech.root: Wua_Sdk
 ms.assetid: 28d884ce-4f96-4d5b-9e69-f51a4814fac2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IDownloadProgressChangedCallbackArgs.Progress, IDownloadProgressChangedCallbackArgs.get_Progress, IDownloadProgressChangedCallbackArgs::Progress, IDownloadProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IDownloadProgressChangedCallbackArgs interface, get_Progress, wua.idownloadprogresschangedcallbackargs_progress, wuapi/IDownloadProgressChangedCallbackArgs::Progress, wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
 ms.topic: method

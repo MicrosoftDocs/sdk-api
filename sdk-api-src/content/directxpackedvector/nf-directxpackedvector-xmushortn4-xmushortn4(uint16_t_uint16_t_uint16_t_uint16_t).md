@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t)
 title: XMUSHORTN4::XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUSHORTN4 from four uint16_t arguments.
 old-location: dxmath\xmushortn4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORTN4.#ctor(uint16_t,uint16_t,uint16_t,uint16_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUSHORTN4, XMUSHORTN4 constructor [DirectX Math Support APIs], XMUSHORTN4 constructor [DirectX Math Support APIs],XMUSHORTN4 structure, XMUSHORTN4 structure [DirectX Math Support APIs],XMUSHORTN4 constructor, XMUSHORTN4.XMUSHORTN4, XMUSHORTN4.XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t), XMUSHORTN4::XMUSHORTN4, XMUSHORTN4::XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t), dxmath.xmushortn4_ctor_2
 ms.topic: method

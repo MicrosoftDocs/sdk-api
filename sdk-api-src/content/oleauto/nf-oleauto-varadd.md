@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarAdd
 title: VarAdd function (oleauto.h)
-author: windows-sdk-content
+
 description: Returns the sum of two variants.
 old-location: automat\varadd.htm
 tech.root: automat
 ms.assetid: bdec33b1-cbdd-4ec3-83b2-4e5655ecf5bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarAdd, VarAdd function [Automation], _oa96_VarAdd, automat.varadd, oleauto/VarAdd
 ms.topic: function

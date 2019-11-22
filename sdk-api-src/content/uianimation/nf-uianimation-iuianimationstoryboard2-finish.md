@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Finish
 title: IUIAnimationStoryboard2::Finish (uianimation.h)
-author: windows-sdk-content
+
 description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.
 old-location: uianimation\iuianimationstoryboard2_finish.htm
 tech.root: UIAnimation
 ms.assetid: 632BC77D-F2C5-4D08-8E9C-0598617A1DA7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Finish method, IUIAnimationStoryboard2.Finish, IUIAnimationStoryboard2::Finish, uianimation.iuianimationstoryboard2_finish, uianimation/IUIAnimationStoryboard2::Finish
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.OnDriverUnload
 title: IWRdsWddmIddProps::OnDriverUnload (wtsprotocol.h)
-author: windows-sdk-content
+
 description: Termsrv uses this method to tell the protocol stack that PnP unloaded the WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_ondriverunload.htm
 tech.root: TermServ
 ms.assetid: D61C38FD-0298-4363-8A09-D0C2844C23CA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverUnload method, IWRdsWddmIddProps.OnDriverUnload, IWRdsWddmIddProps::OnDriverUnload, OnDriverUnload, OnDriverUnload method [Remote Desktop Services], OnDriverUnload method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverunload, wtsprotocol/IWRdsWddmIddProps::OnDriverUnload
 ms.topic: method

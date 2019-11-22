@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector4NormalizeEst
 title: XMVector4NormalizeEst function (directxmath.h)
-author: windows-sdk-content
+
 description: Estimates the normalized version of a 4D vector.
 old-location: dxmath\xmvector4normalizeest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4NormalizeEst(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NormalizeEst, XMVector4NormalizeEst, XMVector4NormalizeEst method [DirectX Math Support APIs], dxmath.xmvector4normalizeest
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:infotech.IITResultSet
 title: IITResultSet (infotech.h)
-author: windows-sdk-content
+
 description: Use this interface in run-time applications to initialize, build, and obtain information about result sets.
 old-location: htmlhelp\iitresultset.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
 ms.topic: interface

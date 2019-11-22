@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileEvents
 title: IMbnConnectionProfileEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: This notification interface signals an application when IMbnConnectionProfile methods change the Mobile Broadband profile state.
 old-location: mbn\imbnconnectionprofileevents.htm
 tech.root: mbn
 ms.assetid: 235fa0ef-4fc2-4a36-8ad7-2dceb597498f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileEvents, IMbnConnectionProfileEvents interface [Microsoft Broadband Networks], IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofileevents, mbnapi/IMbnConnectionProfileEvents
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Device_Interface_Property_ExW
 title: CM_Set_Device_Interface_Property_ExW function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Set_Device_Interface_Property_ExW function sets a device property of a device interface.
 old-location: devinst\cm_set_device_interface_property_exw.htm
 tech.root: devinst
 ms.assetid: E3873F92-B2A7-4DDF-8C14-23D6815EE21E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Set_Device_Interface_Property_ExW, CM_Set_Device_Interface_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Device_Interface_Property_ExW, devinst.cm_set_device_interface_property_exw
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.GetClaimsToken2
 title: IWorkspace3::GetClaimsToken2 (workspaceruntime.h)
-author: windows-sdk-content
+
 description: Retrieves a claims token.
 old-location: termserv\iworkspace3_getclaimstoken2.htm
 tech.root: TermServ
 ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], GetClaimsToken2 method [Remote Desktop Services],IWorkspace3 interface, IWorkspace3 interface [Remote Desktop Services],GetClaimsToken2 method, IWorkspace3.GetClaimsToken2, IWorkspace3::GetClaimsToken2, termserv.iworkspace3_getclaimstoken2, workspaceruntime/IWorkspace3::GetClaimsToken2
 ms.topic: method

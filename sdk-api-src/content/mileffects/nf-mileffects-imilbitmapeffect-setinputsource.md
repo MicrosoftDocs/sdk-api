@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.SetInputSource
 title: IMILBitmapEffect::SetInputSource (mileffects.h)
-author: windows-sdk-content
+
 description: Sets the effect input source.
 old-location: wibe\_wibe_imilbitmapeffect_setinputsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\setinputsource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffect interface [WPF Bitmap Effects],SetInputSource method, IMILBitmapEffect.SetInputSource, IMILBitmapEffect::SetInputSource, SetInputSource, SetInputSource method [WPF Bitmap Effects], SetInputSource method [WPF Bitmap Effects],IMILBitmapEffect interface, _wibe_imilbitmapeffect_setinputsource, mileffects/IMILBitmapEffect::SetInputSource, wibe._wibe_imilbitmapeffect_setinputsource
 ms.topic: method

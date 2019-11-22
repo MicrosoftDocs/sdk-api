@@ -1,12 +1,12 @@
 ---
 UID: NS:mmc._MMC_COLUMN_DATA
 title: MMC_COLUMN_DATA (mmc.h)
-author: windows-sdk-content
+
 description: The MMC_COLUMN_DATA structure is introduced in MMC 1.2.
 old-location: mmc\mmc_column_data.htm
 tech.root: mmc
 ms.assetid: 93825514-1732-4a07-a323-d4f0cdfe955e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MMC_COLUMN_DATA, MMC_COLUMN_DATA structure [MMC], _slate_mmc_column_data, mmc.mmc_column_data, mmc/MMC_COLUMN_DATA
 ms.topic: struct

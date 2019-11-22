@@ -1,7 +1,7 @@
 ---
 UID: TP:ndisimplatcim
 ms.assetid: 782c2620-daaf-30da-8533-e393ec24da9b
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

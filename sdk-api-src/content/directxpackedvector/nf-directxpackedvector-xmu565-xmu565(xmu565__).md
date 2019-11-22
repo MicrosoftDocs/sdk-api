@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(XMU565 &&)
 title: XMU565::XMU565(XMU565 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMU565.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(XMU565 &&), XMU565::XMU565, XMU565::XMU565(XMU565 &&), dxmath.xmu565_ctor_1
 ms.topic: method

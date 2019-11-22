@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_BufferUnderrunFreeDisabled
 title: IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled (imapi2.h)
-author: windows-sdk-content
+
 description: Determines if Buffer Underrun Free recording is enabled.
 old-location: imapi\idiscformat2rawcd_put_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 66b35ca9-2bc7-419e-8fff-4449a64f9f5f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2RawCD.put_BufferUnderrunFreeDisabled, IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, imapi.idiscformat2rawcd_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2RawCD interface
 ms.topic: method

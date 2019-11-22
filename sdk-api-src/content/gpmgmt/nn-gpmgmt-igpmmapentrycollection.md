@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntryCollection
 title: IGPMMapEntryCollection (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMMapEntryCollection interface enables applications to access map entry objects.
 old-location: gpmc\igpmmapentrycollection.htm
 tech.root: gpmc
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntryCollection, IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], IGPMMapEntryCollection interface [GPMC],described, gpmc.igpmmapentrycollection, gpmgmt/IGPMMapEntryCollection
 ms.topic: interface

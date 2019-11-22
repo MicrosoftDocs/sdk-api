@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentOptimizeForVisualContent
 title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent.htm
 tech.root: WinAuto
 ms.assetid: A501BC99-A387-4997-913D-7BEDE8C1E6B3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2.get_CurrentOptimizeForVisualContent, IUIAutomationElement2::CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
 ms.topic: method

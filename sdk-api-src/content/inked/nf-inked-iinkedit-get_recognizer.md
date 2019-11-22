@@ -1,12 +1,12 @@
 ---
 UID: NF:inked.IInkEdit.get_Recognizer
 title: IInkEdit::get_Recognizer (inked.h)
-author: windows-sdk-content
+
 description: Gets or sets the IInkRecognizer object to use for recognition.
 old-location: tablet\inkedit_recognizer.htm
 tech.root: tablet
 ms.assetid: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e, IInkEdit interface [Tablet PC],Recognizer property, IInkEdit.Recognizer, IInkEdit.get_Recognizer, IInkEdit::Recognizer, IInkEdit::get_Recognizer, IInkEdit::put_Recognizer, InkEdit.get_Recognizer, InkEdit.putref_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkEdit interface, get_Recognizer, inked/IInkEdit::Recognizer, inked/IInkEdit::get_Recognizer, inked/IInkEdit::put_Recognizer, putref_Recognizer, tablet.inkedit_recognizer
 ms.topic: method

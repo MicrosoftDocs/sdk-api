@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll4.binaryBlobToString
 title: IEnroll4::binaryBlobToString (xenroll.h)
-author: windows-sdk-content
+
 description: Converts a binary data BLOB to a string. This method uses the CryptBinaryToString function to perform the conversion. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_binaryblobtostring.htm
 tech.root: SecCrypto
 ms.assetid: 0ce10b31-29f4-4fda-a488-7bc124e9461e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],binaryBlobToString method, IEnroll4.binaryBlobToString, IEnroll4::binaryBlobToString, binaryBlobToString, binaryBlobToString method [Security], binaryBlobToString method [Security],IEnroll4 interface, security.ienroll4_binaryblobtostring, xenroll/IEnroll4::binaryBlobToString
 ms.topic: method

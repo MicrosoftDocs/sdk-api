@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.NotificationProcessing
 title: NotificationProcessing (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Defines values that indicate how a notification should be processed.
 old-location: winauto\uiauto_NotificationProcessing.htm
 tech.root: WinAuto
 ms.assetid: 5A6969E1-2350-4418-B02A-0C92D8A246A1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NotificationProcessing, NotificationProcessing enumeration [Windows Accessibility], NotificationProcessing_All, NotificationProcessing_CurrentThenMostRecent, NotificationProcessing_ImportantAll, NotificationProcessing_ImportantMostRecent, NotificationProcessing_MostRecent, uiautomationclient/NotificationProcessing, uiautomationclient/NotificationProcessing_All, uiautomationclient/NotificationProcessing_CurrentThenMostRecent, uiautomationclient/NotificationProcessing_ImportantAll, uiautomationclient/NotificationProcessing_ImportantMostRecent, uiautomationclient/NotificationProcessing_MostRecent, winauto.uiauto_NotificationProcessing
 ms.topic: enum

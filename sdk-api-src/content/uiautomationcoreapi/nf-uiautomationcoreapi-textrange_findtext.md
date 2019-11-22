@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_FindText
 title: TextRange_FindText function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Returns the first text range in the specified direction that contains the text the client is searching for.
 old-location: winauto\uiauto_TextRange_FindTextConPat.htm
 tech.root: WinAuto
 ms.assetid: 24303a97-e8ad-4261-bff8-575980cf3c3d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibility], uiauto.uiauto_TextRange_FindTextConPat, uiauto_TextRange_FindTextConPat, uiautomationcoreapi/TextRange_FindText, winauto.uiauto_TextRange_FindTextConPat
 ms.topic: function

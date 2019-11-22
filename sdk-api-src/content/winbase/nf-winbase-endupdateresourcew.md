@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.EndUpdateResourceW
 title: EndUpdateResourceW function (winbase.h)
-author: windows-sdk-content
+
 description: Commits or discards changes made prior to a call to UpdateResource.
 old-location: menurc\endupdateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource
 ms.topic: function

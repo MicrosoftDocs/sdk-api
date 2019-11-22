@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveProp
 title: IWMBackupRestoreProps::RemoveProp (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The RemoveProp method removes a property specified by name.
 old-location: wmformat\iwmbackuprestoreprops_removeprop.htm
 tech.root: wmformat
 ms.assetid: 3befd77c-6962-4320-9456-760e8f41cb24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveProp method, IWMBackupRestoreProps.RemoveProp, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
 ms.topic: method

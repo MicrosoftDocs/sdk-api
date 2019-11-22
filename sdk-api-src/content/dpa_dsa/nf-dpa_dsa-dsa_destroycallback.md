@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DSA_DestroyCallback
 title: DSA_DestroyCallback function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Iterates through a dynamic structure array (DSA), calling a specified callback function on each item. Upon reaching the end of the array, the DSA is freed.
 old-location: controls\DSA_DestroyCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
 ms.topic: function

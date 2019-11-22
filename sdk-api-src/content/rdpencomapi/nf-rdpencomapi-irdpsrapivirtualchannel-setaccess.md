@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SetAccess
 title: IRDPSRAPIVirtualChannel::SetAccess (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Enables the channel for an attendee.
 old-location: rdp\irdpsrapivirtualchannel_setaccess.htm
 tech.root: rdp
 ms.assetid: 7d4a19d3-b089-4689-9062-a5b52251776f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, IRDPSRAPIVirtualChannel interface [RDP],SetAccess method, IRDPSRAPIVirtualChannel.SetAccess, IRDPSRAPIVirtualChannel::SetAccess, SetAccess, SetAccess method [RDP], SetAccess method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_setaccess, rdpencomapi/IRDPSRAPIVirtualChannel::SetAccess
 ms.topic: method

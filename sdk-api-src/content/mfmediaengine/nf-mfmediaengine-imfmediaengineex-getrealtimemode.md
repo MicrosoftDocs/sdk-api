@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetRealTimeMode
 title: IMFMediaEngineEx::GetRealTimeMode (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the real time mode used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getrealtimemode.htm
 tech.root: medfound
 ms.assetid: 473a2b5a-5b9d-4754-bd32-89c9c4ab8c4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetRealTimeMode method, IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
 ms.topic: method

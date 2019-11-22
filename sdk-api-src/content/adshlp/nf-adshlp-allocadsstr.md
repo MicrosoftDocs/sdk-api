@@ -1,12 +1,12 @@
 ---
 UID: NF:adshlp.AllocADsStr
 title: AllocADsStr function (adshlp.h)
-author: windows-sdk-content
+
 description: Allocates memory for and copies a specified string.
 old-location: adsi\allocadsstr.htm
 tech.root: adsi
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
 ms.topic: function

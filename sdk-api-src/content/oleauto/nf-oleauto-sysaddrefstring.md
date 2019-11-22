@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SysAddRefString
 title: SysAddRefString function (oleauto.h)
-author: windows-sdk-content
+
 description: Increases the pinning reference count for the specified string by one.
 old-location: automat\sysaddrefstring.htm
 tech.root: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie(IN const Rect &,IN REAL,IN REAL)
 title: GraphicsPath::AddPie(IN const Rect &,IN REAL,IN REAL) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddPie method adds a pie to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_Rect_rect_REAL_startAngle_REAL_sweepAngle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods\addpie.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN const Rect &,IN REAL,IN REAL), GraphicsPath.AddPie(const Rect&,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_Rect_rect_REAL_startAngle_REAL_sweepAngle_
 ms.topic: method

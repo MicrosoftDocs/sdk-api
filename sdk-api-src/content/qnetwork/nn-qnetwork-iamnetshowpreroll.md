@@ -1,12 +1,12 @@
 ---
 UID: NN:qnetwork.IAMNetShowPreroll
 title: IAMNetShowPreroll (qnetwork.h)
-author: windows-sdk-content
+
 description: The IAMNetShowPreroll interface sets and retrieves the preroll settings for the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface. The filter's default preroll time is five seconds.
 old-location: dshow\iamnetshowpreroll.htm
 tech.root: DirectShow
 ms.assetid: 13478678-00de-48e6-b9e7-fd47db423290
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll, IAMNetShowPreroll interface [DirectShow], IAMNetShowPreroll interface [DirectShow],described, IAMNetShowPrerollInterface, dshow.iamnetshowpreroll, qnetwork/IAMNetShowPreroll
 ms.topic: interface

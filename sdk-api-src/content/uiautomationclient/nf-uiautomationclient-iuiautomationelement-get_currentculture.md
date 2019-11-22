@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentCulture
 title: IUIAutomationElement::get_CurrentCulture (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the culture identifier for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentCulture.htm
 tech.root: WinAuto
 ms.assetid: 369edad8-6629-41a9-82cb-386a6c02f5f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentCulture property [Windows Accessibility], CurrentCulture property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentCulture property, IUIAutomationElement.CurrentCulture, IUIAutomationElement.get_CurrentCulture, IUIAutomationElement::CurrentCulture, IUIAutomationElement::get_CurrentCulture, get_CurrentCulture, uiauto.uiauto_IUIAutomationElement_CurrentCulture, uiauto_IUIAutomationElement_CurrentCulture, uiautomationclient/IUIAutomationElement::CurrentCulture, uiautomationclient/IUIAutomationElement::get_CurrentCulture, winauto.uiauto_IUIAutomationElement_CurrentCulture
 ms.topic: method

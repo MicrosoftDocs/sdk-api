@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetItem
 title: IFolderView2::GetItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Retrieves an object that represents a specified item.
 old-location: shell\IFolderView2_GetItem.htm
 tech.root: shell
 ms.assetid: 557ff412-2da9-4723-9f84-802e084ebaca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetItem method, IFolderView2.GetItem, IFolderView2::GetItem, _shell_IFolderView2_GetItem, shell.IFolderView2_GetItem, shobjidl_core/IFolderView2::GetItem
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:interactioncontext.INTERACTION_FLAGS
 title: INTERACTION_FLAGS (interactioncontext.h)
-author: windows-sdk-content
+
 description: Specifies the state of an interaction.
 old-location: input_intcontext\interaction_flags.htm
 tech.root: Input_IntContext
 ms.assetid: 8d1adbd2-03ca-4609-9738-45bc7b21f934
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_FLAGS, INTERACTION_FLAGS enumeration, INTERACTION_FLAG_BEGIN, INTERACTION_FLAG_CANCEL, INTERACTION_FLAG_END, INTERACTION_FLAG_INERTIA, INTERACTION_FLAG_MAX, INTERACTION_FLAG_NONE, input_intcontext.interaction_flags, interactioncontext.interaction_flags, interactioncontext/INTERACTION_FLAGS, interactioncontext/INTERACTION_FLAG_BEGIN, interactioncontext/INTERACTION_FLAG_CANCEL, interactioncontext/INTERACTION_FLAG_END, interactioncontext/INTERACTION_FLAG_INERTIA, interactioncontext/INTERACTION_FLAG_MAX, interactioncontext/INTERACTION_FLAG_NONE
 ms.topic: enum

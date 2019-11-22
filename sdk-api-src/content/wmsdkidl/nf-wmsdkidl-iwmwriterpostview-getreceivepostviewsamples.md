@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetReceivePostViewSamples
 title: IWMWriterPostView::GetReceivePostViewSamples (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetReceivePostViewSamples method retrieves a flag indicating whether delivery of postview samples has been turned on for the specified stream.
 old-location: wmformat\iwmwriterpostview_getreceivepostviewsamples.htm
 tech.root: wmformat
 ms.assetid: 93120e68-2d1c-4628-8e2e-d22a56fa98a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetReceivePostViewSamples, GetReceivePostViewSamples method [windows Media Format], GetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetReceivePostViewSamples method, IWMWriterPostView.GetReceivePostViewSamples, IWMWriterPostView::GetReceivePostViewSamples, IWMWriterPostViewGetReceivePostViewSamples, wmformat.iwmwriterpostview_getreceivepostviewsamples, wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples
 ms.topic: method

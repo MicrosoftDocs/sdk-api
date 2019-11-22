@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.GetStringScripts
 title: GetStringScripts function (winnls.h)
-author: windows-sdk-content
+
 description: Provides a list of scripts used in the specified Unicode string.
 old-location: intl\getstringscripts.htm
 tech.root: Intl
 ms.assetid: 82885feb-5d9b-49ea-bcbe-c71597584c59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts function [Internationalization for Windows Applications], _win32_GetStringScripts, intl.getstringscripts, winnls/GetStringScripts
 ms.topic: function

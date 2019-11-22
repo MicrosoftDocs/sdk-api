@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.HandoffIndirect
 title: ITBasicCallControl::HandoffIndirect (tapi3if.h)
-author: windows-sdk-content
+
 description: The HandoffIndirect method hands off the call to another application based on the media type of the call.
 old-location: tapi3\itbasiccallcontrol_handoffindirect.htm
 tech.root: Tapi
 ms.assetid: 02579638-fafd-4c4a-91a3-460d7ebf6917
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HandoffIndirect, HandoffIndirect method [TAPI 2.2], HandoffIndirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffIndirect method, ITBasicCallControl.HandoffIndirect, ITBasicCallControl::HandoffIndirect, _tapi3_itbasiccallcontrol_handoffindirect, tapi3.itbasiccallcontrol_handoffindirect, tapi3if/ITBasicCallControl::HandoffIndirect
 ms.topic: method

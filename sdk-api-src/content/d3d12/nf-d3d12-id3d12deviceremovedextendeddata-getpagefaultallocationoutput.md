@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedData.GetPageFaultAllocationOutput
 title: ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput
-author: windows-sdk-content
+
 description: Retrieves the Device Removed Extended Data (DRED) page fault data.
 old-location: direct3d12\id3d12deviceremovedextendeddata_getpagefaultallocationoutput.htm
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/08/2019
 ms.keywords: GetPageFaultAllocationOutput, GetPageFaultAllocationOutput method, ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData interface, ID3D12DeviceRemovedExtendedData.GetPageFaultAllocationOutput, ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput, d3d12/ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput, direct3d12.id3d12deviceremovedextendeddata_getpagefaultallocationoutput
 ms.topic: method

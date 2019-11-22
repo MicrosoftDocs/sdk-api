@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromImage
 title: Graphics::FromImage (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::FromImage method creates a Graphicsobject that is associated with a specified Image object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromImage_image_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fromimage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FromImage, FromImage method [GDI+], FromImage method [GDI+],Graphics class, Graphics class [GDI+],FromImage method, Graphics.FromImage, Graphics::FromImage, _gdiplus_CLASS_Graphics_FromImage_image_, gdiplus._gdiplus_CLASS_Graphics_FromImage_image_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMPlaneIntersectPlane
 title: XMPlaneIntersectPlane function (directxmath.h)
-author: windows-sdk-content
+
 description: Finds the intersection of two planes.
 old-location: dxmath\xmplaneintersectplane.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIntersectPlane(XMVECTOR@,XMVECTOR@,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIntersectPlane, XMPlaneIntersectPlane, XMPlaneIntersectPlane method [DirectX Math Support APIs], dxmath.xmplaneintersectplane
 ms.topic: function

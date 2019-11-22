@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationMultipleViewPattern
 title: IUIAutomationMultipleViewPattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Provides access to a control that can switch between multiple representations of the same information or set of child controls.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern.htm
 tech.root: WinAuto
 ms.assetid: 4a1613b9-1e64-4d4e-876e-e2bf886097d4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], IUIAutomationMultipleViewPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationMultipleViewPattern, uiauto_IUIAutomationMultipleViewPattern, uiautomationclient/IUIAutomationMultipleViewPattern, winauto.uiauto_IUIAutomationMultipleViewPattern
 ms.topic: interface

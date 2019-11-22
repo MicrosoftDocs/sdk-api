@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 title: ID3D12GraphicsCommandList::SetComputeRoot32BitConstants (d3d12.h)
-author: windows-sdk-content
+
 description: Sets a group of constants in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstants.htm
 tech.root: direct3d12
 ms.assetid: A4623522-4748-4999-80EC-E6AC8934136A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstants method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstants, ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, SetComputeRoot32BitConstants, SetComputeRoot32BitConstants method, SetComputeRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstants
 ms.topic: method

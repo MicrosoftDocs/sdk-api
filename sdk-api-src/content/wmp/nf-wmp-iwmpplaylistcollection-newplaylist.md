@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.newPlaylist
 title: IWMPPlaylistCollection::newPlaylist (wmp.h)
-author: windows-sdk-content
+
 description: The newPlaylist method creates a new, empty playlist in the library.
 old-location: wmp\iwmpplaylistcollection_newplaylist.htm
 tech.root: WMP
 ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist method, IWMPPlaylistCollection.newPlaylist, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
 ms.topic: method

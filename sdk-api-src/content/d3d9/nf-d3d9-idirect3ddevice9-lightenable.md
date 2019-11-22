@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.LightEnable
 title: IDirect3DDevice9::LightEnable (d3d9.h)
-author: windows-sdk-content
+
 description: Enables or disables a set of lighting parameters within a device.
 old-location: direct3d9\idirect3ddevice9__lightenable.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__lightenable.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [Direct3D 9],LightEnable method, IDirect3DDevice9.LightEnable, IDirect3DDevice9::LightEnable, LightEnable, LightEnable method [Direct3D 9], LightEnable method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::LightEnable, direct3d9.idirect3ddevice9__lightenable
 ms.topic: method

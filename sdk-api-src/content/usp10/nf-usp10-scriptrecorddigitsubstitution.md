@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptRecordDigitSubstitution
 title: ScriptRecordDigitSubstitution function (usp10.h)
-author: windows-sdk-content
+
 description: Reads the National Language Support (NLS) native digit and digit substitution settings and records them in a SCRIPT_DIGITSUBSTITUTE structure. For more information, see Digit Shapes.
 old-location: intl\scriptrecorddigitsubstitution.htm
 tech.root: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetTag
 title: IAtscContentAdvisoryDescriptor::GetTag (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: cd4c477f-54b1-4ebf-99e5-f75087d7599e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetTag method, IAtscContentAdvisoryDescriptor.GetTag, IAtscContentAdvisoryDescriptor::GetTag, IAtscContentAdvisoryDescriptorGetTag, atscpsipparser/IAtscContentAdvisoryDescriptor::GetTag, mstv.iatsccontentadvisorydescriptor_gettag
 ms.topic: method

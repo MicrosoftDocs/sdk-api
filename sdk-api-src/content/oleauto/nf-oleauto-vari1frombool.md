@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI1FromBool
 title: VarI1FromBool function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a Boolean value to a char value.
 old-location: automat\vari1frombool.htm
 tech.root: automat
 ms.assetid: 0e8043da-b41f-467a-a0c3-3f4bc3d098cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI1FromBool, VarI1FromBool function [Automation], _oa96_VarI1FromBool, automat.vari1frombool, oleauto/VarI1FromBool
 ms.topic: function

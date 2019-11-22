@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_NetworkSettings
 title: ITaskSettings::get_NetworkSettings (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the network settings object that contains a network profile identifier and name.
 old-location: taskschd\itasksettings_networksettings.htm
 tech.root: taskschd
 ms.assetid: 9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],NetworkSettings property, ITaskSettings.NetworkSettings, ITaskSettings.get_NetworkSettings, ITaskSettings::NetworkSettings, ITaskSettings::get_NetworkSettings, ITaskSettings::put_NetworkSettings, NetworkSettings property [Task Scheduler], NetworkSettings property [Task Scheduler],ITaskSettings interface, get_NetworkSettings, taskschd.itasksettings_networksettings, taskschd/ITaskSettings::NetworkSettings, taskschd/ITaskSettings::get_NetworkSettings, taskschd/ITaskSettings::put_NetworkSettings
 ms.topic: method

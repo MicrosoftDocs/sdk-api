@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Server_GetSystemName
 title: MI_Server_GetSystemName function (mi.h)
-author: windows-sdk-content
+
 description: Gets the system name for the server.
 old-location: wmi_v2\mi_server_getsystemname.htm
 tech.root: wmi_v2
 ms.assetid: 895b21b8-dc66-4e05-9f10-9dcd704bef70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Server_GetSystemName, MI_Server_GetSystemName callback, MI_Server_GetSystemName callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetSystemName, wmi_v2.mi_server_getsystemname
 ms.topic: function

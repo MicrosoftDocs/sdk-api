@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_ObjectId
 title: IPolicyQualifier::get_ObjectId (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves the object identifier (OID) for the qualifier.
 old-location: security\ipolicyqualifier_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: d19efcd3-c5fc-4268-af39-2385b7babcc9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],ObjectId property, IPolicyQualifier.ObjectId, IPolicyQualifier.get_ObjectId, IPolicyQualifier::ObjectId, IPolicyQualifier::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::ObjectId, certenroll/IPolicyQualifier::get_ObjectId, get_ObjectId, security.ipolicyqualifier_objectid_property
 ms.topic: method

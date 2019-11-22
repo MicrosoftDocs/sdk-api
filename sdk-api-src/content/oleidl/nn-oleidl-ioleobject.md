@@ -1,12 +1,12 @@
 ---
 UID: NN:oleidl.IOleObject
 title: IOleObject (oleidl.h)
-author: windows-sdk-content
+
 description: Serves as the principal means by which an embedded object provides basic functionality to, and communicates with, its container.
 old-location: com\ioleobject.htm
 tech.root: com
 ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetCurrentClusterNodeId
 title: GetCurrentClusterNodeId macro (clusapi.h)
-author: windows-sdk-content
+
 description: Returns the unique identifier of the current cluster node.
 old-location: mscs\getcurrentclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 ms.topic: macro

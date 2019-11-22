@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_PanRelative
 title: ICameraControl::getRange_PanRelative (vidcap.h)
-author: windows-sdk-content
+
 description: The getRange_PanRelative method returns the range of relative panning angles supported by the camera. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_getrange_panrelative.htm
 tech.root: DirectShow
 ms.assetid: 31affca6-e9e9-4715-aea4-0a39ce100556
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_PanRelative method, ICameraControl.getRange_PanRelative, ICameraControl::getRange_PanRelative, ICameraControlgetRange_PanRelative, dshow.icameracontrol_getrange_panrelative, getRange_PanRelative, getRange_PanRelative method [DirectShow], getRange_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_PanRelative
 ms.topic: method

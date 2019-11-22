@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGroupImportDatabase
 title: PeerGroupImportDatabase function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGroupImportDatabase function imports a peer group database from a local file.
 old-location: p2p\peergroupimportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 507b2b51-07d1-4e8d-8ec6-6b7398eadcc0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGroupImportDatabase, PeerGroupImportDatabase function [Peer Networking], p2p.peergroupimportdatabase, p2p/PeerGroupImportDatabase
 ms.topic: function

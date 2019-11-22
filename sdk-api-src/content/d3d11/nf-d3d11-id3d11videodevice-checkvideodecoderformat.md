@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CheckVideoDecoderFormat
 title: ID3D11VideoDevice::CheckVideoDecoderFormat (d3d11.h)
-author: windows-sdk-content
+
 description: Given aprofile, checks whether the driver supports a specified output format.
 old-location: mf\id3d11videodevice_checkvideodecoderformat.htm
 tech.root: medfound
 ms.assetid: E834DF38-2847-4864-9CFE-A25CAE51C78F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat method [Media Foundation], CheckVideoDecoderFormat method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CheckVideoDecoderFormat method, ID3D11VideoDevice.CheckVideoDecoderFormat, ID3D11VideoDevice::CheckVideoDecoderFormat, d3d11/ID3D11VideoDevice::CheckVideoDecoderFormat, mf.id3d11videodevice_checkvideodecoderformat
 ms.topic: method

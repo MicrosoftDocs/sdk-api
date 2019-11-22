@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFileSize
 title: IRdcFileReader::GetFileSize (msrdc.h)
-author: windows-sdk-content
+
 description: Returns the size of a file.
 old-location: rdc\irdcfilereader_getfilesize.htm
 tech.root: rdc
 ms.assetid: 2db66eb0-7213-446a-ad4b-f0df9e48abd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFileSize method, IRdcFileReader.GetFileSize, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
 ms.topic: method

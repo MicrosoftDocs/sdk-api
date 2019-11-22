@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_LOOKUP_STREAM_FROM_CLUSTER
 title: FSCTL_LOOKUP_STREAM_FROM_CLUSTER
-author: windows-sdk-content
+
 description: Given a handle to a NTFS volume or a file on a NTFS volume, returns a chain of data structures that describes streams that occupy the specified clusters.
 old-location: fs\fsctl_lookup_stream_from_cluster.htm
 tech.root: FileIO
 ms.assetid: 21a7cad2-eae0-461d-802e-a54fd7d35808
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOOKUP_STREAM_FROM_CLUSTER, FSCTL_LOOKUP_STREAM_FROM_CLUSTER control, FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code [Files], fs.fsctl_lookup_stream_from_cluster, winioctl/FSCTL_LOOKUP_STREAM_FROM_CLUSTER
 ms.topic: ioctl

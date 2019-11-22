@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.AddIScsiStaticTargetW
 title: AddIScsiStaticTargetW function (iscsidsc.h)
-author: windows-sdk-content
+
 description: AddIscsiStaticTarget function adds a target to the list of static targets available to the iSCSI initiator.
 old-location: iscsidisc\addiscsistatictarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 81f5ac9a-debb-4fa3-8ccf-1303cd45f1de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddIScsiStaticTargetW, AddIscsiStaticTarget, AddIscsiStaticTarget function [iSCSI Discovery Library API], AddIscsiStaticTargetA, AddIscsiStaticTargetW, ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET, ISCSI_TARGET_FLAG_MERGE_TARGET_INFORMATION, iscsidisc.addiscsistatictarget, iscsidsc/AddIscsiStaticTarget, iscsidsc/AddIscsiStaticTargetA, iscsidsc/AddIscsiStaticTargetW
 ms.topic: function

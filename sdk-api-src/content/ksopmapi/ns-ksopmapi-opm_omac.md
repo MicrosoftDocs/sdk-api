@@ -1,12 +1,12 @@
 ---
 UID: NS:ksopmapi._OPM_OMAC
 title: OPM_OMAC (ksopmapi.h)
-author: windows-sdk-content
+
 description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message.
 old-location: mf\opm_omac.htm
 tech.root: medfound
 ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
 ms.topic: struct

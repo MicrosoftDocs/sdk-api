@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.INetSharingManager.get_NetConnectionProps
 title: INetSharingManager::get_NetConnectionProps (netcon.h)
-author: windows-sdk-content
+
 description: The get_NetConnectionProps method retrieves a properties interface for the specified connection.
 old-location: ics\inetsharingmanager_get_netconnectionprops.htm
 tech.root: ics
 ms.assetid: bf2db553-f324-4f23-b96e-f8ae703aa3ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_NetConnectionProps method, INetSharingManager.get_NetConnectionProps, INetSharingManager::get_NetConnectionProps, _ics_inetsharingmanager_get_netconnectionprops, get_NetConnectionProps, get_NetConnectionProps method [ICS/ICF], get_NetConnectionProps method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_netconnectionprops, netcon/INetSharingManager::get_NetConnectionProps
 ms.topic: method

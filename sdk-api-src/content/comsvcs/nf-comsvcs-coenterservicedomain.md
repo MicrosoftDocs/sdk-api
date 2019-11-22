@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.CoEnterServiceDomain
 title: CoEnterServiceDomain function (comsvcs.h)
-author: windows-sdk-content
+
 description: Used to enter code that can then use COM+ services.
 old-location: cos\coenterservicedomain.htm
 tech.root: cossdk
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.topic: function

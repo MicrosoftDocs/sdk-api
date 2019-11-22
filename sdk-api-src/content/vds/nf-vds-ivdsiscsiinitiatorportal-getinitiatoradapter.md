@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter (vds.h)
-author: windows-sdk-content
+
 description: Returns the initiator adapter to which the initiator portal belongs.
 old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
 tech.root: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ms.topic: method

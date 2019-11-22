@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.ObjectFromLresult
 title: ObjectFromLresult function (oleacc.h)
-author: windows-sdk-content
+
 description: Retrieves a requested interface pointer for an accessible object based on a previously generated object reference.
 old-location: winauto\objectfromlresult.htm
 tech.root: WinAuto
 ms.assetid: 97e766fd-e142-40d1-aba7-408b45d33426
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibility], _msaa_ObjectFromLresult, msaa.objectfromlresult, oleacc/ObjectFromLresult, winauto.objectfromlresult
 ms.topic: function

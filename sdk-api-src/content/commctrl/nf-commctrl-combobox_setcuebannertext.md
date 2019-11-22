@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ComboBox_SetCueBannerText
 title: ComboBox_SetCueBannerText macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 old-location: controls\ComboBox_SetCueBannerText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
 ms.topic: macro

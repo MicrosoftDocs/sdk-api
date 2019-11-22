@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d9caps._D3DOVERLAYCAPS
 title: D3DOVERLAYCAPS (d3d9caps.h)
-author: windows-sdk-content
+
 description: Specifies hardware overlay capabilities for a Direct3D device.
 old-location: mf\d3doverlaycaps.htm
 tech.root: medfound
 ms.assetid: 4d9e031d-af01-4b8a-b90c-9d83b09c24da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3DOVERLAYCAPS, D3DOVERLAYCAPS structure [Media Foundation], D3DOVERLAYCAPS_FULLRANGERGB, D3DOVERLAYCAPS_LIMITEDRANGERGB, D3DOVERLAYCAPS_STRETCHX, D3DOVERLAYCAPS_STRETCHY, D3DOVERLAYCAPS_YCbCr_BT601, D3DOVERLAYCAPS_YCbCr_BT601_xvYCC, D3DOVERLAYCAPS_YCbCr_BT709, D3DOVERLAYCAPS_YCbCr_BT709_xvYCC, d3d9caps/D3DOVERLAYCAPS, mf.d3doverlaycaps
 ms.topic: struct

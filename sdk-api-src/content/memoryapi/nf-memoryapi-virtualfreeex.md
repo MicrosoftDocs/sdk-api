@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.VirtualFreeEx
 title: VirtualFreeEx function (memoryapi.h)
-author: windows-sdk-content
+
 description: Releases, decommits, or releases and decommits a region of memory within the virtual address space of a specified process.
 old-location: base\virtualfreeex.htm
 tech.root: Memory
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
 ms.topic: function

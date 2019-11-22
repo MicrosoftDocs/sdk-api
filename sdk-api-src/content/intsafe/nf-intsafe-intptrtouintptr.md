@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.IntPtrToUIntPtr
 title: IntPtrToUIntPtr function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type INT_PTR to a value of type UINT_PTR.
 old-location: shell\IntPtrToUIntPtr.htm
 tech.root: shell
 ms.assetid: 9c85af51-5f28-445d-a6fe-4d3dd5666b6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows Shell], PtrdiffTToSizeT, PtrdiffTToUIntPtr, _shell_IntPtrToUIntPtr, intsafe/IntPtrToUIntPtr, shell.IntPtrToUIntPtr
 ms.topic: function

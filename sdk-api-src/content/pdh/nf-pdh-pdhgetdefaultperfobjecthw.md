@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectHW
 title: PdhGetDefaultPerfObjectHW function (pdh.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the default object.
 old-location: perf\pdhgetdefaultperfobjecth.htm
 tech.root: perfctrs
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf], PdhGetDefaultPerfObjectHA, PdhGetDefaultPerfObjectHW, _win32_pdhgetdefaultperfobjecth, base.pdhgetdefaultperfobjecth, pdh/PdhGetDefaultPerfObjectH, pdh/PdhGetDefaultPerfObjectHA, pdh/PdhGetDefaultPerfObjectHW, perf.pdhgetdefaultperfobjecth
 ms.topic: function

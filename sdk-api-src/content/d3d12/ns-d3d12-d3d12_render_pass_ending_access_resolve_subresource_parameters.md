@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS
 title: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the subresources involved in resolving at the conclusion of a render pass.
 old-location: direct3d12\d3d12_render_pass_ending_access_resolve_subresource_parameters.htm
 tech.root: direct3d12
 ms.assetid: 1A063782-2EE9-4D79-BF5D-0C160048E95E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS, D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS structure, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS, direct3d12.d3d12_render_pass_ending_access_resolve_subresource_parameters
 ms.topic: struct

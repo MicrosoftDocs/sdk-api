@@ -1,12 +1,12 @@
 ---
 UID: NE:winbase._COPYFILE2_COPY_PHASE
 title: COPYFILE2_COPY_PHASE (winbase.h)
-author: windows-sdk-content
+
 description: Indicates the phase of a copy at the time of an error.
 old-location: fs\copyfile2_copy_phase.htm
 tech.root: FileIO
 ms.assetid: 92bf9028-78a3-4ea3-bfbb-b53a8df557ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COPYFILE2_COPY_PHASE, COPYFILE2_COPY_PHASE enumeration [Files], COPYFILE2_PHASE_MAX, COPYFILE2_PHASE_NAMEGRAFT_COPY, COPYFILE2_PHASE_NONE, COPYFILE2_PHASE_PREPARE_DEST, COPYFILE2_PHASE_PREPARE_SOURCE, COPYFILE2_PHASE_READ_SOURCE, COPYFILE2_PHASE_SERVER_COPY, COPYFILE2_PHASE_WRITE_DESTINATION, fs.copyfile2_copy_phase, winbase/COPYFILE2_COPY_PHASE, winbase/COPYFILE2_PHASE_MAX, winbase/COPYFILE2_PHASE_NAMEGRAFT_COPY, winbase/COPYFILE2_PHASE_NONE, winbase/COPYFILE2_PHASE_PREPARE_DEST, winbase/COPYFILE2_PHASE_PREPARE_SOURCE, winbase/COPYFILE2_PHASE_READ_SOURCE, winbase/COPYFILE2_PHASE_SERVER_COPY, winbase/COPYFILE2_PHASE_WRITE_DESTINATION
 ms.topic: enum

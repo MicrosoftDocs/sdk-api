@@ -1,12 +1,12 @@
 ---
 UID: NF:fibersapi.FlsFree
 title: FlsFree function
-author: windows-sdk-content
+
 description: Releases a fiber local storage (FLS) index, making it available for reuse.
 old-location: base\flsfree.htm
 tech.root: ProcThread
 ms.assetid: ef996c6b-77d0-4b06-97a4-14773cb67146
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/FlsFree, winbase/FlsFree
 ms.topic: function

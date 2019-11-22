@@ -1,12 +1,12 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoChromaSubSampling
 title: DXVA2_VideoChromaSubSampling (dxva2api.h)
-author: windows-sdk-content
+
 description: Describes how chroma values are positioned relative to the luma samples in a YUV video frame.
 old-location: mf\dxva2_videochromasubsampling.htm
 tech.root: medfound
 ms.assetid: 0f9d63fd-46fa-498c-8703-1beeaf09ce86
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0f9d63fd-46fa-498c-8703-1beeaf09ce86, DXVA2_VideoChromaSubSampling, DXVA2_VideoChromaSubSampling enumeration [Media Foundation], DXVA2_VideoChromaSubsamplingMask, DXVA2_VideoChromaSubsampling_Cosited, DXVA2_VideoChromaSubsampling_DV_PAL, DXVA2_VideoChromaSubsampling_Horizontally_Cosited, DXVA2_VideoChromaSubsampling_MPEG1, DXVA2_VideoChromaSubsampling_MPEG2, DXVA2_VideoChromaSubsampling_ProgressiveChroma, DXVA2_VideoChromaSubsampling_Unknown, DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVA2_VideoChromaSubsampling_Vertically_Cosited, dxva2api/DXVA2_VideoChromaSubSampling, dxva2api/DXVA2_VideoChromaSubsamplingMask, dxva2api/DXVA2_VideoChromaSubsampling_Cosited, dxva2api/DXVA2_VideoChromaSubsampling_DV_PAL, dxva2api/DXVA2_VideoChromaSubsampling_Horizontally_Cosited, dxva2api/DXVA2_VideoChromaSubsampling_MPEG1, dxva2api/DXVA2_VideoChromaSubsampling_MPEG2, dxva2api/DXVA2_VideoChromaSubsampling_ProgressiveChroma, dxva2api/DXVA2_VideoChromaSubsampling_Unknown, dxva2api/DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva2api/DXVA2_VideoChromaSubsampling_Vertically_Cosited, mf.dxva2_videochromasubsampling
 ms.topic: enum

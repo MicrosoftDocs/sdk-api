@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATE_ENUM_TEMPLATE0_
 title: IPSEC_DOSP_STATE_ENUM_TEMPLATE0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: The IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure.
 old-location: fwp\ipsec_dosp_state_enum_template0.htm
 tech.root: fwp
 ms.assetid: bfc34949-dd80-4fcd-8147-2fed62bce387
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_DOSP_STATE_ENUM_TEMPLATE0, IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure [Filtering], fwp.ipsec_dosp_state_enum_template0, ipsectypes/IPSEC_DOSP_STATE_ENUM_TEMPLATE0
 ms.topic: struct

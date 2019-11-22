@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12InfoQueue
 title: ID3D12InfoQueue (d3d12sdklayers.h)
-author: windows-sdk-content
+
 description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
 old-location: direct3d12\id3d12infoqueue.htm
 tech.root: direct3d12
 ms.assetid: 61667AAC-05AC-4745-8992-E9377641D411
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, ID3D12InfoQueue interface,described, d3d12sdklayers/ID3D12InfoQueue, direct3d12.id3d12infoqueue
 ms.topic: interface

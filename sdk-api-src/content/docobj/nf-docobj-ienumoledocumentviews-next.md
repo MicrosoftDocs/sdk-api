@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Next
 title: IEnumOleDocumentViews::Next (docobj.h)
-author: windows-sdk-content
+
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoledocumentviews_next.htm
 tech.root: com
 ms.assetid: a58131bf-88ff-4661-9047-2d70b5e7931b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocumentViews.Next, IEnumOleDocumentViews::Next, Next, Next method [COM], Next method [COM],IEnumOleDocumentViews interface, com.ienumoledocumentviews_next, docobj/IEnumOleDocumentViews::Next
 ms.topic: method

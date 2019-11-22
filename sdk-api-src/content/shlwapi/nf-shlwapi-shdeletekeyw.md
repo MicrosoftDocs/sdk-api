@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.SHDeleteKeyW
 title: SHDeleteKeyW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry.
 old-location: shell\SHDeleteKey.htm
 tech.root: shell
 ms.assetid: 3c46db08-52d8-48fa-bda5-3c087908a1d3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteKey, SHDeleteKey function [Windows Shell], SHDeleteKeyA, SHDeleteKeyW, _win32_SHDeleteKey, _win32_SHDeleteKey_cpp, shell.SHDeleteKey, shlwapi/SHDeleteKey, shlwapi/SHDeleteKeyA, shlwapi/SHDeleteKeyW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATVisuals
 title: IProvideWinSATVisuals (winsatcominterfacei.h)
-author: windows-sdk-content
+
 description: Retrieves elements that can be used in a user interface to graphically represent the WinSAT assessment.
 old-location: winsat\iprovidewinsatvisuals.htm
 tech.root: WinSAT
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 title: IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces (strmif.h)
-author: windows-sdk-content
+
 description: The RestoreDDrawSurfaces method notifies the VMR that a DirectDraw surface &#0034;loss&#0034; has been detected.
 old-location: dshow\ivmrsurfaceallocatornotify_restoreddrawsurfaces.htm
 tech.root: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 ms.topic: method

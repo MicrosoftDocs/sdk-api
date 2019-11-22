@@ -1,12 +1,12 @@
 ---
 UID: NE:dxgi1_3.DXGI_OVERLAY_SUPPORT_FLAG
 title: DXGI_OVERLAY_SUPPORT_FLAG (dxgi1_3.h)
-author: windows-sdk-content
+
 description: Specifies overlay support to check for in a call to IDXGIOutput3::CheckOverlaySupport.
 old-location: direct3ddxgi\dxgi_overlay_support_flag.htm
 tech.root: direct3ddxgi
 ms.assetid: D2657A18-1F95-485A-A76E-381413CEB7B8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXGI_OVERLAY_SUPPORT_FLAG, DXGI_OVERLAY_SUPPORT_FLAG enumeration [DXGI], DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, DXGI_OVERLAY_SUPPORT_FLAG_SCALING, direct3ddxgi.dxgi_overlay_support_flag, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_SCALING
 ms.topic: enum

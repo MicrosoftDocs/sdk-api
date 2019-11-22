@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_RESPONSE_INFO
 title: HTTP_RESPONSE_INFO (http.h)
-author: windows-sdk-content
+
 description: Extends the HTTP_RESPONSE structure with additional information for the response.
 old-location: http\http_response_info.htm
 tech.root: http
 ms.assetid: 29422116-0a33-4553-98aa-785bb926dee0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO'
 ms.topic: struct

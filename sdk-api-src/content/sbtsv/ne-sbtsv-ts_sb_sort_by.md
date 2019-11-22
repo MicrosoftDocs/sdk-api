@@ -1,12 +1,12 @@
 ---
 UID: NE:sbtsv._TS_SB_SORT_BY
 title: TS_SB_SORT_BY (sbtsv.h)
-author: windows-sdk-content
+
 description: Specifies sort order. It is used as a parameter in the EnumerateTargets method.
 old-location: termserv\ts_sb_sort_by.htm
 tech.root: TermServ
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TS_SB_SORT_BY, TS_SB_SORT_BY enumeration [Remote Desktop Services], TS_SB_SORT_BY_NAME, TS_SB_SORT_BY_NONE, TS_SB_SORT_BY_PROP, sbtsv/TS_SB_SORT_BY, sbtsv/TS_SB_SORT_BY_NAME, sbtsv/TS_SB_SORT_BY_NONE, sbtsv/TS_SB_SORT_BY_PROP, termserv.ts_sb_sort_by
 ms.topic: enum

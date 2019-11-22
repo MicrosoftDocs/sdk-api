@@ -1,12 +1,12 @@
 ---
 UID: NN:oleidl.IOleAdviseHolder
 title: IOleAdviseHolder (oleidl.h)
-author: windows-sdk-content
+
 description: Manages advisory connections and compound document notifications in an object server.
 old-location: com\ioleadviseholder.htm
 tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.topic: interface

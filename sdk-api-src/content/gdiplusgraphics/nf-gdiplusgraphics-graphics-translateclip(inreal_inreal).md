@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN REAL,IN REAL)
 title: Graphics::TranslateClip
 description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
 ms.assetid: 323bc752-60d5-44f5-88dd-6bf0c4c0c926
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip
 ms.topic: language-reference

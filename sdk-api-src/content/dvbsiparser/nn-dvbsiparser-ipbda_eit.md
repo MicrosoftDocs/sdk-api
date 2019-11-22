@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IPBDA_EIT
 title: IPBDA_EIT (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Implements methods that enable the client to get information from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The IPBDASiParser::GetEIT method returns a pointer to this interface.
 old-location: mstv\ipbda_eit.htm
 tech.root: mstv
 ms.assetid: cb8cd2cc-e498-43c2-ae1e-3543b4ea3b56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_EIT interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_EIT, mstv.ipbda_eit
 ms.topic: interface

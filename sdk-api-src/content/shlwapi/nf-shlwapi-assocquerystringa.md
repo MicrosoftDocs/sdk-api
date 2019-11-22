@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.AssocQueryStringA
 title: AssocQueryStringA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Searches for and retrieves a file or protocol association-related string from the registry.
 old-location: shell\AssocQueryString.htm
 tech.root: shell
 ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AssocQueryString, AssocQueryString function [Windows Shell], AssocQueryStringA, AssocQueryStringW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryString, shell.AssocQueryString, shlwapi/AssocQueryString, shlwapi/AssocQueryStringA, shlwapi/AssocQueryStringW
 ms.topic: function

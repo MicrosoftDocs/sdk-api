@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.POINTSTOPOINT
 title: POINTSTOPOINT macro (winuser.h)
-author: windows-sdk-content
+
 description: The POINTSTOPOINT macro copies the contents of a POINTS structure into a POINT structure.
 old-location: gdi\pointstopoint.htm
 tech.root: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
 ms.topic: macro

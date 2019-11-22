@@ -1,12 +1,12 @@
 ---
 UID: NE:fxsutility.__unnamed_enum_0
 title: SendToMode (fxsutility.h)
-author: windows-sdk-content
+
 description: Defines the way a file will be faxed from within an application. With Windows Vista there is only one possible value.
 old-location: fax\_mfax_sendtomode.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\e\faxinto_z_sendtomode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SEND_TO_FAX_RECIPIENT_ATTACHMENT, SendToMode, SendToMode enumeration [Fax Service], _mfax_sendtomode, fax._mfax_sendtomode, fxsutility/SEND_TO_FAX_RECIPIENT_ATTACHMENT, fxsutility/SendToMode
 ms.topic: enum

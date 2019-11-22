@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector2LengthEst
 title: XMVector2LengthEst function (directxmath.h)
-author: windows-sdk-content
+
 description: Estimates the length of a 2D vector.
 old-location: dxmath\xmvector2lengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2LengthEst(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2LengthEst, XMVector2LengthEst, XMVector2LengthEst method [DirectX Math Support APIs], dxmath.xmvector2lengthest
 ms.topic: function

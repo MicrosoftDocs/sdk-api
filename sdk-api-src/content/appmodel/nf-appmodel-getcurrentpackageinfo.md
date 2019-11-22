@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo
 title: GetCurrentPackageInfo function (appmodel.h)
-author: windows-sdk-content
+
 description: Gets the package information for the calling process.
 old-location: appxpkg\getcurrentpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: A1887D61-0FAD-4BE8-850F-F104CC074798
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
 ms.topic: function

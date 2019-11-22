@@ -1,12 +1,12 @@
 ---
 UID: NS:scesvc._SCESVC_CALLBACK_INFO_
 title: SCESVC_CALLBACK_INFO (scesvc.h)
-author: windows-sdk-content
+
 description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.
 old-location: security\scesvc_callback_info.htm
 tech.root: SecMgmt
 ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info"
 ms.topic: struct

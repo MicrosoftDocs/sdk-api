@@ -1,12 +1,12 @@
 ---
 UID: NS:windef._POINTL
 title: POINTL (windef.h)
-author: windows-sdk-content
+
 description: The POINTL structure defines the x- and y-coordinates of a point.
 old-location: display\pointl.htm
 tech.root: display
 ms.assetid: 68cd23d7-7898-4132-abfe-4dda527889b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPOINTL, POINTL, POINTL structure [Display Devices], PPOINTL, PPOINTL structure pointer [Display Devices], display.pointl, grstrcts_bb79820f-05c8-42bf-a7a9-923b6fbc206e.xml, windef/POINTL, windef/PPOINTL"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetNumProtocolsSupported
 title: IWMReaderNetworkConfig::GetNumProtocolsSupported (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetNumProtocolsSupported method retrieves the number of supported protocols.
 old-location: wmformat\iwmreadernetworkconfig_getnumprotocolssupported.htm
 tech.root: wmformat
 ms.assetid: 6e249d8f-0351-452f-9b53-86f77df2fd70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumProtocolsSupported, GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetNumProtocolsSupported method, IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
 ms.topic: method

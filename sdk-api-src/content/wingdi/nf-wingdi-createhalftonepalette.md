@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CreateHalftonePalette
 title: CreateHalftonePalette function (wingdi.h)
-author: windows-sdk-content
+
 description: The CreateHalftonePalette function creates a halftone palette for the specified device context (DC).
 old-location: gdi\createhalftonepalette.htm
 tech.root: gdi
 ms.assetid: ba9dfa0c-98df-4922-acba-d00e9b4b0fb0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
 ms.topic: function

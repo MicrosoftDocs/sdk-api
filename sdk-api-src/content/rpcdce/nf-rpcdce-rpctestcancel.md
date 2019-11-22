@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcTestCancel
 title: RpcTestCancel function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcTestCancel function checks for a cancel indication.
 old-location: rpc\rpctestcancel.htm
 tech.root: Rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsCountOf
 title: WsCountOf macro (webservices.h)
-author: windows-sdk-content
+
 description: Returns the number of elements a specified array.
 old-location: wsw\wscountof.htm
 tech.root: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
 ms.topic: macro

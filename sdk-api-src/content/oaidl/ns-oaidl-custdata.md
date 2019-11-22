@@ -1,12 +1,12 @@
 ---
 UID: NS:oaidl.tagCUSTDATA
 title: CUSTDATA (oaidl.h)
-author: windows-sdk-content
+
 description: Represents custom data.
 old-location: automat\custdata.htm
 tech.root: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA"
 ms.topic: struct

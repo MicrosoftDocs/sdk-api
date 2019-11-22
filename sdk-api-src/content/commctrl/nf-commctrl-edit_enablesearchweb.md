@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_EnableSearchWeb
 title: Edit_EnableSearchWeb macro (commctrl.h)
-author: windows-sdk-content
+
 description: Enables or disables the &#0034;Search with Bing…&#0034; context menu item in edit controls. You can use this macro or send the EM_ENABLESEARCHWEB message explicitly.
 old-location: controls\edit_enablesearchweb.htm
 tech.root: Controls
 ms.assetid: BB56F4F6-0D13-41B4-B8C1-FF724FCC4D0B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_EnableSearchWeb, Edit_EnableSearchWeb macro [Windows Controls], commctrl/Edit_EnableSearchWeb, controls.edit_enablesearchweb
 ms.topic: macro

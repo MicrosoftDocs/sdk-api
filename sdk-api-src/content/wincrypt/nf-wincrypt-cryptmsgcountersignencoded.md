@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersignEncoded
 title: CryptMsgCountersignEncoded function (wincrypt.h)
-author: windows-sdk-content
+
 description: Countersigns an existing PKCS
 old-location: security\cryptmsgcountersignencoded.htm
 tech.root: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
 ms.topic: function

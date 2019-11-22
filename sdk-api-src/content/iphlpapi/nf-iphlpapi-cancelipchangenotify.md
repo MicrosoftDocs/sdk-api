@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.CancelIPChangeNotify
 title: CancelIPChangeNotify function (iphlpapi.h)
-author: windows-sdk-content
+
 description: Cancels notification of IPv4 address and route changes previously requested with successful calls to the NotifyAddrChange or NotifyRouteChange functions.
 old-location: iphlp\cancelipchangenotify.htm
 tech.root: IpHlp
 ms.assetid: 10795401-003f-45ce-80f1-ccc31659298a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], iphlp.cancelipchangenotify, iphlpapi/CancelIPChangeNotify
 ms.topic: function

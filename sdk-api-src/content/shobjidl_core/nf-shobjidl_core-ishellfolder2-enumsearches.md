@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.EnumSearches
 title: IShellFolder2::EnumSearches (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Requests a pointer to an interface that allows a client to enumerate the available search objects.
 old-location: shell\IShellFolder2_EnumSearches.htm
 tech.root: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.topic: method

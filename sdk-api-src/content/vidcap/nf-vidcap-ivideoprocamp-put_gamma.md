@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Gamma
 title: IVideoProcAmp::put_Gamma (vidcap.h)
-author: windows-sdk-content
+
 description: The put_Gamma method sets the camera's gamma setting.
 old-location: dshow\ivideoprocamp_put_gamma.htm
 tech.root: DirectShow
 ms.assetid: f4efe538-75c5-4c52-9ad2-dc6badee74f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gamma method, IVideoProcAmp.put_Gamma, IVideoProcAmp::put_Gamma, IVideoProcAmpput_Gamma, dshow.ivideoprocamp_put_gamma, put_Gamma, put_Gamma method [DirectShow], put_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gamma
 ms.topic: method

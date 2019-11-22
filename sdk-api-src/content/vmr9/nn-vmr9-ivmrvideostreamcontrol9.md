@@ -1,12 +1,12 @@
 ---
 UID: NN:vmr9.IVMRVideoStreamControl9
 title: IVMRVideoStreamControl9 (vmr9.h)
-author: windows-sdk-content
+
 description: The IVMRVideoStreamControl9 interface is implemented on each input pin of the Video Mixing Renderer Filter 9.
 old-location: dshow\ivmrvideostreamcontrol9.htm
 tech.root: DirectShow
 ms.assetid: df642ebb-058b-41db-95d3-d7d3bf9a6dd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl9, IVMRVideoStreamControl9 interface [DirectShow], IVMRVideoStreamControl9 interface [DirectShow],described, IVMRVideoStreamControl9Interface, dshow.ivmrvideostreamcontrol9, vmr9/IVMRVideoStreamControl9
 ms.topic: interface

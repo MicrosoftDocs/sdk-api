@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsReadXmlBufferFromBytes
 title: WsReadXmlBufferFromBytes function (webservices.h)
-author: windows-sdk-content
+
 description: Uses a reader to convert a set of encoded bytes to a WS_XML_BUFFER.
 old-location: wsw\wsreadxmlbufferfrombytes.htm
 tech.root: wsw
 ms.assetid: 7ab68738-add0-4e2a-a036-5c6ecdd1f236
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsReadXmlBufferFromBytes, WsReadXmlBufferFromBytes function [Web Services for Windows], webservices/WsReadXmlBufferFromBytes, wsw.wsreadxmlbufferfrombytes
 ms.topic: function

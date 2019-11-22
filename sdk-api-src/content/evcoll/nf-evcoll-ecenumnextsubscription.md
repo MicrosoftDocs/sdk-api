@@ -1,12 +1,12 @@
 ---
 UID: NF:evcoll.EcEnumNextSubscription
 title: EcEnumNextSubscription function (evcoll.h)
-author: windows-sdk-content
+
 description: Continues the enumeration of the subscriptions registered on the local machine.
 old-location: wec\ecenumnextsubscription.htm
 tech.root: WEC
 ms.assetid: 4228c9ca-6143-4301-8ff3-0ee296a53239
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EcEnumNextSubscription, EcEnumNextSubscription function, evcoll/EcEnumNextSubscription, wec.ecenumnextsubscription, wes.ecenumnextsubscription
 ms.topic: function

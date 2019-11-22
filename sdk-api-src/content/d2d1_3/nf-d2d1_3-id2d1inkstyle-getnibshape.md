@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.GetNibShape
 title: ID2D1InkStyle::GetNibShape (d2d1_3.h)
-author: windows-sdk-content
+
 description: Retrieves the pre-transform nib shape for this style.
 old-location: direct2d\id2d1inkstyle_getnibshape.htm
 tech.root: Direct2D
 ms.assetid: 81A1AA30-9817-422C-A3AD-0BB3F2A02604
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNibShape, GetNibShape method [Direct2D], GetNibShape method [Direct2D],ID2D1InkStyle interface, ID2D1InkStyle interface [Direct2D],GetNibShape method, ID2D1InkStyle.GetNibShape, ID2D1InkStyle::GetNibShape, d2d1_3/ID2D1InkStyle::GetNibShape, direct2d.id2d1inkstyle_getnibshape
 ms.topic: method

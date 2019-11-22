@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetLocationCount
 title: ISCTE_EAS::GetLocationCount (atscpsipparser.h)
-author: windows-sdk-content
+
 description: The GetLocationCount method returns the number of locations in the EAS table.
 old-location: mstv\iscte_eas_getlocationcount.htm
 tech.root: mstv
 ms.assetid: f498ead0-246d-4741-a995-45a5cf63847e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCount method, ISCTE_EAS.GetLocationCount, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
 ms.topic: method

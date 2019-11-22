@@ -1,12 +1,12 @@
 ---
 UID: NF:ioapiset.CancelSynchronousIo
 title: CancelSynchronousIo function (ioapiset.h)
-author: windows-sdk-content
+
 description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
 old-location: fs\cancelsynchronousio_func.htm
 tech.root: FileIO
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
 ms.topic: function

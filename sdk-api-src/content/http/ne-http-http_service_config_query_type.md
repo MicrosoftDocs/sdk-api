@@ -1,12 +1,12 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_QUERY_TYPE
 title: HTTP_SERVICE_CONFIG_QUERY_TYPE (http.h)
-author: windows-sdk-content
+
 description: The HTTP_SERVICE_CONFIG_QUERY_TYPE enumeration type defines various types of queries to make. It is used in the HTTP_SERVICE_CONFIG_SSL_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, and HTTP_SERVICE_CONFIG_URLACL_QUERY structures.
 old-location: http\http_service_config_query_type.htm
 tech.root: http
 ms.assetid: 63b2503f-7e71-4c62-8e9c-ad0f5103a9e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE enumeration [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryMax, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_QUERY_TYPE, PHTTP_SERVICE_CONFIG_QUERY_TYPE enumeration pointer [HTTP], _http_http_service_config_query_type, http.http_service_config_query_type, http/HTTP_SERVICE_CONFIG_QUERY_TYPE, http/HttpServiceConfigQueryExact, http/HttpServiceConfigQueryMax, http/HttpServiceConfigQueryNext, http/PHTTP_SERVICE_CONFIG_QUERY_TYPE'
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath
 title: GetCurrentPackagePath function (appmodel.h)
-author: windows-sdk-content
+
 description: Gets the package path for the calling process.
 old-location: appxpkg\getcurrentpackagepath.htm
 tech.root: appxpkg
 ms.assetid: 46CE81DF-A9D5-492E-AB5E-4F043DC326E2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackagePath, GetCurrentPackagePath function [App packaging and management], appmodel/GetCurrentPackagePath, appxpkg.getcurrentpackagepath
 ms.topic: function

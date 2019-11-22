@@ -1,12 +1,12 @@
 ---
 UID: NF:userenv.RsopSetPolicySettingStatus
 title: RsopSetPolicySettingStatus function (userenv.h)
-author: windows-sdk-content
+
 description: The RSoPSetPolicySettingStatus function creates an instance of RSOP_PolicySettingStatus and an instance of RSOP_PolicySettingLink. The function links (associates) RSOP_PolicySettingStatus to its RSOP_PolicySetting instance.
 old-location: policy\rsopsetpolicysettingstatus.htm
 tech.root: Policy
 ms.assetid: 7ea2f217-4dd2-4c0f-af1b-d4bcb8707519
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Group Policy], RsopSetPolicySettingStatus, _win32_rsopsetpolicysettingstatus, policy.rsopsetpolicysettingstatus, userenv/RSoPSetPolicySettingStatus
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1ImageBrush)
 title: ID2D1DeviceContext::CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1ImageBrush) (d2d1_1.h)
-author: windows-sdk-content
+
 description: Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list.
 old-location: direct2d\id2d1devicecontext_createimagebrush2.htm
 tech.root: Direct2D
 ms.assetid: 14411F92-41BD-48BB-989C-D2CDE49A7F66
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [Direct2D], CreateImageBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateImageBrush method, ID2D1DeviceContext.CreateImageBrush, ID2D1DeviceContext.CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1ImageBrush), ID2D1DeviceContext::CreateImageBrush, ID2D1DeviceContext::CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1ImageBrush), d2d1_1/ID2D1DeviceContext::CreateImageBrush, direct2d.id2d1devicecontext_createimagebrush2
 ms.topic: method

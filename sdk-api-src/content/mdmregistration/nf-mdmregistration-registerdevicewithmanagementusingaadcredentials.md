@@ -1,12 +1,12 @@
 ---
 UID: NF:mdmregistration.RegisterDeviceWithManagementUsingAADCredentials
 title: RegisterDeviceWithManagementUsingAADCredentials function (mdmregistration.h)
-author: windows-sdk-content
+
 description: Registers a device with a MDM service, using Azure Active Directory (AAD) credentials.
 old-location: mdmreg\registerdevicewithmanagementusingaadcredentials.htm
 tech.root: MDMReg
 ms.assetid: 709E464A-C9EC-41EF-AC80-EF0BC35E0905
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterDeviceWithManagementUsingAADCredentials, RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration], mdmreg.registerdevicewithmanagementusingaadcredentials, mdmregistration/RegisterDeviceWithManagementUsingAADCredentials
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
 title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses (termmgr.h)
-author: windows-sdk-content
+
 description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_terminalclasses.htm
 tech.root: Tapi
 ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_TerminalClasses method, ITPluggableTerminalSuperclassRegistration.get_TerminalClasses, ITPluggableTerminalSuperclassRegistration::get_TerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_get_terminalclasses, get_TerminalClasses, get_TerminalClasses method [TAPI 2.2], get_TerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_terminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
 ms.topic: method

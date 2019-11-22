@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetRollForward
 title: IVssComponentEx::GetRollForward (vswriter.h)
-author: windows-sdk-content
+
 description: Obtains the roll-forward operation type for a component and obtains the restore point for a partial roll-forward operation.
 old-location: base\ivsscomponentex_getrollforward.htm
 tech.root: VSS
 ms.assetid: 4ba52c80-2229-4653-bd5b-85d9f11cd127
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRollForward, GetRollForward method, GetRollForward method,IVssComponentEx interface, IVssComponentEx interface,GetRollForward method, IVssComponentEx.GetRollForward, IVssComponentEx::GetRollForward, base.ivsscomponentex_getrollforward, vswriter/IVssComponentEx::GetRollForward
 ms.topic: method

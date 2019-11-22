@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSALookupServiceEnd
 title: WSALookupServiceEnd function (winsock2.h)
-author: windows-sdk-content
+
 description: The WSALookupServiceEnd function is called to free the handle after previous calls to WSALookupServiceBegin and WSALookupServiceNext.
 old-location: winsock\wsalookupserviceend_2.htm
 tech.root: WinSock
 ms.assetid: f9d2ac54-a818-464d-918e-80ebb5b1b106
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSALookupServiceEnd, WSALookupServiceEnd function [Winsock], _win32_wsalookupserviceend_2, winsock.wsalookupserviceend_2, winsock2/WSALookupServiceEnd
 ms.topic: function

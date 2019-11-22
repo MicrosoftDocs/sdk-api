@@ -1,12 +1,12 @@
 ---
 UID: NC:wsdtypes.WSD_STUB_FUNCTION
 title: WSD_STUB_FUNCTION (wsdtypes.h)
-author: windows-sdk-content
+
 description: Describes a stub function used to handle an incoming message.
 old-location: ncd\wsd_stub_function_func.htm
 tech.root: WsdApi
 ms.assetid: 39d16b22-2af0-43e4-a0d2-ca5e1d3a9434
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_STUB_FUNCTION, WSD_STUB_FUNCTION callback, WSD_STUB_FUNCTION callback function, ncd.wsd_stub_function_func, wsdtypes/WSD_STUB_FUNCTION
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMLinearGradientBrush
 title: IXpsOMLinearGradientBrush (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Specifies a linear gradient, which is the color gradient along a vector.
 old-location: xps\ixpsomlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: 739bf088-0f09-47c1-9b49-6c279395f15b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
 ms.topic: interface

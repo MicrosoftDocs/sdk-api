@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadUShort4
 title: XMLoadUShort4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMUSHORT4 into an XMVECTOR.
 old-location: dxmath\xmloadushort4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShort4(const XMUSHORT4)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUShort4, XMLoadUShort4, XMLoadUShort4 method [DirectX Math Support APIs], dxmath.xmloadushort4
 ms.topic: function

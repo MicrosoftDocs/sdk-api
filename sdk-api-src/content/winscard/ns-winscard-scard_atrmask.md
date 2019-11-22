@@ -1,12 +1,12 @@
 ---
 UID: NS:winscard._SCARD_ATRMASK
 title: SCARD_ATRMASK (winscard.h)
-author: windows-sdk-content
+
 description: Used by the SCardLocateCardsByATR function to locate cards.
 old-location: security\scard_atrmask.htm
 tech.root: SecAuthN
 ms.assetid: d7f1a747-a858-4bf6-874a-d76aa4227cd2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMASK structure pointer [Security], PSCARD_ATRMASK, PSCARD_ATRMASK structure pointer [Security], SCARD_ATRMASK, SCARD_ATRMASK structure [Security], _smart_scard_atrmask, security.scard_atrmask, winscard/LPSCARD_ATRMASK, winscard/PSCARD_ATRMASK, winscard/SCARD_ATRMASK"
 ms.topic: struct

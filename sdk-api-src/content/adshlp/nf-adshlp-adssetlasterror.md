@@ -1,12 +1,12 @@
 ---
 UID: NF:adshlp.ADsSetLastError
 title: ADsSetLastError function (adshlp.h)
-author: windows-sdk-content
+
 description: The ADsSetLastError sets the last-error code value for the calling thread.
 old-location: adsi\adssetlasterror.htm
 tech.root: adsi
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
 ms.topic: function

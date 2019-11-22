@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter3.Close
 title: IAppxBundleWriter3::Close (appxpackaging.h)
-author: windows-sdk-content
+
 description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
 old-location: appxpkg\iappxbundlewriter3_close.htm
 tech.root: appxpkg
 ms.assetid: 7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],Close method, IAppxBundleWriter3.Close, IAppxBundleWriter3::Close, appxpackaging/IAppxBundleWriter3::Close, appxpkg.iappxbundlewriter3_close
 ms.topic: method

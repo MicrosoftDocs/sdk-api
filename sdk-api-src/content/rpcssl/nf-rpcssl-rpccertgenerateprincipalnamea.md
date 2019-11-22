@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcssl.RpcCertGeneratePrincipalNameA
 title: RpcCertGeneratePrincipalNameA function (rpcssl.h)
-author: windows-sdk-content
+
 description: Server programs use the RpcCertGeneratePrincipalName function to generate principal names for security certificates.
 old-location: rpc\rpccertgenerateprincipalname.htm
 tech.root: Rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
 ms.topic: function

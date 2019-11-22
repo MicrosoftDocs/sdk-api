@@ -1,12 +1,12 @@
 ---
 UID: NF:commdlg.GetFileTitleW
 title: GetFileTitleW function (commdlg.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the specified file.
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.topic: function

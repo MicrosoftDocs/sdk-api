@@ -1,12 +1,12 @@
 ---
 UID: NF:filehc.ProduceDotStuffedContext
 title: ProduceDotStuffedContext function (filehc.h)
-author: windows-sdk-content
+
 description: Retrieves the FIO_CONTEXT structure with the requested state.
 old-location: winprog\_producedotstuffedcontext.htm
 tech.root: DevNotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.topic: function

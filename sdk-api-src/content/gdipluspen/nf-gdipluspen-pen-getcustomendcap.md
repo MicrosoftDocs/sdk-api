@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.GetCustomEndCap
 title: Pen::GetCustomEndCap (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::GetCustomEndCap method gets the custom end cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCustomEndCap_customCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcustomendcap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCustomEndCap, GetCustomEndCap method [GDI+], GetCustomEndCap method [GDI+],Pen class, Pen class [GDI+],GetCustomEndCap method, Pen.GetCustomEndCap, Pen::GetCustomEndCap, _gdiplus_CLASS_Pen_GetCustomEndCap_customCap_, gdiplus._gdiplus_CLASS_Pen_GetCustomEndCap_customCap_
 ms.topic: method

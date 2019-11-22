@@ -1,12 +1,12 @@
 ---
 UID: NC:vdmdbg.PROCESSENUMPROC
 title: PROCESSENUMPROC (vdmdbg.h)
-author: windows-sdk-content
+
 description: Implement this function to receive information for each virtual DOS machine (VDM) that VDMEnumProcessWOW enumerates.
 old-location: winprog\processvdms.htm
 tech.root: DevNotes
 ms.assetid: ba5ce19d-4f37-4764-9a76-0f1013f9ea0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PROCESSENUMPROC, PROCESSENUMPROC callback, PROCESSENUMPROC callback function [Windows API], vdmdbg/PROCESSENUMPROC, winprog.processvdms
 ms.topic: callback

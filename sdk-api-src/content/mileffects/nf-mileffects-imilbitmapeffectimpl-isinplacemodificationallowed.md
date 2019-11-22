@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.IsInPlaceModificationAllowed
 title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed (mileffects.h)
-author: windows-sdk-content
+
 description: Determines whether the effect allows in-place modifications.
 old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\isinplacemodificationallowed.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],IsInPlaceModificationAllowed method, IMILBitmapEffectImpl.IsInPlaceModificationAllowed, IMILBitmapEffectImpl::IsInPlaceModificationAllowed, IsInPlaceModificationAllowed, IsInPlaceModificationAllowed method [WPF Bitmap Effects], IsInPlaceModificationAllowed method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_isinplacemodificationallowed, mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed, wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed
 ms.topic: method

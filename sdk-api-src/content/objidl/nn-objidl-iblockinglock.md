@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IBlockingLock
 title: IBlockingLock (objidl.h)
-author: windows-sdk-content
+
 description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.
 old-location: com\iblockinglock.htm
 tech.root: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
 ms.topic: interface

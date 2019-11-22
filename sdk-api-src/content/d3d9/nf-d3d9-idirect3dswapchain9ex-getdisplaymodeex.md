@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9Ex.GetDisplayModeEx
 title: IDirect3DSwapChain9Ex::GetDisplayModeEx (d3d9.h)
-author: windows-sdk-content
+
 description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
 old-location: direct3d9\idirect3dswapchain9_getdisplaymodeex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9_getdisplaymodeex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDisplayModeEx, GetDisplayModeEx method [Direct3D 9], GetDisplayModeEx method [Direct3D 9],IDirect3DSwapChain9Ex interface, IDirect3DSwapChain9Ex interface [Direct3D 9],GetDisplayModeEx method, IDirect3DSwapChain9Ex.GetDisplayModeEx, IDirect3DSwapChain9Ex::GetDisplayModeEx, c69fe0ce-9d41-806c-6f4a-bb9c50054159, d3d9/IDirect3DSwapChain9Ex::GetDisplayModeEx, direct3d9.idirect3dswapchain9_getdisplaymodeex
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkRecognizerGuide
 title: IInkRecognizerGuide (msinkaut.h)
-author: windows-sdk-content
+
 description: "."
 old-location: tablet\iinkrecognizerguide.htm
 tech.root: tablet
 ms.assetid: 2B0302A8-EA85-44D4-8877-EFF23DBD9271
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerGuide, IInkRecognizerGuide interface [Tablet PC], IInkRecognizerGuide interface [Tablet PC],described, msinkaut/IInkRecognizerGuide, tablet.iinkrecognizerguide
 ms.topic: interface

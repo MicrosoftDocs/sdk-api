@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorATan2
 title: XMVectorATan2 function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the arctangent of Y/X.
 old-location: dxmath\xmvectoratan2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan2(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATan2, XMVectorATan2, XMVectorATan2 method [DirectX Math Support APIs], dxmath.xmvectoratan2
 ms.topic: function

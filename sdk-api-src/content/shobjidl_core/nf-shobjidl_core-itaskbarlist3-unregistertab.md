@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.UnregisterTab
 title: ITaskbarList3::UnregisterTab (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Removes a thumbnail from an application's preview group when that tab or document is closed in the application.
 old-location: shell\ITaskbarList3_UnregisterTab.htm
 tech.root: shell
 ms.assetid: 667cafde-f693-46c3-bbec-140fc7cade5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],UnregisterTab method, ITaskbarList3.UnregisterTab, ITaskbarList3::UnregisterTab, UnregisterTab, UnregisterTab method [Windows Shell], UnregisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_UnregisterTab, shell.ITaskbarList3_UnregisterTab, shobjidl_core/ITaskbarList3::UnregisterTab
 ms.topic: method

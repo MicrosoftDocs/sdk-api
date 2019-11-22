@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_UPDATE_ENROLLMENT_FN
 title: PIBIO_ENGINE_UPDATE_ENROLLMENT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Adds the current feature set to the enrollment object.
 old-location: secbiomet\engineadapterupdateenrollment.htm
 tech.root: SecBioMet
 ms.assetid: cd41be8c-fa78-4746-a9ad-c8385ed84b52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterUpdateEnrollment, EngineAdapterUpdateEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_UPDATE_ENROLLMENT_FN, PIBIO_ENGINE_UPDATE_ENROLLMENT_FN callback, secbiomet.engineadapterupdateenrollment, winbio_adapter/EngineAdapterUpdateEnrollment
 ms.topic: callback

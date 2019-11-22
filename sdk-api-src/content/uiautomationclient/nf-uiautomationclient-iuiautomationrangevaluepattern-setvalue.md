@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.SetValue
 title: IUIAutomationRangeValuePattern::SetValue (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Sets the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: 599cb788-9c1f-4b8e-819c-b82c4edba29b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRangeValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationRangeValuePattern.SetValue, IUIAutomationRangeValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationRangeValuePattern interface, uiauto.uiauto_IUIAutomationRangeValuePattern_SetValue, uiauto_IUIAutomationRangeValuePattern_SetValue, uiautomationclient/IUIAutomationRangeValuePattern::SetValue, winauto.uiauto_IUIAutomationRangeValuePattern_SetValue
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.DisconnectFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-author: windows-sdk-content
+
 description: Indicates that a reference tracker source has stopped tracking a reference tracker.
 old-location: winrt\ireferencetracker_disconnectfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: b4be9e74-6469-4f82-9748-036f08cec97f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisconnectFromTrackerSource, DisconnectFromTrackerSource method [Windows Runtime], DisconnectFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],DisconnectFromTrackerSource method, IReferenceTracker.DisconnectFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::DisconnectFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::DisconnectFromTrackerSource, winrt.ireferencetracker_disconnectfromtrackersource
 ms.topic: method

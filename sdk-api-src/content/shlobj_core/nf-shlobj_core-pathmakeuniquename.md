@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.PathMakeUniqueName
 title: PathMakeUniqueName function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Creates a unique path name from a template.
 old-location: shell\PathMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.topic: function

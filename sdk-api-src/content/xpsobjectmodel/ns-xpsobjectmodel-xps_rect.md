@@ -1,12 +1,12 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
 title: XPS_RECT (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Describes the width, height, and location of a rectangle.
 old-location: xps\xps_rect.htm
 tech.root: printdocs
 ms.assetid: e78a9ecb-b2e7-4295-a178-4a9936b0f27e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps_rect, xpsobjectmodel/XPS_RECT
 ms.topic: struct

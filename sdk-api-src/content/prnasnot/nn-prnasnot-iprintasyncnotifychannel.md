@@ -1,12 +1,12 @@
 ---
 UID: NN:prnasnot.IPrintAsyncNotifyChannel
 title: IPrintAsyncNotifyChannel (prnasnot.h)
-author: windows-sdk-content
+
 description: Represents a communication channel that components that are hosted by the print spooler use to send notifications to applications. If the channel is bidirectional, applications can use the same channel to send responses back to the component.
 old-location: gdi\iprintasyncnotifychannel.htm
 tech.root: printdocs
 ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLDepositMigrationBlob
 title: SLDepositMigrationBlob function (slpublic.h)
-author: windows-sdk-content
+
 description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.
 old-location: security\sldepositmigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
 ms.topic: function

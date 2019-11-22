@@ -1,12 +1,12 @@
 ---
 UID: NF:evalcom2.IValidate.SetStatus
 title: IValidate::SetStatus (evalcom2.h)
-author: windows-sdk-content
+
 description: The SetStatus method enables an authoring tool to receive information about the progress of validation through a registered callback function.
 old-location: setup\ivalidate_setstatus.htm
 tech.root: Msi
 ms.assetid: 523334f1-4a82-4981-9c77-fffd2b5b561e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,SetStatus method, IValidate.SetStatus, IValidate::SetStatus, SetStatus, SetStatus method, SetStatus method,IValidate interface, evalcom2/IValidate::SetStatus, setup.ivalidate_setstatus
 ms.topic: method

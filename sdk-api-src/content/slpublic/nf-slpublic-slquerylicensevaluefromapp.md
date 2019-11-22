@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLQueryLicenseValueFromApp
 title: SLQueryLicenseValueFromApp function (slpublic.h)
-author: windows-sdk-content
+
 description: Gets the value for the specified component policy.
 old-location: security\slquerylicensevaluefromapp.htm
 tech.root: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
 ms.topic: function

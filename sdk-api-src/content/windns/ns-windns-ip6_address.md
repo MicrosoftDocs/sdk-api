@@ -1,12 +1,12 @@
 ---
 UID: NS:windns.__unnamed_struct_0
 title: IP6_ADDRESS (windns.h)
-author: windows-sdk-content
+
 description: The IP6_ADDRESS structure stores an IPv6 address.
 old-location: dns\ip6_address.htm
 tech.root: DNS
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS"
 ms.topic: struct

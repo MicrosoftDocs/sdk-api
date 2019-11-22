@@ -1,12 +1,12 @@
 ---
 UID: NE:asyncinfo.AsyncStatus
 title: AsyncStatus (asyncinfo.h)
-author: windows-sdk-content
+
 description: Represents the status for an asynchronous operation.
 old-location: winrt\asyncstatus.htm
 tech.root: WinRT
 ms.assetid: 085BF8A1-087F-4B01-8A20-69730BA603B1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AsyncStatus, AsyncStatus enumeration [Windows Runtime], Cancelled, Completed, Created, Error, Started, asyncinfo/AsyncStatus, asyncinfo/Cancelled, asyncinfo/Completed, asyncinfo/Created, asyncinfo/Error, asyncinfo/Started, winrt.asyncstatus
 ms.topic: enum

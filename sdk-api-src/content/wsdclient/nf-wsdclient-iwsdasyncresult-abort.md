@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.Abort
 title: IWSDAsyncResult::Abort (wsdclient.h)
-author: windows-sdk-content
+
 description: Aborts the asynchronous operation.
 old-location: ncd\iwsdasyncresult_abort.htm
 tech.root: WsdApi
 ms.assetid: 9237bcb4-4404-4d15-a18a-1d651e3fb899
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAsyncResult interface,Abort method, IWSDAsyncResult.Abort, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsWriteArray
 title: WsWriteArray function (webservices.h)
-author: windows-sdk-content
+
 description: This operation sends a series of elements to an XML Writer.
 old-location: wsw\wswritearray.htm
 tech.root: wsw
 ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixRotationX
 title: XMMatrixRotationX function (directxmath.h)
-author: windows-sdk-content
+
 description: Builds a matrix that rotates around the x-axis.
 old-location: dxmath\xmmatrixrotationx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationX(float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationX, XMMatrixRotationX, XMMatrixRotationX method [DirectX Math Support APIs], dxmath.xmmatrixrotationx
 ms.topic: function

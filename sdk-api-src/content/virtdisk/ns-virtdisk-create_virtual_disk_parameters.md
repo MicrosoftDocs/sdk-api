@@ -1,12 +1,12 @@
 ---
 UID: NS:virtdisk._CREATE_VIRTUAL_DISK_PARAMETERS
 title: CREATE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.
 old-location: vhd\create_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"
 ms.topic: struct

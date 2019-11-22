@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_ItemByIndex
 title: ICryptAttributes::get_ItemByIndex (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 327a41ee-60ed-44a0-bfd8-96b328b4fcb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],ItemByIndex property, ICryptAttributes.ItemByIndex, ICryptAttributes.get_ItemByIndex, ICryptAttributes::ItemByIndex, ICryptAttributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::ItemByIndex, certenroll/ICryptAttributes::get_ItemByIndex, get_ItemByIndex, security.icryptattributes_itembyindex_property
 ms.topic: method

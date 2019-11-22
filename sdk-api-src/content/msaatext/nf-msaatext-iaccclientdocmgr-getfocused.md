@@ -1,12 +1,12 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.GetFocused
 title: IAccClientDocMgr::GetFocused (msaatext.h)
-author: windows-sdk-content
+
 description: Clients call the IAccClientDocMgr::GetFocused method to access a pointer for the document that has focus.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getfocused.htm
 tech.root: WinAuto
 ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetFocused method, IAccClientDocMgr.GetFocused, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
 ms.topic: method

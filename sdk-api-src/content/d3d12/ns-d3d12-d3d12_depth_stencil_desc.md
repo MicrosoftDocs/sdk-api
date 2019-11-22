@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCIL_DESC
 title: D3D12_DEPTH_STENCIL_DESC (d3d12.h)
-author: windows-sdk-content
+
 description: Describes depth-stencil state.
 old-location: direct3d12\d3d12_depth_stencil_desc.htm
 tech.root: direct3d12
 ms.assetid: C324F6EF-668A-4056-B538-A05329751554
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEPTH_STENCIL_DESC, D3D12_DEPTH_STENCIL_DESC structure, d3d12/D3D12_DEPTH_STENCIL_DESC, direct3d12.d3d12_depth_stencil_desc
 ms.topic: struct

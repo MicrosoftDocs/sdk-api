@@ -1,12 +1,12 @@
 ---
 UID: NF:inked.IInkEdit.get_SelText
 title: IInkEdit::get_SelText (inked.h)
-author: windows-sdk-content
+
 description: Gets or sets the selected text within the InkEdit control (run time only).
 old-location: tablet\inkedit_seltext.htm
 tech.root: tablet
 ms.assetid: 2cd805b5-f421-48d1-9678-b3cae0bc6b86
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelText property, IInkEdit.SelText, IInkEdit.get_SelText, IInkEdit::SelText, IInkEdit::get_SelText, IInkEdit::put_SelText, InkEdit.get_SelText, InkEdit.put_SelText, SelText property [Tablet PC], SelText property [Tablet PC],IInkEdit interface, get_SelText, inked/IInkEdit::SelText, inked/IInkEdit::get_SelText, inked/IInkEdit::put_SelText, put_SelText, tablet.inkedit_seltext
 ms.topic: method

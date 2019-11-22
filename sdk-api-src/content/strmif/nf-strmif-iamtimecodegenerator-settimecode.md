@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTimecode
 title: IAMTimecodeGenerator::SetTimecode (strmif.h)
-author: windows-sdk-content
+
 description: The SetTimecode method sets the timecode, userbit value, or both.
 old-location: dshow\iamtimecodegenerator_settimecode.htm
 tech.root: DirectShow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTimecode method, IAMTimecodeGenerator.SetTimecode, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
 ms.topic: method

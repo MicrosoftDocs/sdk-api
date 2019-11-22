@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CreateDirectoryExW
 title: CreateDirectoryExW function (winbase.h)
-author: windows-sdk-content
+
 description: Creates a new directory with the attributes of a specified template directory.
 old-location: fs\createdirectoryex.htm
 tech.root: FileIO
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
 ms.topic: function

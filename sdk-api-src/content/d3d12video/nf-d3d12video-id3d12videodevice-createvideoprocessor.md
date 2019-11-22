@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice.CreateVideoProcessor
 title: ID3D12VideoDevice::CreateVideoProcessor
-author: windows-sdk-content
+
 description: Creates a video processor instance.
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_TSID
 title: IFaxSender::get_TSID (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxSender::get_TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the sender's device.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i78.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],TSID property, IFaxSender.TSID, IFaxSender.get_TSID, IFaxSender.put_TSID, IFaxSender::TSID, IFaxSender::get_TSID, IFaxSender::put_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxSender interface, _mfax_faxsender.tsid, fax._mfax_faxsender_cpp_mfax_faxsender_tsid_cpp, fax._mfax_faxsender_tsid, faxcomex/IFaxSender::TSID, faxcomex/IFaxSender::get_TSID, faxcomex/IFaxSender::put_TSID, get_TSID
 ms.topic: method

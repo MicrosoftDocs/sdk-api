@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetGuid
 title: ICreateTypeLib::SetGuid (oaidl.h)
-author: windows-sdk-content
+
 description: Sets the universal unique identifier (UUID) associated with the type library.
 old-location: automat\icreatetypelib_setguid.htm
 tech.root: automat
 ms.assetid: c9afbb9e-3f0a-4862-abb6-82631bae759f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLib.SetGuid, ICreateTypeLib::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetGuid, automat.icreatetypelib_setguid, oaidl/ICreateTypeLib::SetGuid
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Image.GetEncoderParameterList
 title: Image::GetEncoderParameterList (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Image::GetEncoderParameterList method gets a list of the parameters supported by a specified image encoder.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEncoderParameterList, GetEncoderParameterList method [GDI+], GetEncoderParameterList method [GDI+],Image class, Image class [GDI+],GetEncoderParameterList method, Image.GetEncoderParameterList, Image::GetEncoderParameterList, _gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_
 ms.topic: method

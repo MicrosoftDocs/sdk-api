@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactoryEntry
 title: IUIAutomationProxyFactoryEntry (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Represents a proxy factory in the table maintained by Microsoft UI Automation, and exposes properties and methods that can be used by client applications to interact with IUIAutomationProxyFactory objects.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry.htm
 tech.root: WinAuto
 ms.assetid: 0507deef-35dc-45bb-a7c1-82b84344ee17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], IUIAutomationProxyFactoryEntry interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryEntry, uiauto_IUIAutomationProxyFactoryEntry, uiautomationclient/IUIAutomationProxyFactoryEntry, winauto.uiauto_IUIAutomationProxyFactoryEntry
 ms.topic: interface

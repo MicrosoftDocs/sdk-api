@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.Item
 title: IInkRecognitionAlternates::Item (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the IInkRecognitionAlternate object at the specified index within the IInkRecognitionAlternates collection.
 old-location: tablet\iinkrecognitionalternates_item.htm
 tech.root: tablet
 ms.assetid: 63a00f6d-f733-4b25-bfe2-4f841b9694fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates interface [Tablet PC],Item method, IInkRecognitionAlternates.Item, IInkRecognitionAlternates::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognitionAlternates interface, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
 ms.topic: method

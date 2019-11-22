@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoCreateGuid
 title: CoCreateGuid function (combaseapi.h)
-author: windows-sdk-content
+
 description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.
 old-location: com\cocreateguid.htm
 tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
 ms.topic: function

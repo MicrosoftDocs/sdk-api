@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHGetSetSettings
 title: SHGetSetSettings function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHGetSetSettings may be altered or unavailable.
 old-location: shell\SHGetSetSettings.htm
 tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.topic: function

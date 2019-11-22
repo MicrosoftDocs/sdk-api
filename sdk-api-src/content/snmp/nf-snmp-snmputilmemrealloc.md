@@ -1,12 +1,12 @@
 ---
 UID: NF:snmp.SnmpUtilMemReAlloc
 title: SnmpUtilMemReAlloc function (snmp.h)
-author: windows-sdk-content
+
 description: The SnmpUtilMemReAlloc function changes the size of the specified memory object. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilmemrealloc.htm
 tech.root: SNMP
 ms.assetid: 269b6f57-cdef-476a-bf38-f35535d15999
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemReAlloc, SnmpUtilMemReAlloc function [SNMP], _snmp_snmputilmemrealloc, snmp.snmputilmemrealloc, snmp/SnmpUtilMemReAlloc
 ms.topic: function

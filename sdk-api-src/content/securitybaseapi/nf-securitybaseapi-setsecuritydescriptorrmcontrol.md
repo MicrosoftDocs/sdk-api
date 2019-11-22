@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorRMControl
 title: SetSecurityDescriptorRMControl function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Sets the resource manager control bits in the SECURITY_DESCRIPTOR structure.
 old-location: security\setsecuritydescriptorrmcontrol.htm
 tech.root: SecAuthZ
 ms.assetid: fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorRMControl, SetSecurityDescriptorRMControl function [Security], _win32_setsecuritydescriptorrmcontrol, security.setsecuritydescriptorrmcontrol, securitybaseapi/SetSecurityDescriptorRMControl
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.lstrcpynA
 title: lstrcpynA function (winbase.h)
-author: windows-sdk-content
+
 description: Copies a specified number of characters from a source string into a buffer.Warning  Do not use.
 old-location: menurc\lstrcpyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
 ms.topic: function

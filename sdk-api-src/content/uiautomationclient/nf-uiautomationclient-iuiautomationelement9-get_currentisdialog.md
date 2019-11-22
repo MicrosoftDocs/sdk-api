@@ -1,11 +1,11 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement9.get_CurrentIsDialog
 title: IUIAutomationElement9.get_CurrentIsDialog (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the current is dialog window indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement9_CurrentIsDialog.htm
 tech.root: WinAuto
-ms.author: windowssdkdev
+
 ms.date: 04/29/2019
 ms.keywords: CurrentIsDialog property [Windows Accessibility], CurrentIsDialog property [Windows Accessibility],IUIAutomationElement9 interface, IUIAutomationElement9 interface [Windows Accessibility],CurrentIsDialog property, IUIAutomationElement9.CurrentIsDialog, IUIAutomationElement9.get_CurrentIsDialog, IUIAutomationElement9::CurrentIsDialog, IUIAutomationElement9::get_CurrentIsDialog, get_CurrentIsDialog, uiautomationclient/IUIAutomationElement9::CurrentIsDialog, uiautomationclient/IUIAutomationElement9::get_CurrentIsDialog, winauto.uiauto_IUIAutomationElement9_CurrentIsDialog
 ms.topic: method

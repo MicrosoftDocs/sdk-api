@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsHiddenBitSet
 title: IATSC_VCT::GetRecordIsHiddenBitSet (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordishiddenbitset.htm
 tech.root: mstv
 ms.assetid: ef02da20-7c81-4c0b-83fd-7e4c0a36ea1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsHiddenBitSet, GetRecordIsHiddenBitSet method [Microsoft TV Technologies], GetRecordIsHiddenBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHiddenBitSet method, IATSC_VCT.GetRecordIsHiddenBitSet, IATSC_VCT::GetRecordIsHiddenBitSet, IATSC_VCTGetRecordIsHiddenBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHiddenBitSet, mstv.iatsc_vct_getrecordishiddenbitset
 ms.topic: method

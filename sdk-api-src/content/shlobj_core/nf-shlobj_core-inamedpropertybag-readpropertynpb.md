@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.ReadPropertyNPB
 title: INamedPropertyBag::ReadPropertyNPB (shlobj_core.h)
-author: windows-sdk-content
+
 description: Causes a property to be read from the named property bag.
 old-location: shell\INamedPropertyBag_ReadPropertyNPB.htm
 tech.root: shell
 ms.assetid: 7080edeb-4908-4b0a-9416-9b301c54bb4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],ReadPropertyNPB method, INamedPropertyBag.ReadPropertyNPB, INamedPropertyBag::ReadPropertyNPB, ReadPropertyNPB, ReadPropertyNPB method [Windows Shell], ReadPropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_ReadPropertyNPB, shell.INamedPropertyBag_ReadPropertyNPB, shlobj_core/INamedPropertyBag::ReadPropertyNPB
 ms.topic: method

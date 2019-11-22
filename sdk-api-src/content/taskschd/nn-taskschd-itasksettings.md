@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.ITaskSettings
 title: ITaskSettings (taskschd.h)
-author: windows-sdk-content
+
 description: Provides the settings that the Task Scheduler service uses to perform the task.
 old-location: taskschd\itasksettings.htm
 tech.root: taskschd
 ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler],described, taskschd.itasksettings, taskschd/ITaskSettings
 ms.topic: interface

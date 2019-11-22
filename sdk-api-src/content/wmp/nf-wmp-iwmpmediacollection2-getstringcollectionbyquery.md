@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.getStringCollectionByQuery
 title: IWMPMediaCollection2::getStringCollectionByQuery (wmp.h)
-author: windows-sdk-content
+
 description: The getStringCollectionByQuery method retrieves a pointer to an IWMPStringCollection interface. This interface represents a set of all string values for a specified attribute that match the query conditions.
 old-location: wmp\iwmpmediacollection2_getstringcollectionbyquery.htm
 tech.root: WMP
 ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getStringCollectionByQuery method, IWMPMediaCollection2.getStringCollectionByQuery, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
 ms.topic: method

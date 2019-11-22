@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.GetVolumesFromDriveA
 title: GetVolumesFromDriveA function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The GetVolumesFromDrive function retrieves the volume and drive letter for a given removable storage media drive.
 old-location: fs\getvolumesfromdrive.htm
 tech.root: Rsm
 ms.assetid: 2509aed9-193e-402c-b0b7-fe94a8a6e0d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVolumesFromDrive, GetVolumesFromDrive function [Files], GetVolumesFromDriveA, GetVolumesFromDriveW, base.getvolumesfromdrive, fs.getvolumesfromdrive, ntmsapi/GetVolumesFromDrive, ntmsapi/GetVolumesFromDriveA, ntmsapi/GetVolumesFromDriveW
 ms.topic: function

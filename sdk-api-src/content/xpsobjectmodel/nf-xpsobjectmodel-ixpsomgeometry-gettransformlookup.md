@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransformLookup
 title: IXpsOMGeometry::GetTransformLookup (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the lookup key for the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the geometry.
 old-location: xps\ixpsomgeometry_gettransformlookup.htm
 tech.root: printdocs
 ms.assetid: 21a9a2c5-c9f2-42a4-84c4-8f702950d7ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGeometry.GetTransformLookup, IXpsOMGeometry::GetTransformLookup, xps.ixpsomgeometry_gettransformlookup, xpsobjectmodel/IXpsOMGeometry::GetTransformLookup
 ms.topic: method

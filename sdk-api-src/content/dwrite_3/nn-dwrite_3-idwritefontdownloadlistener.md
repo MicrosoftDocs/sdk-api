@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteFontDownloadListener
 title: IDWriteFontDownloadListener (dwrite_3.h)
-author: windows-sdk-content
+
 description: Application-defined callback interface that receives notifications from the font download queue (IDWriteFontDownloadQueue interface).
 old-location: directwrite\idwritefontdownloadlistener.htm
 tech.root: DirectWrite
 ms.assetid: 92678d34-9a14-8d58-129c-be31a0963942
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadListener, IDWriteFontDownloadListener interface [Direct Write], IDWriteFontDownloadListener interface [Direct Write],described, directwrite.idwritefontdownloadlistener, dwrite_3/IDWriteFontDownloadListener
 ms.topic: interface

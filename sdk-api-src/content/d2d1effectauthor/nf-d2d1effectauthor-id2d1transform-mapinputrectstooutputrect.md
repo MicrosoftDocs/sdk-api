@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapInputRectsToOutputRect
 title: ID2D1Transform::MapInputRectsToOutputRect (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Performs the inverse mapping to MapOutputRectToInputRects.
 old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm
 tech.root: Direct2D
 ms.assetid: 8FC15A61-767C-460A-A260-9F56A41DA87F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInputRectsToOutputRect method, ID2D1Transform.MapInputRectsToOutputRect, ID2D1Transform::MapInputRectsToOutputRect, MapInputRectsToOutputRect, MapInputRectsToOutputRect method [Direct2D], MapInputRectsToOutputRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInputRectsToOutputRect, direct2d.id2d1transform_mapinputrectstooutputrect
 ms.topic: method

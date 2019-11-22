@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMRegisterCallback.Unadvise
 title: IWMRegisterCallback::Unadvise (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Unadvise method unregisters the application's IWMStatusCallback callback interface. Call this method when the application has finished using the sink object. It notifies the object to stop sending status events to the application.
 old-location: wmformat\iwmregistercallback_unadvise.htm
 tech.root: wmformat
 ms.assetid: 5f320288-09a8-4eaf-a7cd-54a4b52d0b47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
 ms.topic: method

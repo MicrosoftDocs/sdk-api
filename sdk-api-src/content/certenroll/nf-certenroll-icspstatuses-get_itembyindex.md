@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByIndex
 title: ICspStatuses::get_ItemByIndex (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an ICspStatus object from the collection by index number.
 old-location: security\icspstatuses_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 41ccbe27-165d-42d1-95b4-0b96565818aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByIndex property, ICspStatuses.ItemByIndex, ICspStatuses.get_ItemByIndex, ICspStatuses::ItemByIndex, ICspStatuses::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByIndex, certenroll/ICspStatuses::get_ItemByIndex, get_ItemByIndex, security.icspstatuses_itembyindex_property
 ms.topic: method

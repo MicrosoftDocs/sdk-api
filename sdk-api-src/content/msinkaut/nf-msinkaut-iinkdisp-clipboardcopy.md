@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardCopy
 title: IInkDisp::ClipboardCopy (msinkaut.h)
-author: windows-sdk-content
+
 description: Copies the InkStrokes collection to the Clipboard.
 old-location: tablet\inkdisp_clipboardcopy.htm
 tech.root: tablet
 ms.assetid: ad62c9b3-6df6-445b-9085-7cd5c4b6b31f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClipboardCopy, ClipboardCopy method [Tablet PC], ClipboardCopy method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopy method, IInkDisp.ClipboardCopy, IInkDisp::ClipboardCopy, ad62c9b3-6df6-445b-9085-7cd5c4b6b31f, msinkaut/IInkDisp::ClipboardCopy, tablet.inkdisp_clipboardcopy
 ms.topic: method

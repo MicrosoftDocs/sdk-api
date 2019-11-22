@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_ClippedSourceRect
 title: IMSVidVideoRenderer::put_ClippedSourceRect (segment.h)
-author: windows-sdk-content
+
 description: The put_ClippedSourceRect method specifies the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_put_clippedsourcerect.htm
 tech.root: mstv
 ms.assetid: c72d8134-ff6c-46b4-b567-35638aef53cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_ClippedSourceRect method, IMSVidVideoRenderer.put_ClippedSourceRect, IMSVidVideoRenderer::put_ClippedSourceRect, IMSVidVideoRendererput_ClippedSourceRect, mstv.imsvidvideorenderer_put_clippedsourcerect, put_ClippedSourceRect, put_ClippedSourceRect method [Microsoft TV Technologies], put_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_ClippedSourceRect
 ms.topic: method

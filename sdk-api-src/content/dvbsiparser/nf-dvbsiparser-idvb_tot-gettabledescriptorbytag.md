@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_TOT.GetTableDescriptorByTag
 title: IDVB_TOT::GetTableDescriptorByTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tot_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 64830b54-f89d-44cc-9b05-e188b8f28f55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_TOT.GetTableDescriptorByTag, IDVB_TOT::GetTableDescriptorByTag, IDVB_TOTGetTableDescriptorByTag, dvbsiparser/IDVB_TOT::GetTableDescriptorByTag, mstv.idvb_tot_gettabledescriptorbytag
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_PROVIDER_INFO
 title: CF_SYNC_ROOT_PROVIDER_INFO (cfapi.h)
-author: windows-sdk-content
+
 description: Sync root provider information.
 old-location: cloudapi\cf_sync_root_provider_info.htm
 tech.root: cfApi
 ms.assetid: 9EBC64B5-7FB3-41AA-BCB2-29B3E444B463
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_PROVIDER_INFO, CF_SYNC_ROOT_PROVIDER_INFO structure, cfapi/CF_SYNC_ROOT_PROVIDER_INFO, cloudApi.cf_sync_root_provider_info
 ms.topic: struct

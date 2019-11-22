@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.ActiveEnd
 title: ActiveEnd (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains possible values for the SelectionActiveEnd text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 old-location: winauto\uiauto_ActiveEnd.htm
 tech.root: WinAuto
 ms.assetid: 20A6813A-FA1B-43BD-A2D2-AF9AB5A7CC99
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ActiveEnd, ActiveEnd enumeration [Windows Accessibility], ActiveEnd_End, ActiveEnd_None, ActiveEnd_Start, uiautomationcore/ActiveEnd, uiautomationcore/ActiveEnd_End, uiautomationcore/ActiveEnd_None, uiautomationcore/ActiveEnd_Start, winauto.uiauto_ActiveEnd
 ms.topic: enum

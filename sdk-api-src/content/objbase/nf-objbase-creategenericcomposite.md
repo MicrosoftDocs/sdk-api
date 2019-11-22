@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CreateGenericComposite
 title: CreateGenericComposite function (objbase.h)
-author: windows-sdk-content
+
 description: Performs a generic composition of two monikers and supplies a pointer to the resulting composite moniker.
 old-location: com\creategenericcomposite.htm
 tech.root: com
 ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
 ms.topic: function

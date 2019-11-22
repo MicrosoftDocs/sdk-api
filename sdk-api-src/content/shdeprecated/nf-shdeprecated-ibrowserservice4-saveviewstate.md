@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.IBrowserService4.SaveViewState
 title: IBrowserService4::SaveViewState (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated.
 old-location: shell\IBrowserService4_SaveViewState.htm
 tech.root: shell
 ms.assetid: 8f43aa2b-9bae-4eda-823b-0dc036185ca8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],SaveViewState method, IBrowserService4.SaveViewState, IBrowserService4::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4_SaveViewState, shdeprecated/IBrowserService4::SaveViewState, shell.IBrowserService4_SaveViewState
 ms.topic: method

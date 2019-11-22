@@ -1,12 +1,12 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateMessage
 title: TokenBindingGenerateMessage function (tokenbinding.h)
-author: windows-sdk-content
+
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
 tech.root: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.ITask.GetWorkingDirectory
 title: ITask::GetWorkingDirectory (mstask.h)
-author: windows-sdk-content
+
 description: This method retrieves the task'sworking directory.
 old-location: taskschd\itask_getworkingdirectory.htm
 tech.root: taskschd
 ms.assetid: 737259f6-63d3-43f1-83a7-a10c95aff0e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Task Scheduler], GetWorkingDirectory method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetWorkingDirectory method, ITask.GetWorkingDirectory, ITask::GetWorkingDirectory, _msb_itask_getworkingdirectory, mstask/ITask::GetWorkingDirectory, taskschd.itask_getworkingdirectory
 ms.topic: method

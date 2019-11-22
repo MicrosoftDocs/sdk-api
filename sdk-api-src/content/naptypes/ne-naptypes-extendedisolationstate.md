@@ -1,12 +1,12 @@
 ---
 UID: NE:naptypes.tagExtendedIsolationState
 title: ExtendedIsolationState (naptypes.h)
-author: windows-sdk-content
+
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm
 tech.root: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExtendedIsolationState, ExtendedIsolationState enumeration [NAP], extendedIsolationStateInfected, extendedIsolationStateNoData, extendedIsolationStateTransition, extendedIsolationStateUnknown, nap.extendedisolationstate, naptypes/ExtendedIsolationState, naptypes/extendedIsolationStateInfected, naptypes/extendedIsolationStateNoData, naptypes/extendedIsolationStateTransition, naptypes/extendedIsolationStateUnknown
 ms.topic: enum

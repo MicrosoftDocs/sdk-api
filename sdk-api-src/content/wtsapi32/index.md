@@ -1,7 +1,7 @@
 ---
 UID: NA:wtsapi32
 ms.assetid: c382edfa-3d15-3b93-9cf9-3fd6a08595cd
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

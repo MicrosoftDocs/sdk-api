@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.Reset
 title: ITfDisplayAttributeInfo::Reset (msctf.h)
-author: windows-sdk-content
+
 description: ITfDisplayAttributeInfo::Reset method
 old-location: tsf\itfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: f7a95bb4-a2f1-4734-8a71-286591544984
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],Reset method, ITfDisplayAttributeInfo.Reset, ITfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_reset_ref, msctf/ITfDisplayAttributeInfo::Reset, tsf.itfdisplayattributeinfo_reset
 ms.topic: method

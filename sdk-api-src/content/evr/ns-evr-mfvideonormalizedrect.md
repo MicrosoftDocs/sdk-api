@@ -1,12 +1,12 @@
 ---
 UID: NS:evr.MFVideoNormalizedRect
 title: MFVideoNormalizedRect (evr.h)
-author: windows-sdk-content
+
 description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 old-location: mf\mfvideonormalizedrect.htm
 tech.root: medfound
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 ms.topic: struct

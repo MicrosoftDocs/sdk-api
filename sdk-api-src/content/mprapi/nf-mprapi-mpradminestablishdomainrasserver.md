@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminEstablishDomainRasServer
 title: MprAdminEstablishDomainRasServer function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminEstablishDomainRasServer function establishes the given machine as a Remote Access Server in the domain. This function must be executed only on a machine joined to a domain.
 old-location: rras\mpradminestablishdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.topic: function

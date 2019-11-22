@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetTransform(IDCompositionTransform)
 title: IDCompositionVisual::SetTransform(IDCompositionTransform) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the Transform property of this visual to the specified 2D transform object.
 old-location: directcomp\idcompositionvisual_settransform_idcompositiontransform.htm
 tech.root: directcomp
 ms.assetid: 448B853E-B045-4D06-BCC8-E1578E36C20A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual.SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform(IDCompositionTransform*), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_idcompositiontransform
 ms.topic: method

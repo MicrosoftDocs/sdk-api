@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetWindowThreadProcessId
 title: GetWindowThreadProcessId function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the identifier of the thread that created the specified window and, optionally, the identifier of the process that created the window.
 old-location: winmsg\getwindowthreadprocessid.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowthreadprocessid.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWindowThreadProcessId, GetWindowThreadProcessId function [Windows and Messages], _win32_GetWindowThreadProcessId, _win32_getwindowthreadprocessid_cpp, winmsg.getwindowthreadprocessid, winui._win32_getwindowthreadprocessid, winuser/GetWindowThreadProcessId
 ms.topic: function

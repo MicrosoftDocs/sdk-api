@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX
 title: XMMATRIX::XMMATRIX (directxmath.h)
-author: windows-sdk-content
+
 description: Default constructor for XMMATRIX.
 old-location: dxmath\xmmatrix_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX::XMMATRIX, dxmath.xmmatrix_ctor_1
 ms.topic: method

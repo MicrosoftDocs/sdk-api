@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 title: ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc (d3d12.h)
-author: windows-sdk-content
+
 description: Gets the layout of the root signature, without converting between root signature versions.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc.htm
 tech.root: direct3d12
 ms.assetid: 7E21B598-C13B-4418-B5B1-4ADDAA18F9B9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUnconvertedRootSignatureDesc, GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
 ms.topic: method

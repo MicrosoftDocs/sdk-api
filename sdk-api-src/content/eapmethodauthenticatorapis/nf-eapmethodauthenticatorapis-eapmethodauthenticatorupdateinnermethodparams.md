@@ -1,12 +1,12 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorUpdateInnerMethodParams
 title: EapMethodAuthenticatorUpdateInnerMethodParams function (eapmethodauthenticatorapis.h)
-author: windows-sdk-content
+
 description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorupdateinnermethodparams.htm
 tech.root: eaphost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorUpdateInnerMethodParams, EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost], eaphost.eapmethodauthenticatorupdateinnermethodparams, eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
 ms.topic: function

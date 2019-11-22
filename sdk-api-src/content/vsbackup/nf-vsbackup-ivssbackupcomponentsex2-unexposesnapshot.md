@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.UnexposeSnapshot
 title: IVssBackupComponentsEx2::UnexposeSnapshot (vsbackup.h)
-author: windows-sdk-content
+
 description: Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
 old-location: base\ivssbackupcomponentsex2_unexposesnapshot.htm
 tech.root: VSS
 ms.assetid: b6946b65-b142-41b9-88c0-a1b11caba08e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,UnexposeSnapshot method, IVssBackupComponentsEx2.UnexposeSnapshot, IVssBackupComponentsEx2::UnexposeSnapshot, UnexposeSnapshot, UnexposeSnapshot method, UnexposeSnapshot method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_unexposesnapshot, vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot
 ms.topic: method

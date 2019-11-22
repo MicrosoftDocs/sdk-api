@@ -1,12 +1,12 @@
 ---
 UID: NE:rtmv2._RTM_EVENT_TYPE
 title: RTM_EVENT_TYPE (rtmv2.h)
-author: windows-sdk-content
+
 description: The RTM_EVENT_TYPE enumeration enumerates the events that the routing table manager can notify the client about using the RTM_EVENT_CALLBACK callback.
 old-location: rras\rtm_event_type.htm
 tech.root: RRAS
 ms.assetid: ea19f59c-8de7-4f52-8029-9775526120c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_EVENT_TYPE, PRTM_EVENT_TYPE, PRTM_EVENT_TYPE enumeration pointer [RAS], RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_TYPE, RTM_EVENT_TYPE enumeration [RAS], RTM_ROUTE_EXPIRED, _rtmv2ref_rtm_event_type, rras.rtm_event_type, rtmv2/PRTM_EVENT_TYPE, rtmv2/RTM_CHANGE_NOTIFICATION, rtmv2/RTM_ENTITY_DEREGISTERED, rtmv2/RTM_ENTITY_REGISTERED, rtmv2/RTM_EVENT_TYPE, rtmv2/RTM_ROUTE_EXPIRED"
 ms.topic: enum

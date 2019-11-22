@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetGetPerSiteCookieDecisionA
 title: InternetGetPerSiteCookieDecisionA function (wininet.h)
-author: windows-sdk-content
+
 description: Retrieves a decision on cookies for a given domain.
 old-location: wininet\internetgetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision function [WinINet], InternetGetPerSiteCookieDecisionA, InternetGetPerSiteCookieDecisionW, wininet.internetgetpersitecookiedecision, wininet/InternetGetPerSiteCookieDecision, wininet/InternetGetPerSiteCookieDecisionA, wininet/InternetGetPerSiteCookieDecisionW
 ms.topic: function

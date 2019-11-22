@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.SetRegisterMode
 title: IMbnRegistration::SetRegisterMode (mbnapi.h)
-author: windows-sdk-content
+
 description: Sets the registration mode for the device.
 old-location: mbn\imbnregistration_setregistermode.htm
 tech.root: mbn
 ms.assetid: 71434e46-7055-4721-8cc9-140e196b6097
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration interface [Microsoft Broadband Networks],SetRegisterMode method, IMbnRegistration.SetRegisterMode, IMbnRegistration::SetRegisterMode, SetRegisterMode, SetRegisterMode method [Microsoft Broadband Networks], SetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, mbn.imbnregistration_setregistermode, mbnapi/IMbnRegistration::SetRegisterMode
 ms.topic: method

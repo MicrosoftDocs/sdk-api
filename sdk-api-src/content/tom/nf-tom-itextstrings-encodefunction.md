@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextStrings.EncodeFunction
 title: ITextStrings::EncodeFunction (tom.h)
-author: windows-sdk-content
+
 description: Encodes an object, given a set of argument strings.
 old-location: controls\itextstrings_encodefunction.htm
 tech.root: Controls
 ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EncodeFunction, EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],EncodeFunction method, ITextStrings.EncodeFunction, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
 ms.topic: method

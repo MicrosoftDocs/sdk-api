@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanMove
 title: IUIAutomationTransformPattern::get_CachedCanMove (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a cached value that indicates whether the element can be moved.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanMove.htm
 tech.root: WinAuto
 ms.assetid: b2c91a4c-8f22-4ad8-8ce7-ed6469af4426
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedCanMove property [Windows Accessibility], CachedCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanMove property, IUIAutomationTransformPattern.CachedCanMove, IUIAutomationTransformPattern.get_CachedCanMove, IUIAutomationTransformPattern::CachedCanMove, IUIAutomationTransformPattern::get_CachedCanMove, get_CachedCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanMove, uiauto_IUIAutomationTransformPattern_CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanMove, winauto.uiauto_IUIAutomationTransformPattern_CachedCanMove
 ms.topic: method

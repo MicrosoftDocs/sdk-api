@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSplatQNaN
 title: XMVectorSplatQNaN function (directxmath.h)
-author: windows-sdk-content
+
 description: Returns a vector, each of whose components are QNaN (0x7CF00000).
 old-location: dxmath\xmvectorsplatqnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatQNaN
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatQNaN, XMVectorSplatQNaN, XMVectorSplatQNaN method [DirectX Math Support APIs], dxmath.xmvectorsplatqnan
 ms.topic: function

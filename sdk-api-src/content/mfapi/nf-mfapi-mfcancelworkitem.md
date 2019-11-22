@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFCancelWorkItem
 title: MFCancelWorkItem function (mfapi.h)
-author: windows-sdk-content
+
 description: Attempts to cancel an asynchronous operation that was scheduled with MFScheduleWorkItem or MFScheduleWorkItemEx.
 old-location: mf\mfcancelworkitem.htm
 tech.root: medfound
 ms.assetid: a24fae61-30c8-4aca-b067-22b99f904fd8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCancelWorkItem, MFCancelWorkItem function [Media Foundation], a24fae61-30c8-4aca-b067-22b99f904fd8, mf.mfcancelworkitem, mfapi/MFCancelWorkItem
 ms.topic: function

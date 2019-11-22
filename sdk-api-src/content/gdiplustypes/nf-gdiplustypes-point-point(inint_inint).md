@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Point.Point(IN INT,IN INT)
 title: Point::Point(IN INT,IN INT) (gdiplustypes.h)
-author: windows-sdk-content
+
 description: Creates a Point object using two integers to initialize the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
 ms.topic: method

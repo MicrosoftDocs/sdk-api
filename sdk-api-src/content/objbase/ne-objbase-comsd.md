@@ -1,12 +1,12 @@
 ---
 UID: NE:objbase.tagCOMSD
 title: COMSD (objbase.h)
-author: windows-sdk-content
+
 description: Determines the type of COM security descriptor to get when calling CoGetSystemSecurityPermissions.
 old-location: com\comsd.htm
 tech.root: com
 ms.assetid: FF783F27-D5EF-4927-9B7D-489271FBA9B3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COMSD, COMSD enumeration [COM], SD_ACCESSPERMISSIONS, SD_ACCESSRESTRICTIONS, SD_LAUNCHPERMISSIONS, SD_LAUNCHRESTRICTIONS, com.comsd, objbase/COMSD, objbase/SD_ACCESSPERMISSIONS, objbase/SD_ACCESSRESTRICTIONS, objbase/SD_LAUNCHPERMISSIONS, objbase/SD_LAUNCHRESTRICTIONS
 ms.topic: enum

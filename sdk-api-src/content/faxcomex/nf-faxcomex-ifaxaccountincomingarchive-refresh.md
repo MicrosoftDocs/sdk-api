@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingArchive.Refresh
 title: IFaxAccountIncomingArchive::Refresh (faxcomex.h)
-author: windows-sdk-content
+
 description: Refreshes FaxAccountIncomingArchive object information for a particular fax account from the fax server.
 old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\refresh.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],Refresh method, IFaxAccountIncomingArchive.Refresh, IFaxAccountIncomingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxAccountIncomingArchive interface, _mfax_faxaccountincomingarchive.refresh, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp, fax._mfax_faxaccountincomingarchive_refresh, faxcomex/IFaxAccountIncomingArchive::Refresh
 ms.topic: method

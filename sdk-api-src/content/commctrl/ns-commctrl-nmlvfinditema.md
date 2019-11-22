@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMLVFINDITEMA
 title: NMLVFINDITEMA (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information the owner needs to find items requested by a virtual list-view control. This structure is used with the LVN_ODFINDITEM notification code.
 old-location: controls\NMLVFINDITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvfinditem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVFINDITEMA, NMLVFINDITEM, NMLVFINDITEM structure [Windows Controls], NMLVFINDITEMA, NMLVFINDITEMW, PNMLVFINDITEM, PNMLVFINDITEM structure pointer [Windows Controls], _win32_NMLVFINDITEM, _win32_NMLVFINDITEM_cpp, commctrl/NMLVFINDITEM, commctrl/NMLVFINDITEMA, commctrl/NMLVFINDITEMW, commctrl/PNMLVFINDITEM, controls.NMLVFINDITEM, controls._win32_NMLVFINDITEM'
 ms.topic: struct

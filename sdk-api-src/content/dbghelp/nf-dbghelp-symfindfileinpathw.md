@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFindFileInPathW
 title: SymFindFileInPathW function (dbghelp.h)
-author: windows-sdk-content
+
 description: Locates a symbol file or executable image.
 old-location: base\symfindfileinpath.htm
 tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 ms.topic: function

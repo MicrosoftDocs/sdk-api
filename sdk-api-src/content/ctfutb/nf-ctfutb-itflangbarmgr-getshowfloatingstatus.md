@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetShowFloatingStatus
 title: ITfLangBarMgr::GetShowFloatingStatus (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarMgr::GetShowFloatingStatus method
 old-location: tsf\itflangbarmgr_getshowfloatingstatus.htm
 tech.root: TSF
 ms.assetid: ec187bf0-edf7-4d90-a102-92bb5b58ebdc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetShowFloatingStatus, GetShowFloatingStatus method [Text Services Framework], GetShowFloatingStatus method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetShowFloatingStatus method, ITfLangBarMgr.GetShowFloatingStatus, ITfLangBarMgr::GetShowFloatingStatus, _tsf_itflangbarmgr_getshowfloatingstatus_ref, ctfutb/ITfLangBarMgr::GetShowFloatingStatus, tsf.itflangbarmgr_getshowfloatingstatus
 ms.topic: method

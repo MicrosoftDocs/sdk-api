@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_EventInterface
 title: ITPrivateEvent::get_EventInterface (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_EventInterface method returns a pointer to the IDispatch interface of the private object's event handler.
 old-location: tapi3\itprivateevent_get_eventinterface.htm
 tech.root: Tapi
 ms.assetid: c5620930-5cda-4f2e-8059-12af2d7f0a02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventInterface method, ITPrivateEvent.get_EventInterface, ITPrivateEvent::get_EventInterface, _tapi3_itprivateevent_get_eventinterface, get_EventInterface, get_EventInterface method [TAPI 2.2], get_EventInterface method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventinterface, tapi3if/ITPrivateEvent::get_EventInterface
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopItemSync
 title: ISyncMgrControl::StopItemSync (syncmgr.h)
-author: windows-sdk-content
+
 description: Stops the synchronization of specified items managed by a particular handler.
 old-location: shell\ISyncMgrControl_StopItemSync.htm
 tech.root: shell
 ms.assetid: dd56f26b-caae-4f4d-9a32-fac450e255d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopItemSync method, ISyncMgrControl.StopItemSync, ISyncMgrControl::StopItemSync, StopItemSync, StopItemSync method [Windows Shell], StopItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopItemSync, shell.ISyncMgrControl_StopItemSync, syncmgr/ISyncMgrControl::StopItemSync
 ms.topic: method

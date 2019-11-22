@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetMutualExclusion
 title: IMFASFProfile::GetMutualExclusion (wmcontainer.h)
-author: windows-sdk-content
+
 description: Retrieves an Advanced Systems Format (ASF) mutual exclusion object from the profile.
 old-location: mf\imfasfprofile_getmutualexclusion.htm
 tech.root: medfound
 ms.assetid: 9b9e37fc-0bd8-4502-9e90-76330a08f68b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9b9e37fc-0bd8-4502-9e90-76330a08f68b, GetMutualExclusion, GetMutualExclusion method [Media Foundation], GetMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetMutualExclusion method, IMFASFProfile.GetMutualExclusion, IMFASFProfile::GetMutualExclusion, mf.imfasfprofile_getmutualexclusion, wmcontainer/IMFASFProfile::GetMutualExclusion
 ms.topic: method

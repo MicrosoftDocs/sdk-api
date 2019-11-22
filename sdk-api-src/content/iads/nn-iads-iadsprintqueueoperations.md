@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsPrintQueueOperations
 title: IADsPrintQueueOperations (iads.h)
-author: windows-sdk-content
+
 description: Used to control a printer from across a network.
 old-location: adsi\iadsprintqueueoperations.htm
 tech.root: adsi
 ms.assetid: 97495455-a576-4984-beb8-9282073e88c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
 ms.topic: interface

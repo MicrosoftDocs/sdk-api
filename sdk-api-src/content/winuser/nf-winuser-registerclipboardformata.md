@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.RegisterClipboardFormatA
 title: RegisterClipboardFormatA function (winuser.h)
-author: windows-sdk-content
+
 description: Registers a new clipboard format. This format can then be used as a valid clipboard format.
 old-location: dataxchg\registerclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\registerclipboardformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exchange], RegisterClipboardFormatA, RegisterClipboardFormatW, _win32_RegisterClipboardFormat, _win32_registerclipboardformat_cpp, dataxchg.registerclipboardformat, winui._win32_registerclipboardformat, winuser/RegisterClipboardFormat, winuser/RegisterClipboardFormatA, winuser/RegisterClipboardFormatW
 ms.topic: function

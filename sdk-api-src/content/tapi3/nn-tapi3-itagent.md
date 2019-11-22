@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITAgent
 title: ITAgent (tapi3.h)
-author: windows-sdk-content
+
 description: Agents are the heart of a call center.
 old-location: tapi3\itagent.htm
 tech.root: Tapi
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 ms.topic: interface

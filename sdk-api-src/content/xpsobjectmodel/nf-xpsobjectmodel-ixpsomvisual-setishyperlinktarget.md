@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetIsHyperlinkTarget
 title: IXpsOMVisual::SetIsHyperlinkTarget (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Specifies whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMVisual.SetIsHyperlinkTarget, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
 ms.topic: method

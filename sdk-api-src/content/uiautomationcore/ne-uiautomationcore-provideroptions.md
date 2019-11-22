@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.ProviderOptions
 title: ProviderOptions (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains values that specify the type of UI Automation provider. The IRawElementProviderSimple::ProviderOptions property uses this enumeration.
 old-location: winauto\uiauto_ProvOptionsEnum.htm
 tech.root: WinAuto
 ms.assetid: ed13b168-f0c2-49d8-b613-2c62a6e060bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ProviderOptions, ProviderOptions enumeration [Windows Accessibility], ProviderOptions_ClientSideProvider, ProviderOptions_HasNativeIAccessible, ProviderOptions_NonClientAreaProvider, ProviderOptions_OverrideProvider, ProviderOptions_ProviderOwnsSetFocus, ProviderOptions_RefuseNonClientSupport, ProviderOptions_ServerSideProvider, ProviderOptions_UseClientCoordinates, ProviderOptions_UseComThreading, uiauto.uiauto_ProvOptionsEnum, uiauto_ProvOptionsEnum, uiautomationcore/ProviderOptions, uiautomationcore/ProviderOptions_ClientSideProvider, uiautomationcore/ProviderOptions_HasNativeIAccessible, uiautomationcore/ProviderOptions_NonClientAreaProvider, uiautomationcore/ProviderOptions_OverrideProvider, uiautomationcore/ProviderOptions_ProviderOwnsSetFocus, uiautomationcore/ProviderOptions_RefuseNonClientSupport, uiautomationcore/ProviderOptions_ServerSideProvider, uiautomationcore/ProviderOptions_UseClientCoordinates, uiautomationcore/ProviderOptions_UseComThreading, winauto.uiauto_ProvOptionsEnum
 ms.topic: enum

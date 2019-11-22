@@ -1,12 +1,12 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetContextGuid
 title: IDot11AdHocNetwork::GetContextGuid (adhoc.h)
-author: windows-sdk-content
+
 description: Gets the context identifier associated with the network.
 old-location: nwifi\idot11adhocnetwork_getcontextguid.htm
 tech.root: NativeWiFi
 ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
 ms.topic: method

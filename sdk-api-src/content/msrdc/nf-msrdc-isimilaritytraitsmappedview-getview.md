@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.GetView
 title: ISimilarityTraitsMappedView::GetView (msrdc.h)
-author: windows-sdk-content
+
 description: Returns the beginning and ending addresses for the mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_getview.htm
 tech.root: rdc
 ms.assetid: ac229f59-eb2f-471e-9f31-0e7139becdcb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Remote Differential Compression], GetView method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],GetView method, ISimilarityTraitsMappedView.GetView, ISimilarityTraitsMappedView::GetView, fs.isimilaritytraitsmappedview_getview, msrdc/ISimilarityTraitsMappedView::GetView, rdc.isimilaritytraitsmappedview_getview
 ms.topic: method

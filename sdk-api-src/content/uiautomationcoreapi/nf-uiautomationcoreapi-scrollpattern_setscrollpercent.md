@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollPattern_SetScrollPercent
 title: ScrollPattern_SetScrollPercent function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Scrolls a container to a specific position horizontally, vertically, or both.
 old-location: winauto\uiauto_ScrollPattern_SetScrollPercentConPat.htm
 tech.root: WinAuto
 ms.assetid: 5a152e0b-f1c2-41c7-add6-1f484d2c5738
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScrollPattern_SetScrollPercent, ScrollPattern_SetScrollPercent function [Windows Accessibility], uiauto.uiauto_ScrollPattern_SetScrollPercentConPat, uiauto_ScrollPattern_SetScrollPercentConPat, uiautomationcoreapi/ScrollPattern_SetScrollPercent, winauto.uiauto_ScrollPattern_SetScrollPercentConPat
 ms.topic: function

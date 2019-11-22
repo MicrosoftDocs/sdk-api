@@ -1,12 +1,12 @@
 ---
 UID: NF:audioclient.IAudioClient.GetMixFormat
 title: IAudioClient::GetMixFormat (audioclient.h)
-author: windows-sdk-content
+
 description: The GetMixFormat method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
 old-location: coreaudio\iaudioclient_getmixformat.htm
 tech.root: CoreAudio
 ms.assetid: 63f3e593-3904-44f9-a912-78c6c98e7597
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMixFormat, GetMixFormat method [Core Audio], GetMixFormat method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetMixFormat method, IAudioClient.GetMixFormat, IAudioClient::GetMixFormat, IAudioClientGetMixFormat, audioclient/IAudioClient::GetMixFormat, coreaudio.iaudioclient_getmixformat
 ms.topic: method

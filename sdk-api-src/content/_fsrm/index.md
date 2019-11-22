@@ -1,7 +1,7 @@
 ---
 UID: TP:fsrm
 ms.assetid: d2b646ef-23b5-3964-8e20-9a28350f9b5e
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

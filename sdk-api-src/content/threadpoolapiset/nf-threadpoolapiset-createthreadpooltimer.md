@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolTimer
 title: CreateThreadpoolTimer function (threadpoolapiset.h)
-author: windows-sdk-content
+
 description: Creates a new timer object.
 old-location: base\createthreadpooltimer.htm
 tech.root: ProcThread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
 ms.topic: function

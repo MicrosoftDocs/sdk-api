@@ -1,12 +1,12 @@
 ---
 UID: NN:ctfutb.ITfSystemLangBarItemText
 title: ITfSystemLangBarItemText (ctfutb.h)
-author: windows-sdk-content
+
 description: The ITfSystemLangBarItemText interface is implemented by a system language bar and is used by a system language bar extension to modify the description displayed for the menu.
 old-location: tsf\itfsystemlangbaritemtext.htm
 tech.root: TSF
 ms.assetid: f39ec024-1bdf-4451-9598-1953bffc9704
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemText, ITfSystemLangBarItemText interface [Text Services Framework], ITfSystemLangBarItemText interface [Text Services Framework],described, _tsf_itfsystemlangbaritemtext_ref, ctfutb/ITfSystemLangBarItemText, tsf.itfsystemlangbaritemtext
 ms.topic: interface

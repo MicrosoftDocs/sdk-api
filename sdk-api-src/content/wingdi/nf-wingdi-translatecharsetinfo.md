@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.TranslateCharsetInfo
 title: TranslateCharsetInfo function (wingdi.h)
-author: windows-sdk-content
+
 description: Translates character set information and sets all members of a destination structure to appropriate values.
 old-location: intl\translatecharsetinfo.htm
 tech.root: Intl
 ms.assetid: 0e6e81f1-ec7b-42ba-8706-a352349fa6ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TCI_SRCCHARSET, TCI_SRCCODEPAGE, TCI_SRCFONTSIG, TCI_SRCLOCALE, TranslateCharsetInfo, TranslateCharsetInfo function [Internationalization for Windows Applications], _win32_TranslateCharsetInfo, intl.translatecharsetinfo, wingdi/TranslateCharsetInfo
 ms.topic: function

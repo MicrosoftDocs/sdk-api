@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.CheckLocationCapability
 title: ILocationPermissions::CheckLocationCapability (sensorsapi.h)
-author: windows-sdk-content
+
 description: Gets the location capability of the Windows Store app of the given thread.
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
 tech.root: SensorsAPI
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
 ms.topic: method

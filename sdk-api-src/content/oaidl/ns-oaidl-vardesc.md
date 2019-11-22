@@ -1,12 +1,12 @@
 ---
 UID: NS:oaidl.tagVARDESC
 title: VARDESC (oaidl.h)
-author: windows-sdk-content
+
 description: Describes a variable, constant, or data member.
 old-location: automat\vardesc.htm
 tech.root: automat
 ms.assetid: 9584977d-41c4-4f73-8844-2135750ddb80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ProductId
 title: IDiscRecorder2::get_ProductId (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the product ID of the device.
 old-location: imapi\idiscrecorder2_get_productid.htm
 tech.root: imapi
 ms.assetid: 1f0bfdd4-059f-40c0-9da1-fa842bd415de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ProductId method, IDiscRecorder2.get_ProductId, IDiscRecorder2::get_ProductId, get_ProductId, get_ProductId method [IMAPI], get_ProductId method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_productid, imapi2/IDiscRecorder2::get_ProductId
 ms.topic: method

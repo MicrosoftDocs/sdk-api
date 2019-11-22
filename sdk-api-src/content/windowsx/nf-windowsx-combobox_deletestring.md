@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ComboBox_DeleteString
 title: ComboBox_DeleteString macro (windowsx.h)
-author: windows-sdk-content
+
 description: Deletes the item at the specified location in a list in a combo box. You can use this macro or send the CB_DELETESTRING message explicitly.
 old-location: controls\ComboBox_DeleteString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_deletestring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComboBox_DeleteString, ComboBox_DeleteString macro [Windows Controls], _win32_ComboBox_DeleteString, _win32_ComboBox_DeleteString_cpp, controls.ComboBox_DeleteString, controls._win32_ComboBox_DeleteString, windowsx/ComboBox_DeleteString
 ms.topic: macro

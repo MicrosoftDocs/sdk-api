@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetPropertyDescription
 title: IPropertyUI::GetPropertyDescription (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Developers should use IPropertyDescription instead. Gets the property description of a specified property.
 old-location: properties\IPropertyUI_GetPropertyDescription.htm
 tech.root: properties
 ms.assetid: 47EAA768-BDAE-44de-AAD8-529E12761065
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetPropertyDescription method, IPropertyUI.GetPropertyDescription, IPropertyUI::GetPropertyDescription, _shell_IPropertyUI_GetPropertyDescription, properties.IPropertyUI_GetPropertyDescription, shell.IPropertyUI_GetPropertyDescription, shobjidl_core/IPropertyUI::GetPropertyDescription
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get__NewEnum
 title: ITaskNamedValueCollection::get__NewEnum (taskschd.h)
-author: windows-sdk-content
+
 description: Gets the collection enumerator for the name-value pair collection.
 old-location: taskschd\itasknamedvaluecollection__newenum.htm
 tech.root: taskschd
 ms.assetid: 53bcb237-939e-4e10-bc83-83a5dcdeab70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],_NewEnum property, ITaskNamedValueCollection._NewEnum, ITaskNamedValueCollection.get__NewEnum, ITaskNamedValueCollection::_NewEnum, ITaskNamedValueCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskNamedValueCollection interface, get__NewEnum, taskschd.itasknamedvaluecollection__newenum, taskschd/ITaskNamedValueCollection::_NewEnum, taskschd/ITaskNamedValueCollection::get__NewEnum
 ms.topic: method

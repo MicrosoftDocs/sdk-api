@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_LastRunTime
 title: IRegisteredTask::get_LastRunTime (taskschd.h)
-author: windows-sdk-content
+
 description: Gets the time the registered task was last run.
 old-location: taskschd\iregisteredtask_lastruntime.htm
 tech.root: taskschd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
 ms.topic: method

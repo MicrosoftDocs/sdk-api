@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.DWRITE_MAKE_FONT_AXIS_TAG
 title: DWRITE_MAKE_FONT_AXIS_TAG
-author: windows-sdk-content
+
 description: Creates an OpenType tag for a font axis.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/17/2019
 ms.keywords: DWRITE_MAKE_FONT_AXIS_TAG, DWRITE_MAKE_FONT_AXIS_TAG macro [Direct Write], directwrite.dwrite_make_font_axis_tag, dwrite/DWRITE_MAKE_FONT_AXIS_TAG
 ms.topic: macro

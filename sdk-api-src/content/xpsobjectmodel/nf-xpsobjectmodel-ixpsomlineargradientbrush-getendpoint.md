@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetEndPoint
 title: IXpsOMLinearGradientBrush::GetEndPoint (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getendpoint.htm
 tech.root: printdocs
 ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
 ms.topic: method

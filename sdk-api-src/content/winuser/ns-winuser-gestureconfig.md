@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagGESTURECONFIG
 title: GESTURECONFIG (winuser.h)
-author: windows-sdk-content
+
 description: Gets and sets the configuration for enabling gesture messages and the type of this configuration.
 old-location: wintouch\gestureconfig.htm
 tech.root: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.IsVisible(IN const Rect &,IN const Graphics)
 title: Region::IsVisible(IN const Rect &,IN const Graphics) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Region::IsVisible method determines whether a rectangle intersects this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Rect_rect_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_30rectamprect_graphicsg.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const Rect &,IN const Graphics), Region.IsVisible(const Rect&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const Rect &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Rect_rect_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_Rect_rect_Graphics_g_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.GetSelection
 title: IAudioOutputSelector::GetSelection (devicetopology.h)
-author: windows-sdk-content
+
 description: The GetSelection method gets the local ID of the part that is connected to the selector output that is currently selected.
 old-location: coreaudio\iaudiooutputselector_getselection.htm
 tech.root: CoreAudio
 ms.assetid: af4b1a1d-b08d-4165-a011-bdbd1e063e74
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioOutputSelector interface, IAudioOutputSelector interface [Core Audio],GetSelection method, IAudioOutputSelector.GetSelection, IAudioOutputSelector::GetSelection, IAudioOutputSelectorGetSelection, coreaudio.iaudiooutputselector_getselection, devicetopology/IAudioOutputSelector::GetSelection
 ms.topic: method

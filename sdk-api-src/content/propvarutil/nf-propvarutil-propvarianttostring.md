@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.PropVariantToString
 title: PropVariantToString function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts a string value from a PROPVARIANT structure.
 old-location: properties\PropVariantToString.htm
 tech.root: properties
 ms.assetid: d545dc12-a780-4d95-8660-13b3f65725f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropVariantToString, PropVariantToString function [Windows Properties], properties.PropVariantToString, propvarutil/PropVariantToString, shell.PropVariantToString, shell_PropVariantToString
 ms.topic: function

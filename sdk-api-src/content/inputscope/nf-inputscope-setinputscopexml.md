@@ -1,12 +1,12 @@
 ---
 UID: NF:inputscope.SetInputScopeXML
 title: SetInputScopeXML function (inputscope.h)
-author: windows-sdk-content
+
 description: Do not use.
 old-location: tsf\SetInputScopeXML.htm
 tech.root: TSF
 ms.assetid: bd770852-412a-4097-b22f-02f240516770
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetInputScopeXML, SetInputScopeXML function [Text Services Framework], inputscope/SetInputScopeXML, tsf.SetInputScopeXML
 ms.topic: function

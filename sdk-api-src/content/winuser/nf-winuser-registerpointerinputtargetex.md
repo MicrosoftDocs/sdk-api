@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.RegisterPointerInputTargetEx
 title: RegisterPointerInputTargetEx function (winuser.h)
-author: windows-sdk-content
+
 description: RegisterPointerInputTargetEx may be altered or unavailable. Instead, use RegisterPointerInputTarget.
 old-location: winauto\registerpointerinputtargetex.htm
 tech.root: WinAuto
 ms.assetid: E2B3D097-36E5-4444-B9DF-B3D38F1FEF48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function [Windows Accessibility], winauto.registerpointerinputtargetex, winuser/RegisterPointerInputTargetEx
 ms.topic: function

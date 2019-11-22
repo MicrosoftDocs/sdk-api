@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetLocalOffsetForDate(const tm)
 title: WBEMTime::GetLocalOffsetForDate (wbemtime.h)
-author: windows-sdk-content
+
 description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the FILETIME supplied in the argument.
 old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
 tech.root: WmiSdk
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
 ms.topic: method

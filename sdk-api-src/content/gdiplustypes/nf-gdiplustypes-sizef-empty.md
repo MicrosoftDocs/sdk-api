@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.SizeF.Empty
 title: SizeF::Empty (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The SizeF::Empty method determines whether a SizeF object is empty.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_Empty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\empty_16.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],SizeF class, SizeF class [GDI+],Empty method, SizeF.Empty, SizeF::Empty, _gdiplus_CLASS_SizeF_Empty_, gdiplus._gdiplus_CLASS_SizeF_Empty_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:ocidl.tagVIEWSTATUS
 title: VIEWSTATUS (ocidl.h)
-author: windows-sdk-content
+
 description: Specifies the opacity of the object and the drawing aspects supported by the object.
 old-location: com\viewstatus.htm
 tech.root: com
 ms.assetid: 7b3118af-db29-4eb1-9b1b-38a8ebe42f19
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VIEWSTATUS, VIEWSTATUS enumeration [COM], VIEWSTATUS_3DSURFACE, VIEWSTATUS_DVASPECTOPAQUE, VIEWSTATUS_DVASPECTTRANSPARENT, VIEWSTATUS_OPAQUE, VIEWSTATUS_SOLIDBKGND, VIEWSTATUS_SURFACE, _ole_VIEWSTATUS, com.viewstatus, ocidl/VIEWSTATUS, ocidl/VIEWSTATUS_3DSURFACE, ocidl/VIEWSTATUS_DVASPECTOPAQUE, ocidl/VIEWSTATUS_DVASPECTTRANSPARENT, ocidl/VIEWSTATUS_OPAQUE, ocidl/VIEWSTATUS_SOLIDBKGND, ocidl/VIEWSTATUS_SURFACE
 ms.topic: enum

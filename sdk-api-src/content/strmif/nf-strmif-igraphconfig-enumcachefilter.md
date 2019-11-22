@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
 title: IGraphConfig::EnumCacheFilter (strmif.h)
-author: windows-sdk-content
+
 description: The EnumCacheFilter method enumerates the filters in the filter cache.
 old-location: dshow\igraphconfig_enumcachefilter.htm
 tech.root: DirectShow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumCacheFilter, EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],EnumCacheFilter method, IGraphConfig.EnumCacheFilter, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
 ms.topic: method

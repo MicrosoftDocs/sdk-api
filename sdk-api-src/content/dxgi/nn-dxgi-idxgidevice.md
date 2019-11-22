@@ -1,12 +1,12 @@
 ---
 UID: NN:dxgi.IDXGIDevice
 title: IDXGIDevice (dxgi.h)
-author: windows-sdk-content
+
 description: An IDXGIDevice interface implements a derived class for DXGI objects that produce image data.
 old-location: direct3ddxgi\idxgidevice.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 99cdbe06-c52d-a562-8d0a-c42fe333f947, IDXGIDevice, IDXGIDevice interface [DXGI], IDXGIDevice interface [DXGI],described, direct3ddxgi.idxgidevice, dxgi/IDXGIDevice
 ms.topic: interface

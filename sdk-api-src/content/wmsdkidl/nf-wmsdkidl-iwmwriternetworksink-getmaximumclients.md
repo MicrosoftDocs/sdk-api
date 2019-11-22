@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetMaximumClients
 title: IWMWriterNetworkSink::GetMaximumClients (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetMaximumClients method retrieves the maximum number of clients that can connect to this sink.
 old-location: wmformat\iwmwriternetworksink_getmaximumclients.htm
 tech.root: wmformat
 ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaximumClients, GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetMaximumClients method, IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
 ms.topic: method

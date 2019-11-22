@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Notify
 title: IWMPContentPartner::Notify (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_notify.htm
 tech.root: WMP
 ms.assetid: 9464ce82-cd84-4a35-83d2-e46198c0c1e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Notify method, IWMPContentPartner.Notify, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
 ms.topic: method

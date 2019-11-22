@@ -1,12 +1,12 @@
 ---
 UID: NS:iads._ADS_OCTET_LIST
 title: ADS_OCTET_LIST (iads.h)
-author: windows-sdk-content
+
 description: The ADS_OCTET_LIST structure is an ADSI representation of an ordered sequence of single-byte strings.
 old-location: adsi\ads_octet_list.htm
 tech.root: adsi
 ms.assetid: 9a6a6ba8-afe1-44d3-a9a8-dab1c5f4265e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PADS_OCTET_LIST, ADS_OCTET_LIST, ADS_OCTET_LIST structure [ADSI], PADS_OCTET_LIST, PADS_OCTET_LIST structure pointer [ADSI], _ds_ads_octet_list, adsi.ads__octet__list, adsi.ads_octet_list, iads/ADS_OCTET_LIST, iads/PADS_OCTET_LIST"
 ms.topic: struct

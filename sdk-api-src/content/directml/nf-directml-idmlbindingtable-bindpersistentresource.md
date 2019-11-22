@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindPersistentResource
 title: IDMLBindingTable::BindPersistentResource
-author: windows-sdk-content
+
 description: Binds a buffer as a persistent resource. You can determine the required size of this buffer range by calling IDMLDispatchable::GetBindingProperties.
 old-location: direct3d12\idmlbindingtable_bindpersistentresource.htm
 tech.root: direct3d12
 ms.assetid: 9812B5C9-6E3E-4CAB-827F-C59A98F07F91
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: BindPersistentResource, BindPersistentResource method, BindPersistentResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindPersistentResource method, IDMLBindingTable.BindPersistentResource, IDMLBindingTable::BindPersistentResource, direct3d12.idmlbindingtable_bindpersistentresource, directml/IDMLBindingTable::BindPersistentResource
 ms.topic: method

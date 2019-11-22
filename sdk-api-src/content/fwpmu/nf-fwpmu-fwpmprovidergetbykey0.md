@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmProviderGetByKey0
 title: FwpmProviderGetByKey0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves a provider.
 old-location: fwp\fwpmprovidergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: e5ed3f8e-a740-4cd9-9311-278abc9444e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderGetByKey0, FwpmProviderGetByKey0 function [Filtering], fwp.fwpmprovidergetbykey0_func, fwpmu/FwpmProviderGetByKey0
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryDestination
 title: MI_SubscriptionDeliveryOptions_SetDeliveryDestination function (mi.h)
-author: windows-sdk-content
+
 description: Sets the destination endpoint that an indication will be delivered to.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliverydestination.htm
 tech.root: wmi_v2
 ms.assetid: 01405c64-83ab-4c39-975c-7786659e2c18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryDestination, MI_SubscriptionDeliveryOptions_SetDeliveryDestination function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryDestination, wmi_v2.mi_subscriptiondeliveryoptions_setdeliverydestination
 ms.topic: function

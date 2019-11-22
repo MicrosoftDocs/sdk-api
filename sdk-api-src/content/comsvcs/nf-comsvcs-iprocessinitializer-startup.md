@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IProcessInitializer.Startup
 title: IProcessInitializer::Startup (comsvcs.h)
-author: windows-sdk-content
+
 description: Called when Dllhost.exe starts.
 old-location: cos\iprocessinitializer_startup.htm
 tech.root: cossdk
 ms.assetid: 0ba8844e-a1ef-4a1a-aef6-abd828ec59b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer interface [COM+],Startup method, IProcessInitializer.Startup, IProcessInitializer::Startup, Startup, Startup method [COM+], Startup method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Startup, comsvcs/IProcessInitializer::Startup, cos.iprocessinitializer_startup
 ms.topic: method

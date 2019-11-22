@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)
 title: ID2D1DeviceContext::DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE) (d2d1_1.h)
-author: windows-sdk-content
+
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage6.htm
 tech.root: Direct2D
 ms.assetid: E490FC76-5A32-4DCC-8EA3-0B24A2C733D4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage6
 ms.topic: method

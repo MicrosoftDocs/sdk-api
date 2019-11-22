@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextMarker(OUT const GraphicsPath)
 title: GraphicsPathIterator::NextMarker(OUT const GraphicsPath) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPathIterator::NextMarker method gets the next marker-delimited section of this iterator's associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods\nextmarker.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextMarker method, GraphicsPathIterator.NextMarker, GraphicsPathIterator.NextMarker(GraphicsPath*), GraphicsPathIterator.NextMarker(OUT const GraphicsPath), GraphicsPathIterator::NextMarker, GraphicsPathIterator::NextMarker(OUT const GraphicsPath), NextMarker, NextMarker method [GDI+], NextMarker method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_
 ms.topic: method

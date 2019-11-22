@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StartListen
 title: IWTSProtocolListener::StartListen (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm
 tech.root: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
 ms.topic: method

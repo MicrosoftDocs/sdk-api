@@ -1,12 +1,12 @@
 ---
 UID: NF:austream.IAudioMediaStream.SetFormat
 title: IAudioMediaStream::SetFormat (austream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated. New applications should not use it. Sets the format for the stream.
 old-location: dshow\iaudiomediastream_setformat.htm
 tech.root: DirectShow
 ms.assetid: 5925f373-c862-4215-9877-5bb4d5411d36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream interface [DirectShow],SetFormat method, IAudioMediaStream.SetFormat, IAudioMediaStream::SetFormat, IAudioMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioMediaStream interface, austream/IAudioMediaStream::SetFormat, dshow.iaudiomediastream_setformat
 ms.topic: method

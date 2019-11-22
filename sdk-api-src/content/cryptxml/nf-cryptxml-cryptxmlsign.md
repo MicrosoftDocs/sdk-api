@@ -1,12 +1,12 @@
 ---
 UID: NF:cryptxml.CryptXmlSign
 title: CryptXmlSign function (cryptxml.h)
-author: windows-sdk-content
+
 description: Creates a cryptographic signature of a SignedInfo element.
 old-location: security\cryptxmlsign.htm
 tech.root: SecCrypto
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
 ms.topic: function

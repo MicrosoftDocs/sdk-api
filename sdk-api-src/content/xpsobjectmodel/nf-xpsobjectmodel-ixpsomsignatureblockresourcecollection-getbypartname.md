@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetByPartName
 title: IXpsOMSignatureBlockResourceCollection::GetByPartName (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets an IXpsOMSignatureBlockResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomsignatureblockresourcecollection_getbypartname.htm
 tech.root: printdocs
 ms.assetid: 38e6d6d9-0f31-45e9-8a19-1aae02dfafd3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMSignatureBlockResourceCollection.GetByPartName, IXpsOMSignatureBlockResourceCollection::GetByPartName, xps.ixpsomsignatureblockresourcecollection_getbypartname, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName
 ms.topic: method

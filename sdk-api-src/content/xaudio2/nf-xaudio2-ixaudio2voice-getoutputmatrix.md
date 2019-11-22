@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetOutputMatrix
 title: IXAudio2Voice::GetOutputMatrix (xaudio2.h)
-author: windows-sdk-content
+
 description: Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
 old-location: xaudio2\ixaudio2voice_interface_getoutputmatrix.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetOutputMatrix(IXAudio2Voice,UINT32,UINT32,float@)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOutputMatrix, GetOutputMatrix method [XAudio2 Audio Mixing APIs], GetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetOutputMatrix method, IXAudio2Voice.GetOutputMatrix, IXAudio2Voice::GetOutputMatrix, xaudio2.ixaudio2voice_interface_getoutputmatrix, xaudio2/IXAudio2Voice::GetOutputMatrix
 ms.topic: method

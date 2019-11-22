@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the slope of the linear function for the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphaslope_2.htm
 tech.root: directcomp
 ms.assetid: 8992B338-5426-4DB7-8ACB-8E5E3C702BFF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope_2
 ms.topic: method

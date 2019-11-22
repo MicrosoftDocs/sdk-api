@@ -1,12 +1,12 @@
 ---
 UID: NE:codecapi.eAVEncMPVLevel
 title: eAVEncMPVLevel (codecapi.h)
-author: windows-sdk-content
+
 description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVLevel property.
 old-location: dshow\eavencmpvlevel.htm
 tech.root: DirectShow
 ms.assetid: 517fb48c-7358-444f-81da-52d5c7ece1bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVLevel, codecapi/eAVEncMPVLevel_High, codecapi/eAVEncMPVLevel_High1440, codecapi/eAVEncMPVLevel_Low, codecapi/eAVEncMPVLevel_Main, dshow.eavencmpvlevel, eAVEncMPVLevel, eAVEncMPVLevel enumeration [DirectShow], eAVEncMPVLevelEnumeration, eAVEncMPVLevel_High, eAVEncMPVLevel_High1440, eAVEncMPVLevel_Low, eAVEncMPVLevel_Main
 ms.topic: enum

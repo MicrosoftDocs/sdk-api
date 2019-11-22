@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes._WSD_HEADER_RELATESTO
 title: WSD_HEADER_RELATESTO (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a RelatesTo SOAP envelope header block, as specified by the WS-Addressing specification.
 old-location: ncd\wsd_header_relatesto.htm
 tech.root: WsdApi
 ms.assetid: 6085620e-2e3d-4e77-90cd-7cb9fd2c197e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_HEADER_RELATESTO, WSD_HEADER_RELATESTO structure, ncd.wsd_header_relatesto, ncd.wsd_header_relayesto, wsdtypes/WSD_HEADER_RELATESTO
 ms.topic: struct

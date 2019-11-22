@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetCertCACheck
 title: MI_DestinationOptions_SetCertCACheck function (mi.h)
-author: windows-sdk-content
+
 description: Enables or disables the CA certificate check for an SSL transport.
 old-location: wmi_v2\mi_destinationoptions_setcertcacheck.htm
 tech.root: wmi_v2
 ms.assetid: 79ba5973-719a-4a6b-94d1-04aff7e526aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetCertCACheck, MI_DestinationOptions_SetCertCACheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetCertCACheck, wmi_v2.mi_destinationoptions_setcertcacheck
 ms.topic: function

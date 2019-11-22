@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
 title: IInkRecognitionAlternate::AlternatesWithConstantPropertyValues (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves a IInkRecognitionAlternates collection, which are a division of the IInkRecognitionAlternate object on which this method is called.
 old-location: tablet\iinkrecognitionalternate_alternateswithconstantpropertyvalues.htm
 tech.root: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
 ms.topic: method

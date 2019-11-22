@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capDriverGetName
 title: capDriverGetName macro (vfw.h)
-author: windows-sdk-content
+
 description: The capDriverGetName macro returns the name of the capture driver connected to the capture window. You can use this macro or explicitly call the WM_CAP_DRIVER_GET_NAME message.
 old-location: multimedia\capdrivergetname.htm
 tech.root: Multimedia
 ms.assetid: 50a5563d-5872-4cfd-a600-be83beceb0fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capDriverGetName, capDriverGetName, capDriverGetName macro [Windows Multimedia], multimedia.capdrivergetname, vfw/capDriverGetName"
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CloseClusterResource
 title: CloseClusterResource function (clusapi.h)
-author: windows-sdk-content
+
 description: Closes a resource handle.
 old-location: mscs\closeclusterresource.htm
 tech.root: MsCS
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseClusterResource, CloseClusterResource function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_RESOURCE, PCLUSAPI_CLOSE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_closeclusterresource, clusapi/CloseClusterResource, clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE, mscs.closeclusterresource
 ms.topic: function

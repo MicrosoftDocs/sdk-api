@@ -1,12 +1,12 @@
 ---
 UID: NE:objidl.tagMKSYS
 title: MKSYS (objidl.h)
-author: windows-sdk-content
+
 description: Indicates the moniker's class.
 old-location: com\mksys.htm
 tech.root: com
 ms.assetid: f0d8ab71-5be9-4a5c-a036-d3a0a90a053f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MKSYS, MKSYS enumeration [COM], MKSYS_ANTIMONIKER, MKSYS_CLASSMONIKER, MKSYS_FILEMONIKER, MKSYS_GENERICCOMPOSITE, MKSYS_ITEMMONIKER, MKSYS_LUAMONIKER, MKSYS_NONE, MKSYS_OBJREFMONIKER, MKSYS_POINTERMONIKER, MKSYS_SESSIONMONIKER, _com_MKSYS, com.mksys, objidl/MKSYS, objidl/MKSYS_ANTIMONIKER, objidl/MKSYS_CLASSMONIKER, objidl/MKSYS_FILEMONIKER, objidl/MKSYS_GENERICCOMPOSITE, objidl/MKSYS_ITEMMONIKER, objidl/MKSYS_LUAMONIKER, objidl/MKSYS_NONE, objidl/MKSYS_OBJREFMONIKER, objidl/MKSYS_POINTERMONIKER, objidl/MKSYS_SESSIONMONIKER
 ms.topic: enum

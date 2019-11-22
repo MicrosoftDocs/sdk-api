@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(const XMCOLOR &)
 title: XMCOLOR::XMCOLOR(const XMCOLOR &) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMCOLOR.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR.XMCOLOR(const XMCOLOR &), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(const XMCOLOR &), dxmath.xmcolor_ctor_1
 ms.topic: method

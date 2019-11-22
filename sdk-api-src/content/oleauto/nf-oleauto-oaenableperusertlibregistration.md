@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.OaEnablePerUserTLibRegistration
 title: OaEnablePerUserTLibRegistration function (oleauto.h)
-author: windows-sdk-content
+
 description: Enables the RegisterTypeLib function to override default registry mappings under Windows Vista Service Pack 1 (SP1), Windows Server 2008, and later operating system versions.
 old-location: automat\oaenableperusertlibregistration.htm
 tech.root: automat
 ms.assetid: 356af9a9-77f9-4699-abc3-ab3ff1db2915
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OaEnablePerUserTLibRegistration, OaEnablePerUserTLibRegistration function [Automation], _oa96_OaEnablePerUserTlibRegistration, automat.oaenableperusertlibregistration, oleauto/OaEnablePerUserTLibRegistration
 ms.topic: function

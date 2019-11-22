@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 title: ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite (winsync.h)
-author: windows-sdk-content
+
 description: Gets the knowledge that the destination replica learns when the destination provider applies this change, based on the prerequisite knowledge that is associated with the change.
 old-location: winsync\isyncchangewithprerequisite_getlearnedknowledgewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 5717f126-9383-4304-88eb-1d0fa3bb762f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangewithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 ms.topic: method

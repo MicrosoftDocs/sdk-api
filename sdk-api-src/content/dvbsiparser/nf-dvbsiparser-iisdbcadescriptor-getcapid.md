@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetCAPID
 title: IIsdbCADescriptor::GetCAPID (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the conditional access (CA) program identifier (PID) from a conditional access descriptor.
 old-location: mstv\iisdbcadescriptor_getcapid.htm
 tech.root: mstv
 ms.assetid: 9d4815f2-7f58-4952-a64b-067c99ae8d43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCAPID, GetCAPID method [Microsoft TV Technologies], GetCAPID method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetCAPID method, IIsdbCADescriptor.GetCAPID, IIsdbCADescriptor::GetCAPID, dvbsiparser/IIsdbCADescriptor::GetCAPID, mstv.iisdbcadescriptor_getcapid
 ms.topic: method

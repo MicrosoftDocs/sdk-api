@@ -1,12 +1,12 @@
 ---
 UID: NN:xamlom.IBitmapData
 title: IBitmapData (xamlom.h)
-author: windows-sdk-content
+
 description: Represents an image associated with a node in the visual tree.
 old-location: xaml_diagnostics\ibitmapdata.htm
 tech.root: xaml_diagnostics
 ms.assetid: 5B833E2A-D150-4ECA-88C8-CEEDBF2E23C6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBitmapData, IBitmapData interface, IBitmapData interface,described, xaml_diagnostics.ibitmapdata, xamlom/IBitmapData
 ms.topic: interface

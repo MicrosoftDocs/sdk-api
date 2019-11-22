@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_GetNextSelected
 title: TreeView_GetNextSelected macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the tree-view item that bears the TVGN_NEXTSELECTED relationship to a specified tree item.
 old-location: controls\TreeView_GetNextSelected.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextSelected, TreeView_GetNextSelected macro [Windows Controls], _shell_TreeView_GetNextSelected, _shell_TreeView_GetNextSelected_cpp, commctrl/TreeView_GetNextSelected, controls.TreeView_GetNextSelected, controls._shell_TreeView_GetNextSelected
 ms.topic: macro

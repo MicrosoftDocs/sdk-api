@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CloseClusterGroupSet
 title: CloseClusterGroupSet function (clusapi.h)
-author: windows-sdk-content
+
 description: Closes a groupset handle returned from OpenClusterGroupSet.
 old-location: mscs\closeclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.OperationStart
 title: OperationStart function (winbase.h)
-author: windows-sdk-content
+
 description: Notifies the system that the application is about to start an operation.
 old-location: oprec\operationstart.htm
 tech.root: oprec
 ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
 ms.topic: function

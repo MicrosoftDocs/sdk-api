@@ -1,12 +1,12 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_ENTRY_INFOW
 title: INTERNET_CACHE_ENTRY_INFOW (wininet.h)
-author: windows-sdk-content
+
 description: Contains information about an entry in the Internet cache.
 old-location: wininet\internet_cache_entry_info.htm
 tech.root: wininet
 ms.assetid: 7bda08e0-5df0-4087-a5cd-3a25c6ae5ade
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERNET_CACHE_ENTRY_INFOW, COOKIE_CACHE_ENTRY, EDITED_CACHE_ENTRY, INTERNET_CACHE_ENTRY_INFO, INTERNET_CACHE_ENTRY_INFO structure [WinINet], INTERNET_CACHE_ENTRY_INFOA, INTERNET_CACHE_ENTRY_INFOW, LPINTERNET_CACHE_ENTRY_INFO, LPINTERNET_CACHE_ENTRY_INFO structure pointer [WinINet], NORMAL_CACHE_ENTRY, SPARSE_CACHE_ENTRY, STICKY_CACHE_ENTRY, TRACK_OFFLINE_CACHE_ENTRY, TRACK_ONLINE_CACHE_ENTRY, URLHISTORY_CACHE_ENTRY, _inet_internet_cache_entry_info_structure, wininet.internet_cache_entry_info, wininet/INTERNET_CACHE_ENTRY_INFO, wininet/INTERNET_CACHE_ENTRY_INFOA, wininet/INTERNET_CACHE_ENTRY_INFOW, wininet/LPINTERNET_CACHE_ENTRY_INFO"
 ms.topic: struct

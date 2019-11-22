@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_ElapsedTime
 title: IDiscFormat2DataEventArgs::get_ElapsedTime (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2dataeventargs_get_elapsedtime.htm
 tech.root: imapi
 ms.assetid: 5ac3c261-dedc-4316-9241-387fc222443d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2DataEventArgs.get_ElapsedTime, IDiscFormat2DataEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_elapsedtime, imapi2/IDiscFormat2DataEventArgs::get_ElapsedTime
 ms.topic: method

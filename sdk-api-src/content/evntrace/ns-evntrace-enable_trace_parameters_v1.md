@@ -1,12 +1,12 @@
 ---
 UID: NS:evntrace._ENABLE_TRACE_PARAMETERS_V1
 title: ENABLE_TRACE_PARAMETERS_V1 (evntrace.h)
-author: windows-sdk-content
+
 description: Defines the information used to enable a provider.
 old-location: etw\enable_trace_parameters_v1.htm
 tech.root: ETW
 ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PENABLE_TRACE_PARAMETERS_V1, ENABLE_TRACE_PARAMETERS_V1, ENABLE_TRACE_PARAMETERS_V1 structure [ETW], EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_STACK_TRACE, EVENT_ENABLE_PROPERTY_TS_ID, PENABLE_TRACE_PARAMETERS_V1, PENABLE_TRACE_PARAMETERS_V1 structure pointer [ETW], _ENABLE_TRACE_PARAMETERS_V1, etw.enable_trace_parameters_v1, evntrace/ENABLE_TRACE_PARAMETERS_V1, evntrace/PENABLE_TRACE_PARAMETERS_V1'
 ms.topic: struct

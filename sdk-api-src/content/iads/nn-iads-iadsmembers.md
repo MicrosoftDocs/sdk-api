@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsMembers
 title: IADsMembers (iads.h)
-author: windows-sdk-content
+
 description: The IADsMembers interface is a dual interface.
 old-location: adsi\iadsmembers.htm
 tech.root: adsi
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
 ms.topic: interface

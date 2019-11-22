@@ -1,12 +1,12 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecStrings
 title: IWMCodecStrings (wmcodecdsp.h)
-author: windows-sdk-content
+
 description: Retrieves names and descriptive strings for codecs and formats.
 old-location: mf\iwmcodecstringsinterface.htm
 tech.root: medfound
 ms.assetid: 84b6223e-d42a-47b0-8553-2b4d69de2da3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings
 ms.topic: interface

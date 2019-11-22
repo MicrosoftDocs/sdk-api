@@ -1,7 +1,7 @@
 ---
 UID: NA:dmusics
 ms.assetid: a30d8fed-43b7-3059-ad8a-ab084c81edf4
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

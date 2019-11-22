@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCompartmentEventSink.OnChange
 title: ITfCompartmentEventSink::OnChange (msctf.h)
-author: windows-sdk-content
+
 description: ITfCompartmentEventSink::OnChange method
 old-location: tsf\itfcompartmenteventsink_onchange.htm
 tech.root: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
 ms.topic: method

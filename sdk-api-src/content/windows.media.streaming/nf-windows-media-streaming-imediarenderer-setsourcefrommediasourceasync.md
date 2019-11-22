@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetSourceFromMediaSourceAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Instructs the DMR asynchronously to prepare the specified content for playing.
 old-location: mediastreaming\imediarenderer_setsourcefrommediasourceasync.htm
 tech.root: mediastreaming
 ms.assetid: AC30F3C4-30DD-41B1-B2CE-5F908588A779
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetSourceFromMediaSourceAsync method, IMediaRenderer.SetSourceFromMediaSourceAsync, IMediaRenderer.streaming, IMediaRenderer::SetSourceFromMediaSourceAsync, IMediaRenderer::streaming, SetSourceFromMediaSourceAsync, SetSourceFromMediaSourceAsync method [Media Streaming API], SetSourceFromMediaSourceAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setsourcefrommediasourceasync, windows/IMediaRenderer::SetSourceFromMediaSourceAsync
 ms.topic: method

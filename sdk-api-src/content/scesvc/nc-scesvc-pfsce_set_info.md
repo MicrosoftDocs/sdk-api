@@ -1,12 +1,12 @@
 ---
 UID: NC:scesvc.PFSCE_SET_INFO
 title: PFSCE_SET_INFO (scesvc.h)
-author: windows-sdk-content
+
 description: Sets or overwrites service-specific configuration and analysis information.
 old-location: security\pfsce_set_info.htm
 tech.root: SecMgmt
 ms.assetid: 131585a9-b0a9-4686-84ba-237bcdcc4f5f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, PFSCE_SET_INFO, PFSCE_SET_INFO callback, PFSCE_SET_INFO callback function [Security], SCESVC_ANALYSIS_INFO, SCESVC_CONFIGURATION_INFO, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, TRUE, _config_pfsce_set_info, scesvc/PFSCE_SET_INFO, security.pfsce_set_info
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICGetBuffersWanted
 title: ICGetBuffersWanted macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICGetBuffersWanted macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the ICM_GETBUFFERSWANTED message.
 old-location: multimedia\icgetbufferswanted.htm
 tech.root: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
 ms.topic: macro

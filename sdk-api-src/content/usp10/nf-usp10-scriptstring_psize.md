@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptString_pSize
 title: ScriptString_pSize function (usp10.h)
-author: windows-sdk-content
+
 description: Returns a pointer to a SIZE structure for an analyzed string.
 old-location: intl\scriptstring_psize.htm
 tech.root: Intl
 ms.assetid: 2938e600-3f6b-4178-bc0f-bcbcd97b9d04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalization for Windows Applications], _win32_ScriptString_pSize, intl.scriptstring_psize, usp10/ScriptString_pSize
 ms.topic: function

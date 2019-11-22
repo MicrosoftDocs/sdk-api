@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_XML_INT64_TEXT
 title: WS_XML_INT64_TEXT (webservices.h)
-author: windows-sdk-content
+
 description: Represents a signed 64 bit integer.
 old-location: wsw\ws_xml_int64_text.htm
 tech.root: wsw
 ms.assetid: 2ccf5915-160a-4d4e-8a72-b2a3411336fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_XML_INT64_TEXT, WS_XML_INT64_TEXT structure [Web Services for Windows], webservices/WS_XML_INT64_TEXT, wsw.ws_xml_int64_text
 ms.topic: struct

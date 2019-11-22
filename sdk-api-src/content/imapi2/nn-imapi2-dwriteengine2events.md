@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2.DWriteEngine2Events
 title: DWriteEngine2Events (imapi2.h)
-author: windows-sdk-content
+
 description: Implement this interface to receive notifications of the current write operation.
 old-location: imapi\dwriteengine2events.htm
 tech.root: imapi
 ms.assetid: 697f8247-6940-4b5e-8521-df89838837be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
 ms.topic: interface

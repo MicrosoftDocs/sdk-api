@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetWow64Context
 title: ITargetInfo::SetWow64Context (wcmconfig.h)
-author: windows-sdk-content
+
 description: Sets an opaque context object for wow64 redirection.
 old-location: smi\itargetinfo_setwow64context.htm
 tech.root: SMI
 ms.assetid: 8f44485d-0ad3-4c89-a1dc-19610f717972
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetWow64Context method, ITargetInfo.SetWow64Context, ITargetInfo::SetWow64Context, SetWow64Context, SetWow64Context method [SMI], SetWow64Context method [SMI],ITargetInfo interface, smi.itargetinfo_setwow64context, wcmconfig/ITargetInfo::SetWow64Context
 ms.topic: method

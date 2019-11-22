@@ -1,12 +1,12 @@
 ---
 UID: NF:shcore.CreateRandomAccessStreamOverStream
 title: CreateRandomAccessStreamOverStream function (shcore.h)
-author: windows-sdk-content
+
 description: Creates a Windows Runtime random access stream around an IStream base implementation.
 old-location: winrt\createrandomaccessstreamoverstream.htm
 tech.root: WinRT
 ms.assetid: 7A4BA702-0E2E-4FA9-8BEB-313D2D29762E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRandomAccessStreamOverStream, CreateRandomAccessStreamOverStream function [Windows Runtime], shcore/CreateRandomAccessStreamOverStream, winrt.createrandomaccessstreamoverstream
 ms.topic: function

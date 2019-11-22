@@ -1,12 +1,12 @@
 ---
 UID: NF:tdh.TdhSetDecodingParameter
 title: TdhSetDecodingParameter function (tdh.h)
-author: windows-sdk-content
+
 description: Sets the value of a decoding parameter.
 old-location: etw\tdhsetdecodingparameter.htm
 tech.root: ETW
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TdhSetDecodingParameter, TdhSetDecodingParameter function [ETW], etw.tdhsetdecodingparameter, tdh/TdhSetDecodingParameter
 ms.topic: function

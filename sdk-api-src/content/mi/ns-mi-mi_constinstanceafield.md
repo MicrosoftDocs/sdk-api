@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstInstanceAField
 title: MI_ConstInstanceAField (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constinstanceafield.htm
 tech.root: wmi_v2
 ms.assetid: 529de1de-9a17-4794-8a27-8b58eabad008
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstInstanceAField, MI_ConstInstanceAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstInstanceAField, wmi._mi_constinstanceafield, wmi_v2.mi_constinstanceafield
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarBstrFromUI1
 title: VarBstrFromUI1 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an unsigned char value to a BSTR value.
 old-location: automat\varbstrfromui1.htm
 tech.root: automat
 ms.assetid: 5e71d9f2-55bb-414f-916a-9a3529ff73bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI1, VarBstrFromUI1 function [Automation], _oa96_VarBstrFromUI1, automat.varbstrfromui1, oleauto/VarBstrFromUI1
 ms.topic: function

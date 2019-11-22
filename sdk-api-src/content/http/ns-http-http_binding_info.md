@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_BINDING_INFO
 title: HTTP_BINDING_INFO (http.h)
-author: windows-sdk-content
+
 description: Used to associate a URL Group with a request queue.
 old-location: http\http_binding_info.htm
 tech.root: http
 ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO'
 ms.topic: struct

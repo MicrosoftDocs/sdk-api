@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGdiCompatibleMetrics
 title: IDWriteFontFace::GetGdiCompatibleMetrics (dwrite.h)
-author: windows-sdk-content
+
 description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a fontface and are used by applications for layout calculations.
 old-location: directwrite\idwritefontface_getgdicompatiblemetrics.htm
 tech.root: DirectWrite
 ms.assetid: 9e132ec0-64cb-4681-b079-02a0047badd5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleMetrics, GetGdiCompatibleMetrics method [Direct Write], GetGdiCompatibleMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleMetrics method, IDWriteFontFace.GetGdiCompatibleMetrics, IDWriteFontFace::GetGdiCompatibleMetrics, directwrite.idwritefontface_getgdicompatiblemetrics, dwrite/IDWriteFontFace::GetGdiCompatibleMetrics
 ms.topic: method

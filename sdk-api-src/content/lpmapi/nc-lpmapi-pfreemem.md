@@ -1,12 +1,12 @@
 ---
 UID: NC:lpmapi.PFREEMEM
 title: PFREEMEM (lpmapi.h)
-author: windows-sdk-content
+
 description: The PFREEMEM function is a memory-freeing function provided by the PCM.
 old-location: qos\pfreemem.htm
 tech.root: QOS
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
 ms.topic: callback

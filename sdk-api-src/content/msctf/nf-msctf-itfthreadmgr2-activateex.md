@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ActivateEx
 title: ITfThreadMgr2::ActivateEx (msctf.h)
-author: windows-sdk-content
+
 description: Initializes and activates TSF for the calling thread with a flag that specifies how TSF is activated.
 old-location: tsf\itfthreadmgr2_activateex.htm
 tech.root: TSF
 ms.assetid: 0ADA34C7-6BE8-4719-B220-1F0E5F466178
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],ActivateEx method, ITfThreadMgr2.ActivateEx, ITfThreadMgr2::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgr2::ActivateEx, tsf.itfthreadmgr2_activateex
 ms.topic: method

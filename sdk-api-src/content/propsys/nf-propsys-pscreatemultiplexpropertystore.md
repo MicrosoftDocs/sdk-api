@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSCreateMultiplexPropertyStore
 title: PSCreateMultiplexPropertyStore function (propsys.h)
-author: windows-sdk-content
+
 description: Creates a read-only property store that contains multiple property stores, each of which must support either IPropertyStore or IPropertySetStorage.
 old-location: properties\PSCreateMultiplexPropertyStore.htm
 tech.root: properties
 ms.assetid: 4a6b5a10-5ef2-42c7-bf3b-dfa743be252f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSCreateMultiplexPropertyStore, PSCreateMultiplexPropertyStore function [Windows Properties], _shell_PSCreateMultiplexPropertyStore, properties.PSCreateMultiplexPropertyStore, propsys/PSCreateMultiplexPropertyStore, shell.PSCreateMultiplexPropertyStore
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetAngle(IDCompositionAnimation)
 title: IDCompositionRotateTransform::SetAngle(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the Angle property of a 2D rotation transform. The Angle property specifies the rotation angle.
 old-location: directcomp\idcompositionrotatetransform_setangle_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 85C62F2A-06B2-48FE-8416-16DEDC86E516
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetAngle method, IDCompositionRotateTransform.SetAngle, IDCompositionRotateTransform.SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle, IDCompositionRotateTransform::SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle(IDCompositionAnimation*), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetAngle, directcomp.idcompositionrotatetransform_setangle_idcompositionanimation
 ms.topic: method

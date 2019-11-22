@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.ShouldBlockRevert
 title: ShouldBlockRevert function (vsbackup.h)
-author: windows-sdk-content
+
 description: Checks the registry for writers that should block revert operations on the specified volume.
 old-location: base\shouldblockrevert.htm
 tech.root: VSS
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
 ms.topic: function

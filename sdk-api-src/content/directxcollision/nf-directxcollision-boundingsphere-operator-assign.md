@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingSphere.operator-assign
 title: BoundingSphere::operator-assign
-author: windows-sdk-content
+
 description: Initializes the BoundingSphere with values from a specified BoundingSphere.
 old-location: dxmath\boundingsphere_op_assignment.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.op_Assignment(BoundingSphere)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],op_Assignment method, BoundingSphere.op_Assignment, BoundingSphere.operator-assign, BoundingSphere.operator=, BoundingSphere::operator-assign, BoundingSphere::operator=, Use DirectX..BoundingSphere.op_Assignment, Use DirectX::::BoundingSphere::op_Assignment, dxmath.boundingsphere_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingSphere interface, operator=
 ms.topic: method

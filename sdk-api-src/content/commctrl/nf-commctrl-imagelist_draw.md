@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ImageList_Draw
 title: ImageList_Draw function (commctrl.h)
-author: windows-sdk-content
+
 description: Draws an image list item in the specified device context.
 old-location: controls\ImageList_Draw.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_draw.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_Draw, ImageList_Draw function [Windows Controls], _win32_ImageList_Draw, _win32_ImageList_Draw_cpp, commctrl/ImageList_Draw, controls.ImageList_Draw, controls._win32_ImageList_Draw
 ms.topic: function

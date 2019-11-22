@@ -1,12 +1,12 @@
 ---
 UID: NF:wabapi.IWABObject.VCardDisplay
 title: IWABObject::VCardDisplay (wabapi.h)
-author: windows-sdk-content
+
 description: Displays properties on a vCard file.
 old-location: wab\_wab_IWABObject_VCardDisplay.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcarddisplay.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardDisplay method, IWABObject.VCardDisplay, IWABObject::VCardDisplay, VCardDisplay, VCardDisplay method [Windows Address Book], VCardDisplay method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardDisplay, wab._wab_IWABObject_VCardDisplay, wabapi/IWABObject::VCardDisplay
 ms.topic: method

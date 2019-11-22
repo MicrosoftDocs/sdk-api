@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_STATE_SUBOBJECT
 title: D3D12_STATE_SUBOBJECT (d3d12.h)
-author: windows-sdk-content
+
 description: Represents a subobject with in a state object description. Use with D3D12_STATE_OBJECT_DESC.
 old-location: direct3d12\d3d12_state_subobject.htm
 tech.root: direct3d12
 ms.assetid: D721F0F2-B061-4BDC-83F7-7B08DDC39F34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_SUBOBJECT, D3D12_STATE_SUBOBJECT structure, PD3D12_STATE_SUBOBJECT, PD3D12_STATE_SUBOBJECT structure pointer, d3d12/D3D12_STATE_SUBOBJECT, d3d12/PD3D12_STATE_SUBOBJECT, direct3d12.d3d12_state_subobject
 ms.topic: struct

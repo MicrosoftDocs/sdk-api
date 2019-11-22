@@ -1,12 +1,12 @@
 ---
 UID: NS:sspi._CREDUIWIN_MARSHALED_CONTEXT
 title: CREDUIWIN_MARSHALED_CONTEXT (sspi.h)
-author: windows-sdk-content
+
 description: Specifies credential information that has been serialized by using the ICredentialProvider::SetSerialization method.
 old-location: security\creduiwin_marshaled_context.htm
 tech.root: SecAuthN
 ms.assetid: 61e0c9c8-f484-42a9-95c2-5ab77fb20c6c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT structure [Security], PCREDUIWIN_MARSHALED_CONTEXT, PCREDUIWIN_MARSHALED_CONTEXT structure pointer [Security], security.creduiwin_marshaled_context, sspi/CREDUIWIN_MARSHALED_CONTEXT, sspi/PCREDUIWIN_MARSHALED_CONTEXT'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._KERB_BINDING_CACHE_ENTRY_DATA
 title: KERB_BINDING_CACHE_ENTRY_DATA (ntsecapi.h)
-author: windows-sdk-content
+
 description: Specifies the data for the binding cache entry.
 old-location: security\kerb_binding_cache_entry_data.htm
 tech.root: SecAuthN
 ms.assetid: C5452477-B412-4E0C-B692-D79A47B8025A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_BINDING_CACHE_ENTRY_DATA, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_BINDING_CACHE_ENTRY_DATA, KERB_BINDING_CACHE_ENTRY_DATA structure [Security], KERB_NO_DC_FLAGS, PKERB_BINDING_CACHE_ENTRY_DATA, PKERB_BINDING_CACHE_ENTRY_DATA structure pointer [Security], ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA, security.kerb_binding_cache_entry_data'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetTop
 title: ITfDocumentMgr::GetTop (msctf.h)
-author: windows-sdk-content
+
 description: ITfDocumentMgr::GetTop method
 old-location: tsf\itfdocumentmgr_gettop.htm
 tech.root: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [Text Services Framework], GetTop method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetTop method, ITfDocumentMgr.GetTop, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
 ms.topic: method

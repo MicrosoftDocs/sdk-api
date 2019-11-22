@@ -1,12 +1,12 @@
 ---
 UID: NN:wabapi.IWABObject
 title: IWABObject (wabapi.h)
-author: windows-sdk-content
+
 description: Do not use. This interface provides access to the Windows Address Book (WAB) object which contains function pointers to memory allocation functions and database maintenance functions.
 old-location: wab\_wab_IWABObject.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\iwabobject.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book],described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
 ms.topic: interface

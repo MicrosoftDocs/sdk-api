@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.LineCap
 title: LineCap (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The LineCap enumeration specifies the type of graphic shape to use on the end of a line drawn with a Windows GDI+ pen.
 old-location: gdiplus\_gdiplus_ENUM_LineCap.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linecap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LineCap, LineCap enumeration [GDI+], LineCapArrowAnchor, LineCapCustom, LineCapDiamondAnchor, LineCapFlat, LineCapNoAnchor, LineCapRound, LineCapRoundAnchor, LineCapSquare, LineCapSquareAnchor, LineCapTriangle, _gdiplus_ENUM_LineCap, gdiplus._gdiplus_ENUM_LineCap, gdiplusenums/LineCap, gdiplusenums/LineCapArrowAnchor, gdiplusenums/LineCapCustom, gdiplusenums/LineCapDiamondAnchor, gdiplusenums/LineCapFlat, gdiplusenums/LineCapNoAnchor, gdiplusenums/LineCapRound, gdiplusenums/LineCapRoundAnchor, gdiplusenums/LineCapSquare, gdiplusenums/LineCapSquareAnchor, gdiplusenums/LineCapTriangle
 ms.topic: enum

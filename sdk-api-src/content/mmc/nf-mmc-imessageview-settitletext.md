@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IMessageView.SetTitleText
 title: IMessageView::SetTitleText (mmc.h)
-author: windows-sdk-content
+
 description: The IMessageView::SetTitleText method enables a snap-in to set the title text for the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_settitletext.htm
 tech.root: mmc
 ms.assetid: e041cf74-9fdd-489c-a251-e5b3e55e1bc5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMessageView interface [MMC],SetTitleText method, IMessageView.SetTitleText, IMessageView::SetTitleText, SetTitleText, SetTitleText method [MMC], SetTitleText method [MMC],IMessageView interface, _slate_imessageview_settitletext, mmc.imessageview_settitletext, mmc/IMessageView::SetTitleText
 ms.topic: method

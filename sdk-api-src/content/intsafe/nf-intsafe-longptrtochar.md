@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongPtrToChar
 title: LongPtrToChar function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type LONG_PTR to a value of type CHAR.
 old-location: shell\LongPtrToChar.htm
 tech.root: shell
 ms.assetid: 661b7a6f-5524-44e5-9999-61c9df8e7cd3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LongPtrToChar, LongPtrToChar function [Windows Shell], intsafe/LongPtrToChar, shell.LongPtrToChar
 ms.topic: function

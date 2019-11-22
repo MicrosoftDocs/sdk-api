@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixLookAtLH
 title: XMMatrixLookAtLH function (directxmath.h)
-author: windows-sdk-content
+
 description: Builds a view matrix for a left-handed coordinate system using a camera position, an up direction, and a focal point.
 old-location: dxmath\xmmatrixlookatlh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookAtLH(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixLookAtLH, XMMatrixLookAtLH, XMMatrixLookAtLH method [DirectX Math Support APIs], dxmath.xmmatrixlookatlh
 ms.topic: function

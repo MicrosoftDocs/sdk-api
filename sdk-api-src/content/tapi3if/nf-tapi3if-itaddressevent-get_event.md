@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAddressEvent.get_Event
 title: ITAddressEvent::get_Event (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Event method gets the ADDRESS_EVENT descriptor of an event.
 old-location: tapi3\itaddressevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 46dc4ce8-2453-47bb-a101-d925c9317b90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Event method, ITAddressEvent.get_Event, ITAddressEvent::get_Event, _tapi3_itaddressevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_event, tapi3if/ITAddressEvent::get_Event
 ms.topic: method

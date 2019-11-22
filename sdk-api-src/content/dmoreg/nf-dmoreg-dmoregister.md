@@ -1,12 +1,12 @@
 ---
 UID: NF:dmoreg.DMORegister
 title: DMORegister function (dmoreg.h)
-author: windows-sdk-content
+
 description: The DMORegister function registers a DMO.
 old-location: dshow\dmoregister.htm
 tech.root: DirectShow
 ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
 ms.topic: function

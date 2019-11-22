@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_QUERY_RM_INFORMATION
 title: FSCTL_TXFS_QUERY_RM_INFORMATION
-author: windows-sdk-content
+
 description: Retrieves information for a resource manager (RM).
 old-location: fs\fsctl_txfs_query_rm_information.htm
 tech.root: FileIO
 ms.assetid: 24e80fdb-9243-455a-a2bf-7bf9b0a61efb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_QUERY_RM_INFORMATION, FSCTL_TXFS_QUERY_RM_INFORMATION control, FSCTL_TXFS_QUERY_RM_INFORMATION control code [Files], base.fsctl_txfs_query_rm_information, fs.fsctl_txfs_query_rm_information, winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
 ms.topic: ioctl

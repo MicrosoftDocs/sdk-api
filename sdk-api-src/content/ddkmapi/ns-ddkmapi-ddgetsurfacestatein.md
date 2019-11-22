@@ -1,12 +1,12 @@
 ---
 UID: NS:ddkmapi._DDGETSURFACESTATEIN
 title: DDGETSURFACESTATEIN (ddkmapi.h)
-author: windows-sdk-content
+
 description: The DDGETSURFACESTATEIN structure contains the Microsoft DirectDraw and DirectDraw surface handle information.
 old-location: display\ddgetsurfacestatein.htm
 tech.root: display
 ms.assetid: 689b5563-5f8d-4050-af6d-f1c5683f07a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDDGETSURFACESTATEIN, DDGETSURFACESTATEIN, DDGETSURFACESTATEIN structure [Display Devices], LPDDGETSURFACESTATEIN, LPDDGETSURFACESTATEIN structure pointer [Display Devices], ddkmapi/DDGETSURFACESTATEIN, ddkmapi/LPDDGETSURFACESTATEIN, ddstrcts_af2430eb-e7b8-4b9a-aa51-e1765608eb0b.xml, display.ddgetsurfacestatein"
 ms.topic: struct

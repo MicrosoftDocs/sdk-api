@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 title: IMSVidStreamBufferSink3::get_VideoAnalysisFilter (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_videoanalysisfilter.htm
 tech.root: mstv
 ms.assetid: 4f4080d3-4092-4a36-9e2e-5a53bffe9ee3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoAnalysisFilter method, IMSVidStreamBufferSink3.get_VideoAnalysisFilter, IMSVidStreamBufferSink3::get_VideoAnalysisFilter, IMSVidStreamBufferSink3get_VideoAnalysisFilter, get_VideoAnalysisFilter, get_VideoAnalysisFilter method [Microsoft TV Technologies], get_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videoanalysisfilter, segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_SubscriberID
 title: IMbnSubscriberInformation::get_SubscriberID (mbnapi.h)
-author: windows-sdk-content
+
 description: The subscriber ID of the device.
 old-location: mbn\imbnsubscriberinformation_subscriberid.htm
 tech.root: mbn
 ms.assetid: 5ea22495-44b3-4b2b-8c7a-a012f9c99387
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SubscriberID property, IMbnSubscriberInformation.SubscriberID, IMbnSubscriberInformation.get_SubscriberID, IMbnSubscriberInformation::SubscriberID, IMbnSubscriberInformation::get_SubscriberID, SubscriberID property [Microsoft Broadband Networks], SubscriberID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SubscriberID, mbn.imbnsubscriberinformation_subscriberid, mbnapi/IMbnSubscriberInformation::SubscriberID, mbnapi/IMbnSubscriberInformation::get_SubscriberID
 ms.topic: method

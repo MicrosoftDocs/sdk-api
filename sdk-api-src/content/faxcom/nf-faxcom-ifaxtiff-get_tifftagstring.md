@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_TiffTagString
 title: IFaxTiff::get_TiffTagString (faxcom.h)
-author: windows-sdk-content
+
 description: Retrieves the TiffTagString property for a FaxTiff object. The TiffTagString property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_tifftagstring_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pif.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],TiffTagString property, IFaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::TiffTagString, IFaxTiff::get_TiffTagString, IFaxTiff::put_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_tifftagstring_cpp, faxcom/IFaxTiff::TiffTagString, faxcom/IFaxTiff::get_TiffTagString, faxcom/IFaxTiff::put_TiffTagString, get_TiffTagString
 ms.topic: method

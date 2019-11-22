@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_DefaultFrequencyMapping
 title: IFrequencyMap::get_DefaultFrequencyMapping (bdaiface.h)
-author: windows-sdk-content
+
 description: The get_DefaultFrequencyMapping method returns the default frequency table for a given country/region code.
 old-location: mstv\ifrequencymap_get_defaultfrequencymapping.htm
 tech.root: mstv
 ms.assetid: 67057c70-cb4d-4828-ad97-cf0181bd8cfe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_DefaultFrequencyMapping method, IFrequencyMap.get_DefaultFrequencyMapping, IFrequencyMap::get_DefaultFrequencyMapping, IFrequencyMapget_DefaultMapping, bdaiface/IFrequencyMap::get_DefaultFrequencyMapping, get_DefaultFrequencyMapping, get_DefaultFrequencyMapping method [Microsoft TV Technologies], get_DefaultFrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_defaultfrequencymapping
 ms.topic: method

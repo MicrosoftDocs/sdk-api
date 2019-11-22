@@ -1,12 +1,12 @@
 ---
 UID: NS:joystickapi.joyinfoex_tag
 title: JOYINFOEX (joystickapi.h)
-author: windows-sdk-content
+
 description: The JOYINFOEX structure contains extended information about the joystick position, point-of-view position, and button state.
 old-location: multimedia\joyinfoex.htm
 tech.root: Multimedia
 ms.assetid: 2c07b56b-a9d5-450f-96ca-0fdaf60c52a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPJOYINFOEX, *NPJOYINFOEX, *PJOYINFOEX, JOYINFOEX, JOYINFOEX structure [Windows Multimedia], _win32_JOYINFOEX_str, joyinfoex_tag, joystickapi/JOYINFOEX, multimedia.joyinfoex"
 ms.topic: struct

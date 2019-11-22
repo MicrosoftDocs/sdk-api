@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetDesc
 title: IDXGIOutputDuplication::GetDesc (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Retrieves a description of a duplicated output. This description specifies the dimensions of the surface that contains the desktop image.
 old-location: direct3ddxgi\idxgioutputduplication_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: 40D2CF38-1528-48A4-BC0C-5D8CC132D0CB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetDesc method, IDXGIOutputDuplication.GetDesc, IDXGIOutputDuplication::GetDesc, direct3ddxgi.idxgioutputduplication_getdesc, dxgi1_2/IDXGIOutputDuplication::GetDesc
 ms.topic: method

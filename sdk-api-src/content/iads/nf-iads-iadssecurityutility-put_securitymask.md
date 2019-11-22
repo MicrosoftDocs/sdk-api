@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsSecurityUtility.put_SecurityMask
 title: IADsSecurityUtility::put_SecurityMask (iads.h)
-author: windows-sdk-content
+
 description: Determines which elements of the security descriptor to retrieve or set.
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsSecurityUtility interface [ADSI],SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility.put_SecurityMask, IADsSecurityUtility::SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI],IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask, put_SecurityMask
 ms.topic: method

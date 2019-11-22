@@ -1,12 +1,12 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetProperty
 title: IAssemblyName::GetProperty (winsxs.h)
-author: windows-sdk-content
+
 description: The GetProperty method gets the value of a name-value pair in the assembly name.
 old-location: setup\iassemblyname_getproperty.htm
 tech.root: SbsCs
 ms.assetid: 0526fac9-1a3f-403b-b886-a7f833913e18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Side-by-side Assemblies], GetProperty method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetProperty method, IAssemblyName.GetProperty, IAssemblyName::GetProperty, setup.iassemblyname_getproperty, winsxs/IAssemblyName::GetProperty
 ms.topic: method

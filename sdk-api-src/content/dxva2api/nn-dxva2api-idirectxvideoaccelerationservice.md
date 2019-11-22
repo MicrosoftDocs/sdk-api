@@ -1,12 +1,12 @@
 ---
 UID: NN:dxva2api.IDirectXVideoAccelerationService
 title: IDirectXVideoAccelerationService (dxva2api.h)
-author: windows-sdk-content
+
 description: Provides DirectX Video Acceleration (DXVA) services from a Direct3D device.
 old-location: mf\idirectxvideoaccelerationservice.htm
 tech.root: medfound
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
 ms.topic: interface

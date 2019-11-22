@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.XAudio2FrequencyRatioToSemitones
 title: XAudio2FrequencyRatioToSemitones function (xaudio2.h)
-author: windows-sdk-content
+
 description: Inline function that converts a frequency ratio value to a semitone value.
 old-location: xaudio2\xaudio2frequencyratiotosemitones.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2FrequencyRatioToSemitones(float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAudio2FrequencyRatioToSemitones, XAudio2FrequencyRatioToSemitones function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2frequencyratiotosemitones, xaudio2/XAudio2FrequencyRatioToSemitones
 ms.topic: function

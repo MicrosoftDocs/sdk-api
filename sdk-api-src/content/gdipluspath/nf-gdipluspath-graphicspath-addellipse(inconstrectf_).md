@@ -3,7 +3,7 @@ UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN const RectF &)
 title: GraphicsPath::AddEllipse
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 ms.assetid: 9acdbd19-0354-4728-a96c-611b93cbffe5
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddEllipse
 ms.topic: language-reference

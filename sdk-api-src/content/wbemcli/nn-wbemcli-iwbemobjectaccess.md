@@ -1,12 +1,12 @@
 ---
 UID: NN:wbemcli.IWbemObjectAccess
 title: IWbemObjectAccess (wbemcli.h)
-author: windows-sdk-content
+
 description: Provides access to the methods and properties of an object.
 old-location: wmi\iwbemobjectaccess.htm
 tech.root: WmiSdk
 ms.assetid: 1025ae50-870f-4d38-8e83-3c6b628315c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], IWbemObjectAccess interface [Windows Management Instrumentation],described, _hmm_iwbemobjectaccess, wbemcli/IWbemObjectAccess, wmi.iwbemobjectaccess
 ms.topic: interface

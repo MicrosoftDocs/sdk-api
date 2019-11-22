@@ -1,12 +1,12 @@
 ---
 UID: NF:ddeml.DdeConnectList
 title: DdeConnectList function (ddeml.h)
-author: windows-sdk-content
+
 description: Establishes a conversation with all server applications that support the specified service name and topic name pair.
 old-location: dataxchg\ddeconnectlist.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeconnectlist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdeConnectList, DdeConnectList function [Data Exchange], _win32_DdeConnectList, _win32_ddeconnectlist_cpp, dataxchg.ddeconnectlist, ddeml/DdeConnectList, winui._win32_ddeconnectlist
 ms.topic: function

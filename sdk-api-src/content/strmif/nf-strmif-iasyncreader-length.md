@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAsyncReader.Length
 title: IAsyncReader::Length (strmif.h)
-author: windows-sdk-content
+
 description: The Length method retrieves the total length of the stream.
 old-location: dshow\iasyncreader_length.htm
 tech.root: DirectShow
 ms.assetid: 4e583ade-92a9-4853-96fb-c46cd24dd7ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Length method, IAsyncReader.Length, IAsyncReader::Length, IAsyncReaderLength, Length, Length method [DirectShow], Length method [DirectShow],IAsyncReader interface, dshow.iasyncreader_length, strmif/IAsyncReader::Length
 ms.topic: method

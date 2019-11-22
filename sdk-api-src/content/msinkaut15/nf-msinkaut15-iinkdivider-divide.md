@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut15.IInkDivider.Divide
 title: IInkDivider::Divide (msinkaut15.h)
-author: windows-sdk-content
+
 description: Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object.
 old-location: tablet\inkdivider_divide.htm
 tech.root: tablet
 ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
 ms.topic: method

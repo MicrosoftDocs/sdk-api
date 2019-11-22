@@ -1,12 +1,12 @@
 ---
 UID: NN:wsddisco.IWSDiscoveredService
 title: IWSDiscoveredService (wsddisco.h)
-author: windows-sdk-content
+
 description: This interface represents a remotely discovered host.
 old-location: ncd\iwsdiscoveredservice.htm
 tech.root: WsdApi
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
 ms.topic: interface

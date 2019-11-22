@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateShaderResourceView
 title: ID3D10Device::CreateShaderResourceView (d3d10.h)
-author: windows-sdk-content
+
 description: Create a shader-resource view for accessing data in a resource.
 old-location: direct3d10\id3d10device_createshaderresourceview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createshaderresourceview.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0714089a-e113-6e43-f46d-91d40fd54005, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 10], CreateShaderResourceView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateShaderResourceView method, ID3D10Device.CreateShaderResourceView, ID3D10Device::CreateShaderResourceView, d3d10/ID3D10Device::CreateShaderResourceView, direct3d10.id3d10device_createshaderresourceview
 ms.topic: method

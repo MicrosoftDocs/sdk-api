@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.Shell_NotifyIconGetRect
 title: Shell_NotifyIconGetRect function (shellapi.h)
-author: windows-sdk-content
+
 description: Gets the screen coordinates of the bounding rectangle of a notification icon.
 old-location: shell\Shell_NotifyIconGetRect.htm
 tech.root: shell
 ms.assetid: 81ad13be-a908-4079-b47c-6f983919700b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows Shell], _shell_Shell_NotifyIconGetRect, shell.Shell_NotifyIconGetRect, shellapi/Shell_NotifyIconGetRect
 ms.topic: function

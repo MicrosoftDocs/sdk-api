@@ -1,12 +1,12 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetKeyLengthList
 title: ICertSrvSetup::GetKeyLengthList (casetup.h)
-author: windows-sdk-content
+
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\icertsrvsetup_getkeylengthlist.htm
 tech.root: SecCrypto
 ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetKeyLengthList method, ICertSrvSetup.GetKeyLengthList, ICertSrvSetup::GetKeyLengthList, casetup/ICertSrvSetup::GetKeyLengthList, security.icertsrvsetup_getkeylengthlist
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndPropStr
 title: IAccPropServices::SetHwndPropStr (oleacc.h)
-author: windows-sdk-content
+
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HWND-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropstr.htm
 tech.root: WinAuto
 ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr method, IAccPropServices.SetHwndPropStr, IAccPropServices::SetHwndPropStr, SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
 ms.topic: method

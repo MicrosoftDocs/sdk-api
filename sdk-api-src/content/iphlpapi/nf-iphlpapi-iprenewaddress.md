@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.IpRenewAddress
 title: IpRenewAddress function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The IpRenewAddressfunction renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\iprenewaddress.htm
 tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
 ms.topic: function

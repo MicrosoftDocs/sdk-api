@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateExA
 title: DirectDrawEnumerateExA function (ddraw.h)
-author: windows-sdk-content
+
 description: Enumerates all DirectDraw devices that are installed on the computer. The NULL entry always identifies the primary display device that is shared with GDI.
 old-location: directdraw\directdrawenumerateex.htm
 tech.root: directdraw
 ms.assetid: 38edfaaf-2c19-4836-b662-343312220032
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDENUM_ATTACHEDSECONDARYDEVICES, DDENUM_DETACHEDSECONDARYDEVICES, DDENUM_NONDISPLAYDEVICES, DirectDrawEnumerateEx, DirectDrawEnumerateEx function [DirectDraw], DirectDrawEnumerateExA, DirectDrawEnumerateExW, ddraw/DirectDrawEnumerateEx, ddraw/DirectDrawEnumerateExA, ddraw/DirectDrawEnumerateExW, directdraw.directdrawenumerateex
 ms.topic: function

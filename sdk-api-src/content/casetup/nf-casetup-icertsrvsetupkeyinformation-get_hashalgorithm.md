@@ -1,12 +1,12 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_HashAlgorithm
 title: ICertSrvSetupKeyInformation::get_HashAlgorithm (casetup.h)
-author: windows-sdk-content
+
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
 tech.root: SecCrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.get_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, get_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
 ms.topic: method

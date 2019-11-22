@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetComponent
 title: IVssExamineWriterMetadata::GetComponent (vsbackup.h)
-author: windows-sdk-content
+
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
 tech.root: VSS
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
 ms.topic: method

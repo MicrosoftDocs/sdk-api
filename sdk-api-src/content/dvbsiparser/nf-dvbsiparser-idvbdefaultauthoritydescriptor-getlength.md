@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetLength
 title: IDvbDefaultAuthorityDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the body length of a default authority descriptor from a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9eb76e79-d7a3-419b-9c3e-6d4e16486ff3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDefaultAuthorityDescriptor.GetLength, IDvbDefaultAuthorityDescriptor::GetLength, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetLength, mstv.idvbdefaultauthoritydescriptor_getlength
 ms.topic: method

@@ -1,7 +1,7 @@
 ---
 UID: TP:nps
 ms.assetid: 0c90371a-4fbc-3820-9927-410a17fbda43
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NS:windns.__unnamed_struct_8
 title: DNS_MINFO_DATAA (windns.h)
-author: windows-sdk-content
+
 description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
 old-location: dns\dns_minfo_data.htm
 tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAA, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAA, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:syncmgr.ISyncMgrControl
 title: ISyncMgrControl (syncmgr.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow an application or handler to start or stop a synchronization, notify Sync Center of changes to the set of handlers or items, or notify of changes to property values.
 old-location: shell\ISyncMgrControl.htm
 tech.root: shell
 ms.assetid: 197c4e6f-ffc4-4f19-a5bd-6859eef953c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], ISyncMgrControl interface [Windows Shell],described, _shell_ISyncMgrControl, shell.ISyncMgrControl, syncmgr/ISyncMgrControl
 ms.topic: interface

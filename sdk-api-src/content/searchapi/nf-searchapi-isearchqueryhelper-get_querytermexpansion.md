@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryTermExpansion
 title: ISearchQueryHelper::get_QueryTermExpansion (searchapi.h)
-author: windows-sdk-content
+
 description: Gets the value that specifies how query terms are to be expanded.
 old-location: search\_search_ISearchQueryHelper_get_QueryTermExpansion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querytermexpansion.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryTermExpansion method, ISearchQueryHelper.get_QueryTermExpansion, ISearchQueryHelper::get_QueryTermExpansion, _search_ISearchQueryHelper_get_QueryTermExpansion, get_QueryTermExpansion, get_QueryTermExpansion method [search], get_QueryTermExpansion method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryTermExpansion, searchapi/ISearchQueryHelper::get_QueryTermExpansion
 ms.topic: method

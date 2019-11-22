@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMGraphStreams.SyncUsingStreamOffset
 title: IAMGraphStreams::SyncUsingStreamOffset (strmif.h)
-author: windows-sdk-content
+
 description: The SyncUsingStreamOffset method enables or disables synchronization using time-stamp offsets.
 old-location: dshow\iamgraphstreams_syncusingstreamoffset.htm
 tech.root: DirectShow
 ms.assetid: 1a61da3a-3933-4543-b733-1b8a60929e43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SyncUsingStreamOffset method, IAMGraphStreams.SyncUsingStreamOffset, IAMGraphStreams::SyncUsingStreamOffset, IAMGraphStreamsSyncUsingStreamOffset, SyncUsingStreamOffset, SyncUsingStreamOffset method [DirectShow], SyncUsingStreamOffset method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_syncusingstreamoffset, strmif/IAMGraphStreams::SyncUsingStreamOffset
 ms.topic: method

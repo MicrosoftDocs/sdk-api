@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_OFFLINE
 title: IOCTL_VOLUME_OFFLINE
-author: windows-sdk-content
+
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm
 tech.root: FileIO
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
 ms.topic: ioctl

@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IDesktopWallpaper
 title: IDesktopWallpaper (shobjidl_core.h)
-author: windows-sdk-content
+
 description: "."
 old-location: shell\IDesktopWallpaper.htm
 tech.root: shell
 ms.assetid: A83903B5-314B-4a8b-8D37-F8A8995DE0CB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper, IDesktopWallpaper interface [Windows Shell], IDesktopWallpaper interface [Windows Shell],described, shell.IDesktopWallpaper, shobjidl_core/IDesktopWallpaper
 ms.topic: interface

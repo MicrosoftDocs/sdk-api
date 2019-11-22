@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer(IN const RectF &,IN const RectF &,IN Unit)
 title: Graphics::BeginContainer (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::BeginContainer method begins a new graphics container.
 old-location: 
 tech.root: gdiplus
 ms.assetid: b8b956a7-98dd-41b9-bd1e-2391985613c1
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics::BeginContainer, _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnLMInternal.ProcessLattice
 title: ITfFnLMInternal::ProcessLattice (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfFnLMInternal::ProcessLattice method
 old-location: tsf\itffnlminternal_processlattice.htm
 tech.root: TSF
 ms.assetid: bbee5966-b971-4e76-8078-fd2c5d34afcf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMInternal interface [Text Services Framework],ProcessLattice method, ITfFnLMInternal.ProcessLattice, ITfFnLMInternal::ProcessLattice, ProcessLattice, ProcessLattice method [Text Services Framework], ProcessLattice method [Text Services Framework],ITfFnLMInternal interface, _tsf_itffnlminternal_processlattice_ref, ctffunc/ITfFnLMInternal::ProcessLattice, tsf.itffnlminternal_processlattice
 ms.topic: method

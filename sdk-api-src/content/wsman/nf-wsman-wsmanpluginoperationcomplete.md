@@ -1,12 +1,12 @@
 ---
 UID: NF:wsman.WSManPluginOperationComplete
 title: WSManPluginOperationComplete function (wsman.h)
-author: windows-sdk-content
+
 description: Reports the completion of an operation by all operation entry points except for the WSManPluginStartup and WSManPluginShutdown methods.
 old-location: winrm\wsmanpluginoperationcomplete.htm
 tech.root: winrm
 ms.assetid: 6cb47762-edfc-48d7-88ec-d62056ea1751
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSManPluginOperationComplete, WSManPluginOperationComplete function [Windows Remote Management], winrm.wsmanpluginoperationcomplete, wsman/WSManPluginOperationComplete
 ms.topic: function

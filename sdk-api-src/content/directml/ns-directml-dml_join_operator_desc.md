@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_JOIN_OPERATOR_DESC
 title: DML_JOIN_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML operator that performs a join function on an array of input tensors.
 old-location: direct3d12\dml_join_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 48157907-1B0F-4641-949E-0E6C875FF74E
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_JOIN_OPERATOR_DESC, DML_JOIN_OPERATOR_DESC structure, direct3d12.dml_join_operator_desc, directml/DML_JOIN_OPERATOR_DESC
 ms.topic: struct

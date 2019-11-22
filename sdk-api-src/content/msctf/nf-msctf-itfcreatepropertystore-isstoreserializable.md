@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.IsStoreSerializable
 title: ITfCreatePropertyStore::IsStoreSerializable (msctf.h)
-author: windows-sdk-content
+
 description: ITfCreatePropertyStore::IsStoreSerializable method
 old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
 tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:digitalv.__unnamed_struct_2
 title: MCI_DGV_CAPTURE_PARMSW (digitalv.h)
-author: windows-sdk-content
+
 description: The MCI_DGV_CAPTURE_PARMS structure contains parameters for the MCI_CAPTURE command for digital-video devices.
 old-location: multimedia\mci_dgv_capture_parms.htm
 tech.root: Multimedia
 ms.assetid: 8ab62c4b-6db2-4a52-b015-a1d635e1edd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMCI_DGV_CAPTURE_PARMSW, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_PARMS structure [Windows Multimedia], MCI_DGV_CAPTURE_PARMSW, _win32_MCI_DGV_CAPTURE_PARMS_str, digitalv/MCI_DGV_CAPTURE_PARMS, multimedia.mci_dgv_capture_parms"
 ms.topic: struct

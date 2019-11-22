@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateVisual
 title: IDCompositionDevice::CreateVisual (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a new visual object.
 old-location: directcomp\idcompositiondevice_createvisual.htm
 tech.root: directcomp
 ms.assetid: 3b4fefe0-772e-42bd-8e81-37d0b128c418
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateVisual, CreateVisual method [DirectComposition], CreateVisual method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateVisual method, IDCompositionDevice.CreateVisual, IDCompositionDevice::CreateVisual, dcomp/IDCompositionDevice::CreateVisual, directcomp.idcompositiondevice_createvisual
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.IsIIDSupported
 title: IRpcStubBuffer::IsIIDSupported (objidl.h)
-author: windows-sdk-content
+
 description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.
 old-location: com\irpcstubbuffer_isiidsupported.htm
 tech.root: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
 ms.topic: method

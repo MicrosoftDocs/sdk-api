@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorReciprocalSqrt
 title: XMVectorReciprocalSqrt function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the per-component reciprocal square root of a vector.
 old-location: dxmath\xmvectorreciprocalsqrt.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocalSqrt(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReciprocalSqrt, XMVectorReciprocalSqrt, XMVectorReciprocalSqrt method [DirectX Math Support APIs], dxmath.xmvectorreciprocalsqrt
 ms.topic: function

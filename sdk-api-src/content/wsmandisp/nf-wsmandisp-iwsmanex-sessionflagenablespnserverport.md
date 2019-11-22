@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagEnableSPNServerPort
 title: IWSManEx::SessionFlagEnableSPNServerPort (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagenablespnserverport.htm
 tech.root: winrm
 ms.assetid: a8fe2077-0606-4517-8e50-dc42a4c39b77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagEnableSPNServerPort method, IWSManEx.SessionFlagEnableSPNServerPort, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
 ms.topic: method

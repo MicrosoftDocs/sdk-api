@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetStep
 title: ID3D11ShaderTrace::GetStep (d3d11shadertracing.h)
-author: windows-sdk-content
+
 description: Retrieves information about the specified step in the trace.
 old-location: direct3d11\id3d11shadertrace_getstep.htm
 tech.root: direct3d11
 ms.assetid: ECEF965F-D046-4F84-A205-F9666ECAE08C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStep, GetStep method [Direct3D 11], GetStep method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetStep method, ID3D11ShaderTrace.GetStep, ID3D11ShaderTrace::GetStep, d3d11shadertracing/ID3D11ShaderTrace::GetStep, direct3d11.id3d11shadertrace_getstep
 ms.topic: method

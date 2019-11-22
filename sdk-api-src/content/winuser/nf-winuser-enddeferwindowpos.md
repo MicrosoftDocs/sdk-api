@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.EndDeferWindowPos
 title: EndDeferWindowPos function (winuser.h)
-author: windows-sdk-content
+
 description: Simultaneously updates the position and size of one or more windows in a single screen-refreshing cycle.
 old-location: winmsg\enddeferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enddeferwindowpos.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndDeferWindowPos, EndDeferWindowPos function [Windows and Messages], _win32_EndDeferWindowPos, _win32_enddeferwindowpos_cpp, winmsg.enddeferwindowpos, winui._win32_enddeferwindowpos, winuser/EndDeferWindowPos
 ms.topic: function

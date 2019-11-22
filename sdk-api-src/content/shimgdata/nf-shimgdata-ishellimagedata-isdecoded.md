@@ -1,12 +1,12 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsDecoded
 title: IShellImageData::IsDecoded (shimgdata.h)
-author: windows-sdk-content
+
 description: Determines whether the image has been decoded by calling IShellImageData::Decode. Many operations return a failure code if the image is not first decoded.
 old-location: shell\IShellImageData_IsDecoded.htm
 tech.root: shell
 ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsDecoded method, IShellImageData.IsDecoded, IShellImageData::IsDecoded, IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.topic: method

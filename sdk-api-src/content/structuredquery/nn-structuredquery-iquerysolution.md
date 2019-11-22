@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.IQuerySolution
 title: IQuerySolution (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides methods that retrieve information about the interpretation of a parsed query.
 old-location: search\_search_IQuerySolution.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.topic: interface

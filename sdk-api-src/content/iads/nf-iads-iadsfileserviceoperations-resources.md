@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsFileServiceOperations.Resources
 title: IADsFileServiceOperations::Resources (iads.h)
-author: windows-sdk-content
+
 description: The IADsFileServiceOperations::Resources method gets a pointer to a pointer to the IADsCollection interface on a collection of the resource objects representing the current open resources on this file service.
 old-location: adsi\iadsfileserviceoperations_resources.htm
 tech.root: adsi
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.get_CachedDockPosition
 title: IUIAutomationDockPattern::get_CachedDockPosition (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the cached dock position of this element within its docking container.
 old-location: winauto\uiauto_IUIAutomationDockPattern_CachedDockPosition.htm
 tech.root: WinAuto
 ms.assetid: 351fbcaf-161e-4d1c-a06b-7df92d6c44d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedDockPosition property [Windows Accessibility], CachedDockPosition property [Windows Accessibility],IUIAutomationDockPattern interface, IUIAutomationDockPattern interface [Windows Accessibility],CachedDockPosition property, IUIAutomationDockPattern.CachedDockPosition, IUIAutomationDockPattern.get_CachedDockPosition, IUIAutomationDockPattern::CachedDockPosition, IUIAutomationDockPattern::get_CachedDockPosition, get_CachedDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CachedDockPosition, uiauto_IUIAutomationDockPattern_CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CachedDockPosition, winauto.uiauto_IUIAutomationDockPattern_CachedDockPosition
 ms.topic: method

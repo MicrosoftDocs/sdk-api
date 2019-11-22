@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.ICryptAttributes
 title: ICryptAttributes (certenroll.h)
-author: windows-sdk-content
+
 description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
 old-location: security\icryptattributes.htm
 tech.root: seccertenroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.topic: interface

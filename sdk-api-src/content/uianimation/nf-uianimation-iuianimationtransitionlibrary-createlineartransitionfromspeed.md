@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
 title: IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed (uianimation.h)
-author: windows-sdk-content
+
 description: Creates a linear-speed transition.
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransitionfromspeed.htm
 tech.root: UIAnimation
 ms.assetid: 0f9ce1c0-8681-456d-8ab5-76214dc529ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.topic: method

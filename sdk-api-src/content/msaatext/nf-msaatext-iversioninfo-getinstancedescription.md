@@ -1,12 +1,12 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetInstanceDescription
 title: IVersionInfo::GetInstanceDescription (msaatext.h)
-author: windows-sdk-content
+
 description: Clients call this method to retrieve a description of the instance.Note  Active Accessibility Text Services is deprecated.
 old-location: winauto\iversioninfo_iversioninfo__getinstancedescription.htm
 tech.root: WinAuto
 ms.assetid: f8aa3fd3-9869-4c24-8c9a-752947d21002
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInstanceDescription, GetInstanceDescription method [Windows Accessibility], GetInstanceDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetInstanceDescription method, IVersionInfo.GetInstanceDescription, IVersionInfo::GetInstanceDescription, _msaa_IVersionInfo_GetInstanceDescription, msaa.iversioninfo_iversioninfo__getinstancedescription, msaatext/IVersionInfo::GetInstanceDescription, winauto.iversioninfo_iversioninfo__getinstancedescription
 ms.topic: method

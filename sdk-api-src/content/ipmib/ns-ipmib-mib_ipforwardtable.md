@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_IPFORWARDTABLE
 title: MIB_IPFORWARDTABLE (ipmib.h)
-author: windows-sdk-content
+
 description: Contains a table of IPv4 route entries.
 old-location: mib\mib_ipforwardtable.htm
 tech.root: MIB
 ms.assetid: bdecf944-fe19-4033-8778-362523984b03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPFORWARDTABLE, MIB_IPFORWARDTABLE, MIB_IPFORWARDTABLE structure [MIB], PMIB_IPFORWARDTABLE, PMIB_IPFORWARDTABLE structure pointer [MIB], _mpr_mib_ipforwardtable, ipmib/MIB_IPFORWARDTABLE, ipmib/PMIB_IPFORWARDTABLE, iprtrmib/MIB_IPFORWARDTABLE, iprtrmib/PMIB_IPFORWARDTABLE, mib.mib_ipforwardtable, rras.mib_ipforwardtable'
 ms.topic: struct

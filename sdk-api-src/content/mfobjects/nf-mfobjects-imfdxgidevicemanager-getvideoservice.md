@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.GetVideoService
 title: IMFDXGIDeviceManager::GetVideoService (mfobjects.h)
-author: windows-sdk-content
+
 description: Queries the Microsoft Direct3D device for an interface.
 old-location: mf\imfdxgidevicemanager_getvideoservice.htm
 tech.root: medfound
 ms.assetid: B0C7C31B-39AF-48B6-8D86-F4DFCC546CDE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],GetVideoService method, IMFDXGIDeviceManager.GetVideoService, IMFDXGIDeviceManager::GetVideoService, mf.imfdxgidevicemanager_getvideoservice, mfobjects/IMFDXGIDeviceManager::GetVideoService
 ms.topic: method

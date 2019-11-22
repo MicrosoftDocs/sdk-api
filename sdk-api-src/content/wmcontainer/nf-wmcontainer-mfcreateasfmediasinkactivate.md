@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMediaSinkActivate
 title: MFCreateASFMediaSinkActivate function (wmcontainer.h)
-author: windows-sdk-content
+
 description: Creates an activation object that can be used to create the ASF media sink.
 old-location: mf\mfcreateasfmediasinkactivate.htm
 tech.root: medfound
 ms.assetid: 513d0a33-1504-4b88-9629-9e3e0dde3617
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 513d0a33-1504-4b88-9629-9e3e0dde3617, MFCreateASFMediaSinkActivate, MFCreateASFMediaSinkActivate function [Media Foundation], mf.mfcreateasfmediasinkactivate, wmcontainer/MFCreateASFMediaSinkActivate
 ms.topic: function

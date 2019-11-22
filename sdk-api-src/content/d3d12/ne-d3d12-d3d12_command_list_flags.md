@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12.D3D12_COMMAND_LIST_FLAGS
 title: D3D12_COMMAND_LIST_FLAGS
-author: windows-sdk-content
+
 description: 
 tech.root:
 ms.assetid: e9f512c9-32f5-46a4-a6a1-a0f203ec527b
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: enum
 f1_keywords:

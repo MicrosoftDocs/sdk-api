@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIStreamNearestKeyFrameTime
 title: AVIStreamNearestKeyFrameTime macro (vfw.h)
-author: windows-sdk-content
+
 description: The AVIStreamNearestKeyFrameTime macro determines the time corresponding to the beginning of the key frame nearest (at or preceding) a specified time in a stream.
 old-location: multimedia\avistreamnearestkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 7409e8e3-d151-4970-9c0e-84ecdf9846a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNearestKeyFrameTime, AVIStreamNearestKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrameTime, multimedia.avistreamnearestkeyframetime, vfw/AVIStreamNearestKeyFrameTime
 ms.topic: macro

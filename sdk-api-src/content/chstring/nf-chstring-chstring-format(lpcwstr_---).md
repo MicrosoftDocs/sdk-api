@@ -3,7 +3,7 @@ UID: NF:chstring.CHString.Format(LPCWSTR,...)
 title: CHString::Format
 description: 
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: CHString::Format
 ms.topic: language-reference

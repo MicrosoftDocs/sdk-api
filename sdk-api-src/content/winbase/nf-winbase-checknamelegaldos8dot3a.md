@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CheckNameLegalDOS8Dot3A
 title: CheckNameLegalDOS8Dot3A function (winbase.h)
-author: windows-sdk-content
+
 description: Determines whether the specified name can be used to create a file on a FAT file system.
 old-location: fs\checknamelegaldos8dot3.htm
 tech.root: FileIO
 ms.assetid: bb0edcc5-4991-47d0-9ade-6c6776a36f39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CheckNameLegalDOS8Dot3, CheckNameLegalDOS8Dot3 function [Files], CheckNameLegalDOS8Dot3A, CheckNameLegalDOS8Dot3W, base.checknamelegaldos8dot3, fs.checknamelegaldos8dot3, winbase/CheckNameLegalDOS8Dot3, winbase/CheckNameLegalDOS8Dot3A, winbase/CheckNameLegalDOS8Dot3W
 ms.topic: function

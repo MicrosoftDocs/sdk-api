@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.InvalidateRgn
 title: IOleInPlaceSiteWindowless::InvalidateRgn (ocidl.h)
-author: windows-sdk-content
+
 description: Enables an object to invalidate a specified region of its in-place image on the screen.
 old-location: com\ioleinplacesitewindowless_invalidatergn.htm
 tech.root: com
 ms.assetid: bbe86f4f-d023-4285-a6c1-c42fdc566f2f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOleInPlaceSiteWindowless.InvalidateRgn, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
 ms.topic: method

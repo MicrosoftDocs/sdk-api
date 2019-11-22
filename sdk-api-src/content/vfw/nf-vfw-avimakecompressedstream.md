@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIMakeCompressedStream
 title: AVIMakeCompressedStream function (vfw.h)
-author: windows-sdk-content
+
 description: The AVIMakeCompressedStream function creates a compressed stream from an uncompressed stream and a compression filter, and returns the address of a pointer to the compressed stream. This function supports audio and video compression.
 old-location: multimedia\avimakecompressedstream.htm
 tech.root: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ndattrib.tagRepairInfo
 title: RepairInfo (ndattrib.h)
-author: windows-sdk-content
+
 description: The RepairInfo structure contains data required for a particular repair option.
 old-location: ndf\repairinfo.htm
 tech.root: NDF
 ms.assetid: 07639ac5-e586-4ab1-96e8-502c378de940
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRepairInfo, PRepairInfo, PRepairInfo structure pointer [NDF], RF_CONTACT_ADMIN, RF_INFORMATION_ONLY, RF_REPRO, RF_RESERVED, RF_RESERVED_CA, RF_RESERVED_LNI, RF_USER_ACTION, RF_USER_CONFIRMATION, RF_VALIDATE_HELPTOPIC, RF_WORKAROUND, RepairInfo, RepairInfo structure [NDF], ndattrib/PRepairInfo, ndattrib/RepairInfo, ndf.repairinfo"
 ms.topic: struct

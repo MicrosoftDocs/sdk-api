@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexA
 title: PdhLookupPerfNameByIndexA function (pdh.h)
-author: windows-sdk-content
+
 description: Returns the performance object name or counter name corresponding to the specified index.
 old-location: perf\pdhlookupperfnamebyindex.htm
 tech.root: perfctrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
 ms.topic: function

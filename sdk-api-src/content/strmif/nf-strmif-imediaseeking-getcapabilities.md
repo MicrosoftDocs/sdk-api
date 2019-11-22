@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetCapabilities
 title: IMediaSeeking::GetCapabilities (strmif.h)
-author: windows-sdk-content
+
 description: The GetCapabilities method retrieves all the seeking capabilities of the stream.
 old-location: dshow\imediaseeking_getcapabilities.htm
 tech.root: DirectShow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [DirectShow], GetCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCapabilities method, IMediaSeeking.GetCapabilities, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
 ms.topic: method

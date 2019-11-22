@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_PropertyName
 title: IFsrmFileConditionProperty::get_PropertyName (fsrmreports.h)
-author: windows-sdk-content
+
 description: Specifies the name of the file condition property.
 old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
 tech.root: fsrm
 ms.assetid: 3b4a22da-769e-4425-a37d-5dfe0209ace9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyName property, IFsrmFileConditionProperty.PropertyName, IFsrmFileConditionProperty.get_PropertyName, IFsrmFileConditionProperty::PropertyName, IFsrmFileConditionProperty::get_PropertyName, IFsrmFileConditionProperty::put_PropertyName, PropertyName property [File Server Resource Manager], PropertyName property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyname, fsrm.ifsrmfileconditionproperty_propertyname, fsrmreports/IFsrmFileConditionProperty::PropertyName, fsrmreports/IFsrmFileConditionProperty::get_PropertyName, fsrmreports/IFsrmFileConditionProperty::put_PropertyName, get_PropertyName
 ms.topic: method

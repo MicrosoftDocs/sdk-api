@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetViewFlags
 title: ICommDlgBrowser2::GetViewFlags (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Called when the view must determine if special customization needs to be made for the common dialog browser.
 old-location: shell\ICommDlgBrowser2_GetViewFlags.htm
 tech.root: shell
 ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
 ms.topic: method

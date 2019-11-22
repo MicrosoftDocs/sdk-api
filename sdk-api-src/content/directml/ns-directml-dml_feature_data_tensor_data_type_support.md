@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT
 title: DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT
-author: windows-sdk-content
+
 description: Provides detail about whether a DirectML device supports a particular data type within tensors.
 old-location: direct3d12\dml_feature_data_tensor_data_type_support.htm
 tech.root: direct3d12
 ms.assetid: 324A09A4-BDBB-4DF1-83A0-76AEBC8E0285
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT, DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT structure, direct3d12.dml_feature_data_tensor_data_type_support, directml/DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT
 ms.topic: struct

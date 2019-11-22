@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsAudioStreamEnabled
 title: IDvdInfo2::IsAudioStreamEnabled (strmif.h)
-author: windows-sdk-content
+
 description: The IsAudioStreamEnabled method determines if the specified audio stream is enabled in the current title.
 old-location: dshow\idvdinfo2_isaudiostreamenabled.htm
 tech.root: DirectShow
 ms.assetid: 34938f9b-d3d8-4f38-95b4-bd65a5e88458
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsAudioStreamEnabled method, IDvdInfo2.IsAudioStreamEnabled, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled
 ms.topic: method

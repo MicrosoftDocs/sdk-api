@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INPUT_INFO
 title: D3D10_SHADER_DEBUG_INPUT_INFO (d3d10_1shader.h)
-author: windows-sdk-content
+
 description: Describes a shader input.
 old-location: direct3d10\d3d10_shader_debug_input_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_input_info.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 985acea2-3d0c-4a4c-f9db-ed556aec5b34, D3D10_SHADER_DEBUG_INPUT_INFO, D3D10_SHADER_DEBUG_INPUT_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_INPUT_INFO, direct3d10.d3d10_shader_debug_input_info
 ms.topic: struct

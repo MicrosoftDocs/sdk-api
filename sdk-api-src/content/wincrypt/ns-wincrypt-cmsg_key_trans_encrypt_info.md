@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_ENCRYPT_INFO
 title: CMSG_KEY_TRANS_ENCRYPT_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains encryption information for a key transport recipient of enveloped data.
 old-location: security\cmsg_key_trans_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: f3122acb-92c8-4803-8c74-8b3a2cf2e16e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_KEY_TRANS_ENCRYPT_INFO, CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_FLAG, CMSG_KEY_TRANS_ENCRYPT_FREE_PARA_FLAG, CMSG_KEY_TRANS_ENCRYPT_INFO, CMSG_KEY_TRANS_ENCRYPT_INFO structure [Security], PCMSG_KEY_TRANS_ENCRYPT_INFO, PCMSG_KEY_TRANS_ENCRYPT_INFO structure pointer [Security], security.cmsg_key_trans_encrypt_info, wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO, wincrypt/PCMSG_KEY_TRANS_ENCRYPT_INFO'
 ms.topic: struct

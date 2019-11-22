@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.DisableThreadProfiling
 title: DisableThreadProfiling function (winbase.h)
-author: windows-sdk-content
+
 description: Disables thread profiling.
 old-location: hcp\disablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisableThreadProfiling, DisableThreadProfiling function [Hardware Counter Profiling], hcp.disablethreadprofiling, winbase/DisableThreadProfiling
 ms.topic: function

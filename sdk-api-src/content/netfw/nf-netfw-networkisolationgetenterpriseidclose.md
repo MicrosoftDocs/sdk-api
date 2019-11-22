@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdClose
 title: NetworkIsolationGetEnterpriseIdClose function (netfw.h)
-author: windows-sdk-content
+
 description: This API is used for closing the handle returned by NetworkIsolationGetEnterpriseIdAsync as well as for synchronizing the operation.
 old-location: ics\networkisolationgetenterpriseidclose.htm
 tech.root: ics
 ms.assetid: 85FE7431-CC20-4CD2-9853-9B81BB8B7160
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterpriseIdClose function [ICS/ICF], ics.networkisolationgetenterpriseidclose, netfw/NetworkIsolationGetEnterpriseIdClose
 ms.topic: function

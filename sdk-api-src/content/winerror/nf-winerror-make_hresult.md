@@ -1,12 +1,12 @@
 ---
 UID: NF:winerror.MAKE_HRESULT
 title: MAKE_HRESULT macro (winerror.h)
-author: windows-sdk-content
+
 description: Creates an HRESULT value from its component pieces.
 old-location: com\make_hresult_macro.htm
 tech.root: com
 ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make_hresult, com.make_hresult_macro, dmerror/MAKE_HRESULT
 ms.topic: macro

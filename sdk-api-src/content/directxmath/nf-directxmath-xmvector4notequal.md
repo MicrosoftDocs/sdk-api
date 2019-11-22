@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector4NotEqual
 title: XMVector4NotEqual function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether two 4D vectors are not equal.
 old-location: dxmath\xmvector4notequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4NotEqual(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NotEqual, XMVector4NotEqual, XMVector4NotEqual method [DirectX Math Support APIs], dxmath.xmvector4notequal
 ms.topic: function

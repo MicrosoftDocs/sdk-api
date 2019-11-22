@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 title: IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter (eventsys.h)
-author: windows-sdk-content
+
 description: Assigns a publisher filter to an event method at run time.
 old-location: cos\imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter.htm
 tech.root: cossdk
 ms.assetid: 0eb52937-3bd8-45ab-b4ba-c0264c47c909
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetMultiInterfacePublisherFilter method, IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter, IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter method [COM+], SetMultiInterfacePublisherFilter method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetMultiInterfacePublisherFilter, cos.imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter, eventsys/IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
 ms.topic: method

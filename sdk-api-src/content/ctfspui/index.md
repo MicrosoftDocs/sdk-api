@@ -1,7 +1,7 @@
 ---
 UID: NA:ctfspui
 ms.assetid: a3055ed8-dbf1-381d-bfbc-2481137b83f7
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

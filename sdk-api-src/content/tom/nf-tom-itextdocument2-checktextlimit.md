@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument2.CheckTextLimit
 title: ITextDocument2::CheckTextLimit (tom.h)
-author: windows-sdk-content
+
 description: Checks whether the number of characters to be added would exceed the maximum text limit.
 old-location: controls\itextdocument2_checktextlimit.htm
 tech.root: Controls
 ms.assetid: 2c3aae14-8fa4-47bf-93ae-1d34333f0356
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CheckTextLimit, CheckTextLimit method [Windows Controls], CheckTextLimit method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],CheckTextLimit method, ITextDocument2.CheckTextLimit, ITextDocument2::CheckTextLimit, controls.itextdocument2_checktextlimit, tom/ITextDocument2::CheckTextLimit
 ms.topic: method

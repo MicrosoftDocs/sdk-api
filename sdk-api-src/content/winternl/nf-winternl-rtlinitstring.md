@@ -1,12 +1,12 @@
 ---
 UID: NF:winternl.RtlInitString
 title: RtlInitString function (winternl.h)
-author: windows-sdk-content
+
 description: Initializes a counted string.
 old-location: winprog\rtlinitstring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring
 ms.topic: function

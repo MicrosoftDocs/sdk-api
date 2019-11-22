@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupSetPlatformPathOverrideA
 title: SetupSetPlatformPathOverrideA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupSetPlatformPathOverride function is used to set a platform path override for a target machine when working with INFs from a different machine.
 old-location: setup\setupsetplatformpathoverride.htm
 tech.root: SetupApi
 ms.assetid: 98867613-18d8-4954-b37a-39c442756bbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupSetPlatformPathOverride, SetupSetPlatformPathOverride function [Setup API], SetupSetPlatformPathOverrideA, SetupSetPlatformPathOverrideW, _setupapi_setupsetplatformpathoverride, setup.setupsetplatformpathoverride, setupapi/SetupSetPlatformPathOverride, setupapi/SetupSetPlatformPathOverrideA, setupapi/SetupSetPlatformPathOverrideW
 ms.topic: function

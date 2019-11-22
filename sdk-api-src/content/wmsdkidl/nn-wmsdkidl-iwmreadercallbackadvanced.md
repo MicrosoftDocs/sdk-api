@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMReaderCallbackAdvanced
 title: IWMReaderCallbackAdvanced (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMReaderCallback interface is implemented by the application to handle data being read from a file.
 old-location: wmformat\iwmreadercallbackadvanced.htm
 tech.root: wmformat
 ms.assetid: 9d18961a-5ea4-4f3e-b473-7399e155f800
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], IWMReaderCallbackAdvanced interface [windows Media Format],described, IWMReaderCallbackAdvancedInterface, wmformat.iwmreadercallbackadvanced, wmsdkidl/IWMReaderCallbackAdvanced
 ms.topic: interface

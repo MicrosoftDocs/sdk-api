@@ -1,12 +1,12 @@
 ---
 UID: NN:searchapi.IEnumSearchScopeRules
 title: IEnumSearchScopeRules (searchapi.h)
-author: windows-sdk-content
+
 description: Enumerates scope rules.
 old-location: search\_search_IEnumSearchScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\ienumsearchscoperules.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules, IEnumSearchScopeRules interface [search], IEnumSearchScopeRules interface [search],described, _search_IEnumSearchScopeRules, search._search_IEnumSearchScopeRules, searchapi/IEnumSearchScopeRules
 ms.topic: interface

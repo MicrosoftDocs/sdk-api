@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.FILEMUIINFO_GET_MAIN_TYPEID
 title: FILEMUIINFO_GET_MAIN_TYPEID macro (winnls.h)
-author: windows-sdk-content
+
 description: Gets the main module types array element associated with the type identifier size and offset in a FILEMUIINFO structure. The information is provided in the dwTypeIDMainSize and dwTypeIDMainOffset members of the structure.
 old-location: intl\filemuiinfo_get_main_typeid.htm
 tech.root: Intl
 ms.assetid: 0102b364-ffc7-48a0-a7d1-5a64fba6428e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEID, FILEMUIINFO_GET_MAIN_TYPEID macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEID, intl.filemuiinfo_get_main_typeid, winnls/FILEMUIINFO_GET_MAIN_TYPEID
 ms.topic: macro

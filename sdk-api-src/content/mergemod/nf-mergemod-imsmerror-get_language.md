@@ -1,12 +1,12 @@
 ---
 UID: NF:mergemod.IMsmError.get_Language
 title: IMsmError::get_Language (mergemod.h)
-author: windows-sdk-content
+
 description: The get_Language method retrieves the Language property of the Error object. This function returns the LANGID of the error.
 old-location: setup\imsmerror_get_language.htm
 tech.root: Msi
 ms.assetid: c0d14c18-facc-441c-89c6-85abe6d19443
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Language method, IMsmError.get_Language, IMsmError::get_Language, _msi_get_language_function_error_object_, get_Language, get_Language method, get_Language method,IMsmError interface, mergemod/IMsmError::get_Language, setup.imsmerror_get_language
 ms.topic: method

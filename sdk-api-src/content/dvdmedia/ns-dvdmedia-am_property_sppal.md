@@ -1,12 +1,12 @@
 ---
 UID: NS:dvdmedia._AM_PROPERTY_SPPAL
 title: AM_PROPERTY_SPPAL (dvdmedia.h)
-author: windows-sdk-content
+
 description: Specifies the DVD subpicture palette.
 old-location: dshow\am_property_sppal.htm
 tech.root: DirectShow
 ms.assetid: ac368cbe-aaf6-42d5-a8bd-3652800af640
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PAM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL structure [DirectShow], PAM_PROPERTY_SPPAL, PAM_PROPERTY_SPPAL structure pointer [DirectShow], dshow.am_property_sppal, dvdmedia/AM_PROPERTY_SPPAL, dvdmedia/PAM_PROPERTY_SPPAL'
 ms.topic: struct

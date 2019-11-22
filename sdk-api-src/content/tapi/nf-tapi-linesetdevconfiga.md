@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineSetDevConfigA
 title: lineSetDevConfigA function (tapi.h)
-author: windows-sdk-content
+
 description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
 old-location: tapi2\linesetdevconfig.htm
 tech.root: Tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig"
 ms.topic: function

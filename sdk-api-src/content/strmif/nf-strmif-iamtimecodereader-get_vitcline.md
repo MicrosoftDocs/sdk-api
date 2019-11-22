@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.get_VITCLine
 title: IAMTimecodeReader::get_VITCLine (strmif.h)
-author: windows-sdk-content
+
 description: The get_VITCLine method retrieves the vertical interval line that the timecode reader is using to read timecode.
 old-location: dshow\iamtimecodereader_get_vitcline.htm
 tech.root: DirectShow
 ms.assetid: 04eda79a-1301-4bc1-855e-1cb0c4451797
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],get_VITCLine method, IAMTimecodeReader.get_VITCLine, IAMTimecodeReader::get_VITCLine, IAMTimecodeReaderget_VITCLine, dshow.iamtimecodereader_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeReader interface, strmif/IAMTimecodeReader::get_VITCLine
 ms.topic: method

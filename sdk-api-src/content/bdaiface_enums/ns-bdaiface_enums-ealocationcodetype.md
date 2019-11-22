@@ -1,12 +1,12 @@
 ---
 UID: NS:bdaiface_enums.EALocationCodeType
 title: EALocationCodeType (bdaiface_enums.h)
-author: windows-sdk-content
+
 description: The EALocationCodeType structure defines an Emergency Alert (EA) location code, as defined in ANSI/SCTE 28.
 old-location: mstv\ealocationcodetype.htm
 tech.root: mstv
 ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineUnparkW
 title: lineUnparkW function (tapi.h)
-author: windows-sdk-content
+
 description: The lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 old-location: tapi2\lineunpark.htm
 tech.root: Tapi
 ms.assetid: 9262ab44-eac7-43e2-a0ec-dceea0838b09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lineUnparkA, lineUnparkW, tapi/lineUnpark, tapi/lineUnparkA, tapi/lineUnparkW, tapi2.lineunpark"
 ms.topic: function

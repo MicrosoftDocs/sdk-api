@@ -1,12 +1,12 @@
 ---
 UID: NS:uiautomationcore.UiaRect
 title: UiaRect (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains the position and size of a rectangle, in screen coordinates.
 old-location: winauto\uiauto_UiaRectStruct.htm
 tech.root: WinAuto
 ms.assetid: 99cf7e3e-6b36-41ca-ac27-a7b332e7c91e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaRect, UiaRect structure [Windows Accessibility], uiauto.uiauto_UiaRectStruct, uiauto_UiaRectStruct, uiautomationcore/UiaRect, winauto.uiauto_UiaRectStruct
 ms.topic: struct

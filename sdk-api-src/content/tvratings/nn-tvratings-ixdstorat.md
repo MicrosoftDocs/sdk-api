@@ -1,12 +1,12 @@
 ---
 UID: NN:tvratings.IXDSToRat
 title: IXDSToRat (tvratings.h)
-author: windows-sdk-content
+
 description: The IXDSToRat interface parses rating information from extended data services (XDS) information in line 21.
 old-location: mstv\ixdstorat.htm
 tech.root: mstv
 ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
 ms.topic: interface

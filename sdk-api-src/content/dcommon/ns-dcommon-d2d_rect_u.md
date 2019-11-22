@@ -1,12 +1,12 @@
 ---
 UID: NS:dcommon.D2D_RECT_U
 title: D2D_RECT_U (dcommon.h)
-author: windows-sdk-content
+
 description: Represents a rectangle defined by the upper-left corner pair of coordinates (left,top) and the lower-right corner pair of coordinates (right, bottom). These coordinates are expressed as a 32-bit integer values.
 old-location: direct2d\D2D_RECT_U.htm
 tech.root: Direct2D
 ms.assetid: 7eeec8ac-ba56-4e80-b980-813a3e958e09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_RECT_U, D2D_RECT_U, D2D_RECT_U structure [Direct2D], dcommon/D2D_RECT_U, direct2d.D2D_RECT_U
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IExecuteCommandApplicationHostEnvironment
 title: IExecuteCommandApplicationHostEnvironment (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Provides a single method that enables an application to determine whether its host is in desktop or immersive mode.
 old-location: shell\IExecuteCommandApplicationHostEnvironment.htm
 tech.root: shell
 ms.assetid: c890d306-66df-4c29-88db-d54362ac018a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommandApplicationHostEnvironment, IExecuteCommandApplicationHostEnvironment interface [Windows Shell], IExecuteCommandApplicationHostEnvironment interface [Windows Shell],described, shell.IExecuteCommandApplicationHostEnvironment, shobjidl_core/IExecuteCommandApplicationHostEnvironment
 ms.topic: interface

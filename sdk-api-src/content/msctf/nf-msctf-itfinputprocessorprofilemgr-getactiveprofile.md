@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.GetActiveProfile
 title: ITfInputProcessorProfileMgr::GetActiveProfile (msctf.h)
-author: windows-sdk-content
+
 description: This method returns the current active profile.
 old-location: tsf\itfinputprocessorprofilemgr_getactiveprofile.htm
 tech.root: TSF
 ms.assetid: 4fd03327-c0c4-4dd6-b68a-8faae48c9a3d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetActiveProfile, GetActiveProfile method [Text Services Framework], GetActiveProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],GetActiveProfile method, ITfInputProcessorProfileMgr.GetActiveProfile, ITfInputProcessorProfileMgr::GetActiveProfile, msctf/ITfInputProcessorProfileMgr::GetActiveProfile, tsf.itfinputprocessorprofilemgr_getactiveprofile
 ms.topic: method

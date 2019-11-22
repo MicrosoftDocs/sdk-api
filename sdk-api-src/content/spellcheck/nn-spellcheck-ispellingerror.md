@@ -1,12 +1,12 @@
 ---
 UID: NN:spellcheck.ISpellingError
 title: ISpellingError (spellcheck.h)
-author: windows-sdk-content
+
 description: Provides information about a spelling error.
 old-location: intl\ispellingerror.htm
 tech.root: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications],described, intl.ispellingerror, spellcheck/ISpellingError
 ms.topic: interface

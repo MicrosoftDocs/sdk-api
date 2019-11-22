@@ -1,12 +1,12 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.ReplaceRemotePrefix
 title: IBackgroundCopyJob3::ReplaceRemotePrefix (bits2_0.h)
-author: windows-sdk-content
+
 description: Replaces the beginning text of all remote names in the download job with the specified string.
 old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
 tech.root: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
 ms.topic: method

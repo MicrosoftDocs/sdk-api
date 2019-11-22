@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CloseTable
 title: ISimilarityTraitsTable::CloseTable (msrdc.h)
-author: windows-sdk-content
+
 description: Closes a similarity traits table.
 old-location: rdc\isimilaritytraitstable_closetable.htm
 tech.root: rdc
 ms.assetid: 941f1e81-035d-4935-bcdf-8c9c6ad9ed4d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CloseTable method, ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt32
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-author: windows-sdk-content
+
 description: Gets the unsigned 32-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint32.htm
 tech.root: WinRT
 ms.assetid: 3675764D-7073-479B-8B9A-0AD037A963FB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUInt32, GetUInt32 method [Windows Runtime], GetUInt32 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt32 method, IPropertyValue.GetUInt32, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt32, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt32, winrt.ipropertyvalue_getuint32
 ms.topic: method

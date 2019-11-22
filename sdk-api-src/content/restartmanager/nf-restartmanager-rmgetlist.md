@@ -1,12 +1,12 @@
 ---
 UID: NF:restartmanager.RmGetList
 title: RmGetList function (restartmanager.h)
-author: windows-sdk-content
+
 description: Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.
 old-location: rstmgr\rmgetlist.htm
 tech.root: rstmgr
 ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
 ms.topic: function

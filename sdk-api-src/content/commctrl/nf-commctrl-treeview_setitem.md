@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_SetItem
 title: TreeView_SetItem macro (commctrl.h)
-author: windows-sdk-content
+
 description: The TreeView_SetItem macro sets some or all of a tree-view item's attributes. You can use this macro or send the TVM_SETITEM message explicitly.
 old-location: controls\TreeView_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetItem, TreeView_SetItem macro [Windows Controls], _win32_TreeView_SetItem, _win32_TreeView_SetItem_cpp, commctrl/TreeView_SetItem, controls.TreeView_SetItem, controls._win32_TreeView_SetItem
 ms.topic: macro

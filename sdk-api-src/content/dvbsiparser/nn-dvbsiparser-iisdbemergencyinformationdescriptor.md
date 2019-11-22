@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IIsdbEmergencyInformationDescriptor
 title: IIsdbEmergencyInformationDescriptor (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor.htm
 tech.root: mstv
 ms.assetid: 1d098415-1e64-4b49-aa48-654b0d0da5df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
 ms.topic: interface

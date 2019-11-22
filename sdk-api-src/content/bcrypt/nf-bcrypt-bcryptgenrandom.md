@@ -1,12 +1,12 @@
 ---
 UID: NF:bcrypt.BCryptGenRandom
 title: BCryptGenRandom function (bcrypt.h)
-author: windows-sdk-content
+
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm
 tech.root: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
 ms.topic: function

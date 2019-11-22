@@ -1,12 +1,12 @@
 ---
 UID: NF:winnetwk.WNetConnectionDialog
 title: WNetConnectionDialog function (winnetwk.h)
-author: windows-sdk-content
+
 description: The WNetConnectionDialog function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetconnectiondialog.htm
 tech.root: WNet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
 ms.topic: function

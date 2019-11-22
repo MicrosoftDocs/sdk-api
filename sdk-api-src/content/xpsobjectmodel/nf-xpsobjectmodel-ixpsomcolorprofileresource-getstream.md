@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.GetStream
 title: IXpsOMColorProfileResource::GetStream (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomcolorprofileresource_getstream.htm
 tech.root: printdocs
 ms.assetid: 1bc8bae0-eae7-47bd-a6ac-50ff9bdc2703
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, IXpsOMColorProfileResource interface [XPS Documents and Packaging],GetStream method, IXpsOMColorProfileResource.GetStream, IXpsOMColorProfileResource::GetStream, xps.ixpsomcolorprofileresource_getstream, xpsobjectmodel/IXpsOMColorProfileResource::GetStream
 ms.topic: method

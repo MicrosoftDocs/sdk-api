@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPEvents.EndOfStream
 title: IWMPEvents::EndOfStream (wmp.h)
-author: windows-sdk-content
+
 description: The EndOfStream event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__endofstream.htm
 tech.root: WMP
 ms.assetid: 1f4e3a69-da55-4adf-87ab-118954070096
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [Windows Media Player], EndOfStream method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],EndOfStream method, IWMPEvents.EndOfStream, IWMPEvents::EndOfStream, IWMPEventsEndOfStream, wmp.iwmpevents_iwmpevents__endofstream, wmp/IWMPEvents::EndOfStream
 ms.topic: method

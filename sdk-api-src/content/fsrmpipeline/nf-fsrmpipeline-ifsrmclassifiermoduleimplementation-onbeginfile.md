@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.OnBeginFile
 title: IFsrmClassifierModuleImplementation::OnBeginFile (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Instructs the classifier to prepare for processing a file with the specified property bag.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onbeginfile.htm
 tech.root: fsrm
 ms.assetid: 799f26c7-925e-4669-9571-128e10c51e9c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnBeginFile method, IFsrmClassifierModuleImplementation.OnBeginFile, IFsrmClassifierModuleImplementation::OnBeginFile, OnBeginFile, OnBeginFile method [File Server Resource Manager], OnBeginFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onbeginfile, fsrm.ifsrmclassifiermoduleimplementation_onbeginfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnBeginFile
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:iphlpapi._INTERFACE_TIMESTAMP_CAPABILITIES
 title: INTERFACE_TIMESTAMP_CAPABILITIES (iphlpapi.h)
-author: windows-sdk-content
+
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_timestamp_capabilities.htm
 tech.root: IpHlp
 ms.assetid: 711D88F6-C57B-4BD1-A607-834CFE9D1BC1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PINTERFACE_TIMESTAMP_CAPABILITIES, INTERFACE_TIMESTAMP_CAPABILITIES, INTERFACE_TIMESTAMP_CAPABILITIES structure [IP Helper], PINTERFACE_TIMESTAMP_CAPABILITIES, PINTERFACE_TIMESTAMP_CAPABILITIES structure pointer [IP Helper], iphlp.interface_timestamp_capabilities, iphlpapi/INTERFACE_TIMESTAMP_CAPABILITIES, iphlpapi/PINTERFACE_TIMESTAMP_CAPABILITIES"
 ms.topic: struct

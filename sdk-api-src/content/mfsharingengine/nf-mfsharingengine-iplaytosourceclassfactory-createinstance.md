@@ -1,12 +1,12 @@
 ---
 UID: NF:mfsharingengine.IPlayToSourceClassFactory.CreateInstance
 title: IPlayToSourceClassFactory::CreateInstance (mfsharingengine.h)
-author: windows-sdk-content
+
 description: Creates an instance of the PlayToController object.
 old-location: mf\iplaytosourceclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: 3F7F8441-B0A2-407E-B127-C7DC66CA34DE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
 ms.topic: method

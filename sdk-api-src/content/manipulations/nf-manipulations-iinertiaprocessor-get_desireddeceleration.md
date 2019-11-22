@@ -1,12 +1,12 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredDeceleration
 title: IInertiaProcessor::get_DesiredDeceleration (manipulations.h)
-author: windows-sdk-content
+
 description: The DesiredDeceleration property specifies the desired rate at which translation operations will decelerate.
 old-location: wintouch\iinertiaprocessor_desireddeceleration.htm
 tech.root: wintouch
 ms.assetid: 2ad39e7e-b433-4a40-aea2-53cf23247f25
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DesiredDeceleration property [Windows Touch], DesiredDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDeceleration property, IInertiaProcessor.DesiredDeceleration, IInertiaProcessor.get_DesiredDeceleration, IInertiaProcessor::DesiredDeceleration, IInertiaProcessor::get_DesiredDeceleration, IInertiaProcessor::put_DesiredDeceleration, get_DesiredDeceleration, manipulations/IInertiaProcessor::DesiredDeceleration, manipulations/IInertiaProcessor::get_DesiredDeceleration, manipulations/IInertiaProcessor::put_DesiredDeceleration, wintouch.iinertiaprocessor_desireddeceleration
 ms.topic: method

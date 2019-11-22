@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_DATA_FORMAT_FN
 title: PIBIO_STORAGE_GET_DATA_FORMAT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Retrieves format and version information used by the current database associated with the pipeline.
 old-location: secbiomet\storageadaptergetdataformat.htm
 tech.root: SecBioMet
 ms.assetid: e5bf31aa-59d7-410a-bb11-fe4af36fa409
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_GET_DATA_FORMAT_FN, PIBIO_STORAGE_GET_DATA_FORMAT_FN callback, StorageAdapterGetDataFormat, StorageAdapterGetDataFormat callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdataformat, winbio_adapter/StorageAdapterGetDataFormat
 ms.topic: callback

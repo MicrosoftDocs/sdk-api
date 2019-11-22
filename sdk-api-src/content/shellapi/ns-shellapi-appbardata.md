@@ -1,12 +1,12 @@
 ---
 UID: NS:shellapi._AppBarData
 title: APPBARDATA (shellapi.h)
-author: windows-sdk-content
+
 description: Contains information about a system appbar message.
 old-location: shell\APPBARDATA.htm
 tech.root: shell
 ms.assetid: cf86fe15-4beb-49b7-b73e-2ad61cedc3f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA"
 ms.topic: struct

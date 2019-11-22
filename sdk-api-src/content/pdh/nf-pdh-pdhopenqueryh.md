@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhOpenQueryH
 title: PdhOpenQueryH function (pdh.h)
-author: windows-sdk-content
+
 description: Creates a new query that is used to manage the collection of performance data. This function is identical to the PdhOpenQuery function, except that it supports the use of handles to data sources.
 old-location: perf\pdhopenqueryh.htm
 tech.root: perfctrs
 ms.assetid: 068c55da-d7e0-4111-91c8-a2bbd676f99d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhOpenQueryH, PdhOpenQueryH function [Perf], _win32_pdhopenqueryh, base.pdhopenqueryh, pdh/PdhOpenQueryH, perf.pdhopenqueryh
 ms.topic: function

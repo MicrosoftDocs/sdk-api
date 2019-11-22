@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnSetVendorSpecificComplete
 title: IMbnVendorSpecificEvents::OnSetVendorSpecificComplete (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification method indicating that a vendor-specific operation has completed.
 old-location: mbn\imbnvendorspecificevents_onsetvendorspecificcomplete.htm
 tech.root: mbn
 ms.assetid: fc45b203-3e8e-436c-a554-164634026ecc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnSetVendorSpecificComplete method, IMbnVendorSpecificEvents.OnSetVendorSpecificComplete, IMbnVendorSpecificEvents::OnSetVendorSpecificComplete, OnSetVendorSpecificComplete, OnSetVendorSpecificComplete method [Microsoft Broadband Networks], OnSetVendorSpecificComplete method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_onsetvendorspecificcomplete, mbnapi/IMbnVendorSpecificEvents::OnSetVendorSpecificComplete
 ms.topic: method

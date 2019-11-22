@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IRpcChannelBuffer
 title: IRpcChannelBuffer (objidlbase.h)
-author: windows-sdk-content
+
 description: Marshals data between a COM client proxy and a COM server stub.
 old-location: com\irpcchannelbuffer.htm
 tech.root: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.topic: interface

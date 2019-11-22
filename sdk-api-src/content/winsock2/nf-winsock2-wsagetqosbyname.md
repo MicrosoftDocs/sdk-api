@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSAGetQOSByName
 title: WSAGetQOSByName function (winsock2.h)
-author: windows-sdk-content
+
 description: The WSAGetQOSByName function initializes a QOS structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
 old-location: winsock\wsagetqosbyname_2.htm
 tech.root: WinSock
 ms.assetid: 9b586856-5441-414b-8b91-298c952c351b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSAGetQOSByName, WSAGetQOSByName function [Winsock], _win32_wsagetqosbyname_2, winsock.wsagetqosbyname_2, winsock2/WSAGetQOSByName
 ms.topic: function

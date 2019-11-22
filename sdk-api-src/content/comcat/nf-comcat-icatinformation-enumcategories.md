@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.ICatInformation.EnumCategories
 title: ICatInformation::EnumCategories (comcat.h)
-author: windows-sdk-content
+
 description: Retrieves an enumerator for the component categories registered on the system.
 old-location: com\icatinformation_enumcategories.htm
 tech.root: com
 ms.assetid: d8e744f0-6e50-4260-89df-e2cc59937398
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumCategories, EnumCategories method [COM], EnumCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumCategories method, ICatInformation.EnumCategories, ICatInformation::EnumCategories, _com_icatinformation_enumcategories, com.icatinformation_enumcategories, comcat/ICatInformation::EnumCategories
 ms.topic: method

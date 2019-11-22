@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.put_Name
 title: IFsrmReport::put_Name (fsrmreports.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the name of the report.
 old-location: fsrm\ifsrmreport_name.htm
 tech.root: fsrm
 ms.assetid: 4fde46af-1d13-4ca8-b627-0285c694fb6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],Name property, IFsrmReport.Name, IFsrmReport.put_Name, IFsrmReport::Name, IFsrmReport::get_Name, IFsrmReport::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_name, fsrm.ifsrmreport_name, fsrmreports/IFsrmReport::Name, fsrmreports/IFsrmReport::get_Name, fsrmreports/IFsrmReport::put_Name, put_Name
 ms.topic: method

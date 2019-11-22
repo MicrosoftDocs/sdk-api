@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetSubject
 title: IXpsOMCoreProperties::GetSubject (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the subject property.
 old-location: xps\ixpsomcoreproperties_getsubject.htm
 tech.root: printdocs
 ms.assetid: 80499d81-4adc-402c-ab72-4ebc77eefaea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSubject, GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetSubject method, IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCmp
 title: VarCmp function (oleauto.h)
-author: windows-sdk-content
+
 description: Compares two variants.
 old-location: automat\varcmp.htm
 tech.root: automat
 ms.assetid: 00b96fa7-446c-450b-bd06-a966e1acb5ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarCmp, VarCmp function [Automation], _oa96_VarCmp, automat.varcmp, oleauto/VarCmp
 ms.topic: function

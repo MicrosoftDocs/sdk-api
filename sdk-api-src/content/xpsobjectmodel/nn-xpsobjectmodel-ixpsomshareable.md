@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMShareable
 title: IXpsOMShareable (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: The base interface for sharable interfaces.
 old-location: xps\ixpsomshareable.htm
 tech.root: printdocs
 ms.assetid: 2071292f-b898-4ec8-99f7-294c8d820965
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], IXpsOMShareable interface [XPS Documents and Packaging],described, xps.ixpsomshareable, xpsobjectmodel/IXpsOMShareable
 ms.topic: interface

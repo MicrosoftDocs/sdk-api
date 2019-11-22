@@ -1,12 +1,12 @@
 ---
 UID: NE:dwrite.DWRITE_BREAK_CONDITION
 title: DWRITE_BREAK_CONDITION (dwrite.h)
-author: windows-sdk-content
+
 description: Indicates the condition at the edges of inline object or text used to determine line-breaking behavior.
 old-location: directwrite\dwrite_break_condition.htm
 tech.root: DirectWrite
 ms.assetid: 26dbe63e-eeee-486f-aa94-74320b190fcb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWRITE_BREAK_CONDITION, DWRITE_BREAK_CONDITION enumeration [Direct Write], DWRITE_BREAK_CONDITION_CAN_BREAK, DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, DWRITE_BREAK_CONDITION_MUST_BREAK, DWRITE_BREAK_CONDITION_NEUTRAL, directwrite.dwrite_break_condition, dwrite/DWRITE_BREAK_CONDITION, dwrite/DWRITE_BREAK_CONDITION_CAN_BREAK, dwrite/DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, dwrite/DWRITE_BREAK_CONDITION_MUST_BREAK, dwrite/DWRITE_BREAK_CONDITION_NEUTRAL
 ms.topic: enum

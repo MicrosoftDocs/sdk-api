@@ -1,12 +1,12 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetHigherHypotheses
 title: INetDiagHelper::GetHigherHypotheses (ndhelper.h)
-author: windows-sdk-content
+
 description: Generate hypotheses for possible causes of high utilization.
 old-location: ndf\inetdiaghelpe_gethigherhypotheses.htm
 tech.root: NDF
 ms.assetid: 608b1752-4bf9-4a7d-bc20-82d89b33b306
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHigherHypotheses, GetHigherHypotheses method [NDF], GetHigherHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetHigherHypotheses method, INetDiagHelper.GetHigherHypotheses, INetDiagHelper::GetHigherHypotheses, ndf.inetdiaghelpe_gethigherhypotheses, ndhelper/INetDiagHelper::GetHigherHypotheses
 ms.topic: method

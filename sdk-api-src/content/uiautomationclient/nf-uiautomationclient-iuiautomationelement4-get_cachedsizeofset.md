@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedSizeOfSet
 title: IUIAutomationElement4::get_CachedSizeOfSet (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Returns the cached 1-based integer for the size of the set where the element is located.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedSizeOfSet.htm
 tech.root: WinAuto
 ms.assetid: 5050338F-F159-451C-A195-8380AE50180A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedSizeOfSet property [Windows Accessibility], CachedSizeOfSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedSizeOfSet property, IUIAutomationElement4.CachedSizeOfSet, IUIAutomationElement4.get_CachedSizeOfSet, IUIAutomationElement4::CachedSizeOfSet, IUIAutomationElement4::get_CachedSizeOfSet, get_CachedSizeOfSet, uiautomationclient/IUIAutomationElement4::CachedSizeOfSet, uiautomationclient/IUIAutomationElement4::get_CachedSizeOfSet, winauto.uiauto_IUIAutomationElement4_CachedSizeOfSet
 ms.topic: method

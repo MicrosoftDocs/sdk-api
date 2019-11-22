@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetMute
 title: IMFPMediaPlayer::SetMute (mfplay.h)
-author: windows-sdk-content
+
 description: Mutes or unmutes the audio.
 old-location: mf\imfpmediaplayer_setmute.htm
 tech.root: medfound
 ms.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 ms.topic: method

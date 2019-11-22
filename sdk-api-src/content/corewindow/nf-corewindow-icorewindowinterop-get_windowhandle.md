@@ -1,12 +1,12 @@
 ---
 UID: NF:corewindow.ICoreWindowInterop.get_WindowHandle
 title: ICoreWindowInterop::get_WindowHandle (corewindow.h)
-author: windows-sdk-content
+
 description: Obtains the handle (HWND) to the CoreWindow for an app.
 old-location: winrt\icorewindowinterop_windowhandle.htm
 tech.root: WinRT
 ms.assetid: F95B96BA-617C-4D77-B974-E78DE4E36210
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],WindowHandle property, ICoreWindowInterop.WindowHandle, ICoreWindowInterop.get_WindowHandle, ICoreWindowInterop::WindowHandle, ICoreWindowInterop::get_WindowHandle, WindowHandle property [Windows Runtime], WindowHandle property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::WindowHandle, corewindow/ICoreWindowInterop::get_WindowHandle, get_WindowHandle, winrt.icorewindowinterop_windowhandle
 ms.topic: method

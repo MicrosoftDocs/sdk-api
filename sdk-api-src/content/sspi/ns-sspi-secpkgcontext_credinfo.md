@@ -1,12 +1,12 @@
 ---
 UID: NS:sspi._SecPkgContext_CredInfo
 title: SecPkgContext_CredInfo (sspi.h)
-author: windows-sdk-content
+
 description: Specifies the type of credentials used to create a client context.
 old-location: security\secpkgcontext_credinfo.htm
 tech.root: SecAuthN
 ms.assetid: 5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_CredInfo, PSecPkgContext_CredInfo, PSecPkgContext_CredInfo structure pointer [Security], SecPkgContext_CredInfo, SecPkgContext_CredInfo structure [Security], security.secpkgcontext_credinfo, sspi/PSecPkgContext_CredInfo, sspi/SecPkgContext_CredInfo'
 ms.topic: struct

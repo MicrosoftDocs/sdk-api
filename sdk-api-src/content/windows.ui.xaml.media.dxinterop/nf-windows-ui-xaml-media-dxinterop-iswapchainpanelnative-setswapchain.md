@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative.SetSwapChain
 title: ISwapChainPanelNative::xaml (windows.ui.xaml.media.dxinterop.h)
-author: windows-sdk-content
+
 description: Sets the DirectX swap chain for SwapChainPanel.
 old-location: winrt\iswapchainpanelnative_setswapchain.htm
 tech.root: WinRT
 ms.assetid: 8269A6DC-1732-40CF-96C7-FA13BC6763D2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainPanelNative.SetSwapChain, ISwapChainPanelNative.xaml, ISwapChainPanelNative::SetSwapChain, ISwapChainPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainPanelNative interface, windows/ISwapChainPanelNative::SetSwapChain, winrt.iswapchainpanelnative_setswapchain
 ms.topic: method

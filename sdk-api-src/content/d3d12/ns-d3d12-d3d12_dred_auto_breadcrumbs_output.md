@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12.D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 title: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
-author: windows-sdk-content
+
 description: Contains a pointer to the head of a linked list of D3D12_AUTO_BREADCRUMB_NODE objects.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure, d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, direct3d12.d3d12_dred_auto_breadcrumbs_output
 ms.topic: struct

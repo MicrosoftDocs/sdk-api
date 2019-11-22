@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHGetRealIDL
 title: SHGetRealIDL function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHGetRealIDL may be altered or unavailable.
 old-location: shell\SHGetRealIDL.htm
 tech.root: shell
 ms.assetid: 0c0b63c9-7ca7-4f73-be74-9c492f8506fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHGetRealIDL, SHGetRealIDL function [Windows Shell], _win32_SHGetRealIDL, shell.SHGetRealIDL, shlobj_core/SHGetRealIDL
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.IsFinal
 title: IMFTrustedOutput::IsFinal (mfidl.h)
-author: windows-sdk-content
+
 description: Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
 old-location: mf\imftrustedoutput_isfinal.htm
 tech.root: medfound
 ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput interface [Media Foundation],IsFinal method, IMFTrustedOutput.IsFinal, IMFTrustedOutput::IsFinal, IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation],IMFTrustedOutput interface, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
 ms.topic: method

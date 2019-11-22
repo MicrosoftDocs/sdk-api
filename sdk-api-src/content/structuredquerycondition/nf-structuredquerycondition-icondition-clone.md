@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquerycondition.ICondition.Clone
 title: ICondition::Clone (structuredquerycondition.h)
-author: windows-sdk-content
+
 description: Creates a deep copy of this ICondition object.
 old-location: search\_search_ICondition_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
 ms.topic: method

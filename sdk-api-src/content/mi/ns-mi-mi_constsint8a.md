@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstSint8A
 title: MI_ConstSint8A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Sint8 types.
 old-location: wmi_v2\mi_constsint8a.htm
 tech.root: wmi_v2
 ms.assetid: 83408a61-cd64-4042-ba6b-238c0b869ccb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint8A, MI_ConstSint8A structure [Windows Management Infrastructure (MI)], mi/MI_ConstSint8A, wmi._mi_constsint8a, wmi_v2.mi_constsint8a
 ms.topic: struct

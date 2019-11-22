@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTypography
 title: IDWriteFactory::CreateTypography (dwrite.h)
-author: windows-sdk-content
+
 description: Creates a typography object for use in a text layout.
 old-location: directwrite\IDWriteFactory_CreateTypography.htm
 tech.root: DirectWrite
 ms.assetid: ef6d8289-3a8a-4ec1-89a8-b1b52e311d63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTypography, CreateTypography method [Direct Write], CreateTypography method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTypography method, IDWriteFactory.CreateTypography, IDWriteFactory::CreateTypography, directwrite.IDWriteFactory_CreateTypography, dwrite/IDWriteFactory::CreateTypography
 ms.topic: method

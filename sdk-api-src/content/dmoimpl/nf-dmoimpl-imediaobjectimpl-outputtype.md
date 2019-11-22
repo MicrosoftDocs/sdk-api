@@ -1,12 +1,12 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.OutputType
 title: IMediaObjectImpl::OutputType (dmoimpl.h)
-author: windows-sdk-content
+
 description: The OutputType method retrieves the current media type for a specified output stream.
 old-location: dshow\imediaobjectimpl_outputtype.htm
 tech.root: DirectShow
 ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
 ms.topic: method

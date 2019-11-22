@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.WMIsContentProtected
 title: WMIsContentProtected function (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The WMIsContentProtected function checks a file for DRM-protected content. This function is a shortcut so that your application can quickly identify protected files.
 old-location: wmformat\wmiscontentprotected.htm
 tech.root: wmformat
 ms.assetid: a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
 ms.topic: function

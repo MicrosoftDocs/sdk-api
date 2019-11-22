@@ -3,7 +3,7 @@ UID: NF:directxmath.operator-sub
 title: operator-
 description: Computes the negation of an XMVECTOR instance.
 ms.assetid: 96195aef-4e7b-4819-92a2-96379bc9f506
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: operator-
 ms.topic: language-reference

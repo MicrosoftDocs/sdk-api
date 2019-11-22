@@ -1,7 +1,7 @@
 ---
 UID: NA:credssp
 ms.assetid: 8421293d-4194-3d01-9cf0-93f8ed853f1b
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

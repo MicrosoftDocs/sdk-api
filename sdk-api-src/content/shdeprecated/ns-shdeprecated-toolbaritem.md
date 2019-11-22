@@ -1,12 +1,12 @@
 ---
 UID: NS:shdeprecated.SToolbarItem
 title: TOOLBARITEM (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Data used in IBrowserService2::_GetToolbarItem, IBrowserService2::v_MayGetNextToolbarFocus, and IBrowserService2::_SetFocus to define a toolbar item.
 old-location: shell\TOOLBARITEM.htm
 tech.root: shell
 ms.assetid: 7378f2f3-c164-46fe-9989-a7a57fceb48a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPTOOLBARITEM, LPTOOLBARITEM, LPTOOLBARITEM structure pointer [Windows Shell], TOOLBARITEM, TOOLBARITEM structure [Windows Shell], _shell_TOOLBARITEM, shdeprecated/LPTOOLBARITEM, shdeprecated/TOOLBARITEM, shell.TOOLBARITEM"
 ms.topic: struct

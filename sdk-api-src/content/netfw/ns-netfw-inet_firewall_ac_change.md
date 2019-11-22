@@ -1,12 +1,12 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CHANGE
 title: INET_FIREWALL_AC_CHANGE (netfw.h)
-author: windows-sdk-content
+
 description: Contains information about a change made to an app container.
 old-location: ics\inet_firewall_ac_change.htm
 tech.root: ics
 ms.assetid: b5f1b85d-3538-4be3-b97b-f9207cc7063b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PINET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE structure [ICS/ICF], PINET_FIREWALL_AC_CHANGE, PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF], _INET_FIREWALL_AC_CHANGE, ics.inet_firewall_ac_change, networkisolation/INET_FIREWALL_AC_CHANGE, networkisolation/PINET_FIREWALL_AC_CHANGE'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:mdmregistration.SetManagedExternally
 title: SetManagedExternally function (mdmregistration.h)
-author: windows-sdk-content
+
 description: Indicates to the MDM agent that the device is managed externally and is not to be registered with an MDM service.
 old-location: mdmreg\setmanagedexternally.htm
 tech.root: MDMReg
 ms.assetid: 6aac0ffb-3502-42a5-b7a3-e11c401543ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetManagedExternally, SetManagedExternally function [MDM Registration], mdmreg.setmanagedexternally, mdmregistration/SetManagedExternally
 ms.topic: function

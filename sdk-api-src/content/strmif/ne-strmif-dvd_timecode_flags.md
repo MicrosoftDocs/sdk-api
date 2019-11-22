@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif.tagDVD_TIMECODE_FLAGS
 title: DVD_TIMECODE_FLAGS (strmif.h)
-author: windows-sdk-content
+
 description: Indicates the frame rate at which a DVD has been authored to play.
 old-location: dshow\dvd_timecode_flags.htm
 tech.root: DirectShow
 ms.assetid: 2dc5ce97-12a4-43a0-b897-14fea32d8efc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVD_TC_FLAG_25fps, DVD_TC_FLAG_30fps, DVD_TC_FLAG_DropFrame, DVD_TC_FLAG_Interpolated, DVD_TIMECODE_FLAGS, DVD_TIMECODE_FLAGS , DVD_TIMECODE_FLAGS enumeration [DirectShow], DVD_TIMECODE_FLAGSEnumeration, dshow.dvd_timecode_flags, strmif/DVD_TC_FLAG_25fps, strmif/DVD_TC_FLAG_30fps, strmif/DVD_TC_FLAG_DropFrame, strmif/DVD_TC_FLAG_Interpolated, strmif/DVD_TIMECODE_FLAGS
 ms.topic: enum

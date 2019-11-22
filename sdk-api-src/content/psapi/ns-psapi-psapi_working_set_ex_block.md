@@ -1,12 +1,12 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_EX_BLOCK
 title: PSAPI_WORKING_SET_EX_BLOCK (psapi.h)
-author: windows-sdk-content
+
 description: Contains extended working set information for a page.
 old-location: psapi\psapi_working_set_ex_block.htm
 tech.root: psapi
 ms.assetid: 4ba17fa0-2aed-4099-9380-fc13f1b826ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK'
 ms.topic: struct

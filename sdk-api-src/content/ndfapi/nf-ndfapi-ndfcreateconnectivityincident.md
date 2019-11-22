@@ -1,12 +1,12 @@
 ---
 UID: NF:ndfapi.NdfCreateConnectivityIncident
 title: NdfCreateConnectivityIncident function (ndfapi.h)
-author: windows-sdk-content
+
 description: Diagnoses generic Internet connectivity problems.
 old-location: ndf\ndfcreateconnectivityincident.htm
 tech.root: NDF
 ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
 ms.topic: function

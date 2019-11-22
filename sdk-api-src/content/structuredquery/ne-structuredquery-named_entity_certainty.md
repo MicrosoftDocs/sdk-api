@@ -1,12 +1,12 @@
 ---
 UID: NE:structuredquery.__MIDL___MIDL_itf_structuredquery_0000_0012_0001
 title: NAMED_ENTITY_CERTAINTY (structuredquery.h)
-author: windows-sdk-content
+
 description: Defines the level of certainty for a named entity.
 old-location: search\_search_NAMED_ENTITY_CERTAINTY.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\named_entity_certainty.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NAMED_ENTITY_CERTAINTY, NAMED_ENTITY_CERTAINTY enumeration [search], NEC_HIGH, NEC_LOW, NEC_MEDIUM, _search_NAMED_ENTITY_CERTAINTY, search._search_NAMED_ENTITY_CERTAINTY, structuredquery/NAMED_ENTITY_CERTAINTY, structuredquery/NEC_HIGH, structuredquery/NEC_LOW, structuredquery/NEC_MEDIUM
 ms.topic: enum

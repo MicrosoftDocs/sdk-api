@@ -1,12 +1,12 @@
 ---
 UID: NS:faxdev._FAX_RECEIVE
 title: FAX_RECEIVE (faxdev.h)
-author: windows-sdk-content
+
 description: The FAX_RECEIVE structure contains information about an inbound fax document. This information includes the name of the file that will receive the fax data stream, and the name and telephone number of the receiving device.
 old-location: fax\_mfax_fax_receive_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:certpoleng.PstAcquirePrivateKey
 title: PstAcquirePrivateKey function (certpoleng.h)
-author: windows-sdk-content
+
 description: Associates the caller's private key with the specified certificate.
 old-location: security\pstacquireprivatekey.htm
 tech.root: SecAuthN
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryAppIsDefaultAll
 title: IApplicationAssociationRegistration::QueryAppIsDefaultAll (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Determines whether an application owns all of the registered default associations for a given application level. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefaultAll.htm
 tech.root: shell
 ms.assetid: 71073f30-51bc-4522-9bb2-7eb743bca159
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefaultAll method, IApplicationAssociationRegistration.QueryAppIsDefaultAll, IApplicationAssociationRegistration::QueryAppIsDefaultAll, QueryAppIsDefaultAll, QueryAppIsDefaultAll method [Windows Shell], QueryAppIsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefaultAll, shell.IApplicationAssociationRegistration_QueryAppIsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefaultAll
 ms.topic: method

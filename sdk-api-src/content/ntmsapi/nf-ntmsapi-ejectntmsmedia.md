@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.EjectNtmsMedia
 title: EjectNtmsMedia function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The EjectNtmsMedia function ejects the specified medium from the port of the current library. If the library is busy, RSM queues EjectNtmsMedia and returns success.
 old-location: fs\ejectntmsmedia.htm
 tech.root: Rsm
 ms.assetid: ecb7374c-d1fa-4e7c-87ad-045122cb466e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmsmedia, base.ejectntmsmedia, fs.ejectntmsmedia, ntmsapi/EjectNtmsMedia
 ms.topic: function

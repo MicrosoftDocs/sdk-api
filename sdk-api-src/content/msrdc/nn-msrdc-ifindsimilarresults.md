@@ -1,12 +1,12 @@
 ---
 UID: NN:msrdc.IFindSimilarResults
 title: IFindSimilarResults (msrdc.h)
-author: windows-sdk-content
+
 description: Provides methods for retrieving information from the file list returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults.htm
 tech.root: rdc
 ms.assetid: 3118cf53-c544-48bc-ac38-79ca2252f83f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], IFindSimilarResults interface [Remote Differential Compression],described, fs.ifindsimilarresults, msrdc/IFindSimilarResults, rdc.ifindsimilarresults
 ms.topic: interface

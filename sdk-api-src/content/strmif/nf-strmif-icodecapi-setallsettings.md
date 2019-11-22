@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettings
 title: ICodecAPI::SetAllSettings (strmif.h)
-author: windows-sdk-content
+
 description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
 old-location: dshow\icodecapi_setallsettings.htm
 tech.root: DirectShow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
 ms.topic: method

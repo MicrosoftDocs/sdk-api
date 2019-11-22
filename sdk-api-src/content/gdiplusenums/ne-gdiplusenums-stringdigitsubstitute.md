@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.StringDigitSubstitute
 title: StringDigitSubstitute (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The StringDigitSubstitute enumeration specifies how to substitute digits in a string according to a user's locale or language.
 old-location: gdiplus\_gdiplus_ENUM_StringDigitSubstitute.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringdigitsubstitute.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringDigitSubstitute, StringDigitSubstitute enumeration [GDI+], StringDigitSubstituteNational, StringDigitSubstituteNone, StringDigitSubstituteTraditional, StringDigitSubstituteUser, _gdiplus_ENUM_StringDigitSubstitute, gdiplus._gdiplus_ENUM_StringDigitSubstitute, gdiplusenums/StringDigitSubstitute, gdiplusenums/StringDigitSubstituteNational, gdiplusenums/StringDigitSubstituteNone, gdiplusenums/StringDigitSubstituteTraditional, gdiplusenums/StringDigitSubstituteUser
 ms.topic: enum

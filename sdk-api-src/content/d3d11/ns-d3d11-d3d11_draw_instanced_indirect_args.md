@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 title: D3D11_DRAW_INSTANCED_INDIRECT_ARGS (d3d11.h)
-author: windows-sdk-content
+
 description: Arguments for draw instanced indirect.
 old-location: direct3d11\d3d11_draw_instanced_indirect_args.htm
 tech.root: direct3d11
 ms.assetid: B83B9D3C-3C64-4F42-A08A-4276F09DA9EC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_DRAW_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_instanced_indirect_args
 ms.topic: struct

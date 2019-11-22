@@ -1,12 +1,12 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.EndFrame
 title: IAMVideoAccelerator::EndFrame (videoacc.h)
-author: windows-sdk-content
+
 description: The EndFrame method ends frame processing.
 old-location: dshow\iamvideoaccelerator_endframe.htm
 tech.root: DirectShow
 ms.assetid: 38944989-2ce2-4275-bae9-faca0d51cca8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
 ms.topic: method

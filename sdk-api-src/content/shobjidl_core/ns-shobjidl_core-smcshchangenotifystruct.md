@@ -1,12 +1,12 @@
 ---
 UID: NS:shobjidl_core.SHCSCHANGENOTIFYSTRUCT
 title: SMCSHCHANGENOTIFYSTRUCT (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Contains information about change notification. It is used by IShellMenuCallback::CallbackSM.
 old-location: shell\SMCSHCHANGENOTIFYSTRUCT.htm
 tech.root: shell
 ms.assetid: 31fd2550-d39c-45fc-9c19-6ba2858002de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT structure pointer [Windows Shell], SHCSCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT structure [Windows Shell], _win32_SMCSHCHANGENOTIFYSTRUCT, shell.SMCSHCHANGENOTIFYSTRUCT, shobjidl_core/PSMCSHCHANGENOTIFYSTRUCT, shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"
 ms.topic: struct

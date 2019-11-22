@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsW
 title: SetupDiGetClassDevsW function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
 old-location: devinst\setupdigetclassdevs.htm
 tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
 ms.topic: function

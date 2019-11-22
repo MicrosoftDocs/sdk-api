@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetPoints
 title: IShellFolderView::SetPoints (shlobj_core.h)
-author: windows-sdk-content
+
 description: SetPoints may be altered or unavailable.
 old-location: shell\IShellFolderView_SetPoints.htm
 tech.root: shell
 ms.assetid: a226139a-c2b0-44d5-a0c3-790e27ab3a0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetPoints method, IShellFolderView.SetPoints, IShellFolderView::SetPoints, SetPoints, SetPoints method [Windows Shell], SetPoints method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetPoints, shell.IShellFolderView_SetPoints, shlobj_core/IShellFolderView::SetPoints
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)
 title: BoundingOrientedBox::Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)
-author: windows-sdk-content
+
 description: Transforms the BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_transform_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Transform(BoundingOrientedBox@,float,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Transform method, BoundingOrientedBox.Transform, BoundingOrientedBox.Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR), BoundingOrientedBox.Transform(BoundingOrientedBox&,float,XMVECTOR,XMVECTOR), BoundingOrientedBox::Transform, BoundingOrientedBox::Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_transform_2
 ms.topic: method

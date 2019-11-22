@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT0_
 title: IPSEC_SA_CONTEXT0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Encapsulates an inbound and outbound SA pair.
 old-location: fwp\ipsec_sa_context0.htm
 tech.root: fwp
 ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT0, IPSEC_SA_CONTEXT0 structure [Filtering], fwp.ipsec_sa_context0, ipsectypes/IPSEC_SA_CONTEXT0
 ms.topic: struct

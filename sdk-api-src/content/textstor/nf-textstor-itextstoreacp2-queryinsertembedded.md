@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACP2.QueryInsertEmbedded
 title: ITextStoreACP2::QueryInsertEmbedded (textstor.h)
-author: windows-sdk-content
+
 description: Gets a value indicating whether the specified object can be inserted into the document.
 old-location: tsf\itextstoreacp2_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: af67d721-290b-412d-9d99-ea7d6406f33d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP2.QueryInsertEmbedded, ITextStoreACP2::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsertEmbedded, tsf.itextstoreacp2_queryinsertembedded
 ms.topic: method

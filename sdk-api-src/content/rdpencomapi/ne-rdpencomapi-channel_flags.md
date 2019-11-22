@@ -1,12 +1,12 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0004
 title: CHANNEL_FLAGS (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Defines values for how data is sent on the channel.
 old-location: rdp\channel_flags.htm
 tech.root: rdp
 ms.assetid: ca8a063a-81a0-44b8-8654-36a38a6f30ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_FLAGS, CHANNEL_FLAGS enumeration [RDP], CHANNEL_FLAGS_LEGACY, CHANNEL_FLAGS_UNCOMPRESSED, rdp.channel_flags, rdpencomapi/CHANNEL_FLAGS, rdpencomapi/CHANNEL_FLAGS_LEGACY, rdpencomapi/CHANNEL_FLAGS_UNCOMPRESSED
 ms.topic: enum

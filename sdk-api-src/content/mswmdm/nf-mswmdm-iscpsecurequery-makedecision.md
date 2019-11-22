@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.MakeDecision
 title: ISCPSecureQuery::MakeDecision (mswmdm.h)
-author: windows-sdk-content
+
 description: The MakeDecision method determines whether access to the content is allowed. If access is allowed, this method returns the interface that will be used to access the content.
 old-location: wmdm\iscpsecurequery_makedecision.htm
 tech.root: WMDM
 ms.assetid: cbcc8999-d7e4-4b67-a5ba-dd850ff7a07a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery interface [windows Media Device Manager],MakeDecision method, ISCPSecureQuery.MakeDecision, ISCPSecureQuery::MakeDecision, ISCPSecureQueryMakeDecision, MakeDecision, MakeDecision method [windows Media Device Manager], MakeDecision method [windows Media Device Manager],ISCPSecureQuery interface, mswmdm/ISCPSecureQuery::MakeDecision, wmdm.iscpsecurequery_makedecision
 ms.topic: method

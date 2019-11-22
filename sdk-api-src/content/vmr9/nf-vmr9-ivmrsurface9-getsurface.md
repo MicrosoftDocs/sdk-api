@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRSurface9.GetSurface
 title: IVMRSurface9::GetSurface (vmr9.h)
-author: windows-sdk-content
+
 description: The GetSurface method retrieves the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_getsurface.htm
 tech.root: DirectShow
 ms.assetid: ce556b66-0a28-43a0-9dd2-a1c3b9aad5dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurface9 interface, IVMRSurface9 interface [DirectShow],GetSurface method, IVMRSurface9.GetSurface, IVMRSurface9::GetSurface, IVMRSurface9GetSurface, dshow.ivmrsurface9_getsurface, vmr9/IVMRSurface9::GetSurface
 ms.topic: method

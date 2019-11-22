@@ -1,12 +1,12 @@
 ---
 UID: NF:dciman.DCICreatePrimary
 title: DCICreatePrimary function (dciman.h)
-author: windows-sdk-content
+
 description: Creates a primary surface and obtains surface information.
 old-location: winprog\_dciman_dcicreateprimary.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcicreateprimary.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DCICreatePrimary, DCICreatePrimary function [Windows API], _dciman_dcicreateprimary, dciman/DCICreatePrimary, winprog._dciman_dcicreateprimary, winui._dciman_dcicreateprimary
 ms.topic: function

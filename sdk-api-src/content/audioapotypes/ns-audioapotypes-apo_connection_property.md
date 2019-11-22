@@ -1,12 +1,12 @@
 ---
 UID: NS:audioapotypes.APO_CONNECTION_PROPERTY
 title: APO_CONNECTION_PROPERTY (audioapotypes.h)
-author: windows-sdk-content
+
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
 tech.root: TermServ
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
 ms.topic: struct

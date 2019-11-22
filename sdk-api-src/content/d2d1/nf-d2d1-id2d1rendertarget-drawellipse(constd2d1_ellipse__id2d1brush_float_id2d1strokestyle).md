@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
-author: windows-sdk-content
+
 description: Draws the outline of the specified ellipse using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: 3cd3aad6-72fc-41a3-a792-6ecac838c080
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawEllipse, DrawEllipse method [Direct2D], DrawEllipse method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawEllipse method, ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawEllipse, ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawEllipse, direct2d.ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.topic: method

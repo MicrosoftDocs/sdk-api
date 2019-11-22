@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArrayFull
 title: FreeIDListArrayFull function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Releases the memory space for the pointer to an item identifier list (PIDL) array. This releases both the PIDLIST_ABSOLUTEs within the array and the array itself.
 old-location: shell\FreeIDListArrayFull.htm
 tech.root: shell
 ms.assetid: ca5e9e02-dcab-4aac-953e-8be0ca8734bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeIDListArrayFull, FreeIDListArrayFull function [Windows Shell], _shell_FreeIDListArrayFull, shell.FreeIDListArrayFull, shobjidl_core/FreeIDListArrayFull
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.SetIScsiIKEInfoA
 title: SetIScsiIKEInfoA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections.
 old-location: iscsidisc\setiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetIScsiIKEInfoA, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
 ms.topic: function

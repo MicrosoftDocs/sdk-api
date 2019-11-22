@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 title: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
-author: windows-sdk-content
+
 description: Queries for file system recognition information on a volume.
 old-location: fs\fsctl_query_file_system_recognition.htm
 tech.root: FileIO
 ms.assetid: 0b2ff131-a659-4bd0-b329-41fb60edbe13
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code [Files], fs.fsctl_query_file_system_recognition, winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 ms.topic: ioctl

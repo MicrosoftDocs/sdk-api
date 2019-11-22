@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.STROBJ_fxCharacterExtra
 title: STROBJ_fxCharacterExtra function (winddi.h)
-author: windows-sdk-content
+
 description: The STROBJ_fxCharacterExtra function retrieves the amount of extra space with which to augment each character's width in a string when displaying and/or printing it.
 old-location: display\strobj_fxcharacterextra.htm
 tech.root: display
 ms.assetid: 92989c16-5e82-4df2-9298-28b78757bd54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STROBJ_fxCharacterExtra, STROBJ_fxCharacterExtra function [Display Devices], display.strobj_fxcharacterextra, gdifncs_4f8ab918-f3b4-47d8-9297-ae9e658f2bad.xml, winddi/STROBJ_fxCharacterExtra
 ms.topic: function

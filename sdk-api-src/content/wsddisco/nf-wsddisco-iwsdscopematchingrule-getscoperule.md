@@ -1,12 +1,12 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.GetScopeRule
 title: IWSDScopeMatchingRule::GetScopeRule (wsddisco.h)
-author: windows-sdk-content
+
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
 tech.root: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
 ms.topic: method

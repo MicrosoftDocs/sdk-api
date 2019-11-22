@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.SetMediaType
 title: ITLegacyCallMediaControl::SetMediaType (tapi3if.h)
-author: windows-sdk-content
+
 description: The SetMediaType method sets the media type(s) for the current call in its LINECALLINFO structure. For more information, see lineSetMediaMode.
 old-location: tapi3\itlegacycallmediacontrol_setmediatype.htm
 tech.root: Tapi
 ms.assetid: 627fe465-40f6-481e-9fd6-3fc3e2931e18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],SetMediaType method, ITLegacyCallMediaControl.SetMediaType, ITLegacyCallMediaControl::SetMediaType, SetMediaType, SetMediaType method [TAPI 2.2], SetMediaType method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_setmediatype, tapi3.itlegacycallmediacontrol_setmediatype, tapi3if/ITLegacyCallMediaControl::SetMediaType
 ms.topic: method

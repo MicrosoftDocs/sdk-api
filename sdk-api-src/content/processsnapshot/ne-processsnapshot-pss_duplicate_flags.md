@@ -1,12 +1,12 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_5
 title: PSS_DUPLICATE_FLAGS (processsnapshot.h)
-author: windows-sdk-content
+
 description: Duplication flags for use by PssDuplicateSnapshot.
 old-location: proc_snap\pss_duplicate_flags.htm
 tech.root: proc_snap
 ms.assetid: CAD06441-750F-42FC-A95A-7CAA79F31348
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSS_DUPLICATE_CLOSE_SOURCE, PSS_DUPLICATE_FLAGS, PSS_DUPLICATE_FLAGS enumeration, PSS_DUPLICATE_NONE, proc_snap.pss_duplicate_flags, processsnapshot/PSS_DUPLICATE_CLOSE_SOURCE, processsnapshot/PSS_DUPLICATE_FLAGS, processsnapshot/PSS_DUPLICATE_NONE
 ms.topic: enum

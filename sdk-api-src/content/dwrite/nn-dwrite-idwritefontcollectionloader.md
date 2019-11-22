@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite.IDWriteFontCollectionLoader
 title: IDWriteFontCollectionLoader (dwrite.h)
-author: windows-sdk-content
+
 description: Used to construct a collection of fonts given a particular type of key.
 old-location: directwrite\IDWriteFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 898645ce-4bd5-4491-a31c-f60a17578872
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollectionLoader, IDWriteFontCollectionLoader interface [Direct Write], IDWriteFontCollectionLoader interface [Direct Write],described, directwrite.IDWriteFontCollectionLoader, dwrite/IDWriteFontCollectionLoader
 ms.topic: interface

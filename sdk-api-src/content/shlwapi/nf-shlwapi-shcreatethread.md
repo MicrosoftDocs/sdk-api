@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.SHCreateThread
 title: SHCreateThread function (shlwapi.h)
-author: windows-sdk-content
+
 description: Creates a thread.
 old-location: shell\SHCreateThread.htm
 tech.root: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.topic: function

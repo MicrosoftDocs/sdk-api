@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanRotate
 title: IUIAutomationTransformPattern::get_CachedCanRotate (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a cached value that indicates whether the element can be rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanRotate.htm
 tech.root: WinAuto
 ms.assetid: 2718fb12-0cd9-48e3-8c45-f58c45b474eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedCanRotate property [Windows Accessibility], CachedCanRotate property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanRotate property, IUIAutomationTransformPattern.CachedCanRotate, IUIAutomationTransformPattern.get_CachedCanRotate, IUIAutomationTransformPattern::CachedCanRotate, IUIAutomationTransformPattern::get_CachedCanRotate, get_CachedCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate
 ms.topic: method

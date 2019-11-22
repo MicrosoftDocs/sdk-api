@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Rect.Contains(IN Rect &)
 title: Rect::Contains(IN Rect &) (gdiplustypes.h)
-author: windows-sdk-content
+
 description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN Rect &), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
 ms.topic: method

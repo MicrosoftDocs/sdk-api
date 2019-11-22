@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_S4U_LOGON
 title: KERB_CERTIFICATE_S4U_LOGON (ntsecapi.h)
-author: windows-sdk-content
+
 description: Contains information about the certificate for a service for user (S4U) logon.
 old-location: security\kerb_certificate_s4u_logon.htm
 tech.root: SecAuthN
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON structure [Security], KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_CERTIFICATE_S4U_LOGON_FLAG_IDENTIFY, KERB_CERTIFICATE_S4U_LOGON_FLAG_IF_NT_AUTH_POLICY_REQUIRED, PKERB_CERTIFICATE_S4U_LOGON, PKERB_CERTIFICATE_S4U_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_S4U_LOGON, ntsecapi/PKERB_CERTIFICATE_S4U_LOGON, security.kerb_certificate_s4u_logon'
 ms.topic: struct

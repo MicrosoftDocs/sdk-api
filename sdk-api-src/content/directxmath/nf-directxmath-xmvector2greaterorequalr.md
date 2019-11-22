@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector2GreaterOrEqualR
 title: XMVector2GreaterOrEqualR function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether one 2D vector is greater-than-or-equal-to another 2D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector2greaterorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2GreaterOrEqualR(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2GreaterOrEqualR, XMVector2GreaterOrEqualR, XMVector2GreaterOrEqualR method [DirectX Math Support APIs], dxmath.xmvector2greaterorequalr
 ms.topic: function

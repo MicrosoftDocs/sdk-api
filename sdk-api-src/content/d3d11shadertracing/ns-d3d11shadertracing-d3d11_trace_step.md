@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_STEP
 title: D3D11_TRACE_STEP (d3d11shadertracing.h)
-author: windows-sdk-content
+
 description: Describes a trace step, which is an instruction.
 old-location: direct3d11\d3d11_trace_step.htm
 tech.root: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
 ms.topic: struct

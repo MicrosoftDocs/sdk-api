@@ -1,12 +1,12 @@
 ---
 UID: NE:wcndevice.tagWCN_PASSWORD_TYPE
 title: WCN_PASSWORD_TYPE (wcndevice.h)
-author: windows-sdk-content
+
 description: WCN_PASSWORD_TYPE enumeration defines the authentication that will be used in a WPS session.
 old-location: wcn\wcn_password_type.htm
 tech.root: wcn
 ms.assetid: 14bdc3d4-11eb-4361-bd28-3399c14c4d08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WCN_PASSWORD_TYPE, WCN_PASSWORD_TYPE enumeration [Windows Connect Now], WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PIN_REGISTRAR_SPECIFIED, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.wcn_password_type, wcndevice/WCN_PASSWORD_TYPE, wcndevice/WCN_PASSWORD_TYPE_PIN, wcndevice/WCN_PASSWORD_TYPE_PIN_REGISTRAR_SPECIFIED, wcndevice/WCN_PASSWORD_TYPE_PUSH_BUTTON
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillMesh
 title: ID2D1CommandSink::FillMesh (d2d1_1.h)
-author: windows-sdk-content
+
 description: Indicates a mesh to be filled by the command sink.
 old-location: direct2d\id2d1commandsink_fillmesh.htm
 tech.root: Direct2D
 ms.assetid: b81ac1d2-06bb-4d39-b03d-c0abf7267c3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FillMesh, FillMesh method [Direct2D], FillMesh method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillMesh method, ID2D1CommandSink.FillMesh, ID2D1CommandSink::FillMesh, d2d1_1/ID2D1CommandSink::FillMesh, direct2d.id2d1commandsink_fillmesh
 ms.topic: method

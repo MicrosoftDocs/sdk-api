@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IVMRFilterConfig
 title: IVMRFilterConfig (strmif.h)
-author: windows-sdk-content
+
 description: The IVMRFilterConfig interface is used to configure the operating mode and video rendering mechanisms of the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrfilterconfig.htm
 tech.root: DirectShow
 ms.assetid: 3ea7bb41-1f5f-496f-bdf4-776ec9f28876
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], IVMRFilterConfig interface [DirectShow],described, IVMRFilterConfigInterface, dshow.ivmrfilterconfig, strmif/IVMRFilterConfig
 ms.topic: interface

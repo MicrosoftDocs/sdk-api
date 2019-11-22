@@ -1,12 +1,12 @@
 ---
 UID: NN:mmdeviceapi.IMMNotificationClient
 title: IMMNotificationClient (mmdeviceapi.h)
-author: windows-sdk-content
+
 description: The IMMNotificationClient interface provides notifications when an audio endpoint device is added or removed, when the state or properties of an endpoint device change, or when there is a change in the default role assigned to an endpoint device.
 old-location: coreaudio\immnotificationclient.htm
 tech.root: CoreAudio
 ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
 ms.topic: interface

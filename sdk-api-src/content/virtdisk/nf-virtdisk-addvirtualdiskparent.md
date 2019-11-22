@@ -1,12 +1,12 @@
 ---
 UID: NF:virtdisk.AddVirtualDiskParent
 title: AddVirtualDiskParent function (virtdisk.h)
-author: windows-sdk-content
+
 description: Attaches a parent to a virtual disk opened with the OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN flag.
 old-location: vstor\addvirtualdiskparent.htm
 tech.root: VStor
 ms.assetid: 1af2a21b-246e-42d0-a493-4c513e716dab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storage], virtdisk/AddVirtualDiskParent, vstor.addvirtualdiskparent
 ms.topic: function

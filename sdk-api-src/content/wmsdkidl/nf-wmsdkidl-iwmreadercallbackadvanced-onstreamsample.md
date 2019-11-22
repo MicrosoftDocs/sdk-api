@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnStreamSample
 title: IWMReaderCallbackAdvanced::OnStreamSample (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The OnStreamSample method delivers stream samples from the source file without decompressing them first.
 old-location: wmformat\iwmreadercallbackadvanced_onstreamsample.htm
 tech.root: wmformat
 ms.assetid: 6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSample method, IWMReaderCallbackAdvanced.OnStreamSample, IWMReaderCallbackAdvanced::OnStreamSample, IWMReaderCallbackAdvancedOnStreamSample, OnStreamSample, OnStreamSample method [windows Media Format], OnStreamSample method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamsample, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSample
 ms.topic: method

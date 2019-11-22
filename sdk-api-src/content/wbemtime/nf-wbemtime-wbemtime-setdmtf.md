@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTime.SetDMTF
 title: WBEMTime::SetDMTF (wbemtime.h)
-author: windows-sdk-content
+
 description: The SetDMTF method sets the time in the WBEMTime object. The time is given by its BSTR parameter in Date and Time Format. A date and time argument earlier than midnight January 1, 1601 is not valid.
 old-location: wmi\wbemtime_setdmtf.htm
 tech.root: WmiSdk
 ms.assetid: 5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf"
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcasync.RpcSsContextLockExclusive
 title: RpcSsContextLockExclusive function (rpcasync.h)
-author: windows-sdk-content
+
 description: The RpcSsContextLockExclusive function enables an application to begin using a context handle in exclusive mode.
 old-location: rpc\rpcsscontextlockexclusive.htm
 tech.root: Rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
 ms.topic: function

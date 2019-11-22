@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.RemoveScript
 title: IWMHeaderInfo::RemoveScript (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The RemoveScript method enables the object to remove a script from the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_removescript.htm
 tech.root: wmformat
 ms.assetid: c66e808d-25f9-4745-8bcc-731f2556f470
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveScript method, IWMHeaderInfo.RemoveScript, IWMHeaderInfo::RemoveScript, IWMHeaderInfoRemoveScript, RemoveScript, RemoveScript method [windows Media Format], RemoveScript method [windows Media Format],IWMHeaderInfo interface, wmformat.iwmheaderinfo_removescript, wmsdkidl/IWMHeaderInfo::RemoveScript
 ms.topic: method

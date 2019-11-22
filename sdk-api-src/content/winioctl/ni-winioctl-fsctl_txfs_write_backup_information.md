@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 title: FSCTL_TXFS_WRITE_BACKUP_INFORMATION
-author: windows-sdk-content
+
 description: Writes Transactional NTFS (TxF) specific information to a specified file.
 old-location: fs\fsctl_txfs_write_backup_information.htm
 tech.root: FileIO
 ms.assetid: 36080d53-9004-40f7-9d92-c6deaac8299f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_WRITE_BACKUP_INFORMATION, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_write_backup_information, winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 ms.topic: ioctl

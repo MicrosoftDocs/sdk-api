@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetLength
 title: IDvbCableDeliverySystemDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9f6c0a4c-6f0e-4217-b6a0-af709a75d24d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbCableDeliverySystemDescriptor.GetLength, IDvbCableDeliverySystemDescriptor::GetLength, IDvbCableDeliverySystemDescriptorGetLength, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetLength, mstv.idvbcabledeliverysystemdescriptor_getlength
 ms.topic: method

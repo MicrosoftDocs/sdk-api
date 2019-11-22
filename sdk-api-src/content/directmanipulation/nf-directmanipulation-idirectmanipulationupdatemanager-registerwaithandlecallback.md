@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.RegisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::RegisterWaitHandleCallback (directmanipulation.h)
-author: windows-sdk-content
+
 description: Registers a callback that is triggered by a handle.
 old-location: directmanipulation\idirectmanipulationupdatemanager_registerwaithandlecallback.htm
 tech.root: directmanipulation
 ms.assetid: bc0e22b8-ec27-478f-9c4b-ca192d8d52d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],RegisterWaitHandleCallback method, IDirectManipulationUpdateManager.RegisterWaitHandleCallback, IDirectManipulationUpdateManager::RegisterWaitHandleCallback, RegisterWaitHandleCallback, RegisterWaitHandleCallback method [Direct Manipulation], RegisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_registerwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::RegisterWaitHandleCallback
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:synchapi.CreateEventExW
 title: CreateEventExW function (synchapi.h)
-author: windows-sdk-content
+
 description: Creates or opens a named or unnamed event object and returns a handle to the object.
 old-location: base\createeventex.htm
 tech.root: Sync
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
 ms.topic: function

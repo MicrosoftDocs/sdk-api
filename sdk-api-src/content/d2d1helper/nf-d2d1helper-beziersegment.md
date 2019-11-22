@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1helper.BezierSegment
 title: BezierSegment function (d2d1helper.h)
-author: windows-sdk-content
+
 description: Creates a D2D1_BEZIER_SEGMENT structure.
 old-location: direct2d\beziersegment.htm
 tech.root: Direct2D
 ms.assetid: 50938354-f9b7-40a9-807d-708f6a065912
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BezierSegment, BezierSegment function [Direct2D], d2d1helper/BezierSegment, direct2d.beziersegment
 ms.topic: function

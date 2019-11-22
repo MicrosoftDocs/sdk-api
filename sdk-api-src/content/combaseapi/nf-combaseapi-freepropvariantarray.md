@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.FreePropVariantArray
 title: FreePropVariantArray function (combaseapi.h)
-author: windows-sdk-content
+
 description: The FreePropVariantArray function calls PropVariantClear on each of the PROPVARIANT structures in the rgvars array to make the value zero for each of the members of the array.
 old-location: stg\freepropvariantarray.htm
 tech.root: Stg
 ms.assetid: 2eefb57e-9311-46e1-9eed-e25aa3b5afaa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Storage], _stg_freepropvariantarray, combaseapi/FreePropVariantArray, stg.freepropvariantarray
 ms.topic: function

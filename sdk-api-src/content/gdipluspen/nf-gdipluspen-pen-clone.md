@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.Clone
 title: Pen::Clone (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::Clone method copies a Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clone_85.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
 ms.topic: method

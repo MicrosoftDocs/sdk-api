@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLInstallProofOfPurchase
 title: SLInstallProofOfPurchase function (slpublic.h)
-author: windows-sdk-content
+
 description: Registers the product key with SL.
 old-location: security\slinstallproofofpurchase.htm
 tech.root: SecSLApi
 ms.assetid: ea9efcf0-5146-4ede-8ec3-dc8617e34156
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
 ms.topic: function

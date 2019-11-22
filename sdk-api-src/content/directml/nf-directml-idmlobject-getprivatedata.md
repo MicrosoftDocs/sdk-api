@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLObject.GetPrivateData
 title: IDMLObject::GetPrivateData
-author: windows-sdk-content
+
 description: Gets application-defined data from a DirectML device object.
 old-location: direct3d12\idmlobject_getprivatedata.htm
 tech.root: direct3d12
 ms.assetid: 9AB29A57-95F4-4DB4-9D67-A8354CD93B81
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,IDMLObject interface, IDMLObject interface,GetPrivateData method, IDMLObject.GetPrivateData, IDMLObject::GetPrivateData, direct3d12.idmlobject_getprivatedata, directml/IDMLObject::GetPrivateData
 ms.topic: method

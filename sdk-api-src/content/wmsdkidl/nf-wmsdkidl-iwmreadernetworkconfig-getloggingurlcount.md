@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetLoggingUrlCount
 title: IWMReaderNetworkConfig::GetLoggingUrlCount (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetLoggingUrlCount method retrieves the number of URLs in the current list of logging URLs.
 old-location: wmformat\iwmreadernetworkconfig_getloggingurlcount.htm
 tech.root: wmformat
 ms.assetid: 869e093f-8936-4b60-8818-ee2c57924d11
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLoggingUrlCount, GetLoggingUrlCount method [windows Media Format], GetLoggingUrlCount method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrlCount method, IWMReaderNetworkConfig.GetLoggingUrlCount, IWMReaderNetworkConfig::GetLoggingUrlCount, IWMReaderNetworkConfigGetLoggingUrlCount, wmformat.iwmreadernetworkconfig_getloggingurlcount, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrlCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfile
 title: IConfigAsfWriter::GetCurrentProfile (dshowasf.h)
-author: windows-sdk-content
+
 description: The GetCurrentProfile method retrieves the current ASF profile from the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_getcurrentprofile.htm
 tech.root: DirectShow
 ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
 ms.topic: method

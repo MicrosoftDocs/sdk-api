@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzProperty
 title: ResUtilGetMultiSzProperty function (resapi.h)
-author: windows-sdk-content
+
 description: Retrieves a multiple string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetmultiszproperty.htm
 tech.root: MsCS
 ms.assetid: 7f345cce-fa67-467c-bd4f-286609c3f757
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilGetMultiSzProperty, ResUtilGetMultiSzProperty function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY, resapi/ResUtilGetMultiSzProperty
 ms.topic: function

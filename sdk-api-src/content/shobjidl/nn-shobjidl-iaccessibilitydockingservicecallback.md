@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IAccessibilityDockingServiceCallback
 title: IAccessibilityDockingServiceCallback (shobjidl.h)
-author: windows-sdk-content
+
 description: Receives Acessibility Window Docking events.
 old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
 ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NL:objpath.CObjectPathParser
 title: CObjectPathParser (objpath.h)
-author: windows-sdk-content
+
 description: Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser.htm
 tech.root: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
 ms.topic: class

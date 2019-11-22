@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetProcessDpiAwarenessContext
 title: SetProcessDpiAwarenessContext function (winuser.h)
-author: windows-sdk-content
+
 description: Sets the current process to a specified dots per inch (dpi) awareness context. The DPI awareness contexts are from the DPI_AWARENESS_CONTEXT value.
 old-location: hidpi\setprocessdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: EACD1784-BEFF-46C1-8665-CBC86A65833C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwarenessContext, SetProcessDpiAwarenessContext function [High DPI], hidpi.setprocessdpiawarenesscontext, winuser/SetProcessDpiAwarenessContext
 ms.topic: function

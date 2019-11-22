@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.RegisterHotKey
 title: RegisterHotKey function (winuser.h)
-author: windows-sdk-content
+
 description: Defines a system-wide hot key.
 old-location: inputdev\registerhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\registerhotkey.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MOD_ALT, MOD_CONTROL, MOD_NOREPEAT, MOD_SHIFT, MOD_WIN, RegisterHotKey, RegisterHotKey function [Keyboard and Mouse Input], _win32_RegisterHotKey, _win32_registerhotkey_cpp, inputdev.registerhotkey, winui._win32_registerhotkey, winuser/RegisterHotKey
 ms.topic: function

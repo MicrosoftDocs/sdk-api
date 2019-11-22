@@ -1,7 +1,7 @@
 ---
 UID: NA:shlobj
 ms.assetid: 7e8dadd8-b163-38b9-92c1-3788e581a6ce
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

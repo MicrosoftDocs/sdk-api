@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackageManifest
 title: IAppxPackageEditor::UpdatePackageManifest (appxpackaging.h)
-author: windows-sdk-content
+
 description: Updates an app package manifest.
 old-location: appxpkg\iappxpackageeditor_updatepackagemanifest.htm
 tech.root: appxpkg
 ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
 ms.topic: method

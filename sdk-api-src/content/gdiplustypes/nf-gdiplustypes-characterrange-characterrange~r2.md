@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange~r2
 title: CharacterRange::CharacterRange~r2 (gdiplustypes.h)
-author: windows-sdk-content
+
 description: Creates a CharacterRange::CharacterRange object with the data members set to zero.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(), CharacterRange.CharacterRange~r2, CharacterRange::CharacterRange, CharacterRange::CharacterRange~r2, _gdiplus_CLASS_CharacterRange_CharacterRange_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_
 ms.topic: method

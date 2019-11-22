@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITTAPI.Initialize
 title: ITTAPI::Initialize (tapi3if.h)
-author: windows-sdk-content
+
 description: The Initialize method initializes TAPI. This method must be called before calling any other TAPI 3 method. The application must call the Shutdown method when ending a TAPI session.
 old-location: tapi3\ittapi_initialize.htm
 tech.root: Tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Initialize method, ITTAPI.Initialize, ITTAPI::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_initialize, tapi3.ittapi_initialize, tapi3if/ITTAPI::Initialize
 ms.topic: method

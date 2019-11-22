@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCanonicalizationMethod
 title: IOpcDigitalSignature::GetCanonicalizationMethod (msopc.h)
-author: windows-sdk-content
+
 description: Gets the canonicalization method that was applied to the SignedInfo element of the serialized signature.
 old-location: opc\iopcdigitalsignature_getcanonicalizationmethod.htm
 tech.root: OPC
 ms.assetid: 59c89909-6e35-4210-b76c-c820a9bb0d8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalizationMethod, GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCanonicalizationMethod method, IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
 ms.topic: method

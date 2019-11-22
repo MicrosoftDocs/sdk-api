@@ -1,12 +1,12 @@
 ---
 UID: NF:lmaccess.NetValidatePasswordPolicyFree
 title: NetValidatePasswordPolicyFree function (lmaccess.h)
-author: windows-sdk-content
+
 description: The NetValidatePasswordPolicyFree function frees the memory that the NetValidatePasswordPolicy function allocates for the OutputArg parameter, which is a NET_VALIDATE_OUTPUT_ARG structure.
 old-location: netmgmt\netvalidatepasswordpolicyfree.htm
 tech.root: NetMgmt
 ms.assetid: 263834cd-a0e2-4ec0-9cb1-c03eb198de3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree function [Network Management], lmaccess/NetValidatePasswordPolicyFree, netmgmt.netvalidatepasswordpolicyfree
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_SetTextColor
 title: ListView_SetTextColor macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the text color of a list-view control. You can use this macro or send the LVM_SETTEXTCOLOR message explicitly.
 old-location: controls\ListView_SetTextColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextcolor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_SetTextColor, ListView_SetTextColor macro [Windows Controls], _win32_ListView_SetTextColor, _win32_ListView_SetTextColor_cpp, commctrl/ListView_SetTextColor, controls.ListView_SetTextColor, controls._win32_ListView_SetTextColor
 ms.topic: macro

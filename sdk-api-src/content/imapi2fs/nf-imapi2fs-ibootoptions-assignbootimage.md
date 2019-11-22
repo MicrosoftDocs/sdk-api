@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IBootOptions.AssignBootImage
 title: IBootOptions::AssignBootImage (imapi2fs.h)
-author: windows-sdk-content
+
 description: Sets the data stream that contains the boot image.
 old-location: imapi\ibootoptions_assignbootimage.htm
 tech.root: imapi
 ms.assetid: 63d598dd-72a8-4544-813d-11f2e7e53ec5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
 ms.topic: method

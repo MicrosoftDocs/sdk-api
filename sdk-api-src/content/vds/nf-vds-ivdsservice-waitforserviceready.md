@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsService.WaitForServiceReady
 title: IVdsService::WaitForServiceReady (vds.h)
-author: windows-sdk-content
+
 description: Waits for VDS initialization to complete and returns the status of the VDS initialization.
 old-location: base\ivdsservice_waitforserviceready.htm
 tech.root: VDS
 ms.assetid: 85075abe-7fac-40aa-a93e-19d89c0fd760
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],WaitForServiceReady method, IVdsService.WaitForServiceReady, IVdsService::WaitForServiceReady, WaitForServiceReady, WaitForServiceReady method [VDS], WaitForServiceReady method [VDS],IVdsService interface, base.ivdsservice_waitforserviceready, vds/IVdsService::WaitForServiceReady
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineSetAgentGroup
 title: lineSetAgentGroup function (tapi.h)
-author: windows-sdk-content
+
 description: The lineSetAgentGroup function sets the agent groups into which the agent is logged into on a particular address.
 old-location: tapi2\linesetagentgroup.htm
 tech.root: Tapi
 ms.assetid: ce6795fb-fe11-4125-abeb-9b2686ea669a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetagentgroup, lineSetAgentGroup, lineSetAgentGroup function [TAPI 2.2], tapi/lineSetAgentGroup, tapi2.linesetagentgroup"
 ms.topic: function

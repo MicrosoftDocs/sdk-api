@@ -1,12 +1,12 @@
 ---
 UID: NN:infotech.IITDatabase
 title: IITDatabase (infotech.h)
-author: windows-sdk-content
+
 description: Use this interface for opening and closing the database object, and for instantiating objects stored in the database.
 old-location: htmlhelp\iitdatabase.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseinterface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IITDatabase, IITDatabase interface [HTML Help Workshop], IITDatabase interface [HTML Help Workshop],described, htmlhelp.iitdatabase, infotech/IITDatabase, refIITDatabaseInterface
 ms.topic: interface

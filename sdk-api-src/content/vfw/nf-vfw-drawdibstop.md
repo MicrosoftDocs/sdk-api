@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.DrawDibStop
 title: DrawDibStop function (vfw.h)
-author: windows-sdk-content
+
 description: The DrawDibStop function frees the resources used by a DrawDib DC for streaming playback.
 old-location: multimedia\drawdibstop.htm
 tech.root: Multimedia
 ms.assetid: 8744d0d2-bcdc-464f-a55c-4b1db6a42522
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_DrawDibStop, multimedia.drawdibstop, vfw/DrawDibStop
 ms.topic: function

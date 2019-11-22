@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._STORAGE_DEPENDENCY_INFO_VERSION
 title: STORAGE_DEPENDENCY_INFO_VERSION (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains the version of the virtual hard disk (VHD) STORAGE_DEPENDENCY_INFO structure to use in calls to VHD functions.
 old-location: vhd\storage_dependency_info_version.htm
 tech.root: VStor
 ms.assetid: 80437477-3f5e-4dac-a773-9339c5b742e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STORAGE_DEPENDENCY_INFO_VERSION, STORAGE_DEPENDENCY_INFO_VERSION enumeration [VHD], STORAGE_DEPENDENCY_INFO_VERSION_1, STORAGE_DEPENDENCY_INFO_VERSION_2, STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, vdssys/STORAGE_DEPENDENCY_INFO_VERSION, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_1, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_2, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, vhd.storage_dependency_info_version, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_1, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_2, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED
 ms.topic: enum

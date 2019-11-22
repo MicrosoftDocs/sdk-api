@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.WICMapSchemaToName
 title: WICMapSchemaToName function (wincodec.h)
-author: windows-sdk-content
+
 description: Obtains the name associated with a given schema.
 old-location: wic\_wic_codec_wicmapschematoname.htm
 tech.root: wic
 ms.assetid: 6e71b75a-a542-459c-9935-b05f3ce39217
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICMapSchemaToName, WICMapSchemaToName function [Windows Imaging Component], _wic_codec_wicmapschematoname, wic._wic_codec_wicmapschematoname, wincodec/WICMapSchemaToName
 ms.topic: function

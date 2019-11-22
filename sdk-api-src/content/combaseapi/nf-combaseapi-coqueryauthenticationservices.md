@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoQueryAuthenticationServices
 title: CoQueryAuthenticationServices function (combaseapi.h)
-author: windows-sdk-content
+
 description: Retrieves a list of the authentication services registered when the process called CoInitializeSecurity.
 old-location: com\coqueryauthenticationservices.htm
 tech.root: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetIntZ
 title: XMVectorSetIntZ function (directxmath.h)
-author: windows-sdk-content
+
 description: Set the value of the z component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetintz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntZ(XMVECTOR,uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntZ, XMVectorSetIntZ, XMVectorSetIntZ method [DirectX Math Support APIs], dxmath.xmvectorsetintz
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.Terminate
 title: IRendezvousSession::Terminate (rendezvoussession.h)
-author: windows-sdk-content
+
 description: Terminates the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_Terminate.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\terminate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, IRendezvousSession.Terminate, IRendezvousSession::Terminate, Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
 ms.topic: method

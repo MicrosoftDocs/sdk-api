@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetUpperBound
 title: IUIAnimationVariable2::SetUpperBound (uianimation.h)
-author: windows-sdk-content
+
 description: Sets the upper bound (ceiling) for the value of the animation variable. The value of the animation variable should not rise above the specified value.
 old-location: uianimation\iuianimationvariable2_setupperbound.htm
 tech.root: UIAnimation
 ms.assetid: AE142CD9-61BB-427A-A40B-42EFDD0B5CAD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBound method, IUIAnimationVariable2.SetUpperBound, IUIAnimationVariable2::SetUpperBound, SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setupperbound, uianimation/IUIAnimationVariable2::SetUpperBound
 ms.topic: method

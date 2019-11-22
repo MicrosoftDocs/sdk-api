@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
 title: ITsSbResourceNotification::NotifyTargetChange (sbtsv.h)
-author: windows-sdk-content
+
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: TermServ
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.topic: method

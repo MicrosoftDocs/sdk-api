@@ -1,7 +1,7 @@
 ---
 UID: NA:spatialinteractionmanagerinterop
 ms.assetid: 4eeec980-4fd8-3352-85de-a0d584fa00d8
-ms.author: windowssdkdev
+
 ms.date: 01/25/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_STATUS
 title: WLAN_HOSTED_NETWORK_STATUS (wlanapi.h)
-author: windows-sdk-content
+
 description: Contains information about the status of the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_status.htm
 tech.root: NativeWiFi
 ms.assetid: 5fa00041-235f-4f48-a367-e1eaec8474ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATUS, WLAN_HOSTED_NETWORK_STATUS structure [NativeWIFI], nwifi.wlan_hosted_network_status, wlanapi/PWLAN_HOSTED_NETWORK_STATUS, wlanapi/WLAN_HOSTED_NETWORK_STATUS'
 ms.topic: struct

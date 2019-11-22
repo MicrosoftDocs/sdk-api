@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarR8FromI1
 title: VarR8FromI1 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a char value to a double value.
 old-location: automat\varr8fromi1.htm
 tech.root: automat
 ms.assetid: a40aedef-3366-4c4d-8fd2-ef0b70bccc6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarR8FromI1, VarR8FromI1 function [Automation], _oa96_VarR8FromI1, automat.varr8fromi1, oleauto/VarR8FromI1
 ms.topic: function

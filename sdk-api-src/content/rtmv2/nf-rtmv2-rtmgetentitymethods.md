@@ -1,12 +1,12 @@
 ---
 UID: NF:rtmv2.RtmGetEntityMethods
 title: RtmGetEntityMethods function (rtmv2.h)
-author: windows-sdk-content
+
 description: The RtmGetEntityMethods function queries the specified client to determine which methods are available for another client to invoke.
 old-location: rras\rtmgetentitymethods.htm
 tech.root: RRAS
 ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtmGetEntityMethods, RtmGetEntityMethods function [RAS], _rtmv2ref_rtmgetentitymethods, rras.rtmgetentitymethods, rtmv2/RtmGetEntityMethods
 ms.topic: function

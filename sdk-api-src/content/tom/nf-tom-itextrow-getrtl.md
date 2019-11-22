@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRow.GetRTL
 title: ITextRow::GetRTL (tom.h)
-author: windows-sdk-content
+
 description: Gets whether this row has right-to-left orientation.
 old-location: controls\itextrow_getrtl.htm
 tech.root: Controls
 ms.assetid: 60261327-71f1-4bc3-97ac-b9c5ee3d44c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRTL, GetRTL method [Windows Controls], GetRTL method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetRTL method, ITextRow.GetRTL, ITextRow::GetRTL, controls.itextrow_getrtl, tom/ITextRow::GetRTL
 ms.topic: method

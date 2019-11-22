@@ -1,12 +1,12 @@
 ---
 UID: NN:directml.IDMLPageable
 title: IDMLPageable
-author: windows-sdk-content
+
 description: Implemented by objects that can be evicted from GPU memory, and hence that can be supplied to IDMLDevice::Evict and IDMLDevice::MakeResident.
 old-location: direct3d12\idmlpageable.htm
 tech.root: direct3d12
 ms.assetid: A22F6DF1-E8A6-4FA8-B60C-5C566F0ED5CD
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLPageable, IDMLPageable interface, IDMLPageable interface,described, direct3d12.idmlpageable, directml/IDMLPageable
 ms.topic: interface

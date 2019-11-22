@@ -1,12 +1,12 @@
 ---
 UID: NF:clfs.ClfsLsnEqual
 title: ClfsLsnEqual function (clfs.h)
-author: windows-sdk-content
+
 description: Determines whether two LSNs from the same stream are equal.
 old-location: fs\lsnequal.htm
 tech.root: Clfs
 ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
 ms.topic: function

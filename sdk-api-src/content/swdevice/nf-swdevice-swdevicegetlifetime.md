@@ -1,12 +1,12 @@
 ---
 UID: NF:swdevice.SwDeviceGetLifetime
 title: SwDeviceGetLifetime function (swdevice.h)
-author: windows-sdk-content
+
 description: Gets the lifetime of a software device.
 old-location: swdevice\swdevicegetlifetime.htm
 tech.root: swdevice
 ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
 ms.topic: function

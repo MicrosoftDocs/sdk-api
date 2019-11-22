@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterZ(float)
 title: IDCompositionScaleTransform3D::SetCenterZ (dcomp.h)
-author: windows-sdk-content
+
 description: Changes the value of the CenterZ property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterz_float.htm
 tech.root: directcomp
 ms.assetid: 69610037-28CD-49DA-8633-C26986AD17E7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(float), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_float
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPointerTouchInfo
 title: GetPointerTouchInfo function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the touch-based information for the specified pointer (of type PT_TOUCH) associated with the current message.
 old-location: inputmsg\getpointertouchinfo.htm
 tech.root: InputMsg
 ms.assetid: 97d93754-fc7e-4400-a6ee-6bab53e421cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointerTouchInfo, GetPointerTouchInfo function [Input Messages and Notifications], inputmsg.getpointertouchinfo, winuser/GetPointerTouchInfo
 ms.topic: function

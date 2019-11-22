@@ -1,7 +1,7 @@
 ---
 UID: NA:p2p
 ms.assetid: 16701fd3-8a71-3a76-bd2b-899535d1711e
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

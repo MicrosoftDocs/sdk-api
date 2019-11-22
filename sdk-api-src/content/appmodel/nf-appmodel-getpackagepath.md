@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.GetPackagePath
 title: GetPackagePath function (appmodel.h)
-author: windows-sdk-content
+
 description: Gets the path for the specified package.
 old-location: appxpkg\getpackagepath.htm
 tech.root: appxpkg
 ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
 ms.topic: function

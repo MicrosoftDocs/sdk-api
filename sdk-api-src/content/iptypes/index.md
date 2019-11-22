@@ -1,7 +1,7 @@
 ---
 UID: NA:iptypes
 ms.assetid: 0f7dd978-af05-3b0d-b777-5418cffa0188
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

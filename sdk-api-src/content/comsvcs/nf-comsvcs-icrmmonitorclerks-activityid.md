@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ActivityId
 title: ICrmMonitorClerks::ActivityId (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the activity ID of the CRM Worker for the specified index.
 old-location: cos\icrmmonitorclerks_activityid.htm
 tech.root: cossdk
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ActivityId, ActivityId method [COM+], ActivityId method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],ActivityId method, ICrmMonitorClerks.ActivityId, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
 ms.topic: method

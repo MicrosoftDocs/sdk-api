@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_Message
 title: IFaxOutgoingMessageIterator::get_Message (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingMessageIterator::get_Message property retrieves the outbound fax message under the archive cursor.
 old-location: fax\_mfax_faxoutgoingmessageiterator_message_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wkl_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],Message property, IFaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.message_cpp, fax._mfax_faxoutgoingmessageiterator_message_cpp, faxcomex/IFaxOutgoingMessageIterator::Message, faxcomex/IFaxOutgoingMessageIterator::get_Message, get_Message
 ms.topic: method

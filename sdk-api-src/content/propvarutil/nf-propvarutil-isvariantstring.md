@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.IsVariantString
 title: IsVariantString function (propvarutil.h)
-author: windows-sdk-content
+
 description: Specifies whether a variant is a string.
 old-location: properties\IsVariantString.htm
 tech.root: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
 ms.topic: function

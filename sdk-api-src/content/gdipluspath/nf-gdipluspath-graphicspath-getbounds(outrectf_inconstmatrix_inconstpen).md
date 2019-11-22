@@ -3,7 +3,7 @@ UID: NF:gdipluspath.GraphicsPath.GetBounds(OUT RectF,IN const Matrix,IN const Pe
 title: GraphicsPath::GetBounds
 description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
 ms.assetid: a6a44cf0-78a9-4a1c-95f8-06d2ac32339b
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetBounds
 ms.topic: language-reference

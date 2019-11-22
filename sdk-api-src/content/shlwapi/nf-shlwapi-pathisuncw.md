@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathIsUNCW
 title: PathIsUNCW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.
 old-location: shell\PathIsUNC.htm
 tech.root: shell
 ms.assetid: 53da5ba7-a2a4-45b2-90e0-ae006415933e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathIsUNC, PathIsUNC function [Windows Shell], PathIsUNCA, PathIsUNCW, _win32_PathIsUNC, shell.PathIsUNC, shlwapi/PathIsUNC, shlwapi/PathIsUNCA, shlwapi/PathIsUNCW
 ms.topic: function

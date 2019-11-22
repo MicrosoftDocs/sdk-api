@@ -1,12 +1,12 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDirectivityType
 title: SpatialAudioHrtfDirectivityType (spatialaudiohrtf.h)
-author: windows-sdk-content
+
 description: Specifies the shape in which sound is emitted by an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitytype.htm
 tech.root: CoreAudio
 ms.assetid: 3A1426B5-F4FF-4CF0-9E0A-3096371B3D2E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityType, SpatialAudioHrtfDirectivityType enumeration [Core Audio], SpatialAudioHrtfDirectivity_Cardioid, SpatialAudioHrtfDirectivity_Cone, SpatialAudioHrtfDirectivity_OmniDirectional, coreaudio.spatialaudiohrtfdirectivitytype, spatialaudiohrtf/SpatialAudioHrtfDirectivityType, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cone, spatialaudiohrtf/SpatialAudioHrtfDirectivity_OmniDirectional
 ms.topic: enum

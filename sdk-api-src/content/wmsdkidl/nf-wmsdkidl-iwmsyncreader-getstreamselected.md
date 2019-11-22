@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetStreamSelected
 title: IWMSyncReader::GetStreamSelected (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetStreamSelected method retrieves a flag indicating whether a particular stream is currently selected.
 old-location: wmformat\iwmsyncreader_getstreamselected.htm
 tech.root: wmformat
 ms.assetid: bcde749e-c0fd-4be8-8708-a053854a9275
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
 ms.topic: method

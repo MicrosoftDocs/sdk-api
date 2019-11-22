@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1TransformedGeometry
 title: ID2D1TransformedGeometry (d2d1.h)
-author: windows-sdk-content
+
 description: Represents a geometry that has been transformed.
 old-location: direct2d\ID2D1TransformedGeometry.htm
 tech.root: Direct2D
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
 ms.topic: interface

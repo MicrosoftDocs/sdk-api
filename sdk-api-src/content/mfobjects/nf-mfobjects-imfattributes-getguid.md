@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetGUID
 title: IMFAttributes::GetGUID (mfobjects.h)
-author: windows-sdk-content
+
 description: Retrieves a GUID value associated with a key.
 old-location: mf\imfattributes_getguid.htm
 tech.root: medfound
 ms.assetid: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID, GetGUID method [Media Foundation], GetGUID method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetGUID method, IMFAttributes.GetGUID, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID
 ms.topic: method

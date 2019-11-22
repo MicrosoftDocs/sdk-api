@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMFilterGraphCallback.UnableToRender
 title: IAMFilterGraphCallback::UnableToRender (strmif.h)
-author: windows-sdk-content
+
 description: The UnableToRender method is called by the Filter Graph Manager if it cannot find any combination of filters to render the specified pin.
 old-location: dshow\iamfiltergraphcallback_unabletorender.htm
 tech.root: DirectShow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
 ms.topic: method

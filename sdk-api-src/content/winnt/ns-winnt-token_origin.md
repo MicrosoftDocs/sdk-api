@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._TOKEN_ORIGIN
 title: TOKEN_ORIGIN (winnt.h)
-author: windows-sdk-content
+
 description: Contains information about the origin of the logon session.
 old-location: security\token_origin.htm
 tech.root: SecAuthZ
 ms.assetid: b613f76a-7ad1-4066-90a1-244974f10219
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Security], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Security], _TOKEN_ORIGIN, security.token_origin, winnt/PTOKEN_ORIGIN, winnt/TOKEN_ORIGIN"
 ms.topic: struct

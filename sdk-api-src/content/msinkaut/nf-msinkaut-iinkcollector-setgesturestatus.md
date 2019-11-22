@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetGestureStatus
 title: IInkCollector::SetGestureStatus (msinkaut.h)
-author: windows-sdk-content
+
 description: Modifies the interest of the object or control in a known gesture.
 old-location: tablet\inkcollector_setgesturestatus.htm
 tech.root: tablet
 ms.assetid: 7bab227f-d095-48e8-856f-6446e62826dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkCollector interface [Tablet PC],SetGestureStatus method, IInkCollector.SetGestureStatus, IInkCollector::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetGestureStatus, tablet.inkcollector_setgesturestatus
 ms.topic: method

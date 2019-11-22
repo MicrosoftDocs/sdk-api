@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_Name
 title: IFaxOutboundRoutingGroup::get_Name (faxcomex.h)
-author: windows-sdk-content
+
 description: The Name property is a null-terminated string that specifies the name of the outbound routing group.
 old-location: fax\_mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_name_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0s6d.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Name property, IFaxOutboundRoutingGroup.Name, IFaxOutboundRoutingGroup.get_Name, IFaxOutboundRoutingGroup::Name, IFaxOutboundRoutingGroup::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxOutboundRoutingGroup interface, _mfax_faxoutboundroutinggroup.name, fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_name_cpp, fax._mfax_faxoutboundroutinggroup_name, faxcomex/IFaxOutboundRoutingGroup::Name, faxcomex/IFaxOutboundRoutingGroup::get_Name, get_Name
 ms.topic: method

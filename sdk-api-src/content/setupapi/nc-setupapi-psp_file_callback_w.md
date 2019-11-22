@@ -1,12 +1,12 @@
 ---
 UID: NC:setupapi.PSP_FILE_CALLBACK_W
 title: PSP_FILE_CALLBACK_W (setupapi.h)
-author: windows-sdk-content
+
 description: The FileCallback callback function is used by a few setup functions.
 old-location: setup\psp_file_callback.htm
 tech.root: SetupApi
 ms.assetid: 41eaa57a-e116-443c-93ee-397456a5c466
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FileCallback, PSP_FILE_CALLBACK, PSP_FILE_CALLBACK callback, PSP_FILE_CALLBACK callback function [Setup API], PSP_FILE_CALLBACK_A, PSP_FILE_CALLBACK_W, _setupapi_psp_file_callback, setup.psp_file_callback, setupapi/PSP_FILE_CALLBACK
 ms.topic: callback

@@ -3,7 +3,7 @@ UID: NF:chstring.operator-not-equal-to
 title: operator!=
 description: 
 ms.assetid: 5ab84140-31c8-4759-aaee-f79408e7d61c
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: operator!=
 ms.topic: language-reference

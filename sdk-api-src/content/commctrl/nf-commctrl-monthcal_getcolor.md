@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.MonthCal_GetColor
 title: MonthCal_GetColor macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the color for a given portion of a month calendar control. You can use this macro or send the MCM_GETCOLOR message explicitly.
 old-location: controls\MonthCal_GetColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcolor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_GetColor, MonthCal_GetColor macro [Windows Controls], _win32_MonthCal_GetColor, _win32_MonthCal_GetColor_cpp, commctrl/MonthCal_GetColor, controls.MonthCal_GetColor, controls._win32_MonthCal_GetColor
 ms.topic: macro

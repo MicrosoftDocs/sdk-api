@@ -1,12 +1,12 @@
 ---
 UID: NS:vfw.tagCapInfoChunk
 title: CAPINFOCHUNK (vfw.h)
-author: windows-sdk-content
+
 description: The CAPINFOCHUNK structure contains parameters that can be used to define an information chunk within an AVI capture file. The WM_CAP_FILE_SET_INFOCHUNK message or capSetInfoChunk macro is used to send a CAPINFOCHUNK structure to a capture window.
 old-location: multimedia\capinfochunk.htm
 tech.root: Multimedia
 ms.assetid: 7dbe8209-73c3-4eab-965e-91b94f77f0a7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, vfw/CAPINFOCHUNK"
 ms.topic: struct

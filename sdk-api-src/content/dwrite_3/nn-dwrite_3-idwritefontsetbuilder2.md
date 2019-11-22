@@ -2,9 +2,9 @@
 UID: NN:dwrite_3.IDWriteFontSetBuilder2
 title: IDWriteFontSetBuilder2
 description: Contains methods for building a font set.
-author: windows-sdk-content
+
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2, IDWriteFontSetBuilder2 interface [Direct Write], IDWriteFontSetBuilder2 interface [Direct Write],described, directwrite.idwritefontsetbuilder2, dwrite_3/IDWriteFontSetBuilder2
 ms.topic: interface

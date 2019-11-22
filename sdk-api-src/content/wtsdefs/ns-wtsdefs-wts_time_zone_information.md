@@ -1,12 +1,12 @@
 ---
 UID: NS:wtsdefs._WTS_TIME_ZONE_INFORMATION
 title: WTS_TIME_ZONE_INFORMATION (wtsdefs.h)
-author: windows-sdk-content
+
 description: Contains client time zone information.
 old-location: termserv\wts_time_zone_information.htm
 tech.root: TermServ
 ms.assetid: 7d0e75b1-0a9b-47b1-8bf7-192966e3d19a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], PWTS_TIME_ZONE_INFORMATION, PWTS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], WRDS_TIME_ZONE_INFORMATION, WRDS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], WTS_TIME_ZONE_INFORMATION, WTS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], termserv.wts_time_zone_information, wtsdefs/PWRDS_TIME_ZONE_INFORMATION, wtsdefs/PWTS_TIME_ZONE_INFORMATION, wtsdefs/WRDS_TIME_ZONE_INFORMATION, wtsdefs/WTS_TIME_ZONE_INFORMATION'
 ms.topic: struct

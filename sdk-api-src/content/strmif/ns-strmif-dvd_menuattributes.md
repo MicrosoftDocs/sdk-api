@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif.tagDVD_MenuAttributes
 title: DVD_MenuAttributes (strmif.h)
-author: windows-sdk-content
+
 description: The DVD_MenuAttributes structure contains information about a DVD menu. The IDvdInfo2::GetTitleAttributes method fills in a DVD_MenuAttributes structure for a specified stream.
 old-location: dshow\dvd_menuattributes.htm
 tech.root: DirectShow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects
 title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a cached array of elements representing the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: C2F11DD7-60D0-4848-98DD-FC33FD51BBD4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCachedAnnotationObjects, GetCachedAnnotationObjects method [Windows Accessibility], GetCachedAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects
 ms.topic: method

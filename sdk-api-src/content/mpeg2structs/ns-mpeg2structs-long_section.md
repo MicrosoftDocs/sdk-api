@@ -1,12 +1,12 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0008
 title: LONG_SECTION (mpeg2structs.h)
-author: windows-sdk-content
+
 description: The LONG_SECTION structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a SECTION pointer to a LONG_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
 old-location: mstv\long_section.htm
 tech.root: mstv
 ms.assetid: 1403971f-5165-484c-9aa3-0cd489985545
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PLONG_SECTION, LONG_SECTION, LONG_SECTION structure [Microsoft TV Technologies], PLONG_SECTION, PLONG_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/LONG_SECTION, mpeg2structs/PLONG_SECTION, mstv.long_section"
 ms.topic: struct

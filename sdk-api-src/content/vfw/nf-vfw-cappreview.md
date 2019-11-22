@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capPreview
 title: capPreview macro (vfw.h)
-author: windows-sdk-content
+
 description: The capPreview macro enables or disables preview mode.
 old-location: multimedia\cappreview.htm
 tech.root: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview"
 ms.topic: macro

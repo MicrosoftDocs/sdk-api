@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnInvoke
 title: IExpDispSupport::OnInvoke (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Gets ambient properties.
 old-location: shell\IExpDispSupport_OnInvoke.htm
 tech.root: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport interface [Windows Shell],OnInvoke method, IExpDispSupport.OnInvoke, IExpDispSupport::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
 ms.topic: method

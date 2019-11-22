@@ -1,12 +1,12 @@
 ---
 UID: NE:lmaccess._MSA_INFO_STATE
 title: MSA_INFO_STATE (lmaccess.h)
-author: windows-sdk-content
+
 description: Indicates the state of a managed service account.
 old-location: security\msa_info_state.htm
 tech.root: SecMgmt
 ms.assetid: 3cba6c6a-1d63-4795-b009-1fcdf86cc2ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Security], MsaInfoCanInstall, MsaInfoCannotInstall, MsaInfoInstalled, MsaInfoNotExist, MsaInfoNotService, lmaccess/MSA_INFO_STATE, lmaccess/MsaInfoCanInstall, lmaccess/MsaInfoCannotInstall, lmaccess/MsaInfoInstalled, lmaccess/MsaInfoNotExist, lmaccess/MsaInfoNotService, security.msa_info_state'
 ms.topic: enum

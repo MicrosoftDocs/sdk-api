@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayLock
 title: SafeArrayLock function (oleauto.h)
-author: windows-sdk-content
+
 description: Increments the lock count of an array, and places a pointer to the array data in pvData of the array descriptor.
 old-location: automat\safearraylock.htm
 tech.root: automat
 ms.assetid: cb29d862-c7c5-4852-b017-c29e88d5f1c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayLock, SafeArrayLock function [Automation], _oa96_SafeArrayLock, automat.safearraylock, oleauto/SafeArrayLock
 ms.topic: function

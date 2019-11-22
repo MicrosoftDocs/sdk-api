@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage2.put_BootImageOptionsArray
 title: IFileSystemImage2::put_BootImageOptionsArray (imapi2fs.h)
-author: windows-sdk-content
+
 description: Sets the boot option array that will be utilized to generate the file system image. Unlike IFileSystemImage::put_BootImageOptions, this method will not create a complete copy of each boot options array element, but instead use references to each element.
 old-location: imapi\ifilesystemimage2_put_bootimageoptionsarray.htm
 tech.root: imapi
 ms.assetid: 0b827f6a-8e40-4d9d-bec6-8d7f33dade43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],put_BootImageOptionsArray method, IFileSystemImage2.put_BootImageOptionsArray, IFileSystemImage2::put_BootImageOptionsArray, imapi.ifilesystemimage2_put_bootimageoptionsarray, imapi2fs/IFileSystemImage2::put_BootImageOptionsArray, put_BootImageOptionsArray, put_BootImageOptionsArray method [IMAPI], put_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface
 ms.topic: method

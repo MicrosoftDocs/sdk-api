@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsFreeSecurityToken
 title: WsFreeSecurityToken function (webservices.h)
-author: windows-sdk-content
+
 description: Releases the memory resource associated with a Security Token object.
 old-location: wsw\wsfreesecuritytoken.htm
 tech.root: wsw
 ms.assetid: 7f9500a8-b54f-4967-8f8d-9f8770d3dd60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsFreeSecurityToken, WsFreeSecurityToken function [Web Services for Windows], webservices/WsFreeSecurityToken, wsw.wsfreesecuritytoken
 ms.topic: function

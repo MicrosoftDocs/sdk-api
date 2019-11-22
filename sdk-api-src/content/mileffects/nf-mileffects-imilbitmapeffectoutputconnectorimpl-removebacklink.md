@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnectorImpl.RemoveBackLink
 title: IMILBitmapEffectOutputConnectorImpl::RemoveBackLink (mileffects.h)
-author: windows-sdk-content
+
 description: IMILBitmapEffectOutputConnectorImpl::RemoveBackLink method
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_removebacklink.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\removebacklink.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],RemoveBackLink method, IMILBitmapEffectOutputConnectorImpl.RemoveBackLink, IMILBitmapEffectOutputConnectorImpl::RemoveBackLink, RemoveBackLink, RemoveBackLink method [WPF Bitmap Effects], RemoveBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, _wibe_imilbitmapeffectoutputconnectorimpl_removebacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::RemoveBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_removebacklink
 ms.topic: method

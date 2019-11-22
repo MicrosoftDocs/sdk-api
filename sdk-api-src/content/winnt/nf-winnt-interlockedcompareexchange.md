@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange
 title: InterlockedCompareExchange function (winnt.h)
-author: windows-sdk-content
+
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 32-bit values and exchanges with another 32-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange.htm
 tech.root: Sync
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winnt/InterlockedCompareExchange
 ms.topic: function

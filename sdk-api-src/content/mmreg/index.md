@@ -1,7 +1,7 @@
 ---
 UID: NA:mmreg
 ms.assetid: d007b444-9242-3b0d-ba8b-3719f561c30a
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

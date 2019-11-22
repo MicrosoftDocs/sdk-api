@@ -1,12 +1,12 @@
 ---
 UID: NF:thrdbase.CThreadBase.BeginWrite
 title: CThreadBase::BeginWrite (thrdbase.h)
-author: windows-sdk-content
+
 description: The BeginWrite method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_beginwrite.htm
 tech.root: WmiSdk
 ms.assetid: 51ae6b39-b524-4bf9-ac71-45c812ad1680
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
 ms.topic: method

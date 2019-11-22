@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.OpenTraceA
 title: OpenTraceA function (evntrace.h)
-author: windows-sdk-content
+
 description: The OpenTrace function opens a real-time trace session or log file for consuming.
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
 ms.topic: function

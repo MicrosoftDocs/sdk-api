@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,float)
 title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,float) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets an element of the color matrix.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement.htm
 tech.root: directcomp
 ms.assetid: 4F78FA9F-8115-4D60-B119-F60968AAB1D4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,float), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement
 ms.topic: method

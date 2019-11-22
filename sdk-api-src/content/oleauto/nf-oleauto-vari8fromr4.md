@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI8FromR4
 title: VarI8FromR4 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a float value to an 8-byte integer value.
 old-location: automat\vari8fromr4.htm
 tech.root: automat
 ms.assetid: 5cc6c28b-8fa5-4452-8932-fcbe28536618
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI8FromR4, VarI8FromR4 function [Automation], _oa96_VarI8FromR4, automat.vari8fromr4, oleauto/VarI8FromR4
 ms.topic: function

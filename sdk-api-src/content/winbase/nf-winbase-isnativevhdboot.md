@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.IsNativeVhdBoot
 title: IsNativeVhdBoot function (winbase.h)
-author: windows-sdk-content
+
 description: Indicates if the OS was booted from a VHD container.
 old-location: base\isnativevhdboot.htm
 tech.root: SysInfo
 ms.assetid: 8198D4AF-553D-42B3-AF22-EC2C63C0E9AE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsNativeVhdBoot, IsNativeVhdBoot , IsNativeVhdBoot function, base.isnativevhdboot, base.isnativevhdboot_, winbase/IsNativeVhdBoot
 ms.topic: function

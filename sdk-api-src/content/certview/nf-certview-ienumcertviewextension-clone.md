@@ -1,12 +1,12 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Clone
 title: IEnumCERTVIEWEXTENSION::Clone (certview.h)
-author: windows-sdk-content
+
 description: Creates a copy of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_clone.htm
 tech.root: SecCrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],Clone method, IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
 ms.topic: method

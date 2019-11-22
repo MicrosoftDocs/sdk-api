@@ -1,12 +1,12 @@
 ---
 UID: NE:dwmapi.DWMNCRENDERINGPOLICY
 title: DWMNCRENDERINGPOLICY (dwmapi.h)
-author: windows-sdk-content
+
 description: Flags used by the DwmSetWindowAttribute function to specify the non-client area rendering policy.
 old-location: dwm\dwmncrenderingpolicy.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
 ms.topic: enum

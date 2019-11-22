@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 title: CMSG_CTRL_KEY_AGREE_DECRYPT_PARA (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains information about a key agreement recipient.
 old-location: security\cmsg_ctrl_key_agree_decrypt_para.htm
 tech.root: SecCrypto
 ms.assetid: 14e58281-4315-4ece-8ea8-92765cffd212
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_key_agree_decrypt_para, security.cmsg_ctrl_key_agree_decrypt_para, wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA'
 ms.topic: struct

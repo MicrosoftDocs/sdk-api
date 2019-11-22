@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.get_Count
 title: IInkDivisionUnits::get_Count (msinkaut15.h)
-author: windows-sdk-content
+
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkdivisionunits_count.htm
 tech.root: tablet
 ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
 ms.topic: method

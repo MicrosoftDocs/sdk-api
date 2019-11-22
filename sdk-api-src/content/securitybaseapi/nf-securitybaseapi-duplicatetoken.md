@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.DuplicateToken
 title: DuplicateToken function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Creates a new access token that duplicates one already in existence.
 old-location: security\duplicatetoken.htm
 tech.root: SecAuthZ
 ms.assetid: 796ec60e-fcae-48a9-b471-de3dce831306
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DuplicateToken, DuplicateToken function [Security], _win32_duplicatetoken, security.duplicatetoken, securitybaseapi/DuplicateToken
 ms.topic: function

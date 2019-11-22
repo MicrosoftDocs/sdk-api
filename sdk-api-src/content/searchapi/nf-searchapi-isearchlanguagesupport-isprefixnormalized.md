@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.IsPrefixNormalized
 title: ISearchLanguageSupport::IsPrefixNormalized (searchapi.h)
-author: windows-sdk-content
+
 description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
 old-location: search\_search_ISearchLanguageSupport_IsPrefixNormalized.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isprefixnormalized.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
 ms.topic: method

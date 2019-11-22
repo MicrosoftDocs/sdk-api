@@ -1,12 +1,12 @@
 ---
 UID: NE:cfapi.CF_DEHYDRATE_FLAGS
 title: CF_DEHYDRATE_FLAGS (cfapi.h)
-author: windows-sdk-content
+
 description: Placeholder dehydration flags.
 old-location: cloudapi\cf_dehydrate_flags.htm
 tech.root: cfApi
 ms.assetid: AE8AA67D-F6ED-4A2B-8613-17BBAB4C9F54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_DEHYDRATE_FLAGS, CF_DEHYDRATE_FLAGS enumeration, CF_DEHYDRATE_FLAG_BACKGROUND, CF_DEHYDRATE_FLAG_NONE, cfapi/CF_DEHYDRATE_FLAGS, cfapi/CF_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_DEHYDRATE_FLAG_NONE, cloudApi.cf_dehydrate_flags
 ms.topic: enum

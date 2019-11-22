@@ -1,12 +1,12 @@
 ---
 UID: NS:usp10.tag_SCRIPT_STATE
 title: SCRIPT_STATE (usp10.h)
-author: windows-sdk-content
+
 description: Contains script state information.
 old-location: intl\script_state.htm
 tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, usp10/SCRIPT_STATE
 ms.topic: struct

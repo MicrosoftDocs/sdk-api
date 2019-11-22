@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetEvent
 title: ISyncRegistrationChange::GetEvent (syncregistration.h)
-author: windows-sdk-content
+
 description: Gets the next pending registration event.
 old-location: winsync\isyncregistrationchange_getevent.htm
 tech.root: winsync
 ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetEvent method, ISyncRegistrationChange.GetEvent, ISyncRegistrationChange::GetEvent, syncregistration/ISyncRegistrationChange::GetEvent, winsync.isyncregistrationchange_getevent
 ms.topic: method

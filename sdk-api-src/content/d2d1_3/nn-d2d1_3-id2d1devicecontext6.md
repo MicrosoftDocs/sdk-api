@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext6
 title: ID2D1DeviceContext6 (d2d1_3.h)
-author: windows-sdk-content
+
 description: This interface performs all the same functions as the existing ID2D1DeviceContext5 interface, plus it enables access to the BlendImage method.
 old-location: direct2d\id2d1devicecontext6.htm
 tech.root: Direct2D
 ms.assetid: 474788F4-8AD7-4D5C-BF0B-9542E69620A9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext6, ID2D1DeviceContext6 interface [Direct2D], ID2D1DeviceContext6 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext6, direct2d.id2d1devicecontext6
 ms.topic: interface

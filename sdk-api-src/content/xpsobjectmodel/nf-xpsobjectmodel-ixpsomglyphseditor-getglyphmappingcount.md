@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphMappingCount
 title: IXpsOMGlyphsEditor::GetGlyphMappingCount (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the number of glyph mappings.
 old-location: xps\ixpsomglyphseditor_getglyphmappingcount.htm
 tech.root: printdocs
 ms.assetid: 06aa2546-c1d1-47d6-9d3d-94d13310e42b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount
 ms.topic: method

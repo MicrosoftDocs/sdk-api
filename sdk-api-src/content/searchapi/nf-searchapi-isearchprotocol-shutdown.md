@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchProtocol.ShutDown
 title: ISearchProtocol::ShutDown (searchapi.h)
-author: windows-sdk-content
+
 description: Shuts down the protocol handler.
 old-location: search\_search_ISearchProtocol_ShutDown.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.topic: method

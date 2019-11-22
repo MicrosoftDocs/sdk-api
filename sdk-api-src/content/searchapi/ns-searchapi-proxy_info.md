@@ -1,12 +1,12 @@
 ---
 UID: NS:searchapi._PROXY_INFO
 title: PROXY_INFO (searchapi.h)
-author: windows-sdk-content
+
 description: Stores information about a proxy. Used by ISearchProtocol.
 old-location: search\_search_PROXY_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\proxy_info.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _search_PROXY_INFO, search._search_PROXY_INFO, searchapi/PROXY_INFO
 ms.topic: struct

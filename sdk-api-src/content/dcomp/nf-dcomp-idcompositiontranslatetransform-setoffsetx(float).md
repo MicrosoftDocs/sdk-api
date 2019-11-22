@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetX(float)
 title: IDCompositionTranslateTransform::SetOffsetX(float) (dcomp.h)
-author: windows-sdk-content
+
 description: Changes the value of the OffsetX property of a 2D translation transform.
 old-location: directcomp\idcompositiontranslatetransform_setoffsetx_float.htm
 tech.root: directcomp
 ms.assetid: F5D96E02-2FB0-45AD-8F4A-8FB955A40C3F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(float), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_float
 ms.topic: method

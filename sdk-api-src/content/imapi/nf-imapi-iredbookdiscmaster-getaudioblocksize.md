@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAudioBlockSize
 title: IRedbookDiscMaster::GetAudioBlockSize (imapi.h)
-author: windows-sdk-content
+
 description: Retrieves the size, in bytes, of an audio block.
 old-location: imapi\iredbookdiscmaster_getaudioblocksize.htm
 tech.root: imapi
 ms.assetid: 25e8fd75-7a24-421f-b61e-b131dfbbcc8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAudioBlockSize, GetAudioBlockSize method [IMAPI], GetAudioBlockSize method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAudioBlockSize method, IRedbookDiscMaster.GetAudioBlockSize, IRedbookDiscMaster::GetAudioBlockSize, _win32_iredbookdiscmaster_getaudioblocksize, base.iredbookdiscmaster_getaudioblocksize, imapi.iredbookdiscmaster_getaudioblocksize, imapi/IRedbookDiscMaster::GetAudioBlockSize
 ms.topic: method

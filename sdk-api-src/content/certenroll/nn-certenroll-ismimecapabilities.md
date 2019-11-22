@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.ISmimeCapabilities
 title: ISmimeCapabilities (certenroll.h)
-author: windows-sdk-content
+
 description: Defines the following methods and properties to manage a collection of ISmimeCapability objects.
 old-location: security\ismimecapabilities.htm
 tech.root: seccertenroll
 ms.assetid: f9750b68-9d35-4594-96fc-2fbd54a87dcc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security],described, certenroll/ISmimeCapabilities, security.ismimecapabilities
 ms.topic: interface

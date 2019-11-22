@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.OnDriverLoad
 title: IWRdsWddmIddProps::OnDriverLoad (wtsprotocol.h)
-author: windows-sdk-content
+
 description: Termsrv uses this method to return a handle of the loaded WDDM ID driver to the protocol stack. From this point the stack owns the handle and needs to call CloseHandle() after communication with the driver is no longer needed.
 old-location: termserv\iwrdswddmiddprops_ondriverload.htm
 tech.root: TermServ
 ms.assetid: 8070441A-60E1-4752-A987-A5BD322AA55A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverLoad method, IWRdsWddmIddProps.OnDriverLoad, IWRdsWddmIddProps::OnDriverLoad, OnDriverLoad, OnDriverLoad method [Remote Desktop Services], OnDriverLoad method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverload, wtsprotocol/IWRdsWddmIddProps::OnDriverLoad
 ms.topic: method

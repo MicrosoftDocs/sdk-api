@@ -1,12 +1,12 @@
 ---
 UID: NS:slpublic._tagSL_LICENSING_STATUS
 title: SL_LICENSING_STATUS (slpublic.h)
-author: windows-sdk-content
+
 description: Represents the licensing status.
 old-location: security\sl_licensing_status.htm
 tech.root: SecSLApi
 ms.assetid: e7c857d9-6f63-4b1c-a562-abb158914a7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SL_LICENSING_STATUS, SL_LICENSING_STATUS structure [Security], security.sl_licensing_status, slpublic/SL_LICENSING_STATUS
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.ModifyWorldTransform
 title: ModifyWorldTransform function (wingdi.h)
-author: windows-sdk-content
+
 description: The ModifyWorldTransform function changes the world transformation for a device context using the specified mode.
 old-location: gdi\modifyworldtransform.htm
 tech.root: gdi
 ms.assetid: 2ce070e8-dd6d-4f28-8214-37e825b44273
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MWT_IDENTITY, MWT_LEFTMULTIPLY, MWT_RIGHTMULTIPLY, ModifyWorldTransform, ModifyWorldTransform function [Windows GDI], _win32_ModifyWorldTransform, gdi.modifyworldtransform, wingdi/ModifyWorldTransform
 ms.topic: function

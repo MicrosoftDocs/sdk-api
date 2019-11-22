@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndGetEnd
 title: MCIWndGetEnd macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndGetEnd macro retrieves the location of the end of the content of an MCI device or file. You can use this macro or explicitly send the MCIWNDM_GETEND message.
 old-location: multimedia\mciwndgetend.htm
 tech.root: Multimedia
 ms.assetid: 558d5412-1165-4dda-8ac1-6c599267beaf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd
 ms.topic: macro

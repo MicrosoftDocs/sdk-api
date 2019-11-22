@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDistributorNotify.Run
 title: IDistributorNotify::Run (strmif.h)
-author: windows-sdk-content
+
 description: The Run method is called when the filter graph is entering a running state.
 old-location: dshow\idistributornotify_run.htm
 tech.root: DirectShow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Run method, IDistributorNotify.Run, IDistributorNotify::Run, IDistributorNotifyRun, Run, Run method [DirectShow], Run method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
 title: IMediaSeeking::QueryPreferredFormat (strmif.h)
-author: windows-sdk-content
+
 description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
 old-location: dshow\imediaseeking_querypreferredformat.htm
 tech.root: DirectShow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
 ms.topic: method

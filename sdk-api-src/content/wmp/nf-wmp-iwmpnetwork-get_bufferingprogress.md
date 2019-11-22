@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingProgress
 title: IWMPNetwork::get_bufferingProgress (wmp.h)
-author: windows-sdk-content
+
 description: The get_bufferingProgress method retrieves the percentage of buffering completed.
 old-location: wmp\iwmpnetwork_get_bufferingprogress.htm
 tech.root: WMP
 ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
 ms.topic: method

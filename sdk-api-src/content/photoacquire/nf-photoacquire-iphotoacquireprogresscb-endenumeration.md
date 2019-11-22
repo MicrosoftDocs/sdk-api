@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndEnumeration
 title: IPhotoAcquireProgressCB::EndEnumeration (photoacquire.h)
-author: windows-sdk-content
+
 description: The EndEnumeration method provides extended functionality when enumeration of files from the image source is complete. The application provides the implementation of the EndEnumeration method.
 old-location: picacq\iphotoacquireprogresscb_endenumeration.htm
 tech.root: acquisition
 ms.assetid: dac16ca2-bd80-4771-9e81-09d07958a4bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndEnumeration method, IPhotoAcquireProgressCB.EndEnumeration, IPhotoAcquireProgressCB::EndEnumeration, IPhotoAcquireProgressCBEndEnumeration, photoacquire/IPhotoAcquireProgressCB::EndEnumeration, picacq.iphotoacquireprogresscb_endenumeration
 ms.topic: method

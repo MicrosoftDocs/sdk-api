@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontAxisValueCount
 title: IDWriteFontFace5::GetFontAxisValueCount
-author: windows-sdk-content
+
 description: Retrieves the number of axes defined by the font. This includes both static and variable axes.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValueCount method, IDWriteFontFace5.GetFontAxisValueCount, IDWriteFontFace5::GetFontAxisValueCount, GetFontAxisValueCount, GetFontAxisValueCount method [Direct Write], GetFontAxisValueCount method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvaluecount, dwrite_3/IDWriteFontFace5::GetFontAxisValueCount
 ms.topic: method

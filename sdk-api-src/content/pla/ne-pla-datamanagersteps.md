@@ -1,12 +1,12 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0011
 title: DataManagerSteps (pla.h)
-author: windows-sdk-content
+
 description: Defines the actions that the data manager takes when it runs.
 old-location: pla\datamanagersteps.htm
 tech.root: PLA
 ms.assetid: e647987d-e524-475e-a355-539cb3f04635
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DataManagerSteps, DataManagerSteps enumeration [PLA], base.datamanagersteps, pla.datamanagersteps, pla/DataManagerSteps, pla/plaCreateHtml, pla/plaCreateReport, pla/plaFolderActions, pla/plaResourceFreeing, pla/plaRunRules, plaCreateHtml, plaCreateReport, plaFolderActions, plaResourceFreeing, plaRunRules
 ms.topic: enum

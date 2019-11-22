@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.StartNewDocument
 title: IXpsOMPackageWriter::StartNewDocument (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
 old-location: xps\ixpsompackagewriter_startnewdocument.htm
 tech.root: printdocs
 ms.assetid: da5fdbcd-ff3c-403a-a565-1590908cf333
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter.StartNewDocument, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter3D::StartNewDocument, IXpsOMPackageWriter::StartNewDocument, StartNewDocument, StartNewDocument method [XPS Documents and Packaging], StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter interface, StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter_startnewdocument, xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument, xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
 ms.topic: method

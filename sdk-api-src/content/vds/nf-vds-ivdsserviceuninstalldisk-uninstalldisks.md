@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsServiceUninstallDisk.UninstallDisks
 title: IVdsServiceUninstallDisk::UninstallDisks (vds.h)
-author: windows-sdk-content
+
 description: Uninstalls a set of disks.
 old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
 tech.root: VDS
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServiceUninstallDisk.UninstallDisks, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks, UninstallDisks method, UninstallDisks method,IVdsServiceUninstallDisk interface, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
 ms.topic: method

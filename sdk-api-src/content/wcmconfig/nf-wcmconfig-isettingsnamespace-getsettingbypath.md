@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetSettingByPath
 title: ISettingsNamespace::GetSettingByPath (wcmconfig.h)
-author: windows-sdk-content
+
 description: Gets the setting object specified by a path.
 old-location: smi\isettingsnamespace_getsettingbypath.htm
 tech.root: SMI
 ms.assetid: 7deadfed-036d-40cd-88b6-7afaf8fc7d41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetSettingByPath method, ISettingsNamespace.GetSettingByPath, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
 ms.topic: method

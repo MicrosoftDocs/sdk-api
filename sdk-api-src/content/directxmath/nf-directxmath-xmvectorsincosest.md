@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSinCosEst
 title: XMVectorSinCosEst function (directxmath.h)
-author: windows-sdk-content
+
 description: Estimates the sine and cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsincosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinCosEst(XMVECTOR@,XMVECTOR@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinCosEst, XMVectorSinCosEst, XMVectorSinCosEst method [DirectX Math Support APIs], dxmath.xmvectorsincosest
 ms.topic: function

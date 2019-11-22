@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.operator-assign(XMUNIBBLE4 &&)
 title: XMUNIBBLE4::operator-assign(XMUNIBBLE4 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data from one instance of XMUNIBBLE4 to the current instance of XMUNIBBLE4.
 old-location: dxmath\xmunibble4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.operator = (const XMUNIBBLE4)
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4 structure [DirectX Math Support APIs],operator = method, XMUNIBBLE4.operator =(const XMUNIBBLE4&), XMUNIBBLE4.operator-assign(XMUNIBBLE4 &&), XMUNIBBLE4.operator=, XMUNIBBLE4::operator-assign(XMUNIBBLE4 &&), XMUNIBBLE4::operator=, dxmath.xmunibble4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUNIBBLE4 structure, operator=
 ms.topic: method

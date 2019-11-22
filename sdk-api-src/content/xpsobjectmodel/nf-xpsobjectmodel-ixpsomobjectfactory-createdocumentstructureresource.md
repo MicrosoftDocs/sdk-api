@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocumentStructureResource
 title: IXpsOMObjectFactory::CreateDocumentStructureResource (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Creates an IXpsOMDocumentStructureResource interface, which provides access to the document structure resource stream.
 old-location: xps\ixpsomobjectfactory_createdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
 ms.topic: method

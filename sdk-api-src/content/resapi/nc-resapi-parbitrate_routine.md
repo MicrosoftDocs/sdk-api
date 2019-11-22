@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PARBITRATE_ROUTINE
 title: PARBITRATE_ROUTINE (resapi.h)
-author: windows-sdk-content
+
 description: Allows a node to attempt to regain ownership of a quorum resource.
 old-location: mscs\arbitrate.htm
 tech.root: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.topic: callback

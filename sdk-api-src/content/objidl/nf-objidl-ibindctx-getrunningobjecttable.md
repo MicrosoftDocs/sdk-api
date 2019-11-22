@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IBindCtx.GetRunningObjectTable
 title: IBindCtx::GetRunningObjectTable (objidl.h)
-author: windows-sdk-content
+
 description: Retrieves an interface pointer to the running object table (ROT) for the computer on which this bind context is running.
 old-location: com\ibindctx_getrunningobjecttable.htm
 tech.root: com
 ms.assetid: 26938d07-d772-4e72-a6aa-57dd2f2cece1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable method [COM], GetRunningObjectTable method [COM],IBindCtx interface, IBindCtx interface [COM],GetRunningObjectTable method, IBindCtx.GetRunningObjectTable, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
 ms.topic: method

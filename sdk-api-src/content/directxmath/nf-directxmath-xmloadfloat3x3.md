@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadFloat3x3
 title: XMLoadFloat3x3 function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads an XMFLOAT3X3 into an XMMATRIX.
 old-location: dxmath\xmloadfloat3x3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3x3(const XMFLOAT3X3)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat3x3, XMLoadFloat3x3, XMLoadFloat3x3 method [DirectX Math Support APIs], dxmath.xmloadfloat3x3
 ms.topic: function

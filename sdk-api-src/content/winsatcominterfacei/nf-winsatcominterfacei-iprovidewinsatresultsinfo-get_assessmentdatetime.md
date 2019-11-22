@@ -1,12 +1,12 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentDateTime
 title: IProvideWinSATResultsInfo::get_AssessmentDateTime (winsatcominterfacei.h)
-author: windows-sdk-content
+
 description: Retrieves the date and time that the assessment was run.
 old-location: winsat\iprovidewinsatresultsinfo_assessmentdatetime.htm
 tech.root: WinSAT
 ms.assetid: c5fcf832-7290-45dc-9c36-7b469dc54a4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo.get_AssessmentDateTime, IProvideWinSATResultsInfo::AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
 ms.topic: method

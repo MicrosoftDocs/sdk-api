@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetMaxLength
 title: INSSBuffer::GetMaxLength (wmsbuffer.h)
-author: windows-sdk-content
+
 description: The GetMaxLength method retrieves the maximum size to which a buffer can be set.
 old-location: wmformat\inssbuffer_getmaxlength.htm
 tech.root: wmformat
 ms.assetid: 6b386c24-1737-4e30-98fa-444fc8a34503
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [windows Media Format], GetMaxLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetMaxLength method, INSSBuffer.GetMaxLength, INSSBuffer::GetMaxLength, INSSBufferGetMaxLength, wmformat.inssbuffer_getmaxlength, wmsbuffer/INSSBuffer::GetMaxLength
 ms.topic: method

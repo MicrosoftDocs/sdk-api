@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAvailable
 title: IBitsPeer::IsAvailable (bits3_0.h)
-author: windows-sdk-content
+
 description: Determines whether the peer is available (online) to serve content.
 old-location: bits\ibitspeer_isavailable.htm
 tech.root: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
 ms.topic: method

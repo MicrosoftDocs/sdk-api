@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.GetQuality
 title: IWMVideoMediaProps::GetQuality (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetQuality method retrieves the quality setting for the video stream.
 old-location: wmformat\iwmvideomediaprops_getquality.htm
 tech.root: wmformat
 ms.assetid: 9edfe229-ffc5-4266-93af-1938bbd577c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetQuality, GetQuality method [windows Media Format], GetQuality method [windows Media Format],IWMVideoMediaProps interface, IWMVideoMediaProps interface [windows Media Format],GetQuality method, IWMVideoMediaProps.GetQuality, IWMVideoMediaProps::GetQuality, IWMVideoMediaPropsGetQuality, wmformat.iwmvideomediaprops_getquality, wmsdkidl/IWMVideoMediaProps::GetQuality
 ms.topic: method

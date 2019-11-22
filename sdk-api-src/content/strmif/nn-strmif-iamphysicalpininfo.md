@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMPhysicalPinInfo
 title: IAMPhysicalPinInfo (strmif.h)
-author: windows-sdk-content
+
 description: Note  This interface has been deprecated.
 old-location: dshow\iamphysicalpininfo.htm
 tech.root: DirectShow
 ms.assetid: d1d05d2c-018e-421f-bfb9-810d708f726c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo
 ms.topic: interface

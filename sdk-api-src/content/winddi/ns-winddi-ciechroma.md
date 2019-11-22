@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi._CIECHROMA
 title: CIECHROMA (winddi.h)
-author: windows-sdk-content
+
 description: The CIECHROMA structure is used to describe the chromaticity coordinates, x and y, and the luminance, Y in CIE color space.
 old-location: display\ciechroma.htm
 tech.root: display
 ms.assetid: b8d1fd9b-c735-49f6-8d3b-12b5b1d92543
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
 ms.topic: struct

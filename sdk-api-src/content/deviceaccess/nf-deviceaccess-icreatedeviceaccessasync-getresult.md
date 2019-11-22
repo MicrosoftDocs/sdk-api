@@ -1,12 +1,12 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.GetResult
 title: ICreateDeviceAccessAsync::GetResult (deviceaccess.h)
-author: windows-sdk-content
+
 description: Retrieves an IDeviceIoControl object that's bound to the device interface that's specified in a call to the CreateDeviceAccessInstance function.
 old-location: deviceaccess\icreatedeviceaccessasync_getresult.htm
 tech.root: deviceaccess
 ms.assetid: 002e6638-a38a-4fda-b71c-a7a6983dda62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
 ms.topic: method

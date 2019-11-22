@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.SetBreakOnSeverity
 title: ID3D12InfoQueue::SetBreakOnSeverity (d3d12sdklayers.h)
-author: windows-sdk-content
+
 description: Set a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_setbreakonseverity.htm
 tech.root: direct3d12
 ms.assetid: 5A055726-B17A-4058-A964-F50BE2FB1FFA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnSeverity method, ID3D12InfoQueue.SetBreakOnSeverity, ID3D12InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method, SetBreakOnSeverity method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnSeverity, direct3d12.id3d12infoqueue_setbreakonseverity
 ms.topic: method

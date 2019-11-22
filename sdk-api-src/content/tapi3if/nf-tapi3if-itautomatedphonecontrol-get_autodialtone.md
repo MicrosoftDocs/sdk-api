@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoDialtone
 title: ITAutomatedPhoneControl::get_AutoDialtone (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_AutoDialtone method retrieves the current value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm
 tech.root: Tapi
 ms.assetid: 977be70d-bb2d-490a-afd1-8e7f496b10ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoDialtone method, ITAutomatedPhoneControl.get_AutoDialtone, ITAutomatedPhoneControl::get_AutoDialtone, _tapi3_itautomatedphonecontrol_get_autodialtone, get_AutoDialtone, get_AutoDialtone method [TAPI 2.2], get_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autodialtone, tapi3if/ITAutomatedPhoneControl::get_AutoDialtone
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation2
 title: IUIAutomation2 (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Extends the IUIAutomation interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation2.htm
 tech.root: WinAuto
 ms.assetid: 45B4D41E-9C5C-47C7-86EB-D7B9BA14211B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], IUIAutomation2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation2, winauto.uiauto_IUIAutomation2
 ms.topic: interface

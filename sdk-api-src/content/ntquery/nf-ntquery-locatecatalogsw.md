@@ -1,12 +1,12 @@
 ---
 UID: NF:ntquery.LocateCatalogsW
 title: LocateCatalogsW function (ntquery.h)
-author: windows-sdk-content
+
 description: Finds the catalog that indexes a directory.
 old-location: indexsrv\locatecatalogs.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
 ms.topic: function

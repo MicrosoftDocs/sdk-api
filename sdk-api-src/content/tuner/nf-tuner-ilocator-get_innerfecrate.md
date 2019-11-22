@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.ILocator.get_InnerFECRate
 title: ILocator::get_InnerFECRate (tuner.h)
-author: windows-sdk-content
+
 description: The get_InnerFECRate method gets the inner FEC rate.
 old-location: mstv\ilocator_get_innerfecrate.htm
 tech.root: mstv
 ms.assetid: d9600c31-9a95-4955-8f8c-542760631050
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_InnerFECRate, ILocator interface [Microsoft TV Technologies],get_InnerFECRate method, ILocator.get_InnerFECRate, ILocator::get_InnerFECRate, get_InnerFECRate, get_InnerFECRate method [Microsoft TV Technologies], get_InnerFECRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_innerfecrate, tuner/ILocator::get_InnerFECRate
 ms.topic: method

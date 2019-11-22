@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderPrivate.QueryIfCreatedLun
 title: IVdsHwProviderPrivate::QueryIfCreatedLun (vdshwprv.h)
-author: windows-sdk-content
+
 description: Enables VDS to determine whether the hardware provider manages the specified LUN.
 old-location: base\ivdshwproviderprivate_queryifcreatedlun.htm
 tech.root: VDS
 ms.assetid: 06ba3486-9381-4898-b639-3d94b83be857
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVdsHwProviderPrivate.QueryIfCreatedLun, IVdsHwProviderPrivate::QueryIfCreatedLun, QueryIfCreatedLun, QueryIfCreatedLun method [VDS], QueryIfCreatedLun method [VDS],IVdsHwProviderPrivate interface, base.ivdshwproviderprivate_queryifcreatedlun, vdshwprv/IVdsHwProviderPrivate::QueryIfCreatedLun
 ms.topic: method

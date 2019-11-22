@@ -1,12 +1,12 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_OPL_OUTPUT_IDS
 title: DRM_OPL_OUTPUT_IDS (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The DRM_OPL_OUTPUT_IDS structure holds a number of output protection level (OPL) output identifiers.
 old-location: wmformat\drm_opl_output_ids.htm
 tech.root: wmformat
 ms.assetid: a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_opl_output_ids, wmsdkidl/DRM_OPL_OUTPUT_IDS
 ms.topic: struct

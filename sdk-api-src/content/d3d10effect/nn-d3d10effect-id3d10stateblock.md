@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d10effect.ID3D10StateBlock
 title: ID3D10StateBlock (d3d10effect.h)
-author: windows-sdk-content
+
 description: A state-block interface encapsulates render states.
 old-location: direct3d10\id3d10stateblock.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 23872e09-b63b-11d0-bb95-f57009f0fab6, ID3D10StateBlock, ID3D10StateBlock interface [Direct3D 10], ID3D10StateBlock interface [Direct3D 10],described, d3d10effect/ID3D10StateBlock, direct3d10.id3d10stateblock
 ms.topic: interface

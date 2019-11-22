@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluscolor.Color.Color(IN ARGB)
 title: Color::Color(IN ARGB) (gdipluscolor.h)
-author: windows-sdk-content
+
 description: Creates a Color::Color object by using an ARGB value.
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_argb_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_63argb.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(ARGB), Color.Color(IN ARGB), Color::Color, Color::Color(IN ARGB), _gdiplus_CLASS_Color_Color_argb_, gdiplus._gdiplus_CLASS_Color_Color_argb_
 ms.topic: method

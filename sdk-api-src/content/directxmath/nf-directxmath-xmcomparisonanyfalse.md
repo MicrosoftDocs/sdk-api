@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMComparisonAnyFalse
 title: XMComparisonAnyFalse function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests the comparison value to determine if any of the compared components are false.
 old-location: dxmath\xmcomparisonanyfalse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAnyFalse(uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAnyFalse, XMComparisonAnyFalse, XMComparisonAnyFalse method [DirectX Math Support APIs], dxmath.xmcomparisonanyfalse
 ms.topic: function

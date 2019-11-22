@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentExA
 title: MsiProvideQualifiedComponentExA function (msi.h)
-author: windows-sdk-content
+
 description: The MsiProvideQualifiedComponentEx function returns the full component path for a qualified component that is published by a product and performs any necessary installation.
 old-location: setup\msiprovidequalifiedcomponentex.htm
 tech.root: Msi
 ms.assetid: b8b567de-c21a-4e8f-840c-e71f41c11447
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponentEx, MsiProvideQualifiedComponentEx function, MsiProvideQualifiedComponentExA, MsiProvideQualifiedComponentExW, _msi_msiprovidequalifiedcomponentex, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponentEx, msi/MsiProvideQualifiedComponentExA, msi/MsiProvideQualifiedComponentExW, setup.msiprovidequalifiedcomponentex
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalSuperclassRegistration
 title: ITPluggableTerminalSuperclassRegistration (termmgr.h)
-author: windows-sdk-content
+
 description: The ITPluggableTerminalSuperclassRegistration interface exposes methods that get and set information about a terminal superclass (name and CLSID).
 old-location: tapi3\itpluggableterminalsuperclassregistration.htm
 tech.root: Tapi
 ms.assetid: 76f5d213-d1fb-4437-af09-9d915db05dc6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2], ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassregistration, tapi3.itpluggableterminalsuperclassregistration, termmgr/ITPluggableTerminalSuperclassRegistration
 ms.topic: interface

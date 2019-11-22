@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SPN_ENDPOINT_IDENTITY
 title: WS_SPN_ENDPOINT_IDENTITY (webservices.h)
-author: windows-sdk-content
+
 description: Type for specifying an endpoint identity represented by an SPN (service principal name).
 old-location: wsw\ws_spn_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 99a484f0-4d04-4998-90d9-c39194ecf3f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SPN_ENDPOINT_IDENTITY, WS_SPN_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_SPN_ENDPOINT_IDENTITY, wsw.ws_spn_endpoint_identity
 ms.topic: struct

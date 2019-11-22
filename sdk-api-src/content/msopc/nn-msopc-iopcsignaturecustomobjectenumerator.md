@@ -1,12 +1,12 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObjectEnumerator
 title: IOpcSignatureCustomObjectEnumerator (msopc.h)
-author: windows-sdk-content
+
 description: A read-only enumerator of IOpcSignatureCustomObject interface pointers.
 old-location: opc\iopcsignaturecustomobjectenumerator.htm
 tech.root: OPC
 ms.assetid: e82caa1e-4cf8-457f-86d9-24f707544199
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions], IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectEnumerator, opc.iopcsignaturecustomobjectenumerator
 ms.topic: interface

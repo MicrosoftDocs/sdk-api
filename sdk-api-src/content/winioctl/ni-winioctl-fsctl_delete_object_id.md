@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_DELETE_OBJECT_ID
 title: FSCTL_DELETE_OBJECT_ID
-author: windows-sdk-content
+
 description: Removes the object identifier from a specified file or directory.
 old-location: fs\fsctl_delete_object_id.htm
 tech.root: FileIO
 ms.assetid: 6698ca1d-d603-4f8d-9737-6dcb9be24e3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_OBJECT_ID, FSCTL_DELETE_OBJECT_ID control, FSCTL_DELETE_OBJECT_ID control code [Files], _win32_fsctl_delete_object_id, base.fsctl_delete_object_id, fs.fsctl_delete_object_id, winioctl/FSCTL_DELETE_OBJECT_ID
 ms.topic: ioctl

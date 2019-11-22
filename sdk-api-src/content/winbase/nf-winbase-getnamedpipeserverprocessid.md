@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetNamedPipeServerProcessId
 title: GetNamedPipeServerProcessId function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves the server process identifier for the specified named pipe.
 old-location: base\getnamedpipeserverprocessid.htm
 tech.root: ipc
 ms.assetid: 1ee33a66-a71c-4c34-b907-aab7860294c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeServerProcessId, GetNamedPipeServerProcessId function, base.getnamedpipeserverprocessid, winbase/GetNamedPipeServerProcessId
 ms.topic: function

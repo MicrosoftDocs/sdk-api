@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetOriginalServiceId
 title: IISDB_LDT::GetOriginalServiceId (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the original_service_id field from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getoriginalserviceid.htm
 tech.root: mstv
 ms.assetid: 030c01e3-6149-4a61-aeb2-01143642213b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalServiceId method, IISDB_LDT.GetOriginalServiceId, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
 ms.topic: method

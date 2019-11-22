@@ -1,12 +1,12 @@
 ---
 UID: NS:bthdef._BTH_HCI_EVENT_INFO
 title: BTH_HCI_EVENT_INFO (bthdef.h)
-author: windows-sdk-content
+
 description: Used in connection with obtaining WM_DEVICECHANGE messages for Bluetooth.
 old-location: bluetooth\bth_hci_event_info.htm
 tech.root: bluetooth
 ms.assetid: 9cb5eada-2fce-4568-9d2c-530cd39a2e4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PBTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO structure [Bluetooth], BTH_HCI_EVENT_INFO, BTH_HCI_EVENT_INFO structure [Bluetooth], bluetooth.bth_hci_event_info, bthdef/*PBTH_HCI_EVENT_INFO, bthdef/BTH_HCI_EVENT_INFO"
 ms.topic: struct

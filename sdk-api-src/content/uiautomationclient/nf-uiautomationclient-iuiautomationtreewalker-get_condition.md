@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.get_Condition
 title: IUIAutomationTreeWalker::get_Condition (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the condition that defines the view of the UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_Condition.htm
 tech.root: WinAuto
 ms.assetid: e62989ac-6fcf-4648-9b81-40b508ceae71
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Condition property [Windows Accessibility], Condition property [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],Condition property, IUIAutomationTreeWalker.Condition, IUIAutomationTreeWalker.get_Condition, IUIAutomationTreeWalker::Condition, IUIAutomationTreeWalker::get_Condition, get_Condition, uiauto.uiauto_IUIAutomationTreeWalker_Condition, uiauto_IUIAutomationTreeWalker_Condition, uiautomationclient/IUIAutomationTreeWalker::Condition, uiautomationclient/IUIAutomationTreeWalker::get_Condition, winauto.uiauto_IUIAutomationTreeWalker_Condition
 ms.topic: method

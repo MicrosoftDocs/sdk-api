@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IFileSinkFilter
 title: IFileSinkFilter (strmif.h)
-author: windows-sdk-content
+
 description: The IFileSinkFilter interface is implemented on filters that write media streams to a file.
 old-location: dshow\ifilesinkfilter.htm
 tech.root: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
 ms.topic: interface

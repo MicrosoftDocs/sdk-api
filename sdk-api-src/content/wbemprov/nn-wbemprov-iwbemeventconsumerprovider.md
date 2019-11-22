@@ -1,12 +1,12 @@
 ---
 UID: NN:wbemprov.IWbemEventConsumerProvider
 title: IWbemEventConsumerProvider (wbemprov.h)
-author: windows-sdk-content
+
 description: Provides the primary interface for an event consumer provider. Through this interface and the FindConsumer method, an event consumer provider can indicate which event consumers should receive a given event.
 old-location: wmi\iwbemeventconsumerprovider.htm
 tech.root: WmiSdk
 ms.assetid: 793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], IWbemEventConsumerProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventconsumerprovider, wbemprov/IWbemEventConsumerProvider, wmi.iwbemeventconsumerprovider
 ms.topic: interface

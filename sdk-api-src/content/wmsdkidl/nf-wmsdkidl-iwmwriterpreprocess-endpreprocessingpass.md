@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.EndPreprocessingPass
 title: IWMWriterPreprocess::EndPreprocessingPass (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The EndPreprocessingPass method ends a preprocessing pass started with a call to IWMWriterPreprocess::BeginPreprocessingPass.
 old-location: wmformat\iwmwriterpreprocess_endpreprocessingpass.htm
 tech.root: wmformat
 ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
 ms.topic: method

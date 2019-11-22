@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.RevertToSnapshot
 title: IVssBackupComponents::RevertToSnapshot (vsbackup.h)
-author: windows-sdk-content
+
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivssbackupcomponents_reverttosnapshot.htm
 tech.root: VSS
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
 ms.topic: method

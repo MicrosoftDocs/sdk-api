@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.InterlockedAnd8
 title: InterlockedAnd8 function (winnt.h)
-author: windows-sdk-content
+
 description: Performs an atomic AND operation on the specified char values.
 old-location: base\interlockedand8.htm
 tech.root: Sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedAnd8, InterlockedAnd8 function, base.interlockedand8, winnt/InterlockedAnd8
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPMetadataText
 title: IWMPMetadataText (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPMetadataText interface provides methods for retrieving information about complex textual metadata attributes.
 old-location: wmp\iwmpmetadatatext.htm
 tech.root: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player],described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
 ms.topic: interface

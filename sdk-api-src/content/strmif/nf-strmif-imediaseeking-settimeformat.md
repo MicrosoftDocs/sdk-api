@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetTimeFormat
 title: IMediaSeeking::SetTimeFormat (strmif.h)
-author: windows-sdk-content
+
 description: The SetTimeFormat method sets the time format for subsequent seek operations.
 old-location: dshow\imediaseeking_settimeformat.htm
 tech.root: DirectShow
 ms.assetid: b6f64f8a-67b8-4297-8f0d-389001fa1681
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetTimeFormat method, IMediaSeeking.SetTimeFormat, IMediaSeeking::SetTimeFormat, IMediaSeekingSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_settimeformat, strmif/IMediaSeeking::SetTimeFormat
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1Factory3.CreateDevice
 title: ID2D1Factory3::CreateDevice (d2d1_3.h)
-author: windows-sdk-content
+
 description: Creates an ID2D1Device2 object.
 old-location: direct2d\id2d1factory3_createdevice.htm
 tech.root: Direct2D
 ms.assetid: 17AE8381-2CAA-4607-B63D-17F76DF0D814
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory3 interface, ID2D1Factory3 interface [Direct2D],CreateDevice method, ID2D1Factory3.CreateDevice, ID2D1Factory3::CreateDevice, d2d1_3/ID2D1Factory3::CreateDevice, direct2d.id2d1factory3_createdevice
 ms.topic: method

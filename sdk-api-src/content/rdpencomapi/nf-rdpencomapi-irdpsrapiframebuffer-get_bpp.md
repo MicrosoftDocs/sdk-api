@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Bpp
 title: IRDPSRAPIFrameBuffer::get_Bpp (rdpencomapi.h)
-author: windows-sdk-content
+
 description: The bits per pixel for the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_bpp.htm
 tech.root: rdp
 ms.assetid: 864e7669-fc33-4473-9106-d436d6900bf2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bpp property [RDP], Bpp property [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],Bpp property, IRDPSRAPIFrameBuffer.Bpp, IRDPSRAPIFrameBuffer.get_Bpp, IRDPSRAPIFrameBuffer::Bpp, IRDPSRAPIFrameBuffer::get_Bpp, get_Bpp, rdp.irdpsrapiframebuffer_bpp, rdpencomapi/IRDPSRAPIFrameBuffer::Bpp, rdpencomapi/IRDPSRAPIFrameBuffer::get_Bpp
 ms.topic: method

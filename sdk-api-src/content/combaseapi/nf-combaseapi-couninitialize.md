@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoUninitialize
 title: CoUninitialize function (combaseapi.h)
-author: windows-sdk-content
+
 description: Closes the COM library on the current thread, unloads all DLLs loaded by the thread, frees any other resources that the thread maintains, and forces all RPC connections on the thread to close.
 old-location: com\couninitialize.htm
 tech.root: com
 ms.assetid: 9411cbed-fa3b-46f7-b677-6ada53324edc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoUninitialize, CoUninitialize function [COM], _com_CoUninitialize, com.couninitialize, combaseapi/CoUninitialize
 ms.topic: function

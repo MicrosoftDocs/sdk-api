@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.ReclaimVirtualMemory
 title: ReclaimVirtualMemory function (memoryapi.h)
-author: windows-sdk-content
+
 description: Reclaims a range of memory pages that were offered to the system with OfferVirtualMemory.
 old-location: base\reclaimvirtualmemory.htm
 tech.root: Memory
 ms.assetid: bb0ec5aa-b098-8a3f-67df-864a1672ba8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvirtualmemory, winbase/ReclaimVirtualMemory
 ms.topic: function

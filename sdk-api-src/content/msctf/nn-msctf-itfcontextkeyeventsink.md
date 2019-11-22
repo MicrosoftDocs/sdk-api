@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfContextKeyEventSink
 title: ITfContextKeyEventSink (msctf.h)
-author: windows-sdk-content
+
 description: The ITfContextKeyEventSink interface is implemented by a text service to receive keyboard event notifications that occur in an input context.
 old-location: tsf\itfcontextkeyeventsink.htm
 tech.root: TSF
 ms.assetid: 26fc5d8a-e24e-414e-a355-c1f89251f6bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfContextKeyEventSink, ITfContextKeyEventSink interface [Text Services Framework], ITfContextKeyEventSink interface [Text Services Framework],described, _tsf_itfcontextkeyeventsink_ref, msctf/ITfContextKeyEventSink, tsf.itfcontextkeyeventsink
 ms.topic: interface

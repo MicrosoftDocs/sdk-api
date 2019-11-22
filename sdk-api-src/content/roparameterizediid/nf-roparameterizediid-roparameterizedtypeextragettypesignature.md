@@ -1,12 +1,12 @@
 ---
 UID: NF:roparameterizediid.RoParameterizedTypeExtraGetTypeSignature
 title: RoParameterizedTypeExtraGetTypeSignature function (roparameterizediid.h)
-author: windows-sdk-content
+
 description: Gets the type signature used to compute the IID from the last call to RoGetParameterizedTypeInstanceIID with the specified handle.
 old-location: winrt\roparameterizedtypeextragettypesignature.htm
 tech.root: WinRT
 ms.assetid: E51A7A3D-F4BF-44BD-ACF2-B0AC7A4161EA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime], roparameterizediid/RoParameterizedTypeExtraGetTypeSignature, winrt.roparameterizedtypeextragettypesignature
 ms.topic: function

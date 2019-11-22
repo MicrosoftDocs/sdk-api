@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.IDigitalLocator
 title: IDigitalLocator
-author: windows-sdk-content
+
 description: The IDigitalLocator interface serves as the base interface for Locator objects that contain tuning information about the tuning space for a digital network. This interface is used only through derived interfaces such as IATSCLocator.
 old-location: mstv\idigitallocator.htm
 tech.root: mstv
 ms.assetid: 9af4d871-c6ed-479b-ba41-2a719d3a394d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocator, IDigitalLocator interface [Microsoft TV Technologies], IDigitalLocator interface [Microsoft TV Technologies],described, IDigitalLocatorInterface, mstv.idigitallocator, tuner/IDigitalLocator
 ms.topic: interface

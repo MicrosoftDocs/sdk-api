@@ -1,12 +1,12 @@
 ---
 UID: NF:wsman.WSManReconnectShellCommand
 title: WSManReconnectShellCommand function (wsman.h)
-author: windows-sdk-content
+
 description: Reconnects a previously disconnected command.
 old-location: winrm\wsmanreconnectshellcommand.htm
 tech.root: winrm
 ms.assetid: 3894BB74-4EAA-46D3-ACB2-AFDD3517A9C1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSManReconnectShellCommand, WSManReconnectShellCommand function [Windows Remote Management], winrm.wsmanreconnectshellcommand, wsman/WSManReconnectShellCommand
 ms.topic: function

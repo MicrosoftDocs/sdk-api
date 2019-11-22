@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhSetQueryTimeRange
 title: PdhSetQueryTimeRange function (pdh.h)
-author: windows-sdk-content
+
 description: Limits the samples that you can read from a log file to those within the specified time range, inclusively.
 old-location: perf\pdhsetquerytimerange.htm
 tech.root: perfctrs
 ms.assetid: ed0e100e-9f82-48c0-b4bb-72820c5eeaa8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_pdhsetquerytimerange, base.pdhsetquerytimerange, pdh/PdhSetQueryTimeRange, perf.pdhsetquerytimerange
 ms.topic: function

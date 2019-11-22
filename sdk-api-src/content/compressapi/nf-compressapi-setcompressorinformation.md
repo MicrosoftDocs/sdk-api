@@ -1,12 +1,12 @@
 ---
 UID: NF:compressapi.SetCompressorInformation
 title: SetCompressorInformation function (compressapi.h)
-author: windows-sdk-content
+
 description: Sets information in a compressor for a particular compression algorithm.
 old-location: cmpapi\setcompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
 ms.topic: function

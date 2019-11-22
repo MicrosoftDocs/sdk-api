@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.ITransactionProperty
 title: ITransactionProperty (comsvcs.h)
-author: windows-sdk-content
+
 description: Used to get the transaction resource pool.
 old-location: cos\itransactionproperty.htm
 tech.root: cossdk
 ms.assetid: 602842ce-abb1-4830-99b3-d361d18ac074
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
 ms.topic: interface

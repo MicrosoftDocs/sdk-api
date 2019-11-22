@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.ITask.GetParameters
 title: ITask::GetParameters (mstask.h)
-author: windows-sdk-content
+
 description: This method retrieves the task's command-line parameters.
 old-location: taskschd\itask_getparameters.htm
 tech.root: taskschd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.topic: method

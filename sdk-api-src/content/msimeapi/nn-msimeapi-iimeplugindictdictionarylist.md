@@ -1,12 +1,12 @@
 ---
 UID: NN:msimeapi.IImePlugInDictDictionaryList
 title: IImePlugInDictDictionaryList (msimeapi.h)
-author: windows-sdk-content
+
 description: Provides access to the list of IME plug-in dictionaries.
 old-location: intl\iimeplugindictdictionarylist.htm
 tech.root: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadSignatures
 title: IRdcSignatureReader::ReadSignatures (msrdc.h)
-author: windows-sdk-content
+
 description: Reads a block of signatures from the current position.
 old-location: rdc\irdcsignaturereader_readsignatures.htm
 tech.root: rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
 ms.topic: method

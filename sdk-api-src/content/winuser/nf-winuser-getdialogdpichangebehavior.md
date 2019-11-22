@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetDialogDpiChangeBehavior
 title: GetDialogDpiChangeBehavior function (winuser.h)
-author: windows-sdk-content
+
 description: Returns the flags that might have been set on a given dialog by an earlier call to SetDialogDpiChangeBehavior.
 old-location: hidpi\getdialogdpichangebehavior.htm
 tech.root: hidpi
 ms.assetid: 8ED61C77-36C8-453B-BAB1-505CE4974D63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDialogDpiChangeBehavior, GetDialogDpiChangeBehavior function [High DPI], hidpi.getdialogdpichangebehavior, winuser/GetDialogDpiChangeBehavior
 ms.topic: function

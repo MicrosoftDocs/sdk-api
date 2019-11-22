@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMLVSCROLL
 title: NMLVSCROLL (commctrl.h)
-author: windows-sdk-content
+
 description: Provides information about a scrolling operation.
 old-location: controls\NMLVSCROLL.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvscroll.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVSCROLL, LPNMLVSCROLL, LPNMLVSCROLL structure pointer [Windows Controls], NMLVSCROLL, NMLVSCROLL structure [Windows Controls], commctrl/LPNMLVSCROLL, commctrl/NMLVSCROLL, controls.NMLVSCROLL, controls.inet_NMLVSCROLL, inet_NMLVSCROLL, inet_NMLVSCROLL_cpp'
 ms.topic: struct

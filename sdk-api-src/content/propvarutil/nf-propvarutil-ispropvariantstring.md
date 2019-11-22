@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.IsPropVariantString
 title: IsPropVariantString function (propvarutil.h)
-author: windows-sdk-content
+
 description: Specifies whether a specified PROPVARIANT structure is a string type.
 old-location: properties\IsPropVariantString.htm
 tech.root: properties
 ms.assetid: 3f580098-6bfb-41bd-b43d-986ee00b9c75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
 ms.topic: function

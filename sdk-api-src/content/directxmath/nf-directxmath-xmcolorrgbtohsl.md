@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMColorRGBToHSL
 title: XMColorRGBToHSL function (directxmath.h)
-author: windows-sdk-content
+
 description: Converts RGB color values to HSL color values.
 old-location: dxmath\xmcolorrgbtohsl.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToHSL(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToHSL, XMColorRGBToHSL, XMColorRGBToHSL method [DirectX Math Support APIs], dxmath.xmcolorrgbtohsl
 ms.topic: function

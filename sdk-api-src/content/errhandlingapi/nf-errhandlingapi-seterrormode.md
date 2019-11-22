@@ -1,12 +1,12 @@
 ---
 UID: NF:errhandlingapi.SetErrorMode
 title: SetErrorMode function (errhandlingapi.h)
-author: windows-sdk-content
+
 description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
 old-location: base\seterrormode.htm
 tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
 ms.topic: function

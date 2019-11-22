@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IPreviewItem
 title: IPreviewItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Identifies an item that will be shown in the preview pane.
 old-location: shell\IPreviewItem.htm
 tech.root: shell
 ms.assetid: ad228cc9-2c13-4e28-8468-7f8c66eb221e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPreviewItem, IPreviewItem interface [Windows Shell], IPreviewItem interface [Windows Shell],described, _shell_IPreviewItem, shell.IPreviewItem, shobjidl_core/IPreviewItem
 ms.topic: interface

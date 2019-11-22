@@ -1,12 +1,12 @@
 ---
 UID: NF:dde.ReuseDDElParam
 title: ReuseDDElParam function (dde.h)
-author: windows-sdk-content
+
 description: Enables an application to reuse a packed Dynamic Data Exchange (DDE) lParam parameter, rather than allocating a new packed lParam. Using this function reduces reallocations for applications that pass packed DDE messages.
 old-location: dataxchg\reuseddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\reuseddelparam.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReuseDDElParam, ReuseDDElParam function [Data Exchange], _win32_ReuseDDElParam, _win32_reuseddelparam_cpp, dataxchg.reuseddelparam, dde/ReuseDDElParam, winui._win32_reuseddelparam
 ms.topic: function

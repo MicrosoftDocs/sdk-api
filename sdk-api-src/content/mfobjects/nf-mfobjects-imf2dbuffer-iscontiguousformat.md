@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.IsContiguousFormat
 title: IMF2DBuffer::IsContiguousFormat (mfobjects.h)
-author: windows-sdk-content
+
 description: Queries whether the buffer is contiguous in its native format.
 old-location: mf\imf2dbuffer_iscontiguousformat.htm
 tech.root: medfound
 ms.assetid: a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method, IMF2DBuffer.IsContiguousFormat, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation],IMF2DBuffer interface, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
 ms.topic: method

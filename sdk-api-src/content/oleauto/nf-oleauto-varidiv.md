@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarIdiv
 title: VarIdiv function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts two variants of any type to integers then returns the result from dividing them.
 old-location: automat\varidiv.htm
 tech.root: automat
 ms.assetid: dd76b96f-b616-420f-9f26-d88004574411
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarIdiv, VarIdiv function [Automation], _oa96_VarIdiv, automat.varidiv, oleauto/VarIdiv
 ms.topic: function

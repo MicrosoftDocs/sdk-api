@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.Reset
 title: ID3D12VideoDecodeCommandList::Reset
-author: windows-sdk-content
+
 description: Resets a command list back to its initial state as if a new command list was just created.
 tech.root: mf
 ms.assetid: 2cad8f37-8905-4321-a707-0121961e1f9c
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

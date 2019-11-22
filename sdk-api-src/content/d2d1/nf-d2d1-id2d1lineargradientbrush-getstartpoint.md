@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetStartPoint
 title: ID2D1LinearGradientBrush::GetStartPoint (d2d1.h)
-author: windows-sdk-content
+
 description: Retrieves the starting coordinates of the linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush_GetStartPoint.htm
 tech.root: Direct2D
 ms.assetid: 8b79b265-4bf4-48e7-99c9-64a52d8cb6d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetStartPoint method, ID2D1LinearGradientBrush.GetStartPoint, ID2D1LinearGradientBrush::GetStartPoint, d2d1/ID2D1LinearGradientBrush::GetStartPoint, direct2d.ID2D1LinearGradientBrush_GetStartPoint
 ms.topic: method

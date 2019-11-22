@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_AUTH_TYPE
 title: VDS_ISCSI_AUTH_TYPE (vdshwprv.h)
-author: windows-sdk-content
+
 description: Defines the set of valid types for authentication when logging into an iSCSI target.
 old-location: base\vds_iscsi_auth_type.htm
 tech.root: VDS
 ms.assetid: 7e445b10-552a-4a89-aee8-9699db79c5a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VDS_IAT_CHAP, VDS_IAT_MUTUAL_CHAP, VDS_IAT_NONE, VDS_ISCSI_AUTH_TYPE, VDS_ISCSI_AUTH_TYPE enumeration [VDS], base.vds_iscsi_auth_type, vds/VDS_IAT_CHAP, vds/VDS_IAT_MUTUAL_CHAP, vds/VDS_IAT_NONE, vds/VDS_ISCSI_AUTH_TYPE, vdshwprv/VDS_IAT_CHAP, vdshwprv/VDS_IAT_MUTUAL_CHAP, vdshwprv/VDS_IAT_NONE, vdshwprv/VDS_ISCSI_AUTH_TYPE
 ms.topic: enum

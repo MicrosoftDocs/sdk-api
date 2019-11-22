@@ -1,12 +1,12 @@
 ---
 UID: NF:aclapi.GetInheritanceSourceW
 title: GetInheritanceSourceW function (aclapi.h)
-author: windows-sdk-content
+
 description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL).
 old-location: security\getinheritancesource.htm
 tech.root: SecAuthZ
 ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource
 ms.topic: function

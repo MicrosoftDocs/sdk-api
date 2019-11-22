@@ -1,12 +1,12 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION0_
 title: IKEEXT_CERTIFICATE_AUTHENTICATION0 (iketypes.h)
-author: windows-sdk-content
+
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication0.htm
 tech.root: fwp
 ms.assetid: e9f9625d-b68b-4b7d-a587-39dac04dd991
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_AUTHENTICATION0, IKEEXT_CERTIFICATE_AUTHENTICATION0 structure [Filtering], IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP, IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION, IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG, IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK, IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY, IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE, fwp.ikeext_certificate_authentication0, iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION0
 ms.topic: struct

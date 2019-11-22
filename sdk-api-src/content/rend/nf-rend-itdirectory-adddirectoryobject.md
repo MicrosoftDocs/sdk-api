@@ -1,12 +1,12 @@
 ---
 UID: NF:rend.ITDirectory.AddDirectoryObject
 title: ITDirectory::AddDirectoryObject (rend.h)
-author: windows-sdk-content
+
 description: The AddDirectoryObject method adds an ITDirectoryObject object to the server. This may be a directory or a user machine mapping.
 old-location: tapi3\itdirectory_adddirectoryobject.htm
 tech.root: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],AddDirectoryObject method, ITDirectory.AddDirectoryObject, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
 ms.topic: method

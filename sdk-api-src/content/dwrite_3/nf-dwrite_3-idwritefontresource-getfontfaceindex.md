@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontFaceIndex
 title: IDWriteFontResource::GetFontFaceIndex
-author: windows-sdk-content
+
 description: Retrieves the zero-based index of the font face within its font file.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFaceIndex method, IDWriteFontResource.GetFontFaceIndex, IDWriteFontResource::GetFontFaceIndex, GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFaceIndex method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfaceindex, dwrite_3/IDWriteFontResource::GetFontFaceIndex
 ms.topic: method

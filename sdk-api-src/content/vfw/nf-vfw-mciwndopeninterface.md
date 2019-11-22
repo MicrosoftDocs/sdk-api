@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndOpenInterface
 title: MCIWndOpenInterface macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndOpenInterface macro attaches the data stream or file associated with the specified interface to an MCIWnd window. You can use this macro or explicitly send the MCIWNDM_OPENINTERFACE message.
 old-location: multimedia\mciwndopeninterface.htm
 tech.root: Multimedia
 ms.assetid: ad31d945-27f8-48d5-a49b-e36f4beb5de6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndOpenInterface, MCIWndOpenInterface macro [Windows Multimedia], _win32_MCIWndOpenInterface, multimedia.mciwndopeninterface, vfw/MCIWndOpenInterface
 ms.topic: macro

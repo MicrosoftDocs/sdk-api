@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSingleArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-author: windows-sdk-content
+
 description: Creates a new IPropertyValue object that contains the specified array of 32-bit floating point values.
 old-location: winrt\ipropertyvaluestatics_createsinglearray.htm
 tech.root: WinRT
 ms.assetid: 525303cc-052b-4895-92a6-cfb5985b31d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingleArray method, IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
 ms.topic: method

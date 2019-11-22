@@ -1,12 +1,12 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItem
 title: ISpatialAudioMetadataWriter::WriteNextItem (spatialaudiometadata.h)
-author: windows-sdk-content
+
 description: Starts a new metadata item at the specified offset.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitem.htm
 tech.root: CoreAudio
 ms.assetid: 9D61BFC0-BAD7-46D3-B0E9-4848E37785E9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItem method, ISpatialAudioMetadataWriter.WriteNextItem, ISpatialAudioMetadataWriter::WriteNextItem, WriteNextItem, WriteNextItem method [Core Audio], WriteNextItem method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitem, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItem
 ms.topic: method

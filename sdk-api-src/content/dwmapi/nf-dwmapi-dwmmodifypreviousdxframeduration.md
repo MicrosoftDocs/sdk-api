@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmModifyPreviousDxFrameDuration
 title: DwmModifyPreviousDxFrameDuration function (dwmapi.h)
-author: windows-sdk-content
+
 description: Changes the number of monitor refreshes through which the previous frame will be displayed. DwmModifyPreviousDxFrameDuration is no longer supported. Starting with Windows 8.1, calls to DwmModifyPreviousDxFrameDuration always return E_NOTIMPL.
 old-location: dwm\dwmmodifypreviousdxframeduration.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmmodifypreviousdxframeduration.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DwmModifyPreviousDxFrameDuration, DwmModifyPreviousDxFrameDuration function [Desktop Window Manager], _udwm_dwmmodifypreviousdxframeduration, _udwm_dwmmodifypreviousdxframeduration_cpp, dwm.dwmmodifypreviousdxframeduration, dwmapi/DwmModifyPreviousDxFrameDuration, winui._udwm_dwmmodifypreviousdxframeduration
 ms.topic: function

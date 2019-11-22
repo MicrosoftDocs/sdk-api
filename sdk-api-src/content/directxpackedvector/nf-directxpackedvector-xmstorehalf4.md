@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMStoreHalf4
 title: XMStoreHalf4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in an XMHALF4.
 old-location: dxmath\xmstorehalf4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf4(XMHALF4@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreHalf4, XMStoreHalf4, XMStoreHalf4 method [DirectX Math Support APIs], dxmath.xmstorehalf4
 ms.topic: function

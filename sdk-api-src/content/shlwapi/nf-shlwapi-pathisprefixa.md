@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathIsPrefixA
 title: PathIsPrefixA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
 old-location: shell\PathIsPrefix.htm
 tech.root: shell
 ms.assetid: b24f761e-6492-4a6d-9c7e-d5a5f2cbdaf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathIsPrefix, PathIsPrefix function [Windows Shell], PathIsPrefixA, PathIsPrefixW, _win32_PathIsPrefix, shell.PathIsPrefix, shlwapi/PathIsPrefix, shlwapi/PathIsPrefixA, shlwapi/PathIsPrefixW
 ms.topic: function

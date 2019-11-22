@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT
 title: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
-author: windows-sdk-content
+
 description: A security binding constraint that corresponds to the WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING.
 old-location: wsw\ws_kerberos_apreq_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: fd422ee4-64cd-464f-905f-b46b69e1a440
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_kerberos_apreq_message_security_binding_constraint
 ms.topic: struct

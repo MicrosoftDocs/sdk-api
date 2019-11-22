@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp.__unnamed_struct_0
 title: SYMSRV_INDEX_INFO (dbghelp.h)
-author: windows-sdk-content
+
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm
 tech.root: Debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW"
 ms.topic: struct

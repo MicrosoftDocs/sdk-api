@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.CommitRecord
 title: ICrmCompensator::CommitRecord (comsvcs.h)
-author: windows-sdk-content
+
 description: Delivers a log record in forward order during the commit phase.
 old-location: cos\icrmcompensator_commitrecord.htm
 tech.root: cossdk
 ms.assetid: d444973d-d069-480e-b459-405057717776
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CommitRecord, CommitRecord method [COM+], CommitRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],CommitRecord method, ICrmCompensator.CommitRecord, ICrmCompensator::CommitRecord, _dtc_ICrmCompensator_CommitRecord, comsvcs/ICrmCompensator::CommitRecord, cos.icrmcompensator_commitrecord
 ms.topic: method

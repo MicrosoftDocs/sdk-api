@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetAdapterOrderMap
 title: GetAdapterOrderMap function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetAdapterOrderMap function obtains an adapter order map that indicates priority for interfaces on the local computer.
 old-location: iphlp\getadapterordermap.htm
 tech.root: IpHlp
 ms.assetid: 43d7429b-6874-4ea6-bbf0-67456af520bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAdapterOrderMap, GetAdapterOrderMap function [IP Helper], iphlp.getadapterordermap, iphlpapi/GetAdapterOrderMap
 ms.topic: function

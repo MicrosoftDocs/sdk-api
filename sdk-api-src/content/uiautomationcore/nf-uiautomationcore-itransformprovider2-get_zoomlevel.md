@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_ZoomLevel
 title: ITransformProvider2::get_ZoomLevel (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Retrieves the current zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoomlevel.htm
 tech.root: WinAuto
 ms.assetid: AFC38A55-C2E4-4E5A-AD52-AE0CE96F86AC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomLevel property, ITransformProvider2.ZoomLevel, ITransformProvider2.get_ZoomLevel, ITransformProvider2::ZoomLevel, ITransformProvider2::get_ZoomLevel, ZoomLevel property [Windows Accessibility], ZoomLevel property [Windows Accessibility],ITransformProvider2 interface, get_ZoomLevel, uiautomationcore/ITransformProvider2::ZoomLevel, uiautomationcore/ITransformProvider2::get_ZoomLevel, winauto.uiauto_itransformprovider2_zoomlevel
 ms.topic: method

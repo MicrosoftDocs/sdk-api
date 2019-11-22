@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetDescrambledStatus
 title: IESLicenseRenewalResultEvent::GetDescrambledStatus (tuner.h)
-author: windows-sdk-content
+
 description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.
 old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 tech.root: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
 ms.topic: method

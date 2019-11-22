@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_WatermarkURL
 title: IAMMediaContent::get_WatermarkURL (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_WatermarkURL method retrieves a URL for the watermark.
 old-location: dshow\iammediacontent_get_watermarkurl.htm
 tech.root: DirectShow
 ms.assetid: e632f99e-7e08-4dfa-9f4e-5f09d9d77eb8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_WatermarkURL method, IAMMediaContent.get_WatermarkURL, IAMMediaContent::get_WatermarkURL, IAMMediaContentget_WatermarkURL, dshow.iammediacontent_get_watermarkurl, get_WatermarkURL, get_WatermarkURL method [DirectShow], get_WatermarkURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_WatermarkURL
 ms.topic: method

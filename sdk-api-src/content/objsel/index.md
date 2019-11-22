@@ -1,7 +1,7 @@
 ---
 UID: NA:objsel
 ms.assetid: 78313162-7e00-3e94-bf00-b4b948941323
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

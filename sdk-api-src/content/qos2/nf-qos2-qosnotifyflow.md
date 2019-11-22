@@ -1,12 +1,12 @@
 ---
 UID: NF:qos2.QOSNotifyFlow
 title: QOSNotifyFlow function (qos2.h)
-author: windows-sdk-content
+
 description: Registers the calling application to receive a notification.
 old-location: qos\qosnotifyflow.htm
 tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
 ms.topic: function

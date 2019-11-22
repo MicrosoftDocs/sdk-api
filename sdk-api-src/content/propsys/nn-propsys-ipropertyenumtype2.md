@@ -1,12 +1,12 @@
 ---
 UID: NN:propsys.IPropertyEnumType2
 title: IPropertyEnumType2 (propsys.h)
-author: windows-sdk-content
+
 description: Exposes methods that extract data from enumeration information. IPropertyEnumType2 extends IPropertyEnumType.
 old-location: properties\IPropertyEnumType2.htm
 tech.root: properties
 ms.assetid: 272d3ab3-f66b-4ff1-85b2-7a1e167299e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType2, IPropertyEnumType2 interface [Windows Properties], IPropertyEnumType2 interface [Windows Properties],described, _shell_IPropertyEnumType2, properties.IPropertyEnumType2, propsys/IPropertyEnumType2, shell.IPropertyEnumType2
 ms.topic: interface

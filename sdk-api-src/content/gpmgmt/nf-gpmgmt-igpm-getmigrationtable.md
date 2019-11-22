@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPM.GetMigrationTable
 title: IGPM::GetMigrationTable (gpmgmt.h)
-author: windows-sdk-content
+
 description: Loads the migration table at a specified path.
 old-location: gpmc\igpm_getmigrationtable.htm
 tech.root: gpmc
 ms.assetid: 4a39d4f8-777d-4cf8-8dd5-053f73bdfdfa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetMigrationTable method [GPMC], GetMigrationTable method [GPMC],GPM object, GetMigrationTable method [GPMC],IGPM interface, IGPM interface [GPMC],GetMigrationTable method, IGPM.GetMigrationTable, IGPM::GetMigrationTable, gpmc.igpm_getmigrationtable, gpmgmt/IGPM::GetMigrationTable
 ms.topic: method

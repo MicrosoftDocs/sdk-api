@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Res_Des_Handle
 title: CM_Free_Res_Des_Handle function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Free_Res_Des_Handle function invalidates a resource description handle and frees its associated memory allocation.
 old-location: devinst\cm_free_res_des_handle.htm
 tech.root: devinst
 ms.assetid: 4a585d64-fd00-47a8-8ada-7e343beb829d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Res_Des_Handle, CM_Free_Res_Des_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des_Handle, cfgmgrfn_a3dd0de4-8188-4117-9e8b-ecc5eb448096.xml, devinst.cm_free_res_des_handle
 ms.topic: function

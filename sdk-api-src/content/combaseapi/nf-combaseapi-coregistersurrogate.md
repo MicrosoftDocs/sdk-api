@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoRegisterSurrogate
 title: CoRegisterSurrogate function (combaseapi.h)
-author: windows-sdk-content
+
 description: Registers the surrogate process through its ISurrogate interface pointer.
 old-location: com\coregistersurrogate.htm
 tech.root: com
 ms.assetid: 4d1c6ca6-ab21-429c-9433-7c95d9e757b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoRegisterSurrogate, com.coregistersurrogate, combaseapi/CoRegisterSurrogate
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObject.SetVolume
 title: ISpatialAudioObject::SetVolume (spatialaudioclient.h)
-author: windows-sdk-content
+
 description: Sets an audio amplitude multiplier that will be applied to the audio data provided by the ISpatialAudioObject before it is submitted to the audio rendering engine.
 old-location: coreaudio\ispatialaudioobject_setvolume.htm
 tech.root: CoreAudio
 ms.assetid: DC1B4B9C-BFE0-4308-AD34-500A30C5744F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpatialAudioObject.SetVolume, ISpatialAudioObject::SetVolume, SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
 ms.topic: method

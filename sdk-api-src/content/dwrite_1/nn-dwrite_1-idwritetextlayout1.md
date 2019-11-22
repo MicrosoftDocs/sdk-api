@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_1.IDWriteTextLayout1
 title: IDWriteTextLayout1 (dwrite_1.h)
-author: windows-sdk-content
+
 description: Represents a block of text after it has been fully analyzed and formatted.
 old-location: directwrite\idwritetextlayout1.htm
 tech.root: DirectWrite
 ms.assetid: FF6B3C78-0CC0-4843-9D17-3CF0777EA8BA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1, IDWriteTextLayout1 interface [Direct Write], IDWriteTextLayout1 interface [Direct Write],described, directwrite.idwritetextlayout1, dwrite_1/IDWriteTextLayout1
 ms.topic: interface

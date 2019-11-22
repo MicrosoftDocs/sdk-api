@@ -1,12 +1,12 @@
 ---
 UID: NS:mprapi._PPP_INFO_2
 title: PPP_INFO_2 (mprapi.h)
-author: windows-sdk-content
+
 description: The PPP_INFO_2 structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
 old-location: rras\ppp_info_2.htm
 tech.root: RRAS
 ms.assetid: 5fe87e87-6199-4a96-8e76-1838e515116e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PPP_INFO_2, PPP_INFO_2 structure [RAS], _mpr_ppp_info_2, mprapi/PPP_INFO_2, rras.ppp_info_2
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IMoniker
 title: IMoniker (objidl.h)
-author: windows-sdk-content
+
 description: Enables you to use a moniker object, which contains information that uniquely identifies a COM object.
 old-location: com\imoniker.htm
 tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
 ms.topic: interface

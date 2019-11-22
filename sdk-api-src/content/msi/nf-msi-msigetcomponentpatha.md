@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiGetComponentPathA
 title: MsiGetComponentPathA function (msi.h)
-author: windows-sdk-content
+
 description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 old-location: setup\msigetcomponentpath.htm
 tech.root: Msi
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MsiGetComponentPath, MsiGetComponentPath function, MsiGetComponentPathA, MsiGetComponentPathW, _msi_msigetcomponentpath, msi/MsiGetComponentPath, msi/MsiGetComponentPathA, msi/MsiGetComponentPathW, setup.msigetcomponentpath
 ms.topic: function

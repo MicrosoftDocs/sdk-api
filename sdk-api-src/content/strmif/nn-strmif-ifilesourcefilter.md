@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IFileSourceFilter
 title: IFileSourceFilter (strmif.h)
-author: windows-sdk-content
+
 description: The IFileSourceFilter interface is exposed by source filters to set the file name and media type of the media file that they are to render.
 old-location: dshow\ifilesourcefilter.htm
 tech.root: DirectShow
 ms.assetid: ad70fddb-4fc9-4010-a469-9a8ca4b47379
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], IFileSourceFilter interface [DirectShow],described, IFileSourceFilterInterface, dshow.ifilesourcefilter, strmif/IFileSourceFilter
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMBandwidthSharing
 title: IWMBandwidthSharing (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMBandwidthSharing interface contains methods to manage the properties of combined streams.The list of streams that share bandwidth is stored in the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: fd0e48bb-2e5e-4158-9ff1-5b603f219689
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMBandwidthSharing, IWMBandwidthSharing interface [windows Media Format], IWMBandwidthSharing interface [windows Media Format],described, IWMBandwidthSharingInterface, wmformat.iwmbandwidthsharing, wmsdkidl/IWMBandwidthSharing
 ms.topic: interface

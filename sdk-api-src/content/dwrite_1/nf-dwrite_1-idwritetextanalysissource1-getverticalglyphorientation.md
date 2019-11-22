@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalysisSource1.GetVerticalGlyphOrientation
 title: IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation (dwrite_1.h)
-author: windows-sdk-content
+
 description: Used by the text analyzer to obtain the desired glyph orientation and resolved bidi level.
 old-location: directwrite\idwritetextanalysissource1_getverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: 2F229E8A-171D-4DED-9E9E-F2925855E8C0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextAnalysisSource1 interface, IDWriteTextAnalysisSource1 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextAnalysisSource1.GetVerticalGlyphOrientation, IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation, directwrite.idwritetextanalysissource1_getverticalglyphorientation, dwrite_1/IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll.AddAuthenticatedAttributesToPKCS7Request
 title: IEnroll::AddAuthenticatedAttributesToPKCS7Request (xenroll.h)
-author: windows-sdk-content
+
 description: The AddAuthenticatedAttributesToPKCS7Request method adds authenticated attributes to a PKCS
 old-location: security\ienroll4_addauthenticatedattributestopkcs7request.htm
 tech.root: SecCrypto
 ms.assetid: a65eca3d-8308-4bdc-b851-016a4e63a1f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddAuthenticatedAttributesToPKCS7Request, AddAuthenticatedAttributesToPKCS7Request method [Security], AddAuthenticatedAttributesToPKCS7Request method [Security],IEnroll interface, IEnroll interface [Security],AddAuthenticatedAttributesToPKCS7Request method, IEnroll.AddAuthenticatedAttributesToPKCS7Request, IEnroll::AddAuthenticatedAttributesToPKCS7Request, security.ienroll4_addauthenticatedattributestopkcs7request, xenroll/IEnroll::AddAuthenticatedAttributesToPKCS7Request
 ms.topic: method

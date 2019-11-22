@@ -1,12 +1,12 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.End
 title: IDCompositionAnimation::End (dcompanimation.h)
-author: windows-sdk-content
+
 description: Adds an end segment that marks the end of an animation function.
 old-location: directcomp\idcompositionanimation_end.htm
 tech.root: directcomp
 ms.assetid: 71287ae2-d930-4e96-8c12-538d2b58ccc6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
 ms.topic: method

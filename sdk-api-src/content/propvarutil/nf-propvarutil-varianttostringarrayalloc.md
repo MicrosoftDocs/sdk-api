@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantToStringArrayAlloc
 title: VariantToStringArrayAlloc function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts data from a vector structure into a newly-allocated String array.
 old-location: properties\VariantToStringArrayAlloc.htm
 tech.root: properties
 ms.assetid: 2725b824-b26c-4b33-bc18-a6f4c0ef74e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantToStringArrayAlloc, VariantToStringArrayAlloc function [Windows Properties], _shell_VariantToStringArrayAlloc, properties.VariantToStringArrayAlloc, propvarutil/VariantToStringArrayAlloc, shell.VariantToStringArrayAlloc
 ms.topic: function

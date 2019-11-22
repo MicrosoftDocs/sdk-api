@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.IBrowserService.RegisterWindow
 title: IBrowserService::RegisterWindow (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Registers the browser in the list of browser windows.
 old-location: shell\IBrowserService_RegisterWindow.htm
 tech.root: shell
 ms.assetid: 39d4c31b-bbe4-4b45-b335-c4ae299b1ae3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, IBrowserService interface [Windows Shell],RegisterWindow method, IBrowserService.RegisterWindow, IBrowserService::RegisterWindow, RegisterWindow, RegisterWindow method [Windows Shell], RegisterWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::RegisterWindow, shell.IBrowserService_RegisterWindow, zone_IBrowserService_RegisterWindow
 ms.topic: method

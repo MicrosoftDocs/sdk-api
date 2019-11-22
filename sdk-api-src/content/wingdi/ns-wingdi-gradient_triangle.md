@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi._GRADIENT_TRIANGLE
 title: GRADIENT_TRIANGLE (wingdi.h)
-author: windows-sdk-content
+
 description: The GRADIENT_TRIANGLE structure specifies the index of three vertices in the pVertex array in the GradientFill function. These three vertices form one triangle.
 old-location: gdi\gradient_triangle.htm
 tech.root: gdi
 ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE'
 ms.topic: struct

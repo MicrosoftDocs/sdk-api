@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_ArchiveFolder
 title: IFaxOutgoingArchive::put_ArchiveFolder (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingArchive::get_ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],ArchiveFolder property, IFaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp, faxcomex/IFaxOutgoingArchive::ArchiveFolder, faxcomex/IFaxOutgoingArchive::get_ArchiveFolder, faxcomex/IFaxOutgoingArchive::put_ArchiveFolder, put_ArchiveFolder
 ms.topic: method

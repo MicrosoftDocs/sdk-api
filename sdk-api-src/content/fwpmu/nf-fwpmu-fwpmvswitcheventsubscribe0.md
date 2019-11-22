@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventSubscribe0
 title: FwpmvSwitchEventSubscribe0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Is used to request the delivery of notifications regarding a particular vSwitch event.
 old-location: fwp\fwpmvswitcheventsubscribe0.htm
 tech.root: fwp
 ms.assetid: 1264a58d-81e1-4877-915d-6ed3d7d15512
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmvSwitchEventSubscribe0, FwpmvSwitchEventSubscribe0 function [Filtering], fwp.fwpmvswitcheventsubscribe0, fwpmu/FwpmvSwitchEventSubscribe0
 ms.topic: function

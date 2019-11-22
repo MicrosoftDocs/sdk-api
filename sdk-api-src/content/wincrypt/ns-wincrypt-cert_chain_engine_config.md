@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_ENGINE_CONFIG
 title: CERT_CHAIN_ENGINE_CONFIG (wincrypt.h)
-author: windows-sdk-content
+
 description: Sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
 old-location: security\cert_chain_engine_config.htm
 tech.root: SecCrypto
 ms.assetid: 9e010eb9-2cbb-4fca-ba5c-4a5a50f23786
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE, CERT_CHAIN_ENABLE_SHARE_STORE, CERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_ENGINE_CONFIG structure [Security], CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG, CERT_CHAIN_USE_LOCAL_MACHINE_STORE, PCERT_CHAIN_ENGINE_CONFIG, PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security], _crypto2_cert_chain_engine_config, security.cert_chain_engine_config, wincrypt/CERT_CHAIN_ENGINE_CONFIG, wincrypt/PCERT_CHAIN_ENGINE_CONFIG'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_INPUT
 title: FSCTL_QUERY_REGION_INFO_INPUT
-author: windows-sdk-content
+
 description: Contains the storage tier regions from the storage stack for a particular volume.
 old-location: fs\fsctl_query_region_info_input.htm
 tech.root: FileIO
 ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.operator-assign(uint32_t)
 title: XMFLOAT3SE::operator-assign(uint32_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: This operator assigns the vector component data packed in an instance of uint32_t to the current instance of XMFLOAT3SE.
 old-location: dxmath\xmfloat3se_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.operator = (const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE structure [DirectX Math Support APIs],operator = method, XMFLOAT3SE.operator =(const uint32_t), XMFLOAT3SE.operator-assign(uint32_t), XMFLOAT3SE.operator=, XMFLOAT3SE::operator-assign(uint32_t), XMFLOAT3SE::operator=, dxmath.xmfloat3se_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3SE structure, operator=
 ms.topic: method

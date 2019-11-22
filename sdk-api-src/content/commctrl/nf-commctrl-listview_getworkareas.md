@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_GetWorkAreas
 title: ListView_GetWorkAreas macro (commctrl.h)
-author: windows-sdk-content
+
 description: Gets the working areas from a list-view control. You can use this macro, or send the LVM_GETWORKAREAS message explicitly.
 old-location: controls\ListView_GetWorkAreas.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getworkareas.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_GetWorkAreas, ListView_GetWorkAreas macro [Windows Controls], _win32_ListView_GetWorkAreas, _win32_ListView_GetWorkAreas_cpp, commctrl/ListView_GetWorkAreas, controls.ListView_GetWorkAreas, controls._win32_ListView_GetWorkAreas
 ms.topic: macro

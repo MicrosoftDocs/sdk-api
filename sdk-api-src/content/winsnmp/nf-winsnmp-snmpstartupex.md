@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpStartupEx
 title: SnmpStartupEx function (winsnmp.h)
-author: windows-sdk-content
+
 description: The SnmpStartupEx function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartupex.htm
 tech.root: SNMP
 ms.assetid: 5f0c9da1-d18e-4f93-8b5c-c5ad18360a7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartupEx, SnmpStartupEx function [SNMP], _snmp_snmpstartupex, snmp.snmpstartupex, winsnmp/SnmpStartupEx
 ms.topic: function

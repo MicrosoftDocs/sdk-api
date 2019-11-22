@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMBCDROPDOWN
 title: NMBCDROPDOWN (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about a BCN_DROPDOWN notification.
 old-location: controls\NMBCDROPDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbcdropdown.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMBCDROPDOWN, LPNMBCDROPDOWN, LPNMBCDROPDOWN structure pointer [Windows Controls], NMBCDROPDOWN, NMBCDROPDOWN structure [Windows Controls], _shell_NMBCDROPDOWN, _shell_NMBCDROPDOWN_cpp, commctrl/LPNMBCDROPDOWN, commctrl/NMBCDROPDOWN, controls.NMBCDROPDOWN, controls._shell_NMBCDROPDOWN'
 ms.topic: struct

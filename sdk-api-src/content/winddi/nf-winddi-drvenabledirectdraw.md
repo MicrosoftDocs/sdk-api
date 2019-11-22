@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.DrvEnableDirectDraw
 title: DrvEnableDirectDraw function (winddi.h)
-author: windows-sdk-content
+
 description: The DrvEnableDirectDraw function enables hardware for DirectDraw use.
 old-location: display\drvenabledirectdraw.htm
 tech.root: display
 ms.assetid: eb7e8775-d0ff-42af-8266-5171902eac22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrvEnableDirectDraw, DrvEnableDirectDraw function [Display Devices], ddfncs_259dc59e-2e2c-4cdb-9d79-08e42fd5bc91.xml, display.drvenabledirectdraw, winddi/DrvEnableDirectDraw
 ms.topic: function

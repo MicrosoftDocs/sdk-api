@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketEncoding
 title: MI_DestinationOptions_GetPacketEncoding function (mi.h)
-author: windows-sdk-content
+
 description: Gets the previously set packet encoding setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketencoding.htm
 tech.root: wmi_v2
 ms.assetid: 8800ae5d-6776-4a06-bf1e-3ee621250856
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8, MI_DestinationOptions_GetPacketEncoding, MI_DestinationOptions_GetPacketEncoding function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetPacketEncoding, wmi_v2.mi_destinationoptions_getpacketencoding
 ms.topic: function

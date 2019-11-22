@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SendMessageCallbackA
 title: SendMessageCallbackA function (winuser.h)
-author: windows-sdk-content
+
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendmessagecallback.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
 ms.topic: function

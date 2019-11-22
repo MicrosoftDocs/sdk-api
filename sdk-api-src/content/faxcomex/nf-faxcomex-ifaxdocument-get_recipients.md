@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Recipients
 title: IFaxDocument::get_Recipients (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDocument::get_Recipients property retrieves a collection of one or more recipients for the fax document.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_recipients_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8foz.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Recipients property, IFaxDocument.Recipients, IFaxDocument.get_Recipients, IFaxDocument::Recipients, IFaxDocument::get_Recipients, Recipients property [Fax Service], Recipients property [Fax Service],IFaxDocument interface, _mfax_faxdocument.recipients, fax._mfax_faxdocument_cpp_mfax_faxdocument_recipients_cpp, fax._mfax_faxdocument_recipients, faxcomex/IFaxDocument::Recipients, faxcomex/IFaxDocument::get_Recipients, get_Recipients
 ms.topic: method

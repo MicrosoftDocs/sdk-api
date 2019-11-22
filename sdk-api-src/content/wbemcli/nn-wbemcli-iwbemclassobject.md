@@ -1,12 +1,12 @@
 ---
 UID: NN:wbemcli.IWbemClassObject
 title: IWbemClassObject (wbemcli.h)
-author: windows-sdk-content
+
 description: Contains and manipulates both class definitions and class object instances.
 old-location: wmi\iwbemclassobject.htm
 tech.root: WmiSdk
 ms.assetid: a3ce37d7-5580-4b84-9119-78412c8e0d27
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], IWbemClassObject interface [Windows Management Instrumentation],described, WbemClassObject, _hmm_iwbemclassobject, wbemcli/IWbemClassObject, wmi.iwbemclassobject
 ms.topic: interface

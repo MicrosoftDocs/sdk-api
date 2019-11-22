@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiCloseAllHandles
 title: MsiCloseAllHandles function (msi.h)
-author: windows-sdk-content
+
 description: The MsiCloseAllHandles function closes all open installation handles allocated by the current thread. This is a diagnostic function and should not be used for cleanup.
 old-location: setup\msicloseallhandles.htm
 tech.root: Msi
 ms.assetid: 5914e99b-4895-4d12-bb4e-14a377b2eac4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiCloseAllHandles, MsiCloseAllHandles function, _msi_msicloseallhandles, msi/MsiCloseAllHandles, setup.msicloseallhandles
 ms.topic: function

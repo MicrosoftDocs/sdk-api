@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTable
 title: IDCompositionTableTransferEffect::SetRedTable (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the list of values used to define the transfer function for the red channel.
 old-location: directcomp\idcompositiontabletransfereffect_setredtable.htm
 tech.root: directcomp
 ms.assetid: 4113919E-84B9-402A-A2A1-64EB74D2CC59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTable method, IDCompositionTableTransferEffect.SetRedTable, IDCompositionTableTransferEffect::SetRedTable, SetRedTable, SetRedTable method [DirectComposition], SetRedTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTable, directcomp.idcompositiontabletransfereffect_setredtable
 ms.topic: method

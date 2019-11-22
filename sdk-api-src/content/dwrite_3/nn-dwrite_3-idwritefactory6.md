@@ -2,9 +2,9 @@
 UID: NN:dwrite_3.IDWriteFactory6
 title: IDWriteFactory6
 description: This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory6** adds new facilities for working with fonts and font resources.
-author: windows-sdk-content
+
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6, IDWriteFactory6 interface [Direct Write], IDWriteFactory6 interface [Direct Write],described, directwrite.idwritefactory6, dwrite_3/IDWriteFactory6
 ms.topic: interface

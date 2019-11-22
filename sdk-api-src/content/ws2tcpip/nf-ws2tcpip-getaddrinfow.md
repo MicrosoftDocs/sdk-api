@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoW
 title: GetAddrInfoW function (ws2tcpip.h)
-author: windows-sdk-content
+
 description: Provides protocol-independent translation from a Unicode host name to an address.
 old-location: winsock\getaddrinfow.htm
 tech.root: WinSock
 ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow, ws2tcpip/GetAddrInfoW
 ms.topic: function

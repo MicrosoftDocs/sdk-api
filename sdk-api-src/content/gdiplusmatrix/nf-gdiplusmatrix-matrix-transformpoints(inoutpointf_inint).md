@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT PointF,IN INT)
 title: Matrix::TransformPoints (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Matrix.TransformPoints, Matrix::TransformPoints, TransformPoints, TransformPoints methods [GDI+], _gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplusmatrix/TransformPoints
 ms.topic: method

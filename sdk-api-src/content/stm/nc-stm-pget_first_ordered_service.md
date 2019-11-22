@@ -1,12 +1,12 @@
 ---
 UID: NC:stm.PGET_FIRST_ORDERED_SERVICE
 title: PGET_FIRST_ORDERED_SERVICE (stm.h)
-author: windows-sdk-content
+
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
 old-location: rras\getfirstorderedservice.htm
 tech.root: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [RAS], PGET_FIRST_ORDERED_SERVICE, PGET_FIRST_ORDERED_SERVICE callback, STM_ORDER_BY_INTERFACE_TYPE_NAME, STM_ORDER_BY_TYPE_AND_NAME, _mpr_getfirstorderedservice, rras.getfirstorderedservice, stm/GetFirstOrderedService
 ms.topic: callback

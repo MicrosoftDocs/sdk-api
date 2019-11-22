@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteFont3
 title: IDWriteFont3 (dwrite_3.h)
-author: windows-sdk-content
+
 description: Represents a font in a font collection.
 old-location: directwrite\idwritefont3.htm
 tech.root: DirectWrite
 ms.assetid: 0BD21E3C-5F02-4A51-B64C-847B0DD5656B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont3, IDWriteFont3 interface [Direct Write], IDWriteFont3 interface [Direct Write],described, directwrite.idwritefont3, dwrite_3/IDWriteFont3
 ms.topic: interface

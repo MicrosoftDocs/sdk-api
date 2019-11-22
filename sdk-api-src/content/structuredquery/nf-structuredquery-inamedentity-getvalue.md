@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.INamedEntity.GetValue
 title: INamedEntity::GetValue (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves the value of this named entity as a string.
 old-location: search\_search_INamedEntity_GetValue.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\getvalue.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [search], GetValue method [search],INamedEntity interface, INamedEntity interface [search],GetValue method, INamedEntity.GetValue, INamedEntity::GetValue, _search_INamedEntity_GetValue, search._search_INamedEntity_GetValue, structuredquery/INamedEntity::GetValue
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ntsecapi.LsaUnregisterPolicyChangeNotification
 title: LsaUnregisterPolicyChangeNotification function (ntsecapi.h)
-author: windows-sdk-content
+
 description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
 old-location: security\lsaunregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification
 ms.topic: function

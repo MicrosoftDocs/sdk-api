@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_1.ID2D1PathGeometry1
 title: ID2D1PathGeometry1 (d2d1_1.h)
-author: windows-sdk-content
+
 description: The ID2D1PathGeometry1 interface adds functionality to ID2D1PathGeometry. In particular, it provides the path geometry-specific ComputePointAndSegmentAtLength method.
 old-location: direct2d\id2d1pathgeometry1.htm
 tech.root: Direct2D
 ms.assetid: 21f0a4a3-3c6c-434d-8cfc-767c7654849e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry1, ID2D1PathGeometry1 interface [Direct2D], ID2D1PathGeometry1 interface [Direct2D],described, d2d1_1/ID2D1PathGeometry1, direct2d.id2d1pathgeometry1
 ms.topic: interface

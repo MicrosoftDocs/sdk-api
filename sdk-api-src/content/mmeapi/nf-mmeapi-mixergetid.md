@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.mixerGetID
 title: mixerGetID function (mmeapi.h)
-author: windows-sdk-content
+
 description: The mixerGetID function retrieves the device identifier for a mixer device associated with a specified device handle.
 old-location: multimedia\mixergetid.htm
 tech.root: Multimedia
 ms.assetid: e70d6be0-858c-4042-bfaf-6a62bafa269c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multimedia], mmeapi/mixerGetID, multimedia.mixergetid"
 ms.topic: function

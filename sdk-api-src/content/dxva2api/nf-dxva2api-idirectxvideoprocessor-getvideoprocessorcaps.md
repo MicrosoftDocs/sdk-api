@@ -1,12 +1,12 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorCaps
 title: IDirectXVideoProcessor::GetVideoProcessorCaps (dxva2api.h)
-author: windows-sdk-content
+
 description: Retrieves the capabilities of the video processor device.
 old-location: mf\idirectxvideoprocessor_getvideoprocessorcaps.htm
 tech.root: medfound
 ms.assetid: f004d4fb-9fad-44f2-a284-3a612adbaf31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetVideoProcessorCaps method, IDirectXVideoProcessor.GetVideoProcessorCaps, IDirectXVideoProcessor::GetVideoProcessorCaps, dxva2api/IDirectXVideoProcessor::GetVideoProcessorCaps, f004d4fb-9fad-44f2-a284-3a612adbaf31, mf.idirectxvideoprocessor_getvideoprocessorcaps
 ms.topic: method

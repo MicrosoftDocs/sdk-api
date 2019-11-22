@@ -1,12 +1,12 @@
 ---
 UID: NF:imagehlp.SplitSymbols
 title: SplitSymbols function (imagehlp.h)
-author: windows-sdk-content
+
 description: Strips symbols from the specified image.
 old-location: base\splitsymbols.htm
 tech.root: Debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols
 ms.topic: function

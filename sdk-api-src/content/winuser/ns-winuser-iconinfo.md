@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser._ICONINFO
 title: ICONINFO (winuser.h)
-author: windows-sdk-content
+
 description: Contains information about an icon or a cursor.
 old-location: menurc\iconinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PICONINFO, ICONINFO, ICONINFO structure [Menus and Other Resources], PICONINFO, PICONINFO structure pointer [Menus and Other Resources], _win32_ICONINFO_str, _win32_iconinfo_str_cpp, menurc.iconinfo, winui._win32_iconinfo_str, winuser/ICONINFO, winuser/PICONINFO"
 ms.topic: struct

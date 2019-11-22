@@ -1,12 +1,12 @@
 ---
 UID: NS:schedule._SCHEDULE
 title: SCHEDULE (schedule.h)
-author: windows-sdk-content
+
 description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
 old-location: ad\schedule.htm
 tech.root: ad
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE'
 ms.topic: struct

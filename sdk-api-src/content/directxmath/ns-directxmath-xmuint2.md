@@ -1,12 +1,12 @@
 ---
 UID: NS:directxmath.XMUINT2
 title: XMUINT2 (directxmath.h)
-author: windows-sdk-content
+
 description: A 2D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUINT2, XMUINT2 structure [DirectX Math Support APIs], directxmath/XMUINT2, dxmath.xmuint2
 ms.topic: struct

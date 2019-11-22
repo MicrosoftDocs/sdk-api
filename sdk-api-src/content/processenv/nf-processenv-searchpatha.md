@@ -1,12 +1,12 @@
 ---
 UID: NF:processenv.SearchPathA
 title: SearchPathA function
-author: windows-sdk-content
+
 description: Searches for a specified file in a specified path.
 old-location: fs\searchpath.htm
 tech.root: FileIO
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, _win32_searchpath, base.searchpath, fs.searchpath, processenv/SearchPath, processenv/SearchPathA, processenv/SearchPathW
 ms.topic: function

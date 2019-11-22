@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.X509RequestInheritOptions
 title: X509RequestInheritOptions (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies how keys, extension values, and external properties are inherited when a new request is created from an existing certificate.
 old-location: security\x509requestinheritoptions_enum.htm
 tech.root: seccertenroll
 ms.assetid: 6aa8d72d-bf6a-476b-812b-9ceafed5e5e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InheritDefault, InheritExtensionsFlag, InheritKeyMask, InheritNewDefaultKey, InheritNewSimilarKey, InheritNone, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, X509RequestInheritOptions, X509RequestInheritOptions enumeration [Security], certenroll/InheritDefault, certenroll/InheritExtensionsFlag, certenroll/InheritKeyMask, certenroll/InheritNewDefaultKey, certenroll/InheritNewSimilarKey, certenroll/InheritNone, certenroll/InheritPrivateKey, certenroll/InheritPublicKey, certenroll/InheritRenewalCertificateFlag, certenroll/InheritSubjectAltNameFlag, certenroll/InheritSubjectFlag, certenroll/InheritTemplateFlag, certenroll/InheritValidityPeriodFlag, certenroll/X509RequestInheritOptions, security.x509requestinheritoptions_enum
 ms.topic: enum

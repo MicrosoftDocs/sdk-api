@@ -1,12 +1,12 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookupClient
 title: IMFTopologyServiceLookupClient (evr.h)
-author: windows-sdk-content
+
 description: Initializes a video mixer or presenter.
 old-location: mf\imftopologyservicelookupclient.htm
 tech.root: medfound
 ms.assetid: c4215d08-3734-44b9-b053-0d49d89a90f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], IMFTopologyServiceLookupClient interface [Media Foundation],described, c4215d08-3734-44b9-b053-0d49d89a90f6, evr/IMFTopologyServiceLookupClient, mf.imftopologyservicelookupclient
 ms.topic: interface

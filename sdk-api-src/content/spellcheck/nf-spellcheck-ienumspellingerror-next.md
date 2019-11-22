@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheck.IEnumSpellingError.Next
 title: IEnumSpellingError::Next (spellcheck.h)
-author: windows-sdk-content
+
 description: Gets the next spelling error.
 old-location: intl\ienumspellingerror_next.htm
 tech.root: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSpellingError interface [Internationalization for Windows Applications],Next method, IEnumSpellingError.Next, IEnumSpellingError::Next, Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications],IEnumSpellingError interface, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
 ms.topic: method

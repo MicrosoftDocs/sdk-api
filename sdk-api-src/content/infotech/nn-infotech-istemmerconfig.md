@@ -1,12 +1,12 @@
 ---
 UID: NN:infotech.IStemmerConfig
 title: IStemmerConfig (infotech.h)
-author: windows-sdk-content
+
 description: Use this interface to provide configuration information that controls stemming.
 old-location: htmlhelp\istemmerconfig.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
 ms.topic: interface

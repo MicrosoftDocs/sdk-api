@@ -1,12 +1,12 @@
 ---
 UID: NS:ddrawint._DDCOMPBUFFERINFO
 title: DDCOMPBUFFERINFO (ddrawint.h)
-author: windows-sdk-content
+
 description: The DDCOMPBUFFERINFO structure contains driver-supplied information regarding compression buffers.
 old-location: display\ddcompbufferinfo.htm
 tech.root: display
 ms.assetid: 73dad759-499f-45b2-9345-4577deb01492
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCOMPBUFFERINFO, DDCOMPBUFFERINFO, DDCOMPBUFFERINFO structure [Display Devices], LPDDCOMPBUFFERINFO, LPDDCOMPBUFFERINFO structure pointer [Display Devices], ddrawint/DDCOMPBUFFERINFO, ddrawint/LPDDCOMPBUFFERINFO, ddstrcts_b9871578-f3de-49fb-95f3-2668598e575a.xml, display.ddcompbufferinfo'
 ms.topic: struct

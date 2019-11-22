@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadUShortN2
 title: XMLoadUShortN2 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMUSHORTN2 into an XMVECTOR.
 old-location: dxmath\xmloadushortn2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShortN2(const XMUSHORTN2)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUShortN2, XMLoadUShortN2, XMLoadUShortN2 method [DirectX Math Support APIs], dxmath.xmloadushortn2
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:wabdefs._SPropValue
 title: SPropValue (wabdefs.h)
-author: windows-sdk-content
+
 description: Do not use. Contains the property tag values.
 old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.topic: struct

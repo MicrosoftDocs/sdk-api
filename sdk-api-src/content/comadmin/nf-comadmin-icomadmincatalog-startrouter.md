@@ -1,12 +1,12 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartRouter
 title: ICOMAdminCatalog::StartRouter (comadmin.h)
-author: windows-sdk-content
+
 description: Starts the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_startrouter.htm
 tech.root: cossdk
 ms.assetid: 2d2c0ee0-2758-4d69-878a-78ce216a9201
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartRouter method, ICOMAdminCatalog.StartRouter, ICOMAdminCatalog::StartRouter, StartRouter, StartRouter method [COM+], StartRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
 ms.topic: method

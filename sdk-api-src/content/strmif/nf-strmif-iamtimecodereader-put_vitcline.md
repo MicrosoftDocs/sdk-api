@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.put_VITCLine
 title: IAMTimecodeReader::put_VITCLine (strmif.h)
-author: windows-sdk-content
+
 description: The put_VITCLine method specifies the vertical interval line that the timecode reader will use to read timecode.
 old-location: dshow\iamtimecodereader_put_vitcline.htm
 tech.root: DirectShow
 ms.assetid: 171b0fd2-1498-41ae-9803-99b9128ee305
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],put_VITCLine method, IAMTimecodeReader.put_VITCLine, IAMTimecodeReader::put_VITCLine, IAMTimecodeReaderput_VITCLine, dshow.iamtimecodereader_put_vitcline, put_VITCLine, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow],IAMTimecodeReader interface, strmif/IAMTimecodeReader::put_VITCLine
 ms.topic: method

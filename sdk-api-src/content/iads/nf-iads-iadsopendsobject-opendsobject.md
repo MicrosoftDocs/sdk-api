@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsOpenDSObject.OpenDSObject
 title: IADsOpenDSObject::OpenDSObject (iads.h)
-author: windows-sdk-content
+
 description: Binds to an ADSI object, using the given credentials, and retrieves an IDispatch pointer to the specified object.
 old-location: adsi\iadsopendsobject_opendsobject.htm
 tech.root: adsi
 ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
 ms.topic: method

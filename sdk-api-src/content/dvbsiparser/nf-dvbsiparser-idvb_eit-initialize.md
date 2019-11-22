@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.Initialize
 title: IDVB_EIT::Initialize (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_initialize.htm
 tech.root: mstv
 ms.assetid: a0ffa39a-9e91-4229-8dee-b31f3973f384
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],Initialize method, IDVB_EIT.Initialize, IDVB_EIT::Initialize, IDVB_EITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::Initialize, mstv.idvb_eit_initialize
 ms.topic: method

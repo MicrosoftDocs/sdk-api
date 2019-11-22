@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarR4FromCy
 title: VarR4FromCy function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a currency value to a float value.
 old-location: automat\varr4fromcy.htm
 tech.root: automat
 ms.assetid: 25ac1a9f-b23e-4613-a629-e14cecc8902b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarR4FromCy, VarR4FromCy function [Automation], _oa96_VarR4FromCy, automat.varr4fromcy, oleauto/VarR4FromCy
 ms.topic: function

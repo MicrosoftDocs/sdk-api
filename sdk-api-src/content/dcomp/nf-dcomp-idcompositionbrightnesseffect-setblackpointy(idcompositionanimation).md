@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation)
 title: IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the y value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy_2.htm
 tech.root: directcomp
 ms.assetid: 3469E62F-4DAF-4FC7-9BBE-3B246260B1D5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_2
 ms.topic: method

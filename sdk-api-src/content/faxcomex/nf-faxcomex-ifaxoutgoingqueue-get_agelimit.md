@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_AgeLimit
 title: IFaxOutgoingQueue::get_AgeLimit (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingQueue::get_AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_agelimit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7qyc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],AgeLimit property, IFaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.get_AgeLimit, IFaxOutgoingQueue::AgeLimit, IFaxOutgoingQueue::get_AgeLimit, IFaxOutgoingQueue::put_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_agelimit_cpp, faxcomex/IFaxOutgoingQueue::AgeLimit, faxcomex/IFaxOutgoingQueue::get_AgeLimit, faxcomex/IFaxOutgoingQueue::put_AgeLimit, get_AgeLimit
 ms.topic: method

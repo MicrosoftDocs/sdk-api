@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetLastPlayPosition
 title: IMDSPObjectInfo::GetLastPlayPosition (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetLastPlayPosition method retrieves the last play position of the object. The object must be a music file on the media device.
 old-location: wmdm\imdspobjectinfo_getlastplayposition.htm
 tech.root: WMDM
 ms.assetid: 7ebd73b2-d168-470b-bc5a-aad8888c401a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLastPlayPosition, GetLastPlayPosition method [windows Media Device Manager], GetLastPlayPosition method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetLastPlayPosition method, IMDSPObjectInfo.GetLastPlayPosition, IMDSPObjectInfo::GetLastPlayPosition, IMDSPObjectInfoGetLastPlayPosition, mswmdm/IMDSPObjectInfo::GetLastPlayPosition, wmdm.imdspobjectinfo_getlastplayposition
 ms.topic: method

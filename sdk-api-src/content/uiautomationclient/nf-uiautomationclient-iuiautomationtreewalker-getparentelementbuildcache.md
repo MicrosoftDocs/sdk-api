@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetParentElementBuildCache
 title: IUIAutomationTreeWalker::GetParentElementBuildCache (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the parent element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParentBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 1a1d9805-bcd7-4c5d-ac61-138ac75a523e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetParentElementBuildCache, GetParentElementBuildCache method [Windows Accessibility], GetParentElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetParentElementBuildCache method, IUIAutomationTreeWalker.GetParentElementBuildCache, IUIAutomationTreeWalker::GetParentElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetParentElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache
 ms.topic: method

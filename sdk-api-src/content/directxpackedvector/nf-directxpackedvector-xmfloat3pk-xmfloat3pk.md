@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK
 title: XMFLOAT3PK::XMFLOAT3PK (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMFLOAT3PK.
 old-location: dxmath\xmfloat3pk_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK::XMFLOAT3PK, dxmath.xmfloat3pk_ctor_1
 ms.topic: method

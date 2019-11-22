@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileList
 title: SetupDiGetHwProfileList function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDiGetHwProfileList function retrieves a list of all currently defined hardware profile IDs.
 old-location: devinst\setupdigethwprofilelist.htm
 tech.root: devinst
 ms.assetid: 59fc7202-0e03-4eaa-b3ca-7d55be767b1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileList, SetupDiGetHwProfileList function [Device and Driver Installation], devinst.setupdigethwprofilelist, di-rtns_fb906b00-dab3-4cb0-88a9-b54f719211c9.xml, setupapi/SetupDiGetHwProfileList
 ms.topic: function

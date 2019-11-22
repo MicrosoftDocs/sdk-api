@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpFreeDescriptor
 title: SnmpFreeDescriptor function (winsnmp.h)
-author: windows-sdk-content
+
 description: A WinSNMP application uses the SnmpFreeDescriptor function to inform the Microsoft WinSNMP implementation that it no longer requires access to a descriptor object.
 old-location: snmp\snmpfreedescriptor.htm
 tech.root: SNMP
 ms.assetid: 535f728d-6964-47b6-9913-7cd38356053d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
 ms.topic: function

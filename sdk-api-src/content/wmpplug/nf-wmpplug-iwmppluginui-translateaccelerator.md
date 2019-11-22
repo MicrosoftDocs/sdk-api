@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.TranslateAccelerator
 title: IWMPPluginUI::TranslateAccelerator (wmpplug.h)
-author: windows-sdk-content
+
 description: The TranslateAccelerator method is called as part of the Windows Media Player message loop to allow the plug-in to intercept and respond to keyboard events.
 old-location: wmp\iwmppluginui_translateaccelerator.htm
 tech.root: WMP
 ms.assetid: 0accc3d7-a194-4f89-a90c-ee3ce10d0e27
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],TranslateAccelerator method, IWMPPluginUI.TranslateAccelerator, IWMPPluginUI::TranslateAccelerator, IWMPPluginUITranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Media Player], TranslateAccelerator method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_translateaccelerator, wmpplug/IWMPPluginUI::TranslateAccelerator
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.BitBlt
 title: BitBlt function (wingdi.h)
-author: windows-sdk-content
+
 description: The BitBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\bitblt.htm
 tech.root: gdi
 ms.assetid: d6a181e4-b6cf-44b7-bf47-4900272d6d72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
 ms.topic: function

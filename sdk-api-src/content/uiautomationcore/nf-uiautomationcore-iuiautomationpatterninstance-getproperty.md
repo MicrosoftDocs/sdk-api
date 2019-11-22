@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternInstance.GetProperty
 title: IUIAutomationPatternInstance::GetProperty (uiautomationcore.h)
-author: windows-sdk-content
+
 description: The client wrapper object implements the IUIAutomation::get_CurrentX and IUIAutomationElement::get_CachedX methods by calling this function, specifying the property by index.
 old-location: winauto\uiauto_IUIAutomationPatternInstance_GetProperty.htm
 tech.root: WinAuto
 ms.assetid: cb64569f-799b-4e9a-a9f4-84513b98c941
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Accessibility], GetProperty method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],GetProperty method, IUIAutomationPatternInstance.GetProperty, IUIAutomationPatternInstance::GetProperty, uiauto.uiauto_IUIAutomationPatternInstance_GetProperty, uiauto_IUIAutomationPatternInstance_GetProperty, uiautomationcore/IUIAutomationPatternInstance::GetProperty, winauto.uiauto_IUIAutomationPatternInstance_GetProperty
 ms.topic: method

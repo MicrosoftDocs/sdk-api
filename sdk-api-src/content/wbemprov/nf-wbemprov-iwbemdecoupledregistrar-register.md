@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledRegistrar.Register
 title: IWbemDecoupledRegistrar::Register (wbemprov.h)
-author: windows-sdk-content
+
 description: The IWbemDecoupledRegistrar::Register method registers an object interface with WMI.
 old-location: wmi\iwbemdecoupledregistrar_register.htm
 tech.root: WmiSdk
 ms.assetid: 0592310c-dc1b-45df-bf60-613a58dd69ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemDecoupledRegistrar interface [Windows Management Instrumentation],Register method, IWbemDecoupledRegistrar.Register, IWbemDecoupledRegistrar::Register, Register, Register method [Windows Management Instrumentation], Register method [Windows Management Instrumentation],IWbemDecoupledRegistrar interface, Register method [Windows Management Instrumentation],WbemDecoupledRegistrar object, WbemDecoupledRegistrar object [Windows Management Instrumentation],Register method, _hmm_iwbemdecoupledregistrar_register, wbemprov/IWbemDecoupledRegistrar::Register, wmi.iwbemdecoupledregistrar_register
 ms.topic: method

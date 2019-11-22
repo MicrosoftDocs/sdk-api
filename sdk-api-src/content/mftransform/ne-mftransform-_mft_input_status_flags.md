@@ -1,12 +1,12 @@
 ---
 UID: NE:mftransform._MFT_INPUT_STATUS_FLAGS
 title: _MFT_INPUT_STATUS_FLAGS (mftransform.h)
-author: windows-sdk-content
+
 description: Indicates the status of an input stream on a Media Foundation transform (MFT).
 old-location: mf\_mft_input_status_flags.htm
 tech.root: medfound
 ms.assetid: c63052a1-58b6-4537-9214-6f8d79a9eafd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFT_INPUT_STATUS_ACCEPT_DATA, _MFT_INPUT_STATUS_FLAGS, _MFT_INPUT_STATUS_FLAGS enumeration [Media Foundation], c63052a1-58b6-4537-9214-6f8d79a9eafd, mf._mft_input_status_flags, mftransform/MFT_INPUT_STATUS_ACCEPT_DATA, mftransform/_MFT_INPUT_STATUS_FLAGS
 ms.topic: enum

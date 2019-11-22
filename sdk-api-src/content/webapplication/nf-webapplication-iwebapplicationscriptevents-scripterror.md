@@ -1,12 +1,12 @@
 ---
 UID: NF:webapplication.IWebApplicationScriptEvents.ScriptError
 title: IWebApplicationScriptEvents::ScriptError (webapplication.h)
-author: windows-sdk-content
+
 description: Fired when an unhandled script error occurs.
 old-location: debug\iwebapplicationscriptevents_scripterror.htm
 tech.root: debug_wwahost
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
 ms.topic: method

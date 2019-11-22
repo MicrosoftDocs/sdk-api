@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Count
 title: IDiscMaster2::get_Count (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the number of the CD and DVD disc devices installed on the computer.
 old-location: imapi\idiscmaster2_get_count.htm
 tech.root: imapi
 ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SetColor
 title: SolidBrush::SetColor (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The SolidBrush::SetColor method sets the color of this solid brush.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SetColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\setcolor_9color.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetColor, SetColor method [GDI+], SetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],SetColor method, SolidBrush.SetColor, SolidBrush::SetColor, _gdiplus_CLASS_SolidBrush_SetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_SetColor_color_
 ms.topic: method

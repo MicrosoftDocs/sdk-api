@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Routing
 title: IFaxTiff::get_Routing (faxcom.h)
-author: windows-sdk-content
+
 description: Retrieves the Routing property for a FaxTiff object. The Routing property is a null-terminated string that contains the inbound routing string for a specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_routing_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_39lz.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],Routing property, IFaxTiff.Routing, IFaxTiff.get_Routing, IFaxTiff::Routing, IFaxTiff::get_Routing, Routing property [Fax Service], Routing property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_routing_cpp, faxcom/IFaxTiff::Routing, faxcom/IFaxTiff::get_Routing, get_Routing
 ms.topic: method

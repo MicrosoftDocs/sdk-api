@@ -1,12 +1,12 @@
 ---
 UID: NN:dxgi.IDXGIResource
 title: IDXGIResource (dxgi.h)
-author: windows-sdk-content
+
 description: An IDXGIResource interface allows resource sharing and identifies the memory that a resource resides in.
 old-location: direct3ddxgi\idxgiresource.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 74b46980-220f-d8c0-f488-2656b735bb5d, IDXGIResource, IDXGIResource interface [DXGI], IDXGIResource interface [DXGI],described, direct3ddxgi.idxgiresource, dxgi/IDXGIResource
 ms.topic: interface

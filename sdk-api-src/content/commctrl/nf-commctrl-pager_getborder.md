@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Pager_GetBorder
 title: Pager_GetBorder macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the current border size for the pager control. You can use this macro or send the PGM_GETBORDER message explicitly.
 old-location: controls\Pager_GetBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getborder.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pager_GetBorder, Pager_GetBorder macro [Windows Controls], _win32_Pager_GetBorder, _win32_Pager_GetBorder_cpp, commctrl/Pager_GetBorder, controls.Pager_GetBorder, controls._win32_Pager_GetBorder
 ms.topic: macro

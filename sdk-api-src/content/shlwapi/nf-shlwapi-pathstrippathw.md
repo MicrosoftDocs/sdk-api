@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.PathStripPathW
 title: PathStripPathW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Removes the path portion of a fully qualified path and file.
 old-location: shell\PathStripPath.htm
 tech.root: shell
 ms.assetid: 84b439f2-f570-4e7f-bc3f-e0fdd185ea15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathStripPath, PathStripPath function [Windows Shell], PathStripPathA, PathStripPathW, _win32_PathStripPath, shell.PathStripPath, shlwapi/PathStripPath, shlwapi/PathStripPathA, shlwapi/PathStripPathW
 ms.topic: function

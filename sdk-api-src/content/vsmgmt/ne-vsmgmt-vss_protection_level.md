@@ -1,12 +1,12 @@
 ---
 UID: NE:vsmgmt._VSS_PROTECTION_LEVEL
 title: VSS_PROTECTION_LEVEL (vsmgmt.h)
-author: windows-sdk-content
+
 description: Defines the set of volume shadow copy protection levels.
 old-location: base\vss_protection_level.htm
 tech.root: VSS
 ms.assetid: f4c036ac-13fb-47be-8ad8-32c65caf0a2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT'
 ms.topic: enum

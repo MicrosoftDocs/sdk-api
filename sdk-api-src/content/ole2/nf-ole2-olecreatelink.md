@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleCreateLink
 title: OleCreateLink function (ole2.h)
-author: windows-sdk-content
+
 description: Creates an OLE compound-document linked object.
 old-location: com\olecreatelink.htm
 tech.root: com
 ms.assetid: ef52dc37-aa63-47f3-a04f-f9d22178690f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleCreateLink, OleCreateLink function [COM], _ole_OleCreateLink, com.olecreatelink, ole2/OleCreateLink
 ms.topic: function

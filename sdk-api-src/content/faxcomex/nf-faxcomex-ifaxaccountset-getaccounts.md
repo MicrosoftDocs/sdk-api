@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.GetAccounts
 title: IFaxAccountSet::GetAccounts (faxcomex.h)
-author: windows-sdk-content
+
 description: Returns an IFaxAccounts object that represents all the fax accounts on the fax server.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_getaccounts_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\getaccounts.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAccounts, GetAccounts method [Fax Service], GetAccounts method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],GetAccounts method, IFaxAccountSet.GetAccounts, IFaxAccountSet::GetAccounts, _mfax_faxaccountset.getaccounts, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_getaccounts_cpp, fax._mfax_faxaccountset_getaccounts, faxcomex/IFaxAccountSet::GetAccounts
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsCharUpperA
 title: IsCharUpperA function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether a character is uppercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischarupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarupper.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsCharUpper, IsCharUpper function [Menus and Other Resources], IsCharUpperA, IsCharUpperW, _win32_IsCharUpper, _win32_ischarupper_cpp, menurc.ischarupper, winui._win32_ischarupper, winuser/IsCharUpper, winuser/IsCharUpperA, winuser/IsCharUpperW
 ms.topic: function

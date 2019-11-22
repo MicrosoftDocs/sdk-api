@@ -1,12 +1,12 @@
 ---
 UID: NF:notificationactivationcallback.INotificationActivationCallback.Activate
 title: INotificationActivationCallback::Activate (notificationactivationcallback.h)
-author: windows-sdk-content
+
 description: Called when a user interacts with a toast in the action center.
 old-location: win32_tile_badge_notif\inotificationactivationcallback_activate.htm
 tech.root: win32_tile_badge_notif
 ms.assetid: C366FE9F-D962-485F-B029-A96AA3358942
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
 ms.topic: method

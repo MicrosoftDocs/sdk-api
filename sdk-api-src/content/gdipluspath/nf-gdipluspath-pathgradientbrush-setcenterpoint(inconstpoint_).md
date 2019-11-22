@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetCenterPoint(IN const Point &)
 title: PathGradientBrush::SetCenterPoint(IN const Point &) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The PathGradientBrush::SetCenterPoint method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Point_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushsetcenterpointmethods\setcenterpoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetCenterPoint method, PathGradientBrush.SetCenterPoint, PathGradientBrush.SetCenterPoint(IN const Point &), PathGradientBrush.SetCenterPoint(const Point&), PathGradientBrush::SetCenterPoint, PathGradientBrush::SetCenterPoint(IN const Point &), SetCenterPoint, SetCenterPoint method [GDI+], SetCenterPoint method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Point_point_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Point_point_
 ms.topic: method

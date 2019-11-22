@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._enoleopfailed
 title: ENOLEOPFAILED (richedit.h)
-author: windows-sdk-content
+
 description: Contains information about a failed operation.
 old-location: controls\ENOLEOPFAILED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.topic: struct

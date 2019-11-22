@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsRemovable
 title: ICspInformation::get_IsRemovable (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves a Boolean value that specifies whether the token that contains the key can be removed.
 old-location: security\icspinformation_isremovable_property.htm
 tech.root: seccertenroll
 ms.assetid: ee67670b-80a9-4637-a5ed-84d3430853ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsRemovable property, ICspInformation.IsRemovable, ICspInformation.get_IsRemovable, ICspInformation::IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security],ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable, security.icspinformation_isremovable_property
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:chstring.CHString.Mid(int)
 title: CHString::Mid(int) (chstring.h)
-author: windows-sdk-content
+
 description: The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.
 old-location: wmi\chstring_mid_int_.htm
 tech.root: WmiSdk
 ms.assetid: dfc52075-2323-438e-9fe9-7ca3f2de2e35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Mid method, CHString.Mid, CHString.Mid(int), CHString::Mid, CHString::Mid(int), Mid, Mid method [Windows Management Instrumentation], Mid method [Windows Management Instrumentation],CHString interface, chstring/CHString::Mid, wmi.chstring_mid_int_
 ms.topic: method

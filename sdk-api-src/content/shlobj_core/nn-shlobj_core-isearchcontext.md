@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj_core.ISearchContext
 title: ISearchContext (shlobj_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that channel customization information to the search hooks.
 old-location: shell\ISearchContext.htm
 tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
 ms.topic: interface

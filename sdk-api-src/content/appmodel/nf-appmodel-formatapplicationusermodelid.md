@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.FormatApplicationUserModelId
 title: FormatApplicationUserModelId function (appmodel.h)
-author: windows-sdk-content
+
 description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
 old-location: appxpkg\formatapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
 ms.topic: function

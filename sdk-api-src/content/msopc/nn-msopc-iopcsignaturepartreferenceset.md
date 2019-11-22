@@ -1,12 +1,12 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReferenceSet
 title: IOpcSignaturePartReferenceSet (msopc.h)
-author: windows-sdk-content
+
 description: An unordered set of IOpcSignaturePartReference interface pointers that represent references to parts to be signed.
 old-location: opc\iopcsignaturepartreferenceset.htm
 tech.root: OPC
 ms.assetid: c6f453e4-e0f5-4ecc-b622-6b30778ff719
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceSet, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions], IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceSet, opc.iopcsignaturepartreferenceset
 ms.topic: interface

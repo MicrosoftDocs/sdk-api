@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluseffects.Tint.Tint
 title: Tint::Tint (gdipluseffects.h)
-author: windows-sdk-content
+
 description: Creates a Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_Tint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintconstructors\tint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], Tint constructor [GDI+],Tint class, Tint.Tint, Tint::Tint, _gdiplus_CLASS_Tint_Tint_, gdiplus._gdiplus_CLASS_Tint_Tint_
 ms.topic: method

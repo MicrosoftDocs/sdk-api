@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IS_POINTER_FIRSTBUTTON_WPARAM
 title: IS_POINTER_FIRSTBUTTON_WPARAM macro (winuser.h)
-author: windows-sdk-content
+
 description: Checks whether the specified pointer took first action.
 old-location: inputmsg\is_pointer_firstbutton_wparam.htm
 tech.root: InputMsg
 ms.assetid: 35f7dde6-1486-4050-b9b6-ffc2ed9912a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_FIRSTBUTTON_WPARAM, IS_POINTER_FIRSTBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_firstbutton_wparam, winuser/IS_POINTER_FIRSTBUTTON_WPARAM
 ms.topic: macro

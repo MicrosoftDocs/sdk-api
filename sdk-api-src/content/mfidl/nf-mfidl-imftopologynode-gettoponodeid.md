@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetTopoNodeID
 title: IMFTopologyNode::GetTopoNodeID (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the identifier of the node.
 old-location: mf\imftopologynode_gettoponodeid.htm
 tech.root: medfound
 ms.assetid: 9c0e5be9-6481-4132-ad5b-9db13fb07391
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9c0e5be9-6481-4132-ad5b-9db13fb07391, GetTopoNodeID, GetTopoNodeID method [Media Foundation], GetTopoNodeID method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetTopoNodeID method, IMFTopologyNode.GetTopoNodeID, IMFTopologyNode::GetTopoNodeID, mf.imftopologynode_gettoponodeid, mfidl/IMFTopologyNode::GetTopoNodeID
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminMIBGetTrapInfo
 title: MprAdminMIBGetTrapInfo function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminMIBGetTrapInfo function queries the module that set a trap event for more information about the trap.
 old-location: rras\mpradminmibgettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 626c66c8-db7b-4be3-b5b0-c10a41ca46cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBGetTrapInfo, MprAdminMIBGetTrapInfo function [RAS], _mpr_mpradminmibgettrapinfo, mprapi/MprAdminMIBGetTrapInfo, rras.mpradminmibgettrapinfo
 ms.topic: function

@@ -1,7 +1,7 @@
 ---
 UID: NA:exposeenums2managed
 ms.assetid: 5cb45e6c-2148-3d2e-8f5d-3963b3bdcdee
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

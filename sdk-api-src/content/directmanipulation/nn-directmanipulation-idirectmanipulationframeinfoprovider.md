@@ -1,12 +1,12 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationFrameInfoProvider
 title: IDirectManipulationFrameInfoProvider (directmanipulation.h)
-author: windows-sdk-content
+
 description: Represents a time-keeping object that measures the latency of the composition infrastructure used by the application and provides this data to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider.htm
 tech.root: directmanipulation
 ms.assetid: 15B7CA2A-DEC3-479B-BD41-38A57037002F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoProvider interface [Direct Manipulation], IDirectManipulationFrameInfoProvider interface [Direct Manipulation],described, directmanipulation.idirectmanipulationframeinfoprovider, directmanipulation/IDirectManipulationFrameInfoProvider
 ms.topic: interface

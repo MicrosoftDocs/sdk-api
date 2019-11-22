@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Put
 title: IWbemClassObject::Put (wbemcli.h)
-author: windows-sdk-content
+
 description: Sets a named property to a new value.
 old-location: wmi\iwbemclassobject_put.htm
 tech.root: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.topic: method

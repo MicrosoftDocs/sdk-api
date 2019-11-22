@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CMSG_RC4_AUX_INFO
 title: CMSG_RC4_AUX_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: The CMSG_RC4_AUX_INFO structure contains the bit length of the key for RC4 encryption algorithms. The pvEncryptionAuxInfo member in CMSG_ENVELOPED_ENCODE_INFO can be set to point to an instance of this structure.
 old-location: security\cmsg_rc4_aux_info.htm
 tech.root: SecCrypto
 ms.assetid: 8e456156-b84a-4ca7-9dc7-9f5da4a32a6c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO structure [Security], PCMSG_RC4_AUX_INFO, PCMSG_RC4_AUX_INFO structure pointer [Security], _crypto2_cmsg_rc4_aux_info, security.cmsg_rc4_aux_info, wincrypt/CMSG_RC4_AUX_INFO, wincrypt/PCMSG_RC4_AUX_INFO'
 ms.topic: struct

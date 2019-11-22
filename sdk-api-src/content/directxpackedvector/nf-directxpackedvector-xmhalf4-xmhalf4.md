@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4
 title: XMHALF4::XMHALF4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMHALF4.
 old-location: dxmath\xmhalf4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4::XMHALF4, dxmath.xmhalf4_ctor_1
 ms.topic: method

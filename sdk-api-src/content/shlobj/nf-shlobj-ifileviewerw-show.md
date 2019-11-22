@@ -1,11 +1,11 @@
 ---
 UID: NF:shlobj.IFileViewerW.Show
 title: IFileViewerW::Show
-author: windows-sdk-content
+
 description: Displays a file.
 tech.root: shell
 ms.assetid: 7555b40b-62c1-467a-b9d5-324fd1a7fd8e
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::Show
 ms.topic: language-reference

@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDevice.CreateBindingTable
 title: IDMLDevice::CreateBindingTable
-author: windows-sdk-content
+
 description: Creates a binding table, which is an object that can be used to bind resources (such as tensors) to the pipeline.
 old-location: direct3d12\idmldevice_createbindingtable.htm
 tech.root: direct3d12
 ms.assetid: 04E981C1-833C-4359-A30F-A2727DD015BC
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: CreateBindingTable, CreateBindingTable method, CreateBindingTable method,IDMLDevice interface, IDMLDevice interface,CreateBindingTable method, IDMLDevice.CreateBindingTable, IDMLDevice::CreateBindingTable, direct3d12.idmldevice_createbindingtable, directml/IDMLDevice::CreateBindingTable
 ms.topic: method

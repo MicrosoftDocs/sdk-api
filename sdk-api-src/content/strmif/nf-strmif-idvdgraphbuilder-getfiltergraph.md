@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetFiltergraph
 title: IDvdGraphBuilder::GetFiltergraph (strmif.h)
-author: windows-sdk-content
+
 description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.
 old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
 ms.topic: method

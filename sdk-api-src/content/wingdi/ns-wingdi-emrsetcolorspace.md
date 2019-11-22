@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORSPACE
 title: EMRSETCOLORSPACE (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRSETCOLORSPACE, EMRSELECTCOLORSPACE, and EMRDELETECOLORSPACE structures contain members for the SetColorSpace and DeleteColorSpace enhanced metafile records.
 old-location: gdi\emrsetcolorspace__emrselectcolorspace__emrdeletecolorspace.htm
 tech.root: gdi
 ms.assetid: c661b3cc-6b41-4157-acb4-f9083ab73851
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRDELETECOLORSPACE, *PEMRSELECTCOLORSPACE, *PEMRSETCOLORSPACE, EMRDELETECOLORSPACE, EMRDELETECOLORSPACE structure [Windows GDI], EMRSELECTCOLORSPACE, EMRSELECTCOLORSPACE structure [Windows GDI], EMRSETCOLORSPACE, EMRSETCOLORSPACE structure [Windows GDI], EMRSETCOLORSPACE,EMRSELECTCOLORSPACE,EMRDELETECOLORSPACE, EMRSETCOLORSPACE,EMRSELECTCOLORSPACE,EMRDELETECOLORSPACE structure [Windows GDI], PEMRDELETECOLORSPACE, PEMRDELETECOLORSPACE structure pointer [Windows GDI], PEMRSELECTCOLORSPACE, PEMRSELECTCOLORSPACE structure pointer [Windows GDI], PEMRSETCOLORSPACE, PEMRSETCOLORSPACE structure pointer [Windows GDI], _win32_EMRSETCOLORSPACE_str, gdi.emrsetcolorspace__emrselectcolorspace__emrdeletecolorspace, wingdi/EMRDELETECOLORSPACE, wingdi/EMRSELECTCOLORSPACE, wingdi/EMRSETCOLORSPACE,EMRSELECTCOLORSPACE,EMRDELETECOLORSPACE, wingdi/PEMRDELETECOLORSPACE, wingdi/PEMRSELECTCOLORSPACE, wingdi/PEMRSETCOLORSPACE"
 ms.topic: struct

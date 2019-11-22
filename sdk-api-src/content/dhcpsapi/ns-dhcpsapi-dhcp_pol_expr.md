@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_EXPR
 title: DHCP_POL_EXPR (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DHCP_POL_EXP structure defines a DHCP server policy expression.
 old-location: dhcp\dhcp_pol_expr.htm
 tech.root: DHCP
 ms.assetid: 34e674f7-61a4-4045-9643-374f05906227
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POL_EXPR, *PDHCP_POL_EXPR, DHCP_POL_EXPR, DHCP_POL_EXPR structure [DHCP], LPDHCP_POL_EXPR, LPDHCP_POL_EXPR structure pointer [DHCP], PDHCP_POL_EXPR, PDHCP_POL_EXPR structure pointer [DHCP], dhcp.dhcp_pol_expr, dhcpsapi/DHCP_POL_EXPR, dhcpsapi/LPDHCP_POL_EXPR, dhcpsapi/PDHCP_POL_EXPR'
 ms.topic: struct

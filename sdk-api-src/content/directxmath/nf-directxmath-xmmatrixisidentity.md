@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixIsIdentity
 title: XMMatrixIsIdentity function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether a matrix is the identity matrix.
 old-location: dxmath\xmmatrixisidentity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixIsIdentity(XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixIsIdentity, XMMatrixIsIdentity, XMMatrixIsIdentity method [DirectX Math Support APIs], dxmath.xmmatrixisidentity
 ms.topic: function

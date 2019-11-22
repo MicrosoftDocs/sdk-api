@@ -1,12 +1,12 @@
 ---
 UID: NF:nb30.Netbios
 title: Netbios function (nb30.h)
-author: windows-sdk-content
+
 description: The Netbios function interprets and executes the specified network control block (NCB).
 old-location: netbios\netbios.htm
 tech.root: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.topic: function

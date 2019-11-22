@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedHelp
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedHelp (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the cached Microsoft Active Accessibility help string for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp.htm
 tech.root: WinAuto
 ms.assetid: 66ce70ed-e76e-4a31-8dae-0ab4abd6c982
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedHelp property [Windows Accessibility], CachedHelp property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedHelp property, IUIAutomationLegacyIAccessiblePattern.CachedHelp, IUIAutomationLegacyIAccessiblePattern.get_CachedHelp, IUIAutomationLegacyIAccessiblePattern::CachedHelp, IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, get_CachedHelp, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp
 ms.topic: method

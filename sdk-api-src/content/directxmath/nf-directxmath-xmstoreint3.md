@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMStoreInt3
 title: XMStoreInt3 function (directxmath.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in a 3-element uint32_t array.
 old-location: dxmath\xmstoreint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt3(VOID@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt3, XMStoreInt3, XMStoreInt3 method [DirectX Math Support APIs], dxmath.xmstoreint3
 ms.topic: function

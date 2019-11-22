@@ -1,12 +1,12 @@
 ---
 UID: NN:vbinterf.IGetVBAObject
 title: IGetVBAObject (vbinterf.h)
-author: windows-sdk-content
+
 description: Gets access to the IVBFormat interface.
 old-location: com\igetvbaobject.htm
 tech.root: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
 ms.topic: interface

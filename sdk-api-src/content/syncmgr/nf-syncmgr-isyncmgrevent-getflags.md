@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetFlags
 title: ISyncMgrEvent::GetFlags (syncmgr.h)
-author: windows-sdk-content
+
 description: Gets event flags.
 old-location: shell\ISyncMgrEvent_GetFlags.htm
 tech.root: shell
 ms.assetid: 51651a03-da3d-4b75-97bf-3be1db56054e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetFlags method, ISyncMgrEvent.GetFlags, ISyncMgrEvent::GetFlags, _shell_ISyncMgrEvent_GetFlags, shell.ISyncMgrEvent_GetFlags, syncmgr/ISyncMgrEvent::GetFlags
 ms.topic: method

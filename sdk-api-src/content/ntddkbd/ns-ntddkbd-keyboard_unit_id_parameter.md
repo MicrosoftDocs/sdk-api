@@ -1,12 +1,12 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_UNIT_ID_PARAMETER
 title: KEYBOARD_UNIT_ID_PARAMETER (ntddkbd.h)
-author: windows-sdk-content
+
 description: KEYBOARD_UNIT_ID_PARAMETER specifies the unit ID that Kbdclass assigns to a keyboard.
 old-location: hid\keyboard_unit_id_parameter.htm
 tech.root: hid
 ms.assetid: fd47b0ab-b66b-49a0-8302-2c45399d9963
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PKEYBOARD_UNIT_ID_PARAMETER, KEYBOARD_UNIT_ID_PARAMETER, KEYBOARD_UNIT_ID_PARAMETER structure [Human Input Devices], PKEYBOARD_UNIT_ID_PARAMETER, PKEYBOARD_UNIT_ID_PARAMETER structure pointer [Human Input Devices], hid.keyboard_unit_id_parameter, kref_f88d7ada-5e96-4f7d-94e6-dc4196436060.xml, ntddkbd/KEYBOARD_UNIT_ID_PARAMETER, ntddkbd/PKEYBOARD_UNIT_ID_PARAMETER"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.wglDeleteContext
 title: wglDeleteContext function (wingdi.h)
-author: windows-sdk-content
+
 description: The wglDeleteContext function deletes a specified OpenGL rendering context.
 old-location: opengl\wgldeletecontext.htm
 tech.root: OpenGL
 ms.assetid: 51d4cce1-fd2d-436e-816b-b89d3cd66f3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglDeleteContext, opengl.wgldeletecontext, wglDeleteContext, wglDeleteContext function [OpenGL], wingdi/wglDeleteContext"
 ms.topic: function

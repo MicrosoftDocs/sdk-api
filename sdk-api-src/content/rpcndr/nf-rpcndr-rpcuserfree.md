@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.RpcUserFree
 title: RpcUserFree function (rpcndr.h)
-author: windows-sdk-content
+
 description: RpcUserFree may be altered or unavailable.
 old-location: rpc\rpcuserfree.htm
 tech.root: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
 ms.topic: function

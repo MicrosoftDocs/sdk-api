@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMGPO
 title: IGPMGPO (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMGPO interface supports methods that enable you to manage Group Policy Objects (GPOs) in the directory service.
 old-location: gpmc\igpmgpo.htm
 tech.root: gpmc
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
 ms.topic: interface

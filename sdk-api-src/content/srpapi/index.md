@@ -1,7 +1,7 @@
 ---
 UID: NA:srpapi
 ms.assetid: 78d28b7d-fb79-35b7-bede-7732f71f1b0a
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NE:codecapi.eAVEncMPAEmphasisType
 title: eAVEncMPAEmphasisType (codecapi.h)
-author: windows-sdk-content
+
 description: Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the AVEncMPAEmphasisType property.
 old-location: dshow\eavencmpaemphasistype.htm
 tech.root: DirectShow
 ms.assetid: 29be42f2-42a2-4b0e-a05f-2ae2bfb5e633
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPAEmphasisType, codecapi/eAVEncMPAEmphasisType_50_15, codecapi/eAVEncMPAEmphasisType_CCITT_J17, codecapi/eAVEncMPAEmphasisType_None, codecapi/eAVEncMPAEmphasisType_Reserved, dshow.eavencmpaemphasistype, eAVEncMPAEmphasisType, eAVEncMPAEmphasisType enumeration [DirectShow], eAVEncMPAEmphasisTypeEnumeration, eAVEncMPAEmphasisType_50_15, eAVEncMPAEmphasisType_CCITT_J17, eAVEncMPAEmphasisType_None, eAVEncMPAEmphasisType_Reserved
 ms.topic: enum

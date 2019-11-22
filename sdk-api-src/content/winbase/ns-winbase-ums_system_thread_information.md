@@ -1,12 +1,12 @@
 ---
 UID: NS:winbase._UMS_SYSTEM_THREAD_INFORMATION
 title: UMS_SYSTEM_THREAD_INFORMATION (winbase.h)
-author: windows-sdk-content
+
 description: Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The GetUmsSystemThreadInformation function uses this structure.
 old-location: base\ums_system_thread_information.htm
 tech.root: ProcThread
 ms.assetid: eecdc592-5046-47c3-a4c6-ecb10899db3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION structure pointer, UMS_SYSTEM_THREAD_INFORMATION, UMS_SYSTEM_THREAD_INFORMATION structure, _UMS_SYSTEM_THREAD_INFORMATION, base.ums_system_thread_information, winbase/PUMS_SYSTEM_THREAD_INFORMATION, winbase/UMS_SYSTEM_THREAD_INFORMATION"
 ms.topic: struct

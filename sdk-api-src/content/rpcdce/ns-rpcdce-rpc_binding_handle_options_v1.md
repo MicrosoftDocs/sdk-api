@@ -1,12 +1,12 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_OPTIONS_V1
 title: RPC_BINDING_HANDLE_OPTIONS_V1 (rpcdce.h)
-author: windows-sdk-content
+
 description: Contains additional options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_options_v1.htm
 tech.root: Rpc
 ms.assetid: e2bd03cf-4d45-449f-9434-ec8ef405737b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_OPTIONS_V1, RPC_BHO_DONTLINGER, RPC_BHO_NONCAUSAL, RPC_BINDING_HANDLE_OPTIONS, RPC_BINDING_HANDLE_OPTIONS structure [RPC], RPC_BINDING_HANDLE_OPTIONS_V1, RPC_BINDING_HANDLE_OPTIONS_V1 structure [RPC], rpc.rpc_binding_handle_options_v1, rpcdce/RPC_BINDING_HANDLE_OPTIONS, rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"
 ms.topic: struct

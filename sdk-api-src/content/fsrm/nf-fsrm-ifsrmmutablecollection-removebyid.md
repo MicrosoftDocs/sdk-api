@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.RemoveById
 title: IFsrmMutableCollection::RemoveById (fsrm.h)
-author: windows-sdk-content
+
 description: Removes the specified object from the collection using an object identifier.
 old-location: fsrm\ifsrmmutablecollection_removebyid.htm
 tech.root: fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:wpcevent.tagWPC_MEDIA_TYPE
 title: WPC_MEDIA_TYPE (wpcevent.h)
-author: windows-sdk-content
+
 description: Indicates information about the type of media file accessed.
 old-location: parcon\wpc_media_type.htm
 tech.root: parcon
 ms.assetid: 256fdf95-894c-41a1-b72f-26d5f9b86c3d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WPC_MEDIA_TYPE, WPC_MEDIA_TYPE enumeration, WPC_MEDIA_TYPE_AUDIO_FILE, WPC_MEDIA_TYPE_CD_AUDIO, WPC_MEDIA_TYPE_DVD, WPC_MEDIA_TYPE_MAX, WPC_MEDIA_TYPE_OTHER, WPC_MEDIA_TYPE_PICTURE_FILE, WPC_MEDIA_TYPE_RECORDED_TV, WPC_MEDIA_TYPE_VIDEO_FILE, parcon.wpc_media_type, wpcevent/WPC_MEDIA_TYPE, wpcevent/WPC_MEDIA_TYPE_AUDIO_FILE, wpcevent/WPC_MEDIA_TYPE_CD_AUDIO, wpcevent/WPC_MEDIA_TYPE_DVD, wpcevent/WPC_MEDIA_TYPE_MAX, wpcevent/WPC_MEDIA_TYPE_OTHER, wpcevent/WPC_MEDIA_TYPE_PICTURE_FILE, wpcevent/WPC_MEDIA_TYPE_RECORDED_TV, wpcevent/WPC_MEDIA_TYPE_VIDEO_FILE
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkRecognizerContext
 title: IInkRecognizerContext (msinkaut.h)
-author: windows-sdk-content
+
 description: "."
 old-location: tablet\iinkrecognizercontext.htm
 tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
 ms.topic: interface

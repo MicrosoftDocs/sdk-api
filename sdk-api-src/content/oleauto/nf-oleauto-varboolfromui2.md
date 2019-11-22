@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarBoolFromUI2
 title: VarBoolFromUI2 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an unsigned short value to a Boolean value.
 old-location: automat\varboolfromui2.htm
 tech.root: automat
 ms.assetid: 2ee04e9d-0a6b-4fc7-b572-51e943aa1daf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromUI2, VarBoolFromUI2 function [Automation], _oa96_VarBoolFromUI2, automat.varboolfromui2, oleauto/VarBoolFromUI2
 ms.topic: function

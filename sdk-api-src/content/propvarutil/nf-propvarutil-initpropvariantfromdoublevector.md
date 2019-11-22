@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromDoubleVector
 title: InitPropVariantFromDoubleVector function (propvarutil.h)
-author: windows-sdk-content
+
 description: Initializes a PROPVARIANT structure based on a specified vector of double values.
 old-location: properties\InitPropVariantFromDoubleVector.htm
 tech.root: properties
 ms.assetid: 78e91213-870f-4bc1-b0eb-a9fbae3d6c4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.topic: function

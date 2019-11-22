@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1helper.Point2U
 title: Point2U function (d2d1helper.h)
-author: windows-sdk-content
+
 description: Creates a D2D1_POINT_2U structure that contains the specified x-coordinates and y-coordinates.
 old-location: direct2d\point2u.htm
 tech.root: Direct2D
 ms.assetid: 79a19a38-3941-41bd-a1bd-5260ba36541f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Point2U, Point2U function [Direct2D], d2d1helper/Point2U, direct2d.point2u
 ms.topic: function

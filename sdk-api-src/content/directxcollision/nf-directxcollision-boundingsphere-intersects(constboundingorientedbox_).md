@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects(const BoundingOrientedBox &)
 title: BoundingSphere::Intersects(const BoundingOrientedBox &)
-author: windows-sdk-content
+
 description: Test the BoundingSphere for intersection with a BoundingOrientedBox.
 old-location: dxmath\boundingsphere_intersects_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Intersects(BoundingOrientedBox)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Intersects method, BoundingSphere.Intersects, BoundingSphere.Intersects(const BoundingOrientedBox &), BoundingSphere.Intersects(const BoundingOrientedBox&), BoundingSphere::Intersects, BoundingSphere::Intersects(const BoundingOrientedBox &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_intersects_5
 ms.topic: method

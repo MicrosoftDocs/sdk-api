@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectAttributeW
 title: GetNtmsObjectAttributeW function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object.
 old-location: fs\getntmsobjectattribute.htm
 tech.root: Rsm
 ms.assetid: 9a92d60c-a25f-4775-adb9-1a02af3c8917
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectAttribute, GetNtmsObjectAttribute function [Files], GetNtmsObjectAttributeA, GetNtmsObjectAttributeW, _zaw_getntmsobjectattribute, base.getntmsobjectattribute, fs.getntmsobjectattribute, ntmsapi/GetNtmsObjectAttribute, ntmsapi/GetNtmsObjectAttributeA, ntmsapi/GetNtmsObjectAttributeW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetWebCAInformation
 title: ICertSrvSetup::SetWebCAInformation (casetup.h)
-author: windows-sdk-content
+
 description: Sets the certification authority (CA) information for the Certification Authority Web Enrollment role.
 old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetWebCAInformation method, ICertSrvSetup.SetWebCAInformation, ICertSrvSetup::SetWebCAInformation, SetWebCAInformation, SetWebCAInformation method [Security], SetWebCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetWebCAInformation, security.icertsrvsetup_setwebcainformation
 ms.topic: method

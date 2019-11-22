@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphBuilder.Render
 title: IGraphBuilder::Render (strmif.h)
-author: windows-sdk-content
+
 description: The Render method builds a filter graph that renders the data from a specified output pin.
 old-location: dshow\igraphbuilder_render.htm
 tech.root: DirectShow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
 ms.topic: method

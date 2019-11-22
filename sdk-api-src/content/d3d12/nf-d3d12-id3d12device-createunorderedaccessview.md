@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateUnorderedAccessView
 title: ID3D12Device::CreateUnorderedAccessView (d3d12.h)
-author: windows-sdk-content
+
 description: Creates a view for unordered accessing.
 old-location: direct3d12\id3d12device_createunorderedaccessview.htm
 tech.root: direct3d12
 ms.assetid: E834E469-2958-44A9-978F-F42D6BB6B1DC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method, CreateUnorderedAccessView method,ID3D12Device interface, ID3D12Device interface,CreateUnorderedAccessView method, ID3D12Device.CreateUnorderedAccessView, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
 ms.topic: method

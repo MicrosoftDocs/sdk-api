@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_INDEX_BUFFER_VIEW
 title: D3D12_INDEX_BUFFER_VIEW (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the index buffer to view.
 old-location: direct3d12\d3d12_index_buffer_view.htm
 tech.root: direct3d12
 ms.assetid: CADD98BF-EDA9-43D6-9ADA-392051541B61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_INDEX_BUFFER_VIEW, D3D12_INDEX_BUFFER_VIEW structure, d3d12/D3D12_INDEX_BUFFER_VIEW, direct3d12.d3d12_index_buffer_view
 ms.topic: struct

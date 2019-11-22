@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ITaskService.get_TargetServer
 title: ITaskService::get_TargetServer (taskschd.h)
-author: windows-sdk-content
+
 description: Gets the name of the computer that is running the Task Scheduler service that the user is connected to.
 old-location: taskschd\itaskservice_targetserver.htm
 tech.root: taskschd
 ms.assetid: 2b8c55d7-72e2-4b75-8850-3f042ba83c60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskService interface [Task Scheduler],TargetServer property, ITaskService.TargetServer, ITaskService.get_TargetServer, ITaskService::TargetServer, ITaskService::get_TargetServer, TargetServer property [Task Scheduler], TargetServer property [Task Scheduler],ITaskService interface, get_TargetServer, taskschd.itaskservice_targetserver, taskschd/ITaskService::TargetServer, taskschd/ITaskService::get_TargetServer
 ms.topic: method

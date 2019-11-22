@@ -1,12 +1,12 @@
 ---
 UID: NF:wow64apiset.IsWow64GuestMachineSupported
 title: IsWow64GuestMachineSupported function (wow64apiset.h)
-author: windows-sdk-content
+
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 old-location: base\iswow64guestmachinesupported.htm
 tech.root: SysInfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
 ms.topic: function

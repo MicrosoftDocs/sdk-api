@@ -1,7 +1,7 @@
 ---
 UID: TP:netshell
 ms.assetid: 2eb120a6-ae25-3c31-9523-227ff5407e13
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

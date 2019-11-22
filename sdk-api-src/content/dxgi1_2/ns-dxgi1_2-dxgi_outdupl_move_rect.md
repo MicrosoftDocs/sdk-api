@@ -1,12 +1,12 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_MOVE_RECT
 title: DXGI_OUTDUPL_MOVE_RECT (dxgi1_2.h)
-author: windows-sdk-content
+
 description: The DXGI_OUTDUPL_MOVE_RECT structure describes the movement of a rectangle.
 old-location: direct3ddxgi\dxgi_outdupl_move_rect.htm
 tech.root: direct3ddxgi
 ms.assetid: B19DB70A-83B4-4683-9E9B-3DA5D33AB564
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_MOVE_RECT, DXGI_OUTDUPL_MOVE_RECT structure [DXGI], direct3ddxgi.dxgi_outdupl_move_rect, dxgi1_2/DXGI_OUTDUPL_MOVE_RECT
 ms.topic: struct

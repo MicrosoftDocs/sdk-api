@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportProgress
 title: ISyncMgrSyncCallback::ReportProgress (syncmgr.h)
-author: windows-sdk-content
+
 description: Reports the progress of the synchronization of a single sync item to Sync Center.
 old-location: shell\ISyncMgrSyncCallback_ReportProgress.htm
 tech.root: shell
 ms.assetid: fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportProgress method, ISyncMgrSyncCallback.ReportProgress, ISyncMgrSyncCallback::ReportProgress, ReportProgress, ReportProgress method [Windows Shell], ReportProgress method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportProgress, shell.ISyncMgrSyncCallback_ReportProgress, syncmgr/ISyncMgrSyncCallback::ReportProgress
 ms.topic: method

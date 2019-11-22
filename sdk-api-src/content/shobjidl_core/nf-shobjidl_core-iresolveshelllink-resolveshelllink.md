@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IResolveShellLink.ResolveShellLink
 title: IResolveShellLink::ResolveShellLink (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Requests that a folder object resolve a Shell link.
 old-location: shell\IResolveShellLink_ResolveShellLink.htm
 tech.root: shell
 ms.assetid: 2cf849f6-e7b4-4280-98d7-4dcc20039624
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IResolveShellLink interface [Windows Shell],ResolveShellLink method, IResolveShellLink.ResolveShellLink, IResolveShellLink::ResolveShellLink, ResolveShellLink, ResolveShellLink method [Windows Shell], ResolveShellLink method [Windows Shell],IResolveShellLink interface, SLR_INVOKE_MSI, SLR_NOLINKINFO, SLR_NOSEARCH, SLR_NOTRACK, SLR_NOUPDATE, SLR_NO_UI, SLR_UPDATE, _win32_IResolveShellLink_ResolveShellLink, shell.IResolveShellLink_ResolveShellLink, shobjidl_core/IResolveShellLink::ResolveShellLink
 ms.topic: method

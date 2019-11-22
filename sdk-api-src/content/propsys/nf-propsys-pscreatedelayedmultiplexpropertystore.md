@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSCreateDelayedMultiplexPropertyStore
 title: PSCreateDelayedMultiplexPropertyStore function (propsys.h)
-author: windows-sdk-content
+
 description: Creates a read-only, delayed-binding property store that contains multiple property stores.
 old-location: properties\PSCreateDelayedMultiplexPropertyStore.htm
 tech.root: properties
 ms.assetid: 8b264d7e-6124-4724-8d23-605101705893
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexPropertyStore function [Windows Properties], _shell_PSCreateDelayedMultiplexPropertyStore, properties.PSCreateDelayedMultiplexPropertyStore, propsys/PSCreateDelayedMultiplexPropertyStore, shell.PSCreateDelayedMultiplexPropertyStore
 ms.topic: function

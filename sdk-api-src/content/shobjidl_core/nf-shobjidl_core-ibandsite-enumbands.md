@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IBandSite.EnumBands
 title: IBandSite::EnumBands (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Enumerates the bands in a band site.
 old-location: shell\IBandSite_EnumBands.htm
 tech.root: shell
 ms.assetid: d92ead78-9d58-48fe-ad93-33b2dbcbda68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumBands, EnumBands method [Windows Shell], EnumBands method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],EnumBands method, IBandSite.EnumBands, IBandSite::EnumBands, _win32_IBandSite_EnumBands, shell.IBandSite_EnumBands, shobjidl_core/IBandSite::EnumBands
 ms.topic: method

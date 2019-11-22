@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMScalarSinCosEst
 title: XMScalarSinCosEst function (directxmath.h)
-author: windows-sdk-content
+
 description: Estimates both the sine and cosine of a radian angle.
 old-location: dxmath\xmscalarsincosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSinCosEst(float@,float@,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarSinCosEst, XMScalarSinCosEst, XMScalarSinCosEst method [DirectX Math Support APIs], dxmath.xmscalarsincosest
 ms.topic: function

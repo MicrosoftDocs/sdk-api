@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnSeverity
 title: IDXGIInfoQueue::GetBreakOnSeverity (dxgidebug.h)
-author: windows-sdk-content
+
 description: Determines whether the break on a message severity level is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonseverity.htm
 tech.root: direct3ddxgi
 ms.assetid: 0E03ABE8-02BC-4721-B92C-87DA5D52D0AD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [DXGI], GetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnSeverity method, IDXGIInfoQueue.GetBreakOnSeverity, IDXGIInfoQueue::GetBreakOnSeverity, direct3ddxgi.idxgiinfoqueue_getbreakonseverity, dxgidebug/IDXGIInfoQueue::GetBreakOnSeverity
 ms.topic: method

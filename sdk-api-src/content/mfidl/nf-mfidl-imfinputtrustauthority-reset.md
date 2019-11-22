@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.Reset
 title: IMFInputTrustAuthority::Reset (mfidl.h)
-author: windows-sdk-content
+
 description: Resets the input trust authority (ITA) to its initial state.
 old-location: mf\imfinputtrustauthority_reset.htm
 tech.root: medfound
 ms.assetid: beb8e598-5a35-46b0-aa13-6bef38b9defb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, IMFInputTrustAuthority.Reset, IMFInputTrustAuthority::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFInputTrustAuthority interface, beb8e598-5a35-46b0-aa13-6bef38b9defb, mf.imfinputtrustauthority_reset, mfidl/IMFInputTrustAuthority::Reset
 ms.topic: method

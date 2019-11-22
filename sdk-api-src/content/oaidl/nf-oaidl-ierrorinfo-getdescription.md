@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetDescription
 title: IErrorInfo::GetDescription (oaidl.h)
-author: windows-sdk-content
+
 description: Returns a textual description of the error.
 old-location: automat\ierrorinfo_getdescription.htm
 tech.root: automat
 ms.assetid: 672884a8-4dfc-473c-a13d-d1723fcd01cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Automation], GetDescription method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetDescription method, IErrorInfo.GetDescription, IErrorInfo::GetDescription, _oa96_IErrorInfo_GetDescription, automat.ierrorinfo_getdescription, oaidl/IErrorInfo::GetDescription
 ms.topic: method

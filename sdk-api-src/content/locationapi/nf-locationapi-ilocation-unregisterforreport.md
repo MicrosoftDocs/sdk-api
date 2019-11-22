@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ILocation.UnregisterForReport
 title: ILocation::UnregisterForReport (locationapi.h)
-author: windows-sdk-content
+
 description: Stops event notifications for the specified report type.
 old-location: winlocation_com_ref\ilocation_unregisterforreport.htm
 tech.root: locationapi
 ms.assetid: 333bd127-2c6a-4f09-9f86-4f8e68a9ea55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],UnregisterForReport method, ILocation.UnregisterForReport, ILocation::UnregisterForReport, UnregisterForReport, UnregisterForReport method [WinLocation], UnregisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_unregisterforreport, locationapi/ILocation::UnregisterForReport
 ms.topic: method

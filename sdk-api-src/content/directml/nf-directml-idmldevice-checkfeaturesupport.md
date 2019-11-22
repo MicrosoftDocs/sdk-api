@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDevice.CheckFeatureSupport
 title: IDMLDevice::CheckFeatureSupport
-author: windows-sdk-content
+
 description: Gets information about the optional features and capabilities that are supported by the DirectML device.
 old-location: direct3d12\idmldevice_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 7EDF00C2-332F-4DC3-B71D-EE8CDCB7E92D
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,IDMLDevice interface, IDMLDevice interface,CheckFeatureSupport method, IDMLDevice.CheckFeatureSupport, IDMLDevice::CheckFeatureSupport, direct3d12.idmldevice_checkfeaturesupport, directml/IDMLDevice::CheckFeatureSupport
 ms.topic: method

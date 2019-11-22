@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.AddItemMetadataToGroup
 title: ISyncChangeBatchBase::AddItemMetadataToGroup (winsync.h)
-author: windows-sdk-content
+
 description: Adds a specified item change to the group that is currently open.
 old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm
 tech.root: winsync
 ms.assetid: cb5b5a35-70d9-413d-8bf6-7003fe7681c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync], AddItemMetadataToGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],AddItemMetadataToGroup method, ISyncChangeBatchBase.AddItemMetadataToGroup, ISyncChangeBatchBase::AddItemMetadataToGroup, winsync.isyncchangebatchbase_additemmetadatatogroup, winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
 ms.topic: method

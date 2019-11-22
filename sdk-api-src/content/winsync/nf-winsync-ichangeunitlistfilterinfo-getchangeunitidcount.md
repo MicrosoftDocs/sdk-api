@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitIdCount
 title: IChangeUnitListFilterInfo::GetChangeUnitIdCount (winsync.h)
-author: windows-sdk-content
+
 description: Gets the number of change unit IDs that define the filter.
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitidcount.htm
 tech.root: winsync
 ms.assetid: 23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
 ms.topic: method

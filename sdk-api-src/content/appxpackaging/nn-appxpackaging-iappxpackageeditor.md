@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxPackageEditor
 title: IAppxPackageEditor (appxpackaging.h)
-author: windows-sdk-content
+
 description: Provides functionality to edit app packages.
 old-location: appxpkg\iappxpackageeditor.htm
 tech.root: appxpkg
 ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif.tagDVD_PARENTAL_LEVEL
 title: DVD_PARENTAL_LEVEL (strmif.h)
-author: windows-sdk-content
+
 description: Identifies flags for the generic parental levels defined in the DVD specification.
 old-location: dshow\dvd_parental_level.htm
 tech.root: DirectShow
 ms.assetid: 0b18b5e8-f859-427e-b25f-2f4452492eb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVD_PARENTAL_LEVEL, DVD_PARENTAL_LEVEL , DVD_PARENTAL_LEVEL enumeration [DirectShow], DVD_PARENTAL_LEVELEnumeration, DVD_PARENTAL_LEVEL_1, DVD_PARENTAL_LEVEL_2, DVD_PARENTAL_LEVEL_3, DVD_PARENTAL_LEVEL_4, DVD_PARENTAL_LEVEL_5, DVD_PARENTAL_LEVEL_6, DVD_PARENTAL_LEVEL_7, DVD_PARENTAL_LEVEL_8, dshow.dvd_parental_level, strmif/DVD_PARENTAL_LEVEL, strmif/DVD_PARENTAL_LEVEL_1, strmif/DVD_PARENTAL_LEVEL_2, strmif/DVD_PARENTAL_LEVEL_3, strmif/DVD_PARENTAL_LEVEL_4, strmif/DVD_PARENTAL_LEVEL_5, strmif/DVD_PARENTAL_LEVEL_6, strmif/DVD_PARENTAL_LEVEL_7, strmif/DVD_PARENTAL_LEVEL_8
 ms.topic: enum

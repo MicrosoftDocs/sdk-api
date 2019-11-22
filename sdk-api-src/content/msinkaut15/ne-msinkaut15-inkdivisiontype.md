@@ -1,12 +1,12 @@
 ---
 UID: NE:msinkaut15.InkDivisionType
 title: InkDivisionType (msinkaut15.h)
-author: windows-sdk-content
+
 description: Defines values for the structural types within the IInkDivisionResult object.
 old-location: tablet\inkdivisiontype.htm
 tech.root: tablet
 ms.assetid: 00e1188e-58c0-4681-ad04-e53079d478fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 00e1188e-58c0-4681-ad04-e53079d478fd, IDT_Drawing, IDT_Line, IDT_Paragraph, IDT_Segment, InkDivisionType, InkDivisionType enumeration [Tablet PC], enumeration [Tablet PC], msinkaut15/IDT_Drawing, msinkaut15/IDT_Line, msinkaut15/IDT_Paragraph, msinkaut15/IDT_Segment, msinkaut15/InkDivisionType, tablet.inkdivisiontype
 ms.topic: enum

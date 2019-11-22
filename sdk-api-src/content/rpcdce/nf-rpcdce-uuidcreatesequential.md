@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.UuidCreateSequential
 title: UuidCreateSequential function (rpcdce.h)
-author: windows-sdk-content
+
 description: The UuidCreateSequential function creates a new UUID.
 old-location: rpc\uuidcreatesequential.htm
 tech.root: Rpc
 ms.assetid: 66975d82-559c-4a13-846c-e403b015563b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uuidcreatesequential, rpc.uuidcreatesequential, rpcdce/UuidCreateSequential
 ms.topic: function

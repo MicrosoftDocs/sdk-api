@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Image.GetAllPropertyItems
 title: Image::GetAllPropertyItems (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Image::GetAllPropertyItems method gets all the property items (metadata) stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getallpropertyitems.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAllPropertyItems, GetAllPropertyItems method [GDI+], GetAllPropertyItems method [GDI+],Image class, Image class [GDI+],GetAllPropertyItems method, Image.GetAllPropertyItems, Image::GetAllPropertyItems, _gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_, gdiplus._gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_
 ms.topic: method

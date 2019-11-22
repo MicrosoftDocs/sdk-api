@@ -1,7 +1,7 @@
 ---
 UID: NA:lmat
 ms.assetid: 1aa3a8c8-682d-348e-93a0-d1abfad6c737
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

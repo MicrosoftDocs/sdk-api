@@ -1,12 +1,12 @@
 ---
 UID: NF:ktmw32.RollbackTransactionAsync
 title: RollbackTransactionAsync function (ktmw32.h)
-author: windows-sdk-content
+
 description: Requests that the specified transaction be rolled back. This function returns asynchronously.
 old-location: fs\rollbacktransactionasync.htm
 tech.root: ktm
 ms.assetid: df23e5af-c37e-4e60-b160-6ffa8f6a26e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files], fs.rollbacktransactionasync, ktmw32/RollbackTransactionAsync
 ms.topic: function

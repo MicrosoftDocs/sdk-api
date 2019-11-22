@@ -1,12 +1,12 @@
 ---
 UID: NS:wsman._WSMAN_SHELL_DISCONNECT_INFO
 title: WSMAN_SHELL_DISCONNECT_INFO (wsman.h)
-author: windows-sdk-content
+
 description: Specifies the maximum duration, in milliseconds, the shell will stay open after the client has disconnected.
 old-location: winrm\wsman_shell_disconnect_info.htm
 tech.root: winrm
 ms.assetid: CFC855E8-25C9-45A1-8D59-55AD5D4A75F3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PWSMAN_SHELL_DISCONNECT_INFO, PWSMAN_SHELL_DISCONNECT_INFO structure pointer [Windows Remote Management], WSMAN_SHELL_DISCONNECT_INFO, WSMAN_SHELL_DISCONNECT_INFO structure [Windows Remote Management], winrm.wsman_shell_disconnect_info, wsman/PWSMAN_SHELL_DISCONNECT_INFO, wsman/WSMAN_SHELL_DISCONNECT_INFO
 ms.topic: struct

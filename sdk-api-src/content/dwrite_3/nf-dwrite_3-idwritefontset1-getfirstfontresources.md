@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFirstFontResources
 title: IDWriteFontSet1::GetFirstFontResources
-author: windows-sdk-content
+
 description: Retrieves a new font set that contains only the first occurrence of each font resource from the set.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFirstFontResources method, IDWriteFontSet1.GetFirstFontResources, IDWriteFontSet1::GetFirstFontResources, GetFirstFontResources, GetFirstFontResources method [Direct Write], GetFirstFontResources method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfirstfontresources, dwrite_3/IDWriteFontSet1::GetFirstFontResources
 ms.topic: method

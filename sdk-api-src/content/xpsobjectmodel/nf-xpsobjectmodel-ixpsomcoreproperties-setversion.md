@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetVersion
 title: IXpsOMCoreProperties::SetVersion (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets the version property.
 old-location: xps\ixpsomcoreproperties_setversion.htm
 tech.root: printdocs
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
 ms.topic: method

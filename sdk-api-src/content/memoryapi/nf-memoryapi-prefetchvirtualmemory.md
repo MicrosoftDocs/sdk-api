@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.PrefetchVirtualMemory
 title: PrefetchVirtualMemory function (memoryapi.h)
-author: windows-sdk-content
+
 description: Provides an efficient mechanism to bring into memory potentially discontiguous virtual address ranges in a process address space.
 old-location: base\prefetchvirtualmemory.htm
 tech.root: Memory
 ms.assetid: a7aeeb66-afd0-4871-81a3-e4619ac84293
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetchvirtualmemory, winbase/PrefetchVirtualMemory
 ms.topic: function

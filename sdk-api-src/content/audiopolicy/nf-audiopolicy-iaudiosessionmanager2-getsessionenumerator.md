@@ -1,12 +1,12 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.GetSessionEnumerator
 title: IAudioSessionManager2::GetSessionEnumerator (audiopolicy.h)
-author: windows-sdk-content
+
 description: The GetSessionEnumerator method gets a pointer to the audio session enumerator object.
 old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
 tech.root: CoreAudio
 ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
 ms.topic: method

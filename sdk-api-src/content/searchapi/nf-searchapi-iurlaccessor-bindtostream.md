@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IUrlAccessor.BindToStream
 title: IUrlAccessor::BindToStream (searchapi.h)
-author: windows-sdk-content
+
 description: Binds the item being processed to an IStream interface [Structured Storage] data stream and retrieves a pointer to that stream.
 old-location: search\_search_IUrlAccessor_BindToStream.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtostream.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BindToStream, BindToStream method [search], BindToStream method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToStream method, IUrlAccessor.BindToStream, IUrlAccessor::BindToStream, _search_IUrlAccessor_BindToStream, search._search_IUrlAccessor_BindToStream, searchapi/IUrlAccessor::BindToStream
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SimulatePreservedKey
 title: ITfKeystrokeMgr::SimulatePreservedKey (msctf.h)
-author: windows-sdk-content
+
 description: ITfKeystrokeMgr::SimulatePreservedKey method
 old-location: tsf\itfkeystrokemgr_simulatepreservedkey.htm
 tech.root: TSF
 ms.assetid: 09ad2203-a254-4afd-bdee-b8c51daa6e95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],SimulatePreservedKey method, ITfKeystrokeMgr.SimulatePreservedKey, ITfKeystrokeMgr::SimulatePreservedKey, SimulatePreservedKey, SimulatePreservedKey method [Text Services Framework], SimulatePreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_simulatepreservedkey_ref, msctf/ITfKeystrokeMgr::SimulatePreservedKey, tsf.itfkeystrokemgr_simulatepreservedkey
 ms.topic: method

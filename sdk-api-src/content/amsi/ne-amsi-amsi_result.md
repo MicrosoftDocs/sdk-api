@@ -1,12 +1,12 @@
 ---
 UID: NE:amsi.AMSI_RESULT
 title: AMSI_RESULT (amsi.h)
-author: windows-sdk-content
+
 description: Specifies the types of results returned by scans.
 old-location: amsi\amsi_result.htm
 tech.root: AMSI
 ms.assetid: 3D7C74E3-BB09-4C53-930D-72D352374151
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AMSI_RESULT, AMSI_RESULT enumeration [Antimalware Scan Interface], AMSI_RESULT_BLOCKED_BY_ADMIN_END, AMSI_RESULT_BLOCKED_BY_ADMIN_START, AMSI_RESULT_CLEAN, AMSI_RESULT_DETECTED, AMSI_RESULT_NOT_DETECTED, amsi.amsi_result, amsi/AMSI_RESULT, amsi/AMSI_RESULT_BLOCKED_BY_ADMIN_END, amsi/AMSI_RESULT_BLOCKED_BY_ADMIN_START, amsi/AMSI_RESULT_CLEAN, amsi/AMSI_RESULT_DETECTED, amsi/AMSI_RESULT_NOT_DETECTED
 ms.topic: enum

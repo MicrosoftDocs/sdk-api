@@ -1,7 +1,7 @@
 ---
 UID: NA:vdmdbg
 ms.assetid: 373b2bfa-9317-3406-8486-d49ee4220ad7
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

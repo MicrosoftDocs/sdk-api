@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetPath
 title: ISettingsItem::GetPath (wcmconfig.h)
-author: windows-sdk-content
+
 description: Gets the path for the item.
 old-location: smi\isettingsitem_getpath.htm
 tech.root: SMI
 ms.assetid: 221b5929-7300-4d01-b93e-7c82c446f52b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetPath method, ISettingsItem.GetPath, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
 ms.topic: method

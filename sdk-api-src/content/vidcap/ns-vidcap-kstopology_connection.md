@@ -1,12 +1,12 @@
 ---
 UID: NS:vidcap.__MIDL___MIDL_itf_vidcap_0000_0000_0001
 title: KSTOPOLOGY_CONNECTION (vidcap.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP Service Pack 2 or later. The KSTOPOLOGY_CONNECTION structure describes a node connection within a kernel-streaming (KS) filter. A node can be connected to another node within the filter, or to a pin on the filter.
 old-location: dshow\kstopology_connection.htm
 tech.root: DirectShow
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [DirectShow], KSTOPOLOGY_CONNECTIONStructure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [DirectShow], dshow.kstopology_connection, vidcap/KSTOPOLOGY_CONNECTION, vidcap/PKSTOPOLOGY_CONNECTION"
 ms.topic: struct

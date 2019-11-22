@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_RESPONSE
 title: MSV1_0_SUBAUTH_RESPONSE (ntsecapi.h)
-author: windows-sdk-content
+
 description: Contains the response from a subauthentication package.
 old-location: security\msv1_0_subauth_response.htm
 tech.root: SecAuthN
 ms.assetid: 62808fba-6e10-4f3b-a705-6958fc4fe480
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE structure [Security], PMSV1_0_SUBAUTH_RESPONSE, PMSV1_0_SUBAUTH_RESPONSE structure pointer [Security], _lsa_msv1_0_subauth_response, ntsecapi/MSV1_0_SUBAUTH_RESPONSE, ntsecapi/PMSV1_0_SUBAUTH_RESPONSE, security.msv1_0_subauth_response'
 ms.topic: struct

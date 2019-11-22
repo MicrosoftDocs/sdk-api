@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.DispGetParam
 title: DispGetParam function (oleauto.h)
-author: windows-sdk-content
+
 description: Retrieves a parameter from the DISPPARAMS structure, checking both named parameters and positional parameters, and coerces the parameter to the specified type.
 old-location: automat\dispgetparam.htm
 tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
 ms.topic: function

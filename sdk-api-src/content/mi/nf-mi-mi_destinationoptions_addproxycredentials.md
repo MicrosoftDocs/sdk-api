@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_DestinationOptions_AddProxyCredentials
 title: MI_DestinationOptions_AddProxyCredentials function (mi.h)
-author: windows-sdk-content
+
 description: Adds credentials to authenticate against a proxy.
 old-location: wmi_v2\mi_destinationoptions_addproxycredentials.htm
 tech.root: wmi_v2
 ms.assetid: 9cf3432d-145a-4252-95e3-f4c1866caf13
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_AddProxyCredentials, MI_DestinationOptions_AddProxyCredentials function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_AddProxyCredentials, wmi_v2.mi_destinationoptions_addproxycredentials
 ms.topic: function

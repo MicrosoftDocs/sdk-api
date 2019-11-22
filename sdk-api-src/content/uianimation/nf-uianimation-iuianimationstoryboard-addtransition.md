@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddTransition
 title: IUIAnimationStoryboard::AddTransition (uianimation.h)
-author: windows-sdk-content
+
 description: Adds a transition to the storyboard.
 old-location: uianimation\iuianimationstoryboard_addtransition.htm
 tech.root: UIAnimation
 ms.assetid: c3213e5d-c8f5-406a-bc44-9de7a740b070
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransition method, IUIAnimationStoryboard.AddTransition, IUIAnimationStoryboard::AddTransition, uianimation.iuianimationstoryboard_addtransition, uianimation/IUIAnimationStoryboard::AddTransition
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictResolutionItems
 title: ISyncMgrConflictResolutionItems (syncmgr.h)
-author: windows-sdk-content
+
 description: Exposes methods that get item info and item count.
 old-location: shell\ISyncMgrConflictResolutionItems.htm
 tech.root: shell
 ms.assetid: 5295ebe5-ec37-4070-80eb-5513b519a0c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolutionItems, ISyncMgrConflictResolutionItems interface [Windows Shell], ISyncMgrConflictResolutionItems interface [Windows Shell],described, _shell_ISyncMgrConflictResolutionItems, shell.ISyncMgrConflictResolutionItems, syncmgr/ISyncMgrConflictResolutionItems
 ms.topic: interface

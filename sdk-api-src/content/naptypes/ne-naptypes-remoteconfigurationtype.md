@@ -1,12 +1,12 @@
 ---
 UID: NE:naptypes.tagRemoteConfigurationType
 title: RemoteConfigurationType (naptypes.h)
-author: windows-sdk-content
+
 description: Describes the type of remote configuration possible for a component.
 old-location: nap\remoteconfigurationtype.htm
 tech.root: NAP
 ms.assetid: 951fbae2-48cb-4e3f-a03f-bf55bf017ec5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.SetSystemPaletteUse
 title: SetSystemPaletteUse function (wingdi.h)
-author: windows-sdk-content
+
 description: The SetSystemPaletteUse function allows an application to specify whether the system palette contains 2 or 20 static colors.
 old-location: gdi\setsystempaletteuse.htm
 tech.root: gdi
 ms.assetid: 6ff245d3-1bcc-4778-a595-c1eb16531ad3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, SYSPAL_STATIC, SetSystemPaletteUse, SetSystemPaletteUse function [Windows GDI], _win32_SetSystemPaletteUse, gdi.setsystempaletteuse, wingdi/SetSystemPaletteUse
 ms.topic: function

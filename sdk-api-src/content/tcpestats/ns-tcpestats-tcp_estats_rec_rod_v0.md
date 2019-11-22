@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_REC_ROD_v0
 title: TCP_ESTATS_REC_ROD_v0 (tcpestats.h)
-author: windows-sdk-content
+
 description: Contains read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.
 old-location: iphlp\tcp_estats_rec_rod_v0.htm
 tech.root: IpHlp
 ms.assetid: 1481f108-1ea3-4952-9131-8b15e373d83e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_REC_ROD_v0, TCP_ESTATS_REC_ROD_v0 structure [IP Helper], iphlp.tcp_estats_rec_rod_v0, tcpestats/PTCP_ESTATS_REC_ROD_v0, tcpestats/TCP_ESTATS_REC_ROD_v0"
 ms.topic: struct

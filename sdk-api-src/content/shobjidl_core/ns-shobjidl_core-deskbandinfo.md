@@ -1,12 +1,12 @@
 ---
 UID: NS:shobjidl_core.DESKBANDINFO
 title: DESKBANDINFO (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Receives information about a band object. This structure is used with the deprecated IDeskBand::GetBandInfo method.
 old-location: shell\DESKBANDINFO.htm
 tech.root: shell
 ms.assetid: f44ef8a7-b05d-4908-95eb-b07d085e0c29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBIMF_ADDTOFRONT, DBIMF_ALWAYSGRIPPER, DBIMF_BKCOLOR, DBIMF_BREAK, DBIMF_DEBOSSED, DBIMF_FIXED, DBIMF_FIXEDBMP, DBIMF_NOGRIPPER, DBIMF_NOMARGINS, DBIMF_NORMAL, DBIMF_TOPALIGN, DBIMF_UNDELETEABLE, DBIMF_USECHEVRON, DBIMF_VARIABLEHEIGHT, DBIM_ACTUAL, DBIM_BKCOLOR, DBIM_INTEGRAL, DBIM_MAXSIZE, DBIM_MINSIZE, DBIM_MODEFLAGS, DBIM_TITLE, DESKBANDINFO, DESKBANDINFO structure [Windows Shell], _win32_DESKBANDINFO, shell.DESKBANDINFO, shobjidl_core/DESKBANDINFO
 ms.topic: struct

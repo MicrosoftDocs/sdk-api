@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.EndQuery
 title: ID3D12VideoDecodeCommandList::EndQuery
-author: windows-sdk-content
+
 description: Ends a query.
 tech.root: mf
 ms.assetid: 6919b1be-e7eb-4b9a-ab51-d5c912803c3f
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

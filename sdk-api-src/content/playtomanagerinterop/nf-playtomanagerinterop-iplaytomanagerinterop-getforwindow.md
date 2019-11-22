@@ -1,12 +1,12 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.GetForWindow
 title: IPlayToManagerInterop::GetForWindow (playtomanagerinterop.h)
-author: windows-sdk-content
+
 description: Gets the PlayToManager instance for the specified window.
 old-location: winrt\iplaytomanagerinterop_getforwindow.htm
 tech.root: WinRT
 ms.assetid: 444f0d68-a6ae-46de-aa97-d7d505c95948
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPlayToManagerInterop interface, IPlayToManagerInterop interface [Windows Runtime],GetForWindow method, IPlayToManagerInterop.GetForWindow, IPlayToManagerInterop::GetForWindow, playtomanagerinterop/IPlayToManagerInterop::GetForWindow, winrt.iplaytomanagerinterop_getforwindow
 ms.topic: method

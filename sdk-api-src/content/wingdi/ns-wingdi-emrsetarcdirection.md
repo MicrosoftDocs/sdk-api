@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRSETARCDIRECTION
 title: EMRSETARCDIRECTION (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRSETARCDIRECTION structure contains members for the SetArcDirection enhanced metafile record.
 old-location: gdi\emrsetarcdirection.htm
 tech.root: gdi
 ms.assetid: d33d329f-7f66-4995-b80f-656c96ea105b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION"
 ms.topic: struct

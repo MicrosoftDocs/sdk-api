@@ -1,12 +1,12 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.CreateICommand
 title: ISimpleCommandCreator::CreateICommand (indexsrv.h)
-author: windows-sdk-content
+
 description: Creates an ICommand.
 old-location: search\isimplecommandcreator_createicommand.htm
 tech.root: search
 ms.assetid: 70880905-E4DF-4064-A877-18AF5CE839FB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateICommand, CreateICommand method [search], CreateICommand method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],CreateICommand method, ISimpleCommandCreator.CreateICommand, ISimpleCommandCreator::CreateICommand, indexsrv/ISimpleCommandCreator::CreateICommand, search.isimplecommandcreator_createicommand
 ms.topic: method

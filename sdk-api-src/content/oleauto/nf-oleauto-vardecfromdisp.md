@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDecFromDisp
 title: VarDecFromDisp function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts the default property of an IDispatch instance to a decimal value.
 old-location: automat\vardecfromdisp.htm
 tech.root: automat
 ms.assetid: 514637e1-ae11-4fa5-9947-ca697953b344
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
 ms.topic: function

@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawEllipse(IN const Pen,IN const RectF &)
 title: Graphics::DrawEllipse
 description: The Graphics::DrawEllipse method draws an ellipse.
 ms.assetid: c520987b-a425-4959-b293-5988de01a553
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawEllipse
 ms.topic: language-reference

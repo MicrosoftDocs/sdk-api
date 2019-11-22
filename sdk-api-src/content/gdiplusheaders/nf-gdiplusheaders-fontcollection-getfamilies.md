@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetFamilies
 title: FontCollection::GetFamilies (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The FontCollection::GetFamilies method gets the font families contained in this font collection.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilies.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FontCollection class [GDI+],GetFamilies method, FontCollection.GetFamilies, FontCollection::GetFamilies, GetFamilies, GetFamilies method [GDI+], GetFamilies method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ktmw32.RollbackTransaction
 title: RollbackTransaction function (ktmw32.h)
-author: windows-sdk-content
+
 description: Requests that the specified transaction be rolled back.
 old-location: fs\rollbacktransaction.htm
 tech.root: ktm
 ms.assetid: 7d3522b8-ddf0-449e-8ab4-09e679ba1f15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RollbackTransaction, RollbackTransaction function [Files], fs.rollbacktransaction, ktmw32/RollbackTransaction
 ms.topic: function

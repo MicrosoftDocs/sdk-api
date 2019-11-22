@@ -1,12 +1,12 @@
 ---
 UID: NF:sysinfoapi.SetSystemTime
 title: SetSystemTime function (sysinfoapi.h)
-author: windows-sdk-content
+
 description: Sets the current system time and date. The system time is expressed in Coordinated Universal Time (UTC).
 old-location: base\setsystemtime.htm
 tech.root: SysInfo
 ms.assetid: 0768794d-de61-4d5c-96ad-4c4711c72584
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetSystemTime, SetSystemTime function, _win32_setsystemtime, base.setsystemtime, sysinfoapi/SetSystemTime
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:madcapcl.McastRequestAddress
 title: McastRequestAddress function (madcapcl.h)
-author: windows-sdk-content
+
 description: The McastRequestAddress function requests one or more multicast addresses from a MADCAP server.
 old-location: madcap\mcastrequestaddress.htm
 tech.root: Madcap
 ms.assetid: 856eb251-1909-41a1-8e4f-c081942280de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
 ms.topic: function

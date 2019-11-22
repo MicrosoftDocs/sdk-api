@@ -1,12 +1,12 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo
 title: ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo (restrictederrorinfo.h)
-author: windows-sdk-content
+
 description: Retrieves the transformed restricted error info.
 old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransformedRestrictedErrorInfo, GetTransformedRestrictedErrorInfo method [Windows Runtime], GetTransformedRestrictedErrorInfo method [Windows Runtime],ILanguageExceptionTransform interface, ILanguageExceptionTransform interface [Windows Runtime],GetTransformedRestrictedErrorInfo method, ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo, ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo
 ms.topic: method

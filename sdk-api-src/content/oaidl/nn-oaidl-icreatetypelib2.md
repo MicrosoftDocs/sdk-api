@@ -1,12 +1,12 @@
 ---
 UID: NN:oaidl.ICreateTypeLib2
 title: ICreateTypeLib2 (oaidl.h)
-author: windows-sdk-content
+
 description: Provides the methods for creating and managing the component or file that contains type information.
 old-location: automat\icreatetypelib2.htm
 tech.root: automat
 ms.assetid: 97378353-8c2d-493a-8ee9-42d33ab47d18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], ICreateTypeLib2 interface [Automation],described, _oa96_ICreateTypeLib2_Interface, automat.icreatetypelib2, oaidl/ICreateTypeLib2
 ms.topic: interface

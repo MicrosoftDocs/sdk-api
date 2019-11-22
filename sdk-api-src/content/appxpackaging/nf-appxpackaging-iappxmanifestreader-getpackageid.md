@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPackageId
 title: IAppxManifestReader::GetPackageId (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets the package identifier defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getpackageid.htm
 tech.root: appxpkg
 ms.assetid: 67E1B1A4-E934-4CCF-AF94-A7923B192A21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPackageId method, IAppxManifestReader.GetPackageId, IAppxManifestReader::GetPackageId, appxpackaging/IAppxManifestReader::GetPackageId, appxpkg.iappxmanifestreader_getpackageid
 ms.topic: method

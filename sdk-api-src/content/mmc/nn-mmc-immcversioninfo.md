@@ -1,12 +1,12 @@
 ---
 UID: NN:mmc.IMMCVersionInfo
 title: IMMCVersionInfo (mmc.h)
-author: windows-sdk-content
+
 description: The IMMCVersionInfo interface provides version information about the installed MMC application.
 old-location: mmc\immcversioninfo.htm
 tech.root: mmc
 ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
 ms.topic: interface

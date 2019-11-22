@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMSHORTN2
 title: XMSHORTN2 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 2D vector for storing signed, normalized values as signed 16-bit integers (type int16_t).
 old-location: dxmath\xmshortn2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORTN2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMSHORTN2, XMSHORTN2 structure [DirectX Math Support APIs], directxpackedvector/XMSHORTN2, dxmath.xmshortn2
 ms.topic: struct

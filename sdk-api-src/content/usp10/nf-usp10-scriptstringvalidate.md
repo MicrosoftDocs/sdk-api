@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptStringValidate
 title: ScriptStringValidate function (usp10.h)
-author: windows-sdk-content
+
 description: Checks a SCRIPT_STRING_ANALYSIS structure for invalid sequences.
 old-location: intl\scriptstringvalidate.htm
 tech.root: Intl
 ms.assetid: dde9332a-0a89-4914-9d41-6ce6519cdcb2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
 ms.topic: function

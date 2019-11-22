@@ -3,7 +3,7 @@ UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFa
 title: GraphicsPath::AddString
 description: The GraphicsPath::AddString method adds the outline of a string to this path.
 ms.assetid: 1bed1611-addc-464c-a7c9-64810e922a5e
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddString
 ms.topic: language-reference

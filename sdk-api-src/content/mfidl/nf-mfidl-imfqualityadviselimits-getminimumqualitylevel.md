@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFQualityAdviseLimits.GetMinimumQualityLevel
 title: IMFQualityAdviseLimits::GetMinimumQualityLevel (mfidl.h)
-author: windows-sdk-content
+
 description: Gets the minimum quality level that is supported by the component.
 old-location: mf\imfqualityadviselimits_getminimumqualitylevel.htm
 tech.root: medfound
 ms.assetid: aea08ae5-4252-4703-964b-afc6bbc01a51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMinimumQualityLevel, GetMinimumQualityLevel method [Media Foundation], GetMinimumQualityLevel method [Media Foundation],IMFQualityAdviseLimits interface, IMFQualityAdviseLimits interface [Media Foundation],GetMinimumQualityLevel method, IMFQualityAdviseLimits.GetMinimumQualityLevel, IMFQualityAdviseLimits::GetMinimumQualityLevel, mf.imfqualityadviselimits_getminimumqualitylevel, mfidl/IMFQualityAdviseLimits::GetMinimumQualityLevel
 ms.topic: method

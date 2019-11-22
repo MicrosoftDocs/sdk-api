@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ILocationPower.Connect
 title: ILocationPower::Connect (locationapi.h)
-author: windows-sdk-content
+
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation_com_ref\ilocationpower_connect.htm
 tech.root: locationapi
 ms.assetid: 6c0145e0-974e-42b2-936e-9396f5c96e72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [WinLocation], Connect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Connect method, ILocationPower.Connect, ILocationPower::Connect, WinLocation_COM_Ref.ilocationpower_connect, locationapi/ILocationPower::Connect, winlocation.ilocationpower_connect
 ms.topic: method

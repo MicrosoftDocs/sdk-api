@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_SIZE_2D
 title: DML_SIZE_2D
-author: windows-sdk-content
+
 description: Contains values that can represent the size (as supplied to a DirectML operator) of a 2-D plane of elements within a tensor, or a 2-D scale, or any 2-D width/height value.
 old-location: direct3d12\dml_size_2d.htm
 tech.root: direct3d12
 ms.assetid: 1BB42D7B-D17C-4DD1-BE33-C3784DE78743
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_SIZE_2D, DML_SIZE_2D structure, direct3d12.dml_size_2d, directml/DML_SIZE_2D
 ms.topic: struct

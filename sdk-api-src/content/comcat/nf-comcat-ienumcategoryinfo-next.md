@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Next
 title: IEnumCATEGORYINFO::Next (comcat.h)
-author: windows-sdk-content
+
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumcategoryinfo_next.htm
 tech.root: com
 ms.assetid: d40816ca-b729-4251-b39b-a4c4ebec7118
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Next method, IEnumCATEGORYINFO.Next, IEnumCATEGORYINFO::Next, Next, Next method [COM], Next method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_next, com.ienumcategoryinfo_next, comcat/IEnumCATEGORYINFO::Next
 ms.topic: method

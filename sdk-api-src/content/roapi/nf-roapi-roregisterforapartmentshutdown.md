@@ -1,12 +1,12 @@
 ---
 UID: NF:roapi.RoRegisterForApartmentShutdown
 title: RoRegisterForApartmentShutdown function (roapi.h)
-author: windows-sdk-content
+
 description: Registers an IApartmentShutdown callback to be invoked when the current apartment shuts down.
 old-location: winrt\roregisterforapartmentshutdown.htm
 tech.root: WinRT
 ms.assetid: DE0C79AD-D80F-44EE-A628-147FC8474905
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RoRegisterForApartmentShutdown, RoRegisterForApartmentShutdown function [Windows Runtime], roapi/RoRegisterForApartmentShutdown, winrt.roregisterforapartmentshutdown
 ms.topic: function

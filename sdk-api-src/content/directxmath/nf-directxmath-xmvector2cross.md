@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector2Cross
 title: XMVector2Cross function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the 2D cross product.
 old-location: dxmath\xmvector2cross.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Cross(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Cross, XMVector2Cross, XMVector2Cross method [DirectX Math Support APIs], dxmath.xmvector2cross
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.CommitUrlCacheEntryW
 title: CommitUrlCacheEntryW function (wininet.h)
-author: windows-sdk-content
+
 description: Stores data in the specified file in the Internet cache and associates it with the specified URL.
 old-location: wininet\commiturlcacheentryw.htm
 tech.root: wininet
 ms.assetid: 0124e664-85a3-4637-9d91-7ec23025a87b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CommitUrlCacheEntryW, CommitUrlCacheEntryW function [WinINet], _inet_commiturlcacheentry_function, wininet.commiturlcacheentry, wininet.commiturlcacheentryw, wininet/CommitUrlCacheEntryW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_1.IDWriteTextAnalysisSink1
 title: IDWriteTextAnalysisSink1 (dwrite_1.h)
-author: windows-sdk-content
+
 description: The interface you implement to receive the output of the text analyzers.
 old-location: directwrite\idwritetextanalysissink1.htm
 tech.root: DirectWrite
 ms.assetid: 46882D89-CD59-4C4F-A8BD-1ABC8B8C5C4B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink1, IDWriteTextAnalysisSink1 interface [Direct Write], IDWriteTextAnalysisSink1 interface [Direct Write],described, directwrite.idwritetextanalysissink1, dwrite_1/IDWriteTextAnalysisSink1
 ms.topic: interface

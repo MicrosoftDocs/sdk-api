@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetEnhMetaFilePaletteEntries
 title: GetEnhMetaFilePaletteEntries function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetEnhMetaFilePaletteEntries function retrieves optional palette entries from the specified enhanced metafile.
 old-location: gdi\getenhmetafilepaletteentries.htm
 tech.root: gdi
 ms.assetid: 2d61fd6a-cebd-457e-ad00-d3e8bd15584a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function [Windows GDI], _win32_GetEnhMetaFilePaletteEntries, gdi.getenhmetafilepaletteentries, wingdi/GetEnhMetaFilePaletteEntries
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptSetProviderExA
 title: CryptSetProviderExA function (wincrypt.h)
-author: windows-sdk-content
+
 description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptsetproviderex.htm
 tech.root: SecCrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
 ms.topic: function

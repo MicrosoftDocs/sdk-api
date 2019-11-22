@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const RectF &)
 title: Region::Union(IN const RectF &) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified rectangle's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_27rectfamprect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const RectF &), Region.Union(const RectF&), Region::Union, Region::Union(IN const RectF &), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Union_RectF_rect_
 ms.topic: method

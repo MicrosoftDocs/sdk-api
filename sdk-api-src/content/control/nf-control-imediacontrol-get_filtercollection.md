@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IMediaControl.get_FilterCollection
 title: IMediaControl::get_FilterCollection (control.h)
-author: windows-sdk-content
+
 description: The get_FilterCollection method retrieves a collection of the filters in the filter graph.
 old-location: dshow\imediacontrol_get_filtercollection.htm
 tech.root: DirectShow
 ms.assetid: 9a14e971-365e-4061-8d07-01216e793864
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],get_FilterCollection method, IMediaControl.get_FilterCollection, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow],IMediaControl interface
 ms.topic: method

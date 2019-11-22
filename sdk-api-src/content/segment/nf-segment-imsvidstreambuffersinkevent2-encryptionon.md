@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOn
 title: IMSVidStreamBufferSinkEvent2::EncryptionOn (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionon.htm
 tech.root: mstv
 ms.assetid: 753f33bc-2430-4c76-bf9b-ccd5aeaf6676
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EncryptionOn, EncryptionOn method [Microsoft TV Technologies], EncryptionOn method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOn method, IMSVidStreamBufferSinkEvent2.EncryptionOn, IMSVidStreamBufferSinkEvent2::EncryptionOn, IMSVidStreamBufferSinkEvent2EncryptionOn, mstv.imsvidstreambuffersinkevent2_encryptionon, segment/IMSVidStreamBufferSinkEvent2::EncryptionOn
 ms.topic: method

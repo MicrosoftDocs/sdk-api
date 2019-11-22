@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.Add
 title: IX509CertificateTemplates::Add (certenroll.h)
-author: windows-sdk-content
+
 description: Adds an IX509CertificateTemplate object to the collection.
 old-location: security\ix509certificatetemplates_add.htm
 tech.root: seccertenroll
 ms.assetid: c52186bc-af51-4369-8ff5-6122d2e80450
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Add method, IX509CertificateTemplates.Add, IX509CertificateTemplates::Add, certenroll/IX509CertificateTemplates::Add, security.ix509certificatetemplates_add
 ms.topic: method

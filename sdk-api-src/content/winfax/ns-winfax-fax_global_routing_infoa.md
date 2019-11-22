@@ -1,12 +1,12 @@
 ---
 UID: NS:winfax._FAX_GLOBAL_ROUTING_INFOA
 title: FAX_GLOBAL_ROUTING_INFOA (winfax.h)
-author: windows-sdk-content
+
 description: The FAX_GLOBAL_ROUTING_INFO structure contains information about one fax routing method, as it pertains globally to the fax service.
 old-location: fax\_mfax_fax_global_routing_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_07aq.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFAX_GLOBAL_ROUTING_INFOA, FAX_GLOBAL_ROUTING_INFO, FAX_GLOBAL_ROUTING_INFO structure [Fax Service], FAX_GLOBAL_ROUTING_INFOA, FAX_GLOBAL_ROUTING_INFOW, PFAX_GLOBAL_ROUTING_INFO, PFAX_GLOBAL_ROUTING_INFO structure pointer [Fax Service], _mfax_fax_global_routing_info_str, fax._mfax_fax_global_routing_info_str, winfax/FAX_GLOBAL_ROUTING_INFO, winfax/FAX_GLOBAL_ROUTING_INFOA, winfax/FAX_GLOBAL_ROUTING_INFOW, winfax/PFAX_GLOBAL_ROUTING_INFO"
 ms.topic: struct

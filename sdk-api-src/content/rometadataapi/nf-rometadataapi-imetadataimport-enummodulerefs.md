@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumModuleRefs
 title: IMetaDataImport::EnumModuleRefs (rometadataapi.h)
-author: windows-sdk-content
+
 description: Enumerates ModuleRef tokens that represent imported modules.
 old-location: winrt\imetadataimport_enummodulerefs.htm
 tech.root: WinRT
 ms.assetid: dd3a8242-0cc9-4199-ada3-de227fe292bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumModuleRefs, EnumModuleRefs method [Windows Runtime], EnumModuleRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumModuleRefs method, IMetaDataImport.EnumModuleRefs, IMetaDataImport::EnumModuleRefs, rometadataapi/IMetaDataImport::EnumModuleRefs, winrt.imetadataimport_enummodulerefs
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:rtmv2.RtmReferenceHandles
 title: RtmReferenceHandles function (rtmv2.h)
-author: windows-sdk-content
+
 description: The RtmReferenceHandles function increases the reference count for objects pointed to by one or more handles that the routing manager used to access those objects.
 old-location: rras\rtmreferencehandles.htm
 tech.root: RRAS
 ms.assetid: 99031574-a941-451f-ad2e-b99044c9c716
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtmReferenceHandles, RtmReferenceHandles function [RAS], _rtmv2ref_rtmreferencehandles, rras.rtmreferencehandles, rtmv2/RtmReferenceHandles
 ms.topic: function

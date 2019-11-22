@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Initialize
 title: IWRdsProtocolManager::Initialize (wtsprotocol.h)
-author: windows-sdk-content
+
 description: Initializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_initialize.htm
 tech.root: TermServ
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Initialize method, IWRdsProtocolManager.Initialize, IWRdsProtocolManager::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
 ms.topic: method

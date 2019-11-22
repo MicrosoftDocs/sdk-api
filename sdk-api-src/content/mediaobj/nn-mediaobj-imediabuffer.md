@@ -1,12 +1,12 @@
 ---
 UID: NN:mediaobj.IMediaBuffer
 title: IMediaBuffer (mediaobj.h)
-author: windows-sdk-content
+
 description: The IMediaBuffer interface provides methods for manipulating a data buffer. Buffers passed to the IMediaObject::ProcessInput and ProcessOutput methods must implement this interface.
 old-location: dshow\imediabuffer.htm
 tech.root: DirectShow
 ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
 ms.topic: interface

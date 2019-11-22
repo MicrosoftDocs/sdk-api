@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WriteSource
 title: IWICBitmapFrameEncode::WriteSource (wincodec.h)
-author: windows-sdk-content
+
 description: Encodes a bitmap source.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writesource.htm
 tech.root: wic
 ms.assetid: bc748982-6dc8-41cc-a23b-9d127dc22a1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICBitmapFrameEncode.WriteSource, IWICBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writesource, wic._wic_codec_iwicbitmapframeencode_writesource, wincodec/IWICBitmapFrameEncode::WriteSource
 ms.topic: method

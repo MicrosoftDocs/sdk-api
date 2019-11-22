@@ -1,12 +1,12 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_14
 title: ISCSI_CONNECTION_INFOW (iscsidsc.h)
-author: windows-sdk-content
+
 description: ISCSI_CONNECTION_INFO structure contains information about a connection.
 old-location: iscsidisc\iscsi_connection_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 4bfe2f36-2e68-4093-9660-b0140baeea80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PISCSI_CONNECTION_INFOW, ISCSI_CONNECTION_INFO, ISCSI_CONNECTION_INFO structure [iSCSI Discovery Library API], ISCSI_CONNECTION_INFOA, ISCSI_CONNECTION_INFOW, PISCSI_CONNECTION_INFO, PISCSI_CONNECTION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_connection_info, iscsidsc/ISCSI_CONNECTION_INFO, iscsidsc/ISCSI_CONNECTION_INFOA, iscsidsc/ISCSI_CONNECTION_INFOW, iscsidsc/PISCSI_CONNECTION_INFO"
 ms.topic: struct

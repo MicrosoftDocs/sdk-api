@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRow.GetCellMargin
 title: ITextRow::GetCellMargin (tom.h)
-author: windows-sdk-content
+
 description: Gets the cell margin of this row.
 old-location: controls\itextrow_getcellmargin.htm
 tech.root: Controls
 ms.assetid: fc477a0f-2368-40c8-9b75-caec3afedea0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCellMargin, GetCellMargin method [Windows Controls], GetCellMargin method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMargin method, ITextRow.GetCellMargin, ITextRow::GetCellMargin, controls.itextrow_getcellmargin, tom/ITextRow::GetCellMargin
 ms.topic: method

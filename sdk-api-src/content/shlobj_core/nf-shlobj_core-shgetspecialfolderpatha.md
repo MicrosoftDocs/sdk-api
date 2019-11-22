@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderPathA
 title: SHGetSpecialFolderPathA function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath.
 old-location: shell\SHGetSpecialFolderPath.htm
 tech.root: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
 ms.topic: function

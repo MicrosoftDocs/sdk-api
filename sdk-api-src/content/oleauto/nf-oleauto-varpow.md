@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarPow
 title: VarPow function (oleauto.h)
-author: windows-sdk-content
+
 description: Returns the result of performing the power function with two variants.
 old-location: automat\varpow.htm
 tech.root: automat
 ms.assetid: 80e19d25-94cf-49f8-b49f-9cda14d0ee4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarPow, VarPow function [Automation], _oa96_VarPow, automat.varpow, oleauto/VarPow
 ms.topic: function

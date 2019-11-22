@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC
 title: DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML activation operator that performs a hard sigmoid function on every element in the input, f(x) = max(0, min(alpha * x + beta, 1)).
 old-location: direct3d12\dml_activation_hard_sigmoid_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 9E6360B5-5B8E-431B-A668-78F69A1E2A43
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC, DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC structure, direct3d12.dml_activation_hard_sigmoid_operator_desc, directml/DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC
 ms.topic: struct

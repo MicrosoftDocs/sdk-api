@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Transform
 title: BoundingSphere::Transform
-author: windows-sdk-content
+
 description: Transforms the BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Transform

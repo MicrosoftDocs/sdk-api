@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromGUIDAsString
 title: InitPropVariantFromGUIDAsString function (propvarutil.h)
-author: windows-sdk-content
+
 description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_LPWSTR.
 old-location: properties\InitPropVariantFromGUIDAsString.htm
 tech.root: properties
 ms.assetid: bcc343f7-741f-4cdd-bd2f-ae4786faab0e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString function [Windows Properties], properties.InitPropVariantFromGUIDAsString, propvarutil/InitPropVariantFromGUIDAsString, shell.InitPropVariantFromGUIDAsString, shell_InitPropVariantFromGUIDAsString
 ms.topic: function

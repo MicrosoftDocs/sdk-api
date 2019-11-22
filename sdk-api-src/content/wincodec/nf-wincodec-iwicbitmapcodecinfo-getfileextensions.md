@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetFileExtensions
 title: IWICBitmapCodecInfo::GetFileExtensions (wincodec.h)
-author: windows-sdk-content
+
 description: Retrieves a comma delimited list of the file name extensions associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getfileextensions.htm
 tech.root: wic
 ms.assetid: 7b171c48-3fad-44ea-a9a5-8318e4cc3eba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileExtensions, GetFileExtensions method [Windows Imaging Component], GetFileExtensions method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetFileExtensions method, IWICBitmapCodecInfo.GetFileExtensions, IWICBitmapCodecInfo::GetFileExtensions, _wic_codec_iwicbitmapcodecinfo_getfileextensions, wic._wic_codec_iwicbitmapcodecinfo_getfileextensions, wincodec/IWICBitmapCodecInfo::GetFileExtensions
 ms.topic: method

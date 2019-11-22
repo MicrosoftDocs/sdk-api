@@ -1,12 +1,12 @@
 ---
 UID: NF:ual.UalInstrument
 title: UalInstrument function (ual.h)
-author: windows-sdk-content
+
 description: Records the specified data to the User Access Logging (UAL) framework by using information from a UAL_DATA_BLOB structure.
 old-location: ual\ualinstrument.htm
 tech.root: ual
 ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
 ms.topic: function

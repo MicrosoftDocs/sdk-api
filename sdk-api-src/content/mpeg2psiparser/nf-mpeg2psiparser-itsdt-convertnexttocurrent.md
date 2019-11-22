@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.ConvertNextToCurrent
 title: ITSDT::ConvertNextToCurrent (mpeg2psiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadInt2
 title: XMLoadInt2 function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads data into the x and y components of an XMVECTOR.
 old-location: dxmath\xmloadint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt2(const uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt2, XMLoadInt2, XMLoadInt2 method [DirectX Math Support APIs], dxmath.xmloadint2
 ms.topic: function

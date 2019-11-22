@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetMediaSink
 title: IMFStreamSink::GetMediaSink (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the media sink that owns this stream sink.
 old-location: mf\imfstreamsink_getmediasink.htm
 tech.root: medfound
 ms.assetid: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink, GetMediaSink method [Media Foundation], GetMediaSink method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaSink method, IMFStreamSink.GetMediaSink, IMFStreamSink::GetMediaSink, mf.imfstreamsink_getmediasink, mfidl/IMFStreamSink::GetMediaSink
 ms.topic: method

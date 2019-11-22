@@ -1,12 +1,12 @@
 ---
 UID: NE:resapi.VM_RESDLL_CONTEXT
 title: VM_RESDLL_CONTEXT (resapi.h)
-author: windows-sdk-content
+
 description: Contains actions for a virtual machine to perform.
 old-location: mscs\vm_resdll_context.htm
 tech.root: MsCS
 ms.assetid: F01306D5-9D46-4489-AB38-67029EEFE6D0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT enumeration pointer [Failover Cluster], VM_RESDLL_CONTEXT, VM_RESDLL_CONTEXT enumeration [Failover Cluster], VmResdllContextLiveMigration, VmResdllContextSave, VmResdllContextShutdown, VmResdllContextShutdownForce, VmResdllContextTurnOff, mscs.vm_resdll_context, resapi/PVM_RESDLL_CONTEXT, resapi/VM_RESDLL_CONTEXT, resapi/VmResdllContextLiveMigration, resapi/VmResdllContextSave, resapi/VmResdllContextShutdown, resapi/VmResdllContextShutdownForce, resapi/VmResdllContextTurnOff"
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif.tagVMRGUID
 title: VMRGUID (strmif.h)
-author: windows-sdk-content
+
 description: The VMRGUID structure is a member of the VMRMONITORINFO structure and is used to identify a monitor on the system (VMR-7 only).
 old-location: dshow\vmrguid.htm
 tech.root: DirectShow
 ms.assetid: e05d986a-c044-47c9-8430-7190ad29c7ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VMRGUID, VMRGUID structure [DirectShow], VMRGUIDStructure, dshow.vmrguid, strmif/VMRGUID
 ms.topic: struct

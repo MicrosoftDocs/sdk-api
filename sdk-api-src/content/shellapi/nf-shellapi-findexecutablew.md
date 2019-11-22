@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.FindExecutableW
 title: FindExecutableW function (shellapi.h)
-author: windows-sdk-content
+
 description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file.
 old-location: shell\FindExecutable.htm
 tech.root: shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecutableA, FindExecutableW, _win32_FindExecutable, shell.FindExecutable, shellapi/FindExecutable, shellapi/FindExecutableA, shellapi/FindExecutableW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_REFERENCE_FLAGS
 title: EVT_CHANNEL_REFERENCE_FLAGS (winevt.h)
-author: windows-sdk-content
+
 description: Defines the values that specify how a channel is referenced.
 old-location: wes\evt_channel_reference_flags.htm
 tech.root: wes
 ms.assetid: 4f86dce0-1b01-4258-af86-b3fe1eca010a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_REFERENCE_FLAGS, EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog], EvtChannelReferenceImported, wes.evt_channel_reference_flags, winevt/EVT_CHANNEL_REFERENCE_FLAGS, winevt/EvtChannelReferenceImported
 ms.topic: enum

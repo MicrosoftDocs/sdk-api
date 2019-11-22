@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
 title: D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
-author: windows-sdk-content
+
 description: Retrieves the maximum number of enabled input streams supported by the video processor.
 tech.root: mf
 ms.assetid: 7c4f3ea1-e62d-41d2-b277-7e1f08d30dc0
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

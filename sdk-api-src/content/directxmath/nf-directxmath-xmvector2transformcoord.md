@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector2TransformCoord
 title: XMVector2TransformCoord function (directxmath.h)
-author: windows-sdk-content
+
 description: Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 old-location: dxmath\xmvector2transformcoord.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformCoord(XMVECTOR,XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2TransformCoord, XMVector2TransformCoord, XMVector2TransformCoord method [DirectX Math Support APIs], dxmath.xmvector2transformcoord
 ms.topic: function

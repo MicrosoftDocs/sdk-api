@@ -1,12 +1,12 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.RetrieveProperties
 title: IStorageProviderPropertyHandler::RetrieveProperties (storageprovider.h)
-author: windows-sdk-content
+
 description: Gets the properties managed by the sync engine.
 old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
 tech.root: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
 ms.topic: method

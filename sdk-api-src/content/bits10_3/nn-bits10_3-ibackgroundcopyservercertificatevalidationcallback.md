@@ -1,12 +1,12 @@
 ---
 UID: NN:bits10_3.IBackgroundCopyServerCertificateValidationCallback
 title: IBackgroundCopyServerCertificateValidationCallback
-author: windows-sdk-content
+
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback
 description: Server certificates are sent when an HTTPS connection is opened. Use this method to implement a callback to be called to validate those server certificates.
 tech.root: Bits
-ms.author: windowssdkdev
+
 ms.date: 05/09/2019
 ms.topic: interface
 f1_keywords: 

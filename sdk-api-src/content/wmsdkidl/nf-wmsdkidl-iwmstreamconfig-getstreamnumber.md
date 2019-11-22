@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamNumber
 title: IWMStreamConfig::GetStreamNumber (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetStreamNumber method retrieves the stream number.
 old-location: wmformat\iwmstreamconfig_getstreamnumber.htm
 tech.root: wmformat
 ms.assetid: 2996c897-eb38-4432-8bf7-549023ab00f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStreamNumber, GetStreamNumber method [windows Media Format], GetStreamNumber method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamNumber method, IWMStreamConfig.GetStreamNumber, IWMStreamConfig::GetStreamNumber, IWMStreamConfigGetStreamNumber, wmformat.iwmstreamconfig_getstreamnumber, wmsdkidl/IWMStreamConfig::GetStreamNumber
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.InventoryNtmsLibrary
 title: InventoryNtmsLibrary function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The InventoryNtmsLibrary function queues an inventory of the specified library. If the library is busy, RSM queues InventoryNtmsLibrary and returns success.
 old-location: fs\inventoryntmslibrary.htm
 tech.root: Rsm
 ms.assetid: ae631417-a83d-48d9-be9b-61424321ffd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InventoryNtmsLibrary, InventoryNtmsLibrary function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_OMID, NTMS_INVENTORY_STOP, _zaw_inventoryntmslibrary, base.inventoryntmslibrary, fs.inventoryntmslibrary, ntmsapi/InventoryNtmsLibrary
 ms.topic: function

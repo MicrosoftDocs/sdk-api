@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IStreamAsync
 title: IStreamAsync (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
 old-location: shell\IStreamAsync.htm
 tech.root: shell
 ms.assetid: 2d436312-3d61-4511-9342-711b2f7d4717
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], IStreamAsync interface [Windows Shell],described, _shell_IStreamAsync, shell.IStreamAsync, shobjidl/IStreamAsync
 ms.topic: interface

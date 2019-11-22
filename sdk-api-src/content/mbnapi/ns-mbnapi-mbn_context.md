@@ -1,12 +1,12 @@
 ---
 UID: NS:mbnapi.MBN_CONTEXT
 title: MBN_CONTEXT (mbnapi.h)
-author: windows-sdk-content
+
 description: The MBN_CONTEXT structure stores information about the connection context.
 old-location: mbn\mbn_context.htm
 tech.root: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
 ms.topic: struct

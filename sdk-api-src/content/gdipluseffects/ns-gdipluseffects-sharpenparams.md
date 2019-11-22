@@ -1,12 +1,12 @@
 ---
 UID: NS:gdipluseffects.SharpenParams
 title: SharpenParams (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The SharpenParams structure contains members that specify the nature of a sharpening adjustment to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_SharpenParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\sharpenparams.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SharpenParams, SharpenParams structure [GDI+], _gdiplus_STRUC_SharpenParams, gdiplus._gdiplus_STRUC_SharpenParams, gdipluseffects/SharpenParams
 ms.topic: struct

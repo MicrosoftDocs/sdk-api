@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_ARRAY_SRV
 title: D3D10_TEX1D_ARRAY_SRV (d3d10.h)
-author: windows-sdk-content
+
 description: Specifies the subresource(s) from an array of 1D textures to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex1d_array_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_srv.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1c4bb230-5609-5f26-980d-718fe120fd71, D3D10_TEX1D_ARRAY_SRV, D3D10_TEX1D_ARRAY_SRV structure [Direct3D 10], d3d10/D3D10_TEX1D_ARRAY_SRV, direct3d10.d3d10_tex1d_array_srv
 ms.topic: struct

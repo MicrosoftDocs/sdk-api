@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_RemoteName
 title: IRDPSRAPIAttendee::get_RemoteName (rdpencomapi.h)
-author: windows-sdk-content
+
 description: The name of the remote client. This is usually the attendee's friendly name.
 old-location: rdp\irdpsrapiattendee_remotename.htm
 tech.root: rdp
 ms.assetid: 69861a6d-3dc5-4871-8e99-0d46d2896dcc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMemInputPin.Receive
 title: IMemInputPin::Receive (strmif.h)
-author: windows-sdk-content
+
 description: The Receive method receives the next media sample in the stream.
 old-location: dshow\imeminputpin_receive.htm
 tech.root: DirectShow
 ms.assetid: 7cc1e57a-a18a-4ea4-9669-0be3fb140d40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],Receive method, IMemInputPin.Receive, IMemInputPin::Receive, IMemInputPinReceive, Receive, Receive method [DirectShow], Receive method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receive, strmif/IMemInputPin::Receive
 ms.topic: method

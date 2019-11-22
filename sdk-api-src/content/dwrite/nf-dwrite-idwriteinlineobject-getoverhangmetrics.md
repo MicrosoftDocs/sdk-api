@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.GetOverhangMetrics
 title: IDWriteInlineObject::GetOverhangMetrics (dwrite.h)
-author: windows-sdk-content
+
 description: IDWriteTextLayout calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will simply be zeroes.
 old-location: directwrite\idwriteinlineobject_getoverhangmetrics.htm
 tech.root: DirectWrite
 ms.assetid: b3b3e9f0-ee35-4117-9a62-a975c03b5ca9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOverhangMetrics, GetOverhangMetrics method [Direct Write], GetOverhangMetrics method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetOverhangMetrics method, IDWriteInlineObject.GetOverhangMetrics, IDWriteInlineObject::GetOverhangMetrics, directwrite.idwriteinlineobject_getoverhangmetrics, dwrite/IDWriteInlineObject::GetOverhangMetrics
 ms.topic: method

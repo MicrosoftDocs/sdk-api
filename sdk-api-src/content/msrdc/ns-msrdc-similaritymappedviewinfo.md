@@ -1,12 +1,12 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0011
 title: SimilarityMappedViewInfo (msrdc.h)
-author: windows-sdk-content
+
 description: Contains information about a similarity mapped view.
 old-location: rdc\similaritymappedviewinfo.htm
 tech.root: rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
 ms.topic: struct

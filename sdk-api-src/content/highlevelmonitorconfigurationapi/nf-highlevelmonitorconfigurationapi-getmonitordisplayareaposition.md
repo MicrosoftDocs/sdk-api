@@ -1,12 +1,12 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaPosition
 title: GetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-author: windows-sdk-content
+
 description: Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.
 old-location: monitor\getmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: d6dca744-634e-420f-a025-5be9d136969f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDisplayAreaPosition, GetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition, monitor.getmonitordisplayareaposition
 ms.topic: function

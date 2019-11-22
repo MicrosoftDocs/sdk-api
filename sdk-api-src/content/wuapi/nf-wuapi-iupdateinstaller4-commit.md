@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IUpdateInstaller4.Commit
 title: IUpdateInstaller4::Commit (wuapi.h)
-author: windows-sdk-content
+
 description: Finalizes updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4_commit.htm
 tech.root: Wua_Sdk
 ms.assetid: F94F443D-9A15-42C3-A404-B80F5E498AD3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Update Agent], Commit method [Windows Update Agent],IUpdateInstaller4 interface, IUpdateInstaller4 interface [Windows Update Agent],Commit method, IUpdateInstaller4.Commit, IUpdateInstaller4::Commit, wua.iupdateinstaller4_commit, wuapi/IUpdateInstaller4::Commit
 ms.topic: method

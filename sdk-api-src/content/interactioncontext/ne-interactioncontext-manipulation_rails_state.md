@@ -1,12 +1,12 @@
 ---
 UID: NE:interactioncontext.MANIPULATION_RAILS_STATE
 title: MANIPULATION_RAILS_STATE (interactioncontext.h)
-author: windows-sdk-content
+
 description: Specifies the rail states for an interaction.
 old-location: input_intcontext\manipulation_rails_state.htm
 tech.root: Input_IntContext
 ms.assetid: b4978408-e124-482e-b552-7a6db76a40ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_RAILS_STATE, MANIPULATION_RAILS_STATE enumeration, MANIPULATION_RAILS_STATE_FREE, MANIPULATION_RAILS_STATE_MAX, MANIPULATION_RAILS_STATE_RAILED, MANIPULATION_RAILS_STATE_UNDECIDED, input_intcontext.manipulation_rails_state, interactioncontext.manipultion_rails_state, interactioncontext/MANIPULATION_RAILS_STATE, interactioncontext/MANIPULATION_RAILS_STATE_FREE, interactioncontext/MANIPULATION_RAILS_STATE_MAX, interactioncontext/MANIPULATION_RAILS_STATE_RAILED, interactioncontext/MANIPULATION_RAILS_STATE_UNDECIDED
 ms.topic: enum

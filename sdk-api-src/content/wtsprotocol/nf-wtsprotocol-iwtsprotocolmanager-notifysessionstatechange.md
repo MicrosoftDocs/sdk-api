@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionStateChange
 title: IWTSProtocolManager::NotifySessionStateChange (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolManager::NotifySessionStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifySessionStateChange.
 old-location: termserv\iwtsprotocolmanager_notifysessionstatechange.htm
 tech.root: TermServ
 ms.assetid: 59c284bf-8175-46d2-ab44-8b2975574c14
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWTSProtocolManager.NotifySessionStateChange, IWTSProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWTSProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwtsprotocolmanager_notifysessionstatechange, wtsprotocol/IWTSProtocolManager::NotifySessionStateChange
 ms.topic: method

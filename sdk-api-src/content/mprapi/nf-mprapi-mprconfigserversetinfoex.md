@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprConfigServerSetInfoEx
 title: MprConfigServerSetInfoEx function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprConfigServerSetInfoEx function sets port information on a specified RRAS server.
 old-location: rras\mprconfigserversetinfoex.htm
 tech.root: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
 ms.topic: function

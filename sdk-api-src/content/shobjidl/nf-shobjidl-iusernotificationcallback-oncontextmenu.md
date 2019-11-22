@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnContextMenu
 title: IUserNotificationCallback::OnContextMenu (shobjidl.h)
-author: windows-sdk-content
+
 description: Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
 old-location: shell\IUserNotificationCallback_OnContextMenu.htm
 tech.root: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnContextMenu method, IUserNotificationCallback.OnContextMenu, IUserNotificationCallback::OnContextMenu, OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
 ms.topic: method

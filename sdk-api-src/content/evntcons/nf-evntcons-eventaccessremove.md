@@ -1,12 +1,12 @@
 ---
 UID: NF:evntcons.EventAccessRemove
 title: EventAccessRemove function (evntcons.h)
-author: windows-sdk-content
+
 description: Removes the permissions defined in the registry for the specified provider or session.
 old-location: etw\eventaccessremove_func.htm
 tech.root: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
 ms.topic: function

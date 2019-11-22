@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingBox.Contains
 title: BoundingBox::Contains
-author: windows-sdk-content
+
 description: Tests the whether the BoundingBox contains a specified point.
 old-location: dxmath\boundingbox_contains_6.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Contains(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Contains method, BoundingBox.Contains, BoundingBox.Contains(XMVECTOR), BoundingBox::Contains, Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_contains_6
 ms.topic: method

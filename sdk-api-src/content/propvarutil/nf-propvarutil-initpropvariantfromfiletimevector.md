@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromFileTimeVector
 title: InitPropVariantFromFileTimeVector function (propvarutil.h)
-author: windows-sdk-content
+
 description: Initializes a PROPVARIANT structure from a specified vector of FILETIME values.
 old-location: properties\InitPropVariantFromFileTimeVector.htm
 tech.root: properties
 ms.assetid: 2f996f62-6605-405a-9cbb-6b41905eae29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromFileTimeVector, InitPropVariantFromFileTimeVector function [Windows Properties], properties.InitPropVariantFromFileTimeVector, propvarutil/InitPropVariantFromFileTimeVector, shell.InitPropVariantFromFileTimeVector, shell_InitPropVariantFromFileTimeVector
 ms.topic: function

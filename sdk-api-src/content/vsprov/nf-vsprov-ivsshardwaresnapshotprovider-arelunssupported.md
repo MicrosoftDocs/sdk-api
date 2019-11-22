@@ -1,12 +1,12 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.AreLunsSupported
 title: IVssHardwareSnapshotProvider::AreLunsSupported (vsprov.h)
-author: windows-sdk-content
+
 description: Determines whether the hardware provider supports shadow copy creation for all LUNs that contribute to the volume.
 old-location: base\ivsshardwaresnapshotprovider_arelunssupported.htm
 tech.root: VSS
 ms.assetid: f3615770-63a1-49eb-a3b9-b4d349fc33df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AreLunsSupported, AreLunsSupported method [VSS], AreLunsSupported method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],AreLunsSupported method, IVssHardwareSnapshotProvider.AreLunsSupported, IVssHardwareSnapshotProvider::AreLunsSupported, base.ivsshardwaresnapshotprovider_arelunssupported, vsprov/IVssHardwareSnapshotProvider::AreLunsSupported
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0011
 title: KNOWLEDGE_COOKIE_COMPARISON_RESULT (winsync.h)
-author: windows-sdk-content
+
 description: Represents the possible results when a knowledge cookie is compared with a knowledge object by using ISyncKnowledge2::CompareToKnowledgeCookie.
 old-location: winsync\knowledge_cookie_comparison_result.htm
 tech.root: winsync
 ms.assetid: 9770679e-19ed-49ed-a505-076db6f0119c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: KCCR_COOKIE_KNOWLEDGE_CONTAINED, KCCR_COOKIE_KNOWLEDGE_CONTAINS, KCCR_COOKIE_KNOWLEDGE_EQUAL, KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, KNOWLEDGE_COOKIE_COMPARISON_RESULT, KNOWLEDGE_COOKIE_COMPARISON_RESULT enumeration [Windows Sync], winsync.knowledge_cookie_comparison_result, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINED, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINS, winsync/KCCR_COOKIE_KNOWLEDGE_EQUAL, winsync/KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT
 ms.topic: enum

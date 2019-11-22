@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_MailTo
 title: IFsrmReportJob::get_MailTo (fsrmreports.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm
 tech.root: fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.get_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, get_MailTo
 ms.topic: method

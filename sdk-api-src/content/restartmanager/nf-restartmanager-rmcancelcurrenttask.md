@@ -1,12 +1,12 @@
 ---
 UID: NF:restartmanager.RmCancelCurrentTask
 title: RmCancelCurrentTask function (restartmanager.h)
-author: windows-sdk-content
+
 description: Cancels the current RmShutdown or RmRestart operation. This function must be called from the application that has started the session by calling the RmStartSession function.
 old-location: rstmgr\rmcancelcurrenttask.htm
 tech.root: rstmgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
 ms.topic: function

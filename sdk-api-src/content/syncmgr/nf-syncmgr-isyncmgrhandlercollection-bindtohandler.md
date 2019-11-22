@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerCollection.BindToHandler
 title: ISyncMgrHandlerCollection::BindToHandler (syncmgr.h)
-author: windows-sdk-content
+
 description: Instantiates a specified sync handler when called by Sync Center.
 old-location: shell\ISyncMgrHandlerCollection_BindToHandler.htm
 tech.root: shell
 ms.assetid: a3ae2427-7c7d-45b6-82ea-a8f5607f9623
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],BindToHandler method, ISyncMgrHandlerCollection.BindToHandler, ISyncMgrHandlerCollection::BindToHandler, _shell_ISyncMgrHandlerCollection_BindToHandler, shell.ISyncMgrHandlerCollection_BindToHandler, syncmgr/ISyncMgrHandlerCollection::BindToHandler
 ms.topic: method

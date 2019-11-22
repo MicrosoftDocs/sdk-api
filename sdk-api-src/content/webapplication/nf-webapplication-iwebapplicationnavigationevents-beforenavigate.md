@@ -1,12 +1,12 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.BeforeNavigate
 title: IWebApplicationNavigationEvents::BeforeNavigate (webapplication.h)
-author: windows-sdk-content
+
 description: Fired before navigate occurs in the given host (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm
 tech.root: debug_wwahost
 ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
 ms.topic: method

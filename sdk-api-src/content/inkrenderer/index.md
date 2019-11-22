@@ -1,7 +1,7 @@
 ---
 UID: NA:inkrenderer
 ms.assetid: 5d2adf3e-d30b-3224-8a07-1e79de98ff78
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

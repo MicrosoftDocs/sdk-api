@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_FILTER_FLAGS
 title: D3D12_VIDEO_PROCESS_FILTER_FLAGS
-author: windows-sdk-content
+
 description: Specifies support for the image filters defined by the D3D12_VIDEO_PROCESS_FILTER enumeration. 
 tech.root: mf
 ms.assetid: 5ed6a952-6333-41d5-ab6e-73332cf2f590
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxJob.get_Type
 title: IFaxJob::get_Type (faxcom.h)
-author: windows-sdk-content
+
 description: The IFaxJob::get_Type property is a number that describes the type of fax job represented by the object.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_type_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5jad.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],Type property, IFaxJob.Type, IFaxJob.get_Type, IFaxJob::Type, IFaxJob::get_Type, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, Type property [Fax Service], Type property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type, fax._mfax_ifaxjob_mfax_ifaxjob_get_type_cpp, faxcom/IFaxJob::Type, faxcom/IFaxJob::get_Type, get_Type
 ms.topic: method

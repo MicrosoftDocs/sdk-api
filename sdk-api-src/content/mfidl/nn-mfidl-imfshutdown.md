@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFShutdown
 title: IMFShutdown (mfidl.h)
-author: windows-sdk-content
+
 description: Exposed by some Media Foundation objects that must be explicitly shut down.
 old-location: mf\imfshutdown.htm
 tech.root: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
 ms.topic: interface

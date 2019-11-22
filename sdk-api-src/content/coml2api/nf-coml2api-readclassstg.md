@@ -1,12 +1,12 @@
 ---
 UID: NF:coml2api.ReadClassStg
 title: ReadClassStg function (coml2api.h)
-author: windows-sdk-content
+
 description: The ReadClassStg function reads the CLSID previously written to a storage object with the WriteClassStg function.
 old-location: stg\readclassstg.htm
 tech.root: Stg
 ms.assetid: 90256fcd-54ce-48e1-aa12-d8f91cd4dfb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReadClassStg, ReadClassStg function [Structured Storage], _stg_readclassstg, coml2api/ReadClassStg, stg.readclassstg
 ms.topic: function

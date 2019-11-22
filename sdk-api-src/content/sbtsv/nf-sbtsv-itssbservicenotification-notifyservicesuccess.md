@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceSuccess
 title: ITsSbServiceNotification::NotifyServiceSuccess (sbtsv.h)
-author: windows-sdk-content
+
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
 old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
 tech.root: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
 ms.topic: method

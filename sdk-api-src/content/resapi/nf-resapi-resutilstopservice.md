@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilStopService
 title: ResUtilStopService function (resapi.h)
-author: windows-sdk-content
+
 description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopservice.htm
 tech.root: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Cluster], ResUtilStopService, ResUtilStopService function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE, resapi/ResUtilStopService
 ms.topic: function

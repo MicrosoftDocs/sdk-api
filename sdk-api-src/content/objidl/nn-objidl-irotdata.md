@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IROTData
 title: IROTData (objidl.h)
-author: windows-sdk-content
+
 description: Implemented by monikers to enable the running object table (ROT) to compare monikers against each other.
 old-location: com\irotdata.htm
 tech.root: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
 ms.topic: interface

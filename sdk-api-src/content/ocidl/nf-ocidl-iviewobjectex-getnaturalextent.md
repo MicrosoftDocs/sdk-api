@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetNaturalExtent
 title: IViewObjectEx::GetNaturalExtent (ocidl.h)
-author: windows-sdk-content
+
 description: Provides sizing hints from the container for the object to use as the user resizes it.
 old-location: com\iviewobjectex_getnaturalextent.htm
 tech.root: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent, GetNaturalExtent method [COM], GetNaturalExtent method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetNaturalExtent method, IViewObjectEx.GetNaturalExtent, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
 ms.topic: method

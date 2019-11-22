@@ -1,12 +1,12 @@
 ---
 UID: NN:syncmgr.ISyncMgrEventStore
 title: ISyncMgrEventStore (syncmgr.h)
-author: windows-sdk-content
+
 description: Exposes methods that allow a handler to provide its own event store and manage its own sync events, instead of using the default Sync Center event store. These events are displayed in the Sync Results folder.
 old-location: shell\ISyncMgrEventStore.htm
 tech.root: shell
 ms.assetid: 218875bf-be6b-4ca5-8904-81c81c7fbf70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], ISyncMgrEventStore interface [Windows Shell],described, _shell_ISyncMgrEventStore, shell.ISyncMgrEventStore, syncmgr/ISyncMgrEventStore
 ms.topic: interface

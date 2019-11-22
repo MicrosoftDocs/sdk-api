@@ -1,12 +1,12 @@
 ---
 UID: NN:mmstream.IStreamSample
 title: IStreamSample (mmstream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated.
 old-location: dshow\istreamsample.htm
 tech.root: DirectShow
 ms.assetid: 57818d7d-3290-46f7-a3fd-8585cdd64ec3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample
 ms.topic: interface

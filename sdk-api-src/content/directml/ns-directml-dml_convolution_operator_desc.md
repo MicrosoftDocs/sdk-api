@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_CONVOLUTION_OPERATOR_DESC
 title: DML_CONVOLUTION_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML matrix multiplication operator that performs a convolution function on the input, out[j] = x[i]*w[0] + x[i+1]*w[1] + x[i+2]*w[2] + ... + x[i+k]*w[k] + bias.
 old-location: direct3d12\dml_convolution_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: F504A454-2D0B-472D-BB45-EE5690A1160C
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_CONVOLUTION_OPERATOR_DESC, DML_CONVOLUTION_OPERATOR_DESC structure, direct3d12.dml_convolution_operator_desc, directml/DML_CONVOLUTION_OPERATOR_DESC
 ms.topic: struct

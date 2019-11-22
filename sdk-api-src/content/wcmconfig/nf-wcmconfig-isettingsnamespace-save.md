@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.Save
 title: ISettingsNamespace::Save (wcmconfig.h)
-author: windows-sdk-content
+
 description: Updates the settings namespace to persistent and visible.
 old-location: smi\isettingsnamespace_save.htm
 tech.root: SMI
 ms.assetid: 368c1d0b-c8a2-47af-82f8-bcc1ccf8930b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],Save method, ISettingsNamespace.Save, ISettingsNamespace::Save, Save, Save method [SMI], Save method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_save, wcmconfig/ISettingsNamespace::Save
 ms.topic: method

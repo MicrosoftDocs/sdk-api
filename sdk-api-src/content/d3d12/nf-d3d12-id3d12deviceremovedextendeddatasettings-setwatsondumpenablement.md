@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement
-author: windows-sdk-content
+
 description: Configures the enablement settings for Device Removed Extended Data (DRED) Watson dump creation.
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setwatsondumpenablement.htm
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/08/2019
 ms.keywords: SetWatsonDumpEnablement, SetWatsonDumpEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setwatsondumpenablement
 ms.topic: method

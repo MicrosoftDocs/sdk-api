@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTypeNegotiation.TryOutputProps
 title: IWMReaderTypeNegotiation::TryOutputProps (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The TryOutputProps method ascertains whether certain changes to the properties of an output are possible.
 old-location: wmformat\iwmreadertypenegotiation_tryoutputprops.htm
 tech.root: wmformat
 ms.assetid: 87d16641-3d28-4bad-962b-8ec808cd7877
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation interface [windows Media Format],TryOutputProps method, IWMReaderTypeNegotiation.TryOutputProps, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format],IWMReaderTypeNegotiation interface, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
 ms.topic: method

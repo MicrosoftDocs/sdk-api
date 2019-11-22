@@ -1,12 +1,12 @@
 ---
 UID: NE:mftransform._MFT_DRAIN_TYPE
 title: MFT_DRAIN_TYPE (mftransform.h)
-author: windows-sdk-content
+
 description: Not supported.
 old-location: mf\_mft_drain_type.htm
 tech.root: medfound
 ms.assetid: 8243b154-be93-4a81-9990-f022dc8cb736
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 8243b154-be93-4a81-9990-f022dc8cb736, MFT_DRAIN_NO_TAILS, MFT_DRAIN_PRODUCE_TAILS, _MFT_DRAIN_TYPE, _MFT_DRAIN_TYPE enumeration [Media Foundation], mf._mft_drain_type, mftransform/MFT_DRAIN_NO_TAILS, mftransform/MFT_DRAIN_PRODUCE_TAILS, mftransform/_MFT_DRAIN_TYPE
 ms.topic: enum

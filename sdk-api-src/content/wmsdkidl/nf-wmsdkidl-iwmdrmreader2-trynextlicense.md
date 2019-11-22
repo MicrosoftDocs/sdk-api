@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.TryNextLicense
 title: IWMDRMReader2::TryNextLicense (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The TryNextLicense method sets the reader to evaluate the next applicable license (if present) for the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_trynextlicense.htm
 tech.root: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
 ms.topic: method

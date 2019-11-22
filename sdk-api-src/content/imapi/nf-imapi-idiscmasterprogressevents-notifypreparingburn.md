@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyPreparingBurn
 title: IDiscMasterProgressEvents::NotifyPreparingBurn (imapi.h)
-author: windows-sdk-content
+
 description: Notifies the application that it is preparing to burn a disc. No further notifications are sent until the burn starts.
 old-location: imapi\idiscmasterprogressevents_notifypreparingburn.htm
 tech.root: imapi
 ms.assetid: 28aced4e-6e7e-40fe-a00a-c0e470815cac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyPreparingBurn method, IDiscMasterProgressEvents.NotifyPreparingBurn, IDiscMasterProgressEvents::NotifyPreparingBurn, NotifyPreparingBurn, NotifyPreparingBurn method [IMAPI], NotifyPreparingBurn method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifypreparingburn, base.idiscmasterprogressevents_notifypreparingburn, imapi.idiscmasterprogressevents_notifypreparingburn, imapi/IDiscMasterProgressEvents::NotifyPreparingBurn
 ms.topic: method

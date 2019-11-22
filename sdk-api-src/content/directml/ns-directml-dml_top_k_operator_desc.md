@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_TOP_K_OPERATOR_DESC
 title: DML_TOP_K_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML reduction operator that retrieves the top K elements along a specified axis.
 old-location: direct3d12\dml_top_k_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: BB0FD5F7-BCD8-42E0-A037-4411AFF386C2
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_TOP_K_OPERATOR_DESC, DML_TOP_K_OPERATOR_DESC structure, direct3d12.dml_top_k_operator_desc, directml/DML_TOP_K_OPERATOR_DESC
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComObjectPool2Events.OnObjPoolRecycleToTx2
 title: IComObjectPool2Events::OnObjPoolRecycleToTx2 (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpool2events_onobjpoolrecycletotx2.htm
 tech.root: cossdk
 ms.assetid: f737289f-c990-455e-bc9b-e94f25c9297f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolRecycleToTx2 method, IComObjectPool2Events.OnObjPoolRecycleToTx2, IComObjectPool2Events::OnObjPoolRecycleToTx2, OnObjPoolRecycleToTx2, OnObjPoolRecycleToTx2 method [COM+], OnObjPoolRecycleToTx2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolRecycleToTx2, comsvcs/IComObjectPool2Events::OnObjPoolRecycleToTx2, cos.icomobjectpool2events_onobjpoolrecycletotx2
 ms.topic: method

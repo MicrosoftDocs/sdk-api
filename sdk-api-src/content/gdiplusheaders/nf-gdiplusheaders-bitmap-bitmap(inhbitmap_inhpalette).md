@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HBITMAP,IN HPALETTE)
 title: Bitmap::Bitmap(IN HBITMAP,IN HPALETTE) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Bitmap::Bitmap object based on a handle to a Windows Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_52hbm_hpal.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(HBITMAP,HPALETTE), Bitmap.Bitmap(IN HBITMAP,IN HPALETTE), Bitmap::Bitmap, Bitmap::Bitmap(IN HBITMAP,IN HPALETTE), _gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_
 ms.topic: method

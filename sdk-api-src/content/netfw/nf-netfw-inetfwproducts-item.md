@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwProducts.Item
 title: INetFwProducts::Item (netfw.h)
-author: windows-sdk-content
+
 description: The Item method returns the product with the specified index if it is in the collection.
 old-location: ics\inetfwproducts_item.htm
 tech.root: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
 ms.topic: method

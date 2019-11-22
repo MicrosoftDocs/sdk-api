@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
 title: IKnowledgeSyncProvider::GetFullEnumerationChangeBatch (winsync.h)
-author: windows-sdk-content
+
 description: Gets a change batch that contains item metadata for items that have IDs greater than the specified lower bound, as part of a full enumeration.
 old-location: winsync\iknowledgesyncprovider_getfullenumerationchangebatch.htm
 tech.root: winsync
 ms.assetid: 344d0921-1e4e-4813-a095-8ae9ddf734f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFullEnumerationChangeBatch, GetFullEnumerationChangeBatch method [Windows Sync], GetFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetFullEnumerationChangeBatch method, IKnowledgeSyncProvider.GetFullEnumerationChangeBatch, IKnowledgeSyncProvider::GetFullEnumerationChangeBatch, winsync.iknowledgesyncprovider_getfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 ms.topic: method

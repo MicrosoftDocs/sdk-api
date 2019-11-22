@@ -1,12 +1,12 @@
 ---
 UID: NS:ifdef._IF_COUNTED_STRING_LH
 title: IF_COUNTED_STRING_LH (ifdef.h)
-author: windows-sdk-content
+
 description: The IF_COUNTED_STRING structure specifies a counted string for NDIS interfaces.
 old-location: netvista\if_counted_string.htm
 tech.root: NetVista
 ms.assetid: 44B59154-C5CA-42F0-A972-021833E29D81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIF_COUNTED_STRING, *PIF_COUNTED_STRING_LH, IF_COUNTED_STRING, IF_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], IF_COUNTED_STRING_LH, PIF_COUNTED_STRING, PIF_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ifdef/IF_COUNTED_STRING, ifdef/PIF_COUNTED_STRING, netvista.if_counted_string"
 ms.topic: struct

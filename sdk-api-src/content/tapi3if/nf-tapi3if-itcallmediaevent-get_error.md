@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Error
 title: ITCallMediaEvent::get_Error (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Error method gets the error associated with the media event, if any.
 old-location: tapi3\itcallmediaevent_get_error.htm
 tech.root: Tapi
 ms.assetid: 6a6b84f1-700e-42e5-9127-161a6c078235
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Error method, ITCallMediaEvent.get_Error, ITCallMediaEvent::get_Error, _tapi3_itcallmediaevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_error, tapi3if/ITCallMediaEvent::get_Error
 ms.topic: method

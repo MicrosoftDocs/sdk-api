@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Add
 title: IUpdateCollection::Add (wuapi.h)
-author: windows-sdk-content
+
 description: Adds an item to the collection.
 old-location: wua\iupdatecollection_add.htm
 tech.root: Wua_Sdk
 ms.assetid: 32b25c99-d2a0-4365-a285-f66381cfc3e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Add method, IUpdateCollection.Add, IUpdateCollection::Add, wua.iupdatecollection_add, wuapi/IUpdateCollection::Add
 ms.topic: method

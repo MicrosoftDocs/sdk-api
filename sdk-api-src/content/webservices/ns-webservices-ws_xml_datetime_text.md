@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_XML_DATETIME_TEXT
 title: WS_XML_DATETIME_TEXT (webservices.h)
-author: windows-sdk-content
+
 description: Represents a datetime formatted as an xsd:dateTime.
 old-location: wsw\ws_xml_datetime_text.htm
 tech.root: wsw
 ms.assetid: 788ad281-8e1f-45d6-bd36-0ad3aae6fd15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DATETIME_TEXT, WS_XML_DATETIME_TEXT structure [Web Services for Windows], webservices/WS_XML_DATETIME_TEXT, wsw.ws_xml_datetime_text
 ms.topic: struct

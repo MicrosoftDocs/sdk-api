@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetEnumerator
 title: ITargetInfo::GetEnumerator (wcmconfig.h)
-author: windows-sdk-content
+
 description: Gets the enumerator used to access the collection of offline properties.
 old-location: smi\itargetinfo_getenumerator.htm
 tech.root: SMI
 ms.assetid: 2e7854dd-93eb-4626-a67d-4bd3dd79a75b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [SMI], GetEnumerator method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetEnumerator method, ITargetInfo.GetEnumerator, ITargetInfo::GetEnumerator, smi.itargetinfo_getenumerator, wcmconfig/ITargetInfo::GetEnumerator
 ms.topic: method

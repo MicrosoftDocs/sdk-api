@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.VkKeyScanA
 title: VkKeyScanA function (winuser.h)
-author: windows-sdk-content
+
 description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard.
 old-location: inputdev\vkkeyscan.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\vkkeyscan.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VkKeyScan, VkKeyScan function [Keyboard and Mouse Input], VkKeyScanA, VkKeyScanW, _win32_VkKeyScan, _win32_vkkeyscan_cpp, inputdev.vkkeyscan, winui._win32_vkkeyscan, winuser/VkKeyScan, winuser/VkKeyScanA, winuser/VkKeyScanW
 ms.topic: function

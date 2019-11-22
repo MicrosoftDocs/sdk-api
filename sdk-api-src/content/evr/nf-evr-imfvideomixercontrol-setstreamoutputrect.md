@@ -1,12 +1,12 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamOutputRect
 title: IMFVideoMixerControl::SetStreamOutputRect (evr.h)
-author: windows-sdk-content
+
 description: Sets the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 tech.root: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.topic: method

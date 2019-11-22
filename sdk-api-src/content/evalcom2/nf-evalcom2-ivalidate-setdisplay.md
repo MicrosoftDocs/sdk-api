@@ -1,12 +1,12 @@
 ---
 UID: NF:evalcom2.IValidate.SetDisplay
 title: IValidate::SetDisplay (evalcom2.h)
-author: windows-sdk-content
+
 description: The SetDisplay method enables an authoring tool to obtain ICE status messages through a callback function.
 old-location: setup\ivalidate_setdisplay.htm
 tech.root: Msi
 ms.assetid: e376740e-82fc-44da-b200-c74d73978c6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,SetDisplay method, IValidate.SetDisplay, IValidate::SetDisplay, SetDisplay, SetDisplay method, SetDisplay method,IValidate interface, evalcom2/IValidate::SetDisplay, setup.ivalidate_setdisplay
 ms.topic: method

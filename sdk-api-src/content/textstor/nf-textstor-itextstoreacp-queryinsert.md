@@ -1,12 +1,12 @@
 ---
 UID: NF:textstor.ITextStoreACP.QueryInsert
 title: ITextStoreACP::QueryInsert (textstor.h)
-author: windows-sdk-content
+
 description: The ITextStoreACP::QueryInsert method determines whether the specified start and end character positions are valid.
 old-location: tsf\itextstoreacp_queryinsert.htm
 tech.root: TSF
 ms.assetid: e02846a2-d50c-4f1e-b44b-1dfa0bf50442
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsert method, ITextStoreACP.QueryInsert, ITextStoreACP::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsert_ref, textstor/ITextStoreACP::QueryInsert, tsf.itextstoreacp_queryinsert
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:namedpipeapi.CreatePipe
 title: CreatePipe function (namedpipeapi.h)
-author: windows-sdk-content
+
 description: Creates an anonymous pipe, and returns handles to the read and write ends of the pipe.
 old-location: base\createpipe.htm
 tech.root: ipc
 ms.assetid: a2d2fee8-c174-49d3-9e5a-2ce3bb763932
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePipe, CreatePipe function, _win32_createpipe, base.createpipe, namedpipeapi/CreatePipe
 ms.topic: function

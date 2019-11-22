@@ -1,12 +1,12 @@
 ---
 UID: NN:oaidl.IEnumVARIANT
 title: IEnumVARIANT (oaidl.h)
-author: windows-sdk-content
+
 description: Provides a method for enumerating a collection of variants, including heterogeneous collections of objects and intrinsic types.
 old-location: automat\ienumvariant.htm
 tech.root: automat
 ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
 ms.topic: interface

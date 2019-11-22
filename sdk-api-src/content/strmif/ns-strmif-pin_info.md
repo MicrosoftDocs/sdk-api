@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif._PinInfo
 title: PIN_INFO (strmif.h)
-author: windows-sdk-content
+
 description: The PIN_INFO structure contains information about a pin.
 old-location: dshow\pin_info.htm
 tech.root: DirectShow
 ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, dshow.pin_info, strmif/PIN_INFO
 ms.topic: struct

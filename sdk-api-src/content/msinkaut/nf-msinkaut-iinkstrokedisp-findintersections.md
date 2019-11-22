@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.FindIntersections
 title: IInkStrokeDisp::FindIntersections (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the points where this IInkStrokeDisp object intersects other IInkStrokeDisp objects within a known InkStrokes collection.
 old-location: tablet\iinkstrokedisp_findintersections.htm
 tech.root: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],FindIntersections method, IInkStrokeDisp.FindIntersections, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
 ms.topic: method

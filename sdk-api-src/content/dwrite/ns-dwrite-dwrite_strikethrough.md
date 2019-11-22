@@ -1,12 +1,12 @@
 ---
 UID: NS:dwrite.DWRITE_STRIKETHROUGH
 title: DWRITE_STRIKETHROUGH (dwrite.h)
-author: windows-sdk-content
+
 description: Contains information regarding the size and placement of strikethroughs.
 old-location: directwrite\dwrite_strikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 05d86485-2c34-4e3b-99e8-ca54a3b1e5f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWRITE_STRIKETHROUGH, DWRITE_STRIKETHROUGH structure [Direct Write], directwrite.dwrite_strikethrough, dwrite/DWRITE_STRIKETHROUGH
 ms.topic: struct

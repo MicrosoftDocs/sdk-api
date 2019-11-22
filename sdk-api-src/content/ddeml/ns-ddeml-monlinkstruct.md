@@ -1,12 +1,12 @@
 ---
 UID: NS:ddeml.tagMONLINKSTRUCT
 title: MONLINKSTRUCT (ddeml.h)
-author: windows-sdk-content
+
 description: Contains information about a Dynamic Data Exchange (DDE) advise loop. A DDE monitoring application can use this structure to obtain information about an advise loop that has started or ended.
 old-location: dataxchg\monlinkstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monlinkstruct.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMONLINKSTRUCT, MONLINKSTRUCT, MONLINKSTRUCT structure [Data Exchange], PMONLINKSTRUCT, PMONLINKSTRUCT structure pointer [Data Exchange], _win32_MONLINKSTRUCT_str, _win32_monlinkstruct_str_cpp, dataxchg.monlinkstruct_str, ddeml/MONLINKSTRUCT, ddeml/PMONLINKSTRUCT, winui._win32_monlinkstruct_str"
 ms.topic: struct

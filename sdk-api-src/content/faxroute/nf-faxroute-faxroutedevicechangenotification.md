@@ -1,12 +1,12 @@
 ---
 UID: NF:faxroute.FaxRouteDeviceChangeNotification
 title: FaxRouteDeviceChangeNotification function (faxroute.h)
-author: windows-sdk-content
+
 description: The fax service calls the FaxRouteDeviceChangeNotification function to inform a fax routing extension DLL that a fax device has been removed from the fax server, or that a new fax device has been installed.
 old-location: fax\_mfax_faxroutedevicechangenotification.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7gry.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification function [Fax Service], _mfax_faxroutedevicechangenotification, fax._mfax_faxroutedevicechangenotification, faxroute/FaxRouteDeviceChangeNotification
 ms.topic: function

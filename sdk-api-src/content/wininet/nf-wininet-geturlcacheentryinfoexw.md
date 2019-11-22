@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoExW
 title: GetUrlCacheEntryInfoExW function (wininet.h)
-author: windows-sdk-content
+
 description: Retrieves information on the cache entry associated with the specified URL, taking into account any redirections that are applied in offline mode by the HttpSendRequest function.
 old-location: wininet\geturlcacheentryinfoex.htm
 tech.root: wininet
 ms.assetid: 3842dae9-9474-492a-83fa-29d7927dc92d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheEntryInfoEx, GetUrlCacheEntryInfoEx function [WinINet], GetUrlCacheEntryInfoExA, GetUrlCacheEntryInfoExW, _inet_geturlcacheentryinfoex_function, wininet.geturlcacheentryinfoex, wininet/GetUrlCacheEntryInfoEx, wininet/GetUrlCacheEntryInfoExA, wininet/GetUrlCacheEntryInfoExW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetTransform
 title: IMILBitmapEffectRenderContextImpl::GetTransform (mileffects.h)
-author: windows-sdk-content
+
 description: Gets the matrix transform of the render context.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_gettransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\gettransform.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetTransform method, IMILBitmapEffectRenderContextImpl.GetTransform, IMILBitmapEffectRenderContextImpl::GetTransform, _wibe_imilbitmapeffectrendercontextimpl_gettransform, mileffects/IMILBitmapEffectRenderContextImpl::GetTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_gettransform
 ms.topic: method

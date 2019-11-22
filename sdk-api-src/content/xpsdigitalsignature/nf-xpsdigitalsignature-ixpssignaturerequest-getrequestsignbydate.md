@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestSignByDate
 title: IXpsSignatureRequest::GetRequestSignByDate (xpsdigitalsignature.h)
-author: windows-sdk-content
+
 description: Gets the date and time before which the requested signer must sign the specified parts of the document.
 old-location: xps\ixpssignaturerequest_getrequestsignbydate.htm
 tech.root: printdocs
 ms.assetid: 14cbe79d-a299-4e8d-9734-8571c0b535ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRequestSignByDate, GetRequestSignByDate method [XPS Documents and Packaging], GetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestSignByDate method, IXpsSignatureRequest.GetRequestSignByDate, IXpsSignatureRequest::GetRequestSignByDate, xps.ixpssignaturerequest_getrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::GetRequestSignByDate
 ms.topic: method

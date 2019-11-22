@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IHeaderCtrl.InsertColumn
 title: IHeaderCtrl::InsertColumn (mmc.h)
-author: windows-sdk-content
+
 description: Adds a column to a default result pane.
 old-location: mmc\iheaderctrl_insertcolumn.htm
 tech.root: mmc
 ms.assetid: F5499550-9460-4BF9-AF99-F4BDC7F32EBC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHeaderCtrl.InsertColumn, IHeaderCtrl::InsertColumn, InsertColumn, InsertColumn method [MMC], InsertColumn method [MMC],IHeaderCtrl interface, LVCFMT_CENTER, LVCFMT_LEFT, LVCFMT_RIGHT, MMCLV_AUTO, mmc.iheaderctrl_insertcolumn, mmc/IHeaderCtrl::InsertColumn
 ms.topic: method

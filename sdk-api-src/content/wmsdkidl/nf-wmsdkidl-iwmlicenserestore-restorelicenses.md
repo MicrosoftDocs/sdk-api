@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.RestoreLicenses
 title: IWMLicenseRestore::RestoreLicenses (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The RestoreLicenses method restores licenses that were previously backed up.
 old-location: wmformat\iwmlicenserestore_restorelicenses.htm
 tech.root: wmformat
 ms.assetid: 2d645b3a-e856-4745-b80a-89a3bc2b38bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
 ms.topic: method

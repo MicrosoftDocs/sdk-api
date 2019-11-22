@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_IPSEC_KEY
 title: VDS_ISCSI_IPSEC_KEY (vdshwprv.h)
-author: windows-sdk-content
+
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
 tech.root: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 ms.topic: struct

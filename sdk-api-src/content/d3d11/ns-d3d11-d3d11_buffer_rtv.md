@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_RTV
 title: D3D11_BUFFER_RTV (d3d11.h)
-author: windows-sdk-content
+
 description: Specifies the elements in a buffer resource to use in a render-target view.
 old-location: direct3d11\d3d11_buffer_rtv.htm
 tech.root: direct3d11
 ms.assetid: 979c69cf-f9b5-4b10-92ff-ad5245880802
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 89ee8333-dedf-139c-e1a8-05365866ee34, D3D11_BUFFER_RTV, D3D11_BUFFER_RTV structure [Direct3D 11], d3d11/D3D11_BUFFER_RTV, direct3d11.d3d11_buffer_rtv
 ms.topic: struct

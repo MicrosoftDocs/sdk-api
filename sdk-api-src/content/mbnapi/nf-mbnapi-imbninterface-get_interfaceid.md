@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterface.get_InterfaceID
 title: IMbnInterface::get_InterfaceID (mbnapi.h)
-author: windows-sdk-content
+
 description: The interface ID.
 old-location: mbn\imbninterface_interfaceid.htm
 tech.root: mbn
 ms.assetid: 9828567b-ef5e-44b7-90ce-1788cd8dd947
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InterfaceID property, IMbnInterface.InterfaceID, IMbnInterface.get_InterfaceID, IMbnInterface::InterfaceID, IMbnInterface::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnInterface interface, get_InterfaceID, mbn.imbninterface_interfaceid, mbnapi/IMbnInterface::InterfaceID, mbnapi/IMbnInterface::get_InterfaceID
 ms.topic: method

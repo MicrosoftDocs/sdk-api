@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextFont.GetSuperscript
 title: ITextFont::GetSuperscript (tom.h)
-author: windows-sdk-content
+
 description: Gets whether characters are displayed as superscript.
 old-location: controls\ITextFont_GetSuperscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsuperscript.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSuperscript, GetSuperscript method [Windows Controls], GetSuperscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSuperscript method, ITextFont.GetSuperscript, ITextFont::GetSuperscript, _win32_ITextFont_GetSuperscript, _win32_ITextFont_GetSuperscript_cpp, controls.ITextFont_GetSuperscript, controls._win32_ITextFont_GetSuperscript, tom/ITextFont::GetSuperscript
 ms.topic: method

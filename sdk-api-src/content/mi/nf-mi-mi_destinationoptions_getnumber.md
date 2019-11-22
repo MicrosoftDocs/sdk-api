@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetNumber
 title: MI_DestinationOptions_GetNumber function (mi.h)
-author: windows-sdk-content
+
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_destinationoptions_getnumber.htm
 tech.root: wmi_v2
 ms.assetid: ac48c290-631f-427e-a544-ee0258029c42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetNumber, wmi_v2.mi_destinationoptions_getnumber
 ms.topic: function

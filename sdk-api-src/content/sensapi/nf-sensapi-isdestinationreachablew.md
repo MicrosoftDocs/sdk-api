@@ -1,12 +1,12 @@
 ---
 UID: NF:sensapi.IsDestinationReachableW
 title: IsDestinationReachableW function (sensapi.h)
-author: windows-sdk-content
+
 description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
 old-location: sens\isdestinationreachable.htm
 tech.root: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable
 ms.topic: function

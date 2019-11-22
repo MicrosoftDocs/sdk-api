@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
 title: IOpcSigningOptions::GetCertificateSet (msopc.h)
-author: windows-sdk-content
+
 description: Gets an IOpcCertificateSet interface pointer.
 old-location: opc\iopcsigningoptions_getcertificateset.htm
 tech.root: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
 ms.topic: method

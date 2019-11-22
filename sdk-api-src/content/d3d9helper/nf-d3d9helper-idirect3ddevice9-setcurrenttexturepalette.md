@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetCurrentTexturePalette
 title: IDirect3DDevice9::SetCurrentTexturePalette (d3d9helper.h)
-author: windows-sdk-content
+
 description: Sets the current texture palette.
 old-location: direct3d9\idirect3ddevice9__setcurrenttexturepalette.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcurrenttexturepalette.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 94925c3c-1326-79c0-a0f6-53b8d6877539, IDirect3DDevice9 interface [Direct3D 9],SetCurrentTexturePalette method, IDirect3DDevice9.SetCurrentTexturePalette, IDirect3DDevice9::SetCurrentTexturePalette, SetCurrentTexturePalette, SetCurrentTexturePalette method [Direct3D 9], SetCurrentTexturePalette method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCurrentTexturePalette, direct3d9.idirect3ddevice9__setcurrenttexturepalette
 ms.topic: method

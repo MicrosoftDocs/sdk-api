@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Deserializer
 title: MI_Deserializer (mi.h)
-author: windows-sdk-content
+
 description: Deserialization object as created from MI_Application_NewDeserializer. The object itself should not be manually used or changed as it is used internally.
 old-location: wmi_v2\mi_deserializer.htm
 tech.root: wmi_v2
 ms.assetid: 0d2d8f3b-9567-418f-a789-a34b85c114fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer, MI_Deserializer structure [Windows Management Infrastructure (MI)], mi/MI_Deserializer, wmi_v2.mi_deserializer
 ms.topic: struct

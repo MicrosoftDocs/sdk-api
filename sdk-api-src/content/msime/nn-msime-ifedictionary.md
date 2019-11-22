@@ -1,12 +1,12 @@
 ---
 UID: NN:msime.IFEDictionary
 title: IFEDictionary (msime.h)
-author: windows-sdk-content
+
 description: The IFEDictionary interface allows clients to access a Microsoft IME user dictionary.
 old-location: intl\ifedictionary.htm
 tech.root: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.topic: interface

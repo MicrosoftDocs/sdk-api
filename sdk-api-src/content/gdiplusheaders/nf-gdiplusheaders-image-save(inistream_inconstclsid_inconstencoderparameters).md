@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters)
 title: Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Image::Save method saves this image to a stream.
 old-location: gdiplus\_gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParams_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods\save_32stream_clsidencoder_encoderparams.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],Save method, Image.Save, Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters), Image.Save(IStream*,const CLSID*,const EncoderParameters*), Image::Save, Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters), Save, Save method [GDI+], Save method [GDI+],Image class, _gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParams_, gdiplus._gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParams_
 ms.topic: method

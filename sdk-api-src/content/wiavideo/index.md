@@ -1,7 +1,7 @@
 ---
 UID: NA:wiavideo
 ms.assetid: 57911de0-f468-3a72-acb1-70d386d1447b
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

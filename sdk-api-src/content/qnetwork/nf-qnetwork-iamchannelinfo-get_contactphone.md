@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ContactPhone
 title: IAMChannelInfo::get_ContactPhone (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_ContactPhone method retrieves the phone number of the contact.
 old-location: dshow\iamchannelinfo_get_contactphone.htm
 tech.root: DirectShow
 ms.assetid: b5addbbb-a0f3-4dec-a347-9c69864a0615
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactPhone method, IAMChannelInfo.get_ContactPhone, IAMChannelInfo::get_ContactPhone, IAMChannelInfoget_ContactPhone, dshow.iamchannelinfo_get_contactphone, get_ContactPhone, get_ContactPhone method [DirectShow], get_ContactPhone method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactPhone
 ms.topic: method

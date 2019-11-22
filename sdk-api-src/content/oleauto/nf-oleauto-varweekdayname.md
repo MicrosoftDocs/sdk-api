@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarWeekdayName
 title: VarWeekdayName function (oleauto.h)
-author: windows-sdk-content
+
 description: Returns a string containing the localized name of the weekday.
 old-location: automat\varweekdayname.htm
 tech.root: automat
 ms.assetid: 8bd00c31-9ebf-4342-a8c0-ef73f5b5c108
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarWeekdayName, VarWeekdayName function [Automation], _oa96_VarWeekdayName, automat.varweekdayname, oleauto/VarWeekdayName
 ms.topic: function

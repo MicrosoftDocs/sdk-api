@@ -1,12 +1,12 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannel
 title: IWTSVirtualChannel (tsvirtualchannels.h)
-author: windows-sdk-content
+
 description: Used to control the channel state, and writes on the channel.
 old-location: termserv\iwtsvirtualchannel.htm
 tech.root: TermServ
 ms.assetid: 8a5b093f-5756-400f-9442-b95d6010ee46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannel, IWTSVirtualChannel interface [Remote Desktop Services], IWTSVirtualChannel interface [Remote Desktop Services],described, termserv.iwtsvirtualchannel, tsvirtualchannels/IWTSVirtualChannel
 ms.topic: interface

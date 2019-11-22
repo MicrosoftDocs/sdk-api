@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.CreateEventHandlerGroup
 title: IUIAutomation6::CreateEventHandlerGroup (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Registers one or more event listeners in a single method call.
 old-location: winauto\uiauto_IUIAutomation6_CreateEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: C15C5099-B409-4F75-B6BB-D3ECFBE0B762
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateEventHandlerGroup, CreateEventHandlerGroup method [Windows Accessibility], CreateEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CreateEventHandlerGroup method, IUIAutomation6.CreateEventHandlerGroup, IUIAutomation6::CreateEventHandlerGroup, uiautomationclient/IUIAutomation6::CreateEventHandlerGroup, winauto.uiauto_IUIAutomation6_CreateEventHandlerGroup
 ms.topic: method

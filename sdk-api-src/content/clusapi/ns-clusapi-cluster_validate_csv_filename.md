@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_CSV_FILENAME
 title: CLUSTER_VALIDATE_CSV_FILENAME (clusapi.h)
-author: windows-sdk-content
+
 description: Represents a cluster shared volume (CSV) during a validation operation.
 old-location: mscs\cluster_validate_csv_filename.htm
 tech.root: MsCS
 ms.assetid: E2FA02BE-45FC-4D0F-A6F3-870D20D1BCA5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_VALIDATE_CSV_FILENAME, CLUSTER_VALIDATE_CSV_FILENAME, CLUSTER_VALIDATE_CSV_FILENAME structure [Failover Cluster], PCLUSTER_VALIDATE_CSV_FILENAME, PCLUSTER_VALIDATE_CSV_FILENAME structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_CSV_FILENAME, clusapi/PCLUSTER_VALIDATE_CSV_FILENAME, mscs.cluster_validate_csv_filename"
 ms.topic: struct

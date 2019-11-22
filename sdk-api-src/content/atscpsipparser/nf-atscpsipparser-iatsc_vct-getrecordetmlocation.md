@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordEtmLocation
 title: IATSC_VCT::GetRecordEtmLocation (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordetmlocation.htm
 tech.root: mstv
 ms.assetid: 9884a9bd-bd5c-4d6a-a8b0-5ba1406c0210
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordEtmLocation, GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordEtmLocation method, IATSC_VCT.GetRecordEtmLocation, IATSC_VCT::GetRecordEtmLocation, IATSC_VCTGetRecordEtmLocation, atscpsipparser/IATSC_VCT::GetRecordEtmLocation, mstv.iatsc_vct_getrecordetmlocation
 ms.topic: method

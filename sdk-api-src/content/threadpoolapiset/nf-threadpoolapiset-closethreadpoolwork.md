@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolWork
 title: CloseThreadpoolWork function (threadpoolapiset.h)
-author: windows-sdk-content
+
 description: Releases the specified work object.
 old-location: base\closethreadpoolwork.htm
 tech.root: ProcThread
 ms.assetid: 89d7362e-0814-4f7e-a27f-8a297e210559
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolWork, CloseThreadpoolWork function, base.closethreadpoolwork, threadpoolapiset/CloseThreadpoolWork, winbase/CloseThreadpoolWork
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard (tpmvscmgr.h)
-author: windows-sdk-content
+
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
 tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.topic: method

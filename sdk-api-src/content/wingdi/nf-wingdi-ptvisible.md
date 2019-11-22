@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.PtVisible
 title: PtVisible function (wingdi.h)
-author: windows-sdk-content
+
 description: The PtVisible function determines whether the specified point is within the clipping region of a device context.
 old-location: gdi\ptvisible.htm
 tech.root: gdi
 ms.assetid: 72ccbd0f-f85b-434d-b0fc-dbe26348a74d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PtVisible, PtVisible function [Windows GDI], _win32_PtVisible, gdi.ptvisible, wingdi/PtVisible
 ms.topic: function

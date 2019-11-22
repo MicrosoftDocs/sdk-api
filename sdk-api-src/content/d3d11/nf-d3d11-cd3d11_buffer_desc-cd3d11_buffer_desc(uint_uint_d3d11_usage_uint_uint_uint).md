@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC(UINT,UINT,D3D11_USAGE,UINT,UINT,UINT)
 title: CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(UINT,UINT,D3D11_USAGE,UINT,UINT,UINT) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a CD3D11_BUFFER_DESC structure that is initialized with D3D11_BUFFER_DESC values.
 old-location: direct3d11\cd3d11_buffer_desc_cd3d11_buffer_desc_d3d11_buffer_desc_values_.htm
 tech.root: direct3d11
 ms.assetid: D0CC0B50-414A-4D19-A699-CCA007612EAF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC constructor [Direct3D 11], CD3D11_BUFFER_DESC constructor [Direct3D 11],CD3D11_BUFFER_DESC interface, CD3D11_BUFFER_DESC interface [Direct3D 11],CD3D11_BUFFER_DESC constructor, CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC(UINT,UINT,D3D11_USAGE,UINT,UINT,UINT), CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(UINT,UINT,D3D11_USAGE,UINT,UINT,UINT), d3d11/CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc_cd3d11_buffer_desc_d3d11_buffer_desc_values_
 ms.topic: method

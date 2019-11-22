@@ -1,9 +1,9 @@
 ---
 UID: NE:d3d12.D3D12_DRED_ENABLEMENT
 title: D3D12_DRED_ENABLEMENT
-author: windows-sdk-content
+
 description: Defines constants that specify render/compute GPU operations.
-ms.author: windowssdkdev
+
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ENABLEMENT, D3D12_DRED_ENABLEMENT enumeration, d3d12/D3D12_DRED_ENABLEMENT, d3d12/D3D12_DRED_ENABLEMENT enumeration, direct3d12.d3d12_dred_enablement
 ms.topic: enum

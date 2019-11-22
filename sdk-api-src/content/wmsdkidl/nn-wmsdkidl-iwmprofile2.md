@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMProfile2
 title: IWMProfile2 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMProfile2 interface exposes the globally unique identifier for a system profile.
 old-location: wmformat\iwmprofile2.htm
 tech.root: wmformat
 ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
 ms.topic: interface

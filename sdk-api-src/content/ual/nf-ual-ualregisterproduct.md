@@ -1,12 +1,12 @@
 ---
 UID: NF:ual.UalRegisterProduct
 title: UalRegisterProduct function (ual.h)
-author: windows-sdk-content
+
 description: Registers a product with User Access Logging (UAL).
 old-location: ual\ualregisterproduct.htm
 tech.root: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
 ms.topic: function

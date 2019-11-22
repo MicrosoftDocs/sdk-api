@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_ShowBalloonTip
 title: Edit_ShowBalloonTip macro (commctrl.h)
-author: windows-sdk-content
+
 description: Displays a balloon tip associated with an edit control. You can use this macro or send the EM_SHOWBALLOONTIP message explicitly.
 old-location: controls\Edit_ShowBalloonTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_showballoontip.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_ShowBalloonTip, Edit_ShowBalloonTip macro [Windows Controls], _win32_Edit_ShowBalloonTip, _win32_Edit_ShowBalloonTip_cpp, commctrl/Edit_ShowBalloonTip, controls.Edit_ShowBalloonTip, controls._win32_Edit_ShowBalloonTip
 ms.topic: macro

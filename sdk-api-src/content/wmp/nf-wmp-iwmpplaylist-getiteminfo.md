@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPPlaylist.getItemInfo
 title: IWMPPlaylist::getItemInfo (wmp.h)
-author: windows-sdk-content
+
 description: The getItemInfo method retrieves the value of a playlist attribute specified by name.
 old-location: wmp\iwmpplaylist_getiteminfo.htm
 tech.root: WMP
 ms.assetid: c6763274-01e4-4a2f-9467-150e1964193a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],getItemInfo method, IWMPPlaylist.getItemInfo, IWMPPlaylist::getItemInfo, IWMPPlaylistgetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_getiteminfo, wmp/IWMPPlaylist::getItemInfo
 ms.topic: method

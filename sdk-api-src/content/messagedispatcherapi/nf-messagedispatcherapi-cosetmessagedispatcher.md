@@ -1,12 +1,12 @@
 ---
 UID: NF:messagedispatcherapi.CoSetMessageDispatcher
 title: CoSetMessageDispatcher function (messagedispatcherapi.h)
-author: windows-sdk-content
+
 description: Registers or unregisters the per-thread message dispatcher that is to be invoked when there are window messages available to dispatch within COM wait APIs on an ASTA thread.
 old-location: com\cosetmessagedispatcher.htm
 tech.root: com
 ms.assetid: 3D6CFE01-8D3D-474E-A7D0-9B129ECD4EEA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
 ms.topic: function

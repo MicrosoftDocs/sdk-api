@@ -1,12 +1,12 @@
 ---
 UID: NF:xapo.IXAPO.CalcOutputFrames
 title: IXAPO::CalcOutputFrames (xapo.h)
-author: windows-sdk-content
+
 description: Returns the number of output frames that will be generated from a given number of input frames.
 old-location: xaudio2\ixapo_interface_calcoutputframes.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.CalcOutputFrames(UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CalcOutputFrames, CalcOutputFrames method [XAudio2 Audio Mixing APIs], CalcOutputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcOutputFrames method, IXAPO.CalcOutputFrames, IXAPO::CalcOutputFrames, xapo/IXAPO::CalcOutputFrames, xaudio2.ixapo_interface_calcoutputframes
 ms.topic: method
